@@ -85,7 +85,7 @@ Required service data is data that enables us to deliver these cloud-based conne
 - **Functional data**, which includes information needed by a connected experience to perform its task, such as configuration information about the app.
 - **Service diagnostic data**, which is the data necessary to keep the service secure, up to date, and performing as expected. Because this data is strictly related to the connected experience, it is separate from required or optional diagnostic data levels.
 
-You can choose to not offer this functionality to your users, in which case this information will not be provided to Microsoft to support the functionality of connected experiences. You can learn more [at this link](https://docs.microsoft.com/deployoffice/privacy/required-service-data).
+You can choose to not offer this functionality to your users, in which case this information will not be provided to Microsoft to support the functionality of connected experiences. You can learn more about [required service data](https://docs.microsoft.com/deployoffice/privacy/required-service-data).
 
 ## Essential services for Microsoft Teams
 
