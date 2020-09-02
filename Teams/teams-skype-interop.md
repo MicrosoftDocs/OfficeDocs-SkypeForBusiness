@@ -63,7 +63,6 @@ Blocked Skype users, along with other people and public switched telephone netwo
 - The ability for a delegate to call a Skype user on behalf of a Teams user isn't supported.
 - Screen sharing with chat isn't supported.
 
-
 ## Set whether Teams users can communicate with Skype users
 
 As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants.
