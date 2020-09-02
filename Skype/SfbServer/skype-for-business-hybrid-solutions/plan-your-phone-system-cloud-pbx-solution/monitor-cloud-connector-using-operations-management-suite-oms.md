@@ -15,6 +15,9 @@ ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: "Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS)."
 ---
 
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 # Monitor Cloud Connector using Operations Management Suite (OMS)
 
 Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS).

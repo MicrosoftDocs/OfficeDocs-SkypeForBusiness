@@ -18,6 +18,9 @@ ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: "Read this topic to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing."
 ---
 
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](direct-routing-landing-page.md).
+
 # Plan for Cloud Connector Edition PSTN sites
  
 Read this topic to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing.
