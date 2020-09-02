@@ -62,18 +62,6 @@ When you select the **Choose a picture** option, you can upload the file of your
 
 The small logo is shown next to the **Built for tenant** section title in the Teams store landing page.
 
-## Customize the text color of your organization's name
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="textcolor"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-The text color should have enough contrast with the background that the users can read the name of your organization clearly. The text will appear in the Teams client in **Apps** > **Built for your tenant** header.
-
-When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
-
- ![Image of a color chooser](media/choose-a-custom-color.png)
-
 ## Customize the background color
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
@@ -92,6 +80,18 @@ Your options are:
 - Choose a custom background. When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
 The background image or color is used as the background for the top banner in the Teams tenant app catalog.
+
+## Customize the text color of your name
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="textcolor"> </a>
+<!-- Do not remove the bookmark link above. -->
+
+The text color should have enough contrast with the background that the users can read the name of your organization clearly. The text will appear in the Teams client in **Apps** > **Built for your tenant** header.
+
+When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
+
+ ![Image of a color chooser](media/choose-a-custom-color.png)
 
 ## Complete the customization of your team apps store
 
