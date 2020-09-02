@@ -18,9 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about the custom apps store in Microsoft Teams. 
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Custom apps store in Microsoft Teams
+
+[!INCLUDE [template](includes/preview-feature.md)]
 
 Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users.
 
@@ -41,19 +44,23 @@ When you select the **Choose a picture** option, you can upload the file of your
 - .png
 - .jpg
 
-## Customize your organizational mark
+The logo is shown in the top right corner of the tenant app catalog in the Teams store.
+
+## Customize your small logo
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Your organization logomark is an image or symbol that represents your organization brand and doesn't include your company name. The logomark helps team members identify the Apps store. The logo selected will appear in the Teams client in Apps page.
+Your organization logomark or small logo is an image or symbol that represents your organization brand and doesn't include your company name. The logomark helps team members identify the Apps store. The logo selected will appear in the Teams client in Apps page.
 
 When you select the **Choose a picture** option, you can upload the file of your choice. The logomark should be 32x32 pixels, or it will be scaled to that size. It should be no larger than 5MB. The supported formats are:
 
 - .svg
 - .png
 - .jpg
+
+The small logo is shown next to the **Built for tenant** section title in the Teams store landing page.
 
 ## Customize the text color of your organization's name
 
@@ -83,6 +90,8 @@ Your options are:
   - .png
   - .jpg
 - Choose a custom background. When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
+
+The background image or color is used as the background for the top banner in the Teams tenant app catalog.
 
 ## Complete the customization of your team apps store
 
