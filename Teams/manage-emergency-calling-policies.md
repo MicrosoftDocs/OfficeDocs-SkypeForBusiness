@@ -12,12 +12,12 @@ ms.collection:
 - M365-voice
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.voice.emergencycallingpolicies.overview
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage emergency calling policies in Microsoft Teams to define what happens when a Teams user in your organization makes an emergency call. 
-f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
 ms.custom: seo-marvel-apr2020
 ---
 
