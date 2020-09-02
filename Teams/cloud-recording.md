@@ -34,8 +34,8 @@ Related: [Teams meeting recording end user documentation](https://aka.ms/recordm
 
 For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
-- User has Office 365 E1, E3, E5, A1, A3, A5, M365 Business Premium, M365 Business Standard, or M365 Business Basic.
-- User needs to be licensed for Microsoft Stream<sup>1</sup> 
+- User has Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Business Standard, or Business Basic<sup>1</sup>
+- User needs to be licensed for Microsoft Stream<sup>2</sup> 
 - User has Microsoft Stream upload video permissions
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
@@ -43,7 +43,9 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 - User is not an anonymous, Guest, or federated user in the meeting
 - To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have the -AllowTranscription setting set to true.
 
-<sup>1</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
+<sup>1</sup> As of August 20, 2020, access to the meeting recording file will expire after 21 days for users with A1. For more information, see [Upload a Microsoft Teams meeting recording to Stream](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+
+<sup>2</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
 > [!IMPORTANT] 
 > Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 21-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
