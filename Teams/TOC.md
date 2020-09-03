@@ -195,11 +195,13 @@
 ### [Plan your deployment](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Audio Conferencing in Microsoft 365](audio-conferencing-in-office-365.md)
+### [Open Preview: On-network Conferencing for Audio Conferencing](audio-conferencing-on-network.md)
 ### [Audio Conferencing common questions](audio-conferencing-common-questions.md)
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Try or purchase Audio Conferencing in Microsoft 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 ### [Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit](audio-conferencing-subscription-dial-out.md)
+
 
 ### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
