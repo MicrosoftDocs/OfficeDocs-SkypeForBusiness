@@ -20,6 +20,9 @@ description: "Read this topic to learn about steps to deploy media bypass with C
 
 # Deploy media bypass in Cloud Connector Edition
  
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later. 
   
 Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path. See also [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
