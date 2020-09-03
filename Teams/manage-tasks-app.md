@@ -19,8 +19,6 @@ appliesto:
 
 # Manage the Tasks app for your organization in Microsoft Teams
 
-> **This feature is currently in private preview.**
-
 ## Overview of Tasks
 
 The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating individual tasks powered by [Microsoft To Do](https://todo.microsoft.com/tasks/) and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab in a channel within individual teams. **My tasks** and **Shared plans** in Tasks let users view and manage all their individual and team tasks and prioritize their work. Tasks is available in Teams desktop, web, and mobile clients. 
