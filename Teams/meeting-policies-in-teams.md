@@ -207,6 +207,8 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 ### Mode for IP audio
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. If this policy setting is disabled for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this setting enabled by default. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 |Setting value |Behavior  |
@@ -219,6 +221,8 @@ For Teams mobile clients, if this setting is disabled, the user has to dial in t
 To learn more, see [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
 
 ### Mode for IP video
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. If this policy setting is disabled for user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this setting enabled by default. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
