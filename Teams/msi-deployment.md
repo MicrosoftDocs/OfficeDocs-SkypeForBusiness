@@ -60,8 +60,10 @@ The Teams MSI will place an installer in Program Files. Whenever a user signs in
 
 Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
 
-> [!Important]
-> We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service.
+> [!IMPORTANT]
+> The default location is C:\Program Files (x86)\Teams Installer on 64-bit operating systems and C:\Program Files\Teams Installer on 32-bit operating systems.
+> We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from
+> accessing the service.
 
 #### Target computer requirements
 
