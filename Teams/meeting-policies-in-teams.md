@@ -172,8 +172,8 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 - [Allow transcription](#allow-transcription)
 - [Allow cloud recording](#allow-cloud-recording)
-- [Mode for IP audio](#mode-for-ip-audio)
-- [Mode for IP video](#mode-for-ip-video)
+- [Mode for IP audio](#mode-for-ip-audio) (in preview)
+- [Mode for IP video](#mode-for-ip-video) (in preview)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
 
