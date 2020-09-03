@@ -23,9 +23,31 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
-Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive/SharePoint (ODSP) and offers many benefits:
+Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive/SharePoint and offers many benefits:
 
-ADD TABLE From HAO
+The benefits of using OneDrive/SharePoint for storing recordings include:
+
+- Retention policies for Teams meeting recording (TMR) (S+C E5 auto-retention labels)
+- Benefit from OneDrive SharePoint information governance
+- Easy to set permissions and sharing
+- Share recordings with guests (external users) with explicit share only
+- Request access flow
+- Provide OneDrive SharePoint shared links
+- Increased quota
+- Meeting  recordings are available faster
+- **Go local** tenant support
+- Multi-geo support – recordings are stored in a region specific to that user
+- Bring your own key (BYOK) support
+- Improved Transcript quality and speaker attribution
+
+There are a some limitations to consider:
+
+- English only transcripts​
+- Unable to search transcripts and transcript content​
+- Can't edit transcripts
+- Unable to download videos
+
+You'll still receive an email notification that the TMR is ready to view, and the notification in Teams chat will still be present.
 
 ## Set up the meeting recording option for OneDrive/SharePoint
 
@@ -53,7 +75,7 @@ Launch Powershell as an admin
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness "
 ```
 
-## Opt out of ODSP to continue using Stream
+## Opt out of OneDrive/SharePoint to continue using Stream
 
 Even if a policy says it’s already set to **Stream**, it might not be set. If it's set to nothing, then the default is Stream. If you want to opt-out you **must** reset the policy to **Stream** to ensure that Stream is the default.
 
