@@ -19,7 +19,10 @@ description: "Learn about deploying multiple PSTN sites in Cloud Connector Editi
 ---
 
 # Deploy multiple sites in Cloud Connector
- 
+
+> [!Important] 
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Learn about deploying multiple PSTN sites in Cloud Connector Edition.
   
 This section describes how to deploy multiple Public Switched Telephone Network (PSTN) sites. Sites are deployed one at a time using the same steps as deploying a single site. This topic describes the considerations for and differences between sites in a multiple site deployment. 

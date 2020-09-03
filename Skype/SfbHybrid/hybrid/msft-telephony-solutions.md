@@ -169,6 +169,9 @@ For more information, see [What is Phone System in Microsoft 365 and Office 365]
 
 ## Phone System with own carrier via Skype for Business Server OR Cloud Connector Edition
 
+> [!Important]
+> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 This option provides Microsoft Phone System in the cloud with connectivity to an on-premises telephony network for Skype for Business Online users.
 
 ![Phone System with your carrier via Skype for Business Server OR Cloud Connector Edition](../../sfbserver2019/media/msft-telephony-solutions-3.png)
