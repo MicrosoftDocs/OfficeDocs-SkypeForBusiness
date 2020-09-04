@@ -22,10 +22,10 @@ ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: "Learn about the planning considerations for Phone System (Cloud PBX) with on-premises PSTN connectivity."
 ---
 
+# Plan Phone System with on-premises PSTN connectivity in Skype for Business Server
+
 > [!Important]
 > Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
-
-# Plan Phone System with on-premises PSTN connectivity in Skype for Business Server
 
 Learn about the planning considerations for Phone System (Cloud PBX) with on-premises PSTN connectivity.
 

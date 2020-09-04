@@ -22,10 +22,10 @@ ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: "Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System (Cloud PBX)."
 ---
 
+# Plan for Skype for Business Cloud Connector Edition
+
 > [!Important]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
-
-# Plan for Skype for Business Cloud Connector Edition
 
 Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System (Cloud PBX).
 

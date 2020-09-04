@@ -18,10 +18,10 @@ ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: "Learn about how to upgrade your Cloud Connector Edition deployment."
 ---
 
+# Upgrade to a new version of Cloud Connector
+
 > [!Important]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
-
-# Upgrade to a new version of Cloud Connector
  
 Learn about how to upgrade your Cloud Connector Edition deployment.
   
