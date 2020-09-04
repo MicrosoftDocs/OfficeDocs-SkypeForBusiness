@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## September 1, 2020
+
+### On-demand translation in Android
+
+Inline message translation is a Microsoft Teams feature that lets users translate Teams messages into the language specified by their personal language settings. The translation setting is **On** by default. [Learn more](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
+
 ## August 17, 2020
 
 ### Group chat size increase
@@ -69,6 +75,16 @@ Approve custom apps submitted through the Teams App Submission API. [Learn more]
 ### Purchase services for Teams third-party apps in the Microsoft Teams admin center
 
 Teams apps are free to install and some may require purchasing service subscriptions to experience the app's full functionality and scope. These service subscriptions are called Software as a Service (SaaS) offers, which are available for purchase through AppSource and now through the Microsoft Teams admin center. [Learn more](../purchase-third-party-apps.md).
+
+### Publish a custom app submitted through the Teams App Submission API
+
+Developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for admins to review and approve. [Learn more](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
+
+## July 31, 2020
+
+### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
+
+Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
 
 ## July 29, 2020
 
@@ -134,6 +150,10 @@ We added the ability for auto attendants and call queue incoming calls to be tra
 
 You choose which apps are installed by default for users when they start Teams. [Learn more](../teams-app-setup-policies.md).
 
+### Screen sharing on behalf of others
+
+Many IT Admins have complained that they cannot have their employees screen share from chat when they disable the AllowPrivateCalling policy. This feature work has decoupled the ability to start a screenshare from chat from the AllowPrivateCalling policy, but it still blocks users from adding audio/video to the screenshare session if their AllowPrivateCalling policy is disabled.
+
 ## June 29, 2020
 
 ### Walkie Talkie app in Microsoft Teams
@@ -155,6 +175,12 @@ We added a new User summary widget that is available when you are adding teams a
 ### Sign-in restrictions for Android and iOS users
 
 If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies. [Learn more](../sign-in-teams.md).
+
+## June 15, 2020
+
+### Monitor shifts with audit logs
+
+You can search the audit log to view Shifts activity in your organization. [Learn more](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## June 11, 2020
 
