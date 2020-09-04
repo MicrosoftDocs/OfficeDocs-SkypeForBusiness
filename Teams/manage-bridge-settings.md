@@ -20,8 +20,11 @@ search.appverid: MET150
 description: Learn how to manage bridge settings in Microsoft Teams
 ---
 
-# Mask phone numbers in Microsoft Teams meetings and calls
+# Manage bridge settings in Teams
 
-During a Microsoft Teams meeting or phone call, a participants’ phone number can be visible to all meeting attendees. This is helpful so you can gather someone’s contact information, but it poses security and privacy risk. To remediate this issue, Teams provides a feature that masks the attendee’s phone numbers. Teams lets you implement the solution properly on service side and has a tenant setting which allows admins to toggle masking on/off. The admin can choose whether it is enabled for all meeting participants or only for external participants. The solution can work for healthcare, justice, government, enterprise, and EDU.
+Prior to and during a Microsoft Teams meeting or phone call, the meeting organizer has several options for choosing the bridge settings. See the following articles for more information:
 
-
+- [Emails sent to users when their settings change in Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
+- [Enable users to record their names when they join a meeting](nable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+- [Turn off entry and exit annoucements in a Teams meeting](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+- [Mask phone numbers](ptsn-mask-phone-numbers.md)
