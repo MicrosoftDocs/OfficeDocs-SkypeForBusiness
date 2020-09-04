@@ -137,7 +137,7 @@ Yes they can. All you need to do is submit a service request that includes your 
 
 To port out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You'll also need to set a porting PIN in the Microsoft Teams admin center.
 
-To define your porting PIN, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then in the upper-right corner of the page, select **Manage porting PIN**, and then enter a 10-digit PIN.
+To define your porting PIN, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, on the upper-right corner of the page, select **Manage porting PIN**, and then enter a 10-digit PIN.
 
 When your new carrier contacts us with the porting request, we'll ask them to provide the PIN you defined.
 
