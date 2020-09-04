@@ -78,6 +78,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "searchScope": [
         "Lync Server"
       ],
