@@ -28,18 +28,12 @@ For the latest information on Teams devices, check out [Teams Marketplace](https
 
 ## Features supported by Teams displays
 
-- **Dedicated displays for Teams**: Users can access all core Teams features including chat, meetings, calls, teams and channels, files and more.
-- **Ambient experience**: Users can easily stay on top of their busy work with always-on and glanceable displays to see important activities and notifications without context-switching on their primary work device. Users can also personalize Teams displays by customizing the background through settings.
-- **Hands-free with Cortana**: Users can interact with Teams displays using their voice to effortlessly join and present in meetings, dictate replies to a Teams chat, check what’s on the calendar, and more.
-- **Leave a note on lock screen**: Guests can choose to leave audio,video, and text notes, and users can check the notes left by guests and see who’s stopped by.  
-- **Authentication** Teams displays use Modern Authentication to simplify signing in and to improve security. Users can sign in by entering their username and password on the phone or by signing in from another device.
-- **Speed dial and call history** Users have quick access to their contacts, call history, and voicemail. They can easily manage their contacts and speed dial entries directly from Teams displays.
-- **Meetings and calls** Users can view their schedules and easily join meetings using Teams' one-touch join.
-- **User delegation** Executive assistants and admins can manage their executives' Teams displays&ndash;intercept incoming calls, make calls on behalf of the executive, take over calls that the executive has placed on hold, and monitor whether the executive is on a call, on hold, and so on.
-- **Hot desking** Users can get their contacts, meetings, and other preferences, just by signing in to the device. When they're done, they can sign out and leave the device ready for the next user.
-- **Video** Teams displays with video support let users join calls and video conferences just like they were at their computers. Users can keep their privacy by using the device's camera shutter and microphone mute switch when available.
-- **Better together** Users can lock and unlock Teams displays when connected to their Windows PC. Users can also open files or messages and then easily transition to their PC, and join meetings from either device with a distributed meeting experience across both devices.
-- **Accessibility** Teams displays include accessibility features such as high contrast text and support for screen readers such as TalkBack.
+In addition to the [features supported by Teams phones](phones-for-teams.md#features-supported-by-teams-phones), the following features are unique to Teams displays:
+
+- **Dedicated displays for Teams** Users can access all core Teams features including chat, meetings, calls, teams and channels, files and more.
+- **Ambient experience** Users can easily stay on top of their busy work with always-on and glanceable displays to see important activities and notifications without context-switching on their primary work device. Users can also personalize Teams displays by customizing the background through settings.
+- **Hands-free with Cortana** Users can interact with Teams displays using their voice to effortlessly join and present in meetings, dictate replies to a Teams chat, check what’s on the calendar, and more.
+- **Leave a note on lock screen** Guests can choose to leave audio,video, and text notes, and users can check the notes left by guests and see who’s stopped by.  
 
 ## Required licenses
 
