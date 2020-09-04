@@ -18,10 +18,10 @@ ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: "Learn about how to prepare your Cloud Connector appliance for deployment and use with Phone System (Cloud PBX)."
 ---
 
+# Prepare your Cloud Connector appliance
+
 > [!Important]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
-
-# Prepare your Cloud Connector appliance
 
 Learn about how to prepare your Cloud Connector appliance for deployment and use with Phone System (Cloud PBX).
 
