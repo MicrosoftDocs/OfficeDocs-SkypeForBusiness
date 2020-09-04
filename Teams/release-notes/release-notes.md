@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## September 3, 2020
+
+### Custom apps store in Microsoft Teams
+
+Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
 ## September 1, 2020
 
 ### On-demand translation in Android
