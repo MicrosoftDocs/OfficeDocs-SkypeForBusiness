@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## September 1, 2020
+
+### On-demand translation in Android
+
+Inline message translation is a Microsoft Teams feature that lets users translate Teams messages into the language specified by their personal language settings. The translation setting is **On** by default. [Learn more](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
+
 ## August 17, 2020
 
 ### Group chat size increase
