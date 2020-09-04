@@ -29,7 +29,7 @@ description: "The relevant planning considerations for deploying Microsoft Teams
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![List symbol](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Deploy symbol](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Tools/Wrench](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+| <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px">  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> | **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" | **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
