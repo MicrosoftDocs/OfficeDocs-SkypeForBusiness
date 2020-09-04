@@ -30,7 +30,7 @@ Use this table to find information on getting and managing phone numbers in the 
 
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
-|**What you want to do?**|**Do these steps and download the correct forms**|
+| What you want to do? | Do these steps and download the correct forms |
 |:-----|:-----|
 |Get new user phone numbers that aren't listed in the Microsoft Teams admin center.  <br/> |Download the [New phone number request for the U.S. (user numbers) (v.3.0(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf?raw=true) form, fill it out and [send it to us](mailto:gcstnmsd@microsoft.com).  <br/> |
 |Get new service phone numbers that aren't listed in the Microsoft Teams admin center. <br/> |For service numbers inside of the United States, please [download this form](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), fill it out, and [send it to us](mailto:gcstnmsd@microsoft.com).
