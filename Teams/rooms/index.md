@@ -27,9 +27,9 @@ description: "The relevant planning considerations for deploying Microsoft Teams
     :::column-end:::
 :::row-end:::
 
-|               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px">  | **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> | **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> | **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|               |               |               |
+| ------------- | ------------- | ------------- |
+| <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
