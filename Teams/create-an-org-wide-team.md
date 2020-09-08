@@ -51,7 +51,7 @@ To get the most out of your org-wide team, we recommend team owners do the follo
 
 ### Allow only team owners to post to the General channel
 
-Reduce channel noise by having only team owners post to the General channel. Go to the team and click **˙˙˙ More options** > **Manage Team**. On the **Settings** tab, click **Member permissions** > select **Only owners can post messages**.
+Reduce channel noise by having only team owners post to the General channel. Go to the team, locate the General channel, and then select **˙˙˙ More options** > **Manage channel**. On the **Channel settings** tab, click **Permissions**, and then select **Only owners can post messages**.
 
 ### Turn off @team and @[team name] mentions
 
