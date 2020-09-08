@@ -158,7 +158,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
     - Per-user installation (default)
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=""
         ```
 
         This process is the default installation, which installs Teams to the %AppData% user folder. At this point, the golden image setup is complete. Teams won't work properly with per-user installation on a non-persistent setup.
