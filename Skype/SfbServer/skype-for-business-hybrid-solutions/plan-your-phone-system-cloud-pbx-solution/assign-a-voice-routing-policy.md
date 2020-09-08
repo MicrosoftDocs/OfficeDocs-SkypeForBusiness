@@ -23,6 +23,9 @@ description: "Summary: Read this topic to learn how to assign a voice policy for
 
 # Assign a Voice Routing Policy
  
+> [!Important]
+> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 **Summary:** Read this topic to learn how to assign a voice policy for users using Phone System with on-premises PSTN connectivity. 
   
 Once a user is on Skype for Business Online and using Phone System with on-premises PSTN connectivity, two voice policies will apply to them. One is an on-premises voice routing policy that you will assign on premises. This policy can be global or user-specific and defines what PSTN usage records are associated with the user. This topic explains how to assign this policy.
