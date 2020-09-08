@@ -29,14 +29,16 @@ Insights is active in Office 365 Education SKUs A1, A3, and A5.
 
 ## Permissions
 
-User types: 
-- Students are identified by their license and do not have access to the Insights tab (even if they are an owner of the team). 
-- Educators are identified by faculty licenses. Educators must have a faculty license and be a class team owner to add and see the data presented in the Insights tab. 
-- Leaders are also identified by faculty license, but in addition they need explicit permissions from the IT global admin to view the reports in the Insights app.
+### User types
+- **Students** are identified by their license and _do not have_ access to the Insights tab (even if they are an owner of the team). 
+- **Educators** are identified by faculty licenses. Educators must have a faculty license and be a class team owner to add and see the data presented in the Insights tab. 
+- **Leaders** are also identified by faculty license, but in addition they need explicit permissions from the IT global admin to view the reports in the Insights app.
+- Guest accounts _do not have_ access to Insights.
 
+### Permission levels
 Educators and leaders have different permission levels and logic:
-- Educators can add the Insights app to a public channel within a class team by navigating to Apps in the Teams app bar and searching for Insights. The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team). 
-- Leaders can add the Insights app as a personal app (appears on Teams left menu) by navigating to Apps in the Teams app bar and searching for Insights. 
+- **Educators** can add the Insights app to a public channel within a class team by navigating to Apps in the Teams app bar and searching for Insights. The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team). 
+- **Leaders** can add the Insights app as a personal app (appears on Teams left menu) by navigating to Apps in the Teams app bar and searching for Insights. 
 
 ## Compliance
 
@@ -53,9 +55,9 @@ Our goal is to help educators to understand engagement and shine a spotlight on 
 
 ## Data collection
 
-We collect data for Insights when Education Analytics is turned on for the tenant. The data is collected from Teams activity in order to surface actionable insights for teaching and learning.
-
-By default, Education Analytics is turned **On**.
+- We collect data for Insights when Education Analytics is turned on for the tenant. The data is collected from Teams activity in order to surface actionable insights for teaching and learning.
+- Guests data _does not_ collected for Insights.
+- By default, Education Analytics is turned **On**.
 
 Currently, this data is pulled from the following areas of student and educator activity in class teams:
 
