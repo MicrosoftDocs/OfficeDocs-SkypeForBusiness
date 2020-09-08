@@ -32,7 +32,7 @@ As an admin, you can add a new guest user to the organization in a couple of way
 
 - Add guests to your organization through Azure Active Directory (Azure AD) B2B collaboration. Azure AD B2B collaboration allows a global admin to invite and authorize a set of external users by uploading a comma-separated values (CSV) file of no more than 2,000 lines to the B2B collaboration portal. For more details, check out [Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/p/?linkid=826383).
 
-Admins can also delegate permissions to add guest to others in their organization by assigning the Guest Inviter role. For more information, see [Configure external sharing](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/delegate-invitations)
+Admins can also delegate permissions to add guests to others in their organization by assigning the Guest Inviter role. For more information, see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations).
 
 With Azure AD B2B collaboration, organizations can enforce conditional access and multi-factor authentication (MFA) policies for B2B users. These policies can be enforced at the tenant, app, or individual user level, the same way that they are enabled for full-time employees and members of the organization. Such policies are enforced at the resource organization. For more information, see  [Conditional access for B2B collaboration users](https://go.microsoft.com/fwlink/?linkid=857454). Individual guest users can't be blocked.
 
