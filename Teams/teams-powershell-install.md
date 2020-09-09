@@ -80,13 +80,12 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 
 ## Install the Skype for Business Online Connector
 
-> [!WARNING]
-> Skype for Business Online Connector is currently part of Teams PowerShell public preview. Once we've rolled this feature into the GA release of Teams PowerShell, Skype for Business Online Connector will no longer be available.
-
-Download and install the [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), then run the following in PowerShell.
+> [!NOTE]
+> Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
 Import-PSSession $sfbSession
