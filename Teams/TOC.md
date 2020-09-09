@@ -431,7 +431,7 @@
 #### [Phone number management for Sweden](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
 #### [Phone number management for Switzerland](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
 #### [Phone number management for the United Kingdom](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
-#### [Phone number management for the United States.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+#### [Phone number management for the United States](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
