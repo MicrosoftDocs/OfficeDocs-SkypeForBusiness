@@ -217,7 +217,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | updateTimeOfDay                   | Time the app was updated                                                           |
 | launchPath                        | whether Teams is installed in %LOCALAPPDATA%, %PROGRAMFILES%, or other locations   |
 | loggedIn                          | If the user was logged in                                                          |
-| envType/complianceEnvironmentType | ommercial cloud or private (e.g. DoD, GCC-High, etc.)                              |
+| envType/complianceEnvironmentType | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                              |
 | cpuusage                          | CPU usage                                                                          |
 | installationSource                | Type of installation user has                                                      |
 | adalVersion                       | Version of the auth library                                                        |
@@ -229,29 +229,21 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | Property name                      | Description                                                                      |
 |------------------------------------|----------------------------------------------------------------------------------|
 | name2                              | Captures name of the tracking event                                              |
-| type3                              | amitsri to provide details ???                                                      |
 | numVisibleNotifications            | Number of visible application notifications                                      |
 | giphyEnabled                       | Whether giphy service was enabled                                                |
-| giphyRating                        | amitsri to provide details ???                                                      |
-| stickersEnabled                    | amitsri to provide details ???                                                      |
-| customTabsCount                    | amitsri to provide details ???                                                      |
 | error                              | Captures error details related to the tracking event                             |
-| method                             | amitsri to provide details ???                                                      |
-| channel                            | amitsri to provide details ???                                                      |
-| count                              | amitsri to provide details ???                                                      |
-| windowTitle                        | amitsri to provide details ???                                                      |
-| message                            | amitsri to provide details ???                                                      |
-| tpcFailureCode                     | amitsri to provide details ???                                                      |
+| method                             | Protocol method GET or POST                                                      |
+| channel                            | Captures inter-process communication channel within the app                      |
+| windowTitle                        | Type of display window associated with event                                     |
+| message                            | The type of error message                                                        |
 | crashSession/crashDesktopSession/crashId/Session_DesktopId/Session_DesktopBackgroundId | Captures unique ID for session debug purposes |
 | responseCode                       | Captures response code for the service call                                      |
-| errorUrl                           | amitsri to provide details ???                                                      |
-| errorCode                          | Captures error code ???                                                             |
-| debug                              | amitsri to provide details ???                                                      |
-| ssoEventData                       | amitsri to provide details ???                                                      |
+| errorUrl                           | The URL that failed to load                                                      |
+| errorCode                          | Captures error code                                                              |
+| ssoEventData                       | Authentication state and status                                                  |
 | correlationId                      | ID to correlate events with service side for debug purposes                      |
 | errorDescription                   | Captures description of the errorcode                                            |
-| source                             | amitsri to provide details ???                                                      |
-| loginIsEmail                       | amitsri to provide details ???                                                      |
+| source                             | Method to get the Teams app and what package type Teams was installed from       |
 | windowIsDestroyed                  | True/False state of Application Windows during event                             |
 | windowIsFocused                    | True/False state of Application Windows during event                             |
 | windowIsVisible                    | Was the application visible when event happened                                  |
@@ -259,55 +251,50 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | windowIsMaximized                  | True/False state of Application Windows during event                             |
 | windowIsFullscreen                 | True/False state of Application Windows during event                             |
 | distSrc                            | Captures the distribution source of user landing into the app                    |
-| retries                            | ???                                                                                 |
-| uses_slimcore                      | amitsri to provide details ???                                                      |
+| retries                            | Retry count when attempting to connect to an endpoint                            |
+| uses_slimcore                      | True or false if web call is using slimcore                                      |
 | persistCookieExpiresIn             | Time remaining in validity of web application cookie                             |
-| waStatus                           | amitsri to provide details ???                                                      |
-| isOnCloud                          | amitsri to provide details ???                                                      |
-| tenantName                         | Name of Tenant for user of the application                                       |
-| isSipEnabled                       | amitsri to provide details ???                                                      |
+| tenantName                         | Name of tenant for user of the application                                       |
 | appStartReason                     | How the application session started such as user initiated, after updating, etc. |
 | machineLocked                      | Whether machine was locked or not locked during the event                        |
-| data                               | amitsri to provide details ???                                                      |
+| data                               | Captures technical data for scenario investigation                               |
 | appRuntime                         | Captures runtime of the app                                                      |
 | activities                         | Last 50 user scenario names which happened before crash                          |
-| timeSinceActivity                  | amitsri to provide details ???                                                      |
-| appStates                          | records a list of app states that the app went through. This helps with crash investigation because we can see what state the app was in |
+| timeSinceActivity                  | Time since last user activity                                                    |
+| appStates                          | Records a list of app states that the desktop app went through, which helps with crash investigations because it shows what state the desktop app was in |
 | timeSinceAppState                  | Time since the app state changed                                                 |
-| webAppStates                       | similar to appStates except appStates is Desktop app states and webAppStates is web client states |
+| webAppStates                       | Records a list of app states that the web client went through, which helps with crash investigations because it shows what state the web client app was in |
 | timeSinceWebAppState               | Time since the web app state changed                                             |
 | diagnosticEvents                   | Last 50 web app diagnostic events before app crash                               |
-| timeSinceLastDiagnosticEvent       | amitsri to provide details ???                                                      |
-| timeSinceSecondLastDiagnosticEvent | amitsri to provide details ???                                                      |
+| timeSinceLastDiagnosticEvent       | Time since last diagnostic event sent                                            |
+| timeSinceSecondLastDiagnosticEvent | Time since second-last diagnostic event sent                                     |
 | appInitialized                     | Whether webapplication has started                                               |
 | targetVersion                      | Version application is going to be updated to                                    |
-| port                               | amitsri to provide details ???                                                      |
+| port                               | Internet message port number                                                     |
 | originalUrl                        | Original location of page being rendered                                         |
-| deeplinkId                         | amitsri to provide details ???                                                      |
-| appSessionEnd                      | Whether event occurred at end of application session                                |
-| eventData                          | amitsri to provide details ???                                                      |
+| deeplinkId                         | GUID for destination type of Teams link                                          |
+| appSessionEnd                      | Whether event occurred at end of application session                             |
+| eventData                          | Captures machine state and app config to help debugging in case of issues        |
 | deeplinkType                       | Type of the deeplink (chat, meeting, channel)                                    |
 | previousUpdateUrl                  | Location where application last retrieved its update from                        |
 | previousUpdateVersion              | Last version application was updated to                                          |
-| previousUpdateTime                 | When application was binaries were last updated                                  |
-| protocol                           | amitsri to provide details ???                                                      |
-| files                              | amitsri to provide details ???                                                      |
-| Perf_WorkingSetSizeKB              | amitsri to provide details ???                                                      |
-| isTimeboxingWebAppInitialize       | amitsri to provide details ???                                                      |
-| isExp                              | amitsri to provide details ???                                                      |
+| previousUpdateTime                 | When application binaries were last updated                                      |
+| protocol                           | Handler type for link, such as file or image                                     |
+| files                              | Type of file associated with an event, such as Application cache or GPU cache    |
+| Perf_WorkingSetSizeKB              | Size of memory cache                                                             |
+| isTimeboxingWebAppInitialize       | Whether app initialized before time box counter ran out                          |
+| isExp                              | Whether the app version in use is part of an experiment                          |
 | deviceType                         | Captures type of the device                                                      |
 | sanitizedErr                       | Captures sanitized version of the error information                              |
 | rigelVersion                       | Captures version of rigel device                                                 |
 | DeviceInfo_OsSku                   | Captures OS SKU information                                                      |
-| listing                            | amitsri to provide ???details                                                       |
 | isLoggedOut                        | Captures if the user is logged out                                               |
 | complianceEnvironmentType          | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                           |
-| restartTimes                       | amitsri to provide details ???                                                      |
+| restartTimes                       | Exact times of previous restarts                                                 |
 | Skype_ResultCode                   | Captures result of interop communication between Skype and Teams                 |
 | cpumodel                           | Captures model of CPU                                                            |
 | isSlimCoreRunningOutproc           | Whether Slimcore component is running in its own process                         |
-| isSlimCoreStartedAsync             | amitsri to provide details ???                                                      |
-| peopleSearchId                     | amitsri to provide details ???                                                      |
+| isSlimCoreStartedAsync             | Type of launch of internal audio/video (A/V) stack                               |
 | networkState                       | Captures state of the network                                                    |
 | desktopBuildAge                    | How old the application build is at event time                                   |
 | vdiMode                            | Captures if the app is running in VDI mode                                       |
@@ -359,8 +346,8 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 
 | Property Name                   | Description                                                              |
 |---------------------------------|--------------------------------------------------------------------------|
-| AccountComparisonFailedReason   | Addin compares the account with Teams account to see if creation is allowed. If this comparison fails we send the event |
-| AccountComparisonSuccessful     | If the above is successful ???                                              |
+| AccountComparisonFailedReason   | Addin compares the account with Teams account to see if creation is allowed, this event is sent if the comparison fails |
+| AccountComparisonSuccessful     | Addin compares the account with Teams account to see if creation is allowed, this event is sent if the comparison is successful |
 | AdalVersion                     | Version of the authentication library used                               |
 | AddinBitness                    | Version of addin                                                         |
 | AddinLanguage                   | Language of addin strings being used                                     |
