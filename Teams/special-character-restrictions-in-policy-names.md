@@ -37,9 +37,12 @@ If you have a policy with special characters, you will need to either edit the p
 ## To remove special characters
 
 **Step 1 - Make a remote connection with PowerShell.**
-[Set up your computer for Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.
+> [!NOTE]
+> Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+
 ```PowerShell
- Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ Import-Module -Name MicrosoftTeams
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
  Import-PSSession $session
