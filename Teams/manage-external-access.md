@@ -51,6 +51,9 @@ By default, external access is turned on in Teams, which means that your organiz
 
 - **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked. To block specific domains, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Blocked**. Once you set up a list of blocked domains, all other domains will be allowed.
 
+> [!NOTE]
+> If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+
 ## Allow or block domains
 
 ### Step 1 - Enable your organization to communicate with another Teams or Skype for Business organizations
