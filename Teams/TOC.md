@@ -773,7 +773,6 @@
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
 ## [Location of data in Teams](location-of-data-in-teams.md)
-## [Data collection practices](data-collection-practices.md)
 
 ## Get ready to roll out Teams
 ### [Prepare your organization's network for Teams](prepare-network.md)
