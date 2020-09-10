@@ -33,10 +33,21 @@ This article is for you if you're responsible for planning, deploying, and manag
 
 To learn more about team templates in general, please refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
 
+## Organize a store
+
+Bring your retail employees together in one central experience to manage tasks, share documents and resolve customer issues. Integrate additional applications to streamline shift start & end processes.
+
 | Base template type | Properties that come with this base template |
 | ------------------ |----------------------------------------------------- |
 |Organize a store |Channels: <ul><li>General<li>Shift handoff</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
-|Quality and safety |Channels: <ul><li>General<li>Announcements</li><li>Line 1</li><li>Line 2</li><li>Line 3</li><li>Safety</li><li>Training</li><li>Maintenance</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|||
+
+## Manager Collaboration
+
+The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions, etc. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, as well as the regional manager for that region.
+
+| Base template type | Properties that come with this base template |
+| ------------------ |----------------------------------------------------- |
 |Retail - manager collaboration |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 |||
 
