@@ -1,5 +1,5 @@
 ---
-title: Use the Teams App Submission API to submit and approve your custom apps
+title: Manage Power Platform apps in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,9 +19,43 @@ search.appverid: MET150
 description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
 ---
 
-# Publish a custom app submitted through the Teams App Submission API
+# Manage Power Platform apps in Microsoft Teams
 
 ## Overview
+
+This article gives you an overview of how to manage Power Platform apps added to Teams.
+
+[Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment to build custom apps that connect to your business data. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for anyone to create powerful bots. 
+
+These offerings provide robust pre-built templates, drag-and-drop canvases, and continuous deployments. By bringing Power Platform solutions into Teams, organizations can streamline business processes and offer a powerful collaborative canvas with rich notifications.  
+
+Makers can easily add Power Platform apps to Teams through the sharing feature from within Power Apps and Power Virtual Agents. When they're added to Teams, users will see them on the Apps page in Teams, under **Built for *Your Organization Name*** > **Built by your colleagues**.
+
+Power Apps are listed in **Built by your colleagues** for a user if:
+
+- The user created the app.
+- The app was shared directly with the user.
+- The user recently used the app.
+
+Power Virtual Agents are listed in **Built by your colleagues** for a user if:
+
+- The user created the bot.
+- The bot was shared directly with the user.
+- The bot is owned by a team the user is a member of.
+- The bot was shared with the entire organization.
+
+Users install these apps just as they would any other Teams app. Keep in mind that users can only install these apps to the context to which they have permissions, for example, a team they own, a chat they're part of, or their personal scope. 
+
+## Manage 
+
+As an admin, you can control whether shared Power Apps and shared Power Virtual Agents
+
+
+## Related topics
+
+- 
+
+*****************
 
 > [!NOTE]
 > When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. **This article focuses on how to approve and publish a custom app that a developer submits through the Teams App Submission API**. The other method, uploading a custom app, is used when a developer sends you an app package in .zip format. To learn more about that method, see <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">Publish a custom app by uploading an app package</a>.
