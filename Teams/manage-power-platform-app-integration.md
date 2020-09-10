@@ -1,5 +1,5 @@
 ---
-title: View and manage Power Platform apps in Microsoft Teams
+title: View and manage Power Platform apps in the Microsoft Teams admin center
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
 ---
 
-# View and manage Power Platform apps in Microsoft Teams
+# View and manage Power Platform apps in the Microsoft Teams admin center
 
 ## Overview
 
@@ -47,6 +47,13 @@ Users install these apps just as they would any other Teams app. Keep in mind th
 ## View and manage access to Power Platform apps in Microsoft Teams admin center
 
 As an admin, you can control whether shared Power Apps and shared Power Virtual Agents
+
+## View
+
+The [Manage apps](manage-apps.md)) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, purchase services for third-party apps, and manage org-wide app settings.
+
+## Manage
+
 
 
 ## Related topics
