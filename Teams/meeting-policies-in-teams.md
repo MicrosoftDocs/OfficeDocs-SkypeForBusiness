@@ -209,14 +209,16 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. If this policy setting is disabled for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this setting enabled by default. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
+This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 |Setting value |Behavior  |
 |---------|---------|
 |**Outgoing and incoming audio enabled**    |Outgoing and incoming audio is allowed in the meeting. This is the default setting. |
 |**Disabled**     |Outgoing and incoming audio is turned off in the meeting.     |
 
-For Teams mobile clients, if this setting is disabled, the user has to dial in to the meeting through the PSTN.
+If set to **Disabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. For Teams mobile clients, if this setting is disabled, the user has to dial in to the meeting through the PSTN.
+
+This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Teams [calling policy](teams-calling-policy.md) and turn off the **Make private calls** setting.
 
 To learn more, see [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
 
@@ -224,14 +226,17 @@ To learn more, see [Common audio/video scenarios for meetings](#common-audiovide
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. If this policy setting is disabled for user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this setting enabled by default. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
+This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 |Setting value |Behavior  |
 |---------|---------|
 |**Outgoing and incoming video enabled**    | Outgoing and incoming video is allowed in the meeting. This is the default setting. |
 |**Disabled**     | Outgoing and incoming video is turned off in the meeting.<br><br>Note that if **Mode for IP audio** is disabled, then **Mode for IP video** will also remain disabled.  |
 
-Keep in mind that this setting controls both outgoing and incoming video whereas the **Allow IP video** setting controls outgoing video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
+If set to **Disabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
+
+> [!NOTE]
+> Keep in mind that this setting controls both outgoing and incoming video whereas the **Allow IP video** setting controls outgoing video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
 
 ### Allow IP video
 
@@ -281,7 +286,7 @@ The most restrictive policy between the meeting organizer’s policy and the use
 
 #### Teams mobile clients
 
-For Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **Allow IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [**Screen sharing mode**](#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
+For Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **Allow IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
 
 ### Media bit rate (Kbs)
 
@@ -410,7 +415,7 @@ These settings control which meeting participants wait in the lobby before they 
 - [Allow chat in meetings](#allow-chat-in-meetings)
 
 > [!NOTE]
->Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group does not have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### Let anonymous people start a meeting
 
@@ -420,7 +425,7 @@ This is a per-organizer policy that allows for leaderless dial-in conferencing m
 
 ### Automatically admit people
 
-This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
+This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting doesn't apply to dial-in users.
 
 ![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
 
