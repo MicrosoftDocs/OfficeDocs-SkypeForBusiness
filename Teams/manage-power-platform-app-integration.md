@@ -1,5 +1,5 @@
 ---
-title: Manage Power Platform apps in Microsoft Teams
+title: View and manage Power Platform apps in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,7 +19,7 @@ search.appverid: MET150
 description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
 ---
 
-# Manage Power Platform apps in Microsoft Teams
+# View and manage Power Platform apps in Microsoft Teams
 
 ## Overview
 
