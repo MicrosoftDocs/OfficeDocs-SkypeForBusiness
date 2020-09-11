@@ -108,8 +108,8 @@ Here's a list of the log files that are generated and the information they conta
 |Teams.msrtc-0-s1039525249.blog     | Contains information related to the media stack. This includes channel status such as resolution, decoders and encoders used, and the number of frames sent and received, and camera and video-based screen sharing (VBSS) session status.         |
 |rtmcontrol.msrtc-0-2415069487.blog      |Records information related to remote control actions, such as the time stamp when control is given, and mouse pointer information.          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |Records media stack trace events.         |
-|Debug-0-s2790420889.blog    | Contains information related to the media agent, including information about rendering quality.          |
-|tscalling-0-2061129496.blog   |Contains information related to the ts-calling API.       |
+|Debug-0-s2790420889.blog    | Contains information related to the media agent, including rendering quality.          |
+|tscalling-0-2061129496.blog   |Records events in the ts-calling API.       |
 
 Desktop logs
 ---------------------
