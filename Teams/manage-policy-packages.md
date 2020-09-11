@@ -111,6 +111,14 @@ You can edit the settings of a policy through the **Policy packages** page or by
 2. Click the policy you want to edit. Policies that are linked to a policy package have the same name as the policy package.
 3. Make the changes that you want, and then click **Save**.
 
+## Supported policy types
+
+- Messaging
+- Meetings
+- Calling
+- App setup
+- Live events
+
 ## Troubleshooting
 
 **You receive an error when you assign a policy package**

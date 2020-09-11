@@ -51,7 +51,7 @@ To get the most out of your org-wide team, we recommend team owners do the follo
 
 ### Allow only team owners to post to the General channel
 
-Reduce channel noise by having only team owners post to the General channel. Go to the team and click **˙˙˙ More options** > **Manage Team**. On the **Settings** tab, click **Member permissions** > select **Only owners can post messages**.
+Reduce channel noise by having only team owners post to the General channel. Go to the team, locate the General channel, and then select **˙˙˙ More options** > **Manage channel**. On the **Channel settings** tab, click **Permissions**, and then select **Only owners can post messages**.
 
 ### Turn off @team and @[team name] mentions
 
@@ -81,6 +81,10 @@ If this isn't an option, you can use PowerShell to create a public team and add 
 
 Global admins can convert an existing team to an org-wide team by editing it in Teams client. Go to the team name, click **More options** > **Edit team**.
 
+### Can I create an org-wide team using a team template?
+
+Team templates can't be used to create an org-wide team. Work for this feature is currently in progress. 
+
 ## See also
 
-Watch a video about about [creating a company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Watch a video about [creating a company-wide team in Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

@@ -71,8 +71,11 @@ Install-Module PowerShellGet -Force -AllowClobber
 
 To install Teams PowerShell public preview, run the PowerShell command below.
 
+> [!NOTE]
+> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease"
+
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 ```
 
 ## Install the Skype for Business Online Connector
@@ -97,13 +100,13 @@ To start working with Teams PowerShell, sign in with your Azure credentials.
 > If you're using the latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 ```powershell
-$credential = Get-Credentials
+$credential = Get-Credential
 
 #Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credentials $credential
+Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credentials $credential
+$session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 

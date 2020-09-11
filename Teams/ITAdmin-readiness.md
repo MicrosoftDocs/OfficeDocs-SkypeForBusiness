@@ -1,6 +1,6 @@
 ---
 title: Admin training resources - Microsoft Teams
-ms.reviewer: 
+ms.reviewer: jhwang
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -24,9 +24,9 @@ appliesto:
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content. 
 
-|               |               |               |
-| ------------- | ------------- | ------------- |
-| ![An icon depicting a hand and an upward arrow](media/get-started-blue-small.svg)  | [Get started fast with a couple of teams and channels](/MicrosoftTeams/get-started-with-teams-quick-start) | ![An icon depicting a check mark](media/success-small.svg)  | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![An icon depicting two users](media/users-people-small.svg)  | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+|               |               |               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![An icon depicting a hand and an upward arrow](media/get-started-blue-small.svg)  | [Get started fast with a couple of teams and channels](/MicrosoftTeams/get-started-with-teams-quick-start) | ![An icon depicting a check mark](media/success-small.svg)  | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![An icon depicting two users](media/users-people-small.svg)  | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![Tasks clipboard symbol](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams in 30: a training series for IT admins and change management leaders to implement Teams in 30 days](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>Technical training</h2>
 
@@ -46,6 +46,23 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Phone System introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direct Routing | [Video 1: Planning for Direct Routing in Teams ](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
+
+<h3>Teams Rooms Foundations for IT & AV Pros</h3>
+
+<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks, on  Microsoft Teams Rooms.  
+
+| Module | Video | PowerPoint deck  |
+| ------------ | -------------------- | -------------------- |
+| Module 1: Introduction to Microsoft Teams Rooms (18:29 min) | [Video](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| Module 2: Microsoft Teams Networking (34:10 min) | [Video](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| Module 3: Choosing the right device for the right space (18:45 min) | [Video](https://www.youtube.com/watch?v=jUac7mT7xP4) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| Module 4: Deploying Microsoft Teams Rooms (56:36 min) | [Video](https://www.youtube.com/watch?v=IJZPczMAsEM) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| Module 5: Configuring and starting Microsoft Teams Rooms (32:27 min) | [Video](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| Module 6: Managing Microsoft Teams Rooms, Part 1 (18:31 min) | [Video](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| Module 7: Managing Microsoft Teams Rooms, Part 2 (41:06 min) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| Module 8: Microsoft Teams Rooms -- Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+
 
 <h2>Quick start guides</h2>
 

@@ -1,8 +1,8 @@
 ---
 title: Enhance existing Microsoft 365 groups
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article

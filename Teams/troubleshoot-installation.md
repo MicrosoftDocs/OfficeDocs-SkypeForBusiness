@@ -44,7 +44,7 @@ If SquirrelSetup.log doesn't indicate the cause or if you need more information 
 
 ### Troubleshoot update issues
 
-When Teams is successfully installed, the log location switches from %LocalAppData%\SquirrelTemp to %AppData%\Microsoft\Teams. At this location, there are two log files of interest, SquirrelSetup.log and logs.txt.
+When Teams is successfully installed, the log location switches from %LocalAppData%\SquirrelTemp to %LocalAppData%\Microsoft\Teams. At this location, there are two log files of interest, SquirrelSetup.log and logs.txt.
 
 - The SquirrelSetup.log file at this location is written by Update.exe, which is an executable that services the Teams app.
 - The Logs.txt file is used by the Teams app (specifically Teams.exe) to record significant application events. It will likely contain failure information.

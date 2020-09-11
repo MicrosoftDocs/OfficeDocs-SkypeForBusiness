@@ -1,5 +1,5 @@
 ---
-title: Use Teams templates in the admin console
+title: Use Teams templates to create a new team
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,10 +25,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
+**Custom templates are not yet supported for EDU customers.**
+
 > [!NOTE]
 > Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
 
-Teams templates are pre-built definitions of a team's structure designed around a business need or project. Use pre-built templates or create your own template. Teams templates let you quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. Currently you can use a template in the admin console or using [Microsoft Graph](get-started-with-teams-templates.md).
+Teams templates are pre-built definitions of a team's structure designed around a business need or project. Use pre-built templates or create your own template. Teams templates let you quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. Currently you can create a team from a template in Teams or using [Microsoft Graph](get-started-with-teams-templates.md).
 
 In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few sample requests to create a team from a template.
 
@@ -64,7 +66,6 @@ Once a base template type is defined, you can extend or override these special t
 > [!NOTE]
 > Pre-defined base templates provided in Microsoft Teams can be duplicated but not edited.
 
-
 | Base template type | Properties that come with this base template |
 | ------------------ |----------------------------------------------------- |
 | Adopt Office 365 |  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendar</li> |
@@ -82,8 +83,24 @@ Once a base template type is defined, you can extend or override these special t
 |Retail - manager collaboration |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 |||
 
+## Template size limits
+
+Templates are limited to a specific number of channels, tabs, and apps.
+
+ > [!Note]
+ > You can add more channels, tabs, and apps to the team after it's been created from a template.
+
+|Feature | Limit|
+|-|-|
+|Channels per template | 15 |
+|Tabs per channel in a template | 20 |
+|Apps per template | 50|
+|||
+
+See [Limits and specifications of Teams](limits-specifications-teams.md) for more information.
+
 ## Related topics
 
-- [Create a team template](create-a-team-template.md)
-- [Create a team from an existing team template](modify-existing-team-template.md)
-- [Create a template from an existing team](create-team-from-existing-team.md)
+- [Create a custom team template](create-a-team-template.md)
+- [Create a team template from an existing team template](create-template-from-existing-template.md)
+- [Create a template from an existing team](create-template-from-existing-team.md)

@@ -1,14 +1,13 @@
 ---
 title: Manage the Praise app in the Teams admin center
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin 
 ms.topic: article 
 ms.service: msteams
 localization_priority: Normal 
 description: Learn about admin settings in the Praise app in the Microsoft Teams admin center
-ROBOTS: NOINDEX, NOFOLLOW
 
 ---
 
@@ -42,7 +41,7 @@ Educators can recognize individual students for social and emotional learning (S
 
 ## Create your own badges
 
-Switch the **Custom badges** toggle to On and select **Create a custom badge**. From there, you can design a custom badge in the side panel.
+Switch the **Custom badges** toggle to On and select **Create a custom badge**. From there, you can design a custom badge in the side panel. You can create up to 25 custom badges. 
 
 1. Enter a badge name. This is the name that will appear on the badge when users send praise.
 
@@ -51,7 +50,7 @@ Switch the **Custom badges** toggle to On and select **Create a custom badge**. 
    > [!TIP]
    > If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them.
 
-3. Upload a badge image. The accepted file type is .PNG. The file must be less than 25kb.
+3. Upload a badge image. The accepted file type is .PNG. The image file must be less than 40 KB with maximum dimensions of 216 X 216 pixels.
 ![Badge with background, text, and image fields labeled](media/praise-app-badge-fields.png)
 
 4. Localize your badge name: Under **Localized badge names**, select **Add**. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
@@ -94,7 +93,7 @@ Below is a list of example colors to get you started:
 
 **When choosing colors, keep accessibility in mind.** Some colors go together better than others.  Create contrast between your text and background colors to make the badge name easy to read. For example, if you chose a dark background color, choose a light text color.
 
-**When selecting an image, keep badge dimensions in mind.** For the best quality, we recommend uploading an image file that is 216x216 pixels. Avoid stretching or distorting the image to fit these dimensions.
+**When selecting an image, keep badge dimensions in mind.** For the best quality, we recommend uploading an image file that is 216 x 216 pixels (which are the maximum dimensions). Avoid stretching or distorting the image to fit these dimensions.
 
 **If your badge image isn’t rectangular, make the image transparent.** You’ll need to do this before uploading the image file to Praise.
 
@@ -102,7 +101,7 @@ Below is a list of example colors to get you started:
 
 ## Badge set assets
 
-Built-in badge sets can't be modified, so when a built-in set is enabled, all badges in the set are added to the Praise app. If you want to add specific badges from a built-in set and leave out others, recreate the badges you want to use as custom badges. You can download the badge image and find the text and background colors of badges from built-in sets in the tables below.
+Built-in badge sets can't be modified, so when a built-in set is enabled, all badges in the set are added to the Praise app. If you want to add specific badges from a built-in set and leave out others, re-create the badges you want to use as custom badges. You can download the badge image and find the text and background colors of badges from built-in sets in the tables below.
 
 ### Default badges assets
 
@@ -111,13 +110,13 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 |Badge name     |Image file  |Text color | Background color |
 |---------------|------------|---------- |--------|
 |Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|Awesome        |[Awesome PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png>Awesome.PNG)</a>|#8283B2    |#D1EFF2|
+|Awesome        |[Awesome PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |Coach          |[Coach PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |Courage        |[Courage PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |Creative       |[Creative PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
 |Inclusive      |[Inclusive PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|Leadership     |[Leadership PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership.pn)|#419098    |#D2EAEC|
+|Leadership     |[Leadership PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
 |Optimism       |[Optimism PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |Problem solver |[Problem solver PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |Team player    |[Team player PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|

@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 Groups and Microsoft Teams
 ms.reviewer: Kyle Blevins
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
@@ -35,7 +35,7 @@ Don't miss the poster [Groups in Microsoft 365 for IT Architects](teams-architec
 How Microsoft 365 Groups work
 --------------------------
 
-When you create a team, on the backend, you're creating a Microsoft 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Office 365 cloud applications. If the person creating the team is an owner of an existing Office 365 Public or Private Group, they can add Teams functionality to the group if it has less than 5000 people and has never been added to Teams. This creates one default **General** channel in which chat messages, documents, OneNote, and other objects reside. Viewing the document library for the channel will reveal the **General** folder representing the channel in the team. More importantly, if you create your own folder structure within a document library **it does not propagate** to Teams as a channel; for now, it only flows from Teams into SharePoint.
+When you create a team, on the backend, you're creating a Microsoft 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Office 365 cloud applications. If the person creating the team is an owner of an existing Office 365 Public or Private Group, they can add Teams functionality to the group if the number of members in the group are within the limits specified in [Limits and specifications for Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) and the group has never been added to Teams. This creates one default **General** channel in which chat messages, documents, OneNote, and other objects reside. Viewing the document library for the channel will reveal the **General** folder representing the channel in the team. More importantly, if you create your own folder structure within a document library **it does not propagate** to Teams as a channel; for now, it only flows from Teams into SharePoint.
 
 > [!NOTE]
 > Based on customer feedback, new Microsoft 365 Groups generated as a result of creating a team in Microsoft Teams client will no longer show in Outlook by default. To turn on or turn off the display of Groups in Outlook, use the [Set-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) cmdlet with the **HiddenFromExchangeClientsEnabled** parameter. Groups created through Outlook and then later enabled for Teams will continue to show in both Outlook and Teams. 

@@ -72,12 +72,13 @@ The following Collaboration Bars are Certified for Microsoft Teams:
 
 The following are the latest Teams IP phone app and firmware versions.
 
-#### Release Date: June 26,2020
+#### Release Date: August 31,2020
 
 #### App versions
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Update #5       | August 31, 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0            | 1.0.0.202006290446.product Versioncode: 216|
 | Update #4       | June 30, 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
 | Update #3       | May 13, 2020  | .040801                     | .4715                  | 1.210               |
 
@@ -87,13 +88,16 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.4.208 | Update #4                |
-| AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Update #4                |
-| Poly CCX400         | 1.0.1.0054           | Update #3                |
-| Poly CCX500/CCX600  | 5.9.13.0306          | Update #3                |
-| Yealink T55/T56/T58 | 58.15.0.107          | Update #4                |
-| Yealink VP59        | 91.15.0.42           | Update #4                |
-| Yealink CP960       | 73.15.0.103          | Update #4                |
+| AudioCodes C448HD   | C450HD_TEAMS_1.5.203 | Update #5                |
+| AudioCodes C450HD   | C450HD_TEAMS_1.5.203 | Update #5                |
+|Lenovo ThinkSmart View|CD-18781Y.200809.091 |Update #5                 |
+| Poly CCX400         | 6.2.21.1198          | Update #5                |
+| Poly CCX500/CCX600  | 6.2.21.1198          | Update #5                |
+| Poly Trio C60       | 5.9.5.2686           | Update #5                |
+| Yealink T55/T56/T58 | 58.15.0.110          | Update #5                |
+| Yealink MP56        | 122.15.0.13          | Update #5                |
+| Yealink VP59        | 91.15.0.44           | Update #5                |
+| Yealink CP960       | 73.15.0.105          | Update #5                |
 
 ### Product release information for Collaboration Bars
 
@@ -103,7 +107,8 @@ The following are the latest Teams Collaboration Bar app and firmware versions.
 
 | Product release | Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Update #3       | May 13, 2020 | .040901                     | .4715                  | .210                |
+| Update #2       | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode: 212|
+| Update #1       | May 13, 2020 | .040901                     | .4715                  | .210                |
 
 #### Firmware versions
 
@@ -111,7 +116,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 | 118.15.0.19      | Update #3                |
+| Yealink VC210 + CP900 | 118.15.0.32      | Update #2         |
+| Poly Studio X30 | 3.2.0.222012          | Update #2         |
+| Poly Studio X50 | 3.2.0.222012          | Update #2         |
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
