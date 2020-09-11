@@ -85,11 +85,11 @@ The debug logs are automatically downloaded to the following folders.
 Media logs
 ---------------------------
 
-Media logs contain diagnostic data about audio, video, and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
+Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases only upon request and can only be inspected by Microsoft. 
 
-> [!NOTE]
-> Logging for Teams meetings is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, and then restart Teams.
+Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, and then restart Teams.
 
+The following table outlines the log locations.
 
 |Client |Location |
 |---------|---------|
