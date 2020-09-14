@@ -43,8 +43,6 @@ Users install Power Platform apps in the same way they install any other Teams a
 
 As an admin, you can control whether Power Platform apps are listed in **Built by your colleagues** on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).
 
-You do this by allowing or blocki:
-
 - **Shared Power Apps**
 - **Shared Power Virtual Agents**
 
