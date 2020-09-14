@@ -78,7 +78,11 @@ For the latest server and client requirements, see [this Citrix website](https:/
 
 ### VMware Horizon Workspace and Desktop requirements
 
-VMware Horizon provides optimized AV support for Teams on VDI for improved productivity across virtual desktops. You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page.
+VMware Horizon is a modern platform for secure delivery of virtual desktops and apps across the hybrid cloud. To offer a great end-user experience, VMware Horizon provides media optimization for Teams. This optimization improves overall productivity across virtual desktops and apps, and enhances user experience when calling and meeting using Teams.
+
+You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page. The required media optimization components are part of the Horizon Agent and Horizon Client by default and there's no need to install any additional plug-in to use the optimization feature for Teams.
+
+To get the latest requirements and instructions on how to configure media optimization for Teams, see [this VMware website](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
 ## Install or update the Teams desktop app on VDI
 
@@ -372,10 +376,12 @@ The following calling and meeting features are not supported:
 - Enhanced emergency services
 - HID buttons and LED controls between the Teams app and devices
 - Background blur and effects
-- Broadcast/live events
+- Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - Call park
 - Call queue
+- Shared system audio/computer sound
+- Media bypass for Direct Routing
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
