@@ -34,6 +34,9 @@ Using Teams in a virtualized environment might be somewhat different from using 
 
 To ensure an optimal user experience, follow the guidance in this article.
 
+ > [!Note]
+ > See [Team features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) for more information.
+
 ## Teams on VDI components
 
 Using Teams in a virtualized environment requires the following components.
