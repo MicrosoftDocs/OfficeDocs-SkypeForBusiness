@@ -25,9 +25,9 @@ description: Learn how to approve your custom apps that are submitted using the 
 
 This article gives you an overview of how to manage [Power Platform](https://powerplatform.microsoft.com/) apps added to Teams in the Microsoft Teams admin center.
 
-[Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment that makers in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for makers to create powerful bots. Bringing Power Platform into Teams, 
+[Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment that makers in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for makers to create powerful bots. With the integration of Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create custom solutions to be more productive.  
 
-Makers control who can access their app using the [sharing features from within Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) and Power Virtual Agents. They can share their app to individual users, group of users, or your entire organization. When an app is shared and added to Teams, users will see it on the Apps page in Teams by going to **Built for *Your Organization Name*** > **Built by your colleagues**.
+Makers control who can access their app using the [sharing feature in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) and the [sharing feature in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots). When an app is shared and added to Teams, users will see it on the Apps page in Teams by going to **Built for *Your Organization Name*** > **Built by your colleagues**.
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Power Platform apps listed in Built by your colleagues":::
 
@@ -37,11 +37,17 @@ A user will see an app in **Built by your colleagues** if the app meets one of t
 |---------|---------|
 |<ul><li>The user created the app.</li><li>The app was shared directly with the user.</li><li>The user recently used the app. </li></ul>| <ul><li>The user created the bot.</li><li>The bot was shared directly with the user or with your entire organization.</li><li>The bot is owned by a team the user is a member of. </li></ul>        |
 
-Users install Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install these apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.
+Users install Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install  apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.
 
 ## Manage access to Power Platform apps in Microsoft Teams admin center
 
-As an admin, you can control whether shared Power Apps and shared Power Virtual Agents
+As an admin, you can control whether apps created in Power Apps and Power Virtual Agents are listed in **Built by your colleagues** on the Apps page in Teams.  
+
+Admins have control over which apps can appear in the new Built by your colleagues section, and managing that access uses Teams’ app permission policies.  
+
+Two new apps are now in the Teams app catalog: Shared Power Apps and Shared Power Virtual Agents.
+
+Admins can use app permission policies and the Allow/Block toggles on the Manage apps and app details pages to control access to this feature. If the app(s) are blocked at the org level or for specific users inside an app permission policy, then the pipeline for sharing, discovering, and installing the apps is disabled for those users. This means users will not be able to see apps from that platform in the Built by your colleagues section and cannot install them in Teams.  
 
 The [Manage apps](manage-apps.md)) page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, purchase services for third-party apps, and manage org-wide app settings.
 
