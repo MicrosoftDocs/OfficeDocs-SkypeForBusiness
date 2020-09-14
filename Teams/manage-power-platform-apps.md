@@ -27,7 +27,7 @@ This article gives you an overview of how to manage [Power Platform](https://pow
 
 [Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment that makers in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for makers to create powerful bots. Bringing Power Platform into Teams, 
 
-Makers control who can access their app using the sharing features from within Power Apps and Power Virtual Agents. They can share their app to individual users, group of users, or your entire organization. When an app is shared and added to Teams, users will see it on the Apps page in Teams by going to **Built for *Your Organization Name*** > **Built by your colleagues**.
+Makers control who can access their app using the [sharing features from within Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) and Power Virtual Agents. They can share their app to individual users, group of users, or your entire organization. When an app is shared and added to Teams, users will see it on the Apps page in Teams by going to **Built for *Your Organization Name*** > **Built by your colleagues**.
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Power Platform apps listed in Built by your colleagues":::
 
