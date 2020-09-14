@@ -46,11 +46,11 @@ As an admin, you can control whether Power Platform apps are listed in **Built b
 The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your organization's app store represent all apps created on that particular platform. If you block one or both these apps at the org level or for specific users, those users can't see any apps from that platform in **Built by your colleagues** and can't install them in Teams.  
 
 > [!NOTE]
-> Keep in mind that you can control access to all apps created in Power Apps and Power Virtual Agents but you can't allow or block individual apps. Makers decide who can access the apps they create through the sharing feature from within Power Apps and Power Virtual Agents. If a maker shared an app they created in Power Virtual Agents with a user and you blocked Shared Power Virtual Agents Apps for that user, the user won't be able to see or install any apps from that platform in Teams.
+> Keep in mind that you can control access to all apps created in Power Apps and Power Virtual Agents but you can't allow or block individual apps. Makers decide who can access the apps they create through the sharing feature from within Power Apps and Power Virtual Agents. If a maker shared an app they created in Power Virtual Agents with a user and you blocked **Shared Power Virtual Agents Apps** for that user, the user won't be able to see or install any apps from that platform in Teams.
 
 ### Allow or block Power Platform apps for your organization
 
-By default, Shared Power Apps and Shared Power Virtual Agent Apps is enabled for all Teams users in your organization. You can turn off one or both apps at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
+By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** is enabled for all Teams users in your organization. You can turn off one or both apps at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 2. In the list of apps, do one of the following:
