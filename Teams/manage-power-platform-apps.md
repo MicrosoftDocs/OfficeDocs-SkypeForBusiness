@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to approve your custom apps that are submitted using the Teams App Submission API in Microsoft Teams.
+description: Learn how to manage access to Power Platform apps in the Microsoft Teams admin center.
 ---
 
 # Manage Power Platform apps in the Microsoft Teams admin center
@@ -39,7 +39,7 @@ A user will see an app in **Built by your colleagues** if the app meets one of t
 
 Users install Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install  apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.
 
-## Manage access to Power Platform apps in Microsoft Teams admin center
+## Manage access to Power Platform apps in the Microsoft Teams admin center
 
 As an admin, you can control whether Power Platform apps are listed in **Built by your colleagues** on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).
 
