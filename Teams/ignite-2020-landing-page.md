@@ -1,5 +1,5 @@
 ---
-title: Partner pre-sales learning catalog
+title: Teams sessions at Ignite 2020
 description: Find all the available learning for Business Central.
 author: cichur
 ms.date: 09/21/2020
@@ -7,13 +7,25 @@ ms.topic: article
 ms.author: v-cichur
 ---
 
-# Partner Pre-Sales Learning Catalog
+# Teams sessions at Ignite 2020
 
-Are you responsible for demonstrating key features to customers? 
+ Watch these sessions to get the latest Teams news, announcements, and technical skilling content from Digital Ignite 2020.  
 
-The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs. 
+## Key segments
 
-## Get Started<a name="get-started"></a>
+|Abstract                                  |               Speaker    |
+|------------------------------------------|--------------------------|
+|Organizations are moving to a hybrid workplace to support the needs of remote and onsite employees. In the 1st part of a 2-part series, we’ll demonstrate how teams can stay connected through Teams meetings, virtual events, and calling, along with new device experiences. We’ll also show how the Teams platform can help streamline workflows, improve decision making, and integrate your ecosystem of applications directly in Teams.​ <br> Also check out the 2nd part of this series, session code DB158.|Nicole Herskowitz|
+|Meetings are the cornerstone for how works gets done. Learn how Teams meetings can help you and your organization be more productive while adapting to a new way of working.  |Shiraz Cupala|
+|Enterprise Calling in Teams is simple to deploy and use. Learn the basics of Teams Calling while finding out the latest in Calling such as new calling experiences and collaborative calling. |Paul Cannon; Laura Kramer, Barbara Kim|
+|Teams admins have flexible and granular management capabilities to craft a custom experience for their organizations that best meets the needs of the business. In this session we will introduce the latest and greatest capabilities around our Team Admin Center portal, discuss what's new in policies , app management, device management, reporting,  analytics and troubleshooting and Powershell. |Ronit Ben-Sheffer, Jamie Stark|
+|Meetings come in all shapes and sizes - learn how to best utilize Teams to structure and manage your next large event. Teams can seamlessly scale with your organization’s needs, providing ways to customize and deliver optimal attendee experiences for events of all sizes.  |Christina Torok, Ashwin Appiah|
+|Introduction to Microsoft Teams devices. Teams devices are designed to help people maximize the power of Teams and bridge the gap between remote and shared workspaces. Learn about the devices designed to deliver people-centric meeting room experiences and re-imagined personal workspaces enabling more inclusive and collaborative experiences with Microsoft Teams devices.  |Kendra Baker, Greg Baribault|
+|Learn about all the new and existing extensibility points within the Teams platform and how you can create powerful apps and solutions to solve your business needs.|Archana Saseetharan + Michal Lesiczka|
+|The Microsoft 365 platform helps organizations tailor every facet of their environment to help people work and collaborate better. Discover how every app can go further by adding insights and relevant data from Microsoft Graph, and how every app can integrate with the flow of work across apps, including Microsoft Teams. See how apps can deliver unique, engaging experiences across devices. Take advantage of key building blocks that can speed app creation.|Yina Arenas, Mike Ammerlaan|
+|Teams and Microsoft 365 are platforms for everyone, even if you don't have any professional development experience.  Come see how low-code innovations for Teams and Microsoft 365 are making it easier for teams to build and use custom apps, bots, automation, and data to address challenging business processes.|Karan Nigam, Weston Lander|
+|Enabling secure, remote work is top of mind. In this session, learn about the latest Teams features and functionalities across security and compliance. We'll cover how to leverage the intelligence and strength of Microsoft 365 within Teams to keep your organization secure and compliant. Topics include keeping your information protected against data leaks, enabling safe and inclusive meetings, and maintaining a compliant organization across world-wide regulations and business requirements.|John Gruszczyk|
+|                           |                           |
 
 | Content                                                                                                                              | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
