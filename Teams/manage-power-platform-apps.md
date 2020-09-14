@@ -27,7 +27,7 @@ This article gives you an overview of how to manage [Power Platform](https://pow
 
 [Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment that makers in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for makers to create powerful bots. With the integration of Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create custom solutions to be more productive.  
 
-Makers control who can access their app using the [sharing feature in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) and the [sharing feature in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots). When an app is shared and added to Teams, users will see it on the Apps page in Teams by going to **Built for *Your Organization Name*** > **Built by your colleagues**.
+Power Platform apps created by makers in your organization are automatically added to Teams. Users can view and install them on the Apps page by going to **Built for *Your Organization Name*** > **Built by your colleagues**. Makers can control who can access their app by using the [sharing feature in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) and the [sharing feature in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots).
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Power Platform apps listed in Built by your colleagues":::
 
@@ -35,13 +35,34 @@ A user will see an app in **Built by your colleagues** if the app meets one of t
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
-|<ul><li>The user created the app.</li><li>The app was shared directly with the user.</li><li>The user recently used the app. </li></ul>| <ul><li>The user created the bot.</li><li>The bot was shared directly with the user or with your entire organization.</li><li>The bot is owned by a team the user is a member of. </li></ul>        |
+|<ul><li>The user created the app.</li><li>The app was shared directly with the user.</li><li>The user recently used the app. </li></ul>| <ul><li>The user created the bot.</li><li>The bot was shared directly with the user.</li><li>The bot is owned by a team the user is a member of. </li></ul>        |
 
 Users install Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install  apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.
 
 ## Manage access to Power Platform apps in Microsoft Teams admin center
 
-As an admin, you can control whether apps created in Power Apps and Power Virtual Agents are listed in **Built by your colleagues** on the Apps page in Teams.  
+As an admin, you can control whether Power Platform apps are listed in **Built by your colleagues** on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).
+
+You do this by allowing or blocki:
+
+- **Shared Power Apps**
+- **Shared Power Virtual Agents**
+
+If you block one or both these apps at the org level or for specific users, those users can't see apps from that platform in **Built by your colleagues** and can't install them in Teams.  
+
+### Allow or block Power Platform apps in your organization
+
+By default, Shared Power Apps and Shared Power Virtual Agents is enabled for all Teams users in your organization. You can turn off one or both apps at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+2. In the list of apps, do one of the following:
+
+    - To turn off Shifts for your organization, search for **Shared Power Apps** or **Shared Power Virtual Agents**, select it, and then click **Block**.
+    - To turn on Shifts for your organization, search for **Shared Power Apps** or **Shared Power Virtual Agents**, select it, and then click **Allow**.
+
+### Allow or block Power Platform apps for specific users in your organization
+
+To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 Admins have control over which apps can appear in the new Built by your colleagues section, and managing that access uses Teams’ app permission policies.  
 
