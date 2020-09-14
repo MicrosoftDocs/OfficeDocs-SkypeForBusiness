@@ -21,7 +21,7 @@ description: Learn how to approve your custom apps that are submitted using the 
 
 # Manage Power Platform apps in the Microsoft Teams admin center
 
-## Overview
+## Power Platform apps in Teams
 
 This article gives you an overview of how to manage [Power Platform](https://powerplatform.microsoft.com/) apps added to Teams in the Microsoft Teams admin center.
 
