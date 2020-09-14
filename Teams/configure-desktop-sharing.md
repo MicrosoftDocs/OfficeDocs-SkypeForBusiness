@@ -78,4 +78,3 @@ You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/power
 - AllowSharedNotes
 
 [Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
-
