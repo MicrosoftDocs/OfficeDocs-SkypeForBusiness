@@ -733,7 +733,7 @@
     },
     {
       "source_path": "Skype/SfbOnline/legal-and-regulatory/data-collection-practices.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-privacy?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/data-collection-practices?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
       "redirect_document_id": true 
     },
     {
@@ -1954,11 +1954,6 @@
       {
         "source_path": "Teams/iw-trial-teams.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-exploratory",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "Teams/data-collection-practices.md",
-        "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-privacy",
         "redirect_document_id": true
       }
   ] 
