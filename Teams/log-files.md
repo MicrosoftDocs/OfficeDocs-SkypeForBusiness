@@ -76,7 +76,7 @@ The debug logs are automatically downloaded to the following folders.
 
 -   Windows: %userprofile%\\Downloads
 
--   Mac OSX: Downloads
+-   Mac OSX: ~/Downloads
 
 -   Linux: ~/Downloads
 
