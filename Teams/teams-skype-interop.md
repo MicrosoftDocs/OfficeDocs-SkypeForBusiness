@@ -26,7 +26,7 @@ Teams users in your organization can chat with and call Skype users by using the
 This is available on the desktop, web, and mobile (Android and iOS) clients for both Teams and Skype. For an optimal experience, we recommend Skype version 8.58 and later.
 
 > [!NOTE]
-> The Teams and Skype interop features discussed in this article are only available in the Commercial Cloud. 
+> The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments or in private cloud environments.
 
 ## Chat and calling experience
 
