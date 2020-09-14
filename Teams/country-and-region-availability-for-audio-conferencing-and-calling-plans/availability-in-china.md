@@ -39,7 +39,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes, for use by users located outside of China. Please contact your account team for additional information.  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | Non-geographic. Phone numbers aren't linked to a specific city or location. <br/>  If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
+|Dial-out capability using the Call Me feature  <br/> | Yes, except for customers who purchase the service from China. Dial-out capabilities are disabled for customers who purchase the service from China.   <br/> |
    
 ## Phone System
 
