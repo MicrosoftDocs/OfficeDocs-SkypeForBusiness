@@ -47,7 +47,7 @@ When organizing meetings, the meeting type that gets scheduled is based on the m
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings | 	All meetings scheduled in Teams. Skype for Business add-in is not available in Outlook. | 
 | SfbWithTeamsCollab, SfbOnly	| All meetings scheduled in Skype for Business. Teams add-in is not available in Outlook. | 
-| Islands | 	Meetings can be scheduled in either Skype for Business or Teams. Both add-ins are available in Outlook. | 
+| Islands | By default, meetings can be scheduled in either Skype for Business or Teams. Both add-ins are available in Outlook. However, you can optionally require that users in Islands always schedule meetings in Teams by assigning them an instance of TeamsMeetingPolicy with the PreferredMeetingProviderForIslandsMode=Teams.| 
 
 
 ## Interoperability
@@ -85,7 +85,7 @@ An interop conversation with the same User G3 Test
 
 ![Diagram showing an interop Teams-to-Teams conversation](media/teams-upgrade-interop-thread.png)
 
-Once a conversation thread is created, its type never changes. Once created, an interop thread in Teams will always route to the target user’s Skype for Business client. A native thread will always route to the target user’s Teams client.  If a recipient user’s mode changes, existing Teams threads to that user will no longer function and a note will be displayed on that chat with a link to start a new native conversation as shown in the following screenshot. For more details, see [Chats and calls from pre-existing threads](coexistence-chat-calls-presence.md#chats-and-calls-from-pre-existing-threads).
+Once a conversation thread is created, its type never changes. Once created, an interop thread in Teams will always route to the target user’s Skype for Business client. A native thread will always route to the target user’s Teams client.  If a recipient user’s mode changes, existing Teams threads to that user will no longer function and a note will be displayed on that chat with a link to start a new native conversation as shown in the following screenshot.
 
 
 ![Diagram showing a chat with upgraded Skype for Business user](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
@@ -104,7 +104,6 @@ Presence publishing behavior is based on the user’s mode. There are three basi
 
 For example, Assume User A is in Islands mode. If User A is active in Teams but is not signed in to Skype for Business, other users would see User A as active from their Teams client, but in their Skype for Business client they would see User A as offline. This is by design, since User A cannot be reached if they are not running the client. 
 
-For additional information, see [Presence](coexistence-chat-calls-presence.md#presence).
 
 ## Federation
 
@@ -114,11 +113,13 @@ Federation from Teams to another user using Skype for Business requires the Team
 - Chats and calls initiated from Teams land in Teams if the recipient is in the same tenant.
 - Chats and calls initiated from Skype for Business always land in Skype for Business.
 
-A federated chat between a Teams user and a Skype for Business is an interop thread, so rich text and sharing are not possible. The user interface exposes federated chats in a similar manner to same-tenant interop threads, except there is a note indicating the user is external.
+A federated chat can either be a native thread or an interop thread. See [Teams Conversations ---interop-versus-native-threads](#Teams conversations - Interop versus native threads).
 
-When Teams first introduced federation, a federated chat between two Teams users was also an interop thread, but in the future, native Teams federation will be introduced which provides full functionality for conversations between users who are in TeamsOnly mode. . 
+- If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
 
-For more details, see [Federated routing for new chats or calls](coexistence-chat-calls-presence.md#federated-routing-for-new-chats-or-calls).
+- If either of the conversation participants is NOT in TeamsOnly upgrade mode, the conversation remains an interop experience with text-only messages. The user interface exposes federated chats in a similar manner to same-tenant interop threads, except there is a note indicating the user is external.
+
+For more details, see [Manage external access in Microsoft Teams](manage-external-access.md) and [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md).
 
 ## Contacts
 

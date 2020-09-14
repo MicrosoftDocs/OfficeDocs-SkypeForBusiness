@@ -131,11 +131,11 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested seque
    - If you will be re-using the numbers, submit a porting request to your carrier.  
    - Alternatively, you can acquire new numbers directly from Microsoft. 
 
-6. Upgrade the user. Using the on-premises Skype for Business tools, run Move-CsUser with the -MoveToTeams switch.  
+6. Upgrade the user and if needed assign LineUri. Using the on-premises Skype for Business tools, run Move-CsUser with the -MoveToTeams switch.  
 
     - If you are porting numbers to Microsoft, you should coordinate the timing of this operation to occur when the port occurs. 
 
-    - If you are using new numbers from Microsoft, you’ll need to change the LineUri for the user.  This should be done in the on-prem tools and then synchronized to the cloud via Azure AD Connect. You should time the Move-CsUser operation to be concurrent with when Azure AD Connect synchronizes the change. 
+    - If you are using new numbers from Microsoft, you’ll need to change the LineUri for the user. This must be done after the user is moved online using Set-CsOnlineVoiceUser.  
 
 ## Summary of per-tenant configuration of Direct Routing 
 

@@ -42,13 +42,13 @@ In addition, the following articles describe important upgrade concepts and coex
 
 Whichever upgrade method you choose, you manage the transition to TeamsOnly using [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), which controls a user’s coexistence mode. For more information on each of the modes, see [Coexistence modes](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes).
 
-Whether you performs a select capabilities transition using Skype for Business modes or simply upgrades to TeamsOnly mode from the default Islands configuration, TeamsUpgradePolicy is the primary tool. Like any other policy in Teams, you can assign TeamsUpgradePolicy directly to a user. You can also set the policy as the tenant-wide default. Any assignment to a user takes precedence over the tenant default setting.  You can manage the policy in the Teams Admin Console and in PowerShell.
+Whether you perform a select capabilities transition using Skype for Business modes or simply upgrade to TeamsOnly mode from the default Islands configuration, TeamsUpgradePolicy is the primary tool. Like any other policy in Teams, you can assign TeamsUpgradePolicy directly to a user. You can also set the policy as the tenant-wide default. Any assignment to a user takes precedence over the tenant default setting.  You can manage the policy in the Teams Admin Console and in PowerShell.
 
-You can assign any mode of TeamsUpgradePolicy to users whether the user is homed in Skype for Business Online or on-premises, except that TeamsOnly mode can only be assigned to a user who is already homed in Skype for Business Online. This is because interop with Skype for Business users and federation are only possible if the user is homed in Skype for Business Online.
+You can assign any mode of TeamsUpgradePolicy to users whether the user is homed in Skype for Business Online or on-premises, **except that TeamsOnly mode can only be assigned to a user who is already homed in Skype for Business Online**. This is because interop with Skype for Business users and federation as well as M365 Phone System functionality are only possible if the user is homed in Skype for Business Online.
 
 Users with Skype for Business accounts homed on-premises [must be moved online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (either to Skype for Business Online or direct to Teams) using Move-CsUser in the Skype for Business on-premises toolset. These users can be moved to TeamsOnly in either 1 or 2 steps:
 
--	1 step:  Specify the -MoveToTeams switch in Move-CsUser. This requires Skype for Business Server 2019 or Skype for Business Server 2015 with CU8.
+-	1 step:  Specify the -MoveToTeams switch in Move-CsUser. This requires Skype for Business Server 2019 or Skype for Business Server 2015 with CU8 or later.
 
 -	2 steps: After running Move-CsUser, grant TeamsOnly mode to the user using TeamsUpgradePolicy.
 
@@ -78,7 +78,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->If you have any users with Skype for Business accounts on-premises, you should not assign TeamsOnly mode at the tenant level, unless you explicitly assign some other mode to all users with on-premises Skype for Business accounts.
+>If you have any users with Skype for Business accounts on-premises, you must not assign TeamsOnly mode at the tenant level, unless you explicitly assign some other mode to all users with on-premises Skype for Business accounts.
 
 
 ## Using notifications in Skype for Business clients
@@ -89,7 +89,9 @@ Administrators have the option to provide end user notifications in the Skype fo
 
 If your users are homed in Skype for Business Online, simply assign the policy instance that has the same mode as the user, but with NotifySfbUsers=true. 
 
-If your users are homed in Skype for Business Server on-premises, you’ll need to use the on-premises toolset and you’ll need Skype for Business Server 2019 or CU8 for Skype for Business Server 2015. In the on-premises PowerShell window, create a new instance of TeamsUpgradePolicy with NotifySfbUsers=true:
+If your users are homed in Skype for Business Server on-premises, you’ll need to use the on-premises toolset and you’ll need Skype for Business Server 2019 or CU8 for Skype for Business Server 2015. For users homed in Skype for Business Server on-premises, the mode property from the online instance of TeamsUpgradePolicy is honored, but the NotifySfbUsers property is not. If notifications are desired, you must create an on-premises instance of TeamsUpgradePolicy to control the client behavior. 
+
+In the on-premises PowerShell window, create a new instance of TeamsUpgradePolicy with NotifySfbUsers=true:
 
 ```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
