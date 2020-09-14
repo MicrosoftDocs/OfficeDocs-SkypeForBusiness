@@ -26,7 +26,7 @@ description: "Meeting Migration Service (MMS) is a service that runs in the back
 
 # Using the Meeting Migration Service (MMS)
 
-The Meeting Migration Service (MMS) is service that updates a user’s existing meetings in the following scenarios:
+The Meeting Migration Service (MMS) is a service that updates a user’s existing meetings in the following scenarios:
 
 - When a user is migrated from on-premises to the cloud (whether to Skype for Business Online or to TeamsOnly).
 - When an admin makes a change to the user’s audio conferencing settings 
