@@ -44,7 +44,7 @@ If you want to block guests in Teams and still want to allow them to access Shar
 2.  Connect a PowerShell session to the Skype for Business Online endpoint.
 
 > [!NOTE]
-> Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
+> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
     ```powershell
