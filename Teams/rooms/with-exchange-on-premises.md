@@ -134,9 +134,12 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 Skype for Business Online PowerShell is used to manage services for both Microsoft Teams and Skype for Business Online.
 
 1. Create a remote Windows PowerShell session from a PC as follows:
+> [!NOTE]
+> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
    ``` Powershell
-   Import-Module SkypeOnlineConnector  
+   Import-Module -Name MicrosoftTeams  
    $cssess=New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```
