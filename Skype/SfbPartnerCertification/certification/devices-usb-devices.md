@@ -35,6 +35,8 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 | Manufacturer | Model                                    | Qualified  | Certified Program  |
 |:-------------|:-----------------------------------------|:-----------|:-------------------|
+| ViewSonic    | WCD-IFP8670                              | 07/31/2020 | Skype for Business |
+| ViewSonic    | WCD- IFP6570                             | 07/31/2020 | Skype for Business |
 | Crestron     | CCS-UCA-MIC                              | 12/18/2019 | Skype for Business |
 | Sharp        | WCD PN-CD701                             | 10/15/2019 | Skype for Business |
 | Sennheiser   | SC 665 USB A                             | 09/29/2019 | Skype for Business |
