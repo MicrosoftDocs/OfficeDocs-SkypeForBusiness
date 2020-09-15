@@ -209,7 +209,7 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
+This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. Here are the values for this setting.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -218,7 +218,7 @@ This is a per-user policy. This setting controls whether audio can be turned on 
 
 If set to **Disabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. For Teams mobile clients, if this setting is disabled, the user has to dial in to the meeting through the PSTN.
 
-This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Teams [calling policy](teams-calling-policy.md) and turn off the **Make private calls** setting.
+This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Teams [calling policy](teams-calling-policy.md) and turn off the **Make private calls** setting. This setting also doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 To learn more, see [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
 
@@ -226,7 +226,7 @@ To learn more, see [Common audio/video scenarios for meetings](#common-audiovide
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
+This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. Here are the values for this setting.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -234,6 +234,8 @@ This is a per-user policy. This setting controls whether video can be turned on 
 |**Disabled**     | Outgoing and incoming video is turned off in the meeting.<br><br>Note that if **Mode for IP audio** is disabled, then **Mode for IP video** will also remain disabled.  |
 
 If set to **Disabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
+
+This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 > [!NOTE]
 > Keep in mind that this setting controls both outgoing and incoming video whereas the **Allow IP video** setting controls outgoing video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
