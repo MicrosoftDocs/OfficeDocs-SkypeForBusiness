@@ -68,6 +68,7 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     
 		> [!NOTE]
 		> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+		>
 		> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 	   ```PowerShell      

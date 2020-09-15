@@ -23,7 +23,7 @@ description: "Learn how to enable users Microsoft Phone System Direct Routing."
 This article describes how to enable users for Phone System Direct Routing.  This is step 2 of the following steps for configuring Direct Routing:
 
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
-- **Step 2. Enable users for Direct Routing, voice, and voicemail**    (This article)
+- **Step 2. Enable users for Direct Routing, voice, and voicemail**   (this article)
 - Step 3. [Configure voice routing](direct-routing-voice-routing.md)
 - Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
@@ -54,24 +54,27 @@ Direct Routing requires the user to be homed online. You can check by looking at
 OnPremLineUriManuallySet parameter should also to be set to True. This is achieved by configuring the phone number and enable enterprise voice and voicemail using Skype for Business Online PowerShell.
 
 1. Connect a Skype for Business Online PowerShell session.
+
 2. Issue the command: 
 
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, please clean the parameters using on-premises Skype for Business Management Shell, before configuring the phone number using Skype for Business Online PowerShell. 
+    In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, please clean the parameters using on-premises Skype for Business Management Shell, before configuring the phone number using Skype for Business Online PowerShell. 
 
 1. From Skype for Business Management Shell issue the command: 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
     ``` 
-After the changes have synced to Office 365 the expected output of Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri would be:
+   After the changes have synced to Office 365 the expected output of `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` would be:
 
-RegistrarPool                        : pool.infra.lync.com
-OnPremLineURIManuallySet             : True
-OnPremLineURI                        : 
-LineURI                              : 
+   ```console
+   RegistrarPool                        : pool.infra.lync.com
+   OnPremLineURIManuallySet             : True
+   OnPremLineURI                        : 
+   LineURI                              : 
+   ```
 
 ## Configure the phone number and enable enterprise voice and voicemail 
 
@@ -80,22 +83,23 @@ After you have created the user and assigned a license, the next step is to conf
 To add the phone number and enable for voicemail:
  
 1. Connect a Skype for Business Online PowerShell session. 
+
 2. Issue the command: 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
+    
+    For example, to add a phone number for user "Spencer Low," enter the following: 
 
-	For example, to add a phone number for user "Spencer Low," enter the following: 
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-	```PowerShell
-	Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-	```
+    The phone number used has to be configured as a full E.164 phone number with country code. 
 
-	The phone number used has to be configured as a full E.164 phone number with country code. 
-
-	  > [!NOTE]
-	  > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
+    > [!NOTE]
+    > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
 
 ## Configuring sending calls directly to voicemail
