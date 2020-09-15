@@ -40,7 +40,7 @@ A Skype user may choose not to appear in search results. In this case, they won'
 
 ### Skype user starts a chat or call with a Teams user
 
-Skype users can search for and start a chat with a Teams user by using their email address. The Teams user is notified that they have a new message from a Skype user. The Teams user has to first accept the message before they can reply to it.
+Skype users can search for and start a chat with a Teams user by using their email address. The Teams user is notified that they have a new message from a Skype user, and has to first accept the message before they can reply to it.
 
 - If the Teams user selects **Accept**, the conversation is accepted, and both users can chat and call each other.
 - If the Teams user selects **Block**, the conversation is blocked, and subsequent messages and calls from that Skype user are blocked.
