@@ -83,7 +83,7 @@ To learn more, see [Connect to all Microsoft 365 or Office 365 services in a sin
     
  
     > [!NOTE]
-    > Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
+    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
     > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
     ```PowerShell
