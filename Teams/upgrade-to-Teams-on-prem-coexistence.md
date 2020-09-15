@@ -113,7 +113,7 @@ Federation from Teams to another user using Skype for Business requires the Team
 - Chats and calls initiated from Teams land in Teams if the recipient is in the same tenant.
 - Chats and calls initiated from Skype for Business always land in Skype for Business.
 
-A federated chat can either be a native thread or an interop thread. See [Teams Conversations ---interop-versus-native-threads](#Teams conversations - Interop versus native threads).
+A federated chat can either be a native thread or an interop thread. See [Teams Conversations ---interop-versus-native-threads](#teams-conversations---interop-versus-native-threads).
 
 - If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
 

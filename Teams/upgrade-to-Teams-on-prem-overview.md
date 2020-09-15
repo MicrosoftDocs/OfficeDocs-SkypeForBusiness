@@ -24,7 +24,7 @@ appliesto:
 
 ## Overview
 
-When upgrading from Skype for Business to Teams, some organizations require a progressive rollout that is planned and managed by their IT departments. The articles in this section are primarily targeted to IT administrators in large,  organizations that typically might be on-premises, but they also apply to large Skype for Business Online organizations. Before reading these articles, be sure to read [Getting started with your Teams Upgrade](upgrade-start-here.md) and [About the Upgrade framework](upgrade-framework.md).
+When upgrading from Skype for Business to Teams, some organizations require a progressive rollout that is planned and managed by their IT departments. The articles in this section apply primarily to IT administrators in large on-premises organizations. But the articles also apply to administrators in large Skype for Business Online organizations. Before reading these articles, be sure to read [Getting started with your Teams Upgrade](upgrade-start-here.md) and [About the Upgrade framework](upgrade-framework.md).
 
 
 The following articles will guide you through the upgrade process for your organization: 
