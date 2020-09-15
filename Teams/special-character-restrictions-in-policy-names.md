@@ -38,7 +38,7 @@ If you have a policy with special characters, you will need to either edit the p
 
 **Step 1 - Make a remote connection with PowerShell.**
 > [!NOTE]
-> Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
+> Skype for Business Online Connector is currently part of the latest Teams PowerShell Module.
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 ```PowerShell
