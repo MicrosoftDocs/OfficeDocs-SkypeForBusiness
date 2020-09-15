@@ -50,7 +50,7 @@ The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your o
 
 ### Allow or block Power Platform apps for your organization
 
-By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** is enabled for all Teams users in your organization. You can turn off one or both apps at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
+By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are allowed for all Teams users in your organization. You can block or allow them at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 2. In the list of apps, do one of the following:
