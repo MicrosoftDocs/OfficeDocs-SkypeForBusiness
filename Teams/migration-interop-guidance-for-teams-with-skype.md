@@ -21,47 +21,10 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# Migration and interoperability guidance for organizations using Teams together with Skype for Business
 
-> [!Tip] 
-> Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop).
-
-As an organization with Skype for Business starts to adopt Teams, administrators can manage the user experience in their organization using the concept of coexistence "mode" which is a property of TeamsUpgradePolicy. Using mode, administrators manage interop and migration as they manage the transition from Skype for Business to Teams.  A user's mode determines in which client incoming chats and calls land as well as in what service (Teams or Skype for Business) new meetings are scheduled. It also governs what functionality is available in the Teams client. 
-
-> [!IMPORTANT]
-> It can take up to 24 hours for a change to TeamsUpgradePolicy to take effect. Before then, user presence status may not be correct (may show as **Unknown**).
-
-
-## Fundamental concepts
-
-1.  *Interop* : 1 to 1 communication between a Lync/Skype for Business user and a Teams user.
-
-2.  *Federation* : Communication between users from different tenants.
-
-3.  All Teams users have an underlying Skype for Business account that is "homed" either online or on-premises:
-    - Users already using Skype for Business Online use their existing online account.
-    - Users already using Skype for Business/Lync on-premises use their existing on-premises account.
-    - Users for whom we cannot detect an existing Skype for Business account will have a Skype for Business Online account automatically provisioned when the Teams user is created.
-
-4.  If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must first configure Skype for Business hybrid mode*. For more details, see [Configure Azure AD Connect for Skype for Business and Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
-
-5.  Interop between Teams and Skype for Business users is only possible *if the Teams user is homed online in Skype for Business*. The recipient Skype for Business user can be homed either on-premises (and requires configuring Skype for Business Hybrid) or online. Users who are homed in Skype for Business on-premises can use Teams in Islands mode (defined later in this doc), but they cannot use Teams to interop or federate with other users who are using Skype for Business.  
-
-6.    Upgrade and interop behavior are determined based on Coexistence mode of a user, described below. Mode is managed by TeamsUpgradePolicy. 
-
-7.  Upgrading a user to the TeamsOnly mode ensures that all incoming chats and calls will always land in the user's Teams client, regardless of what client it originated from. These users will also schedule all new meetings in Teams. To be in TeamsOnly mode, a user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade a user to TeamsOnly:
-    - If the user is homed in Skype for Business online (or never had any Skype account), grant them TeamsUpgradePolicy with Mode=TeamsOnly using the "UpgradeToTeams" instance using PowerShell, or use the Teams Admin Center to select the TeamsOnly mode.
-    - If the user is homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online.  If you have Skype for Business Server 2019 or CU8 for Skype for Business Server 2015, you can specify the `-MoveToTeams` switch in `Move-CsUser` to move the user directly to Teams as part of the move online. This option will also migrate the user's meetings to Teams. If `-MoveToTeams` is not specified or not available, then after `Move-CsUser` completes, assign TeamsOnly mode to that user using either PowerShell or the Teams Admin Center. For more details see [Move users between on-premises and cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more details on meeting migration, see [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-
-8.    To use Microsoft Phone System with Teams, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (which allows you to use Phone System with your own SIP trunks and SBC) or have a Microsoft 365 or Office 365 Calling Plan. Microsoft Phone System Direct Routing is not supported in Islands mode.    
-
-9.  Scheduling Teams meetings with Audio Conferencing (dial-in or dial-out via PSTN) is available regardless of whether the user is homed in Skype for Business Online or Skype for Business on-premises. 
-
-
-## Coexistence modes
+# Coexistence modes
 
 Interop and migration are managed based on "coexistence mode" using TeamsUpgradePolicy. Co-existence modes provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams. For an organization moving to Teams, the TeamsOnly mode is the final destination for each user, though not all users need to be assigned TeamsOnly (or any mode) at the same time. Prior to users reaching TeamsOnly mode, organizations can use any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) to ensure predictable communication between users who are TeamsOnly and those who aren't yet.
-
 
 From a technical perspective, a user's mode governs several  aspects of the user's experience:
 
@@ -102,11 +65,7 @@ The modes are listed below.
 <sup>3</sup> Currently, Teams does not have the ability to disable the Teams and Channels functionality so this remains enabled for now.
 
 
-
-## TeamsUpgradePolicy: managing migration and co-existence
-
-> [!IMPORTANT]
-> It can take up to 24 hours for a change to TeamsUpgradePolicy to take effect. Before then, user presence status may not be correct (may show as **Unknown**).
+## Using TeamsUpgradePolicy
 
 TeamsUpgradePolicy exposes two key properties: Mode and NotifySfbUsers. 
 </br>
@@ -142,19 +101,8 @@ These policy instances can be granted either to individual users or on a tenant-
 - To upgrade the entire tenant, omit the identity parameter from the grant command:</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`
 
+## The Teams client user experience when using Skype for Business modes
 
-## Federation Considerations
-
-Federation from Teams to another user using Skype for Business requires the Teams user be homed online in Skype for Business.
-
-TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, *except in Islands mode*.  When recipients are in Islands mode: 
-- Chats and calls initiated from Teams land in SfB if the recipient is in a *federated tenant*.
-- Chats and calls initiated from Teams land in Teams if the recipient is in the *same tenant*.
-- Chats and calls initiated from SfB always land in Skype for Business.
-
-For more details, see [Coexistence with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence).
-
-## The Teams client user experience when using SfB modes
 When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), all incoming chats and calls are routed to the user's Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is automatically disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and automatically enabled when a user is in the SfBWithTeamsCollabAndMeetings mode. For details, see [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
 > [!Note] 

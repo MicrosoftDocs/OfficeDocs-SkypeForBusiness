@@ -572,20 +572,19 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Technical library
+## Technical library 
 ### Upgrade guidance for IT administrators
 #### [Overview](upgrade-to-teams-on-prem-overview.md)
 #### [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
 #### [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
 #### [Considerations for organizations with Skype for Business on premises](upgrade-to-teams-on-prem-considerations.md)
 #### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
-#### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 #### [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
-#### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+#### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ### [Meetings First](meetings-first.md)
 
 

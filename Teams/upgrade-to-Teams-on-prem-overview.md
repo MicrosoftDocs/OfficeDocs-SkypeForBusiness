@@ -24,7 +24,7 @@ appliesto:
 
 ## Overview
 
-When upgrading from Skype for Business to Teams, some organizations require a progressive rollout that is planned and managed by their IT departments. The articles in this section apply primarily to IT administrators in large on-premises organizations. But the articles also apply to administrators in large Skype for Business Online organizations. Before reading these articles, be sure to read [Getting started with your Teams Upgrade](upgrade-start-here.md) and [About the Upgrade framework](upgrade-framework.md).
+When upgrading from Skype for Business to Teams, some organizations require a progressive rollout that is planned and managed by their IT departments. The articles in this section apply primarily to IT administrators in large organizations. These organizations are typically on-premises, but they might also be large Skype for Business Online organizations. Before reading these articles, be sure to read [Getting started with your Teams Upgrade](upgrade-start-here.md) and [About the Upgrade framework](upgrade-framework.md).
 
 
 The following articles will guide you through the upgrade process for your organization: 
@@ -38,7 +38,7 @@ The following articles will guide you through the upgrade process for your organ
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 
 - [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
-- [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+- [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 >[!NOTE]

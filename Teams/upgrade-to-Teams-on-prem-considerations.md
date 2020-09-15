@@ -34,7 +34,7 @@ This article describes additional considerations for organizations with Skype fo
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 
 - [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
-- [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+- [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 
