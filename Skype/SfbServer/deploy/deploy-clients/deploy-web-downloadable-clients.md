@@ -130,7 +130,7 @@ This procedure is optional, and applies to Skype for Business Server 2015 CU5 an
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Information sent to Microsoft is in strict compliance with [Privacy and Microsoft Teams](../../../../Teams/teams-privacy.md).
+    Information sent to Microsoft is in strict compliance with [Skype for Business data collection practices](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Set the timeout before fall back to the locally hosted Skype for Business Web App experience if CDN isn't available. The default value is 6 seconds. If this value is set to 0, there will be no timeout.
 
