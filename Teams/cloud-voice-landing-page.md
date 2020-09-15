@@ -32,7 +32,8 @@ This article helps you decide whether you need to change any of the default voic
 
 We recommend that all organizations work through the core decisions and then, if your organization has additional requirements, review the following material.
 
-
+ > [!Note]
+> For details about phone system capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Learn more about voice
 
