@@ -116,6 +116,7 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 > [!NOTE]
 > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+>
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
     ``` Powershell
