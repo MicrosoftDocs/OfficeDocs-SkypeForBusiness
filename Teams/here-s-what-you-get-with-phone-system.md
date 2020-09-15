@@ -30,6 +30,8 @@ This article describes Phone System features. For more information about using P
 
 Clients are available for PC, Mac, and mobile, which provides features on devices from tablets and mobile phones to PCs and desktop IP phones. For more information, see [Get clients for Microsoft Teams](get-clients.md).
 
+ > [!Note]
+ > See [Team features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) for more information.
   
 ## Phone System features
 
