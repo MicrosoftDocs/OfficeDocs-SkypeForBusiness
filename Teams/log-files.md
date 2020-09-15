@@ -76,17 +76,20 @@ The debug logs are automatically downloaded to the following folders.
 
 -   Windows: %userprofile%\\Downloads
 
--   Mac OSX: Downloads
+-   Mac OSX: ~/Downloads
 
 -   Linux: ~/Downloads
 
 -   Browser: You will be prompted to save the debug log to default save location
 
-Media Logs
+Media logs
 ---------------------------
 
-Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
+Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases only upon request and can only be inspected by Microsoft. 
 
+Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, and then restart Teams.
+
+The following table outlines the log locations.
 
 |Client |Location |
 |---------|---------|
@@ -98,7 +101,15 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 |Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*.blog         |
 |            |~/.config/Microsoft/Microsoft Teams/skylib/*.blog         |
 
+Here's a list of the log files that are generated and the information they contain.
 
+|Log file name  |Description  |
+|---------|---------|
+|Teams.msrtc-0-s1039525249.blog     | Contains information related to the media stack. This includes channel status such as resolution, decoders and encoders used, and the number of frames sent and received, and camera and video-based screen sharing (VBSS) session status.         |
+|rtmcontrol.msrtc-0-2415069487.blog      |Records information related to remote control actions, such as the time stamp when control is given, and mouse pointer information.          |
+|Teams_MediaStackETW-2-U-xr-U.etl      |Records media stack trace events.         |
+|Debug-0-s2790420889.blog    | Contains information related to the media agent, including rendering quality.          |
+|tscalling-0-2061129496.blog   |Records events in the ts-calling API.       |
 
 Desktop logs
 ---------------------
