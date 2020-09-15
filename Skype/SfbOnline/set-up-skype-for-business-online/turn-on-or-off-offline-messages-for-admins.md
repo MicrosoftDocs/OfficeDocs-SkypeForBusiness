@@ -59,9 +59,9 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
 
 2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
 
-> [!NOTE]
-> Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
-> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+  > [!NOTE]
+  > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+  > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 >
   ```PowerShell
