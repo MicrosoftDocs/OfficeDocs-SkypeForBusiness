@@ -33,7 +33,8 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Get phone numbers transferred to us.  <br/> | Download this form. <br/>[Letter of Authorization (LOA) for Italy (resellers) (v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-italy-(resellers)-(v.1.0)-(it-it).pdf?raw=true) <br/> <br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). |
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish.      <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
-|Directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, download this [Directory Services form for Italy (v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true), fill it out and [send it to us](mailto:ptneu@microsoft.com). |
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, download this [Directory Services form for Italy (v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true), fill it out and [send it to us](mailto:ptneu@microsoft.com). |
+|Review the Charter of Services| Download and read the [Charter of Services for Italy (v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true). |
 
 
 ## Related topics
