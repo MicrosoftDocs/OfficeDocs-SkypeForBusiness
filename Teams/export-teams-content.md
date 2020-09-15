@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-## Export content with the Microsoft Teams Export API
+# Export content with the Microsoft Teams Export API
 
 Teams Export API's allow you to export 1:1 and group chat messages from Microsoft Teams. If your organization needs to export Teams messages you can be able to extract them using Teams Export API's. *Chat Message* represents an individual chat message within a [channel](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) or [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
 
