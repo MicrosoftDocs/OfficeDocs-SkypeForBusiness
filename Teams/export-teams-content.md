@@ -1,5 +1,5 @@
 ---
-title: Export content with the Microsoft Teams Export API
+title: Export content with the Microsoft Teams Export APIs
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export API.
+description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export APIs.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,7 +21,7 @@ appliesto:
 ---
 
 
-# Export content with the Microsoft Teams Export API
+# Export content with the Microsoft Teams Export APIs
 
 Teams Export APIs allow you to export 1:1 and group chat messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you can be able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) or [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
 
@@ -44,7 +44,7 @@ Here are some examples on how you can use these export APIs:
 >[!NOTE]
 >Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the following [request form](https://aka.ms/teamsgraph/requestaccess).
 
-## How to access Export APIs
+## How to access Teams Export APIs
 
 - **Example 1** is a simple query to retrieve all the messages of a user without any filters:
 
