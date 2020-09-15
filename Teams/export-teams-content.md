@@ -52,7 +52,7 @@ Here are some examples on how you can use these export APIs:
     GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
     ```
 
-- **Example 2** is a sample query to retrieve all the messages of a user by specifying date time filters and Top 50 messages:
+- **Example 2** is a sample query to retrieve all the messages of a user by specifying date time filters and top 50 messages:
 
     ```HTTP
     https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
