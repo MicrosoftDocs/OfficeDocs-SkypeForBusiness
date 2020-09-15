@@ -34,12 +34,25 @@ ms.author: v-cichur
 |---|---|----------|---|---|---|
 |aka.ms/PR101|Driving Adoption with Virtual Events: Best practices for organizers and producers|This real world lessons session will review our Virtual Event Playbook for event organizers and IT professionals.  Learn what you need to know from Karuana Gatimu, technical producer of key flagship events for Microsoft Teams Engineering during the initial stages of the pandemic.   Hear guidance gathered from the Microsoft transition to virtual events and how you can use Teams Meetings and Live Events to deliver compelling events that keep your organization connected.  |300|Karuana Gatimu|Ashwin Appiah| 
 |aka.ms/PR102|Deep dive on governance for Office 365 Groups and Microsoft Teams|View this hands on demonstration of governance capabilties and tools that will manage your end-users experience of Microsoft Teams and allow you to feel confident about the security and compliance of your information. Includes  configuration of Azure Active Director add-on capabilities. |300|Karuana Gatimu||
-||||||| 
+|aka.ms/PR121|Driving Industry Adoption - Special scenarios and features for firstline, non-profit, healthcare and more.|In this scenario driven session we will review features, both existing and new, in the context of the IT professionals who must deliver on them.  Including end-user and ITPro templates, mobile features|200|Karuana GatimuKathy Minnis|| 
+|||||||
 
 ### Industry
 | AKA Links   | Title | Abstract            | Level| Primary Speaker  | Additional Speaker |
 |---|---|----------|---|---|---| 
 |aka.ms/PR103|Deployment and governance of Teams for Education |Understand everything you’ll need to know for holistic governance for your educational institution. In this session we’ll cover chat policies, meeting policies, app policies, assignments through groups, how to configure student safety, and methods for automating team class creation. |300|Jethro Seghers||
+|aka.ms/PR116|Virtual health and collaboration with Microsoft Teams in healthcare|Learn how healthcare organizations can help empower care teams to provide the best possible care with Microsoft Teams. This session will focus on virtual health and care team collaboration and dives deep into areas like the latest announcements for Teams in healthcare, virtual visits, customer stories, and more. You'll also learn how to use Microsoft Teams as a platform for addressing many current healthcare scenarios.|200|Evan Westenberger|Tom McGuinness, Kristina Behr, Daniel Canning|
+|aka.ms/PR117|Tailor Microsoft Teams for your Industry|In this session we will share details about how to bootstrap your collaboration experiences with Templates through our Industry Gallery, customize those templates to your organization needs and deploy them to various parts of our organization and simply management through policy packages.|200|Prem Kuchi|Aaron Glick|
+|aka.ms/PR118|Collaboration and Communication using Microsoft Teams in Government |State, local and federal agencies have leverages Microsoft Teams to increase their ability to collaborate and improve their response times and citizen engagement.  Learn how to maximize your use of existing features, what's coming next and our future vision for Microsoft Teams in government. |200|Rima Reyes|Karuana Gatimu, Roxy Ndebumadu, Sarah Gilbert|
+|aka.ms/PR120|Integrate with Microsoft Teams for Education App Platform|Teams is an open platform for educational institutions to integrate apps and create custom workflows.  In this session we’ll cover how the Teams app store is used across classroom teaching to integration with IT help desks. Learn about 3rd party app governance, open source app templates, and a hands-on example of App Studio to create a quick custom website app for your institution.|300|Dominic Williamson||
+|||||||
+
+### IT Pro
+| AKA Links   | Title | Abstract            | Level| Primary Speaker  | Additional Speaker |
+|---|---|----------|---|---|---| 
+|aka.ms/PR122|Teams Deployment and Microsoft End Point Manager|View hands on demonstrations around best practices to help you deploy and manage Microsoft Teams via End Point Manager|300|Mayunk Jain|Mayank Verma|
+|||||||
+|||||||
 |||||||
 
 ### Meetings, Calling, and Devices 
@@ -60,9 +73,10 @@ ms.author: v-cichur
 ### Firstline Worker
 | AKA Links   | Title | Abstract            | Level| Primary Speaker  | Additional Speaker |
 |---|---|----------|---|---|---| 
-||||||| 
-||||||| 
-|||||||            
+|aka.ms/OD258|Enable Business Continuity for your Firstline Workforce with Microsoft Teams|As organizations continue to adjust their operations and workforce to maintain business continuity, new capabilities in Microsoft Teams help Firstline Workers stay focused on meeting customer needs. This session will focus on Shifts, Tasks and core communication along with Walkie Talkie capabilities to create a secure and centralized user experience that saves you time and money.​|200|Scott Morrison|Zoe Hawtof| 
+|Zoe Hawtof|Deploy and Manage Teams Enabled Devices to Meet the Diverse Needs of your Firstline Workforce|Learn how to deploy Firstline specific devices that enable new ways for workers to focus on the job in front of them.  This walkthrough will include scenarios for Teams Walkie Talkie and hands-free collaboration. |200|Abid Chaudhry|James Ellis| 
+|aka.ms/PR115|Manage Distributed Firstline Workforces with Capabilities in the Microsoft 365 Admin Center|Discover best practices and practical guidance around popular IT deployment and management scenarios in Microsoft 365 for Firstline Workers. Learn how to build the right experience in Microsoft Teams and successfully rollout the solution to support your Firstline workforce. ​|300|Irina Parsina|Zoe Hawtof|  
+|||||||          
 
 
 
