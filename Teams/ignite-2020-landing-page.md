@@ -30,9 +30,35 @@ ms.author: v-cichur
 ## Pre-recorded sessions
 
 ### Adoption and governance
-| AKA Links          | Title | Abstract     | Level| Primary Speaker  | Additional Speaker |
-|---|---|---|---|---|---|
-  ||| ||||               
+| AKA Links   | Title | Abstract            | Level| Primary Speaker  | Additional Speaker |
+|---|---|----------|---|---|---|
+|aka.ms/PR101|Driving Adoption with Virtual Events: Best practices for organizers and producers|This real world lessons session will review our Virtual Event Playbook for event organizers and IT professionals.  Learn what you need to know from Karuana Gatimu, technical producer of key flagship events for Microsoft Teams Engineering during the initial stages of the pandemic.   Hear guidance gathered from the Microsoft transition to virtual events and how you can use Teams Meetings and Live Events to deliver compelling events that keep your organization connected.  |300|Karuana Gatimu|Ashwin Appiah| 
+|aka.ms/PR102|Deep dive on governance for Office 365 Groups and Microsoft Teams|View this hands on demonstration of governance capabilties and tools that will manage your end-users experience of Microsoft Teams and allow you to feel confident about the security and compliance of your information. Includes  configuration of Azure Active Director add-on capabilities. |300|Karuana Gatimu||
+||||||| 
+
+### Industry
+| AKA Links   | Title | Abstract            | Level| Primary Speaker  | Additional Speaker |
+|---|---|----------|---|---|---| 
+|aka.ms/PR103|Deployment and governance of Teams for Education |Understand everything you’ll need to know for holistic governance for your educational institution. In this session we’ll cover chat policies, meeting policies, app policies, assignments through groups, how to configure student safety, and methods for automating team class creation. |300|Jethro Seghers||
+|||||||
+
+### Meetings, Calling, and Devices 
+| AKA Links   | Title | Abstract            | Level| Primary Speaker  | Additional Speaker |
+|---|---|----------|---|---|---| 
+|aka.ms/PR104|Innovation in Teams meetings and devices with intelligence |We are continuously innovating and re-imaging meetings. Join us to learn about how we are continuously bringing more intelligence in meetings and our latest innovation in devices that bring intelligence to life.  |200|Shalendra Chhabra||
+|aka.ms/OD265|Advanced calling capabilities|Go deeper with Calling as we explore the new calling experience, further information on Collaborative Calling, e911, Location Based Routing and other features. Learn how Calling is ready for your advanced scenarios no matter the size of your company. |200|Alan Xie|Roy Kuntz|
+|aka.ms/OD261|Microsoft Teams devices for shared spaces |Microsoft Teams devices are designed to help people maximize the power of Teams and bridge the gap between remote and shared workspaces. Through a combination of Teams meetings features, customer-centric room experiences, and industry leading hardware, users benefit from low-friction, inclusive, and interactive meetings, whether they join remotely or in the meeting room. Learn how shared space devices like Microsoft Teams Rooms, collaboration bars and Surface Hub can help your teams stay connected and collaborative across the hybrid workplace.|200|Greg Baribault|Kendra Baker, Sandhya Shahdeo|
+|aka.ms/OD251|On Skype for Business? Design your path to Microsoft Teams|Join this session to learn and determine the most suitable approach based on your current Skype for Business implementation and business goals. Whether you are a Skype for Business Online or Server customer, we will share best practices, resources and guidance to get to Microsoft Teams today. |200|Lisa McKee|Laszlo Somi
+|aka.ms/PR108|Modern innovation in Teams personal devices  |Customers are looking for the right personal devices for Teams, especially as many of their employees are working remotely. Join us to learn about new innovations in Teams personal devices, our momentum in features and certified devices, and our best practices for remote work. |200|Sandhya Rao|Arash Ghanaje-Sichanie| 
+|aka.ms/PR109|Master virtual breakout rooms in Microsoft Teams meetings |Join us to learn about the latest innovations with virtual breakout rooms in Teams.  In this session we'll highlight use cases and best practices for facilitating small group ideation, brainstorming, learning, and discussions with virtual breakout rooms. |200|James Skay|Nakul Madaan| 
+||||||| 
+||||||| 
+||||||| 
+||||||| 
+||||||| 
+||||||| 
+||||||| 
+|||||||            
 
 
 
