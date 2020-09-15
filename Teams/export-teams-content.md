@@ -1,0 +1,103 @@
+---
+title: Export content with the Microsoft Teams Export API
+author: SerdarSoysal
+ms.author: serdars
+manager: serdars
+ms.topic: reference
+audience: admin
+ms.service: msteams
+ms.reviewer: vikramju
+description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export API.
+localization_priority: Normal
+f1.keywords:
+- CSH
+ms.custom: 
+  - NewAdminCenter_Update
+  - seo-marvel-apr2020
+ms.collection: 
+  - M365-collaboration
+appliesto: 
+  - Microsoft Teams
+---
+
+## Export content with the Microsoft Teams Export API
+
+Teams Export API's allow you to get One to one and Group chats messages. If your organization needs to export Teams messages you can be able to extract them using Teams Export API's. Chat Message represents an individual chat message within a [channel](https://docs.microsoft.com/en-us/graph/api/resources/channel?view=graph-rest-beta) or [chat](https://docs.microsoft.com/en-us/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the replyToId** **property in the chat message. Here are some examples on how you can use these export API's
+
+**Example 1**: If you have enabled Teams in your Organization and want to export all the Teams messages till date programmatically by passing the data range for a given user, you can make use of Teams export API's.
+
+**Example 2**: If you want to programmatically export all user messages daily, you can use Teams export API's by providing a data range. Export API's will retrieve all the messages that are either created or updated during the given date range.
+
+**What is supported by Export API's?**
+
+> **Bulk Export of Teams Message:** Export API's support up to 200 RPS Per App Per tenant and 600 RPS for a Application, with these limits you should be able to bulk export of Teams messages.
+> 
+> **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
+> 
+> If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [<span class="underline">Next Steps</span>](https://docs.microsoft.com/en-us/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) section for information and samples specific to Microsoft Graph.
+> 
+> **Hybrid Environment:** Export API's support messages sent by users who are provisioned on Hybrid Environment (On-Prem Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export API's
+> 
+> **User Deleted Messages:** Messages that are deleted by user from Teams client can be accessed using export API's up to 30 days from the time of deletion
+> 
+> **Message Attachments:** Export API's include the links to the attachments that are sent as part of messages. Using Export API's you can retrieve the files attached in the messages.
+> 
+> **Chat Message Properties:** Refer to the complete list of properties that Teams Export API's support [here](https://docs.microsoft.com/en-us/graph/api/resources/chatmessage?view=graph-rest-beta#properties)
+
+**Note :** Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the following [request form](https://aka.ms/teamsgraph/requestaccess).
+
+**Examples on how to access Export API's**
+
+  - **Example 1 :** Below is a simple query to retrieve all the messages of a user without any filters
+
+GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
+
+  - **Example 2 :** Below is a sample query to retrieve all the messages of a user by specifying date time filters and Top 50 messages
+
+> https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+> 
+> **Note** : The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+> 
+> **JSON representation**
+> 
+> The following is a JSON representation of the resource.
+> 
+> JSONCopy
+> 
+> {
+> 
+> "id": "string (identifier)",
+> 
+> "replyToId": "string (identifier)",
+> 
+> "from": {"@odata.type": "microsoft.graph.identitySet"},
+> 
+> "etag": "string",
+> 
+> "messageType": "string",
+> 
+> "createdDateTime": "string (timestamp)",
+> 
+> "lastModifiedDateTime": "string (timestamp)",
+> 
+> "deletedDateTime": "string (timestamp)",
+> 
+> "subject": "string",
+> 
+> "body": {"@odata.type": "microsoft.graph.itemBody"},
+> 
+> "summary": "string",
+> 
+> "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
+> 
+> "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
+> 
+> "importance": "string",
+> 
+> "locale": "string",
+> 
+> }
+
+## 
+
+##
