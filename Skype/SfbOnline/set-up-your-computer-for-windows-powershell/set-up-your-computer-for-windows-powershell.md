@@ -49,7 +49,7 @@ In addition to the supported operating system, the computer must also be running
     
 You can find information about downloading and installing these items in the following topics:
   
-- [Download and install the Teams Powershell module] (https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install)
+- [Download and install the Teams Powershell module](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Download and install Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
