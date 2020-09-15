@@ -29,6 +29,9 @@ Assignments are tasks or units of work assigned to a student or team member in a
 
 [Learn more about Assignments](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
+ > [!Note]
+ > See [Team features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) for more information.
+
 ## Assignments in the Microsoft Teams admin center
 
 With the admin settings in Microsoft Teams admin center you can turn the following features on or off to be available for students and teachers within your organization. The following are settings related to Assignments:
