@@ -50,12 +50,16 @@ ms.author: v-cichur
 |aka.ms/OD261|Microsoft Teams devices for shared spaces |Microsoft Teams devices are designed to help people maximize the power of Teams and bridge the gap between remote and shared workspaces. Through a combination of Teams meetings features, customer-centric room experiences, and industry leading hardware, users benefit from low-friction, inclusive, and interactive meetings, whether they join remotely or in the meeting room. Learn how shared space devices like Microsoft Teams Rooms, collaboration bars and Surface Hub can help your teams stay connected and collaborative across the hybrid workplace.|200|Greg Baribault|Kendra Baker, Sandhya Shahdeo|
 |aka.ms/OD251|On Skype for Business? Design your path to Microsoft Teams|Join this session to learn and determine the most suitable approach based on your current Skype for Business implementation and business goals. Whether you are a Skype for Business Online or Server customer, we will share best practices, resources and guidance to get to Microsoft Teams today. |200|Lisa McKee|Laszlo Somi
 |aka.ms/PR108|Modern innovation in Teams personal devices  |Customers are looking for the right personal devices for Teams, especially as many of their employees are working remotely. Join us to learn about new innovations in Teams personal devices, our momentum in features and certified devices, and our best practices for remote work. |200|Sandhya Rao|Arash Ghanaje-Sichanie| 
-|aka.ms/PR109|Master virtual breakout rooms in Microsoft Teams meetings |Join us to learn about the latest innovations with virtual breakout rooms in Teams.  In this session we'll highlight use cases and best practices for facilitating small group ideation, brainstorming, learning, and discussions with virtual breakout rooms. |200|James Skay|Nakul Madaan| 
+|aka.ms/PR109|Master virtual breakout rooms in Microsoft Teams meetings |Join us to learn about the latest innovations with virtual breakout rooms in Teams. In this session we'll highlight use cases and best practices for facilitating small group ideation, brainstorming, learning, and discussions with virtual breakout rooms. |200|James Skay|Nakul Madaan| 
+|aka.ms/PR110|Make your Teams meetings safe and inclusive with meeting and video conferencing controls |Join this session to learn more about meetings safety, security and moderation – including the ability to hard mute all attendees, request to speak functionality and configuring breakout rooms. We will also cover features like reactions and raised hands that can help make meetings more inclusive.|200|Nakul Madaan|Rajiv Ramaiah| 
+|aka.ms/PR111|Microsoft Teams Calling and Meetings as a platform |Learn about the Teams Calling and Meetings platform capabilities with updates to Microsoft Graph Cloud Communications APIs, Contact Center, and Compliance Recording and coming news in other platform experiences. |200|Srividhya Chandrasekaran|Mansoor Malik| 
+|aka.ms/PR112|Leverage Teams to deliver engaging virtual events for your employees, customers and communities |Join this session to learn how Microsoft Teams can seamlessly scale to help deliver events of all types, from company townhalls, to training webinars, to online conferences. We will also share vision and roadmap for features to help scale and customize your virtual meetings and events. |200|Christina Torok|Ashwin Appiah| 
+|aka.ms/OD267|Best practices for delivering more efficient and impactful meetings with Microsoft Teams|Teams Meetings are evolving and integrating deeply in the continuum of collaboration.  Making meetings more productive, secure, and inclusive, innovation in Teams will help you better prepare, execute, and streamline meetings.  In this session we'll showcase best practices to help you get the most of your meetings and stay in the flow of work.|200|Shiraz Cupala|| 
 ||||||| 
-||||||| 
-||||||| 
-||||||| 
-||||||| 
+
+### Firstline Worker
+| AKA Links   | Title | Abstract            | Level| Primary Speaker  | Additional Speaker |
+|---|---|----------|---|---|---| 
 ||||||| 
 ||||||| 
 |||||||            
