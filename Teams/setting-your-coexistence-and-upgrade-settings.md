@@ -1,5 +1,5 @@
 ---
-title: Setting your coexistence and upgrade settings
+title: Set your coexistence and upgrade settings
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Setting your coexistence and upgrade settings
+# Set your coexistence and upgrade settings
 
 
 When you upgrade your Skype for Business users to use Teams, you have several options to help you make it a seamless process for your users. You have the option to make coexistence and upgrade settings for all of the users in your organization at once, or you can make settings changes for a single or set of users in your organization. Note that older versions of Skype for Business clients may not honor these settings. For more information about Skype for Business client versions, go to the [Skype for Business downloads and updates page](https://docs.microsoft.com/skypeforbusiness/software-updates). 

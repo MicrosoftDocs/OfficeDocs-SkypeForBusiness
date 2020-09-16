@@ -310,6 +310,7 @@
 ## Calling Plans
 ### [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 ### [How to buy a Calling Plan](calling-plans-for-office-365.md)
+### [Extended dial-out minutes for US and Canada](dial-out-minutes-canada-us.md)
 ### [Set up Calling Plans for your organization](set-up-calling-plans.md)
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Country and region availability for Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -572,13 +573,19 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Technical library
-### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+## Technical library 
+### Upgrade guidance for IT administrators
+#### [Overview](upgrade-to-teams-on-prem-overview.md)
+#### [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
+#### [Considerations for organizations with Skype for Business on premises](upgrade-to-teams-on-prem-considerations.md)
+#### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
+#### [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+#### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ### [Meetings First](meetings-first.md)
 
 
