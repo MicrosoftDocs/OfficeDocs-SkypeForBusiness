@@ -39,19 +39,19 @@ Blocking access helps provide security and protects secure data. When access is 
 
 2. Expand **Policies** > **Access Policies**.
 
-3. In the **Unmanaged Devices** section,  select **Block Access** and click **Save**.
+3. In the **Unmanaged Devices** section,  select **Block Access** and select **Save**.
 
    ![the Unmanaged devices section for Policies](media/no-sharepoint-access1.png)
 
-4. Open the [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) portal and navigate to **Conditional Access Policies** section.
+4. Open the [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) portal and navigate to **Conditional Access Policies**.
 
     You'll see a new policy has been created by SharePoint that's similar to this example:
 
     ![a new policy that's named Use app-enforced Restrictions for browser access](media/no-sharepoint-access2.png)
 
-5. Update the policy to target only specific users/group.
+5. Update the policy to target only specific users or a group.
 
-    ! the Sharepoint admin center with the Select user section highlighted.](media/no-sharepoint-access2b.png)
+    ![the Sharepoint admin center with the Select user section highlighted.](media/no-sharepoint-access2b.png)
 
   > [!Note]
 > Setting this policy will cut your access to the SharePoint admin portal. We recommended that you configure the exclusion policy and select the Global and SharePoint admins.
@@ -70,13 +70,13 @@ Blocking access helps provide security and protects secure data. When access is 
 
 9. Make sure **Use app enforced restrictions** is enabled.
 
-10. Enable your policy and click **Save**.
+10. Enable your policy and select **Save**.
 
     ![The app enforced restrictions is enabled.](media/no-sharepoint-access6.png)
 
 To test your policy, you need to sign out from any client such as the Teams desktop app or the OneDrive sync client and sign in again to see the policy working. If your access has been blocked, you'll see a warning similar to the following **Access Denied** message.
 
- ![The blocked access message.](media/blocked-access-warning.png)
+ ![The access denied message.](media/blocked-access-warning.png)
 
 ## Related topics
 
