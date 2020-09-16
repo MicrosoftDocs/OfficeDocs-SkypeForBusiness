@@ -28,7 +28,7 @@ This article describes upgrade methods for migrating to Teams. This article is t
 - **Upgrade methods** (This article)
 - [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
 - [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem-considerations.md)
-- [Implementing your upgrade](upgrade-to-teams-implement.md)
+- [Implementing your upgrade](upgrade-to-teams-on-prem-implement.md)
 - [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:

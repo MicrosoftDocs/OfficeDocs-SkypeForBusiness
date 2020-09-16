@@ -57,7 +57,7 @@ To help guide your decision-making process, familiarize yourself with the variou
 
 A user that has been migrated to Teams no longer uses a Skype for Business client except to join a meeting hosted in Skype for Business. All incoming chats and calls land in the user's Teams client, regardless of whether the sender uses Teams or Skype for Business. Any new meetings organized by the upgraded user will be scheduled as Teams meetings. If the user attempts to use the Skype for Business client, initiation of chats and calls is blocked<sup>1</sup>. However, the user can (and must) still use the Skype for Business client to join meetings they are invited to.
 
-Administrators manage their transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), which is a property of [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). A user that has been migrated to Teams as described above is in "TeamsOnly" mode. For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
+Administrators manage their transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md), which is a property of [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). A user that has been migrated to Teams as described above is in "TeamsOnly" mode. For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
 
 There are two methods for migrating an existing organization with Skype for Business (whether online or on-premises) to Teams:
 
@@ -87,7 +87,7 @@ For this method to work effectively, all users must run both clients simultaneou
 
 For example, if an Islands mode recipient is signed in to Skype for Business but not Teams, and someone messages them from Teams, the Islands mode recipient will not see the message (but they will eventually get an email saying they missed a message in Teams). Likewise, if a user is running Teams but not Skype for Business, and someone messages that user from Skype for Business, the user will not see that chat. The behavior in each of these cases is similar for calling. If users do not run both clients, it can easily lead to frustration.
 
-Presence also functions independently between Teams and Skype for Business using this upgrade method. This means other users may see different presence states for User A, depending on which client they use. For more details, see [Presence](upgrade-to-Teams-on-prem-overview.md#presence).
+Presence also functions independently between Teams and Skype for Business using this upgrade method. This means other users may see different presence states for User A, depending on which client they use. For more details, see [Presence](upgrade-to-Teams-on-prem-coexistence.md#presence).
 
 - Other users, when using Teams, will see presence based on User A's activity in Teams.
 
@@ -97,7 +97,7 @@ Once you are ready to upgrade users to TeamsOnly mode, you can upgrade users ind
 
 However, non-upgraded recipients in Islands mode may continue to receive chats and calls from a TeamsOnly user in either their Skype for Business or Teams clients. For existing conversations the TeamsOnly user will reply to the client the sender initiated the chat or call from. 
 
-For new conversations from the TeamsOnly user's point of view, the chat or call will always go to the Islands mode users Teams client. This is because the Teams client maintains separate conversation threads for Teams-to-Teams and Teams-to-Skype for Business communication, even for the same user. To learn more, see [Teams Conversations - Interop versus native threads](upgrade-to-Teams-on-prem-overview.md#teams-conversations---interop-versus-native-threads).
+For new conversations from the TeamsOnly user's point of view, the chat or call will always go to the Islands mode users Teams client. This is because the Teams client maintains separate conversation threads for Teams-to-Teams and Teams-to-Skype for Business communication, even for the same user. To learn more, see [Teams Conversations - Interop versus native threads](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).
 
 The following table summarizes the Teams experience for both Islands mode and TeamsOnly mode:
 
@@ -119,7 +119,7 @@ The following table summarizes the pros and cons of using the overlapping capabi
 
 <sup>2</sup> This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.
 
-<sup>3</sup> Note that migration of Skype for Business meetings to Teams meetings is only triggered when applying TeamsUpgradePolicy to individual users, not on a per tenant basis. See [Meeting migration](upgrade-to-Teams-on-prem-overview.md#meeting-migration) for details.
+<sup>3</sup> Note that migration of Skype for Business meetings to Teams meetings is only triggered when applying TeamsUpgradePolicy to individual users, not on a per tenant basis. See [Meeting migration](setting-up-the-meeting-migration-service-mms.md) for details.
 
 ## Select capabilities method (using Skype for Business modes)
 
@@ -131,9 +131,9 @@ Some organizations may prefer to provide their end users a more predictable expe
 
 - Users in TeamsOnly mode receive all incoming chats and calls in their Teams client and presence is provided by Teams, regardless of where the communication originated from: Teams, Skype for Business, or any kind of federated user.
 
-Unlike the overlapping capabilities method, in the select capabilities method, users using Skype for Business can communicate with users who are in TeamsOnly. Communication between a Skype for Business user and Teams user is known as [interoperability](upgrade-to-Teams-on-prem-overview.md#interoperability) or "interop". Interop communication is possible on a one-to-one basis for chats and calls between a user in Skype for Business and another user in Teams. In addition, invited users can always join either a Skype for Business or Teams meeting, however, they must use a client that corresponds to the type of meeting. For more information, see [Meetings](upgrade-to-Teams-on-prem-overview.md#meetings).
+Unlike the overlapping capabilities method, in the select capabilities method, users using Skype for Business can communicate with users who are in TeamsOnly. Communication between a Skype for Business user and Teams user is known as [interoperability](upgrade-to-Teams-on-prem-coexistence.md#interoperability) or "interop". Interop communication is possible on a one-to-one basis for chats and calls between a user in Skype for Business and another user in Teams. In addition, invited users can always join either a Skype for Business or Teams meeting, however, they must use a client that corresponds to the type of meeting. For more information, see [Meetings](upgrade-to-Teams-on-prem-coexistence.md#meetings).
 
-For users in a select capabilities method, presence for a user is consistent regardless of which client is used by the other user. If the user is in one of the Skype for Business modes, all other users see presence based on that user's activity in Skype for Business. Similarly, if a user is in TeamsOnly mode, all other users see presence based on that user's activity in Teams. For details, see [Presence](upgrade-to-Teams-on-prem-overview.md#presence).
+For users in a select capabilities method, presence for a user is consistent regardless of which client is used by the other user. If the user is in one of the Skype for Business modes, all other users see presence based on that user's activity in Skype for Business. Similarly, if a user is in TeamsOnly mode, all other users see presence based on that user's activity in Teams. For details, see [Presence](upgrade-to-Teams-on-prem-coexistence.md#presence).
 
 For an organization that has chosen to follow the select capabilities method, the administrator should change the tenant-wide mode from Islands to the appropriate Skype for Business coexistence mode (SfbWithTeamsCollab or SfBWithTeamsCollabAndMeetings).  
 
