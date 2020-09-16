@@ -119,7 +119,7 @@ The following table summarizes the pros and cons of using the overlapping capabi
 
 <sup>2</sup> This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.
 
-<sup>3</sup> Note that migration of Skype for Business meetings to Teams meetings is only triggered when applying TeamsUpgradePolicy to individual users, not on a per tenant basis. See [Meeting migration](setting-up-the-meeting-migration-service-mms.md) for details.
+<sup>3</sup> Note that migration of Skype for Business meetings to Teams meetings is only triggered when applying TeamsUpgradePolicy to individual users, not on a per tenant basis. See [Meeting migration](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) for details.
 
 ## Select capabilities method (using Skype for Business modes)
 
