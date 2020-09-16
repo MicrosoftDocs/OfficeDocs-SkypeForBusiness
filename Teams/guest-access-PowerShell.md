@@ -37,18 +37,27 @@ You can also use PowerShell to allow or block a guest user based on their domain
   
 If you want to block guests in Teams and still want to allow them to access SharePoint sites, you can use Azure AD PowerShell cmdlets to disable the AllowGuestsToAccessGroups parameter on the Company object, assuming external sharing is turned on for SharePoint sites.
 
+> [!NOTE]
+> This guide is dependant on the following module
+
+```
+Install-Module -Name MicrosoftTeams
+```
+
 ## Use PowerShell to turn guest access on or off
 
 1.  Download the Skype for Business Online PowerShell module from https://www.microsoft.com/download/details.aspx?id=39366
  
 2.  Connect a PowerShell session to the Skype for Business Online endpoint.
 
+
 > [!NOTE]
 > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
 >
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
-    ```powershell
+
+    ```powershell     
     Import-Module -Name MicrosoftTeams
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
