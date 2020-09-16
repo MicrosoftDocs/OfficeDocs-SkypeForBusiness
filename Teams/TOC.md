@@ -63,6 +63,7 @@
 
 ### Guest access
 #### [About guest access](guest-access.md)
+#### [Guest access checklist](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [How a guest joins a team](guest-joins.md)
 #### [What the guest experience is like](guest-experience.md)
 #### [Authorize guest access in Teams](teams-dependencies.md)
@@ -310,6 +311,7 @@
 ## Calling Plans
 ### [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 ### [How to buy a Calling Plan](calling-plans-for-office-365.md)
+### [Extended dial-out minutes for US and Canada](dial-out-minutes-canada-us.md)
 ### [Set up Calling Plans for your organization](set-up-calling-plans.md)
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Country and region availability for Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -499,21 +501,8 @@
 
 ### [Microsoft Teams call flows](microsoft-teams-online-call-flows.md)
 
-## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
-### [Cloud voice guidance](cloud-voice-landing-page.md)
-#### [Define my success](1-envision-define-my-success-cloud-voice.md)
-#### [Make my service decisions - Phone System with Calling Plans](calling-plan-landing-page.md)
-#### [Make my service decisions - Phone System Direct Routing](direct-routing-landing-page.md)
-#### [Evaluate my environment](3-envision-evaluate-my-environment.md)
-#### [Plan my service management](4-envision-plan-my-service-management.md)
 #### [Plan my users' experience](5-envision-plan-my-users-experience.md)
-#### [Document my success plan](6-envision-document-my-success-plan.md)
-#### [Prepare my service](1-onboard-prepare-my-service.md)
-#### [Prepare my users](2-onboard-prepare-my-users.md)
-#### [Deploy my service](3-onboard-deploy-my-service.md)
-#### [Operate my service](1-drive-value-operate-my-service.md)
-#### [Enhance my service](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
@@ -585,13 +574,19 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Technical library
-### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+## Technical library 
+### Upgrade guidance for IT administrators
+#### [Overview](upgrade-to-teams-on-prem-overview.md)
+#### [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
+#### [Considerations for organizations with Skype for Business on premises](upgrade-to-teams-on-prem-considerations.md)
+#### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
+#### [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+#### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ### [Meetings First](meetings-first.md)
 
 
