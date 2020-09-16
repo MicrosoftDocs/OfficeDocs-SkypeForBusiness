@@ -27,8 +27,8 @@ Resources to assist educators and students with remote learning are available in
 
 This article covers the actual steps to take in order to get your educational institution set up for remote learning.
 
- > [!Note]
- > See [Team features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) for more information.
+> [!Note]
+> For details about remote learning capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > If you're an educator, educational leader, or IT professional, these resources may help:
