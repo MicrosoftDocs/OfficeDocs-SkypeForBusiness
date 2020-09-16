@@ -26,7 +26,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
 
  > [!Note]
- > See [Team features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) for more information.
+ > For details about Teams user profiles on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Presence states in Teams
 
