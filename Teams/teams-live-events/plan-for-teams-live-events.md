@@ -25,7 +25,7 @@ ms.custom: seo-marvel-apr2020
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up.
 
  > [!Note]
- > See [Team features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) for more information.
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Who can attend, create, and schedule live events
 
