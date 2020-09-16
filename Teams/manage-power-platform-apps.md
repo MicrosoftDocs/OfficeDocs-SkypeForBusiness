@@ -31,11 +31,11 @@ Power Platform apps created by makers in your organization are automatically add
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Power Platform apps listed in Built by your colleagues":::
 
-A user will see an app in **Built by your colleagues** if the app meets one of the following conditions.
+A user will see a Power Platform app in **Built by your colleagues** if the app meets one of the following conditions.
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
-|<ul><li>The user created the app.</li><li>The app was shared directly with the user.</li><li>The user recently used the app. </li></ul>| <ul><li>The user created the bot.</li><li>The bot was shared directly with the user.</li><li>The bot is owned by a team the user is a member of. </li></ul>        |
+|<ul><li>The user created the app.</li><li>The app was shared directly with the user.</li><li>The user recently used the app. </li></ul>| <ul><li>The user created the bot.</li><li>The bot is owned by a team the user is a member of. </li></ul>        |
 
 Users install Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install  apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.
 
