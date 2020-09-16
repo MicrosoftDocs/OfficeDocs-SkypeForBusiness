@@ -71,15 +71,15 @@ Following are the key commands:
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
-2. Upgrade the pilot user to TeamsOnly as follows:
+2. Upgrade the pilot users to TeamsOnly as follows:
 
-   - If the user is already online:
+   - For a user who is online:
 
      ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
-   - If the user is on-premises:
+   - For a user who is on-premises:
 
      ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
