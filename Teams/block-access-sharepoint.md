@@ -74,9 +74,13 @@ Blocking access helps provide security and protects secure data. When access is 
 
     ![The app enforced restrictions is enabled.](media/no-sharepoint-access6.png)
 
-To test your policy, you need to sign out from any client such as the Teams desktop app or the OneDrive sync client and sign in again to see the policy working. If your access has been blocked, you'll see a message that states the item might not exist.
+To test your policy, you need to sign out from any client such as the Teams desktop app or the OneDrive sync client and sign in again to see the policy working. If your access has been blocked, you'll see a message in Teams that states the item might not exist.
 
- ![The access denied message.](media/access-denied-sharepoint.png)
+ ![The item not found message.](media/access-denied-sharepoint.png)
+
+In Sharepoint, you'll receive an access denied message. 
+
+![The access denied message.](media/blocked-access-warning.png)
 
 ## Related topics
 
