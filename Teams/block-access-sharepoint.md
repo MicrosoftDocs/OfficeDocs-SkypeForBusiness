@@ -33,7 +33,7 @@ You can block or limit access for:
 
 - All sites in the organization or only some sites.
 
-Blocking access helps provide security and protects secure data. When access is blocked, users will see an error message.
+When access is blocked, users will see an error message. Blocking access helps provide security and protects secure data. When access is blocked, users will see an error message.
 
 1. Open the SharePoint [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
 
