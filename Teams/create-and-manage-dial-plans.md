@@ -81,12 +81,14 @@ To learn more, see [Connect to all Microsoft 365 or Office 365 services in a sin
     
 2. In the **Windows PowerShell** window, connect to Microsoft 365 or Office 365 by running:
     
+ 
     > [!NOTE]
-    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
-  
+    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+    >
+    > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
     ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
