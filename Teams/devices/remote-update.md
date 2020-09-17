@@ -36,6 +36,9 @@ Device firmware updates are applied automatically. You can decide whether to app
 > [!IMPORTANT]
 > The latest firmware update release isn't applied on your Teams device. Instead, the update that's automatically applied on your device is delayed by one version. For example, assume your device has version "10" applied, and version "11" is released. Version "11" won't be applied yet. Instead your device will only be updated to version "11" after version "12" is released.
 
+> [!NOTE]
+> Some devices don't support automatic firmware update yet. Applying automatic firmware update settings on devices that don't support automatic updates won't have any affect on those devices. For questions about whether your device will support automatic firmware updates, contact your device manufacturer.
+
 To choose the automatic update behavior for your devices, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
