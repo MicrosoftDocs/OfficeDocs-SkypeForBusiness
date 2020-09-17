@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to switch from Stream to OneDrive for Business and SharePoint Online meeting recording storage in Microsoft Teams.
+description: Learn how to switch from Stream to OneDrive for Business and SharePoint meeting recording storage in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -19,7 +19,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Use OneDrive for Business and SharePoint Online or Stream for meeting recordings
+# Use OneDrive for Business and SharePoint or Stream for meeting recordings
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
@@ -89,9 +89,13 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 **Where will the meeting recording be stored?**
 
-- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording.
+- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
 
-- For Channel meetings, the recording is stored the Teams site doc lib in a folder <channel name>\Recordings.
+  <i>Teams name</i>/**Documents**/**Recordings**
+
+- For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
+
+  <i>Teams name - Channel name</i>>/**Documents**/**Recordings**
 
 **Who has the permissions to view the meeting recording?**
 
@@ -105,7 +109,7 @@ Customers opting in to this preview will not have closed captions available on t
 
 Closed captions will be available on Teams Meeting Recordings for customers who've opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
 
-Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams. See [how to turn on or off meeting recordings](turn-on-or-turn-off-recording-transcription.md)
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](turn-on-or-turn-off-recording-transcription.md)
 
 Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
 
