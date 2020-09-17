@@ -37,7 +37,7 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 > We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
  > [!Note]
- > See [Team features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) for more information.
+ > For details about Teams features on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Chat deployment prerequisites
 
