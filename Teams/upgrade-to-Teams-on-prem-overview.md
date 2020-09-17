@@ -3,7 +3,7 @@ title: Upgrade to Teams from a Skype for Business on-premises deployment - Micro
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,7 +12,7 @@ description: Upgrade from Skype for Business to Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection: 
 - M365-collaboration
