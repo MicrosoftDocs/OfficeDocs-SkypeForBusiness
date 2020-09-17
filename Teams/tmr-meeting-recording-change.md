@@ -42,12 +42,11 @@ The benefits of using OneDrive for Business and SharePoint Online for storing re
 
 There are a some limitations to consider:
 
-- English only transcripts​
-- Unable to search transcripts and transcript content​
-- Can't edit transcripts
-- Unable to block the download of videos
-
-You'll still receive an email notification that the TMR is ready to view, and the notification in Teams chat will still be present.
+- There will be English-only closed captions and transcripts​.
+- You won't be able to search transcripts or their content​.
+- You won’t be able to edit the transcripts, but you'll be able to toggle captions off/on.
+- You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.
+- You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
 
 ## Set up the meeting recording option for OneDrive for Business and SharePoint Online
 
