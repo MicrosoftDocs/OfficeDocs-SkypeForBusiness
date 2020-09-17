@@ -78,10 +78,10 @@ To test your policy, you need to sign out from any client such as the Teams desk
 
  ![The item not found message.](media/access-denied-sharepoint.png)
 
-In Sharepoint Online, you'll receive an access denied message. 
+In Sharepoint Online, you'll receive an access denied message.
 
 ![The access denied message.](media/blocked-access-warning.png)
 
 ## Related topics
 
-[Control access for unmanaged devices in SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Control access for unmanaged devices in SharePoint Online](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)

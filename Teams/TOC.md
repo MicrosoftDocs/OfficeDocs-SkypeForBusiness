@@ -85,7 +85,6 @@
 ### [Assign policies to your users](assign-policies.md)
 ### [View your policy assignments in the Activity log](activity-log.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
-### [Block access to Sharepoint for specific users](block-access-sharepoint.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md)
@@ -734,6 +733,7 @@
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
+### [Block access to Sharepoint Online for specific users](block-access-sharepoint.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
