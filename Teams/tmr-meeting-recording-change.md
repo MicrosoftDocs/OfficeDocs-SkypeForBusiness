@@ -16,12 +16,9 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use OneDrive for Business and SharePoint or Stream for meeting recordings
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits:
 
