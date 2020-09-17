@@ -20,6 +20,9 @@ appliesto:
 
 # Use OneDrive for Business and SharePoint or Stream for meeting recordings
 
+> [!Note]
+> ​​The change from using Microsoft Stream to OneDrive for Business and SharePoint for meeting recordings will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+
 Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits:
 
 The benefits of using OneDrive for Business and SharePoint for storing recordings include:
@@ -44,9 +47,6 @@ There are a some limitations to consider:
 - You won’t be able to edit the transcripts, but you'll be able to toggle captions off/on.
 - You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.
 - You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
-
-> [!Note]
-> ​​The change from using Microsoft Stream to OneDrive for Business and SharePoint for meeting recordings will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 ## Set up the meeting recording option for OneDrive for Business and SharePoint
 
@@ -92,7 +92,7 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 - For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
 
-  <i>Teams name - Channel name</i>>/**Documents**/**Recordings**
+  <i>Teams name - Channel name</i>/**Documents**/**Recordings**
 
 **Who has the permissions to view the meeting recording?**
 
