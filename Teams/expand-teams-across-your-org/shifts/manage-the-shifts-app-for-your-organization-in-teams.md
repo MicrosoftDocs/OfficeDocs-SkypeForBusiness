@@ -34,6 +34,9 @@ The Shifts app in Microsoft Teams keeps Firstline Workers connected and in sync.
 
 It's important to know that Shifts currently doesn't support guest users. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams. 
 
+> [!Note]
+> For details about Shifts capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
 ## Availability of Shifts
 
 Shifts is available in all Enterprise SKUs where Teams is available.
