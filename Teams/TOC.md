@@ -117,10 +117,10 @@
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
 ## [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ## [Resource-specific consent](resource-specific-consent.md)
-### Custom apps
-#### [Manage Power Platform apps in the Microsoft Teams admin center](manage-power-platform-apps.md)
-#### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
-#### [Publish a custom app by uploading an app package](upload-custom-apps.md)
+## Custom apps
+### [Manage Power Platform apps in the Microsoft Teams admin center](manage-power-platform-apps.md)
+### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+### [Publish a custom app by uploading an app package](upload-custom-apps.md)
 ## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Purchase services for Teams third-party apps](purchase-third-party-apps.md)
