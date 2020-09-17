@@ -25,6 +25,6 @@ description: Learn how to manage bridge settings in Microsoft Teams
 Prior to and during a Microsoft Teams meeting or phone call, the meeting organizer has several options for choosing the bridge settings. See the following articles for more information:
 
 - [Emails sent to users when their settings change in Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
-- [Enable users to record their names when they join a meeting](nable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+- [Enable users to record their names when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 - [Turn off entry and exit annoucements in a Teams meeting](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 - [Mask phone numbers](ptsn-mask-phone-numbers.md)
