@@ -72,7 +72,7 @@ Microsoft continues to deliver additional auto attendant capabilities that custo
 Voicemail migration is Microsoft driven. Admins are not required to do anything, given that the pre-requisite hybrid topology is established. Microsoft performs the required validation and testing to make sure users’ voicemail migration is not disrupted. Admins are encouraged to perform testing and validation on their side. See [Suggested test plan and post-migration validation for admins](#suggested-test-plan-and-post-migration-validation-for-admins) for a recommended test plan.
 
 > [!Note]
-> Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams or Skype for Business Online.  
+> Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams.  
 
 ### Monitor the Admin Notification Center
 
@@ -144,7 +144,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | User Features | Record personal greetings (PSTN) — play on phone |  | N | Y    |
 | VM | User Features | User setting to disable transcription |  | N | Y    |
 | VM | User Features | Transcription  |  | Y | Y    |
-| VM | User Features | Visual voicemail on all endpoints   | With user control to play, delete, message waiting indicator, and status-toggle, on all supported endpoints  | Y | Y    |
+| VM | User Features | MWI (Message Waiting Indicator) using SIP notify messages |  | N | Y    |
 | VM | User Features | MP3 audio file format in Outlook    |  | Y | Y    |
 | VM | User Features | Variable speed play control |  | Y | Y    |
 | VM | User Features | Forward a voicemail  | Forward a received voicemail to other users | Y | Y    |

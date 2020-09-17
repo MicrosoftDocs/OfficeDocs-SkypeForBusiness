@@ -26,6 +26,9 @@ Manage external access in Microsoft Teams
 
 External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with external users who are still using Skype for Business (online and on-premises) and Skype (in preview).
 
+> [!NOTE]
+> The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
+
 If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Use external access when:
@@ -37,11 +40,11 @@ Use external access when:
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. 
 
 > [!IMPORTANT]
-> Currently, to federate within the Microsoft Teams app to an external user outside of your organization who's not currently a guest of your Azure Active Directory (Azure AD) or tenant, you must be correctly set up for hybrid and moved to Skype for Business Online. As of February 25, 2019, Teams doesn't support **native** federation without the user of the SIP profile being homed in Skype for Business Online. For more on setting up your account for hybrid and then moving to Teams, see [Upgrade Skype for Business hybrid deployment to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+> To use the Teams client to communicate with an external user (whether that user is using Teams or Skype for Business), the Teams user must be homed in Skype for Business Online.
 
 ## Plan for external access
 
-By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
+By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
 
 - **Open federation**: This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
@@ -50,6 +53,9 @@ By default, external access is turned on in Teams, which means that your organiz
 - **Allow specific domains**: By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains will be blocked. To allow specific domains, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Allowed**.
 
 - **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked. To block specific domains, click **Add a domain**, add the domain name, click **Action to take on this domain**, and then select **Blocked**. Once you set up a list of blocked domains, all other domains will be allowed.
+
+> [!NOTE]
+> If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
 
 ## Allow or block domains
 
@@ -106,17 +112,38 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 ## Common external access scenarios
 
-|**If you want to....**  |**Do this**  |
-|---------|-----------------------|
-|Let **Teams users** in your organization communicate with **Teams users** in another (external) organization.|In External Access, add the external domain to the Allowed list or use open federation. Then have the administrator in the other Teams organization do the same thing.      |
-|Let **Teams users**  in your organization  communicate with **Skype for Business Online users**  in the same organization.  |Enable Coexistence mode or choose the Islands upgrade mode to support Skype for Business users in your organization.   |
-|Let **Teams users** in your organization communicate with **Skype for Business Online users** in another (external) organization.      |In External Access, add the external domain to the Allowed list or use open federation. <br><br>Turn on **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same thing. <br><br>**NOTE**: The external domain with Skype for Business users must enable Coexistence mode or choose the Islands upgrade mode to support Skype for Business users in that organization.|
-|Let **Teams users** in your organization communicate with **Skype for Business on-premises users** in another (external) organization.      |In External Access, add the external domain to the Allowed list or use open federation. <br><br>Turn on **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other organization configure Skype for Business on-premises server to allow federation with your domain.|
-|Let **Teams users** in your organization communicate with **Skype** users.<br> (in preview)  |Turn on the **Users can communicate with Skype users** setting in External Access. |
-|Let your **Skype for Business Online users** communicate with **Teams users** in another Microsoft 365 or Office 365.| Your Skype for Business Online users can communicate with Teams users in another organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; and the other organization's Teams users are in TeamsOnly mode. <br><br>Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same things.|
-|Let your **Skype for Business Online users** communicate with **Skype for Business Online users** from another Microsoft 365 or Office 365.    | Your Skype for Business Online users can communicate with Skype for Business Online users in another organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; and the other organization's Skype for Business Online users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other Teams organization do the same things.|
-|Let your **Skype for Business Online users** communicate with **Skype for Business users** from an on-premises organization.     |Your Skype for Business Online users can communicate with Skype for Business users from an on-premises organization if your users are in one of the following upgrade modes: Islands, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings. <br><br> Turn on the **Users can communicate with other Skype for Business and Teams users** setting in External Access. Then have the administrator in the other organization configure Skype for Business on-premises server to allow federation with your domain.|
-|Let your **Skype for Business Online users** communicate with **Skype users** (inside or outside your organization).   |Turn on the **Users can communicate with Skype users** setting in External Access.|
+The following sections describe how to enable federation for common external access scenarios, and how the TeamsUpgradePolicy determines delivery of incoming chats and calls.
+
+### Enable federation
+
+To enable users in your organization to communicate with users in another organization, both organizations must enable federation. The steps to enable federation for a given organization depend on whether the organization is purely online, hybrid, or purely on-premises.
+
+|**If your organization is** |**Enable federation as follows**  |
+|:---------|:-----------------------|
+|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the **Users can communicate with other Skype for Business and Teams users** setting is enabled in External Access.<br>- If you are not using open federation (which allows federation with any other domain), then add the external domain to the Allowed list.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
+|Pure on-premises | In on-premises tools: <br>- Ensure federation is enabled in `CsAccessEdgeConfiguration`.<br>- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in `AllowedDomains`. |
+|Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both online and on-premises organizations. |
+
+### Delivery of incoming chats and calls 
+
+Incoming chats and calls from a federation organization will land in the user’s Teams or Skype for Business client depending on the recipient user’s mode in TeamsUpgradePolicy.
+
+|**If you want to** |**Do this:**  |
+|:---------|:-----------------------|
+| Ensure incoming federated chats and calls arrive in the user’s Teams client: | Configure your users to be TeamsOnly.
+| Ensure incoming federated chats and calls arrive in the user’s Skype for Business client | Configure your users to be in any mode other than TeamsOnly. |
+
+
+### Enable federation between users in your organization and consumer users of Skype
+
+To enable federation between users in your organization and consumer users of Skype:
+
+|**If your organization is** |**Enable consumer federation as follows**  |
+|:---------|:-----------------------|
+| Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Users can communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowPublicUsers=true`. <br> - Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnablePublicCloudAccess=true`. |
+| Pure on-premises | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).|
+| Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises.| Follow above steps for both online and on-premises organizations.
+
 
 > [!IMPORTANT]
 > You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are whitelisted, which means all of these domains are considered ALLOWED.
