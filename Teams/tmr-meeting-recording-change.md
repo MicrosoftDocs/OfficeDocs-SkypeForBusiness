@@ -1,5 +1,5 @@
 ---
-title: Use ODSP for meeting recordings
+title: Use OneDrive and SharePoint for meeting recordings
 author: cichur
 ms.author: v-cichur
 ms.reviewer: hao.moy
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to switch from Stream to OneDrive/SharePoint meeting recording storage in Microsoft Teams.
+description: Learn how to switch from Stream to OneDrive for Business and SharePoint Online meeting recording storage in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
