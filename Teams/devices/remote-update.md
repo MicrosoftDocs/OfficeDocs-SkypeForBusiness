@@ -29,6 +29,8 @@ Device firmware updates can either be applied automatically or scheduled for a f
 > [!NOTE]
 > While device firmware updates can be scheduled, if the scheduled date and time falls after the configured maximum 30 or 90 day delay, the firmware update is applied when the maximum delay is reached. The scheduled date and time are ignored. Additionally, updating Microsoft Teams devices remotely is a feature not yet available on US Government Cloud tenants (GCC-High).
 
+To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+
 ## Choose automatic device firmware update behavior
 
 Device firmware updates are applied automatically. You can decide whether to apply updates as soon as one is released, or 30 or 90 days after an update is released. By default, device firmware updates are applied 30 days one released.
