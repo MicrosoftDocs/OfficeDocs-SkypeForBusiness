@@ -89,11 +89,11 @@ Here's how to add custom tags and how to set up tagging by shift (if you're usin
 
 ### Create and assign custom tags
 
-To create and assign custom tags, select **Teams** on the left side of the app, and then find your team in the list. Select **More options**, and then choose **Manage tags**. Here, you can create tags and assign them to people on your team.
+To create and assign custom tags, select **Teams** on the left side of the app, and then find your team in the list. Select **˙˙˙ More options**, and then choose **Manage tags**. Here, you can create tags and assign them to people on your team.
 
 ![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
 
-To delete a tag, remove all team members associated with the tag.
+To delete a tag, select **˙˙˙ More options** next to the tag, and then select **Delete tag**.
 
 ### Set up tagging by shift (coming soon)
 
