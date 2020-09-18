@@ -54,12 +54,12 @@ The following table summarizes what each role can do.
 |    |Reset key         |&#10004;           |         ||
 |    |Download key         |&#10004;           |&#10004;          |&#10004; |
 |    |Unenroll         |&#10004;           |&#10004;           |&#10004; |
-|Group management   |Create         |&#10004;           |&#10004;           ||
+|Group management   |Create         |&#10004;           |           ||
 |    |View       |&#10004;          |&#10004;           ||
-|    |Modify         |&#10004;           |&#10004;           ||
-|Update ring management    |Create         |&#10004;           |&#10004;           ||
-|    |View         |&#10004;           |&#10004;           ||
-|    |Modify         |&#10004;           |&#10004;           ||
+|    |Modify         |&#10004;           |           ||
+|Update ring management    |Create         |&#10004;           |           ||
+|    |View         |&#10004;           |           ||
+|    |Modify         |&#10004;           |           ||
 |Reports   |View        |&#10004;           |&#10004;           ||
 |Ticket management   |Create customer incident         |&#10004;           |&#10004;           |&#10004;  |
 |    |View         |&#10004;           |&#10004;           |&#10004;  |
@@ -73,7 +73,7 @@ The following table summarizes what each role can do.
 
 To assign roles, you must be a Global Administrator or Managed Service Administrator.
 
-1. In the left navigation of the Microsoft Teams Rooms managed service portal, go to **Roles**.
+1. In the left navigation of the Microsoft Teams Rooms managed service portal, go to **Settings** > **Roles**.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot of Access control page showing roles":::
 
