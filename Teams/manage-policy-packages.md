@@ -31,7 +31,7 @@ A policy package in Microsoft Teams is a collection of predefined policies and p
 
 You can use the [policy packages included in Teams](#policy-packages-included-in-teams) or [create your own custom policy packages](#custom-policy-packages) (coming soon to private preview).
 
-:::image type="content" source="media/policy-packages.png" alt-text="Screenshot of the Policy packages page in the admin center":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot of the Policy packages page in the admin center":::
 
 You can customize the settings of the policies in a policy package to suit the needs of your users. When you change the settings of policies in a package, all users who are assigned to that package get the updated settings. You manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
