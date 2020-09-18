@@ -90,7 +90,7 @@ For more details about the template categories, see the following:
 - [Government templates](government-teams-templates-in-the-admin-console.md)
 - [Healthcare templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Manufacturing templates](manufacturing-teams-templates-in-the-admin-console.md)
-- [Retail templates](retails-teams-templates-in-the-admin-console.md)
+- [Retail templates](retail-teams-templates-in-the-admin-console.md)
 
 ## Template size limits
 
