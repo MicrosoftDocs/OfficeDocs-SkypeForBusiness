@@ -21,6 +21,14 @@ description: Patients app for Teams admins
 
 # Patients app overview
 
+> [!IMPORTANT]
+> **Effective September 30, 2020, the Patients app will be deprecated and users will no longer be able to 
+>install it from the Teams app store. Current users can still use the app until XYZ, after which it will be retired. We encourage you to start using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams as soon as possible.**
+>
+>The [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) is pre-installed for all Teams users and is available as a tab in every team and channel. With Lists, care teams can create patient lists by using the built-in Patients template, from scratch, or by importing data to Excel. To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](manage-lists-app.md).
+>
+>Patients app data is stored in the group mailbox of the Office 365 group that backs the team. When the Patients app is retired, all data associated with it will be retained in this group but can no longer be accessed through the user interface.
+
 The Patients application is a Microsoft Teams store app available to all Teams users. The app enables patient care teams consisting of clinical workers (e.g. Nurses, physicians, social workers) can curate and review lists of patients for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring.
 
 The app has two modes:
