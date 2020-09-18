@@ -52,7 +52,7 @@ To get started:
     2. In the **Add** dialog, name the channel.
     3. Add a description.
     4. Decide if the channel should be shown by default.
-    5. Search for an app name that you want to addd to the channel.
+    5. Search for an app name that you want to add to the channel.
     6. Click **Apply** when finished.
 
 ![An image of the Team templates channels, tabs, and apps screen.](media/template-channels-tabs-apps.png)
