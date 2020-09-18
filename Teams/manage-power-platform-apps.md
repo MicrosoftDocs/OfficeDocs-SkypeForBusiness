@@ -45,16 +45,14 @@ Users install Power Platform apps in the same way they install any other Teams a
 
 As an admin, you can control whether Power Platform apps are listed in **Built by your colleagues** on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).
 
-The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your organization's app store represent all apps created on that particular platform. If you block one or both these apps at the org level or for specific users, those users can't see any apps from that platform in **Built by your colleagues** and can't install them in Teams.  
+The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your organization's app store represent all apps created on that particular platform. If you block one or both these apps at the org level or for specific users, those users can't see any apps from those platforms in **Built by your colleagues** and can't install them in Teams.  
 
 Keep in mind that you can control access to all apps created in Power Apps and Power Virtual Agents but you can't allow or block individual apps. Makers decide who can access the apps they create through the sharing feature from within Power Apps and Power Virtual Agents. If a maker shared an app they created in Power Virtual Agents with a user and you blocked **Shared Power Virtual Agents Apps** for that user, the user won't be able to see or install any apps from that platform in Teams.
 
-If a user was previously allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps on one or both these platforms, the user can still access and use the Power Platforms apps that the user installed before you blocked the apps.
+If a user is allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps from one or both these platforms, the user can still access and use the Power Platforms apps that the user installed before you blocked the app or apps. However, the user can no longer see or install any apps from those platforms in **Built by your colleagues**.
 
 > [!NOTE]
 > The **Allow interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. By default, this setting is turned on. If this setting is turned off, users in your organization can't see or install any custom apps, including Power Platform apps. To learn  more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
-
-
 
 ### Allow or block Power Platform apps for your organization
 
