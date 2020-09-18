@@ -35,6 +35,8 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 | Manufacturer | Model                                    | Qualified  | Certified Program  |
 |:-------------|:-----------------------------------------|:-----------|:-------------------|
+| ViewSonic    | WCD-IFP8670                              | 07/31/2020 | Skype for Business |
+| ViewSonic    | WCD- IFP6570                             | 07/31/2020 | Skype for Business |
 | Crestron     | CCS-UCA-MIC                              | 12/18/2019 | Skype for Business |
 | Sharp        | WCD PN-CD701                             | 10/15/2019 | Skype for Business |
 | Sennheiser   | SC 665 USB A                             | 09/29/2019 | Skype for Business |
@@ -260,7 +262,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 - Automatic selection of default audio device and prioritization if multiple audio peripherals are present.
 - Plug and play: once connected, a device registers on the Skype for Business client and is ready to use.
-- Audio devices (e.g., headsets, and speakerphones) offer Basic call control across when used with a PC andor a Mac devices  including at least with answer/hang-up, mute/unmute, and volume control.
+- Audio devices (e.g., headsets, and speakerphones) offer Basic call control across when used with a PC and/or a Mac device, including at least with answer/hang-up, mute/unmute, and volume control.
 - Audio quality (embedded in the device): no echo or excessive glitches, echo cancellation across devices, wideband audio with no echo or distortion or glitches.
 - Video quality: Noise, color, image detail, jitter, latency, frame rate, field of view.
 
