@@ -365,7 +365,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
- **Note** In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default of this setting for any user(s), it will apply to all the new meetings organized by the user and any prior meeting(s) where the user did not modify the Meeting options.
+ **Note** In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |Setting value  |Join behavior |
 |---------|---------|
@@ -377,7 +377,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False. When False, dial in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When True, dial in users will automatically join the meeting when an organization user joins the meeting.
 
-**Note** If a dial in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default of this setting for any user(s), it will apply to all the new meetings organized by the user and any prior meeting(s) where the user did not modify the Meeting options.
+**Note** If a dial in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
 
 ### Enable live captions
 
