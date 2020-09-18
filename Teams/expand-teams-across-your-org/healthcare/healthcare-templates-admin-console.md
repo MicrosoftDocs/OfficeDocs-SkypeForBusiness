@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Get started with Teams templates for Healthcare organizations using the admin console
 
-[!INCLUDE [template](includes/preview-feature.md)]
+[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
