@@ -139,6 +139,12 @@ items:
     > [!NOTE]
     > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned to the student, the student can use Chat. In this case, it may be easier to disable Chat globally and use custom policies to enable Chat for faculty. 
 
+    ### Use policies and settings to enforce student safety measures
+    To maintain student safety, you should use administrative policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared.  
+
+    View [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to make within your environment to keep it safe for students. 
+
+
     ### Appendix
     #### How to create and assign a messaging policy
     1. See whether any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
