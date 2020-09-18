@@ -41,9 +41,6 @@ Here are some examples on how you can use these export APIs:
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
 - **Chat Message Properties:** Refer to the complete list of properties that Teams Export APIs support [here](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties).
 
->[!NOTE]
->Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the following [request form](https://aka.ms/teamsgraph/requestaccess).
-
 ## How to access Teams Export APIs
 
 - **Example 1** is a simple query to retrieve all the messages of a user without any filters:
@@ -61,9 +58,20 @@ Here are some examples on how you can use these export APIs:
 >[!NOTE]
 >The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
+## Prerequisites to access Teams Export APIs 
+
+- Teams Export APIs are currently in preview, subject to the Microsoft APIs Terms of Use.  It will only be available to users and tenants that have the required licenses. Attempts to access APIs without the proper licenses will result in a 403 error.
+- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
+- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
+
+    - *Chat.Read.All*: enables access to all 1:1 and Group chat messages 
+    - *User.Read.All*: enables access to the list of users for a tenant 
+
 ## JSON representation
 
 The following example is a JSON representation of the resource:
+
+Namespace: microsoft.graph
 
 ```JSON
 {
@@ -84,3 +92,6 @@ The following example is a JSON representation of the resource:
 "locale": "string",
 }
 ```
+
+>[!NOTE]
+>For more details on chatMessage resource, see the [chatMessage resource type](https://docs.microsoft.com/graph/api/resources/chatmessage) article.
