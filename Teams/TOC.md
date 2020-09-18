@@ -732,8 +732,12 @@
 #### [Search the audit log for events](audit-log-events.md)
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Data collection practices](data-collection-practices.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
 ### [Block access to Sharepoint Online for specific users](block-access-sharepoint.md)
+### [Policy control overview](policy-control-overview.md)
+### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
+### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -780,8 +784,6 @@
 # Reference
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## [Data collection practices](data-collection-practices.md)
 
 ## Get ready to roll out Teams
 ### [Prepare your organization's network for Teams](prepare-network.md)
