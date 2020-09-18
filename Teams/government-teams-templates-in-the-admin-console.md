@@ -1,5 +1,5 @@
 ---
-title: Get started with Teams templates in government using the admin console
+title: Use Teams government templates in the admin console
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,9 +19,12 @@ ms.custom:
   - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Get started with Teams templates in government using the admin console
+# Use Teams government templates in the admin console
+
+[!INCLUDE [template](includes/preview-feature.md)]
 
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
@@ -33,21 +36,11 @@ This article is for you if you're responsible for planning, deploying, and manag
 
 To learn more about team templates in general, please refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
 
-## Organize a help desk
+## Coordinate incident response
 
-Collaborate on documentation, policy and processes that support your help desk. Integrate your existing ticketing system or use our template to manage requests.
-
-| Base template type | Properties that come with this base template |
-| ------------------ |----------------------------------------------------- |
-|Organize help desk| Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li></ul> |
-|||
-
-## Collaborate within a bank branch
-
-Centralize collaboration for your bank branch employees across Huddles, Customer Meetings, Business Processes such as Mortgage Collaboration, and keep everyone in the loop with Announcements and Kudos.
+Centralize communication and critical resources for your crisis management or incident response team. Within this team you can include many different types of files to help create a central place for all your documents. Use online meetings to improve information flow and situational awareness.
 
 | Base template type | Properties that come with this base template |
 | ------------------ |----------------------------------------------------- |
-|Collaborate within a bank branch |Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>|
+|Coordinate incident response |Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 |||
-

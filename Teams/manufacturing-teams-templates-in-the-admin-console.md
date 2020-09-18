@@ -19,9 +19,12 @@ ms.custom:
   - seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Get started with Teams templates in manufacturing using the admin console
+
+[!INCLUDE [template](includes/preview-feature.md)]
 
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
