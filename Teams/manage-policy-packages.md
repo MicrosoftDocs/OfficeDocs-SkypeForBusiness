@@ -47,7 +47,7 @@ Policy packages support the following Teams policy types:
 - Calling policy
 - Live events policy
 
-### Policy packages included in Teams
+## Policy packages included in Teams
 
 Teams currently includes the following policy packages.
 
@@ -76,7 +76,7 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 
 ![Screenshot of the Education (Teacher) policy package](media/policy-packages-education_teacher.png)
 
-### Custom policy packages
+## Custom policy packages
 
 **This feature is coming soon to private preview**
 
