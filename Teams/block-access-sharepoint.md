@@ -22,7 +22,7 @@ description: Learn about how to block access to SharePoint for specific users
 
 # Block access to SharePoint for specific users
 
-Applying any Conditional Access (CA) policy on SharePoint Online is also applied to Teams. However, some organizations want to block access to SharePoint files (upload, download, view, edit, create) yet allow their employees to use Teams desktop, mobile, and web clients on unmanaged devices. Under the CA policy rules, blocking Sharepoint Online would lead to blocking Teams as well. This article explains how you can work around this limitation and allow your employees to continue using Teams while completely blocking access to files stored in SharePoint Online.
+Applying any Conditional Access (CA) policy on SharePoint in Microsoft 365 is also applied to Teams. However, some organizations want to block access to SharePoint files (upload, download, view, edit, create) yet allow their employees to use Teams desktop, mobile, and web clients on unmanaged devices. Under the CA policy rules, blocking Sharepoint would lead to blocking Teams as well. This article explains how you can work around this limitation and allow your employees to continue using Teams while completely blocking access to files stored in SharePoint.
 
 > [!Note]
 > Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. Learn about [Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/). For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). For info about recommended SharePoint Online access policies, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.
@@ -35,7 +35,7 @@ You can block or limit access for:
 
 When access is blocked, users will see an error message. Blocking access helps provide security and protects secure data. When access is blocked, users will see an error message.
 
-1. Open the SharePoint Online [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+1. Open the SharePoint [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
 
 2. Expand **Policies** > **Access Policies**.
 
@@ -45,7 +45,7 @@ When access is blocked, users will see an error message. Blocking access helps p
 
 4. Open the [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) portal and navigate to **Conditional Access Policies**.
 
-    You'll see a new policy has been created by SharePoint Online that's similar to this example:
+    You'll see a new policy has been created by SharePoint that's similar to this example:
 
     ![a new policy that's named Use app-enforced Restrictions for browser access](media/no-sharepoint-access2.png)
 
@@ -54,11 +54,11 @@ When access is blocked, users will see an error message. Blocking access helps p
     ![the Sharepoint admin center with the Select user section highlighted.](media/no-sharepoint-access2b.png)
 
   > [!Note]
-> Setting this policy will cut your access to the SharePoint Online admin portal. We recommended that you configure the exclusion policy and select the Global and SharePoint Online admins.
+> Setting this policy will cut your access to the SharePoint admin portal. We recommended that you configure the exclusion policy and select the Global and SharePoint admins.
 
-6. Verify that only SharePoint Online is selected as targeted Cloud App
+6. Verify that only SharePoint is selected as targeted Cloud App
 
-    ![Sharepoint online is selected as the targeted app.](media/no-sharepoint-access3.png)
+    ![Sharepoint is selected as the targeted app.](media/no-sharepoint-access3.png)
 
 7. Update **Conditions** to include desktop clients, as well.
 
@@ -78,10 +78,10 @@ To test your policy, you need to sign out from any client such as the Teams desk
 
  ![The item not found message.](media/access-denied-sharepoint.png)
 
-In Sharepoint Online, you'll receive an access denied message.
+In Sharepoint, you'll receive an access denied message.
 
 ![The access denied message.](media/blocked-access-warning.png)
 
 ## Related topics
 
-[Control access for unmanaged devices in SharePoint Online](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Control access for unmanaged devices in SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
