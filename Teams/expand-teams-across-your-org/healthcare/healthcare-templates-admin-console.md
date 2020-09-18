@@ -1,5 +1,5 @@
 ---
-title: "Templates for Healthcare organizations created using the admin console"
+title: "Use Teams Healthcare templates in the admin console"
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Get started with Teams templates for Healthcare organizations using the admin console
+# Use Teams healthcare templates in the admin console
 
 [!INCLUDE [template](../../includes/preview-feature.md)]
 

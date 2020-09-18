@@ -21,7 +21,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Get started with Teams templates in the Teams admin console
+# Get started with Teams templates in the admin console
 
 [!INCLUDE [template](includes/preview-feature.md)]
 

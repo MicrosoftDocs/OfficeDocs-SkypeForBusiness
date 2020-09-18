@@ -1,5 +1,5 @@
 ---
-title: Get started with Teams templates in retail using the admin console
+title: Use Teams retail templates in the admin console
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -22,7 +22,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Get started with Teams templates in retail using the admin console
+# Use Teams retail templates in the admin console
 
 [!INCLUDE [template](includes/preview-feature.md)]
 

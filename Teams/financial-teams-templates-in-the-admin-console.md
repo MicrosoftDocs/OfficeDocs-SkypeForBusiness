@@ -1,5 +1,5 @@
 ---
-title: Get started with Teams templates in financial using the admin console
+title: Get started with Teams financial templates using the admin console
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -22,7 +22,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Get started with Teams templates in financial using the admin console
+# Use Teams financial templates in the admin console
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
