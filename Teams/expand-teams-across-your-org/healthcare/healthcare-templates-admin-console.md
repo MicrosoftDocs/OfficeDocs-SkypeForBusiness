@@ -50,4 +50,3 @@ Streamline communication and collaboration between multiple wards, pods, and dep
 ## Related topics
 
 [Get started with Teams templates](../../get-started-with-teams-templates-in-the-admin-console.md)
-
