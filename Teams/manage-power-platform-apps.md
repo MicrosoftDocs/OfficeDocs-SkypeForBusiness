@@ -49,8 +49,12 @@ The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your o
 
 Keep in mind that you can control access to all apps created in Power Apps and Power Virtual Agents but you can't allow or block individual apps. Makers decide who can access the apps they create through the sharing feature from within Power Apps and Power Virtual Agents. If a maker shared an app they created in Power Virtual Agents with a user and you blocked **Shared Power Virtual Agents Apps** for that user, the user won't be able to see or install any apps from that platform in Teams.
 
+If a user was previously allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps on one or both these platforms, the user can still access and use the Power Platforms apps that the user installed before you blocked the apps.
+
 > [!NOTE]
 > The **Allow interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. By default, this setting is turned on. If this setting is turned off, users in your organization can't see or install any custom apps, including Power Platform apps. To learn  more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
+
+
 
 ### Allow or block Power Platform apps for your organization
 
@@ -73,6 +77,9 @@ For example, to block specific users from accessing apps created in Power Apps, 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Screenshot of example custom app permission policy with Shared Power Apps blocked":::
 
 To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+
+> [!NOTE]
+> Information the user should notice even if skimming
 
 ## Related topics
 
