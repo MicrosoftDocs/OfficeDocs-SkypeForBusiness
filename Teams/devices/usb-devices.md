@@ -80,8 +80,6 @@ If you are a manufacturer and want to join the certification program, see [How t
 |EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connecto                |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connecto                |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connecto                |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
-|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certified for Skype for Business                        |
-|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |Certified for Skype for Business                        |
 |Jabra                |Evolve 75 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 65 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Engage 50 Headset                                          |7/31/2020       |Skype for Business with upgrade to Microsoft Teams      |
