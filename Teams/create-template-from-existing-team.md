@@ -27,7 +27,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.
 
-1. Log in to the admin center.
+1. Log in to the Teams admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 
