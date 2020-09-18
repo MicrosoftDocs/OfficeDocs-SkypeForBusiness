@@ -1,5 +1,5 @@
 ---
-title: Required desktop diagnostic data for Microsoft Teams
+title: Required desktop client diagnostic data for Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
