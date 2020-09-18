@@ -29,7 +29,7 @@ A custom team template is a predefined team structure with a set of channels, ta
 
 To get started:
 
-1. Log in to the admin center at <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a>.
+1. Log in to the Teams admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 

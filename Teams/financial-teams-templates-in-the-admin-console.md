@@ -40,17 +40,17 @@ To learn more about team templates in general, please refer to [Get started with
 
 Centralize collaboration for your crisis team across business units and help create business continuity plans, share remote working tips, track customer communications, and keep everyone in the loop with announcements and news.
 
-| Base template type | Properties that come with this base template |
-| ------------------ |----------------------------------------------------- |
-| Collaborate on global crisis or event |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li></ul>|
-|||
+| Base template type|baseTemplateId | Properties that come with this base template |
+| ------------------|-- |----------------------------------------------------- |
+| Collaborate on global crisis or event|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li></ul>|
+||||
 
 ## Collaborate within a bank branch
 
 Centralize collaboration for your bank branch employees across Huddles, Customer Meetings, Business Processes such as Mortgage Collaboration, and keep everyone in the loop with Announcements and Kudos.
 
-| Base template type | Properties that come with this base template |
-| ------------------ |----------------------------------------------------- |
-|Collaborate within a bank branch |Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>|
-|||
+| Base template type |baseTemplateId| Properties that come with this base template |
+| ------------------ |--|----------------------------------------------------- |
+|Collaborate within a bank branch|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>|
+||||
 

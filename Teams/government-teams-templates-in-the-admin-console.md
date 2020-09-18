@@ -40,7 +40,7 @@ To learn more about team templates in general, please refer to [Get started with
 
 Centralize communication and critical resources for your crisis management or incident response team. Within this team you can include many different types of files to help create a central place for all your documents. Use online meetings to improve information flow and situational awareness.
 
-| Base template type | Properties that come with this base template |
-| ------------------ |----------------------------------------------------- |
-|Coordinate incident response |Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|||
+| Base template type | | Properties that come with this base template |
+| ------------------|-- |----------------------------------------------------- |
+|Coordinate incident response|`com.microsoft.teams.template.CoordinateIncidentResponse` |Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+||||
