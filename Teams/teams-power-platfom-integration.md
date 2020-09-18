@@ -21,9 +21,9 @@ description: Learn about Teams integration with Microsoft Power Platform tools, 
 
 # Teams integration with Microsoft Power Platform
 
-## Overview
+Microsoft Power Platform helps users accelerate their development with low-code tools to analyze data using Power BI, build custom apps using Power Apps, automate processes using Power Automate, and create intelligent bots using Power Virtual Agents more quickly than ever. With the shift to remote and hybrid work, Microsoft Teams has enabled people around the world to continue to create, collaborate, and communicate. With more than 75 million daily active users, Teams is how people are getting work done.
 
-Microsoft Power Platform helps users accelerate their development with low-code tools to analyze data using Power BI, build custom apps using Power Apps, automate processes using Power Automate, and create intelligent bots using Power Virtual Agents more quickly than ever. With the shift to remote and hybrid work, Microsoft Teams has enabled people around the world to continue to create, collaborate, and communicate. With more than 75 million daily active users, Teams is how people are getting work done. 
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Image summarizing Teams and Microsoft Power Platform":::
 
 Microsoft Power Platform provides many integration capabilities with Teams where you can embed Power BI reports in the Teams workspace, embed apps created using Power Apps as a tab or personal app, trigger a Power Automate flow from any message or use adaptive cards, and add your bot created using Power Virtual Agents to Teams for other members of your organization to interact with.
 

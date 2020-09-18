@@ -111,6 +111,7 @@
 # Apps, bots, and connectors
 
 ## [Overview](deploy-apps-microsoft-teams-landing-page.md)
+## [Integration with Microsoft Power Platform](teams-power-platfom-integration.md)
 ## [Manage apps for Teams](manage-apps.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
