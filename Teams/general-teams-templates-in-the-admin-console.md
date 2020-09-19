@@ -45,7 +45,7 @@ Centralize collaboration for your crisis team across business units and help cre
 | Collaborate on global crisis or event |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li></ul>|
 |||
 
-## Adopt Officd 365
+## Adopt Office 365
 
 Help build, grow, and sustain your Champions community rollout by evangelizing and helping your peers with the new technology.
 
