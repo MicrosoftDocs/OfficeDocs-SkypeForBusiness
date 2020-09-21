@@ -401,7 +401,7 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 
 ### Allow chat in meetings
 
-This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting.
+This is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
 <a name="bkparticipantsandguests"> </a>
 
