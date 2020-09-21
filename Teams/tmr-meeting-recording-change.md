@@ -21,7 +21,7 @@ appliesto:
 # Use OneDrive for Business and SharePoint or Stream for meeting recordings
 
 > [!Note]
-> ​​The change from using Microsoft Stream to OneDrive for Business and SharePoint for meeting recordings will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+> ​​The change from using Microsoft Stream to OneDrive for Business and SharePoint for meeting recordings will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits:
 
@@ -88,7 +88,7 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 - For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
 
-  <i>Teams name</i>/**Documents**/**Recordings**
+  <i>recorder's OneDrive for Business</i>/**Recordings**
 
 - For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
 
