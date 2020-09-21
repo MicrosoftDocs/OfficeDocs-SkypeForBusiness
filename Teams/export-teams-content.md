@@ -27,8 +27,8 @@ Teams Export APIs allow you to export 1:1 and group chat messages from Microsoft
 
 Here are some examples on how you can use these export APIs:
 
-- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the data range for a given user.
-- **Example 2**: If you want to programmatically export all user messages daily by providing a data range. Export APIs can retrieve all the messages created or updated during the given date range.
+- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user.
+- **Example 2**: If you want to programmatically export all user messages daily by providing a date range. Export APIs can retrieve all the messages created or updated during the given date range.
 
 ## What is supported by the Teams Export APIs?
 
@@ -46,13 +46,13 @@ Here are some examples on how you can use these export APIs:
 - **Example 1** is a simple query to retrieve all the messages of a user without any filters:
 
     ```HTTP
-    GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
 
 - **Example 2** is a sample query to retrieve all the messages of a user by specifying date time filters and top 50 messages:
 
     ```HTTP
-    https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 
 >[!NOTE]
