@@ -57,7 +57,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./media/blocks-teams.svg
       summary: Implement business processes and drive value with Power Platform
-      url: deploy-apps-microsoft-teams-landing-page.md
+      url: teams-power-platfom-integration.md
     # Card
     - title: Contoso case study - Teams voice migration
       imageSrc: ./media/instructor-led-training-teams-landing-page-image9.svg
