@@ -33,26 +33,23 @@ If you've already [optimized your network for Microsoft 365 or Office 365](https
     |Ports     |UDP ports <strong>3478</strong> through <strong>3481</strong>        |
     |[IP addresses](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, and <strong>52.120.0.0/14</strong>         |
 
-> [!IMPORTANT]
-> If you need to federate with Skype for Business, either on-premises or online, you will need to configure some additional DNS records.
->
->|CNAME Records / Host name  |TTL  |Points to address or value  |
->|---------|---------|---------|
->|sip     |    3600     |    sipdir.online.lync.com     |
->|lyncdiscover     |   3600      |    webdir.online.lync.com     |
->
-
-
+    > [!IMPORTANT]
+    > If you need to federate with Skype for Business, either on-premises or online, you will need to configure some additional DNS records.
+    >
+    >|CNAME Records / Host name  |TTL  |Points to address or value  |
+    >|---------|---------|---------|
+    >|sip     |    3600     |    sipdir.online.lync.com     |
+    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
     
 2.  Do you have a verified domain for Microsoft 365 or Office 365 (for example, contoso.com)?
     
-      - If your organization hasn't rolled out Microsoft 365 or Office 365, see [Get started](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
-      - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see the [Domains FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
+    - If your organization hasn't rolled out Microsoft 365 or Office 365, see [Get started](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365).
+    - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see the [Domains FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
 
 3.  Has your organization deployed Exchange Online and SharePoint Online?
     
-      - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
-      - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
+    - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
+    - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
 Once you've verified that you meet these network requirements, you may be ready to [Roll out Teams](How-to-roll-out-teams.md). If you're a large multinational enterprise, or if you know you've got some network limitations, read on to learn how to assess and optimize your network for Teams.
 
