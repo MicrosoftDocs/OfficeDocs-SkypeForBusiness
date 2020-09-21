@@ -106,7 +106,7 @@ Customers opting in to this preview will not have closed captions available on t
 
 Closed captions will be available on Teams Meeting Recordings for customers who've opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
 
-Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](cloud-recording.md#turn-on-or-turn-off-recording-transcription.md)
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
 
 Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
 
