@@ -34,7 +34,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
  - Microsoft Planner
  - Microsoft Search
  - Microsoft StaffHub
- - Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs
+ - Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs <sup>1</1>
  - Microsoft Teams
  - Mobile Device Management for Microsoft 365 or Office 365
  - Office Mobile Apps for Office 365 
@@ -46,6 +46,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
  - Whiteboard (Plan 1)
  - Yammer Enterprise
 
+   <sup>1</sup> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ## Who's eligible?
 
