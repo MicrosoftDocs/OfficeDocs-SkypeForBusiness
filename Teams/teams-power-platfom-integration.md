@@ -19,15 +19,15 @@ search.appverid: MET150
 description: Learn about Teams integration with Microsoft Power Platform tools, including Power BI, Power apps, Power automate, and Power Virtual Agents.
 ---
 
-# Teams integration with Power Platform
+# Teams integration with Microsoft Power Platform
 
 Microsoft Power Platform helps users accelerate their development with low-code tools to analyze data using **Power BI**, build custom apps using **Power Apps**, automate processes using **Power Automate**, and create intelligent bots using **Power Virtual Agents** more quickly than ever. With the shift to remote and hybrid work, Microsoft Teams has enabled people around the world to continue to create, collaborate, and communicate. With more than 75 million daily active users, Teams is how people are getting work done.
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Image summarizing Teams and Power Platform":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Image summarizing Teams and Microsoft Power Platform":::
 
-Power Platform provides many integration capabilities with Teams where you can embed **Power BI** reports in the Teams workspace, embed apps created using **Power Apps** as a tab or personal app, trigger a **Power Automate** flow from any message or use adaptive cards, and add your bot created using **Power Virtual Agents** to Teams for other members of your organization to interact with.
+Microsoft Power Platform provides many integration capabilities with Teams where you can embed **Power BI** reports in the Teams workspace, embed apps created using **Power Apps** as a tab or personal app, trigger a **Power Automate** flow from any message or use adaptive cards, and add your bot created using **Power Virtual Agents** to Teams for other members of your organization to interact with.
 
-Starting September 2020, integration with Power Platform has improved to let users do the following *without ever leaving the Teams interface*:
+Starting September 2020, integration with Microsoft Power Platform has improved to let users do the following *without ever leaving the Teams interface*:
 
 - Create and share dashboards, reports, and apps using **Power BI** to make data-driven decisions.
 - Create and share low-code, purpose-built apps using an integrated **Power Apps** studio by connecting to your business data stored either in the new underlying data platform (Project Oakdale), Microsoft 365, or in other data sources through connectors.

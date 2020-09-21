@@ -53,10 +53,10 @@ productDirectory:
   # summary: Leverage Teams integration with Microsoft 365 services to provide enhance capabilities to your users and improve collaboration # < 160 chars (optional)
   items:
     # Card
-    - title: Integrate with Power Platform
+    - title: Integrate with Microsoft Power Platform
       # imageSrc should be square in ratio with no whitespace
       imageSrc: ./media/blocks-teams.svg
-      summary: Implement business processes and drive value with Power Platform
+      summary: Implement business processes and drive value with Microsoft Power Platform
       url: teams-power-platfom-integration.md
     # Card
     - title: Contoso case study - Teams voice migration
