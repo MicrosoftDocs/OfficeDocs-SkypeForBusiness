@@ -40,7 +40,7 @@ To learn more about team templates in general, please refer to [Get started with
 
 Bring your retail employees together in one central experience to manage tasks, share documents and resolve customer issues. Integrate additional applications to streamline shift start & end processes.
 
-| Base template type| | Properties that come with this base template |
+| Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
 |Organize a store| `retailStore`|Channels: <ul><li>General<li>Shift handoff</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
@@ -49,8 +49,7 @@ Bring your retail employees together in one central experience to manage tasks, 
 
 The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions, etc. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, as well as the regional manager for that region.
 
-| Base template type|  | Properties that come with this base template |
+| Base template type| baseTemplateId | Properties that come with this base template |
 | ------------------|- |----------------------------------------------------- |
 |Retail - manager collaboration|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
-
