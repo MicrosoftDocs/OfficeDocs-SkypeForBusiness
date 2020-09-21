@@ -63,6 +63,7 @@
 
 ### Guest access
 #### [About guest access](guest-access.md)
+#### [Guest access checklist](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [How a guest joins a team](guest-joins.md)
 #### [What the guest experience is like](guest-experience.md)
 #### [Authorize guest access in Teams](teams-dependencies.md)
@@ -74,8 +75,6 @@
 #### [Use PowerShell to control guest access](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](troubleshoot-guest-access.md)
 ## [Cortana in Teams](cortana-in-teams.md)
-
-
 
 ## Manage Teams
 ### [Administrator roles](using-admin-roles.md)
@@ -310,6 +309,7 @@
 ## Calling Plans
 ### [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 ### [How to buy a Calling Plan](calling-plans-for-office-365.md)
+### [Extended dial-out minutes for US and Canada](dial-out-minutes-canada-us.md)
 ### [Set up Calling Plans for your organization](set-up-calling-plans.md)
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Country and region availability for Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -572,13 +572,19 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Technical library
-### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+## Technical library 
+### Upgrade guidance for IT administrators
+#### [Overview](upgrade-to-teams-on-prem-overview.md)
+#### [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
+#### [Considerations for organizations with Skype for Business on premises](upgrade-to-teams-on-prem-considerations.md)
+#### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
+#### [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+#### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ### [Meetings First](meetings-first.md)
 
 
@@ -711,6 +717,7 @@
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [AppLocker application control policies](applocker-in-teams.md)
+### [Block Access to Sharepoint](block-access-sharepoint.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
@@ -725,7 +732,12 @@
 #### [Search the audit log for events](audit-log-events.md)
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Data collection practices](data-collection-practices.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
+### [Block access to Sharepoint Online for specific users](block-access-sharepoint.md)
+### [Policy control overview](policy-control-overview.md)
+### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
+### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -772,7 +784,6 @@
 # Reference
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
 
 ## Get ready to roll out Teams
 ### [Prepare your organization's network for Teams](prepare-network.md)

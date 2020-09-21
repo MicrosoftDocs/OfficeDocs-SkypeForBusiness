@@ -24,6 +24,9 @@ ms.custom: seo-marvel-apr2020
 
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up.
 
+ > [!Note]
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
 ## Who can attend, create, and schedule live events
 
 Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
@@ -120,7 +123,7 @@ The following table highlights core capabilities and features offered in live ev
 |Live captions and subtitles |&#x2714; |&#x2714; |&#x274C; |
 |Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
+|Partner eCDN Support |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |&#x274C; |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
