@@ -70,7 +70,7 @@ Then assign the policy to the users.
 
 ## Edit a meeting policy
 
-You can edit the global policy an any custom policies that you create.
+You can edit the global policy and any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
@@ -110,9 +110,9 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ### Allow Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** under the compose box to start an ad hoc meeting in the channel. The default value is True.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
 
-![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
+[ ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
 ### Allow the Outlook add-in
 
@@ -134,20 +134,23 @@ Schedule a meeting will be disabled.
 
 Channel selection is disabled.
 
-![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)
+[ ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 In the channel posts page, the following will be disabled:
 
 - **Schedule a meeting** button on the channel reply compose box.
-![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png)
+  ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png)
+  
 - **Schedule a meeting** button on the channel header.
-![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-now-in-header.png)
+  ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-now-in-header.png)
 
 In the channel calendar:
 
 - **Add new event** button on channel calendar header will be disabled.
-![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/add-new-event-disabled.png)
+  ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/add-new-event-disabled.png)
+
 - Users will not be able to drag and select a time block on the channel calendar to create a channel meeting.
+
 - Users cannot use Keyboard shortcuts to create a meeting on the channel calendar.
 
 In the Admin Center:
@@ -228,7 +231,7 @@ This is a per-user policy. This setting determines the media bit rate for audio,
 
 If there isn't enough bandwidth for a meeting, participants see a message that indicates poor network quality.
 
-For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario.
+For meetings that need the highest-quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low-bandwidth conditions when certain network conditions are detected, depending on the scenario.
 
 ## Meeting policy settings - Content sharing
 
@@ -245,7 +248,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Entire screen**    | Full desktop sharing and application sharing is allowed in the meeting |
+|**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting |
 |**Single application**   | Application sharing is allowed in the meeting        |
 |**Disabled**     |Screen sharing and application sharing turned off in the meeting.       |
 
@@ -327,7 +330,7 @@ Amanda can't share the whiteboard in a meeting even if she's the meeting organiz
 
 ### Allow shared notes
 
-This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have less than 20 participants.
+This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
 
 Let's look at the following example.
 
@@ -353,31 +356,35 @@ These settings control which meeting participants wait in the lobby before they 
 
 ### Let anonymous people start a meeting
 
-This is a per-organizer policy that allows for leaderless dial in conferencing meetings. This setting controls whether dial in users can join the meeting without an authenticated user from the organization in attendance. The default value is False which means dial in users will wait in the lobby until an authenticated user from the organization joins the meeting.
+This is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. The default value is False which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.
 
-**Note** If False and a dial in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
+> [!NOTE]
+> If False and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### Automatically admit people
 
-This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial in users.
+This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
 
 ![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
- **Note** In the meeting options the setting is labeled "Who can bypass the lobby"
+> [!NOTE]
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |Setting value  |Join behavior |
 |---------|---------|
 |**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, external users from trusted organizations (federated), guests, and anonymous users.     |
 |**Everyone in your organization and federated organizations**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
 |**Everyone in your organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
+|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations and anonymous users must wait in the lobby.           |
 
 ### Allow dial-in users to bypass the lobby
 
-This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False. When False, dial in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When True, dial in users will automatically join the meeting when an organization user joins the meeting.
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. The default value is False. When False, dial-in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When True, dial-in users will automatically join the meeting when an organization user joins the meeting.
 
-**Note** If a dial in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them.
+> [!NOTE]
+> If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
 
 ### Enable live captions
 

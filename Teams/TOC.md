@@ -8,9 +8,9 @@
 
 # Training
 ## [Overview](training-microsoft-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.yml)
 ## [Admin training for Teams](itadmin-readiness.md)
-## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Teams live training](instructor-led-training-teams-landing-page.yml)
+## [Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [How to roll out Teams](How-to-roll-out-teams.md)
@@ -85,7 +85,6 @@
 ### [Assign policies to your users](assign-policies.md)
 ### [View your policy assignments in the Activity log](activity-log.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
-### [Block access to Sharepoint for specific users](block-access-sharepoint.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md)
@@ -117,16 +116,18 @@
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
 ## [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ## [Resource-specific consent](resource-specific-consent.md)
-## [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
-## [Publish a custom app by uploading an app package](upload-custom-apps.md)
+## Custom apps
+### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+### [Manage Power Platform apps in the Microsoft Teams admin center](manage-power-platform-apps.md)
+### [Publish a custom app by uploading an app package](upload-custom-apps.md)
 ## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Purchase services for Teams third-party apps](purchase-third-party-apps.md)
 ## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ## [Manage the Tasks app for your organization](manage-tasks-app.md)
-## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
+## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -733,7 +734,12 @@
 #### [Search the audit log for events](audit-log-events.md)
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Data collection practices](data-collection-practices.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
+### [Block access to Sharepoint Online for specific users](block-access-sharepoint.md)
+### [Policy control overview](policy-control-overview.md)
+### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
+### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -780,8 +786,6 @@
 # Reference
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## [Data collection practices](data-collection-practices.md)
 
 ## Get ready to roll out Teams
 ### [Prepare your organization's network for Teams](prepare-network.md)
