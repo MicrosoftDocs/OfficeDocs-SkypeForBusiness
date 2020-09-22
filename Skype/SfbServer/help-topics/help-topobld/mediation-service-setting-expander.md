@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
 description: "Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways."
