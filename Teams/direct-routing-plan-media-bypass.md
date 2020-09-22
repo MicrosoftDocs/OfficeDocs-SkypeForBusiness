@@ -186,6 +186,8 @@ You must place these three FQDNs in order to:
 The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **sip3.pstnhub.microsoft.com** will be resolved to one of the following IP addresses:
 - 52.114.148.0
 - 52.114.132.46
+- 52.114.16.74
+- 52.114.20.29
 - 52.114.75.24
 - 52.114.76.76
 - 52.114.7.24
