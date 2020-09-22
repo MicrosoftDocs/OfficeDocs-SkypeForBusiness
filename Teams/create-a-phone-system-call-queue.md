@@ -80,7 +80,7 @@ To add a user to the queue, click **Add users**, search for the user, click **Ad
 To add a group to the queue, click **Add groups**, search for the group, click **Add**, and then click **Add**. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
 
 > [!NOTE]
-New users added to a group can take up to eight hours for their first call to arrive.
+> New users added to a group can take up to eight hours for their first call to arrive.
 
 ## Call routing
 
@@ -94,7 +94,7 @@ New users added to a group can take up to eight hours for their first call to ar
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
 > [!NOTE]
-Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
+> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
