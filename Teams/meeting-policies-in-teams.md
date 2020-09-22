@@ -110,7 +110,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ### Allow Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, when a user posts a message in a Teams channel, the user can click **Meet now** under the compose box to start an ad hoc meeting in the channel. The default value is True.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
 
 [ ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
@@ -401,7 +401,7 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 
 ### Allow chat in meetings
 
-This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting.
+This is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
 <a name="bkparticipantsandguests"> </a>
 
