@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams meeting attendance report
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article

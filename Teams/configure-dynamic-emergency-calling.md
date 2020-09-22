@@ -37,7 +37,11 @@ For dynamic emergency calling, the following must occur:
 
    - If there's a network settings site match – emergency calling policies are returned to the Teams client from that site. (For more information about policies, see [Configure emergency policies](#configure-emergency-policies)).
 
-   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client.
+   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client. The match is performed in the following order with the first matched result being returned:
+       - WAP
+       - Ethernet Switch/Port
+       - Ethernet Switch
+       - Subnet
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
@@ -69,10 +73,14 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams mobile client for Apple iOS client version 1.0.92.2019121004 and App Store version 1.0.92 and greater
 - Teams mobile client for Android client and Google Play store version 1416/1.0.0.2019121201 and greater
 - Teams phone version 1449/1.0.94.2019110802 and greater
+- Teams Rooms version 4.4.25.0 and greater
+
+> [!NOTE]
+> Dynamic emergency calling including security desk notification isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 ## Assign emergency addresses
 
-You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported; support for Ethernet switch/port is pending).
+You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time).
 
 To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations.)
 
@@ -154,7 +162,7 @@ Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
 Use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
-- **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Office 365 usage location.)  To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
+- **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)  To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
 - **Emergency calling policy** - Applies to Calling Plans and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 

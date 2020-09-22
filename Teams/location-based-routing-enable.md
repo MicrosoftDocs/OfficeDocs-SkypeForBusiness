@@ -21,8 +21,6 @@ ms.custom: seo-marvel-apr2020
 
 # Enable Location-Based Routing for Direct Routing
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
-
 Before you follow the steps in this article, make sure you've read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) and completed the steps in [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 
 This article describes how to enable Location-Based Routing for Direct Routing. After you deploy Phone System Direct Routing and set up network regions, sites, and subnets, you're ready to enable Location-Based Routing. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
@@ -171,17 +169,6 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    Endpoints connected to systems that don't route calls to the PSTN (for example, a PBX) will have similar restrictions as endpoints of Teams users enabled for Location-Based Routing. This means that these users can place and receive calls to and from Teams users regardless of the user's location. They can also place and receive calls to and from other systems that don't route calls to the PSTN network (for example, an endpoint connected to a different PBX) regardless of the network site to which the system is associated. All inbound calls, outbound calls, call transfers and call forwarding that involve PSTN endpoints will be subject to Location-Based Routing enforcements. These calls must use only PSTN gateways that are defined as local to such systems. 
-
-    The following table shows the gateway configuration of four gateways in two different network sites: two connected to PSTN gateways and two connected to PBX systems. 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway:Gateway 1 DEL-GW    |    True     |   Site 1 (Delhi)      |
-    |PstnGateway:Gateway 2 HYD-GW     |   True      |      Site 2 (Hyderabad)   |
-    |PstnGateway:Gateway 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
-    |PstnGateway:Gateway 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 
 ### Enable Location-Based Routing for calling policies
 

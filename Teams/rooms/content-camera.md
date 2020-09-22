@@ -1,7 +1,7 @@
 ---
 title: Learn how to setup content cameras - Microsoft Teams
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro

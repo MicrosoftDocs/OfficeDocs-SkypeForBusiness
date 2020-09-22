@@ -21,8 +21,6 @@ description: Learn how to define and use sensitivity labels in Microsoft Teams.
 
 # Sensitivity labels for Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 [Sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) allow Teams admins to regulate access to sensitive organizational content created during collaboration within teams. You can define sensitivity labels and their associated policies in the [Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center). These labels and policies are automatically applied to teams in your organization.  
 
 ## What's the difference between sensitivity labels and Teams classification labels?
@@ -31,9 +29,10 @@ Sensitivity labels are different from classification labels that require you to 
 
 On the other hand, sensitivity labels and their policies are automatically enforced end-to-end through a combination of the Groups platform, Security & Compliance Center, and Teams services. Sensitivity labels provide powerful infrastructure support for securing your organization's sensitive data.  
 
+To migrate your existing Groups from using classification labels to using sensitivity labels, use the instructions in [Azure Active Directory classification and sensitivity labels for Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels).
 ## Create, manage, and publish sensitivity labels for Teams
 
-For how to enable, create, and publish sensitivity labels for Teams, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+For how to enable, create, and publish sensitivity labels for Teams, see [Azure Active Directory classification and sensitivity labels for Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Creating, updating and deleting sensitivity labels require careful sequencing with publishing
@@ -42,12 +41,12 @@ For how to enable, create, and publish sensitivity labels for Teams, see [Use se
 
 **Create and publish labels** <a name="createpublishlabels"> </a>
 
-When a label is created and published in the Security & Compliance Center, it can take up to 24 hours
+When a label is created and published in the Security & Compliance Center, it can take up to 10 minutes
 for the label to become visible in the teams creation interface. Use the following steps to 
 publish the label for all users in the tenant:
 1. Create the label and publish it for a few select user accounts in the tenant.
-2. When the label is published, wait 24 hours.
-3. After 24 hours, try to create a team with the label using one of the user accounts that have access
+2. When the label is published, wait 10 minutes.
+3. After 10 minutes, try to create a team with the label using one of the user accounts that have access
 to the label.
 4. If the team successfully created in step 3, then go ahead and publish the label for the remaining 
 users in the tenant.
@@ -61,8 +60,8 @@ to delete or modify a label:
 1. Remove the label from all policies that use the label. Alternatively, you can also delete
 the policies themselves.
 2. When the label is removed from the policies or the policies themselves are deleted, wait 
-48 hours before proceeding further.
-3. After 48 hours, launch the team creation interface and ensure that the label is no longer visible for
+10 minutes before proceeding further.
+3. After 10 minutes, launch the team creation interface and ensure that the label is no longer visible for
 any user in the tenant.
 4. Now you can safely delete or modify the label.
 
@@ -106,15 +105,23 @@ A team owner can change the sensitivity label and the privacy setting of the tea
 
 You can specify whether a team created with a specific label allows guest access. Teams created with a label that doesn't allow guest access are only available to users in your organization. People outside your organization can't be added to the team.
 
+### Sensitivity labels in the Microsoft Teams admin center
+
+You can set sensitivity labels when you create or edit a team in the Microsoft Teams admin center. Sensitivity labels are also visible in team properties and in the **Classification** column on the Manage teams page of the Microsoft Teams admin center.
+
 ## Known issues
 
-**Support for sensitivity labels in the Microsoft Teams admin center**
+**Child default labels not showing during team creation**
 
-Currently, sensitivity labels are not supported in the Microsoft Teams admin center. If you use sensitivity labels, you won't be able to set sensitivity labels when you create or edit a team. Sensitivity labels are also not visible in team properties and won't be visible in the **Classification** column in the Microsoft Teams admin center.
+Currently, a child label set as the default label for Teams will not show at the top of the list in the sensitivity labels dropdown in the team creation model. Team creators can still use the dropdown to apply the child label as a workaround.
 
 **Support for sensitivity labels in Teams Graph APIs, Powershell cmdlets and templates**
 
 Currently, users won't be able to apply sensitivity labels on teams that are created directly through Graph APIs, Powershell cmdlets, and templates.
+
+**Support for sensitivity labels in Teams EDU SKUs**
+
+Sensitivity labels are currently unsupported for customers using Teams Education SKUs.
 
 **Editing sensitivity labels directly on a SharePoint site collection for private channels**
 

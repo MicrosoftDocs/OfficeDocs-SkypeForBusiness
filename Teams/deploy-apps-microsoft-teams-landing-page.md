@@ -3,8 +3,8 @@ title: Apps, bots, & connectors in Microsoft Teams
 ms.reviewer: 
 description: Learn about apps, bots, and connectors and how to decide which to deploy in Microsoft Teams based on your organization's profile and business requirements.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -39,7 +39,7 @@ These are the apps settings that most organizations want to change (if the Teams
 
 Teams provides a number of apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
 
-By default, all Microsoft-provided and custom apps are available, and you can turn individual apps on or off. There's an org-wide setting that lets you turn all custom apps on or off for your entire organization.
+By default, all Microsoft-provided, third-party, and custom apps are available, and you can turn individual apps on or off. There are org-wide settings that lets you turn all third-party and/or custom apps on or off for your entire organization.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -57,11 +57,11 @@ Apps are consented to by users and managed by the admin or IT pro through polici
 
 ### Bots for private chats and channels
 
-Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in an Office 365 organization.
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom bots in my Office 365 organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### Built-in and custom tabs
@@ -70,16 +70,16 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom tabs in my Office 365 organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 |||
 
-### Office 365 and custom connectors
+### Custom connectors
 
 Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow users to create custom connectors?|For more information, see [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md).|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
 |||
 
 ## Additional deployment decisions
@@ -88,7 +88,7 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Activity reports
 
-You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin.
+You can use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. To view activity reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -97,7 +97,7 @@ You can use activity reports to see how users in your organization are using Tea
 
 ### App templates
 
-App templates are production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub. Each contains detailed instructions for deploying and installing that app for your organization, providing a ready-to-use app that you can install and begin using immediately. The complete source code is available as well, so you can explore it in detail,or fork the code and alter it to meet your specific needs.
+App templates are production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub. Each contains detailed instructions for deploying and installing that app for your organization, providing a ready-to-use app that you can install and begin using immediately. The complete source code is available as well, so you can explore it in detail, or fork the code and alter it to meet your specific needs.
 
 | Ask yourself | Action |
 |--------------|--------|

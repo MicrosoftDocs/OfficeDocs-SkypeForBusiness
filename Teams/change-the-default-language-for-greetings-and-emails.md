@@ -33,7 +33,7 @@ If you are a [global administrator](https://support.office.com/article/da585eea-
   
 - **The languages that are available to you are determined by the location of your organization**. For example, if your organization is located in the United States, you can set the default language to English or Spanish. If your organization is located in Canada, you can choose between English and French. For a list of supported languages, see [Languages for voicemail greetings and messages from Skype for Business](languages-for-voicemail-greetings-and-messages.md).
     
-- **Changing languages for individual user's voicemail greeting and voicemail messages.** You can change the preferred lanaguage for users, which will change the language of the their voicemail greeting and voicemail messages sent to their Outlook mailbox. For instruction please see [How to set language and region settings for Office 365] (https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region). 
+- **Changing languages for individual user's voicemail greeting and voicemail messages.** You can change the preferred lanaguage for users, which will change the language of the their voicemail greeting and voicemail messages sent to their Outlook mailbox. For instruction please see [How to set language and region settings for Microsoft 365 or Office 365] (https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region). 
     
     > [!NOTE]
     > Users can change their own greeting language through their settings after they sign in by following instructions found in [Change your display language and time zone in Microsoft 365 for Business](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
@@ -64,11 +64,11 @@ If you are a [global administrator](https://support.office.com/article/da585eea-
     
 - [Set up Calling Plans](set-up-calling-plans.md)
     
-- [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Plan Phone System in Microsoft 365 or Office 365 with on-premises PSTN connectivity in Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## Related topics
 
-- [Change your display language and time zone in Office 365 for Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Change your display language and time zone in Microsoft 365 or Office 365 for Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [Add a language or set language preferences in Office 2010 and later](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
     

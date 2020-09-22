@@ -1,16 +1,15 @@
 ---
 title: Conduct an eDiscovery investigation of content
-author: LolaJacobsen
-ms.author: lolaj
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
   - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -26,7 +25,7 @@ Large Enterprises are often exposed to high penalty legal proceedings that deman
 
 ## Overview
 
-All Teams 1:1 or group chats are journaled through to the respective users' mailboxes. All standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.
+All Microsoft Teams 1:1 or group chats are journaled through to the respective users' mailboxes. All standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.
 
 eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
 
@@ -35,28 +34,49 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 | Content type | eDiscoverable | Notes |
 |:--- | --- |:--- |
 | Teams chat messages | Yes |  |
-| Audio recordings | No | |
 | Private channel messages | Yes | |
+| Name of channel | No | |
+| Meeting IM conversations | Yes | |
+| Meeting metadata<sup>1</sup> | Yes |  |
+| Edited messages | Yes | If the user is on hold, previous versions of edited messages are preserved. |
 | Emojis, GIFs, stickers | Yes | |
 | Code snippets | No | |
 | Chat links | Yes | |
 | Reactions (likes, hearts, and so on) | No | |
-| Edited messages | Yes | If the user is on hold, previous versions of edited messages are preserved. |
 | Inline images | Yes | |
 | Tables | Yes | |
 | Subject | Yes | |
 | Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
-| Name of channel | No | |
+| Audio recordings | No | |
 
-- To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [Manage eDiscovery cases in the Security & Compliance Center](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.
+<sup>1</sup> Meeting metadata includes the following:
 
-- Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after export.
+- Meeting or call start and end time, and duration
+- Call/Meeting join and leave events for each participant
+- VOIP join/calls
+- Anonymous join
+- Federated user join
+- Guest user join
 
-    When viewing the `.pst` file for the team, note that all conversations are kept in the Team Chat folder under Conversation History. The title of the message contains the team name and channel name. For example, the image below shows a message from Bob who messaged the Project 7 standard channel of the Manufacturing Specs team.
+The image shows an example of the metadata.
 
-    ![Screenshot of a Team Chat folder in a user's mailbox in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Image is of the CVR records meeting metadata.](media/conversationOption3.png)
 
-- Private chats in a user's mailbox are stored in the Team Chat folder under Conversation History.
+Here's an example of IM conversation between participants during the meeting.
+
+![Image is of a conversation between participants.](media/MeetingIMConversations.png)
+
+![Image is of a conversation between participants.](media/MeetingImConversation2.png)
+
+To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+
+Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after export.
+
+When viewing the .pst file for the team, all conversations are kept in the Team Chat folder under Conversation History. The title of the message contains the team name and channel name. For example, the image below shows a message from Bob who messaged the Project 7 standard channel of the Manufacturing Specs team.
+
+![Screenshot of a Team Chat folder in a user's mailbox in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+
+Private chats in a user's mailbox are stored in the Team Chat folder under Conversation History.
 
 ## eDiscovery of private channels
 
@@ -82,7 +102,7 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
+    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
 3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where $groupID is the group ID of the team.
@@ -142,7 +162,7 @@ Teams content can also be searched. For more information on searches, see [Colle
 
 When creating a search query, you can choose custodians so that all the sources that you've already selected will be searched. You can also search non-custodial sources such as a Teams site that is not mapped to a user. Optional queries are also available to narrow your search within the Teams content.
 
-After you've created a search and selected it, a window displays with additional details and actions that you can take on the selected search. If you click the **Statistics** button, you can view statistics about your search, including breakdowns according to location types, the original source for the content, and whether the content is located in a group mailbox, the individual user mailbox, or a SharePoint site. This allows you to see a breakdown of what sources are contributing to your search results. There is also a **Queries** view available so you can see which individual keywords are contributing to your results.
+After you've created a search and selected it, a window displays with additional details and actions that you can take on the selected search. If you click the **Statistics** button, you can view statistics about your search, including breakdowns according to location types, the original source for the content, and whether the content is located in a group mailbox, the individual user mailbox, or a SharePoint site. Thus, you can see a breakdown of what sources are contributing to your search results. There is also a **Queries** view available so you can see which individual keywords are contributing to your results.
 
 After you finalize your search, you can click the **Add results to review set** button and add it to a review set. For more information about review sets, see [Manage review sets in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) and [Review Sets workflow](#review-sets-workflow) later in this article.
 
@@ -150,13 +170,13 @@ After you finalize your search, you can click the **Add results to review set** 
 
 When adding a search to a review set, you can choose from a normal review set or a conversation review set.
 
-A normal review set is similar to an export; it provides the individual `.msg` files for the Teams content and presents the content in a basic view. You would typically use a normal review set when you plan to use other software tools to re-process the files later.
+A normal review set is similar to an export; it provides the individual `.msg` files for the Teams content and presents the content in a basic view. You would typically use a normal review set when you plan to use other software tools to reprocess the files later.
 
 A conversation review set provides a more intuitive, threaded view of the conversations; it displays related messages together in the proper order.
 
-Functionality such as redaction is available in both types of review sets.
+![Screenshot of conversation review set](media/conversationOptions2.png)
 
-For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
+Functionality such as redaction is available in both types of review sets. For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### Collection options
 
@@ -184,9 +204,13 @@ If you click on a Teams conversation in the review set, it displays the **Summar
 
 To download a PDF, click the download button at the upper right of the summary view.
 
-Click the **Text view** tab to display a plain text view of the extracted text of the Teams conversation. This is suitable for export and you can easily work with this extracted text using other software tools.
+Click the **Text view** tab to display a plain text view of the extracted text of the Teams conversation. This plain text content is suitable for export and you can easily work with it using other software tools.
 
 Click on the **Annotate view** tab to access annotation features. This tab displays the content in a format that resembles a Teams conversation, but there are also additional options for editing. There is a pencil tool that you can use to make notes, draw on the message, or do fine-grained scratching out for redaction purposes. There is also an **Area redaction** tool that you can use to draw a rectangle that blacks out the area and marks it as "Redacted".
+
+Here's an example of a redacted file for threaded conversation between users.
+
+![Screenshot of redacted file](media/RedactedFileExample.png)
 
 At the bottom of the **Annotate view** tab is the **Tag documents** button, which displays the tagging panel. Within this panel, you can apply a tag to all messages within the Teams conversation. You can label a conversation as responsive or non-responsive, privileged or not privileged, whether it contains "Interesting items", whether it should be included in export, and whether it needs further review. You can also manage and apply other customizable tags.
 
@@ -198,13 +222,13 @@ To export a file that contains all the metadata for all Teams messages, click to
 
 Use the **Native files** option to export files in their native format. You can choose to export a conversation as one file or all individual chat messages in their own separate files.
 
-The **Text files** option allows you to save plain text versions of content. See [Summary view, text view, and annotate view](#summary-view-text-view-and-annotate-view) above for more information about how to obtain a plain text view of Teams conversations in the review set.
+The **Text files** option allows you to save plain text versions of content. For more information about how to obtain a plain text view of Teams conversations in the review set, see [Summary view, text view, and annotate view](#summary-view-text-view-and-annotate-view) above.
 
 If you applied any redactions to the content as described in the [Summary view, text view, and annotate view](#summary-view-text-view-and-annotate-view) section above, you can select the **Replace redacted natives with converted PDFs** option to replace the native files with converted copies in PDF.
 
 You can choose to export to a Microsoft-provided Azure blob storage container or you can provide your own Azure Blob storage container.
 
-When you are ready to begin the export process, click the **Export** button. After export is complete, see [Download export jobs](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) for more information about how you can access the Azure blob storage container and download your exported content.
+When you are ready to begin the export process, click the **Export** button. See [Download export jobs](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) for more information about how you can access the Azure blob storage container and download your exported content after export is complete.
 
 > [!NOTE]
 > Exporting can take an extended period of time. To track the status of the export process, exit the **Review sets** tab and click the **Exports** tab.

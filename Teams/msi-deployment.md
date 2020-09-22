@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: rafarhi, jhreddy
 audience: admin
 description: Use Microsoft Endpoint Configuration Manager to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal
@@ -29,7 +29,6 @@ We recommend that you deploy the package to the computer, so all new users of th
 
 These are the links to the MSI files:
 
-
 |Entity  |32-bit      |64-bit      |
 |---------|---------|---------|
 |Commercial     | [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
@@ -37,13 +36,15 @@ These are the links to the MSI files:
 |Federal Government - GCC High    | [32-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64-bit](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |Federal Government - DoD     | [32-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
-> [!NOTE]
-> Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and  currently you won't receive an error message.
+**To ensure a successful deployment, be aware of the following:**
 
-Teams can also be included with a deployment of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
+- Install the 64-bit version of Teams on 64-bit operating systems. If you try to install the 64-bit version of Teams on a 32-bit operating system, the installation won't be successful and currently you won't receive an error message.
 
-> [!Note]
-> To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- If the customer tenant is on the GCCH or DoD clouds, the customer should set the initial endpoint in the registry by adding the **CloudType** value to the **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** key in the registry. The type for **CloudType** is **DWORD** and values are (0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD). Setting the endpoint with the registry key restricts Teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams.
+
+- Teams can also be included with a deployment of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install).
+
+- To learn more about Microsoft Endpoint Configuration Manager, see [What is Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## Deployment procedure (recommended)
 
@@ -59,8 +60,10 @@ The Teams MSI will place an installer in Program Files. Whenever a user signs in
 
 Do not use the MSI to deploy updates, because the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
 
-> [!Important]
-> We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service.
+> [!IMPORTANT]
+> The default location is C:\Program Files (x86)\Teams Installer on 64-bit operating systems and C:\Program Files\Teams Installer on 32-bit operating systems.
+> We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from
+> accessing the service.
 
 #### Target computer requirements
 

@@ -32,6 +32,7 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 ![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - There is **no direct URL** that links to the Teams add-in.
 > - There are additional considerations if your organization runs both Teams and Skype for Business. Under some circumstances, the Teams add-in is not available in Outlook. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for details.
 > - User permissions to execute the Regsvr32.exe file is a minimum requirement for the Teams Meeting add-in to be installed on the computer.
 > - If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
@@ -59,7 +60,8 @@ The Teams Meeting button shows up in latest builds of the Outlook iOS and Androi
 
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
-## Teams Meeting add-in in and FindTime for Outlook
+## Teams Meeting add-in and FindTime for Outlook
+
 FindTime is an add-in for Outlook that helps users reach consensus on a meeting time across companies. Once the meeting invitees have provided their preferred times, FindTime sends out the meeting invite on the user's behalf. If the **Online meeting** option is selected in FindTime, FindTime will schedule a Skype for Business or Microsoft Teams meeting. (FindTime will use whichever has been set by your organization as the default online meeting channel.)
 
 > [!NOTE]  
@@ -91,7 +93,9 @@ The Teams client installs the correct add-in by determining if users need the 32
 
 Customers can [choose their upgrade journey from Skype for Business to Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Tenant admins can use the Teams co-existence mode to define this journey for their users. Tenant admins have the option to enable users to use Teams alongside Skype for Business (Islands mode). 
 
-When users who are in Island mode schedule a meeting in Outlook, they typically expect to be able to choose whether to schedule a Skype for Business or a Teams meeting. In Outlook on the web, Outlook Windows, and Outlook Mac, users see both Skype for Business and Teams add-ins when in Islands mode. Due to certain limitations in the initial release, Outlook mobile can only support creating Skype for Business **or** Teams meetings. See the following table for details.
+When users who are in Island mode schedule a meeting in Outlook, they typically expect to be able to choose whether to schedule a Skype for Business or a Teams meeting. In Outlook on the web, Outlook Windows, and Outlook Mac, users see both Skype for Business and Teams add-ins when in Islands mode by default. You can configure a Teams meeting policy setting to control whether users in Islands mode can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins.
+
+Due to certain limitations in the initial release, Outlook mobile can only support creating Skype for Business **or** Teams meetings. See the following table for details.
 
 | Coexistence mode in the Teams admin center | Default meetings provider in Outlook mobile |
 | --------------------------------------|---------------------------------------------|
@@ -101,10 +105,17 @@ When users who are in Island mode schedule a meeting in Outlook, they typically 
 | Skype for Business with Teams collaboration and meetings | Teams |
 | Teams only | Teams |
 
+### Set whether users in Islands mode can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins
+
+As an admin, you can configure a Teams meeting policy setting to control which Outlook meeting add-in is used for *users who are in Islands mode*. You can specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook.
+
+You can only apply this policy to users who are in Islands mode and have the **AllowOutlookAddIn** parameter set to **True** in their Teams meeting policy. For steps on how to set this policy, see [set the meeting provider for users in Islands mode](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+
 ## Other considerations
 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 
+- The Teams Meeting add-in requires an Exchange mailbox for the primary user scheduling the meeting. Ensure that you have at least one Exchange mailbox configured in your Outlook profile and use it to schedule Teams meetings with the add-in. For Exchange requirements, see [How Exchange and Teams interact](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams.
 - The add-in will not work if an Authentication Proxy is in the network path of the user's PC and Teams Services.
 - Users can't schedule live events from within Outlook. Go to Teams to schedule live events. For more information, see [What are Microsoft Teams live events?](teams-live-events/what-are-teams-live-events.md).
@@ -118,6 +129,10 @@ Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 ### Teams Meeting add-in in Outlook for Windows does not show
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
+
+[Download](https://aka.ms/SaRA-TeamsAddInScenario) and run the [Microsoft Support Recovery Assistant](https://aka.ms/SaRA_Home) to perform automated troubleshooting steps and fixes.
+
+Alternatively, perform the following steps manually:
 
 - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
@@ -154,4 +169,9 @@ If the add-in still does not show, use the following steps to verify the registr
 
 ### Delegate scheduling does not work
 
-If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. 
+If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. As a workaround, your administrator can add the following string to the EWS Allow List: "*SchedulingService*". 
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -3,8 +3,8 @@ title: Meetings and conferencing in Microsoft Teams
 ms.reviewer: 
 description: Use these deployment resources to help you roll out meetings and audio conferencing in Microsoft Teams.
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -24,6 +24,11 @@ ms.custom: seo-marvel-apr2020
 
 # Meetings and conferencing in Microsoft Teams
 
+> [!NOTE]
+> - For an overview of making the transition to remote learning and resources to help you get started, see our [**remote learning home page**](https://www.microsoft.com/education/remote-learning).
+> - Resources to assist educators and students with remote learning are available in [**Remote teaching and learning in Office 365 Education**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. This article walks you through the rollout of meetings and audio conferencing. Start by watching our Teams meetings, conferencing, and devices video (3:28 minutes):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
@@ -34,6 +39,9 @@ To learn more about the meetings experience for your users, see [Meetings and ca
 *New in April 2020*: Meeting organizers can end a meeting for all meeting participants in Teams by clicking **End meeting** in the meeting controls within the meeting.  
 
 *New in November 2019*: You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout, including meetings and conferencing. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out meetings and conferencing in Teams.
+
+ > [!Note]
+> For details about Teams meetings and conferencing on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Meetings and conferencing deployment decisions
 
@@ -56,11 +64,9 @@ To scale meetings across your organization you should ensure that all user locat
 - TCP ports 80 and 443 outgoing from clients that will use Teams
 - UDP ports 3478 through 3481 outgoing from clients that will use Teams
 
-You can use the [Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) to confirm that your network locations are ready for the voice and video traffic that will support your meetings experience.
-
 | Ask yourself | Action |
 |--------------|--------|
-|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## Core deployment decisions
@@ -141,6 +147,9 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved in Microsoft Stream, so users can share it securely across their organization. To find the recording for a meeting, go to the meeting conversation.
 
+>[!Note]
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+
 To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
@@ -192,7 +201,7 @@ When planning a larger rollout of personal devices to support meetings or voice 
 
 ### Troubleshoot meeting and call quality 
 
-Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, whereas the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization. 
+Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, whereas the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization. 
 
 |Ask yourself|Action |
 |------------|-------|

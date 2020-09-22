@@ -9,5 +9,5 @@
 /Skype/SfbOnline/ @lanachin
 /Skype/SfbPartnerCertification/ @dstrome
 /Skype/Hub/ @samanro
-/Teams/ @lolajacobsen @tonysmit @chuckedmonson @serdarsoysal @microsoftheidi @carolynrowe @dstrome @msdmaguire @kenwith
+/Teams/ @lolajacobsen @tonysmit @chuckedmonson @serdarsoysal @microsoftheidi @carolynrowe @dstrome @msdmaguire
 /Lync/ @lanachin

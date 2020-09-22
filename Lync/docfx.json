@@ -78,6 +78,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "searchScope": [
         "Lync Server"
       ],
@@ -90,7 +91,8 @@
       "ms.prod": "lync-server-2013",
       "audience": "ITPro",
       "ms.collection": "LyncServer",
-      "ms.manager": "serdars"
+      "ms.manager": "serdars",
+      "titleSuffix": "Lync Server"
     },
     "fileMetadata": {},
     "template": [],

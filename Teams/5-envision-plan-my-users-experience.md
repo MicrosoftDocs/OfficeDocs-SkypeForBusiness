@@ -75,7 +75,7 @@ Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 Client-side firewalls can have a significant impact on the user experience.
 Client-side firewalls can affect call quality in addition to preventing a call
 from being established. Configure the appropriate exclusions on the client
-firewall based on the information in [Office 365 URLs and IP address
+firewall based on the information in [Microsoft 365 or Office 365 URLs and IP address
 ranges](https://aka.ms/o365ips). Your third-party vendor will have specific
 guidance on how to create the exclusions.
 

@@ -1,7 +1,7 @@
 ---
 title: What the guest experience is like
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -25,16 +25,18 @@ What the guest experience is like
 
 When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation by selecting **Open Microsoft Teams** in the email message before they can access the team and its channels.
     
-![Screen shot showing an example of a welcome email message](media/guest-experience-image1.png)
+![Screenshot showing an example of a welcome email message](media/guest-experience-image1.png)
     
-All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a **(Guest)** label appears next to each guest's name.
-    
-![Screenshot showing banner notification guest users](media/guest-experience-image2.png "Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating that the team has guests and users who are guests are identified with the word GUEST next to their name.")
+All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. A tag in the upper-right corner of the channel thread indicates the number of guests on the team and a **(Guest)** label appears next to each guest's name.
+
+![Screenshot showing tag that indicates number of guests on the team](media/guest-experience-image2.png)
 
 Check out these videos about the guest experience in Teams:
 - [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Join a Teams meeting with guests](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
+> [!NOTE]
+> Microsoft 365 and Office 365 admins control the features available to guests.
 
 ## Comparison of team member and guest capabilities
 
@@ -52,14 +54,13 @@ The following table compares the Teams functionality available for an organizati
 |Create meetings or access schedules  <br/> |&#x2713;||
 |Access OneDrive for Business storage  <br/> |&#x2713;||
 |Create tenant-wide and teams/channels guest access policies  <br/> |&#x2713;||
-|Invite a user outside the Office 365 organization's domain <br/>  *Team owners control this setting.*  <br/> <br/> |&#x2713;||
+|Invite a user outside the Microsoft 365 or Office 365 organization's domain <br/>  *Team owners control this setting.*  <br/> <br/> |&#x2713;||
 |Create a team  <br/> |&#x2713;||
 |Discover and join a public team  <br/> |&#x2713;||
 |View organization chart  <br/> |&#x2713;||
 |Use inline translation  <br/> |&#x2713;||
 |Become team owner  <br/> |&#x2713;||
 
-   
 The following table shows the calling and meeting features available to guests, compared to other types of users.
 
 | Calling feature | Guest | E1 and E3 user | E5 and Enterprise Voice user |
@@ -90,34 +91,46 @@ The following table shows the calling and meeting features available to guests, 
 | Can have delegates | No | No | Yes |
 |  Can be a delegate | No | No | Yes |
 
-
 <sup>1</sup> This feature will be available soon.
 
 > [!NOTE]
-> Office 365 admins control the features available to guests. 
+> The **Guest user access restrictions** policy in Azure Active Directory (Azure AD) determines permissions for guests in your directory. There are three policy options.
+>  - The **Guest users have the same access as members (most inclusive)** setting means guests have the same access to directory data as regular users in your directory.
+>  - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
+>  - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
+>
+>To learn more, see [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
 ## Frequently asked questions
 
 ### How do I leave an organization that I've been invited to?
+
 If you've been invited to an organization that you don't want to be a guest of, you can choose to leave the organization. For more information, go to [Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Alternatively, you can ask the admin of the organization to remove you from their tenant. Note that in either case you'll need to be re-invited to the tenant if you want to access the organization in the future.
 
 ### Do guests have the same capabilities as team members?
+
 No. For more information about what a guest can and cannot do, go to [Comparison of team member and guest capabilities](#comparison-of-team-member-and-guest-capabilities) in this article.
 
 ### Do guests have access to OneDrive for Business?
+
 No.
 
 ### Do guests have access to SharePoint files?
+
 Yes.
 
 ### Can guests search within files?
+
 No.
 
 ### Can guests attach files?
+
 Yes, a guest can attach files in these two ways:
 
-   - Select **Files** in the left pane, and then browse to the file location.
-   - Upload files from their computer.
+  - Select **Files** in the left pane, and then browse to the file location.
+  - Upload files from their computer.
 
 ### Can a guest download a file in a private chat?
+
 Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
+

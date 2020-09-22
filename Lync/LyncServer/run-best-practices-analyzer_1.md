@@ -1,8 +1,8 @@
 ---
 title: Run Best Practices Analyzer
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run Best Practices Analyzer

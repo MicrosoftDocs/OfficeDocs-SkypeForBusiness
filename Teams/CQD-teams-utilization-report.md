@@ -1,7 +1,7 @@
 ---
 title: "View Microsoft Teams utilization in Power BI using CQD data"
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -15,14 +15,14 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-description: "Use the Teams Utilization Power BI reports to track Microsoft Teams usage in your organization."
+description: "Use the Teams Utilization Power BI reports to access Microsoft Teams Call Quality Dashboard (CQD) data to track Microsoft Teams usage in your organization."
 ---
 
 # View Microsoft Teams utilization in Power BI using CQD data
 
 New in March 2020, we've added a Teams Utilization report to our downloadable [Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
-This new Teams Utilization reports lets you see how (and how much) your users are using Microsoft Teams. These reports are intended to be a centralized location that both administrators and business leaders can quickly go to for this data.
+This new Teams Utilization reports lets you see how (and how much) your users are using Microsoft Teams by accessing Teams Call Quality Dashboard (CQD) data. These reports are intended to be a centralized location that both administrators and business leaders can quickly go to for this data.
 
 The Teams Utilization Power BI report consists of two primary reports: **[Call Count Summary](#call-count-summary-report)** and **[Audio Minutes Summary](#audio-minutes-summary-report)**. The [Daily Usage](#daily-usage), [Regional Audio Details](#regional-audio-details), [Conference Details](#conference-details) and [User List](#user-list) reports come into play when a user takes advantage of the drill-down reports, noted in the descriptions below.
 
@@ -163,4 +163,6 @@ The bottom table provides detailed information for the sessions each user partic
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  

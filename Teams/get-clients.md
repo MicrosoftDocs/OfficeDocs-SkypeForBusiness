@@ -1,7 +1,7 @@
 ---
 title: Get clients for Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -22,8 +22,10 @@ appliesto:
 
 # Get clients for Microsoft Teams 
 
+Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode. 
 
-Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode.
+> [!Note]
+> For details about each clients' capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 > [!NOTE]
 > Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. Instead, you can now download and install the Teams desktop client on devices running Windows 10 S mode. To download the desktop client, go to [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). MSI builds of the Teams desktop client are not yet available for devices running Windows 10 S mode.
@@ -71,7 +73,7 @@ When users initiate a call using the Microsoft Teams client for the first time, 
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.
+> Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Allow action for both TCP and UDP protocols.
 
 If you want to prevent Teams from prompting users to create firewall rules when the users make their first call from Teams, use the [Sample PowerShell script - inbound firewall rule](#sample-powershell-script---inbound-firewall-rule) below. 
 
@@ -120,7 +122,7 @@ The signing key to enable auto-updating using the system's package manager is in
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo apt install **teams download file**`
 
-You can launch Teams via Activities or via Terminal by typing `Teams`. 
+You can launch Teams via Activities or via Terminal by typing `teams`. 
 
 #### Install Teams using RPM package
 
@@ -129,12 +131,13 @@ You can launch Teams via Activities or via Terminal by typing `Teams`.
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
     - Or if you love Terminal, type: `sudo yum install **teams download file**`
 
-You can launch Teams via Activities or via Terminal by typing `Teams`.
+You can launch Teams via Activities or via Terminal by typing `teams`.
 
 #### Install manually from the command line
 
 Install manually on Debian and Ubuntu distributions:
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -144,7 +147,8 @@ sudo apt install teams
 ```
 
 Install manually on RHEL, Fedora and CentOS based distributions:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -154,13 +158,15 @@ sudo dnf install teams
 ```
 
 Alternatively, to use yum instead of dnf:
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 Install manually on openSUSE based distributions:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'

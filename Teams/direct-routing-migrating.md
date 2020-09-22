@@ -22,16 +22,16 @@ description: "Learn what is needed to migrate to Direct Routing from a Skype for
 
 This article describes what is needed to migrate to Direct Routing from a Skype for Business Online and Microsoft Teams configuration perspective. This article covers migrating from the following: 
  
-- Office 365 Phone System with Calling Plans (for Teams and Skype for Business Online) 
-- Office 365 Phone System with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
-- Office 365 Phone System with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
+- Phone System with Calling Plans (for Teams and Skype for Business Online) 
+- Phone System with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
+- Phone System with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
 
 
 In addition to these configuration steps, configuration is also required on the Session Border Controller (SBC) to route the calls to the new route. That is outside the scope of this document. For more information, see your SBC vendor documentation.  
 
 ## User provisioning end-state for various PSTN connectivity options 
 
-The following table shows the end-state for a user provisioned for the selected PSTN connectivity options with Office 365 Phone System. Only attributes relevant for voice are shown.
+The following table shows the end-state for a user provisioned for the selected PSTN connectivity options with Phone System. Only attributes relevant for voice are shown.
 
 |User object attributes |Phone System with Calling Plans|Phone System with on-premises PSTN connectivity via Skype for Business Server|Phone System with on-premises PSTN connectivity via Cloud Connector|Phone System with on-premises PSTN connectivity via Direct Routing|
 |---|---|---|---|---|
@@ -90,6 +90,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 > If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy. 
 
 ## Migrating from Office 365 Phone System with on-premises PSTN connectivity via Cloud Connector Edition 
+
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](direct-routing-landing-page.md).
 
 For more information about migrating from Phone System with on-premises PSTN connectivity via Cloud Connector, see the following:
 

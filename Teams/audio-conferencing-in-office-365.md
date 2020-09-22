@@ -23,11 +23,11 @@ ms.custom:
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
   - seo-marvel-apr2020
-description: Learn about how Audio Conferencing in Office 365 allows users call in to meetings from their phones.
+description: Learn about how Audio Conferencing in Microsoft 365 or Office 365 allows users call in to meetings from their phones.
 ---
 
 # Audio Conferencing in Microsoft 365
-Audio Conferencing in Office 365 lets users call in to meetings from their phones. Audio Conferencing allows up to 250 phone attendees.
+Audio Conferencing in Microsoft 365 and Office 365 enables users to call in to meetings from their phones. Audio Conferencing allows up to 250 phone attendees.
 
 ## What is Audio Conferencing?
 Calling in (dialing in) to meetings is very useful for users who are on the road and can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptops or mobile devices. But there are other scenarios in which using a phone to attend a Skype for Business or Microsoft Teams meeting can be a better option than using an app on a computer:
@@ -86,7 +86,7 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
 
 - **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your conference bridges using the Skype for Business admin center. See [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
     
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
+- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
 - **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information.
 

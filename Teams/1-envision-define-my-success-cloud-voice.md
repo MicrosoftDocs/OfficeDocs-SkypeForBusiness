@@ -145,7 +145,7 @@ OKRs contain the objectives you set in the beginning of the project, and you def
 > Examples of OKRs relevant to an Audio Conferencing implementation can be referenced below:
 > <br>
 > 
-> **Vision: Increase productivity by maximizing Office 365 investments**
+> **Vision: Increase productivity by maximizing Microsoft 365 or Office 365 investments**
 > 
 > |Objectives  |Key results  |To do  |
 > |---------|---------|---------|
@@ -158,7 +158,7 @@ OKRs contain the objectives you set in the beginning of the project, and you def
 > Examples of OKRs relevant to a Calling Plans implementation can be referenced below:
 > <br>
 > 
-> **Vision: Increase productivity by maximizing Office 365 investments**
+> **Vision: Increase productivity by maximizing Microsoft 365 or Office 365 investments**
 > 
 > |Objectives  |Key results  |To do  |
 > |---------|---------|---------|
@@ -169,7 +169,7 @@ OKRs contain the objectives you set in the beginning of the project, and you def
 > Examples of OKRs relevant to a Direct Routing implementation can be referenced below:
 > <br>
 > 
-> **Vision: Increase productivity by maximizing Office 365 investments**
+> **Vision: Increase productivity by maximizing Microsoft 365 or Office 365 investments**
 > 
 > |Objectives  |Key results  |To do  |
 > |---------|---------|---------|

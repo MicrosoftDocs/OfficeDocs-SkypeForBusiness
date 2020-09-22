@@ -1,5 +1,5 @@
 ---
-title: "Download and install the Skype for Business Online Connector module"
+title: Download and install the Skype for Business Online Connector module
 ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
@@ -18,11 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: "Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
-"
+description: Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
 ---
 
 # Download and install the Skype for Business Online Connector module
+
+> [!NOTE]
+> The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.
 
 The Skype for Business Online Connector module includes the **New-CsOnlineSession** cmdlet, which enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers (see [Set up your computer for Skype for Business Online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md) for more information), can be downloaded from the Microsoft Download Center at [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366). Download the SkypeOnlinePowershell.exe file, and then complete the following procedure:
   

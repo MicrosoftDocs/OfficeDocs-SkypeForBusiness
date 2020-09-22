@@ -19,7 +19,10 @@ description: "Follow the steps in this topic to modify the configuration of an e
 ---
 
 # Modify the configuration of an existing Cloud Connector deployment
- 
+
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Follow the steps in this topic to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment. 
   
 ## Modify the configuration of a single site

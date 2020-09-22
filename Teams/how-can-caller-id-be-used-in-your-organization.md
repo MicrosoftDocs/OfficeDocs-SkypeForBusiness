@@ -1,7 +1,7 @@
 ---
 title: "How can caller ID be used in your organization"
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -29,6 +29,10 @@ description: "Caller ID can be controlled for both inbound and outbound calls fo
 Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity.
   
 The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:
+
+- Microsoft Calling Plans 
+
+- Phone System Direct Routing 
   
 - Online PSTN Connectivity
     
@@ -45,7 +49,7 @@ There are three options available for outbound PSTN caller ID:
   
 - The telephone number assigned to the user, which is the default.
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
 - Set to anonymous.
     

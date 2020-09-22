@@ -32,6 +32,8 @@ It's a good idea to read this article before you start the wizard. When you're r
 
 > [!IMPORTANT]
 > Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes on on-premises Exchange Server.
+>
+> The Getting Started Wizard doesn't support Skype for Business hybrid deployments. If you have a Skype for Business hybrid deployment and want to set up Business Voice, check out [Set up Phone System in your organization](../setting-up-your-phone-system.md).
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 

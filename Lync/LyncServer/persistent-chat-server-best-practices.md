@@ -1,8 +1,8 @@
 ---
 title: Persistent Chat Server best practices
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Persistent Chat Server best practices

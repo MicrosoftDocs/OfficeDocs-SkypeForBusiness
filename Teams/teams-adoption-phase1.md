@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: In this article, you will learn about the activities in the startup phase of Microsoft Teams adoption. 
+description: In this article, you will learn about the activities in the startup phase of Microsoft Teams adoption. Understand best practices on Microsoft Teams setup and team planning.
 f1.keywords:
 - CSH
 ms.custom: 

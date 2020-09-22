@@ -32,6 +32,9 @@ Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing 
 
 - Leveraging of existing user greetings from Exchange Online Unified Messaging
 
+> [!Important]
+> Skype for Business Online will be retired on July 31, 2021 after which users will no longer be able to access voicemail in their Exchange mailbox through the Skype for Business Online client.
+
 For more information about feature comparison, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
 
 Skype for Business Server 2019 continues to use Exchange UM for users whose mailboxes are on previous versions of Exchange Server (2013, 2016).  Understanding which voicemail solution will be used based on the Exchange Server and Skype for Business Server version is an important part of planning for migration to either Skype for Business Server 2019 or Exchange Server 2019. For more information about migration and interoperability, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
@@ -74,7 +77,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - An External Exchange Web Services (EWS) URL and Autodiscover must be set up or some Cloud Voicemail features will be limited.
 
-- If you have an on-premises only deployment&#x2014;that is, only Exchange and Skype for Business on-premises servers&#x2014;but you want to take advantage of Cloud Voicemail, you will need a Phone System license.
+- If you have an on-premises Exchange server, set up Cloud Voicemail using the steps in [Set up Cloud Voicemail for Exchange Server Mailbox Users](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users).
 
 ## Migration and interoperability
 

@@ -30,7 +30,7 @@ When you set up Calling Plans, you assign phone numbers to your users. In Micros
 
 When you're setting up users so they can make and receive phone calls, you must first use the Microsoft Teams admin center and assign a phone number. You can change or remove the phone number if you need to.
   
-To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
@@ -46,7 +46,8 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
 6. Click **Save**.
     > [!NOTE]
-    > Because of the latency between Office 365 and Teams, it can possibly take a few hours for users to be enabled. If the phone number isn't assigned correctly after a few hours, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+
   
 ## Change a phone number for a user
  

@@ -1,10 +1,10 @@
 ---
-title: "Stream Classification in Call Quality Dashboard"
-ms.author: tonysmit
-author: tonysmit
+title: "Stream classification in Call Quality Dashboard (CQD)"
+ms.author: serdarsacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Optimization
-description: "Learn how stream quality is classified in the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
+description: "Learn how stream quality is classified in the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
 ---
 
-# Stream Classification in Call Quality Dashboard
+# Stream Classification in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## Classifier Definitions
 
@@ -110,10 +110,18 @@ If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely
 > The "Packet Utilization" dimension and "Avg Packet Utilization" measurement can be used to determine the packet activity of a stream.
 
 ## Related Topics
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
-[Turning on and using Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[What is CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[Upload tenant and building data](CQD-upload-tenant-building-data.md)
+
+[CQD data and reports](CQD-data-and-reports.md)
+
+[Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
+
+[Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
