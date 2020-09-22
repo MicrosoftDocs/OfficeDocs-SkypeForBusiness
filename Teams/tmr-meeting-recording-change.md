@@ -27,7 +27,7 @@ Microsoft Teams has a new method for saving meeting recordings. As a departure f
 
 The benefits of using OneDrive for Business and SharePoint for storing recordings include:
 
-- Retention policies for Teams meeting recording (TMR) (S+C E5 auto-retention labels)
+- Retention policies for Teams meeting recording (TMR) (S+C E5 autoretention labels)
 - Benefit from OneDrive for Business and SharePoint information governance
 - Easy to set permissions and sharing
 - Share recordings with guests (external users) with explicit share only
@@ -40,7 +40,7 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - Bring your own key (BYOK) support
 - Improved Transcript quality and speaker attribution
 
-There are a some limitations to consider:
+There are some limitations to consider:
 
 - There will be English-only closed captions and transcripts​.
 - You won't be able to search transcripts or their content​.
@@ -80,7 +80,7 @@ Watch "Meeting Recording" for more information.
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
-Even if a policy says it’s already set to **Stream**, it might not be set. If it's set to nothing, then the default is Stream. If you want to opt-out you **must** reset the policy to **Stream** to ensure that Stream is the default.
+Even if a policy says it’s already set to **Stream**, it might not be set. If it's set to nothing, then the default is Stream. If you want to opt-out, you **must** reset the policy to **Stream** to ensure that Stream is the default.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -90,7 +90,7 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 **Where will the meeting recording be stored?**
 
-- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
+- For non-Channel meetings, the recording is stored in a folder named. Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
 
   <i>recorder's OneDrive for Business</i>/**Recordings**
 
@@ -108,7 +108,7 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 Customers opting in to this preview will not have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in October 2020.
 
-Closed captions will be available on Teams Meeting Recordings for customers who've opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
+Closed captions will be available on Teams Meeting Recordings for customers who have opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
 
 Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
 
