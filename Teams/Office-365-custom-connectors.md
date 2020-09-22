@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 Use Microsoft 365 and custom connectors in Microsoft Teams
 =======================================================
 
-Connectors keep your team current by delivering frequently used content and service updates directly into a channel. With connectors, your Microsoft Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Azure DevOps Services within the chat stream in their team.
+Connectors keep your team current by delivering frequently used content and service updates directly into a channel. With connectors, your Microsoft Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services within the chat stream in their team.
 
 Any member of a team can connect their team to popular cloud services with the connectors if the team permissions allow, and all team members are notified of activities from that service. Connectors will continue to function even after the member who has initially setup the connector has left. Any team member with the permissions to add\remove can modify connectors setup by other members.
 
@@ -35,19 +35,23 @@ Currently, you can add connectors by using Microsoft Teams desktop and web clien
 
 1. To add a connector to a channel, click the **ellipses (…),** on the right of a channel name, then click **Connectors**.
 
-    ![Screenshot of the Teams interface with the Connectors option selected.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Teams interface with the Connectors option selected.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2. You can select from a variety of available connectors, and then click **Add**.
 
-    ![Screenshot of the Connectors dialog showing available the connectors.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Connectors dialog showing available the connectors.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3. Fill in the required information of the selected connector and click **Save**. Each connector requires a diverse set of information to function properly, and some may require you to sign in to the service using the links provided on the connector configuration page.
 
-    ![Screenshot of the configuration page for the RSS connector.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the configuration page for the RSS connector.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4. Data provided by the connector is automatically posted to the channel.
 
-    ![Screenshot of the Teams interface showing a conversation in a channel.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Teams interface showing a conversation in a channel.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 Develop custom connectors
 ----------------------------
