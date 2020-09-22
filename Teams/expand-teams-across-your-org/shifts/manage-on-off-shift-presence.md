@@ -69,7 +69,7 @@ As an admin, you use policies to control shift-based presence for Firstline Work
 
 Use the New-TeamsShiftsPolicy cmdlet to create a new policy, set the parameters that you want, and then use the Grant-TeamsShiftsPolicy cmdlet to assign the policy to users.
 
-Here's some examples. For detailed information about each of these parameters, see New-TeamsShiftsPolicy.
+Here's some examples. For detailed information about each of these parameters, including the list of predefined off shift messages that you can choose from, see New-TeamsShiftsPolicy.
 
 ### Example 1
 
@@ -103,22 +103,21 @@ In this example, we assign a policy named Unrestricted Teams Access to a user na
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso,com -PolicyName "Unrestricted Teams Access"
 ```
 
-*************
+### Turn on or turn off shift-based presence for specific users
 
-### Turn on or turn off shift-based presence for specific users
+By default, shift-based presence is ???. You can turn on or turn off shift-based presence for specific users in your organization.Set the **EnableShiftPresence** parameter to one of the following.
 
-By default, shift-based presence is ???. You can turn on or turn off shift-based presence for specific users in your organization. Set the **EnableShiftPresence** parameter to one of the following.
 |Setting value  |Behavior |
 |---------|---------|
 |True     | Turn on shift-based presence.      |
 |False    | Turn off shift-based presence.     |
 
-### Manage off shift access to Teams
+### Manage off shift access to Teams
 
-
-#### Set the message that's displayed when users access Teams when off shift
+#### Set the message that's displayed when users access Teams when off shift
 
 You can use the default message, choose from a collection of predefined messages, or create your own custom message. To configure the message that you want to display, set the **ShiftNoticeMessageType** parameter to one of the following.
+
 |Setting value  |Message that's displayed |
 |---------|---------|
 |DefaultMessage   | You aren't authorized to use Microsoft Teams during non-working hours and will only be compensated for using it during approved working hours.      |
@@ -129,7 +128,6 @@ You can use the default message, choose from a collection of predefin
 |Message5    | Access to Teams is turned off during non-working hours. You will be able to access the app when your next shift starts      |
 |Message6    |Your employer does not authorize or approve of the use of its network, applications, systems, or tools by non-exempt or hourly employees during their non-working hours. Access to corporate resources are only allowed during approved working hours and should be recorded as hours worked in your employer’s timekeeping system     |
 |Message7    | Your employer has turned off access to Teams during non-working hours. Refer to your employer's guidelines on using this app outside working hours.     |
-|CustomMessage  |   |
 
 ## Related topics
 
