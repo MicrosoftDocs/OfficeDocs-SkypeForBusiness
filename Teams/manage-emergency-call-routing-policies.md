@@ -17,8 +17,9 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use and manage emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. 
-f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
+- ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ---
 
 # Manage emergency call routing policies in Microsoft Teams
