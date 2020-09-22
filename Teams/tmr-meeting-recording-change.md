@@ -48,11 +48,16 @@ There are a some limitations to consider:
 - You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.
 - You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
 
+
+Watch "Meeting Recording" for more information. 
+
+> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8] 
+
 ## Set up the meeting recording option for OneDrive for Business and SharePoint
 
 1. Install the Skype For Business Online Powershell admin console.
 
-    a. Download [Sype for Business Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
+    a. Download [Skype for Business Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
 
     b. Follow the prompts to install it.
 
