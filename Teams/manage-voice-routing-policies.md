@@ -17,7 +17,6 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to create and manage voice routing policies in Microsoft Teams. 
-f1.keywords: 
 ---
 
 # Manage voice routing policies in Microsoft Teams

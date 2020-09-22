@@ -260,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Cloud Video Interop](cloud-video-interop.md)
 
 ## Live events
