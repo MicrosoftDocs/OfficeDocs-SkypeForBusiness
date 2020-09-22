@@ -32,7 +32,7 @@ description: Learn about policies in a educational or EDU setting, and how to us
 
 Microsoft Teams allows users to do things like attend online meetings or live events, chat, make calls, and use apps. Setting the right Microsoft Teams admin policies is a critical step in ensuring that Teams is a safe learning environment for students. As an admin, you can use policies to control the Teams features that are available to users in your educational institute.  In most cases, policies must be adjusted for both students and educators to keep the enviornment safe.  
 
-Here's a list of the policy areas you will find in Microsoft Teams. To learn more about the policies in each area and the capabilities they control, use the links below:
+Here's a list of the main policy areas you will find in Microsoft Teams. To learn more about the policies in each area and the capabilities they control, use the links below:
 
 - [Meetings](meeting-policies-in-teams.md)
 - [Live events](configure-teams-live-events.md)
@@ -43,7 +43,7 @@ Here's a list of the policy areas you will find in Microsoft Teams. To learn mor
 
 :::image type="content" source="media/edu-admin-center-users.png" alt-text="Screenshot of user with policies applied.":::
 
-You can easily manage all Teams policies in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) by signing in with your admin credentials.
+You can manage all Teams policies in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) by signing in with your admin credentials.
 
 ### Where to find Microsoft Teams policies
 
@@ -83,7 +83,9 @@ Whether you choose to add or edit a policy definition, you're brought to a view 
 ### Assigning policy definitions 
 There are multiple methods you can use to assign policy definitions to your users. Each method has its own advantages and disadvantages, which will differ depending on your institution's unique needs.  
 
-In most cases, we recommend that you use group policy assignment to assign policies to your users. This method allows for faster and more seamless policy application. For large organizations, we also recommend batch policy assignment, which is tailored for cases where you need to assign policies to large sets of users. To learn more about these application methods, refer to [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md).
+In most cases, we recommend that you use group policy assignment to assign policies to your users. This method allows for faster and more seamless policy application.  When a user is added to a group that has a policy definition assigned to it, the new user automatically inherits the policies of the group.  This allows for easier policy management when large numbers of users are added and removed to the environment, for example at the beginning and ending of a school term.  
+
+For large organizations, we also recommend batch policy assignment, which is tailored for cases where you need to assign policies to large sets of users. To learn more about these application methods, refer to [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md).
 
 If you have a smaller institution or have a need to update an individual student or educator's policy settings, follow the instructions below.  
 
@@ -121,7 +123,6 @@ Just like the policy list earlier in this article, policy packages predefine pol
 - Live events
 - Calling
 - Messaging
-- Teams
 - App permissions
 
 Microsoft Teams currently includes the following policy packages:
@@ -138,7 +139,7 @@ Microsoft Teams currently includes the following policy packages:
 
 :::image type="content" source="media/edu-policy-packages-list.png" alt-text="Policy packages page with list of policy packages to choose from.":::
 
-Each individual policy is given the name of the policy package so you can easily identify policies linked to a policy package. For example, when you assign the Education_Teacher policy package to educators in your educational institution, a policy named Education_Teacher is created for each policy in the package.
+Each individual policy is given the name of the policy package so you can identify policies linked to a policy package. For example, when you assign the Education_Teacher policy package to educators in your educational institution, a policy named Education_Teacher is created for each policy in the package.
 
 ![Screenshot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
 
