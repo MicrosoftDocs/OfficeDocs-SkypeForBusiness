@@ -32,7 +32,7 @@ description: Learn about policies in a educational or EDU setting, and how to us
 
 Microsoft Teams allows users to do things like attend online meetings or live events, chat, make calls, and use apps. Setting the right Microsoft Teams admin policies is a critical step in ensuring that Teams is a safe learning environment for students. As an admin, you can use policies to control the Teams features that are available to users in your educational institute.  In most cases, policies must be adjusted for both students and educators to keep the enviornment safe.  
 
-Here's a list of the policy areas you will find in Microsoft Teams.  To learn more about the policies in each area and the capabiltities they control, use the links below:
+Here's a list of the policy areas you will find in Microsoft Teams. To learn more about the policies in each area and the capabilities they control, use the links below:
 
 - [Meetings](meeting-policies-in-teams.md)
 - [Live events](configure-teams-live-events.md)
@@ -58,11 +58,11 @@ Before you assign policies to your users, you need to first add and create your 
 > [!NOTE]
 > We recommend that you set different policy definitions for your students and educators.
 
-By default, every new user (student or educator) will be assigned the Global (Org-wide default) policy definition for each capability area. We recommend that you use the Global (Org-wide default) for your strictest set of policy definitions.  In most cases, this stricter policy set will be more appropriate for students.  Using your Global (Org-wide default) policy definition in this way, will ensure that new users will have the tightest restrictions when they are added to your tenant.  To adhere to this guidance, we recommend you follow these steps:
+By default, every new user (student or educator) will be assigned the Global (Org-wide default) policy definition for each capability area. We recommend that you use the Global (Org-wide default) for your strictest set of policy definitions. In most cases, this stricter policy set will be more appropriate for students. Using your Global (Org-wide default) policy definition in this way will ensure that new users will have the tightest restrictions when they are added to your tenant. To adhere to this guidance, we recommend you follow these steps:
 
 1. Create a custom policy definition for each Teams capability area with policy values that are fitting for your educators' needs (without this, educators will have the same restricted access as your students as defined within the Global (Org-wide default) policy definition).
 
-1. Assign these new custom policy definition to your educators.
+1. Assign these new custom policy definitions to your educators.
 
 1. Edit the Global (Org-wide default) policy definitions for each capability area with values that are appropriate for your students.
 
@@ -81,14 +81,14 @@ Whether you choose to add or edit a policy definition, you're brought to a view 
 > Don’t forget to select **Save** before you leave the page.
 
 ### Assigning policy definitions 
-There are multiple methods you can use to assign policy definitions to your users.  Each method has its own advantages and disadvantages, which will differ depending on your institution's unique needs.  
+There are multiple methods you can use to assign policy definitions to your users. Each method has its own advantages and disadvantages, which will differ depending on your institution's unique needs.  
 
-In most cases, we recommend that you use group policy assignment to assign policies to your users.  This method allows for faster and more seamless policy application.  For large organizations we also recommend batch policy assignment, which is tailored for cases where you need to assign policies to large sets of users.  To learn more about these application methods refer to [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md).
+In most cases, we recommend that you use group policy assignment to assign policies to your users. This method allows for faster and more seamless policy application. For large organizations, we also recommend batch policy assignment, which is tailored for cases where you need to assign policies to large sets of users. To learn more about these application methods, refer to [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md).
 
-If you have a smaller institution or have a need to update an individual student or educator's policy settings follow the instructions below.  
+If you have a smaller institution or have a need to update an individual student or educator's policy settings, follow the instructions below.  
 
 > [!IMPORTANT]
-> Policy assignments given at the individual user level override any group policies assigned to the user.  Ensure that you are only using individual policy assignments when you desire to override group policy settings. 
+> Policy assignments given at the individual user level override any group policies assigned to the user. Ensure that you are only using individual policy assignments when you desire to override group policy settings. 
 
 #### How to assign a policy definition to a user
 
@@ -96,11 +96,11 @@ If you have a smaller institution or have a need to update an individual student
 > Assigning a policy definition may take a while to propagate out to all the users and clients. You might want to do this when the user accounts are first created in Azure/M365, and whenever a new student joins the educational institute.
 
 
-Once your policy definition is created or updated, you can assign it to a user by selecting **Manage users** in policy page, searching for the desired user then applying the policy.
+Once your policy definition is created or updated, you can assign it to a user by selecting **Manage users** on the policy page, searching for the desired user, then applying the policy.
 
 ![Manage users panel on the right side, on top of the Messaging policies page.](media/edu-manage-users-pane.png)
 
-You can also assign a policy to a user by navigating to Users, selecting the user you wish to update policies for, selecting Policies, then Edit. From there, you can select the policy definition you’d like to use assign to the user for each capability area.
+You can also assign a policy to a user by navigating to **Users**, selecting the user you wish to update policies for, selecting **Policies**, then **Edit**. From there, you can select the policy definition you’d like to assign to the user for each capability area.
 
 ![Edit user policies pane, on the right side over the Assigned policies page.](media/edu-edit-user-policies-pane.png)
 
@@ -113,7 +113,7 @@ A policy package in Teams collects predefined policies and policy settings that 
 Educational institutions in general have many users with unique needs, depending partly on the age and maturity of the students. For example, you may want to grant educators and staff full access to Microsoft Teams, but want to limit Microsoft Teams capabilities for students to encourage a safe and focused learning environment. You can use policy packages to tailor settings based on the needs of different cohorts in your educational institute community.
 
 > [!IMPORTANT] 
-> Our primary recommendation is that you use the Global (Org-wide default) policy definition for students instead of a policy package.  This ensure that new users in your organizations always have the strictest set of policies appropriate for students.  If this recommendation does not meet the needs of your institution, one of the student policy packages below may be a good alternative. 
+> Our primary recommendation is that you use the Global (Org-wide default) policy definition for students instead of a policy package. This ensures that new users in your organizations always have the strictest set of policies appropriate for students. If this recommendation does not meet the needs of your institution, one of the student policy packages below may be a good alternative. 
 
 Just like the policy list earlier in this article, policy packages predefine policies for:
 
@@ -146,4 +146,4 @@ Each individual policy is given the name of the policy package so you can easily
 > If you decide that educators and administrative support staff need different policies, you can repurpose an existing package: identify a package you aren't currently using and change the settings to be appropriate for that group. You might have to make a note to yourself which group has which package, but that's the only impediment to repurposing a package.
 
 ## Policies that should be assigned for student safety
-For more information on the steps you need to take to protect students in your enviornment, carefully review [Keeping students safe while using Teams for distance learning](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
+For more information on the steps you need to take to protect students in your environment, carefully review [Keeping students safe while using Teams for distance learning](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
