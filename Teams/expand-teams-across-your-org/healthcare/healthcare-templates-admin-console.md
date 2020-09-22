@@ -35,7 +35,6 @@ We currently offer two first-party healthcare templates that you can leverage fo
 
  Streamline healthcare communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management, as well as the operational needs of a ward.
 
-
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |---|----------------------------------------------------- |
 | Collaborate on patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li>|
@@ -47,7 +46,7 @@ Streamline communication and collaboration between multiple wards, pods, and dep
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
-|Hospital|` healthcareHospital`|Channels: <ul><li>General<li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|Hospital|`healthcareHospital`|Channels: <ul><li>General<li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
 ## Related topics

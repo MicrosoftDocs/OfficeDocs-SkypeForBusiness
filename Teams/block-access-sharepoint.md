@@ -35,7 +35,7 @@ You can block or limit access for:
 
 When access is blocked, users will see an error message. Blocking access helps provide security and protects secure data. When access is blocked, users will see an error message.
 
-1. Open the SharePoint [Admin Center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
+1. Open the SharePoint Admin Center.
 
 2. Expand **Policies** > **Access Policies**.
 
