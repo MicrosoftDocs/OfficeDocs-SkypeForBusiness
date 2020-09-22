@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: "You edit the settings for Resiliency and configure the following properties:"

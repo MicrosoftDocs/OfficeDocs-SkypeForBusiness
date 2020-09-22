@@ -9,6 +9,8 @@
 # Training
 ## [Overview](training-microsoft-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
+## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Teams sessions at Ignite 2020](ignite-2020-landing-page.md)
 ## [Teams live training](instructor-led-training-teams-landing-page.yml)
 ## [Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -111,6 +113,7 @@
 # Apps, bots, and connectors
 
 ## [Overview](deploy-apps-microsoft-teams-landing-page.md)
+## [Integrate with Power Platform](teams-power-platfom-integration.md)
 ## [Manage apps for Teams](manage-apps.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
@@ -184,6 +187,7 @@
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
+## [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 ## [Contact Center integrations](teams-contact-center.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
@@ -290,14 +294,15 @@
 #### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Auto attendants and call queues 
-#### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
-#### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+#### [Planning](plan-auto-attendant-call-queue.md)
+#### [Auto attendant setup](create-a-phone-system-auto-attendant.md)
+#### [Call queue setup](create-a-phone-system-call-queue.md)
 #### [Small business example - Set up an auto attendant](tutorial-org-aa.yml)
 #### [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage Teams resource accounts](manage-resource-accounts.md)
-#### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Set up holidays](set-up-holidays-in-teams.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Dial and voice reference](dial-voice-reference.md)
 
 ### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
@@ -982,5 +987,5 @@
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 ## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Export content with the Microsoft Teams Export API](export-teams-content.md)
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
