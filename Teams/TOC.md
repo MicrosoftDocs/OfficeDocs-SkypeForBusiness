@@ -8,9 +8,11 @@
 
 # Training
 ## [Overview](training-microsoft-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.yml)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Teams sessions at Ignite 2020](ignite-2020-landing-page.md)
+## [Teams live training](instructor-led-training-teams-landing-page.yml)
+## [Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [How to roll out Teams](How-to-roll-out-teams.md)
@@ -116,16 +118,18 @@
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
 ## [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ## [Resource-specific consent](resource-specific-consent.md)
-## [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
-## [Publish a custom app by uploading an app package](upload-custom-apps.md)
+## Custom apps
+### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+### [Manage Power Platform apps in the Microsoft Teams admin center](manage-power-platform-apps.md)
+### [Publish a custom app by uploading an app package](upload-custom-apps.md)
 ## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Purchase services for Teams third-party apps](purchase-third-party-apps.md)
 ## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ## [Manage the Tasks app for your organization](manage-tasks-app.md)
-## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
+## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -990,5 +994,5 @@
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 ## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Export content with the Microsoft Teams Export API](export-teams-content.md)
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
