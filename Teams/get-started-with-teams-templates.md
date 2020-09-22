@@ -80,3 +80,4 @@ By default the base template is set to **Standard** which doesn't contain any ad
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
 - [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 - [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
