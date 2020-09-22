@@ -175,8 +175,8 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 - [Allow transcription](#allow-transcription)
 - [Allow cloud recording](#allow-cloud-recording)
-- [Mode for IP audio](#mode-for-ip-audio) (in preview)
-- [Mode for IP video](#mode-for-ip-video) (in preview)
+- [Mode for IP audio](#mode-for-ip-audio) 
+- [Mode for IP video](#mode-for-ip-video) 
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
 
@@ -210,8 +210,6 @@ To learn more about cloud meeting recording, see [Teams cloud meeting recording]
 
 ### Mode for IP audio
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. Here are the values for this setting.
 
 |Setting value |Behavior  |
@@ -226,8 +224,6 @@ This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Team
 To learn more, see [Common audio/video scenarios for meetings](#common-audiovideo-scenarios-for-meetings).
 
 ### Mode for IP video
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. Here are the values for this setting.
 
@@ -292,6 +288,9 @@ The most restrictive policy between the meeting organizer’s policy and the use
 #### Teams mobile clients
 
 For Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **Allow IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
+
+> [!NOTE]
+> When a user starts a group call to join by phone, the **Use phone for audio** screen doesn't appear. This is a known issue that we're working to resolve. To work around this issue, select **Phone audio** under **Other join options**.  
 
 ### Media bit rate (Kbs)
 
