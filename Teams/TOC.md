@@ -295,14 +295,15 @@
 #### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Auto attendants and call queues 
-#### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
-#### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+#### [Planning](plan-auto-attendant-call-queue.md)
+#### [Auto attendant setup](create-a-phone-system-auto-attendant.md)
+#### [Call queue setup](create-a-phone-system-call-queue.md)
 #### [Small business example - Set up an auto attendant](tutorial-org-aa.yml)
 #### [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage Teams resource accounts](manage-resource-accounts.md)
-#### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Set up holidays](set-up-holidays-in-teams.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Dial and voice reference](dial-voice-reference.md)
 
 ### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
