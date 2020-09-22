@@ -60,7 +60,7 @@ items:
 
     ## Step 2:  Prioritize your scenarios
 
-    Collaboration and communication is about people! Pick the most relevant scenarios for your organization instead of talking about features and functions. Check out the [Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) for examples to help you define scenarios for your school. Successful Teams deployments often center around highly collaborative teams that work closely together, such as classrooms, professional learning communities, and extracurricular student groups.
+    Collaboration and communication are about people! Pick the most relevant scenarios for your organization instead of talking about features and functions. Check out the [Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) for examples to help you define scenarios for your school. Successful Teams deployments often center around highly collaborative teams that work closely together, such as classrooms, professional learning communities, and extracurricular student groups.
 
     ### :trophy: Best practice:
     **Plan Teams with Teams!** Customers who use Teams to plan their deployment ease the change curve for key stakeholders. Consider creating a team called Microsoft 365 Deployment and creating channels for the various workloads you want to deploy. Your team might look something like this:
@@ -89,7 +89,7 @@ items:
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See Office 365 licensing for Teams for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. Teams is not enabled by default for students. Teams must be enabled for students before they can access Teams. To get started, IT administrators need to use the Office 365 Admin Center to enable Microsoft Teams for your school.
+    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See Office 365 licensing for Teams for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. Teams is not enabled by default for students. Teams must be enabled for students before they can access Teams. To get started, IT administrators need to use the Microsoft 365 admin center to enable Microsoft Teams for your school.
     ## Turn on Microsoft Teams for your school
 
     1. Sign in to <a href="https://portal.office.com" target="_blank">Office 365</a> with your work or school account.
@@ -168,7 +168,7 @@ items:
 
     ### Operating system requirements
 
-    |   	|Windows   	|MacOS   	|Linux  |iOS   	|Android   	|
+    |   	|Windows   	|macOS   	|Linux  |iOS   	|Android   	|
     |---	|---	|---	|---	|---  |--- 	|---	|
     |   	|7 and later   	|10.10 and later   	|DEB or RPM  |10 or later   	|4.4 and later   	|
 
