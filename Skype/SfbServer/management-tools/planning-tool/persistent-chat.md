@@ -11,8 +11,6 @@ f1.keywords:
 - ms.lync.plan.PersistentChat
 - ms.lync.plan.PersistentChat
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: "Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time."
