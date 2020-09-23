@@ -150,6 +150,9 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved in Microsoft Stream, so users can share it securely across their organization. To find the recording for a meeting, go to the meeting conversation.
 
+>[!Note]
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+
 To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |

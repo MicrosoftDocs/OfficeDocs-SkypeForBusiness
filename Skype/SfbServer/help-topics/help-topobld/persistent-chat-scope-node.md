@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: "To begin the creation of a new Persistent Chat Server or Persistent Chat Server pool, in Topology Builder you right click on Persistent Chat pools and then select New Persistent Chat Pool"

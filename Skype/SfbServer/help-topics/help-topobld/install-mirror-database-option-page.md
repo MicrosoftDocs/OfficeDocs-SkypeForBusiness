@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallMirrorDatabaseOptionPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: "You configure Mirror Database Settings by defining the following:"
