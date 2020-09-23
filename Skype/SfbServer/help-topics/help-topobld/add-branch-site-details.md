@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchSiteDetailsPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: "To specify site details for a site, do the following:"
