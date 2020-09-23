@@ -60,7 +60,7 @@ Here are some examples on how you can use these export APIs:
 
 ## Prerequisites to access Teams Export APIs 
 
-- Teams Export APIs are currently in preview, subject to the Microsoft APIs Terms of Use.  It will only be available to users and tenants that have the required licenses. Attempts to access APIs without the proper licenses will result in a 403 error.
+- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](https://aka.ms/teams-changenotification-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
 - Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
 - Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
 
