@@ -274,7 +274,7 @@
 
 # Voice - Phone System and PSTN connectivity 
 
-## [Plan your deployment](cloud-voice-landing-page.md)
+## [Plan your Teams voice solution](cloud-voice-landing-page.md)
 
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
