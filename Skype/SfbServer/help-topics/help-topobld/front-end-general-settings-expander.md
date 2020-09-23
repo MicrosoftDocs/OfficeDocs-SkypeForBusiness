@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: "To edit the settings for an existing Front End pool or Standard Edition server, you are presented with the following sections:"
