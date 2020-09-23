@@ -31,15 +31,17 @@ Microsoft Teams Electronic Healthcare Record (EHR) connector makes it easy for c
 
 This integration supports the following virtual visit use cases in web and mobile:
 
-- Provider to patient.
+- Provider to patient
 
-- Provider to provider inside your organization.
+- Provider to provider inside your organization
 
-- Provider to provider between organizations.
+- Provider to provider between organizations
 
-- Multi-participants appointments.
+- Multi-participants appointments
 
-## Prerequisites
+## Integrate Teams with telehealth
+
+### Prerequisites
 
 Before you can set up the Teams and EHR collaboration, you must have:
 
@@ -53,11 +55,11 @@ Before you can set up the Teams and EHR collaboration, you must have:
 
 - Your systems must meet all [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
-## Create mapping
+### Create mapping
 
 The process to configure your healthcare organization to be able to launch virtual visits with Microsoft Teams starts by launching the EHR Connector that can also be found in the [Epic-Microsoft Teams Telehealth Integration Guide in AppOrchard marketplace](https://apporchard.epic.com/Gallery?id=6153). The Microsoft 365 admin and Epic admin for your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization
 
-## Map Epic organization
+### Map Epic organization
 
 Your Microsoft 365 administrator must receive a valid FHIR base URL and the admin username that will approve the configuration. The Microsoft 365 administrator must launch the connector and sign in to start the configuration process.
 
@@ -67,7 +69,7 @@ Your Microsoft 365 administrator must receive a valid FHIR base URL and the admi
 
  ![add Epic configuration approver](../../media/ehr-connector-1.png)
 
-## Verify and Approve configuration
+### Verify and Approve configuration
 
 The Epic administrator for your healthcare organization that was added as an approver must use the EHR Connector URL \[link\] to sign in using their Microsoft credentials. After successful validation, the user is going to be asked to sign in to Epic to validate the level of access for the user.
 
@@ -80,7 +82,7 @@ After a successful Epic sign-in, the Epic administrator must approve the configu
 
 ![administrator approves the settings](../../media/ehr-connector-3.png)
 
-## Review and Finish configuration
+### Review and Finish configuration
 
 When the configuration information is approved by the Epic admin, you'll have the opportunity to review the mapping and modify any configuration if needed.
 
@@ -91,11 +93,11 @@ When the configuration mapping is correctly approved, you'll see key data elemen
 
 ![review the Epic administrator configuration settings](../../media/ehr-connector-4.png)
 
-## Launching Teams virtual visits
+### Launching Teams virtual visits
 
 After completing the EHR connector and Epic configurations, your organization is now ready to support video visits with Microsoft Teams. DON'T UNDERSTAND HOW SOLUTION IS EMBEDDED.The solution is embedded in the patient and provider flows in their respective Epic portal, reducing the learning curve for users.
 
-### Prerequisites
+**Prerequisites**
 
 Prior to your first video visit with a patient or colleague, you need to verify the following:
 
@@ -103,7 +105,7 @@ Prior to your first video visit with a patient or colleague, you need to verify 
 
 - Meeting must have been schedule by either the healthcare provider in any of the provider portals (Hyperspace, Haiku, Canto) or the patient in the MyChart portal.
 
-### Patient Experience
+**Patient Experience**
 
 In MyChart, patients will be able to schedule appointments as they regularly do. Patients must select Microsoft virtual visit during the scheduling. When it's time for the scheduled appointment, the patient can launch a virtual visit from MyChart.
 
@@ -121,7 +123,7 @@ Key features of the patient experience includes:
 
 - Testing of the video and microphone is allowed before joining the virtual visit.
 
-### Provider Experience
+**Provider Experience**
 
 Healthcare provider from your organization can also join virtual visits with Microsoft Teams from their portal (Hyperspace, Haiku, Canto). The **Begin virtual visit** button is embedded in the provider flow where patient information is displayed.
 
@@ -141,7 +143,7 @@ A very important feature supported by the integration is the real-time updates i
 
 ![what the provider sees](../../media/ehr-connector-7.png)
 
-### Privacy and Location of Data
+## Privacy and Location of Data
 
 Teams integration into EHR systems optimized the process to reduce the amount of data being used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in [Teams Privacy](https://docs.microsoft.com/microsoftteams/teams-privacy).
 
