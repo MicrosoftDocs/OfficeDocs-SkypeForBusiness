@@ -13,10 +13,11 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
+- ms.teamsadmincenter.assignments.overview
 ---
 
 # Teams for Education

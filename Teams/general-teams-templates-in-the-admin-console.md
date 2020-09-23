@@ -34,7 +34,7 @@ In this article, we will introduce each of the Teams templates and how we recomm
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. We assume that you already have deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
 
-To learn more about team templates in general, please refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
+To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Global crisis or event
 
@@ -76,7 +76,7 @@ You may not have access to certain apps based on your app permission policy.
 
 ## Onboard employees
 
-Improve your culture and streamline your employee onboarding with this central team for resources, questions and a bit of fun.
+Improve your culture and streamline your employee onboarding with this central team for resources, questions, and a bit of fun.
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|- |----------------------------------------------------- |
@@ -85,7 +85,7 @@ Improve your culture and streamline your employee onboarding with this central t
 
 ## Organize a help desk
 
-Collaborate on documentation, policy and processes that support your helpdesk. Integrate your existing ticketing system or use our template to manage requests.
+Collaborate on documentation, policy, and processes that support your helpdesk. Integrate your existing ticketing system or use our template to manage requests.
 
 | Base template type | | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |

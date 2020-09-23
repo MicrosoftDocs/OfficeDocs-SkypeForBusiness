@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: "This node shows the pool fully qualified domain name (FQDN) and other basic settings for this Edge pool. You can perform the following actions:"
