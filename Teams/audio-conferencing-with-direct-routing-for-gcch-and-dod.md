@@ -100,7 +100,7 @@ A global voice routing policy can be defined by defining a PSTN usage, a voice r
 
 The following steps describe how to define a new global voice routing policy for an organization without one. If your organization already has voice routing policies defined, verify that the following configuration doesn’t conflict with the existing voice routing policies of your organization.
 
-To create a new PSTN usage in a remote PowerShell session in Skype for Business Online, enter:
+To create a new PSTN usage in a remote PowerShell session in Skype for Business Online, use the following command:
 
   ```PowerShell
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
@@ -108,7 +108,7 @@ To create a new PSTN usage in a remote PowerShell session in Skype for Business 
 
 For additional information, see [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage).
 
-To create a new voice route, enter:
+To create a new voice route, use the following command:
 
   ```PowerShell
   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
@@ -120,7 +120,7 @@ The number pattern specifies which calls will be routed through the specified li
 
 For additional information, see [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
 
-To create a new voice routing policy, enter:
+To create a new voice routing policy, use the following command:
 
   ```PowerShell
   New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
@@ -130,7 +130,7 @@ If multiple PSTN usages are being defined in the voice routing policy, they will
 
 For additional information, see [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
 
-To assign the new voice route to the global voice routing policy of your organization, enter:
+To assign the new voice route to the global voice routing policy of your organization, use the following command:
 
   ```PowerShell
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
