@@ -367,7 +367,6 @@
 ##### [Definitions and RFC standards](direct-routing-protocols.md)
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
-#### [Set up the Ringback bot](direct-routing-ringback-bot.md)
 #### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 
