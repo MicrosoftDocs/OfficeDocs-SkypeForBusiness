@@ -35,7 +35,7 @@ This article helps you decide which Microsoft voice solution is right for your o
 > [!Important]
 > This article focuses on voice solutions with Microsoft Teams.  While solutions with Skype for Business Online are still available, it's important to understand that Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible. In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported. Learn how to connect your on-premises telephony network to Teams using Direct Routing.
 
-, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
 
 
 ## Phone System
@@ -73,6 +73,7 @@ For information about auto attendants and call queues, see the following article
 - [Set up an auto attendant](create-a-phone-system-auto-attendant.md). 
 - [Create a call queue](create-a-phone-system-call-queue.md) 
 
+For an example of how a fictitious, multinational corporation implemented auto attendants and call queues, see [Contoso case study: Auto attendants and call queues](voice-case-study-call-queues.md).
 
 ### Voicemail
 
@@ -126,15 +127,6 @@ For more information about managing phone numbers in your organization, includin
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Transfer phone numbers to Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
-
-### Devices
-
-For more information about managing devices and supported devices, see the following:
-
-- [Manage your devices in Microsoft Teams](devices/device-management.md)
-- [IP Phones](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB audio and video devices](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Intelligent communications for devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 
 
