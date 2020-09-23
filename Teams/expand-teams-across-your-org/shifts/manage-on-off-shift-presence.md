@@ -114,35 +114,6 @@ In this example, we assign a policy named Unrestricted Teams Access to a user na
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso,com -PolicyName "Unrestricted Teams Access"
 ```
 
-*****
-
-
-### Turn on or turn off shift-based presence for specific users
-
-By default, shift-based presence is ???. You can turn on or turn off shift-based presence for specific users in your organization.Set the **EnableShiftPresence** parameter to one of the following.
-
-|Setting value  |Behavior |
-|---------|---------|
-|True     | Turn on shift-based presence.      |
-|False    | Turn off shift-based presence.     |
-
-### Manage off shift access to Teams
-
-#### Set the message that's displayed when users access Teams when off shift
-
-You can use the default message, choose from a collection of predefined messages, or create your own custom message. To configure the message that you want to display, set the **ShiftNoticeMessageType** parameter to one of the following.
-
-|Setting value  |Message that's displayed |
-|---------|---------|
-|DefaultMessage   | You aren't authorized to use Microsoft Teams during non-working hours and will only be compensated for using it during approved working hours.      |
-|Message1    | Your employer does not authorize or approve of the use of its network, applications, systems, or tools by non-exempt or hourly employees during their non-working hours. By accepting, you acknowledge that your use of Teams while off shift is not authorized and you will not be compensated.      |
-|Message2    | Accessing this app outside working hours is voluntary. You won't be compensated for time spent on Teams. Refer to your employer's guidelines on using this app outside working hours. By accepting, you acknowledge that you understand the statement above.    |
-|Message3    | You won't be compensated for time using Teams. By accepting, you acknowledge that you understand the statement above.     |
-|Message4    | You're not authorized to use Teams while off shift. By accepting, you acknowledge your use of Teams is against your employer's policy.    |
-|Message5    | Access to Teams is turned off during non-working hours. You will be able to access the app when your next shift starts      |
-|Message6    |Your employer does not authorize or approve of the use of its network, applications, systems, or tools by non-exempt or hourly employees during their non-working hours. Access to corporate resources are only allowed during approved working hours and should be recorded as hours worked in your employer’s timekeeping system     |
-|Message7    | Your employer has turned off access to Teams during non-working hours. Refer to your employer's guidelines on using this app outside working hours.     |
-
 ## Related topics
 
 - [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
