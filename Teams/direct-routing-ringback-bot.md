@@ -14,7 +14,6 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
 - M365-voice
-- ROBOTS: NOINDEX, NOFOLLOW
 appliesto: 
 - Microsoft Teams
 ---
