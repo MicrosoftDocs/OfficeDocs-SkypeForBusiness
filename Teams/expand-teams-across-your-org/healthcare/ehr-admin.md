@@ -155,6 +155,6 @@ Sign-in and authentication actions are handled by each EHR system. The provider'
 
 ## Related topics
 
-[Get started with Teams for healthcare organizations](teams-in-hc)
+[Get started with Teams for healthcare organizations](teams-in-hc.md)
 
 [Microsoft Teams HIPAA Compliance](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/HIPAA-Compliance-Microsoft-Office-365-and-Microsoft-Teams.pdf)
