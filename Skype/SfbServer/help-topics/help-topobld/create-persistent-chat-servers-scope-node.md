@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: "You right click on Persistent Chat Pool in Topology Builder to perform the following:"

@@ -16,7 +16,9 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
+- ms.teamsadmincenter.assignments.overview
 ---
 
 # Teams for Education
