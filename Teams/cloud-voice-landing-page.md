@@ -40,31 +40,9 @@ This article helps you decide which Microsoft voice solution is right for your o
 
 - [**Network topology for cloud voice features**](#network-topology-for-cloud-voice-features) - If your organization is deploying features such as Location-Based Routing for Direct Routing or dynamic emergency calling, you must configure network settings for use with these cloud voice features in Microsoft Teams.
 
-- [**Migrating your existing voice solution**](#migrating-your-existing-voice-solution-to-teams) - What you need to think about when migrating your existing voice solution to Teams.
+- [**Migrating your existing voice solution**](#migrating-your-existing-voice-solution-to-teams) - What you need to think about when migrating your existing voice solution to Teams
 
-You might need the simplest solution--Phone System with Calling Plan, Microsoft's all-in-the-cloud solution. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations.
-
-The following diagrams show two sample solutions:
-
-- Diagram 1 shows Phone System with Calling Plan
-
-- Diagram 2 shows Phone System connected to your telephony network with Direct Routing
-
-This article helps you choose the right solution for  your organization, and describes the deployment decisions you will need to make, depending on your chosen solution.
-
-**Diagram 1. Phone System with Calling Plan**
-
-This solution is Microsoft's all-in-the-cloud voice solution and is the simplest to implement.  
-
-![Diagram 1 shows Phone System with Calling Plan](media/msft-telephony-solutions-1.png)
-
-
-**Diagram 2. Phone System connected to your telephony carrier with Direct Routing**
-
-This diagram shows Phone System connected to your telephony carrier by using Direct Routing. With this solution, you can use virtually any telephony carrier.
-
-This solution 
-![Diagram 2 shows Phone System with Direct Routing](media/msft-telephony-solutions-2.png)
+You might need the simplest solution--Phone System with Calling Plan--Microsoft's all-in-the-cloud solution. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations.
 
 > [!Important]
 > This article focuses on voice solutions with Microsoft Teams. While solutions with Skype for Business Online are still available (as described in [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)), it's important to understand that Skype for Business Online will be retired on July 31, 2021.  After that date, the Skype for Business Online service will no longer be accessible. In addition, PSTN connectivity between your on-premises environment--whether through Skype for Business Server or Cloud Connector Edition--and Skype for Business Online will no longer be supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Direct Routing.
@@ -139,7 +117,7 @@ Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution fo
 
 This option connects the Microsoft Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With Calling Plan, Microsoft is your PSTN carrier as shown in the following diagram:
 
-INSERT DIAGRAM HERE
+![Diagram 1 shows Phone System with Calling Plan](media/msft-telephony-solutions-1.png)
 
 If you answer yes to the following, then Phone System with Calling Plans is the right solution for you:
 
@@ -170,7 +148,7 @@ For more information about Calling Plans, see the following articles:
 
 This option connects Microsoft Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
 
-INSERT DIAGRAM HERE
+![Diagram 2 shows Phone System with Direct Routing](media/msft-telephony-solutions-2.png)
 
 If you answer yes to the following questions, then Phone System with Direct Routing is the right solution for you:
 
