@@ -98,7 +98,7 @@ The routing of outbound calls that are made to the PSTN from meetings organized 
 
 A global voice routing policy can be defined by defining a PSTN usage, a voice route, a voice routing policy, and assigning the new voice routing policy as the global voice routing policy of your organization.
 
-The following steps describe how to define a new global voice routing policy for an organization without one, if your organization already has voice routing policies defined, please verify that the following configuration doesn’t conflict with the existing voice routing policies of your organization.
+The following steps describe how to define a new global voice routing policy for an organization without one. If your organization already has voice routing policies defined, verify that the following configuration doesn’t conflict with the existing voice routing policies of your organization.
 
 To create a new PSTN usage in a remote PowerShell session in Skype for Business Online, enter:
 
