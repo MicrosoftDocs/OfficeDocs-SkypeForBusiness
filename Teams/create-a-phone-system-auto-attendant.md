@@ -35,9 +35,8 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 - **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
 - **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
-- **Recorded announcement** - upload a recorded announcement message saved as audio in .WAV, .MPE, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu. 
-- **Typed announcement** - enter the text (up to 1000 characters) you want the system to read. The system plays the announcement, and then returns to the auto attendant menu.
-- **Typed announcement** - 
+- **Recorded announcement** - a recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu. 
+- **Typed announcement** - text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
 - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
 
 You'll be prompted to choose one of these options at various stages as you set up an auto attendant.
