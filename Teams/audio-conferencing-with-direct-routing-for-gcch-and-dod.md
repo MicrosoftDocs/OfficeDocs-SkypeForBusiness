@@ -118,7 +118,7 @@ When defining a new voice route for your organization, please specify one or mul
 
 The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you would like to restrict the phone numbers that can be dialed from the meetings of users in your organization, you can change the number pattern to have the voice route match only the number patterns of the destinations allowed. Please note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
 
-For additional information, see [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute)
+For additional information, see [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
 
 To create a new voice routing policy, enter:
 
@@ -128,7 +128,7 @@ To create a new voice routing policy, enter:
 
 If multiple PSTN usages are being defined in the voice routing policy, they will be evaluated in the order in which they are defined. It is recommended that the PSTN usages are defined in the order of the most specific to the more generic in terms of the number patterns of the voice routes associated with the PSTN usages. For example, if a PSTN usage was defined to route calls to the United States, and another PSTN usage was defined to route calls to any other location in the world, the PSTN usage for calls to the United States should be listed in the voice routing policy ahead of the PSTN usage to route calls to any other location in the world.
 
-For additional information, see [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)
+For additional information, see [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
 
 To assign the new voice route to the global voice routing policy of your organization, enter:
 
@@ -136,7 +136,7 @@ To assign the new voice route to the global voice routing policy of your organiz
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
   ```
 
-For additional information, see [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)
+For additional information, see [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 Once the global voice routing policy has been defined, any outbound calls made from meetings organized by users in your organization will be evaluated against the voice routes associated to the PSTN usages of the global voice routing policy. The outbound calls will be routed according to the first voice route that matches the number pattern of the dialed phone number.
 
@@ -146,19 +146,19 @@ To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to
 
 ### Step 6: (Optional) See a list of Audio Conferencing numbers in Teams
 
-To see the list of Audio Conferencing numbers of your organization, go to [See a list of Audio Conferencing numbers in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+To see the list of Audio Conferencing numbers of your organization, go to [See a list of Audio Conferencing numbers in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 ### Step 7: (Optional) Set auto attendant languages for the Audio Conferencing dial-in numbers of you organization
 
-To change the languages of the Audio Conferencing dial-in numbers of your organization, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+To change the languages of the Audio Conferencing dial-in numbers of your organization, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
 
 ### Step 8: (Optional) Change the settings of the Audio Conferencing bridge of your organization
 
-To change the settings of the Audio Conferencing bridge of your organization, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
+To change the settings of the Audio Conferencing bridge of your organization, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
 
 ### Step 9: (Optional) Set the phone numbers included in the meeting invites of the users in your organization
 
-To change the set of phone numbers that are included in the meeting invites of the users is your organization, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md)
+To change the set of phone numbers that are included in the meeting invites of the users is your organization, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## Audio Conferencing capabilities not supported in Audio Conferencing with Direct Routing for GCC High and DoD
 
