@@ -55,7 +55,7 @@ Before you can set up the Teams and EHR collaboration, you must have:
 
 ## Create mapping
 
-The process to configure your healthcare organization to be able to launch virtual visits with Microsoft Teams starts by launching the EHR Connector URL \[link\] that can also be found in the Epic-Microsoft Teams Telehealth Integration Guide in AppOrchard marketplace. The Microsoft 365 admin and Epic admin for your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization
+The process to configure your healthcare organization to be able to launch virtual visits with Microsoft Teams starts by launching the EHR Connector that can also be found in the [Epic-Microsoft Teams Telehealth Integration Guide in AppOrchard marketplace](https://apporchard.epic.com/Gallery?id=6153). The Microsoft 365 admin and Epic admin for your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization
 
 ## Map Epic organization
 
@@ -115,7 +115,7 @@ Key features of the patient experience includes:
 
 - Patients are not required to download Microsoft Teams to launch a virtual visit.
 
-- Virtual visits are supported in a browser. For a list of supported software and browsers, see the following link [Software and browser prerequisites](https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app).
+- Virtual visits are supported in a browser. For a list of supported software and browsers, see the following link [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
 - Patients will be placed in a lobby until the healthcare provider joins the appointment and allow them access to the virtual visit.
 
@@ -149,6 +149,8 @@ Throughout the integration into EHR systems, Microsoft doesn't store any identif
 
 Sign-in and authentication actions are handled by each EHR system. The provider's EHR identifier is stored in one of the three geographic regions: Asia Pacific, Americas and Europe, and Middle East Asia.
 
-# Related topics
+## Related topics
+
+[Get started with Teams for healthcare organizations](../../expand-teams-across-your-org/healthcare/teams-in-hc)
 
 [Microsoft Teams HIPAA Compliance](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/HIPAA-Compliance-Microsoft-Office-365-and-Microsoft-Teams.pdf)
