@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatSettingsExpander
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
 

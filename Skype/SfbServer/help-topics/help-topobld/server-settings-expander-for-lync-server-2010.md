@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: "To edit the properties for this computer, you do the following:"

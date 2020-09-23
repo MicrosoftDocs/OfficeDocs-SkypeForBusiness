@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: "This is preliminary documentation and is subject to change. Blank topics are included as placeholders."
