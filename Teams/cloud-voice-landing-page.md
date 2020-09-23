@@ -17,7 +17,7 @@ ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
   - seo-marvel-apr2020
 search.appverid: MET150
-description: Learn more about Microsoft voice solutions, and understand the necessary deployment decisions that you will face.
+description: Learn more about Microsoft voice solutions, and understand the necessary deployment decisions that you'll face.
 appliesto: 
   - Microsoft Teams
 ---
@@ -26,9 +26,9 @@ appliesto:
 
 This article helps you decide which Microsoft voice solution is right for your organization. Once you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution. 
 
-You might need the simplest solution--Phone System with Calling Plan--Microsoft's all-in-the-cloud solution. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations.
+You might need the simplest solution--Phone System with Calling Plan--Microsoft's all-in-the-cloud solution for Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN). Or, you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations.
 
-Some articles are required reading for all. Some articles are optional, depending on your existing deployment and requirements. For example, everyone should read about Phone System and understand options for connecting to the Public Switched Telephone Network (PSTN). But Location-Based Routing is only critictal reading for Direct Routing customers in geographic locations that do not allow toll bypass.
+Some articles are required reading for all. Some articles are optional, depending on your existing deployment and requirements. For example, everyone should read about Phone System and understand options for connecting to the Public Switched Telephone Network (PSTN). But Location-Based Routing is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
 
 
 **Required for all**
@@ -39,15 +39,15 @@ Some articles are required reading for all. Some articles are optional, dependin
 **Depending on your requirements**
 - [**Phone numbers from Microsoft**](#phone-numbers-from-microsoft) - How to get and manage phone numbers from Microsoft, and how to transfer existing numbers to Microsoft. Read this if you need to obtain phone numbers for Microsoft Calling Plans, transfer existing numbers, obtain service numbers, and so on.
 
-- [**Dial plans and call routing**](#dial-plans-and-call-routing) - How to configure and manage dial plans that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. Read this to understand dial plans and determine whether you need to specify dial plans for your organization.
+- [**Dial plans and call routing**](#dial-plans-and-call-routing) - How to configure and manage dial plans that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. Read this if you need to understand what dial plans are and  whether you need to specify dial plans for your organization.
 
-- [**Emergency calling**](#emergency-calling) - How to manage and configure emergency calling--depending on your PSTN connectivity option. Read this if you are using Microsoft Calling Plans or Direct Routing and need to understand how to manage emergency calling for your organization.
+- [**Emergency calling**](#emergency-calling) - How to manage and configure emergency calling--depending on your PSTN connectivity option. Read this section if you are using Microsoft Calling Plans or Direct Routing and need to understand how to manage emergency calling for your organization.
 
-- [**Location-Based Routing for Direct Routing**](#location-based-routing-for-direct-routing) - How to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. Read this if your organization is using Direct Routing at a location that does not allow toll bypass.
+- [**Location-Based Routing for Direct Routing**](#location-based-routing-for-direct-routing) - How to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. Read this section if your organization is using Direct Routing at a location that does not allow toll bypass.
 
-- [**Network topology for cloud voice features**](#network-topology-for-cloud-voice-features) - If your organization is deploying features such as Location-Based Routing for Direct Routing or dynamic emergency calling, you must configure network settings for use with these cloud voice features in Microsoft Teams.  Read this if you are implementing Location-Based Routing for Direct Routing, or if you are implementing dynamic emergency calling with Calling Plans or Direct Routing.
+- [**Network topology for cloud voice features**](#network-topology-for-cloud-voice-features) - If your organization is deploying Location-Based Routing for Direct Routing or dynamic emergency calling, you must configure network settings for use with these features in Microsoft Teams.  Read this section if you are implementing Location-Based Routing for Direct Routing, or if you are implementing dynamic emergency calling with Calling Plans or Direct Routing.
 
-- [**Migrating your existing voice solution**](#migrating-your-existing-voice-solution-to-teams) - What you need to think about when migrating your existing voice solution to Teams.  Read this if you are migrating from an existing voice solution to Teams.
+- [**Migrate your existing voice solution**](#migrating-your-existing-voice-solution-to-teams) - What you need to think about when migrating your voice solution to Teams.  Read this section if you are migrating from an existing voice solution to Teams.
 
 
 
@@ -59,9 +59,9 @@ Some articles are required reading for all. Some articles are optional, dependin
 
 Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 or Office 365 cloud with Microsoft Teams.
 
-Phone System works with Teams or Skype for Business clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft or Office 365 and tightly integrated into the company’s cloud productivity experience. 
+Phone System works with Teams or Skype for Business clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365 or Office 365. 
 
-This article introduces the following Phone System key features and functionality, and the deployment decisions you will need to consider:
+This article introduces the following Phone System key features and functionality, and the deployment decisions you'll need to consider:
 
 - [Auto attendants and call queues](#auto-attendants-and-call-queues)
 - [Cloud Voicemail](#cloud-voicemail)
@@ -115,7 +115,7 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 - [**Phone System with your own PSTN carrier**](#phone-system-with-own-pstn-carrier-with-direct-routing) by using Direct Routing to connect your on-premises environment to Teams.
 
-You can also choose a combination of options, which enables you to design a solution for a complex environment, or if you are managing a multi-step migration (more about migration later).
+You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration (more about migration later).
 
 ### Phone System with Calling Plan 
 
@@ -130,7 +130,7 @@ If you answer yes to the following, then Phone System with Calling Plans is the 
 - Calling Plan is available in your region.
 - You do not need to retain your current PSTN carrier.
 - You want to use Microsoft-managed access to the PSTN.
-- You do not want to manage Session Border Controllers on your own.
+- You do not want to manage Session Border Controllers (SBCs) on your own.
 
 With this option: 
 
@@ -138,7 +138,7 @@ With this option:
 
 - You do not require deployment or maintenance of an on-premises deployment--because Calling Plan operates out of Microsoft 365 or Office 365.
 
-- Note:  If necessary, you can choose to connect a supported SBC via Direct Routing for interoperability with third-party PBXs, analog devices, and other third-party telephony equipment supported by the SBC.
+- Note:  If necessary, you can choose to connect a supported Session Border Controller (SBC) through Direct Routing for interoperability with third-party PBXs, analog devices, and other third-party telephony equipment supported by the SBC.
 
 This option requires uninterrupted connection to Microsoft 365 or Office 365.
 
@@ -178,7 +178,7 @@ This option requires the following:
 
 - Uninterrupted connection to Microsoft 365 or Office 365.
 
-- Deploying and maintaining a supported Session Border Controller (SBC).
+- Deploying and maintaining a supported SBC.
 
 - A contract with a third-party carrier.
   (Unless deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plans.)
@@ -203,7 +203,7 @@ You will need to decide:
 - Which type of telephone number (subscriber or service) do I need? 
 - How do I port existing phone numbers to Teams?
 
-For more information about managing phone numbers in your organization, including getting new numbers or transferring exsiting numbers, see the following articles:
+For more information about managing phone numbers in your organization, including getting new numbers or transferring exiting numbers, see the following articles:
 
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -264,11 +264,11 @@ When migrating your voice solution, there are four possible calling scenarios wh
 
 - [**A user in Skype for Business Online, with a Microsoft Calling Plan**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans). Upon upgrade, this user will continue to have a Microsoft Calling plan.
 
-- [**A user in Skype for Business Online, with on-premises voice functionality**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) through Skype for Business on-premises or Cloud Connector Edition. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.
+- **[A user in Skype for Business Online, with on-premises voice functionality](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) through Skype for Business on-premises or Cloud Connector Edition**. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.
 
-- [**A user in Skype for Business on-premises with Enterprise Voice**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), who will be moving to online and keeping on-premises PSTN connectivity.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with migration of the user to Direct Routing. 
+- **[A user in Skype for Business on-premises with Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), who will be moving to online and keeping on-premises PSTN connectivity**. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with migration of the user to Direct Routing. 
 
-- [**A user in Skype for Business on-premises with Enterprise Voice**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), who will be moving to online and using a Microsoft Calling plan.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.
+- **[A user in Skype for Business on-premises with Enterprise Voice**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), who will be moving to online and using a Microsoft Calling plan**.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.
 
 For more information about how to implement your voice migration for each of these scenarios—including information about when you need to set up hybrid connectivity and how to migrate users with on-premises voice functionality to Direct Routing—see the following articles:
 
