@@ -103,6 +103,9 @@ In this example, we assign a policy named Unrestricted Teams Access to a user na
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso,com -PolicyName "Unrestricted Teams Access"
 ```
 
+*****
+
+ 
 ### Turn on or turn off shift-based presence for specific users
 
 By default, shift-based presence is ???. You can turn on or turn off shift-based presence for specific users in your organization.Set the **EnableShiftPresence** parameter to one of the following.
