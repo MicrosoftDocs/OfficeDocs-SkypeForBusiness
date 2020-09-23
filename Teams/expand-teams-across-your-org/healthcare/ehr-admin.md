@@ -21,7 +21,7 @@ description: Use Microsoft Teams to set up your Telehealth system
 
 # Telehealth and Teams integration with Electronic Healthcare Record admin
 
-Microsoft Teams Electronic Healthcare Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams electronically. The communication and collaboration of Teams makes it easy for clinicians to cut through the clutter of traditionally fragmented systems so they can spend time providing the best possible care. Built on the Microsoft 365 cloud, Teams can help provide advanced security and enables healthcare customers to achieve their HIPAA, HITRUST compliance, and related requirements. The integration lets users:
+Microsoft Teams Electronic Healthcare Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams. The communication and collaboration of Teams make it easy for clinicians to cut through the clutter of traditionally fragmented systems, so they can spend time providing the best possible care. Built on the Microsoft 365 cloud, Teams provides advanced security and enables healthcare customers to achieve their HIPAA & HITRUST compliance and related requirements. The integration lets users:
 
 - Launch Microsoft Teams meetings from both provider and patient portals.
 
@@ -40,6 +40,8 @@ This integration supports the following virtual visit use cases in web and mobil
 - Multi-participants appointments
 
 ## Integrate Teams with telehealth
+
+This article describes how to set up the Teams and EHR collaboration and reviews the patient and health provider experiences.
 
 ### Prerequisites
 
@@ -153,6 +155,6 @@ Sign-in and authentication actions are handled by each EHR system. The provider'
 
 ## Related topics
 
-[Get started with Teams for healthcare organizations](../../expand-teams-across-your-org/healthcare/teams-in-hc)
+[Get started with Teams for healthcare organizations](teams-in-hc)
 
 [Microsoft Teams HIPAA Compliance](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/HIPAA-Compliance-Microsoft-Office-365-and-Microsoft-Teams.pdf)
