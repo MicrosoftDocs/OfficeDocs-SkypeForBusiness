@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: "You can Define the Monitoring SQL Server store by configuring the following properties:"
