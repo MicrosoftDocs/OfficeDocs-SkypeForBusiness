@@ -11,8 +11,6 @@ f1.keywords:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: "Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services."
