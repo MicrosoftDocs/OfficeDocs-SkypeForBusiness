@@ -42,6 +42,22 @@ This article helps you decide which Microsoft voice solution is right for your o
 
 - [**Migrating your existing voice solution**](#migrating-your-existing-voice-solution-to-teams) - What you need to think about when migrating your existing voice solution to Teams.
 
+You might need the simplest solution--Phone System with Calling Plan, Microsoft's all-in-the-cloud solution. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations.
+
+The following diagrams show two sample solutions:
+
+- Diagram 1 shows Phone System with Calling Plan, Microsoft's all-in-the-cloud voice solution for Teams users.
+
+- Diagram 2 shows Phone System connected to your telephony network with Direct Routing.
+
+This article helps you choose the right solution for  your organization, and describes the deployment decisions you will need to make, depending on your chosen solution.
+
+**Diagram 1. Phone System with Calling Plan**
+![Diagram 1 shows Phone System with Calling Plan](media/msft-telephony-solutions-1.png)
+
+**Diagram 2. Phone System connected to your telephony carrier with Direct Routing**
+![Diagram 2 shows Phone System with Calling Plan](media/msft-telephony-solutions-2.png)
+
 > [!Important]
 > This article focuses on voice solutions with Microsoft Teams. While solutions with Skype for Business Online are still available (as described in [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)), it's important to understand that Skype for Business Online will be retired on July 31, 2021.  After that date, the Skype for Business Online service will no longer be accessible. In addition, PSTN connectivity between your on-premises environment--whether through Skype for Business Server or Cloud Connector Edition--and Skype for Business Online will no longer be supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Direct Routing.
 
