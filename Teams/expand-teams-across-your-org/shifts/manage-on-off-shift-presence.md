@@ -80,7 +80,7 @@ New-CsTeamsShiftsPolicy -Identity "Unrestricted Teams Access" -EnableShiftPres
 ```
 
 > [!NOTE]
-> To see a list of the pre-defined messages that you can choose from for the **ShiftNoticeMessageType** parameter, see New-TeamsShiftPolicy.
+> Use the **ShiftNoticeMessageType** parameter to set the message that you want to display. To see a list of the pre-defined messages that you can choose from for this parameter, see New-TeamsShiftPolicy.
 
 ### Example 2 
 
@@ -104,7 +104,7 @@ New-CsTeamsShiftsPolicy -Identity "Block Off Shift Teams Access" -EnableShiftP
 ```
 
 > [!NOTE]
-> To see a list of the pre-defined messages that you can choose from for the **ShiftNoticeMessageType** parameter, see New-TeamsShiftPolicy.
+> Use the **ShiftNoticeMessageType** parameter to set the message that you want to display. To see a list of the pre-defined messages that you can choose from for this parameter, see New-TeamsShiftPolicy.
 
 ### Example 4
 
