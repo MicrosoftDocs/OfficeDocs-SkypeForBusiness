@@ -34,7 +34,7 @@ This article helps you decide which Microsoft voice solution is right for your o
 
 - [**Dial plans and call routing**](#dial-plans) - How to configure and manage dial plans that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
 
-- [**Emergency calling**](#emergency-calling) - How to manage emergency calling--depending on your PSTN connectivity option.
+- [**Emergency calling**](#emergency-calling) - How to manage and configure emergency calling--depending on your PSTN connectivity option.
 
 - [**Location-Based Routing for Direct Routing**](#location-based-routing-for-direct-routing) - How to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location.
 
@@ -62,7 +62,8 @@ For information about all Phone System features, and how to set up Phone System,
 
 - [What is Phone System](what-is-phone-system-in-office-365.md) 
 - [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
-- [Set up Phone System in your organization](setting-up-your-phone-system.md).
+- [Set up Phone System in your organization](setting-up-your-phone-system.md)<br>
+  Describes how to buy and assign Phone System licenses, manage phone numbers, and set up communication credits for toll-free numbers. 
 
 For information about managing supported devices, see [Manage your devices in Microsoft Teams](devices/device-management.md) and [Teams Marketplace](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
 
@@ -245,7 +246,7 @@ If you are deploying cloud voice features such as dynamic emergency calling or L
 
 ## Migrating your existing voice solution to Teams
 
-For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode. If you need basic information about upgrading to Teams, start here:
+For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode. Using Phone System with Teams is only supported when the user is in TeamsOnly mode. If you need basic information about upgrading to Teams, start here:
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
 - [About the upgrade framework](upgrade-framework.md)
@@ -261,7 +262,7 @@ When migrating your voice solution, there are four possible calling scenarios wh
 
 - [**A user in Skype for Business on-premises with Enterprise Voice**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), who will be moving to online and using a Microsoft Calling plan.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.
 
-For more information about how to implement your voice migration for each of these scenarios--including information about when you need to set up hybrid connectivity and how to migrate users with on-premises voice functionality to Direct Routing--see the following articles:
+For more information about how to implement your voice migration for each of these scenarios—including information about when you need to set up hybrid connectivity and how to migrate users with on-premises voice functionality to Direct Routing—see the following articles:
 
 - [PSTN considerations when upgrading to Teams — for IT administrators](upgrade-to-teams-on-prem-pstn-considerations.md)
 
