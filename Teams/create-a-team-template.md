@@ -16,12 +16,9 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a custom team template in Microsoft Teams
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Custom templates are not yet supported for EDU customers.**
 

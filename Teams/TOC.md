@@ -51,7 +51,14 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
-## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+## Work with Teams templates
+### [Use Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+### [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+### [Create a custom Teams template](create-a-team-template.md)
+### [Create a template from an existing team](create-template-from-existing-team.md)
+### [Build a template from an existing template](create-template-from-existing-template.md)
+### [Financial category Teams templates](financial-teams-templates-in-the-admin-console.md)
+### [General category Teams templates](general-teams-templates-in-the-admin-console.md)
 
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
@@ -665,6 +672,7 @@
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Get started with Teams templates for Healthcare organizations in the admin console](healthcare-templates-admin-console.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
