@@ -35,7 +35,7 @@ Microsoft Teams allows users to do things like attend online meetings or live ev
 Here's a list of the main policy areas you will find in Microsoft Teams. To learn more about the policies in each area and the capabilities they control, use the links below:
 
 - [Meetings](meeting-policies-in-teams.md)
-- [Live events](configure-teams-live-events.md)
+- [Live events](teams-live-events/configure-teams-live-events.md)
 - [Calling](teams-calling-policy.md) 
 - [Messaging](messaging-policies-in-teams.md)
 - [Teams](teams-policies.md)
