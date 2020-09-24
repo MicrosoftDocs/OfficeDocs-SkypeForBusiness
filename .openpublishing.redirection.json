@@ -1955,6 +1955,11 @@
         "source_path": "Teams/iw-trial-teams.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-exploratory",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md",
+        "redirect_url": "https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user",
+        "redirect_document_id": true
       }
   ] 
 }
