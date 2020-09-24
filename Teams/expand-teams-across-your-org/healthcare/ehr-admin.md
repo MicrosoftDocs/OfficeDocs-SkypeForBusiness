@@ -59,7 +59,7 @@ Before you can set up the Teams and EHR collaboration, you must have:
 
 ### Create mapping
 
-The process to configure your healthcare organization to be able to launch virtual visits with Microsoft Teams starts by launching the EHR Connector that can also be found in the [Epic-Microsoft Teams Telehealth Integration Guide in AppOrchard marketplace](https://apporchard.epic.com/Gallery?id=6153). The Microsoft 365 admin and Epic admin for your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization
+To configure your healthcare organization to be able to launch virtual visits with Microsoft Teams, start by launching the EHR Connector that can also be found in the [Epic-Microsoft Teams Telehealth Integration Guide in AppOrchard marketplace](https://apporchard.epic.com/Gallery?id=6153). The Microsoft 365 admin and Epic admin for your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization
 
 ### Map Epic organization
 
@@ -121,7 +121,7 @@ Key features of the patient experience includes:
 
 - Virtual visits are supported in a browser. For a list of supported software and browsers, see the following link [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
-- Patients will be placed in a lobby until the healthcare provider joins the appointment and allow them access to the virtual visit.
+- Patients will be placed in a lobby until the healthcare provider joins the appointment and allows them access to the virtual visit.
 
 - Testing of the video and microphone is allowed before joining the virtual visit.
 
