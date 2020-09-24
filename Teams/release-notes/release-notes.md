@@ -38,11 +38,11 @@ Inline message translation is a Microsoft Teams feature that lets users translat
 
 ### Group chat size increase
 
-We added the ability to now have 250 participants in a group chat.
+We added the ability to now have 250 participants in a group chat. [Learn more](../limits-specifications-teams.md)
 
 ### Manage the praise app
 
-The praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
+The praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
