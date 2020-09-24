@@ -22,9 +22,7 @@ appliesto:
 
 # Walkie Talkie app in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available in Public Preview on Android. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other using push-to-talk, one at a time.
+The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is now available on Android. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other using push-to-talk, one at a time.
 
 With Walkie Talkie in Teams, firstline workers can now securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
@@ -32,7 +30,7 @@ With Walkie Talkie in Teams, firstline workers can now securely communicate with
 
 ### Deploying Walkie Talkie
 
-During the Public Preview, Walkie Talkie is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/).
+Currently, Walkie Talkie is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/).
 
 Once enabled, Walkie Talkie will become available on the Android app within 48 hours.
 
@@ -54,7 +52,11 @@ The Walkie Talkie app should now appear on the Pinned Apps list, and be availabl
 
 Walkie Talkie in Teams requires Internet connectivity and below the network conditions are required for optimal experience.
 
-Latency (RTT) < 300ms | Jitter < 30ms | Packet Loss < 1%
+|Metric | Required |
+|---|---|
+|Latency (RTT) | < 300ms |
+|Jitter |< 30ms |
+|Packet Loss |< 1% |
 
 As noted above, the quality of real-time media over an IP network is greatly impacted by the quality of the network connectivity, but especially by the amount of:
 
