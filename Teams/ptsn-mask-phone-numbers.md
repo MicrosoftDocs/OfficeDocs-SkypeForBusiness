@@ -22,44 +22,43 @@ description: Learn how to mask phone numbers in Microsoft Teams meetings
 
 # Mask phone numbers in Microsoft Teams meetings
 
-During a Microsoft Teams meeting or phone call, a participants’ phone number can be visible to all meeting attendees. This is helpful so you can gather someone’s contact information, but it poses security and privacy risk. To remediate this issue, Teams provides a feature that masks the attendee’s phone numbers. Teams lets you implement the solution properly on service side and has a tenant setting which allows admins to toggle masking on/off. The admin can choose whether it is enabled for all meeting participants or only for external participants. The solution can work for healthcare, justice, government, enterprise, and EDU.
+During a Microsoft Teams meeting or phone call, a participants’ phone number can be visible to all meeting attendees. Seeing phone numbers is helpful so you can gather someone’s contact information, but it poses security and privacy risks. To remediate this issue, Teams provides a feature that masks the attendee’s phone numbers. Teams lets you implement the solution properly on service side and has a tenant setting that allows admins to toggle masking on or off. The admin can choose whether it is enabled for all meeting participants or only for external participants. The solution can work for healthcare, justice, government, enterprise, and EDU.
 
 For added privacy, the phone numbers of participants who dial in to a Teams meeting via audio conferencing are fully displayed to the internal participants and are masked from the participants outside of your organization. This is the default for all organizations.
 
-(here it would be good to provide an image of the actual masking, I'll send it to you)
+(ADD IMAGE FROM ANAhere it would be good to provide an image of the actual masking, I'll send it to you)
 
 Admins have the ability to choose how the audio conferencing participants' phone numbers appear in the meetings organized in their tenant based on their specific industry use cases. They can choose from 3 options:
-A - phone numbers are masked only from external participants (i.e. the participants belonging to the meeting organizer's tenant still see the full phone number)
-B - phone numbers are masked from everyone in the meeting except the organizer
-C - phone numbers are unmasked (i.e. visible to everyone in the meeting).
+
+- phone numbers are masked only from external participants. The participants belonging to the meeting organizer's tenant still see the full phone number.
+- phone numbers are masked from everyone in the meeting except the organizer.
+- phone numbers are unmasked, which makes them visible to everyone in the meeting.
 
 This setting is applied to all the surfaces in the meeting where phone numbers are exposed.
 
-## Enable masking for specific participants 
+## Enable masking for specific participants in the admin console
 
-(example article is this one - https://review.docs.microsoft.com/en-us/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams?branch=v-cichur-ptsn-mask-numbers)
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-Text for method 1
+1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-In the left navigation, go to Meetings > Conference Bridges.
-	
-At the top of the Conference Bridges page, click Bridge settings.
-	
-Choose an option under Mask phone numbers.
-	
-Click Save.
+2. At the top of the Conference Bridges page, select **Bridge settings**.
 
-Image for method 1
+3. Choose an option under **Mask phone numbers**.
+
+4. Select **Save**.
+
+IMAGE for method 1
 
 The image you currently have in the article is some old mock. I will provide you an image when the feature is implemented in MoPo.
 
-## Using Microsoft PowerShell
+## Enable masking for specific participants using Microsoft PowerShell
 
-To change the PSTN masking setting, set the MaskPstnNumbersType parameter of the Set-CsOnlineDialInConferencingTenantSettings cmdlet to one of the available options. 
+To change the PSTN masking setting, set the MaskPstnNumbersType parameter of the Set-CsOnlineDialInConferencingTenantSettings cmdlet to one of the available options.
 
 To mask phone numbers only from external participants, run the following command:
 
-```PowerShell 
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -MaskPstnNumbersType "MaskedForExternalUsers"
 ```
 
