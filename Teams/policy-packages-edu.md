@@ -66,7 +66,7 @@ By default, every new user (student or educator) will be assigned the Global (Or
 
 1. Edit the Global (Org-wide default) policy definitions for each capability area with values that are appropriate for your students.
 
-1. Assign the Global (Org-wide default) policy definitions for each capability area to your students.
+1. The Global (Org-wide default) policy definitions will be applied to your students as long as they have no other policy definitions assigned.
 
 
 To create or edit policy definitions, go to the policy capability area you want to work in (for example, Messaging policies). Select **Add** to create a new custom policy definition. To change an existing policy definition, select **Edit**.
