@@ -21,13 +21,13 @@ appliesto:
 # Use OneDrive for Business and SharePoint or Stream for meeting recordings
 
 > [!Note]
-> ​​The change from using Microsoft Stream to OneDrive for Business and SharePoint for meeting recordings will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+> ​​The change from using Microsoft Stream to OneDrive for Business and SharePoint for meeting recordings will be a phased approach. At launch, tenant admins can choose this new workflow option today and will start seeing recordings auto-upload to OneDrive for Business and SharePoint in October 2020. In November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
-Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits:
+Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits.
 
 The benefits of using OneDrive for Business and SharePoint for storing recordings include:
 
-- Retention policies for Teams meeting recording (TMR) (S+C E5 auto-retention labels)
+- Retention policies for Teams meeting recording (TMR) (S+C E5 autoretention labels)
 - Benefit from OneDrive for Business and SharePoint information governance
 - Easy to set permissions and sharing
 - Share recordings with guests (external users) with explicit share only
@@ -40,7 +40,7 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - Bring your own key (BYOK) support
 - Improved Transcript quality and speaker attribution
 
-There are a some limitations to consider:
+There are some limitations to consider:
 
 - There will be English-only closed captions and transcripts​.
 - You won't be able to search transcripts or their content​.
@@ -48,17 +48,21 @@ There are a some limitations to consider:
 - You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.
 - You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
 
+Watch "Meeting Recording" for more information.
+
+> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
+
 ## Set up the meeting recording option for OneDrive for Business and SharePoint
 
-1. Install the Skype For Business Online Powershell admin console.
+1. Install the Skype For Business Online PowerShell admin console.
 
-    a. Download [Sype for Business Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
+    a. Download [Skype for Business Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
 
     b. Follow the prompts to install it.
 
     c. Restart your machine.
 
-2. Launch Powershell as an admin
+2. Launch PowerShell as an admin
 
 3. Import the SkypeOnline Connector and log in as a Teams admin.
 
@@ -76,7 +80,7 @@ There are a some limitations to consider:
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
-Even if a policy says it’s already set to **Stream**, it might not be set. If it's set to nothing, then the default is Stream. If you want to opt-out you **must** reset the policy to **Stream** to ensure that Stream is the default.
+Even if a policy says it’s already set to **Stream**, it might not be set. If it's set to nothing, then the default is Stream. If you want to opt-out, you **must** reset the policy to **Stream** to ensure that Stream is the default.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -86,7 +90,7 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 **Where will the meeting recording be stored?**
 
-- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
+- For non-Channel meetings, the recording is stored in a folder named. Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
 
   <i>recorder's OneDrive for Business</i>/**Recordings**
 
@@ -104,7 +108,7 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 Customers opting in to this preview will not have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in October 2020.
 
-Closed captions will be available on Teams Meeting Recordings for customers who've opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
+Closed captions will be available on Teams Meeting Recordings for customers who have opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
 
 Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
 
