@@ -38,7 +38,7 @@ Users can now manage their notifications settings in a more simplified manner wi
 
 ### Teams integration with Android contacts
 
-Call using Teams, directly through your Android Phonebook.
+Call using Teams directly through your Android Phonebook.
 
 ## September 19, 2020
 
@@ -51,7 +51,7 @@ In Microsoft Teams, users can share content with other Teams users within and ou
 
 ### New third-party video provider Riverbed
 
-Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. Riverbed is a new third-party provider.[Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)
+Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. Riverbed is a new third-party provider. [Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)
 
 ## September 3, 2020
 
