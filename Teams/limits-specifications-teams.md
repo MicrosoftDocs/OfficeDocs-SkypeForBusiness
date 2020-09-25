@@ -89,7 +89,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses.
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
+
+
 
 ## Channel names
 
