@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 Groups and Microsoft Teams
-ms.reviewer: Kyle Blevins
-author: SerdarSoysal
-ms.author: serdars
+ms.reviewer: kblevins
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
@@ -20,8 +20,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-Microsoft 365 Groups and Microsoft Teams
-=====================================
+# Microsoft 365 Groups and Microsoft Teams
 
 > [!Tip]
 > Watch the following session to learn how Teams interacts with Azure Active Directory (Azure AD), Microsoft 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
