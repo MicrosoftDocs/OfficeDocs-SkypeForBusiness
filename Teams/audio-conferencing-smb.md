@@ -67,13 +67,13 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 
 You'll need a phone number (also called a service number) for your conferencing bridge so that it can be used in meeting invitations. You can use a **shared number** or a **dedicated number**. Both types of numbers can be used by any caller to join a meeting.
 
-### Shared numbers
+### Use a shared number
 
 A shared number is a number that's shared across all organizations. Toll numbers (where long-distance charges are applied) are automatically assigned as shared numbers when you set up Audio Conferencing. The number that's assigned as the default phone number of your conferencing bridge is a number from your country or region.
 
 To find the default number that's assigned to your conferencing bridge, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Conference bridges**, and then find the number for the location that's nearest to you.
 
-### Dedicated numbers
+### Get a dedicated number
 
 A dedicated number is a number that's available only to your users. You can get a dedicated toll number or toll-free number, and then assign it to your conferencing bridge.
 
