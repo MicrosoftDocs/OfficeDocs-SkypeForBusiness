@@ -22,6 +22,37 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## September 30, 2020
+
+### Masking phone numbers
+
+We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer) and from external people only, or admins can disable masking. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting. [Learn more](https://docs.microsoft.com/MicrosoftTeams/ptsn-mask-phone-numbers?branch=v-cichur-ptsn-mask-numbers)
+
+## September 27, 2020
+
+### Simplified notification setting
+
+Users can now manage their notifications settings in a more simplified manner with enhanced functionalities.
+
+## September 24, 2020
+
+### Teams integration with Android contacts
+
+Call using Teams, directly through your Android Phonebook.
+
+## September 19, 2020
+
+### Sharing files in MicrosoftTeams
+
+In Microsoft Teams, users can share content with other Teams users within and outside their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well. [Learn more](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)
+
+
+## September 16, 2020
+
+### New third-party video provider Riverbed
+
+Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. Riverbed is a new third-party provider.[Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)
+
 ## September 3, 2020
 
 ### Custom apps store in Microsoft Teams
@@ -42,7 +73,7 @@ We added the ability to now have 250 participants in a group chat. [Learn more](
 
 ### Manage the praise app
 
-The praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
+The praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers. [Learn more](../manage-praise-app.md).
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
@@ -56,7 +87,7 @@ With this feature, people are automatically assigned tags that match their sched
 
 ### Cortana voice skills in Teams
 
-Cortana voice skills in Teams mobile app help users perform meeting, communication and collaboration tasks simply using spoken natural language. Users can speak to Cortana by clicking on the microphone button in Teams app and make requests like “Call Megan” or “Send a message to my next meeting” if they need to connect with someone while juggling household chores or walking the dog or generally on the go. Users can join meetings simply by saying “Join my next meeting” or check their calendar by asking “what do I have this morning”. Once in a meeting or a call, they can invoke Cortana from the overflow menu in the meeting stage and perform typical in-meeting tasks like adding people by name or number (“Add Megan to the call”), deck presentation (“present the quarterly review deck”) or navigating slides (“Go to the appendix slide”). Other things that the feature supports are finding and sharing files, search, and generally navigating within the Teams app (“Open my chat with John, Go to my unread activity, Go to my mentions etc.).
+Cortana voice skills in Teams mobile app help users perform meeting, communication, and collaboration tasks simply using spoken natural language. Users can speak to Cortana by clicking on the microphone button in Teams app and make requests like “Call Megan” or “Send a message to my next meeting” if they need to connect with someone while juggling household chores or walking the dog or generally on the go. Users can join meetings simply by saying “Join my next meeting” or check their calendar by asking “what do I have this morning”. Once in a meeting or a call, they can invoke Cortana from the overflow menu in the meeting stage and perform typical in-meeting tasks like adding people by name or number (“Add Megan to the call”), deck presentation (“present the quarterly review deck”) or navigating slides (“Go to the appendix slide”). Other things that the feature supports are finding and sharing files, search, and navigating within the Teams app (“Open my chat with John, Go to my unread activity, Go to my mentions etc.).
 
 Cortana in Teams meets the same enterprise-level privacy, security, and compliance promises for Cortana enterprise services, as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
 
@@ -68,7 +99,7 @@ Users with this role can manage Teams certified devices from the Teams admin cen
 
 ### Lists app in Teams
 
-Teams users can now directly manage, create and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items.
+Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items.
 
 ## August 6, 2020
 
@@ -88,7 +119,7 @@ Developers can use the Teams App Submission API to submit custom apps directly t
 
 ## July 31, 2020
 
-### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
+### Admins can configure shift-based presence (On shift, Off shift) for their Firstline Workers
 
 Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
 
@@ -96,7 +127,11 @@ Admins can configure their firstline workers to have shift-based presence states
 
 ### Enhanced Manageability using Device Tagging functionality
 
-As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](/../../manage-device-tags.md).
+As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Learn more](/../../manage-device-tags.md).
+
+### View-only in meetings
+
+View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
 
 ## July 28, 2020
 
@@ -158,7 +193,7 @@ You choose which apps are installed by default for users when they start Teams. 
 
 ### Screen sharing on behalf of others
 
-Many IT Admins have complained that they cannot have their employees screen share from chat when they disable the AllowPrivateCalling policy. This feature work has decoupled the ability to start a screenshare from chat from the AllowPrivateCalling policy, but it still blocks users from adding audio/video to the screenshare session if their AllowPrivateCalling policy is disabled.
+Many IT Admins have complained that they can't have their employees screen share from chat when they disable the AllowPrivateCalling policy. This feature work has decoupled the ability to start a screens hare from chat from the AllowPrivateCalling policy, but it still blocks users from adding audio/video to the screen share session if their AllowPrivateCalling policy is disabled.
 
 ## June 29, 2020
 
@@ -174,13 +209,13 @@ We added a new filter option in the command bar so you can set specific paramete
 
 ### Users widgets
 
-We added a new User summary widget that is available when you are adding teams and channels.
+We added a new User summary widget that's available when you're adding teams and channels.
 
 ## June 21, 2020
 
-### Sign-in restrictions for Android and iOS users
+### Sign in restrictions for Android and iOS users
 
-If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies. [Learn more](../sign-in-teams.md).
+If user isn't signed in to their Microsoft 365 account anywhere else, they'll be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign-in policies. [Learn more](../sign-in-teams.md).
 
 ## June 15, 2020
 
