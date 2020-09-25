@@ -208,7 +208,7 @@
 
 
 ### [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
-### [Set up Audio Conferencing for small and medium businesses](set-up-audio-conferencing-in-teams.md)
+### [Set up Audio Conferencing for small and medium businesses](audio-conferencing-smb.md)
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### Manage your audio conferencing bridge
