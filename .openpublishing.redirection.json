@@ -1965,6 +1965,11 @@
         "source_path": "Teams/top-level-breadcrumb-redirect.md",
         "redirect_url": "https://go.microsoft.com/fwlink/?linkid=858815",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbHybrid/hybrid/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity",
+        "redirect_document_id": true
       }
   ] 
 }
