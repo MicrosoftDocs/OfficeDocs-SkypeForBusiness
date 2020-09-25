@@ -76,3 +76,5 @@ Admins can manage and keep all your Teams devices up-to-date using the Microsoft
 [Phones for Teams](phones-for-teams.md)
 
 [IP Phones certified for Microsoft Teams](teams-ip-phones.md)
+
+[Cortana voice assistance in Teams](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)
