@@ -27,9 +27,9 @@ Teams templates allow you to quickly and easily create teams by providing a pred
 
 Teams templates have pre-built definitions of team structures designed around financial needs. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
 
-In this article, we will introduce each of the Teams templates and how we recommend using them.
+In this article, we introduce each of the Teams templates and recommend how to use them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. We assume that you already have deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
 
 To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -62,9 +62,9 @@ Manage tasks, share documents, conduct project meetings and document risks and d
 
 ## Manage an event
 
-Manage tasks, documents and collaborate on everything you need to deliver a compelling event. Invite guests users to have secure collaboration inside and outside of your company.
+Manage tasks, documents, and collaborate on everything you need to deliver a compelling event. Invite guests users to have secure collaboration inside and outside of your company.
 
-You may not have access to certain apps based on your app permission policy.
+You might not have access to certain apps based on your app permission policy.
 
 | Base template type | baseTemplateId| Properties that come with this base template |
 | ------------------ |--|----------------------------------------------------- |

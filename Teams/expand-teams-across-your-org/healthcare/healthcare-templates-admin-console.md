@@ -26,11 +26,11 @@ Microsoft Teams templates allow you to quickly and easily create teams by provid
 
 For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to best leverage Teams effectively. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your Healthcare organization.
 
-We currently offer two first-party healthcare templates that you can leverage for a variety of situations. To learn more about team templates in general, please see [Get started with Teams templates in the admin console](../../get-started-with-teams-templates-in-the-admin-console.md).
+We currently offer two first-party healthcare templates that you can leverage for a variety of situations. To learn more about team templates in general, see [Get started with Teams templates in the admin console](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Collaborate on patient care
 
- Streamline healthcare communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management, as well as the operational needs of a ward.
+ Streamline healthcare communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management and operational needs of a ward.
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |---|----------------------------------------------------- |
@@ -39,7 +39,7 @@ We currently offer two first-party healthcare templates that you can leverage fo
 
 ## Hospital
 
-Streamline communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of base channels for hospital operations, and can be self extended to include specialties, ad-hoc.
+Streamline communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of base channels for hospital operations, and can be self-extended to include specialties, ad-hoc.
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |

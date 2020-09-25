@@ -20,13 +20,13 @@ description: Use Microsoft Teams templates to quickly and easily create teams by
 ms.custom: seo-marvel-mar2020
 ---
 
-# Get started with Teams templates for Healthcare organizations
+# Get started with Teams templates for Healthcare organizations using Microsoft Graph
 
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to best leverage Teams effectively. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your Healthcare organization.
+For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to effectively use Teams. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your Healthcare organization.
 
-We currently offer two first party healthcare templates that you can leverage for a variety of situations. To learn more about team templates in general, please see [Get started with Teams templates](../../get-started-with-teams-templates.md).
+We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with Teams templates](../../get-started-with-teams-templates.md).
 
 ## Ward template
 
@@ -50,7 +50,7 @@ The hospital template is meant for communication and collaboration between multi
 
 \* Auto-favorited 
 
-## How to use first party templates
+## How to use first-party templates
 
 To use these templates, simply change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
@@ -164,3 +164,5 @@ To use these templates, simply change the 'template@odata.bind' property in the 
 [Get started with Teams templates](../../get-started-with-teams-templates.md)
 
 [Get started with Teams for Healthcare organizations](teams-in-hc.md)
+
+[Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)

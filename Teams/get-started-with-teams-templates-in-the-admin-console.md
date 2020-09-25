@@ -31,10 +31,7 @@ Teams templates are pre-built definitions of a team's structure designed around 
 
 This article describes the properties that can be defined in templates, what base template types are, and how you can use a few samples requests to create a team from a template.
 
-This article is for you if you're:
-
-- Responsible for planning, deploying, and managing multiple teams across your organization<br>
-- A developer wanting to programmatically create a team with predefined channels and apps
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization
 
 ## Teams template capabilities
 
@@ -56,7 +53,7 @@ Most properties in a team are included and supported by templates. But there are
 
 ## What are base template types
 
-Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that are available in the apps store.
+Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the apps store.
 
 Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. Some base template types contain properties that can't be overridden.
 
