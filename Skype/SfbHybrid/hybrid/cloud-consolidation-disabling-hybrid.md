@@ -35,6 +35,8 @@ After you have moved all users from on-premises to the cloud, you can decommissi
 
 These steps should be done together as a unit. Details are provided below. In addition, guidelines are provided for managing phone numbers for migrated users once the on-premises deployment is disconnected.
 
+Once these steps are complete, the on-premises Skype for Business servers are no longer used, and these servers can be re-imaged.
+
 > [!Important] 
 >You should continue to let the msRTCSIP attributes in Active Directory sync via Azure AD Connect into Azure AD.  Do not clear any of these attributes unless directed to by Support.  Do not run Disable-CsUser in the on-premises environment. If you need to modify a user’s SIP address, do this in your on-premises Active Directory and let this change sync into Azure AD via Azure AD Connect as described below. Similarly, if you need to change a telephone number and the user’s LineURI is already defined on-premises, you should modify this in the on-premises Active Directory.
 >Clearing the on-premises msRTCSIP attributes after you have migrated from on-premises could result in loss of service for users!
