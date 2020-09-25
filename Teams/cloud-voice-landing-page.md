@@ -44,16 +44,13 @@ However, your situation might be more complex. For example, you might have offic
 
 ## What do you need to read?
 
-**Some of the sections in this article pertain to all organizations.** For example, everyone should read about Phone System and understand the options for connecting to the Public Switched Telephone Network (PSTN). 
+**Required for all.** Some of the sections in this article pertain to all organizations. For example, everyone should read about Phone System and understand the options for connecting to the Public Switched Telephone Network (PSTN). 
 
-**Required for all**
 - [**Phone System**](#phone-system) -  Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams.
 
 - [**Public Switched Telephone Network (PSTN) connectivity options**](#public-switched-telephone-network-(pstn)-connectivity-options) - A choice between using Microsoft as your telephony carrier or connecting your own telephony carrier to Microsoft Teams by using Direct Routing. Combined with Phone System, PSTN connectivity options enable your users to make phone calls all over the world.
 
-**Some of the sections in this article are pertinent depending on your existing deployment and requirements.** For example, Location-Based Routing is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
-
-**Depending on your requirements**
+****Depending on your requirements.** Some of the sections in this article are pertinent depending on your existing deployment and requirements. For example, Location-Based Routing is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
 
 - [**Phone numbers from Microsoft**](#phone-numbers-from-microsoft) - How to get and manage phone numbers from Microsoft, and how to transfer existing numbers to Microsoft. Read this if you need to obtain phone numbers for Microsoft Calling Plan, transfer existing numbers, obtain service numbers, and so on.
 
