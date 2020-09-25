@@ -26,10 +26,23 @@ appliesto:
 
 This article helps you decide which Microsoft voice solution is right for your organization. Once you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution. 
 
-You might need the simplest solution--Phone System with Calling Plan--Microsoft's all-in-the-cloud solution for Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN). Or, you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations.
+You might want the simplest solution--Phone System with Calling Plan. This is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram:
 
-Some articles are required reading for all. Some articles are optional, depending on your existing deployment and requirements. For example, everyone should read about Phone System and understand options for connecting to the Public Switched Telephone Network (PSTN). But Location-Based Routing is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
+![Diagram 1 shows Phone System with Calling Plan](media/msft-telephony-solutions-1.png)
 
+If you answer yes to the following, then Phone System with Calling Plans is the right solution for you:
+
+- Calling Plan is available in your region.
+- You do not need to retain your current PSTN carrier.
+- You want to use Microsoft-managed access to the PSTN.
+
+However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions: 
+
+- Phone System with Calling Plan
+- Phone System with your own carrier with Direct Routing, which enables you to connect an on-premises Session Border Controller (SBC) to Phone System
+- A combination solution that uses both Phone System with Calling Plan and Phone System with Direct Routing
+
+Some of the sections in this article pertain to all organizations. For example, everyone should read about Phone System and understand options for connecting to the Public Switched Telephone Network (PSTN). But some of the sections in this article are optional, depending on your existing deployment and requirements. For example, Location-Based Routing is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
 
 **Required for all**
 - [**Phone System**](#phone-system) -  Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams.
