@@ -1980,6 +1980,11 @@
         "source_path": "Skype/SfbOnline/legal-and-regulatory/index.md",
         "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/legal-and-regulatory",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online",
+        "redirect_document_id": true
       }
   ] 
 }
