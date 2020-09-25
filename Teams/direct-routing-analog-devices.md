@@ -73,7 +73,7 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 This command creates a new online voice route with the identity “analog-interop” for the number range +1425 XXX XX XX.  The voice route is applicable to a list of online gateways sbc.contoso.com and associates the route with online PSTN usage “Interop”. A voice route includes a regular expression that identifies which phone numbers will be routed through a given voice route:
 
 ```
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## Step 4: Assign the voice route to the PSTN usage:
