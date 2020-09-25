@@ -24,13 +24,13 @@ appliesto:
 
 # Voice - Phone System and PSTN connectivity solutions with Teams
 
-This article helps you decide which Microsoft voice solution is right for your organization. Once you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution. 
+This article helps you decide which Microsoft voice solution is right for your organization. After you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution. 
 
-You might want the simplest solution--Phone System with Calling Plan. This is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram:
+You might want the simplest solution--Phone System with Calling Plan. This is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram. With this solution, Microsoft is your PSTN carrier.
 
 ![Diagram 1 shows Phone System with Calling Plan](media/msft-telephony-solutions-1.png)
 
-If you answer yes to the following, then Phone System with Calling Plans is the right solution for you:
+If you answer yes to the following, then Phone System with Calling Plan is the right solution for you:
 
 - Calling Plan is available in your region.
 - You do not need to retain your current PSTN carrier.
@@ -42,26 +42,30 @@ However, your situation might be more complex. For example, you might have offic
 - Phone System with your own carrier with Direct Routing, which enables you to connect an on-premises Session Border Controller (SBC) to Phone System
 - A combination solution that uses both Phone System with Calling Plan and Phone System with Direct Routing
 
-Some of the sections in this article pertain to all organizations. For example, everyone should read about Phone System and understand options for connecting to the Public Switched Telephone Network (PSTN). But some of the sections in this article are optional, depending on your existing deployment and requirements. For example, Location-Based Routing is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
+## What do you need to read?
+
+**Some of the sections in this article pertain to all organizations.** For example, everyone should read about Phone System and understand options for connecting to the Public Switched Telephone Network (PSTN). 
 
 **Required for all**
 - [**Phone System**](#phone-system) -  Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams.
 
 - [**Public Switched Telephone Network (PSTN) connectivity options**](#public-switched-telephone-network-(pstn)-connectivity-options) - A choice between using Microsoft as your telephony carrier or connecting your own telephony carrier to Microsoft Teams by using Direct Routing. Combined with Phone System, PSTN connectivity options enable your users to make phone calls all over the world.
 
+**Some of the sections in this article are pertinent depending on your existing deployment and requirements.** For example, Location-Based Routing is only required for Direct Routing customers in geographic locations that do not allow toll bypass.
+
 **Depending on your requirements**
-- [**Phone numbers from Microsoft**](#phone-numbers-from-microsoft) - How to get and manage phone numbers from Microsoft, and how to transfer existing numbers to Microsoft. Read this if you need to obtain phone numbers for Microsoft Calling Plans, transfer existing numbers, obtain service numbers, and so on.
+
+- [**Phone numbers from Microsoft**](#phone-numbers-from-microsoft) - How to get and manage phone numbers from Microsoft, and how to transfer existing numbers to Microsoft. Read this if you need to obtain phone numbers for Microsoft Calling Plan, transfer existing numbers, obtain service numbers, and so on.
 
 - [**Dial plans and call routing**](#dial-plans-and-call-routing) - How to configure and manage dial plans that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. Read this if you need to understand what dial plans are and  whether you need to specify dial plans for your organization.
 
-- [**Emergency calling**](#emergency-calling) - How to manage and configure emergency calling--depending on your PSTN connectivity option. Read this section if you are using Microsoft Calling Plans or Direct Routing and need to understand how to manage emergency calling for your organization.
+- [**Emergency calling**](#emergency-calling) - How to manage and configure emergency calling--depending on your PSTN connectivity option. Read this section if you are using Microsoft Calling Plan or Direct Routing and need to understand how to manage emergency calling for your organization.
 
 - [**Location-Based Routing for Direct Routing**](#location-based-routing-for-direct-routing) - How to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. Read this section if your organization is using Direct Routing at a location that does not allow toll bypass.
 
-- [**Network topology for cloud voice features**](#network-topology-for-cloud-voice-features) - If your organization is deploying Location-Based Routing for Direct Routing or dynamic emergency calling, you must configure network settings for use with these features in Microsoft Teams.  Read this section if you are implementing Location-Based Routing for Direct Routing, or if you are implementing dynamic emergency calling with Calling Plans or Direct Routing.
+- [**Network topology for cloud voice features**](#network-topology-for-cloud-voice-features) - If your organization is deploying Location-Based Routing for Direct Routing or dynamic emergency calling, you must configure network settings for use with these features in Microsoft Teams. Read this section if you are implementing Location-Based Routing for Direct Routing, or if you are implementing dynamic emergency calling with Calling Plans or Direct Routing.
 
 - [**Migrate your existing voice solution**](#migrating-your-existing-voice-solution-to-teams) - What you need to think about when migrating your voice solution to Teams.  Read this section if you are migrating from an existing voice solution to Teams.
-
 
 
 > [!Important]
