@@ -1960,6 +1960,11 @@
         "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md",
         "redirect_url": "https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/top-level-breadcrumb-redirect.md",
+        "redirect_url": "https://go.microsoft.com/fwlink/?linkid=858815",
+        "redirect_document_id": true
       }
   ] 
 }
