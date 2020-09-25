@@ -39,12 +39,12 @@ If you answer yes to the following, then Phone System with Calling Plan is the r
 However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions: 
 
 - Phone System with Calling Plan
-- Phone System with your own carrier with Direct Routing, which enables you to connect an on-premises Session Border Controller (SBC) to Phone System
+- Phone System with your own PSTN carrier with Direct Routing
 - A combination solution that uses both Phone System with Calling Plan and Phone System with Direct Routing
 
 ## What do you need to read?
 
-**Some of the sections in this article pertain to all organizations.** For example, everyone should read about Phone System and understand options for connecting to the Public Switched Telephone Network (PSTN). 
+**Some of the sections in this article pertain to all organizations.** For example, everyone should read about Phone System and understand the options for connecting to the Public Switched Telephone Network (PSTN). 
 
 **Required for all**
 - [**Phone System**](#phone-system) -  Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams.
@@ -140,7 +140,7 @@ Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution fo
 
 This option connects the Microsoft Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With Calling Plan, Microsoft is your PSTN carrier as shown in the following diagram:
 
-![Diagram 1 shows Phone System with Calling Plan](media/msft-telephony-solutions-1.png)
+![Diagram 1 shows Phone System with Calling Plan](media/msft-voice-solutions-1.png)
 
 If you answer yes to the following, then Phone System with Calling Plans is the right solution for you:
 
@@ -171,7 +171,7 @@ For more information about Calling Plans, see the following articles:
 
 This option connects Microsoft Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
 
-![Diagram 2 shows Phone System with Direct Routing](media/msft-telephony-solutions-2.png)
+![Diagram 2 shows Phone System with Direct Routing](media/msft-voice-solutions-2.png)
 
 If you answer yes to the following questions, then Phone System with Direct Routing is the right solution for you:
 
