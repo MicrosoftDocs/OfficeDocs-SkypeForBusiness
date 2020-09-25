@@ -22,15 +22,15 @@ description: Learn how to mask phone numbers in Microsoft Teams meetings
 
 # Mask phone numbers in Microsoft Teams meetings
 
-During a Microsoft Teams meeting or phone call, a participants’ phone number can be visible to all meeting attendees. Seeing phone numbers is helpful so you can gather someone’s contact information, but it poses security and privacy risks. To remediate this issue, Teams provides a feature that masks the attendee’s phone numbers. Teams lets you implement the solution properly on service side and has a tenant setting that allows admins to toggle masking on or off. The admin can choose whether it is enabled for all meeting participants or only for external participants. The solution can work for healthcare, justice, government, enterprise, and EDU.
+During a Microsoft Teams meeting or phone call, a participants’ phone number can be visible to all meeting attendees. Seeing phone numbers is helpful because you can gather someone’s contact information. However, seeing a participant's phone number can be a security and privacy risk. To remediate this issue, Teams provides a feature that masks attendees' phone numbers. Teams lets you implement the solution properly on service side. Also, Teams has a tenant setting that allows admins to toggle masking on or off. The admin can choose whether masking is enabled for all meeting participants or only for external participants. The solution can work for healthcare, justice, government, enterprise, and EDU.
 
-For added privacy, the phone numbers of participants who dial in to a Teams meeting via audio conferencing are fully displayed to the internal participants and are masked from the participants outside of your organization. This is the default for all organizations.
+For added privacy, the phone numbers of participants who dial in to a Teams meeting using audio conferencing are fully displayed to the internal participants and masked from the participants outside of your organization. This setting is the default for all organizations.
 
-(ADD IMAGE FROM ANAhere it would be good to provide an image of the actual masking, I'll send it to you)
+(ADD IMAGE FROM ANA here it would be good to provide an image of the actual masking, I'll send it to you)
 
 Admins have the ability to choose how the audio conferencing participants' phone numbers appear in the meetings organized in their tenant based on their specific industry use cases. They can choose from 3 options:
 
-- phone numbers are masked only from external participants. The participants belonging to the meeting organizer's tenant still see the full phone number.
+- phone numbers are masked only from external participants. The participants who belong to the meeting organizer's tenant still see the full phone number.
 - phone numbers are masked from everyone in the meeting except the organizer.
 - phone numbers are unmasked, which makes them visible to everyone in the meeting.
 
@@ -50,7 +50,7 @@ This setting is applied to all the surfaces in the meeting where phone numbers a
 
 IMAGE for method 1
 
-The image you currently have in the article is some old mock. I will provide you an image when the feature is implemented in MoPo.
+GET IMAGE FROM ANA. The image you currently have in the article is some old mock. I will provide you an image when the feature is implemented in MoPo.
 
 ## Enable masking for specific participants using Microsoft PowerShell
 
