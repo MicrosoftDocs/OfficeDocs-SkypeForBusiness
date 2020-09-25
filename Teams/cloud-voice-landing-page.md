@@ -28,7 +28,7 @@ This article helps you decide which Microsoft voice solution is right for your o
 
 You might want the simplest solution--Phone System with Calling Plan. This is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram. With this solution, Microsoft is your PSTN carrier.
 
-![Diagram 1 shows Phone System with Calling Plan](media/msft-telephony-solutions-1.png)
+![Diagram 1 shows Phone System with Calling Plan](media/msft-voice-solutions-1.png)
 
 If you answer yes to the following, then Phone System with Calling Plan is the right solution for you:
 
