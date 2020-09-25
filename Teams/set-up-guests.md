@@ -15,9 +15,9 @@ description: Learn about how to turn on or turn off the guest access feature in 
 ms.custom: 
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto: 
   - Microsoft Teams
 ---
