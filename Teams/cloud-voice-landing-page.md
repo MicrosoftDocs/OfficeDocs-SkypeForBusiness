@@ -75,6 +75,8 @@ Phone System is Microsoft's technology for enabling call control and Private Bra
 
 Phone System works with Teams or Skype for Business clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365 or Office 365. 
 
+Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls.
+
 This article introduces the following Phone System key features and functionality, and the deployment decisions you'll need to consider:
 
 - [Auto attendants and call queues](#auto-attendants-and-call-queues)
