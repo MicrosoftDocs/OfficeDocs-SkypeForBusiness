@@ -39,8 +39,8 @@ For dynamic emergency calling, the following must occur:
 
    - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client. The match is performed in the following order with the first matched result being returned:
        - WAP
-       - Ethernet Switch/Port
-       - Ethernet Switch
+       - Ethernet switch/port
+       - Ethernet switch
        - Subnet
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
@@ -136,7 +136,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 ## Configure Location Information Service
 
-A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and wireless access points (WAPs) are supported. (Support for Ethernet switch/port is pending.)
+A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and wireless access points (WAPs) are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time.
 
 For a client to obtain a location, you must populate the LIS with network identifiers (subnets, WAPs, switches, ports) and emergency locations. You can do this in the Microsoft Teams admin center or by using PowerShell.
 
