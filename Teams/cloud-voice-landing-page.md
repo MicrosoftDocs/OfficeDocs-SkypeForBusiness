@@ -262,9 +262,9 @@ In some countries and regions, it's illegal to bypass the Public Switched Teleph
 - [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md)<br>
   Describes how a fictional multi-national corporation, Contoso, implemented Location-Based Routing for their organization.
 
-## Network topology for cloud voice features
+## Network topology for voice features
 
-If you are deploying cloud voice features such as dynamic emergency calling or Location-Based Routing for Direct Routing, you must configure network settings for use with these features in Microsoft Teams. To learn how to configure network settings for network regions, network sites, network subnets, and trusted IP addresses, see the following articles:
+If you are deploying dynamic emergency calling or Location-Based Routing for Direct Routing, you must configure network settings for use with these features in Microsoft Teams. To learn how to configure network settings for network regions, network sites, network subnets, and trusted IP addresses, see the following articles:
 
 - [Network settings for cloud voice features in Microsoft Teams - Concepts and terminology](cloud-voice-network-settings.md)
 - [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology.md)
