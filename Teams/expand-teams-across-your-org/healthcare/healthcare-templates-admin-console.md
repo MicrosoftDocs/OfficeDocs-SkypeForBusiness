@@ -18,12 +18,9 @@ appliesto:
 ms.reviewer: 
 description: Use Microsoft Teams templates in the admin console to quickly and easily create teams by providing a predefined template of settings, channels, and apps.
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use Teams healthcare templates in the admin console
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 

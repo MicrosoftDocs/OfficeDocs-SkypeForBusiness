@@ -56,6 +56,9 @@ Microsoft Teams lets you create a template from an existing team that can be sav
 
 Your new template is displayed in the **Team templates** list. The template can be used to create a team in Teams.
 
+> [!Note]
+> It can take up to 24 hours for teams users to see a custom template in the gallery.
+
 ## Related articles
 
 - [Get started with team templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
