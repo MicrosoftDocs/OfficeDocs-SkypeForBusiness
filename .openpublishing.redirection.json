@@ -1970,6 +1970,11 @@
         "source_path": "Skype/SfbHybrid/hybrid/index.md",
         "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json&branch",
+        "redirect_document_id": true
       }
   ] 
 }
