@@ -63,7 +63,7 @@ The Common Area Phone license supports:
 |Phone System |    &#x2714; |
 |Audio Conferencing |       &#x2718; &sup1;  |
 |Microsoft Intune |    &#x2714; |
-|Worldwide Availability |       &#x2718; &sup1;  |
+|Worldwide Availability |       &#x2718; &sup2;  |
 |Channel Availability |    EA, EAS, CSP, GCC, EES, Web Direct  |
 |      |         |
 
