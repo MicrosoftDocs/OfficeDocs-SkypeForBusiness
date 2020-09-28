@@ -1,6 +1,6 @@
 ---
 title: "Infrastructure qualified for Lync - IP PBXs and Gateways "
-ms.author: v-mapenn
+ms.author: serdars
 author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
