@@ -1,6 +1,6 @@
 ---
 title: "Phones and Devices for Microsoft Teams"
-ms.author: v-mapenn
+ms.author: serdars
 author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
