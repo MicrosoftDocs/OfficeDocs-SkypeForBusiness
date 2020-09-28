@@ -1,6 +1,6 @@
 ---
 title: "Qualified Lync Attendant Console applications"
-ms.author: v-mapenn
+ms.author: serdars
 author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
