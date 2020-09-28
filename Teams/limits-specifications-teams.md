@@ -106,6 +106,8 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 ## Meetings and calls
 
 > [!IMPORTANT]
+> **Microsoft 365 live event limit increases**
+>
 > In April, 2020, [we announced](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) that temporary default limit increases would be enabled for Microsoft 365 live events to help better support customers, through July 1, 2020, and these limits were extended through October 1, 2020. **Now, we're extending these temporary limit increases through January 1, 2021. After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on for Teams](teams-add-on-licensing/advanced-communications.md).** 
 >
 >Live events hosted in Teams, Stream, and Yammer will continue to temporarily support events for up to 20,000 attendees, 16 hours in length, and 50 events happening simultaneously. Additionally, customers can host a live event in Stream for up to 100,000 attendees when planned though the [Microsoft live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/).
