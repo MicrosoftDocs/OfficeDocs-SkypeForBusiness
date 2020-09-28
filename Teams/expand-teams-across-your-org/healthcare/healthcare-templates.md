@@ -165,4 +165,4 @@ To use these templates, simply change the 'template@odata.bind' property in the 
 
 [Get started with Teams for Healthcare organizations](teams-in-hc.md)
 
-[Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+[Get started with Teams templates in the admin console](../../get-started-with-teams-templates-in-the-admin-console.md)

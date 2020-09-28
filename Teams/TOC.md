@@ -708,12 +708,12 @@
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [Get started with Retail Teams templates in the admin console](get-started-with-retail-teams-templates-in-the-admin-console.md)
+### [Get started with Retail Teams templates in the admin console](../../get-started-with-retail-teams-templates-in-the-admin-console.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Support remote workers (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
-### [Get started with Government Teams templates](government-teams-templates-in-the-admin-console.md)
+### [Get started with Government Teams templates](../../government-teams-templates-in-the-admin-console.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
