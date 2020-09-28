@@ -673,7 +673,7 @@
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Get started with Teams templates for Healthcare organizations in the admin console](healthcare-templates-admin-console.md)
+### [Get started with Teams templates for Healthcare organizations in the admin console](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
