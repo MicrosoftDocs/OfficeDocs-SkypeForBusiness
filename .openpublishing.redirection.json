@@ -1985,6 +1985,11 @@
         "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/index.md",
         "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/archiving/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/archiving/archiving",
+        "redirect_document_id": true
       }
   ] 
 }
