@@ -28,7 +28,7 @@ ms.custom:
 
 # Manage teams policies in Microsoft Teams
 
-As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to discover private teams in search results and in the team gallery and whether users are allowed to create private channels.
+As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private channels.
 
 You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
@@ -61,8 +61,6 @@ You can edit the global policy or any custom policies that you create.
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## Related topics
-
-[Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 
 [Private channels in Teams](private-channels.md)
 
