@@ -137,14 +137,15 @@ You can also choose a combination of options, which enables you to design a solu
 
 ### Phone System with Calling Plan 
 
-As described earlier in this article, Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This is the simplest option that connects Microsoft Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With this option, Microsoft provides Private Branch Exchange (PBX) functionality for your organization and acts as your PSTN carrier.
+As described earlier in this article, Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This is the simplest option that connects Microsoft Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With this option, Microsoft provides Private Branch Exchange (PBX) functionality for your organization and acts as your PSTN carrier, as shown in the following diagram:
+
+![Diagram 1 shows Phone System with Calling Plan](media/msft-voice-solutions-1a.png)
 
 If you answer yes to the following, then Phone System with Calling Plan is the right solution for you:
 
 - Calling Plan is available in your region.
 - You do not need to retain your current PSTN carrier.
 - You want to use Microsoft-managed access to the PSTN.
-- You do not want to manage Session Border Controllers (SBCs) on your own.
 
 With this option: 
 
