@@ -41,7 +41,7 @@ You can edit the global policy or create and assign a custom policy. After you e
 3. Enter a name and description for the policy.
 
     ![Screenshot of teams policy settings](media/teams-policies.png)
-4. Turn on or turn off **Create private channels**: <a name="createchannels"> </a>, depending on whether you want to allow users to create private channels.
+4. Turn on or turn off **Create private channels**<a name="createchannels"> </a>, depending on whether you want to allow users to create private channels.
 
 5. Click **Save**.
 
