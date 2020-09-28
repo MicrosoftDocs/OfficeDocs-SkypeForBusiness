@@ -28,11 +28,11 @@ For added privacy, the phone numbers of participants who dial in to a Teams meet
 
 (ADD IMAGE FROM ANA here it would be good to provide an image of the actual masking, I'll send it to you)
 
-Admins have the ability to choose how the audio conferencing participants' phone numbers appear in the meetings organized in their tenant based on their specific industry use cases. They can choose from 3 options:
+For specific industry use cases, admins have the ability to choose how the audio conferencing participants' phone numbers appear in meetings that are organized in their tenant. The admins can choose from 3 options:
 
-- phone numbers are masked only from external participants. The participants who belong to the meeting organizer's tenant still see the full phone number.
-- phone numbers are masked from everyone in the meeting except the organizer.
-- phone numbers are unmasked, which makes them visible to everyone in the meeting.
+- Phone numbers are masked only from external participants. The participants who belong to the meeting organizer's tenant still see the full phone number.
+- Phone numbers are masked from everyone in the meeting except the organizer.
+- Phone numbers are unmasked, which makes them visible to everyone in the meeting.
 
 This setting is applied to all the surfaces in the meeting where phone numbers are exposed.
 
