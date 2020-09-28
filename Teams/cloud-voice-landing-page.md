@@ -17,12 +17,12 @@ ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
   - seo-marvel-apr2020
 search.appverid: MET150
-description: Learn more about Microsoft voice solutions, and understand the necessary deployment decisions that you'll face.
+description: Learn more about Microsoft voice solutions with Microsoft Phone System and PSTN connectivity options, including Calling Plan and Direct Routing.
 appliesto: 
   - Microsoft Teams
 ---
 
-# Voice - Phone System and PSTN connectivity solutions with Teams
+# Plan your Teams voice solution 
 
 This article helps you decide which Microsoft voice solution is right for your organization. After you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution. 
 
