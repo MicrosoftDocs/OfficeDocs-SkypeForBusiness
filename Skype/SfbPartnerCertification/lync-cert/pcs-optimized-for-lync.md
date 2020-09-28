@@ -1,6 +1,6 @@
 ---
 title: "PCs optimized for Lync"
-ms.author: v-mapenn
+ms.author: serdars
 author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
