@@ -1,6 +1,6 @@
 ---
 title: "Partner qualification for Lync - Meeting room devices and solutions"
-ms.author: v-mapenn
+ms.author: serdars
 author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand

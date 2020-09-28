@@ -1,6 +1,6 @@
 ---
 title: "Session border controllers"
-ms.author: v-mapenn
+ms.author: serdars
 author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
