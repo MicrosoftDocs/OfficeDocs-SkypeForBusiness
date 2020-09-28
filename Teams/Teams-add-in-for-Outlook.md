@@ -171,6 +171,9 @@ If the add-in still does not show, use the following steps to verify the registr
 
 If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. As a workaround, your administrator can add the following string to the EWS Allow List: "*SchedulingService*". 
 
+### Incorrect Meeting Formatting
+
+If you have issues with proper formatting when setting up Microsoft Teams meetings in Outlook and your organization uses the VBA For Office Addin, you may need to enable that addin to ensure that the meeting will format properly. Refer to [View, manage, and install add-ins in Office programs](https://support.microsoft.com/office/view-manage-and-install-add-ins-in-office-programs-16278816-1948-4028-91e5-76dca5380f8d) for the process that best applies to your version of Outlook.
 
 ## Related topics
 
