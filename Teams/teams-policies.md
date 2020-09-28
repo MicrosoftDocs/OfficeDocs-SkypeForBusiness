@@ -41,10 +41,7 @@ You can edit the global policy or create and assign a custom policy. After you e
 3. Enter a name and description for the policy.
 
     ![Screenshot of teams policy settings](media/teams-policies.png)
-4. Choose the settings that you want:
-
-- **Discover private teams** (in private preview):<a name="discoverteams"> </a> Turn on this setting to allow users to discover private teams in search results and in the team gallery.
-- **Create private channels**: <a name="createchannels"> </a>Turn on this setting to allow users to create private channels.
+4. Turn on or turn off **Create private channels**: <a name="createchannels"> </a>, depending on whether you want to allow users to create private channels.
 
 5. Click **Save**.
 
@@ -61,7 +58,5 @@ You can edit the global policy or any custom policies that you create.
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## Related topics
-
-[Private channels in Teams](private-channels.md)
 
 [Assign policies to your users in Teams](assign-policies.md)
