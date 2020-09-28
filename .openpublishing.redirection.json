@@ -1984,7 +1984,7 @@
       {
         "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/index.md",
         "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/index.md",
@@ -2034,7 +2034,7 @@
       {
         "source_path": "Skype/SfbServer/manage/index.md",
         "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/manage",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "Skype/SfbServer/manage/archiving/index.md",
@@ -2179,7 +2179,7 @@
       {
         "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/index.md",
         "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "Skype/SfBServer2019/deploy-1/index.md",
