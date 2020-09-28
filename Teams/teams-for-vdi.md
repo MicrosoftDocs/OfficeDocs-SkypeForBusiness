@@ -408,7 +408,13 @@ For Teams known issues that aren't related to VDI, see [Support Teams in your or
 
 ### Troubleshoot Citrix components
 
-For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+#### Teams crashes or the Teams sign in screen is blank
+
+This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry DWORD value, and set it to 204 (hexadecimal).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+Then, restart VDA. To learn more, see this Citrix support article, [Troubleshooting HDX optimization for Teams](https://support.citrix.com/article/CTX253754).
 
 ## Related topics
 
