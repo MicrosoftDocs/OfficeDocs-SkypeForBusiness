@@ -59,4 +59,6 @@ You can edit the global policy or any custom policies that you create.
 
 ## Related topics
 
+[Private channels in Teams](private-channels.md)
+
 [Assign policies to your users in Teams](assign-policies.md)
