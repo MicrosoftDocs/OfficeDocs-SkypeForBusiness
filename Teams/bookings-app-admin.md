@@ -1,7 +1,7 @@
 ---
 title: "Bookings app and virtual visits in Microsoft Teams"
 author: mattpennathe3rd
-ms.author: v-mapenn
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article 
