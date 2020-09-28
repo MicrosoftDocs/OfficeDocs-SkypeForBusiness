@@ -1,6 +1,6 @@
 ---
 title: "E-911 services for Skype for Business"
-ms.author: v-mapenn
+ms.author: serdars
 author: mattpennathe3rd
 manager: serdars
 ms.reviewer: dougand
