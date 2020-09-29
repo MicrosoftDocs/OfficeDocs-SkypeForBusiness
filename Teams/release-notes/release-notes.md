@@ -26,7 +26,7 @@ These release notes provide information about new admin features for Microsoft T
 
 ### Masking phone numbers
 
-We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer) and from external people only, or admins can disable masking. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting. [Learn more](https://docs.microsoft.com/MicrosoftTeams/ptsn-mask-phone-numbers)
+We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer) and from external people only, or admins can disable masking. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting.
 
 ## September 27, 2020
 
@@ -45,7 +45,6 @@ Call using Teams directly through your Android Phonebook.
 ### Sharing files in MicrosoftTeams
 
 In Microsoft Teams, users can share content with other Teams users within and outside their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well. [Learn more](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)
-
 
 ## September 16, 2020
 
