@@ -25,10 +25,10 @@ Microsoft Teams templates allow you to quickly and easily create teams by provid
 
 For small and medium businesses, templates can be especially powerful, as they help administrators to quickly deploy Teams across their organization. Templates also help orient users and get started with using Teams effectively. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
 
-We currently offer three first-party SMB templates that you can leverage for a variety of situations. All templates will create *Private* Teams. Once you have created the Teams and are ready to roll-out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, please see [Get started with Teams templates](get-started-with-teams-templates.md).
+We currently offer three first-party SMB templates that you can leverage for a variety of situations. All templates will create *Private* Teams. Once you have created the Teams and are ready to roll out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, see [Get started with Teams templates](get-started-with-teams-templates.md).
 
 ## Company-Wide template
-The Company-Wide template is meant for communication and collaboration that are relevant for the entire company. You can use the General channel for company-wide announcements, industry news or executive posts. The Human Resources channel is a great place to consolidate all HR-related activities like job posts, new employee onboarding, training and development. The Fun Stuff channel provides a social platform for all random and fun posts.
+The Company-Wide template is meant for communication and collaboration that are relevant for the entire company. You can use the General channel for company-wide announcements, industry news or executive posts. The Human Resources channel is a great place to consolidate all HR-related activities like job posts, new employee onboarding, training, and development. The Fun Stuff channel provides a social platform for all random and fun posts.
 
 | Base template type  | baseTemplateId | Properties that come with this base template |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
@@ -52,7 +52,7 @@ Content-Type: application/json
 
 ## Executive Team template
 
-The Executive Team template is ideal for creating a team for company executives to communicate and collaborate on company initiatives like annual priorities, fiscal budgets, strategic initiatives, top clients, etc. This template comes with a *Private* channel to invite select users for specific topics.
+The Executive Team template is ideal for creating a team for company executives to communicate and collaborate on company initiatives like annual priorities, fiscal budgets, strategic initiatives, and top clients. This template comes with a *Private* channel to invite select users for specific topics.
 
 | Base template type  | baseTemplateId | Properties that come with this base template |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
@@ -76,7 +76,7 @@ Content-Type: application/json
 
 ## Departmental Team template
 
-The Departmental team template can be used for creating a team for individual departments or for projects. The Finance team template is ideal for all posts, announcements and daily collaboration and communication within the Finance team members (and executive team members as appropriate). The template comes with a *Private* channel to invite select users for specific topics. We also provide the script below for the Finance team which can be used to extend the template to additional departments or specific projects by adding, deleting from or editing to your liking. For example, if you have a *Marketing* department, then the script can be adapted by renaming the team from *Finance* to *Marketing* to create a new Marketing team
+The Departmental team template can be used for creating a team for individual departments or for projects. The Finance team template is ideal for all posts, announcements, and daily collaboration and communication within the Finance team members and executive team members as appropriate. The template comes with a *Private* channel to invite select users for specific topics. We also provide the script below for the Finance team that can be used to extend the template to additional departments or specific projects by adding, deleting from, or editing to your liking. For example, if you have a *Marketing* department, then the script can be adapted by renaming the team from *Finance* to *Marketing* to create a new Marketing team
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
@@ -171,6 +171,7 @@ Content-Type: application/json
 
 ## Related topics
 
+- [Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
 - [Get started with Teams templates](get-started-with-teams-templates.md)
 - [Create team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in preview)
 
