@@ -29,6 +29,9 @@ In the Teams client, the dial pad enables users to access Public Switched Teleph
 - User is homed online and not in Skype for Business on premises
 - User has Teams Calling Policy enabled
 
+> [!NOTE]
+> There is now a restriction that only allows the dial pad to appear if the user is set to Teams only. Teams does not support the usage of enterprise voice (MS Hosted phone Service) on two different applications, such as Skype for Business Online and Teams at the same time.
+
 The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the Get-CsOnlineUser cmdlet. Examples assume $user is either the UPN or sip address of the user.
 
 ## User has an enabled Phone System (“MCOEV”) license
