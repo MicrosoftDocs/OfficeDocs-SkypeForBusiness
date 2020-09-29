@@ -3,7 +3,7 @@ title: Voice in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/23/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
