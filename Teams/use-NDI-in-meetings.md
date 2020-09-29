@@ -21,13 +21,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Use NDI® technology in Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
-
  NewTek NDI® (Network Device Interface) technology is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI® technology enables connectivity over a local intranet, including on a local machine.
 
 NDI® technology has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
 
-Skype previously added NDI®-out functionality to Skype in late 2018. Microsoft Teams leverages this functionality to improve the meeting experience.
+Skype previously added NDI®-out functionality to Skype in late 2018. Microsoft Teams uses this functionality to improve the meeting experience.
 
 NDI® technology is limited to a local network and should only be considered a part of the production workflow, not a broadcast solution.
 
