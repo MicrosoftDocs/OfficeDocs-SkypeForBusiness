@@ -51,7 +51,15 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
-## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+## Work with Teams templates
+### [Use Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+### [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+### [Create a custom Teams template](create-a-team-template.md)
+### [Create a template from an existing team](create-template-from-existing-team.md)
+### [Build a template from an existing template](create-template-from-existing-template.md)
+### [Financial category Teams templates](financial-teams-templates-in-the-admin-console.md)
+### [General category Teams templates](general-teams-templates-in-the-admin-console.md)
+### [Manufacturing category Teams templates](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Get started with Teams templates for Healthcare organizations in the admin console](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Get started with Retail Teams templates in the admin console](retail-teams-templates-in-the-admin-console.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Support remote workers (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [Get started with Government Teams templates](government-teams-templates-in-the-admin-console.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
