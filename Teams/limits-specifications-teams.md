@@ -160,6 +160,8 @@ For more information about live events and a comparison of Teams live events to 
 > - Attendee limit: events can support up to 20,000 attendees
 > - Concurrent events: 50 events can be hosted simultaneously across a tenant
 > - Event duration: event length has been increased to 16 hours per broadcast
+>
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft live events assistance program. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on for Teams](teams-add-on-licensing/advanced-communications.md).**
 
 ## Presence in Outlook
 
