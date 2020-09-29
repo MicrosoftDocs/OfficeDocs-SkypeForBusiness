@@ -2190,6 +2190,76 @@
         "source_path": "Skype/SfBServer2019/plan/index.md",
         "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan/plan-your-deployment-2019",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/1-envision-define-my-success-phone-system.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-archiving/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-archiving/deploy-archiving",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-clients/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/deploy-clients",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-conferencing/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-conferencing/deploy-conferencing",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-edge-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-edge-server/deploy-edge-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-enterprise-voice/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-high-availability-and-disaster-recovery/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-monitoring/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-monitoring/deploy-monitoring",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-persistent-chat-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-persistent-chat-server/deploy-persistent-chat-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-video-interop-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-video-interop-server/deploy-video-interop-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/im-and-presence/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/im-and-presence/im-and-presence",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/install/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/install/install",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/integrate-with-exchange-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/integrate-with-exchange-server/integrate-with-exchange-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy",
+        "redirect_document_id": true
       }
   ] 
 }
