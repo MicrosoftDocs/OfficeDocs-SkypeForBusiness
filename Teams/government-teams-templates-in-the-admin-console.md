@@ -23,6 +23,8 @@ appliesto:
 
 # Use Teams government templates in the admin console
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Teams templates have pre-built definitions of team structures designed around governmental needs. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
