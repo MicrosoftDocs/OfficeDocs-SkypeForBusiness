@@ -22,6 +22,8 @@ ms.custom: seo-marvel-mar2020
 
 # Use Teams healthcare templates in the admin console
 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to best leverage Teams effectively. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your Healthcare organization.
