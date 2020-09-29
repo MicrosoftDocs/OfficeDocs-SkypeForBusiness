@@ -248,7 +248,10 @@ Meetings organized by a user who has this policy setting enabled, allow video sh
 > [!NOTE]
 > Keep in mind that this setting controls outgoing video whereas the **Mode for IP video** setting controls both outgoing and incoming video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
-![Screenshot showing a meeting with audio and video settings](media/meeting-policies-audio-video-settings.png)
+| Teams desktop and web client |Teams mobile client  |
+|---------|---------|
+|![Screenshot showing meeting join with audio/video settings on desktop](media/meeting-policies-audio-video-settings.png)    |![Screenshot showing meeting join sreen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)          |
+
 
 Let's look at the following example.
 
