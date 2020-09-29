@@ -30,7 +30,7 @@ description: "Here are the Microsoft 365 and Office 365 services for Skype for B
 # Availability in Switzerland
 
 > [!NOTE]
-> You can get **SERVICE** numbers in Switzerland for use with conferencing, auto-attendant and call queues, but you cannot get **USER** numbers in Switzerland as calling plans are not available.
+> You can get **SERVICE** numbers in Switzerland for use with conferencing, auto-attendant and call queues, but you cannot get **USER** numbers in Switzerland as calling plans are not available. See also [PSTN Service Desk contact information](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk).
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
