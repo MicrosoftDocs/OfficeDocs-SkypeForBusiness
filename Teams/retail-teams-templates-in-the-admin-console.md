@@ -23,6 +23,8 @@ appliesto:
 
 # Use Teams retail templates in the admin console
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Teams templates have pre-built definitions of team structures designed around retailer needs. You can use Teams templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
