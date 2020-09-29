@@ -32,7 +32,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 801 <br>803 <br>|
+|Dialing format(s)  <br/> | 800 <br>803 <br>|
 |Country/region ISO code  <br/> |IT  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> | Not applicable  <br/>  |

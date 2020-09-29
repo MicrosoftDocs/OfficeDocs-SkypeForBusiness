@@ -32,7 +32,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 0 800 XX XXX <br>|
+|Dialing format(s)  <br/> | 0800 <br>|
 |Country/region ISO code  <br/> |CH  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> | Not applicable  <br/>  |
