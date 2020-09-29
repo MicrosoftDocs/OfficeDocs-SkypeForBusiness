@@ -27,6 +27,9 @@ In Microsoft Teams, users can record their Teams meetings and group calls to cap
 
 Related: [Teams meeting recording end user documentation](https://aka.ms/recordmeeting)
 
+>[!Note]
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+
 > [!NOTE]
 > For information about using roles in Teams meetings, and how to change users' roles, see [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
@@ -107,7 +110,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 Meeting recordings are stored in Microsoft Stream cloud storage. Recordings are retained and available for viewing and download for 21 days. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. In the future, the meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region.
 
-When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, turn off the **Allow cloud recording** setting in the Global Teams meeting policy, which is in the Microsoft Teams admin center.
+When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, turn off the **Allow cloud recording** setting in the Global Teams meeting policy, which is in the Microsoft Teams admin center. If, however, you still wish to enable recordings to be stored in the nearest geographic region for Microsoft Stream, you must turn on both **Allow cloud recording** and **Allow Recording Storage Outside Region** before this change takes place.
+
+To enable recordings in region the Global policy, use the following cmdlet:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 Here's a summary of what happens when you turn on meeting recording when this change takes effect:
 

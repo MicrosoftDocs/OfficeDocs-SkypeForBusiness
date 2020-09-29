@@ -8,9 +8,10 @@
 
 # Training
 ## [Overview](training-microsoft-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.yml)
 ## [Admin training for Teams](itadmin-readiness.md)
-## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Teams sessions at Ignite 2020](ignite-2020-landing-page.md)
+## [Teams live training](instructor-led-training-teams-landing-page.yml)
+## [Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [How to roll out Teams](How-to-roll-out-teams.md)
@@ -50,7 +51,15 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
-## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+## Work with Teams templates
+### [Use Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+### [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+### [Create a custom Teams template](create-a-team-template.md)
+### [Create a template from an existing team](create-template-from-existing-team.md)
+### [Build a template from an existing template](create-template-from-existing-template.md)
+### [Financial category Teams templates](financial-teams-templates-in-the-admin-console.md)
+### [General category Teams templates](general-teams-templates-in-the-admin-console.md)
+### [Manufacturing category Teams templates](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
@@ -75,8 +84,6 @@
 #### [Use PowerShell to control guest access](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](troubleshoot-guest-access.md)
 ## [Cortana in Teams](cortana-in-teams.md)
-
-
 
 ## Manage Teams
 ### [Administrator roles](using-admin-roles.md)
@@ -113,21 +120,24 @@
 # Apps, bots, and connectors
 
 ## [Overview](deploy-apps-microsoft-teams-landing-page.md)
+## [Integrate with Power Platform](teams-power-platfom-integration.md)
 ## [Manage apps for Teams](manage-apps.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
 ## [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ## [Resource-specific consent](resource-specific-consent.md)
-## [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
-## [Publish a custom app by uploading an app package](upload-custom-apps.md)
+## Custom apps
+### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+### [Manage Power Platform apps in the Microsoft Teams admin center](manage-power-platform-apps.md)
+### [Publish a custom app by uploading an app package](upload-custom-apps.md)
 ## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Purchase services for Teams third-party apps](purchase-third-party-apps.md)
 ## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ## [Manage the Tasks app for your organization](manage-tasks-app.md)
-## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
+## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -184,6 +194,7 @@
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
+## [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 ## [Contact Center integrations](teams-contact-center.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
@@ -256,7 +267,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Cloud Video Interop](cloud-video-interop.md)
 
 ## Live events
@@ -271,7 +281,7 @@
 
 # Voice - Phone System and PSTN connectivity 
 
-## [Plan your deployment](cloud-voice-landing-page.md)
+## [Plan your Teams voice solution](cloud-voice-landing-page.md)
 
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
@@ -291,14 +301,15 @@
 #### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Auto attendants and call queues 
-#### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
-#### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+#### [Planning](plan-auto-attendant-call-queue.md)
+#### [Auto attendant setup](create-a-phone-system-auto-attendant.md)
+#### [Call queue setup](create-a-phone-system-call-queue.md)
 #### [Small business example - Set up an auto attendant](tutorial-org-aa.yml)
 #### [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage Teams resource accounts](manage-resource-accounts.md)
-#### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Set up holidays](set-up-holidays-in-teams.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Dial and voice reference](dial-voice-reference.md)
 
 ### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
@@ -311,6 +322,7 @@
 ## Calling Plans
 ### [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 ### [How to buy a Calling Plan](calling-plans-for-office-365.md)
+### [Extended dial-out minutes for US and Canada](dial-out-minutes-canada-us.md)
 ### [Set up Calling Plans for your organization](set-up-calling-plans.md)
 ### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Country and region availability for Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -362,7 +374,6 @@
 ##### [Definitions and RFC standards](direct-routing-protocols.md)
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
-#### [Set up the Ringback bot](direct-routing-ringback-bot.md)
 #### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 
@@ -573,13 +584,19 @@
 ## [Skype for Business Online retirement](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## Technical library
-### [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md)
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+## Technical library 
+### Upgrade guidance for IT administrators
+#### [Overview](upgrade-to-teams-on-prem-overview.md)
+#### [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
+#### [Considerations for organizations with Skype for Business on premises](upgrade-to-teams-on-prem-considerations.md)
+#### [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
+#### [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+#### [PSTN considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ### [Meetings First](meetings-first.md)
 
 
@@ -656,6 +673,7 @@
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Get started with Teams templates for Healthcare organizations in the admin console](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -690,10 +708,12 @@
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Get started with Retail Teams templates in the admin console](retail-teams-templates-in-the-admin-console.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Support remote workers (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [Get started with Government Teams templates](government-teams-templates-in-the-admin-console.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
@@ -712,6 +732,7 @@
 ### [Sign in to Teams using modern authentication](sign-in-teams.md)
 ### [Safe Links in Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [AppLocker application control policies](applocker-in-teams.md)
+### [Block Access to Sharepoint](block-access-sharepoint.md)
 ## Compliance
 ### [Information barriers](information-barriers-in-teams.md)
 ### [Retention policies](retention-policies.md)
@@ -726,7 +747,12 @@
 #### [Search the audit log for events](audit-log-events.md)
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Data collection practices](data-collection-practices.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
+### [Block access to Sharepoint Online for specific users](block-access-sharepoint.md)
+### [Policy control overview](policy-control-overview.md)
+### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
+### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -773,8 +799,6 @@
 # Reference
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## [Data collection practices](data-collection-practices.md)
 
 ## Get ready to roll out Teams
 ### [Prepare your organization's network for Teams](prepare-network.md)
@@ -972,5 +996,5 @@
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 ## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Export content with the Microsoft Teams Export API](export-teams-content.md)
 ## [Release notes for Teams admin features](release-notes/release-notes.md)

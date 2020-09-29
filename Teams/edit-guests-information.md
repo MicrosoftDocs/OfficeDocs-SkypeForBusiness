@@ -20,9 +20,26 @@ ms.custom:
   - seo-marvel-apr2020
 ---
 
-Edit guest user information
-===========================
+# Edit guest user information
 
-To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal. For more information, see [Understanding identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
+You can edit guest information from the Microsoft 365 admin center or the Azure Directory portal.
 
-Currently, you can't edit guest information from the Microsoft Teams admin center, the Microsoft 365 admin center, or the Exchange admin center.
+## Guest users in the Microsoft 365 admin
+
+1. To edit the guest information from Microsoft 365 admin center, select **Users** > **Guest Users**.
+
+   ![The guest user information being edited](media/access-guest-user.png)
+
+2. Select a user from **Guest users**.
+
+3. In guest user information, select **Manage contact information**.
+
+   ![Manage contact information ](media/guest-user-data1.png)
+
+4. Edit any fields that you choose except for **Display name** in **Manage contact information**, and then select **Save changes**.
+
+   ![Edit the guest user contact information](media/manage-guest-contact.png)
+
+## Guest users in the Azure Active Directory
+
+As an option, you can edit the guest user from the Azure Active Directory portal. For more information, see [Understanding identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
