@@ -60,9 +60,9 @@ However, your situation might be more complex. For example, you might have offic
 | :------------|:-------|
 | [**Phone numbers from Microsoft**](#phone-numbers-from-microsoft) | How to get and manage phone numbers from Microsoft, and how to transfer existing numbers to Microsoft. Read this if you need to obtain phone numbers for Microsoft Calling Plan, transfer existing numbers, obtain service numbers, and so on. |
 | [**Dial plans and call routing**](#dial-plans-and-call-routing) | How to configure and manage dial plans that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. Read this if you need to understand what dial plans are and  whether you need to specify dial plans for your organization.|
-| [**Emergency calling**](#emergency-calling) | How to manage and configure emergency calling--depending on your PSTN connectivity option. Read this section if you are using Microsoft Calling Plan or Direct Routing and need to understand how to manage emergency calling for your organization. |
+| [**Emergency calling**](#emergency-calling) | How to manage and configure emergency calling&mdash;depending on your PSTN connectivity option. Read this section if you are using Microsoft Calling Plan or Direct Routing and need to understand how to manage emergency calling for your organization. |
 | [**Location-Based Routing for Direct Routing**](#location-based-routing-for-direct-routing) |How to use Location-Based Routing (LBR) to restrict toll bypass for Microsoft Teams users based on their geographic location. Read this section if your organization is using Direct Routing at a location that does not allow toll bypass.
-| [**Network topology for cloud voice features**](#network-topology-for-cloud-voice-features) | If your organization is deploying Location-Based Routing (LBR) for Direct Routing or dynamic emergency calling, you must configure network settings for use with these features in Microsoft Teams. Read this section if you are implementing LBR for Direct Routing, or if you are implementing dynamic emergency calling with Calling Plans or Direct Routing. |
+| [**Network topology for cloud voice features**](#network-topology-for-cloud-voice-features) | If your organization is deploying Location-Based Routing (LBR) for Direct Routing or dynamic emergency calling, you must configure network settings for use with these features in Microsoft Teams. Read this section if you are implementing LBR for Direct Routing, or if you are implementing dynamic emergency calling with Calling Plan or Direct Routing. |
 | [**Migrate your existing voice solution**](#migrating-your-existing-voice-solution-to-teams) | What you need to think about when migrating your voice solution to Teams.  Read this section if you are migrating from an existing voice solution to Teams. 
 
 
@@ -87,7 +87,6 @@ This article introduces the following Phone System key features and functionalit
 
 For information about all Phone System features, and how to set up Phone System, see the following articles:
 
-- [What is Phone System](what-is-phone-system-in-office-365.md) 
 - [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 - [Set up Phone System in your organization](setting-up-your-phone-system.md)<br>
   Describes how to buy and assign Phone System licenses, manage phone numbers, and set up communication credits for toll-free numbers. 
@@ -157,12 +156,12 @@ With this option:
 
 This option requires uninterrupted connection to Microsoft 365 or Office 365.
 
-For more information about Calling Plans, see the following articles:
+For more information about Calling Plan, see the following articles:
 
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [How to buy a Calling Plan](calling-plans-for-office-365.md)
-- [Country and region availability for Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-- [Set up Calling Plans](set-up-calling-plans.md)
+- [Country and region availability for Calling Plan](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Set up Calling Plan](set-up-calling-plans.md)
 
 
 ### Phone System with own PSTN carrier with Direct Routing
@@ -175,7 +174,7 @@ If you answer yes to the following questions, then Phone System with Direct Rout
 
 - You want to use Teams with Phone System.
 - You need to retain your current PSTN carrier.
-- You want to mix routing, with some calls going through Calling Plans, some through your carrier.
+- You want to mix routing, with some calls going through Calling Plan, some through your carrier.
 - You need to interoperate with third-party PBXs and/or equipment such us overhead pagers, analog devices, and so on.
 
 With this option:
@@ -196,7 +195,7 @@ This option requires the following:
 - Deploying and maintaining a supported SBC.
 
 - A contract with a third-party carrier.
-  (Unless deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plans.)
+  (Unless deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plan.)
 
 For more information about Direct Routing, see the following articles:
 
@@ -221,7 +220,7 @@ You will need to decide:
 For more information about managing phone numbers in your organization, including getting new numbers or transferring exiting numbers, see the following articles:
 
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
-- [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Different kinds of phone numbers used for Calling Plan](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md)
 - [Transfer phone numbers to Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
@@ -297,7 +296,7 @@ For more information about how to implement your voice migration for each of the
   - [Location-Based Routing implementation](voice-case-study-location-based-routing.md)
   - [Emergency calling](voice-case-study-emergency-calling.md)
   - [Auto attendants and call queues](voice-case-study-call-queues.md)
-  - [Audio conferencing](voice-case-study-audio-conferencing.md)
+  - [Audio Conferencing](voice-case-study-audio-conferencing.md)
 
 
 
