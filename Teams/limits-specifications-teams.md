@@ -106,6 +106,8 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 ## Meetings and calls
 
 > [!IMPORTANT]
+> **Microsoft 365 live event limit increases**
+>
 > **To help support our customers, through January 1, 2021, we will extend temporary limit increases for live events, including**:
 >
 >- Up to 20,000 attendees per event
