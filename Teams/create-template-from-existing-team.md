@@ -20,6 +20,8 @@ appliesto:
 
 # Create a template from an existing team in Microsoft Teams
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 **Custom templates are not yet supported for EDU customers.**
 
 Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.
