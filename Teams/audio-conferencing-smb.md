@@ -65,17 +65,17 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 
 ## Step 3: Find or get a phone number for your conferencing bridge
 
-You'll need a phone number (also called a service number) for your conferencing bridge so that it can be used in meeting invitations. You can use a **shared number** or a **dedicated number**. Both types of numbers can be used by any caller to join a meeting.
+You'll need a phone number (also called a service number) for your conferencing bridge so that it can be used in meeting invitations. You can choose to use a **shared number** or a **dedicated number**. Both types of numbers can be used by any caller to join a meeting.
 
 ### Use a shared number
 
-A shared number is a number that's shared across all organizations. Toll numbers (where long-distance charges are applied) are automatically assigned as shared numbers when you set up Audio Conferencing. The number that's assigned as the default phone number of your conferencing bridge is a number from your country or region.
+A shared number is a number that's shared across all organizations. Shared numbers are automatically assigned when you set up Audio Conferencing. These shared numbers are toll numbers, in which long-distance charges apply.
 
 To find the default number that's assigned to your conferencing bridge, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Conference bridges**, and then find the number for the location that's nearest to you.
 
 ### Get a dedicated number
 
-A dedicated number is a number that's available only to your users. You can get a dedicated toll number or toll-free number, and then assign it to your conferencing bridge.
+A dedicated number is a number that's available only to your users. A dedicated number can be a toll number of a toll-free number. To use a dedicated number, you'll have to first get a number, and then assign it to your conferencing bridge.  
 
 There are a couple ways to get a dedicated number. You can get a number from Microsoft or transfer (port) an existing number from your current service provider to Microsoft. To learn more about how to do this, see [Getting service numbers](getting-service-phone-numbers.md).
 
