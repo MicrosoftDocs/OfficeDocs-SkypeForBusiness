@@ -77,11 +77,11 @@ You can use Teams on these mobile platforms:
 
 - Android: Compatible with Android phones and tablets.
 
-  Support is limited to the last four major versions of Android. For example, when a new, major version of Android is released, the Android requirement is the new version and the three most recent versions that precede it.
+  Support is limited to the **last four** major versions of Android. For example, when a new, major version of Android is released, the Android requirement is the new version and the three most recent versions that precede it.
 
 - iOS: Compatible with iPhone, iPad, and iPod touch.
 
-  Support is limited to the two most recent major versions of iOS. For example, when a new, major version of iOS is released, the iOS requirement is the new version and the two most recent versions that preceded it. The optional **Blur my background** video effect on iOS requires an operating system of iOS 12 or later, compatible with the following devices: iPhone 7 or later, iPad 2018 (6th generation) or later, and the iPod touch 2019 (7th generation).
+  Support is limited to the **two** most recent major versions of iOS. For example, when a new, major version of iOS is released, the iOS requirement is the new version and the most recent versions that preceded it. The optional **Blur my background** video effect on iOS requires an operating system of iOS 12 or later, compatible with the following devices: iPhone 7 or later, iPad 2018 (6th generation) or later, and the iPod touch 2019 (7th generation).
 
 > [!Note]
 > For the best experience with Teams, use the latest version of iOS and Android.
