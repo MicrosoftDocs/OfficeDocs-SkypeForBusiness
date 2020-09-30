@@ -2260,6 +2260,16 @@
         "source_path": "Skype/SfbServer/deploy/index.md",
         "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/manage-phone-numbers-for-your-organization/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization",
+        "redirect_document_id": true
       }
   ] 
 }
