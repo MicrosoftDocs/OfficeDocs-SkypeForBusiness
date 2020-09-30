@@ -69,7 +69,7 @@ You'll need a phone number (also called a service number) for your conferencing 
 
 ### Use a shared number
 
-A shared number is a number that's shared across all organizations. Shared numbers are automatically assigned when you set up Audio Conferencing. These shared numbers are toll numbers, in which long-distance charges apply.
+A shared number is a number that's shared across all organizations. Shared numbers are automatically assigned when you set up Audio Conferencing. These shared numbers are toll numbers, in which long-distance charges may apply.
 
 To find the default number that's assigned to your conferencing bridge, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Conference bridges**, and then find the number for the location that's nearest to you.
 
