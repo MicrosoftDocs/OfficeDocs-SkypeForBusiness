@@ -75,7 +75,7 @@ To find the default number that's assigned to your conferencing bridge, in the l
 
 ### Get a dedicated number
 
-A dedicated number is a number that's available only to your users. A dedicated number can be a toll number of a toll-free number. To use a dedicated number, you'll have to first get the number, and then assign it to your conferencing bridge.  
+A dedicated number is a number that's available only to your users. A dedicated number can be a toll number or a toll-free number. To use a dedicated number, you'll have to first get the number, and then assign it to your conferencing bridge.  
 
 There are a couple ways to get a dedicated number. You can get a number from Microsoft or transfer (port) an existing number from your current service provider to Microsoft. To learn more about how to do this, see [Getting service numbers](getting-service-phone-numbers.md).
 
