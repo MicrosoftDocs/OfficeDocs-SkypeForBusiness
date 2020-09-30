@@ -22,11 +22,11 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
-## September 30, 2020
+## September 29, 2020
 
-### Masking phone numbers
+### Meeting policy settings
 
-We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer) and from external people only, or admins can disable masking. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting.
+Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)
 
 ## September 27, 2020
 
@@ -40,11 +40,12 @@ Users can now manage their notifications settings in a more simplified manner wi
 
 Call using Teams directly through your Android Phonebook.
 
-September 21, 2020
+## September 21, 2020
 
 ## Manage Microsoft Power Platform apps in the Microsoft Teams admin center
 
 As an admin, you can control whether users can see and install Microsoft Power Platform apps in Built by your colleagues on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](../manage-apps.md) page or for specific users using [app permission policies](../teams-apps-permissions-policies.md). [Learn more](../manage-power-platform-apps.md)
+
 ## September 19, 2020
 
 ### Sharing files in MicrosoftTeams
@@ -56,6 +57,18 @@ In Microsoft Teams, users can share content with other Teams users within and ou
 ### New third-party video provider Riverbed
 
 Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. Riverbed is a new third-party provider. [Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)
+
+## September 15, 2020
+
+### Skype for Business connector ported to Teams PowerShell module
+
+The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.[Learn more](../teams-powershell-overview.md#manage-teams-with-powershell)
+
+## September 8, 2020
+
+### Porting PIN
+
+We added the ability to set up and manage a PIN used for porting or transferring phone numbers. You will provide this PIN to the PSTN service desk when you want to port numbers out to a service provider from Microsoft. [Learn more](../..//phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)
 
 ## September 3, 2020
 
@@ -75,15 +88,15 @@ Inline message translation is a Microsoft Teams feature that lets users translat
 
 We added the ability to now have 250 participants in a group chat. [Learn more](../limits-specifications-teams.md)
 
-### Manage the praise app
+### Manage the Praise app
 
-The praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers. [Learn more](../manage-praise-app.md).
+The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The Praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers. [Learn more](../manage-praise-app.md).
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
 If you have one or more Microsoft Teams Rooms devices or Surface Hubs in a meeting room, you can set up Coordinated Meetings. Coordinated Meetings lets you set up your Teams Rooms devices and Surface Hubs so that when you join a meeting on one device, the other devices in the room are also joined to the same meeting. [Learn more](../rooms/coordinated-meetings.md).
 
-### Tagging by Shift
+### Tagging by shift
 
 With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. [Learn more](../manage-tags.md).
 
