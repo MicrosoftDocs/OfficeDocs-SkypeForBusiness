@@ -16,12 +16,11 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a new template from an existing team template in Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Custom templates are not yet supported for EDU customers.**
 
@@ -67,6 +66,9 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 7. Select **Submit** when you're finished adding channels and apps.
 
     The new template is saved to the template library.
+
+> [!Note]
+> It can take up to 24 hours for teams users to see a custom template in the gallery.
 
 ## Related articles
 
