@@ -81,6 +81,8 @@ additionalContent:
           links:
             - text: Prepare your network for Teams
               url: /MicrosoftTeams/prepare-network
+            - text: Keeping students safe while using Teams for distance learning
+              url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
             - text: Use Advisor for Teams to help you roll out Teams
               url: /MicrosoftTeams/use-advisor-teams-roll-out
             - text: How Teams uses memory
