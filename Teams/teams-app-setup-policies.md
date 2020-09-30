@@ -36,7 +36,7 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|![The Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-apps-ui.png)      |
+|![The Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-apps-ui-resize.png)      |
 
 To see their pre-installed apps, in the app bar, users select **... More apps** in the Teams desktop and web clients and swipe up in the mobile clients.
 
