@@ -437,9 +437,10 @@
 #### [Phone number management for Ireland](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
 #### [Phone number management for Italy](manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md)
 #### [Phone number management for Japan](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [Phone number management for Portugal](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [Phone number management for Spain](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
-#### [Phone number management for Portugal](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
+
 #### [Phone number management for Sweden](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
 #### [Phone number management for Switzerland](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
 #### [Phone number management for the United Kingdom](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
