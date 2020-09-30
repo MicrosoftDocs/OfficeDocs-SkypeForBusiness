@@ -167,9 +167,3 @@ Being able to use existing hardware can provide important cost savings when movi
 
 **Will certified Skype for Business online phones work with Teams?**<br>
 For questions related to phone compatibility, read [Certified Skype for Business Online Phones and what this means for Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309).
-
-
-
-
-
-
