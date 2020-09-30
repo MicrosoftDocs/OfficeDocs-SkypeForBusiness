@@ -45,7 +45,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 
 | Component | Requirement |
 |---------|---------|
-|Compupter and processor    | Intel Core Duo processor |
+|Computer and processor    | Intel Core Duo processor |
 |Memory     |   4.0 GB RAM      |
 |Hard disk    |   1.5 GB of available disk space      |
 |Display    | 1280 x 800 or higher resolution    |
@@ -77,13 +77,14 @@ You can use Teams on these mobile platforms:
 
 - Android: Compatible with Android phones and tablets.
 
-  Support is limited to the last four major versions of Android. When a new major version of Android is released, for example, the Android requirement is the new version and the three most recent versions that precede it.
+  Support is limited to the last four major versions of Android. For example, when a new, major version of Android is released, the Android requirement is the new version and the three most recent versions that precede it.
 
 - iOS: Compatible with iPhone, iPad, and iPod touch.
 
-  Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, for example, iOS requirement is the new version and the two most recent versions that preceded it. The optional Blur my background video effect on iOS requires an operating system of iOS 12 or later, compatible with the following devices: iPhone 7 or later, iPad 2018 (6th generation) or later, and the iPod touch 2019 (7th generation).
+  Support is limited to the two most recent major versions of iOS. For example, when a new, major version of iOS is released, the iOS requirement is the new version and the two most recent versions that preceded it. The optional **Blur my background** video effect on iOS requires an operating system of iOS 12 or later, compatible with the following devices: iPhone 7 or later, iPad 2018 (6th generation) or later, and the iPod touch 2019 (7th generation).
 
-For the best experience with Teams, use the latest version of iOS and Android.
+> [!Note]
+> For the best experience with Teams, use the latest version of iOS and Android.
 
 ## Hardware requirements for Teams in a Virtual Desktop Infrastructure (VDI) environment
 
