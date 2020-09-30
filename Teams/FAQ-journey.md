@@ -162,8 +162,8 @@ Like the Skype for Business Admin Console, the [Microsoft Teams admin ](https://
 **Can I use Teams on Surface Hub?**<br>
 Teams meetings is now available on Surface Hub with Calling and Meetings experiences. For more information, see [Deploy Microsoft Teams for Surface Hub](https://docs.microsoft.com/microsoftteams/teams-surface-hub).
 
-**Will current third-party IP (3PIP) phones continue to work with Microsoft Teams? And if so, how long?**<br>
-After the Skype for Business Online retirement date of July 31, 2021, users with 3PIP devices who have been migrated over to Teams only will be able to continue using their 3PIP devices with a limited set of functionalities until July 31, 2023.
+**Will current third-party IP (3PIP) phones continue to work with Microsoft Teams? What about third-party SIP phones?**<br>
+Being able to use existing hardware can provide important cost savings when moving to a new phone system. Microsoft has extended support for Skype for Business (3PIP) phones beyond 2023 so you can continue to use your existing Skype for Business phones as you move to Teams. Additionally, starting in the first half of 2021, Teams will support core calling features on SIP phones from Cisco, Yealink, Polycom, and others.
 
 **Will certified Skype for Business online phones work with Teams?**<br>
 For questions related to phone compatibility, read [Certified Skype for Business Online Phones and what this means for Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309).
