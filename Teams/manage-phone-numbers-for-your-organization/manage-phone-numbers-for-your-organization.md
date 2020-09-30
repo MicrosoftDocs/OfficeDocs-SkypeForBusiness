@@ -55,7 +55,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
 > - [Netherlands](phone-number-management-for-the-netherlands.md)
-> - [Portugal](phone-number-management-for-the-portugal.md)
+> - [Portugal](phone-number-management-for-portugal.md)
 > - [Spain](phone-number-management-for-spain.md)
 > - [Sweden](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)
