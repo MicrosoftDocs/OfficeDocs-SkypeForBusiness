@@ -25,13 +25,13 @@ If you have a work or school account, your organization's admin may have provide
 
 ## GIPHY
 
-GIPHY is a cloud-backed service that provides an experience in Microsoft Teams for you to use GIFs in your Teams chats. If you’re in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service). ???
+GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you’re in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service). ???
 
 ## URL Preview service  
 
 The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string.
 
-LinkedIn is a different company that's owned by Microsoft. If you use Resume Assistant, the LinkedIn user agreement and privacy policy apply in addition to the Microsoft Services Agreement and privacy statement. Any search queries you provide to the Microsoft 365 Apps for enterprise organization while using these services are sent to LinkedIn. They are not linked to you by the LinkedIn organization. You do not need to have a LinkedIn account to use this cloud-backed service.
+LinkedIn is a different company that's owned by Microsoft. Any search queries you provide to the Microsoft 365 Apps for enterprise organization while using these services are sent to LinkedIn. They are not linked to you by the LinkedIn organization. You do not need to have a LinkedIn account to use this cloud-backed service.
 
 ## Paste image download
 
