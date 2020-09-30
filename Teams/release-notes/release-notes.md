@@ -40,6 +40,11 @@ Users can now manage their notifications settings in a more simplified manner wi
 
 Call using Teams directly through your Android Phonebook.
 
+September 21, 2020
+
+## Manage Microsoft Power Platform apps in the Microsoft Teams admin center
+
+As an admin, you can control whether users can see and install Microsoft Power Platform apps in Built by your colleagues on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](../manage-apps.md) page or for specific users using [app permission policies](../teams-apps-permissions-policies.md). [Learn more](../manage-power-platform-apps.md)
 ## September 19, 2020
 
 ### Sharing files in MicrosoftTeams
