@@ -81,7 +81,6 @@
 #### [Add a guest to a team](add-guests.md)
 #### [View guest users in a team](view-guests.md)
 #### [Edit guest user information](edit-guests-information.md)
-#### [Use PowerShell to control guest access](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](troubleshoot-guest-access.md)
 ## [Cortana in Teams](cortana-in-teams.md)
 
@@ -215,8 +214,8 @@
 ### [Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit](audio-conferencing-subscription-dial-out.md)
 
 
-### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
-
+### [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md)
+### [Set up Audio Conferencing - quickstart for small and medium businesses](audio-conferencing-smb.md)
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### Manage your audio conferencing bridge
