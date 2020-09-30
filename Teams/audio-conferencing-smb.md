@@ -24,11 +24,11 @@ description: "Learn how to set Audio Conferencing in your small or medium busine
 
 # Set up Audio Conferencing for small and medium businesses
 
-Your users might sometimes need to use a phone to call in to a meeting. Microsoft Teams includes the Audio Conferencing feature for just this situation! With Audio Conferencing, people can call in to Teams meetings using a phone instead of using Teams app on their mobile device or from their computer.  
+With Audio Conferencing, people can call in to Teams meetings using a phone instead of using the Teams app on their mobile device or from their computer.  
 
-If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses or you're a new customer, you'll get Audio Conferencing for free!
+If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses, you can get Audio Conferencing free for one year. This free offer is available starting October 1, 2020.
 
-If your users have a Microsoft 365 Business license or an Enterprise E1 or E3 license without Audio Conferencing, you can assign the free Audio Conferencing license to them. The free Audio Conferencing offer is available to small and medium businesses of up to 300 users for 12 months, starting October 1, 2020. To learn more, see [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+The Audio Conferencing add-on license can be applied to users who have Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1, or Enterprise E3 licenses. To learn more, see [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
 > If you have Enterprise E5 or Microsoft 365 Business Voice, you won't be able to use the free Audio Conferencing offer because these licenses already include Audio Conferencing.
@@ -40,7 +40,7 @@ In this article, we'll walk you through how to set up Audio Conferencing. You on
 Get one Audio Conferencing license for each person who will lead meetings. Use the Microsoft 365 admin center to do this.
 
 1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**, and then at the bottom of the page, select **Add-ons**. 
-2. Select **Microsoft 365 Audio Conferencing** > **Details**.
+2. Select **Microsoft 365 Audio Conferencing Adoption Promo** > **Details**.
 3. Enter the number of licenses you need for your meeting organizers, and then complete your order.
 
 > [!NOTE]
