@@ -22,7 +22,7 @@ appliesto:
 
 Effective August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on SKU to any paid Microsoft 365 or Office 365 subscription.
 
-If your organization is looking to further enhance your communication experience, get Advanced Communications for calling and meeting capabilities that include large meetings, meeting customization, communications integrations and workflows, and tools to manage your organization's communications policies.
+If your organization is looking to further enhance your communication experience, get Advanced Communications for calling and meeting capabilities that include large meetings, meeting customization, and tools to manage your organization's communications policies.
 
 ## What is Advanced Communications?
 
@@ -30,7 +30,6 @@ Advanced Communications provides enhanced calling and meeting capabilities that 
 
 - **Reach larger audiences**: Help your users stay connected with live events for up to 20,000 participants and interactive meetings for 1,000 participants with the capability to enable up to 20,000 participants in a view-only meeting experience.
 - **Tailor and customize meetings**: Drive standardization across meetings for your internal and custom-facing scenarios, with features such as custom branded meeting lobby. Implement with flexibility across your organization's departments. 
-- **Connect meetings and calling to workflows**: Integrate workflows to your communication system. For example, have your compliance recording policy automated, and become part of the communication workflow, without the need for manual intervention.  
 - **Manage your organization communications**: Monitor, track, and analyze data on users and devices to ensure a smooth experience.
 
 Advanced Communications is available in all Microsoft 365 markets as an add-on to any paid Microsoft 365 or Office 365 subscription. Features included in Advanced Communications won't be added to other Microsoft 365 or Office 365 plans and can't be purchased separately. To get the features, you must purchase the add-on.
@@ -43,8 +42,6 @@ Advanced Communications is available in all Microsoft 365 markets as an add-on t
 At release on August 1, 2020, the following features are available:
 
 - Live events support for up to 20,000 participants, 50 concurrent events, event duration of 16 hours per broadcast
-- Compliance recording integration (ISV)
-- Contact Center solution integration (ISV)
 
 The following features will be available later this year:
 

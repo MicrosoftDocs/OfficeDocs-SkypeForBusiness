@@ -17,6 +17,9 @@ The Praise app in Microsoft Teams helps users show appreciation to members of th
 
 Admins can control what badges are available to their organization from the Teams admin center. In the left navigation, select **Teams apps > Manage apps**. Open Praise in the [tenant app catalog](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog), and go to **Settings**.
 
+> [!Note]
+> The Praise app feature isn't available for U.S. government clouds.
+
 ## Use built-in badge sets
 
 Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins. The default badge set is already enabled and available in the Praise app. To change the availability of the default set or of any badges sets, switch the corresponding toggle to On or Off. 
