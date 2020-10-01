@@ -114,7 +114,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 >- Up to 50 simultaneous events per Teams tenant
 >- Up to 16 hours per broadcast
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft live events assistance program. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
 
 
 |Feature     | Maximum limit |
