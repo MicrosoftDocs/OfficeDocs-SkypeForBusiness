@@ -48,7 +48,7 @@ As an admin, you can control whether users can see and install Microsoft Power P
 
 ## September 19, 2020
 
-### Sharing files in MicrosoftTeams
+### Sharing files in Microsoft Teams
 
 In Microsoft Teams, users can share content with other Teams users within and outside their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well. [Learn more](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)
 
