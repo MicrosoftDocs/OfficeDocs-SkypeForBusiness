@@ -189,6 +189,7 @@
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Use NDI® technology in Teams](use-NDI-in-meetings.md)
 ## [Raise your hand option in Teams meetings](raise-hand-meetings.md)
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
