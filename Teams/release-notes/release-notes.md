@@ -26,7 +26,7 @@ These release notes provide information about new admin features for Microsoft T
 
 ### Meeting policy settings
 
-Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)
+Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
 ## September 27, 2020
 
@@ -44,37 +44,37 @@ Call using Teams directly through your Android Phonebook.
 
 ### Manage Microsoft Power Platform apps in the Microsoft Teams admin center
 
-As an admin, you can control whether users can see and install Microsoft Power Platform apps in Built by your colleagues on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](../manage-apps.md) page or for specific users using [app permission policies](../teams-app-permission-policies.md). [Learn more](../manage-power-platform-apps.md)
+As an admin, you can control whether users can see and install Microsoft Power Platform apps in Built by your colleagues on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](../manage-apps.md) page or for specific users using [app permission policies](../teams-app-permission-policies.md). [Learn more](../manage-power-platform-apps.md).
 
 ## September 19, 2020
 
 ### Sharing files in Microsoft Teams
 
-In Microsoft Teams, users can share content with other Teams users within and outside their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well. [Learn more](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)
+In Microsoft Teams, users can share content with other Teams users within and outside their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well. [Learn more](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
 
 ## September 16, 2020
 
 ### New third-party video provider Riverbed
 
-Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. Riverbed is a new third-party provider. [Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)
+Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. Riverbed is a new third-party provider. [Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider).
 
 ## September 15, 2020
 
-### Skype for Business connector ported to Teams PowerShell module
+### Skype for Business Online connector ported to Teams PowerShell module
 
-The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. [Learn more](../teams-powershell-overview.md#manage-teams-with-powershell)
+The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. [Learn more](../teams-powershell-overview.md#manage-teams-with-powershell).
 
 ## September 8, 2020
 
 ### Porting PIN
 
-We added the ability to set up and manage a PIN used for porting or transferring phone numbers. You will provide this PIN to the PSTN service desk when you want to port numbers out to a service provider from Microsoft. [Learn more](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)
+We added the ability to set up and manage a PIN used for porting or transferring phone numbers. You will provide this PIN to the PSTN service desk when you want to port numbers out to a service provider from Microsoft. [Learn more](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).
 
 ## September 3, 2020
 
 ### Custom apps store in Microsoft Teams
 
-Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store).
 
 ## September 1, 2020
 
@@ -86,7 +86,7 @@ Inline message translation is a Microsoft Teams feature that lets users translat
 
 ### Group chat size increase
 
-We added the ability to now have 250 participants in a group chat. [Learn more](../limits-specifications-teams.md)
+We added the ability to now have 250 participants in a group chat. [Learn more](../limits-specifications-teams.md).
 
 ### Manage the Praise app
 
@@ -116,7 +116,7 @@ Users with this role can manage Teams certified devices from the Teams admin cen
 
 ### Lists app in Teams
 
-Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items.
+Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items. For more information about how to manage the Lists apps, see [Manage the Lists app for your organization](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app). 
 
 ## August 6, 2020
 
