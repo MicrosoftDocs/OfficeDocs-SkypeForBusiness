@@ -38,7 +38,8 @@ For more information, see  [Manage phone numbers for your organization](manage-p
 |Get phone numbers transferred to Microsoft 365 or Office 365 for users, auto attendants and call queues.  <br/> |Please contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) to transfer phone numbers. They will then add those numbers to your organization.  <br/> |
 |Get phone numbers transferred to Microsoft 365 or Office 365 for use with Audio Conferencing.  |[Please contact us](mailto:ptnapac@microsoft.com) |
 |Change emergency addressing assigned to users that have a Call Plan phone number. |Please contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) to make emergency address changes. They can update this information for you.|
-|Change a user number to a service number. |Supported when using Telstra Calling.
+|Change a user number to a service number. |Supported when using Telstra Calling.|
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
 
 ## Related topics
 
