@@ -31,8 +31,6 @@ GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If y
 
 The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string.
 
-LinkedIn is a different company that's owned by Microsoft. Any search queries you provide to the Microsoft 365 Apps for enterprise organization while using these services are sent to LinkedIn. They are not linked to you by the LinkedIn organization. You do not need to have a LinkedIn account to use this cloud-backed service.
-
 ## Paste image download
 
 Paste Image Download allows you to copy an image from a website and paste it into a Teams chat. If the admin configuration settings don’t allow for content from third-party sources the image will be striped, and the user will see an error message alerting user of the policy settings. If the Paste Image Download experience, is allowed by your admin and you choose to use it, you are subject to the Privacy Policy and Terms of Service dependent upon where the image and website used to take the image from because this can be an almost infinite number of websites there is no way for Microsoft to represent which Privacy Policy or Terms of Service is applicable.
