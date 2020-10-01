@@ -68,7 +68,7 @@ The latest Teams PowerShell public release is integrated with Skype for Business
 
 ### Porting PIN
 
-We added the ability to set up and manage a PIN used for porting or transferring phone numbers. You will provide this PIN to the PSTN service desk when you want to port numbers out to a service provider from Microsoft. [Learn more](https://docs.microsoft.com/en-us/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)
+We added the ability to set up and manage a PIN used for porting or transferring phone numbers. You will provide this PIN to the PSTN service desk when you want to port numbers out to a service provider from Microsoft. [Learn more](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)
 
 ## September 3, 2020
 
