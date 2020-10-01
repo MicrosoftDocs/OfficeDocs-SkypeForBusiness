@@ -60,7 +60,7 @@ Use Teams live events settings to configure settings for live events that are he
 
 ## September 15, 2020
 
-### Skype for Business Online Connector ported to Teams PowerShell module
+### Skype for Business Online Connector integrated to Teams PowerShell module
 
 The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. [Learn more](../teams-powershell-overview.md#manage-teams-with-powershell).
 
@@ -116,7 +116,7 @@ Users with this role can manage Teams certified devices from the Teams admin cen
 
 ### Lists app in Teams
 
-Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items. For more information about how to manage the Lists apps, see [Manage the Lists app for your organization](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app). 
+Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items. For more information about how to manage the Lists apps, see [Manage the Lists app for your organization](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
 
 ## August 6, 2020
 
