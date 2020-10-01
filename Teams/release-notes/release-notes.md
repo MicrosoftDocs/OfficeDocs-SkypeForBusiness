@@ -238,7 +238,7 @@ If user isn't signed in to their Microsoft 365 account anywhere else, they'll be
 
 ### Monitor shifts with audit logs
 
-You can search the audit log to view Shifts activity in your organization. [Learn more](https://docs.microsoft.com/microsoftteams/audit-log-events).
+You can search the audit log to view Shifts activity in your organization. [Learn more](<https://docs.microsoft.com/microsoftteams/audit-log-events>.
 
 ## June 11, 2020
 
