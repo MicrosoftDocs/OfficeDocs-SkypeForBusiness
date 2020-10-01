@@ -1952,6 +1952,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "Teams/guest-access-PowerShell.md",
+        "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "Teams/iw-trial-teams.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-exploratory",
         "redirect_document_id": true
