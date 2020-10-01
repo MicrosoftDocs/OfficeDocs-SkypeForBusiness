@@ -48,8 +48,6 @@ storing, and analyzing Teams communications. This includes communications platfo
     integration with existing Teams administrative calling and
     meeting tools and policies
 
-- Requires an [Advanced Communications license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
-
 The compliance recording solution integration capabilities were also
 reviewed at Ignite 2019 in the [<span class="underline">Compliance
 Recording and Microsoft Teams
