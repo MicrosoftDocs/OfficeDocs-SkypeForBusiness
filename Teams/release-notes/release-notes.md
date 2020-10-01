@@ -44,8 +44,7 @@ Call using Teams directly through your Android Phonebook.
 
 ### Manage Microsoft Power Platform apps in the Microsoft Teams admin center
 
-As an admin, you can control whether users can see and install Microsoft Power Platform apps in Built by your colleagues on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](../manage-apps.md) page or for specific users using [app permission policies](../teams-app-permission-policies.md).
-[Learn more](../manage-power-platform-apps.md)
+As an admin, you can control whether users can see and install Microsoft Power Platform apps in Built by your colleagues on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](../manage-apps.md) page or for specific users using [app permission policies](../teams-app-permission-policies.md). [Learn more](../manage-power-platform-apps.md)
 
 ## September 19, 2020
 
@@ -63,7 +62,7 @@ Use Teams live events settings to configure settings for live events that are he
 
 ### Skype for Business connector ported to Teams PowerShell module
 
-The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.[Learn more](../teams-powershell-overview.md#manage-teams-with-powershell)
+The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. [Learn more](../teams-powershell-overview.md#manage-teams-with-powershell)
 
 ## September 8, 2020
 
