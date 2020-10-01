@@ -22,6 +22,11 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## October 1, 2020
+
+### View app permissions and grant admin consent in the Microsoft Teams admin center
+
+Now in Teams admin center global admins will be able to review and grant consent to Graph API permissions registered in Azure Active Directory, on behalf of the entire tenant for the permissions an app is requesting such as reading information stored in a team or sending an email on behalf of users. Now IT admins will be able to review resource-specific consent (RSC) permissions for the apps within Teams admin center. With that admins will be able to unblock their users for the third-party apps they have already reviewed and approved to use in their organization. [Learn more](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
 ## September 29, 2020
 
 ### Meeting policy settings
