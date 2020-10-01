@@ -52,7 +52,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Operating system  |    One of the three most recent versions of macOS. You can find the most recent versions of macOS [here](https://support.apple.com/en-us/HT201260). For example, when a new version of macOS is released, the new version and the two immediately preceding it become the supported versions.      |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | <ul><li>Requires 2 core processor. For higher video/screen share resolution and frame rate a 4 core processor or better is recommended. </li><li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of **unsupported** decoders and encoders.</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on macOS.</li></ul>
+|Video calls and meetings | <ul><li>Requires 2 core processor. For higher video/screen share resolution and frame rate a 4 core processor or better is recommended. </li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on macOS.</li></ul>
 |
 
 ## Hardware requirements for Teams on Linux
@@ -68,7 +68,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | <ul><li>Requires 2 core processor. For higher video/screen share resolution and frame rate a 4 core processor or better is recommended</li><li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of **unsupported** decoders and encoders.</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on Linux.</li></ul>
+|Video calls and meetings | <ul><li>Requires 2 core processor. For higher video/screen share resolution and frame rate a 4 core processor or better is recommended</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on Linux.</li></ul>
 |Supported Linux distributions | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## Hardware requirements for Teams on mobile devices
