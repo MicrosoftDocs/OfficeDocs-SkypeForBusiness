@@ -25,7 +25,7 @@ ms.custom: seo-marvel-apr2020
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up.
 
  > [!Note]
-> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events. 
 
 ## Who can attend, create, and schedule live events
 
@@ -95,11 +95,15 @@ The following table highlights core capabilities and features offered in live ev
 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
-> 
-> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until July 1, 2020, for live events hosted in Teams. The following increases are being rolled out in late April 2020:
-> - Attendee limit: events can support up to 20,000 attendees
-> - Concurrent events: 50 events can be hosted simultaneously across a tenant
-> - Event duration: event length has been increased to 16 hours per broadcast
+>
+> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for live events hosted in Teams, Stream, and Yammer, including**:
+>
+>- Up to 20,000 attendees per event
+>- Up to 50 simultaneous events per Teams tenant
+>- Up to 16 hours per broadcast
+>
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft live events assistance program. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](../teams-add-on-licensing/advanced-communications.md).**
+
 
 |**Capability**   |**Skype Meeting Broadcast** |**Events produced in Teams** |**Events produced in external app or device** |
 |---------|---------|---------|---------|
