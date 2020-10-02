@@ -76,7 +76,6 @@
 #### [Guest experience](guest-experience.md)
 #### [Authorize guest access](teams-dependencies.md)
 #### [Turn guest access on or turn off](set-up-guests.md)
-#### [Manage guest access](manage-guests.md)
 #### [Add a guest to a team](add-guests.md)
 #### [View guest users in a team](view-guests.md)
 #### [Edit guest user information](edit-guests-information.md)
