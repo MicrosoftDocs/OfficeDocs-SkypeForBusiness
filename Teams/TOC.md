@@ -73,7 +73,6 @@
 ### Guest access
 #### [About guest access](guest-access.md)
 #### [Guest access checklist](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
-#### [How a guest joins a team](guest-joins.md)
 #### [What the guest experience is like](guest-experience.md)
 #### [Authorize guest access in Teams](teams-dependencies.md)
 #### [Turn on or turn off guest access in Teams](set-up-guests.md)
