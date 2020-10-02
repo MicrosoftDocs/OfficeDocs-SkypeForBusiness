@@ -31,7 +31,7 @@ To satisfy your organization's requirements, you can manage Teams guest access f
 
 These different authorization levels provide you with flexibility in how you set up guest access for your organization. For example, if you don't want to allow guest users in Teams but want to allow it overall in your organization, just turn off guest access in Teams. Another example: You could enable guest access at the Azure AD, Teams, and Groups levels, but then [disable the addition of guest users on selected teams that match one or more criteria such as data classification equals confidential](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites). SharePoint and OneDrive have their own guest access settings that don't rely on Microsoft 365 Groups.
 
-For end-to-end guest access configuration instructions, see [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+For end-to-end guest access configuration instructions, see [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 > [!NOTE]
 > Guests are subject to the service limits described in [Microsoft 365 and Office 365 service descriptions](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Limitations of Azure AD B2B collaboration](https://docs.microsoft.com/azure/active-directory/external-identities/current-limitations). 
