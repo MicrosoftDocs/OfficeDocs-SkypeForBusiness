@@ -92,5 +92,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Courses</h2>
 
-- [Enabling Teamwork with Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/itadmin-readiness)
+- [Enabling Teamwork with Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
 - [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
