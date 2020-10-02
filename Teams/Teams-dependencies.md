@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
   - SPO_Content
 ms.reviewer: rafarhi
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH

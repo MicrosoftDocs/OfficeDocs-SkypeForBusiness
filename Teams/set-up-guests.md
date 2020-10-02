@@ -14,6 +14,7 @@ search.appverid: MET150
 ms.custom: 
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
