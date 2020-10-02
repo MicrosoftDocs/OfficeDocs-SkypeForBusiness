@@ -122,3 +122,7 @@ Teams meeting recording files live in OneDrive for Business and SharePoint and a
 **How can I play a Teams meeting recording?**
 
 Your video will play on the video player of OneDrive for Business or SharePoint depending on where you access the file.
+
+**If you plan on deprecating adding to Stream, will existing videos stay as is and for how long?**
+
+Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to ODSP as well. Check [here](https://docs.microsoft.com/stream/migrate-from-office-365 for more information.
