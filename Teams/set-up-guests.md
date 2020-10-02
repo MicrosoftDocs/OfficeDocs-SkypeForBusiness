@@ -9,9 +9,8 @@ audience: admin
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: Learn about how to turn on or turn off the guest access feature in Microsoft Teams as an Office 365 admin.
 ms.custom: 
   - NewAdminCenter_Update
   - seo-marvel-apr2020
@@ -20,11 +19,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto: 
   - Microsoft Teams
+description: Learn about how to turn on or turn off the guest access feature in Microsoft Teams as an Office 365 admin.
 ---
 
 # Turn on or turn off guest access to Microsoft Teams
 
-By default, guest access is turned off. As the Microsoft 365 or Office 365 admin, you must turn on guest access for Teams before the admin or team owners can add guests.
+By default, guest access is turned off. You must turn on guest access for Teams before admins or team owners can add guests.
 
 After you turn on guest access, it may take a few hours for the changes to take effect. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet.
 
@@ -33,7 +33,7 @@ After you turn on guest access, it may take a few hours for the changes to take 
 
 ## Configure guest access in the Teams admin center
 
-1. Sign in to the Microsoft Teams admin center.
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 2. Select **Org-wide settings** > **Guest access**.
 
