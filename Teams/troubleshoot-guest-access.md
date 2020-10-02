@@ -17,7 +17,6 @@ f1.keywords:
 localization_priority: Normal
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
 ---
 
 # Troubleshoot problems with guest access in Microsoft Teams
