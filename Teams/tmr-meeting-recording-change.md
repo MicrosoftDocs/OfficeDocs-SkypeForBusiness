@@ -90,7 +90,7 @@ Even if a policy says it’s already set to **Stream**, it might not be set. If 
 
 **Where will the meeting recording be stored?**
 
-- For non-Channel meetings, the recording is stored in a folder named. Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
+- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
 
   <i>recorder's OneDrive for Business</i>/**Recordings**
 
