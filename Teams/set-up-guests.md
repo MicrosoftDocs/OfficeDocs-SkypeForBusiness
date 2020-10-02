@@ -61,6 +61,8 @@ After you turn on guest access, it may take a few hours for the changes to take 
       - **Use memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.
       - **Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations. 
 
+    ![Guest permissions settings in Teams](media/manage-guest-access-image1.png)
+
 5. Click **Save**.
 
 ## External access (federation) vs. guest access
@@ -68,6 +70,8 @@ After you turn on guest access, it may take a few hours for the changes to take 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## See also
+
+[Set up secure collaboration with Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [Block guest users from a specific team](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
