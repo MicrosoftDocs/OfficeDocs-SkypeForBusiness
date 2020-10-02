@@ -21,11 +21,11 @@ appliesto:
 If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY, URL Preview service, Paste Image Download, and/or UserVoice . These cloud-backed services are optional. Whether you use them is up to you. They're provided to you under the terms of the Microsoft Services Agreement and privacy statement. In some cases, other terms may also apply. This article lists our Teams cloud-backed services.
 
 > [!NOTE]
-> If you're an admin, see the following articles to learn how to give or restrict your users' ability to use optional connected experiences: ???
+> If you're an admin, see the [Manage privacy controls](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls) article to learn how to give or restrict your users' ability to use optional connected experiences.
 
 ## GIPHY
 
-GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you’re in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service). ???
+GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you’re in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service).
 
 ## URL Preview service  
 
