@@ -16,7 +16,6 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use NDI® technology in Microsoft Teams
@@ -45,7 +44,7 @@ When a user joins a meeting, they'll see a message that notifies them that the m
 
 The following image shows the banner message that a user sees in a Teams meeting.
 
-![An image of the NDI® technology banner that displays in a Teams meeting.](media/NDI-disclosure.png)
+![he NDI® technology banner that displays in a Teams meeting.](media/NDI-disclosure.png)
 
 The banner has a link to the [Microsoft privacy policy](https://aka.ms/teamsprivacy).
 
@@ -55,7 +54,7 @@ NDI® technology is supported in all locales. The following users are included i
 
 - In-tenant – full support, delivered based on ring/tenantId/userId (controlled by Meetings Policy)
 - Federated – no stream access (even when they have NDI® technology on)<sup>1</sup>
-- Freemium - no stream access
+- Premium - no stream access
 - Anonymous – no stream access
 - Guest – no stream access  
 
