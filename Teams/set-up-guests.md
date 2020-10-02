@@ -72,7 +72,7 @@ After you turn on guest access, it may take a few hours for the changes to take 
 
 ## See also
 
-[Set up secure collaboration with Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Set up secure collaboration with Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [Block guest users from a specific team](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
