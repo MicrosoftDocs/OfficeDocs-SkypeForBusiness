@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
 localization_priority: Normal

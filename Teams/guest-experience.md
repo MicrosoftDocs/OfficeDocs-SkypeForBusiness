@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH

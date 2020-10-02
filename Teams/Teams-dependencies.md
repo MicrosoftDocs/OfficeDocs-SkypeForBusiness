@@ -10,18 +10,17 @@ ms.collection:
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
   - SPO_Content
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
 appliesto: 
   - Microsoft Teams
+description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
 ---
 
-Authorize guest access in Microsoft Teams
-===========================================
+# Authorize guest access in Microsoft Teams
 
 To satisfy your organization’s requirements, you can manage Microsoft Teams guest access features and capabilities through four different levels of authorization. All the authorization levels apply to your Microsoft 365 or Office 365 organization. Each authorization level controls the guest experience as shown below:
 
