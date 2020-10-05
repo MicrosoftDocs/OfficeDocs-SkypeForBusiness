@@ -90,3 +90,12 @@
 | 9/21/2020 | [Exchange Unified Messaging Online migration support](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support) | modified |
 | 9/24/2020 | [Disable hybrid to complete migration to the cloud](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid) | modified |
 | 9/25/2020 | [Disable hybrid to complete migration to the cloud](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid) | modified |
+
+
+## Week of September 28, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/2/2020 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
+| 10/2/2020 | [Phones and Devices for Skype for Business](/SkypeForBusiness/certification/devices-ip-phones) | modified |
