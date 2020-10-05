@@ -80,7 +80,7 @@ Watch "Meeting Recording" for more information.
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
-Even if a policy says it’s already set to **Stream**, it might not be set. If it's set to nothing, then the default is Stream. If you want to opt-out, you **must** reset the policy to **Stream** to ensure that Stream is the default.
+Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive, then you must reset the policy to **Stream** to ensure that it's the default.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -122,3 +122,7 @@ Teams meeting recording files live in OneDrive for Business and SharePoint and a
 **How can I play a Teams meeting recording?**
 
 Your video will play on the video player of OneDrive for Business or SharePoint depending on where you access the file.
+
+**If you plan on deprecating adding to Stream, will existing videos stay as is and for how long?**
+
+Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to ODSP as well. Check [here](https://docs.microsoft.com/stream/streamnew/classic-migration) for more information.
