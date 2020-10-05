@@ -683,12 +683,15 @@
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Bookings app and virtual visits](bookings-app-admin.md)
 ### [Teams policy packages for Healthcare](policy-packages-healthcare.md)
-### [Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### Secure messaging policies
+#### [Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Teams templates for Healthcare organizations in the admin console](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [Overview of Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### Teams templates for Healthcare organizations
+#### [Use Teams healthcare templates in the admin console](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Manage the Lists app](manage-lists-app.md)
-### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+### Shifts for Teams
+#### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
