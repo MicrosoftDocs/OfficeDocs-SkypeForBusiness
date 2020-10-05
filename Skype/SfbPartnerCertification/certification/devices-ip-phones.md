@@ -38,8 +38,6 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | AudioCodes |440HD IP Phone|UC440HD_3.1.3.144.18|5/06/2019|
 | AudioCodes |430HD IP Phone|UC430HD_3.1.3.144.18|5/06/2019|
 | AudioCodes |445HD IP Phone|3.1.2.89 |12/21/2018|
-| AudioCodes |450HD IP Phone|3.0.4.120 |1/12/2018|
-| AudioCodes |405HD IP Phone|3.0.1.89 |6/14/2017|
 | Crestron |Flex UC-P100-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 | Crestron |Flex UC-P110-S IP Phone (upgradeable to Teams)|55.66.91.11 |03/14/2019|
 |Poly| Trio C60|5.9.3.7392|4/15/2020|
@@ -57,18 +55,10 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Polycom |VVX 501 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 600 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 601 Business Media Phone|5.9.0.9373 |1/22/2019|
-| Polycom |VVX 250 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
-| Polycom |VVX 350 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
-| Polycom |VVX 450 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
-|Polycom| RealPresence Trio Family (8500 and 8800)|5.5.2.11338|10/9/2017|
 | Yealink |MP56 IP Phone |122.9.0.1|3/30/2020|
 | Yealink |T55 IP Phone (upgradeable to Teams) |55.9.0.9 |3/12/2019|
 | Yealink |T56A IP Phone (upgradeable to Teams) | 58.15.0.20 |12/30/2018|
 | Yealink |T58A IP Phone (upgradeable to Teams) | 58.15.0.20 |12/30/2018|
-| Yealink |T46S IP Phone |66.9.0.23 |4/21/2018|
-| Yealink |T48S IP Phone |66.9.0.23 |4/21/2018|
-| Yealink |T41S IP Phone |66.9.0.23 |11/30/2017|
-| Yealink |T42S IP Phone |66.9.0.23 |11/30/2017|
 
 
 ## Additional Resources
