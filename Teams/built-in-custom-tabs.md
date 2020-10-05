@@ -27,6 +27,9 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 ![Three screenshots of various content in tabs.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
+>[!Note]
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+
 ## Work with tabs
 
 - With every new channel, two tabs are provisioned by default: Conversations and Files.

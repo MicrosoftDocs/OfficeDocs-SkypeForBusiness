@@ -8,9 +8,10 @@
 
 # Training
 ## [Overview](training-microsoft-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.yml)
 ## [Admin training for Teams](itadmin-readiness.md)
-## [End user training for Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Teams sessions at Ignite 2020](ignite-2020-landing-page.md)
+## [Teams live training](instructor-led-training-teams-landing-page.yml)
+## [Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [How to roll out Teams](How-to-roll-out-teams.md)
@@ -50,7 +51,15 @@
 ## [Team expiration and renewal](team-expiration-renewal.md)
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
-## [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+## Work with Teams templates
+### [Use Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+### [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
+### [Create a custom Teams template](create-a-team-template.md)
+### [Create a template from an existing team](create-template-from-existing-team.md)
+### [Build a template from an existing template](create-template-from-existing-template.md)
+### [Financial category Teams templates](financial-teams-templates-in-the-admin-console.md)
+### [General category Teams templates](general-teams-templates-in-the-admin-console.md)
+### [Manufacturing category Teams templates](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## Communicate with external users
 ### [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md)
@@ -64,15 +73,12 @@
 ### Guest access
 #### [About guest access](guest-access.md)
 #### [Guest access checklist](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
-#### [How a guest joins a team](guest-joins.md)
-#### [What the guest experience is like](guest-experience.md)
-#### [Authorize guest access in Teams](teams-dependencies.md)
-#### [Turn on or turn off guest access in Teams](set-up-guests.md)
-#### [Manage guest access in Teams](manage-guests.md)
+#### [Guest experience](guest-experience.md)
+#### [Authorize guest access](teams-dependencies.md)
+#### [Turn guest access on or turn off](set-up-guests.md)
 #### [Add a guest to a team](add-guests.md)
 #### [View guest users in a team](view-guests.md)
 #### [Edit guest user information](edit-guests-information.md)
-#### [Use PowerShell to control guest access](guest-access-PowerShell.md)
 #### [Troubleshoot guest access](troubleshoot-guest-access.md)
 ## [Cortana in Teams](cortana-in-teams.md)
 
@@ -85,7 +91,6 @@
 ### [Assign policies to your users](assign-policies.md)
 ### [View your policy assignments in the Activity log](activity-log.md)
 ### [Manage app permission policies in Teams](teams-app-permission-policies.md)
-### [Block access to Sharepoint for specific users](block-access-sharepoint.md)
 ### [Manage app setup policies in Teams](teams-app-setup-policies.md)
 ### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Manage feedback policies in Teams](manage-feedback-policies-in-teams.md)
@@ -112,21 +117,25 @@
 # Apps, bots, and connectors
 
 ## [Overview](deploy-apps-microsoft-teams-landing-page.md)
+## [Integrate with Power Platform](teams-power-platfom-integration.md)
 ## [Manage apps for Teams](manage-apps.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Use built-in and custom tabs](built-in-custom-tabs.md)
 ## [Use Microsoft 365 or Office 365 and custom connectors](Office-365-custom-connectors.md)
 ## [Resource-specific consent](resource-specific-consent.md)
-## [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
-## [Publish a custom app by uploading an app package](upload-custom-apps.md)
+## Custom apps
+### [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+### [Manage Power Platform apps in the Microsoft Teams admin center](manage-power-platform-apps.md)
+### [Publish a custom app by uploading an app package](upload-custom-apps.md)
 ## [App certification](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [View app permissions and grant admin consent in the Microsoft Teams admin center](app-permissions-admin-center.md)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Purchase services for Teams third-party apps](purchase-third-party-apps.md)
 ## [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Manage the Lists app for your organization in Teams](manage-lists-app.md)
 ## [Manage the Tasks app for your organization](manage-tasks-app.md)
-## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md)
+## [Manage the Praise app in the Teams admin center](manage-praise-app.md)
 ## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -179,10 +188,12 @@
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Use NDI® technology in Teams](use-NDI-in-meetings.md)
 ## [Raise your hand option in Teams meetings](raise-hand-meetings.md)
 ## [Teams meetings on unsupported browsers](unsupported-browsers.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ## [Teams cloud meeting recording](cloud-recording.md)
+## [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 ## [Contact Center integrations](teams-contact-center.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Set up the Call me feature for your users](set-up-the-call-me-feature-for-your-users.md)
@@ -203,8 +214,8 @@
 ### [Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit](audio-conferencing-subscription-dial-out.md)
 
 
-### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
-
+### [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md)
+### [Set up Audio Conferencing - quickstart for small and medium businesses](audio-conferencing-smb.md)
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### Manage your audio conferencing bridge
@@ -255,7 +266,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Cloud Video Interop](cloud-video-interop.md)
 
 ## Live events
@@ -270,7 +280,7 @@
 
 # Voice - Phone System and PSTN connectivity 
 
-## [Plan your deployment](cloud-voice-landing-page.md)
+## [Plan your Teams voice solution](cloud-voice-landing-page.md)
 
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
@@ -290,14 +300,15 @@
 #### [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Auto attendants and call queues 
-#### [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)
-#### [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+#### [Planning](plan-auto-attendant-call-queue.md)
+#### [Auto attendant setup](create-a-phone-system-auto-attendant.md)
+#### [Call queue setup](create-a-phone-system-call-queue.md)
 #### [Small business example - Set up an auto attendant](tutorial-org-aa.yml)
 #### [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage Teams resource accounts](manage-resource-accounts.md)
-#### [Create a Cloud call queue](create-a-phone-system-call-queue.md)
 #### [Set up holidays](set-up-holidays-in-teams.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Dial and voice reference](dial-voice-reference.md)
 
 ### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
@@ -362,7 +373,6 @@
 ##### [Definitions and RFC standards](direct-routing-protocols.md)
 ##### [SIP protocol](direct-routing-protocols-SIP.md)
 ##### [Media protocols](direct-routing-protocols-media.md)
-#### [Set up the Ringback bot](direct-routing-ringback-bot.md)
 #### [Manage voice routing policies](manage-voice-routing-policies.md)
 
 
@@ -415,23 +425,31 @@
 
 
 ## Reference
-### Country phone number management 
+### Country phone number management
 #### [Phone number management for Australia](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Phone number management for Austria](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
 #### [Phone number management for Belgium](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Phone number management for Canada](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
+#### [Phone number management for Denmark](manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md)
 #### [Phone number management for France](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [Phone number management for Germany](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [Phone number management for Ireland](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
+#### [Phone number management for Italy](manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md)
 #### [Phone number management for Japan](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [Phone number management for Portugal](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [Phone number management for Spain](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
-#### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
-#### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+
+#### [Phone number management for Sweden](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
+#### [Phone number management for Switzerland](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
+#### [Phone number management for the United Kingdom](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
+#### [Phone number management for the United States](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 ### Toll-free dialing limitations and restrictions
 #### [Overview](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+#### [Austria](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
 #### [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 #### [Belgium](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -459,6 +477,7 @@
 #### [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 #### [Ireland](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 #### [Israel](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+#### [Italy](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 #### [Japan](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 #### [Kenya](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 #### [Luxembourg](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -482,8 +501,9 @@
 #### [Slovenia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 #### [South Africa](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [South Korea](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [Spain]](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
+#### [Spain](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [Sweden](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+#### [Switzerland](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 #### [Taiwan](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 #### [Thailand](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 #### [Turkey](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
@@ -662,6 +682,7 @@
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Get started with Teams templates for Healthcare organizations in the admin console](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Get started with Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -696,10 +717,12 @@
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Get started with Retail Teams templates in the admin console](retail-teams-templates-in-the-admin-console.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [Support remote workers (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [Get started with Government Teams templates](government-teams-templates-in-the-admin-console.md)
 ### [Manage the Office 365 G1 Trial offer](g1-trial-license.md)
 ### [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
@@ -733,7 +756,12 @@
 #### [Search the audit log for events](audit-log-events.md)
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
+### [Data collection practices](data-collection-practices.md)
 ### [Location of data in Teams](location-of-data-in-teams.md)
+### [Block access to Sharepoint Online for specific users](block-access-sharepoint.md)
+### [Policy control overview](policy-control-overview.md)
+### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
+### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -780,8 +808,6 @@
 # Reference
 
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## [Data collection practices](data-collection-practices.md)
 
 ## Get ready to roll out Teams
 ### [Prepare your organization's network for Teams](prepare-network.md)
@@ -979,5 +1005,5 @@
 ### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 ## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Export content with the Microsoft Teams Export API](export-teams-content.md)
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
