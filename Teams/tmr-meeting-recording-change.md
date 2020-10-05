@@ -80,7 +80,7 @@ Watch "Meeting Recording" for more information.
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
-Even if a policy says it’s already set to **Stream**, it might not be set. If it's set to nothing, then the default is Stream. If you want to opt-out, you **must** reset the policy to **Stream** to ensure that Stream is the default.
+Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive, then you must reset the policy to **Stream** to ensure that it's the default.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
