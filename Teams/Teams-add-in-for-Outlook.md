@@ -173,7 +173,7 @@ If your administrator has configured Microsoft Exchange to [control access to Ex
 
 ### Incorrect Meeting Formatting
 
-If you have issues with proper formatting when setting up Microsoft Teams meetings in Outlook and your organization uses the VBA For Office Addin, you may need to enable that addin to ensure that the meeting will format properly. Refer to [View, manage, and install add-ins in Office programs](https://support.microsoft.com/office/view-manage-and-install-add-ins-in-office-programs-16278816-1948-4028-91e5-76dca5380f8d) for the process that best applies to your version of Outlook.
+If you have issues with proper formatting when setting up Microsoft Teams meetings in Outlook and your organization uses the Microsoft Visual Basic for Applications for Microsoft Office add-in, you may need to enable that add-in to ensure that the meeting will format properly. Refer to [View, manage, and install add-ins in Office programs](https://support.microsoft.com/office/view-manage-and-install-add-ins-in-office-programs-16278816-1948-4028-91e5-76dca5380f8d) for the process that best applies to your version of Outlook.
 
 ## Related topics
 
