@@ -1957,6 +1957,16 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "Teams/guest-joins.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/guest-access",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Teams/manage-guests.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/guest-access",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "Teams/iw-trial-teams.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-exploratory",
         "redirect_document_id": true
