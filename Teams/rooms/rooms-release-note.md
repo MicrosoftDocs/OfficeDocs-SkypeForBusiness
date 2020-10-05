@@ -70,6 +70,10 @@ Introduced in this update:
 - Start local live closed captions from MTR 
 - Join Zoom meetings from Teams Rooms with direct guest join (Preview)
 
+> [!NOTE]
+> 3x3 video gallery and local live closed captions are delivered through Microsoft Teams service. These features are available to all Teams Rooms with application version 4.5.37.0 and above. 
+
+
 ### 4.5.37.0 (08/14/2020)
 
 Introduced in this update:
