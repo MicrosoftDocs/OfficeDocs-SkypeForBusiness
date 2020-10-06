@@ -23,5 +23,3 @@ description: "Set up and use Call Analytics to identify and troubleshoot Skype f
 ---
 
 # Using Call Quality in your organization
-
-
