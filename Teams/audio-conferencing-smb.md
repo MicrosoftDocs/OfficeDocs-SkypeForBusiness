@@ -83,21 +83,19 @@ To learn more, see [Schedule a Teams meeting in Outlook](https://support.microso
 
 ## Audio Conferencing phone numbers
 
-There are two types of numbers that you can use for your conferencing bridge. A shared number or a
+There are two types of numbers that you can use for your conferencing bridge. You can use **shared numbers** (discussed earlier in this article) or **dedicated numbers**. Here's more information about each.
 
-## Step 3: Find or get a phone number for your conferencing bridge
+### Shared numbers
 
-You'll need a phone number (also called a service number) for your conferencing bridge so that it can be used in meeting invitations. You can choose to use a **shared number** or a **dedicated number**. Both types of numbers can be used by any caller to join a meeting.
+A shared number is a number that's shared across all organizations. Shared numbers are toll numbers and are automatically assigned when you set up Audio Conferencing.
 
-### Use a shared number
+To see the default number that's assigned to your conferencing bridge, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Conference bridges**, and then find the number for the location that's nearest to you.
 
-A shared number is a number that's shared across all organizations. Shared numbers are automatically assigned when you set up Audio Conferencing. These shared numbers are toll numbers, in which long-distance charges may apply.
+### Dedicated numbers
 
-To find the default number that's assigned to your conferencing bridge, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Conference bridges**, and then find the number for the location that's nearest to you.
+A dedicated number is a number that's available only to your users. A dedicated number can be a toll number or a toll-free number. To use a dedicated number, you'll have to first get the number, assign it to your conferencing bridge, and then assign the number to each person who will lead meetings.
 
-### Get a dedicated number
-
-A dedicated number is a number that's available only to your users. A dedicated number can be a toll number or a toll-free number. To use a dedicated number, you'll have to first get the number, and then assign it to your conferencing bridge.  
+#### Get a dedicated number
 
 There are a couple ways to get a dedicated number. You can get a number from Microsoft or transfer (port) an existing number from your current service provider to Microsoft. To learn more about how to do this, see [Getting service numbers](getting-service-phone-numbers.md).
 
@@ -110,9 +108,7 @@ After you have your number, assign it to your conference bridge. Use the Microso
 2. Select **Add**, and then select **Toll number** or **Toll-free number**.
 3. In the **Add phone number** pane, select the number, and then select **Apply**.
 
-## Step 4: Assign a dial-in number to users who lead meetings
-
-Assign a dial-in number for each person who will lead meetings. Use the Microsoft Teams admin center to do this.
+Then, assign the number for each person who will lead meetings. Use the Microsoft Teams admin center to do this.
 
 1. In the left navigation of the Microsoft Teams admin center, select **Users**, click the display name of the user, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, select a number in the **Toll number** or **Toll-free** number lists, and then select **Apply**.
