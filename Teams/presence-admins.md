@@ -61,6 +61,17 @@ Users receive calls in all presence states except for Do not disturb, in which i
 
 Users can add people to their priority access list by going to **Settings** > **Privacy** in Teams. People who have priority access can contact the user even when the user is in Do not disturb.
 
+## User configured states expiration
+When a user selects a specific presence state, it takes precedence on any app activity update. For example, if a user sets herself as Do not disturb, if she attends a meeting or answers a call, her presence will remain as Do not disturb.
+
+User configured states have default expiration settings in Teams to prevent users to keep showing in a state that may not be relevant after some time.
+|User configured state|Default expiration|
+|:--- |:---|
+| Busy|1 day|
+| Do not disturb|1 day|
+| Others|7 days|
+|||
+
 ## Admin settings in Teams compared to Skype for Business
 
 The following admin settings Skype for Business are different in Teams:
