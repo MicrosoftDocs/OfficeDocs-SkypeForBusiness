@@ -36,7 +36,7 @@ For others who desire integrated solutions with business tools and workflows to 
 
 ## Connected Contact Center for Microsoft Teams Certification Program
 
-The APIs allowing partners to develop and integrate CCaaS solutions for Teams are available with Advanced Communications license. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.
+The APIs allow partners to develop and integrate CCaaS solutions for Teams. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.
 
 The following partners are in the process of certifying their solution for Microsoft Teams and are ready to engage customers:
 
