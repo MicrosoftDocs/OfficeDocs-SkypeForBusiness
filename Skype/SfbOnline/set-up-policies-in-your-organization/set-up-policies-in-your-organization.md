@@ -27,6 +27,6 @@ Policies help determine the features of Skype for Business Online that are made 
 - [Block point-to-point file transfers](block-point-to-point-file-transfers.md)
 - [Create custom external access policies](create-custom-external-access-policies.md)
 - [Retaining large files attached to a meeting](retaining-large-files-attached-to-a-meeting.md)
-- [Set up conferencing policies for your organization](set-up-policies-in-your-organization.md)
-- [Set up mobile policies for your organization](set-up-mobile-policies-in-your-organization.md)
+- [Set up conferencing policies for your organization](set-up-conferencing-policies-for-your-organization.md)
+- [Set up mobile policies for your organization](set-up-mobile-policies-for-your-organization.md)
 - [Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
