@@ -44,10 +44,8 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 | ![Yellow clock icon, indicates away](media/Presence_Away.png) Away| ![Yellow clock icon, indicates away](media/Presence_Away.png) Away|
 || ![Yellow clock icon, indicates away](media/Presence_Away.png) Away Last Seen *time*|
 |![Yellow clock icon, indicates away, be right back](media/Presence_Away.png) Be right back| |
-|| ![Yellow clock icon, indicates away, off work](media/Presence_Away.png)  Off Work|
-|| ![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline |
+|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Appear offline | ![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline| |
 || ![Open gray circle, indicates status unknown](media/Presence_Unknown.png) Status unknown|
-||![Open red circle with diagonal line, indicates blocked](media/Presence_Blocked.png) Blocked |
 || ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office|
 |||
 
