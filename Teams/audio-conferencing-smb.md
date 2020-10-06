@@ -39,6 +39,11 @@ In this article, we'll walk you through how to set up Audio Conferencing. You on
 
 ## Set up Audio Conferencing 
 
+When you set up Audio Conferencing, a phone number is automatically assigned to your conferencing bridge, so that it can be used in meeting invitations. The phone number that's assigned as the default number of your conferencing bridge will be one from the country/region of your organization. This phone number is a toll number, in which long-distance charges may apply.
+
+> [!NOTE]
+> You can also use a toll-free number, which requires a few additional steps. To learn more about phone numbers for your conferencing bridge, see [Audio Conferencing phone numbers](#audio-conferencing-phone-numbers) later in this article.
+
 ### Step 1: Get Audio Conferencing licenses
 
 Get one Audio Conferencing license for each person who will lead meetings. Use the Microsoft 365 admin center to do this.
@@ -67,8 +72,6 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 3. In the **Manage product licenses** pane, select **Assign more**.
 4. Select the **Microsoft 365 Audio Conferencing** check box, and then select **Save changes**.  
 
-You'll need a phone number (also called a service number) for your conferencing bridge so that it can be used in meeting invitations. You can choose to use a **shared number** or a **dedicated number**. Both types of numbers can be used by any caller to join a meeting.
-
 ## Schedule Teams meetings in Outlook
 
 Your meeting organizers can now schedule meetings in Outlook. In Outlook, go to **Calendar**, and then select the **New Teams meeting** button. The meeting dial-in numbers and the conference ID are automatically added to the meeting invitation that's sent to meeting attendees.
@@ -78,16 +81,9 @@ To learn more, see [Schedule a Teams meeting in Outlook](https://support.microso
 > [!NOTE]
 > If you want, you can customize meeting invitations to add your company logo, links to your support website and legal disclaimer, and a text-only footer. See [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations).
 
+## Audio Conferencing phone numbers
 
-**************************
-
-
-
-A shared number is a number that's shared across all organizations. Shared numbers are automatically assigned when you set up Audio Conferencing. These shared numbers are toll numbers, in which long-distance charges may apply.
-
-To find the default number that's assigned to your conferencing bridge, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Conference bridges**, and then find the number for the location that's nearest to you.
-
-
+There are two types of numbers that you can use for your conferencing bridge. A shared number or a
 
 ## Step 3: Find or get a phone number for your conferencing bridge
 
