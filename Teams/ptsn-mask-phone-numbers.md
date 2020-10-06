@@ -38,8 +38,6 @@ This setting is applied to all the surfaces in the meeting where phone numbers a
 
 ### Using the Microsoft Teams admin center
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
-
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
 2. At the top of the Conference Bridges page, select **Bridge settings**.
