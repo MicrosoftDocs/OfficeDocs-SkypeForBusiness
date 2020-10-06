@@ -37,7 +37,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
-|Number of Private channels per team    |30|
+|Number of Private channels per team    |30| (includes deleted channels)&sup3;
 |Number of members in a Private channel    |250|
 |Maximum number of members in an Office 365 group that can be converted to a team    |10,000|
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
@@ -46,7 +46,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>2</sup> This limit includes archived teams. To go beyond the maximum limit, you must contact Microsoft support.
 
-<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
