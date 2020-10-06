@@ -33,7 +33,7 @@ This article describes the prerequisites and configuration steps required to ena
 
 Before configuring On-network Conferencing, make sure your organization meets the following prerequisites: 
 
-- Ensure that all users in your organization who are enabled, or will be enabled, for Audio Conferencing are in Teams Only mode. The routing of inbound and outboud Audio Conferencing calls through On-network Conferencing is only supported for Teams meetings.
+- Ensure that all users in your organization who are enabled, or will be enabled, for Audio Conferencing are in Teams Only mode. The routing of inbound and outbound Audio Conferencing calls through On-network Conferencing is only supported for Teams meetings.
 
 - Assign Audio Conferencing licenses to all users who will be using On-network Conferencing.
 
