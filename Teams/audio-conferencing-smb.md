@@ -24,8 +24,6 @@ description: "Learn how to set Audio Conferencing in your small or medium busine
 
 # Set up Audio Conferencing for small and medium businesses
 
-## Overview
-
 With Audio Conferencing, people can call in to Teams meetings using a phone instead of using the Teams app on their mobile device or from their computer.  
 
 If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses, you can get Audio Conferencing free for one year. This free offer is available starting October 1, 2020.
