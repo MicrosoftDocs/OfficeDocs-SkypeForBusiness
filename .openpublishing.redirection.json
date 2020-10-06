@@ -1707,11 +1707,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Skype/SfbServer/manage/conferencing/index.md", 
-      "redirect_url": "https://docs.microsoft.com/en-us/skypeforbusiness/manage/conferencing/index", 
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/skypeacademy-training.md", 
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online", 
       "redirect_document_id": true
