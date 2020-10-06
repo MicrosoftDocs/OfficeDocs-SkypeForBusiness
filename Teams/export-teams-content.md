@@ -89,13 +89,13 @@ Namespace: microsoft.graph
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "0de69e5e-2da8-4cf2-821f-5e6585b2c65b",
+                    "id": \[{"@odata.type": "microsoft.graph.user"}\],
                     "displayName": "User Name",
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "19:0de69e5e-2da8-4cf2-821f-5e6585b2c65b_5c64e248-3269-4268-a36e-0f80314e9c39@unq.gbl.spaces"
+"chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",
