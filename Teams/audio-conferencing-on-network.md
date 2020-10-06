@@ -51,6 +51,8 @@ You need to configure the telephony equipment of your sites to route calls to an
 
 You can find the service numbers in Teams admin center under **Meetings -> Conferencing Bridges** or by using the Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge. For additional information, see a list of [Audio Conferencing numbers in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
+> [!NOTE]
+> This feature is not available to users with the pay-per-minute Audio Conferencing license.
 
 ## Enable the routing of Teams meeting dial-out calls through Direct Routing
 
