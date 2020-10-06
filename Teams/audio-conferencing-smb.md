@@ -35,9 +35,9 @@ The Audio Conferencing add-on license can be applied to users who have Microsoft
 
 In this article, we'll walk you through how to set up Audio Conferencing. You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to meetings don't need licenses or other setup. To learn more, see [Audio Conferencing](audio-conferencing-in-office-365.md).
 
-## Set up Audio Conferencing 
+## Set up Audio Conferencing
 
-When you set up Audio Conferencing, a phone number is automatically assigned to your conferencing bridge, so that it can be used in meeting invitations. The phone number that's assigned as the default number of your conferencing bridge will be one from the country/region of your organization. This phone number is a toll number, in which long-distance charges may apply.
+When you set up Audio Conferencing, a phone number is automatically assigned to your conferencing bridge so that it can be used in meeting invitations. The phone number that's assigned as the default number of your conferencing bridge will be one from the country or region of your organization. This phone number is a toll number, in which long-distance charges may apply.
 
 > [!NOTE]
 > You can also use a toll-free number, which requires a few additional steps. To learn more about phone numbers for your conferencing bridge, see [Audio Conferencing phone numbers](#audio-conferencing-phone-numbers) later in this article.
@@ -46,7 +46,7 @@ When you set up Audio Conferencing, a phone number is automatically assigned to 
 
 Get one Audio Conferencing license for each person who will lead meetings. Use the Microsoft 365 admin center to do this.
 
-1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**, and then at the bottom of the page, select **Add-ons**. 
+1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**, and then at the bottom of the page, select **Add-ons**.
 2. Select **Microsoft 365 Audio Conferencing Adoption Promo** > **Details**, and then select **Get now**.
 3. Enter the number of licenses you need for your meeting organizers, and then complete your order.
 
@@ -63,7 +63,7 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 
 1. In the Microsoft 365 admin center, go to **Users** > **Active users**.  
 2. Select the row of the user you want to assign the license to, and then in the pane, select **Licenses and Apps**.
-3. Select the **Microsoft 365 Audio Conferencing** check box, and then select **Save changes**. 
+3. Select the **Microsoft 365 Audio Conferencing** check box, and then select **Save changes**.
 
 #### Assign a license to multiple users
 
@@ -77,7 +77,7 @@ Assign a license to each person who will lead meetings. Use the Microsoft 365 ad
 Your meeting organizers can now schedule meetings in Outlook. In Outlook, go to **Calendar**, and then select the **New Teams meeting** button. The meeting dial-in numbers and the conference ID are automatically added to the meeting invitation that's sent to meeting attendees. To learn more, see [Schedule a Teams meeting in Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f).
 
 > [!NOTE]
-> If you want, you can customize meeting invitations to add your company logo, links to your support website and legal disclaimer, and a text-only footer. See [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations).
+> If you want, you can customize meeting invitations to add your company logo, links to your support website and legal disclaimer, and a text-only footer. To learn more, see [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations).
 
 ## Audio Conferencing phone numbers
 
