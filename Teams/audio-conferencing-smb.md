@@ -99,8 +99,7 @@ A dedicated number is a number that's available only to your users. A dedicated 
 
 There are a couple ways to get a dedicated number. You can get a number from Microsoft or transfer (port) an existing number from your current service provider to Microsoft. To learn more about how to do this, see [Getting service numbers](getting-service-phone-numbers.md).
 
-> [!NOTE]
-> If you use a toll-free number, you have to first assign a Communications Credits license to each person who will lead meetings. To learn more, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
+Keep in mind that if you use a toll-free number, you have to first assign a Communications Credits license to each person who will lead meetings. To learn more, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
 After you have your number, assign it to your conference bridge. Use the Microsoft Teams admin center to do this.
 
@@ -108,7 +107,7 @@ After you have your number, assign it to your conference bridge. Use the Microso
 2. Select **Add**, and then select **Toll number** or **Toll-free number**.
 3. In the **Add phone number** pane, select the number, and then select **Apply**.
 
-Then, assign the number for each person who will lead meetings. Use the Microsoft Teams admin center to do this.
+Then, assign the number to each person who will lead meetings. Use the Microsoft Teams admin center to do this.
 
 1. In the left navigation of the Microsoft Teams admin center, select **Users**, click the display name of the user, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, select a number in the **Toll number** or **Toll-free** number lists, and then select **Apply**.
