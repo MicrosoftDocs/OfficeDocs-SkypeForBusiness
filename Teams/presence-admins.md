@@ -63,6 +63,7 @@ Users can add people to their priority access list by going to **Settings** > **
 When a user selects a specific presence state, it takes precedence over any app activity update. For example, if a user sets herself as Do not disturb, her presence will remain as Do not disturb even if she attends a meeting or answers a call.
 
 User configured states have default expiration settings in Teams, in order to prevent users from displaying a status that may not be relevant after a period of time.
+
 |User configured state|Default expiration|
 |:--- |:---|
 | Busy|1 day|
