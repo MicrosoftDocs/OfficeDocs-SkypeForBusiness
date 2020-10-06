@@ -52,8 +52,10 @@ Get one Audio Conferencing license for each person who will lead meetings. Use t
 2. Select **Microsoft 365 Audio Conferencing Adoption Promo** > **Details**, and then select **Get now**.
 3. Enter the number of licenses you need for your meeting organizers, and then complete your order.
 
-> [!NOTE]
-> Clear or select the **Automatically assign to all of your users with no licenses**, depending on whether you want to automatically assign an Audio Conferencing license to all users who don't have this license.
+    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="Screenshot of Audio Conferencing Adoption Promo license":::
+
+    > [!NOTE]
+    > Clear or select the **Automatically assign to all of your users with no licenses**, depending on whether you want to automatically assign an Audio Conferencing license to all users who don't have this license.
 
 ### Step 2: Assign an Audio Conferencing license to users who lead meetings
 
@@ -94,8 +96,6 @@ To see the default number that's assigned to your conferencing bridge, in the le
 ### Dedicated numbers
 
 A dedicated number is a number that's available only to your users. A dedicated number can be a toll number or a toll-free number. To use a dedicated number, you'll have to first get the number, assign it to your conferencing bridge, and then assign the number to each person who will lead meetings.
-
-#### Get a dedicated number
 
 There are a couple ways to get a dedicated number. You can get a number from Microsoft or transfer (port) an existing number from your current service provider to Microsoft. To learn more about how to do this, see [Getting service numbers](getting-service-phone-numbers.md).
 
