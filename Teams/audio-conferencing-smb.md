@@ -117,6 +117,7 @@ Then, assign the number for each person who will lead meetings. Use the 
 
 - [Audio Conferencing](audio-conferencing-in-office-365.md)
 - [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md)
+- [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 - [Audio Conferencing common questions](audio-conferencing-common-questions.md)
 - [Getting service numbers](getting-service-phone-numbers.md)
 - [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
