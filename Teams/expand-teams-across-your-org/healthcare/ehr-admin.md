@@ -54,7 +54,7 @@ This integration supports the following virtual visit use cases in web and mobil
 
 Configuring your healthcare organization to launch virtual visits with Microsoft Teams starts by launching the EHR Connector URL. Use the test URL to configure and test from your Epic test environment. Use the production URL when you're ready to test from Epic production environment.
   
-- Test environment [<https://ehrconnector-ppe.teams.microsoft.com/(https://ehrconnector-ppe.teams.microsoft.com/>)
+- Test environment [<https://ehrconnector-ppe.teams.microsoft.com/](https://ehrconnector-ppe.teams.microsoft.com/)
 - Production environment [https://ehrconnector.teams.microsoft.com/](https://ehrconnector.teams.microsoft.com/)
 
 The M365 admin and Epic admin from your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization.
