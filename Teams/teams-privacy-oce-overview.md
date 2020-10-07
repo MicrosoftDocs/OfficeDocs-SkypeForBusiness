@@ -18,7 +18,7 @@ appliesto:
 
 # Overview of optional connected experiences in Microsoft Teams
 
-If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY, URL Preview service, Paste Image Download, and/or UserVoice . These cloud-backed services are optional. Whether you use them is up to you. They're provided to you under the terms of the Microsoft Services Agreement and [privacy statement](https://privacy.microsoft.com/). In some cases, other terms may also apply. This article lists our Teams cloud-backed services.
+If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY, URL Preview service, Paste Image Download, and/or UserVoice . These cloud-backed services are optional. Whether you use them is up to you. They're provided to you under the terms of the [Online Service Terms](https://www.microsoft.com/licensing/product-licensing/products) and [privacy statement](https://privacy.microsoft.com/). In some cases, other terms may also apply. This article lists our Teams cloud-backed services.
 
 > [!NOTE]
 > If you're an admin, see the [Manage privacy controls](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls) article to learn how to give or restrict your users' ability to use optional connected experiences.
