@@ -21,8 +21,6 @@ description: Use Microsoft Teams to set up your Telehealth system
 
 # Virtual Visits with Microsoft Teams
 
-## Integration into EHR Admin
-
 Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of traditionally fragmented systems so they can spend time providing the best possible care. Built on the Microsoft 365 cloud, Microsoft Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
 - Launch Teams meetings from both provider and patient portals.
@@ -37,7 +35,7 @@ This integration supports the following virtual visit use cases in web and mobil
 
 - Multi-provider appointments.
 
-## Prerequisites
+**Prerequisites**
 
 - Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer.
 
@@ -47,16 +45,16 @@ This integration supports the following virtual visit use cases in web and mobil
 
 - Organizations must have a current integration with Epic.
 
-- Your systems must meet all [Software and browser prerequisites](https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app).
+- Your systems must meet all [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
-> [!Note] 
+> [!Note]
 > Request your Epic resource to provide the Epic-Microsoft Teams Telehealth Integration Guide available in the Epic marketplace.
 
-### Connector Setup
+## Connector Setup
 
 Configuring your healthcare organization to launch virtual visits with Microsoft Teams starts by launching the EHR Connector URL. Use the test URL to configure and test from your Epic test environment. Use the production URL when you're ready to test from Epic production environment.
   
-- Test environment [https://ehrconnector-ppe.teams.microsoft.com/(https://ehrconnector-ppe.teams.microsoft.com/)
+- Test environment [<https://ehrconnector-ppe.teams.microsoft.com/(https://ehrconnector-ppe.teams.microsoft.com/>)
 - Production environment [https://ehrconnector.teams.microsoft.com/](https://ehrconnector.teams.microsoft.com/)
 
 The M365 admin and Epic admin from your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization.
@@ -65,19 +63,25 @@ The M365 admin and Epic admin from your organization must complete the informati
 
 Your M365 administrator must receive a valid FHIR base URL from your Epic administrator and the username of the configuration approver. The M365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
 
-- The FHIR base URL is a constant address that all FHIR API endpoints for the server's default FHIR version live under. 
-  Sample URL https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST
+- The FHIR base URL is a constant address that all FHIR API endpoints for the server's default FHIR version live under.
+  Sample URL <https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST>
 
 - Configuration approver name is the name of the Epic system administrator who will be responsible for approving the configuration overall process.
 
-### Verify and Approve configuration 
+  ![The configuration approver's name is selected from a list in the EHR connector.](../../media/ehc-provider-1.png)
+
+### Verify and Approve configuration
 
 The Epic administrator for your healthcare organization who was added as an approver must use the same EHR Connector link from the previous step to sign in using their Microsoft credentials. After successful validation, the user is going to be asked to sign in to Epic to validate the level of access for the user.
 
-> [!Note] 
+> [!Note]
 > M365 admin and Epic admin in your organizations can be the same person. In that case, add your own username as approver in the first step. You'll still need to login to Epic to validate your access.
 
-After a successful Epic signin, the Epic administrator must approve the configuration. If the configuration isn't correct, the M365 admin will have the ability to modify the original configurations by logging in to the Microsoft EHR Connector site again.
+  ![Verify the credential configuration.](../../media/ehc-provider-2.png)
+
+After a successful Epic sign-in, the Epic administrator must approve the configuration. If the configuration isn't correct, the M365 admin will have the ability to modify the original configurations by logging in to the Microsoft EHR Connector site again.
+
+![Confirm that the EHR connector is configured and option to change the configuration.](../../media/ehc-approve-3.png)
 
 ### Review and Finish configuration
 
@@ -85,12 +89,14 @@ When the configuration information is approved by the Epic admin, review the map
 
 > [!Note]  
 > Request your Epic resource to provide the Epic-Microsoft Teams Telehealth Integration Guide (available in the Epic marketplace) and support during the key data elements configuration.
- 
-## Test Launching Teams virtual visits
+
+![The integration information is displayed.](../../media/ehc-final-config-4.png)
+
+## Launch Teams virtual visits
 
 After completing the EHR Connector steps and Epic configuration, your organization is ready to support video visits with Microsoft Teams.
 
-### Prerequisites
+### Virtual visit prerequisites
 
 - Your systems must meet all Software and browser prerequisites.
 
@@ -108,11 +114,13 @@ Key features of the patient experience include:
 
 - Patients aren't required to download Microsoft Teams app to launch a virtual visit.
 
-- Virtual visits are supported in a browser. See [Software and browser prerequisites](https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app) for a list of supported software and browsers.
+- Virtual visits are supported in a browser. See [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) for a list of supported software and browsers.
 
 - Patients will be placed in a lobby until the healthcare provider joins the appointment and permits access to the virtual visit.
 
 - Testing of the video and microphone is allowed before joining the virtual visit
+
+  ![Patient experience of the virtual visit](../../media/ehc-virtual-visit-5.png)
 
 ### Provider Experience
 
@@ -122,13 +130,17 @@ Key features of the provider experience:
 
 - Providers can join virtual visits using supported browsers or the Microsoft Teams web application.
 
-- Providers must perform a one-time sign in to their Microsoft account when joining a virtual visit.
+- Providers must do a one-time sign-in to their Microsoft account when joining a virtual visit.
 
-- After the one-time signin, the provider will be taken straight to the virtual appointment.
+- After the one-time sign-in, the provider will be taken straight to the virtual appointment.
 
 - Providers have the option to end the call for all participants in the virtual appointment.
 
+  ![Provider experience of a virtual visit with patient](../../media/ehc-provider-experience-6.png)
+
 An important feature supported by the integration is the real-time updates in the provider portal of connect and disconnect of participants for a given appointment. That way, the provider can join the virtual visit only when the patient is ready to take the consultation.
+
+![Provider experience to end a visit](../../media/ehc-provider-experience-7.png)
 
 ### Privacy and Location of Data
 
