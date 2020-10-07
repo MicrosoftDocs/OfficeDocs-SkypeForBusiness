@@ -19,7 +19,7 @@ ms.reviewer:
 description: Use Microsoft Teams to set up your Telehealth system
 ---
 
-# Virtual Visits with Microsoft Teams
+# Virtual Visits with Teams - Integration into EHR
 
 Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of traditionally fragmented systems so they can spend time providing the best possible care. Built on the Microsoft 365 cloud, Microsoft Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
@@ -45,7 +45,7 @@ This integration supports the following virtual visit use cases in web and mobil
 
 - Organizations must have a current integration with Epic.
 
-- Your systems must meet all [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Your systems must meet all [software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
 > [!Note]
 > Request your Epic resource to provide the Epic-Microsoft Teams Telehealth Integration Guide available in the Epic marketplace.
@@ -98,7 +98,7 @@ After completing the EHR Connector steps and Epic configuration, your organizati
 
 ### Virtual visit prerequisites
 
-- Your systems must meet all Software and browser prerequisites.
+- Your systems must meet all [software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
 - Healthcare organization must have completed the mapping between the organization and Microsoft Teams.
 
@@ -114,7 +114,7 @@ Key features of the patient experience include:
 
 - Patients aren't required to download Microsoft Teams app to launch a virtual visit.
 
-- Virtual visits are supported in a browser. See [Software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) for a list of supported software and browsers.
+- Virtual visits are supported in a browser. See [software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) for a list of supported software and browsers.
 
 - Patients will be placed in a lobby until the healthcare provider joins the appointment and permits access to the virtual visit.
 
