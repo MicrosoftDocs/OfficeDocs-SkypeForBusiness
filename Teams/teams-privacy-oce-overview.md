@@ -29,7 +29,7 @@ GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If y
 
 :::image type="content" source="media/giphy-menu.png" alt-text="This is a menu showing the Giphy selection button and textbox for typing information in to retrieve a Giphy image or images.":::
 
-## URL Preview service  
+## URL Preview service
 
 The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message.
 
