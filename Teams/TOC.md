@@ -693,7 +693,7 @@
 ### Shifts for Teams
 #### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Patients app
+### Patients app
 #### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [Integrate electronic healthcare records using the Patients app](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 interface specification for the Patients app](expand-teams-across-your-org/healthcare/dstu2-interface.md)
