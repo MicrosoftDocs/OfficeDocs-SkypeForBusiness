@@ -61,7 +61,7 @@ You can use the Microsoft Teams admin center to create a custom policy.
 5. Turn on or turn off **Allow user pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
 
    > [!NOTE]
-   > The _Allow user pinning_ setting is available in the Admin Center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but it doesn't really work.
+   > The _Allow user pinning_ setting is available in the Admin Center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but currently it has no effect.
 
 6. To install apps for users **(in preview)**, do the following tasks:
 
