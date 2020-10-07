@@ -1,4 +1,4 @@
 ---
-redirect_url: optimizing-your-network-for-skype-for-business-online
+redirect_url: optimizing-your-network
 redirect_document_id: TRUE 
 ---
