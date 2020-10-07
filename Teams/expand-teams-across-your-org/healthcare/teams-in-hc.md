@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Learn about features for health care that include care coordination, secure messaging, telehealth, EHR integration, and firstline worker system integration.
+description: Learn about features for health care that include care coordination, secure messaging, virtual visit, EHR integration, and firstline worker system integration.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -26,9 +26,9 @@ Microsoft Teams offers a number of features useful for hospitals and other Healt
 
 - Care Coordination and collaboration
 - Secure Messaging
-- Telehealth
-- Electronic Healthcare Record (EHR) integration 
-- Firstline Worker system integration 
+- Virtual Visit
+- Electronic Healthcare Record (EHR) integration
+- Firstline Worker system integration
 
 The content in this section builds on the foundational capabilities of Teams, such as meetings, calling, and messaging, and assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
 
