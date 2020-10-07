@@ -18,7 +18,7 @@ appliesto:
 
 # Overview of optional connected experiences in Microsoft Teams
 
-If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY, URL Preview service, Paste Image Download, and/or UserVoice . These cloud-backed services are optional. Whether you use them is up to you. They're offered to you under the terms of the [Microsoft Online Service Terms](https://www.microsoft.com/licensing/product-licensing/products) and [privacy statement](https://privacy.microsoft.com/). In some cases, other terms may also apply. This article lists our Teams cloud-backed services.
+If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY, URL Preview service, Paste Image Download, and/or UserVoice . These cloud-backed services are optional. Whether you use them is up to you. They're offered to you under  terms that differ from the [Microsoft Online Service Terms](https://www.microsoft.com/licensing/product-licensing/products), as described separately for each optional service. In some cases, other terms may also apply. This article lists our Teams cloud-backed services.
 
 > [!NOTE]
 > If you're an admin, see the [Manage privacy controls](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls) article to learn how to give or restrict your users' ability to use optional connected experiences.
@@ -31,7 +31,7 @@ GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If y
 
 ## URL Preview service  
 
-The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string.
+The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message.
 
 :::image type="content" source="media/url-preview.png" alt-text="A screen showing a sample of a URL preview for the Microsoft home page in a text box.":::
 
