@@ -18,7 +18,7 @@ appliesto:
 
 # Overview of optional connected experiences in Microsoft Teams
 
-If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY, URL Preview service, Paste Image Download, and/or UserVoice . These cloud-backed services are optional. Whether you use them is up to you. They're provided to you under the terms of the Microsoft Services Agreement and privacy statement. In some cases, other terms may also apply. This article lists our Teams cloud-backed services.
+If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY, URL Preview service, Paste Image Download, and/or UserVoice . These cloud-backed services are optional. Whether you use them is up to you. They're provided to you under the terms of the Microsoft Services Agreement and [privacy statement](https://privacy.microsoft.com/). In some cases, other terms may also apply. This article lists our Teams cloud-backed services.
 
 > [!NOTE]
 > If you're an admin, see the [Manage privacy controls](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls) article to learn how to give or restrict your users' ability to use optional connected experiences.
@@ -43,13 +43,14 @@ Paste image download allows you to copy an image from a website and paste it int
 
 ## Suggest a Feature
 
-Suggest a Feature is an experience that allows you to submit your ideas regarding your use of Teams. If you’re in **Teams** > **Help** > **Suggest a Feature**, choosing this option will give you the ability to provided feedback directly to a third-party service called UserVoice. If allowed by your admin to submit ideas using Suggest a Feature, the terms of service and privacy policy of UserVoice will apply.
+Suggest a Feature is an experience that allows you to submit your ideas regarding your use of Teams. If you’re in **Teams** > **Help** > **Suggest a Feature**, choosing this option will give you the ability to provided feedback directly to a third-party service called UserVoice. If allowed by your admin to submit ideas using Suggest a Feature, the [terms of service](https://outlook.uservoice.com/tos) and [privacy policy](https://outlook.uservoice.com/tos#privacy-policy) of UserVoice will apply.
 
 :::image type="content" source="media/suggest-feature-menu.png" alt-text="A menu screenshot showing the Suggest a feature menu option, which you can select to recomment product improvements you'd like to see.":::
 
 ## Related articles
 
-[Overview of privacy controls for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)
-[Overview of policy controls for Teams](policy-control-overview.md)
-[Required service data for Office](https://docs.microsoft.com/deployoffice/privacy/required-service-data)
-[Account Privacy Settings](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)
+- [Overview of privacy controls for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)
+- [Overview of policy controls for Teams](policy-control-overview.md)
+- [Privacy and Microsoft Teams](teams-privacy.md)
+- [Required service data for Office](https://docs.microsoft.com/deployoffice/privacy/required-service-data)
+- [Account Privacy Settings](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)
