@@ -19,7 +19,7 @@ ms.reviewer:
 description: Use Microsoft Teams to set up your Telehealth system
 ---
 
-# Virtual Visits with Teams - Integration into EHR
+# Virtual visits with Teams - Integration into EHR
 
 Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of traditionally fragmented systems so they can spend time providing the best possible care. Built on the Microsoft 365 cloud, Microsoft Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
@@ -50,18 +50,18 @@ This integration supports the following virtual visit use cases in web and mobil
 > [!Note]
 > Request your Epic resource to provide the Epic-Microsoft Teams Telehealth Integration Guide available in the Epic marketplace.
 
-## Connector Setup
+## Connector setup
 
 Configuring your healthcare organization to launch virtual visits with Microsoft Teams starts by launching the EHR Connector URL. Use the test URL to configure and test from your Epic test environment. Use the production URL when you're ready to test from Epic production environment.
   
 - Test environment [https://ehrconnector-ppe.teams.microsoft.com](https://ehrconnector-ppe.teams.microsoft.com)
 - Production environment [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
-The M365 admin and Epic admin from your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization.
+The Microsoft 365 admin and Epic admin from your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic resource assigned to your organization.
 
-### Provider Information
+### Provider information
 
-Your M365 administrator must receive a valid FHIR base URL from your Epic administrator and the username of the configuration approver. The M365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
+Your Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Epic administrator and the username of the configuration approver. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
 
 - The FHIR base URL is a constant address that all FHIR API endpoints for the server's default FHIR version live under.
   Sample URL <https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST>
@@ -70,20 +70,20 @@ Your M365 administrator must receive a valid FHIR base URL from your Epic admini
 
   ![The configuration approver's name is selected from a list in the EHR connector.](../../media/ehc-provider-1.png)
 
-### Verify and Approve configuration
+### Verify and approve configuration
 
 The Epic administrator for your healthcare organization who was added as an approver must use the same EHR Connector link from the previous step to sign in using their Microsoft credentials. After successful validation, the user is going to be asked to sign in to Epic to validate the level of access for the user.
 
 > [!Note]
-> M365 admin and Epic admin in your organizations can be the same person. In that case, add your own username as approver in the first step. You'll still need to login to Epic to validate your access.
+> Microsoft 365 admin and Epic admin in your organizations can be the same person. In that case, add your own username as approver in the first step. You'll still need to login to Epic to validate your access.
 
   ![Verify the credential configuration.](../../media/ehc-provider-2.png)
 
-After a successful Epic sign-in, the Epic administrator must approve the configuration. If the configuration isn't correct, the M365 admin will have the ability to modify the original configurations by logging in to the Microsoft EHR Connector site again.
+After a successful Epic sign-in, the Epic administrator must approve the configuration. If the configuration isn't correct, the Microsoft 365 admin will have the ability to modify the original configurations by logging in to the Microsoft EHR Connector site again.
 
 ![Confirm that the EHR connector is configured and option to change the configuration.](../../media/ehc-approve-3.png)
 
-### Review and Finish configuration
+### Review and finish configuration
 
 When the configuration information is approved by the Epic admin, review the mapping and modify any configuration. Finally, you'll see key data elements that will be needed to complete the telehealth configuration in Epic.
 
@@ -104,7 +104,7 @@ After completing the EHR Connector steps and Epic configuration, your organizati
 
 - A Meeting must have been scheduled by the healthcare provider in any of the provider portals (Hyperspace, Haiku, Canto) or by the patient in MyChart portal.
 
-### Patient Experience
+### Patient experience
 
 In MyChart, patients will be able to schedule appointments as they regularly do. Patients must select **Microsoft virtual visit** during the scheduling. At the appointment time, the patient can launch a virtual visit from MyChart.
 
@@ -122,7 +122,7 @@ Key features of the patient experience include:
 
   ![Patient experience of the virtual visit](../../media/ehc-virtual-visit-5.png)
 
-### Provider Experience
+### Provider experience
 
 Healthcare providers from your organization can also join virtual visits with Microsoft Teams from their ports (Hyperspace, Haiku, Canto). The **Begin virtual visit** button is embedded in the provider flow where patient information is displayed.
 
@@ -142,7 +142,7 @@ An important feature supported by the integration is the real-time updates in th
 
 ![Provider experience to end a visit](../../media/ehc-provider-experience-7.png)
 
-### Privacy and Location of Data
+### Privacy and location of data
 
 Teams integration into EHR systems optimizes the amount of data being used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
 
