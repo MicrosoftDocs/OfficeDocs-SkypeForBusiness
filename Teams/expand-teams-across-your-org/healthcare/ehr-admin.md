@@ -62,12 +62,12 @@ You’ll also need information from the following people in your organization:
 
 The connector setup requires that you:
 
-- [Launch and test the EHR Connector URL.](ehr-admin.md#launch-and-test-the-EHR-Connector-URL)
-- [Configure the provider information.](ehr-admin.md#configure-provider-information)
-- [Verify and approve the configuration.](ehr-admin.md#verify-and-approve-the-configuration)
-- [Review and finish the configuration.](ehr-admin.md#review-and-finish-the-configuration)
+- [Launch and test the EHR Connector URL](ehr-admin.md#launch-and-test-the-ehr-connector-url)
+- [Configure the provider information](ehr-admin.md#configure-provider-information)
+- [Verify and approve the configuration](ehr-admin.md#verify-and-approve-the-configuration)
+- [Review and finish the configuration](ehr-admin.md#review-and-finish-the-configuration)
 
-### [Launch and test the EHR Connector URL](#launch-and-test-the-EHR-Connector-URL)
+### [Launch and test the EHR Connector URL](#launch-and-test-the-ehr-connector-url)
 
 Configuring your healthcare organization to launch virtual visits with Microsoft Teams starts by launching the EHR Connector URL. Use the test URL to configure and test from your Epic test environment. Use the production URL when you're ready to test your Epic production environment.
   
