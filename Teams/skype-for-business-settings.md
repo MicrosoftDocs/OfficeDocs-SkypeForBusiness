@@ -63,9 +63,14 @@ Keep in mind the following:
 
 ## Manage Skype for Business settings for individual users
 
+To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the display name of the user to open the user details page, and then select the **Skype for Business** settings tab. 
+
 ### External access settings
 
-Choose people outside your organization that the user can communicate with.
+You can selectively block who a user can communicate with. 
+
+- External Skype for Business users
+- External Skype users
 
 ### Meeting settings
 
