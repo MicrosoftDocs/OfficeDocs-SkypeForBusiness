@@ -65,7 +65,11 @@ Keep in mind the following:
 
 ### External access settings
 
+Choose people outside your organization that the user can communicate with.
+
 ### Meeting settings
+
+Select the meeting settings that you want to user to have.
 
 ## Related topics
 
