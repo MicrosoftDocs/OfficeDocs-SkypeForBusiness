@@ -22,7 +22,7 @@ description: Learn how to manage Skype for Business settings in the Microsoft Te
 
 # Manage Skype for Business settings in the Microsoft Teams admin center
 
-As an admin, the Microsoft Teams admin center is where you manage settings for Skype for Business features for Skype for Business users in your organization. You can manage settings for your organization and for individual Skype for Business users.
+As an admin, the Microsoft Teams admin center is where you manage settings for features specific to Skype for Business for Skype for Business users in your organization. You can manage settings for your organization and for individual Skype for Business users.
 
 ## Manage Skype for Business settings for your organization
 
@@ -43,7 +43,7 @@ Use the following settings to manage [Skype Meeting Broadcast](https://support.m
 
 ### Presence
 
-By default, anyone in your organization (whether in Teams or Skype for Business) can see the availability status (such as Available, Busy, or Away) of other Skype for Business users. You can set who can see the presence of your Skype for Business users.
+By default, anyone in your organization (whether in Teams or Skype for Business) can see the availability status (such as Available, Busy, or Away) of other Skype for Business users. Choose one of the following to set who can see the presence of your Skype for Business users.
 
 - **Automatically display presence information**: Anyone in your organization who hasn't been added to the Skype for Business user's **External** or **Blocked** list can see that user's presence.
 - **Display presence information only to a user's contacts**: Anyone in the Skype for Business user's Contacts list who isn't added to their **External** or **Blocked** list can see that user's presence. Users can override this setting by going to **Settings** > **Tools** > **Options** in Skype for Business.
@@ -59,11 +59,13 @@ Keep in mind the following:
 - When you turn off push notifications, users can't turn them back on. 
 
 > [!IMPORTANT]
->  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).
+> Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).
 
 ## Manage Skype for Business settings for individual users
 
+### External access settings
 
+### Meeting settings
 
 ## Related topics
 
