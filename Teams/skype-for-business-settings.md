@@ -76,7 +76,13 @@ You can selectively allow or block whether a user can communicate with people ou
 
 Configure the settings that you want to user to have.
 
-- **Audio and video**:
+- **Audio and video**: Choose one of the following to set the audio and video settings for meetings the user schedules:
+
+    - **None**: Audio and video are turned off in meetings the user schedules. 
+    - **Audio only**: Only audio is allowed in meetings the user schedules.
+    - **Audio and video**: Audio and video is allowed in meetings the user schedules.
+    - **Audio and video (HD)**: Audio and high definition video is allowed in meetings the user schedules. 
+    
 - **Record conversations and meetings**: Turn this on to allow the user to record meetings.
 - **For compliance, turn off non-archived features**: Select this option if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds?redirectedfrom=MSDN) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
 
