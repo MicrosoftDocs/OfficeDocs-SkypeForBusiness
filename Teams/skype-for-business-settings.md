@@ -22,7 +22,7 @@ description: Learn how to manage Skype for Business settings in the Microsoft Te
 
 # Manage Skype for Business settings in the Microsoft Teams admin center
 
-As an admin, the Microsoft Teams admin center is where you manage settings that are specific to Skype for Business for Skype for Business users in your organization. You can manage Skype for Business settings [for your organization](#manage-skype-for-business-settings-for-your-organization) and [for individual  users](#manage-skype-for-business-settings-for-individual-users).
+As an admin, the Microsoft Teams admin center is where you manage Skype for Business features for Skype for Business users in your organization. You can manage Skype for Business settings [for your organization](#manage-skype-for-business-settings-for-your-organization) and [for individual  users](#manage-skype-for-business-settings-for-individual-users).
 
 ## Manage Skype for Business settings for your organization
 
@@ -74,7 +74,7 @@ You can selectively allow or block whether a user can communicate with people ou
 
 ### Meetings
 
-Configure the settings that you want to user to have.
+You can configure the following meeting settings for the user.
 
 - **Audio and video**: Choose one of the following to set whether audio and video is allowed in meetings the uesr schedules:
 
