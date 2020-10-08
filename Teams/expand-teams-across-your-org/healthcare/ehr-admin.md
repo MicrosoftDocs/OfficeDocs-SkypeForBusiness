@@ -62,12 +62,12 @@ You’ll also need information from the following people in your organization:
 
 The connector setup requires that you:
 
-- [Launch and test the EHR Connector URL.](ehr-admin.md#launch-and-test)
-- [Configure the provider information.](ehr-admin.md#configure)
-- [Verify and approve the configuration.](ehr-admin.md#verify)
-- [Review and finish the configuration.](ehr-admin.md#review)
+- [Launch and test the EHR Connector URL.](ehr-admin.md#launch-and-test-the-EHR-Connector)
+- [Configure the provider information.](ehr-admin.md#configure-provider-information)
+- [Verify and approve the configuration.](ehr-admin.md##verify-and-approve-the-configuration)
+- [Review and finish the configuration.](ehr-admin.md#review-and-finish-the-configuration)
 
-### [Launch and test the EHR Connector URL](#launch-and-test)
+### [Launch and test the EHR Connector URL](#launch-and-test-the-EHR-Connector)
 
 Configuring your healthcare organization to launch virtual visits with Microsoft Teams starts by launching the EHR Connector URL. Use the test URL to configure and test from your Epic test environment. Use the production URL when you're ready to test your Epic production environment.
   
@@ -76,7 +76,7 @@ Configuring your healthcare organization to launch virtual visits with Microsoft
 
 The Microsoft 365 admin and Epic admin from your organization must complete the information and integration steps in the connector. For Epic configuration steps, contact the Epic admin assigned to your organization.
 
-### [Configure provider information](#configure)
+### [Configure provider information](#configure-provider-information)
 
 Your Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Epic administrator and the username of the configuration approver. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
 
@@ -87,7 +87,7 @@ Your Microsoft 365 administrator must receive a valid Fast Health Interoperabili
 
   ![The configuration approver's name is selected from a list in the EHR connector.](../../media/ehc-provider-1.png)
 
-### [Verify and approve the configuration](#verify)
+### [Verify and approve the configuration](#verify-and-approve-the-configuration)
 
 The Epic administrator for your healthcare organization who was added as an approver must use the same EHR Connector link from the previous step to sign in using their Microsoft credentials. After successful validation, the approver is going to be asked to sign in to Epic to validate the level of access for the user.
 
@@ -100,7 +100,7 @@ After a successful Epic sign-in, the Epic administrator **must** approve the con
 
 ![Confirm that the EHR connector is configured and option to change the configuration.](../../media/ehc-approve-3.png)
 
-### [Review and finish the configuration](#review)
+### [Review and finish the configuration](#review-and-finish-the-configuration)
 
 When the configuration information is approved by the Epic admin, review the mapping and modify any configuration. Finally, you'll see key data elements that will be needed to complete the telehealth configuration in Epic.
 
