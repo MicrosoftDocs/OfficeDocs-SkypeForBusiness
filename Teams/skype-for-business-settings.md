@@ -65,12 +65,14 @@ Keep the following in mind:
 
 To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the user's display name to open the user details page, and then select the **Skype for Business settings** tab. From here, you can configure external communications and meeting settings for the user.
 
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Screenshot of Skype for Business tab on user details page":::
+
 ### External communications
 
 You can selectively allow or block whether a user can communicate with people outside your organization.
 
-- **External Skype for Business users**: Select this if you want to allow the user to communicate with Skype for Business users in federated domains.
-- **External Skype users**: Select this if you want to allow the user to communicate with Skype users. 
+- **External Skype for Business users**: Turn this on if you want to allow the user to communicate with Skype for Business users in federated domains.
+- **External Skype users**: Turn this on if you want to allow the user to communicate with Skype users. 
 
 ### Meetings
 
@@ -84,7 +86,7 @@ You can configure the following meeting settings for the user.
     - **Audio and video (HD)**: Audio and high definition video is allowed in meetings the user schedules. 
     
 - **Record conversations and meetings**: Turn this on to allow the user to record meetings.
-- **For compliance, turn off non-archived features**: Select this option if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds?redirectedfrom=MSDN) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
+- **For compliance, turn off non-archived features**: Turn this on if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds?redirectedfrom=MSDN) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
 
 ## Related topics
 
