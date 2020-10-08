@@ -22,7 +22,7 @@ description: Learn how to manage Skype for Business settings in the Microsoft Te
 
 # Manage Skype for Business settings in the Microsoft Teams admin center
 
-As an admin, the Microsoft Teams admin center is where you manage settings for features specific to Skype for Business for Skype for Business users in your organization. You can manage settings for your organization and for individual Skype for Business users.
+As an admin, the Microsoft Teams admin center is where you manage settings that are specific to Skype for Business for Skype for Business users in your organization. You can manage Skype for Business settings [for your organization](#manage-skype-for-business-settings-for-your-organization) and [for individual  users](#manage-skype-for-business-settings-for-individual-users).
 
 ## Manage Skype for Business settings for your organization
 
@@ -52,7 +52,7 @@ By default, anyone in your organization (whether in Teams or Skype for Business)
 
 You can set whether your Skype for Business mobile users get alerts about incoming and missed instant messages, voicemail messages, and missed calls through a push notification service instead of through Microsoft 365. Depending on the mobile devices used in your organization, you can use the **Microsoft Push Notification Service**, the **Apple Push Notification Service**, or both.
 
-Keep in mind the following:
+Keep the following in mind:
 
 - If you turn off push notifications,  users will get all alerts the next time they start Skype for Business on their mobile device.
 - By default, push notifications are turned on. Individual users can turn them off in Skype for Business on their mobile device.
@@ -63,18 +63,22 @@ Keep in mind the following:
 
 ## Manage Skype for Business settings for individual users
 
-To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the display name of the user to open the user details page, and then select the **Skype for Business** settings tab. 
+To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the user's display name to open the user details page, and then select the **Skype for Business** settings tab. From here, you can configure external communications and meeting settings for the user.
 
-### External access settings
+### External communications
 
-You can selectively block who a user can communicate with. 
+You can selectively allow or block whether a user can communicate with people outside your organization.
 
-- External Skype for Business users
-- External Skype users
+- **External Skype for Business users**: Select this if you want to allow the user to communicate with Skype for Business users in federated domains.
+- **External Skype users**: Select this if you want to allow the user to communicate with Skype users. 
 
-### Meeting settings
+### Meetings
 
-Select the meeting settings that you want to user to have.
+Configure the settings that you want to user to have.
+
+- **Audio and video**:
+- **Record conversations and meetings**: Turn this on to allow the user to record meetings.
+- **For compliance, turn off non-archived features**: Select this option if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds?redirectedfrom=MSDN) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
 
 ## Related topics
 
