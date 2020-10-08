@@ -681,6 +681,7 @@
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Virtual visits with Teams - Integration with EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
 ### [Bookings app and virtual visits](bookings-app-admin.md)
 ### [Teams policy packages for Healthcare](policy-packages-healthcare.md)
 ### Secure messaging policies
