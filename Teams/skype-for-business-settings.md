@@ -63,7 +63,7 @@ Keep the following in mind:
 
 ## Manage Skype for Business settings for individual users
 
-To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the user's display name to open the user details page, and then select the **Skype for Business** settings tab. From here, you can configure external communications and meeting settings for the user.
+To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the user's display name to open the user details page, and then select the **Skype for Business settings** tab. From here, you can configure external communications and meeting settings for the user.
 
 ### External communications
 
@@ -76,7 +76,7 @@ You can selectively allow or block whether a user can communicate with people ou
 
 Configure the settings that you want to user to have.
 
-- **Audio and video**: Choose one of the following to set the audio and video settings for meetings the user schedules:
+- **Audio and video**: Choose one of the following to set whether audio and video is allowed in meetings the uesr schedules:
 
     - **None**: Audio and video are turned off in meetings the user schedules. 
     - **Audio only**: Only audio is allowed in meetings the user schedules.
