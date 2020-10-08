@@ -693,6 +693,14 @@
 ### Shifts for Teams
 #### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### Patients app
+#### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### Integrate Electronic Healthcare Records into the Patients app
+##### [Integrate Electronic Healthcare Records into the Patients app using FHIR APIs](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [DSTU2 interface specification for the Patients app](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [STU3 interface specification for the Patients app](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Connect the Patients app to Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [Audit logs for the Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
