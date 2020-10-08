@@ -35,7 +35,7 @@ The following prerequisites are required for the user to schedule a Teams live e
 
 Here are the licenses that must be assigned to produce or present a Teams live event:  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met. The criteria is included later in this article.
+- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - A Microsoft Teams license - this is included in the licenses listed in the first bullet.
 - A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](https://docs.microsoft.com/stream/license-overview).
 
