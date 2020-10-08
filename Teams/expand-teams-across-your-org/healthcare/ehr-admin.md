@@ -33,7 +33,7 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 
 This integration is supported in web and mobile platforms. Virtual visits can be between providers and patients and support multi-provider appointments.
 
-**Before you begin**
+## Before you begin
 
 You’ll need to make sure you have the following prerequisites before you can integrate the EHR connector:
 
