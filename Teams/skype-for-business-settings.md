@@ -22,14 +22,14 @@ description: Learn how to manage Skype for Business settings in the Microsoft Te
 
 # Manage Skype for Business settings in the Microsoft Teams admin center
 
-As an admin, the Microsoft Teams admin center is where you manage Skype for Business features for Skype for Business users in your organization. You can manage settings [for your organization](#manage-skype-for-business-settings-for-your-organization) and [for individual  users](#manage-skype-for-business-settings-for-individual-users).
+As an admin, the Microsoft Teams admin center is where you manage Skype for Business features for Skype for Business users in your organization. You can manage settings [for your organization](#manage-skype-for-business-settings-for-your-organization) on the **Skype for Business** page and settings [for individual  users](#manage-skype-for-business-settings-for-individual-users) on user detail pages.
+
+> [!NOTE]
+> Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center. The **Legacy portal** has been retired and we migrated the settings to the new locations in the Teams admin center.
 
 ## Manage Skype for Business settings for your organization
 
 In the left navigation of the Microsoft Teams admin center, go to **Org-wide settings** > **Skype for Business**. From here, you can configure and manage Skype Meeting Broadcast, presence privacy, and mobile device notifications for all Skype for Business users in your organization.
-
-> [!NOTE]
-> These settings were previously in **Legacy portal** in the Microsoft Teams admin center. The **Legacy portal** has been retired and these settings are now on this page.
 
 ### Skype for Business Meeting Broadcast
 
