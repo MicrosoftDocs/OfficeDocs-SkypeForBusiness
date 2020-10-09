@@ -21,7 +21,7 @@ localization_priority: Normal
 Manage your apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, purchase services for third-party apps, and manage org-wide app settings.
+As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams (in preview), purchase services for third-party apps, view permissions requested by apps, grant admin consent to apps, and manage org-wide app settings.
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -36,7 +36,7 @@ You can view every app including the following information about each app.
 
 ![Screenshot of the Managed apps page](media/manage-apps.png)
 
-- **Name**: The app name. Click the app name to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
+- **Name**: The app name. Click the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
 
   ![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
   
@@ -57,6 +57,9 @@ You can view every app including the following information about each app.
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
+- **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
+    - **View details**: The app has permissions that require consent before the app can access data. 
+    - **- -**: The app doesn't have permissions that need consent.
 - **Categories**: Categories that apply to the app.
 - **Version**: App version.
 
@@ -96,11 +99,31 @@ To allow or block an app, select it, and then click **Allow** or **Block**. When
 When you block or allow an app on the Manage apps page, that app is blocked or allowed for all users in your organization.  When you block or allow an app in a Teams app permission policy, it's blocked or allowed for users who are assigned that policy. For a user to be able to install and interact with any app, you must allow the app at the org level on the Manage apps page and in the app permission policy that's assigned to the user.
 
  > [!NOTE]
- > To uninstall an app, right-click the app and then click **Uninstall** or use the **More apps** menu on the left side.
+ > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
+
+## Add an app to a team
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+You use the **Add to team** button to install an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
+
+![Screenshot of Add to team button](media/manage-apps-add-app-team.png)
+
+1. Search for the app you want, and then select the app by clicking to the left of the app name.
+2. Select **Add to team**.
+3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
 ## Purchase services for third-party apps
 
 You can search for and purchase licenses for services offered by third-party apps for users in your organization directly from the Manage apps page. The **Licenses** column in the table indicates whether an app offers a paid SaaS subscription. Click **Purchase now** to view plans and pricing information and buy licenses for your users. To learn more, see [Purchase services for Teams third-party apps in the Microsoft Teams admin center](purchase-third-party-apps.md).
+
+## Grant admin consent to apps
+
+You can review and grant consent to apps that request permissions on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. To learn more, see [View app permissions and grant admin consent in the Microsoft Teams admin center](app-permissions-admin-center.md).
+
+## View resource-specific consent permissions
+
+Resource-specific consent (RSC) permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular, Teams-specific permissions that define what an app can do in a specific team. You can view RSC permissions on the **Permissions** tab of the app details page for an app. To learn more, see [View app permissions and grant admin consent in the Microsoft Teams admin center](app-permissions-admin-center.md).
 
 ## Manage org-wide app settings
 

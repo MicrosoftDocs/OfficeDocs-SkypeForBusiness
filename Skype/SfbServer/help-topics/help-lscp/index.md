@@ -1,4 +1,4 @@
 ---
-redirect_url: help-lscp
+redirect_url: use-the-control-panel
 redirect_document_id: TRUE 
 ---
