@@ -26,7 +26,7 @@ As an admin, the Microsoft Teams admin center is where you manage Skype for Busi
 
 ## Manage Skype for Business settings for your organization
 
-In the left navigation of the Microsoft Teams admin center, go to **Org-wide settings** > **Skype for Business**. From here, you can configure and manage Skype Meeting Broadcast, presence, and mobile device notifications for all Skype for Business users in your organization.
+In the left navigation of the Microsoft Teams admin center, go to **Org-wide settings** > **Skype for Business**. From here, you can configure and manage Skype Meeting Broadcast, presence privacy, and mobile device notifications for all Skype for Business users in your organization.
 
 > [!NOTE]
 > These settings were previously in **Legacy portal** in the Microsoft Teams admin center. The **Legacy portal** has been retired and these settings are now on this page.
@@ -45,13 +45,13 @@ Use the following settings to manage [Skype Meeting Broadcast](https://support.m
 
 ### Presence and mobile notifications
 
-Use the following settings to manage Skype for Business presence and mobile notifications in your organization.
+Use the following settings to manage Skype for Business presence privacy and mobile notifications in your organization.
 
 :::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Screenshot of presence settings in the admin center":::
 
 #### Presence
 
-By default, anyone in your organization (whether in Teams or Skype for Business) can see the availability status (such as Available, Busy, or Away) of other Skype for Business users. Choose one of the following to set who can see the presence of your Skype for Business users.
+By default, anyone in your organization (whether in Teams or Skype for Business) can see the presence status (such as Available, Busy, or Away) of other Skype for Business users. Choose one of the following to set who can see the presence of your Skype for Business users.
 
 - **Automatically display presence information**: Anyone in your organization who hasn't been added to the Skype for Business user's **External** or **Blocked** list can see that user's presence.
 - **Display presence information only to a user's contacts**: Anyone in the Skype for Business user's Contacts list who isn't added to their **External** or **Blocked** list can see that user's presence. Users can override this setting in Skype for Business by going to **Settings** > **Tools** > **Options**.
