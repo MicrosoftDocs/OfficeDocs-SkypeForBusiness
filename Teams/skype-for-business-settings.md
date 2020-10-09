@@ -31,7 +31,7 @@ As an admin, the Microsoft Teams admin center is where you manage Skype for Busi
 
 In the left navigation of the Microsoft Teams admin center, go to **Org-wide settings** > **Skype for Business**. From here, you can configure and manage Skype Meeting Broadcast, presence privacy, and mobile device notifications for all Skype for Business users in your organization.
 
-### Skype for Business Meeting Broadcast
+### Skype Meeting Broadcast
 
 Use the following settings to manage [Skype Meeting Broadcast](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) in your organization.
 
