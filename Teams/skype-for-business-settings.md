@@ -38,7 +38,7 @@ Use the following settings to manage [Skype Meeting Broadcast](https://support.m
 :::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Screenshot of Skype Meeting Broadcast settings in the admin center":::
 
 - **Skype Meeting Broadcasts**: Turn this on to enable Skype Meeting Broadcast for your organization. After you enable this feature, you need to [set up your network for Skype Meeting Broadcast](../Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md).
-- **See preview features**: Turn this on to get early access to new products and features. This gives your organization a sneak peek at what's coming and the opportunity to test new features in your own environment and give feedback before we release product builds to the general public.
+- **See preview features**: Turn this on to get early access to new products and features. This gives your organization a sneak peek at what's coming and the opportunity to test new features in your own environment and give feedback before we release to the general public.
 - **Organizers can schedule anonymous meetings**: Turn this on if you want to let organizers create broadcast events that allow anyone outside your organization to join without having to sign in. 
 - **Record Skype Meeting Broadcast meetings**: Turn this on to enable organizers and presenters to record meetings.  
 - **Helpdesk support URL for attendees**: Enter your organization's support URL that meeting attendees can use if they need help during a meeting.
@@ -88,13 +88,13 @@ You can configure the following meeting settings for the user.
 
 - **Audio and video**: Choose one of the following to set whether audio and video is allowed in meetings the user schedules:
 
-    - **None**: User can't schedule any meetings. 
+    - **None**: User can't schedule any meetings.
     - **Audio only**: Only audio is allowed in meetings the user schedules.
     - **Audio and video**: Audio and video are allowed in meetings the user schedules.
     - **Audio and video (HD)**: Audio and high definition video are allowed in meetings the user schedules. 
     
-- **Record conversations and meetings**: Turn this on to allow the user to record meetings.
-- **For compliance, turn off non-archived features**: Turn this on if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
+- **Record conversations & meetings**: Turn this on to allow the user to record conversations and meetings.
+- **Compliance**: Turn this on if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
 
 ## Related topics
 
