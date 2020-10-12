@@ -719,7 +719,7 @@
 ## Teams for Firstline Workers
 ### [Quickstart for Firstline Workers](firstline-workers-quickstart.yml)
 ### [Firstline workers scripted deployment](flw-scripted-deployment.md)
-#### [Manage on-shift and off-shift presence for Firstline Workers](expand-teams-across-your-org/shifts/manage-on-off-shift-presence.md)
+#### [Manage shift-based access for FirstLine Workers](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
