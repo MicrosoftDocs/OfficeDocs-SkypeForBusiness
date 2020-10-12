@@ -53,8 +53,8 @@ Use the following settings to manage Skype for Business presence privacy and mob
 
 By default, anyone in your organization (whether in Teams or Skype for Business) can see the presence status (such as Available, Busy, or Away) of other Skype for Business users. Choose one of the following to set who can see the presence of your Skype for Business users.
 
-- **Automatically display presence information**: Anyone in your organization who hasn't been added to the Skype for Business user's **External** or **Blocked** list can see that user's presence.
-- **Display presence information only to a user's contacts**: Anyone in the Skype for Business user's Contacts list who isn't added to their **External** or **Blocked** list can see that user's presence. Users can override this setting in Skype for Business by going to **Settings** > **Tools** > **Options**.
+- **Automatically display presence**: Anyone in your organization who hasn't been added to the Skype for Business user's **External** or **Blocked** list can see that user's presence.
+- **Display presence to a user's contacts**: Anyone in the Skype for Business user's Contacts list who isn't added to their **External** or **Blocked** list can see that user's presence. Users can override this setting in Skype for Business by going to **Settings** > **Tools** > **Options**.
 
 #### Mobile notifications
 
