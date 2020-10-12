@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -61,6 +62,17 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.6.20.0 (09/30/2020)
+
+Introduced in this update:
+- See more videos with 3x3 video gallery on front of room displays  
+- Start local live closed captions from MTR 
+- Join Zoom meetings from Teams Rooms with direct guest join (Preview)
+
+> [!NOTE]
+> 3x3 video gallery and local live closed captions are delivered through Microsoft Teams service. These features are available to all Teams Rooms with application version 4.5.37.0 and above. 
+
 
 ### 4.5.37.0 (08/14/2020)
 

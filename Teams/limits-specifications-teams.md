@@ -29,7 +29,7 @@ This article describes some of the limits, specifications, and other requirement
 |Feature    | Maximum limit |
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
-|Number of teams a user can be a member of|1,000|
+|Number of teams a user can be a member of|1,000&sup2;|
 |Number of members in a team | 10,000       |
 |Number of owners per team | 100   |
 |Number of org-wide teams allowed in a tenant | 5     |
@@ -37,16 +37,16 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
-|Number of Private channels per team    |30|
+|Number of Private channels per team    |30| (includes deleted channels)&sup3;
 |Number of members in a Private channel    |250|
 |Maximum number of members in an Office 365 group that can be converted to a team    |10,000|
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams.
+<sup>2</sup> This limit includes archived teams. To go beyond the maximum limit, you must contact Microsoft support.
 
-<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the 200 channels per team limit.
+<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
@@ -89,7 +89,9 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses.
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
+
+
 
 ## Channel names
 
@@ -106,7 +108,16 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 ## Meetings and calls
 
 > [!IMPORTANT]
-> In April, [we announced](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) that temporary default limit increases would be enabled for Microsoft 365 live events to help better support customers, through July 1st. To continue meeting the needs of customers, we will extend the temporary default limits until October 1, 2020. Live events hosted in Teams, Stream, and Yammer will continue to temporarily support events for up to 20,000 attendees, 16 hours in length, and 50 events happening simultaneously. Additionally, customers can host a live event in Stream for up to 100,000 attendees when planned though the [Microsoft live events assistance program](https://resources.techcommunity.microsoft.com/live-events/assistance/).
+> **Microsoft 365 live event limit increases**
+>
+> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for live events hosted in Teams, Stream, and Yammer, including**:
+>
+>- Up to 20,000 attendees per event
+>- Up to 50 simultaneous events per Teams tenant
+>- Up to 16 hours per broadcast
+>
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+
 
 |Feature     | Maximum limit |
 |------------|---------------|
@@ -146,11 +157,13 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> To help customers meet rapidly changing communication needs, Microsoft 365 live events will temporarily raise default limits until October 1, 2020, for live events hosted in Teams. The following increases are being rolled out:
+> To help customers meet rapidly changing communication needs, we will temporarily raise default limits until January 1, 2021, for live events hosted in Teams, Stream, and Yammer.
 >
 > - Attendee limit: events can support up to 20,000 attendees
 > - Concurrent events: 50 events can be hosted simultaneously across a tenant
 > - Event duration: event length has been increased to 16 hours per broadcast
+>
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft live events assistance program. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
 
 ## Presence in Outlook
 
