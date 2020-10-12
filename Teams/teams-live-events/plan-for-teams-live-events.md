@@ -14,7 +14,7 @@ localization_priority: Priority
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-description: In this article, you will learn about the factors to consider before you set up live events in Microsoft Teams.
+description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -22,10 +22,10 @@ ms.custom: seo-marvel-apr2020
 
 # Plan for live events in Microsoft Teams
 
-When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up.
+When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting the setup.
 
  > [!Note]
-> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events. 
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## Who can attend, create, and schedule live events
 
@@ -35,11 +35,11 @@ The following prerequisites are required for the user to schedule a Teams live e
 
 Here are the licenses that must be assigned to produce or present a Teams live event:  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license.
-- A Microsoft Teams license. - this is included in the licenses above. 
-- A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](https://docs.microsoft.com/stream/license-overview). 
+- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- A Microsoft Teams license - this is included in the licenses listed in the first bullet.
+- A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](https://docs.microsoft.com/stream/license-overview).
 
-  Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 30-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
+  Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 30-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
 >[!Note]
 > The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
@@ -69,13 +69,15 @@ The user must have:
 > [!IMPORTANT]
 > Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events.
 
+### [Guest to present](#guest-to-present)
+
 For a guest to present in a live event, do the following:
 
 1. [Add the user as a guest to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Have the user accept the guest invitation and join the team.
 3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event. 
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
 
 ## Who can watch live events
 
@@ -153,6 +155,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Europe/Africa
 
 **Data location for these countries/regions (supported)**
+
 - Australia
 - Canada
 - India
@@ -160,6 +163,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - United Kingdom
 
 **These countries/regions and clouds aren't supported**
+
 - Germany
 - France
 - Norway
