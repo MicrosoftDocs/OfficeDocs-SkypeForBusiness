@@ -13,29 +13,28 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview in Microsoft Teams.
+description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
 localization_priority: Priority
 ---
-Microsoft Teams Public Preview
-======================================================
+# Microsoft Teams Public Preview
 
 > [!NOTE]
 > Features included in preview might not be complete, and might undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
 
-Public Preview for Microsoft Teams provides early access to unreleased features in Teams. This preview allows you to explore and test upcoming features. We also welcome feedback on any feature in public preview. Public preview is enabled per Teams client, so you don't need to worry about affecting your entire organization.
+Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled each Teams user, so you don't need to worry about affecting your entire organization.
 
 ## Enable public preview
 
-Public preview is enabled on a per-client basis, but the option to turn on public preview is controlled in an admin policy.
+Public preview is enabled for each user, and the option to turn on public preview is controlled in an admin policy.
 
 ### On a desktop or web client
 
-To enable the public developer preview on a desktop or web client, you need to do the following tasks:
+To enable the public preview on a desktop or web client, you need to do the following tasks:
 
-1. Enable uploading of apps in the admin center of your tenant as described in [Prepare your Office 365 tenant](/platform/concepts/build-and-test/prepare-your-o365-tenant.md).
-2. Enable public preview as described in [Public developer preview in Teams](/platform/resources/dev-preview/developer-preview-intro.md)
+1. Enable uploading of apps in the admin center of your tenant as described in [Prepare your Office 365 tenant](../platform/concepts/build-and-test/prepare-your-o365-tenant.md).
+2. Enable public developer preview as described in [Public developer preview in Teams](../platform/resources/dev-preview/developer-preview-intro.md)
 3. Select your profile to display the Teams menu.
 4. Select **About** → **Developer preview**.
 5. Select **Switch to Developer preview**.
