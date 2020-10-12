@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to manage Skype for Business settings in the Microsoft Teams admin center. 
+description: Learn how to manage settings for Skype for Business features in the Microsoft Teams admin center. 
 ---
 
 # Manage Skype for Business settings in the Microsoft Teams admin center
@@ -25,7 +25,7 @@ description: Learn how to manage Skype for Business settings in the Microsoft Te
 As an admin, the Microsoft Teams admin center is where you manage Skype for Business features for Skype for Business users in your organization. You can manage settings [for your organization](#manage-skype-for-business-settings-for-your-organization) on the **Skype for Business** page and settings [for individual  users](#manage-skype-for-business-settings-for-individual-users) on user detail pages.
 
 > [!NOTE]
-> Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center. The **Legacy portal** has been retired and we migrated the settings to the new locations in the Teams admin center.
+> Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center. The **Legacy portal** has been retired and we migrated the settings to their new locations in the Teams admin center.
 
 ## Manage Skype for Business settings for your organization
 
