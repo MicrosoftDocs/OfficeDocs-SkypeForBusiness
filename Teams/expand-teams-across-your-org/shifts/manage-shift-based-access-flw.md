@@ -1,5 +1,5 @@
 ---
-title: Manage on-shift and off-shift presence for Firstline Workers in Teams
+title: Manage shift-based access for FirstLine Workers in Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: aaku
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to manage on-shift and off-shift presence in Teams for Firstline Workers in your organization.
+description: Learn how to manage shift-based access in Teams for Firstline Workers in your organization.
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Manage on-shift and off-shift presence for Firstline Workers in Teams
+# Manage shift-based access for FirstLine Workers in Teams
 
 > [!IMPORTANT]
 > Effective June 30, 2020, Microsoft StaffHub has been retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub stopped working for all users on June 30, 2020. Anyone who tries to open StaffHub is shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub has been retired](microsoft-staffhub-to-be-retired.md).  
@@ -28,7 +28,7 @@ Presence in Microsoft Teams indicates a user's current availability and status t
 
 These shift-based presence states&mdash;![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) **On shift**, ![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) **Off shift**, ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can configure different experiences for people in your organization based on their role.
 
-With shift-based presence, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
+With shift-based access, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
 
 ## Scenario
 
@@ -50,15 +50,15 @@ Here are the shift-based presence states.
 
 ## Off shift access to Teams
 
-This feature lets you manage access to Teams when Firstline Workers are off shift. You can block or allow users to access Teams when they're off shift. You can set Teams to display a message to Firstline Workers if they access Teams when off shift. Firstline Workers must click **I accept** to acknowledge the message before they can use Teams.
+This feature lets you manage access to Teams when Firstline Workers are off shift. You can set Teams to display a message to Firstline Workers if they access Teams when off shift. Firstline Workers must click **I accept** to acknowledge the message before they can use Teams.
 
 You can use the default message, choose from a set of pre-defined messages, or customize the message to display any text that you want. Here's the default message:
 
 ![Screenshot of default message](../../media/shifts-presence-message.png)
 
-You can also set the frequency that the message is displayed and set a grace period between when the first shift starts or last shift ends and when access to Teams is blocked.
+You can also set the frequency when the message is displayed and set a grace period between when the first shift starts or last shift ends and when access to Teams is restricted.
 
-## Manage shift-based presence
+## Manage shift-based access
 
 As an admin, you use policies to control shift-based presence for Firstline Workers in your organization. You manage these policies by using the following PowerShell cmdlets:
 
@@ -74,10 +74,10 @@ Here's some examples. For detailed information about each policy setting and par
 
 ### Example 1
 
-In this example, we create a new policy named Unrestricted Teams Access. In this policy, shift-based presence is turned on and the default message is displayed every time a user who is assigned this policy accesses Teams when off shift. The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is blocked is 10 minutes.  
+In this example, we create a new policy named Off Shift Teams Access Default Message. In this policy, shift-based presence is turned on and the default message is displayed every time a user who is assigned this policy accesses Teams when off shift. The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is restricted is 10 minutes.  
 
 ```powershell
-New-CsTeamsShiftsPolicy -Identity "Unrestricted Teams Access" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
+New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
 ```
 
 > [!NOTE]
@@ -85,23 +85,20 @@ New-CsTeamsShiftsPolicy -Identity "Unrestricted Teams Access" -EnableShiftPres
 
 ### Example 2 
 
-In this example, we create a new policy named Off Shift Teams Access. In this policy, shift-based presence is turned on and a custom message is displayed every time a user who is assigned this policy accesses Teams when off shift. The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is blocked is 15 minutes.  
+In this example, we create a new policy named Off Shift Teams Access Custom Message. In this policy, shift-based presence is turned on and a custom message is displayed every time a user who is assigned this policy accesses Teams when off shift. The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is restricted is 15 minutes.  
 
 ```powershell
-New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
+New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
 ### Example 3 
 
-In this example, we create a new policy named Block Off Shift Teams Access. In this policy, shift-based presence is turned on and the following predefined message is displayed every time a user who is assigned this policy tries to access Teams when off shift. 
+In this example, we create a new policy named Off Shift Teams Access Message2. In this policy, shift-based presence is turned on and the following predefined message is displayed every time a user who is assigned this policy accesses Teams when off shift. The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is restricted is 3 minutes.  
 
-  "Access to Teams is turned off during non-working hours. You will be able to access the app when your next shift starts." 
-
-The user is blocked from using Teams when off shift, and the grace period between when the first shift starts or last shift ends and when access is blocked is two minutes.
-
+  "Your employer does not authorize or approve of the use of its network, applications, systems, or tools by non-exempt or hourly employees during their non-working hours. By accepting, you acknowledge that your use of Teams while off shift is not authorized and you will not be compensated." 
 
 ```powershell
-New-CsTeamsShiftsPolicy -Identity "Block Off Shift Teams Access" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message5 -AccessType OffShift_TeamsAppBlocked -AccessGracePeriodMinutes 2
+New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message5 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
 ```
 
 > [!NOTE]
