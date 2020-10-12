@@ -28,7 +28,7 @@ Teams provides a rich set of tools to implement any governance capabilities your
 
 ## Group and team creation, naming, classification, and guest access
 
-Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure each of these areas by using Azure Active Directory (Azure AD). 
+Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure these areas by using Azure Active Directory (Azure AD) and sensitivity labels. 
 
 <br>
 
@@ -47,6 +47,7 @@ Your organization might require that you implement strict controls on how teams 
 |Team guest access |Allow or prevent guests from being added to teams. |No |TBD |
 |Team creation |Limit team creation to administrators. |No |TBD|
 |Team creation |Limit team creation to security group members. |P1 |TBD|
+|Sensitivity labels|Configure privacy and guest sharing|No|TBD|
 
 > [!NOTE]
 > To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
@@ -59,16 +60,19 @@ Your organization might require that you implement strict controls on how teams 
 
 After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see:
 
-- [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+- [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Enforce a naming policy for Microsoft 365 groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Enforce a naming policy for Microsoft 365 groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Microsoft 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Microsoft 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
+- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+
+- [End of lifecycle options for groups, teams, and Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## Group and team expiration, retention, and archiving
 
-Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and teams data (channel messages and channel files). You can configure group expiration policies to automatically manage the lifecycle of the group and retention policies to preserve or delete information as needed, and you can archive teams (set them to read-only mode) to preserve a point-in-time view of a team that’s no longer active.
+Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and teams data (channel messages and channel files). You can configure group expiration policies to automatically manage the lifecycle of the group and retention policies to preserve or delete information as needed, and you can archive teams (set them to read-only mode) to preserve a point-in-time view of a team that’s no longer active. Note that teams that are archived continue to have the expiration policy applied and may be deleted unless excluded or renewed.
 
 |           |            |
 |-----------|------------|
@@ -144,8 +148,10 @@ For detailed lists of all settings, including technical guidance on how to imple
 
 - [Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
 - [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
+- [Private channels in Microsoft Teams](private-channels.md)
 - [Manage meeting policies in Teams](meeting-policies-in-teams.md)
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
+- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 
 Additionally, you can set up moderation for a channel and give moderator capabilities to certain users so that they can control who can create channel posts and respond to them. See [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md) for more information.
 
