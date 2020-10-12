@@ -52,7 +52,7 @@
 ## [Archive or delete a team](archive-or-delete-a-team.md)
 ## [Migrate from Slack to Teams](migrate-slack-to-teams.md)
 ## Work with Teams templates
-### [Use Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+### [Use Teams templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Teams templates built in Graph for Small and Medium Businesses](smb-templates.md)
 ### [Create a custom Teams template](create-a-team-template.md)
 ### [Create a template from an existing team](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### Teams templates for Healthcare organizations
-#### [Use Teams healthcare templates in the admin console](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Use Teams healthcare templates in the admin center](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Manage the Lists app](manage-lists-app.md)
 ### Shifts for Teams
@@ -725,7 +725,7 @@
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams for Retail](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [Get started with Retail Teams templates in the admin console](retail-teams-templates-in-the-admin-console.md)
+### [Get started with Retail Teams templates in the admin center](retail-teams-templates-in-the-admin-console.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Teams for Government](expand-teams-across-your-org/teams-for-government-landing-page.md)
