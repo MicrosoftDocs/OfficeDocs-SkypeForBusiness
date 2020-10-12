@@ -25,6 +25,9 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
+> [!NOTE]
+> Feedback policies aren't available in GCC, GCC High, or DOD deployments.
+
 **The Give feedback feature**
 
 Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
