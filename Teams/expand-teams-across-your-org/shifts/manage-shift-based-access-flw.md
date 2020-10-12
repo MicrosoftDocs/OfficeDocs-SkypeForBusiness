@@ -91,6 +91,9 @@ In this example, we create a new policy named Off Shift Teams Access Custom Mess
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
+> [!NOTE]
+> Use the **ShiftNoticeMessageType** parameter to set the message that you want to display. To learn more, see New-TeamsShiftPolicy.
+
 ### Example 3 
 
 In this example, we create a new policy named Off Shift Teams Access Message2. In this policy, shift-based presence is turned on and the following predefined message is displayed every time a user who is assigned this policy accesses Teams when off shift. The user can use Teams when off shift if they accept the message, and the grace period between when the first shift starts or last shift ends and when access is restricted is 3 minutes.  
