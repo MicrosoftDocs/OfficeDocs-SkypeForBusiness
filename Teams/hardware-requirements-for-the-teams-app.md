@@ -49,7 +49,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Memory     |   4.0 GB RAM      |
 |Hard disk    |   1.5 GB of available disk space      |
 |Display    | 1280 x 800 or higher resolution    |
-|Operating system  |    One of the three most recent versions of macOS. You can find the most recent versions of macOS [here](https://support.apple.com/en-us/HT201260). For example, when a new version of macOS is released, the new version and the two immediately preceding it become the supported versions.      |
+|Operating system  |    One of the three most recent versions of macOS. You can find information about the latest macOS versions, and how to upgrade your version of macOS, [here](https://support.apple.com/en-us/HT201260). For example, when a new version of macOS is released, the new version and the two immediately preceding it become the supported versions.      |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
 |Video calls and meetings | <ul><li>Requires 2-core processor. For higher video/screen share resolution and frame rate, a 4-core processor or better is recommended. </li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on macOS.</li></ul>
