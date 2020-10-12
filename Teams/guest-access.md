@@ -28,7 +28,7 @@ A guest is someone who isn't an employee, student, or member of your organizatio
 
 As the Teams admin, you [control which features guests can (and can't) use in Teams](manage-guests.md). Guests in Teams are covered by the same compliance and auditing protection as the rest of Microsoft 365, and can be managed within Azure AD. Guest access is subject to Azure AD and Microsoft 365 or Office 365 service limits.
 
-The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see[comparison of team member and guest capabilities](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [comparison of team member and guest capabilities](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
 > Guest users follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
@@ -61,7 +61,7 @@ Guests can leave the team at any time from within Teams. For details, see  [How 
 
 ## Licensing for guest access
 
-Guest access is included with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. Teams doesn't restrict the number of guests you can add. However, the total number of guests that can be added to your tenant may be restricted by the paid features of Azure AD. For more information, see [Azure AD B2B collaboration licensing](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Guest access is included with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. Teams doesn't restrict the number of guests you can add. However, the total number of guests that can be added to your tenant may be restricted by the paid features of Azure AD. For more information, see [Billing model for Azure AD External Identities](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 > [!NOTE]
 > Users in your organization who have standalone Microsoft 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guests to your organization because Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned an Microsoft 365 Business Standard, Office 365 Enterprise, or Office 365 Education subscription. 
