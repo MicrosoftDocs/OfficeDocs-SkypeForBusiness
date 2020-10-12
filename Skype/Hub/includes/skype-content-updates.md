@@ -99,3 +99,20 @@
 |------|------------|--------|
 | 10/2/2020 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
 | 10/2/2020 | [Phones and Devices for Skype for Business](/SkypeForBusiness/certification/devices-ip-phones) | modified |
+
+
+## Week of October 05, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/7/2020 | [Configure hybrid connectivity \| Deploy Skype for Business Server 2019 connect](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) | modified |
+| 10/7/2020 | [Set up policies in your organization](/SkypeForBusiness/set-up-policies-in-your-organization/set-up-policies-in-your-organization) | modified |
+| 10/7/2020 | Using Call Quality in your organization | removed |
+| 10/7/2020 | Help-DepWiz | removed |
+| 10/7/2020 | Help-LSCP | removed |
+| 10/7/2020 | Help-Planning | removed |
+| 10/7/2020 | Topology Builder Lync Node | removed |
+| 10/7/2020 | Help topics | removed |
+| 10/7/2020 | Help-TopoBld | removed |
+| 10/8/2020 | [Skype for Business Certification Program — Session Border Controllers](/SkypeForBusiness/certification/infra-sbc) | modified |

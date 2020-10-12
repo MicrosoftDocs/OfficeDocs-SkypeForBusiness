@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Certification Program - Survivable Branch Appliance"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

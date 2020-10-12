@@ -23,7 +23,7 @@ appliesto:
 > [!Note]
 > ​​The change from using Microsoft Stream to OneDrive for Business and SharePoint for meeting recordings will be a phased approach. At launch, tenant admins can choose this new workflow option today and will start seeing recordings auto-upload to OneDrive for Business and SharePoint in October 2020. In November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
-Microsoft Teams has a new method for saving meeting recordings. As a departure from Stream, the method uses Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits.
+Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](https://docs.microsoft.com/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits.
 
 The benefits of using OneDrive for Business and SharePoint for storing recordings include:
 
@@ -56,7 +56,7 @@ Watch "Meeting Recording" for more information.
 
 1. Install the Skype For Business Online PowerShell admin console.
 
-    a. Download [Skype for Business Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
+    a. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
 
     b. Follow the prompts to install it.
 
@@ -90,13 +90,17 @@ Even if a policy says it's set to **Stream**, it might not be set. Typically, if
 
 **Where will the meeting recording be stored?**
 
-- For non-Channel meetings, the recording is stored in a folder named. Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
+- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
 
   <i>recorder's OneDrive for Business</i>/**Recordings**
 
 - For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
 
   <i>Teams name - Channel name</i>/**Documents**/**Recordings**
+
+**How do I handle recordings from former employees?**
+
+Since videos are just like any other file in OneDrive and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive and SharePoint process]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **Who has the permissions to view the meeting recording?**
 

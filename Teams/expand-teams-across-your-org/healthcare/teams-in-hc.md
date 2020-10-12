@@ -34,14 +34,6 @@ The content in this section builds on the foundational capabilities of Teams, su
 
 ## Care Coordination - Microsoft Teams Patients app
 
-> [!IMPORTANT]
-> **Effective  October 30, 2020, the Patients app will be deprecated and users will no longer be able to 
->install it from the Teams app store. We encourage you to start using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams today.**
->
->Patients app data is stored in the group mailbox of the Office 365 group that backs the team. When the Patients app is retired, all data associated with it will be retained in this group but can no longer be accessed through the user interface. Current users can re-create their lists using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
->
->The [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) is pre-installed for all Teams users and is available as a tab in every team and channel. With Lists, care teams can create patient lists using the built-in Patients template, from scratch, or by importing data to Excel. To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](../../manage-lists-app.md).
-
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them provide the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patients app, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams in context to enable clinical collaboration and communication.  
@@ -69,13 +61,12 @@ Microsoft Teams enables physicians, clinicians, nurses, and other staff to colla
 - Using channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources
 - Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
 - Using the Patients app to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system. The Patients app itself adds the following features to Microsoft Teams:
-
-    - Ability to create multiple patient lists within a single channel.
-    - Ability to view and sort information displayed about patients through configurable columns.
-    - Ability to auto-provision the app through a team template.
-    - Available on the Teams App for iOS and Android for mobile first healthcare workers as well as Microsoft Teams web and desktop client.
-    - Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.
-    - Audit Logs for all view and search actions on its user interface to safeguard PHI per HIPAA guidelines.
+  - Ability to create multiple patient lists within a single channel.
+  - Ability to view and sort information displayed about patients through configurable columns.
+  - Ability to auto-provision the app through a team template.
+  - Available on the Teams App for iOS and Android for mobile first healthcare workers as well as Microsoft Teams web and desktop client.
+  - Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.
+  - Audit Logs for all view and search actions on its user interface to safeguard PHI per HIPAA guidelines.
 
 The Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
 
@@ -112,7 +103,6 @@ Secure messaging supports collaboration within care teams, including several new
 
 - A message sender can set a special priority for their message, so the recipient is repeatedly notified until they read the message.
 - A message sender can request a read receipt, so they are notified when a message they sent was read by the message recipient.
-
 
 Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New care teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
 
