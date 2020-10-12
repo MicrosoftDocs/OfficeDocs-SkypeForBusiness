@@ -55,12 +55,6 @@ The care coordination solution can interface with leading Independent Software V
 
 An EHR integration and interop partner trying to implement Microsoft Teams for a healthcare provider organization needs to provide the Patients app a secure and authenticated connection with the healthcare provider organization's EHR systems. This enables the one-directional (Read only) flow of the relevant patient records into to the Patients app. The Patients app understands the FHIR format, so the partner is also responsible for transforming the aggregated data from various other formats like HL7v2, etc. into FHIR DSTU2 or STU3.
 
-<br>
-
-![Illustration highlighting Care Coordination and collaboration](../../media/ehr-1.png)
-
-<br>
-
 The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams' secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
 
 - Low efficiency in hand-offs and critical communication through the patient experience
