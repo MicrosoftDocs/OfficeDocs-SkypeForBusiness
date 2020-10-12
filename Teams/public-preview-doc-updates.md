@@ -33,8 +33,8 @@ Public preview is enabled for each user, and the option to turn on public previe
 
 To enable the public preview on a desktop or web client, you need to do the following tasks:
 
-1. Enable uploading of apps in the admin center of your tenant as described in [Prepare your Office 365 tenant](../platform/concepts/build-and-test/prepare-your-o365-tenant.md).
-2. Enable public developer preview as described in [Public developer preview in Teams](../platform/resources/dev-preview/developer-preview-intro.md)
+1. Enable uploading of apps in the admin center of your tenant as described in [Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
+2. Enable public developer preview as described in [Public developer preview in Teams](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
 3. Select your profile to display the Teams menu.
 4. Select **About** → **Developer preview**.
 5. Select **Switch to Developer preview**.
@@ -57,3 +57,7 @@ For a full list of the features currently enabled in public preview see (IS THE 
 ## Batch preview settings (DO WE WANT TO MENTION BATCH PREVIEW SETTINGS?)
 
 REVIEWERS do you want this note? note from eng. doc. Make sure this policy can be assigned via PowerShell / to a group rather than to individual users at a time.
+
+## Related topics
+
+[Public developer preview](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
