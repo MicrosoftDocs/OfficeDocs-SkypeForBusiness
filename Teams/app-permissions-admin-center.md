@@ -89,6 +89,6 @@ Currently, the ability to review permissions and grant consent isn't available f
 - [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [Resource-specific consent in Teams](resource-specific-consent.md)
 - [Resource-specific consent (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
-- [Navigating the Teams app lifecycle](aka.ms/PR132) (Ignite 2020 session)
+- [Navigating the Teams app lifecycle](https://aka.ms/PR132) (Ignite 2020 session)
 
 
