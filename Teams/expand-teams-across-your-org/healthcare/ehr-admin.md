@@ -1,5 +1,5 @@
 ---
-title: Teams for Telehealth
+title: Teams for Virtual visits
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Use Microsoft Teams to set up your Telehealth system
+description: Use Microsoft Teams to set up your Virtual visits system
 ---
 
 # Virtual visits with Teams - Integration into EHR
@@ -102,7 +102,7 @@ After a successful Epic sign-in, the Epic administrator **must** approve the con
 
 ### [Review and finish the configuration](#review-and-finish-the-configuration)
 
-When the configuration information is approved by the Epic admin, review the mapping and modify any configuration. Finally, you'll see key data elements that will be needed to complete the telehealth configuration in Epic.
+When the configuration information is approved by the Epic admin, review the mapping and modify any configuration. Finally, you'll see key data elements that will be needed to complete the virtual visits configuration in Epic.
 
 > [!Note]  
 > Request your Epic admin to provide the Epic-Microsoft Teams Telehealth Integration Guide (available in the Epic marketplace) and support during the key data elements configuration.
