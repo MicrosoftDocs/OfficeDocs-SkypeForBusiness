@@ -1,5 +1,5 @@
 ---
-title: Use Teams government templates in the admin console
+title: Use Teams government templates in the admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use. Teams templates to create team structures designed for government needs by providing predefined settings, channels, and pre-installed apps using the admin console.
+description: Learn how to use. Teams templates to create team structures designed for government needs by providing predefined settings, channels, and pre-installed apps using the admin center.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -21,7 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use Teams government templates in the admin console
+# Use Teams government templates in the admin center
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
