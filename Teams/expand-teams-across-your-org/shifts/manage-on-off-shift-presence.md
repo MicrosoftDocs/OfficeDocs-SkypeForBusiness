@@ -28,7 +28,7 @@ Presence in Microsoft Teams indicates a user's current availability and status t
 
 These shift-based presence states&mdash;![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) **On shift**, ![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) **Off shift**, ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can configure different experiences for people in your organization based on their role.
 
-With shift-based presence, you can manage access to Teams when Firstline Workers are off shift. For example, you can set up a custom message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
+With shift-based presence, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
 
 ## Scenario
 
@@ -66,6 +66,7 @@ As an admin, you use policies to control shift-based presence for Firstline Work
 - Get-TeamsShiftsPolicy
 - Set-TeamsShiftsPolicy
 - Grant-TeamsShiftsPolicy
+- Remove-TeamsShiftsPolicy
 
 Use the New-TeamsShiftsPolicy cmdlet to create a new policy, set the policy settings that you want, and then use the Grant-TeamsShiftsPolicy cmdlet to assign the policy to users.
 
