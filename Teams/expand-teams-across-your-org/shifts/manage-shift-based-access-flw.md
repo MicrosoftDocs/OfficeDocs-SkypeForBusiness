@@ -106,10 +106,10 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 
 ### Example 4
 
-In this example, we assign a policy named Unrestricted Teams Access to a user named remy@contoso.com.
+In this example, we assign a policy named Off Shift Teams Access Custom Message to a user named remy@contoso.com.
 
 ```powershell
-Grant-CsTeamsShiftsPolicy -Identity remy@contoso,com -PolicyName "Unrestricted Teams Access"
+Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
 ## Related topics
