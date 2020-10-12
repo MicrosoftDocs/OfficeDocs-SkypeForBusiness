@@ -1,4 +1,4 @@
 ---
-redirect_url: help-depwiz
+redirect_url: ms.lync.dep.DeployAdminToolsIntro
 redirect_document_id: TRUE 
 ---
