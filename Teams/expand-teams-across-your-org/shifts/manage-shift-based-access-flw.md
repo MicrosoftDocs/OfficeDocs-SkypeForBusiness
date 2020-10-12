@@ -32,7 +32,7 @@ With shift-based access, you can manage access to Teams when Firstline Workers a
 
 ## Scenario
 
-Here's an example of how your organization can use shift-based presence.
+Here's an example of how your organization can manage shift-based access.
 
 You have Firstline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a custom message that says "Your time on Teams when on off shift won't count toward payable hours", which is displayed when Firstline Workers try to access Teams when off shift. If they choose to use Teams, they click **I accept** with the understanding that they won't be paid for this time.
 
