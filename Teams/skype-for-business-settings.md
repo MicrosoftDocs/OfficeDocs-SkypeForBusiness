@@ -38,7 +38,7 @@ In the left navigation of the Microsoft Teams admin center, go to **Org-wide set
 ### Skype Meeting Broadcast
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="sfb-org-wide-meeting-broacast"> </a>
+<a name="sfb-org-wide-broacast"> </a>
 <!-- Do not remove the bookmark link above. -->
 
 Use the following settings to manage [Skype Meeting Broadcast](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) in your organization.
@@ -112,6 +112,3 @@ You can configure the following meeting settings for the user.
     
 - **Record conversations & meetings**: Turn this on to allow the user to record conversations and meetings.
 - **Compliance**: Turn this on if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
-
-## Related topics
-
