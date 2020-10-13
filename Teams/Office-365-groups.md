@@ -23,9 +23,9 @@ description: Learn about how Microsoft 365 groups and group memberships work wit
 
 Microsoft 365 Groups is the cross-application membership service in Microsoft 365. At a basic level, a Microsoft 365 Group is an object in Azure Active Directory with a list of members and a coupling to related workloads including a SharePoint team site, shared Exchange mailbox, Planner and Power BI workspace. You can add or remove people to the group just as you would any other group-based security object in Active Directory.
 
-![Diagram showing Microsoft 365 Groups and related services](https://docs.microsoft.com/en-us/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![Diagram showing Microsoft 365 Groups and related services](https://docs.microsoft.com/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
-By default, users in Microsoft 365 can create and manage groups. For more information about Microsoft 365 Groups, see [Learn about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) and the [Groups in Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365) poster.
+By default, users in Microsoft 365 can create and manage groups. For more information about Microsoft 365 Groups, see [Learn about Microsoft 365 Groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) and the [Groups in Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365) poster.
 
 ## How Microsoft 365 Groups work with Teams
 
