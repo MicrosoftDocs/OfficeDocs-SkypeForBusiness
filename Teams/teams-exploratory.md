@@ -53,12 +53,12 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 
 Users fit the criteria for a Teams Exploratory experience if they:
 
-- have a managed Azure AD domain email address
-- don't have a Teams license
-- haven't been assigned a Teams license
-- belong to tenant with a paid Azure AD
-- aren't a trial or COVID user
-- aren't in a tenant that has at least 1 special COVID trial offer
+- have a managed Azure AD domain email address.
+- don't have a Teams license.
+- haven't been assigned a Teams license.
+- belong to a tenant with a paid Azure AD.
+- aren't a trial or COVID user.
+- aren't in a tenant that has at least 1 special COVID trial offer.
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.
 
