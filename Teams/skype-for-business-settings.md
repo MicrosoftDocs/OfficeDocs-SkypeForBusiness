@@ -38,7 +38,7 @@ In the left navigation of the Microsoft Teams admin center, go to **Org-wide set
 ### Skype Meeting Broadcast
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="sfb-org-wide-broacast"> </a>
+<a name="sfb-org-wide-broadcast"> </a>
 <!-- Do not remove the bookmark link above. -->
 
 Use the following settings to manage [Skype Meeting Broadcast](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) in your organization.
@@ -71,7 +71,7 @@ By default, anyone in your organization (whether in Teams or Skype for Business)
 
 #### Mobile notifications
 
-You can set whether your Skype for Business mobile users get alerts about incoming and missed instant messages, voicemail messages, and missed calls through a push notification service instead of through Microsoft 365. Depending on the mobile devices used in your organization, you can use the **Microsoft Push Notification Service**, the **Apple Push Notification Service**, or both.
+You can set whether your Skype for Business mobile users get alerts about incoming and missed instant messages, voicemail messages, and missed calls through a push notification service. Depending on the mobile devices used in your organization, you can use the **Microsoft Push Notification Service**, the **Apple Push Notification Service**, or both.
 
 Keep the following in mind:
 
@@ -80,7 +80,7 @@ Keep the following in mind:
 - When you turn off push notifications, users can't turn them back on. 
 
 > [!IMPORTANT]
-> Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).
+> Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See this [Privacy Statement](https://go.microsoft.com/fwlink/p/?linkid=247732).
 
 ## Manage Skype for Business settings for individual users
 
