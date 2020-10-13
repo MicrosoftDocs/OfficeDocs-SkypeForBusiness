@@ -762,6 +762,7 @@
 ### [Policy control overview](policy-control-overview.md)
 ### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
 ### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
+### [Overview of optional connected experiences in Microsoft Teams](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
