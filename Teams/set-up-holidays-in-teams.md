@@ -30,7 +30,7 @@ The holidays you create here are available when you [set up an auto attendant](c
 
 ## Create a holiday
 
-To create a holiday
+To create a holiday:
 
 1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
 
@@ -56,7 +56,7 @@ To create a holiday
 
 ## Change a holiday
 
-To change a holiday
+To change a holiday:
 
 1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
 
@@ -74,4 +74,4 @@ To change a holiday
 
 ## Related topics
 
-[Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)?
+[Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)
