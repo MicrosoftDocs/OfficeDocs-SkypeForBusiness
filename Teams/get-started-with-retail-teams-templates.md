@@ -85,4 +85,4 @@ To use these templates, change the 'template@odata.bind' property in the request
 ```
 ## Relate topic
 
-[Get started with Teams templates in the Admin console](get-started-with-teams-templates-in-the-admin-console.md)
+[Get started with Teams templates in the Admin center](get-started-with-teams-templates-in-the-admin-console.md)
