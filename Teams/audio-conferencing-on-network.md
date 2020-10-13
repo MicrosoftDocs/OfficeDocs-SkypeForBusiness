@@ -96,7 +96,7 @@ PSTN usages are collections of voice routes. When a dial-out call is initiated f
 
 You can create a PSTN usage by using the “Set-CsOnlinePstnUsage” cmdlet. For Example:
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -106,7 +106,7 @@ Voice routes determine the PSTN gateway that should be used to route a call base
 
 You can create a voice route and define the regex and gateways to be associated with the voice route by using the “New-CsOnlineVoiceRoute” cmdlet. For Example:
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -116,7 +116,7 @@ Audio Conferencing voice routing policies determine the possible routes that can
 
 You can create an Audio Conferencing voice routing policy by using the “New- CsOnlineAudioConferencingRoutingPolicy” cmdlet. For Example:
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -128,7 +128,7 @@ After the Audio Conferencing routing policies are defined, you can now assign th
 
 You can assign an Audio Conferencing voice routing policy to a user by using the “Grant-CsOnlineAudioConferencingRoutingPolicy” cmdlet. For example:
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
