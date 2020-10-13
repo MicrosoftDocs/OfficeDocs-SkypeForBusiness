@@ -872,6 +872,7 @@
 ### [Manage Teams device tags](devices/manage-device-tags.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
 ### [Teams displays](devices/teams-displays.md)
+### [Deploy Teams phones and Teams displays using Intune](devices/phones-displays-deploy.md)
 ### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
