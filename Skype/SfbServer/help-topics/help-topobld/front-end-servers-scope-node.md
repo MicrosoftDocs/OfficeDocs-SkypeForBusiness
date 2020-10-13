@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndServersScopeNode
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: "The Enterprise Edition Front End pools node lists the Front End pools at this site, and the Standard Edition Front End Servers nodes lists the Standard Edition servers at this site. You can perform the following action:"

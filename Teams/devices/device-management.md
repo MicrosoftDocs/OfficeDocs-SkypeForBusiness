@@ -23,7 +23,15 @@ appliesto:
 
 # Manage your devices in Microsoft Teams
 
-As an admin, you can manage devices used with Microsoft Teams in your organization from the Microsoft Teams admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices.
+You can manage devices used with Microsoft Teams in your organization from the Microsoft Teams admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices.
+
+To manage devices, such as changing device configuration, restarting devices, managing updates, or viewing device and peripheral health, you need to be assigned one of the following Microsoft 365 admin roles:
+
+- Microsoft 365 Global admin
+- Teams Service admin
+- Teams Device admin
+
+For more information about admin roles in Teams, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 ## What devices can you manage?
 

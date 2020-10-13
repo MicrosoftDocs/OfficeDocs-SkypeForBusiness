@@ -22,9 +22,6 @@ appliesto:
 
 Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.  This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and additional information on the partner solutions participating in the Microsoft Teams Connected Contact Center Certification Program.
 
-> [!NOTE]
-> Contact Center integration capability requires Advanced Communications license. 
-
 ## What is a Contact Center integration for Microsoft Teams?
 
 Today’s contact centers provide much more than support – they act as one of the main vehicles for interaction and unfiltered feedback on a customer’s experience with a brand. Due to the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations have realized two additional realities:
@@ -39,14 +36,16 @@ For others who desire integrated solutions with business tools and workflows to 
 
 ## Connected Contact Center for Microsoft Teams Certification Program
 
-The APIs allowing partners to develop and integrate CCaaS solutions for Teams are available with Advanced Communications license. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.
+The APIs allow partners to develop and integrate CCaaS solutions for Teams. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.
 
 The following partners are in the process of certifying their solution for Microsoft Teams and are ready to engage customers:
 
-| **Partner**                                                                                                                              | **Solution website**                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|  Partner                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| ContactCenter4All | www.contactcenter4all.com |
 | Enghouse Interactive | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
@@ -192,7 +191,7 @@ Please review the table below for an overview of the integration models that Mic
 <td>Users with Teams calling?</td>
 <td>Informal, SME</td>
 <td>Informal, SME</td>
-<td>Informal, SME, Formal*</td>
+<td>Informal, SME, Formal</td>
 <td>Informal, SME, Formal</td>
 </tr>
 <tr class="odd">

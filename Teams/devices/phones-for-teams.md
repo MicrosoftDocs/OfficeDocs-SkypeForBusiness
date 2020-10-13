@@ -25,6 +25,8 @@ Microsoft Teams supports a portfolio of desk phones for users who require a trad
 
 To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Lenovo, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices. To get the latest and up-to-date information on Teams devices, go to [Teams Marketplace](https://office.com/teamsdevices).
 
+To manage phones, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+
 ## Features supported by Teams Phones
 Teams-certified phones have a broad array of features to help your users do their jobs, and help you manage their use. Here's a summary of the features available in Teams-certified phones:
 

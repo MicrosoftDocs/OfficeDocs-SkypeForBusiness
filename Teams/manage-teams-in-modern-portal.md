@@ -63,6 +63,9 @@ The grid displays the following properties:
 
 To add a new team, click **Add**. In the **Add a new team** pane, give the team a name and description, set whether you want to make it a private or public team, and set the classification.
 
+> [!NOTE]
+> Newly created teams can be managed right away in the Teams Admin Center, unlike the experience in other clients like, Outlook.
+
 ### Edit
 
 To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.

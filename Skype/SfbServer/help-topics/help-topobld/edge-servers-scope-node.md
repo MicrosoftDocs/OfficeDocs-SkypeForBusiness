@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: "The Edge pools node lists the Edge pools in your topology. You can perform the following action:"

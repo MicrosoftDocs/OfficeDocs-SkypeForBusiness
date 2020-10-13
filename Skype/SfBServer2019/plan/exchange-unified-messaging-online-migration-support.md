@@ -72,7 +72,7 @@ Microsoft continues to deliver additional auto attendant capabilities that custo
 Voicemail migration is Microsoft driven. Admins are not required to do anything, given that the pre-requisite hybrid topology is established. Microsoft performs the required validation and testing to make sure users’ voicemail migration is not disrupted. Admins are encouraged to perform testing and validation on their side. See [Suggested test plan and post-migration validation for admins](#suggested-test-plan-and-post-migration-validation-for-admins) for a recommended test plan.
 
 > [!Note]
-> Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams or Skype for Business Online.  
+> Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams.  
 
 ### Monitor the Admin Notification Center
 
@@ -153,7 +153,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | User Features | Supported greeting languages | Details here: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | VM | User Features | Call answering rules |  | Y | Y    |
 | VM | User Features | Play on phone (PSTN)- to play message | Call me on my cell to listen to the voice message  | N | Y    |
-| VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | Y | Y    |
+| VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | N | Y    |
 | VM | User Features | Shared mailbox between multiple users |  | Y | Y    |
 | VM | Caller Features  | Caller experience — protected voicemail | The caller can choose an option to mark a recorded message as protected| N | Y    |
 | VM | Caller Features  | Caller experience — private voicemail | The caller can choose an option to mark a recorded message as private  | N | Y    |

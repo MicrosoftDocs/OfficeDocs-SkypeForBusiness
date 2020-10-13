@@ -23,6 +23,7 @@ ms.custom:
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
   - seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 description: Learn about Cloud auto attendants and how to use them to let callers move through a menu system to locate and place or transfer calls to users or departments.
 ---
 

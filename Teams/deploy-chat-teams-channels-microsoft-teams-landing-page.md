@@ -23,9 +23,9 @@ appliesto:
 
 # Chat, teams, channels, & apps in Microsoft Teams
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs. 
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
-To get started, watch our short Teams chat, teams, and channels video (4:30 minutes): 
+To get started, watch our short Teams chat, teams, and channels video (4:30 minutes):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
@@ -35,6 +35,9 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 
 > [!TIP]
 > We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+
+ > [!Note]
+ > For details about Teams features on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Chat deployment prerequisites
 
@@ -138,7 +141,6 @@ Teams provides a number of first-party (Microsoft provided) and third-party apps
 
 To learn more about rolling out and managing apps in Teams, see our in-depth [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) guidance.
 
-
 ## Additional deployment decisions
 
 You may want to change these settings, based on your organization's needs and configuration.
@@ -178,7 +180,6 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 |------------|-------|
 | Do I require internet access rules to enable users to use Teams, or is it sufficient to open the minimum required ports? | To learn more, see [URLs and IP address ranges](office-365-urls-ip-address-ranges.md).|
 |||
-
 
 ### Governance (naming conventions, who can create teams)
 
@@ -247,4 +248,3 @@ The use of Office 365 for Government - GCC (Government Community Cloud) is appro
 - Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 - [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)
-

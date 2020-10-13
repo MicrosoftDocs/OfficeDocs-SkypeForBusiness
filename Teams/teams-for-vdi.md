@@ -34,6 +34,9 @@ Using Teams in a virtualized environment might be somewhat different from using 
 
 To ensure an optimal user experience, follow the guidance in this article.
 
+ > [!Note]
+> For details about Teams VDI on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
 ## Teams on VDI components
 
 Using Teams in a virtualized environment requires the following components.
@@ -75,7 +78,11 @@ For the latest server and client requirements, see [this Citrix website](https:/
 
 ### VMware Horizon Workspace and Desktop requirements
 
-VMware Horizon provides optimized AV support for Teams on VDI for improved productivity across virtual desktops. You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page.
+VMware Horizon is a modern platform for secure delivery of virtual desktops and apps across the hybrid cloud. To offer a great end-user experience, VMware Horizon provides media optimization for Teams. This optimization improves overall productivity across virtual desktops and apps, and enhances user experience when calling and meeting using Teams.
+
+You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page. The required media optimization components are part of the Horizon Agent and Horizon Client by default and there's no need to install any additional plug-in to use the optimization feature for Teams.
+
+To get the latest requirements and instructions on how to configure media optimization for Teams, see [this VMware website](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
 ## Install or update the Teams desktop app on VDI
 
@@ -369,10 +376,12 @@ The following calling and meeting features are not supported:
 - Enhanced emergency services
 - HID buttons and LED controls between the Teams app and devices
 - Background blur and effects
-- Broadcast/live events
+- Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - Call park
 - Call queue
+- Shared system audio/computer sound
+- Media bypass for Direct Routing
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
@@ -399,7 +408,13 @@ For Teams known issues that aren't related to VDI, see [Support Teams in your or
 
 ### Troubleshoot Citrix components
 
-For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+#### Teams crashes or the Teams sign in screen is blank
+
+This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry DWORD value, and set it to 204 (hexadecimal).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+Then, restart VDA. To learn more, see this Citrix support article, [Troubleshooting HDX optimization for Teams](https://support.citrix.com/article/CTX253754).
 
 ## Related topics
 

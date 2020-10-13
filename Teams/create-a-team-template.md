@@ -16,12 +16,11 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a custom team template in Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Custom templates are not yet supported for EDU customers.**
 
@@ -29,7 +28,7 @@ A custom team template is a predefined team structure with a set of channels, ta
 
 To get started:
 
-1. Log in to the admin center at <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a>.
+1. Log in to the Teams admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 
@@ -52,7 +51,7 @@ To get started:
     2. In the **Add** dialog, name the channel.
     3. Add a description.
     4. Decide if the channel should be shown by default.
-    5. Search for an app name that you want to addd to the channel.
+    5. Search for an app name that you want to add to the channel.
     6. Click **Apply** when finished.
 
 ![An image of the Team templates channels, tabs, and apps screen.](media/template-channels-tabs-apps.png)
@@ -60,6 +59,9 @@ To get started:
 8. Click **Submit** when completed.
 
 Your new template is displayed in the **Team templates** list. The template can be used to create a team in Teams.
+
+> [!Note]
+> It can take up to 24 hours for teams users to see a custom template in the gallery.
 
 ## Related topics
 

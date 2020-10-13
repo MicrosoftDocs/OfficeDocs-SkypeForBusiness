@@ -29,12 +29,17 @@ Device firmware updates can either be applied automatically or scheduled for a f
 > [!NOTE]
 > While device firmware updates can be scheduled, if the scheduled date and time falls after the configured maximum 30 or 90 day delay, the firmware update is applied when the maximum delay is reached. The scheduled date and time are ignored. Additionally, updating Microsoft Teams devices remotely is a feature not yet available on US Government Cloud tenants (GCC-High).
 
+To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+
 ## Choose automatic device firmware update behavior
 
-Device firmware updates are applied automatically. You can decide whether to apply updates as soon as one is released, or 30 or 90 days after an update is released. By default, device firmware updates are applied 30 days one released.
+Device firmware updates are applied automatically. You can decide whether to apply updates as soon as one is released (if you choose this option, updates are applied on the first weekend after an update is released), or 30 or 90 days after an update is released. By default, device firmware updates are applied 30 days one released.
 
 > [!IMPORTANT]
 > The latest firmware update release isn't applied on your Teams device. Instead, the update that's automatically applied on your device is delayed by one version. For example, assume your device has version "10" applied, and version "11" is released. Version "11" won't be applied yet. Instead your device will only be updated to version "11" after version "12" is released.
+
+> [!NOTE]
+> Some devices don't support automatic firmware update yet. Applying automatic firmware update settings on devices that don't support automatic updates won't have any affect on those devices. For questions about whether your device will support automatic firmware updates, contact your device manufacturer.
 
 To choose the automatic update behavior for your devices, do the following:
 
@@ -42,7 +47,7 @@ To choose the automatic update behavior for your devices, do the following:
 2. Navigate **Devices** > **Phones** or **Collaboration bars**
 3. Select one or more devices and then select **Update**
 4. Under **Firmware auto-update**, select one of the following:
-    - **As soon as available** Second-newest device firmware update is applied as soon as possible after the latest update is released.
+    - **As soon as available** Second-newest device firmware update is applied on the first weekend after the latest update is released.
     - **Defer 30 days** Second-newest device firmware update is applied 30 days after the latest update is released.
     - **Defer 90 days** Second-newest device firmware update is applied 90 days after the latest update is released.
 5. Select **Update**
