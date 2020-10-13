@@ -38,13 +38,13 @@ Now you can customize the Teams Apps store with your organizational branding by 
 
 Here you can upload your organization logo. The logo selected will appear in the Teams client in **Apps** > **Built for your tenant** page.
 
-When you select the **Choose a picture** option, you can upload the file of your choice. The logo should be 240x60, or it will be scaled to that size. It should be no larger than 5MB. The supported formats are:
+When you select the **Choose a picture** option, you can upload the file of your choice. The logo should be 240x60, or it will be scaled to that size. It should be no larger than 5 MB. The supported formats are:
 
 - .svg
 - .png
 - .jpg
 
-The logo is shown in the top right corner of the tenant app catalog in the Teams store.
+The logo is shown in the top, right corner of the tenant app catalog in the Teams store.
 
 ## Customize your small logo
 
@@ -52,9 +52,9 @@ The logo is shown in the top right corner of the tenant app catalog in the Teams
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Your organization logomark or small logo is an image or symbol that represents your organization brand and doesn't include your company name. The logomark helps team members identify the Apps store. The logo selected will appear in the Teams client in Apps page.
+Your organization lovemark or small logo is an image or symbol that represents your organization brand and doesn't include your company name. The logomark helps team members identify the Apps store. The logo selected will appear in the Teams client in Apps page.
 
-When you select the **Choose a picture** option, you can upload the file of your choice. The logomark should be 32x32 pixels, or it will be scaled to that size. It should be no larger than 5MB. The supported formats are:
+When you select the **Choose a picture** option, you can upload the file of your choice. The logomark should be 32x32 pixels, or it will be scaled to that size. It should be no larger than 5 MB. The supported formats are:
 
 - .svg
 - .png
@@ -73,7 +73,7 @@ The background should have enough contrast with the text so the users can read t
 Your options are:
 
 - Use Teams client default background theme
-- Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212x100 pixels, or it will be scaled to that size. It should be no larger than 5MB. The supported formats are:
+- Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212x100 pixels, or it will be scaled to that size. It should be no larger than 5 MB. The supported formats are:
   - .svg
   - .png
   - .jpg
@@ -95,8 +95,8 @@ When you select **Choose a custom color**, a color chooser opens. Select the col
 
 ## Complete the customization of your team apps store
 
-When you've finished customizing your apps store, be sure to click **Save** to save your changes.
-To preview your changes, click **Preview apps store** to see a representation of your customized apps store.
+When you've finished customizing your apps store, be sure to select **Save** to save your changes.
+To preview your changes, select **Preview apps store** to see a representation of your customized apps store.
 
 > [!Note]
 > The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.
