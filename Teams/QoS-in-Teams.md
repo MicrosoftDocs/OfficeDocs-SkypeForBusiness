@@ -154,6 +154,29 @@ If you've previously deployed Skype for Business Online, including QoS tagging a
 > [!NOTE]
 > If you're using Application Name QoS tagging via Group Policy, you must add Teams.exe as the application name.
 
+### Implement QoS in Teams on Windows using PowerShell
+
+**Set QoS for audio**
+
+```powershell
+new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000
+-IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
+```
+
+**Set QoS for video**
+
+```powershell
+new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020
+-IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
+```
+
+**Set QoS for sharing**
+
+```powershell
+new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040
+-IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
+```
+
 ## Managing source ports in the Teams admin center
 
 In Teams, QoS source ports used by the different workloads should be actively managed, and adjusted as necessary. Referring to the table in [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type), the port ranges are adjustable, but the DSCP markings aren't configurable. Once you have implemented these settings, you might find that more or fewer ports are needed for a given media type. [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) should be used in making a decision to adjust port ranges after Teams has been implemented, and periodically as needs change.
@@ -169,14 +192,20 @@ For QoS to be effective, the DSCP value set by the GPO needs to be present at bo
 
 Preferably, you capture traffic at the network egress point. You can use port mirroring on a switch or router to help with this.
 
+## Implement QoS for other devices
+
+Read these topics for information about implementing QoS for Intune, Surface, iOS, Android, and Mac
+
+- [Manage Surface hub Qos with Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune)
+
+- [Surface hub QoS](https://docs.microsoft.com/surface-hub/surface-hub-qos)
+
+- [QoS for iOS, Android, and Mac](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+
 ## Related topics
 
-[Video: Network Planning](https://aka.ms/teams-networking)
+- [Video: Network Planning](https://aka.ms/teams-networking)
 
-[Prepare your organization's network for Microsoft Teams](prepare-network.md)
+- [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 
-[Implement QoS in the Teams client](QoS-in-Teams-clients.md)
-
-[Surface hub QoS](https://docs.microsoft.com/surface-hub/surface-hub-qos)
-
-[Manage Surface hub Qos with Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune)
+- [Implement QoS in the Teams client](QoS-in-Teams-clients.md)
