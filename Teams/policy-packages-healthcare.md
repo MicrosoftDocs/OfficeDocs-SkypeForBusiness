@@ -47,6 +47,16 @@ Each individual policy is given the name of the policy package so you can easily
 
 ![Screenshot of policies in the Healthcare clinical worker package](media/policy-packages-healthcare-clinical-worker.png)
 
+## Get started with policy packages
+
+To get you started with Healthcare policy packages, on the Microsoft Admin Center onboarding hub, select **Healthcare basics**, and then select **Assign policy settings by role**. Once you’re ready to get started, decide which policy packages you'd like to assign individuals in your organization to.
+
+Select **View policy details** to learn more about the specific policies in a package and their respective settings. These [can be customized](manage-policy-packages.md#customize-policies-in-a-policy-package) after assignment in the Teams Admin Center.
+
+Choose one or multiple packages to assign and then click **Next**. You can search for and add people to the policy package best suited for their role. An individual can't be assigned to more than one policy package at one time.
+
+Once you’ve added people to the right policy package, **Finish** finalizes your selections. You can continue to customize and manage policy packages in the Microsoft Teams admin center.
+
 ## Manage policy packages
 
 ### View
