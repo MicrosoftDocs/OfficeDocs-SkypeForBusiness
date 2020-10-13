@@ -27,6 +27,9 @@ In Microsoft Teams, users can record their Teams meetings and group calls to cap
 
 Related: [Teams meeting recording end user documentation](https://aka.ms/recordmeeting)
 
+>[!Note]
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+
 > [!NOTE]
 > For information about using roles in Teams meetings, and how to change users' roles, see [Roles in a Teams meeting](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
 
@@ -34,8 +37,8 @@ Related: [Teams meeting recording end user documentation](https://aka.ms/recordm
 
 For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
-- User has Office 365 E1, E3, E5, A1, A3, A5, M365 Business Premium, M365 Business Standard, or M365 Business Basic.
-- User needs to be licensed for Microsoft Stream<sup>1</sup> 
+- User has Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Business Standard, or Business Basic<sup>1</sup>
+- User needs to be licensed for Microsoft Stream<sup>2</sup> 
 - User has Microsoft Stream upload video permissions
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
@@ -43,7 +46,9 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 - User is not an anonymous, Guest, or federated user in the meeting
 - To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have the -AllowTranscription setting set to true.
 
-<sup>1</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
+<sup>1</sup> As of August 20, 2020, access to the meeting recording file will expire after 21 days for users with A1. For more information, see [Upload a Microsoft Teams meeting recording to Stream](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+
+<sup>2</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
 > [!IMPORTANT] 
 > Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 21-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
@@ -105,7 +110,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 Meeting recordings are stored in Microsoft Stream cloud storage. Recordings are retained and available for viewing and download for 21 days. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. In the future, the meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region.
 
-When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, turn off the **Allow cloud recording** setting in the Global Teams meeting policy, which is in the Microsoft Teams admin center.
+When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, turn off the **Allow cloud recording** setting in the Global Teams meeting policy, which is in the Microsoft Teams admin center. If, however, you still wish to enable recordings to be stored in the nearest geographic region for Microsoft Stream, you must turn on both **Allow cloud recording** and **Allow Recording Storage Outside Region** before this change takes place.
+
+To enable recordings in region the Global policy, use the following cmdlet:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 Here's a summary of what happens when you turn on meeting recording when this change takes effect:
 
@@ -124,7 +136,8 @@ To learn more about where data is stored across services in Microsoft 365 or Off
 
 This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
 
-**Note** that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
+> [!NOTE]
+> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 

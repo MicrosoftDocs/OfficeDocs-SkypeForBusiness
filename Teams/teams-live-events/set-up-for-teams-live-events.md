@@ -74,6 +74,9 @@ For users to schedule events produced with an external app or device, you must a
 
 1. Enable Microsoft Stream for users in your organization. Stream is available as part of eligible Microsoft 365 or Office 365 subscriptions or as a standalone service. Stream isn't included in Business Essentials or Business Premium plans. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
 
+>[!Note]
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+
       Learn more about how you can [assign licenses to users](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. Ensure users have live event creation permission in Stream. By default, administrators can create events with an external app or device. Stream administrator can [enable additional users for live event creation](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.  
@@ -94,6 +97,8 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 - **Kollective** is a cloud-based, smart peering distribution platform that leverages your existing network infrastructure to deliver content, in many forms, (live streaming video, on-demand video, software updates, security patches, etc.) faster, more reliably and with less bandwidth. Our secure platform is trusted by the world's largest financial institutions and with no additional hardware, setup and maintenance are easy. [Learn more](https://kollective.com/microsoft-pilot/).
  
 - **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for live events produced in Teams is coming soon. [Learn more](https://rampecdn.com). 
+
+- **Riverbed**, the industry standard in network optimization, is extending its acceleration solutions to Microsoft Teams and Stream.  Now Microsoft 365 customers can confidently accelerate 365 traffic including Teams and Stream along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams and Stream acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
  
 > [!NOTE] 
 > Your chosen SDN or eCDN solution is subject to the selected **3rd party provider's terms of service and privacy policy**, which will govern your use of the provider's solution. Your use of the provider's solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider's terms**, then don't enable the solution in Teams. 

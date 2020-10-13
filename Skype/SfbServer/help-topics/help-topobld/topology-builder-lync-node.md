@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.None
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
 
@@ -21,5 +19,3 @@ ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
 
 # Topology Builder Lync Node
  
-
-
