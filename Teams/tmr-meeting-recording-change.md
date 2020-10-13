@@ -21,14 +21,15 @@ appliesto:
 # Use OneDrive for Business and SharePoint or Stream for meeting recordings
 
 > [!Note]
-> ​​The change from using Microsoft Stream to OneDrive for Business and Microsoft SharePoint for meeting recordings will be a phased approach.
-> |||
-> |---|-----------------|
-> |Date|Event|
-> |Early Q4 CY20|**Teams meeting recording on OneDrive for Business and SharePoint available for opt in or opt out.**<br> Tenant admins can opt in  or opt out of OneDrive for Business and SharePoint setting the Teams policy in PowerShell|
-> |Mid Q4 CY20|**Teams meeting recording on OneDrive for Business and SharePoint set as default for tenants who don't opt out**<br> This is the  recommended path for most customers|
-> Q1 CY21|**Saving Teams meeting recording to Classis Stream no longer allowed**<br>All tenants will save Teams meeting recording to OneDrive for Business and SharePoint|
-> |||
+> The change from using Microsoft Stream to OneDrive for Business and Microsoft SharePoint for meeting recordings will be a phased approach.
+
+|||
+|---|-----------------|
+|Date|Event|
+|Early Q4 CY20|**Teams meeting recording on OneDrive for Business and SharePoint available for opt in or opt out.**<br> Tenant admins can opt in  or opt out of OneDrive for Business and SharePoint setting the Teams policy in PowerShell|
+|Mid Q4 CY20|**Teams meeting recording on OneDrive for Business and SharePoint set as default for tenants who don't opt out**<br> This is the  recommended path for most customers|
+Q1 CY21|**Saving Teams meeting recording to Classis Stream no longer allowed**<br>All tenants will save Teams meeting recording to OneDrive for Business and SharePoint|
+|||
 
 Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](https://docs.microsoft.com/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits.
 
