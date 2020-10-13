@@ -1,7 +1,7 @@
 ---
 title: "Audio conferencing providers for Skype for Business Online"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
