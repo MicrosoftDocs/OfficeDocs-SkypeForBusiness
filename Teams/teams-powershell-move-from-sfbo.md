@@ -1,8 +1,8 @@
 ---
 title: Move from Skype for Business Online Connector to the Teams PowerShell module
-ms.reviewer: pupara
 author: pupara
 ms.author: pupara
+ms.reviewer: pupara
 manager: buletnteg
 ms.topic: conceptual
 audience: admin
