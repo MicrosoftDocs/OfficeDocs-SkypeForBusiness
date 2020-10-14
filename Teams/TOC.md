@@ -883,7 +883,7 @@
 ### [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 ### [Teams PowerShell release notes](teams-powershell-release-notes.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
+### [Move from Skype for Business Online Connector to the Teams PowerShell module](teams-powershell-move-from-sfbo.md)
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
 ## [Teams content updates](teams-updates.md)
