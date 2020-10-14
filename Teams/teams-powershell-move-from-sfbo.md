@@ -3,7 +3,7 @@ title: Move from Skype for Business Online Connector to the Teams PowerShell mod
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
-manager: buletnteg
+manager: bulenteg
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
