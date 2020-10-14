@@ -86,6 +86,8 @@ Watch "Meeting Recording" for more information.
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
 ```
 
+This example shows the policy being set globally, but the policy can be set [more granularly just like other Teams policies](https://docs.microsoft.com/en-us/MicrosoftTeams/assign-policies).
+
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
 Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive, then you must reset the policy to **Stream** to ensure that it's the default.
