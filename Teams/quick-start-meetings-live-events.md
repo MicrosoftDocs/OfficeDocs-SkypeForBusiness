@@ -30,7 +30,6 @@ There are 2 ways to meet in Microsoft Teams - meetings and live events. Use this
  - **Meetings** in Teams include audio, video, and screen sharing for up to 300* people. They're one of the key ways to collaborate in Teams. And you don't need to be a member of an organization (or even have a Teams account!) to join a Teams meeting—just look in the invitation for instructions about calling in.
 
  - **Live events** are an extension of Teams meetings that enable you to schedule and produce events that stream to large online audiences - up to 10,000 people. If you need a meeting for more than 300 people, use a live event.
-<br><br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300. See [Limits and Specifications](limits-specifications-teams.md) for the latest information about Teams meeting limits.
 
 ## Get licenses for meetings and live events
 
