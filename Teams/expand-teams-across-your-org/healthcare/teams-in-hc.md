@@ -37,7 +37,7 @@ The content in this section assumes that you've already deployed Teams in your o
 Use the complete meetings platform in Microsoft Teams to schedule, manage, and conduct virtual visits with patients.
 
 - If your organization already uses Electronic Health Records, or EHR, you can integrate Microsoft Teams for a more seamless experience. Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual visits with Teams - Integration into EHR](ehr-admin.md).
-- If you aren't using a support EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Bookings app and virtual visits in Microsoft Teams](../../bookings-app-admin.md).
+- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Bookings app and virtual visits in Microsoft Teams](../../bookings-app-admin.md).
 
 ## Teams policy packages
 
