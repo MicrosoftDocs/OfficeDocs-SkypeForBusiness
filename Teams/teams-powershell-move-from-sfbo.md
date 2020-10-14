@@ -26,7 +26,7 @@ To move from using Skype for Business Online Connector to the Teams PowerShell m
     For example, change ```Import-Module -Name SkypeOnlineConnector``` to ```Import-Module -Name MicrosoftTeams```.
 
 > [!NOTE]
-> Admins should continue to use ```New-CsOnlineSession``` and import the session before using Skype for Business Online cmdlets. 
+> Admins should continue to use [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/skype/new-csonlinesession) and import the session before using Skype for Business Online cmdlets. 
 
 ## Related topics
 
