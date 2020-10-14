@@ -62,20 +62,20 @@ Watch "Meeting Recording" for more information.
 
 ## Set up the meeting recording option for OneDrive for Business and SharePoint
 
-1. Install the Skype For Business Online PowerShell admin console.
+1. Install the Teams PowerShell module.
 
-    a. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
+> [!NOTE]
+> Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector
 
-    b. Follow the prompts to install it.
-
-    c. Restart your machine.
+  a. Install [Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
 
 2. Launch PowerShell as an admin
 
-3. Import the SkypeOnline Connector and log in as a Teams admin.
+3. Import the MicrosoftTeams and log in as a Teams admin.
 
 ```PowerShell
-  Import-Module SkypeOnlineConnector
+  Import-Module MicrosoftTeams
   $sfbSession = New-CsOnlineSession
   Import-PSSession $sfbSession
 ```
