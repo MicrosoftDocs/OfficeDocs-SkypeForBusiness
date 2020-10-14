@@ -862,7 +862,7 @@
 ### [Enhance existing Microsoft 365 groups with Teams](enhance-office-365-groups.md)
 ### [How Exchange and Teams interact](exchange-teams-interact.md)
 #### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+#### [Use mail flow rules with Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
