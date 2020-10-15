@@ -770,7 +770,7 @@
 ### [Policy control overview](policy-control-overview.md)
 ### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
 ### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
-### [Overview of optional connected experiences in Microsoft Teams](teams-privacy-oce-overview.md)
+### [Optional connected experiences](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -862,7 +862,7 @@
 ### [Enhance existing Microsoft 365 groups with Teams](enhance-office-365-groups.md)
 ### [How Exchange and Teams interact](exchange-teams-interact.md)
 #### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+#### [Use mail flow rules with Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
@@ -882,8 +882,8 @@
 ### [Install Teams PowerShell](teams-powershell-install.md)
 ### [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 ### [Teams PowerShell release notes](teams-powershell-release-notes.md)
+### [Move from Skype for Business Online Connector to the Teams PowerShell module](teams-powershell-move-from-sfbo.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
 ## [Teams content updates](teams-updates.md)
