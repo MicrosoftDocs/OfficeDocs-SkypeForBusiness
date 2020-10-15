@@ -121,17 +121,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300. **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.<sup>1</sup> <br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow. |
+|Number of people in a meeting (can chat and call in)  | 300. **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.<br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow. Learn more about the [View-only experience](view-only-experience.md).|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
-
-<sup>1</sup> View-only is on by default. You can use PowerShell to disable meeting overflow. 
-```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
-Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
-```
-Learn more about the [View-only experience](view-only-experience.md).
 
 ### Meeting expiration
 
