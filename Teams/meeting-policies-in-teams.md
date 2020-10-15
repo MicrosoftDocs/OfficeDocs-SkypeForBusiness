@@ -188,6 +188,18 @@ Note that transcription for recorded meetings is currently only supported for us
 
 ![Screenshot showing transcription options in a meeting](media/meeting-policies-transcription.png)
 
+*******
+
+This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed. If you turn on this setting, the meeting organizer or another meeting participant have the option to start (and stop) transcription or start and stop recording and transcription in meetings
+
+|Allow transcription|Allow cloud recording|Meeting experience|
+|---------|---------|---------|
+|**On**|**On**|The **Start recording and transcription** and **Start transcription** options are available in meetings. The meeting organizer or meeting participants can start and stop recording and transcription or start transcription. |
+|**Off**|**On**|The **Start recording** option is available in meetings. Transcription isn't available in meetings.  |
+|**Off**|**Off**|Recording and tTranscription isn't available in meetings.  |
+
+******* 
+
 ### Allow cloud recording
 
 This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
