@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business certification program - How to Join"
-ms.author: serdars
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

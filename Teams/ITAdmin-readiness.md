@@ -50,9 +50,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Teams Rooms Foundations for IT & AV Pros</h2>
 
-<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks, on  Microsoft Teams Rooms.  
+<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on  Microsoft Teams Rooms.  
 
-| Module | Video | PowerPoint deck  |
+| Module | Video | PowerPoint deck (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | Module 1: Introduction to Microsoft Teams Rooms (18:29 min) | [Video](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | Module 2: Microsoft Teams Networking (34:10 min) | [Video](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

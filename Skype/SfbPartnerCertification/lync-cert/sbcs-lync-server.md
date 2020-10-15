@@ -1,7 +1,7 @@
 ---
 title: "Session border controllers"
-ms.author: serdars
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
