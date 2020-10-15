@@ -221,6 +221,8 @@ If set to **Disabled** for a user, that user can still schedule and organize mee
 
 This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Teams [calling policy](teams-calling-policy.md) and turn off the **Make private calls** setting. This setting also doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
+This setting isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
+
 To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
 ### Mode for IP video
@@ -234,10 +236,14 @@ This is a per-user policy. This setting controls whether video can be turned on 
 
 If set to **Disabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
 
-This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
+This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices. 
+
+This setting isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
 
 > [!NOTE]
 > Keep in mind that this setting controls both outgoing and incoming video whereas the **Allow IP video** setting controls outgoing video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
+
+To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
 ### Allow IP video
 
@@ -252,7 +258,6 @@ Meetings organized by a user who has this policy setting enabled, allow video sh
 |:-------:|:-------:|
 |![Screenshot showing meeting join with audio/video settings on desktop](media/meeting-policies-audio-video-settings.png)    |![Screenshot showing meeting join sreen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)          |
 
-
 Let's look at the following example.
 
 |User |Meeting policy  |Allow IP video |
@@ -265,6 +270,8 @@ Meetings hosted by Daniela allow video to be turned on. Daniela can join the mee
 In meetings hosted by Amanda, no one can turn on video, regardless of the video policy assigned to them. This means Daniela can't turn on video in Amanda's meetings.  
 
 If Daniela calls Amanda with video on, Amanda can answer the call with audio only.  When the call is connected, Amanda can see Daniela's video, but can't turn on video. If Amanda calls Daniela, Daniela can answer the call with video and audio. When the call is connected, Daniela can turn on or turn off her video, as needed.
+
+To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
 #### Which IP video policy setting takes precedence?
 
