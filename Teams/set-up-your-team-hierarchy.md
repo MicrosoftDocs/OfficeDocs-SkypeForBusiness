@@ -138,6 +138,10 @@ Remove-TeamTargetingHierarchy
 
 Take note of the error message as it should include troubleshooting information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
 
+### You receive an "Error: InvalidTeamId" error message when you upload your schema file
+
+When you try to upload
+
 ## Related topics
 
 - [Manage the Tasks app for your organization in Teams](manage-tasks-app.md)
