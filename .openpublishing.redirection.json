@@ -2285,6 +2285,77 @@
         "source_path": "Teams/manage-phone-numbers-for-your-organization/index.md",
         "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-policies-in-your-organization/set-up-policies-in-your-organization",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.jsonbreadcrumb/toc.json",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/depwiz/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/2019/depwiz/ms.lync.dep.DeployAdminToolsIntro",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/lscp/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools-2019",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/planning/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/2019/planning/ms.lync.plan.FeatureOverview",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/topobld/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/2019/topobld/ms.lync.tb.StartupDialog",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-depwiz/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/help-depwiz/deployment-wizard-admin-tools",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-lscp/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/help-lscp/use-the-control-panel",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-planning/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/planning-tool/feature-overview",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-topobld/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/help-topobld/topology-builder-startup-dialog",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/optimizing-your-network/index.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/optimizing-your-network",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/conferencing/index.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/manage/conferencing/conferencing",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/index.md",
+        "redirect_url": "",
+        "redirect_document_id": true
       }
   ] 
 }
+
