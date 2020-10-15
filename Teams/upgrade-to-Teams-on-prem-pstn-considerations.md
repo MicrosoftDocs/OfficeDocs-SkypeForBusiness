@@ -39,7 +39,8 @@ In addition, the following articles describe important upgrade concepts and coex
 
 
  > [!NOTE]
- > Using Phone System with Teams is only supported when the user is in TeamsOnly mode.  If the user is in Islands mode, Phone System is only supported with Skype for Business. 
+ > - Using Phone System with Teams is only supported when the user is in TeamsOnly mode.  If the user is in Islands mode, Phone System is only supported with Skype for Business. 
+ > - Any call forwarding and delegation settings from Skype for Business are not migrated and will need to be re-recreated for Teams.
 
 
 ## PSTN calling scenarios
