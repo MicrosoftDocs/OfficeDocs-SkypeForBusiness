@@ -2410,6 +2410,11 @@
         "source_path": "Teams/guidance-SkypeforBusiness.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-and-coexistence-of-skypeforbusiness-and-teams",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online",
+        "redirect_document_id": true
       }
   ] 
 }
