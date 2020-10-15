@@ -42,7 +42,7 @@ Users without the Advanced Communications add-on will be limited according to th
 
 Administrators can disable the view-only experience using PowerShell. 
 
-``powershell
+```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 ```
