@@ -93,6 +93,117 @@ Even if a policy says it's set to **Stream**, it might not be set. Typically, if
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
+## Permissions or role-based access
+
+<table>
+<thead>
+<tr class="header">
+<th><strong>Meeting type</strong></th>
+<th><strong>Who clicked on Record?</strong></th>
+<th><strong>Where does the recording land?</strong></th>
+<th><strong>Who has access? R/W, R or sharing</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1:1 call with internal parties</strong></td>
+<td>Caller</td>
+<td>Caller’s OneDrive for Business account</td>
+<td><ul>
+<li><p>Caller is owner, has full rights</p></li>
+<li><p>Callee (if in the same tenant) has read only access, no sharing access</p></li>
+<li><p>Callee (if in different tenant) has no access. Caller must share it to the Callee</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Callee</td>
+<td>Callee’s OneDrive for Business account</td>
+<td><ul>
+<li><p>Callee is owner, has full rights</p></li>
+<li><p>Caller (if in the same tenant) has read only access, no sharing access</p></li>
+<li><p>Caller (if in different tenant) has no access. Callee must share it to the Callee</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>1:1 call with an external call</strong></td>
+<td>Caller</td>
+<td>Caller’s OneDrive for Business account</td>
+<td><ul>
+<li><p>Caller is owner, has full rights</p></li>
+<li><p>Callee has no access. Caller must share it to the Callee</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Callee</td>
+<td>Caller’s OneDrive for Business account</td>
+<td><ul>
+<li><p>Callee is owner, has full rights</p></li>
+<li><p>Caller has no access. Callee must share it to the Caller</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>Group call</strong></td>
+<td>Any member of the call</td>
+<td>Member who clicked on Record’s OneDrive for Business account</td>
+<td><ul>
+<li><p>Member who clicked on Record has full rights</p></li>
+<li><p>Other members from the same tenant have Read rights</p></li>
+<li><p>Other members for different have no rights to it.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Adhoc/Scheduled meeting</strong></td>
+<td>Organizer</td>
+<td>Organizer’s OneDrive for Business account</td>
+<td><ul>
+<li><p>Organizer has full rights to the recording</p></li>
+<li><p>All other members of the meeting have read access</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Other meeting member</td>
+<td>Member who clicked on Record</td>
+<td><ul>
+<li><p>Member who clicked on Record has full rights to the recording</p></li>
+<li><p>Organizer has edit rights, and can share</p></li>
+<li><p>All other members have read access</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Adhoc/Scheduled meeting with external users</strong></td>
+<td>Organizer</td>
+<td>Organizer’s OneDrive for Business account</td>
+<td><ul>
+<li><p>Organizer has full rights to the recording</p></li>
+<li><p>All other members of the meeting from the same tenant as the organizer have read access</p></li>
+<li><p>All other external members have no access and the Organizer must share it to them</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Other meeting member</td>
+<td>Member who clicked on Record</td>
+<td><ul>
+<li><p>Member who clicked on Record has full rights to the recording</p></li>
+<li><p>Organizer has edit rights, and can share</p></li>
+<li><p>All other members of the meeting from the same tenant as the organizer have read access</p></li>
+<li><p>All other external members have no access and the Organizer must share it to them</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Channel meeting</strong></td>
+<td>Channel Member</td>
+<td>Team’s sharepoint location for that channel</td>
+<td><ul>
+<li><p>Member who clicked on Record has edit rights to the recording</p></li>
+<li><p>Every other member’s persmissions are based off of the Channel SP permissions</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 ## Frequently asked questions
 
