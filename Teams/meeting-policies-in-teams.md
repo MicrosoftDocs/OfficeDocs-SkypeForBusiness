@@ -155,9 +155,9 @@ In the channel calendar:
 
 In the admin center:
 
-The channel calendar app will show up in the **Microsoft apps** section in app permission policies.
+The channel calendar app will show up in the **Microsoft apps** section on the app permission policies page.
 
-![Screenshot showing the Microsoft apps policy in the Teams admin console.](media/manage-microsoft-apps-policy.png)
+![Screenshot showing the app permissions policy in the Teams admin center.](media/manage-microsoft-apps-policy.png)
 
 ### Allow scheduling private meetings
 
