@@ -235,7 +235,7 @@ Enabling external users to participate in Teams meetings can be very useful, but
 It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
 
 > [!NOTE]
-> For more information on Guest and External Access in Teams, see this [article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams. <p> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](https://docs.microsoft.com/en-us/microsoftteams/tmr-meeting-recording-change) and its matrix.
+> For more information on Guest and External Access in Teams, see this [article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams. <p> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) and its matrix.
 
 ### Participant Roles
 
@@ -302,4 +302,4 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 - [Implementing VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Meeting recordings in Teams, where recordings are stored, and who can access them](https://docs.microsoft.com/en-us/microsoftteams/tmr-meeting-recording-change)
+[Meeting recordings in Teams, where recordings are stored, and who can access them](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
