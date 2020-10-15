@@ -153,9 +153,9 @@ In the channel calendar:
 
 - Users cannot use Keyboard shortcuts to create a meeting on the channel calendar.
 
-In the Admin Center:
+In the admin center:
 
-The channel calendar app will show up under the **Microsoft apps** section in the admin panel for permission policies.
+The channel calendar app will show up in the **Microsoft apps** section in app permission policies.
 
 ![Screenshot showing the Microsoft apps policy in the Teams admin console.](media/manage-microsoft-apps-policy.png)
 
