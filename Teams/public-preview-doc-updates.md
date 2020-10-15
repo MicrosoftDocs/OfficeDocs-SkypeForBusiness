@@ -50,6 +50,20 @@ To enable the public preview on a mobile client, you need to do the following ta
 5. Use the same menu item under **About** → **Public preview**, and select it to turn it off.
 You might need to restart Teams after switching to Public preview.
 
+## Set the Update policy
+
+Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users.
+
+1. Sign in to the admin center.
+2. Select **Teams**>**Update policies**. 
+ 
+   ![Select the Update policies option](media/updatePolicies.png)
+
+3. Select **Add**.
+4. Name the update policy, add a description, and turn on **Show preview features**.
+
+   ![Update policy selection in the Teams admin center](media/newUpdatePolicy.png)
+
 ## Features available in public preview
 
 For a full list of the features currently enabled in public preview see (IS THE A PUBLIC PREVIEW FEATURES PAGE?)
