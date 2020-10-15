@@ -96,7 +96,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -Enabl
 > [!NOTE]
 > Use the **ShiftNoticeMessageType** parameter to set the message that you want to display. To learn more, see New-TeamsShiftPolicy.
 
-### Example 3 
+### Example 3
 
 In this example, we create a new policy named Off Shift Teams Access Message2. In this policy, shift-based presence is turned on and the following predefined message is displayed every time a user who is assigned this policy accesses Teams when off shift. 
 
