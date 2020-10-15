@@ -68,7 +68,7 @@ As an admin, you use policies to control shift-based presence for Firstline Work
 - [Get-TeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)
 - [Set-TeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/set-csteamsshiftspolicy)
 - [Grant-TeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/grant-csteamsshiftspolicy)
-- [Remove-TeamsShiftsPolicy]((https://docs.microsoft.com/powershell/module/teams/remove-csteamsshiftspolicy)
+- [Remove-TeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/remove-csteamsshiftspolicy)
 
 Use the New-TeamsShiftsPolicy cmdlet to create a new policy, set the policy settings that you want, and then use the Grant-TeamsShiftsPolicy cmdlet to assign the policy to users.
 
