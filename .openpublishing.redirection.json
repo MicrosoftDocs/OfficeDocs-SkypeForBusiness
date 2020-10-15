@@ -2022,11 +2022,6 @@
         "redirect_document_id": true
       },
       {
-        "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/index.md",
-        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/using-call-quality-in-your-organization",
-        "redirect_document_id": true
-      },
-      {
         "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/index.md",
         "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/calling-plan-landing-page?toc=%2Fskypeforbusiness%2Ftoc.json&bc=%2Fskypeforbusiness%2Fbreadcrumb%2Ftoc.json",
         "redirect_document_id": true
