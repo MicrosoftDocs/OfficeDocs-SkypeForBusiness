@@ -24,6 +24,8 @@ appliesto:
 
 ## Overview
 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
 Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Firstline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift.
 
 These shift-based presence states&mdash;![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) **On shift**, ![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) **Off shift**, ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can configure different experiences for people in your organization based on their role.
