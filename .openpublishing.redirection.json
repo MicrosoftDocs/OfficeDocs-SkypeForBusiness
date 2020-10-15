@@ -1583,7 +1583,7 @@
     },
     {
       "source_path": "Teams/rollout-tools.md", 
-      "redirect_url": "https://docs.microsoft.com/en-us/microsoftteams/adopt-tools-and-downloads", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads", 
       "redirect_document_id": true 
     },
     {
@@ -2338,12 +2338,12 @@
       },
       {
         "source_path": "Skype/SfbOnline/optimizing-your-network/index.md",
-        "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/optimizing-your-network",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/optimizing-your-network",
         "redirect_document_id": true
       },
       {
         "source_path": "Skype/SfbServer/manage/conferencing/index.md",
-        "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/manage/conferencing/conferencing",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/conferencing/conferencing",
         "redirect_document_id": true
       },
       {
@@ -2353,17 +2353,62 @@
       },
       {
         "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/index.md",
-        "redirect_url": "https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity",
+        "redirect_url": "https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity",
         "redirect_document_id": true
       },
       {
         "source_path": "Skype/SfBServer2019/migration/index.md",
-        "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/migration/migration-to-skype-for-business-server-2019",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/migration/migration-to-skype-for-business-server-2019",
         "redirect_document_id": true
       },
       {
         "source_path": "Teams/toll-free-dialing-limitations-and-restrictions/index.md",
         "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/license-options-based-on-your-plan",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/stress-and-performance-tool/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/stress-and-performance-tool/stress-and-performance-tool",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/centralized-logging-service/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/centralized-logging-service/centralized-logging-service",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/call-quality-dashboard/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/call-quality-dashboard/call-quality-dashboard",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/use-scom-management-pack/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/use-scom-management-pack/use-scom-management-pack",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/planning-tool/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/planning-tool/planning-tool",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/statistics-manager/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/statistics-manager/statistics-manager",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/guidance-SkypeforBusiness.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-and-coexistence-of-skypeforbusiness-and-teams",
         "redirect_document_id": true
       }
   ] 
