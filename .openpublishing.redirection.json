@@ -2353,7 +2353,22 @@
       },
       {
         "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/index.md",
-        "redirect_url": "",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-s-new-in-skype-for-business-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/index.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfBServer2019/migration/index.md",
+        "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/migration/migration-to-skype-for-business-server-2019",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/toll-free-dialing-limitations-and-restrictions/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions",
         "redirect_document_id": true
       }
   ] 
