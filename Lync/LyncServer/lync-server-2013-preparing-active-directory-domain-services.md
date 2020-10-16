@@ -46,7 +46,7 @@ The topics in this section describe how to prepare AD DS for deploying Lync Ser
 
   - [Overview of Active Directory Domain Services preparation in Lync Server 2013](lync-server-2013-overview-of-active-directory-domain-services-preparation.md)
 
-  - [Preparing Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services_1.md)
+  - [Preparing Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md)
 
   - [Preparing a locked-down Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
 

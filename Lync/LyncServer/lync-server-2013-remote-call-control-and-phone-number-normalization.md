@@ -48,7 +48,7 @@ If you are migrating users previously enabled for remote call control, see the f
 
   - For Lync Server 2010, see [Migrate Address Book](migrate-address-book.md) in the Migration documentation.
 
-  - For Communications Server 2007 R2, see [Migrate Address Book](migrate-address-book_1.md) in the Migration documentation.
+  - For Communications Server 2007 R2, see [Migrate Address Book](migrate-address-book.md) in the Migration documentation.
 
 </div>
 

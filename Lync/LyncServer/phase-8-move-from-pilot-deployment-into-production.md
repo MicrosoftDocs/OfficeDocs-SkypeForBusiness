@@ -40,11 +40,11 @@ The topics in this section describe tasks you must complete prior to moving your
 
 ## In This Section
 
-  - [Configure federation routes and media traffic](configure-federation-routes-and-media-traffic_1.md)
+  - [Configure federation routes and media traffic](configure-federation-routes-and-media-traffic.md)
 
-  - [Move remaining users to Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
+  - [Move remaining users to Lync Server 2013](move-remaining-users-to-lync-server-2013.md)
 
-  - [Configure XMPP gateway on Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [Configure XMPP gateway on Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 
