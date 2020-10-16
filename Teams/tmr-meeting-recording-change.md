@@ -94,7 +94,7 @@ Even if a policy says it's set to **Stream**, it might not be set. Typically, if
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
-## Permissions for role-based access
+## Permissions or role-based access
 
 
 |Meeting type                               | Who clicked on Record?| Where does the recording land?                               |Who has access? R/W, R or sharing                                                                                                                                                                                                                                                     |
