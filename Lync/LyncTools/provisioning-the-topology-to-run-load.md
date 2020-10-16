@@ -36,8 +36,6 @@ _**Topic Last Modified:** 2013-02-04_
 
 <div>
 
-#
-
 Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:
 
 1.  Set the Windows PowerShell execution policy to Unrestricted. To check your execution policy settings, open the Lync Server Management Shell and run the following command:

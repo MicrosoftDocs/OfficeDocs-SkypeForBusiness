@@ -36,8 +36,6 @@ _**Topic Last Modified:** 2013-02-24_
 
 <div>
 
-#
-
 Here are the various policies that you can configure in your Lync Server 2013 topology, prior to running the Lync Server 2013 Stress and Performance Tool.
 
 <div>
