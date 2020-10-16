@@ -149,7 +149,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 Check to make sure that you're using the correct TeamId for the team in your schema CSV file. The TeamId should be the same as the Group ID of the Microsoft 365 group that backs the team. You can look up the Group ID of the team in the Microsoft Teams admin center. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams** > **Manage teams**.
+1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Teams** > **Manage teams**.
 2. If the **Group ID** column isn't displayed in the table, select **Edit columns** in the upper-right corner of the table, and then turn on **Group ID**.
 3. Find the team in the list, and then locate the Group ID.
 
