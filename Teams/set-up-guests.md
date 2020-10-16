@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.custom: 
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto: 
   - Microsoft Teams
 description: Learn about how to turn on or turn off the guest access feature in Microsoft Teams as an Office 365 admin.
