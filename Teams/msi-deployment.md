@@ -88,6 +88,9 @@ If a user uninstalls Teams from their user profile, the MSI installer will track
 3. Delete the `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` registry value.
 4. Redeploy the MSI package to that particular computer.
 
+> [!TIP]
+> You can also use our [Teams deployment cleanup script](scripts/powershell-script-deployment-cleanup.md) to accomplish steps 1 and 2.  
+
 ## Prevent Teams from starting automatically after installation
 
 The default behavior of the MSI is to install the Teams app as soon as a user signs in and then automatically start Teams. If you don't want Teams to start automatically for users after it's installed, you can use Group Policy to set a policy setting or disable auto launch for the MSI installer.
