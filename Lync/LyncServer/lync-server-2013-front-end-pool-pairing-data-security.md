@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Front End pool pairing data security'
+description: "Lync Server 2013: Front End pool pairing data security."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

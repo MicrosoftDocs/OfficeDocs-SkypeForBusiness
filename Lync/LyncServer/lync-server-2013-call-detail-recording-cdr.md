@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call detail recording (CDR)'
+description: "Lync Server 2013: Call detail recording (CDR)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

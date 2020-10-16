@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verify communications with a Lync Online customer'
+description: "Lync Server 2013: Verify communications with a Lync Online customer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

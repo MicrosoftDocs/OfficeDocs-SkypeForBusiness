@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Reviewing the Firewall Report'
+description: "Lync Server 2013: Reviewing the Firewall Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

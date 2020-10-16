@@ -1,5 +1,6 @@
 ---
 title: 'Setting up systems and infrastructure for Persistent Chat Server'
+description: "Setting up systems and infrastructure for Persistent Chat Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

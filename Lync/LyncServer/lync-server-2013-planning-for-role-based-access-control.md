@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for role-based access control'
+description: "Lync Server 2013: Planning for role-based access control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

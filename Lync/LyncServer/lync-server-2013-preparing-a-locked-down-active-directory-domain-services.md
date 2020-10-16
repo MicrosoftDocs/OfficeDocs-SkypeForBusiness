@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Preparing a locked-down Active Directory Domain Services'
+description: "Lync Server 2013: Preparing a locked-down Active Directory Domain Services."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

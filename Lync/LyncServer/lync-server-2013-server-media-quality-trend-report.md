@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Server Media Quality Trend Report'
+description: "Lync Server 2013: Server Media Quality Trend Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

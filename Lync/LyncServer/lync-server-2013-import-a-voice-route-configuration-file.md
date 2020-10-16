@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Import a voice route configuration file'
+description: "Lync Server 2013: Import a voice route configuration file."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

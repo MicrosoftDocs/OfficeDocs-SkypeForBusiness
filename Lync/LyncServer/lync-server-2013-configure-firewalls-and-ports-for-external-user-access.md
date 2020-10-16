@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure firewalls and ports for external user access'
+description: "Lync Server 2013: Configure firewalls and ports for external user access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

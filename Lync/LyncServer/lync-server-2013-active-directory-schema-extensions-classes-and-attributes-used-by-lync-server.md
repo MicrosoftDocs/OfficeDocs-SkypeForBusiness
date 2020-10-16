@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Active Directory schema extensions, classes, and attributes used by Lync Server'
+description: "Lync Server 2013: Active Directory schema extensions, classes, and attributes used by Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

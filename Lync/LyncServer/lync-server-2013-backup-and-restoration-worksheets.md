@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backup and restoration worksheets'
+description: "Lync Server 2013: Backup and restoration worksheets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

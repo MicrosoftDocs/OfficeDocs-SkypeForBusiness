@@ -1,5 +1,6 @@
 ---
 title: Remove Front End pool or Standard Edition server
+description: "Remove Front End pool or Standard Edition server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

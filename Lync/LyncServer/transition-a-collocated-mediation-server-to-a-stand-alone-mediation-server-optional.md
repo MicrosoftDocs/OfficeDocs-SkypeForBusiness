@@ -1,5 +1,6 @@
 ---
 title: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
+description: "Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

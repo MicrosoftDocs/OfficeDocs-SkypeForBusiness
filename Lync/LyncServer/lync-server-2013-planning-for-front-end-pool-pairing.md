@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for Front End pool pairing'
+description: "Lync Server 2013: Planning for Front End pool pairing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

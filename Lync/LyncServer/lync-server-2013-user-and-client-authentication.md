@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: User and client authentication'
+description: "Lync Server 2013: User and client authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

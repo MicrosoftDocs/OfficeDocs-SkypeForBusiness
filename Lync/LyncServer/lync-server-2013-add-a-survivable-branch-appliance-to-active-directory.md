@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Add a Survivable Branch Appliance to Active Directory'
+description: "Lync Server 2013: Add a Survivable Branch Appliance to Active Directory."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

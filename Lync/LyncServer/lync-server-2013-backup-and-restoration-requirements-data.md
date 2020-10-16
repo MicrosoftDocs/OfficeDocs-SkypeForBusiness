@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backup and restoration requirements: data'
+description: "Lync Server 2013: Backup and restoration requirements: data."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Welcome users to dial-in conferencing'
+description: "Lync Server 2013: (Optional) Welcome users to dial-in conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

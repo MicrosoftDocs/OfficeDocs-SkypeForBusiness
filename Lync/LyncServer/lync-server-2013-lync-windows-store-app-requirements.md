@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Windows Store app requirements'
+description: "Lync Server 2013: Lync Windows Store app requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

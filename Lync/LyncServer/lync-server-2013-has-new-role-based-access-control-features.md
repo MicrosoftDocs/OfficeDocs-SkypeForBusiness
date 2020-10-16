@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 has new role based access control features
+description: "Lync Server 2013 has new role based access control features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

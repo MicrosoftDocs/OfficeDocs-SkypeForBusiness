@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining your requirements for call admission control'
+description: "Lync Server 2013: Defining your requirements for call admission control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

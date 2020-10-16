@@ -1,5 +1,6 @@
 ---
 title: 'Active Directory Domain Services requirements, support, and topologies'
+description: "Active Directory Domain Services requirements, support, and topologies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

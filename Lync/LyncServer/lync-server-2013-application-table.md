@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Application table'
+description: "Lync Server 2013: Application table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Create Users and Contacts
+description: "Create Users and Contacts."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

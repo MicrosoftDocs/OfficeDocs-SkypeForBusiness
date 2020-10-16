@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ClientVersions table'
+description: "Lync Server 2013: ClientVersions table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

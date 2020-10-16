@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers'
+description: "Lync Server 2013: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

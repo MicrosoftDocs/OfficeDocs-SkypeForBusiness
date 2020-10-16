@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Preparing for and installing Best Practices Analyzer'
+description: "Lync Server 2013: Preparing for and installing Best Practices Analyzer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

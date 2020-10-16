@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure policies to control public user access'
+description: "Lync Server 2013: Configure policies to control public user access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

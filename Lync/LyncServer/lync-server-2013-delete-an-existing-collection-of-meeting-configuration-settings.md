@@ -1,5 +1,6 @@
 ---
 title: 'Delete an existing collection of meeting configuration settings'
+description: "Delete an existing collection of meeting configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

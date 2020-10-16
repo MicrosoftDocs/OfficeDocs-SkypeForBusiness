@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring announcements for unassigned numbers'
+description: "Lync Server 2013: Configuring announcements for unassigned numbers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

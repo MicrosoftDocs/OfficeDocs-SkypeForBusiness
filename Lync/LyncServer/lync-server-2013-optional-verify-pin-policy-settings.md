@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Verify PIN policy settings'
+description: "Lync Server 2013: (Optional) Verify PIN policy settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

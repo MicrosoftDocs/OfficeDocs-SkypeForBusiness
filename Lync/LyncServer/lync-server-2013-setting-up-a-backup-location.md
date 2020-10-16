@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up a backup location'
+description: "Lync Server 2013: Setting up a backup location."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

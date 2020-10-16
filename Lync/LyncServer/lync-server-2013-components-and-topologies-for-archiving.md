@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Components and topologies for Archiving'
+description: "Lync Server 2013: Components and topologies for Archiving."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

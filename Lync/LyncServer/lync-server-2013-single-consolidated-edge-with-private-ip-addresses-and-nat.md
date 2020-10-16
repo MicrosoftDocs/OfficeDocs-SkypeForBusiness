@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Single consolidated edge with private IP addresses and NAT'
+description: "Lync Server 2013: Single consolidated edge with private IP addresses and NAT."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

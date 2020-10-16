@@ -1,5 +1,6 @@
 ---
 title: Remove the SQL Server database for a Front End pool
+description: "Remove the SQL Server database for a Front End pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

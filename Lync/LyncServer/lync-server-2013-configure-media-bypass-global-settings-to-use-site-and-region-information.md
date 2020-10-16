@@ -1,5 +1,6 @@
 ---
 title: 'Configure media bypass global settings to use site and region information'
+description: "Configure media bypass global settings to use site and region information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New conferencing features'
+description: "Lync Server 2013: New conferencing features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

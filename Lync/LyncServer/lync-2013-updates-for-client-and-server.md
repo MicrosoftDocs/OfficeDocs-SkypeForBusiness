@@ -1,5 +1,6 @@
 ---
 title: 'Lync 2013: Updates for client and server'
+description: "Lync 2013: Updates for client and server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

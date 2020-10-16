@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses'
+description: "Lync Server 2013: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Failure Distribution Report'
+description: "Lync Server 2013: Failure Distribution Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

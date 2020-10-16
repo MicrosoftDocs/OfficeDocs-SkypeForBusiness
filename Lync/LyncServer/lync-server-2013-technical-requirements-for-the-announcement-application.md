@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Technical requirements for the Announcement application'
+description: "Lync Server 2013: Technical requirements for the Announcement application."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

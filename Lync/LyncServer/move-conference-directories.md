@@ -1,5 +1,6 @@
 ---
 title: Move conference directories
+description: "Move conference directories."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

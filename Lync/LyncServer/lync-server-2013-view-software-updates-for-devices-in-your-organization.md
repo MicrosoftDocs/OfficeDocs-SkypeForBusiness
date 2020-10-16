@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View software updates for devices in your organization'
+description: "Lync Server 2013: View software updates for devices in your organization."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: "Lync Server 2013: User's location"
+description: ""Lync Server 2013: User's location"."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

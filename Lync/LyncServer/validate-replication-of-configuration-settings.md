@@ -1,5 +1,6 @@
 ---
 title: Validate replication of configuration settings
+description: "Validate replication of configuration settings."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

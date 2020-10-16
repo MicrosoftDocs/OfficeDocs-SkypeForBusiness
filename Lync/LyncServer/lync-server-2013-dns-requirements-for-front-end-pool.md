@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS requirements for Front End pool'
+description: "Lync Server 2013: DNS requirements for Front End pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

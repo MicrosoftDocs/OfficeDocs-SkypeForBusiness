@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Exchange Unified Messaging (UM) support'
+description: "Lync Server 2013: Exchange Unified Messaging (UM) support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

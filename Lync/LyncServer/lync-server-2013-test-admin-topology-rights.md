@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test admin topology rights'
+description: "Lync Server 2013: Test admin topology rights."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

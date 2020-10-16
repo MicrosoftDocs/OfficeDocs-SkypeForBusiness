@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining your requirements for emergency calls'
+description: "Lync Server 2013: Defining your requirements for emergency calls."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

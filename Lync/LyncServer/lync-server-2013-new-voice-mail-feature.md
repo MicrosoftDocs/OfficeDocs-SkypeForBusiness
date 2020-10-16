@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New voice mail feature'
+description: "Lync Server 2013: New voice mail feature."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

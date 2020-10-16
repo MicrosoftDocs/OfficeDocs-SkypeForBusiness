@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backing up file stores'
+description: "Lync Server 2013: Backing up file stores."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

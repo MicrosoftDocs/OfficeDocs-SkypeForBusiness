@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Database and Management Server cmdlets'
+description: "Lync Server 2013: Database and Management Server cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

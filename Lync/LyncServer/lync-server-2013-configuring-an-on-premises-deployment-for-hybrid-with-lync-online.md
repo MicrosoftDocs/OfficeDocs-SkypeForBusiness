@@ -1,5 +1,6 @@
 ---
 title: 'Configuring an on-premises deployment for hybrid with Lync Online'
+description: "Configuring an on-premises deployment for hybrid with Lync Online."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

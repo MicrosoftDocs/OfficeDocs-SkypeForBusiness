@@ -1,5 +1,6 @@
 ---
 title: Connect pilot pool to legacy Edge Servers
+description: "Connect pilot pool to legacy Edge Servers."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

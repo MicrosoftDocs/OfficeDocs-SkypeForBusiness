@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 deployment checklist for web conferencing
+description: "Lync Server 2013 deployment checklist for web conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

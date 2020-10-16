@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hybrid and split-domain - Autodiscover'
+description: "Lync Server 2013: Hybrid and split-domain - Autodiscover."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

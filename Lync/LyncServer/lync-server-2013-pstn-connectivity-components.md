@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: PSTN connectivity components'
+description: "Lync Server 2013: PSTN connectivity components."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

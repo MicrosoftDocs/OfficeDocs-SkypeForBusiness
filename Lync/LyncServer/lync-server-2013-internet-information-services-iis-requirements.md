@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Internet Information Services (IIS) requirements'
+description: "Lync Server 2013: Internet Information Services (IIS) requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

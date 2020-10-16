@@ -1,5 +1,6 @@
 ---
 title: 'Configure DNS records for a Front End pool or Standard Edition server'
+description: "Configure DNS records for a Front End pool or Standard Edition server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

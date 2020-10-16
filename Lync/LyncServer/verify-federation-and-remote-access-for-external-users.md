@@ -1,5 +1,6 @@
 ---
 title: Verify federation and remote access for external users
+description: "Verify federation and remote access for external users."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

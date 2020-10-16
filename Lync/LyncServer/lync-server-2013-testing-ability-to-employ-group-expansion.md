@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing ability to employ group expansion'
+description: "Lync Server 2013: Testing ability to employ group expansion."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

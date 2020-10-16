@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring Lync Server performance'
+description: "Lync Server 2013: Monitoring Lync Server performance."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

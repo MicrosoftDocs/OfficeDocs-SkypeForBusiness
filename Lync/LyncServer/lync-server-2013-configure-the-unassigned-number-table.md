@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure the unassigned number table'
+description: "Lync Server 2013: Configure the unassigned number table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

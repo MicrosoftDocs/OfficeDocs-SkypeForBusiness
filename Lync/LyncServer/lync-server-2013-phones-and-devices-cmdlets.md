@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Phones and devices cmdlets'
+description: "Lync Server 2013: Phones and devices cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

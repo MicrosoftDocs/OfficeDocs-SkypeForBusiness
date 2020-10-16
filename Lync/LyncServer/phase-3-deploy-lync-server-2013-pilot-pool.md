@@ -1,5 +1,6 @@
 ---
 title: 'Phase 3: Deploy Lync Server 2013 pilot pool'
+description: "Phase 3: Deploy Lync Server 2013 pilot pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

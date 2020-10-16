@@ -1,5 +1,6 @@
 ---
 title: Decommissioning servers and pools
+description: "Decommissioning servers and pools."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

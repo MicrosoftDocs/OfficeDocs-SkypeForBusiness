@@ -1,5 +1,6 @@
 ---
 title: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
+description: "Phase 1: Plan your migration from Office Communications Server 2007 R2."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

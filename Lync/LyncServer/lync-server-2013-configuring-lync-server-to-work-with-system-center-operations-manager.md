@@ -1,5 +1,6 @@
 ---
 title: 'Configuring Lync Server to work with System Center Operations Manager'
+description: "Configuring Lync Server to work with System Center Operations Manager."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mediation Server component'
+description: "Lync Server 2013: Mediation Server component."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

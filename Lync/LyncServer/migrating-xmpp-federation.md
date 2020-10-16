@@ -1,5 +1,6 @@
 ---
 title: Migrating XMPP federation
+description: "Migrating XMPP federation."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

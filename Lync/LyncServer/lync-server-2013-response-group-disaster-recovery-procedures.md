@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 response group disaster recovery procedures
+description: "Lync Server 2013 response group disaster recovery procedures."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

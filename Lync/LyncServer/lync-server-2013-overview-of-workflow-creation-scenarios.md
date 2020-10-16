@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Overview of workflow creation scenarios'
+description: "Lync Server 2013: Overview of workflow creation scenarios."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing ability to IM between two users'
+description: "Lync Server 2013: Testing ability to IM between two users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

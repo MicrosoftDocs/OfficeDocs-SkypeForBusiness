@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling QoS for devices that are not based on Windows'
+description: "Lync Server 2013: Enabling QoS for devices that are not based on Windows."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

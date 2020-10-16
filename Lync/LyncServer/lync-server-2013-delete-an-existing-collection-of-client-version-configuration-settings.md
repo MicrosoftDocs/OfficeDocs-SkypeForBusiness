@@ -1,5 +1,6 @@
 ---
 title: 'Delete an existing collection of client version configuration settings'
+description: "Delete an existing collection of client version configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign an external user access policy to a Lync enabled user'
+description: "Lync Server 2013: Assign an external user access policy to a Lync enabled user."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

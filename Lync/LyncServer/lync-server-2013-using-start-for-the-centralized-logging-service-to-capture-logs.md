@@ -1,5 +1,6 @@
 ---
 title: 'Using Start for the Centralized Logging Service to capture logs'
+description: "Using Start for the Centralized Logging Service to capture logs."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

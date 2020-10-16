@@ -1,5 +1,6 @@
 ---
 title: 'Create or modify a normalization rule by using Build a Normalization Rule'
+description: "Create or modify a normalization rule by using Build a Normalization Rule."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test mobile user access'
+description: "Lync Server 2013: Test mobile user access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

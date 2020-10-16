@@ -1,5 +1,6 @@
 ---
 title: 'Re-activate server after Security Configuration Wizard closes ports in IIS'
+description: "Re-activate server after Security Configuration Wizard closes ports in IIS."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Migration process - details
+description: "Migration process - details."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

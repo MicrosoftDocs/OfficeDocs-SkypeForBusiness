@@ -1,5 +1,6 @@
 ---
 title: 'Phase 1: Plan your migration from Lync Server 2010'
+description: "Phase 1: Plan your migration from Lync Server 2010."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

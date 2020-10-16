@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a dial-in conferencing access number'
+description: "Lync Server 2013: Create or modify a dial-in conferencing access number."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

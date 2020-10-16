@@ -1,5 +1,6 @@
 ---
 title: 'Configuring an on-premises partner application for Lync Server 2013'
+description: "Configuring an on-premises partner application for Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

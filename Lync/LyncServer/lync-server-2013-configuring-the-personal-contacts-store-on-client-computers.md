@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring the personal contacts store on client computers'
+description: "Lync Server 2013: Configuring the personal contacts store on client computers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

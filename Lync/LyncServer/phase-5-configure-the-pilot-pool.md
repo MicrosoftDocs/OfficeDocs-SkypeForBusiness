@@ -1,5 +1,6 @@
 ---
 title: 'Phase 5: Configure the pilot pool'
+description: "Phase 5: Configure the pilot pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a normalization rule manually'
+description: "Lync Server 2013: Create or modify a normalization rule manually."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

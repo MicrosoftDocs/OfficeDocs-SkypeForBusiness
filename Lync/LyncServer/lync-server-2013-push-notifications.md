@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Push notifications'
+description: "Lync Server 2013: Push notifications."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

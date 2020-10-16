@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing peer to peer audio/video call'
+description: "Lync Server 2013: Testing peer to peer audio/video call."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

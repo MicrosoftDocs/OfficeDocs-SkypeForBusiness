@@ -1,5 +1,6 @@
 ---
 title: 'Managing Lync Server disaster recovery, high availability, and Backup Service'
+description: "Managing Lync Server disaster recovery, high availability, and Backup Service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Configure Lync Server 2013 Scenarios
+description: "Configure Lync Server 2013 Scenarios."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

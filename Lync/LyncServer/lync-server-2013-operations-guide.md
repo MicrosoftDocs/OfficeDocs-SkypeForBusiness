@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Operations Guide'
+description: "Lync Server 2013: Operations Guide."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

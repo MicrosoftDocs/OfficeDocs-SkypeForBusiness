@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync for Android requirements'
+description: "Lync Server 2013: Lync for Android requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Using categories to administer Persistent Chat Server
+description: "Using categories to administer Persistent Chat Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

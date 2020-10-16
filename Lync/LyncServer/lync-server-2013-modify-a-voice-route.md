@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify a voice route'
+description: "Lync Server 2013: Modify a voice route."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

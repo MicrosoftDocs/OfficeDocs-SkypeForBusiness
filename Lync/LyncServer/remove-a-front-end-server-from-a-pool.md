@@ -1,5 +1,6 @@
 ---
 title: Remove a Front End Server from a pool
+description: "Remove a Front End Server from a pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

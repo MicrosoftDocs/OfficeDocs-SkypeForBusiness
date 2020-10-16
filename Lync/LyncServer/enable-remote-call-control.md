@@ -1,5 +1,6 @@
 ---
 title: Enable remote call control
+description: "Enable remote call control."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Set up hardware load balancers for scaled edge topologies'
+description: "Lync Server 2013: Set up hardware load balancers for scaled edge topologies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

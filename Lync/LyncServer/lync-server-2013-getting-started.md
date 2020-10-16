@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Getting started'
+description: "Lync Server 2013: Getting started."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

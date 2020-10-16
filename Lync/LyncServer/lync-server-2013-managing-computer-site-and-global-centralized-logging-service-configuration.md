@@ -1,5 +1,6 @@
 ---
 title: 'Managing computer, site and global Centralized Logging Service configuration'
+description: "Managing computer, site and global Centralized Logging Service configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Verify configuration settings
+description: "Verify configuration settings."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

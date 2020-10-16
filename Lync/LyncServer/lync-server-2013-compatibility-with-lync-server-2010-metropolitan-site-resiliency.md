@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 compatibility with Lync Server 2010 metropolitan site resiliency
+description: "Lync Server 2013 compatibility with Lync Server 2010 metropolitan site resiliency."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

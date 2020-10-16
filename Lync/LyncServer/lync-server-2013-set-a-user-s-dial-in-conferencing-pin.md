@@ -1,5 +1,6 @@
 ---
 title: "Lync Server 2013: Set a user's dial-in conferencing PIN"
+description: ""Lync Server 2013: Set a user's dial-in conferencing PIN"."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

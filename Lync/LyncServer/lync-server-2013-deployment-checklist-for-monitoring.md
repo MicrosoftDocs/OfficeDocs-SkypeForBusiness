@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deployment checklist for monitoring'
+description: "Lync Server 2013: Deployment checklist for monitoring."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Return A/V Edge Server configuration information'
+description: "Lync Server 2013: Return A/V Edge Server configuration information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

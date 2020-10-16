@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Move users to another pool'
+description: "Lync Server 2013: Move users to another pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

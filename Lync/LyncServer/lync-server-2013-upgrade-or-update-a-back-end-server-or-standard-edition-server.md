@@ -1,5 +1,6 @@
 ---
 title: 'Upgrade or update a Back End Server or Standard Edition server'
+description: "Upgrade or update a Back End Server or Standard Edition server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Run LyncPerfTool
+description: "Run LyncPerfTool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

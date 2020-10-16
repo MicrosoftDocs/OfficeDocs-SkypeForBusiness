@@ -1,5 +1,6 @@
 ---
 title: Configure SCOM monitoring
+description: "Configure SCOM monitoring."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

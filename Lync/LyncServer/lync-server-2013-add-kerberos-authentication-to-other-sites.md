@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Add Kerberos authentication to other sites'
+description: "Lync Server 2013: Add Kerberos authentication to other sites."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

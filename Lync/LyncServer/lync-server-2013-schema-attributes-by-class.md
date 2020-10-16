@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Schema attributes by class'
+description: "Lync Server 2013: Schema attributes by class."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

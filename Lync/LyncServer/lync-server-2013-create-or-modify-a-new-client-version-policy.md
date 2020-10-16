@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a new client version policy'
+description: "Lync Server 2013: Create or modify a new client version policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

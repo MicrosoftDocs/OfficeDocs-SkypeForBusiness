@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deployment process for Group Call Pickup'
+description: "Lync Server 2013: Deployment process for Group Call Pickup."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

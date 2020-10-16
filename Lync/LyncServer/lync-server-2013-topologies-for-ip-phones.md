@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Topologies for IP phones'
+description: "Lync Server 2013: Topologies for IP phones."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

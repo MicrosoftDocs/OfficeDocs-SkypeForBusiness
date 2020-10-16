@@ -1,5 +1,6 @@
 ---
 title: 'Restoring a mirrored Enterprise Edition Back End Server - primary'
+description: "Restoring a mirrored Enterprise Edition Back End Server - primary."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

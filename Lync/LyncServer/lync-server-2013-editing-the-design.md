@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Editing the design'
+description: "Lync Server 2013: Editing the design."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

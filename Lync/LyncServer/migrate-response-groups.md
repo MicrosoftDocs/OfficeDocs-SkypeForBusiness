@@ -1,5 +1,6 @@
 ---
 title: Migrate response groups
+description: "Migrate response groups."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

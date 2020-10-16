@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Components and topologies for SIP trunking'
+description: "Lync Server 2013: Components and topologies for SIP trunking."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

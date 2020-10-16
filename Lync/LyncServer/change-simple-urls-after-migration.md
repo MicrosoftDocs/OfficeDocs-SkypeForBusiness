@@ -1,5 +1,6 @@
 ---
 title: Change simple URLs after migration
+description: "Change simple URLs after migration."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

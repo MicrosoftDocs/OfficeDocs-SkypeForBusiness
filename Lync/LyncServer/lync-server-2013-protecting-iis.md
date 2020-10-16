@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Protecting IIS'
+description: "Lync Server 2013: Protecting IIS."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

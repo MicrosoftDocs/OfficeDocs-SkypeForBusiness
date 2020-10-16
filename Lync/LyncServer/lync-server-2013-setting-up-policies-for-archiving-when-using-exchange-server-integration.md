@@ -1,5 +1,6 @@
 ---
 title: 'Setting up policies for Archiving when using Exchange Server integration'
+description: "Setting up policies for Archiving when using Exchange Server integration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

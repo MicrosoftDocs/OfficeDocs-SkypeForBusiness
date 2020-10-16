@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling a user to manage categories, chat rooms, and user rights and permissions'
+description: "Lync Server 2013: Enabling a user to manage categories, chat rooms, and user rights and permissions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

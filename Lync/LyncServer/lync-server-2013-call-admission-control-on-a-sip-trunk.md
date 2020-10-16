@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call admission control on a SIP trunk'
+description: "Lync Server 2013: Call admission control on a SIP trunk."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

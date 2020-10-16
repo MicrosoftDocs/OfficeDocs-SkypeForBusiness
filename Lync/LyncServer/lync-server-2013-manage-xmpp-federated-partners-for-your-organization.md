@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Manage XMPP federated partners for your organization'
+description: "Lync Server 2013: Manage XMPP federated partners for your organization."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

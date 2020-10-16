@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verifying your edge deployment'
+description: "Lync Server 2013: Verifying your edge deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

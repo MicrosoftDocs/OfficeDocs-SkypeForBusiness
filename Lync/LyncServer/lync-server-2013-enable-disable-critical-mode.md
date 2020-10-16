@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling or disabling critical mode to block or allow IM and web conferencing sessions if Archiving fails'
+description: "Lync Server 2013: Enabling or disabling critical mode to block or allow IM and web conferencing sessions if Archiving fails."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

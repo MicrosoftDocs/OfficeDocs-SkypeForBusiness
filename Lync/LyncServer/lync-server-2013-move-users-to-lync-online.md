@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Move users to Lync Online'
+description: "Lync Server 2013: Move users to Lync Online."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

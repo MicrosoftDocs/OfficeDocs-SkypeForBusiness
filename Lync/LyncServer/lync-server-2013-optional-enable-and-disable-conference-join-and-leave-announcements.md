@@ -1,5 +1,6 @@
 ---
 title: '(Optional) Enable and disable conference join and leave announcements'
+description: "(Optional) Enable and disable conference join and leave announcements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

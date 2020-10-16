@@ -1,5 +1,6 @@
 ---
 title: 'Scaled consolidated edge, DNS load balancing with public IP addresses'
+description: "Scaled consolidated edge, DNS load balancing with public IP addresses."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

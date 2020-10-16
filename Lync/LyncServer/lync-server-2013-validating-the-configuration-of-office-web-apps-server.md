@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Validating the configuration of Office Web Apps Server'
+description: "Lync Server 2013: Validating the configuration of Office Web Apps Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblActivePeers'
+description: "Lync Server 2013: tblActivePeers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

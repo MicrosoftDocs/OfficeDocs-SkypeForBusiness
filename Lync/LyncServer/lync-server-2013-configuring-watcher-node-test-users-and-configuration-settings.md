@@ -1,5 +1,6 @@
 ---
 title: 'Configuring watcher node test users and configuration settings'
+description: "Configuring watcher node test users and configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

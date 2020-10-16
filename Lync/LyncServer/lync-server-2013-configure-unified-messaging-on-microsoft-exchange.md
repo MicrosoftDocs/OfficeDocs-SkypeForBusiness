@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure Unified Messaging on Microsoft Exchange'
+description: "Lync Server 2013: Configure Unified Messaging on Microsoft Exchange."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

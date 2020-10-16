@@ -1,5 +1,6 @@
 ---
 title: Install WMI Backward Compatibility package
+description: "Install WMI Backward Compatibility package."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

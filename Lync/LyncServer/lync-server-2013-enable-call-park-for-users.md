@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable Call Park for users'
+description: "Lync Server 2013: Enable Call Park for users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

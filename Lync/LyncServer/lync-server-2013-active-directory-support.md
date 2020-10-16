@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Active Directory support
+description: "Lync Server 2013 Active Directory support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

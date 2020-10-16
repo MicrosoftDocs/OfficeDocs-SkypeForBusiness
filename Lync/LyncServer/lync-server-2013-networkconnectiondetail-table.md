@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: NetworkConnectionDetail table'
+description: "Lync Server 2013: NetworkConnectionDetail table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

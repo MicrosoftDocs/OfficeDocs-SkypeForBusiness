@@ -1,5 +1,6 @@
 ---
 title: Manage categories
+description: "Manage categories."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

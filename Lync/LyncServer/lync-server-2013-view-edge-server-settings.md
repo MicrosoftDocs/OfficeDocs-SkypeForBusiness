@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View Edge Server settings'
+description: "Lync Server 2013: View Edge Server settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

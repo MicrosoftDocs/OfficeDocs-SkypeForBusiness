@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 certificate infrastructure support
+description: "Lync Server 2013 certificate infrastructure support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

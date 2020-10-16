@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Resetting or deleting external user access policies'
+description: "Lync Server 2013: Resetting or deleting external user access policies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

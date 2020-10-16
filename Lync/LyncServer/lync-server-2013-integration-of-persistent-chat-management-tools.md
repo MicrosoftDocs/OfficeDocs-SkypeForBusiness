@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Integration of Persistent Chat management tools'
+description: "Lync Server 2013: Integration of Persistent Chat management tools."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

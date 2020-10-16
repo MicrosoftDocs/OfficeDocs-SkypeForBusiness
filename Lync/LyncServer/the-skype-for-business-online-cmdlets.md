@@ -1,5 +1,6 @@
 ---
 title: The Skype for Business Online cmdlets
+description: "The Skype for Business Online cmdlets."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

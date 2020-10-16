@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Location Report'
+description: "Lync Server 2013: Location Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

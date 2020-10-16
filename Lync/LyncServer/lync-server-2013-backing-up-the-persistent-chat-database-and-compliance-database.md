@@ -1,5 +1,6 @@
 ---
 title: 'Backing up the Persistent Chat database and Compliance database'
+description: "Backing up the Persistent Chat database and Compliance database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

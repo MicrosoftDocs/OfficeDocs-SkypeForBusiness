@@ -1,5 +1,6 @@
 ---
 title: Cmdlets in Skype for Business Online that use a conferencing provider identity
+description: "Cmdlets in Skype for Business Online that use a conferencing provider identity."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

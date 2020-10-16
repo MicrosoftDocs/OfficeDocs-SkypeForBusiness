@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure advanced E9-1-1 features'
+description: "Lync Server 2013: Configure advanced E9-1-1 features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

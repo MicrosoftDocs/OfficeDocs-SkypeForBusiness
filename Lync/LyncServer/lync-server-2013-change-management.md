@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Change management'
+description: "Lync Server 2013: Change management."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

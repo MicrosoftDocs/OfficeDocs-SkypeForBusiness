@@ -1,5 +1,6 @@
 ---
 title: 'Export your topology and copy it to external media for edge installation'
+description: "Export your topology and copy it to external media for edge installation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

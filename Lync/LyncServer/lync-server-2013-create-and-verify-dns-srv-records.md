@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create and verify DNS SRV records'
+description: "Lync Server 2013: Create and verify DNS SRV records."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

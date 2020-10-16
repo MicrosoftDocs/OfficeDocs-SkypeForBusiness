@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Branch site SIP trunking'
+description: "Lync Server 2013: Branch site SIP trunking."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

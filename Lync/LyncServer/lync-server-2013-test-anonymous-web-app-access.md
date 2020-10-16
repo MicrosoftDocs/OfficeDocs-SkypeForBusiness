@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test anonymous Web App access'
+description: "Lync Server 2013: Test anonymous Web App access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

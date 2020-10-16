@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Location-Based Routing and consultative call transfers'
+description: "Lync Server 2013: Location-Based Routing and consultative call transfers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

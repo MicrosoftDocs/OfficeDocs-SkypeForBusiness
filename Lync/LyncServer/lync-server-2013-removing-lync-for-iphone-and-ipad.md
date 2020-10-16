@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Removing Lync for iPhone and iPad'
+description: "Lync Server 2013: Removing Lync for iPhone and iPad."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

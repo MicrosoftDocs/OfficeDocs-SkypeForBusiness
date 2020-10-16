@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Persistent Chat Server cmdlets'
+description: "Lync Server 2013: Persistent Chat Server cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

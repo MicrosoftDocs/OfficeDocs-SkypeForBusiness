@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Direct SIP deployment options'
+description: "Lync Server 2013: Direct SIP deployment options."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

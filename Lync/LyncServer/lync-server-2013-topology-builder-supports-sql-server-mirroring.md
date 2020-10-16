@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Topology Builder supports SQL Server mirroring
+description: "Lync Server 2013 Topology Builder supports SQL Server mirroring."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing Lync Server services'
+description: "Lync Server 2013: Testing Lync Server services."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing PSTN phone call'
+description: "Lync Server 2013: Testing PSTN phone call."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

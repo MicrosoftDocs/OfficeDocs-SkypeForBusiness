@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Import voice routing test cases'
+description: "Lync Server 2013: Import voice routing test cases."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

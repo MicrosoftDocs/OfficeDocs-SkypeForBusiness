@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblConfig'
+description: "Lync Server 2013: tblConfig."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

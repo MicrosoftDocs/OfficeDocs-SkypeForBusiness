@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Remove Kerberos authentication from a site'
+description: "Lync Server 2013: Remove Kerberos authentication from a site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

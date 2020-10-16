@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalType'
+description: "Lync Server 2013: tblPrincipalType."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Application endpoints cmdlets'
+description: "Lync Server 2013: Application endpoints cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

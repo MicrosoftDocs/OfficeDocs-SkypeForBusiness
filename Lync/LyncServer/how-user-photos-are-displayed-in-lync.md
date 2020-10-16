@@ -1,5 +1,6 @@
 ---
 title: How user photos are displayed in Lync
+description: "How user photos are displayed in Lync."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

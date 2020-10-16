@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server Management Shell configuration cmdlets'
+description: "Lync Server 2013: Lync Server Management Shell configuration cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

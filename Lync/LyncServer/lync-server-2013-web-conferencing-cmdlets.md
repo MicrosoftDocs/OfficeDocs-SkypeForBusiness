@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Web conferencing cmdlets'
+description: "Lync Server 2013: Web conferencing cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

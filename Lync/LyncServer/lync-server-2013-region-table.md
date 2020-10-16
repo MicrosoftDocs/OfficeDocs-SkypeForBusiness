@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Region table'
+description: "Lync Server 2013: Region table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Configuring Quality of Service on Microsoft Lync Phone Edition devices'
+description: "Configuring Quality of Service on Microsoft Lync Phone Edition devices."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

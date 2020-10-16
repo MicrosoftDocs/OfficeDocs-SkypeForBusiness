@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Front End Server VoIP components'
+description: "Lync Server 2013: Front End Server VoIP components."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

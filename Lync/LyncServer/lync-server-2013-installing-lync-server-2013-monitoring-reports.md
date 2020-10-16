@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Installing Lync Server 2013 Monitoring Reports'
+description: "Lync Server 2013: Installing Lync Server 2013 Monitoring Reports."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

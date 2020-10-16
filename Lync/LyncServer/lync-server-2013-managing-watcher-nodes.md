@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing watcher nodes'
+description: "Lync Server 2013: Managing watcher nodes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Updating from the evaluation version'
+description: "Lync Server 2013: Updating from the evaluation version."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

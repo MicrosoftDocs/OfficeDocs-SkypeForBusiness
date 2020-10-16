@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable client versioning'
+description: "Lync Server 2013: Enable or disable client versioning."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

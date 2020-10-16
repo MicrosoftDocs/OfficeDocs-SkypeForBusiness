@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test voice rules, routes, and policies'
+description: "Lync Server 2013: Test voice rules, routes, and policies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for security'
+description: "Lync Server 2013: Planning for security."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

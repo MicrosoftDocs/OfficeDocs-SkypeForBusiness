@@ -1,5 +1,6 @@
 ---
 title: 'Managing Microsoft SIP Processing Language (MSPL) applications'
+description: "Managing Microsoft SIP Processing Language (MSPL) applications."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

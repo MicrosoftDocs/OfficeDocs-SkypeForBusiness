@@ -1,5 +1,6 @@
 ---
 title: Migrate Call Park application settings
+description: "Migrate Call Park application settings."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

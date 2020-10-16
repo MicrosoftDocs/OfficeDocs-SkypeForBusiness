@@ -1,5 +1,6 @@
 ---
 title: 'Configuring Lync Server 2013 to work with Office Web Apps Server'
+description: "Configuring Lync Server 2013 to work with Office Web Apps Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

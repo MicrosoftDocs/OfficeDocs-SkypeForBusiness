@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 components and topologies for conferencing
+description: "Lync Server 2013 components and topologies for conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

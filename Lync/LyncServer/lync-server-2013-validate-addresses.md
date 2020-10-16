@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Validate addresses'
+description: "Lync Server 2013: Validate addresses."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

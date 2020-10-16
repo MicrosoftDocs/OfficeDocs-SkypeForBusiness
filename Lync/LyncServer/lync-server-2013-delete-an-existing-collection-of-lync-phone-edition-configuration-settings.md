@@ -1,5 +1,6 @@
 ---
 title: 'Delete an existing collection of Lync Phone Edition configuration settings'
+description: "Delete an existing collection of Lync Phone Edition configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

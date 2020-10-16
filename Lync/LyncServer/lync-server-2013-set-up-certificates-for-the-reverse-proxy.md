@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Set up certificates for the reverse proxy'
+description: "Lync Server 2013: Set up certificates for the reverse proxy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

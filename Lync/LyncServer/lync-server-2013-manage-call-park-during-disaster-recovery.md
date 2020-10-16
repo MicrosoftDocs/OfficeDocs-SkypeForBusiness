@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Manage Call Park during disaster recovery'
+description: "Lync Server 2013: Manage Call Park during disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

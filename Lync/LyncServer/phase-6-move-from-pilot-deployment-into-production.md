@@ -1,5 +1,6 @@
 ---
 title: 'Phase 6: Move from pilot deployment into production'
+description: "Phase 6: Move from pilot deployment into production."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

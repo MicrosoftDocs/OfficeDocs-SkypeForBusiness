@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing persistent chat'
+description: "Lync Server 2013: Testing persistent chat."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

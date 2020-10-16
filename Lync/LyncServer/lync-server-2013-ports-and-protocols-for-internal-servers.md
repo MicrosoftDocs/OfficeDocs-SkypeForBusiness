@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Ports and protocols for internal servers'
+description: "Lync Server 2013: Ports and protocols for internal servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

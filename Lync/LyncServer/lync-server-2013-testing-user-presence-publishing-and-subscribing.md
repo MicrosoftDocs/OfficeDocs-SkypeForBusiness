@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing user presence publishing and subscribing'
+description: "Lync Server 2013: Testing user presence publishing and subscribing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

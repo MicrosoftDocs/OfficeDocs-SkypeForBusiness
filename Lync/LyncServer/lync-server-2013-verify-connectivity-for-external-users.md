@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verify connectivity for external users'
+description: "Lync Server 2013: Verify connectivity for external users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

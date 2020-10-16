@@ -1,5 +1,6 @@
 ---
 title: Apply Lync Server 2010 updates
+description: "Apply Lync Server 2010 updates."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Phase 6: Move users to the pilot pool'
+description: "Phase 6: Move users to the pilot pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

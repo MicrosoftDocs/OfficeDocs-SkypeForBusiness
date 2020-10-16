@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Creating an Archiving configuration to manage Archiving for specific sites or pools'
+description: "Lync Server 2013: Creating an Archiving configuration to manage Archiving for specific sites or pools."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

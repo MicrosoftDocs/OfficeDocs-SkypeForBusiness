@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Overview of Call Park'
+description: "Lync Server 2013: Overview of Call Park."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

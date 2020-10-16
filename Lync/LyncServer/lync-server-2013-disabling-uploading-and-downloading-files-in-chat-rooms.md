@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Disabling uploading and downloading files in chat rooms'
+description: "Lync Server 2013: Disabling uploading and downloading files in chat rooms."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing certificates for operational processes'
+description: "Lync Server 2013: Managing certificates for operational processes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

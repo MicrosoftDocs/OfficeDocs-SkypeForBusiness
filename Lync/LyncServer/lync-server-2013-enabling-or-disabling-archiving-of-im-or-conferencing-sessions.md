@@ -1,5 +1,6 @@
 ---
 title: 'Enabling or disabling Archiving of IM or conferencing sessions'
+description: "Enabling or disabling Archiving of IM or conferencing sessions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

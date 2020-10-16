@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Provisioning guide for Lync-Skype connectivity'
+description: "Lync Server 2013: Provisioning guide for Lync-Skype connectivity."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

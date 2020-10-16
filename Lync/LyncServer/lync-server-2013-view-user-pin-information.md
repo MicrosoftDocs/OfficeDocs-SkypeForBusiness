@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View user PIN information'
+description: "Lync Server 2013: View user PIN information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

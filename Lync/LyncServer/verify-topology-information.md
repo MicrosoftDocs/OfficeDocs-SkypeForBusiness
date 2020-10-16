@@ -1,5 +1,6 @@
 ---
 title: Verify topology information
+description: "Verify topology information."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

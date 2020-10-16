@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Upgrade or update Front End Servers'
+description: "Lync Server 2013: Upgrade or update Front End Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

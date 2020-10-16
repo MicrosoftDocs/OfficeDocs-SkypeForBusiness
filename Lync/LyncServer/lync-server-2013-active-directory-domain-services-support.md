@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Active Directory Domain Services support'
+description: "Lync Server 2013: Active Directory Domain Services support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

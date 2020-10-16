@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Supported server migration paths and coexistence scenarios'
+description: "Lync Server 2013: Supported server migration paths and coexistence scenarios."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -77,7 +78,7 @@ During a phased migration in which a previous Lync Server 2010 or Office Communi
 
 You must use separate and distinct computers running Microsoft SQL Server 2008 R2 or Microsoft SQL Server 2012 for your Lync Server 2013 database instances. You cannot use the same instance of SQL Server for a Lync Server 2013 Front End pool that you use for a Lync Server 2010 or Office Communications Server 2007 R2 Front End pool. If you define and configure Lync Server 2013 in Topology Builder for a deployment that already has Lync Server 2010 or Office Communications Server 2007 R2 deployed, Topology Builder will not allow you to define an instance of a Lync Server 2013 that is already in use in the topology.
 
-Topology Builder will display the following message to inform you of this issue: "The SQL server \[FQDN of the server\] already contains a SQL instance hosting role 'User Store'."
+Topology Builder will display the following message to inform you of this issue: "The SQL server \[FQDN of the server\] already contains a SQL instance hosting role 'User Store."
 
 <div>
 

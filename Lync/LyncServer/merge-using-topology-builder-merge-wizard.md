@@ -1,5 +1,6 @@
 ---
 title: Merge using Topology Builder Merge wizard
+description: "Merge using Topology Builder Merge wizard."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

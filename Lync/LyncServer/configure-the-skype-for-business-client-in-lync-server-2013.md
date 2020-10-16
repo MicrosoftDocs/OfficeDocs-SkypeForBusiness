@@ -1,5 +1,6 @@
 ---
 title: Configure the Skype for Business client in Lync Server 2013
+description: "Configure the Skype for Business client in Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

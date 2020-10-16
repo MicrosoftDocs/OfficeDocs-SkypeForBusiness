@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Routing E9-1-1 calls by using an ELIN gateway'
+description: "Lync Server 2013: Routing E9-1-1 calls by using an ELIN gateway."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

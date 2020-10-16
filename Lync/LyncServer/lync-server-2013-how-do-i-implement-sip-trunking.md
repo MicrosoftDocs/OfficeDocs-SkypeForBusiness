@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: How do I implement SIP trunking?'
+description: "Lync Server 2013: How do I implement SIP trunking?."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Verify Announcement deployment'
+description: "Lync Server 2013: (Optional) Verify Announcement deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 server roles
+description: "Lync Server 2013 server roles."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

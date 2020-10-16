@@ -1,5 +1,6 @@
 ---
 title: Configuring Persistent Chat Server by using Windows PowerShell cmdlets
+description: "Configuring Persistent Chat Server by using Windows PowerShell cmdlets."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test telephone number against a voice policy'
+description: "Lync Server 2013: Test telephone number against a voice policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: "Lync Server 2013: Test mobile users' ability to exchange instant messages"
+description: ""Lync Server 2013: Test mobile users' ability to exchange instant messages"."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

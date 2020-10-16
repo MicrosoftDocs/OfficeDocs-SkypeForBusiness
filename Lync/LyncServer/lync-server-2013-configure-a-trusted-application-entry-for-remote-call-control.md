@@ -1,5 +1,6 @@
 ---
 title: 'Configure a trusted application entry for remote call control'
+description: "Configure a trusted application entry for remote call control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

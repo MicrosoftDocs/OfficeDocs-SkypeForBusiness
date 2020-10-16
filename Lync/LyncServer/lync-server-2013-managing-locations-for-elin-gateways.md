@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing locations for ELIN gateways'
+description: "Lync Server 2013: Managing locations for ELIN gateways."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

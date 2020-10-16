@@ -1,5 +1,6 @@
 ---
 title: 'Planning for extensible messaging and presence protocol (XMPP) federation'
+description: "Planning for extensible messaging and presence protocol (XMPP) federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

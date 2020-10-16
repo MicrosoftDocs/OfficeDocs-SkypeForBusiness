@@ -1,5 +1,6 @@
 ---
 title: Migration from Office Communications Server 2007 R2 to Lync Server 2013
+description: "Migration from Office Communications Server 2007 R2 to Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

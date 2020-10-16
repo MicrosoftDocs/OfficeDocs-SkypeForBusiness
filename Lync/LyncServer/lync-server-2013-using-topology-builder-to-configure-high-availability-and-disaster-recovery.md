@@ -1,5 +1,6 @@
 ---
 title: 'Using Topology Builder to configure high availability and disaster recovery'
+description: "Using Topology Builder to configure high availability and disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
