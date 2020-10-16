@@ -4,6 +4,7 @@ description: Find all the available learning for Business Central.
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
 ---
 
