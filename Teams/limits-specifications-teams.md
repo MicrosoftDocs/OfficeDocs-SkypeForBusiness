@@ -30,7 +30,7 @@ This article describes some of the limits, specifications, and other requirement
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of teams a user can be a member of|1,000&sup2;|
-|Number of members in a team | 10,000       |
+|Number of members in a team | 10,000<sup>5</sup>     |
 |Number of owners per team | 100   |
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
@@ -39,7 +39,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30| (includes deleted channels)&sup3;
 |Number of members in a Private channel    |250|
-|Maximum number of members in an Office 365 group that can be converted to a team    |10,000|
+|Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>5</sup>     |
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
@@ -50,6 +50,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
+<sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
 ## Messaging
 
 ### Chat
