@@ -468,7 +468,7 @@
     {
       "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.SfBPowerShell.md",
       "redirect_url": "https://docs.microsoft.com/powershell/skype/intro?view=skype-ps",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.HubPage.md",
