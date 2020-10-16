@@ -97,7 +97,7 @@ For more information, see [Exchange Online limits](https://docs.microsoft.com/of
 
 Channel names can't contain the following characters or words.
 
-|||
+|Type|Example|
 |---------|---------|
 |Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |

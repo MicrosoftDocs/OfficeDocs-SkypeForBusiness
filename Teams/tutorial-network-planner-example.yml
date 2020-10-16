@@ -19,7 +19,6 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-    
     The Network Planner tool is available in the Teams admin center. It helps you determine network requirements for your organization. This example scenario shows how you can use the tool to create sites, personas, and running reports for a company called Contoso. 
   
     ## Before you begin
@@ -42,7 +41,6 @@ items:
 - title: Add a network plan
   durationInMinutes: 2
   content: |
-    
     In the Teams admin center, expand **Org-wide settings** and then select **Network planner**. The first thing you need to do is create a network plan. 
 
     1. Click **Add a network plan** 
@@ -58,7 +56,6 @@ items:
 - title: Create custom personas
   durationInMinutes: 2
   content: |
-
     Next you need to create the necessary personas to represent your users. Since each location has specialized users who will only make phone calls, you need to create that persona.
 
     1. On the Network planner page, click the **Personas** tab, and then click **+ Custom persona**. 
@@ -71,7 +68,6 @@ items:
 - title: Add sites to your network plan
   durationInMinutes: 5
   content: |
-
     Now, you need to add the three sites to your network plan. The table below summarizes the characteristics of Contoso's network locations.
 
     |Location       |Total number of employees|Calling only employees|Internet connection       |PSTN connection                |
@@ -102,7 +98,6 @@ items:
 - title: Create a report
   durationInMinutes: 3
   content: |
-
    Now that you have your sites added, you can create a report. You'll be defining your user distribution while creating the report.
 
    1. Select the **Report** tab, and then click **Start a report**. This will open the user distribution page. Start by adding a name and a description for your report.
@@ -116,7 +111,6 @@ items:
 - title: Analyze report output
   durationInMinutes: 5
   content: | 
-
     Once you generate the report, you’ll see a screen displaying your bandwidth requirements both as overall and modality specific values. By default, the allowed bandwidth is set to 30%. By changing this value and clicking **Run report**, you can see the different impact on the bandwidth for your network. Any areas that need more bandwidth will be highlighted in red.
 
     ![Report analysis](media/network-planner-report-output.png)
@@ -130,7 +124,6 @@ items:
 - title: Additional resources
   durationInMinutes: 1
   content: |
-    
     This completes the example scenario for Network Planner. You can [go back to the Network Planner article](network-planner.md), or check out the following resources for more information on getting your organization ready for Teams:
 
      - [Prepare your organization's network for Microsoft Teams](prepare-network.md)

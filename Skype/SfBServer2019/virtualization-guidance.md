@@ -4,7 +4,7 @@ ms.reviewer: corbinm
 ms.author: v-cichur
 author: cichur
 manager: serdars
-ms.date: 06/04/20
+ms.date: 06/04/2020
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
