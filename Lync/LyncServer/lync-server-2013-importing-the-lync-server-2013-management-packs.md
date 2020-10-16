@@ -14,13 +14,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Importing the Lync Server 2013 management packs
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Importing the Lync Server 2013 management packs
+
 
 </div>
 

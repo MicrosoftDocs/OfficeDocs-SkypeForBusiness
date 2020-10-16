@@ -14,13 +14,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Failing over the Edge pool used for Lync Server federation in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Failing over the Edge pool used for Lync Server federation in Lync Server 2013
+
 
 </div>
 
