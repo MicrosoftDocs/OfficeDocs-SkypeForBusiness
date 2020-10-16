@@ -109,7 +109,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> Use the **ShiftNoticeMessageType** parameter to set the message that you want to display. To see a list of the pre-defined messages that you can choose from for this parameter, see New-TeamsShiftPolicy.
+> Use the **ShiftNoticeMessageType** parameter to set the message that you want to display. To see a list of the pre-defined messages that you can choose from for this parameter, see [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
 
 ### Example 4
 
