@@ -14,6 +14,8 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+
+
 # System requirements for servers running Lync Server 2013
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

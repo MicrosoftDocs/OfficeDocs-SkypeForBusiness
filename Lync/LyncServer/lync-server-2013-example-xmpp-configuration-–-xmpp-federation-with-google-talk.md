@@ -15,13 +15,15 @@ ms.date: 07/23/2014
 mtps_version: v=OCS.15
 ---
 
+# Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk
+
 
 </div>
 

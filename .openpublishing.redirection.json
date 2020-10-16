@@ -257,6 +257,11 @@
       "redirect_document_id": true
       },
     {
+        "source_path": "Lync/Hub/index.md", 
+        "redirect_url": "https://docs.microsoft.com/lyncserver/microsoft-lync-server-2013", 
+        "redirect_document_id": true
+      },
+    {
       "source_path": "Lync/LyncServer/lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md", 
       "redirect_url": "https://docs.microsoft.com/lyncserver/lync-server-2013-create-archiving-policy-sites-users", 
       "redirect_document_id": true
