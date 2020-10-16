@@ -14,13 +14,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Configuring Quality of Service policies in Lync Server 2013 for clients running on Windows 7 or Windows 8
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Configuring Quality of Service policies in Lync Server 2013 for clients running on Windows 7 or Windows 8
+
 
 </div>
 

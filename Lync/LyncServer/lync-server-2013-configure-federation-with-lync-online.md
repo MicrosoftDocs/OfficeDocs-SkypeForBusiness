@@ -14,13 +14,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Configure federation of Lync Server 2013 with Lync Online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Configure federation of Lync Server 2013 with Lync Online
+
 
 </div>
 
