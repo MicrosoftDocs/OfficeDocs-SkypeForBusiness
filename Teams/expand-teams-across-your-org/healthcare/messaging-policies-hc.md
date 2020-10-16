@@ -1,5 +1,5 @@
 ---
-title: "Secure Messaging for Healthcare organizations"
+title: "Secure Messaging for Healthcare organizations using Microsoft Teams"
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,11 +16,11 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Learn how to customize a Secure Messaging policy that can include read receipts and priority notifications.
+description: Learn how to customize a Secure Messaging policy for Microsoft Teams that can include read receipts and priority notifications.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Get started with Secure Messaging for Healthcare organizations
+# Secure Messaging for Healthcare organizations
 
 Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams, and are part of the overall deployment of Secure Messaging for Healthcare organizations like Hospitals, clinics, or doctor's offices, where having a message picked up and acted upon in a timely manner is crucial, as is knowing when crucial messages are read.
 

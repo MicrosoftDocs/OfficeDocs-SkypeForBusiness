@@ -681,7 +681,8 @@
 
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Bookings app and virtual visits](bookings-app-admin.md)
+### Virtual visits
+#### [Virtual visits with Bookings](bookings-app-admin.md)
 ### [Teams policy packages for Healthcare](policy-packages-healthcare.md)
 ### Secure messaging policies
 #### [Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
