@@ -10,8 +10,6 @@ audience: admin
 search.appverid: MET150
 description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, as well as various calling policy settings.
 localization_priority: Normal
-ms.custom: 
-  - NewAdminCenter_Update
 ms.collection: 
   - M365-voice
 f1.keywords:
@@ -19,6 +17,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callingpolicies.overview
   - seo-marvel-apr2020
+  - NewAdminCenter_Update
 appliesto: 
   - Microsoft Teams
 ---
