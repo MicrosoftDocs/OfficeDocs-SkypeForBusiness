@@ -10,8 +10,6 @@ audience: admin
 description: This article will help you with getting started on upgrading from Skype for Business to Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords:
-- CSH
 ms.custom: 
 - Teams-upgrade-guidance
 - seo-marvel-apr2020
@@ -28,6 +26,7 @@ f1.keywords:
 - ms.teamsadmincenter.users.teamsupgradepage
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
+- CSH
 appliesto:
 - Microsoft Teams
 ---

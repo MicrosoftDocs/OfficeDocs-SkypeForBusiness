@@ -1,6 +1,6 @@
 ---
 title: "Stream classification in Call Quality Dashboard (CQD)"
-ms.author: serdarsacobsen
+ms.author: serdars
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
