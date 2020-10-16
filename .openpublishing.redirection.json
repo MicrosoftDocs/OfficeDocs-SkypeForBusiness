@@ -1453,42 +1453,42 @@
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md",
@@ -1498,7 +1498,7 @@
     {
       "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md",
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md",
@@ -1718,47 +1718,47 @@
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-org-aa.yml",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/tutorial-org-aa",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-service-phone-numbers.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/outbound-calling-restriction-policies.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/outbound-calling-restriction-policies",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/set-the-caller-id-for-a-user",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/more-about-calling-line-id-and-calling-party-name.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/more-about-calling-line-id-and-calling-party-name",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/Sfbserver/manage/authentication/use-adal.md",
@@ -1778,7 +1778,7 @@
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md",
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/set-up-phone-system-voicemail",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/onboarding-test-plan-for-enterprises-audio-conferencing.md",
@@ -1803,7 +1803,7 @@
     {
       "source_path": "Skype/SfbOnline/legal-and-regulatory/accessibility-solutions-in-france.md",
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/accessibility-solutions-in-france",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/2-envision-make-my-service-decisions-audio-conferencing.md",
@@ -1993,7 +1993,7 @@
     {
       "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/index.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json&branch",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/legal-and-regulatory/index.md",
@@ -2028,12 +2028,12 @@
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/index.md",
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/calling-plan-landing-page?toc=%2Fskypeforbusiness%2Ftoc.json&bc=%2Fskypeforbusiness%2Fbreadcrumb%2Ftoc.json",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/index.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbPartnerCertification/certification/index.md",
@@ -2293,7 +2293,7 @@
     {
       "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/index.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.jsonbreadcrumb/toc.json",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/help-topics/index.md",
