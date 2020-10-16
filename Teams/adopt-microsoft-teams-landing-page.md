@@ -9,7 +9,6 @@ manager: serdars
 ms.date: 10/31/2018
 audience: admin 
 ms.service: msteams
-ms.custom: Adopt
 ms.collection: 
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -18,6 +17,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
 - seo-marvel-apr2020
+- Adopt
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams
