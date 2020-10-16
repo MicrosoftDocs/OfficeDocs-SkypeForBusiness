@@ -91,13 +91,11 @@ For more information, see [Exchange Online limits](https://docs.microsoft.com/of
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
-
-
 ## Channel names
 
 Channel names can't contain the following characters or words.
 
-|||
+|Type|Example|
 |---------|---------|
 |Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
