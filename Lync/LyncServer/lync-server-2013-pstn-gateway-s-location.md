@@ -1,6 +1,6 @@
 ---
 title: "Lync Server 2013: PSTN gateway's location"
-description: ""Lync Server 2013: PSTN gateway's location"."
+description: "Lync Server 2013: PSTN gateway's location."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
