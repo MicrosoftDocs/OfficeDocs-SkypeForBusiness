@@ -678,7 +678,6 @@
 ### [Get started with Teams templates](get-started-with-teams-templates.md)
 ### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Bookings app and virtual visits](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## Teams for Firstline Workers
 ### [Quickstart for Firstline Workers](firstline-workers-quickstart.yml)
 ### [Firstline workers scripted deployment](flw-scripted-deployment.md)
+### [Manage shift-based access for FirstLine Workers](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)
@@ -770,6 +770,7 @@
 ### [Policy control overview](policy-control-overview.md)
 ### [Mobile diagnostic data](policy-control-diagnostic-data-mobile.md)
 ### [Desktop client diagnostic data](policy-control-diagnostic-data-desktop.md)
+### [Optional connected experiences](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # Monitor, maintain, and troubleshoot
@@ -861,7 +862,7 @@
 ### [Enhance existing Microsoft 365 groups with Teams](enhance-office-365-groups.md)
 ### [How Exchange and Teams interact](exchange-teams-interact.md)
 #### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+#### [Use mail flow rules with Exchange](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
@@ -881,8 +882,8 @@
 ### [Install Teams PowerShell](teams-powershell-install.md)
 ### [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 ### [Teams PowerShell release notes](teams-powershell-release-notes.md)
+### [Move from Skype for Business Online Connector to the Teams PowerShell module](teams-powershell-move-from-sfbo.md)
 ### [Cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Get help in Teams](get-help-in-microsoft-teams.md)
 ## [Teams content updates](teams-updates.md)
