@@ -40,7 +40,7 @@ The topics in this section explain how to add a Lync Server 2013 Edge Server to 
 
 ## In This Section
 
-  - [Deploy pilot Edge Server](deploy-pilot-edge-server_1.md)
+  - [Deploy pilot Edge Server](deploy-pilot-edge-server.md)
 
   - [Validate replication of configuration settings](validate-replication-of-configuration-settings.md)
 

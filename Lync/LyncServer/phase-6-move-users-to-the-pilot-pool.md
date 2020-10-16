@@ -40,11 +40,11 @@ You can move a single user or groups of users to the new Lync Server 2013 deploy
 
 ## In This Section
 
-  - [Verify user replication has completed](verify-user-replication-has-completed_1.md)
+  - [Verify user replication has completed](verify-user-replication-has-completed.md)
 
-  - [Move a single user to the pilot pool](move-a-single-user-to-the-pilot-pool_1.md)
+  - [Move a single user to the pilot pool](move-a-single-user-to-the-pilot-pool.md)
 
-  - [Move multiple users to the pilot pool](move-multiple-users-to-the-pilot-pool_1.md)
+  - [Move multiple users to the pilot pool](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 

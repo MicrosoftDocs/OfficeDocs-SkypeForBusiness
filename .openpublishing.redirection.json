@@ -2419,6 +2419,176 @@
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/index.md",
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Lync/LyncServer/administering-servers-after-migration_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/administering-servers-after-migration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/back-up-systems-and-data_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/back-up-systems-and-data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/before-you-begin-the-migration_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/before-you-begin-the-migration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/configure-clients-for-migration_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/configure-clients-for-migration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/configure-dns-records-for-pilot-pool-deployment_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/configure-dns-records-for-pilot-pool-deployment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/configure-federation-routes-and-media-traffic_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/configure-federation-routes-and-media-traffic",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/configure-the-meeting-join-page_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/configure-the-meeting-join-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/configure-trusted-application-servers_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/configure-trusted-application-servers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/configure-xmpp-gateway-access-policies-and-certificates_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/configure-xmpp-gateway-access-policies-and-certificates",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/configure-xmpp-gateway-on-lync-server-2013_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/configure-xmpp-gateway-on-lync-server-2013",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/connect-pilot-pool-to-legacy-edge-servers_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/connect-pilot-pool-to-legacy-edge-servers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/deploy-lync-server-2013-clients_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/deploy-lync-server-2013-clients",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/deploy-lync-server-2013-pilot-pool_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/deploy-lync-server-2013-pilot-pool",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/deploy-pilot-edge-server_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/deploy-pilot-edge-server",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migrate-address-book_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migrate-address-book",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migrate-dial-in-access-numbers_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migrate-dial-in-access-numbers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migrate-response-groups_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migrate-response-groups",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migrating-archiving-and-monitoring-servers_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migrating-archiving-and-monitoring-servers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migrating-multiple-sites-and-pools_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migrating-multiple-sites-and-pools",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migrating-xmpp-federation_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migrating-xmpp-federation",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migration-phases_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migration-phases",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/migration-process_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/migration-process",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/move-a-single-user-to-the-pilot-pool_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/move-a-single-user-to-the-pilot-pool",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/move-multiple-users-to-the-pilot-pool_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/move-multiple-users-to-the-pilot-pool",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/move-remaining-users-to-lync-server-2013_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/move-remaining-users-to-lync-server-2013",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/phase-2-prepare-for-migration_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/phase-2-prepare-for-migration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/phase-3-deploy-lync-server-2013-pilot-pool_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/phase-3-deploy-lync-server-2013-pilot-pool",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/remove-legacy-archiving-and-monitoring-servers_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/remove-legacy-archiving-and-monitoring-servers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/run-best-practices-analyzer_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/run-best-practices-analyzer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/update-dns-srv-records_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/update-dns-srv-records",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/user-migration_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/user-migration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/verify-configuration-settings_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/verify-configuration-settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/verify-pilot-pool-coexistence-with-legacy-pool_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/verify-pilot-pool-coexistence-with-legacy-pool",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Lync/LyncServer/verify-user-replication-has-completed_1.md",
+      "redirect_url": "https://docs.microsoft.com/lyncserver/verify-user-replication-has-completed",
+      "redirect_document_id": true
     }
   ]
 }

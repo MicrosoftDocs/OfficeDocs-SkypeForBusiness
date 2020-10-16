@@ -40,13 +40,13 @@ Now that the pilot pool has been created and legacy deployment information has b
 
 ## In This Section
 
-  - [Connect pilot pool to legacy Edge Servers](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [Connect pilot pool to legacy Edge Servers](connect-pilot-pool-to-legacy-edge-servers.md)
 
   - [Authorize connection to Office Communications Server 2007 R2 Edge Server](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [Verify configuration settings](verify-configuration-settings_1.md)
+  - [Verify configuration settings](verify-configuration-settings.md)
 
-  - [Configure XMPP gateway access policies and certificates](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [Configure XMPP gateway access policies and certificates](configure-xmpp-gateway-access-policies-and-certificates.md)
 
 </div>
 
