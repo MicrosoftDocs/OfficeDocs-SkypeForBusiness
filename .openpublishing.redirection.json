@@ -1583,7 +1583,7 @@
     },
     {
       "source_path": "Teams/rollout-tools.md", 
-      "redirect_url": "https://docs.microsoft.com/en-us/microsoftteams/adopt-tools-and-downloads", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads", 
       "redirect_document_id": true 
     },
     {
@@ -1969,6 +1969,451 @@
       {
         "source_path": "Teams/iw-trial-teams.md",
         "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-exploratory",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md",
+        "redirect_url": "https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/top-level-breadcrumb-redirect.md",
+        "redirect_url": "https://go.microsoft.com/fwlink/?linkid=858815",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbHybrid/hybrid/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json&branch",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/legal-and-regulatory/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/legal-and-regulatory",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/set-up-skype-for-business-online/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Skype/SfbOnline/set-up-your-computer-for-windows-powershell/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/skype-for-business-online-reporting/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/calling-plan-landing-page?toc=%2Fskypeforbusiness%2Ftoc.json&bc=%2Fskypeforbusiness%2Fbreadcrumb%2Ftoc.json",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbPartnerCertification/certification/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/certification/overview",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbPartnerCertification/lync-cert/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/lync-cert/partner-qualification",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/manage",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/archiving/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/archiving/archiving",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/authentication/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/authentication/authentication",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/health-and-monitoring/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/health-and-monitoring/health-and-monitoring",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/persistent-chat/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/persistent-chat/persistent-chat",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/topology/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/topology/topology",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/user-accounts/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/user-accounts/user-accounts",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/management-tools",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/plan-your-deployment",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/archiving/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/archiving/archiving",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/capacity/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/capacity/capacity",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/conferencing/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/conferencing/conferencing",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/edge-server-deployments/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/edge-server-deployments/edge-server-deployments",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/enterprise-voice-solution/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/integrate-with-exchange/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/modern-authentication/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/modern-authentication/modern-authentication",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/network-requirements/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/persistent-chat-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/persistent-chat-server/persistent-chat-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/requirements-for-your-environment/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/security/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/security/security",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/plan-your-deployment/topology-basics/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/schema-reference/active-directory-schema-extensions-classes-and-attributes/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/schema-reference/active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/schema-reference/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/schema-reference/schema-reference",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/schema-reference/call-detail-recording-cdr-database-schema/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/schema-reference/call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/schema-reference/persistent-chat-database-schema/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/schema-reference/persistent-chat-database-schema/persistent-chat-database-schema",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/schema-reference/quality-of-experience-qoe-database-schema/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/schema-reference/quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/index.md",
+        "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Skype/SfBServer2019/deploy-1/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy-1/deploy-overview",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfBServer2019/plan/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/plan/plan-your-deployment-2019",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/1-envision-define-my-success-phone-system.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-archiving/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-archiving/deploy-archiving",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-clients/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/deploy-clients",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-conferencing/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-conferencing/deploy-conferencing",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-edge-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-edge-server/deploy-edge-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-enterprise-voice/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-high-availability-and-disaster-recovery/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-monitoring/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-monitoring/deploy-monitoring",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-persistent-chat-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-persistent-chat-server/deploy-persistent-chat-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/deploy-video-interop-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-video-interop-server/deploy-video-interop-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/im-and-presence/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/im-and-presence/im-and-presence",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/install/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/install/install",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/integrate-with-exchange-server/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/integrate-with-exchange-server/integrate-with-exchange-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/deploy/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/deploy/deploy",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/manage-phone-numbers-for-your-organization/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/set-up-policies-in-your-organization/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/set-up-policies-in-your-organization/set-up-policies-in-your-organization",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/index.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.jsonbreadcrumb/toc.json",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/depwiz/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/2019/depwiz/ms.lync.dep.DeployAdminToolsIntro",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/lscp/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools-2019",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/planning/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/2019/planning/ms.lync.plan.FeatureOverview",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/2019/topobld/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/2019/topobld/ms.lync.tb.StartupDialog",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-depwiz/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/help-depwiz/deployment-wizard-admin-tools",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-lscp/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/help-lscp/use-the-control-panel",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-planning/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/planning-tool/feature-overview",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/help-topics/help-topobld/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/help-topics/help-topobld/topology-builder-startup-dialog",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/optimizing-your-network/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/optimizing-your-network",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/manage/conferencing/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/conferencing/conferencing",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-s-new-in-skype-for-business-server",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/index.md",
+        "redirect_url": "https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfBServer2019/migration/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/migration/migration-to-skype-for-business-server-2019",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/toll-free-dialing-limitations-and-restrictions/index.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/license-options-based-on-your-plan",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/stress-and-performance-tool/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/stress-and-performance-tool/stress-and-performance-tool",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/centralized-logging-service/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/centralized-logging-service/centralized-logging-service",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/call-quality-dashboard/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/call-quality-dashboard/call-quality-dashboard",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/use-scom-management-pack/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/use-scom-management-pack/use-scom-management-pack",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/planning-tool/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/planning-tool/planning-tool",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbServer/management-tools/statistics-manager/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/management-tools/statistics-manager/statistics-manager",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md",
+        "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Teams/guidance-SkypeforBusiness.md",
+        "redirect_url": "https://docs.microsoft.com/microsoftteams/upgrade-and-coexistence-of-skypeforbusiness-and-teams",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/index.md",
+        "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online",
         "redirect_document_id": true
       }
   ] 

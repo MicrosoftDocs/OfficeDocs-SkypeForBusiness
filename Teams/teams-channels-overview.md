@@ -17,9 +17,9 @@ ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
   - ms.teamsadmincenter.teamschannel.overview
   - ms.teamsadmincenter.teamssettings.overview
+  - okr_smb
 ms.collection: 
   - M365-collaboration
-ms.custom: okr_smb
 appliesto: 
   - Microsoft Teams
 ---
