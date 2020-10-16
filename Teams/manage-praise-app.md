@@ -14,7 +14,7 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 # Manage the Praise app in the Microsoft Teams admin center
 
 > [!NOTE]
-> Admins must have a Teams license to access this feature If you try to access this feature without a Teams license, you'll get an error message. 
+> Admins must have a Teams license to access this feature. If you try to access this feature without a Teams license, you'll get an error message.
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers.
 
