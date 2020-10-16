@@ -3,7 +3,6 @@ title: Microsoft Teams resources for Education admins
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: 
 ms.topic: reference
 ms.service: msteams
 audience: admin

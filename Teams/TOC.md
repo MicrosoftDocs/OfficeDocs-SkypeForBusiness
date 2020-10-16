@@ -678,7 +678,6 @@
 ### [Get started with Teams templates](get-started-with-teams-templates.md)
 ### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Virtual visits with Teams - Integration with EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
@@ -721,6 +720,7 @@
 ## Teams for Firstline Workers
 ### [Quickstart for Firstline Workers](firstline-workers-quickstart.yml)
 ### [Firstline workers scripted deployment](flw-scripted-deployment.md)
+### [Manage shift-based access for FirstLine Workers](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
 ### [Create a Teams Intranet Portal app from a SPO site or page](teams-standalone-static-tabs-using-spo-sites.md)

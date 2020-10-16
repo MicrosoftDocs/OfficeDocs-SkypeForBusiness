@@ -15,7 +15,6 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: 
