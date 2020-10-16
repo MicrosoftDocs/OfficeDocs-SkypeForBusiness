@@ -3,7 +3,7 @@ title: Upgrade to Teams from a Skype for Business on-premises deployment - Micro
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/202020
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
