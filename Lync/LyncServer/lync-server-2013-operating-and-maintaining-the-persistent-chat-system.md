@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Operating and maintaining the Persistent Chat system'
+description: "Lync Server 2013: Operating and maintaining the Persistent Chat system."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

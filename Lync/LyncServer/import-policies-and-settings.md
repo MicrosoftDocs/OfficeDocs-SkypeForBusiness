@@ -1,5 +1,6 @@
 ---
 title: Import policies and settings
+description: "Import policies and settings."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

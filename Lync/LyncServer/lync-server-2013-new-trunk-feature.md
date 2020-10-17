@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New trunk feature'
+description: "Lync Server 2013: New trunk feature."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

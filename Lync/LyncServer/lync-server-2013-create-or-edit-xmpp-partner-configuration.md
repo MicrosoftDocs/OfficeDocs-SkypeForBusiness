@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or edit XMPP partner configuration'
+description: "Lync Server 2013: Create or edit XMPP partner configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

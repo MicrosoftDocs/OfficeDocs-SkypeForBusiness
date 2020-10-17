@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable a Microsoft SIP Processing Language (MSPL) server application'
+description: "Lync Server 2013: Enable or disable a Microsoft SIP Processing Language (MSPL) server application."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

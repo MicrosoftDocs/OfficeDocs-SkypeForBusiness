@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: McuJoinsAndLeaves view'
+description: "Lync Server 2013: McuJoinsAndLeaves view."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

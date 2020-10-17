@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View information about Device Update rules'
+description: "Lync Server 2013: View information about Device Update rules."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

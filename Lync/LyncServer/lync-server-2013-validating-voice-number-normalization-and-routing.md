@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Validating voice number normalization and routing'
+description: "Lync Server 2013: Validating voice number normalization and routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

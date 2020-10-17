@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure DNS for load balancing'
+description: "Lync Server 2013: Configure DNS for load balancing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

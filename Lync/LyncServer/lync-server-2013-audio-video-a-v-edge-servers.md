@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Audio/Video (A/V) Edge Servers'
+description: "Lync Server 2013: Audio/Video (A/V) Edge Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

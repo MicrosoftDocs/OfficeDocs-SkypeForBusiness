@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring Mobility Service and UCWA usage'
+description: "Lync Server 2013: Monitoring Mobility Service and UCWA usage."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: As-needed tasks'
+description: "Lync Server 2013: As-needed tasks."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

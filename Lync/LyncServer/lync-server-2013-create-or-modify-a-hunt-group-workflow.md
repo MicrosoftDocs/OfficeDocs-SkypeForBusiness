@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a hunt group workflow'
+description: "Lync Server 2013: Create or modify a hunt group workflow."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

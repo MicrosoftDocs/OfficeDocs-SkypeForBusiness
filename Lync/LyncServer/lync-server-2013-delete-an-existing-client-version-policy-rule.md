@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Delete an existing client version policy rule'
+description: "Lync Server 2013: Delete an existing client version policy rule."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

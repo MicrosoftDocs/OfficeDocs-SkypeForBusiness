@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS summary - Scaled Director pool, hardware load balancer'
+description: "Lync Server 2013: DNS summary - Scaled Director pool, hardware load balancer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

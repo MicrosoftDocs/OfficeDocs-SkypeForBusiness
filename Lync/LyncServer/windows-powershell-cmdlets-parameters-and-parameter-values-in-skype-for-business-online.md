@@ -1,5 +1,6 @@
 ---
 title: Windows PowerShell cmdlets, parameters, and parameter values in Skype for Business Online
+description: "Windows PowerShell cmdlets, parameters, and parameter values in Skype for Business Online."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

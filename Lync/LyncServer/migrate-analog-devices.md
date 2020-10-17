@@ -1,5 +1,6 @@
 ---
 title: Migrate analog devices
+description: "Migrate analog devices."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

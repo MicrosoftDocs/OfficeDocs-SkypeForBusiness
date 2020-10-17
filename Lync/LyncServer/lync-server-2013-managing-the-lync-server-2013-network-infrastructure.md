@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing the Lync Server 2013 network infrastructure'
+description: "Lync Server 2013: Managing the Lync Server 2013 network infrastructure."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Manage rooms
+description: "Manage rooms."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

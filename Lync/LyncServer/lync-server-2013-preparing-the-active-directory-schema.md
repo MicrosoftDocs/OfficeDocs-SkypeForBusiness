@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Preparing the Active Directory schema'
+description: "Lync Server 2013: Preparing the Active Directory schema."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploy IP address types on a Front End Server'
+description: "Lync Server 2013: Deploy IP address types on a Front End Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Verify connectivity between internal servers and Edge Servers'
+description: "Verify connectivity between internal servers and Edge Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

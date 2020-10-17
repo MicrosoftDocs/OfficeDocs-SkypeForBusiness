@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Check Lync Server 2013 server certificates'
+description: "Lync Server 2013: Check Lync Server 2013 server certificates."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

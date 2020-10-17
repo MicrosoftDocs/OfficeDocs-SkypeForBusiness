@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable a conferencing device'
+description: "Lync Server 2013: Enable or disable a conferencing device."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

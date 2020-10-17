@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Appendices: Survivable Branch Appliances and Servers'
+description: "Lync Server 2013: Appendices: Survivable Branch Appliances and Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

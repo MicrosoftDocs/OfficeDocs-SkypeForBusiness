@@ -1,5 +1,6 @@
 ---
 title: Configure XMPP gateway on Lync Server 2013
+description: "Configure XMPP gateway on Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

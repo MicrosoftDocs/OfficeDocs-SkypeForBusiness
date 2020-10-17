@@ -1,5 +1,6 @@
 ---
 title: Prevent sessions for services
+description: "Prevent sessions for services."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

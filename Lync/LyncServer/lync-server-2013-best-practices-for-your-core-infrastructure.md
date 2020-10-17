@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Best practices for your core infrastructure'
+description: "Lync Server 2013: Best practices for your core infrastructure."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

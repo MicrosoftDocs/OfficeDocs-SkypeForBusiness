@@ -1,5 +1,6 @@
 ---
 title: Understanding Persistent Chat membership
+description: "Understanding Persistent Chat membership."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

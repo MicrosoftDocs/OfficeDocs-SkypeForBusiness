@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure a static route for remote call control'
+description: "Lync Server 2013: Configure a static route for remote call control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New IPv6 features'
+description: "Lync Server 2013: New IPv6 features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

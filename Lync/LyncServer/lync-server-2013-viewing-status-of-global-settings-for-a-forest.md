@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing status of global settings for a forest'
+description: "Lync Server 2013: Viewing status of global settings for a forest."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

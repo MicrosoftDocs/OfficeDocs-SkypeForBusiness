@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 wildcard certificate support
+description: "Lync Server 2013 wildcard certificate support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

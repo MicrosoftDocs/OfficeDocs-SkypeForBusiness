@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up reverse proxy servers'
+description: "Lync Server 2013: Setting up reverse proxy servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

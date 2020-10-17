@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Publish the location database'
+description: "Lync Server 2013: Publish the location database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

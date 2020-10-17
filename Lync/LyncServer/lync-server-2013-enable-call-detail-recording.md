@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable call detail recording'
+description: "Lync Server 2013: Enable call detail recording."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

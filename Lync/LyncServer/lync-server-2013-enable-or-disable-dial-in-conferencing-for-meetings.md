@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable dial-in conferencing for meetings'
+description: "Lync Server 2013: Enable or disable dial-in conferencing for meetings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

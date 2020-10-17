@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Trunking configuration cmdlets'
+description: "Lync Server 2013: Trunking configuration cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

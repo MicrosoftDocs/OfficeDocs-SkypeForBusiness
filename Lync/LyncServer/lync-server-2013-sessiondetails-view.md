@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SessionDetails view'
+description: "Lync Server 2013: SessionDetails view."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

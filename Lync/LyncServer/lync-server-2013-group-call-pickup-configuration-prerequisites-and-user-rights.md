@@ -1,5 +1,6 @@
 ---
 title: 'Group Call Pickup configuration prerequisites and user rights'
+description: "Group Call Pickup configuration prerequisites and user rights."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

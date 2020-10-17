@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Addressing threats to your core infrastructure'
+description: "Lync Server 2013: Addressing threats to your core infrastructure."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

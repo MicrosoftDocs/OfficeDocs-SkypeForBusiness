@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 reference topology for medium-size organizations
+description: "Lync Server 2013 reference topology for medium-size organizations."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

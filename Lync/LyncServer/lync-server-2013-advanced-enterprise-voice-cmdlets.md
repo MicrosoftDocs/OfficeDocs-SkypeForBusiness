@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Advanced Enterprise Voice cmdlets'
+description: "Lync Server 2013: Advanced Enterprise Voice cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

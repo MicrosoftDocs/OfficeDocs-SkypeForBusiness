@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Operations'
+description: "Lync Server 2013: Operations."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

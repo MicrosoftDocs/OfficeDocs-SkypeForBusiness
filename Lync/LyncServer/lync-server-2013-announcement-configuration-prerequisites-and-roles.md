@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Announcement configuration prerequisites and roles'
+description: "Lync Server 2013: Announcement configuration prerequisites and roles."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SessionCorrelation table'
+description: "Lync Server 2013: SessionCorrelation table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enhanced 9-1-1 (E9-1-1) and Mediation Server'
+description: "Lync Server 2013: Enhanced 9-1-1 (E9-1-1) and Mediation Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

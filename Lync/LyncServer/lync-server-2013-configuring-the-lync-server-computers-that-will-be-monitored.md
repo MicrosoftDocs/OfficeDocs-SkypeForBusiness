@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring the Lync Server computers that will be monitored'
+description: "Lync Server 2013: Configuring the Lync Server computers that will be monitored."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

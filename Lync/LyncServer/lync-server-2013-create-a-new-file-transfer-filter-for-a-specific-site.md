@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create a new file transfer filter for a specific site'
+description: "Lync Server 2013: Create a new file transfer filter for a specific site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblADUpdates'
+description: "Lync Server 2013: tblADUpdates."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

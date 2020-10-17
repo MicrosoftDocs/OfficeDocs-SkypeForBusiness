@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 conferencing user model
+description: "Lync Server 2013 conferencing user model."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

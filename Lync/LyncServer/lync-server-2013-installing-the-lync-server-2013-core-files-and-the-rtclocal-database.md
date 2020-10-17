@@ -1,5 +1,6 @@
 ---
 title: 'Installing the Lync Server 2013 core files and the RTCLocal database'
+description: "Installing the Lync Server 2013 core files and the RTCLocal database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

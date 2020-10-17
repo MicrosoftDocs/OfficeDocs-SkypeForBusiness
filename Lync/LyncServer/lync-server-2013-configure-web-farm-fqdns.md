@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure web farm FQDNs'
+description: "Lync Server 2013: Configure web farm FQDNs."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

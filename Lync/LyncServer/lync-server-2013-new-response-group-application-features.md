@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New Response Group application features'
+description: "Lync Server 2013: New Response Group application features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

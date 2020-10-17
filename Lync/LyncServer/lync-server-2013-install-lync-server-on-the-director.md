@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install Lync Server on the Director'
+description: "Lync Server 2013: Install Lync Server on the Director."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring Persistent Chat data'
+description: "Lync Server 2013: Restoring Persistent Chat data."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

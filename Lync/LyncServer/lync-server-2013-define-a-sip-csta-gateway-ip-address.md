@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Define a SIP/CSTA gateway IP address'
+description: "Lync Server 2013: Define a SIP/CSTA gateway IP address."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

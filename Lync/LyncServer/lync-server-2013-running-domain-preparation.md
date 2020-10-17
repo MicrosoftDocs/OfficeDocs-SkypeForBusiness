@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Running domain preparation'
+description: "Lync Server 2013: Running domain preparation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

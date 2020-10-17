@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling or disabling push notifications for iPhones'
+description: "Lync Server 2013: Enabling or disabling push notifications for iPhones."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View the status of services running on a computer'
+description: "Lync Server 2013: View the status of services running on a computer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

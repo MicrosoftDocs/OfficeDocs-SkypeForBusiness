@@ -1,5 +1,6 @@
 ---
 title: 'Create or modify a translation rule by using the Build a Translation Rule tool'
+description: "Create or modify a translation rule by using the Build a Translation Rule tool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

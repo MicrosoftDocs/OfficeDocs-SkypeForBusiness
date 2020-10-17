@@ -1,5 +1,6 @@
 ---
 title: 'View Microsoft SIP Processing Language (MSPL) server applications'
+description: "View Microsoft SIP Processing Language (MSPL) server applications."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

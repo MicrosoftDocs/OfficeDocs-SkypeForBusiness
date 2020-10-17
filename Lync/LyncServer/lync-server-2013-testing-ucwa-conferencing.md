@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing UCWA conferencing'
+description: "Lync Server 2013: Testing UCWA conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

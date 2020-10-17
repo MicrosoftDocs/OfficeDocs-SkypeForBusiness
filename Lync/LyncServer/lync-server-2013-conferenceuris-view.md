@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ConferenceUris view'
+description: "Lync Server 2013: ConferenceUris view."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

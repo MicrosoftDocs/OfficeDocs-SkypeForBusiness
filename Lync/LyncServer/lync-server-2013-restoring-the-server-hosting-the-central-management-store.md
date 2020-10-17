@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring the server hosting the Central Management store'
+description: "Lync Server 2013: Restoring the server hosting the Central Management store."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

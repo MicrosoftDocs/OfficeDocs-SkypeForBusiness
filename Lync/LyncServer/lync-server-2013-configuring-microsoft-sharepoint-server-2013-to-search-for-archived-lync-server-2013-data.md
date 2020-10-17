@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Microsoft SharePoint Server 2013 to search for archived Lync Server 2013 data'
+description: "Lync Server 2013: Configuring Microsoft SharePoint Server 2013 to search for archived Lync Server 2013 data."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

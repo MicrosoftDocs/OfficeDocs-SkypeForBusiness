@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Remote call control and phone number normalization'
+description: "Lync Server 2013: Remote call control and phone number normalization."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

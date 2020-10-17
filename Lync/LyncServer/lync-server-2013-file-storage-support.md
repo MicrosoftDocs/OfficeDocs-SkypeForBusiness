@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 file storage support
+description: "Lync Server 2013 file storage support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Request and configure a certificate for your reverse HTTP proxy'
+description: "Request and configure a certificate for your reverse HTTP proxy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

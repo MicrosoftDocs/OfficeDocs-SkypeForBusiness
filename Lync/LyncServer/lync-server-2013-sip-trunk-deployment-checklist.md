@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SIP trunk deployment checklist'
+description: "Lync Server 2013: SIP trunk deployment checklist."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

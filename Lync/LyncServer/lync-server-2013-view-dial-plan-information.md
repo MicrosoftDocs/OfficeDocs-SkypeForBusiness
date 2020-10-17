@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View dial plan information'
+description: "Lync Server 2013: View dial plan information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

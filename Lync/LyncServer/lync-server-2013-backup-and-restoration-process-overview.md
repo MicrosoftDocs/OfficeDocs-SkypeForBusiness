@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backup and restoration process overview'
+description: "Lync Server 2013: Backup and restoration process overview."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

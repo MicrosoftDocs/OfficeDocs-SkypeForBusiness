@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Microsoft Exchange Server 2013 Unified Messaging for Lync Server 2013 voice mail'
+description: "Lync Server 2013: Configuring Microsoft Exchange Server 2013 Unified Messaging for Lync Server 2013 voice mail."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

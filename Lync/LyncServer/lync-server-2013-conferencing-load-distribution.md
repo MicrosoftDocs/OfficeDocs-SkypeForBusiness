@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 conferencing load distribution
+description: "Lync Server 2013 conferencing load distribution."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

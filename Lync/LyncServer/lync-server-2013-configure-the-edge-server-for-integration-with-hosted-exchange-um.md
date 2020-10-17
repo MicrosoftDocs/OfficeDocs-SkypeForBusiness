@@ -1,5 +1,6 @@
 ---
 title: 'Configure the Edge Server for integration with hosted Exchange UM'
+description: "Configure the Edge Server for integration with hosted Exchange UM."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

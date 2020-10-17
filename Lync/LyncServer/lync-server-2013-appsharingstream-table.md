@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: AppSharingStream table'
+description: "Lync Server 2013: AppSharingStream table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

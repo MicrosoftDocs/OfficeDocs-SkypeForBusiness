@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS requirements'
+description: "Lync Server 2013: DNS requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Stress and Performance Tool
+description: "Lync Server 2013 Stress and Performance Tool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

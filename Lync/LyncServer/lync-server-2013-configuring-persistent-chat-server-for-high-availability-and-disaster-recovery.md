@@ -1,5 +1,6 @@
 ---
 title: 'Configuring Persistent Chat Server for high availability and disaster recovery'
+description: "Configuring Persistent Chat Server for high availability and disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

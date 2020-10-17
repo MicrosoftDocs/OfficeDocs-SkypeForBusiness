@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create a device to test update functionality'
+description: "Lync Server 2013: Create a device to test update functionality."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

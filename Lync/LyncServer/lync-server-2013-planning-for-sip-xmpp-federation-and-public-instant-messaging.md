@@ -1,5 +1,6 @@
 ---
 title: 'Planning for SIP, XMPP federation, and public instant messaging'
+description: "Planning for SIP, XMPP federation, and public instant messaging."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

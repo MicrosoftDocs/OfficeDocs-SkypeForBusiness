@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 IPsec exceptions
+description: "Lync Server 2013 IPsec exceptions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

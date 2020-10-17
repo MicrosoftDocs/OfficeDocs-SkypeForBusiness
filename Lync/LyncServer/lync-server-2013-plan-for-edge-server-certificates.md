@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Plan for Edge Server certificates'
+description: "Lync Server 2013: Plan for Edge Server certificates."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

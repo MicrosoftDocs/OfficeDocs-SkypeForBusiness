@@ -1,5 +1,6 @@
 ---
 title: Migrating Group Chat servers
+description: "Migrating Group Chat servers."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

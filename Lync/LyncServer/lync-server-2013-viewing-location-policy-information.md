@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing location policy information'
+description: "Lync Server 2013: Viewing location policy information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

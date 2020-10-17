@@ -1,5 +1,6 @@
 ---
 title: 'Managing the Centralized Logging Service configuration settings'
+description: "Managing the Centralized Logging Service configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

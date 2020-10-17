@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploying paired Front End pools for disaster recovery'
+description: "Lync Server 2013: Deploying paired Front End pools for disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Beginning the planning process'
+description: "Lync Server 2013: Beginning the planning process."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

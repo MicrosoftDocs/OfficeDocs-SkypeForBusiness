@@ -1,5 +1,6 @@
 ---
 title: Verify Office Communications Server 2007 R2 environment
+description: "Verify Office Communications Server 2007 R2 environment."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

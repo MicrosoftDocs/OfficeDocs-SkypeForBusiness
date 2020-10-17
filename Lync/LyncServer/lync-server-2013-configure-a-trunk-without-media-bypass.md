@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure a trunk without media bypass'
+description: "Lync Server 2013: Configure a trunk without media bypass."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

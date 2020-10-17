@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Publish the updated topology'
+description: "Lync Server 2013: Publish the updated topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

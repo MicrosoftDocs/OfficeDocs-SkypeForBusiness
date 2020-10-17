@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for Call Park disaster recovery'
+description: "Lync Server 2013: Planning for Call Park disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

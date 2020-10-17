@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Supported clients from previous deployments'
+description: "Lync Server 2013: Supported clients from previous deployments."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

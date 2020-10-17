@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Publishing the updated topology to add Archiving databases'
+description: "Lync Server 2013: Publishing the updated topology to add Archiving databases."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Manage announcements during disaster recovery'
+description: "Lync Server 2013: Manage announcements during disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

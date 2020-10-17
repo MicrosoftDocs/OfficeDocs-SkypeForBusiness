@@ -1,5 +1,6 @@
 ---
 title: 'Phase 10: Decommission legacy site'
+description: "Phase 10: Decommission legacy site."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

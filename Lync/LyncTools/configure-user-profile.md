@@ -1,5 +1,6 @@
 ---
 title: Configure User Profile
+description: "Configure User Profile."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

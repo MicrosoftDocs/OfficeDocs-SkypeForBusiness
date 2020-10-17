@@ -1,5 +1,6 @@
 ---
 title: The Skype for Business Online reporting cmdlets and REST web service
+description: "The Skype for Business Online reporting cmdlets and REST web service."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

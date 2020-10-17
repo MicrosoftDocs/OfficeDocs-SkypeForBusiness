@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring the use of high-resolution photos'
+description: "Lync Server 2013: Configuring the use of high-resolution photos."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

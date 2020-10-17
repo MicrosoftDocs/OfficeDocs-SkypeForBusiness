@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring group chat'
+description: "Lync Server 2013: Monitoring group chat."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

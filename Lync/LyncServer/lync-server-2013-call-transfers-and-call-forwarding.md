@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call transfers and call forwarding'
+description: "Lync Server 2013: Call transfers and call forwarding."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Moving response groups to a new pool'
+description: "Lync Server 2013: Moving response groups to a new pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

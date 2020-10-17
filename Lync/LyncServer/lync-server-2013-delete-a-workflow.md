@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Delete a workflow'
+description: "Lync Server 2013: Delete a workflow."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

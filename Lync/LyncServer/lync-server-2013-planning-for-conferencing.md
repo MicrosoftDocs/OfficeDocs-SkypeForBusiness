@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for conferencing'
+description: "Lync Server 2013: Planning for conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

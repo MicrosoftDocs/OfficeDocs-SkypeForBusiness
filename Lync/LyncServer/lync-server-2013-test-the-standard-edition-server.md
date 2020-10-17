@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test the Standard Edition server'
+description: "Lync Server 2013: Test the Standard Edition server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

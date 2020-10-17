@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test the pool deployment'
+description: "Lync Server 2013: Test the pool deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

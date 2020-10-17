@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable users for hosted voice mail'
+description: "Lync Server 2013: Enable users for hosted voice mail."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

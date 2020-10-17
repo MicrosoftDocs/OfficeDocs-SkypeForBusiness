@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 initial planning decisions
+description: "Lync Server 2013 initial planning decisions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

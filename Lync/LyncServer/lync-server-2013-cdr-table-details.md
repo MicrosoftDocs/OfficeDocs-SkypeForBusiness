@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: CDR table details'
+description: "Lync Server 2013: CDR table details."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

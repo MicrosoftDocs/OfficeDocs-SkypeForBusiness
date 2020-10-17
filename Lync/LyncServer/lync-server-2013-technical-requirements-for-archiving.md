@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Technical requirements for Archiving'
+description: "Lync Server 2013: Technical requirements for Archiving."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

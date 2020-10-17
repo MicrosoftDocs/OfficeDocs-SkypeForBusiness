@@ -1,5 +1,6 @@
 ---
 title: 'Installing the Operation Manager agent files on a watcher node'
+description: "Installing the Operation Manager agent files on a watcher node."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

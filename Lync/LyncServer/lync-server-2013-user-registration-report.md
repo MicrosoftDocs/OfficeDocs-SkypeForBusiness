@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: User Registration Report'
+description: "Lync Server 2013: User Registration Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

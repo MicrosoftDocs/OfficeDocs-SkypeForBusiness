@@ -1,5 +1,6 @@
 ---
 title: Connect a Survivable Branch Appliance
+description: "Connect a Survivable Branch Appliance."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

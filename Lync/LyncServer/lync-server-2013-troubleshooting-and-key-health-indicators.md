@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Troubleshooting and Key Health Indicators'
+description: "Lync Server 2013: Troubleshooting and Key Health Indicators."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

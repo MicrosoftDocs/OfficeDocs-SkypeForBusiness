@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up Kerberos authentication account passwords'
+description: "Lync Server 2013: Setting up Kerberos authentication account passwords."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

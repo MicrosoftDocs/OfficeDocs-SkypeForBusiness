@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Registrar and Director cmdlets'
+description: "Lync Server 2013: Registrar and Director cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

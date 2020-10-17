@@ -1,5 +1,6 @@
 ---
 title: 'Example XMPP configuration – XMPP federation with Google Talk'
+description: "Example XMPP configuration – XMPP federation with Google Talk."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

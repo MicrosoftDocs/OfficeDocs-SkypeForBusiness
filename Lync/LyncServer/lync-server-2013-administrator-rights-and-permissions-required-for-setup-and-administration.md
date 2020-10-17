@@ -1,5 +1,6 @@
 ---
 title: 'Administrator rights and permissions required for setup and administration'
+description: "Administrator rights and permissions required for setup and administration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

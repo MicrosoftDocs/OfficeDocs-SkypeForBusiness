@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing Enterprise Voice for users'
+description: "Lync Server 2013: Managing Enterprise Voice for users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

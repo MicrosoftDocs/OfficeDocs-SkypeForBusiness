@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Clients supported for Response Group'
+description: "Lync Server 2013: Clients supported for Response Group."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

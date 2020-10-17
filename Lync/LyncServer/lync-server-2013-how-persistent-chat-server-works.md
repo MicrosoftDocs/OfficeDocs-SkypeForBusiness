@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: How Persistent Chat Server works'
+description: "Lync Server 2013: How Persistent Chat Server works."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

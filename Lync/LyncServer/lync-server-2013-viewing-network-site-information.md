@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing network site information'
+description: "Lync Server 2013: Viewing network site information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

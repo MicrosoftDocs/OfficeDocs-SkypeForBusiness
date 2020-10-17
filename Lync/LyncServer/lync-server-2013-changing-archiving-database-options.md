@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Changing Archiving database options'
+description: "Lync Server 2013: Changing Archiving database options."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

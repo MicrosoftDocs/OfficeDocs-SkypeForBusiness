@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining your mobility requirements'
+description: "Lync Server 2013: Defining your mobility requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

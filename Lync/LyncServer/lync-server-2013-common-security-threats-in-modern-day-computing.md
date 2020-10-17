@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Common security threats in modern day computing'
+description: "Lync Server 2013: Common security threats in modern day computing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

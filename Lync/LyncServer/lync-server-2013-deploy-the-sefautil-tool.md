@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploy the SEFAUtil tool'
+description: "Lync Server 2013: Deploy the SEFAUtil tool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

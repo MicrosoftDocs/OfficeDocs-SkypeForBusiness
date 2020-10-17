@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Applying an Archiving policy to users'
+description: "Lync Server 2013: Applying an Archiving policy to users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

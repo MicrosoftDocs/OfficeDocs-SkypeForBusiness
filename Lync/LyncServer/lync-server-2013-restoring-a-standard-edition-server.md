@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring a Standard Edition server'
+description: "Lync Server 2013: Restoring a Standard Edition server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

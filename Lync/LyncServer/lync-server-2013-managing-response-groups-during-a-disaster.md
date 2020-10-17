@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing response groups during a disaster'
+description: "Lync Server 2013: Managing response groups during a disaster."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

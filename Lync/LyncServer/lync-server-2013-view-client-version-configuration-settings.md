@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View client version configuration settings'
+description: "Lync Server 2013: View client version configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

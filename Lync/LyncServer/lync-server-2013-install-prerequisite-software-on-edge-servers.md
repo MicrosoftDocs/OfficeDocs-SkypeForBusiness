@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install prerequisite software on Edge Servers'
+description: "Lync Server 2013: Install prerequisite software on Edge Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

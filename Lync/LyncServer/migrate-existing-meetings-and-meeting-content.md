@@ -1,5 +1,6 @@
 ---
 title: Migrate existing meetings and meeting content
+description: "Migrate existing meetings and meeting content."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

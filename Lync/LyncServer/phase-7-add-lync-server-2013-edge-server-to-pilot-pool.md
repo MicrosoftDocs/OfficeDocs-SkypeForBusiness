@@ -1,5 +1,6 @@
 ---
 title: 'Phase 7: Add Lync Server 2013 Edge Server to pilot pool'
+description: "Phase 7: Add Lync Server 2013 Edge Server to pilot pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

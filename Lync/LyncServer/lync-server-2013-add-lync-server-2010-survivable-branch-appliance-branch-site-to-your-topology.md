@@ -1,5 +1,6 @@
 ---
 title: 'Add Lync Server 2010 Survivable Branch Appliance branch site to your topology'
+description: "Add Lync Server 2010 Survivable Branch Appliance branch site to your topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

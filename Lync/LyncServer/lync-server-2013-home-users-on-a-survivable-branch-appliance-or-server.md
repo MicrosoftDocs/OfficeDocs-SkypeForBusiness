@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Home users on a Survivable Branch Appliance or Server'
+description: "Lync Server 2013: Home users on a Survivable Branch Appliance or Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mobility features and capabilities'
+description: "Lync Server 2013: Mobility features and capabilities."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

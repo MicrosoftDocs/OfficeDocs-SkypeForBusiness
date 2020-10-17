@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Dedicated meeting organizers'
+description: "Lync Server 2013: Dedicated meeting organizers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

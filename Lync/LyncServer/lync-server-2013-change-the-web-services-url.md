@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Change the Web Services URL'
+description: "Lync Server 2013: Change the Web Services URL."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

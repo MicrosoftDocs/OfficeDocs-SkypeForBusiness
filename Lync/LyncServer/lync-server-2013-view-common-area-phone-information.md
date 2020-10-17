@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View common area phone information'
+description: "Lync Server 2013: View common area phone information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

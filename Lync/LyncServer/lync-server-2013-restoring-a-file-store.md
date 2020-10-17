@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring a file store'
+description: "Lync Server 2013: Restoring a file store."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

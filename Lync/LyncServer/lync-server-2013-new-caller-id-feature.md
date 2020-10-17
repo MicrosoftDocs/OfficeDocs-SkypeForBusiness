@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New caller ID feature'
+description: "Lync Server 2013: New caller ID feature."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

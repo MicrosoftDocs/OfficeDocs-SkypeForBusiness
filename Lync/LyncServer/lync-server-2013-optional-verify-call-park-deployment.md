@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Verify Call Park deployment'
+description: "Lync Server 2013: (Optional) Verify Call Park deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

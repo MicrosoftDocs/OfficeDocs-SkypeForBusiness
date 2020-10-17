@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a conferencing device Contact object'
+description: "Lync Server 2013: Create or modify a conferencing device Contact object."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 response group experience during pool failure
+description: "Lync Server 2013 response group experience during pool failure."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

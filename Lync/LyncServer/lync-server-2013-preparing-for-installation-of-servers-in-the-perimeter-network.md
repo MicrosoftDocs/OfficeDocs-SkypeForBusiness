@@ -1,5 +1,6 @@
 ---
 title: 'Preparing for installation of servers in the perimeter network'
+description: "Preparing for installation of servers in the perimeter network."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

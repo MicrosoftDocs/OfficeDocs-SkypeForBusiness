@@ -1,5 +1,6 @@
 ---
 title: Run backward compatibility for Persistent Chat Server
+description: "Run backward compatibility for Persistent Chat Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

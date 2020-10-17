@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Validating address book access'
+description: "Lync Server 2013: Validating address book access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backing up Persistent Chat databases'
+description: "Lync Server 2013: Backing up Persistent Chat databases."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

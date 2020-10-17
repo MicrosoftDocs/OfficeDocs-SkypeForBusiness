@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Edit or configure simple URLs'
+description: "Lync Server 2013: Edit or configure simple URLs."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

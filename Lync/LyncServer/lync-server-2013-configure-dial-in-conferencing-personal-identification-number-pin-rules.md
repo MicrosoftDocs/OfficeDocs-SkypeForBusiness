@@ -1,5 +1,6 @@
 ---
 title: 'Configure dial-in conferencing personal identification number (PIN) rules'
+description: "Configure dial-in conferencing personal identification number (PIN) rules."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Certificate summary - Single Director'
+description: "Lync Server 2013: Certificate summary - Single Director."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing IM and presence settings'
+description: "Lync Server 2013: Managing IM and presence settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

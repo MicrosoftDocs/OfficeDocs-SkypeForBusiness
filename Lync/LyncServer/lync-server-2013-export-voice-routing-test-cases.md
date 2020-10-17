@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Export voice routing test cases'
+description: "Lync Server 2013: Export voice routing test cases."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

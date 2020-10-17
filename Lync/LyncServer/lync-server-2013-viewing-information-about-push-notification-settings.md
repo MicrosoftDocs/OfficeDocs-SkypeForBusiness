@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing information about push notification settings'
+description: "Lync Server 2013: Viewing information about push notification settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

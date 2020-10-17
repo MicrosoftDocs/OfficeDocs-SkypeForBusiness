@@ -1,5 +1,6 @@
 ---
 title: 'Publishing Office Web Apps Server using a reverse proxy server'
+description: "Publishing Office Web Apps Server using a reverse proxy server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

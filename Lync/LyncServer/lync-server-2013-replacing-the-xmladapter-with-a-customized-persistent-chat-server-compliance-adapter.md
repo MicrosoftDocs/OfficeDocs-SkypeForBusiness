@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter'
+description: "Lync Server 2013: Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

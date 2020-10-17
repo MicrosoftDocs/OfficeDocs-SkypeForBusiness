@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Start Edge Servers'
+description: "Lync Server 2013: Start Edge Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

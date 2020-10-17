@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Add Persistent Chat Server to the topology'
+description: "Lync Server 2013: Add Persistent Chat Server to the topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

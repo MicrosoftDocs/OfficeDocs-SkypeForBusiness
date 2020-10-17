@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Delete an unassigned number range'
+description: "Lync Server 2013: Delete an unassigned number range."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

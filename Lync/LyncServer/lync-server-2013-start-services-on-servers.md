@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Start services on servers'
+description: "Lync Server 2013: Start services on servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

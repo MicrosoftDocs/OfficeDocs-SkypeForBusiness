@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for Exchange Server integration'
+description: "Lync Server 2013: Planning for Exchange Server integration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

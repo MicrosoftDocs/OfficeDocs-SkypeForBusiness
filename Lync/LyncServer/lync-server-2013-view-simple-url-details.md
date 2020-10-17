@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View simple URL details'
+description: "Lync Server 2013: View simple URL details."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

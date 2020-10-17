@@ -1,5 +1,6 @@
 ---
 title: Run Best Practices Analyzer
+description: "Run Best Practices Analyzer."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

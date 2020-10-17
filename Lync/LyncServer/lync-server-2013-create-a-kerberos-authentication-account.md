@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create a Kerberos authentication account'
+description: "Lync Server 2013: Create a Kerberos authentication account."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

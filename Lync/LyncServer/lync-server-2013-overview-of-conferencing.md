@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Overview of conferencing'
+description: "Lync Server 2013: Overview of conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Configuring Autodiscover for mobility with hybrid deployments'
+description: "Configuring Autodiscover for mobility with hybrid deployments."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

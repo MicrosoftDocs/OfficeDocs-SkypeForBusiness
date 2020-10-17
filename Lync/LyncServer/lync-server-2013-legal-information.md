@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 legal information
+description: "Lync Server 2013 legal information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

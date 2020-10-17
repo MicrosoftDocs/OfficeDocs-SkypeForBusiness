@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblComplianceData'
+description: "Lync Server 2013: tblComplianceData."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

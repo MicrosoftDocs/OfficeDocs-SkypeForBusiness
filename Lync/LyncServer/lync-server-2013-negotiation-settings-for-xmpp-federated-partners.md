@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Negotiation settings for XMPP federated partners'
+description: "Lync Server 2013: Negotiation settings for XMPP federated partners."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Updating the Outlook enable list'
+description: "Lync Server 2013: Updating the Outlook enable list."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

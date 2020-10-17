@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 direct SIP connections support
+description: "Lync Server 2013 direct SIP connections support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

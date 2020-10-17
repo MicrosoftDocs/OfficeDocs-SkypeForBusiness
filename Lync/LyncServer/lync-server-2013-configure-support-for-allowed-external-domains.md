@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure support for allowed external domains'
+description: "Lync Server 2013: Configure support for allowed external domains."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

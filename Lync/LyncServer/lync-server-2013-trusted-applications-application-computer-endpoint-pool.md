@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Trusted applications (application/computer/endpoint/pool)'
+description: "Lync Server 2013: Trusted applications (application/computer/endpoint/pool)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

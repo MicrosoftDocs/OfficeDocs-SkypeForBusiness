@@ -1,5 +1,6 @@
 ---
 title: Administering servers after migration
+description: "Administering servers after migration."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

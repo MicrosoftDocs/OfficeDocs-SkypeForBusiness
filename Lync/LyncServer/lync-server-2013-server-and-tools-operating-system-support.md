@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Server and tools operating system support'
+description: "Lync Server 2013: Server and tools operating system support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

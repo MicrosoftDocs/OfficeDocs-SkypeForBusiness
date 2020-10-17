@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DeviceDriver table'
+description: "Lync Server 2013: DeviceDriver table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

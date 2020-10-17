@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View client version policy rules'
+description: "Lync Server 2013: View client version policy rules."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

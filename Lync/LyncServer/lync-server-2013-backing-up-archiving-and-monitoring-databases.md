@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backing up Archiving and Monitoring databases'
+description: "Lync Server 2013: Backing up Archiving and Monitoring databases."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

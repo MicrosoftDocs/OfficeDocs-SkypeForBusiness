@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: UCWA events'
+description: "Lync Server 2013: UCWA events."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Note about Lync-Skype connectivity for Lync On'
+description: "Lync Server 2013: Note about Lync-Skype connectivity for Lync On."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

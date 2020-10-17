@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable hot desking'
+description: "Lync Server 2013: Enable or disable hot desking."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Testing configuration of the Kerberos account assigned to a site'
+description: "Testing configuration of the Kerberos account assigned to a site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

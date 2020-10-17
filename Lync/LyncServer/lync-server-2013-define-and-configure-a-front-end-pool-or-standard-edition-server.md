@@ -1,5 +1,6 @@
 ---
 title: 'Define and configure a Front End pool or Standard Edition server'
+description: "Define and configure a Front End pool or Standard Edition server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

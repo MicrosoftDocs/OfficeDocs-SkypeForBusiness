@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing devices, phones, and client applications'
+description: "Lync Server 2013: Managing devices, phones, and client applications."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

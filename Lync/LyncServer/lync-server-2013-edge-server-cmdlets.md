@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Edge Server cmdlets'
+description: "Lync Server 2013: Edge Server cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

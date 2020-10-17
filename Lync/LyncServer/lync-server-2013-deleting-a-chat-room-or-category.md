@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting a chat room or category'
+description: "Lync Server 2013: Deleting a chat room or category."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

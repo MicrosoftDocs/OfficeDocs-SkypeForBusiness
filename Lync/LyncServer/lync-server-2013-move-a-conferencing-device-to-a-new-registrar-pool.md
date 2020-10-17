@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Move a conferencing device to a new Registrar pool'
+description: "Lync Server 2013: Move a conferencing device to a new Registrar pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

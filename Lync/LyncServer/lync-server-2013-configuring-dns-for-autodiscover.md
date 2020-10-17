@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring DNS for Autodiscover'
+description: "Lync Server 2013: Configuring DNS for Autodiscover."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

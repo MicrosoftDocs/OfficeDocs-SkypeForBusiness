@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Front End pool ABC failover procedure'
+description: "Lync Server 2013: Front End pool ABC failover procedure."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

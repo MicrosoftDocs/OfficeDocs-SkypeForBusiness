@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring passive authentication'
+description: "Lync Server 2013: Configuring passive authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

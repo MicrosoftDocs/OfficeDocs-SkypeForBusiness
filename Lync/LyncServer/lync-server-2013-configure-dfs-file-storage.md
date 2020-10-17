@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure DFS file storage'
+description: "Lync Server 2013: Configure DFS file storage."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

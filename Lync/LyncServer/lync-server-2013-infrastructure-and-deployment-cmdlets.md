@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Infrastructure and deployment cmdlets'
+description: "Lync Server 2013: Infrastructure and deployment cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: TraceRoute table'
+description: "Lync Server 2013: TraceRoute table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

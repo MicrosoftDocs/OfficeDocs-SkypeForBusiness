@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Installing SQL Server Reporting Services'
+description: "Lync Server 2013: Installing SQL Server Reporting Services."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

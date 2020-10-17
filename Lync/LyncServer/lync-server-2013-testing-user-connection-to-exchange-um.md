@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing user connection to Exchange UM'
+description: "Lync Server 2013: Testing user connection to Exchange UM."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

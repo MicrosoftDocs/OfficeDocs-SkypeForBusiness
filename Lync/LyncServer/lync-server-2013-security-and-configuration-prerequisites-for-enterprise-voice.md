@@ -1,5 +1,6 @@
 ---
 title: 'Security and configuration prerequisites for Enterprise Voice'
+description: "Security and configuration prerequisites for Enterprise Voice."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

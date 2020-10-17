@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Components used by Response Group'
+description: "Lync Server 2013: Components used by Response Group."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

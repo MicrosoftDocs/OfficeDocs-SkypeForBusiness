@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 backup Registrar relationships
+description: "Lync Server 2013 backup Registrar relationships."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

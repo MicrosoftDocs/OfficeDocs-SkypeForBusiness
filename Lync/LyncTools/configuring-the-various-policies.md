@@ -1,5 +1,6 @@
 ---
 title: Configuring the Various Policies
+description: "Configuring the Various Policies."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

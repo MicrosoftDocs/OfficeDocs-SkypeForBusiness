@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure a new trusted application server'
+description: "Lync Server 2013: Configure a new trusted application server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

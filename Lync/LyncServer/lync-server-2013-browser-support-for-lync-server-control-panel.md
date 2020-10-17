@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Browser support for Lync Server Control Panel'
+description: "Lync Server 2013: Browser support for Lync Server Control Panel."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

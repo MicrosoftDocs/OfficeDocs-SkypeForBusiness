@@ -1,5 +1,6 @@
 ---
 title: Update DNS SRV records
+description: "Update DNS SRV records."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

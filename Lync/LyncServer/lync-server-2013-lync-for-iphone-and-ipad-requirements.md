@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync for iPhone and iPad requirements'
+description: "Lync Server 2013: Lync for iPhone and iPad requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

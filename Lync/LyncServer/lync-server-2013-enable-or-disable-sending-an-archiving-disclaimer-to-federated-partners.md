@@ -1,5 +1,6 @@
 ---
 title: 'Enable or disable sending an Archiving disclaimer to federated partners'
+description: "Enable or disable sending an Archiving disclaimer to federated partners."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

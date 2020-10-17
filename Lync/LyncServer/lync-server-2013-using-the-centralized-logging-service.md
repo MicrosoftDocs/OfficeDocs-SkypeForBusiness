@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using the Centralized Logging Service'
+description: "Lync Server 2013: Using the Centralized Logging Service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

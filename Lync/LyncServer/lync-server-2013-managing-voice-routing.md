@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing voice routing'
+description: "Lync Server 2013: Managing voice routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

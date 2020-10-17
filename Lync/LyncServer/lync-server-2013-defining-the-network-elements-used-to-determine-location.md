@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining the network elements used to determine location'
+description: "Lync Server 2013: Defining the network elements used to determine location."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

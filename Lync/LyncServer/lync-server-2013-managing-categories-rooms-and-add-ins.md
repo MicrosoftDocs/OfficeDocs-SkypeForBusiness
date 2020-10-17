@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing categories, rooms, and add-ins'
+description: "Lync Server 2013: Managing categories, rooms, and add-ins."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

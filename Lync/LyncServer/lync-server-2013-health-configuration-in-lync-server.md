@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Health configuration in Lync Server'
+description: "Lync Server 2013: Health configuration in Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

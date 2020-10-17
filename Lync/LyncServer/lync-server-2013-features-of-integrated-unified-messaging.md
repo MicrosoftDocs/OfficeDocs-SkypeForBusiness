@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Features of integrated Unified Messaging'
+description: "Lync Server 2013: Features of integrated Unified Messaging."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

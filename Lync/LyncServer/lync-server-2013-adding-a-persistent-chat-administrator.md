@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Adding a Persistent Chat administrator'
+description: "Lync Server 2013: Adding a Persistent Chat administrator."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

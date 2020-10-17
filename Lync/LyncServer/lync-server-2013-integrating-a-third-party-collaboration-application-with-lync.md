@@ -1,5 +1,6 @@
 ---
 title: 'Integrating a third-party collaboration application with Lync'
+description: "Integrating a third-party collaboration application with Lync."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

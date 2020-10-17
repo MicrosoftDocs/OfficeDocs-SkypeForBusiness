@@ -1,5 +1,6 @@
 ---
 title: 'Configuring a watcher node to use Trusted Server authentication'
+description: "Configuring a watcher node to use Trusted Server authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

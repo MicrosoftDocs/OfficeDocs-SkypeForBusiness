@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS requirements for automatic client sign-in'
+description: "Lync Server 2013: DNS requirements for automatic client sign-in."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

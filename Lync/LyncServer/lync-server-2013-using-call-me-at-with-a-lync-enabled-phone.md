@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using Call Me At with a Lync-enabled phone'
+description: "Lync Server 2013: Using Call Me At with a Lync-enabled phone."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

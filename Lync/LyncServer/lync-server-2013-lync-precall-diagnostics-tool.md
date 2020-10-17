@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync PreCall Diagnostics Tool'
+description: "Lync Server 2013: Lync PreCall Diagnostics Tool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Certificate and authentication cmdlets'
+description: "Lync Server 2013: Certificate and authentication cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

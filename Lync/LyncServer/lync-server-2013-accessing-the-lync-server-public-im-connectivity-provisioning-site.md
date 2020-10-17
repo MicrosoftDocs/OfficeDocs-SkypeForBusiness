@@ -1,5 +1,6 @@
 ---
 title: 'Accessing the Lync Server public IM connectivity provisioning site'
+description: "Accessing the Lync Server public IM connectivity provisioning site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

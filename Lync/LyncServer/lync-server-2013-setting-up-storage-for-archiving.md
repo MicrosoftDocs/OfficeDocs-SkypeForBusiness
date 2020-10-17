@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up storage for Archiving'
+description: "Lync Server 2013: Setting up storage for Archiving."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

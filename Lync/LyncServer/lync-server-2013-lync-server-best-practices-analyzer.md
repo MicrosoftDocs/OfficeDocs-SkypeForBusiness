@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server Best Practices Analyzer'
+description: "Lync Server 2013: Lync Server Best Practices Analyzer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

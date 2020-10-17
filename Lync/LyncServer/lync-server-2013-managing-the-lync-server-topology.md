@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing the Lync Server topology'
+description: "Lync Server 2013: Managing the Lync Server topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

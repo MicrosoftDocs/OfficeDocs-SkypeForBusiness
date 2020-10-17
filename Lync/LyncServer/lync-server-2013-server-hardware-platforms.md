@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 server hardware platforms
+description: "Lync Server 2013 server hardware platforms."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure the Call Park orbit table'
+description: "Lync Server 2013: Configure the Call Park orbit table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

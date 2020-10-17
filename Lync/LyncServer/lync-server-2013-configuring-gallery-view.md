@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Gallery View'
+description: "Lync Server 2013: Configuring Gallery View."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

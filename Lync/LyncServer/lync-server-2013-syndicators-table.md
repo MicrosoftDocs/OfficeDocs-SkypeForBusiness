@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Syndicators table'
+description: "Lync Server 2013: Syndicators table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

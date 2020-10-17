@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Manage external access policy for your organization'
+description: "Lync Server 2013: Manage external access policy for your organization."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

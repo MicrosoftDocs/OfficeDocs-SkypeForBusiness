@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure SQL Server'
+description: "Lync Server 2013: Configure SQL Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

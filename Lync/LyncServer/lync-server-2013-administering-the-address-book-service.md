@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Administering the Address Book Service'
+description: "Lync Server 2013: Administering the Address Book Service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
