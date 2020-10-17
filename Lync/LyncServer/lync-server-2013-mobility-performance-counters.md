@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mobility performance counters'
+description: "Lync Server 2013: Mobility performance counters."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

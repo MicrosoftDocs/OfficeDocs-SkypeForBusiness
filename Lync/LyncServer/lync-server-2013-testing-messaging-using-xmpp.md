@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing messaging using XMPP'
+description: "Lync Server 2013: Testing messaging using XMPP."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Failing over a mirrored database'
+description: "Lync Server 2013: Failing over a mirrored database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

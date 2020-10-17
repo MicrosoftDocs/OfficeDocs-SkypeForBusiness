@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Components and topologies for CAC'
+description: "Lync Server 2013: Components and topologies for CAC."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

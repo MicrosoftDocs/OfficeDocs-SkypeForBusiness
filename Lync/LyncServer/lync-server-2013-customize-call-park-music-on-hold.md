@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Customize Call Park music on hold'
+description: "Lync Server 2013: Customize Call Park music on hold."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call Park application cmdlets'
+description: "Lync Server 2013: Call Park application cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

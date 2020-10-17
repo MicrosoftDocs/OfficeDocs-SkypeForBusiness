@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblAdminLock'
+description: "Lync Server 2013: tblAdminLock."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

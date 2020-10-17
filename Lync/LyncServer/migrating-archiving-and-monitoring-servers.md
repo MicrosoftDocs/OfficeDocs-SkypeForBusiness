@@ -1,5 +1,6 @@
 ---
 title: Migrating Archiving and Monitoring servers
+description: "Migrating Archiving and Monitoring servers."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

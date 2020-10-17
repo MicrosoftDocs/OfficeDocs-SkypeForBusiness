@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for and deploying two-factor authentication'
+description: "Lync Server 2013: Planning for and deploying two-factor authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

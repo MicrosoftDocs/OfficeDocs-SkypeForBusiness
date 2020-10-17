@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or edit public SIP federated providers'
+description: "Lync Server 2013: Create or edit public SIP federated providers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

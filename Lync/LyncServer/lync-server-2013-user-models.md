@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: user models'
+description: "Lync Server 2013: user models."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Configure federation routes and media traffic
+description: "Configure federation routes and media traffic."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

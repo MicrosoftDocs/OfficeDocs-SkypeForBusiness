@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: High availability and disaster recovery support'
+description: "Lync Server 2013: High availability and disaster recovery support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

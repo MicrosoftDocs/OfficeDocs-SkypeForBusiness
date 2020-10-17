@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 support for public instant messenger connectivity
+description: "Lync Server 2013 support for public instant messenger connectivity."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Manually purging the call detail recording and Quality of Experience databases'
+description: "Manually purging the call detail recording and Quality of Experience databases."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

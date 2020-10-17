@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalRole'
+description: "Lync Server 2013: tblPrincipalRole."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

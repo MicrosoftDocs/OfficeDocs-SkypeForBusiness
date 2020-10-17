@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Delegating administrative control of Lync Server'
+description: "Lync Server 2013: Delegating administrative control of Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

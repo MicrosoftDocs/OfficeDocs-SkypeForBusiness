@@ -1,5 +1,6 @@
 ---
 title: 'Phase 7: Add Lync Server 2013 Edge Server to pilot pool'
+description: "Phase 7: Add Lync Server 2013 Edge Server to pilot pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -40,7 +41,7 @@ The topics in this section explain how to add a Lync Server 2013 Edge Server to 
 
 ## In This Section
 
-  - [Deploy pilot Edge Server](deploy-pilot-edge-server_1.md)
+  - [Deploy pilot Edge Server](deploy-pilot-edge-server.md)
 
   - [Validate replication of configuration settings](validate-replication-of-configuration-settings.md)
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Define a PSTN gateway for a branch site'
+description: "Lync Server 2013: Define a PSTN gateway for a branch site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

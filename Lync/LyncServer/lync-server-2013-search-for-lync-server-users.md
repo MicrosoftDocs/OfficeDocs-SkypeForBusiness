@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Search for Lync Server users'
+description: "Lync Server 2013: Search for Lync Server users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

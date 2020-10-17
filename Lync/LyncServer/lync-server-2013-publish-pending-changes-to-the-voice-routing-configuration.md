@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Publish pending changes to the voice routing configuration'
+description: "Lync Server 2013: Publish pending changes to the voice routing configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

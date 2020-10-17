@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing Enhanced 9-1-1 and the Location service'
+description: "Lync Server 2013: Managing Enhanced 9-1-1 and the Location service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

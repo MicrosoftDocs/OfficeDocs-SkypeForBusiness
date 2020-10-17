@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure federation for an audio conferencing provider'
+description: "Lync Server 2013: Configure federation for an audio conferencing provider."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

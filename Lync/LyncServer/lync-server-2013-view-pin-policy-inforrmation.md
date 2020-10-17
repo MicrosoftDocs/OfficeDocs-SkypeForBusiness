@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View PIN policy inforrmation'
+description: "Lync Server 2013: View PIN policy inforrmation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

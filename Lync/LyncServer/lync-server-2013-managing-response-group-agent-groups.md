@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing Response Group agent groups'
+description: "Lync Server 2013: Managing Response Group agent groups."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

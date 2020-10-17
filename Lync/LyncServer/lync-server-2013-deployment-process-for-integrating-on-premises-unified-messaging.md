@@ -1,5 +1,6 @@
 ---
 title: 'Deployment process for integrating on-premises Unified Messaging'
+description: "Deployment process for integrating on-premises Unified Messaging."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

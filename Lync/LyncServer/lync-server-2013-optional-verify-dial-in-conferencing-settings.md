@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Verify dial-in conferencing settings'
+description: "Lync Server 2013: (Optional) Verify dial-in conferencing settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

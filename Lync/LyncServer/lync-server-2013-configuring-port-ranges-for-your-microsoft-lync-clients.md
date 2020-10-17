@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring port ranges for your Microsoft Lync clients'
+description: "Lync Server 2013: Configuring port ranges for your Microsoft Lync clients."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

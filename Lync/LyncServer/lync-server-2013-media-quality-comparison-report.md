@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Media Quality Comparison Report'
+description: "Lync Server 2013: Media Quality Comparison Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

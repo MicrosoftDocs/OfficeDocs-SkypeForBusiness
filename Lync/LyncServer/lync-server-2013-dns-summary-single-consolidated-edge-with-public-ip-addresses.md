@@ -1,5 +1,6 @@
 ---
 title: 'DNS summary - Single consolidated edge with public IP addresses'
+description: "DNS summary - Single consolidated edge with public IP addresses."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

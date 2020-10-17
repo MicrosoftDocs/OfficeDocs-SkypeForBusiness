@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining your requirements for Front End Servers, instant messaging, and presence'
+description: "Lync Server 2013: Defining your requirements for Front End Servers, instant messaging, and presence."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

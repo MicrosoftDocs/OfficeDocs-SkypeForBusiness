@@ -1,5 +1,6 @@
 ---
 title: 'Failing back the Edge pool used for Lync Server federation or XMPP federation'
+description: "Failing back the Edge pool used for Lync Server federation or XMPP federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Exchange UM cmdlets'
+description: "Lync Server 2013: Exchange UM cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

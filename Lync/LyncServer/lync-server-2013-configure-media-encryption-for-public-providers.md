@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure media encryption for public providers'
+description: "Lync Server 2013: Configure media encryption for public providers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Migration from Lync Server 2010 to Lync Server 2013
+description: "Migration from Lync Server 2010 to Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

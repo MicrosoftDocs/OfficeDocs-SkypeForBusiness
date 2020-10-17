@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable federation and public IM connectivity'
+description: "Lync Server 2013: Enable or disable federation and public IM connectivity."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

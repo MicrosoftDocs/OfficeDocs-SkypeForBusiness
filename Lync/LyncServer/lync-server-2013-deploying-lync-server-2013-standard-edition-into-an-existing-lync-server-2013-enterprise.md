@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise'
+description: "Lync Server 2013: Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

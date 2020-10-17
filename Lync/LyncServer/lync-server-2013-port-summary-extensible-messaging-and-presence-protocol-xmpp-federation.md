@@ -1,5 +1,6 @@
 ---
 title: 'Port summary -  Extensible messaging and presence protocol (XMPP) federation'
+description: "Port summary -  Extensible messaging and presence protocol (XMPP) federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

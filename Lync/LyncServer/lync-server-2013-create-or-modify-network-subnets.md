@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify network subnets'
+description: "Lync Server 2013: Create or modify network subnets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

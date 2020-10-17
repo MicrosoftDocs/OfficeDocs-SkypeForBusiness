@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Perimeter network VoIP components'
+description: "Lync Server 2013: Perimeter network VoIP components."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

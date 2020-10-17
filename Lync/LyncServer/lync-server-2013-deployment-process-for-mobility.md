@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deployment process for mobility'
+description: "Lync Server 2013: Deployment process for mobility."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

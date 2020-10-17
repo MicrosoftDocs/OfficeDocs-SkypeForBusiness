@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure conferencing policy for dial-in'
+description: "Lync Server 2013: Configure conferencing policy for dial-in."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

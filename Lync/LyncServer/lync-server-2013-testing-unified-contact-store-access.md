@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing Unified Contact Store access'
+description: "Lync Server 2013: Testing Unified Contact Store access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

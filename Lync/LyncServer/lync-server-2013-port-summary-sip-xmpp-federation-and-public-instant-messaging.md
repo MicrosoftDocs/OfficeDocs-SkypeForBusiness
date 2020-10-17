@@ -1,5 +1,6 @@
 ---
 title: 'Port summary - SIP, XMPP federation, and public instant messaging'
+description: "Port summary - SIP, XMPP federation, and public instant messaging."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

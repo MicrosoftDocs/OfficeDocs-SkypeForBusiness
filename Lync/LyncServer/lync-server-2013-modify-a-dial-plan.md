@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify a dial plan'
+description: "Lync Server 2013: Modify a dial plan."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

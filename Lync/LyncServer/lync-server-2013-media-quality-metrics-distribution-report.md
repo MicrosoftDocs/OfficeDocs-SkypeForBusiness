@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Media Quality Metrics Distribution Report'
+description: "Lync Server 2013: Media Quality Metrics Distribution Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

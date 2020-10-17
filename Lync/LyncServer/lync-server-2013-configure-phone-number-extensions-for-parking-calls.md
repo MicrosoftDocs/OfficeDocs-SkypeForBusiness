@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure phone number extensions for parking calls'
+description: "Lync Server 2013: Configure phone number extensions for parking calls."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

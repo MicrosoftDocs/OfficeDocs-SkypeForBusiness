@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing call admission control'
+description: "Lync Server 2013: Managing call admission control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

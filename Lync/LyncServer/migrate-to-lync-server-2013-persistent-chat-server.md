@@ -1,5 +1,6 @@
 ---
 title: Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server
+description: "Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

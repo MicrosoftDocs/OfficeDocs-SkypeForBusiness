@@ -1,5 +1,6 @@
 ---
 title: 'Create or modify a collection of Device Update configuration settings'
+description: "Create or modify a collection of Device Update configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

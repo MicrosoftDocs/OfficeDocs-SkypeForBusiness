@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backing up and restoring Lync Server'
+description: "Lync Server 2013: Backing up and restoring Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

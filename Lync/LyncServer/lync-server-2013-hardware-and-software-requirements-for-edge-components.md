@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hardware and software requirements for edge components'
+description: "Lync Server 2013: Hardware and software requirements for edge components."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View information about individual SIP trunks'
+description: "Lync Server 2013: View information about individual SIP trunks."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

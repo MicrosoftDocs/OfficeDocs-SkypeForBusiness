@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: IP and networking protocol support'
+description: "Lync Server 2013: IP and networking protocol support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

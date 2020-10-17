@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Preparing your environment for VDI'
+description: "Lync Server 2013: Preparing your environment for VDI."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring an Enterprise Edition member server'
+description: "Lync Server 2013: Restoring an Enterprise Edition member server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Appendix A: Using cmdlets to deploy a Survivable Branch Appliance'
+description: "Lync Server 2013: Appendix A: Using cmdlets to deploy a Survivable Branch Appliance."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

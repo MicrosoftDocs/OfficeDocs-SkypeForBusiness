@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring for server memory capacity limits'
+description: "Lync Server 2013: Monitoring for server memory capacity limits."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

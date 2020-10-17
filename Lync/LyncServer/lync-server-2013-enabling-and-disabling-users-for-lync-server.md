@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling and disabling users for Lync Server'
+description: "Lync Server 2013: Enabling and disabling users for Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

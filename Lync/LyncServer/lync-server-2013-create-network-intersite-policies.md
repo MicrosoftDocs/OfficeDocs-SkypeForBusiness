@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create network intersite policies'
+description: "Lync Server 2013: Create network intersite policies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

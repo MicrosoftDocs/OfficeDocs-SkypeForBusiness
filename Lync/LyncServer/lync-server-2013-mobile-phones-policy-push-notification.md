@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mobile phones  (policy/push notification)'
+description: "Lync Server 2013: Mobile phones  (policy/push notification)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

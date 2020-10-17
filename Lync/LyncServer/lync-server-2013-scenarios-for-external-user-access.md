@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Scenarios for external user access'
+description: "Lync Server 2013: Scenarios for external user access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

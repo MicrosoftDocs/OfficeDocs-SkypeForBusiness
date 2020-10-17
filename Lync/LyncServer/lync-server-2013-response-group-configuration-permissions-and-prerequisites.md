@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Response Group configuration permissions and prerequisites'
+description: "Lync Server 2013: Response Group configuration permissions and prerequisites."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assigning per-user presence policies'
+description: "Lync Server 2013: Assigning per-user presence policies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

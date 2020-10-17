@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting network bandwidth policy profiles'
+description: "Lync Server 2013: Deleting network bandwidth policy profiles."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

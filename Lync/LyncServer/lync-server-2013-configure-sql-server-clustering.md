@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure SQL Server clustering'
+description: "Lync Server 2013: Configure SQL Server clustering."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

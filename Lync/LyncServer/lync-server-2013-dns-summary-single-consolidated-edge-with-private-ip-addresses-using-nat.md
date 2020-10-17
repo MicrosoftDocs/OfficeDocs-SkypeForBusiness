@@ -1,5 +1,6 @@
 ---
 title: 'DNS summary - Single consolidated edge with private IP addresses using NAT'
+description: "DNS summary - Single consolidated edge with private IP addresses using NAT."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

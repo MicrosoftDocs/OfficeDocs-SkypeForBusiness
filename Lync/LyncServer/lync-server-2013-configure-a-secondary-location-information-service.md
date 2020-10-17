@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure a secondary Location Information service'
+description: "Lync Server 2013: Configure a secondary Location Information service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

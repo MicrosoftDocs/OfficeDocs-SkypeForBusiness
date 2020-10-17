@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync client software support'
+description: "Lync Server 2013: Lync client software support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

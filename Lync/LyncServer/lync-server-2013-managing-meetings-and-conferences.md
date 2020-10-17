@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing meetings and conferences'
+description: "Lync Server 2013: Managing meetings and conferences."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

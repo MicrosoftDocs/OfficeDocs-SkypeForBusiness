@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Remove a legacy authorized host (optional)'
+description: "Lync Server 2013: Remove a legacy authorized host (optional)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

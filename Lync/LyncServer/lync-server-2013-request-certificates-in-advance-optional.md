@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Request certificates in advance (optional)'
+description: "Lync Server 2013: Request certificates in advance (optional)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 load balancing requirements
+description: "Lync Server 2013 load balancing requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

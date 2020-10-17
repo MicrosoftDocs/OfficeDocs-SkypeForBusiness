@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining the scope of the E9-1-1 deployment'
+description: "Lync Server 2013: Defining the scope of the E9-1-1 deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

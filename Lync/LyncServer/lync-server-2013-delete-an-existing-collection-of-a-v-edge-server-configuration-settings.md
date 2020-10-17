@@ -1,5 +1,6 @@
 ---
 title: 'Delete an existing collection of A/V Edge Server configuration settings'
+description: "Delete an existing collection of A/V Edge Server configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

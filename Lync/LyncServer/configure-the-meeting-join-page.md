@@ -1,5 +1,6 @@
 ---
 title: Configure the meeting join page
+description: "Configure the meeting join page."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

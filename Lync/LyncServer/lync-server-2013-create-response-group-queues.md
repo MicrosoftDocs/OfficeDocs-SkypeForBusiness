@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create Response Group queues'
+description: "Lync Server 2013: Create Response Group queues."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

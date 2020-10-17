@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Capabilities not supported by Location-Based Routing'
+description: "Lync Server 2013: Capabilities not supported by Location-Based Routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

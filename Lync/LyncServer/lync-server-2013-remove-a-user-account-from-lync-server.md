@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Remove a user account from Lync Server'
+description: "Lync Server 2013: Remove a user account from Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Web App supported platforms'
+description: "Lync Server 2013: Lync Web App supported platforms."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

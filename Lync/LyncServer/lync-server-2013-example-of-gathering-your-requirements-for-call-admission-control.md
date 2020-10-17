@@ -1,5 +1,6 @@
 ---
 title: 'Example of gathering your requirements for call admission control'
+description: "Example of gathering your requirements for call admission control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

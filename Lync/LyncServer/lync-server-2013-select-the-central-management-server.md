@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Select the Central Management Server'
+description: "Lync Server 2013: Select the Central Management Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

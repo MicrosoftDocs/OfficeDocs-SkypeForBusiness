@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Run, grant, get, remove, or set Persistent Chat Policy'
+description: "Lync Server 2013: Run, grant, get, remove, or set Persistent Chat Policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

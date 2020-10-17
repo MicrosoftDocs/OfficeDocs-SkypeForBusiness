@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Checking disk usage'
+description: "Lync Server 2013: Checking disk usage."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

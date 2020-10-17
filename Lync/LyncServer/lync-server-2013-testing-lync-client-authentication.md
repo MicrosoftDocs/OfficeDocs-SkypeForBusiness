@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing Lync Client authentication'
+description: "Lync Server 2013: Testing Lync Client authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

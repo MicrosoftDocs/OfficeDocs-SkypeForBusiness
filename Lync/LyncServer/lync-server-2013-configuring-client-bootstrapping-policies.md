@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring client bootstrapping policies'
+description: "Lync Server 2013: Configuring client bootstrapping policies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

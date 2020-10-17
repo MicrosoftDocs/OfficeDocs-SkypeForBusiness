@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Response Group Usage Report'
+description: "Lync Server 2013: Response Group Usage Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

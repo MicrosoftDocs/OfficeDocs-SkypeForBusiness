@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting network subnets'
+description: "Lync Server 2013: Deleting network subnets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

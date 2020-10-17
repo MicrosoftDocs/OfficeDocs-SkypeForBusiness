@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for response groups'
+description: "Lync Server 2013: Planning for response groups."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

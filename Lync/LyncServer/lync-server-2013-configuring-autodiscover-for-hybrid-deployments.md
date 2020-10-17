@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Autodiscover for hybrid deployments'
+description: "Lync Server 2013: Configuring Autodiscover for hybrid deployments."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

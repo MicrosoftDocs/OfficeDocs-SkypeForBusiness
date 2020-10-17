@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing ability to connect to a federated domain'
+description: "Lync Server 2013: Testing ability to connect to a federated domain."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

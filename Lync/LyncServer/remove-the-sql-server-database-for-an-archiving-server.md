@@ -1,5 +1,6 @@
 ---
 title: Remove the SQL Server database for an Archiving server
+description: "Remove the SQL Server database for an Archiving server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

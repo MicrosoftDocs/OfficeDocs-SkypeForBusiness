@@ -1,5 +1,6 @@
 ---
 title: Migrate Address Book
+description: "Migrate Address Book."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

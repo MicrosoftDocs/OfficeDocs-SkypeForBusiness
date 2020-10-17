@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using the Monitoring Dashboard'
+description: "Lync Server 2013: Using the Monitoring Dashboard."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Define optional Director topologies in your topology'
+description: "Lync Server 2013: Define optional Director topologies in your topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

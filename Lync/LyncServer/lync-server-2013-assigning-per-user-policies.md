@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assigning per-user policies'
+description: "Lync Server 2013: Assigning per-user policies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

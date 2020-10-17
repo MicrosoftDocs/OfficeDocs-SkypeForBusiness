@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Server roles and services cmdlets'
+description: "Lync Server 2013: Server roles and services cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

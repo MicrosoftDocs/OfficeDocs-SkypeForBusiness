@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync for Windows Phone requirements'
+description: "Lync Server 2013: Lync for Windows Phone requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

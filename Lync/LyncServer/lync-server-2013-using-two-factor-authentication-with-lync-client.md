@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using two-factor authentication with Lync client'
+description: "Lync Server 2013: Using two-factor authentication with Lync client."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Archiving options'
+description: "Lync Server 2013: Configuring Archiving options."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

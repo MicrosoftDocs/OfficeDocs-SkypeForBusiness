@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Check voice normalization rules'
+description: "Lync Server 2013: Check voice normalization rules."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

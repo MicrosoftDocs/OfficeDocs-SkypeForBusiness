@@ -1,5 +1,6 @@
 ---
 title: 'Create a new URL filter to handle hyperlinks in IM conversations'
+description: "Create a new URL filter to handle hyperlinks in IM conversations."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

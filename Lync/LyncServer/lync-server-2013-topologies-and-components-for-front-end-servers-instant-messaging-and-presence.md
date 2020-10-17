@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Topologies and components for Front End Servers, instant messaging, and presence'
+description: "Lync Server 2013: Topologies and components for Front End Servers, instant messaging, and presence."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

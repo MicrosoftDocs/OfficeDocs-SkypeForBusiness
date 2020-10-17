@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up system platforms for Archiving'
+description: "Lync Server 2013: Setting up system platforms for Archiving."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verify access through your reverse proxy'
+description: "Lync Server 2013: Verify access through your reverse proxy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

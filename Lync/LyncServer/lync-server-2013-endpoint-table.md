@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Endpoint table'
+description: "Lync Server 2013: Endpoint table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

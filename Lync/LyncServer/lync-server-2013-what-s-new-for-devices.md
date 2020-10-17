@@ -1,5 +1,6 @@
 ---
 title: "Lync Server 2013: What's new for devices"
+description: "Lync Server 2013: What's new for devices."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

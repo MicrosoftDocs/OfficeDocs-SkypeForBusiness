@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: User management cmdlets'
+description: "Lync Server 2013: User management cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

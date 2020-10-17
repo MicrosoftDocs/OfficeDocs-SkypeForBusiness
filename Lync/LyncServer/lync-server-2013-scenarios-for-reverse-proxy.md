@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Scenarios for reverse proxy'
+description: "Lync Server 2013: Scenarios for reverse proxy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

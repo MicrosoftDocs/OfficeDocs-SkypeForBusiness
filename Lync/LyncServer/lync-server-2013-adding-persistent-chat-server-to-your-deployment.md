@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Adding Persistent Chat Server to your deployment'
+description: "Lync Server 2013: Adding Persistent Chat Server to your deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Reviewing the Administrator Reports'
+description: "Lync Server 2013: Reviewing the Administrator Reports."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

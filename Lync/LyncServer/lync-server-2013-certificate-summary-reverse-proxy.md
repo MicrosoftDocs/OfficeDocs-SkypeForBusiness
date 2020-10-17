@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Certificate summary - Reverse proxy'
+description: "Lync Server 2013: Certificate summary - Reverse proxy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

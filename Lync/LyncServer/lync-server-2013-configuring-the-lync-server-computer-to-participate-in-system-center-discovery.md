@@ -1,5 +1,6 @@
 ---
 title: 'Configuring the Lync Server computer to participate in System Center discovery'
+description: "Configuring the Lync Server computer to participate in System Center discovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

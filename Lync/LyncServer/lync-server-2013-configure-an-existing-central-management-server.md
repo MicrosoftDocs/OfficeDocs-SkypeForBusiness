@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure an existing Central Management Server'
+description: "Lync Server 2013: Configure an existing Central Management Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure security settings for Lync Phone Edition'
+description: "Lync Server 2013: Configure security settings for Lync Phone Edition."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

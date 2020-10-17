@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Task table'
+description: "Lync Server 2013: Task table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Archiving options at the global level'
+description: "Lync Server 2013: Configuring Archiving options at the global level."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

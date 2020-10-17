@@ -1,5 +1,6 @@
 ---
 title: 'Configure user access for federation with a Lync Online customer'
+description: "Configure user access for federation with a Lync Online customer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

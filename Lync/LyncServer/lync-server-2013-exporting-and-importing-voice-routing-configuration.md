@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Exporting and importing voice routing configuration'
+description: "Lync Server 2013: Exporting and importing voice routing configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

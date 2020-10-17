@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring federation support for a Lync Online customer'
+description: "Lync Server 2013: Configuring federation support for a Lync Online customer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

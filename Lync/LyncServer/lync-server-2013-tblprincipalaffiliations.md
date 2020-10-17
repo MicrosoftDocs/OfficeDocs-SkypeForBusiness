@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalAffiliations'
+description: "Lync Server 2013: tblPrincipalAffiliations."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

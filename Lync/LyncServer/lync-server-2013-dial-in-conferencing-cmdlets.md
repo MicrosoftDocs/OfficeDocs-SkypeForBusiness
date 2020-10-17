@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Dial-in conferencing cmdlets'
+description: "Lync Server 2013: Dial-in conferencing cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

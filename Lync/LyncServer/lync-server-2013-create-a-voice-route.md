@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create a voice route'
+description: "Lync Server 2013: Create a voice route."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Response Group'
+description: "Lync Server 2013: Configuring Response Group."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

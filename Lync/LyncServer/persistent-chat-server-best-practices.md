@@ -1,5 +1,6 @@
 ---
 title: Persistent Chat Server best practices
+description: "Persistent Chat Server best practices."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

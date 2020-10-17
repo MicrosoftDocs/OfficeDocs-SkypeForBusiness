@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enterprise Voice prerequisites'
+description: "Lync Server 2013: Enterprise Voice prerequisites."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

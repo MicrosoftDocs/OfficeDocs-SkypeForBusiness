@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing the dial plan'
+description: "Lync Server 2013: Testing the dial plan."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

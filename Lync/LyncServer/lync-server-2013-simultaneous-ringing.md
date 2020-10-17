@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Simultaneous ringing'
+description: "Lync Server 2013: Simultaneous ringing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Voice normalization rules cmdlets'
+description: "Lync Server 2013: Voice normalization rules cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

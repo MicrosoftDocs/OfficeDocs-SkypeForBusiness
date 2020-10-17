@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Certificate requirements for Persistent Chat server'
+description: "Lync Server 2013: Certificate requirements for Persistent Chat server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

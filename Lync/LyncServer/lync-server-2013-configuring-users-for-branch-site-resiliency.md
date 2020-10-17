@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring users for branch site resiliency'
+description: "Lync Server 2013: Configuring users for branch site resiliency."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

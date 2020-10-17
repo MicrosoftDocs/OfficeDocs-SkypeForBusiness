@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling Lync-Skype connectivity'
+description: "Lync Server 2013: Enabling Lync-Skype connectivity."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

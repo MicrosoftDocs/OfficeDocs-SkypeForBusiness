@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up Front End Servers and Front End pools'
+description: "Lync Server 2013: Setting up Front End Servers and Front End pools."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

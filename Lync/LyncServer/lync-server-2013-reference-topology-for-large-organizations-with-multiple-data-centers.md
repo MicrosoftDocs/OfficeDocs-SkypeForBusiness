@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 reference topology for large organizations with multiple data centers
+description: "Lync Server 2013 reference topology for large organizations with multiple data centers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

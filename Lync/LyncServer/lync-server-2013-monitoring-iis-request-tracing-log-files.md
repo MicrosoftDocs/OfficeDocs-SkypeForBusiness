@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring IIS request tracing log files'
+description: "Lync Server 2013: Monitoring IIS request tracing log files."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

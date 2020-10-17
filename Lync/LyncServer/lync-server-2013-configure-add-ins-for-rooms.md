@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure add-ins for rooms'
+description: "Lync Server 2013: Configure add-ins for rooms."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

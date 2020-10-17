@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Global media bypass options'
+description: "Lync Server 2013: Global media bypass options."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

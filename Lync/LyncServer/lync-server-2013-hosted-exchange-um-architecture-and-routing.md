@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hosted Exchange UM architecture and routing'
+description: "Lync Server 2013: Hosted Exchange UM architecture and routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

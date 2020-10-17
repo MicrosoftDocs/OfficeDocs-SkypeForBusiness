@@ -1,5 +1,6 @@
 ---
 title: 'Dial-in conferencing configuration prerequisites and permissions'
+description: "Dial-in conferencing configuration prerequisites and permissions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

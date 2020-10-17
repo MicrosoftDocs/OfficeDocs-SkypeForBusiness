@@ -1,5 +1,6 @@
 ---
 title: Prerequisites
+description: "Prerequisites."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

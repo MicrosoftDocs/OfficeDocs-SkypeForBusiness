@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing Quality of Service (QoS)'
+description: "Lync Server 2013: Managing Quality of Service (QoS)."
 ms.reviewer: 
 f1.keywords:
 - NOCSH

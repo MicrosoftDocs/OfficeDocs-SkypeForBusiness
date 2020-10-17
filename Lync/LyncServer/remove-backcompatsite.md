@@ -1,5 +1,6 @@
 ---
 title: Remove BackCompatSite
+description: "Remove BackCompatSite."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

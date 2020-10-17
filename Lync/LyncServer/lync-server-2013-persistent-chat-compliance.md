@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Persistent Chat compliance'
+description: "Lync Server 2013: Persistent Chat compliance."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

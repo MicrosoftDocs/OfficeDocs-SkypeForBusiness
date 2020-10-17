@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Remote call control and phone number normalization'
+description: "Lync Server 2013: Remote call control and phone number normalization."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -48,7 +49,7 @@ If you are migrating users previously enabled for remote call control, see the f
 
   - For Lync Server 2010, see [Migrate Address Book](migrate-address-book.md) in the Migration documentation.
 
-  - For Communications Server 2007 R2, see [Migrate Address Book](migrate-address-book_1.md) in the Migration documentation.
+  - For Communications Server 2007 R2, see [Migrate Address Book](migrate-address-book.md) in the Migration documentation.
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: Remove a message
+description: "Remove a message."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

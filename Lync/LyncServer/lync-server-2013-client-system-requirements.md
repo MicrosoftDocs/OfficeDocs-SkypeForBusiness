@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Client system requirements'
+description: "Lync Server 2013: Client system requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

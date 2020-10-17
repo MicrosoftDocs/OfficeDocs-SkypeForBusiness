@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify an existing PIN policy'
+description: "Lync Server 2013: Modify an existing PIN policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

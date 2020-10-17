@@ -1,5 +1,6 @@
 ---
 title: Migrate Common Area Phones
+description: "Migrate Common Area Phones."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

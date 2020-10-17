@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Define Response Group business hours'
+description: "Lync Server 2013: (Optional) Define Response Group business hours."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

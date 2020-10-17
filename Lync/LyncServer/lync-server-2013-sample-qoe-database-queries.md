@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Sample QoE database queries'
+description: "Lync Server 2013: Sample QoE database queries."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Define a gateway in Topology Builder'
+description: "Lync Server 2013: Define a gateway in Topology Builder."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

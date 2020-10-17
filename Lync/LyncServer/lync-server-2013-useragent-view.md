@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: UserAgent view'
+description: "Lync Server 2013: UserAgent view."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Role-based access control (RBAC)'
+description: "Lync Server 2013: Role-based access control (RBAC)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

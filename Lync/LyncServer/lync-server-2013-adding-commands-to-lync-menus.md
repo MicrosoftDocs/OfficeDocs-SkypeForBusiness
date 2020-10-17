@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Adding commands to Lync menus'
+description: "Lync Server 2013: Adding commands to Lync menus."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

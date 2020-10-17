@@ -1,5 +1,6 @@
 ---
 title: 'IIS requirements for Front End pools and Standard Edition servers'
+description: "IIS requirements for Front End pools and Standard Edition servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

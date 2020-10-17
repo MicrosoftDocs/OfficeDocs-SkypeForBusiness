@@ -1,5 +1,6 @@
 ---
 title: Apply Office Communications Server 2007 R2 updates
+description: "Apply Office Communications Server 2007 R2 updates."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

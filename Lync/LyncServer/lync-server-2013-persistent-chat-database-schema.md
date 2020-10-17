@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Persistent Chat database schema'
+description: "Lync Server 2013: Persistent Chat database schema."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

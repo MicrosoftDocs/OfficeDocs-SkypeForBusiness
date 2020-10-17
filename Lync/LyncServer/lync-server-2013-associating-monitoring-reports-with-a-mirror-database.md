@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Associating Monitoring Reports with a mirror database'
+description: "Lync Server 2013: Associating Monitoring Reports with a mirror database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

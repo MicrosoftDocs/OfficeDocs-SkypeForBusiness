@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Running Lync Server on virtual servers'
+description: "Lync Server 2013: Running Lync Server on virtual servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

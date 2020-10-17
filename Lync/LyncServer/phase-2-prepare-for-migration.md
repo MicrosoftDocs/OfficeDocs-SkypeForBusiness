@@ -1,5 +1,6 @@
 ---
 title: 'Phase 2: Prepare for migration'
+description: "Phase 2: Prepare for migration."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

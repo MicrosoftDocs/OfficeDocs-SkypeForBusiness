@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Add a location policy to a network site'
+description: "Lync Server 2013: Add a location policy to a network site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

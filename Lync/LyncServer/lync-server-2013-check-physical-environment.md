@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: check physical environment'
+description: "Lync Server 2013: check physical environment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

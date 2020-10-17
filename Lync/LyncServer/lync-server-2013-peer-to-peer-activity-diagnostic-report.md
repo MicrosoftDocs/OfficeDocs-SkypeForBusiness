@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Peer-to-Peer Activity Diagnostic Report'
+description: "Lync Server 2013: Peer-to-Peer Activity Diagnostic Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

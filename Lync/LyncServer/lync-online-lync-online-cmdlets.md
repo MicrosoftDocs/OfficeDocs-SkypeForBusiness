@@ -1,5 +1,6 @@
 ---
 title: 'Lync Online: Lync Online cmdlets'
+description: "Lync Online: Lync Online cmdlets."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

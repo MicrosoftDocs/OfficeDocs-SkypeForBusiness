@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 technical diagrams
+description: "Lync Server 2013 technical diagrams."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Customizing client installation'
+description: "Lync Server 2013: Customizing client installation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

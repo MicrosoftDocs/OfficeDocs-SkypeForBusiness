@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 mobility support
+description: "Lync Server 2013 mobility support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

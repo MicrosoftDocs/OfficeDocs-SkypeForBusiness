@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Performing and monitoring backups'
+description: "Lync Server 2013: Performing and monitoring backups."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

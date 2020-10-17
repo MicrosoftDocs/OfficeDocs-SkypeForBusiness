@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring Lync Server with System Center Operations Manager'
+description: "Lync Server 2013: Monitoring Lync Server with System Center Operations Manager."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

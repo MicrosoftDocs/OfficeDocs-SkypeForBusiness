@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install Lync Server server components'
+description: "Lync Server 2013: Install Lync Server server components."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

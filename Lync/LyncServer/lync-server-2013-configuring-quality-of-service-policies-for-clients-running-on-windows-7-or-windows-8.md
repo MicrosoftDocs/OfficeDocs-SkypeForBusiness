@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Quality of Service policies for clients running on Windows 7 or Windows 8'
+description: "Lync Server 2013: Configuring Quality of Service policies for clients running on Windows 7 or Windows 8."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

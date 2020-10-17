@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Removing Lync for Windows Phone'
+description: "Lync Server 2013: Removing Lync for Windows Phone."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

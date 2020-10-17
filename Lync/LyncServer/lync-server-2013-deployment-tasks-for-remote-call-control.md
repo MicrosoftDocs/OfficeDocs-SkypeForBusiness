@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deployment tasks for remote call control'
+description: "Lync Server 2013: Deployment tasks for remote call control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
+description: "Frequently Asked Questions: Provisioning Lync Server for Skype connectivity."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

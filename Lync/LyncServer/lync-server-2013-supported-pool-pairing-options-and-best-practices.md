@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 supported pool pairing options and best practices
+description: "Lync Server 2013 supported pool pairing options and best practices."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

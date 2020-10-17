@@ -1,5 +1,6 @@
 ---
 title: Remove SQL Server instances and databases on the Back End Server
+description: "Remove SQL Server instances and databases on the Back End Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

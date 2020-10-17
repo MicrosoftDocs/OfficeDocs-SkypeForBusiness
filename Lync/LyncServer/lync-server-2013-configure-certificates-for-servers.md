@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure certificates for servers'
+description: "Lync Server 2013: Configure certificates for servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

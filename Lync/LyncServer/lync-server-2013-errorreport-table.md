@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ErrorReport table'
+description: "Lync Server 2013: ErrorReport table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

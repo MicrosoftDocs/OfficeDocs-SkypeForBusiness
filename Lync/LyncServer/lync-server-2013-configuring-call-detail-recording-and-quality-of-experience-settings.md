@@ -1,5 +1,6 @@
 ---
 title: 'Configuring call detail recording and Quality of Experience settings'
+description: "Configuring call detail recording and Quality of Experience settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

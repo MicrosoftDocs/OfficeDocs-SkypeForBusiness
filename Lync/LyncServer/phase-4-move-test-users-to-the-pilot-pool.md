@@ -1,5 +1,6 @@
 ---
 title: 'Phase 4: Move test users to the pilot pool'
+description: "Phase 4: Move test users to the pilot pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

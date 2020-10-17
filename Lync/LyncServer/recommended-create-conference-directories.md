@@ -1,5 +1,6 @@
 ---
 title: (Recommended) Create Conference Directories
+description: "(Recommended) Create Conference Directories."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

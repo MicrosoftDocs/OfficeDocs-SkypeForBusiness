@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify an interactive workflow'
+description: "Lync Server 2013: Create or modify an interactive workflow."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

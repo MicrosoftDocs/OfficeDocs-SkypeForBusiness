@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing locations for SIP trunk service providers'
+description: "Lync Server 2013: Managing locations for SIP trunk service providers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

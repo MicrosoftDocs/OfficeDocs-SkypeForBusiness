@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Media table'
+description: "Lync Server 2013: Media table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

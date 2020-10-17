@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hardening and protecting databases'
+description: "Lync Server 2013: Hardening and protecting databases."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

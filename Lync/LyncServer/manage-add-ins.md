@@ -1,5 +1,6 @@
 ---
 title: Manage add-ins
+description: "Manage add-ins."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using Setup command-line options'
+description: "Lync Server 2013: Using Setup command-line options."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

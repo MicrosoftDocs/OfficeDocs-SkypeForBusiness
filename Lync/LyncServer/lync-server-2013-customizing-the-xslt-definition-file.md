@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Customizing the XSLT definition file'
+description: "Lync Server 2013: Customizing the XSLT definition file."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

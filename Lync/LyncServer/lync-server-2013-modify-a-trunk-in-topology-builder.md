@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify a trunk in Topology Builder'
+description: "Lync Server 2013: Modify a trunk in Topology Builder."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

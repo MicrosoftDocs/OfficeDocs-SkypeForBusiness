@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modifying user account properties'
+description: "Lync Server 2013: Modifying user account properties."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

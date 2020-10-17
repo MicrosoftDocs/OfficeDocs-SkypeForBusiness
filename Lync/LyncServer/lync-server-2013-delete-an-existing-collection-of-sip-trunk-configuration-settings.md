@@ -1,5 +1,6 @@
 ---
 title: 'Delete an existing collection of SIP trunk configuration settings'
+description: "Delete an existing collection of SIP trunk configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

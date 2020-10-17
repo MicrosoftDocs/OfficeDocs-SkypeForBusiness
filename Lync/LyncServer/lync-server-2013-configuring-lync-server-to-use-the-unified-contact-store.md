@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Lync Server to use the unified contact store'
+description: "Lync Server 2013: Configuring Lync Server to use the unified contact store."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

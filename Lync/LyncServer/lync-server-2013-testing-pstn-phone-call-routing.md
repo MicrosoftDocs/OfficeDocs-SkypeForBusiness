@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing PSTN phone call routing'
+description: "Lync Server 2013: Testing PSTN phone call routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring port ranges for your Conferencing, Application, and Mediation servers'
+description: "Lync Server 2013: Configuring port ranges for your Conferencing, Application, and Mediation servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

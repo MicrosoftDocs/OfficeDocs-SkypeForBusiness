@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 topology basics you must know before planning
+description: "Lync Server 2013 topology basics you must know before planning."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

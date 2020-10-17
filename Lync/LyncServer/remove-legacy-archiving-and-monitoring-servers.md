@@ -1,5 +1,6 @@
 ---
 title: Remove legacy Archiving and Monitoring servers
+description: "Remove legacy Archiving and Monitoring servers."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

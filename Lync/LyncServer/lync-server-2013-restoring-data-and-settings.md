@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring data and settings'
+description: "Lync Server 2013: Restoring data and settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Peer-to-Peer Session Detail Report'
+description: "Lync Server 2013: Peer-to-Peer Session Detail Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

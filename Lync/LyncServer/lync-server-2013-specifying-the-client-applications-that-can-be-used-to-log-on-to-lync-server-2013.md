@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Specifying the client applications that can be used to log on to Lync Server 2013'
+description: "Lync Server 2013: Specifying the client applications that can be used to log on to Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

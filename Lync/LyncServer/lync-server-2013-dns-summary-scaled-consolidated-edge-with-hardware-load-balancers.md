@@ -1,5 +1,6 @@
 ---
 title: 'DNS summary - Scaled consolidated edge with hardware load balancers'
+description: "DNS summary - Scaled consolidated edge with hardware load balancers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

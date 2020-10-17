@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for devices'
+description: "Lync Server 2013: Planning for devices."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

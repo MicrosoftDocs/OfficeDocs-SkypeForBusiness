@@ -1,5 +1,6 @@
 ---
 title: 'Planning for Lync Server and Office Communications Server federation'
+description: "Planning for Lync Server and Office Communications Server federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

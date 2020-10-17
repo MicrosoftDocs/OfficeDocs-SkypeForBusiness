@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Top Failures Report'
+description: "Lync Server 2013: Top Failures Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

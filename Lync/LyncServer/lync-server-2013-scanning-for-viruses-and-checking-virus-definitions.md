@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Scanning for viruses and checking virus definitions'
+description: "Lync Server 2013: Scanning for viruses and checking virus definitions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

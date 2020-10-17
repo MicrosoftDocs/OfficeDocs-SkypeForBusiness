@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up SQL Server Log Shipping for the Persistent Chat Server primary database'
+description: "Lync Server 2013: Setting up SQL Server Log Shipping for the Persistent Chat Server primary database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

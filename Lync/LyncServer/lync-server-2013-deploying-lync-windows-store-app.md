@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploying Lync Windows Store app'
+description: "Lync Server 2013: Deploying Lync Windows Store app."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

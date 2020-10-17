@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Creating DNS records for the Autodiscover Service'
+description: "Lync Server 2013: Creating DNS records for the Autodiscover Service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

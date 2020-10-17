@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Installing a certificate on a watcher node located outside the perimeter network'
+description: "Lync Server 2013: Installing a certificate on a watcher node located outside the perimeter network."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Supported hybrid configurations'
+description: "Lync Server 2013: Supported hybrid configurations."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

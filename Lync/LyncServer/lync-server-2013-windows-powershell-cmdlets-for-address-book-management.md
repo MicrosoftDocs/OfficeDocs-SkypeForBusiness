@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Windows PowerShell cmdlets for Address Book management'
+description: "Lync Server 2013: Windows PowerShell cmdlets for Address Book management."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

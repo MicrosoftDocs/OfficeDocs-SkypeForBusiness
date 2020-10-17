@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Validate Domain Name System settings for load balancing'
+description: "Lync Server 2013: Validate Domain Name System settings for load balancing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Enable Exchange 2013 Outlook Web App and IM integration
+description: "Enable Exchange 2013 Outlook Web App and IM integration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

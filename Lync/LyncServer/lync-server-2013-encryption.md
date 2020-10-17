@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Encryption'
+description: "Lync Server 2013: Encryption."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

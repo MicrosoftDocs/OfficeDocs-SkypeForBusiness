@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verify normalization rules for Call Park'
+description: "Lync Server 2013: Verify normalization rules for Call Park."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

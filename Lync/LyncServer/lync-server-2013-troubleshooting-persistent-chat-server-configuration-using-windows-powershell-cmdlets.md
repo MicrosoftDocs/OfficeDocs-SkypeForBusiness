@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets'
+description: "Lync Server 2013: Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

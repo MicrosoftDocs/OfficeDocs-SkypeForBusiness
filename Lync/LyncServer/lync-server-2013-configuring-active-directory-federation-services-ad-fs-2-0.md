@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Active Directory Federation Services (AD FS 2.0)'
+description: "Lync Server 2013: Configuring Active Directory Federation Services (AD FS 2.0)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable Persistent Chat Server policy'
+description: "Lync Server 2013: Enable Persistent Chat Server policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

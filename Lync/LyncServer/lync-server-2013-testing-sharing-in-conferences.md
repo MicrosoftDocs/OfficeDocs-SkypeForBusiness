@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing sharing in conferences'
+description: "Lync Server 2013: Testing sharing in conferences."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

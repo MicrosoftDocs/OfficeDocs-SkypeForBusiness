@@ -1,5 +1,6 @@
 ---
 title: Deploy pilot Edge Server
+description: "Deploy pilot Edge Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

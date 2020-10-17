@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing system health'
+description: "Lync Server 2013: Managing system health."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

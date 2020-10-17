@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing user PINs'
+description: "Lync Server 2013: Managing user PINs."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

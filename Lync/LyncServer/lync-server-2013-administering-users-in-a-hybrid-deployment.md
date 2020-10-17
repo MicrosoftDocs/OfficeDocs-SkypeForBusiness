@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Administering users in a hybrid deployment'
+description: "Lync Server 2013: Administering users in a hybrid deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

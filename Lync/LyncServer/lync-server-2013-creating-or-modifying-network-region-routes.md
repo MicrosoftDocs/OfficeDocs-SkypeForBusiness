@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Creating or modifying network region routes'
+description: "Lync Server 2013: Creating or modifying network region routes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

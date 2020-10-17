@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Common conferencing concepts'
+description: "Lync Server 2013: Common conferencing concepts."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

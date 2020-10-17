@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: CallType table'
+description: "Lync Server 2013: CallType table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
