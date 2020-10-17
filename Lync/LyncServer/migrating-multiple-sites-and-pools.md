@@ -1,5 +1,6 @@
 ---
 title: Migrating multiple sites and pools
+description: "Migrating multiple sites and pools."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

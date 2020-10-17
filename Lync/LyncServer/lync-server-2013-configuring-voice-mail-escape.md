@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring voice mail escape'
+description: "Lync Server 2013: Configuring voice mail escape."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

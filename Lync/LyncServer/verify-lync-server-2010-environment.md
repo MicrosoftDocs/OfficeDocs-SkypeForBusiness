@@ -1,5 +1,6 @@
 ---
 title: Verify Lync Server 2010 environment
+description: "Verify Lync Server 2010 environment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring a Lync Server pool'
+description: "Lync Server 2013: Restoring a Lync Server pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

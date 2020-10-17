@@ -1,5 +1,6 @@
 ---
 title: Verify pilot pool coexistence with legacy pool
+description: "Verify pilot pool coexistence with legacy pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

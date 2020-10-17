@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Understanding Autodiscover'
+description: "Lync Server 2013: Understanding Autodiscover."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

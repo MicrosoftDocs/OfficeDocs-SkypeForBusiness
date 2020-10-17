@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Best practices for Lync Server environments'
+description: "Lync Server 2013: Best practices for Lync Server environments."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

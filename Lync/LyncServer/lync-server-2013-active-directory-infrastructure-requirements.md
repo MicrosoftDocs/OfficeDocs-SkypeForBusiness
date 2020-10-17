@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Active Directory infrastructure requirements'
+description: "Lync Server 2013: Active Directory infrastructure requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

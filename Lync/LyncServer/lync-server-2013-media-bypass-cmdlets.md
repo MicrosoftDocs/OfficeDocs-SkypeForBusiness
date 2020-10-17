@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Media bypass cmdlets'
+description: "Lync Server 2013: Media bypass cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

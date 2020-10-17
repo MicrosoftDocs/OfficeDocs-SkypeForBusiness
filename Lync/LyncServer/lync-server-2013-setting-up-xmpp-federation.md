@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up XMPP federation'
+description: "Lync Server 2013: Setting up XMPP federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

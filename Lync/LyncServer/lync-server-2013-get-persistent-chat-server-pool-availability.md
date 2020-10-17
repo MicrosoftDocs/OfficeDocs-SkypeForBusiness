@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Get Persistent Chat Server pool availability'
+description: "Lync Server 2013: Get Persistent Chat Server pool availability."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing Response Group workflows'
+description: "Lync Server 2013: Managing Response Group workflows."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

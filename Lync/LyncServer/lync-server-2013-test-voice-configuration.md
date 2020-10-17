@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test voice configuration'
+description: "Lync Server 2013: Test voice configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

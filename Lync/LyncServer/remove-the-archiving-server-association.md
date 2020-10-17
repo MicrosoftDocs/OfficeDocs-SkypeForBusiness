@@ -1,5 +1,6 @@
 ---
 title: Remove the Archiving server association
+description: "Remove the Archiving server association."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

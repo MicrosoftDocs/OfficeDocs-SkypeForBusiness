@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Troubleshooting Lync Server 2013 Control Panel'
+description: "Lync Server 2013: Troubleshooting Lync Server 2013 Control Panel."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

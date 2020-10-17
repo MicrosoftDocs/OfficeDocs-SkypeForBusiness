@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing the ability of a user to log on to Lync Server'
+description: "Lync Server 2013: Testing the ability of a user to log on to Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

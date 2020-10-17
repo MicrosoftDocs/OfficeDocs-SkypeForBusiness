@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign conferencing policies to support anonymous users'
+description: "Lync Server 2013: Assign conferencing policies to support anonymous users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

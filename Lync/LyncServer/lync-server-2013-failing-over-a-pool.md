@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Failing over a pool'
+description: "Lync Server 2013: Failing over a pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

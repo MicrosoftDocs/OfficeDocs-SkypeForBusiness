@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Response Group application cmdlets'
+description: "Lync Server 2013: Response Group application cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

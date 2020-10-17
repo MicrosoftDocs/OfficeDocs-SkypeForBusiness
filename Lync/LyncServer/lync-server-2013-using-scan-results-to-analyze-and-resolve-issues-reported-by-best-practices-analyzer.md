@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using scan results to analyze and resolve issues reported by Best Practices Analyzer'
+description: "Lync Server 2013: Using scan results to analyze and resolve issues reported by Best Practices Analyzer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Installing the Planning Tool'
+description: "Lync Server 2013: Installing the Planning Tool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

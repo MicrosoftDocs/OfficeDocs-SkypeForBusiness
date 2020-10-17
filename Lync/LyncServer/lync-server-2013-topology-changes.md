@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 topology changes
+description: "Lync Server 2013 topology changes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

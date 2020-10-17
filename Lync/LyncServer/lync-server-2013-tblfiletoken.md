@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblFileToken'
+description: "Lync Server 2013: tblFileToken."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

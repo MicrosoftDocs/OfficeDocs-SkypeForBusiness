@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring network site links'
+description: "Lync Server 2013: Configuring network site links."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

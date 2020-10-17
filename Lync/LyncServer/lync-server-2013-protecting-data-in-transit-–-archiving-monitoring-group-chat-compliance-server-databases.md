@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Protecting data in transit – archiving, monitoring, group chat compliance server databases'
+description: "Lync Server 2013: Protecting data in transit – archiving, monitoring, group chat compliance server databases."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploying clients and devices'
+description: "Lync Server 2013: Deploying clients and devices."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

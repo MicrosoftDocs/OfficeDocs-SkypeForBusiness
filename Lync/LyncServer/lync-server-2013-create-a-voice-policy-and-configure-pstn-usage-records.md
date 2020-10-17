@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create a voice policy and configure PSTN usage records'
+description: "Lync Server 2013: Create a voice policy and configure PSTN usage records."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

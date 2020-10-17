@@ -1,5 +1,6 @@
 ---
 title: Stop Lync Server 2010 services
+description: "Stop Lync Server 2010 services."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

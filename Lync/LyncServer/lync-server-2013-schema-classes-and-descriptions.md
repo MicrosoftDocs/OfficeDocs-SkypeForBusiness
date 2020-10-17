@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Schema classes and descriptions'
+description: "Lync Server 2013: Schema classes and descriptions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

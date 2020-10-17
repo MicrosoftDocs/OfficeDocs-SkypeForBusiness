@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Migration considerations for meetings'
+description: "Lync Server 2013: Migration considerations for meetings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

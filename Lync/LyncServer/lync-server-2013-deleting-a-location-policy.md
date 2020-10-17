@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting a location policy'
+description: "Lync Server 2013: Deleting a location policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

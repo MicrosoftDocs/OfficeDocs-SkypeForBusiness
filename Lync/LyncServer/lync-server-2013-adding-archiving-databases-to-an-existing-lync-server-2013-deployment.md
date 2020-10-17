@@ -1,5 +1,6 @@
 ---
 title: 'Adding Archiving databases to an existing Lync Server 2013 Deployment'
+description: "Adding Archiving databases to an existing Lync Server 2013 Deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

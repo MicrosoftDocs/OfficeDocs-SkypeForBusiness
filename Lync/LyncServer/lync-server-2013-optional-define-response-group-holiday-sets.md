@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Define Response Group holiday sets'
+description: "Lync Server 2013: (Optional) Define Response Group holiday sets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

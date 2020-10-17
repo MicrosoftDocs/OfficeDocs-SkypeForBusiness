@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring your environment for the Lync Room System Administrative Web Portal'
+description: "Lync Server 2013: Configuring your environment for the Lync Room System Administrative Web Portal."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

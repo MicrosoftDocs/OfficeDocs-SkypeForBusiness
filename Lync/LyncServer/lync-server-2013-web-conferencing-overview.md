@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 web conferencing overview
+description: "Lync Server 2013 web conferencing overview."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

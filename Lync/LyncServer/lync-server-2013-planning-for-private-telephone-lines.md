@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for private telephone lines'
+description: "Lync Server 2013: Planning for private telephone lines."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

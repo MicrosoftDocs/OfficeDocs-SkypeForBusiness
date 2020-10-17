@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring hybrid deployments'
+description: "Lync Server 2013: Configuring hybrid deployments."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

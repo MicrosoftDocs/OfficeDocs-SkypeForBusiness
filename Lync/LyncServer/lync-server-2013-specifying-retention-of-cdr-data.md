@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Specifying retention of CDR data'
+description: "Lync Server 2013: Specifying retention of CDR data."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

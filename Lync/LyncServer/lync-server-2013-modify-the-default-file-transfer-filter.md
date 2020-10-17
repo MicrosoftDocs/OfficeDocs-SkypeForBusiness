@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify the default file transfer filter'
+description: "Lync Server 2013: Modify the default file transfer filter."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

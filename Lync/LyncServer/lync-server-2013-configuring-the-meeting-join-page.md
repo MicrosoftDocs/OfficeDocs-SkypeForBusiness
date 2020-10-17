@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring the meeting join page'
+description: "Lync Server 2013: Configuring the meeting join page."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

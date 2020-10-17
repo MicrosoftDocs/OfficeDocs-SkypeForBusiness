@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Location-Based Routing'
+description: "Lync Server 2013: Configuring Location-Based Routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

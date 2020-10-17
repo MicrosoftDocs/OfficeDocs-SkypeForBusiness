@@ -1,5 +1,6 @@
 ---
 title: 'Configuring voice policies, PSTN usage records, and voice routes'
+description: "Configuring voice policies, PSTN usage records, and voice routes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

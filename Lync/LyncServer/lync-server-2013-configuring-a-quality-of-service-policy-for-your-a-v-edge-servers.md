@@ -1,5 +1,6 @@
 ---
 title: 'Configuring a Quality of Service policy for your A/V Edge Servers'
+description: "Configuring a Quality of Service policy for your A/V Edge Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

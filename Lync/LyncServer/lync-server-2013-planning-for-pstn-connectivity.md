@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for PSTN connectivity'
+description: "Lync Server 2013: Planning for PSTN connectivity."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

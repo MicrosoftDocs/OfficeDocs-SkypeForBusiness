@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restore a Device Update rule'
+description: "Lync Server 2013: Restore a Device Update rule."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

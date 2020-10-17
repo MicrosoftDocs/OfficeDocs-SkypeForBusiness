@@ -1,5 +1,6 @@
 ---
 title: Test Persistent Chat Server with a synthetic transaction
+description: "Test Persistent Chat Server with a synthetic transaction."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

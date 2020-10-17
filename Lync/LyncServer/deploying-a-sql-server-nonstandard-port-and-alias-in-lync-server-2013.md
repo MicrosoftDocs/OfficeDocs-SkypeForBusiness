@@ -1,5 +1,6 @@
 ---
 title: Deploying a SQL Server nonstandard port and alias in Lync Server 2013
+description: "Deploying a SQL Server nonstandard port and alias in Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

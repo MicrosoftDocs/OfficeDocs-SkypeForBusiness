@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using rich logging for synthetic transactions'
+description: "Lync Server 2013: Using rich logging for synthetic transactions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

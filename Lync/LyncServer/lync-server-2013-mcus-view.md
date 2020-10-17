@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mcus view'
+description: "Lync Server 2013: Mcus view."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Analyzing and resolving issues identified by Best Practices Analyzer'
+description: "Analyzing and resolving issues identified by Best Practices Analyzer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

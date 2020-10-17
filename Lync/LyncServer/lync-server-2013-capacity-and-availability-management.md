@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Capacity and availability management'
+description: "Lync Server 2013: Capacity and availability management."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

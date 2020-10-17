@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test devices'
+description: "Lync Server 2013: Test devices."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

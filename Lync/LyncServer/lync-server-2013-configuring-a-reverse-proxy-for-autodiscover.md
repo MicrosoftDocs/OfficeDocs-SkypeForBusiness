@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring a reverse proxy for Autodiscover'
+description: "Lync Server 2013: Configuring a reverse proxy for Autodiscover."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

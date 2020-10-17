@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Mobile client comparison tables'
+description: "Lync Server 2013: Mobile client comparison tables."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

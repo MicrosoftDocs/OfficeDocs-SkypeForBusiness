@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Requirements for running Best Practices Analyzer'
+description: "Lync Server 2013: Requirements for running Best Practices Analyzer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

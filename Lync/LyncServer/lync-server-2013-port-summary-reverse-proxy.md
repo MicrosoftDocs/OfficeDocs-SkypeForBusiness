@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Port summary - Reverse proxy'
+description: "Lync Server 2013: Port summary - Reverse proxy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

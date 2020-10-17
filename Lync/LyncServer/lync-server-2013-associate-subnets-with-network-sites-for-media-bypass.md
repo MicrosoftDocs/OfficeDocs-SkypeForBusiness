@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Associate subnets with network sites for media bypass'
+description: "Lync Server 2013: Associate subnets with network sites for media bypass."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

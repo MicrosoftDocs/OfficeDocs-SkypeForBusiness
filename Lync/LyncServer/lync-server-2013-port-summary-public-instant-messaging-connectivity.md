@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Port summary - Public instant messaging connectivity'
+description: "Lync Server 2013: Port summary - Public instant messaging connectivity."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure an E9-1-1 voice route'
+description: "Lync Server 2013: Configure an E9-1-1 voice route."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

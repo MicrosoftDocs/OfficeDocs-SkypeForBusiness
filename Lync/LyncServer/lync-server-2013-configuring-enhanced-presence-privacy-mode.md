@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring enhanced presence privacy mode'
+description: "Lync Server 2013: Configuring enhanced presence privacy mode."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

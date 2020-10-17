@@ -1,5 +1,6 @@
 ---
 title: 'Phase 10: Decommission legacy site'
+description: "Phase 10: Decommission legacy site."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -62,7 +63,7 @@ The following topics provide guidance in decommissioning pools, and deactivating
 
   - [Move conference directories](move-conference-directories.md)
 
-  - [Update DNS SRV records](update-dns-srv-records_1.md)
+  - [Update DNS SRV records](update-dns-srv-records.md)
 
   - [Decommissioning servers and pools](decommissioning-servers-and-pools.md)
 

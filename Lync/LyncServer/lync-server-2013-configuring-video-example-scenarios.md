@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring video example scenarios'
+description: "Lync Server 2013: Configuring video example scenarios."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

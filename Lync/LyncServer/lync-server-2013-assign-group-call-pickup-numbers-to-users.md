@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign Group Call Pickup numbers to users'
+description: "Lync Server 2013: Assign Group Call Pickup numbers to users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

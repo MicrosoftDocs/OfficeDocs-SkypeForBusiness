@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting an existing network site'
+description: "Lync Server 2013: Deleting an existing network site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

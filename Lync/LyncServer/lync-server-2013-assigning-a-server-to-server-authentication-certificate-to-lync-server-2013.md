@@ -1,5 +1,6 @@
 ---
 title: 'Assigning a server-to-server authentication certificate to Lync Server 2013'
+description: "Assigning a server-to-server authentication certificate to Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

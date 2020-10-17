@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers'
+description: "Lync Server 2013: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

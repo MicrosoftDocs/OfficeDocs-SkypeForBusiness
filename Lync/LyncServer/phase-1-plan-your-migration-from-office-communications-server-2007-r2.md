@@ -1,5 +1,6 @@
 ---
 title: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
+description: "Phase 1: Plan your migration from Office Communications Server 2007 R2."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -40,15 +41,15 @@ This section covers planning topics for migrating from Office Communications Ser
 
 ## In This Section
 
-  - [User migration](user-migration_1.md)
+  - [User migration](user-migration.md)
 
-  - [Migrating Archiving and Monitoring servers](migrating-archiving-and-monitoring-servers_1.md)
+  - [Migrating Archiving and Monitoring servers](migrating-archiving-and-monitoring-servers.md)
 
-  - [Administering servers after migration](administering-servers-after-migration_1.md)
+  - [Administering servers after migration](administering-servers-after-migration.md)
 
-  - [Migrating multiple sites and pools](migrating-multiple-sites-and-pools_1.md)
+  - [Migrating multiple sites and pools](migrating-multiple-sites-and-pools.md)
 
-  - [Migrating XMPP federation](migrating-xmpp-federation_1.md)
+  - [Migrating XMPP federation](migrating-xmpp-federation.md)
 
 </div>
 

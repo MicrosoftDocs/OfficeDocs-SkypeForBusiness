@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing the Web scheduler'
+description: "Lync Server 2013: Testing the Web scheduler."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

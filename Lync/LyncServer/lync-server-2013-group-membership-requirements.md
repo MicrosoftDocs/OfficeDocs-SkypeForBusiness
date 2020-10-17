@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Group membership requirements'
+description: "Lync Server 2013: Group membership requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

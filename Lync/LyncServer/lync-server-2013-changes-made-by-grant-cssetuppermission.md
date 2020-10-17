@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Changes made by Grant-CsSetupPermission'
+description: "Lync Server 2013: Changes made by Grant-CsSetupPermission."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

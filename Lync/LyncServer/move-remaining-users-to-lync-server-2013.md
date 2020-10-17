@@ -1,5 +1,6 @@
 ---
 title: Move remaining users to Lync Server 2013
+description: "Move remaining users to Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

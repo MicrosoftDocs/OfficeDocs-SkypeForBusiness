@@ -1,5 +1,6 @@
 ---
 title: User migration
+description: "User migration."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

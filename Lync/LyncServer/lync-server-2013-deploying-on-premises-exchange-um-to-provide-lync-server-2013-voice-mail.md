@@ -1,5 +1,6 @@
 ---
 title: 'Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail'
+description: "Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

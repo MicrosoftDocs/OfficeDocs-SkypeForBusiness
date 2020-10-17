@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Network region routes'
+description: "Lync Server 2013: Network region routes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

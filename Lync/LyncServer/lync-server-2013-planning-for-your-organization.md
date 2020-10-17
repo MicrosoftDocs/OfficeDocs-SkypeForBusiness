@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for your organization'
+description: "Lync Server 2013: Planning for your organization."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

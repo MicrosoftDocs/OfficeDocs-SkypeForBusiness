@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call admission control on an MPLS network'
+description: "Lync Server 2013: Call admission control on an MPLS network."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

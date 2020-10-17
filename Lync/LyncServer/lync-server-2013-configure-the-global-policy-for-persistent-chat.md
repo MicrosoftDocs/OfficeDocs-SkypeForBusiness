@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure the global policy for Persistent Chat'
+description: "Lync Server 2013: Configure the global policy for Persistent Chat."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

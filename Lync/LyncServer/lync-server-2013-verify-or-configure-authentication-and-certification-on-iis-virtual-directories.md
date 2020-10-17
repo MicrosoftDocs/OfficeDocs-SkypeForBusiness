@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Verify or configure authentication and certification on IIS virtual directories'
+description: "Lync Server 2013: Verify or configure authentication and certification on IIS virtual directories."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

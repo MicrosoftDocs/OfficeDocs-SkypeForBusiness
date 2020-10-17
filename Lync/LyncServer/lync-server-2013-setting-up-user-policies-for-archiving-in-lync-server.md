@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up user policies for Archiving in Lync Server'
+description: "Lync Server 2013: Setting up user policies for Archiving in Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

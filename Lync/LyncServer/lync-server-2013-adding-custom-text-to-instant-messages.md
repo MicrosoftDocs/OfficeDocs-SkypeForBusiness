@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Adding custom text to instant messages'
+description: "Lync Server 2013: Adding custom text to instant messages."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

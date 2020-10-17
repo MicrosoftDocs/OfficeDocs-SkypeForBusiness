@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 sites
+description: "Lync Server 2013 sites."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

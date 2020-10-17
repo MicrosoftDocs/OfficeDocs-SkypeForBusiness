@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Clients supported for Call Park'
+description: "Lync Server 2013: Clients supported for Call Park."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

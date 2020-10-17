@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 network planning
+description: "Lync Server 2013 network planning."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

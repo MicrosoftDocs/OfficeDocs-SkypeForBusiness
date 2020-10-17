@@ -1,5 +1,6 @@
 ---
 title: Move Exchange Unified Messaging Contact objects
+description: "Move Exchange Unified Messaging Contact objects."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

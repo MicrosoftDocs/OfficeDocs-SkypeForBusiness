@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Glossary'
+description: "Lync Server 2013: Glossary."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

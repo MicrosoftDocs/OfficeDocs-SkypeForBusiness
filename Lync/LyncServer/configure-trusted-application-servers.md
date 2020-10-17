@@ -1,5 +1,6 @@
 ---
 title: Configure trusted application servers
+description: "Configure trusted application servers."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

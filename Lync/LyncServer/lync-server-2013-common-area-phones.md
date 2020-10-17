@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Common area phones'
+description: "Lync Server 2013: Common area phones."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

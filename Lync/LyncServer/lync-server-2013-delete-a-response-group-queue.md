@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Delete a Response Group queue'
+description: "Lync Server 2013: Delete a Response Group queue."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

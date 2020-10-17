@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Supported virtualization technologies and known limitations'
+description: "Lync Server 2013: Supported virtualization technologies and known limitations."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

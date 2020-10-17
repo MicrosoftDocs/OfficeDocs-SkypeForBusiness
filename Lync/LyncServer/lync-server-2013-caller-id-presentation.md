@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Caller ID presentation'
+description: "Lync Server 2013: Caller ID presentation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

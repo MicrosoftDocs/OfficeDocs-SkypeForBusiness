@@ -1,5 +1,6 @@
 ---
 title: 'Testing civic addresses against the master street address guide'
+description: "Testing civic addresses against the master street address guide."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

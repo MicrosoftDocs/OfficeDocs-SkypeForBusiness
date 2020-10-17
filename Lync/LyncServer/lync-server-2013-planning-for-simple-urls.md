@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for simple URLs'
+description: "Lync Server 2013: Planning for simple URLs."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

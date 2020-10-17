@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Disabling or enabling a chat room'
+description: "Lync Server 2013: Disabling or enabling a chat room."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

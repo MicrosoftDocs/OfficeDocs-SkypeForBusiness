@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Modify key mapping for DTMF commands'
+description: "Lync Server 2013: (Optional) Modify key mapping for DTMF commands."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

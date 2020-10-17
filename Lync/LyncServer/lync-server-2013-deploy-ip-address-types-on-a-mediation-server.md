@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploy IP address types on a Mediation Server'
+description: "Lync Server 2013: Deploy IP address types on a Mediation Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

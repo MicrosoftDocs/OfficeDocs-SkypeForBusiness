@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Set up network interfaces for Edge Servers'
+description: "Lync Server 2013: Set up network interfaces for Edge Servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Verify user replication has completed
+description: "Verify user replication has completed."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

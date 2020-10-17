@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Define a Mediation Server in Topology Builder'
+description: "Lync Server 2013: Define a Mediation Server in Topology Builder."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

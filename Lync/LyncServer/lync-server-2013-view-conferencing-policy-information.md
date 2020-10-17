@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View conferencing policy information'
+description: "Lync Server 2013: View conferencing policy information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

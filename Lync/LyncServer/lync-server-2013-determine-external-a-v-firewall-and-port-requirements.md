@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Determine external A/V firewall and port requirements'
+description: "Lync Server 2013: Determine external A/V firewall and port requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

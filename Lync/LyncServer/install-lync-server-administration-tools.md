@@ -1,5 +1,6 @@
 ---
 title: Install Lync Server administration tools
+description: "Install Lync Server administration tools."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

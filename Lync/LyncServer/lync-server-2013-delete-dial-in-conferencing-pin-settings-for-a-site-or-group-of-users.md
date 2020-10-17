@@ -1,5 +1,6 @@
 ---
 title: 'Delete dial-in conferencing PIN settings for a site or group of users'
+description: "Delete dial-in conferencing PIN settings for a site or group of users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing network subnets'
+description: "Lync Server 2013: Managing network subnets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

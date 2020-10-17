@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Adding Archiving databases to the Lync Server 2013 topology'
+description: "Lync Server 2013: Adding Archiving databases to the Lync Server 2013 topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

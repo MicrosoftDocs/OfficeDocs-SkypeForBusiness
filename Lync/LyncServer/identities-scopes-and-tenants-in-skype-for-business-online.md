@@ -1,5 +1,6 @@
 ---
 title: Identities, scopes, and tenants in Skype for Business Online
+description: "Identities, scopes, and tenants in Skype for Business Online."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalInvites'
+description: "Lync Server 2013: tblPrincipalInvites."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

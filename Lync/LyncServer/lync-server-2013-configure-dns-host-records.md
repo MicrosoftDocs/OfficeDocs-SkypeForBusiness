@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure DNS Host records'
+description: "Lync Server 2013: Configure DNS Host records."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

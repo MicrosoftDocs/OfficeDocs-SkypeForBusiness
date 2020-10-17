@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable remote user access'
+description: "Lync Server 2013: Enable or disable remote user access."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

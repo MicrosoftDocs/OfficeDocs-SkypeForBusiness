@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync VDI plug-in prerequisites'
+description: "Lync Server 2013: Lync VDI plug-in prerequisites."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

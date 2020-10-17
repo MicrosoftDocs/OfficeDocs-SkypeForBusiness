@@ -1,5 +1,6 @@
 ---
 title: Remove the SQL Server database for a Monitoring server
+description: "Remove the SQL Server database for a Monitoring server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

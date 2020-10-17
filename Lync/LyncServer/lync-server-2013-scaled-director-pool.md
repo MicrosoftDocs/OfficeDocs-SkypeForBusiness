@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Scaled Director pool'
+description: "Lync Server 2013: Scaled Director pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

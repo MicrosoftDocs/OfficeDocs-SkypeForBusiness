@@ -1,5 +1,6 @@
 ---
 title: 'Using Best Practices Analyzer to scan your deployment for potential issues'
+description: "Using Best Practices Analyzer to scan your deployment for potential issues."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

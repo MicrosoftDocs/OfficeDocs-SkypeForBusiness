@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing service activation and group permissions'
+description: "Lync Server 2013: Testing service activation and group permissions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

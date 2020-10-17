@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure Persistent Chat Server options globally or for Persistent Chat Server pool'
+description: "Lync Server 2013: Configure Persistent Chat Server options globally or for Persistent Chat Server pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

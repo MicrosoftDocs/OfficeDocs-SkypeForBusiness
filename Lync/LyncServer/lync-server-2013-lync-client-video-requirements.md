@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync client video requirements'
+description: "Lync Server 2013: Lync client video requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Technical requirements for media bypass'
+description: "Lync Server 2013: Technical requirements for media bypass."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

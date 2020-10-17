@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Public instant messaging support'
+description: "Lync Server 2013: Public instant messaging support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

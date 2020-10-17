@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Overview of the Response Group application'
+description: "Lync Server 2013: Overview of the Response Group application."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

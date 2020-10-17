@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Moving users to Enterprise Voice'
+description: "Lync Server 2013: Moving users to Enterprise Voice."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Managing the Archiving of internal and external communications'
+description: "Managing the Archiving of internal and external communications."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

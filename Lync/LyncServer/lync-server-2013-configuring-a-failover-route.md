@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring a failover route'
+description: "Lync Server 2013: Configuring a failover route."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

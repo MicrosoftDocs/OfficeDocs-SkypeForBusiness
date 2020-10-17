@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database'
+description: "Lync Server 2013: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

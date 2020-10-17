@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Windows 8 for Virtual Smart Cards'
+description: "Lync Server 2013: Configuring Windows 8 for Virtual Smart Cards."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

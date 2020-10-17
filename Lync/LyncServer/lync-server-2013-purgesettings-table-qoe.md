@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: PurgeSettings table (QoE)'
+description: "Lync Server 2013: PurgeSettings table (QoE)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

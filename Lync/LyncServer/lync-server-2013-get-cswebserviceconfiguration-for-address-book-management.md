@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Get-CsWebServiceConfiguration for Address Book management'
+description: "Lync Server 2013: Get-CsWebServiceConfiguration for Address Book management."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

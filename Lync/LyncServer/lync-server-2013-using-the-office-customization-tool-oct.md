@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using the Office Customization Tool (OCT)'
+description: "Lync Server 2013: Using the Office Customization Tool (OCT)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

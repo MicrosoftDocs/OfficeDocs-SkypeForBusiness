@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 server collocation in an Enterprise Edition Front End pool deployment
+description: "Lync Server 2013 server collocation in an Enterprise Edition Front End pool deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

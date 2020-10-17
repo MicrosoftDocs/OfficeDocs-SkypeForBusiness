@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Device Update configuration settings'
+description: "Lync Server 2013: Device Update configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

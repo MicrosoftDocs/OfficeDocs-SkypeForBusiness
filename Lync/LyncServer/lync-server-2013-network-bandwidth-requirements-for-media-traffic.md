@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 network bandwidth requirements for media traffic
+description: "Lync Server 2013 network bandwidth requirements for media traffic."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

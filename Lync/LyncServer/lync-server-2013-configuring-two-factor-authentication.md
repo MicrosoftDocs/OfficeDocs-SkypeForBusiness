@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring two-factor authentication'
+description: "Lync Server 2013: Configuring two-factor authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

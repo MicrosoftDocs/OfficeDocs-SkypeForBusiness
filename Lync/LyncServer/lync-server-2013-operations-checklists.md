@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Operations checklists'
+description: "Lync Server 2013: Operations checklists."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

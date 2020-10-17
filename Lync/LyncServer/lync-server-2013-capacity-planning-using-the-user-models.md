@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 capacity planning using the user models
+description: "Lync Server 2013 capacity planning using the user models."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 supportability
+description: "Lync Server 2013 supportability."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

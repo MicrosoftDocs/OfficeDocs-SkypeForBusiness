@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Windows PowerShell and Lync Server management tools'
+description: "Lync Server 2013: Windows PowerShell and Lync Server management tools."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

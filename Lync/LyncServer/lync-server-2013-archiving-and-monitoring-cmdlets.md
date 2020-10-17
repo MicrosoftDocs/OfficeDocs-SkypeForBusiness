@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Archiving and Monitoring cmdlets'
+description: "Lync Server 2013: Archiving and Monitoring cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

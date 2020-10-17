@@ -1,5 +1,6 @@
 ---
 title: 'Remove-CsAddressBookConfiguration for Address Book management'
+description: "Remove-CsAddressBookConfiguration for Address Book management."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

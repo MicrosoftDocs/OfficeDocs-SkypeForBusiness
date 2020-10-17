@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create the initial topology design'
+description: "Lync Server 2013: Create the initial topology design."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

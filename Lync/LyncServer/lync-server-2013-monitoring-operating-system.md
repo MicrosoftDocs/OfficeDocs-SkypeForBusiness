@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring operating system'
+description: "Lync Server 2013: Monitoring operating system."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

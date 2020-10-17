@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Outgoing calls'
+description: "Lync Server 2013: Outgoing calls."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

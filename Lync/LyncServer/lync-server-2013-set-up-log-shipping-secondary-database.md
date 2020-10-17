@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database'
+description: "Lync Server 2013: Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

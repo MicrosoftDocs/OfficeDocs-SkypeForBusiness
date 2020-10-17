@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining and configuring the topology'
+description: "Lync Server 2013: Defining and configuring the topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

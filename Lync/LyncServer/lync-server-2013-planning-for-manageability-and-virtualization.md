@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for manageability and virtualization'
+description: "Lync Server 2013: Planning for manageability and virtualization."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing network region link information'
+description: "Lync Server 2013: Viewing network region link information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

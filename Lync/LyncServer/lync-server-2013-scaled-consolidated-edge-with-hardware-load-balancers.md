@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Scaled consolidated edge with hardware load balancers'
+description: "Lync Server 2013: Scaled consolidated edge with hardware load balancers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

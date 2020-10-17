@@ -1,5 +1,6 @@
 ---
 title: 'Modify the default action for clients not explicitly supported or restricted'
+description: "Modify the default action for clients not explicitly supported or restricted."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

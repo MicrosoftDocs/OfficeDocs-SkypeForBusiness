@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: TLS and MTLS'
+description: "Lync Server 2013: TLS and MTLS."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

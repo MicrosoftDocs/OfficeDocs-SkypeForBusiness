@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Central management store replication status'
+description: "Lync Server 2013: Central management store replication status."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

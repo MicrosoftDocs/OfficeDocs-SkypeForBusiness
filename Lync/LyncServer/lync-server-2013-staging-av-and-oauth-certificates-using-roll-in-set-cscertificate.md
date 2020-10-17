@@ -1,5 +1,6 @@
 ---
 title: 'Staging AV and OAuth certificates using -Roll in Set-CsCertificate'
+description: "Staging AV and OAuth certificates using -Roll in Set-CsCertificate."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

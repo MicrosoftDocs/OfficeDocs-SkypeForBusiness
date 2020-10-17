@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Overview of the Lync Server hybrid environment'
+description: "Lync Server 2013: Overview of the Lync Server hybrid environment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

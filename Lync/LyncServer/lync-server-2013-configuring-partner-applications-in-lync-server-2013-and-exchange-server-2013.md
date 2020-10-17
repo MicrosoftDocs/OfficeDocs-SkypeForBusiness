@@ -1,5 +1,6 @@
 ---
 title: 'Configuring partner applications in Lync Server 2013 and Exchange Server 2013'
+description: "Configuring partner applications in Lync Server 2013 and Exchange Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

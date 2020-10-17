@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Disaster recovery test'
+description: "Lync Server 2013: Disaster recovery test."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

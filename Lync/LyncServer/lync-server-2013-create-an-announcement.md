@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create an announcement'
+description: "Lync Server 2013: Create an announcement."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

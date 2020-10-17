@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: IIS configuration'
+description: "Lync Server 2013: IIS configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

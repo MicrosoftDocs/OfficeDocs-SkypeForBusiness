@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploying Lync Server'
+description: "Lync Server 2013: Deploying Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

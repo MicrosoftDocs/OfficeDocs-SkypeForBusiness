@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify settings for Device Update log files'
+description: "Lync Server 2013: Modify settings for Device Update log files."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

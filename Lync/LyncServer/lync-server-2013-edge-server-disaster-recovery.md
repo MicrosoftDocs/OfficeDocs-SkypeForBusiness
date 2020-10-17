@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Edge Server disaster recovery'
+description: "Lync Server 2013: Edge Server disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Communicate Group Call Pickup assignment to users'
+description: "Lync Server 2013: Communicate Group Call Pickup assignment to users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblRoleType'
+description: "Lync Server 2013: tblRoleType."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

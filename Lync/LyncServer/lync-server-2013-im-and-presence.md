@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 IM and presence
+description: "Lync Server 2013 IM and presence."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

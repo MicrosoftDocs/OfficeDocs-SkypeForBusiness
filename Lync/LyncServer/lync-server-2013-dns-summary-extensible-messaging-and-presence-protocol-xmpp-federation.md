@@ -1,5 +1,6 @@
 ---
 title: 'DNS summary - Extensible messaging and presence protocol (XMPP) federation'
+description: "DNS summary - Extensible messaging and presence protocol (XMPP) federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

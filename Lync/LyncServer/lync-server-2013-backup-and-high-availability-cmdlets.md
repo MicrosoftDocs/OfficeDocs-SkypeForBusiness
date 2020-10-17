@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backup and high availability cmdlets'
+description: "Lync Server 2013: Backup and high availability cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

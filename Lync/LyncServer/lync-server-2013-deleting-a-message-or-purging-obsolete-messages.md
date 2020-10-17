@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting a message or purging obsolete messages'
+description: "Lync Server 2013: Deleting a message or purging obsolete messages."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

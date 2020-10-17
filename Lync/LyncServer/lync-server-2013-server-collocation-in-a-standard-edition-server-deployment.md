@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 server collocation in a Standard Edition server deployment
+description: "Lync Server 2013 server collocation in a Standard Edition server deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

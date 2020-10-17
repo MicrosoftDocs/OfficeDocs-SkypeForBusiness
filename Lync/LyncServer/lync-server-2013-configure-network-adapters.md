@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure network adapters'
+description: "Lync Server 2013: Configure network adapters."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

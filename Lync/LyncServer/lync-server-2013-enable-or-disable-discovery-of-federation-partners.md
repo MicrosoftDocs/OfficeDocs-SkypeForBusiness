@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable or disable discovery of federation partners'
+description: "Lync Server 2013: Enable or disable discovery of federation partners."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

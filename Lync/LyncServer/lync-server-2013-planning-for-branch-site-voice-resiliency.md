@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for branch-site voice resiliency'
+description: "Lync Server 2013: Planning for branch-site voice resiliency."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

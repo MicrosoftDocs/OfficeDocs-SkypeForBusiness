@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install Standard Edition server database'
+description: "Lync Server 2013: Install Standard Edition server database."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

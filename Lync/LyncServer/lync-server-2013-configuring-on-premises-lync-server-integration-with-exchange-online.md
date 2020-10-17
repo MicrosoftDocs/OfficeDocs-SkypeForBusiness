@@ -1,5 +1,6 @@
 ---
 title: 'Configuring on-premises Lync Server integration with Exchange Online'
+description: "Configuring on-premises Lync Server integration with Exchange Online."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

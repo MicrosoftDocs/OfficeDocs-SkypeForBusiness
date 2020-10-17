@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deployment process for integrating hosted Exchange UM'
+description: "Lync Server 2013: Deployment process for integrating hosted Exchange UM."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enforce phone locking'
+description: "Lync Server 2013: Enforce phone locking."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

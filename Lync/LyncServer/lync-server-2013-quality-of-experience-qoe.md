@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Quality of Experience (QoE)'
+description: "Lync Server 2013: Quality of Experience (QoE)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

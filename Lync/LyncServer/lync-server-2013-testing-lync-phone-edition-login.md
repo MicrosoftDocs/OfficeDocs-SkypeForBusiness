@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing Lync Phone Edition login'
+description: "Lync Server 2013: Testing Lync Phone Edition login."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

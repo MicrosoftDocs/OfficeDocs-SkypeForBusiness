@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: PSTN gateway deployment options'
+description: "Lync Server 2013: PSTN gateway deployment options."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

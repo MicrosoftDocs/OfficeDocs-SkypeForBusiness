@@ -1,5 +1,6 @@
 ---
 title: 'Test and report functional readiness for Kerberos authentication'
+description: "Test and report functional readiness for Kerberos authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

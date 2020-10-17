@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify the default dial-in conferencing PIN settings'
+description: "Lync Server 2013: Modify the default dial-in conferencing PIN settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

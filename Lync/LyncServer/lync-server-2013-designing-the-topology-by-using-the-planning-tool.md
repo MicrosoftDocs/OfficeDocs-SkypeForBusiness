@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Designing the topology by using the Planning Tool'
+description: "Lync Server 2013: Designing the topology by using the Planning Tool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

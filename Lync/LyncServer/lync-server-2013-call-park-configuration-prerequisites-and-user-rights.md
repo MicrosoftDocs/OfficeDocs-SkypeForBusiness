@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call Park configuration prerequisites and user rights'
+description: "Lync Server 2013: Call Park configuration prerequisites and user rights."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

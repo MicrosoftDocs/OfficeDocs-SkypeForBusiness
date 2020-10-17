@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Apply a Persistent Chat policy to a user or user group'
+description: "Lync Server 2013: Apply a Persistent Chat policy to a user or user group."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Preparing the infrastructure and systems'
+description: "Lync Server 2013: Preparing the infrastructure and systems."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

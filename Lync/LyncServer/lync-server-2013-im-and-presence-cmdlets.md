@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: IM and presence cmdlets'
+description: "Lync Server 2013: IM and presence cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

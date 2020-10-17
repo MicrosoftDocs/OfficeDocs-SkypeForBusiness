@@ -1,5 +1,6 @@
 ---
 title: 'Viewing and working with reports created by Best Practices Analyzer'
+description: "Viewing and working with reports created by Best Practices Analyzer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

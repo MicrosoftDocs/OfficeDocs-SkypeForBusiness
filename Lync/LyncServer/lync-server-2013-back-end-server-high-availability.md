@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Back End Server high availability'
+description: "Lync Server 2013: Back End Server high availability."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

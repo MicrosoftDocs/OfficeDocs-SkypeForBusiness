@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Adding domains of users and user groups to the room category'
+description: "Lync Server 2013: Adding domains of users and user groups to the room category."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

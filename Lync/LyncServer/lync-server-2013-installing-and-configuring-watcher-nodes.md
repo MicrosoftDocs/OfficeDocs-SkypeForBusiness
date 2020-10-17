@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Installing and configuring watcher nodes'
+description: "Lync Server 2013: Installing and configuring watcher nodes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

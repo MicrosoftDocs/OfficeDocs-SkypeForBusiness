@@ -1,5 +1,6 @@
 ---
 title: Shared Line Appearance (SLA) cmdlets
+description: "Shared Line Appearance (SLA) cmdlets."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

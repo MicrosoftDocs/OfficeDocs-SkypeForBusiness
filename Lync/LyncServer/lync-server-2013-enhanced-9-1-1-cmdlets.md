@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enhanced 9-1-1 cmdlets'
+description: "Lync Server 2013: Enhanced 9-1-1 cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

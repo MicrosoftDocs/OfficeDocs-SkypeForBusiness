@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Delete an existing collection of CDR configuration settings'
+description: "Lync Server 2013: Delete an existing collection of CDR configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

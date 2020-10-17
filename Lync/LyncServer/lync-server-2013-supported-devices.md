@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Supported devices'
+description: "Lync Server 2013: Supported devices."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

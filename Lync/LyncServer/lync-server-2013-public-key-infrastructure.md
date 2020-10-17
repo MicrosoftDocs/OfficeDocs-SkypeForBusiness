@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Public Key Infrastructure'
+description: "Lync Server 2013: Public Key Infrastructure."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

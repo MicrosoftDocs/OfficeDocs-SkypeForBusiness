@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring default picture options'
+description: "Lync Server 2013: Configuring default picture options."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

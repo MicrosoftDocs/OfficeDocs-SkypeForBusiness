@@ -1,5 +1,6 @@
 ---
 title: Deploy Lync Server 2013 clients
+description: "Deploy Lync Server 2013 clients."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for and configuring IPv6'
+description: "Lync Server 2013: Planning for and configuring IPv6."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

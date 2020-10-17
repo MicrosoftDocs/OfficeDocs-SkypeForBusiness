@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server'
+description: "Lync Server 2013: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

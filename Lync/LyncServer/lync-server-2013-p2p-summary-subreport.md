@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: P2P Summary Subreport'
+description: "Lync Server 2013: P2P Summary Subreport."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

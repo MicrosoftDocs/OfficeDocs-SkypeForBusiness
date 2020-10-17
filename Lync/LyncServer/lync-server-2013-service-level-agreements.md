@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Service level agreements'
+description: "Lync Server 2013: Service level agreements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

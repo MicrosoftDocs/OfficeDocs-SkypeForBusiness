@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 client and device hardware support
+description: "Lync Server 2013 client and device hardware support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

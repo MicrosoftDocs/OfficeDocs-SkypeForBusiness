@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using Lync-Skype connectivity as an end user'
+description: "Lync Server 2013: Using Lync-Skype connectivity as an end user."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

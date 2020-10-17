@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing network subnet information'
+description: "Lync Server 2013: Viewing network subnet information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring the meeting invitation'
+description: "Lync Server 2013: Configuring the meeting invitation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a network region'
+description: "Lync Server 2013: Create or modify a network region."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

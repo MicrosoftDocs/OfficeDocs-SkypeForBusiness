@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Overview of Active Directory Domain Services preparation'
+description: "Lync Server 2013: Overview of Active Directory Domain Services preparation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

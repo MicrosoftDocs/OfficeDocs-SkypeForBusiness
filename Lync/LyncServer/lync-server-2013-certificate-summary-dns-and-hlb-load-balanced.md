@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Certificate summary - DNS and HLB load balanced'
+description: "Lync Server 2013: Certificate summary - DNS and HLB load balanced."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Components used by the Announcement application'
+description: "Lync Server 2013: Components used by the Announcement application."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

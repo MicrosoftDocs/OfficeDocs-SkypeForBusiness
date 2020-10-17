@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Certificate requirements for internal servers'
+description: "Lync Server 2013: Certificate requirements for internal servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

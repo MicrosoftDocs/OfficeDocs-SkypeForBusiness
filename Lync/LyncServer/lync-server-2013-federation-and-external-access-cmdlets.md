@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Federation and external access cmdlets'
+description: "Lync Server 2013: Federation and external access cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

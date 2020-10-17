@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring voice policies and PSTN usage records to authorize calling features and privileges'
+description: "Lync Server 2013: Configuring voice policies and PSTN usage records to authorize calling features and privileges."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

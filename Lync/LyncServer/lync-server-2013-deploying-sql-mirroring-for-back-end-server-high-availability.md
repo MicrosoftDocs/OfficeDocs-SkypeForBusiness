@@ -1,5 +1,6 @@
 ---
 title: 'Deploying SQL mirroring for Back End Server high availability'
+description: "Deploying SQL mirroring for Back End Server high availability."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View CDR configuration information'
+description: "Lync Server 2013: View CDR configuration information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

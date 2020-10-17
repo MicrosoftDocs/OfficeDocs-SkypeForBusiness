@@ -1,5 +1,6 @@
 ---
 title: Standard migration scenario - high-level
+description: "Standard migration scenario - high-level."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

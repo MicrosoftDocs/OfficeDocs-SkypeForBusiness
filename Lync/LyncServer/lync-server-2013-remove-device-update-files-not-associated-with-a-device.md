@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Remove Device Update files not associated with a device'
+description: "Lync Server 2013: Remove Device Update files not associated with a device."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

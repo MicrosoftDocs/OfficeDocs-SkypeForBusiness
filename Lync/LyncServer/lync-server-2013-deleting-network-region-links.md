@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting network region links'
+description: "Lync Server 2013: Deleting network region links."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

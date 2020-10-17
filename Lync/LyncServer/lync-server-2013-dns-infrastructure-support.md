@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS infrastructure support'
+description: "Lync Server 2013: DNS infrastructure support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

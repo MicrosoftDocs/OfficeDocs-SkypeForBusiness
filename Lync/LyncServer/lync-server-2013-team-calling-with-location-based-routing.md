@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 team calling with Location-based routing
+description: "Lync Server 2013 team calling with Location-based routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

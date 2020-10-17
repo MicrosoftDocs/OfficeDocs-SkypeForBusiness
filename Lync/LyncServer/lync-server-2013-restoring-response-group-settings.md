@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring Response Group settings'
+description: "Lync Server 2013: Restoring Response Group settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

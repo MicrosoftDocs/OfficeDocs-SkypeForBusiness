@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Technical requirements for mobility'
+description: "Lync Server 2013: Technical requirements for mobility."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

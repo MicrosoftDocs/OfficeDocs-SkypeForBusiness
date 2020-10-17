@@ -1,5 +1,6 @@
 ---
 title: Configure clients for migration
+description: "Configure clients for migration."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

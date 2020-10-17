@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Poster: Lync Call Quality Methodology'
+description: "Lync Server 2013: Poster: Lync Call Quality Methodology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Translation rules'
+description: "Lync Server 2013: Translation rules."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Central Management store failover
+description: "Lync Server 2013 Central Management store failover."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

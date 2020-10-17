@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Design interactive voice response call flows'
+description: "Lync Server 2013: Design interactive voice response call flows."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Unassigned number cmdlets'
+description: "Lync Server 2013: Unassigned number cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

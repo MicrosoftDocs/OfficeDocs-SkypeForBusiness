@@ -1,5 +1,6 @@
 ---
 title: Migrate dial-in access numbers
+description: "Migrate dial-in access numbers."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

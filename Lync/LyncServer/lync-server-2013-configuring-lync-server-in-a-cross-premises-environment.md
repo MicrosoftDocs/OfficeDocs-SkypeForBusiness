@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Lync Server in a cross-premises environment'
+description: "Lync Server 2013: Configuring Lync Server in a cross-premises environment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using Config.xml to perform installation tasks'
+description: "Lync Server 2013: Using Config.xml to perform installation tasks."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

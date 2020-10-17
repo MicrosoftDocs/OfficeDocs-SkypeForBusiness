@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Mobility Service for high performance'
+description: "Lync Server 2013: Configuring Mobility Service for high performance."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 SIP trunking support
+description: "Lync Server 2013 SIP trunking support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

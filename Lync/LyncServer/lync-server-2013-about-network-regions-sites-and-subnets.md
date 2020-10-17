@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: About network regions, sites, and subnets'
+description: "Lync Server 2013: About network regions, sites, and subnets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

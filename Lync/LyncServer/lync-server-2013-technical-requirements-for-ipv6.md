@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 technical requirements for IPv6
+description: "Lync Server 2013 technical requirements for IPv6."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

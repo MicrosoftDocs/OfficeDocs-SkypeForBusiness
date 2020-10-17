@@ -1,5 +1,6 @@
 ---
 title: Remove the Monitoring server association
+description: "Remove the Monitoring server association."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

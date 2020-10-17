@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server network interfaces'
+description: "Lync Server 2013: Lync Server network interfaces."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Large-meeting scheduling process'
+description: "Lync Server 2013: Large-meeting scheduling process."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

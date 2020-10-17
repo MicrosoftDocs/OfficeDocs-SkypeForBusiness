@@ -1,5 +1,6 @@
 ---
 title: 'Technical requirements for Front End Servers, instant messaging, and presence'
+description: "Technical requirements for Front End Servers, instant messaging, and presence."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a network site'
+description: "Lync Server 2013: Create or modify a network site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

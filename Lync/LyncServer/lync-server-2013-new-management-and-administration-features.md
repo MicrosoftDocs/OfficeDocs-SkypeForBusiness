@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New management and administration features'
+description: "Lync Server 2013: New management and administration features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

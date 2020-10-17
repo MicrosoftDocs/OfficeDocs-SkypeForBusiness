@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Branch-site resiliency requirements'
+description: "Lync Server 2013: Branch-site resiliency requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
