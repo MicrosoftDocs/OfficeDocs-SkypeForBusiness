@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring a reverse proxy for Autodiscover'
+description: "Lync Server 2013: Configuring a reverse proxy for Autodiscover."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Configuring a reverse proxy for Autodiscover in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Configuring a reverse proxy for Autodiscover in Lync Server 2013
+
 
 </div>
 

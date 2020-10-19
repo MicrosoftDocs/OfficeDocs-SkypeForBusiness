@@ -1,5 +1,6 @@
 ---
 title: Identities, scopes, and tenants in Skype for Business Online
+description: "Identities, scopes, and tenants in Skype for Business Online."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Identities, scopes, and tenants in Skype for Business Online
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Identities, scopes, and tenants in Skype for Business Online
+
 
 </div>
 
