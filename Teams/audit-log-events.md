@@ -44,7 +44,9 @@ Before you can look at audit data, you have to first turn on auditing in the [Se
 ## Retrieve Teams data from the audit log
 
 1. To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search**, select **Audit log search**.
+
 2. Use **Search** to filter by the activities, dates, and users you want to audit.
+
 3. Export your results to Excel for further analysis.
 
 > [!IMPORTANT]
@@ -58,8 +60,9 @@ Here are tips for searching for Teams activities in the audit log.
 
 ![Screenshot of audit log search page](media/audit-log-search-page.png)
 
-- You can select specific activities to search for by clicking the activity name. Or you can search for all activities in a group (such as **File and folder activities**) by clicking the group name. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.<br>
-    ![Screenshot of audit log search](media/audit-log-search.png)
+- You can select specific activities to search for by clicking the activity name. Or you can search for all activities in a group (such as **File and folder activities**) by clicking the group name. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
+
+  ![Screenshot of audit log search](media/audit-log-search.png)
 
 - To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, search for all activities, and then filter the results by typing the name of the operation in the box in the **Activity** column. To learn more, see [Step 3: Filter the search results](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
 
