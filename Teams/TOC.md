@@ -690,6 +690,7 @@
 #### [Use Teams healthcare templates in the admin center](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Manage the Lists app](manage-lists-app.md)
+### [Manage the Tasks app](manage-tasks-app.md)
 ### Shifts for Teams
 #### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
