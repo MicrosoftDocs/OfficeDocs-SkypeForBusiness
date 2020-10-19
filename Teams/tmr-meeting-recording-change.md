@@ -143,6 +143,8 @@ Captions help create inclusive content for viewers of all abilities. As an owner
 
 Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
 
+Closed captions are not fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive or SharePoint.
+
 **How will my storage quota be impacted**
 
 Teams meeting recording files live in OneDrive for Business and SharePoint and are included in your quota for those services. See
