@@ -1,5 +1,6 @@
 ---
 title: Configure DNS records for pilot pool deployment
+description: "Configure DNS records for pilot pool deployment."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -15,13 +16,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Configure DNS records for pilot pool deployment
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Configure DNS records for pilot pool deployment
+
 
 </div>
 

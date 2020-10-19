@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.analyticsandreports.overview
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection: 
   - M365-collaboration
 description: In this article, you will learn about the Teams reports that are available in the Microsoft Teams admin center.
@@ -26,7 +26,7 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 ## How to access the reports
 
-To access the reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, Teams communications admin, or Skype for Business admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
+To access the reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
 

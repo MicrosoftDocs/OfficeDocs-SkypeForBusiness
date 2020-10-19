@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign a per-user voice policy'
+description: "Lync Server 2013: Assign a per-user voice policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
