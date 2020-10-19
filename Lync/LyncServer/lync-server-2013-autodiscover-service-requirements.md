@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Autodiscover service requirements'
+description: "Lync Server 2013: Autodiscover service requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

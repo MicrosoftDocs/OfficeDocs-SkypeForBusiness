@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Set up certificates for the external edge interface'
+description: "Lync Server 2013: Set up certificates for the external edge interface."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

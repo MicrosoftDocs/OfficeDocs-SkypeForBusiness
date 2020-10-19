@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Locations table'
+description: "Lync Server 2013: Locations table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

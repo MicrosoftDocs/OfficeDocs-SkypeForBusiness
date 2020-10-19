@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign a per-user hosted voice mail policy'
+description: "Lync Server 2013: Assign a per-user hosted voice mail policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

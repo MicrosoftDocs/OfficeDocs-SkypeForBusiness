@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblLastChatId'
+description: "Lync Server 2013: tblLastChatId."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

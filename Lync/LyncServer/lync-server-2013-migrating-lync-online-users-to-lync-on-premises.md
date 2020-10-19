@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Migrating Lync Online users to Lync on-premises'
+description: "Lync Server 2013: Migrating Lync Online users to Lync on-premises."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

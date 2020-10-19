@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up Lync federation'
+description: "Lync Server 2013: Setting up Lync federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

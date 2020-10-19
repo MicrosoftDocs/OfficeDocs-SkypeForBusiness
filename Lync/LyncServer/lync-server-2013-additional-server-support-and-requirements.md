@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Additional server support and requirements'
+description: "Lync Server 2013: Additional server support and requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

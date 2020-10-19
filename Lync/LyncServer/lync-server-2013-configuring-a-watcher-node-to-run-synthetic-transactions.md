@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring a watcher node to run synthetic transactions'
+description: "Lync Server 2013: Configuring a watcher node to run synthetic transactions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

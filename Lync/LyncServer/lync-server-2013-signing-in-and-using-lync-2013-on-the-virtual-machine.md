@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Signing in and using Lync 2013 on the virtual machine'
+description: "Lync Server 2013: Signing in and using Lync 2013 on the virtual machine."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 capacity planning calculator
+description: "Lync Server 2013 capacity planning calculator."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

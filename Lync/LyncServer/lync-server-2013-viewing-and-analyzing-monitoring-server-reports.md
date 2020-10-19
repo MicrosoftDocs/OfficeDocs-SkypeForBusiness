@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing and analyzing monitoring server reports'
+description: "Lync Server 2013: Viewing and analyzing monitoring server reports."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing trusted applications'
+description: "Lync Server 2013: Managing trusted applications."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

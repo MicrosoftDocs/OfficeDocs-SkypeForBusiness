@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: PSTN gateways cmdlets'
+description: "Lync Server 2013: PSTN gateways cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Configuring SIP federation, XMPP federation and public instant messaging'
+description: "Configuring SIP federation, XMPP federation and public instant messaging."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

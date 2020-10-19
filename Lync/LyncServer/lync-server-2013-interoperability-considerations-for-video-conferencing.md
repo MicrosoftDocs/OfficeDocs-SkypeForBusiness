@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Interoperability considerations for video conferencing'
+description: "Lync Server 2013: Interoperability considerations for video conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

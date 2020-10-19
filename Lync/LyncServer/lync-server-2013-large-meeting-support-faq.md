@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Large meeting support FAQ'
+description: "Lync Server 2013: Large meeting support FAQ."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

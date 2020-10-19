@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Persistent Chat Server table details'
+description: "Lync Server 2013: Persistent Chat Server table details."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

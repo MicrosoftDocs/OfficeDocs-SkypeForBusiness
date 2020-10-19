@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Backup and restoration requirements: tools and permissions'
+description: "Lync Server 2013: Backup and restoration requirements: tools and permissions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

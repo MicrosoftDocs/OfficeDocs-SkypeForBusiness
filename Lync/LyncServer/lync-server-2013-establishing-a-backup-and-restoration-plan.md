@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Establishing a backup and restoration plan'
+description: "Lync Server 2013: Establishing a backup and restoration plan."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

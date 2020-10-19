@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblNode'
+description: "Lync Server 2013: tblNode."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure an SNMP application'
+description: "Lync Server 2013: Configure an SNMP application."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

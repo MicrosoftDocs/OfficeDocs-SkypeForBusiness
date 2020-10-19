@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Linking network regions'
+description: "Lync Server 2013: Linking network regions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

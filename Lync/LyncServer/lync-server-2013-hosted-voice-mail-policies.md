@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hosted voice mail policies'
+description: "Lync Server 2013: Hosted voice mail policies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

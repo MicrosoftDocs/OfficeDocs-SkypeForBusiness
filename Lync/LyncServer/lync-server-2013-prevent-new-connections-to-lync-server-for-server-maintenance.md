@@ -1,5 +1,6 @@
 ---
 title: 'Prevent new connections to Lync Server for server maintenance'
+description: "Prevent new connections to Lync Server for server maintenance."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

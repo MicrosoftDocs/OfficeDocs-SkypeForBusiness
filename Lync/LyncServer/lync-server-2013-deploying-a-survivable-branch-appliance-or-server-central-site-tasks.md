@@ -1,5 +1,6 @@
 ---
 title: 'Deploying a Survivable Branch Appliance or Server - central site tasks'
+description: "Deploying a Survivable Branch Appliance or Server - central site tasks."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

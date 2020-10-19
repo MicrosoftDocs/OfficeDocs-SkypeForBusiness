@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Choosing an E9-1-1 service provider'
+description: "Lync Server 2013: Choosing an E9-1-1 service provider."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

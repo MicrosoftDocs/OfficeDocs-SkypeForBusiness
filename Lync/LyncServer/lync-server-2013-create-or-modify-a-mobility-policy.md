@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a mobility policy'
+description: "Lync Server 2013: Create or modify a mobility policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

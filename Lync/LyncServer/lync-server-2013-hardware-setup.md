@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hardware setup'
+description: "Lync Server 2013: Hardware setup."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

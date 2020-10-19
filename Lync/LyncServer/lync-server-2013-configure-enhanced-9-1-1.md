@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure Enhanced 9-1-1'
+description: "Lync Server 2013: Configure Enhanced 9-1-1."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Migration from Office Communications Server 2007 R2 to Lync Server 2013
+description: "Migration from Office Communications Server 2007 R2 to Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -72,15 +73,15 @@ This document defines terms as specified in the following list.
 
 ## In This Section
 
-  - [Before you begin the migration](before-you-begin-the-migration_1.md)
+  - [Before you begin the migration](before-you-begin-the-migration.md)
 
-  - [Migration phases](migration-phases_1.md)
+  - [Migration phases](migration-phases.md)
 
   - [Phase 1: Plan your migration from Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Phase 2: Prepare for migration](phase-2-prepare-for-migration_1.md)
+  - [Phase 2: Prepare for migration](phase-2-prepare-for-migration.md)
 
-  - [Phase 3: Deploy Lync Server 2013 pilot pool](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [Phase 3: Deploy Lync Server 2013 pilot pool](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
   - [Phase 4: Merge topologies](phase-4-merge-topologies.md)
 

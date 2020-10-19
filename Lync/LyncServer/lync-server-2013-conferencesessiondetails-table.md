@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ConferenceSessionDetails table'
+description: "Lync Server 2013: ConferenceSessionDetails table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

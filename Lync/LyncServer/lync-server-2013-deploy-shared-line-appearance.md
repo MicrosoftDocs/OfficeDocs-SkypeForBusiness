@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploy Shared Line Appearance'
+description: "Lync Server 2013: Deploy Shared Line Appearance."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

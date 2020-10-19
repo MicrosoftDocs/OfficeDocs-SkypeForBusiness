@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: QoE table details'
+description: "Lync Server 2013: QoE table details."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

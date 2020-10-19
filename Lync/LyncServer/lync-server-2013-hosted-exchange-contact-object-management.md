@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Hosted Exchange Contact object management'
+description: "Lync Server 2013: Hosted Exchange Contact object management."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

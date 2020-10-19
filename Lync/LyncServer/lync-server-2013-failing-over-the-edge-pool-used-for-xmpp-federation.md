@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Failing over the Edge pool used for XMPP federation'
+description: "Lync Server 2013: Failing over the Edge pool used for XMPP federation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

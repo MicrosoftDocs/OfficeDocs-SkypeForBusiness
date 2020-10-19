@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Running large meetings'
+description: "Lync Server 2013: Running large meetings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

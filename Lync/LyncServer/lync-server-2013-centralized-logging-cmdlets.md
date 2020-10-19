@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Centralized Logging cmdlets'
+description: "Lync Server 2013: Centralized Logging cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

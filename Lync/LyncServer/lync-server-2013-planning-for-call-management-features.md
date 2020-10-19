@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for call management features'
+description: "Lync Server 2013: Planning for call management features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

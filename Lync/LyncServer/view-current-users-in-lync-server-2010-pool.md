@@ -1,5 +1,6 @@
 ---
 title: View current users in Lync Server 2010 pool
+description: "View current users in Lync Server 2010 pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

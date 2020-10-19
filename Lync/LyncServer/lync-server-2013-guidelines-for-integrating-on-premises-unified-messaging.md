@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Guidelines for integrating on-premises Unified Messaging'
+description: "Lync Server 2013: Guidelines for integrating on-premises Unified Messaging."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

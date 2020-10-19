@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing application-level Response Group settings'
+description: "Lync Server 2013: Managing application-level Response Group settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

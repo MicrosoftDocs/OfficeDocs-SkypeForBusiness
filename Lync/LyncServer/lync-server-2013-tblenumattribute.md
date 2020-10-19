@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblEnumAttribute'
+description: "Lync Server 2013: tblEnumAttribute."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

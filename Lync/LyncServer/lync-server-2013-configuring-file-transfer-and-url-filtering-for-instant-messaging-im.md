@@ -1,5 +1,6 @@
 ---
 title: 'Configuring file transfer and URL filtering for instant messaging (IM)'
+description: "Configuring file transfer and URL filtering for instant messaging (IM)."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: AppliedBandwidthSource table'
+description: "Lync Server 2013: AppliedBandwidthSource table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

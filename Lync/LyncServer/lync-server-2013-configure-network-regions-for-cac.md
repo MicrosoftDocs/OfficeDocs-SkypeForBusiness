@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure network regions for CAC'
+description: "Lync Server 2013: Configure network regions for CAC."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

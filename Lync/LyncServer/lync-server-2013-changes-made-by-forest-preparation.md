@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Changes made by forest preparation'
+description: "Lync Server 2013: Changes made by forest preparation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

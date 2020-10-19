@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring and health configuration'
+description: "Lync Server 2013: Monitoring and health configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Defining the user experience for manually acquiring a location'
+description: "Defining the user experience for manually acquiring a location."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

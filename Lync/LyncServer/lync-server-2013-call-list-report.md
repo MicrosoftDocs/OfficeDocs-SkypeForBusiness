@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call List Report'
+description: "Lync Server 2013: Call List Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

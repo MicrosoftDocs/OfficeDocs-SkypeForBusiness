@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: List of CDR tables'
+description: "Lync Server 2013: List of CDR tables."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

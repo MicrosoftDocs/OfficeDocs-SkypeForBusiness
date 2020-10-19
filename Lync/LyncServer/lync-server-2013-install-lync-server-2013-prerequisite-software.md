@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install Lync Server 2013 prerequisite software'
+description: "Lync Server 2013: Install Lync Server 2013 prerequisite software."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

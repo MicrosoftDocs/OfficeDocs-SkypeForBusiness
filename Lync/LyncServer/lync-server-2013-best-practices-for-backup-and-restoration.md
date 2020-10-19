@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Best practices for backup and restoration'
+description: "Lync Server 2013: Best practices for backup and restoration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

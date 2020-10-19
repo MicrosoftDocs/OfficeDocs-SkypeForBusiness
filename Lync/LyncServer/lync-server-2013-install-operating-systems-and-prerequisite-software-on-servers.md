@@ -1,5 +1,6 @@
 ---
 title: 'Install operating systems and prerequisite software on servers'
+description: "Install operating systems and prerequisite software on servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call Diagnostic Reports'
+description: "Lync Server 2013: Call Diagnostic Reports."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'DNS summary - SIP, XMPP federation, and public instant messaging'
+description: "DNS summary - SIP, XMPP federation, and public instant messaging."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

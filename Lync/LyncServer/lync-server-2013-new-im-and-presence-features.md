@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New IM and presence features'
+description: "Lync Server 2013: New IM and presence features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

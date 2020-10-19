@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Moving a chat room from one category to another'
+description: "Lync Server 2013: Moving a chat room from one category to another."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

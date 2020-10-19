@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Additional software requirements'
+description: "Lync Server 2013: Additional software requirements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

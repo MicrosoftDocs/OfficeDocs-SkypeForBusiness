@@ -1,5 +1,6 @@
 ---
 title: 'Managing server-to-server authentication (OAuth) and partner applications'
+description: "Managing server-to-server authentication (OAuth) and partner applications."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

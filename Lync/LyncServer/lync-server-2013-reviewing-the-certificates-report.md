@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Reviewing the Certificates Report'
+description: "Lync Server 2013: Reviewing the Certificates Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

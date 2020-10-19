@@ -1,5 +1,6 @@
 ---
 title: Configuring Lync Server 2013 to use Microsoft Exchange Server 2013 archiving
+description: "Configuring Lync Server 2013 to use Microsoft Exchange Server 2013 archiving."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

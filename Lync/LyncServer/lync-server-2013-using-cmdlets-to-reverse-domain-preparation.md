@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Using cmdlets to reverse domain preparation'
+description: "Lync Server 2013: Using cmdlets to reverse domain preparation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

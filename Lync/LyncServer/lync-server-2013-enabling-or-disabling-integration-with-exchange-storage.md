@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling or disabling integration with Exchange storage'
+description: "Lync Server 2013: Enabling or disabling integration with Exchange storage."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Validating audio/video conferences'
+description: "Lync Server 2013: Validating audio/video conferences."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

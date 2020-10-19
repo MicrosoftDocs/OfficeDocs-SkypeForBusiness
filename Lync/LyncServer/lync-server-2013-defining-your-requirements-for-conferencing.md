@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining your requirements for conferencing'
+description: "Lync Server 2013: Defining your requirements for conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

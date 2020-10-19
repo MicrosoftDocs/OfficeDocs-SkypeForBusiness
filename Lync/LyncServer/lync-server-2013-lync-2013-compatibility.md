@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync 2013 compatibility'
+description: "Lync Server 2013: Lync 2013 compatibility."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify the default URL filter'
+description: "Lync Server 2013: Modify the default URL filter."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

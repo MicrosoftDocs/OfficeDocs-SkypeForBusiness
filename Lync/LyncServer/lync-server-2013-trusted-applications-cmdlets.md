@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Trusted applications cmdlets'
+description: "Lync Server 2013: Trusted applications cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

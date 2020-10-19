@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Single Director'
+description: "Lync Server 2013: Single Director."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

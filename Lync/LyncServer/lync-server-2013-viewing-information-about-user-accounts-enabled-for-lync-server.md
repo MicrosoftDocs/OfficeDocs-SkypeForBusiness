@@ -1,5 +1,6 @@
 ---
 title: 'Viewing information about user accounts enabled for Lync Server'
+description: "Viewing information about user accounts enabled for Lync Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

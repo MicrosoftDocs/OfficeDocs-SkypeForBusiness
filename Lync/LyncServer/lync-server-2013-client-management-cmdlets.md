@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Client management cmdlets'
+description: "Lync Server 2013: Client management cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

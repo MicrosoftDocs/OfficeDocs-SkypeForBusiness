@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Customizing Lync behavior and the user interface'
+description: "Lync Server 2013: Customizing Lync behavior and the user interface."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

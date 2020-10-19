@@ -1,5 +1,6 @@
 ---
 title: Migrate Mediation Server
+description: "Migrate Mediation Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

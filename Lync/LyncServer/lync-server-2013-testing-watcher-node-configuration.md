@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing watcher node configuration'
+description: "Lync Server 2013: Testing watcher node configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

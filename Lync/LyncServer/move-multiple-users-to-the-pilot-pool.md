@@ -1,5 +1,6 @@
 ---
 title: Move multiple users to the pilot pool
+description: "Move multiple users to the pilot pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Certificate summary - Scaled consolidated edge with hardware load balancers'
+description: "Certificate summary - Scaled consolidated edge with hardware load balancers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

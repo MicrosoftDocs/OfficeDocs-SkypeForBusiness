@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 Resource Kit Tools Documentation
+description: "Lync Server 2013 Resource Kit Tools Documentation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

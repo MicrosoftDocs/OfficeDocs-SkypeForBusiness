@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining the location policy'
+description: "Lync Server 2013: Defining the location policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Dial-in conferencing access numbers'
+description: "Lync Server 2013: Dial-in conferencing access numbers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

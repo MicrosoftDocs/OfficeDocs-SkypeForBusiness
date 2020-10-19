@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Security cmdlets'
+description: "Lync Server 2013: Security cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

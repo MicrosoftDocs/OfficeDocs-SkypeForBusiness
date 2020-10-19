@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing the replica service'
+description: "Lync Server 2013: Testing the replica service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Database installation using Lync Server Management Shell'
+description: "Lync Server 2013: Database installation using Lync Server Management Shell."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

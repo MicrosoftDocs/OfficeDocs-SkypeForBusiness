@@ -1,5 +1,6 @@
 ---
 title: 'Using a stretched Persistent Chat Server pool for disaster recovery'
+description: "Using a stretched Persistent Chat Server pool for disaster recovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

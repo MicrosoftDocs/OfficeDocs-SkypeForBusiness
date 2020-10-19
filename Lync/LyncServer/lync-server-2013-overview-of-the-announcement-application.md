@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Overview of the Announcement application'
+description: "Lync Server 2013: Overview of the Announcement application."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

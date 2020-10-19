@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring media port range settings'
+description: "Lync Server 2013: Configuring media port range settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

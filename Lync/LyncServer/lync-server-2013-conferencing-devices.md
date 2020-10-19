@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Conferencing devices'
+description: "Lync Server 2013: Conferencing devices."
 ms.reviewer:
 ms.author: v-lanac
 author: lanachin

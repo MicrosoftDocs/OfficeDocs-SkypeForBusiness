@@ -1,5 +1,6 @@
 ---
 title: Move Lync Server 2010 Conference Directories to Lync Server 2013
+description: "Move Lync Server 2010 Conference Directories to Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign a Kerberos authentication account to a site'
+description: "Lync Server 2013: Assign a Kerberos authentication account to a site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

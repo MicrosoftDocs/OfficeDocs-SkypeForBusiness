@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Set up Edge certificates'
+description: "Lync Server 2013: Set up Edge certificates."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

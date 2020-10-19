@@ -1,5 +1,6 @@
 ---
 title: 'Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool'
+description: "Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Configuring a watcher node to participate in System Center discovery'
+description: "Configuring a watcher node to participate in System Center discovery."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

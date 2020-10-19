@@ -1,5 +1,6 @@
 ---
 title: 'Synchronize a Kerberos authentication account password to IIS'
+description: "Synchronize a Kerberos authentication account password to IIS."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

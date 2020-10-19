@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (Optional) Verify the Group Call Pickup deployment'
+description: "Lync Server 2013: (Optional) Verify the Group Call Pickup deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

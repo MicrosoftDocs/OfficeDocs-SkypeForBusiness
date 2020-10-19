@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning and deploying video'
+description: "Lync Server 2013: Planning and deploying video."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

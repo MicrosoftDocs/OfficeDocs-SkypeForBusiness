@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install the files for Mediation Server'
+description: "Lync Server 2013: Install the files for Mediation Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

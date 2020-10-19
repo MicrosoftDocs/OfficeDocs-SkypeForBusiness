@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: PSTN connectivity cmdlets'
+description: "Lync Server 2013: PSTN connectivity cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

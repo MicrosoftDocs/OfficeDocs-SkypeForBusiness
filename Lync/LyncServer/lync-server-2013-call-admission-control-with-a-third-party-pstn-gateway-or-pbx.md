@@ -1,5 +1,6 @@
 ---
 title: 'Call admission control with a third-party PSTN gateway or PBX'
+description: "Call admission control with a third-party PSTN gateway or PBX."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure categories'
+description: "Lync Server 2013: Configure categories."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

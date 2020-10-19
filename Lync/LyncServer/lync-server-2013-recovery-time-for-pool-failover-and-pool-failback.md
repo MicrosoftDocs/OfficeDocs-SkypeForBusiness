@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 recovery time for pool failover and pool failback
+description: "Lync Server 2013 recovery time for pool failover and pool failback."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

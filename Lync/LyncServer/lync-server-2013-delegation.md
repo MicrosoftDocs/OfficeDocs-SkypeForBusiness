@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Delegation'
+description: "Lync Server 2013: Delegation."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

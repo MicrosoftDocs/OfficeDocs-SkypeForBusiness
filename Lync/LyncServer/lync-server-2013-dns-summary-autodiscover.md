@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS summary - Autodiscover'
+description: "Lync Server 2013: DNS summary - Autodiscover."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

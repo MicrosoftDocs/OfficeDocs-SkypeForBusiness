@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Check trunk configuration against a phone number'
+description: "Lync Server 2013: Check trunk configuration against a phone number."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

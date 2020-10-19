@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Call admission control cmdlets'
+description: "Lync Server 2013: Call admission control cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

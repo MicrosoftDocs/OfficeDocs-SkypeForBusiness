@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Building an edge and Director topology'
+description: "Lync Server 2013: Building an edge and Director topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

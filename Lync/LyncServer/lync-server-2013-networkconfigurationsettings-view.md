@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: NetworkConfigurationSettings view'
+description: "Lync Server 2013: NetworkConfigurationSettings view."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

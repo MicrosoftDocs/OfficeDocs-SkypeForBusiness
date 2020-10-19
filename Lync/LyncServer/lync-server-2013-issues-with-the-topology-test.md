@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Issues with the topology test'
+description: "Lync Server 2013: Issues with the topology test."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

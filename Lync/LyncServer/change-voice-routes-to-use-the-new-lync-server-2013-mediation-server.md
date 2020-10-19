@@ -1,5 +1,6 @@
 ---
 title: Change voice routes to use the new Lync Server 2013 Mediation Server
+description: "Change voice routes to use the new Lync Server 2013 Mediation Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

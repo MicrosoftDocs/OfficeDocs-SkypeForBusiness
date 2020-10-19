@@ -1,5 +1,6 @@
 ---
 title: 'Using search on capture logs created by the Centralized Logging Service'
+description: "Using search on capture logs created by the Centralized Logging Service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

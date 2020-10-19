@@ -1,5 +1,6 @@
 ---
 title: Deploy Lync Server 2013 pilot pool
+description: "Deploy Lync Server 2013 pilot pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

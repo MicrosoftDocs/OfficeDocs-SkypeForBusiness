@@ -1,5 +1,6 @@
 ---
 title: Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets in
+description: "Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets in."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

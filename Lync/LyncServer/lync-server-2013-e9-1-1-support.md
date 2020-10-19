@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 E9-1-1 support
+description: "Lync Server 2013 E9-1-1 support."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Intertrunk routing'
+description: "Lync Server 2013: Intertrunk routing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

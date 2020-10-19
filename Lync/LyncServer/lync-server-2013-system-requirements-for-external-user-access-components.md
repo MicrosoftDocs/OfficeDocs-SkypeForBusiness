@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: System requirements for external user access components'
+description: "Lync Server 2013: System requirements for external user access components."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

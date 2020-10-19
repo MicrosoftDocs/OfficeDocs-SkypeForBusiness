@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a common area phone Contact object'
+description: "Lync Server 2013: Create or modify a common area phone Contact object."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

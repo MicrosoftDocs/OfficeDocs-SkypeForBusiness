@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monthly tasks'
+description: "Lync Server 2013: Monthly tasks."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

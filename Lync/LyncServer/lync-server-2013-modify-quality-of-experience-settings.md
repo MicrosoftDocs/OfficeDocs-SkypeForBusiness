@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify Quality of Experience settings'
+description: "Lync Server 2013: Modify Quality of Experience settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

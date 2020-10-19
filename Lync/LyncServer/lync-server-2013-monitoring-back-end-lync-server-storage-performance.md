@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Monitoring back end Lync Server storage performance'
+description: "Lync Server 2013: Monitoring back end Lync Server storage performance."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

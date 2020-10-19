@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View a list of computers running Lync Server 2013'
+description: "Lync Server 2013: View a list of computers running Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

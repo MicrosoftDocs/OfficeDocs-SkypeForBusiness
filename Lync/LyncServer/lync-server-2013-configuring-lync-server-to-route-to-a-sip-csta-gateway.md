@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring Lync Server to route to a SIP/CSTA gateway'
+description: "Lync Server 2013: Configuring Lync Server to route to a SIP/CSTA gateway."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

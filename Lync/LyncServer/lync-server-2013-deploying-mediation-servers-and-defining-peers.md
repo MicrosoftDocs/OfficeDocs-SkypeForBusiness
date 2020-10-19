@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploying Mediation Servers and defining peers'
+description: "Lync Server 2013: Deploying Mediation Servers and defining peers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

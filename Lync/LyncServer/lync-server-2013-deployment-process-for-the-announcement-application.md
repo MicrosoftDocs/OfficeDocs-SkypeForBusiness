@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deployment process for the Announcement application'
+description: "Lync Server 2013: Deployment process for the Announcement application."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

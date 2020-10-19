@@ -1,5 +1,6 @@
 ---
 title: Remove an authorized host entry
+description: "Remove an authorized host entry."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

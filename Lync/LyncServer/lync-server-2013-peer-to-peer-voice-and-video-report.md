@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Peer-to-Peer Voice and Video Report'
+description: "Lync Server 2013: Peer-to-Peer Voice and Video Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

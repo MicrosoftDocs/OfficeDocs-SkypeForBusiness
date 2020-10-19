@@ -1,5 +1,6 @@
 ---
 title: 'Scaled Director pool - DNS load balancing and hardware load balancer'
+description: "Scaled Director pool - DNS load balancing and hardware load balancer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

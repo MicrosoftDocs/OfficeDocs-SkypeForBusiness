@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Reducing unsolicited IM'
+description: "Lync Server 2013: Reducing unsolicited IM."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

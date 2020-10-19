@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Antivirus scanning exclusions'
+description: "Lync Server 2013: Antivirus scanning exclusions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

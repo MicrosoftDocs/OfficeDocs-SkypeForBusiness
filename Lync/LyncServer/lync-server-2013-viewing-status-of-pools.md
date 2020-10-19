@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing status of pools'
+description: "Lync Server 2013: Viewing status of pools."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

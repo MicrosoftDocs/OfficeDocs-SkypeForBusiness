@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up site policies for Archiving'
+description: "Lync Server 2013: Setting up site policies for Archiving."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

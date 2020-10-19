@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Import Device Update rules'
+description: "Lync Server 2013: Import Device Update rules."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

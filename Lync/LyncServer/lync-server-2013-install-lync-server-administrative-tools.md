@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install Lync Server administrative tools'
+description: "Lync Server 2013: Install Lync Server administrative tools."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

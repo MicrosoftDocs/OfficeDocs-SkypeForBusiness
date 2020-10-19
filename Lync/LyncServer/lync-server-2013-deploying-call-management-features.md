@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deploying call management features'
+description: "Lync Server 2013: Deploying call management features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

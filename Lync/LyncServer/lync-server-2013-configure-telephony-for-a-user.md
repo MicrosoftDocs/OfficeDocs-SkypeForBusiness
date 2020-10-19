@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure telephony for a user'
+description: "Lync Server 2013: Configure telephony for a user."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

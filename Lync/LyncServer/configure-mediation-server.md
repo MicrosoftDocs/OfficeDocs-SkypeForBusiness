@@ -1,5 +1,6 @@
 ---
 title: Configure Mediation Server
+description: "Configure Mediation Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

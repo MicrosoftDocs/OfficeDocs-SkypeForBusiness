@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 deployment checklist for dial-in conferencing
+description: "Lync Server 2013 deployment checklist for dial-in conferencing."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

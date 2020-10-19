@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 reference topologies
+description: "Lync Server 2013 reference topologies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

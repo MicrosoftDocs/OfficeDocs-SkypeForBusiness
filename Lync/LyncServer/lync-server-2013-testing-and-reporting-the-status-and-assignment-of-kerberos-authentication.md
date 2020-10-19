@@ -1,5 +1,6 @@
 ---
 title: 'Testing and reporting the status and assignment of Kerberos authentication'
+description: "Testing and reporting the status and assignment of Kerberos authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Modify existing Web Service configuration settings'
+description: "Lync Server 2013: Modify existing Web Service configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

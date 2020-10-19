@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013:  cmdlets index'
+description: "Lync Server 2013:  cmdlets index."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

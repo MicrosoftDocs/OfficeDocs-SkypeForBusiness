@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Viewing network bandwidth policy profile information'
+description: "Lync Server 2013: Viewing network bandwidth policy profile information."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

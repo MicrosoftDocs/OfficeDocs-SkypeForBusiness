@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Make sure dial plans have assigned regions'
+description: "Lync Server 2013: Make sure dial plans have assigned regions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

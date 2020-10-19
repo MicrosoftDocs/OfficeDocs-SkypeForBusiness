@@ -1,5 +1,6 @@
 ---
 title: Reset call admission control
+description: "Reset call admission control."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

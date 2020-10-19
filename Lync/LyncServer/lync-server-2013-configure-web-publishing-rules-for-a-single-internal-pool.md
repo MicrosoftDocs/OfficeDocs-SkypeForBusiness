@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure web publishing rules for a single internal pool'
+description: "Lync Server 2013: Configure web publishing rules for a single internal pool."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

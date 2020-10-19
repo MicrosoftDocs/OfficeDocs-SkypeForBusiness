@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for Exchange Unified Messaging integration'
+description: "Lync Server 2013: Planning for Exchange Unified Messaging integration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

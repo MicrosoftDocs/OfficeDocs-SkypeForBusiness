@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring and monitoring the Backup Service'
+description: "Lync Server 2013: Configuring and monitoring the Backup Service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

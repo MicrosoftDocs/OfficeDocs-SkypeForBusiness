@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Associate a subnet with a network site'
+description: "Lync Server 2013: Associate a subnet with a network site."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: User roles in Persistent Chat Server'
+description: "Lync Server 2013: User roles in Persistent Chat Server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

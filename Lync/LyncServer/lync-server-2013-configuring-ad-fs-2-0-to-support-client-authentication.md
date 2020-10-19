@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring AD FS 2.0 to support client authentication'
+description: "Lync Server 2013: Configuring AD FS 2.0 to support client authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

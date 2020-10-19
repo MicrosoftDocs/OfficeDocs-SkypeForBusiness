@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a collection of CDR configuration settings'
+description: "Lync Server 2013: Create or modify a collection of CDR configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

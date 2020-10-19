@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 release notes
+description: "Lync Server 2013 release notes."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

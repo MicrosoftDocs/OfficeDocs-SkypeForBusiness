@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enabling or disabling the purging of archived data'
+description: "Lync Server 2013: Enabling or disabling the purging of archived data."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

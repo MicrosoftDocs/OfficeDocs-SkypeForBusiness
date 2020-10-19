@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting up support for large meetings'
+description: "Lync Server 2013: Setting up support for large meetings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

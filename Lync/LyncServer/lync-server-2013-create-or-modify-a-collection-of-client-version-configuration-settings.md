@@ -1,5 +1,6 @@
 ---
 title: 'Create or modify a collection of client version configuration settings'
+description: "Create or modify a collection of client version configuration settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

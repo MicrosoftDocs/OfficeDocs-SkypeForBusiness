@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Schema reference'
+description: "Lync Server 2013: Schema reference."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

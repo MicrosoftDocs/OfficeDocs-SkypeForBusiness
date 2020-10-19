@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Static routing cmdlets'
+description: "Lync Server 2013: Static routing cmdlets."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

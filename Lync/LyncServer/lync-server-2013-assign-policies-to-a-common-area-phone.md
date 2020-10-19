@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign policies to a common area phone'
+description: "Lync Server 2013: Assign policies to a common area phone."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

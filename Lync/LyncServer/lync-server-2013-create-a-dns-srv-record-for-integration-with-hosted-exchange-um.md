@@ -1,5 +1,6 @@
 ---
 title: 'Create a DNS SRV record for integration with hosted Exchange UM'
+description: "Create a DNS SRV record for integration with hosted Exchange UM."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

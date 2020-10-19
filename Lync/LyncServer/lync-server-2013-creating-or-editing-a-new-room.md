@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Creating or editing a new room'
+description: "Lync Server 2013: Creating or editing a new room."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

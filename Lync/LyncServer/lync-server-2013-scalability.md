@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 scalability
+description: "Lync Server 2013 scalability."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

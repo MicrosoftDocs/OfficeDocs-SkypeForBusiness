@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Providing Lync Server users voice mail on hosted Exchange UM'
+description: "Lync Server 2013: Providing Lync Server users voice mail on hosted Exchange UM."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

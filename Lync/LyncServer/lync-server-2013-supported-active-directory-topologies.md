@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Supported Active Directory topologies'
+description: "Lync Server 2013: Supported Active Directory topologies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

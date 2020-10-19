@@ -1,5 +1,6 @@
 ---
 title: 'Monitoring, starting, and stopping the Persistent Chat services'
+description: "Monitoring, starting, and stopping the Persistent Chat services."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

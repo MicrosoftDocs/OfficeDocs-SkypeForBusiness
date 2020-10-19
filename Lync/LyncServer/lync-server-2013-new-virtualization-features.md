@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New virtualization features'
+description: "Lync Server 2013: New virtualization features."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

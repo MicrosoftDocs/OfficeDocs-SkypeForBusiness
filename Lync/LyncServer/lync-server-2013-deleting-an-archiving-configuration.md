@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Deleting an Archiving configuration'
+description: "Lync Server 2013: Deleting an Archiving configuration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: "Lync Server 2013: What's new for clients"
+description: "Lync Server 2013: What's new for clients."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

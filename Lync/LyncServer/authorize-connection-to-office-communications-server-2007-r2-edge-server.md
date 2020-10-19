@@ -1,5 +1,6 @@
 ---
 title: Authorize connection to Office Communications Server 2007 R2 Edge Server
+description: "Authorize connection to Office Communications Server 2007 R2 Edge Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

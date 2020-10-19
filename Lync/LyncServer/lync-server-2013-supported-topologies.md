@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 supported topologies
+description: "Lync Server 2013 supported topologies."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

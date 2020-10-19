@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Managing Lync Server services and server roles'
+description: "Lync Server 2013: Managing Lync Server services and server roles."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: Prepare Active Directory for Lync Server
+description: "Prepare Active Directory for Lync Server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: Migration phases
+description: "Migration phases."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

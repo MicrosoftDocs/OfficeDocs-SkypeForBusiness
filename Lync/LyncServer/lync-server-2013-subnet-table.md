@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Subnet table'
+description: "Lync Server 2013: Subnet table."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

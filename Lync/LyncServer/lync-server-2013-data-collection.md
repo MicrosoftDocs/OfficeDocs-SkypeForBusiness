@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Data collection'
+description: "Lync Server 2013: Data collection."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

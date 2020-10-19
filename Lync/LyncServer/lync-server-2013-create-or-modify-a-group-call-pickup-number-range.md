@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create or modify a Group Call Pickup number range'
+description: "Lync Server 2013: Create or modify a Group Call Pickup number range."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

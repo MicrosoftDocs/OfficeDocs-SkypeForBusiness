@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: User Activity Report'
+description: "Lync Server 2013: User Activity Report."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

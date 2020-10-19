@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test push notifications to smart phones'
+description: "Lync Server 2013: Test push notifications to smart phones."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

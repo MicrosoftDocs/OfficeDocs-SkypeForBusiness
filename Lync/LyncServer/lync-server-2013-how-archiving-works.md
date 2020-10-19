@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: How Archiving works'
+description: "Lync Server 2013: How Archiving works."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

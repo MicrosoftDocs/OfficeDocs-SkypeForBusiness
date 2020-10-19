@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Planning for announcements'
+description: "Lync Server 2013: Planning for announcements."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

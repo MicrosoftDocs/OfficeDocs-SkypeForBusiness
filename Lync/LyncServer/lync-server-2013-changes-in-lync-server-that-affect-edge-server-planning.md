@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Changes in Lync Server that affect Edge Server planning'
+description: "Lync Server 2013: Changes in Lync Server that affect Edge Server planning."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

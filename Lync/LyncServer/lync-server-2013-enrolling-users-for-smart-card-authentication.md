@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enrolling users for smart card authentication'
+description: "Lync Server 2013: Enrolling users for smart card authentication."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

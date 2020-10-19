@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Set up system platforms'
+description: "Lync Server 2013: Set up system platforms."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

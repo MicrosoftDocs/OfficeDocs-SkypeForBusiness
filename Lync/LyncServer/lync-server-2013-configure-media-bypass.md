@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure media bypass'
+description: "Lync Server 2013: Configure media bypass."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

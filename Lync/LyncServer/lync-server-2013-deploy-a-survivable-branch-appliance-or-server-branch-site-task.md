@@ -1,5 +1,6 @@
 ---
 title: 'Deploy a Survivable Branch Appliance or Server - branch site task'
+description: "Deploy a Survivable Branch Appliance or Server - branch site task."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

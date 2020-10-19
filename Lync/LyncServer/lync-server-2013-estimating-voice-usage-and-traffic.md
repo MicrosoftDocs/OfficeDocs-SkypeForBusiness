@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Estimating voice usage and traffic'
+description: "Lync Server 2013: Estimating voice usage and traffic."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

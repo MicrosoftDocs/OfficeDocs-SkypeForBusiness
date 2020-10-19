@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Setting who can post messages in an auditorium chat room'
+description: "Lync Server 2013: Setting who can post messages in an auditorium chat room."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

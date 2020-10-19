@@ -1,5 +1,6 @@
 ---
 title: 'Group memberships and user rights requirements for Best Practices Analyzer'
+description: "Group memberships and user rights requirements for Best Practices Analyzer."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

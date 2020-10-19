@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Granting setup permissions'
+description: "Lync Server 2013: Granting setup permissions."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

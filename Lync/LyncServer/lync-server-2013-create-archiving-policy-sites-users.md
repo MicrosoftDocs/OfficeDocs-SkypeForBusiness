@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Creating an Archiving policy to enable or disable Archiving of internal or external communications for specific sites or users'
+description: "Lync Server 2013: Creating an Archiving policy to enable or disable Archiving of internal or external communications for specific sites or users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

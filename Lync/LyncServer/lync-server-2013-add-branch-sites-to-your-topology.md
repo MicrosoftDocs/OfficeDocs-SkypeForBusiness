@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Add branch sites to your topology'
+description: "Lync Server 2013: Add branch sites to your topology."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

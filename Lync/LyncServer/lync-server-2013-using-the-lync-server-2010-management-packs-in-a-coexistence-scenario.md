@@ -1,5 +1,6 @@
 ---
 title: 'Using the Lync Server 2010 management packs in a coexistence scenario'
+description: "Using the Lync Server 2010 management packs in a coexistence scenario."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

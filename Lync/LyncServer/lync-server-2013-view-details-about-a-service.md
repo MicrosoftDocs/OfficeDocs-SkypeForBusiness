@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: View details about a service'
+description: "Lync Server 2013: View details about a service."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

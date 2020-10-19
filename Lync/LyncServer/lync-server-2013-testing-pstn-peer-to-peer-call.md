@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing PSTN peer to peer call'
+description: "Lync Server 2013: Testing PSTN peer to peer call."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

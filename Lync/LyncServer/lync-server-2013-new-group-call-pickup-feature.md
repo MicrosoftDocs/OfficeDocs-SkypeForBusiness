@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: New Group Call Pickup feature'
+description: "Lync Server 2013: New Group Call Pickup feature."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Create a voice routing test case'
+description: "Lync Server 2013: Create a voice routing test case."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

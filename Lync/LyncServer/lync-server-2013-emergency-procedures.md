@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Emergency procedures'
+description: "Lync Server 2013: Emergency procedures."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Enable Lync users for remote call control'
+description: "Lync Server 2013: Enable Lync users for remote call control."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

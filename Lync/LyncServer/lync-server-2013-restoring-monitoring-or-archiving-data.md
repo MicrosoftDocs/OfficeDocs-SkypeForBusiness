@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Restoring monitoring or archiving data'
+description: "Lync Server 2013: Restoring monitoring or archiving data."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

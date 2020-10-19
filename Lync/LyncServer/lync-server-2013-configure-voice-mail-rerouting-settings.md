@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configure voice mail rerouting settings'
+description: "Lync Server 2013: Configure voice mail rerouting settings."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

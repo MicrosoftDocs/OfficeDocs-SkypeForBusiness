@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Defining normalization rules'
+description: "Lync Server 2013: Defining normalization rules."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
