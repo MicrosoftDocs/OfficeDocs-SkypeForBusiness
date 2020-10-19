@@ -1,5 +1,6 @@
 ---
 title: Remove the SQL Server database for an Archiving server
+description: "Remove the SQL Server database for an Archiving server."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Remove the SQL Server database for an Archiving server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Remove the SQL Server database for an Archiving server
+
 
 </div>
 
