@@ -1,5 +1,5 @@
 ---
-title: Use OneDrive and SharePoint for meeting recordings
+title: Use OneDrive for Business and SharePoint for meeting recordings
 author: cichur
 ms.author: v-cichur
 ms.reviewer: hao.moy
@@ -31,7 +31,7 @@ appliesto:
 |Q1 CY21|**Saving Teams meeting recording to Classic Stream no longer allowed**<br>All tenants will save Teams meeting recording to OneDrive for Business and SharePoint|
 
 
-Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](https://docs.microsoft.com/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive and SharePoint in Microsoft 365 and offers many benefits.
+Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](https://docs.microsoft.com/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits.
 
 The benefits of using OneDrive for Business and SharePoint for storing recordings include:
 
@@ -62,9 +62,9 @@ Watch "Meeting Recording" for more information.
 
 ## Set up the meeting recording option for OneDrive for Business and SharePoint
 
-1. Install the Skype For Business Online PowerShell admin console.
+1. Install the Skype For Business Online PowerShell Module.
 
-    a. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
+    a. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide). Note: Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector. See [Manage Skype for Business Online with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide).
 
     b. Follow the prompts to install it.
 
@@ -80,7 +80,7 @@ Watch "Meeting Recording" for more information.
   Import-PSSession $sfbSession
 ```
 
-4. Use [set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) to set a Teams Meeting Policy to transition from the Stream storage to ODSP.
+4. Use [set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -103,7 +103,7 @@ Even if a policy says it's set to **Stream**, it might not be set. Typically, if
 |1:1 call with internal parties             |Callee                 |Callee’s OneDrive for Business account                        |- Callee is owner, has full rights - Caller (if in the same tenant has read only access, no sharing access - Caller (if in different tenant) has no access. Callee must share it to the Callee|
 |1:1 call with an external call             |Caller                 |Caller’s OneDrive for Business account                        |- Caller is owner, has full rights - Callee has no access. Caller must share it to the Callee|
 |1:1 call with an external call             |Callee                 |Caller’s OneDrive for Business account                        |- Callee is owner, has full rights - Caller has no access. Callee must share it to the Caller|
-|Group call                                 |Any member of the call |Member who clicked on Record’s OneDrive for Business account  |- Member who clicked on Record has full rights - Other members from the same tenant have Read rights - Other members for different have no rights to it.|
+|Group call                                 |Any member of the call |Member who clicked on Record’s OneDrive for Business account  |- Member who clicked on Record has full rights - Other members from the same tenant have Read rights - Other members from different tenant have no rights to it.|
 |Adhoc/Scheduled meeting                    |Organizer              |Organizer’s OneDrive for Business account                     |- Organizer has full rights to the recording - All other members of the meeting have read access|
 |Adhoc/Scheduled meeting                    |Other meeting member   |Member who clicked on Record                                  |- Member who clicked on Record has full rights to the recording - Organizer has edit rights and can share - All other members have read access|
 |Adhoc/Scheduled meeting with external users|Organizer              |Organizer’s OneDrive for Business account                     |- Organizer has full rights to the recording - All other members of the meeting from the same tenant as the organizer have read access - All other external members have no access and the Organizer must share it to them|
@@ -115,7 +115,7 @@ Even if a policy says it's set to **Stream**, it might not be set. Typically, if
 
 **Where will the meeting recording be stored?**
 
-- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
+- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive for Business that belongs to the person who started the meeting recording. Example:
 
   <i>recorder's OneDrive for Business</i>/**Recordings**
 
@@ -125,7 +125,7 @@ Even if a policy says it's set to **Stream**, it might not be set. Typically, if
 
 **How do I handle recordings from former employees?**
 
-Since videos are just like any other file in OneDrive and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive and SharePoint process]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **Who has the permissions to view the meeting recording?**
 
@@ -135,7 +135,7 @@ Since videos are just like any other file in OneDrive and SharePoint, handling o
 
 **How can I manage transcripts?**
 
-Customers opting in to this preview will not have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in October 2020.
+Customers opting in to this preview will not have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive for Business and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in October 2020.
 
 Closed captions will be available on Teams Meeting Recordings for customers who have opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
 
