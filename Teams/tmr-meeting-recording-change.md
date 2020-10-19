@@ -74,17 +74,17 @@ Watch "Meeting Recording" for more information.
 
 3. Import the SkypeOnline Connector and log in as a Teams admin.
 
-```PowerShell
-  Import-Module SkypeOnlineConnector
-  $sfbSession = New-CsOnlineSession
-  Import-PSSession $sfbSession
-```
+   ```powershell
+     Import-Module SkypeOnlineConnector
+     $sfbSession = New-CsOnlineSession
+     Import-PSSession $sfbSession
+   ```
 
 4. Use [set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) to set a Teams Meeting Policy to transition from the Stream storage to ODSP.
 
-```PowerShell
-   Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
-```
+   ```powershell
+      Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
+   ```
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
