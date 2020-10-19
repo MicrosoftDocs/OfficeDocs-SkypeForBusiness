@@ -81,11 +81,11 @@ Your meeting organizers can now schedule meetings in Outlook. In Outlook, go to 
 
 ## Audio Conferencing phone numbers
 
-There are two types of numbers that you can use for your conferencing bridge. You can use **shared numbers** (discussed earlier in this article) or **dedicated numbers**. Here's more information about each.
+There are two types of numbers that you can use for your conferencing bridge. You can use **shared numbers** or **dedicated numbers**. Here's more information about each.
 
 ### Shared numbers
 
-A shared number is a number that's shared across all organizations. Shared numbers are toll numbers and are automatically assigned when you set up Audio Conferencing.
+A shared number is a number that's shared across all organizations. Shared numbers are toll numbers and are automatically assigned when you set up Audio Conferencing. 
 
 To see the default number that's assigned to your conferencing bridge, in the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Conference bridges**, and then find the number for the location that's nearest to you.
 
