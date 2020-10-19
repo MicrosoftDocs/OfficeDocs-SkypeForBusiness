@@ -33,7 +33,7 @@ In addition to the [features supported by Teams phones](phones-for-teams.md#feat
 - **Dedicated displays for Teams** Users can access all core Teams features including chat, meetings, calls, teams and channels, files and more.
 - **Ambient experience** Users can easily stay on top of their work with always-on and glanceable displays to see important activities and notifications without context-switching on their primary work device. Users can also personalize Teams displays by customizing the background through settings.
 - **Hands-free with Cortana** Users can interact with Teams displays using their voice to effortlessly join and present in meetings, dictate replies to a Teams chat, check what’s on the calendar, and more.
-- **Leave a note on lock screen** Guests can choose to leave audio,video, and text notes, and users can check the notes left by guests and see who’s stopped by.  
+- **Leave a note on lock screen** Guests can choose to leave audio, video, and text notes, and users can check the notes left by guests and see who’s stopped by.  
 
 ## Required licenses
 
@@ -47,7 +47,7 @@ To learn more about how to deploy Teams displays using Intune, see [Deploy Teams
 
 ## Manage Teams displays in your organization
 
-Manage and keep all your Teams devices up-to-date using the Microsoft Teams admin center. For more information, see [Manage your devices in Teams](device-management.md).
+Manage and keep your Teams displays up-to-date using the Microsoft Teams admin center. For more information, see [Manage your devices in Teams](device-management.md).
 
 ## See also
 
