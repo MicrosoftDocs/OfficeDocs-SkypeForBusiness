@@ -1,5 +1,6 @@
 ---
 title: 'Phase 10: Decommission legacy site'
+description: "Phase 10: Decommission legacy site."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Phase 10: Decommission legacy site
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Phase 10: Decommission legacy site
+
 
 </div>
 
@@ -60,7 +63,7 @@ The following topics provide guidance in decommissioning pools, and deactivating
 
   - [Move conference directories](move-conference-directories.md)
 
-  - [Update DNS SRV records](update-dns-srv-records_1.md)
+  - [Update DNS SRV records](update-dns-srv-records.md)
 
   - [Decommissioning servers and pools](decommissioning-servers-and-pools.md)
 

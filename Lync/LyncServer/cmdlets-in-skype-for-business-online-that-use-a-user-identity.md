@@ -1,5 +1,6 @@
 ---
 title: Cmdlets in Skype for Business Online that use a user identity
+description: "Cmdlets in Skype for Business Online that use a user identity."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

@@ -1,5 +1,6 @@
 ---
 title: 'Configure DNS records for a Front End pool or Standard Edition server'
+description: "Configure DNS records for a Front End pool or Standard Edition server."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Configure DNS records in Lync Server 2013 for a Front End pool or Standard Edition server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Configure DNS records in Lync Server 2013 for a Front End pool or Standard Edition server
+
 
 </div>
 
