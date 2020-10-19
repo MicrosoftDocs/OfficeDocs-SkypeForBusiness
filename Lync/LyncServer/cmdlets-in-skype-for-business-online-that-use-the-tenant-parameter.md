@@ -1,5 +1,6 @@
 ---
 title: Cmdlets in Skype for Business Online that use the Tenant parameter
+description: "Cmdlets in Skype for Business Online that use the Tenant parameter."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
