@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign a per-user conferencing policy'
+description: "Lync Server 2013: Assign a per-user conferencing policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin

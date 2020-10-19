@@ -1,5 +1,6 @@
 ---
 title: 'Using Best Practices Analyzer to identify potential issues in your deployment'
+description: "Using Best Practices Analyzer to identify potential issues in your deployment."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment
+
 
 </div>
 
