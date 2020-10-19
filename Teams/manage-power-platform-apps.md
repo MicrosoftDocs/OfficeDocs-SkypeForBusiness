@@ -76,7 +76,7 @@ For example, to block specific users from accessing apps created in Power Apps, 
 
 ### Use audit logs to investigate Power Platform installation activity
 
-You can use audit logs for Microsoft Teams to investigate events where users have installed Power Platform apps from the **Built by your colleagues** section of the Apps page in Teams. To do this, [search the audit log](https://docs.microsoft.com/en-us/microsoftteams/audit-log-events) for the **Installed app** Teams event (under the **AppInstalled** operation) for a given user or set of users. To find apps installed from the **Built by your colleagues** section, look for the **TemplatedInstance** value under the **AppDistributionMode** property in a given record's details. 
+You can use audit logs for Teams to investigate events where users installed Power Platform apps from the **Built by your colleagues** section of the Apps page in Teams. To do this, [search the audit log](https://docs.microsoft.com/microsoftteams/audit-log-events) for the **Installed app** Teams event (under the **AppInstalled** operation) for a given user or set of users. To find apps installed from the **Built by your colleagues** section, look for the **TemplatedInstance** value under the **AppDistributionMode** property in a given record's details. 
 
 > [!NOTE]
 > You can export audit records in CSV format for easier filtering.
