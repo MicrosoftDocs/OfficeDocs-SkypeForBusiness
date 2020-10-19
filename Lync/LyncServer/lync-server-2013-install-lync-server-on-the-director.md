@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Install Lync Server on the Director'
+description: "Lync Server 2013: Install Lync Server on the Director."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Install Lync Server 2013 on the Director
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Install Lync Server 2013 on the Director
+
 
 </div>
 
