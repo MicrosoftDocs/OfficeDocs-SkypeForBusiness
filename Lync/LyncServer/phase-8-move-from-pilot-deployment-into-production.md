@@ -1,5 +1,6 @@
 ---
 title: 'Phase 8: Move from pilot deployment into production'
+description: "Phase 8: Move from pilot deployment into production."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Phase 8: Move from pilot deployment into production
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Phase 8: Move from pilot deployment into production
+
 
 </div>
 
@@ -38,11 +41,11 @@ The topics in this section describe tasks you must complete prior to moving your
 
 ## In This Section
 
-  - [Configure federation routes and media traffic](configure-federation-routes-and-media-traffic_1.md)
+  - [Configure federation routes and media traffic](configure-federation-routes-and-media-traffic.md)
 
-  - [Move remaining users to Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
+  - [Move remaining users to Lync Server 2013](move-remaining-users-to-lync-server-2013.md)
 
-  - [Configure XMPP gateway on Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013_1.md)
+  - [Configure XMPP gateway on Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013.md)
 
 </div>
 
