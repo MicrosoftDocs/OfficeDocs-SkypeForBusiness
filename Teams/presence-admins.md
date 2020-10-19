@@ -38,7 +38,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 || ![Open red circle, indicates Busy](media/Presence_Busy_OOF.png) On a call, out of office|
 |  ![Red circle with white line, indicates Do Not Disturb](media/Presence_DND.png) Do not disturb ||
 || ![Red circle with white line, indicates Presenting](media/Presence_DND.png) Presenting|
-|| ![Red circle with white line, indicates Focusing](media/Presence_DND.png) Focusing. Focus happens when the user schedules focus time in MyAnalytics/Insights in her calendar.|
+|| ![Red circle with white line, indicates Focusing](media/Presence_DND.png) Focusing. Focus happens when the users schedule focus time in MyAnalytics/Insights in their calendars.|
 | ![Yellow clock icon, indicates away](media/Presence_Away.png) Away| ![Yellow clock icon, indicates away](media/Presence_Away.png) Away|
 || ![Yellow clock icon, indicates away](media/Presence_Away.png) Away Last Seen *time*|
 |![Yellow clock icon, indicates away, be right back](media/Presence_Away.png) Be right back| |
@@ -47,7 +47,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 || ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. (Available in Outlook only.) |
 |||
 
-App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, Focusing will be the state people see in Teams. Focus mode will display as Do not disturb in other products.
+App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
 
 Your current presence state changes to Away when you lock your computer or when your computer enters idle or sleep mode. On a mobile device, your presence status changes to Away whenever the Teams app is in the background.
 
