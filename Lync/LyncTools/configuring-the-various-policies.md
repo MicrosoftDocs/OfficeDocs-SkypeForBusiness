@@ -1,5 +1,6 @@
 ---
 title: Configuring the Various Policies
+description: "Configuring the Various Policies."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Configuring the Various Policies
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Configuring the Various Policies
+
 
 </div>
 
@@ -33,8 +36,6 @@ mtps_version: v=OCS.15
 _**Topic Last Modified:** 2013-02-24_
 
 <div>
-
-## Configuring the Various Policies
 
 Here are the various policies that you can configure in your Lync Server 2013 topology, prior to running the Lync Server 2013 Stress and Performance Tool.
 
