@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Testing peer to peer audio/video call'
+description: "Lync Server 2013: Testing peer to peer audio/video call."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Testing peer to peer audio/video call in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Testing peer to peer audio/video call in Lync Server 2013
+
 
 </div>
 

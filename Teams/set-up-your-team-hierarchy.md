@@ -134,9 +134,26 @@ Remove-TeamTargetingHierarchy
 
 ## Troubleshooting
 
-### You receive an error message when you upload your schema file
+### You receive an error message when you upload your schema CSV file
 
 Take note of the error message as it should include troubleshooting information to indicate why the schema couldn't be uploaded. Review and edit your schema CSV file based on the information in the error message and then try again.
+
+### You receive an "Error: InvalidTeamId" error message when you upload your schema CSV file
+
+When you try to upload your schema CSV file, you get the following error message:
+
+```console
+Error: InvalidTeamId
+Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
+```
+
+Check to make sure that you're using the correct TeamId for the team in your schema CSV file. The TeamId should be the same as the Group ID of the Microsoft 365 group that backs the team. You can look up the Group ID of the team in the Microsoft Teams admin center. 
+
+1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Teams** > **Manage teams**.
+2. If the **Group ID** column isn't displayed in the table, select **Edit columns** in the upper-right corner of the table, and then turn on **Group ID**.
+3. Find the team in the list, and then locate the Group ID.
+
+Make sure that the TeamId in your schema CSV file matches the Group ID that's displayed in the Microsoft Teams admin center. 
 
 ## Related topics
 

@@ -78,9 +78,10 @@ The following are the latest Teams IP phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Update #5       | August 31, 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0            | 1.0.0.202006290446.product Versioncode: 216|
+| Update #6       | October 12, 2020|1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
+| Update #5       | August 31, 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
 | Update #4       | June 30, 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Update #3       | May 13, 2020  | .040801                     | .4715                  | 1.210               |
+| Update #3       | May 13, 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
 #### Firmware versions
 
@@ -88,16 +89,16 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.5.203 | Update #5                |
-| AudioCodes C450HD   | C450HD_TEAMS_1.5.203 | Update #5                |
-|Lenovo ThinkSmart View|CD-18781Y.200809.091 |Update #5                 |
+| AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | Update #6                |
+| AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | Update #6                |
+|Lenovo ThinkSmart View|CD-18781Y.200922.098 | Update #6                |
 | Poly CCX400         | 6.2.21.1198          | Update #5                |
 | Poly CCX500/CCX600  | 6.2.21.1198          | Update #5                |
 | Poly Trio C60       | 5.9.5.2686           | Update #5                |
-| Yealink T55/T56/T58 | 58.15.0.110          | Update #5                |
-| Yealink MP56        | 122.15.0.13          | Update #5                |
-| Yealink VP59        | 91.15.0.44           | Update #5                |
-| Yealink CP960       | 73.15.0.105          | Update #5                |
+| Yealink T55/T56/T58 | 58.15.0.116          | Update #6                |
+| Yealink MP56        | 122.15.0.23          | Update #6                |
+| Yealink VP59        | 91.15.0.48           | Update #6                |
+| Yealink CP960       | 73.15.0.109          | Update #6                |
 
 ### Product release information for Collaboration Bars
 

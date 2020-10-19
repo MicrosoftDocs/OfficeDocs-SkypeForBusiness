@@ -1,5 +1,6 @@
 ---
 title: Verify that all Exchange UM Contact objects are removed from the legacy pool
+description: "Verify that all Exchange UM Contact objects are removed from the legacy pool."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Verify that all Exchange UM Contact objects are removed from the legacy pool
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Verify that all Exchange UM Contact objects are removed from the legacy pool
+
 
 </div>
 
