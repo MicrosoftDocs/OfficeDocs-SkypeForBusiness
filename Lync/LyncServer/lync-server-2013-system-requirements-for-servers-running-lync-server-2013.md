@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: System requirements for servers running Lync Server 2013'
+description: "Lync Server 2013: System requirements for servers running Lync Server 2013."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -13,6 +14,8 @@ ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
 ---
+
+
 
 # System requirements for servers running Lync Server 2013
 
