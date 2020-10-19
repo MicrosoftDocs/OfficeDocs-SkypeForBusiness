@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers'
+description: "Lync Server 2013: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Configuring a Quality of Service policy in Lync Server 2013 for your Conferencing, Application, and Mediation servers
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Configuring a Quality of Service policy in Lync Server 2013 for your Conferencing, Application, and Mediation servers
+
 
 </div>
 

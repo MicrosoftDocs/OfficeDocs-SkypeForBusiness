@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Assign a per-user dial plan policy'
+description: "Lync Server 2013: Assign a per-user dial plan policy."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
