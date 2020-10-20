@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013; Create network interregion routes
+description: "Lync Server 2013; Create network interregion routes."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -15,13 +16,15 @@ ms.date: 07/23/2014
 mtps_version: v=OCS.15
 ---
 
+# Create network interregion routes in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Create network interregion routes in Lync Server 2013
+
 
 </div>
 

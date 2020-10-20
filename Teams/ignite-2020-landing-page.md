@@ -6,6 +6,8 @@ ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
 ms.author: v-cichur
+audience: admin
+manager: serdars
 ---
 
 # Teams sessions at Ignite 2020

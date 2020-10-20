@@ -1,5 +1,6 @@
 ---
 title: Cmdlets in Skype for Business Online that do not use a scope or an identity
+description: "Cmdlets in Skype for Business Online that do not use a scope or an identity."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
