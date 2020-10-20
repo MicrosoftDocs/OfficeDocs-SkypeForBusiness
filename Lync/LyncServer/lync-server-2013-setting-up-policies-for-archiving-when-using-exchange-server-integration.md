@@ -1,5 +1,6 @@
 ---
 title: 'Setting up policies for Archiving when using Exchange Server integration'
+description: "Setting up policies for Archiving when using Exchange Server integration."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration
+
 
 </div>
 

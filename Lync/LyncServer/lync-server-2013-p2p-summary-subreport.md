@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: P2P Summary Subreport'
+description: "Lync Server 2013: P2P Summary Subreport."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# P2P Summary Subreport in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# P2P Summary Subreport in Lync Server 2013
+
 
 </div>
 

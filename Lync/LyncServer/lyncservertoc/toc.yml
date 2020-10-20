@@ -1346,7 +1346,7 @@
           - name: Overview of Active Directory Domain Services preparation
             href: ../lync-server-2013-overview-of-active-directory-domain-services-preparation.md
           - name: Preparing Active Directory Domain Services
-            href: ../lync-server-2013-preparing-active-directory-domain-services_1.md
+            href: ../lync-server-2013-preparing-active-directory-domain-services.md
             items:
             - name: Preparing the Active Directory schema
               href: ../lync-server-2013-preparing-the-active-directory-schema.md
@@ -2888,51 +2888,51 @@
       href: ../migration-from-office-communications-server-2007-r2-to-lync-server-2013.md
       items:
       - name: Before you begin the migration
-        href: ../before-you-begin-the-migration_1.md
+        href: ../before-you-begin-the-migration.md
         items:
         - name: Migration process
-          href: ../migration-process_1.md
+          href: ../migration-process.md
         - name: Migration phases
-          href: ../migration-phases_1.md
+          href: ../migration-phases.md
       - name: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
         href: ../phase-1-plan-your-migration-from-office-communications-server-2007-r2.md
         items:
         - name: User migration
-          href: ../user-migration_1.md
+          href: ../user-migration.md
         - name: Migrating Archiving and Monitoring servers
-          href: ../migrating-archiving-and-monitoring-servers_1.md
+          href: ../migrating-archiving-and-monitoring-servers.md
         - name: Administering servers after migration
-          href: ../administering-servers-after-migration_1.md
+          href: ../administering-servers-after-migration.md
         - name: Migrating multiple sites and pools
-          href: ../migrating-multiple-sites-and-pools_1.md
+          href: ../migrating-multiple-sites-and-pools.md
         - name: Migrating XMPP federation
-          href: ../migrating-xmpp-federation_1.md
+          href: ../migrating-xmpp-federation.md
       - name: 'Phase 2: Prepare for migration'
-        href: ../phase-2-prepare-for-migration_1.md
+        href: ../phase-2-prepare-for-migration.md
         items:
         - name: Apply Office Communications Server 2007 R2 updates
           href: ../apply-office-communications-server-2007-r2-updates.md
         - name: Configure DNS records for pilot pool deployment
-          href: ../configure-dns-records-for-pilot-pool-deployment_1.md
+          href: ../configure-dns-records-for-pilot-pool-deployment.md
         - name: Run Best Practices Analyzer
-          href: ../run-best-practices-analyzer_1.md
+          href: ../run-best-practices-analyzer.md
         - name: Back up systems and data
-          href: ../back-up-systems-and-data_1.md
+          href: ../back-up-systems-and-data.md
         - name: Configure clients for migration
-          href: ../configure-clients-for-migration_1.md
+          href: ../configure-clients-for-migration.md
         - name: Verify Office Communications Server 2007 R2 environment
           href: ../verify-office-communications-server-2007-r2-environment.md
       - name: 'Phase 3: Deploy Lync Server 2013 pilot pool'
-        href: ../phase-3-deploy-lync-server-2013-pilot-pool_1.md
+        href: ../phase-3-deploy-lync-server-2013-pilot-pool.md
         items:
         - name: Prepare Active Directory for Lync Server 2013
           href: ../prepare-active-directory-for-lync-server-2013.md
         - name: Install Lync Server administration tools
           href: ../install-lync-server-administration-tools.md
         - name: Deploy Lync Server 2013 pilot pool
-          href: ../deploy-lync-server-2013-pilot-pool_1.md
+          href: ../deploy-lync-server-2013-pilot-pool.md
         - name: Verify pilot pool coexistence with legacy pool
-          href: ../verify-pilot-pool-coexistence-with-legacy-pool_1.md
+          href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
       - name: 'Phase 4: Merge topologies'
         href: ../phase-4-merge-topologies.md
         items:
@@ -2948,56 +2948,56 @@
         href: ../phase-5-configure-the-pilot-pool.md
         items:
         - name: Connect pilot pool to legacy Edge Servers
-          href: ../connect-pilot-pool-to-legacy-edge-servers_1.md
+          href: ../connect-pilot-pool-to-legacy-edge-servers.md
         - name: Authorize connection to Office Communications Server 2007 R2 Edge Server
           href: ../authorize-connection-to-office-communications-server-2007-r2-edge-server.md
         - name: Verify configuration settings
-          href: ../verify-configuration-settings_1.md
+          href: ../verify-configuration-settings.md
         - name: Configure XMPP gateway access policies and certificates
-          href: ../configure-xmpp-gateway-access-policies-and-certificates_1.md
+          href: ../configure-xmpp-gateway-access-policies-and-certificates.md
       - name: 'Phase 6: Move users to the pilot pool'
         href: ../phase-6-move-users-to-the-pilot-pool.md
         items:
         - name: Verify user replication has completed
-          href: ../verify-user-replication-has-completed_1.md
+          href: ../verify-user-replication-has-completed.md
         - name: Move a single user to the pilot pool
-          href: ../move-a-single-user-to-the-pilot-pool_1.md
+          href: ../move-a-single-user-to-the-pilot-pool.md
         - name: Move multiple users to the pilot pool
-          href: ../move-multiple-users-to-the-pilot-pool_1.md
+          href: ../move-multiple-users-to-the-pilot-pool.md
       - name: 'Phase 7: Add Lync Server 2013 Edge Server to pilot pool'
         href: ../phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md
         items:
         - name: Deploy pilot Edge Server
-          href: ../deploy-pilot-edge-server_1.md
+          href: ../deploy-pilot-edge-server.md
         - name: Validate replication of configuration settings
           href: ../validate-replication-of-configuration-settings.md
       - name: 'Phase 8: Move from pilot deployment into production'
         href: ../phase-8-move-from-pilot-deployment-into-production.md
         items:
         - name: Configure federation routes and media traffic
-          href: ../configure-federation-routes-and-media-traffic_1.md
+          href: ../configure-federation-routes-and-media-traffic.md
         - name: Move remaining users to Lync Server 2013
-          href: ../move-remaining-users-to-lync-server-2013_1.md
+          href: ../move-remaining-users-to-lync-server-2013.md
         - name: Configure XMPP gateway on Lync Server 2013
-          href: ../configure-xmpp-gateway-on-lync-server-2013_1.md
+          href: ../configure-xmpp-gateway-on-lync-server-2013.md
       - name: 'Phase 9: Complete post-migration tasks'
         href: ../phase-9-complete-post-migration-tasks.md
         items:
         - name: Migrate response groups
-          href: ../migrate-response-groups_1.md
+          href: ../migrate-response-groups.md
         - name: Migrate dial-in access numbers
-          href: ../migrate-dial-in-access-numbers_1.md
+          href: ../migrate-dial-in-access-numbers.md
         - name: Enable Exchange 2013 Outlook Web App and IM integration
           href: ../enable-exchange-2013-outlook-web-app-and-im-integration.md
         - name: Migrate Address Book
-          href: ../migrate-address-book_1.md
+          href: ../migrate-address-book.md
         - name: Enable remote call control
           href: ../enable-remote-call-control.md
           items:
           - name: Remove an authorized host entry
             href: ../remove-an-authorized-host-entry.md
         - name: Remove legacy Archiving and Monitoring servers
-          href: ../remove-legacy-archiving-and-monitoring-servers_1.md
+          href: ../remove-legacy-archiving-and-monitoring-servers.md
         - name: Migrate Mediation Server
           href: ../migrate-mediation-server.md
           items:
@@ -3008,11 +3008,11 @@
           - name: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
             href: ../transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md
         - name: Configure trusted application servers
-          href: ../configure-trusted-application-servers_1.md
+          href: ../configure-trusted-application-servers.md
         - name: Configure the meeting join page
-          href: ../configure-the-meeting-join-page_1.md
+          href: ../configure-the-meeting-join-page.md
         - name: Deploy Lync Server 2013 clients
-          href: ../deploy-lync-server-2013-clients_1.md
+          href: ../deploy-lync-server-2013-clients.md
         - name: Move Exchange Unified Messaging Contact objects
           href: ../move-exchange-unified-messaging-contact-objects.md
         - name: Verify that all Exchange UM Contact objects are removed from the legacy pool
@@ -3023,7 +3023,7 @@
         - name: Move conference directories
           href: ../move-conference-directories.md
         - name: Update DNS SRV records
-          href: ../update-dns-srv-records_1.md
+          href: ../update-dns-srv-records.md
         - name: Decommissioning servers and pools
           href: ../decommissioning-servers-and-pools.md
         - name: Remove BackCompatSite
