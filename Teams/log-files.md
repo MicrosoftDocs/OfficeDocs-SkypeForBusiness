@@ -89,7 +89,7 @@ Media logs contain diagnostic data about audio, video, and screen sharing in Tea
 
 Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, and then restart Teams and reproduce the issue. 
 
-The following table outlines the media log locations. *Please also verify the timestamp of the log files to make sure the logs actually are from the time you reproduced the issue.*
+The following table outlines the media log locations. When you send the log files to Microsoft support, please verify the timestamp of the log files to make sure the logs cover the time frame when you reproduced the issue.
 
 |Client |Location |
 |---------|---------|
