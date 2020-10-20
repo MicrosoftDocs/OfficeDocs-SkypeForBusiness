@@ -92,9 +92,9 @@ When you install a new firmware version on your device, you can determine the co
 | AudioCodes C448HD   | C450HD_TEAMS_1.7.9   | Update #6                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.7.9   | Update #6                |
 |Lenovo ThinkSmart View|CD-18781Y.200922.098 | Update #6                |
-| Poly CCX400         | 6.2.21.1198          | Update #5                |
-| Poly CCX500/CCX600  | 6.2.21.1198          | Update #5                |
-| Poly Trio C60       | 5.9.5.2686           | Update #5                |
+| Poly CCX400         | 6.2.22.0185          | Update #6                |
+| Poly CCX500/CCX600  | 6.2.22.0185          | Update #6                |
+| Poly Trio C60       | 5.9.5.2983           | Update #6                |
 | Yealink T55/T56/T58 | 58.15.0.116          | Update #6                |
 | Yealink MP56        | 122.15.0.23          | Update #6                |
 | Yealink VP59        | 91.15.0.48           | Update #6                |
