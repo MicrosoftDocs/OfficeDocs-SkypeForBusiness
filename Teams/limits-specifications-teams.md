@@ -156,15 +156,15 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
 > [!IMPORTANT]
-> **Microsoft 365 live event limit increases**
+ **Microsoft 365 live event limit increases**
 >
-> To help customers meet rapidly changing communication needs, we will temporarily raise default limits until January 1, 2021, for live events hosted in Teams, Stream, and Yammer.
+> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for live events hosted in Teams, Stream, and Yammer, including**:
 >
-> - Attendee limit: events can support up to 20,000 attendees
-> - Concurrent events: 50 events can be hosted simultaneously across a tenant
-> - Event duration: event length has been increased to 16 hours per broadcast
+>- Up to 20,000 attendees per event
+>- Up to 50 simultaneous events per Teams tenant
+>- Up to 16 hours per broadcast
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft live events assistance program. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
 
 ## Presence in Outlook
 
