@@ -47,7 +47,7 @@ To learn more about how to deploy Teams displays using Intune, see [Deploy Teams
 
 ## Manage Teams displays in your organization
 
-Manage and keep your Teams displays up-to-date using the Microsoft Teams admin center. For more information, see [Manage your devices in Teams](device-management.md).
+To manage your Teams display devices, in the left navigation of the Microsoft Teams admin center, go to **Teams displays**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
 
 ## See also
 
@@ -58,5 +58,7 @@ Manage and keep your Teams displays up-to-date using the Microsoft Teams admin c
 [Phones for Teams](phones-for-teams.md)
 
 [IP Phones certified for Microsoft Teams](teams-ip-phones.md)
+
+[Upgrade IP phones to Teams displays](upgrade-phones-to-displays.md)
 
 [Cortana voice assistance in Teams](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)
