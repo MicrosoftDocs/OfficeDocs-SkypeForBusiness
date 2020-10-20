@@ -59,6 +59,8 @@ During the upgrade process, the device's firmware is updated to a Teams display 
 
 [Introducing Microsoft Teams displays](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
 
+[Teams displays](teams-displays.md)
+
 [Teams Marketplace](https://office.com/teamsdevices)
 
 [Phones for Teams](phones-for-teams.md)
