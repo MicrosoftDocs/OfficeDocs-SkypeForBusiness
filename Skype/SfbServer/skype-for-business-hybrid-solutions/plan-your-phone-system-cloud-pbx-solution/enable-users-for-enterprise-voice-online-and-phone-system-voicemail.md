@@ -40,7 +40,7 @@ To enable a user for Phone System Voice and voicemail, you'll need to perform so
 > Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
-1. Before you begin, check that the Teams PowerShell module is installed on your Front End Servers. If it's not, please  install using the instructions in [Teams PowerShell Module Insallation](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Before you begin, check that the Teams PowerShell module is installed on your Front End Servers. If it's not, please  install using the instructions in [Teams PowerShell Module Installation](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Start Windows PowerShell as an administrator.
     
