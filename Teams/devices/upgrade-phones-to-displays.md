@@ -49,11 +49,11 @@ Keep in mind that after you upgrade a Teams phone to a Teams display device, the
 
     :::image type="content" source="../media/upgrade-phones-to-displays-select.jpg" alt-text="Screenshot showing Teams phones selected for upgrade to Teams displays":::
 
-3. In the **Upgrade to Teams display** dialogue box, and then select **Schedule upgrade** or **Upgrade now**.
+3. In the **Upgrade to Teams display** dialogue box, and then select **Schedule upgrade** to set a date and time for the upgrade or **Upgrade now**.
 
     :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.jpg" alt-text="Screenshot showing Upgrade to Teams display dialogue box":::
 
-After you complete these steps, the device's firmware is updated to a Teams display device, the device restarts, and is ready for use. When the upgrade is completed, you'll see the device listed on the **Teams displays** page in the Microsoft Teams admin center.
+During the upgrade process, the device's firmware is updated to a Teams display device, the device restarts, and is ready for use. When the upgrade is completed, you'll see the device listed on the **Teams displays** page in the Microsoft Teams admin center.
 
 ## See also
 
