@@ -22,7 +22,7 @@ description: "Learn how to upgrade your Teams phones to Teams displays in the Mi
 
 This article gives you an overview of how to upgrade your Teams phones to Teams display devices in the Microsoft Teams admin center.
 
-Teams displays are a category of all-in-one dedicated Teams devices with an ambient touchscreen and a hands-free experience powered by Cortana. Teams displays are the evolution of Teams phones. In addition to [features supported by Teams phones](phones-for-teams.md#features-supported-by-teams-phones), Teams displays include features such as an always-on display in which all Teams activity and collaboration options are always available. To learn more, see [Microsoft Teams displays](teams-displays.md).
+Teams displays are a category of all-in-one dedicated Teams devices with an ambient touchscreen and a hands-free experience powered by Cortana. Teams displays are the evolution of Teams phones. In addition to [features supported by Teams phones](phones-for-teams.md#features-supported-by-teams-phones), Teams displays include features such as an always-on display in which all Teams activity and collaboration options are always available. To learn more about features unique to Teams displays, see [Microsoft Teams displays](teams-displays.md).
 
 You can convert existing Teams phones in your organization to Teams displays in the Microsoft Teams admin center. Doing this allows the device to provide a rich experience for your users as a Teams display device.  
 
