@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams for Healthcare organizations"
+title: "Get started with Teams for healthcare organizations"
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,9 +20,9 @@ description: Learn about features for health care that include care coordination
 ms.custom: seo-marvel-apr2020
 ---
 
-# Get started with Teams for Healthcare organizations
+# Get started with Teams for healthcare organizations
 
-Microsoft Teams offers a number of features useful for hospitals and other Healthcare organizations, including:
+Microsoft Teams offers a number of features useful for hospitals and other healthcare organizations, including:
 
 - Virtual visits and Electronic Healthcare Record (EHR) integration
 - Teams policy packages

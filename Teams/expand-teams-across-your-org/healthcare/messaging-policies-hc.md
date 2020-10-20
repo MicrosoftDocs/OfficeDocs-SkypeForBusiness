@@ -1,5 +1,5 @@
 ---
-title: "Secure Messaging for Healthcare organizations using Microsoft Teams"
+title: "Secure Messaging for healthcare organizations using Microsoft Teams"
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,9 +20,9 @@ description: Learn how to customize a Secure Messaging policy for Microsoft Team
 ms.custom: seo-marvel-mar2020
 ---
 
-# Secure Messaging for Healthcare organizations
+# Secure Messaging for healthcare organizations
 
-Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams, and are part of the overall deployment of Secure Messaging for Healthcare organizations like Hospitals, clinics, or doctor's offices, where having a message picked up and acted upon in a timely manner is crucial, as is knowing when crucial messages are read.
+Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams, and are part of the overall deployment of Secure Messaging for healthcare organizations like Hospitals, clinics, or doctor's offices, where having a message picked up and acted upon in a timely manner is crucial, as is knowing when crucial messages are read.
 
 You can use the global (Org-wide default) policy or create one or more custom messaging policies for people in your organization. Users in your organization will automatically get the global policy unless you create and assign a custom policy. After you create a custom policy, assign it a user or groups of users in your organization. For example, you may choose to only allow certain job roles to use these features (perhaps doctors and nurses only) and other workers (like the janitorial or kitchen staff) to get a more limited set of features. Decide for yourself what needs your organization has, the guidance here is at most a suggestion.
 
