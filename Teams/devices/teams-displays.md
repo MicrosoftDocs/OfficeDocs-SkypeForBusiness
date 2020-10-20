@@ -24,7 +24,7 @@ Microsoft Teams displays are a category of all-in-one dedicated Teams devices th
 
 Teams displays brings together your favorite Teams features&ndash;chat, meetings, calls, calendar, and files&ndash;into a single device. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
 
-To learn more, check out Get started with Teams displays [LINK TO END USER DOC].
+To learn more, check out [Get started with Teams displays](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6).
 
 ## Features supported by Teams displays
 
