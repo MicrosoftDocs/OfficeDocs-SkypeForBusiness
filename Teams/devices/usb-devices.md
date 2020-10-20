@@ -69,10 +69,12 @@ If you are a manufacturer and want to join the certification program, see [How t
 
 ## Certified devices
 
-*Table Updated August 2020*
+*Table Updated October 2020*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 80 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
