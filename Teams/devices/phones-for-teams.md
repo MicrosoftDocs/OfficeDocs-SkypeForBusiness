@@ -46,9 +46,9 @@ Teams-certified phones have a broad array of features to help your users do thei
 
 In addition to the above features, you can control what capabilities are available depending on the type of license and phone policy that are assigned to the user signing into the phone. For example, users who sign into a phone with their personal accounts can access the full range of features - calling, meetings, voicemail, and so on. Accounts assigned a Common Area Phone license that sign into a phone, however, may only get access to a limited range of features; call history and meeting schedules may not be retained, for example, to protect users' privacy.
 
-## Required Licenses
+## Required licenses
 
-Microsoft Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 subscriptions](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
+Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 subscriptions](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

@@ -24,7 +24,7 @@ Microsoft Teams displays are a category of all-in-one dedicated Teams devices th
 
 Teams displays brings together your favorite Teams features&ndash;chat, meetings, calls, calendar, and files&ndash;into a single device. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
 
-For the latest information on Teams devices, check out [Teams Marketplace](https://office.com/teamsdevices).
+To learn more, check out Get started with Teams displays [LINK TO END USER DOC].
 
 ## Features supported by Teams displays
 
@@ -48,6 +48,10 @@ To learn more about how to deploy Teams displays using Intune, see [Deploy Teams
 ## Manage Teams displays in your organization
 
 To manage your Teams display devices, in the left navigation of the Microsoft Teams admin center, go to **Teams displays**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
+
+## Upgrade Teams phones to Teams displays
+
+Teams displays is the evolution of Teams phones. You can upgrade existing Teams phones in your organization to Teams displays using the Microsoft Teams admin center. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
 
 ## See also
 
