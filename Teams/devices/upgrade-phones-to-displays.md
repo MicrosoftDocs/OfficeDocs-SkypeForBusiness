@@ -34,7 +34,7 @@ You can convert existing Teams phones in your organization to Teams displays in 
 
 ### How can I prepare users for the upgrade to Teams displays?
 
-Share [Get started with Teams displays](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6) with your users to help them get started using Teams displays. Let them know that there's not change to their data and preferences after the upgrade to Teams displays. For example, they can access all their meetings, missed calls, and voicemails in Teams displays. 
+Share [Get started with Teams displays](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6) with your users to help them get started using Teams displays. Let them know that there's no changes to their data or preferences after the upgrade. For example, users can access all their meetings, missed calls, and voicemails in Teams displays. 
 
 ### What happens after upgrading to Teams displays?
 
