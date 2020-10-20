@@ -81,7 +81,7 @@ Your meeting organizers can now schedule meetings in Outlook. In Outlook, go to 
 
 ## Audio Conferencing phone numbers
 
-There are two types of numbers that you can use for your conferencing bridge. You can use **shared numbers** (discussed earlier in this article) or **dedicated numbers**. Here's more information about each.
+There are two types of numbers that you can use for your conferencing bridge. You can use either **shared numbers** (as in the [Set up Audio Conferencing](#set-up-audio-conferencing) section earlier in this article) or **dedicated numbers**. Here's more information about each.
 
 ### Shared numbers
 
