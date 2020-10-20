@@ -8,12 +8,12 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
-f1.keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:
 - CSH
+- ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom: 
   - NewAdminCenter_Update
   - seo-marvel-apr2020

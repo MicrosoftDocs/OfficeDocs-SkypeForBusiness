@@ -28,7 +28,6 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-    
     [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
     are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both require 
     [**Phone System licenses**](/MicrosoftTeams/what-is-phone-system-in-office-365) to enable call control and PBX capabilities in the Office 365 cloud. The phone system 
@@ -54,7 +53,6 @@ items:
 - title: Assess business needs
   durationInMinutes: 4
   content: |
-
     Contoso Pizza is a small regional pizza delivery chain with twenty locations, and they want to convert their operation to use a virtual call center. They want 
     their call agents to log in to the Teams Desktop client and take orders using the company's existing order-taking system. The biggest attraction for them is being able 
     to expand or contract as needed without having to invest in office space for the call center. 
@@ -195,7 +193,6 @@ items:
 - title: Implementing a call queue 
   durationInMinutes: 7
   content: |
-
     The information needed to implement the design in the earlier diagram is presented in the tables that follow.
     The implementation uses text-to-speech for the scripts. Phone System has a built in text to speech engine so you the option 
     of entering your final text and deciding for yourself whether it conveys the impression you want. If not, it's up to you whether to record your 
