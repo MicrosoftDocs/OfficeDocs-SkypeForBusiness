@@ -72,7 +72,7 @@ To allow or block specific users in your organization from accessing apps create
 
 For example, to block specific users from accessing apps created in Power Apps, create a custom app permission policy to block **Shared Power Apps**, and then assign the policy to those users.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="Screenshot of example custom app permission policy with Shared Power Apps blocked":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot of example custom app permission policy with Shared Power Apps blocked":::
 
 ### Use audit logs to investigate Power Platform installation activity
 
