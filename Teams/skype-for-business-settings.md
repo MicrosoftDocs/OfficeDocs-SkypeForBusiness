@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- Adm_Skype4B_Online
 f1.keywords:
 - CSH
 ms.custom: 
