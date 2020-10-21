@@ -26,10 +26,12 @@ description: Learn how to manage settings for Skype for Business features in the
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-As an admin, the Microsoft Teams admin center is where you manage Skype for Business features for Skype for Business users in your organization. You can manage settings [for your organization](#manage-skype-for-business-settings-for-your-organization) on the **Skype for Business** page and settings [for individual  users](#manage-skype-for-business-settings-for-individual-users) on user detail pages.
+As an admin, the Microsoft Teams admin center is where you manage Skype for Business features for Skype for Business users in your organization. You can manage settings [for your organization](#manage-skype-for-business-settings-for-your-organization) on the **Skype for Business** page and settings [for individual users](#manage-skype-for-business-settings-for-individual-users) on the **Skype for Business** tab of user detail pages.
+
+You'll only see the **Skype for Business** page in the Microsoft Teams admin center if the coexistence mode for your organization isn't set to **Teams only**. Similarly, you'll only see the **Skype for Business** tab for a user if the coexistence mode of the user isn't **Teams only**. To learn more about coexistence modes, see [Understand Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
-> Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center. The **Legacy portal** has been retired and we migrated the settings to their new locations in the Teams admin center.
+> Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center. With the retirement of the legacy portal, we migrated the settings to these new locations in the Teams admin center for Skype for Business management.
 
 ## Manage Skype for Business settings for your organization
 
@@ -46,7 +48,7 @@ Use the following settings to manage [Skype Meeting Broadcast](https://support.m
 :::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Screenshot of Skype Meeting Broadcast settings in the admin center":::
 
 - **Skype Meeting Broadcasts**: Turn this on to enable Skype Meeting Broadcast for your organization. After you enable this feature, you need to [set up your network for Skype Meeting Broadcast](../Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md).
-- **See preview features**: Turn this on to get early access to new products and features. This gives your organization a sneak peek at what's coming and the opportunity to test new features in your own environment and give feedback before we release to the general public.
+- **See preview features**: Turn this on to get early access to new features.
 - **Organizers can schedule anonymous meetings**: Turn this on if you want to let organizers create broadcast events that allow anyone outside your organization to join without having to sign in. 
 - **Record Skype Meeting Broadcast meetings**: Turn this on to enable organizers and presenters to record meetings.  
 - **Helpdesk support URL for attendees**: Enter your organization's support URL that meeting attendees can use if they need help during a meeting.
@@ -64,7 +66,7 @@ Use the following settings to manage Skype for Business presence privacy and mob
 
 #### Presence
 
-By default, anyone in your organization (whether in Teams or Skype for Business) can see the presence status (such as Available, Busy, or Away) of other Skype for Business users. Choose one of the following to set who can see the presence of your Skype for Business users.
+By default, Skype for Business users in your organization can see the presence status (such as Available, Busy, or Away) of other Skype for Business users. Choose one of the following to set who can see the presence of your Skype for Business users.
 
 - **Automatically display presence**: Anyone in your organization who hasn't been added to the Skype for Business user's **External** or **Blocked** list can see that user's presence.
 - **Show user's presence to their contacts**: Anyone in the Skype for Business user's Contacts list who isn't added to their **External** or **Blocked** list can see that user's presence. Users can override this setting in Skype for Business by going to **Settings** > **Tools** > **Options**.
@@ -92,23 +94,23 @@ To manage Skype for Business settings for individual users, in the left navigati
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Screenshot of Skype for Business tab on user details page":::
 
-### External communications
+### External access settings
 
 You can selectively allow or block whether a user can communicate with people outside your organization.
 
 - **External Skype for Business users**: Turn this on if you want to allow the user to communicate with Skype for Business users in federated domains.
 - **External Skype users**: Turn this on if you want to allow the user to communicate with Skype users. 
 
-### Meetings
+### Meeting settings
 
 You can configure the following meeting settings for the user.
 
-- **Audio and video**: Choose one of the following to set whether audio and video is allowed in meetings the user schedules:
+- **Audio & video**: Choose one of the following audio and video settings:
 
-    - **None**: User can't schedule any meetings.
-    - **Audio only**: Only audio is allowed in meetings the user schedules.
-    - **Audio and video**: Audio and video are allowed in meetings the user schedules.
-    - **Audio and video (HD)**: Audio and high definition video are allowed in meetings the user schedules. 
+    - **None**: User can't use audio or video.
+    - **Audio only**: User can use audio but not video.
+    - **Audio and video**: User can use audio and video.
+    - **Audio and video (HD)**: User can use audio and high definition video.
     
 - **Record conversations & meetings**: Turn this on to allow the user to record conversations and meetings.
-- **Compliance**: Turn this on if you're legally required to retain electronically stored information. Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) set up. The features that are turned off are file transfer using instant messaging, shared OneNote pages, and PowerPoint annotations.
+- **Compliance**: Turn this on if you're legally required to retain electronically stored information. 
