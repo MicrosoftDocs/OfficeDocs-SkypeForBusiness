@@ -74,11 +74,11 @@ The Microsoft 365 admin and Epic admin from your organization must complete the 
 
 ### [Configure provider organization information](#configure-provider-organization-information)
 
-This step is to be completed by the Microsoft 365 administrator. The Microsoft 365 administrator must launch the connector configuration portal and sign-in with Microsoft credentials to start the configuration process.
+This step is to be completed by the Microsoft 365 administrator. The Microsoft 365 administrator must launch the connector configuration portal and sign in with Microsoft credentials to start the configuration process.
 
 To complete this step, the Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Microsoft 365 administrator and the username of the Epic administrator who will be approving the configuration. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process. 
 
-- The FHIR base URL is a static address corresponding to your server FHIR API endpoint.An example URL is [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST).
+- The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST).
 
 - Configuration approver name is the name of the Epic system administrator who will be responsible for approving the configuration.
 
@@ -89,17 +89,17 @@ To complete this step, the Microsoft 365 administrator must receive a valid Fast
 The Epic administrator for your healthcare organization who was added as an approver must now use the same EHR Connector URL from the previous step to sign in using their Microsoft 365 credentials. After successful validation, the approver is going to be asked to sign in using their Epic credentials to validate the Epic organization.
 
 > [!Note]
-> The Microsoft 365 admin and Epic admin in your organizations can be the same person. In that case, add your own username as approver in the first step. You'll still need to sign in to Epic to validate your access. The Epic sign-in is only used to validate your FHIR base URL. Microsoft will not store credentials or access EHR data with this sign in.
+> The Microsoft 365 admin and Epic admin in your organizations can be the same person. In that case, add your own username as approver in the first step. You'll still need to sign in to Epic to validate your access. The Epic sign in is only used to validate your FHIR base URL. Microsoft will not store credentials or access EHR data with this sign in.
 
   ![Verify and approve the credential configuration.](../../media/ehc-provider-2.png)
 
-After a successful Epic sign in, the Epic administrator **must** approve the configuration. If the configuration isn't correct, the Microsoft 365 admin will have the ability to modify the original configurations by logging in to the Microsoft EHR Connector portal again.
+After a successful Epic sign in, the Epic administrator **must** approve the configuration. If the configuration isn't correct, the Microsoft 365 admin will have the ability to modify the original configurations by signing in to the Microsoft EHR Connector portal again.
 
 ![Confirm that the EHR connector is configured and option to change the configuration.](../../media/ehc-approve-3.png)
 
 ### [Review and finish the configuration](#review-and-finish-the-configuration)
 
-When the configuration information is approved by the Epic administrator, you will be presented with integration records for patient and provider launch. These records are necessary to complete the virtual visit configuration in Epic. Refer to the Epic-Microsoft Teams Telehealth Integration guide for more details.
+When the configuration information is approved by the Epic administrator, you'll be presented with integration records for patient and provider launch. These records are necessary to complete the virtual visit configuration in Epic. Refer to the Epic-Microsoft Teams Telehealth Integration guide for more details.
 
 > [!Note]  
 > At any time the Microsoft 365 or Epic administrator can sign in to the configuration portal to view integration records and modify organization configuration, if needed.
@@ -114,7 +114,7 @@ After completing the EHR Connector steps and Epic configuration, your organizati
 
 - Your systems must meet all [software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
 
-- Healthcare organization must have completed the set-up between the Epic organization and Microsoft 365 organization.
+- Healthcare organization must have completed the setup between the Epic organization and Microsoft 365 organization.
 
 ### Provider experience
 
@@ -124,9 +124,9 @@ Key features of the provider experience:
 
 - Providers can join virtual visits using supported browsers or the Microsoft Teams application.
 
-- Providers must do a one-time sign in with their Microsoft 365 account when joining a virtual visit for the first time.
+- Providers must do a one time sign in with their Microsoft 365 account when joining a virtual visit for the first time.
 
-- After the one-time sign in, the provider will be taken straight to the virtual appointment in Microsoft Teams. (Provider must be signed-in to Microsoft Teams).
+- After the one time sign in, the provider will be taken straight to the virtual appointment in Microsoft Teams. (Provider must be signed-in to Microsoft Teams).
  
 - Provider can see real-time updates of participants connect and disconnect for a given appointment. The provider can see when the patient is connected to a virtual visit.
 
