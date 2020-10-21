@@ -58,7 +58,7 @@ You’ll also need information from the following people in your organization:
 
 The connector setup requires that you:
 
-- [Launch the EHR Connector configuration portal(ehr-adminmd#launch-the-ehr-connector-configuration-portal)
+- [Launch the EHR Connector configuration portal](ehr-adminmd#launch-the-ehr-connector-configuration-portal)
 - [Configure provider organization information](ehr-admin.md#configure-provider-organization-information)
 - [Verify and approve the configuration](ehr-admin.md#verify-and-approve-the-configuration)
 - [Review and finish the configuration](ehr-admin.md#review-and-finish-the-configuration)
