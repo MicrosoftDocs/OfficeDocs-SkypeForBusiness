@@ -20,7 +20,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Get started with Teams templates in the admin console
+# Get started with Teams templates in the admin center
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **Custom templates are not yet supported for EDU customers.**
 

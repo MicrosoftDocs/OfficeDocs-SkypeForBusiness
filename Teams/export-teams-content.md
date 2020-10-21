@@ -23,7 +23,7 @@ appliesto:
 
 # Export content with the Microsoft Teams Export APIs
 
-Teams Export APIs allow you to export 1:1 and group chat messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you can be able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) or [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
+Teams Export APIs allow you to export 1:1 and group chat messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you are able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) or [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
 
 Here are some examples on how you can use these export APIs:
 
@@ -84,8 +84,18 @@ Namespace: microsoft.graph
 "lastModifiedDateTime": "string (timestamp)",
 "deletedDateTime": "string (timestamp)",
 "subject": "string",
+"from": {
+                "application": null,
+                "device": null,
+                "conversation": null,
+                "user": {
+                    "id": "0de69e5e-2da8-4cf2-821f-5e6585b2c65b",
+                    "displayName": "User Name",
+                    "userIdentityType": "aadUser"                }
+            },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
+"chatId": "19:0de69e5e-2da8-4cf2-821f-5e6585b2c65b_5c64e248-3269-4268-a36e-0f80314e9c39@unq.gbl.spaces"
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",

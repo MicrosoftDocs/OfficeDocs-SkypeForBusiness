@@ -5,7 +5,6 @@ description: Get the administrator training and support that you need to manage 
 author: lanachin
 manager: serdars
 audience: admin
-ms.custom: seo-marvel-mar2020
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
@@ -21,7 +20,6 @@ f1.keywords:
 search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-lanac
-ms.custom: seo-marvel-mar2020
 ---
 # Admin training for Microsoft Teams
 
