@@ -15,32 +15,35 @@ ms.collection:
   - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: "Learn how to upgrade your Teams phones to Teams displays in the Microsoft Teams admin center."
+description: "Learn how to upgrade Teams phones to Teams displays in the Microsoft Teams admin center."
 ---
 
 # Upgrade Teams phones to Teams displays
 
-This article gives you an overview of how to upgrade your Teams phones to Teams display devices in the Microsoft Teams admin center.
+> [!IMPORTANT]
+> Currently, this feature is available on Lenovo ThinkSmart View phones. The information in this article applies only to this phone. We'll be adding support for additional phone models in the future.  
 
-Teams displays are a category of all-in-one dedicated Teams devices with an ambient touchscreen and a hands-free experience powered by Cortana. Teams displays are the evolution of Teams phones. In addition to [features supported by Teams phones](phones-for-teams.md#features-supported-by-teams-phones), Teams displays include features such as an always-on display in which all Teams activity and collaboration options are always available. To learn more about features unique to Teams displays, see [Microsoft Teams displays](teams-displays.md).
+This article gives you an overview of how to upgrade your Teams phones to Teams display devices in the Microsoft Teams admin center. Doing this allows the devices to provide a rich experience for your users as Teams display devices.
 
-You can convert existing Teams phones in your organization to Teams displays in the Microsoft Teams admin center. Doing this allows the device to provide a rich experience for your users as a Teams display device.  
+Teams displays are a category of all-in-one dedicated Teams devices with an ambient touchscreen and a hands-free experience powered by Cortana. Teams displays are the evolution of Teams phones. In addition to [features supported by Teams phones](phones-for-teams.md#features-supported-by-teams-phones), Teams displays include features such as an always-on display in which all Teams activity and collaboration options are always available. To learn more about features unique to Teams displays, see [Microsoft Teams displays](teams-displays.md). 
 
 ## What you need to know about upgrading to Teams displays
 
-### Which Teams phones can be upgraded to Teams displays?
+### Which Teams phones can be upgraded?
 
-[Question: Can all Teams/IP phones be upgraded to Teams displays?  If not, should we add some context here?]
+Currently, Lenovo ThinkSmart View phones can be upgraded to Teams displays. 
 
-### How can I prepare users for the upgrade to Teams displays?
+### How can I prepare users?
 
-Share [Get started with Teams displays](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6) with your users to help them get started using Teams displays. Let them know that there's no changes to their data or preferences after the upgrade. For example, users can access all their meetings, missed calls, and voicemails in Teams displays. 
+To get your users ready, share [Get started with Teams displays](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6) with your users to help them get familiar with using Teams displays. We recommend you do this well in advance of the upgrade.
 
-### What happens after upgrading to Teams displays?
+Let them know that there's no changes to their data or preferences after the upgrade. For example, users can access all their meetings, missed calls, and voicemails in Teams displays. 
 
-After you upgrade an Teams phone to a Teams display device, the device is listed on the **Teams displays** page in the **Devices** section of the Microsoft Teams admin center. You manage it in the same way that you manage any other Teams device. To learn more, see [Manage your devices in Teams](device-management.md).
+### What happens after the upgrade?
 
-Keep in mind that after you upgrade a Teams phone to a Teams display device, the action can't be reversed.
+After you upgrade a Teams phone to a Teams display device, the device is listed on the **Teams displays** page in the **Devices** section of the Microsoft Teams admin center. You manage it in the same way that you manage any other Teams device. To learn more, see [Manage your devices in Teams](device-management.md).
+
+Keep in mind that after you upgrade a Teams phone to a Teams display device, the action can't be reversed. We recommend you first run a pilot with a group of early adopters before you upgrade your entire organization. 
 
 ## Upgrade your Teams phones to Teams displays
 
@@ -49,11 +52,18 @@ Keep in mind that after you upgrade a Teams phone to a Teams display device, the
 
     :::image type="content" source="../media/upgrade-phones-to-displays-select.jpg" alt-text="Screenshot showing Teams phones selected for upgrade to Teams displays":::
 
-3. In the **Upgrade to Teams display** dialogue box, and then select **Schedule upgrade** to set a date and time for the upgrade or **Upgrade now**.
+3. In the **Upgrade to Teams display** dialogue box, select **Schedule upgrade** to set a date and time for the upgrade or **Upgrade now**.
 
     :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.jpg" alt-text="Screenshot showing Upgrade to Teams display dialogue box":::
 
 During the upgrade process, the device's firmware is updated to a Teams display device, the device restarts, and is ready for use. When the upgrade is completed, you'll see the device listed on the **Teams displays** page in the Microsoft Teams admin center.
+
+> [!NOTE]
+> If you receive a message that says your selected phones can't be upgraded, check to make sure that you select supported phones, and then try again.
+
+## Known issues
+
+Dark theme support on Teams displays will be available in a future update. Teams phones that use the Dark theme will get the Default theme after the upgrade.
 
 ## See also
 
