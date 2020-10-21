@@ -47,18 +47,17 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 - Whiteboard (Plan 1)
 - Yammer Enterprise
 
-  <sup>1</sup> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt in to this experience, in November you'll have to opt out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+  <sup>1</sup> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt in to this experience, in November you'll have to opt out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeing recordings.
 
 ## Who's eligible
 
 Users fit the criteria for a Teams Exploratory experience if they:
 
-- have a managed Azure AD domain email address.
-- don't have a Teams license.
-- haven't been assigned a Teams license.
-- belong to a tenant with a paid Azure AD.
-- aren't a trial or COVID user.
-- aren't in a tenant that has at least 1 special COVID trial offer.
+- Have a managed Azure AD domain email address.
+- Don't have a Teams license.
+- Belong to a tenant with a paid Azure AD.
+- Aren't a trial or COVID trial offer user.
+- Aren't in a tenant that has at least 1 special COVID trial offer.
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.
 
