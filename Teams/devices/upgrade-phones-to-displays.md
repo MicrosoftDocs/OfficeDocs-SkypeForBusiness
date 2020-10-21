@@ -21,7 +21,7 @@ description: "Learn how to upgrade Teams phones to Teams displays in the Microso
 # Upgrade Teams phones to Teams displays
 
 > [!IMPORTANT]
-> Currently, this feature is available on Lenovo ThinkSmart View phones. The information in this article applies only to this phone. We'll be adding support for additional phone models in the future.  
+> Currently, this feature is available on Lenovo ThinkSmart View phones. The information in this article applies only to this phone model. We'll be adding support for additional phone models in the future.  
 
 This article gives you an overview of how to upgrade your Teams phones to Teams display devices in the Microsoft Teams admin center. Doing this allows the devices to provide a rich experience for your users as Teams display devices.
 
@@ -59,7 +59,7 @@ Keep in mind that after you upgrade a Teams phone to a Teams display device, the
 During the upgrade process, the device's firmware is updated to a Teams display device, the device restarts, and is ready for use. When the upgrade is completed, you'll see the device listed on the **Teams displays** page in the Microsoft Teams admin center.
 
 > [!NOTE]
-> If you receive a message that says your selected phones can't be upgraded, check to make sure that you select supported phones, and then try again.
+> If you receive a message that says your selected phones can't be upgraded, check to make sure that you select [phones that support the upgrade](#which-teams-phones-can-be-upgraded), and then try again.
 
 ## Known issues
 
