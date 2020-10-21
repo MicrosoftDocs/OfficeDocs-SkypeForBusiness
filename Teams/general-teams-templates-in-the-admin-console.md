@@ -50,7 +50,7 @@ Help build, grow, and sustain your Champions community rollout by evangelizing a
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------|--|-----------------------------------------------------------|
-| Adopt Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendar</li> |li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>|
+| Adopt Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendar</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>|
 ||||
 
 ## Manage a project
