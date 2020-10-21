@@ -86,7 +86,7 @@ Improve your culture and streamline your employee onboarding with this central t
 
 Collaborate on documentation, policy, and processes that support your helpdesk. Integrate your existing ticketing system or use our template to manage requests.
 
-| Base template type | | Properties that come with this base template |
+| Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
 |Organize help desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li></ul> |
 ||||
