@@ -29,7 +29,7 @@ All Microsoft Teams 1:1 or group chats are journaled through to the respective u
 
 eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
 
-Not all Teams content is eDiscoverable. The following table shows the content types that can be located through eDiscovery.
+Not all Teams content is searchable. The following table shows the content types that can be located through eDiscovery.
 
 | Content type | eDiscoverable | Notes |
 |:--- | --- |:--- |
@@ -48,6 +48,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 | Subject | Yes | |
 | Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
 | Audio recordings | No | |
+| Card content|Yes||
 
 <sup>1</sup> Meeting metadata includes the following:
 
@@ -68,11 +69,11 @@ Here's an example of IM conversation between participants during the meeting.
 
 ![Image is of a conversation between participants.](media/MeetingImConversation2.png)
 
-To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+To conduct an eDiscovery investigation with Microsoft Teams content, see [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
 Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after export.
 
-When viewing the .pst file for the team, all conversations are kept in the Team Chat folder under Conversation History. The title of the message contains the team name and channel name. For example, the image below shows a message from Bob who messaged the Project 7 standard channel of the Manufacturing Specs team.
+When viewing the .pst file for the team, all conversations are located in the Team Chat folder under Conversation History. The title of the message contains the team name and channel name. For example, the image below shows a message from Bob who messaged the Project 7 standard channel of the Manufacturing Specs team.
 
 ![Screenshot of a Team Chat folder in a user's mailbox in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 

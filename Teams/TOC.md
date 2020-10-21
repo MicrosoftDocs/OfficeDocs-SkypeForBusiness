@@ -761,6 +761,7 @@
 #### [Place a Teams user or team on legal hold](legal-hold.md)
 ### Content Search
 #### [Use Content Search](content-search.md)
+### Auditing
 #### [Search the audit log for events](audit-log-events.md)
 ## Privacy
 ### [Privacy and Microsoft Teams](teams-privacy.md)
