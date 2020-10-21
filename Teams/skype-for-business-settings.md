@@ -90,7 +90,7 @@ Keep the following in mind:
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the user's display name to open the user details page, and then select the **Skype for Business settings** tab. From here, you can configure external communications and meeting settings for the user.
+To manage Skype for Business settings for individual users, in the left navigation of the Teams admin center, go to **Users**, click the user's display name to open the user details page, and then select the **Skype for Business settings** tab. From here, you can configure external access and meeting settings for the user.
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Screenshot of Skype for Business tab on user details page":::
 
