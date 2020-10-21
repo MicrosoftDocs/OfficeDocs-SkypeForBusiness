@@ -11,6 +11,10 @@ audience: Admin
 ms.collection: 
 f1.keywords:
 - CSH
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.presence
+- ms.teamsadmincenter.org-widesettings.skypeforbusiness.skypemeetingbroadcast
+- ms.teamsadmincenter.users.skypeforbusiness.settings
 ms.custom: 
 appliesto: 
 - Skype for Business
