@@ -105,6 +105,24 @@ Please perform these steps:
 
 ### PowerBI data model Dimensions
 
+|Name                                    |Data Type                |Description                            |
+|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|AA Name	                               |string                   |Auto Attendant Id (resource account Id) |
+|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br>	abs_search<br>	call_termination<br>	call_transfer<br>	main_menu<br>	user_selection<br>	speech_input_confirmation<br>	first_level_menu<br>	automatic_menu<br>announcement |
+|AACallResult                            |string                   |Result of Auto Attendant Call:<br>	unknown<br>	transferred_to_user<br>	transferred_to_operator<br>	failover_to_operator<br>	user_terminated<br>	service_declined – error of AA configuration<br>	service_terminated – internal AA errors<br>	failed_to_establish_media<br>	terminated_no_operator<br>	terminated_transfer_failed<br>	terminated_automatic_selection<br>	transferred_to_shared_voicemail<br>	oaa_chain_too_long<br>	oaa_session_too_long          |
+|AAChainDuration                         |string                   |Duration of Auto Attendant call in seconds  |
+|AACount                                 |string                   |# of Auto Attendant involve in call         |
+|AADirectorySearchMethod                 |string                   |Search method used in call:<br>	abs_search_dtmf<br>	abs_search_extension<br>	abs_search_name<br>AAStartTime	string	Call time in UTC      |
+|AATransferAction                        |string                   |Receiver of call:<br>	unknown - entity type was not specified<br>	user - user entity<br>	AA - Organizational Auto Attendant entity<br>	CQ - Call Queue entity<br>	application - voice application entity<br>	external_pstn - external PSTN entity<br>shared_voicemail - shared voicemail entity      |
+|PSTNMinutes                             |int                      |Total minute usage                          |
+|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>	error<br>	declined<br>	overflown<br>	failed<br>	timed_out<br>	transferred_to_agent<br>agent_joined_conference    |
+|Call Queue Identity                     |string                   |Name of resource account attached to CQ     |
+|Call Queue Target Type                  |string                   |Expected call redirection target type:<br>	User<br>	Application Endpoint<br>	Other     |
+|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>	error<br>	declined<br>	overflown<br>	failed<br>	timed_out<br>	transferred_to_agent<br>agent_joined_conference           |
+|Call Queue Final State Action           |string                   |Call queue final action<br>possible values:<br>	forward<br>	disconnect<br>	voicemail<br>	disconnect_with_busy<br>	shared_voicemail<br>	failed_to_accept_call<br>other             |
+|Agent Name                              |string                   |User UPN               |
+
+
 ### Measures
 
 |Name	                                   |Type	                   |Description                            |
