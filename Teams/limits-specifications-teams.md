@@ -153,16 +153,16 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 <sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-For more information about Live Events and a comparison of Teams Live Events to Skype Meeting Broadcast, go to [Teams Live Events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+For more information about live events and a comparison of Teams live events to Skype Meeting Broadcast, go to [Teams live events and Skype Meeting Broadcast](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
- **Microsoft 365 live event limit increases**
+> **Microsoft 365 live event limit increases**
 >
 > **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including**:
 >
->- Up to 20,000 attendees per event
->- Up to 50 simultaneous events per Teams tenant
->- Up to 16 hours per broadcast
+> - Up to 20,000 attendees per event
+> - Up to 50 simultaneous events per Teams tenant
+> - Up to 16 hours per broadcast
 >
 > Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
 
