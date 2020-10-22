@@ -64,7 +64,7 @@ Manage and keep your Teams phones up-to-date using the Microsoft Teams admin cen
 
 [Microsoft Teams displays](teams-displays.md) are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen and a hands-free experience powered by Cortana. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction
 
-You can upgrade Teams phones in your organization to Teams displays in the Microsoft Teams admin center. This feature is available only to phones that support upgrading to Teams displays. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
+You can upgrade Teams phones in your organization to Teams displays in the Microsoft Teams admin center. This option is available only to phones that support upgrading to Teams displays. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
 
 ## See also
 

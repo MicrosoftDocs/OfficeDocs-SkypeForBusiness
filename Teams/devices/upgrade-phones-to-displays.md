@@ -21,17 +21,17 @@ description: "Learn how to upgrade Teams phones to Teams displays in the Microso
 # Upgrade Teams phones to Teams displays
 
 > [!IMPORTANT]
-> Currently, this feature is available on Lenovo ThinkSmart View phones. The information in this article applies only to this phone model. We'll be adding support for additional phone models in the future.  
+> Upgrading to Teams displays is available only on Lenovo ThinkSmart View devices. The information in this article applies only to this device model.  
 
 This article gives you an overview of how to upgrade your Teams phones to Teams display devices in the Microsoft Teams admin center. Doing this allows the devices to provide a rich experience for your users as Teams display devices.
 
-Teams displays are a category of all-in-one dedicated Teams devices with an ambient touchscreen and a hands-free experience powered by Cortana. Teams displays are the evolution of Teams phones. In addition to [features supported by Teams phones](phones-for-teams.md#features-supported-by-teams-phones), Teams displays include features such as an always-on display in which all Teams activity and collaboration options are always available. To learn more about features unique to Teams displays, see [Microsoft Teams displays](teams-displays.md). 
+Teams displays are a category of all-in-one dedicated Teams devices with an ambient touchscreen and a hands-free experience powered by Cortana. Teams displays are the evolution of Teams phones. In addition to [features supported by Teams phones](phones-for-teams.md#features-supported-by-teams-phones), Teams displays include features such as an always-on display in which all Teams activity and collaboration options are always available. To learn more about features unique to Teams displays, see [Microsoft Teams displays](teams-displays.md).
 
 ## What you need to know about upgrading to Teams displays
 
 ### Which Teams phones can be upgraded?
 
-Currently, Lenovo ThinkSmart View phones can be upgraded to Teams displays. 
+Lenovo ThinkSmart View devices can be upgraded to Teams displays.
 
 ### How can I prepare users?
 

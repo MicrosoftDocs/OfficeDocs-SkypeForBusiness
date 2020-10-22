@@ -51,7 +51,7 @@ To manage your Teams display devices, in the left navigation of the Microsoft Te
 
 ## Upgrade Teams phones to Teams displays
 
-Teams displays is the evolution of Teams phones. You can upgrade Teams phones in your organization to Teams displays using the Microsoft Teams admin center. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
+Teams displays is the evolution of Teams phones. You can upgrade Teams phones in your organization to Teams displays using the Microsoft Teams admin center. This option is available only to phones that support upgrading to Teams displays. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
 
 ## See also
 
