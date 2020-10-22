@@ -89,7 +89,7 @@ If a user uninstalls Teams from their user profile, the MSI installer will track
 4. Redeploy the MSI package to that particular computer.
 
 > [!TIP]
-> You can also use our [Teams deployment cleanup script](scripts/powershell-script-deployment-cleanup.md) to accomplish steps 1 and 2.  
+> You can also use our [Teams deployment cleanup script](scripts/powershell-script-deployment-cleanup.md) to complete steps 1 and 2.  
 
 ## Prevent Teams from starting automatically after installation
 
