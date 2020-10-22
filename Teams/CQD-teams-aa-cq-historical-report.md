@@ -3,7 +3,7 @@ title: Using CQD Power BI report to view Auto Attendant & Call Queue Historical 
 ms.author: colongma
 author: ColinLongman
 manager: roykuntz
-ms.reviewer: 
+ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -82,7 +82,7 @@ Please perform these steps:
 ## CQD Fields Description
 
 |Name                                    |Data Type                |Description                            |
-|----------------------------------------|:-------:                |:-------:                              |
+|---------------------------------------:|:-----------------------:|:-------------------------------------:|
 |Auto Attendant Identity                 |string                   |Name of resource account attached to AA<br>Example: aa_test@microsoft.com|
 |Auto Attendant Chain Start Time         |datetime                 |AA chain start time                    |
 |Auto Attendant Directory Search Method  |string                   |Last Address book search method        |
@@ -107,11 +107,48 @@ Please perform these steps:
 
 ### Measures
 
+|Name	                                   |Type	                   |Description                            |
+|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|AACallerActionCount                     |int	                     |# of action selected by user in AA during the call  |
+|PSTNMinutes                             |int                      |Total minute usage                                  |
+|TotalCallCount                          |int                      |# of calls                                          |
+|Average Call Duration( Seconds)         |int                      |Total duration of call of call queue in seconds     |
+
+
 ### PowerBI graph description Auto Attendant
+
+|Name	                                   |Description                            |
+|---------------------------------------:|:-------------------------------------:|
+|Incoming call source                    |Distribution of call by Internal/ External call source      |
+|Directory search method totals          |Distribution of call by search type                         |
+|Caller action                           |Distribution of call by call receiver                       |
+|Call result                             |Distribution of call by final call state                    |
+|Caller action count                     |Distribution of call by number action used during the call  |
+
 
 ### Call Queue
 
+|Name	                                   |Description                            |
+|---------------------------------------:|:-------------------------------------:|
+|Incoming call source                    |Distribution of call by Internal/ External call source         |
+|Call volume                             |Distribution of call by call queues                            |
+|Caller result                           |Distribution of call by call result                            |
+|Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
+|Transfer/Forward target totals          |Distribution of call forwarded by call result                  |
+|Abandoned calls Ratio                   |Ratio of successful to abandoned call count                    |
+|Average Session Length (seconds)        |Call length in seconds grouped by abandoned/successful calls   |
+
+
+
 ### Agent Timeline
+
+
+
+# calls by Agent	Distribution of call by call queue and agent
+Total Call duration (seconds) by Agent and Call Queue	Total duration (seconds) of call by agent and call queue 
+Average Call Duration (Second) by Agent Name	Average duration (seconds) of call by agent
+
+
 
 ## Known Issues
 - Currently CQ and AA shows Resource accounts Id instead of CQ/AA names.  To show all the traffic for an Auto Attendant or Call Queue you must select all the Resource Accounts assigned to the Auto Attendant or Call Queue.
