@@ -158,6 +158,10 @@ When users sign in to their expired Teams Commercial Cloud Trial for the first t
 - If you would like to remove this license through the admin portal, see:
 [Delete a user from your organization](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
+## What is the data retention policy?
+
+See [Microsoft 365 subscription information](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
+
 ## How long does the Teams Exploratory experience last
 
 The Microsoft Teams Exploratory experience is available at no additional cost until your next **agreement anniversary** or **renewal** on or after January 2021. At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams. Any Microsoft Exploratory experience licenses initiated after that will remain available at no additional cost until your next **anniversary** or **renewal** cycle.
