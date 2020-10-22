@@ -95,7 +95,7 @@ Switch this setting **On** to turn on scoped directory searches.
 
 ### Skype for Business
 
-Use this page to manage Skype for Business features for Skype for Business users in your organization. to learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](skype-for-business-settings.md).
+Use this page to manage Skype for Business features for Skype for Business users in your organization. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](skype-for-business-settings.md).
 
 ### Teams upgrade
 
