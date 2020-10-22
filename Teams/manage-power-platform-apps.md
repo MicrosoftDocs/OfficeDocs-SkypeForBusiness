@@ -16,14 +16,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to manage access to Power Platform apps in the Microsoft Teams admin center.
+description: Learn how to manage access to Microsoft Power Platform apps that are automatically added to Teams in the Microsoft Teams admin center.
 ---
 
 # Manage Power Platform apps in the Microsoft Teams admin center
 
 ## Power Platform apps in Teams
 
-This article gives you an overview of how to manage [Power Platform](https://powerplatform.microsoft.com/) apps added to Teams in the Microsoft Teams admin center.
+This article gives you an overview of how to manage [Microsoft Power Platform](https://powerplatform.microsoft.com/) apps in the Microsoft Teams admin center.
+
+> [!NOTE]
+> This article applies to apps created by makers in your organization *using* Power Apps or Power Virtual Agents. These apps are automatically added to Teams. This article doesn't apply to the Power Apps app or Power Virtual Agents app that are installed from the Apps page or pinned to Teams through an app setup policy. 
 
 [Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment that makers in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for makers to create powerful bots. With the integration of Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.  
 
