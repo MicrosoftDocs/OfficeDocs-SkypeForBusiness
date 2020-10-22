@@ -41,18 +41,18 @@ Please perform these steps:
 - Double-click on the template and Power BI Desktop should launch
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-:::image type="content" source="media/XXX.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
  - You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output. 
  The region will be displayed after the / like in this example microsoftcommunicationsonline/noam-4a-s7 where the region is noam
  - The report will launch with sample data
  - To see your own data please click Refresh in the Home tab under Queries in Power BI Desktop
 
-:::image type="content" source="media/XXX.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 - You will then be prompted to sign in. Select Organization account and click Sign in
 
-:::image type="content" source="media/XXX.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 - Click Connect and watch the data refresh
 
@@ -72,11 +72,11 @@ The following steps assume you have already completed Installation steps.
 Please perform these steps:
 - Select on ribbon View tab
 
-:::image type="content" source="media/XXX.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 - Select color schema from drop down list
 
-:::image type="content" source="media/XXX.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 
 ## CQD Fields Description
