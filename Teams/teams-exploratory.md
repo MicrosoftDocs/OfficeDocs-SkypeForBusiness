@@ -47,7 +47,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 - Whiteboard (Plan 1)
 - Yammer Enterprise
 
-  <sup>1</sup> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt in to this experience, in November you'll have to opt out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeing recordings.
+  <sup>1</sup> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt in to this experience. In November, you'll have to opt out if you want to continue using Stream. Sometime in early 2021, we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ## Who's eligible
 
@@ -57,7 +57,7 @@ Users fit the criteria for a Teams Exploratory experience if they:
 - Don't have a Teams license.
 - Belong to a tenant with a paid Azure AD.
 - Aren't a trial or COVID trial offer user.
-- Aren't in a tenant that has at least 1 special COVID trial offer.
+- Aren't in a tenant that has at least one special COVID trial offer.
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.
 
@@ -73,7 +73,7 @@ Eligible users can sign up for the Teams Exploratory experience by signing in to
 
 The Teams Exploratory experience is meant to be initiated by individual end users, and you can't initiate this offer on behalf of end-user employees.
 
-The Teams Exploratory experience comes with an Exchange Online license but it won't be assigned to the user until the admin assigns it. If the user doesn't have an Exchange license already and the admin has yet to assign the Exchange Online license, the user won't be able to schedule meetings in Teams and might be missing other Teams functionality.
+The Teams Exploratory experience comes with an Exchange Online license, but it won't be assigned to the user until the admin assigns it. If the user doesn't have an Exchange license already, and the admin has yet to assign the Exchange Online license, the user won't be able to schedule meetings in Teams and might be missing other Teams functionality.
 
 Admins can disable the ability for end users to run the Teams Exploratory experience within their organization by using the **Trial apps and services** switch.
 
@@ -131,7 +131,7 @@ You can manage users who have the Teams Exploratory license just like you manage
 
 ### Upgrade users from the Teams Exploratory license
 
-To upgrade users from the Teams Exploratory license (you must have admin privileges), do the following:
+To upgrade users from the Teams Exploratory license (you must have admin privileges), do the following tasks:
 
 1. Purchase a subscription that includes Teams.
 
@@ -146,7 +146,7 @@ For more information, see [Microsoft Teams service description](https://docs.mic
 
 ## What happens to legacy Microsoft Teams Commercial Cloud Trial licenses
 
-As of February, 2020, eligible users can begin using the latest Microsoft Teams Exploratory experience. All legacy Teams Commercial Cloud Trial licenses will be automatically converted to the new offer before their trial expires.
+As of February 2020, eligible users can begin using the latest Microsoft Teams Exploratory experience. All legacy Teams Commercial Cloud Trial licenses will be automatically converted to the new offer before their trial expires.
 
 When users sign in to their expired Teams Commercial Cloud Trial for the first time, we automatically assign a Teams Exploratory experience license to those users. Users aren't converted until they sign in.
 
