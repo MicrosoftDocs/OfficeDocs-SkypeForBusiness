@@ -54,14 +54,17 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 Users fit the criteria for a Teams Exploratory experience if they:
 
 - Have a managed Azure AD domain email address.
-- Don't have a Teams license.
-- Belong to a tenant with a paid Azure AD.
-- Aren't a trial or COVID trial offer user.
-- Aren't in a tenant that has at least one special COVID trial offer.
+- Belong to a tenant with a paid subscription.
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.
 
 ## Who isn't eligible
+
+Users don't fit the criteria if they:
+
+- Have a Teams license.
+- Are using a trial or COVID trial offer.
+- Are in a tenant that has at least one special COVID trial offer.
 
 Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.
 
@@ -142,7 +145,7 @@ To upgrade users from the Teams Exploratory license (you must have admin privile
 For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.
+> If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, they have 30 days of grace period and then another 30 days after which time the data is going to be deleted. The user still exists in Azure Active Directory. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist if the user is added within the grace period time frame.
 
 ## What happens to legacy Microsoft Teams Commercial Cloud Trial licenses
 
