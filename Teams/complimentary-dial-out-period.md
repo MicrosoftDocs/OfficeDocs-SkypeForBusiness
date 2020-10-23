@@ -63,7 +63,7 @@ For additional information on Communication Credits, see [Communications Credits
 
 **Zone A countries and regions**
 
-|    |
+|Country    |
 |-----|
 |Australia  <br/> |
 |Austria  <br/> |
