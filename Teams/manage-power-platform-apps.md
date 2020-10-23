@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to manage access to Microsoft Power Platform apps that are automatically added to Teams in the Microsoft Teams admin center.
+description: Learn how to manage access to custom apps built on Microsoft Power Platform in the Microsoft Teams admin center.
 ---
 
 # Manage Microsoft Power Platform apps in the Microsoft Teams admin center
