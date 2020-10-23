@@ -74,7 +74,7 @@ By default the base template is set to **Standard**, which doesn't contain any a
 |||
 
 
-Use the following templates to create teams in the Teams client **and** Graph API.
+Use the following templates to create teams in both the Teams client as well as the Graph API.
 
 
 | Base template type | baseTemplateId | Properties that come with this base template |
