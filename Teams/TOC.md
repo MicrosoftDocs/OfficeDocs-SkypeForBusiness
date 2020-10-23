@@ -680,7 +680,6 @@
 #### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 ## Teams for Healthcare
 ### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Virtual visits with Teams - Integration with EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
 ### [Bookings app and virtual visits](bookings-app-admin.md)
 ### [Teams policy packages for Healthcare](policy-packages-healthcare.md)
 ### Secure messaging policies
