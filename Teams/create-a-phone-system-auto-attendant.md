@@ -196,6 +196,11 @@ When transferring calls to an external phone number, the resource account associ
 - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
 - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
 
+When setting the destination for the External phone number:
+
+- If the call will route via Calling Plan, assign a number in E.164 format including country code
+- If the call will route via Direct Routing, assign a number that will match the pattern for tenant configured voice route
+
 The outbound phone number that's displayed is determined as follows:
 
   - For Calling Plan numbers, the original caller's phone number is displayed.
@@ -205,7 +210,7 @@ The outbound phone number that's displayed is determined as follows:
 
 Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
-In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+In a Skype for Business hybrid environment, to transfer an auto attendant call to the PSTN, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### Create an auto attendant with PowerShell
 
