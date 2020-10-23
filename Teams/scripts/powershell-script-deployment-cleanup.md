@@ -12,6 +12,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 
   - M365-collaboration
 appliesto: 
