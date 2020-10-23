@@ -50,16 +50,18 @@ Keep in mind that after you upgrade a Teams phone to a Teams display device, the
 1. In the left navigation of the Microsoft Teams admin center, go to **Devices** > **Phones**.
 2. Select the Teams phones you want to upgrade, and then select **Upgrade**.
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.jpg" alt-text="Screenshot showing Teams phones selected for upgrade to Teams displays":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Screenshot showing Teams phones selected for upgrade to Teams displays":::
 
 3. In the **Upgrade to Teams display** dialogue box, select **Schedule upgrade** to set a date and time for the upgrade or **Upgrade now**.
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.jpg" alt-text="Screenshot showing Upgrade to Teams display dialogue box":::
-
-During the upgrade process, the device's firmware is updated to a Teams display device, the device restarts, and is ready for use. When the upgrade is completed, you'll see the device listed on the **Teams displays** page in the Microsoft Teams admin center.
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Screenshot showing Upgrade to Teams display dialogue box":::
 
 > [!NOTE]
 > If you receive a message that says your selected phones can't be upgraded, check to make sure that you select [phones that support the upgrade](#which-teams-phones-can-be-upgraded), and then try again.
+
+During the upgrade process, the device's firmware is updated to a Teams display device, the device restarts, and is ready for use. When the upgrade is completed, you'll see the device listed on the **Teams displays** page in the Microsoft Teams admin center.
+
+It can take up to an hour for the upgrade to complete. If the process hasn't completed after an hour, retry the upgrade. You can also go to the **History** tab of the device details page to see the status.
 
 ## Known issues
 
