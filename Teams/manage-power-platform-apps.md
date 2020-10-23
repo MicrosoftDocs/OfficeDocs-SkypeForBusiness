@@ -26,7 +26,7 @@ description: Learn how to manage access to Microsoft Power Platform apps that ar
 This article gives you an overview of how to manage [Microsoft Power Platform](https://powerplatform.microsoft.com/) apps in the Microsoft Teams admin center.
 
 > [!NOTE]
-> This article applies to custom apps created by makers in your organization *using* Power Apps or Power Virtual Agents. These custom apps are automatically added to Teams. This article doesn't apply to the Power Apps app or Power Virtual Agents app that are installed from the Apps page or pinned to Teams through an app setup policy. You manage those apps as you would for any other app on the [Manage apps](manage-apps.md) page, using [app permission policies](teams-app-permission-policies.md), and [app setup policies](teams-app-setup-policies.md).
+> This article applies to custom apps created by makers in your organization using Power Apps or Power Virtual Agents. These custom apps are automatically added to Teams. This article doesn't apply to the Power Apps app or Power Virtual Agents app that are installed from the Apps page or pinned to Teams through an app setup policy. You manage those apps as you would for any other app on the [Manage apps](manage-apps.md) page, using [app permission policies](teams-app-permission-policies.md), and [app setup policies](teams-app-setup-policies.md).
 
 [Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment that makers in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for makers to create powerful bots. With the integration of Microsoft Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.  
 
@@ -36,7 +36,7 @@ When a Microsoft Power Platform app is created or shared, users can view and ins
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built by your colleagues":::
 
-A user will see a Microsoft Power Platform app in **Built by your colleagues** if the app meets one of the following conditions.
+A user will see an app in **Built by your colleagues** if the app meets one of the following conditions.
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
