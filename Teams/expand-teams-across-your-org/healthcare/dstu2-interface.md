@@ -54,14 +54,14 @@ All the following FHIR resources should be accessible by direct resource referen
 
  The FHIR Server must implement the conformance statement for us to have a factual summary of its capabilities. We expect the below parameters in a DSTU2 FHIR Server:
 
-1. REST
+ - REST
 
-   1. Mode
-   2. Interaction
-   3. Resource: Type
-   4. Security: [Extension for OAuth URIs](https://hl7.org/fhir/extension-oauth-uris.html)
+    - Mode
+    - Interaction
+    - Resource: Type
+    - Security: [Extension for OAuth URIs](https://hl7.org/fhir/extension-oauth-uris.html)
    
-2. FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)
+ - FhirVersion (Our code requires this to understand which version we should pivot to as we support multiple versions.)
 
 See [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) for other details on this field set.
 
@@ -81,7 +81,7 @@ In addition to the Argonaut fields, for a great user experience the Patients app
  - Name.Prefix
  - CareProvider (This reference on the Patient resource should include the display fields shown in the following example.)
 
-    ```http
+    ```
     Request:
     GET <fhir-server>/Patient/<patient-id>
     
@@ -139,41 +139,41 @@ The goal is to be able to search and filter for a patient by the following:
 
 See the following example  of this call.
 
-    ```http
-    Request:
-    POST <fhir-server>/Patient/_search
-    Request Body:
-    given=hugh&family=chau
-    
-    Response:
-    {
-      "resourceType": "Bundle",
-      "id": "<bundle-id>",
-      .
-      .
-      .
-      "entry": [
-        {
-          "resource": {
-            "resourceType": "Patient",
-            "id": "<patient-id>",
-            "name": [
-              {
-                "text": "Hugh Chau",
-                "family": [ "Chau" ],
-                "given": [ "Hugh" ]
-              }
-            ],
-            "gender": "male",
-            "birthDate": "1957-06-05"
-          },
-          "search": {
-            "mode": "match"
-          }
-        }
-      ]
-    }
-    ```
+```
+Request:
+POST <fhir-server>/Patient/_search
+Request Body:
+given=hugh&family=chau
+
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  .
+  .
+  .
+  "entry": [
+	{
+	  "resource": {
+		"resourceType": "Patient",
+		"id": "<patient-id>",
+		"name": [
+		  {
+			"text": "Hugh Chau",
+			"family": [ "Chau" ],
+			"given": [ "Hugh" ]
+		  }
+		],
+		"gender": "male",
+		"birthDate": "1957-06-05"
+	  },
+	  "search": {
+		"mode": "match"
+	  }
+	}
+  ]
+}
+```
 
 See [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) for other details on this field set.
 
@@ -199,48 +199,48 @@ A resource search uses the GET method and the following parameters:
 
 The goal is to be able to retrieve the latest vital signs for a patient, [VitalSigns.DSTU.saz]  (observation?).
 
-    ```http
-    Request:
-    GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
-    
-    Response:
-    {
-      "resourceType": "Bundle",
-      "id": "<bundle-id>",
-      "type": "searchset",
-      "total": 20,
-      "entry": [
-        {
-          "resource": {
-            "resourceType": "Observation",
-            "id": "<resource-id>",
-            "category": {
-              "coding": [ { code": "vital-signs" } ],
-            },
-            "code": {
-              "coding": [
-                {
-                  "system": "http://loinc.org",
-                  "code": "39156-5",
-                  "display": "bmi"
-                }
-              ],
-            },
-            "effectiveDateTime": "2009-12-01",
-            "valueQuantity": {
-              "value": 34.4,
-              "unit": "kg/m2",
-              "system": "http://unitsofmeasure.org",
-              "code": "kg/m2"
-            }
-          },
-        },
-        .
-        .
-        .
-      ]
-    }
-    ```
+```
+Request:
+GET <fhir-server>/Observation?patient=<patient-id>&_sort:desc=date&category=vital-signs
+
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 20,
+  "entry": [
+	{
+	  "resource": {
+		"resourceType": "Observation",
+		"id": "<resource-id>",
+		"category": {
+		  "coding": [ { code": "vital-signs" } ],
+		},
+		"code": {
+		  "coding": [
+			{
+			  "system": "http://loinc.org",
+			  "code": "39156-5",
+			  "display": "bmi"
+			}
+		  ],
+		},
+		"effectiveDateTime": "2009-12-01",
+		"valueQuantity": {
+		  "value": 34.4,
+		  "unit": "kg/m2",
+		  "system": "http://unitsofmeasure.org",
+		  "code": "kg/m2"
+		}
+	  },
+	},
+	.
+	.
+	.
+  ]
+}
+```
 
 See [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) for other details on this field set.
 
@@ -262,45 +262,45 @@ A resource search uses the GET method and the following parameters:
 
 See the following example of this call:
 
-    ```http
-    Request:
-    GET <fhir-server>/Condition?patient=<patient-id>&_count=10
-    
-    Response:
-    {
-      "resourceType": "Bundle",
-      "id": "<bundle-id>",
-      "type": "searchset",
-      "total": 1,
-      "entry": [
-        {
-          "resource": {
-            "resourceType": "Condition",
-            "id": "<resource-id>",
-            "code": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "386033004",
-                  "display": "Neuropathy (nerve damage)"
-                }
-              ]
-            },
-            "dateRecorded": "2018-09-17",
-            "severity": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "24484000",
-                  "display": "Severe"
-                }
-              ]
-            }
-          },
-        }
-      ]
-    }
-    ````
+```
+Request:
+GET <fhir-server>/Condition?patient=<patient-id>&_count=10
+
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+	{
+	  "resource": {
+		"resourceType": "Condition",
+		"id": "<resource-id>",
+		"code": {
+		  "coding": [
+			{
+			  "system": "http://snomed.info/sct",
+			  "code": "386033004",
+			  "display": "Neuropathy (nerve damage)"
+			}
+		  ]
+		},
+		"dateRecorded": "2018-09-17",
+		"severity": {
+		  "coding": [
+			{
+			  "system": "http://snomed.info/sct",
+			  "code": "24484000",
+			  "display": "Severe"
+			}
+		  ]
+		}
+	  },
+	}
+  ]
+}
+```
 
 See [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) for other details on this field set.
 
@@ -324,39 +324,39 @@ A resource search uses the GET method and the following parameters:
 
 The goal is to be able to retrieve the patient's last known location. Each encounter references a location resource. The reference shall also include the location's display field. See the following example of this call.
 
-    ```http
-    Request:
-    GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
-    
-    Response:
-    {
-      "resourceType": "Bundle",
-      "type": "searchset",
-      "total": 1,
-      "entry": [
-        {
-          "resource": {
-            "resourceType": "Encounter",
-            "id": "<resource-id>",
-            "identifier": [{ "use": "official", "value": "<id>" }],
-            "status": "arrived",
-            "type": [
-              {
-                "coding": [{ "display": "Appointment" }],
-              }
-            ],
-            "patient": { "reference": "Patient/<patient-id>" },
-            "period": { "start": "09/17/2018 1:00:00 PM" },
-            "location": [
-              {
-                "location": { "display": "Clinic - ENT" },
-              }
-            ]
-          }
-        }
-      ]
-    }
-    ```
+```
+Request:
+GET <fhir-server>/Encounter?patient=<patient-id>&_sort:desc=date&_count=1
+
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+	{
+	  "resource": {
+		"resourceType": "Encounter",
+		"id": "<resource-id>",
+		"identifier": [{ "use": "official", "value": "<id>" }],
+		"status": "arrived",
+		"type": [
+		  {
+			"coding": [{ "display": "Appointment" }],
+		  }
+		],
+		"patient": { "reference": "Patient/<patient-id>" },
+		"period": { "start": "09/17/2018 1:00:00 PM" },
+		"location": [
+		  {
+			"location": { "display": "Clinic - ENT" },
+		  }
+		]
+	  }
+	}
+  ]
+}
+```
 
 See [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) for other details on this field set.
 
@@ -382,43 +382,43 @@ A resource search uses the GET method and the following parameters:
 
 See the following example of this call:
 
-    ```http
-    Request:
-    GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
-    
-    Response:
-    {
-      "resourceType": "Bundle",
-      "id": "<bundle-id>",
-      "type": "searchset",
-      "total": 1,
-      "entry": [
-        {
-          "resource": {
-            "resourceType": "AllergyIntolerance",
-            "id": "<resource-id>",
-            "recordedDate": "2018-09-17T07:00:00.000Z",
-            "substance": {
-              "text": "Cashew nuts"
-            },
-            "status": "confirmed",
-            "reaction": [
-              {
-                "substance": {
-                  "text": "cashew nut allergenic extract Injectable Product"
-                },
-                "manifestation": [
-                  {
-                    "text": "Anaphylactic reaction"
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    }
-    ```
+```
+Request:
+GET <fhir-server>/AllergyIntolerance?patient=<patient-id>
+
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+	{
+	  "resource": {
+		"resourceType": "AllergyIntolerance",
+		"id": "<resource-id>",
+		"recordedDate": "2018-09-17T07:00:00.000Z",
+		"substance": {
+		  "text": "Cashew nuts"
+		},
+		"status": "confirmed",
+		"reaction": [
+		  {
+			"substance": {
+			  "text": "cashew nut allergenic extract Injectable Product"
+			},
+			"manifestation": [
+			  {
+				"text": "Anaphylactic reaction"
+			  }
+			]
+		  }
+		]
+	  }
+	}
+  ]
+}
+```
 
 See [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) for other details on this field set.
 
@@ -444,38 +444,38 @@ A resource search uses the GET method and the following parameters:
 
 See the following example of this call:
 
-    ```http
-    Request:
-    GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
-    
-    Response:
-    {
-      "resourceType": "Bundle",
-      "id": "<bundle-id>",
-      "type": "searchset",
-      "total": 1,
-      "entry": [
-        {
-          "resource": {
-            "resourceType": "MedicationOrder",
-            "id": "<resource-id>",
-            "dateWritten": "2018-09-17",
-            "medicationCodeableConcept": {
-              "text": "Lisinopril 20 MG Oral Tablet"
-            },
-            "prescriber": {
-              "display": "Jane Doe"
-            },
-            "dosageInstruction": [
-              {
-                "text": "1 daily"
-              }
-            ]
-          }
-        }
-      ]
-    }
-    ```
+```
+Request:
+GET <fhir-server>/MedicationOrder?patient=<patient-id>&_count=10
+
+Response:
+{
+  "resourceType": "Bundle",
+  "id": "<bundle-id>",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+	{
+	  "resource": {
+		"resourceType": "MedicationOrder",
+		"id": "<resource-id>",
+		"dateWritten": "2018-09-17",
+		"medicationCodeableConcept": {
+		  "text": "Lisinopril 20 MG Oral Tablet"
+		},
+		"prescriber": {
+		  "display": "Jane Doe"
+		},
+		"dosageInstruction": [
+		  {
+			"text": "1 daily"
+		  }
+		]
+	  }
+	}
+  ]
+}
+```
 
 See [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) for other details on this field set.
 
@@ -491,27 +491,27 @@ A resource search uses the GET method and the following parameters:
 
 See the following example of this call:
 
-    ```http
-    Request:
-    GET <fhir-server>/Coverage?patient=<patient-id>
-    
-    Response:
-    {
-      "resourceType": "Bundle",
-      "type": "searchset",
-      "total": 1,
-      "entry": [
-        {
-          "resource": {
-            "resourceType": "Coverage",
-            "id": "<resource-id>",
-            "plan": "No Primary Insurance",
-            "subscriber": { "reference": "Patient/<patient-id>" }
-          }
-        }
-      ]
-    }
-    ```
+```
+Request:
+GET <fhir-server>/Coverage?patient=<patient-id>
+
+Response:
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "entry": [
+	{
+	  "resource": {
+		"resourceType": "Coverage",
+		"id": "<resource-id>",
+		"plan": "No Primary Insurance",
+		"subscriber": { "reference": "Patient/<patient-id>" }
+	  }
+	}
+  ]
+}
+```
     
 See [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) for other details on this field set.
 
