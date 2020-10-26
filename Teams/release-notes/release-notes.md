@@ -22,11 +22,24 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## October 22, 2020
+
+### Skype Meeting Broadcast
+
+You'll now have the ability to setup and manage Skype Meeting Broadcast settings in your Teams organization.[Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
 ## October 1, 2020
+
+### Free audio conferencing for small to medium businesses
+
+With Audio Conferencing, people can call in to Teams meetings using a phone instead of using the Teams app on their mobile device or from their computer.
+
+If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses, you can get Audio Conferencing free for one year. This free offer is available starting October 1, 2020. [Learn more](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)
 
 ### View app permissions and grant admin consent in the Microsoft Teams admin center
 
 Now in Teams admin center global admins will be able to review and grant consent to Graph API permissions registered in Azure Active Directory, on behalf of the entire tenant for the permissions an app is requesting such as reading information stored in a team or sending an email on behalf of users. Now IT admins will be able to review resource-specific consent (RSC) permissions for the apps within Teams admin center. With that admins will be able to unblock their users for the third-party apps they have already reviewed and approved to use in their organization. [Learn more](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
+
 ## September 29, 2020
 
 ### Meeting policy settings
