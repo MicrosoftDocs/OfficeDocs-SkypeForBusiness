@@ -62,7 +62,6 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 
 Users don't fit the criteria if they:
 
-- Have a Teams license or previously had a paid Teams license.
 - Currently or previously had Teams from a paid, unpaid or trial license 
 - Are in a tenant that used/received at least one special COVID offer.
 
