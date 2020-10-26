@@ -63,7 +63,7 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 Users don't fit the criteria if they:
 
 - Have a Teams license or previously had a paid Teams license.
-- Are using or used a trial or COVID trial offer.
+- Currently or previously had Teams from a paid, unpaid or trial license 
 - Are in a tenant that used/received at least one special COVID offer.
 
 Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.
