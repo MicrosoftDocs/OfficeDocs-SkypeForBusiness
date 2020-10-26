@@ -1,5 +1,5 @@
 ---
-title: "Use Teams Healthcare templates in the admin center"
+title: "Use Teams healthcare templates in the admin center"
 author: cichur
 ms.author: v-cichur
 manager: serdars
