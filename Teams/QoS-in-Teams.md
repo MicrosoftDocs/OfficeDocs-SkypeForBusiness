@@ -196,9 +196,9 @@ Preferably, you capture traffic at the network egress point. You can use port mi
 
 Read these topics for information about implementing QoS for Intune, Surface, iOS, Android, and Mac
 
-- [Manage Surface hub Qos with Intune](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune)
+- [QoS for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune)
 
-- [Surface hub QoS](https://docs.microsoft.com/surface-hub/surface-hub-qos)
+- [QoS for Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-qos)
 
 - [QoS for iOS, Android, and Mac](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
