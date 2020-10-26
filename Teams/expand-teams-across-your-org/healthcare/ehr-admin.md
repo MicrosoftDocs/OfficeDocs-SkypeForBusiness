@@ -150,6 +150,8 @@ Key features of the patient experience:
 
   ![Patient experience of the virtual visit](../../media/ehc-virtual-visit-5.png)
 
+Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
+
 ### Privacy and location of data
 
 Teams integration into EHR systems optimizes the amount of data being used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
