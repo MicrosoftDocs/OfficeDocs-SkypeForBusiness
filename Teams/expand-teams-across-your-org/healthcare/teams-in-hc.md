@@ -53,12 +53,12 @@ To learn more, see [Teams policy packages for healthcare](../../policy-packages-
 
 ## Secure messaging
 
-Secure messaging supports collaboration within care teams, including several new features:
+Secure messaging supports collaboration within health teams, including several new features:
 
 - A message sender can set a special priority for their message, so the recipient is repeatedly notified until they read the message.
 - A message sender can request a read receipt, so they are notified when a message they sent was read by the message recipient.
 
-Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New care teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
+Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New health teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
 
 See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
 
@@ -70,16 +70,16 @@ New templates for creating Teams were developed to apply to a Hospital setting, 
 
 ## Care coordination and collaboration
 
-Bring your care team together to coordinate care and collaborate with Microsoft Teams.
+Bring your health team together to coordinate care and collaborate with Microsoft Teams.
 
-![Healthcare: Collaborate with your care team in Teams](../../media/teams-healthcare-collaborate-in-teams.png)
+![Healthcare: Collaborate with your health team in Teams](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams enables physicians, clinicians, nurses, and other staff to collaborate efficiently with included collaboration features in Microsoft Teams, such as:
 
-- Set up teams and channels for your care teams and information workers. Use channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources.
+- Set up teams and channels for your health teams and information workers. Use channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources.
 - Chat, post messages, and communicate. Your team can have persistent conversations about different patients needing attention.
-- Call and meet with members of the care team. Set up individual meetings, or use channel meetings to manage daily meetings, both with the power of Teams audio, video, screen sharing, recording, and transcription features.
-- Store and share files and documents. Your care team is part of a single virtualized team that works and collaborates on Office documents.
+- Call and meet with members of the health team. Set up individual meetings, or use channel meetings to manage daily meetings, both with the power of Teams audio, video, screen sharing, recording, and transcription features.
+- Store and share files and documents. Your health team is part of a single virtualized team that works and collaborates on Office documents.
 
 In addition, your team can use apps in Teams to:
 
@@ -92,9 +92,9 @@ In addition, your team can use apps in Teams to:
 
 The Lists app in Teams helps teams track information and organize work. The app is pre-installed for all Teams users and is available as a tab in every team and channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
 
-Care teams can use the Patients template to get started. They can create lists to track the needs and status of patients. Existing patient data on Excel spreadsheets can be brought in to create a list in Teams. These lists can be used for scenarios such as rounds and patient monitoring to coordinate care.
+health teams can use the Patients template to get started. They can create lists to track the needs and status of patients. Existing patient data on Excel spreadsheets can be brought in to create a list in Teams. These lists can be used for scenarios such as rounds and patient monitoring to coordinate care.
 
-For example, a charge nurse creates a patient list in a team that includes all care team members. During rounds, the care team access Teams on their mobile devices and update patient information in the list, which everyone on the team can view to stay in sync. At rounding sessions where the care team gathers to discuss and evaluate key health performance metrics to ensure a patient is on the right glide path to discharge, they can share this information using Teams on a large display screen. Care team members who aren't on site can join remotely.
+For example, a charge nurse creates a patient list in a team that includes all health team members. During rounds, the health team access Teams on their mobile devices and update patient information in the list, which everyone on the team can view to stay in sync. At rounding sessions where the health team gathers to discuss and evaluate key health performance metrics to ensure a patient is on the right glide path to discharge, they can share this information using Teams on a large display screen. health team members who aren't on site can join remotely.
 
 Here's an example list which was set up for patient rounding.
 
@@ -104,7 +104,7 @@ To learn more, see [Manage the Lists app for your organization in Teams](../../m
 
 ### Track and monitor tasks with the Tasks app
 
-Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) in Teams to track to do items for your whole care team. You care team can create, assign, and schedule tasks, categorize tasks, and update status at any time, from any device running Teams.
+Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) in Teams to track to do items for your whole health team. Your health team can create, assign, and schedule tasks, categorize tasks, and update status at any time, from any device running Teams.
 
 To learn more, see [Manage the Tasks app for your organization in Microsoft Teams](../../manage-tasks-app.md)
 
