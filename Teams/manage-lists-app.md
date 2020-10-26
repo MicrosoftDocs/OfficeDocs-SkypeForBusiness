@@ -21,9 +21,6 @@ ms.custom:
 
 # Manage the Lists app for your organization in Microsoft Teams
 
-> [!NOTE]
-> Effective October 30, 2020, the Patients app has been retired and replaced by the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams. With Lists, care teams in healthcare organizations can create patient lists for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring. To get started, check out the Patients template in Lists.
-
 ## Overview of Lists
 
 The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.

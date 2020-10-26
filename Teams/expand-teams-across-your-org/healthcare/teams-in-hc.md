@@ -64,7 +64,11 @@ Together, these features allow quicker attention to urgent messages and confiden
 
 See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
 
-Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (See [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
+Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (See [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md).
+
+## Virtual Visit
+
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. To learn more, see [Bookings app and virtual visits in Teams](../../bookings-app-admin.md).
 
 ## Firstline Worker integration
 
