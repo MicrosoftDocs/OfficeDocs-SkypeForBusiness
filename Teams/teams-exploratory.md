@@ -63,8 +63,8 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 Users don't fit the criteria if they:
 
 - Have a Teams license or previously had a paid Teams license.
-- Are using a trial or COVID trial offer.
-- Are in a tenant that has at least one special COVID trial offer.
+- Are using or used a trial or COVID trial offer.
+- Are in a tenant that has or had at least one special COVID trial offer.
 
 Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.
 
@@ -161,7 +161,7 @@ When users sign in to their expired Teams Commercial Cloud Trial for the first t
 - If you would like to remove this license through the admin portal, see:
 [Delete a user from your organization](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
-## What is the data retention policy?
+## What is the data retention policy
 
 See [Microsoft 365 subscription information](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
 
