@@ -682,7 +682,7 @@
 ## Teams for Healthcare
 ### [Get started with Teams for healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### Virtual visits
-#### [Virtual visits with Teams - Integration into EHR](ehr-admin.md)
+#### [Virtual visits with Teams - Integration into EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [Virtual visits with Bookings and Teams](bookings-app-admin.md)
 ### [Create Teams policy packages](policy-packages-healthcare.md)
 ### Secure messaging
