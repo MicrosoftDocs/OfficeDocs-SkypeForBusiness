@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## October 29, 2020
+
+### Microsoft Healthcare updates
+
+
+
 ## October 22, 2020
 
 ### Skype Meeting Broadcast
