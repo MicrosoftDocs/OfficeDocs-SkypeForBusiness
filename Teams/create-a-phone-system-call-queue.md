@@ -61,7 +61,7 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 
 > [!NOTE]
 > The uploaded recording can be no larger than 5 MB.
-> The default music supplied by in Teams Call Queue is free of any royalties payable by your organization. 
+> The default music supplied in Teams Call Queue is free of any royalties payable by your organization. 
 
 ## Call agents
 
