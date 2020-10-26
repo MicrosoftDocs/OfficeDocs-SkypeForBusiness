@@ -57,7 +57,7 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
-Teams provides default music to callers while they are on hold in queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
+Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
 > [!NOTE]
 > The uploaded recording can be no larger than 5 MB.
