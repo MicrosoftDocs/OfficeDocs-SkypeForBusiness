@@ -33,7 +33,7 @@ Call queues provide:
 
 - A greeting message.
 
-- Music while people are waiting on hold in queue.
+- Music while people are waiting on hold in a queue.
 
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 
