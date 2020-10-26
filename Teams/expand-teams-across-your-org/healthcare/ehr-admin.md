@@ -76,7 +76,7 @@ The Microsoft 365 admin and Epic admin from your organization must complete the 
 
 This step is to be completed by the Microsoft 365 administrator. The Microsoft 365 administrator must launch the connector configuration portal and sign in with Microsoft credentials to start the configuration process.
 
-To complete this step, the Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Microsoft 365 administrator and the username of the Epic administrator who will be approving the configuration. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process. 
+To complete this step, the Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Microsoft 365 administrator and the username of the Epic administrator who will be approving the configuration. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
 
 - The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST).
 
@@ -127,14 +127,14 @@ Key features of the provider experience:
 - Providers must do a one time sign in with their Microsoft 365 account when joining a virtual visit for the first time.
 
 - After the one time sign in, the provider will be taken straight to the virtual appointment in Microsoft Teams. (Provider must be signed-in to Microsoft Teams).
- 
+
 - Provider can see real-time updates of participants connect and disconnect for a given appointment. The provider can see when the patient is connected to a virtual visit.
 
   ![Provider experience of a virtual visit with patient](../../media/ehc-provider-experience-6.png)
 
 ### Patient experience
 
-The connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button. 
+The connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button.
 
 Key features of the patient experience:
 
@@ -150,7 +150,8 @@ Key features of the patient experience:
 
   ![Patient experience of the virtual visit](../../media/ehc-virtual-visit-5.png)
 
-Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
+> [!Note]
+> Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
 
 ### Privacy and location of data
 
