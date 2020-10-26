@@ -132,7 +132,7 @@ Callers can say names in the following formats:
 |LastName + FirstName |Full  |Marble Amos |Amos Marble |
 |FirstName |Full |Amos |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Jones |
 |LastName |Full |Marble |Press or say 1 for Amos Marble  <br/> Press or say 2 for Ben Marble |
-|FirstName or LastName |Partial |Mar |Press 1 or say for Mary Marble  <br/> Press or say 2 for Mary Jones  <br/> Press or say 3 for Amos Marcus |
+|FirstName or LastName |Partial |Mar |Press or say 1 for Mary Marble  <br/> Press or say 2 for Mary Jones  <br/> Press or say 3 for Amos Marcus |
 |FirsName + LastName |Partial |Amos Mar |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Marcus |
 
 > [!NOTE]
