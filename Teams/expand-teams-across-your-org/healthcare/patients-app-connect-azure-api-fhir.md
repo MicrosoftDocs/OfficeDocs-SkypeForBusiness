@@ -27,7 +27,7 @@ description: Learn how to connect the Patients app in Microsoft Teams to Azure A
 >
 >Patients app data is stored in the group mailbox of the Office 365 group that backs the team. When the Patients app is retired, all data associated with it will be retained in this group but can no longer be accessed through the user interface. Current users can re-create their lists using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->The [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) is pre-installed for all Teams users and is available as a tab in every team and channel. With Lists, care teams can create patient lists using the built-in Patients template, from scratch, or by importing data to Excel. To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](../../manage-lists-app.md).
+>The [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) is pre-installed for all Teams users and is available as a tab in every team and channel. With Lists, health teams can create patient lists using the built-in Patients template, from scratch, or by importing data to Excel. To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](../../manage-lists-app.md).
 
 Follow these steps to allow the Patients app in Microsoft Teams access to an Azure API for FHIR instance. This article assumes that you have an [Azure API for FHIR instance](https://azure.microsoft.com/services/azure-api-for-fhir/) set up and configured in your tenant.  If you haven’t yet created an Azure API for FHIR instance in your tenant, see [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 
@@ -39,10 +39,15 @@ Follow these steps to allow the Patients app in Microsoft Teams access to an Azu
     After you accept, close the window. You'll see a page that may look like this. You can ignore the error message on the page. It's harmless and indicates that consent is granted. (We're working on a more user-friendly page for this URL. Stay tuned!)
 
     ![Screenshot of permission request for Patients App](../../media/patients-app-permissions-request-granted.png)
+    
 2. Sign in to the [Azure portal](https://portal.azure.com) with your admin credentials.
+
 3. In the left navigation, select **Azure Active Directory**, and then select **Enterprise Applications**.
+
     Look for a row named **Patients (dev)**, and then copy the value in the **Object ID** column to your clipboard.
+    
     ![Screenshot of Patients (dev) row in Azure portal](../../media/patients-app-azure-portal-object-id.png)
+    
 4. Go to the Azure API for FHIR resource instance to which you want to connect the Patients app (either by searching for it or by browsing through your resources), and then open the settings for that instance.
 
     ![Screenshot of the Azure API for FHIR instance settings in Azure portal](../../media/patients-app-azure-portal-instance-settings.png)
@@ -52,6 +57,7 @@ Follow these steps to allow the Patients app in Microsoft Teams access to an Azu
     ![Screenshot of Authentication settings in Azure portal](../../media/patients-app-azure-portal-authentication.png)
 
 6. Click **Save**. This redeploys the instance, which can take a few minutes.
+
 7. Click **Overview**, and then copy the URL from **FHIR metadata endpoint**. Remove the metadata tag to get the FHIR server URL. For example, https://test02-teamshealth.azurehealthcareapis.com/. 
 
     ![Screenshot of the metadata endpoint in Azure portal](../../media/patients-app-azure-portal-metadata-endpoint.png)
