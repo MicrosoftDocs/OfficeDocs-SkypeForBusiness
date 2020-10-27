@@ -42,12 +42,7 @@ productDirectory:
     - title: Taking charge of audio/video quality in Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
       summary: Looking to ensure users have optimal experiences with meetings and voice capabilities? We'll discuss tools, reporting, and best practices to help you manage service quality -- from establishing a proactive strategy to resolving common issues.
-      url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-    # Card
-    - title: Taking charge of audio/video quality in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-      summary: Looking to ensure users have optimal experiences with meetings and voice capabilities? We'll discuss tools, reporting, and best practices to help you manage service quality -- from establishing a proactive strategy to resolving common issues.
-      url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+      url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality   
     # Card
     - title: Apps in Teams Fundamentals
       imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
