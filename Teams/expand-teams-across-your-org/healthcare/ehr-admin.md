@@ -33,7 +33,7 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 
   Watch the video of How to manage virtual visits from the EHR portal.
 
-> [!Video www.microsoft.com/videoplayer/embed/RE4HAtn]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## Before you begin
 
