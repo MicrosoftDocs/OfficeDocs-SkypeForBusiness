@@ -31,6 +31,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 This article is intended for a general healthcare IT developer interested in using FHIR APIs on top of a medical information system to connect to Microsoft Teams. This would enable care coordination scenarios that match the needs of a healthcare organization.
 
 Linked articles document the FHIR interface specifications for the Microsoft Teams Patients app, and following sections explain what is required for setting up a FHIR server and connecting to the Patients app in your development environment or tenant. You will also need to be familiar with the documentation of the FHIR server you have chosen, which must be one of the supported options:
+
 - Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)
 - Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
 - Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))
@@ -67,12 +68,16 @@ The Application to Application authentication model is described below:
 Service to service authentication should be done through OAuth 2.0 [Client Credential flow](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/). The partner service needs to provide the following:
 
 1. The Partner service enables the Patients app to create an account with the Partner, which enables the Patients app to generate and own client_id and client_secret, managed via an Auth registration portal on the partner's Authentication server.
-2. The Partner service owns the Authentication/Authorization system, which accepts and verifies (authenticates) the client credentials provided and gives back an access token with tenant hint in scope, as described below.
-3. For security reasons or in a case of a secret breach, the Patients app can re-generate the secret and invalidate or delete the old secret (example of the same is available in Azure Portal - AAD App Registration).
-4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
-5. The Partner service provides the token endpoint for the Patients app to request an access token using a client credential flow. The token url as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server as in this example:
 
-* * *
+2. The Partner service owns the Authentication/Authorization system, which accepts and verifies (authenticates) the client credentials provided and gives back an access token with tenant hint in scope, as described below.
+
+3. For security reasons or in a case of a secret breach, the Patients app can re-generate the secret and invalidate or delete the old secret (example of the same is available in Azure Portal - AAD App Registration).
+
+4. The metadata endpoint hosting the conformance statement should be un-authenticated, it should be accessible without authentication token.
+
+5. The Partner service provides the token endpoint for the Patients app to request an access token using a client credential flow. The token URL as per authorization server should be part of the FHIR conformance (capability) statement fetched from metadata on the FHIR server as in this example:
+
+    ```
     {
         "resourceType": "CapabilityStatement",
         .
@@ -114,21 +119,18 @@ Service to service authentication should be done through OAuth 2.0 [Client Crede
             }
         ]
     }
-
-* * *
+    ```
 
 A request for an access token consists of the following parameters:
 
-* * *
+```http
+POST /token HTTP/1.1
+Host: authorization-server.com
 
-    POST /token HTTP/1.1
-    Host: authorization-server.com
-
-    grant-type=client_credentials
-    &client_id=xxxxxxxxxx
-    &client_secret=xxxxxxxxxx
-
-* * *
+grant-type=client_credentials
+&client_id=xxxxxxxxxx
+&client_secret=xxxxxxxxxx
+```
 
 The Partner service provides the client_id and client_secret for Patients app, managed via an Auth registration portal on the partner's side. The Partner service provides the endpoint to request access token using a client credential flow. A successful response must include the token_type, access_token and expires_in parameters.
 
@@ -144,21 +146,27 @@ The Authentication and Routing workflow is shown below:
 
 1. Request for app access token by sending:
  
-        {   grant_type: client_credentials,
-            client_id: xxxxxx, 
-            client_secret: xxxxxx,
-            scope: {Provider Identifier, Ex: tenant ID}
-        }
+    ```
+    {   grant_type: client_credentials,
+        client_id: xxxxxx, 
+        client_secret: xxxxxx,
+        scope: {Provider Identifier, Ex: tenant ID}
+    }
+    ```
 
 2. Reply with an app token:
 
-        {  access_token: {JWT, with scope: tenant ID},
-           expires_in: 156678,
-           token_type: "Bearer",
-        }
+    ```
+    {  access_token: {JWT, with scope: tenant ID},
+       expires_in: 156678,
+       token_type: "Bearer",
+    }
+    ```
 
 3. Request protected data with Access token.
-4. Authorization message: Select the appropriate FHIR server to route to from tenant ID in scope
+
+4. Authorization message: Select the appropriate FHIR server to route to from tenant ID in scope.
+
 5. Sends the app protected  data from the authorized FHIR server after authenticating with the app token.
 
 ## Interfaces
