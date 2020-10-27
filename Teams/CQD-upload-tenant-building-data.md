@@ -156,7 +156,7 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
 
-- All six columns use the String data type only. The maximum allowed length is 64 characters.
+- All seven columns use the String data type only. The maximum allowed length is 64 characters.
 
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 
@@ -164,15 +164,15 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
 - EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as “IT Department designated 2018 Laptop” or “Asset Tag 5678”.
 
-- There must be six columns for each row and the columns must be in the following order:
+- There must be seven columns for each row and the columns must be in the following order:
 
   **Field order:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
+  EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
 
   **Sample row:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018  
 
 
 ## Update a building file
