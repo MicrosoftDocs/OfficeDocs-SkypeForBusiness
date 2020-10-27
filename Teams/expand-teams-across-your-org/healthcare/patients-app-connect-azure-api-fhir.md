@@ -30,7 +30,7 @@ Follow these steps to allow the Patients app in Microsoft Teams access to an Azu
 
 1. Click [here](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) to grant admin consent for the Patients app. When prompted, sign in using your tenant admin or global admin credentials, and then click **Accept** to grant the required permissions.
 
-    ![Screenshot of permission request for Patients App](../../media/patients-app-permissions-request.png)
+    ![Screenshot of permission request for the Patients App](../../media/patients-app-permissions-request.png)
 
     After you accept, close the window. You'll see a page that may look like this. You can ignore the error message on the page. It's harmless and indicates that consent is granted. (We're working on a more user-friendly page for this URL. Stay tuned!)
 

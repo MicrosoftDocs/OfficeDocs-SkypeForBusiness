@@ -14,7 +14,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: Patients app for Teams admins
+description: Learn about auditing the Patients app for Teams admins
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 

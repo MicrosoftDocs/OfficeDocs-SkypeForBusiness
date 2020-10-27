@@ -16,7 +16,7 @@ MS.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: anach
-description: Patients app for Teams admins
+description: Learn about the Patients app for Teams admins
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
