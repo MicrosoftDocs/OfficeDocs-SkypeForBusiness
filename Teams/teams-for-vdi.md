@@ -401,7 +401,6 @@ The following are known issues and limitations for calling and meetings:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
 - Citrix-only limitations
-    - Dual Tone Multi Frequency (DTMF) interaction with telephony systems is currently not supported.
     - When screen sharing in a multi-monitor setup, only the main monitor is shared.
     - High DPI scaling on CWA is not supported.
 
