@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to uninstall Teams and the remove the Teams folder for users. 
+description: Use this PowerShell script to uninstall Teams and remove the Teams folder for users. 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
