@@ -148,6 +148,10 @@ You can choose to disconnect the call or redirect it to one of the call routing 
 
 When you have selected your call timeout options, click **Save**.
 
+## Overflow and Timeout External PSTN Transfer Requirements
+
+Please refer to [External Phone Number Transfers](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
+
 ## Caller ID for outbound calls
 
 Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
