@@ -31,6 +31,10 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 
 - Integrate into existing clinician and patient workflows while allowing them to use Microsoft Teams.
 
+  Watch the video of How to manage virtual visits from the EHR portal.
+
+> [!Video www.microsoft.com/videoplayer/embed/RE4HAtn]
+
 ## Before you begin
 
 You’ll need to make sure you have the following prerequisites before you can integrate the EHR connector:
