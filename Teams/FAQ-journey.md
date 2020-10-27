@@ -109,7 +109,7 @@ Yes, Teams is available for the US Government Cloud Community (GCC). To learn mo
 
 
 
-## Calling capabiities
+## Calling capabilities
 
 **What is the plan for Microsoft's online voice capabilities?**<br>
 The core of our voice solution is Phone System which is available today. Customers can additionally add a Microsoft Calling Plan which provides complete support for calling including number acquisition and assignment directly in Microsoft 365. Customers who want to keep their telecom telephone trunks can use Direct Routing – which is included as part of Phone System. Mix and match both together as you see fit for your organization's needs to have a complete voice solution.
