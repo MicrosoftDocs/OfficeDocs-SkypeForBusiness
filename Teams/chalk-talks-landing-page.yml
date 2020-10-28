@@ -32,7 +32,7 @@ metadata:
 
 # productDirectory section (optional)
 productDirectory:
-summary:  Click any workshop title to register.
+  summary:  Click any workshop title to register.
   items:
     # Card
     - title: So...you want to make calls with Teams?
