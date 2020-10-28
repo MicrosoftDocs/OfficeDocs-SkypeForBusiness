@@ -10,12 +10,16 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 f1.keywords:
 ms.custom: 
 localization_priority: Normal
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 description: Learn how to use and manage Teams policy packages for your healthcare organization.
 ---
 
