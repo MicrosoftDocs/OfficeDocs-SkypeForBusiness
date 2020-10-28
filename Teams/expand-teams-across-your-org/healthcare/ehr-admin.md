@@ -7,12 +7,16 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
@@ -30,6 +34,10 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Write back into EHR metadata on connect and disconnect events to enable automatic auditing and record keeping.
 
 - Integrate into existing clinician and patient workflows while allowing them to use Microsoft Teams.
+
+  Watch the video of How to manage virtual visits from the EHR portal.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## Before you begin
 

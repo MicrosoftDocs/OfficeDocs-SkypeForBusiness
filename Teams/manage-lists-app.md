@@ -8,12 +8,16 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 description: Learn how to manage the Lists app in Teams for users in your organization.
 f1.keywords:
-- NOCSH
+  - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.custom: 
