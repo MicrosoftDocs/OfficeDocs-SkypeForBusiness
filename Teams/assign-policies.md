@@ -63,7 +63,7 @@ Before assigning policies to individual users or groups, start by [setting the g
 |[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)   | You need to assign policies to large sets of users. For example, you want to assign a policy to hundreds or thousands of users in your organization at a time.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy to a group](#assign-a-policy-to-a-group) |You need to assign policies based on a user's group membership. For example, you want to assign a policy to all users in a security group or distribution list.| The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 | [Assign a policy package to a batch of users](#assign-a-policy-package-to-a-batch-of-users)|You need to assign multiple policies to a batch of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to all teachers in your school using batch assignment to give them full access to chats, calling, and meetings and assign the Education (Secondary school student) policy package to a batch of secondary students to limit certain capabilities like private calling.|PowerShell cmdlets in the Teams PowerShell module|
-| [Assign a policy package to a group](#assign-a-policy-package-to-a-group-of-users) (coming soon)   |You need to assign multiple policies to a group of users in your organization who have the same or similar roles. For example, you want to assign a policy package to all users in a security group or distribution list. |The Microsoft Teams admin center (coming soon) or PowerShell cmdlets in the Teams PowerShell module|
+| [Assign a policy package to a group](#assign-a-policy-package-to-a-group) (coming soon)   |You need to assign multiple policies to a group of users in your organization who have the same or similar roles. For example, you want to assign a policy package to all users in a security group or distribution list. |The Microsoft Teams admin center (coming soon) or PowerShell cmdlets in the Teams PowerShell module|
 
 ## Set the global policies
 
@@ -471,7 +471,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 To learn more, see [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation). 
 
-## Assign a policy package to a group of users
+## Assign a policy package to a group
 
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
@@ -479,7 +479,8 @@ Policy package assignment to groups is recommended for groups of up to 50,000 us
 
 When you assign the policy package, it's immediately assigned to the group. However, note that the propagation of the policy assignment to members of the group is performed as a background operation and may take some time, depending on the size of the group. The same is true when a policy is unassigned from a group, or when members are added to or removed from a group.
 
-Before you get started, it's important to understand precedence rules and group assignment ranking. Make sure you read and understand the concepts in [What you need to know about policy assignment to groups](#what-you-need-to-know-about-policy-assignment-to-groups). 
+> [!IMPORTANT]
+> Before you get started, it's important to understand precedence rules and group assignment ranking. Make sure you read and understand the concepts in [What you need to know about policy assignment to groups](#what-you-need-to-know-about-policy-assignment-to-groups) earlier in this article.
 
 ### Using the Microsoft Teams admin center
 
@@ -493,7 +494,7 @@ For step-by-step guidance, see [Install Teams PowerShell](teams-powershell-insta
 
 #### Assign a policy package to a group
 
-You use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign a policy package to a group. You can specify a group by using the object Id, SIP address, or email address. You can specify a group assignment ranking for each policy type in the policy package. 
+You use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign a policy package to a group. You can specify a group by using the object Id, SIP address, or email address. When you assign the policy package, specify a group assignment ranking for each policy type in the policy package. 
 
 In this example, we use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign the Education_Teacher to a group with an assignment ranking of 1 for all policy types.
 
