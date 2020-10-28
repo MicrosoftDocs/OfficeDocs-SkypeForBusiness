@@ -15,7 +15,7 @@ ms.collection:
   - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: "This article provides an overview of and features suppprted by Microsoft Teams displays."
+description: "This article provides an overview of and features supported by Microsoft Teams displays."
 ---
 
 # Deploy Teams phones and Teams displays using Intune
