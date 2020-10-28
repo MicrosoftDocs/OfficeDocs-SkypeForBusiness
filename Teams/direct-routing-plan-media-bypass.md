@@ -362,9 +362,9 @@ For information about how to configure two trunks on the same SBC, see the docum
 
 ## Client endpoints supported with media bypass
 
-Media bypass is supported with all Teams Desktop clients and Teams Phone Devices. 
+Media bypass is supported with all standalone Teams Desktop clients, Android and iOS clients and Teams Phone Devices. 
 
-For all other endpoints that do not support media bypass, we will covert the call to non-bypass even if it started as a bypass call. This happens automatically and does not require any actions from the administrator. This includes Skype for Business 3PIP Phones, and Teams Web Clients that support Direct Routing calling (New Microsoft Edge based on Chromium, Google Chrome, Mozilla Firefox). 
+For all other endpoints that do not support media bypass, we will convert the call to non-bypass even if it started as a bypass call. This happens automatically and does not require any actions from the administrator. This includes Skype for Business 3PIP Phones, and Teams Web Clients that support Direct Routing calling (WebRTC based clients running on Microsoft Edge, Google Chrome, Mozilla Firefox). 
  
 ## See also
 
