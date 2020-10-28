@@ -320,11 +320,11 @@ To change the ranking of a group assignment, you have to first remove the group 
 
 For step-by-step guidance, see [Install Teams PowerShell](teams-powershell-install.md).
 
-#### Assign a policy to a group
+#### Assign a policy to a group of users
 
 You use the [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) cmdlet to assign a policy to a group. You can specify a group by using the object Id, SIP address, or email address.
 
-In this example, we use the [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) cmdlet to assign a Teams meeting policy named Retail Managers Meeting Policy to a group with an assignment ranking of 1.
+In this example, we assign a Teams meeting policy named Retail Managers Meeting Policy to a group with an assignment ranking of 1.
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -480,9 +480,9 @@ Policy package assignment to groups is recommended for groups of up to 50,000 us
 When you assign the policy package, it's immediately assigned to the group. However, note that the propagation of the policy assignment to members of the group is performed as a background operation and may take some time, depending on the size of the group. The same is true when a policy is unassigned from a group, or when members are added to or removed from a group.
 
 > [!IMPORTANT]
-> Before you get started, it's important to understand precedence rules and group assignment ranking. Make sure you read and understand the concepts in [What you need to know about policy assignment to groups](#what-you-need-to-know-about-policy-assignment-to-groups) earlier in this article.
+> Before you get started, it's important to understand [precedence rules](#precedence-rules) and [group assignment ranking](#group-assignment-ranking). Make sure you read and understand the concepts in [What you need to know about policy assignment to groups](#what-you-need-to-know-about-policy-assignment-to-groups) earlier in this article.
 
-### Using the Microsoft Teams admin center
+### Using the Microsoft Teams admin center (coming soon)
 
 Policy package assignment to groups in the Microsoft Teams admin center is coming soon. Check back here for the latest updates.
 
@@ -492,14 +492,14 @@ Policy package assignment to groups in the Microsoft Teams admin center is comin
 
 For step-by-step guidance, see [Install Teams PowerShell](teams-powershell-install.md).
 
-#### Assign a policy package to a group
+#### Assign a policy package to a group of users
 
-You use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign a policy package to a group. You can specify a group by using the object Id, SIP address, or email address. When you assign the policy package, specify a group assignment ranking for each policy type in the policy package. 
+You use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign a policy package to a group. You can specify a group by using the object Id, SIP address, or email address. When you assign the policy package, specify a [group assignment ranking](#group-assignment-ranking) for each policy type in the policy package. 
 
-In this example, we use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign the Education_Teacher to a group with an assignment ranking of 1 for all policy types.
+In this example, we assign the Education_Teacher policy package to a group with an assignment ranking of 1 for TeamsAppSetupPolicy and TeamsMeetingBroadcastPolicy and a ranking of 2 for TeamsMeetingPolicy.
 
 ```powershell
-Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79f69" -PackageName "Education_Teacher" -PolicyRankings "TeamsAppSetupPolicy, 1", "TeamsMeetingBroadcastPolicy, 1", "TeamsMeetingPolicy, 1"
+Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79f69" -PackageName "Education_Teacher" -PolicyRankings "TeamsAppSetupPolicy, 1", "TeamsMeetingBroadcastPolicy, 1", "TeamsMeetingPolicy, 2"
 ```
 
 ## Related topics
