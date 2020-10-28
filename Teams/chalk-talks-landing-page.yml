@@ -7,7 +7,7 @@ brand: teams
 
 metadata:
   title: Microsoft Teams chalk talks # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users. Click on any workshop title below to see available dates and times, and sign up today! Click any workshop title to register. # Required; article description that is displayed in search results. < 160 chars.
+  description: Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users. Click on any workshop title below to see available dates and times, and sign up today! # Required; article description that is displayed in search results. < 160 chars.
   ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
@@ -32,6 +32,7 @@ metadata:
 
 # productDirectory section (optional)
 productDirectory:
+summary:  Click any workshop title to register.
   items:
     # Card
     - title: So...you want to make calls with Teams?
