@@ -54,7 +54,7 @@ You can manage Skype for Business features for Skype for Business users in your 
 
 ## October 16, 2020
 
-### Admins can configure shift-based presence (On shift, Off shift) for their Firstline Workers
+### Manage shift-based access for Firstline Workers
 
 As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift. With shift-based access, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
 
@@ -68,7 +68,7 @@ Custom policy packages let you bundle your own set of policies for users with si
 
 ### Add an app to a team in the Microsoft Teams admin center
 
-On the Manage apps page of the Microsoft Teams admin center, you can use the Add to team button to install an app to a team. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-apps).
+On the Manage apps page of the Microsoft Teams admin center, you can use the **Add to team** button to install an app to a team. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-apps).
 
 ## October 1, 2020
 
@@ -83,8 +83,6 @@ If you're a small or medium-sized business with up to 300 users and you currentl
 ### View app permissions and grant admin consent in the Microsoft Teams admin center
 
 Now in Teams admin center global admins will be able to review and grant consent to Graph API permissions registered in Azure Active Directory, on behalf of the entire tenant for the permissions an app is requesting such as reading information stored in a team or sending an email on behalf of users. Now IT admins will be able to review resource-specific consent (RSC) permissions for the apps within Teams admin center. With that admins will be able to unblock their users for the third-party apps they have already reviewed and approved to use in their organization. [Learn more](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
-
-## September 30, 2020
 
 ### Calling Plans support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland
 
