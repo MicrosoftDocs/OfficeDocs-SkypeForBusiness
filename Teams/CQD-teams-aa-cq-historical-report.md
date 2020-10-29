@@ -130,7 +130,7 @@ Please perform these steps:
 |AACallerActionCount                     |int	                     |# of action selected by user in AA during the call  |
 |PSTNMinutes                             |int                      |Total minute usage                                  |
 |TotalCallCount                          |int                      |# of calls                                          |
-|Average Call Duration( Seconds)         |int                      |Total duration of call of call queue in seconds     |
+|Average Call Duration( Seconds)         |int                      |Total duration of call queue calls in seconds     |
 
 
 ### PowerBI graph description Auto Attendant
