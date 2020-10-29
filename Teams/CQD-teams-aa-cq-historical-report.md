@@ -46,7 +46,7 @@ Please perform these steps:
  - You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output. 
  The region will be displayed after the / like in this example: microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
  - The report will launch with sample data.
- - To see your own data please click Refresh in the Home tab under Queries in Power BI Desktop
+ - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
