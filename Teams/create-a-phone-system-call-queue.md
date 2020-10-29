@@ -148,7 +148,7 @@ You can choose to disconnect the call or redirect it to one of the call routing 
 
 When you have selected your call timeout options, click **Save**.
 
-## Overflow and Timeout External PSTN Transfer Requirements
+## Overflow and timeout external PSTN transfer requirements
 
 Please refer to [External Phone Number Transfers](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 
