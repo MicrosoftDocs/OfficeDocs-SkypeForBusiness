@@ -162,7 +162,7 @@ Please perform these steps:
 
 |Name	                                                   |Description                            |
 |-------------------------------------------------------:|:-------------------------------------:|
-|# calls by Agent                                        |Distribution of call by call queue and agent                 |
+|# calls by agent                                        |Distribution of call by call queue and agent                 |
 |Total Call duration (seconds) by Agent and Call Queue   |Total duration (seconds) of call by agent and call queue     |
 |Average Call Duration (Second) by Agent Name            |Average duration (seconds) of call by agent                  |
 
