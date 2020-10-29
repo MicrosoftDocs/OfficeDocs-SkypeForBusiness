@@ -54,9 +54,13 @@ You'll now have the ability to setup and manage Skype Meeting Broadcast settings
 
 This feature is in private preview
 
-Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.[Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
+Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
 ## October 1, 2020
+
+### Use OneDrive for Business and SharePoint for meeting recordings
+
+Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the new Stream, this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits. [Learn more](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change).
 
 ### Free audio conferencing for small to medium businesses
 
