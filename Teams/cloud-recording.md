@@ -113,7 +113,7 @@ When this change takes effect, meeting recordings will be stored by default in t
 To enable recordings in region the Global policy, use the following cmdlet:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
 ```
 
 
