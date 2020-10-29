@@ -46,7 +46,7 @@ The IP Phones certification program ensures that customers using certified desk 
 
 ### Skype Meeting Broadcast
 
-You'll now have the ability to setup and manage Skype Meeting Broadcast settings in your Teams organization.[Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+You'll now have the ability to setup and manage Skype Meeting Broadcast settings in your Teams organization. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## October 15, 2020
 
@@ -54,7 +54,7 @@ You'll now have the ability to setup and manage Skype Meeting Broadcast settings
 
 This feature is in private preview
 
-Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.[Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)
+Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.[Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
 ## October 1, 2020
 
@@ -62,7 +62,7 @@ Custom policy packages let you bundle your own set of policies for users with si
 
 With Audio Conferencing, people can call in to Teams meetings using a phone instead of using the Teams app on their mobile device or from their computer.
 
-If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses, you can get Audio Conferencing free for one year. This free offer is available starting October 1, 2020. [Learn more](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)
+If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses, you can get Audio Conferencing free for one year. This free offer is available starting October 1, 2020. [Learn more](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb).
 
 ### View app permissions and grant admin consent in the Microsoft Teams admin center
 
@@ -162,7 +162,7 @@ Users with this role can manage Teams certified devices from the Teams admin cen
 
 ### Lists app in Teams
 
-Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items. For more information about how to manage the Lists apps, see [Manage the Lists app for your organization](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
+Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
 
 ## August 6, 2020
 
@@ -184,7 +184,7 @@ Developers can use the Teams App Submission API to submit custom apps directly t
 
 ### Admins can configure shift-based presence (On shift, Off shift) for their Firstline Workers
 
-Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
+Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
 
 ## July 29, 2020
 
@@ -194,7 +194,7 @@ As part of enhanced manageability, we are releasing Device Tagging functionality
 
 ### View-only in meetings
 
-View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
+View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
 
 ## July 28, 2020
 
@@ -218,7 +218,7 @@ We added the ability to enable NDI-Out to a Teams meeting. NDI-Out allows for th
 
 ### Enable suggested replies
 
-Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
+Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md).
 
 ## July 9, 2020
 
@@ -230,7 +230,7 @@ We added support for call queues to use a shared voicemail box. [Learn more](../
 
 ### Policy packaging batch assignment
 
-We made it possible to use PowerShell to batch assign a Policy Package for user and groups.
+We made it possible to use PowerShell to batch assign a Policy Package for user and groups. [Learn more](https://docs.microsoft.com/microsoftteams/manage-policy-packages).
 
 ## July 7, 2020
 
@@ -246,7 +246,7 @@ We added the ability for Teams users to have a suggested reply to their conversa
 
 ### Transferring incoming calls
 
-We added the ability for auto attendants and call queue incoming calls to be transferred to an external PSTN phone number.  [Learn more](../business-voice/set-up-auto-attendants.md).
+We added the ability for auto attendants and call queue incoming calls to be transferred to an external PSTN phone number. [Learn more](../business-voice/set-up-auto-attendants.md).
 
 ## June 30, 2020
 
@@ -262,7 +262,7 @@ Many IT Admins have complained that they can't have their employees screen share
 
 ### Walkie Talkie app in Microsoft Teams
 
-Instant voice communication using push-to-talk.
+Instant voice communication using push-to-talk. [Learn more](https://docs.microsoft.com/microsoftteams/walkie-talkie).
 
 ## June 25, 2020
 
@@ -284,7 +284,7 @@ If user isn't signed in to their Microsoft 365 account anywhere else, they'll be
 
 ### Monitor shifts with audit logs
 
-You can search the audit log to view Shifts activity in your organization. [Learn more](<https://docs.microsoft.com/microsoftteams/audit-log-events>.
+You can search the audit log to view Shifts activity in your organization. [Learn more](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## June 11, 2020
 
