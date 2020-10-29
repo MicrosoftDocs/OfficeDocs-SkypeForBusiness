@@ -28,7 +28,7 @@ description: Learn about how to use Call Quality Dashboard Power BI report to vi
 # What are the requirements? 
 You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
-You can use the free version of Power BI Desktop. Minimum compatible version is 2.85.681.0 (September 2020)
+You can use the free version of Power BI Desktop. The minimum compatible version is 2.85.681.0 (September 2020).
 
 ## Permissions to access the CQD pipeline
 The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Please refer to [CQD access role](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) for more information.
