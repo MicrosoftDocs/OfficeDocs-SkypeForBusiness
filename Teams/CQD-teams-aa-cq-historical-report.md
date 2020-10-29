@@ -50,7 +50,7 @@ Please perform these steps:
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
-- You will then be prompted to sign in. Select Organization account and click Sign in
+- You will then be prompted to sign in. Select **Organization account** and then select **Sign in**.
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
