@@ -175,5 +175,5 @@ Average Call Duration (Second) by Agent Name	Average duration (seconds) of call 
 
 
 ## Known Issues
-- Currently CQ and AA shows Resource accounts Id instead of CQ/AA names.  To show all the traffic for an Auto Attendant or Call Queue you must select all the Resource Accounts assigned to the Auto Attendant or Call Queue.
+- Currently, Call Queue and auto attendant show resource accounts Id instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
 - Currently only 28 days of history are available in the dashboard as CQ/AA data is considered End User Identifiable Information and is subject to data privacy retention policies
