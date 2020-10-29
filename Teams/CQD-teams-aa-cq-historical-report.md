@@ -154,7 +154,7 @@ Please perform these steps:
 |Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
 |Transfer/Forward target totals          |Distribution of call forwarded by call result                  |
 |Abandoned calls ratio                   |Ratio of successful to abandoned call count                    |
-|Average Session Length (seconds)        |Call length in seconds grouped by abandoned/successful calls   |
+|Average session length (seconds)        |Call length in seconds grouped by abandoned/successful calls   |
 
 
 
