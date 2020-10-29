@@ -38,7 +38,7 @@ The following steps assume you have already installed Power BI Desktop on the co
 
 Please perform these steps:
 - Download the [CQD Teams Auto Attendant & Call Queue Historical Report Template](https://aka.ms/TAPAACQAnalytics) and save it to a directory on your computer.
-- Double-click on the template and Power BI Desktop should launch
+- Double-click on the template and Power BI Desktop should launch.
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
