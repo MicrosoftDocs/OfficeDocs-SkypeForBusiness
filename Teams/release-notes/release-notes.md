@@ -48,8 +48,6 @@ Microsoft Teams displays are a category of all-in-one dedicated Teams devices th
 
 You can manage Skype for Business settings for Skype for Business users in your organization in the Microsoft Teams admin center.  Go to the Skype for Business tab on the user details page. From here, you can manage external access and meeting settings for individual users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
-## October 22, 2020
-
 ### Manage Skype for Business settings for your organization
 
 You can manage Skype for Business features for Skype for Business users in your organization in the Microsoft Teams admin center. Go to Org-wide settings > Skype for Business. From here, you can manage Skype Meeting Broadcast, presence, and mobile notifications. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
