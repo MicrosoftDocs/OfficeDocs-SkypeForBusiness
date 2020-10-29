@@ -34,7 +34,7 @@ Teams live events are considered the next version of Skype Meeting Broadcast and
 
 So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
-![The key components of live events](../media/live-event-flow-diagram.png  "Diagram showing key components of live events, scheduling, production, Stream platform, certified third-party eCDN providers")
+![The key components of live events](../media/live-event-flow-diagram.png  "Key components of live events, scheduling, production, Stream platform, certified third-party eCDN providers")
 
 ### Event group roles
 
