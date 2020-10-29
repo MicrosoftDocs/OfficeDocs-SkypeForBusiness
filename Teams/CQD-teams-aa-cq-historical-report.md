@@ -99,7 +99,7 @@ Please perform these steps:
 |Call Queue Target Type                  |String                   |Expected call redirection target type     |
 |Transferred From Call Queue Identity    |Boolean                  |Name of resource account attached to CQ from which this call was transferred<br>Example: aa_test@microsoft.com|
 |Call Queue Agent Opt In Count           |Int                      |Count of agents available to this queue at the moment of call |
-|Call Queue Agent Count                  |Int                      |count of agents assigned to this queue at the moment of call |
+|Call Queue Agent Count                  |int                      |Count of agents assigned to this queue at the moment of call |
 |Is Call Queue Involved                  |Boolean                  |If call queue is involved into to this call equal 1 |
 
 
