@@ -27,7 +27,7 @@ Insights is active in Office 365 Education SKUs A1, A3, and A5.
 > [!NOTE]
 > Educators, learn how to use Insights [here](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181).
 
-## Permissions
+## Use Insights
 
 ### User types
 - **Students** are identified by their license and _do not have_ access to the Insights tab (even if they are an owner of the team). 
@@ -35,15 +35,22 @@ Insights is active in Office 365 Education SKUs A1, A3, and A5.
 - **Leaders** are also identified by faculty license, but in addition they need explicit permissions from the IT global admin to view the reports in the Insights app.
 - Guest accounts _do not have_ access to Insights.
 
-### Permission levels
-Educators and leaders have different permission levels and logic:
-**Educators** can use Insights in two forms:
-- [Tabs](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - Insights for each class are available in a tab added from the top navigation menu. Insights will surface activity data from all channels within a class team, but can only be added as a tab to public channels.  
+### Entry points
+Educators and leaders have different entry points where they can discover and use Insights.
+
+**Educators** can use these two entry points:
+- [Tabs](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - insights for each class they own are available in a tab added from the top navigation menu. Insights will surface activity data from all channels within a class team, but can only be added as a tab to public channels. The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
 - [Personal app](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - an overview of all their active classes is available from the left Teams app bar.
 
-The app reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
-
 **Leaders** can use Insights as a [personal app](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
+
+### Manage setup policy
+As an admin, you can use [app setup policy](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) to install Insights by default for your educators and leaders when they start Teams.
+With that policy you can customize Teams to highlight Insights, and pin it for them in the apps bar.
+
+> [!TIP]
+> Read [here](https://docs.microsoft.com/microsoftteams/policy-packages-edu) about Teams policies and policy packages for education.
+
 
 
 ## Compliance
