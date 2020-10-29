@@ -22,7 +22,7 @@ ms.custom:
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
   - seo-marvel-apr2020
-description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant & Call Queue Historical data.
+description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
 # What are the Requirements? 
