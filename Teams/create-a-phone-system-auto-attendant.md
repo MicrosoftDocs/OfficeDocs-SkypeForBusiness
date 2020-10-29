@@ -194,7 +194,7 @@ When you have finished adding service accounts, click **Submit**. This completes
 When transferring calls to an external phone number, the resource account associated with the auto attendant or call queue must have a phone number and a Microsoft 365 Phone System - Virtual User license. Additionally:
 
 - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
-  - The external transfer phone number must be entered in E.164 format (+CC+phone_numer)
+  - The external transfer phone number must be entered in E.164 format (+CC+phone_number).
 
 - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
   - The external transfer phone number format is dependant on the SBC settings used by the tenant.
