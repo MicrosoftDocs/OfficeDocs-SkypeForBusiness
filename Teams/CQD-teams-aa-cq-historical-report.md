@@ -158,7 +158,7 @@ Please perform these steps:
 
 
 
-### Agent Timeline
+### Agent timeline
 
 |Name	                                                   |Description                            |
 |-------------------------------------------------------:|:-------------------------------------:|
