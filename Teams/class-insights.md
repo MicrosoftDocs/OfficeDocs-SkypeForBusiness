@@ -20,7 +20,7 @@ appliesto:
 
 # IT Admin Guide to Insights in Teams for Education
 
-With Insights in Microsoft Teams for Education, educators and leaders can access analytics data about digital engagement, assignment workload, grades, communication and more.
+With Insights in Microsoft Teams for Education, educators and leaders can access analytics data about digital engagement, assignment workload, grades, communication and more. Insights is driven by ethical principles that put educators and students first, meet privacy standards, and ensure continuous compliance for your institution.
 
 Insights is active in Office 365 Education SKUs A1, A3, and A5.
 
@@ -37,8 +37,14 @@ Insights is active in Office 365 Education SKUs A1, A3, and A5.
 
 ### Permission levels
 Educators and leaders have different permission levels and logic:
-- **Educators** can add the Insights app to a public channel within a class team by navigating to Apps in the Teams app bar and searching for Insights. The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team). 
-- **Leaders** can add the Insights app as a personal app (appears on Teams left menu) by navigating to Apps in the Teams app bar and searching for Insights. 
+**Educators** can use Insights in two forms:
+- [Tabs](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - Insights for each class are available in a tab added from the top navigation menu. Insights will surface activity data from all channels within a class team, but can only be added as a tab to public channels.  
+- [Personal app](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - an overview of all their active classes is available from the left Teams app bar.
+
+The app reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
+
+**Leaders** can use Insights as a [personal app](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
+
 
 ## Compliance
 
@@ -102,5 +108,5 @@ The use of Insights does not require the use of SDS. However, you may choose to 
 
 By default, Education Analytics, and therefore Insights, is turned on. When you opt out of Analytics, we delete all data collected for the Insights tab. Turn Analytics back on, and we start collecting data from the time it's re-enabled.
 
-Learn more:
-[Educator's guide to Insights](https://support.microsoft.com/en-us/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)
+## Additional resources
+- [Educator's guide to Insights](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)
