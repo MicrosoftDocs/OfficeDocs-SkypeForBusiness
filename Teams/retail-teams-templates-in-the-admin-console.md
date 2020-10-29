@@ -23,17 +23,15 @@ appliesto:
 
 # Use Teams retail templates in the admin center
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Teams templates have pre-built definitions of team structures designed around retailer needs. You can use Teams templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
 
-In this article, we will introduce each of the Teams templates and how we recommend using them.
+In this article, we'll introduce each of the Teams templates and how we recommend using them.
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. We assume that you already have deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
 
-To learn more about team templates in general, please refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
+To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Organize a store
 
