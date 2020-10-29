@@ -8,12 +8,16 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 description: Learn how to manage the Lists app in Teams for users in your organization.
 f1.keywords:
-- NOCSH
+  - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.custom: 
@@ -39,7 +43,7 @@ Templates in Lists are tailored to common information tracking scenarios for use
 
 - Track issues and bring them to closure using the Issue tracker template.
 - Organize all your event details with the Event itinerary template.
-- Use the Patients template to record the needs and status of patients for care teams in your healthcare organization to monitor and coordinate care.
+- Use the Patients template to record the needs and status of patients for health teams in your healthcare organization to monitor and coordinate care.
 - Track the status of loan applications with the Loans template.
 
 ## Example scenario
