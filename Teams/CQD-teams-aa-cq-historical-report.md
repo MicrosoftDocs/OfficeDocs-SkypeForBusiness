@@ -67,7 +67,7 @@ You are able to customize certain visualization aspects of the reports, such as 
 You cannot add additional data fields other than the ones provided in the report.
 
 ### Change color schema 
-The following steps assume you have already completed Installation steps.
+The following steps assume you have already completed the Installation steps.
 
 Please perform these steps:
 - Select on ribbon View tab
