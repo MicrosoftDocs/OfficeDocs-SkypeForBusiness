@@ -90,7 +90,7 @@ Please perform these steps:
 |Auto Attendant Call Result              |string                   |Call result:<br>§  unknown<br>§  transferred_to_user<br>§  transferred_to_operator<br>§  failover_to_operator<br>§  user_terminated<br>§  service_declined<br>§  service_terminated<br>§  failed_to_establish_media<br>§  terminated_no_operator<br>§  terminated_transfer_failed<br>§  terminated_automatic_selection<br>§  transferred_to_shared_voicemail<br>§  oaa_chain_too_long<br>§  oaa_session_too_long|
 |Auto Attendant Call Flow                |string                   |Encapsulates the different states of Auto Attendant Call<br>§  abs_search<br>§  call_termination<br>§  call_transfer<br>§  main_menu<br>§  user_selection<br>§  speech_input_confirmation<br>§  first_level_menu<br>§  automatic_menu<br>§  announcement|
 |Is Auto Attendant Involved              |Boolean                  |Indicated if AA involved into the call |
-|Auto Attendant Caller Action Count      |Int                      |Count of used action by caller         |
+|Auto Attendant Caller Action Count      |int                      |Count of used action by caller         |
 |Auto Attendant Chain Duration Seconds   |Int                      |Duration of call in AA                 |
 |Call Queue Call Result                  |String                   |Call queue call final state<br>possible values:<br>§  error<br>§  declined<br>§  overflown<br>§  failed<br>§  timed_out<br>§  transferred_to_agent<br>§  agent_joined_conference|
 |Call Queue Final State Action           |String                   |Call queue final action<br>possible values:<br>§  forward<br>§  disconnect<br>§  voicemail<br>§  disconnect_with_busy<br>§  shared_voicemail<br>§  failed_to_accept_call<br>§  other|
