@@ -37,7 +37,7 @@ The account you use to view the AA & CQ Analytics historical report needs to hav
 The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Please perform these steps:
-- Download the [CQD Teams Auto Attendant & Call Queue Historical Report Template](https://aka.ms/TAPAACQAnalytics) and save it to a directory on your computer
+- Download the [CQD Teams Auto Attendant & Call Queue Historical Report Template](https://aka.ms/TAPAACQAnalytics) and save it to a directory on your computer.
 - Double-click on the template and Power BI Desktop should launch
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
