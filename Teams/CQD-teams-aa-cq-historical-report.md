@@ -103,7 +103,7 @@ Please perform these steps:
 |Is Call Queue Involved                  |Boolean                  |If call queue is involved into to this call equal 1 |
 
 
-### PowerBI data model Dimensions
+### PowerBI data model dimensions
 
 |Name                                    |Data Type                |Description                            |
 |---------------------------------------:|:-----------------------:|:-------------------------------------:|
