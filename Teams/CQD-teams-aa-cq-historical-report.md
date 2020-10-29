@@ -133,7 +133,7 @@ Please perform these steps:
 |Average Call Duration( Seconds)         |int                      |Total duration of call queue calls in seconds     |
 
 
-### PowerBI graph description Auto Attendant
+### Power BI graph description Auto Attendant
 
 |Name	                                   |Description                            |
 |---------------------------------------:|:-------------------------------------:|
