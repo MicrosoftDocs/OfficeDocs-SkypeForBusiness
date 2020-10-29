@@ -74,7 +74,7 @@ Please perform these steps:
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
-- Select color schema from drop down list
+- Select the color schema from the drop-down list.
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
