@@ -678,28 +678,24 @@
 ### [Get started with Teams templates](get-started-with-teams-templates.md)
 ### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app for your organization in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## Teams for Healthcare
-### [Get started with Teams for Healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [Bookings app and virtual visits](bookings-app-admin.md)
-### [Teams policy packages for Healthcare](policy-packages-healthcare.md)
-### Secure messaging policies
-#### [Secure Messaging for Healthcare organizations](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Get started with Teams for healthcare organizations](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### Virtual visits
+#### [Virtual visits with Teams - Integration into EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [Virtual visits with Bookings and Teams](bookings-app-admin.md)
+### [Create Teams policy packages](policy-packages-healthcare.md)
+### Secure messaging
+#### [Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### Teams templates for Healthcare organizations
-#### [Use Teams healthcare templates in the admin center](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [Get started with Teams templates for Healthcare organizations](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### Teams templates
+#### [Use Teams healthcare templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Teams templates for healthcare](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Manage the Lists app](manage-lists-app.md)
+### [Manage the Tasks app](manage-tasks-app.md)
 ### Shifts for Teams
 #### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### Patients app
-#### [Patients app overview](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### Integrate Electronic Healthcare Records into the Patients app
-##### [Integrate Electronic Healthcare Records into the Patients app using FHIR APIs](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [DSTU2 interface specification for the Patients app](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [STU3 interface specification for the Patients app](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [Connect the Patients app to Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [Audit logs for the Patients app](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams for Education](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
@@ -871,6 +867,9 @@
 ### [Update your devices remotely](devices/remote-update.md)
 ### [Manage Teams device tags](devices/manage-device-tags.md)
 ### [Phones for Teams](devices/phones-for-teams.md)
+### [Teams displays](devices/teams-displays.md)
+### [Upgrade Teams phones to Teams displays](devices/upgrade-phones-to-displays.md)
+### [Deploy Teams phones and Teams displays using Intune](devices/phones-displays-deploy.md)
 ### [USB audio and video devices](devices/usb-devices.md)
 ### [Deploy collaboration bars for Microsoft Teams](devices/collab-bar-deploy.md)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
