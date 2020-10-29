@@ -62,7 +62,7 @@ Data will be available in the CQD data pipeline within 30 minutes.
 You will have to refresh the data to see the new analytics data. 
 
 ## Customization 
-You are able to customize certain visualization aspects of the reports, i.e. adding or removing fields to be shown in the various visualizations, changing chart type etc.
+You are able to customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, etc.
 
 You cannot add additional data fields other than the ones provided in the report.
 
