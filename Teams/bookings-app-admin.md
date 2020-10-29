@@ -7,10 +7,14 @@ audience: ITPro
 ms.topic: article 
 ms.service: msteams 
 search.appverid: 
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
+  - microsoftcloud-healthcare
 ms.reviewer: 
 description: Microsoft Teams and virtual visits with the Bookings App
 ---
