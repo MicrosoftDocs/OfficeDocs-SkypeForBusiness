@@ -54,7 +54,7 @@ Please perform these steps:
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
-- Click Connect and watch the data refresh
+- Select **Connect** and watch the data refresh.
 
 ## Data latency Any AA & CQ analytics
 Data will be available in the CQD data pipeline within 30 minutes.
