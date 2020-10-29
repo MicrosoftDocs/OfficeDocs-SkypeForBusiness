@@ -79,7 +79,7 @@ Please perform these steps:
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 
-## CQD Fields Description
+## CQD fields description
 
 |Name                                    |Data Type                |Description                            |
 |---------------------------------------:|:-----------------------:|:-------------------------------------:|
