@@ -22,17 +22,39 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
-## October 29, 2020
+## October 28, 2020
 
-### Microsoft Healthcare updates
+### Get started with Teams in healthcare
 
+Microsoft Teams offers a number of features useful for hospitals and other healthcare organizations, including:
 
+- Virtual visits and Electronic Healthcare Record (EHR) integration
+- Teams policy packages
+- Secure messaging
+- Teams templates
+- Care coordination and collaboration
+
+This functionality is part of the Microsoft Cloud for Healthcare. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
+
+## October 27, 2020
+
+### IP Phones for Teams
+
+The IP Phones certification program ensures that customers using certified desk phones and conference phones will experience high quality audio calls and meetings experience. [Learn more](https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones).
 
 ## October 22, 2020
 
 ### Skype Meeting Broadcast
 
 You'll now have the ability to setup and manage Skype Meeting Broadcast settings in your Teams organization.[Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
+## October 15, 2020
+
+### Custom policy packages
+
+This feature is in private preview
+
+Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.[Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)
 
 ## October 1, 2020
 
