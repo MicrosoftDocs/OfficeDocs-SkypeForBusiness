@@ -70,7 +70,7 @@ You cannot add additional data fields other than the ones provided in the report
 The following steps assume you have already completed the Installation steps.
 
 Please perform these steps:
-- Select on ribbon View tab
+- Select on **View tab** on the ribbon.
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
