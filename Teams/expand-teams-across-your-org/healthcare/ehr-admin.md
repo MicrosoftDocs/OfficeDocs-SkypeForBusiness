@@ -7,12 +7,16 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
@@ -30,6 +34,10 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Write back into EHR metadata on connect and disconnect events to enable automatic auditing and record keeping.
 
 - Integrate into existing clinician and patient workflows while allowing them to use Microsoft Teams.
+
+  Watch the video of How to manage virtual visits from the EHR portal.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## Before you begin
 
@@ -76,7 +84,7 @@ The Microsoft 365 admin and Epic admin from your organization must complete the 
 
 This step is to be completed by the Microsoft 365 administrator. The Microsoft 365 administrator must launch the connector configuration portal and sign in with Microsoft credentials to start the configuration process.
 
-To complete this step, the Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Microsoft 365 administrator and the username of the Epic administrator who will be approving the configuration. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process. 
+To complete this step, the Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Microsoft 365 administrator and the username of the Epic administrator who will be approving the configuration. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
 
 - The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST).
 
@@ -127,14 +135,14 @@ Key features of the provider experience:
 - Providers must do a one time sign in with their Microsoft 365 account when joining a virtual visit for the first time.
 
 - After the one time sign in, the provider will be taken straight to the virtual appointment in Microsoft Teams. (Provider must be signed-in to Microsoft Teams).
- 
+
 - Provider can see real-time updates of participants connect and disconnect for a given appointment. The provider can see when the patient is connected to a virtual visit.
 
   ![Provider experience of a virtual visit with patient](../../media/ehc-provider-experience-6.png)
 
 ### Patient experience
 
-The connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button. 
+The connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button.
 
 Key features of the patient experience:
 
@@ -149,6 +157,9 @@ Key features of the patient experience:
 - Testing of the video and microphone is available in the lobby before joining the virtual visit.
 
   ![Patient experience of the virtual visit](../../media/ehc-virtual-visit-5.png)
+
+> [!Note]
+> Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
 
 ### Privacy and location of data
 
