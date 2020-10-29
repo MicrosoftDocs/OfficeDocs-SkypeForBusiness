@@ -17,7 +17,7 @@ description: "This article discusses how to configure your organization and Team
 
 # Enable Teams Room devices to join third-party meetings
 
-Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings. When enabled, you can use a Teams Rooms device to join meetings hosted on Cisco WebEx and Zoom<sup>1</sup> just as easily as you can join meetings hosted in Microsoft Teams.
+Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings. When enabled, you can use a Teams Rooms device to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
 
 Before you can join third-party meetings from a Teams Rooms device, you need to do the following:
 
@@ -107,5 +107,3 @@ You can optionally specify a custom username and email address to join third-par
 
 > [!NOTE]
 > To join Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted using Cisco WebEx web application version WBS 40.7 or later.
-
-<sup>1</sup> Zoom meetings join is currently only available to select Microsoft Teams Rooms customers through Technology Access Program (TAP).
