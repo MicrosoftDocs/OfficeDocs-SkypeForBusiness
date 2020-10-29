@@ -25,7 +25,7 @@ ms.custom:
 description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
-# What are the Requirements? 
+# What are the requirements? 
 You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore)
 
 You can use the free version of Power BI Desktop. Minimum compatible version is 2.85.681.0 (September 2020)
