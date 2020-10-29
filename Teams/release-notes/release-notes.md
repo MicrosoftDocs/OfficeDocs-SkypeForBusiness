@@ -50,7 +50,7 @@ You can manage Skype for Business settings for Skype for Business users in your 
 
 ### Manage Skype for Business settings for your organization
 
-You can manage Skype for Business features for Skype for Business users in your organization in the Microsoft Teams admin center. Go to Org-wide settings > Skype for Business. From here, you can manage Skype Meeting Broadcast, presence, and mobile notifications. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+You can manage Skype for Business features for Skype for Business users in your organization in the Microsoft Teams admin center. Go to **Org-wide settings** > **Skype for Business**. From here, you can manage Skype Meeting Broadcast, presence, and mobile notifications. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## October 16, 2020
 
@@ -62,7 +62,7 @@ As an admin, you can configure Teams to show a set of shift-based presence state
 
 ### Custom policy packages
 
-This feature is in private preview
+*This feature is in private preview*
 
 Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
@@ -88,7 +88,7 @@ Now in Teams admin center global admins will be able to review and grant consent
 
 ### Calling Plans support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland
 
-We've recently added calling plan support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland.[Learn more](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+We've recently added calling plan support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland.  [Learn more](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 ## September 29, 2020
 
@@ -174,7 +174,7 @@ With this feature, people are automatically assigned tags that match their sched
 
 Cortana voice skills in Teams mobile app help users perform meeting, communication, and collaboration tasks simply using spoken natural language. Users can speak to Cortana by clicking on the microphone button in Teams app and make requests like “Call Megan” or “Send a message to my next meeting” if they need to connect with someone while juggling household chores or walking the dog or generally on the go. Users can join meetings simply by saying “Join my next meeting” or check their calendar by asking “what do I have this morning”. Once in a meeting or a call, they can invoke Cortana from the overflow menu in the meeting stage and perform typical in-meeting tasks like adding people by name or number (“Add Megan to the call”), deck presentation (“present the quarterly review deck”) or navigating slides (“Go to the appendix slide”). Other things that the feature supports are finding and sharing files, search, and navigating within the Teams app (“Open my chat with John, Go to my unread activity, Go to my mentions etc.).
 
-Cortana in Teams meets the same enterprise-level privacy, security, and compliance promises for Cortana enterprise services, as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
+Cortana in Teams meets the same enterprise-level privacy, security, and compliance promises for Cortana enterprise services, as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1). [Learn more](https://docs.microsoft.com/microsoftteams/cortana-in-teams).
 
 ### Teams Devices Administrator
 
