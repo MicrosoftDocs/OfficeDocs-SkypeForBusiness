@@ -38,15 +38,27 @@ This functionality is part of the Microsoft Cloud for Healthcare. [Learn more](h
 
 ## October 27, 2020
 
-### IP Phones for Teams
+### Teams displays
 
-The IP Phones certification program ensures that customers using certified desk phones and conference phones will experience high quality audio calls and meetings experience. [Learn more](https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones).
+Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen and a hands-free experience powered by Cortana. [Learn more](https://docs.microsoft.com/microsoftteams/devices/teams-displays).
 
 ## October 22, 2020
 
-### Skype Meeting Broadcast
+### Manage Skype for Business settings for your users
 
-You'll now have the ability to setup and manage Skype Meeting Broadcast settings in your Teams organization. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+You can manage Skype for Business settings for Skype for Business users in your organization in the Microsoft Teams admin center.  Go to the Skype for Business tab on the user details page. From here, you can manage external access and meeting settings for individual users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
+## October 22, 2020
+
+### Manage Skype for Business settings for your organization
+
+You can manage Skype for Business features for Skype for Business users in your organization in the Microsoft Teams admin center. Go to Org-wide settings > Skype for Business. From here, you can manage Skype Meeting Broadcast, presence, and mobile notifications. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
+## October 16, 2020
+
+### Admins can configure shift-based presence (On shift, Off shift) for their Firstline Workers
+
+As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift. With shift-based access, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
 
 ## October 15, 2020
 
@@ -56,6 +68,10 @@ This feature is in private preview
 
 Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
 
+### Add an app to a team in the Microsoft Teams admin center
+
+On the Manage apps page of the Microsoft Teams admin center, you can use the Add to team button to install an app to a team. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-apps).
+
 ## October 1, 2020
 
 ### Use OneDrive for Business and SharePoint for meeting recordings
@@ -64,13 +80,17 @@ Microsoft Teams has a new method for saving meeting recordings. As the first pha
 
 ### Free audio conferencing for small to medium businesses
 
-With Audio Conferencing, people can call in to Teams meetings using a phone instead of using the Teams app on their mobile device or from their computer.
-
 If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses, you can get Audio Conferencing free for one year. This free offer is available starting October 1, 2020. [Learn more](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb).
 
 ### View app permissions and grant admin consent in the Microsoft Teams admin center
 
 Now in Teams admin center global admins will be able to review and grant consent to Graph API permissions registered in Azure Active Directory, on behalf of the entire tenant for the permissions an app is requesting such as reading information stored in a team or sending an email on behalf of users. Now IT admins will be able to review resource-specific consent (RSC) permissions for the apps within Teams admin center. With that admins will be able to unblock their users for the third-party apps they have already reviewed and approved to use in their organization. [Learn more](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
+
+## September 30, 2020
+
+### Calling Plans support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland
+
+We've recently added calling plan support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland.[Learn more](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 ## September 29, 2020
 
@@ -183,12 +203,6 @@ Teams apps are free to install and some may require purchasing service subscript
 ### Publish a custom app submitted through the Teams App Submission API
 
 Developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for admins to review and approve. [Learn more](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
-
-## July 31, 2020
-
-### Admins can configure shift-based presence (On shift, Off shift) for their Firstline Workers
-
-Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
 
 ## July 29, 2020
 
