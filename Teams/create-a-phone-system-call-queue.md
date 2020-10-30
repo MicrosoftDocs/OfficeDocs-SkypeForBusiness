@@ -134,7 +134,7 @@ For high volume queues, we recommend the following settings:
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-You can choose to disconnect the call or redirect it to any of the [call routing destinations](create-a-phone-system-auto-attendant.md#call-routing-options) except the operator. For example, you might have the caller leave a voicemail for the agents in the queue.
+You can choose to disconnect the call or redirect it to any of the [call routing destinations](create-a-phone-system-auto-attendant.md#call-routing-options) except the operator. For example, you might have the caller leave a voicemail for the agents in the queue. (Note [these details](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) if you're transferring to an external number.)
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
