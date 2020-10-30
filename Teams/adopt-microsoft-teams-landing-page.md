@@ -6,7 +6,6 @@ ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-ms.date: 10/31/2018
 audience: admin 
 ms.service: msteams
 ms.collection: 
@@ -16,7 +15,6 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
-- seo-marvel-apr2020
 - Adopt
 search.appverid: MET150
 appliesto: 
