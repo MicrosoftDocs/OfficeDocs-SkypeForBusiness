@@ -30,6 +30,7 @@ Auto attendants let people call your organization and navigate a menu system to 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 Auto attendants can direct calls, based on callers' input, to one of the following destinations:
+<a name="call-routing-options" ></a>
 
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)

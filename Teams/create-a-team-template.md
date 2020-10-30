@@ -20,11 +20,9 @@ appliesto:
 
 # Create a custom team template in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 **Custom templates are not yet supported for EDU customers.**
 
-A custom team template is a predefined team structure with a set of channels, tabs, and apps that you can develop to help you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
+A custom team template is a predefined team structure with a set of channels, tabs, and apps. You can develop a template that helps you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
 
 To get started:
 
