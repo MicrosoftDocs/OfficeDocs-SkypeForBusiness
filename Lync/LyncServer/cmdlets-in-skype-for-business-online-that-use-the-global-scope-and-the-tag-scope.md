@@ -1,5 +1,6 @@
 ---
 title: Cmdlets in Skype for Business Online that use the global scope and the tag scope
+description: "Cmdlets in Skype for Business Online that use the global scope and the tag scope."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

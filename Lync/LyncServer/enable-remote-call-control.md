@@ -1,5 +1,6 @@
 ---
 title: Enable remote call control
+description: "Enable remote call control."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Enable remote call control
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Enable remote call control
+
 
 </div>
 
@@ -48,7 +51,7 @@ Remote call control enables users to control their desktop private branch exchan
 
 4.  Configure Lync 2013 users for remote call control by enabling remote call control and assigning a line server Uniform Resource Identifier (URI) and a line URI. When you migrate users from your legacy deployment to Lync Server 2013, the remote call control settings are migrated along with the other user settings.
 
-5.  If you customized Address Book phone number normalization rules in your legacy deployment, you need to perform some manual tasks after the automated migration of policies and settings is complete to migrate the customized normalization rules. If you did not customize normalization rules, Address Book is migrated along with the rest of your topology. For details about manually migrating customized normalization rules, see [Migrate Address Book](migrate-address-book_1.md).
+5.  If you customized Address Book phone number normalization rules in your legacy deployment, you need to perform some manual tasks after the automated migration of policies and settings is complete to migrate the customized normalization rules. If you did not customize normalization rules, Address Book is migrated along with the rest of your topology. For details about manually migrating customized normalization rules, see [Migrate Address Book](migrate-address-book.md).
 
 </div>
 

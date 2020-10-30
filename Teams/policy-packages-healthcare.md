@@ -10,12 +10,16 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 f1.keywords:
 ms.custom: 
 localization_priority: Normal
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 description: Learn how to use and manage Teams policy packages for your healthcare organization.
 ---
 
@@ -24,6 +28,8 @@ description: Learn how to use and manage Teams policy packages for your healthca
 ## Overview
 
 A [policy package](manage-policy-packages.md) in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies. You can customize the settings of the policies in the package to suit the needs of your users. When you change the settings of policies in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ht2o]
 
 Policy packages pre-define policies for the following, depending on the package:
 
@@ -46,6 +52,16 @@ Teams currently includes the following healthcare policy packages.
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Healthcare clinical worker policy package to clinicians in your organization, a policy named Healthcare_ClinicalWorker is created for each policy in the package.
 
 ![Screenshot of policies in the Healthcare clinical worker package](media/policy-packages-healthcare-clinical-worker.png)
+
+## Get started with policy packages
+
+To get you started with Healthcare policy packages, on the Microsoft Admin Center onboarding hub, select **Healthcare basics**, and then select **Assign policy settings by role**. Once you’re ready to get started, decide which policy packages you'd like to assign individuals in your organization to.
+
+Select **View policy details** to learn more about the specific policies in a package and their respective settings. These [can be customized](manage-policy-packages.md#customize-policies-in-a-policy-package) after assignment in the Teams Admin Center.
+
+Choose one or multiple packages to assign and then click **Next**. You can search for and add people to the policy package best suited for their role. An individual can't be assigned to more than one policy package at one time.
+
+Once you’ve added people to the right policy package, **Finish** finalizes your selections. You can continue to customize and manage policy packages in the Microsoft Teams admin center.
 
 ## Manage policy packages
 

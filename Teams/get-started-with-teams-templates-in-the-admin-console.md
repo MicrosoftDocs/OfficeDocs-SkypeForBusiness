@@ -20,9 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Get started with Teams templates in the admin console
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+# Get started with Teams templates in the admin center
 
 **Custom templates are not yet supported for EDU customers.**
 
@@ -63,7 +61,7 @@ Once a base template type is defined, you can extend or override these special t
 > Pre-defined base templates provided in Microsoft Teams can be duplicated but not edited.
 
 | Base template type | baseTemplateId | Properties that come with this base template |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendar</li> |
 | Manage a project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li></ul> |
 | Manage an event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
