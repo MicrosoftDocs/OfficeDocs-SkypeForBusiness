@@ -156,7 +156,7 @@ items:
 
     #### Assign a policy based on group membership or at scale through a batch assignment
 
-    If you have a large volume of users to which you want to assign a policy, you can assign a policy to a group that users are a member o at scale through a batch assignment or
+    If you have a large volume of users to which you want to assign a policy, you can assign a policy to a group that users are a member or at scale through a batch assignment or
 
     ##### Assign a policy to a group
 
@@ -226,7 +226,7 @@ items:
 
     If you have a large volume of users to which you want to assign a policy package, you can assign a policy package at scale through a batch assignment or to a group that users are a member of.
 
-        ###### Assign a policy package to a group
+    ###### Assign a policy package to a group
 
     Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
