@@ -27,14 +27,14 @@ appliesto:
 > [!NOTE]
 > For an overview of making the transition to remote learning and resources to help you get started, see our [remote learning home page](https://www.microsoft.com/education/remote-learning).
 
-If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-quick-start.md), which is designed to get you up and running quickly. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Microsoft 365 or Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under [Deeper adoption guidance](https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=pr-en-us-5567#deeper-adoption-guidance).
+If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-quick-start.md), which is designed to get you up and running quickly. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Microsoft 365 or Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under [Deeper adoption guidance](#deeper-adoption-guidance).
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
 | <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px"> | [Quick start](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" width="40 px" height="40 px"> | [Introduction to teams and channels](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [Plan your first teams](/MicrosoftTeams/teams-adoption-your-first-teams) |
 | <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" width="40 px" height="40 px"> | [Empower your champions](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px"> | [Training](https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> | [Tools and Downloads](/microsoftteams/adopt-tools-and-downloads) |
 
-### Deeper adoption guidance
+### [Deeper adoption guidance](#deeper-adoption-guidance)
 
 Adoption plans can be simple to complex, depending on your environment. For large-scale deployments, step through the guidance below to ensure your organization has a smooth transition to Teams.
 
