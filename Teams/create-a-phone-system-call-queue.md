@@ -71,7 +71,7 @@ Call agents selected must be one of the following:
 - On-premises Skype for Business Server users
 - If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-![](media/call-queue-users-groups.png)
+![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
 
 You can add up to 20 agents individually and up to 200 agents via groups.
 
@@ -84,7 +84,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 
 ## Call routing
 
-![Screenshot of users and groups settings for call queues](media/call-queue-conference-mode-routing-method.png)
+![Screenshot of conference mode and routing method settings](media/call-queue-conference-mode-routing-method.png)
 
 **Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
