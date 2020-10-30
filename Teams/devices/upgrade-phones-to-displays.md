@@ -65,7 +65,7 @@ It can take up to an hour for the upgrade to complete. If the process hasn't com
 
 ## Known issues
 
-### Teams displays have the Default them instead of the Dark theme 
+### Teams displays have the Default theme instead of the Dark theme
 
 Dark theme support on Teams displays will be available in a future update. Teams phones that use the Dark theme will get the Default theme after the upgrade to Teams displays.
 
