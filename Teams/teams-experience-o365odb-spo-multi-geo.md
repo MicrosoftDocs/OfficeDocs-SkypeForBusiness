@@ -31,6 +31,6 @@ A given Team’s group site is also Multi-Geo aware. That is, if a European sate
 
 Because a Multi-Geo tenancy is a single global tenant, during @ mentions satellite users will be able to see their colleagues from across the globe, no matter where they reside.
 
-Note that conversations in chats, channels meessages and meeting IM notes/chats within the Teams experience are not Multi-Geo aware and are all kept only inside the central location of the tenant. Typically, chat conversations aren’t applied to data residency needs. For more information, see [Location of data in Microsoft Teams](location-of-data-in-teams.md).
+Note that conversations in chats, channels messages and meeting IM notes/chats within the Teams experience are not Multi-Geo aware and are all kept only inside the central location of the tenant. Typically, chat conversations aren’t applied to data residency needs. For more information, see [Location of data in Microsoft Teams](location-of-data-in-teams.md).
 
 For more information about Multi-Geo, refer to the [Microsoft Multi-Geo capabilities page](https://aka.ms/multi-geo).
