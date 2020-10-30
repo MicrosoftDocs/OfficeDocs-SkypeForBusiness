@@ -7,12 +7,16 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
@@ -22,13 +26,11 @@ ms.custom: seo-marvel-mar2020
 
 # Use Teams healthcare templates in the admin center
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to best leverage Teams effectively. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your Healthcare organization.
 
-We currently offer two first-party healthcare templates that you can leverage for a variety of situations. To learn more about team templates in general, see [Get started with Teams templates in the admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
+We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with Teams templates in the admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Collaborate on patient care
 

@@ -7,12 +7,16 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
@@ -30,7 +34,14 @@ Microsoft Teams offers a number of features useful for hospitals and other healt
 - Teams templates
 - Care coordination and collaboration
 
-The content in this section assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
+This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare).
+
+Watch the following video to learn more about using the healthcare collection to enhance health team collaboration in Microsoft Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> The content in this section assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## Virtual visits and Electronic Healthcare Record (EHR) integration
 
@@ -60,13 +71,13 @@ Secure messaging supports collaboration within health teams, including several n
 
 Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New health teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
 
-See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
+To learn more, see [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md).
 
 Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (See [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
 
 ## Teams templates for healthcare organizations
 
-New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. To learn more, see [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
 
 ## Care coordination and collaboration
 
@@ -91,7 +102,7 @@ In addition, your team can use apps in Teams to:
 ### Share lists and track information with the Lists app
 
 > [!NOTE]
-> Effective October 30, 2020, the Patients app will be retired and replaced by the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams. With Lists, care teams in your healthcare organization can create patient lists for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring.
+> Effective October 30, 2020, the Patients app has been retired and replaced by the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams. With Lists, care teams in your healthcare organization can create patient lists for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring.
 
 The Lists app in Teams helps teams track information and organize work. The app is pre-installed for all Teams users and is available as a tab in every team and channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
 
