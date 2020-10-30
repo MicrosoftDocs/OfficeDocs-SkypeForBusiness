@@ -1,5 +1,5 @@
 ---
-title: "Create a call queue"
+title: "Create a call queue in Microsoft Teams"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
