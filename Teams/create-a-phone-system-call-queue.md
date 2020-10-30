@@ -24,7 +24,6 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn how to set up Phone System for call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
 ---
-
 # Create a call queue
 
 Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
