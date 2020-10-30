@@ -154,26 +154,21 @@ items:
 
     7. Repeat these steps for all pilot users.
 
-    #### Using PowerShell
+    #### Assign a policy at scale or based on group membership
 
-    If you have a large volume of users with which you’d like to apply a policy, a more efficient option may be to use PowerShell.
+    If you have a large volume of users to which you want to assign a policy, you can assign a policy at scale through a batch assignment or to a group that users are a member of.
 
-    ##### Assign the FirstLineWorker app setup policy to users in a group
-    You can assign the FirstLineWorker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
-    In this example, we assign the FirstLineWorker app setup policy to all users in the Bellevue Contoso Store 1302 group.
+    ##### Assign a policy to a large set (batch) of users
 
-    > [!NOTE]
-    > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+    Use batch policy assignment to assign a policy to large sets of users at a time. You use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
-    Get the GroupObjectId of the particular group.
-    `$group = Get-AzureADGroup -SearchString "Bellevue Contoso Store 1302"`
+    A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy to a batch of users](assign-policies.md#assign-a-policy-to-a-batch-of-users).
 
-    Get the members of the specified group.
-    `$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}`
+    ##### Assign a policy to a group
 
-    Assign all users in the group to the FirstLineWorker app setup policy.
-    `$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstLineWorker" -Identity $_.EmailAddress}`
-    Depending on the number of members in the group, this command may take several minutes to execute.
+    Policy assignment to groups let you assign a policy to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
+
+    To learn more, see [Assign a policy to a group](assign-policies.md#assign-a-policy-to-a-group).
 
     ### Configure and assign policy packages
 
@@ -227,7 +222,7 @@ items:
     3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each pilot user that you want to add (for up to 20 users).
     4. When you're finished adding users, click **Apply**.
 
-    ##### Assign policy packages at scale or based on group membership
+    ##### Assign a policy package at scale or based on group membership
 
     If you have a large volume of users to which you want to assign a policy package, you can assign a policy package at scale through a batch assignment or to a group that users are a member of.
 
