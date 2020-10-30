@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
 title: Microsoft Teams Chalk Talks
-summary: Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Click any workshop title to register. # < 160 chars
+summary: Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: teams
 
 metadata:
   title: Microsoft Teams chalk talks # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users. Click on any workshop title below to see available dates and times, and sign up today! Click any workshop title to register. # Required; article description that is displayed in search results. < 160 chars.
+  description: Designed for IT professionals and decision makers, Teams Chalk Talks provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams. Facilitated by subject matter experts, these online interactive workshops will arm you with insights to enhance your Teams implementation and provide additional value for end users. Click on any workshop title below to see available dates and times, and sign up today! # Required; article description that is displayed in search results. < 160 chars.
   ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
@@ -32,13 +32,8 @@ metadata:
 
 # productDirectory section (optional)
 productDirectory:
+  summary:  Click any workshop title to register.
   items:
-    # Card
-    - title: Get to Teams -- zero to production
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-      summary: Coming soon! Jump start your Teams implementation for collaboration, chat, and meetings. We'll share key configurations, considerations, best practices, and resources to get your users up and running quickly.
-      url: http://aka.ms/ChalkTalkGTT
     # Card
     - title: So...you want to make calls with Teams?
       imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
@@ -48,22 +43,18 @@ productDirectory:
     - title: Taking charge of audio/video quality in Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
       summary: Looking to ensure users have optimal experiences with meetings and voice capabilities? We'll discuss tools, reporting, and best practices to help you manage service quality -- from establishing a proactive strategy to resolving common issues.
-      url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+      url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality   
     # Card
-    - title: Do more with apps in Teams
+    - title: Apps in Teams Fundamentals
       imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
       summary: This foundational session covers basic capabilities including app management and security. Learn how to integrate your workflows, productivity apps, and the services you use every day into a single, unified experience.
       url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
     # Card
-    - title: Automating IT workflows with Teams
+    - title: Supercharge key workflows with apps in Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-      summary: Coming soon! Automate your IT processes by using apps available in Teams. We'll cover common scenarios such as helpdesk and knowledge sharing so your team can save time and focus on what matters.
-      url: https://aka.ms/ChalkTalkAutoIT
-    # Card
-    - title: How to enable Teams for Firstline Worker engagement
-      imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
-      summary: Ready to start enabling digital workspaces for your Firstline workforce? Together we'll discuss best practices for starting a pilot to enhance communication, employee engagement, and operational productivity.
-      url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+      summary: Connect your systems, increase automation, and deliver improved experiences for users by bringing the apps your organization relies on into Teams.
+      url: https://aka.ms/ChalkTalkKeyApps
+    
 
 # additionalContent section (optional)
 # Card with summary style

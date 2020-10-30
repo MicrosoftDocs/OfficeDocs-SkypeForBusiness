@@ -33,7 +33,7 @@ Call queues provide:
 
 - A greeting message.
 
-- Music while people are waiting on hold.
+- Music while people are waiting on hold in a queue.
 
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 
@@ -53,14 +53,15 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-## Greetings and  hold music
+## Greetings and hold music
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
-Teams provides default music to callers while they are on hold. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
+Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
 > [!NOTE]
-> The uploaded recording can be no larger than 5 MB..
+> The uploaded recording can be no larger than 5 MB.
+> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 ## Call agents
 
@@ -133,7 +134,7 @@ For high volume queues, we recommend the following settings:
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue.
+You can choose to disconnect the call or redirect it to any of the [call routing destinations](create-a-phone-system-auto-attendant.md#call-routing-options) except the operator. For example, you might have the caller leave a voicemail for the agents in the queue.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
