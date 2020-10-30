@@ -154,21 +154,21 @@ items:
 
     7. Repeat these steps for all pilot users.
 
-    #### Assign a policy at scale or based on group membership
+    #### Assign a policy based on group membership or at scale through a batch assignment
 
-    If you have a large volume of users to which you want to assign a policy, you can assign a policy at scale through a batch assignment or to a group that users are a member of.
-
-    ##### Assign a policy to a large set (batch) of users
-
-    Use batch policy assignment to assign a policy to large sets of users at a time. You use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
-
-    A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy to a batch of users](assign-policies.md#assign-a-policy-to-a-batch-of-users).
+    If you have a large volume of users to which you want to assign a policy, you can assign a policy to a group that users are a member o at scale through a batch assignment or
 
     ##### Assign a policy to a group
 
     Policy assignment to groups let you assign a policy to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
     To learn more, see [Assign a policy to a group](assign-policies.md#assign-a-policy-to-a-group).
+    
+    ##### Assign a policy to a large set (batch) of users
+
+    Use batch policy assignment to assign a policy to large sets of users at a time. You use the [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
+
+    A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy to a batch of users](assign-policies.md#assign-a-policy-to-a-batch-of-users).
 
     ### Configure and assign policy packages
 
@@ -222,21 +222,21 @@ items:
     3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each pilot user that you want to add (for up to 20 users).
     4. When you're finished adding users, click **Apply**.
 
-    ##### Assign a policy package at scale or based on group membership
+    ##### Assign a policy package based on group membership or at scale through a batch assignment
 
     If you have a large volume of users to which you want to assign a policy package, you can assign a policy package at scale through a batch assignment or to a group that users are a member of.
+
+        ###### Assign a policy package to a group
+
+    Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
+
+    To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
 
     ###### Assign a policy package to a large set (batch) of users
 
     Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
     A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
-
-    ###### Assign a policy package to a group
-
-    Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
-
-    To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
 
     ### Set up your pilot team
     Configure the initial team for the Pilot users identified in Step 2.

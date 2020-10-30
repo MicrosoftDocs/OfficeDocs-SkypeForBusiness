@@ -29,6 +29,8 @@ description: Learn how to use and manage Teams policy packages for your healthca
 
 A [policy package](manage-policy-packages.md) in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies. You can customize the settings of the policies in the package to suit the needs of your users. When you change the settings of policies in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
+If you're getting started, you can also view and assign policy packages in the Microsoft 365 admin center, as shown in the following video.
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ht2o]
 
 Policy packages pre-define policies for the following, depending on the package:
@@ -55,7 +57,7 @@ Each individual policy is given the name of the policy package so you can easily
 
 ## Get started with policy packages
 
-To get you started with Healthcare policy packages, on the Microsoft Admin Center onboarding hub, select **Healthcare basics**, and then select **Assign policy settings by role**. Once you’re ready to get started, decide which policy packages you'd like to assign individuals in your organization to.
+To get you started with Healthcare policy packages, on the Microsoft 365 admin center onboarding hub, select **Healthcare basics**, and then select **Assign policy settings by role**. Once you’re ready to get started, decide which policy packages you'd like to assign individuals in your organization to.
 
 Select **View policy details** to learn more about the specific policies in a package and their respective settings. These [can be customized](manage-policy-packages.md#customize-policies-in-a-policy-package) after assignment in the Teams Admin Center.
 
