@@ -65,11 +65,20 @@ To configure auto attendants and call queues, you need the following resources:
 
 - A resource account for each auto attendant and each call queue
 - A free Phone System - Virtual User license for each resource account
-- A service number for each auto attendant or call queue that you want to be directly dialable
-- A calling plan for each person who will be receiving call queue calls
+- At least one [Microsoft service number](getting-service-phone-numbers.md), direct routing number, or a hybrid number for each resource account that you want to be directly dialable
+ - The service number may be a toll or toll-free number
+
+Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. 
+<br>If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
+
+When transferring calls to an external phone number, the resource account performing the transfer (ie. the one associated with the auto attendant or call queue) must have a phone number and a Microsoft 365 Phone System - Virtual User license. Additionally:
+
+- For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+- For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
 
 > [!NOTE]
-> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
+> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.<br>
+> Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
 ## Business decisions
 
@@ -175,18 +184,6 @@ Here are some call routing best practices:
 - Describe the service first, followed by the option to press (eg: For Sales press 1) rather than the other way around (eg. Press 1 for Sales).
 - User terminology your callers will understand rather than what you may use internally.
 - Avoid frequent updates to call routing. If you change your menu options for an auto attendant in the future, call that out in the voice prompts for the first 30 days.
-
-## Resource accounts and phone numbers
-
-Teams uses *[resource accounts](manage-resource-accounts.md)* to connect auto attendants and call queues to each other and to assign them phone numbers if desired.
-
-- Each call queue and auto attendant requires at least one resource account.
-- Each resource account requires a free Phone System - Virtual User license.
-- A resource account can optionally be assigned one or more service numbers. (This is how phone numbers get assigned to auto attendants and call queues.)
-
-You can assign a [Microsoft service number](getting-service-phone-numbers.md), a direct routing number, or a hybrid number to a resource account.
-
-You can use either toll or toll-free service numbers. You cannot use user phone numbers for auto attendants or call queues.
 
 ## Getting started
 
