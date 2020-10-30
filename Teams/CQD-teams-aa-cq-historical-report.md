@@ -168,7 +168,6 @@ Please perform these steps:
 
 
 
-Average call duration (seconds) by agent name	Average duration (seconds) of call by agent
 
 
 
