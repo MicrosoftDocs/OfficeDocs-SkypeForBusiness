@@ -1016,3 +1016,4 @@
 ## [Upgrade discovery questionnaire](upgrade-plan-journey-discovery-questionnaire.md)
 ## [Export content with the Microsoft Teams Export API](export-teams-content.md)
 ## [Release notes for Teams admin features](release-notes/release-notes.md)
+## [Public preview in Microsoft Teams](public-preview-doc-updates.md)
