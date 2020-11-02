@@ -113,7 +113,7 @@ Users you wish to make available for Dial By Extension need to have an extension
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-The required format to enter the extension in the user phone number field is either *+<phone number>ext=<extension>* or *+<phone number>x<extension>*.
+The required format to enter the extension in the user phone number field is either *+\<phone number>;ext=\<extension>* or *+\<phone number>x\<extension>*.
 
 You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
 
