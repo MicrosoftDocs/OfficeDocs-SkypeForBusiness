@@ -159,10 +159,10 @@ Please review the table below for an overview of the integration models that Mic
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>Teams voice apps</strong></th>
-<th><strong>Connect</strong></th>
-<th><strong>Extend</strong></th>
-<th><strong>Power</strong></th>
+<th>Teams voice apps</th>
+<th>Connect</th>
+<th>Extend</th>
+<th>Power</th>
 </tr>
 </thead>
 <tbody>
