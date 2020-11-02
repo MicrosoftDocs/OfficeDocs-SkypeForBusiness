@@ -60,3 +60,4 @@ For more information about formatting your data file, see [Tenant data file form
 ## Related topics
 
 [Set up Call Analytics](set-up-call-analytics.md)
+[Use call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
