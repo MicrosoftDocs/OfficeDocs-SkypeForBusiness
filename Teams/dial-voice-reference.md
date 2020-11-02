@@ -94,7 +94,7 @@ Callers can say names in the following formats:
 
 The following languages are available for text-to-speech used with outgoing prompts:
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |Arabic (EG)  |English (NZ)  |Korean (KO)  |
 |Chinese (HK)  |English (UK) |Norwegian (NO)  |
@@ -108,7 +108,7 @@ The following languages are available for text-to-speech used with outgoing prom
 
 Speech recognition input for auto attendants is available in the following languages:
   
-|||
+|-|-|
 |:-----|:-----|
 |Chinese (ZH)  |French (FR)  |
 |English (AU)  |German (DE)  |
