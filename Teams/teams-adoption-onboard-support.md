@@ -27,7 +27,7 @@ appliesto:
 
 To ensure that the early adopter and champions teams will have the appropriate support as they start using Teams, meet with your support staff and review the capabilities of Teams. Key members of the support organization may want to join your early adopter program. Encourage their use of Teams in their own scenarios. Take them through the basic onboarding of the product by using our online training resources.  
 
-- [Foundations of Microsoft Teams](https://youtu.be/xJBvJTDiQqg)
+- [Foundations - Core Components of Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Troubleshooting Teams](https://youtu.be/0KNh9KNpXcA)
 - [Teams troubleshooting](https://aka.ms/TeamsKnownIssues)
 - [Getting started with admin training for Microsoft Teams](https://docs.microsoft.com/microsoftteams/itadmin-readiness)
