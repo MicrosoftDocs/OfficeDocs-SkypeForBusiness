@@ -52,6 +52,7 @@ The following partners are in the process of certifying their solution for Micro
 | Landis Technologies | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | NICE inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Novomind | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 This list will be updated as more partners join and meet the certification criteria.
@@ -158,10 +159,10 @@ Please review the table below for an overview of the integration models that Mic
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>Teams voice apps</strong></th>
-<th><strong>Connect</strong></th>
-<th><strong>Connect + extend</strong></th>
-<th><strong>Extend + power</strong></th>
+<th>Teams voice apps</th>
+<th>Connect</th>
+<th>Extend</th>
+<th>Power</th>
 </tr>
 </thead>
 <tbody>
@@ -208,7 +209,8 @@ Please review the table below for an overview of the integration models that Mic
 <td>Platform<br />
 (Calling Plans +DR)</td>
 <td>Direct routing</td>
-<td>Direct routing</td>
+<td>Platform<br />
+(Calling Plans + DR)</td>
 <td>Platform<br />
 (Calling Plans + DR)</td>
 </tr>
