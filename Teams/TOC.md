@@ -40,7 +40,6 @@
 ## [Create people manager teams](create-manager-directs-teams.md)
 ## [Manage teams and channel policies](teams-policies.md)
 ## [Sensitivity labels for Teams](sensitivity-labels.md)
-## [Manage discovery of private teams in Teams](manage-discovery-of-private-teams.md)
 ## [Set up channel moderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Sharing files in Teams](sharing-files-in-teams.md)
 ## [Teams and Outlook email integration](teams-outlook-email-integration.md)
