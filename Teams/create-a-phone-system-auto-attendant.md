@@ -197,7 +197,7 @@ When transferring calls to an external phone number, the resource account associ
   - The external transfer phone number must be entered in E.164 format (+CC+phone_number).
 
 - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
-  - The external transfer phone number format is dependant on the SBC settings used by the tenant.
+  - The external transfer phone number format is dependant on your [Session Border Controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) settings.
 
 The outbound phone number that's displayed is determined as follows:
 
