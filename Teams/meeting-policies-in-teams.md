@@ -196,7 +196,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 |---------|---------|---------|
 |**On**|**On**|The **Start recording and transcription** and **Start transcription** options are available in meetings. The meeting organizer or meeting participants can start and stop recording and transcription or start transcription. |
 |**Off**|**On**|The **Start recording** option is available in meetings. Transcription isn't available in meetings.  |
-|**Off**|**Off**|Recording and tTranscription isn't available in meetings.  |
+|**Off**|**Off**|Recording and transcription aren't available in meetings.  |
 
 ******* 
 
