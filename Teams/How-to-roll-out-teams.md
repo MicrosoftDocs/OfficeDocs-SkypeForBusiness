@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: Whether your are rolling out all at once or starting in phases, plot a course to implement Microsoft Teams in your organization sucessfully.
+description: Whether you're rolling out all at once or starting in phases, plot a course to implement Microsoft Teams in your organization successfully.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
@@ -19,6 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
   - seo-marvel-mar2020
+  - seo-marvel-may2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -45,7 +46,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 
 ## If you're starting from Skype for Business, on-premises, or hybrid deployments
 
-If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the [recommended path](#recommended-path-to-teams) above for rolling out Teams, but first you need to do some extra planning. Start by reviewing the guidance in the table below that applies to your organization's profile.
+If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the [recommended path](#recommended-path-to-teams) above for a Teams deployment, but first you need to do some extra planning. Start by reviewing the guidance in the table below that applies to your organization's profile.
 
 
 
