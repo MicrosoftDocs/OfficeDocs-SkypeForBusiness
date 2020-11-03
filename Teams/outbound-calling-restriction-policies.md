@@ -62,7 +62,8 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 3.  Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
-      ![The Restrictions to dial-outs options](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
+      ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
+      
 
 4. Click **Save**.
 
