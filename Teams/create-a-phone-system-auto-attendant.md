@@ -196,7 +196,7 @@ When transferring calls to an external phone number, the resource account associ
 - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
 - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
 
-When setting the destination for the External phone number:
+When setting the destination for the external phone number:
 
 - If the call will route via Calling Plan, assign a number in E.164 format including country code
 - If the call will route via Direct Routing, assign a number that will match the pattern for tenant configured voice route
