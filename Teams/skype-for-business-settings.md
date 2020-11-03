@@ -111,7 +111,7 @@ You can selectively allow or block whether a user can communicate with people ou
 
 You can configure the following meeting settings for the user.
 
-- **Audio & video**: Choose one of the following audio and video settings:
+- **Audio & Video**: Choose one of the following audio and video settings:
 
     - **None**: User can't use audio or video.
     - **Audio only**: User can use audio but not video.
