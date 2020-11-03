@@ -1,7 +1,7 @@
 ---
 title: Call and chat with users from other organizations
-author: LolaJacobsen
-ms.author: lolaj
+author: serdars
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
