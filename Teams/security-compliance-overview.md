@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: An overview of security and compliance features of Microsoft Teams, including auditing and reporting, compliance content search, eDiscovery, and more.
+description: An overview of Microsoft Teams security and compliance features including privacy and encryption, auditing and reporting, and more.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -18,6 +18,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
   - seo-marvel-apr2020
+  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -152,7 +153,11 @@ Audit log search plugs right into the Microsoft 365 compliance center and gives 
 
 ## Privacy
 
-At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy).
+At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read:  
+
+- [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy)
+- [Our commitment to privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [For IT professionals: Privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## Information Protection Architecture
 
