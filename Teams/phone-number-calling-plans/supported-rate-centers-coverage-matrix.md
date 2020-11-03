@@ -23,11 +23,9 @@ description: Lists the supported rate centers and coverage for Calling Plans.
 
 This article lists the supported rate centers and coverage for Calling Plans in North America. A rate center is a geographical area that defines boundaries for local calling, billing rates, and phone number assignment for the Public Switched Telephone Network (PSTN). Calls to numbers within a rate center are billed at the same rate.
 
-Download this [Supported rate centers and coverage matrix for North America](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/calling-plans/supported-rate-centers-and-coverage-matrix-(v-07012020)-(en-us).xlsx?raw=true) spreadsheet and use it to look up rate centers and associated area codes (NPAs) and prefixes (NXX) when you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Teams.
+The [Supported rate centers and coverage matrix for North America](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/calling-plans/supported-rate-centers-and-coverage-matrix-(v-07012020)-(en-us).xlsx?raw=true) spreadsheet lists the rate centers that we support. When you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Teams, download the spreadsheet and use it to look up rate centers and associated area codes (NPAs) and prefixes (NXX) .
 
-If you're getting new numbers from Microsoft and we don't have the numbers that you're requesting, we'll offer you numbers from the same rate center.
-
-If you want to transfer (port) numbers from your existing provider to Teams, use the matrix to look up rate centers that we support.
+If you're getting new numbers and we don't have the numbers that you've requested, we'll offer you numbers from the same rate center.
 
 ## Related topics
 
@@ -36,3 +34,4 @@ If you want to transfer (port) numbers from your existing provider to Teams, use
 - [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Getting phone numbers for your users](../getting-phone-numbers-for-your-users.md)
 - [Getting service phone numbers](../getting-service-phone-numbers.md)
+- [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md)
