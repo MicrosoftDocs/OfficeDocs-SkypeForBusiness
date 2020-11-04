@@ -1,6 +1,6 @@
 ---
 title: Country and region zones for Audio Conferencing
-ms.author: v-lanach
+ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: tonysmit
@@ -28,7 +28,7 @@ This article lists the country and region zones for Audio Conferencing.
 
 ## Zone A countries and regions
 
-|    |
+|Country or region    |
 |-----|
 |Australia  <br/> |
 |Austria  <br/> |
