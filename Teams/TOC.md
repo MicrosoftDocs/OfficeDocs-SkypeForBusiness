@@ -931,7 +931,6 @@
 ### [Finland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [France](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [Georgia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Germany](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
 ### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Greece](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
