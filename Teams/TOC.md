@@ -258,6 +258,7 @@
 ### Reference
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [Country and region zones for Audio Conferencing](audio-conferencing-zones.md)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 
@@ -683,7 +684,7 @@
 ### Virtual visits
 #### [Virtual visits with Teams - Integration into EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [Virtual visits with Bookings and Teams](bookings-app-admin.md)
-### [Create Teams policy packages](policy-packages-healthcare.md)
+### [View and assign policy packages](policy-packages-healthcare.md)
 ### Secure messaging
 #### [Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
