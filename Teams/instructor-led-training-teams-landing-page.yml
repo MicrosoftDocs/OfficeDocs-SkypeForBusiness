@@ -25,6 +25,10 @@ highlightedContent:
     - title: On-demand end-user training
       itemType: video
       url: https://aka.ms/TeamsOnDemand
+    # Card
+    - title: Microsoft 365 Adoption Tools
+      itemType: deploy
+      url: https://adoption.microsoft.com
 
 # productDirectory section (optional)
 productDirectory:
