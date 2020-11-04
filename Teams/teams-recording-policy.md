@@ -48,6 +48,8 @@ storing, and analyzing Teams communications. This includes communications platfo
     integration with existing Teams administrative calling and
     meeting tools and policies
 
+Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5 and Office 365 A3/A5/E3/E5 users. 
+
 The compliance recording solution integration capabilities were also
 reviewed at Ignite 2019 in the [<span class="underline">Compliance
 Recording and Microsoft Teams
@@ -278,6 +280,13 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 In addition to publishing publicly-available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
 
+The following partners have certified their solution for Microsoft Teams.
+
+|Partner|Solution website |
+|:--|:--|
+|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
 The following partners are in the process of certifying their solution for Microsoft Teams.
 
 |Partner|Solution website |
@@ -288,7 +297,6 @@ The following partners are in the process of certifying their solution for Micro
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
