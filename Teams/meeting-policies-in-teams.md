@@ -542,6 +542,16 @@ To specify whether users can customize their video background in a meeting, set 
 > [!NOTE]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
 
+## Meeting policy settings - Breakout rooms
+
+This is a per-user policy. Breakout rooms are used to split the main meeting into smaller, separate meeting rooms. This setting controls whether meeting organizers have the option to create breakout rooms in meetings they schedule or start, assign attendees to rooms, and remove attendees from rooms. This policy setting affects all meetings, including Meet Now meetings.
+
+Currently, you can only use PowerShell to configure this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+By default, the **AllowBreakOutRooms** parameter is set to **True** and users who are assigned this policy have the option to create breakout rooms in meetings they schedule or start.  
+
+To prevent users from creating breakout rooms, set the **AllowBreakOutRooms** parameter to **False**. Users who are assigned this policy don't have the option to create breakout rooms in meetings they schedule or start.
+
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
