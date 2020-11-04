@@ -1,7 +1,7 @@
 ---
 title: Using CQD Power BI report to view Auto Attendant & Call Queue Historical Report
 ms.author: colongma
-author: ColinLongman
+author: clyvr
 manager: roykuntz
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
