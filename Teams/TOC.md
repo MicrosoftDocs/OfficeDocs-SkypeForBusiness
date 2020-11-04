@@ -308,6 +308,7 @@
 #### [Set up holidays](set-up-holidays-in-teams.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 #### [Dial and voice reference](dial-voice-reference.md)
+#### [Reporting](aa-cq-cqd-historical-reports.md)
 
 ### [Block inbound calls](block-inbound-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
