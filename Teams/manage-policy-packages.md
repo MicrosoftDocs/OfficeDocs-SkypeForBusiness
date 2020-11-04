@@ -125,7 +125,7 @@ You can edit the settings of a policy through the **Policy packages** page or by
 2. Select the policy you want to edit. Policies that are linked to a policy package have the same name as the policy package.
 3. Make the changes that you want, and then click **Save**.
 
-### Assign a policy package
+### Assign a policy package 
 
 #### Assign a policy package to one user
 
@@ -139,6 +139,14 @@ You can edit the settings of a policy through the **Policy packages** page or by
 2. Click **Manage users**.
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, click **Save**.
+
+#### Assign a policy package to a group
+
+**This feature is in private preview**
+
+Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
+
+To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
 
 #### Assign a policy package to a large set (batch) of users
 
