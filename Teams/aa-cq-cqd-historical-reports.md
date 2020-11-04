@@ -92,7 +92,7 @@ Please perform these steps:
 ## CQD fields description
 
 |Name                                    |Data Type                |Description                            |
-|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|:---------------------------------------|:------------------------|:--------------------------------------|
 |Auto Attendant Identity                 |string                   |Name of resource account attached to AA<br>Example: aa_test@microsoft.com|
 |Auto Attendant Chain Start Time         |datetime                 |AA chain start time                    |
 |Auto Attendant Directory Search Method  |string                   |Last Address book search method        |
@@ -116,7 +116,7 @@ Please perform these steps:
 ### PowerBI data model dimensions
 
 |Name                                    |Data Type                |Description                            |
-|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name	                               |string                   |Auto Attendant Id (resource account Id) |
 |AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br>	abs_search<br>	call_termination<br>	call_transfer<br>	main_menu<br>	user_selection<br>	speech_input_confirmation<br>	first_level_menu<br>	automatic_menu<br>announcement |
 |AACallResult                            |string                   |Result of Auto Attendant Call:<br>	unknown<br>	transferred_to_user<br>	transferred_to_operator<br>	failover_to_operator<br>	user_terminated<br>	service_declined – error of AA configuration<br>	service_terminated – internal AA errors<br>	failed_to_establish_media<br>	terminated_no_operator<br>	terminated_transfer_failed<br>	terminated_automatic_selection<br>	transferred_to_shared_voicemail<br>	oaa_chain_too_long<br>	oaa_session_too_long          |
@@ -136,7 +136,7 @@ Please perform these steps:
 ### Measures
 
 |Name	                                   |Type	                   |Description                            |
-|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|:---------------------------------------|:------------------------|:--------------------------------------|
 |AACallerActionCount                     |int	                     |# of action selected by user in AA during the call  |
 |PSTNMinutes                             |int                      |Total minute usage                                  |
 |TotalCallCount                          |int                      |# of calls                                          |
@@ -146,7 +146,7 @@ Please perform these steps:
 ### Power BI graph description Auto Attendant
 
 |Name	                                   |Description                            |
-|---------------------------------------:|:-------------------------------------:|
+|:---------------------------------------|:--------------------------------------|
 |Incoming call source                    |Distribution of call by Internal/ External call source      |
 |Directory search method totals          |Distribution of call by search type                         |
 |Caller action                           |Distribution of call by call receiver                       |
@@ -157,7 +157,7 @@ Please perform these steps:
 ### Call Queue
 
 |Name	                                   |Description                            |
-|---------------------------------------:|:-------------------------------------:|
+|:---------------------------------------|:--------------------------------------|
 |Incoming call source                    |Distribution of call by Internal/ External call source         |
 |Call volume                             |Distribution of call by call queues                            |
 |Caller result                           |Distribution of call by call result                            |
@@ -171,7 +171,7 @@ Please perform these steps:
 ### Agent timeline
 
 |Name	                                                   |Description                            |
-|-------------------------------------------------------:|:-------------------------------------:|
+|:-------------------------------------------------------|:--------------------------------------|
 |# calls by agent                                        |Distribution of call by call queue and agent                 |
 |Total call duration (seconds) by agent and Call Queue   |Total duration (seconds) of call by agent and call queue     |
 |Average call duration (seconds) by agent name            |Average duration (seconds) of call by agent                  |
