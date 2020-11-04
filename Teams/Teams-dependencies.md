@@ -38,11 +38,13 @@ For end-to-end guest access configuration instructions, see [Collaborate with gu
 
 The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Teams, and Microsoft 365.
 
-![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
 
 The next diagram shows, at a high level, how the user experience works with the permission model through a typical guest access invitation and redemption flow.
 
-![Diagram of invitation and redemption flows](media/authorize-guest-image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram of invitation and redemption flows](media/authorize-guest-image1.png)
 
 It's important to note here that apps, bots, and connectors might require their own set of permissions and/or consent specific to the user account. These might need to be granted separately. Similarly, SharePoint might impose extra external sharing boundaries for a specific user, groups of users, or even at the site level.
 
