@@ -550,7 +550,7 @@ Currently, you can only use PowerShell to configure this policy setting. You can
 
 By default, the **AllowBreakOutRooms** parameter is set to **True** and users who are assigned this policy have the option to create breakout rooms in meetings they schedule or start.  
 
-To prevent users from creating breakout rooms, set the **AllowBreakOutRooms** parameter to **False**. Users who are assigned this policy don't have the option to create breakout rooms in meetings they schedule or start.
+To prevent users from creating breakout rooms, set the **AllowBreakOutRooms** parameter to **False**. Users who are assigned this policy don't have the option to create breakout rooms.
 
 ## Related topics
 
