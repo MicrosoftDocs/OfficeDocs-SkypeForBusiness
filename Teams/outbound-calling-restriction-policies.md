@@ -31,7 +31,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 |Control|Description|Control options|
 |:-----|:-----|:-----|
-|Audio Conferencing PSTN calls|Restricts the type of outbound </br>calls that are allowed from within </br>meetings organized by a user.|Any destination (default)</br>In the same country or region as the organizer </br> Zone A countries or regions only </br>Don't allow|
+|Audio Conferencing PSTN calls|Restricts the type of outbound </br>calls that are allowed from within </br>meetings organized by a user.|Any destination (default)</br>In the same country or region as the organizer </br> [Zone A countries or regions](audio-conferencing-zones.md) only </br>Don't allow|
 |End user PSTN calls|Restricts the type of calls </br>that can be made by a user.|International and Domestic (default)</br>Domestic</br>None|
 
 To find out which countries and regions are considered Zone A, see [Country and region zones for Audio Conferencing](audio-conferencing-zones.md).
@@ -89,6 +89,6 @@ The following table provides an overview of each policy.
 |    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    User in the conference can only dial out to   domestic numbers, and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |
 |    Identity='tag:DialoutCPCDisabledPSTNDomestic'    |    User in the conference cannot make any dial   out, and this user can only make outbound call to domestic PSTN numbers.    |
 |    Identity='tag:DialoutCPCandPSTNDisabled'    |    User in the conference cannot make any dial   out, and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |
-|    Identity='tag:DialoutCPCZoneAPSTNInternational'    |    User in the conference can only dial out to Zone A countries and regions, and this user can make outbound calls to international and domestic numbers.    |
-|    Identity='tag:DialoutCPCZoneAPSTNDomestic'    |    User in the conference can only dial out to Zone A countries and regions, and this user can only make outbound calls to domestic PSTN number.    |
-|    Identity='tag:DialoutCPCZoneAPSTNDisabled'    |    User in the conference can only dial out to Zone A countries and regions, and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |
+|    Identity='tag:DialoutCPCZoneAPSTNInternational'    |    User in the conference can only dial out to [Zone A countries and regions](audio-conferencing-zones.md), and this user can make outbound calls to international and domestic numbers.    |
+|    Identity='tag:DialoutCPCZoneAPSTNDomestic'    |    User in the conference can only dial out to [Zone A countries and regions](audio-conferencing-zones.md), and this user can only make outbound calls to domestic PSTN number.    |
+|    Identity='tag:DialoutCPCZoneAPSTNDisabled'    |    User in the conference can only dial out to [Zone A countries and regions](audio-conferencing-zones.md), and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |

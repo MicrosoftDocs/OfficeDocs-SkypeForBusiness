@@ -50,7 +50,7 @@ Users with a license usage location (this is the user country location defined i
  
 - All 115 users share a pool of (115 users X 900 min) = 103,500 conferencing dial-out out minutes per calendar month which can be used to place outbound calls to any of the [Zone A countries and regions](audio-conferencing-zones.md).
 - All calls exceeding the 103,500 minutes per calendar month are billed per minute using Communications Credits at our published rates to that destination. (Note: Tenant must set up Communications Credits and assign the Communications Credits license to the meeting organizer).
-- All outbound calls to destinations not in the Zone A country list are billed per minute using Communications Credits at our published rates to that destination (provided tenant has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
+- All outbound calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list are billed per minute using Communications Credits at our published rates to that destination (provided tenant has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
 > [!NOTE]
 > You can monitor the usage against dial-out minute pool in the Skype for Business Admin Center. In the Microsoft Teams & Skype Admin Center, go to **Legacy portal** > **Reports** > **PSTN Minute Pools**. This complimentary minute pool will be labeled in the report as "Outbound Calls to Zone A countries and regions."
