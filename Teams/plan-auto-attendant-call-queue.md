@@ -69,7 +69,8 @@ To configure auto attendants and call queues, you need the following resources:
  - The service number may be a toll or toll-free number
 
 Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. 
-<br>If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
+
+If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
 When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a phone number and a Microsoft 365 Phone System Virtual User license. Additionally:
 
