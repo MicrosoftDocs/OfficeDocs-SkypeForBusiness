@@ -66,7 +66,7 @@ Please perform these steps:
 
 - Select **Connect** and watch the data refresh.
 
-## Data latency Any AA & CQ analytics
+## Data latency and AA & CQ analytics
 Data will be available in the CQD data pipeline within 30 minutes.
 
 You will have to refresh the data to see the new analytics data. 
