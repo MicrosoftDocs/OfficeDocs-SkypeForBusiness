@@ -14,9 +14,10 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Overview of Microsoft 365 Business Voice and how it can help small and medium businesses communicate more effectively.
+description: Microsoft 365 Business Voice is an inexpensive option for voice calling, enabling small and medium businesses to communicate more effectively.
 appliesto: 
 - Microsoft Teams
+ms.custom: seo-marvel-may2020
 ---
 
 # What is Microsoft 365 Business Voice?
@@ -68,9 +69,10 @@ When you buy Business Voice, you get the following features and more:
     <tr>
         <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audio Conferencing</a></b>
         </td>
-        <td>Lets you host conference calls with people who don't have Teams or don't have an Internet connection.
+        <td>Lets you host conference calls with people who don't have Teams or don't have an internet connection.
         </td>
     </tr>
 </table>
 
 You can see everything that's included with Business Voice by visiting [Microsoft 365 Business Voice service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+
