@@ -258,6 +258,7 @@
 ### Reference
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [Country and region zones for Audio Conferencing](audio-conferencing-zones.md)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 
