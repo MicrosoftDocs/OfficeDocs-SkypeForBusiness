@@ -146,7 +146,7 @@ To search for content for guest users:
    ```
 
    > [!TIP]
-   > Instead of displaying a list of user principal names on the computer screen, you can re-direct the output of the command to a text file. You can do thing by appending `> filename.txt` to the previous command. The text file with the user principal names will be saved to the current folder.
+   > Instead of displaying a list of user principal names on the computer screen, you can redirect the output of the command to a text file. You can do this by appending `> filename.txt` to the previous command. The text file with the user principal names will be saved to the current folder.
 
 3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps). You can connect with or without using multi-factor authentication.
 
@@ -159,7 +159,7 @@ To search for content for guest users:
    For example, to search for content associated with the guest user Sara Davis, you would run the following command.
 
    ```powershell
-   New-ComplianceSearch "Sara Davis Guest User"  -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com"  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
     For more information about using PowerShell to create content searches, see [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch).
