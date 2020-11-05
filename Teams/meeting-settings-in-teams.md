@@ -115,6 +115,6 @@ Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
 |Application/Screen Sharing| 50,040–50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\* The port ranges you assign cannot overlap and must be next to each other.
+\* The port ranges you assign can't overlap and should be adjacent to each other.
 
 After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.

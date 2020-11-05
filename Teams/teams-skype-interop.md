@@ -68,7 +68,14 @@ Blocked Skype users, along with other people and public switched telephone netwo
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants.
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants. However, there's a prerequisite that the following DNS SRV record needs to be configured by the IT Admin if not already available for your domain, for example _sipfederationtls.contoso.com.  
+
+**Service**: sipfederationtls<br/>
+**Protocol**: TCP<br/>
+**Priority**: 100<br/>
+**Weight**: 1<br/>
+**Port**: 5061<br/>
+**Target**: sipfed.online.lync.com
 
 If you upgraded from Skype for Business to Teams, the external communications settings that you configured in the Skype for Business admin center are migrated to Teams.
 
