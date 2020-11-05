@@ -37,8 +37,9 @@ The account you use to view the AA & CQ Analytics historical report needs to hav
 The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Please perform these steps:
-- Download the [CQD Teams Auto Attendant & Call Queue Historical Report Template](https://aka.ms/TAPAACQAnalytics) and save it to a directory on your computer.
-- Double-click on the template and Power BI Desktop should launch.
+- Download the [CQD Power BI Query Templates](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D102291&amp;data=04%7C01%7CColin.Longman%40microsoft.com%7C7f640eff2e294ccf18bc08d881c1b4bb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637402016295575794%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=5WwyYg3CzOKrwT%2FRHexjYJK%2FrUtELqQcniz3uYgefPc%3D&amp;reserved=0) and save the zip file to a directory on your computer.
+- Double-click on the zip file to open it.
+- Double-click on the "CQ and AA combined Analytics 20201105.pbit" template file and Power BI Desktop should launch.
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
@@ -82,18 +83,18 @@ Please perform these steps:
 ## CQD fields description
 
 |Name                                    |Data Type                |Description                            |
-|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|:---------------------------------------|:------------------------|:--------------------------------------|
 |Auto Attendant Identity                 |string                   |Name of resource account attached to AA<br>Example: aa_test@microsoft.com|
 |Auto Attendant Chain Start Time         |datetime                 |AA chain start time                    |
 |Auto Attendant Directory Search Method  |string                   |Last Address book search method        |
-|Auto Attendant Transfer Action          |string                   |Call transfer target type<br>Possible values:<br>§  unknown - entity type was not specified<br>§  user - user entity<br>§  orgaa - Organizational Auto Attendant entity<br>§  hunt_group - Call Queue entity<br>§  application - voice application entity<br>§  external_pstn - external PSTN entity<br>§  shared_voicemail - shared voicemail entity|
-|Auto Attendant Call Result              |string                   |Call result:<br>§  unknown<br>§  transferred_to_user<br>§  transferred_to_operator<br>§  failover_to_operator<br>§  user_terminated<br>§  service_declined<br>§  service_terminated<br>§  failed_to_establish_media<br>§  terminated_no_operator<br>§  terminated_transfer_failed<br>§  terminated_automatic_selection<br>§  transferred_to_shared_voicemail<br>§  oaa_chain_too_long<br>§  oaa_session_too_long|
-|Auto Attendant Call Flow                |string                   |Encapsulates the different states of Auto Attendant Call<br>§  abs_search<br>§  call_termination<br>§  call_transfer<br>§  main_menu<br>§  user_selection<br>§  speech_input_confirmation<br>§  first_level_menu<br>§  automatic_menu<br>§  announcement|
+|Auto Attendant Transfer Action          |string                   |Call transfer target type<br>Possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
+|Auto Attendant Call Result              |string                   |Call result:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|Auto Attendant Call Flow                |string                   |Encapsulates the different states of Auto Attendant Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
 |Is Auto Attendant Involved              |Boolean                  |Indicated if AA involved into the call |
 |Auto Attendant Caller Action Count      |int                      |Count of used action by caller         |
 |Auto Attendant Chain Duration Seconds   |int                      |Duration of call in AA                 |
-|Call Queue Call Result                  |String                   |Call queue call final state<br>possible values:<br>§  error<br>§  declined<br>§  overflown<br>§  failed<br>§  timed_out<br>§  transferred_to_agent<br>§  agent_joined_conference|
-|Call Queue Final State Action           |String                   |Call queue final action<br>possible values:<br>§  forward<br>§  disconnect<br>§  voicemail<br>§  disconnect_with_busy<br>§  shared_voicemail<br>§  failed_to_accept_call<br>§  other|
+|Call Queue Call Result                  |String                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Call Queue Final State Action           |String                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
 |Call Queue Identity                     |String                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
 |Call Queue Is Conference Mode           |Boolean                  |Set to 1 if conference mode enabled on CQ |
 |Call Queue Target Type                  |String                   |Expected call redirection target type     |
@@ -106,27 +107,28 @@ Please perform these steps:
 ### PowerBI data model dimensions
 
 |Name                                    |Data Type                |Description                            |
-|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name	                               |string                   |Auto Attendant Id (resource account Id) |
-|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br>	abs_search<br>	call_termination<br>	call_transfer<br>	main_menu<br>	user_selection<br>	speech_input_confirmation<br>	first_level_menu<br>	automatic_menu<br>announcement |
-|AACallResult                            |string                   |Result of Auto Attendant Call:<br>	unknown<br>	transferred_to_user<br>	transferred_to_operator<br>	failover_to_operator<br>	user_terminated<br>	service_declined – error of AA configuration<br>	service_terminated – internal AA errors<br>	failed_to_establish_media<br>	terminated_no_operator<br>	terminated_transfer_failed<br>	terminated_automatic_selection<br>	transferred_to_shared_voicemail<br>	oaa_chain_too_long<br>	oaa_session_too_long          |
+|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement |
+|AACallResult                            |string                   |Result of Auto Attendant Call:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – error of AA configuration<br>§ service_terminated – internal AA errors<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |string                   |Duration of Auto Attendant call in seconds  |
 |AACount                                 |string                   |# of Auto Attendant involve in call         |
-|AADirectorySearchMethod                 |string                   |Search method used in call:<br>	abs_search_dtmf<br>	abs_search_extension<br>	abs_search_name<br>AAStartTime	string	Call time in UTC      |
-|AATransferAction                        |string                   |Receiver of call:<br>	unknown - entity type was not specified<br>	user - user entity<br>	AA - Organizational Auto Attendant entity<br>	CQ - Call Queue entity<br>	application - voice application entity<br>	external_pstn - external PSTN entity<br>shared_voicemail - shared voicemail entity      |
+|AADirectorySearchMethod                 |string                   |Search method used in call:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name |
+|AAStartTime                             |string                   |Call time in UTC                            |
+|AATransferAction                        |string                   |Receiver of call:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ AA - Organizational Auto Attendant entity<br>§ CQ - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity      |
 |PSTNMinutes                             |int                      |Total minute usage                          |
-|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>	error<br>	declined<br>	overflown<br>	failed<br>	timed_out<br>	transferred_to_agent<br>agent_joined_conference    |
+|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>agent_joined_conference    |
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ     |
-|Call Queue Target Type                  |string                   |Expected call redirection target type:<br>	User<br>	Application Endpoint<br>	Other     |
-|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>	error<br>	declined<br>	overflown<br>	failed<br>	timed_out<br>	transferred_to_agent<br>agent_joined_conference           |
-|Call Queue Final State Action           |string                   |Call queue final action<br>possible values:<br>	forward<br>	disconnect<br>	voicemail<br>	disconnect_with_busy<br>	shared_voicemail<br>	failed_to_accept_call<br>other             |
+|Call Queue Target Type                  |string                   |Expected call redirection target type:<br>§ User<br>§ Application Endpoint<br>§ Other     |
+|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
+|Call Queue Final State Action           |string                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other             |
 |Agent Name                              |string                   |User UPN               |
 
 
 ### Measures
 
 |Name	                                   |Type	                   |Description                            |
-|---------------------------------------:|:-----------------------:|:-------------------------------------:|
+|:---------------------------------------|:------------------------|:--------------------------------------|
 |AACallerActionCount                     |int	                     |# of action selected by user in AA during the call  |
 |PSTNMinutes                             |int                      |Total minute usage                                  |
 |TotalCallCount                          |int                      |# of calls                                          |
@@ -136,7 +138,7 @@ Please perform these steps:
 ### Power BI graph description Auto Attendant
 
 |Name	                                   |Description                            |
-|---------------------------------------:|:-------------------------------------:|
+|:---------------------------------------|:--------------------------------------|
 |Incoming call source                    |Distribution of call by Internal/ External call source      |
 |Directory search method totals          |Distribution of call by search type                         |
 |Caller action                           |Distribution of call by call receiver                       |
@@ -147,7 +149,7 @@ Please perform these steps:
 ### Call Queue
 
 |Name	                                   |Description                            |
-|---------------------------------------:|:-------------------------------------:|
+|:---------------------------------------|:--------------------------------------|
 |Incoming call source                    |Distribution of call by Internal/ External call source         |
 |Call volume                             |Distribution of call by call queues                            |
 |Caller result                           |Distribution of call by call result                            |
@@ -161,7 +163,7 @@ Please perform these steps:
 ### Agent timeline
 
 |Name	                                                   |Description                            |
-|-------------------------------------------------------:|:-------------------------------------:|
+|:-------------------------------------------------------|:--------------------------------------|
 |# calls by agent                                        |Distribution of call by call queue and agent                 |
 |Total call duration (seconds) by agent and Call Queue   |Total duration (seconds) of call by agent and call queue     |
 |Average call duration (seconds) by agent name            |Average duration (seconds) of call by agent                  |
