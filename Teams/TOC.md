@@ -684,7 +684,7 @@
 ### Virtual visits
 #### [Virtual visits with Teams - Integration into EHR](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [Virtual visits with Bookings and Teams](bookings-app-admin.md)
-### [Create Teams policy packages](policy-packages-healthcare.md)
+### [View and assign policy packages](policy-packages-healthcare.md)
 ### Secure messaging
 #### [Secure Messaging](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Message delegation](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -931,7 +931,6 @@
 ### [Finland](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [France](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [Georgia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Germany](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
 ### [Ghana](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Greece](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
