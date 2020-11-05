@@ -29,7 +29,7 @@ To ensure that the early adopter and champions teams will have the appropriate s
 
 - [Foundations - Core Components of Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Troubleshooting Teams](https://youtu.be/0KNh9KNpXcA)
-- [Teams troubleshooting](https://aka.ms/TeamsKnownIssues)
-- [Getting started with admin training for Microsoft Teams](https://docs.microsoft.com/microsoftteams/itadmin-readiness)
+- [Known issues and troubleshooting](https://aka.ms/TeamsKnownIssues)
+- [Microsoft Teams training](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
 ![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).
