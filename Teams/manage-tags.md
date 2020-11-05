@@ -33,7 +33,7 @@ As mentioned earlier, there are two kinds of tags in Teams.
 - **Tagging by shift** (coming soon): With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Teams. For example, the "EngineerOnCall" tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams. To learn more about how to set up this feature, see [Set up tagging by shift](#set-up-tagging-by-shift-coming-soon).
 
 > [!NOTE]
-> Tags are not yet supported in private channels. Tags are not yet available in US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations.
+> Tags are not yet supported in private channels. Tags are not yet available in US Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) organizations. 
 
 ## How tags work
 
@@ -49,7 +49,7 @@ When a tag is @mentioned in a channel conversation, team members associated with
 
 ## Manage custom tags for your organization
 
-As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center.
+As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center. Currently, you can't use PowerShell to manage tags.
 
 ![Screenshot of tagging settings in the Microsoft Teams admin center](media/manage-tags-admin-settings.png)
 
