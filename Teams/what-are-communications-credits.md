@@ -75,22 +75,22 @@ You can also monitor usage against your dial-out minute pool in the Microsoft Te
 
 Email notifications will be sent to the following tenant admins when the utilization of the tenant's dial-out minutes pool has reached 80 percent and 100 percent:
 
-    - Billing Administrator
-    - Skype for Business Administrator
-    - Company Administrator
-    - User Account Administrator
-    - Helpdesk Administrator
-    - Service Support Administrator
-    - Device Administrators
-    - Application Administrator
-    - License Administrator
-    - Cloud Device Administrator
-    - Authentication Administrator
-    - Privileged Authentication Administrator
-    - Teams Communications Administrator
-    - Teams Communications Support Engineer
-    - Teams Communications Support Specialist
-    - Teams Service Administrator
+  - Billing Administrator
+  - Skype for Business Administrator
+  - Company Administrator
+  - User Account Administrator
+  - Helpdesk Administrator
+  - Service Support Administrator
+  - Device Administrators
+  - Application Administrator
+  - License Administrator
+  - Cloud Device Administrator
+  - Authentication Administrator
+  - Privileged Authentication Administrator
+  - Teams Communications Administrator
+  - Teams Communications Support Engineer
+  - Teams Communications Support Specialist
+  - Teams Service Administrator
 
 > [!NOTE]
 > Communications Credits are also used for premium rate numbers. The caller pays the charges.
