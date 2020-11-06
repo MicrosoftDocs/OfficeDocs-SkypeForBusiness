@@ -132,7 +132,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 1. In the left navigation, go to **Voice** > **Phone numbers**.
 
-2. If the phone number is a toll-free number, select the phone number from the list, and click **Release**. If the phone number is a toll-number, please contact [Microsoft support](https://go.microsoft.com/fwlink/?linkid=2091806) to have the phone number unassigned.
+2. If the phone number is a toll-free number, select the phone number from the list, and click **Release**. If the phone number is a toll number, please contact [Microsoft support](https://go.microsoft.com/fwlink/?linkid=2091806) to have the phone number unassigned.
 
 3. If the phone number is a toll-free number, click **Yes** in the confirmation window.
 
