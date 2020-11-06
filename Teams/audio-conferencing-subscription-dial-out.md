@@ -65,7 +65,7 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
 ## How can I monitor minute pool usage?
 
 - You can monitor the usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**. The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries."
-- Email notifications will be sent to the following tenant admins when the utilization of the tenant's dial-out minutes pool has reached 80 percent and 100 percent:
+- Email notifications will be sent to the following admins when the utilization of your organization's dial-out minutes pool has reached 80 percent and 100 percent:
 
     - Billing Administrator
     - Skype for Business Administrator

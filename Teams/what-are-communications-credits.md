@@ -73,7 +73,7 @@ When you are setting up Communications Credits, you will need to investigate cal
 
 You can also monitor usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**.
 
-Email notifications will be sent to the following tenant admins when the utilization of the tenant's dial-out minutes pool has reached 80 percent and 100 percent:
+Email notifications will be sent to the following admins when the utilization of your organization's dial-out minutes pool has reached 80 percent and 100 percent:
 
   - Billing Administrator
   - Skype for Business Administrator
