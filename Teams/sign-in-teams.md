@@ -99,7 +99,7 @@ Set the following configuration parameters in the Azure Intune portal for manage
 |---------|---------|---------|
 |iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Enabled**: The only account allowed is the managed user account defined by the IntuneMAMUPN key.<br> **Disabled** (or any value that is not a case insensitive match to **Enabled**): Any account is allowed.        |
 |iOS     |   **IntuneMAMUPN**      |   UPN of the account allowed to sign in to Teams.<br> For Intune enrolled devices, the {{userprincipalname}} token may be used to represent the enrolled user account.       |
-|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Only account(s) allowed are the managed user account(s) defined by this key.<br> One or more semi-colon;]- delmited UPNs.<br> For Intune enrolled devices, the {{userprincipalname}} token may be used to represent the enrolled user account.
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Only account(s) allowed are the managed user account(s) defined by this key.<br> One or more semi-colon;]- delimited UPNs.<br> For Intune enrolled devices, the {{userprincipalname}} token may be used to represent the enrolled user account.
 
 Once the account setup configuration has been set, Teams will restrict the ability to sign in, so that only allowed accounts on enrolled devices will be granted access.
 
@@ -110,7 +110,7 @@ To create an app configuration policy for managed Android devices, see [Add app
 ### How to restrict sign-in on desktop devices
 Teams apps on Windows and MacOS are gaining support for device policies that restrict sign-in to your organization. The policies can be set via usual Device Management solutions such as MDM (Mobile Device Management) or GPO (Group Policy Object). 
 
-When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Note that links to add another account may continue to be visible in the Teams app, but will be inoperant.
+When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Note that links to add another account may continue to be visible in the Teams app, but will be inoperative.
 
 Notes: 
 1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as guest in other Azure AD tenants, or switch to other tenants.
