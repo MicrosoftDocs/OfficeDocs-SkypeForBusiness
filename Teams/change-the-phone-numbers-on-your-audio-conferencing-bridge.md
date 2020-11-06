@@ -44,7 +44,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 2. Select the phone number from the list, and click **Edit**.
 
-3. On the **Edit** page, under **Assigned to** click the dropdown and then click to select **Conference bridge**, and click **Apply**.
+3. On the **Edit** page, under **Assigned to**, expand the dropdown and then select **Conference bridge** > **Apply**.
 
 ### Step 2 - Change the default phone number of your conference bridge (optional)
 
