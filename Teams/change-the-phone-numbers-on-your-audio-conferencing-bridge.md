@@ -66,7 +66,7 @@ The default phone numbers of a user are the ones that are included on their meet
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Users** and click the Display name of the desired user on the list.
+1. On the left navigation pane, go to **Users** and click the Display name of the desired user on the list.
 
 2. Next to **Audio conferencing**, click on **Edit**.
 
