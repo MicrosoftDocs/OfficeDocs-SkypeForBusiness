@@ -54,7 +54,7 @@ Only a service toll number can be set as the default number for your conferencin
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Meetings** > **Conference bridges**.
+1. On the left navigation pane, go to **Meetings** > **Conference bridges**.
 
 2. Highlight the service toll number that you want to configure as the default.
 
