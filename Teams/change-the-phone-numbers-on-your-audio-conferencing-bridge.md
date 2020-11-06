@@ -40,7 +40,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-1. In the left navigation, go to **Voice** > **Phone numbers**.
+1. On the left navigation pane, go to **Voice** > **Phone numbers**.
 
 2. Select the phone number from the list, and click **Edit**.
 
