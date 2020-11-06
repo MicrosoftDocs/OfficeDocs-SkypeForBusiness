@@ -776,8 +776,6 @@
                   href: ../deploy/deploy-clients/with-exchange-on-premises.md
                 - name: Console
                   href: ../deploy/deploy-clients/console.md
-                - name: With OMS
-                  href: ../deploy/deploy-clients/with-oms.md
             - name: Deploy the Lync VDI plug-in
               href: ../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md
             - name: Deploy Web downloadable clients
@@ -1190,8 +1188,6 @@
           items: 
             - name: Known issues
               href: ../manage/skype-room-systems-v2/known-issues.md
-            - name: OMS
-              href: ../manage/skype-room-systems-v2/oms.md
             - name: XML config file
               href: ../manage/skype-room-systems-v2/xml-config-file.md
             - name: Use the recovery tool
