@@ -110,11 +110,11 @@ To create an app configuration policy for managed Android devices, see [Add app
 ### How to restrict sign-in on desktop devices
 Teams apps on Windows and MacOS are gaining support for device policies that restrict sign-in to your organization. The policies can be set via usual Device Management solutions such as MDM (Mobile Device Management) or GPO (Group Policy Object). 
 
-When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Note that links to add another account may continue to be visible in the Teams app, but will be inoperant.
+When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but will be inoperant.
 
-Notes: 
-1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as guest in other Azure AD tenants, or switch to other tenants.
-2. The policy require Teams for Windows version 30866 or higher, and Teams for MacOS version 30882 (released mid-November 2020).
+> [!NOTE]
+>1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as guest in other Azure AD tenants, or switch to other tenants.
+>2. The policy require Teams for Windows version 1.3.00.30866 or higher, and Teams for MacOS version 1.3.00.30882 (released mid-November 2020).
 
 **Policies for Windows**
 You can manually set keys in Windows Registry:
@@ -122,9 +122,10 @@ You can manually set keys in Windows Registry:
 - Value Type: String
 - Value Data: Tenant ID, or comma-separated list of Tenant IDs
 - Path: use one of the following
-Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams
-Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
-Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
+
+ Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams
+ Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
+ Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
 Example:
 SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID
@@ -136,8 +137,10 @@ We'll update this document in the next few days with details on using Administra
 **Policies for MacOS**
 For MacOS managed devices, use .plist to deploy sign-in restrictions. The configuration profile is a .plist file that consists of entries identified by a key (which denotes the name of the preference), followed by a value, which depends on the nature of the preference. Values can either be simple (such as a numerical value) or complex, such as a nested list of preferences.
 
-Preference Key Name: RestrictTeamsSignInToAccountsFromTenantList
-Value: Tenant ID, or comma-separated list of Tenant IDs
+- Domain: com.microsoft.teams
+- Key: RestrictTeamsSignInToAccountsFromTenantList
+- Data Type: String
+- Comments: Enter comma separate list of Azure AD tenant ID(s)
 
 
 ## Sign out on mobile devices
