@@ -75,7 +75,7 @@ Upon sign in, mobile users will see a list of all the Microsoft 365 accounts tha
 
 ## Using Teams with multiple accounts
 
-Teams for iOS and Android supports the use of multiple wor or school and multiple personal accounts side by side. Teams desktop applications will support one work/school and one personal account side-by-side in December 2020, with support for multiple work/school accounts coming at a later date.
+Teams for iOS and Android supports the use of multiple work or school and multiple personal accounts side by side. Teams desktop applications will support one work/school and one personal account side-by-side in December 2020, with support for multiple work/school accounts coming at a later date.
 
 The following images show how users can add multiple accounts in Teams mobile applications.
 
