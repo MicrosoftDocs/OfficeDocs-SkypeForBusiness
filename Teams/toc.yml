@@ -1209,7 +1209,7 @@
           href: teams-sentinel-guide.md
         - name: Identity models and authentication
           href: identify-models-authentication.md
-        - name: Sign in to Teams using modern authentication
+        - name: Sign in to Microsoft Teams 
           href: sign-in-teams.md
         - name: Safe Links in Teams
           href: https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
