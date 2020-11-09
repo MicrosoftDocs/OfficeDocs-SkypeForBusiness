@@ -23,6 +23,9 @@ description: "Before the people in your organization can use Skype Meeting Broad
 
 # Enable Skype Meeting Broadcast
 
+> [!IMPORTANT]
+> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Azure AD admin role](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+
 Before the people in your organization can use Skype Meeting Broadcast, you need to enable it. To do this, you need to know how to use Windows PowerShell. If you don't know Windows PowerShell, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to do this step for you.
 
   

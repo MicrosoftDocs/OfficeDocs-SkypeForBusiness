@@ -14,8 +14,6 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Practical guidance for deploying cloud voice features in Teams to record Teams meetings and group calls to capture audio, video, and screen sharing activity.
-ms.collection: 
-  - M365-collaboration
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020

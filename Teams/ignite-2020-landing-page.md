@@ -4,7 +4,10 @@ description: Find all the available learning for Business Central.
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
+audience: admin
+manager: serdars
 ---
 
 # Teams sessions at Ignite 2020
@@ -88,7 +91,7 @@ ms.author: v-cichur
 | Title | Abstract            | Level| Speakers |
 |---|----------|---|---|---|
 |[Deployment and governance of Teams for Education](https://aka.ms/PR103) |Understand everything you’ll need to know for holistic governance for your educational institution. In this session we’ll cover chat policies, meeting policies, app policies, assignments through groups, how to configure student safety, and methods for automating team class creation. |300|Jethro Seghers|
-|[Virtual health and collaboration with Microsoft Teams in healthcare](https://aka.ms/PR116)|Learn how healthcare organizations can help empower care teams to provide the best possible care with Microsoft Teams. This session will focus on virtual health and care team collaboration and dives deep into areas like the latest announcements for Teams in healthcare, virtual visits, customer stories, and more. You'll also learn how to use Microsoft Teams as a platform for addressing many current healthcare scenarios.|200|Evan Westenberger, Tom McGuinness, Kristina Behr, Daniel Canning|
+|[Virtual health and collaboration with Microsoft Teams in healthcare](https://aka.ms/PR116)|Learn how healthcare organizations can help empower health teams to provide the best possible care with Microsoft Teams. This session will focus on virtual health and health team collaboration and dives deep into areas like the latest announcements for Teams in healthcare, virtual visits, customer stories, and more. You'll also learn how to use Microsoft Teams as a platform for addressing many current healthcare scenarios.|200|Evan Westenberger, Tom McGuinness, Kristina Behr, Daniel Canning|
 |[Tailor Microsoft Teams for your Industry](https://aka.ms/PR117)|In this session we will share details about how to bootstrap your collaboration experiences with Templates through our Industry Gallery, customize those templates to your organization needs and deploy them to various parts of our organization and simply management through policy packages.|200|Prem Kuchi, Aaron Glick|
 |[Collaboration and Communication using Microsoft Teams in Government](https://aka.ms/PR118) |State, local and federal agencies have leverages Microsoft Teams to increase their ability to collaborate and improve their response times and citizen engagement.  Learn how to maximize your use of existing features, what's coming next and our future vision for Microsoft Teams in government. |200|Rima Reyes, Karuana Gatimu, Roxy Ndebumadu, Sarah Gilbert|
 |[Integrate with Microsoft Teams for Education App Platform](https://aka.ms/PR120)|Teams is an open platform for educational institutions to integrate apps and create custom workflows.  In this session we’ll cover how the Teams app store is used across classroom teaching to integration with IT help desks. Learn about 3rd party app governance, open source app templates, and a hands-on example of App Studio to create a quick custom website app for your institution.|300|Dominic Williamson|
