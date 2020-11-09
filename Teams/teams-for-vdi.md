@@ -184,7 +184,10 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
         > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials.
         It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments, while the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation.
 
-3. Uninstall the MSI from the VDI VM.
+3. Uninstall the MSI from the VDI VM. There are two ways to uninstall Teams.
+
+    - PowerShell script: You can use [this PowerShell script](scripts/powershell-script-deployment-cleanup.md) to uninstall Teams and remove the Teams folder for a user. Run the script for each user profile in which Teams was installed on the computer.
+    - Command line: Run the following command.
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -221,7 +224,6 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren't currently supported in Teams VDI that are in Skype for Business VDI are as follows:
 
-- Control of VDI calling experiences with policies for limiting media bitrate
 - Per-platform policy to disable some AV features in VDI
 - Give and take control when app sharing
 - Screen share from chat without audio
@@ -398,7 +400,6 @@ The following are known issues and limitations for calling and meetings:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
 - Citrix-only limitations
-    - Dual Tone Multi Frequency (DTMF) interaction with telephony systems is currently not supported.
     - When screen sharing in a multi-monitor setup, only the main monitor is shared.
     - High DPI scaling on CWA is not supported.
 

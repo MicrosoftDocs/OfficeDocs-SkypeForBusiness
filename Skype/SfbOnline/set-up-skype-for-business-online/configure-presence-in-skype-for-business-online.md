@@ -24,6 +24,9 @@ description: "Learn how to set up Skype for Business so you can see the availabi
 
 # Configure presence in Skype for Business Online
 
+> [!IMPORTANT]
+> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Azure AD admin role](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+
 By default, anyone who can communicate with one of the people in your organization using Skype for Business can also see whether that person is online. Skype for Business shows whether a person is available online, in a meeting, offline, or another indicator.
 
 ![An example of a person's online status in Skype for Business.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)

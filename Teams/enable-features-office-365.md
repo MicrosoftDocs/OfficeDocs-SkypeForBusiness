@@ -70,7 +70,7 @@ Turn on this feature so users can send email to a channel in Teams, using the ch
 
 Here you can turn on or turn off file sharing and cloud file storage options.
 
-Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include Dropbox, Box, ShareFile, Google Drive, and Egnyte (coming soon). Turn on the switch for the cloud storage providers that your organization wants to use.
+Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include Dropbox, Box, ShareFile, Google Drive, and Egnyte. Turn on the switch for the cloud storage providers that your organization wants to use.
 
 #### Organization
 
@@ -92,6 +92,10 @@ Microsoft Teams scoped directory search uses Exchange address book policy (APB) 
 - Your school wants to limit chats between faculty and students. 
 
 Switch this setting **On** to turn on scoped directory searches.
+
+### Skype for Business
+
+Use this page to manage Skype for Business features for Skype for Business users in your organization. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](skype-for-business-settings.md).
 
 ### Teams upgrade
 
