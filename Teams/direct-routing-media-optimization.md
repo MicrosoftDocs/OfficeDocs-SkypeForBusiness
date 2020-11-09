@@ -319,4 +319,13 @@ Diagram 8.  Traffic flow with “Only For Local Users” mode, and the user is n
 
 ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-8.png "Traffic flow with “Only For Local Users” mode, user is not in “home” site but in internal network")
 
+## Known issues
+
+The following is a list of known issues that are currently present in Local Media Optimization. Microsoft is working on addressing these issues.
+
+| Issue | Workaround |
+| :--- | :--- |
+| Teams client is not identified as **internal** when the Teams client Public IP matches the customer Trusted IP list. | Local Media Optimization requires that the Teams client subnet matches a tenant configured [network subnet] (https://docs.microsoft.com/en-us/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Call escalations result in dropped calls when the Teams client is identified as internal.| Disable Local Media Optimization on the Direct Routing SBC.|
+
 
