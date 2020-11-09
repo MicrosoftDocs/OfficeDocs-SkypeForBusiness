@@ -11,11 +11,13 @@ ms.collection:
   - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
 f1.keywords:
 - NOCSH
-description: Learn more about Direct Routing, and understand the necessary deployment decisions that you will face.
-ms.custom: seo-marvel-apr2020
+- ms.teamsadmincenter.directrouting.overview
+description: Learn more about Direct Routing, such as configuration, necessary core deployment decisions, and voice routing considerations.
+ms.custom: 
+ - seo-marvel-apr2020
+ - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---

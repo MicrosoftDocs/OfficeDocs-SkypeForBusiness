@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Changing an Archiving policy to enable or disable Archiving of internal or external communications for your organization, sites, or users'
+description: "Lync Server 2013: Changing an Archiving policy to enable or disable Archiving of internal or external communications for your organization, sites, or users."
 ms.reviewer: 
 ms.author: v-lanac
 author: lanachin
@@ -14,13 +15,15 @@ manager: serdars
 mtps_version: v=OCS.15
 ---
 
+# Changing an Archiving policy in Lync Server 2013 to enable or disable Archiving of internal or external communications for your organization, sites, or users
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# Changing an Archiving policy in Lync Server 2013 to enable or disable Archiving of internal or external communications for your organization, sites, or users
+
 
 </div>
 

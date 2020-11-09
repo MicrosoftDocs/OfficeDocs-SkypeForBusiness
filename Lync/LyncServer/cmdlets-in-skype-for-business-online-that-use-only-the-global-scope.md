@@ -1,5 +1,6 @@
 ---
 title: Cmdlets in Skype for Business Online that use only the global scope
+description: "Cmdlets in Skype for Business Online that use only the global scope."
 ms.reviewer: 
 ms.author: serdars
 author: serdarsoysal

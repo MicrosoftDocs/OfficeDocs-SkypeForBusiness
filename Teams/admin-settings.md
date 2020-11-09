@@ -10,14 +10,13 @@ search.appverid: MET150
 ms.reviewer: ritikag, rarang
 description: Learn about the  policies and settings you can use to manage apps for your organization in Microsoft Teams.
 localization_priority: Normal
-ms.custom: 
-  - NewAdminCenter_Update
 f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.apppermspolicies.adminsettings
   - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
   - ms.teamsadmincenter.apppolicies.adminsettings
+  - NewAdminCenter_Update
 ms.collection: 
   - M365-collaboration
 appliesto: 

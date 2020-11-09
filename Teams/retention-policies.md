@@ -2,12 +2,13 @@
 title: Retention policies in Microsoft Teams 
 author: cabailey
 ms.author: cabailey
-ms.reviewer: anwara
+ms.reviewer: 
+  - anwara 
+  - prvijay
 manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: prvijay
 description: In this article, you will learn about retention policies and how to create and manage them in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150

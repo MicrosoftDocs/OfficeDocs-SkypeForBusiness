@@ -67,7 +67,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 
 Starting September 1, 2019, if your tenant is located outside Australia, you can purchase Calling Plans for users who are located in Australia. This is available for the following countries and regions.
 
-|||
+|**Feature**|**Details**|
 |---------|---------|
 |Americas    |United States, U.S. Outlying Islands      |
 |APAC     |Bangladesh, Bhutan, Brunei, Cambodia, Hong Kong, Indonesia, Laos, Macao, Malaysia, Maldives, Myanmar, Nepal, Philippines, Singapore, Sri Lanka, Thailand, Timor-Leste, Vietnam|
