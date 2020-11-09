@@ -36,10 +36,9 @@ If you've already [optimized your network for Microsoft 365 or Office 365](https
     > [!IMPORTANT]
     > If you need to federate with Skype for Business, either on-premises or online, you will need to configure some additional DNS records.
     >
-    >|CNAME Records / Host name  |TTL  |Points to address or value  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|DNS record  |Service  |Protocol  |Priority  |Weight  |Port  |Target  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  Do you have a verified domain for Microsoft 365 or Office 365 (for example, contoso.com)?
     
