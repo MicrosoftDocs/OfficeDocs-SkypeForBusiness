@@ -34,7 +34,7 @@ If you've already [optimized your network for Microsoft 365 or Office 365](https
     |[IP addresses](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, and <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > If you need to federate with Skype for Business, either on-premises or online, you will need to configure some additional DNS records.
+    > If you need to federate with Skype for Business, either on-premises or online, you will need to configure an additional DNS record.
     >
     >|DNS record  |Service  |Protocol  |Priority  |Weight  |Port  |Target  |
     >|---------|---------|---------|---------|---------|---------|---------|
