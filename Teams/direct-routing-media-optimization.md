@@ -292,7 +292,7 @@ Diagram 7. Traffic flow with “Only For Local Users” mode and the user is in 
 
 #### Scenario 2. The user and gateways are in different sites
 
-Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The internal user in Indonesia, located in the local branch office, is making a Direct Routing call to Vietnam. Online Voice routing policies specify that calls to Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, in case the SBC in Vietnam fails, calls to Vietnam--should be routed to the proxy SBC in Singapore. The proxy SBC in Singapore is set to ‘Always Byass’ mode, and the local SBC in Vietnam is set to ‘Only For Local Users’ mode. The following table summarizes the example configuration. 
+Assume the SBC in Singapore is configured to be a proxy SBC for the local downstream SBCs in Vietnam and Indonesia. The internal user in Indonesia, located in the local branch office, is making a Direct Routing call to Vietnam. Online Voice routing policies specify that calls to Vietnam (with area code +84) should be routed to the local SBC in Vietnam. All other calls--and, in case the SBC in Vietnam fails, calls to Vietnam--should be routed to the proxy SBC in Singapore. The proxy SBC in Singapore is set to ‘Always Bypass’ mode, and the local SBC in Vietnam is set to ‘Only For Local Users’ mode. The following table summarizes the example configuration. 
 
 Table 6. User configuration
 
@@ -325,7 +325,7 @@ The following is a list of known issues that are currently present in Local Medi
 
 | Issue | Workaround |
 | :--- | :--- |
-| Teams client is not identified as **internal** when the Teams client Public IP matches the customer Trusted IP list. | Local Media Optimization requires that the Teams client subnet matches a tenant configured [network subnet] (https://docs.microsoft.com/en-us/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams client is not identified as **internal** when the Teams client Public IP matches the customer Trusted IP list. | Local Media Optimization requires that the Teams client subnet matches a tenant configured [network subnet] (https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | Call escalations result in dropped calls when the Teams client is identified as internal.| Disable Local Media Optimization on the Direct Routing SBC.|
 
 
