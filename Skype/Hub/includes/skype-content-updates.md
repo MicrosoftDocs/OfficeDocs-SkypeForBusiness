@@ -2,6 +2,15 @@
 
 
 
+## Week of November 02, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/3/2020 | [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions) | modified |
+| 11/3/2020 | [Plan hybrid connect \| Skype for Business Server 2019 and Microsoft 365 or Office 365 integration](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
+
+
 ## Week of October 26, 2020
 
 
@@ -116,12 +125,3 @@
 | 10/7/2020 | Help topics | removed |
 | 10/7/2020 | Help-TopoBld | removed |
 | 10/8/2020 | [Skype for Business Certification Program — Session Border Controllers](/SkypeForBusiness/certification/infra-sbc) | modified |
-
-
-## Week of September 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/2/2020 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
-| 10/2/2020 | [Phones and Devices for Skype for Business](/SkypeForBusiness/certification/devices-ip-phones) | modified |
