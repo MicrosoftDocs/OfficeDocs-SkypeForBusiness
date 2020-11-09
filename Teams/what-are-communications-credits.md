@@ -73,24 +73,24 @@ When you are setting up Communications Credits, you will need to investigate cal
 
 You can also monitor usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**.
 
-Email notifications will be sent to the following admins when the utilization of your organization's dial-out minutes pool has reached 80 percent and 100 percent:
+Important notifications related to the communication credits balance of your organization will be sent to the following admins:
 
-  - Billing Administrator
-  - Skype for Business Administrator
-  - Company Administrator
-  - User Account Administrator
-  - Helpdesk Administrator
-  - Service Support Administrator
-  - Device Administrators
-  - Application Administrator
-  - License Administrator
-  - Cloud Device Administrator
-  - Authentication Administrator
-  - Privileged Authentication Administrator
-  - Teams Communications Administrator
-  - Teams Communications Support Engineer
-  - Teams Communications Support Specialist
-  - Teams Service Administrator
+- Billing Administrator
+- Skype for Business Administrator
+- Company Administrator
+- User Account Administrator
+- Helpdesk Administrator
+- Service Support Administrator
+- Device Administrators
+- Application Administrator
+- License Administrator
+- Cloud Device Administrator
+- Authentication Administrator
+- Privileged Authentication Administrator
+- Teams Communications Administrator
+- Teams Communications Support Engineer
+- Teams Communications Support Specialist
+- Teams Service Administrator
 
 > [!NOTE]
 > Communications Credits are also used for premium rate numbers. The caller pays the charges.
