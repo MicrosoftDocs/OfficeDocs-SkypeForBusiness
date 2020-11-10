@@ -44,7 +44,7 @@ When you use the easy policy setup tool, we will adjust your Global (organizatio
 
 ### Students
 
-|Policy area |Column2  |Policy setting  |Primary or Secondary  |Higher education  |
+|Policy type |Column2  |Policy setting  |Primary or Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
 |Teams policies   |         |         |         ||
 |Meetings policies    |         |         |         ||
@@ -66,7 +66,13 @@ When you use the easy policy setup tool, we will adjust your Global (organizatio
 
 ### Step 2: 
 
-### Step 3: 
+### Step 3: Check Message Center for policy updates
+
+At the moment, the easy policy setup tool applies our recommended policies. It's important to know that as we add new policies to Teams, these new policies aren't automatically included in the tool. We're working on adding this capability. 
+
+Until this capability is available, check the Message Center for updates about new policies in Teams and update your  policies to match our latest recommendations.
+
+****
 
 Do you need to give your students and educators access to different features in Microsoft Teams? You can quickly identify the users in your organization by license type and then assign them the appropriate policy. This tutorial shows you how to assign a meeting policy to large sets of users in your school. You can assign policies using the Microsoft Teams admin center and PowerShell and we'll show you both ways.
 
