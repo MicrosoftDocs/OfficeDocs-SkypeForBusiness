@@ -48,9 +48,8 @@ To create a holiday
 
 8. Use the drop-down list to select an end time for the holiday. The **End time** must be after the **Start time**.  
 
-> [!NOTE]
-> If the holiday is for one full day (i.e. a 24 hour period), the **End time** should be set to the next day and the time to 12:00 AM.  
-> For example, if your organization is closed on January 1 for New Year's day, set the **Start time** to January 1 12:00 AM and set the **End time** to January 2 @ 12:00 AM.
+   > [!NOTE]
+   > If the holiday is for one full day (i.e., a 24 hour period), the **End time** should be set to the next day and the time to 12:00 AM. For example, if your organization is closed on January 1 for New Year's day, set the **Start time** to January 1 12:00 AM and set the **End time** to January 2 @ 12:00 AM.
 
 9. Optionally, add more dates for recurring holidays.
 
