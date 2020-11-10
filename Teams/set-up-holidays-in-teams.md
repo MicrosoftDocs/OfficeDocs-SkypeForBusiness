@@ -56,7 +56,7 @@ To create a holiday
 
 10. Select **Save**.
 
-    ![](media/holidays-set-up.png)
+    ![Screenshot of holidays user interface with dates set up for three years](media/holidays-set-up.png)
 
 ## Change a holiday
 
