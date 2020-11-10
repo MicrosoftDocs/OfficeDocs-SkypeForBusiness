@@ -60,6 +60,12 @@ When you use the easy policy setup tool, we will adjust your Global (organizatio
 
 ### Educators
 
+## Run the easy policy setup tool
+
+### If you're new to Teams and don't have any policies set up
+
+### If you've already on Teams and have some policies set up
+
 ## What additional setups do I need to take after I run the tool?
 
 ### Step 1:
