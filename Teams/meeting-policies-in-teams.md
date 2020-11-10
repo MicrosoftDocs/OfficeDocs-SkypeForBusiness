@@ -182,7 +182,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ### Allow transcription
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start (and stop) live transcription or start and stop recording and live transcription in meetings.
+This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start (and stop) live transcription or start (and stop) recording and live transcription in meetings.
 
 :::image type="content" source="media/meeting-policies-transcription.png" alt-text="Screenshot showing transcription options":::
 
