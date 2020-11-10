@@ -22,7 +22,6 @@ ms.custom:
   - Phone System
 description: "Learn how to set up and test auto attendants for Microsoft Teams."
 --- 
-
 # Set up an auto attendant
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. 
@@ -44,7 +43,7 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, click 
 
 ## General info
 
-![](media/auto-attendant-general-info-page-new.png)
+![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs](media/auto-attendant-general-info-page-new.png)
 
 1. Type a name for the auto attendant in the box at the top.
 
@@ -60,7 +59,7 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, click 
 
 ## Call flow
 
-![](media/auto-attendant-call-flow-greeting-message.png)
+![Screenshot of greeting message settings](media/auto-attendant-call-flow-greeting-message.png)
 
 Choose if you want to play a greeting when the auto attendant answers a call.
 
@@ -68,7 +67,7 @@ If you select **Play an audio file** you can use the **Upload file** button to u
 
 If you select **Type a greeting message** the system will read the text you the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-![](media/auto-attendant-call-flow-route-call-message.png)
+![Screenshot of call routing settings](media/auto-attendant-call-flow-route-call-message.png)
 
 Choose how you want to route the call.
 
@@ -80,7 +79,7 @@ If you select **Play menu options**, you can choose to **Play an audio file** or
 
 ### Menu options
 
-![](media/auto-attendant-call-flow-menu-options-complete.png)
+![Screenshot of dial key options](media/auto-attendant-call-flow-menu-options-complete.png)
 
 For dialing options, you can assign the 0-9 keys on the telephone keypad to one of the call routing destinations. (The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.)
 
@@ -114,7 +113,7 @@ Users you wish to make available for Dial By Extension need to have an extension
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-The required format to enter the extension in the user phone number field is either *+<phone number>ext=<extension>* or *+<phone number>x<extension>*.
+The required format to enter the extension in the user phone number field is either *+\<phone number>ext=\<extension>* or *+\<phone number>x\<extension>*.
 
 You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
 
@@ -125,7 +124,7 @@ Once you have selected a **Directory search** option, click **Next**.
 
 ## Call flow for after hours
 
-![](media/auto-attendant-business-hours.png)
+![Screenshot of after hours day and time settings](media/auto-attendant-business-hours.png)
 
 Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
 
@@ -139,7 +138,7 @@ Click **Next** when you're done.
 
 ## Call flows during holidays
 
-![](media/auto-attendant-holiday-greeting.png)
+![Screenshot of holiday and holiday greeting settings](media/auto-attendant-holiday-greeting.png)
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
@@ -151,7 +150,7 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 4. Choose the type of greeting that you want to use.
 
-    ![](media/auto-attendant-holiday-actions.png)
+    ![Screenshot of holiday call action settings](media/auto-attendant-holiday-actions.png)
 
 5. Choose if you want to **Disconnect** or **Redirect** the call.
 
@@ -159,7 +158,7 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 7. Click **Save**.
 
-![](media/auto-attendant-holiday-call-settings.png)
+![Screenshot of holiday settings with holidays listed](media/auto-attendant-holiday-call-settings.png)
 
 Repeat the procedure as needed for each additional holiday.
 
@@ -167,7 +166,7 @@ When you've added all your holidays, click **Next**.
 
 ## Dial scope
 
-![](media/auto-attendant-dial-scope.png)
+![Screenshot of dial scope include and exclude options](media/auto-attendant-dial-scope.png)
 
 The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Phone System license or hosted on-premises using Skype for Business Server.
 
@@ -182,11 +181,11 @@ When you're done setting the dial scope, click **Next**.
 
 All auto attendants must have an associated resource account.  First level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
-![](media/auto-attendant-add-resource-account.png)
+![Screenshot of resource account add accounts panel](media/auto-attendant-add-resource-account.png)
 
 To add a resource account, click **Add account** and search for the account that you want to add. Click **Add**, and then click **Add**.
 
-![](media/auto-attendant-resource-account-assigned.png)
+![Screenshot of resource account list showing resource account with assigned service number](media/auto-attendant-resource-account-assigned.png)
 
 When you have finished adding service accounts, click **Submit**. This completes the auto attendant configuration.
 
@@ -195,7 +194,10 @@ When you have finished adding service accounts, click **Submit**. This completes
 When transferring calls to an external phone number, the resource account associated with the auto attendant or call queue must have a phone number and a Microsoft 365 Phone System - Virtual User license. Additionally:
 
 - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+  - The external transfer phone number must be entered in E.164 format (+CC+phone_number).
+
 - For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+  - The external transfer phone number format is dependant on your [Session Border Controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) settings.
 
 The outbound phone number that's displayed is determined as follows:
 
@@ -206,29 +208,29 @@ The outbound phone number that's displayed is determined as follows:
 
 Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
-In a hybrid environment, to transfer an auto attendant call to the PSTN via Skype for Business PSTN integration, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
+In a Skype for Business hybrid environment, to transfer an auto attendant call to the PSTN, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
 ### Create an auto attendant with PowerShell
 
 You can also use PowerShell to create and set up auto attendants. Here are the cmdlets that you need to manage an auto attendant:
 
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
 ## Related topics

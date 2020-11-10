@@ -72,7 +72,7 @@ There are several special characters that are used when searching for people usi
 
 ### Dial by Name - Name recognition with speech
 
-People can search for others in their organization with their voice (speech recognition). They can also reach anyone in  Active Directory by saying the name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
+People can search for others in their organization with their voice (speech recognition). They can also reach anyone in  Active Directory by saying the full or partial name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
   
 You can enable speech recognition for an auto attendant, but phone keypad entry (DTMF) isn't disabled. Phone keypad entry can be used at any time even if speech recognition is enabled on the auto attendant.
   
@@ -86,6 +86,9 @@ Callers can say names in the following formats:
 |LastName + FirstName |Full  |Marble Amos |Amos Marble |
 |FirstName |Full |Amos |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Jones |
 |LastName |Full |Marble |Press or say 1 for Amos Marble  <br/> Press or say 2 for Ben Marble |
+|FirstName or LastName |Partial |Mar |Press or say 1 for Mary Marble  <br/> Press or say 2 for Mary Jones  <br/> Press or say 3 for Amos Marcus |
+|FirsName + LastName |Partial |Amos Mar |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Marcus |
+
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory for Dial by Name with speech recognition due to Active Directory replication lag.
@@ -94,7 +97,7 @@ Callers can say names in the following formats:
 
 The following languages are available for text-to-speech used with outgoing prompts:
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |Arabic (EG)  |English (NZ)  |Korean (KO)  |
 |Chinese (HK)  |English (UK) |Norwegian (NO)  |
@@ -108,7 +111,7 @@ The following languages are available for text-to-speech used with outgoing prom
 
 Speech recognition input for auto attendants is available in the following languages:
   
-|||
+|-|-|
 |:-----|:-----|
 |Chinese (ZH)  |French (FR)  |
 |English (AU)  |German (DE)  |

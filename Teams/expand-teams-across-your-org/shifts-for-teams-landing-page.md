@@ -20,6 +20,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-jun2020
 ---
 
 # Shifts for Teams
