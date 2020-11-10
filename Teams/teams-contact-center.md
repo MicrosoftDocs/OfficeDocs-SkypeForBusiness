@@ -52,7 +52,7 @@ The following partners are in the process of certifying their solution for Micro
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
-| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 
