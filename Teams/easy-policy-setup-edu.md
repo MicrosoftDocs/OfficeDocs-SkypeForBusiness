@@ -1,5 +1,5 @@
 ---
-title: Set up policies using the Teams for Education easy policy setup tool
+title: Set policies using the Teams for Education easy policy setup tool
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,22 +15,22 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use the Teams for Education easy policy setup tool to set up safe policies for students and educators in your school. 
+description: Learn how to use the Teams for Education easy policy setup tool to set safe policies for students and educators in your school. 
 f1keywords: 
 ---
 
-# Set up policies using the Teams for Education easy policy setup tool
+# Set policies using the Teams for Education easy policy setup tool
 
 > [!NOTE]
 > For the larger story on assigning policies in Teams, see [Assign policies to your users in Teams](assign-policies.md).
 
 ## Overview
 
-You use policies in Teams to control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area has its own collection of settings.
+Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area has its own collection of policy settings.
 
-To maintain student safety, you should use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. In most cases, policies must be adjusted for both students and educators to keep the environment safe. You can also use policies to turn on Teams features that enrich your learning environment.
+To maintain student safety, use policies to control what students can do in Teams. For example, you can use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. In most cases, policies must be adjusted for both students and educators to keep the environment safe. You can also use policies to turn on Teams features that enrich your learning environment.
 
-To simplify managing policies, use the Teams for Education easy policy setup tool to quickly set up the most important set of policies to create a safe and productive learning environment for students and educators. This article walks you through how to run the tool and the steps you need to do after you run it.
+To simplify managing policies, use the Teams for Education easy policy setup tool to quickly set up the most important set of policies to create a safe and productive learning environment for your students and educators. This article walks you through how to run the tool and the steps you need to do after you run it.
 
 ## What does the easy policy setup tool do?
 
@@ -64,6 +64,11 @@ When you use the easy policy setup tool, we will adjust your Global (organizatio
 
 ### If you're new to Teams and don't have any policies set up
 
+1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then select **Quick setup**.
+2. Select your institution type, **Primary-Secondary** or **Higher education**, and then click **Next**.
+3. Select a group that contains your educators or staff. Educators or staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is different from the policies assigned to students, which is done automatically. 
+4. 
+
 ### If you're already on Teams and have existing policies set up
 
 ## What do I need to do after I run the tool?
@@ -87,7 +92,7 @@ Check out our [Teams policies and policy packages for Education](policy-packages
 
 At the moment, the easy policy setup tool applies our recommended policies when you run it. It's important to know that as we add new policies to Teams, these new policies aren't automatically included in the tool. We're working to add this capability.
 
-Until this capability is available, check Message Center to find out about new policies and policy settings in Teams and manually update your policies to match our latest recommendations.
+Until this capability is available, check Message Center (in the Microsoft 365 admin center) to find out about new policies and policy settings in Teams and manually update your policies to match our latest recommendations.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA=For_administrators) for our full list of safety recommendations. 
 
