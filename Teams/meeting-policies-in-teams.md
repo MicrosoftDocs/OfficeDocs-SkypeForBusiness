@@ -182,7 +182,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ### Allow transcription
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start (and stop) live transcription or start and stop recording and live transcription in meetings. 
+This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start (and stop) live transcription or start and stop recording and live transcription in meetings.
 
 Live transcription shows speech-to-text of spoken content during a meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15).
 
