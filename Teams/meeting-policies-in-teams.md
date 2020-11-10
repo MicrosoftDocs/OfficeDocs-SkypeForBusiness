@@ -188,11 +188,11 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 Currently, live transcription is supported on the Teams desktop client and for users who have the language in Teams set to English and when English is spoken in the meeting.
 
-Here's how the **Allow transcription** and **Allow cloud recording** settings work together. The following table describes the values for these settings and the meeting behavior.
+Here's how the **Allow transcription** and **Allow cloud recording** policy settings work together. The following table describes the values for these settings and the meeting behavior.
 
 |Allow transcription|Allow cloud recording|Behavior|
 |---------|---------|---------|
-|**On**|**On**|The **Start recording and transcription** and **Start transcription** options are available in meetings. The meeting organizer or meeting participants can start and stop recording and transcription or start transcription. |
+|**On**|**On**|The **Start recording and transcription** and **Start transcription** options are available in meetings. The meeting organizer or meeting participants can start and stop transcription or start and stop recording and transcription. |
 |**Off**|**On**|The **Start recording** option is available in meetings. Transcription isn't available in meetings.  |
 |**Off**|**Off**|Recording and transcription aren't available in meetings.  |
 
