@@ -74,8 +74,6 @@ Each organization will have a different usage of Calling Plans volume and rates 
   
 When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the PSTN usage report. This report lets you export the call data records to Excel and create custom reports.
 
-You can also monitor usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**.
-
 Important notifications related to the Communication Credits balance of your organization will be sent to the following admins:
 
 - Billing Administrator
