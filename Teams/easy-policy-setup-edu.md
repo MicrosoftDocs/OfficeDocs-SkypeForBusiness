@@ -44,7 +44,7 @@ When you use the easy policy setup tool, we will adjust your Global (organizatio
 
 ### Students
 
-|Policy type |Column2  |Policy setting  |Primary or Secondary  |Higher education  |
+|Policy area |Column2  |Policy setting  |Primary or Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
 |Teams policies   |         |         |         ||
 |Meetings policies    |         |         |         ||
