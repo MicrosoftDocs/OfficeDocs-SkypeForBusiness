@@ -23,7 +23,7 @@ search.appverid: MET150
 description: Learn about policies in a educational or EDU setting, and how to use and manage policy packages in Microsoft Teams. 
 ---
 
-# Teams Policies and Policy Packages for Education
+# Teams policies and policy packages for Education
 
 > [!NOTE]
 > For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](assign-policies.md).
