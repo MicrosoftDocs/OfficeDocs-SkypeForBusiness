@@ -30,7 +30,7 @@ You use policies in Teams to control how Teams behaves in your environment and
 
 To maintain student safety, you should use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. In most cases, policies must be adjusted for both students and educators to keep the environment safe. You can also use policies to turn on Teams features that enrich your learning environment.
 
-To simplify managing policies, use the Teams for Education easy policy setup tool to quickly set up the most important set of policies to create a safe and productive learning environment for students and educators. This article walks you through how to run the tool and 
+To simplify managing policies, use the Teams for Education easy policy setup tool to quickly set up the most important set of policies to create a safe and productive learning environment for students and educators. This article walks you through how to run the tool and the steps you need to do after you run it.
 
 ## What does the easy policy setup tool do?
 
@@ -79,7 +79,7 @@ Check out our [Teams policies and policy packages for Education](policy-packages
 ### Step 2: Remove any existing policy assignments
 
 > [!IMPORTANT]
-> If you're new to Teams and don't have any existing policies set up other than those that were set up by the easy policy set up tool, you can skip this step.
+> Follow this step only if you have existing policies set up. If you're new to Teams and don't have any existing policies other than the policies set up by the easy policy setup tool, skip this step and go to step 3.
 
 
 
