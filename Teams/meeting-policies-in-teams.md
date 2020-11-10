@@ -180,29 +180,21 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
 
-### Allow transcription (old)
+### Allow transcription
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
-
-Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
+This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start (and stop) live transcription or start and stop recording and live transcription in meetings. To learn more about live transcription, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15).
 
 ![Screenshot showing transcription options in a meeting](media/meeting-policies-transcription.png)
 
-### Allow transcription (new)
-
-This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start (and stop) live transcription or start and stop recording and live transcription in meetings. To learn more about live transcription, see View live transcription in a Teams meeting.
-
 Currently, live transcription is supported on the Teams desktop client and for users who have the language in Teams set to English and when English is spoken in the meeting.
 
-Here's how the **Allow transcription** and **Allow cloud recording** settings work together. The following table describes the values for  these settings and the meeting behavior.
+Here's how the **Allow transcription** and **Allow cloud recording** settings work together. The following table describes the values for these settings and the meeting behavior.
 
 |Allow transcription|Allow cloud recording|Behavior|
 |---------|---------|---------|
 |**On**|**On**|The **Start recording and transcription** and **Start transcription** options are available in meetings. The meeting organizer or meeting participants can start and stop recording and transcription or start transcription. |
 |**Off**|**On**|The **Start recording** option is available in meetings. Transcription isn't available in meetings.  |
 |**Off**|**Off**|Recording and transcription aren't available in meetings.  |
-
-******* 
 
 ### Allow cloud recording
 
