@@ -162,7 +162,7 @@ To delete a Teams retention policy, do the following:
 
 ### End user experience
 
-For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating" We've deleted older messaged due to your org's retention policy" is shown on top of yet undeleted messages.
+For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating" We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages.
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Screenshot of chat retention":::
 
 
