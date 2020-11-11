@@ -178,6 +178,9 @@ For a given policy type, a user's effective policy is determined according to th
 
 A user's effective policy is updated according to these rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
 
+> [!NOTE]
+> Group policy assignments are only propagated to users that are direct members of the group; the assignments are not propagated to members of nested groups.
+
 #### Group assignment ranking
  
 When you assign a policy to a group, you specify a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
