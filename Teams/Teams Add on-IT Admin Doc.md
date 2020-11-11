@@ -36,9 +36,7 @@ As a tenant administrator, you can enable or disable a Google Workspace Marketpl
 3. Search for **Microsoft Teams Gsuite Addon** or **Microsoft Teams Google Workspace Addon**.
 
 4. Select **Enable**.
-
- > [!Note]
- > If you want to disable the GSuite Addon or the Microsoft Teams Google Workspace Addon, select **Disable** instead of **Enable** in Step 4.
+5. (Optional) To disable the addon, select **Disable** instead of **Enable** in Step 4.
 
  ![Azure portal with addons selected](media/aad-portal-addon.png)
 
