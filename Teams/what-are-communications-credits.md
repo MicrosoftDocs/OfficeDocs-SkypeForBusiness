@@ -31,7 +31,7 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
     
 - Dialing out from an Audio Conference meeting to add someone else from anywhere in the world.
     
-- Dialing out from an Audio Conference meeting to your mobile phone with the Skype for Business or Microsoft Teams app installed to destinations that aren't already included in your subscription.
+- Dialing out from an Audio Conference meeting to your mobile phone with the Microsoft Teams app or Skype for Business app installed to destinations that aren't already included in your subscription.
     
 - Dial any international phone number when you have **Domestic Calling Plan** subscriptions.
     
@@ -51,7 +51,7 @@ If you're wondering how what the cost of the calls are for Calling Plans, see Co
   
 ## What is it?
 
-To use toll-free numbers in Skype for Business, Communications Credits are required as these calls are billed per minute. Also, we recommend that you set up Communications Credits for your Calling Plan and Audio Conferencing users who need the ability to dial out to **any PSTN destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits or assign a license to your users and you run out minutes for your organization (depending on your Calling Plan, Audio Conferencing plan, or your country/region), those users won't be able to make calls or dial out from Online Audio Conferencing meetings.
+To use toll-free numbers, Communications Credits are required as these calls are billed per minute. Also, we recommend that you set up Communications Credits for your Calling Plan and Audio Conferencing users who need the ability to dial out to **any PSTN destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits or assign a license to your users and you run out minutes for your organization (depending on your Calling Plan, Audio Conferencing plan, or your country/region), those users won't be able to make calls or dial out from Online Audio Conferencing meetings.
   
 > [!NOTE]
 > You must set up Communications Credits and then assign a Communications Credits license for each user in the **Microsoft 365 admin center** > **Users** > **Active Users**. Communications Credits licenses will appear as unlimited in quantity as they are used to grant access to the Communications Credits balance for any user to which you assign the Communications Credits license.
@@ -70,9 +70,28 @@ In the **Microsoft 365 admin center** > **Billing** > **Purchase Services** > **
   
 ## Communications Credits
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Skype for Business already as their service provider, you can get usage data by reviewing it in either **Microsoft 365 admin center** > **Reports** or **Skype for Business admin center** > **Reports** > **PSTN usage details**.
+Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Teams already as their service provider, you can get usage data by reviewing it in the Microsoft Teams admin center > **Analytics & reports** > **Usage reports**, and then select **PSTN usage**.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel and create custom reports.
+When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the PSTN usage report. This report lets you export the call data records to Excel and create custom reports.
+
+Important notifications related to the Communication Credits balance of your organization will be sent to the following admins:
+
+- Billing Administrator
+- Skype for Business Administrator
+- Company Administrator
+- User Account Administrator
+- Helpdesk Administrator
+- Service Support Administrator
+- Device Administrators
+- Application Administrator
+- License Administrator
+- Cloud Device Administrator
+- Authentication Administrator
+- Privileged Authentication Administrator
+- Teams Communications Administrator
+- Teams Communications Support Engineer
+- Teams Communications Support Specialist
+- Teams Service Administrator
 
 > [!NOTE]
 > Communications Credits are also used for premium rate numbers. The caller pays the charges.
@@ -98,7 +117,8 @@ You can also see information about pricing by [signing in to the Microsoft 365 a
 To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## Related topics
-[Skype for Business PSTN usage report](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+
+[Teams PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
 
   
  
