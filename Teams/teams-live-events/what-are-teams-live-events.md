@@ -42,7 +42,7 @@ Live events in Teams empowers multiple roles (organizer, producer, presenter, an
 
 ## Key components
 
-You can see from the picture above that there are four key components that are used with live events in Teams.
+You can see from the picture above that there are five key components that are used with live events in Teams.
 
 > [!NOTE]
 > For an overview of how to set up live events and the attendee experience, check out these short [videos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
