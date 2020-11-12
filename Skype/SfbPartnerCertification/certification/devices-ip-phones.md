@@ -60,7 +60,8 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Yealink |T55 IP Phone (upgradeable to Teams) |55.9.0.9 |
 | Yealink |T56A IP Phone (upgradeable to Teams) | 58.15.0.20 |
 | Yealink |T58A IP Phone (upgradeable to Teams) | 58.15.0.20 |
-
+| Yealink |MP54 IP Phone |122.9.0.5|
+| Yealink |MP58 IP Phone |122.9.0.5|
 
 ## Additional Resources
 
