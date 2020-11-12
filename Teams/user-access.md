@@ -23,9 +23,9 @@ appliesto:
 
 # Manage user access to Teams
 
-You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must have a Teams license before they can use Teams (except to join meetings as anonymous or guest). You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
+You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must have a Teams license before they can use Teams (except to join meetings as anonymous). You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
-By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium)  is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
+By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium) is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
 
 Use messaging policies, managed from the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams Admin Center</a>, to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization. To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).
 You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
