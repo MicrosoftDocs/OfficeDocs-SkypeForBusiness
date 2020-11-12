@@ -62,7 +62,7 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
     - To turn on Tasks for your organization, search for the Tasks app, select it, and then click **Allow**.
 
 > [!NOTE]
-> If you cannot find the Tasks app, search for Planner because the app might still be called this way.
+> If you cannot find the Tasks app, look for the names you can see in the first note of this article. The app could still be in the process of being renamed.
 
 ### Enable or disable Tasks for specific users in your organization
 
