@@ -23,7 +23,7 @@ appliesto:
 
 # Manage user access to Teams
 
-You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
+You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Each user in your organization must have a Teams license before they can use Teams (except to join meetings as anonymous or guest). You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
 By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium)  is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
 
