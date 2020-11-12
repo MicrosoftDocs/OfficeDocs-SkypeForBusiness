@@ -37,7 +37,7 @@ This article walks you through how to run the tool and the steps you need to do 
 
 The easy setup tool creates and assigns a set of core policy definitions to students and a separate set of core policy definitions to educators and staff with settings that are appropriate for each. Here's what happens when you run the tool. 
 
-- **Students**: The tool adjusts the Global (Org-wide default) policy definition for each policy area covered by the tool with settings that are appropriate to keep your students safe. In this way, your current students and all new students get the most restrictive set of policies.
+- **Students**: The tool adjusts the Global (Org-wide default) policy definition for each policy area covered by the tool with settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
 - **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose in the tool. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
 
 For a detailed listing of the policy definitions created by the tool, see [Policies created by the easy setup tool](#policies-created-by-the-easy-setup-tool).
@@ -46,11 +46,11 @@ Now, let's get started!
 
 ### Policies created by the easy setup tool
 
-Here's a summary of the policies and policy settings that your students and educators and staff get when you run the tool. 
+Here's a summary of the policies that your students and educators and staff get when you run the tool. 
 
 #### [**Students**](#tab/Students/)
 
-This table lists the values of policy settings in the Global (Org-wide default) policy definition that's assigned to students. 
+This table lists the values of policy settings in the Global (Org-wide default) policy definitions applied to students. 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
@@ -67,7 +67,7 @@ This table lists the values of policy settings in the Global (Org-wide default) 
 
 #### [**Educators and staff**](#tab/educators/)
 
-This table lists the values of policy settings in the custom policy definition that's assigned to the educators and staff group that you choose in the tool.  
+This table lists the values of policy settings in the custom policy definitions assigned to the educators and staff group that you choose in the tool.  
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
@@ -82,12 +82,14 @@ This table lists the values of policy settings in the custom policy definition t
 |Row9     |         |         |         ||
 |Row10    |         |         |         ||
 
+* * *
+
 ## How do I run the easy setup tool?
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then select **Quick setup**.
 2. Select your institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
 3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies assigned to students, which the tool does automatically.
-4. Review your selections. If you want to find out more about the specific policies that will be assigned, click the links on the page.
+4. Review your selections.
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
 6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now assigned policies created by the tool but there's a few more things to do. Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
 
