@@ -37,14 +37,14 @@ This article walks you through how to run the tool and the steps you need to do 
 
 The easy setup tool creates and assigns a set of core policy definitions to students and a separate set of core policy definitions to educators and staff with settings that are appropriate for each. Here's what happens when you run the tool. 
 
-- **Students**: The tool adjusts the Global (Org-wide default) policy definition for each policy area covered by the tool with settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
+- **Students**: The tool adjusts the Global (Org-wide default) policy definition of each policy area covered by the tool with settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
 - **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose in the tool. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
 
-For a detailed listing of the policy definitions created by the tool, see [Policies created by the easy setup tool](#policies-created-by-the-easy-setup-tool).
+For a detailed listing of the policy definitions set up by the tool, see [Policies created by the easy setup tool](#policies-created-by-the-easy-setup-tool).
 
 Now, let's get started!
 
-### Policies created by the easy setup tool
+### Policies set up by the easy setup tool
 
 Here's a summary of the policies that your students and educators and staff get when you run the tool. 
 
@@ -86,12 +86,14 @@ This table lists the values of policy settings in the custom policy definitions 
 
 ## How do I run the easy setup tool?
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then select **Quick setup**.
-2. Select your institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
-3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies assigned to students, which the tool does automatically.
+1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
+2. Select your educational institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
+3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
 4. Review your selections.
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
-6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now assigned policies created by the tool but there's a few more things to do. Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
+6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now assigned policies created by the tool but there's a few more things to do. 
+
+    Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
 
 ## What do I need to do after I run the tool? 
 
@@ -120,7 +122,9 @@ Because of the order that policies take effect, the policies created by the easy
 
 ### Step 2: Check for other policies that you might need to apply
 
-The easy policy setup tool applies the policies that we listed earlier. There may be additional policies that you may need to apply to tailor Teams to fit the needs of your students and educators or staff. For example, you might want to apply the following policies.
+The easy policy setup tool adjusts and applies [these core policies](#policies-set-up-by-the-easy-setup-tool). There may be additional policies that you may need to adjust to tailor Teams to fit the needs of your students and educators. For example, you might want to adjust the following policies.
+
+[LIST OF POLICIES]
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for our full list of safety recommendations. 
 
@@ -130,20 +134,26 @@ Check out our [Teams policies and policy packages for Education](policy-packages
 
 Currently, the easy policy setup tool applies our recommended policies when you run it. It's important to know that as new policies become available in Teams, they aren't automatically included in the tool. We're working to add this capability.
 
-Until this capability is available, check Message Center (in the Microsoft 365 admin center) frequently to find out about new policies and policy settings in Teams. You may have to manually update your policies to keep your learning environment safe.
+Until this capability is available, check Message Center (in the Microsoft 365 admin center) frequently to stay up-to-date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for our full list of safety recommendations. 
 
 Check out our [Teams policies and policy packages for Education](policy-packages-edu.md) and [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md) guides for more info about Teams policies and the best way to apply them in your environment.
 
-## How do I make changes to my selections in the tool? 
+## How do I make changes in the tool?
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then select **Change**.
-2. Select your institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
-3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies assigned to students, which the tool does automatically.
-4. Review your selections. If you want to find out more about the specific policies that will be assigned, click the links on the page.
-5. Select **Apply** to apply your changes. This may take a few minutes to complete.
-6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now assigned policies created by the tool but there's a few more things to do. Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
+If you need to make changes after you run the tool, you can re-run the wizard and change your selections. 
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
+2. From here, continue through each page of the tool to change your institution type, the group of educators and staff to which you want to assign policies, or both.
+
+Here's what you need to know when you make a change in the tool.
+
+|Institution type  |Educator and staff group  |Column3  |
+|---------|---------|---------|
+|Change     |Change       |         |
+|Row2     |         |         |
+|Row3     |         |         |
 
 ****
 
@@ -167,7 +177,7 @@ In this tutorial, students will get the Global meeting policy and we'll assign a
 
 ![Screenshot of the Meeting policies page in the Teams admin center](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
-## Assign a policy to a group
+### Assign a policy to a group
 
 Follow these steps to create a security group for your staff and educators, and then assign a custom meeting policy named EducatorMeetingPolicy to that security group.
 
