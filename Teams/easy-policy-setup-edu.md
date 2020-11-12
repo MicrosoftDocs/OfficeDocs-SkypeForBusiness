@@ -1,5 +1,5 @@
 ---
-title: Set up policies using the Teams for Education easy policy setup tool
+title: Set up policies with the Teams for Education easy policy setup tool
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -19,34 +19,29 @@ description: Learn how to use the Teams for Education easy policy setup tool to 
 f1keywords: 
 ---
 
-# Set up policies using the Teams for Education easy policy setup tool
+# Set up policies with the Teams for Education easy policy setup tool
 
 > [!NOTE]
 > For the larger story on assigning policies in Teams, see [Assign policies to your users in Teams](assign-policies.md).
 
 ## Overview
 
-Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area has its own collection of settings that can be adjusted to control access.
+Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area has settings that can be adjusted to control access.
 
 To maintain a safe and focused learning environment, it's important to set policies to control what students can do in Teams. For example, you can use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. You can also use policies to turn on Teams features that enrich the learning experience.
 
 Policies must be adjusted for both students and educators to keep the learning experience safe. Students should get the most conservative settings with the tightest restrictions to reduce the risk of receiving inappropriate levels of access. Educators and staff need a separate set of capabilities to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
 
-To simplify managing policies, use the Teams for Education easy policy setup tool to quickly set up the most important set of policies for a safe and productive learning experience. The tool sets up and assigns a set of policies to students and a separate set of policies to educators and staff with settings that are appropriate for each. 
+The Teams for Education easy policy setup tool makes it easier to manage policies for your students and educators. Use it to quickly set up the most important set of policies to create a safe and productive learning experience. The tool sets up and assigns a set of policies to students and a separate set of policies to educators and staff with settings that are appropriate for each. 
 
 This article walks you through how to run the tool and the steps you need to do after you run it.
 
 ## What does the easy policy setup tool do?
 
-We recommend that you use your Global (Org-wide default) policy definition for students. This ensures that any new users get the most conservative policy set and reduces the risk that a student will receive inappropriate levels of access.
-
-Educators and staff will need a separate set of capabilities to be successful. We recommend that you create a custom policy definition for each Teams capability area with policy values that fit the needs of your educators and students.  
-
-When you use the easy policy setup tool, we will adjust your Global (organization-wide default) policy definition with the following values.
 
 ### Students
 
-|Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
+|Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policies   |         |         |         ||
 |Meetings policies    |         |         |         ||
@@ -81,14 +76,31 @@ When you use the easy policy setup tool, we will adjust your Global (organizatio
 3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies assigned to students, which the tool does automatically.
 4. Review your selections. If you want to find out more about the specific policies that will be assigned, click the links on the page.
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
-6. You're on your way but you're not done yet! <br/><br/>Your students and educators or staff are now set up with the policies assigned by the tool but there's a few more things to do. Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
+6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now assigned policies created by the tool but there's a few more things to do. Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
 
 ## What do I need to do after I run the tool? 
 
-### Step 1: Remove existing policy assignments that conflict with
+### Step 1: Remove existing policy assignments so users get the policies created by the tool
 
 > [!IMPORTANT]
-> Complete this step only if you have existing policies set up. If you're new to Teams and don't have any existing policies other than the policies set up by the easy policy setup tool, skip this step and go to step 2.
+> Complete this step only if you have existing policies set up. If you're new to Teams and don't have any existing policies other than the policies created by the easy policy setup tool, skip this step and go to step 2.
+
+Remember that in Teams, for a given policy area, a user automatically gets the Global (Org-wide default) policy unless they're assigned a custom policy. A custom policy can be directly assigned to a user or to a group that the user is a member of. 
+
+If more than one of these policy assignments exist for a given user, Teams respects policies in a specific order: 
+
+
+|Policy assignments|Policy that takes effect |
+|---------|---------|
+|Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the user gets the policy that has the [highest group assignment ranking](assign-policies.md#group-assignment-ranking).         |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
+|Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
+
+Because of the order that policies take effect, the policies created by the easy policy setup tool won't take effect if you have existing direct assignments for your users or other group assignments with higher group rankings. 
+
+- Remove all existing policy assignments for your students so that the Global (Org-wide default) policy values created by the tool are applied.  
+- Remove any conflicting direct or group assignments for your educators and staff so that the custom policy values created by the tool are applied.  
 
 ### Step 2: Check for other policies that you might need to apply
 
@@ -100,19 +112,13 @@ Check out our [Teams policies and policy packages for Education](policy-packages
 
 ### Step 3: Check Message Center for policy updates
 
-At the moment, the easy policy setup tool applies our recommended policies when you run it. It's important to know that as new policies become available in Teams, they aren't automatically included in the tool. We're working to add this capability.
+Currently, the easy policy setup tool applies our recommended policies when you run it. It's important to know that as new policies become available in Teams, they aren't automatically included in the tool. We're working to add this capability.
 
 Until this capability is available, check Message Center (in the Microsoft 365 admin center) frequently to find out about new policies and policy settings in Teams. You may have to manually update your policies to keep your learning environment safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA=For_administrators) for our full list of safety recommendations. 
 
 Check out our [Teams policies and policy packages for Education](policy-packages-edu.md) and [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md) guides for more info about Teams policies and the best way to apply them in your environment.
-
-****
-
-Outtakes:
-
-Educators and staff should have access to features that are appropriate for their roles.
 
 ****
 
