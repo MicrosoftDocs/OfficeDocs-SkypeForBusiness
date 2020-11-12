@@ -83,7 +83,7 @@ When you use the easy policy setup tool, we will adjust your Global (organizatio
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
 6. You're on your way but you're not done yet! <br/><br/>Your students and educators or staff are now set up with the policies assigned by the tool but there's a few more things to do. Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
 
-## What do I need to do after I run the tool?
+## What do I need to do after I run the tool? 
 
 ### Step 1: Remove existing policy assignments that conflict with
 
