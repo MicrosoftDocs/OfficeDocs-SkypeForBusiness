@@ -21,25 +21,36 @@ f1keywords:
 
 # Set up policies with the Teams for Education easy policy setup tool
 
-> [!NOTE]
-> For the larger story on assigning policies in Teams, see [Assign policies to your users in Teams](assign-policies.md).
-
 ## Overview
 
 Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area has settings that can be adjusted to control access.
 
 To maintain a safe and focused learning environment, it's important to set policies to control what students can do in Teams. For example, you can use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. You can also use policies to turn on Teams features that enrich the learning experience.
 
-Policies must be adjusted for both students and educators to keep the learning experience safe. Students should get the most conservative settings with the tightest restrictions to reduce the risk of receiving inappropriate levels of access. Educators and staff need a separate set of capabilities to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
+Policies must be adjusted for both students and educators to keep the learning experience safe. Students should get the most conservative settings with the tightest restrictions to reduce the risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies with more permissive settings to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
 
-The Teams for Education easy policy setup tool makes it easier to manage policies for your students and educators. Use it to quickly set up the most important set of policies to create a safe and productive learning experience. The tool sets up and assigns a set of policies to students and a separate set of policies to educators and staff with settings that are appropriate for each. 
+The Teams for Education easy policy setup tool simplifies managing policies for your students and educators. Use it to quickly set up the most important set of policies to create a safe and productive learning experience.  
 
 This article walks you through how to run the tool and the steps you need to do after you run it.
 
 ## What does the easy policy setup tool do?
 
+The easy setup tool creates and assigns a set of core policy definitions to students and a separate set of core policy definitions to educators and staff with settings that are appropriate for each. Here's what happens when you run the tool. 
 
-### Students
+- **Students**: The tool adjusts the Global (Org-wide default) policy definition for each policy area covered by the tool with settings that are appropriate to keep your students safe. In this way, your current students and all new students get the most restrictive set of policies.
+- **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose in the tool. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
+
+For a detailed listing of the policy definitions created by the tool, see [Policies created by the easy setup tool](#policies-created-by-the-easy-setup-tool).
+
+Now, let's get started!
+
+### Policies created by the easy setup tool
+
+Here's a summary of the policies and policy settings that your students and educators and staff get when you run the tool. 
+
+#### [**Students**](#tab/Students/)
+
+This table lists the values of policy settings in the Global (Org-wide default) policy definition that's assigned to students. 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
@@ -54,7 +65,9 @@ This article walks you through how to run the tool and the steps you need to do 
 |Row9     |         |         |         ||
 |Row10    |         |         |         ||
 
-### Educators and staff
+#### [**Educators and staff**](#tab/educators/)
+
+This table lists the values of policy settings in the custom policy definition that's assigned to the educators and staff group that you choose in the tool.  
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
@@ -80,7 +93,7 @@ This article walks you through how to run the tool and the steps you need to do 
 
 ## What do I need to do after I run the tool? 
 
-### Step 1: Remove existing policy assignments so users get the policies created by the tool
+### Step 1: Remove existing policy assignments for policies created by the tool to take effect
 
 > [!IMPORTANT]
 > Complete this step only if you have existing policies set up. If you're new to Teams and don't have any existing policies other than the policies created by the easy policy setup tool, skip this step and go to step 2.
@@ -107,7 +120,7 @@ Because of the order that policies take effect, the policies created by the easy
 
 The easy policy setup tool applies the policies that we listed earlier. There may be additional policies that you may need to apply to tailor Teams to fit the needs of your students and educators or staff. For example, you might want to apply the following policies.
 
-See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA=For_administrators) for our full list of safety recommendations. 
+See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for our full list of safety recommendations. 
 
 Check out our [Teams policies and policy packages for Education](policy-packages-edu.md) and [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md) guides for more info about Teams policies and the best way to apply them in your environment.
 
@@ -117,9 +130,18 @@ Currently, the easy policy setup tool applies our recommended policies when you 
 
 Until this capability is available, check Message Center (in the Microsoft 365 admin center) frequently to find out about new policies and policy settings in Teams. You may have to manually update your policies to keep your learning environment safe.
 
-See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA=For_administrators) for our full list of safety recommendations. 
+See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for our full list of safety recommendations. 
 
 Check out our [Teams policies and policy packages for Education](policy-packages-edu.md) and [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md) guides for more info about Teams policies and the best way to apply them in your environment.
+
+## How do I make changes to my selections in the tool? 
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then select **Change**.
+2. Select your institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
+3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies assigned to students, which the tool does automatically.
+4. Review your selections. If you want to find out more about the specific policies that will be assigned, click the links on the page.
+5. Select **Apply** to apply your changes. This may take a few minutes to complete.
+6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now assigned policies created by the tool but there's a few more things to do. Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
 
 ****
 
@@ -159,64 +181,6 @@ You'll need to complete all these steps for your staff and educators to inherit 
 1. [Create security groups](#create-security-groups).
 2. [Assign a policy to a security group](#assign-a-policy-to-a-security-group).
 3. [Remove a policy that was directly assigned to users](#remove-a-policy-that-was-directly-assigned-to-users).
-
-### Create security groups
-
-First, create a security group for your staff and educators.
-
-With [School Data Sync](https://docs.microsoft.com/SchoolDataSync/) (SDS), you can [easily create security groups educators and students](https://docs.microsoft.com/SchoolDataSync/edu-security-groups) in your school. We recommend that you use SDS to create the security groups you need to manage policies for your school.
-
-If you're unable to deploy SDS within your environment, use [this PowerShell script](scripts/powershell-script-security-groups-edu.md) to create two security groups, one for all staff and educators who have a Faculty license assigned and another for all students who have a Student license assigned. You'll need to run this script routinely to keep the groups fresh and up to date.
-
-### Assign a policy to a security group
-
-#### Using the Microsoft Teams admin center
-
-> [!NOTE]
-> Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, and Teams messaging policy. For other policy types, use PowerShell.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Select the **Group policy assignment** tab.
-3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
-
-    ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-group.png)
-    1. In the **Select a group** box, search for and add the security group that contains your staff and educators.
-    2. In the **Select rank** box, enter **1**.
-    3. In the **Select a policy** box, select **EducatorMeetingPolicy**.
-    4. Select **Apply**.
-
-To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
-
-To change the ranking of a group assignment, you have to first remove the group policy assignment. Then, follow the steps above to assign the policy to a group.
-
-#### Using PowerShell
-
-> [!NOTE]
-> Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
-
-##### Install and connect to the Microsoft Teams PowerShell module
-
-Run the following to install the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) (if it's not already installed). Make sure you install version 1.0.5 or later.
-
-```powershell
-Install-Module -Name MicrosoftTeams
-```
-
-Run the following to connect to Teams and start a session.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-When you're prompted, sign in using your admin credentials.
-
-##### Assign a policy to a group
-
-Run the following to assign the meeting policy named EducatorMeetingPolicy to the security group that contains your staff and educators and set the assignment ranking to 1. You can specify a security group by using the object Id, Session Initiation Protocol (SIP) address, or email address. In this example, we use an email address (staff-faculty@contoso.com).
-
-```powershell
-New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
-```
 
 ### Remove a policy that was directly assigned to users
 
@@ -259,159 +223,10 @@ $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-##### Get policy assignments for a group
-
-Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
-
-```powershell
-Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
-
-```
-
-##### Get the policies assigned to a user
-
-Run the following to see all the policies that are assigned to a specific user. The following example shows you how to get the policies that are assigned to reda@contoso.com.
-
-```powershell
-Get-CsUserPolicyAssignment -Identity reda@contoso.com
-```
-
-## Assign a policy to a batch of users
-
-Follow these steps to assign a custom meeting policy named EducatorMeetingPolicy directly to your staff and educators in bulk.
-
-### Using PowerShell
-
-#### Connect to the Azure AD PowerShell for Graph module and the Teams PowerShell module
-
-Before you perform the steps in this article, you'll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the Microsoft Teams PowerShell module (to assign the policies to those users).
-
-##### Install and connect to the Azure AD PowerShell for Graph module
-
-Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an administrator), and then run the following to install the Azure Active Directory PowerShell for Graph module.
-
-```powershell
-Install-Module -Name AzureAD
-```
-
-Run the following to connect to Azure AD.
-
-```powershell
-Connect-AzureAD
-```
-
-When you're prompted, sign in using your admin credentials.
-
-To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
-
-##### Install and connect to the Microsoft Teams PowerShell module
-
-Run the following to install the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) (if it's not already installed). Make sure you install version 1.0.5 or later.
-
-```powershell
-Install-Module -Name MicrosoftTeams
-```
-
-Run the following to connect to Teams and start a session.
-
-```powershell
-Connect-MicrosoftTeams
-```
-When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
-
-#### Identify your users
-
-First, run the following to identify your staff and educators by license type. This tells you what SKUs are in use in your organization. You can then identify staff and educators that have a Faculty SKU assigned.
-
-```powershell
-Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
-```
-
-Which returns:
-
-```
-SkuPartNumber      SkuId
--------------      -----
-M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
-M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
-```
-
-In this example, the output shows that the Faculty license SkuId is "e97c048c-37a4-45fb-ab50-922fbf07a370".
-
-> [!NOTE]
-> To see a list of Education SKUs and SKU IDs, see [Education SKU reference](sku-reference-edu.md).
-
-Next, we run the following to identify the users that have this license and collect them all together.
-
-```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
-```
-
-#### Assign a policy in bulk
-
-Now, we assign the appropriate policies to users in bulk. The maximum number of users for which you can assign or update policies is 5,000 at a time. For example, if you have more than 5,000 staff and educators, you'll need to submit multiple batches.
-
-Run the following to assign a custom meeting policy named EducatorMeetingPolicy to your staff and educators.
-
-```powershell
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty.ObjectId
-```
-
-> [!NOTE]
-> To assign a different policy type in bulk, like TeamsMessagingPolicy, you'll need to change ```PolicyType``` to the policy that you're assigning and ```PolicyName``` to the policy name.
-
-#### Get the status of a bulk assignment
-
-Each bulk assignment returns an operation ID, which you can use to track the progress of the policy assignments or identify any failures that might occur. For example, run the following:
-
-```powershell
-Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
-```
-
-To view the assignment status of each user in the batch operation, run the following. Details of each user are in the ```UserState``` property.
-
-```powershell
-Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
-```
-
-#### Assign a policy in bulk if you have more than 5,000 users
-
-First, run the following to see how many staff and educators you have:
-
-```powershell
-$faculty.count
-```
-
-Instead of providing the whole list of user IDs, run the following to specify the first 5,000, and then the next 5,000, and so on.
-
-```powershell
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
-```
-
-You can change the range of user IDs until you reach the full list of users. For example, enter ```$faculty[0..4999``` for the first batch, use ```$faculty[5000..9999``` for the second batch, enter ```$faculty[10000..14999``` for the third batch, and so on.
-
-#### Get the policies assigned to a user
-
-Run the following to see all the policies that are assigned to a specific user. The following example shows you how to get the policies that are assigned to hannah@contoso.com.
-
-```powershell
-Get-CsUserPolicyAssignment -Identity hannah@contoso.com
-```
-
-## FAQ
-
-**I'm not familiar with PowerShell for Teams. Where can I learn more?**
-
-For an overview of using PowerShell to manage Teams, see [Teams PowerShell overview](teams-powershell-overview.md). For more information about the cmdlets used in this article, see:
-
-- [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
-- [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)
-- [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
-- [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
-- [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)
-
 ## Related topics
 
-- [Assign policies to your users](assign-policies.md)
 - [Teams policies and policy packages for Education](policy-packages-edu.md)
-- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md)
+- [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [Assign policies to your users](assign-policies.md)
+
