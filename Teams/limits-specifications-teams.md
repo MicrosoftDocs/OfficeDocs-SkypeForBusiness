@@ -44,7 +44,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams.
+<sup>2</sup> This limit includes archived teams. To go beyond the maximum number of teams a Microsoft 365 or Office 365 organization can have, you must contact Microsoft support.
 
 <sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
