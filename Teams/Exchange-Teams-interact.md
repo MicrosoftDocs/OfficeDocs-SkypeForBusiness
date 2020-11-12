@@ -63,7 +63,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>8</sup> You need to meet the requirements listed in the [Requirements to create and view meetings for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
 
-<sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required.
+<sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required. For more information, see [Search for Teams chat data for on-premises users](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
 ## Requirements to get the most out of Microsoft Teams
 
