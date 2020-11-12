@@ -89,15 +89,16 @@ Remember that in Teams, for a given policy area, a user automatically gets the G
 
 If more than one of these policy assignments exist for a given user, Teams respects policies in a specific order: 
 
-
 |Policy assignments|Policy that takes effect |
 |---------|---------|
 |Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the user gets the policy that has the [highest group assignment ranking](assign-policies.md#group-assignment-ranking).         |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the user gets the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking).         |
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
 |Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
 
-Because of the order that policies take effect, the policies created by the easy policy setup tool won't take effect if you have existing direct assignments for your users or other group assignments with higher group rankings. 
+This means that if a user has a policy that was directly assigned to them or is a member of a group that has a policy assigned to it with a higher [group assignment ranking](assign-policies.md#group-assignment-ranking), you have to remove those policies from the user so that the policy assigned by the tool takes effect.
+
+Because of the order that policies take effect, the policies created by the easy policy setup tool won't take effect if you have existing direct assignments for your users or group assignments with higher group rankings. 
 
 - Remove all existing policy assignments for your students so that the Global (Org-wide default) policy values created by the tool are applied.  
 - Remove any conflicting direct or group assignments for your educators and staff so that the custom policy values created by the tool are applied.  
