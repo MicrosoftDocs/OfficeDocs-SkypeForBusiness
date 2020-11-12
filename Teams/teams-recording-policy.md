@@ -48,7 +48,7 @@ storing, and analyzing Teams communications. This includes communications platfo
     integration with existing Teams administrative calling and
     meeting tools and policies
 
-Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5 and Office 365 A3/A5/E3/E5 users. 
+Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium and Office 365 A3/A5/E3/E5 users. 
 
 The compliance recording solution integration capabilities were also
 reviewed at Ignite 2019 in the [<span class="underline">Compliance
