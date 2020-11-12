@@ -61,8 +61,6 @@ The [Teams Security Guide](https://docs.microsoft.com/microsoftteams/security-co
 
 Personal data is transferred and stored as set forth in the [Online Service Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263).
 
-For transfers of personal data from the EEA, EU, Switzerland, and the UK, Microsoft is certified to the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments they entail. Its Privacy Shield certificate is [at this url](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active).
-
 We have information on the [Location of data in Microsoft Teams](location-of-data-in-teams.md) if you need to learn more.
 
 ## How long does Microsoft Teams retain personal data?
