@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:  
   - M365-voice
+  - m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
