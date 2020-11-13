@@ -64,35 +64,36 @@ Now, let's get started!
 > [!IMPORTANT]
 > Complete this step only if you have existing policies set up *before* you ran the tool. If you're new to Teams and don't have any existing policies other than the policies created by the easy policy setup tool, skip this step and go to step 2.
 
-For each of the [policy areas set up by the tool](#policies-set-up-by-the-tool), if a user already has a policy assigned to them, you'll have to remove that existing policy assignment from the user before the new policy created by the tool can take effect. Here's why.
+For each of the [policy areas set up by the tool](#policies-set-up-by-the-tool), if a user already has existing policies assigned to them, you'll have to remove those existing policy assignments from the user before the new policy created by the tool can take effect. Here's why.
 
 In Teams, for a given policy area, a policy can be applied to a user in the following ways:
 
 - Direct assignment to the user
 - Policy assignment to a group the user is a member of
-- If the user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy
 
-If more than one of these policy assignments exist for a user, Teams respects policies in the following order:
+If the user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy.
 
-|Policy assignment|Policy that takes effect |
+If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment of the user takes effect. For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
+
+|Policy assignments of a user|Policy that takes effect |
 |---------|---------|
 |Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the user gets the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking).         |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.         |
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
 |Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
 
-For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
-
-Because of the order that policies take effect, the policies created by the easy policy setup tool won't take effect if you have existing direct assignments for your users or group assignments with higher [group assignment rankings](assign-policies.md#group-assignment-ranking). This means that you'll have to remove the existing policy assignments from the user so the policy set up by the tool takes effect.
+Because of this order, the policies created by the easy policy setup tool won't take effect if a user has existing direct assignments or group assignments with higher [group assignment rankings](assign-policies.md#group-assignment-ranking). This means that you'll have to remove the existing policy assignments from the user so the policy set up by the tool takes effect.
 
 For each [policy area set up by the tool](#policies-set-up-by-the-tool), do the following:
 
 - Remove all existing policy assignments for your students so that the Global (Org-wide default) policy definition created by the tool takes effect.
 - Remove any conflicting direct or group assignments for your educators and staff so that the custom policy definition created by the tool takes effect.  
 
-[Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to a user.
+[Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
-### Step 2: Check for other policies that you might need to apply
+For example, you assigned a meeting policy directly to educators and your students have the Global (Org-wide default) meeting policy. In this scenario, remove the meeting policy that you directly assigned to educators so that the custom policy definition for the meeting policy created by the tool will take effect. You don't have to do anything with the existing Global (Org-wide default) meeting policy for students because the tool adjusts the settings appropriately.
+
+### Step 2: Check for other policies that you might need to adjust
 
 The easy policy setup tool adjusts and applies [these policies](#policies-set-up-by-the-tool). There may be additional policies that you may need to adjust to tailor Teams to fit the needs of your students and educators. For example, you might want to adjust the following policies.
 
