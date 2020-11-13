@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom: 
