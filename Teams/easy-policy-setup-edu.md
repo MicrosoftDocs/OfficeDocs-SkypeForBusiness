@@ -66,7 +66,7 @@ Now, let's get started!
 
 *** 
 
-#### Version 1
+#### Option 1
 
 In Teams, users can be assigned a policy either directly or to a group that users are a member of. If a user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy for that policy area.
 
@@ -76,7 +76,7 @@ For more info, see [Which policy takes precedence?](assign-policies.md#which-pol
 
 ***
 
-#### Version 2
+#### Option 2
 
 For each of the [policy areas set up by the tool](#policies-set-up-by-the-tool), if a user already has one or more existing policies assigned to them either directly or through a group assignment, you'll have to remove those existing policy assignments from the user before the new policy created by the tool can take effect. This is because for a given policy area, a user has one policy assignment that takes effect.
 
@@ -86,7 +86,7 @@ Teams uses the following order to determine which policy assignment for a given 
 
 *** 
 
-#### Version 3 
+#### Option 3 
 
 In Teams, for a given policy area, a policy can be applied to a user in the following ways:
 
