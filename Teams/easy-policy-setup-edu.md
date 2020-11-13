@@ -1,5 +1,5 @@
 ---
-title: Set up policies with the Teams for Education easy policy setup tool
+title: Easy policy setup for a safe learning environment
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,11 +15,11 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use the Teams for Education easy policy setup tool to set up safe policies for students and educators in your school. 
+description: Learn how to use the Teams for Education easy policy setup tool to set up safe policy settings for students and educators in your school. 
 f1keywords: 
 ---
 
-# Set up policies with the Teams for Education easy policy setup tool
+# Easy policy setup for a safe learning environment
 
 ## Overview
 
