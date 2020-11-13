@@ -13,6 +13,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - remotework
+  - m365initiative-meetings
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 

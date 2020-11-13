@@ -17,6 +17,7 @@ ms.custom:
   - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ---

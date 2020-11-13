@@ -20,6 +20,7 @@ ms.custom:
   - ms.teamsadmincenter.meetingsettings.overview
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn how to manage settings for Teams meetings that users schedule in your organization.
 ---
 
