@@ -16,6 +16,7 @@ ms.custom:
   - NewAdminCenter_Update
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---

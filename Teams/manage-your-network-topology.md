@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
