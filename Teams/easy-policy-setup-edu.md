@@ -40,9 +40,9 @@ The easy setup tool creates and assigns a set of core policy definitions to stud
 The tool sets up policies based on educational institution type (Primary-Secondary or Higher education). You select your institution type, and then the tool does the following:
 
 - **Students**: The tool adjusts the Global (Org-wide default) policy definition of each policy area covered by the tool with new default settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
-- **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose in the tool. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
+- **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
 
-For a detailed listing of the policy definitions set up by the tool, see [Policies set up by the tool](#policies-created-by-the-easy-setup-tool).
+See [Policies set up by the tool](#policies-set-up-by-the-tool) for a detailed list of policy definitions set up by the tool.
 
 Now, let's get started!
 
@@ -53,16 +53,16 @@ Now, let's get started!
 3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
 4. Review your selections.
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
-6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now assigned policies created by the tool but there's a few more things to do. 
+6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now set up with policies created by the tool but there's a few more things to do. 
 
     Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
 
-## What do I need to do after I run the tool? 
+## What do I need to do after I run the tool?
 
 ### Step 1: Remove existing policy assignments that conflict with policies set up by the tool
 
 > [!IMPORTANT]
-> Complete this step only if you have existing policies set up *before* you ran the tool. If you're new to Teams and don't have any existing policies other than the policies created by the easy policy setup tool, skip this step and go to step 2.
+> Complete this step only if you have existing policies set up *before* you ran the tool. If you're new to Teams and don't have any existing policies other than the policies created by the tool, skip this and go to step 2.
 
 *** 
 
@@ -146,7 +146,7 @@ The following table summarizes what happens when you make a change in the tool.
 |Type of change  |Policy behavior  |
 |---------|---------|
 |Change the educational institution type and the educators and staff group    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff group. The previous custom policy definitions are removed from the previous educators and staff group.</li></ul>    |
-|Change the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions baed on the new educational institution type is created and assigned to the educators and staff group. The previous custom policy definitions are removed from the  educators and staff group.</li></ul>         |
+|Change the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff group. The previous custom policy definitions are removed from the  educators and staff group.</li></ul>         |
 |Change the educators and staff group   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The set of custom policy definitions is assigned to the new educators and staff group and removed from the previous educators and staff group.</li></ul>         |
 
 ## Policies set up by the tool
@@ -155,7 +155,7 @@ Here's a summary of the policies that your students and educators and staff get 
 
 #### [**Students**](#tab/Students/)
 
-This table lists the values of policy settings in the Global (Org-wide default) policy definitions applied to students. 
+Here's a list of the Global (Org-wide default) policy definitions applied to students. 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
@@ -172,7 +172,7 @@ This table lists the values of policy settings in the Global (Org-wide default) 
 
 #### [**Educators and staff**](#tab/educators/)
 
-This table lists the values of policy settings in the custom policy definitions assigned to the educators and staff group that you choose in the tool.  
+Here's a list of the custom policy definitions applied to the educators and staff group that you choose in the tool.  
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
@@ -195,7 +195,7 @@ Here's a list of policies that you may want to manually adjust to keep your lear
 
 #### [**Students**](#tab/Students/)
 
-This table lists the values of policy settings in the Global (Org-wide default) policy definitions applied to students. 
+Here's a list of recommended Global (Org-wide default) policy definitions that you can set for student safety. 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
@@ -212,7 +212,7 @@ This table lists the values of policy settings in the Global (Org-wide default) 
 
 #### [**Educators and staff**](#tab/educators/)
 
-This table lists the values of policy settings in the custom policy definitions assigned to the educators and staff group that you choose in the tool.  
+Here's a list of recommended custom policy definitions that you can set for your educators and staff. 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
