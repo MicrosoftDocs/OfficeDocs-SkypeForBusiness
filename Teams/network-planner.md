@@ -13,6 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 f1.keywords:
   - CSH
 ms.custom: 
