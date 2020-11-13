@@ -11,6 +11,7 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto: 

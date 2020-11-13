@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ---
