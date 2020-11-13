@@ -35,12 +35,12 @@ This article walks you through how to run the tool and the steps you need to do 
 
 ## What does the easy policy setup tool do?
 
-The easy setup tool applies a set of core policy definitions to students and creates and assigns a separate set of core policy definitions to educators and staff with settings that are appropriate for each. Here's what happens when you run the tool.
+The easy setup tool applies a set of core policy definitions to students and optionally, a separate set of core policy definitions to educators and staff, with settings that are appropriate for each. Here's what happens when you run the tool.
 
 The tool sets up policies based on educational institution type (Primary-Secondary or Higher education). You select your institution type, and then the tool does the following:
 
 - **Students**: The tool adjusts the Global (Org-wide default) policy definition of each policy area covered by the tool with new default settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
-- **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
+- **Educators and staff** (optional): The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.<br/><br/>Keep in mind that setting up policies for your educators and staff is optional. You can choose to set up policies for only your students.
 
 See [Policies set up by the tool](#policies-set-up-by-the-tool) for a detailed list of policy definitions set up by the tool.
 
@@ -50,10 +50,12 @@ Now, let's get started!
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 2. Select your educational institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
-3. Search for, and then select a group that contains your educators or staff, and then click **Next**. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
+3. Do one of the following:
+    - If you want to set up policies for your educators and staff, search for and select a group that contains your educators or staff, and then click **Next**. <br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
+    - If you want to set up policies for only your students, click **Next**. 
 4. Review your selections.
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
-6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now set up with policies created by the tool but there's a few more things to do. 
+6. You're on your way but you're not done yet! <br/>Your students and educators or staff (if you chose this option) are now set up with policies created by the tool but there's a few more things to do. 
 
     Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
 
@@ -91,7 +93,7 @@ Teams uses the following order to determine which policy assignment for a given 
 In Teams, for a given policy area, a policy can be applied to a user in the following ways:
 
 - Direct assignment to the user
-- Policy assignment to a group the user is a member of
+- Assignment to a group the user is a member of
 - If the user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy
 
 If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
@@ -195,7 +197,7 @@ Here's a list of policies that you may want to manually adjust to keep your lear
 
 #### [**Students**](#tab/Students/)
 
-Here's a list of recommended Global (Org-wide default) policy definitions that you can set for student safety. 
+Here's a list of recommended Global (Org-wide default) policy definitions that you can manually set for student safety. 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
@@ -212,7 +214,7 @@ Here's a list of recommended Global (Org-wide default) policy definitions that y
 
 #### [**Educators and staff**](#tab/educators/)
 
-Here's a list of recommended custom policy definitions that you can set for your educators and staff. 
+Here's a list of recommended custom policy definitions that you can mnanally set for your educators and staff. 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
