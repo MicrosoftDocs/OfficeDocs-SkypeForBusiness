@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
