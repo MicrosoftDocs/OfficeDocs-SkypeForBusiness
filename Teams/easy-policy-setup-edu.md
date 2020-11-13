@@ -37,10 +37,12 @@ This article walks you through how to run the tool and the steps you need to do 
 
 The easy setup tool applies a set of core policy definitions to students and optionally, a separate set of core policy definitions to educators and staff, with settings that are appropriate for each. Here's what happens when you run the tool.
 
-The tool sets up policies based on educational institution type (Primary-Secondary or Higher education). You select your institution type, and then the tool does the following:
+The tool sets up policies based on educational institution type (Primary-Secondary or Higher education). You select your institution type, and the tool does the following:
 
 - **Students**: The tool adjusts the Global (Org-wide default) policy definition of each policy area covered by the tool with new default settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
-- **Educators and staff** (optional): The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.<br/><br/>Keep in mind that setting up policies for your educators and staff is optional. You can choose to set up policies for only your students.
+- **Educators and staff** (optional): The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
+
+Keep in mind that setting up policies for your educators and staff is optional. You can choose to set up policies for only your students.
 
 See [Policies set up by the tool](#policies-set-up-by-the-tool) for a detailed list of policy definitions set up by the tool.
 
@@ -76,19 +78,9 @@ For each policy area, a user has one policy that takes effect. If a user has one
 
 For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
 
-***
-
-#### Option 2
-
-For each of the [policy areas set up by the tool](#policies-set-up-by-the-tool), if a user already has one or more existing policies assigned to them either directly or through a group assignment, you'll have to remove those existing policy assignments from the user before the new policy created by the tool can take effect. This is because for a given policy area, a user has one policy assignment that takes effect.
-
-For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
-
-Teams uses the following order to determine which policy assignment for a given policy area takes effect for a user.       |
-
 *** 
 
-#### Option 3 
+#### Option 2 
 
 In Teams, for a given policy area, a policy can be applied to a user in the following ways:
 
