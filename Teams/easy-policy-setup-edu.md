@@ -35,11 +35,11 @@ This article walks you through how to run the tool and the steps you need to do 
 
 ## What does the easy policy setup tool do?
 
-The easy setup tool creates and assigns a set of core policy definitions to students and a separate set of core policy definitions to educators and staff with settings that are appropriate for each.  Here's what happens when you run the tool.
+The easy setup tool creates and assigns a set of core policy definitions to students and a separate set of core policy definitions to educators and staff with settings that are appropriate for each. Here's what happens when you run the tool.
 
 The tool sets up policies based on educational institution type (Primary-Secondary or Higher education). You select your institution type, and then the tool does the following:
 
-- **Students**: The tool adjusts the Global (Org-wide default) policy definition of each policy area covered by the tool with settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
+- **Students**: The tool adjusts the Global (Org-wide default) policy definition of each policy area covered by the tool with new default settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
 - **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose in the tool. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
 
 For a detailed listing of the policy definitions set up by the tool, see [Policies set up by the tool](#policies-created-by-the-easy-setup-tool).
@@ -64,40 +64,61 @@ Now, let's get started!
 > [!IMPORTANT]
 > Complete this step only if you have existing policies set up *before* you ran the tool. If you're new to Teams and don't have any existing policies other than the policies created by the easy policy setup tool, skip this step and go to step 2.
 
-For each of the [policy areas set up by the tool](#policies-set-up-by-the-tool), if a user already has existing policies assigned to them, you'll have to remove those existing policy assignments from the user before the new policy created by the tool can take effect. Here's why.
+*** 
+
+#### Version 1
+
+In Teams, users can be assigned a policy either directly or to a group that users are a member of. If a user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy for that policy area.
+
+For each policy area, a user has one policy that takes effect. If a user has one or more policies assigned to them either directly or through a group assignment, Teams uses the following order to determine which policy assignment for that policy area takes effect. 
+
+For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
+
+***
+
+#### Version 2
+
+For each of the [policy areas set up by the tool](#policies-set-up-by-the-tool), if a user already has one or more existing policies assigned to them either directly or through a group assignment, you'll have to remove those existing policy assignments from the user before the new policy created by the tool can take effect. This is because for a given policy area, a user has one policy assignment that takes effect.
+
+For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
+
+Teams uses the following order to determine which policy assignment for a given policy area takes effect for a user.       |
+
+*** 
+
+#### Version 3 
 
 In Teams, for a given policy area, a policy can be applied to a user in the following ways:
 
 - Direct assignment to the user
 - Policy assignment to a group the user is a member of
+- If the user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy
 
-If the user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy.
+If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
 
-If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment of the user takes effect. For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
+***
 
 |Policy assignments of a user|Policy that takes effect |
 |---------|---------|
 |Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.         |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
 |Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.         |
 
 Because of this order, the policies created by the easy policy setup tool won't take effect if a user has existing direct assignments or group assignments with higher [group assignment rankings](assign-policies.md#group-assignment-ranking). This means that you'll have to remove the existing policy assignments from the user so the policy set up by the tool takes effect.
 
 For each [policy area set up by the tool](#policies-set-up-by-the-tool), do the following:
 
 - Remove all existing policy assignments for your students so that the Global (Org-wide default) policy definition created by the tool takes effect.
-- Remove any conflicting direct or group assignments for your educators and staff so that the custom policy definition created by the tool takes effect.  
+- Remove any conflicting direct or group assignments for your educators and staff so that the custom policy definition created by the tool takes effect. Use the table to determine the scenarios that apply to you.
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
-For example, you assigned a meeting policy directly to educators and your students have the Global (Org-wide default) meeting policy. In this scenario, remove the meeting policy that you directly assigned to educators so that the custom policy definition for the meeting policy created by the tool will take effect. You don't have to do anything with the existing Global (Org-wide default) meeting policy for students because the tool adjusts the settings appropriately.
+For example, you assigned a meeting policy directly to educators and your students have the Global (Org-wide default) meeting policy. In this scenario, remove the meeting policy that you directly assigned to educators so that the custom policy definition for the meeting policy created by the tool will take effect. You don't have to do anything with the existing Global (Org-wide default) meeting policy for students because no other meeting policies conflict with it.
 
 ### Step 2: Check for other policies that you might need to adjust
 
-The easy policy setup tool adjusts and applies [these policies](#policies-set-up-by-the-tool). There may be additional policies that you may need to adjust to tailor Teams to fit the needs of your students and educators. For example, you might want to adjust the following policies.
-
-[LIST OF POLICIES]
+The easy policy setup tool automatically adjusts and applies [these policies](#policies-set-up-by-the-tool). There may be additional policies that you may need to manually adjust to tailor Teams to fit the needs of your students and educators. See [Policies to manually adjust](#policies-to-manually-adjust) for a list of recommended policies that you might want to adjust to stay safe.  
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for our full list of safety recommendations. 
 
@@ -124,13 +145,53 @@ The following table summarizes what happens when you make a change in the tool.
 
 |Type of change  |Policy behavior  |
 |---------|---------|
-|Change the educational institution type and the educators and staff group    |<ul><li>**Students**: The Global (Org-wide) default policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff group. The previous custom policy definitions are removed from the previous educators and staff group.</li></ul>    |
-|Change the educational institution type    |<ul><li>**Students**: The Global (Org-wide) default policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions baed on the new educational institution type is created and assigned to the educators and staff group. The previous custom policy definitions are removed from the  educators and staff group.</li></ul>         |
-|Change the educators and staff group   |<ul><li>**Students**: No change to the Global (Org-wide) default policy definitions applied to students.</li><li>**Educators and staff**: The set of custom policy definitions is assigned to the new educators and staff group and removed from the previous educators and staff group.</li></ul>         |
+|Change the educational institution type and the educators and staff group    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff group. The previous custom policy definitions are removed from the previous educators and staff group.</li></ul>    |
+|Change the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions baed on the new educational institution type is created and assigned to the educators and staff group. The previous custom policy definitions are removed from the  educators and staff group.</li></ul>         |
+|Change the educators and staff group   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The set of custom policy definitions is assigned to the new educators and staff group and removed from the previous educators and staff group.</li></ul>         |
 
 ## Policies set up by the tool
 
 Here's a summary of the policies that your students and educators and staff get when you run the tool. 
+
+#### [**Students**](#tab/Students/)
+
+This table lists the values of policy settings in the Global (Org-wide default) policy definitions applied to students. 
+
+|Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
+|---------|---------|---------|---------|---------|
+|Teams policies   |         |         |         ||
+|Meetings policies    |         |         |         ||
+|Row3     |         |         |         ||
+|Row4     |         |         |         ||
+|Row5     |         |         |         ||
+|Row6     |         |         |         ||
+|Row7     |         |         |         ||
+|Row8     |         |         |         ||
+|Row9     |         |         |         ||
+|Row10    |         |         |         ||
+
+#### [**Educators and staff**](#tab/educators/)
+
+This table lists the values of policy settings in the custom policy definitions assigned to the educators and staff group that you choose in the tool.  
+
+|Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
+|---------|---------|---------|---------|---------|
+|Teams policies   |         |         |         ||
+|Meetings policies    |         |         |         ||
+|Row3     |         |         |         ||
+|Row4     |         |         |         ||
+|Row5     |         |         |         ||
+|Row6     |         |         |         ||
+|Row7     |         |         |         ||
+|Row8     |         |         |         ||
+|Row9     |         |         |         ||
+|Row10    |         |         |         ||
+
+* * *
+
+## Policies to manually adjust
+
+Here's a list of policies that you may want to manually adjust to keep your learning environment safe. 
 
 #### [**Students**](#tab/Students/)
 
