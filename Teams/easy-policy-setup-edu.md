@@ -33,7 +33,7 @@ The Teams for Education easy policy setup tool simplifies managing policies for 
 
 This article walks you through how to run the tool and the steps you need to do after you run it.
 
-## What does the easy policy setup tool do?
+## Teams for Education easy policy setup tool
 
 The easy setup tool applies a set of core policy definitions to students and optionally, a separate set of core policy definitions to educators and staff, with settings that are appropriate for each. Here's what happens when you run the tool.
 
@@ -48,7 +48,7 @@ See [Policies set up by the tool](#policies-set-up-by-the-tool) for a detailed l
 
 Now, let's get started!
 
-## How do I run the easy setup tool?
+## Run the tool
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 2. Select your educational institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
@@ -59,9 +59,9 @@ Now, let's get started!
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
 6. You're on your way but you're not done yet! <br/>Your students and educators or staff (if you chose this option) are now set up with policies created by the tool but there's a few more things to do. 
 
-    Next, make sure you follow the steps in the [What do I need to do after I run the tool?](#what-do-i-need-to-do-after-i-run-the-tool) section.
+    Next, make sure you follow the steps in the [What to do after you run the tool](#what-to-do-after-running-the-tool) section.
 
-## What do I need to do after I run the tool?
+## What to do after running the tool
 
 ### Step 1: Remove existing policy assignments that conflict with policies set up by the tool
 
@@ -128,7 +128,7 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 Check out our [Teams policies and policy packages for Education](policy-packages-edu.md) and [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md) guides for more info about Teams policies and the best way to apply them in your environment.
 
-## How do I make changes in the tool?
+## Make changes in the tool
 
 If you need to make changes after you run the tool, you can re-run it and change your selections. 
 
