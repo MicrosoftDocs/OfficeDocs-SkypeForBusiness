@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150

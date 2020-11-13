@@ -11,6 +11,8 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.collection:
+-  m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Learn how to set up Microsoft Teams Rooms, including planning, deploying, and managing the system to create your ideal virtual meeting room.
 ms.custom: seo-marvel-may2020

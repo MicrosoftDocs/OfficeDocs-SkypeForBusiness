@@ -14,6 +14,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - SPO_Content
+  - m365initiative-deployteams
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
