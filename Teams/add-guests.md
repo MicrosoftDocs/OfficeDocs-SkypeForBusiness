@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
+  - m365initiative-externalcollab
 search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
