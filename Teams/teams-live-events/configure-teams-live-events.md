@@ -12,6 +12,7 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn how to manage settings for Teams live events that are held in your organization.
 f1.keywords:
 - CSH

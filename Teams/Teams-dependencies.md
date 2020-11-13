@@ -10,6 +10,7 @@ ms.collection:
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
   - SPO_Content
+  - m365initiative-externalcollab
 ms.reviewer: rafarhi
 localization_priority: Normal
 search.appverid: MET150
