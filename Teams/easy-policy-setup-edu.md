@@ -35,7 +35,7 @@ This article walks you through how to run the tool and the steps you need to do 
 
 ## What does the easy policy setup tool do?
 
-The easy setup tool creates and assigns a set of core policy definitions to students and a separate set of core policy definitions to educators and staff with settings that are appropriate for each. Here's what happens when you run the tool.
+The easy setup tool applies a set of core policy definitions to students and creates and assigns a separate set of core policy definitions to educators and staff with settings that are appropriate for each. Here's what happens when you run the tool.
 
 The tool sets up policies based on educational institution type (Primary-Secondary or Higher education). You select your institution type, and then the tool does the following:
 
@@ -109,7 +109,7 @@ Because of this order, the policies created by the easy policy setup tool won't 
 
 For each [policy area set up by the tool](#policies-set-up-by-the-tool), do the following:
 
-- Remove all existing policy assignments for your students so that the Global (Org-wide default) policy definition created by the tool takes effect.
+- Remove all existing policy assignments for your students so that the Global (Org-wide default) policy definition set up by the tool takes effect.
 - Remove any conflicting direct or group assignments for your educators and staff so that the custom policy definition created by the tool takes effect. Use the table to determine the scenarios that apply to you.
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
@@ -151,24 +151,24 @@ The following table summarizes what happens when you make a change in the tool.
 
 ## Policies set up by the tool
 
-Here's a summary of the policies that your students and educators and staff get when you run the tool. 
+Here's a summary of the policies set up for your students and educators and staff by the easy policy setup tool. 
 
 #### [**Students**](#tab/Students/)
 
-Here's a list of the Global (Org-wide default) policy definitions applied to students. 
+Here's a list of the Global (Org-wide default) policy definitions adjusted by the tool and applied to students.
 
-|Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
+|Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |         |         ||
-|Meetings policies    |         |         |         ||
-|Row3     |         |         |         ||
-|Row4     |         |         |         ||
-|Row5     |         |         |         ||
-|Row6     |         |         |         ||
-|Row7     |         |         |         ||
-|Row8     |         |         |         ||
-|Row9     |         |         |         ||
-|Row10    |         |         |         ||
+|Teams policies   |         |Create private channels         |Off        |On|
+|Meetings policies    |General         |Allow Meet now in channels         |Off         |On|
+|   |         |Allow the Outlook add-in         |Off         |On|
+|    |         |Allow channel meeting scheduling         |Off         |On|
+|     |         |Allow scheduling private meetings       |Off         |On|
+|     |Audio & video        |Allow transcription         |On         |On|
+|    |         |Allow cloud recording         |Off        |On|
+|     |         |Allow IP video        |On         |On|
+|     |         |Media bit rate (Kbs)         |50000         |50000|
+|  |       |         |         ||
 
 #### [**Educators and staff**](#tab/educators/)
 
