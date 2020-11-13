@@ -32,14 +32,15 @@ As a tenant administrator, you can enable or disable a Google Workspace Marketpl
 
 2. Select **Enterprise applications** > **All applications**.
 
+ ![Azure portal showing all applications](media/aad-add-google-workspace.png)
+
 3. Search for **Microsoft Teams meeting add-on for Google Workspace**.
 
 4. Select **Enable**.
+
+ ![Azure portal showing the google workspace properties](media/google-workspace-properties.png)
+
 5. (Optional) To disable the addon, select **Disable** instead of **Enable** in Step 4.
-
- ![Azure portal with addons selected](media/aad-portal-addon.png)
-
- ![Azure portal with gsuite addons selected](media/aad-portal-google-addon.png)
 
 ## Disable Google Workspace Marketplace Teams app using PowerShell
 
