@@ -59,7 +59,7 @@ Now, let's get started!
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
 6. You're on your way but you're not done yet! <br/>Your students and educators or staff (if you chose this option) are now set up with policies created by the tool but there's a few more things to do. 
 
-    Next, make sure you follow the steps in the [What to do after you run the tool](#what-to-do-after-running-the-tool) section.
+    Next, make sure you follow the steps in the [What to do after running the tool](#what-to-do-after-running-the-tool) section.
 
 ## What to do after running the tool
 
