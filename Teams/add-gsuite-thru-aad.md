@@ -32,9 +32,9 @@ As a tenant administrator, you can enable or disable a Google Workspace Marketpl
 
 2. Select **Enterprise applications** > **All applications**.
 
- ![Azure portal showing all applications](media/aad-add-google-workspace.png)
-
 3. Search for **Microsoft Teams meeting add-on for Google Workspace**.
+
+ ![Azure portal showing all applications](media/aad-add-google-workspace.png)
 
 4. Select **Enable**.
 
