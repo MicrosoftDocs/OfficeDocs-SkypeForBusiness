@@ -24,7 +24,7 @@ appliesto:
 > [!Note]
 > The change from using Microsoft Stream to OneDrive for Business and Microsoft SharePoint for meeting recordings will be a phased approach.
 
-|<div style="width:200px">Date</div> |Event                                 |
+|<div style="width:200px">Date</div> |<div style="width:500px">Event</div>                                |
 |------------------------------------------------------------|-------------------------------------------------------------------------|
 |October 5, 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        | You can enable the Teams Meeting policy to have meeting recordings saved to OneDrive for Business and SharePoint instead of Microsoft Stream (Classic)|
 |Rolling out starting January 11, 2021 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        |All new Teams meeting recordings will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. Seeing the policy reporting as Stream is not enough. You need to explicitly set the policy value to **Stream**.|
