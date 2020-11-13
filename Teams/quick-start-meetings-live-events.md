@@ -42,7 +42,7 @@ For the people who will organize, schedule, and host meetings or live events, th
 
 > <sup>1</sup>  Meeting organizers need to have an [Audio Conferencing add-on license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to send an invite that includes dial-in conferencing.
 >
-> <sup>2</sup>  Meeting organizers need to have an [Advanced Communications add-on license](teams-add-on-licensing/advanced-communications.md) to add up to 20,000 live event participants and up to 1,000 interactive meeting participants.
+> <sup>2</sup>  Meeting organizers need to have an [Advanced Communications add-on license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to add up to 20,000 live event participants and up to 1,000 interactive meeting participants.
 >
 > <sup>3</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 or [Audio Conference add-in license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). A [dial plan](what-are-dial-plans.md) may also be needed.
 
