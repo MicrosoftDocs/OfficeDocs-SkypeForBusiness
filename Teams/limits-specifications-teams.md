@@ -96,7 +96,7 @@ For more information, see [Exchange Online limits](https://docs.microsoft.com/of
 
 ## Channel names
 
-Channel names can't contain the following characters or words.
+Channel names can't contain the following characters or words:
 
 |Type|Example|
 |---------|---------|
