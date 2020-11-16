@@ -53,6 +53,7 @@ The following partners are in the process of certifying their solution for Micro
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Redwood Technologies` | https://www.contentguru.com/microsoft-teams-integration/                                           |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 
