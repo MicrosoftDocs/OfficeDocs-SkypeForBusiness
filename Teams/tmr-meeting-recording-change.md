@@ -151,12 +151,12 @@ Closed captions are supported for Teams meeting recordings for 60 days from when
 
 Closed captions are not fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive for Business or SharePoint.
 
-**How will my storage quota be impacted**
+**How will my storage quota be impacted?**
 
 Teams meeting recording files live in OneDrive for Business and SharePoint and are included in your quota for those services. See
 [SharePoint quota](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) and [OneDrive for Business quota](https://docs.microsoft.com/onedrive/set-default-storage-space).
 
-You get more storage with [OneDrive for Business](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) and more fungible storage with SharePoint.
+You get more storage with [OneDrive for Business](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) compared with Stream and more fungible storage with SharePoint.
 
 **How can I play a Teams meeting recording?**
 
