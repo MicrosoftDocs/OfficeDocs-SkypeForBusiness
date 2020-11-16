@@ -164,6 +164,8 @@ Policy assignment to groups is recommended for groups of up to 50,000 users but 
 
 When you assign the policy, it's immediately assigned to the group. However, note that the propagation of the policy assignment to members of the group is performed as a background operation and may take some time, depending on the size of the group. The same is true when a policy is unassigned from a group, or when members are added to or removed from a group.
 
+Group policy assignments are only propagated to users that are direct members of the group; the assignments are not propagated to members of nested groups.
+
 ### What you need to know about policy assignment to groups
 
 Before you get started, it's important to understand precedence rules and group assignment ranking.
@@ -177,9 +179,6 @@ For a given policy type, a user's effective policy is determined according to th
 - If a user isn't a member of any groups that are assigned a policy, the global (Org-wide default) policy for that policy type applies to the user.
 
 A user's effective policy is updated according to these rules when a user is added to or removed from a group that's assigned a policy, a policy is unassigned from a group, or a policy that's directly assigned to the user is removed.
-
-> [!NOTE]
-> Group policy assignments are only propagated to users that are direct members of the group; the assignments are not propagated to members of nested groups.
 
 #### Group assignment ranking
  
