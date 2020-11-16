@@ -49,7 +49,7 @@ The account you use to view the AA & CQ Analytics historical report needs to hav
 The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Please perform these steps:
-- Download the [CQD Power BI Query Templates](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D102291&amp;data=04%7C01%7CColin.Longman%40microsoft.com%7C7f640eff2e294ccf18bc08d881c1b4bb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637402016295575794%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=5WwyYg3CzOKrwT%2FRHexjYJK%2FrUtELqQcniz3uYgefPc%3D&amp;reserved=0) and save the zip file to a directory on your computer.
+- Download the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) and save the zip file to a directory on your computer.
 - Double-click on the zip file to open it.
 - Double-click on the "CQ and AA combined Analytics 20201105.pbit" template file and Power BI Desktop should launch.
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
@@ -57,7 +57,7 @@ Please perform these steps:
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region":::
 
  - You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output. 
- The region will be displayed after the // like in this example: microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
+ The region will be displayed after the / like in this example: microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
  - The report will launch with sample data.
  - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
 
