@@ -1,9 +1,9 @@
 ---
 title: Auto Attendant & Call Queue Historical Report
-ms.author: colongma
-author: CLYVR
-manager: roykuntz
-ms.reviewer: MikePlumleyMSFT
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: serdars
+ms.reviewer: colongma
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,33 +21,35 @@ ms.custom:
   - Reporting
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
-  - seo-marvel-apr2020
 description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
 ---
-# What is it?
+# Auto Attendant & Call Queue Historical Report
 
 The CQD Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
-</p><li>Auto Attendant – showing analytics for calls coming into your Auto Attendants.</li>
-<li>Call Queue – showing analytics for calls coming into your Call Queues.
-</li><li>Agent Timeline – showing a timeline view of agents being active in Call Queue calls.</li>
-<br>
+
+- Auto Attendant – showing analytics for calls coming into your Auto Attendants.
+- Call Queue – showing analytics for calls coming into your Call Queues.
+- Agent Timeline – showing a timeline view of agents being active in Call Queue calls.
+
 These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store and allow organizations
 to report on the number of calls being processed by auto attendants and call queues as well agent performance in the call queues.
 
+## What are the requirements? 
 
-# What are the requirements? 
 You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 You can use the free version of Power BI Desktop. The minimum compatible version is 2.85.681.0 (September 2020).
 
 ## Permissions to access the CQD pipeline
+
 The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Please refer to the [CQD access role](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) for more information.
 
 ## Installation 
+
 The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Please perform these steps:
-- Download the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) and save the zip file to a directory on your computer.
+- Download the [CQD Power BI Query Templates](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D102291&amp;data=04%7C01%7CColin.Longman%40microsoft.com%7C7f640eff2e294ccf18bc08d881c1b4bb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637402016295575794%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=5WwyYg3CzOKrwT%2FRHexjYJK%2FrUtELqQcniz3uYgefPc%3D&amp;reserved=0) and save the zip file to a directory on your computer.
 - Double-click on the zip file to open it.
 - Double-click on the "CQ and AA combined Analytics 20201105.pbit" template file and Power BI Desktop should launch.
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
@@ -55,7 +57,7 @@ Please perform these steps:
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region":::
 
  - You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output. 
- The region will be displayed after the / like in this example: microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
+ The region will be displayed after the // like in this example: microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
  - The report will launch with sample data.
  - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
 
@@ -68,16 +70,19 @@ Please perform these steps:
 - Select **Connect** and watch the data refresh.
 
 ## Data latency and AA & CQ analytics
+
 Data will be available in the CQD data pipeline within 30 minutes.
 
 You will have to refresh the data to see the new analytics data. 
 
 ## Customization 
+
 You are able to customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, etc.
 
 You cannot add additional data fields other than the ones provided in the report.
 
 ### Change color schema 
+
 The following steps assume you have already completed the Installation steps.
 
 Please perform these steps:
@@ -86,9 +91,6 @@ Please perform these steps:
 :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme":::
 
 - Select the color schema from the drop-down list.
-
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
-
 
 ## CQD fields description
 
@@ -181,5 +183,6 @@ Please perform these steps:
 
 
 ## Known Issues
+
 - Currently, Call Queue and auto attendant show resource accounts Id instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
 - Currently, only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
