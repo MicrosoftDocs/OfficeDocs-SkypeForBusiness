@@ -22,7 +22,7 @@ ms.custom:
 - Skype for Business Certification
 - dn947482 
 - ms.teamsadmincenter.devices.roomsystems.overview
-description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
+description: "Planning for Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
 ---
 
 # Meeting room devices and solutions
