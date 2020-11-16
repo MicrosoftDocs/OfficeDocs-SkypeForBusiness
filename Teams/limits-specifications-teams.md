@@ -52,6 +52,7 @@ This article describes some of the limits, specifications, and other requirement
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
 <sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+
 ## Messaging
 
 ### Chat
@@ -62,7 +63,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Number of people in a private chat<sup>1</sup>  | 250 |
+|Number of people in a private chat<sup>1</sup>  | 350 |
 |Number of people in a video or audio call from chat | 20 |
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
@@ -93,8 +94,6 @@ For more information, see [Exchange Online limits](https://docs.microsoft.com/of
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
-
-
 ## Channel names
 
 Channel names can't contain the following characters or words.
@@ -120,12 +119,11 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 >
 > Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
 
-
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300 |
+|Number of people in a meeting (can chat and call in)  | 350 |
 |Number of people in a video or audio call from chat | 20 |
-|Max PowerPoint File Size | 2GB|
+|Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
 >[!Note]
@@ -212,7 +210,6 @@ Limits for class teams are listed in the following table:
 |Number of members to use a OneNote Class Notebook in a class team     |200         |
 
 A class team can support more than 200 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
-
 
 ## Tags
 
