@@ -10,6 +10,8 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - M365-voice
+  - m365initiative-voice
+  - m365solution-voice
 ms.reviewer: crowe
 f1.keywords:
 - CSH
