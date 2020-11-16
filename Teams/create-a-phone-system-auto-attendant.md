@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -113,7 +114,7 @@ Users you wish to make available for Dial By Extension need to have an extension
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-The required format to enter the extension in the user phone number field is either *+<phone number>ext=<extension>* or *+<phone number>x<extension>*.
+The required format to enter the extension in the user phone number field is either *+\<phone number>ext=\<extension>* or *+\<phone number>x\<extension>*.
 
 You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
 
@@ -191,13 +192,11 @@ When you have finished adding service accounts, click **Submit**. This completes
 
 ## External phone number transfers - technical details
 
-When transferring calls to an external phone number, the resource account associated with the auto attendant or call queue must have a phone number and a Microsoft 365 Phone System - Virtual User license. Additionally:
+Please refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow auto attendants to transfer calls externally.  In addition:
 
-- For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
-  - The external transfer phone number must be entered in E.164 format (+CC+phone_number).
+- For a resource account with a [Calling Plan](calling-plans-for-office-365.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
 
-- For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
-  - The external transfer phone number format is dependant on your [Session Border Controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) settings.
+- For a resource account with a Direct Routing number, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
 
 The outbound phone number that's displayed is determined as follows:
 
@@ -205,8 +204,6 @@ The outbound phone number that's displayed is determined as follows:
   - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
     - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
     - If set to Enabled, the resource account phone number is displayed.
-
-Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 
 In a Skype for Business hybrid environment, to transfer an auto attendant call to the PSTN, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 

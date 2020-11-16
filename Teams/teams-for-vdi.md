@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ---
@@ -224,7 +225,6 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren't currently supported in Teams VDI that are in Skype for Business VDI are as follows:
 
-- Control of VDI calling experiences with policies for limiting media bitrate
 - Per-platform policy to disable some AV features in VDI
 - Give and take control when app sharing
 - Screen share from chat without audio
