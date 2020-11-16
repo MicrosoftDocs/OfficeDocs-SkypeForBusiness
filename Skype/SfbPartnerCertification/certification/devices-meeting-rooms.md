@@ -29,7 +29,7 @@ description: "Planning for Skype for Business Experience over Wi-Fi provides the
 
 Microsoft tests and qualifies meeting room solutions for Lync and Skype for Business, as well as Teams.
 Skype for Business will support backwards compatibility with Optimized for Lync 2013 meeting room solutions. These include:
-- Lync Room Systems (Aka Skype Room Systems v1)
+- Lync Room Systems (also known as Skype Room Systems v1)
 - Microsoft Teams Rooms (formerly Skype for Business Room Systems v2)
 - USB-based audio/video end points designed for conference rooms
 
