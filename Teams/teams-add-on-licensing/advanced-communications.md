@@ -43,6 +43,8 @@ Advanced Communications is available in all Microsoft 365 markets as an add-on t
 At release on August 1, 2020, the following features are available:
 
 - Live events support for up to 20,000 participants, 50 concurrent events, event duration of 16 hours per broadcast
+- Compliance Recording integration (ISV)
+- Contact Center solution integration (ISV)
 
 The following features will be available later this year:
 
