@@ -161,11 +161,11 @@ Here's a list of the custom policy definitions applied to the educators and staf
 
 ## Policies to manually adjust
 
-Here's a list of policies that you may want to manually adjust to keep your learning environment safe. 
+Here's a list of policies that you may want to manually adjust to keep your learning environment safe.
 
 #### [**Students**](#tab/Students/)
 
-Here's a list of recommended Global (Org-wide default) policy definitions that you can manually set for student safety. 
+Here's a list of Global (Org-wide default) policy definitions that we recommend you manually adjust for student safety.
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
@@ -182,7 +182,7 @@ Here's a list of recommended Global (Org-wide default) policy definitions that y
 
 #### [**Educators and staff**](#tab/educators/)
 
-Here's a list of recommended custom policy definitions that you can mnanally set for your educators and staff. 
+Here's a list of recommended custom policy definitions to manually set for your educators and staff.
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
 |---------|---------|---------|---------|---------|
