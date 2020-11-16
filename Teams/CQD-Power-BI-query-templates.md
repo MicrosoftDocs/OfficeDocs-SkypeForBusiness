@@ -21,13 +21,13 @@ description: "Use Power BI to analyze CQD data for Microsoft Teams."
 
 # Use Power BI to analyze CQD data for Microsoft Teams
 
-New in January 2020: [Download Power BI query templates for CQD](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D102291&amp;data=04%7C01%7CColin.Longman%40microsoft.com%7C7f640eff2e294ccf18bc08d881c1b4bb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637402016295575794%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=5WwyYg3CzOKrwT%2FRHexjYJK%2FrUtELqQcniz3uYgefPc%3D&amp;reserved=0). Customizable Power BI templates you can use to analyze and report your CQD data.
+New in January 2020: [Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 For Call Quality Dashboard (CQD) reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
-Before you can use these PBIT files, you'll need to [Install the Power BI Connector for Microsoft CQD](CQD-Power-BI-connector.md) using the *MicrosoftCallQuality.pqx* file included in the [download](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fdownload%2Fdetails.aspx%3Fid%3D102291&amp;data=04%7C01%7CColin.Longman%40microsoft.com%7C7f640eff2e294ccf18bc08d881c1b4bb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637402016295575794%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=5WwyYg3CzOKrwT%2FRHexjYJK%2FrUtELqQcniz3uYgefPc%3D&amp;reserved=0). 
+Before you can use these PBIT files, you'll need to [Install the Power BI Connector for Microsoft CQD](CQD-Power-BI-connector.md) using the *MicrosoftCallQuality.pqx* file included in the [download](https://www.microsoft.com/download/details.aspx?id=102291). 
 
-Make sure you have the right [CQD access role](turning-on-and-using-call-quality-dashboard.md#assign-roles-for-accessing-cqd) to access the Power BI reports. 
+Make sure you have the right [CQD access role](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to access the Power BI reports. 
 
 |  |  |
 |---------|---------|
