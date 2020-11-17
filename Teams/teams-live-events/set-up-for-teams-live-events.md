@@ -12,9 +12,9 @@ f1.keywords:
 - CSH
 localization_priority: Normal
 ms.collection: 
-  - M365-collaboration
-  - m365initiative-meetings
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- enabler-strategic
 description: Set up for live events in Teams, including set up your network, assign licenses, enable live event features and scheduling, and video distribution solutions.
 appliesto: 
   - Microsoft Teams
