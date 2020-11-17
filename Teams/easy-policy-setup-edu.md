@@ -129,33 +129,139 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 
 |Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |Create private channels         |Off        |On|
-|Meetings policies    |General         |Allow Meet now in channels         |Off         |On|
-|   |         |Allow the Outlook add-in         |Off         |On|
-|    |         |Allow channel meeting scheduling         |Off         |On|
-|     |         |Allow scheduling private meetings       |Off         |On|
-|     |Audio & video        |Allow transcription         |On         |On|
-|    |         |Allow cloud recording         |Off        |On|
-|     |         |Allow IP video        |On         |On|
-|     |         |Media bit rate (Kbs)         |50000         |50000|
-|  |       |         |         ||
+|Teams policies   |         |Create private channels         |        |
+|Meetings policies    |General         |Allow Meet now in channels         |      ||
+|  |        |Allow the Outlook add-in         |       ||
+|  |        |Allow channel meeting scheduling         |      ||
+|  |        |Allow scheduling private meetings       |         ||
+|  |Audio & video        |Allow transcription         |        ||
+|  |        |Allow cloud recording         |      ||
+|  |        |Mode for IP audio       |        ||
+|  |        |Mode for IP video         |     ||
+|  |       |Allow IP video         |         ||
+|  |       |Allow NDI streaming         |         ||
+|  |       |Media bit rate (Kbs)         |         ||
+|  |Content sharing       |Screen sharing mode         |         ||
+|  |       |Allow a participant to give or request control         |         ||
+|  |       |Allow PowerPoint sharing        |         ||
+|  |       |Allow whiteboard         |         ||
+|  |       |Allow shared notes         |         ||
+|  |Participants & guests       |Let anonymous people start a meeting       |         ||
+|  |       |Roles that have presenter rights in meetings        |         ||
+|  |       |Automatically admit people        |         ||
+|  |       |Allow dial-in users to bypass the lobby        |         ||
+|  |       |Allow Meet now in private meetings        |         ||
+|  |       |Enable live captions       |         ||
+|  |       |Allow chat in meetings         |         ||
+|  |Video filters mode       |VideoFiltersMode         |         ||
+|  |Meeting attendance report       |AllowEngagementReport         |         ||
+|Live events policies  |       |Allow scheduling         |         ||
+|  |       |Allow transcription for attendees          |        ||
+|  |       |Who can join scheduled live events        |        ||
+|  |       |Who can record an event         |         ||
+|Messaging policies  |       |Owners can delete sent messages         |         ||
+|  |       |Delete sent messages         |         ||
+|  |       |Edit sent messages         |         ||
+|  |       |Read receipts         |         ||
+|  |       |Chat         |         ||
+|  |       |Use Giphys in conversations         |         ||
+|  |       |Giphy content rating         |         ||
+|  |       |Use memes in conversations         |         ||
+|  |       |Use stickers in conversations         |         ||
+|  |       |Allow URL previews        |         ||
+|  |       |Translate messages         |         ||
+|  |       |Allow immersive reader for viewing messages        |       ||
+|  |       |Send urgent messages using priority notifications  |         ||
+|  |       |Create voice messages         |         ||
+|  |       |On mobile devices, display favorite channels above recent chats     |         ||
+|  |       |Remove users from a group chat         |         ||
+|  |       |Suggested replies         |         ||
+|App permission polices  |       |Microsoft apps         |         ||
+|  |       |Third-party apps         |         ||
+|  |       |Custom apps         |         ||
+|App setup polices  |           |Upload custom apps           |         ||
+|  |       |Allow user pinning |         ||
+|  |       |Installed apps         |         ||
+|  |       |Pinned apps         |         ||
+|Calling policies  |       |Make private calls         |         ||
+|  |       |Call forwarding and simultaneous ringing to people in your organization         |         ||
+|  |       |Call forwarding and simultaneous ringing to external phone numbers         |         ||
+|  |       |Voicemail is available for routing inbound calls         |         ||
+|  |       |Inbound calls can be routed to call groups         |         ||
+|  |       |Allow delegation for inbound and outbound calls         |         ||
+|  |       |Prevent toll bypass and send calls through the PSTN        |         ||
+|  |       |Busy on busy is available when in a call         |         ||
+|  |       |Allow web PSTN calling         |         ||
 
 #### [**Educators and staff**](#tab/educators/)
 
 Here's a list of the custom policy definitions applied to the educators and staff group that you choose in the tool.  
 
-|Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
+|Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |         |         ||
-|Meetings policies    |         |         |         ||
-|Row3     |         |         |         ||
-|Row4     |         |         |         ||
-|Row5     |         |         |         ||
-|Row6     |         |         |         ||
-|Row7     |         |         |         ||
-|Row8     |         |         |         ||
-|Row9     |         |         |         ||
-|Row10    |         |         |         ||
+|Teams policies   |         |Create private channels         |        |
+|Meetings policies    |General         |Allow Meet now in channels         |      ||
+|  |        |Allow the Outlook add-in         |       ||
+|  |        |Allow channel meeting scheduling         |      ||
+|  |        |Allow scheduling private meetings       |         ||
+|  |Audio & video        |Allow transcription         |        ||
+|  |        |Allow cloud recording         |      ||
+|  |        |Mode for IP audio       |        ||
+|  |        |Mode for IP video         |     ||
+|  |       |Allow IP video         |         ||
+|  |       |Allow NDI streaming         |         ||
+|  |       |Media bit rate (Kbs)         |         ||
+|  |Content sharing       |Screen sharing mode         |         ||
+|  |       |Allow a participant to give or request control         |         ||
+|  |       |Allow PowerPoint sharing        |         ||
+|  |       |Allow whiteboard         |         ||
+|  |       |Allow shared notes         |         ||
+|  |Participants & guests       |Let anonymous people start a meeting       |         ||
+|  |       |Roles that have presenter rights in meetings        |         ||
+|  |       |Automatically admit people        |         ||
+|  |       |Allow dial-in users to bypass the lobby        |         ||
+|  |       |Allow Meet now in private meetings        |         ||
+|  |       |Enable live captions       |         ||
+|  |       |Allow chat in meetings         |         ||
+|  |Video filters mode       |VideoFiltersMode         |         ||
+|  |Meeting attendance report       |AllowEngagementReport         |         ||
+|Live events policies  |       |Allow scheduling         |         ||
+|  |       |Allow transcription for attendees          |        ||
+|  |       |Who can join scheduled live events        |        ||
+|  |       |Who can record an event         |         ||
+|Messaging policies  |       |Owners can delete sent messages         |         ||
+|  |       |Delete sent messages         |         ||
+|  |       |Edit sent messages         |         ||
+|  |       |Read receipts         |         ||
+|  |       |Chat         |         ||
+|  |       |Use Giphys in conversations         |         ||
+|  |       |Giphy content rating         |         ||
+|  |       |Use memes in conversations         |         ||
+|  |       |Use stickers in conversations         |         ||
+|  |       |Allow URL previews        |         ||
+|  |       |Translate messages         |         ||
+|  |       |Allow immersive reader for viewing messages        |       ||
+|  |       |Send urgent messages using priority notifications  |         ||
+|  |       |Create voice messages         |         ||
+|  |       |On mobile devices, display favorite channels above recent chats     |         ||
+|  |       |Remove users from a group chat         |         ||
+|  |       |Suggested replies         |         ||
+|App permission polices  |       |Microsoft apps         |         ||
+|  |       |Third-party apps         |         ||
+|  |       |Custom apps         |         ||
+|App setup polices  |           |Upload custom apps           |         ||
+|  |       |Allow user pinning |         ||
+|  |       |Installed apps         |         ||
+|  |       |Pinned apps         |         ||
+|Calling policies  |       |Make private calls         |         ||
+|  |       |Call forwarding and simultaneous ringing to people in your organization         |         ||
+|  |       |Call forwarding and simultaneous ringing to external phone numbers         |         ||
+|  |       |Voicemail is available for routing inbound calls         |         ||
+|  |       |Inbound calls can be routed to call groups         |         ||
+|  |       |Allow delegation for inbound and outbound calls         |         ||
+|  |       |Prevent toll bypass and send calls through the PSTN        |         ||
+|  |       |Busy on busy is available when in a call         |         ||
+|  |       |Allow web PSTN calling         |         ||
 
 * * *
 
@@ -169,33 +275,33 @@ Here's a list of Global (Org-wide default) policy definitions that we recommend 
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |         |         ||
-|Meetings policies    |         |         |         ||
-|Row3     |         |         |         ||
-|Row4     |         |         |         ||
-|Row5     |         |         |         ||
-|Row6     |         |         |         ||
-|Row7     |         |         |         ||
-|Row8     |         |         |         ||
-|Row9     |         |         |         ||
-|Row10    |         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
 
 #### [**Educators and staff**](#tab/educators/)
 
 Here's a list of recommended custom policy definitions to manually set for your educators and staff.
 
-|Policy area |Column2  |Policy setting  |Primary-Secondary  |Higher education  |
+|Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |         |         ||
-|Meetings policies    |         |         |         ||
-|Row3     |         |         |         ||
-|Row4     |         |         |         ||
-|Row5     |         |         |         ||
-|Row6     |         |         |         ||
-|Row7     |         |         |         ||
-|Row8     |         |         |         ||
-|Row9     |         |         |         ||
-|Row10    |         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
+||         |         |         ||
 
 * * *
 
