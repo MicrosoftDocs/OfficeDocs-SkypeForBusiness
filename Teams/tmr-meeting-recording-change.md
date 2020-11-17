@@ -32,7 +32,7 @@ appliesto:
 |Rolling out starting July 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Education customers**<br>No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to **Stream**. We recommend that customers roll this feature out before this date so that they can control the timing of the release. We have updated this schedule to provide education customers the ability to complete in-progress semesters. |
 
 > [!Note]
-> We recommend that Enterprise and Educational customers, to better control the change in your organization, opt in whenever you're comfortable with the change rather than wait for it to happen. 
+> We recommend that Enterprise and Educational customers, to better control the change in your organization, opt in whenever you're comfortable with the change rather than wait for it to happen.
 
 Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](https://docs.microsoft.com/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits.
 
@@ -80,7 +80,7 @@ Watch "Meeting Recording" for more information.
 
 2. Launch PowerShell as an admin
 
-3. Import the SkypeOnline Connector and log in as a Teams admin.
+3. Import the SkypeOnline Connector and sign in as a Teams admin.
 
    ```powershell
    Import-Module SkypeOnlineConnector
@@ -107,12 +107,12 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Meeting type                               | Who clicked on Record?| Where does the recording land?                               |Who has access? R/W, R, or sharing                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |1:1 call with internal parties             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights. <br /><br />Callee (if in the same tenant) has read only access. No sharing access. <br /><br /> Callee (if in different tenant) has no access. Caller must share it to the Callee.|
-|1:1 call with internal parties             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights. <br /><br />Caller (if in the same tenant has read only access. No sharing access. <br /><br />Caller (if in different tenant) has no access. Callee must share it to the Callee.|
+|1:1 call with internal parties             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights. <br /><br />Caller (if in the same tenant has read-only access. No sharing access. <br /><br />Caller (if in different tenant) has no access. Callee must share it to the Callee.|
 |1:1 call with an external call             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights.<br /> <br />Callee has no access. Caller must share it to the Callee.|
 |1:1 call with an external call             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights.<br /><br />Caller has no access. Callee must share it to the Caller.|
 |Group call                                 |Any member of the call |Member who clicked on Record’s OneDrive for Business account  |Member who clicked on Record has full rights. <br /><br /> Other members from the same tenant have Read rights. <br /><br /> Other members from different tenant have no rights to it.|
 |Adhoc/Scheduled meeting                    |Organizer              |Organizer’s OneDrive for Business account                     |Organizer has full rights to the recording. <br /><br /> All other members of the meeting have read access.|
-|Adhoc/Scheduled meeting                    |Other meeting member   |Member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. <br /><br />Organizer has edit rights and can share .<br /><br /> All other members have read access.|
+|Adhoc/Scheduled meeting                    |Other meeting member   |Member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. <br /><br />Organizer has edit rights and can share.<br /><br /> All other members have read access.|
 |Adhoc/Scheduled meeting with external users|Organizer              |Organizer’s OneDrive for Business account                     |Organizer has full rights to the recording.<br /> <br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br /> All other external members have no access, and the Organizer must share it to them.|
 |Adhoc/Scheduled meeting with external users|Other meeting member   |Member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. Organizer has edit rights and can share. <br /><br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br />All other external members have no access, and the Organizer must share it to them.|
 |Channel meeting                            |Channel Member         |Teams' SharePoint location for that channel                   |Member who clicked on Record has edit rights to the recording. <br /> <br />Every other member’s permissions are based off of the Channel SharePoint permissions.|
@@ -151,10 +151,12 @@ Closed captions are supported for Teams meeting recordings for 60 days from when
 
 Closed captions are not fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive for Business or SharePoint.
 
-**How will my storage quota be impacted**
+**How will my storage quota be impacted?**
 
 Teams meeting recording files live in OneDrive for Business and SharePoint and are included in your quota for those services. See
-[SharePoint quota](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) and [OneDrive for Business quota] (https://docs.microsoft.com/onedrive/set-default-storage-space).
+[SharePoint quota](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas) and [OneDrive for Business quota](https://docs.microsoft.com/onedrive/set-default-storage-space).
+
+You get more storage with [OneDrive for Business](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) compared with Stream and more fungible storage with SharePoint.
 
 **How can I play a Teams meeting recording?**
 
