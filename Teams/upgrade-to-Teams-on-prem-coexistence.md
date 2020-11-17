@@ -3,7 +3,7 @@ title:  Coexistence with Microsoft Teams and Skype for Business
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin

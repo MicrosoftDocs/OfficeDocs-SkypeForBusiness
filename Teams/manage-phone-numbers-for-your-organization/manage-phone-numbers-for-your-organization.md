@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -37,7 +38,7 @@ There are four ways to get user (subscriber) and service (toll and toll-free) ph
 - Use a request form for new phone numbers that aren't listed in the Microsoft Teams admin center.
 
 > [!IMPORTANT]
-> In Belgium, France, Germany, Ireland, the Netherlands, and Spain, you can't get phone new phone numbers using the Microsoft Teams Admin Center. You have to download and fill out a form. For new phone numbers in Australia, see: [**Telstra Voice Services**](https://aka.ms/TelstraVoicePlan).
+> For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan). For new phone numbers in Japan, see [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan).
 
 ***
 If you know what kind of forms you are looking for, use the drop-down to select the country/region where you're getting numbers.
@@ -45,16 +46,22 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 **Select your country or region to find the downloadable PDF LOA forms you will need**
 > [!div class="op_single_selector"]
 > - [Australia](phone-number-management-for-australia.md)
+> - [Austria](phone-number-management-for-austria.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Denmark](phone-number-management-for-denmark.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
 > - [Ireland](phone-number-management-for-ireland.md)
+> - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
 > - [Netherlands](phone-number-management-for-the-netherlands.md)
+> - [Portugal](phone-number-management-for-portugal.md)
 > - [Spain](phone-number-management-for-spain.md)
-> - [U.K.](phone-number-management-for-the-u-k.md)
-> - [U.S. & Puerto Rico](phone-number-management-for-the-u-s.md)
+> - [Sweden](phone-number-management-for-sweden.md)
+> - [Switzerland](phone-number-management-for-switzerland.md)
+> - [United Kingdom](phone-number-management-for-the-u-k.md)
+> - [United States & Puerto Rico](phone-number-management-for-the-u-s.md)
 
 ***
 ## Here's a bit more information about these number request forms

@@ -13,9 +13,14 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW
+  - microsoftcloud-healthcare
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-jun2020
 ---
 
 # Shifts for Teams

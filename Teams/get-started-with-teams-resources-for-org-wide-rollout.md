@@ -7,18 +7,20 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: Once you've set up your first teams, learn where to go to find in-depth deployment and adoptions resources for Microsoft Teams.
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
+- seo-marvel-mar2020
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
 ---
 
 # Choose a path to your organization-wide rollout of Microsoft Teams

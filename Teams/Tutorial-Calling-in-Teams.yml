@@ -239,9 +239,7 @@ items:
     offers Calling Plans, in which Microsoft provides each user a phone number that
     can place and receive calls.
 
-    Currently, Calling Plans are the only way to connect Phone System to the PSTN.
-    In the future, you’ll have the option to connect any existing telephone
-    environment that you have on-premises to Teams.
+    Customers can connect to the PSTN via [Direct Routing](direct-routing-landing-page.md) or with [Calling Plans](set-up-calling-plans.md).
 
     ### Service availability and user locations
 

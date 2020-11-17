@@ -8,20 +8,22 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 description: Learn how to manage the Lists app in Teams for users in your organization.
 f1.keywords:
-- NOCSH
+  - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.custom: 
 ---
 
 # Manage the Lists app for your organization in Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## Overview of Lists
 
@@ -41,7 +43,7 @@ Templates in Lists are tailored to common information tracking scenarios for use
 
 - Track issues and bring them to closure using the Issue tracker template.
 - Organize all your event details with the Event itinerary template.
-- Use the Patients template to record the needs and status of patients for care teams in your healthcare organization to monitor and coordinate care.
+- Use the Patients template to record the needs and status of patients for health teams in your healthcare organization to monitor and coordinate care.
 - Track the status of loan applications with the Loans template.
 
 ## Example scenario
@@ -73,7 +75,7 @@ In certain scenarios, you may want restrict what actions users can do in lists. 
 
 With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or pin existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists on the Teams desktop or web client.
 
-Guests in [private channels](private-channels.md) can't create or delete a list or start a new conversation about a list item. They can add list items to existing lists and reply to an existing conversations about a list item. Keep in mind that these limitations apply only to private channels.
+Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
 ### Lists and the SharePoint app
 
@@ -110,3 +112,7 @@ Lists supports [Power Automate](https://preview.flow.microsoft.comconnectors/sha
 ## Give feedback or report an issue
   
 To send us feedback or report an issue, click **Help** near the bottom of the left navigation in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
+
+## Related topics
+
+- [Lists help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

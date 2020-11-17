@@ -33,7 +33,7 @@ These types of accounts won't be added to your org-wide team:
 
 - Accounts that are blocked from sign in
 - Guest users
-- Service accounts
+- Resource or service accounts (for example, accounts associated with auto attendants and call queues)
 - Room or equipment accounts
 - Accounts backed by a shared mailbox
 

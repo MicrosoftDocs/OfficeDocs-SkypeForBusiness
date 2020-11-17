@@ -62,8 +62,8 @@ The Common Area Phone license supports:
 |Microsoft Teams |   &#x2714; |
 |Phone System |    &#x2714; |
 |Audio Conferencing |       &#x2718; &sup1;  |
-|Microsoft Intune |        &#x2718; &sup2; |
-|Worldwide Availability |    &#x2714; |
+|Microsoft Intune |    &#x2718; |
+|Worldwide Availability |       &#x2718; &sup2;  |
 |Channel Availability |    EA, EAS, CSP, GCC, EES, Web Direct  |
 |      |         |
 

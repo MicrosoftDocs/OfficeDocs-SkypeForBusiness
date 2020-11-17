@@ -25,11 +25,11 @@ description: Learn how to use and manage policy packages in Microsoft Teams to s
 # Manage policy packages in Microsoft Teams
 
 > [!NOTE]
-> One of the features discussed in this article, [custom policy packages](#custom-policy-packages), hasn't been released yet. It's coming soon to private preview.
+> One of the features discussed in this article, [custom policy packages](#custom-policy-packages), is currently in private preview.
 
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
-You can use the [policy packages included in Teams](#policy-packages-included-in-teams) or [create your own custom policy packages](#custom-policy-packages) (coming soon to private preview).
+You can use the [policy packages included in Teams](#policy-packages-included-in-teams) or [create your own custom policy packages](#custom-policy-packages) (in private preview).
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot of the Policy packages page in the admin center":::
 
@@ -78,7 +78,7 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 
 ## Custom policy packages
 
-**This feature is coming soon to private preview**
+**This feature is in private preview**
 
 Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.
 
@@ -125,7 +125,7 @@ You can edit the settings of a policy through the **Policy packages** page or by
 2. Select the policy you want to edit. Policies that are linked to a policy package have the same name as the policy package.
 3. Make the changes that you want, and then click **Save**.
 
-### Assign a policy package
+### Assign a policy package 
 
 #### Assign a policy package to one user
 
@@ -139,6 +139,14 @@ You can edit the settings of a policy through the **Policy packages** page or by
 2. Click **Manage users**.
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, click **Save**.
+
+#### Assign a policy package to a group
+
+**This feature is in private preview**
+
+Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
+
+To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
 
 #### Assign a policy package to a large set (batch) of users
 

@@ -48,7 +48,7 @@ storing, and analyzing Teams communications. This includes communications platfo
     integration with existing Teams administrative calling and
     meeting tools and policies
 
-- Requires an [Advanced Communications license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
+Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium and Office 365 A3/A5/E3/E5 users. 
 
 The compliance recording solution integration capabilities were also
 reviewed at Ignite 2019 in the [<span class="underline">Compliance
@@ -67,7 +67,7 @@ Each of the categories entails different requirements for how recordings
 are initiated, what is recorded, where recordings are stored, who is
 notified, who controls access, and how retention is handled.
 
-|                        | Convenience        | Functional         | Org - General      | Org - Regulated | Lawful Intercept   |
+| Type                   | Convenience        | Functional         | Org - General      | Org - Regulated | Lawful Intercept   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | Initiator              | User               | App/Solution       | Admin (system)     | Admin (system)  | LEA                |
 | Target                 | Per-call / meeting | Per-call / meeting | Per-call / meeting | Per-user        | Per-endpoint / DID |
@@ -280,15 +280,25 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 In addition to publishing publicly-available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
 
-The following partners are in the process of certifying their solution for Microsoft Teams.  
+The following partners have certified their solution for Microsoft Teams.
+
+|Partner|Solution website |
+|:--|:--|
+|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
+The following partners are in the process of certifying their solution for Microsoft Teams.
 
 |Partner|Solution website |
 |:--|:--|
 |ASC Technologies |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
+|Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
+|Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
+|Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 

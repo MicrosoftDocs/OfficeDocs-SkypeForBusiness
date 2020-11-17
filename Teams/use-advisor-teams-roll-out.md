@@ -10,6 +10,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - remotework
+- m365initiative-deployteams
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -19,7 +20,6 @@ f1.keywords:
 - CSH
 ms.custom: 
 - ms.teamsadmincenter.deploymentadvisor.overview
-ms.custom:
 description: "Use Advisor for Teams to help you plan and complete your Microsoft Teams deployment."
 ---
 

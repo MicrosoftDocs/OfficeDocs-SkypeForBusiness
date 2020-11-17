@@ -111,10 +111,6 @@ You can set sensitivity labels when you create or edit a team in the Microsoft T
 
 ## Known issues
 
-**Child default labels not showing during team creation**
-
-Currently, a child label set as the default label for Teams will not show at the top of the list in the sensitivity labels dropdown in the team creation model. Team creators can still use the dropdown to apply the child label as a workaround.
-
 **Support for sensitivity labels in Teams Graph APIs, Powershell cmdlets and templates**
 
 Currently, users won't be able to apply sensitivity labels on teams that are created directly through Graph APIs, Powershell cmdlets, and templates.

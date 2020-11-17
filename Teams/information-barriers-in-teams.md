@@ -2,7 +2,6 @@
 title: Information barriers in Microsoft Teams
 author: chrfox
 ms.author: chrfox
-ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -21,15 +20,15 @@ ms.custom: seo-marvel-apr2020
 
 # Information barriers in Microsoft Teams
 
-Information barriers (IB) are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with other departments or a group needs to be prevented, or isolated, from communicating with anyone outside of that group.
+Information barriers (IB) are policies that an admin can configure to prevent individuals or groups from communicating with each other. IB is useful if, for example, one department is handling information that shouldn't be shared with other departments or a group needs to be prevented, or isolated, from communicating with anyone outside of that group.
 
 > [!NOTE]
 > - Information barrier groups cannot be created across tenants.
-> - Using bots to add users is not supported in version 1.
+> - Using bots, AAD apps, and some APIs to add users is not supported in version 1.
 > - Private channels are compliant to information barrier policies that you configure.
 > - New: For Information about barriers support for SharePoint site connected to Teams, click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
-Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
+Information barrier policies also prevent lookups and discovery. If you attempt to communicate with someone you shouldn't be communicating with, you won't find that user in the people picker.
 
 ## Background
 
@@ -39,8 +38,8 @@ However, since introducing information barriers, many other areas have found the
 
 - Education: Students in one school aren't able to look up contact details for students of other schools.
 - Legal: Maintaining confidentiality of data obtained by the lawyer of one client from being accessed by a lawyer for the same firm representing a different client.
-- Government: Information access and control is limited across departments and groups.
-- Professional services: A group of people in a company is only able to chat with a client or specific customer via federation or guest access during a customer engagement.
+- Government: Information access and control are limited across departments and groups.
+- Professional services: A group of people in a company is only able to chat with a client or specific customer via guest access during a customer engagement.
 
 For example, Enrico belongs to the Banking segment and Pradeep belongs to the Financial advisor segment. Enrico and Pradeep can't communicate with each other because the organization's IB policy blocks communication and collaboration between these two segments. However, Enrico and Pradeep can communicate with Lee in HR.
 
@@ -88,7 +87,7 @@ Information barrier policies are activated when the following Teams events take 
 
     ![Screenshot showing user blocked from meeting](media/information-barriers-meeting.png)
 
-- **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn't violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won't be allowed. 
+- **A screen is shared between two or more users** - When a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn't violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won't be allowed. 
  
     Here's an example of screen share before the policy is applied. 
 
@@ -117,7 +116,7 @@ If there is an existing chat or other communication between users, and a new pol
 
     ![Screenshot showing user chat is disabled](media/ib-after-1-1chat-policy.png)
 
-- **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations.
+- **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy may be removed from group chat and further communication with the group will not be allowed. The user can still see old conversations (read-only), but won't be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations.
 
 In this example, Enrico moved to a different department within the organization and is removed from the group chat.
 
@@ -131,7 +130,7 @@ Enrico can no longer send messages to the group chat.
 
 ## Scenario: A user in an existing chat becomes blocked
 
-Currently, users experience the following if an information barrier policy blocks another user:
+Currently, users experience the following scenarios if an information barrier policy blocks another user:
 
 - **People tab** - A user cannot see blocked users on the **People** tab.
 - **People Picker** - Blocked users will not be visible in the people picker.
@@ -145,9 +144,9 @@ Currently, users experience the following if an information barrier policy block
     ![Screenshot showing the activity tab that is blocked](media/ib-after-activity-tab-policy.png)
 
 
-- **Org charts** - If a user accesses an org chart on which a blocked user appears, the blocked user will not appear on the org chart and an error message will appear instead.
+- **Org charts** - If a user accesses an org chart on which a blocked user appears, the blocked user won't appear on the org chart and an error message will appear instead.
 - **People card** - If a user participates in a conversation and the user is subsequently blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
-- **Suggested contacts** - Blocked users do not appear on the suggested contacts list (the initial contact list that appears for new users).
+- **Suggested contacts** - Blocked users don't appear on the suggested contacts list (the initial contact list that appears for new users).
 - **Chat contacts** - A user can see blocked users on the chats contact list, but the blocked users will be identified and the only action the user can perform is to delete them. The user can also click on them to view their past conversation.
 - **Calls contacts** - A user can see blocked users on the calls contact list, but the blocked users will be identified and the only action the user can perform is to delete them.
 
@@ -172,10 +171,12 @@ See the [Information barriers](https://docs.microsoft.com/sharepoint/information
 
 ## Required licenses and permissions
 
-For more details, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+For more information, including plans and pricing, see [Licensing Guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## Known Issues
-- **Users can't join meetings**: If IB policies are enabled, users are not allowed to join meetings IF the meeting roster size is more than 250 users. The root cause is that IB checks rely on whether users can be added to a meeting chat roster and takes that signal to allow users to join meetings. Joining a meeting once will add that user to the roster, hence for recurring meetings, the roster fills up fast. Once it reaches a count of 250 users, no additional users are allowed to be added to the meeting chat roster. If IB is enabled, users are not allowed to join the meeting, but if IB is not enabled, users are allowed to join the meeting, though they won't be added to the meeting chat roster. A short term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
+- **Users can't join ad-hoc meetings**: If IB policies are enabled, users are not allowed to join meetings IF the meeting roster size is more than the [meeting attendance limits](limits-specifications-teams.md). The root cause is that IB checks rely on whether users can be added to a meeting chat roster and takes that signal to allow users to join meetings. Joining a meeting once will add that user to the roster, hence for recurring meetings, the roster fills up fast. Once it reaches the [meeting attendance limits](limits-specifications-teams.md), no additional users are allowed to be added to the meeting chat roster. If IB is enabled for the tenant and the chat roster is full for a meeting, new users (those not already on the roster) are not allowed to join the meeting. But if IB is not enabled for the tenant and the meeting chat roster is full, new users (those not already on the roster) are allowed to join the meeting, though they won't see the chat option in the meeting. A short term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
+
+- **Users can't join channel meetings**: If IB policies are enabled, users are not allowed to join channel meetings IF they are not a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster and takes that signal to allow users to join meetings. The chat thread in a channel meeting is available to Team/Channel members only, and non-members cannot see/access the chat thread. If IB is enabled for the tenant and a non-team member attempts to join a channel meeting, the user is not allowed to join the meeting. But if IB is not enabled for the tenant and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting, however, they won't see the chat option in the meeting.
 
 ## More information
 

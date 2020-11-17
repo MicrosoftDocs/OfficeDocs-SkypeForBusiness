@@ -16,16 +16,13 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create a custom team template in Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
-
 **Custom templates are not yet supported for EDU customers.**
 
-A custom team template is a predefined team structure with a set of channels, tabs, and apps that you can develop to help you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
+A custom team template is a predefined team structure with a set of channels, tabs, and apps. You can develop a template that helps you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
 
 To get started:
 
@@ -60,6 +57,9 @@ To get started:
 8. Click **Submit** when completed.
 
 Your new template is displayed in the **Team templates** list. The template can be used to create a team in Teams.
+
+> [!Note]
+> It can take up to 24 hours for teams users to see a custom template in the gallery.
 
 ## Related topics
 

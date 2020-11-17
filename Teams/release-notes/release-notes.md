@@ -22,11 +22,125 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## October 28, 2020
+
+### Get started with Teams in healthcare
+
+Microsoft Teams offers a number of features useful for hospitals and other healthcare organizations, including:
+
+- Virtual visits and Electronic Healthcare Record (EHR) integration
+- Teams policy packages
+- Secure messaging
+- Teams templates
+- Care coordination and collaboration
+
+This functionality is part of the Microsoft Cloud for Healthcare. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
+
+## October 27, 2020
+
+### Teams displays
+
+Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen and a hands-free experience powered by Cortana. [Learn more](https://docs.microsoft.com/microsoftteams/devices/teams-displays).
+
+## October 22, 2020
+
+### Manage Skype for Business settings for your users
+
+You can manage Skype for Business settings for Skype for Business users in your organization in the Microsoft Teams admin center.  Go to the Skype for Business tab on the user details page. From here, you can manage external access and meeting settings for individual users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
+### Manage Skype for Business settings for your organization
+
+You can manage Skype for Business features for Skype for Business users in your organization in the Microsoft Teams admin center. Go to **Org-wide settings** > **Skype for Business**. From here, you can manage Skype Meeting Broadcast, presence, and mobile notifications. [Learn more](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+
+## October 16, 2020
+
+### Manage shift-based access for Firstline Workers
+
+As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift. With shift-based access, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
+
+## October 15, 2020
+
+### Custom policy packages
+
+*This feature is in private preview*
+
+Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages).
+
+### Add an app to a team in the Microsoft Teams admin center
+
+On the Manage apps page of the Microsoft Teams admin center, you can use the **Add to team** button to install an app to a team. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-apps).
+
+## October 1, 2020
+
+### Use OneDrive for Business and SharePoint for meeting recordings
+
+Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the new Stream, this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits. [Learn more](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change).
+
+### Free audio conferencing for small to medium businesses
+
+If you're a small or medium-sized business with up to 300 users and you currently don’t have any Audio Conferencing licenses, you can get Audio Conferencing free for one year. This free offer is available starting October 1, 2020. [Learn more](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb).
+
+### View app permissions and grant admin consent in the Microsoft Teams admin center
+
+Now in Teams admin center global admins will be able to review and grant consent to Graph API permissions registered in Azure Active Directory, on behalf of the entire tenant for the permissions an app is requesting such as reading information stored in a team or sending an email on behalf of users. Now IT admins will be able to review resource-specific consent (RSC) permissions for the apps within Teams admin center. With that admins will be able to unblock their users for the third-party apps they have already reviewed and approved to use in their organization. [Learn more](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
+
+### Calling Plans support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland
+
+We've recently added calling plan support for Austria, Denmark, Italy, Portugal, Sweden, and Switzerland.  [Learn more](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+
+## September 29, 2020
+
+### Meeting policy settings
+
+Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+
+## September 27, 2020
+
+### Simplified notification setting
+
+Users can now manage their notifications settings in a more simplified manner with enhanced functionalities.
+
+## September 24, 2020
+
+### Teams integration with Android contacts
+
+Call using Teams directly through your Android Phonebook.
+
+## September 21, 2020
+
+### Manage Microsoft Power Platform apps in the Microsoft Teams admin center
+
+As an admin, you can control whether users can see and install Microsoft Power Platform apps in Built by your colleagues on the Apps page in Teams. You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](../manage-apps.md) page or for specific users using [app permission policies](../teams-app-permission-policies.md). [Learn more](../manage-power-platform-apps.md).
+
+## September 19, 2020
+
+### Sharing files in Microsoft Teams
+
+In Microsoft Teams, users can share content with other Teams users within and outside their organization. Sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will control sharing in Teams as well. [Learn more](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
+
+## September 16, 2020
+
+### New third-party video provider Riverbed
+
+Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. Riverbed is a new third-party provider. [Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider).
+
+## September 15, 2020
+
+### Skype for Business Online Connector integrated to Teams PowerShell module
+
+The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. [Learn more](../teams-powershell-overview.md#manage-teams-with-powershell).
+
+## September 8, 2020
+
+### Porting PIN
+
+We added the ability to set up and manage a PIN used for porting or transferring phone numbers. You will provide this PIN to the PSTN service desk when you want to port numbers out to a service provider from Microsoft. [Learn more](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).
+
 ## September 3, 2020
 
 ### Custom apps store in Microsoft Teams
 
-Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+Now you can customize the Teams Apps store with your organizational branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users. [Learn more](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store).
 
 ## September 1, 2020
 
@@ -38,17 +152,17 @@ Inline message translation is a Microsoft Teams feature that lets users translat
 
 ### Group chat size increase
 
-We added the ability to now have 250 participants in a group chat.
+We added the ability to now have 250 participants in a group chat. [Learn more](../limits-specifications-teams.md).
 
-### Manage the praise app
+### Manage the Praise app
 
-The praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to first line workers. [Learn more](../manage-praise-app.md).
+The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The Praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers. [Learn more](../manage-praise-app.md).
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
 If you have one or more Microsoft Teams Rooms devices or Surface Hubs in a meeting room, you can set up Coordinated Meetings. Coordinated Meetings lets you set up your Teams Rooms devices and Surface Hubs so that when you join a meeting on one device, the other devices in the room are also joined to the same meeting. [Learn more](../rooms/coordinated-meetings.md).
 
-### Tagging by Shift
+### Tagging by shift
 
 With this feature, people are automatically assigned tags that match their schedule and shift group name in the Shifts app in Teams. [Learn more](../manage-tags.md).
 
@@ -56,9 +170,9 @@ With this feature, people are automatically assigned tags that match their sched
 
 ### Cortana voice skills in Teams
 
-Cortana voice skills in Teams mobile app help users perform meeting, communication and collaboration tasks simply using spoken natural language. Users can speak to Cortana by clicking on the microphone button in Teams app and make requests like “Call Megan” or “Send a message to my next meeting” if they need to connect with someone while juggling household chores or walking the dog or generally on the go. Users can join meetings simply by saying “Join my next meeting” or check their calendar by asking “what do I have this morning”. Once in a meeting or a call, they can invoke Cortana from the overflow menu in the meeting stage and perform typical in-meeting tasks like adding people by name or number (“Add Megan to the call”), deck presentation (“present the quarterly review deck”) or navigating slides (“Go to the appendix slide”). Other things that the feature supports are finding and sharing files, search, and generally navigating within the Teams app (“Open my chat with John, Go to my unread activity, Go to my mentions etc.).
+Cortana voice skills in Teams mobile app help users perform meeting, communication, and collaboration tasks simply using spoken natural language. Users can speak to Cortana by clicking on the microphone button in Teams app and make requests like “Call Megan” or “Send a message to my next meeting” if they need to connect with someone while juggling household chores or walking the dog or generally on the go. Users can join meetings simply by saying “Join my next meeting” or check their calendar by asking “what do I have this morning”. Once in a meeting or a call, they can invoke Cortana from the overflow menu in the meeting stage and perform typical in-meeting tasks like adding people by name or number (“Add Megan to the call”), deck presentation (“present the quarterly review deck”) or navigating slides (“Go to the appendix slide”). Other things that the feature supports are finding and sharing files, search, and navigating within the Teams app (“Open my chat with John, Go to my unread activity, Go to my mentions etc.).
 
-Cortana in Teams meets the same enterprise-level privacy, security, and compliance promises for Cortana enterprise services, as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
+Cortana in Teams meets the same enterprise-level privacy, security, and compliance promises for Cortana enterprise services, as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1). [Learn more](https://docs.microsoft.com/microsoftteams/cortana-in-teams).
 
 ### Teams Devices Administrator
 
@@ -68,7 +182,7 @@ Users with this role can manage Teams certified devices from the Teams admin cen
 
 ### Lists app in Teams
 
-Teams users can now directly manage, create and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items.
+Teams users can now directly manage, create, and maintain their lists using the Lists app tab. The Lists app works on all Teams clients and enables collaboration and communication around list items. [Learn more](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
 
 ## August 6, 2020
 
@@ -86,17 +200,15 @@ Teams apps are free to install and some may require purchasing service subscript
 
 Developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for admins to review and approve. [Learn more](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
 
-## July 31, 2020
-
-### Admins can configure shift-based presence (On shift, Off shift) for their Firstline workers
-
-Admins can configure their firstline workers to have shift-based presence states: On shift, Busy (can be toggled when on shift), and Off shift.
-
 ## July 29, 2020
 
 ### Enhanced Manageability using Device Tagging functionality
 
-As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group specific set of devices with user generated Tags and perform actions on the same. [Learn more](/../../manage-device-tags.md).
+As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Learn more](/../../manage-device-tags.md).
+
+### View-only in meetings
+
+View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
 
 ## July 28, 2020
 
@@ -120,7 +232,7 @@ We added the ability to enable NDI-Out to a Teams meeting. NDI-Out allows for th
 
 ### Enable suggested replies
 
-Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md)
+Turn this setting on to enable suggested replies for chat messages. [Learn more](../messaging-policies-in-teams.md).
 
 ## July 9, 2020
 
@@ -132,7 +244,7 @@ We added support for call queues to use a shared voicemail box. [Learn more](../
 
 ### Policy packaging batch assignment
 
-We made it possible to use PowerShell to batch assign a Policy Package for user and groups.
+We made it possible to use PowerShell to batch assign a Policy Package for user and groups. [Learn more](https://docs.microsoft.com/microsoftteams/manage-policy-packages).
 
 ## July 7, 2020
 
@@ -148,7 +260,7 @@ We added the ability for Teams users to have a suggested reply to their conversa
 
 ### Transferring incoming calls
 
-We added the ability for auto attendants and call queue incoming calls to be transferred to an external PSTN phone number.  [Learn more](../business-voice/set-up-auto-attendants.md).
+We added the ability for auto attendants and call queue incoming calls to be transferred to an external PSTN phone number. [Learn more](../business-voice/set-up-auto-attendants.md).
 
 ## June 30, 2020
 
@@ -158,13 +270,13 @@ You choose which apps are installed by default for users when they start Teams. 
 
 ### Screen sharing on behalf of others
 
-Many IT Admins have complained that they cannot have their employees screen share from chat when they disable the AllowPrivateCalling policy. This feature work has decoupled the ability to start a screenshare from chat from the AllowPrivateCalling policy, but it still blocks users from adding audio/video to the screenshare session if their AllowPrivateCalling policy is disabled.
+Many IT Admins have complained that they can't have their employees screen share from chat when they disable the AllowPrivateCalling policy. This feature work has decoupled the ability to start a screens hare from chat from the AllowPrivateCalling policy, but it still blocks users from adding audio/video to the screen share session if their AllowPrivateCalling policy is disabled.
 
 ## June 29, 2020
 
 ### Walkie Talkie app in Microsoft Teams
 
-Instant voice communication using push-to-talk.
+Instant voice communication using push-to-talk. [Learn more](https://docs.microsoft.com/microsoftteams/walkie-talkie).
 
 ## June 25, 2020
 
@@ -174,13 +286,13 @@ We added a new filter option in the command bar so you can set specific paramete
 
 ### Users widgets
 
-We added a new User summary widget that is available when you are adding teams and channels.
+We added a new User summary widget that's available when you're adding teams and channels.
 
 ## June 21, 2020
 
-### Sign-in restrictions for Android and iOS users
+### Sign in restrictions for Android and iOS users
 
-If user isn't signed in to their Microsoft 365 account anywhere else, they will be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign in policies. [Learn more](../sign-in-teams.md).
+If user isn't signed in to their Microsoft 365 account anywhere else, they'll be asked to provide single-factor or multi-factor authentication (SFA or MFA), depending on what your organization has configured for mobile sign-in policies. [Learn more](../sign-in-teams.md).
 
 ## June 15, 2020
 

@@ -8,10 +8,11 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Step-by-step guidance for rolling out chat, teams, channels, and apps in Microsoft Teams, based on your organization's profile and business requirements.
+description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in Microsoft Teams.
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom: 
@@ -19,6 +20,7 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
   - seo-marvel-apr2020
+  - seo-marvel-may2020
 ---
 
 # Chat, teams, channels, & apps in Microsoft Teams
@@ -204,7 +206,7 @@ A pinned app shows up in the side rail in Teams. By creating Teams application p
 
 ### Archiving and compliance 
 
-Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which settings are turned on by default.
+Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
 | Ask yourself | Action |
 |--------------|--------|
