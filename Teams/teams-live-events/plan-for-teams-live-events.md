@@ -83,7 +83,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## Who can watch live events
 
-|**Attendee visibility**       |**Teams production**  |**External app or device production**  |
+| Attendee visibility | Teams production | External app or device production |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
 |Guest users                   |  Yes            |  No                  |
