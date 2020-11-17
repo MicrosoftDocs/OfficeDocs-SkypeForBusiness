@@ -271,7 +271,7 @@ Here's a list of policies that you may want to manually adjust to keep your lear
 
 #### [**Students**](#tab/Students/)
 
-Here's a list of Global (Org-wide default) policy definitions that we recommend you manually adjust for student safety.
+Here's a list of the Global (Org-wide default) policy definitions that we recommend you manually adjust for student safety.
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
@@ -288,7 +288,7 @@ Here's a list of Global (Org-wide default) policy definitions that we recommend 
 
 #### [**Educators and staff**](#tab/educators/)
 
-Here's a list of recommended custom policy definitions to manually set for your educators and staff.
+Here's a list of the recommended custom policy definitions to manually set for your educators and staff.
 
 |Policy area |Column2  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
