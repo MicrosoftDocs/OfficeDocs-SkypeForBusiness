@@ -150,7 +150,7 @@ Since agents in a call queue may dial out to return a customer call, consider se
 
 ## Supported clients
 
-- The following clients are supported for call agents in a call queue:
+The following clients are supported for call agents in a call queue:
 
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
   - Lync desktop client 2013 (32-bit and 64-bit versions)
