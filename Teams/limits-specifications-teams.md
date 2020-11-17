@@ -124,6 +124,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Number of people in a meeting (can chat and call in)  | 350 |
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2 GB|
+|Guests joining by phone | 350 |....or whatever it is....
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
 >[!Note]
