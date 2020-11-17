@@ -500,6 +500,8 @@
               href: set-up-holidays-in-teams.md
             - name: Answer auto attendant and call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
+            - name: Reports
+              href: aa-cq-cqd-historical-reports.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
         - name: Block inbound calls
