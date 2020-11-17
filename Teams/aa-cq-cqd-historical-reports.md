@@ -92,6 +92,8 @@ Please perform these steps:
 
 - Select the color schema from the drop-down list.
 
+:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
+
 ## CQD fields description
 
 |Name                                    |Data Type                |Description                            |
