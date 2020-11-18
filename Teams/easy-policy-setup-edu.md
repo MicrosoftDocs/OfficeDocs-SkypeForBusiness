@@ -50,7 +50,7 @@ Now, let's get started!
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 2. Select your educational institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
-3. Search for and select a group that contains your educators or staff, and then click **Next**. <br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
+3. Search for and select a group that contains your educators or staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, create one, and then re-run the tool. <br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned a set of policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
 4. Review your selections.
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.
 6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now set up with policies created by the tool but there's a few more things to do. 
@@ -77,14 +77,14 @@ If more than one of these policy assignments exist for a user, Teams uses the fo
 |Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
 |Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.         |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.       |
 
 Because of this order, the policies created by the easy policy setup tool won't take effect if a user has existing direct assignments or group assignments with higher [group assignment rankings](assign-policies.md#group-assignment-ranking). This means that you'll have to remove the existing policy assignments from the user so the policy set up by the tool takes effect.
 
 For each [policy area set up by the tool](#policies-set-up-by-the-tool), do the following:
 
 - Remove all existing policy assignments for your students so that the Global (Org-wide default) policy definition set up by the tool takes effect.
-- Remove any conflicting direct or group assignments for your educators and staff so that the custom policy definition created by the tool takes effect. Use the table to determine the scenarios that apply to you.
+- Remove any conflicting direct or group assignments for your educators and staff so that the custom policy definition created by the tool takes effect. Use the table to determine the scenarios that apply to you. Keep in mind that the tool assigns policies to your educators and staff using a group assignment ranking of 1, which is the highest ranking.  
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
