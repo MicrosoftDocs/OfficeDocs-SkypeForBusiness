@@ -99,6 +99,8 @@ Organizations who allow users to store files with a third-party storage provider
 
 ## See also
 
+- [Microsoft 365 now available from new Brazil Geography](https://www.microsoft.com/en-us/microsoft-365/blog/2020/11/18/microsoft-365-now-available-from-new-brazil-geography/)
+
 - [Microsoft Teams launches United Arab Emirates Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-United-Arab-Emirates-Data-Residency/ba-p/980330)
 
 - [Microsoft Teams launches South Korean Data Residency](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171)
