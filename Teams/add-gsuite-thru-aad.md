@@ -1,5 +1,5 @@
 ---
-title: Install and integrate the Google Workspace Marketplace add-on in Teams
+title: Set up Microsoft Teams meeting add-on for Google Workspace
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -7,8 +7,10 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
+searchScope:
+  - Microsoft Teams
 search.appverid: MET150
-description: Learn how to install and integrate the Google Workspace Marketplace add-on in Microsoft Teams
+description: Learn how to Set up Microsoft Teams meeting add-on for Google Workspace.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
