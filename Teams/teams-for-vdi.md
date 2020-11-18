@@ -159,6 +159,9 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
     - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
+    > [!NOTE]
+    > For government clouds, see [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](msi-deployment.md) for the links to the MSI files.
+
     The minimum version of the Teams desktop app that's required is version 1.3.00.4461. (PSTN hold isn't supported in earlier versions.)
 
 2. Install the MSI to the VDI VM by running one of the following commands:
