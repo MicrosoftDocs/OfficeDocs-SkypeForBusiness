@@ -135,15 +135,17 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 ## Advisor for Teams and Microsoft 365 learning pathways
 
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an on-demand learning solution that you can customize to train your users, and increase usage and adoption of Teams in your organization.
+[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an on-demand learning solution that you can customize to train your users, and increase usage and adoption of Teams in your organization. Using learning pathways together with Advisor for Teams drive adoption and get your users up and running quickly.
 
-Learning pathways gives you a SharePoint Online site template and the ability to easily build a training site for your users. You can customize the learning pathways training portal to include training and support content specific to your users' needs. Use the Teams playlists from the Microsoft online catalog and add your own. Build a training site in learning pathways, and then add it as a tab to each workload channel in the Deployment team for quick and easy access.
+Learning pathways gives you a SharePoint Online site template and the ability to easily build a training site for your users. You can customize the learning pathways training portal to include training and support content specific to your users' needs. Use the Teams playlists from the Microsoft online catalog and add your own.
 
-For example, use Advisor for Teams together with learning pathways to train your help desk, and then let learning pathways support training your end users. Build a training site for your help desk to get them onboard with Teams, and add it as a tab to each workload channel that you want to roll out. Your help desk can then create a support page on the learning pathways training portal with links and custom playlists to support your users on Teams. This support page can be added as a tab to a channel in any team to support training your end users.
+You can build a training site in learning pathways, and then add it as a tab to each workload channel in the Deployment team for quick and easy access.
+
+For example, use Advisor for Teams together with learning pathways to train your help desk, and then let learning pathways support training your end users. Build a training site for your help desk to onboard them to Teams, and add it as a tab to each workload channel that you're rolling out. Your help desk can then create a support page on the learning pathways training portal with links and custom playlists to support your users on Teams. This support page can be added to a channel in any team to help train your end users.
 
 ### Get started
 
-To get started with learning pathways, check out [Get started with learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/). 
+To get started with learning pathways, check out [Get started with learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/).
 
 To set up a new learning pathways solution in your environment, see [Provision a new learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_provision).
 
@@ -180,7 +182,7 @@ To learn more, see [Add a SharePoint page or list to a channel in Teams](https:/
 
 ### Assign training
 
-Assign training to people in your organization in the Planner plan in each workload channel that you're rolling out.
+Assign training tasks to people in your organization using the Planner plan in each workload channel that you're rolling out.
 
 ## Frequently asked questions
 
