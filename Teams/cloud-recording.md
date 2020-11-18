@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -52,7 +53,7 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-## Greetings and hold music
+## Greetings and music on hold in queue
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
@@ -64,12 +65,7 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 
 ## Call agents
 
-Call agents selected must be one of the following: 
-
-- Online users with a Phone System license and Enterprise Voice enabled
-- Online users with a Calling Plan
-- On-premises Skype for Business Server users
-- If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
+Please refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
 
 ![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
 
@@ -133,7 +129,7 @@ For high volume queues, we recommend the following settings:
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-You can choose to disconnect the call or redirect it to any of the [call routing destinations](create-a-phone-system-auto-attendant.md#call-routing-options) except the operator. For example, you might have the caller leave a voicemail for the agents in the queue. (Note [these details](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) if you're transferring to an external number.)
+You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
@@ -142,9 +138,9 @@ You can choose to disconnect the call or redirect it to any of the [call routing
 
 ![Screenshot of call timeout settings](media/call-queue-timeout-handling.png)
 
-**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 15 seconds to 45 minutes.
+**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue.
+You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
 

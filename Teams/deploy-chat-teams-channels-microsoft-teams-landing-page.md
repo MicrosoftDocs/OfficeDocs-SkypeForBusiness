@@ -12,6 +12,7 @@ description: Contains step-by-step guidance to configure Teams settings for chat
 localization_priority: Priority
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom: 
