@@ -11,9 +11,10 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.collection: 
-  - M365-collaboration
-  - remotework
-  - m365initiative-meetings
+- M365-collaboration
+- remotework
+- m365initiative-meetings
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
