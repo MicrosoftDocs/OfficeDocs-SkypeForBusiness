@@ -32,7 +32,7 @@ As a tenant administrator, you can enable or disable a Microsoft Teams meeting a
 
 The add-on is enabled by default.
 
-1. Sign in to the [Azure portal](portal.azure.com).
+1. Sign in to the Azure portal.
 
 2. Select **Enterprise applications** > **All applications**.
 
