@@ -135,7 +135,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 ## Advisor for Teams and Microsoft 365 learning pathways
 
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an on-demand learning solution that you can customize to train your users, and increase usage and adoption of Teams in your organization. Using learning pathways together with Advisor for Teams drive adoption and get your users up and running quickly.
+[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an on-demand learning solution that you can customize to train your users, and increase usage and adoption of Teams in your organization. Use learning pathways together with Advisor for Teams to drive adoption and get your users up and running quickly.
 
 Learning pathways gives you a SharePoint Online site template and the ability to easily build a training site for your users. You can customize the learning pathways training portal to include training and support content specific to your users' needs. Use the Teams playlists from the Microsoft online catalog and add your own.
 
