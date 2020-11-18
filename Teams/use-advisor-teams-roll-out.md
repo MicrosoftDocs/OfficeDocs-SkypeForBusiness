@@ -139,9 +139,11 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 Learning pathways gives you a SharePoint Online site template and the ability to easily build a training site for your users. You can customize the learning pathways training portal to include training and support content specific to your users' needs. Use the Teams playlists from the Microsoft online catalog and add your own.
 
-You can build a training site in learning pathways, and then add it as a tab to each workload channel in the Deployment team for quick and easy access.
+You can build a training site in learning pathways, and then add it as a tab to each workload channel in the Deployment team for quick and easy access by users.
 
-For example, use Advisor for Teams together with learning pathways to train your help desk, and then let learning pathways support training your end users. Build a training site for your help desk to onboard them to Teams, and add it as a tab to each workload channel that you're rolling out. Your help desk can then create a support page on the learning pathways training portal with links and custom playlists to support your users on Teams. This support page can be added to a channel in any team to help train your end users.
+For example, use Advisor for Teams together with learning pathways to train your help desk, and then let learning pathways support training your end users. Build a training site for your help desk to onboard them to Teams, add it as a tab to each workload channel that you're rolling out. Your help desk can then create a support page on the learning pathways training portal with links and custom playlists to support your users on Teams. This support page can be added to a channel in any team to help train your end users.
+
+The following is an overview of how you can use Advisor for Teams together with learning pathways.
 
 ### Get started
 
@@ -179,10 +181,6 @@ When your site is ready, add it to the workload channels in the Deployment team.
 4. Paste the URL of your learning pathways site, and then select **Save**. 
 
 To learn more, see [Add a SharePoint page or list to a channel in Teams](https://support.microsoft.com/office/add-a-sharepoint-page-or-list-to-a-channel-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b).
-
-### Assign training
-
-Assign training tasks to people in your organization using the Planner plan in each workload channel that you're rolling out.
 
 ## Frequently asked questions
 
