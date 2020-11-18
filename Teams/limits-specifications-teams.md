@@ -63,7 +63,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Number of people in a private chat<sup>1</sup>  | 350 |
+|Number of people in a private chat<sup>1</sup>  | 250 |
 |Number of people in a video or audio call from chat | 20 |
 |Number of file attachments<sup>2</sup>  |10     |
 |Chat size | Approximately 28 KB per post<sup>3</sup> |
@@ -96,7 +96,7 @@ For more information, see [Exchange Online limits](https://docs.microsoft.com/of
 
 ## Channel names
 
-Channel names can't contain the following characters or words.
+Channel names can't contain the following characters or words:
 
 |Type|Example|
 |---------|---------|
