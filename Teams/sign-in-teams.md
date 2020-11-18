@@ -1,5 +1,5 @@
 ---
-title: Sign in to Teams using modern authentication
+title: Sign in to Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
