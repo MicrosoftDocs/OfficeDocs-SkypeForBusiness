@@ -18,17 +18,19 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Set up Google Workspace Marketplace Teams app
+# Set up Microsoft Teams meeting add-on for Google Workspace
 
-Using the Google Workspace Marketplace Teams app lets Google calendar users schedule and join a Microsoft Teams meeting directly from Google Workspace. Users will get access to Teams meetings features including video and audio conferencing, screen sharing, meeting chat, digital whiteboards, and more. Stay connected and organized to get more done together across work, school, and life.
+Using the Microsoft Teams meeting add-on lets Google calendar users schedule and join a Microsoft Teams meeting directly from Google Workspace. Users will get access to Teams meetings features including video and audio conferencing, screen sharing, meeting chat, digital whiteboards, and more. Stay connected and organized to get more done together across work, school, and life.
 
-The Google Workspace Marketplace Teams app must be enabled by a Teams admin before tenant users can access the app.
+The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app.
 
-## Enable Google Workspace in the Azure Active Directory
+## Enable or disable Microsoft Teams meeting add-on for Google Workspace in the Azure portal
 
-As a tenant administrator, you can enable or disable a Google Workspace Marketplace Teams app from your organization's admin account using the Azure Active Directory (AAD) portal.
+As a tenant administrator, you can enable or disable a Microsoft Teams meeting add-on for Google Workspace from your organization's admin account using the Azure portal.
 
-1. Sign in to the AAD portal.
+The add-on is enabled by default.
+
+1. Sign in to the [Azure portal](portal.azure.com).
 
 2. Select **Enterprise applications** > **All applications**.
 
@@ -36,13 +38,13 @@ As a tenant administrator, you can enable or disable a Google Workspace Marketpl
 
  ![Azure portal showing all applications](media/aad-add-google-workspace.png)
 
-4. Select **Enable**.
+4. Select **Yes**.
 
  ![Azure portal showing the google workspace properties](media/google-workspace-properties.png)
 
-5. (Optional) To disable the addon, select **Disable** instead of **Enable** in Step 4.
+5. (Optional) To disable the add-on, select **No** instead of **Yes** in Step 4.
 
-## Disable Google Workspace Marketplace Teams app using PowerShell
+## Disable Microsoft Teams meeting add-on for Google Workspace using PowerShell
 
 ```powershell
 Connect-AzureAD
@@ -66,6 +68,6 @@ if ($servicePrincipal) {
 
 For more information, see [Create an Azure service principal with Azure PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
 
-## Delete a Google Workspace Marketplace app
+## Delete the Microsoft Teams meeting add-on for Google Workspace
 
 See the Google documentation [Delete a Google Workspace Marketplace app](https://support.google.com/a/answer/6216211?hl=en) for instructions.
