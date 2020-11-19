@@ -86,7 +86,7 @@ This step is to be completed by the Microsoft 365 administrator. The Microsoft 3
 
 To complete this step, the Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Microsoft 365 administrator and the username of the Epic administrator who will be approving the configuration. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
 
-- The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST]().
+- The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is <div style="display: inline">https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST</div>.
 
 - Configuration approver name is the name of the Epic system administrator who will be responsible for approving the configuration.
 
