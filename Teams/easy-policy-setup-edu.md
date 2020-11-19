@@ -45,7 +45,7 @@ The tool sets up policies based on educational institution type (Primary-Seconda
 See [Policies set up by the tool](#policies-set-up-by-the-tool) for a detailed list of policy definitions set up by the tool.
 
 > [!NOTE]
-> The policies set up by the tool will satisfy the policy needs of the majority of Teams for Education customers. It sets up global (Org-wide default) policies that we recommend for student safety and assigns a custom set of policies for educators and staff. Therefore, most Teams for Education customers don't need to use other policy assignment methods after running this tool. Use other policy assignment methods only if you want to configure the policies for your students and staff on your own.
+> The policies set up by the tool will satisfy the policy needs of the majority of Teams for Education customers. It sets up global (Org-wide default) policies that we recommend for student safety and assigns a set of custom policies for educators and staff. Most Teams for Education customers don't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
 
 Now, let's get started!
 
