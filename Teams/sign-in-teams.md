@@ -118,7 +118,7 @@ When this policy is configured on a device, users can only sign in with accounts
 >2. The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for MacOS version 1.3.00.30882 (released mid-November 2020).
 
 **Policies for Windows**
-YAdministrative Template files (ADMX/ADML) are available from the [Download center](https://www.microsoft.com/download/details.aspx?id=49030). Additionally, you can manually set keys in Windows Registry:
+Administrative Template files (ADMX/ADML) are available from the [Download center](https://www.microsoft.com/download/details.aspx?id=49030). Additionally, you can manually set keys in Windows Registry:
 
 - Value Name: RestrictTeamsSignInToAccountsFromTenantList
 - Value Type: String
