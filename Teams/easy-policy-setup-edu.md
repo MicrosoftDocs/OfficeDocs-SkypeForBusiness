@@ -33,6 +33,9 @@ The Teams for Education easy policy setup tool simplifies managing policies for 
 
 This article walks you through how to run the tool and the steps you need to do after you run it.
 
+> [!IMPORTANT]
+> The policies set up by the tool will satisfy the policy needs of the majority of Teams for Education customers. It sets up global (Org-wide default) policies that we recommend for student safety and assigns a set of custom policies for educators and staff. Most Teams for Education customers don't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
+
 ## Teams for Education easy policy setup tool
 
 The easy setup tool applies a set of core policy definitions to students a separate set of core policy definitions to educators and staff, with settings that are appropriate for each. Here's what happens when you run the tool.
@@ -44,10 +47,11 @@ The tool sets up policies based on educational institution type (Primary-Seconda
 
 See [Policies set up by the tool](#policies-set-up-by-the-tool) for a detailed list of policy definitions set up by the tool.
 
-> [!NOTE]
-> The policies set up by the tool will satisfy the policy needs of the majority of Teams for Education customers. It sets up global (Org-wide default) policies that we recommend for student safety and assigns a set of custom policies for educators and staff. Most Teams for Education customers don't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
-
 Now, let's get started!
+
+ADD: 
+- Only to run once.
+- 
 
 ## Run the tool
 
@@ -101,7 +105,7 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 ### Step 3: Check Message Center for policy updates
 
-Currently, the easy policy setup tool applies our recommended policies when you run it. It's important to know that as new policies become available in Teams, they aren't automatically included in the tool. We're working to add this capability.
+Currently, the easy policy setup tool applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety aren't automatically added by the tool. This capability will be available in a future release.
 
 Until this capability is available, check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up-to-date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
 
