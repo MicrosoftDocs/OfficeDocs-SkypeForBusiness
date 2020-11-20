@@ -9,7 +9,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - m365solution-spcomms
-- m365solution-scenario
+  - m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
