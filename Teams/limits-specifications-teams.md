@@ -14,6 +14,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - SPO_Content
+  - m365initiative-deployteams
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -51,6 +52,7 @@ This article describes some of the limits, specifications, and other requirement
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
 <sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+
 ## Messaging
 
 ### Chat
@@ -92,11 +94,9 @@ For more information, see [Exchange Online limits](https://docs.microsoft.com/of
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
-
-
 ## Channel names
 
-Channel names can't contain the following characters or words.
+Channel names can't contain the following characters or words:
 
 |Type|Example|
 |---------|---------|
@@ -119,12 +119,11 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 >
 > Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
 
-
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300 |
+|Number of people in a meeting (can chat and call in)  | 350 |
 |Number of people in a video or audio call from chat | 20 |
-|Max PowerPoint File Size | 2GB|
+|Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
 >[!Note]
@@ -187,7 +186,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
-|File upload limit  (per file)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|File upload limit  (per file)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
 Channels are backed by folders within the SharePoint Online site collection created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
@@ -211,7 +210,6 @@ Limits for class teams are listed in the following table:
 |Number of members to use a OneNote Class Notebook in a class team     |200         |
 
 A class team can support more than 200 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
-
 
 ## Tags
 

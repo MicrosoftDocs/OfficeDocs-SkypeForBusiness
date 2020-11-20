@@ -39,7 +39,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Is Audio Conferencing available for purchase?  <br/> |Yes. Pay-per-minute only.  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | No |
 |Dial-out capability using the Call Me feature  <br/> | Requires communication credits <br/> |
-   
+
 ## Phone System
 
 |**Feature**|**Details**|
@@ -48,7 +48,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Auto attendants <br/> |Available  <br/> |
 |Call queues  <br/> |Available  <br/> |
 |Voicemail  <br/> |Available  <br/> |
-   
+
 ## Calling Plans
 
 |**Feature**|**Details**|
@@ -58,15 +58,15 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Can make outbound calls to?  <br/> |Not applicable  <br/> |
 
 If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
-   
+
 ## Toll and toll free numbers for services
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?   | Cuidad de Guatemala<br/> |
-|Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Toll numbers are only accessible from within the country.|
 |Are toll free numbers available?  <br/> |No  <br/> |
-   
+
  If you want to get toll and toll free phone numbers for Audio Conferencing, Auto attendants and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## Communications Credits
@@ -74,7 +74,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |**Feature**|**Details**|
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |Yes  <br/> |
-   
+
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
 ## Related topics
@@ -82,4 +82,3 @@ If you want to set them up, see [Set up Communications Credits for your organiza
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

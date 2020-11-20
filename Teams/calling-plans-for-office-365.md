@@ -71,11 +71,9 @@ Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in t
   
 ## Pricing information
 
-- [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?LinkId=799761)
+- [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
     
-- [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799763)
-    
-- [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings)
     
 ## For more information
 
