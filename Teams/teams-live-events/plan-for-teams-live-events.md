@@ -12,8 +12,9 @@ f1.keywords:
 - NOCSH
 localization_priority: Priority
 ms.collection: 
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
+- enabler-strategic
 search.appverid: MET150
 description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
@@ -25,7 +26,7 @@ ms.custom: seo-marvel-apr2020
 
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting the setup.
 
- > [!Note]
+> [!Note]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## Who can attend, create, and schedule live events
@@ -82,7 +83,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## Who can watch live events
 
-|**Attendee visibility**       |**Teams production**  |**External app or device production**  |
+| Attendee visibility | Teams production | External app or device production |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
 |Guest users                   |  Yes            |  No                  |
@@ -107,7 +108,7 @@ The following table highlights core capabilities and features offered in live ev
 >
 > Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](../teams-add-on-licensing/advanced-communications.md).**
 
-|**Capability**   |**Skype Meeting Broadcast** |**Events produced in Teams** |**Events produced in external app or device** |
+| Capability | Skype Meeting Broadcast | Events produced in Teams | Events produced in external app or device |
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 attendees |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
@@ -137,7 +138,7 @@ The following table highlights core capabilities and features offered in live ev
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
 <sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
-<sup>2</sup> You can have up to 250 presenters and producers in a live event, but only the last 10 who spoke show up in the list.
+<sup>2</sup> You can have up to 100 presenters and producers in a live event, but only the last 10 who spoke show up in the list.
 
 ## Regional availability
 
