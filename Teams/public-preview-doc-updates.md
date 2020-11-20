@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
@@ -27,7 +28,7 @@ Public Preview for Microsoft Teams provides early access to unreleased features 
 
 ## Set the Update policy
 
- Public preview is enabled for each user, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users.
+ Public preview is enabled for each user, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
 
 1. Sign in to the admin center.
 2. Select **Teams**>**Update policies**.

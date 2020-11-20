@@ -6,12 +6,13 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: LolaJ
+ms.reviewer: serdars
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Microsoft 365 or Office 365.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom: 

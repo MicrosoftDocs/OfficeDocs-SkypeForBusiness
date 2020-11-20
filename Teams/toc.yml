@@ -490,18 +490,18 @@
               href: create-a-phone-system-auto-attendant.md
             - name: Call queue setup
               href: create-a-phone-system-call-queue.md
-            - name: Small business example - Set up an auto attendant
-              href: tutorial-org-aa.yml
-            - name: Small business example - Set up a call queue
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Manage Teams resource accounts
               href: manage-resource-accounts.md
             - name: Set up holidays
               href: set-up-holidays-in-teams.md
             - name: Answer auto attendant and call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
+            - name: Reports
+              href: aa-cq-cqd-historical-reports.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: Block inbound calls
           href: block-inbound-calls.md
         - name: Call park and retrieve
@@ -1059,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: Port phone numbers
           href: business-voice/port-phone-numbers.md
-        - name: Set up auto attendants
-          href: business-voice/set-up-auto-attendants.md
         - name: Set up calling policies
           href: business-voice/set-up-policies.md
         - name: Manage policy packages
           href: business-voice/policy-packages.md
         - name: Create additional users
           href: business-voice/create-users.md
+        - name: Example - Set up a call queue
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up call queues
           href: business-voice/set-up-call-queues.md
+        - name: Example - Set up an auto attendant
+          href: tutorial-org-aa.yml
+        - name: Set up auto attendants
+          href: business-voice/set-up-auto-attendants.md
     - name: Manage your setup
       items: 
         - name: Create one or more users
