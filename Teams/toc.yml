@@ -1234,11 +1234,11 @@
         - name: Data Loss Prevention
           href: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: eDiscovery
-              href: ediscovery-investigation.md
+          href: ediscovery-investigation.md
         - name: Legal hold
-              href: legal-hold.md
+          href: legal-hold.md
         - name: Content search
-              href: content-search.md
+          href: content-search.md
         - name: Auditing
           href: audit-log-events.md
     - name: Privacy
