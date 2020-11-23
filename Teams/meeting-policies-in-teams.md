@@ -49,10 +49,10 @@ You can edit the settings in the global policy or create and assign one or more 
 ## Create a custom meeting policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Click **Add**.
+2. Select **Add**.
 3. Enter a name and description for the policy. The name can't contain special characters or be longer than 64 characters.
 4. Choose the settings that you want.
-5. Click **Save**.
+5. Select **Save**.
 
 For example, say you have a bunch of users and you want to limit the amount of bandwidth that their meeting would require. You would create a new custom policy named "Limited bandwidth" and disable the following settings:
 
@@ -74,9 +74,9 @@ Then assign the policy to the users.
 You can edit the global policy and any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
+2. Select the policy by clicking to the left of the policy name, and then select **Edit**.
 3. From here, make the changes that you want.
-4. Click **Save**.
+4. Select **Save**.
 
 > [!NOTE]
 > A user can be assigned only one meeting policy at a time.
@@ -111,9 +111,9 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ### Allow Meet now in channels
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click the **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
+Allow **Meet now** is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn this setting on, users can select the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. The default value is True.
 
-[ ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
 ### Allow the Outlook add-in
 
@@ -121,13 +121,13 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ![Screenshot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
 
-If you turn this off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
+If you turn this off, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
 ### Allow channel meeting scheduling
 
-Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on. 
+Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
 
-If this policy is turned off, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
+If this policy is turned off, users won't be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
 Schedule a meeting will be disabled.
 
@@ -135,9 +135,9 @@ Schedule a meeting will be disabled.
 
 Channel selection is disabled.
 
-[ ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-In the channel posts page, the following will be disabled:
+In the channel posts page, the following features will be disabled:
 
 - **Schedule a meeting** button on the channel reply compose box.
   ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png)
@@ -150,9 +150,9 @@ In the channel calendar:
 - **Add new event** button on channel calendar header will be disabled.
   ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/add-new-event-disabled.png)
 
-- Users will not be able to drag and select a time block on the channel calendar to create a channel meeting.
+- Users won't be able to drag and select a time block on the channel calendar to create a channel meeting.
 
-- Users cannot use Keyboard shortcuts to create a meeting on the channel calendar.
+- Users can't use Keyboard shortcuts to create a meeting on the channel calendar.
 
 In the admin center:
 
@@ -168,7 +168,7 @@ Note that if you turn off **Allow scheduling private meetings** and **Allow chan
 
 ### Allow Meet now in private meetings
 
-This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  By default, this setting is turned on.
+This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned private meeting.  By default, this setting is turned on.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -176,8 +176,8 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 - [Allow transcription](#allow-transcription)
 - [Allow cloud recording](#allow-cloud-recording)
-- [Mode for IP audio](#mode-for-ip-audio) 
-- [Mode for IP video](#mode-for-ip-video) 
+- [Mode for IP audio](#mode-for-ip-audio)
+- [Mode for IP video](#mode-for-ip-video)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
 
@@ -237,7 +237,7 @@ This is a per-user policy. This setting controls whether video can be turned on 
 
 If set to **Disabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
 
-This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices. 
+This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 This setting isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
 
@@ -248,7 +248,7 @@ To learn more, see [Manage audio/video for meeting participants](#manage-audiovi
 
 ### Allow IP video
 
-This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting. 
+This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting control whether users can share photos and videos in a meeting.
 
 Meetings organized by a user who has this policy setting enabled, allow video sharing in the meeting by the meeting participants, if the participants also have the policy setting enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
@@ -274,7 +274,7 @@ If Daniela calls Amanda with video on, Amanda can answer the call with audio onl
 
 To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
-#### Which IP video policy setting takes precedence?
+#### Which IP video policy setting takes precedence
 
 For a user, the most restrictive policy setting for video takes precedence. Here's some examples.
 
@@ -292,7 +292,7 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 |---------|---------|
 |Disable audio and video for participants in meetings  |Mode for IP audio: **Disabled**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A       |
 |Enable only incoming video and audio for participants in meetings  |Mode for IP audio: **Outgoing and incoming audio enabled**<br> Mode for IP video: **Outgoing and incoming video enabled**<br>Allow IP video: **Off**       |
-|Disable video for participants in meetings (participants have audio only)|  Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A        
+|Disable video for participants in meetings (participants have audio only)|  Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A
 |Enable audio and video for participants in meetings    |Mode for IP audio: **Outgoing and incoming audio enabled** (default)<br> Mode for IP video: **Outgoing and incoming video enabled** (default)<br>Allow IP video: **On** (default)    |
 
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, if an organizer has a policy that restricts video and a user’s policy doesn't restrict video, meeting participants inherit the policy of the meeting organizer and don't have access to video in meetings. This means that they can join the meeting with audio only.
@@ -322,6 +322,8 @@ For meetings that need the highest-quality video experience, such as CEO board m
 - [Allow shared notes](#allow-shared-notes)
 
 ### Screen sharing mode
+
+This feature is still in development. Screen sharing is per-participant policy.
 
 This is a combination of a per-organizer and per-user policy. This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
 
