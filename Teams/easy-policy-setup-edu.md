@@ -133,73 +133,146 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 
 |Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |Create private channels         |        |
-|Meetings policies    |General         |Allow Meet now in channels         |      ||
-|  |        |Allow the Outlook add-in         |       ||
-|  |        |Allow channel meeting scheduling         |      ||
-|  |        |Allow scheduling private meetings       |         ||
-|  |Audio & video        |Allow transcription         |        ||
-|  |        |Allow cloud recording         |      ||
-|  |        |Mode for IP audio       |        ||
-|  |        |Mode for IP video         |     ||
-|  |       |Allow IP video         |         ||
-|  |       |Allow NDI streaming         |         ||
-|  |       |Media bit rate (Kbs)         |         ||
-|  |Content sharing       |Screen sharing mode         |         ||
-|  |       |Allow a participant to give or request control         |         ||
-|  |       |Allow PowerPoint sharing        |         ||
-|  |       |Allow whiteboard         |         ||
-|  |       |Allow shared notes         |         ||
-|  |Participants & guests       |Let anonymous people start a meeting       |         ||
-|  |       |Roles that have presenter rights in meetings        |         ||
-|  |       |Automatically admit people        |         ||
-|  |       |Allow dial-in users to bypass the lobby        |         ||
-|  |       |Allow Meet now in private meetings        |         ||
-|  |       |Enable live captions       |         ||
-|  |       |Allow chat in meetings         |         ||
-|  |Video filters mode       |VideoFiltersMode         |         ||
-|  |Meeting attendance report       |AllowEngagementReport         |         ||
-|Live events policies  |       |Allow scheduling         |         ||
-|  |       |Allow transcription for attendees          |        ||
-|  |       |Who can join scheduled live events        |        ||
-|  |       |Who can record an event         |         ||
-|Messaging policies  |       |Owners can delete sent messages         |         ||
-|  |       |Delete sent messages         |         ||
-|  |       |Edit sent messages         |         ||
-|  |       |Read receipts         |         ||
-|  |       |Chat         |         ||
-|  |       |Use Giphys in conversations         |         ||
-|  |       |Giphy content rating         |         ||
-|  |       |Use memes in conversations         |         ||
-|  |       |Use stickers in conversations         |         ||
-|  |       |Allow URL previews        |         ||
-|  |       |Translate messages         |         ||
-|  |       |Allow immersive reader for viewing messages        |       ||
-|  |       |Send urgent messages using priority notifications  |         ||
-|  |       |Create voice messages         |         ||
-|  |       |On mobile devices, display favorite channels above recent chats     |         ||
-|  |       |Remove users from a group chat         |         ||
-|  |       |Suggested replies         |         ||
-|App permission polices  |       |Microsoft apps         |         ||
-|  |       |Third-party apps         |         ||
-|  |       |Custom apps         |         ||
-|App setup polices  |           |Upload custom apps           |         ||
-|  |       |Allow user pinning |         ||
-|  |       |Installed apps         |         ||
-|  |       |Pinned apps         |         ||
-|Calling policies  |       |Make private calls         |         ||
-|  |       |Call forwarding and simultaneous ringing to people in your organization         |         ||
-|  |       |Call forwarding and simultaneous ringing to external phone numbers         |         ||
-|  |       |Voicemail is available for routing inbound calls         |         ||
-|  |       |Inbound calls can be routed to call groups         |         ||
-|  |       |Allow delegation for inbound and outbound calls         |         ||
-|  |       |Prevent toll bypass and send calls through the PSTN        |         ||
-|  |       |Busy on busy is available when in a call         |         ||
-|  |       |Allow web PSTN calling         |         ||
+|Teams policies   |         |Create private channels         |Off       |On|
+|Meetings policies    |General         |Allow Meet now in channels         |Off      |On|
+|  |        |Allow the Outlook add-in         |Off       |On|
+|  |        |Allow channel meeting scheduling        |Off      |On|
+|  |        |Allow scheduling private meetings       |Off      |On|
+|  |Audio & video        |Allow transcription        |On       |On|
+|  |        |Allow cloud recording         |Off      |On|
+|  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
+|  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
+|  |       |Allow IP video         |On         |On|
+|  |       |Allow NDI streaming         |Off         |Off|
+|  |       |Media bit rate (Kbs)         |50,000         |50,000|
+|  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
+|  |       |Allow a participant to give or request control         |On         |On|
+|  |       |Allow an external participant to give or request control         |On         |On|
+|  |       |Allow PowerPoint sharing        |On         |On|
+|  |       |Allow whiteboard         |On         |On|
+|  |       |Allow shared notes         |On        |On|
+|  |Participants & guests       |Let anonymous people start a meeting       |Off         |On|
+|  |       |Roles that have presenter rights in meetings        |EveryoneUserOverride         |EveryoneUserOverride|
+|  |       |Automatically admit people        |EveryoneInCompany
+         |EveryoneInCompany
+|
+|  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
+|  |       |Allow Meet now in private meetings        |Off         |On|
+|  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
+|  |       |Allow chat in meetings         |On         |On|
+|  |Video filters mode       |VideoFiltersMode         |BlurandDefaultBackgrounds|AllFilters|
+|  |Meeting attendance report       |AllowEngagementReport         |Off         |On|
+|Live events policies  |       |Allow scheduling         |Off         |Off|
+|  |       |Allow transcription for attendees          |On       |On|
+|  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
+|  |       |Who can record an event         |Always         |Always|
+|Messaging policies  |       |Owners can delete sent messages         |Off|On|
+|  |       |Delete sent messages         |Off         |On|
+|  |       |Edit sent messages         |Off         |On|
+|  |       |Read receipts         |User controlled         |User controlled|
+|  |       |Chat         |Off         |On|
+|  |       |Use Giphys in conversations         |Off         |On|
+|  |       |Giphy content rating         |Strict        |Strict|
+|  |       |Use Memes in conversations         |On         |On|
+|  |       |Use Stickers in conversations         |On         |On|
+|  |       |Allow URL previews        |On         |On|
+|  |       |Translate messages         |On         |On|
+|  |       |Allow immersive reader for viewing messages        |On      |On|
+|  |       |Send urgent messages using priority notifications  |Off         |On|
+|  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
+|  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
+|  |       |Remove users from group chats         |Off         |On|
+|  |       |Suggested replies         |???         |???|
+|App permission polices  |       |Microsoft apps         |Block specific apps and allow all others > Walkie Talkie blocked         |Allow all apps|
+|  |       |Third-party apps         |Allow all apps         |Allow all apps|
+|  |       |Custom apps         |Allow all apps         |Allow all apps|
+|App setup polices  |           |Upload custom apps           |Off         |Off|
+|  |       |Allow user pinning |On         |On|
+|  |       |Installed apps         |None         |None|
+|  |       |Pinned apps         |Activity, Calendar, Teams         |Activity, Chats, Teams, Calendar, Calling, File
+|Calling policies  |       |Make private calls         |Off        |On|
+|  |       |Call forwarding and simultaneous ringing to people in your organization         |Off         |On|
+|  |       |Call forwarding and simultaneous ringing to external phone numbers         |Off         |On|
+|  |       |Voicemail is available for routing inbound calls         |User controlled         |User controlled|
+|  |       |Inbound calls can be routed to call groups         |Off        |On|
+|  |       |Allow delegation for inbound and outbound calls         |Off         |On|
+|  |       |Prevent toll bypass and send calls through the PSTN        |Off         ||off
+|  |       |Busy on busy is available when in a call         |Off         |Off|
+|  |       |Allow web PSTN calling         |Off         |On|
 
 #### [**Educators and staff**](#tab/educators/)
 
 Here's a list of the custom policy definitions applied to the educators and staff group that you choose in the tool.  
+
+|Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
+|---------|---------|---------|---------|---------|
+|Teams policies   |         |Create private channels         |On       |On|
+|Meetings policies    |General         |Allow Meet now in channels         |On      |On|
+|  |        |Allow the Outlook add-in         |On       |On|
+|  |        |Allow channel meeting scheduling        |On      |On|
+|  |        |Allow scheduling private meetings       |On      |On|
+|  |Audio & video        |Allow transcription        |On       |On|
+|  |        |Allow cloud recording         |On      |On|
+|  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
+|  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
+|  |       |Allow IP video         |On         |On|
+|  |       |Allow NDI streaming         |Off         |Off|
+|  |       |Media bit rate (Kbs)         |50,000         |50,000|
+|  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
+|  |       |Allow a participant to give or request control         |On         |On|
+|  |       |Allow an external participant to give or request control         |On         |On|
+|  |       |Allow PowerPoint sharing        |On         |On|
+|  |       |Allow whiteboard         |On         |On|
+|  |       |Allow shared notes         |On        |On|
+|  |Participants & guests       |Let anonymous people start a meeting       |On        |On|
+|  |       |Roles that have presenter rights in meetings        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
+|  |       |Automatically admit people        |OrganizerOnly
+         |OrganizerOnly
+|
+|  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
+|  |       |Allow Meet now in private meetings        |On         |On|
+|  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
+|  |       |Allow chat in meetings         |On         |On|
+|  |Video filters mode       |VideoFiltersMode         |AllFilters|AllFilters|
+|  |Meeting attendance report       |AllowEngagementReport         |On         |On|
+|Live events policies  |       |Allow scheduling         |On         |On|
+|  |       |Allow transcription for attendees          |On       |On|
+|  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
+|  |       |Who can record an event         |Always record         |Always record|
+|Messaging policies  |       |Owners can delete sent messages         |On|On|
+|  |       |Delete sent messages         |On         |On|
+|  |       |Edit sent messages         |On         |On|
+|  |       |Read receipts         |User controlled         |User controlled|
+|  |       |Chat         |On         |On
+|  |       |Use Giphys in conversations         |On        |On|
+|  |       |Giphy content rating         |Strict        |Strict|
+|  |       |Use Memes in conversations         |On         |On|
+|  |       |Use Stickers in conversations         |On         |On|
+|  |       |Allow URL previews        |On         |On|
+|  |       |Translate messages         |On         |On|
+|  |       |Allow immersive reader for viewing messages        |On      |On|
+|  |       |Send urgent messages using priority notifications  |On         |On|
+|  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
+|  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
+|  |       |Remove users from group chats         |On        |On|
+|  |       |Suggested replies         |???         |???|
+|App permission polices  |       |Microsoft apps         |Allow all apps         |Allow all apps|
+|  |       |Third-party apps         |Allow all apps         |Allow all apps|
+|  |       |Custom apps         |Allow all apps         |Allow all apps|
+|App setup polices  |           |Upload custom apps           |Off         |Off|
+|  |       |Allow user pinning |On         |On|
+|  |       |Installed apps         |Insights         |Insights|
+|  |       |Pinned apps         |Activity, Chats, Calendar, Teams, Insights         |Activity, Chats, Calendar, Teams, Insights
+|Calling policies  |       |Make private calls         |On       |On|
+|  |       |Call forwarding and simultaneous ringing to people in your organization         |On        |On|
+|  |       |Call forwarding and simultaneous ringing to external phone numbers         |On        |On|
+|  |       |Voicemail is available for routing inbound calls         |User controlled         |User controlled|
+|  |       |Inbound calls can be routed to call groups         |On        |On|
+|  |       |Allow delegation for inbound and outbound calls         |On         |On|
+|  |       |Prevent toll bypass and send calls through the PSTN        |Off         ||off
+|  |       |Busy on busy is available when in a call         |Off         |Off|
+|  |       |Allow web PSTN calling         |On      |On|
+
 
 |Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
