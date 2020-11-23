@@ -35,7 +35,7 @@ The Teams for Education easy policy setup tool simplifies managing policies for 
 This article walks you through how to run the tool and the steps you need to do after you run it.
 
 > [!IMPORTANT]
-> The policies applied by the tool will satisfy the policy needs of the majority of Teams for Education customers. The tool sets up the Global (Org-wide default) policy of policy areas covered by the tool with values that we recommend for student safety and applies it to students. The tool also creates and assigns a set of custom policies for educators and staff. Most Teams for Education customers don't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
+> The policies applied by the tool will satisfy the needs of the majority of Teams for Education customers. For students, the tool applies the Global (Org-wide default) definition for a core set of policies with settings that we recommend for student safety. The tool also creates and assigns a set of custom policies for educators and staff. Most Teams for Education customers don't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
 
 ## Teams for Education easy policy setup tool
 
@@ -58,8 +58,8 @@ Follow these steps to run the tool. You only need to run the tool one time.
 2. Select your educational institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
 3. Search for and select a group that contains your educators or staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the tool. <br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned a set of custom policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
 4. Review your selections.
-5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take up to 48 hours for the custom policies to be assigned to the group you selected, depending on the size of the group. This happens in the background, after you finish running the tool. 
-6. You're on your way but you're not done yet! <br/>Your students and educators or staff are now set up with policies created by the tool but there's a few more things to do.
+5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take up to 48 hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you finish running the tool.
+6. You're on your way but you're not done yet! <br/>There's a few more things to do.
 
     Next, make sure you follow the steps in the [What to do after running the tool](#what-to-do-after-running-the-tool) section.
 
@@ -96,7 +96,7 @@ For each [policy area set up by the tool](#policies-set-up-by-the-tool), do the 
 
 For example, you assigned a meeting policy directly to educators and your students have the Global (Org-wide default) meeting policy. In this scenario, remove the meeting policy that you directly assigned to educators so that the custom policy definition for the meeting policy created by the tool will take effect. You don't have to do anything with the existing Global (Org-wide default) meeting policy for students because no other meeting policies conflict with it.
 
-### Step 2: Check for other policies that you might need to adjust
+### Step 2: Check for additional measures that you can take for student safety
 
 The easy policy setup tool automatically adjusts and applies [these policies](#policies-set-up-by-the-tool). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
 
@@ -272,73 +272,6 @@ Here's a list of the custom policy definitions applied to the educators and staf
 |  |       |Prevent toll bypass and send calls through the PSTN        |Off         ||off
 |  |       |Busy on busy is available when in a call         |Off         |Off|
 |  |       |Allow web PSTN calling         |On      |On|
-
-
-|Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
-|---------|---------|---------|---------|---------|
-|Teams policies   |         |Create private channels         |        |
-|Meetings policies    |General         |Allow Meet now in channels         |      ||
-|  |        |Allow the Outlook add-in         |       ||
-|  |        |Allow channel meeting scheduling         |      ||
-|  |        |Allow scheduling private meetings       |         ||
-|  |Audio & video        |Allow transcription         |        ||
-|  |        |Allow cloud recording         |      ||
-|  |        |Mode for IP audio       |        ||
-|  |        |Mode for IP video         |     ||
-|  |       |Allow IP video         |         ||
-|  |       |Allow NDI streaming         |         ||
-|  |       |Media bit rate (Kbs)         |         ||
-|  |Content sharing       |Screen sharing mode         |         ||
-|  |       |Allow a participant to give or request control         |         ||
-|  |       |Allow PowerPoint sharing        |         ||
-|  |       |Allow whiteboard         |         ||
-|  |       |Allow shared notes         |         ||
-|  |Participants & guests       |Let anonymous people start a meeting       |         ||
-|  |       |Roles that have presenter rights in meetings        |         ||
-|  |       |Automatically admit people        |         ||
-|  |       |Allow dial-in users to bypass the lobby        |         ||
-|  |       |Allow Meet now in private meetings        |         ||
-|  |       |Enable live captions       |         ||
-|  |       |Allow chat in meetings         |         ||
-|  |Video filters mode       |VideoFiltersMode         |         ||
-|  |Meeting attendance report       |AllowEngagementReport         |         ||
-|Live events policies  |       |Allow scheduling         |         ||
-|  |       |Allow transcription for attendees          |        ||
-|  |       |Who can join scheduled live events        |        ||
-|  |       |Who can record an event         |         ||
-|Messaging policies  |       |Owners can delete sent messages         |         ||
-|  |       |Delete sent messages         |         ||
-|  |       |Edit sent messages         |         ||
-|  |       |Read receipts         |         ||
-|  |       |Chat         |         ||
-|  |       |Use Giphys in conversations         |         ||
-|  |       |Giphy content rating         |         ||
-|  |       |Use memes in conversations         |         ||
-|  |       |Use stickers in conversations         |         ||
-|  |       |Allow URL previews        |         ||
-|  |       |Translate messages         |         ||
-|  |       |Allow immersive reader for viewing messages        |       ||
-|  |       |Send urgent messages using priority notifications  |         ||
-|  |       |Create voice messages         |         ||
-|  |       |On mobile devices, display favorite channels above recent chats     |         ||
-|  |       |Remove users from a group chat         |         ||
-|  |       |Suggested replies         |         ||
-|App permission polices  |       |Microsoft apps         |         ||
-|  |       |Third-party apps         |         ||
-|  |       |Custom apps         |         ||
-|App setup polices  |           |Upload custom apps           |         ||
-|  |       |Allow user pinning |         ||
-|  |       |Installed apps         |         ||
-|  |       |Pinned apps         |         ||
-|Calling policies  |       |Make private calls         |         ||
-|  |       |Call forwarding and simultaneous ringing to people in your organization         |         ||
-|  |       |Call forwarding and simultaneous ringing to external phone numbers         |         ||
-|  |       |Voicemail is available for routing inbound calls         |         ||
-|  |       |Inbound calls can be routed to call groups         |         ||
-|  |       |Allow delegation for inbound and outbound calls         |         ||
-|  |       |Prevent toll bypass and send calls through the PSTN        |         ||
-|  |       |Busy on busy is available when in a call         |         ||
-|  |       |Allow web PSTN calling         |         ||
 
 * * *
 
