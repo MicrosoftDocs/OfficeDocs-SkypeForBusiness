@@ -150,35 +150,35 @@ The following is an overview of how you can use Advisor for Teams together with 
 - Use learning pathways to drive adoption
 - Drive adoption with learning pathways
 
-### Step 1: Get started in learning pathways
+### Get started in learning pathways
 
 To get started with learning pathways, check out [Get started with learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/).
 
 To set up a new learning pathways solution in your environment, see [Provision a new learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_provision).
 
-### Step 2: Plan your learning content
+### Create a learning plan
 
 Before you build your training site in learning pathways, take some time to review and collect the learning resources and capabilities available to you. To learn more, see [Plan your learning pathways content](https://docs.microsoft.com/en-us/office365/customlearning/custom_plancontent).
 
-### Step 3: Explore Teams content in learning pathways
+#### Explore Teams content in learning pathways
 
 Learning pathways provides a SharePoint site with a web part that's connected to an online catalog. The Microsoft 365 training page, which hosts the web part, shows all the training available in learning pathways.
 
 Go to your learning pathways site, click **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then click the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
 
-### Step 4: Take an inventory of Teams learning resources in your organization
+#### Take an inventory of Teams learning resources in your organization
 
 Review the Teams learning content that's already available in your organization. For example, you may have already developed custom onboarding, training, or support content for Teams.
 
-### Step 5: Build your training site in learning pathways
+#### Build your site in learning pathways
 
 The [Admin Success Center](https://docs.microsoft.com/office365/customlearning/custom_successcenter) in learning pathways provides guidance and resources to help you plan and customize learning pathways in your organization. Learn how to [customize the site](https://docs.microsoft.com/office365/customlearning/custom_overview), show and hide content, build custom playlists, and more.
 
 To access the Admin Success Center, on the learning pathways Home page, select **Admin Success Center**.
 
-### Step 6: Add the learning pathways site to Teams
+#### Add your site to Teams
 
-When your site is ready, add it to the workload channels in the Deployment team.
+When your site is ready, add it to a channel in any team for quick and easy access. 
 
 1. In Teams, go to the Deployment team, and then select the workload channel. For example, select **Chat, teams, channels and apps**. 
 2. At the top of the channel page, select **+** (**Add a tab**).
@@ -187,11 +187,13 @@ When your site is ready, add it to the workload channels in the Deployment team.
 
 To learn more, see [Add a SharePoint page or list to a channel in Teams](https://support.microsoft.com/office/add-a-sharepoint-page-or-list-to-a-channel-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b).
 
-### Step 7: Train your help desk and Champions
+### Train your support team
 
 Use the Planner tasks in the workload channels of the Deployment team and the resources in your learning pathways site that you added to the workload channels to onboard your help desk and Champions to Teams. Get them ready with the tools and information they need to support your users on Teams.
 
-### Step 8: Set up a learning pathways support page for your users
+### Drive adoption
+
+POINT TO LP adoption node, customize the site,, use your comm channels to drive awareness. point to m365 adopt site. 
 
 As the “go-to” contact for end user “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](https://docs.microsoft.comoffice365/customlearning/custom_overview) by building a training and support page.
 
@@ -200,8 +202,6 @@ For example, add the Teams playlists from the Microsoft 365 training page, and a
 Then, [add it  as a tab to a channel](#step-6-add-the-learning-pathways-site-to-teams) in a team to support your users.
 
 To promote the site and generate awareness, consider including a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
-
-### Step 9: Drive adoption
 
 
 ## Frequently asked questions
