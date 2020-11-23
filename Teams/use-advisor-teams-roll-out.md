@@ -145,7 +145,7 @@ For example, use Advisor for Teams together with learning pathways to train your
 
 The following is an overview of how you can use Advisor for Teams together with learning pathways.
 
-- Create a training plan
+- Create a learning plan
 - Train your support team with learning pathways
 - Use learning pathways to drive adoption
 - Drive adoption with learning pathways
@@ -180,7 +180,7 @@ To access the Admin Success Center, on the learning pathways Home page, select *
 
 When your site is ready, add it to a channel in any team for quick and easy access. 
 
-1. In Teams, go to the Deployment team, and then select the workload channel. For example, select **Chat, teams, channels and apps**. 
+1. In Teams, go to the Deployment team, and then select the workload channel. For example, select **Chat, teams, channels and apps**.
 2. At the top of the channel page, select **+** (**Add a tab**).
 3. Select **SharePoint Pages**, and then select **Add a page from any SharePoint site**.
 4. Paste the URL of your learning pathways site, and then select **Save**. 
@@ -202,7 +202,6 @@ For example, add the Teams playlists from the Microsoft 365 training page, and a
 Then, [add it  as a tab to a channel](#step-6-add-the-learning-pathways-site-to-teams) in a team to support your users.
 
 To promote the site and generate awareness, consider including a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
-
 
 ## Frequently asked questions
 
