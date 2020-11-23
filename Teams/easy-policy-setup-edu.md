@@ -153,9 +153,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Allow shared notes         |On        |On|
 |  |Participants & guests       |Let anonymous people start a meeting       |Off         |On|
 |  |       |Roles that have presenter rights in meetings        |EveryoneUserOverride         |EveryoneUserOverride|
-|  |       |Automatically admit people        |EveryoneInCompany
-         |EveryoneInCompany
-|
+|  |       |Automatically admit people        |EveryoneInCompany|EveryoneInCompany|
 |  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
 |  |       |Allow Meet now in private meetings        |Off         |On|
 |  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
@@ -226,9 +224,7 @@ Here's a list of the custom policy definitions applied to the educators and staf
 |  |       |Allow shared notes         |On        |On|
 |  |Participants & guests       |Let anonymous people start a meeting       |On        |On|
 |  |       |Roles that have presenter rights in meetings        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
-|  |       |Automatically admit people        |OrganizerOnly
-         |OrganizerOnly
-|
+|  |       |Automatically admit people        |OrganizerOnly|OrganizerOnly|
 |  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
 |  |       |Allow Meet now in private meetings        |On         |On|
 |  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
