@@ -199,7 +199,7 @@ For example, add the Teams playlists from the Microsoft 365 training page, and a
 
 To promote the site and generate awareness, consider including a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
-### Drive adoption
+### Step 9: Drive adoption
 
 
 ## Frequently asked questions
