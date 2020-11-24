@@ -21,6 +21,9 @@ f1keywords:
 
 # Assign policies to large sets of users in your school
 
+> [!IMPORTANT]
+> You can run the [Teams for Education easy policy setup tool](easy-policy-setup-edu.md) to easily set up policies for your students and staff. The tool adjusts the Global (Org-wide default) policy definition for a core set of policies with settings that we recommend to keep your students safe and creates and assigns a set of custom policies to educators and staff. If you already used the tool to set up policies for your students and staff, use this article only as a reference or if you want to learn how to manually create or manage policies.
+
 > [!NOTE]
 > For the larger story on assigning policies in Microsoft Teams, see [Assign policies to your users in Teams](assign-policies.md).
 

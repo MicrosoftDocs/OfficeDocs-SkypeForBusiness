@@ -135,10 +135,13 @@ items:
     > [!NOTE]
     > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned to the student, the student can use Chat. In this case, it may be easier to disable Chat globally and use custom policies to enable Chat for faculty. 
 
-    ### Use policies and settings to enforce student safety measures
+    ### Use policies and settings to enforce student safety measures 
+
     To maintain student safety, you should use administrative policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared.  
 
-    View [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to make within your environment to keep it safe for students. 
+    ou can run the [Teams for Education easy policy setup tool](easy-policy-setup-edu.md) to easily set up policies for your students and staff. The tool adjusts the Global (Org-wide default) policy definition for a core set of policies with settings that we recommend to keep your students safe and creates and assigns a set of custom policies to educators and staff.
+
+    If you don't want to run the tool to set up policies, see [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to manually set up in your environment to keep it safe for students. 
 
 
     ### Appendix

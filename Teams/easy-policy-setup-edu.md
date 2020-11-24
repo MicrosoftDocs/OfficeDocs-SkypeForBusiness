@@ -35,7 +35,7 @@ The Teams for Education easy policy setup tool simplifies managing policies for 
 This article walks you through how to run the tool and the steps you need to do after you run it.
 
 > [!IMPORTANT]
-> The policies applied by the tool will satisfy the needs of the majority of Teams for Education customers. For students, the tool applies the Global (Org-wide default) definition for a core set of policies with settings that we recommend for student safety. The tool also creates and assigns a set of custom policies for educators and staff. Most Teams for Education customers don't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
+> The policies applied by the tool will satisfy the needs of the majority of Teams for Education customers. The tool adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The tool also creates and assigns a set of custom policies for educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
 
 ## Teams for Education easy policy setup tool
 
@@ -127,23 +127,23 @@ The following table summarizes what happens when you make a change in the tool.
 
 ### Policy areas
 
-Here's the policy areas and corresponding policy names covered by the easy policy setup tool. 
+Here's the policy areas and corresponding policy names covered by the easy policy setup tool.
 
 #### [**Students**](#tab/Students/)
 
-|Policy area  |Primary-Secondary  |Higher education  |
+|Policy area  |Primary-Secondary policy name |Higher education policy name  |
 |---------|---------|---------|
 |Teams policy    |Global (Org-wide default)         |Global (Org-wide default)           |
 |Meeting policy    |Global (Org-wide default)           |Global (Org-wide default)           |
-|Live events policy     |Global (Org-wide default)           Global (Org-wide default)  |         |
+|Live events policy     |Global (Org-wide default)          |  Global (Org-wide default)          |
 |App setup policy     |Global (Org-wide default)           |Global (Org-wide default)           |
 |App permission policy    |Global (Org-wide default)           |Global (Org-wide default)           |
-|Messaging policy     |Global (Org-wide default)           Global (Org-wide default)  |         |
+|Messaging policy     |Global (Org-wide default)           |Global (Org-wide default)           |
 |Calling policy    |Global (Org-wide default)           |Global (Org-wide default)           |
 
 #### [**Educators and staff**](#tab/educators/)
 
-|Policy area  |Primary-Secondary  |Higher education  |
+|Policy area  |Primary-Secondary policy name |Higher education policy name |
 |---------|---------|---------|
 |Teams policy   |Primary or Secondary Educators and Staff - Teams         |Higher Education Educators and Staff - Teams         |
 |Meeting policy    |Primary or Secondary Educators and Staff - Meeting         |Higher Education Educators and Staff - Meeting         |
@@ -155,7 +155,7 @@ Here's the policy areas and corresponding policy names covered by the easy polic
 
 ### Policy settings
 
-Here's a summary of the policies set up for your students and educators and staff by the easy policy setup tool. 
+Here's a summary of the settings applied by the easy policy setup tool for each policy area. 
 
 #### [**Students**](#tab/Students/)
 
