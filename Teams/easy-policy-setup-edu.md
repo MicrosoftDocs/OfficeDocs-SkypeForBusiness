@@ -70,7 +70,7 @@ Follow these steps to run the tool.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in tool to select institution type":::
 
-3. Search for and select a group that contains your educators and staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the tool. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned a set of custom policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
+3. Search for and select a group that contains your educators and staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the tool. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-set-up-by-the-tool) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in tool to select educator and staff group":::
 
@@ -78,12 +78,10 @@ Follow these steps to run the tool.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Screenshot of page in tool to review selections":::
 
-5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take up to 48 hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you finish running the tool.
-6. You're on your way but you're not done yet! There's a few more things to do.
+5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take up to 48 hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you successfully complete this step.
+6. You're on your way but you're not done yet! There's a few more things to consider. Next, check out the steps in the [What to do after running the tool](#what-to-do-after-running-the-tool) section of this article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Screenshot of page in tool to for next steps":::
-
-    Next, make sure you follow the steps in the [What to do after running the tool](#what-to-do-after-running-the-tool) section.
 
 ## What to do after running the tool
 
@@ -94,13 +92,13 @@ Follow these steps to run the tool.
 <a name="tool_remove_existing"> </a>
 
 > [!IMPORTANT]
-> Complete this step only if you have existing policies set up *before* you ran the tool. If you're new to Teams and don't have any existing policies other than the policies created by the tool, skip this and go to step 2.
+> **Complete this step only if you have existing policies assigned to students or educators and staff *before* you ran the tool**. If you're new to Teams and don't have any existing policies other than the policies created by the tool, skip this and go to step 2.
 
 In Teams, for a given policy area, a policy can be applied to a user in the following ways:
 
 - Direct assignment to the user
 - Assignment to a group the user is a member of
-- If the user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user automatically gets the Global (Org-wide default) policy
+- If the user isn't directly assigned a policy or isn't a member of any group that's assigned a policy, the user automatically gets the Global (Org-wide default) policy
 
 If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
 
@@ -111,12 +109,12 @@ If more than one of these policy assignments exist for a user, Teams uses the fo
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.       |
 
-Because of this order, the policies created by the easy policy setup tool won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy set up by the tool takes effect.
+Because of this order, the policies created by the tool won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy set up by the tool takes effect.
 
 For each [policy area set up by the tool](#policies-set-up-by-the-tool), do the following:
 
 - Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition set up by the tool takes effect.
-- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the tool takes effect. Use the table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the tool assigns policies to your educators and staff group using a [group assignment ranking](assign-policies.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the tool takes effect. 
+- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the tool takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the tool assigns policies to your educators and staff group using a [group assignment ranking](assign-policies.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the tool takes effect. 
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
@@ -126,7 +124,7 @@ For example, you assigned a meeting policy directly to educators and your studen
 
 <a name="tool_add_safety"> </a>
 
-The easy policy setup tool automatically adjusts and applies [these policies](#policies-set-up-by-the-tool). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
+The tool automatically adjusts and applies [these policies](#policies-set-up-by-the-tool). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for additional safety recommendations.
 
@@ -134,7 +132,7 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 <a name="tool_mc"> </a>
 
-Currently, the easy policy setup tool applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety aren't automatically added by the tool. This capability will be available in a future release.
+Currently, the tool applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety aren't automatically added by the tool. This capability will be available in a future release.
 
 Until this capability is available, check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up-to-date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
 
@@ -151,9 +149,9 @@ The following table summarizes what happens when you make a change in the tool.
 
 |Type of change  |Policy behavior  |
 |---------|---------|
-|Change the educational institution type and the educators and staff group    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff group. The previous custom policy definitions are removed from the previous educators and staff group.</li></ul>    |
-|Change the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff group. The previous custom policy definitions are removed from the  educators and staff group.</li></ul>         |
-|Change the educators and staff group   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The set of custom policy definitions is assigned to the new educators and staff group and removed from the previous educators and staff group.</li></ul>         |
+|Change both the educational institution type and the educators and staff group    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff group. The previous custom policy definitions are removed from the previous educators and staff group.</li></ul>    |
+|Change only the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff group. The custom policy definitions created for the previous educational institution type are removed from the educators and staff group.</li></ul>         |
+|Change only the educators and staff group   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff group and removed from the previous educators and staff group.</li></ul>         |
 
 ## Policies set up by the tool
 
@@ -161,7 +159,7 @@ The following table summarizes what happens when you make a change in the tool.
 
 ### Policy areas
 
-Here's the policy areas and corresponding policy names covered by the easy policy setup tool.
+Here's the policy areas and corresponding policy names covered by the easy policy setup tool. To find these policies, go to the Microsoft Teams admin center, and then in the left navigation, go to each policy area page. 
 
 #### [**Students**](#tab/Students/)
 
