@@ -3,7 +3,7 @@ title: Easily set up policies for a safe learning environment
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: angch, shajohri
+ms.reviewer: shajohri, angch
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -34,7 +34,7 @@ The Teams for Education easy policy setup tool simplifies managing policies for 
 
 :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of easy policy setup tool":::
 
-This article walks you through how to run the tool and the steps you need to do after you run it.
+This article walks you through how to run the tool.
 
 > [!IMPORTANT]
 > The policies applied by the tool will satisfy the needs of the majority of Teams for Education customers. The tool adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The tool also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this tool. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
@@ -43,12 +43,14 @@ This article walks you through how to run the tool and the steps you need to do 
 
 <a name="tool_intro"> </a>
 
-The easy setup tool applies a set of core policy definitions to students a separate set of core policy definitions to educators and staff, with settings that are appropriate for each. Here's what happens when you run the tool.
+The easy policy setup tool applies a set of core policy definitions to students and a separate set of core policy definitions to educators and staff, with settings that are appropriate for each. Here's what happens when you run the tool.
 
-The tool sets up policies based on educational institution type (Primary-Secondary or Higher education). You select your institution type, and the tool does the following:
+The tool sets up policies based on educational institution type (**Primary or Secondary** or **Higher education**). You select your institution type, and the tool does the following:
 
 - **Students**: The tool adjusts the Global (Org-wide default) policy definition of each policy area covered by the tool with new default settings that are appropriate to keep your students safe. This ensures that your current students and all new students get the most restrictive set of policies.
 - **Educators and staff**: The tool creates a set of custom policy definitions for each policy area covered by the tool with settings tailored to the needs of educators and staff. Then, it assigns the policy definitions to the group of educators and staff that you choose. In this way, your educators and staff get a more permissive set of policies to enable them to be successful.
+
+You only need to run the tool one time. New students automatically get the Global (Org-wide default) policy definitions applied by the tool and new staff that you add to the group you selected are automatically assigned the custom policies. 
 
 See [Policies set up by the tool](#policies-set-up-by-the-tool) for a detailed list of policy definitions set up by the tool.
 
@@ -58,19 +60,19 @@ Now, let's get started!
 
 <a name="tool_run"> </a>
 
-Follow these steps to run the tool. You only need to run the tool one time. 
+Follow these steps to run the tool. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
+1. If you're new to Teams, the tool automatically starts. Otherwise, you can start the tool anytime from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of the easy policy setup tool in the dashboard":::
 
-2. Select your educational institution type (**Primary-Secondary** or **Higher education**), and then click **Next**.
+2. Select your educational institution type (**Primary or Secondary** or **Higher education**), and then click **Next**.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in tool to select institution type":::
 
-3. Search for and select a group that contains your educators or staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the tool. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned a set of custom policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
+3. Search for and select a group that contains your educators and staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the tool. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned a set of custom policies tailored to their needs. Remember that this set of policies is separate from the policies applied to students, which the tool does automatically.
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of page in tool to select educator and staff group":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in tool to select educator and staff group":::
 
 4. Review your selections.
 
@@ -163,7 +165,7 @@ Here's the policy areas and corresponding policy names covered by the easy polic
 
 #### [**Students**](#tab/Students/)
 
-|Policy area  |Primary-Secondary policy name |Higher education policy name  |
+|Policy area  |Primary or Secondary policy name |Higher education policy name  |
 |---------|---------|---------|
 |Teams policy    |Global (Org-wide default)         |Global (Org-wide default)           |
 |Meeting policy    |Global (Org-wide default)           |Global (Org-wide default)           |
@@ -175,7 +177,7 @@ Here's the policy areas and corresponding policy names covered by the easy polic
 
 #### [**Educators and staff**](#tab/educators/)
 
-|Policy area  |Primary-Secondary policy name |Higher education policy name |
+|Policy area  |Primary or Secondary policy name |Higher education policy name |
 |---------|---------|---------|
 |Teams policy   |Primary or Secondary Educators and Staff - Teams         |Higher Education Educators and Staff - Teams         |
 |Meeting policy    |Primary or Secondary Educators and Staff - Meeting         |Higher Education Educators and Staff - Meeting         |
@@ -193,7 +195,7 @@ Here's a summary of the settings applied by the easy policy setup tool for each 
 
 Here's a list of the Global (Org-wide default) policy definitions adjusted by the tool and applied to students.
 
-|Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
+|Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
 |Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
@@ -264,7 +266,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 
 Here's a list of the custom policy definitions applied to the educators and staff group that you choose in the tool.  
 
-|Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
+|Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |On       |On|
 |Meetings policy    |General         |Allow Meet now in channels         |On      |On|
