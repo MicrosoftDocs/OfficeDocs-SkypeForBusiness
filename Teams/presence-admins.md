@@ -33,7 +33,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 | ![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
 || ![Open green check mark, indicates available oof](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using the app during these periods of time, a dual presence might be shown, such as "Out of office, available". |
 |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
-|| ![Solid red circle, indicates Busy in a call](media/Presence_Busy.png) On a call|
+|| ![Solid red circle, indicates Busy in a call](media/Presence_Busy.png) In a call|
 || ![Solid red circle, indicates Busy in a meeting](media/Presence_Busy.png) In a meeting |
 || ![Open red circle, indicates Busy](media/Presence_Busy_OOF.png) On a call, out of office|
 |  ![Red circle with white line, indicates Do Not Disturb](media/Presence_DND.png) Do not disturb ||
