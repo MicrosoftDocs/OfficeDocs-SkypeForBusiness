@@ -112,8 +112,11 @@ items:
   content: |
    > [!IMPORTANT]
    > Starting June 2019, all Teams for Education admins should use the Microsoft Teams admin center to manage all their Teams policies. Teams for Education policies can no longer be managed in the Microsoft 365 Admin Center. For more information, see [Manage Teams during the transition to the new Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
-     
+  
     You can easily manage all Teams policies in the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by signing in with your admin credentials.
+
+    > [!IMPORTANT]
+    > You can run the [Teams for Education easy policy setup tool](easy-policy-setup-edu.md) to easily set up policies for your students and staff. The tool adjusts the Global (Org-wide default) policy definition for a core set of policies with settings that we recommend to keep your students safe and creates and assigns a set of custom policies to educators and staff. If you already used the tool to set up policies for your students and staff, use this article only as a reference or if you want to learn how to manually create or manage policies.
 
     Settings in the Microsoft Teams admin center are not managed based on user license type. Instead, we suggest that you define different policies to manage which capabilities are available to your users. To configure a policy, click the policy in the left navigation of the Microsoft Teams admin center. Here's an example of messaging policies. 
 
@@ -139,10 +142,7 @@ items:
 
     To maintain student safety, you should use administrative policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared.  
 
-    ou can run the [Teams for Education easy policy setup tool](easy-policy-setup-edu.md) to easily set up policies for your students and staff. The tool adjusts the Global (Org-wide default) policy definition for a core set of policies with settings that we recommend to keep your students safe and creates and assigns a set of custom policies to educators and staff.
-
-    If you don't want to run the tool to set up policies, see [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to manually set up in your environment to keep it safe for students. 
-
+    View [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to make within your environment to keep it safe for students.
 
     ### Appendix
     #### How to create and assign a messaging policy
