@@ -1,5 +1,5 @@
 ---
-title: Set up policies easily for a safe learning environment
+title: Easily set up policies for a safe learning environment
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -20,7 +20,7 @@ f1keywords:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Set up policies easily for a safe learning environment
+# Easily set up policies for a safe learning environment
 
 ## Overview
 
