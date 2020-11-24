@@ -1,5 +1,5 @@
 ---
-title: Easy policy setup for a safe learning environment
+title: Set up policies easily for a safe learning environment
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -20,7 +20,7 @@ f1keywords:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Easy policy setup for a safe learning environment
+# Set up policies easily for a safe learning environment
 
 ## Overview
 
@@ -125,6 +125,36 @@ The following table summarizes what happens when you make a change in the tool.
 
 ## Policies set up by the tool
 
+### Policy areas
+
+Here's the policy areas and corresponding policy names covered by the easy policy setup tool. 
+
+#### [**Students**](#tab/Students/)
+
+|Policy area  |Primary-Secondary  |Higher education  |
+|---------|---------|---------|
+|Teams policy    |Global (Org-wide default)         |Global (Org-wide default)           |
+|Meeting policy    |Global (Org-wide default)           |Global (Org-wide default)           |
+|Live events policy     |Global (Org-wide default)           Global (Org-wide default)  |         |
+|App setup policy     |Global (Org-wide default)           |Global (Org-wide default)           |
+|App permission policy    |Global (Org-wide default)           |Global (Org-wide default)           |
+|Messaging policy     |Global (Org-wide default)           Global (Org-wide default)  |         |
+|Calling policy    |Global (Org-wide default)           |Global (Org-wide default)           |
+
+#### [**Educators and staff**](#tab/educators/)
+
+|Policy area  |Primary-Secondary  |Higher education  |
+|---------|---------|---------|
+|Teams policy   |Primary or Secondary Educators and Staff - Teams         |Higher Education Educators and Staff - Teams         |
+|Meeting policy    |Primary or Secondary Educators and Staff - Meeting         |Higher Education Educators and Staff - Meeting         |
+|Live events policy   | Primary or Secondary Educators and Staff - Live events         |Higher Education Educators and Staff - Live events         |
+|Messaging policy    |Primary or Secondary Educators and Staff - Messaging         | Higher Education Educators and Staff - Messaging         |
+|Calling policy    |Primary or Secondary Educators and Staff - Calling         |Higher Education Educators and Staff - Calling         |
+
+* * *
+
+### Policy settings
+
 Here's a summary of the policies set up for your students and educators and staff by the easy policy setup tool. 
 
 #### [**Students**](#tab/Students/)
@@ -133,8 +163,8 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 
 |Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |Create private channels         |Off       |On|
-|Meetings policies    |General         |Allow Meet now in channels         |Off      |On|
+|Teams policy   |         |Create private channels         |Off       |On|
+|Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
 |  |        |Allow the Outlook add-in         |Off       |On|
 |  |        |Allow channel meeting scheduling        |Off      |On|
 |  |        |Allow scheduling private meetings       |Off      |On|
@@ -160,11 +190,11 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Allow chat in meetings         |On         |On|
 |  |Video filters mode       |VideoFiltersMode         |BlurandDefaultBackgrounds|AllFilters|
 |  |Meeting attendance report       |AllowEngagementReport         |Off         |On|
-|Live events policies  |       |Allow scheduling         |Off         |Off|
+|Live events policy  |       |Allow scheduling         |Off         |Off|
 |  |       |Allow transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
 |  |       |Who can record an event         |Always         |Always|
-|Messaging policies  |       |Owners can delete sent messages         |Off|On|
+|Messaging policy  |       |Owners can delete sent messages         |Off|On|
 |  |       |Delete sent messages         |Off         |On|
 |  |       |Edit sent messages         |Off         |On|
 |  |       |Read receipts         |User controlled         |User controlled|
@@ -181,20 +211,20 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
 |  |       |Remove users from group chats         |Off         |On|
 |  |       |Suggested replies         |???         |???|
-|App permission polices  |       |Microsoft apps         |Block specific apps and allow all others > Walkie Talkie blocked         |Allow all apps|
+|App permission policys  |       |Microsoft apps         |Block specific apps and allow all others > Walkie Talkie blocked         |Allow all apps|
 |  |       |Third-party apps         |Allow all apps         |Allow all apps|
 |  |       |Custom apps         |Allow all apps         |Allow all apps|
-|App setup polices  |           |Upload custom apps           |Off         |Off|
+|App setup policy  |           |Upload custom apps           |Off         |Off|
 |  |       |Allow user pinning |On         |On|
 |  |       |Installed apps         |None         |None|
 |  |       |Pinned apps         |Activity, Calendar, Teams         |Activity, Chats, Teams, Calendar, Calling, File
-|Calling policies  |       |Make private calls         |Off        |On|
+|Calling policy  |       |Make private calls         |Off        |On|
 |  |       |Call forwarding and simultaneous ringing to people in your organization         |Off         |On|
 |  |       |Call forwarding and simultaneous ringing to external phone numbers         |Off         |On|
 |  |       |Voicemail is available for routing inbound calls         |User controlled         |User controlled|
 |  |       |Inbound calls can be routed to call groups         |Off        |On|
 |  |       |Allow delegation for inbound and outbound calls         |Off         |On|
-|  |       |Prevent toll bypass and send calls through the PSTN        |Off         ||off
+|  |       |Prevent toll bypass and send calls through the PSTN        |Off         |Off|
 |  |       |Busy on busy is available when in a call         |Off         |Off|
 |  |       |Allow web PSTN calling         |Off         |On|
 
@@ -204,8 +234,8 @@ Here's a list of the custom policy definitions applied to the educators and staf
 
 |Policy area |Sub-area  |Policy setting  |Primary-Secondary |Higher education |
 |---------|---------|---------|---------|---------|
-|Teams policies   |         |Create private channels         |On       |On|
-|Meetings policies    |General         |Allow Meet now in channels         |On      |On|
+|Teams policy   |         |Create private channels         |On       |On|
+|Meetings policy    |General         |Allow Meet now in channels         |On      |On|
 |  |        |Allow the Outlook add-in         |On       |On|
 |  |        |Allow channel meeting scheduling        |On      |On|
 |  |        |Allow scheduling private meetings       |On      |On|
@@ -231,11 +261,11 @@ Here's a list of the custom policy definitions applied to the educators and staf
 |  |       |Allow chat in meetings         |On         |On|
 |  |Video filters mode       |VideoFiltersMode         |AllFilters|AllFilters|
 |  |Meeting attendance report       |AllowEngagementReport         |On         |On|
-|Live events policies  |       |Allow scheduling         |On         |On|
+|Live events policy  |       |Allow scheduling         |On         |On|
 |  |       |Allow transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
 |  |       |Who can record an event         |Always record         |Always record|
-|Messaging policies  |       |Owners can delete sent messages         |On|On|
+|Messaging policy  |       |Owners can delete sent messages         |On|On|
 |  |       |Delete sent messages         |On         |On|
 |  |       |Edit sent messages         |On         |On|
 |  |       |Read receipts         |User controlled         |User controlled|
@@ -252,20 +282,13 @@ Here's a list of the custom policy definitions applied to the educators and staf
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
 |  |       |Remove users from group chats         |On        |On|
 |  |       |Suggested replies         |???         |???|
-|App permission polices  |       |Microsoft apps         |Allow all apps         |Allow all apps|
-|  |       |Third-party apps         |Allow all apps         |Allow all apps|
-|  |       |Custom apps         |Allow all apps         |Allow all apps|
-|App setup polices  |           |Upload custom apps           |Off         |Off|
-|  |       |Allow user pinning |On         |On|
-|  |       |Installed apps         |Insights         |Insights|
-|  |       |Pinned apps         |Activity, Chats, Calendar, Teams, Insights         |Activity, Chats, Calendar, Teams, Insights
-|Calling policies  |       |Make private calls         |On       |On|
+|Calling policy  |       |Make private calls         |On       |On|
 |  |       |Call forwarding and simultaneous ringing to people in your organization         |On        |On|
 |  |       |Call forwarding and simultaneous ringing to external phone numbers         |On        |On|
 |  |       |Voicemail is available for routing inbound calls         |User controlled         |User controlled|
 |  |       |Inbound calls can be routed to call groups         |On        |On|
 |  |       |Allow delegation for inbound and outbound calls         |On         |On|
-|  |       |Prevent toll bypass and send calls through the PSTN        |Off         ||off
+|  |       |Prevent toll bypass and send calls through the PSTN        |Off         |Off|
 |  |       |Busy on busy is available when in a call         |Off         |Off|
 |  |       |Allow web PSTN calling         |On      |On|
 
