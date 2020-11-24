@@ -140,7 +140,7 @@ You may want to change these settings, based on your organization's needs and co
 Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service.
 
 > [!IMPORTANT]
-> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth. The **Meet now** and **New meeting** buttons in Calendar won't be available.
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth. 
 
 | Ask yourself | Action |
 |--------------|--------|

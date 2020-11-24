@@ -58,7 +58,7 @@ Teams provides the ability for the organizers to create an event with the approp
 ![the New live events screen](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
 > [!IMPORTANT]
-> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth. The **Meet now** and **New meeting** buttons in Calendar won't be available.
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
 
 ### Production
 
