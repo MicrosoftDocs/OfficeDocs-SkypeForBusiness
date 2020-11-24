@@ -80,8 +80,7 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 
 ### 2. Configure user experiences using policies
 
-> [!IMPORTANT]
-> You can run the [Teams for Education easy policy setup tool](easy-policy-setup-edu.md) to easily set up policies for your students and staff. The tool adjusts the Global (Org-wide default) policy definition for a core set of policies with settings that we recommend to keep your students safe and creates and assigns a set of custom policies to educators and staff. If you already used the tool to set up policies for your students and staff, use this article only as a reference.
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > To learn more about the actions you must take to protect students, you can check out the [Keeping students safe in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). If you want to deep dive into our admin EDU policy recommendations, you should go to [Teams policies and policy packages for Education](policy-packages-edu.md).

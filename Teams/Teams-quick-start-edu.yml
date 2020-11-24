@@ -115,8 +115,7 @@ items:
   
     You can easily manage all Teams policies in the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by signing in with your admin credentials.
 
-    > [!IMPORTANT]
-    > You can run the [Teams for Education easy policy setup tool](easy-policy-setup-edu.md) to easily set up policies for your students and staff. The tool adjusts the Global (Org-wide default) policy definition for a core set of policies with settings that we recommend to keep your students safe and creates and assigns a set of custom policies to educators and staff. If you already used the tool to set up policies for your students and staff, use this article only as a reference or if you want to learn how to manually create or manage policies.
+    [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
     Settings in the Microsoft Teams admin center are not managed based on user license type. Instead, we suggest that you define different policies to manage which capabilities are available to your users. To configure a policy, click the policy in the left navigation of the Microsoft Teams admin center. Here's an example of messaging policies. 
 

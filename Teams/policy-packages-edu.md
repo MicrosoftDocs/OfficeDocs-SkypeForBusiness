@@ -25,8 +25,7 @@ description: Learn about policies in a educational or EDU setting, and how to us
 
 # Teams policies and policy packages for Education
 
-> [!IMPORTANT]
-> You can run the [Teams for Education easy policy setup tool](easy-policy-setup-edu.md) to easily set up policies for your students and staff. The tool adjusts the Global (Org-wide default) policy definition for a core set of policies with settings that we recommend to keep your students safe and creates and assigns a set of custom policies to educators and staff. If you already used the tool to set up policies for your students and staff, use this article only as a reference or if you want to learn how to manually create or manage policies.
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](assign-policies.md).
