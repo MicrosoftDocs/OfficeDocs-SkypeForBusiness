@@ -189,7 +189,7 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 
 Here's a summary of the settings applied by the wizard for each policy area. 
 
-#### [**Students**](#tab/student_settings/)
+#### [**Students**](#tab/student-settings/)
 
 Here's a list of the Global (Org-wide default) policy definitions adjusted by the wizard and applied to students.
 
@@ -260,7 +260,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Busy on busy is available when in a call         |Off         |Off|
 |  |       |Allow web PSTN calling         |Off         |On|
 
-#### [**Educators and staff**](#tab/educator_settings/)
+#### [**Educators and staff**](#tab/educator-settings/)
 
 Here's a list of the custom policy definitions applied to the educators and staff group that you choose in the wizard.  
 
