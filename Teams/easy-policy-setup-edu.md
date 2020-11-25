@@ -20,26 +20,24 @@ f1keywords:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Easy policy setup using the Teams for Education policy wizard for a safe learning environment
+# Use the Teams for Education policy wizard to easily set up policies for a safe learning environment
 
 ## Overview
 
-**Alternative title**: Use the Teams for Education policy wizard to easily set up policies using for a safe learning environment
-
-The Teams for Education policy wizard simplifies managing policies for your students and educators. Use it to easily and quickly set up the most important set of policies to create a safe and productive learning experience.
+The Teams for Education policy wizard simplifies managing policies for your students and educators. Use it to easily and quickly set up the most important set of policies relevant to creating a safe and productive learning experience.
 
 Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area has settings that can be adjusted to control access.
 
 To maintain a safe and focused learning environment, it's important to set policies to control what students can do in Teams. For example, you can use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. You can also use policies to turn on Teams features that enrich the learning experience.
 
-Policies must be adjusted for both students and educators to keep the learning experience safe. Students should get the most conservative settings with the tightest restrictions to reduce the risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies with more permissive settings to be successful. For example, allow educators to schedule meetings and restrict students from doing so. 
+Policies must be adjusted for both students and educators to keep the learning experience safe. Students should get conservative settings with tighter restrictions to reduce the risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies with more permissive settings to be successful. For example, allow educators to schedule meetings and restrict students from doing so. 
 
 :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of wizard":::
 
 This article walks you through how to run the wizard.
 
 > [!IMPORTANT]
-> The policies applied by the wizard will satisfy the needs of the majority of Teams for Education customers. The wizard adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The wizard also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this wizard. Use other policy assignment methods *only* if you want to configure policies for your students and staff on your own.
+> The policies applied by the wizard will satisfy the needs of the majority of Teams for Education customers. The wizard adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The wizard also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this wizard. Use other policy assignment methods *only* if you want to manually create and manage policies for your students and staff.
 
 ## Teams for Education policy wizard
 
