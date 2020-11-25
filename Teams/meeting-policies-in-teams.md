@@ -113,7 +113,7 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 Allow **Meet now** is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn this setting on, users can select the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. The default value is True.
 
-[Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) 
 
 ### Allow the Outlook add-in
 
@@ -131,24 +131,24 @@ If this policy is turned off, users won't be able to create new channel meetings
 
 Schedule a meeting will be disabled.
 
-![Screenshot showing the Schedule a meeting option in Teams](media/schedule-meeting-option.png)
+ ![Screenshot showing the Schedule a meeting option in Teams](media/schedule-media-option.png)
 
 Channel selection is disabled.
 
-[Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+![the calendar option for selecting a channel that you want to schedule a meeting in.](media/meeting-policies-select-a-channel-to-meet-in.png)
 
 In the channel posts page, the following features will be disabled:
 
 - **Schedule a meeting** button on the channel reply compose box.
-  ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-meeting-disabled-in-chat2.png)
+  ![schedule a meeting button reply compose box](media/schedule-meeting-disabled-in-chat2.png)
   
 - **Schedule a meeting** button on the channel header.
-  ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/schedule-now-in-header.png)
+  ![schedule a meeting button in the channel header](media/schedule-now-in-header.png)
 
 In the channel calendar:
 
 - **Add new event** button on channel calendar header will be disabled.
-  ![Screenshot showing the calendar option for selecting a channel that you want to schedule a meeting in.](media/add-new-event-disabled.png)
+  ![button on channel calendar header disabled](media/add-new-event-disabled.png)
 
 - Users won't be able to drag and select a time block on the channel calendar to create a channel meeting.
 
@@ -158,7 +158,7 @@ In the admin center:
 
 The channel calendar app will show up in the **Microsoft apps** section on the app permission policies page.
 
-![Screenshot showing the app permissions policy in the Teams admin center.](media/manage-microsoft-apps-policy.png)
+ ![the app permissions policy in the Teams admin center](media/manage-microsoft-apps-policy.png)
 
 ### Allow scheduling private meetings
 
@@ -187,7 +187,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
 
-![Screenshot showing transcription options in a meeting](media/meeting-policies-transcription.png)
+![the transcription options in a meeting](media/meeting-policies-transcription.png)
 
 ### Allow cloud recording
 
@@ -195,7 +195,7 @@ This is a combination of a per-organizer and per-user policy. This setting contr
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
 
-![Screenshot showing recording options](media/meeting-policies-recording.png)
+![the recording options](media/meeting-policies-recording.png)
 
 Let's look at the following example.
 
