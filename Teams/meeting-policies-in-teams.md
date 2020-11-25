@@ -131,7 +131,7 @@ If this policy is turned off, users won't be able to create new channel meetings
 
 Schedule a meeting will be disabled.
 
- ![Screenshot showing the Schedule a meeting option in Teams](media/schedule-media-option.png)
+ ![Screenshot showing the Schedule a meeting option in Teams](media/schedule-meeting-option.png)
 
 Channel selection is disabled.
 
