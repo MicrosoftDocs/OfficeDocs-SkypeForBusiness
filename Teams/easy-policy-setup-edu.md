@@ -85,11 +85,9 @@ Follow these steps to run the wizard.
 
 ## What to do after running the wizard
 
-<a name="polwiz_after_run"> </a>
+<a name="polwiz_remove"> </a>
 
 ### Step 1: Remove existing policy assignments that conflict with policies set up by the wizard
-
-<a name="polwiz_remove"> </a>
 
 > [!IMPORTANT]
 > **Complete this step only if you have existing policies assigned to students or educators and staff *before* you ran the wizard**. If you're new to Teams and don't have any existing policies other than the policies created by the wizard, skip this and go to step 2.
@@ -120,17 +118,17 @@ For each [policy area set up by the wizard](#policies-set-up-by-the-wizard), do 
 
 For example, you assigned a meeting policy directly to educators and your students have the Global (Org-wide default) meeting policy. In this scenario, remove the meeting policy that you directly assigned to educators so that the custom policy definition for the meeting policy created by the wizard will take effect. You don't have to do anything with the existing Global (Org-wide default) meeting policy for students because no other meeting policies conflict with it.
 
-### Step 2: Check for additional measures that you can take for student safety
-
 <a name="polwiz_addmeasures"> </a>
+
+### Step 2: Check for additional measures that you can take for student safety
 
 The wizard automatically adjusts and applies [these policies](#policies-set-up-by-the-wizard). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for additional safety recommendations.
 
-### Step 3: Check Message Center for policy updates
-
 <a name="polwiz_mc"> </a>
+
+### Step 3: Check Message Center for policy updates
 
 Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety aren't automatically added by the wizard. This capability will be available in a future release.
 
