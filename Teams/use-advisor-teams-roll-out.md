@@ -184,19 +184,19 @@ To learn more, see [Add a SharePoint page or list to a channel in Teams](https:/
 
 ### Train your support team
 
-Use the Planner tasks in the workload channels of the Deployment team and the resources in your learning pathways site to onboard your help desk and Champions to Teams. Get them ready with the tools and information they need to support your users on Teams.
+Use the resources in your learning pathways site to onboard your help desk and Champions to Teams. Get them ready with the tools and information they need to support your users on Teams.
 
 ### Drive adoption
 
-POINT TO LP adoption node, customize the site, use your comm channels to drive awareness. point to m365 adopt site. 
+After you have customized your site and put together your initial learning campaigns, consider how you'll drive awareness with your users to encourage them to continue to use learning pathways for ongoing learning.
 
 As the “go-to” contact for end user “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](https://docs.microsoft.comoffice365/customlearning/custom_overview) by building a training and support page.
 
-For example, add the Teams playlists from the Microsoft 365 training page, and add a Yammer feed. 
-
-Then, [add it  as a tab to a channel](#step-6-add-the-learning-pathways-site-to-teams) in a team to support your users.
-
 To promote the site and generate awareness, consider including a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
+
+To learn more, see [Drive adoption of learning pathways](https://docs.microsoft.com/office365/customlearning/driveadoption].
+
+POINT TO LP adoption node, customize the site, use your comm channels to drive awareness. point to m365 adopt site. 
 
 ## Frequently asked questions
 
