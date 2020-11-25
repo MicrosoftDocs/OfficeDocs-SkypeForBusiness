@@ -324,7 +324,7 @@ For meetings that need the highest-quality video experience, such as CEO board m
 ### Screen sharing mode
 
 > [!Note]
-> This feature is still in development. Screen sharing is per-participant policy.
+> This feature is still in development. Screen sharing is a per-participant policy.
 
 This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
 
