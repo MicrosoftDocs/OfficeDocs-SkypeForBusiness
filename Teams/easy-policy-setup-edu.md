@@ -161,7 +161,7 @@ The following table summarizes what happens when you make a change in the wizard
 
 Here's the policy areas and corresponding policy names covered by the wizard. To find these policies, go to the Microsoft Teams admin center, and then in the left navigation, go to each policy area page. 
 
-#### [**Students**](#tab/Students/)
+#### [**Students**](#tab/students/)
 
 |Policy area  |Primary or Secondary policy name |Higher education policy name  |
 |---------|---------|---------|
@@ -189,7 +189,7 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 
 Here's a summary of the settings applied by the wizard for each policy area. 
 
-#### [**Students**](#tab/Students/)
+#### [**Students**](#tab/student_settings/)
 
 Here's a list of the Global (Org-wide default) policy definitions adjusted by the wizard and applied to students.
 
@@ -260,7 +260,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Busy on busy is available when in a call         |Off         |Off|
 |  |       |Allow web PSTN calling         |Off         |On|
 
-#### [**Educators and staff**](#tab/educators/)
+#### [**Educators and staff**](#tab/educator_settings/)
 
 Here's a list of the custom policy definitions applied to the educators and staff group that you choose in the wizard.  
 
