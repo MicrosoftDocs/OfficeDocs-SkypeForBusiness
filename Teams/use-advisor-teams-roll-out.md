@@ -188,7 +188,7 @@ Use the resources in your learning pathways site to onboard your help desk and C
 
 ### Drive adoption
 
-After you have customized your site and put together your initial learning campaigns, consider how you'll drive awareness with your users to encourage them to continue to use learning pathways for ongoing learning.
+After you have customized your site and put together your initial learning plans, consider how you'll drive awareness with your users to encourage them to continue to use learning pathways for ongoing learning.
 
 As the “go-to” contact for end user “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](https://docs.microsoft.comoffice365/customlearning/custom_overview) by building a training and support page.
 
