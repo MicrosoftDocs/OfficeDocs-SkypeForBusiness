@@ -22,6 +22,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Use the Teams for Education Policy Wizard to easily apply policies for a safe learning environment
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 ## Overview
 
 The Microsoft Teams for Education Policy Wizard simplifies managing policies for your students and educators. Use it to easily and quickly apply the most important set of policies relevant to creating a safe and productive learning experience.
