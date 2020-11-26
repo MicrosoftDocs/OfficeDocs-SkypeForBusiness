@@ -148,7 +148,7 @@ The following is an overview of how you can use Advisor for Teams together with 
 
 ### Get started in learning pathways
 
-To get started with learning pathways, check out [Get started with learning pathways](https://docs.microsoft.com/en-us/office365/customlearning/).
+To get started with learning pathways, check out [Get started with learning pathways](https://docs.microsoft.com/office365/customlearning/).
 
 To set up a new learning pathways solution in your environment, see [Provision a new learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_provision).
 
