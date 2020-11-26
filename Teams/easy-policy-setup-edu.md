@@ -1,5 +1,5 @@
 ---
-title: Easy policy setup for a safe learning environment
+title: Easily apply policies for a safe learning environment
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,22 +15,22 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use the Teams for Education policy wizard to set up policies for students and educators to keep your learning environment safe. 
+description: Learn how to use the Teams for Education policy wizard to apply policies for students and educators to keep your learning environment safe. 
 f1keywords: 
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Use the Teams for Education policy wizard to easily set up policies for a safe learning environment
+# Use the Teams for Education Policy Wizard to easily apply policies for a safe learning environment
 
 ## Overview
 
-The Teams for Education policy wizard simplifies managing policies for your students and educators. Use it to easily and quickly set up the most important set of policies relevant to creating a safe and productive learning experience.
+The Microsoft Teams for Education Policy Wizard simplifies managing policies for your students and educators. Use it to easily and quickly apply the most important set of policies relevant to creating a safe and productive learning experience.
 
-Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area has settings that can be adjusted to control access.
+Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area can be customized to meet your organization's needs.
 
 To maintain a safe and focused learning environment, it's important to set policies to control what students can do in Teams. For example, you can use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. You can also use policies to turn on Teams features that enrich the learning experience.
 
-Policies must be adjusted for both students and educators to keep the learning experience safe. Students should get conservative settings with tighter restrictions to reduce the risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies with more permissive settings to be successful. For example, allow educators to schedule meetings and restrict students from doing so. 
+Policies must be adjusted for both students and educators to keep the learning experience safe. Policies for students need to be more restricted to reduce their risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies that can be more permissive to enable them to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
 
 :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of wizard":::
 
@@ -39,7 +39,7 @@ This article walks you through how to run the wizard.
 > [!IMPORTANT]
 > The policies applied by the wizard will satisfy the needs of the majority of Teams for Education customers. The wizard adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The wizard also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this wizard. Use other policy assignment methods *only* if you want to manually create and manage policies for your students and staff.
 
-## Teams for Education policy wizard
+## Teams for Education Policy Wizard
 
 <a name="polwiz_intro"> </a>
 
@@ -52,7 +52,7 @@ The wizard sets up policies based on educational institution type (**Primary or 
 
 You only need to run the wizard one time. New students automatically get the Global (Org-wide default) policy definitions applied by the wizard and new staff that you add to the group you selected are automatically assigned the custom policies.
 
-See [Policies set up by the wizard](#policies-set-up-by-the-wizard) for a detailed list of policy definitions applied by the wizard.
+See [Policies applied by the wizard](#policies-applied-by-the-wizard) for a detailed list of policy definitions applied by the wizard.
 
 Now, let's get started!
 
@@ -70,7 +70,7 @@ Follow these steps to run the wizard.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in wizard to select institution type":::
 
-3. Search for and select a group that contains your educators and staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-set-up-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select a group that contains your educators and staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in wizard to select educator and staff group":::
 
@@ -87,7 +87,7 @@ Follow these steps to run the wizard.
 
 <a name="polwiz_remove"> </a>
 
-### Step 1: Remove existing policy assignments that conflict with policies set up by the wizard
+### Step 1: Remove existing policy assignments that conflict with policies applied by the wizard
 
 > [!IMPORTANT]
 > **Complete this step only if you have existing policies assigned to students or educators and staff *before* you ran the wizard**. If you're new to Teams and don't have any existing policies other than the policies created by the wizard, skip this and go to step 2.
@@ -107,11 +107,11 @@ If more than one of these policy assignments exist for a user, Teams uses the fo
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.       |
 
-Because of this order, the policies created by the wizard won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy set up by the wizard takes effect.
+Because of this order, the policies created by the wizard won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy applied by the wizard takes effect.
 
-For each [policy area set up by the wizard](#policies-set-up-by-the-wizard), do the following:
+For each [policy area applied by the wizard](#policies-applied-by-the-wizard), do the following:
 
-- Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition set up by the wizard takes effect.
+- Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition applied by the wizard takes effect.
 - Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect. 
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
@@ -122,7 +122,7 @@ For example, you assigned a meeting policy directly to educators and your studen
 
 ### Step 2: Check for additional measures that you can take for student safety
 
-The wizard automatically adjusts and applies [these policies](#policies-set-up-by-the-wizard). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
+The wizard automatically adjusts and applies [these policies](#policies-applied-by-the-wizard). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for additional safety recommendations.
 
@@ -151,7 +151,7 @@ The following table summarizes what happens when you make a change in the wizard
 |Change only the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff group. The custom policy definitions created for the previous educational institution type are removed from the educators and staff group.</li></ul>         |
 |Change only the educators and staff group   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff group and removed from the previous educators and staff group.</li></ul>         |
 
-## Policies set up by the wizard
+## Policies applied by the wizard
 
 <a name="polwiz_policies"> </a>
 
