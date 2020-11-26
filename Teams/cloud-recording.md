@@ -41,7 +41,8 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 - User has Microsoft Stream upload video permissions
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
-- User has TeamsMeetingPolicy-AllowCloudRecording setting set to true
+- User has CsTeamsMeetingPolicy -AllowCloudRecording setting set to true in order to record meetings and group calls
+- User has CsTeamsCallingPolicy -AllowCloudRecordingForCalls setting set to true in order to record 1:1 calls
 - User is not an anonymous, Guest, or federated user in the meeting
 - To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have the -AllowTranscription setting set to true.
 
