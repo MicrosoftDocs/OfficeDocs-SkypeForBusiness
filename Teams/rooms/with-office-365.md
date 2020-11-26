@@ -149,7 +149,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet.
+   Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. This example adds the Meeting Room license to this account:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
@@ -163,7 +163,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    
    For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
    
-   You can also add Phone System capabilities to this account, but previously you have to configure it. See [What is Phone System?](../what-is-phone-system-in-office-365.md) for more details. This example adds the PSTN Domestic and International Calling Plan to this account.
+   You can also add Phone System capabilities to this account, but previously you have to configure it. See [What is Phone System?](../what-is-phone-system-in-office-365.md) for more details. This example adds the PSTN Domestic and International Calling Plan.
    
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
