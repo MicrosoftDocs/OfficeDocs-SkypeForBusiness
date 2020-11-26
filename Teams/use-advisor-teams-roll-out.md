@@ -191,7 +191,7 @@ To learn more, see [Add a SharePoint page or list to a channel in Teams](https:/
 
 Use the resources in your learning pathways site to onboard your help desk and Champions to Teams. Get them ready with the tools and information they need to support your users on Teams.
 
-For guidance and resources on preparing your help desk and Champions for Teams, see [Train your org](https://adoption.microsoft.com/microsoft-teams/#train-your-org) and [Build champions](https://adoption.microsoft.com/microsoft-teams/#build-champions).
+For guidance and resources on preparing your help desk and Champions for Teams, see [Train your org](https://adoption.microsoft.com/microsoft-teams/#train-your-org) and [Build Champions](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
 As the go-to contact for your users for “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](https://docs.microsoft.comoffice365/customlearning/custom_overview) by building a training and support page, and then [add it  as a tab to a channel](#add-your-site-to-teams) in a team for users to self-serve.
 
@@ -199,9 +199,11 @@ As the go-to contact for your users for “how to” questions, your help desk a
 
 After you have customized your site and put together your learning plans, consider how you'll drive awareness with your users to encourage them to use learning pathways for ongoing learning.
 
-Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users. Engage your users by highlighting the ways they can collaborate in Teams, and then direct them to the learning pathways site to learn how.
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users. 
 
-Check out these resources, which include guidance, adoption kits, and best practices, to help you implement a successful rollout and adoption plan.  
+Engage your users by highlighting the ways they can collaborate in Teams, and then direct them to the learning pathways site to learn how.
+
+Check out these resources, which include guidance, adoption kits, best practices,and more, to help you implement a successful rollout and adoption plan.  
 
 - [Drive adoption of learning pathways](https://docs.microsoft.com/office365/customlearning/driveadoption)
 - [Adopt Teams](adopt-microsoft-teams-landing-page.md)
