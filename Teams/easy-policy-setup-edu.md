@@ -32,7 +32,7 @@ Policies in Teams let you control how Teams behaves in your environment and wh
 
 To maintain a safe and focused learning environment, it's important to set policies to control what students can do in Teams. For example, you can use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. You can also use policies to turn on Teams features that enrich the learning experience.
 
-Policies must be adjusted for both students and educators to keep the learning experience safe. Policies for students need to be more restricted to reduce their risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies that can be more permissive to enable them to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
+Policies must be adjusted for both students and educators to keep the learning experience safe. Policies for students need to be more restrictive to reduce their risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies that can be more permissive to enable them to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
 
 :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of wizard":::
 
