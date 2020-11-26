@@ -110,6 +110,7 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 |Stream licenses     |Whether you have an active subscription with Microsoft Stream licenses. This is a prerequisite if you want to turn on Meeting Recording. Queries the Microsoft Graph to see whether you have Microsoft Stream licenses (with at least one license available to assign). For more information on Stream and how to turn it on, read [Teams cloud meeting recording](cloud-recording.md).
 
 ### Assessments for Skype for Business Upgrade
+
 In addition to the [Assessment tests for all workloads](#assessment-tests-for-all-workloads), Skype for Business Upgrade also includes assessments used in the meetings and conferencing plan.
 
 ### Advisor for Teams bot
@@ -163,7 +164,7 @@ To learn more, see [Plan your learning pathways content](https://docs.microsoft.
 
 Learning pathways provides a SharePoint site with a web part that's connected to an online catalog. The Microsoft 365 training page, which hosts the web part, shows all the training available in learning pathways. Have a look around to get familiar with what's available and how content is organized.
 
-Go to your learning pathways site, click **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then click the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
+[Go to your learning pathways site](https://docs.microsoft.com/office365/customlearning/custom_goto), click **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then click the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
 
 #### Take an inventory of Teams learning resources in your organization
 
@@ -198,9 +199,9 @@ As the go-to contact for your users for “how to” questions, your help desk a
 
 After you have customized your site and put together your learning plans, consider how you'll drive awareness with your users to encourage them to use learning pathways for ongoing learning.
 
-Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users. Engage your users by highlighting the ways they can collaborate in Teams, and then direct them to the learning pathways site to learn how.
 
-Check out these resources, which include guidance, adoption kits, and best practices, to help implement a successful adoption and rollout.  
+Check out these resources, which include guidance, adoption kits, and best practices, to help you implement a successful rollout and adoption plan.  
 
 - [Drive adoption of learning pathways](https://docs.microsoft.com/office365/customlearning/driveadoption)
 - [Adopt Teams](adopt-microsoft-teams-landing-page.md)
