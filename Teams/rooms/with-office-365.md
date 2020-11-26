@@ -122,12 +122,11 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
    ```
    <!-- 
    ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
    ``` -->
 
    You can also set a phone number for the account by running the following command:
@@ -150,19 +149,16 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
+   Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet.
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses "Contoso:MEETING_ROOM"
    ``` 
    <!-- 
    ```Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
    For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
@@ -178,22 +174,20 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
+   $cssess = New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```
 
    Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:
 
    ``` Powershell
-   $rm="Rigel1@contoso.onmicrosoft.com"
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
    Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
 
     ``` Powershell
-    $rm="Rigel1@contoso.onmicrosoft.com"
-    Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
+    Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
