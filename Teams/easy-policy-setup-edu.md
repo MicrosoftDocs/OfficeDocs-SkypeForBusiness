@@ -262,7 +262,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 
 #### [**Educators and staff**](#tab/educator-settings/)
 
-Here's a list of the custom policy definitions applied to the educators and staff group that you choose in the wizard.  
+Here's a list of the custom policy definitions assigned to the educators and staff group that you choose in the wizard.  
 
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
