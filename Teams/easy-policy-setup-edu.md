@@ -1,5 +1,5 @@
 ---
-title: Easily apply policies for a safe learning environment
+title: Teams for Education Policy Wizard to easily apply policies for safe learning
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use the Teams for Education policy wizard to apply policies for students and educators to keep your learning environment safe. 
+description: Learn how to use the Teams for Education policy wizard to easily apply policies for students and educators to keep your learning environment safe. 
 f1keywords: 
 ROBOTS: NOINDEX, NOFOLLOW
 ---
@@ -39,7 +39,7 @@ Policies must be adjusted for both students and educators to keep the learning
 This article walks you through how to run the wizard.
 
 > [!IMPORTANT]
-> The policies applied by the wizard will satisfy the needs of the majority of Teams for Education customers. The wizard adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The wizard also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this wizard. Use other policy assignment methods *only* if you want to manually create and manage policies for your students and staff.
+> The policies applied by the wizard will satisfy the needs of the majority of Teams for Education customers. The wizard adjusts the Global (Org-wide default) definition of a core set of policies with settings that we recommend for student safety and applies it to students. The wizard also creates and assigns a set of custom policies to educators and staff. Most Teams for Education customers won't need to use other policy assignment methods after running this wizard. Use other policy assignment methods *only* if you want to manually create and manage policies for your students, educators and staff.
 
 ## Teams for Education Policy Wizard
 
