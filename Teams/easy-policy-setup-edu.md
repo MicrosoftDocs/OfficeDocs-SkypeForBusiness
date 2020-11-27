@@ -54,7 +54,8 @@ The wizard sets up policies based on educational institution type (**Primary or 
 
 You only need to run the wizard one time. New students automatically get the Global (Org-wide default) policy definitions applied by the wizard and new staff that you add to the group you selected are automatically assigned the custom policies.
 
-See [Policies applied by the wizard](#policies-applied-by-the-wizard) for a detailed list of policy definitions applied by the wizard.
+> [!NOTE]
+> See [Policies applied by the wizard](#policies-applied-by-the-wizard) for a detailed list of policy definitions applied by the wizard.
 
 Now, let's get started!
 
