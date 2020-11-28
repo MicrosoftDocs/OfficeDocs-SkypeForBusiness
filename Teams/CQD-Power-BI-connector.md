@@ -26,6 +26,9 @@ Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.m
 
 Make sure you have the right [CQD access role](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) to access the Power BI reports.
 
+    > [!NOTE]
+    > The CQD Power BI Connector only supports DirectQuery in Power BI; Import mode is not supported. 
+
 ## Installation
 
 The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). For the sake of simplicity, here's a quick explanation:
