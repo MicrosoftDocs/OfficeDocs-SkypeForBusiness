@@ -25,7 +25,7 @@ appliesto:
 
 # Assignments in Teams for Education
 
-The Assignments and Grades features in Teams for Education allow educators to assign tasks, work, or quizzes to their students. Educators can manage assignment timelines, instructions, add resources to turn in, grade with rubrics, and more. Then, they can track class and individual student progress in the Grades tab.
+The Assignments and Grades features in Teams for Education allow educators to assign tasks, work, or quizzes to their students. Educators can manage assignment timelines, instructions, add resources to turn in, grade with rubrics, and more. They can also track class and individual student progress in the Grades tab.
 
 [Learn more about Assignments and Grades in Teams for Education](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
@@ -41,7 +41,7 @@ Using the admin settings in the Microsoft Teams admin center, you can turn featu
 
 Guardian emails are sent each weekend to parents or guardians. The email contains information about assignments from the previous week and for the upcoming week. The Parent and Guardian Sync can be setup using [School Data Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync).
 
-This setting is off by default.
+Default setting for this feature is - **Off**.
 
 <a name="bkmakecode"> </a>
 ### MakeCode
@@ -49,7 +49,9 @@ Microsoft MakeCode is a block-based coding platform that brings computer science
 
 MakeCode is a Microsoft product that is subject to the Microsoft [terms of use](https://go.microsoft.com/fwlink/?LinkID=206977) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) policies.
 
-This setting is off by default. To enable MakeCode assignments in Teams, go to the **Teams Admin Center**, navigate to the **Assignments** section, and turn the MakeCode toggle option to **On**. Click **Save**. Allow a few hours for these settings to take effect.
+Default setting for this feature is - **Off**.
+
+To enable MakeCode assignments in Teams, go to the **Teams Admin Center**, navigate to the **Assignments** section, and turn the MakeCode toggle option to **On**. Click **Save**. Allow a few hours for these settings to take effect.
 
 For more information on how this feature works, see this [video demonstration](https://makecode.com/blog/teams/teams-assignments).
 
@@ -60,7 +62,7 @@ For more information on how this feature works, see this [video demonstration](h
 
 [Turnitin](https://www.turnitin.com/) is an academic integrity service. This is a third-party product or service that is subject to its own terms and privacy policy. You are responsible for your use of any third-party products and services.
 
-This setting is off by default.
+Default setting for this feature is - **Off**..
 
 To enable Turnitin for your organization, you will need a Turnitin subscription. Then you can input the following information, which can be found in your Turnitin admin console:
 
@@ -81,5 +83,5 @@ The TurnitinApiKey will be given to you after you follow the prompts.
 Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
 ![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
-Upon clicking the **Save** button in the admin center for this setting, please allow a few hours for these settings to take effect.
+Upon clicking the **Save** button in the admin center for this setting, allow a few hours for these settings to take effect.
 
