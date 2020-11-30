@@ -26,7 +26,7 @@ Manage the Microsoft Teams Exploratory license
 The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now replaced by The Teams Exploratory experience.
 
 > [!NOTE]
-> There is a limit of 100 Microsoft Teams Exploratory license per tenant.
+> There is a limit of 100 Microsoft Teams Exploratory licenses per tenant.
 
 ## What's in the Teams Exploratory experience
 
