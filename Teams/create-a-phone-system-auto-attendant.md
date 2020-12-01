@@ -25,7 +25,7 @@ description: "Learn how to set up and test auto attendants for Microsoft Teams."
 --- 
 # Set up an auto attendant
 
-Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. 
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell.
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
@@ -86,7 +86,7 @@ For dialing options, you can assign the 0-9 keys on the telephone keypad to one 
 
 Key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the 2 key isn't used.
 
-We recommend mapping the 0 key to the operator if you have configured one. If the operator isn't set to any key, the voice command "Operator" is also disabled. 
+We recommend mapping the 0 key to the operator if you have configured one. If the operator isn't set to any key, the voice command "Operator" is also disabled.
 
 For each menu option, specify the following:
 
@@ -230,7 +230,6 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 - [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-
 ## Related topics
 
 [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
@@ -239,6 +238,6 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Small business example — Set up an auto attendant](/microsoftteams/tutorial-org-aa) 
+[Small business example — Set up an auto attendant](/microsoftteams/tutorial-org-aa)
 
 [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
