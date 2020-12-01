@@ -163,7 +163,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    
    For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
    
-   You can also add Phone System capabilities to this account, but previously you have to configure it. See [What is Phone System?](../what-is-phone-system-in-office-365.md) for more details. This example adds the PSTN Domestic and International Calling Plan.
+   You can also add Phone System capabilities to this account, but you have to configure it first. See [What is Phone System?](../what-is-phone-system-in-office-365.md) for more details. This example adds the PSTN Domestic and International Calling Plan:
    
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
