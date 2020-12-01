@@ -35,7 +35,7 @@ Teams is designed and developed in compliance with the Microsoft Trustworthy Com
 
 ## Trustworthy by Default
 
-Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Teams data is protected on the network.
+Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), all Teams data is protected on the network.
 
 ## How Teams Handles Common Security Threats
 
