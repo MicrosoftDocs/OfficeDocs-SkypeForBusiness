@@ -149,7 +149,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. This example adds the Meeting Room license to this account:
+   Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. This example adds the Meeting Room license to the account:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
