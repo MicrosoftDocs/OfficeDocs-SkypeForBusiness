@@ -128,7 +128,7 @@ To turn off the Teams Exploratory experience license:
 
 4. In the **Product licenses** pane, switch the toggle for this exploratory license to **Off**.
 
-    >[!NOTE]
+    > [!NOTE]
     >The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.
 
 ### Manage Teams for users who have the Teams Exploratory license
