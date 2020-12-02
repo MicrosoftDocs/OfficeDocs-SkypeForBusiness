@@ -39,7 +39,7 @@ With the admin settings in Microsoft Teams admin center you can turn the followi
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
 
-The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. Information about the email content can be found here. The emails need to be set up and updated by the admins by using [School Data Sync (SDS)](https://docs.microsoft.com/en-us/schooldatasync/). This feature automatically populates classes for Teams with student rosters from the school's student information system (SIS). The steps to enable this feature are:
+The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. Information about the email content can be found here. The emails need to be set up and updated by the admins by using [School Data Sync (SDS)](https://docs.microsoft.com/schooldatasync/). This feature automatically populates classes for Teams with student rosters from the school's student information system (SIS). The steps to enable this feature are:
 
 1.	Import parent contact information via Parent and Guardian Sync in SDS. [Click here for instructions on how to enable Parent and Guardian Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
