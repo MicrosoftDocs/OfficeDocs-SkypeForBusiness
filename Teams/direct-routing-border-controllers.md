@@ -33,7 +33,7 @@ Microsoft works with each vendor to:
 
 
   > [!NOTE]
-  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. 
+  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. If Microsoft determines that a customer’s direct routing issue is with a vendor’s SBC device, the customer will need to engage the SBC vendor for support.
 
 The table below lists devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
