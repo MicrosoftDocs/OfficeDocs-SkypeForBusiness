@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Security advice and learnings for ITAdmins in installing, configuring and maintaining Microsoft Teams.
+description: Security advice and learnings for IT admins in installing, configuring and maintaining Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -298,8 +298,8 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementing VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementing VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 [Meeting recordings in Teams, where recordings are stored, and who can access them](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
