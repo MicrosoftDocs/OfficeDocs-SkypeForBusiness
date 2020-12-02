@@ -41,7 +41,7 @@ With the admin settings in Microsoft Teams admin center you can turn the followi
 
 The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. Information about the email content can be found here. The emails need to be set up and updated by the admins by using [School Data Sync (SDS)](https://docs.microsoft.com/en-us/schooldatasync/). This feature automatically populates classes for Teams with student rosters from the school's student information system (SIS). The steps to enable this feature are:
 
-1.	Import parent contact information via Parent and Guardian Sync in SDS.  For instructions on how to enable Parent and Guardian Sync, see [Enabling Parent and Guardian Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
+1.	Import parent contact information via Parent and Guardian Sync in SDS. [Click here for instructions on how to enable Parent and Guardian Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
 2.	Turn on the Guardian Setting in the Microsoft Teams Teams Admin Center, as the setting is turned off by default. This will enable teachers to send out a weekly digest. Note that teachers can opt-out of the digest by deselecting the setting inside their own personal class team (**Assignment Settings > Parent/Guardian Emails**).
 
@@ -51,8 +51,8 @@ To verify that Parents will get the email the following three items must be true
 
  - Students belongs to at least one class which where e-mail is not disabled by the teacher in [assignment settings](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
 
- - The emails will contain information about assignments that had due date in the previous week or in the upcoming week.
- 
+ - The emails will contain information about assignments that had a due date in the previous week or in the upcoming week.
+
 This setting is off by default.
 
 
