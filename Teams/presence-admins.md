@@ -75,7 +75,7 @@ User configured states have default expiration settings in Teams, in order to pr
 |||
 
 > [!NOTE]
-A user can also configure manually a duration for her presence. For instance, a user can set herself as Appear offline until tomorrow morning.
+> A user can also configure manually a duration for her presence. For instance, a user can set herself as Appear offline until tomorrow morning.
 
 ## Admin settings in Teams compared to Skype for Business
 
