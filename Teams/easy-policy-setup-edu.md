@@ -115,7 +115,7 @@ Because of this order, the policies created by the wizard won't take effect if a
 For each [policy area applied by the wizard](#policies-applied-by-the-wizard), do the following:
 
 - Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition applied by the wizard takes effect.
-- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect. 
+- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
@@ -141,7 +141,7 @@ Until this capability is available, check [Message Center](https://admin.microso
 
 <a name="polwiz_change"> </a>
 
-If you need to make changes after you run the wizard, you can re-run it and change your selections. 
+If you need to make changes after you run the wizard, you can re-run it and change your selections.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
 2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the group of educators and staff to which you want to assign policies, or both.
@@ -160,7 +160,7 @@ The following table summarizes what happens when you make a change in the wizard
 
 ### Policy areas
 
-Here's the policy areas and corresponding policy names covered by the wizard. To find these policies, go to the Microsoft Teams admin center, and then in the left navigation, go to each policy area page. 
+Here's the policy areas and corresponding policy names covered by the wizard. To find these policies, go to the Microsoft Teams admin center, and then in the left navigation, go to each policy area page.
 
 #### [**Students**](#tab/students/)
 
@@ -188,7 +188,7 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 
 ### Policy settings
 
-Here's a summary of the settings applied by the wizard for each policy area. 
+Here's a summary of the settings applied by the wizard for each policy area.
 
 #### [**Students**](#tab/student-settings/)
 
