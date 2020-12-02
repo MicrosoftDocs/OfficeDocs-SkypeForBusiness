@@ -39,13 +39,13 @@ With the admin settings in Microsoft Teams admin center you can turn the followi
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
 
-The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. Information about the email content can be found here. The emails need to be set up and updated by the admins using the [School Data Sync](https://docs.microsoft.com/en-us/schooldatasync/) feature. SDS automatically populates classes for Teams with student rosters from the school’s student information system (SIS). The steps to enable this feature are:
-1.	Import parent contact information via Parent and Guardian Sync in SDS. [Click here for instructions on how to enable Parent and Guardian Sync](https://docs.microsoft.com/en-us/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
+The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend. Information about the email content can be found here. The emails need to be set up and updated by the admins using the [School Data Sync](https://docs.microsoft.com/schooldatasync/) feature. SDS automatically populates classes for Teams with student rosters from the school’s student information system (SIS). The steps to enable this feature are:
+1.	Import parent contact information via Parent and Guardian Sync in SDS. [Click here for instructions on how to enable Parent and Guardian Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 2.	Turn on the Guardian Setting in the Microsoft Teams Admin Center Teams Admin Center, as the setting is turned off by default. This will enable teachers to send out a weekly digest. Note that teachers can opt-out of the digest by deselecting the setting inside their own personal class team (Assignment Settings > Parent/Guardian Emails).
 
 To verify that Parents will get the email the following three items must be true
 
-1.	Email address attached to the student profile in SDS and tagged as [Parent or Guardian](https://docs.microsoft.com/en-us/schooldatasync/parent-contact-sync-file-format) 
+1.	Email address attached to the student profile in SDS and tagged as [Parent or Guardian](https://docs.microsoft.com/schooldatasync/parent-contact-sync-file-format) 
 2.	Students belongs to at least one class which where e-mail is not disabled by the teacher in [assignment settings](https://support.microsoft.com/en-us/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)
 3.	The emails will contain information about assignments that had due date in the previous week or in the upcoming week
  
