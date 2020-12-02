@@ -12,6 +12,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal

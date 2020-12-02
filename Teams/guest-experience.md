@@ -14,6 +14,7 @@ localization_priority: Normal
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
+  - m365initiative-externalcollab
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
