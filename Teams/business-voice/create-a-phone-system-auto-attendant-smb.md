@@ -42,7 +42,22 @@ You'll be prompted to choose one of these options at various stages as you set u
 
 <a name="steps"></a>
 
-# [Step 1<br>General info](#tab/general-info)
+# [Step 1<br>Phone number](#tab/phone-number)
+
+To configure auto attendants and call queues, you need the following resources:
+
+- A resource account for each auto attendant and each call queue
+- A free Phone System - Virtual User license for each resource account
+- At least one [Microsoft service number](getting-service-phone-numbers.md), direct routing number, or a hybrid number for each resource account that you want to be directly dialable
+ - The service number may be a toll or toll-free number
+
+When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a phone number and a Microsoft 365 Phone System Virtual User license. Additionally:
+
+- For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
+
+
+
+# [Step 2<br>General info](#tab/general-info)
 
 
 To set up an auto attendant, in the Teams admin center, expand **Voice**, click **Auto attendants**, and then click **Add**.
@@ -64,9 +79,9 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, click 
 6. Click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 2 - Call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow)
+> [Step 3 - Call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
 
-# [Step 2<br>Call flow](#tab/call-flow)
+# [Step 3<br>Call flow](#tab/call-flow)
 
 ## Call flow
 
@@ -134,7 +149,7 @@ You can set the extension in the [Microsoft 365 admin center](https://admin.micr
 
 Once you have selected a **Directory search** option, click **Next**.
 
-# [Step 3<br>After hours](#tab/after-hours)
+# [Step 4<br>After hours](#tab/after-hours)
 
 ## Call flow for after hours
 
@@ -150,7 +165,7 @@ Once you have specified your business hours, then choose your call routing optio
 
 Click **Next** when you're done.
 
-# [Step 4<br>Holidays](#tab/holidays)
+# [Step 5<br>Holidays](#tab/holidays)
 
 ## Call flows during holidays
 
@@ -180,7 +195,7 @@ Repeat the procedure as needed for each additional holiday.
 
 When you've added all your holidays, click **Next**.
 
-# [Step 5<br>Dial scope](#tab/dial-scope)
+# [Step 6<br>Dial scope](#tab/dial-scope)
 
 ## Dial scope
 
@@ -195,7 +210,7 @@ You can include or exclude specific users by selecting **Custom user group** und
 
 When you're done setting the dial scope, click **Next**.
 
-# [Step 6<br>Resource accounts](#tab/resource-accounts)
+# [Step 7<br>Resource accounts](#tab/resource-accounts)
 
 ## Resource accounts
 
