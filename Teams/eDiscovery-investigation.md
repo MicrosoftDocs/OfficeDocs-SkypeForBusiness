@@ -64,9 +64,9 @@ The image shows an example of the metadata.
 
 Here's an example of IM conversation between participants during the meeting.
 
-![Image is of a conversation between participants.](media/MeetingIMConversations.png)
+![Conversation between participants in Teams.](media/MeetingIMConversations.png)
 
-![Image is of a conversation between participants.](media/MeetingImConversation2.png)
+![Conversation between participants in eDiscovery search results.](media/MeetingImConversation2.png)
 
 To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
@@ -90,7 +90,7 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel files in an eDiscovery search
 
-Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 1. Run the following to get a list of all SharePoint site collections associated with private channels in the team.
 
