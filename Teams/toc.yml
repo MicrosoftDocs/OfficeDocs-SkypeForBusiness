@@ -1068,11 +1068,11 @@
         - name: Create additional users
           href: business-voice/create-users.md
         - name: Example - Set up a call queue
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: business-voice/create-a-phone-system-call-queue-smb.md
         - name: Set up call queues
           href: business-voice/set-up-call-queues.md
         - name: Example - Set up an auto attendant
-          href: tutorial-org-aa.yml
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
         - name: Set up auto attendants
           href: business-voice/set-up-auto-attendants.md
     - name: Manage your setup

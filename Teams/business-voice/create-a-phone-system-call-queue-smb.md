@@ -1,5 +1,5 @@
 ---
-title: "Create a call queue in Microsoft Teams"
+title: "Create a call queue in Microsoft Teams - small business tutorial"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -25,7 +25,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn how to set up Phone System for call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
 ---
-# Create a call queue
+# Create a call queue - small business tutorial
 
 Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
@@ -181,11 +181,11 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
 ## Related topics
 
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md)
 
-[Getting service phone numbers](getting-service-phone-numbers.md)
+[Getting service phone numbers](../getting-service-phone-numbers.md)
 
-[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
