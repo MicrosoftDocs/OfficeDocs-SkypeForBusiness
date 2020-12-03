@@ -80,13 +80,12 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 
 ### 2. Configure user experiences using policies
 
-> [!IMPORTANT]
-> To learn more about the actions you must take to protect students, you can check out the [Keeping students safe in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). If you want to deep dive into our Admin EDU policy recommendations, you should go to [Teams Policies and Policy Packages for Education](policy-packages-edu.md).
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
-[Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
+> [!NOTE]
+> To learn more about the actions you must take to protect students, you can check out the [Keeping students safe in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). If you want to deep dive into our admin EDU policy recommendations, you should go to [Teams policies and policy packages for Education](policy-packages-edu.md).
 
-> [!IMPORTANT]
-> Our most up-to-date guidance for policies for students and educators can be found at [Teams Policies and Policy Packages for Education](policy-packages-edu.md).
+Teams policies provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
 **Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
 
