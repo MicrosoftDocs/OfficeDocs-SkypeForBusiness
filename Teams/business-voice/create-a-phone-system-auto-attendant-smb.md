@@ -61,6 +61,9 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, click 
 
 6. Click **Next**.
 
+> [!div class="nextstepaction"]
+> [Step 2 - Call flow >](#call-flow)
+
 # [Step 2<br>Call flow](#tab/call-flow)
 
 ## Call flow
