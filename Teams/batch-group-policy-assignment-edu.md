@@ -21,6 +21,8 @@ f1keywords:
 
 # Assign policies to large sets of users in your school
 
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
+
 > [!NOTE]
 > For the larger story on assigning policies in Microsoft Teams, see [Assign policies to your users in Teams](assign-policies.md).
 
