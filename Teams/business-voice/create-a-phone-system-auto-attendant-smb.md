@@ -40,6 +40,8 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 
 You'll be prompted to choose one of these options at various stages as you set up an auto attendant.
 
+<a name="steps"></a>
+
 # [Step 1<br>General info](#tab/general-info)
 
 
