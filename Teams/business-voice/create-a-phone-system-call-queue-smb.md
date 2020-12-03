@@ -39,13 +39,13 @@ Call queues provide:
 
 - Handling options for queue overflow and timeout.
 
-Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.
+Be sure you have read [Plan for Teams auto attendants and call queues](../plan-auto-attendant-call-queue.md) and followed the [getting started steps](../plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.
 
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
 ## Resource account and language
 
-![Screenshot of resource account and language settings](media/call-queue-name-language.png)
+![Screenshot of resource account and language settings](../media/call-queue-name-language.png)
 
 1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
 
@@ -65,9 +65,9 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 
 ## Call agents
 
-Please refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
+Please refer to the [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
 
-![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
+![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups.png)
 
 You can add up to 20 agents individually and up to 200 agents via groups.
 
@@ -80,7 +80,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 
 ## Call routing
 
-![Screenshot of conference mode and routing method settings](media/call-queue-conference-mode-routing-method.png)
+![Screenshot of conference mode and routing method settings](../media/call-queue-conference-mode-routing-method.png)
 
 **Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
@@ -102,7 +102,7 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available or if their presence state has been Away for less than 10 minutes. Agents whose presence state has been Away for more than 10 minutes are not considered idle and will not be eligible to receive calls until they change their presence to Available. 
 
-![Screenshot of routing, opt out, and alert time settings](media/call-queue-presence-agents-time.png)
+![Screenshot of routing, opt out, and alert time settings](../media/call-queue-presence-agents-time.png)
 
 
 **Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
@@ -125,28 +125,28 @@ For high volume queues, we recommend the following settings:
 
 ## Call overflow handling
 
-![Screenshot of call overflow settings](media/call-queue-overflow-handling.png)
+![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](../create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 
 ## Call timeout handling
 
-![Screenshot of call timeout settings](media/call-queue-timeout-handling.png)
+![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
 
 **Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](../create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
 
 ## Caller ID for outbound calls
 
-Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
+Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](../caller-id-policies.md) for more information.
 
 ## Supported clients
 
