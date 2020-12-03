@@ -24,15 +24,14 @@ appliesto:
 
 The Approvals App is available as a personal app for all users.
 
+ ![shows the approvals app](media/approvalApp.png)
+
 Users can pin the Approvals app to save it to the menu bar.
 
+ ![shows the approvals app](media/approvalApp-pin.png)
 ## Approval Solution Provisioning
 
 The first approval created from the Approvals App will trigger the provisioning of the Approval Solution in the default CDS environment. Approvals created from the Approvals app will be stored in the default CDS environment.
-
-Note:
-
--   
 
 ## Required Installation Permissions
 
@@ -50,9 +49,7 @@ Source: [Get started with Power Automate approvals. - Power Automate \| Microsof
 
 ## Storage - CDS
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes.
-
-Source: [Common Data Model \| Microsoft Power Platform](https://powerplatform.microsoft.com/en-us/common-data-model/#:~:text=The%20Common%20Data%20Model%20(CDM,across%20applications%20and%20business%20processes.)
+The Common Data Model (CDM) is the shared data language used by business and analytical applications. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model \| Microsoft Power Platform](https://docs.microsoft.com/power-automate/get-started-approvals)
 
 Flow Page: <https://docs.microsoft.com/en-us/power-automate/modern-approvals>
 
@@ -80,10 +77,12 @@ Flow Page: <https://docs.microsoft.com/en-us/power-automate/modern-approvals>
 
 3.  Select Manage apps and search for the Approvals.
 
+![shows the Admin center navigation with Teams Apps > Manage Apps highlighted](media/manage-approval-apps.png)
 4.  Select Approvals.
 
 5.  Click the toggle to disable the app for your organization.
 
+![shows the details for the Approvals app](media/approvals-details.png)
 ## Retention policy
 
 
