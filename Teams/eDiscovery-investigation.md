@@ -180,7 +180,7 @@ Functionality such as redaction is available in both types of review sets. For m
 
 #### Collection options
 
-When adding to a review set, there are several options available as checkboxes under the **Collection Options** section of the window, including **Conversation Retrieval Options** and **Teams Conversations**. If you enable these options, any individual Teams messages that are part of your review set will also be shown with additional messages surrounding them for context. For example, if your query is very specific and only one message is returned as a result, enabling these options will also return several messages leading up to and following the message that matched your query.
+When adding to a review set, there are several options available as checkboxes under the **Collection Options** section of the window, including **Conversation Retrieval Options** and **Teams Conversations**. If you enable these options, any individual Teams messages that are part of your review set will also be shown with additional messages surrounding them for context. For example, if your query is specific and only one message is returned as a result, enabling these options will also return several messages leading up to and following the message that matched your query.
 
 Many logical criteria are used to determine whether additional messages provide context to messages that match your query. For example, for Teams content, enabling these options will retrieve the parent message and all the child messages because of the way the messages are threaded.
 
