@@ -60,13 +60,15 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 
 The image shows an example of the metadata.
 
-![Image is of the CVR records meeting metadata.](media/conversationOption3.png)
+> [!div class="mx-imgBorder"]
+> ![Image is of the CVR records meeting metadata.](media/conversationOption3.png)
 
 Here's an example of IM conversation between participants during the meeting.
 
 ![Conversation between participants in Teams.](media/MeetingIMConversations.png)
 
-![Conversation between participants in eDiscovery search results.](media/MeetingImConversation2.png)
+> [!div class="mx-imgBorder"]
+> ![Conversation between participants in eDiscovery search results.](media/MeetingImConversation2.png)
 
 To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
@@ -174,7 +176,8 @@ A normal review set is similar to an export; it provides the individual `.msg` f
 
 A conversation review set provides a more intuitive, threaded view of the conversations; it displays related messages together in the proper order.
 
-![Screenshot of conversation review set](media/conversationOptions2.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of conversation review set](media/conversationOptions2.png)
 
 Functionality such as redaction is available in both types of review sets. For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
@@ -210,7 +213,8 @@ Click on the **Annotate view** tab to access annotation features. This tab displ
 
 Here's an example of a redacted file for threaded conversation between users.
 
-![Screenshot of redacted file](media/RedactedFileExample.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of redacted file](media/RedactedFileExample.png)
 
 At the bottom of the **Annotate view** tab is the **Tag documents** button, which displays the tagging panel. Within this panel, you can apply a tag to all messages within the Teams conversation. You can label a conversation as responsive or non-responsive, privileged or not privileged, whether it contains "Interesting items", whether it should be included in export, and whether it needs further review. You can also manage and apply other customizable tags.
 
