@@ -141,7 +141,9 @@ Choose your call flow options
 
     ![Screenshot of call routing settings](../media/auto-attendant-call-flow-route-call-message.png)
 
-3. Under **Set menu options**, choose what you want to happen when callers press a dial key. You can set any of the dial keys to the following destinations:
+3. If you want callers to use dial keys to navigate, then under **Set menu options**, choose what you want to happen when callers press a dial key. (If you're creating this auto attendant as a company directory, leave the dial key options blank.)
+
+    You can set any of the dial keys to the following destinations:
 
     - **Person in the organization** - a person in your organization who is able to receive voice calls.
     - **Voice app** - another auto attendant or a call queue.
@@ -161,40 +163,16 @@ Choose your call flow options
 
     ![Screenshot of dial key options](../media/auto-attendant-call-flow-menu-options-complete.png)
 
-### Directory search
+4. If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name. 
 
-If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they may be unexpectedly routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it via a dial key.
+    (You can choose **Dial by extension**, however the extension must be configured in Azure Active Directorys.)
 
-If you didn't assign dial keys, then choose an option for **Directory search**.
-
-**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
-
-**Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
-
-Users you wish to make available for Dial By Extension need to have an extension specified as part of one of the following phone attributes defined in Active Directory or Azure Active Directory (See [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) for more information.)
-
-- OfficePhone
-- HomePhone
-- Mobile/MobilePhone
-- TelephoneNumber/PhoneNumber
-- OtherTelephone
-
-The required format to enter the extension in the user phone number field is either *+\<phone number>;ext=\<extension>* or *+\<phone number>;x\<extension>*.
-Example: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678".
-
-You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
-
-> [!NOTE]
-> If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
-
-Once you have selected a **Directory search** option, click **Next**.
+5. Once you have selected a **Directory search** option, click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 4 - After hours >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+> [Step 4 - After hours call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
 
 # [Step 4<br>After hours](#tab/after-hours)
-
-## Call flow for after hours
 
 ![Screenshot of after hours day and time settings](../media/auto-attendant-business-hours.png)
 
@@ -209,7 +187,7 @@ Once you have specified your business hours, then choose your call routing optio
 Click **Next** when you're done.
 
 > [!div class="nextstepaction"]
-> [Step 5 - Holidays >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
+> [Step 5 - Holiday call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
 
 # [Step 5<br>Holidays](#tab/holidays)
 
@@ -272,11 +250,9 @@ Repeat the procedure as needed for each additional holiday.
 When you've added all your holidays, click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 6 - Dial scope >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [Step 6 - Choose who's in the directory >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
 
-# [Step 6<br>Dial scope](#tab/dial-scope)
-
-## Dial scope
+# [Step 6<br>Directory members](#tab/dial-scope)
 
 ![Screenshot of dial scope include and exclude options](../media/auto-attendant-dial-scope.png)
 
@@ -290,7 +266,7 @@ You can include or exclude specific users by selecting **Custom user group** und
 When you're done setting the dial scope, click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 7 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
+> [Step 7 - Assign a resource account >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
 
 # [Step 7<br>Resource accounts](#tab/resource-accounts)
 
