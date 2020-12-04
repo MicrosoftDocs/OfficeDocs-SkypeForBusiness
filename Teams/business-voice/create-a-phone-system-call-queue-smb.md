@@ -157,13 +157,13 @@ Choose the call routing method that you want to use.
 
 2. Choose the **Routing method** you want to use. This determines the order in which agents receive calls from the queue. We recommend **Serial routing** or  **Round robin**. Choose from these options:
 
-  - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
+    - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
-  - **Serial routing** rings all call agents one by one. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
+    - **Serial routing** rings all call agents one by one. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
 
-  - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
+    - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-  - **Longest idle** routes each call to the agent who has been idle the longest time. (Agents whose presence state has been Away for more than 10 minutes are not included.)
+    - **Longest idle** routes each call to the agent who has been idle the longest time. (Agents whose presence state has been Away for more than 10 minutes are not included.)
 
     ![Screenshot of conference mode and routing method settings](../media/call-queue-conference-mode-routing-method.png)
 
