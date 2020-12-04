@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-description: Learn how to set up Phone System for call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
+description: Learn how to set up call queues with Microsoft 365 Business Voice.
 ---
 # Create a call queue - small business tutorial
 
