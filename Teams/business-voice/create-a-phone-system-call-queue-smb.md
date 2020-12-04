@@ -47,7 +47,7 @@ Get some [Phone System - Virtual User licenses](../teams-add-on-licensing/virtua
 
 # [Step 1<br>Create a team](#tab/create-team)
 
-When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend using a team. This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers.
+When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend using a team. This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers. A team also provides a voice mailbox for callers to leave a message after hours or if the queue reaches its maximum capacity.
 
 To create a team
 
@@ -62,8 +62,6 @@ To create a team
 5. Name your team and add an optional description.
 
 6. When you're done, click **Create**.
-
-7. Go to the team name in the teams list and click **More options**, and then click **Add member**.
 
 8. Type the names of the people that you want to have in your call queue, and then click **Add**.
 
@@ -120,11 +118,9 @@ Next, we'll start creating a new call queue and assign the resource account.
 
     ![Screenshot of resource account and language settings](../media/call-queue-name-language.png)
 
-## Greetings and music on hold in queue
+4. Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
-Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
-
-Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
+5. Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
 > [!NOTE]
 > The uploaded recording can be no larger than 5 MB.
@@ -135,20 +131,18 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 
 # [Step 3<br>Call agents](#tab/call-agents)
 
-## Call agents
+To add agents to the call queue, we'll add the team that we created earlier.
 
-Please refer to the [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
+1. Click Add groups.
+2. Type the name of the team that you created.
+3. Click Add, and then click Add.
 
-![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups.png)
+    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups-smb.png)
 
-You can add up to 20 agents individually and up to 200 agents via groups.
-
-To add a user to the queue, click **Add users**, search for the user, click **Add**, and then click **Add**.
-
-To add a group to the queue, click **Add groups**, search for the group, click **Add**, and then click **Add**. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
+You can add up to 20 agents individually and up to 200 agents via groups or teams.
 
 > [!NOTE]
-> New users added to a group can take up to eight hours for their first call to arrive.
+> When new users are added to the team, it can take up to eight hours for their first call to arrive.
 
 > [!div class="nextstepaction"]
 > [Step 4 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
