@@ -41,9 +41,17 @@ Call queues provide:
 
 Be sure you have read [Plan for Teams auto attendants and call queues](../plan-auto-attendant-call-queue.md) and followed the [getting started steps](../plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.
 
+get licenses
+
+<a name="steps"></a>
+
 # [Step 1<br>Create a team](#tab/create-team)
 
 # [Step 2<br>Resource accounts](#tab/resource-account)
+
+create resource account
+assign license
+
 
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 

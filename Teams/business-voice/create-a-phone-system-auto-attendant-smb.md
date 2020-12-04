@@ -40,11 +40,16 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 
 You'll be prompted to choose one of these options at various stages as you set up an auto attendant.
 
+get licenses
+
 <a name="steps"></a>
 
 # [Step 1<br>Phone number](#tab/phone-number)
 
 To configure auto attendants and call queues, you need the following resources:
+
+create resource account
+assign license
 
 - A resource account for each auto attendant and each call queue
 - A free Phone System - Virtual User license for each resource account
