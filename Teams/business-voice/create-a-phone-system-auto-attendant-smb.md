@@ -219,11 +219,11 @@ When you've added all your holidays, click **Next**.
 
 # [Step 6<br>Directory members](#tab/dial-scope)
 
-![Screenshot of dial scope include and exclude options](../media/auto-attendant-dial-scope.png)
-
-The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Phone System license or hosted on-premises using Skype for Business Server.
+The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Phone System license.
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
+
+![Screenshot of dial scope include and exclude options](../media/auto-attendant-dial-scope.png)
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
@@ -235,17 +235,19 @@ When you're done setting the dial scope, click **Next**.
 
 # [Step 7<br>Resource accounts](#tab/resource-accounts)
 
-## Resource accounts
-
 All auto attendants must have an associated resource account.  First level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
-![Screenshot of resource account add accounts panel](../media/auto-attendant-add-resource-account.png)
+To add a resource account
 
-To add a resource account, click **Add account** and search for the account that you want to add. Click **Add**, and then click **Add**.
+1. Click **Add account** and search for the account that you want to add. Click **Add**, and then click **Add**.
 
-![Screenshot of resource account list showing resource account with assigned service number](../media/auto-attendant-resource-account-assigned.png)
+    ![Screenshot of resource account add accounts panel](../media/auto-attendant-add-resource-account.png)
 
-When you have finished adding service accounts, click **Submit**. This completes the auto attendant configuration.
+2. When you have finished adding service accounts, click **Submit**.
+
+    ![Screenshot of resource account list showing resource account with assigned service number](../media/auto-attendant-resource-account-assigned.png)
+
+This completes the auto attendant configuration.
 
 ---
 
