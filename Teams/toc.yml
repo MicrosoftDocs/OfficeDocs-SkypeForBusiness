@@ -1067,14 +1067,10 @@
           href: business-voice/policy-packages.md
         - name: Create additional users
           href: business-voice/create-users.md
-        - name: Example - Set up a call queue
+        - name: Set up a call queue
           href: business-voice/create-a-phone-system-call-queue-smb.md
-        - name: Set up call queues
-          href: business-voice/set-up-call-queues.md
-        - name: Example - Set up an auto attendant
+        - name: Set up an auto attendant
           href: business-voice/create-a-phone-system-auto-attendant-smb.md
-        - name: Set up auto attendants
-          href: business-voice/set-up-auto-attendants.md
     - name: Manage your setup
       items: 
         - name: Create one or more users

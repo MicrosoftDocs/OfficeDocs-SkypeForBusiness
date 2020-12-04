@@ -41,6 +41,8 @@ Call queues provide:
 
 Get some [Phone System - Virtual User licenses](../teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
 
+Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for your call agents to your main phone number or the number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](../caller-id-policies.md) for more information.
+
 <a name="steps"></a>
 
 #### Follow these steps to set up your call queue
@@ -155,13 +157,13 @@ Choose the call routing method that you want to use.
 
 2. Choose the **Routing method** you want to use. This determines the order in which agents receive calls from the queue. We recommend **Serial routing** or  **Round robin**. Choose from these options:
 
-  - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
+    - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
-  - **Serial routing** rings all call agents one by one. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
+    - **Serial routing** rings all call agents one by one. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
 
-  - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
+    - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-  - **Longest idle** routes each call to the agent who has been idle the longest time. (Agents whose presence state has been Away for more than 10 minutes are not included.)
+    - **Longest idle** routes each call to the agent who has been idle the longest time. (Agents whose presence state has been Away for more than 10 minutes are not included.)
 
     ![Screenshot of conference mode and routing method settings](../media/call-queue-conference-mode-routing-method.png)
 
@@ -182,7 +184,7 @@ Choose how you want to handle calls that exceed the maximum in the queue.
 
 1. Set the **Maximum calls in the queue**.
 
-2. Choose what you want to do **When the maximum number of calls is reached**. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
+2. Choose what you want to do when the maximum number of calls is reached. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
     - **Person in the organization** - a person in your organization who is able to receive voice calls
     - **Voice app** - an auto attendant or another call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
     - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
@@ -195,19 +197,21 @@ Choose how you want to handle calls that exceed the maximum in the queue.
 
 # [Step 6<br>Call timeout](#tab/call-timeout)
 
-## Call timeout handling
+Choose what you want to happen when calls have been waiting in the queue for too long.
 
-![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
+1. Set the **Call Timeout: maximum wait time**.
 
-**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
+2. Choose what you want to do when a call times out. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
+    - **Person in the organization** - a person in your organization who is able to receive voice calls
+    - **Voice app** - an auto attendant or another call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
+    - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
+    - **Voicemail** - you can use the voice mailbox of the team that you created.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](../create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+    ![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
 
-When you have selected your call timeout options, click **Save**.
+3. Click **Save**.
+
+This completes the setup of your call queue. Next, you may want to [set up an auto attendant](create-a-phone-system-auto-attendant-smb.md).
 
 ---
-
-## Caller ID for outbound calls
-
-Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](../caller-id-policies.md) for more information.
 
