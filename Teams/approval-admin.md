@@ -1,5 +1,5 @@
 ---
-title: Approval application availability in Teams
+title: Approvals application availability in Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
   - Microsoft Teams
 search.appverid: MET150
-description: Learn about the Approval application availability in Microsoft Teams.
+description: Learn about the Approvals application availability in Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -20,9 +20,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams Approval App Availability
+# Teams Approvals App Availability
 
-The Approvals App is available as a personal app for all users.
+The Approvals App is available as a personal app for all Microsoft Teams users.
 
  ![shows the approvals app](media/approvalApp.png)
 
