@@ -41,6 +41,10 @@ Call queues provide:
 
 Be sure you have read [Plan for Teams auto attendants and call queues](../plan-auto-attendant-call-queue.md) and followed the [getting started steps](../plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.
 
+# [Step 1<br>Create a team](#tab/create-team)
+
+# [Step 2<br>Resource accounts](#tab/resource-account)
+
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
 ## Resource account and language
@@ -63,6 +67,8 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 > The uploaded recording can be no larger than 5 MB.
 > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
+# [Step 3<br>Call agents](#tab/call-agents)
+
 ## Call agents
 
 Please refer to the [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
@@ -77,6 +83,8 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
+
+# [Step 4<br>Call routing](#tab/call-routing)
 
 ## Call routing
 
@@ -123,6 +131,8 @@ For high volume queues, we recommend the following settings:
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
 
+# [Step 5<br>Call overflow](#tab/call-overflow)
+
 ## Call overflow handling
 
 ![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
@@ -134,6 +144,8 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 
+# [Step 6<br>Call timeout](#tab/call-timeout)
+
 ## Call timeout handling
 
 ![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
@@ -144,49 +156,9 @@ You can choose to disconnect the call or redirect it to one of the call routing 
 
 When you have selected your call timeout options, click **Save**.
 
+---
+
 ## Caller ID for outbound calls
 
 Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](../caller-id-policies.md) for more information.
 
-## Supported clients
-
-The following clients are supported for call agents in a call queue:
-
-  - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
-  - Lync desktop client 2013 (32-bit and 64-bit versions)
-  - All IP phone models supported for Microsoft Teams. See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-  - Mac Skype for Business Client (version 16.8.196 and later)
-  - Android Skype for Business Client (version 6.16.0.9 and later)
-  - iPhone Skype for Business Client (version 6.16.0 and later)
-  - iPad Skype for Business Client (version 6.16.0 and later)
-  - Microsoft Teams Windows client (32-bit and 64-bit versions)
-  - Microsoft Teams Mac client
-  - Microsoft Teams iPhone app
-  - Microsoft Teams Android app
-
-    > [!NOTE]
-    > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.
-
-## Call queue cmdlets
-
-You can also use Windows PowerShell to create and set up call queues. Here are the cmdlets that you use to manage a call queue.
-
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
-
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
-
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
-
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
-
-## Related topics
-
-[Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md)
-
-[Getting service phone numbers](../getting-service-phone-numbers.md)
-
-[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
-
-[An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
