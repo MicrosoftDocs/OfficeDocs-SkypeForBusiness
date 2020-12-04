@@ -94,7 +94,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
@@ -179,4 +179,4 @@ See [How to auto-apply a retention label](https://docs.microsoft.com/microsoft-3
 
 **How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
 
-See [Which policy takes precedence?](https://docs.microsoft.com/en-us/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
+See [Which policy takes precedence?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
