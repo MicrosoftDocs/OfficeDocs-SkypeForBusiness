@@ -5,7 +5,6 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
-ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -22,7 +21,6 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-  - seo-marvel-apr2020
 description: Learn how to set up Phone System for call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
 ---
 # Create a call queue - small business tutorial
@@ -48,6 +46,9 @@ get licenses
 # [Step 1<br>Create a team](#tab/create-team)
 
 Create a team in Microsoft Teams.
+
+> [!div class="nextstepaction"]
+> [Step 2 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
 
 # [Step 2<br>Resource accounts](#tab/resource-account)
 
@@ -77,6 +78,9 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 > The uploaded recording can be no larger than 5 MB.
 > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
+> [!div class="nextstepaction"]
+> [Step 3 - Call agents >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+
 # [Step 3<br>Call agents](#tab/call-agents)
 
 ## Call agents
@@ -93,6 +97,9 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
+
+> [!div class="nextstepaction"]
+> [Step 4 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
 
 # [Step 4<br>Call routing](#tab/call-routing)
 
@@ -141,6 +148,9 @@ For high volume queues, we recommend the following settings:
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
 
+> [!div class="nextstepaction"]
+> [Step 5 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+
 # [Step 5<br>Call overflow](#tab/call-overflow)
 
 ## Call overflow handling
@@ -153,6 +163,9 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
+
+> [!div class="nextstepaction"]
+> [Step 6 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
 
 # [Step 6<br>Call timeout](#tab/call-timeout)
 

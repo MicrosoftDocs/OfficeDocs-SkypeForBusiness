@@ -5,7 +5,6 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
-ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -60,6 +59,8 @@ When transferring calls to an external phone number, the resource account perfor
 
 - For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
 
+> [!div class="nextstepaction"]
+> [Step 2 - General info >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
 
 
 # [Step 2<br>General info](#tab/general-info)
@@ -154,6 +155,9 @@ You can set the extension in the [Microsoft 365 admin center](https://admin.micr
 
 Once you have selected a **Directory search** option, click **Next**.
 
+> [!div class="nextstepaction"]
+> [Step 4 - After hours >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+
 # [Step 4<br>After hours](#tab/after-hours)
 
 ## Call flow for after hours
@@ -169,6 +173,9 @@ If you want separate call routing for after-hours callers, then specify your bus
 Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified above.
 
 Click **Next** when you're done.
+
+> [!div class="nextstepaction"]
+> [Step 5 - Holidays >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
 
 # [Step 5<br>Holidays](#tab/holidays)
 
@@ -200,6 +207,9 @@ Repeat the procedure as needed for each additional holiday.
 
 When you've added all your holidays, click **Next**.
 
+> [!div class="nextstepaction"]
+> [Step 6 - Dial scope >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+
 # [Step 6<br>Dial scope](#tab/dial-scope)
 
 ## Dial scope
@@ -214,6 +224,9 @@ You can include or exclude specific users by selecting **Custom user group** und
 > It might take up to 36 hours for a new user to have their name listed in the directory.
 
 When you're done setting the dial scope, click **Next**.
+
+> [!div class="nextstepaction"]
+> [Step 7 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
 
 # [Step 7<br>Resource accounts](#tab/resource-accounts)
 
@@ -248,27 +261,6 @@ The outbound phone number that's displayed is determined as follows:
 
 In a Skype for Business hybrid environment, to transfer an auto attendant call to the PSTN, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
-### Create an auto attendant with PowerShell
-
-You can also use PowerShell to create and set up auto attendants. Here are the cmdlets that you need to manage an auto attendant:
-
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 ## Related topics
 
@@ -276,8 +268,3 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers)
 
-[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-[Small business example — Set up an auto attendant](/microsoftteams/tutorial-org-aa)
-
-[An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
