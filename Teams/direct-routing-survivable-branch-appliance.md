@@ -155,7 +155,7 @@ For more information about application registration please see the following:
 
 - [Develop line-of-business apps for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Register an application with the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).  
+- [Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).  
 
 You only need to register one application for use by all the SBAs in your tenant. 
 
