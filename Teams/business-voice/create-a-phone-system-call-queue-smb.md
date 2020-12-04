@@ -182,7 +182,7 @@ Choose how you want to handle calls that exceed the maximum in the queue.
 
 1. Set the **Maximum calls in the queue**.
 
-2. Choose what you want to do **When the maximum number of calls is reached**. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
+2. Choose what you want to do when the maximum number of calls is reached. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
     - **Person in the organization** - a person in your organization who is able to receive voice calls
     - **Voice app** - an auto attendant or another call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
     - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
@@ -195,15 +195,21 @@ Choose how you want to handle calls that exceed the maximum in the queue.
 
 # [Step 6<br>Call timeout](#tab/call-timeout)
 
-## Call timeout handling
+Choose what you want to happen when calls have been waiting in the queue for too long.
 
-![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
+1. Set the **Call Timeout: maximum wait time**.
 
-**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
+2. Choose what you want to do when a call times out. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
+    - **Person in the organization** - a person in your organization who is able to receive voice calls
+    - **Voice app** - an auto attendant or another call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
+    - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
+    - **Voicemail** - you can use the voice mailbox of the team that you created.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](../create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+    ![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
 
-When you have selected your call timeout options, click **Save**.
+3. Click **Save**.
+
+This completes the setup of your call queue. Next, you may want to [set up an auto attendant](create-a-phone-system-auto-attendant-smb.md).
 
 ---
 
