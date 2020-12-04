@@ -47,6 +47,8 @@ get licenses
 
 # [Step 1<br>Create a team](#tab/create-team)
 
+Create a team in Microsoft Teams.
+
 # [Step 2<br>Resource accounts](#tab/resource-account)
 
 create resource account
