@@ -26,20 +26,13 @@ description: "Learn how to set up and test auto attendants for Microsoft 365 Bus
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center.
 
-Auto attendants can direct calls, based on callers' input, to one of the following destinations:
-
-- **Person in the organization** - a person in your organization who is able to receive voice calls.
-- **Voice app** - another auto attendant or a call queue.
-- **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
-- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
-- **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
-
-
-## Before you begin
+#### Before you begin
 
 Get the service numbers that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
 
 Get a [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md) for each auto attendant that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
+
+If you want to have your auto attendant route calls differently on holidays, then [create the holidays that you want to use](../set-up-holidays-in-teams.md) before you create the auto attendant.
 
 <a name="steps"></a>
 
@@ -174,15 +167,15 @@ Choose your call flow options
 
 # [Step 4<br>After hours](#tab/after-hours)
 
-![Screenshot of after hours day and time settings](../media/auto-attendant-business-hours.png)
-
 Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
 
 Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
 
 If you want separate call routing for after-hours callers, then specify your business hours for each day. Click **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
 
-Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified above.
+![Screenshot of after hours day and time settings](../media/auto-attendant-business-hours.png)
+
+Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified in **Step 3 - Call flow**.
 
 Click **Next** when you're done.
 
@@ -191,41 +184,11 @@ Click **Next** when you're done.
 
 # [Step 5<br>Holidays](#tab/holidays)
 
-## Create a holiday
-
-To create a holiday
-
-1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
-
-2. Select **New holiday**.
-
-3. Enter a name for the holiday.
-
-4. Select **Add new date**.
-
-5. Under **Start time**, select the calendar icon and choose the date when you'd like the holiday to begin.
-
-6. Use the drop-down list to select a start time for the holiday.
-
-7. Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end.
-
-8. Use the drop-down list to select an end time for the holiday. The **End time** must be after the **Start time**.  
-
-   > [!NOTE]
-   > If the holiday is for one full day (i.e., a 24 hour period), the **End time** should be set to the next day and the time to 12:00 AM. For example, if your organization is closed on January 1 for New Year's day, set the **Start time** to January 1 12:00 AM and set the **End time** to January 2 @ 12:00 AM.
-
-9. Optionally, add more dates for recurring holidays.
-
-10. Select **Save**.
-
-    ![Screenshot of holidays user interface with dates set up for three years](../media/holidays-set-up.png)
-
-## Call flows during holidays
+You can have calls to your auto attendant routed differently on holidays than on other days. (If you don't want to have a different call flow for holidays, you can skip this step.)
 
 
-![Screenshot of holiday and holiday greeting settings](../media/auto-attendant-holiday-greeting.png)
 
-Your auto attendant can have a call flow for each [Holiday you've set up](../set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
+Your auto attendant can have a call flow for each holiday you've set up. You can add up to 20 scheduled holidays to each auto attendant.
 
 1. On the Holiday call settings page, click **Add**.
 
@@ -235,17 +198,19 @@ Your auto attendant can have a call flow for each [Holiday you've set up](../set
 
 4. Choose the type of greeting that you want to use.
 
-    ![Screenshot of holiday call action settings](../media/auto-attendant-holiday-actions.png)
+    ![Screenshot of holiday and holiday greeting settings](../media/auto-attendant-holiday-greeting.png)
 
 5. Choose if you want to **Disconnect** or **Redirect** the call.
 
 6. If you chose to redirect, choose the call routing destination for the call.
 
+    ![Screenshot of holiday call action settings](../media/auto-attendant-holiday-actions.png)
+
 7. Click **Save**.
 
-![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
-
 Repeat the procedure as needed for each additional holiday.
+
+![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
 
 When you've added all your holidays, click **Next**.
 
