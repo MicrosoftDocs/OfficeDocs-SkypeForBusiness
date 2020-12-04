@@ -1236,17 +1236,13 @@
         - name: Data Loss Prevention
           href: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: eDiscovery
-          items: 
-            - name: Conduct an eDiscovery investigation of content
-              href: ediscovery-investigation.md
-            - name: Place a Teams user or team on legal hold
-              href: legal-hold.md
-        - name: Content Search
-          items: 
-            - name: Use Content Search
-              href: content-search.md
-            - name: Search the audit log for events
-              href: audit-log-events.md
+          href: ediscovery-investigation.md
+        - name: Legal hold
+          href: legal-hold.md
+        - name: Content search
+          href: content-search.md
+        - name: Auditing
+          href: audit-log-events.md
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
