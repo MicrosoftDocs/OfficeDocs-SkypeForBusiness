@@ -1,13 +1,13 @@
 ---
-title: Upgrade Skype for Business Online to Microsoft Teams | Deploy
-author: lanachin
-ms.author: v-lanac
+title: Upgrade from Skype for Business Online to Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business Online deployement. 
+description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business Online deployment. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
