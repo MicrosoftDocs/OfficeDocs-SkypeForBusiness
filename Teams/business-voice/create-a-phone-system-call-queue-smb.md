@@ -37,9 +37,11 @@ Call queues provide:
 
 - Handling options for queue overflow and timeout.
 
-## Before you begin
+#### Before you begin
 
 Get some [Phone System - Virtual User licenses](../teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
+
+#### Follow these steps to set up your call queue
 
 <a name="steps"></a>
 
