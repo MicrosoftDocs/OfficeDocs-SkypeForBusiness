@@ -37,13 +37,9 @@ Call queues provide:
 
 - Handling options for queue overflow and timeout.
 
-Be sure you have read [Plan for Teams auto attendants and call queues](../plan-auto-attendant-call-queue.md) and followed the [getting started steps](../plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.
-
-get licenses
-
 ## Before you begin
 
-Get some [Phone System - Virtual User licenses](teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
+Get some [Phone System - Virtual User licenses](../teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
 
 <a name="steps"></a>
 
@@ -55,6 +51,36 @@ Create a team in Microsoft Teams.
 > [Step 2 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
 
 # [Step 2<br>Resource accounts](#tab/resource-account)
+
+## Create a resource account
+
+You can create a resource account in the Teams admin center.
+
+![Screenshot of add resource account user interface](../media/resource-account-add.png)
+
+1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
+
+2. Click **Add**.
+
+3. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
+
+4. Click **Save**.
+
+![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+
+## Assign a license
+
+For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
+
+![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
+
+1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
+
+2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
+
+3. Click **Save changes**.
+
+
 
 create resource account
 assign license
