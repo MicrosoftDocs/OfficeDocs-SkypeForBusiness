@@ -121,41 +121,45 @@ To set up an auto attendant
 
 # [Step 3<br>Call flow](#tab/call-flow)
 
-![Screenshot of greeting message settings](../media/auto-attendant-call-flow-greeting-message.png)
+Choose your call flow options
 
-Choose if you want to play a greeting when the auto attendant answers a call.
+1. Choose if you want to play a greeting when the auto attendant answers a call.
 
-If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
+    If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
-If you select **Type a greeting message** the system will read the text you the text that you type (up to 1000 characters) when the auto attendant answers a call.
+    If you select **Type a greeting message** the system will read the text you the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-![Screenshot of call routing settings](../media/auto-attendant-call-flow-route-call-message.png)
+    ![Screenshot of greeting message settings](../media/auto-attendant-call-flow-greeting-message.png)
 
-Choose how you want to route the call.
+2. Choose how you want to route the call.
 
-If you select **Disconnect**, the auto attendant will hang up the call.
+    If you select **Disconnect**, the auto attendant will hang up the call.
 
-If you select **Redirect call**, you can choose one of the call routing destinations.
+    If you select **Redirect call**, you can choose one of the call routing destinations.
 
-If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
+    If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
-### Menu options
+    ![Screenshot of call routing settings](../media/auto-attendant-call-flow-route-call-message.png)
 
-![Screenshot of dial key options](../media/auto-attendant-call-flow-menu-options-complete.png)
+3. Under **Set menu options**, choose what you want to happen when callers press a dial key. You can set any of the dial keys to the following destinations:
 
-For dialing options, you can assign the 0-9 keys on the telephone keypad to one of the call routing destinations. (The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.)
+    - **Person in the organization** - a person in your organization who is able to receive voice calls.
+    - **Voice app** - another auto attendant or a call queue.
+    - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
+    - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
+    - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
 
-Key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the 2 key isn't used.
+    We recommend setting 0 key to the operator.
 
-We recommend mapping the 0 key to the operator if you have configured one. If the operator isn't set to any key, the voice command "Operator" is also disabled.
+    For each menu option, specify the following:
 
-For each menu option, specify the following:
+    - **Dial key** - the key on the telephone keypad to access this option.
 
-- **Dial key** - the key on the telephone keypad to access this option. If voice inputs are available, callers can also say this number to access the option.
+    - **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." 
 
-- **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." For example, the caller can press 2, say "two," or say "Sales" to select the option mapped to the 2 key. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to sales."
+    - **Redirect to** - where you want the call to go when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
-- **Redirect to** - the call routing destination used when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
+    ![Screenshot of dial key options](../media/auto-attendant-call-flow-menu-options-complete.png)
 
 ### Directory search
 
