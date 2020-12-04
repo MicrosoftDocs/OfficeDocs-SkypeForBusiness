@@ -174,23 +174,24 @@ Choose the call routing method that you want to use.
     ![Screenshot of routing, opt out, and alert time settings](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Step 5 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [Step 5 - Call overflow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
 
 # [Step 5<br>Call overflow](#tab/call-overflow)
 
-## Call overflow handling
+Choose how you want to handle calls that exceed the maximum in the queue.
 
-![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
+1. Set the **Maximum calls in the queue**.
 
-**Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
+2. Choose what you want to do **When the maximum number of calls is reached**. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
+    - **Person in the organization** - a person in your organization who is able to receive voice calls
+    - **Voice app** - an auto attendant or another call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
+    - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
+    - **Voicemail** - you can use the voice mailbox of the team that you created.
 
-You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](../create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
-
-> [!NOTE]
-> If the maximum number of calls is set to 0 then the greeting message will not play.
+    ![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Step 6 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [Step 6 - Call timeout >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
 
 # [Step 6<br>Call timeout](#tab/call-timeout)
 
