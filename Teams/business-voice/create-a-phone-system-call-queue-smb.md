@@ -41,6 +41,8 @@ Call queues provide:
 
 Get some [Phone System - Virtual User licenses](../teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
 
+Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for your call agents to your main phone number or the number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](../caller-id-policies.md) for more information.
+
 <a name="steps"></a>
 
 #### Follow these steps to set up your call queue
@@ -212,8 +214,4 @@ Choose what you want to happen when calls have been waiting in the queue for too
 This completes the setup of your call queue. Next, you may want to [set up an auto attendant](create-a-phone-system-auto-attendant-smb.md).
 
 ---
-
-## Caller ID for outbound calls
-
-Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](../caller-id-policies.md) for more information.
 
