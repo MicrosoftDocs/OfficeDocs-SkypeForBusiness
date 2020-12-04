@@ -45,18 +45,38 @@ Get some [Phone System - Virtual User licenses](../teams-add-on-licensing/virtua
 
 # [Step 1<br>Create a team](#tab/create-team)
 
-Create a team in Microsoft Teams.
+When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend using a team. This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers.
+
+To create a team
+
+1. First, click **Teams** on the left side of the app, then click **Join or create a team** at the bottom of your teams list.
+
+2. Then click **Create team** (first card, top left corner).
+
+3. Choose **Build a team from scratch**.
+
+4. Next, choose whether you want a public or private team. We recommend **Private** for your call queue to avoid people unintentionally becoming part of the queue by joining the team.
+
+5. Name your team and add an optional description.
+
+6. When you're done, click **Create**.
+
+7. Go to the team name in the teams list and click **More options**, and then click **Add member**.
+
+8. Type the names of the people that you want to have in your call queue, and then click **Add**.
+
+9. Click **Close**. People you add to a team will receive an email letting them know they are now a member of your team and the team will show up in their teams list.
 
 > [!div class="nextstepaction"]
 > [Step 2 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
 
 # [Step 2<br>Resource accounts](#tab/resource-account)
 
-## Create a resource account
+Each call queue that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft 365 Phone System - Virtual User* license, and then use it to start creating the call queue.
+
+### Create a resource account
 
 You can create a resource account in the Teams admin center.
-
-![Screenshot of add resource account user interface](../media/resource-account-add.png)
 
 1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
 
@@ -64,15 +84,17 @@ You can create a resource account in the Teams admin center.
 
 3. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
 
+    ![Screenshot of add resource account user interface](../media/resource-account-add-cq.png)
+
 4. Click **Save**.
+
+The new account will appear in the list of accounts.
 
 ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
-## Assign a license
+### Assign a license
 
-For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
-
-![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
+You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
 
 1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
 
@@ -80,23 +102,21 @@ For each resource account, you must assign a *Microsoft 365 Phone System - Virtu
 
 3. Click **Save changes**.
 
+    ![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
 
+### Create a call queue
 
-create resource account
-assign license
+Next, we'll start creating a new call queue and assign the resource account.
 
-
-To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
-
-## Resource account and language
-
-![Screenshot of resource account and language settings](../media/call-queue-name-language.png)
+1. In the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
 1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
 
 3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+
+    ![Screenshot of resource account and language settings](../media/call-queue-name-language.png)
 
 ## Greetings and music on hold in queue
 
