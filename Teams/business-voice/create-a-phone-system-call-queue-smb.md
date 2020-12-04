@@ -41,6 +41,10 @@ Be sure you have read [Plan for Teams auto attendants and call queues](../plan-a
 
 get licenses
 
+## Before you begin
+
+Get some [Phone System - Virtual User licenses](teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
+
 <a name="steps"></a>
 
 # [Step 1<br>Create a team](#tab/create-team)

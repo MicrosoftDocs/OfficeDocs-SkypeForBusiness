@@ -41,6 +41,12 @@ You'll be prompted to choose one of these options at various stages as you set u
 
 get licenses
 
+## Before you begin
+
+1. Get the service numbers that you need for the auto attendants and call queues that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](getting-service-phone-numbers.md).
+
+2. Get a [Phone System - Virtual User license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
+
 <a name="steps"></a>
 
 # [Step 1<br>Phone number](#tab/phone-number)
