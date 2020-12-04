@@ -94,34 +94,32 @@ If you need this auto attendant to be reachable by a phone number, then assign t
 4. Click **Save**.
 
 > [!div class="nextstepaction"]
-> [Step 2 - General info >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
+> [Step 2 - Auto attendant general info >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
 
 # [Step 2<br>Attendant general info](#tab/general-info)
 
-To set up an auto attendant, in the Teams admin center, expand **Voice**, click **Auto attendants**, and then click **Add**.
+To set up an auto attendant
 
-## General info
+1. In the Teams admin center, expand **Voice**, click **Auto attendants**, and then click **Add**.
 
-![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs](../media/auto-attendant-general-info-page-new.png)
+2. Type a name for the auto attendant in the box at the top.
 
-1. Type a name for the auto attendant in the box at the top.
+3. If you want to designate an operator, specify the destination for calls to the operator. This is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
-2. If you want to designate an operator, specify the destination for calls to the operator. This is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
+4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you create a separate call flow for after hours.
 
-3. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](#call-flow-for-after-hours).
+5. Specify a language for this auto attendant. This the language that will be used for system-generated voice prompts.
 
-4. Specify a language for this auto attendant. This the language that will be used for system-generated voice prompts.
+6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
+    ![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs](../media/auto-attendant-general-info-page-new.png)
 
-6. Click **Next**.
+7. Click **Next**.
 
 > [!div class="nextstepaction"]
 > [Step 3 - Call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
 
 # [Step 3<br>Call flow](#tab/call-flow)
-
-## Call flow
 
 ![Screenshot of greeting message settings](../media/auto-attendant-call-flow-greeting-message.png)
 
