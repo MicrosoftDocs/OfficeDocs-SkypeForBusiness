@@ -1,5 +1,5 @@
 ---
-title: Phone System Direct Routing
+title:  Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,6 +24,8 @@ appliesto:
 ---
 
 # Survivable Branch Appliance (SBA) for Direct Routing - Public Preview
+
+Note: This is a public preview release.
 
 Occasionally, a customer site using Direct Routing to connect to Microsoft Phone System may experience an internet outage.
 
