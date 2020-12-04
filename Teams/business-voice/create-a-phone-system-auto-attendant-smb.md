@@ -228,7 +228,37 @@ Click **Next** when you're done.
 
 # [Step 5<br>Holidays](#tab/holidays)
 
+## Create a holiday
+
+To create a holiday
+
+1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
+
+2. Select **New holiday**.
+
+3. Enter a name for the holiday.
+
+4. Select **Add new date**.
+
+5. Under **Start time**, select the calendar icon and choose the date when you'd like the holiday to begin.
+
+6. Use the drop-down list to select a start time for the holiday.
+
+7. Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end.
+
+8. Use the drop-down list to select an end time for the holiday. The **End time** must be after the **Start time**.  
+
+   > [!NOTE]
+   > If the holiday is for one full day (i.e., a 24 hour period), the **End time** should be set to the next day and the time to 12:00 AM. For example, if your organization is closed on January 1 for New Year's day, set the **Start time** to January 1 12:00 AM and set the **End time** to January 2 @ 12:00 AM.
+
+9. Optionally, add more dates for recurring holidays.
+
+10. Select **Save**.
+
+    ![Screenshot of holidays user interface with dates set up for three years](../media/holidays-set-up.png)
+
 ## Call flows during holidays
+
 
 ![Screenshot of holiday and holiday greeting settings](../media/auto-attendant-holiday-greeting.png)
 
