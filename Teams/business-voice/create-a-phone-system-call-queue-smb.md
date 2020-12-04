@@ -133,9 +133,9 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 To add agents to the call queue, we'll add the team that we created earlier.
 
-1. Click Add groups.
+1. Click **Add groups**.
 2. Type the name of the team that you created.
-3. Click Add, and then click Add.
+3. Click **Add**, and then click **Add**.
 
     ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups-smb.png)
 
@@ -149,69 +149,49 @@ You can add up to 20 agents individually and up to 200 agents via groups or team
 
 # [Step 4<br>Call routing](#tab/call-routing)
 
-## Call routing
+Choose the call routing method that you want to use.
 
-![Screenshot of conference mode and routing method settings](../media/call-queue-conference-mode-routing-method.png)
+1. Set **Conference mode** to **Auto**.
 
-**Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
+2. Choose the **Routing method** you want to use. This determines the order in which agents receive calls from the queue. We recommend **Serial routing** or  **Round robin**. Choose from these options:
 
-  - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-  - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
-  
-Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
+  - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
-> [!NOTE]
-> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
+  - **Serial routing** rings all call agents one by one. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
 
-**Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
+  - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-- **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
+  - **Longest idle** routes each call to the agent who has been idle the longest time. (Agents whose presence state has been Away for more than 10 minutes are not included.)
 
-- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
+    ![Screenshot of conference mode and routing method settings](../media/call-queue-conference-mode-routing-method.png)
 
-- **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
+3. Turn **Presence-based routing** on. This routes calls to agents whose presence status is **Available**.
 
-- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available or if their presence state has been Away for less than 10 minutes. Agents whose presence state has been Away for more than 10 minutes are not considered idle and will not be eligible to receive calls until they change their presence to Available. 
+4. Choose if you want to allow agents to opt out of calls.
 
-![Screenshot of routing, opt out, and alert time settings](../media/call-queue-presence-agents-time.png)
+5. Set an **Agent alert time** to specify how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-
-**Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
-
-You can enable presence-based call routing with any of the routing methods.
-
-If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to. 
-
-> [!NOTE]
-> Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
-
-**Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
-
-For high volume queues, we recommend the following settings:
-
-- **Conference mode** to **Auto**
-- **Routing method** to **Attendant routing**
-- **Presence-based routing** to **On**
-- **Agent alert time:** to **20 seconds**
+    ![Screenshot of routing, opt out, and alert time settings](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Step 5 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [Step 5 - Call overflow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
 
 # [Step 5<br>Call overflow](#tab/call-overflow)
 
-## Call overflow handling
+Choose how you want to handle calls that exceed the maximum in the queue.
 
-![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
+1. Set the **Maximum calls in the queue**.
 
-**Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
+2. Choose what you want to do **When the maximum number of calls is reached**. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
+    - **Person in the organization** - a person in your organization who is able to receive voice calls
+    - **Voice app** - an auto attendant or another call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
+    - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
+    - **Voicemail** - you can use the voice mailbox of the team that you created.
 
-You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](../create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
-
-> [!NOTE]
-> If the maximum number of calls is set to 0 then the greeting message will not play.
+    ![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Step 6 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [Step 6 - Call timeout >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
 
 # [Step 6<br>Call timeout](#tab/call-timeout)
 
