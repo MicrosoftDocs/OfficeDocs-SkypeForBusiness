@@ -84,7 +84,7 @@ You can create a resource account in the Teams admin center.
 
 2. Click **Add**.
 
-3. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
+3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**.
 
     ![Screenshot of add resource account user interface](../media/resource-account-add-cq.png)
 

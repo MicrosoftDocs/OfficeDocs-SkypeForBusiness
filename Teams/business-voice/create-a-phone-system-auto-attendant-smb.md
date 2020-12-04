@@ -26,10 +26,7 @@ description: "Learn how to set up and test auto attendants for Microsoft 365 Bus
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center.
 
-Be sure you have read [Plan for Teams auto attendants and call queues](../plan-auto-attendant-call-queue.md) and followed the [getting started steps](../plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
-
 Auto attendants can direct calls, based on callers' input, to one of the following destinations:
-<a name="call-routing-options" ></a>
 
 - **Person in the organization** - a person in your organization who is able to receive voice calls.
 - **Voice app** - another auto attendant or a call queue.
@@ -37,17 +34,16 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
 - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
 
-You'll be prompted to choose one of these options at various stages as you set up an auto attendant.
 
 ## Before you begin
 
-1. Get the service numbers that you need for the auto attendants and call queues that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
+Get the service numbers that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
 
-2. Get a [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
+Get a [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md) for each auto attendant that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
 
 <a name="steps"></a>
 
-#### Follow these steps to set up your call queue
+#### Follow these steps to set up your auto attendant
 
 # [Step 1<br>Phone number](#tab/phone-number)
 
@@ -57,23 +53,23 @@ Each auto attendant that you create requires a resource account. This is similar
 
 You can create a resource account in the Teams admin center.
 
-![Screenshot of add resource account user interface](../media/resource-account-add.png)
-
 1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
 
 2. Click **Add**.
 
-3. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
+3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Auto attendant** for the **Resource account type**
+
+    ![Screenshot of add resource account user interface](../media/resource-account-add.png)
 
 4. Click **Save**.
 
+The new account will appear in the list of accounts.
+
 ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
-## Assign a license
+### Assign a license
 
-For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
-
-![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
+You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
 
 1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
 
@@ -81,11 +77,11 @@ For each resource account, you must assign a *Microsoft 365 Phone System - Virtu
 
 3. Click **Save changes**.
 
-## Assign a service number
+    ![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
 
-If you're planning to use the resource account with an auto attendant or call queue that requires a service number, assign a number to the resource account.
+### Assign a service number
 
-![Screenshot of the assign service number user interface](../media/resource-account-assign-phone-number.png)
+If you need this auto attendant to be reachable by a phone number, then assign that number to the resource account.
 
 1. In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then click **Assign/unassign**.
 
@@ -93,29 +89,14 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 3. In the **Assigned phone number** box, search for the number you want to use and click **Add**.
 
+    ![Screenshot of the assign service number user interface](../media/resource-account-assign-phone-number.png)
+
 4. Click **Save**.
-
-
-To configure auto attendants and call queues, you need the following resources:
-
-create resource account
-assign license
-
-- A resource account for each auto attendant and each call queue
-- A free Phone System - Virtual User license for each resource account
-- At least one [Microsoft service number](../getting-service-phone-numbers.md), direct routing number, or a hybrid number for each resource account that you want to be directly dialable
- - The service number may be a toll or toll-free number
-
-When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a phone number and a Microsoft 365 Phone System Virtual User license. Additionally:
-
-- For a resource account with a Calling Plan number, assign a [Calling Plan](../calling-plans-for-office-365.md) license.
 
 > [!div class="nextstepaction"]
 > [Step 2 - General info >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
 
-
-# [Step 2<br>General info](#tab/general-info)
-
+# [Step 2<br>Attendant general info](#tab/general-info)
 
 To set up an auto attendant, in the Teams admin center, expand **Voice**, click **Auto attendants**, and then click **Add**.
 
