@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test auto attendants for Microsoft Teams."
+description: "Learn how to set up and test auto attendants for Microsoft 365 Business Voice."
 --- 
 # Set up an auto attendant - small business tutorial
 
@@ -39,8 +39,6 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 
 You'll be prompted to choose one of these options at various stages as you set up an auto attendant.
 
-get licenses
-
 ## Before you begin
 
 1. Get the service numbers that you need for the auto attendants and call queues that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
@@ -49,9 +47,13 @@ get licenses
 
 <a name="steps"></a>
 
+#### Follow these steps to set up your call queue
+
 # [Step 1<br>Phone number](#tab/phone-number)
 
-## Create a resource account
+Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft 365 Phone System - Virtual User* license, and then assign a service number.
+
+### Create a resource account
 
 You can create a resource account in the Teams admin center.
 
@@ -323,27 +325,4 @@ When you have finished adding service accounts, click **Submit**. This completes
 
 ---
 
-## External phone number transfers - technical details
-
-Please refer to the [Prerequisites](../plan-auto-attendant-call-queue.md#prerequisites) in order to allow auto attendants to transfer calls externally.  In addition:
-
-- For a resource account with a [Calling Plan](../calling-plans-for-office-365.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
-
-- For a resource account with a Direct Routing number, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](../direct-routing-connect-the-sbc.md) settings.
-
-The outbound phone number that's displayed is determined as follows:
-
-  - For Calling Plan numbers, the original caller's phone number is displayed.
-  - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
-    - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
-    - If set to Enabled, the resource account phone number is displayed.
-
-In a Skype for Business hybrid environment, to transfer an auto attendant call to the PSTN, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
-
-
-## Related topics
-
-[Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
-
-[Getting service phone numbers](/microsoftteams/getting-service-phone-numbers)
 
