@@ -132,7 +132,13 @@ For access to more auditing approvals within Flow, enable and configure auditing
 
 Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
-To use the preconfigured reports, go to [https://protection.office.com](https://protection.office.com/) -> Search & investigation -> Audit log search and select the Dynamics 365 activities tab. Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
+1. To use the preconfigured reports, sign in to Office 365 Security and Compliance.
+
+2. Select **Search & investigation**.
+
+3. Search the Audit log and select the **Dynamics 365 activities** tab.
+
+Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## Security
 
@@ -168,7 +174,7 @@ From the Teams Approval App, users have access to create new Approvals and view 
 > - A non-interactive user named Microsoft Flow will be added to the environment during Approvals provisioning and given the Approvals Administrator Security Role.
 > - The provisioning user will not be given the Approvals Administrator Security Role.
 
-The following **Approvals User CDS Security Role** describes the user access and permissions.
+The following **Approvals User CDS Security Role** table describes the user access and permissions.
 
 | **Entity**                        | **Permissions**                                               | **Permission Level** |
 |-----------------------------------|---------------------------------------------------------------|----------------------|
