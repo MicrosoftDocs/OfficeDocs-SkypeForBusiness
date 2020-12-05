@@ -86,26 +86,7 @@ items:
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See Office 365 licensing for Teams for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. Teams must be enabled for students before they can access Teams. To get started, IT administrators need to use the Microsoft 365 admin center to enable Microsoft Teams for your school.
-    ## Turn on Microsoft Teams for your school
-
-    1. Sign in to <a href="https://portal.office.com" target="_blank">Office 365</a> with your work or school account.
-    2. Click **Admin** to go to the [Office 365 admin center](https://aka.ms/enableteamssetting).
-    3. Go to **Settings &gt; Settings &gt; Microsoft Teams**. Check **Show all** if you don't see settings right away.
-
-    **Figure 1** - Select Microsoft Teams from the list of services
-
-    ![Select the Microsoft Teams from the list of services](media/enable-microsoft-teams.png).
-
-    4.	Check the **Education – Faculty and Staff** option to enable Teams for faculty and check the **Education – Student** option to enable Teams for students. 
-
-     **Figure 2** - Check the correct option for the license type that you want to configure
-
-     ![Select the Microsoft Teams license that you want to configure](media/enable-microsoft-teams-3.png)
-
-     5.	Click **Save changes**.
-
-  
+    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/teams-edu-licensing" target="_blank"> See Office 365 licensing for Teams for information about both methods </a>. This is valuable to understand if you are interested in piloting Teams before broad enablement.
 
 - title: Configure Teams for your school
   durationInMinutes: 7
