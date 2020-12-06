@@ -94,15 +94,15 @@ For example:
 
 ```
 C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.dk -Description "SBA 1" 
-Identity    : sba1.contoso.dk 
-Fqdn        : sba1.contoso.dk 
+Identity    : sba1.contoso.com 
+Fqdn        : sba1.contoso.com 
 Site        : 
 Description : SBA 1 
 ```
 
 ### Create the Teams Branch Survivability Policy 
 
-To create a policy, you use the New-CsTeamsBranchSurvivabilityPolicy cmdlet. This cmdlet has the following paramaters. Note that the policy can contain one or more SBAs.
+To create a policy, you use the New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following paramaters. Note that the policy can contain one or more SBAs.
 
 | Parameter| Description |
 | :------------|:-------|
@@ -113,21 +113,21 @@ To create a policy, you use the New-CsTeamsBranchSurvivabilityPolicy cmdlet. Thi
 For example:
 
 ```
-C:\> new-CsTeamsBranchSurvivabilityPolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.dk","sba2.contoso.dk" 
+C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
 Identity             : Tag:CPH 
-BranchApplianceFqdns : {sba1.contoso.dk, sba2.contoso.dk} 
+BranchApplianceFqdns : {sba1.contoso.dk, sba2.contoso.com} 
 ```
 
-You can add or remove SBAs from a policy by using the Set-CSTeamsBranchSurvivabilityPolicy cmdlet. For example: 
+You can add or remove SBAs from a policy by using the Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. For example: 
 
 ```
-Set-CsTeamsBranchSurvivabilityPolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.dk"} 
-Set-CsTeamsBranchSurvivabilityPolicy -Identity CPH -BranchApplianceFqdns @{add="sba1.contoso.dk"} 
+Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
+Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{add="sba1.contoso.com"} 
 ```
 
 ### Assign a policy to a user
 
-To assign the policy to individual users, you will by use the Grant-CsTeamsBranchSurvivabilityPolicy cmdlet. This cmdlet has the following parameters:
+To assign the policy to individual users, you will by use the Grant-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
@@ -138,13 +138,13 @@ To assign the policy to individual users, you will by use the Grant-CsTeamsBranc
 For example:
 
 ```
-C:\> Grant-CsTeamsBranchSurvivabilityPolicy -PolicyName CPH -Identity user@contoso.dk 
+C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
 You can remove a policy from a user by granting the $Null policy as shown in the next example:
 
 ```
-C:\> Grant-CsTeamsBranchSurvivabilityPolicy -PolicyName $Null -Identity user@contoso.dk 
+C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
 ### Register an application for the SBA with Azure Active Directory
@@ -195,4 +195,13 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 
 - [TE-Systems](https://www.anynode.de/microsoft-teams-sba/)
 
+## Reporting issues
+Any found issues should be reported directly to Session Border Controller vendors support organization. When reporting the issue please explicitly mark that you have a configured Survivable Branch Appliance.
 
+## Known issues
+- When you add new Survivable Branch Appliances it might take some time before you can use them in Survivable Branch Appliance policies 
+- When you assign a Survivable Branch Appliance policy to a user it might take some time before it is shown in the output of Get-CsOnlineUser 
+- Reverse number lookup against AAD Contacts is not performed 
+- The SBA does not support call forwarding settings 
+- Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported
+- Output of Get-CsOnlineUser shows TeamsBranchSurvivabilityPolicy 
