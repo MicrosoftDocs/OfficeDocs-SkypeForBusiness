@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: Manage voice routing policies
               href: manage-voice-routing-policies.md
+            - name: Direct Routing Survivable Branch Appliance
+              href: direct-routing-survivable-branch-appliance.md
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
