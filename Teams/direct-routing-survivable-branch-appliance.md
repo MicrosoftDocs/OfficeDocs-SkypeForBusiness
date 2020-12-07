@@ -191,17 +191,24 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 
 - [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 
-- Oracle (TBD) 
+- [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams) 
 
 - [TE-Systems](https://www.anynode.de/microsoft-teams-sba/)
 
 ## Reporting issues
-Any found issues should be reported directly to Session Border Controller vendors support organization. When reporting the issue please explicitly mark that you have a configured Survivable Branch Appliance.
+
+Report any issues to your SBC vendor's support organization. When reporting the issue, indicate that you have a configured Survivable Branch Appliance.
 
 ## Known issues
-- When you add new Survivable Branch Appliances it might take some time before you can use them in Survivable Branch Appliance policies 
-- When you assign a Survivable Branch Appliance policy to a user it might take some time before it is shown in the output of Get-CsOnlineUser 
-- Reverse number lookup against AAD Contacts is not performed 
-- The SBA does not support call forwarding settings 
-- Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported
-- Output of Get-CsOnlineUser shows TeamsBranchSurvivabilityPolicy 
+
+- When you add new Survivable Branch Appliances, it might take some time before you can use them in Survivable Branch Appliance policies.
+
+- When you assign a Survivable Branch Appliance policy to a user, it might take some time before the SBA is shown in the output of Get-CsOnlineUser. 
+
+- Reverse number lookup against Azure AD Contacts is not performed. 
+
+- The SBA does not support call forwarding settings. 
+
+- Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
+
+- The output of Get-CsOnlineUser shows TeamsBranchSurvivabilityPolicy.
