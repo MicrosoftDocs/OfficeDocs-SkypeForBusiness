@@ -86,7 +86,7 @@ items:
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/teams-edu-licensing" target="_blank"> See Office 365 licensing for Teams for information about both methods </a>. This is valuable to understand if you are interested in piloting Teams before broad enablement.
+    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. <a href="https://docs.microsoft.com/MicrosoftTeams/teams-edu-licensing" target="_blank"> See Office 365 licensing for Teams for information about both methods </a>. This is valuable to understand if you are interested in piloting Teams before broad enablement.
 
 - title: Configure Teams for your school
   durationInMinutes: 7
