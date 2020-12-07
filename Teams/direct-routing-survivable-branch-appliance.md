@@ -63,7 +63,7 @@ When the Microsoft Teams client is in offline mode, the following calling-relate
 
 - Receiving PSTN calls via local SBA/SBC with media flowing through the SBC. 
 
-- Hold & Resume of PSTN calls.
+- Hold and Resume of PSTN calls.
 
 ## Configuration
 
