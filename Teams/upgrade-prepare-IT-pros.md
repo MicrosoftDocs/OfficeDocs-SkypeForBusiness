@@ -1,7 +1,7 @@
 ---
-title: Training for Microsoft Teams | IT support Admin issues 
-author: lanachin
-ms.author: v-lanac
+title: Prepare your IT staff for Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams

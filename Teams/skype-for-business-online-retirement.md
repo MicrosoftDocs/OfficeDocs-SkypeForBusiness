@@ -1,13 +1,13 @@
 ---
 title: Skype for Business Online retirement
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Learn about the retirement plan for Skype for Business Online and how Microsoft is helping customers migrate to Teams. 
+description: Learn about the retirement plan for Skype for Business Online, and how Microsoft is helping customers migrate to Teams. 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
