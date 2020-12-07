@@ -39,9 +39,26 @@ Using the admin settings in the Microsoft Teams admin center, you can turn featu
 <a name="#bkemaildigest"> </a>
 ### Weekly guardian email digest
 
+
 Guardian emails are sent each weekend to parents or guardians. The email contains information about assignments from the previous week and for the upcoming week. The Parent and Guardian Sync can be setup using [School Data Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync).
 
+1. Import parent contact information via Parent and Guardian Sync in SDS. For instructions on how to enable Parent and Guardian Sync, see [Enabling Parent and Guardian Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
+
+2. Turn on the Guardian Setting in the Microsoft Teams admin center, as the setting is turned off by default. This will enable teachers to send out a weekly digest.
+
+   > [!NOTE]
+   > Teachers can opt-out of the digest by deselecting the setting inside their own personal class team (**Assignment Settings > Parent/Guardian Emails**).
+
+To verify that Parents will get the email the following three items must be true:
+
+ - Email address attached to the student profile in SDS and tagged as _Parent_ or _Guardian_. For details, see [Parent and Guardian Sync File Format](https://docs.microsoft.com/schooldatasync/parent-contact-sync-file-format).
+
+ - Students belong to at least one class in which e-mail is not disabled by the teacher in [assignment settings](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
+
+ - The emails will contain information about assignments that had a due date in the previous week or in the upcoming week.
+
 Default setting for this feature is - **Off**.
+
 
 <a name="bkmakecode"> </a>
 ### MakeCode
@@ -66,21 +83,23 @@ Default setting for this feature is - **Off**..
 
 To enable Turnitin for your organization, you will need a Turnitin subscription. Then you can input the following information, which can be found in your Turnitin admin console:
 
-  * _TurnitinApiKey_: This is a 32-character GUID found in the admin console under Integrations.
-  * _TurnitinApiUrl_: This is the HTTPS URL of your Turnitin admin console.
+  * **TurnitinApiKey**: This is a 32-character GUID found in the admin console under Integrations.
+  * **TurnitinApiUrl**: This is the HTTPS URL of your Turnitin admin console.
 
 Here are some instructions to help you obtain this information.
 
-The TurnitinApiUrl is the host address of your admin console.
-Example. `https://your-tenant-name.turnitin.com`
+The **TurnitinApiUrl** is the host address of your admin console.
+Example: `https://your-tenant-name.turnitin.com`
 
 The admin console is where you can create an integration and an API key associated with the integration.
 
 Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.
+
 ![Screenshot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
 
-The TurnitinApiKey will be given to you after you follow the prompts. 
+The **TurnitinApiKey** will be given to you after you follow the prompts. 
 Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
+
 ![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
 Upon clicking the **Save** button in the admin center for this setting, allow a few hours for these settings to take effect.
