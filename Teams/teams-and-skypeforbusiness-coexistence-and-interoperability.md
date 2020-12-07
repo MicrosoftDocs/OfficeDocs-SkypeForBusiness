@@ -1,13 +1,13 @@
 ---
-title: Interoperability between Skype for business and Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Interoperability between Skype for Business and Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams. 
+description: Details of Skype for Business and Microsoft Teams coexistence options, and the resulting interoperability between Skype for Business and Teams. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
