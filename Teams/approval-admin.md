@@ -25,11 +25,11 @@ appliesto:
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
 
- ![shows the approvals app](media/approvalApp.png)
+ ![shows the approvals app](media/approvals-selection.png)
 
 Users can pin the Approvals app to save it to the menu bar.
 
- ![shows the approvals app](media/approvalApp-pin.png)
+ ![shows the approvals app with the pin option](media/approvalApp-pin.png)
 
 The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Common Data Service (CDS) environment. Approvals created from the Approvals app will be stored in the default CDS environment.
 
@@ -142,56 +142,7 @@ Learn more about [Microsoft Dataverse and model-driven apps activity logging - P
 
 ## Security
 
-From the Teams Approval App, users have access to create new Approvals and view Approvals they have sent or received. Users won't have access to Approvals created by other users. The following **Approvals Administrator CDS Security Role** table describes the available security roles.
-
-| **Entity / Privilege Type**        | **Permissions**                                                  | **Permission Level** |
-|------------------------------------|------------------------------------------------------------------|----------------------|
-| Action Approval Model              | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Approval                           | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Approval Request                   | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Approval Response                  | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Await All Action Approval Model    | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Await All Approval Model           | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Basic Approval Model Data          | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Business Unit                      | Read                                                             | Organization         |
-| Flow Approval                      | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Note                               | Create, Read, Write, Delete, Append, Append To, Assign, Share    | Organization         |
-| Plugin-in Assembly                 | Read                                                             | Organization         |
-| Plugin-in Type                     | Read                                                             | Organization         |
-| Sdk Message                        | Read                                                             | Organization         |
-| Sdk Message Processing Step        | Read                                                             | Organization         |
-| Sdk Message Processing Step Image  | Read                                                             | Organization         |
-| Sdk Message Processing Step Secure | Read                                                             | Organization         |
-| Security Role                      | Read, Assign                                                     | Organization         |
-| Solution                           | Read                                                             | Organization         |
-| Team                               | Create, Read, Append, Append To                                  | Organization         |
-| User                               | Read, Append, Append To                                          | Organization         |
-| Miscellaneous Privilege            | Act on Behalf of Another User                                    | Organization         |
-| Miscellaneous Privilege            | Override Created on or Created by for Records during Data Import | Organization         |
+From the Teams Approval App, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
 
 > [!Note]
->
-> - A non-interactive user named Microsoft Flow will be added to the environment during Approvals provisioning and given the Approvals Administrator Security Role.
-> - The provisioning user will not be given the Approvals Administrator Security Role.
-
-The following **Approvals User CDS Security Role** table describes the user access and permissions.
-
-| **Entity**                        | **Permissions**                                               | **Permission Level** |
-|-----------------------------------|---------------------------------------------------------------|----------------------|
-| Action Approval Model             | Read                                                          | User                 |
-| Approval                          | Read                                                          | User                 |
-| Approval Request                  | Read                                                          | User                 |
-| Approval Response                 | Read                                                          | User                 |
-| Await All Action Approval Model   | Read                                                          | User                 |
-| Await All Approval Model          | Read                                                          | User                 |
-| Basic Approval Model Data         | Read                                                          | User                 |
-| Flow Approval                     | Read                                                          | User                 |
-| Note                              | Create, Read, Write, Delete, Append, Append To, Assign, Share | User                 |
-| Plugin-in Assembly                | Read                                                          | Organization         |
-| Plugin-in Type                    | Read                                                          | Organization         |
-| Sdk Message                       | Read                                                          | Organization         |
-| Sdk Message Processing Step       | Read                                                          | Organization         |
-| Sdk Message Processing Step Image | Read                                                          | Organization         |
-
-> [!Note]
-> The Approvals User Security Role will automatically be given to users set as an approver.
+> A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
