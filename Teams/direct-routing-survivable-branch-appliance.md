@@ -57,13 +57,13 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 During an internet outage, the Teams client should switch to the SBA automatically, and ongoing calls should continue with no interruptions. No action is required from the user. As soon as the Teams client detects that the internet is up and any outgoing calls are finished, the client will fall back to normal operation mode and connect to other Teams services. The SBA will upload collected Call Data Records to the cloud and call history will be updated so that this information is available for review by the tenant administrator. 
 
-When the Microsoft Teams client is in offline mode, the following calling related functionality is available: 
+When the Microsoft Teams client is in offline mode, the following calling-related functionality is available: 
 
 - Making PSTN calls via local SBA/SBC with media flowing through the SBC.
 
 - Receiving PSTN calls via local SBA/SBC with media flowing through the SBC. 
 
-- Hold & Resume of PSTN calls 
+- Hold & Resume of PSTN calls.
 
 ## Configuration
 
@@ -86,7 +86,7 @@ To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet
 | :------------|:-------|
 | Identity  | The FQDN of the SBA  |
 | Fqdn | The FQDN of the SBA |
-| Site | The TenantNetworkSite where the SBA is located. |
+| Site | The TenantNetworkSite where the SBA is located |
 | Description | Free format text |
 |||
 
@@ -127,7 +127,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 
 ### Assign a policy to a user
 
-To assign the policy to individual users, you will by use the Grant-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters:
+To assign the policy to individual users, you will use the Grant-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
@@ -151,7 +151,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 To allow different SBAs used within your tenant to read required data from Microsoft 365, you need to register an application for the SBA with Azure Active Directory. 
 
-For more information about application registration please see the following:
+For more information about application registration, see the following:
 
 - [Develop line-of-business apps for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
@@ -167,20 +167,20 @@ For the SBA registration, you need the following values created by the registrat
 For the SBA application, keep the following in mind: 
 
 - The name can be whatever you decide.  
-- Supported account types = Account in this organizational directory only 
-- The Web Redirect Uri = https://login.microsoftonline.com/common/oauth2/nativeclient 
-- Implicit grant tokens = Access tokens and ID tokens 
-- API permissions = Skype and Teams Tenant Admin Access -> Application permissions -> application_access_custom_sba_appliance 
-- Client secret: you can use any description and expiration 
-- Remember to copy the client secret right away after you have created it 
-- The Application (client) id is shown on the Overview tab 
+- Supported account types = Account in this organizational directory only. 
+- The Web Redirect Uri = https://login.microsoftonline.com/common/oauth2/nativeclient.
+- Implicit grant tokens = Access tokens and ID tokens. 
+- API permissions = Skype and Teams Tenant Admin Access -> Application permissions -> application_access_custom_sba_appliance.
+- Client secret: you can use any description and expiration. 
+- Remember to copy the client secret immediately after creating it. 
+- The Application (client) id is shown on the Overview tab.
 
 Then follow these steps:
 
-1. Register the application
-2. Set the implicit grant tokens
-3. Set the API permissions
-4. Create the client secret
+1. Register the application.
+2. Set the implicit grant tokens.
+3. Set the API permissions.
+4. Create the client secret.
 
 
 ## Session Border Controller configuration 
