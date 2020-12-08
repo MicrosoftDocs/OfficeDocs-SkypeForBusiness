@@ -67,7 +67,7 @@ Advisor for Teams currently provides the following plans:
     - Advisor for Teams bot
     - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Leveraging a proven success framework for implementing change, the plan will guide you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan will also connect you to [online guidance and best practices](https://aka.ms/SkypeToTeams),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](https://aka.ms/UpgradeWorkshops), and additional resources to support your success.
 
-We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and click **Add channel** to start the next workload.
+We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and select **Add channel** to start the next workload.
 
 ## Tenant assessment
 
@@ -120,7 +120,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 >**Welcome to your Deployment team for Microsoft Teams!**
 >  
->The purpose of this team is to walk you through your organization's Teams rollout by giving you all the resources you need and providing a collaboration space for the project team. Each channel created using Advisor for Teams includes a step-by-step Planner plan and other resources such as a Forms users survey that can be used throughout your rollout. At any point, you can you go back and review the tenant readiness assessment or add additional workload plans using the Teams admin center.
+>The purpose of this team is to walk you through your organization's Teams rollout by giving you all the resources you need and providing a collaboration space for the project team. Each channel created using Advisor for Teams includes a step-by-step Planner plan and other resources such as a Forms users survey that can be used throughout your rollout. At any point, you can go back and review the tenant readiness assessment or add additional workload plans using the Teams admin center.
 >
 >**Call to action**
 >
@@ -166,7 +166,7 @@ To learn more, see [Plan your learning pathways content](https://docs.microsoft.
 
 Learning pathways provides a SharePoint site with a web part that's connected to an online catalog. The Microsoft 365 training page, which hosts the web part, shows all the training available in learning pathways. Have a look around to get familiar with what's available and how content is organized.
 
-[Go to your learning pathways site](https://docs.microsoft.com/office365/customlearning/custom_goto), click **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then select the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
+[Go to your learning pathways site](https://docs.microsoft.com/office365/customlearning/custom_goto), select **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then select the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
 
 #### Take an inventory of Teams learning resources in your organization
 
