@@ -33,45 +33,15 @@ For example, a private channel is useful in these scenarios:
 
 A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
-![Screenshot of private channels in a team](media/private-channels-in-teams.png)
-
-## What you need to know about private channels
-
-Currently, private channels support connectors and tabs (except Stream, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
-
-Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team. 
-
-When you create a team from an existing team, any private channels in the existing team won't be copied over.
-
-
-> [!NOTE]
-> We're continually adding capabilities to private channels so check back for the most up-to-date information regarding apps, channel meetings, and scaling private channels for large teams.
-
-## When to create a private channel
-
-To determine whether a private channel is appropriate, consider the following questions about who needs to work together and what the collaboration is about.
-
-|Is there already a team that has these people as team members?  |Does this work need to be kept private from others?  |Are there multiple distinct topics to discuss?  |Recommendation  |
-|---------|---------|---------|---------|
-|Yes      |Yes         |Yes         |Create a private channel in the existing team or consider creating dedicated private channels for each topic.         |
-|Yes     |Yes         |No         |Create a private channel in the existing team.         |
-|Yes     |No         |No         |Create a channel in the existing team.         |
-|No     |No         |No         |Consider creating a new team.         |
-|No     |No         |Yes         |Consider creating a new team and then, depending on the confidentiality of each topic, consider creating separate standard or private channels for each topic.         |
-|No     |Yes         |No         |Create a new team and consider creating a private channel.         |
-
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
+
+![Screenshot of private channels in a team](media/private-channels-in-teams.png)
 
 ## Private channel creation and membership
 
 ### Who can create private channels?
 
-By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level.
-
- 1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
-
- 2. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels.
-    Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
+By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels. Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
 
 The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 
@@ -89,15 +59,7 @@ If a private channel owner leaves your organization or if they are removed from 
 
 Team owners can see the names of all private channels in their team and can also delete any private channel in the team. (A deleted private channel can be restored within 30 days after it's deleted). Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
 
-The following table shows who can see what in a private channel.
-
-|Item  |Team owner can see |Team members can see |
-|---------|---------|---------|
-|Name and description    |All private channels in the team         |Only the private channels that they are added to         |
-|Conversations and tabs     |Only when added to the private channel         |Only when added to the private channel         |
-|Files and content    |Only when added to the private channel        |Only when added to the private channel         |
-|Private channel owner    |All private channels in the team        |Only when added to the private channel         |
-|Last activity time stamp  |All private channels in the team       |Only when added to the private channel         |
+Team members can only see private channels that they've been added to.
 
 ## Manage private channels
 
@@ -105,20 +67,14 @@ The following table outlines what actions owners, members, and guests can do in 
 
 |Action  |Team owner|Team member|Team guest|Private channel owner|Private channel member|Private channel guest|
 |---------|---------|---------|---------|---------|---------|---------|
-|Create private channel|Yes<sup>1</sup>|Yes<sup>1,2</sup>|No|N/A|N/A|N/A|
+|Create private channel|Admin controlled|Admin and team owner controlled|No|N/A|N/A|N/A|
 |Delete private channel|Yes|No|No|Yes|No|No|
-|Leave private channel|N/A|N/A|N/A|Yes<sup>3</sup>|Yes|Yes|
+|Leave private channel|N/A|N/A|N/A|Yes unless they are the last owner|Yes|Yes|
 |Edit private channel|No|N/A|N/A|Yes|No|No|
 |Restore deleted private channel|Yes|No|No|Yes|No|No|
 |Add members|No|N/A|N/A|Yes|No|No|
 |Edit settings|No|N/A|N/A|Yes|No|No|
-|Manage tabs and apps|No|N/A|N/A|Yes<sup>4</sup>|Yes<sup>5</sup>|No|
-
-<sup>1</sup> Assuming the policy that you, the admin, configured allows the user to create private channels.<br>
-<sup>2</sup> Each team has a setting that team owners can turn on or off to allow team members to create private channels. Team owners can always create private channels.<br>
-<sup>3</sup> Assuming the private channel owner isn't the last owner of the channel. <br>
-<sup>4</sup> Requires the team to have an app installed for a private channel to use it.<br>
-<sup>5</sup> Private channel owners can configure this.
+|Manage tabs and apps|No|N/A|N/A|Yes, apps must be installed for the team|Channel owner controlled|No|
 
 ### Manage private channel membership and settings
 
@@ -158,6 +114,14 @@ If an existing notebook is added as a tab to a private channel, access to the pr
 
 - Not everyone in the private channel will have access to the notebook by default. This is because they may not have access to where the notebook is hosted, such as another team's SharePoint site.
 - Users who are not members of the private channel can view the notebook.  
+
+## Private channel limitations
+
+Currently, private channels support connectors and tabs (except Stream, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
+
+Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team. 
+
+When you create a team from an existing team, any private channels in the existing team won't be copied over.
 
 ## Related topics
 
