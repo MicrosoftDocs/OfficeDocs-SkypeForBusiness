@@ -50,7 +50,7 @@ In order to build a report and run queries, you will first need to connect to th
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector2-resize.png)
 
-3. You will be prompted to login next. Use the same credentials that you use for CQD.<sup>2</sup>
+3. You will be prompted to sign in next. Use the same credentials that you use for CQD.<sup>2</sup>
 
 4. The next prompt will give you the option between two *Data Connectivity modes*. Select *DirectQuery* and hit *OK*.
 

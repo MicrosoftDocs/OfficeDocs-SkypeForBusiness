@@ -63,7 +63,7 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 
 Users don't fit the criteria if they:
 
-- Currently or previously had Teams from a paid, unpaid or trial license 
+- Currently or previously had Teams from a paid, unpaid or trial license.
 - Are in a tenant that used/received at least one special COVID offer.
 
 Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.
@@ -88,7 +88,7 @@ You can turn off a user's ability to install trial apps and services, which woul
 
     ![the Services page in the admin center](media/iw-trial-services.png)
 
-2. Clear the **Let users install trial apps and services** check box.
+2. Clear the check mark from **Let users install trial apps and services**.
 
     ![the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
 
