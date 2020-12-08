@@ -60,11 +60,11 @@ If a team member leaves or is removed from a team, that user will also leave or 
 
 Each private channel has its own settings that the channel owner can manage, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a private channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
 
-The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
+The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.
 
 ![Screenshot of private channel settings](media/private-channels-in-teams-channel-settings.png)
 
-## Manage private channels
+## Private channel owner and member actions
 
 The following table outlines what actions owners, members, and guests can do in private channels.
 
