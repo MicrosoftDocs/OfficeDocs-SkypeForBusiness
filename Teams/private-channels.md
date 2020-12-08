@@ -1,7 +1,7 @@
 ---
 title: Private channels in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
