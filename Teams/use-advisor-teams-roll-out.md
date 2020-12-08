@@ -2,7 +2,7 @@
 title: Use Advisor for Teams to help you roll out Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: brandber
+ms.reviewer: pkrebs
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -41,7 +41,7 @@ For a guided overview of the Advisor for Teams experience, check out the [Deploy
 > [!IMPORTANT]
 > If **Teams Advisor** is missing under **Planning** in the Teams admin center, it means the user isn't licensed for Teams.
 
-The first time you use Advisor for Teams, it'll create a Deployment team for you in Teams. It adds a channel for each workload you select.
+The first time you use Advisor for Teams, it will create a Deployment team for you in Teams. It adds a channel for each workload you select.
 
 > [!IMPORTANT]
 > If a Deployment team has already been created and a different user tries to create it, they'll get an error telling them to contact their support team. This prevents Teams from unintentionally disclosing information about the existing team and its members. Ask the owner of the Deployment team to add you, or contact your support person for help.
@@ -70,9 +70,10 @@ Advisor for Teams currently provides the following plans:
 We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and click **Add channel** to start the next workload.
 
 ## Tenant assessment
-Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments include prerequisites and best practices. Each assessment test will have a green check mark or an orange warning triangle. 
 
-- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>A green check mark means your tenant passed the specific test. 
+Each plan includes a tenant readiness assessment that you can use to quickly identify aspects of your environment that may need remediation before you roll out Teams. The assessments include prerequisites and best practices. Each assessment test will have a green check mark or an orange warning triangle.
+
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>A green check mark means your tenant passed the specific test.
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>An orange warning triangle means that we suggest you follow up to determine if any action is needed (for example, a Microsoft 365 Group expiration policy is recommended but not required).
 
 > [!IMPORTANT]
@@ -120,11 +121,12 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 >**Welcome to your Deployment team for Microsoft Teams!**
 >  
 >The purpose of this team is to walk you through your organization's Teams rollout by giving you all the resources you need and providing a collaboration space for the project team. Each channel created using Advisor for Teams includes a step-by-step Planner plan and other resources such as a Forms users survey that can be used throughout your rollout. At any point, you can you go back and review the tenant readiness assessment or add additional workload plans using the Teams admin center.
-> 
->**Call to action** 
->- If you're new to Teams or Planner, check out our [Teams walkthrough](https://teamsdemo.office.com/) and watch the [Planner quick-start videos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
+>
+>**Call to action**
+>
+>- If you're new to Teams or Planner, check out our [Teams walkthrough](https://teamsdemo.office.com/) and watch the [Planner quick-start videos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7).
 >- Head over to your Deployment team in Teams. Select your workload channel (for example, Chat, teams, channels, and apps), and select the **Planner** tab to get started.
-> 
+>
 >To learn more about Advisor for Teams, read [Use Advisor for Teams to roll out Microsoft Teams](use-advisor-teams-roll-out.md).
 >
 
@@ -164,7 +166,7 @@ To learn more, see [Plan your learning pathways content](https://docs.microsoft.
 
 Learning pathways provides a SharePoint site with a web part that's connected to an online catalog. The Microsoft 365 training page, which hosts the web part, shows all the training available in learning pathways. Have a look around to get familiar with what's available and how content is organized.
 
-[Go to your learning pathways site](https://docs.microsoft.com/office365/customlearning/custom_goto), click **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then click the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
+[Go to your learning pathways site](https://docs.microsoft.com/office365/customlearning/custom_goto), click **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then select the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
 
 #### Take an inventory of Teams learning resources in your organization
 
@@ -178,12 +180,12 @@ To access the Admin Success Center, on the learning pathways Home page, select *
 
 #### Add your site to Teams
 
-When your site is ready, add it to a channel in any team for quick and easy access. 
+When your site is ready, add it to a channel in any team for quick and easy access.
 
 1. In Teams, go to the team, and then select a channel.
 2. At the top of the channel page, select **+** (**Add a tab**).
 3. Select **SharePoint Pages**, and then select **Add a page from any SharePoint site**.
-4. Paste the URL of your learning pathways site, and then select **Save**. 
+4. Paste the URL of your learning pathways site, and then select **Save**.
 
 To learn more, see [Add a SharePoint page or list to a channel in Teams](https://support.microsoft.com/office/add-a-sharepoint-page-or-list-to-a-channel-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b).
 
@@ -199,11 +201,11 @@ As the go-to contact for your users for “how to” questions, your help desk a
 
 After you have customized your site and put together your learning plans, consider how you'll drive awareness with your users to encourage them to use learning pathways for ongoing learning.
 
-Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users. 
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 Engage your users by highlighting the ways they can collaborate in Teams, and then direct them to the learning pathways site to learn how.
 
-Check out these resources, which include guidance, adoption kits, best practices,and more, to help you implement a successful rollout and adoption plan.  
+Check out these resources, which include guidance, adoption kits, best practices, and more, to help you implement a successful rollout and adoption plan.  
 
 - [Drive adoption of learning pathways](https://docs.microsoft.com/office365/customlearning/driveadoption)
 - [Adopt Teams](adopt-microsoft-teams-landing-page.md)
@@ -211,51 +213,57 @@ Check out these resources, which include guidance, adoption kits, best practices
 
 ## Frequently asked questions
 
-### What are the licensing requirements for Advisor for Teams?
+### What are the licensing requirements for Advisor for Teams
 
 At a minimum, you'll need Microsoft 365 Business Basic so you can take advantage of the Advisor for Teams integration with Forms and Planner.
 
-### Can I delete the Deployment team?
+### Can I delete the Deployment team
 
 After Advisor for Teams has created your Deployment team, manage the team like any other team - including the ability to delete it. Be aware that, if you don't delete the team by using the Teams admin center, the Teams admin center will show that the team still exists.
 
-### Can I add or remove channels in the Deployment team?
+### Can I add or remove channels in the Deployment team
 
 Yes, once the Deployment team has been created, you'll manage the channels the same way as any other team.
 
-### Can I add or remove project team members in the Deployment team?
+### Can I add or remove project team members in the Deployment team
 
 Yes, once the Deployment team has been created, you'll manage it the same way as any other team.
 
-### Can I modify the Planner plans?
+### Can I modify the Planner plans
 
 Yes, after Advisor for Teams has created your Deployment team, you should update the Planner plan so it best supports your Teams rollout. You can modify anything - buckets, tasks, task details - just like any other Planner plan.
 
-### Can I modify the Forms survey?
+### Can I modify the Forms survey
 
 Yes, after Advisor for Teams has created your Deployment team, you can modify the Forms survey as needed.
 
-### Are there any differences between Advisor for Teams in GCC?
+### Are there any differences between Advisor for Teams in GCC
 
 Yes, user survey Forms are created but are not pinned in plan channels as the Teams Forms app is not available in GCC presently.
 
-### What information is Advisor for Teams collecting about my organization?
+### What information is Advisor for Teams collecting about my organization
 
 Advisor for Teams requests your agreement to collecting non-EUII (end user identifying information). The information that is collected is in the form of telemetry that provides feedback to Microsoft on how well Advisor for Teams is driving successful outcomes and where it may need to be improved. This same data is used to identify opportunities for Microsoft to proactively engage with your organization in an effort to assist with your deployment.
 
-### Can I use Advisor for Teams with FastTrack?
+### Can I use Advisor for Teams with FastTrack
+
 Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
-### Can I use Advisor for Teams with a partner?
+### Can I use Advisor for Teams with a partner
+
 Yes, you can use Advisor for Teams while also using a deployment partner for your Teams deployment. If your partner is a CSP and manages your tenant on your behalf, they can use Advisor for Teams to create your Deployment team and assist you with executing the overall project. Additionally, you can work with any partner by adding those individuals as guests in your Deployment team, to allow them to participate as a member of the overall project team.
 
-### How do I use Planner?
-Check out [Microsoft Planner help](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) and the [Planner quick-start videos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
+### How do I use Planner
 
-### How do I use Forms?
+Check out [Microsoft Planner help](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) and the [Planner quick-start videos](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7).
+
+### How do I use Forms
+
 Go to the [Forms help center](https://support.office.com/forms).
 
 ## Related topics
+
+[Customize your Teams advisor](custom-teamsadvisor.md)
 
 [How to roll out Teams](How-to-roll-out-teams.md)
 
