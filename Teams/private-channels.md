@@ -37,29 +37,32 @@ When a private channel is created, it's linked to the parent team and can't be m
 
 ![Screenshot of private channels in a team](media/private-channels-in-teams.png)
 
-## Private channel creation and membership
-
-### Who can create private channels?
+## Private channel creation
 
 By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels. Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
 
-The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
+The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new 
+members are added, they can see all conversations (even old conversations) in that private channel.
 
-### What happens when a team member leaves or is removed from a team?
+Team owners can see the names of all private channels in their team and can also delete any private channel in the team. (A deleted private channel can be restored within 30 days after it's deleted). Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
 
-If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
+Team members can only see private channels that they've been added to.
 
-### What happens when a private channel owner is removed from a private channel?
+## Adding and removing owners and members
 
 A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
 
 If a private channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
 
-### What can team owners and team members see in a private channel?
+If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
 
-Team owners can see the names of all private channels in their team and can also delete any private channel in the team. (A deleted private channel can be restored within 30 days after it's deleted). Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
+## Channel owner settings
 
-Team members can only see private channels that they've been added to.
+Each private channel has its own settings that the channel owner can manage, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a private channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
+
+The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
+
+![Screenshot of private channel settings](media/private-channels-in-teams-channel-settings.png)
 
 ## Manage private channels
 
@@ -76,27 +79,19 @@ The following table outlines what actions owners, members, and guests can do in 
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs and apps|No|N/A|N/A|Yes, apps must be installed for the team|Channel owner controlled|No|
 
-### Manage private channel membership and settings
+## Manage the lifecycle of private channels
 
-Each private channel has its own settings, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a private channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
-
-The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.  
-
-![Screenshot of private channel settings](media/private-channels-in-teams-channel-settings.png)
-
-## Manage the life cycle of private channels
-
-See [Manage the life cycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the life cycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
+See [Manage the lifecycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the lifecycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
 
 ## Private channel SharePoint sites
 
-Each private channel has its own SharePoint site collection. The separate site collection is to ensure access to private channel files is restricted to only members of the private channel compared to the team site where team owners have access to all the assets within the site collection. These site collections are created with a document library by default, and can be easily enhanced to a full-featured site collection through the [site management interface](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site collection is created in the same geographic region as the site collection of the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.  By design, they aren't visible in the SharePoint admin center.
+Each private channel has its own SharePoint site. The separate site is to ensure access to private channel files is restricted to only members of the private channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
 
-To accommodate a greater number of site collections per tenant, the limit has increased from 500,000 to 2,000,000. A private channel site collection syncs data classification and inherits guest access permissions from the site collection of the parent team.  Membership to the site collection owner and member groups are kept in sync with the membership of the private channel within Teams. Any changes to the membership of Owner or Member groups in SharePoint Online will be reverted to private channel membership within four hours automatically. In scenarios where certain users need to access documents without needing to access private channel messages, add them to the Visitors group on the site or to a new group that's separate from Owners and Members.
+A private channel site syncs data classification and inherits guest access permissions from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the private channel within Teams. Any changes to the membership of Owner or Member groups in SharePoint will be reverted to private channel membership within four hours automatically. In scenarios where certain users need to access documents without needing to access private channel messages, add them to the Visitors group on the site or to a new group that's separate from Owners and Members.
 
-Teams manages the life cycle of the private channel SharePoint site collection. If the site collection is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is deleted and hard-deleted, a new site collection is provisioned for the private channel.
+Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is permanently deleted, a new site is provisioned for the private channel.
 
-If a private channel or a team containing a private channel is restored, the site collections are restored with it. If a private channel site collection is restored and it's beyond the 30-day soft delete window for the private channel, the site collection operates as a standalone site collection.
+If a private channel or a team containing a private channel is restored, the sites are restored with it. If a private channel site is restored and it's beyond the 30-day soft delete window for the private channel, the site operates as a standalone site.
 
 ## Private channel message compliance records
 
@@ -104,16 +99,13 @@ Records for messages sent in a private channel are delivered to the mailbox of a
 
 For more information about performing an eDiscovery search for private channel messages, see [eDiscovery of private channels](ediscovery-investigation.md#ediscovery-of-private-channels).
 
-## Considerations around access in private channels
+## Considerations around file access in private channels
 
 When a new OneNote notebook is created in a private channel, additional users can still get access to the notebook because the behavior is the same as sharing access to any other item in a private channel SharePoint site with a user.
 
 If a user is granted access to a notebook in a private channel through SharePoint, removing the user from the team or private channel won't remove the user's access to the notebook.
 
-If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed. This means the following:
-
-- Not everyone in the private channel will have access to the notebook by default. This is because they may not have access to where the notebook is hosted, such as another team's SharePoint site.
-- Users who are not members of the private channel can view the notebook.  
+If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed and the notebook retains its existing permissions.
 
 ## Private channel limitations
 
@@ -125,6 +117,8 @@ When you create a team from an existing team, any private channels in the existi
 
 ## Related topics
 
-- [Overview of teams and channels in Teams](teams-channels-overview.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+[Overview of teams and channels in Teams](teams-channels-overview.md)
+
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
