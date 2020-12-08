@@ -27,7 +27,7 @@ Retention policies and retention labels from Microsoft 365 helps you to more eff
 
 Teams supports retention policies for chat and channel messages so that as an admin, you can decide proactively whether to retain this data, delete it, or retain it for a specific period of time and then delete it. You can apply a Teams retention policy to your entire organization or to specific users and teams. 
 
-To learn more about retention and how you can apply retention settings to other workloads in Microsoft 365, see [Learn about retention policies and retention labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention).
+To learn more about retention and how you can apply retention settings to other workloads in Microsoft 365, see [Learn about retention policies and retention labels](https://docs.microsoft.com/microsoft-365/compliance/retention).
 
 The minimum licensing requirement for retention policies for Teams is Microsoft 365 E3. To learn more about licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
