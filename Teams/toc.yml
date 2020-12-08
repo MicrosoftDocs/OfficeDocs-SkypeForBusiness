@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
+        - name: Custom apps store 
+          href: customize-your-app-store.md
     - name: App certification
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: View app permissions and grant admin consent in the Microsoft Teams admin center
@@ -604,6 +606,8 @@
                   href: direct-routing-protocols-media.md
             - name: Manage voice routing policies
               href: manage-voice-routing-policies.md
+            - name: Direct Routing Survivable Branch Appliance
+              href: direct-routing-survivable-branch-appliance.md
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
