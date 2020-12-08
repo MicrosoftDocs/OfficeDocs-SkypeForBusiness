@@ -121,4 +121,4 @@ When you create a team from an existing team, any private channels in the existi
 
 [Teams PowerShell overview](teams-powershell-overview.md)
 
-[Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+[Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview)
