@@ -59,7 +59,7 @@ Learn more about Teams usage scenarios at the [Teams for education webinar serie
 
 Teams leverages Microsoft 365 capabilities to authenticate users and provide services. Staff, instructors, and students should have identities established to facilitate collaboration. If identities do not already exist, follow this process to establish them.
 
-[Teams licenses need to be enabled for users](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2) and then [licenses need to be assigned to the users](teams-edu-licensing.md) before they can use Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Microsoft 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Licenses need to be assigned to the users](teams-edu-licensing.md) before they can use Teams capabilities. Teams relies on additional Microsoft 365 capabilities such as [Microsoft 365 groups](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint and OneDrive](SharePoint-OneDrive-interact.md) to enable collaborative scenarios. Users receive the best Teams experience if all these services are also enabled. [Teams is supported for users who have email hosted by Google](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire educational institution started on Teams, check out [this page](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). For support, you can file a ticket [here](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) and for trainings on Teams, visit your local Microsoft Store to speak with a Specialist.
 
@@ -80,13 +80,12 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 
 ### 2. Configure user experiences using policies
 
-> [!IMPORTANT]
-> To learn more about the actions you must take to protect students, you can check out the [Keeping students safe in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). If you want to deep dive into our Admin EDU policy recommendations, you should go to [Teams Policies and Policy Packages for Education](policy-packages-edu.md).
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
-[Teams policies](teams-policies.md) provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
+> [!NOTE]
+> To learn more about the actions you must take to protect students, you can check out the [Keeping students safe in Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). If you want to deep dive into our admin EDU policy recommendations, you should go to [Teams policies and policy packages for Education](policy-packages-edu.md).
 
-> [!IMPORTANT]
-> Our most up-to-date guidance for policies for students and educators can be found at [Teams Policies and Policy Packages for Education](policy-packages-edu.md).
+Teams policies provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
 **Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
 

@@ -28,8 +28,6 @@ For education tenants, this report is useful to track student attendance in onli
 
 As an admin, you control whether meeting organizers can download meeting attendance reports by setting a Teams meeting policy. By default, the ability to download the report is turned off. For steps on how to turn on this feature, see [Meeting policy settings - Meeting attendance report](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report).
 
-Teams admins can view additional meeting attendance data in the Teams admin center, under **Analytics & reports** > **Usage reports**. See [Related topics](#related-topics) below to learn more.
-
 If meeting organizers need access to more meeting attendance data than they get from the report available within the meeting, you can assign the *Report reader* role so they can access the Teams admin reports themselves. To learn about this, read [Who can access the Teams activity reports](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 
 ## Related topics

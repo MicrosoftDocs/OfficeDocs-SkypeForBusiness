@@ -162,7 +162,7 @@ To delete a Teams retention policy, do the following:
 
 ### End user experience
 
-For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating" We've deleted older messaged due to your org's retention policy" is shown on top of yet undeleted messages.
+For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating" We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages.
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Screenshot of chat retention":::
 
 
@@ -197,7 +197,7 @@ The following are known issues for retention policies in Teams that are being tr
 
 - Under **Choose users** in the **Teams chats** location row, you may see guests and non-mailbox users. Retention policies aren't meant to be set for guests, and we're working to remove these from the list.
 
-- Exchange Life Cycle assistant (ELC) runs daily, but the latency is known to have run upto 7 days, in some cases. As a result, it's possible that, if you have a Teams retention policy to delete items older than 60 days, these items could persist for up to 67 days. This isn't a new situation - it follows the Exchange model. Of course, in most cases, there's no delay.
+- Retention processing jobs run daily, but the latency is known to have run upto 7 days, in some cases. As a result, it's possible that, if you have a Teams retention policy to delete items older than 60 days, these items could persist for up to 67 days. This isn't a new situation - it follows the Exchange model. Of course, in most cases, there's no delay.
 
 ## Related topics
 

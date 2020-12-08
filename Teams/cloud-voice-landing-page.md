@@ -10,14 +10,17 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - M365-voice
+  - m365initiative-voice
+  - m365solution-voice
 ms.reviewer: crowe
 f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
   - seo-marvel-apr2020
+  - seo-marvel-may2020
 search.appverid: MET150
-description: Learn more about Microsoft voice solutions with Microsoft Phone System and PSTN connectivity options, including Calling Plan and Direct Routing.
+description: Learn more about the Microsoft Teams cloud voice features and the deployment decisions that you will make for your organization.
 appliesto: 
   - Microsoft Teams
 ---

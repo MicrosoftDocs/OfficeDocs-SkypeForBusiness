@@ -17,13 +17,14 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: "Describes Microsoft telephony solutions."
+description: "Learn about Microsoft's telephony solutions: Phone System (Private Branch Exchange - PBX) and PSTN connectivity options (Calling Plans and Direct Routing)."
+ms.custom: seo-marvel-jun2020
 ---
 
 
 # Microsoft telephony solutions
 
-Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This article helps you decide which Microsoft telephony solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how your organization can connect to the Public Switched Telephone Network (PSTN). 
+Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This article helps you decide which Microsoft telephony solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how your organization can connect to the Public Switched Telephone Network (PSTN).
 
 You should use this article along with the associated technical diagram, which provides a visual aid for making the right decision for your organization:
 
@@ -38,7 +39,7 @@ You should use this article along with the associated technical diagram, which p
 
 ### Phone System (Microsoft 365 or Office 365)
   
-Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 or Office 365 cloud with Microsoft Teams and/or Skype for Business Online. 
+Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 or Office 365 cloud with Microsoft Teams and/or Skype for Business Online.
 
 Phone System works with Teams or Skype for Business Online clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365 or Office 365 and tightly integrated into the company’s cloud productivity experience. To connect Phone System to the Public Switched Telephone Network (PSTN), you can choose Microsoft’s Calling Plan or your own telephony carrier.
 
@@ -46,7 +47,7 @@ For more information, see [What is Phone System in Microsoft 365 or Office 365](
 
 ### Enterprise Voice (Skype for Business Server)
 
-Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This option can only be connected to the Public Switched Telephone Network by using your own telephony carrier. 
+Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This Skype for Business option can only be connected to the Public Switched Telephone Network by using your own telephony carrier.
 
 For more information, see [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
 

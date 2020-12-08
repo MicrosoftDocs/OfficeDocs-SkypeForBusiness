@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 f1.keywords:
 - NOCSH
 ms.reviewer: crowe
