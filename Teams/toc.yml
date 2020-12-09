@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
+        - name: Custom apps store 
+          href: customize-your-app-store.md
     - name: App certification
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: View app permissions and grant admin consent in the Microsoft Teams admin center
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Manage the Whiteboard in Teams
       href: manage-whiteboard.md
-    - name: Set up Teams meeting add-on for Google Workspace
-      href: add-gsuite-thru-aad.md
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -364,6 +364,8 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: Try or purchase Audio Conferencing in Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Extended dial-out minutes for US and Canada
+          href: dial-out-minutes-canada-us.md
         - name: Audio Conferencing Complimentary Dial Out Period
           href: complimentary-dial-out-period.md
         - name: Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit
@@ -522,8 +524,6 @@
           href: calling-plan-landing-page.md
         - name: How to buy a Calling Plan
           href: calling-plans-for-office-365.md
-        - name: Extended dial-out minutes for US and Canada
-          href: dial-out-minutes-canada-us.md
         - name: Set up Calling Plans for your organization
           href: set-up-calling-plans.md
         - name: "Quick start guide: Configuring Calling Plans"
@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: Manage voice routing policies
               href: manage-voice-routing-policies.md
+            - name: Direct Routing Survivable Branch Appliance
+              href: direct-routing-survivable-branch-appliance.md
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
@@ -1238,17 +1240,13 @@
         - name: Data Loss Prevention
           href: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: eDiscovery
-          items: 
-            - name: Conduct an eDiscovery investigation of content
-              href: ediscovery-investigation.md
-            - name: Place a Teams user or team on legal hold
-              href: legal-hold.md
-        - name: Content Search
-          items: 
-            - name: Use Content Search
-              href: content-search.md
-            - name: Search the audit log for events
-              href: audit-log-events.md
+          href: ediscovery-investigation.md
+        - name: Legal hold
+          href: legal-hold.md
+        - name: Content search
+          href: content-search.md
+        - name: Auditing
+          href: audit-log-events.md
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
