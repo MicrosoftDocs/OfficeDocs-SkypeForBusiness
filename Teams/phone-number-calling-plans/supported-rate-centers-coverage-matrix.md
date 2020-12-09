@@ -21,9 +21,10 @@ description: Lists the supported rate centers and coverage for Calling Plans.
 
 # Supported rate centers and coverage for Calling Plans
 
-This article lists the supported rate centers and coverage for Calling Plans in North America. A rate center is a geographical area that defines boundaries for local calling, billing rates, and phone number assignment for the Public Switched Telephone Network (PSTN). Calls to numbers within a rate center are billed at the same rate.
+This article lists the supported rate centers and coverage for Calling Plans in North America. A rate center is the industry term for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the Public Switched Telephone Network (PSTN). In many cases with the industry moving to all inclusive plans or bundles of minutes the rate center has become less important for billing but is still used by some.
 
-The [Supported rate centers and coverage matrix for North America](link) spreadsheet lists the rate centers that we support. When you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Teams, download the spreadsheet and use it to look up rate centers. If you don't know your rate center, you can look it up on the internet based on your area codes (NPAs) and prefixes (NXX)s.  
+The Supported rate centers and coverage matrix for North America spreadsheet lists the rate centers that we support. When you're getting new phone numbers or when you're transferring phone numbers from your existing provider to Teams, you can download the spreadsheet and use it to look up rate centers. If you don't know your rate center, you can look it up on the internet based on your area codes (NPAs) and prefixes (NXX)s.
+If you're getting new numbers and we don't have the numbers that you've requested, we'll attempt to offer you numbers from the same rate center.
 
 If you're getting new numbers and we don't have the numbers that you've requested, we'll offer you numbers from the same rate center.
 
