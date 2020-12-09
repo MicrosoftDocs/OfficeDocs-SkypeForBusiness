@@ -350,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Manage the Whiteboard in Teams
       href: manage-whiteboard.md
-    - name: Set up Teams meeting add-on for Google Workspace
-      href: add-gsuite-thru-aad.md
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
