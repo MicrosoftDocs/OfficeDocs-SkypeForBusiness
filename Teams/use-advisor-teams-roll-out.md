@@ -263,7 +263,7 @@ Go to the [Forms help center](https://support.office.com/forms).
 
 ## Related topics
 
-[Customize your Teams advisor](custom-teamsadvisor.md)
+[Customize your Teams advisor](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
 
 [How to roll out Teams](How-to-roll-out-teams.md)
 
