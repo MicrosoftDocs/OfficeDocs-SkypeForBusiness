@@ -1,7 +1,7 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -63,17 +63,17 @@ Now, let's get started!
 
 <a name="polwiz_run"> </a>
 
-Follow these steps to run the wizard. 
+Follow these steps to run the wizard.
 
 1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of the wizard in the dashboard":::
 
-2. Select your educational institution type (**Primary or Secondary** or **Higher education**), and then click **Next**.
+2. Select your educational institution type (**Primary or Secondary** or **Higher education**), and then select **Next**.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in wizard to select institution type":::
 
-3. Search for and select a group that contains your educators and staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select a group that contains your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in wizard to select educator and staff group":::
 
@@ -125,7 +125,7 @@ For example, you assigned a meeting policy directly to educators and your studen
 
 ### Step 2: Check for additional measures that you can take for student safety
 
-The wizard automatically adjusts and applies [these policies](#policies-applied-by-the-wizard). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
+The wizard automatically adjusts and applies [these policies](#policies-applied-by-the-wizard). There are few additional measures, which you may want to take based on the needs of your institution to stay safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for additional safety recommendations.
 
@@ -135,7 +135,7 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety aren't automatically added by the wizard. This capability will be available in a future release.
 
-Until this capability is available, check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up-to-date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
+Until this capability is available, check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up to date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
 
 ## Make changes in the wizard
 

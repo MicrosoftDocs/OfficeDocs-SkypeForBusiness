@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -79,7 +79,6 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
    For detailed syntax and parameter information, see [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
 
-
 3. In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
 
    - AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)
@@ -104,16 +103,17 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
    For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` powershell cmdlet. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` PowerShell cmdlet. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.
 
 5. If you do not want the password to expire, use the following syntax:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
    ```
+
    <!--
    ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
@@ -124,6 +124,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
    ```
+
    <!-- 
    ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
@@ -134,6 +135,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
+
    <!-- 
    ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
@@ -144,6 +146,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    ```Powershell
    Get-MsolAccountSku
    ```
+
    <!--
    ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -154,17 +157,18 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses "Contoso:MEETING_ROOM"
-   ``` 
+   ```
+
    <!-- 
    ```Powershell
    Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
    Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
-   
+
    For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
-   
+
    You can also add Phone System capabilities to this account, but you have to configure it first. See [What is Phone System?](../what-is-phone-system-in-office-365.md) for more details. This example adds the PSTN Domestic and International Calling Plan:
-   
+
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
@@ -172,7 +176,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).
 
    Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
-   
+
 > [!NOTE]
 > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
 >
@@ -186,16 +190,16 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
    Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
 
-    ``` Powershell
+   ``` Powershell
     Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
-    ```
+   ```
 
    Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
-   
+
    > [!NOTE]
    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
 
