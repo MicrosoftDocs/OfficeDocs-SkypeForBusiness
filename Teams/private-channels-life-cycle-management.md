@@ -1,7 +1,7 @@
 ---
 title: Manage the life cycle of private channels in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: suchakr, phlouie
 ms.topic: article

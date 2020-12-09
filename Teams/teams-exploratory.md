@@ -63,14 +63,14 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 
 Users don't fit the criteria if they:
 
-- Currently or previously had Teams from a paid, unpaid or trial license 
+- Currently or previously had Teams from a paid, unpaid or trial license.
 - Are in a tenant that used/received at least one special COVID offer.
 
 Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.
 
 ## How users sign up for the Teams Exploratory experience
 
-Eligible users can sign up for the Teams Exploratory experience by signing in to Teams ([teams.microsoft.com](https://teams.microsoft.com)). They'll be assigned this license automatically and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.
+Eligible users can sign up for the Teams Exploratory experience by signing in to Teams from the desktop or web ([teams.microsoft.com](https://teams.microsoft.com)). At this time, enabling Exploratory through mobile is not supported. When they sign up, they'll be assigned this license automatically and the tenant admin will receive an email notification the first time someone in your org starts the Teams Exploratory experience.
 
 ## Manage the Teams Exploratory experience
 
@@ -88,7 +88,7 @@ You can turn off a user's ability to install trial apps and services, which woul
 
     ![the Services page in the admin center](media/iw-trial-services.png)
 
-2. Clear the **Let users install trial apps and services** check box.
+2. Clear the check mark from **Let users install trial apps and services**.
 
     ![the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
 
