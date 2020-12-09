@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams upgrade from Skype for Business | Modes, Coexistence 
-author: lanachin
-ms.author: v-lanac
+title: Choose your upgrade journey from Skype for Business to Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
-description: Details of Skype for Business and Microsoft Teams coexistence options and modes, and upgrade journeys to Teams from Skype for Business with example scenarios. 
+description: Details of Skype for Business and Microsoft Teams coexistence options, and of possible upgrade journeys to Teams, with example scenarios. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

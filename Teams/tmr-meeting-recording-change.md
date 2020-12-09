@@ -89,11 +89,14 @@ The meeting recording option is a setting at the Teams policy level. The followi
    Import-PSSession $sfbSession
    ```
 
-4. Use [set-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
+4. Use [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+
+> [!Note]
+> If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
@@ -145,7 +148,7 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 **How can I manage transcripts?**
 
-Customers opting in to this preview will not have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive for Business and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in October 2020.
+Customers opting in to this preview will not have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive for Business and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in Q4 CY2020.
 
 Closed captions will be available on Teams Meeting Recordings for customers who have opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
 
@@ -173,3 +176,7 @@ Stream as a platform won't be deprecated in the near future. The videos that cur
 **How do I apply a retention label?**
 
 See [How to auto-apply a retention label](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+**How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
+
+See [Which policy takes precedence?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
