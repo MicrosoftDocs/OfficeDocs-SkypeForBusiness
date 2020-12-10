@@ -12,7 +12,6 @@ description: Learn how to use Cortana voice assistance with Teams
 localization_priority: Normal
 ms.custom: 
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -31,7 +30,7 @@ Cortana voice assistance in the Teams mobile app and on Microsoft Teams display 
 
 The image shows sending a chat using Cortana on a mobile device.
 
-![Image shows a sequence of mobile screens showing a Cortana chat session](media/cortana-on-teams-mobile.png)
+![a sequence of mobile screens showing a Cortana chat session](media/cortana-on-teams-mobile.png)
 
 ## Admin control and limitations
 
