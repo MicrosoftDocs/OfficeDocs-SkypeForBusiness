@@ -39,5 +39,5 @@ Centralize communication, access to resources, and plant operations with a Manuf
 
 | Base template type|baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
-|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General<li>Announcements</li><li>Line 1</li><li>Line 2</li><li>Line 3</li><li>Safety</li><li>Training</li><li>Maintenance</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General<li>Announcements</li><li>Line 1</li><li>Line 2</li><li>Line 3</li><li>Safety</li><li>Training</li><li>Maintenance</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||
