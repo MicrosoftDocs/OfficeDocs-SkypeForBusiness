@@ -120,6 +120,8 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
+- For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid).
+
 ## Troubleshooting
 
 For a full troubleshooting guide on the topic, make sure to check out [Troubleshoot Microsoft Teams and Exchange Server interaction issues](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).
