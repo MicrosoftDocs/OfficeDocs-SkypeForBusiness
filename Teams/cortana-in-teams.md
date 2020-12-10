@@ -109,11 +109,11 @@ Making changes at the device level is available if Cortana is enabled at the ten
 1. Go To **Settings** > **Device**.
    You'll find two options to enable for Cortana: **Push to Talk** and **Wake word**.  
 
-2. To enable **Push to Talk** move the toggle to**On** or **Off**.
+2. To enable **Push to Talk** move the toggle **On** or **Off**.
    Cortana will only activate when you touch the microphone on the device console.
 
 3. To enable **Wake word**, select the checkbox. Cortana will activate when users say "Cortana" or "Hey Cortana".
 
 Making changes at the meeting level is available if Cortana is enabled at the device level.
 
-To enable Cortana voice assistance during a meeting, move the toggle to **On** or **Off**. Once the meeting ends, Cortana returns to the device level settings set.
+To enable Cortana voice assistance during a meeting, move the toggle **On** or **Off**. Once the meeting ends, Cortana returns to the device level settings set.
