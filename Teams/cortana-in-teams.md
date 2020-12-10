@@ -80,7 +80,7 @@ Individual users can try out Cortana voice assistance in different devices:
 
 - Select the microphone button in the Teams mobile app.
 
-- Select the microphone button or by simply say "Cortana" in Microsoft Teams Rooms.
+- Select the microphone button or say "Cortana" in Microsoft Teams Rooms.
 
 - Say "Cortana" on Microsoft Teams display devices.
 
@@ -88,32 +88,32 @@ You can control whether Cortana in Teams is enabled for your device by using a s
 
 **For Teams mobile app or the Microsoft Teams display**:
 
-1. Open the Teams mobile app or  
+1. Open the Teams mobile app. 
 
-2. Select Settings > Cortana. On the Microsoft Teams display,  
+2. Select **Settings** > **Cortana**.
 
-3. Move the toggle On or Off.
+3. Move the toggle **On** or **Off**.
 
 **For Microsoft Teams display**:
 
 1. Go to the ambient (home) screen of the Microsoft Teams display.
 
-2. Select the user avatar, and then select Settings. If Cortana is enabled, say, "Cortana, go to Settings."
+2. Select the user avatar, and then select **Settings**. If Cortana is enabled, say, "Cortana, go to Settings."
 
-3. Move the toggle On or Off.
+3. Move the toggle **On** or **Off**.
   
 **For Microsoft Teams Rooms on Windows**:
 
 Making changes at the device level is available if Cortana is enabled at the tenant level. Cortana will be released OFF by default.
 
-1. Go To Settings > Device.
+1. Go To **Settings** > **Device**.
    You'll find two options to enable for Cortana: **Push to Talk** and **Wake word**.  
 
-2. To enable Push to Talk move the toggle to On or Off.
+2. To enable **Push to Talk** move the toggle to**On** or **Off**.
    Cortana will only activate when you touch the microphone on the device console.
 
 3. To enable **Wake word**, select the checkbox. Cortana will activate when users say "Cortana" or "Hey Cortana".
 
 Making changes at the meeting level is available if Cortana is enabled at the device level.
 
-To enable Cortana voice assistance during a meeting, move the toggle to On or Off. Once the meeting ends, Cortana will set back to the device level settings set.
+To enable Cortana voice assistance during a meeting, move the toggle to **On** or **Off**. Once the meeting ends, Cortana returns to the device level settings set.
