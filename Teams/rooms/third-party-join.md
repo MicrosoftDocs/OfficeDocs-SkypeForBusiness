@@ -57,7 +57,7 @@ To add third-party meeting service URLs to the ATP Safe Links "do not rewrite" l
 Here are some example entries that you may need to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list:
 
 - **Cisco WebEx** `*.webex.com*`
-- **Zoom** `*.zoom.us*`, `*.zoom.com*`, `*zoomgov.com*`
+- **Zoom** `*.zoom.us*`, `*.zoom.com*`, `*.zoomgov.com*`
 
 For a complete list of URLs to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from. 
 
