@@ -70,13 +70,13 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 Introduced in this update:
 - Share HDMI audio to meeting participants in Teams meeting
 - Cortana voice skills for Teams meetings
-- Prevent unmuting based on audio permissions when Teams Room joins as attendee, learn more about [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/en-us/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
-- Spotlight someone's video from Teams room console and consume spotlighted video on room displays
+- Prevent unmuting based on audio permissions when Teams Room joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
 
 > [!NOTE]
-> Cortana voice skills are available for select audio peripherals in US region initially. Find more at [Cortana voice assistance in Teams](https://docs.microsoft.com/en-us/microsoftteams/cortana-in-teams) </br>
-> Hard mute and Spotlight video features are delivered through the Teams Service, and will reach general availability in the next few weeks.
-
+> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
+>
+> Hard mute and Spotlight video features are currently in preview.
 
 ### 4.6.23.0 (10/19/2020)
 
@@ -91,14 +91,13 @@ Introduced in this update:
 - Join Zoom meetings from Teams Rooms with direct guest join (Preview)
 
 > [!NOTE]
-> 3x3 video gallery and local live closed captions are delivered through Microsoft Teams service. These features are available to all Teams Rooms with application version 4.5.37.0 and above.
-
+> 3x3 video gallery and local live closed captions are delivered through the Microsoft Teams service. These features are available to all Teams Rooms devices with application version 4.5.37.0 and above.
 
 ### 4.5.37.0 (08/14/2020)
 
 Introduced in this update:
 - Coordinated Meetings between Microsoft Teams and Surface Hub 2S 
-- Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) is installed
+- Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) is installed
 
 ### 4.5.35.0 (07/23/2020)
 
