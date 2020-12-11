@@ -1,5 +1,5 @@
 ---
-title: Use Teams templates to create a new team
+title: Use Teams templates in the admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
