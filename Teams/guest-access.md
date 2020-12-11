@@ -79,7 +79,7 @@ You can perform a guest access review yourself, ask guests to review their own m
 
 [Collaborating with people outside your organization](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[Block guest users from a specific Microsoft 365 group or Microsoft Teams team](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Block guests from a specific Microsoft 365 group or Microsoft Teams team](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [Create a secure guest sharing environment](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
