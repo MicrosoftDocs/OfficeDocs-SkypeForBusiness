@@ -38,7 +38,7 @@ We currently offer two first-party healthcare templates that you can use for a v
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |---|----------------------------------------------------- |
-| Collaborate on patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><ul><li>Lists (Patient list)</li></ul><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists (26bc2873-6023-480c-a11b-76b66605ce8c)  </li></ul>|
+| Collaborate on patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><ul><li>Lists (Patient list)</li></ul><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists (26bc2873-6023-480c-a11b-76b66605ce8c) </li></ul>|
 ||||
 
 ## Hospital
