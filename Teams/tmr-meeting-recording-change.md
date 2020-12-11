@@ -27,9 +27,10 @@ appliesto:
 |<div style="width:290px">Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |October 5, 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| You can enable the Teams Meeting policy to have meeting recordings saved to OneDrive for Business and SharePoint instead of Microsoft Stream (Classic)|
-|Rolling out starting January 11, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|All new Teams meeting recordings will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. Seeing the policy reporting as Stream is not enough. You need to explicitly set the policy value to **Stream**.|
-|Rolling out starting March 1, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Enterprise customers**<br>No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to **Stream**. We recommend that customers roll this feature out before this date so that they can control the timing of the release. |
-|Rolling out starting July 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Education customers**<br>No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to **Stream**. We recommend that customers roll this feature out before this date so that they can control the timing of the release. We have updated this schedule to provide education customers the ability to complete in-progress semesters. |
+|Rolling out starting January 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|All new Teams meeting recordings will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. Seeing the policy reporting as Stream isn't enough. You need to explicitly set the policy value to **Stream**.|
+|Rolling out starting January 11, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC only**<br> While GCC customers can opt out starting October 5, you're unable to opt in. This feature will be rolled out to all GCC customers starting January 11, 2021, unless you've opted-out.<br>  <br>Starting on January 11, 2021, all new Teams meeting recordings for GCC customers will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. <br><br>If you've opted-out but are ready to turn on this feature, you may do so by setting your Teams Meeting Policy explicitly to **OneDrive for Business**. |
+|Rolling out starting March 1, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Enterprise & GCC customers**<br>**No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream**.<br><br> We recommend that customers roll this feature out before this date so that they can control the timing of the release. |
+|Rolling out starting July 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Education customers**<br>**No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream**.<br><br> We recommend that customers roll this feature out before this date so that they can control the timing of the release. We've updated this schedule to provide education customers the ability to complete in-progress semesters. |
 
 > [!Note]
 > We recommend that Enterprise and Educational customers, to better control the change in your organization, opt in whenever you're comfortable with the change rather than wait for it to happen.
@@ -94,13 +95,13 @@ The meeting recording option is a setting at the Teams policy level. The followi
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
-Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive for Business, then you must reset the policy to **Stream** to ensure that it's the default.
+Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive for Business, then you must reset the policy to **Stream** to ensure that **Stream** is the default.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
@@ -109,11 +110,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ## Permissions or role-based access
 
 > [!Note]
-> We recommend that the recipient is required to be a logged in user when sharing Teams Meeting Recordings. This can be achieved by selecting the **People in (Your Organization)** option when sharing the file as documented in [Share SharePoint files or folders](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). External sharing is not designed for the distribution of large files or a large number of files. In order to prevent fraud and abuse scenarios you might experience issues when sharing a large amount of data to external users.
+> We recommend that the recipient is required to be a logged-in user when sharing Teams Meeting Recordings. Select the **People in (Your Organization)** option when you share the file as documented in [Share SharePoint files or folders](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). External sharing isn't designed for the distribution of large files or a large number of files. In order to prevent fraud and abuse scenarios, you might experience issues when sharing a large amount of data to external users.
 
 |Meeting type                               | Who clicked on Record?| Where does the recording land?                               |Who has access? R/W, R, or sharing                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1:1 call with internal parties             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights. <br /><br />Callee (if in the same tenant) has read only access. No sharing access. <br /><br /> Callee (if in different tenant) has no access. Caller must share it to the Callee.|
+|1:1 call with internal parties             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights. <br /><br />Callee (if in the same tenant) has read-only access. No sharing access. <br /><br /> Callee (if in different tenant) has no access. Caller must share it to the Callee.|
 |1:1 call with internal parties             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights. <br /><br />Caller (if in the same tenant has read-only access. No sharing access. <br /><br />Caller (if in different tenant) has no access. Callee must share it to the Caller.|
 |1:1 call with an external call             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights.<br /> <br />Callee has no access. Caller must share it to the Callee.|
 |1:1 call with an external call             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights.<br /><br />Caller has no access. Callee must share it to the Caller.|
@@ -128,7 +129,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **Where will the meeting recording be stored?**
 
-- For non-Channel meetings, the recording is stored in a folder named **Recordings** that is at the top level of the OneDrive for Business that belongs to the person who started the meeting recording. Example:
+- For non-Channel meetings, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive for Business that belongs to the person who started the meeting recording. Example:
 
   <i>recorder's OneDrive for Business</i>/**Recordings**
 
@@ -148,15 +149,15 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 **How can I manage transcripts?**
 
-Customers opting in to this preview will not have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive for Business and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in October 2020.
+Customers opting in to this preview won't have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive for Business and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in Q4 CY2020.
 
-Closed captions will be available on Teams Meeting Recordings for customers who have opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md)
+Closed captions will be available on Teams Meeting Recordings for customers who have opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md).
 
-Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization).
 
 Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
 
-Closed captions are not fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive for Business or SharePoint.
+Closed captions aren't fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive for Business or SharePoint.
 
 **How will my storage quota be impacted?**
 
@@ -171,8 +172,12 @@ Your video will play on the video player of OneDrive for Business or SharePoint 
 
 **If you plan on deprecating adding to Stream, will existing videos stay as is and for how long?**
 
-Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [here](https://docs.microsoft.com/stream/streamnew/classic-migration) for more information.
+Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [Stream classic migration](https://docs.microsoft.com/stream/streamnew/classic-migration) for more information.
 
 **How do I apply a retention label?**
 
 See [How to auto-apply a retention label](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+**How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
+
+See [Which policy takes precedence?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence).
