@@ -23,8 +23,6 @@ appliesto:
 
 # Use general Teams templates in the admin center
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Teams templates have pre-built definitions of team structures designed around financial needs. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
@@ -41,7 +39,7 @@ Centralize collaboration for your crisis team across business units and help cre
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |--|----------------------------------------------------------|
-| Collaborate on global crisis or event |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><ul><li>Planner app</li></ul><li>External comms</li><ul><li>Planner app</li></ul><li>Approvals request</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li></ul>|
+| Collaborate on global crisis or event |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>External comms</li><li>Approvals request</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li></ul>|
 ||||
 
 ## Adopt Office 365
@@ -59,7 +57,7 @@ Manage tasks, share documents, conduct project meetings and document risks and d
 
 | Base template type| baseTemplateId| Properties that come with this base template |
 | ------------------|--|-----------------------------------------------------------|
-| Manage a project| com.microsoft.teams.template.ManageAProject  | Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li><ul><li>Planner (Project plans)</li></ul></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner (`com.microsoft.teamspace.tab.planner`)  </li><li>Lists (26bc2873-6023-480c-a11b-76b66605ce8c)</li> </ul> |
+| Manage a project| `com.microsoft.teams.template.ManageAProject`  | Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Lists</li> </ul> |
 ||||
 
 ## Manage an event
@@ -88,5 +86,5 @@ Collaborate on documentation, policy, and processes that support your helpdesk. 
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------|--|------------------------------------------------------------|
-|Organize help desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Channels:<ul><li>General</li<ul><li>Tab App: Planner, Name: Helpdesk Tasks </li></ul>><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner (com.microsoft.teamspace.tab.planner)  </li><li>Praise (d832a33f-28c2-4969-8ad0-4fee681dc5b4)  </li></ul> |
+|Organize help desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Praise </li></ul> |
 ||||

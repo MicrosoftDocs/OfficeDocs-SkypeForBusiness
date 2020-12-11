@@ -39,7 +39,7 @@ Centralize collaboration for your crisis team across business units and help cre
 
 | Base template type|baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
-| Collaborate on global crisis or event|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><ul><li>Planner app</li></ul><li>Remote working</li><li>Internal comms</li><ul><li>Planner app</li></ul><li>External comms</li><ul><li>Planner app</li></ul><li>Approvals request</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li><li>Planner app</li></ul>|
+| Collaborate on global crisis or event|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Approvals request</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li><li>Planner app</li></ul>|
 ||||
 
 ## Collaborate within a bank branch
