@@ -39,7 +39,7 @@ Check out these videos about the guest experience in Teams:
 
 The following table compares the Teams functionality available for an organization's team members and its guests. Teams admins control the features available to guests.
 
-|**Capability in Teams**|**Teams user in the organization**|**Guest**|
+| Capability in Teams | Teams user in the organization | Guest |
 |:-----|:-----|:-----|
 |Create a channel  <br/>  *Team owners control this setting.*  <br/> |&#x2713;|&#x2713;|
 |Participate in a private chat  <br/> |&#x2713;|&#x2713;|
