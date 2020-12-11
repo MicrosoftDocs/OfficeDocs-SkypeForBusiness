@@ -35,7 +35,7 @@ Admins can also delegate permissions to add guests to others in their organizati
 
 With Azure AD B2B collaboration, organizations can enforce conditional access and multi-factor authentication (MFA) policies for B2B users. These policies can be enforced at the tenant, app, or individual user level, the same way that they are enabled for full-time employees and members of the organization. Such policies are enforced at the resource organization. For more information, see  [Conditional access for B2B collaboration users](https://go.microsoft.com/fwlink/?linkid=857454). Individual guest users can't be blocked.
 
-Guest users you have already added via Azure AD B2B, Microsoft 365 Groups, or SharePoint are ready to go. The Microsoft 365 admin or a team owner can add those guests to their respective teams. If add a guest directly to the Microsoft 365 group associated with a team, the guest will get access to the team but the Microsoft 365 group doesn't generate an invitation email to the guest, so someone on the team should notify the guest.
+Guest users you have already added via Azure AD B2B, Microsoft 365 Groups, or SharePoint are ready to go. The Microsoft 365 admin or a team owner can add those guests to their respective teams. If you add a guest directly to the Microsoft 365 group associated with a team, the guest will get access to the team but the Microsoft 365 group doesn't generate an invitation email to the guest, so someone on the team should notify the guest.
 
 > [!NOTE]
 > Guests are subject to  [Microsoft 365 or Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits.
