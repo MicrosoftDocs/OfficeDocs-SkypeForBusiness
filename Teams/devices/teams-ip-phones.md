@@ -52,11 +52,12 @@ The following phones are Certified for Microsoft Teams:
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | January 2020                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | December 2019                |
 | Poly Trio 8500/8800 (shared mode only) | 5.9.0.10869                                                                                                                                                                                                                                | June 2019                    |
-| Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | March 2020                   |
-| Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | June 2019                    |
-| Yealink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | May 2019                     |
-| Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | December 2018                |
-| Yealink T58 & T56 series               | 58.15.0.20                                                                                                                                                                                                                                 | December 2018                |
+| Yealink MP54 | 122.15.0.27| November 2020 |
+| Yealink MP56 | 122.15.0.6 | March 2020    |
+| Yealink VP59 | 91.15.0.16 | June 2019     |
+| Yealink T55  | 58.15.0.36 | May 2019      |
+| Yealink CP 960| 73.15.0.20 | December 2018|
+| Yealink T58 & T56 series | 58.15.0.20 | December 2018 |
 
 ## Currently certified Collaboration Bars
 
@@ -64,6 +65,7 @@ The following Collaboration Bars are Certified for Microsoft Teams:
 
 | Collaboration Bar model | Firmware version | Release date  | Room size (up to)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Yealink MeetingBar A20  | 133.15.0.19      | November 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X30         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X50         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Yealink VC210           | 118.15.0.14      | February 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
@@ -113,6 +115,7 @@ The following are the latest Teams Collaboration Bar app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product versioncode: 216 |
 | Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode: 212|
 | Update #1  | May 13, 2020 | .040901                     | .4715                  | .210                |
 
@@ -122,9 +125,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Year/ Included product release |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.32     | 2020, Update #2    |
-| Poly Studio X30 | 3.2.0.222012          | 2020, Update #2    |
-| Poly Studio X50 | 3.2.0.222012          | 2020, Update #2    |
+| Yealink VC210 + CP900 | 118.15.0.42     | 2020, Update #3    |
+| Poly Studio X30 | 3.2.3.280012          | 2020, Update #3    |
+| Poly Studio X50 | 3.2.3.280012          | 2020, Update #3    |
 
 ### Product release information for Teams display
 

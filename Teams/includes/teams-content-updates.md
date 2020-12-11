@@ -2,6 +2,116 @@
 
 
 
+## Week of November 30, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/30/2020 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 11/30/2020 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
+| 11/30/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 11/30/2020 | [Phones and Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 12/1/2020 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 12/1/2020 | [Location of data in Microsoft Teams](/MicrosoftTeams/location-of-data-in-teams) | modified |
+| 12/1/2020 | [Configure voice routing for Direct Routing](/MicrosoftTeams/direct-routing-voice-routing) | modified |
+| 12/1/2020 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
+| 12/1/2020 | [Security guide for Microsoft Teams](/MicrosoftTeams/teams-security-guide) | modified |
+| 12/2/2020 | [Assignments for Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | modified |
+| 12/2/2020 | [User presence in Teams](/MicrosoftTeams/presence-admins) | modified |
+| 12/2/2020 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 12/2/2020 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 12/2/2020 | [Quick start - Microsoft Teams for Education admins](/MicrosoftTeams/teams-quick-start-edu) | modified |
+| 12/2/2020 | [Assign policies to large sets of users in your school](/MicrosoftTeams/batch-group-policy-assignment-edu) | modified |
+| 12/2/2020 | [Microsoft Teams policies and policy packages for EDU admins](/MicrosoftTeams/policy-packages-edu) | modified |
+| 12/2/2020 | [Microsoft Teams resources for Education admins](/MicrosoftTeams/remote-learning-edu) | modified |
+| 12/3/2020 | [Availability in Italy](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | modified |
+| 12/3/2020 | [Phones and Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 12/3/2020 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
+| 12/3/2020 | [Place a Microsoft Teams user or team on legal hold](/MicrosoftTeams/legal-hold) | modified |
+| 12/4/2020 | [Upgrading from Skype for Business to Teams FAQ](/MicrosoftTeams/faq-journey) | modified |
+| 12/4/2020 | [How to use Microsoft Teams effectively](/MicrosoftTeams/continue-journey) | modified |
+| 12/4/2020 | [Conduct a user pilot to evaluate and test how Microsoft Teams will work in your organization](/MicrosoftTeams/pilot-essentials) | modified |
+| 12/4/2020 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
+| 12/4/2020 | [Interoperability between Skype for Business and Microsoft Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modified |
+| 12/4/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 12/4/2020 | [Choose your upgrade journey from Skype for Business to Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | modified |
+| 12/4/2020 | [Define the project scope for your Skype for Business to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-define-project-scope) | modified |
+| 12/4/2020 | [Enlist stakeholders \| Skype for Business to Teams upgrade planning](/MicrosoftTeams/upgrade-enlist-stakeholders) | modified |
+| 12/4/2020 | [About the upgrade framework - Skype for Business to Teams](/MicrosoftTeams/upgrade-framework) | modified |
+| 12/4/2020 | [Assess organizational change readiness for your Skype for Business to Teams upgrade](/MicrosoftTeams/upgrade-org-change-readiness) | modified |
+| 12/4/2020 | [Evaluate your environment before upgrading to Teams](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | modified |
+| 12/4/2020 | [Prerequisites and environmental dependencies for upgrading to Teams](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | modified |
+| 12/4/2020 | [Plan for your Skype for Business to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-plan-journey) | modified |
+| 12/4/2020 | [Prepare your IT staff for Microsoft Teams](/MicrosoftTeams/upgrade-prepare-it-pros) | modified |
+| 12/4/2020 | [Prepare your service for an upgrade to Microsoft Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | modified |
+| 12/4/2020 | [Prepare your environment for upgrading to Teams](/MicrosoftTeams/upgrade-prepare-environment) | modified |
+| 12/4/2020 | [Prepare your organization for an upgrade from Skype for Business to Teams](/MicrosoftTeams/upgrade-prepare-organization) | modified |
+| 12/4/2020 | [Get started upgrading Skype for Business to Teams](/MicrosoftTeams/upgrade-start-here) | modified |
+| 12/4/2020 | [Upgrade Skype for Business on-premises to Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modified |
+| 12/4/2020 | [Upgrade from Skype for Business Online to Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | modified |
+| 12/4/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | modified |
+| 12/4/2020 | [Overview of implementing your upgrade to Microsoft Teams](/MicrosoftTeams/upgrade-to-teams) | modified |
+| 12/4/2020 | [Prepare a user readiness plan for upgrading from Skype for Business to Teams](/MicrosoftTeams/upgrade-user-readiness) | modified |
+
+
+## Week of November 23, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/23/2020 | [Upload tenant and building data in Call Quality Dashboard (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | modified |
+| 11/23/2020 | [User presence in Teams](/MicrosoftTeams/presence-admins) | modified |
+| 11/23/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 11/25/2020 | [Set up the Ringback bot for Direct Routing](/MicrosoftTeams/direct-routing-ringback-bot) | modified |
+| 11/25/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 11/25/2020 | [Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+
+
+## Week of November 16, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/16/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 11/16/2020 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
+| 11/16/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 11/16/2020 | [Use Power BI to analyze CQD data for Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modified |
+| 11/16/2020 | [Using CQD Power BI report to view Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modified |
+| 11/16/2020 | [Assign policies to your users in Microsoft Teams](/MicrosoftTeams/assign-policies) | modified |
+| 11/16/2020 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 11/16/2020 | [Microsoft 365 Government - GCC deployments](/MicrosoftTeams/plan-for-government-gcc) | modified |
+| 11/16/2020 | [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modified |
+| 11/16/2020 | [Teams integration with Microsoft Power Platform](/MicrosoftTeams/teams-power-platfom-integration) | modified |
+| 11/17/2020 | [Using CQD Power BI report to view Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modified |
+| 11/17/2020 | [Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 11/17/2020 | [Calling Plans for Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modified |
+| 11/17/2020 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 11/17/2020 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 11/17/2020 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
+| 11/17/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 11/17/2020 | [Phone number management for Canada](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | modified |
+| 11/17/2020 | [Phone number management for the United States](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modified |
+| 11/17/2020 | [Manage the Tasks app for your organization in Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modified |
+| 11/17/2020 | [Admin quick start - Meetings and live events in Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
+| 11/17/2020 | [Retention policies in Microsoft Teams](/MicrosoftTeams/retention-policies) | modified |
+| 11/17/2020 | [Advanced Communications add-on for Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modified |
+| 11/17/2020 | [Microsoft Teams meeting attendance report](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
+| 11/17/2020 | [Configure live event settings in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modified |
+| 11/17/2020 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
+| 11/17/2020 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
+| 11/17/2020 | [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modified |
+| 11/17/2020 | [Toll-free dialing restrictions in Egypt](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | modified |
+| 11/18/2020 | [Availability in Guatemala](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala) | modified |
+| 11/18/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 11/18/2020 | [Teams for Virtual visits](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
+| 11/18/2020 | [Sign in to Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modified |
+| 11/18/2020 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
+| 11/19/2020 | [Teams for Virtual visits](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
+| 11/19/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 11/20/2020 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
+| 11/20/2020 | [Sign in to Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modified |
+
+
 ## Week of November 09, 2020
 
 
@@ -171,243 +281,3 @@
 | 11/6/2020 | [Understand calling in Microsoft Teams](/MicrosoftTeams/tutorial-calling-in-teams) | modified |
 | 11/6/2020 | [Sign in to Teams using modern authentication](/MicrosoftTeams/sign-in-teams) | modified |
 | 11/6/2020 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-
-
-## Week of October 26, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/26/2020 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 10/26/2020 | [Upgrading from Skype for Business to Teams FAQ](/MicrosoftTeams/faq-journey) | modified |
-| 10/26/2020 | [Implement Quality of Service in Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modified |
-| 10/26/2020 | [Virtual visits with Microsoft Teams and the Bookings app](/MicrosoftTeams/bookings-app-admin) | modified |
-| 10/26/2020 | [Patients App and EHR integration DSTU2 interface](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modified |
-| 10/26/2020 | [Use Teams healthcare templates in the admin center](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modified |
-| 10/26/2020 | [Templates for healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | modified |
-| 10/26/2020 | [Secure Messaging for healthcare organizations using Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modified |
-| 10/26/2020 | [Connect the Patients app to Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modified |
-| 10/26/2020 | [Patients app for Teams admins ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modified |
-| 10/26/2020 | [Patients app overview](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modified |
-| 10/26/2020 | [Auditing Patients app for Teams IT and compliance admins ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modified |
-| 10/26/2020 | [Patients App and EHR integration STU3 interface](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modified |
-| 10/26/2020 | [Get started with Teams for healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modified |
-| 10/26/2020 | [Teams for Healthcare](/MicrosoftTeams/expand-teams-across-your-org/teams-for-healthcare-landing-page) | modified |
-| 10/26/2020 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
-| 10/26/2020 | [Teams sessions at Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | modified |
-| 10/26/2020 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
-| 10/26/2020 | [Manage the Microsoft Teams Exploratory experience](/MicrosoftTeams/teams-exploratory) | modified |
-| 10/27/2020 | [Accessibility solutions for Skype for Business Online and Microsoft Teams](/MicrosoftTeams/accessibility-solutions-in-france) | modified |
-| 10/27/2020 | [Patients App and EHR integration DSTU2 interface](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modified |
-| 10/27/2020 | [Connect the Patients app to Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modified |
-| 10/27/2020 | [Patients app for Teams admins ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modified |
-| 10/27/2020 | [Patients app overview](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modified |
-| 10/27/2020 | [Auditing Patients app for Teams IT and compliance admins ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modified |
-| 10/27/2020 | [Patients App and EHR integration STU3 interface](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modified |
-| 10/27/2020 | [Get started with Teams for healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modified |
-| 10/27/2020 | [Use Teams templates to create a new team](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
-| 10/27/2020 | [Get started with Teams templates using Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | modified |
-| 10/27/2020 | [Priority notifications in Teams messaging](/MicrosoftTeams/teams-add-on-licensing/pri-message) | modified |
-| 10/27/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modified |
-| 10/27/2020 | [Phones and Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 10/27/2020 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 10/27/2020 | [Teams for Virtual visits](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
-| 10/27/2020 | [Install Teams using Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modified |
-| 10/27/2020 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
-| 10/27/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 10/28/2020 | [Cortana voice assistance in Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modified |
-| 10/28/2020 | [Create a call queue](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 10/28/2020 | [Manage your devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
-| 10/28/2020 | [Phones for Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams) | modified |
-| 10/28/2020 | [Get started with Teams for healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modified |
-| 10/28/2020 | [Teams policy packages for healthcare](/MicrosoftTeams/policy-packages-healthcare) | modified |
-| 10/28/2020 | [Environmental compatibility - Microsoft Teams](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | modified |
-| 10/28/2020 | [Virtual visits with Microsoft Teams and the Bookings app](/MicrosoftTeams/bookings-app-admin) | modified |
-| 10/28/2020 | [Microsoft Teams Chalk Talks](/MicrosoftTeams/chalk-talks-landing-page) | modified |
-| 10/28/2020 | [Plan for media bypass with Direct Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | modified |
-| 10/28/2020 | [Manage settings for your organization](/MicrosoftTeams/enable-features-office-365) | modified |
-| 10/28/2020 | [Teams for Virtual visits](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
-| 10/28/2020 | [Message delegation](/MicrosoftTeams/expand-teams-across-your-org/healthcare/hc-delegates) | modified |
-| 10/28/2020 | [Use Teams healthcare templates in the admin center](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modified |
-| 10/28/2020 | [Templates for healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | modified |
-| 10/28/2020 | [Secure Messaging for healthcare organizations using Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modified |
-| 10/28/2020 | [Shifts for Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | modified |
-| 10/28/2020 | [Manage the Shifts app for your organization](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modified |
-| 10/28/2020 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
-| 10/28/2020 | [Manage the Tasks app for your organization in Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modified |
-| 10/28/2020 | [Manage Teams transitioning to the new Teams admin center](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modified |
-| 10/28/2020 | [Microsoft Teams Upgrade \| Environment Evaluation, Discovery Questions](/MicrosoftTeams/upgrade-plan-journey-discovery-questionnaire) | modified |
-| 10/29/2020 | [IT Admin Guide to Insights in Teams for Education](/MicrosoftTeams/class-insights) | modified |
-| 10/29/2020 | [Create a custom team template in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modified |
-| 10/29/2020 | [Create a new template from an existing team template in Microsoft Teams](/MicrosoftTeams/create-template-from-existing-template) | modified |
-| 10/29/2020 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
-| 10/29/2020 | [Use Teams healthcare templates in the admin center](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modified |
-| 10/29/2020 | [Teams for Education](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | modified |
-| 10/29/2020 | [Use Teams templates to create a new team](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
-| 10/29/2020 | [Use Teams government templates in the admin center](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | modified |
-| 10/29/2020 | [Get started with Teams manufacturing templates in the admin center](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modified |
-| 10/29/2020 | [Microsoft Teams resources for Education admins](/MicrosoftTeams/remote-learning-edu) | modified |
-| 10/29/2020 | [Use Teams retail templates in the admin center](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | modified |
-| 10/29/2020 | [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modified |
-| 10/29/2020 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
-| 10/29/2020 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 10/29/2020 | [Patients App and EHR integration DSTU2 interface](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modified |
-| 10/29/2020 | [Connect the Patients app to Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modified |
-| 10/29/2020 | [Patients app for Teams admins ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modified |
-| 10/29/2020 | [Patients app overview](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modified |
-| 10/29/2020 | [Auditing Patients app for Teams IT and compliance admins ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | modified |
-| 10/29/2020 | [Patients App and EHR integration STU3 interface](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | modified |
-| 10/29/2020 | [Get started with Teams for healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modified |
-| 10/30/2020 | [Adopt Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | modified |
-| 10/30/2020 | [Create a call queue](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 10/30/2020 | [Upgrade Teams phones to Teams displays](/MicrosoftTeams/devices/upgrade-phones-to-displays) | modified |
-| 10/30/2020 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
-| 10/30/2020 | [Availability in Australia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | modified |
-| 10/30/2020 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modified |
-| 10/30/2020 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 10/30/2020 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 10/30/2020 | [Custom apps store](/MicrosoftTeams/customize-your-app-store) | modified |
-| 10/30/2020 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
-| 10/30/2020 | Manage discovery of private teams in Microsoft Teams | removed |
-| 10/30/2020 | [User presence in Teams](/MicrosoftTeams/presence-admins) | modified |
-
-
-## Week of October 19, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/19/2020 | [Set up Audio Conferencing for small and medium businesses](/MicrosoftTeams/audio-conferencing-smb) | modified |
-| 10/19/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 10/19/2020 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
-| 10/19/2020 | [Phones and Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 10/19/2020 | [Manage Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 10/19/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 10/20/2020 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 10/20/2020 | [Release notes](/MicrosoftTeams/rooms/rooms-release-note) | modified |
-| 10/21/2020 | [How Exchange and Microsoft Teams interact](/MicrosoftTeams/exchange-teams-interact) | modified |
-| 10/21/2020 | [Microsoft 365 and Office 365 URLs and IP address ranges](/MicrosoftTeams/office-365-urls-ip-address-ranges) | modified |
-| 10/21/2020 | [Export content with the Microsoft Teams Export APIs](/MicrosoftTeams/export-teams-content) | modified |
-| 10/21/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 10/21/2020 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
-| 10/21/2020 | [Manage Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 10/21/2020 | [User presence in Teams](/MicrosoftTeams/presence-admins) | modified |
-| 10/21/2020 | [Version Support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
-| 10/21/2020 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
-| 10/21/2020 | [Enable users for Direct Routing](/MicrosoftTeams/direct-routing-enable-users) | modified |
-| 10/21/2020 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
-| 10/21/2020 | [Use general Teams templates in the admin center](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | modified |
-| 10/21/2020 | [Use Teams government templates in the admin center](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | modified |
-| 10/21/2020 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 10/21/2020 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
-| 10/21/2020 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
-| 10/22/2020 | [Quick start - Microsoft Teams for Education admins](/MicrosoftTeams/teams-quick-start-edu) | modified |
-| 10/22/2020 | [Coexistence with Skype for Business](/MicrosoftTeams/coexistence-chat-calls-presence) | modified |
-| 10/22/2020 | [Evaluate your environment for cloud voice workloads](/MicrosoftTeams/3-envision-evaluate-my-environment) | modified |
-| 10/22/2020 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
-| 10/22/2020 | [Assign team owners and members in Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | modified |
-| 10/22/2020 | [Create a change management strategy](/MicrosoftTeams/change-management-strategy) | modified |
-| 10/22/2020 | [Complimentary dial-out period](/MicrosoftTeams/complimentary-dial-out-period) | modified |
-| 10/22/2020 | [Quick start guide - Configuring Calling Plans](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | modified |
-| 10/22/2020 | [Manage settings for your organization](/MicrosoftTeams/enable-features-office-365) | modified |
-| 10/22/2020 | [Admin quick start - Meetings and live events in Microsoft Teams](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
-| 10/22/2020 | [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings) | modified |
-| 10/22/2020 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
-| 10/22/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 10/23/2020 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 10/23/2020 | [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-power-platform-apps) | modified |
-| 10/23/2020 | [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings) | modified |
-| 10/23/2020 | [Manage the Microsoft Teams Exploratory experience](/MicrosoftTeams/teams-exploratory) | modified |
-| 10/23/2020 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-
-
-## Week of October 12, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/12/2020 | [Call park and retrieve in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modified |
-| 10/12/2020 | [Use Teams Healthcare templates in the admin center](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modified |
-| 10/12/2020 | [Get started with Teams for Healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modified |
-| 10/12/2020 | [Get started with Teams financial templates using the admin center](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | modified |
-| 10/12/2020 | [Use general Teams templates in the admin center](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | modified |
-| 10/12/2020 | [Get started with Teams templates in retail](/MicrosoftTeams/get-started-with-retail-teams-templates) | modified |
-| 10/12/2020 | [Use Teams templates to create a new team](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
-| 10/12/2020 | [Use Teams government templates in the admin center](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | modified |
-| 10/12/2020 | [Get started with Teams manufacturing templates in the admin center](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modified |
-| 10/12/2020 | [Use Teams retail templates in the admin center](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | modified |
-| 10/12/2020 | [Governance quick start for Microsoft Teams](/MicrosoftTeams/teams-adoption-governance-quick-start) | modified |
-| 10/12/2020 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
-| 10/12/2020 | [Admin training resources - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modified |
-| 10/12/2020 | [Bookings app and virtual visits in Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modified |
-| 10/12/2020 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 10/12/2020 | [Teams policy packages for healthcare](/MicrosoftTeams/policy-packages-healthcare) | modified |
-| 10/12/2020 | [View app permissions and grant admin consent in the Microsoft Teams admin center](/MicrosoftTeams/app-permissions-admin-center) | modified |
-| 10/12/2020 | [Cloud Video Interop for Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | modified |
-| 10/12/2020 | [Manage feedback policies in Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | modified |
-| 10/13/2020 | [On-network Conferencing for Audio Conferencing](/MicrosoftTeams/audio-conferencing-on-network) | modified |
-| 10/13/2020 | [Set up holidays in Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | modified |
-| 10/13/2020 | [Use OneDrive and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 10/13/2020 | [Microsoft 365 Groups and Microsoft Teams](/MicrosoftTeams/office-365-groups) | modified |
-| 10/13/2020 | Add Teams SMTP domain as an allowed sender domain in Exchange Online | removed |
-| 10/13/2020 | [Custom apps store](/MicrosoftTeams/customize-your-app-store) | modified |
-| 10/13/2020 | [Onboarding checklist - Configure core capabilities - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities) | modified |
-| 10/14/2020 | [Plan for media bypass with Direct Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | modified |
-| 10/14/2020 | [Get started with Teams for Healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modified |
-| 10/14/2020 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
-| 10/15/2020 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
-| 10/15/2020 | [Sensitivity labels for Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modified |
-| 10/15/2020 | [Set up the Common Area Phone license](/MicrosoftTeams/set-up-common-area-phones) | modified |
-| 10/15/2020 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
-| 10/15/2020 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 10/15/2020 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 10/15/2020 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
-| 10/15/2020 | [Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
-| 10/15/2020 | [Security guide for Microsoft Teams](/MicrosoftTeams/teams-security-guide) | modified |
-| 10/15/2020 | [Use OneDrive and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 10/15/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modified |
-| 10/16/2020 | [Deploy Microsoft Teams cloud voice service](/MicrosoftTeams/3-onboard-deploy-my-service) | modified |
-| 10/16/2020 | [Implement Quality of Service (QoS) in Microsoft Teams clients](/MicrosoftTeams/qos-in-teams-clients) | modified |
-| 10/16/2020 | [Quick start - Microsoft Teams for Education admins](/MicrosoftTeams/teams-quick-start-edu) | modified |
-| 10/16/2020 | [Tutorial: Audio Conferencing - Microsoft Teams](/MicrosoftTeams/tutorial-audio-conferencing) | modified |
-| 10/16/2020 | [Admin settings for apps in Microsoft Teams](/MicrosoftTeams/admin-settings) | modified |
-| 10/16/2020 | [Adopt Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | modified |
-| 10/16/2020 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
-| 10/16/2020 | [Cloud Video Interop for Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | modified |
-| 10/16/2020 | [Configure Audio Conferencing settings - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | modified |
-| 10/16/2020 | [Phone System Direct Routing](/MicrosoftTeams/direct-routing-landing-page) | modified |
-| 10/16/2020 | [Manage shift-based access for Firstline Workers in Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | modified |
-| 10/16/2020 | [Teams for Education](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | modified |
-| 10/16/2020 | [Choose a path to your organization-wide rollout](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | modified |
-| 10/16/2020 | [Teams sessions at Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | modified |
-| 10/16/2020 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
-| 10/16/2020 | [Install Moodle integration with Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | modified |
-| 10/16/2020 | Limits and specifications for Microsoft Teams | removed |
-| 10/16/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 10/16/2020 | [Manage emergency call routing policies](/MicrosoftTeams/manage-emergency-call-routing-policies) | modified |
-| 10/16/2020 | [Install Teams using Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modified |
-| 10/16/2020 | [Microsoft Teams resources for Education admins](/MicrosoftTeams/resources-teams-edu) | modified |
-| 10/16/2020 | [Retention policies in Microsoft Teams](/MicrosoftTeams/retention-policies) | modified |
-| 10/16/2020 | [Learn how to setup content cameras - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | modified |
-| 10/16/2020 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
-| 10/16/2020 | [Turn on or turn off guest access to Microsoft Teams](/MicrosoftTeams/set-up-guests) | modified |
-| 10/16/2020 | [Stream classification in Call Quality Dashboard (CQD)](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | modified |
-| 10/16/2020 | [Admin training for Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | modified |
-| 10/16/2020 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
-| 10/16/2020 | [Interoperability between Skype for business and Microsoft Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modified |
-| 10/16/2020 | [Calling policies in Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | modified |
-| 10/16/2020 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
-| 10/16/2020 | [Teams in 30](/MicrosoftTeams/teams-in-30-workshops) | modified |
-| 10/16/2020 | [Using Network Planner - example scenario](/MicrosoftTeams/tutorial-network-planner-example) | modified |
-| 10/16/2020 | [Small business example — Set up an Auto Attendant](/MicrosoftTeams/tutorial-org-aa) | modified |
-| 10/16/2020 | [Getting started with your Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here) | modified |
-| 10/16/2020 | [Coexistence with Microsoft Teams and Skype for Business](/MicrosoftTeams/upgrade-to-teams-on-prem-coexistence) | modified |
-| 10/16/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-considerations) | modified |
-| 10/16/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | modified |
-| 10/16/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | modified |
-| 10/16/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modified |
-| 10/16/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | modified |
-| 10/16/2020 | [Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-upgrade-methods) | modified |
-| 10/16/2020 | [Use Advisor for Teams to help you roll out Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modified |
-| 10/16/2020 | [Manage user access to Microsoft Teams](/MicrosoftTeams/user-access) | modified |
-| 10/16/2020 | [What is Phone System?](/MicrosoftTeams/what-is-phone-system-in-office-365) | modified |
