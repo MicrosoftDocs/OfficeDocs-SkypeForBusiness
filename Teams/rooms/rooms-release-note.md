@@ -70,8 +70,12 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 Introduced in this update:
 
 - Share HDMI audio to meeting participants in Teams meeting
+- Cortana voice skills (Preview)
 - Prevent unmuting based on audio permissions when Teams Room joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
+
+[!NOTE]
+> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### 4.6.23.0 (10/19/2020)
 
