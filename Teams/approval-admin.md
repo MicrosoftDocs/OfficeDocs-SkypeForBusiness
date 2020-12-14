@@ -22,7 +22,7 @@ appliesto:
 
 # Teams Approvals app availability
 
-[!includes/preview-feature.md]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
