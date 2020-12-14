@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams virtual meeting rooms
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
