@@ -3,7 +3,7 @@ title:  Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -37,7 +37,7 @@ This article describes how to use a Survivable Branch Appliance (SBA) to enable 
 
 ## Prerequisites
 
-The SBA is distributable code provided by Microsoft to SBC vendors who then embed the code into the firmware of their SBCs. 
+The SBA is distributable code provided by Microsoft to SBC vendors who then embed code into their firmware or distribute it separately to have SBA run on a separate VM or hardware. 
 
 To get the latest Session Border Controller firmware with the embedded Survivable Branch Appliance,  contact your SBC vendor. In addition, the following is required:
 
