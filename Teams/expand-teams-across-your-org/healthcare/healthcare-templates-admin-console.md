@@ -38,7 +38,7 @@ We currently offer two first-party healthcare templates that you can use for a v
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |---|----------------------------------------------------- |
-| Collaborate on patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li>|
+| Collaborate on patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li></ul>|
 ||||
 
 ## Hospital
@@ -47,7 +47,7 @@ Streamline communication and collaboration between multiple wards, pods, and dep
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
-|Hospital|`healthcareHospital`|Channels: <ul><li>General<li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|Hospital|`healthcareHospital`|Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li><li>Lists </li></ul>|
 ||||
 
 ## Related topics
