@@ -24,9 +24,9 @@ Information barriers (IB) are policies that an admin can configure to prevent in
 
 > [!NOTE]
 > - Information barrier groups cannot be created across tenants.
-> - Using bots, AAD apps, and some APIs to add users is not supported in version 1.
+> - Using bots, Azure Active Directory (Azure AD) apps, and some APIs to add users is not supported in version 1.
 > - Private channels are compliant to information barrier policies that you configure.
-> - New: For Information about barriers support for SharePoint site connected to Teams, click [here](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+> - New: For information about support for barriers for SharePoint sites that are connected to Teams, see [Segments associated with Microsoft Teams sites](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 Information barrier policies also prevent lookups and discovery. If you attempt to communicate with someone you shouldn't be communicating with, you won't find that user in the people picker.
 
