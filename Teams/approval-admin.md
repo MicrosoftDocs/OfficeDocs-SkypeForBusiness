@@ -22,6 +22,8 @@ appliesto:
 
 # Teams Approvals app availability
 
+{!includes/preview-feature.md!}
+
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
 
@@ -80,17 +82,17 @@ The Approvals Teams app lets you access the following features:
 
 The Approvals app is available by default. You can disable the app in the Teams admin center.
 
-1. Sign in to the Teams admin center.
+  1. Sign in to the Teams admin center.
 
-2. Expand **Teams apps** and select **Manage apps**.
+  2. Expand **Teams apps** and select **Manage apps**.
 
-3. Search for the Approvals app.
+  3. Search for the Approvals app.
 
 ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted](media/manage-approval-apps.png)
 
-4. Select Approvals.
+  4. Select Approvals.
 
-5. Select the toggle to disable the app for your organization.
+  5. Select the toggle to disable the app for your organization.
 
 ![shows the details for the Approvals app](media/approvals-details.png)
 
