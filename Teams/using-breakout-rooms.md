@@ -36,7 +36,7 @@ You will see participants leaving the main meeting and joining their breakout ro
 
 If a participant leaves their breakout room the organizer can move the participant back to the breakout room by selecting the ellipses […] next to the participant’s name and select Ask to join.
 
-If a participant joins the main meeting late after breakout rooms have opened, the organizer can add the participant to a breakout room. If the participant misses the notification to join the room, select Ask to join.
+If a participant joins the main meeting late after breakout rooms have opened, the organizer can add the participant to a breakout room. If the participant misses the notification to join the room, select **Ask to join**.
 
 ## Send announcements
 
