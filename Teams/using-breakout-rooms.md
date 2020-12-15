@@ -38,7 +38,7 @@ If a participant leaves their breakout room the organizer can move the participa
 
 If a participant joins the main meeting late after breakout rooms have opened, the organizer can add the participant to a breakout room. If the participant misses the notification to join the room, select Ask to join.
 
-## Send Announcements
+## Send announcements
 
 The meeting organizer can send announcements to all participants while breakout rooms are open. Select the ellipses **[…]** in the breakout rooms header.
 
