@@ -21,9 +21,9 @@ Microsoft Teams Rooms devices support a one-touch experience for joining third-p
 
 Before you can join third-party meetings from a Teams Rooms device, you need to do the following:
 
-1. Configure the Teams Rooms device's Exchange Online room mailbox to process invites for third-party meetings
-2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services
-3. Configure your Teams Rooms devices to allow third-party meetings
+1. Configure the Teams Rooms device's Exchange Online room mailbox to process invites for third-party meetings.
+2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services.
+3. Configure your Teams Rooms devices to allow third-party meetings.
 
 The following sections show you how to do each of these steps.
 
@@ -31,14 +31,15 @@ The following sections show you how to do each of these steps.
 
 The first thing you need to do to enable a one-touch join experience from a Team Rooms device is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet, do the following:
 
-1. Connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online Powershell with Basic authentication](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) or [Connect to Exchange Online PowerShell using multi-factor authentication](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps), depending on your authentication method.
+1. Connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell with Basic authentication](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) or [Connect to Exchange Online PowerShell using multi-factor authentication](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps), depending on your authentication method.
 
 2. Get the User Principal Name (UPN) of the room mailbox if you don't know it by running the following command:
 
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
-3. Find the name of the room mailbox associated with your Teams Rooms device and make note of its UPN
+    
+3. Find the name of the room mailbox associated with your Teams Rooms device and make note of its UPN.
 
 4. After you find the room mailbox's UPN, run the following command. Replace `<UserPrincipalName>` with the room mailbox's UPN:
 
@@ -72,11 +73,11 @@ The last step you need to do is allow each Teams Rooms device to join third-part
 
 To configure the Teams Rooms device using its touchscreen, do the following:
 
-1. On the Microsoft Teams Rooms device, select **More ...**
-2. Select **Settings**, and then enter the device administrator username and password
-3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**, or both
-4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**
-5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use
+1. On the Microsoft Teams Rooms device, select **More ...**.
+2. Select **Settings**, and then enter the device administrator username and password.
+3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**, or both.
+4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
+5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
 6. Select **Save and exit**. Your device will restart.
 
 ### Use the SkypeSettings.xml configuration file
