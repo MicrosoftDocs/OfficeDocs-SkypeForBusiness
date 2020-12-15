@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Configure the Skype Meetings App to work with Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Teams Approvals app availability
+      href: approval-admin.md
 - name: Meetings and conferencing
   items: 
     - name: Quick start - meetings and live events
