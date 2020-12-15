@@ -1,5 +1,5 @@
 ---
-title: Using Breakout Rooms in Teams
+title: Using breakout rooms in Teams
 ms.topic: article
 ms.service: msteams
 ms.collection: 
