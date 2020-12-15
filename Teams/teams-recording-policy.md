@@ -67,14 +67,14 @@ Each of the categories entails different requirements for how recordings
 are initiated, what is recorded, where recordings are stored, who is
 notified, who controls access, and how retention is handled.
 
-| Type                   | Convenience        | Functional         | Org - General      | Org - Regulated | Lawful Intercept   |
-| ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
-| Initiator              | User               | App/Solution       | Admin (system)     | Admin (system)  | LEA                |
-| Target                 | Per-call / meeting | Per-call / meeting | Per-call / meeting | Per-user        | Per-endpoint / DID |
-| Storage owner          | User               | App                | Admin              | Compliance      | LEA                |
-| Notification required? | Yes                | Yes                | Yes                | Yes             | No                 |
-| Access Owner           | User               | App                | Admin              | Compliance      | LEA                |
-| Retention Policy?      | Optional           | Yes                | Yes                | Yes             | Yes                |
+| Type                   | Convenience (Regular Teams Recording) | Org - Regulated (Compliance Recording) |
+| ---------------------- | ------------------ | --------------- |
+| Initiator              | User               | Admin (system)  |
+| Target                 | Per-call / meeting | Per-user        |
+| Storage owner          | User               | Compliance      |
+| Notification required? | Yes                | Yes             |
+| Access Owner           | User               | Compliance      |
+| Retention Policy?      | Optional           | Yes             |
 
 Teams provides various capabilities for
 [<span class="underline">convenient</span>](https://docs.microsoft.com/microsoftteams/cloud-recording)
