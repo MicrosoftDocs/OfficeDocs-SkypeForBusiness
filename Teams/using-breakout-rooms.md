@@ -49,5 +49,5 @@ Participants receive the announcement in their breakout rooms’ chat.
 
 Select Close rooms to pull all the participants back to the main room.
 
-Or select the ellipses […] for a specific breakout room, then select Close room.
+Alternatively, select the ellipses **[…]** for a specific breakout room, then select **Close room**.
 Once a breakout room is closed, chat for that session is closed. Participants can’t continue to chat there.
