@@ -15,7 +15,7 @@ As a meeting organizer, you can create new breakout rooms at the start of a sche
 
 ## Create breakout rooms
 
-Use these steps to create a breakout room once a meeting begins.
+Use these steps to create a breakout room once a meeting begins:
 
 1. In theTeams desktop client, select the Breakout rooms icon on the control bar.
 
