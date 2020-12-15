@@ -40,7 +40,7 @@ If a participant joins the main meeting late after breakout rooms have opened, t
 
 ## Send Announcements
 
-The meeting organizer can send announcements to all participants while breakout rooms are open. Select the ellipses […] by the Breakout Rooms header.
+The meeting organizer can send announcements to all participants while breakout rooms are open. Select the ellipses **[…]** in the breakout rooms header.
 
 For example, remind participants to @mention the meeting organizer when they need help, or give them a five-minute countdown before pulling them back into the main room.
 Participants receive the announcement in their breakout rooms’ chat.
