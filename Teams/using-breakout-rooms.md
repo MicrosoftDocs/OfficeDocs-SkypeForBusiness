@@ -19,7 +19,7 @@ Use these steps to create a breakout room once a meeting begins:
 
 1. In the Teams desktop client, select the breakout rooms icon on the control bar.
 
-2. Use the dropdown menu to select the number of rooms you would like. You can create up to 50 breakout rooms in a single meeting.
+2. Use the dropdown menu to select the number of rooms you would like to create. You can create up to 50 breakout rooms in a single meeting.
 
 3. Choose the breakout room option you prefer:
 
