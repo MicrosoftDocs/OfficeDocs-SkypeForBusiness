@@ -30,7 +30,7 @@ Use these steps to create a breakout room once a meeting begins:
 
 ## Start breakout rooms
 
-When you are ready to start your breakout sessions, select **Start rooms.**
+When you are ready to start your breakout sessions, select **Start rooms**.
 
 You will see participants leaving the main meeting and joining their breakout rooms.
 
