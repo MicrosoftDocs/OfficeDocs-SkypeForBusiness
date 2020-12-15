@@ -11,7 +11,7 @@ ms.reviewer:
 localization_priority: Normal
 search.appverid: 
 ms.collection: 
-description: Use the Microsoft Teams Learning app to creates a central hub for learning where employees can share, assign, and learn from content libraries across an organization.
+description: Use the Microsoft Teams Learning app to create a central hub for learning where employees can share, assign, and learn from content libraries across an organization.
 f1.keywords:
 appliesto: 
   - Microsoft Teams
@@ -22,17 +22,17 @@ ms.custom:
 
 *This article contains preliminary content for the Teams Learning app, which is in private preview.*
 
-The Microsoft Teams Learning app (private preview) empowers teams and individuals to make learning a natural part of their day. The app creates a central hub in Teams where employees can share, assign, and learn from content libraries across your organization.  Admins set permissions and allow content for the Teams Learning app (private preview), including LinkedIn Learning, Microsoft Learn, Microsoft 365 training, your organization's own content stored in SharePoint online, and third-party providers that are supported by the application.
+The Microsoft Teams Learning app (private preview) empowers teams and individuals to make learning a natural part of their day. The app creates a central hub in Teams where employees can share, assign, and learn from content libraries across your organization. Admins set permissions and allow content for the Teams Learning app (private preview). Learning content can include LinkedIn Learning, Microsoft Learn, Microsoft 365 training, your organization's own content stored in SharePoint online, and third-party providers that are supported by the application.
 
-To set up the Teams Learning app (private preview), you will need to involve:
+To set up the Teams Learning app (private preview), you'll need to involve:
 
 -	Teams admin center admin
 -	Microsoft 365 admin center admin
--	Knowledge admin (a new role in the Microsoft 365 admin center that can be assigned to a user in your organization to set up and manage the learning sources in the Microsoft 365 admin center)
+-	Knowledge admin (a new role in the Microsoft 365 admin center that can be assigned to a user to set up and manage the learning sources)
 
 ## Configure the Teams Learning app (private preview) in the Teams admin center
 
-The Teams admin installs the Teams Learning app (private preview) from the app store, and configures other app-to-Teams interactions, such as pinning and unpinning. (The Knowledge admin configures the learning sources.)
+The Teams admin installs the Teams Learning app (private preview) from the app store, and configures other app-to-Teams interactions, such as pinning and unpinning. (The [Knowledge admin](#assign-the-knowledge-admin-role-[Optional]) configures the learning sources.)
 
 ### Install or update the app
 The Teams Learning app (private preview) will be automatically pre-installed on Teams for approved users in the private preview. The app will be automatically updated by Teams and Microsoft for users who in the appropriate ring.
@@ -55,14 +55,14 @@ To manage settings for the Teams Learning app (private preview), follow these st
 
    ![Learning page in the Teams admin center showing Status and App settings section](media/learning-app-teams-learning-page.png)
 
-## Configure the learning content sources in the Microsoft 365 admin center
+## Configure learning content sources in the Microsoft 365 admin center
 
-The admins for the Microsoft 365 admin center—either by themselves or by assigning the Knowledge admin role to selected individuals in your organization—can manage settings related to the Teams Learning app (private preview) and can configure the learning content sources for the tenant.
+The admins for the Microsoft 365 admin center—either by themselves or by assigning the Knowledge admin role to selected individuals in your organization—can manage settings related to the Teams Learning app (private preview) and can configure the learning content sources.
 
 > [!TIP]
 > The Knowledge admin should be moderately technical and have existing SharePoint admin credentials, preferably someone who is well-versed in the education, learning, training, or employee experience part of the organization.
  
-The admin selects which learning content sources (such as LinkedIn Learning or SharePoint) will be available in the app, and then configures those sources to make sure that the content is available for search and discovery, and can be browsed by the employees who use the app.
+The admin selects which learning content sources (such as LinkedIn Learning or SharePoint) will be available in the app. The admin then configures those sources to make sure the content is available for search and discovery and can be browsed by the employees who use the app.
 
 ### Assign the Knowledge admin role [Optional]
 
@@ -71,8 +71,6 @@ These steps are to be performed by the admin for the Microsoft 365 admin center.
 1.	In the left navigation of the Microsoft 365 admin center, go to **Roles**.
 
 2.	On the **Roles** page, on the **Azure AD** tab, select **Knowledge admin**.
-
-   ![Roles page in the Microsoft 365 admin center showing the Knowledge admin role](media/learning-app-teams-learning-page.png)
  
 3.	On the **Knowledge admin** page, in the **Assigned Admins** section, select **Add**, and then add the person you choose for the role.
 
@@ -109,11 +107,11 @@ The Knowledge admin provides a site URL to where the Learning Service can create
 
 ### Permissions
 
-Folder URLs can be collected from any SharePoint site in the organization. Therefore, any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
+Folder URLs can be collected from any SharePoint site in the organization. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
  
 ### Learning Service
 
-The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees should be able to search for and use the company’s content within the Teams Learning app (private preview). Content deletion from the repository is not supported at this point. Unintentionally surfaced content can only be removed by supplying a new SharePoint site URL in the Microsoft 365 admin center.
+The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use the company’s content within the app. Content deletion from the repository isn't supported at this point. Unintentionally surfaced content can only be removed by supplying a new SharePoint site URL in the Microsoft 365 admin center.
 
 ### Configure SharePoint as a source
 
