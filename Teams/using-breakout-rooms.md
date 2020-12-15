@@ -9,7 +9,7 @@ appliesto:
 description: End users can learn how to use breakout rooms in Microsoft Teams
 ---
 
-# Using Breakout Rooms in Microsoft Teams
+# Using breakout rooms in Microsoft Teams
 
 As a meeting organizer, you can create new breakout rooms at the start of a scheduled meeting.
 
