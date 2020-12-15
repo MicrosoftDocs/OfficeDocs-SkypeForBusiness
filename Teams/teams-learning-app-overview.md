@@ -99,5 +99,52 @@ More learning sources will be available in future releases.
 
 To enable or disable a learning content source, select the check box next to the source. If a source is enabled, a check mark will be visible.
 
+## Configure SharePoint as a learning content source
+
+You configure SharePoint as a learning content source for the Teams Learning app (private preview) in the Microsoft 365 admin center.
+
+### Overview
+
+The Knowledge admin provides a site URL to where the Learning Service can create an empty centralized learning content repository in the form of a structured SharePoint list. This list can be used by the organization to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in the Teams Learning app (private preview).
+
+### Permissions
+
+Folder URLs can be collected from any SharePoint site in the organization. Therefore, any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
+ 
+### Learning Service
+
+The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees should be able to search for and use the company’s content within the Teams Learning app (private preview). Content deletion from the repository is not supported at this point. Unintentionally surfaced content can only be removed by supplying a new SharePoint site URL in the Microsoft 365 admin center.
+
+### Configure SharePoint as a source
+
+These steps are to be performed by Microsoft 365 admin or the Knowledge admin.
+
+1.	In the left navigation of the Microsoft 365 admin center, go to **Settings**.
+ 
+2.	On the **Settings** page, on the **Services & add-ins** tab, select **Learning app**.
+ 
+3.	On the **Learning app** panel, provide the site URL to the SharePoint site where you want the app to create a centralized repository.
+
+4.	A SharePoint list is created automatically within the provided organization’s SharePoint site. In the left navigation of the SharePoint site, select **Learning App Content Repository**. 
+
+   ![Left navigation in SharePoint showing the Learning App Content Repository section](media/learning-app-content-repository-nav.png)
+
+ 
+5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders.
+
+   1.	Select **New** to view the **New item** panel. 
+
+   ![Learning App Content Repository page in SharePoint showing the New option](media/learning-app-content-repository-new.png)
+ 
+   2.	On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**.
+
+   ![New item panel in SharePoint showing the Title and Folder URL fields](media/learning-app-new-item-panel.png)
+
+   3. The Learning App Content Repository page is updated with the new learning content.
+
+   ![Learning App Content Repository page in SharePoint showing the updated information](media/learning-app-content-repository-populated.png)
+
+
+ 
 
 
