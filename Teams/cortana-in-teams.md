@@ -89,7 +89,7 @@ Individual users can try out Cortana voice assistance in different devices:
 
 You can control whether Cortana in Teams is enabled for your device by using a setting in the device.
 
-**For Teams mobile app or the Microsoft Teams display**:
+### Teams mobile app or the Microsoft Teams display
 
   1. Open the Teams mobile app.
 
@@ -97,7 +97,7 @@ You can control whether Cortana in Teams is enabled for your device by using a s
 
   3. Move the toggle **On** or **Off**.
 
-**For Microsoft Teams display**:
+### Microsoft Teams display
 
   1. Go to the ambient (home) screen of the Microsoft Teams display.
 
@@ -105,7 +105,7 @@ You can control whether Cortana in Teams is enabled for your device by using a s
 
   3. Move the toggle **On** or **Off**.
   
-**For Microsoft Teams Rooms on Windows**:
+### Microsoft Teams Rooms on Windows
 
 Making changes at the device level is available if Cortana is enabled at the tenant level. Cortana will be released OFF by default.
 
