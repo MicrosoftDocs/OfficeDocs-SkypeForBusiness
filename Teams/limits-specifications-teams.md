@@ -112,13 +112,13 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including**:
+> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
 >
->- Up to 20,000 attendees per event
->- Up to 50 simultaneous events per Teams tenant
->- Up to 16 hours per broadcast
+>- Event support for up to 20,000 attendees
+>- 50 events can be hosted simultaneously across a tenant
+>- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 |Feature     | Maximum limit |
 |------------|---------------|
@@ -158,13 +158,13 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including**:
+> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
 >
-> - Up to 20,000 attendees per event
-> - Up to 50 simultaneous events per Teams tenant
-> - Up to 16 hours per broadcast
+>- Event support for up to 20,000 attendees
+>- 50 events can be hosted simultaneously across a tenant
+>- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## Presence in Outlook
 
