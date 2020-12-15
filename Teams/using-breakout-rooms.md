@@ -23,7 +23,7 @@ Use these steps to create a breakout room once a meeting begins:
 
 3. Choose the breakout room option you prefer:
 
-    - **Automatically:** Teams divides participants equally between the rooms.
+    - **Automatically**: Teams divides participants equally between the rooms.
     - **Manually:** You can choose which room each participant is placed in.
 
 4. Select **Create Rooms**. The Breakout Rooms pane will open.
