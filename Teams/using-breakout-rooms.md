@@ -6,7 +6,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-description: End Users can learn how to use Breakout Rooms in Microsoft Teams
+description: End users can learn how to use breakout rooms in Microsoft Teams
 ---
 
 # Using Breakout Rooms in Microsoft Teams
