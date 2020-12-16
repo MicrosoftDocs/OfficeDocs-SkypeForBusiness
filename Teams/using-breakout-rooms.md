@@ -1,5 +1,7 @@
 ---
 title: Using breakout rooms in Teams
+author: ricardo-msft
+ms.author: riwilki
 ms.topic: article
 ms.service: msteams
 ms.collection: 
