@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
+            - name: Security
+              href: rooms/security.md
             - name: Online Licensing
               href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
