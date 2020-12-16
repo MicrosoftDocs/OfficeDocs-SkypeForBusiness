@@ -30,7 +30,7 @@ At a high level, here’s how to choose (for a detailed comparison, jump down to
 
 ## External access
 
-Use **external access** (federation) when you need a solution that lets external users in other domains find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources. Choose external access when you want to communicate with users outside your organization who are still on Skype for Business (online or on premises) or Skype. 
+Use **external access** (federation) when you need a solution that lets external users in other domains find, call, chat, and set up meetings with you. External users have no access to your organization's teams or team resources. Choose external access when you want to communicate with users outside your organization who are still on Skype for Business (online or on-premises) or Skype. 
 
 External access is turned on by default in Teams, which means your org can communicate with all external domains. The Teams admin can turn it off or specify which domains to include (or exclude). To learn more, read [Manage external access](manage-external-access.md). 
 
@@ -90,4 +90,3 @@ If you're ready to turn on guest access in your organization, start with the [Co
 [External access in Teams](manage-external-access.md)
 
 [Guest access in Teams](guest-access.md)
-
