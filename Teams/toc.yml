@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: Understand coexistence and interoperability
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: Understand Phone System and PSTN connectivity options
-              href: cloud-voice-landing-page.md
+            - name: PSTN considerations
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Choose your upgrade journey
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: Plan a user pilot
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Coexistence of Teams and Skype for Business
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN considerations
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Coexistence modes - Reference
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams client experience and conformance to coexistence modes
