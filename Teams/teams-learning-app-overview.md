@@ -23,17 +23,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 *This article contains preliminary content for the Teams Learning app, which is in private preview.*
 
-The Microsoft Teams Learning app (private preview) empowers teams and individuals to make learning a natural part of their day. The app creates a central hub in Teams where employees can share, assign, and learn from content libraries across your organization. Admins set permissions and allow content for the Teams Learning app (private preview). Learning content can include LinkedIn Learning, Microsoft Learn, Microsoft 365 training, your organization's own content stored in SharePoint online, and third-party providers that are supported by the application.
+The Microsoft Teams Learning app (private preview) empowers teams and individuals to make learning a natural part of their day. The app creates a central hub in Teams where employees can share, assign, and learn from content libraries across your organization. Admins set permissions and allow learning content sources for the app. Learning content can include LinkedIn Learning, Microsoft Learn, Microsoft 365 training, your organization's own content stored in SharePoint online, and third-party providers that are supported by the app.
 
 To set up the Teams Learning app (private preview), you'll need to involve:
 
 -	Teams admin center admin
 -	Microsoft 365 admin center admin (that is, a global admin)
--	Knowledge admin (a new role in the Microsoft 365 admin center that a global admin (also known as an IT admin or a Microsoft 365 admin) can assign to anyone in the organization. This role manages the organization’s learning source configuration through the Microsoft 365 admin center.) 
+-	Knowledge admin (a new role in the Microsoft 365 admin center that a global admin (also known as IT admin or Microsoft 365 admin) can assign to anyone in the organization. This role manages the organization’s learning content sources through the Microsoft 365 admin center.) 
 
 ## Manage the Teams Learning app (private preview) in the Teams admin center
 
-The Teams admin installs the Teams Learning app (private preview) from the app store, and applies app setup, manage, and permissions policies through the Teams admin center.
+The Teams admin installs the Teams Learning app (private preview) from the app store and applies app setup, manage, and permissions policies through the Teams admin center.
 
 ### Manage the Teams Learning app (private preview)
 
@@ -53,12 +53,12 @@ To manage settings for app, follow these steps:
 
    ![Learning page in the Teams admin center showing Status and App settings section](media/learning-app-teams-learning-page.png)
 
-4. After **Manage app** settings, go to **Permissions and Set-up policies** to grant permission to employees who should have access to the Teams Learning app (private preview) as part of your organization's participation the the private preview.
+4. After **Manage app** settings, go to **Permissions and Set-up policies** to grant permission to employees who should have access to the app as part of your organization's participation the the private preview.
 
 > [!NOTE]
 >  If your organization is in Ring 4.0 as part of Teams TAP100 program, you might need to do the following to enable approved users in Ring 3.0 to access the Teams Learning app (private preview).
 
-As part of private preview, the Teams Learning app (private preview) is released in Ring 3.0. If your tenant is in Ring 4.0, you won’t see the app in the app store. To test the app, you need to create a custom apps permission policy, set it to **Allow all apps**, and assign it to Ring 3.0 approved users.
+As part of private preview, the Teams Learning app (private preview) is released in Ring 3.0. If your organization is in Ring 4.0, you won’t see the app in the app store. To test the app, you need to create a custom apps permission policy, set it to **Allow all apps**, and assign it to Ring 3.0 approved users.
 
    ![TAP-AppsPermission-Plcy page showing Allow all apps selected](media/learning-app-tap-appspermission-plcy.png)
 
@@ -91,7 +91,7 @@ These steps are to be performed by the Microsoft 365 admin or the Knowledge admi
   
 3.	On the **Learning app** panel, select the learning content sources you want to configure for the organization, and then select **Save**.
   
-The learning content sources that are enabled by default include:
+Among all the learning sources that exist, some will be enabled by default. These include:
 
 - LinkedIn Learning (free content)
 - Microsoft Learn
