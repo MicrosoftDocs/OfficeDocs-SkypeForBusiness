@@ -102,9 +102,9 @@ If you assign dial keys to destinations, we recommend that you choose **None** f
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
-**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
+**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
 
-**Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user with a Phone System license, or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
+**Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
 
 Users you wish to make available for Dial By Extension need to have an extension specified as part of one of the following phone attributes defined in Active Directory or Azure Active Directory (See [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) for more information.)
 
@@ -170,7 +170,7 @@ When you've added all your holidays, click **Next**.
 
 ![Screenshot of dial scope include and exclude options](media/auto-attendant-dial-scope.png)
 
-The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Phone System license or hosted on-premises using Skype for Business Server.
+The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users or hosted on-premises using Skype for Business Server.
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
 
