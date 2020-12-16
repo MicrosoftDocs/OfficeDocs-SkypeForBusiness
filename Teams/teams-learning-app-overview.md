@@ -131,7 +131,9 @@ These steps are to be performed by Microsoft 365 admin or the Knowledge admin.
 1.	In the left navigation of the Microsoft 365 admin center, go to **Settings**.
  
 2.	On the **Settings** page, on the **Services & add-ins** tab, select **Learning app**.
- 
+
+   ![Settings page in the Microsoft 365 admin center showing the Learning app listed](media/learning-app-365-settings-page.png)
+
 3.	On the **Learning app** panel, provide the site URL to the SharePoint site where you want the app to create a centralized repository.
 
    ![Learning app panel in the Microsoft 365 admin center showing SharePoint selected](media/learning-app-365-panel-sharepoint-selected.png)
