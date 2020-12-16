@@ -88,9 +88,13 @@ These steps are to be performed by the Microsoft 365 admin or the Knowledge admi
 1.	In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org settings**.
 
 2.	On the **Settings** page, on the **Services & add-ins** tab, select **Learning app**.
-  
+
+   ![Settings page in the Microsoft 365 admin center showing the Learning app listed](media/learning-app-365-settings-page.png)
+
 3.	On the **Learning app** panel, select the learning content sources you want to configure for the organization, and then select **Save**.
-  
+
+   ![Learning app panel in the Microsoft 365 admin center showing content sources options](media/learning-app-365-settings-learning-app-panel.png)
+
 Among all the learning sources that exist, some will be enabled by default. These include:
 
 - LinkedIn Learning (free content)
@@ -129,6 +133,8 @@ These steps are to be performed by Microsoft 365 admin or the Knowledge admin.
 2.	On the **Settings** page, on the **Services & add-ins** tab, select **Learning app**.
  
 3.	On the **Learning app** panel, provide the site URL to the SharePoint site where you want the app to create a centralized repository.
+
+   ![Learning app panel in the Microsoft 365 admin center showing SharePoint selected](media/learning-app-365-panel-sharepoint-selected.png)
 
 4.	A SharePoint list is created automatically within the provided organization’s SharePoint site. In the left navigation of the SharePoint site, select **Learning App Content Repository**. 
 
