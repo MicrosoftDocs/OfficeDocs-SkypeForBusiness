@@ -191,6 +191,9 @@ For more information about admin roles and how to assign a role in Microsoft 365
 11. Ensure that the status is **Setup complete**. 
     
     ![Screenshot of page showing status of Setup complete](media/direct-routing-12-sbc-setup-complete.png)
+    
+> [!NOTE]
+> The Base URL and the subdomain for the individual client has to be on the same tenant for you to add a 'direct route' trunk in.
 
 ### Activate the subdomain name
 
