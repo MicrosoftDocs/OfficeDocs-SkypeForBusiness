@@ -1,5 +1,5 @@
 ---
-title: "Manually update a Microsoft Teams Rooms devices"
+title: "Manually update a Microsoft Teams Rooms device"
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -17,7 +17,7 @@ ms.collection:
 description: Learn how to manually update your Microsoft Teams Rooms device to a specific version.
 ---
 
-# Manually update a Microsoft Teams Rooms devices
+# Manually update a Microsoft Teams Rooms device
 
 The Microsoft Teams Rooms app is distributed through the Microsoft Store. Updates to the app are installed from the Microsoft Store automatically during nightly maintenance; this is the recommended method to get updates. However, there are some situations where a Teams Rooms device can't receive updates from the Microsoft Store. For example, security policies may not allow devices to connect to the Internet or may not allow apps to be downloaded from the Microsoft Store. Or, you may want to update a device before performing setup, during which the Microsoft Store isn't available.
 
