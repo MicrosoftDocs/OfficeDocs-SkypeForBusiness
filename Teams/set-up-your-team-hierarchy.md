@@ -111,12 +111,12 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 | HR                     |                         | b8f7db91-201c-4cf9-9f7e-90a4894ed8e4 |||||||
 | East Regional Office   |                         |                                      |||||||
 | West Regional Office   |                         |                                      |||||||
-| North East Zone        | East Regional Office    |                                      |||||||
-| South East Zone        | East Regional Office    |                                      |||||||
-| New York Store         | North East Zone         | e2ba65f6-25e7-488b-b8f0-b8562d5de60a |Large|1|1||||
-| Boston Store           | North East Zone         | 0454f08a-0507-437c-969a-682eb2fae7fc |Standard|1|1||||
-| Miami Store            | South East Zone         | 619d6e4e-5f68-4b36-8e1f-16c98d7396c1 |Compact|0|1||||
-| New Orleans Store      | South East Zone         | 6be960b8-72af-4561-a343-9ac4711874eb |Compact|0|1||||
+| Northeast Zone        | East Regional Office    |                                      |||||||
+| Southeast Zone        | East Regional Office    |                                      |||||||
+| New York Store         | Northeast Zone         | e2ba65f6-25e7-488b-b8f0-b8562d5de60a |Large|1|1||||
+| Boston Store           | Northeast Zone         | 0454f08a-0507-437c-969a-682eb2fae7fc |Standard|1|1||||
+| Miami Store            | Southeast Zone         | 619d6e4e-5f68-4b36-8e1f-16c98d7396c1 |Compact|0|1||||
+| New Orleans Store      | Southeast Zone         | 6be960b8-72af-4561-a343-9ac4711874eb |Compact|0|1||||
 | Seattle Store          | West Regional Office    | 487c0d20-4e55-4dc2-8187-a24c826e0fee |Standard|1|1||||
 | Los Angeles Store      | West Regional Office    | 204a1287-2efb-4a8a-88e0-56fbaf5a2389 |Large|1|1||||
 
