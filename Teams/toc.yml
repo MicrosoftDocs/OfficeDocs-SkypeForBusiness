@@ -976,7 +976,7 @@
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
     - name: FAQ
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: Technical library
       items: 
         - name: Upgrade guidance for IT administrators
