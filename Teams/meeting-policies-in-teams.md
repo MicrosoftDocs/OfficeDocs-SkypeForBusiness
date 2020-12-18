@@ -39,7 +39,7 @@ You can implement policies in the following ways, which affect the meeting exper
 |---------|---------|
 |Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
 |Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Allow Meet now in channels** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
+|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow users to start and stop a recording.
 
 You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
 
@@ -191,7 +191,7 @@ Note that transcription for recorded meetings is currently only supported for us
 
 ### Allow cloud recording
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
+This is controlled at a per-user policy. This setting controls whether a user can record. The recording can be started by the meeting organizer or by another meeting participant if their specific policy setting is turned on and if they're an authenticated user from the same organization as the organizer.
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
 
@@ -205,7 +205,7 @@ Let's look at the following example.
 |Amanda | Location1MeetingPolicy | On|
 |John (external user) | Not applicable | Not applicable|
 
-Meetings organized by Daniela can't be recorded and Amanda, who has the policy setting enabled, can't record meetings organized by Daniela. Meetings organized by Amanda can be recorded, however,  Daniela, who has the policy setting disabled and John who is an external user, can't record meetings organized by Amanda.
+Daniela, even if she were the organizer cannot record because her policy is set to off. Amanda, who has the policy setting enabled, can record meetings even those organized by Daniela. If Amanda were to organize a meeting, she will be able to record that meeting, however,  Daniela, who has the policy setting disabled and John who is an external user, can not record that meeting.
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
