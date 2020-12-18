@@ -29,7 +29,7 @@ There are three types of log files automatically produced by the client which ca
 
 -   Desktop logs
 
-When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support-request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **desktop** logs are only required if requested by Microsoft.
+When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **desktop** logs are only required if requested by Microsoft.
 
 > [!NOTE]
 > In this article, the term **Debug logs** is used to refer to the logs that are used for troublehsooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.  
