@@ -73,6 +73,13 @@ If you are a manufacturer and want to join the certification program, see [How t
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Dell                 |C3422WE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
+|Dell                 |C2722DE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
+|Dell                 |C2422HE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
+|Poly                 |Sync 20 + speakerphone with Poly BT600 USB Dongle          |11/9/2020       |Certified for Microsoft Teams                           |
+|Poly                 |Sync 20 speakerphone                                       |11/9/2020       |Certified for Microsoft Teams                           |
 |Jabra                |Evolve 65t Headset                                         |10/31/2020      |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype for Business with upgrade to Microsoft Teams      |
