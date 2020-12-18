@@ -21,14 +21,14 @@ description: Learn how to manually update your Microsoft Teams Rooms device to a
 
 The Microsoft Teams Rooms app is distributed through the Microsoft Store. Updates to the app are installed from the Microsoft Store automatically during nightly maintenance; this is the recommended method to get updates. However, there are some situations where a Teams Rooms device can't receive updates from the Microsoft Store. For example, security policies may not allow devices to connect to the Internet or may not allow apps to be downloaded from the Microsoft Store. Or, you may want to update a device before performing setup, during which the Microsoft Store isn't available.
 
-If you can't get updates from the Microsoft Store, you can use an offline app update PowerShell script to manually update your Teams Rooms devices to a newer version of the Teams Rooms app. You can also specify a specific version to upgrade to. Follow the steps in this article to manually update your Teams Rooms devices.
+If you can't get updates from the Microsoft Store, you can use an offline app update PowerShell script to manually update your Teams Rooms devices to a newer version of the Teams Rooms app. Follow the steps in this article to manually update your Teams Rooms devices.
 
 > [!NOTE]
 > This process can only update a Teams Rooms device with the Teams Rooms app already installed. It can't be used to perform a new installation. It also can't be used to downgrade the app to an older version. To perform a new installation of the Teams Rooms app, contact your device's manufacturer for media specific to it, or see [Prepare the installation media](console.md#prepare-the-installation-media).
 
 ## Step 1: Download the offline app update script
 
-First, download the latest version of the offline app update script. You can download the script from the [MTR-Update script](https://aka.ms/mtr-updater) page on the Microsoft Download Center.
+First, download the latest version of the offline app update script. To download the script, click <https://go.microsoft.com/fwlink/?linkid=2151817>. The script will be downloaded to the default downloads folder on your device.
 
 Downloaded files may be marked as blocked by Windows. If you need to run the script without any interaction, you'll need to unblock the script. To unblock the script, do the following:
 
@@ -39,7 +39,7 @@ Downloaded files may be marked as blocked by Windows. If you need to run the scr
 
 To unblock the script using PowerShell, see [Unblock-File](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1).
 
-After the offline app update script is downloaded, transfer the file to the Teams Rooms device. You can transfer a file to the device by using a USB drive or by accessing the file from a network file share while signed in using an admin account. Be sure to note where you save the file on the device.
+After the offline app update script is downloaded, transfer the file to the Teams Rooms device. You can transfer a file to the device by using a USB drive or by accessing the file from a network file share while in Admin Mode on the device. Be sure to note where you save the file on the device.
 
 ## Step 2: Run the script to update the Teams Rooms app
 
@@ -48,17 +48,17 @@ The offline app update script needs to be run from an elevated command prompt wh
 Do the following to run the script from an elevated command prompt:
 
 1. Switch to Admin Mode
-2. Click the Start button, type **Command Prompt**, and then select **Run as administrator**
+2. Click the Start icon, type **Command Prompt**, and then select **Run as administrator**
 3. Run the following command where `<path to script>` includes the full path to the script and the name of the script file:
 
-    ```PowerShell
-    PowerShell -ExecutionPolicy Unrestricted <path to script>
+    ```console
+    PowerShell -ExecutionPolicy Unrestricted "<path to script>"
     ```
 
 For example, if the script file is located in `C:\Users\Admin\Downloads`, and the script file name is `MTR-Update-4.5.6.7.ps1`, run the following command:
 
-```PowerShell
-PowerShell -ExecutionPolicy Unrestricted C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1
+```console
+PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1"
 ```
 
 Allow the script to run. When it's finished, the script will reboot the Teams Rooms device.
