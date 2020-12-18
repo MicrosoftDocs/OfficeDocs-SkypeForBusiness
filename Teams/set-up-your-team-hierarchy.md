@@ -140,15 +140,25 @@ You can upload a new hierarchy to replace the old one using the same PowerShell 
 > [!IMPORTANT]
 > To perform this step, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Teams PowerShell](teams-powershell-install.md).
 
-If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionality on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete. 
+If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionality on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete.
 
-To remove your hierarchy, run the following command. You must be an admin to perform this step. 
+To remove your hierarchy, run the following command. You must be an admin to perform this step.
 
 ```powershell
 Remove-TeamTargetingHierarchy
 ```
 
+When confirming deletion, the status message will still display the previous schema is present, although attempting to delete again returns an error that the object is null.
+
 ## Troubleshooting
+
+### How to generate error details
+
+You can run the following command to understand what is causing an error and return the error details.
+
+```powershell
+(Get-TeamTargetingHierarchyStatus).ErrorDetails.ErrorMessage
+```
 
 ### You receive an error message when you upload your schema CSV file
 
@@ -163,13 +173,13 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Check to make sure that you're using the correct TeamId for the team in your schema CSV file. The TeamId should be the same as the Group ID of the Microsoft 365 group that backs the team. You can look up the Group ID of the team in the Microsoft Teams admin center. 
+Check to make sure that you're using the correct TeamId for the team in your schema CSV file. The TeamId should be the same as the Group ID of the Microsoft 365 group that backs the team. You can look up the Group ID of the team in the Microsoft Teams admin center.
 
 1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Teams** > **Manage teams**.
 2. If the **Group ID** column isn't displayed in the table, select **Edit columns** in the upper-right corner of the table, and then turn on **Group ID**.
 3. Find the team in the list, and then locate the Group ID.
 
-Make sure that the TeamId in your schema CSV file matches the Group ID that's displayed in the Microsoft Teams admin center. 
+Make sure that the TeamId in your schema CSV file matches the Group ID that's displayed in the Microsoft Teams admin center.
 
 ## Related topics
 
