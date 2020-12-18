@@ -29,12 +29,10 @@ There are three types of log files automatically produced by the client which ca
 
 -   Desktop logs
 
-When creating a support request with Microsoft Support, the support engineer will require the debug logs.
+When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support-request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **desktop** logs are only required if requested by Microsoft.
+
 > [!NOTE]
-> **Debug logs** is a term synonymous to **diagnostic logs** which is the term used to address files that contain logged information. Only in this article, **diagnostic logs** are referred to as **debug logs**.  
-
-
-Having the debug logs on hand before creating the support-request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **desktop** logs are only required if requested by Microsoft.
+> In this article, the term **Debug logs** is used to refer to the logs that are used for troublehsooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.  
 
 The following table outlines the various clients and their associated logs. Log files are stored in locations specific to the client and operating system.
 
@@ -53,7 +51,7 @@ For a complete list of supported operating systems and browsers, see [Get client
 Debug logs
 ---------------------------
 
-These are the most common logs and are required for all Microsoft support-cases. Debug logs are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
+These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
 
 Debug logs show the following data flows:
 
@@ -90,11 +88,11 @@ The debug logs are automatically downloaded to the following folders:
 Media logs
 ---------------------------
 
-Media logs contain diagnostic data about audio, video, and screen-sharing in Teams meetings. They are required for support-cases that are linked to call-related issues.
+Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
 
 Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. 
 
-The following table outlines the media-log locations. When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
+The following table outlines the media log locations. When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
 |Client |Location |
 |---------|---------|
