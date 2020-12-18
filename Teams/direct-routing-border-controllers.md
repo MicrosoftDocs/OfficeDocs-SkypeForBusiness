@@ -77,6 +77,7 @@ If you have any questions about the SBC certification program for Direct Routing
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
+|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
 
 <br/>
 <br/>
