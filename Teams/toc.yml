@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Configure the Skype Meetings App to work with Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Teams Approvals app availability
+      href: approval-admin.md
 - name: Meetings and conferencing
   items: 
     - name: Quick start - meetings and live events
@@ -933,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: Understand coexistence and interoperability
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: Understand Phone System and PSTN connectivity options
-              href: cloud-voice-landing-page.md
+            - name: PSTN considerations
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Choose your upgrade journey
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: Plan a user pilot
@@ -972,7 +974,7 @@
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
     - name: FAQ
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: Technical library
       items: 
         - name: Upgrade guidance for IT administrators
@@ -989,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Coexistence of Teams and Skype for Business
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN considerations
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Coexistence modes - Reference
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams client experience and conformance to coexistence modes
