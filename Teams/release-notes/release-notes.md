@@ -26,7 +26,7 @@ These release notes provide information about new admin features for Microsoft T
 
 ### Set up Microsoft Teams meeting add-on for Google Workspace
 
-Using the Microsoft Teams meeting add-on lets Google calendar users schedule and join a Microsoft Teams meeting directly from Google Workspace. Users will get access to Teams meetings features including video and audio conferencing, screen sharing, meeting chat, digital whiteboards, and more. Stay connected and organized to get more done together across work, school, and life.
+Using the Microsoft Teams meeting add-on lets Google calendar users schedule and join a Microsoft Teams meeting directly from Google Workspace. Users will get access to Teams meetings features including video and audio conferencing, screen sharing, meeting chat, digital drawing boards, and more. Stay connected and organized to get more done together across work, school, and life.
 
 The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app. [Learn more](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
 
