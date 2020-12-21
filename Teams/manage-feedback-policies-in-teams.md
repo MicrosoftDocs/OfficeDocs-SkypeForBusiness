@@ -1,9 +1,9 @@
 ---
 title: Manage feedback policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: msedliak
+ms.reviewer: heprecel
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -36,7 +36,7 @@ Users can send comments and suggestions about Teams to us by going to **Help** >
 
 **Surveys**
 
-Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When a user clicks **Provide feedback** in the notification, the survey is displayed for them to complete.
+Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When a user selects **Provide feedback** in the notification, the survey is displayed for them to complete.
 
 ![Screenshot of the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
