@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: What's the status of your port orders?
               href: phone-number-calling-plans/port-order-status.md
+        - name: Supported rate centers and coverage
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: Call routing
       items: 
         - name: What are dial plans?
