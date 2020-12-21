@@ -39,7 +39,7 @@ However, since introducing IBs, many other areas have found them to be useful. O
 
 - Education: Students in one school aren't able to look up contact details for students of other schools.
 
-- Legal: Maintaining the confidentiality of data that is obtained by the lawyer of one client and prevent it from being accessed by a lawyer for the same firm who represents a different client.
+- Legal: Maintaining the confidentiality of data that is obtained by the lawyer of one client and preventing it from being accessed by a lawyer for the same firm who represents a different client.
 
 - Government: Information access and control are limited across departments and groups.
 
@@ -81,11 +81,13 @@ IB policies are activated when the following Teams events take place:
 
     Here's an example of a 1:1 chat.
 
-    ![Screenshot showing blocked communication in 1:1 chat](media/information-barriers-one-one-chat.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing blocked communication in 1:1 chat](media/information-barriers-one-one-chat.png)
 
     Here's an example of a group chat.
 
-    ![Screenshot showing group chat](media/information-barriers-group-chat.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing group chat](media/information-barriers-group-chat.png)
 
 - **A user is invited to join a meeting** - When a user is invited to join a meeting, the IB policy that applies to the user is evaluated against the IB policies that apply to the other team members. If there's a violation, the user won't be allowed to join the meeting.
 
@@ -95,14 +97,16 @@ IB policies are activated when the following Teams events take place:
  
     Here's an example of screen share before the policy is applied. 
 
-    ![Screenshot showing a user chat](media/ib-before-screen-share-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing a user chat](media/ib-before-screen-share-policy.png)
 
     Here's an example of screen share after the policy is applied. The screen share and call icons aren't visible.
 
-    ![Screenshot showing user char with blocked settings](media/ib-after-screen-share-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing user char with blocked settings](media/ib-after-screen-share-policy.png)
 
 - **A user places a phone call in Teams** - Whenever a user initiates a voice call (via VOIP) to another user or group of users, the call is evaluated to make sure that it doesn't violate the IB policies of other team members. If there's any violation, the voice call is blocked.
-- 
+
 - **Guests in Teams** - IB policies apply to guests in Teams, too. If guests need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Once guests are discoverable, you can [define IB policies](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## How policy changes impact existing chats
@@ -111,15 +115,17 @@ When the IB policy administrator makes changes to a policy, or when a policy cha
 
 If there's an existing chat or other communication between users, and a new policy is set or an existing policy is changed, the service evaluates existing communications to make sure that the communications are still allowed to occur. 
 
-- **1:1 chat** - If communication between two users is no longer allowed (because of application to one or both users of a policy that blocks communication), further communication is blocked. Their existing chat conversation become read-only. 
+- **1:1 chat** - If communication between two users is no longer allowed (because of application to one or both users of a policy that blocks communication), further communication is blocked. Their existing chat conversations become read-only. 
 
     Here's an example that shows the chat is visible.
 
-    ![Screenshot showing user chat is available](media/ib-before-1-1chat-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing user chat is available](media/ib-before-1-1chat-policy.png)
 
     Here's an example that shows the chat is disabled.
 
-    ![Screenshot showing user chat is disabled](media/ib-after-1-1chat-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing user chat is disabled](media/ib-after-1-1chat-policy.png)
 
 - **Group chat** - If communication from one user to a group is no longer allowed (for example, because a user changed jobs), the user—along with the other users whose participation violates the policy—may be removed from group chat, and further communication with the group won't be allowed. The user can still see old conversations, but won't be able to see or participate in any new conversations with the group. If the new or changed policy that prevents communication is applied to more than one user, the users who are affected by the policy may be removed from group chat. They can still see old conversations.
 
@@ -147,26 +153,29 @@ Currently, users experience the following scenarios if an IB policy blocks anoth
 
     Here's an example of the activity tab view that is blocked.
 
-    ![Screenshot showing the activity tab that is blocked](media/ib-after-activity-tab-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing the activity tab that is blocked](media/ib-after-activity-tab-policy.png)
 
 
 - **Org charts** - If a user accesses an org chart on which a blocked user appears, the blocked user won't appear on the org chart. Instead, an error message will appear.
-- 
+
 - **People card** - If a user participates in a conversation and the user is later blocked, other users will see an error message instead of the people card when they hover over the blocked user's name. Actions listed on the card (such as calling and chat) will be unavailable.
-- 
+
 - **Suggested contacts** - Blocked users don't appear on the suggested contacts list (the initial contact list that appears for new users).
-- 
+
 - **Chat contacts** - A user can see blocked users on the chats contact list, but the blocked users will be identified. The only action that the user can perform on the blocked users is to delete them. The user can also click on them to view their past conversation.
-- 
+
 - **Calls contacts** - A user can see blocked users on the calls contact list, but the blocked users will be identified. The only action that the user can perform on the block users is to delete them.
 
     Here's an example of a blocked user in the calls contact list.
 
-    ![Screenshot showing user user chat](media/ib-before-chat-contacts-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing user user chat](media/ib-before-chat-contacts-policy.png)
 
     Here's an example of the chat being disabled for a user on the calls content list.
 
-    ![Screenshot showing user blocked from chat](media/ib-after-chat-contacts-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot showing user blocked from chat](media/ib-after-chat-contacts-policy.png)
 
 - **Skype to Teams migration** - During a migration from Skype for Business to Teams, all users—even those users who are blocked by IB policies—will be migrated to Teams. Those users are then handled as described above.
 
@@ -184,9 +193,9 @@ For more information, see [Use information barriers with SharePoint](https://doc
 For more information and licenses and permissions, including plans and pricing, see [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## Known Issues
-- **Users can't join ad-hoc meetings**: If IB policies are enabled, users aren't allowed to join meetings if the size of the meeting roster is greater than the [meeting attendance limits](limits-specifications-teams.md). The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be are they allowed to join the meeting. A user joining a meeting once adds that user to the roster; hence for recurring meetings, the roster can fill up fast. Once the chat roster reaches the [meeting attendance limits](limits-specifications-teams.md), no additional users are allowed to be added to the meeting. If IB is enabled for the tenant and the chat roster is full for a meeting, new users (those users who aren't already on the roster) aren't allowed to join the meeting. But if IB isn't enabled for the tenant and the meeting chat roster is full, new users (those users who aren't already on the roster) are allowed to join the meeting, though they won't see the chat option in the meeting. A short-term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
+- **Users can't join ad-hoc meetings**: If IB policies are enabled, users aren't allowed to join meetings if the size of the meeting roster is greater than the [meeting attendance limits](limits-specifications-teams.md). The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. A user joining a meeting once adds that user to the roster; hence for recurring meetings, the roster can fill up fast. Once the chat roster reaches the [meeting attendance limits](limits-specifications-teams.md), no additional users are allowed to be added to the meeting. If IB is enabled for the tenant and the chat roster is full for a meeting, new users (those users who aren't already on the roster) aren't allowed to join the meeting. But if IB isn't enabled for the tenant and the meeting chat roster is full, new users (those users who aren't already on the roster) are allowed to join the meeting, though they won't see the chat option in the meeting. A short-term solution is to remove inactive members from the meeting chat roster to make space for new users. We will, however, be increasing the size of meeting chat rosters at a later date.
 
-- **Users can't join channel meetings**: If IB policies are enabled, users aren't allowed to join channel meetings if they aren't a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be are they allowed to join the meeting. The chat thread in a channel meeting is available to Team/Channel members only, and non-members can't see or access the chat thread. If IB is enabled for the tenant and a non-team member attempts to join a channel meeting, that user isn't allowed to join the meeting. However, if IB is _not_ enabled for the tenant and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting—but they won't see the chat option in the meeting.
+- **Users can't join channel meetings**: If IB policies are enabled, users aren't allowed to join channel meetings if they aren't a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. The chat thread in a channel meeting is available to Team/Channel members only, and non-members can't see or access the chat thread. If IB is enabled for the tenant and a non-team member attempts to join a channel meeting, that user isn't allowed to join the meeting. However, if IB is _not_ enabled for the tenant and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting—but they won't see the chat option in the meeting.
 
 ## More information
 
