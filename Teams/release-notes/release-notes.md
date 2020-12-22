@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## December 21, 2020
+
+### Supported rate centers and coverage for Calling Plans
+
+A rate center is the industry term for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the Public Switched Telephone Network (PSTN). [Learn more](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix).
+
 ## November 25, 2020
 
 ### Set up Microsoft Teams meeting add-on for Google Workspace
