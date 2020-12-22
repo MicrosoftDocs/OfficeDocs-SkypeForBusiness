@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms with Exchange Online"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

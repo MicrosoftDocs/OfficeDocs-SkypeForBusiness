@@ -40,6 +40,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
 |Number of Private channels per team    |30| (includes deleted channels)&sup3;
 |Number of members in a Private channel    |250|
+|Maximum size of distribution list, security group or Office 365 group that can be imported in to a team    |3,500|
 |Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>5</sup>     |
 |Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
 
@@ -111,18 +112,18 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including**:
+> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
 >
->- Up to 20,000 attendees per event
->- Up to 50 simultaneous events per Teams tenant
->- Up to 16 hours per broadcast
+>- Event support for up to 20,000 attendees
+>- 50 events can be hosted simultaneously across a tenant
+>- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting (can chat and call in)  | 350 |
-|Number of people in a video or audio call from chat | 20 |
+|Number of people in a video or audio call started from the chat tab | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 
@@ -157,13 +158,13 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including**:
+> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
 >
-> - Up to 20,000 attendees per event
-> - Up to 50 simultaneous events per Teams tenant
-> - Up to 16 hours per broadcast
+>- Event support for up to 20,000 attendees
+>- 50 events can be hosted simultaneously across a tenant
+>- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## Presence in Outlook
 
@@ -174,7 +175,7 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
-> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site collection.
+> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site (previously called "site collection").
 
 If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
@@ -185,10 +186,10 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |Feature                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
-|Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
-|File upload limit  (per file)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
+|Storage for Teams Files |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |
+|File upload limit  (per file)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
-Channels are backed by folders within the SharePoint Online site collection created for the team, so file tabs within Channels share the storage limits of the team they belong to.
+Channels are backed by folders within the SharePoint Online site (previously called "site collection") created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
 For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 

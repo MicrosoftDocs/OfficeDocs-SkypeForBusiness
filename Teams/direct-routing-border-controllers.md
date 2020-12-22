@@ -33,7 +33,7 @@ Microsoft works with each vendor to:
 
 
   > [!NOTE]
-  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. 
+  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to engage the SBC vendor for support.
 
 The table below lists devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
@@ -77,6 +77,7 @@ If you have any questions about the SBC certification program for Direct Routing
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
+|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
 
 <br/>
 <br/>
