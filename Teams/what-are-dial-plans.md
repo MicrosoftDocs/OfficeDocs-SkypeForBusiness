@@ -112,6 +112,10 @@ For details about using .NET Framework regular expressions, see [.NET Framework 
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
 
+> [!NOTE]
+> Normalization rules with the first token as optional are currently not supported on 3pip devices (for example, Polycom VVX 601 model). If you want to apply normalization rules with optionality on 3pip devices, you should create two normalization rules instead of one. For example, the rule ^0?(999)$ should be replaced by the following two rules: (999)$ (Translation:$1) and ^0(999)$ (Translation:$1).
+
+
 ### Sample normalization rules
 
 The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
