@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms managed service
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer:  
 ms.topic: article
