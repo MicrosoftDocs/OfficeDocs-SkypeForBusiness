@@ -31,7 +31,7 @@ As an admin, you use Teams meetings settings to control whether anonymous users 
 ## Allow anonymous users to join meetings
 
 > [!NOTE]
-> If you disable anonymous (which is the default setting for Teams meetings in a tenant) it will block invited, external people from attending meetings.
+> If you disable anonymous join (which is the default setting for Teams meetings in a tenant), it will block invited, external people from attending meetings.
 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
