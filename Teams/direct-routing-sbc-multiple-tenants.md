@@ -193,7 +193,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
     ![Screenshot of page showing status of Setup complete](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> The Base URL and the subdomain for the individual client has to be on the same tenant for you to add a 'direct route' trunk in.
+> The base URL and the subdomain for the individual client has to be on the same tenant for you to add a _direct route_ trunk.
 
 ### Activate the subdomain name
 
@@ -263,4 +263,3 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
 [Plan Direct Routing](direct-routing-plan.md)
 
 [Configure Direct Routing](direct-routing-configure.md)
-
