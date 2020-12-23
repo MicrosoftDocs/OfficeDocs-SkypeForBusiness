@@ -193,7 +193,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
     ![Screenshot of page showing status of Setup complete](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> The base URL and the subdomain for the individual client has to be on the same tenant for you to add a _direct route_ trunk.
+> The base URL and the subdomain for the individual client have to be on the same tenant to enable you to add a _direct route_ trunk.
 
 ### Activate the subdomain name
 
