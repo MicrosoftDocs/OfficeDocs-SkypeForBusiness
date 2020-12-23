@@ -48,7 +48,7 @@ The Teams App Submission API, <a href="https://docs.microsoft.com/graph/api/team
 
 Here's an example of what this app submission step looks like in Visual Studio Code:
 
-![Screenshot of submitting an app in Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
+![submitting an app in Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
 
@@ -60,11 +60,11 @@ The <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_bla
 
 In the table, a newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked**. You can sort the **Publishing status** column in descending order to quickly find the app.
 
-![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-validate-app.png)
+![publishing status ](media/custom-app-lifecycle-validate-app.png)
 
 Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
-![Screenshot of app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
+!app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
 
 For more information about using the Graph API to check the **Publishing status**, see <a href="https://docs.microsoft.com/graph/api/teamsapp-list?view=graph-rest-1.0&tabs=http#example-3-list-applications-with-a-given-id-and-return-the-submission-review-state" target="_blank">here</a>.
 
@@ -97,7 +97,7 @@ Before you can search the audit log, you have to first turn on auditing in the <
 
 Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
-![Screenshot of Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
+![Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
@@ -107,14 +107,14 @@ To update an app, developers should continue to follow the steps in the [Develop
 
 When the developer submits an update to a published custom app, you'll get notified in the **Pending approval** widget of the <a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">Manage apps</a> page. In the table, the **Publishing status** of the app will be set to **Update submitted**.
 
-![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-submitted.png)
+![Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-submitted.png)
 
 To review and publish an app update:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
 
-    ![Screenshot of Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-app.png)
+    ![app details page](media/custom-app-lifecycle-update-app.png)
 3. When you're ready, select **Publish** to publish the update. Doing this replaces the existing app, updates the version number, and changes the **Publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
 
     If you reject the update, the earlier version of the app remains published.
@@ -140,9 +140,9 @@ In most cases, after you publish an app update, the new version automatically ap
 * A new configurable tab was added
 * Properties inside "webApplicationInfo" changed
 
-![Screenshot showing apps that have a new version available](media/manage-your-custom-apps-update1.png)
+![new version available](media/manage-your-custom-apps-update1.png)
 
-![Screenshot of upgrade option for an app](media/manage-your-custom-apps-update2.png)
+![upgrade option for an app](media/manage-your-custom-apps-update2.png)
 
 ## Related topics
 
