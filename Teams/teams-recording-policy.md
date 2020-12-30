@@ -53,7 +53,7 @@ Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premiu
 The compliance recording solution integration capabilities were also
 reviewed at Ignite 2019 in the [<span class="underline">Compliance
 Recording and Microsoft Teams
-session</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
+session</span>](https://myignite.microsoft.com/archives/IG19-VCE40).
 
 ## Teams interaction recording overview
 
