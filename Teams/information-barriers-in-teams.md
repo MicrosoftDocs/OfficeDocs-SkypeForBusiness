@@ -32,7 +32,7 @@ IB policies also prevent lookups and discovery. If you attempt to communicate wi
 
 ## Background
 
-The primary driver for IBs comes from the financial services industry. The Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org)) reviews IBs and conflicts of interest within member firms and provides guidance about managing such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).
+The primary driver for IBs comes from the financial services industry. The Financial Industry Regulatory Authority ([FINRA]( https://www.finra.org)) reviews IBs and conflicts of interest within member firms and provides guidance about managing such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).
 
 
 However, since introducing IBs, many other areas have found them to be useful. Other common scenarios include:
