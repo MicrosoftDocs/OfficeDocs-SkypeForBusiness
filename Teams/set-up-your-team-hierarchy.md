@@ -46,7 +46,7 @@ The following terms will be important as you navigate hierarchies. Teams will be
 
 Before you create the schema that defines your hierarchy, you need to do some planning and decide how you want to shape your organization. This includes deciding which organizational groups need to publish tasks to other groups. Each node in the hierarchy represents a working group or group of groups. Leaf nodes are teams that can receive tasks while other nodes (parents) are organizational groups with permission to publish tasks downward. A team can only be represented one time in the hierarchy.
 
-For example, in the following hierarchy, Recall, Communications, and HR, can publish tasks to every bottom node (team) in the hierarchy, whereas Northeast Zone can only publish tasks to the New York Store and Boston Store teams. This hierarchy allows the Recall, Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. Northeast Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York Store and Boston Store teams.
+For example, in the following hierarchy, Recall, Communications, and HR, can publish tasks to every bottom node (team) in the hierarchy, whereas Northeast Zone can only publish tasks to the New York Store and Boston Store teams. The example hierarchy allows the Recall, Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. Northeast Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York Store and Boston Store teams.
 
 ![Team hierarchical example](media/team-targeting-schema-example-new.png)
 
@@ -64,7 +64,7 @@ The CSV file must contain the following three columns, in the following order, s
 ----------------|----------|---------------|
 | TargetName    | Yes      | This is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
 | ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the **TargetName** field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
-| TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy, if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br><br>If you want to add a node only for the purpose of grouping other nodes in the hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
+| TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. A node must be linked to a team if it's is at the bottom of your hierarchy (leaf node), if you want users to be able to publish from that node, or if you want users to be able to see reporting for that node and its descendants. For example, if your manager for the West Region Office wants to see task completion reporting for the nodes that belong in that region.<br><br>If you want to add a node only to group together other nodes in hierarchy, you don't need to link that node to a team and can leave this field blank. You can link each node to only one team.<br>To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This command lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 ### Add attribute columns
 
@@ -73,13 +73,13 @@ After you add the three required columns, you can add optional attribute columns
 |Ways to add attributes|Description |Example  |
 |---|---------|---------|
 |If the values for an attribute are mutually exclusive, the column name you specify becomes the name of the attribute.|Each row can contain one value for that attribute, and each value can be up to 100 characters long. The set of attribute values you specify in the attribute column will be displayed as available filter values for that attribute in Teams apps that use the hierarchy. Each attribute column can have up to 50 unique values. |You want users to be able to filter stores by layout. The values for this attribute are mutually exclusive because a store can have only one layout. <br><br>To add an attribute to filter stores by layout, add a column named Store layout. In this example, values for the Store layout attribute are Compact, Standard, and Large.
-|If you need to indicate multiple values for an attribute and the values aren't mutually exclusive, use the **AttributeName:UniqueValue** format for the column names. <br><br>**IMPORTANT** Make sure to use the English-only colon (:) as unicode is not supported as an attribute column delimiter. |The text string before the colon (:) becomes the name of the attribute. All columns that contain the same text string before the colon (:) are grouped together into a section in the filtering menu. Each of the strings after the colon become the values for that section.<br><br>Each row can have a value of 0 (zero) or 1 for that attribute. A value of 0 means that the attribute doesn't apply to the node and a value of 1 means that the attribute applies to that node.|You want users to be able to filter stores by department. A store can have multiple departments and so the values for this attribute aren't mutually exclusive.<br><br>In this example, we add Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sporting goods as attribute columns. Departments becomes the attribute name and users can filter by the Clothing, Electronics, Foods, Home and Garden, and Sporting goods departments.|
+|If you need to indicate multiple values for an attribute and the values aren't mutually exclusive, use the **AttributeName:UniqueValue** format for the column names. <br><br>**IMPORTANT** Make sure to use the English-only colon (:) as unicode isn't supported as an attribute column delimiter. |The text string before the colon (:) becomes the name of the attribute. All columns that contain the same text string before the colons (:) are grouped together into a section in the filtering menu. Each of the strings after the colon become the values for that section.<br><br>Each row can have a value of 0 (zero) or 1 for that attribute. A value of 0 means that the attribute doesn't apply to the node and a value of 1 means that the attribute applies to that node.|You want users to be able to filter stores by department. A store can have multiple departments and so the values for this attribute aren't mutually exclusive.<br><br>In this example, we add Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sporting goods as attribute columns. Departments becomes the attribute name and users can filter by the Clothing, Electronics, Foods, Home and Garden, and Sporting goods departments.|
 
 When you add an attribute column, keep the following in mind:
 
-- The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
-- The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9, and spaces. Column names must be unique.
-- At launch, we plan to allow 50 attribute columns.
+* The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
+* The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9, and spaces. Column names must be unique.
+* At launch, we plan to allow 50 attribute columns.
 
 ### Add bucket columns
 
@@ -89,43 +89,43 @@ By categorizing the work one time centrally, the publishing team can pre-organiz
 
 When you add a bucket column, note the following:
 
-- The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy. We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
-- The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
-- At launch, we expect to support 25 bucket columns. We plan to work with customers to increase this limit for larger organizations.
+* The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy. We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
+* The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
+* At launch, we expect to support 25 bucket columns. We plan to work with customers to increase this limit for larger organizations.
 
 ### Example
 
 Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the following:
 
-- Three required columns named `TargetName`, `ParentName`, and `TeamId`
-- Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
-- Three bucket columns named `Fresh Foods`, `Frozen Foods`, and `Womenswear`
+* Three required columns named `TargetName`, `ParentName`, and `TeamId`
+* Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
+* Three bucket columns named `Fresh Foods`, `Frozen Foods`, and `Women's Wear`
 
 The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attribute columns can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above. They're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
 
-
-| TargetName             | ParentName                      | TeamId                       | Store layout|Departments:Clothing|Departments:Foods|#Fresh Foods|#Frozen Foods|#Womenswear|
-|------------------------|-------------------------|--------------------------------------|-------------|---|---|---|---|---|
-| Recall                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
-| Communications         |                         | 145399ce-a761-4843-a110-3077249037fc |||||||
-| HR                     |                         | b8f7db91-201c-4cf9-9f7e-90a4894ed8e4 |||||||
-| East Regional Office   |                         |                                      |||||||
-| West Regional Office   |                         |                                      |||||||
-| Northeast Zone        | East Regional Office    |                                      |||||||
-| Southeast Zone        | East Regional Office    |                                      |||||||
-| New York Store         | Northeast Zone         | e2ba65f6-25e7-488b-b8f0-b8562d5de60a |Large|1|1||||
-| Boston Store           | Northeast Zone         | 0454f08a-0507-437c-969a-682eb2fae7fc |Standard|1|1||||
-| Miami Store            | Southeast Zone         | 619d6e4e-5f68-4b36-8e1f-16c98d7396c1 |Compact|0|1||||
-| New Orleans Store      | Southeast Zone         | 6be960b8-72af-4561-a343-9ac4711874eb |Compact|0|1||||
-| Seattle Store          | West Regional Office    | 487c0d20-4e55-4dc2-8187-a24c826e0fee |Standard|1|1||||
-| Los Angeles Store      | West Regional Office    | 204a1287-2efb-4a8a-88e0-56fbaf5a2389 |Large|1|1||||
+```powershell
+"TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear"
+"Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,"
+"Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,"
+"HR,,,,,,,,,,"
+"East Regional Office,,,,,,,,,,"
+"West Regional Office,,,,,,,,,,"
+"Northeast Zone,East Regional Office,,,,,,,,"
+"Southeast Zone,East Regional Office,,,,,,,,"
+"New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,"
+"Boston Store,Northeast Zone,0454f08a-0507-437c-969a-682eb2fae7fc,Standard,1,1,,,"
+"Miami Store,Southeast Zone,619d6e4e-5f68-4b36-8e1f-16c98d7396c1,Compact,0,1,,,"
+"New Orleans Store,Southeast Zone,6be960b8-72af-4561-a343-9ac4711874eb,Compact,0,1,,,"
+"Seattle Store,West Regional Zone,487c0d20-4e55-4dc2-8187-a24c826e0fee,Standard,1,1,,,"
+"Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,"
+```
 
 ## Apply your hierarchy
 
 > [!IMPORTANT]
 > To perform this step, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Teams PowerShell](teams-powershell-install.md).
 
-After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to perform this step.
+After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
