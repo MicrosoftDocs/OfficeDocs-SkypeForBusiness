@@ -133,7 +133,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 ### Meeting expiration
 
 > [!NOTE]
-> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in number and/or underlying meeting policies and settings.
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers and/or underlying meeting policies and settings.
 
 |Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
 |---------|---------|---------|
