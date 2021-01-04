@@ -32,11 +32,11 @@ Provision the device by generating a MAC address for it.
 2. Select **Devices** > **IP Phones**.
 3. Select **Provision new device** from the **Actions** tab.
 
-![Provision new device option from the Actions tab](media/provision-new-device.png)
+![Provision new device option from the Actions tab](../media/provision-new-device.png)
 
 In the **Provision new devices** window, you can either add the MAC address manually or upload a file.
 
-** Manually add a device MAC address**
+**Manually add a device MAC address**
 
 1. From the **Awaiting Activation** tab, select **Add MAC ID**.
 2. Enter the MAC ID, and select **Apply** when finished.
@@ -68,6 +68,9 @@ The provisioned device appears in the **Awaiting sign in** tab. Initiate the rem
 1. Select a device from the **Awaiting sign in** tab.
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
-![the Sign in a user window](media/sign-in-user.png)
+![the Sign in a user window](../media/sign-in-user.png)
 
 ## Related article
+
+- [Manage your devices in Teams](device-management.md)
+- [Update Teams devices remotely](remote-update.md)
