@@ -103,7 +103,7 @@ Here's an example of a schema CSV file that would be created to support the hier
 
 The `Store layout` attribute has values that include `Compact`, `Standard`, and `Large`. The `Departments` attribute columns can be set to a value of `0` (zero) or `1`. The `Store` layout and `Departments` attributes aren't shown in the image above. They're added here to help show how attributes can be added to node entries. The same is true for the three bucket columns.
 
-```powershell
+```CSV
 "TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear"
 "Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,"
 "Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,"
