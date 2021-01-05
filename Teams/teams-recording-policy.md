@@ -36,7 +36,7 @@ Teams has been enhanced to support integration of
 third-party recording solutions, including the platform
 functionality, user experiences, and administrative interfaces needed to
 provide an end-to-end solution for configuring, managing, recording,
-storing, and analyzing Teams communications. This includes communications platform APIs and events for recording, which provides:
+storing, and analyzing Teams communications. Enhancements include communications platform APIs and events for recording, which provides:
 
 - Seamless, high-quality media capture across devices and all
     supported endpoints for audio, video, screen share, and chat.
@@ -198,7 +198,7 @@ compliance recording policies. Recorders are automatically invited to
 participate in conversations based on the configuration of these
 policies when a communication interaction takes place. Compliance
 recording policies are managed using [<span class="underline">Microsoft
-Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
+PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
 and can be applied at the tenant, per-user, and security group level for each
 organization. You can find more information on Microsoft Docs for
 [<span class="underline">Meeting
@@ -278,7 +278,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 ## Compliance recording for Teams certification programs
 
-In addition to publishing publicly-available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
+In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
 
 The following partners have certified their solution for Microsoft Teams.
 
