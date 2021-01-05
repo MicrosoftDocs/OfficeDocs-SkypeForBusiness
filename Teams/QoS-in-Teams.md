@@ -177,6 +177,10 @@ new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -I
 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 ```
 
+
+> [!TIP]
+> The copy feature copies the text with a line return, which makes the command when pasted into a PowerShell terminal window fail. As a workaround, delete the line return to ensure the copy/paste feature works properly.
+
 ## Managing source ports in the Teams admin center
 
 In Teams, QoS source ports used by the different workloads should be actively managed, and adjusted as necessary. Referring to the table in [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type), the port ranges are adjustable, but the DSCP markings aren't configurable. Once you have implemented these settings, you might find that more or fewer ports are needed for a given media type. [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) should be used in making a decision to adjust port ranges after Teams has been implemented, and periodically as needs change.
