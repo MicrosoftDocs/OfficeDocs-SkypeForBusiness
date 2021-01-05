@@ -53,3 +53,5 @@ You can also take an existing team and change it to have a dynamic membership, a
 ## Changes in client behavior
 
 Once dynamic membership is enabled for a team, Teams clients will no longer allow member management for the team. Options to add members, edit member roles, send and approve join requests, and leave the team are all hidden.
+
+See also [Sync group membership to team](https://github.com/OfficeDev/O365-EDU-Tools/blob/master/Teams%20Scripts/Sync-GroupMembership-To-Team.ps1).
