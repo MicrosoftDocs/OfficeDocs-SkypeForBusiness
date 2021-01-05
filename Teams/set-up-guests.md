@@ -59,7 +59,7 @@ After February 8, 2021, guest access in Microsoft Teams will be turned on by def
       - **Giphy content rating** –  Select a rating from the drop-down list:
           - **Allow all content** - Guests will be able to insert all Giphys in chats, regardless of the content rating.
           - **Moderate** - Guests will be able to insert Giphys in chats, but will be moderately restricted from adult content.
-          - **Strict** – Guests will be able to insert Giphys in chats, but will be restricted from inserting adult content.
+          - **Strict** – Guests can insert Giphys in chats, but will be restricted from inserting adult content.
       - **Use memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.
       - **Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations.
 
