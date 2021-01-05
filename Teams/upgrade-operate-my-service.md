@@ -1,7 +1,7 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -214,7 +214,7 @@ support groups, and incident managers in your organization.
 You can monitor service health and upcoming changes by leveraging the Service Communications API to access service health and changes
 programmatically. Use this API to create your own monitoring tool, or connect
 your existing monitoring tools to Microsoft 365 or Office 365 service communications, potentially
-simplifying how you monitor your environment. For more information, see [Microsoft 365 or Office 365 for Enterprise developers](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+simplifying how you monitor your environment. For more information, see [Microsoft 365 or Office 365 for Enterprise developers](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
 
 ### Daily/weekly/monthly/as-needed tasks
 
