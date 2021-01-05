@@ -86,12 +86,12 @@ As a best practice, we recommend that you create a channel for producers and pre
 | Attendee visibility | Teams production | External app or device production |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
-|Guest users                   |  Yes            |  No                  |
+|Guest users                   |  Yes<sup>1</sup>            |  No                  |
 |Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  |
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> External access (federation) attendees can only be invited through People & Group <br>
+<sup>1</sup> Can only be invited through People & Group <br>
 
 ## Teams live events and Skype Meeting Broadcast
 
