@@ -26,9 +26,9 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
 # Turn on or turn off guest access to Microsoft Teams
 
-Until February 8, 2021, guest access is turned off by default. You must turn on guest access for Teams before admins or team owners can add guests. After you turn on guest access, it might take a few hours for the changes to take effect. If users see the message **Contact your administrator** when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet.
+Until February 2021, guest access is turned off by default. You must turn on guest access for Teams before admins or team owners can add guests. After you turn on guest access, it might take a few hours for the changes to take effect. If users see the message **Contact your administrator** when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet.
 
-After February 8, 2021, guest access in Microsoft Teams will be turned on by default. When this change is implemented, if you've not already configured guest access capability in Microsoft Teams, that capability will be enabled in your tenant. With guest access enabled, you can provide access to teams and other resources to people outside your organization while maintaining control over your corporate data. If you want guest access to remain disabled for your organization, you'll need to confirm that the guest access setting is set to **Off** instead of **Service default**.
+After February 2021, guest access in Microsoft Teams will be turned on by default for new customers & existing customers who haven't configured this setting. When this change is implemented, if you've not already configured guest access capability in Microsoft Teams, that capability will be enabled in your tenant. If you want guest access to remain disabled for your organization, you'll need to confirm that the guest access setting is set to **Off** instead of **Service default**.
 
 > [!IMPORTANT]
 > Turning on guest access depends on settings in Azure Active Directory, Microsoft 365, SharePoint, and Teams. For more information, see [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
