@@ -21,7 +21,7 @@ appliesto:
 Use log files in troubleshooting Microsoft Teams
 =================================================
 
-There are three types of log files automatically produced by the client which can be leveraged to assist in troubleshooting Microsoft Teams.
+There are three types of log files automatically produced by the client, which can be leveraged to assist in troubleshooting Microsoft Teams:
 
 -   Debug logs
 
@@ -121,15 +121,15 @@ Desktop logs, also known as bootstrapper logs, contain log data that occurs betw
 
 Windows:
 
-1.  Right-click the **Microsoft Teams** icon in your system tray, and select **Get Logs**
+ - Right-click the **Microsoft Teams** icon in your system tray, and select **Get Logs**.
 
 Mac OsX:
 
-2.  Choose **Get Logs** from the **Help** pull-down menu
+ - Choose **Get Logs** from the **Help** pull-down menu.
 
 Linux:
 
-1.  Click on the **Microsoft Teams** icon in your system tray, and select **Get Logs**
+ - Click on the **Microsoft Teams** icon in your system tray, and select **Get Logs**.
 
 |Client |Location |
 |---------|---------|
