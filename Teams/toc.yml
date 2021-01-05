@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: Configure a console
               href: rooms/console.md
+            - name: Manually update a device
+              href: rooms/manual-update.md
             - name: Configure authentication
               href: rooms/rooms-authentication.md
             - name: Join third-party meetings
@@ -636,6 +638,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: What's the status of your port orders?
               href: phone-number-calling-plans/port-order-status.md
+        - name: Supported rate centers and coverage
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: Call routing
       items: 
         - name: What are dial plans?
