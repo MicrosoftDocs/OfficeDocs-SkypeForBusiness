@@ -53,6 +53,20 @@ Currently, you can add connectors by using Microsoft Teams desktop and web clien
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Teams interface showing a conversation in a channel.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
+<!---Delete this section after customer migration to new Webhook URL is complete--->
+> [!IMPORTANT]
+> **Connector URL update notification**
+>
+> The Teams connectors are transitioning to a new URL to enhance security. During the course of this transition, you will receive certain notifications to update your configured connector to use the new URL. It is strongly recomended that you update your connector immediately to prevent any disruption to connector services. The following steps need to be followed to update the URL:
+> 1. In the connectors configuration page, an "Attention Required" message will be displayed under the "Manage" button for the connections that need to be updated.
+> ![Screenshot of the "Attention Required" message.](media/Teams_Attention_Required_message.png)
+> 2. For incoming webhook connectors, users can recreate connection by simply tapping Update URL and use the newly generated webhook URL.
+> ![Screenshot of the "Update URL" button.](media/Teams_update_URL_button.png)
+> 3. For other Connector types, user would need to remove the Connector and re-create the connector configuration.
+> 4. You will see a message "URL is up-to-date" upon successful updation of URL.
+> ![Screenshot of the "URL is up-to-date" message.](media/Teams_URL_up_to_date.png)
+
+
 Develop custom connectors
 ----------------------------
 
