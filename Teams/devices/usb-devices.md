@@ -69,10 +69,23 @@ If you are a manufacturer and want to join the certification program, see [How t
 
 ## Certified devices
 
-*Table Updated December 2020*
+*Table Updated January 2021*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 30 Headset                                         |12/31/2020      |Certified for Microsoft Teams                           |
+|Yealink              |UH34 Dual/Mono Headset                                     |12/23/2020      |Certified for Microsoft Teams                           |
+|Yealink              |MP50 USB Phone                                             |12/23/2020      |Certified for Microsoft Teams                           |
+|Yealink              |WH67 DECT Headset                                          |12/23/2020      |Certified for Microsoft Teams                           |
+|Yealink              |WH66 Dual/Mono DECT Headset                                |12/23/2020      |Certified for Microsoft Teams                           |
+|Yealink              |WH63 DECT Headset                                          |12/23/2020      |Certified for Microsoft Teams                           |
+|Yealink              |WH62 Dual/Mono DECT Headset                                |12/23/2020      |Certified for Microsoft Teams                           |
+|EPOS/Sennheiser      |Adapt 100 Series Headsets                                  |12/22/2020      |Certified for Microsoft Teams                           |
+|Dell                 |Pro Stereo Headset - UC350                                 |12/21/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Dell                 |Pro Stereo Headset - UC150                                 |12/21/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Lenovo               |Pro Wired VoIP Stereo Headset                              |12/21/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Poly                 |Savi Office 7320                                           |12/18/2020      |Certified for Microsoft Teams                           |
+|Poly                 |Savi Office 7310                                           |12/18/2020      |Certified for Microsoft Teams                           |
 |Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
