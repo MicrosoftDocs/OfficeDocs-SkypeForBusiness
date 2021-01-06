@@ -67,7 +67,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members can be added at one time to a group chat.
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
