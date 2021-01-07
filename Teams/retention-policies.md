@@ -23,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 # Retention policies in Microsoft Teams
 
-Retention policies and retention labels from Microsoft 365 helps you to more effectively manage the information in your organization. You configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal needs, and to delete data that's considered a liability, that you're no longer required to keep, or has no legal or business value. 
+Retention policies and retention labels from Microsoft 365 helps you to more effectively manage the information in your organization. You configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal needs, and to delete data that's considered a liability, that you're no longer required to keep, or has no legal or business value.
 
 Teams supports retention policies for chat and channel messages so that as an admin, you can decide proactively whether to retain this data, delete it, or retain it for a specific period of time and then delete it. You can apply a Teams retention policy to your entire organization or to specific users and teams. Retention labels aren't supported for Teams.
 
@@ -40,7 +40,7 @@ For detailed information about what's included and excluded for Teams retention 
 > [!NOTE]
 > That page explains why you might sometimes see delays when retention policies delete messages. For example, messages can be visible up to 7 days after the expiration period you've configured in the retention policy.
 
-If you set up multiple Teams retention policies with different retention settings, the principles of retention resolve any conflicts. For example, if there is a conflict between retaining or deleting the same content, that content is always retained. If there is a conflict in how long to retain the same content, it is retained for the longest retention period. These two principles of retention address the majority of conflicts that might arise when you have multiple retention policies for Teams, but for detailed information, see [The principles of retention, or what takes precedence?]https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence) from the Microsoft 365 documentation.
+If you set up multiple Teams retention policies with different retention settings, the principles of retention resolve any conflicts. For example, if there is a conflict between retaining or deleting the same content, that content is always retained. If there is a conflict in how long to retain the same content, it is retained for the longest retention period. These two principles of retention address most conflicts that might arise when you have multiple retention policies for Teams, but for detailed information, see [The principles of retention, or what takes precedence?]https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence) from the Microsoft 365 documentation.
 
 ## When to use retention policies for Teams
 
@@ -59,10 +59,11 @@ That page has additional information about creating and managing retention polic
 ## End user experience
 
 For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages.
-:::image type="content" source="media/retention-policies-image1.png" alt-text="Screenshot of chat retention":::
+
+:::image type="content" source="media/retention-policies-image1.png" alt-text="User informed in Teams that chat message are deleted because of a Teams retention policy":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="Screenshot of group chat retention":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="User in Teams explaining messages are deleted as a result of a Teams retention policy":::
 
 For Channel messages, the end users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed.
 
