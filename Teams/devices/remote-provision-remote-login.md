@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to remote provision a device and create a one-time password in Microsoft Teams. 
+description: Learn how to remote provision a device and create a verification code in Microsoft Teams. 
 ---
 
 # Remote provisioning and verification code creation in Microsoft Teams
