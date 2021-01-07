@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: 
+ms.reviewer: siunies
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 f1.keywords:
@@ -124,7 +124,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 350 |
+|Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call started from the chat tab | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
