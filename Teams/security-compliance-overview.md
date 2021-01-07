@@ -151,6 +151,19 @@ If you'd like further Teams-specific information on configuring content search, 
 
 Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. Please refer to the [Search the audit log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) article to learn more about how to conduct an Audit log search for Microsoft 365 or Office 365. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, we also have the [Turn on auditing in Teams](audit-log-events.md) article for you to review.
 
+## Customer Key
+
+Microsoft 365 offers an additional layer of encryption on top of service encryption for your content. Using keys you provide, Customer Key encrypts several different types of data in Microsoft Teams. Using Customer Key at the application level, Customer Key encrypts Teams files stored in SharePoint Online. For information, see [Service encryption with Customer Key](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview). 
+
+Using Customer Key at the tenant level, Customer Key encrypts:
+- Teams chat messages (1:1 chats, group chats, meeting chats and channel conversations)
+- Teams media messages (images, code snippets, videos, wiki images)
+- Teams call and meeting recordings stored in Teams storage
+- Teams chat notifications
+- Teams chat suggestions by Cortana
+- Teams status messages
+For more information, see [Overview of Customer Key for Microsoft 365 at the tenant level](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). For information about the Microsoft Information Protection release that included Customer Key at the tenant level, read [Announcing new Microsoft Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
+
 ## Privacy
 
 At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read:  
