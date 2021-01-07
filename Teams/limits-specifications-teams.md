@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: 
+ms.reviewer: siunies
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 f1.keywords:
@@ -64,16 +64,18 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Number of people in a private chat<sup>1</sup>  | 250 |
+|Number of people in a private chat<sup>1</sup>  | 250<sup>2</sup> |
 |Number of people in a video or audio call from chat | 20 |
-|Number of file attachments<sup>2</sup>  |10     |
-|Chat size | Approximately 28 KB per post<sup>3</sup> |
+|Number of file attachments<sup>3</sup>  |10     |
+|Chat size | Approximately 28 KB per post<sup>4</sup> |
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
+<sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
+
+<sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
 
 ### Emailing a channel
 
@@ -122,7 +124,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 350 |
+|Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call started from the chat tab | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |

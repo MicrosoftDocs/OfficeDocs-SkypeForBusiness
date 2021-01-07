@@ -3,6 +3,8 @@ title: Using breakout rooms in Teams
 author: ricardo-msft
 ms.author: riwilki
 ms.topic: article
+manager: serdars
+audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
