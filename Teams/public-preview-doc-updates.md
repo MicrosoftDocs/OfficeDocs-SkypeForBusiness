@@ -38,6 +38,8 @@ Public Preview for Microsoft Teams provides early access to unreleased features 
 3. Select **Add**.
 4. Name the update policy, add a description, and turn on **Show preview features**.
 
+You can also set the policy using PowerShell using the `CsTeamsUpdateManagementPolicy` cmdlet.
+
 ## Enable public preview
 
 To enable the public preview on a desktop or web client, you need to do the following tasks:

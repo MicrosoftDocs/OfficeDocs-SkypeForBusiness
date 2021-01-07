@@ -50,7 +50,7 @@ Callers can reach an auto attendant either by direct phone number, if configured
 
 ## Call queues
 
-A call queue is analogous to a waiting room in a physical building. Callers wait on hold while calls are routed to the agents in the queue as they become available. Call queues are commonly used for sales and service functions. However, call queues can be used for any situation where the number of calls exceeds your internal capacity, such as a receptionist in a busy facility.
+A call queue is analogous to a waiting room in a physical building. Callers wait on hold while calls are routed to the agents in the queue. Call queues are commonly used for sales and service functions. However, call queues can be used for any situation where the number of calls exceeds your internal capacity, such as a receptionist in a busy facility.
 
 Call queues allow for specific routing of calls in cases where the total number of callers in the queue or the wait time exceeds the limits that you specify. Calls can be routed to specific people, voicemail, other call queues, or auto attendants.
 
