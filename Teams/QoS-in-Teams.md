@@ -179,7 +179,7 @@ new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -I
 
 
 > [!TIP]
-> The copy feature copies the text with a line return, which makes the command when pasted into a PowerShell terminal window fail. As a workaround, delete the line return to ensure the copy/paste feature works properly.
+> The copy feature copies the text with a line return, which makes the command fail when pasted into a PowerShell terminal window. As a workaround, delete the line return to ensure the copy/paste feature works properly.
 
 ## Managing source ports in the Teams admin center
 
