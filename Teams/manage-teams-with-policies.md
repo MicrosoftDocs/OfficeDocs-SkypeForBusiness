@@ -19,8 +19,36 @@ appliesto:
 
 # Manage teams with policies
 
+Text here.
+
 ## What you use policies for
+
+Text here.
 
 ## How to assign policies
 
+Text here.
+
+## Manage policies
+
+Text here.
+
 ## Types of policies
+
+Text here.
+
+Policy type | Description
+------------|------------
+[Policy packages](https://docs.microsoft.com/en-us/microsoftteams/manage-policy-packages) | Description here
+Meeting policies | Description here
+Voice and calling policies | Description here
+App policies | Description here
+
+## Troubleshooting
+
+Text here.
+
+## Related topics
+
+* Link.
+* Link.
