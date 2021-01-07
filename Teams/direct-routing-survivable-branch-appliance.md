@@ -3,7 +3,7 @@ title:  Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -37,7 +37,7 @@ This article describes how to use a Survivable Branch Appliance (SBA) to enable 
 
 ## Prerequisites
 
-The SBA is distributable code provided by Microsoft to SBC vendors who then embed the code into the firmware of their SBCs. 
+The SBA is distributable code provided by Microsoft to SBC vendors who then embed code into their firmware or distribute it separately to have SBA run on a separate VM or hardware. 
 
 To get the latest Session Border Controller firmware with the embedded Survivable Branch Appliance,  contact your SBC vendor. In addition, the following is required:
 
@@ -51,7 +51,7 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 - Microsoft Teams Windows desktop 
 
-- Microsoft Teams MacOS desktop 
+- Microsoft Teams macOS desktop 
 
 ## How it works
 
@@ -63,7 +63,7 @@ When the Microsoft Teams client is in offline mode, the following calling-relate
 
 - Receiving PSTN calls via local SBA/SBC with media flowing through the SBC. 
 
-- Hold & Resume of PSTN calls.
+- Hold and Resume of PSTN calls.
 
 ## Configuration
 
@@ -74,7 +74,7 @@ For the SBA feature to work, the Teams client needs to know which SBAs are avail
 3. Assign the policy to users.
 4. Register an application for the SBA with Azure Active Directory.
 
-All configuration is done by using Skype for Business Online Powershell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
+All configuration is done by using Skype for Business Online PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
 
 (For information on configuring the SBC, with links to SBC vendor documentation, see Session Border Controller configuration at the end of this article.)
 
@@ -84,7 +84,7 @@ To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet
 
 | Parameter| Description |
 | :------------|:-------|
-| Identity  | The FQDN of the SBA  |
+| Identity  | The identity of the SBA  |
 | Fqdn | The FQDN of the SBA |
 | Site | The TenantNetworkSite where the SBA is located |
 | Description | Free format text |
@@ -92,8 +92,8 @@ To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet
 
 For example:
 
-```
-C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.dk -Description "SBA 1" 
+``` powershell
+C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.com -Description "SBA 1" 
 Identity    : sba1.contoso.com 
 Fqdn        : sba1.contoso.com 
 Site        : 
@@ -102,7 +102,7 @@ Description : SBA 1
 
 ### Create the Teams Branch Survivability Policy 
 
-To create a policy, you use the New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following paramaters. Note that the policy can contain one or more SBAs.
+To create a policy, you use the New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters. Note that the policy can contain one or more SBAs.
 
 | Parameter| Description |
 | :------------|:-------|
@@ -112,15 +112,15 @@ To create a policy, you use the New-CsTeamsSurvivableBranchAppliancePolicy cmdle
 
 For example:
 
-```
+``` powershell
 C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
 Identity             : Tag:CPH 
-BranchApplianceFqdns : {sba1.contoso.dk, sba2.contoso.com} 
+BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
 You can add or remove SBAs from a policy by using the Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. For example: 
 
-```
+``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{add="sba1.contoso.com"} 
 ```
@@ -137,13 +137,13 @@ To assign the policy to individual users, you will use the Grant-CsTeamsSurvivab
 
 For example:
 
-```
+``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
 You can remove a policy from a user by granting the $Null policy as shown in the next example:
 
-```
+``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
@@ -161,7 +161,7 @@ You only need to register one application for use by all the SBAs in your tenant
 
 For the SBA registration, you need the following values created by the registration: 
 
-- Application (client) id 
+- Application (client) ID 
 - Client secret 
 
 For the SBA application, keep the following in mind: 
@@ -173,7 +173,7 @@ For the SBA application, keep the following in mind:
 - API permissions = Skype and Teams Tenant Admin Access -> Application permissions -> application_access_custom_sba_appliance.
 - Client secret: you can use any description and expiration. 
 - Remember to copy the client secret immediately after creating it. 
-- The Application (client) id is shown on the Overview tab.
+- The Application (client) ID is shown on the Overview tab.
 
 Then follow these steps:
 
@@ -187,7 +187,7 @@ Then follow these steps:
 
 For step-by-step guidance on how to configure your Session Border Controller with the embedded Survivable Branch Appliance, see the documentation provided by your SBC vendor: 
 
-- [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
 
 - [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 
