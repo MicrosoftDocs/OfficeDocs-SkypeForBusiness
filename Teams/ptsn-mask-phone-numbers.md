@@ -22,11 +22,11 @@ description: Learn how to mask phone numbers in Microsoft Teams meetings
 
 # Mask phone numbers in Microsoft Teams meetings
 
-For added privacy, the phone numbers of participants who dial in to a Teams meeting using audio conferencing are fully displayed to the internal participants and masked from the participants outside of your organization. This setting is the default for all organizations.
+For added privacy, the phone numbers of participants who dial in to a Teams meeting using audio conferencing are fully displayed to the internal participants. The numbers are masked from the participants outside of your organization. This setting is the default for all organizations. The masked number is displayed as shown in the following image:
 
 ![an example of a masked phone number](media/hiddenPhoneNum.png)
 
-For specific industry use cases, admins have the ability to choose how the audio conferencing participants' phone numbers appear in meetings that are organized in their tenant. The admins can choose from 3 options:
+For specific industry use cases, admins have the ability to choose how the audio conferencing participants' phone numbers appear in meetings that are organized in their tenant. The admins can choose from three options:
 
 - Phone numbers are masked only from external participants. The participants who belong to the meeting organizer's tenant still see the full phone number.
 - Phone numbers are masked from everyone in the meeting except the organizer.
@@ -34,9 +34,7 @@ For specific industry use cases, admins have the ability to choose how the audio
 
 This setting is applied to all the surfaces in the meeting where phone numbers are exposed.
 
-## Set whether the phone numbers of dial-in participants are masked
-
-### Using Microsoft PowerShell
+## Use Microsoft PowerShell to set phone-number masking
 
 To change the PSTN masking setting, set the **`MaskPstnNumbersType`** parameter of the [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet to one of the available options.
 
