@@ -23,11 +23,11 @@ ms.custom: seo-marvel-apr2020
 
 # Retention policies in Microsoft Teams
 
-Retention policies and retention labels from Microsoft 365 help you to more effectively manage the information in your organization. You can configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal needs. You can also configure retention settings to delete data that's considered a liability, that you're no longer required to keep, or has no legal or business value.
+Retention policies and retention labels from Microsoft 365 help you to more effectively manage the information in your organization. You can configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal needs. You can also configure retention settings to delete data that's considered a liability, that you're no longer required to keep, or that has no legal or business value.
 
 Teams supports retention policies for chat and channel messages so that as an admin, you can decide proactively whether to retain this data, delete it, or retain it for a specific period of time and then delete it. You can apply a Teams retention policy to your entire organization or to specific users and teams. Retention labels aren't supported for Teams.
 
-To learn more about retention and how you can apply retention settings by using retention policies or retention labels for other workloads in Microsoft 365, see [Learn about retention policies and retention labels](https://docs.microsoft.com/microsoft-365/compliance/retention).
+To learn more about retention, and how you can apply retention settings by using retention policies or retention labels for other workloads in Microsoft 365, see [Learn about retention policies and retention labels](https://docs.microsoft.com/microsoft-365/compliance/retention).
 
 The minimum licensing requirement for retention policies for Teams is Microsoft 365 E3. To learn more about licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
@@ -83,3 +83,4 @@ For Channel messages, the end users (channel members) will see the deleted messa
 
 - [Get started with retention policies and retention labels](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
 - [Learn about retention for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
+- [Create and configure retention policies](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies)
