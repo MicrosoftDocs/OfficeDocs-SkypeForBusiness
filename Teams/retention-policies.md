@@ -43,7 +43,7 @@ For detailed information about what's included and excluded for Teams retention 
 If you set up multiple Teams retention policies with different retention settings, the principles of retention resolve any conflicts. For example:
 - If there is a conflict between retaining or deleting the same content, the content is always retained.
 - If there is a conflict in how long to retain the same content, it is retained for the longest retention period.
-- 
+
 These two principles of retention address most conflicts that might arise when you have multiple retention policies for Teams, but for detailed information, see [The principles of retention, or what takes precedence?](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence).
 
 ## When to use retention policies for Teams
