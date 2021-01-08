@@ -50,7 +50,10 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 <sup>2</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
 > [!IMPORTANT] 
-> Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 21-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
+> Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Async Media Services (AMS) with a 21-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
+
+> [!IMPORTANT]
+> Also note, for recordings that are on AMS, the recording retention is affected by the chat message itself. As such, any deletion of the original AMS Recording chat message  will prevent users from being able to access the recording. There are two scenarios that can affect this. 1) User manually deletes the chat messageare - In this scenario, as the original message is gone, users will no longer be able to access the recording and no further downloads will be possible. However, the recording itself may still be retained within Microsoft's internal systems for a time (not exceeding the original 21 day period). 2) Recording chat message is deleted by chat retention policy - AMS Recordings are direclty tied to the chat retention policy. As such, although recordings on AMS will by default be retained for 21 days before being deleted, if the chat message is deleted before the 21 days time period, due to chat message retention policies, the recording as well will be deleted. There is no way to recover the recording after this.
 
 ## Set up Teams cloud meeting recording for users in your organization
 
