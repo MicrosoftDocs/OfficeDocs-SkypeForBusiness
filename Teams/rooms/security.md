@@ -94,7 +94,7 @@ Generally, Teams Rooms has the same network requirements as any Microsoft Teams 
 - **Microsoft Teams** [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
-- **Microsoft Intune** [Network Enpoints for Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/fundamentals/intune-endpoints)
+- **Microsoft Intune** [Network Enpoints for Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
 
 If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the following URLs:
 
