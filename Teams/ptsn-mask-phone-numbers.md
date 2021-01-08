@@ -3,7 +3,7 @@ title: Mask phone numbers in Microsoft Teams meetings
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: 
+ms.reviewer: moakram 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,7 +24,7 @@ description: Learn how to mask phone numbers in Microsoft Teams meetings
 
 For added privacy, the phone numbers of participants who dial in to a Teams meeting using audio conferencing are fully displayed to the internal participants and masked from the participants outside of your organization. This setting is the default for all organizations.
 
-(ADD IMAGE FROM ANA here it would be good to provide an image of the actual masking, I'll send it to you)
+![an example of a masked phone number](media/hiddenPhoneNum.png)
 
 For specific industry use cases, admins have the ability to choose how the audio conferencing participants' phone numbers appear in meetings that are organized in their tenant. The admins can choose from 3 options:
 
@@ -35,20 +35,6 @@ For specific industry use cases, admins have the ability to choose how the audio
 This setting is applied to all the surfaces in the meeting where phone numbers are exposed.
 
 ## Set whether the phone numbers of dial-in participants are masked
-
-### Using the Microsoft Teams admin center
-
-1. In the left navigation, go to **Meetings** > **Conference Bridges**.
-
-2. At the top of the Conference Bridges page, select **Bridge settings**.
-
-3. Choose an option under **Mask phone numbers**.
-
-4. Select **Save**.
-
-IMAGE for method 1
-
-GET IMAGE FROM ANA. The image you currently have in the article is some old mock. I will provide you an image when the feature is implemented in MoPo.
 
 ### Using Microsoft PowerShell
 
