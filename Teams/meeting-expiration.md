@@ -1,7 +1,7 @@
 ---
 title: Meeting policies and meeting expiration in Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -57,7 +57,7 @@ When you switch a meeting policy setting from **Off** to **On**, users who are a
 
 ## Meeting expiration scenarios
 
-Here's a summary of how meeting expiration works for each of the meeting policy settings discussed in this article. 
+Here's a summary of how meeting expiration works for each of the meeting policy settings discussed in this article.
 
 |If you want to... |Do this  |Meeting join behavior  |
 |---------|---------|---------|
