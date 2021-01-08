@@ -1,6 +1,6 @@
 ---
 title: Create a Teams 'Intranet Portal app' from a SharePoint Online site or page
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -38,9 +38,9 @@ Before you begin:
 
 3. This article will use **{{siteUrl}}** as a placeholder for the *URL* of the site or page you chose.
     - Example *URLs*:
-        https://contoso.sharepoint.com/teams/Contoso
+        `https://contoso.sharepoint.com/teams/Contoso`
         *or*
-        https://contoso.sharepoint.com/sites/Contoso
+        `https://contoso.sharepoint.com/sites/Contoso`
 4. Also, **{{sitePath}}** will be used to denote the *path* of the URL (ex: /teams/Contoso).
     - Example *paths*:
         /teams/Contoso
@@ -72,11 +72,11 @@ Begin by following the steps below:
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**: {{siteUrl}}
 
-    Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    Example **contentURL**: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
 
-    Example: contoso.sharepoint.com
+    Example: `contoso.sharepoint.com`
 
 12. Add the following web app **single sign-on** properties:
 

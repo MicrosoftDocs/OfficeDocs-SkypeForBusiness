@@ -5,7 +5,7 @@ ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: LolaJ
+ms.reviewer: dstrome
 audience: admin
 description: Whether you're rolling out all at once or starting in phases, plot a course to implement Microsoft Teams in your organization successfully.
 localization_priority: Priority
@@ -14,6 +14,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
   - remotework
+  - m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom: 
