@@ -112,9 +112,9 @@ You can set sensitivity labels when you create or edit a team in the Microsoft T
 
 ## Known issues
 
-**Support for sensitivity labels in Teams Graph APIs, Powershell cmdlets and templates**
+**Support for sensitivity labels in Teams Graph APIs, PowerShell cmdlets and templates**
 
-Currently, users won't be able to apply sensitivity labels on teams that are created directly through Graph APIs, Powershell cmdlets, and templates.
+Currently, users won't be able to apply sensitivity labels on teams that are created directly through Graph APIs, PowerShell cmdlets, and templates.
 
 **Support for sensitivity labels in Teams EDU SKUs**
 
