@@ -100,7 +100,7 @@ When the team is created, the sensitivity label is visible in the upper-right co
 
 A team owner can change the sensitivity label and the privacy setting of the team at any time by going to the team, and then clicking **Edit team**.
 
-![Screenshot of sensitivity label in team channel](media/sensitivity-labels-edit-team.png)
+![Screenshot of sensitivity label in team properties](media/sensitivity-labels-edit-team.png)
 
 ### Guest access to teams
 
