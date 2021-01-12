@@ -201,7 +201,7 @@ administrators who use System Center now have the option to import the Managemen
 within Operations Manager in System Center. Using this tool gives you access to
 the status of your subscribed services, active and resolved service incidents,
 and your Message Center communications (upcoming changes). For more information,
-refer to the following [blog post](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
+refer to the following [blog post](https://www.microsoft.com/en-us/microsoft-365/blog/2014/07/29/new-office-365-admin-tools/).
 
 If you leverage System Center to monitor Teams service health (and dependent
 services), you can further customize the management pack to alert or notify
