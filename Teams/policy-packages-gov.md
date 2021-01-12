@@ -1,7 +1,7 @@
 ---
 title: Teams policy packages for government
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
