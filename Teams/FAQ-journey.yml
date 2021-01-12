@@ -31,7 +31,9 @@ sections:
       - question: Is there a firm deadline by which customers need to move from Skype for Business Online to Teams?
         answer: |
           Yes. [Skype for Business Online will be retired](skype-for-business-online-retirement.md) on July 31, 2021, at which point it will no longer be accessible or supported. We encourage Skype for Business Online customers to start using Teams and begin planning their upgrades now to allow ample time to complete upgrade prior to the retirement date.
-          
+      question: Is Skype Meeting Broadcast going to retire at the same time as Skype for Business online?
+        answer: | 
+          Yes. Teams Live Events is the successor solution to Skype Meeting Broadcast.    
       - question: How long will it take to upgrade my organization to Teams? 
         answer: | 
           Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, we've developed comprehensive upgrade guidance based upon a proven framework designed to help you navigate the technical and organizational elements of change. Start your journey by familiarizing yourself with our [upgrade success framework](upgrade-framework.md) and associated resources that serve as the cornerstone for navigating your journey from Skype for Business to Teams.
