@@ -1,8 +1,8 @@
 ---
 title: Teams for Healthcare
 description: Learn about the admin resources available for you to manage Teams for healthcare teams in your organization.
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:

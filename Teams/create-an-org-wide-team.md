@@ -1,7 +1,7 @@
 ---
 title: Create an org-wide team in Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article

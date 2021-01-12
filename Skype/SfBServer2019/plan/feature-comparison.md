@@ -1,7 +1,7 @@
 ---
 title: "Desktop client feature comparison for Skype for Business Server 2019"
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro

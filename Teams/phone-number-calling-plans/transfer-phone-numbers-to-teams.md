@@ -1,7 +1,7 @@
 ---
 title: Transfer phone numbers to Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
