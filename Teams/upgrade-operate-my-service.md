@@ -436,12 +436,12 @@ to determine the interval in which your organization will seek out feedback:
 
 User sentiment can be assessed through many different methods. These can include email surveys, in-person or telephone-style interviews, or simply creating a feedback channel in Teams or Yammer. For more information, see [Best practices for user feedback methods in Microsoft Teams](best-practices-feedback.md).
 
-You can also use an industrywide approach to assess user sentiment called net
+You can also use an industry-wide approach to assess user sentiment called net
 promotor score (NPS), which is described in the following section.
 
 ### NPS
 
-Net promoter score (NPS) is an industrywide customer loyalty metric and a good
+Net promoter score (NPS) is an industry-wide customer loyalty metric and a good
 approach to use to assess user sentiment. NPS can be calculated by asking two questions:
 "How likely are you to recommend Teams to a colleague?", followed by the freeform question, "Why?"
 
