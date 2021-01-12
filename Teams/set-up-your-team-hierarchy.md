@@ -46,7 +46,8 @@ Before you create the schema that defines your hierarchy, you need to do some pl
 
 Permission to publish depends on whether a user is a member of any teams in the hierarchy plus the relationship of that team or set of teams to other teams in the hierarchy.
 
-> [!NOTE] The owner of a team is also granted publishing permissions.
+> [!NOTE]
+> The owner of a team is also granted publishing permissions.
 
 * If a user is a member of at least one team that has descendants in the hierarchy, that user can publish to those descendants without being a member of all teams they intend to publish to.
 * If a user is a member of a least one team in the hierarchy but is not a member of any team with descendants in the hierarchy, that user can see and receive published content from their organization.
@@ -67,7 +68,8 @@ For example, in the following hierarchy, Recall, Communications, and HR can publ
 
 ## Create your hierarchy
 
-> [!NOTE] The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/manage-tasks-app) for an overview of the Tasks app, where task publishing appears when enabled.
+> [!NOTE]
+> The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/manage-tasks-app) for an overview of the Tasks app, where task publishing appears when enabled.
 
 The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
 
@@ -83,7 +85,8 @@ The CSV file must contain the following three columns, in the following order, s
 | ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the **DisplayName** field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
 | TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. Each node must refer to a unique team,so each TeamId value may appear only once in the hierarchy file. To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This command lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
-> [!NOTE] If a node isn't a root node or a leaf node and you don't need the team membership to grant the corresponding permissions for publishing and reporting, you can leave the TeamId blank. This method can be used to add more granularity when choosing recipient teams or for viewing completion reports without having a corresponding team.
+> [!NOTE]
+> If a node isn't a root node or a leaf node and you don't need the team membership to grant the corresponding permissions for publishing and reporting, you can leave the TeamId blank. This method can be used to add more granularity when choosing recipient teams or for viewing completion reports without having a corresponding team.
 
 ### Add attribute columns
 
