@@ -1,7 +1,7 @@
 ---
 title: Manage shift-based access for Firstline Workers in Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
