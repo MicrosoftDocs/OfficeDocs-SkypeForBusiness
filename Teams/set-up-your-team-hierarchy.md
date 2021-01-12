@@ -208,5 +208,5 @@ Make sure that the TeamId in your schema CSV file matches the Group ID that's di
 
 ## Related topics
 
-- [Manage the Tasks app for your organization in Teams](manage-tasks-app.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
+* [Manage the Tasks app for your organization in Teams](manage-tasks-app.md)
+* [Teams PowerShell overview](teams-powershell-overview.md)
