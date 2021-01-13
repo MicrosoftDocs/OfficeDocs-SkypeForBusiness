@@ -46,8 +46,6 @@ Visit [Country and region availability](country-and-region-availability-for-audi
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.   
 ![Screen shot of user's license location](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md).
-  
 ## How to buy a Calling Plan
 
 1. <strong>You must first purchase a **Phone System</strong> add-on license<strong>. To do that, [sign in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing</strong> > **Purchase services** > **Add-on subscriptions** > **Buy now**.
