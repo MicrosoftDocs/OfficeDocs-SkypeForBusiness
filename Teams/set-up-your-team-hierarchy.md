@@ -22,7 +22,7 @@ appliesto:
 Setting up a team targeting hierarchy will allow your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to. Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you'll need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it.
 
 > [!IMPORTANT]
-> For the initial release, only the Tasks app supports hierarchical teams.  Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/en-us/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
+> For the initial release, only the Tasks app supports hierarchical teams.  Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
 
 Here's an example of how the hierarchy is represented in the Tasks app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
 
@@ -49,27 +49,27 @@ Permission to publish depends on whether a user is a member of any teams in the 
 > [!NOTE]
 > The owner of a team is also granted publishing permissions.
 
-* If a user is a member of at least one team that has descendants in the hierarchy, that user can publish to those descendants without being a member of all teams they intend to publish to.
-* If a user is a member of a least one team in the hierarchy but is not a member of any team with descendants in the hierarchy, that user can see and receive published content from their organization.
-* If a user is not a member of any team in the hierarchy, that user will not see any publishing-related functionality.
+* If a user is a member of at least one team that has descendants in the hierarchy, that user can publish to those descendants without being a member of all teams they want to publish to.
+* If a user is a member of a least one team in the hierarchy but isn't a member of any team with descendants in the hierarchy, that user can see and receive published content from their organization.
+* If a user isn't a member of any team in the hierarchy, that user won't see any publishing-related functionality.
 
 ### Guidelines
 
-* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one CSV file. For example, Contoso Pharmacies has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there is no overlap between the two.
-* Only leaf nodes can be recipients of a publication. Other nodes in the hierarchy are helpful for selecting recipients of a publication, such as selecting all nodes in District 02 and seeing completion reporting reflected against the management structure.
+* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one CSV file. For example, Contoso Pharmaceuticals has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there's no overlap between them.
+* Only leaf nodes can be recipients of a publication. Other nodes in the hierarchy are helpful for selecting recipients of a publication.
 * A team can only be represented one time in a hierarchy.
 * A hierarchy can contain up to 15,000 nodes.
 
 ### Example hierarchy
 
-For example, in the following hierarchy, Recall, Communications, and HR can publish tasks to every bottom node (team) in the hierarchy, whereas Northeast Zone can only publish tasks to the New York Store and Boston Store teams. The example hierarchy allows the Recall, Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. Northeast Zone can publish tasks, such as personnel scheduling, weather information, and so on, only to the New York Store and Boston Store teams.
+For example, in the following hierarchy, Recall, Communications, and HR can publish tasks to every bottom node (team) in the hierarchy, but Northeast Zone can only publish tasks to the New York Store and Boston Store teams. The example hierarchy allows the Recall, Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. Northeast Zone can publish tasks like as personnel scheduling, weather information, and so on, only to the New York Store and Boston Store teams.
 
 ![Team hierarchical example](media/team-targeting-schema-example-new.png)
 
 ## Create your hierarchy
 
 > [!NOTE]
-> The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/manage-tasks-app) for an overview of the Tasks app, where task publishing appears when enabled.
+> The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) for an overview of the Tasks app, where task publishing appears when enabled.
 
 The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
 
@@ -77,13 +77,13 @@ You can also define **buckets**, which are categories that the publishing team c
 
 ### Add required columns
 
-The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. During private preview, we support 2,000 nodes. At launch, we expect to support at least 15,000 nodes by default. We plan to work with customers to raise this limit for larger organizations.
+The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. We support up to 15,000 nodes for your hierarchy. We plan to work with customers to raise this limit for larger organizations.
 
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
-| DisplayName    | Yes      | This is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
+| DisplayName    | Yes      | This field is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
 | ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the **DisplayName** field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
-| TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. Each node must refer to a unique team,so each TeamId value may appear only once in the hierarchy file. To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This command lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
+| TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. Each node must refer to a unique team, so each TeamId value may appear only once in the hierarchy file. To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This command lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 > [!NOTE]
 > If a node isn't a root node or a leaf node and you don't need the team membership to grant the corresponding permissions for publishing and reporting, you can leave the TeamId blank. This method can be used to add more granularity when choosing recipient teams or for viewing completion reports without having a corresponding team.
@@ -107,7 +107,7 @@ When you add an attribute column, keep the following in mind:
 
 You can add bucket columns to create buckets, which are groupings into which tasks can be organized. Each bucket gets its own column in the CSV file. The buckets you create are made available to the publishing team. The publishing team can then use these buckets to categorize tasks for the recipient teams. If a bucket doesn't already exist on a team, buckets are created on-demand when tasks are published.
 
-By categorizing the work one time centrally, the publishing team can pre-organize the task list for all the tens, hundreds, or thousands of recipient teams that receive the task list. The recipient teams can then sort and filter their tasks by bucket to focus on the area most relevant to their work.
+By categorizing the work items one time centrally, the publishing team can pre-organize the task list for all the tens, hundreds, or thousands of recipient teams that receive the task list. The recipient teams can then sort and filter their tasks by bucket to focus on the area most relevant to their work.
 
 When you add a bucket column, note the following:
 
@@ -118,7 +118,7 @@ When you add a bucket column, note the following:
 
 ### Example
 
-Here's an example of a schema CSV file that would be created to support the hierarchy shown in the image above. This schema contains the following:
+Here's an example of a schema CSV file that would be created to support the hierarchy shown in the previous image. This schema contains the following:
 
 * Three required columns named `TargetName`, `ParentName`, and `TeamId`
 * Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
@@ -143,10 +143,56 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 "Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,"
 ```
 
-## Apply your hierarchy
+## Quick start guide
+
+### Install the Teams PowerShell module
 
 > [!IMPORTANT]
 > To perform this step, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Teams PowerShell](teams-powershell-install.md).
+
+### Sample script
+
+The following script can be used to create the teams and upload a .csv file to your Microsoft Teams tenant. If you have an existing hierarchy, this script will replace it.
+
+#### Create teams for a simple hierarchy
+
+```powershell
+$tm1 = New-Team -DisplayName "HQ"
+$tm2 = New-Team -DisplayName "North"
+$tm3 = New-Team -DisplayName "Store 1"
+$tm4 = New-Team -DisplayName "Store 2"
+$tm5 = New-Team -DisplayName "South"
+$tm6 = New-Team -DisplayName "Store 3"
+$tm7 = New-Team -DisplayName "Store 4"
+```
+
+#### Use team data to create comma-separated output (DisplayName, ParentName, TeamId)
+
+```powershell
+$csvOutput = "DisplayName" + "," + "ParentName" + "," + "TeamId" + "`n"
+$csvOutput = $csvOutput + $tm1.DisplayName + "," + "," + $tm1.GroupID + "`n"
+$csvOutput = $csvOutput + $tm2.DisplayName + "," + $tm1.DisplayName + "," + $tm2.GroupID + "`n"
+$csvOutput = $csvOutput + $tm3.DisplayName + "," + $tm2.DisplayName + "," + $tm3.GroupID + "`n"
+$csvOutput = $csvOutput + $tm4.DisplayName + "," + $tm2.DisplayName + "," + $tm4.GroupID + "`n"
+$csvOutput = $csvOutput + $tm5.DisplayName + "," + $tm1.DisplayName + "," + $tm5.GroupID + "`n"
+$csvOutput = $csvOutput + $tm6.DisplayName + "," + $tm5.DisplayName + "," + $tm6.GroupID + "`n"
+$csvOutput = $csvOutput + $tm7.DisplayName + "," + $tm5.DisplayName + "," + $tm7.GroupID 
+```
+
+#### Save output to a .csv file in the **Downloads** folder
+
+```powershell
+$csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -Format "yyyy-MM-dd-hhmmss") + ".csv" 
+$csvOutput | Out-File $csvOutputPath
+```
+
+#### Upload the hierarchy
+
+```powershell
+Set-TeamTargetingHierarchy -FilePath $csvOutputPath
+```
+
+## Apply your hierarchy
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
 
@@ -166,9 +212,20 @@ You can run the following command to check the status of your hierarchy upload.
 Get-TeamTargetingHierarchyStatus
 ```
 
+The command will return the following fields:
+
+Field|Description
+-----|------------
+Id | The unique ID for the upload.
+Status | Upload status. Values include **starting**, **validating**, and **failed**
+ErrorDetails | Details if there's an upload error. For more information about the error details, see the Troubleshooting section. If there's no error, this field is blank.
+LastUpdatedAt | Timestamp and date of when the file was last updated.
+LastModifiedBy | The ID of the last user who modified the file.
+FileName | The file name of the CSV.
+
 ## Remove your hierarchy
 
-If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionality on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete.
+If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionalities on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete.
 
 To remove your hierarchy, run the following command. You must be an admin to perform this step.
 
