@@ -1,7 +1,7 @@
 ---
 title: "Set up Audio Conferencing for small and medium businesses"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
