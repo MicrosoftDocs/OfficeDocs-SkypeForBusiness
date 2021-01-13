@@ -1,7 +1,7 @@
 ---
 title: Set up the Call me feature for your users
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: macai, phedry
 manager: serdars
 ms.topic: article

@@ -92,7 +92,7 @@ The following admin settings Skype for Business are different in Teams:
 
 ## Admin settings in Teams compared to Microsoft Outlook
 
-Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later for contacts in the same organization.
 
 If the upgrade mode policy of the user account is set to TeamsOnly, Outlook talks to Teams to get presence. If the user account isn't set to TeamsOnly, then Outlook talks to Skype for Business.
 

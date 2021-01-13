@@ -3,7 +3,7 @@ title:  Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -37,7 +37,7 @@ This article describes how to use a Survivable Branch Appliance (SBA) to enable 
 
 ## Prerequisites
 
-The SBA is distributable code provided by Microsoft to SBC vendors who then embed the code into the firmware of their SBCs. 
+The SBA is distributable code provided by Microsoft to SBC vendors who then embed code into their firmware or distribute it separately to have SBA run on a separate VM or hardware. 
 
 To get the latest Session Border Controller firmware with the embedded Survivable Branch Appliance,  contact your SBC vendor. In addition, the following is required:
 
@@ -84,7 +84,7 @@ To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet
 
 | Parameter| Description |
 | :------------|:-------|
-| Identity  | The FQDN of the SBA  |
+| Identity  | The identity of the SBA  |
 | Fqdn | The FQDN of the SBA |
 | Site | The TenantNetworkSite where the SBA is located |
 | Description | Free format text |
@@ -93,7 +93,7 @@ To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet
 For example:
 
 ``` powershell
-C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.dk -Description "SBA 1" 
+C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.com -Description "SBA 1" 
 Identity    : sba1.contoso.com 
 Fqdn        : sba1.contoso.com 
 Site        : 
@@ -115,7 +115,7 @@ For example:
 ``` powershell
 C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
 Identity             : Tag:CPH 
-BranchApplianceFqdns : {sba1.contoso.dk, sba2.contoso.com} 
+BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
 You can add or remove SBAs from a policy by using the Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. For example: 

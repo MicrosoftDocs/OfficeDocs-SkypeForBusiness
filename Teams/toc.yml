@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
+        - name: Custom apps store 
+          href: customize-your-app-store.md
     - name: App certification
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: View app permissions and grant admin consent in the Microsoft Teams admin center
@@ -230,6 +232,8 @@
       href: manage-praise-app.md
     - name: Configure the Skype Meetings App to work with Teams
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Teams Approvals app availability
+      href: approval-admin.md
 - name: Meetings and conferencing
   items: 
     - name: Quick start - meetings and live events
@@ -284,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: Configure a console
               href: rooms/console.md
+            - name: Manually update a device
+              href: rooms/manual-update.md
             - name: Configure authentication
               href: rooms/rooms-authentication.md
             - name: Join third-party meetings
@@ -348,8 +354,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Manage the Whiteboard in Teams
       href: manage-whiteboard.md
-    - name: Set up Teams meeting add-on for Google Workspace
-      href: add-gsuite-thru-aad.md
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -634,6 +638,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: What's the status of your port orders?
               href: phone-number-calling-plans/port-order-status.md
+        - name: Supported rate centers and coverage
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: Call routing
       items: 
         - name: What are dial plans?
@@ -933,8 +939,8 @@
               href: upgrade-define-project-scope.md
             - name: Understand coexistence and interoperability
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: Understand Phone System and PSTN connectivity options
-              href: cloud-voice-landing-page.md
+            - name: PSTN considerations
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Choose your upgrade journey
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: Plan a user pilot
@@ -972,7 +978,7 @@
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
     - name: FAQ
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: Technical library
       items: 
         - name: Upgrade guidance for IT administrators
@@ -989,8 +995,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Coexistence of Teams and Skype for Business
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN considerations
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: Coexistence modes - Reference
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams client experience and conformance to coexistence modes
@@ -1151,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: Low bandwidth guidance for Education admins
           href: edu-remote-low-bandwidth.md
+        - name: Teams for education policy wizard
+          href: easy-policy-setup-edu.md
         - name: Get started with Insights
           href: class-insights.md
         - name: Assignments in Teams for Education
@@ -1245,6 +1251,8 @@
           href: content-search.md
         - name: Auditing
           href: audit-log-events.md
+        - name: Customer key at the tenant level for Teams
+          href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
