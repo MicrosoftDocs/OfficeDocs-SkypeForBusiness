@@ -58,7 +58,7 @@ Permission to publish depends on whether a user is a member of any teams in the 
 * There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one CSV file. For example, Contoso Pharmaceuticals has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there's no overlap between them.
 * Only leaf nodes can be recipients of a publication. Other nodes in the hierarchy are helpful for selecting recipients of a publication.
 * A team can only be represented one time in a hierarchy.
-* A hierarchy can contain up to 15,000 nodes.
+* A hierarchy can contain up to 15,000 nodes. We plan to work with customers to raise this limit for larger organizations.
 
 ### Example hierarchy
 
@@ -77,7 +77,7 @@ You can also define **buckets**, which are categories that the publishing team c
 
 ### Add required columns
 
-The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks. We support up to 15,000 nodes for your hierarchy. We plan to work with customers to raise this limit for larger organizations.
+The CSV file must contain the following three columns, in the following order, starting at the first column. A node must be linked to a team for it to receive tasks.
 
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
