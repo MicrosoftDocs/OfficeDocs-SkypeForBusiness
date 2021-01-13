@@ -1,7 +1,7 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use the Teams for Education policy wizard to easily apply policies for students and educators to keep your learning environment safe. 
 f1keywords: 
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use the Teams for Education Policy Wizard to easily apply policies for a safe learning environment
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## Overview
 
@@ -63,17 +60,17 @@ Now, let's get started!
 
 <a name="polwiz_run"> </a>
 
-Follow these steps to run the wizard. 
+Follow these steps to run the wizard.
 
 1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of the wizard in the dashboard":::
 
-2. Select your educational institution type (**Primary or Secondary** or **Higher education**), and then click **Next**.
+2. Select your educational institution type (**Primary or Secondary** or **Higher education**), and then select **Next**.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in wizard to select institution type":::
 
-3. Search for and select a group that contains your educators and staff, and then click **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select a group that contains your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in wizard to select educator and staff group":::
 
@@ -81,7 +78,7 @@ Follow these steps to run the wizard.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Screenshot of page in wizard to review selections":::
 
-5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take up to 48 hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you successfully complete this step.
+5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take few hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you successfully complete this step.
 6. You're on your way but you're not done yet! There's a few more things to consider. Next, check out the steps in the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Screenshot of page in wizard for next steps":::
@@ -125,7 +122,7 @@ For example, you assigned a meeting policy directly to educators and your studen
 
 ### Step 2: Check for additional measures that you can take for student safety
 
-The wizard automatically adjusts and applies [these policies](#policies-applied-by-the-wizard). There are few additional measures which you may want to take based on the needs of your institution to stay safe.
+The wizard automatically adjusts and applies [these policies](#policies-applied-by-the-wizard). There are few additional measures, which you may want to take based on the needs of your institution to stay safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for additional safety recommendations.
 
@@ -135,7 +132,7 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety aren't automatically added by the wizard. This capability will be available in a future release.
 
-Until this capability is available, check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up-to-date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
+Until this capability is available, check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up to date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
 
 ## Make changes in the wizard
 
@@ -221,8 +218,6 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Allow Meet now in private meetings        |Off         |On|
 |  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
 |  |       |Allow chat in meetings         |On         |On|
-|  |Video filters mode       |VideoFiltersMode         |BlurandDefaultBackgrounds|AllFilters|
-|  |Meeting attendance report       |AllowEngagementReport         |Off         |On|
 |Live events policy  |       |Allow scheduling         |Off         |Off|
 |  |       |Allow transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
@@ -243,7 +238,6 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
 |  |       |Remove users from group chats         |Off         |On|
-|  |       |Suggested replies         |On         |On|
 |App permission policy  |       |Microsoft apps         |Block specific apps and allow all others > Walkie Talkie blocked         |Allow all apps|
 |  |       |Third-party apps         |Allow all apps         |Allow all apps|
 |  |       |Custom apps         |Allow all apps         |Allow all apps|
@@ -292,8 +286,6 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |  |       |Allow Meet now in private meetings        |On         |On|
 |  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
 |  |       |Allow chat in meetings         |On         |On|
-|  |Video filters mode       |VideoFiltersMode         |AllFilters|AllFilters|
-|  |Meeting attendance report       |AllowEngagementReport         |On         |On|
 |Live events policy  |       |Allow scheduling         |On         |On|
 |  |       |Allow transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
@@ -314,7 +306,6 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
 |  |       |Remove users from group chats         |On        |On|
-|  |       |Suggested replies         |On         |On|
 |Calling policy  |       |Make private calls         |On       |On|
 |  |       |Call forwarding and simultaneous ringing to people in your organization         |On        |On|
 |  |       |Call forwarding and simultaneous ringing to external phone numbers         |On        |On|

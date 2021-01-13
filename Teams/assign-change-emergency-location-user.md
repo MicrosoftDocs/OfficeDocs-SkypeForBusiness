@@ -1,7 +1,7 @@
 ---
 title: Assign or change an emergency location for a user
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article

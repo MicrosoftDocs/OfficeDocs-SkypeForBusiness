@@ -1,7 +1,7 @@
 ---
 title: Set up the Ringback bot for Direct Routing
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse

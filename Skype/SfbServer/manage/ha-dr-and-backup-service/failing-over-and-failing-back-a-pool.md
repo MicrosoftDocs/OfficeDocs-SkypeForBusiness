@@ -1,8 +1,8 @@
 ---
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
