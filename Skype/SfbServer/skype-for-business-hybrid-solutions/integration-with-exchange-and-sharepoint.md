@@ -1,8 +1,8 @@
 ---
 title: "Integration with Exchange and SharePoint"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
