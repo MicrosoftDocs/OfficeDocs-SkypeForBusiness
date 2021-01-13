@@ -28,7 +28,7 @@ description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 eac
 
 ## Microsoft Teams and Skype for Business PSTN Audio Conferencing
 
-Customers have been provided a [complimentary dial-out capability](complimentary-dial-out-period.md) that will end on November 30, 2019. Beginning December 1, 2019, each Audio Conferencing subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the [Zone A countries and regions](audio-conferencing-zones.md). Your tenant dial-out minute pool size is based on *assigned* licenses and not purchased licenses. This benefit is applicable to Audio Conferencing *monthly subscription* licenses and does not extend to Audio Conferencing pay-per-minute licenses. 
+Customers have been provided with a complimentary dial-out capability that ended on November 30, 2019. Beginning December 1, 2019, each Audio Conferencing subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the [Zone A countries and regions](audio-conferencing-zones.md). Your tenant dial-out minute pool size is based on *assigned* licenses and not purchased licenses. This benefit is applicable to Audio Conferencing *monthly subscription* licenses and does not extend to Audio Conferencing pay-per-minute licenses. 
 
 > [!NOTE]
 > The end of the complimentary dial-out period will not take place on November 30, 2019, for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
