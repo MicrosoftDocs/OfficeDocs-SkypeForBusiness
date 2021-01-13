@@ -19,7 +19,7 @@ description: Learn how to secure your Microsoft Teams Rooms devices.
 
 # Microsoft Teams Rooms Security
 
-Microsoft works with our partners to deliver a solution that is secure out of the box and doesn't require additional actions to secure Microsoft Teams Rooms. This article discusses many of the security features found in Teams Rooms.
+Microsoft works with our partners to deliver a solution that is secure and doesn't require additional actions to secure Microsoft Teams Rooms. This article discusses many of the security features found in Teams Rooms.
 
 > [!NOTE]
 > Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different.
@@ -89,7 +89,7 @@ We recommend that you create the resource account in Azure AD, if possible. Whil
 
 ## Network Security
 
-Generally, Teams Rooms has the same network requirements as any Microsoft Teams client. Access through firewalls and other security devices is the same for Teams Rooms as for any other Microsoft Teams client. Specific to Teams Rooms, the categories listed as "required" for Teams must be open on your firewall. Teams Rooms also needs access to Windows Update, Microsoft Store, and Microsoft Intune (if managing devices with Microsoft Intune). For the full list of IPs and URLs required for Microsoft Teams Rooms, see:
+Generally, Teams Rooms has the same network requirements as any Microsoft Teams client. Access through firewalls and other security devices is the same for Teams Rooms as for any other Microsoft Teams client. Specific to Teams Rooms, the categories listed as "required" for Teams must be open on your firewall. Teams Rooms also needs access to Windows Update, Microsoft Store, and Microsoft Intune (if you use Microsoft Intune to manage your devices). For the full list of IPs and URLs required for Microsoft Teams Rooms, see:
 
 - **Microsoft Teams** [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
