@@ -19,7 +19,7 @@ appliesto:
 
 # Set up your team targeting hierarchy
 
-Setting up a team targeting hierarchy will allow your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to. Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you'll need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it.
+Setting up a team targeting hierarchy will allow your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to. Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you'll need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it. You can practice setting up a hierarchy and uploading it to your Teams tenant using a script [here](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#Create-a-sample-hierarchy).
 
 > [!IMPORTANT]
 > For the initial release, only the Tasks app supports hierarchical teams.  Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
@@ -143,7 +143,50 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 "Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,"
 ```
 
-## Quick start guide
+## Apply your hierarchy
+
+After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
+
+```powershell
+Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
+```
+
+### Update your hierarchy
+
+You can upload a new hierarchy to replace the old one using the same PowerShell command as above. Each time you upload a new hierarchy, it replaces the previous hierarchy.
+
+### Check the status of your hierarchy
+
+You can run the following command to check the status of your hierarchy upload.
+
+```powershell
+Get-TeamTargetingHierarchyStatus
+```
+
+The command will return the following fields:
+
+Field|Description
+-----|------------
+Id | The unique ID for the upload.
+Status | Upload status. Values include **Starting**, **Validating**, **Successful**, and **Failed**
+ErrorDetails | Details if there's an upload error. For more information about the error details, see the Troubleshooting section. If there's no error, this field is blank.
+LastUpdatedAt | Timestamp and date of when the file was last updated.
+LastModifiedBy | The ID of the last user who modified the file.
+FileName | The file name of the CSV.
+
+## Remove your hierarchy
+
+If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionalities on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete.
+
+To remove your hierarchy, run the following command. You must be an admin to perform this step.
+
+```powershell
+Remove-TeamTargetingHierarchy
+```
+
+When confirming deletion, the status message will still display the previous schema is present, although attempting to delete again returns an error that the object is null.
+
+## Create a sample hierarchy
 
 ### Install the Teams PowerShell module
 
@@ -190,50 +233,8 @@ $csvOutput | Out-File $csvOutputPath
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath $csvOutputPath
-```
-
-## Apply your hierarchy
-
-After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
-
-```powershell
-Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
-```
-
-### Update your hierarchy
-
-You can upload a new hierarchy to replace the old one using the same PowerShell command as above. Each time you upload a new hierarchy, it replaces the previous hierarchy.
-
-### Check the status of your hierarchy
-
-You can run the following command to check the status of your hierarchy upload.
-
-```powershell
 Get-TeamTargetingHierarchyStatus
 ```
-
-The command will return the following fields:
-
-Field|Description
------|------------
-Id | The unique ID for the upload.
-Status | Upload status. Values include **starting**, **validating**, and **failed**
-ErrorDetails | Details if there's an upload error. For more information about the error details, see the Troubleshooting section. If there's no error, this field is blank.
-LastUpdatedAt | Timestamp and date of when the file was last updated.
-LastModifiedBy | The ID of the last user who modified the file.
-FileName | The file name of the CSV.
-
-## Remove your hierarchy
-
-If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionalities on the tab.  This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete.
-
-To remove your hierarchy, run the following command. You must be an admin to perform this step.
-
-```powershell
-Remove-TeamTargetingHierarchy
-```
-
-When confirming deletion, the status message will still display the previous schema is present, although attempting to delete again returns an error that the object is null.
 
 ## Troubleshooting
 
