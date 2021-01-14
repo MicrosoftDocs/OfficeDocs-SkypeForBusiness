@@ -1,8 +1,8 @@
 ---
 title: "Install and configure watcher nodes"
 ms.reviewer: 
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
