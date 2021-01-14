@@ -90,8 +90,8 @@ Private channels that are created in a team inherit the sensitivity label which 
 
 If a user directly updates the sensitivity label on a SharePoint site collection for a private channel, that label isn't updated in the Teams client. In this scenario, users will continue to see the sensitivity label applied on a team in the private channel header.
 
-## How to create, configure, and manage sensitivity labels for Teams
+## How to create and configure sensitivity labels for Teams
 
-Use the instructions from the Microsoft 365 documentation to enable this option for your tenant, create and configure sensitivity labels for Teams, and manage these labels: 
+Use the instructions from the Microsoft 365 documentation to create and configure sensitivity labels for Teams: 
 
 - [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
