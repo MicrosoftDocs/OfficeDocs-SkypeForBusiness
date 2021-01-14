@@ -92,9 +92,13 @@ For further reading on this topic, go to [Information barriers in Microsoft Team
 
 Communication compliance in Microsoft 365 allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Communication compliance in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
-### Retention Policies
+### Retention policies
 
 Retention policies in Microsoft Teams allows you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that are not relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For further information, review the [Retention policies in Microsoft Teams](retention-policies.md) article.
+
+## Sensitivity labels
+
+Apply [sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) to protect and regulate access to sensitive organizational content created during collaboration within teams. For example, apply labels that configure the privacy (public or private) of teams, control guest access and external sharing, and manage access from unmanaged devices. For further information, review the [Sensitivity labels in Microsoft Teams](sensitivity-labels.md) article.
 
 ### Data Loss Prevention (DLP)
 

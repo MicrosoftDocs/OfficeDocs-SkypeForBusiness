@@ -21,7 +21,7 @@ description: Learn how to use sensitivity labels to protect your teams in Micros
 
 # Sensitivity labels for Microsoft Teams
 
-[Sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) allow Teams admins to protect and regulate access to sensitive organizational content created during collaboration within teams. After you configure sensitivity labels with their associated policies in the [Microsoft compliance center](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center), these labels can be applied to teams in your organization.  
+[Sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) allow Teams admins to protect and regulate access to sensitive organizational content created during collaboration within teams. After you configure sensitivity labels with their associated policies in the [Microsoft compliance center](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center), these labels can be applied to teams in your organization.
 
 Sensitivity labels are currently unsupported for customers using Teams Education SKUs. To learn more about licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
@@ -32,10 +32,6 @@ Sensitivity labels are different from classification labels, also known as Azure
 The benefit of using sensitivity labels is that their policies are automatically enforced end-to-end through a combination of the Microsoft 365 Groups platform, the compliance center, and Teams services. Sensitivity labels provide powerful infrastructure support for securing your organization's sensitive data and ensuring compliance with your internal policies or regulations.
 
 If you currently use classification labels, see the following documentation for more information and instructions how to migrate them to sensitivity labels: [Classic Azure AD group classification](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
-
-## How to create, configure, and manage sensitivity labels for Teams
-
-Use the instructions from the Microsoft 365 documentation to enable this option for your tenant, create and configure sensitivity labels for Teams, and manage these labels: [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 ## Example scenarios for sensitivity labels
 
@@ -78,6 +74,12 @@ Sensitivity labels are also visible in team properties and in the **Classificati
 
 ## Limitations
 
+Before you use sensitivity labels for Teams, be aware of the following limitations:
+
+**Support for sublabels**
+
+Teams doesn't display sensitivity labels that are configured as sublabels. For example, **Confidential**\\**All Employees**.
+
 **Support for sensitivity labels in Teams Graph APIs, PowerShell cmdlets, and templates**
 
 Users won't be able to apply sensitivity labels on teams that are created directly through Teams Graph APIs, Teams PowerShell cmdlets, and Teams templates.
@@ -87,3 +89,9 @@ Users won't be able to apply sensitivity labels on teams that are created direct
 Private channels that are created in a team inherit the sensitivity label which was applied on a team. Furthermore, the same label is automatically applied on the SharePoint site collection for the private channel.
 
 If a user directly updates the sensitivity label on a SharePoint site collection for a private channel, that label isn't updated in the Teams client. In this scenario, users will continue to see the sensitivity label applied on a team in the private channel header.
+
+## How to create, configure, and manage sensitivity labels for Teams
+
+Use the instructions from the Microsoft 365 documentation to enable this option for your tenant, create and configure sensitivity labels for Teams, and manage these labels: 
+
+- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
