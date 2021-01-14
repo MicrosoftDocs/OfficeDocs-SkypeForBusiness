@@ -1,7 +1,7 @@
 ---
 title: "Provisioning of Skype Room System Exchange and Skype Accounts"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
