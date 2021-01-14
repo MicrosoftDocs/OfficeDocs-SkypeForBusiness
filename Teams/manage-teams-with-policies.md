@@ -39,7 +39,7 @@ Text here.
 
 Policy type | Description
 ------------|------------
-[Policy packages](https://docs.microsoft.com/en-us/microsoftteams/manage-policy-packages) | A policy package in Microsoft Teams is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.
+[Policy packages](https://docs.microsoft.com/microsoftteams/manage-policy-packages) | A policy package in Microsoft Teams is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.
 Meeting policies | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization.
 Voice and calling policies | Description here
 App policies | Description here
