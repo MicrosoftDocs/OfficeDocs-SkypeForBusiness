@@ -38,7 +38,7 @@ If you currently use classification labels, see the following documentation for 
 Example scenarios for how you can use sensitivity labels with Teams in your organization:
 
 - [Set the privacy level (public or private)](#set-the-privacy-level-for-teams)
-- [Control guest access to teams](#guest-access-to-teams)
+- [Control guest access to teams](#control-guest-access-to-teams)
 
 ### Set the privacy level for teams
 
@@ -66,7 +66,7 @@ A team owner can change the sensitivity label and the privacy setting of the tea
 
 You can use sensitivity labels to control guest access to your teams. Teams created with a label that doesn't allow guest access are only available to users in your organization. People outside your organization can't be added to the team.
 
-## The Microsoft Teams admin center
+## Microsoft Teams admin center
 
 You can apply sensitivity labels when you create or edit a team in the Microsoft Teams admin center. 
 
