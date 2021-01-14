@@ -76,19 +76,19 @@ Sensitivity labels are also visible in team properties and in the **Classificati
 
 Before you use sensitivity labels for Teams, be aware of the following limitations:
 
-**Support for sublabels**
+- **Sublabels aren't supported**
+    
+    Teams doesn't display sensitivity labels that are configured as sublabels. For example, **Confidential**\\**All Employees**.
 
-Teams doesn't display sensitivity labels that are configured as sublabels. For example, **Confidential**\\**All Employees**.
+- **Sensitivity labels aren't supported by Teams Graph APIs, PowerShell cmdlets, and templates**
+    
+    Users won't be able to apply sensitivity labels on teams that are created directly through Teams Graph APIs, Teams PowerShell cmdlets, and Teams templates.
 
-**Support for sensitivity labels in Teams Graph APIs, PowerShell cmdlets, and templates**
-
-Users won't be able to apply sensitivity labels on teams that are created directly through Teams Graph APIs, Teams PowerShell cmdlets, and Teams templates.
-
-**Editing sensitivity labels directly on a SharePoint site collection for private channels**
-
-Private channels that are created in a team inherit the sensitivity label which was applied on a team. Furthermore, the same label is automatically applied on the SharePoint site collection for the private channel.
-
-If a user directly updates the sensitivity label on a SharePoint site collection for a private channel, that label isn't updated in the Teams client. In this scenario, users will continue to see the sensitivity label applied on a team in the private channel header.
+- **Support for private channels**
+    
+    Private channels that are created in a team inherit the sensitivity label which was applied on a team. The same label is automatically applied on the SharePoint site collection for the private channel.
+    
+    However, if a user directly changes the sensitivity label on a SharePoint site for a private channel, that label change isn't relected in the Teams client. In this scenario, users continue to see the original sensitivity label applied on the team in the private channel header.
 
 ## How to create and configure sensitivity labels for Teams
 
