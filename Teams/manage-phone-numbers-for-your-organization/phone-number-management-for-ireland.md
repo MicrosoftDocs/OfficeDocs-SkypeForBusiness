@@ -24,7 +24,7 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for Ireland
 
-Use this table to find information on getting and managing phone numbers in Ireland for Microsoft Teams. 
+Use this table to find information on getting and managing phone numbers in Ireland for Microsoft Teams.
   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
