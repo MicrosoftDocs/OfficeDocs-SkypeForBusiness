@@ -78,7 +78,7 @@ Before you use sensitivity labels for Teams, be aware of the following limitatio
 
 - **Sublabels aren't supported**
     
-    Teams doesn't display sensitivity labels that are configured as sublabels. For example, **Confidential**\\**All Employees**.
+    Teams doesn't display sensitivity labels that are configured as sublabels. For example, **Confidential** \\ **All Employees**.
 
 - **Sensitivity labels aren't supported by Teams Graph APIs, PowerShell cmdlets, and templates**
     
