@@ -37,7 +37,7 @@ If you currently use classification labels, see the following documentation for 
 
 Example scenarios for how you can use sensitivity labels with Teams in your organization:
 
-- [Set the privacy level (public or private)](#set-the-privacy-level-for-teams)
+- [Set the privacy level (public or private) for teams](#set-the-privacy-level-for-teams)
 - [Control guest access to teams](#control-guest-access-to-teams)
 
 ### Set the privacy level for teams
