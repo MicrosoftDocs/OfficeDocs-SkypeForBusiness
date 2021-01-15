@@ -316,6 +316,8 @@
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
+            - name: Set up Teams meeting add-on for Google Workspace
+              href: google-workspace-addon-teams.md
     - name: "Tutorial: Meetings in Teams"
       href: Tutorial-Meetings-in-Teams.yml
     - name: Manage meeting policies
