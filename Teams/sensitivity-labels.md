@@ -76,9 +76,9 @@ Sensitivity labels are also visible in team properties and in the **Classificati
 
 Before you use sensitivity labels for Teams, be aware of the following limitations:
 
-- **Sublabels aren't supported**
+- **Parent label names aren't displayed for sublabels**
     
-    Teams doesn't display sensitivity labels that are configured as sublabels. For example, **Confidential** \\ **All Employees**.
+    Teams supports sublabels but doesn't display the name of the parent label. For example, **Confidential** \\ **All Employees** displays as **All Employees**.
 
 - **Sensitivity labels aren't supported by Teams Graph APIs, PowerShell cmdlets, and templates**
     
