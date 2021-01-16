@@ -24,13 +24,13 @@ Microsoft works with our partners to deliver a solution that is secure and doesn
 > [!NOTE]
 > Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different.
 
-Limited end-user data is stored on Teams Rooms. End-user data may be stored in the log files for troubleshooting and support only. At no point can an attendee of a meeting using Teams Rooms copy files to the hard drive or sign in as themselves. No end user data is transferred to, or accessible by, the Microsoft Teams Rooms device.
+Limited end-user data is stored on Teams Rooms. End-user data may be stored in the log files for troubleshooting and support only. At no point can an attendee of a meeting using Teams Rooms copy files to the hard drive or sign in as themselves. No end-user data is transferred to, or accessible by, the Microsoft Teams Rooms device.
 
-Even though end users can't put files on a Teams Rooms hard drive, Microsoft Defender is still enabled. Teams Rooms performance is tested with Microsoft Defender. Disabling this or adding additional endpoint security software can lead to unpredictable results and potential system degradation.
+Even though end users can't put files on a Teams Rooms hard drive, Microsoft Defender is still enabled. Teams Rooms performance is tested with Microsoft Defender. Disabling this or adding endpoint security software can lead to unpredictable results and potential system degradation.
 
 ## Hardware security
 
-In a Teams Rooms environment, there is a central compute module that runs Windows 10 IoT Enterprise edition. Every certified compute module must have a secure mounting solution, a security lock slot (e.g., Kensington lock), and I/O port access security measures to prevent the connection of unauthorized devices. You can also disable specific ports via Unified Extensible Firmware Interface (UEFI) configuration.
+In a Teams Rooms environment, there's a central compute module that runs Windows 10 IoT Enterprise edition. Every certified compute module must have a secure mounting solution, a security lock slot (for example, Kensington lock), and I/O port access security measures to prevent the connection of unauthorized devices. You can also disable specific ports via Unified Extensible Firmware Interface (UEFI) configuration.
 
 Every certified compute module must ship with Trusted Platform Module (TPM) 2.0 compliant technology enabled by default. TPM is used to encrypt the login information for the Teams Rooms resource account.
 
