@@ -57,7 +57,7 @@ Teams Rooms also enables Hypervisor-protected code integrity (HVCI). One of the 
 After Microsoft Windows boots, Teams Rooms automatically signs into a local Windows user account named Skype. The Skype account has no password. To make the Skype account session secure, the following steps are taken.
 
 > [!IMPORTANT]
-> Don't change the password or edit the local Skype user account. Doing so can prevent Teams rooms from automatically signing in.
+> Don't change the password or edit the local Skype user account. Doing so can prevent Teams Rooms from automatically signing in.
 
 The Microsoft Teams Rooms app runs using the Assigned Access feature found in Windows 10 1903 and later. Assigned Access is a feature in Windows 10 that limits the application entry points exposed to the user. This is what enables single-app kiosk mode. Using Shell Launcher, Teams Rooms is configured as a kiosk device that runs a Windows desktop application as the user interface. The Microsoft Teams Rooms app replaces the default shell (explorer.exe) that usually runs when a user logs on. In other words, the traditional Explorer shell does not get launched at all. This greatly reduces the Microsoft Teams Rooms vulnerability surface within Windows. For more information, see [Configure kiosks and digital signs on Windows desktop editions](https://docs.microsoft.com/windows/configuration/kiosk-methods).
 
