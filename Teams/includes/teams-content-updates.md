@@ -2,6 +2,36 @@
 
 
 
+## Week of January 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/11/2021 | [Sensitivity labels for Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modified |
+| 1/11/2021 | [Sharing files and folders in Microsoft Teams](/MicrosoftTeams/sharing-files-in-teams) | modified |
+| 1/12/2021 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 1/12/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
+| 1/12/2021 | [Upgrading from Skype for Business to Teams FAQ](/MicrosoftTeams/faq-journey) | modified |
+| 1/12/2021 | [Direct Routing - Connecting analog devices](/MicrosoftTeams/direct-routing-analog-devices) | modified |
+| 1/12/2021 | [Operations for Microsoft Teams\| Service Management \| Quality](/MicrosoftTeams/upgrade-operate-my-service) | modified |
+| 1/13/2021 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 1/13/2021 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
+| 1/13/2021 | [Set up your team targeting hierarchy](/MicrosoftTeams/set-up-your-team-hierarchy) | modified |
+| 1/13/2021 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
+| 1/13/2021 | [Known issues](/MicrosoftTeams/rooms/known-issues) | modified |
+| 1/13/2021 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
+| 1/14/2021 | [Phone number management for Ireland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modified |
+| 1/14/2021 | [Phone number management for Italy](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | modified |
+| 1/14/2021 | [Phone number management for the United Kingdom](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | modified |
+| 1/14/2021 | [Set up your team targeting hierarchy](/MicrosoftTeams/set-up-your-team-hierarchy) | modified |
+| 1/14/2021 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
+| 1/14/2021 | [Manage settings for your organization](/MicrosoftTeams/enable-features-office-365) | modified |
+| 1/14/2021 | [Meeting First - Microsoft Teams](/MicrosoftTeams/meetings-first) | modified |
+| 1/14/2021 | [Manage user access to Microsoft Teams](/MicrosoftTeams/user-access) | modified |
+| 1/15/2021 | [Phone number management for Ireland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modified |
+| 1/15/2021 | [Phone number management for the Netherlands](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | modified |
+
+
 ## Week of January 04, 2021
 
 
