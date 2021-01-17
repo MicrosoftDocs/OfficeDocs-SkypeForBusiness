@@ -63,14 +63,23 @@
 | 1/8/2021 | [Teams for Education Policy Wizard to easily apply policies for safe learning](/MicrosoftTeams/easy-policy-setup-edu) | modified |
 
 
+## Week of December 28, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/28/2020 | [Edit guest user information](/MicrosoftTeams/edit-guests-information) | modified |
+
+
 ## Week of December 21, 2020
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
+| 12/21/2020 | [Supported rate centers and coverage for Calling Plans](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | added |
 | 12/22/2020 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
 | 12/22/2020 | [Using breakout rooms in Teams](/MicrosoftTeams/using-breakout-rooms) | modified |
-| 12/23/2020 | [Connect the Patients app to Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modified |
+| 12/23/2020 | [Manually update a Microsoft Teams Rooms device](/MicrosoftTeams/rooms/manual-update) | added |
 | 12/23/2020 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
 | 12/23/2020 | [Onboarding checklist - Configure cloud voice workloads - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | modified |
 | 12/23/2020 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
@@ -78,39 +87,3 @@
 | 12/23/2020 | [Create a Teams 'Intranet Portal app' from a SharePoint Online site or page](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | modified |
 | 12/23/2020 | [Operations for Microsoft Teams\| Service Management \| Quality](/MicrosoftTeams/upgrade-operate-my-service) | modified |
 | 12/23/2020 | [Use Advisor for Teams to help you roll out Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modified |
-
-
-## Week of December 14, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/15/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 12/15/2020 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
-| 12/15/2020 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
-| 12/15/2020 | [Plan your voice solution in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modified |
-| 12/15/2020 | [Cortana voice assistance in Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modified |
-| 12/15/2020 | [Direct Routing Local Media Optimization](/MicrosoftTeams/direct-routing-media-optimization) | modified |
-| 12/15/2020 | [PSTN considerations when upgrading to Teams from a Skype for Business on-premises deployment](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modified |
-| 12/16/2020 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 12/16/2020 | [Plan your voice solution in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modified |
-| 12/16/2020 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
-| 12/16/2020 | [Configure Direct Routing](/MicrosoftTeams/direct-routing-configure) | modified |
-| 12/16/2020 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
-| 12/16/2020 | [Set up Calling Plans](/MicrosoftTeams/set-up-calling-plans) | modified |
-| 12/16/2020 | [Setting up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system) | modified |
-| 12/16/2020 | [Azure Sentinel and Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | modified |
-| 12/16/2020 | [Try or purchase Audio Conferencing in Microsoft 365 for Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modified |
-| 12/16/2020 | [Teams voice Contoso case study](/MicrosoftTeams/voice-case-study-overview) | modified |
-| 12/17/2020 | Upgrading from Skype for Business to Teams FAQ | removed |
-| 12/17/2020 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 12/17/2020 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 12/17/2020 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
-| 12/17/2020 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
-| 12/18/2020 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
-| 12/18/2020 | [Phones and Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 12/18/2020 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 12/18/2020 | [Teams for Education Policy Wizard to easily apply policies for safe learning](/MicrosoftTeams/easy-policy-setup-edu) | modified |
-| 12/18/2020 | [Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
-| 12/18/2020 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 12/18/2020 | [What are dial plans?](/MicrosoftTeams/what-are-dial-plans) | modified |
