@@ -14,7 +14,7 @@
 | 1/12/2021 | [Upgrading from Skype for Business to Teams FAQ](/MicrosoftTeams/faq-journey) | modified |
 | 1/12/2021 | [Direct Routing - Connecting analog devices](/MicrosoftTeams/direct-routing-analog-devices) | modified |
 | 1/12/2021 | [Operations for Microsoft Teams\| Service Management \| Quality](/MicrosoftTeams/upgrade-operate-my-service) | modified |
-| 1/13/2021 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 1/13/2021 | [Manage teams with policies](/MicrosoftTeams/manage-teams-with-policies) | added |
 | 1/13/2021 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
 | 1/13/2021 | [Set up your team targeting hierarchy](/MicrosoftTeams/set-up-your-team-hierarchy) | modified |
 | 1/13/2021 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
@@ -30,6 +30,8 @@
 | 1/14/2021 | [Manage user access to Microsoft Teams](/MicrosoftTeams/user-access) | modified |
 | 1/15/2021 | [Phone number management for Ireland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modified |
 | 1/15/2021 | [Phone number management for the Netherlands](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | modified |
+| 1/15/2021 | [Set up Microsoft Teams meeting add-on for Google Workspace](/MicrosoftTeams/google-workspace-addon-teams) | added |
+| 1/15/2021 | [Microsoft Teams Rooms Security](/MicrosoftTeams/rooms/security) | added |
 
 
 ## Week of January 04, 2021
