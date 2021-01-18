@@ -72,7 +72,7 @@ To configure auto attendants and call queues, you need the following resources:
 Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
 
 - An online voice routing policy assigned if the call queue uses transfer mode
-- Audio Conferencing license or Online Voice Routing Policy assigned if the call queue uses conference mode
+- An Audio Conferencing license or online voice routing policy assigned if the call queue uses conference mode
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
