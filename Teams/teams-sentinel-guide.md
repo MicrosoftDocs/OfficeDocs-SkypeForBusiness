@@ -23,6 +23,9 @@ appliesto:
 
 # Azure Sentinel and Microsoft Teams
 
+> [!IMPORTANT]
+> Azure Sentinel now has an integrated connector. For more information, see [Connect Office 365 Logs to Azure Sentinel](https://docs.microsoft.com/azure/sentinel/connect-office-365). This is the recommended route for collecting these logs and supersedes the collection methods described below.
+
 Teams serves a central role in both communication and data sharing in the Microsoft 365 Cloud. Because the Teams service touches on so many underlying technologies in the Cloud, it can benefit from human and automated analysis not only when it comes to *hunting in logs*, but also in *real-time monitoring of meetings*. Azure Sentinel offers admins these solutions.
 
 > [!NOTE]
