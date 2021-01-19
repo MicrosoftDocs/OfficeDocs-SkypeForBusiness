@@ -58,7 +58,6 @@ The following partners are in the process of certifying their solution for Micro
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-
 This list will be updated as more partners join and meet the certification criteria.
 
 ## How do contact center solutions work in Microsoft Teams?
