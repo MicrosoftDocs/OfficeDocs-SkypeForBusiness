@@ -174,7 +174,6 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
   `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
-
 ## Update a building file
 
 While gathering building and subnet information, administrators will often upload the building file in multiple iterations over time, adding new subnets and their building information as it becomes available. When this occurs, you'll need to re-upload your building file. This process is like the initial upload as described in the previous section, with a few exceptions as noted in the following section.
