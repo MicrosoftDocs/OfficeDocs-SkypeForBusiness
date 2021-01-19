@@ -34,7 +34,7 @@ ms.custom: seo-marvel-mar2020
 The Shifts app in Microsoft Teams keeps Frontline Workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Shifts lets Frontline Workers and their managers use their mobile devices to manage schedules and keep in touch.
 
 - Managers create, update, and manage shift schedules for teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos. 
-- Employees view their upcoming shifts, can see who else is scheduled for the day, request to swap or offer a shift, and request time off. 
+- Employees view their upcoming shifts, see who else is scheduled for the day, request to swap or offer a shift, and request time off. 
 
 It's important to know that Shifts currently doesn't support guest users. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams. 
 
@@ -55,11 +55,11 @@ Shifts data is currently stored in Azure in data centers in North America, Weste
 
 Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](../../manage-apps.md) page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
-2. In the list of apps, do one of the following:
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+2. In the list of apps, do one of the following actions:
 
-    - To turn off Shifts for your organization, search for the Shifts app, select it, and then click **Block**.
-    - To turn on Shifts for your organization, search for the Shifts app, select it, and then click **Allow**.
+    - To turn off Shifts for your organization, search for the Shifts app, select it, and then select **Block**.
+    - To turn on Shifts for your organization, search for the Shifts app, select it, and then select **Allow**.
 
 ### Enable or disable Shifts for specific users in your organization
 
