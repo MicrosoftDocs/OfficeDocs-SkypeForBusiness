@@ -1,7 +1,7 @@
 ---
 title: Onboard early adopters to Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
