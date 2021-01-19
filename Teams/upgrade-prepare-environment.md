@@ -1,7 +1,7 @@
 ---
 title: Prepare your environment for upgrading to Teams
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
