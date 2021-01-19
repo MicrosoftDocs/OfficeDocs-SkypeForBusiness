@@ -158,7 +158,7 @@ Choose your call flow options
 
 4. If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name. 
 
-    (You can choose **Dial by extension**, however the extension must be configured in Azure Active Directorys.)
+    (You can choose **Dial by extension**, however the extension must be configured in Azure Active Directory.)
 
 5. Once you have selected a **Directory search** option, click **Next**.
 
