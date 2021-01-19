@@ -7,12 +7,16 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
@@ -30,6 +34,10 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Write back into EHR metadata on connect and disconnect events to enable automatic auditing and record keeping.
 
 - Integrate into existing clinician and patient workflows while allowing them to use Microsoft Teams.
+
+  Watch the video of How to manage virtual visits from the EHR portal.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## Before you begin
 
@@ -78,7 +86,7 @@ This step is to be completed by the Microsoft 365 administrator. The Microsoft 3
 
 To complete this step, the Microsoft 365 administrator must receive a valid Fast Health Interoperability Resources (FHIR) base URL from your Microsoft 365 administrator and the username of the Epic administrator who will be approving the configuration. The Microsoft 365 administrator must launch the connector configuration page and sign in with Microsoft credentials to start the configuration process.
 
-- The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST).
+- The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
 - Configuration approver name is the name of the Epic system administrator who will be responsible for approving the configuration.
 

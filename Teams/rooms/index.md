@@ -1,8 +1,8 @@
 ---
-title: "Microsoft Teams Rooms"
+title: Microsoft Teams virtual meeting rooms
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,8 +11,11 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.collection:
+-  m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: "The relevant planning considerations for deploying Microsoft Teams Rooms, and how to deploy and manage the system."
+description: Learn how to set up Microsoft Teams Rooms, including planning, deploying, and managing the system to create your ideal virtual meeting room.
+ms.custom: seo-marvel-may2020
 ---
 # Microsoft Teams Rooms
 

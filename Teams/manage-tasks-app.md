@@ -1,20 +1,24 @@
 ---
 title: Manage the Tasks app for your organization in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 audience: admin
 description: Learn how to manage the Tasks app for users in your organization.
 localization_priority: Normal
 MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_Help
+  - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Manage the Tasks app for your organization in Microsoft Teams
@@ -56,6 +60,9 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
 
     - To turn off Tasks for your organization, search for the Tasks app, select it, and then click **Block**.
     - To turn on Tasks for your organization, search for the Tasks app, select it, and then click **Allow**.
+
+> [!NOTE]
+> If you can't find the Tasks app, search for the names in the first note of this article. The app could still be in the process of being renamed.
 
 ### Enable or disable Tasks for specific users in your organization
 

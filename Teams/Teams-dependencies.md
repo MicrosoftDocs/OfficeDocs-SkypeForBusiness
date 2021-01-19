@@ -10,6 +10,7 @@ ms.collection:
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
   - SPO_Content
+  - m365initiative-externalcollab
 ms.reviewer: rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -38,11 +39,13 @@ For end-to-end guest access configuration instructions, see [Collaborate with gu
 
 The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Teams, and Microsoft 365.
 
-![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
 
 The next diagram shows, at a high level, how the user experience works with the permission model through a typical guest access invitation and redemption flow.
 
-![Diagram of invitation and redemption flows](media/authorize-guest-image1.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram of invitation and redemption flows](media/authorize-guest-image1.png)
 
 It's important to note here that apps, bots, and connectors might require their own set of permissions and/or consent specific to the user account. These might need to be granted separately. Similarly, SharePoint might impose extra external sharing boundaries for a specific user, groups of users, or even at the site level.
 
@@ -60,9 +63,7 @@ Azure AD includes the following settings to configure external users:
 
 - **Admins and users in the guest inviter role can invite**: **Yes** means that admins and users in the guest inviter role will be able to invite guests to the tenant. **No** means admins and users can't invite guests to the tenant.
 - **Members can invite**: To allow non-admin members of your directory to invite guests, set this policy to **Yes** (recommended). If you prefer that only admins be able to add guests, you can set this policy to **No**. Keep in mind that setting **No** will limit the guest experience for non-admin teams owners; they'll only be able to add guests in Teams that have already been added in AAD by the admin.
-- **Guests can invite**: **Yes** means that guests in your directory can invite other guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that guests can't invite other guests to collaborate with your organization.
-    > [!IMPORTANT]
-    > Currently, Teams doesn't support the guest inviter role, so even if you set **Guests can invite** to **Yes**, guests can't invite other guests in Teams.
+- **Guests can invite**: **Yes** means that guests in your directory can invite other guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that guests can't invite other guests to collaborate with your organization. Even if set to **Yes**, guest cannot invite other guests in Teams.
  
 For more information about controlling who can invite guests, see [Enable B2B external collaboration and manage who can invite guests](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 

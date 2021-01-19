@@ -1,7 +1,7 @@
 ---
-title: Prepare for Microsoft Teams upgrade|  Onboarding Rollout Checklist
-author: lanachin
-ms.author: v-lanac
+title: Prepare your service for an upgrade to Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams add-on licenses"
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -110,7 +110,7 @@ Here's a summary, based on licensing plan.
 
   <sup>1</sup> Only available for organizations with less than 300 users.
 
-To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan).
+To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/education/products/office).
 
 > [!NOTE]
 > If you need to use a third-party telephone service, [Direct Routing](../direct-routing-landing-page.md) is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.

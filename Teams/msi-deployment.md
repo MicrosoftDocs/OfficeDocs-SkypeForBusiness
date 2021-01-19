@@ -1,7 +1,7 @@
 ---
 title: Install Teams using Microsoft Endpoint Configuration Manager
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,6 +14,7 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams
@@ -87,6 +88,9 @@ If a user uninstalls Teams from their user profile, the MSI installer will track
 2. Delete the directory recursively under `%localappdata%\Microsoft\Teams\`.
 3. Delete the `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` registry value.
 4. Redeploy the MSI package to that particular computer.
+
+> [!TIP]
+> You can also use our [Teams deployment clean up script](scripts/powershell-script-deployment-cleanup.md) to complete steps 1 and 2.  
 
 ## Prevent Teams from starting automatically after installation
 

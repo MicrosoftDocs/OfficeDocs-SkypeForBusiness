@@ -66,7 +66,7 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
 
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 
-- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma or tab delimited):
+- There must be 15 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma or tab delimited):
 
   **Building data file format**
   
@@ -172,8 +172,7 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
   **Sample row:**
 
-  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`  
-
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 ## Update a building file
 

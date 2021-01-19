@@ -1,7 +1,7 @@
 ---
 title: "Set up Audio Conferencing for small and medium businesses"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
