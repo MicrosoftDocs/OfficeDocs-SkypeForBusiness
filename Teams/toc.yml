@@ -1171,13 +1171,13 @@
           href: teams-edu-licensing.md
         - name: Education SKU reference
           href: sku-reference-edu.md
-    - name: Teams for Firstline Workers
+    - name: Teams for Frontline Workers
       items: 
-        - name: Quickstart for Firstline Workers
-          href: firstline-workers-quickstart.yml
-        - name: Firstline workers scripted deployment
+        - name: Quickstart for Frontline Workers
+          href: flw-quickstart.yml
+        - name: Frontline workers scripted deployment
           href: flw-scripted-deployment.md
-        - name: Manage shift-based access for FirstLine Workers
+        - name: Manage shift-based access for Frontline Workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear for Microsoft Teams
           href: flw-realwear.md
