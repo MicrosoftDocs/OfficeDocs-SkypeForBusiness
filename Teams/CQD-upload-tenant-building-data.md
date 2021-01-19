@@ -172,7 +172,7 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
   **Sample row:**
 
-  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018  
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`  
 
 
 ## Update a building file
