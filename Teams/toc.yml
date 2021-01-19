@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
+            - name: Security
+              href: rooms/security.md
             - name: Online Licensing
               href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
@@ -354,6 +356,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Manage the Whiteboard in Teams
       href: manage-whiteboard.md
+    - name: Set up Teams meeting add-on for Google Workspace
+      href: google-workspace-addon-teams.md
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -1151,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: Low bandwidth guidance for Education admins
           href: edu-remote-low-bandwidth.md
+        - name: Teams for education policy wizard
+          href: easy-policy-setup-edu.md
         - name: Get started with Insights
           href: class-insights.md
         - name: Assignments in Teams for Education
@@ -1245,6 +1251,8 @@
           href: content-search.md
         - name: Auditing
           href: audit-log-events.md
+        - name: Customer key at the tenant level for Teams
+          href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
