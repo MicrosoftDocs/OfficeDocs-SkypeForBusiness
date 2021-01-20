@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms managed service
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer:  
 ms.topic: article
@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal

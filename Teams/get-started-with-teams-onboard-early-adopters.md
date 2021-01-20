@@ -1,13 +1,13 @@
 ---
 title: Onboard early adopters to Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj
+ms.reviewer: serdars
 description: Learn how to onboard early adopters to the first set of teams and channels that you created in Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -16,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - seo-marvel-apr2020
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ---

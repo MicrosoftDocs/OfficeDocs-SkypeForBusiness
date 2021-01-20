@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: An overview of security and compliance features of Microsoft Teams, including auditing and reporting, compliance content search, eDiscovery, and more.
+description: An overview of Microsoft Teams security and compliance features including privacy and encryption, auditing and reporting, and more.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -18,6 +18,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
   - seo-marvel-apr2020
+  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -152,7 +153,11 @@ Audit log search plugs right into the Microsoft 365 compliance center and gives 
 
 ## Privacy
 
-At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy).
+At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, read:  
+
+- [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy)
+- [Our commitment to privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [For IT professionals: Privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## Information Protection Architecture
 
@@ -171,8 +176,7 @@ The following figure indicates the ingestion flow of Teams Meetings and calling 
 
 When it comes to information protection capabilities, Microsoft 365 subscriptions, Office 365 subscriptions, and the associated standalone licenses will determine the available feature set.
 
-For information on determining the licensing needs to implement features for security and compliance, please review [Licensing for Office 365 or Microsoft 365](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf).
-
+For information on determining the licensing needs to implement features for security and compliance, please review the [licensing requirements](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) for security and compliance features.
 > [!NOTE]
 > Content Search and eDiscovery do not need to be enabled in the Security & Compliance Center to work.
 

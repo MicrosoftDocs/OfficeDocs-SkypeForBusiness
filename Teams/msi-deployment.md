@@ -1,7 +1,7 @@
 ---
 title: Install Teams using Microsoft Endpoint Configuration Manager
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,6 +14,7 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
 appliesto: 
   - Microsoft Teams

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
-description: Security advice and learnings for ITAdmins on using Sentinel to monitor and hunt threats that may arise in Teams.
+description: Security advice and learnings for IT admins on using Sentinel to monitor and hunt threats that may arise in Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -150,7 +150,7 @@ With the connector (whichever of the options above you chose) running, you shoul
 
 ## Step 3: Use Sentinel to monitor Microsoft Teams
 
-Identity is an important attack vector to monitor when it comes to Microsoft Teams. Because Azure Active Directory (Azure AD) is the underpinning of Microsoft 365's directory, including Teams, collecting and hunting for threats in Azure AD logs around authentication will be useful in capturing suspicious behaviour around identity. You can use the built-in connector to pull Azure AD data into Azure Sentinel, and use these [detection](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) and [hunting](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) queries to look for problems.
+Identity is an important attack vector to monitor when it comes to Microsoft Teams. Because Azure Active Directory (Azure AD) is the underpinning of Microsoft 365's directory, including Teams, collecting and hunting for threats in Azure AD logs around authentication will be useful in capturing suspicious behavior around identity. You can use the built-in connector to pull Azure AD data into Azure Sentinel, and use these [detection](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) and [hunting](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) queries to look for problems.
 
 Regarding attacks specific to Microsoft Teams, threats to data, for example, Azure Sentinel also has means to monitor for them and hunt them down.
 
@@ -178,7 +178,7 @@ O365API_CL
 ```
  Save the parser as a KQL function, with an alias of TeamsData. It will be used for the queries to follow. Details on configuring and using a KQL function as a parser can be found in this [Tech Community article](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381).
 
-## Helfpul hunting KQL queries
+## Helpful hunting KQL queries
 
 Use these queries to familiarize yourself with your Teams data and Teams environment. Knowing how the environment should look and behave is a good first step in recognizing suspicious activity. From there, you can branch out into threat hunting.
 
@@ -296,7 +296,7 @@ TeamsData
 
 #### User accounts who are Owners of large numbers of Teams
 
-Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse Teams, when, usually, users create and own a small number of Teams around specific topics. This KQL query looks for suspicious behaviour.
+Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse teams, when, usually, users create and own a small number of teams around specific topics. This KQL query looks for suspicious behavior.
 
 ```kusto
 // Adjust this value to change how many teams a user is made owner of before detecting 

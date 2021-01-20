@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business compatibility with Office apps"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018

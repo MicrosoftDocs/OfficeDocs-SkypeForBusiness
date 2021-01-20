@@ -1,7 +1,7 @@
 ---
 title: "Phone number management for Portugal"
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
