@@ -1,7 +1,7 @@
 ---
 title: Role-based access control with the Microsoft Teams Room Premium service 
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
