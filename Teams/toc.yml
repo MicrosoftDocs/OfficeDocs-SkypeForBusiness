@@ -997,8 +997,6 @@
               href: upgrade-to-teams-on-prem-considerations.md
             - name: Implement your upgrade
               href: upgrade-to-teams-on-prem-implement.md
-            - name: Coexistence of Teams and Skype for Business
-              href: upgrade-to-teams-on-prem-coexistence.md
             - name: Coexistence modes - Reference
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams client experience and conformance to coexistence modes
