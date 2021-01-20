@@ -95,19 +95,19 @@ If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely
 
 - **QoE reports were not received** — The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (for example, because some third-party endpoints may not send QoE) or could not be sent (for example, because of a network outage), CQD is unable to classify the stream.
 
-> [!TIP]
-> The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
+  > [!TIP]
+  > The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
 
 - **Short calls** — Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
 
-> [!TIP]
-> The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
+  > [!TIP]
+  > The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
 
 - **Low packet utilization** — Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
   - A common low packet utilization scenario occurs when an attendee joins a meeting to listen to the presenter, but never speaks (the microphone is muted for most of the call). Here, the audio stream inbound to the client has high packet utilization while the audio stream outbound from the client has little to no packet utilization. The duration of the stream may be an hour or longer but the packet utilization on the stream from the client to the server is low since the microphone was muted, and an _Unclassified_ stream results.
 
-> [!TIP]
-> The "Packet Utilization" dimension and "Avg Packet Utilization" measurement can be used to determine the packet activity of a stream.
+  > [!TIP]
+  > The "Packet Utilization" dimension and "Avg Packet Utilization" measurement can be used to determine the packet activity of a stream.
 
 ## Related Topics
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)

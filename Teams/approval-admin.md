@@ -22,8 +22,6 @@ appliesto:
 
 # Teams Approvals app availability
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
 
@@ -104,7 +102,7 @@ Approvals created from the Approvals App are stored in the default CDS environme
 
 The Approvals App logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
 
-1. Go to the M365 Compliance Site.
+1. Go to the Microsoft 365 Compliance Site.
 
 2. Select the **Audit** section.
 
@@ -134,7 +132,7 @@ For access to more auditing approvals within Flow, enable and configure auditing
 
 Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
-1. To use the preconfigured reports, sign in to Office 365 Security and Compliance.
+1. To use the preconfigured reports, sign in to Microsoft 365 Security and Compliance.
 
 2. Select **Search & investigation**.
 
@@ -144,7 +142,7 @@ Learn more about [Microsoft Dataverse and model-driven apps activity logging - P
 
 ## Security
 
-From the Teams Approval App, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
+From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
 
 > [!Note]
 > A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.

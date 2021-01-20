@@ -120,7 +120,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Teams Graph APIs and Cloud Communication APIs for integration with Teams 
 
-  - Teams based app for agent experiences 
+  - Teams-based app for agent experiences 
 
   - Teams as the primary calling endpoint for the agents 
 
