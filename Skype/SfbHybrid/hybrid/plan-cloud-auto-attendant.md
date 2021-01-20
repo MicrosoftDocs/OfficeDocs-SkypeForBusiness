@@ -86,10 +86,6 @@ Currently we don't support automated migration to the Cloud of a UM auto attenda
 
 See [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
 
-## Additional planning resources
-
-The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Teams admin center. Review the tutorial and use the exercises there to create your plan.
-
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure resource accounts](configure-onprem-ra.md).
 
 > [!CAUTION]
