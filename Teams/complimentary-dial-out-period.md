@@ -33,9 +33,9 @@ Customers may use Microsoft 365 or Office 365 Calling Plan and Office 365 Audio 
   
 ### End of complimentary dial out period
 
-Beginning December 1, 2019, the complimentary dial-out capability will end. See [Audio Conferencing subscription dial out and call me at benefit](audio-conferencing-subscription-dial-out.md) for more details. 
+The complimentary dial-out capability ended on December 1, 2019. See [Audio Conferencing subscription dial out and call me at benefit](audio-conferencing-subscription-dial-out.md) for additional details. 
 
-This change will not take place for countries where the Audio Conferencing subscription is available, but we do not currently enable setting up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
+This change did not take place for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
 
 ### Complimentary dial out period details
 
@@ -45,10 +45,7 @@ In addition, there is a 900-minute limit during the complimentary dial out perio
 
 Users with a license usage location (the location is the user country location that is defined in the licensing area of the Microsoft 365 admin center) in _any__ country can dial out from a conference to any of the 44 [Zone A countries and regions](audio-conferencing-zones.md). Each user receives 900 minutes per user per month to _any_ of the [Zone A countries and regions](audio-conferencing-zones.md), which are pooled at the tenant level. For example, a customer has purchased 115 Audio Conferencing subscription licenses and has 10 users in the US, 100 users in the UK, and 5 users in India, all with Audio Conferencing subscription licenses assigned to their users.
 
-> [!NOTE]
-> Pool size is based on assigned licenses and not purchased licenses.
- 
-- All 115 users share a pool of (115 users X 900 min) = 103,500 conferencing dial-out out minutes per calendar month, which can be used to place outbound calls to any of the [Zone A countries and regions](audio-conferencing-zones.md).
+- All 115 users share a pool of (115 users X 900 min) = 103,500 conferencing dial-out out minutes per calendar month which can be used to place outbound calls to any of the [Zone A countries and regions](audio-conferencing-zones.md).
 - All calls exceeding the 103,500 minutes per calendar month are billed per minute using Communications Credits at our published rates to that destination. (Note: Tenant must set up Communications Credits and assign the Communications Credits license to the meeting organizer).
 - All outbound calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list are billed per minute using Communications Credits at our published rates to that destination (provided tenant has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
