@@ -77,7 +77,7 @@ For more information about planning your migration, see [Plan for Skype for Busi
 
 Currently we don't support automated migration to the Cloud of a UM auto attendant system created in Exchange 2013 or 2016. To manually re-create an auto attendant system, you'll need to:
 
-1. Use Exchange admin powershell commands to review the structure of the old auto attendant system, including any nested auto attendants and call queues.  
+1. Use Exchange admin PowerShell commands to review the structure of the old auto attendant system, including any nested auto attendants and call queues.  
 2. Create copies of text-to-speech scripts or recorded messages associated with each UM auto attendant node.
 3. Create on premise endpoints for each auto attendant node, including assigning a test phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System.
 4. Implement a new Cloud auto attendant service with Microsoft Teams and Phone System. See [Configure resource accounts](configure-onprem-ra.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM auto attendant node.
