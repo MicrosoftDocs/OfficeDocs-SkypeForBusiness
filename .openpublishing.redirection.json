@@ -12298,7 +12298,7 @@
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-cq.yml",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Lync/LyncServer/verify-user-replication-has-completed_1.md",
