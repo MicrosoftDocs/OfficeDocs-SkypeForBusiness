@@ -28,10 +28,10 @@ description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 eac
 
 ## Microsoft Teams and Skype for Business PSTN Audio Conferencing
 
-Customers have been provided a [complimentary dial-out capability](complimentary-dial-out-period.md) that will end on November 30, 2019. Beginning December 1, 2019, each Audio Conferencing subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the [Zone A countries and regions](audio-conferencing-zones.md). Your tenant dial-out minute pool size is based on *assigned* licenses and not purchased licenses. This benefit is applicable to Audio Conferencing *monthly subscription* licenses and does not extend to Audio Conferencing pay-per-minute licenses. 
+Customers have been provided a [complimentary dial-out capability](complimentary-dial-out-period.md) that ended on November 30, 2019. Beginning December 1, 2019, each Audio Conferencing subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the [Zone A countries and regions](audio-conferencing-zones.md). Your tenant dial-out minute pool size is based on purchased licenses. This benefit is applicable to Audio Conferencing *monthly subscription* licenses and does not extend to Audio Conferencing pay-per-minute licenses. 
 
 > [!NOTE]
-> The end of the complimentary dial-out period will not take place on November 30, 2019, for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
+> The end of the complimentary dial-out period did not take place on November 30, 2019, for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
 
 
 ## Audio Conferencing "Dial Out From a Meeting" & "Call Me At" details
@@ -62,10 +62,27 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
 - All dial-out calls exceeding 6,900 minutes per calendar month are billed per minute using Communications Credits at our published rates to that destination. (Note: The customer must set up [Communications Credits](what-are-communications-credits.md) and assign the Communications Credits license to the meeting organizer.)
 - All dial-out calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list are billed per minute using Communications Credits at our published rates to that destination (provided the customer has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
-## How can I monitor minute pool usage?
+## How can I monitor minute my pool usage?
 
-- You can monitor the usage against your dial-out minute pool in the "legacy" Skype for Business Admin Center. In the Microsoft Teams Admin Center, navigate to **Legacy portal** > **Reports** > **PSTN Minute Pools**. The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries."
-- Email notifications will be sent to all tenant administrators of a given customer when the utilization of the tenant's dial-out minutes pool has reached 80% and 100%.
+- You can monitor the usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**. The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries."
+- Email notifications will be sent to the following admins when the utilization of your organization's dial-out minutes pool has reached 80 percent and 100 percent:
+
+  - Billing Administrator
+  - Skype for Business Administrator
+  - Company Administrator
+  - User Account Administrator
+  - Helpdesk Administrator
+  - Service Support Administrator
+  - Device Administrators
+  - Application Administrator
+  - License Administrator
+  - Cloud Device Administrator
+  - Authentication Administrator
+  - Privileged Authentication Administrator
+  - Teams Communications Administrator
+  - Teams Communications Support Engineer
+  - Teams Communications Support Specialist
+  - Teams Service Administrator
 
 For additional information on Communication Credits, see [Communications Credits](what-are-communications-credits.md).
 

@@ -86,34 +86,17 @@ items:
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See Office 365 licensing for Teams for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. Teams must be enabled for students before they can access Teams. To get started, IT administrators need to use the Microsoft 365 admin center to enable Microsoft Teams for your school.
-    ## Turn on Microsoft Teams for your school
-
-    1. Sign in to <a href="https://portal.office.com" target="_blank">Office 365</a> with your work or school account.
-    2. Click **Admin** to go to the [Office 365 admin center](https://aka.ms/enableteamssetting).
-    3. Go to **Settings &gt; Settings &gt; Microsoft Teams**. Check **Show all** if you don't see settings right away.
-
-    **Figure 1** - Select Microsoft Teams from the list of services
-
-    ![Select the Microsoft Teams from the list of services](media/enable-microsoft-teams.png).
-
-    4.	Check the **Education – Faculty and Staff** option to enable Teams for faculty and check the **Education – Student** option to enable Teams for students. 
-
-     **Figure 2** - Check the correct option for the license type that you want to configure
-
-     ![Select the Microsoft Teams license that you want to configure](media/enable-microsoft-teams-3.png)
-
-     5.	Click **Save changes**.
-
-  
+    Teams is a cloud-based service. Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. <a href="https://docs.microsoft.com/MicrosoftTeams/teams-edu-licensing" target="_blank"> See Office 365 licensing for Teams for information about both methods </a>. This is valuable to understand if you are interested in piloting Teams before broad enablement.
 
 - title: Configure Teams for your school
   durationInMinutes: 7
   content: |
    > [!IMPORTANT]
    > Starting June 2019, all Teams for Education admins should use the Microsoft Teams admin center to manage all their Teams policies. Teams for Education policies can no longer be managed in the Microsoft 365 Admin Center. For more information, see [Manage Teams during the transition to the new Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
-     
+  
     You can easily manage all Teams policies in the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by signing in with your admin credentials.
+
+    [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
     Settings in the Microsoft Teams admin center are not managed based on user license type. Instead, we suggest that you define different policies to manage which capabilities are available to your users. To configure a policy, click the policy in the left navigation of the Microsoft Teams admin center. Here's an example of messaging policies. 
 
@@ -135,11 +118,11 @@ items:
     > [!NOTE]
     > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned to the student, the student can use Chat. In this case, it may be easier to disable Chat globally and use custom policies to enable Chat for faculty. 
 
-    ### Use policies and settings to enforce student safety measures
+    ### Use policies and settings to enforce student safety measures 
+
     To maintain student safety, you should use administrative policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared.  
 
-    View [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to make within your environment to keep it safe for students. 
-
+    View [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to make within your environment to keep it safe for students.
 
     ### Appendix
     #### How to create and assign a messaging policy

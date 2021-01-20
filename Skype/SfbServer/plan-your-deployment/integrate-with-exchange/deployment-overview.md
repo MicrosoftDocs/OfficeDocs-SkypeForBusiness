@@ -1,8 +1,8 @@
 ---
 title: "Deployment process overview for integrating on-premises Unified Messaging and Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro

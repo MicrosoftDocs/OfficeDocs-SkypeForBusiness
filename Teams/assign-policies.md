@@ -1,7 +1,7 @@
 ---
 title: Assign policies to your users in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -163,6 +163,8 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
 Policy assignment to groups is recommended for groups of up to 50,000 users but it will also work with larger groups.
 
 When you assign the policy, it's immediately assigned to the group. However, note that the propagation of the policy assignment to members of the group is performed as a background operation and may take some time, depending on the size of the group. The same is true when a policy is unassigned from a group, or when members are added to or removed from a group.
+
+Group policy assignments are only propagated to users that are direct members of the group. The assignments aren't propagated to members of nested groups.
 
 ### What you need to know about policy assignment to groups
 

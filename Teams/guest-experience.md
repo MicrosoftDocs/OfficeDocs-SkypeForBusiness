@@ -14,10 +14,11 @@ localization_priority: Normal
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
+  - m365initiative-externalcollab
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: This article describes the Microsoft Teams functionality available to guest users.
+description: This article describes the Microsoft Teams functionality available to guests.
 ---
 
 # Guest experience in Teams
@@ -38,7 +39,7 @@ Check out these videos about the guest experience in Teams:
 
 The following table compares the Teams functionality available for an organization's team members and its guests. Teams admins control the features available to guests.
 
-|**Capability in Teams**|**Teams user in the organization**|**Guest user**|
+| Capability in Teams | Teams user in the organization | Guest |
 |:-----|:-----|:-----|
 |Create a channel  <br/>  *Team owners control this setting.*  <br/> |&#x2713;|&#x2713;|
 |Participate in a private chat  <br/> |&#x2713;|&#x2713;|
@@ -46,7 +47,7 @@ The following table compares the Teams functionality available for an organizati
 |Post, delete, and edit messages  <br/> |&#x2713;|&#x2713;|
 |Share a channel file  <br/> |&#x2713;|&#x2713;|
 |Access SharePoint files<br/> |&#x2713;|&#x2713;|
-|Attach files<br/> |&#x2713;|&#x2713;|
+|Attach files<br/> |&#x2713;|Team chats only|
 |Download private chat files<br/> |&#x2713;|&#x2713;|
 |Search within files<br/> |&#x2713;||
 |Share a chat file  <br/> |&#x2713;||
@@ -103,4 +104,4 @@ The following table shows the calling and meeting features available to guests, 
 
 ## Related topics
 
-[Leave an organization as a guest user](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Leave an organization as a guest](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

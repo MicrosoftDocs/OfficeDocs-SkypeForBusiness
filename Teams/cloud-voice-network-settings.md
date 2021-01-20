@@ -1,7 +1,7 @@
 ---
 title: Network settings for cloud voice features
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

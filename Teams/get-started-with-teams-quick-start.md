@@ -7,7 +7,7 @@ ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: Get started with Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy across your organization.
 localization_priority: Priority
 search.appverid: MET150
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -120,7 +121,7 @@ The signing key to enable auto-updating using the system's package manager is in
 1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:  
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo apt install **teams download file**`
+    - Or if you love Terminal, type: `sudo dpkg -i **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `teams`. 
 

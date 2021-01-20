@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing with Direct Routing, GCCH and DoD"
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article

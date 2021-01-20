@@ -11,6 +11,9 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - m365solution-voice
+  - m365solution-scenario
 appliesto: 
   - Microsoft Teams
 f1.keywords:
