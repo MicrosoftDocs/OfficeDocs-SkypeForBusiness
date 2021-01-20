@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
-localization_priority: Normal
+localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
