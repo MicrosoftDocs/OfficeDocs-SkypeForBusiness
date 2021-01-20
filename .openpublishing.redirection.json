@@ -12293,7 +12293,7 @@
     {
       "source_path": "Teams/tutorial-org-aa.yml",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-cq.yml",
