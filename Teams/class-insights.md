@@ -25,9 +25,9 @@ With Insights in Microsoft Teams for Education, educators and leaders can access
 Insights is active in Office 365 Education SKUs A1, A3, and A5.
 
 > [!NOTE]
-> Educators, learn how to use Insights [here](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181).
+> Educators, learn how to use Insights here: [Educator's guide to Insights in Microsoft Teams](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181).
 
-## Permissions
+## Use Insights
 
 ### User types
 - **Students** are identified by their license and _do not have_ access to the Insights tab (even if they are an owner of the team). 
@@ -35,15 +35,22 @@ Insights is active in Office 365 Education SKUs A1, A3, and A5.
 - **Leaders** are also identified by faculty license, but in addition they need explicit permissions from the IT global admin to view the reports in the Insights app.
 - Guest accounts _do not have_ access to Insights.
 
-### Permission levels
-Educators and leaders have different permission levels and logic:
-**Educators** can use Insights in two forms:
-- [Tabs](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - Insights for each class are available in a tab added from the top navigation menu. Insights will surface activity data from all channels within a class team, but can only be added as a tab to public channels.  
+### Entry points
+Educators and leaders have different entry points where they can discover and use Insights.
+
+**Educators** can use these two entry points:
+- [Tabs](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181) - insights for each class they own are available in a tab added from the top navigation menu. Insights will surface activity data from all channels within a class team, but can only be added as a tab to public channels. The tab reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
 - [Personal app](https://support.microsoft.com/article/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - an overview of all their active classes is available from the left Teams app bar.
 
-The app reflects activity from everyone in the class team who isn’t an owner (including educators who aren’t owners of the team).
-
 **Leaders** can use Insights as a [personal app](https://support.microsoft.com/article/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
+
+### Manage setup policy
+As an admin, you can use [app setup policy](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) to install Insights by default for your educators and leaders when they start Teams.
+With that policy you can customize Teams to highlight Insights, and pin it for them in the apps bar.
+
+> [!TIP]
+> Read [Teams Policies and Policy Packages for Education](https://docs.microsoft.com/microsoftteams/policy-packages-edu) about Teams policies and policy packages for education.
+
 
 
 ## Compliance
@@ -85,7 +92,7 @@ Insights is designed to handle a high volume of data collected from Teams activi
 The data collection process takes place on separate servers regardless of the installation of the Insights tab in Teams. The Insights tab or personal app does not affect application performance or network bandwidth for educators and students using the rest of Teams functionality.
 
 > [!TIP]
-> Read [here](edu-remote-low-bandwidth.md) about using Teams for Education when bandwidth is low.
+> Read [Help for low-bandwidth situations for Teams for EDU](edu-remote-low-bandwidth.md) about using Teams for Education when bandwidth is low.
 
 ## How to delete your data
 
@@ -94,7 +101,7 @@ Education services stores student and educator actions performed in the context 
 > [!NOTE]
 > Deleting data has a negative impact on Insights' ability to analyze class team engagement over time.
 
-- Open a support ticket [here](https://edusupport.microsoft.com/support). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
+- Open a support ticket at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
 - Once filed, the support ticket waits in the queue for one week in order to meet compliance minimal retention policy. You have the opportunity to cancel the operation during this time.
 - After one week, the Education Analytics team takes action to ensure all data related to the user ID is deleted from the service. Microsoft support monitors the ICM ticket and will notify you once the deletion process is complete, in no more than 28 days.
 

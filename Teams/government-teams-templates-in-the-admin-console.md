@@ -23,8 +23,6 @@ appliesto:
 
 # Use Teams government templates in the admin center
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Teams templates have pre-built definitions of team structures designed around governmental needs. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
@@ -41,5 +39,5 @@ Centralize communication and critical resources for your crisis management or in
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Coordinate incident response|`com.microsoft.teams.template.CoordinateIncidentResponse` |Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Coordinate incident response|`com.microsoft.teams.template.CoordinateIncidentResponse`|Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||
