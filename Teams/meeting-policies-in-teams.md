@@ -541,20 +541,13 @@ To specify whether users can customize their video background in a meeting, set 
 |**NoFilters**     |User can't customize their video background.|
 |**BlurOnly**     |User has the option to blur their video background. |
 |**BlurandDefaultBackgrounds**     |User has the option to blur their video background or choose from the default set of images to use as their background. |
-|**AllFilters**     |Use has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
+|**AllFilters**     |User has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
 
-> [!NOTE]
+> [!IMPORTANT]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
 
-## Meeting policy settings - Allow Breakout Rooms
-
-This is a per-user policy. [Breakout Rooms](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d) in Teams are used to split meetings into separate, smaller meeting rooms. This setting controls whether meeting organizers have the option to create and manage Breakout Rooms in meetings they schedule or start. This policy setting affects all meetings, including Meet Now meetings.
-
-Currently, you can only use PowerShell to configure this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
-
-By default, the **AllowBreakOutRooms** parameter is set to **True** and users who are assigned this policy have the option to create and manage Breakout Rooms in meetings they schedule or start. Users can also assign participants to rooms and move participants between rooms. Keep in mind that creating and managing Breakout Rooms in meetings is currently only available in the Teams desktop client. To learn more, see [Create and manage Breakout Rooms during class meetings](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d).
-
-To prevent users from creating Breakout Rooms, set the **AllowBreakOutRooms** parameter to **False**. Users who are assigned this policy don't have the option to create or manage Breakout Rooms.
+> [!NOTE]
+> These features are not available for all Teams clients. For more information, see the _Video and backgrounds_ title in [Meetings and live events](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e).
 
 ## Related topics
 
