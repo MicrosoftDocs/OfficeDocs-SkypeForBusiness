@@ -39,7 +39,7 @@ You can implement policies in the following ways, which affect the meeting exper
 |---------|---------|
 |Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
 |Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Allow Meet now in channels** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
+|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow users to start and stop a recording.
 
 You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
 
@@ -111,9 +111,9 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 ### Allow Meet now in channels
 
-Allow **Meet now** is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn this setting on, users can select the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. The default value is True.
+Allow **Meet now** is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn on this setting, users can select the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. The default value is True.
 
-![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) 
+![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
 
 ### Allow the Outlook add-in
 
@@ -191,7 +191,7 @@ Note that transcription for recorded meetings is currently only supported for us
 
 ### Allow cloud recording
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
+This is controlled at a per-user policy. This setting controls whether a user can record. The recording can be started by the meeting organizer or by another meeting participant if their specific policy setting is turned on and if they're an authenticated user from the same organization as the organizer.
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
 
@@ -205,7 +205,7 @@ Let's look at the following example.
 |Amanda | Location1MeetingPolicy | On|
 |John (external user) | Not applicable | Not applicable|
 
-Meetings organized by Daniela can't be recorded and Amanda, who has the policy setting enabled, can't record meetings organized by Daniela. Meetings organized by Amanda can be recorded, however,  Daniela, who has the policy setting disabled and John who is an external user, can't record meetings organized by Amanda.
+Daniela, even if she were the organizer cannot record because her policy is set to off. Amanda, who has the policy setting enabled, can record meetings even those organized by Daniela. If Amanda were to organize a meeting, she will be able to record that meeting, however,  Daniela, who has the policy setting disabled and John who is an external user, can not record that meeting.
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
@@ -323,8 +323,8 @@ For meetings that need the highest-quality video experience, such as CEO board m
 
 ### Screen sharing mode
 
-> [!Note]
-> This feature is still in development. Screen sharing is a per-participant policy.
+> [!NOTE]
+> This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
 This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
 
@@ -353,7 +353,7 @@ If this setting is turned on for the user, the **Give Control** option is displa
 
 ![Screenshot showing the Give Control option](media/meeting-policies-give-control.png)
 
-If the settings is turned off for the user, the **Give Control** option isn't available.
+If the setting is turned off for the user, the **Give Control** option isn't available.
 
 ![Screenshot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
 
@@ -449,7 +449,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 ![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
 
- Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
+ Meeting organizers can select **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
 > [!NOTE]
 > In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
@@ -463,7 +463,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 ### Allow dial-in users to bypass the lobby
 
-This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting.
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting.
 
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
@@ -545,6 +545,16 @@ To specify whether users can customize their video background in a meeting, set 
 
 > [!NOTE]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
+
+## Meeting policy settings - Allow Breakout Rooms
+
+This is a per-user policy. [Breakout Rooms](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d) in Teams are used to split meetings into separate, smaller meeting rooms. This setting controls whether meeting organizers have the option to create and manage Breakout Rooms in meetings they schedule or start. This policy setting affects all meetings, including Meet Now meetings.
+
+Currently, you can only use PowerShell to configure this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+By default, the **AllowBreakOutRooms** parameter is set to **True** and users who are assigned this policy have the option to create and manage Breakout Rooms in meetings they schedule or start. Users can also assign participants to rooms and move participants between rooms. Keep in mind that creating and managing Breakout Rooms in meetings is currently only available in the Teams desktop client. To learn more, see [Create and manage Breakout Rooms during class meetings](https://support.microsoft.com/office/create-and-manage-breakout-rooms-during-class-meetings-preview-18b340cd-1106-4fa5-a852-5676614f7e7d).
+
+To prevent users from creating Breakout Rooms, set the **AllowBreakOutRooms** parameter to **False**. Users who are assigned this policy don't have the option to create or manage Breakout Rooms.
 
 ## Related topics
 

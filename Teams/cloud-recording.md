@@ -41,7 +41,8 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 - User has Microsoft Stream upload video permissions
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
-- User has TeamsMeetingPolicy-AllowCloudRecording setting set to true
+- User has CsTeamsMeetingPolicy -AllowCloudRecording setting set to true in order to record meetings and group calls
+- User has CsTeamsCallingPolicy -AllowCloudRecordingForCalls setting set to true in order to record 1:1 calls
 - User is not an anonymous, Guest, or federated user in the meeting
 - To enable transcription for a user's meeting, the Teams meeting policy they are assigned to must have the -AllowTranscription setting set to true.
 
@@ -50,7 +51,10 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 <sup>2</sup> User needs to be licensed to upload/download meetings to/from Microsoft Stream, however they do not need the license to record a meeting. If you wish to block a user from recording a Microsoft Teams Meeting, you must grant a TeamsMeetingPolicy that has AllowCloudRecording set to $False.
 
 > [!IMPORTANT] 
-> Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 21-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
+> Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Async Media Services (AMS) with a 21-day limit before it's deleted. It's not something at this point that an admin can control or manage including the ability to delete it.
+
+> [!IMPORTANT]
+> Also note, for recordings that are on AMS, the recording retention is affected by the chat message itself. As such, any deletion of the original AMS Recording chat message will prevent users from being able to access the recording. There are two scenarios that can affect this. 1) User manually deletes the chat message - In this scenario, as the original message is gone, users will no longer be able to access the recording and no further downloads will be possible. However, the recording itself may still be retained within Microsoft's internal systems for a time (not exceeding the original 21-day period). 2) Recording chat message is deleted by chat retention policy - AMS Recordings are directly tied to the chat retention policy. As such, although recordings on AMS will by default be retained for 21 days before being deleted, if the chat message is deleted before the 21-day time period, due to chat message retention policies, the recording will also be deleted. There is no way to recover the recording after this.
 
 ## Set up Teams cloud meeting recording for users in your organization
 
@@ -107,17 +111,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### Where your meeting recordings are stored
 
-Meeting recordings are stored in Microsoft Stream cloud storage. Recordings are retained and available for viewing and download for 21 days. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. In the future, the meeting recording feature will be turned on for customers whose data is stored in-country even if Microsoft Stream isn't available in the in-country data residency region.
+Meeting recordings are stored in Microsoft Stream cloud storage. Currently, the meeting recording feature is turned off for customers whose Teams data is stored in-country if Microsoft Stream isn't available in the in-country data residency region where the data is stored. The meeting recording feature can be turned on for customers whose data is supposed to be stored in-country even if Microsoft Stream isn't available in the in-country data residency region. This can be done by allowing recordings to be stored in the nearest geographic region for Microsoft Stream. 
 
-When this change takes effect, meeting recordings will be stored by default in the nearest geographic region for Microsoft Stream. If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, turn off the **Allow cloud recording** setting in the Global Teams meeting policy, which is in the Microsoft Teams admin center. If, however, you still wish to enable recordings to be stored in the nearest geographic region for Microsoft Stream, you must turn on both **Allow cloud recording** and **Allow Recording Storage Outside Region** before this change takes place.
+If your Teams data is stored in-country and you prefer to store meeting recordings in-country, we recommend that you turn off the feature, and then turn it on after Microsoft Stream is deployed to your in-country data residency region. To turn off the feature for all users in your organization, turn off the **Allow cloud recording** setting in the Global Teams meeting policy, which is in the Microsoft Teams admin center. If, however, you still wish to enable recordings to be stored in the nearest geographic region for Microsoft Stream, you must turn on both **Allow cloud recording** and **Allow Recording Storage Outside Region** before this change takes place.
 
-To enable recordings in region the Global policy, use the following cmdlet:
+To enable recordings in-region on the Global policy, use the following cmdlet:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+Set-CsTeamsMeetingPolicy -Identity Global –AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
 ```
-
-
 Here's a summary of what happens when you turn on meeting recording when this change takes effect:
 
 |If you turn on meeting recordings...|Meeting recordings are stored... |

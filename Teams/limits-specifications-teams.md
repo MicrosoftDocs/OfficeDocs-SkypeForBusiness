@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: 
+ms.reviewer: siunies
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 f1.keywords:
@@ -46,7 +46,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams. To go beyond the maximum number of teams a Microsoft 365 or Office 365 organization can have, you must contact Microsoft support.
+<sup>2</sup> This limit includes archived teams. To go beyond the maximum number of teams a Microsoft 365 or Office 365 organization can have, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant.
 
 <sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
@@ -64,16 +64,18 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 |Feature  | Maximum limit  |
 |---------|---------|
-|Number of people in a private chat<sup>1</sup>  | 250 |
+|Number of people in a private chat<sup>1</sup>  | 250<sup>2</sup> |
 |Number of people in a video or audio call from chat | 20 |
-|Number of file attachments<sup>2</sup>  |10     |
-|Chat size | Approximately 28 KB per post<sup>3</sup> |
+|Number of file attachments<sup>3</sup>  |10     |
+|Chat size | Approximately 28 KB per post<sup>4</sup> |
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> If the number of attachments exceeds this limit, you'll see an error message.
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
+<sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
+
+<sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
 
 ### Emailing a channel
 
@@ -112,17 +114,17 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including**:
+> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
 >
->- Up to 20,000 attendees per event
->- Up to 50 simultaneous events per Teams tenant
->- Up to 16 hours per broadcast
+>- Event support for up to 20,000 attendees
+>- 50 events can be hosted simultaneously across a tenant
+>- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 350 |
+|Number of people in a meeting (can chat and call in)  | 300 |
 |Number of people in a video or audio call started from the chat tab | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
@@ -158,13 +160,13 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for Live Events hosted in Teams, Stream, and Yammer, including**:
+> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
 >
-> - Up to 20,000 attendees per event
-> - Up to 50 simultaneous events per Teams tenant
-> - Up to 16 hours per broadcast
+>- Event support for up to 20,000 attendees
+>- 50 events can be hosted simultaneously across a tenant
+>- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](teams-add-on-licensing/advanced-communications.md).**
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## Presence in Outlook
 
@@ -187,7 +189,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |
-|File upload limit  (per file)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
+|File upload limit  (per file)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 Channels are backed by folders within the SharePoint Online site (previously called "site collection") created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
