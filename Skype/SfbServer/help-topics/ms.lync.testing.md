@@ -1,8 +1,8 @@
 ---
 title: "test"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 1/1/2010
 manager: serdars
 audience: ITPro
