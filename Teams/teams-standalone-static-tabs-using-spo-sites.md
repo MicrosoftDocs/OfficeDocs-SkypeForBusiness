@@ -103,9 +103,6 @@ If you want to make the new app available in the left menu at a higher position,
 
 To view and test the new app on a mobile device, open the app drawer by tapping on the chevron (**^**) above the tab bar near the bottom of your screen. Find your app and navigate to it on your mobile device.
 
-> [!CAUTION]
-> Mobile support is currently in Developer Preview. To enable Developer Preview, navigate to Settings > About and then enable Developer Preview mode.
-
 ## A Sample Manifest.JSON file
 
 The JSON file you generate will look something like the one below.
