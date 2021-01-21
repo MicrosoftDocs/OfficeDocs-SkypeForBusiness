@@ -63,11 +63,11 @@ After the legal hold has been set, you can discover all the content retained by 
 > [!IMPORTANT]
 > When a user or group is placed on hold, all message copies will be retained. For example, if a user posted a message in a channel and then modified the message, in a hold scenario, both copies of the message are retained. Without the legal hold in-place, only the latest message is retained.
 
-## Content locations to place on legal hold
+## Content locations to place on legal hold to preserve Teams content
 
-As a helpful guide, you can use the following table to understand what content location (such as mailbox or site) to place on legal hold to preserve different types of Teams content.
+As a helpful guide, you can use the following table to understand what content location (such as a mailbox or site) to place on legal hold to preserve different types of Teams content.
 
-|Scenario  |Content location to place on hold  |
+|Scenario  |Content location  |
 |---------|---------|
 |Teams chats for a user (for example, 1:1 chats, 1:N group chats, and private channel conversations)     |User mailbox.         |
 |Teams channel chats (excluding private channels)    |Group mailbox used for the team.         |
