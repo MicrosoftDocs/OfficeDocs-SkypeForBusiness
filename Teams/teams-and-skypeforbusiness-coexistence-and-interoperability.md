@@ -31,7 +31,7 @@ This article is part of the Project Definition stage of your upgrade journey, an
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 - [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
 
-If your organization uses Skype for Business today and you are starting to use Teams alongside Skype for Business—or you are starting to upgrade to Teams—it's important to understand how the two applications coexist, when and how they interoperate, and how to manage users' migration all the way to their eventual upgrade from Skype for Business to Teams.
+If your organization uses Skype for Business today and you are starting to use Teams alongside Skype for Business—or you are starting to upgrade to Teams—it's important to understand how the two applications coexist, when and how they interoperate, and how to manage your users' migration all the way to their eventual upgrade from Skype for Business to Teams.
 
 > [!Tip]
 > Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop).
