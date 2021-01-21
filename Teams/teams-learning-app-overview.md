@@ -108,7 +108,7 @@ Other sources might need to be enabled or configured manually. Learning sources 
 
 To enable or disable a learning content source, select the check box next to the source. If a source is enabled, a check mark will be visible.
 
-## Configure SharePoint as a learning content source
+## Configure SharePoint as a learning content source (Coming Soon)
 
 You configure SharePoint as a learning content source for the Teams Learning app (private preview) in the Microsoft 365 admin center.
 
