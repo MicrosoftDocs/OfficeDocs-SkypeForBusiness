@@ -82,13 +82,13 @@ The following diagram summarizes the requirements to base domain, subdomains, an
 
 ![Diagram showing requirements to domains and Contact header](media/direct-routing-1-sbc-requirements.png)
 
-The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
+The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
 
 The following table is an example of one configuration.
 
 
-|New domain name |Type|Registered  |Certificate SAN for SBC  |Tenant default domain in the example  |FQDN name that SBC must present in the Contact header when sending calls to users|
+|New domain name |Type|Registered  |Certificate CN/SAN for SBC  |Tenant default domain in the example  |FQDN name that SBC must present in the Contact header when sending calls to users|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    Base     |     In carrier tenant  |    \*.customers.adatum.biz  |   adatum.biz      |NA, this is a service tenant, no users |
 |sbc1.customers.adatum.biz|    Subdomain  |    In a customer tenant  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
