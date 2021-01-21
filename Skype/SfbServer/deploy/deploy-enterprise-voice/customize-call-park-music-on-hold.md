@@ -1,8 +1,8 @@
 ---
 title: "Customize Call Park music on hold inSkype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

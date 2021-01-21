@@ -1,8 +1,8 @@
 ---
 title: "Configure Exchange Server Unified Messaging for Skype for Business Server voice mail"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
