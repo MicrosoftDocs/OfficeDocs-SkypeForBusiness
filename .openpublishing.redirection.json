@@ -12281,6 +12281,26 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/business-voice/set-up-auto-attendants.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/business-voice/set-up-call-queues.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/tutorial-org-aa.yml",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-cq.yml",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Lync/LyncServer/verify-user-replication-has-completed_1.md",
       "redirect_url": "https://docs.microsoft.com/lyncserver/verify-user-replication-has-completed",
       "redirect_document_id": true

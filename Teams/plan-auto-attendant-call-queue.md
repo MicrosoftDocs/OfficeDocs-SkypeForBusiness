@@ -221,4 +221,6 @@ See the following articles for information on how to create auto attendants and 
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)
+[Create a call queue - small business tutorial](business-voice/create-a-phone-system-call-queue-smb.md)
+
+[Set up an auto attendant - small business tutorial](business-voice/create-a-phone-system-auto-attendant-smb.md)
