@@ -158,7 +158,7 @@ To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-recording-transcription)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
 |||
 
 
