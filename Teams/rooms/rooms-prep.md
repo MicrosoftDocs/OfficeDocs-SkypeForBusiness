@@ -93,7 +93,7 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
  
-    If customer is using a PAC file the configuration would look like the example below:
+    If the customer is using a PAC file the configuration would look like the example below:
 
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
 
