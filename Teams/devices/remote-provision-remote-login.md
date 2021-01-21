@@ -22,14 +22,14 @@ description: Learn how to remote provision a device and create a verification co
 
 # Remote provisioning and verification code creation in Microsoft Teams
 
-IT admins can remotely provision and sign in to a Teams device remotely. To provision a remote device, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center.
+IT admins can remotely provision and sign in to a Teams device. To provision a device remotely, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center.
 
 ## Add a device MAC address
 
-Provision the device by generating a MAC address for it.
+Provision the device by imprinting a MAC address on it.
 
 1. Sign in to the Teams admin center.
-2. Select **Devices** > **IP Phones**.
+2. Expand **Devices**.
 3. Select **Provision new device** from the **Actions** tab.
 
 ![Provision new device option from the Actions tab](../media/provision-new-device.png)
@@ -39,8 +39,8 @@ In the **Provision new devices** window, you can either add the MAC address manu
 **Manually add a device MAC address**
 
 1. From the **Awaiting Activation** tab, select **Add MAC ID**.
-2. Enter the MAC ID. 
-3. Enter a location, which helps technicians identify where to install the devices. 
+2. Enter the MAC ID.
+3. Enter a location, which helps technicians identify where to install the devices.
 4. Select **Apply** when finished.
 
 **Upload a file to add a device MAC address**
@@ -52,14 +52,15 @@ In the **Provision new devices** window, you can either add the MAC address manu
 
 ## Generate a verification code
 
-You need to generate a verification code for the devices. The verification code is generated in bulk or at the device level and is valid for 24 hours. The password can be unique for each device, or you can use the same password for all devices.
+You need to generate a verification code for the devices. The verification code is generated in bulk or at the device level and is valid for 24 hours.
 
-1. From the **Awaiting Activation** tab, select an existing MAC ID.
-2. Select **Same verification code per device** to generate the same password for every device that you've selected. 
+- From the **Awaiting Activation** tab, select an existing MAC ID.
 
    A password is created for the MAC address and is shown in the **Verification Code** column.
 
-You'll need to provide the list of MAC IDs and verification codes to the field technicians. Once the device is powered up and connected to network, the technician provisions the device by entering the tenant **Verification code** in the user interface.
+You'll need to provide the list of MAC IDs and verification codes to the field technicians. You can export the detail directly in a file and share the file with the technician who is doing the actual installation work.
+
+Once the device is powered up and connected to network, the technician provisions the device by entering the device-specific **Verification code** in the user interface.
 
 ## Sign in remotely
 
