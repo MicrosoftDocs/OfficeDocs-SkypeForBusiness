@@ -109,6 +109,10 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink VP59        | 91.15.0.50          | 2020 Update #7           |
 | Yealink CP960       | 73.15.0.111       | 2020 Update #7           |
 
+See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+
+See [Microsoft Teams displays](https://docs.microsoft.com/microsoftteams/devices/teams-displays).
+
 ### Product release information for Collaboration Bars
 
 The following are the latest Teams Collaboration Bar app and firmware versions.
@@ -148,8 +152,6 @@ When you install a new firmware version on your device, you can determine the co
 | Device model  | Firmware version | Year/ Included product release|
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, Update #1 |
-
-See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
 See [Finding the Firmware version on a mobile device](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
