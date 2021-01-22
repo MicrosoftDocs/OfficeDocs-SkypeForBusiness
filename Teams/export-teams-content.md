@@ -27,7 +27,7 @@ Teams Export APIs allow you to export 1:1, group chat, and channel messages from
 
 Here are some examples on how you can use these export APIs:
 
-- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user or Team.
+- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user or team.
 - **Example 2**: If you want to programmatically export all user or Teams messages daily by providing a date range. Export APIs can retrieve all the messages created or updated during the given date range.
 
 ## What is supported by the Teams Export APIs?
