@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: Manage teams and channel policies
       href: teams-policies.md
-    - name: Sensitivity labels for Teams
-      href: sensitivity-labels.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
     - name: Sharing files in Teams
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: Policy-based recording for callings & meetings
           href: teams-recording-policy.md
+        - name: Sensitivity labels
+          href: sensitivity-labels.md
         - name: Data Loss Prevention
           href: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: eDiscovery
