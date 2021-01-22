@@ -44,7 +44,7 @@ At release on August 1, 2020, the following features are available:
 
 - Live events support for up to 20,000 participants, 50 concurrent events, event duration of 16 hours per broadcast
 
-The following features will be available later this year:
+The following features will be available. Please visit the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=65951) for detailed timing:
 
 - Interactive Teams meetings for up to 1,000 participants
 - Interactive Teams meetings for 1,000 participants with the capability to enable up to 20,000 in a view-only meeting experience
