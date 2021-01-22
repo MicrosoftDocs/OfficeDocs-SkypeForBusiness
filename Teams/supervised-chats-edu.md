@@ -17,6 +17,8 @@ search.appverid: MET150
 description: Learn about supervised chats in Microsoft Teams meetings. 
 ---
 
+# Supervise chats in Microsoft Teams
+
 Supervise chats allow private teacher-to-student chat, while blocking student-only private chats. Admins manage user’s chat permission settings via Microsoft Teams policies.
 
 Education institutions a safe and healthy digital space for students. The digital space includes emails, online meetings and calls, and messaging in Teams.
@@ -44,9 +46,9 @@ As a student
 
 The following permissions are available with supervised chats.
 
-||||
-|---|---|---|
+
 |Title |Permission level|Description|
+|---|---|---|
 |Supervisor |Full permissions| This is the group of users who can engage in one-on-one or group chats with anyone, including with users who require supervision. In education, anyone who has the permission to chat with students privately would fall under this group: full-time teachers, principals.|
 |Supervised user| Restricted permissions| This is the group of users who can engage in one-on-one or group chats only when the supervisors are present in the chat. In education, pre-school and K12 students would most likely fall under this group.|
 |Not supervised|Limited permission | This is the group of users who can chat with supervisors or anyone else in this group. But cannot chat with supervised users without a supervisor present.|
