@@ -43,7 +43,7 @@ Here are some examples on how you can use these export APIs:
 
 ## How to access Teams Export APIs
 
-- **Example 1** is a simple query to retrieve all the messages of a user or Team without any filters:
+- **Example 1** is a simple query to retrieve all the messages of a user or team without any filters:
 
     ```HTTP
     GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
