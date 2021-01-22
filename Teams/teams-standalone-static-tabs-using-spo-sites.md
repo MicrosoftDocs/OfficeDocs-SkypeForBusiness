@@ -12,7 +12,7 @@ ms.collection:
   - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Take an existing SharePoint Online site or page and create a standalone static tab that can be used as an Intranet portal for your organization. 
+description: Take an existing SharePoint Online site or page and create a standalone personal tab that can be used as an Intranet portal for your organization. 
 localization_priority: Priority
 ---
 
@@ -93,9 +93,9 @@ Begin by following the steps below:
 > [!IMPORTANT]
 > If you aren't using Teams App Studio, you will have to .zip the manifest.JSON file you just created, navigate to the App Store in Teams, and click  **upload custom app** link (at the bottom right of the App Store). This will make the app available to you.
 
-15. Now the app is available as a static tab for you to load and view in Teams.
+15. Now the app is available as a personal tab for you to load and view in Teams.
 
-## Test and view your new static tab
+## Test and view your new personal tab
 
 To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in the left-hand side of your app bar. Find your new app, load it, and test your standalone application in Teams.
 
