@@ -68,6 +68,16 @@ While, at this time, Advanced Threat Protection (ATP) safe links are not availab
 
 Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators create [policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 [Advanced Threat Protection Plan 1 and 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) have this capability. Read more about Safe Attachments and how they can help protect your organization [here](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide).
 
+### Secure Score
+
+Microsoft Secure Score is a measurement of an organization's security posture, with a higher number indicating more improvement actions taken. It can be found in the [Microsoft 365 security center](https://security.microsoft.com/securescore).Following the Secure Score recommendations can protect your organization from threats. From a centralized dashboard in the Microsoft 365 security center, organizations can monitor and work on the security of their Microsoft 365 identities, apps, and devices. Microsoft Teams now has recommendations on Secure Score and administrators are encouraged to monitor their security stance on the platform.
+
+Secure Score helps organizations:
+- Report on the current state of the organization's security posture.
+- Improve their security posture by providing discoverability, visibility, guidance, and control.
+- Compare with benchmarks and establish key performance indicators (KPIs).
+
+
 ### How Conditional Access policies work for Teams
 
 Microsoft Teams relies heavily on Exchange Online, SharePoint, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
