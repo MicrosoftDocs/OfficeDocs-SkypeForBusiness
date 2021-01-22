@@ -2,13 +2,14 @@
 title: Security guide for Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
+ms.keywords: "Microsoft Teams", "Teams encryption", "Teams security", "Teams authentication", "Threats to Teams meetings", "anonymous users", "guest users", "external users", "federated users", "Teams bombing", "remote users"
 manager: dansimp
-ms.date: 10/15/2020
+ms.date: 22/01/2021
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Security advice and learnings for IT admins in installing, configuring and maintaining Microsoft Teams.
+description: Security advice and advanced learnings for ITAdmins in installing, configuring and maintaining Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -36,6 +37,12 @@ Teams is designed and developed in compliance with the Microsoft Trustworthy Com
 ## Trustworthy by Default
 
 Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), all Teams data is protected on the network.
+
+> [!NOTE]
+> Microsoft Teams now has recommendations in [Microsoft Secure Score](https://docs.microsoft.com/en-us/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide) where administrators can monitor their security stance. Microsoft Secure Score measures an organization's security posture regarding Microsoft 365 identities, apps, devices, and more. A higher score indicates that more improvement actions have been taken. Following Secure Score recommendations can protect your organization against threats. Secure Score helps organizations to:
+> - Report on the current state of the organization's security posture.
+> - Improve their security posture by providing discoverability, visibility, guidance, and control.
+> - Compare with benchmarks and establish key performance indicators (KPIs).
 
 ## How Teams Handles Common Security Threats
 
@@ -298,8 +305,8 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementing VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementing VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 [Meeting recordings in Teams, where recordings are stored, and who can access them](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
