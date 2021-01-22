@@ -18,6 +18,7 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - m365initiative-lists
 appliesto: 
   - Microsoft Teams
 ms.custom: 
