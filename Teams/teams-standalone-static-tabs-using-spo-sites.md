@@ -42,7 +42,7 @@ Before you begin:
    Example *URLs*:
    
    - `https://contoso.sharepoint.com/teams/Contoso`
-      *or*
+      <br/>*or*
    - `https://contoso.sharepoint.com/sites/Contoso`
 		
 4. Also, **{{sitePath}}** will be used to denote the *path* of the URL (ex: /teams/Contoso).
@@ -50,7 +50,7 @@ Before you begin:
    Example *paths*:
    
    - /teams/Contoso
-     *or*
+     <br/>*or*
    - /sites/Contoso
 
 Begin by following the steps below:
@@ -80,7 +80,8 @@ Begin by following the steps below:
     - **websiteUrl**: {{siteUrl}}
 
       Example **contentURL**:
-	  `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
+	  
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
 
@@ -90,11 +91,11 @@ Begin by following the steps below:
 
     Example:
 	
-    **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
+    - **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
 	
-    **Resource Url**: {{subdomain}}.sharepoint.com
+    - **Resource Url**: {{subdomain}}.sharepoint.com
 
-    ![Web app single sign-on, with ID and URL.](media/personal-app.png)
+      ![Web app single sign-on, with ID and URL.](media/personal-app.png)
 
 13. **Save** these properties and then navigate to **Test and distribute**.
 
