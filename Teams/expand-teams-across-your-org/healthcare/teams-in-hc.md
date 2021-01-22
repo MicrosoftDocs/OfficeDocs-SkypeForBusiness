@@ -20,7 +20,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Learn about health care features like Microsoft Teams telehealth, EHR integration, firstline worker system integration, and the Patients app.
+description: Learn about health care features like Microsoft Teams telehealth, EHR integration, Frontline worker system integration, and the Patients app.
 ms.custom: 
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -130,8 +130,8 @@ Use [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-
 
 You can allow the Approvals app for your organization and add it to your teams. To learn more about managing apps, see [Manage your apps in the Microsoft Teams admin center](../../manage-apps.md).
 
-### Create, manage, and share schedules with the Shifts app and Firstline Worker integration
+### Create, manage, and share schedules with the Shifts app and Frontline Worker integration
 
-Microsoft Teams integrates with the Shifts app and Firstline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, Nurse managers can set up and coordinate schedules for their staff, and nurses can check schedules and swap shifts. Teams includes a built-in Firstline Worker app setup policy that you can assign to Firstline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
+Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, Nurse managers can set up and coordinate schedules for their staff, and nurses can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
 
 To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).

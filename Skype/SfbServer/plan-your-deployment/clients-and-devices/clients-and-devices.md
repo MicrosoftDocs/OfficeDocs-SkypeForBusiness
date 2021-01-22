@@ -1,7 +1,7 @@
 ---
 title: "Plan for clients and devices"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
