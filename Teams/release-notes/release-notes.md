@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## January 22, 2021
+
+### Firstline Workers are now called Frontline Workers
+
+We've changed the title of Firstline Workers to Frontline Workers.
+
 ## January 21, 2021
 
 ### Offline documentation
