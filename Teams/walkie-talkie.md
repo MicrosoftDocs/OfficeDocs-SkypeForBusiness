@@ -24,7 +24,7 @@ appliesto:
 
 The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is now available on Android. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other using push-to-talk, one at a time.
 
-With Walkie Talkie in Teams, firstline workers can now securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
+With Walkie Talkie in Teams, Frontline workers can now securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
 ## Getting started
 
@@ -68,7 +68,7 @@ Expected data usage from Walkie Talkie is around 20KB/s when sending or receivin
 
 ### Walkie Talkie devices
 
-FirstLine workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
+Frontline workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
 
 - Headsets
   - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
@@ -91,7 +91,7 @@ Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subsc
 ## Further information
 
 - ITAdmins can maintain control over who is using Walkie Talkie through App Policies.
-- If your firstline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
+- If your Frontline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie will not work when there is no connectivity at all.
 
 For further reading on the end-user experience, see:
