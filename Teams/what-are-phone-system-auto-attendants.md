@@ -92,6 +92,7 @@ There is no limit on the number of Active Directory users  Dial by Name and Dial
 > If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using Dial Scope feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
   
 ### Dial by Name - Keypad (DTMF) entry
+
 People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. There are various formats that can be used when the name is entered.
 
 When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
@@ -140,7 +141,7 @@ Callers can say names in the following formats:
 
 The following languages are available for text-to-speech used with outgoing prompts:
   
-||||
+|A-E|E-J|K-Z|
 |:-----|:-----|:-----|
 |Arabic (EG)  |English (NZ)  |Korean (KO)  |
 |Chinese (HK)  |English (UK) |Norwegian (NO)  |
@@ -154,7 +155,7 @@ The following languages are available for text-to-speech used with outgoing prom
 
 Speech recognition input for auto attendants is available in the following languages:
   
-|||
+|A-F|F-Z|
 |:-----|:-----|
 |Chinese (ZH)  |French (FR)  |
 |English (AU)  |German (DE)  |
@@ -243,5 +244,3 @@ To assign a service number, you will need to get or port your existing toll or t
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)
