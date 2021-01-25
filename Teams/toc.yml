@@ -1251,41 +1251,34 @@
           href: manage-policy-packages.md
    - name: Communicate with external users
      items: 
-        - name: Communicate with users from other organizations
-          href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
-          items: 
-            - name: Manage external access
-              href: manage-external-access.md
-            - name: Native Teams chat for external users
-              href: native-chat-for-external-users.md
-            - name: Teams and Skype interoperability
-              href: teams-skype-interop.md
-        - name: Guest access
-          items: 
-            - name: About guest access
-              href: guest-access.md
-            - name: Guest access checklist
-              href: https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team
-            - name: Guest experience
-              href: guest-experience.md
-            - name: Authorize guest access
-              href: teams-dependencies.md
-            - name: Turn guest access on or turn off
-              href: set-up-guests.md
-            - name: Add a guest to a team
-              href: add-guests.md
-            - name: View guest users in a team
-              href: view-guests.md
-            - name: Edit guest user information
-              href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
-
-    
-
-    
- 
+       - name: Communicate with users from other organizations
+         href: communicate-with-users-from-other-organizations.md
+       - name: External access (federation)
+         items: 
+           - name: Manage external access
+             href: manage-external-access.md
+           - name: Native Teams chat for external users
+             href: native-chat-for-external-users.md
+           - name: Teams and Skype interoperability
+             href: teams-skype-interop.md
+       - name: Guest access
+         items: 
+           - name: About guest access
+             href: guest-access.md
+           - name: Guest access checklist
+             href: https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team
+           - name: Guest experience
+             href: guest-experience.md
+           - name: Authorize guest access
+             href: teams-dependencies.md
+           - name: Turn guest access on or turn off
+             href: set-up-guests.md
+           - name: Add a guest to a team
+             href: view-guests.md
+           - name: Edit guest user information
+             href: edit-guests-information.md
+           - name: Troubleshoot guest access
+             href: troubleshoot-guest-access.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
