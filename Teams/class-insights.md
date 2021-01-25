@@ -89,7 +89,16 @@ For example, a principal sees only the classes in their school, or the head of a
 The student data is aggregated at the class, department, school, and district level, and we provide insights at each level (based on the permission of each user)
 Both educators and education leaders can zoom in and see the data for individual students.
 
+**To add the Insights app in Teams:**
+* Click “**…**” on the app bar.
+* Search for **Insights** and select it.
+* A description screen will open. Click **Add**.
+
 :::image type="content" source="media/Insights_add_personal_app.png" alt-text="Add Insights to Teams":::
+
+* Right click on the Insights icon and select **Pin**.
+
+:::image type="content" source="media/Insights_pin_the_app.png" alt-text="Pin the Insights app":::
 
 ## When is Insights used? 
 Insights supports learning communities throughout **the learning cycle**. With real-time metrics across multiple dimensions, Insights supports a continuous cycle of identification, reflection, discussion, and taking action amongst members of the school community.
@@ -114,10 +123,10 @@ Currently, data is collected from the following areas in class teams:
 
 | Teams component	| Data collected |
 |-------------------|-----------------------------|
-| *Assignments* |	Opening, turning in, and grade on assignments.|
-| *Channel engagement* |	Visiting a channel, creating a post, replying to and liking a post (not including chat content).|
-| *Files* |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
-| *Meetings* |	Attendance (not including meeting content).|
+| **Assignments** |	Opening, turning in, and grade on assignments.|
+| **Channel engagement** |	Visiting a channel, creating a post, replying to and liking a post (not including chat content).|
+| **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
+| **Meetings** |	Attendance (not including meeting content).|
 
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
@@ -156,7 +165,7 @@ Insights has been designed to support both students and educators in the digital
 ### Licensing
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
 
-## SIS integration
+## Student Information System (SIS) integration
 The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.
 
 To provide organization-level Insights, we must use [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
@@ -202,7 +211,7 @@ School Data Sync (SDS) helps automate the import and synchronization of the Stud
 
 The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. Open the SDS Admin Center and go to **Settings** > **Manage Education Insights**. Turn off '**Collect data for Insights**' to disable Insights. 
 
-:::image type="content" source="media/class-insights-on-off.png" alt-text="The on-off switch to enable or disable Insights.":::
+:::image type="content" source="media/Insights_SDS_settings.png" alt-text="The on-off switch to enable or disable Insights.":::
 
 ### Turn Insights on
 If you turned off Insights, you can quickly turn it on. Open the SDS Admin Center and go to **Settings** > **Manage Education Insights**. Turn on '**Collect data for Insights**' to enable Insights
