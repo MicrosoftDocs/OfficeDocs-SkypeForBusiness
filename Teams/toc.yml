@@ -1224,18 +1224,15 @@
       href: manage-teams-overview.md
     - name: Administrator roles
       href: using-admin-roles.md
-    - name: Manage Teams settings for your organization
-      href: enable-features-office-365.md
     - name: Manage Teams during the transition to the new Microsoft Teams admin center
       href: manage-teams-skypeforbusiness-admin-center.md
     - name: Manage Teams in the Microsoft Teams admin center
       href: manage-teams-in-modern-portal.md
+    - name: Manage Teams settings for your organization
+      href: enable-features-office-365.md
     - name: Assign team owners and members in Teams
       href: assign-roles-permissions.md
-    - name: Operate your service
-      href: upgrade-operate-my-service.md
-    - name: Enhance your service
-      href: upgrade-enhance-my-service.md
+
     - name: Manage policies
       items:
         - name: Assign policies to your users
@@ -1252,14 +1249,42 @@
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
           href: manage-policy-packages.md
-    - name: Configure the Skype Meetings App to work with Teams
-      href: configure-skype-meetings-app-to-work-with-teams.md
-    - name: Manage external access
-      href: manage-external-access.md
-    - name: Use inline message translation
-      href: inline-message-translation-teams.md
-    - name: Use Microsoft Teams scoped directory search
-      href: teams-scoped-directory-search.md
+   - name: Communicate with external users
+     items: 
+        - name: Communicate with users from other organizations
+          href: communicate-with-users-from-other-organizations.md
+        - name: External access (federation)
+          items: 
+            - name: Manage external access
+              href: manage-external-access.md
+            - name: Native Teams chat for external users
+              href: native-chat-for-external-users.md
+            - name: Teams and Skype interoperability
+              href: teams-skype-interop.md
+        - name: Guest access
+          items: 
+            - name: About guest access
+              href: guest-access.md
+            - name: Guest access checklist
+              href: https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team
+            - name: Guest experience
+              href: guest-experience.md
+            - name: Authorize guest access
+              href: teams-dependencies.md
+            - name: Turn guest access on or turn off
+              href: set-up-guests.md
+            - name: Add a guest to a team
+              href: add-guests.md
+            - name: View guest users in a team
+              href: view-guests.md
+            - name: Edit guest user information
+              href: edit-guests-information.md
+            - name: Troubleshoot guest access
+              href: troubleshoot-guest-access.md
+
+    
+
+    
  
     - name: Monitor and manage call quality
       items: 
@@ -1307,8 +1332,14 @@
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+
+    - name: Operate your service
+      href: upgrade-operate-my-service.md
+    - name: Enhance your service
+      href: upgrade-enhance-my-service.md
+              
     - name: Reports
-    - items:
+      items:
         - name: Activity reports in the Microsoft 365 admin center
           href: teams-activity-reports.md
         - name: Analytics and reports in the Teams admin center
@@ -1332,7 +1363,7 @@
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
           
-
+-
     - name: Troubleshoot
       href: https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams
       items:
@@ -1350,6 +1381,14 @@
           href: service-health.md
         - name: Contact support for business products - Admin Help
           href: https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products
+    - name: Reference
+      items:
+        - name: Configure the Skype Meetings App to work with Teams
+          href: configure-skype-meetings-app-to-work-with-teams.md 
+        - name: Use inline message translation
+          href: inline-message-translation-teams.md
+        - name: Use Microsoft Teams scoped directory search
+          href: teams-scoped-directory-search.md
 
 - name: Reference
   items: 
