@@ -1218,7 +1218,7 @@
           href: teams-privacy-oce-overview.md
 
 
-- name: Manage, monitor, and troubleshoot
+- name: Manage, monitor, and troubleshoot (Test)
   items: 
     - name: Overview
       href: manage-teams-overview.md
@@ -1356,7 +1356,7 @@
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
               
-    - name: Troubleshoot
+    - name: Troubleshoot 
       href: https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams
       items:
         - name: Troubleshoot installation and update issues
