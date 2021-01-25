@@ -96,7 +96,8 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 4. Click **Save**.
 
-> [!NOTE] To see a service number listed in the **Assigned phone number** box, buy a Phone System or get a Phone System - Virtual user license and make sure it's not assigned to any other voice services. [Learn more](https://docs.microsoft.com/microsoftteams/office-365-licensing?WT.mc_id=TeamsAdminCenterCSH). If the service number is still not listed in the dropdown, use the [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance) cmdlet to assign the number to the resource account.
+> [!NOTE]
+> To see a service number listed in the **Assigned phone number** box, buy a Phone System or get a Phone System - Virtual User license and make sure it's not assigned to any other voice services. To learn more, see [Microsoft Teams service description](https://docs.microsoft.com/microsoftteams/office-365-licensing?WT.mc_id=TeamsAdminCenterCSH). If the service number is still not listed in the dropdown, use the [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance) cmdlet to assign the number to the resource account.
 
 To assign a direct routing or hybrid number to a resource account you need to use PowerShell:
 
