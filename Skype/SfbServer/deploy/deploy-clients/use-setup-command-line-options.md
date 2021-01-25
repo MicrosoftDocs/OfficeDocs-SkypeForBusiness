@@ -1,8 +1,8 @@
 ---
 title: "Use Setup command-line options with Skype for Business clients"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: Manage teams and channel policies
       href: teams-policies.md
-    - name: Sensitivity labels for Teams
-      href: sensitivity-labels.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
     - name: Sharing files in Teams
@@ -256,6 +254,8 @@
               href: rooms/rooms-prep.md
             - name: Requirements
               href: rooms/requirements.md
+            - name: Security
+              href: rooms/security.md
             - name: Online Licensing
               href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: Configure a console
               href: rooms/console.md
+            - name: Manually update a device
+              href: rooms/manual-update.md
             - name: Configure authentication
               href: rooms/rooms-authentication.md
             - name: Join third-party meetings
@@ -352,6 +354,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Manage the Whiteboard in Teams
       href: manage-whiteboard.md
+    - name: Set up Teams meeting add-on for Google Workspace
+      href: google-workspace-addon-teams.md
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -1071,14 +1075,10 @@
           href: business-voice/policy-packages.md
         - name: Create additional users
           href: business-voice/create-users.md
-        - name: Example - Set up a call queue
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Set up call queues
-          href: business-voice/set-up-call-queues.md
-        - name: Example - Set up an auto attendant
-          href: tutorial-org-aa.yml
-        - name: Set up auto attendants
-          href: business-voice/set-up-auto-attendants.md
+        - name: Set up a call queue
+          href: business-voice/create-a-phone-system-call-queue-smb.md
+        - name: Set up an auto attendant
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
     - name: Manage your setup
       items: 
         - name: Create one or more users
@@ -1153,6 +1153,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: Low bandwidth guidance for Education admins
           href: edu-remote-low-bandwidth.md
+        - name: Teams for education policy wizard
+          href: easy-policy-setup-edu.md
         - name: Get started with Insights
           href: class-insights.md
         - name: Assignments in Teams for Education
@@ -1167,13 +1169,13 @@
           href: teams-edu-licensing.md
         - name: Education SKU reference
           href: sku-reference-edu.md
-    - name: Teams for Firstline Workers
+    - name: Teams for Frontline Workers
       items: 
-        - name: Quickstart for Firstline Workers
-          href: firstline-workers-quickstart.yml
-        - name: Firstline workers scripted deployment
+        - name: Quickstart for Frontline Workers
+          href: flw-quickstart.yml
+        - name: Frontline workers scripted deployment
           href: flw-scripted-deployment.md
-        - name: Manage shift-based access for FirstLine Workers
+        - name: Manage shift-based access for Frontline Workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear for Microsoft Teams
           href: flw-realwear.md
@@ -1237,6 +1239,8 @@
           href: communication-compliance.md
         - name: Policy-based recording for callings & meetings
           href: teams-recording-policy.md
+        - name: Sensitivity labels
+          href: sensitivity-labels.md
         - name: Data Loss Prevention
           href: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: eDiscovery
@@ -1247,6 +1251,8 @@
           href: content-search.md
         - name: Auditing
           href: audit-log-events.md
+        - name: Customer key at the tenant level for Teams
+          href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
