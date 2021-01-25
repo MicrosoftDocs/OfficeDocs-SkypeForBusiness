@@ -549,6 +549,9 @@ To specify whether users can customize their video background in a meeting, set 
 > [!NOTE]
 > These features are not available for all Teams clients. For more information, see the _Video and backgrounds_ title in [Meetings and live events](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e).
 
+## Meeting policy settings - meeting reactions
+
+
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
