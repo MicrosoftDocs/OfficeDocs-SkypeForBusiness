@@ -63,7 +63,7 @@ Currently, you can add connectors by using Microsoft Teams desktop and web clien
 > 2. For incoming webhook connectors, users can recreate connection by simply tapping Update URL and use the newly generated webhook URL.
 > ![Screenshot of the "Update URL" button.](media/Teams_update_URL_button.png)
 > 3. For other Connector types, user would need to remove the Connector and re-create the connector configuration.
-> 4. You will see a message "URL is up-to-date" upon successful updation of URL.
+> 4. You will see a message "URL is up-to-date" after the URL has been successfully updated.
 > ![Screenshot of the "URL is up-to-date" message.](media/Teams_URL_up_to_date.png)
 
 
