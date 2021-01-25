@@ -33,8 +33,8 @@ Insights works best when using [SDS V2 file format](https://docs.microsoft.com/s
 ### Differences between SDS V1 and V2 file formats
 | Data type |	V1 | V2 (recommended) |
 |:--- |:--- |:--- |
-| **Users** | The V1 format contains **only teachers**, so to set org-level permissions for your education leaders, you need to search for them and define each one's permission manually. | The V2 format contains **all the roles** so that you can assign role-based permissions. |
-| **Orgs** | The V1 format contains **only schools**, so you see only one aggregation level (all your schools). You can zoom in to a specific school using a flat list, but this list may have a large number of schools or contain different types of schools that are hard to compare (such as primary to secondary school or science to art school).<br/><br/> When there is a hierarchy in place, you can create levels that make sense, such as a science or art department.| The V2 format contains **the full hierarchy of your district or institution**.<br/><br/> With a hierarchy, you can see relevant aggregation by each level of the hierarchy, quickly compare between organizational units at each level, assign permission to specific levels, set goals by org level, and so on.|
+| **Users** | The V1 format contains **only educators**, so to set org-level permissions for your education leaders, you need to search for them and define each one's permission manually. | The V2 format contains **all the roles** so that you can assign role-based permissions. |
+| **Orgs** | The V1 format contains **only schools**, so you see only one aggregation level (all your schools). You can zoom in to a specific school using a flat list, but this list may have a large number of schools or contain different types of schools that are hard to compare (such as primary to secondary school or science to art school).<br/><br/> When there is a hierarchy in place, you can create levels that make sense, such as a science or art department.| The V2 format contains **the full hierarchy of your district or institution**, including universities, colleges, faculties, campuses, regions, programs and so on.<br/><br/> With a hierarchy, you can see relevant aggregation by each level of the hierarchy, quickly compare between organizational units at each level, assign permission to specific levels, set goals by org level, and so on.|
 
 ### Type of data required
 The following table provides the type of data required to get the best out of Insights.
@@ -56,7 +56,7 @@ Here are some best practices based to ensure the smooth deployment of SDS so tha
 
 ### Users
 *	Make sure *all users* are listed in the files you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.<br/>
-If you currently only have teachers listed in the SIS, add the other users manually before uploading the files to SIS and syncing the data.<br/>
+If you currently only have educators listed in the SIS, add the other users manually before uploading the files to SIS and syncing the data.<br/>
 If some students are missing, the stats gathered by Insights is only from the registered students, and that will make the data and conclusions misleading.<br/>
 *	Make sure to *provide the first and last name of each user*. If not, they are referenced by their email address, and this provides a less than positive experience in the reports and spotlights (cards with Insights on student activity or performance).
 *	The *grade/year level must be input as 2 digits* (for example, 07 for Year 7). Check out the [mapping list](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported). 
