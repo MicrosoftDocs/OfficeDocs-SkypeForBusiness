@@ -1309,28 +1309,29 @@
               href: QoS-in-Teams-clients.md
     - name: Reports
     - items:
+        - name: Activity reports in the Microsoft 365 admin center
+          href: teams-activity-reports.md
         - name: Analytics and reports in the Teams admin center
           items: 
-        - name: Overview
-          href: teams-analytics-and-reports/teams-reporting-reference.md
-        - name: Teams usage report
-          href: teams-analytics-and-reports/teams-usage-report.md
-        - name: Teams user activity report
-          href: teams-analytics-and-reports/user-activity-report.md
-        - name: Teams app usage report
-          href: teams-analytics-and-reports/app-usage-report.md
-        - name: Teams device usage report
-          href: teams-analytics-and-reports/device-usage-report.md
-        - name: PSTN blocked users report
-          href: teams-analytics-and-reports/pstn-blocked-users-report.md
-        - name: PSTN minute pools report
-          href: teams-analytics-and-reports/pstn-minute-pools-report.md
-        - name: PSTN usage report
-          href: teams-analytics-and-reports/pstn-usage-report.md
-        - name: Teams live event usage report
-          href: teams-analytics-and-reports/teams-live-event-usage-report.md
-        - name: Teams activity reports in the Microsoft 365 admin center
-          href: teams-activity-reports.md
+            - name: Overview
+              href: teams-analytics-and-reports/teams-reporting-reference.md
+            - name: Teams usage report
+              href: teams-analytics-and-reports/teams-usage-report.md
+            - name: Teams user activity report
+              href: teams-analytics-and-reports/user-activity-report.md
+            - name: Teams app usage report
+              href: teams-analytics-and-reports/app-usage-report.md
+            - name: Teams device usage report
+              href: teams-analytics-and-reports/device-usage-report.md
+            - name: PSTN blocked users report
+              href: teams-analytics-and-reports/pstn-blocked-users-report.md
+            - name: PSTN minute pools report
+              href: teams-analytics-and-reports/pstn-minute-pools-report.md
+            - name: PSTN usage report
+              href: teams-analytics-and-reports/pstn-usage-report.md
+            - name: Teams live event usage report
+              href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          
 
     - name: Troubleshoot
       href: https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams
