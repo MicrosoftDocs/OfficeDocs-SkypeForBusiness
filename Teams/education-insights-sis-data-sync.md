@@ -31,6 +31,7 @@ The SIS data provides the hierarchical structure of the educational system and m
 Insights works best when using [SDS V2 file format](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format) but also supports [SDS V1 file format](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds) with *limited* functionality.
 
 ### Differences between SDS V1 and V2 file formats
+
 | Data type |	V1 | V2 (recommended) |
 |:--- |:--- |:--- |
 | **Users** | The V1 format contains **only educators**, so to set org-level permissions for your education leaders, you need to search for them and define each one's permission manually. | The V2 format contains **all the roles** so that you can assign role-based permissions. |
@@ -38,6 +39,7 @@ Insights works best when using [SDS V2 file format](https://docs.microsoft.com/s
 
 ### Type of data required
 The following table provides the type of data required to get the best out of Insights.
+
 | Data type | Examples for what you need to provide|Why it's important?|
 |:--- |:--- |:--- |
 | **Users** |	Role (such as student)<br/> Grade/Year level (such as 10)<br/> Org (name) | When we correctly assign each person to their role, grade/year level, and organization, we can ensure that the summaries and aggregations are correct.|
@@ -56,31 +58,45 @@ Here are some best practices based to ensure the smooth deployment of SDS so tha
 
 ### Users
 *	Make sure *all users* are listed in the files you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.<br/>
-If you currently only have educators listed in the SIS, add the other users manually before uploading the files to SIS and syncing the data.<br/>
-If some students are missing, the stats gathered by Insights is only from the registered students, and that will make the data and conclusions misleading.<br/>
+If you currently only have educators listed in the SIS, add the other users manually before uploading the files to SIS and syncing the data.
+
+    If some students are missing, the stats gathered by Insights is only from the registered students, and that will make the data and conclusions misleading.
+	
 *	Make sure to *provide the first and last name of each user*. If not, they are referenced by their email address, and this provides a less than positive experience in the reports and spotlights (cards with Insights on student activity or performance).
+
 *	The *grade/year level must be input as 2 digits* (for example, 07 for Year 7). Check out the [mapping list](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported). 
-*	It’s important to *add the year/grade level to all students* so that a grade/year level can filter the data.    
+
+*	It's important to *add the year/grade level to all students* so that a grade/year level can filter the data.    
+
 *	Make sure to *assign each user to their relevant organizational unit*. In this way, we won't show misleading data in our spotlights based on aggregated data for each unit.
+
     *	A student can be associated with more than one org unit, for example, students who are registered in a special program or two faculties. In such a case, provide two lines in the users file for that student – one for each organization.
+	
     *	Based on the org unit for staff, you will be able to define the relevant permissions. Make sure they are associated with the correct unit level, so they receive the permissions they need. For example, a counselor assigned to four schools needs to see all the classes in these schools; a principal needs to see all the classes in their school. 
+	
 *	The role is vital. Although this is a closed list, try to match the role from [the list](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) to the real role of each user you upload. In this way, you can assign role-based permissions accordingly. For example, provide permissions for all principals to see the classes in their school, or for all professors to see their faculty. 
 
 ### Organizations
+
 * Make sure to *reflect the real hierarchy of your organization*. This can be achieved by manually adding the file. In some cases, this hierarchy is not reflected in the SIS. Still, it may be necessary here to see the relevant aggregation by each level of the hierarchy, assign permission to specific levels, set goals by org level, and so on. 
+
 * Ensure that *all org units down the org tree include students or classes* to aggregate student data for them. We recommend that students are on the lowest branch of the tree.
 
 > [!NOTE]
 > For more details about SDS deployment, visit [Planning SDS](https://docs.microsoft.com/schooldatasync/planning-school-data-sync).
 
 ## Integrate SIS using SDS
+
 School Data Sync (SDS) is provided with Office 365 for Education. SDS reads the data from an educational institution's Student Information System (SIS) and integrates it with Teams to enable the automatic creation of online classrooms and users.
 
 It also synchronizes the SIS data with Insights.
 
 ### Sync with Insights
+
 First, you need to turn the Insights toggle on to start the sync process.
-* On the [**SDS portal**](https://sds.microsoft.com), go to **Settings**, scroll down to **Collect data for Insights** and check that it’s enabled (it’s turned *on* by default).
+
+* On the [**SDS portal**](https://sds.microsoft.com), go to **Settings**, scroll down to **Collect data for Insights** and check that it's enabled (it's turned *on* by default).
+
 * Scroll down to the next switch, **Sync organizational data from SDS (preview)**, and turn on.
 
 If you do not see the option for *Sync organizational data from SDS (preview)* on the Settings page, go to the [sign-up page](https://aka.ms/insights/join) to provide your information, and a team member will reach out to you.
@@ -103,7 +119,9 @@ During the deployment process, you can decide if you want to use SDS for provisi
 A new status area appears next to Sync organizational data – Preview on the Settings page.
  
 *	If the status is **In progress**, please wait up to 24 hours after deployment of the SDS profile.
+
 *	If the status is **Completed**, congratulations, you can see Insights at the organizational level, and continue to the next step.
+
 *	If the status is **Completed with errors**, **Completed with warnings**, or **Aborted**, download the log file that contains the errors and warnings for the latest sync and check if you can fix these errors. 
 
 > [!IMPORTANT]
