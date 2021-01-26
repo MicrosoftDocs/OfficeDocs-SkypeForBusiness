@@ -62,8 +62,7 @@ The following tables show the differences between using federation and guests. I
 | Share files | No | Yes |
 | See the out of office message of | No | Yes |
 | Block someone in another organization someone in another organization | No | Yes |
-| Use @mentions | Yes<sup>4</sup> | Yes |
-||||
+| Use @mentions | Yes<sup>3</sup> | Yes |
 
 ### Things people outside your organization can do
 
@@ -72,27 +71,26 @@ The following tables show the differences between using federation and guests. I
 | Access Teams resources | No | Yes |
 | Be added to a group chat | No | Yes |
 | Be invited to a meeting | Yes | Yes |
-| Make private calls | Yes | Yes<sup>6</sup> |
-| View the phone number for dial-in meeting participants | No<sup>5</sup> | Yes |
-| Use IP video | Yes | Yes<sup>6</sup> |
-| Use screen sharing | Yes<sup>4</sup> | Yes<sup>6</sup> |
-| Use meet now | No | Yes<sup>6</sup> |
-| Edit sent messages | Yes<sup>4</sup> | Yes<sup>6</sup> |
-| Delete sent messages | Yes<sup>4</sup> | Yes<sup>6</sup> |
-| Use Giphy in conversation | Yes<sup>4</sup> | Yes<sup>6</sup> |
-| Use memes in conversation | Yes<sup>4</sup> | Yes<sup>6</sup> |
-| Use stickers in conversation | Yes<sup>4</sup> | Yes<sup>6</sup> |
+| Make private calls | Yes | Yes<sup>5</sup> |
+| View the phone number for dial-in meeting participants | No<sup>4</sup> | Yes |
+| Use IP video | Yes | Yes<sup>5</sup> |
+| Use screen sharing | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use meet now | No | Yes<sup>5</sup> |
+| Edit sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Delete sent messages | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use Giphy in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use memes in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
+| Use stickers in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Presence is displayed | Yes | Yes |
-| Additional users can be added to a chat with an external user | No<sup>3</sup> | N/A |
-| Use @mentions | Yes<sup>4</sup> | Yes |
+| Use @mentions | Yes<sup>3</sup> | Yes |
 
+<br>
 
 <sup>1</sup> Provided that the user has been added as a guest and is signed with the guest account.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
-<sup>3</sup> External (federated) chat is 1:1 only.<br>
-<sup>4</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
-<sup>5</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
-<sup>6</sup> Allowed by default, but can be turned off by the Teams admin
+<sup>3</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+<sup>5</sup> Allowed by default, but can be turned off by the Teams admin
 
 ## Related topics
 
