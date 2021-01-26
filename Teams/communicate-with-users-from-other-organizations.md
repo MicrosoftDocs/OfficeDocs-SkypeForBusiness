@@ -89,7 +89,7 @@ The following tables show the differences between using federation and guests. I
 <sup>1</sup> Provided that the user has been added as a guest and is signed with the guest account.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
-<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Allowed by default, but can be turned off by the Teams admin
 
 ## Related topics
