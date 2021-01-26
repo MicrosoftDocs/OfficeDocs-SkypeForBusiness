@@ -94,6 +94,149 @@
         - name: Optional connected experiences
           href: teams-privacy-oce-overview.md
 
+- name: Manage and monitor
+  items: 
+    - name: Overview
+      href: manage-teams-overview.md
+    - name: Administrator roles
+      href: using-admin-roles.md
+    - name: Manage Teams during the transition to the new Microsoft Teams admin center
+      href: manage-teams-skypeforbusiness-admin-center.md
+    - name: Manage Teams in the Microsoft Teams admin center
+      href: manage-teams-in-modern-portal.md
+    - name: Manage Teams settings for your organization
+      href: enable-features-office-365.md
+
+    - name: Manage policies
+      items:
+        - name: Assign policies to your users
+          href: assign-policies.md
+        - name: View your policy assignments in the Activity log
+          href: activity-log.md
+        - name: Manage app permission policies in Teams
+          href: teams-app-permission-policies.md
+        - name: Manage app setup policies in Teams
+          href: teams-app-setup-policies.md
+        - name: Manage custom app policies and settings in Teams
+          href: teams-custom-app-policies-and-settings.md
+        - name: Manage feedback policies in Teams
+          href: manage-feedback-policies-in-teams.md
+        - name: Manage policy packages in Teams
+          href: manage-policy-packages.md
+    - name: Communicate with external users
+      items: 
+        - name: Communicate with users from other organizations
+          href: communicate-with-users-from-other-organizations.md
+        - name: External access (federation)
+          items: 
+            - name: Manage external access
+              href: manage-external-access.md
+            - name: Native Teams chat for external users
+              href: native-chat-for-external-users.md
+            - name: Teams and Skype interoperability
+              href: teams-skype-interop.md
+        - name: Guest access
+          items: 
+            - name: About guest access
+              href: guest-access.md
+            - name: Guest access checklist
+              href: https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team
+            - name: Guest experience
+              href: guest-experience.md
+            - name: Authorize guest access
+              href: teams-dependencies.md
+            - name: Turn guest access on or turn off
+              href: set-up-guests.md
+            - name: Add a guest to a team
+              href: view-guests.md
+            - name: Edit guest user information
+              href: edit-guests-information.md
+            - name: Troubleshoot guest access
+              href: troubleshoot-guest-access.md
+    - name: Monitor and manage call quality
+      items: 
+        - name: Monitor and improve call quality
+          href: monitor-call-quality-qos.md
+        - name: Call Quality Dashboard (CQD)
+          items: 
+            - name: What is CQD?
+              href: CQD-what-is-call-quality-dashboard.md
+            - name: Set up CQD
+              href: turning-on-and-using-call-quality-dashboard.md
+            - name: Upload tenant and building data
+              href: CQD-upload-tenant-building-data.md
+            - name: CQD data and reports
+              href: CQD-data-and-reports.md
+            - name: Use CQD to manage call and meeting quality
+              href: quality-of-experience-review-guide.md
+            - name: Frequently asked questions
+              href: CQD-frequently-asked-questions.md
+            - name: Dimensions and measures available in CQD
+              href: dimensions-and-measures-available-in-call-quality-dashboard.md
+            - name: Stream Classification in CQD
+              href: stream-classification-in-call-quality-dashboard.md
+            - name: Create a building map
+              href: CQD-building-mapping.md
+            - name: Use Power BI to analyze CQD data
+              items: 
+                - name: Use Power BI to analyze CQD data
+                  href: CQD-Power-BI-query-templates.md
+                - name: Install Power BI Connector to use CQD query templates
+                  href: CQD-Power-BI-connector.md
+                - name: Get CQD data on Teams utilization
+                  href: CQD-teams-utilization-report.md
+                - name: Use the CQD PSTN Direct Routing report
+                  href: CQD-PSTN-report.md
+        - name: Call Analytics
+          items: 
+            - name: Set up call analytics
+              href: set-up-call-analytics.md
+            - name: Use call analytics to troubleshoot poor call quality
+              href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+        - name: Quality of Service (QoS)
+          items: 
+            - name: Set up QoS in Teams
+              href: QoS-in-Teams.md
+            - name: Set QoS on Windows clients
+              href: QoS-in-Teams-clients.md
+
+    - name: Operate your service
+      href: upgrade-operate-my-service.md
+    - name: Enhance your service
+      href: upgrade-enhance-my-service.md
+    - name: Use inline message translation
+      href: inline-message-translation-teams.md
+    - name: Use Microsoft Teams scoped directory search
+      href: teams-scoped-directory-search.md
+    - name: "FAQ: Support your remote workforce"
+      href: FAQ-support-remote-workforce.md
+              
+    - name: Reports
+      items:
+        - name: Activity reports in the Microsoft 365 admin center
+          href: teams-activity-reports.md
+        - name: Analytics and reports in the Teams admin center
+          items: 
+            - name: Overview
+              href: teams-analytics-and-reports/teams-reporting-reference.md
+            - name: Teams usage report
+              href: teams-analytics-and-reports/teams-usage-report.md
+            - name: Teams user activity report
+              href: teams-analytics-and-reports/user-activity-report.md
+            - name: Teams app usage report
+              href: teams-analytics-and-reports/app-usage-report.md
+            - name: Teams device usage report
+              href: teams-analytics-and-reports/device-usage-report.md
+            - name: PSTN blocked users report
+              href: teams-analytics-and-reports/pstn-blocked-users-report.md
+            - name: PSTN minute pools report
+              href: teams-analytics-and-reports/pstn-minute-pools-report.md
+            - name: PSTN usage report
+              href: teams-analytics-and-reports/pstn-usage-report.md
+            - name: Teams live event usage report
+              href: teams-analytics-and-reports/teams-live-event-usage-report.md
+
+
 - name: Chat, teams, and channels
   items: 
     - name: Plan your deployment
@@ -1111,147 +1254,7 @@
       href: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
 
 
-- name: Manage and maintain
-  items: 
-    - name: Overview
-      href: manage-teams-overview.md
-    - name: Administrator roles
-      href: using-admin-roles.md
-    - name: Manage Teams during the transition to the new Microsoft Teams admin center
-      href: manage-teams-skypeforbusiness-admin-center.md
-    - name: Manage Teams in the Microsoft Teams admin center
-      href: manage-teams-in-modern-portal.md
-    - name: Manage Teams settings for your organization
-      href: enable-features-office-365.md
 
-    - name: Manage policies
-      items:
-        - name: Assign policies to your users
-          href: assign-policies.md
-        - name: View your policy assignments in the Activity log
-          href: activity-log.md
-        - name: Manage app permission policies in Teams
-          href: teams-app-permission-policies.md
-        - name: Manage app setup policies in Teams
-          href: teams-app-setup-policies.md
-        - name: Manage custom app policies and settings in Teams
-          href: teams-custom-app-policies-and-settings.md
-        - name: Manage feedback policies in Teams
-          href: manage-feedback-policies-in-teams.md
-        - name: Manage policy packages in Teams
-          href: manage-policy-packages.md
-    - name: Communicate with external users
-      items: 
-        - name: Communicate with users from other organizations
-          href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
-          items: 
-            - name: Manage external access
-              href: manage-external-access.md
-            - name: Native Teams chat for external users
-              href: native-chat-for-external-users.md
-            - name: Teams and Skype interoperability
-              href: teams-skype-interop.md
-        - name: Guest access
-          items: 
-            - name: About guest access
-              href: guest-access.md
-            - name: Guest access checklist
-              href: https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team
-            - name: Guest experience
-              href: guest-experience.md
-            - name: Authorize guest access
-              href: teams-dependencies.md
-            - name: Turn guest access on or turn off
-              href: set-up-guests.md
-            - name: Add a guest to a team
-              href: view-guests.md
-            - name: Edit guest user information
-              href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
-    - name: Monitor and manage call quality
-      items: 
-        - name: Monitor and improve call quality
-          href: monitor-call-quality-qos.md
-        - name: Call Quality Dashboard (CQD)
-          items: 
-            - name: What is CQD?
-              href: CQD-what-is-call-quality-dashboard.md
-            - name: Set up CQD
-              href: turning-on-and-using-call-quality-dashboard.md
-            - name: Upload tenant and building data
-              href: CQD-upload-tenant-building-data.md
-            - name: CQD data and reports
-              href: CQD-data-and-reports.md
-            - name: Use CQD to manage call and meeting quality
-              href: quality-of-experience-review-guide.md
-            - name: Frequently asked questions
-              href: CQD-frequently-asked-questions.md
-            - name: Dimensions and measures available in CQD
-              href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: Stream Classification in CQD
-              href: stream-classification-in-call-quality-dashboard.md
-            - name: Create a building map
-              href: CQD-building-mapping.md
-            - name: Use Power BI to analyze CQD data
-              items: 
-                - name: Use Power BI to analyze CQD data
-                  href: CQD-Power-BI-query-templates.md
-                - name: Install Power BI Connector to use CQD query templates
-                  href: CQD-Power-BI-connector.md
-                - name: Get CQD data on Teams utilization
-                  href: CQD-teams-utilization-report.md
-                - name: Use the CQD PSTN Direct Routing report
-                  href: CQD-PSTN-report.md
-        - name: Call Analytics
-          items: 
-            - name: Set up call analytics
-              href: set-up-call-analytics.md
-            - name: Use call analytics to troubleshoot poor call quality
-              href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-        - name: Quality of Service (QoS)
-          items: 
-            - name: Set up QoS in Teams
-              href: QoS-in-Teams.md
-            - name: Set QoS on Windows clients
-              href: QoS-in-Teams-clients.md
-
-    - name: Operate your service
-      href: upgrade-operate-my-service.md
-    - name: Enhance your service
-      href: upgrade-enhance-my-service.md
-    - name: Use inline message translation
-      href: inline-message-translation-teams.md
-    - name: Use Microsoft Teams scoped directory search
-      href: teams-scoped-directory-search.md
-    - name: "FAQ: Support your remote workforce"
-      href: FAQ-support-remote-workforce.md
-              
-    - name: Reports
-      items:
-        - name: Activity reports in the Microsoft 365 admin center
-          href: teams-activity-reports.md
-        - name: Analytics and reports in the Teams admin center
-          items: 
-            - name: Overview
-              href: teams-analytics-and-reports/teams-reporting-reference.md
-            - name: Teams usage report
-              href: teams-analytics-and-reports/teams-usage-report.md
-            - name: Teams user activity report
-              href: teams-analytics-and-reports/user-activity-report.md
-            - name: Teams app usage report
-              href: teams-analytics-and-reports/app-usage-report.md
-            - name: Teams device usage report
-              href: teams-analytics-and-reports/device-usage-report.md
-            - name: PSTN blocked users report
-              href: teams-analytics-and-reports/pstn-blocked-users-report.md
-            - name: PSTN minute pools report
-              href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN usage report
-              href: teams-analytics-and-reports/pstn-usage-report.md
-            - name: Teams live event usage report
-              href: teams-analytics-and-reports/teams-live-event-usage-report.md
 
 - name: Industries and government guidance
   items: 
