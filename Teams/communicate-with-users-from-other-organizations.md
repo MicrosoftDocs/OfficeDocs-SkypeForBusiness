@@ -29,11 +29,11 @@ When you need to communicate and collaborate with people outside your organizati
 
 Note that Teams allows you to invite people outside your organization to meetings. This does not require federation or guest access to be configured.
 
-## External access
+## Federation
 
 Use federation when you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business (online or on premises) or Skype. 
 
-Federation is configured using the Teams external access settings. By default, federation is enabled. You can restrict federation by allowing or blocking specific domains or by turning it off.
+Federation is configured using the Teams *external access* settings. By default, federation is enabled for all domains. You can restrict federation by allowing or blocking specific domains or by turning it off.
 
 ![Screenshot of external access settings](media/external-access-federation-settings.png)
 
@@ -43,7 +43,7 @@ To configure federation, see [Manage external access](manage-external-access.md)
 
 Use guest access to add a person from outside your organization to a team, where they can chat, call, meet, and collaborate on files. A guest user can be given nearly all the same Teams capabilities as a native team member.
 
-Guests are added to your organization's Azure Active Directory and must sign in to Teams using their guest account. This means that they may have to sign out of their own organization to sign in to your organization.
+Guests are added to your organization's Azure Active Directory as B2B users and must sign in to Teams using their guest account. This means that they may have to sign out of their own organization to sign in to your organization.
 
 To configure guest access for Teams, see [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
