@@ -55,7 +55,7 @@ You’ll also need information from the following people in your organization:
 
 - Microsoft 365 administrator
 
-- Epic administrator
+- Epic customer analyst
 
 > [!Note]
 > Request your Epic admin to provide the Epic-Microsoft Teams Telehealth Integration Guide available in the Epic marketplace.
@@ -94,7 +94,7 @@ To complete this step, the Microsoft 365 administrator must receive a valid Fast
 The Epic customer analyst for your healthcare organization who was added as an approver must now use the same EHR Connector URL from the previous step to sign in using their Microsoft 365 credentials. After successful validation, the approver is going to be asked to sign in using their Epic credentials to validate the Epic organization.
 
 > [!Note]
-> The Microsoft 365 admin and Epic customer analyst in your organizations can be the same person. In that case, add your own username as approver in the first step. You'll still need to sign in to Epic to validate your access. The Epic signin is only used to validate your FHIR base URL. Microsoft won't store credentials or access EHR data with this signin.
+> The Microsoft 365 admin and Epic customer analyst in your organization can be the same person. In that case, add your own username as approver. You'll still need to sign in to Epic to validate your access. The Epic sign in is only used to validate your FHIR base URL. Microsoft won't store credentials or access EHR data with this sign in.
 
   ![Verify and approve the credential configuration.](../../media/approve-view-configuration.png)
 
