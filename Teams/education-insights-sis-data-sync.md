@@ -85,7 +85,7 @@ First, you need to turn the Insights toggle on to start the sync process.
 
 If you do not see the option for *Sync organizational data from SDS (preview)* on the Settings page, go to the [sign-up page](https://aka.ms/insights/join) to provide your information, and a team member will reach out to you.
 
-:::image type="content" source="media/Insights_SDS_settings.png" alt-text="Sync with Insights toggles":::
+:::image type="content" source="media/insights-sds-settings.png" alt-text="Sync with Insights toggles":::
 
 ### Deploy SDS
 **If you already use SDS**, we recommend you follow our [best practices](#easily-set-up-teams). 

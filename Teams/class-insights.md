@@ -94,11 +94,11 @@ Both educators and education leaders can zoom in and see the data for individual
 * Search for **Insights** and select it.
 * A description screen will open. Click **Add**.
 
-:::image type="content" source="media/Insights_add_personal_app.png" alt-text="Add Insights to Teams":::
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="Add Insights to Teams":::
 
 * Right click on the Insights icon and select **Pin**.
 
-:::image type="content" source="media/Insights_pin_the_app.png" alt-text="Pin the Insights app":::
+:::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app":::
 
 ## When is Insights used? 
 Insights supports learning communities throughout **the learning cycle**. With real-time metrics across multiple dimensions, Insights supports a continuous cycle of identification, reflection, discussion, and taking action amongst members of the school community.
@@ -107,7 +107,7 @@ Insights supports learning communities throughout **the learning cycle**. With r
 *	**Discuss** findings with students and the school community to strengthen relationships, goal setting, self-review, spark collaboration, and improve outcomes.
 *	**Take Action** to develop interventions, provide feedback on growth areas, modify teaching strategies, and identify additional support required.
 
-:::image type="content" source="media/Insights_the learning_cycle.png" alt-text="Insights supports learning communities throughout the learning cycle":::
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights supports learning communities throughout the learning cycle":::
 
 ## How Insights works?
 Insights produces powerful analytics to help educators deliver better learning outcomes. It does this by analyzing student activity within Teams and optionally leveraging the Student Information System (SIS) data that you provide to help contextualize and group that activity. 
@@ -172,7 +172,7 @@ To provide organization-level Insights, we must use [School Data Sync (SDS)](htt
 
 Viewing class-level Insights as the class educator *does not* require this because we use Teams' class structure and permissions.
 
-Read **[Sync Student Information System (SIS) data with Education Insights](Education-Insights-SIS-data-sync.md)** to learn more.
+To learn more, read [Sync Student Information System (SIS) data with Education Insights](education-insights-sis-data-sync.md).
 
 ## Manage permissions
 You need to provide permissions for education leaders, district leaders, school principals, headteachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are automatically given permission when they own a class team.
@@ -211,7 +211,7 @@ School Data Sync (SDS) helps automate the import and synchronization of the Stud
 
 The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. Open the SDS Admin Center and go to **Settings** > **Manage Education Insights**. Turn off '**Collect data for Insights**' to disable Insights. 
 
-:::image type="content" source="media/Insights_SDS_settings.png" alt-text="The on-off switch to enable or disable Insights.":::
+:::image type="content" source="media/insights-sds-settings.png" alt-text="The on-off switch to enable or disable Insights.":::
 
 ### Turn Insights on
 If you turned off Insights, you can quickly turn it on. Open the SDS Admin Center and go to **Settings** > **Manage Education Insights**. Turn on '**Collect data for Insights**' to enable Insights
