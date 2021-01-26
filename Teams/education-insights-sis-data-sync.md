@@ -57,8 +57,9 @@ The more detail you provide here, the better and more relevant the reports and s
 Here are some best practices based to ensure the smooth deployment of SDS so that your users can make the most out of Insights.
 
 ### Users
-*	Make sure *all users* are listed in the files you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.<br/>
-If you currently only have educators listed in the SIS, add the other users manually before uploading the files to SIS and syncing the data.
+*	Make sure *all users* are listed in the files you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.
+
+    If you currently only have educators listed in the SIS, add the other users manually before uploading the files to SIS and syncing the data.
 
     If some students are missing, the stats gathered by Insights is only from the registered students, and that will make the data and conclusions misleading.
 	
