@@ -88,7 +88,7 @@ If you do not see the option for *Sync organizational data from SDS (preview)* o
 :::image type="content" source="media/insights-sds-settings.png" alt-text="Sync with Insights toggles":::
 
 ### Deploy SDS
-**If you already use SDS**, we recommend you follow our [best practices](#easily-set-up-teams). 
+**If you already use SDS**, we recommend you follow our [best practices](#best-practices). 
 
 To sync your current profiles with Insights, go to your **Sync Profile(s)**, click **Edit**, and select **Sync organizational data from SDS**. For the initial sync, we recommend waiting 24 hours for the reports to be available after the data is refreshed from your SIS.  
 
@@ -107,4 +107,4 @@ A new status area appears next to Sync organizational data – Preview on the Se
 *	If the status is **Completed with errors**, **Completed with warnings**, or **Aborted**, download the log file that contains the errors and warnings for the latest sync and check if you can fix these errors. 
 
 > [!IMPORTANT]
-> If you run into any problems, [customer support](http://aka.ms/edusupport) is there to help you.
+> If you run into any problems, [customer support](https://aka.ms/edusupport) is there to help you.
