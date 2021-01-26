@@ -23,7 +23,7 @@ appliesto:
 
 Effective August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on SKU to any paid Microsoft 365 or Office 365 subscription.
 
-If your organization is looking to further enhance your communication experience, get Advanced Communications for advanced meetings, calling, workflow integration, and management tools for IT. Advanced Communications is available in all Microsoft 365 markets as an add-on to any paid Microsoft 365 or Office 365 subscription.
+If your organization is looking to further enhance your communication experience, get Advanced Communications for advanced meetings, calling, workflow integration, and management tools for IT.
 
 With Advanced Communications, you can host live events where 20,000 attendees can watch the broadcast, and interact with Q&A in Teams, conversations in Yammer, or view-only in Microsoft Stream. Additionally, we're increasing the length of the live events from 4 hours to 16 hours and enabling up to 50 concurrent live events per tenant. Keep in mind that only meeting organizers need a license. Meeting attendees don't need a license.
 
