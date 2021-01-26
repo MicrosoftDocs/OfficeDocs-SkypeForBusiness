@@ -1374,7 +1374,7 @@
               
 - name: Troubleshoot 
   href: https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams
-    items:
+  items:
     - name: Troubleshoot installation and update issues
       href: troubleshoot-installation.md
     - name: Troubleshoot connectivity issues with the Teams client
