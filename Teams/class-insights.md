@@ -44,7 +44,7 @@ Educators are identified by faculty licenses. Educators must have a faculty lice
 ### Education leaders
 Education leaders are all those roles in the institution that need an organizational view to understand their student engagement, progress, well-being, etc. Educators can also be education leaders when they own a class team and need more than their classes view, such as the head of a subject department. 
 
-Education leaders may include chief academic officers, heads of department, district leaders, school principals, headteachers, counselors, heads of a subject, program directors, social workers, and psychologists.
+Education leaders may include chief academic officers, heads of department, district leaders, school principals, head teachers, counselors, heads of a subject, program directors, social workers, and psychologists.
 
 Education leaders get an organizational view that depends on the permissions assigned by the IT Admin. For example, school district administrators can see all the schools they access. In contrast, a school principal or a school supervisor only sees that school's grade levels and classes. 
 
@@ -175,7 +175,7 @@ Viewing class-level Insights as the class educator *does not* require this becau
 To learn more, read [Sync Student Information System (SIS) data with Education Insights](education-insights-sis-data-sync.md).
 
 ## Manage permissions
-You need to provide permissions for education leaders, district leaders, school principals, headteachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are automatically given permission when they own a class team.
+You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are automatically given permission when they own a class team.
 
 > [!NOTE]
 > Only provide permission to those education leaders that need them and only to the teams they are responsible for. If you are unsure whether user permission for a specific organization is required, consult your institution's privacy subject matter experts, such as legal or HR personnel.
