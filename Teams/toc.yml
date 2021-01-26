@@ -1255,6 +1255,8 @@
           href: content-search.md
         - name: Auditing
           href: audit-log-events.md
+        - name: Export content with the Microsoft Teams Export API
+          href: export-teams-content.md
         - name: Customer key at the tenant level for Teams
           href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Privacy
@@ -1726,8 +1728,6 @@
           href: emergency-calling-terms-and-conditions.md
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: Export content with the Microsoft Teams Export API
-      href: export-teams-content.md
     - name: Release notes for Teams admin features
       href: release-notes/release-notes.md
     - name: Public preview in Microsoft Teams
