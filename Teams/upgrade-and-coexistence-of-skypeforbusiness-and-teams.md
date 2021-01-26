@@ -99,7 +99,7 @@ Once you are ready to upgrade users to TeamsOnly mode, you can upgrade users ind
 
 However, non-upgraded recipients in Islands mode may continue to receive chats and calls from a TeamsOnly user in either their Skype for Business or Teams clients. For existing conversations the TeamsOnly user will reply to the client the sender initiated the chat or call from. 
 
-For new conversations from the TeamsOnly user's point of view, the chat or call will always go to the Islands mode users Teams client. This is because the Teams client maintains separate conversation threads for Teams-to-Teams and Teams-to-Skype for Business communication, even for the same user. To learn more, see [Teams Conversations - Interop versus native threads](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).
+For new conversations from the TeamsOnly user's point of view, the chat or call will always go to the Islands mode users Teams client. This is because the Teams client maintains separate conversation threads for Teams-to-Teams and Teams-to-Skype for Business communication, even for the same user. To learn more, see [Teams Conversations - Interop versus native threads](teams-and-skypeforbusiness-coexistence-and-interoperability.md#teams-conversations---interop-versus-native-threads).
 
 The following table summarizes the Teams experience for both Islands mode and TeamsOnly mode:
 
