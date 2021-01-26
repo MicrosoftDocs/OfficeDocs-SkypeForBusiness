@@ -983,14 +983,12 @@
       href: skype-for-business-online-retirement.md
     - name: FAQ
       href: FAQ-journey.yml
-    - name: Technical library
+    - name: Reference
       items: 
         - name: Upgrade guidance for IT administrators
           items: 
             - name: Overview
               href: upgrade-to-teams-on-prem-overview.md
-            - name: Upgrade methods
-              href: upgrade-to-teams-on-prem-upgrade-methods.md
             - name: Tools for managing your upgrade
               href: upgrade-to-teams-on-prem-tools.md
             - name: Considerations for organizations with Skype for Business on premises
