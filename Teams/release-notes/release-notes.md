@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## January 27, 2021
+
+### Virtual visits with Teams - Integration into EHR
+
+We've updated the interface for Microsoft Teams Electronic Health Record (EHR) Connector, and connector that makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+
 ## January 22, 2021
 
 ### Firstline Workers are now called Frontline Workers
