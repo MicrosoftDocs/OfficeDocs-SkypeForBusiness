@@ -85,7 +85,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
 3. Import the SkypeOnline Connector and sign in as a Teams admin.
 
    ```powershell
-   Import-Module SkypeOnlineConnector
+   Import-Module MicrosoftTeams
    $sfbSession = New-CsOnlineSession
    Import-PSSession $sfbSession
    ```
@@ -136,6 +136,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 - For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
 
   <i>Teams name - Channel name</i>/**Documents**/**Recordings**
+
+**When Stream files (such as recordings) are stored in SharePoint/OneDrive, how is it decided where they go? Does the admin have the ability to change where it goes?**
+
+By default, all recording files will go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording will always go to the SharePoint site of the channel. The admin can't change where the recording is stored.
 
 **How do I handle recordings from former employees?**
 

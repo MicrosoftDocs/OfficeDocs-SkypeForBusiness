@@ -1,7 +1,7 @@
 ---
 title: Create your first teams and channels
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 audience: admin

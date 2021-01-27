@@ -34,7 +34,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of members in a team | 10,000<sup>5</sup>     |
 |Number of owners per team | 100   |
 |Number of org-wide teams allowed in a tenant | 5     |
-|Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
+|Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
@@ -46,13 +46,13 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams. To go beyond the maximum number of teams a Microsoft 365 or Office 365 organization can have, you must contact Microsoft support.
+<sup>2</sup> This limit includes archived teams. To go beyond the maximum number of teams a Microsoft 365 or Office 365 organization can have, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant.
 
 <sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
-<sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+<sup>5</sup> Teams in GCC can only accommodate members and teams in GCCH/DoD can only accommodate 2,500 members.
 
 ## Messaging
 

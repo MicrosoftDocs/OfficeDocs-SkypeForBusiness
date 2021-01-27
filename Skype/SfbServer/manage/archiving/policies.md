@@ -1,8 +1,8 @@
 ---
 title: "Manage archiving policies in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
