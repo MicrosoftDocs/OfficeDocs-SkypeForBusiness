@@ -38,7 +38,7 @@ We've changed the title of Firstline Workers to Frontline Workers.
 
 ### Offline documentation
 
-Teams keeps running even when you're offline or running in low bandwidth conditions. Teams saves all your unsent messages for existing chats (for up to 24 hours) and sends them as soon as you're back online. [Learn more](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues.)
+Teams keeps running even when you're offline or running in low bandwidth conditions. Teams saves all your unsent messages for existing chats (for up to 24 hours) and sends them as soon as you're back online. [Learn more](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
 
 ## January 19, 2021
 
