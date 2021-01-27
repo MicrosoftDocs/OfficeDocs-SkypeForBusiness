@@ -33,7 +33,7 @@ Advanced Communications provides enhanced calling and meeting capabilities that 
 Advanced Communications is available in all Microsoft 365 markets as an add-on to any paid Microsoft 365 or Office 365 subscription. Features included in Advanced Communications won't be added to other Microsoft 365 or Office 365 plans and can't be purchased separately. To get the features, you must purchase the add-on.
 
 > [!NOTE]
-> Features will be released as they become available. Please visit the [Microsoft 365 Public Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) for the latest feature timing. We're planning on making it available later.
+> Features will be released as they become available. Please visit the [Microsoft 365 Public Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) for the latest feature timing.
 
 > [!NOTE]
 > Advanced Communications isn't yet available for Microsoft 365 GCC High or Department of Defense (DoD) environments.
