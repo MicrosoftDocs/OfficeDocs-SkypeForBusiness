@@ -21,16 +21,19 @@ appliesto:
 
 # Advanced Communications add-on for Microsoft Teams
 
-Effective August 1, 2020, Advanced Communications is available as a Microsoft Teams add-on SKU to any paid Microsoft 365 or Office 365 subscription.
+If your organization is looking to further enhance your communication experience, get Advanced Communications for advanced meeting customization and tools to manage your organization’s communication policies.
 
-If your organization is looking to further enhance your communication experience, get Advanced Communications for advanced meetings, calling, workflow integration, and management tools for IT.
+## What is Advanced Communications?
 
-With Advanced Communications, you can host live events where 20,000 attendees can watch the broadcast, and interact with Q&A in Teams, conversations in Yammer, or view-only in Microsoft Stream. Additionally, we're increasing the length of the live events from 4 hours to 16 hours and enabling up to 50 concurrent live events per tenant. Keep in mind that only meeting organizers need a license. Meeting attendees don't need a license.
+Advanced Communications provides enhanced calling and meeting capabilities that address a spectrum of communication needs, including the following features:
 
-We'll be adding more customizations, tools, and communications enhancements in the future.  
+- **Tailor and customize meetings:** Drive standardization across meetings for your internal and custom-facing scenarios, with features such as custom branded meeting lobby. Implement with flexibility across your organization's departments.
+- **Manage your organization communications**: Monitor, track, and analyze data on users and devices to ensure a smooth experience.
+
+Advanced Communications is available in all Microsoft 365 markets as an add-on to any paid Microsoft 365 or Office 365 subscription. Features included in Advanced Communications won't be added to other Microsoft 365 or Office 365 plans and can't be purchased separately. To get the features, you must purchase the add-on.
 
 > [!NOTE]
-> Advanced Communications doesn't include communications compliance and communications data loss prevention (DLP).
+> Features will be released as they become available. Please visit the [Microsoft 365 Public Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) for the latest feature timing. We're planning on making it available later.
 
 > [!NOTE]
 > Advanced Communications isn't yet available for Microsoft 365 GCC High or Department of Defense (DoD) environments.
@@ -39,3 +42,6 @@ We'll be adding more customizations, tools, and communications enhancements in t
 
 A 60-day trial is available starting August 4, 2020. You can get the trial through the Microsoft 365 admin center.
 
+## Related articles
+
+[Introduction to Teams policy-based recording for callings & meetings](../teams-recording-policy.md)
