@@ -25,7 +25,7 @@ If your organization is looking to further enhance your communication experience
 
 ## What is Advanced Communications?
 
-Advanced Communications provides enhanced calling and meeting capabilities that address a spectrum of communication needs, including the following features:
+Advanced Communications includes advanced meetings customization and tools to manage your organization's communication policies. Additional features include custom branded meeting lobby to tailor your meetings, and tools to monitor, track, and analyze data on users and devices.
 
 - **Tailor and customize meetings:** Drive standardization across meetings for your internal and custom-facing scenarios, with features such as custom branded meeting lobby. Implement with flexibility across your organization's departments.
 - **Manage your organization communications**: Monitor, track, and analyze data on users and devices to ensure a smooth experience.
