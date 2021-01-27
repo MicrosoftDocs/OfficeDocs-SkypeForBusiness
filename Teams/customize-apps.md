@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Customize apps in Microsoft Teams
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+[!INCLUDE [preview-feature](/includes/preview-feature.md)]
 
 Now you can customize your organization's apps store in Microsoft Teams with your company branding by adding your logo, custom backgrounds, and custom text colors to make it more inviting to end users.
 
