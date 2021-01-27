@@ -70,7 +70,7 @@ With Advanced Communications, any meeting with more than 300 attendees will prov
 > The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 > [!NOTE]
-> Enterprise and Education SKUs can temporarily hold live events for up to 20,000 attendees, with an event duration of 16 hours per broadcast, and 50 concurrent events within a tenant until January 1, 2021.
+> Temporary live event limit increases for up to 20,000 attendees, with an event duration of 16 hours per broadcast and 50 concurrent events will be supported until June 30, 2021 for Enterprise plans [E1, E3, E5] and some Education plans [A3 and A5]. Visit the [Teams live events support page](https://support.microsoft.com/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&amp%3Brs=en-us&amp%3Bad=us&rs=en-US&ad=US#bkmk_createliveevents) to learn more about licensing.
 
 ## Related topics
 
