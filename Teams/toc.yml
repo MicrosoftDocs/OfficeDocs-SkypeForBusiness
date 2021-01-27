@@ -94,7 +94,7 @@
         - name: Optional connected experiences
           href: teams-privacy-oce-overview.md
 
-- name: Manage and monitor
+- name: Manage and monitor Teams
   items: 
     - name: Overview
       href: manage-teams-overview.md
