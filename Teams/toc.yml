@@ -1779,8 +1779,6 @@
           href: emergency-calling-terms-and-conditions.md
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: Export content with the Microsoft Teams Export API
-      href: export-teams-content.md
     - name: Release notes for Teams admin features
       href: release-notes/release-notes.md
     - name: Public preview in Microsoft Teams
