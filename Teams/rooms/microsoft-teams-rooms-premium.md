@@ -89,6 +89,7 @@ For more details on the Microsoft Teams Rooms managed service support coverage, 
 The Microsoft Teams Rooms managed service is available in the following countries and regions. 
 
 - Andorra
+- Australia
 - Austria
 - Belgium
 - Bouvet Island
@@ -165,7 +166,6 @@ The Microsoft Teams Rooms managed service is available in the following countrie
 - Vanuatu
 - Vatican City
 - Wallis and Futuna
-- Australia
 
 ## Support inclusions and exclusions
 
