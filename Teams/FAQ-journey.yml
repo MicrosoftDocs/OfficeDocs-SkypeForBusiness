@@ -43,9 +43,9 @@ sections:
       - question: Where can I learn more about coexistence modes in the Microsoft Teams admin center?
         answer: |
           Within the Microsoft Teams admin center, you'll notice options for coexistence modes, enabling your organization to manage the Skype for Business to Teams journey that's right for your organization. Learn more about [coexistence and upgrade modes](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
-      - question: What should I do to prepare for my upgraded?
+      - question: What should I do to prepare for my upgrade?
         answer: |
-          A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn't quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey[(https://aka.ms/skypetoteams-home) today.
+          A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn't quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey](https://aka.ms/skypetoteams-home) today.
           
           Microsoft also offers live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation. [Learn about upgrade planning workshops](https://aka.ms/SkypeToTeamsPlanning).
           
