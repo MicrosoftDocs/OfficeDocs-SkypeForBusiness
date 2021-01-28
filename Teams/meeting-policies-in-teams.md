@@ -549,11 +549,11 @@ To specify whether users can customize their video background in a meeting, set 
 > [!NOTE]
 > These features are not available for all Teams clients. For more information, see the _Video and backgrounds_ title in [Meetings and live events](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e).
 
-## Meeting policy settings - meeting reactions
+## Meeting policy settings - Meeting reactions
 
 The AllowMeetingReactions setting can only be applied using PowerShell. There is no option to toggle AllowMeetingReactions on or off from the Teams admin center.
 
-Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. It just means that reactions are Off by default. The meeting organizer can still turn on reactions from the meeting option page. 
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. 
 
 ## Related topics
 
