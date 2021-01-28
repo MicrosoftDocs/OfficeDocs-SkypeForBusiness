@@ -111,7 +111,7 @@ The Microsoft Teams Rooms managed service is available in the following countrie
 - Gibraltar
 - Greece
 - Greenland
-- Heard Island And Mcdonald Islands
+- Heard Island And McDonald Islands
 - Hong Kong SAR
 - Hungary
 - Iceland
