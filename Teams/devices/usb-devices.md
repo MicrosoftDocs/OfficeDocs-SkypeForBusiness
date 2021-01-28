@@ -73,7 +73,6 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Jabra                |Evolve2 30 Headset                                         |12/31/2020      |Certified for Microsoft Teams                           |
 |Yealink              |UH34 Dual/Mono Headset                                     |12/23/2020      |Certified for Microsoft Teams                           |
 |Yealink              |MP50 USB Phone                                             |12/23/2020      |Certified for Microsoft Teams                           |
 |Yealink              |WH67 DECT Headset                                          |12/23/2020      |Certified for Microsoft Teams                           |
