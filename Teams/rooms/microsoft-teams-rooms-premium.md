@@ -86,29 +86,86 @@ For more details on the Microsoft Teams Rooms managed service support coverage, 
 
 ## Supported regions
 
-The Microsoft Teams Rooms managed service is available in the following countries and regions.
+The Microsoft Teams Rooms managed service is available in the following countries and regions. 
 
+- Andorra
 - Australia
 - Austria
 - Belgium
-- Canada (excluding Quebec)
+- Bouvet Island
+- Brazil
+- Bulgaria
+- Canada
+- Christmas Island
+- Cocos (Keeling) Islands
+- Cook Islands
+- Croatia
+- Cyprus
+- Czech Republic
 - Denmark
-- Finland
+- Estonia
+- Faroe Islands
+- Fiji
+- France
 - Germany
+- Gibraltar
 - Greece
+- Greenland
+- Heard Island And Mcdonald Islands
+- Hong Kong SAR
+- Hungary
+- Iceland
+- India
 - Ireland
 - Italy
+- Japan
+- Kiribati
+- Latvia
+- Lesotho
+- Liechtenstein
+- Lithuania
 - Luxembourg
+- Macao SAR
+- Malta
+- Marshall Islands
+- Mexico
+- Micronesia
 - Monaco
-- The Netherlands
+- Nauru
+- Netherlands
 - New Zealand
+- Niue
+- Norfolk Island
+- Northern Mariana Islands
 - Norway
+- Palau
+- Papua New Guinea
+- Pitcairn Islands
+- Poland
 - Portugal
+- Romania
+- Russia
+- Saint Pierre and Miquelon
+- Samoa
+- San Marino
+- Singapore
+- Slovakia
+- Slovenia
+- Solomon Islands
+- South Africa
 - Spain
+- Swaziland
 - Sweden
 - Switzerland
+- Taiwan
+- Tokelau
+- Tonga
+- Tuvalu
 - United Kingdom
 - United States
+- Vanuatu
+- Vatican City
+- Wallis and Futuna
 
 ## Support inclusions and exclusions
 
