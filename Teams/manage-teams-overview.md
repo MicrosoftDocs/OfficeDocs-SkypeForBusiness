@@ -43,7 +43,7 @@ This article provides a roadmap to the content you'll need to successfully manag
 
 - [Operate your service](teams-analytics-and-reports/teams-reporting-reference.md) and [Enhance your service](upgrade-enhance-my-service.md). Read these articles for guidelines and roadmaps for how to operate and enhance your Teams service.
 
-Some manage topics remain under the relevant workload sections. For more information, see the landing pages for the following:
+Some manage topics remain under the relevant workload sections. For more information, see the overview articles for the following:
 
 - [Chat, teams, channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Meetings and Audio Conferencing](deploy-meetings-microsoft-teams-landing-page.md)
