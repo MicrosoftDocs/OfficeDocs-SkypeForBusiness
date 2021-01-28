@@ -39,7 +39,7 @@ Here's an overview of the capabilities of the Microsoft Teams Rooms managed serv
 |**Insights and recommendations**     |Insights into customer health, usage, utilization, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
 |**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Teams Rooms managed service Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
-|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub support coming in late 2021|
+|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub support coming in the second half of 2021*        |
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available integration with customer-hosted Service Now.         |
 
