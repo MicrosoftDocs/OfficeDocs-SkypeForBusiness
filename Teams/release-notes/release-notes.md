@@ -74,9 +74,9 @@ You can manage Skype for Business features for Skype for Business users in your 
 
 ## October 16, 2020
 
-### Manage shift-based access for Firstline Workers
+### Manage shift-based access for Frontline Workers
 
-As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift. With shift-based access, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
+As an admin, you can configure Teams to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift. With shift-based access, you can manage access to Teams when Frontline Workers are off shift. For example, you can set Teams to display a message that Frontline Workers must acknowledge before they can use Teams when they're not on a scheduled shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
 
 ## October 15, 2020
 
@@ -176,7 +176,7 @@ We added the ability to now have 250 participants in a group chat. [Learn more](
 
 ### Manage the Praise app
 
-The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The Praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers. [Learn more](../manage-praise-app.md).
+The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The Praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Frontline Workers. [Learn more](../manage-praise-app.md).
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
@@ -382,7 +382,7 @@ When you are meeting with video, you now have the choice of different static bac
 
 ### Teams for RealWear
 
-Microsoft Teams client for RealWear enables Firstline Workers using RealWear's ruggedized head-mounted wearables to operate Teams 100 percent hands-free and seek remote assistance from experts using Teams video calling. [Learn more](../flw-realwear.md).
+Microsoft Teams client for RealWear enables Frontline Workers using RealWear's ruggedized head-mounted wearables to operate Teams 100 percent hands-free and seek remote assistance from experts using Teams video calling. [Learn more](../flw-realwear.md).
 
 ## March 31, 2020
 
