@@ -1,7 +1,7 @@
 ---
 title: Manage external access (federation)
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
