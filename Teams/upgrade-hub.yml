@@ -144,7 +144,7 @@ additionalContent:
         # Card
         - title: Chart your course to Teams
           summary: Download this fun and helpful infographic that maps each of the steps throughout the Teams upgrade journey.
-          url: https://onrampprodstorage.blob.core.windows.net/assets/Chart%20Your%20Journey%20from%20Skype%20to%20Teams%20Infographic.pdf?sv=2018-03-28&sr=b&sig=2eB1S3u6JengIskQKHcsB2Vj4oSzjG0M0ttoPE3yz8k%3D&se=2021-01-27T23%3A35%3A05Z&sp=r
+          url: "https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf"
         # Card
         - title: Engage FastTrack for deployment assistance
           summary: When Teams deployment projects require more involved assistance, customers with eligible subscriptions can engage FastTrack for support.
