@@ -58,7 +58,6 @@ The following partners are in the process of certifying their solution for Micro
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-
 This list will be updated as more partners join and meet the certification criteria.
 
 ## How do contact center solutions work in Microsoft Teams?
@@ -121,7 +120,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Teams Graph APIs and Cloud Communication APIs for integration with Teams 
 
-  - Teams based app for agent experiences 
+  - Teams-based app for agent experiences 
 
   - Teams as the primary calling endpoint for the agents 
 
