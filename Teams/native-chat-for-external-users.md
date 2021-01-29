@@ -1,7 +1,7 @@
 ---
 title: Native chat experience for external (federated) users in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,8 +18,7 @@ description: Learn about the native Teams chat experience for external access (f
 
 ---
 
-Native chat experience for external (federated) users in Microsoft Teams
-======================================
+# Native chat experience for external (federated) users in Microsoft Teams
 
 When a Microsoft Teams user is chatting with an external (federated) user, the chat experience is limited to text. However, if both your Teams user and the external user is in the TeamsOnly upgrade mode, you can have a "native-Teams chat experience," which includes rich formatting, @mentions, and other chat features. In other words, you can have the same rich 1:1 Teams chat experience with eligible external users as you'd have with users in your organization. Native Teams chats with external users are still limited to 1:1 chats only (external users can't do group chats).
 
