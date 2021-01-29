@@ -58,7 +58,7 @@ You’ll also need information from the following people in your organization:
 - Epic customer analyst
 
 > [!Note]
-> Request your Epic admin to provide the Epic-Microsoft Teams Telehealth Integration Guide available in the Epic marketplace.
+> Request your Epic technical specialist to provide the Epic-Microsoft Teams Telehealth Integration Guide available in the Epic marketplace.
 
 ## Connector setup
 
