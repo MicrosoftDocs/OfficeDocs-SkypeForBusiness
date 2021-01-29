@@ -23,80 +23,22 @@ appliesto:
 
 This article describes the requirements and limitations for using Microsoft Teams in a remote desktop environment (RDP).
 
-## What is VDI?
+## What is RDP?
 
-Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
+RDP is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
 
-Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Windows Virtual Desktop, Citrix, and VMware platforms, calling and meeting functionality is also supported.
-
-Teams in a virtualized environment supports multiple configurations. These include VDI, dedicated, shared, persistent, and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
+Microsoft Teams in a virtualized environment supports chat and collaboration. Teams in a virtualized environment supports multiple configurations. 
 
 Using Teams in a virtualized environment might be somewhat different from using Teams in a non-virtualized environment. For example, some advanced features might not be available in a virtualized environment, and video resolution might differ.
 
-To ensure an optimal user experience, follow the guidance in this article.
+To ensure an optimal user experience, follow the guidance in [How do you use Teams Remote Desktop?](https://support.microsoft.com/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c).
 
-> [!Note]
-> For details about Teams VDI on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+## Teams on RDP requirements
 
-## Teams on VDI components
-
-Using Teams in a virtualized environment requires the following components.
-
-- **Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure
-- **Virtual desktop**: The Virtual Machine (VM) stack that runs Microsoft Teams
-- **Thin client**: The endpoint that the user physically interfaces with
-- **Teams desktop app**: The Teams desktop client app
-
-## Teams on VDI requirements
-
-### Virtualization provider requirements
+Using Teams in a virtualized environment requires the Teams desktop client app.
 
 The Teams desktop app was validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure that you meet the minimum requirements.
   
-Currently, Teams on VDI with audio/video (AV) optimization is certified with Windows Virtual Desktop, Citrix, and VMware. Review the information in this section to ensure that you meet all requirements for proper functionality.
-
-### Platforms certified for Teams
-
-The following platforms have virtual desktop infrastructure solutions for Teams.
-
-|Platform|Solution|
-|----|---|
-|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
-|![The logo representing Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
-|![The logo representing VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
-
-### Windows Virtual Desktop
-
-Windows Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd).
-
-### Citrix Virtual Apps and Desktops requirements
-
-Citrix Virtual Apps and Desktops (formerly known as XenApp and XenDesktop) provides AV optimization for Teams on VDI. With Citrix Virtual Apps and Desktops, Teams on VDI supports calling and meeting functionality in addition to chat and collaboration.
-
-You can download the latest version of Citrix Virtual Apps and Desktops at [the Citrix downloads site](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/). (You'll need to sign in first.) The necessary components are bundled into the [Citrix Workspace app (CWA)](https://www.citrix.com/downloads/workspace-app/) and Virtual Delivery Agent (VDA) by default. You don't need to install any additional components or plugins on CWA or the VDA.
-
-For the latest server and client requirements, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
-
-### VMware Horizon Workspace and Desktop requirements
-
-VMware Horizon is a modern platform for secure delivery of virtual desktops and apps across the hybrid cloud. To offer a great end-user experience, VMware Horizon provides media optimization for Teams. This optimization improves overall productivity across virtual desktops and apps, and enhances user experience when calling and meeting using Teams.
-
-You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page. The required media optimization components are part of the Horizon Agent and Horizon Client by default and there's no need to install any additional plug-in to use the optimization feature for Teams.
-
-To get the latest requirements and instructions on how to configure media optimization for Teams, see [this VMware website](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
-
-## Install or update the Teams desktop app on VDI
-
-You can deploy the Teams desktop app for VDI using a per-machine installation or per-user installation using the MSI package. Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization.
-
-For a dedicated persistent setup, either approach would work. However, for a non-persistent setup, Teams requires a per-machine installation in order to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
-
-With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
-
-To update to the latest Teams version, start with the uninstall procedure followed by latest Teams version deployment.
-
-For Teams AV optimization in VDI environments to work properly, the thin client endpoint must have access to the internet. If internet access isn't available at the thin client endpoint, optimization startup won't be successful. This means that the user is in a non-optimized media state.
-
 #### Dedicated persistent setup
 
 In a dedicated persistent setup, users' local operating system changes are retained after users log off. For persistent setup, Teams supports both per-user and per-machine installation.
@@ -134,17 +76,11 @@ Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams. 
 
 ### Microsoft 365 Apps for enterprise considerations
 
-Consider the following when you deploy Teams with Microsoft 365 Apps for enterprise on VDI.
+Consider the following when you deploy Teams with Microsoft 365 Apps for enterprise on RDP.
 
 #### New deployments of Teams through Microsoft 365 Apps for enterprise
 
 Before you deploy Teams through Microsoft 365 Apps for enterprise, you must first uninstall any pre-existing Teams apps if they were deployed using per-machine installation.
-
-Teams through Microsoft 365 Apps for enterprise is installed per-user. To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.
-
-#### Teams deployments through Microsoft 365 Apps for enterprise updates
-
-Teams is also being added to existing installations of Microsoft 365 Apps for enterprise. Since Microsoft 365 Apps for enterprise installs Teams per-user only, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.
 
 #### Using Teams with per-machine installation and Microsoft 365 Apps for enterprise
 
@@ -156,7 +92,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
 ### Deploy the Teams desktop app to the VM
 
-1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
+1. Download the Teams MSI package that matches your RDP VM operating system using one of the following links:
 
     - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
@@ -166,7 +102,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
     The minimum version of the Teams desktop app that's required is version 1.3.00.4461. (PSTN hold isn't supported in earlier versions.)
 
-2. Install the MSI to the VDI VM by running one of the following commands:
+2. Install the MSI to the RDP VM by running one of the following commands:
 
     - Per-user installation (default)
   
@@ -188,9 +124,9 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
         > [!NOTE]
         > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials.
-        It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments, while the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation.
+        It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-RDP and RDP environments, while the **ALLUSER=1** parameter is used only in RDP environments to specify a per-machine installation.
 
-3. Uninstall the MSI from the VDI VM. There are two ways to uninstall Teams.
+3. Uninstall the MSI from the RDP VM. There are two ways to uninstall Teams.
 
     - PowerShell script: You can use [this PowerShell script](scripts/powershell-script-deployment-cleanup.md) to uninstall Teams and remove the Teams folder for a user. Run the script for each user profile in which Teams was installed on the computer.
     - Command line: Run the following command.
@@ -201,50 +137,22 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
       This process uninstalls Teams from the Program Files (x86) folder or Program Files folder, depending on the operating system environment.
 
-## Teams on VDI performance considerations
-
-There are a variety of virtualized setup configurations, each with a different focus for optimization. For example, a configuration might focus on user density. When planning, consider the following to help optimize your setup based on your organization's workload needs.
-
-- Minimum requirement: Some workloads might require a setup using resources that are above the minimum requirements. For example, workloads for developers who use applications that demand more computing resources.
-- Dependencies: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
-- Disabled features on VDI: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
-    - Teams CSS animation
-    - Giphy auto-start
-
-## Teams on VDI with calling and meetings
-
-In addition to chat and collaboration, Teams on VDI with calling and meetings is available with supported virtualization provider platforms. Supported features are based on the WebRTC media stack and virtualization provider implementation. The following diagram provides an overview of the architecture.
-
-![Diagram showing Teams on VDI architecture](media/teams-on-vdi-architecture.png)
-
-> [!IMPORTANT]
-> If you currently run Teams without AV optimization in VDI and you use features that are not supported yet for optimization (such as Give and take control when app sharing), you have to set virtualization provider policies to turn off Teams redirection. This means that Teams media sessions won't be optimized. For steps on how to set policies to turn off Teams redirection, contact your virtualization provider.
-
 ### Network requirements
 
 We recommend that you evaluate your environment to identify any risks and requirements that can influence your overall cloud voice and video deployment. Use the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams.
 
 To learn more about how to prepare your network for Teams, see [Prepare your organization's network for Teams](prepare-network.md).
 
-### Migrate from Skype for Business on VDI to Teams on VDI
+### Teams on Chrome browser versus Teams desktop app for RDP
 
-If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren't currently supported in Teams VDI that are in Skype for Business VDI are as follows:
-
-- Per-platform policy to disable some AV features in VDI
-- Give and take control when app sharing
-- Screen share from chat without audio
-- Simultaneous video and screen sharing send and receive
-
-### Teams on Chrome browser versus Teams desktop app for VDI
-
-Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for VDI with AV optimization. The chat and collaboration experience works as expected. When media is needed, there are some experiences that might not meet user expectations on the Chrome browser:
+Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for RDP with AV optimization. The chat and collaboration experience works as expected. When media is needed, there are some experiences that might not meet user expectations on the Chrome browser:
 
 - The audio and video streaming experience might not be optimal. Users might experiences delays or reduced quality.
 - Device settings aren't available in browser settings.
 - Device management is handled through the browser and requires multiple settings in browser site settings.
 - Device settings might also need to be set in Windows device management.
 
-## Teams on VDI with chat and collaboration
+## Teams on RDP with chat and collaboration
 
 If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. 
 
@@ -300,9 +208,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-## Migrate Teams on VDI with chat and collaboration to optimize Teams with calling and meetings
+## Migrate Teams on RDP with chat and collaboration to optimize Teams with calling and meetings
 
-If you have an existing implementation of Teams on VDI with chat and collaboration in which you had set user-level policies to turn off calling and meeting functionality, and you're migrating to Teams with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams on VDI users.
+If you have an existing implementation of Teams on RDP with chat and collaboration in which you had set user-level policies to turn off calling and meeting functionality, and you're migrating to Teams with AV optimization, you must set policies to turn on calling and meeting functionality for those Teams on RDP users.
 
 ### Set policies to turn on calling and meeting functionality
 
@@ -371,11 +279,8 @@ This feature is available in Teams version 1.3.00.13565 and later.
 
 ### Client deployment, installation, and setup
 
-- With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
+- With per-machine installation, Teams on RDP isn't automatically updated in the way that non-RDP Teams clients are. You must uninstall the current version to update to a newer version.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
-- Windows Virtual Desktop and VMware don't support MacOS and Linux-based clients at this time.
-- Citrix doesn't support MacOs clients at this time.
-- Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint.
 
 ### Calling and meetings
 
@@ -392,40 +297,30 @@ The following calling and meeting features are not supported:
 - Media bypass for Direct Routing
 
 > [!NOTE]
-> We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
+> We're working on adding calling and meeting features that are currently only available in non-RDP environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
 
 The following are known issues and limitations for calling and meetings:
 
-- Interoperability with Skype for Business is limited to audio calls; there is no video modality.
-- Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.
-- Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
-- Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
-- Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
-- Outgoing screen sharing:
-    - Application sharing is not supported.
-- Give control and take control:
-    - Not supported during a screen sharing or application sharing session.
-    - Supported during a PowerPoint sharing session.
-- Citrix-only limitations
-    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
-    - High DPI scaling on CWA is not supported.
+Issues with Audio and Video:
 
-For Teams known issues that aren't related to VDI, see [Support Teams in your organization](Known-issues.md).
+1213011: Teams cannot find the local webcam when in RDP session.
+
+1213014: Audio and Video settings do not work properly in RDP
+
+1213000: No audio notifications from Teams in Remote Desktop Connection session
+
+Issues with screen sharing
+
+1215075: RDP controls overlap with Teams Meeting Screen share controls when Remote Desktop Client is in Full Screen
+
+1213010: Presenting in RDP session: sharing screen Teams places a large black box around my cursor
+
+1213292: Mouse cursor jumps around a lot when sharing in a Remote Desktop Connection session
+
+For Teams known issues that aren't related to RDP, see [Support Teams in your organization](Known-issues.md).
 
 ## Troubleshooting
 
-### Troubleshoot Citrix components
-
-#### Teams crashes or the Teams sign in screen is blank
-
-This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry DWORD value, and set it to 204 (hexadecimal).
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
-
-Then, restart VDA. To learn more, see this Citrix support article, [Troubleshooting HDX optimization for Teams](https://support.citrix.com/article/CTX253754).
+>>>Do we have any troubleshooting tips?
 
 ## Related topics
-
-- [Install Microsoft Teams using MSI](msi-deployment.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
