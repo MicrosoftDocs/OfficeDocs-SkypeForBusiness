@@ -147,7 +147,7 @@ To enable federation between users in your organization and consumer users of Sk
 
 
 > [!IMPORTANT]
-> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are whitelisted, which means all of these domains are considered ALLOWED.
+> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
 
 ## How does external access compare with guest access?
 
