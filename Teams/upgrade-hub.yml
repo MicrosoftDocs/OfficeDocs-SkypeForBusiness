@@ -126,7 +126,7 @@ productDirectory:
       summary: Find the right Microsoft Teams for your business.
       url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
     # Card
-    - title: Upgrade success kit
+    - title: Upgrade Success Kit
       imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
       summary: Download user readiness materials including communications templates, user surveys, and sample project and pilot test plans.
       url: https://aka.ms/UpgradeSuccessKit
