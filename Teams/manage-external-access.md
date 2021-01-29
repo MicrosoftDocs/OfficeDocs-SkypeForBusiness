@@ -22,15 +22,15 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 ---
-Manage external access in Microsoft Teams
-======================================================
 
-External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with external users who are still using Skype for Business (online and on-premises) and Skype (in preview).
+# Manage external access in Microsoft Teams
+
+External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype (in preview).
 
 > [!NOTE]
 > The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
 
-If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+If you want people from other organizations to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Use external access when:
   
