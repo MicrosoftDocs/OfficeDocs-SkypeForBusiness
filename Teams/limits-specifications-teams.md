@@ -34,7 +34,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of members in a team | 10,000<sup>5</sup>     |
 |Number of owners per team | 100   |
 |Number of org-wide teams allowed in a tenant | 5     |
-|Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
+|Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
 |Number of channels per team    | 200 (includes deleted channels)&sup3;         |
@@ -52,7 +52,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
-<sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+<sup>5</sup> Teams in GCC can only accommodate members and teams in GCCH/DoD can only accommodate 2,500 members.
 
 ## Messaging
 

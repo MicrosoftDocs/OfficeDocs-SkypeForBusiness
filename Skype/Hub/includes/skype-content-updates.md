@@ -2,28 +2,22 @@
 
 
 
-## Week of November 30, 2020
+## Week of January 18, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
+| 1/21/2021 | [Configure a resource account in Skype for Business Server 2019](/SkypeForBusiness/hybrid/configure-onprem-ra) | modified |
+| 1/21/2021 | [Plan a Cloud call queue](/SkypeForBusiness/hybrid/plan-call-queue) | modified |
+| 1/21/2021 | [Plan a Cloud auto attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) | modified |
+| 1/21/2021 | Small business example - Set up a Call Queue | removed |
 
 
-## Week of November 16, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/16/2020 | [Phones and Devices for Skype for Business](/SkypeForBusiness/certification/devices-ip-phones) | modified |
-| 11/16/2020 | [Meeting room devices and solutions](/SkypeForBusiness/certification/devices-meeting-rooms) | modified |
-| 11/16/2020 | [Partner qualification for Lync - Meeting room devices and solutions](/SkypeForBusiness/lync-cert/meeting-room-devices) | modified |
-| 11/17/2020 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
-
-
-## Week of November 02, 2020
+## Week of January 11, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/3/2020 | [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions) | modified |
-| 11/3/2020 | [Plan hybrid connect \| Skype for Business Server 2019 and Microsoft 365 or Office 365 integration](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
+| 1/13/2021 | [Blocked user licenses for Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast) | modified |
+| 1/13/2021 | [Enable Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast) | modified |
+| 1/13/2021 | [Set up your network for Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast) | modified |
