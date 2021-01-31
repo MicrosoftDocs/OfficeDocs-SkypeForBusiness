@@ -2,6 +2,43 @@
 
 
 
+## Week of January 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/25/2021 | [Create an org-wide team in Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modified |
+| 1/25/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 1/25/2021 | [Manage emergency calling policies in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modified |
+| 1/25/2021 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
+| 1/25/2021 | [Teams upgrade planning workshops](/MicrosoftTeams/upgrade-workshops-landing-page) | modified |
+| 1/25/2021 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 1/25/2021 | [Use Content Search in Microsoft Teams](/MicrosoftTeams/content-search) | modified |
+| 1/25/2021 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
+| 1/25/2021 | [Place a Microsoft Teams user or team on legal hold](/MicrosoftTeams/legal-hold) | modified |
+| 1/26/2021 | [Sync Student Information System (SIS) data with Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | added |
+| 1/26/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 1/26/2021 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 1/26/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 1/27/2021 | [Advanced Communications add-on for Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | modified |
+| 1/27/2021 | [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modified |
+| 1/27/2021 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 1/27/2021 | [Plan for Microsoft 365 Groups when creating teams](/MicrosoftTeams/plan-office-365-groups) | modified |
+| 1/27/2021 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 1/28/2021 | [Use the Microsoft Teams Meeting add-in in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modified |
+| 1/28/2021 | [Manage the Praise app in the Teams admin center](/MicrosoftTeams/manage-praise-app) | modified |
+| 1/28/2021 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
+| 1/28/2021 | [Microsoft Teams Rooms managed service](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modified |
+| 1/28/2021 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
+| 1/29/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 1/29/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 1/29/2021 | [Teams for Virtual visits](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
+| 1/29/2021 | [Manage external access (federation)](/MicrosoftTeams/manage-external-access) | modified |
+| 1/29/2021 | [Native chat experience for external (federated) users in Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modified |
+| 1/29/2021 | [Known issues](/MicrosoftTeams/rooms/known-issues) | modified |
+| 1/29/2021 | [Teams and Skype interoperability](/MicrosoftTeams/teams-skype-interop) | modified |
+
+
 ## Week of January 18, 2021
 
 
