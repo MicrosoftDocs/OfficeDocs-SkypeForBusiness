@@ -219,6 +219,26 @@ If you turned off Insights, you can quickly turn it on. Open the SDS Admin Cente
 ### How to delete your data
 Insights stores student and educator actions performed in the context of a class team. This data is considered a co-mingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
 Note: Deleting data harms Insights' ability to analyze class team engagement over time.
-* [Open a support ticket](https://edusupport.microsoft.com/support). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
+* [Open a support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
 *	Once filed, the support ticket waits in the queue for one week to meet compliance's minimal retention policy. You have the opportunity to cancel the operation during this time.
 *	After one week, the Education Insights team ensures all data related to the user ID is deleted from the service. Microsoft support monitors the ticket and will notify you once the deletion process is complete, in no more than 28 days.
+
+## Troubleshooting
+### Why do I see data for some students or classes, not all?
+We only collect data for *licensed* students, so the most probable reason is that you have guest students attending classes, and their data is not collected. You might see their name but without any data.
+
+Check the status of your students to ensure they all have student licenses. 
+
+### Why don't educators see meeting data?
+It takes up to 24 hours to see meeting data in Insights reports. So, check that enough time has passed.
+
+Also, check that students did *not* [join the class meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). In such a scenario, the student activity is not collected.
+
+> [!TIP]
+> For those educators who want to track student attendance, you can recommend sending a message during the meeting asking students to reply. This registers their attendance within a few minutes.
+
+> [!NOTE]
+> If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
+
+
+
