@@ -3,7 +3,7 @@ title: Manage and monitor Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/25/21
+ms.date: 2/1/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -37,7 +37,7 @@ This article provides a roadmap to the content you'll need to successfully manag
 
 - [Manage policies](assign-policies.md). Read this article to understand how to define and assign policies to manage users, permissions, and Teams functionality.
 
-- [Monitor and manage call quality](monitor-call-quality-qos). Read this article to understand how to use the tools available for monitoring and improving call quality for your organization.
+- [Monitor and manage call quality](monitor-call-quality-qos.md). Read this article to understand how to use the tools available for monitoring and improving call quality for your organization.
 
 - [Reports in the Teams admin center](teams-analytics-and-reports/teams-reporting-reference.md) and [Reports in the Microsoft 365 admin center](teams-activity-reports.md). Read these articles to understand what reports are available, and how to use these reports to monitor Teams usage and service health.
 
