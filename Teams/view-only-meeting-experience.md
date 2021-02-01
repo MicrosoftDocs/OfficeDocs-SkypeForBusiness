@@ -20,29 +20,24 @@ appliesto:
 
 # Teams view-only meeting experience
 
-Microsoft Teams allows up to 20,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience.
+Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience.
 
 Attendees who join the meeting first, up to the capacity of the meeting, will get the full Teams meeting experience. They can share audio and video, see shared videos, and participate in meeting chat.
 
 Attendees who join after the main meeting capacity has been reached will have a view-only experience.
 
+We have full Android and iOS mobile support for an attendee to join.
+
 > [!Note]
 > The current limit for the number of people who can chat and call in to a meeting is 300 in WW and 250 in GCC, GCC High, and DoD.
 
-## Impact to administrators
-
-The view-only experience is enabled by default for any user with a license for the Advanced Communications add-on SKU. When a user with the Advanced Communications add-on creates a Teams meeting, that meeting will automatically support up to 20,000 attendees. No further configuration or setup is required.
-
-> [!Note]
-> Attendees who join the meeting don't need to have the Advanced Communications add-on. The add-on is only required by the meeting organizer.
-
-Users without the Advanced Communications add-on will be limited according to the limits outlined in [Limits and specifications for Microsoft Teams](limits-specifications-teams.md).
+The view-only experience is enabled by default for any organizer who has E3/E5/A3/A5 SKU. No further configuration or setup is required.
 
 ### Disable Teams view-only experience
 
 Administrators can disable the view-only experience using PowerShell. 
 
-```powershell
+```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 ```
@@ -56,7 +51,6 @@ A user's experience will vary depending on several factors.
 When the capacity of the main meeting has been reached, an attendee will be unable to join the meeting if any of the following are true:
 
 - An administrator has disabled the Teams view-only experience.
-- The meeting organizer hasn't been assigned a license for the Advanced Communications add-on SKU.
 - The attendee doesn't have permission to bypass the lobby.
 
 When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that the meeting capacity has been reached and that new attendees will join a view-only attendee.
@@ -73,17 +67,12 @@ If presenter/attendee roles haven't been set, spaces in the main meeting are fil
 
 ## Impact to meeting presenters
 
-At launch, presenters will be treated in the same way as any other attendee. If a presenter joins after the main meeting has already reached capacity, they'll join in view-only mode and will, therefore, be unable to present.
-
-Additionally, if a presenter leaves and then later rejoins the meeting, it's possible that they'll rejoin with the view-only experience if the main meeting capacity has been reached.
-
-In the future, we plan to reserve space in the main meeting for the organizer and presenters.
+We'll reserve space in the normal meeting for users explicitly indicated out as presenters in the meeting options. If a presenter leaves and then later rejoins the meeting, they'll be let into the meeting as a presenter. 
 
 Limitations for meeting presenters include the following:
 
 - You'll have no information about the view-only attendee. We don't support E-discovery for view-only attendees.
 - Users can't see the view-only attendees.
-- You can't reserve room for presenters and special attendees in the inner meeting.
 - You can't remove a view-only attendee from the meeting.
 
 > [!Note]
@@ -110,7 +99,6 @@ The view-only attendee won't be able to experience the following options in meet
 
 ## View-only feature limitations
 
-- Supported platforms include desktop, web, and iOS. Android is coming soon.
 - View-only attendees will always see live captions, regardless of the live-captions setting for that meeting.
 - View-only attendees will be supported by streaming technology.
 - View-only attendees won't be included in the attendance report.
