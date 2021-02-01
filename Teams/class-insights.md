@@ -206,18 +206,18 @@ Material for **education leaders** will be published soon.
 ## Turn Insights off or on
 By default, Insights is turned on. When you opt-out, we *delete all the data collected* for Insights. Turn Insights back on, and we start collecting data from the time it's re-enabled.
 
-### Turn Insights off using School Data Sync (SDS)
+### Turn off Insights using School Data Sync (SDS)
 School Data Sync (SDS) helps automate the import and synchronization of the Student Information System (SIS) data with Teams.
 
 The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn off '**Collect data for Insights**' to disable Insights. 
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="The on-off switch to enable or disable Insights.":::
 
-### Turn Insights on
+### Turn on Insights
 If you turned off Insights, you can quickly turn it on. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn on '**Collect data for Insights**' to enable Insights
 
 ### How to delete your data
-Insights stores student and educator actions performed in the context of a class team. This data is considered a co-mingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
+Insights stores student and educator actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
 Note: Deleting data harms Insights' ability to analyze class team engagement over time.
 * [Open a support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
 *	Once filed, the support ticket waits in the queue for one week to meet compliance's minimal retention policy. You have the opportunity to cancel the operation during this time.
