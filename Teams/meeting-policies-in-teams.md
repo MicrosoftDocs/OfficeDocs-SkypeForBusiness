@@ -195,7 +195,8 @@ Here's how the **Allow transcription** and **Allow cloud recording** policy sett
 
 |Allow transcription|Allow cloud recording|Behavior|
 |---------|---------|---------|
-|**On**|**On**|The **Start recording and transcription** and **Start transcription** options are available in meetings. The meeting organizer or meeting participants can start and stop transcription or start and stop recording and transcription. |
+|**On**|**On**|The **Start recording and transcription** option is available in meetings. The meeting organizer or meeting participants can start and stop recording and transcription. |
+|**On**|**On**|The **Start transcription** option is available in meetings. The meeting organizer or meeting participants can start and stop transcription. |
 |**Off**|**On**|The **Start recording** option is available in meetings. Transcription isn't available in meetings.  |
 |**Off**|**Off**|Recording and transcription aren't available in meetings.  |
 
