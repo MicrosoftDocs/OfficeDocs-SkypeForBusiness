@@ -172,7 +172,7 @@ To provide organization-level Insights, we must use [School Data Sync (SDS)](htt
 
 Viewing class-level Insights as the class educator *does not* require this because we use Teams' class structure and permissions.
 
-To learn more, read [Sync Student Information System (SIS) data with Education Insights](education-insights-sis-data-sync.md).
+To learn more, read [**Sync Student Information System (SIS) data with Education Insights**](education-insights-sis-data-sync.md).
 
 ## Manage permissions
 You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are automatically given permission when they own a class team.
@@ -206,19 +206,51 @@ Material for **education leaders** will be published soon.
 ## Turn Insights off or on
 By default, Insights is turned on. When you opt-out, we *delete all the data collected* for Insights. Turn Insights back on, and we start collecting data from the time it's re-enabled.
 
-### Turn Insights off using School Data Sync (SDS)
+### Turn off Insights using School Data Sync (SDS)
 School Data Sync (SDS) helps automate the import and synchronization of the Student Information System (SIS) data with Teams.
 
-The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. Open the SDS Admin Center and go to **Settings** > **Manage Education Insights**. Turn off '**Collect data for Insights**' to disable Insights. 
+The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn off '**Collect data for Insights**' to disable Insights. 
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="The on-off switch to enable or disable Insights.":::
 
-### Turn Insights on
-If you turned off Insights, you can quickly turn it on. Open the SDS Admin Center and go to **Settings** > **Manage Education Insights**. Turn on '**Collect data for Insights**' to enable Insights
+### Turn on Insights
+If you turned off Insights, you can quickly turn it on. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn on '**Collect data for Insights**' to enable Insights
 
 ### How to delete your data
-Insights stores student and educator actions performed in the context of a class team. This data is considered a co-mingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
+Insights stores student and educator actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
 Note: Deleting data harms Insights' ability to analyze class team engagement over time.
-* [Open a support ticket](https://edusupport.microsoft.com/support). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
+* [Open a support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
 *	Once filed, the support ticket waits in the queue for one week to meet compliance's minimal retention policy. You have the opportunity to cancel the operation during this time.
 *	After one week, the Education Insights team ensures all data related to the user ID is deleted from the service. Microsoft support monitors the ticket and will notify you once the deletion process is complete, in no more than 28 days.
+
+## Troubleshooting
+### Why doesn't my institution see any data in Insights?
+If it’s a *new* tenant and you've *never* seen data in Insights, check that your tenant is **verified as an education tenant** to access Insights. Contact your Microsoft account manager and ask them to check that the tenant is configured correctly.
+
+If you don't have an account manager, please open a ticket. Go to the [Office 365 Admin Center](https://admin.microsoft.com/AdminPortal/) > **Support** > **New Service Request**.  In the title of the ticket, write: "Need assistance with education verification".
+ 
+Also, verify that data collection for Insights is enabled. While it’s on by default, IT Admin may have turned it off and therefore deleted all the data held by Insights.
+
+To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Check the status of 'Collect data for Insights'.
+
+If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports. 
+
+
+### Why do I see data for some students or classes, not all?
+We only collect data for *licensed* students, so the most probable reason is that you have guest students attending classes, and their data is not collected. You might see their name but without any data.
+
+Check the status of your students to ensure they all have student licenses. 
+
+### Why don't educators see meeting data?
+It takes up to 24 hours to see meeting data in Insights reports. So, check that enough time has passed.
+
+Also, check that students did *not* [join the class meeting without a Teams account](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). In such a scenario, the student activity is not collected.
+
+> [!TIP]
+> For those educators who want to track student attendance, you can recommend sending a message during the meeting asking students to reply. This registers their attendance within a few minutes.
+
+> [!NOTE]
+> If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
+
+
+
