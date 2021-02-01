@@ -52,6 +52,12 @@ The Approvals app is available as a personal app for all Microsoft Teams users. 
 
 The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app. [Learn more](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
 
+## January 4, 2021
+
+### Calendar sharing
+
+We added the ability to add a channel to a calendar tab.
+
 ## December 21, 2020
 
 ### Supported rate centers and coverage for Calling Plans
