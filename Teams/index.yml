@@ -23,9 +23,9 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
-    - title: COVID-19 response - Support remote workers using Teams 
+    - title: Support remote workers using Teams 
       itemType: overview
-      url: /MicrosoftTeams/support-remote-work-with-teams
+      url: https://docs.microsoft.com/en-us/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
     # Card
     - title: Upgrade from Skype for Business to Teams
       itemType: how-to-guide
@@ -88,9 +88,9 @@ tools:
       imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
       url: https://docs.microsoft.com/en-us/learn/teams/
     # Card
-    - title: Developer platform and Microsoft Power Platform
+    - title: Microsoft Teams & Microsoft 365 Developer platform
       imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-      url: /MicrosoftTeams/manage-teams-overview #need link
+      url: /MicrosoftTeams/platform/overview
     # Card
     - title: End user help and learning
       imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
