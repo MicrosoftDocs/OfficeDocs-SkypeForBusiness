@@ -1,7 +1,7 @@
 ---
 title: Manage external access (federation)
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
+  - m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
@@ -21,15 +22,15 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 ---
-Manage external access in Microsoft Teams
-======================================================
 
-External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with external users who are still using Skype for Business (online and on-premises) and Skype (in preview).
+# Manage external access in Microsoft Teams
+
+External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype (in preview).
 
 > [!NOTE]
 > The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
 
-If you want external users to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+If you want people from other organizations to have access to teams and channels, guest access might be a better way to go. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Use external access when:
   
@@ -146,7 +147,7 @@ To enable federation between users in your organization and consumer users of Sk
 
 
 > [!IMPORTANT]
-> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are whitelisted, which means all of these domains are considered ALLOWED.
+> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
 
 ## How does external access compare with guest access?
 

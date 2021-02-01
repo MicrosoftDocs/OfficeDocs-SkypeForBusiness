@@ -39,7 +39,7 @@ Bring your retail employees together in one central experience to manage tasks, 
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
-|Organize a store| `retailStore`|Channels: <ul><li>General<li>Shift handoff</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|Organize a store|`retailStore`|Channels: <ul><li>General<li>Shift handoff</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
 ## Manager Collaboration

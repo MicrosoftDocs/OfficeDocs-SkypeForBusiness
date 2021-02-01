@@ -1,7 +1,7 @@
 ---
 title: How ready is your organization for Microsoft Teams?
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin

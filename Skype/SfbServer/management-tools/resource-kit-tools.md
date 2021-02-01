@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server 2015 Resource Kit Tools Documentation"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro

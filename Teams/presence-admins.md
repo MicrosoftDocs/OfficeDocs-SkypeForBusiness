@@ -33,7 +33,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 | ![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
 || ![Open green check mark, indicates available oof](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using the app during these periods of time, a dual presence might be shown, such as "Out of office, available". |
 |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
-|| ![Solid red circle, indicates Busy in a call](media/Presence_Busy.png) On a call|
+|| ![Solid red circle, indicates Busy in a call](media/Presence_Busy.png) In a call|
 || ![Solid red circle, indicates Busy in a meeting](media/Presence_Busy.png) In a meeting |
 || ![Open red circle, indicates Busy](media/Presence_Busy_OOF.png) On a call, out of office|
 |  ![Red circle with white line, indicates Do Not Disturb](media/Presence_DND.png) Do not disturb ||
@@ -74,6 +74,9 @@ User configured states have default expiration settings in Teams, in order to pr
 | Others|7 days|
 |||
 
+> [!NOTE]
+> A user can also configure manually a duration for her presence. For instance, a user can set herself as Appear offline until tomorrow morning.
+
 ## Admin settings in Teams compared to Skype for Business
 
 The following admin settings Skype for Business are different in Teams:
@@ -89,7 +92,7 @@ The following admin settings Skype for Business are different in Teams:
 
 ## Admin settings in Teams compared to Microsoft Outlook
 
-Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later for contacts in the same organization.
 
 If the upgrade mode policy of the user account is set to TeamsOnly, Outlook talks to Teams to get presence. If the user account isn't set to TeamsOnly, then Outlook talks to Skype for Business.
 

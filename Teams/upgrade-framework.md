@@ -1,7 +1,7 @@
 ---
-title: About the upgrade framework
-author: lanachin
-ms.author: v-lanac
+title: About the upgrade framework - Skype for Business to Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

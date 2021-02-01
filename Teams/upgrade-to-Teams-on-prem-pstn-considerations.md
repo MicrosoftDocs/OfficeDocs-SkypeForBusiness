@@ -1,14 +1,13 @@
 ---
-title: Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: PSTN considerations when upgrading to Teams from a Skype for Business on-premises deployment
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Upgrade from Skype for Business to Teams voice considerations  
+description: Voice considerations for upgrade from Skype for Business to Teams  
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +19,10 @@ appliesto:
 - Microsoft Teams
 ---
 
-# PSTN considerations when upgrading to Teams &mdash; for IT administrators
+# PSTN considerations for upgrading to Teams from Skype for Business on-premises
 
-This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams. This article is the sixth of several that describe upgrade concepts and implementation for IT administrators.  
+This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.   
 
-- [Overview](upgrade-to-teams-on-prem-overview.md)
-- [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
-- [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem-considerations.md)
-- [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
-- **Public Switched Telephone Network (PSTN) considerations** (this article)
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 
@@ -41,6 +34,7 @@ In addition, the following articles describe important upgrade concepts and coex
  > [!NOTE]
  > - Using Phone System with Teams is only supported when the user is in TeamsOnly mode.  If the user is in Islands mode, Phone System is only supported with Skype for Business. 
  > - Any call forwarding, team-call group, and delegation settings from Skype for Business are not migrated and will need to be re-recreated for Teams.
+ > - For a general overview of Microsoft Teams cloud voice features, and help deciding which Microsoft voice solution is right for your organization, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
 
 ## PSTN calling scenarios
@@ -164,6 +158,8 @@ Whether using Direct Routing or a Microsoft Calling plan, a user must have Enter
   ```
 
 ## Related links
+
+[Plan your Teams voice solution](cloud-voice-landing-page.md)
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
 
