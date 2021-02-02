@@ -89,9 +89,6 @@ To add a group to the queue, click **Add groups**, search for the group, click *
   
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
-> [!NOTE]
-> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
-
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
@@ -116,12 +113,15 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-For high volume queues, we recommend the following settings:
+The following settings are recommended:
 
 - **Conference mode** to **Auto**
-- **Routing method** to **Attendant routing**
+- **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
+
+> [!NOTE]
+> If Presence-based routing is not enabled and there are multiple calls in queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
 ## Call overflow handling
 
