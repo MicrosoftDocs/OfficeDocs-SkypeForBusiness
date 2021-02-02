@@ -65,17 +65,17 @@ productDirectory:
       summary: Deploy Microsoft Teams across your organization.
       url: /MicrosoftTeams/teams-overview #need link
     # Card
-    - title: Manage
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
-      summary: Perform day to day management tasks for Microsoft Teams.
-      url: /MicrosoftTeams/manage-teams-overview #need link
-    # Card
     - title: Secure
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
       summary: Follow these best practices to secure your data, files and identities in Microsoft Teams.
       url: /MicrosoftTeams/security-compliance-overview
+    # Card
+    - title: Manage
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
+      summary: Perform day to day management tasks for Microsoft Teams.
+      url: /MicrosoftTeams/manage-teams-overview #need link
 
 # tools section (optional)
 tools:
