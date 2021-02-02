@@ -70,6 +70,6 @@ The modified app is now listed in your **Manage apps** page. You'll have only on
 
 ## Related article
 
-- [Manage apps](manage-apps)
+- [Manage apps](manage-apps.md)
 - [Customize your app store](customize-your-app-store.md)
 - [Publish a custom app](submit-approve-custom-apps.md)
