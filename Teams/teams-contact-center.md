@@ -60,29 +60,9 @@ The following partners are in the process of certifying their solution for Micro
 
 This list will be updated as more partners join and meet the certification criteria.
 
-## How do contact center solutions work in Microsoft Teams?
-
-Microsoft Teams offers a range of capabilities to support the development of third-party voice solutions, including:
-
-1. [Direct Routing Connectivity](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
-
-2. [Microsoft Graph Cloud Communication APIs](https://docs.microsoft.com/graph/cloud-communications-get-started)
-
-3. Teams platform and extensibility
-
-4. Teams SDKs
-
-Together, these capabilities enable three models of integration:
-
-  - **Connect** (via Direct Routing)
-
-  - **Connect and Extend** (Direct Routing, Graph APIs and Teams apps platform)
-
-  - **Extend and Power** (embedding Teams SDKs into 3p Apps for native Teams interactions)
-
 ### Connect
 
-This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights. In this model, the contact center partner solution can also provide telephony services for selected numbers and users.
+This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights. 
 
 Agents using solutions built on the Connect model can gather information & insights and if necessary transfer calls to subject matter experts directly, using the SME’s presence in Teams to ensure their availability.
 
@@ -96,15 +76,13 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Presence indication from Teams users 
 
-  - Call flows via Direct Routing (as indicated in test plans) 
-
   - Support transfers and group calls with Teams users 
 
   - Teams Graph APIs and Cloud Communication APIs for integration with Teams 
 
   - Able to support multi-tenant SIP trunking to support several customers on partner’s SBC.  
 
-  - Partners to implement [<span class="underline">Microsoft certified session border controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Partners to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### Connect and extend
 
