@@ -20,7 +20,7 @@ appliesto:
 
 # Contoso case study: Auto attendants and call queues
 
-Contoso was familiar with auto attendants and call queues from their on-premises Skype for Business deployment. To understand how to set up Cloud auto attendants, they reviewed [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md) and [Small business  example - Set up auto attendant tutorial](tutorial-org-aa.yml). To learn about the options available to set up call queues, Contoso reviewed [Create a Cloud call queue](create-a-phone-system-call-queue.md).  
+Contoso was familiar with auto attendants and call queues from their on-premises Skype for Business deployment. To understand how to set up Cloud auto attendants and call queues, they reviewed [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md).
 
 ## Requirements depending on site type
 

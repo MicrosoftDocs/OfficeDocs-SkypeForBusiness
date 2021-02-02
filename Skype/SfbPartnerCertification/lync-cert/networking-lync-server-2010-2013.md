@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

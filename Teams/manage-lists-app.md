@@ -1,7 +1,7 @@
 ---
 title: Manage the Lists app for your organization
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: anach,v-jasuk
 manager: serdars
 ms.topic: article
@@ -18,6 +18,7 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - m365initiative-lists
 appliesto: 
   - Microsoft Teams
 ms.custom: 
@@ -29,13 +30,13 @@ ms.custom:
 
 The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
 
-In Teams, users access Lists as a tab in a channel. Click **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started. 
+In Teams, users access Lists as a tab in a channel. Click **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
 
-![Screenshot of Lists app in tab gallery](media/lists-tab.png)
+![Lists app in tab gallery](media/lists-tab.png)
 
 Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch, from built-in templates, based on the structure of an existing list, or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
 
-![Screenshot of how to create a list in the Lists app](media/lists-create-list.png)
+![how to create a list in the Lists app](media/lists-create-list.png)
 
 ## Templates
 
@@ -107,7 +108,7 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Power Automate, Power Apps, and Graph API
 
-Lists supports [Power Automate](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint) for workflows and [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
+Lists supports [Power Automate](https://docs.microsoft.com/power-automate/flow-types) for workflows and [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
 
 ## Give feedback or report an issue
   

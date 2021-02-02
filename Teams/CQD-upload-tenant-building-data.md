@@ -66,7 +66,9 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
 
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 
-- There must be 14 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma or tab delimited):
+- There is a 1,000,000 expanded row limit per tenant data file.
+
+- There must be 15 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma or tab delimited):
 
   **Building data file format**
   
@@ -101,7 +103,7 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. 
 >
-> The VPN column is optional and will default to 0. If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
+> The VPN column is optional and will default to 0. If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet. Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data. If the expansion of the subnet results in the expansion row limit of 1,000,000 being exceeded, the building file will not be accepted.
 
 
 ### Supernetting
@@ -156,7 +158,7 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
 - The content of the data file doesn't include table headers. The first line of the data file is expected to be real data, not a header label like "EndpointName".
 
-- All six columns use the String data type only. The maximum allowed length is 64 characters.
+- All seven columns use the String data type only. The maximum allowed length is 64 characters.
 
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 
@@ -164,16 +166,15 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
 - EndpointLabel1, EndpointLabel2, and EndpointLabel3 are customizable labels. They can be empty Strings or values such as “IT Department designated 2018 Laptop” or “Asset Tag 5678”.
 
-- There must be six columns for each row and the columns must be in the following order:
+- There must be seven columns for each row and the columns must be in the following order:
 
   **Field order:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
+  EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2,  EndpointLabel3
 
   **Sample row:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
-
+  `1409W3534, Fabrikam, Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018`
 
 ## Update a building file
 

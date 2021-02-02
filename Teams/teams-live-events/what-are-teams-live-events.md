@@ -1,12 +1,15 @@
 ---
 title: What are Microsoft Teams live events?
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
+  - m365solution-spcomms
+  - m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
@@ -18,13 +21,14 @@ ms.custom:
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 
   - Microsoft Teams
+localization_priority: Normal
 ---
 
 # What are Microsoft Teams live events
 
 ## Overview
 
-With Teams lives events, users in your organization can broadcast video and meeting content to large online audiences.
+With Teams live events, users in your organization can broadcast video and meeting content to large online audiences.
 
 Microsoft 365 live events bring live video streaming to a new level. Live events encourage connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Teams, or Yammer.  
 
@@ -42,7 +46,7 @@ Live events in Teams empowers multiple roles (organizer, producer, presenter, an
 
 ## Key components
 
-You can see from the picture above that there are four key components that are used with live events in Teams.
+You can see from the picture above that there are five key components that are used with live events in Teams.
 
 > [!NOTE]
 > For an overview of how to set up live events and the attendee experience, check out these short [videos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
@@ -53,13 +57,14 @@ Teams provides the ability for the organizers to create an event with the approp
 
 ![the New live events screen](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
+> [!IMPORTANT]
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
+
 ### Production
 
 The video input is the foundation of the live event and it can vary from a single webcam to a multi-camera professional video production. The live events in Microsoft 365 support a spectrum of production scenarios, include an event produced in Teams using a webcam or an event produced in an external app or device. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
 
 - **Teams**: This production method allows users to produce their live events in Teams using their webcam or using A/V input from Teams room systems. This option is the best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters to participate in the event. This option allows users to easily use their webcams and share their screen as input in the event.
-
-    ![a live event produced using quick start method](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method")
 
 - **External app or device**: External encoders allow users to produce their live events directly from an external hardware or software-based encoder with [Stream](https://stream.microsoft.com). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to a Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large-scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience.
 

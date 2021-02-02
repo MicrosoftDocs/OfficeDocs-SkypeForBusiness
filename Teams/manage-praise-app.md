@@ -3,6 +3,7 @@ title: Manage the Praise app in the Teams admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.reviewer: adotey
 audience: admin 
 ms.topic: article 
 ms.service: msteams
@@ -16,9 +17,11 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 > [!NOTE]
 > Admins must have a Teams license to access this feature. If you try to access this feature without a Teams license, you'll get an error message.
 
-The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers.
+The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from and the option to create your own badges, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Frontline Workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Admins can control what badges are available to their organization from the Teams admin center. In the left navigation, select **Teams apps > Manage apps**. Open Praise in the [tenant app catalog](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog), and go to **Settings**.
+Admins can control what badges are available to their organization from the Microsoft Teams admin center. In the left navigation, go to **Teams apps > Manage apps**. In the list of apps, click **Praise**, and then select **Settings**.  From here, you can choose to enable default and built-in badge sets and create custom badges.
+
+![Screenshot of Settings tab for the Praise app](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > The Praise app feature isn't available for U.S. government clouds.
@@ -47,7 +50,9 @@ Educators can recognize individual students for social and emotional learning (S
 
 ## Create your own badges
 
-Switch the **Custom badges** toggle to On and select **Create a custom badge**. From there, you can design a custom badge in the side panel. You can create up to 25 custom badges. 
+Select **Create a custom badge**. From here, you can design a custom badge in the side panel. You can create up to 25 custom badges. 
+
+![Screenshot of Create a custom badge pane](media/manage-praise-app-create-custom-badge.png)
 
 1. Enter a badge name. This is the name that will appear on the badge when users send praise.
 
