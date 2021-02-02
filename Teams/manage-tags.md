@@ -95,7 +95,7 @@ To create and assign custom tags, select **Teams** on the left side of the app, 
 
 To delete a tag, select **˙˙˙ More options** next to the tag, and then select **Delete tag**.
 
-### Set up tagging by shift (coming soon)
+### Set up tagging by shift
 
 1. In Teams, go to the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
 2. Create [shift groups](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) and name them after an attribute such as a role. For example, EngineerOnCall. The shift group name will be the name of the tag.
