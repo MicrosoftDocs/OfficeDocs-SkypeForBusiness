@@ -1,14 +1,13 @@
 ---
-title: Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Implement your upgrade to Teams from a Skype for Business on-premises deployment using PowerShell
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Upgrade from Skype for Business to Teams  
+description: The article is for IT administrators and describes how to use PowerShell to implement their upgrade from Skype for Business on-premises to Teams  
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -22,18 +21,13 @@ appliesto:
 
 # Implement your upgrade from Skype for Business to Teams &mdash; for IT administrators
 
-This article describes how to implement your upgrade. This article is the fifth of several that describe upgrade concepts and implementation for IT administrators.  
+![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-- [Overview](upgrade-to-teams-on-prem-overview.md)
-- [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
-- [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem-considerations.md)
-- **Implement your upgrade** (this article)
-- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
+This article is for IT administrators who want to implement their upgrade to Teams from Skype for Business Server by using PowerShell.
 
-In addition, the following articles describe important upgrade concepts and coexistence behaviors:
+Before implementing your upgrade, we recommend the following articles which describe important upgrade concepts and coexistence behaviors:
 
-- [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+- [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
