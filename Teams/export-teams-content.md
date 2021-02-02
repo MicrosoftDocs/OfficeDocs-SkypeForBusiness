@@ -46,19 +46,19 @@ Here are some examples on how you can use these export APIs:
 - **Example 1** is a simple query to retrieve all the messages of a user or team without any filters:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
     ```
 
 - **Example 2** is a sample query to retrieve all the messages of a user or team by specifying date time filters and top 50 messages:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
