@@ -1,3 +1,4 @@
+
 ---
 title: Customize Microsoft apps in Teams
 author: cichur
@@ -63,4 +64,5 @@ Now you can customize your organization's apps store in Microsoft Teams with you
 
 ## Related article
 
+[Publish a custom app](http//docs.microsoft.com/MicrosoftTeams/manage-apps)
 [Manage your apps](customize-your-app-store.md)
