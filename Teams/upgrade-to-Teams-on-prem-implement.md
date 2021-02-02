@@ -39,7 +39,7 @@ This section describes how to implement your upgrade by using one of the followi
 - [A select capabilities upgrade for an organization that has not yet started using Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [A select capabilities upgrade for an organization that is already using Teams in Islands mode](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
-If you need more information about the options, make sure you have already read [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md).
+If you need more information about the options, make sure you have already read [Choose your upgrade journey from Skype for Business to Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
 
 ## Overlapping capabilities upgrade (using Islands mode)
 
