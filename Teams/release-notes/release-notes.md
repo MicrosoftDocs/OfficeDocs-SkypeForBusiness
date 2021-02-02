@@ -22,6 +22,42 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## January 27, 2021
+
+### Virtual visits with Teams - Integration into EHR
+
+We've updated the interface for Microsoft Teams Electronic Health Record (EHR) Connector, and connector that makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+
+## January 22, 2021
+
+### Firstline Workers are now called Frontline Workers
+
+We've changed the title of Firstline Workers to Frontline Workers.
+
+## January 21, 2021
+
+### Offline documentation
+
+Teams keeps running even when you're offline or running in low bandwidth conditions. Teams saves all your unsent messages for existing chats (for up to 24 hours) and sends them as soon as you're back online. [Learn more](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+
+## January 19, 2021
+
+### Teams Approvals app availability
+
+The Approvals app is available as a personal app for all Microsoft Teams users. The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams. [Learn more](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+
+## January 15, 2021
+
+### Set up Microsoft Teams meeting add-on for Google Workspace
+
+The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app. [Learn more](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
+
+## January 4, 2021
+
+### Calendar sharing
+
+We added the ability to add a channel to a calendar tab.
+
 ## December 21, 2020
 
 ### Supported rate centers and coverage for Calling Plans
