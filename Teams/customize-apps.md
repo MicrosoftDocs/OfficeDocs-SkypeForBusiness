@@ -70,6 +70,6 @@ The modified app is now listed in your **Manage apps** page. You'll have only on
 
 ## Related article
 
-- [Publish a custom app](http//docs.microsoft.com/MicrosoftTeams/manage-apps)
-
+- [Manage apps](manage-apps)
 - [Customize your app store](customize-your-app-store.md)
+- [Publish a custom app](submit-approve-custom-apps.md)
