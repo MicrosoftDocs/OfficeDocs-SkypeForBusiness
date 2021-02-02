@@ -27,7 +27,7 @@ You can add a device tag to more than one device type. However, when you open a 
 To manage device tags, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 > [!IMPORTANT]
-> Device tags are assigned to the resource account that's logged into a device. If you sign a resource account out of one device and then use it to sign into another device, the device tags are applied to new device.
+> Device tags are assigned to the resource account that's logged into a device. If you sign a resource account out of one device and then use it to sign in to another device, the device tags are applied to the new device.
 
 ## Create, remove, or rename device tags
 
