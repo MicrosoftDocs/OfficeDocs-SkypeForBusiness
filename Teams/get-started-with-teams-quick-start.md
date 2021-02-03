@@ -37,40 +37,66 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 
 ![Diagram illustrating Teams deployment pathways](media/get-started-with-teams-quick-start-pathways.png)
 
-To help you plan the rollout of these workloads across your organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). The Advisor uses Teams itself to create a plan tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
+If you have a large organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md) to help you plan the rollout of these workloads across your organization. The Advisor uses Teams itself to create a plan tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
+
+> [!div class="nextstepaction"]
+> [Open Teams admin center](https://admin.teams.microsoft.com)
 
 ## Make sure you're ready
 
 To get ready for your Teams rollout, here's what you need to do, whether Teams is your first workload ("Teams First") or the next workload in an existing Microsoft 365 or Office 365 deployment:
 
 - [Prepare your organization's network for Teams](prepare-network.md)
-    - This includes configuring your Microsoft 365 or Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
+  - This includes configuring your Microsoft 365 or Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
 
 - Get Teams licenses for everybody. Check out [Teams plans](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) and [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 
-#### [Small business](#tab/SmallBusiness)
+## Get familiar with Teams
 
-If you aren't coming to Teams from Skype for Business, you can start using Teams right away. Here's how to roll out your first set of teams and channels so your early adopters can start chatting, sharing files, and collaborating.
+If you're new to Teams, the best way to get familiar with it is to start using it right away. The great thing about Teams is that what you set up now won't get in the way of any upgrades or migrations you might need to do later.
+
+Use the steps below to set up a couple teams and onboard a few early adopters to help you get familiar with Teams.
 
 - Step 1: [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 - Step 2: [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
 - Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
 - Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+When you're ready, select **Small business** or **Medium/large business** to find information that'll help you make Teams yours.
+#### [Small business](#tab/SmallBusiness)
+
+The sections below have information and links to help you deploy the Teams workloads mentioned above. If you're already using Skype for Business Online or have installed a Skype for Business server in your office, see [Upgrade or migrate from Skype for Business](#upgrade-or-migrate-from-skype-for-business) first.
+
+## Chat, teams, and channels
+
+- [Overview of teams and channels](teams-channels-overview.md)
+- [Plan how you'll use chat, teams, and channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Assign teams owners and members in Teams](assign-roles-permissions.md)
+- [Chat and call with users from other organizations](communicate-with-users-from-other-organizations.md)
+- [Manage teams and channel policies](teams-policies.md)
+
+## Meetings and conferencing
+
+- [Quick start - meetings and live events](quick-start-meetings-live-events.md)
+- [Manage meetings settings](meeting-settings-in-teams.md)
+
+## Microsoft 365 Business Voice
+
+- [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+- [What to buy to get Business Voice](business-voice/what-to-buy.md)
+- [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
+- [Customize Business Voice](business-voice/customize-business-voice.md)
+- [Create and license Business Voice users](business-voice/create-users.md)
 
 #### [Medium/large business](#tab/LargeBusiness)
 
-## If you don't have a Skype for Business deployment
+Large business content
 
-If you aren't coming to Teams from Skype for Business, you can start using Teams right away. Here's how to roll out your first set of teams and channels so your early adopters can start chatting, sharing files, and collaborating.
+---
 
-- Step 1: [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
-- Step 2: [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
-- Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
-- Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
-
-## If you're starting from Skype for Business, on-premises, or hybrid deployments
+## Upgrade or migrate from Skype for Business
 
 If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the recommended path above for a Teams deployment, but first you need to do some extra planning. Start by reviewing the guidance in the table below that applies to your organization's profile.
 
@@ -79,5 +105,3 @@ If you're coming to Teams from Skype for Business (online or on premises), or if
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|I'm currently using Skype for Business Online, and I'm ready to move to Teams. |Go to [Upgrade to Teams](upgrade-start-here.md).        |
 |<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|My organization is running Skype for Business Server, and I want to roll out Teams. |For a full-scale Teams rollout, first you need to configure hybrid connectivity between your on-premises environment and Microsoft 365. Start by reading [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>You should also review [Upgrade to Teams](upgrade-start-here.md).   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|I don't have Skype for Business Server, but I do have an on-premises PSTN solution. I want to roll out Teams, but I want to keep my on-premises PSTN solution. |Roll out Teams following  the [recommended path](#recommended-path-to-teams) above.<br><br>Then read [Plan Direct Routing](direct-routing-plan.md) to learn about using Phone System Direct Routing to hook up your on-premises PSTN solution with Teams.|
-
----
