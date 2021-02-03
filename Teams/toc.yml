@@ -1135,6 +1135,8 @@ items:
 - name: Upgrade to Teams
   items: 
     - name: Get started
+      href: skype-to-teams-upgrade.yml
+    - name: Upgrade FAQ
       href: upgrade-start-here.md
     - name: About the upgrade framework
       href: upgrade-framework.md
