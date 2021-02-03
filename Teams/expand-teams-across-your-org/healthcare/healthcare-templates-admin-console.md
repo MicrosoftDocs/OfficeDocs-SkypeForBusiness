@@ -29,6 +29,13 @@ Microsoft Teams templates allow you to quickly and easily create teams by provid
 
 For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to effectively use Teams. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization.
 
+Choose a method for creating teams with the Teams healthcare templates:
+
+| Who | Method to use: |
+| ---- | --------- |
+| Admins and IT Professionals | [Use the Teams admin center](#use-the-teams-templates-in-the-teams-admin-center) to create teams based on the healthcare Teams templates.|
+| Developers | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create teams based on the healthcare Teams templates. |
+
 ## Use the Teams templates in the Teams admin center
 
 Microsoft Teams admins can use the Teams admin center to create teams with the Teams templates. We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with Teams templates in the admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
