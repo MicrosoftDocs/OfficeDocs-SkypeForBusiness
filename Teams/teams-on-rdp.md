@@ -25,7 +25,10 @@ This article describes the requirements and limitations for using Microsoft Team
 
 ## What is RDS?
 
-Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 with Remote Desktop Services (RDS) (formerly known as Terminal Services) allow a server to host multiple, simultaneous client sessions. Remote Desktop uses Remote Desktop Services technology to allow a single session to run remotely. A user can connect to a Remote Desktop Session Host (RD Session Host) server (formerly known as a terminal server) by using Remote Desktop Connection (RDC) client software. The Remote Desktop Web Connection extends Remote Desktop Services technology to the web.
+Remote Desktop Services (RDS) is the platform of choice for building virtualization solutions for every end customer need, including delivering individual virtualized applications, providing secure mobile and remote desktop access, and providing end users the ability to run their applications and desktops from the cloud.
+
+RDS offers deployment flexibility, cost efficiency, and extensibility—all delivered through a variety of deployment options, including Windows Server 2016 for on-premises deployments, Microsoft Azure for cloud deployments, and a robust array of partner solutions.
+Depending on your environment and preferences, you can set up the RDS solution for session-based virtualization, as a virtual desktop infrastructure (VDI)
 
 Currently, Teams in a remote desktop services environment is available with support for collaboration and chat functionality. To ensure an optimal user experience, follow the guidance in this article.
 
@@ -33,7 +36,7 @@ Currently, Teams in a remote desktop services environment is available with supp
 
 ### Set policies to turn off calling and meeting functionality in Teams
 
-The Teams calling and meeting experience isn't optimized for a Remote Desktop Services. We recommend you set user-level policies to turn off calling and meeting functionality in Teams.
+The Teams calling and meeting experience isn't optimized for RDS. We recommend you set user-level policies to turn off calling and meeting functionality in Teams.
 
 You can still choose to run Teams fully in RDS using either the Teams desktop app or web app. However, we recommend that you set the policies to avoid compromising the user experience.
 
@@ -44,60 +47,55 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed 
 | **Policy name**     | **Description**                                                                                                                                                        | **Recommended value**                                                                                                                               |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | AllowCalling        | Controls interop calling capabilities. Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.                       | Set to False to prevent calls from Skype for Business users landing in Teams.                                                                       |
-| AllowPrivateCalling | Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see Calling and Video call options in private chat | Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the Calling and Video call options in private chat. |
+| AllowPrivateCalling | Controls whether the Calling app is available in the app bar on the left side of the Teams client and whether users see Calling and Video call options in private chat. | Set to False to remove the Calling app from the app bar on the left side of Teams and to remove the Calling and Video call options in private chat. |
 
 #### Create and assign a calling policy
 
-1.  Start a Windows PowerShell session as an administrator.
+1. Start a Windows PowerShell session as an administrator.
 
-2.  Connect to the Skype Online Connector.
+2. Connect to the Skype Online Connector.
 
-3.  \# Set Office 365 User Name and Password
+```powershell
+\# Set Office 365 User Name and Password
+$username = “admin email address”
+password = ConvertTo-SecureString "password" -AsPlainText -Force
+$LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+\# Connect to Skype Online
+Import-Module SkypeOnlineConnector
+$sfboSession = New-CsOnlineSession -Credential $LiveCred
+Import-PSSession $sfboSession\`\`\`
+```
 
-4.  $username = “admin email address”
+3. View a list of calling policy options by using Get-CsTeamsCallingPolicy.
 
-5.  password = ConvertTo-SecureString "password" -AsPlainText -Force
+4. Look for the built-in policy option where all calling policies are disabled. It looks like this:
 
-6.  $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+   - Identity : Tag:DisallowCalling
 
-7.  \# Connect to Skype Online
+   - AllowCalling : False
 
-8.  Import-Module SkypeOnlineConnector
+   - AllowPrivateCalling : False
 
-9.  $sfboSession = New-CsOnlineSession -Credential $LiveCred
+   - AllowVoicemail : False
 
-10. Import-PSSession $sfboSession\`\`\`
+   - AllowCallGroups : False
 
-11. View a list of calling policy options.
+   - AllowDelegation : False
 
-12. Get-CsTeamsCallingPolicy
+   - AllowUserControl : False
 
-13. Look for the built-in policy option where all calling policies are disabled. It looks like this.
+   - AllowCallForwardingToUser : False
 
-14. Identity : Tag:DisallowCalling
+   - AllowCallForwardingToPhone : False
 
-15. AllowCalling : False
+   - PreventTollBypass : False
 
-16. AllowPrivateCalling : False
+5. Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.
 
-17. AllowVoicemail : False
-
-18. AllowCallGroups : False
-
-19. AllowDelegation : False
-
-20. AllowUserControl : False
-
-21. AllowCallForwardingToUser : False
-
-22. AllowCallForwardingToPhone : False
-
-23. PreventTollBypass : False
-
-24. Apply the DisallowCalling built-in policy option to all users who will be using Teams in a virtualized environment.
-
-25. Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
-
+```powershell
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
+  
 For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
 #### Meetings
@@ -124,72 +122,66 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that 
 
 #### Create and assign a meeting policy
 
-1.  Start a Windows PowerShell session as an administrator.
+1. Start a Windows PowerShell session as an administrator.
 
-2.  Connect to the Skype Online Connector.
+2. Connect to the Skype Online Connector.
 
-3.  \# Set Office 365 User Name and Password
+```powershell
+\# Set Office 365 User Name and Password
+$username = “admin email address”
+password = ConvertTo-SecureString "password" -AsPlainText -Force
+$LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+\# Connect to Skype Online
+Import-Module SkypeOnlineConnector
+$sfboSession = New-CsOnlineSession -Credential $LiveCred
+Import-PSSession $sfboSession\`\`\`
+```
 
-4.  $username = “admin email address”
+3. View a list of meeting policy options using Get-CsTeamsMeetingPolicy.
 
-5.  password = ConvertTo-SecureString "password" -AsPlainText -Force
+4. Look for the built-in policy option where all meeting policies are disabled. It looks like the following items:
 
-6.  $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+   - Identity : Tag:AllOff
+   - Description :
 
-7.  \# Connect to Skype Online
+   - AllowChannelMeetingScheduling : False
 
-8.  Import-Module SkypeOnlineConnector
+   - AllowMeetNow : False
 
-9.  $sfboSession = New-CsOnlineSession -Credential $LiveCred
+   - AllowIPVideo : False
 
-10. Import-PSSession $sfboSession\`\`\`
+   - AllowAnonymousUsersToDialOut : False
 
-11. View a list of meeting policy options.
+   - AllowAnonymousUsersToStartMeeting : False
 
-12. Get-CsTeamsMeetingPolicy
+   - AllowPrivateMeetingScheduling : False
 
-13. Look for the built-in policy option where all meeting policies are disabled. It looks like this.
+   - AutoAdmittedUsers : False
 
-14. Identity : Tag:AllOff
+   - AllowCloudRecording : False
 
-15. Description :
+   - AllowOutlookAddIn : False
 
-16. AllowChannelMeetingScheduling : False
+   - AllowPowerPointSharing : False
 
-17. AllowMeetNow : False
+   - AllowParticipantGiveRequestControl : False
 
-18. AllowIPVideo : False
+   - AllowExternalParticipantGiveRequestControl : False
 
-19. AllowAnonymousUsersToDialOut : False
+   - AllowSharedNotes : False
 
-20. AllowAnonymousUsersToStartMeeting : False
+   - AllowWhiteboard : False
 
-21. AllowPrivateMeetingScheduling : False
+   - AlowTranscription : False
 
-22. AutoAdmittedUsers : False
+   - MediaBitRateKb : False
 
-23. AllowCloudRecording : False
+   - ScreenSharingMode : False
 
-24. AllowOutlookAddIn : False
+5. Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment:
 
-25. AllowPowerPointSharing : False
-
-26. AllowParticipantGiveRequestControl : False
-
-27. AllowExternalParticipantGiveRequestControl : False
-
-28. AllowSharedNotes : False
-
-29. AllowWhiteboard : False
-
-30. AlowTranscription : False
-
-31. MediaBitRateKb : False
-
-32. ScreenSharingMode : False
-
-33. Apply the AllOff built-in policy option to all users who will be using Teams in a virtualized environment.
-
-34. Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+```powershell
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+``` 
 
 For more information about Teams meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
