@@ -21,11 +21,15 @@ ms.custom: seo-marvel-apr2020
 ---
 # Apps, bots, & connectors in Microsoft Teams
 
-Apps let you find content from your favorite services and share it right in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Apps let you find content from your favorite services and share it in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0). 
 
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+You can add apps to your Teams deployment by using the apps provided with Microsoft Teams, by using certified third-party apps and templates, and by creating your own custom apps.
 
-Teams also integrates with Microsoft Power Platform, which enables developers to analyze data, build custom apps, and create intelligent bots. For more information, see [Teams integration with Microsoft Power Platform](teams-power-platfom-integration.md) and [Build apps for Microsoft Teams](/microsoftteams/platform/overview).
+**Use Microsoft-provided apps.** Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+
+**Use third-party apps and Teams templates.** You can also use [Microsoft-certified third-party apps](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/enterprise-app-certification-guide) and [Teams templates](https://docs.microsoft.com/en-us/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub.
+
+**Create custom apps.** Microsoft provides tools for building custom apps for Teams. These tools include Teams integration with Microsoft Power Platform--which enables developers to analyze data, build custom apps, and create intelligent bots. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview) and [Teams integration with Microsoft Power Platform](teams-power-platfom-integration.md). 
 
 ## Apps deployment decisions
 
