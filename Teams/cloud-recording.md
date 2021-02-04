@@ -116,6 +116,7 @@ To enable recordings in-region in the Global policy, use the following cmdlet:
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
 ```
+
 Here's a summary of what happens when you turn on meeting recording when this change takes effect:
 
 |If you turn on meeting recordings...|Meeting recordings are stored... |
