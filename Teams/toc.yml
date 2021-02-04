@@ -987,16 +987,16 @@
       href: FAQ-journey.yml
     - name: Reference
       items: 
-    - name: Tools for managing your upgrade
-      href: upgrade-to-teams-on-prem-tools.md
-    - name: Coexistence modes - Reference
-      href: migration-interop-guidance-for-teams-with-skype.md
-    - name: Teams client experience and conformance to coexistence modes
-      href: teams-client-experience-and-conformance-to-coexistence-modes.md
-    - name: Set your coexistence and upgrade settings
-      href: setting-your-coexistence-and-upgrade-settings.md
-    - name: Meetings First
-      href: meetings-first.md
+            - name: Tools for managing your upgrade
+              href: upgrade-to-teams-on-prem-tools.md
+            - name: Coexistence modes - Reference
+              href: migration-interop-guidance-for-teams-with-skype.md
+            - name: Teams client experience and conformance to coexistence modes
+              href: teams-client-experience-and-conformance-to-coexistence-modes.md
+            - name: Set your coexistence and upgrade settings
+              href: setting-your-coexistence-and-upgrade-settings.md
+            - name: Meetings First
+              href: meetings-first.md
 - name: Hybrid connectivity
   items: 
     - name: Plan hybrid connectivity
