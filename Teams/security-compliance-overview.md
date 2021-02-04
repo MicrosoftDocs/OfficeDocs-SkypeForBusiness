@@ -157,7 +157,7 @@ Microsoft 365 offers an additional layer of encryption on top of service encrypt
 
 Using Customer Key at the tenant level, Customer Key encrypts:
 - Teams chat messages (1:1 chats, group chats, meeting chats and channel conversations)
-- Teams media messages (images, code snippets, videos, wiki images)
+- Teams media messages (images, code snippets, videos, and wiki images)
 - Teams call and meeting recordings stored in Teams storage
 - Teams chat notifications
 - Teams chat suggestions by Cortana
