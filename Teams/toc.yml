@@ -1127,7 +1127,7 @@ items:
 
 - name: Upgrade to Teams
   items: 
-    - name: Upgrade FAQ
+    - name: Get started
       href: upgrade-start-here.md
     - name: About the upgrade framework
       href: upgrade-framework.md
