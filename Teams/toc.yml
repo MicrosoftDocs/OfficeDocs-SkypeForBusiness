@@ -1525,8 +1525,6 @@ items:
           href: https://docs.microsoft.com/powershell/module/teams/?view=teams-ps
     - name: Developer documentation for Teams
       href: https://docs.microsoft.com/microsoftteams/platform
-    - name: Get help in Teams
-      href: get-help-in-microsoft-teams.md
     - name: Teams content updates
       href: teams-updates.md
     - name: Country and region availability for Audio Conferencing and Calling Plans
