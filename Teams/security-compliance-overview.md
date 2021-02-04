@@ -156,7 +156,7 @@ Audit log search plugs right into the Microsoft 365 compliance center and gives 
 Microsoft 365 offers an additional layer of encryption on top of service encryption for your content. Using keys you provide, Customer Key encrypts several different types of data in Microsoft Teams. Using Customer Key at the application level, Customer Key encrypts Teams files stored in SharePoint Online. For information, see [Service encryption with Customer Key](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview). 
 
 Using Customer Key at the tenant level, Customer Key encrypts:
-- Teams chat messages (1:1 chats, group chats, meeting chats and channel conversations)
+- Teams chat messages (1:1 chats, group chats, meeting chats, and channel conversations)
 - Teams media messages (images, code snippets, videos, and wiki images)
 - Teams call and meeting recordings stored in Teams storage
 - Teams chat notifications
