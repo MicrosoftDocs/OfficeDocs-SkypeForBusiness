@@ -99,7 +99,7 @@ productDirectory:
     # Card
     - title: "Learning path: Upgrade to Microsoft Teams"
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: media/upgrade-to-microsoft-teams.svg
+      imageSrc: media/upgrade-microsoft-teams.svg
       summary: Learn how to upgrade from Skype for Business Online and Skype for Business on-premises to Microsoft Teams.
       url: https://docs.microsoft.com/learn/paths/m365-teams-upgrade/
     # Card
