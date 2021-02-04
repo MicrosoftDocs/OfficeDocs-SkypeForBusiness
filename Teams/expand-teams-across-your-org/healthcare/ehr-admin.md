@@ -41,7 +41,7 @@ You’ll need to make sure you have the following prerequisites before you can i
 
 - Access to use to the Microsoft Teams app in [Epic’s App Orchard marketplace](https://apporchard.epic.com/Gallery?id=6153).
 
-- Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer.
+- Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer (only enforced during production testing).
 
 - Users must have an appropriate Microsoft 365 or Office 365 license that includes Microsoft Teams meetings.
 
