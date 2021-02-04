@@ -38,20 +38,24 @@ For others who desire integrated solutions with business tools and workflows to 
 
 The APIs allow partners to develop and integrate CCaaS solutions for Teams. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
+The following partners have a certified solution for Microsoft Teams and are ready to engage customers:
+
+|  Partner                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+
 The following partners are in the process of certifying their solution for Microsoft Teams and are ready to engage customers:
 
 |  Partner                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `8x8` | https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams?locale=us |
-| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
-| 'Geomant' | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
+| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
@@ -60,29 +64,9 @@ The following partners are in the process of certifying their solution for Micro
 
 This list will be updated as more partners join and meet the certification criteria.
 
-## How do contact center solutions work in Microsoft Teams?
-
-Microsoft Teams offers a range of capabilities to support the development of third-party voice solutions, including:
-
-1. [Direct Routing Connectivity](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
-
-2. [Microsoft Graph Cloud Communication APIs](https://docs.microsoft.com/graph/cloud-communications-get-started)
-
-3. Teams platform and extensibility
-
-4. Teams SDKs
-
-Together, these capabilities enable three models of integration:
-
-  - **Connect** (via Direct Routing)
-
-  - **Connect and Extend** (Direct Routing, Graph APIs and Teams apps platform)
-
-  - **Extend and Power** (embedding Teams SDKs into 3p Apps for native Teams interactions)
-
 ### Connect
 
-This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights. In this model, the contact center partner solution can also provide telephony services for selected numbers and users.
+This model connects CCaaS partners with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights. 
 
 Agents using solutions built on the Connect model can gather information & insights and if necessary transfer calls to subject matter experts directly, using the SME’s presence in Teams to ensure their availability.
 
@@ -96,15 +80,13 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Presence indication from Teams users 
 
-  - Call flows via Direct Routing (as indicated in test plans) 
-
   - Support transfers and group calls with Teams users 
 
   - Teams Graph APIs and Cloud Communication APIs for integration with Teams 
 
   - Able to support multi-tenant SIP trunking to support several customers on partner’s SBC.  
 
-  - Partners to implement [<span class="underline">Microsoft certified session border controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Partners to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### Connect and extend
 
