@@ -41,7 +41,7 @@ Whether you are upgrading from Skype for Business Online to Teams or from a Skyp
 
 | Icon | Description |
 | --- | --- |
-|![Walkthrough symbol](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Upgrade hub**: Find an overview of all of the guidance, training, and resources you'll need to implement a successful upgrade from Skype for Business to Teams at [Plan your upgrade from Skype for Business to Microsoft Teams](upgrade-skype-to-teams.yml).|
+|![Walkthrough symbol](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Upgrade hub**: Find an overview of all of the guidance, training, and resources you'll need to implement a successful upgrade from Skype for Business to Teams at [Plan your upgrade from Skype for Business to Microsoft Teams](upgrade-skype-teams.yml).|
 
 Keep reading for frequently-asked questions about upgrade.
 
