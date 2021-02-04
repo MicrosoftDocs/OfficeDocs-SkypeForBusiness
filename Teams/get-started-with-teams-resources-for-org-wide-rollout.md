@@ -25,6 +25,43 @@ appliesto:
 
 # Choose a path to your organization-wide rollout of Microsoft Teams
 
-Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption. Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
+Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.
+
+Select **Small business** if you only have a few employees or don't have multiple locations or a complex network.
+
+Select **Medium/large business** if you want to create a formal adoption process for key stakeholders; have multiple locations or a large network with proxy servers, multiple firewalls; have complex compliance requirements; or have other non-standard requirements that require extra planning.
+
+#### [Small business](#tab/SmallBusiness)
+
+While the steps in the previous section are enough to take a look at Teams and get used to how it works, there are lots of ways you can customize Teams. The following sections show you how to set up each Teams workload: **chats, teams and channels**;**meetings and conferencing**; and **cloud voice**. The order in which you set up each workload is up to you. While we recommend setting up the chats, teams, and channels workload first, you can start with meetings and conferencing or even cloud voice. The choice is yours.
+
+## Chat, teams, and channels
+
+- [Overview of teams and channels](teams-channels-overview.md)
+- [Plan how you'll use chat, teams, and channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Assign teams owners and members in Teams](assign-roles-permissions.md)
+- [Chat and call with users from other organizations](communicate-with-users-from-other-organizations.md)
+- [Manage teams and channel policies](teams-policies.md)
+
+## Meetings and conferencing
+
+- [Quick start - meetings and live events](quick-start-meetings-live-events.md)
+- [Manage meetings settings](meeting-settings-in-teams.md)
+
+## Cloud voice
+
+- [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+- [What to buy to get Business Voice](business-voice/what-to-buy.md)
+- [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
+- [Customize Business Voice](business-voice/customize-business-voice.md)
+- [Create and license Business Voice users](business-voice/create-users.md)
+
+#### [Medium/large business](#tab/LargeBusiness)
+
+## Section name test
+
+test
+
+---
 
 For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).

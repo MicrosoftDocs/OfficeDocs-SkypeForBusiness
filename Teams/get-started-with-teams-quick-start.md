@@ -37,10 +37,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 
 ![Diagram illustrating Teams deployment pathways](media/get-started-with-teams-quick-start-pathways.png)
 
-If you have a large organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md) to help you plan the rollout of these workloads across your organization. The Advisor uses Teams itself to create a plan tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
-
-> [!div class="nextstepaction"]
-> [Open Teams admin center](https://admin.teams.microsoft.com)
+If you have a medium or large organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md) to help you plan the rollout of these workloads across your organization. The Advisor uses Teams itself to create a plan tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
 
 ## Make sure you're ready
 
@@ -62,44 +59,10 @@ Use the steps below to set up a couple teams and onboard a few early adopters to
 - Step 1: [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 - Step 2: [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
 - Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+
+When you're ready to roll out Teams to the rest of your organization, move on to Step 4. If you're upgrading or migrating from Skype for Business, read the [Upgrade or migration from Skype for Business](#upgrade-or-migrate-from-skype-for-business) section first.
+
 - Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
-
-## Make Teams yours
-
-When you're ready, select **Small business** or **Medium/large business** to find information that'll help you make Teams yours.
-#### [Small business](#tab/SmallBusiness)
-
-While the steps in the previous section are enough to take a look at Teams and get used to how it works, there are lots of ways you can customize Teams. The following sections show you how to set up each Teams workload: **chats, teams and channels**;**meetings and conferencing**; and **cloud voice**. The order in which you set up each workload is up to you. While we recommend setting up the chats, teams, and channels workload first, you can start with meetings and conferencing or even cloud voice. The choice is yours.
-
-> [!NOTE]
-> If you're already using Skype for Business Online or have installed a Skype for Business server in your office, see [Upgrade or migrate from Skype for Business](#upgrade-or-migrate-from-skype-for-business) first.
-
-### Chat, teams, and channels
-
-- [Overview of teams and channels](teams-channels-overview.md)
-- [Plan how you'll use chat, teams, and channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Assign teams owners and members in Teams](assign-roles-permissions.md)
-- [Chat and call with users from other organizations](communicate-with-users-from-other-organizations.md)
-- [Manage teams and channel policies](teams-policies.md)
-
-### Meetings and conferencing
-
-- [Quick start - meetings and live events](quick-start-meetings-live-events.md)
-- [Manage meetings settings](meeting-settings-in-teams.md)
-
-### Cloud voice
-
-- [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
-- [What to buy to get Business Voice](business-voice/what-to-buy.md)
-- [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
-- [Customize Business Voice](business-voice/customize-business-voice.md)
-- [Create and license Business Voice users](business-voice/create-users.md)
-
-#### [Medium/large business](#tab/LargeBusiness)
-
-Large business content
-
----
 
 ## Upgrade or migrate from Skype for Business
 
