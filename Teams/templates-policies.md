@@ -70,7 +70,7 @@ Users assigned to a policy will only be able to view the viewable templates with
 
 3. Select **Apply**.
 
-> [Note]
+> [!Note]
 > It might take up to 24 hours for your new policy to take effect for end users.
 
 ## Size limits for Template policies
