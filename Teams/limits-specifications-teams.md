@@ -52,7 +52,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
-<sup>5</sup> Teams in GCC can only accommodate members and teams in GCCH/DoD can only accommodate 2,500 members.
+<sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
 
 ## Messaging
 
