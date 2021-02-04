@@ -38,20 +38,24 @@ For others who desire integrated solutions with business tools and workflows to 
 
 The APIs allow partners to develop and integrate CCaaS solutions for Teams. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
+The following partners have a certified solution for Microsoft Teams and are ready to engage customers:
+
+|  Partner                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+
 The following partners are in the process of certifying their solution for Microsoft Teams and are ready to engage customers:
 
 |  Partner                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `8x8` | https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams?locale=us |
-| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
-| 'Geomant' | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
+| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
