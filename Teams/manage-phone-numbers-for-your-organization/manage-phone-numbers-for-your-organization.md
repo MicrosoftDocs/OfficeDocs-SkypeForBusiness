@@ -32,6 +32,7 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 # Manage phone numbers for your organization
 
 There are four ways to get user (subscriber) and service (toll and toll-free) phone numbers for your organization:
+
 - [Getting new user phone numbers in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users).
 - [Getting new service phone numbers in the Microsoft Teams Admin Center](https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers#get-new-service-numbers).
 - [Transfer or _Port_ your existing phone numbers with us](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
@@ -49,14 +50,25 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Austria](phone-number-management-for-austria.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Czech Republic](phone-number-management-for-czech-republic.md)
 > - [Denmark](phone-number-management-for-denmark.md)
+> - [Finland](phone-number-management-for-finland.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
+> - [Hungary](phone-number-management-for-hungary.md)
 > - [Ireland](phone-number-management-for-ireland.md)
 > - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
+> - [Luxembourg](phone-number-management-for-luxembourg.md)
 > - [Netherlands](phone-number-management-for-the-netherlands.md)
+> - [New Zealand](phone-number-management-for-new-zealand.md)
+> - [Norway](phone-number-management-for-norway.md)
+> - [Poland](phone-number-management-for-poland.md)
 > - [Portugal](phone-number-management-for-portugal.md)
+> - [Romania](phone-number-management-for-romania.md)
+> - [Singapore](phone-number-management-for-singapore.md)
+> - [Slovakia](phone-number-management-for-slovakia.md)
+> - [South Korea](phone-number-management-for-south-korea.md)
 > - [Spain](phone-number-management-for-spain.md)
 > - [Sweden](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)
@@ -95,7 +107,7 @@ Once you have your **filled and signed** LOA, please [contact our PSTN Service D
 - To see _if_ and which calling plans are available in your country or region, read [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To assist you in choosing the correct type of phone numbers, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - To get assistance with setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
-    
+
 ## Related topics
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
