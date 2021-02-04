@@ -64,12 +64,17 @@ Use the steps below to set up a couple teams and onboard a few early adopters to
 - Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
 - Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
 
+## Make Teams yours
+
 When you're ready, select **Small business** or **Medium/large business** to find information that'll help you make Teams yours.
 #### [Small business](#tab/SmallBusiness)
 
-The sections below have information and links to help you deploy the Teams workloads mentioned above. If you're already using Skype for Business Online or have installed a Skype for Business server in your office, see [Upgrade or migrate from Skype for Business](#upgrade-or-migrate-from-skype-for-business) first.
+While the steps in the previous section are enough to take a look at Teams and get used to how it works, there are lots of ways you can customize Teams. The following sections show you how to set up each Teams workload: **chats, teams and channels**;**meetings and conferencing**; and **cloud voice**. The order in which you set up each workload is up to you. While we recommend setting up the chats, teams, and channels workload first, you can start with meetings and conferencing or even cloud voice. The choice is yours.
 
-## Chat, teams, and channels
+> [!NOTE]
+> If you're already using Skype for Business Online or have installed a Skype for Business server in your office, see [Upgrade or migrate from Skype for Business](#upgrade-or-migrate-from-skype-for-business) first.
+
+### Chat, teams, and channels
 
 - [Overview of teams and channels](teams-channels-overview.md)
 - [Plan how you'll use chat, teams, and channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
@@ -77,12 +82,12 @@ The sections below have information and links to help you deploy the Teams workl
 - [Chat and call with users from other organizations](communicate-with-users-from-other-organizations.md)
 - [Manage teams and channel policies](teams-policies.md)
 
-## Meetings and conferencing
+### Meetings and conferencing
 
 - [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 - [Manage meetings settings](meeting-settings-in-teams.md)
 
-## Microsoft 365 Business Voice
+### Cloud voice
 
 - [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
 - [What to buy to get Business Voice](business-voice/what-to-buy.md)
