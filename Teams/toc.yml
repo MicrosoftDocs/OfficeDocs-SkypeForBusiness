@@ -1079,24 +1079,24 @@ items:
         - name: Custom apps store 
           href: customize-your-app-store.md
 
-- name: Manage apps for Teams
-  items:
-    - name: Overview
-      href: manage-apps.md
-    - name: View app permissions and grant admin consent in the Microsoft Teams admin center
-      href: app-permissions-admin-center.md
-    - name: Apps permissions and considerations
-      href: app-permissions.md
-    - name: Admin settings for apps in Teams
-      href: admin-settings.md
-    - name: Use built-in and custom tabs
-      href: built-in-custom-tabs.md
-    - name: Use Microsoft 365 or Office 365 and custom connectors
-      href: Office-365-custom-connectors.md
-    - name: Resource-specific consent
-      href: resource-specific-consent.md
-    - name: Set up your team targeting hierarchy
-      href: set-up-your-team-hierarchy.md
+    - name: Manage apps for Teams
+      items:
+        - name: Overview
+          href: manage-apps.md
+        - name: View app permissions and grant admin consent in the Microsoft Teams admin center
+          href: app-permissions-admin-center.md
+        - name: Apps permissions and considerations
+          href: app-permissions.md
+        - name: Admin settings for apps in Teams
+          href: admin-settings.md
+        - name: Use built-in and custom tabs
+          href: built-in-custom-tabs.md
+        - name: Use Microsoft 365 or Office 365 and custom connectors
+          href: Office-365-custom-connectors.md
+        - name: Resource-specific consent
+          href: resource-specific-consent.md
+        - name: Set up your team targeting hierarchy
+          href: set-up-your-team-hierarchy.md
 
 
 - name: Adopt
