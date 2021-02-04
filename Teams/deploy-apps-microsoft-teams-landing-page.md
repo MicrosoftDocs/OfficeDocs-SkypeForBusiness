@@ -23,9 +23,9 @@ ms.custom: seo-marvel-apr2020
 
 Apps let you find content from your favorite services and share it right in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
 
-You also have the option of creating your own custom apps. See our [developer documentation](/microsoftteams/platform/overview) for more information.
+Teams also integrates with Microsoft Power Platform, which enables developers to analyze data, build custom apps, and create intelligent bots. For more information, see [Teams integration with Microsoft Power Platform](teams-power-platfom-integration.md) and [Build apps for Microsoft Teams](/microsoftteams/platform/overview).
 
 ## Apps deployment decisions
 
