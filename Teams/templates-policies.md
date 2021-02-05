@@ -79,6 +79,10 @@ You can hide a max of 100 templates per policy. The **Hide** button is disabled 
 
 ## Frequently asked questions
 
+**Q: Can I batch assign users to team templates policies?**
+  
+A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. [Learn more](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+
 **Q: Can Groups be assigned to team templates policies?**
 
 A: Currently no. This functionality will be available in the future.
@@ -91,7 +95,7 @@ A: Any new templates will be visible by default. You can choose to hide the temp
 
 A: Any deleted templates will no longer be present in any templates policies.
 
-**Q: Can I assign batches of users to a specific templates policy?**
+**Q: Can I assign multiple users to a template policy in the Teams Admin Center?**
 
 A: Yes.
 
@@ -119,9 +123,6 @@ A: No, this isn't supported.
 
 A: No, this isn't supported.
 
-**Q: Can I batch assign users to team templates policies?**
-  
-A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. [Learn more](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
 ## Related topics
 
 - [Get started with team templates in the admin center](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
