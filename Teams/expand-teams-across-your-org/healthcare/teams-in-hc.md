@@ -55,10 +55,10 @@ The following scenarios are available for healthcare organizations:
 | [Virtual visits with Microsoft Bookings and the Bookings app](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario relies on Microsoft Bookings to support virtual visits. | Microsoft Bookings must be turned on for the organization. <br> All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling*. <br>[Details for Bookings requirements](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
 | [Teams policy packages](#teams-policy-packages)| Ensure that clinical workers, information workers, and patient room devices have the appropriate access to Teams functionality.| Users must have an appropriate license*. |
 | [Secure messaging](#secure-messaging) | Get quicker attention to urgent messages and have confidence that the message was received and read. | Users must have an appropriate license*.  |
-| [Teams templates](#teams-templates) | Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within a ward, pod, or department, or between multiple wards, pods, and departments within a hospital. | Users must have an appropriate license*.  |
+| [Teams templates](#teams-templates-for-healthcare-organizations) | Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within a ward, pod, or department, or between multiple wards, pods, and departments within a hospital. | Users must have an appropriate license*.  |
 | [Care coordination and collaboration](#care-coordination-and-collaboration) | Clinicians and staff can collaborate internally on schedules, documents, tasks, and so on.| Users must have an appropriate license*. |
 
-*Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, A3, A5, E3, and E5 are supported. For more information about general Teams licensing, see [Manage user access to Teams](../user-access.md).
+*Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, A3, A5, E3, and E5 are supported. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md).
 
 ## Virtual visits and Electronic Healthcare Record (EHR) integration
 
