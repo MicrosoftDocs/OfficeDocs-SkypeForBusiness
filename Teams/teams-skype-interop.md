@@ -1,7 +1,7 @@
 ---
 title: Teams and Skype interoperability
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
