@@ -36,16 +36,16 @@ To provide organization-level Insights, you must [import data from the Student I
 
 ## Grant permissions
 
-* Open the Insights app, click **Settings** and select **User permissions**
+* Open the Insights app, click **Settings**, and select **User permissions**
 
 :::image type="content" source="media/insights-user-permissions.png" alt-text="Settings":::
 
 * Select **Add users**.
 * Enter the username or email address of each user.
 * Select the permission level:
-  * **Access to all organization** means the user sees all the org units at all levels. This is very rarely used.
-  * **Acess to specific schools** means the user sees the selected schools. Start typing and select the school from the list. You can add multiple schools together.
-* Confirm that they can  data, then select **Add new users**.
+  * **Access to all organization** means the user sees all the org units at all levels.
+  * **Access to specific schools** means the user sees the selected schools. Start typing and select the school from the list. You can add multiple schools together.
+* Click **Add new users**.
 
 :::image type="content" source="media/insights-add-users.png" alt-text="Grant permissions":::
 
@@ -60,6 +60,6 @@ To provide organization-level Insights, you must [import data from the Student I
 
 ## Remove permissions
 * Select the users you want to remove, then select **Remove users**.
-* These users no longer have access to organization-level Insights, but still be able to access class-level Insights if they own a class team.
+* These users no longer have access to organization-level Insights, but can still access class-level Insights if they own a class team.
 
 :::image type="content" source="media/insights-remove-users.png" alt-text="Remove permissions":::
