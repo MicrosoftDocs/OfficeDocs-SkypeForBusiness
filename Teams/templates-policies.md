@@ -54,7 +54,7 @@ Assign different users to different template policies so that your users only vi
 
 1. Select the templates to unhide, and then select **Show**.
 
-   ![The selected templates with hide highlighted](media/template-policies-3.png)
+   ![The selected templates that are not hidden](media/template-policies-3.png)
 
    The selected templates will appear in your **Viewable templates** table.
 3. Select **Save**.
@@ -69,7 +69,7 @@ Users assigned to a policy will only be able to view the viewable templates with
 
 2. Type the users to assign to this policy.
 
-   ![The selected templates with hide highlighted](media/template-policies-4.png)
+   ![assign users to a policy](media/template-policies-4.png)
 
 3. Select **Apply**.
 
@@ -116,7 +116,7 @@ A: In the Admin center:
 2. Select the filter in the Users list table and filter for the teams template policy.
 3. Select **Apply**.
 
-![The selected templates with hide highlighted](media/template-policies-5.png)
+![The selected template policy and view users](media/template-policies-5.png)
 
 **Q: Can I manage templates policies via PowerShell?**
 
