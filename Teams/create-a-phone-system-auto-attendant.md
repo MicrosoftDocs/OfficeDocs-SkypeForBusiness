@@ -56,6 +56,9 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, click 
 
 5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
+> [!NOTE]
+> If you choose a language in step 4 that doesn't support voice inputs this option will be disabled.
+
 6. Click **Next**.
 
 ## Call flow
