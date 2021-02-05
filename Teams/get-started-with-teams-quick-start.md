@@ -23,6 +23,9 @@ ms.custom: seo-marvel-mar2020
 
 # Get started with Microsoft Teams
 
+> [!TIP]
+> Are you looking for information on how to install the Teams client on your PC or mobile device? Go here: [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
+
 ## Start here
 
 Whether you're a small business or a multi-national, this is the place to start rolling out Teams. These articles will guide you through a small-scale Teams rollout, which may be all you need if you're a small business or if you're rolling out Teams quickly as your first Microsoft 365 workload to support **remote workers**.
