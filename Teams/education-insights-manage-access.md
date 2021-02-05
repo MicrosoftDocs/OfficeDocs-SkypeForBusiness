@@ -36,12 +36,18 @@ To provide organization-level Insights, you must [import data from the Student I
 
 ## Grant permissions
 
-* In **Settings**, select **Add users**.
+* Open the Insights app, click **Settings** and select **User permissions**
+
+:::image type="content" source="media/insights-user-permissions.png" alt-text="Settings":::
+
+* Select **Add users**.
 * Enter the username or email address of each user.
-* Select the permission level.
+* Select the permission level:
   * **Access to all organization** means the user sees all the org units at all levels. This is very rarely used.
   * **Acess to specific schools** means the user sees the selected schools. Start typing and select the school from the list. You can add multiple schools together.
 * Confirm that they can  data, then select **Add new users**.
+
+:::image type="content" source="media/insights-add-users.png" alt-text="Grant permissions":::
 
 > [!NOTE]
 > Only provide permission to those education leaders that need them and only to the organizational units they are responsible for. If you are unsure whether user permission for a specific organization is required, consult your institution's privacy subject matter experts, such as legal or HR personnel.
@@ -50,6 +56,10 @@ To provide organization-level Insights, you must [import data from the Student I
 * Select specific user, then select **Edit permissions**.
 * Update the permission level or schools list, and click **Update permissions**.
 
+:::image type="content" source="media/insights-edit-users.png" alt-text="Edit permissions":::
+
 ## Remove permissions
 * Select the users you want to remove, then select **Remove users**.
-* These users no longer have access to organizational-level Insights, but still be able to access class-level Insights if they own a class team.
+* These users no longer have access to organization-level Insights, but still be able to access class-level Insights if they own a class team.
+
+:::image type="content" source="media/insights-remove-users.png" alt-text="Remove permissions":::
