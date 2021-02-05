@@ -125,9 +125,6 @@ Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the require
 
 We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
-> [!NOTE]
-> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
-
 ## Plan your call routing flow
 
 As part of the planning process, we recommend that you work out the call routing for your organization in a diagram. The diagram helps determine the most efficient routing for people calling in to your organization. You can also use the diagram to determine the auto attendants and call queues that you need to create, along with related requirements such as service numbers, licenses, and resource accounts.
