@@ -119,7 +119,7 @@ A: No, this isn't supported.
 
 A: No, this isn't supported.
 
-**Q: Can I batch assign users to team templates policies?
+**Q: Can I batch assign users to team templates policies?**
   
 A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. [Learn more](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
 ## Related topics
