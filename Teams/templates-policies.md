@@ -18,9 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to manage Teams templates in the admin center
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create and manage Teams templates in the admin center
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Manage the Teams templates that are shown to your end users by creating templates policies in the admin center. Within each template policy, you can designate which templates are shown or hidden.
 Assign different users to different template policies so that your users only view the subset of Teams templates specified.
