@@ -1,5 +1,5 @@
 ---
-title: "Set up an auto attendant for Microsoft Teams supported languages"
+title: "Create a call queue in Microsoft Teams supported languages"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
