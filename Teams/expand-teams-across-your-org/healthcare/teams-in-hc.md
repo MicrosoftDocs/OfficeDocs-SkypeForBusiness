@@ -17,6 +17,8 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
   - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-overview
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
