@@ -68,5 +68,5 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Turkish (Turkey)                        |
 |Vietnamese (Vietnam)                    |
 
-> [!NOTES]
+> [!NOTE]
 > > When using text to speech, the text must be entered in the selected language as the system does not perform translation.
