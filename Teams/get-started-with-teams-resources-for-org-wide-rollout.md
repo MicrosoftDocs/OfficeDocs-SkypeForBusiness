@@ -1,7 +1,7 @@
 ---
 title: Choose a path to your organization-wide rollout
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
@@ -25,7 +25,7 @@ appliesto:
 
 # Choose a path to your organization-wide rollout of Microsoft Teams
 
-Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption.
+Now that you've successfully set up your first teams and onboarded a few early adopters, it's time to begin your rollout of Teams to the rest of your organization.
 
 > [!TIP]
 > Before you begin your Teams rollout, we strongly recommend that you complete the [Prepare for a Teams deployment with Microsoft 365](/learn/modules/m365-teams-collab-prepare-deployment/) Microsoft Learn module. This 30 minute module will jump-start your understanding of Teams and talk through key decisions you need to make as you roll out Teams.
@@ -46,6 +46,9 @@ Before you roll out Teams broadly, make sure your organization is ready by revie
 
 Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or more users talk to each other, share files, and meet privately. **Teams**, which can be visible to everyone in your organization or only to those in the team, let the right people collaborate whatever the task or occasion, whether it's a long-running project or planning for a birthday party. **Channels** within teams can segment topics, projects, departments, or anything else make sense for your team. For details about chat, teams, and channels, check out [Overview of teams and channels](teams-channels-overview.md).
 
+> [!TIP]
+> See how you can manage team rolls, access, and messaging policies by completing the [Manage Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
+
 As you think about rolling out teams and channels, you need to decide who should be able to create them, what policies should be applied to them, whether guests from outside your organization can access them, and so on. The article [Chat, teams, channels, & apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) has lots of information about planning for chat, teams, and channels, however, here are some key things from that article you should think about. Click on a decision if you want more information about it.
 
 | Decision | Description |
@@ -60,6 +63,13 @@ As you think about rolling out teams and channels, you need to decide who should
 reporting
 
 ### Meetings and conferencing
+
+Meetings and conferencing lets people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, talk to each other via voice, and share video and apps with other participants using a PC or mobile device. **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
+
+> [!TIP]
+> Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
+
+
 
 - [Quick start - meetings and live events](quick-start-meetings-live-events.md)
 - [Manage meetings settings](meeting-settings-in-teams.md)
