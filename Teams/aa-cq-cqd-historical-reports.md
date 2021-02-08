@@ -161,7 +161,7 @@ Please perform these steps:
 
 |Name	                                   |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/ External call source (*1*)|
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>|
 |Directory search method totals          |Distribution of call by search type                         |
 |Caller action                           |Distribution of call by call receiver                       |
 |Call result                             |Distribution of call by final call state                    |
