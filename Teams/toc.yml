@@ -1083,6 +1083,8 @@ items:
       href: configure-skype-meetings-app-to-work-with-teams.md
     - name: Teams Approvals app availability
       href: approval-admin.md
+    - name: Apps behavior for non-standard users
+      href: non-standard-users.md
 
 - name: Adopt
   items: 
