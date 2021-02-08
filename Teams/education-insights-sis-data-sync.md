@@ -51,10 +51,10 @@ The following table provides the type of data required to get the best out of In
 > During the deployment process, you can decide if you want to use SDS for provisioning users and classes in Teams or to use it only to provide data to Insights.
 
 ## Best practices
-The accurate mapping of the hierarchy and where everyone belongs within that hierarchy enables Insights to provide accurate data and more precise and relevant insights for the different types of education leaders.
+The accurate mapping of the hierarchy and where everyone belongs within that hierarchy, enables Insights to provide accurate data and more precise and relevant insights for the different types of education leaders.
 
 The more detail you provide here, the better and more relevant the reports and spotlights will be.
-Here are some best practices based to ensure the smooth deployment of SDS so that your users can make the most out of Insights.
+Here are some best practices to ensure the smooth deployment of SDS so that your users can make the most out of Insights.
 
 ### Users
 *	Make sure *all users* are listed in the files you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.
