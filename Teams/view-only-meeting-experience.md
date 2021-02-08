@@ -20,6 +20,9 @@ appliesto:
 
 # Teams view-only meeting experience
 
+> [!Note]
+> We've temporarily increased view-only experience for 20,000 attendees, but we'll revert support to 10,000 attendees on June 30, 2021.
+ 
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience.
 
 Attendees who join the meeting first, up to the capacity of the meeting, will get the full Teams meeting experience. They can share audio and video, see shared videos, and participate in meeting chat.
