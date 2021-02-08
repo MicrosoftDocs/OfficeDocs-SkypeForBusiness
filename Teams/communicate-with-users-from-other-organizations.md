@@ -17,27 +17,27 @@ f1.keywords:
 appliesto: 
 - Microsoft Teams
 localization_priority: Priority
-description: Learn how to call, chat, find and add users from outside the organization in Microsoft Teams using federation and guest access.
+description: Learn how to call, chat, find and add users from outside the organization in Microsoft Teams using external access (federation) and guest access.
 ---
 
 # Call, chat, and collaborate with people outside your organization in Microsoft Teams
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams has two options:
 
-- **Federation** - Federation - also know as *external access* - allows users to find, call, and chat with people in other organizations. Federated users cannot be added to teams unless they are invited as guests.
+- **external access** - A type of federation that allows users to find, call, and chat with people in other organizations. These people cannot be added to teams unless they are invited as guests.
 - **Guest access** - Guest access allows you to invite people from outside your organization to join a team. Invited people get a guest account in Azure Active Directory.
 
-Note that Teams allows you to invite people outside your organization to meetings. This does not require federation or guest access to be configured.
+Note that Teams allows you to invite people outside your organization to meetings. This does not require external or guest access to be configured.
 
-## Federation
+## External access (federation)
 
-Use federation when you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business (online or on premises) or Skype. 
+Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business (online or on premises) or Skype. 
 
-Federation is configured using the Teams *external access* settings. By default, federation is enabled for all domains. You can restrict federation by allowing or blocking specific domains or by turning it off.
+By default, external access is enabled for all domains. You can restrict external access by allowing or blocking specific domains or by turning it off.
 
 ![Screenshot of external access settings](media/external-access-federation-settings.png)
 
-To configure federation, see [Manage external access](manage-external-access.md). 
+To configure external access, see [Manage external access](manage-external-access.md). 
 
 ## Guest access
 
@@ -49,11 +49,11 @@ To configure guest access for Teams, see [Collaborate with guests in a team](htt
 
 ## Compare external and guest access
 
-The following tables show the differences between using federation and guests. In both cases, people outside your organization are identified as external to your users.
+The following tables show the differences between using external access (federation) and guests. In both cases, people outside your organization are identified to your users as being external.
 
 ### Things your users can do
 
-| Users can | Federation | Guests |
+| Users can | External access users | Guests |
 |---------|-----------------------|--------------------|
 | Chat with someone in another organization | Yes | Yes |
 | Call someone in another organization | Yes | Yes |
@@ -66,7 +66,7 @@ The following tables show the differences between using federation and guests. I
 
 ### Things people outside your organization can do
 
-| People outside your organization can | Federation | Guests |
+| People outside your organization can | External access users | Guests |
 |---------|-----------------------|--------------------|
 | Access Teams resources | No | Yes |
 | Be added to a group chat | No | Yes |
