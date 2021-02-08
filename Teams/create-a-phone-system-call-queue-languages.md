@@ -69,4 +69,4 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Vietnamese (Vietnam)                    |
 
 > [!NOTE]
-> > When using text to speech, the text must be entered in the selected language as the system does not perform translation.
+> > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.
