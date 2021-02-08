@@ -340,6 +340,8 @@ items:
               href: troubleshoot-guest-access.md
     - name: Cortana in Teams
       href: cortana-in-teams.md
+    - name: Set up your team targeting hierarchy
+      href: set-up-your-team-hierarchy.md
     
 
 - name: Meetings and conferencing
@@ -1039,7 +1041,7 @@ items:
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Teams built-in apps
+    - name: Apps from Microsoft
       items:
         - name: Manage the Lists app 
           href: manage-lists-app.md
@@ -1049,14 +1051,14 @@ items:
           href: manage-praise-app.md
         - name: Manage the Teams Approvals app
           href: approval-admin.md
-        - name: Configure the Skype Meetings App to work with Teams
-          href: configure-skype-meetings-app-to-work-with-teams.md
+        - name: Manage the Shifts app for your organization in Teams
+          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
-    - name: Third-party apps and certification
+    - name: Third-party apps
       items:
         - name: App certification
-          href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Purchase services for Teams third-party apps
+          href: https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview
+        - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
         - name: App templates for Teams
           href: https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -1080,6 +1082,8 @@ items:
           href: manage-apps.md
         - name: View app permissions and grant admin consent in the Microsoft Teams admin center
           href: app-permissions-admin-center.md
+        - name: Resource-specific consent
+          href: resource-specific-consent.md
         - name: Apps permissions and considerations
           href: app-permissions.md
         - name: Admin settings for apps in Teams
@@ -1088,11 +1092,6 @@ items:
           href: built-in-custom-tabs.md
         - name: Use Microsoft 365 or Office 365 and custom connectors
           href: Office-365-custom-connectors.md
-        - name: Resource-specific consent
-          href: resource-specific-consent.md
-        - name: Set up your team targeting hierarchy
-          href: set-up-your-team-hierarchy.md
-
 
 - name: Adopt
   items: 
