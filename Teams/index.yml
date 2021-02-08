@@ -41,7 +41,7 @@ highlightedContent:
     # Card
     - title: Upgrade from Skype for Business to Teams
       itemType: how-to-guide
-      url: /MicrosoftTeams/upgrade-start-here
+      url: /MicrosoftTeams/upgrade-skype-teams
     # Card
     - title: Adoption hub
       itemType: get-started
