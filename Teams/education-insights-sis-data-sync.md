@@ -32,7 +32,7 @@ Insights works best when using [SDS V2 file format](https://docs.microsoft.com/s
 
 ### Differences between SDS V1 and V2 file formats
 
-| Data type |	V1 | V2 (recommended) |
+| Data type |	V1 | V2 (recommended for new customers) |
 |:--- |:--- |:--- |
 | **Users** | The V1 format contains **only educators**, so to set org-level permissions for your education leaders, you need to search for them and define each one's permission manually. | The V2 format contains **all the roles** so that you can assign role-based permissions. |
 | **Orgs** | The V1 format contains **only schools**, so you see only one aggregation level (all your schools). You can zoom in to a specific school using a flat list, but this list may have a large number of schools or contain different types of schools that are hard to compare (such as primary to secondary school or science to art school).<br/><br/> When there is a hierarchy in place, you can create levels that make sense, such as a science or art department.| The V2 format contains **the full hierarchy of your district or institution**, including universities, colleges, faculties, campuses, regions, programs and so on.<br/><br/> With a hierarchy, you can see relevant aggregation by each level of the hierarchy, quickly compare between organizational units at each level, assign permission to specific levels, set goals by org level, and so on.|
@@ -51,10 +51,10 @@ The following table provides the type of data required to get the best out of In
 > During the deployment process, you can decide if you want to use SDS for provisioning users and classes in Teams or to use it only to provide data to Insights.
 
 ## Best practices
-The accurate mapping of the hierarchy and where everyone belongs within that hierarchy enables Insights to provide accurate data and more precise and relevant insights for the different types of education leaders.
+The accurate mapping of the hierarchy and where everyone belongs within that hierarchy, enables Insights to provide accurate data and more precise and relevant insights for the different types of education leaders.
 
 The more detail you provide here, the better and more relevant the reports and spotlights will be.
-Here are some best practices based to ensure the smooth deployment of SDS so that your users can make the most out of Insights.
+Here are some best practices to ensure the smooth deployment of SDS so that your users can make the most out of Insights.
 
 ### Users
 *	Make sure *all users* are listed in the files you provide and synced. This includes all students and staff that need to see data for the organizational units they cover.
@@ -107,7 +107,9 @@ If you do not see the option for *Sync organizational data from SDS (preview)* o
 ### Deploy SDS
 **If you already use SDS**, we recommend you follow our [best practices](#best-practices). 
 
-To sync your current profiles with Insights, go to your **Sync Profile(s)**, click **Edit**, and select **Sync organizational data from SDS**. For the initial sync, we recommend waiting 24 hours for the reports to be available after the data is refreshed from your SIS.  
+To sync your current profiles with Insights, go to your **Sync Profile(s)**, click **Edit**, and select **Sync to Insights**. For the initial sync, we recommend waiting 24 hours for the reports to be available after the data is refreshed from your SIS.  
+
+:::image type="content" source="media/insights-sds-profile-sync.png" alt-text="Sync profile with Insights toggles":::
 
 **If you don't use SDS yet**, you now need to [deploy it](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync).
 
@@ -117,7 +119,7 @@ During the deployment process, you can decide if you want to use SDS for provisi
 > If it's the middle of the year and you already created teams manually, use SDS only to provide the data to Insights, and next year consider to use SDS for provisioning users and classes in Teams as well.
 
 ### Verify the sync process
-A new status area appears next to Sync organizational data – Preview on the Settings page.
+A new status area appears next to Sync organizational data from SDS (preview) on the Settings page.
  
 *	If the status is **In progress**, please wait up to 24 hours after deployment of the SDS profile.
 
