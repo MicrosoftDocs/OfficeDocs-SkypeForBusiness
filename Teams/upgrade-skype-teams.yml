@@ -119,7 +119,7 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
       summary: This session from Ignite 2020 helps you find the approach most suitable for your Skype for Business implementation and goals.
-      url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+      url: https://go.microsoft.com/fwlink/?linkid=2154668
     # Card
     - title: Microsoft Teams plans and pricing
       imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
