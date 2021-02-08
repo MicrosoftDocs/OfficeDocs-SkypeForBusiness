@@ -198,4 +198,4 @@ Please perform these steps:
 
 - Only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
 
-- (*1*) **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
+- <sup>1</sup> **Incoming call source** in the auto attendant and Call Queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or Call Queue, the **Incoming call source** will be reported as Internal.
