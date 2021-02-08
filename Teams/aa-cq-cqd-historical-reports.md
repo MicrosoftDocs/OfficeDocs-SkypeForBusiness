@@ -172,7 +172,7 @@ Please perform these steps:
 
 |Name	                                   |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/ External call source (*1*)   |
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>   |
 |Call volume                             |Distribution of call by call queues                            |
 |Caller result                           |Distribution of call by call result                            |
 |Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
