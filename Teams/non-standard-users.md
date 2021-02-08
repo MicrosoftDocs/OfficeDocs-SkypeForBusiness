@@ -48,7 +48,7 @@ Guests will adhere to global and org-wide permission policies set for the host t
 
 Setup policies don't apply to guest users. This means admin pinned apps from the default policy don't affect guest users.
 
-## External (Federated) Users
+## External (Federated) Users apps access
 
 ### Install, update, and delete for external users
 
@@ -60,7 +60,7 @@ External users can't use any Teams apps, and when an external user is added to a
 
 External users aren't impacted by app policies, because they can't use Teams apps.
 
-## Anonymous users in meetings
+## Anonymous users in meetings apps access
 
 ### Install, update, and delete for anonymous users
 
