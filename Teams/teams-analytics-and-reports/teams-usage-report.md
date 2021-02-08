@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: kojika
 f1.keywords:
 - NOCSH
 localization_priority: Normal
