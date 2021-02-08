@@ -2,6 +2,52 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/1/2021 | [Upload tenant and building data in Call Quality Dashboard (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | modified |
+| 2/1/2021 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 2/1/2021 | [Sync Student Information System (SIS) data with Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | modified |
+| 2/1/2021 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
+| 2/1/2021 | [Manage and monitor Teams](/MicrosoftTeams/manage-teams-overview) | added |
+| 2/1/2021 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
+| 2/2/2021 | [Use Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 2/2/2021 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 2/2/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
+| 2/3/2021 | [Export content with the Microsoft Teams Export APIs](/MicrosoftTeams/export-teams-content) | modified |
+| 2/3/2021 | [Phone number management for Switzerland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | modified |
+| 2/3/2021 | [Connect your Session Border Controller (SBC) to Direct Routing](/MicrosoftTeams/direct-routing-connect-the-sbc) | modified |
+| 2/3/2021 | Microsoft Teams \| Environment Readiness \| Adoption, Discovery | removed |
+| 2/3/2021 | [Teams for Virtual visits](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
+| 2/3/2021 | [Release notes](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 2/4/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
+| 2/4/2021 | [Call Quality Dashboard (CQD) Frequently asked questions (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | modified |
+| 2/4/2021 | [Upgrading from Skype for Business to Teams FAQ](/MicrosoftTeams/faq-journey) | modified |
+| 2/4/2021 | [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions) | modified |
+| 2/4/2021 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 2/4/2021 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
+| 2/4/2021 | [Microsoft Teams admin documentation # < 60 chars](/MicrosoftTeams/index) | modified |
+| 2/4/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 2/4/2021 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
+| 2/4/2021 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
+| 2/4/2021 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
+| 2/4/2021 | [Set up Call Quality Dashboard (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modified |
+| 2/4/2021 | [Get started upgrading Skype for Business to Teams](/MicrosoftTeams/upgrade-start-here) | modified |
+| 2/5/2021 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
+| 2/5/2021 | [Microsoft Teams usage report](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modified |
+| 2/5/2021 | [Teams experience in a Microsoft 365 Multi-Geo-enabled environment](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modified |
+| 2/5/2021 | [Manage Teams templates in the admin center](/MicrosoftTeams/templates-policies) | added |
+| 2/5/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 2/5/2021 | [Teams for Virtual visits](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
+| 2/5/2021 | [Get started with Teams for healthcare organizations](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modified |
+| 2/5/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 2/5/2021 | [Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 2/5/2021 | [Install Teams using Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modified |
+| 2/5/2021 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+
+
 ## Week of January 25, 2021
 
 
