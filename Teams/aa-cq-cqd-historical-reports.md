@@ -194,7 +194,7 @@ Please perform these steps:
 
 ## Known Issues
 
-- Call Queue and auto attendants are shown by resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
+- Call Queue and auto attendants are shown by resource account's ID instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
 
 - Only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
 
