@@ -102,7 +102,7 @@ The view-only attendee won't be able to experience the following options in meet
 
 ## View-only feature limitations
 
-- View-only attendees will always see live captions, regardless of the live-captions setting for that meeting.
+- View-only attendees will always see live captions, regardless of the live-captions setting for that meeting. Only English Captions are supported at this time.
 - View-only attendees will be supported by streaming technology.
 - View-only attendees won't be included in the attendance report.
 - View-only attendees will have a single video experience. They can see either the active speaker or the content being shared, but not both.
