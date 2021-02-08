@@ -121,7 +121,7 @@ The following settings are recommended:
 - **Agent alert time:** to **20 seconds**
 
 > [!NOTE]
-> If Presence-based routing is not enabled and there are multiple calls in queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
+> If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
 ## Call overflow handling
 
