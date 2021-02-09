@@ -26,7 +26,7 @@ Voice and calling policies are used to control voice and calling in Microsoft Te
 ## Related topics
 
 * [Manage Teams with policies](manage-teams-with-policies.md)
-* [Manage emergency calling policies in Microsoft Teams](manage-emergency-calling-policies)
+* [Manage emergency calling policies in Microsoft Teams](manage-emergency-calling-policies.md)
 * [Manage emergency call routing policies](manage-emergency-call-routing-policies.md)
 * [Manage caller ID policies in Microsoft Teams](caller-id-policies.md)
 * [Manage voice routing policies](manage-voice-routing-policies.md)
