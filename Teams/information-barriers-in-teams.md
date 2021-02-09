@@ -207,4 +207,4 @@ For more information on licenses and permissions, including plans and pricing, s
 
 ## Availability
 - The feature is available in our public cloud; in January 2021, we rolled out Information Barriers in the GCC cloud.
-- The feature is still not yet available in GCCH and DOD cloud
+- The feature is not yet available in the GCCH and DOD clouds.
