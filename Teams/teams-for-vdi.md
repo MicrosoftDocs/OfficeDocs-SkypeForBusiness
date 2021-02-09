@@ -381,6 +381,7 @@ This feature is available in Teams version 1.3.00.13565 and later.
 
 The following calling and meeting features are not supported:
 
+- Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
 - Enhanced emergency services
 - HID buttons and LED controls between the Teams app and devices
 - Background blur and effects
