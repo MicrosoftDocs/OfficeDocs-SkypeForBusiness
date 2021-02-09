@@ -206,5 +206,5 @@ For more information on licenses and permissions, including plans and pricing, s
 - To edit or remove IB policies, see [Edit (or remove) information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies).
 
 ## Availability
-- The feature is available in our public cloud, in Jan 2021, we rolled out Information Barriers in GCC cloud.
+- The feature is available in our public cloud; in January 2021, we rolled out Information Barriers in the GCC cloud.
 - The feature is still not yet available in GCCH and DOD cloud
