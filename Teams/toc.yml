@@ -205,6 +205,8 @@ items:
       href: upgrade-operate-my-service.md
     - name: Enhance your service
       href: upgrade-enhance-my-service.md
+    - name: Public preview in Microsoft Teams
+      href: public-preview-doc-updates.md
     - name: Use inline message translation
       href: inline-message-translation-teams.md
     - name: Use Microsoft Teams scoped directory search
@@ -302,6 +304,8 @@ items:
           href: general-teams-templates-in-the-admin-console.md
         - name: Manufacturing category Teams templates
           href: manufacturing-teams-templates-in-the-admin-console.md
+        - name: Create and manage template policies
+          href: templates-policies.md
     - name: Communicate with external users
       items: 
         - name: Communicate with users from other organizations
@@ -422,8 +426,6 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-    - name: "Tutorial: Meetings in Teams"
-      href: Tutorial-Meetings-in-Teams.yml
     - name: Manage meeting policies
       href: meeting-policies-in-teams.md
     - name: Remove the RestrictedAnonymousAccess meeting policy from users
@@ -474,8 +476,6 @@ items:
           href: audio-conferencing-on-network.md
         - name: Audio Conferencing common questions
           href: audio-conferencing-common-questions.md
-        - name: "Tutorial: Audio Conferencing in Teams"
-          href: Tutorial-Audio-Conferencing.yml
         - name: Try or purchase Audio Conferencing in Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
         - name: Extended dial-out minutes for US and Canada
@@ -985,11 +985,6 @@ items:
               href: add-funds-and-manage-communications-credits.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
-        - name: "Tutorial: Calling in Teams"
-          href: Tutorial-calling-in-teams.yml
-          items: 
-            - name: Plan my users' experience
-              href: 5-envision-plan-my-users-experience.md
 
 - name: Microsoft 365 Business Voice
   items: 
@@ -1395,6 +1390,8 @@ items:
       href: service-health.md
     - name: Contact support for business products - Admin Help
       href: https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products
+    - name: How to look up your support PIN
+      href: support-pin.md
 
 
 - name: Reference
@@ -1530,16 +1527,10 @@ items:
           href: https://docs.microsoft.com/powershell/module/teams/?view=teams-ps
     - name: Developer documentation for Teams
       href: https://docs.microsoft.com/microsoftteams/platform
-    - name: Get help in Teams
-      href: get-help-in-microsoft-teams.md
     - name: Teams content updates
       href: teams-updates.md
-    - name: How to look up your support PIN
-      href: support-pin.md
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
-        - name: Overview
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Albania
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
         - name: Algeria
@@ -1782,5 +1773,4 @@ items:
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
       href: release-notes/release-notes.md
-    - name: Public preview in Microsoft Teams
-      href: public-preview-doc-updates.md
+
