@@ -113,12 +113,15 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-For high volume queues, we recommend the following settings:
+The following settings are recommended:
 
 - **Conference mode** to **Auto**
-- **Routing method** to **Attendant routing**
+- **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
+
+> [!NOTE]
+> If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
 ## Call overflow handling
 
