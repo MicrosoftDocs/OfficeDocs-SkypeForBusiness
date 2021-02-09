@@ -42,6 +42,14 @@ There are lots of ways you can customize Teams. The following sections show you 
 
 Before you roll out Teams broadly, make sure your organization is ready by reviewing the items in [Make sure you're ready](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
+Jump to the section you're interested in:
+
+[Chat, teams, and channels](#chat-teams-and-channels)
+
+[Meetings and conferencing](#meetings-and-conferencing)
+
+[Business Voice](#business-voice)
+
 ### Chat, teams, and channels
 
 Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or more users talk to each other, share files, and meet privately. **Teams**, which can be visible to everyone in your organization or only to those in the team, let the right people collaborate whatever the task or occasion, whether it's a long-running project or planning for a birthday party. **Channels** within teams can segment topics, projects, departments, or anything else make sense for your team. For details about chat, teams, and channels, check out [Overview of teams and channels](teams-channels-overview.md).
@@ -71,20 +79,28 @@ Meetings and conferencing lets people in your organization meet with each other 
 > [!TIP]
 > Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
 
-There are two important things to consider when rolling out Teams meetings and audio conferencing:
+Meetings are enabled by default in Teams, however, you can control the meeting experience for organizers and participants. You can also set policies for what people are, and aren't, allowed to do before and during meetings. For example, you can:
 
-- **Licensing** By default, anyone that's been assigned a Teams license can create a Teams meeting with up to 300 attendees, or a live event with up to 10,000 attendees. Attendees of Teams meetings or live events don't need a Teams license. If a meeting organizer wants to allow attendees to call in via phone, the organizer needs to have an Audio Conferencing license. For information about licensing, check out [Get licenses for meetings and live events](quick-start-meetings-live-events.md#get-licenses-for-meetings-and-live-events).
-- **Networking** Your network and Internet connection need to be fast enough to support the number of meetings your organization might host at once. For information on how to make sure your network is ready, check out [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+- Allow or prevent anonymous users from joining meetings organized by people in your organization.
+- Allow or prevent the use of PowerPoint sharing, whiteboards, shared notes, and chat.
+- Customize meeting invitations with your company logo, support website, and more.
+- Allow or prevent the use of cameras during meetings.
+- Enable or disable the recording of meetings.
+- Enable or disable screen sharing.
 
+The [Admin quick start - Meetings and live events in Microsoft Teams](quick-start-meetings-live-events.md) article guides you to the right information to customize Teams meetings for your organization.
 
+The [Set up Audio Conferencing for small and medium businesses](audio-conferencing-smb.md) article shows you how to set up audio conferencing for your meetings.
 
-### Cloud voice
+### Business Voice
 
-- [What's Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
-- [What to buy to get Business Voice](business-voice/what-to-buy.md)
-- [Run the Getting Started wizard](business-voice/use-getting-started-wizard.md)
-- [Customize Business Voice](business-voice/customize-business-voice.md)
-- [Create and license Business Voice users](business-voice/create-users.md)
+[Microsoft 365 Business Voice](business-voice/whats-business-voice.md) is a great solution for businesses with fewer than 300 users that gives you all the features of an office phone system. Business Voice includes voicemail, caller ID, phone system menus, toll-free numbers, and more, without the need to manage a complex and costly on-premises phone system.
+
+Based on Microsoft 365 Phone System, Business Voice simplifies adding voice to your organization by bundling Phone System features and add-ons, and providing an easy-to-follow wizard to help you set up your phone system. If your organization is located in a [country or region that supports Business Voice](business-voice/country-region-availability.md), you can transfer your phone numbers to Microsoft 365 and let us manage your phone system for you.
+
+With Microsoft 365 as your phone system, you can turn any device into a phone by installing the Teams client on it. Or, if you'd rather have a traditional desk phone or conference phone, there are many Teams-certified devices to choose from. Either way, calls are always routed to where you are, and calls you make always have your office phone number.
+
+If you're interested in trying out Business Voice, check out [What do I need to buy to use Microsoft 365 Business Voice?](business-voice/what-to-buy.md).
 
 #### [Medium/large business](#tab/LargeBusiness)
 
