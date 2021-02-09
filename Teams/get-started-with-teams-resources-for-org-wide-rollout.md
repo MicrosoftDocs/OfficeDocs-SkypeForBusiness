@@ -47,7 +47,7 @@ Before you roll out Teams broadly, make sure your organization is ready by revie
 Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or more users talk to each other, share files, and meet privately. **Teams**, which can be visible to everyone in your organization or only to those in the team, let the right people collaborate whatever the task or occasion, whether it's a long-running project or planning for a birthday party. **Channels** within teams can segment topics, projects, departments, or anything else make sense for your team. For details about chat, teams, and channels, check out [Overview of teams and channels](teams-channels-overview.md).
 
 > [!TIP]
-> See how you can manage team rolls, access, and messaging policies by completing the [Manage Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
+> See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
 
 As you think about rolling out teams and channels, you need to decide who should be able to create them, what policies should be applied to them, whether guests from outside your organization can access them, and so on. The article [Chat, teams, channels, & apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) has lots of information about planning for chat, teams, and channels, however, here are some key things from that article you should think about. Click on a decision if you want more information about it.
 
@@ -64,15 +64,19 @@ reporting
 
 ### Meetings and conferencing
 
-Meetings and conferencing lets people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, talk to each other via voice, and share video and apps with other participants using a PC or mobile device. **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
+Meetings and conferencing lets people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** (meetings up 300 attendees, and live events up to 10,000 attendees) to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, talk to each other via voice, and share video and apps with other participants using a PC or mobile device.
+
+**Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
 
 > [!TIP]
 > Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
 
+There are two important things to consider when rolling out Teams meetings and audio conferencing:
+
+- **Licensing** By default, anyone that's been assigned a Teams license can create a Teams meeting with up to 300 attendees, or a live event with up to 10,000 attendees. Attendees of Teams meetings or live events don't need a Teams license. If a meeting organizer wants to allow attendees to call in via phone, the organizer needs to have an Audio Conferencing license. For information about licensing, check out [Get licenses for meetings and live events](quick-start-meetings-live-events.md#get-licenses-for-meetings-and-live-events).
+- **Networking** Your network and Internet connection need to be fast enough to support the number of meetings your organization might host at once. For information on how to make sure your network is ready, check out [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
 
-- [Quick start - meetings and live events](quick-start-meetings-live-events.md)
-- [Manage meetings settings](meeting-settings-in-teams.md)
 
 ### Cloud voice
 
