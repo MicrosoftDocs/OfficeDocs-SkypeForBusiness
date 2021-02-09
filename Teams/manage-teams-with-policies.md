@@ -19,15 +19,19 @@ appliesto:
 
 # Manage teams with policies
 
-Text here.
+Policies are an important part of managing Teams. Use this article to navigate how to use policies to benefit your organization.
 
 ## What you use policies for
 
-Text here.
+Policies can be used...
 
 ## How to assign policies
 
-Text here.
+Policies can be assigned in several different ways depending on what your organization is trying to accomplish. You can make and view assignments in the Teams admin center.
+
+![Screenshot of Teams admin center](media/group-policy-assignment.png)
+
+Read more about assigning policies [here](assign-policies.md).
 
 ## How to manage policies
 
@@ -39,10 +43,10 @@ Text here.
 
 Policy type | Description
 ------------|------------
-[Policy packages](https://docs.microsoft.com/microsoftteams/manage-policy-packages) | A policy package in Microsoft Teams is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.
-Meeting policies | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization.
-Voice and calling policies | Description here
-App policies | Description here
+[Policy packages](manage-policy-packages.md) | A policy package in Microsoft Teams is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.
+[Meeting policies](meeting-policies-in-teams.md) | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization. Meeting policies include the following topics.<br> - Audio and video policies<br> - Content and screen sharing policies<br> - Participants, guests, and access policies<br> - General policies
+[Voice and calling policies](voice-and-calling-policies.md)| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID. 
+[App policies](app-policies.md)| App policies are used to control applications in Microsoft teams. Admins can allow or block which apps users can install, pin applications to a user's Teams app bar, and install application on behalf of your users.
 
 ## Troubleshooting
 
@@ -50,5 +54,5 @@ Text here.
 
 ## Related topics
 
-* Link
-* Link
+* [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
+* [Manage teams policies in Microsoft Teams]
