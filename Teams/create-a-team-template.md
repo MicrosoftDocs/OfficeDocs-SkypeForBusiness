@@ -61,6 +61,12 @@ Your new template is displayed in the **Team templates** list. The template can 
 > [!Note]
 > It can take up to 24 hours for teams users to see a custom template in the gallery.
 
+## Known issues 
+
+**Problem**: If you have created a team from a custom template that contained additional custom tabs, you might see blank tabs in place of your custom tab apps. Your default tabs (i.e. **Posts**, **Files**, and **Wiki**) will appear as expected.
+
+**Solution**: To fix this issue, remove the custom tab and add a new tab with the same app. We're currently working on a fix for all future custom templates as of 02/08/2021.
+
 ## Related topics
 
 - [Get started with team templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
