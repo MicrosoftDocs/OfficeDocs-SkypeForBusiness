@@ -42,7 +42,7 @@ The following table provides the type of data required to get the best out of In
 
 | Data type | Examples for what you need to provide|Why it's important?|
 |:--- |:--- |:--- |
-| **Users** |	Role (such as student)<br/> [Grade/Year level](#grade-level-supported-values) (such as 10)<br/> Org (name) | When we correctly assign each person to their role, grade/year level, and organization, we can ensure that the summaries and aggregations are correct.|
+| **Users** |	Role (such as student)<br/> [Grade/Year level](#supported-grade-level-values) (such as 10)<br/> Org (name) | When we correctly assign each person to their role, grade/year level, and organization, we can ensure that the summaries and aggregations are correct.|
 | **Orgs** | Org type (such as college) |	The hierarchy here is important. For example, schools may belong to a district, and that district may belong to a state.<br/> When a district education leader is permitted to see data, it's only for the schools in that district.|
 | **Classes** | Title (such as Computer science 101) | This table details which classes are held in the organization. This table must be correctly mapped so that we can assign the student to the correct class. |
 | **Enrollment** | Role (such as student) |	This table is for students and educators and enables us to know in which class they are registered. |
@@ -65,7 +65,7 @@ Here are some best practices to ensure the smooth deployment of SDS so that your
 	
 *	Make sure to *provide the first and last name of each user*. If not, they are referenced by their email address, and this provides a less than positive experience in the reports and spotlights (cards with Insights on student activity or performance).
 
-*	The *grade/year level must be input as 2 digits* (for example, 07 for Year 7). Check out the [mapping list](#grade-level-supported-values). 
+*	The *grade/year level must be input as 2 digits* (for example, 07 for Year 7). Check out the [mapping list](#supported-grade-level-values). 
 
 *	It's important to *add the year/grade level to all students* so that a grade/year level can filter the data.    
 
@@ -130,7 +130,7 @@ A new status area appears next to Sync organizational data from SDS (preview) on
 > [!IMPORTANT]
 > If you run into any problems, [customer support](https://aka.ms/edusupport) is there to help you.
 
-## Grade level supported values
+## Supported grade level values
 
 In the SDS files, grade/year level defined as Enumerated values, which means you can only provide a selected set of values within the CSV file. Anything other than values specified will result in an error during sync processing.
 
