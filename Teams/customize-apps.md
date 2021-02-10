@@ -92,7 +92,7 @@ ROBOTS: NOINDEX, NOFOLLOW
    ![Customized app in Teams client](media/customized-app-in-teams.png)
 
 > [!Note]
-> In case the app publisher no longer allows a field to be customizable, a message will appear on the app details page notifying the admin on the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
+> In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
 
  ![Selected app that can't be customized](media/customized-not-allowed.png)
 
