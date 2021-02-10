@@ -57,4 +57,4 @@ Where should I link to?
 
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
-* [Set up for live events in Microsoft Teams](set-up-for-teams-live-events.md)
+* [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
