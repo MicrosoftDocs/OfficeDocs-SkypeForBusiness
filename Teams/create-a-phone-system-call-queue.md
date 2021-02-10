@@ -51,7 +51,7 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
 ## Greetings and music on hold in queue
 
