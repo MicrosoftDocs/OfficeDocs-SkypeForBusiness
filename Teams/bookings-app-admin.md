@@ -15,6 +15,8 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: 
   - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
 ms.reviewer: 
 description: Microsoft Teams and virtual visits with the Bookings App
 ---
