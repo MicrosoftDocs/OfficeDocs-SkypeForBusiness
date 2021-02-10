@@ -22,7 +22,7 @@ appliesto:
 
 > [!Note]
 > We've temporarily increased view-only experience for 20,000 attendees, but we'll revert support to 10,000 attendees on June 30, 2021.
- 
+
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience.
 
 Attendees who join the meeting first, up to the capacity of the meeting, will get the full Teams meeting experience. They can share audio and video, see shared videos, and participate in meeting chat.
@@ -38,11 +38,10 @@ The view-only experience is enabled by default for any organizer who has E3/E5/A
 
 ### Disable Teams view-only experience
 
-Administrators can disable the view-only experience using PowerShell. 
+Administrators can disable the view-only experience using PowerShell.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
-Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 ```
 
 In the future, it will also be possible for administrators to disable the view-only experience in the Teams admin center.
@@ -64,15 +63,15 @@ When the capacity of the main meeting has been reached, meeting attendees will b
 
   ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode](media/view-only-pre-join-screen.png)
 
-If there's space, a user will always join the main meeting. If the main meeting reaches capacity, and one or more attendees leave the main meeting, the main meeting has available capacity. Attendees who join (or rejoin) the meeting will join the main meeting until it reaches capacity again. Attendees who are in the view-only experience will not automatically be promoted to the main meeting and can't currently be manually promoted to the main meeting.
+If there's space, a user will always join the main meeting. If the main meeting reaches capacity, and one or more attendees leave the main meeting, the main meeting has available capacity. Attendees who join (or rejoin) the meeting will join the main meeting until it reaches capacity again. Attendees who are in the view-only experience won't automatically be promoted to the main meeting and can't currently be manually promoted to the main meeting.
 
 If presenter/attendee roles haven't been set, spaces in the main meeting are filled on a first-come, first-served basis. Once the meeting capacity has been reached, all other users will join with a view-only experience.
 
 ## Impact to meeting presenters
 
-We'll reserve space in the normal meeting for users explicitly indicated out as presenters in the meeting options. If a presenter leaves and then later rejoins the meeting, they'll be let into the meeting as a presenter. 
+We'll reserve space in the normal meeting for users explicitly indicated as presenters in the meeting options. If a presenter leaves and then later rejoins the meeting, they'll be let into the meeting as a presenter.
 
-Limitations for meeting presenters include the following:
+Limitations for meeting presenters include:
 
 - You'll have no information about the view-only attendee. We don't support E-discovery for view-only attendees.
 - Users can't see the view-only attendees.
