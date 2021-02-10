@@ -42,7 +42,7 @@ The following table provides the type of data required to get the best out of In
 
 | Data type | Examples for what you need to provide|Why it's important?|
 |:--- |:--- |:--- |
-| **Users** |	Role (such as student)<br/> Grade/Year level (such as 10)<br/> Org (name) | When we correctly assign each person to their role, grade/year level, and organization, we can ensure that the summaries and aggregations are correct.|
+| **Users** |	Role (such as student)<br/> [Grade/Year level](#grade-level-supported-values) (such as 10)<br/> Org (name) | When we correctly assign each person to their role, grade/year level, and organization, we can ensure that the summaries and aggregations are correct.|
 | **Orgs** | Org type (such as college) |	The hierarchy here is important. For example, schools may belong to a district, and that district may belong to a state.<br/> When a district education leader is permitted to see data, it's only for the schools in that district.|
 | **Classes** | Title (such as Computer science 101) | This details which classes are held in the organization. This must be correctly mapped so that we can assign the student to the correct class. |
 | **Enrollment** | Role (such as student) |	This is for students and educators and enables us to know in which class they are registered. |
@@ -65,7 +65,7 @@ Here are some best practices to ensure the smooth deployment of SDS so that your
 	
 *	Make sure to *provide the first and last name of each user*. If not, they are referenced by their email address, and this provides a less than positive experience in the reports and spotlights (cards with Insights on student activity or performance).
 
-*	The *grade/year level must be input as 2 digits* (for example, 07 for Year 7). Check out the [mapping list](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported). 
+*	The *grade/year level must be input as 2 digits* (for example, 07 for Year 7). Check out the [mapping list](#grade-level-supported-values). 
 
 *	It's important to *add the year/grade level to all students* so that a grade/year level can filter the data.    
 
@@ -129,3 +129,77 @@ A new status area appears next to Sync organizational data from SDS (preview) on
 
 > [!IMPORTANT]
 > If you run into any problems, [customer support](https://aka.ms/edusupport) is there to help you.
+
+## Grade level supported values
+
+In the SDS files, grade/year level defined as Enumerated values, which means you can only provide a selected set of values within the CSV file. Anything other than values specified will result in an error during sync processing.
+
+> [!NOTE]
+> The *grade/year level must be input as 2 digits* (for example, 07 for Year 7).
+
+The section below defines the supported values in the users file.
+
+### United States / worldwide grade levels
+|Value in file (Grade column) | Label in Insights|
+|:---|:---| 
+|IT|Infant|
+|PR|Pre-school|
+|PK|Pre-kindergarten|
+|TK|Transitional Kindergarten|
+|KG|Kindergarten|
+|01|First grade|
+|02|Second grade|
+|03|Third grade|
+|04|Fourth grade|
+|05|Fifth grade|
+|06|Sixth grade|
+|07|Seventh grade|
+|08|Eighth grade|
+|09|Ninth grade|
+|10|Tenth grade|
+|11|Eleventh grade|
+|12|Twelfth grade|
+|PS|Postsecondary|
+|PS1|Postsecondary freshman|
+|PS2|Postsecondary sophomore|
+|PS3|Postsecondary junior|
+|PS4|Postsecondary senior|
+|undergraduate|Undergraduate|
+|graduate|Graduate|
+|postgraduate|Postgraduate (graduate with an emphasis on research)|
+|alumni|Alumni|
+|adultEducation|Adult Education|
+|UG|Ungraded|
+|Other|Other|
+
+### United Kingdom year groups
+|Value in file (Grade column) | Label in Insights|
+|:---|:---| 
+|IT|Nursery|
+|PR|Pre-school|
+|PK|Reception|
+|01|Year 1|
+|02|Year 2|
+|03|Year 3|
+|04|Year 4|
+|05|Year 5|
+|06|Year 6|
+|07|Year 7|
+|08|Year 8|
+|09|Year 9|
+|10|Year 10|
+|11|Year 11|
+|12|Year 12|
+|13|Year 13|
+|PS|Postsecondary|
+|PS1|Postsecondary Year 1|
+|PS2|Postsecondary Year 2|
+|PS3|Postsecondary Year 3|
+|PS4|Postsecondary Year 4|
+|undergraduate|Undergraduate|
+|graduate|Graduate|
+|postgraduate|Postgraduate (graduate with an emphasis on research)|
+|alumni|Alumni|
+|adultEducation|Adult Education|
+|UG|Ungraded|
+|Other|Other|
