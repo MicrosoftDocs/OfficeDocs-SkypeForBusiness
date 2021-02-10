@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams virtual meeting rooms
+title: Microsoft Teams Rooms
 ms.reviewer: 
 ms.author: dstrome
 author: dstrome
