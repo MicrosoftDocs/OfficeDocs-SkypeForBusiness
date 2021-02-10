@@ -60,6 +60,14 @@ To create a retention policy for Teams chats and channel messages, use the instr
 
 That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 Groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.  
 
+## Retention of edited messages
+
+Retention on Teams messages works on the timestamp of creation of original message. Lets take a scenario- If there is a policy of 30-day deletion on Teams chat or channel messages and a user sends a message (“Original message”) on day -1, later modifies it to “edited message”, on day 15.
+
+Here, the original message will be copied to a temporary location in the backend storage and deleted within 21 days. If there is Legal hold (via eDiscovery portal) or Retention hold in place on the user, then all versions of original, deleted and edited messages are stored as long as the hold policy is active.
+
+The “edited message” would be deleted by the retention policy on Day-30 i.e. based on the timestamp on the original message.
+
 ## End user experience
 
 For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages.
