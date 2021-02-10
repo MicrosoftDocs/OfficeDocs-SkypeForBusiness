@@ -37,6 +37,10 @@ Read more about assigning policies [here](assign-policies.md).
 
 Policies are managed with the Microsoft Teams admin center or [using PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell).
 
+### Teams for Education
+
+You can also use the [Teams for Education policy wizard](easy-policy-setup-edu.md) to easily setup and manage policies for your learning environment.
+
 ## Types of policies
 
 The following policies can be managed with Microsoft Teams.
@@ -54,3 +58,4 @@ Policy type | Description
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
 * [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
+* [Teams for Education policies and policy packages](policy-packages-edu.md)
