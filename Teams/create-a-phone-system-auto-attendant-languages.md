@@ -1,5 +1,5 @@
 ---
-title: "Set up an auto attendant for Microsoft Teams supported languages"
+title: "Microsoft Teams auto attendant supported languages"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,9 +21,9 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Auto attendant supported languages"
+description: "Microsoft Teams auto attendant supported languages"
 --- 
-# Supported Languages
+# Microsoft Teams auto attendant supported languages
 
 The auto attendant supports the following languages for Text to Speech (TTS) and Speech Recognition:
 
@@ -68,7 +68,8 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |Turkish (Turkey)                        |Y                        |                                       |	
 |Vietnamese (Vietnam)                    |Y                        |                                       |	
 
-> [!NOTES]
+> [!NOTE]
 > Choosing a language that does not support Speech Recognition will disable the voice inputs option within the menu and dial by name will be restricted to using keypad (DTMF) entry only. Please refer to [Dial by Name - Keypad (DTMF) entry](dial-voice-reference#dial-by-name---keypad-dtmf-entry) for more information.
->
+
+> [!NOTE]
 > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.
