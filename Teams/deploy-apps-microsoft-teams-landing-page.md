@@ -7,7 +7,7 @@ author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 audience: admin
-ms.date: 01/28/2019
+ms.date: 02/10/2021
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
@@ -25,13 +25,21 @@ Apps let you find content from your favorite services and share it in Teams. The
 
 You can add apps to your Teams deployment by using the apps provided with Microsoft Teams, by using certified third-party apps and templates, and by creating your own custom apps.
 
-**Use Microsoft-provided apps.** Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+## Use Microsoft-provided apps
 
-**Use third-party apps.** In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with our Microsoft 365 developer partners to provide the information organizations need to expedite and inform decisions about Teams apps and add-ins they use. For more information, see [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps).
+Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
 
-**Use Teams templates.** You can also use [Teams templates](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub.
+## Use third-party apps
 
-**Create custom apps.** You can quickly build custom low-code solutions by leveraging Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/overview).  
+In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with our Microsoft 365 developer partners to provide the information organizations need to expedite and inform decisions about Teams apps and add-ins they use. For more information, see [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps).
+
+## Use Teams templates
+
+You can also use [Teams templates](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub.
+
+## Create custom apps
+
+You can quickly build custom low-code solutions by leveraging Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/overview).  
 
 
 ## Apps deployment decisions

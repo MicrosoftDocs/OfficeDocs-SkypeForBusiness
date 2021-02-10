@@ -1037,7 +1037,7 @@ items:
     - name: Partner resources
       href: business-voice/partner-resources.md 
               
-- name: Apps, bots, and connectors (Test)
+- name: Apps, bots, and connectors
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
