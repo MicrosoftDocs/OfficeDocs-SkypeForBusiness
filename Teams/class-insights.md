@@ -100,6 +100,9 @@ Both educators and education leaders can zoom in and see the data for individual
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app":::
 
+> [!TIP]
+> You can also locate the Insights app through this link: [https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## When is Insights used? 
 Insights supports learning communities throughout **the learning cycle**. With real-time metrics across multiple dimensions, Insights supports a continuous cycle of identification, reflection, discussion, and taking action amongst members of the school community.
 *	**Identify** how and when students engage with educators, course materials, and their peers, and how they perform on assignments. 
@@ -175,10 +178,9 @@ Viewing class-level Insights as the class educator *does not* require this becau
 To learn more, read [**Sync Student Information System (SIS) data with Education Insights**](education-insights-sis-data-sync.md).
 
 ## Manage permissions
-You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are automatically given permission when they own a class team.
+You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
-> [!NOTE]
-> Only provide permission to those education leaders that need them and only to the teams they are responsible for. If you are unsure whether user permission for a specific organization is required, consult your institution's privacy subject matter experts, such as legal or HR personnel.
+To learn more, read [**Manage user access to Education Insights**](education-insights-manage-access.md).
 
 ## Manage the setup policy
 As IT Admin, you can use the app setup policy to install Insights by default for your educators and leaders when they start Teams. With the setup policy, you can customize Teams to highlight Insights and pin it on the apps bar.
