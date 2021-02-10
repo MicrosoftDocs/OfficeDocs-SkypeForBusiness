@@ -1,12 +1,12 @@
 ### YamlMime:Hub
 
-title: Microsoft Teams documentation # < 60 chars
+title: Microsoft Teams admin documentation # < 60 chars
 summary: Find documentation for Microsoft Teams admins and IT Professionals, and learn how to roll out and manage Teams, and prepare your users for Teams. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
 brand: teams
 
 metadata:
-  title: Microsoft Teams documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Microsoft Teams admin documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Find documentation for Microsoft Teams admins and IT Professionals, and learn how to roll out and manage Teams, and prepare your users for Teams. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
@@ -90,7 +90,7 @@ tools:
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform
       imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-      url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+      url: https://docs.microsoft.com/microsoftteams/platform
     # Card
     - title: End user help and learning
       imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
@@ -150,6 +150,8 @@ additionalContent:
           links:
             - text: Integration with Microsoft Power Platform
               url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
+            - text: Apps, bots, & connectors in Microsoft Teams
+              url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
             - text: Manage apps for Microsoft Teams
