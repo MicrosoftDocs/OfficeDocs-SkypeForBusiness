@@ -50,12 +50,11 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - **Go local** tenant support
 - Multi-geo support – recordings are stored in a region specific to that user
 - Bring your own key (BYOK) support
-- Improved Transcript quality and speaker attribution
 
 There are some limitations to consider:
 
-- There will be English-only closed captions and transcripts​.
-- You won't be able to search transcripts or their content​.
+- There will be English-only closed captions and you'll be able to toggle captions off/on.​
+- You won't *initially* be able to view, edit, and search a full transcript (however, we're working on adding this capability soon)​.
 - You won’t be able to edit the transcripts, but you'll be able to toggle captions off/on.
 - You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.
 - You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
