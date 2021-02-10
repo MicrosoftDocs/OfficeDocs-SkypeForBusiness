@@ -110,16 +110,16 @@ items:
 
     - name: Manage policies
       items:
+        - name: Overview
+          href: manage-teams-with-policies.md
         - name: Assign policies to your users
           href: assign-policies.md
         - name: View your policy assignments in the Activity log
           href: activity-log.md
-        - name: Manage app permission policies in Teams
-          href: teams-app-permission-policies.md
-        - name: Manage app setup policies in Teams
-          href: teams-app-setup-policies.md
-        - name: Manage custom app policies and settings in Teams
-          href: teams-custom-app-policies-and-settings.md
+        - name: Manage apps with policies in Teams
+          href: app-policies.md
+        - name: Manage voice and calling with policies in Teams
+          href: voice-and-calling-policies.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
@@ -1045,6 +1045,12 @@ items:
       href: manage-apps.md
     - name: Admin settings for apps in Teams
       href: admin-settings.md
+    - name: Manage app permission policies in Teams
+      href: teams-app-permission-policies.md
+    - name: Manage app setup policies in Teams
+      href: teams-app-setup-policies.md
+    - name: Manage custom app policies and settings in Teams
+      href: teams-custom-app-policies-and-settings.md
     - name: Use built-in and custom tabs
       href: built-in-custom-tabs.md
     - name: Use Microsoft 365 or Office 365 and custom connectors
