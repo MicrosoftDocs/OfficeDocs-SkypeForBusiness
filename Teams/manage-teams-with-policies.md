@@ -35,7 +35,7 @@ Read more about assigning policies [here](assign-policies.md).
 
 ## How to manage policies
 
-Policies are managed with the Microsoft Teams admin center or [using PowerShell](https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell).
+Policies are managed with the Microsoft Teams admin center or [using PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell).
 
 ## Types of policies
 
