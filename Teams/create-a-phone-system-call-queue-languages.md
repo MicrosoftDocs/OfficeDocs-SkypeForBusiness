@@ -1,5 +1,5 @@
 ---
-title: "Create a call queue in Microsoft Teams supported languages"
+title: "Microsoft Teams call queue supported languages"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,9 +21,9 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Call queue supported languages"
+description: "Microsoft Teams call queue supported languages"
 --- 
-# Supported Languages
+# Microsoft Teams call queue supported languages
 
 The call queue supports the following languages for Text to Speech (TTS):
 
@@ -69,4 +69,4 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Vietnamese (Vietnam)                    |
 
 > [!NOTE]
-> > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.
+> When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.
