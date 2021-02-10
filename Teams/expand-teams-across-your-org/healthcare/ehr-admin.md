@@ -17,6 +17,8 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
   - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
@@ -85,7 +87,7 @@ To complete this step, the Microsoft 365 administrator must receive a valid Fast
 
 - The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
-- Configuration approver name is the name of the Epic customer analyst who will be responsible for approving the configuration in the next step. The Epic customer analyst is a person in your organization with signin access to Epic.
+- Configuration approver name is the name of the Epic customer analyst who will be responsible for approving the configuration in the next step. The Epic customer analyst is a person in your organization with sign-in access to Epic.
 
   ![The configuration approver's name is selected from a list in the EHR connector.](../../media/teams-ehr-connector.png)
 

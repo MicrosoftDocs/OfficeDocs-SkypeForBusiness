@@ -29,7 +29,7 @@ highlightedContent:
     # Card
     - title: Upgrade from Skype for Business to Teams
       itemType: how-to-guide
-      url: /MicrosoftTeams/upgrade-start-here
+      url: /MicrosoftTeams/upgrade-skype-teams
     # Card
     - title: Use Advisor for Teams to help you roll out Teams
       itemType: get-started
