@@ -161,7 +161,7 @@ Please perform these steps:
 
 |Name	                                   |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/ External call source      |
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>|
 |Directory search method totals          |Distribution of call by search type                         |
 |Caller action                           |Distribution of call by call receiver                       |
 |Call result                             |Distribution of call by final call state                    |
@@ -172,7 +172,7 @@ Please perform these steps:
 
 |Name	                                   |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/ External call source         |
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>   |
 |Call volume                             |Distribution of call by call queues                            |
 |Caller result                           |Distribution of call by call result                            |
 |Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
@@ -194,6 +194,8 @@ Please perform these steps:
 
 ## Known Issues
 
-- Currently, Call Queue and auto attendant show resource account's ID instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
+- Call Queue and auto attendants are shown by resource account's ID instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
 
-- Currently, only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
+- Only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
+
+- <sup>1</sup> **Incoming call source** in the auto attendant and Call Queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or Call Queue, the **Incoming call source** will be reported as Internal.
