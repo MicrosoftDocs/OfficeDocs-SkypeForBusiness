@@ -73,6 +73,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |Sync 40 speakerphone                                       |1/19/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Sync 40+ speakerphone with Poly BT600 USB Dongle           |1/19/2021       |Certified for Microsoft Teams                           |
 |Yealink              |UH34 Dual/Mono Headset                                     |12/23/2020      |Certified for Microsoft Teams                           |
 |Yealink              |MP50 USB Phone                                             |12/23/2020      |Certified for Microsoft Teams                           |
