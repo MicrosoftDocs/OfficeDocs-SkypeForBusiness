@@ -69,7 +69,7 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |Vietnamese (Vietnam)                    |Y                        |                                       |	
 
 > [!NOTE]
-> Choosing a language that does not support Speech Recognition will disable the voice inputs option within the menu and dial by name will be restricted to using keypad (DTMF) entry only. Please refer to [Dial by Name - Keypad (DTMF) entry](https://docs.microsoft.com/microsoftteams/dial-voice-reference#dial-by-name---keypad-dtmf-entry) for more information.
+> Choosing a language that does not support Speech Recognition will disable the voice inputs option within the menu and dial by name will be restricted to using keypad (DTMF) entry only. Please refer to [Dial by Name - Keypad (DTMF) entry](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) for more information.
 
 > [!NOTE]
 > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.
