@@ -247,6 +247,4 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Small business example — Set up an auto attendant](/microsoftteams/tutorial-org-aa)
-
 [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

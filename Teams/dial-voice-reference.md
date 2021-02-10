@@ -148,5 +148,3 @@ The following voice commands are available in the 14 languages supported for spe
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)

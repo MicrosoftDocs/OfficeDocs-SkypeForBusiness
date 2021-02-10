@@ -1,8 +1,8 @@
 ---
 title: "Security framework for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

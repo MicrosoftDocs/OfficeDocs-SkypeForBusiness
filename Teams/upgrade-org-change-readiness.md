@@ -142,7 +142,7 @@ It could be easy to get carried away forming a teamwork strategy for every user,
 
   - Sales teams/regions – road warriors, easy access resources, quick turn-around responses
   - HR – standardized processes across all divisions, consistent approach for hiring
-  - Firstline workers – connection to their peers/management, access to procedures, NEO
+  - Frontline workers – connection to their peers/management, access to procedures, NEO
 
 - Keep these considerations in mind:
 
