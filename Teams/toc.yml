@@ -1060,8 +1060,8 @@ items:
           href: https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
-        - name: App templates for Teams
-          href: https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+    - name: App templates for Teams
+      href: https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
 
     - name: How to build and customize your own apps
       items:

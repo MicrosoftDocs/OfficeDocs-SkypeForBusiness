@@ -31,7 +31,7 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 ## Use third-party apps
 
-In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with our Microsoft 365 developer partners to provide the information organizations need to expedite and inform decisions about Teams apps and add-ins they use. For more information, see [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps).
+In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with  Microsoft 365 developer partners to provide the information needed to expedite decisions about using Teams apps and add-ins. For more information, see [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps).
 
 ## Use Teams templates
 
@@ -39,7 +39,7 @@ You can also use [Teams templates](https://docs.microsoft.com/microsoftteams/pla
 
 ## Create custom apps
 
-You can quickly build custom low-code solutions by leveraging Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/overview).  
+You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/overview).  
 
 
 ## Apps deployment decisions
@@ -52,7 +52,7 @@ These are the apps settings that most organizations want to change (if the Teams
 
 ### App availability settings 
 
-Teams provides a number of apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
+Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
 
 By default, all Microsoft-provided, third-party, and custom apps are available, and you can turn individual apps on or off. There are org-wide settings that lets you turn all third-party and/or custom apps on or off for your entire organization.
 
