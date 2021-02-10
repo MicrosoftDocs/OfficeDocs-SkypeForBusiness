@@ -44,13 +44,15 @@ Before you roll out Teams broadly, make sure your organization is ready by revie
 
 Jump to the section you're interested in:
 
-[Chat, teams, and channels](#chat-teams-and-channels)
+- [Workloads](#workloads)
+  - [Chat, teams, and channels](#chat-teams-and-channels)
+  - [Meetings and conferencing](#meetings-and-conferencing)
+  - [Business Voice](#business-voice)
+- [Deploy clients](#deploy-clients)
+- [Training](#training)
 
-[Meetings and conferencing](#meetings-and-conferencing)
-
-[Business Voice](#business-voice)
-
-### Chat, teams, and channels
+### Workloads
+#### Chat, teams, and channels
 
 Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or more users talk to each other, share files, and meet privately. **Teams**, which can be visible to everyone in your organization or only to those in the team, let the right people collaborate whatever the task or occasion, whether it's a long-running project or planning for a birthday party. **Channels** within teams can segment topics, projects, departments, or anything else make sense for your team. For details about chat, teams, and channels, check out [Overview of teams and channels](teams-channels-overview.md).
 
@@ -68,9 +70,7 @@ As you think about rolling out teams and channels, you need to decide who should
 | [Should external access be enabled?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#external-access) | External access lets anyone in another organization talk to people in your organization. This is useful when you have a close relationship with another organization, such as a supplier, and want to make it easy for people in either organization to chat with each other, hold meetings, and so on. <br>External access is different than guest access. External access gives everyone in an another organization access to interact with people in your organization. Guest access invites specific individuals access to interact with people in your organization.<br>External access is turned **Off** by default.<br><br>[Manage external access in Microsoft Teams](manage-external-access.md)  |
 | [Should guest access be enabled?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |Guest access lets people in your organization invite people outside your organization access your teams and channels. Guest access is often used to collaborate with people outside your organization who don't have a formal relationship with yours. For example, you might invite a project planner to work on a project temporarily.<br>Guest access is different than external access. Guest access invites specific individuals access to interact with people in your organization. External access gives everyone in an another organization access to interact with people in your organization. <br>Guest access is turned **Off** by default. <br><br>[Turn on or turn off guest access to Microsoft Teams](set-up-guests.md)  |
 
-reporting
-
-### Meetings and conferencing
+#### Meetings and conferencing
 
 Meetings and conferencing lets people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** (meetings up 300 attendees, and live events up to 10,000 attendees) to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, talk to each other via voice, and share video and apps with other participants using a PC or mobile device.
 
@@ -92,7 +92,7 @@ The [Admin quick start - Meetings and live events in Microsoft Teams](quick-star
 
 The [Set up Audio Conferencing for small and medium businesses](audio-conferencing-smb.md) article shows you how to set up audio conferencing for your meetings.
 
-### Business Voice
+#### Business Voice
 
 [Microsoft 365 Business Voice](business-voice/whats-business-voice.md) is a great solution for businesses with fewer than 300 users that gives you all the features of an office phone system. Business Voice includes voicemail, caller ID, phone system menus, toll-free numbers, and more, without the need to manage a complex and costly on-premises phone system.
 
@@ -102,12 +102,30 @@ With Microsoft 365 as your phone system, you can turn any device into a phone by
 
 If you're interested in trying out Business Voice, check out [What do I need to buy to use Microsoft 365 Business Voice?](business-voice/what-to-buy.md).
 
+### Deploy clients
+
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
+
+> [!TIP]
+> Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
+
+If your organization uses Microsoft Endpoint Configuration Manager, Group Policy, or a third-party distribution mechanism, to deploy software to your user's computers, see [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](msi-deployment.md).
+
+If you want detailed information about deploying Teams clients, see [Get clients for Microsoft Teams](get-clients.md).
+
+### Training
+
+For information on how to train your users to use Teams, see [Microsoft Teams training](training-microsoft-teams-landing-page.md).
+
 #### [Medium/large business](#tab/LargeBusiness)
 
-### Section name test
+If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Teams client to them, how your network design could impact the quality of real-time communication, and so on. To ensure that your organization and your users get the most out of Teams, you also need an adoption program. An effective adoption program can mobilize early adopters who can:
 
-test
+- Articulate the benefits of Teams to their colleagues and to business or group leaders.
+- Spark excitement in others who see how Teams improves collaboration and makes it easier to connect with each other.
+- Help evaluate existing business processes and make recommendations for how Teams can be integrated into them.
+- Report back to the deployment team both successes and difficulties to help improve the adoption process.
+
+d
 
 ---
-
-For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).
