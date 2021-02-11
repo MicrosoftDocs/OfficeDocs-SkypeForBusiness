@@ -29,7 +29,6 @@ Use this table to find information on getting and managing phone numbers in Cana
 
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
 
-
 | **What you want to do?** | **Do these steps and download the correct forms** |
 |:---   |:---    |
 | Get new user and service phone numbers that aren't listed in the Microsoft Teams admin center.  <br/>   | Download one of these forms: <br/> [New phone number request for Canada (v.5.0) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(en-ca).pdf?raw=true) <br/>[New phone number request for Canada (v.5.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(fr-ca).pdf?raw=true)  <br/> <br>Fill it out and [send it to us](mailto:ptn@microsoft.com).      |
@@ -46,6 +45,4 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
