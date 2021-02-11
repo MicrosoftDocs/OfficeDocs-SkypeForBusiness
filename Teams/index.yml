@@ -90,7 +90,7 @@ tools:
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform
       imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-      url: https://docs.microsoft.com/microsoftteams/platform
+      url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
     # Card
     - title: End user help and learning
       imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
@@ -119,17 +119,25 @@ additionalContent:
         # Card
         - title: Chat, teams, and channels
           links:
-            - text: Communicate with users from other organizations (guest/external access)
+            - text: Chat, teams, channels, and apps
+              url: /Microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page
+            - text: Overview of teams and channels
+              url: /Microsoftteams/teams-channels-overview
+            - text: Call and chat with users from other organizations (guest/external access)
               url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-            - text: Collaboration governance in Microsoft 365
+            - text: What is collaboration governance?
               url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
-            - text: Migrate from Slack to Teams
-              url: /MicrosoftTeams/migrate-slack-to-teams
+            - text: Configure Teams with three tiers of file sharing security
+              url: https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
         # Card
         - title: Meetings and conferencing
           links:
-            - text: Meetings and live events in Microsoft Teams
-              url: /MicrosoftTeams/quick-start-meetings-live-events
+            - text: Meetings and conferencing overview
+              url: /Microsoftteams/deploy-meetings-microsoft-teams-landing-page
+            - text: What are Microsoft Teams live events?
+              url: /Microsoftteams/teams-live-events/what-are-teams-live-events
+            - text: Deploy audio conferencing
+              url: /Microsoftteams/deploy-audio-conferencing-teams-landing-page
             - text: Microsoft Teams Rooms
               url: /MicrosoftTeams/rooms/
         # Card
@@ -137,25 +145,25 @@ additionalContent:
           links:
             - text: Plan your Teams voice solution
               url: /MicrosoftTeams/cloud-voice-landing-page
+            - text: What's Microsoft 365 Business Voice
+              url: /MicrosoftTeams/business-voice/whats-business-voice
+            - text: Set up Phone System
+              url: /Microsoftteams/setting-up-your-phone-system
             - text: "Contoso case study: Teams voice migration"
               url: /MicrosoftTeams/voice-case-study-overview
-            - text: Microsoft 365 Business Voice
-              url: /MicrosoftTeams/business-voice/whats-business-voice
-            - text: Phone System Direct Routing
-              url: /MicrosoftTeams/direct-routing-landing-page
-            - text: Set up common area phones
-              url: /MicrosoftTeams/set-up-common-area-phones
         # Card
         - title: Extend Teams functionality
           links:
+            - text: Build apps for Microsoft Teams
+              url: /MicrosoftTeams/platform/overview
             - text: Integration with Microsoft Power Platform
               url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
             - text: Apps, bots, & connectors in Microsoft Teams
               url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
-            - text: Build apps for Microsoft Teams
-              url: /MicrosoftTeams/platform/overview
             - text: Manage apps for Microsoft Teams
               url: /MicrosoftTeams/manage-apps
+            - text: Microsoft Teams app security and compliance
+              url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
         # Card
         - title: Education
           links:
