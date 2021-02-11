@@ -22,7 +22,7 @@ items:
     - name: Advanced setup
       items:
         - name: Overview
-          href: foo.md
+          href: deploy-advanced.md
         - name: Teams requirements
           href: foo.md
         - name: Architecture & telephony solutions posters
