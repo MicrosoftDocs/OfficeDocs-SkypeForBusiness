@@ -37,8 +37,8 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Change a user's number to a service number or a service number to a user's number  <br/> |[Send us](mailto:ptn@microsoft.com) your PIN and the list of numbers you want to convert. To set up a PIN, see [here](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).  <br/> |
 |Transfer numbers from one Microsoft 365 or Office 365 to another.  <br/> |[Send us](mailto:ptn@microsoft.com) the list of user (subscriber) phone numbers you want to transfer along with the PIN of the source organization where you want to transfer the numbers from. To set up a PIN, see [here](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).  <br/> |
 |Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
-   
-## Related topics 
+
+## Related topics
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -47,5 +47,3 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
   
 [Emergency Calling disclaimer label](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
- 
- 

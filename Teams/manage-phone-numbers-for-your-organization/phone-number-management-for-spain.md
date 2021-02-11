@@ -25,7 +25,7 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for Spain
 
-Use this table to find information on getting and managing phone numbers in Spain for Microsoft Teams. 
+Use this table to find information on getting and managing phone numbers in Spain for Microsoft Teams.
   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
@@ -46,6 +46,3 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
   
 [Emergency Calling disclaimer label](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
- 
-  
- 
