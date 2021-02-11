@@ -129,6 +129,9 @@ Many businesses can deploy Teams just using the [quick start guide](get-started-
 - Numerous device and rooms types
 - Non-standard telephony implementations
 
-If this sounds like your organization, the [advanced setup articles](deploy-advanced.md) in this section will help you get Teams deployed.
+If this sounds like your organization, you need to complete Teams advanced setup. Advanced setup helps you plan your deployment and provides recommendations for how to establish an adoption program to maximize the use of Teams.
+
+> [!div class="nextstepaction"]
+> [Go to advanced setup](deploy-advanced.md)
 
 ---
