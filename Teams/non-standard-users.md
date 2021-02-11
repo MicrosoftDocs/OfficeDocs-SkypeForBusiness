@@ -46,7 +46,7 @@ Bots can proactively message guest users, but guests can't interact with the bot
 
 Guests will adhere to global and org-wide permission policies set for the host tenant for any app. (In other words, if an app is blocked for the whole host organization, then guests can't use the app either.)
 
-Setup policies don't apply to guest users. This means admin pinned app from the default policy don't affect guest users.
+Setup policies don't apply to guest users. This means admin pinned app from the default policy doesn't affect guest users.
 
 ## External (Federated) user access
 
