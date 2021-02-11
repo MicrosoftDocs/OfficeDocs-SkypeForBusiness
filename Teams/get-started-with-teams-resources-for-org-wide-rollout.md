@@ -106,6 +106,8 @@ If you're interested in trying out Business Voice, check out [What do I need to 
 
 When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
+Make sure everyone who will be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
+
 > [!TIP]
 > Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
 
@@ -119,13 +121,14 @@ For information on how to train your users to use Teams, see [Microsoft Teams tr
 
 #### [Medium/large business](#tab/LargeBusiness)
 
-If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Teams client to them, how your network design could impact the quality of real-time communication, and so on. To ensure that your organization and your users get the most out of Teams, you also need an adoption program. An effective adoption program can mobilize early adopters who can:
+Many businesses can deploy Teams just using the [quick start guide](get-started-with-teams-quick-start.md), which shows you how to set up a Teams pilot and enable the most common features. However, some organizations have complex requirements, such as the ones below, that need additional planning:
 
-- Articulate the benefits of Teams to their colleagues and to business or group leaders.
-- Spark excitement in others who see how Teams improves collaboration and makes it easier to connect with each other.
-- Help evaluate existing business processes and make recommendations for how Teams can be integrated into them.
-- Report back to the deployment team both successes and difficulties to help improve the adoption process.
+- Multiple office locations
+- Compliance and privacy requirements
+- Thousands of users distributed across multiple locations
+- Numerous device and rooms types
+- Non-standard telephony implementations
 
-d
+If this sounds like your organization, the [advanced setup articles](deploy-advanced.md) in this section will help you get Teams deployed.
 
 ---
