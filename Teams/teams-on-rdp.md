@@ -25,9 +25,9 @@ This article describes the requirements and limitations for using Microsoft Team
 
 ## What is RDS?
 
-Remote Desktop Services (RDS) is the platform of choice for building virtualization solutions for every end customer need, including delivering individual virtualized applications, providing secure mobile and remote desktop access, and providing end users the ability to run their applications and desktops from the cloud.
+Remote Desktop Services (RDS) is the platform of choice for building virtualization solutions for every end customer need. RDS lets you deliver individual virtualized applications, provide secure mobile and remote desktop access, and provide end users the ability to run their applications and desktops from the cloud.
 
-RDS offers deployment flexibility, cost efficiency, and extensibility—all delivered through a variety of deployment options, including Windows Server 2016 for on-premises deployments, Microsoft Azure for cloud deployments, and a robust array of partner solutions.
+RDS offers deployment flexibility, cost efficiency, and extensibility. RDS is delivered through a variety of deployment options, including Windows Server 2016 for on-premises deployments, Microsoft Azure for cloud deployments, and a robust array of partner solutions.
 Depending on your environment and preferences, you can set up the RDS solution for session-based virtualization, as a virtual desktop infrastructure (VDI)
 
 Currently, Teams in a remote desktop services environment is available with support for collaboration and chat functionality. To ensure an optimal user experience, follow the guidance in this article.
@@ -50,9 +50,12 @@ To assign the DisallowCalling calling policy and the AllOff meeting policy to a 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by selecting to the left of the user name, and then select **Edit settings**.
-3. Do the following:
+3. Do the following steps:
+
     a.  Under **Calling policy**, select **DisallowCalling**.
+
     b.  Under **Meeting policy**, select **AllOff**.
+
 4. Select **Apply**.
 
 To assign a policy to multiple users at a time:
@@ -61,11 +64,13 @@ To assign a policy to multiple users at a time:
 2. In the **&#x2713;** (check mark) column, select the users. To select all users, select the &#x2713; (check mark) at the top of the table.
 3. Select **Edit settings**, make the changes that you want, and then select **Apply**.
 
-Or, you can also do the following:
+Or, you can also do the following steps:
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
+
     - Go to **Voice** > **Calling policies**, and then select **DisallowCalling**.
     - Go to **Meetings** > **Meeting policies**, and then select **AllOff**.
+
 2. Select **Manage users**.
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, select **Save**.
