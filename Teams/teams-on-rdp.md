@@ -74,3 +74,21 @@ Or, you can also do the following steps:
 2. Select **Manage users**.
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, select **Save**.
+
+#### Assign policies using PowerShell
+
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
+
+```PowerShell
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
+```
+
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.
+
+```PowerShell
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
+```
+
+To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
