@@ -20,16 +20,6 @@ appliesto:
 
 # Teams advanced setup
 
-Many businesses can deploy Teams just using the quick start guide, which shows you how to set up a Teams pilot and enable the most common features. However, some organizations have complex requirements, such as the ones below, that need additional planning:
-
-- Multiple office locations
-- Compliance and privacy requirements
-- Thousands of users distributed across multiple locations
-- Numerous device and rooms types
-- Non-standard telephony implementations
-
-If this sounds like your organization, the advanced setup articles in this section will help you get Teams deployed.
-
 If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Teams client to them, how your network design could impact the quality of real-time communication, and so on. To ensure that your organization and your users get the most out of Teams, you also need an adoption program. An effective adoption program can mobilize early adopters who can:
 
 - Articulate the benefits of Teams to their colleagues and to business or group leaders.
