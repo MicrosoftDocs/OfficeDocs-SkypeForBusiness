@@ -442,7 +442,7 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 > [!IMPORTANT]
 > Before you get started, it's important to understand [precedence rules](#precedence-rules) and [group assignment ranking](#group-assignment-ranking). Make sure you read and understand the concepts in [What you need to know about policy assignment to groups](#what-you-need-to-know-about-policy-assignment-to-groups) earlier in this article.
 
-### Use the admin center for policy package assignment (Private preview)
+### Use the admin center for policy package assignment
 
 1. Sign in to the Teams admin center.
 2. In the left navigation, go to the policy package page.
@@ -451,9 +451,11 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 
     a. Search for and add the group you want to assign the policy package to.
 
-    b. Set the ranking for each policy type.
+    b. Select a policy package.
 
-    c. Select **Apply**.
+    c. Set the ranking for each policy type.
+
+    d. Select **Apply**.
 
     ![shows the group policy assignment](media/group-pkg-assignment.png)
 
