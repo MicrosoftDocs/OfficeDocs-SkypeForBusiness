@@ -1,5 +1,5 @@
 ---
-title: Manage apps with policies
+title: Manage app policies in Teams
 author: karlistites
 ms.author: kastites
 manager: serdars
