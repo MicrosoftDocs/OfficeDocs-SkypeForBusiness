@@ -21,13 +21,13 @@ appliesto:
 
 Voice and calling policies are used to control voice and calling in Microsoft Teams.
 
-### Emergency calling policy
+## Emergency calling policy
 
 You use [emergency calling policies](manage-emergency-calling-policies.md) to configure what happens when a user in your organization makes an emergency call. These policies are managed in the Teams admin center or using Windows PowerShell.
 
 ![Screenshot of emergency calling policy.](media/emergency-calling-policy2.png)
 
-### Emergency call routing policy
+## Emergency call routing policy
 
 [Emergency call routing policies](manage-emergency-call-routing-policies.md) determine where emergency calls are routed, whether enhanced emergency services are enabled, and which numbers are used for emergency services. These policies are managed using PowerShell or in the Microsoft Teams admin center.
 
