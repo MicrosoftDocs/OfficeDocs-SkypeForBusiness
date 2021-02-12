@@ -1064,7 +1064,7 @@ items:
     - name: How to build and customize your own apps
       items:
         - name: Integrate with Power Platform
-          href: teams-power-platform-integration.md
+          href: teams-power-platfom-integration.md
         - name: Manage Power Platform apps in the Microsoft Teams admin center
           href: manage-power-platform-apps.md
         - name: Publish a custom app submitted through the Teams App Submission API
