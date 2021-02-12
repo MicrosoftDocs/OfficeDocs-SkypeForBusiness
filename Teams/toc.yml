@@ -118,14 +118,6 @@ items:
           href: activity-log.md
         - name: Manage policy packages in Teams
           href: manage-policy-packages.md
-        - name: Manage meeting policies
-          href: meeting-policies-in-teams.md
-        - name: Manage voice and calling policies in Teams
-          href: voice-and-calling-policies.md
-        - name: Manage app policies in Teams
-          href: app-policies.md
-        - name: Manage messaging policies
-          href: messaging-policies-in-teams.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
           
@@ -277,6 +269,8 @@ items:
       href: sharing-files-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
+    - name: Manage messaging policies
+      href: messaging-policies-in-teams.md
     - name: User presence in Teams
       href: presence-admins.md
     - name: Manage tags in Teams
@@ -431,6 +425,8 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
+    - name: Manage meeting policies
+      href: meeting-policies-in-teams.md
     - name: Remove the RestrictedAnonymousAccess meeting policy from users
       href: meeting-policies-restricted-anonymous-access.md
     - name: Manage meetings settings
@@ -576,6 +572,8 @@ items:
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
+    - name: Manage voice and calling policies in Teams
+      href: voice-and-calling-policies.md
     - name: Phone System
       items: 
         - name: What is Phone System
@@ -1078,6 +1076,8 @@ items:
       items:
         - name: Overview
           href: manage-apps.md
+        - name: Manage app policies in Teams
+          href: app-policies.md
         - name: View app permissions and grant admin consent in the Microsoft Teams admin center
           href: app-permissions-admin-center.md
         - name: Resource-specific consent
