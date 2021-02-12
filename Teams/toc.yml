@@ -116,14 +116,19 @@ items:
           href: assign-policies.md
         - name: View your policy assignments in the Activity log
           href: activity-log.md
-        - name: Manage apps with policies in Teams
-          href: app-policies.md
-        - name: Manage voice and calling with policies in Teams
-          href: voice-and-calling-policies.md
-        - name: Manage feedback policies in Teams
-          href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
           href: manage-policy-packages.md
+        - name: Manage meeting policies
+          href: meeting-policies-in-teams.md
+        - name: Manage voice and calling policies in Teams
+          href: voice-and-calling-policies.md
+        - name: Manage app policies in Teams
+          href: app-policies.md
+        - name: Manage messaging policies
+          href: messaging-policies-in-teams.md
+        - name: Manage feedback policies in Teams
+          href: manage-feedback-policies-in-teams.md
+          
     - name: Communicate with external users
       items: 
         - name: Communicate with users from other organizations
@@ -272,8 +277,6 @@ items:
       href: sharing-files-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
-    - name: Manage messaging policies
-      href: messaging-policies-in-teams.md
     - name: User presence in Teams
       href: presence-admins.md
     - name: Manage tags in Teams
@@ -428,8 +431,6 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-    - name: Manage meeting policies
-      href: meeting-policies-in-teams.md
     - name: Remove the RestrictedAnonymousAccess meeting policy from users
       href: meeting-policies-restricted-anonymous-access.md
     - name: Manage meetings settings
