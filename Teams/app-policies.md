@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage apps with policies
+# Manage apps policies in Microsoft Teams
 
 App policies are used to control applications in Microsoft Teams.
 
