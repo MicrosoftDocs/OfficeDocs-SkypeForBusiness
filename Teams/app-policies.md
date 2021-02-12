@@ -29,7 +29,7 @@ App policies are used to control applications in Microsoft Teams.
 
 ## App setup policies
 
-**App Setup policies** enable you to pin and install applications on behalf of your users and control these settings for your organization. [App setup policies](teams-app-setup-policies.md) are managed in the Teams admin center.
+**App setup policies** enable you to pin and install applications on behalf of your users and control these settings for your organization. [App setup policies](teams-app-setup-policies.md) are managed in the Teams admin center.
 
 ![Screenshot of app setup policy in Teams admin center.](media/app-setup-policy.png)
 
