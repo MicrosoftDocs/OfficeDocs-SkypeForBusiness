@@ -1,5 +1,5 @@
 ---
-title: Manage voice and calling policies
+title: Manage voice and calling policies in Teams
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage voice and calling with policies
+# Manage voice and calling policies in Microsoft Teams
 
 Voice and calling policies are used to control voice and calling in Microsoft Teams.
 
