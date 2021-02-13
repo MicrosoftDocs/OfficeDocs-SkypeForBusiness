@@ -65,10 +65,7 @@ Use the steps below to set up a couple teams and onboard a few early adopters to
 - Step 1: [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 - Step 2: [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
 - Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
-
-When you're ready to roll out Teams to the rest of your organization, move on to Step 4. If you're upgrading or migrating from Skype for Business, read the [Upgrade or migration from Skype for Business](#upgrade-or-migrate-from-skype-for-business) section first.
-
-- Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
+- Step 4: [Start your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
 
 ## Upgrade or migrate from Skype for Business
 
