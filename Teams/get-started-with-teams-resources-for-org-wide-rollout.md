@@ -1,5 +1,5 @@
 ---
-title: Choose a path to your organization-wide rollout
+title: Start your organization-wide rollout of Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dstrome
-description: Once you've set up your first teams, learn where to go to find in-depth deployment and adoptions resources for Microsoft Teams.
+description: Once you've set up your first teams, learn how to deploy Microsoft Teams to your organization.
 ms.custom: 
 - seo-marvel-apr2020
 - seo-marvel-mar2020
@@ -23,7 +23,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Choose a path to your organization-wide rollout of Microsoft Teams
+# Start your organization-wide rollout of Microsoft Teams
 
 Now that you've successfully set up your first teams and onboarded a few early adopters, it's time to begin your rollout of Teams to the rest of your organization.
 
@@ -59,38 +59,32 @@ Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or mo
 > [!TIP]
 > See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
 
-As you think about rolling out teams and channels, you need to decide who should be able to create them, what policies should be applied to them, whether guests from outside your organization can access them, and so on. The article [Chat, teams, channels, & apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) has lots of information about planning for chat, teams, and channels, however, here are some key things from that article you should think about. Click on a decision if you want more information about it.
+As you think about rolling out teams and channels, you need to decide who should be able to create them, whether guests from outside your organization can access them, and so on. The article [Chat, teams, channels, & apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) has lots of information about planning for chat, teams, and channels, however, here are some key things from that article you should think about. Click on a decision if you want more information about it.
 
 | Decision | Description |
 |--|--|
 | [Who should be Teams administrators?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-administrators) | Admin roles can be used to grant specific permissions to people who you want to administer Teams. Small businesses may not need these extra roles because the same person may be responsible for all aspects of Teams. You can always add or remove administrators later on.<br><br>[Use Microsoft Teams administrator roles to manage Teams](using-admin-roles.md) |
 | [Who should be Team owners and members?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | Team owners control who can access a team and its channels. They can decide whether a team or channel is public (to the organization) or private and can set up policies like whether a channel should be moderated. Members can access the team and its channels (unless a channel is set to private and they're not a member of that channel) and can be designated as moderators.<br><br>[Assign team owners and members in Microsoft Teams](assign-roles-permissions.md) |
-| [What messaging policies should be applied?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#messaging-policies)  | Messaging policies control which chat and channel messaging features (such as who can use chat, who can edit and delete sent messages, and so on) are available to users in Teams. Teams has a global policy that applies to everyone. All of the features in the global policy are **On** by default.<br>If you want the same policy to apply to everyone, all you need to do is make changes to this global policy (for example, turn off meme support in conversations).<br>If you want different policies for different groups of people (for example, one policy for office workers and another for factory workers), you can create and assign policies. When you assign a policy to a user, the global policy no longer applies to them.<br><br>[Manage messaging policies in Teams](messaging-policies-in-teams.md) |
-| [What Team settings should be applied?](enable-features-office-365#teams-settings) | Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. <br><br>[Teams settings](enable-features-office-365#teams-settings)  |
-| [Should external access be enabled?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#external-access) | External access lets anyone in another organization talk to people in your organization. This is useful when you have a close relationship with another organization, such as a supplier, and want to make it easy for people in either organization to chat with each other, hold meetings, and so on. <br>External access is different than guest access. External access gives everyone in an another organization access to interact with people in your organization. Guest access invites specific individuals access to interact with people in your organization.<br>External access is turned **Off** by default.<br><br>[Manage external access in Microsoft Teams](manage-external-access.md)  |
-| [Should guest access be enabled?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |Guest access lets people in your organization invite people outside your organization access your teams and channels. Guest access is often used to collaborate with people outside your organization who don't have a formal relationship with yours. For example, you might invite a project planner to work on a project temporarily.<br>Guest access is different than external access. Guest access invites specific individuals access to interact with people in your organization. External access gives everyone in an another organization access to interact with people in your organization. <br>Guest access is turned **Off** by default. <br><br>[Turn on or turn off guest access to Microsoft Teams](set-up-guests.md)  |
+| [Should guest access be enabled?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |Guest access lets people in your organization invite people outside your organization access your teams and channels. Guest access is often used to collaborate with people outside your organization who don't have a formal relationship with yours. For example, you might invite a project planner to work on a project temporarily.<br>Guest access is different than external access. Guest access invites specific individuals access to interact with people in your organization.  <br>Guest access is turned **Off** by default. <br><br>[Turn on or turn off guest access to Microsoft Teams](set-up-guests.md)  |
+
+You don't need to do anything else for your users to start using chat, teams, and channels. However, there are lots of options for controlling how Teams is used. You can changes now, or wait until you can see how people are using Teams. For more information, check out the following articles:
+
+- [Manage messaging policies in Teams](messaging-policies-in-teams.md)
+- [Teams settings](enable-features-office-365#teams-settings)
 
 #### Meetings and conferencing
 
-Meetings and conferencing lets people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** (meetings up 300 attendees, and live events up to 10,000 attendees) to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, talk to each other via voice, and share video and apps with other participants using a PC or mobile device.
+Meetings and conferencing lets people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, make voice calls, and share video and apps with other participants using a PC or mobile device.
 
 **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
 
 > [!TIP]
 > Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
 
-Meetings are enabled by default in Teams, however, you can control the meeting experience for organizers and participants. You can also set policies for what people are, and aren't, allowed to do before and during meetings. For example, you can:
+Meetings are enabled by default in Teams, however, you can control the meeting experience for organizers and participants. You can also set policies for what people are, and aren't, allowed to do before and during meetings. For more information, check out the following articles:
 
-- Allow or prevent anonymous users from joining meetings organized by people in your organization.
-- Allow or prevent the use of PowerPoint sharing, whiteboards, shared notes, and chat.
-- Customize meeting invitations with your company logo, support website, and more.
-- Allow or prevent the use of cameras during meetings.
-- Enable or disable the recording of meetings.
-- Enable or disable screen sharing.
-
-The [Admin quick start - Meetings and live events in Microsoft Teams](quick-start-meetings-live-events.md) article guides you to the right information to customize Teams meetings for your organization.
-
-The [Set up Audio Conferencing for small and medium businesses](audio-conferencing-smb.md) article shows you how to set up audio conferencing for your meetings.
+- [Admin quick start - Meetings and live events in Microsoft Teams](quick-start-meetings-live-events.md)
+- [Set up Audio Conferencing for small and medium businesses](audio-conferencing-smb.md)
 
 #### Business Voice
 
