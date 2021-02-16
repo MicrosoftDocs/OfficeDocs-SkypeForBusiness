@@ -1,0 +1,136 @@
+### YamlMime:Hub
+
+title: Plan your upgrade from Skype for Business to Microsoft Teams
+summary: Microsoft Teams is designed to help people stay connected, collaborate seamlessly, and simplify work in a secure and compliant way - all in one place. Here you’ll find guidance, training, and resources to implement a successful upgrade from Skype for Business to Teams. # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: teams
+
+metadata:
+  title: Plan your upgrade from Skype for Business to Microsoft Teams  # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Microsoft Teams is designed to help people stay connected, collaborate seamlessly, and simplify work in a secure and compliant way - all in one place. Here you’ll find guidance, training, and resources to implement a successful upgrade from Skype for Business to Teams. # < 160 chars.
+  ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  manager: serdars
+  ms.date: 01/27/2020 #Required; mm/dd/yyyy format.
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection: 
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
+  search.appverid: MET150
+  appliesto: 
+    - Microsoft Teams
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Leverage proven guidance for a successful upgrade
+      itemType: how-to-guide
+      url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+    # Card
+    - title: Register for free upgrade planning workshops
+      itemType: learn
+      url: https://aka.ms/upgradeworkshops
+    # Card
+    - title: Learn how Black & Veatch transitioned to Teams in eight weeks
+      itemType: video
+      url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
+
+# productDirectory section (optional)
+productDirectory:
+  title: Resources for planning a successful Teams upgrade and beyond # < 60 chars (optional)
+  summary: A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning. # < 160 chars (optional)
+  items:
+    # Card
+    - title: Teams upgrade stories
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+      links:
+        - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
+          text: Royal DSM – Skype for Business Server to Teams
+        - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
+          text: IKEA –  Skype for Business Server to Teams
+        - url: https://customers.microsoft.com/story/782385-williams-energy-teams
+          text: Williams – Skype for Business Server to Teams
+        - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
+          text: Trek – Skype for Business Online to Teams
+        - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
+          text: Dentsu Aegis Network – Skype for Business Online to Teams
+        - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
+          text: Berkshire Healthcare – Skype for Business Online to Teams
+    # Card
+    - title: "Ignite Session: Design your path to Teams"
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+      summary: This session from Ignite 2020 helps you find the approach most suitable for your Skype for Business implementation and goals.
+      url: https://go.microsoft.com/fwlink/?linkid=2154668
+    # Card
+    - title: Upgrade Success Kit
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
+      summary: Download user readiness materials including communications templates, user surveys, and sample project and pilot test plans.
+      url: https://aka.ms/UpgradeSuccessKit
+    # Card
+    - title: Teams admin documentation
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
+      summary: Learn how to roll out and manage Teams, and prepare your users for new communications and collaboration experiences.
+      url: https://docs.microsoft.com/MicrosoftTeams/
+    # Card
+    - title: Instructor-led Teams training
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
+      summary: Free, live, online training classes designed to get you up and running with Teams.
+      url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+    # Card
+    - title: Expand your Teams scenarios
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+      summary: Our Teams Chalk Talks online workshops are designed to help IT Pros get the most from Teams.
+      url: http://aka.ms/TeamsChalkTalks
+    # Card
+    - title: Skype for Business Online retirement
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+      summary: Prepare for the July 31, 2021 retirement of the Skype for Business Online service and learn how to plan a successful transition to Teams.
+      url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    # Card
+    - title: Microsoft Teams blog
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+      summary: Learn best practices, news, and trends directly from the team behind Microsoft Teams.
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog      
+    # Card
+    - title: Total Economic Impact of Teams
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
+      summary: Dive into the Forrester Research report that quantifies improvements in employee and company performance after adopting Teams.
+      url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: Need additional help? # < 60 chars (optional)
+    - items:
+        # Card
+        - title: Engage FastTrack for deployment assistance
+          summary: When Teams deployment projects require more involved assistance, customers with eligible subscriptions can engage FastTrack for support.
+          url: https://www.microsoft.com/fasttrack
+        # Card
+        - title: Find a Microsoft partner
+          summary: Need additional guidance? Microsoft solution providers can help you manage technical and logistics of your upgrade.
+          url: https://www.microsoft.com/solution-providers/home
+        # Card
+        - title: Microsoft Teams plans and pricing
+          summary: Find the right Microsoft Teams for your business.
+          url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options

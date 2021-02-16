@@ -17,6 +17,8 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
   - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
@@ -41,7 +43,7 @@ You’ll need to make sure you have the following prerequisites before you can i
 
 - Access to use to the Microsoft Teams app in [Epic’s App Orchard marketplace](https://apporchard.epic.com/Gallery?id=6153).
 
-- Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer.
+- Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer (only enforced during production testing).
 
 - Users must have an appropriate Microsoft 365 or Office 365 license that includes Microsoft Teams meetings.
 
@@ -85,7 +87,7 @@ To complete this step, the Microsoft 365 administrator must receive a valid Fast
 
 - The FHIR base URL is a static address corresponding to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
-- Configuration approver name is the name of the Epic customer analyst who will be responsible for approving the configuration in the next step. The Epic customer analyst is a person in your organization with signin access to Epic.
+- Configuration approver name is the name of the Epic customer analyst who will be responsible for approving the configuration in the next step. The Epic customer analyst is a person in your organization with sign-in access to Epic.
 
   ![The configuration approver's name is selected from a list in the EHR connector.](../../media/teams-ehr-connector.png)
 
