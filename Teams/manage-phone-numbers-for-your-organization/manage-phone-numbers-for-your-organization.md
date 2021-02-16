@@ -46,6 +46,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 
 **Select your country or region to find the downloadable PDF LOA forms you will need**
 > [!div class="op_single_selector"]
+>
 > - [Australia](phone-number-management-for-australia.md)
 > - [Austria](phone-number-management-for-austria.md)
 > - [Belgium](phone-number-management-for-belgium.md)
@@ -76,6 +77,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [United States & Puerto Rico](phone-number-management-for-the-u-s.md)
 
 ***
+
 ## Here's a bit more information about these number request forms
 
 ### Request forms for new phone numbers
@@ -91,6 +93,7 @@ If so, you will need to download the correct PDF LOA form (per country or region
 If you need to transfer/port your existing phone numbers, you will need to download, fill and send us a Letter of Authorization (LOA), which gives us permission to request and transfer, on your behalf, those existing numbers from a different service provider into Microsoft Teams.
 
 Please send us an **LOA** if you currently have the following with another carrier:
+
 - User (subscriber) numbers.
 - Service (toll) numbers for audio conferencing bridges, auto attendants, or call queues.
 - Toll-Free phone numbers.
@@ -112,4 +115,4 @@ Once you have your **filled and signed** LOA, please [contact our PSTN Service D
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
