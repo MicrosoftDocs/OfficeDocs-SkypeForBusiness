@@ -22,6 +22,7 @@ appliesto:
 ms.reviewer: 
 description: Use Microsoft Teams templates with Microsoft Graph to quickly and easily create teams by providing a predefined template of settings, channels, and apps.
 ms.custom: seo-marvel-mar2020
+ROBOTS: NOINDEX
 ---
 
 # Get started with Teams templates for healthcare organizations
