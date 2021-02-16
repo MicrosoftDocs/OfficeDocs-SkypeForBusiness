@@ -34,7 +34,7 @@ Choose a method for creating teams with the Teams healthcare templates:
 | Who | Method to use: |
 | ---- | --------- |
 | Admins and IT Professionals | [Use the Teams admin center](#use-the-teams-templates-in-the-teams-admin-center) to create teams based on the healthcare Teams templates.|
-| Developers | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create teams based on the healthcare Teams templates. |
+| Developers and systems integrators | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create teams based on the healthcare Teams templates. |
 
 ## Use the Teams templates in the Teams admin center
 
