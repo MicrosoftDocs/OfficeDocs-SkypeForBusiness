@@ -74,7 +74,7 @@ items:
           href: content-search.md
         - name: Auditing
           href: audit-log-events.md
-        - name: Customer key at the tenant level for Teams
+        - name: Customer key
           href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Privacy
       items: 
@@ -1092,6 +1092,8 @@ items:
           href: built-in-custom-tabs.md
         - name: Use Microsoft 365 or Office 365 and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Teams apps behavior for non-standard users
+          href: non-standard-users.md
 
 - name: Adopt
   items: 
