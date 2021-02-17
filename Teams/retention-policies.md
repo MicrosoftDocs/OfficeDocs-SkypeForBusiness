@@ -24,7 +24,9 @@ ms.custom: seo-marvel-apr2020
 # Manage retention policies for Microsoft Teams
 
 > [!NOTE]
-> If you are a user who is seeing a message in Teams that your chats and messages have been deleted by a retention policy, see [Teams messages about retention policies](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). The information on this page is for IT administrators who manage these retention policies.
+> If you are a user who is seeing a message in Teams that your chats and messages have been deleted by a retention policy, see [Teams messages about retention policies](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
+> 
+> The information on this page is for IT administrators who manage these retention policies.
 
 Retention policies and retention labels from Microsoft 365 help you to more effectively manage the information in your organization. You can configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal needs. You can also configure retention settings to delete data that's considered a liability, that you're no longer required to keep, or that has no legal or business value.
 
