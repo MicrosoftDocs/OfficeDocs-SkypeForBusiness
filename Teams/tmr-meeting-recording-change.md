@@ -45,7 +45,6 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - Share recordings with guests (external users) with explicit share only
 - Request access flow
 - Provide OneDrive for Business and SharePoint shared links
-- Increased quota
 - Meeting  recordings are available faster
 - **Go local** tenant support
 - Multi-geo support – recordings are stored in a region specific to that user
