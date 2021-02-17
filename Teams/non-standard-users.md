@@ -44,7 +44,7 @@ Guests can use an app if the app was installed by a native user.
 
 Bots can proactively message guest users, but guests can't interact with the bot. Guests can't message the bot 1:1, @ mention the bot, or interact with adaptive cards that communicate with the bot.
 
-Guests will adhere to global and org-wide permission policies set for the host tenant for any app. (In other words, if an app is blocked for the whole host organization, then guests can't use the app either.)
+Guests will adhere to global and org-wide permission policies set for the host tenant for any app. In other words, if an app is blocked for the whole host organization, then guests can't use the app either.
 
 Setup policies don't apply to guest users. This means admin pinned app from the default policy doesn't affect guest users.
 
@@ -70,4 +70,4 @@ Anonymous users can't install, update, or delete apps in meetings.
 
 Anonymous users can't directly use apps in meetings. Native users can continue to use meetings apps if anonymous users are present. If an app sends an adaptive card in the chat, anonymous users can interact with the card.
 
-Anonymous users will inherit the user-level global default permission policy. This control allows anonymous users to interact with apps in Teams meetings as long as the user-level permission policy has enabled the app. Anonymous users can only interact with apps that are already available in a meeting and can't acquire and/or manage these apps.
+Anonymous users will inherit the user-level global default permission policy. This control allows anonymous users to interact with apps in Teams meetings if the user-level permission policy has enabled the app. Anonymous users can only interact with apps that are already available in a meeting and can't acquire and/or manage these apps.
