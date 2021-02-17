@@ -63,9 +63,9 @@ To assign a call part policy to a group
 3. Choose a rank compared to other group assignments.
 4. Under **Select a policy**, choose the policy that you want to assign this group to.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![park policies image](media/call-park-assign-policy-to-group.png)
 
-5. Click **Apply**.
+5. Select **Apply**.
 
 ## Related topics
 

@@ -25,7 +25,7 @@ This article describes how to configure a Session Border Controller (SBC) and co
 - **Step 1. Connect your SBC with Phone System and validate the connection** (This article)
 - Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
 - Step 3. [Configure call routing](direct-routing-voice-routing.md)
-- Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
+- Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md)
 
 For information on all the steps required to set up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
