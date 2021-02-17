@@ -2,6 +2,77 @@
 
 
 
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [Manage user access to Education Insights](/MicrosoftTeams/education-insights-manage-access) | added |
+| 2/8/2021 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 2/8/2021 | [Call and chat with users from other organizations](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modified |
+| 2/8/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 2/8/2021 | [Sync Student Information System (SIS) data with Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | modified |
+| 2/8/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 2/8/2021 | [Manage tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | modified |
+| 2/8/2021 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
+| 2/8/2021 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 2/8/2021 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
+| 2/8/2021 | [Manage Teams templates in the admin center](/MicrosoftTeams/templates-policies) | modified |
+| 2/8/2021 | [Phone number management for Belgium](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modified |
+| 2/8/2021 | [Release notes](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 2/8/2021 | [Plan your upgrade from Skype for Business to Microsoft Teams](/MicrosoftTeams/upgrade-skype-teams) | modified |
+| 2/9/2021 | [Create a custom team template in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modified |
+| 2/9/2021 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 2/10/2021 | [Microsoft Teams auto attendant supported languages](/MicrosoftTeams/create-a-phone-system-auto-attendant-languages) | added |
+| 2/10/2021 | [Microsoft Teams call queue supported languages](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | added |
+| 2/10/2021 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 2/10/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 2/10/2021 | [Sync Student Information System (SIS) data with Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | modified |
+| 2/10/2021 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
+| 2/10/2021 | [Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365](/MicrosoftTeams/rooms/with-office-365) | modified |
+| 2/10/2021 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
+| 2/10/2021 | [Microsoft Teams user activity report](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modified |
+| 2/10/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
+| 2/10/2021 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
+| 2/10/2021 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 2/10/2021 | [Apps, bots, & connectors in Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modified |
+| 2/10/2021 | [Direct Routing SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | modified |
+| 2/10/2021 | [Purchase third-party apps for Teams](/MicrosoftTeams/purchase-third-party-apps) | modified |
+| 2/10/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
+| 2/10/2021 | [Assign Teams add-on licenses to users](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | modified |
+| 2/10/2021 | [Interoperability between Skype for Business and Microsoft Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modified |
+| 2/10/2021 | [Manage the Microsoft Teams Exploratory experience](/MicrosoftTeams/teams-exploratory) | modified |
+| 2/11/2021 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | added |
+| 2/11/2021 | [Microsoft Teams user activity report](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modified |
+| 2/11/2021 | [Assign policies to your users in Microsoft Teams](/MicrosoftTeams/assign-policies) | modified |
+| 2/11/2021 | [Create a custom team template in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modified |
+| 2/11/2021 | [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modified |
+| 2/11/2021 | [Phone number management for Australia](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | modified |
+| 2/11/2021 | [Phone number management for Austria](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | modified |
+| 2/11/2021 | [Phone number management for Belgium](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modified |
+| 2/11/2021 | [Phone number management for Canada](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | modified |
+| 2/11/2021 | [Phone number management for Denmark](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | modified |
+| 2/11/2021 | [Phone number management for France](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | modified |
+| 2/11/2021 | [Phone number management for Germany](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | modified |
+| 2/11/2021 | [Phone number management for Ireland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modified |
+| 2/11/2021 | [Phone number management for Italy](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | modified |
+| 2/11/2021 | [Phone number management for Japan](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | modified |
+| 2/11/2021 | [Phone number management for Portugal](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | modified |
+| 2/11/2021 | [Phone number management for Spain](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | modified |
+| 2/11/2021 | [Phone number management for Sweden](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | modified |
+| 2/11/2021 | [Phone number management for Switzerland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | modified |
+| 2/11/2021 | [Phone number management for the Netherlands](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | modified |
+| 2/11/2021 | [Phone number management for the United Kingdom](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | modified |
+| 2/11/2021 | [Phone number management for the United States](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modified |
+| 2/11/2021 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
+| 2/11/2021 | [Plan your upgrade from Skype for Business to Microsoft Teams](/MicrosoftTeams/upgrade-skype-teams) | modified |
+| 2/12/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 2/12/2021 | [Add and update reporting labels](/MicrosoftTeams/learn-more-about-site-upload) | modified |
+| 2/12/2021 | [Phone number management for Belgium](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modified |
+| 2/12/2021 | [Reset the Audio Conferencing PIN in Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | modified |
+| 2/12/2021 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
+
+
 ## Week of February 01, 2021
 
 

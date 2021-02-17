@@ -74,7 +74,7 @@ items:
           href: content-search.md
         - name: Auditing
           href: audit-log-events.md
-        - name: Customer key at the tenant level for Teams
+        - name: Customer key
           href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Privacy
       items: 
@@ -340,6 +340,8 @@ items:
               href: troubleshoot-guest-access.md
     - name: Cortana in Teams
       href: cortana-in-teams.md
+    - name: Set up your team targeting hierarchy
+      href: set-up-your-team-hierarchy.md
     
 
 - name: Meetings and conferencing
@@ -1039,50 +1041,59 @@ items:
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Integrate with Power Platform
-      href: teams-power-platfom-integration.md
-    - name: Manage apps for Teams
-      href: manage-apps.md
-    - name: Admin settings for apps in Teams
-      href: admin-settings.md
-    - name: Use built-in and custom tabs
-      href: built-in-custom-tabs.md
-    - name: Use Microsoft 365 or Office 365 and custom connectors
-      href: Office-365-custom-connectors.md
-    - name: Resource-specific consent
-      href: resource-specific-consent.md
-    - name: Custom apps
-      items: 
-        - name: Publish a custom app submitted through the Teams App Submission API
-          href: submit-approve-custom-apps.md
+    - name: Apps from Microsoft
+      items:
+        - name: Manage the Lists app 
+          href: manage-lists-app.md
+        - name: Manage the Tasks app
+          href: manage-tasks-app.md
+        - name: Manage the Praise app
+          href: manage-praise-app.md
+        - name: Manage the Teams Approvals app
+          href: approval-admin.md
+        - name: Manage the Shifts app for your organization in Teams
+          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          
+    - name: Third-party apps
+      items:
+        - name: App certification
+          href: https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview
+        - name: Purchase third-party apps for Teams
+          href: purchase-third-party-apps.md
+    - name: App templates for Teams
+      href: https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+
+    - name: How to build and customize your own apps
+      items:
+        - name: Integrate with Power Platform
+          href: teams-power-platfom-integration.md
         - name: Manage Power Platform apps in the Microsoft Teams admin center
           href: manage-power-platform-apps.md
+        - name: Publish a custom app submitted through the Teams App Submission API
+          href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
         - name: Custom apps store 
           href: customize-your-app-store.md
-    - name: App certification
-      href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: View app permissions and grant admin consent in the Microsoft Teams admin center
-      href: app-permissions-admin-center.md
-    - name: Apps permissions and considerations
-      href: app-permissions.md
-    - name: Purchase services for Teams third-party apps
-      href: purchase-third-party-apps.md
-    - name: App templates for Teams
-      href: https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Manage the Lists app for your organization in Teams
-      href: manage-lists-app.md
-    - name: Manage the Tasks app for your organization
-      href: manage-tasks-app.md
-    - name: Set up your team targeting hierarchy
-      href: set-up-your-team-hierarchy.md
-    - name: Manage the Praise app in the Teams admin center
-      href: manage-praise-app.md
-    - name: Configure the Skype Meetings App to work with Teams
-      href: configure-skype-meetings-app-to-work-with-teams.md
-    - name: Teams Approvals app availability
-      href: approval-admin.md
+
+    - name: Manage apps for Teams
+      items:
+        - name: Overview
+          href: manage-apps.md
+        - name: View app permissions and grant admin consent in the Microsoft Teams admin center
+          href: app-permissions-admin-center.md
+        - name: Resource-specific consent
+          href: resource-specific-consent.md
+        - name: Apps permissions and considerations
+          href: app-permissions.md
+        - name: Admin settings for apps in Teams
+          href: admin-settings.md
+        - name: Use built-in and custom tabs
+          href: built-in-custom-tabs.md
+        - name: Use Microsoft 365 or Office 365 and custom connectors
+          href: Office-365-custom-connectors.md
+        - name: Teams apps behavior for non-standard users
+          href: non-standard-users.md
 
 - name: Adopt
   items: 
@@ -1283,12 +1294,8 @@ items:
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Message delegation
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams templates
-          items: 
-            - name: Use Teams healthcare templates
-              href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: Teams templates for healthcare
-              href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+        - name: Use Teams healthcare templates
+          href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
         - name: Manage the Lists app
           href: manage-lists-app.md
         - name: Manage the Tasks app
