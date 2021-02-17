@@ -77,6 +77,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
 
     1. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
+    1. Follow the prompts to install it.
 
     1. Restart your machine.
 
