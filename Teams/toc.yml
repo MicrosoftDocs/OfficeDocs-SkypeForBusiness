@@ -7,7 +7,7 @@ items:
       href: deploy-overview.md
     - name: Quick start
       items: 
-        - name: Overview
+        - name: Quick start overview
           href: get-started-with-teams-quick-start.md
         - name: "Step 1: Create your first teams and channels"
           href: get-started-with-teams-create-your-first-teams-and-channels.md
@@ -19,12 +19,12 @@ items:
           href: get-started-with-teams-resources-for-org-wide-rollout.md
         - name: Support remote workers (WFH)
           href: support-remote-work-with-teams.md
-    - name: Advanced setup
+    - name: Small business setup
+      href: deploy-small-business.md
+    - name: Enterprise setup
       items:
-        - name: Overview
-          href: deploy-advanced.md
-        - name: Teams requirements
-          href: foo.md
+        - name: Enterprise setup overview
+          href: deploy-enterprise.md
         - name: Architecture & telephony solutions posters
           href: teams-architecture-solutions-posters.md
         - name: Get your organization ready
@@ -46,11 +46,7 @@ items:
             - name: Plan for governance in Teams
               href: plan-teams-governance.md
         - name: Set up Teams in your org
-          items:
-            - name: Topic 1
-              href: foo.md
-            - name: Topic 2
-              href: foo.md
+          href: foo.md
     - name: Adopt
       items: 
         - name: Overview
