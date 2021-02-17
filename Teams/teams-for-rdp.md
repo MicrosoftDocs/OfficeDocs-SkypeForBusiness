@@ -55,7 +55,7 @@ The following suggestions are the recommended minimum VM configuration.
 
 In a non-persistent setup, users' local operating system changes are not retained after users sign out. Such setups are commonly shared multi-user sessions. VM configuration varies based on the number of users and available physical box resources.
 
-For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session.
+For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](teams-for-vdi.md#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session.
 
 Using Teams in a non-persistent setup also requires a profile-caching manager, for efficient Teams runtime data synchronization. Efficient data synchronization ensures that the appropriate user-specific information (such as a user's data, profile, or settings) is cached during the user's session. Make sure data in these two folders are synched:<br>
 
