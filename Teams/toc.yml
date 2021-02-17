@@ -1444,7 +1444,7 @@ items:
         - name: Teams for Virtualized Desktop Infrastructure (VDI)
           href: teams-for-vdi.md
         - name: Teams for Remote Desktop environment (RDP)
-          href: teams-for-rdp.md
+          href: teams-on-rdp.md
         - name: Deploy Teams for Surface Hub
           href: teams-surface-hub.md
         - name: Teams client updates
