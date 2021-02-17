@@ -33,7 +33,7 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
 | From Header | From Header From: <sip:sbc1.adatum.biz:5058> |
-| To Header | To: <sip:sip.pstnhub.microsoft.com:5061> | 
+| To Header | To: <sip:sip.pstnhub.microsoft.com:5061> |
 | CSeq header | CSeq: 1 INVITE | 
 | Contact Header | Contact: <sip:sbc1.adatum.biz:50588;transport=tls> |
 

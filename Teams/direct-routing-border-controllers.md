@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs work with Direct Routing. 
 
-Microsoft works with each vendor to: 
+Microsoft works with each vendor to:
 
 - Jointly work on the SIP interconnection protocols.
 - Perform intense tests using a third-party lab. Only devices that pass the tests are certified. 

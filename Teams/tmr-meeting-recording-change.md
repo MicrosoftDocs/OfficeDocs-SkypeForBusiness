@@ -81,7 +81,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
 
     1. Restart your machine.
 
-2. Launch PowerShell as an admin
+2. Launch PowerShell as an admin.
 
 3. Import the SkypeOnline Connector and sign in as a Teams admin.
 
