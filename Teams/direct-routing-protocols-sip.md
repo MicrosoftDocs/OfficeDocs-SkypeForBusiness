@@ -271,8 +271,8 @@ The REFERRED-BY header is a SIP URI with transferor MRI encoded in it as well as
 | Parameter | Value | Description |  
 |:---------------------  |:---------------------- |:---------------------- |
 | x-m | MRI | Full MRI of transferor/transfer target as populated by CC |
-| x-t | Tenant ID | x-t Tenant ID Optional Tenant Id as populated by CC |
-| x-ti | Transferor Correlation Id | Correlation Id of the call to the transferor |
+| x-t | Tenant ID | x-t Tenant ID Optional Tenant ID as populated by CC |
+| x-ti | Transferor Correlation Id | Correlation ID of the call to the transferor |
 | x-tt | Transfer target call URI | Encoded call replacement URI |
 
 The size of the Refer Header can be up to 400 symbols in this case. The SBC must support handling Refer messages with size up to 400 symbols.
