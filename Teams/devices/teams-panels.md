@@ -20,11 +20,9 @@ description: "This article provides an overview of and features supported by Mic
 
 # Microsoft Teams panels
 
-Microsoft Teams panels are the compact touch screen devices that are mounted right outside of your meeting spaces to streamline space management. Teams panels provides you the ability to view location and meeting details at a glance, and reserve an available meeting space on the fly. With rich, large text and color-coded indicators, you can see the meeting space’s current availability even from afar.
+Microsoft Teams panels are the compact touch screen devices that are mounted right outside of your meeting spaces, typically next to room entrances. Teams panels provide you the ability to view location and meeting details at a glance, and reserve an available meeting space on the fly. With rich, large text and color-coded indicators, you can see the meeting space’s availability even from a distance. Teams panels and dedicated Teams devices and display details of meetings schedules via Teams or Outlook 365 applications.
 
-Teams panels are dedicated Teams devices that are pre-integrated with Microsoft Outlook 365 and Teams calendar and display meeting details scheduled through these calendar applications.
-
-This article provides an overview of Teams panels and can help you plan, deliver, and manage Teams panels in your organization.
+This article provides an overview of Teams panels and can help you plan, deliver, and manage Teams panels devices in your organization.
 
 <!--To learn more, check out [Get started with Teams displays](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6).-->
 
@@ -34,8 +32,8 @@ Teams panels support the following features:
 
 - **Dedicated display of meeting space and meeting details** You can—at a glance—get information about a meeting space, including its location and availability status. For a reserved meeting space, you can see meeting details, such as the meeting name, meeting schedule, and meeting organizer.
 - **Reserve available room for ad hoc meetings** Using the touch-screen panel, you can reserve an available room for an ad hoc meeting on the fly. Tap the **Reserve** button on the Home screen and select the meeting end time.
-- **Color-coded indicators for space availability status** Identify, even from a distance, if a meeting space is available or resserved by just looking at the color displayed on the panels. Green indicates the space is available and you can reserve it on the fly right from the panel. If the color displayed is red or purple, the meeting space is already reserved.
-- **Customize background and reserved state indicator** Admins have the ability to change the default look of the panels through settings. For example, admins can change the background wallpaper, or change the color of the Reserved state indicator.  
+- **Color-coded indicators for space availability status** You can see room availability at-a-glance from afar and up close. Green LED color indicates that the meeting space is available, and if required you can reserve it on the fly right from the panel itself. Red or purple LED color indicates that the meeting space is reserved.
+- **Customize background and reserved state indicator** Admins have the ability to change the default look of the panels through settings. For example, admins can change the background wallpaper, or change the color of the busy state indicator.  
 
 ## Teams panels requirements
 The following section lists the physical, software, and network requirements of Teams panels.
@@ -113,27 +111,34 @@ Planning for configuration and deployment covers the following key areas:
 
 - Resource account provisioning
 - Device deployment
-- Collaboration bars for Microsoft Teams application and peripheral device configuration
 - Testing
 - Asset management
 
 #### Resource account provisioning
 
-Every Teams panels device requires its unique resource account. This is the account that signs in to Teams panels. Depending on your organization's environment, this account can be an Active Directory or Azure Active Direcory account. It is recommended to create the account well in advance of the actual Teams panels installation. You can create resource accounts and assign them to the Teams panels devices using the Microsoft 365 admin center. [See Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) for more information. 
+Every Teams panels device requires its unique Microsoft 365 resource account. This is the account that signs in to Teams app on the Teams panels device. You can create resource accounts and assign them to the Teams panels devices using the Microsoft 365 admin center.
 
-To set up a Microsoft 365 resource account, you'll need to purchase a Meeting Room license for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams.
+To set up a Microsoft 365 resource account, you'll need to purchase a Microsoft Teams Rooms Standard License for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams.
 
 When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can book the resource, and so on.
 
+[See Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) for information on how to create a resource account and assign license to it.
+
+> [!NOTE]
+>- If the meeting space, where the device is being deployed, already has a resource account set up, then the panels device would use the same resource account as that of the meeting space. However, if not already done, you still need to purchase a Microsoft Teams Rooms Standard license and assign it to the resource account.   
+>
+>- If a meeting space is already deployed with Microsoft Teams Rooms devices, then you don't need to purchase a separate Microsoft Teams Rooms license for Teams panels.
+
 > [!TIP]
-> Consider using naming conventions for the Teams panels resource account. Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Microsoft Teams panels to meetings.
+> It is recommended to create the account well in advance of the actual Teams panels installation.
+> Consider using naming conventions for the Teams panels resource account. Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding meeting spaces while scheduling the meetings.
 
 ## Manage Teams panels in your organization
 
 To manage your Teams panels devices, in the left navigation of the Microsoft Teams admin center, go to **Teams panels**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
 
-## Get started with Teams panels
-The following section is indented for Teams panels end users and describes how to use it. The Personalize your Teams panels Home screen is intended for admins only.
+## Teams panels end-user experience 
+The following section is indented for Teams panels end users and describes the Teams panels features that they can use.
 
 ### Teams panel Home screen
 The Teams panels Home screen is the visual interface that is displayed on your Teams panels. It displays details about the meeting space, such location and room availability status, and details about the scheduled meeting. 
@@ -156,8 +161,8 @@ To reserve an available meeting space:
 If the meeting space that you just reserved is a Microsoft Teams Room, you can use the touch controller (Microsoft Teams Rooms console) to add your meeting attendees and immediately start a meeting.
 
 
-### Personalize your Teams panels Home screen
-The 
+### Teams panels admin experience
+Admins of Teams panels can  
 
 
 ## Frequently asked questions
@@ -173,6 +178,12 @@ Find answers to frequently asked questions about Teams panels.
 
 <!--Add a link to the Get started topic on SMC here-->
 
+Assume the device is pre-integrated with the latest FW?
 For an MTR, do we need to create a resource account for the panels? If no, how to add panels to the MTR resource account?
-SMC-side documentation?
+If a meeting space already has a resource account set up, do we still need to create a RA for the device? If no, how will the panel be aligned with the room RA?
+Do we need to create resource account and then add license for each device?
+Panels Admin account is different from the admin account to sign in to Teams on panels. Do we need to explain that? 
 Is the resource account also the admin account of Teams panels? the account used to sign in to panels?
+Do panels support automatic firmware updates?
+Teams admin center > Devices > Configuration profiles. Can't assign a profile to a device. But can assign a device to a profile.
+SMC-side documentation? Add Get started topics along with admin topics?
