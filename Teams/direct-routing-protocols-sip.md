@@ -189,7 +189,8 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 
 4.  A Call Acceptance message is sent with the final candidates of the endpoint that accepted the call. The Call Acceptance message is converted to SIP message 200. 
 
-![Diagram showing multiple endpoints ringing without provisional answer](media/direct-routing-protocols-2.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram showing multiple endpoints ringing without provisional answer](media/direct-routing-protocols-2.png)
 
 ### Media bypass flow
 
