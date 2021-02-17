@@ -1294,12 +1294,8 @@ items:
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Message delegation
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams templates
-          items: 
-            - name: Use Teams healthcare templates
-              href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: Teams templates for healthcare
-              href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+        - name: Use Teams healthcare templates
+          href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
         - name: Manage the Lists app
           href: manage-lists-app.md
         - name: Manage the Tasks app
@@ -1447,6 +1443,8 @@ items:
           href: office-365-urls-ip-address-ranges.md
         - name: Teams for Virtualized Desktop Infrastructure (VDI)
           href: teams-for-vdi.md
+        - name: Teams for Remote Desktop environment (RDP)
+          href: teams-on-rdp.md
         - name: Deploy Teams for Surface Hub
           href: teams-surface-hub.md
         - name: Teams client updates
