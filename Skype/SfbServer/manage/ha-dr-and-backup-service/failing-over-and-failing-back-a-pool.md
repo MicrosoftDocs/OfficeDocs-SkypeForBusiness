@@ -13,7 +13,7 @@ localization_priority: Normal
 description: "."
 ---
 
-# Failing over and failing back a pool in Skype for Business Server 
+# Failing over and failing back a pool in Skype for Business Server
 
 Use the following procedures if a single Front End pool has failed and needs to be failed over, or the pool that experienced the disaster is back online and you need to restore your deployment to regular working status. Also  learn how to fail over and fail back the Edge pool used for Skype for Business federation or XMPP federation, or change the Edge pool associated with a Front End pool.
 
@@ -34,44 +34,44 @@ Additionally, if a Front End pool fails but the Edge pool at that site is still 
 
 **To set an Edge pool to use a next hop pool at the same site**
 
-1.  Open Topology Builder, right-click the Edge pool that needs to be changed, and click **Edit Properties**.
+1. Open Topology Builder, right-click the Edge pool that needs to be changed, and click **Edit Properties**.
 
-2.  Click **Next Hop**. From the **Next hop pool:** list, select the pool which will now serve as the next hop pool.
+2. Click **Next Hop**. From the **Next hop pool:** list, select the pool which will now serve as the next hop pool.
 
-3.  Click **OK**, and then publish the changes.
+3. Click **OK**, and then publish the changes.
 
 **To set an Edge pool to use a next hop pool at a different site**
 
-1.  Open a Skype for Business Server Management Shell window and type the following cmdlet:
-    
+1. Open a Skype for Business Server Management Shell window and type the following cmdlet:
+
         Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
 
 **To fail over a pool in a disaster**
 
-1.  Find which pool is the host for the Central Management Server by typing the following cmdlet on a Front End server in Pool2:
-    
+1. Find which pool is the host for the Central Management Server by typing the following cmdlet on a Front End server in Pool2:
+
         Invoke-CsManagementServerFailover -Whatif
-    
+
     The results of this cmdlet show which pool currently hosts the Central Management Server. In the rest of this procedure, this pool is known as CMS\_Pool.
 
-2.  Use Topology Builder to find the version of Skype for Business Server running on the CMS\_Pool. If it is running Skype for Business Server, use the following cmdlet to find the backup pool of Pool 1.
-    
+2. Use Topology Builder to find the version of Skype for Business Server running on the CMS\_Pool. If it is running Skype for Business Server, use the following cmdlet to find the backup pool of Pool 1.
+
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
-    
+
     Let Backup\_Pool be the backup pool.
 
-3.  Check the status of the Central Management store with the following cmdlet:
-    
+3. Check the status of the Central Management store with the following cmdlet:
+
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
-    
+
     This cmdlet should show that both ActiveMasterFQDN and ActiveFileTransferAgents are pointing to the FQDN of CMS\_Pool. If they are empty, the Central Management Server is not available and you must fail it over.
 
 4.  If the Central Management store is not available or if the Central Management store was running on Pool1 (that is, the pool that has failed), you must fail over the Central Management Server before failing over the pool. If you need to fail over the Central Management Server that was hosted on a pool running Skype for Business Server, use the cmdlet in step 5 of this procedure. If you do not need to fail over the Central Management Server, skip to step 7 of this procedure.
 
 5.  To fail over the Central Management store on a pool running Skype for Business Server, do the following:
-    
+
       - First, check which Back End Server in Backup\_Pool runs the principal instance of the Central Management store by typing the following:
-        
+
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
       - If the primary Back End Server in Backup\_Pool is the principal, type:
@@ -178,8 +178,6 @@ In your organization, there is one Edge pool designated as the pool to use for X
 When you first install Edge pools and enable XMPP Federation, you can simplify the disaster recovery process by setting up external DNS SRV records for all of your Edge pools for XMPP federation, instead of just one. Each of these SRV records must have a different priority set. All XMPP federation traffic goes through the pool with the SRV record with the highest priority. 
 
 In the following procedure, EdgePool1 is the pool which originally hosted XMPP federation, and EdgePool2 is the pool which will now host XMPP federation.
-
-
 ### To fail over the Edge pool used for XMPP federation
 
 1.  If you don’t already have another Edge pool deployed (besides the one which is currently down), deploy that pool. 
@@ -205,7 +203,6 @@ In the following procedure, EdgePool1 is the pool which originally hosted XMPP f
 7.  Start the services on all Edge Servers in the Edge pool which will now host XMPP federation:
     
         Start-CsWindowsService
-
 
 ## Fail back the Edge pool used for Skype for Business Server federation or XMPP federation 
 

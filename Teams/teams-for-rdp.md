@@ -1,5 +1,5 @@
 ---
-title: Teams for Remote desktop
+title: Teams for Remote Desktop
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: alivano
 audience: admin
-description: Learn how to run Microsoft Teams in a Remote desktop environment.
+description: Learn how to run Microsoft Teams in a Remote Desktop environment.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,17 +19,17 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams for Remote desktop environment
+# Teams for Remote Desktop environment
 
-This article describes the requirements and limitations for using Microsoft Teams in a remote desktop environment (RDP).
+This article describes the requirements and limitations for using Microsoft Teams in a Remote Desktop environment (RDP).
 
 ## What is RDP?
 
-RDP is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
+RDP is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. RDP enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
 
-Microsoft Teams in a virtualized environment supports chat and collaboration. Teams in a virtualized environment supports multiple configurations. 
+Microsoft Teams in a virtualized environment supports chat and collaboration. Teams in a virtualized environment supports multiple configurations.
 
-Using Teams in a virtualized environment might be somewhat different from using Teams in a non-virtualized environment. For example, some advanced features might not be available in a virtualized environment, and video resolution might differ.
+Using Teams in a virtualized environment is different from using Teams in a non-virtualized environment. For example, some advanced features might not be available in a virtualized environment, and video resolution can differ.
 
 To ensure an optimal user experience, follow the guidance in [How do you use Teams Remote Desktop?](https://support.microsoft.com/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c).
 
@@ -41,34 +41,35 @@ The Teams desktop app was validated with leading virtualization solution provide
   
 #### Dedicated persistent setup
 
-In a dedicated persistent setup, users' local operating system changes are retained after users log off. For persistent setup, Teams supports both per-user and per-machine installation.
+In a dedicated persistent setup, users' local operating system changes are retained after users sign out. For persistent setup, Teams supports both per-user and per-machine installation.
 
-The following is the recommended minimum VM configuration.
+The following suggestions are the recommended minimum VM configuration.
 
 |Parameter  |Workstation operating system  |Server operating system  |
 |---------|---------|---------|
-|vCPU   |    2 cores     |  4,6, or 8<br>It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.     |
-|RAM     |   4 GB      | 512 to 1024 MB per user        |
-|Storage    | 8 GB        | 40 to 60 GB        |
+|vCPU   |    2 cores     |  4, 6, or 8<br>It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.     |
+|RAM     |   4 GB      | 512 MB to 1024 MB per user        |
+|Storage    | 8 GB        | 40 GB to 60 GB        |
 
 #### Non-persistent setup
 
-In a non-persistent setup, users' local operating system changes are not retained after users log off. Such setups are commonly shared multi-user sessions. VM configuration varies based on the number of users and available physical box resources.
+In a non-persistent setup, users' local operating system changes are not retained after users sign out. Such setups are commonly shared multi-user sessions. VM configuration varies based on the number of users and available physical box resources.
 
 For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session.
 
 Using Teams in a non-persistent setup also requires a profile-caching manager, for efficient Teams runtime data synchronization. Efficient data synchronization ensures that the appropriate user-specific information (such as a user's data, profile, or settings) is cached during the user's session. Make sure data in these two folders are synched:<br>
+
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 > [!NOTE]
 > A roaming folder (or, if you are using folder redirection, a caching manager) is required to ensure that the Teams app has the runtime data and files required to run the application. This is necessary to mitigate network latency issues or network glitches, which would otherwise cause application errors and a slow experience due to unavailable data and files.
 
-There are a variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
+There are several caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
 ##### Teams cached content exclusion list for non-persistent setup
 
-Exclude the following from the Teams caching folder, %appdata%/Microsoft/Teams. Excluding these items helps reduce the user caching size to further optimize your non-persistent setup.
+Exclude the following data from the Teams caching folder, %appdata%/Microsoft/Teams. Excluding these items helps reduce the user caching size to further optimize your non-persistent setup.
 
 - .txt files
 - Media-stack folder
@@ -118,9 +119,9 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        This process installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete. Installing Teams per-machine is required for non-persistent setups.
+        This process installs Teams to the Program Files (x86) folder on a 64-bit operating system and to the Program Files folder on a 32-bit operating system. At this point, the golden image setup is complete. Installing Teams on each machine is required for non-persistent setups.
 
-        The next interactive logon session starts Teams and asks for credentials.
+        The next interactive sign-in session starts Teams and asks for credentials.
 
         > [!NOTE]
         > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials.
@@ -147,14 +148,14 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for RDP with AV optimization. The chat and collaboration experience works as expected. When media is needed, there are some experiences that might not meet user expectations on the Chrome browser:
 
-- The audio and video streaming experience might not be optimal. Users might experiences delays or reduced quality.
+- The audio and video streaming experience might not be optimal. Users might experience delays or reduced quality.
 - Device settings aren't available in browser settings.
 - Device management is handled through the browser and requires multiple settings in browser site settings.
-- Device settings might also need to be set in Windows device management.
+- Device settings might need to be set in Windows device management.
 
 ## Teams on RDP with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. 
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams.
 
 ### Set policies to turn off calling and meeting functionality
 
@@ -169,26 +170,37 @@ You can set policies by using the Microsoft Teams admin center or PowerShell. It
 To assign the DisallowCalling calling policy and the AllOff meeting policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
-2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Do the following:
-    1.  Under **Calling policy**, click **DisallowCalling**.
-    2.  Under **Meeting policy**, click **AllOff**.
-4. Click **Apply**.
+
+2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
+
+3. Do the following steps:
+
+    a.  Under **Calling policy**, select **DisallowCalling**.
+
+    b.  Under **Meeting policy**, select **AllOff**.
+
+    c. Select **Apply**.
 
 To assign a policy to multiple users at a time:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
-2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the &#x2713; (check mark) at the top of the table.
-3. Click **Edit settings**, make the changes that you want, and then click **Apply**.
 
-Or, you can also do the following:
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, select the &#x2713; (check mark) at the top of the table.
+
+3. Select **Edit settings**, make the changes that you want, and then select **Apply**.
+
+Or, you can also do the following steps:
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
-    - Go to **Voice** > **Calling policies**, and then click **DisallowCalling**.
-    - Go to **Meetings** > **Meeting policies**, and then click **AllOff**.
+
+    - Go to **Voice** > **Calling policies**, and then select **DisallowCalling**.
+    - Go to **Meetings** > **Meeting policies**, and then select **AllOff**.
+
 2. Select **Manage users**.
-3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
-4. When you're finished adding users, click **Save**.
+
+3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+
+4. When you're finished adding users, select **Save**.
 
 #### Assign policies using PowerShell
 
@@ -216,37 +228,48 @@ If you have an existing implementation of Teams on RDP with chat and collaborati
 
 You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users. It can take some time (a few hours) for policy changes to propagate. If you don't see changes for a given account immediately, try again after a few hours.
 
-[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. 
+[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control, which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users.
 
 [**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.
 
-#### Assign policies using the Microsoft Teams admin center
+#### Assign policies using the Teams admin center
 
 To assign the AllowCalling calling policy and the AllOn meeting policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
-2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
-3. Do the following:
-    1.  Under **Calling policy**, click **AllowCalling**.
-    2.  Under **Meeting policy**, click **AllOn**.
-4. Click **Apply**.
+
+2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
+
+3. Do the following steps:
+
+    a.  Under **Calling policy**, select **AllowCalling**.
+
+    b.  Under **Meeting policy**, select **AllOn**.
+
+    c. Select **Apply**.
 
 To assign a policy to multiple users at a time:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.
-2. In the **&#x2713;** (check mark) column, select the users. To select all users, click the **&#x2713;** (check mark) at the top of the table.
-3. Click **Edit settings**, make the changes that you want, and then click **Apply**.
 
-Or, you can also do the following:
+2. In the **&#x2713;** (check mark) column, select the users. To select all users, select the **&#x2713;** (check mark) at the top of the table.
+
+3. Select **Edit settings**, make the changes that you want, and then select **Apply**.
+
+Or, you can also do the following steps:
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy you want to assign. For example:
-    - Go to **Voice** > **Calling policies**, and then click **AllowCalling**.
-    - Go to **Meetings** > **Meeting policies**, and then click **AllOn**.
-2. Select **Manage users**.
-3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each user that you want to add.
-4. When you're finished adding users, click **Save**.
 
-#### Assign policies using PowerShell
+    - Go to **Voice** > **Calling policies**, and then select **AllowCalling**.
+    - Go to **Meetings** > **Meeting policies**, and then select **AllOn**.
+
+2. Select **Manage users**.
+
+3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+
+4. When you're finished adding users, select **Save**.
+
+#### Assign policies with PowerShell
 
 The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.
 
@@ -284,7 +307,7 @@ This feature is available in Teams version 1.3.00.13565 and later.
 
 ### Calling and meetings
 
-The following calling and meeting features are not supported:
+The following calling and meeting features aren't supported:
 
 - Enhanced emergency services
 - HID buttons and LED controls between the Teams app and devices
@@ -318,9 +341,3 @@ Issues with screen sharing
 1213292: Mouse cursor jumps around a lot when sharing in a Remote Desktop Connection session
 
 For Teams known issues that aren't related to RDP, see [Support Teams in your organization](Known-issues.md).
-
-## Troubleshooting
-
->>>Do we have any troubleshooting tips?
-
-## Related topics
