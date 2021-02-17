@@ -45,8 +45,6 @@ If this sounds like your organization, you can complete Teams small business set
 > [!div class="nextstepaction"]
 > [Go to small business](deploy-small-business.md)
 
----
-
 #### [Medium/large business](#tab/LargeBusiness)
 
 Many businesses can deploy Teams just using [Small business setup](deploy-small-business.md). However, some organizations have complex requirements, such as the ones below, that need additional planning:
