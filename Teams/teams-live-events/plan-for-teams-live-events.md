@@ -166,6 +166,7 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **These countries/regions and clouds aren't supported**
 
+- Brazil
 - Germany
 - France
 - Norway
