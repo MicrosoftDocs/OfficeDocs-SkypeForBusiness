@@ -58,7 +58,7 @@ The following table summarizes the possible remote operations and the methods yo
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
-|Restart  <br/> |Teams Admin Center  <br/> Remote desktop  <br/> Remote Powershell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
+|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote Powershell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Account Config  <br/> |Teams Admin Center  <br/> |Teams Admin Center  <br/> |
