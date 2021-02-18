@@ -62,7 +62,7 @@ The following table summarizes the possible remote operations and the methods yo
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
-|Access logs  <br/> |Teams Admin Center  <br/> |Teams Admin Center <br/> |
+|Access logs  <br/> |Teams admin center  <br/> |Teams admin center <br/> |
    
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>
