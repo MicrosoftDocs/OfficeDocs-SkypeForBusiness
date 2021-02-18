@@ -977,7 +977,7 @@
           href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
         - name: Upgrade Skype for Business on-premises to Teams
           href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-        - name: Implement your upgrade with PowerShell
+        - name: Upgrade strategies
           href: upgrade-to-teams-on-prem-implement.md
     - name: Operate, adopt, and optimize
       href: continue-journey.md

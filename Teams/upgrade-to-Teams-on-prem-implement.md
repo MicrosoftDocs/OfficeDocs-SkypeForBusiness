@@ -1,5 +1,5 @@
 ---
-title: Implement your upgrade to Teams from a Skype for Business on-premises deployment using PowerShell
+title: Upgrade strategies for IT administrators
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: The article is for IT administrators and describes how to use PowerShell to implement their upgrade from Skype for Business on-premises to Teams  
+description: The article is for IT administrators and describes strategies for implementing their upgrade from Skype for Business to Teams  
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,11 +19,11 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Implement your upgrade from Skype for Business to Teams &mdash; for IT administrators
+# Upgrade strategies for IT administrators
 
 ![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-This article is for IT administrators who want to implement their upgrade to Teams from Skype for Business Server by using PowerShell.
+This article is for IT administrators who want to implement their upgrade to Teams from Skype for Business.
 
 Before implementing your upgrade, we recommend the following articles which describe important upgrade concepts and coexistence behaviors:
 
