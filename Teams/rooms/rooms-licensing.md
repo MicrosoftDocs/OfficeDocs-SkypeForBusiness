@@ -28,7 +28,7 @@ description: Learn about the available licenses for different types of calling a
 
 ## Licensing Solutions for Shared Communication Devices
 
-Microsoft has two dedicated SKU for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and collaboration bars for Microsoft Teams).
+Microsoft has two dedicated SKUs for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and collaboration bars for Microsoft Teams).
 
 ||Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
 |:--- |:---: |:---: |
@@ -39,13 +39,14 @@ Microsoft has two dedicated SKU for licensing meetings and calling on a per-devi
 |Microsoft Intune|&#x2714;|&#x2714;|  
 |Worldwide Availability | &#x2714; &sup2;| &#x2714; &sup2;|
 |Channel Availability | EA, EAS, CSP, <br/>Web Direct | EA, EAS, CSP, <br/>Web Direct |
-|Managed Services | | &#x2714;|
+|Managed Services | | &#x2714; &sup3;|
 | | | |
 
 &sup1; Availability and included minutes may vary by region. To verify service availability, refer to  [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Consumption charges may apply for additional services, such as toll-free, international minutes for domestic plans, etc. Customers can disable these features to avoid additional billing.  
 
 &sup2; Not available in sovereign clouds  
 
+&sup3; For more information and avaibility, see [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium.md).
 
 > [!NOTE]
 > If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Plan 2 with Audio Conferencing or with Office 365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire.
