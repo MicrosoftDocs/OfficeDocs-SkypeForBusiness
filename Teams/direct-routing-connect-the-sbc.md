@@ -25,7 +25,7 @@ This article describes how to configure a Session Border Controller (SBC) and co
 - **Step 1. Connect your SBC with Phone System and validate the connection** (This article)
 - Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
 - Step 3. [Configure call routing](direct-routing-voice-routing.md)
-- Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
+- Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md)
 
 For information on all the steps required to set up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. We recommend that you set a maximum call limit in the SBC using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
-  > 2. You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.con for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
+  > 2. You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.com for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
   > In addition to the domain registered in your tenant, it's important that there's a user with that domain and an assigned E3 or E5 license. If not, you'll receive the following error:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
