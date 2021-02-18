@@ -89,44 +89,44 @@ items:
                   href: teams-adoption-drive-awareness.md
                 - name: Schedule service health reviews
                   href: teams-adoption-schedule-service-health-reviews.md
-        - name: Deploy Teams clients
-          items: 
-            - name: Get clients for Teams
-              href: get-clients.md
-            - name: Get Teams for Android in China
-              href: get-teams-android-in-china.md
-            - name: Hardware requirements for the Teams app
-              href: hardware-requirements-for-the-teams-app.md
-            - name: Hardware decoder and encoder driver recommendations
-              href: hardware-decoders-and-encoders.md
-            - name: Install Teams using MSI
-              href: msi-deployment.md
-            - name: Turn on Teams in your organization
-              href: Office-365-set-up.md
-            - name: How Microsoft Teams uses memory
-              href: teams-memory-usage-perf.md
-            - name: Microsoft 365 and Office 365 URLs and IP address ranges
-              href: office-365-urls-ip-address-ranges.md
-            - name: Teams for Virtualized Desktop Infrastructure (VDI)
-              href: teams-for-vdi.md
-            - name: Deploy Teams for Surface Hub
-              href: teams-surface-hub.md
-            - name: Teams client updates
-              href: teams-client-update.md
-            - name: Troubleshoot installation and update issues
-              href: troubleshoot-installation.md
-        - name: Teams training
-          items: 
-            - name: Overview
-              href: training-microsoft-teams-landing-page.md
-            - name: Admin training for Teams
-              href: itadmin-readiness.md
-            - name: Teams sessions at Ignite 2020
-              href: ignite-2020-landing-page.md
-            - name: Teams live training
-              href: instructor-led-training-teams-landing-page.yml
-            - name: Teams online training
-              href: https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
+    - name: Deploy Teams clients
+      items: 
+        - name: Get clients for Teams
+          href: get-clients.md
+        - name: Get Teams for Android in China
+          href: get-teams-android-in-china.md
+        - name: Hardware requirements for the Teams app
+          href: hardware-requirements-for-the-teams-app.md
+        - name: Hardware decoder and encoder driver recommendations
+          href: hardware-decoders-and-encoders.md
+        - name: Install Teams using MSI
+          href: msi-deployment.md
+        - name: Turn on Teams in your organization
+          href: Office-365-set-up.md
+        - name: How Microsoft Teams uses memory
+          href: teams-memory-usage-perf.md
+        - name: Microsoft 365 and Office 365 URLs and IP address ranges
+          href: office-365-urls-ip-address-ranges.md
+        - name: Teams for Virtualized Desktop Infrastructure (VDI)
+          href: teams-for-vdi.md
+        - name: Deploy Teams for Surface Hub
+          href: teams-surface-hub.md
+        - name: Teams client updates
+          href: teams-client-update.md
+        - name: Troubleshoot installation and update issues
+          href: troubleshoot-installation.md
+    - name: Teams training
+      items: 
+        - name: Overview
+          href: training-microsoft-teams-landing-page.md
+        - name: Admin training for Teams
+          href: itadmin-readiness.md
+        - name: Teams sessions at Ignite 2020
+          href: ignite-2020-landing-page.md
+        - name: Teams live training
+          href: instructor-led-training-teams-landing-page.yml
+        - name: Teams online training
+          href: https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
