@@ -183,7 +183,7 @@ Meet now in private meetings is a per-user policy and applies before a meeting s
 
 ### Allow transcription
 
-Allow transcription is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start live transcription or start recording and live transcription in meetings.
+Allow transcription is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be transcribed or recorded and transcribed. If you turn on this setting, the meeting organizer or meeting participants have the option to start live transcription in meetings.
 
 :::image type="content" source="media/live-transcription.png" alt-text="Screenshot showing transcription options":::
 
