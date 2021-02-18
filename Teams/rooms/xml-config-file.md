@@ -46,7 +46,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
-    <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
+    <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
     <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
     <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
     <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
