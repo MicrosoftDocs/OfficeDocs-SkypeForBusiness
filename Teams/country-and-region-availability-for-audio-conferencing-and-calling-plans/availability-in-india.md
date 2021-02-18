@@ -64,7 +64,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Mumbai<li>Other cities [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Other cities [on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
 
