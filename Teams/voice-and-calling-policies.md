@@ -21,15 +21,15 @@ appliesto:
 
 Voice and calling policies are used to control voice and calling in Microsoft Teams.
 
-## Emergency calling policy
+## Emergency calling policies
 
 You use [emergency calling policies](manage-emergency-calling-policies.md) to configure what happens when a user in your organization makes an emergency call. These policies are managed in the Teams admin center or using Windows PowerShell.
 
 ![Screenshot of emergency calling policy.](media/emergency-calling-policy2.png)
 
-## Emergency call routing policy
+## Emergency call routing policies
 
-[Emergency call routing policies](manage-emergency-call-routing-policies.md) determine where emergency calls are routed, whether enhanced emergency services are enabled, and which numbers are used for emergency services. These policies are managed using PowerShell or in the Microsoft Teams admin center.
+If your organization has deployed **Phone System Direct Routing**, you can use [emergency call routing policies](manage-emergency-call-routing-policies.md) to determine where emergency calls are routed, whether enhanced emergency services are enabled, and which numbers are used for emergency services. These policies are managed using PowerShell or in the Microsoft Teams admin center.
 
 ![Screenshot of emergency call routing policy.](media/emergency-call-routing-policy.png)
 
@@ -41,7 +41,7 @@ You use [emergency calling policies](manage-emergency-calling-policies.md) to co
 
 ## Voice routing policies
 
-A [voice routing policy](manage-voice-routing-policies.md) is a container for Public Switched Telephone Network (PSTN) usage records. Voice routing policies can be managed with PowerShell or in the Teams admin center.
+A [voice routing policy](manage-voice-routing-policies.md) is a container for Public Switched Telephone Network (PSTN) usage records. You can use these policies if your organization has deployed **Phone System Direct Routing**. Voice routing policies can be managed with PowerShell or in the Teams admin center.
 
 ![Screenshot of voice routing policy.](media/voice-routing-policy.png)
 
