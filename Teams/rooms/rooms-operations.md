@@ -61,7 +61,7 @@ The following table summarizes the possible remote operations and the methods yo
 |Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote Powershell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
-|Account Config  <br/> |Teams Admin Center  <br/> |Teams Admin Center  <br/> |
+|Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
 |Access logs  <br/> |Teams Admin Center  <br/> |Teams Admin Center <br/> |
    
 ## Configuring Group Policy for Microsoft Teams Rooms
