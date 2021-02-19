@@ -160,22 +160,13 @@ additionalContent:
               url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
             - text: Apps, bots, & connectors in Microsoft Teams
               url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
-            - text: Manage apps for Microsoft Teams
-              url: /MicrosoftTeams/manage-apps
             - text: Microsoft Teams app security and compliance
               url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
         # Card
-        - title: Education
-          links:
-            - text: Keep students safe while using Teams for distance learning
-              url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-            - text: Microsoft Teams for Education
-              url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
-            - text: Education help & learning
-              url: https://support.microsoft.com/education
-        # Card
         - title: Industry solutions
           links:
+            - text: Education
+              url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
             - text: Healthcare
               url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
             - text: Frontline workers
