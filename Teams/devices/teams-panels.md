@@ -134,48 +134,6 @@ After the Teams panels devices are deployed, it is recommended that you should t
 ## Manage Teams panels in your organization
 To manage your Teams panels devices, in the left navigation of the Microsoft Teams admin center, go to **Devices** > **Teams panels**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
 
-## Teams panels end-user experience 
-The following section is indented for Teams panels end users and describes the Teams panels features that they can use.
-
-### Teams panel Home screen
-The Teams panels Home screen is the visual interface that is displayed on your Teams panels. It displays details about the meeting space, such as location and room availability, and details about the scheduled meeting. 
-- Left pane displays the current time, day, and date, and the meeting space name where the device is mounted.
-- The right pane displays availability of the meeting space.
-  - If the meeting space is reserved, the right pane displays **Reserved** in large text. Under that it displays the scheduled meeting details, including meeting title, meeting start and end time, and the name of the meeting organizer. With meeting details prominently displayed, attendees can easily confirm they’re in the right room, at the right time, and for the right meeting. 
-  - If the room is available, the right pane displays a **Available** in large text. You can tap the **Reserve** button to schedule an ad-hoc meeting. 
-
-### Reserve an available meeting space
-You can reserve an available meeting space, indicated by the green color on the Home screen, on the fly for an ad-hoc meeting. However, once the meeting space is reserved for the ad-doc meeting, you cannot release or unreserve the meeting space using the panels device. Only Teams admin for this device make the meeting space available again by canceling the meeting from their Outlook or Teams calendar.
-
-To reserve an available meeting space:
-1. On the Home screen, tap the **Reserve** button.
-2. Choose the meeting end time from the available slots.
-  > [!NOTE]
-  >  The start time for an ad-hoc meeting is always the current time.
-3. Tap **Reserve**.
-  Confirmation for reservation appears and the tile color on the Home screen changes to red or purple indicating that the room is now reserved. 
-
-If the meeting space that you just reserved is a Microsoft Teams Room, you can use the touch controller (Microsoft Teams Rooms console) to add your meeting attendees and immediately start a meeting.
-
-
-## Frequently asked questions
-Find answers to frequently asked questions about Teams panels.
-
-**How far in the future can I see the room’s scheduling details?**
-You can see a room’s scheduling details for up to 24 hours in the future from the current time.
-
-**Can I use Teams panels device to reserve a room for a future meeting on the fly?**
-No, you cannot reserve a meeting space for a future time by using the Teams panels device. The start time is always the current time to reserve an available meeting space.
-
-**For how long can I reserve an available meeting space for an ad hoc meeting?**
-You can reserve an available meeting space starting from your current time until the next scheduled meeting time, or up to a maximum of 24 hours from your current time, whichever is earlier. For example, if the current time is 10 AM, and the device displays the next scheduled meeting at 2 PM, you can reserve the meeting space from 10 AM until 2 PM.
-
-**Can I run Teams panels app from an Android device other than Teams panels device?**
-Teams panels app on the Teams panels device runs on Android operating system. However, you can't simply download this app and run it on any Android devices. You need to purchase devices which are certified by Microsoft.
-
-### Teams panels admin experience
-Admins of Teams panels can  
-
 ## See also
 
 <!--Add a link to the Techcommunity blog here. [Introducing Microsoft Teams panels]-->
