@@ -97,7 +97,7 @@ Uninstall-Module MicrosoftTeams
 ## Install Teams PowerShell public preview
 
 > [!NOTE]
-> If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
+> If you're using the public preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
 
 Installing the Teams PowerShell public preview module for all users on a system requires elevated privileges. Start the PowerShell
 session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux.
