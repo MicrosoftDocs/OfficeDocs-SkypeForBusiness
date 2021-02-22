@@ -3,7 +3,7 @@ title: Use supervised chats
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: 
+ms.reviewer: angch
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,45 +17,58 @@ search.appverid: MET150
 description: Learn about supervised chats in Microsoft Teams meetings. 
 ---
 
-# Supervise chats in Microsoft Teams
+# Supervised chats in Microsoft Teams
 
-Supervise chats allow private teacher-to-student chat, while blocking student-only private chats. Admins manage user’s chat permission settings via Microsoft Teams policies.
+Education institutions provide a safe and healthy digital space for students. The digital space includes emails, online meetings and calls, and messaging in Teams. To prevent inappropriate messaging behavior, many schools disable private chat in Teams. Unfortunately, disabling chat also blocks the opportunity for teachers to reach out to students privately for personalized learning. With chat disabled, students can't reach out to teachers when they prefer not to post the messages publicly in class teams.
 
-Education institutions provide a safe and healthy digital space for students. The digital space includes emails, online meetings and calls, and messaging in Teams.
-To prevent inappropriate messaging behavior, many K12 schools disable private chat in Teams. Unfortunately, disabling chat also blocks the opportunity for teachers to reach out to students privately for personalized learning. With chat disabled, students can't reach out to teachers when they prefer not to post the messages publicly in class teams.
+Supervised Chat allows designated educators to initiate chats with students and blocks students from starting new chats unless an appropriate educator is present. When chat supervision is enabled, supervisors aren't allowed to leave chats and other participants aren't allowed to remove them, ensuring that chats involving students are properly supervised.
 
-## Use cases
+These limitations are only applied to new private chats that are created after supervised chat has been fully enabled. They don't apply to existing private chats, meetings chats, or channels. To learn more about best practices for meeting chat or channel safety, view student safety guide.
 
-- Follow-up that students are not comfortable sharing or asking publicly
-- Teacher reaching out a student on an assignment or recent class interaction (or lack of)
-- Student-facing staff reaching out to student on school-related matters
-- Ad hoc group project in a course monitored by teacher (if it is a pre-structured course projects, private channels would be recommended instead)
+## Review Use cases for supervised chats
 
-## User stories
+- 1.1 follow-up with an educator when students aren't comfortable sharing or asking questions publicly
 
-As an admin:
+- Educators reaching out 1.1 to a student about an assignment, recent class interaction (or lack of), or other topic
 
-- I can ensure school is providing a safe collaboration space virtually. I can do so by enabling some settings so that students cannot chat with one another without teachers present.
-- I can ensure that co-teachers or teaching assistants can still chat with students with teacher present.
-- I can ensure other staff and teachers are still able to chat and communicate with each other freely.
+- Student group discussions monitored by an educator
 
-As an educator:
+- Allow non-teaching staff to chat with student in a supervised environment
 
-- I can engage with students privately to help improve their learning outcome with personalized teaching, especially for those who are shy in public chats/meetings. I can do so by talk to a student privately, or in a group chat with students, teachers, or teaching assistants (Tas).
-- I can feel safe that the engagement is free of disruption, for example, students cannot kick me out of a group chat I set up.
-As a student
-- I can feel safe to engage with teachers to help improve my learning outcome. I can do so by initiating or replying a chat with teachers.
-- I can feel safe in collaboration space virtually with a trust that school provided software where other students will not be able to send me private inappropriate messages related to bullying, suicidal notes, cheating, sexting, or sex predators.
+## Enable Supervised chat
 
-## Permission types
+Ensure that you set up chat permission roles and the role-based chat permission policies before enabling chat for your institution to avoid unwanted student access to unsupervised chats.
 
-The following permissions are available with supervised chats.
+### Define chat permission roles for each user in your environment
 
-|Title |Permission level|Description|
-|---|---|---|
-|Supervisor |Full permissions| This is the group of users who can engage in one-on-one or group chats with anyone, including with users who require supervision. In education, anyone who has the permission to chat with students privately would fall under this group: full-time teachers, principals.|
-|Supervised user| Restricted permissions| This is the group of users who can engage in one-on-one or group chats only when the supervisors are present in the chat. In education, pre-school and K12 students would most likely fall under this group.|
-|Not supervised|Limited permission | This is the group of users who can chat with supervisors or anyone else in this group. But cannot chat with supervised users without a supervisor present.|
-||||
+For Supervised Chat to work as expected each user within your environment needs to be assigned the correct chat permission role. There are three roles that a user can have assigned:
 
-## Tenant level setting in Teams settings under Org-wide settings
+- *Full permissions* – This role is ideal for educators who should have full access to students and other staff members. They can start chats with any user within your environment. Users with full permissions are expected to supervise the chats they participate in. They can't leave or be removed from chats that they start or chats that they're supervising in federated tenants.
+
+- *Limited permissions* – This role is ideal for staff members who should only have supervised access to students and have full access to other staff and educators. They can start chats with any full or limited users but can't start chats with restricted users. If a user with full permissions begins a chat with a restricted user, limited users can be brought into the conversation. This access happens because a user with full permissions is present to supervise collaboration between limited and restricted users.
+
+- *Restricted permissions* – This role is ideal for students who need to be supervised. They can only start chats with users who have full permissions. They can participate in any conversation that a user with full permissions invites them to. In federated chat cases, restricted users can only be added to chats by a user with full permissions who is from the restricted user’s tenant.
+
+To set your users’ chat permission role, use the **Chat permissions** **role** policy found within your Messaging policy options in the Teams admin portal. You can use PowerShell to define roles using the ChatPermissionRole policy with the values Full, Limited, or Restricted. This policy is under CsTeamsMessagingPolicy.
+
+To learn more about setting. Teams policies see Teams policies and policy packages for Education and Assign policies to large sets of users guides.
+
+Roles can't be assigned to guests in your tenant. Guests are assigned the limited role.
+
+### Steps 2: Enable Supervised Chat
+
+Supervised Chat is disabled by default for your tenant. After you've set chat permission roles for your users you can enable supervised chat within your tenant by going to **Org-wide settings** &gt; **Teams Settings** and setting **Role-based chat permissions** policy to *On.* You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This is under CsTeamsClientConfiguration.
+
+Supervised chat must be enabled for all users in the tenant and cannot be enabled for only a portion of your users.
+
+### Steps 3: Enable chat
+
+Enable chat for all your users using the existing Chat policy available in Teams admin center.
+
+## Maintain Supervised chats
+
+After Supervised Chat is initially enabled, you'll need to do a few things to ensure that the chats in your environment remain supervised:
+
+- Assign appropriate roles to any new users that join your tenant. By default, users will be assigned a restricted role.
+
+- If a user with full permissions leaves or is removed from a tenant, the chats they were supervising will be left unattended. Before you remove the original user, ensure that another user with full permissions is added to these conversations so that the chat can remain supervised. Once the original supervisor is removed, new participants can't be added to the conversation, but current participants can continue to communicate.
