@@ -25,7 +25,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
- The app developer allows an app to be customized by the admin. The admin can customize or rebrand the app based on the organizational needs from the Teams admin center **Manage apps** page. The details you can modify are:
+ Microsoft Teams provides apps to improve the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app based on the organizational needs from the Teams admin center **Manage apps** page. The details you can customize are:
 
 - short name
 - short description
@@ -37,18 +37,24 @@ ROBOTS: NOINDEX, NOFOLLOW
 - outline icon
 - accent color
 
+See the [Teams Manifest schema](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) for details about the fields that you can customize.
+
 > [!Note]
 > Changes to branding might require up to 24 hours for the users to see the changes.
 
-## Modify the app's details
+## Customize the app's details
+
+To start customizing an app, complete the following steps:
 
 1. Sign in to the Teams admin center.
 2. Expand **Teams Apps** and select **Manage apps**.
-3. Check the **Customizable** column of the apps list to find an app to customize.
+3. Check the **Customizable** column of the apps list and sort by apps that are customizable.
 
-   There are three ways to access the customize features:
+   ![The customize column that's sorted](media/customize-column.png)
 
-   - Select next to the app that you want to modify, and then select **Customize**.
+   There are three entry points to access the customize features:
+
+   - Select next to the app that you want to customize, and then select **Customize**.
 
      ![The customize selection](media/select-customize.png)
 
@@ -60,7 +66,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
      ![The customize selection](media/customize-action-menu.png)
 
-5. Expand the **Details** section and modify the following fields:
+5. Expand the **Details** section and customize the following fields:
 
     - Short name
     - Short description
@@ -70,6 +76,9 @@ ROBOTS: NOINDEX, NOFOLLOW
     - Terms of use URLs
 
    ![The customize selection](media/customize-apps-fields.png)
+
+> [!Note]
+> Only the fields that the app developer has assigned as customizable will be visible.
 
 5. Expand the **Icon** section.
 
@@ -83,11 +92,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 6. Once your app has been customized, select **Apply**.
 
-7. Select **Publish** to publish the modified app.
+7. Select **Publish** to publish the customized app.
 
-   The modified app is now listed in your **Manage apps** page. You'll have only one version of the app, since modifying the app features doesn't create a copy of the app.
+   The customized app is now listed in your **Manage apps** page. You'll have only one version of the app, since customizing the app features doesn't create a copy of the app.
 
-8. Open your Teams client to see the modified app.
+Now your Teams end users can open their Teams client to see the customized app.
 
    ![Customized app in Teams client](media/customized-app-in-teams.png)
 
@@ -110,9 +119,11 @@ You might want to see the app details to review the information.
 
    ![Customize the icon panel](media/app-details-original-name.png)
 
-   The **Short name from publisher** remains unchanged even when you customize the app's short name.
+   The **Short name from publisher** field is only visible if you've changed the app's short name.
 
 ## Reset app details to default
+
+At any time you can reset the app details to the original settings.
 
 1. Sign in to the Teams admin center.
 
@@ -121,6 +132,10 @@ You might want to see the app details to review the information.
 3. Select the app name.
 
 4. Select **Reset to default** from the **Actions** dropdown.
+
+   ![Select reset to default highlighted](media/select-reset.png)
+
+## Frequently asked questions - placeholder
 
 ## Related article
 
