@@ -55,6 +55,8 @@ Users fit the criteria for a Teams Exploratory experience if they:
 
 - Have a managed Azure AD domain email address.
 - Belong to a tenant with a paid subscription.
+- Do not have an active Teams license.
+- Are not in a tenant where a license assignment policy was created.
 
 Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin center). For more information, see [Manage the Teams Exploratory experience](#manage-the-teams-exploratory-experience), later in this article.
 
@@ -166,17 +168,13 @@ See [Microsoft 365 subscription information](https://docs.microsoft.com/microsof
 
 ## How long does the Teams Exploratory experience last
 
-The Microsoft Teams Exploratory experience is available at no additional cost for 12 months (from initial user sign-up) plus an additional 30 day grace period. At that time, end users on a Microsoft Exploratory experience license will need to move to a paid license that includes Teams. The same end date will apply to all users on the same tenant, with the 12-month term starting on the first user’s sign-up date.
+As of early 2021, Teams Exploratory is available as a 12 month subscription (from initial user sign-up) for all new customers. The new Teams Exploratory subscription starts when the first user in an organization signs-up for Teams Exploratory and it will expire after 12 months. The expiry date will apply to all users in the same tenant as the 12-month term begins on the first user's sign-up date.
 
-### What happens if an end user initiates the Microsoft Teams Exploratory experience just before the anniversary or renewal date
+> [!NOTE]
+> The end date for the experience is configured at an organization level, meaning it will apply to all users in the same organization. For example, User 1 signs up for the subscription on January 1, 2021. This initiates a subscription end-date of December 31, 2021. Another user, User 2, signs up for the subscription on October 1, 2021. User 2 can use Teams Exploratory for two months, as their end-date will be December 31, 2021 because they're under the same organization's subscription as User 1.
 
-Microsoft Teams Exploratory experience licenses initiated within 90 days of your **agreement anniversary** or **renewal** won't be required to move to a paid license until the subsequent anniversary or renewal cycle.
+### What should administrators do at the end of the 12 month Teams Exploratory experience
 
-### What if my agreement doesn’t have an anniversary or yearly renewal date (for example, month-to-month agreements)
+At the end of the 12 month subscription, administrators should convert all Teams Exploratory users to a paid license that includes Teams. It is vital to ensure this is completed before the Teams Exploratory subscription expires to avoid any disruption to user's experience.
 
-For agreements without an anniversary or yearly renewal date, the subsequent year after the first end user activates the Microsoft Teams Exploratory experience licenses will be treated as the anniversary or renewal date. Users on the Microsoft Teams Exploratory license must be converted to a paid license by that date each year, according to the policies outlined in this article.
-
-For example, if the first end user activates Microsoft Teams Exploratory on June 19, 2020, then they and all other eligible users in the customer tenant must convert to a paid license with Teams by June 19, 2021.
-
-> [!Note]
-> Customers will be disabled and blocked from starting a new Exploratory trial licenses for 3 months past the expiration of their previous Exploratory trial license.
+For more information, see [Upgrade users from the Teams Exploratory license](#upgrade-users-from-the-teams-exploratory-license)), above in this article.
