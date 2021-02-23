@@ -41,6 +41,7 @@ The following phones are Certified for Microsoft Teams:
 
 | Phone model                            | Firmware version                                                                                                                                                                                                                           | Release date                 |
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
+| Audiocodes expansion module supported on C450HD |C450HD_TEAMS_0.225                                        | January 2021                 |
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
 | Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
@@ -52,6 +53,7 @@ The following phones are Certified for Microsoft Teams:
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | January 2020                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | December 2019                |
 | Poly Trio 8500/8800 (shared mode only) | 5.9.0.10869                                                                                                                                                                                                                                | June 2019                    |
+| Yealink EXP50 supported on T56, T58, MP56, MP58, VP59| For each supported device model, see update #7 firmware version | January 2021 |
 | Yealink MP58 | 122.15.0.27| December 2020 |
 | Yealink MP54 | 122.15.0.27| November 2020 |
 | Yealink MP56 | 122.15.0.6 | March 2020    |
