@@ -59,7 +59,7 @@ productDirectory:
       summary: Get your environment and infrastructure ready to deploy.
       url: /MicrosoftTeams/deploy-enterprise-overview
     # Card
-    - title: Plan and deploy
+    - title: Deploy
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
       summary: Deploy Microsoft Teams across your organization.
