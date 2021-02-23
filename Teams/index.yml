@@ -154,18 +154,22 @@ additionalContent:
         # Card
         - title: Extend Teams functionality
           links:
+            - text: Apps, bots, & connectors in Microsoft Teams
+              url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
             - text: Integration with Microsoft Power Platform
               url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
-            - text: Apps, bots, & connectors in Microsoft Teams
-              url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
             - text: Microsoft Teams app security and compliance
               url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
+            - text: Microsoft Viva - Employee Experience and Engagement
+              url: https://www.microsoft.com/microsoft-viva/
         # Card
-        - title: Industry solutions
+        - title: Education and industries
           links:
-            - text: Education
+            - text: Keep students safe while using Teams for distance learning
+              url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
+            - text: Microsoft Teams for Education
               url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
             - text: Healthcare
               url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
@@ -173,6 +177,18 @@ additionalContent:
               url: /MicrosoftTeams/flw-quickstart
             - text: Retail
               url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page
-            - text: Government
+        # Card
+        - title: Government
+          links:
+            - text: Teams for Government
               url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
+            - text: Government - GCC deployments
+              url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc
+            - text: Government - GCC High deployments
+              url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high
+            - text: Government - DoD deployments
+              url: https://docs.microsoft.com/microsoftteams/plan-for-government-dod
+            - text: Policy packages for government
+              url: https://docs.microsoft.com/microsoftteams/policy-packages-gov
+
 
