@@ -24,7 +24,7 @@ items:
     - name: Enterprise setup
       items:
         - name: Enterprise setup overview
-          href: deploy-enterprise.md
+          href: deploy-enterprise-overview.md
         - name: Architecture & telephony solutions posters
           href: teams-architecture-solutions-posters.md
         - name: Get your organization ready
@@ -46,7 +46,7 @@ items:
             - name: Plan for governance in Teams
               href: plan-teams-governance.md
         - name: Set up Teams in your org
-          href: foo.md
+          href: deploy-enterprise-setup.md
         - name: Adopt
           items: 
             - name: Overview
