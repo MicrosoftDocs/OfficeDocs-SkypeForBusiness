@@ -1,7 +1,7 @@
 ---
 title: "Phone number management for Sweden"
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -23,7 +23,7 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for Sweden
 
-Use this table to find information on getting and managing phone numbers in Sweden for Microsoft Teams. 
+Use this table to find information on getting and managing phone numbers in Sweden for Microsoft Teams.
   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
@@ -35,7 +35,6 @@ Get phone numbers transferred to us.  <br/> |Download this form. <br/>[Letter of
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
 |Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
 
-
 ## Related topics
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -44,5 +43,4 @@ Get phone numbers transferred to us.  <br/> |Download this form. <br/>[Letter of
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
   
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
- 
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

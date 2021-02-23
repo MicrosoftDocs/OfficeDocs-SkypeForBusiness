@@ -1,7 +1,7 @@
 ---
 title: Education SKU reference
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article

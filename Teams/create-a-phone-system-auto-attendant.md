@@ -52,9 +52,12 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, click 
 
 3. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](#call-flow-for-after-hours).
 
-4. Specify a language for this auto attendant. This the language that will be used for system-generated voice prompts.
+4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
 5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
+
+> [!NOTE]
+> If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
 
 6. Click **Next**.
 
@@ -244,7 +247,5 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-[Small business example — Set up an auto attendant](/microsoftteams/tutorial-org-aa)
 
 [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
