@@ -1,7 +1,7 @@
 ---
 title: Manage app setup policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,9 +22,6 @@ ms.custom:
 ---
 
 # Manage app setup policies in Microsoft Teams
-
-> [!NOTE]
-> If you enabled the org-wide app setting, **Allow interaction with custom apps**, you may not see app setup policies yet in the Microsoft Teams admin center. It's currently being rolled out and will be available soon in your organization.
 
 As an admin, you can use app setup policies to do the following tasks:
 
@@ -112,7 +109,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 - **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users.
 
-- **FirstLineWorker**: This policy is for Firstline Workers. You can assign it to Firstline Workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
+- **FrontlineWorker**: This policy is for Frontline Workers. You can assign it to Frontline Workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
 
 #### Why can't I find an app in the Add pinned apps pane
 

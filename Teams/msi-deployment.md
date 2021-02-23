@@ -1,11 +1,11 @@
 ---
 title: Install Teams using Microsoft Endpoint Configuration Manager
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi, jhreddy
+ms.reviewer: amitsri
 audience: admin
 description: Use Microsoft Endpoint Configuration Manager to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Normal

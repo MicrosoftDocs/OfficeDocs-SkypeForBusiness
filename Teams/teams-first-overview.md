@@ -250,7 +250,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 
 ## Closing statement
 
-Microsoft Teams can be an enabler for your organization to bring all the employees, information workers and Firstline workers, together on a single platform. You can [get started](https://products.office.com/microsoft-teams/group-chat-software) today. You can keep in touch with all our latest announcements and monthly product updates [here](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
+Microsoft Teams can be an enabler for your organization to bring all the employees, information workers and Frontline workers, together on a single platform. You can [get started](https://products.office.com/microsoft-teams/group-chat-software) today. You can keep in touch with all our latest announcements and monthly product updates [here](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
 
 Additionally, as companies around the world are managing the current COVID-19 situation, we have created a series of content that will help you utilize Teams for the maximum impact in your organization.
 

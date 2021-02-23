@@ -1,7 +1,7 @@
 ---
 title: Country and region zones for Audio Conferencing
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual

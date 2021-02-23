@@ -1,8 +1,8 @@
 ---
 title: "Legacy Merge Add Machine"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
