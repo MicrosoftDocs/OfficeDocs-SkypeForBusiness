@@ -98,16 +98,17 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Year/Included product release  |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
-| AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
-| Lenovo ThinkSmart View|CD-18781Y.200922.098 | 2020 Update #6           |
-| Poly CCX400         | 6.2.23.0202         | 2020 Update #7           |
-| Poly CCX500/CCX600  | 6.2.23.0202         | 2020 Update #7          |
-| Poly Trio C60       | 6.2.23.0202          | 2020 Update #7          |
-| Yealink T55/T56/T58 | 58.15.0.118         | 2020 Update #7           |
-| Yealink MP56        | 122.15.0.27          | 2020 Update #7           |
-| Yealink VP59        | 91.15.0.50          | 2020 Update #7           |
-| Yealink CP960       | 73.15.0.111       | 2020 Update #7           |
+| AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7  |
+| AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7  |
+| Crestron UC-2       |  1.0.2.53             | 2020 Update #7  |
+| Lenovo ThinkSmart View|CD-18781Y.200922.098 | 2020 Update #6  |
+| Poly CCX400         | 6.2.23.0202           | 2020 Update #7  |
+| Poly CCX500/CCX600  | 6.2.23.0202           | 2020 Update #7  |
+| Poly Trio C60       | 5.9.5.3066            | 2020 Update #7  |
+| Yealink T55/T56/T58 | 58.15.0.122           | 2020 Update #7  |
+| Yealink MP56        | 122.15.0.33           | 2020 Update #7  |
+| Yealink VP59        | 91.15.0.54            | 2020 Update #7  |
+| Yealink CP960       | 73.15.0.115           | 2020 Update #7  |
 
 ### Product release information for Collaboration Bars
 
