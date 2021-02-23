@@ -47,7 +47,7 @@ Additionally, a meeting policy can be used to control audio and video settings i
 
 ### Teams for Education
 
-You can also use the [Teams for Education policy wizard](easy-policy-setup-edu.md) to easily setup and manage policies for your learning environment.
+You can also use the [Teams for Education policy wizard](easy-policy-setup-edu.md) to easily set up and manage policies for your learning environment.
 
 ![Screenshot of Teams for Education policy wizard.](media/easy-policy-setup-quick-setup.png)
 
