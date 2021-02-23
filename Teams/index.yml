@@ -86,7 +86,7 @@ tools:
     - title: Learn for IT Pros and admins
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
-      url: https://docs.microsoft.com/en-us/learn/teams/
+      url: https://docs.microsoft.com/learn/teams/
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform
       imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
