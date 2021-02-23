@@ -68,7 +68,7 @@ productDirectory:
     - title: Secure
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
-      summary: Follow these best practices to secure your data, files and identities in Microsoft Teams.
+      summary: Follow these best practices to secure your data, files, and identities in Microsoft Teams.
       url: /MicrosoftTeams/security-compliance-overview
     # Card
     - title: Manage
