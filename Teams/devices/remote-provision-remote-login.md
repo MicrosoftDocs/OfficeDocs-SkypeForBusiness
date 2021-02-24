@@ -60,7 +60,7 @@ You need a verification code for the devices. The verification code is generated
 
 You'll need to provide the list of MAC IDs and verification codes to the field technicians. You can export the detail directly in a file and share the file with the technician who is doing the actual installation work.
 
-## Provision the device 
+## Provision the device
 
 When the device is powered on and connected to the network, the technician provisions the device.
 
@@ -72,7 +72,7 @@ When the device is powered on and connected to the network, the technician provi
 
   ![Provision new device verification](../media/provision-device-verification.png)
 
- Once the device is provisioned successfully, the tenant name appears on the sign-in page. 
+ Once the device is provisioned successfully, the tenant name appears on the sign-in page.
 
 ## Sign in remotely
 
