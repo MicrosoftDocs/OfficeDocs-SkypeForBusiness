@@ -3,12 +3,11 @@ title: Set up Microsoft Teams in your small business
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: Get started with Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy across your organization.
+description: Set up Teams in your small business to enable your users to collaborate using chat and file sharing, set up and attend small and large meetings, and talk via video and voice.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
