@@ -72,7 +72,7 @@ For more information, see [Schedule meetings with FindTime](https://support.offi
 
 ## Authentication requirements
 
-The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they'll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
+The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they'll still be able to use the Teams client, but will be unable to schedule [Teams online meetings](https://www.microsoft.com/microsoft-teams/online-meetings) using the Outlook add-in. You can fix this by doing one of the following:
 
 - If Modern Authentication is not configured for your organization, you should configure Modern Authentication.
 - If Modern Authentication is configured, but they canceled out on the dialog box, you should instruct users to sign in again using multi-factor authentication.

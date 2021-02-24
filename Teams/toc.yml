@@ -74,7 +74,7 @@ items:
           href: content-search.md
         - name: Auditing
           href: audit-log-events.md
-        - name: Customer key at the tenant level for Teams
+        - name: Customer key
           href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Privacy
       items: 
@@ -1092,6 +1092,8 @@ items:
           href: built-in-custom-tabs.md
         - name: Use Microsoft 365 or Office 365 and custom connectors
           href: Office-365-custom-connectors.md
+        - name: Teams apps behavior for non-standard users
+          href: non-standard-users.md
 
 - name: Adopt
   items: 
@@ -1292,12 +1294,8 @@ items:
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Message delegation
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams templates
-          items: 
-            - name: Use Teams healthcare templates
-              href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: Teams templates for healthcare
-              href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+        - name: Use Teams healthcare templates
+          href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
         - name: Manage the Lists app
           href: manage-lists-app.md
         - name: Manage the Tasks app
@@ -1445,6 +1443,8 @@ items:
           href: office-365-urls-ip-address-ranges.md
         - name: Teams for Virtualized Desktop Infrastructure (VDI)
           href: teams-for-vdi.md
+        - name: Teams for Remote Desktop environment (RDP)
+          href: teams-on-rdp.md
         - name: Deploy Teams for Surface Hub
           href: teams-surface-hub.md
         - name: Teams client updates
