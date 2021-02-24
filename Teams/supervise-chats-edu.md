@@ -25,7 +25,7 @@ Supervised Chat allows designated educators to initiate chats with students and 
 
 These limitations are only applied to new private chats that are created after supervised chat has been fully enabled. They don't apply to existing private chats, meetings chats, or channels. To learn more about best practices for meeting chat or channel safety, view student safety guide.
 
-## Review Use cases for supervised chats
+## Review use cases for supervised chats
 
 - 1.1 follow-up with an educator when students aren't comfortable sharing or asking questions publicly
 
