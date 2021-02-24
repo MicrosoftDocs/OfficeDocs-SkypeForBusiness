@@ -1,5 +1,5 @@
 ---
-title: Remote provisioning and remote sign-in
+title: Remote provisioning and remote sign in
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -52,7 +52,7 @@ In the **Provision new devices** window, you can either add the MAC address manu
 
 ## Generate a verification code
 
-You need to generate a verification code for the devices. The verification code is generated in bulk or at the device level and is valid for 24 hours.
+You need a verification code for the devices. The verification code is generated in bulk or at the device level and is valid for 24 hours.
 
 - From the **Awaiting Activation** tab, select an existing MAC ID.
 
@@ -60,11 +60,23 @@ You need to generate a verification code for the devices. The verification code 
 
 You'll need to provide the list of MAC IDs and verification codes to the field technicians. You can export the detail directly in a file and share the file with the technician who is doing the actual installation work.
 
-Once the device is powered up and connected to network, the technician provisions the device by entering the device-specific **Verification code** in the user interface.
+## Provision the device 
+
+When the device is powered on and connected to the network, the technician provisions the device.
+
+1. The technician selects **Provision device** from the **Settings**.  
+
+  ![Provision new device option from the Actions tab](../media/provision-device.png)
+  
+2. The technician enters the device-specific verification code in the provided input field.
+
+  ![Provision new device verification](../media/provision-device-verification.png)
+
+ Once the device is provisioned successfully, the tenant name appears on the sign-in page. 
 
 ## Sign in remotely
 
-The provisioned device appears in the **Awaiting sign in** tab. Initiate the remote sign-in process by selecting the individual device.
+The provisioned device appears in the **Awaiting sign in** tab. Start the remote sign-in process by selecting the individual device.
 
 1. Select a device from the **Awaiting sign in** tab.
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
