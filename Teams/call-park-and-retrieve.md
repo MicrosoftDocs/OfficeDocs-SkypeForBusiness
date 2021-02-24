@@ -33,7 +33,7 @@ Some of the common scenarios for using call park are:
 - A user parks a call on a mobile device because the device battery is running out of power. The user can then enter the code to retrieve the call from a Teams desk phone.
 - A support representative parks a customer call and sends an announcement on a Teams channel for an expert to retrieve the call and help the customer. An expert enters the code in Teams clients to retrieve the call
 
-To park and retrieve calls, a user must be an Enterprise Voice user and and must be included in a call park policy.
+To park and retrieve calls, a user must be an Enterprise Voice user and must be included in a call park policy.
 
 > [!NOTE]
 > Call park and retrieve is only available in [Teams Only deployment mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and is not supported on Skype for Business IP phones.
@@ -63,9 +63,9 @@ To assign a call part policy to a group
 3. Choose a rank compared to other group assignments.
 4. Under **Select a policy**, choose the policy that you want to assign this group to.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![park policies image](media/call-park-assign-policy-to-group.png)
 
-5. Click **Apply**.
+5. Select **Apply**.
 
 ## Related topics
 

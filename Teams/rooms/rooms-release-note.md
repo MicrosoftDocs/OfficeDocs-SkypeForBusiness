@@ -325,7 +325,7 @@ Introduced in this update:
 
 - Bug/Crash fixes to improve stability
 - Support for variable-sized console
-- Peripheral audio processing offloading (additional media whitelisting)
+- Peripheral audio processing offloading (additional media allowlist)
 - Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.
 
 ### 3.0.16.0 (11/27/2017)
