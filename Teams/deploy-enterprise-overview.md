@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams enterprise setup
+title: Microsoft Teams enterprise deployment overview
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -18,16 +18,28 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams enterprise setup
+# Teams enterprise deployment overview
 
-If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Microsoft Teams client to them, how your network design could impact the quality of real-time communication, and so on. Check out the following sections for pointers to articles that'll help you plan for, and roll out, Teams in your organization.
+If you're a medium or large business, you need to think about how you're going to roll out the service to your users, how you're going to deploy the Microsoft Teams client to them, how your network design could impact the quality of real-time communication, and so on. Check out the following sections for pointers to articles that'll help you plan for Teams in your organization.
 
 > [!NOTE]
 > If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
+After you've read the sections below and are ready to start deploying Teams in your organization, see [Set up Microsoft Teams in your enterprise](deploy-enterprise-setup.md).
+
 ## Architecture
 
 Teams is tightly integrated into Microsoft 365 and uses many features to power chat, file sharing, meetings, telephony, video streaming, and more. Before you roll out Teams, check out [Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md) to get familiar with how Teams works with the rest of Microsoft 365 to create a complete collaboration experience for your users.
+
+## Workloads
+
+Teams has three workloads that can be deployed independently of each other: **chat, teams, and channels**; **meetings and conferencing**; and **Phone System and PSTN (public switched telephone network) connectivity**. Each workload has its own section in our documentation to make it easier to find information about that workload. This includes deployment planning information.
+
+To see deployment planning information for the workload you want to deploy, see the following articles:
+
+- [Chat, teams, and channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+- [Phone System and PSTN connectivity](cloud-voice-landing-page.md)
 
 ## Network planner
 
@@ -56,6 +68,9 @@ To see an example of how Network planner can plan your network, see [Using Netwo
 ## Teams advisor
 
 The Teams advisor is a solution within Teams that brings together teams, channels, file sharing, and Planner, to create a deployment project for your organization. Teams advisor creates project plan, specific to the workload you select (such as chat, teams, and channels), that includes the recommended tasks you should perform during your deployment. Each task contains instructions, suggestions, and links to relevant articles, to guide you through the process. You can easily assign tasks to one or more individuals, and specify start and end dates for each task.
+
+> [!TIP]
+> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
 
 > [!div class="nextstepaction"]
 > [Go to Teams advisor](https://admin.teams.microsoft.com/teams-deployment)
