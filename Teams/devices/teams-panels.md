@@ -26,8 +26,6 @@ Teams panels are dedicated Microsoft Teams devices that display meeting details 
 
 This article provides an overview of Teams panels and can help you plan, deliver, and manage Teams panels devices in your organization.
 
-<!--Add a link to the SMC topic. To learn more, check out [Get started with Teams panels](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6).-->
-
 ## Features supported by Teams panels
 
 Teams panels support the following features:
@@ -56,7 +54,9 @@ The hardware, software, and network requirements to deploy panels devices may di
 To use Teams panels, you need [Microsoft Teams Rooms Standard License](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing).
 
 > [!Note]
-> If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need additional license to use Teams panels.
+>
+> - If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need additional license to use Teams panels.
+> - You will require Microsoft Teams Rooms Premium license to use additional advanced Teams panels features that are coming soon.
 
 ## Deploy Teams panels devices
 
@@ -77,7 +77,7 @@ Take an inventory of the existing bookable meeting spaces in your organization. 
 
 Based on the number of meeting spaces that are in scope for deploying Teams panels, procure the devices from one of the [partners certified for Teams panels](#partners-certified-for-teams-panels). Visit the partners’ websites to learn more about the devices and procurement options.
 
-Meeting spaces in your organization may have different hardware requirements for installing or mounting the devices. For example, hardware required for mounting the device on a glass wall may be different than the hardware required for mounting it on a plaster or wood paneling wall. Refer to the device partner's documentation for available mounting options.
+Meeting spaces in your organization may have different hardware requirements for installing or mounting the devices. For example, hardware required for mounting the device on a glass, plaster, dry, or wood paneling wall may not be the same. Refer to the device partner's documentation for available mounting options.
 
 ## Site readiness
 
@@ -86,7 +86,7 @@ While the ordered devices are being delivered to your organization, work with yo
 Our recommendations for Teams panels sites are:
 
 - Dedicated resource accounts
-- Power supply to the panels device
+- Power supply (Panels generally support PoE+ (Power over ethernet plus) for power. Refer to the OEM's documentation for any device specific power requirements.)
 - Quality of Service (QoS) enabled on the network for Microsoft Teams
 
 For physical installation considerations, see the OEM's documentation and, if you have one, use the experience of your audio-visual team before you install and mount devices and run cabling.
@@ -118,7 +118,7 @@ For information on how to create a resource account and assign a license to it, 
 
 ### Testing
 
-After you've deployed panels, you should test them. Check that the [features supported by Teams panels](#features-supported-by-teams-panels) are working on the deployed device. Try creating several meetings for various time slots via Teams app or Outlook 365 on your computer. Check if the panels correctly display the meeting details and availability for the scheduled meetings. Try using the **Reserve** button to check if you can reserve an available meeting space directly from the device.
+After you've deployed panels, you should test them. Check that the [features supported by Teams panels](#features-supported-by-teams-panels) are working on the deployed device. Try creating several meetings for various time slots via Teams or Outlook 365 on your computer. Check if the panels correctly display the meeting details and availability for the scheduled meetings. Try using the **Reserve** button to check if you can reserve an available meeting space directly from the device.
 
 ## Manage Teams panels in your organization
 
