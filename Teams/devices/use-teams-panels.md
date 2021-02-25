@@ -77,7 +77,7 @@ The tile appears in purple for a meeting space that is reserved for a scheduled 
 
 #### Meeting space is reserved for an ad hoc meeting
 
-The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text, and meeting start and end times. When you schedule ad hoc meetings from the panel (instead of Outlook or Teams calendars), you actually book the calendar of that meeting space. Such meetings are automatically scheduled as Teams meetings, hence the Teams logo always appear on the screen.
+The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text, and meeting start and end times. When you schedule ad hoc meetings from the panel (instead of Outlook or Teams calendars), you actually book the calendar of that meeting space. Such meetings are automatically scheduled as Teams meetings, hence the Teams logo always appears on the screen.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting":::
 
@@ -215,7 +215,7 @@ Find answers to frequently asked questions about the Teams panels devices.
 In the **Upcoming Calendar** tile (bottom right) on the Home screen, you can see the scheduling details of a meeting space for up to 24 hours in the future from the current hour.
 
 **Can I reserve a meeting space for a future time from the Teams panels device?**  
-No. The start time is always the current time for an ad hoc meeting scheduled from panels.
+No, you can't reserve a meeting space for a future time from panels. The start time is always the current time for an ad hoc meeting scheduled from panels.
 
 **How long I can reserve an available meeting space for an ad hoc meeting?**  
 You can reserve an available meeting space starting from your current time until the next scheduled meeting time, or up to a maximum of 24 hours from your current time, whichever is earlier. For example, if the current time is 10 AM, and the next meeting start time is 2 PM, you can reserve the meeting space from 10 AM until 2 PM.

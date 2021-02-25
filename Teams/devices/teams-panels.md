@@ -86,10 +86,10 @@ While the ordered devices are being delivered to your organization, work with yo
 Our recommendations for Teams panels sites are:
 
 - Dedicated resource accounts
-- Power supply (Panels generally support PoE+ (Power over ethernet plus) for power. Refer to the OEM's documentation for any device specific power requirements.)
+- Power supply (Panels generally support Power over ethernet plus (PoE+) for power. Refer to the OEM documentation for any device specific power requirements.)
 - Quality of Service (QoS) enabled on the network for Microsoft Teams
 
-For physical installation considerations, see the OEM's documentation and, if you have one, use the experience of your audio-visual team before you install and mount devices and run cabling.
+For physical installation considerations, see the OEM documentation and, if you have one, use the experience of your audio-visual team before you install and mount devices and run cabling.
 
 ## Configuration and deployment
 
