@@ -130,4 +130,4 @@ To manage your Teams panels devices, in the left navigation of the Microsoft Tea
 
 ## See also
 
-[Get started with Teams panels](https://support.microsoft.com/en-us/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+[Get started with Teams panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
