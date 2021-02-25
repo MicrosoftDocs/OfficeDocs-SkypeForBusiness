@@ -20,11 +20,11 @@ description: "This article provides guidance on how to use Teams panels devices.
 
 # Use Microsoft Teams panels
 
-Microsoft Teams panels are compact digital display devices that are mounted right outside of your meeting spaces, typically near the entrance. These touchscreen panels are dedicated Microsoft Teams devices that provide at-a-glance view about your meeting space and the scheduled meeting. With the vibrant color-coded LED and Home screen indicators, you can determine if the space is available or reserved from a distance. You can use Teams panels to reserve an available meeting space for an ad-hoc meeting, on the spot.
+Microsoft Teams panels are compact digital display devices that are mounted right outside of your meeting spaces, typically near the entrance. These touchscreen panels are dedicated Microsoft Teams devices that provide at-a-glance view about your meeting space and the scheduled meeting. With the vibrant color-coded LED and Home screen indicators, you can determine if the space is available or reserved from a distance. You can use Teams panels to reserve an available meeting space for an ad hoc meeting, on the spot.
 
 Teams panels devices come preinstalled with Microsoft Teams and display meeting details that are scheduled through Outlook or Teams calendars.
 
-This article provides guidance, to both end users and admins, on how to use the Teams panels devices. It also provides answers to the most [frequently asked questions](#frequently-asked-questions) about using these devices.
+This article provides guidance, to both end users and admins, on how to use the Teams panels devices. It also provides answers to the [frequently asked questions](#frequently-asked-questions) about using these devices.
 
 For an overview of the Teams panels devices, and the guidance on how to plan, deliver, and manage them in your organization, see [Deploy Microsoft Teams panels](teams-panels.md).
 
@@ -60,11 +60,11 @@ Area | Description
 
 ### Meeting space availability and meeting details pane
 
-The appearance of this pane and its capabilities differ depending on the meeting space availability and type of reservation.
+The appearance of this pane and its capabilities vary depending on the meeting space availability and type of reservation.
 
 #### Meeting space is reserved for a scheduled meeting
 
-If the meeting space is reserved for a scheduled meeting (scheduled via Outlook or Teams), the pane appears in purple. It displays meeting title in prominent text, meeting start and end times, and meeting organizer's name. If it's a Teams meeting, the Teams logo also appears. With meeting details prominently displayed, attendees can easily confirm they’re in the right meeting space, at the right time, and for the right meeting.
+If the meeting space is reserved for a scheduled meeting (scheduled via Outlook or Teams), the pane appears in purple. It displays meeting title in prominent text, meeting start and end times, and meeting organizer's name. For a Teams meeting, the Teams logo also appears. With meeting details prominently displayed, attendees can easily confirm they’re in the right meeting space, at the right time, and for the right meeting.
 
 :::image type="content" source="../media/panels-right-pane-scheduled-meeting.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for a scheduled meeting":::
 
@@ -73,29 +73,28 @@ If the meeting space is reserved for a scheduled meeting (scheduled via Outlook 
 > - After you schedule a meeting, it can take up to 90 seconds for the calendar to sync and reflect it on the panels screen.
 > - For a [scheduled meeting that is marked as private](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d), the panels displays **Private meeting** in the meeting title instead of the actual meeting title.
 
-#### Meeting space is reserved for an ad-hoc meeting
+#### Meeting space is reserved for an ad hoc meeting
 
-If the meeting space is [reserved for an ad-hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings), the pane appears in purple. It displays **Reserved** in prominent text, and meeting start and end times. If you schedule an ad-hoc meeting from the panel (instead of Outlook or Teams calendars), you actually book the calendar of that meeting space. Such ad-hoc meetings are automatically scheduled as Teams meetings and always display the Teams logo.
+If the meeting space is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings), the pane appears in purple. It displays **Reserved** in prominent text, and meeting start and end times. When you schedule ad hoc meetings from the panel (instead of Outlook or Teams calendars), you actually book the calendar of that meeting space. Such meetings are automatically scheduled as Teams meetings, hence the Teams logo always show on the screen.
 
-:::image type="content" source="../media/panels-right-pane-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad-hoc meeting":::
+:::image type="content" source="../media/panels-right-pane-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting":::
 
 #### Meeting space is available
 
-If the meeting space is available, the pane appears in green, and displays **Available** in prominent text. A **Reserve** button also appears that you can tap to [reserve the meeting space for an ad-hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). You can check the upcoming calendar of the meeting space (right bottom pane) to decide the end time for your ad-hoc meeting.
+If the meeting space is available, the pane appears in green, and displays **Available** in prominent text. A **Reserve** button also appears that you can tap to [reserve the meeting space for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). You can check the upcoming calendar of the meeting space (right bottom pane) to decide the end time for your ad hoc meeting.
 
 :::image type="content" source="../media/panels-right-pane-available-status.png" alt-text="This screenshot shows how the Teams panels Home screen appears when the meeting space is available":::
 
-## Reserve meeting spaces for ad-hoc meetings
+## Reserve meeting spaces for ad hoc meetings
 
-You can reserve an [available meeting space](#meeting-space-is-available) directly from the panels device for an ad-hoc meeting. All ad-hoc meetings are automatically scheduled as Teams meetings. However, once the meeting space is reserved for an ad-doc meeting, you can't release or unreserve the meeting space from the panels device itself. Only admins of the device's resource account can cancel the ad-hoc meeting (via Outlook or Teams calendar) to unreserve the space.
+You can reserve an [available meeting space](#meeting-space-is-available) directly from the panels device for an ad hoc meeting. All ad hoc meetings are automatically scheduled as Teams meetings. However, once the meeting space is reserved for an ad hoc meeting, you can't release or unreserve the meeting space from the panels device itself. Only admins of the device's resource account can cancel the ad hoc meeting (via Outlook or Teams calendar) to unreserve the space.
 
-For ad-hoc meetings that are booked directly on the panel:
+For ad hoc meetings that are booked directly from the panel:
 
 - The start time is always the current time and as such you can't schedule it for a future time.
 - The end time can be until the next scheduled meeting or up to 24 hours from the current time, whichever is earlier. Check the **Upcoming Calendar** pane on the Home screen for the meeting space availability.
-- The duration can't be less than five minutes. Exception to this is when there is less than 5 minutes to the hour and there's another meeting scheduled starting from the next hour, then you can book the space until the next meeting start time. For example, current time is 1:57 PM but there is another scheduled meeting at 2:00 PM, in this case, you can schedule an ad-hoc meeting for 3 mins.
 
-To reserve an available meeting space for an ad-hoc meeting:
+To reserve an available meeting space for an ad hoc meeting:
 
 1. On the Home screen, tap the **Reserve** button.
     :::image type="content" source="../media/panels-reserve.png" alt-text="Teams panels Home screen showing the Reserve button":::
@@ -106,16 +105,16 @@ To reserve an available meeting space for an ad-hoc meeting:
     > [!Note]
     >
     > - The end time choices are displayed in 15-minute intervals of an hour.
-    > - The end time defaults to the next 15-minute interval that is at least 5 minutes after the current time. For example, if the current time is 1:57 PM, the default end time displays as 2:15 PM, and not 2:00 PM. This prevents users from reserving a meeting space for less than five minutes.
-    > In the screenshot above, since the duration between the current time (1:53 PM) and the next 15-minute interval (2:00 PM) is more than 5 minutes, the default end time is displayed as 2:00 PM.
+    > - The end time defaults to the next 15-minute interval that is at least 5 minutes after the current time. For example, if the current time is 1:57 PM, the default end time displays as 2:15 PM, and not 2:00 PM.
+    > - The exception to the above rule is when the current time is less than 5 minutes to the hour and there's another meeting scheduled starting from the next hour. In this case, you can book the space until the next meeting start time. For example, if the current time is 1:57 PM but there is another scheduled meeting at 2:00 PM, then you can schedule an ad hoc meeting for 3 minutes.
 
 3. Tap the desired end time interval, and then tap **Reserve**.
 
     A confirmation window appears with a thumbs up emoji, meeting start and end time, and meeting space name.
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Ad hoc meeting confirmation message":::
-The right pane on the Home screen right now appears in purple and displays the **Reserved** text and the Teams logo. This indicates that the meeting space is now reserved for an ad-hoc Teams meeting.
+The right pane on the Home screen right now appears in purple and displays the **Reserved** text and the Teams logo. This indicates that the meeting space is now reserved for an ad hoc Teams meeting.
   
-    :::image type="content" source="../media/panels-right-pane-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad-hoc meeting":::
+    :::image type="content" source="../media/panels-right-pane-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting":::
 
     > [!NOTE]
     > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Room or Surface Hub devices.
@@ -165,8 +164,6 @@ Your Teams panels devices provide two types of admin settings. You must be a dev
 
 > [!NOTE]
 > Any updates to the **Panels App** settings done via the device are applicable only to that specific device. Those updates will not impact other panels devices in your organization. For example, if you change the Home screen wallpaper image setting from the **Panels App** settings on a device, the wallpaper image will change only for that specific device.
->
-> To manage the Teams app settings across multiple devices in your organization, use [Microsoft Teams admin center](device-management.md).
 
 ### Access Panels App settings
 
@@ -179,7 +176,7 @@ To access the **Panels App Settings** option:
 3. Tap the **Admin Settings**.
 
     > [!NOTE]
-    > Depending on the OEM of your device, you may need to enter the device admin password now to proceed or may need to enter it after the next step.
+    > Depending on the OEM of your device, you enter the device admin password now or after the next step.
 
 4. Scroll down to find the **Panels App Settings** option. Tap it.
 5. Tap the **Panels App Settings** button on the right pane.
@@ -204,13 +201,13 @@ Change the Home screen wallpaper image.
 
 #### Change the busy state LED color
 
-Change the LED color to indicate busy or reserved state. Admins can choose either red or purple as the LED color to indicate that the meeting space is reserved. The LED color to indicate an available space is always green and you can't change it.
+Admins can choose either red or purple as the LED color to indicate that the meeting space is busy or reserved. The LED color for an available space is always green and can't be changed.
 
 1. [Access **Panels App Settings**](#access-panels-app-settings).
 2. Tap **LED Settings**.
 3. From **Choose your LED color**, select your desired color option.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the the LED color busy state settings":::
-4. Go back to the Home screen and verify that the LED color for the busy state is updated. If the meeting space is available, schedule a test meeting to verify the change in LED color for the busy state. 
+:::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings":::
+4. Go back to the Home screen and verify that the LED color for the busy state is updated. If the meeting space is available, schedule a test meeting to verify the change in LED color for the busy state.
 
 ## Frequently asked questions
 
@@ -220,7 +217,7 @@ Find answers to frequently asked questions about the Teams panels devices.
 In the **Upcoming Calendar** pane (bottom right pane) on the Home screen, you can see the scheduling details of a meeting space for up to 24 hours in the future from the current time.
 
 **Can I reserve a meeting space for a future time from the Teams panels device?**  
-No, you can't reserve a meeting space for a future time from the Teams panels device. The start time is always the current time for an ad-hoc meeting scheduled via Teams panels.
+No, you can't reserve a meeting space for a future time from the Teams panels device. The start time is always the current time for an ad hoc meeting scheduled via Teams panels.
 
 **How long I can reserve an available meeting space for an ad hoc meeting?**  
 You can reserve an available meeting space starting from your current time until the next scheduled meeting time, or up to a maximum of 24 hours from your current time, whichever is earlier. For example, if the current time is 10 AM, and the device displays the next scheduled meeting at 2 PM, you can reserve the meeting space from 10 AM until 2 PM.
