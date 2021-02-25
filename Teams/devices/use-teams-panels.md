@@ -28,7 +28,7 @@ This article provides guidance, to both end users and admins, on how to use the 
 
 For an overview of the panels devices, and the guidance on how to plan, deliver, and manage them in your organization, see [Deploy Microsoft Teams panels](teams-panels.md).
 
-For a quick start, check out [Get started with Teams panels](https://support.microsoft.com/en-us/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
+For a quick start, check out [Get started with Teams panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
 ## Teams panels end-user experience
 
