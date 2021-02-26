@@ -78,10 +78,15 @@ When the device is powered on and connected to the network, the technician provi
 
 The provisioned device appears in the **Awaiting sign in** tab. Start the remote sign-in process by selecting the individual device.
 
-1. Select a device from the **Awaiting sign in** tab.
-2. Follow the instructions in **Sign in a user**, and then select **Close**.
+ ![The window to choose a device for sign in.](../media/remote-provision-6.png)
 
-![the Sign in a user window](../media/sign-in-user.png)
+1. Select a device from the **Awaiting sign in** tab.
+
+![The window with a list of devices ready for sign in.](../media/remote-device-1.png)
+
+1. Follow the instructions in **Sign in a user**, and then select **Close**.
+
+![the Sign in a user window for individual device](../media/sign-in-user.png)
 
 ## Related article
 
