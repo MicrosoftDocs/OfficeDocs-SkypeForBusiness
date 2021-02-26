@@ -26,11 +26,11 @@ appliesto:
 
 |<div style="width:290px">Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|October 5, 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| You can enable the Teams Meeting policy to have meeting recordings saved to OneDrive for Business and SharePoint instead of Microsoft Stream (Classic)|
-|Rolling out starting January 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|All new Teams meeting recordings will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. Seeing the policy reporting as Stream isn't enough. You need to explicitly set the policy value to **Stream**.|
-|Rolling out starting January 11, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC only**<br> While GCC customers can opt out starting October 5, you're unable to opt in. This feature will be rolled out to all GCC customers starting January 11, 2021, unless you've opted-out.<br>  <br>Starting on January 11, 2021, all new Teams meeting recordings for GCC customers will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. <br><br>If you've opted-out but are ready to turn on this feature, you may do so by setting your Teams Meeting Policy explicitly to **OneDrive for Business**. |
-|Rolling out starting March 1, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Enterprise & GCC customers**<br>**No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream**.<br><br> We recommend that customers roll this feature out before this date so that they can control the timing of the release. |
-|Rolling out starting July 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Education customers**<br>**No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream**.<br><br> We recommend that customers roll this feature out before this date so that they can control the timing of the release. We've updated this schedule to provide education customers the ability to complete in-progress semesters. |
+|October 5, 2020<br> <br>*(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| You enable the Teams Meeting policy to have meeting recordings saved to OneDrive for Business and SharePoint instead of Microsoft Stream (Classic)|
+|Rolling out starting January 7, 2021<br> <br>*(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|All new Teams meeting recordings will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. Seeing the policy reporting as Stream isn't enough. You need to explicitly set the policy value to **Stream**.|
+|Rolling out starting January 11, 2021<br> <br>*(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC only**<br> While GCC customers can opt out starting October 5, you're unable to opt in. This feature will be rolled out to all GCC customers starting January 11, 2021, unless you've opted-out.<br>  <br>Starting on January 11, 2021, all new Teams meeting recordings for GCC customers will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. <br><br>If you've opted-out but are ready to turn on this feature, you may do so by setting your Teams Meeting Policy explicitly to **OneDrive for Business**. |
+|Rolling out starting March 1, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High and DoD only**<br> Customers can now enable cloud meeting recordings in their Microsoft Teams for the first time. These recordings will be stored and played on OneDrive and SharePoint by default. |
+|Rolling out incrementally starting July 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**All customers (Enterprise, Education, and GCC)**<br>**No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream**.<br><br> We recommend that customers roll this feature out before this date so that they can control the timing of the release. |
 
 > [!Note]
 > We recommend that Enterprise and Educational customers, to better control the change in your organization, opt in whenever you're comfortable with the change rather than wait for it to happen.
@@ -45,17 +45,15 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - Share recordings with guests (external users) with explicit share only
 - Request access flow
 - Provide OneDrive for Business and SharePoint shared links
-- Increased quota
 - Meeting  recordings are available faster
 - **Go local** tenant support
 - Multi-geo support – recordings are stored in a region specific to that user
 - Bring your own key (BYOK) support
-- Improved Transcript quality and speaker attribution
 
 There are some limitations to consider:
 
-- There will be English-only closed captions and transcripts​.
-- You won't be able to search transcripts or their content​.
+- There will be English-only closed captions and you'll be able to toggle captions off/on.​
+- You won't *initially* be able to view, edit, and search a full transcript (however, we're working on adding this capability soon)​.
 - You won’t be able to edit the transcripts, but you'll be able to toggle captions off/on.
 - You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.
 - You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
@@ -72,15 +70,17 @@ The meeting recording option is a setting at the Teams policy level. The followi
 > Teams meeting policy changes take awhile to propagate. Check back after a few hours of setting it, then sign out and sign in again.
 
 1. Install Skype For Business Online PowerShell.
-**Note**: Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector. See [Manage Skype for Business Online with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
-    a. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+   > [!NOTE]
+   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector. See [Manage Skype for Business Online with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
-    b. Follow the prompts to install it.
+    1. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
-    c. Restart your machine.
+    1. Follow the prompts to install it.
 
-2. Launch PowerShell as an admin
+    1. Restart your machine.
+
+2. Launch PowerShell as an admin.
 
 3. Import the SkypeOnline Connector and sign in as a Teams admin.
 
@@ -136,6 +136,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 - For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
 
   <i>Teams name - Channel name</i>/**Documents**/**Recordings**
+
+**When Stream files (such as recordings) are stored in SharePoint/OneDrive, how is it decided where they go? Does the admin have the ability to change where it goes?**
+
+By default, all recording files will go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording will always go to the SharePoint site of the channel. The admin can't change where the recording is stored.
 
 **How do I handle recordings from former employees?**
 

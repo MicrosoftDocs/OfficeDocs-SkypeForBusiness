@@ -37,6 +37,8 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
+[Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
+
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
@@ -98,6 +100,9 @@ For instance, it is expected that your customers and you will see 200,000 audio 
 
 In order to determine, if there are any unexpected differences, you must look at various breakdowns of the overall data.  Compare with intent.  Slicing the data by User Agent Category Pair is one of the first things we recommend.  *First Product* and *Second Product* are also good slicers.  
 
+### Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?
+
+CQD is designed for summarized data queries, and is not designed for data export. We recommend restructuring your reports, where possible, to prevent the 10,000 row limit from being exceeded. Start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
 
 ## Related topics
 

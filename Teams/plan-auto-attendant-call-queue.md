@@ -69,7 +69,10 @@ To configure auto attendants and call queues, you need the following resources:
 - At least one [Microsoft service number](getting-service-phone-numbers.md), direct routing number, or a hybrid number for each resource account that you want to be directly dialable
  - The service number may be a toll or toll-free number
 
-Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. 
+Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
+
+- An online voice routing policy assigned if the call queue uses transfer mode
+- An Audio Conferencing license or online voice routing policy assigned if the call queue uses conference mode
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
@@ -121,9 +124,6 @@ If you have an existing auto attendant and call queue infrastructure and you're 
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 
 We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
-
-> [!NOTE]
-> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
 
 ## Plan your call routing flow
 

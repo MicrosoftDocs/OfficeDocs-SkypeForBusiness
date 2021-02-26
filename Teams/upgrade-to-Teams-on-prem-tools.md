@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Upgrade from Skype for Business to Teams - tools for upgrade 
+description: Tools for upgrade from Skype for Business to Teams 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -31,7 +31,10 @@ Before beginning your upgrade, Microsoft recommends the following articles that 
 
 ## Tools for managing the upgrade
 
-Whichever upgrade method you choose, for users that already have Skype for Business Online, you manage the transition to TeamsOnly using [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), which controls a user’s coexistence mode. For users with an on-premises account in Skype for Business Server, you also use `Move-CsUser` to [move them to the cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more information on each of the modes, see [Coexistence modes](migration-interop-guidance-for-teams-with-skype.md).  
+Whichever upgrade method you choose, for users that already have Skype for Business Online, you manage the transition to TeamsOnly using [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), which controls a user’s coexistence mode. For users with an on-premises account in Skype for Business Server, you also use `Move-CsUser` to [move them to the cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more information on each of the modes, see [Coexistence modes](migration-interop-guidance-for-teams-with-skype.md).
+
+> [!NOTE]
+> If you are currently using Skype for Business Online Connector to manage your services, you will need to move to the Teams PowerShell module and update your existing PowerShell scripts. See [Move from Skype for Business Online Connector to the Teams PowerShell module](teams-powershell-move-from-sfbo.md) for more information.
 
 Whether you perform a select capabilities transition using Skype for Business modes or simply upgrade to TeamsOnly mode from the default Islands configuration, TeamsUpgradePolicy is the primary tool for users who already have Skype for Business Online. Like any other policy in Teams, you can assign TeamsUpgradePolicy directly to a user. You can also set the policy as the tenant-wide default. Any assignment to a user takes precedence over the tenant default setting.  You can manage the policy in the Teams Admin Console and in PowerShell.
 
