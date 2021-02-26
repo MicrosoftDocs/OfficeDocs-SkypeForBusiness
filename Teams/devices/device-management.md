@@ -79,8 +79,7 @@ Here are some examples of how you can manage phones, collaboration bars, Teams d
 | Add or remove device tags               | Select one or more devices > **Manage tags**. For more information about device tags, see [Manage Teams device tags](manage-device-tags.md).                                                                                                      |
 | Restart devices                         | Select one or more devices > **Restart**.                                                                                                                                                                                                                                |
 | Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**. For more information about filtering devices using device tags, see [Use filters to return devices with a specific tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag).|
-| View device history and diagnostics                    | Under the **History** column, click the **View** link for a device to view its update history and diagostic details. 
-|
+| View device history and diagnostics                    | Under the **History** column, click the **View** link for a device to view its update history and diagostic details. |
 
 
 ### Use configuration profiles in Teams
