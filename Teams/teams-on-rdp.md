@@ -32,7 +32,7 @@ Depending on your environment and preferences, you can set up the RDS solution f
 
 Currently, Teams in a remote desktop services environment is available with support for collaboration and chat functionality. To ensure an optimal user experience, follow the guidance in this article.
 
-## Teams on VDI with chat and collaboration
+## Teams on RDS with chat and collaboration
 
 If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams.
 
