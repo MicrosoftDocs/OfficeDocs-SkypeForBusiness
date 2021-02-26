@@ -77,7 +77,7 @@ Take an inventory of the existing bookable meeting spaces in your organization. 
 
 Based on the number of meeting spaces that are in scope for deploying Teams panels, procure the devices from one of the [partners certified for Teams panels](#partners-certified-for-teams-panels). Visit the partners’ websites to learn more about the devices and procurement options.
 
-Meeting spaces in your organization may have different hardware requirements for installing or mounting the devices. For example, hardware required for mounting the device on a glass, plaster, dry, or wood paneling wall may not be the same. Refer to the device partner's documentation for available mounting options.
+Meeting spaces in your organization may have different hardware requirements for installing or mounting the devices. For example, hardware required for mounting the device on a glass, plaster, drywall, or wood paneling may not be the same. Refer to the device partner's documentation for available mounting options.
 
 ## Site readiness
 
