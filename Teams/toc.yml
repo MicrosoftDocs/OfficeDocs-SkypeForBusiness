@@ -1506,6 +1506,10 @@ items:
           href: devices/phones-for-teams.md
         - name: Teams displays
           href: devices/teams-displays.md
+        - name: Teams panels
+          href: devices/teams-panels.md
+        - name: Use Teams panels
+          href: devices/use-teams-panels.md
         - name: Upgrade Teams phones to Teams displays
           href: devices/upgrade-phones-to-displays.md
         - name: Deploy Teams phones and Teams displays using Intune

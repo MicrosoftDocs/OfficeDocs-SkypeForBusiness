@@ -12,12 +12,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Update Microsoft Teams phones and collaboration bars remotely using the Teams admin center"
+description: "Update Microsoft Teams phones, Teams panels, and collaboration bars remotely using the Teams admin center"
 ---
 
 # Update Microsoft Teams devices remotely
 
-Using the Microsoft Teams admin center, you can update your Teams devices, such as phones and collaboration bars, remotely, and you can choose device firmware automatic-update behavior. You can update the following on your devices using the Teams admin center:
+Using the Microsoft Teams admin center, you can update your Teams devices, such as Teams phones, Teams panels, and collaboration bars, remotely, and you can choose device firmware automatic-update behavior. You can update the following on your devices using the Teams admin center:
 
 - Teams app and teams admin agent
 - Company portal app
@@ -43,14 +43,14 @@ Device firmware updates are applied automatically. You can decide whether to app
 
 To choose the automatic update behavior for your devices, do the following:
 
-1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
-2. Navigate **Devices** > **Phones** or **Collaboration bars**
-3. Select one or more devices and then select **Update**
+1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
+2. Navigate **Devices** > **IP phones** or **Collaboration bars** or **Teams panels**.
+3. Select one or more devices and then select **Update**.
 4. Under **Firmware auto-update**, select one of the following:
     - **As soon as available** Second-newest device firmware update is applied on the first weekend after the latest update is released.
     - **Defer 30 days** Second-newest device firmware update is applied 30 days after the latest update is released.
     - **Defer 90 days** Second-newest device firmware update is applied 90 days after the latest update is released.
-5. Select **Update**
+5. Select **Update**.
 
 If, for whatever reason, you need to revert a device firmware update, you need to reset your device to its factory settings. Reset your device using the instructions from its manufacturer.  
 
@@ -60,9 +60,9 @@ When you update one or more devices using the admin center, you can decide wheth
 
 To manually update remote devices, do the following:
 
-1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com
-2. Navigate  **Devices** > **Phones** or **Collaboration bars**
-3. Select one or more devices and then select **Update**
+1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
+2. Navigate  **Devices** > **IP phones** or **Collaboration bars** or **Teams panels**.
+3. Select one or more devices and then select **Update**.
 4. Under **Manual updates**, select **Schedule** if you want to schedule the update for a future date and time. The updates are applied at the date and time in the timezone selected in **Timezone**.
 
 What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows multiple devices selected while the image on the right shows a single device selected.
