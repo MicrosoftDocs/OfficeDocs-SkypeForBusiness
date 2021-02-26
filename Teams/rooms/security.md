@@ -98,16 +98,17 @@ Generally, Teams Rooms has the same network requirements as any Microsoft Teams 
 
 If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the following URLs:
 
-- global.azure-devices-provisioning.net
-- gj3ftstorage.blob.core.windows.net
-- gj3ft-hub.azure-devices.net
-- iothubsgagwt5wgvwg6.azure-devices.net
-- blobssgagwt5wgvwg6.blob.core.windows.net
-- prod-48.westus.logic.azure.com
-- prod-08.westus.logic.azure.com
-- prod-62.westus.logic.azure.com
-- prod-65.westus.logic.azure.com
-- prod-05.westus.logic.azure.com
+- https://agent.rooms.microsoft.com
+- https://global.azure-devices-provisioning.net
+- https://gj3ftstorage.blob.core.windows.net
+- https://iothubsgagwt5wgvwg6.azure-devices.net
+- https://blobssgagwt5wgvwg6.blob.core.windows.net
+- https://mmrprodapaciot.azure-devices.net
+- https://mmrprodapacstor.blob.core.windows.net
+- https://mmrprodemeaiot.azure-devices.net
+- https://mmrprodemeastor.blob.core.windows.net
+- https://mmrprodnoamiot.azure-devices.net
+- https://mmrprodnoamstor.blob.core.windows.net
 
 Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning at 2:00am using a pre-set local policy. There is no need to use additional tools to deploy and apply Windows Updates. Using additional tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store. If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan.
 
