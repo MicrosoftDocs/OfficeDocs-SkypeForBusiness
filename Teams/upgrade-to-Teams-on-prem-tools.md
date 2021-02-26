@@ -1,9 +1,8 @@
 ---
-title: Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Tools for upgrading to Teams from a Skype for Business on-premises deployment
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -22,21 +21,13 @@ appliesto:
 
 # Tools for upgrading to Teams &mdash; for IT administrators
 
-This article describes tools for upgrading to Teams. This article is the third of several that describe upgrade concepts and implementation for IT administrators.  
+This article describes tools for upgrading to Teams from Skype for Business. 
 
-- [Overview](upgrade-to-teams-on-prem-overview.md)
-- [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **Tools for managing your upgrade**   (This article)
-- [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem-considerations.md)
-- [Implement your upgrade](upgrade-to-teams-on-prem-implement.md)
-- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-In addition, the following articles describe important upgrade concepts and coexistence behaviors:
+Before beginning your upgrade, Microsoft recommends the following articles that describe important upgrade concepts and coexistence behaviors:
 
 - [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
 - [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
 
 ## Tools for managing the upgrade
 
@@ -113,7 +104,7 @@ When assigning TeamsOnly mode at the tenant level, meeting migration is not trig
 
 ## Related links
 
-[Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
+[Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md) 
 
 [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
