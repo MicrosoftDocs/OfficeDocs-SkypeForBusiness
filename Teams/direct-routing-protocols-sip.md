@@ -299,7 +299,7 @@ The SIP proxy supports (always offers) the Session Timer on non-bypass calls but
 
 The SIP proxy analyses the Request-URI and if the parameter user=phone is present, the service will handle the Request-URI as a phone number, matching the number to a user. If parameter is not present the SIP proxy applies heuristics to determine  the Request-URI user type (phone number or a SIP address).
 
-Microsof recommends always applying the user=phone parameter to simplify the call setup process.
+Microsoft recommends always applying the user=phone parameter to simplify the call setup process.
 
 ## History-Info header
 
