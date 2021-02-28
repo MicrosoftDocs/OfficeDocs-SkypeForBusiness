@@ -20,7 +20,7 @@ appliesto:
 
 # Set up Microsoft Teams in your enterprise
 
-There are lots of ways you can customize Teams. The following sections show you how to set up each Teams workload: **chats, teams and channels**; **meetings and conferencing**; and **cloud voice**. The order in which you set up each workload is up to you. While we recommend setting up the chats, teams, and channels workload first, you can start with meetings and conferencing or even cloud voice. The choice is yours.
+Use the information in this article to guide you through the deployment of Teams in your organization.
 
 > [!NOTE]
 > If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
@@ -29,9 +29,24 @@ Before you roll out Teams broadly, make sure your organization is ready by revie
 
 ## Plan your deployment
 
-Before you start deploying Teams, make sure you've completed your planning process. For information about planning for Teams, see [Teams enterprise deployment overview](deploy-enterprise-overview.md).
+Before you start deploying Teams, make sure you've completed your planning process. Your planning process should include:
+
+- Understanding Teams architecture
+- Reviewing and understanding Teams workloads and how they work with Microsoft 365
+- Calculated network requirements and ensuring your network and Internet connection have the hardware and capacity required to support critical requirements like real-time communications
+- Understanding regulatory and compliance requirements for information stored in Teams and other Microsoft 365 services
+- Creating an adoption plan to help users understand the benefits of using Teams
+
+We strongly recommend using the [Teams advisor](https://admin.teams.microsoft.com/teams-deployment) to help you with your deployment. For details about how the Teams advisor works, see [Use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md).
+
+> [!TIP]
+> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
+
+For information about planning for Teams, see [Teams enterprise deployment overview](deploy-enterprise-overview.md).
 
 ## Workloads
+
+There are lots of ways you can customize Teams. The following sections show you how to set up each Teams workload: **chats, teams and channels**; **meetings and conferencing**; and **Phone System**. The order in which you set up each workload is up to you. While we recommend setting up the chats, teams, and channels workload first, you can start with meetings and conferencing or even Phone System.
 
 #### [Chat, teams, and channels](#tab/ChatTeamsChannels)
 
@@ -91,9 +106,11 @@ Meetings and conferencing lets people in your organization meet with each other 
 
 #### [Phone System and PSTN connectivity](#tab/PhoneSystem)
 
+Phone System allows you to replace your existing on-premises phone system with a set of features delivered from Microsoft 365 that is tightly integrated into your cloud experience.
+
 | Decision | Description |
 |--|--|
-| Do you want to replace your on-premises phone system? | Phone System allows you to replace your existing on-premises phone system with a set of features delivered from Microsoft 365 that is tightly integrated into your cloud experience. <p> [Set up Phone System in your organization](setting-up-your-phone-system.md)|
+| Do you want to replace your on-premises phone system? | Set up Phone System, configure auto attendants, calling plans, call queues, and so on. <p> [Set up Phone System in your organization](setting-up-your-phone-system.md)|
 | Do you want to set Cloud Voicemail policies?| You can control which Cloud Voicemail features are available to your users, and how they work. For example, you can enable or disable voicemail transcription for your whole organization, enable or disable profanity masking for specific users, and so on.<p> [Set up Cloud Voicemail](set-up-phone-system-voicemail.md) |
 | Do you want to enable dynamic emergency calling?| Dynamic emergency calling lets you configure a location map based on network settings and other metadata to determine where to send emergency personnel in the event an emergency call is placed by a user. You can configure network settings, assign emergency addresses to locations, and so on.<p>[Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md) |
 | Do you want to customize caller ID behavior? | By default, the phone number shown when a Teams users makes a call is the user's phone number. You can change this to be the company's main number, block the phone number, make the number anonymous, or another service number. Teams has a global policy that applies to everyone.<p>If you want the same policy to apply to everyone, all you need to do is make changes to this global policy. <p>If you want different policies for different groups of people (for example, one policy for office workers and another for executives), you can create and assign policies. When you assign a policy to a user, the global policy no longer applies to them.<p> [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) |
