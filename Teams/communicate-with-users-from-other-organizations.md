@@ -19,7 +19,7 @@ appliesto:
 localization_priority: Priority
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access (federation) and guest access.
 ---
->! Note for teams free licenses, external couminication is not supported.
+
 # Call, chat, and collaborate with people outside your organization in Microsoft Teams
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams has two options:
@@ -38,6 +38,9 @@ By default, external access is enabled for all domains. You can restrict externa
 ![Screenshot of external access settings](media/external-access-federation-settings.png)
 
 To configure external access, see [Manage external access](manage-external-access.md). 
+
+>[!NOTE]
+>Microsoft Teams free licenses do not support external access.
 
 ## Guest access
 
