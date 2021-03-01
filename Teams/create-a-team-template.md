@@ -65,7 +65,11 @@ Your new template is displayed in the **Team templates** list. The template can 
 
 **Problem**: If you have created a team from a custom template that contained additional custom tabs, you might see blank tabs in place of your custom tab apps. Your default tabs (i.e. **Posts**, **Files**, and **Wiki**) will appear as expected.
 
-**Solution**: To fix this issue, remove the custom tab and add a new tab with the same app. We're currently working on a fix for all future custom templates as of 02/08/2021.
+**Solution**: If you have created a team from a custom template that contained additional custom tabs, you may see blank tabs in place of your custom tab apps. Your default tabs (i.e. Posts, Files and Wiki) will appear as expected.
+
+To fix this issue, remove the custom tab and add a new tab with the same app. If you do not have permissions to remove the custom tab and add a new tab, please reach out to the team owner to ask them to do so.
+
+We are currently working on a fix for future teams created from custom templates.
 
 ## Related topics
 

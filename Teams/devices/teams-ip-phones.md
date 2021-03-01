@@ -1,5 +1,5 @@
 ---
-title: "Phones and Devices for Teams"
+title: "Devices for Teams"
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -23,35 +23,34 @@ ms.custom:
 description: Learn which desk and conference phones are certified for Microsoft Teams to produce the best results.
 ---
 
-# IP Phones certified for Microsoft Teams
+# Microsoft Teams certified devices
 
-The IP Phones certification program ensures that customers using certified desk phones and conference phones will experience high quality audio calls and meetings experience.
+The Microsoft Teams certification programs ensure that customers using certified desk phones and conference phones will experience high quality audio calls and meetings experience.
 
-## Announcing Certified for Microsoft Teams
-
-In addition to offering customers a range of Skype for Business certified IP phones, as part of the Teams IP phone certification program, we are announcing the availability of new IP phone hardware that will be certified for Microsoft Teams. This certification program ensures a higher quality bar with higher performance targets and audio quality metrics. Phone vendors are actively working to meet this higher bar and will be qualifying against the new requirements this calendar year. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams IP phones. Benefits from the Teams certified IP phone include:
+Microsoft Teams Certification programs ensure a higher quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. Benefits from Microsoft Teams certified devices include:
 
 - Native Teams experience with hardware button integration and LED notifications
 - Calendar integration and one-touch meeting join
-- Deployed and managed via the Microsoft Device Management Solution with Intune integration
+- Deployed and managed via Teams Admin Center with Intune integration
 
-## Currently certified IP Phones
+## Currently certified Teams phones
 
-The following phones are Certified for Microsoft Teams:
+The following devices are Certified under the Microsoft Teams phones Certification Program:
 
-| Phone model                            | Firmware version                                                                                                                                                                                                                           | Release date                 |
+|Device model                         | Firmware version                                                                                                                                                                                                                           | Release date                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
-| Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
-|Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
-| Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued as of 5/11/2020 |
-| Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued as of 5/11/2020 |
-| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
-| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
-| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | January 2020                 |
-| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | January 2020                 |
-| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | December 2019                |
-| Poly Trio 8500/8800 (shared mode only) | 5.9.0.10869                                                                                                                                                                                                                                | June 2019                    |
+| Audiocodes expansion module supported on C450HD |C450HD_TEAMS_0.225  | January 2021 |
+| Audiocodes C450HD                      | C450HD_TEAMS_0.225          | March 2019   |
+| Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225          | March 2019   |
+| Crestron UC-P8-T and UC-P8-T-HS        | 1.0.0.56                    | February 2021|
+| Crestron UC-2                          | 1.0.1.46                    | July 2020                    |
+| Lenovo ThinkSmart View                 | CD-18781Y.200410.067        | April 2020                   |
+| Poly Trio C60                          | 5.9.3.6155                  | April 2020                   |
+| Poly CCX400                            | 1.0.0.0200                  | January 2020                 |
+| Poly CCX600                            | 5.9.12.1122                 | January 2020                 |
+| Poly CCX500                            | 5.9.12.1122                 | December 2019                |
+| Poly Trio 8500/8800 (shared mode only) | 5.9.0.10869                 | June 2019                    |
+| Yealink EXP50 supported on T56, T58, MP56, MP58, VP59| For each supported device model, see update #7 firmware version | January 2021 |
 | Yealink MP58 | 122.15.0.27| December 2020 |
 | Yealink MP54 | 122.15.0.27| November 2020 |
 | Yealink MP56 | 122.15.0.6 | March 2020    |
@@ -60,27 +59,36 @@ The following phones are Certified for Microsoft Teams:
 | Yealink CP 960| 73.15.0.20 | December 2018|
 | Yealink T58 & T56 series | 58.15.0.20 | December 2018 |
 
-## Currently certified Collaboration Bars
+## Currently certified Teams Rooms on Android
 
-The following Collaboration Bars are Certified for Microsoft Teams:
+The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
 
-| Collaboration Bar model | Firmware version | Release date  | Room size (up to)                                         |
+| Device model | Firmware version | Release date  | Room size (up to)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | Yealink MeetingBar A20  | 133.15.0.19      | November 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X30         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X50         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Yealink VC210           | 118.15.0.14      | February 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 
-## Currently certified Teams display
-The following Teams displays are Certified for  Microsoft Teams:
+## Currently certified Teams displays
 
-| Teams display model | Firmware version | Release date  |                                         
+The following devices are Certified under the Microsoft Teams display Certification Program:
+
+| Device model | Firmware version | Release date  |                                         
 |:------------------------|:-----------------|:--------------|
 |Lenovo ThinkSmart View|CD-18781Y.201006.099|October 2020 |
 
-### Product release information for Teams Phones
+## Currently certified Teams panels
+The following devices are Certified under the Microsoft Teams panels Certification Program:
 
-The following are the latest Teams IP phone app and firmware versions.
+| Device model| Firmware version | Release date  |                                         
+|:------------------------|:-----------------|:--------------|
+|Crestron TSS-770 | 1.003.0082 |February 2021 |
+|Crestron TSS-1070 | 1.003.0082 |February 2021 |
+
+### Product release information for Teams phones
+
+The following are the latest Teams phone app and firmware versions.
 
 #### App versions
 
@@ -109,9 +117,9 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink VP59        | 91.15.0.50          | 2020 Update #7           |
 | Yealink CP960       | 73.15.0.111       | 2020 Update #7           |
 
-### Product release information for Collaboration Bars
+### Product release information for Teams Rooms on Android
 
-The following are the latest Teams Collaboration Bar app and firmware versions.
+The following are the latest Teams Rooms on Android app and firmware versions.
 
 #### App versions
 
@@ -131,7 +139,7 @@ When you install a new firmware version on your device, you can determine the co
 | Poly Studio X30 | 3.2.3.280012          | 2020, Update #3    |
 | Poly Studio X50 | 3.2.3.280012          | 2020, Update #3    |
 
-### Product release information for Teams display
+### Product release information for Teams displays
 
 The following are the latest Teams display app and firmware versions.
 
@@ -162,8 +170,6 @@ For more information about getting Teams, check out [How do I get access to Micr
 If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 ## Additional resources
-
-Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
