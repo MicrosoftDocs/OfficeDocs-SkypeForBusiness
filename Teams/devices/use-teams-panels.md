@@ -18,7 +18,7 @@ localization_priority: Normal
 description: "This article provides guidance on how to use Teams panels devices."
 ---
 
-# Use Microsoft Teams panels
+# How to use Microsoft Teams panels
 
 Microsoft Teams panels are compact digital display devices that are mounted right outside of your meeting spaces, typically next to entrances. These touchscreen panels are dedicated Microsoft Teams devices that provide at-a-glance view about your meeting space and the scheduled meeting. With the vibrant color-coded LED and Home screen indicators, you can determine if the space is available or reserved from a distance. You can use Teams panels to reserve an available meeting space for an ad hoc meeting, on the spot.
 
@@ -58,7 +58,7 @@ Tile | Description
 **1-Current time, day, date, and meeting space details** | Displays current time, day, date, and meeting space name. The meeting space name is the name of the resource account that signed in to panels.
 **2-Meeting space availability and meeting details** | Indicates meeting space availability and displays meeting details. See [Meeting space availability and meeting details tile](#meeting-space-availability-and-meeting-details-tile).
 **3-Upcoming Calendar** | Displays the meeting space calendar and availability for up to 24 hours from the current hour. Scroll up or down to determine which time slots are available and which are reserved.
-**4-Settings** | Displays the settings icon. Tap it to open the **Settings** screen to report a problem or update available device settings.
+**4-Settings** | Displays the **Settings** icon. Tap it to report a problem or update available device settings.
 
 ### Meeting space availability and meeting details tile
 
@@ -218,4 +218,4 @@ In the **Upcoming Calendar** tile (bottom right) on the Home screen, you can see
 No, you can't reserve a meeting space for a future time from panels. The start time is always the current time for an ad hoc meeting scheduled from panels.
 
 **How long I can reserve an available meeting space for an ad hoc meeting?**  
-You can reserve an available meeting space starting from your current time until the next scheduled meeting time, or up to a maximum of 24 hours from your current time, whichever is earlier. For example, if the current time is 10 AM, and the next meeting start time is 2 PM, you can reserve the meeting space from 10 AM until 2 PM.
+You can reserve an available meeting space starting from your current time until the next scheduled meeting time, or up to a maximum of 24 hours from your current hour, whichever is earlier. For example, if the current time is 10 AM, and the next meeting start time is 2 PM, you can reserve the meeting space from 10 AM until 2 PM.
