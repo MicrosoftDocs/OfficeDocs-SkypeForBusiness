@@ -181,36 +181,26 @@ items:
           href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
         - name: Upgrade Skype for Business on-premises to Teams
           href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+        - name: Upgrade strategies
+          href: upgrade-to-teams-on-prem-implement.md
     - name: Operate, adopt, and optimize
       href: continue-journey.md
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
     - name: FAQ
       href: FAQ-journey.yml
-    - name: Technical library
+    - name: Reference
       items: 
-        - name: Upgrade guidance for IT administrators
-          items: 
-            - name: Overview
-              href: upgrade-to-teams-on-prem-overview.md
-            - name: Upgrade methods
-              href: upgrade-to-teams-on-prem-upgrade-methods.md
             - name: Tools for managing your upgrade
               href: upgrade-to-teams-on-prem-tools.md
-            - name: Considerations for organizations with Skype for Business on premises
-              href: upgrade-to-teams-on-prem-considerations.md
-            - name: Implement your upgrade
-              href: upgrade-to-teams-on-prem-implement.md
-            - name: Coexistence of Teams and Skype for Business
-              href: upgrade-to-teams-on-prem-coexistence.md
             - name: Coexistence modes - Reference
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams client experience and conformance to coexistence modes
               href: teams-client-experience-and-conformance-to-coexistence-modes.md
-        - name: Set your coexistence and upgrade settings
-          href: setting-your-coexistence-and-upgrade-settings.md
-        - name: Meetings First
-          href: meetings-first.md
+            - name: Set your coexistence and upgrade settings
+              href: setting-your-coexistence-and-upgrade-settings.md
+            - name: Meetings First
+              href: meetings-first.md
 
 - name: Hybrid connectivity
   items: 
