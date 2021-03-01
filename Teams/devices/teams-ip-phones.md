@@ -3,7 +3,7 @@ title: "Devices for Teams"
 ms.author: dstrome
 author: dstrome
 manager: serdars
-ms.reviewer: dvank, kponnus
+ms.reviewer: divank
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -39,17 +39,18 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model                         | Firmware version                                                                                                                                                                                                                           | Release date                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes expansion module supported on C450HD |C450HD_TEAMS_0.225  | January 2021 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225          | March 2019   |
-| Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225          | March 2019   |
-| Crestron UC-P8-T and UC-P8-T-HS        | 1.0.0.56                    | February 2021|
-| Crestron UC-2                          | 1.0.1.46                    | July 2020                    |
-| Lenovo ThinkSmart View                 | CD-18781Y.200410.067        | April 2020                   |
-| Poly Trio C60                          | 5.9.3.6155                  | April 2020                   |
-| Poly CCX400                            | 1.0.0.0200                  | January 2020                 |
-| Poly CCX600                            | 5.9.12.1122                 | January 2020                 |
-| Poly CCX500                            | 5.9.12.1122                 | December 2019                |
-| Poly Trio 8500/8800 (shared mode only) | 5.9.0.10869                 | June 2019                    |
+| Audiocodes expansion module supported on C450HD |C450HD_TEAMS_0.225                                        | January 2021                 |
+| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
+| Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
+|Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
+| Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued as of 5/11/2020 |
+| Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued as of 5/11/2020 |
+| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
+| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
+| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | January 2020                 |
+| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | January 2020                 |
+| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | December 2019                |
+| Poly Trio 8500/8800 (shared mode only) | 5.9.0.10869                                                                                                                                                                                                                                | June 2019                    |
 | Yealink EXP50 supported on T56, T58, MP56, MP58, VP59| For each supported device model, see update #7 firmware version | January 2021 |
 | Yealink MP58 | 122.15.0.27| December 2020 |
 | Yealink MP54 | 122.15.0.27| November 2020 |
@@ -65,6 +66,8 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Release date  | Room size (up to)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
+| Yealink CTP18 touch console  | 137.15.0.28    | March 2021 | Compatible with MeetingBar A20 and MeetingBar A30 |
 | Yealink MeetingBar A20  | 133.15.0.19      | November 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X30         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X50         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
