@@ -21,7 +21,7 @@ appliesto:
 # Teams view-only meeting experience
 
 > [!Note]
-> View-only meeting experience will be available in early March 2021. This feature will be enabled on March 1,2021 as default OFF. You must change the default policy after that date if you want to have the feature be default ON.
+> View-only meeting experience will be available in early March 2021. This feature will be enabled on March 1,2021 as default OFF. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled`.
 
 > [!Note]
 > We've temporarily increased view-only experience for 20,000 attendees, but we'll revert support to 10,000 attendees on June 30, 2021.
@@ -39,7 +39,7 @@ We have full Android and iOS mobile support for an attendee to join.
 
 The view-only experience is disabled by default for any organizer who has E3/E5/A3/A5 SKU. No further configuration or setup is required.
 
-### Disable Teams view-only experience
+## Disable Teams view-only experience
 
 Administrators can disable the view-only experience using PowerShell.
 
@@ -71,8 +71,6 @@ If there's space, a user will always join the main meeting. If the main meeting 
 If presenter/attendee roles haven't been set, spaces in the main meeting are filled on a first-come, first-served basis. Once the meeting capacity has been reached, all other users will join with a view-only experience.
 
 ## Impact to meeting presenters
-
-We'll reserve space in the normal meeting for users explicitly indicated as presenters in the meeting options. If a presenter leaves and then later rejoins the meeting, they'll be let into the meeting as a presenter.
 
 Limitations for meeting presenters include:
 
