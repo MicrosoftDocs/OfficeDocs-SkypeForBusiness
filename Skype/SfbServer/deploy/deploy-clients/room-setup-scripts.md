@@ -42,7 +42,7 @@ Make sure you've reviewed the following prerequisites before running the script:
     
 - Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)
     
-- Windows PowerShell Module for Lync Online
+- Teams  PowerShell Module
     
 - Reboot if needed
     
@@ -54,9 +54,9 @@ $rmURI="$rm@$org"$newpass='MyPass@word1'# This Section Signs into Remote PowerSh
 $cred=Get-Credential admin@$org
 $sess=New-PSSession -ConfigurationName microsoft.exchange -Credential $cred -AllowRedirection -Authentication basic -ConnectionUri https://ps.outlook.com/powershell
 Import-PSSession $sess
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred
-Import-PSSession $cssess -AllowClobber
+Import-Module MicrosoftTeams
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
 New-Mailbox -MicrosoftOnlineServicesID $rmURI -room -Name $rm -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
  -EnableRoomMailboxAccount $true
