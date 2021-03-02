@@ -423,6 +423,10 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="bkmeetingparticipants"> </a>
+<!-- Do not remove the bookmark link above. -->
+
 ## Meeting policy settings - Participants & guests
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
