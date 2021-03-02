@@ -282,7 +282,7 @@ For an organization that is upgrading to Teams, the ultimate goal is to move all
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
 - [About the upgrade framework](upgrade-framework.md)
-- [Upgrade from Skype for Business to Teams — for IT administrators](upgrade-to-teams-on-prem-overview.md)
+<!-- - [Upgrade from Skype for Business to Teams — for IT administrators](upgrade-to-teams-on-prem-overview.md) -->
 
 When migrating your voice solution, there are four possible calling scenarios when moving to TeamsOnly mode:
 
