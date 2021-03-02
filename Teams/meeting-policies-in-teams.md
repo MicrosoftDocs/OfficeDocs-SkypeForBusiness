@@ -553,7 +553,7 @@ To specify whether users can customize their video background in a meeting, set 
 |Setting value in PowerShell |Behavior  |
 |---------|---------|
 |**NoFilters**     |User can't customize their video background.|
-|**BlurOnly**     |User has the option to blur their video background. |
+|**BlurOnly**     |Users can blur their video background. |
 |**BlurandDefaultBackgrounds**     |User has the option to blur their video background or choose from the default set of images to use as their background. |
 |**AllFilters**     |User has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
 
