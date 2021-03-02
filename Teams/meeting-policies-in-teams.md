@@ -501,7 +501,7 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 - **EveryoneInCompanyUserOverride**: Authenticated users in the organization, including guest users, can be presenters. This parameter corresponds to the **People in my organization** setting in Teams.
 - **OrganizerOnlyUserOverride**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only me** setting in Teams.
 
-Additionally, you can edit this policy in the Teams admin center. 
+Additionally, you can edit this policy in the Teams admin center.
 
 ![Screenshot of Teams admin center](media/designated-presenter-role.png)
 
@@ -557,7 +557,7 @@ To specify whether users can customize their video background in a meeting, set 
 
 The AllowMeetingReactions setting can only be applied using PowerShell. There is no option to toggle AllowMeetingReactions on or off from the Teams admin center.
 
-Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. 
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
 ## Related topics
 
