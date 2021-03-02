@@ -37,40 +37,24 @@ For more information, see [Use offline messaging in Skype for Business](https://
 
 ## To get you started
 
-## #
+ > [!Note]
+  > Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.
+1. Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+    
+2. Open a Windows PowerShell command prompt and run the following commands: 
 
- **Check that you are running Windows PowerShell version 3.0 or higher**
-
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-
-2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
-
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
-
-4. You will also need to install the Windows PowerShell module for Teams that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online.
-
-If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
-
-## #
-
- **Start a Windows PowerShell session**
-
-1. From the **Start Menu** > **Windows PowerShell**.
-
-2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
-
-   > [!NOTE]
-   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-   >
-   > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
-
-  ```PowerShell
-  Import-Module -Name MicrosoftTeams
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
-  ```
-
+   ```powershell
+   # When using Teams PowerShell Module 1.1.6
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   $sfbSession = New-CsOnlineSession -Credential $userCredential
+   Import-PSSession $sfbSession
+   
+   # When using Teams PowerShell Module 2.0 or later
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
+   ```
 If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ## Turning on or off Offline IM
