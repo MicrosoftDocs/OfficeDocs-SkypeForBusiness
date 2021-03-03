@@ -1,5 +1,5 @@
 ---
-title: Manage teams with policies
+title: Manage Teams with policies
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage teams with policies
+# Manage Teams with policies
 
 Policies are an important part of managing Teams. Use this article to navigate how to use policies to benefit your organization.
 
