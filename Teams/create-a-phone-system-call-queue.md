@@ -53,6 +53,9 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
+> [!NOTE]
+> In a Hybrid scenario, the resource account needs to be created on-premises. For more information, see [Plan Could call queues](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-queue)
+
 ## Greetings and music on hold in queue
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
