@@ -45,13 +45,8 @@ Policy settings can be configured at the time a policy is created, or you can us
 2. Open a Windows PowerShell command prompt and run the following commands: 
 
    ```powershell
-   # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $credential
-   Import-PSSession $sfbSession
+   # When using Teams PowerShell Module 
    
-   # When using Teams PowerShell Module 2.0 or later
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
