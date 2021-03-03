@@ -1287,7 +1287,7 @@ items:
       items:
         - name: Overview
           href: manage-apps.md
-        - name: Manage app policies in Team
+        - name: Manage app policies in Teams
           href: app-policies.md
         - name: View app permissions and grant admin consent
           href: app-permissions-admin-center.md
