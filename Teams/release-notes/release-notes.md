@@ -22,11 +22,6 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
-## March 5, 2021
-
-### Masking phone numbers
-
-We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer), from external people only or have masking disabled. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting. [Learn more](https://docs.microsoft.com/microsoftteams/ptsn-mask-phone-numbers).
 ## March 4, 2021
 
 ### Added supported countries/regions for Live Events
@@ -37,7 +32,7 @@ We have added South Korea, South Africa, Brazil, France, and Switzerland to the 
 
 ### Meeting reactions policy
 
-Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. [Learn more.](meeting-policies-in-teams.md#meeting-policy-settings---meeting-reactions)
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. [Learn more.](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---meeting-reactions)
 
 ## February 11, 2021
 
