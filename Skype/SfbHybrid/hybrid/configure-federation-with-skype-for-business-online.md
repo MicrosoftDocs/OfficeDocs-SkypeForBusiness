@@ -77,13 +77,8 @@ To establish a remote PowerShell session with Teams or Skype for Business Online
   
 After you install the module, you can establish a remote session with the following cmdlets:
    ```powershell
-   # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $credential
-   Import-PSSession $sfbSession
-   
-   # When using Teams PowerShell Module 2.0 or later
+   # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
