@@ -44,13 +44,8 @@ For more information, see [Use offline messaging in Skype for Business](https://
 2. Open a Windows PowerShell command prompt and run the following commands: 
 
    ```powershell
-   # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $userCredential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $userCredential
-   Import-PSSession $sfbSession
-   
-   # When using Teams PowerShell Module 2.0 or later
+   # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
