@@ -1,7 +1,7 @@
 ---
 title: Set your coexistence and upgrade settings
-author: tonysmit
-ms.author: tonysmit
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -69,8 +69,6 @@ You can get a better understanding of the modes that are available to you by rea
 5. Click **Save** after you make your changes.
 
 ### Related topics
-[Upgrade from Skype for Business to Teams — for IT administrators](upgrade-to-teams-on-prem-overview.md)
-
 [Plan the journey](upgrade-plan-journey.md)
 
 [Understand the coexistence and upgrade journey for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

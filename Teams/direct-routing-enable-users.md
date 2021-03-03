@@ -117,7 +117,7 @@ Direct Routing allows you to end the call to a user and send it directly to the 
 
 ## Assign Teams Only mode to users to ensure calls land in Microsoft Teams
 
-Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. For more information, see [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md). If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. For more information, see [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md). If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 ## See also
 
