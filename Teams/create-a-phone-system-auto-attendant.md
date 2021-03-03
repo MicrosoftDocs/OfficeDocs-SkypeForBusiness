@@ -50,7 +50,7 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, select
 
 1. Type a name for the auto attendant in the box at the top.
 
-2. If you want to designate an operator, specify the destination for calls to the operator. This is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
+2. If you want to designate an operator, specify the destination for calls to the operator. This designation is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
 3. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](#call-flow-for-after-hours).
 
