@@ -51,13 +51,8 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
 2. Open a Windows PowerShell command prompt and run the following commands: 
 
    ```powershell
-   # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $userCredential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $userCredential
-   Import-PSSession $sfbSession
+   # When using Teams PowerShell Module
    
-   # When using Teams PowerShell Module 2.0 or later
    Import-Module MicrosoftTeams
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
