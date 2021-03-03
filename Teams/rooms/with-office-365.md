@@ -186,13 +186,8 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
    ``` Powershell
-   # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $credential
-   Import-PSSession $sfbSession
-   
-    # When using Teams PowerShell Module 2.0 or later
+   # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
