@@ -123,7 +123,7 @@ You might want to see the app details to review the information.
 
 ## Reset app details to default
 
-At any time you can reset the app details to the original settings.
+At any time, you can reset the app details to the original settings.
 
 1. Sign in to the Teams admin center.
 
