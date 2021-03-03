@@ -99,13 +99,8 @@ After a resource room mailbox account has been created and enabled as shown prev
 1. Create a Remote PowerShell session. Note that you will need to download [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
   ```powershell
-  # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $credential
-   Import-PSSession $sfbSession
-   
-   # When using Teams PowerShell Module 2.0 or later
+  # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
