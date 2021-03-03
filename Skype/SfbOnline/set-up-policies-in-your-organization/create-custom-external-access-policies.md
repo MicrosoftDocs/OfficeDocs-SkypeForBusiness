@@ -52,13 +52,8 @@ To make this work, the user must be using a supported version of 2016 Click-to-R
     
 2. Open a Windows PowerShell command prompt and run the following commands: 
  ```powershell
-   # When using Teams PowerShell Module 1.1.6
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   $sfbSession = New-CsOnlineSession -Credential $credential
-   Import-PSSession $sfbSession
-   
-   # When using Teams PowerShell Module 2.0 or later
+   # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
