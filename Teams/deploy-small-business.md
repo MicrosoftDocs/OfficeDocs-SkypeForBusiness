@@ -57,7 +57,7 @@ As you think about rolling out teams and channels, you need to decide who should
 You don't need to do anything else for your users to start using chat, teams, and channels. However, there are lots of options for controlling how Teams is used. You can changes now, or wait until you can see how people are using Teams. For more information, check out the following articles:
 
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
-- [Teams settings](enable-features-office-365#teams-settings)
+- [Teams settings](enable-features-office-365.md#teams-settings)
 
 ### Meetings and conferencing
 
