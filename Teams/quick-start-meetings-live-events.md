@@ -14,6 +14,7 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
