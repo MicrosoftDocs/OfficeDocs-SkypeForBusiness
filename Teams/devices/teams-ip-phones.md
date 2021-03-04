@@ -25,9 +25,9 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 # Microsoft Teams certified devices
 
-The Microsoft Teams certification programs ensure that customers using certified desk phones and conference phones will experience high quality audio calls and meetings experience.
+The Microsoft Teams certification programs ensure that customers using certified desk phones and conference phones will experience high-quality audio calls and meetings experience.
 
-Microsoft Teams Certification programs ensure a higher quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. Benefits from Microsoft Teams certified devices include:
+Microsoft Teams Certification programs ensure a higher-quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. Benefits from Microsoft Teams certified devices include:
 
 - Native Teams experience with hardware button integration and LED notifications
 - Calendar integration and one-touch meeting join
@@ -43,8 +43,8 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
 | Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
-| Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued as of 5/11/2020 |
-| Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued as of 5/11/2020 |
+| Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued (5/11/2020) |
+| Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued (5/11/2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
 | Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | January 2020                 |
@@ -105,7 +105,7 @@ The following are the latest Teams phone app and firmware versions.
 
 #### Firmware versions
 
-When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
+When you install a new firmware version on your device, you can determine the corresponding installed versions of the Microsoft Teams app, Company Portal, and Admin Agent. To do this, find the product release in the **Included product release** column, and then look up the product release in the preceding **App versions** table.
 
 | Device model        | Firmware version     | Year/Included product release  |
 |:--------------------|:---------------------|:-------------------------|
@@ -128,8 +128,8 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product versioncode: 216 |
-| Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode: 212|
+| Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
+| Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
 | Update #1  | May 13, 2020 | .040901                     | .4715                  | .210                |
 
 #### Firmware versions
@@ -144,7 +144,7 @@ When you install a new firmware version on your device, you can determine the co
 
 ### Product release information for Teams displays
 
-The following are the latest Teams display app and firmware versions.
+The following are the latest versions for the Microsoft Teams display app and firmware.
 
 #### App versions
 
@@ -170,9 +170,9 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 * * *
 
-If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
-## Additional resources
+## More resources
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
