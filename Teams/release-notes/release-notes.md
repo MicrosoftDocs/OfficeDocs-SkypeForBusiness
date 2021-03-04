@@ -22,12 +22,6 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
-## March 4, 2021
-
-### Added supported countries/regions for Live Events
-
-We have added South Korea, South Africa, Brazil, France, and Switzerland to the list of Live Event supported countries/regions. [Learn more](https://docs.microsoft.com/microsoftteams/teams-live-events/plan-for-teams-live-events).
-
 ## February 18, 2021
 
 ### Meeting reactions policy
