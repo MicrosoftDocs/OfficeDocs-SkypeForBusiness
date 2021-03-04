@@ -71,11 +71,11 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 
  **Looking for prices?** See the following:
   
-- [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
     
-- [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
     
-- [Pricing for Calling Plans](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799763)
     
 ## Related topics
   
