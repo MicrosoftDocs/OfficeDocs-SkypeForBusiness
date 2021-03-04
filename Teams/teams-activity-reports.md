@@ -1,5 +1,5 @@
 ---
-title: Use activity reports for Microsoft Teams
+title: "Use activity reports for Microsoft Teams"
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
