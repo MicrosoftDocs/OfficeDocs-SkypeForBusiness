@@ -2,7 +2,7 @@
 title: View-only meeting experience
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -21,10 +21,10 @@ appliesto:
 # Teams view-only meeting experience
 
 > [!Note]
-> View-only meeting experience will be available in early March 2021.
+> View-only meeting experience will be available in early March 2021. This feature will be enabled on March 1,2021 as default OFF. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> We've temporarily increased view-only experience for 20,000 attendees, but we'll revert support to 10,000 attendees on June 30, 2021.
+> If your meeting or webinar hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year.
 
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience.
 
@@ -37,9 +37,9 @@ We have full Android and iOS mobile support for an attendee to join.
 > [!Note]
 > The current limit for the number of people who can chat and call in to a meeting is 300 in WW and 250 in GCC, GCC High, and DoD.
 
-The view-only experience is enabled by default for any organizer who has E3/E5/A3/A5 SKU. No further configuration or setup is required.
+The view-only experience is disabled by default for any organizer who has E3/E5/A3/A5 SKU. No further configuration or setup is required.
 
-### Disable Teams view-only experience
+## Disable Teams view-only experience
 
 Administrators can disable the view-only experience using PowerShell.
 
@@ -72,8 +72,6 @@ If presenter/attendee roles haven't been set, spaces in the main meeting are fil
 
 ## Impact to meeting presenters
 
-We'll reserve space in the normal meeting for users explicitly indicated as presenters in the meeting options. If a presenter leaves and then later rejoins the meeting, they'll be let into the meeting as a presenter.
-
 Limitations for meeting presenters include:
 
 - You'll have no information about the view-only attendee. We don't support E-discovery for view-only attendees.
@@ -96,7 +94,6 @@ The view-only attendee won't be able to experience the following options in meet
 - Join the meeting if the attendee doesn't have permission to bypass the lobby based on set lobby policies or options.
 - Join the Overflow Room via Audio Conferencing.
 - Join the Overflow Room via Microsoft Teams Room system or via Cloud Video Interop (CVI) services.
-- Join the Overflow Room via the Teams Android mobile app.
 - Share their audio or video.
 - See or participate in the meeting chat.
 - See the video feed of meeting participants unless the participant is the active speaker.
