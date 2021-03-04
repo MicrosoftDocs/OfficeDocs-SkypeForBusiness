@@ -25,9 +25,9 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 # Microsoft Teams certified devices
 
-The Microsoft Teams certification programs ensure that customers using certified desk phones and conference phones will experience high quality audio calls and meetings experience.
+The Microsoft Teams certification programs ensure that customers using certified desk phones and conference phones will experience high-quality audio calls and meetings experience.
 
-Microsoft Teams Certification programs ensure a higher quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. Benefits from Microsoft Teams certified devices include:
+Microsoft Teams Certification programs ensure a higher-quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. Benefits from Microsoft Teams certified devices include:
 
 - Native Teams experience with hardware button integration and LED notifications
 - Calendar integration and one-touch meeting join
@@ -105,7 +105,7 @@ The following are the latest Teams phone app and firmware versions.
 
 #### Firmware versions
 
-When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
+When you install a new firmware version on your device, you can determine the corresponding installed versions of the Microsoft Teams app, Company Portal, and Admin Agent. To do this, find the product release in the **Included product release** column, and then look up the product release in the preceding **App versions** table.
 
 | Device model        | Firmware version     | Year/Included product release  |
 |:--------------------|:---------------------|:-------------------------|
@@ -172,7 +172,7 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
-## Additional resources
+## More resources
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
