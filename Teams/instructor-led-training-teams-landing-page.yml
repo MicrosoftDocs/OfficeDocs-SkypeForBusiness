@@ -1,8 +1,7 @@
 ### YamlMime:Hub
 
 title: Instructor-led training for Microsoft Teams # < 60 chars
-summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Not sure where to begin? Take our Teams knowledge check. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end-user training. Click a session below to sign up.
-
+summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end-user training. Click a session below to sign up.
 
 metadata:
   title: Instructor-led training for Microsoft Teams # Required; page title displayed in search results. Include the brand. < 60 chars.
@@ -19,7 +18,7 @@ highlightedContent:
   items:
     # Card
     - title: Say hello to Microsoft Teams
-      itemType: whats-new
+      itemType: overview
       url: https://aka.ms/SayhelloTeams
     # Card
     - title: On-demand end-user training
@@ -40,12 +39,12 @@ productDirectory:
       url: https://aka.ms/GetstartedwithMSTeams
     # Card
     - title: Use chat and calling in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
+      imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
       summary: 'Learn how to manage all your conversations from one central platform. (Audience: Everyone)'
       url: https://aka.ms/ChatCallingInTeams
     # Card
     - title: Run effective meetings with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/tasks-teams.svg
+      imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
       summary: 'Learn how to make your meetings more engaging, productive, and meaningful. (Audience: Everyone)'
       url: https://aka.ms/RunmeetingsTeams
     # Card
@@ -55,12 +54,12 @@ productDirectory:
       url: https://aka.ms/TeamsandchannelsinTeams
     # Card
     - title: Build collaborative workspaces in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+      imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
       summary: 'Explore ways to determine the best approach for creating workspaces for projects and workgroups. (Audience: Everyone)'
       url: https://aka.ms/CollaborateInTeams
     # Card
     - title: Leverage pro tips in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+      imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
       summary: 'Learn how Teams can help organize your workday and make it easier to stay connected with colleagues. (Audience: Everyone)'
       url: https://aka.ms/TeamsProTips
     # Card
