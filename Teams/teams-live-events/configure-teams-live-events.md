@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 description: Learn how to manage settings for Teams live events that are held in your organization.
 f1.keywords:
