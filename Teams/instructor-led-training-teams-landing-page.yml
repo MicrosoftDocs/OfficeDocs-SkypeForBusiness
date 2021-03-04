@@ -2,6 +2,8 @@
 
 title: Instructor-led training for Microsoft Teams # < 60 chars
 summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end-user training. Click a session below to sign up.
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: teams
 
 metadata:
   title: Instructor-led training for Microsoft Teams # Required; page title displayed in search results. Include the brand. < 60 chars.
