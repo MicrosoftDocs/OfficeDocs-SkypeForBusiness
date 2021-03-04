@@ -1,5 +1,5 @@
 ---
-title: Call and chat with users from other organizations
+title: Use guest access and external access to collaborate with people outside your organization
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,7 +20,7 @@ localization_priority: Priority
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access (federation) and guest access.
 ---
 
-# Call, chat, and collaborate with people outside your organization in Microsoft Teams
+# Use guest access and external access to collaborate with people outside your organization
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams has two options:
 
