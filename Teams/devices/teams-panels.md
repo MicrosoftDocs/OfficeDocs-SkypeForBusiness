@@ -86,7 +86,7 @@ While the ordered devices are being delivered to your organization, work with yo
 Our recommendations for Teams panels sites are:
 
 - Dedicated resource accounts
-- Power supply (Panels generally support Power over ethernet plus (PoE+) for power. Refer to the OEM documentation for any device specific power requirements.)
+- Power supply (Panels generally support Power over ethernet plus (PoE+) for power. Refer to the OEM documentation for any device-specific power requirements.)
 - Quality of Service (QoS) enabled on the network for Microsoft Teams
 
 For physical installation considerations, see the OEM documentation and, if you have one, use the experience of your audio-visual team before you install and mount devices and run cabling.
@@ -111,6 +111,8 @@ For information on how to create a resource account and assign a license to it, 
 >- If you already have a room resource account set up for the meeting space where you're installing panels, use the same room resource account to sign in to the panels device. However, make sure that the room resource account has the Microsoft Teams Rooms Standard license assigned to it in order to use it as panels resource account.
 >
 >- If you already have a Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then the resource account already has the [Microsoft Teams Rooms license](../rooms/rooms-licensing). In such cases, you don't need to purchase a separate Microsoft Teams Rooms Standard license for deploying panels. The admin signs in to the panels device with the same credentials as the Microsoft Teams Rooms for the same space.
+>
+>- For large meeting spaces, such as board rooms or conference rooms, with multiple entrances, you can mount one panels device at each entrance. Multiple panels that belong to a single meeting space share the same resource account and sign in with the same credentials. You don't need to create separate resource accounts for each panels for the same space.
 
 > [!TIP]
 > It is recommended to create the resource account well in advance of the actual Teams panels installation.
