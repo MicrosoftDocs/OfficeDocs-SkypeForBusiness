@@ -43,8 +43,8 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
 | Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
-| Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued as of 5/11/2020 |
-| Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued as of 5/11/2020 |
+| Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued (5/11/2020) |
+| Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued (5/11/2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
 | Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | January 2020                 |
@@ -128,8 +128,8 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product versioncode: 216 |
-| Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode: 212|
+| Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
+| Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
 | Update #1  | May 13, 2020 | .040901                     | .4715                  | .210                |
 
 #### Firmware versions
@@ -144,7 +144,7 @@ When you install a new firmware version on your device, you can determine the co
 
 ### Product release information for Teams displays
 
-The following are the latest Teams display app and firmware versions.
+The following are the latest versions for the Microsoft Teams display app and firmware.
 
 #### App versions
 
@@ -170,7 +170,7 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 * * *
 
-If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 ## More resources
 
