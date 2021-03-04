@@ -318,7 +318,7 @@ For users on Teams mobile clients, the ability to share photos and videos during
 
 ### Media bit rate (Kbs)
 
-Media bit rate is a per-user policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
+This is a per-user policy. This setting determines the total average media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
 
 If there isn't enough bandwidth for a meeting, participants see a message that indicates poor network quality.
 
@@ -434,6 +434,10 @@ Let's look at the following example.
 |Amanda   | Location1MeetingPolicy | Off |
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="bkmeetingparticipants"> </a>
+<!-- Do not remove the bookmark link above. -->
 
 ## Meeting policy settings - Participants & guests
 
