@@ -34,7 +34,7 @@ Client policy settings can be configured at the time a policy is created, or you
   
 ### Start Windows PowerShell
 
- > [!Note]
+> [!NOTE]
   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.
 1. Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
