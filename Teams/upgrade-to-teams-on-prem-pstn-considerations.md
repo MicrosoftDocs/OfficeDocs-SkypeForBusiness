@@ -1,5 +1,5 @@
 ---
-title: PSTN considerations when upgrading to Teams from a Skype for Business on-premises deployment
+title: PSTN considerations when upgrading to Teams from Skype for Business
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -26,7 +26,7 @@ This article describes Public Switched Telephone Network (PSTN) considerations w
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 
-- [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+- [Coexistence of Teams and Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 

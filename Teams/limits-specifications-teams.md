@@ -31,14 +31,14 @@ This article describes some of the limits, specifications, and other requirement
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of teams a user can be a member of|1,000&sup2;|
-|Number of members in a team | 10,000<sup>6</sup>     |
+|Number of members in a team | 25,000<sup>6</sup>     |
 |Number of owners per team | 100   |
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup3;     |
-|Number of channels per team    | 200 (includes deleted channels)&sup4;         |
-|Number of Private channels per team    |30| (includes deleted channels)&sup4;
+|Number of channels per team    | 200 (includes deleted channels)<sup>4</sup>        |
+|Number of Private channels per team    |30 (includes deleted channels)<sup>4</sup>        |
 |Number of members in a Private channel    |250|
 |Maximum size of distribution list, security group or Office 365 group that can be imported in to a team    |3,500|
 |Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>6</sup>     |
@@ -54,7 +54,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>5</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
-<sup>6</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+<sup>6</sup> Teams in GCC can accommodate 25,000 members but teams in GCCH/DoD can only accommodate 2,500 members. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
 ## Messaging
 
@@ -105,7 +105,7 @@ Channel names can't contain the following characters or words:
 
 |Type|Example|
 |---------|---------|
-|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
+|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , ..        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
 |Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
@@ -126,13 +126,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300 |
-|Number of people in a video or audio call started from the chat tab | 20 |
-|Max PowerPoint File Size | 2 GB|
+|Number of people in a meeting (can chat and call in)  | 300. **View-only** allows for up to 10,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU.<br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow. Learn more about the [View-only experience](view-only-meeting-experience.md).|
+|Number of people in a video or audio call from chat | 20 |
+|Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ### Meeting expiration
 

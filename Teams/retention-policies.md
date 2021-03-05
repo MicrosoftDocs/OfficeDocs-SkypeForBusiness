@@ -1,5 +1,5 @@
 ---
-title: Retention policies in Microsoft Teams 
+title: Manage retention policies for Microsoft Teams 
 author: cabailey
 ms.author: cabailey
 ms.reviewer: 
@@ -21,7 +21,12 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-# Retention policies in Microsoft Teams
+# Manage retention policies for Microsoft Teams
+
+> [!NOTE]
+> If you are seeing a message in Teams that your chats or messages have been deleted by a retention policy, see [Teams messages about retention policies](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
+> 
+> The information on this page is for IT administrators who manage these retention policies.
 
 Retention policies and retention labels from Microsoft 365 help you to more effectively manage the information in your organization. You can configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal needs. You can also configure retention settings to delete data that's considered a liability, that you're no longer required to keep, or that has no legal or business value.
 
@@ -31,9 +36,11 @@ To learn more about retention, and how you can apply retention settings by using
 
 The minimum licensing requirement for retention policies for Teams is Microsoft 365 E3. To learn more about licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
-## How Teams retention policies work
+## How Teams retention/deletion policies work
 
-Teams chat messages are stored in a hidden folder in the mailbox of each user included in the chat, and Teams channel messages are stored in a similar hidden folder in the group mailbox for the team. To retain messages that are subject to a retention policy, a copy of the content is automatically kept in a hidden folder named **SubstrateHolds** as a subfolder in the Exchange **Recoverable Items** folder. Until these messages are permanently deleted from the SubstrateHolds folder, they remain searchable by eDiscovery tools.
+Teams chat messages are stored in two locations. Primary copy is stored in Azure, a secondary copy, that is used for compilance policies, is stored in a hidden folder in the Exchange online mailbox of each user included in the chat, and Teams channel messages are stored in a similar hidden folder in the group mailbox for the team. When a chat message deletion policy is applied to a user or Team, secondary copy is deleted first, followed by primary copy. eDiscovery or Teams search is based off of messages stored in secondary copy and hence messages become non discoverable when secondary copy is deleted. 
+
+When a chat message retention poilcy is applied to a user or Team, and if the messages are deleted (either due to another deletion policy or by user themselves), the primary copy is deleted, hence Teams client will see the message disappear, but secondary copy is automatically moved to a hidden folder named **SubstrateHolds** , which is as a subfolder in the Exchange **Recoverable Items** folder. Until these messages are permanently deleted from the SubstrateHolds folder, they remain searchable by eDiscovery tools.
 
 For detailed information about what's included and excluded for Teams retention policies, and how these policies work depending on your policy configuration, see [Learn about retention for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams).
 
@@ -62,22 +69,23 @@ That page has additional information about creating and managing retention polic
 
 ## End user experience
 
-For private chats (1:1 chats) or group chats, the end users will see that chats older than the retention policy configuration are deleted and a control message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages.
+For private chats (1:1 chats) or group chats, users will see that chats older than the retention policy configuration are deleted and an automatically generated message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages. For example:
 
 :::image type="content" source="media/retention-policies-image1.png" alt-text="User informed in Teams that chat message are deleted because of a Teams retention policy":::
 
 
 :::image type="content" source="media/retention-policies-image2.png" alt-text="User in Teams explaining messages are deleted as a result of a Teams retention policy":::
 
-For Channel messages, the end users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed.
+For Channel messages, users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed. For example:
 
 :::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot of channel before retention":::
 
 :::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot of channel after retention":::
 
 > [!NOTE]
-> The displayed messages that end users see as a result of deleted messaging are not configurable at this time.
+> The displayed messages that users see as a result of deleted messages are not configurable at this time.
 
+The links in these displayed messages go to [Teams messages about retention policies](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). This documentation for end users helps to answer basic questions about why their messages have been deleted. However, as part of your retention policy deployment, make sure that you communicate to users and your help desk the impact of your configured settings.
 
 ## Related topics
 
