@@ -37,7 +37,7 @@ For more information, see [Use offline messaging in Skype for Business](https://
 
 ## To get you started
 
- > [!Note]
+> [!NOTE]
 > Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.
 1. Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
@@ -94,4 +94,3 @@ To enable or disable Offline Messages send Offline Messages for a user, set  _En
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
-
