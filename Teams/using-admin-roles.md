@@ -63,7 +63,7 @@ You can assign users to these roles in Azure AD. To learn how to assign administ
 
 Most of the PowerShell tools for these admin roles live in the Teams PowerShell module, and it's important to note that some of the cmdlets that these admin roles have access to control shared settings that are also used for Skype for Business Online. 
 
-To view the full list of cmdlets, follow these steps:
+To view the full list of cmdlets:
 
 ```powershell
 Get-Command -Module MicrosoftTeams
@@ -74,4 +74,3 @@ Get-Command -Module MicrosoftTeams
 - [Microsoft Teams PowerShell Overview](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 - [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
-
