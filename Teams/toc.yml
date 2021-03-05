@@ -509,8 +509,6 @@ items:
           href: general-teams-templates-in-the-admin-console.md
         - name: Manufacturing category Teams templates
           href: manufacturing-teams-templates-in-the-admin-console.md
-        - name: Create and manage template policies
-          href: templates-policies.md
     - name: Communicate with external users
       items: 
         - name: Communicate with users from other organizations
