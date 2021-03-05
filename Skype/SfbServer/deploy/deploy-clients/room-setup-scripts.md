@@ -42,7 +42,7 @@ Make sure you've reviewed the following prerequisites before running the script:
     
 - Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)
     
-- Teams  PowerShell Module
+- Teams PowerShell Module
     
 - Reboot if needed
     
@@ -69,5 +69,4 @@ Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registra
 Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
 # If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
 ```
-
 
