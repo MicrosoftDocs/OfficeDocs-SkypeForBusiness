@@ -65,7 +65,7 @@ PowerShell example provided at [Set-CsOnlineVoiceUser](https://docs.microsoft.co
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 9. Click **Save**.
 
-PowerShell example provided at [Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+For a PowerShell example, please see [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
 ## Remove a phone number from a user
  
