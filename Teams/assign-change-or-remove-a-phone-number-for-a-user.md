@@ -91,4 +91,4 @@ PowerShell example provided at [Set-CsOnlineVoiceUser](https://docs.microsoft.co
 
 [Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
-[Calling Plans for Microsoft 365](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365)
+[Calling Plans for Microsoft 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)
