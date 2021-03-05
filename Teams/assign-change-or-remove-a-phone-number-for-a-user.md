@@ -77,7 +77,7 @@ PowerShell example provided at [Set-CsOnlineVoiceUser](https://docs.microsoft.co
 4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
 5. Click **Save**.
 
-PowerShell example provided at [Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+For a PowerShell example, please see [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
 ## Related topics
 
