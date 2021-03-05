@@ -32,7 +32,7 @@ Provision the device by imprinting a MAC address on it.
 2. Expand **Devices**.
 3. Select **Provision new device** from the **Actions** tab.
 
-![Provision new device option from the Actions tab](../media/provision-new-device.png)
+   ![Provision new device option from the Actions tab](../media/provision-new-device.png)
 
 In the **Provision new devices** window, you can either add the MAC address manually or upload a file.
 
@@ -66,27 +66,27 @@ When the device is powered on and connected to the network, the technician provi
 
 1. The technician selects **Provision device** from the **Settings**.  
 
-  ![Provision new device option from the Actions tab](../media/provision-device.png)
+   ![Provision new device option from the Actions tab](../media/provision-device.png)
   
 2. The technician enters the device-specific verification code in the provided input field.
 
-  ![Provision new device verification](../media/provision-device-verification.png)
+   ![Provision new device verification](../media/provision-device-verification.png)
 
- Once the device is provisioned successfully, the tenant name appears on the sign-in page.
+   Once the device is provisioned successfully, the tenant name appears on the sign-in page.
 
 ## Sign in remotely
 
 The provisioned device appears in the **Awaiting sign in** tab. Start the remote sign-in process by selecting the individual device.
 
- ![The window to choose a device for sign in.](../media/remote-provision-6.png)
+![The window to choose a device for sign in.](../media/remote-provision-6.png)
 
 1. Select a device from the **Awaiting sign in** tab.
 
-![The window with a list of devices ready for sign in.](../media/remote-device-1.png)
+   ![The window with a list of devices ready for sign in.](../media/remote-device-1.png)
 
-1. Follow the instructions in **Sign in a user**, and then select **Close**.
+2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
-![the Sign in a user window for individual device](../media/sign-in-user.png)
+   ![the Sign in a user window for individual device](../media/sign-in-user.png)
 
 ## Related article
 
