@@ -24,7 +24,7 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 # Assign, change, or remove a phone number for a user (Calling Plans)
 
-When you set up Calling Plans, you assign phone numbers to your users. In Microsoft Teams, the phone number you assign is listed when a user clicks **Calls**. If you're looking for instructions to assign, change or remove a phone number from a user for a Direct Routing scenario, please consult [Enable users for Direct Routing, voice, and voicemail](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-enable-users).
+When you set up Calling Plans, you assign phone numbers to your users. In Microsoft Teams, the phone number you assign is listed when a user clicks **Calls**. For instructions to assign, change, or remove a phone number from a user in a Direct Routing scenario, please see [Enable users for Direct Routing, voice, and voicemail](https://docs.microsoft.com/microsoftteams/direct-routing-enable-users).
 
 ![User's phone number displayed in Teams.](media/teams-phone-number.png)
 
