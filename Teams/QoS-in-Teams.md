@@ -159,27 +159,20 @@ If you've previously deployed Skype for Business Online, including QoS tagging a
 **Set QoS for audio**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000
--IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000 -IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
 ```
 
 **Set QoS for video**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020
--IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
 ```
 
 **Set QoS for sharing**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040
--IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 ```
-
-
-> [!TIP]
-> The copy feature copies the text with a line return, which makes the command fail when pasted into a PowerShell terminal window. As a workaround, delete the line return to ensure the copy/paste feature works properly.
 
 ## Managing source ports in the Teams admin center
 
