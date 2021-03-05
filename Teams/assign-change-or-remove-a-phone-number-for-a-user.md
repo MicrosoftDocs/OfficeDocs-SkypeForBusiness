@@ -89,6 +89,6 @@ PowerShell example provided at [Set-CsOnlineVoiceUser](https://docs.microsoft.co
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
 [Calling Plans for Microsoft 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)
