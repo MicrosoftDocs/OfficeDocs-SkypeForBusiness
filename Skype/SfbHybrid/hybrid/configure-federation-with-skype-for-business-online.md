@@ -73,14 +73,16 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > The SharedSipAddressSpace attribute needs to remain "True" until moving to online is final, and no users remain on-premises. 
   
-To establish a remote PowerShell session with Teams or Skype for Business Online, you first need to install the Skype for Business Online connector module for Windows PowerShell, which you can get [here](https://go.microsoft.com/fwlink/p/?LinkId=391911).
+To establish a remote PowerShell session with Teams or Skype for Business Online, you first need to install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
   
 After you install the module, you can establish a remote session with the following cmdlets:
-  
-```PowerShell
-$cred = Get-Credential
-Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
-```
+   ```powershell
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
 
 For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
