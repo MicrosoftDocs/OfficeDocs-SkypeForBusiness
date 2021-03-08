@@ -64,7 +64,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
 
-| Device model | Firmware version | Release date  | Room size (up to)/Compatibility                                         |
+| Device model | Firmware version | Release date  | Room size                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Medium size room (4.5m x 6m) |
 | Yealink CTP18 touch console  | 137.15.0.28    | March 2021 | Compatible with MeetingBar A20 and MeetingBar A30 |
