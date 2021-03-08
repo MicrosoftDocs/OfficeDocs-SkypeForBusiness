@@ -24,11 +24,11 @@ description: "You can enable your Skype for Business users to use the built-in S
 
 You can enable your Skype for Business Online users to use the built-in Skype for Business app feedback tool to let users report issues and provide feedback directly to Microsoft about their experience. 
   
-![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![Provide Feedback icon](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 Using this tool, a user can copy the logs from the app on their device to help Microsoft better investigate and troubleshoot problems that they might have. 
   
-![Skype for Business client reporting.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Report a problem using Settings icon](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 You can also use the  _EnableOnlineFeedbackScreenshot_ setting so users can include a screenshot of their device as a part of their feedback.
   

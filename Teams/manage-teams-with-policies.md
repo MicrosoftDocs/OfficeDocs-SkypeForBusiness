@@ -1,5 +1,5 @@
 ---
-title: Manage teams with policies
+title: Manage Teams with policies
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
 search.appverid: 
-description: 
+description: Lean about Teams policies.
 audience: admin
 localization_priority: Normal
 MS.collection: 
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage teams with policies
+# Manage Teams with policies
 
 Policies are an important part of managing Teams. Use this article to navigate how to use policies to benefit your organization.
 
@@ -67,5 +67,6 @@ Policy type | Description
 
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
+* [View policy assignments in the Activity Log](activity-log.md)
 * [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams for Education policies and policy packages](policy-packages-edu.md)

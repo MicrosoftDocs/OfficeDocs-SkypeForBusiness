@@ -319,16 +319,12 @@ items:
 
     - name: Manage policies
       items:
+        - name: Overview
+          href: manage-teams-with-policies.md
         - name: Assign policies to your users
           href: assign-policies.md
         - name: View your policy assignments in the Activity log
           href: activity-log.md
-        - name: Manage app permission policies in Teams
-          href: teams-app-permission-policies.md
-        - name: Manage app setup policies in Teams
-          href: teams-app-setup-policies.md
-        - name: Manage custom app policies and settings in Teams
-          href: teams-custom-app-policies-and-settings.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
@@ -513,8 +509,6 @@ items:
           href: general-teams-templates-in-the-admin-console.md
         - name: Manufacturing category Teams templates
           href: manufacturing-teams-templates-in-the-admin-console.md
-        - name: Create and manage template policies
-          href: templates-policies.md
     - name: Communicate with external users
       items: 
         - name: Communicate with users from other organizations
@@ -563,6 +557,12 @@ items:
       items: 
         - name: Overview
           href: rooms/index.md
+        - name: Microsoft Teams Rooms managed service
+          items: 
+            - name: Plan management
+              href: rooms/microsoft-teams-rooms-premium.md
+            - name: Role-based access control
+              href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Plan
           items: 
             - name: Overview of Microsoft Teams Rooms planning
@@ -581,12 +581,6 @@ items:
               href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
-            - name: Microsoft Teams Rooms managed service
-              items: 
-                - name: Plan management with the Microsoft Teams Rooms managed service
-                  href: rooms/microsoft-teams-rooms-premium.md
-                - name: Role-based access control with the Microsoft Teams Rooms managed service
-                  href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Deploy
           items: 
             - name: Deployment overview
@@ -784,6 +778,8 @@ items:
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
+    - name: Manage voice and calling policies in Teams
+      href: voice-and-calling-policies.md
     - name: Phone System
       items: 
         - name: What is Phone System
@@ -1289,7 +1285,9 @@ items:
       items:
         - name: Overview
           href: manage-apps.md
-        - name: View app permissions and grant admin consent in the Microsoft Teams admin center
+        - name: Manage app policies in Teams
+          href: app-policies.md
+        - name: View app permissions and grant admin consent
           href: app-permissions-admin-center.md
         - name: Resource-specific consent
           href: resource-specific-consent.md
@@ -1303,6 +1301,12 @@ items:
           href: Office-365-custom-connectors.md
         - name: Teams apps behavior for non-standard users
           href: non-standard-users.md
+        - name: Manage app permission policies in Teams
+          href: teams-app-permission-policies.md
+        - name: Manage app setup policies in Teams
+          href: teams-app-setup-policies.md
+        - name: Manage custom app policies and settings in Teams
+          href: teams-custom-app-policies-and-settings.md
 
 - name: Industries and government guidance
   items: 
@@ -1341,6 +1345,8 @@ items:
           href: manage-lists-app.md
         - name: Manage the Tasks app
           href: manage-tasks-app.md
+        - name: Manage the Approvals app
+          href: approval-admin.md
         - name: Shifts for Teams
           items: 
             - name: Shifts for Teams
