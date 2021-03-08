@@ -143,7 +143,7 @@ To learn more, see [Manage the Tasks app for your organization in Microsoft Team
 
 Use [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) to streamline all of your requests and processes with your team. Create, manage, and share approvals directly from your hub for teamwork. Start an approval flow from the same place you send a chat, in a channel conversation, or from the Approvals app itself. Just select an approval type, add details, attach files, and choose approvers. Once submitted, approvers are notified and can review and act on the request.
 
-You can allow the Approvals app for your organization and add it to your teams. To learn more about managing apps, see [Manage your apps in the Microsoft Teams admin center](../../manage-apps.md).
+You can allow the Approvals app for your organization and add it to your teams. To learn more, see [Teams Approvals app availability](../../approval-admin.md).
 
 ### Create, manage, and share schedules with the Shifts app and Frontline Worker integration
 
