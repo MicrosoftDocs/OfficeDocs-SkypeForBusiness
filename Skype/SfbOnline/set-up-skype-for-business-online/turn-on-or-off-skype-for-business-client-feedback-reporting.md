@@ -56,7 +56,7 @@ You can also use the  _EnableOnlineFeedbackScreenshot_ setting so users can incl
    
 ## Turn on client app feedback reporting for all the users in your organization
 
-To enable feedback reporting for users in your organization and allow them to submit device screen shots, run:
+To enable feedback reporting for users in your organization and allow them to submit device screenshots, run:
  
   ```PowerShell
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
