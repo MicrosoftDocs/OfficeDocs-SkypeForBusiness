@@ -22,6 +22,54 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## February 18, 2021
+
+### Meeting reactions policy
+
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. [Learn more.](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---meeting-reactions)
+
+## February 11, 2021
+
+### View-only meeting experience
+
+Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience. [Learn more](../view-only-meeting-experience.md).
+
+## January 27, 2021
+
+### Virtual visits with Teams - Integration into EHR
+
+We've updated the interface for Microsoft Teams Electronic Health Record (EHR) Connector, and connector that makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+
+## January 22, 2021
+
+### Firstline Workers are now called Frontline Workers
+
+We've changed the title of Firstline Workers to Frontline Workers.
+
+## January 21, 2021
+
+### Offline documentation
+
+Teams keeps running even when you're offline or running in low bandwidth conditions. Teams saves all your unsent messages for existing chats (for up to 24 hours) and sends them as soon as you're back online. [Learn more](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+
+## January 19, 2021
+
+### Teams Approvals app availability
+
+The Approvals app is available as a personal app for all Microsoft Teams users. The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams. [Learn more](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+
+## January 15, 2021
+
+### Set up Microsoft Teams meeting add-on for Google Workspace
+
+The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app. [Learn more](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
+
+## January 4, 2021
+
+### Calendar sharing
+
+We added the ability to add a channel to a calendar tab.
+
 ## December 21, 2020
 
 ### Supported rate centers and coverage for Calling Plans
