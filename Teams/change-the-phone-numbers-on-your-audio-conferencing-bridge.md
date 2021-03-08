@@ -99,7 +99,7 @@ When you unassign a phone number from a conferencing bridge, users won't be able
 
 If the phone number is removed without updating the users and their meetings, their existing meeting invites could contain a phone number that won't work for joining their meetings.
 
-For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md##about-windows-powershell)
+For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
 
 ### Step 1 - Update users who have the phone number to be unassigned as one of their default numbers
 
