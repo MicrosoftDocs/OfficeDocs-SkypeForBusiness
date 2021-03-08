@@ -75,6 +75,13 @@ The following cmdlet sequence can be used to move a user to TeamsOnly, and assum
   Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
   ```
 
+> [!TIP]
+> As there are different circumstances requiring different parameters, the default command for most cases is:
+
+```powershell
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -UseOAuth -HostedMigrationOverrideUrl $url
+```
+
 ### Move to Teams using Skype for Business Server Control Panel
 
 1. Open the Skype for Business Server Control Panel app.
