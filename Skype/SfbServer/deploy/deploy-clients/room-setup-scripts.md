@@ -18,7 +18,7 @@ description: "Read this topic to find sample scripts for provisioning Skype Room
  
 Read this topic to find sample scripts for provisioning Skype Room System accounts.
   
-This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.
+This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are only for illustrative purposes. They should be used only after you consult with your IT expert or domain administrator.
   
 ## Example Setup Script: Skype for Business and Exchange Server (On Premises)
 
