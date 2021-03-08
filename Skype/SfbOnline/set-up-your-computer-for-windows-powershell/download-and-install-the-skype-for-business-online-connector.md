@@ -40,6 +40,3 @@ description: Download, install, and then use the Skype for Business Online Conne
   
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
-
-  
- 
