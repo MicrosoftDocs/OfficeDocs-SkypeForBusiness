@@ -18,7 +18,6 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to manage Teams templates in the admin center
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Create and manage Teams templates in the admin center
