@@ -93,6 +93,9 @@ Users of Direct Routing must have the following licenses assigned in Microsoft 3
 
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
+> 
+> [!IMPORTANT]
+> GCC High or DoD customers should disable any Audio Conferecning licensing included in G5 and wait to enable any Audio Conferencing for their users until Direct Routing has been fully configured.  Users should have dial-in phone numbers configured and a working dial pad before enabling Audio Conferencing licenses. See also: https://docs.microsoft.com/en-us/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod
 
 
 > [!IMPORTANT]
