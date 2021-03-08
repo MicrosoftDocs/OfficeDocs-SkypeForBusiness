@@ -557,6 +557,12 @@ items:
       items: 
         - name: Overview
           href: rooms/index.md
+        - name: Microsoft Teams Rooms managed service
+          items: 
+            - name: Plan management
+              href: rooms/microsoft-teams-rooms-premium.md
+            - name: Role-based access control
+              href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Plan
           items: 
             - name: Overview of Microsoft Teams Rooms planning
@@ -575,12 +581,6 @@ items:
               href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
-            - name: Microsoft Teams Rooms managed service
-              items: 
-                - name: Plan management with the Microsoft Teams Rooms managed service
-                  href: rooms/microsoft-teams-rooms-premium.md
-                - name: Role-based access control with the Microsoft Teams Rooms managed service
-                  href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Deploy
           items: 
             - name: Deployment overview
