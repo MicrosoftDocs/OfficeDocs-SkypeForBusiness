@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: This article describes the how Kaizala complements the capabilities of Microsoft Teams.
+description: This article describes how to deploy and implement Teams.  
 f1.keywords:
 localization_priority: Normal
 search.appverid:
@@ -19,7 +19,7 @@ ms.custom:
 
 ## Overview 
 
-After taking the time to plan and prepare for your organization’s move from Kaizala to Microsoft Teams, it’s time to deploy and implement Teams.  
+After taking the time to plan and prepare for your organization’s move from Kaizala to Microsoft Teams, it’s time to deploy and implement Teams.
  
 1. For organizations **already using Microsoft Teams**, this article is part of Deployment and Implementation stage of your journey from Kaizala to Microsoft Teams.  
 
@@ -43,9 +43,9 @@ After taking the time to plan and prepare for your organization’s move from Ka
    
       1. First, move your chat groups to Microsoft Teams.  
     
-      2. Next, leverage apps in Teams to replace Kaizala action cards. 
+      2. Next, use apps in Teams to replace Kaizala action cards. 
     
-      3. To ensure that frontline workers are equipped, upgrade to Teams Frontline Worker functionality.  For a quick start guide on Teams Frontline Worker, see [Frontline Worker Quick Start Guide](https://docs.microsoft.com/en-us/microsoftteams/flw-quickstart).  
+      3. To ensure that frontline workers are equipped, upgrade to Teams Frontline Worker functionality.  For a quick start guide on Teams Frontline Worker, see [Frontline Worker Quick Start Guide](https://docs.microsoft.com/microsoftteams/flw-quickstart).  
     
       4. Consider Onboarding suppliers and partners to invite as guests in Teams.  
   
@@ -55,7 +55,7 @@ After taking the time to plan and prepare for your organization’s move from Ka
  
 2. For organizations **not yet using Microsoft Teams**, this article is part of Deployment and Implementation stage of your journey from Kaizala to Microsoft Teams.  
 
-   Follow the guidance in this section, if you are using Kaizala and want to move your users from Kaizala to Microsoft Teams.
+   Follow the guidance in this section, if you're using Kaizala and want to move your users from Kaizala to Microsoft Teams.
    
    **Before proceeding, confirm that you've completed the following activities**: 
    
@@ -89,11 +89,11 @@ After taking the time to plan and prepare for your organization’s move from Ka
 
    - **Manage change** 
    
-     Prepare your organization for change through end user training to drive adoption. IT Admins and Champions can drive efforts to influence positive change management on the move.  
+     Prepare your organization for change through end-user training to drive adoption. IT Admins and Champions can drive efforts to influence positive change management on the move.  
 
    - **Plan for your adoption of Teams**
 
-     Prepare to move custom solutions from Kaizala to Teams e.g. Custom Action cards. 
+     Prepare to move custom solutions from Kaizala to Teams, for example, Custom Action cards. 
      
    - **Move your organization to Teams** 
    
