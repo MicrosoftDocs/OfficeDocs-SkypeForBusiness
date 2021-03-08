@@ -42,11 +42,12 @@ If you have a policy with special characters, you will need to either edit the p
 >
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
-```PowerShell
- Import-Module -Name MicrosoftTeams
- $credential = Get-Credential
- $session = New-CsOnlineSession -Credential $credential
- Import-PSSession $session
+```powershell
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 
