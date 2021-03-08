@@ -154,7 +154,7 @@ Skype for Business Online PowerShell is used to manage services for both Microso
 3. To enable your Microsoft Teams Rooms account, run this command:
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
    If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing user using this command:
