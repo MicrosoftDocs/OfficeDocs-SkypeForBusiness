@@ -509,8 +509,6 @@ items:
           href: general-teams-templates-in-the-admin-console.md
         - name: Manufacturing category Teams templates
           href: manufacturing-teams-templates-in-the-admin-console.md
-        - name: Create and manage template policies
-          href: templates-policies.md
     - name: Communicate with external users
       items: 
         - name: Communicate with users from other organizations
@@ -1347,6 +1345,8 @@ items:
           href: manage-lists-app.md
         - name: Manage the Tasks app
           href: manage-tasks-app.md
+        - name: Manage the Approvals app
+          href: approval-admin.md
         - name: Shifts for Teams
           items: 
             - name: Shifts for Teams
