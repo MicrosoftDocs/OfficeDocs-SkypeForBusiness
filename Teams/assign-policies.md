@@ -432,8 +432,6 @@ A policy package in Teams is a collection of predefined policies and policy sett
 
 ## Assign a policy package to a group
 
-**This feature is in private preview**
-
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
 Policy package assignment to groups is recommended for groups of up to 50,000 users, but it will also work with larger groups.
