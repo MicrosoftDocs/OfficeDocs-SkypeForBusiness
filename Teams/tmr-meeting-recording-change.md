@@ -69,26 +69,25 @@ The meeting recording option is a setting at the Teams policy level. The followi
 > [!Note]
 > Teams meeting policy changes take awhile to propagate. Check back after a few hours of setting it, then sign out and sign in again.
 
-1. Install Skype For Business Online PowerShell.
+1. Install Teams PowerShell PowerShell.
 
    > [!NOTE]
    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector. See [Manage Skype for Business Online with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
-    1. Download [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+1. Launch PowerShell as an admin.
 
-    1. Follow the prompts to install it.
+2. Install [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
 
-    1. Restart your machine.
+3. Import the MicrosoftTeams module and sign in as a Teams admin.
 
-2. Launch PowerShell as an admin.
 
-3. Import the SkypeOnline Connector and sign in as a Teams admin.
+```powershell
+  # When using Teams PowerShell Module
 
-   ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 4. Use [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
 

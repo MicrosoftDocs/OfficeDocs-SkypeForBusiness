@@ -186,9 +186,11 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess = New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
    Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
