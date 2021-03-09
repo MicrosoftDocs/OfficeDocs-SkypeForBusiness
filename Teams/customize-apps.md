@@ -135,7 +135,27 @@ At any time, you can reset the app details to the original settings.
 
    ![Select reset to default highlighted](media/select-reset.png)
 
-## Frequently asked questions - placeholder
+## Frequently asked questions
+
+**How long will it take for my users to see the customized app?**
+
+Although the admin will be able to immediately see the changes in Teams Admin Center, it might take up to 24 hours for the end users to see the changes.  
+
+**Can the app provider customize the app for its customers?**
+
+ No, the admin of a tenant needs to customize the app for their tenant using the Teams Admin Center.
+
+**Will the customized app automatically get deployed to replace my current custom app in a tenant?**
+
+No, the tenant admins will have to manually remove any custom app and publish the customized version of the app. If you have customized an app and published it as a custom app, the new app customized using the app customization feature will not replace the current custom app.  
+
+**Will the app usage report also show the customized values such as customized short name?**
+
+ No, the app usage report will still show the original name of the app sent from the publisher.
+
+**Which apps can I customize using the app customization feature?**
+
+You can only customize apps that have been allowed to be customizable by the app publisher. The app publisher will need to opt in to allow its customers to customize the app.
 
 ## Related article
 
