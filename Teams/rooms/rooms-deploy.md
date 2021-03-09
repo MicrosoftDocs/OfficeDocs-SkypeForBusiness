@@ -32,7 +32,7 @@ AV techs can be used for the last task, but your organization's IT department wi
 
 ## Site readiness 
 
-While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor's site and leverage the experience of your AV team when installing and mounting screens and running cabling.
+While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor's site and use the experience of your AV team when installing and mounting screens and running cabling.
 
 You can find out more about these dependencies in the planning guidance links below:
 
@@ -40,7 +40,7 @@ You can find out more about these dependencies in the planning guidance links be
 -   [Certificates](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](../proxy-servers-for-skype-for-business-online.md). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don't make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
+**Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](../proxy-servers-for-skype-for-business-online.md). When it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don't make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
 
 |    |     |
 |-----------|------------|
@@ -94,9 +94,9 @@ Create a Group Policy object assigned to the organization unit that contains you
 
 -   [Set power and local account settings](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Enable Windows Update.
--   Enable PowerShell remoting. You can configure a start-up script to run a  simple script: Enable-PSRemoting -Force
+-   Enable PowerShell remoting. You can configure a start-up script to run a script: Enable-PSRemoting -Force
 
-You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](rooms-operations.md#remote-management-using-powershell). 
+You can use PowerShell to perform several remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](rooms-operations.md#remote-management-using-powershell). 
 
 
 ## Configuration and deployment 
@@ -124,11 +124,11 @@ Each Microsoft Teams Rooms device requires a dedicated and unique resource accou
 
 ### Device software installation 
 
-When planning to deploy Microsoft Teams Rooms, you have a number of options to consider to install the required software. Common scenarios and approaches are described in the following table. 
+When planning to deploy Microsoft Teams Rooms, you have many options to consider to install the required software. Common scenarios and approaches are described in the following table. 
 
 | **Scenario**            | **Approach**         |
 |-------------------------|-----------------------|   
-|Deploying a small number of Microsoft Teams Rooms devices (<10). | If using Surface Pro–based Microsoft Teams Rooms, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
+|Deploying a few of Microsoft Teams Rooms devices (<10). | If using Surface Pro–based Microsoft Teams Rooms, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
 | Deploying between 10 and 50 devices from a single vendor.     | Create a WIM-based image, pause after [step 6 in the guidance](console.md), and capture a distribution image to be used with your cloning distribution technology.    |
 | Deploying more than 50 Microsoft Teams Rooms devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
