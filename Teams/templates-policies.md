@@ -27,9 +27,7 @@ Assign different users to different template policies so that your users view on
 
 Watch this short video for information on managing template policies.
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
-
 
 ## Create template policies and assign available templates
 
