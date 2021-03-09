@@ -3,7 +3,6 @@ title: Live events recording policies
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 06/09/20
 ms.topic: article
 ms.service: msteams
 ms.reviewer: christi.balaki
