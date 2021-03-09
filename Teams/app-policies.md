@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
 search.appverid: 
-description: 
+description: Learn about Teams application policies.
 audience: admin
 localization_priority: Normal
 MS.collection: 

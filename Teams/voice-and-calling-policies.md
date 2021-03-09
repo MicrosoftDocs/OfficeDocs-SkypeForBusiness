@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
 search.appverid: 
-description: 
+description: Learn about Teams voice and calling policies.
 audience: admin
 localization_priority: Normal
 MS.collection: 
