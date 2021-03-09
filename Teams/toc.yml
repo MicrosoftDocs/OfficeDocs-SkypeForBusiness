@@ -509,7 +509,7 @@ items:
           href: general-teams-templates-in-the-admin-console.md
         - name: Manufacturing category Teams templates
           href: manufacturing-teams-templates-in-the-admin-console.md
-        - name: Create and manage template policies
+        - name: Manage Teams template policies
           href: templates-policies.md
     - name: Communicate with external users
       items: 
@@ -559,6 +559,12 @@ items:
       items: 
         - name: Overview
           href: rooms/index.md
+        - name: Microsoft Teams Rooms managed service
+          items: 
+            - name: Plan management
+              href: rooms/microsoft-teams-rooms-premium.md
+            - name: Role-based access control
+              href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Plan
           items: 
             - name: Overview of Microsoft Teams Rooms planning
@@ -577,12 +583,6 @@ items:
               href: rooms/rooms-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
-            - name: Microsoft Teams Rooms managed service
-              items: 
-                - name: Plan management with the Microsoft Teams Rooms managed service
-                  href: rooms/microsoft-teams-rooms-premium.md
-                - name: Role-based access control with the Microsoft Teams Rooms managed service
-                  href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Deploy
           items: 
             - name: Deployment overview
@@ -1347,6 +1347,8 @@ items:
           href: manage-lists-app.md
         - name: Manage the Tasks app
           href: manage-tasks-app.md
+        - name: Manage the Approvals app
+          href: approval-admin.md
         - name: Shifts for Teams
           items: 
             - name: Shifts for Teams
@@ -1521,7 +1523,7 @@ items:
           href: devices/collab-bar-deploy.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: IP phones certified for Microsoft Teams
+        - name: Teams certified devices
           href: devices/teams-ip-phones.md
         - name: Phones for Skype for Business Online
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
