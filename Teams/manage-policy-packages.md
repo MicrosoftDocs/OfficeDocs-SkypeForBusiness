@@ -59,8 +59,8 @@ Teams currently includes the following policy packages.
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
 |Education (Primary school teacher using remote learning)    |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
 |Education (Primary school student using remote learning)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
-|Frontline manager |Creates a set of policies and applies those settings to Fronttline managers in your organization. |
-|Fronttline worker |Creates a set of policies and applies those settings to Fronttline workers in your organization. |
+|Frontline manager |Creates a set of policies and applies those settings to Frontline managers in your organization. |
+|Frontline worker |Creates a set of policies and applies those settings to Frontline workers in your organization. |
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
@@ -141,8 +141,6 @@ You can edit the settings of a policy through the **Policy packages** page or by
 4. When you're finished adding users, click **Save**.
 
 #### Assign a policy package to a group
-
-**This feature is in private preview**
 
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
