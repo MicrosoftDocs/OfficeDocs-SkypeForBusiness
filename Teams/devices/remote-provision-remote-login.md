@@ -36,14 +36,14 @@ Complete the following steps to provision a device.
 
 In the **Provision new devices** window, you can either add the MAC address manually or upload a file.
 
-### Manually add a device MAC address**
+### Manually add a device MAC address
 
 1. From the **Awaiting Activation** tab, select **Add MAC ID**.
 2. Enter the MAC ID.
 3. Enter a location, which helps technicians identify where to install the devices.
 4. Select **Apply** when finished.
 
-### Upload a file to add a device MAC address**
+### Upload a file to add a device MAC address
 
 1. From the **Awaiting Activation** tab, select **Upload MAC IDs**.
 2. Download the file template.
