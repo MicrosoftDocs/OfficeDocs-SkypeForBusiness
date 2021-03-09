@@ -27,6 +27,8 @@ appliesto:
 
 Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. 
 
+This article describes benefits and requirements, and lists the operators participating in the Operator Connect Program.  If you decide Operator Connect is the right solution for your organization, after reading this article, see [Configure Operator Connect](operator-connect-configure.md). 
+
 ## Benefits
 
 With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. The Operator Connect program provides the following benefits:
