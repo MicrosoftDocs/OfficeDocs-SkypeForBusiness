@@ -25,78 +25,64 @@ This article provides your guidance on deployment and implementation of Microsof
 ## Deploying and implementing Microsoft Teams for organizations already using Microsoft Teams
  
 Before proceeding, confirm that you've completed the following activities: 
-   
-   - Envisioned teamwork for your organization  
-   
-   - Identified champions and critical stakeholders 
-   
-   - Defined your project scope  
-   
-   - Piloted Microsoft Teams 
-   
-   - Prepared your organization 
 
-   Follow the guidance in this article, if you **already have Microsoft Teams rolled out** and want to move your licensed users from Kaizala to Microsoft Teams. 
+- Envisioned teamwork for your organization  
+- Identified champions and critical stakeholders 
+- Defined your project scope  
+- Piloted Microsoft Teams 
+- Prepared your organization 
+
+Follow the guidance in this article, if you **already have Microsoft Teams rolled out** and want to move your licensed users from Kaizala to Microsoft Teams. 
    
-   We recommend the following framework for transition:  
+We recommend the following framework for transition:  
    
-   **Plan for your transition** 
+**Plan for your transition** 
    
-      1. First, move your chat groups to Microsoft Teams.
-      2. Next, use apps in Teams to replace Kaizala action cards.
-      3. To ensure that frontline workers are equipped, upgrade to Teams Frontline Worker functionality. For a quick start guide on Teams Frontline Worker, see [Frontline Worker          Quick Start Guide](https://docs.microsoft.com/microsoftteams/flw-quickstart).
-      4. Consider Onboarding suppliers and partners to invite as guests in Teams.  
+1. First, move your chat groups to Microsoft Teams.
+1. Next, use apps in Teams to replace Kaizala action cards.
+1. To ensure that frontline workers are equipped, upgrade to Teams Frontline Worker functionality. For a quick start guide on Teams Frontline Worker, see [Frontline Worker Quick Start Guide](https://docs.microsoft.com/microsoftteams/flw-quickstart).
+1. Consider Onboarding suppliers and partners to invite as guests in Teams.  
   
-   **Manage change**  
+**Manage change**  
    
-   1. Create a communication campaign to raise awareness on the transition project. 
-   2. Notify your organization of the change and identify champions to drive adoption of Microsoft Teams. 
-   3. Empower your users to learn more about Microsoft Teams through free training. 
+1. Create a communication campaign to raise awareness on the transition project. 
+1. Notify your organization of the change and identify champions to drive adoption of Microsoft Teams. 
+1. Empower your users to learn more about Microsoft Teams through free training. 
    
-   To learn more, see [Microsoft Teams video training](https://support.microsoft.com/en-     us/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us).   
+To learn more, see [Microsoft Teams video training](https://support.microsoft.com/en-     us/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us).   
  
- ## Deploying and implementing Microsoft Teams for organizations not yet using Microsoft Teams
+## Deploying and implementing Microsoft Teams for organizations not yet using Microsoft Teams
  
- Follow the guidance in this section, if you're using Kaizala and want to move your users from Kaizala to Microsoft Teams.
+Follow the guidance in this section, if you're using Kaizala and want to move your users from Kaizala to Microsoft Teams.
    
- **Before proceeding, confirm that you've completed the following activities**: 
+**Before proceeding, confirm that you've completed the following activities**: 
    
-   - Envisioned teamwork for your organization 
-    
-   - Identified champions and critical stakeholders 
+- Envisioned teamwork for your organization 
+- Identified champions and critical stakeholders 
+- Defined your project scope  
+- Piloted Microsoft Teams
+- Prepared your organization  
    
-   - Defined your project scope  
+We recommend the following framework for transition: 
    
-   - Piloted Microsoft Teams
-    
-   - Prepared your organization  
+**Envision teamwork for your organization** 
    
- We recommend the following framework for transition: 
-   
- **Envision teamwork for your organization** 
-   
- List the current scenarios in which Kaizala is used. Next, envision scenarios above and beyond with Microsoft Teams.  
+List the current scenarios in which Kaizala is used. Next, envision scenarios above and beyond with Microsoft Teams.  
 
- **Pilot Teams**
-   
- Roll out Teams to a Pilot group of users with a prioritized scenario set. 
+- **Pilot Teams**
+    - Roll out Teams to a Pilot group of users with a prioritized scenario set. 
 
- **Deploy Teams** 
-   
- Learn from the pilot group. Prepare to roll out to the complete organization.  
+- **Deploy Teams** 
+     - Learn from the pilot group. Prepare to roll out to the complete organization.  
 
- **Use Kaizala and Teams**  
-   
- To find the right Microsoft Teams for your business, see [Compare Microsoft Teams Online Options | Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options). 
+- **Use Kaizala and Teams**  
+    - To find the right Microsoft Teams for your business, see [Compare Microsoft Teams Online Options | Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options). 
 
- **Manage change** 
-   
- Prepare your organization for change through end-user training to drive adoption. IT Admins and Champions can drive efforts to influence positive change management on the move.  
-**Plan for your adoption of Teams**
+- **Manage change** 
+    - Prepare your organization for change through end-user training to drive adoption. IT Admins and Champions can drive efforts to influence positive change management on the move.  
 
-Prepare to move custom solutions from Kaizala to Teams, for example, Custom Action cards. 
+- **Plan for your adoption of Teams**
+    - Prepare to move custom solutions from Kaizala to Teams, for example, Custom Action cards. 
      
-**Move your organization to Teams** 
-   
-Empower your organization with a streamlined tool for communication from CEO to the frontline! 
-     
+- **Move your organization to Teams** 
+    - Empower your organization with a streamlined tool for communication from CEO to the frontline! 
