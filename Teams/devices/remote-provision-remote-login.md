@@ -81,7 +81,7 @@ The provisioned device appears in the **Awaiting sign in** tab. Start the remote
 
 1. Select a device from the **Awaiting sign in** tab.
 
-   ![The window with a list of devices ready for sign in.](../media/remote-device-1.png)
+   ![The window with a list of devices ready for sign in.](../media/remote-device1.png)
 
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
