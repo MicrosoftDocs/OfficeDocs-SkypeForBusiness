@@ -4,8 +4,6 @@ author: KarliStites
 ms.author: kastites
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
-manager: serdars
-ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -40,7 +38,7 @@ If a user is directly assigned a policy (either individually or through a batch 
 
 ![Diagram showing how a directly assigned policy takes precedence](media/assign-policies-example-directly-assigned.png)
 
-If a user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment ranking](#group-assignment-ranking) for the given policy type takes precedence.
+If a user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest ([group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking)) for the given policy type takes precedence.
 
 In this visual example, the user's effective policy is the Exec Teams and HD policy, which has the highest assignment ranking relative to other groups that the user is a member of and that are also assigned a policy of the same policy type.  
 
@@ -50,7 +48,7 @@ If a user isn't directly assigned a policy or isn't a member of any groups that 
 
 ![Diagram showing how a global policy takes precedence](media/assign-policies-example-global.png)
 
-To learn more, see [Precedence rules](#precedence-rules).
+To learn more, see ([Precedence rules](assign-policies-users-and-groups.md#precedence-rules)).
 
 ## Ways to assign policies
 

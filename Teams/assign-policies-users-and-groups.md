@@ -4,7 +4,6 @@ author: KarliStites
 ms.author: kastites
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
-ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

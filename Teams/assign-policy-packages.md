@@ -4,7 +4,6 @@ author: KarliStites
 ms.author: kastites
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
-ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -49,7 +48,7 @@ Policy package assignment to groups is recommended for groups of up to 50,000 us
 When you assign the policy package, it's immediately assigned to the group. However, the propagation of the policy assignment to members of the group is performed as a background operation and might take some time, depending on the size of the group. The same is true when a policy is unassigned from a group, or when members are added to or removed from a group.
 
 > [!IMPORTANT]
-> Before you get started, it's important to understand [precedence rules](#precedence-rules) and [group assignment ranking](#group-assignment-ranking). Make sure you read and understand the concepts in [What you need to know about policy assignment to groups](#what-you-need-to-know-about-policy-assignment-to-groups) earlier in this article.
+> Before you get started, it's important to understand ([precedence rules](assign-policies-users-and-groups.md#precedence-rules)) and ([group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking)). Make sure you read and understand the concepts in ([What you need to know about policy assignment to groups](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)) earlier in this article.
 
 ### Assign a policy package to a group of users in the admin center
 
@@ -79,7 +78,7 @@ For step-by-step guidance, see [Install Teams PowerShell](teams-powershell-insta
 
 #### Assign a policy package to a group of users
 
-Use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign a policy package to a group. You can specify a group by using the object ID, SIP address, or email address. When you assign the policy package, specify a [group assignment ranking](#group-assignment-ranking) for each policy type in the policy package.
+Use the [Grant-CsGroupPolicyPackageAssignment](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet to assign a policy package to a group. You can specify a group by using the object ID, SIP address, or email address. When you assign the policy package, specify a ([group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking)) for each policy type in the policy package.
 
 In this example, we assign the Education_Teacher policy package to a group with an assignment ranking of 1 for TeamsAppSetupPolicy and TeamsMeetingBroadcastPolicy and a ranking of 2 for TeamsMeetingPolicy.
 
