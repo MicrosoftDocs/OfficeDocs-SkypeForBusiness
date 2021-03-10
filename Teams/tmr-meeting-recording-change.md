@@ -26,14 +26,11 @@ appliesto:
 
 |<div style="width:290px">Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|October 5, 2020<br> <br>*(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| You enable the Teams Meeting policy to have meeting recordings saved to OneDrive for Business and SharePoint instead of Microsoft Stream (Classic)|
-|Rolling out starting January 7, 2021<br> <br>*(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|All new Teams meeting recordings will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. Seeing the policy reporting as Stream isn't enough. You need to explicitly set the policy value to **Stream**.|
-|Rolling out starting January 11, 2021<br> <br>*(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC only**<br> While GCC customers can opt out starting October 5, you're unable to opt in. This feature will be rolled out to all GCC customers starting January 11, 2021, unless you've opted-out.<br>  <br>Starting on January 11, 2021, all new Teams meeting recordings for GCC customers will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. <br><br>If you've opted-out but are ready to turn on this feature, you may do so by setting your Teams Meeting Policy explicitly to **OneDrive for Business**. |
+|October 5, 2020<br> *(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| You enable the Teams Meeting policy to have meeting recordings saved to OneDrive for Business and SharePoint instead of Microsoft Stream (Classic)|
+|Rolling out starting January 7, 2021<br> *(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|All new Teams meeting recordings will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. Seeing the policy reporting as Stream isn't enough. You need to explicitly set the policy value to **Stream**.|
+|Rolling out starting January 11, 2021<br> *(Complete)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC only**<br> While GCC customers can opt out starting October 5, you're unable to opt in. This feature will be rolled out to all GCC customers starting January 11, 2021, unless you've opted-out.<br>  <br>Starting on January 11, 2021, all new Teams meeting recordings for GCC customers will be saved to OneDrive for Business and SharePoint unless you delay this change by modifying your organization’s Teams Meeting policies and explicitly setting them to **Stream**. <br><br>If you've opted-out but are ready to turn on this feature, you may do so by setting your Teams Meeting Policy explicitly to **OneDrive for Business**. |
 |Rolling out starting March 1, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High and DoD only**<br> Customers can now enable cloud meeting recordings in their Microsoft Teams for the first time. These recordings will be stored and played on OneDrive and SharePoint by default. |
-|Rolling out incrementally starting July 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**All customers (Enterprise, Education, and GCC)**<br>**No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream**.<br><br> We recommend that customers roll this feature out before this date so that they can control the timing of the release. |
-
-> [!Note]
-> We recommend that Enterprise and Educational customers, to better control the change in your organization, opt in whenever you're comfortable with the change rather than wait for it to happen.
+|Rolling out incrementally starting July 7, 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**All customers (Enterprise, Education, and GCC)**<br>No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream.<br><br> We recommend that customers, to better control the change in your organization, opt in whenever you're comfortable with the change rather than wait for it to happen. |
 
 Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](https://docs.microsoft.com/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits.
 
@@ -49,14 +46,6 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - **Go local** tenant support
 - Multi-geo support – recordings are stored in a region specific to that user
 - Bring your own key (BYOK) support
-
-There are some limitations to consider:
-
-- There will be English-only closed captions and you'll be able to toggle captions off/on.​
-- You won't *initially* be able to view, edit, and search a full transcript (however, we're working on adding this capability soon)​.
-- You won’t be able to edit the transcripts, but you'll be able to toggle captions off/on.
-- You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.
-- You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
 
 Watch "Meeting Recording" for more information.
 
@@ -150,13 +139,11 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 - For Channel meetings, permissions are inherited from the owners and members list in the channel.
 
-**How can I manage transcripts?**
+**How can I manage captions?**
 
-Customers opting in to this preview won't have closed captions available on their Teams Meeting Recordings that are migrated to OneDrive for Business and SharePoint.  We're working to add captioning, beginning with closed captions in English, to meeting recordings in Q4 CY2020.
+Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) to ensure their users have the option to record meetings with transcription.
 
-Closed captions will be available on Teams Meeting Recordings for customers who have opted in to allow transcripts as described in [Teams cloud recordings](cloud-recording.md).
-
-Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions, although the transcript will still be available on Teams unless you delete the captions from Teams. See [how to turn on or off meeting recordings](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization).
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there. 
 
 Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
 

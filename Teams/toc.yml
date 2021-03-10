@@ -775,6 +775,8 @@ items:
           href: teams-live-events/set-teams-live-events-policies-using-powershell.md
         - name: Configure Teams live events settings
           href: teams-live-events/configure-teams-live-events.md
+        - name: Live events recording policies
+          href: teams-live-events/live-events-recording-policies.md
 
 - name: Voice - Phone System and PSTN connectivity
   items: 
