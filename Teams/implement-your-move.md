@@ -49,7 +49,7 @@ We recommend the following framework for transition:
 1. Notify your organization of the change and identify champions to drive adoption of Microsoft Teams. 
 1. Empower your users to learn more about Microsoft Teams through free training. 
    
-To learn more, see [Microsoft Teams video training](https://support.microsoft.com/en-     us/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us).   
+To learn more, see [Microsoft Teams video training](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us).   
  
 ## Deploying and implementing Microsoft Teams for organizations not yet using Microsoft Teams
  
@@ -65,24 +65,30 @@ Follow the guidance in this section, if you're using Kaizala and want to move yo
    
 We recommend the following framework for transition: 
    
-**Envision teamwork for your organization** 
+- **Envision teamwork for your organization** 
    
-List the current scenarios in which Kaizala is used. Next, envision scenarios above and beyond with Microsoft Teams.  
+   List the current scenarios in which Kaizala is used. Next, envision scenarios above and beyond with Microsoft Teams.  
 
 - **Pilot Teams**
-    - Roll out Teams to a Pilot group of users with a prioritized scenario set. 
+
+   Roll out Teams to a Pilot group of users with a prioritized scenario set. 
 
 - **Deploy Teams** 
-     - Learn from the pilot group. Prepare to roll out to the complete organization.  
+
+   Learn from the pilot group. Prepare to roll out to the complete organization.  
 
 - **Use Kaizala and Teams**  
-    - To find the right Microsoft Teams for your business, see [Compare Microsoft Teams Online Options | Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options). 
+
+   To find the right Microsoft Teams for your business, see [Compare Microsoft Teams Online Options | Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options). 
 
 - **Manage change** 
-    - Prepare your organization for change through end-user training to drive adoption. IT Admins and Champions can drive efforts to influence positive change management on the move.  
+
+   Prepare your organization for change through end-user training to drive adoption. IT Admins and Champions can drive efforts to influence positive change management on the move.  
 
 - **Plan for your adoption of Teams**
-    - Prepare to move custom solutions from Kaizala to Teams, for example, Custom Action cards. 
+
+    Prepare to move custom solutions from Kaizala to Teams, for example, Custom Action cards. 
      
 - **Move your organization to Teams** 
-    - Empower your organization with a streamlined tool for communication from CEO to the frontline! 
+
+    Empower your organization with a streamlined tool for communication from CEO to the frontline! 
