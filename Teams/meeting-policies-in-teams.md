@@ -183,12 +183,11 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ### Allow transcription
 
-Allow transcription is a per-user policy. This setting controls whether this user's meetings can be transcribed.
+This policy turns on Live transcription. Allow transcription is a per-user policy. This setting controls whether this specific Team's meeting can be transcribed.
 
-:::image type="content" source="media/live-transcription.png" alt-text="Screenshot showing transcription options":::
-Transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
+![transcription options in meeting policies](media/live-transcription.png)
 
-Live transcription shows speech-to-text of spoken content during a meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15).
+Live transcription shows speech-to-text of spoken content during a Teams meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15).
 
 Currently, live transcription is supported on the Teams desktop client. Transcription is supported for spoken U.S. English. The transcript is available after the meeting on Teams desktop or web.
 
@@ -196,10 +195,10 @@ Here's how the **Allow transcription** and **Allow cloud recording** policy sett
 
 |Allow transcription|Allow cloud recording|Behavior|
 |---------|---------|---------|
-|**On**|**On**|The **Start transcription** option is available in meetings. The meeting organizer or meeting participants can start and stop transcription. The **Start recording** option is available in meetings. The meeting organizer or meeting participants can start and stop recording. |
-|**On**|**Off**|The **Start transcription** option is available in meetings. The **Start recording** option isn't available in meetings. |
-|**Off**|**On**|The **Start recording** option is available in meetings. The **Start transcription** option isn't available in meetings.|
-|**Off**|**Off**|Recording and transcription aren't available in meetings.  |
+|**On**|**On**|The **Start transcription** option is available in Teams meetings. The meeting organizer or meeting participants can start and stop transcription. The **Start recording** option is available in Teams meetings. The meeting organizer or meeting participants can start and stop recording. |
+|**On**|**Off**|The **Start transcription** option is available in Teams meetings. The **Start recording** option isn't available in Teams meetings. |
+|**Off**|**On**|The **Start recording** option is available in Teams meetings. The **Start transcription** option isn't available in Teams meetings.|
+|**Off**|**Off**|Recording and transcription aren't available in Teams meetings.  |
 
 ### Allow cloud recording
 
