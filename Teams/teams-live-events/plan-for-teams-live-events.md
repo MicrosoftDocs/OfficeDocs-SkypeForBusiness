@@ -14,6 +14,7 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 search.appverid: MET150
 description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
@@ -35,10 +36,11 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 
 The following prerequisites are required for the user to schedule a Teams live event.
 
-Here are the licenses that must be assigned to produce or present a Teams live event:  
+Here are the licenses that must be assigned to organize, produce or present a Teams live event:  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
-- A Microsoft Teams license - this is included in the licenses listed in the first bullet.
+- **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license. 
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- A Microsoft Teams license - this is included in the licenses listed in the first and second bullets.
 - A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](https://docs.microsoft.com/stream/license-overview).
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
@@ -159,19 +161,20 @@ You can use Teams live events in multiple regions across the world. The followin
 
 - Australia
 - Canada
-- India
-- Japan
-- United Kingdom
-
-**These countries/regions and clouds aren't supported**
-
 - Germany
 - France
-- Norway
+- India
+- Japan
 - South Africa
 - South Korea
 - Switzerland
 - UAE
+- United Kingdom
+
+**These countries/regions and clouds aren't supported**
+
+- Brazil
+- Norway
 - Government Community Cloud (GCC)-H
 - DOD
 

@@ -1,7 +1,7 @@
 ---
 title: Transfer phone numbers to Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -22,8 +22,6 @@ ms.custom: seo-marvel-mar2020
 ---
 
 # Transfer phone numbers to Microsoft Teams
-
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Use the porting wizard in the Microsoft Teams admin center to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers.
 
