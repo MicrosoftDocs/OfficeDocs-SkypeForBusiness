@@ -25,11 +25,11 @@ Share to Teams from Outlook (Share to Teams) enables users to share emails, incl
 The Share to Teams feature requires an add-in for Outlook. This add-in is installed automatically whenever a user logs on to either the Teams Web app or the Teams desktop client.
 
 > [!NOTE]
-> Be sure to review [Add-ins for Outlook in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) and [Client Access Rules in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) to make sure your add-ins for Outlook function correctly. In addition, disabling connected experiences can also prevent add-ins for Outlook from working properly. See [Connected experiences in Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) for more information.  
+> Be sure to review [Add-ins for Outlook in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) and [Client Access Rules in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) to make sure your add-ins for Outlook function correctly. Also, disabling connected experiences can prevent add-ins for Outlook from working properly. See [Connected experiences in Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) for more information.  
 
-Share to Teams uses the same transport mechanism as when a user emails a channel. For sharing to chats, emails (including email attachments) are copied to the sender’s OneDrive. For sharing to channels, emails and attachments are copies to the **Email messages** folder in SharePoint.
+Share to Teams uses the same transport mechanism as when a user emails a channel. For sharing to chats, emails (including email attachments) are copied to the sender’s OneDrive. For sharing to channels, emails and attachments are copied to the **Email messages** folder in SharePoint.
 
-The Outlook add-in used by Share to Teams uses requirement set 1.7, as detailed in [Outlook add-ins documentation](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), which includes details on Outlook add-ins, environment requirements for Outlook add-ins, and the specific Outlook clients that are supported with requirement set 1.7.
+The Outlook add-in for Share to Teams uses requirement set 1.7, as detailed in [Outlook add-ins documentation](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), which includes details on Outlook add-ins, environment requirements for Outlook add-ins, and the specific Outlook clients that are supported with requirement set 1.7.
 
 ## Enabling or disabling Share to Teams
 
