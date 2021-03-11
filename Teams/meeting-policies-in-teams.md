@@ -483,6 +483,12 @@ This is a per-organizer policy. This setting controls whether people who dial in
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
 
+### Allow team members to bypass the lobby
+
+Meeting policies have a setting for letting users bypass the meeting lobby. We added an option for people in the organization but exclude guest users.
+
+EveryoneInCompanyExcludingGuests
+AutoAdmittedUsers
 ### Enable live captions
 
 This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
