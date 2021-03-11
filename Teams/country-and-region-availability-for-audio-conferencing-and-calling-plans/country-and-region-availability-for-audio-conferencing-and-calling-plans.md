@@ -174,7 +174,7 @@ With Audio Conferencing, there are toll and toll free phone numbers that can be 
 
 To see more about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-common-questions.md)
 
-[Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+[Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762)
   
 #### Using the Call Me feature or when adding other people to a meeting so they can join it
 
