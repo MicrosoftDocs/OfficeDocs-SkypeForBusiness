@@ -32,7 +32,7 @@ AV techs can be used for the last task, but your organization's IT department wi
 
 ## Site readiness 
 
-While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor's site and use the experience of your AV team when installing and mounting screens and running cabling.
+While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, visit the vendor's site and leverage the experience of your AV team when installing and mounting screens and running cabling.
 
 You can find out more about these dependencies in the planning guidance links below:
 
@@ -44,8 +44,8 @@ You can find out more about these dependencies in the planning guidance links be
 
 |    |     |
 |-----------|------------|
-| ![decision point](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the key requirements for Microsoft Teams Rooms.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>| 
-| ![next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment and configuration.</li></ul>| 
+| ![confirm sites](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the key requirements for Microsoft Teams Rooms.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>| 
+| ![plan device deployment](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment and configuration.</li></ul>| 
 
 ## Service readiness
 
@@ -69,8 +69,8 @@ For more information about Microsoft Teams Rooms accounts, see [Configure accoun
 
 |    |     |
 |-----------|------------|
-| ![decision point scenario](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you'll support, and identify licensing requirements for your Microsoft Teams Rooms service accounts.</li></ul>| 
-| ![next steps host machine](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host machine and service accounts.</li></ul>| 
+| ![scenario support](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you'll support, and identify licensing requirements for your Microsoft Teams Rooms service accounts.</li></ul>| 
+| ![prepare host machine](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host machine and service accounts.</li></ul>| 
 
 
 _Sample Microsoft Teams Rooms service account planning table_
@@ -118,8 +118,9 @@ Each Microsoft Teams Rooms device requires a dedicated and unique resource accou
 
 |    |     |
 |-----------|------------|
-| ![decision point naming convention](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your Microsoft Teams Rooms accounts.</li><li>Decide whether you'll create individual accounts or use bulk-provisioning scripts.</li></ul>| 
-| ![next steps plan device](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>| 
+| ![decide naming convention](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your Microsoft Teams Rooms accounts.</li><li>Decide whether you'll create individual accounts or use bulk-provisioning scripts.</li></ul>| 
+| ![next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>| 
+
 
 ### Device software installation 
 
@@ -153,8 +154,8 @@ After you've deployed your software to the Microsoft Teams Rooms units, create y
 
 |    |     |
 |-----------|------------|
-| ![decision point manage sites](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the Microsoft Teams Rooms devices on site and undertake the configuration and testing.</li></ul>| 
-| ![next steps device testing](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>| 
+| ![manage site-by-site deployment](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the Microsoft Teams Rooms devices on site and undertake the configuration and testing.</li></ul>| 
+| ![start device testing](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>| 
 
 _Sample deployment table_
 
@@ -176,7 +177,7 @@ You can use [remote PowerShell](rooms-operations.md#remote-management-using-powe
 |    |     |
 |-----------|------------|
 | ![decision point configure](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you'll manually configure each Microsoft Teams Rooms system or use a central XML file (one per Microsoft Teams Rooms device).</li></ul>| 
-| ![next steps remote management](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your remote management approach.</li></ul>| 
+| ![next steps remote approach](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your remote management approach.</li></ul>| 
 
 ### Testing
 
