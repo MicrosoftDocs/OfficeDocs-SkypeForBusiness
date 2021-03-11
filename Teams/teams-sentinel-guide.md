@@ -37,7 +37,7 @@ This article focuses on collecting Teams activity logs in Azure Sentinel. Aside 
 
 ## Step 1: Collect Teams logs: Enable Audit logs in M365
 
-Because Teams logs activity through M365, audit logs aren't collected by default. Turn on this feature via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0). Teams data is collected in the M365 audit under *Audit.General*.
+Because Teams logs activity through M365, audit logs aren't collected by default. Turn on this feature via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the M365 audit under *Audit.General*.
 
 ## Step 2: Connect Office 365 logs to Azure Sentinel
  
@@ -205,6 +205,6 @@ SigninLogs
 
 [Registering your application in Azure AD](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+[Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [What is Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview)
