@@ -20,21 +20,21 @@ ms.custom:
 
 # Microsoft Teams Monitoring and Alerting
 
-A new monitoring and alertin capabilities for Microsoft Teams is available in the Microsoft Teams admin center. you can use different set of rules availble under 'Notifications and Rules' section in Teams admin center to pro-actively monitor various Teams capablities and get alerted if anything goes wrong with them. For example, user can actively monitor health of Teams devices (IP Phones, collaboration bars etc.) if it unexpectedly goes offline. 
+New monitoring and alerting capabilities for Microsoft Teams are available in the Microsoft Teams admin center. You can use different sets of rules availble under 'Notifications and Rules' section in Teams admin center to proactively monitor various Teams capablities, and you can be alerted if anything goes wrong with them. For example, you can actively monitor the health of Teams devices (IP Phones, collaboration bars, etc.) if they unexpectedly go offline.  
 
-Your organization can use Teams monitoring and alerting to automatically Manage Teams capabilities, get alerted if they show unexpected behaviour, and take corrective actions related remediating those behaviour.
+Your organization can use Teams monitoring and alerting to automatically manage Teams capabilities, be alerted if they show something unexpected, and take corrective actions to get things back on-track.
 
 ## How to manage Monitoring and Alerting
 
-To configure alerting rules, you must be a global admin in Microsoft 365 or Office 365 or Teams service admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
+To configure alerting rules, you must be a global admin in Microsoft 365 or a Teams service admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-Go to the Microsoft Teams admin center, in the left navigation, select **Notifications & alerts**, and then under **Rules**, and choose the rule you want to configure.
+Go to the Microsoft Teams admin center, and in the left navigation select **Notifications & alerts**. Under **Rules** choose the rule you want to configure.
 
 
 
 ## Teams monitoring rules reference
 
-Here's a list of the Teams monitoring rules available in the Microsoft Teams admin center.
+HHere's a list of the Teams monitoring rules available in the Microsoft Teams admin center.
 
 We're continually adding and improving the Teams monitoring experience by adding various monitoring capabilities and configuration functionalities. 
 
@@ -44,3 +44,4 @@ We're continually adding and improving the Teams monitoring experience by adding
 
 
 [comment]: <> (Placeholder for one-click exec reporting)
+
