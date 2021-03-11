@@ -1460,6 +1460,8 @@ items:
       items:
         - name: Get started
           items:
+            - name: Plan your move
+            - name: Prepare your organization for Teams
             - name: Implement your move
               href: implement-your-move.md
     - name: Licensing
