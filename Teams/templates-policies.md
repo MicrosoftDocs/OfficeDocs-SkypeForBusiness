@@ -84,7 +84,7 @@ You can hide a max of 100 templates per policy. The **Hide** button is disabled 
 
 **Q: Can I batch assign users to team templates policies?**
   
-A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. [Learn more](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. [Learn more](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q: Can Groups be assigned to team templates policies?**
 
@@ -138,4 +138,4 @@ A: No, template policies for EDU isn't supported.
 
 - [Assign policies to your users in Microsoft Teams - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [Batch assign users to a policy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Batch assign users to a policy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
