@@ -73,20 +73,20 @@ Here's a summary, based on licensing plan.
 <thead>
 <tr class="header">
 <th><strong>Small business (&lt;300 people)</strong></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Base plan</strong></td>
 <td><strong>Voice calling and conferencing options&nbsp;&nbsp;&nbsp;</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr class="even">
 <td>Microsoft 365 Business Basic<br />
@@ -99,22 +99,20 @@ Audio Conferencing Communication Credits </td><td>Or</td>
 <td>Audio Conferencing Communication Credits</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 Business Voice<br>International Calling Plan <br />(optional)
+Communication Credits </td><td>Or</td>
+<td>Microsoft 365 Business Voice without calling plan</td><td>Or</td>
+<td>Audio Conferencing<br> Phone System<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-
-  ![Small business plan options](../media/licensing-smallbusiness-options.png)
-
 
 If Audio Conferencing isn't supported in your country or region, you have the option to get a Microsoft 365 Enterprise E5 without Audio Conferencing plan or an Office 365 Enterprise E5 without Audio Conferencing plan.
 
