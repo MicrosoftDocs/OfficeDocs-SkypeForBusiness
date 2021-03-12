@@ -46,7 +46,7 @@ Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or mo
 > [!TIP]
 > See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
 
-As you think about rolling out teams and channels, you need to decide who should be able to create them, whether guests from outside your organization can access them, and so on. The article [Chat, teams, channels, & apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) has lots of information about planning for chat, teams, and channels, however, here are some key things from that article you should think about. Click on a decision if you want more information about it.
+As you think about rolling out teams and channels, you need to decide who should be able to create them, whether guests from outside your organization can access them, and so on. The article [Chat, teams, channels, & apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) has lots of information about planning for chat, teams, and channels, however, here are some key things from that article you should think about. Select on a decision if you want more information about it.
 
 | Decision | Description |
 |--|--|
@@ -57,7 +57,7 @@ As you think about rolling out teams and channels, you need to decide who should
 You don't need to do anything else for your users to start using chat, teams, and channels. However, there are lots of options for controlling how Teams is used. You can changes now, or wait until you can see how people are using Teams. For more information, check out the following articles:
 
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
-- [Teams settings](enable-features-office-365#teams-settings)
+- [Teams settings](enable-features-office-365.md#teams-settings)
 
 ### Meetings and conferencing
 
@@ -87,7 +87,7 @@ If you're interested in trying out Business Voice, check out [What do I need to 
 
 When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
-Make sure everyone who will be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
+Make sure everyone who'll be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
 > Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.

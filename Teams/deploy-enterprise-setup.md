@@ -67,7 +67,7 @@ Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or mo
 | Decision | Description |
 |--|--|
 | What messaging policies should be applied? | Messaging policies control which chat and channel messaging features (such as who can use chat, who can edit and delete sent messages, and so on) are available to users in Teams. Teams has a global policy that applies to everyone. All of the features in the global policy are **On** by default.<p>If you want the same policy to apply to everyone, all you need to do is make changes to this global policy (for example, turn off meme support in conversations).<p>If you want different policies for different groups of people (for example, one policy for office workers and another for factory workers), you can create and assign policies. When you assign a policy to a user, the global policy no longer applies to them.<p>[Manage messaging policies in Teams](messaging-policies-in-teams.md) |
-| What Team settings should be applied? | Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. <p>[Teams settings](enable-features-office-365#teams-settings)  |
+| What Team settings should be applied? | Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. <p>[Teams settings](enable-features-office-365.md#teams-settings)  |
 
 ### External and guest access
 
