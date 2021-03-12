@@ -1465,7 +1465,7 @@ items:
             - name: Prepare your organization for Teams
               href: prepare-for-teams.md
             - name: Implement your move
- - name: Licensing
+    - name: Licensing
       items: 
         - name: Manage user access to Teams
           href: user-access.md
