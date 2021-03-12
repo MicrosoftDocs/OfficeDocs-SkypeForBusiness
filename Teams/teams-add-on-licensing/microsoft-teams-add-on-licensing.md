@@ -82,11 +82,8 @@ Here's a summary, based on licensing plan.
 <tbody>
 <tr class="odd">
 <td><strong>Base plan</strong></td>
-<td><strong>Voice calling and conferencing options&nbsp;&nbsp;&nbsp;</strong></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td colspan="3"><strong>Voice calling and conferencing options</strong></td>
+
 </tr>
 <tr class="even">
 <td>Microsoft 365 Business Basic<br />
