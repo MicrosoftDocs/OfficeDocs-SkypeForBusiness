@@ -37,18 +37,6 @@ Your organization might require that you implement strict controls on how teams 
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Decision points|<ul><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to assign organization-specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per-team basis?</li><li>Does your organization require limiting who can create teams?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
-> [!TIP]
-> Use the following table to capture your organization’s requirements.
-
-|Capability |Details |Azure AD Premium <br> license required |Decision |
-|---------|---------|---------|---------|
-|Team naming policy | Use Prefix-Suffix–based, Custom Blocked Words. |P1 |TBD |
-|Team classification |Assign classifications to teams. |P1 |TBD |
-|Team guest access |Allow or prevent guests from being added to teams. |No |TBD |
-|Team creation |Limit team creation to administrators. |No |TBD|
-|Team creation |Limit team creation to security group members. |P1 |TBD|
-|Sensitivity labels|Configure privacy and guest sharing|No|TBD|
-
 > [!NOTE]
 > To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
@@ -165,6 +153,8 @@ Teams is built on the advanced security and compliance capabilities of Microsoft
 ## Related topics
 
 [Governance quick start for Teams](teams-adoption-governance-quick-start.md)
+
+[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance.md)
 
 <!--
 ## Teams lifecycle management
