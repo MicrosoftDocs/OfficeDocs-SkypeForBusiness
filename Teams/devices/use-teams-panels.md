@@ -77,7 +77,7 @@ The tile appears in purple for a meeting space that is reserved for a scheduled 
 
 #### Meeting space is reserved for an ad hoc meeting
 
-The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text, and meeting start and end times. When you schedule ad hoc meetings from the panel (instead of Outlook or Teams calendars), you actually book the calendar of that meeting space. Such meetings are automatically scheduled as Teams meetings, hence the Teams logo always appears on the screen.
+The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text, and meeting start and end times.Ad-hoc meetings are automatically scheduled as Teams meetings, hence the Teams logo always appears on the screen.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting":::
 
@@ -142,7 +142,7 @@ To report an issue with the device or the meeting space, to request a feature up
 
 ### View or update a device setting
 
-There are several device settings, such as about, accessibility, reboot, privacy policy that you can view or update directly from panels. The available device settings may differ based on the Original Equipment Manufacturer (OEM) of your device. For information on settings specific to your device, see the OEM documentation.
+There are several device settings, such as about, accessibility, reboot, and privacy policy that you can view or update directly from panels. The available device settings may differ based on the Original Equipment Manufacturer (OEM) of your device. For information on settings specific to your device, see the OEM documentation.
 
 To view or update a device setting:
 
