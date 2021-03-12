@@ -154,7 +154,7 @@ Teams is built on the advanced security and compliance capabilities of Microsoft
 
 [Governance quick start for Teams](teams-adoption-governance-quick-start.md)
 
-[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance.md)
+[Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 <!--
 ## Teams lifecycle management
