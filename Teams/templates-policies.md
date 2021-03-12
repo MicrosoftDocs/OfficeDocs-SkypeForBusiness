@@ -20,7 +20,7 @@ search.appverid: MET150
 description: Learn how to manage Teams templates in the admin center
 ---
 
-# Manage team templates in the admin center
+# Manage Teams templates in the admin center
 
 Manage the Teams templates that your end users see by creating templates policies in the admin center. Within each template policy, you can designate which templates are shown or hidden.
 Assign different users to different template policies so that your users view only the subset of Teams templates specified.
@@ -53,7 +53,7 @@ Watch this short video to learn how to manage template policies.
 
 1. To unhide certain templates, scroll to the **Hidden templates** table.
 
-1. Select the templates to unhide, and then select **Show**.
+2. Select the templates to unhide, and then select **Show**.
 
    ![The selected templates that aren't hidden](media/template-policies-3.png)
 
