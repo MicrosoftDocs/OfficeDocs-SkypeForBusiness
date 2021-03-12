@@ -96,7 +96,7 @@ Create a Group Policy object assigned to the organization unit that contains you
 -   Enable Windows Update.
 -   Enable PowerShell remoting. You can configure a start-up script to run a script: Enable-PSRemoting -Force
 
-You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](rooms-operations.md#remote-management-using-powershell). 
+You can use PowerShell to perform several remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](rooms-operations.md#remote-management-using-powershell). 
 
 
 ## Configuration and deployment 
@@ -124,11 +124,11 @@ Each Microsoft Teams Rooms device requires a dedicated and unique resource accou
 
 ### Device software installation 
 
-When planning to deploy Microsoft Teams Rooms, you have a number of options to consider to install the required software. Common scenarios and approaches are described in the following table. 
+When planning to deploy Microsoft Teams Rooms, you have many options to consider to install the required software. Common scenarios and approaches are described in the following table. 
 
 | **Scenario**            | **Approach**         |
 |-------------------------|-----------------------|   
-|Deploying a small number of Microsoft Teams Rooms devices (<10). | If using Surface Pro–based Microsoft Teams Rooms, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
+|Deploying a few of Microsoft Teams Rooms devices (<10). | If using Surface Pro–based Microsoft Teams Rooms, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
 | Deploying between 10 and 50 devices from a single vendor.     | Create a WIM-based image, pause after [step 6 in the guidance](console.md), and capture a distribution image to be used with your cloning distribution technology.    |
 | Deploying more than 50 Microsoft Teams Rooms devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
@@ -143,8 +143,9 @@ An additional consideration is whether the Microsoft Teams Rooms will be domain-
 
 |    |     |
 |-----------|------------|
-| ![decision points icon](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the Microsoft Teams Rooms device-naming convention to be used during your deployment.</li><li>Decide whether you'll join Microsoft Teams Rooms devices to your domain, and how to manage and configure local accounts. </li><li>Decide whether you'll use Operations Management Suite to monitor the Microsoft Teams Rooms deployment.</li><li>Decide which method you'll use to deploy the software and agents to the Microsoft Teams Rooms system in preparation for the device deployment. </li></ul>| 
-| ![next steps icon](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment approach.</li></ul>| 
+| ![decision points device naming](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the Microsoft Teams Rooms device-naming convention to be used during your deployment.</li><li>Decide whether you'll join Microsoft Teams Rooms devices to your domain, and how to manage and configure local accounts. </li><li>Decide whether you'll use Operations Management Suite to monitor the Microsoft Teams Rooms deployment.</li><li>Decide which method you'll use to deploy the software and agents to the Microsoft Teams Rooms system in preparation for the device deployment. </li></ul>| 
+| ![next steps plan device](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment approach.</li></ul>| 
+
 
 ### Device deployment
 

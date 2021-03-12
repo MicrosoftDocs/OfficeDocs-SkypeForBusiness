@@ -748,6 +748,8 @@ items:
               href: set-the-phone-numbers-included-on-invites-in-teams.md
             - name: Start an Audio Conference over the phone without a PIN
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+            - name: Mask phone numbers in Teams meetings
+              href: ptsn-mask-phone-numbers.md
         - name: Country and region availability for Audio Conferencing
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
         - name: Reference
