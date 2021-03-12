@@ -46,27 +46,18 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     
 ## Enable Skype Meeting Broadcast using PowerShell
 
-1. Verify that you are running version 3.0 or higher of Windows PowerShell.
+1. Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
-2. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-3. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
-    
-4. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
-    
-5. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
-    
-6. From the **Start Menu**, choose **Windows PowerShell**.
-    
-7. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
-    
-   ```PowerShell
-   $Credential = get-credential
-   $O365Session = New-CsOnlineSession -Credential $credential
-   Import-PSSession $O365Session
-   ```
+2. Open a Windows PowerShell command prompt and run the following commands: 
 
-8. Confirm your current Skype Meeting Broadcast configuration by running:
+   ```powershell
+   # When using Teams PowerShell Module
+   
+   Import-Module MicrosoftTeams
+   $userCredential = Get-Credential
+   Connect-MicrosoftTeams -Credential $userCredential
+   ```
+3. Confirm your current Skype Meeting Broadcast configuration by running:
     
    ```PowerShell
    Get-CsBroadcastMeetingConfiguration
