@@ -35,7 +35,7 @@ Attendees who join after the main meeting capacity has been reached will have a 
 We have full Android and iOS mobile support for an attendee to join.
 
 > [!Note]
-> The current limit for the number of people who can chat and call in to a meeting is 300 in WW and 250 in GCC, GCC High, and DoD.
+> The current limit for the number of people who can chat and call in to a meeting is 300 in **WorldWide (WW)** and 250 in **Government Community Cloud (GCC)**, **Government Community Cloud (GCC) High**, and **Department of Defence (DoD)**.
 
 The view-only experience is disabled by default for any organizer who has E3/E5/A3/A5 SKU. No further configuration or setup is required.
 
@@ -114,3 +114,4 @@ The view-only attendee won't be able to experience the following options in meet
 
 - [Advanced communications add-on for Teams](teams-add-on-licensing/advanced-communications.md)
 - [Limits and specifications for Teams](limits-specifications-teams.md)
+- [Office 365 GCC High and DoD](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)
