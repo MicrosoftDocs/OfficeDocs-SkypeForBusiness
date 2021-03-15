@@ -24,79 +24,117 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
 ---
-# Manage meeting policies in Teams
 
-::: zone target="docs"
-Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
 
-> [!NOTE]
-> For information about using roles to manage the permissions of meeting presenters and attendees, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+# Meeting policy settings - Content sharing
 
-You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
+This article describes the following meeting policy settings related to content sharing:
 
-|Implementation type  |Description  |
+- [Screen sharing mode](#screen-sharing-mode)
+- [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
+- [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
+- [Allow PowerPoint sharing](#allow-powerpoint-sharing)
+- [Allow whiteboard](#allow-whiteboard)
+- [Allow shared notes](#allow-shared-notes)
+
+## Screen sharing mode
+
+This is a combination of a per-organizer and per-user policy. This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
+
+|Setting value |Behavior  |
 |---------|---------|
-|Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
-|Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Allow Meet now in channels** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
+|**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting |
+|**Single application**   | Application sharing is allowed in the meeting        |
+|**Disabled**     |Screen sharing and application sharing turned off in the meeting.       |
 
-You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
+Let's look at the following example.
 
-> [!NOTE]
-> Meeting details button will be available if a user has the audio conference licenses enabled or the user is allow for audio conferencing, if not, the meeting details will not be available.
+|User |Meeting policy |Screen sharing mode |
+|---------|---------|---------|
+|Daniela  | Global   | Entire screen |
+|Amanda   | Location1MeetingPolicy  | Disabled |
 
-## Create a custom meeting policy
+Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them. This means that Daniela can't share her screen or a single application in Amanda's meetings.  
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Click **Add**.
-3. Enter a name and description for the policy. The name can't contain special characters or be longer than 64 characters.
-4. Choose the settings that you want.
-5. Click **Save**.
+Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
 
-For example, say you have a bunch of users and you want to limit the amount of bandwidth that their meeting would require. You would create a new custom policy named "Limited bandwidth" and disable the following settings:
+## Allow a participant to give or request control
 
-Under **Audio & video**:
+This is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
 
-- Turn off Allow cloud recording.
-- Turn off Allow IP video.
+If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
 
-Under **Content sharing**:
+![Screenshot showing the Give Control option](media/meeting-policies-give-control.png)
 
-- Disable screen sharing mode.
-- Turn off Allow whiteboard.
-- Turn off Allow shared notes.
+If the settings is turned off for the user, the **Give Control** option isn't available.
 
-Then assign the policy to the users.
+![Screenshot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
 
-## Edit a meeting policy
+Let's look at the following example.
 
-You can edit the global policy and any custom policies that you create.
+|User |Meeting policy  |Allow participant to give or request control |
+|---------|---------|---------|
+|Daniela   | Global   | On       |
+|Babek    | Location1MeetingPolicy        | Off   |
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
-3. From here, make the changes that you want.
-4. Click **Save**.
+Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek whereas Babek can't give control to other participants.
+
+To use PowerShell to control who can give control or accept requests for control, use the AllowParticipantGiveRequestControl cmdlet.
 
 > [!NOTE]
-> A user can be assigned only one meeting policy at a time.
+> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
 
-## Assign a meeting policy to users
+## Allow an external participant to give or request control
 
-[!INCLUDE [assign-policy](includes/assign-policy.md)]
+This is a per-user policy. Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
 
-> [!NOTE]
-> You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
+- Anonymous user
+- Guest users  
+- B2B user
+- Federated user  
 
-## Meeting policy settings
+Whether federated users can give control to external users while sharing is controlled by the **Allow an external participant to give or request control** setting in their organization.
 
-When you select an existing policy on the **Meeting policies** page or select **Add** to add a new policy, you can configure settings for the following.
+To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
-- [General](#meeting-policy-settings---general)
-- [Audio & video](#meeting-policy-settings---audio--video)
-- [Content sharing](#meeting-policy-settings---content-sharing)
-- [Participants & guests](#meeting-policy-settings---participants--guests)
+### Allow PowerPoint sharing
 
-::: zone-end
+This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer.
+
+Let's look at the following example.
+
+|User |Meeting policy  |Allow PowerPoint sharing |
+|---------|---------|---------|
+|Daniela   | Global   | On       |
+|Amanda   | Location1MeetingPolicy        | Off   |
+
+Amanda can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Daniela can share PowerPoint slide decks even if the meeting is organized by Amanda. Amanda can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
+
+## Allow whiteboard
+
+This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
+
+Let's look at the following example.
+
+|User |Meeting policy  |Allow whiteboard|
+|---------|---------|---------|
+|Daniela   | Global   | On       |
+|Amanda   | Location1MeetingPolicy        | Off   |
+
+Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.  
+
+## Allow shared notes
+
+This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
+
+Let's look at the following example.
+
+|User |Meeting policy  |Allow shared notes |
+|---------|---------|---------|
+|Daniela   | Global   | On       |
+|Amanda   | Location1MeetingPolicy | Off |
+
+Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
 
 
