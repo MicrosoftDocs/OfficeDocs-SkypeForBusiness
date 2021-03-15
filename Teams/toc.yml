@@ -670,8 +670,6 @@ items:
       href: raise-hand-meetings.md
     - name: Teams meetings on unsupported browsers
       href: unsupported-browsers.md
-    - name: Configure desktop sharing in Teams
-      href: configure-desktop-sharing.md
     - name: Teams cloud meeting recording
       href: cloud-recording.md
     - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
