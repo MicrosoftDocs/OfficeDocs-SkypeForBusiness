@@ -40,6 +40,7 @@ Your organization can use Teams monitoring and alerting to do the following item
 
 We continue adding to and improving the Teams monitoring experience by adding various monitoring capabilities and configuration functionalities. Here's a list of the Teams monitoring rules currently available in the Teams admin center.
 
+
 |Rule  |Monitoring capability|What's monitored? |
 |---------|---------|---------|
-|[Device health status](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.
+|[Device health status](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.|
