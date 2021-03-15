@@ -1,7 +1,7 @@
 ---
-title: Manage meeting policies
-author: tonysmit
-ms.author: tonysmit
+title: Manage meeting policies 
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams

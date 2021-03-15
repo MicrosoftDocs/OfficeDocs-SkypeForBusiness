@@ -1,7 +1,7 @@
 ---
-title: Manage meeting policies
-author: tonysmit
-ms.author: tonysmit
+title: Manage general meeting policies
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -22,7 +22,7 @@ ms.custom:
   - ms.teamsadmincenter.meetingpolicies.general
   - ms.teamsadmincenter.meetingpolicies.participantandguests
   - seo-marvel-apr2020
-description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
+description: Learn to manage general meeting policy settings in Teams.
 ---
 
 
@@ -39,9 +39,9 @@ This article describes the following general policy settings for Teams meetings:
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
 - [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
-- Designated presenter role mode
-- Meeting attendance report
-- Meeting provider for Islands mode
+- [Designated presenter role mode](#designated-presenter-role-mode)
+- [Meeting attendance report](#meeting-attendance-report)
+- [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
 
 ## Allow Meet now in channels
 

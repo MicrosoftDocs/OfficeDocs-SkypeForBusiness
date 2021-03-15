@@ -1,7 +1,7 @@
 --- 
-title: Manage meeting policies
-author: tonysmit
-ms.author: tonysmit
+title: Manage meeting policies fpr participants and guests
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -22,7 +22,7 @@ ms.custom:
   - ms.teamsadmincenter.meetingpolicies.general
   - ms.teamsadmincenter.meetingpolicies.participantandguests
   - seo-marvel-apr2020
-description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
+description: Learn to manage meeting policy settings in Teams for participants and guests.
 ---
 
 # Meeting policy settings - Participants & guests
