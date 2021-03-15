@@ -16,17 +16,10 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.meetingpolicies.overview
-  - ms.teamsadmincenter.meetingpolicies.audioandvideo
-  - ms.teamsadmincenter.meetingpolicies.contentsharing
   - ms.teamsadmincenter.meetingpolicies.general
-  - ms.teamsadmincenter.meetingpolicies.participantandguests
   - seo-marvel-apr2020
 description: Learn to manage general meeting policy settings in Teams.
 ---
-
-
-
 
 # Meeting policy settings - General
 
