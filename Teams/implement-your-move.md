@@ -79,7 +79,7 @@ We recommend the following framework for transition:
 
 - **Use Kaizala and Teams**  
 
-   To find the right Microsoft Teams for your business, see [Compare Microsoft Teams Online Options | Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options). 
+   To find the right Microsoft Teams for your business, see [Compare Microsoft Teams Online Options | Microsoft Teams](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options). 
 
 - **Manage change** 
 
