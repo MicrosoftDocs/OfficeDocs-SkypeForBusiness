@@ -476,6 +476,8 @@ items:
       href: sharing-files-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
+    - name: Share to Teams from Outlook
+      href: teams-outlook-share-teams.md
     - name: Manage messaging policies
       href: messaging-policies-in-teams.md
     - name: User presence in Teams
