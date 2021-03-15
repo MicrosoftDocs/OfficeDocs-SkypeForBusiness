@@ -1,4 +1,4 @@
----
+--- 
 title: Manage meeting policies
 author: tonysmit
 ms.author: tonysmit
@@ -24,79 +24,72 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
 ---
-# Manage meeting policies in Teams
 
-::: zone target="docs"
-Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
+# Meeting policy settings - Participants & guests
+
+These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
+
+- [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
+- [Automatically admit people](#automatically-admit-people)
+- [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [Enable live captions](#enable-live-captions)
+- [Allow chat in meetings](#allow-chat-in-meetings)
 
 > [!NOTE]
-> For information about using roles to manage the permissions of meeting presenters and attendees, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+>Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
-You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
+## Let anonymous people start a meeting
 
-|Implementation type  |Description  |
+This is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.
+
+> [!NOTE]
+> If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
+
+## Automatically admit people
+
+This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
+
+![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
+
+ Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
+
+> [!NOTE]
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
+  
+|Setting value  |Join behavior |
 |---------|---------|
-|Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
-|Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Allow Meet now in channels** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
+|**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, external users from trusted organizations (federated), guests, and anonymous users.     |
+|**Everyone in your organization and federated organizations**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
+|**Everyone in your organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
+|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations and anonymous users must wait in the lobby.           |
 
-You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
+## Allow dial-in users to bypass the lobby
 
-> [!NOTE]
-> Meeting details button will be available if a user has the audio conference licenses enabled or the user is allow for audio conferencing, if not, the meeting details will not be available.
-
-## Create a custom meeting policy
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Click **Add**.
-3. Enter a name and description for the policy. The name can't contain special characters or be longer than 64 characters.
-4. Choose the settings that you want.
-5. Click **Save**.
-
-For example, say you have a bunch of users and you want to limit the amount of bandwidth that their meeting would require. You would create a new custom policy named "Limited bandwidth" and disable the following settings:
-
-Under **Audio & video**:
-
-- Turn off Allow cloud recording.
-- Turn off Allow IP video.
-
-Under **Content sharing**:
-
-- Disable screen sharing mode.
-- Turn off Allow whiteboard.
-- Turn off Allow shared notes.
-
-Then assign the policy to the users.
-
-## Edit a meeting policy
-
-You can edit the global policy and any custom policies that you create.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
-2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
-3. From here, make the changes that you want.
-4. Click **Save**.
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting.
 
 > [!NOTE]
-> A user can be assigned only one meeting policy at a time.
+> If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
 
-## Assign a meeting policy to users
+## Enable live captions
 
-[!INCLUDE [assign-policy](includes/assign-policy.md)]
+This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
 
-> [!NOTE]
-> You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
+![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
 
-## Meeting policy settings
+|Setting value |Behavior  |
+|---------|---------|
+|**Disabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
+|**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
 
-When you select an existing policy on the **Meeting policies** page or select **Add** to add a new policy, you can configure settings for the following.
+<a name="bkcontentsharing"> </a>
 
-- [General](#meeting-policy-settings---general)
-- [Audio & video](#meeting-policy-settings---audio--video)
-- [Content sharing](#meeting-policy-settings---content-sharing)
-- [Participants & guests](#meeting-policy-settings---participants--guests)
+## Allow chat in meetings
 
-::: zone-end
+This is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
+
+<a name="bkparticipantsandguests"> </a>
+
+
 
 
 
