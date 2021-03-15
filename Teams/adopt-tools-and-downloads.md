@@ -5,7 +5,7 @@ description: Use these adoption resources to help you drive adoption of Microsof
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-ms.date: 11/20/2018
+ms.topic: conceptual
 audience: admin 
 ms.service: msteams
 f1.keywords:
