@@ -1,8 +1,8 @@
 ---
 title: Overview of security and compliance
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: laurawi
+ms.author: laurawi
+manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
