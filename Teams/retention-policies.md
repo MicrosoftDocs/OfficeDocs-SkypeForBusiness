@@ -66,7 +66,7 @@ Retention on Teams messages works on the timestamp of the creation of the origin
 
 Here, the original message will be copied to a temporary location in the backend storage and deleted within 21 days. If there is Legal hold (via eDiscovery portal) or Retention hold in place on the user, then all versions of original, deleted and edited messages are stored as long as the hold policy is active.
 
-The “edited message” would be deleted by the retention policy on Day-30 i.e. based on the timestamp on the original message.
+The edited message would be deleted by the retention policy on day 30, that is, based on the timestamp on the original message.
 
 ## End user experience
 
