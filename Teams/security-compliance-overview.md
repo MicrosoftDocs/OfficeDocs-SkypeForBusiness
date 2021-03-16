@@ -1,6 +1,6 @@
 ---
 title: Overview of security and compliance
-author: MicrosoftHeidi
+author: laurawi
 ms.author: laurawi
 manager: laurawi
 ms.topic: conceptual
