@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.meetingpolicies.overview
-  - ms.teamsadmincenter.meetingpolicies.audioandvideo
-  - ms.teamsadmincenter.meetingpolicies.contentsharing
-  - ms.teamsadmincenter.meetingpolicies.general
   - ms.teamsadmincenter.meetingpolicies.participantandguests
   - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams for participants and guests.
 ---
 
+
+
 # Meeting policy settings - Participants & guests
+
+<a name="bkmeetingparticipants"> </a>
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
