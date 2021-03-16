@@ -32,7 +32,7 @@ To get started:
 
 3. Select **Add**.
 
-![An image of the Team templates dialog with Add highlighted.](media/team-templates-new.png)
+   ![An image of the Team templates dialog with Add highlighted.](media/team-templates-new.png)
 
 4. In the **Team templates** section, select **Create a brand new template**.
 
@@ -41,7 +41,7 @@ To get started:
     - Template short and long descriptions
     - Locale visibility  
 
-![An image of the Team templates settings naming dialog.](media/template-add-a-name.png)
+   ![An image of the Team templates settings naming dialog.](media/template-add-a-name.png)
 
 6. In the **channels, tabs, and apps** section, add any channels and apps that your team needs.
 
@@ -52,7 +52,7 @@ To get started:
     5. Search for an app name that you want to add to the channel.
     6. Select **Apply** when finished.
 
-![An image of the Team templates channels, tabs, and apps screen.](media/template-channels-tabs-apps.png)
+   ![An image of the Team templates channels, tabs, and apps screen.](media/template-channels-tabs-apps.png)
 
 8. Select **Submit** when completed.
 
