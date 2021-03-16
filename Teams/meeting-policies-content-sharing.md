@@ -24,6 +24,8 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 
 # Meeting policy settings - Content sharing
 
+<a name="bkcontentsharing"> </a>
+
 This article describes the following meeting policy settings related to content sharing:
 
 - [Screen sharing mode](#screen-sharing-mode)

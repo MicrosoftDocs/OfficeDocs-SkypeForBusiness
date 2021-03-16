@@ -655,6 +655,8 @@ items:
               href: meeting-policies-participants-and-guests.md
             - name: Remove the RestrictedAnonymousAccess Teams meeting policy from users
               href: meeting-policies-restricted-anonymous-access.md
+        - name: Other meeting policies
+          href: meeting-policies-in-teams-other.md
 
     - name: Manage meetings settings
       href: meeting-settings-in-teams.md
