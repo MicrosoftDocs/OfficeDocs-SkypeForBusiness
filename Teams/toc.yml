@@ -476,6 +476,8 @@ items:
       href: sharing-files-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
+    - name: Share to Teams from Outlook
+      href: teams-outlook-share-teams.md
     - name: Manage messaging policies
       href: messaging-policies-in-teams.md
     - name: User presence in Teams
@@ -1465,6 +1467,7 @@ items:
             - name: Prepare your organization for Teams
               href: prepare-for-teams.md
             - name: Implement your move
+              href: implement-your-move.md
     - name: Licensing
       items: 
         - name: Manage user access to Teams
@@ -1538,6 +1541,10 @@ items:
           href: devices/teams-ip-phones.md
         - name: Phones for Skype for Business Online
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+        - name: Teams alerting and monitoring
+          href: alerts/teams-admin-alerts.md 
+        - name: Teams device health monitoring
+          href: alerts/device-health-status.md 
     - name: Teams PowerShell
       items: 
         - name: Overview
