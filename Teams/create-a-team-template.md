@@ -63,8 +63,8 @@ Your new template is displayed in the **Team templates** list. The template can 
 
 ## Customizing Website Tab apps
 
->[!​Note]
->This feature is in early preview
+> [!Note]
+> This feature is in early preview
 
 You might want to specify URLs for website tabs for channels in custom team templates. End users who create teams with templates will have website tabs that are preset to the specified site URL.
 
