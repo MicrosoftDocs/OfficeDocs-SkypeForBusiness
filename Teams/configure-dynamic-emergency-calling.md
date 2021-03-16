@@ -81,6 +81,10 @@ The following clients are currently supported.  Check back often to see updates 
 
 > [!NOTE]
 > Dynamic emergency calling including security desk notification isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
+> 
+
+> [!NOTE]
+> Dynamic emergency calling on Teams phones will not suport WAP for LIS matching.
 
 ## Assign emergency addresses
 
