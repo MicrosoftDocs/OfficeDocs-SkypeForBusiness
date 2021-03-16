@@ -34,6 +34,7 @@ This article describes the meeting policy settings specific to audio and video. 
 - [Mode for IP video](#mode-for-ip-video) 
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
+- [Video vilters mode](#video-filters-mode)
 
 ### Allow transcription
 
@@ -166,7 +167,7 @@ If there isn't enough bandwidth for a meeting, participants see a message that i
 
 For meetings that need the highest-quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low-bandwidth conditions when certain network conditions are detected, depending on the scenario.
 
-## Meeting policy settings - Video filters mode
+## Video filters mode
 
 This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
 
