@@ -94,7 +94,7 @@ Teams has a wide range of information to help you with compliance areas, includi
 
 ### Information Barriers
 
-Information barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level. Information Barrier feature is available in public cloud and starting Jan'2021 it has been rolled out to GCC cloud as well.
+Information barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level. The Information Barrier feature is available in the public cloud and starting January 2021 it has been rolled out to the GCC cloud.
 
 For further reading on this topic, go to [Information barriers in Microsoft Teams](information-barriers-in-teams.md).
 
