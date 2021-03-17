@@ -101,7 +101,6 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
 See the [Network Security](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
   
-**Firewall Proxy Host Name/Port Configuration**
 See this article for full details on required FQDNs, Ports and IPs to operate Microsoft Teams Rooms: https://docs.microsoft.com/en-us/microsoftteams/rooms/security#network-security
   
 ### Create provisioning packages
