@@ -100,7 +100,7 @@ tools:
       imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
       url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
     # Card
-    - title: Teams UserVoice (user feedback forum)
+    - title: Teams product feedback
       imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
       url: https://microsoftteams.uservoice.com/
     # Card
