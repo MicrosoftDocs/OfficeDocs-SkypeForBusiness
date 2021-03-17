@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 
 This article discusses how to manage Microsoft Teams Rooms devices in an integrated manner using Azure Monitor.
 
-You can configure Azure Monitor to provide basic telemetry to help you manage Skype meeting room devices. See [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md) and [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md) for details. As your management solution matures, you can use additional data and management capabilities to create a more detailed view of device performance.
+You can configure Azure Monitor to provide basic telemetry to help you manage Microsoft Teams meeting rooms devices. See [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md) and [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md) for details. As your management solution matures, you can use additional data and management capabilities to create a more detailed view of device performance.
 
 ## Understand the log entries
 
