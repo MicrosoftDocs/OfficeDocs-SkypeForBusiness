@@ -13,6 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: 
 appliesto: 
@@ -47,7 +48,7 @@ If you don't want to customize anything immediately, you're done! You can start 
 <table>
     <tr>
         <td>If you want to change the emergency address, click <b>Edit</b>, and then enter a new address. The address that you provide is validated to make sure that it's legitimate and correctly formatted for emergency response services. This address is then assigned to all users that you assign a number to in the next step. If you have employees in more than one location, see <a href="./customize-business-voice.md">Business Voice design customization</a> to add and assign more emergency addresses after you prepare the Getting Started wizard.</td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="wizard choose number"></td></tr>
 </table>
 
 For more information, see [What are emergency locations, addresses, and call routing](../what-are-emergency-locations-addresses-and-call-routing.md)?
@@ -58,7 +59,7 @@ For more information, see [What are emergency locations, addresses, and call rou
     <tr>
         <td>In addition to a new local phone number, you can purchase a toll-free number or port an existing number to Microsoft 365. To set up a toll-free number, you need to purchase Communications Credits. To port one or more numbers to Microsoft 365, go to the <a href="https://admin.teams.microsoft.com">Teams admin center</a> after the wizard finishes.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="choose number">
         </td>
     </tr>
 </table>
@@ -72,7 +73,7 @@ For more information, see [What are emergency locations, addresses, and call rou
     <tr>
         <td>To assign user licenses, select the people in your organization who need to make or receive phone calls outside of Teams (such as calling a supplier). You can only assign as many Business Voices licenses as you have available. If you need more, you can buy additional licenses after the wizard is finished.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400" alt="get numbers">
         </td>
     </tr>
 </table>
@@ -86,7 +87,7 @@ For more information, see [What are emergency locations, addresses, and call rou
     <tr>
         <td>You can upload a sound file (MP3 or WAV) of up to 5 Megabytes (MB) to use as a call greeting, or you can type your greeting, and Microsoft 365 will use text-to-speech to read it to the caller. The greeting will be the first thing callers hear when they call your company phone number. For text-to-speech, you might need to use phonetic spellings to get the pronunciations correct.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400" alt="greeting">
         </td>
     </tr>
 </table>
@@ -98,7 +99,7 @@ For more information, see [What are emergency locations, addresses, and call rou
         <td>You can forward all calls to a specific user, or you can set up a menu that the caller can choose options from. If you create a call menu, you specify options that the caller can select by voice or by pressing a number on a phone's keypad. Each menu option can forward calls to a specific user.<br><br>
         You can upload a sound file (MP3 or WAV) of up to 5 MB that gives instructions to the caller, or you can type the instructions. Microsoft 365 will use text-to-speech to read them to the caller. You might need to spell words phonetically to get the pronunciations right.
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400" alt="call forwarding">
         </td>
     </tr>
 </table>
@@ -111,7 +112,7 @@ For more information, see [What are emergency locations, addresses, and call rou
         <td> <p>The Getting Started wizard takes the information that you enter and sets up Business Voice. On the <b>Overview</b> page, you can see what phone numbers are assigned to your users, look at your call menu, listen to your greeting, and more.</p>
              <p>Setup takes several minutes. If you select <b>Done</b>, we'll continue to set up Business Voice in the background. Or just wait until setup is finished. After it's finished, go to <b>Voice</b> in the <a href="https://admin.teams.microsoft.com" target="_blank">Teams admin center</a> to set up more Business Voice features.</p>
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400" alt="finish page">
         </td>
     </tr>
 </table>

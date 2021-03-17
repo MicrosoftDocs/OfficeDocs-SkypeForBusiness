@@ -1,16 +1,17 @@
 ---
 title: Teams and Skype interoperability
-author: LanaChin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: 
+ms.collection:
   - M365-collaboration
+  - m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users. 
+description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users.
 localization_priority: Normal
 ---
 
@@ -68,7 +69,14 @@ Blocked Skype users, along with other people and public switched telephone netwo
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants.
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants. However, there's a prerequisite that the following DNS SRV record needs to be configured by the IT Admin if not already available for your domain, for example _sipfederationtls.contoso.com.  
+
+**Service**: sipfederationtls<br/>
+**Protocol**: TCP<br/>
+**Priority**: 100<br/>
+**Weight**: 1<br/>
+**Port**: 5061<br/>
+**Target**: sipfed.online.lync.com
 
 If you upgraded from Skype for Business to Teams, the external communications settings that you configured in the Skype for Business admin center are migrated to Teams.
 
@@ -78,7 +86,10 @@ In the Microsoft Teams admin center, go to **Org-wide settings** > **External ac
 
 ### Using PowerShell
 
-Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users. You can use the ```EnablePublicCloudAudioVideoAccess``` parameter to enable/disable audio/video calls.
+Do the following: 
+1. Use the [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users. You can use the ```EnablePublicCloudAudioVideoAccess``` parameter to enable/disable audio/video calls.
+
+2. Use the [Set-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) cmdlet together with the ```Provider``` parameter set to ```"WindowsLive"``` so that Teams users can communicate with Skype users.
 
 ## Related topics
 

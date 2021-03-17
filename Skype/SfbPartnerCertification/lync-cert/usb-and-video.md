@@ -1,7 +1,7 @@
 ---
 title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business and Teams certification program"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: View app permissions and grant admin consent in the Microsoft Teams admin center
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: vaibhava
 manager: serdars
 ms.topic: article
@@ -27,7 +27,7 @@ If you're a global admin, you can review and grant consent to apps that request 
 
 Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps and. You won't see this link or need to grant admin consent for apps published by Microsoft.
+The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps. You won't see this link or need to grant admin consent for apps published by Microsoft.
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot of Permissions column on Manage apps page":::
 
@@ -89,5 +89,6 @@ Currently, the ability to review permissions and grant consent isn't available f
 - [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [Resource-specific consent in Teams](resource-specific-consent.md)
 - [Resource-specific consent (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- [Navigating the Teams app lifecycle](https://aka.ms/PR132) (Ignite 2020 session)
 
 

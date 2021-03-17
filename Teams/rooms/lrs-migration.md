@@ -1,7 +1,7 @@
 ---
 title: Migrate Lync Room System devices to Microsoft Teams Rooms
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro

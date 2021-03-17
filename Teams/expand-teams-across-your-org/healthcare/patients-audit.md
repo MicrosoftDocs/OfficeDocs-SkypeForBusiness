@@ -14,18 +14,16 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
-description: Patients app for Teams admins
+description: Learn about auditing the Patients app for Teams admins
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Audit logs for Patients app
 
-> [!IMPORTANT]
-> **Effective October 15, 2020, the Patients app will be deprecated and users will no longer be able to 
->install it from the Teams app store. We encourage you to start using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams today.**
+> [!NOTE]
+> Effective October 30, 2020, the Patients app has been retired and replaced by the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams. Patients app data is stored in the group mailbox of the Office 365 group that backs the team. All data associated with the Patients app is retained in this group but can no longer be accessed through the user interface. Users can re-create their lists using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
->Patients app data is stored in the group mailbox of the Office 365 group that backs the team. When the Patients app is retired, all data associated with it will be retained in this group but can no longer be accessed through the user interface. Current users can re-create their lists using the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
->
->The [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) is pre-installed for all Teams users and is available as a tab in every team and channel. With Lists, care teams can create patient lists using the built-in Patients template, from scratch, or by importing data to Excel. To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](../../manage-lists-app.md).
+>With Lists, care teams in your healthcare organization can create patient lists for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring. Check out the Patients template in Lists to get started. To learn more about how to manage the Lists app in your organization, see [Manage the Lists app](../../manage-lists-app.md).
 
 An Audit log for Patients app activity allows after-incident response teams to review changes to a patient's Electronic Medical Records (EMR) or Patient Healthcare Information (PHI) and determine if changes or improvements in policy or procedure for PHI access in productivity tools are needed. The audit log events cover actions performed through the Patients app user interface.
 

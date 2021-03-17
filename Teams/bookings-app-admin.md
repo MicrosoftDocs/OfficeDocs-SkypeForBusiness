@@ -1,21 +1,27 @@
 ---
-title: "Bookings app and virtual visits in Microsoft Teams"
-author: mattpennathe3rd
-ms.author: v-mapenn
+title: "Virtual visits with Microsoft Teams and the Bookings app"
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 audience: ITPro
 ms.topic: article 
 ms.service: msteams 
 search.appverid: 
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
+  - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
 ms.reviewer: 
 description: Microsoft Teams and virtual visits with the Bookings App
 ---
 
-# Bookings app and virtual visits in Microsoft Teams
+# Virtual visits with Microsoft Teams and the Bookings app
 
 The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments, such as healthcare visits, financial consultations, interviews, customer support, education office hours, and much more.
 

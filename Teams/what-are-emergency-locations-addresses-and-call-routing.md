@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Microsoft Teams

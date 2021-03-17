@@ -1,13 +1,13 @@
 ---
 title: Use the Microsoft Teams Meeting add-in in Outlook
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
 f1.keywords:
@@ -16,6 +16,7 @@ ms.custom:
   - NewAdminCenter_Update
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---
@@ -71,7 +72,7 @@ For more information, see [Schedule meetings with FindTime](https://support.offi
 
 ## Authentication requirements
 
-The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they'll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
+The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they'll still be able to use the Teams client, but will be unable to schedule [Teams online meetings](https://www.microsoft.com/microsoft-teams/online-meetings) using the Outlook add-in. You can fix this by doing one of the following:
 
 - If Modern Authentication is not configured for your organization, you should configure Modern Authentication.
 - If Modern Authentication is configured, but they canceled out on the dialog box, you should instruct users to sign in again using multi-factor authentication.
@@ -174,4 +175,6 @@ If your administrator has configured Microsoft Exchange to [control access to Ex
 
 ## Related topics
 
-[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+- [Schedule a Teams meeting from Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

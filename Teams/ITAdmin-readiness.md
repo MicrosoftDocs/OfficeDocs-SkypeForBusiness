@@ -1,8 +1,8 @@
 ---
 title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -27,7 +27,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![An icon depicting a hand and an upward arrow](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Get started fast with a couple of teams and channels](/MicrosoftTeams/get-started-with-teams-quick-start) | ![An icon depicting two users](https://docs.microsoft.com/office/media/icons/users-people.png) | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![An icon depicting a check mark](https://docs.microsoft.com/office/media/icons/success-teams.png) | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Tasks clipboard symbol](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams in 30: a training series for IT admins and change management leaders to implement Teams in 30 days](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![An icon depicting a check mark](https://docs.microsoft.com/office/media/icons/success-teams.png) | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Tasks clipboard symbol](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](https://aka.ms/TeamsChalkTalks) |
 
 <h2>Technical training</h2>
 
@@ -50,9 +50,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Teams Rooms Foundations for IT & AV Pros</h2>
 
-<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks, on  Microsoft Teams Rooms.  
+<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on  Microsoft Teams Rooms.  
 
-| Module | Video | PowerPoint deck  |
+| Module | Video | PowerPoint deck (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | Module 1: Introduction to Microsoft Teams Rooms (18:29 min) | [Video](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | Module 2: Microsoft Teams Networking (34:10 min) | [Video](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
@@ -78,7 +78,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Configure Governance in Microsoft Teams                                     | Learn how to create a Teams messaging retention policy for your organization and how to archive, delete and restore individual Teams                                                                                   |  [Configure governance in Microsoft Teams guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Configuring and deploying Microsoft Teams meetings                          | Step through the process of deploying the meetings workload for Microsoft Teams.                                                                                                                                       |  [Configuring and deploying Microsoft Teams meetings guide](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configure Audio Conferencing for Microsoft Teams                            | Discover the capabilities of Audio Conferencing in Teams and learn how to assign conference bridges and dial-in phone numbers.                                                                                          |  [Configuring audio conferencing for Microsoft Teams guide](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Configuring Microsoft Teams for Firstline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Firstline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Firstline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Configuring Microsoft Teams for Frontline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Frontline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Frontline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>Quick start guides</h2>
 

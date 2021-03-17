@@ -1,8 +1,8 @@
 ---
 title: Teams for Healthcare
 description: Learn about the admin resources available for you to manage Teams for healthcare teams in your organization.
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -20,7 +20,7 @@ ms.custom: seo-marvel-apr2020
 
 # Teams for Healthcare
 
-Teams gives care teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.
+Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.
 
 |               |               |
 | ------------- | ------------- |

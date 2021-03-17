@@ -1,7 +1,7 @@
 ---
 title: Manage your apps in the Microsoft Teams admin center
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,7 +21,7 @@ localization_priority: Normal
 Manage your apps in the Microsoft Teams admin center
 ======================================================
 
-As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams (in preview), purchase services for third-party apps, view permissions requested by apps, grant admin consent to apps, and manage org-wide app settings.
+As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams, purchase services for third-party apps, view permissions requested by apps, grant admin consent to apps, and manage org-wide app settings.
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -102,8 +102,6 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
  > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
 
 ## Add an app to a team
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 You use the **Add to team** button to install an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
 

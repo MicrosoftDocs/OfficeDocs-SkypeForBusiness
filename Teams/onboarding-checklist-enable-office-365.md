@@ -1,7 +1,7 @@
 ---
 title: Onboarding checklist - Enable the Microsoft 365 or Office 365 service
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article

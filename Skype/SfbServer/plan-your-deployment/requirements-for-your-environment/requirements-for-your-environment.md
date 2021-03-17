@@ -1,8 +1,8 @@
 ---
 title: "Requirements for your Skype for Business environment"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro

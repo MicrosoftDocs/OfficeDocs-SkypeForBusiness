@@ -1,7 +1,7 @@
 ---
 title: Overview of teams and channels in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: MikePlumleyMSFT
+ms.author: mikeplum
 ms.reviewer: 
 manager: serdars
 ms.topic: conceptual
@@ -17,9 +17,9 @@ ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
   - ms.teamsadmincenter.teamschannel.overview
   - ms.teamsadmincenter.teamssettings.overview
+  - okr_smb
 ms.collection: 
   - M365-collaboration
-ms.custom: okr_smb
 appliesto: 
   - Microsoft Teams
 ---

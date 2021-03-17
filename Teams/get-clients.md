@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -37,7 +38,7 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 > [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-The Microsoft Teams desktop client is a standalone application and is also [available in Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for 32-bit and 64-bit versions of Windows (8.1 or later) and Windows Server (2012 R2 or later), as well as for macOS and Linux (in `.deb` and `.rpm` formats). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as `apt` and `yum` will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
+The Microsoft Teams desktop client is a standalone application and is also [available in Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install). Teams is available for 32-bit and 64-bit versions of Windows (8.1 or later), ARM64 for Windows 10 on ARM, and Windows Server (2012 R2 or later), as well as for macOS and Linux (in `.deb` and `.rpm` formats). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. On Linux, package managers such as `apt` and `yum` will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
@@ -120,7 +121,7 @@ The signing key to enable auto-updating using the system's package manager is in
 1. Download the package from https://aka.ms/getteams.
 2. Install using one of the following:  
     - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo apt install **teams download file**`
+    - Or if you love Terminal, type: `sudo dpkg -i **teams download file**`
 
 You can launch Teams via Activities or via Terminal by typing `teams`. 
 

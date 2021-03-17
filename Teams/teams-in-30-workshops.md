@@ -3,8 +3,7 @@ title: Teams in 30
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-
-ms.date: 7/1/19
+ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
 ms.collection: 

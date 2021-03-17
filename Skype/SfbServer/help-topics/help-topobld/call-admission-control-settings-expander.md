@@ -1,8 +1,8 @@
 ---
 title: "Call Admission Control Settings Expander"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Configure accounts for Microsoft Teams Rooms"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

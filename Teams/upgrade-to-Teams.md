@@ -1,7 +1,7 @@
 ---
-title: Upgrade to Microsoft Teams | Skype for Business Teams Roadmap
-author: CarolynRowe
-ms.author: crowe
+title: Overview of implementing your upgrade to Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -22,7 +22,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Overview
+# Overview of implementing your upgrade
 
 ![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 

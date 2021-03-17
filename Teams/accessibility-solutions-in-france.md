@@ -157,7 +157,7 @@ Les utilisateurs de Skype Entreprise utilisant Outlook 2010 ou des
 versions plus récentes peuvent choisir de recevoir leurs messages vocaux
 au format texte, ce qui peut être bénéfique pour les personnes
 malentendantes ou sourdes :
-[https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR).
+[https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr](https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr).
 Les administrateurs informatiques de Microsoft Teams peuvent gérer la
 transcription pour leurs clients. Pour une lecture plus facile,
 Microsoft Teams prend en charge le zoom et Skype Entreprise permet

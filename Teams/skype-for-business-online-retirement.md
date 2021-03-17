@@ -1,13 +1,13 @@
 ---
 title: Skype for Business Online retirement
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Learn about the retirement plan for Skype for Business Online and how Microsoft is helping customers migrate to Teams. 
+description: Learn about the retirement plan for Skype for Business Online, and how Microsoft is helping customers migrate to Teams. 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -44,7 +44,7 @@ Teams is available in most Microsoft 365 Business and Enterprise plans, and your
 
 The Skype consumer service and Skype for Business Server are not affected by the retirement of Skype for Business Online.
 
-[Read FAQs](faq-journey.md) on the process of upgrading to Teams and the Teams capabilities roadmap.
+[Read FAQs](FAQ-journey.yml) on the process of upgrading to Teams and the Teams capabilities roadmap.
 
 ## What is Microsoft doing to help customers transition to Teams?
 

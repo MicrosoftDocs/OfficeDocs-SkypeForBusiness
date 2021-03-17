@@ -1,7 +1,7 @@
 ---
 title: Manage feedback policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: msedliak
 ms.topic: article
@@ -24,6 +24,9 @@ description: Learn how to use feedback policies to control whether Teams users i
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
+
+> [!NOTE]
+> Feedback policies aren't available in GCC, GCC High, or DOD deployments.
 
 **The Give feedback feature**
 

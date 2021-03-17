@@ -23,16 +23,17 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn about the Auto attendant and call queue dialing and voice recognition options in Teams.
 ---
-
 # Auto attendant and call queue dialing and voice recognition reference
 
-### Searching for users
+Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. You set up dial by name when you [configure the call flow settings in an auto attendant](create-a-phone-system-auto-attendant.md#call-flow).
 
-Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or Enterprise Voice enabled for Skype for Business Server users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by Name in an auto attendant.
+## Searching for users
 
-Dial by extension is a feature of an auto attendant that is also part of directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. Users you wish to have located and reached using Dial by extension  **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. Dial by extension  will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by extension in an auto attendant.
+Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by Name in an auto attendant.
 
-#### Maximum directory size
+Dial by extension is a feature of an auto attendant that is also part of directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. Users you wish to have located and reached using Dial by extension  **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. Dial by extension  will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by extension in an auto attendant.
+
+### Maximum directory size
 
 There is no limit on the number of Active Directory users  Dial by Name and Dial by Extension can support when a caller search for a specific person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName), but needs the full extension number. The maximum name list size that a single auto attendant can support using speech recognition is 80,000 users.
   
@@ -44,7 +45,7 @@ There is no limit on the number of Active Directory users  Dial by Name and Dial
 > [!NOTE]
 > If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using Dial Scope feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
   
-### Dial by Name - Keypad (DTMF) entry
+## Dial by Name - Keypad (DTMF) entry
 People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. There are various formats that can be used when the name is entered.
 
 When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
@@ -69,9 +70,9 @@ There are several special characters that are used when searching for people usi
 |0   |Space between names. |
 |*    |Repeat the list of matching names. |
 
-#### Dial by Name - Name recognition with speech
+### Dial by Name - Name recognition with speech
 
-People can search for others in their organization with their voice (speech recognition). They can also reach anyone in  Active Directory by saying the name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
+People can search for others in their organization with their voice (speech recognition). They can also reach anyone in  Active Directory by saying the full or partial name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
   
 You can enable speech recognition for an auto attendant, but phone keypad entry (DTMF) isn't disabled. Phone keypad entry can be used at any time even if speech recognition is enabled on the auto attendant.
   
@@ -85,15 +86,18 @@ Callers can say names in the following formats:
 |LastName + FirstName |Full  |Marble Amos |Amos Marble |
 |FirstName |Full |Amos |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Jones |
 |LastName |Full |Marble |Press or say 1 for Amos Marble  <br/> Press or say 2 for Ben Marble |
+|FirstName or LastName |Partial |Mar |Press or say 1 for Mary Marble  <br/> Press or say 2 for Mary Jones  <br/> Press or say 3 for Amos Marcus |
+|FirsName + LastName |Partial |Amos Mar |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Marcus |
+
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory for Dial by Name with speech recognition due to Active Directory replication lag.
   
-### Language support
+## Language support
 
 The following languages are available for text-to-speech used with outgoing prompts:
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |Arabic (EG)  |English (NZ)  |Korean (KO)  |
 |Chinese (HK)  |English (UK) |Norwegian (NO)  |
@@ -107,7 +111,7 @@ The following languages are available for text-to-speech used with outgoing prom
 
 Speech recognition input for auto attendants is available in the following languages:
   
-|||
+|-|-|
 |:-----|:-----|
 |Chinese (ZH)  |French (FR)  |
 |English (AU)  |German (DE)  |
@@ -144,5 +148,3 @@ The following voice commands are available in the 14 languages supported for spe
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)

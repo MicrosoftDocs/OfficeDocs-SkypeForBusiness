@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -33,7 +34,7 @@ This article describes the prerequisites and configuration steps required to ena
 
 Before configuring On-network Conferencing, make sure your organization meets the following prerequisites: 
 
-- Ensure that all users in your organization who are enabled, or will be enabled, for Audio Conferencing are in Teams Only mode. The routing of inbound and outboud Audio Conferencing calls through On-network Conferencing is only supported for Teams meetings.
+- Ensure that all users in your organization who are enabled, or will be enabled, for Audio Conferencing are using Teams for all Meetings. The routing of inbound and outbound Audio Conferencing calls through On-network Conferencing is only supported for Teams meetings.
 
 - Assign Audio Conferencing licenses to all users who will be using On-network Conferencing.
 
@@ -51,12 +52,14 @@ You need to configure the telephony equipment of your sites to route calls to an
 
 You can find the service numbers in Teams admin center under **Meetings -> Conferencing Bridges** or by using the Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge. For additional information, see a list of [Audio Conferencing numbers in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
+> [!NOTE]
+> This feature is not available to users with the pay-per-minute Audio Conferencing license.
 
 ## Enable the routing of Teams meeting dial-out calls through Direct Routing
 
 Teams meeting dial-out calls are initiated from within a meeting in your organization to PSTN numbers, including call-me-at calls and calls to bring new participants to a meeting. 
 
-To enable Teams meeting dial-out routing through Direct Routing, you need to create and assign an Audio Conferencing routing policy called “OnlineAudioConferencingRoutingPolicy”. 
+To enable Teams meeting dial-out routing through Direct Routing to on-network users, you need to create and assign an Audio Conferencing routing policy called “OnlineAudioConferencingRoutingPolicy”. 
 
 The OnlineAudioConferencingRoutingPolicy policy is equivalent to the CsOnlineVoiceRoutingPolicy for 1:1 PSTN calls via Direct Routing. The OnlineAudioConferencingRoutingPolicy policy can be managed by using the following cmdlets:
 
@@ -94,7 +97,7 @@ PSTN usages are collections of voice routes. When a dial-out call is initiated f
 
 You can create a PSTN usage by using the “Set-CsOnlinePstnUsage” cmdlet. For Example:
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -104,7 +107,7 @@ Voice routes determine the PSTN gateway that should be used to route a call base
 
 You can create a voice route and define the regex and gateways to be associated with the voice route by using the “New-CsOnlineVoiceRoute” cmdlet. For Example:
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -114,7 +117,7 @@ Audio Conferencing voice routing policies determine the possible routes that can
 
 You can create an Audio Conferencing voice routing policy by using the “New- CsOnlineAudioConferencingRoutingPolicy” cmdlet. For Example:
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -126,14 +129,14 @@ After the Audio Conferencing routing policies are defined, you can now assign th
 
 You can assign an Audio Conferencing voice routing policy to a user by using the “Grant-CsOnlineAudioConferencingRoutingPolicy” cmdlet. For example:
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### Configure routing on the telephony equipment of your organization
 
-On the telephony equipment of your organization, you need to ensure that the meeting dial-out calls routed through Direct Routing are routed to the intended destination.
+On the telephony equipment of your organization, you need to ensure that the meeting dial-out calls routed through Direct Routing are routed to the intended on-network destination.
 
 
 ### (Optional) Configure a dial plan

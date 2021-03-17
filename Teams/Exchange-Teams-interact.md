@@ -44,8 +44,8 @@ The following table provides a helpful quick reference to feature availability b
 |---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
 | **Exchange Online**                                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
 | **Exchange Online Dedicated vNext**                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
-| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required)  | Yes <sup>1</sup> | Yes <sup>1,2</sup> | Yes <sup>3 | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4 | Yes <sup>5                   | Yes                    | Yes                    |
-| **Exchange On-premises** (Sync to Azure AD) | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>         | No                          | Yes          | Yes             | No                      | Yes <sup>4 | Yes <sup>5                   | Yes                    | Yes                    |
+| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required)  | Yes <sup>1</sup> | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
+| **Exchange On-premises** (Sync to Azure AD) | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>         | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -75,8 +75,8 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 
 - Users must be enabled for Microsoft 365 group creation to create teams in Microsoft Teams.
 
-> [!IMPORTANT]
-> If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
+  > [!IMPORTANT]
+  > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
 
 ## Requirements to create and view meetings for mailboxes hosted on-premises
 
@@ -92,8 +92,8 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
- > [!NOTE]
- > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
+  > [!NOTE]
+  > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
 - The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set.
 
@@ -103,8 +103,8 @@ To enable calendar delegation for these users:
 
 - You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
- > [!NOTE]
- > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
+  > [!NOTE]
+  > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
 - Teams Scheduling add-in for Outlook when scheduling a meeting on behalf of someone requires Exchange 2013 CU19 or later. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
@@ -114,11 +114,13 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
-- Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
+- Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
 - If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Allow scheduling private meetings](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
 
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
+- For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid).
 
 ## Troubleshooting
 

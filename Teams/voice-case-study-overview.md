@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365solution-voice
+
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:

@@ -87,3 +87,6 @@ After you've been onboarded to Office 365 Government – GCC High, follow the re
 
 You can also work with [FastTrack](https://www.microsoft.com/fasttrack) or your chosen partner to onboard the service.
 
+> [!NOTE]
+> The Mac Teams client for GCCH environments is not yet supported.
+

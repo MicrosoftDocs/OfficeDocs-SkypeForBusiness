@@ -28,7 +28,7 @@ description: Learn how to reset a user's Audio Conferencing PIN in Microsoft Tea
 
 A PIN is a code made up of numbers that is created for each Microsoft Teams user who is enabled for audio conferencing. Audio conferencing PINs are used by meeting organizers to identify that they are the meeting organizer and allow them to start a meeting over the phone. If they use the Microsoft Teams app to start the meeting, a PIN isn't required. If users forget their PIN and they can't find it in the email that was sent to them when they were enabled for audio conferencing, an administrator can reset their PIN, or they can reset their own PIN.
   
-Meetings can be started when an authenticated user joins using the Microsoft Teams app or when the organizer joins with his or her PIN over the phone. When a meeting requires a PIN to start, users who join over the phone will be placed in the lobby and will listen to music on hold until the meeting starts. If the organizer of a meeting doesn't require a PIN to start the meeting over the phone, then callers won't be asked to provide a PIN when they join the meeting.
+Meetings can be started when an authenticated user joins using the Microsoft Teams app or when the organizer joins with their PIN over the phone. When a meeting requires a PIN to start, users who join over the phone will be placed in the lobby and will listen to music on hold until the meeting starts. If the organizer of a meeting doesn't require a PIN to start the meeting over the phone, then callers won't be asked to provide a PIN when they join the meeting.
 
 ## Reset a user's PIN
 
@@ -45,7 +45,7 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## Have a user reset his or her own PIN
+## Have a user reset their own PIN
 
 1. Have the user go to [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
 2. Click **Reset PIN**. 
@@ -53,11 +53,11 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 
 ## What else should you know about PINs?
 
-- For security purposes, the PIN is only shown to an administrator on one time, when the PIN is reset. After the PIN is reset by an administrator, the PIN will be listed as ***********.
+- For security purposes, the PIN is only shown to an administrator one time, when the PIN is reset. After the PIN is reset by an administrator, the PIN will be listed as ***********.
     
 - Automatically sending emails to users is enabled by default, and users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you will have to manually send the PIN information to the user.
     
-- When a meeting starts, all of the users in the lobby will automatically join it. For example, if two participants try to join a meeting before it has been started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using his PIN via phone, the meeting will start and the participants in the lobby will join the meeting.
+- When a meeting starts, all of the users in the lobby will automatically join it. For example, if two participants try to join a meeting before it has been started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using their PIN via phone, the meeting will start and the participants in the lobby will join the meeting.
     
 - The default setting is to not allow a meeting to be started by anonymous callers.
     

@@ -87,7 +87,7 @@ To add the phone number and enable for voicemail:
 2. Issue the command: 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     For example, to add a phone number for user "Spencer Low," enter the following: 
@@ -95,9 +95,18 @@ To add the phone number and enable for voicemail:
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    If the users "Spencer Low" and "Stacy Quinn" share the same base number with unique extensions, enter the following
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    The phone number used has to be configured as a full E.164 phone number with country code. 
-
+    It's recommended, but not required, that the phone number used is configured as a full E.164 phone number with country code. It is supported to configure phone numbers with extensions which will be used to lookup users when the lookup against the base number returns more than one result. This allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
@@ -108,7 +117,7 @@ Direct Routing allows you to end the call to a user and send it directly to the 
 
 ## Assign Teams Only mode to users to ensure calls land in Microsoft Teams
 
-Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. For more information, see [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md). If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. For more information, see [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md). If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 ## See also
 

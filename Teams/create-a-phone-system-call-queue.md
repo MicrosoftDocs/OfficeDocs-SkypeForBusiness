@@ -1,5 +1,5 @@
 ---
-title: "Create a call queue"
+title: "Create a call queue in Microsoft Teams"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -24,16 +25,15 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn how to set up Phone System for call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
 ---
-
 # Create a call queue
 
-Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 Call queues provide:
 
 - A greeting message.
 
-- Music while people are waiting on hold.
+- Music while people are waiting on hold in a queue.
 
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 
@@ -45,33 +45,29 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 ## Resource account and language
 
-![](media/call-queue-name-language.png)
+![Screenshot of resource account and language settings](media/call-queue-name-language.png)
 
-1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
+1. Type a name for the call queue.
 
-2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
+2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-## Greetings and  hold music
+## Greetings and music on hold in queue
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
-Teams provides default music to callers while they are on hold. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
+Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
 > [!NOTE]
-> The uploaded recording can be no larger than 5 MB..
+> The uploaded recording can be no larger than 5 MB.
+> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 ## Call agents
 
-Call agents selected must be one of the following: 
+Please refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
 
-- Online users with a Phone System license and Enterprise Voice enabled
-- Online users with a Calling Plan
-- On-premises Skype for Business Server users
-- If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
-
-![](media/call-queue-users-groups.png)
+![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
 
 You can add up to 20 agents individually and up to 200 agents via groups.
 
@@ -84,7 +80,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 
 ## Call routing
 
-![](media/call-queue-conference-mode-routing-method.png)
+![Screenshot of conference mode and routing method settings](media/call-queue-conference-mode-routing-method.png)
 
 **Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
@@ -92,9 +88,6 @@ To add a group to the queue, click **Add groups**, search for the group, click *
   - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
-
-> [!NOTE]
-> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
@@ -106,7 +99,7 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available or if their presence state has been Away for less than 10 minutes. Agents whose presence state has been Away for more than 10 minutes are not considered idle and will not be eligible to receive calls until they change their presence to Available. 
 
-![](media/call-queue-presence-agents-time.png)
+![Screenshot of routing, opt out, and alert time settings](media/call-queue-presence-agents-time.png)
 
 
 **Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
@@ -120,31 +113,34 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-For high volume queues, we recommend the following settings:
+The following settings are recommended:
 
 - **Conference mode** to **Auto**
-- **Routing method** to **Attendant routing**
+- **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
 
+> [!NOTE]
+> If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
+
 ## Call overflow handling
 
-![](media/call-queue-overflow-handling.png)
+![Screenshot of call overflow settings](media/call-queue-overflow-handling.png)
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue.
+You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 
 ## Call timeout handling
 
-![](media/call-queue-timeout-handling.png)
+![Screenshot of call timeout settings](media/call-queue-timeout-handling.png)
 
-**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 15 seconds to 45 minutes.
+**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue.
+You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
 
@@ -154,7 +150,7 @@ Since agents in a call queue may dial out to return a customer call, consider se
 
 ## Supported clients
 
-- The following clients are supported for call agents in a call queue:
+The following clients are supported for call agents in a call queue:
 
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
   - Lync desktop client 2013 (32-bit and 64-bit versions)
@@ -175,13 +171,13 @@ Since agents in a call queue may dial out to return a customer call, consider se
 
 You can also use Windows PowerShell to create and set up call queues. Here are the cmdlets that you use to manage a call queue.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## Related topics
 
@@ -191,6 +187,6 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

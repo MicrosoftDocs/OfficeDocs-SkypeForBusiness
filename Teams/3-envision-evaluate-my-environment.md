@@ -25,7 +25,7 @@ ms.custom: seo-marvel-mar2020
 
 This article gives an overview of the requirements for properly evaluating your current environment for using cloud voice services. By evaluating your environment, you identify risks and requirements that will influence your overall cloud voice deployment. By identifying these items beforehand, you can adjust your planning to drive success.
 
-## Introduction to evaluating your environment 
+## Introduction to evaluating your environment
 
 To achieve your objective key results (OKRs), you previously made key service
 decisions. The next step is to perform environmental discovery to evaluate all
@@ -57,13 +57,14 @@ prepare the necessary information for number porting. You can use the [Environme
 to perform environmental discovery.
 
 <table>
+<tr><td>Title</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## Adoption and change management assessment capabilities 
+## Adoption and change management assessment capabilities
 
 Deployment puts a new technology at a user's fingertips, but business results are only realized after users truly adopt that solution as their own. To help ensure sustained adoption of a new solution, you'll need to focus your efforts on user readiness and change management. For optimal results, conduct user readiness planning as a parallel workstream to your technical readiness activities and incorporate the following activities:
 
@@ -74,6 +75,7 @@ Deployment puts a new technology at a user's fingertips, but business results ar
 Use the following considerations to assess your organization's preparedness to address user change management.
 
 <table>
+<tr><td>Title</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>If you answered &quot;yes&quot; to all of the above, identify the right user change management stakeholders and begin your user readiness planning.</li><li>If you answered &quot;no&quot; to some or all of the above, consider engaging outside resources to assist with driving change management and adoption-related activities for your organization.</li></ol></td></tr>
 </table>
@@ -359,6 +361,7 @@ maintain these areas as part of your service management planning.
 
 
 <table>
+<tr><td>Title</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment.</li><li>Perform network remediation based on the results of the assessment for every network segment.</li></ol></td></tr>
 </table>
