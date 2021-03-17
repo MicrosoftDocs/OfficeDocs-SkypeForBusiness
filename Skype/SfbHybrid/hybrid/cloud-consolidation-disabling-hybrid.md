@@ -38,7 +38,7 @@ These steps logically separate your on-premise deployment of Skype for Business 
 > [!Important] 
 >Once this logical separation is complete, msRTCSIP attributes from your on-premises Active Directory still have values and will continue to sync via Azure AD Connect into Azure AD. How you decommission the on-premises environment depends on whether you intend to leave these attributes in place, or first clear them from your on-premises Active Directory. Be aware that clearing the on-premises msRTCSIP attributes after you have migrated from on-premises could result in loss of service for users! Details and tradeoffs of the two decommissioning approaches are described later below.
 
-# Disable hybrid to complete migration to the cloud: Detailed Steps
+## Disable hybrid to complete migration to the cloud: Detailed Steps
 
 1.	*Update DNS to point to Microsoft 365 or  Office 365.*
 The organization’s external DNS for the on-premises organization needs to be updated so that Skype for Business records point to Microsoft 365 or Office 365 instead of the on-premises deployment. Specifically:
@@ -76,7 +76,7 @@ The command below needs to be done from an on-premises PowerShell window:
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
     ```
 
-# Managing attributes after moving users from on-premises to the cloud
+## Managing attributes after moving users from on-premises to the cloud
 
 By default, all users that were previously enabled for Skype for Business Server and subsequently moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory. These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and potentially phone number (msRTCSIP-Line), continue to sync into Azure AD. If changes are required to any of the msRTCSIP attributes, these changes must be made in the on-premises Active Directory and then sync'd to Azure AD. However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools will not be available to manage these attributes.
 
@@ -86,7 +86,7 @@ There are two options available for handling this situation:
 2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. This method allows for a consistent management approach for existing and new users, however it may potentially result in a temporary loss of service during the on-premises decommissioning process.
 
 
-## Method 1 - Manage sip addresses and phone numbers for users in Active Directory
+### Method 1 - Manage sip addresses and phone numbers for users in Active Directory
 Administrators can manage users who were previously moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. If you want to make changes to a user’s sip address or to a user’s phone number (and the sip address or phone number already has a value in the on-premises Active Directory), you must do this in the on-premises Active Directory and let the value(s) flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, you can modify these attributes directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in (as shown below), or by using PowerShell. If you are using the MMC snap-in, open the properties page of the user, click Attribute Editor tab, and find the appropriate attributes to modify:
 
 - To modify a user’s sip address, modify the `msRTCSIP-PrimaryUserAddress`. Note, if the `ProxyAddresses` attribute contains a sip address, also update that value as a best practice. Although the sip address in `ProxyAddresses` is ignored by O365 if `msRTCSIP-PrimaryUserAddress` is populated, it may be used by other on-premises components.
@@ -100,7 +100,7 @@ Administrators can manage users who were previously moved from an on-premises Sk
 These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you are comfortable using the mix of these method as well as with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can simply re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Method 2.
 
 
-## Method 2 Clear Skype for Business Attributes for all on-premises users in Active Directory
+### Method 2 Clear Skype for Business Attributes for all on-premises users in Active Directory
 
 This option requires additional effort and proper planning because users that were previously moved from an on-premises Skype for Business Server to the cloud are required to be re-provisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments users can be processed in smaller groups in different time windows. 
 
@@ -129,10 +129,11 @@ Get-CsUser | where userprincipalname -like "abc*" | Select-Object SipAddress, Us
 ```
 
 > [!Important] 
->Before proceeding open SfbUsers.csv file and confirm user data has been successfully exported. You will need the LineUri (phone number), UserPrincipalName, SamAccountName, and SipAddress from this file in a later step.
+> Before proceeding open SfbUsers.csv file and confirm user data has been successfully exported. You will need the LineUri (phone number), UserPrincipalName, SamAccountName, and SipAddress from this file in a later step.
 
 4. Delete the attribute information related to Skype for Business Server from active Directory for the set of users you are ready to update.  There are 2 steps to this process, as shown below.
- >[!Important] After the next AAD Sync cycle after running this step, users with Phone System who were previously moved from an on-premises Skype for Business Server to the cloud will lose the ability to make and receive calls until step 8 is successfully completed and confirmed in step 9. In addition, make sure you have saved user's phone numbers and related information as per step 2, since that information is required for that step.
+> [!Important] 
+> After the next AAD Sync cycle after running this step, users with Phone System who were previously moved from an on-premises Skype for Business Server to the cloud will lose the ability to make and receive calls until step 8 is successfully completed and confirmed in step 9. In addition, make sure you have saved user's phone numbers and related information as per step 2, since that information is required for that step.
 
 
 ```PowerShell
@@ -189,7 +190,8 @@ if($user.LineUri)
         }
 }
 ```
-> [!Note] If you still have Skype for Business endpoints (either Skype clients or 3rd party phones), you will also want to set -HostedVoiceMail to $true. If your organization is only using Teams endpoints for voice enabled users, this setting is not applicable to your users. 
+> [!Note]
+>  If you still have Skype for Business endpoints (either Skype clients or 3rd party phones), you will also want to set -HostedVoiceMail to $true. If your organization is only using Teams endpoints for voice enabled users, this setting is not applicable to your users. 
 
 9. Confirm users with Phone System functionality have been provisioned correctly. The following Skype for Business Online PowerShell command returns an empty result as soon process is completed.
 
