@@ -76,14 +76,15 @@ Agents who receive calls from the call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a phone number and a Microsoft 365 Phone System Virtual User license. Additionally:
+When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a Microsoft 365 Phone System Virtual User license and one of the following assigned:
 
-- For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.
-- For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).
+- A [Calling Plan](calling-plans-for-office-365.md) license
+- An [online voice routing policy](manage-voice-routing-policies.md)
 
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.<br>
-> Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
+> Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.<br>
+> In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-queue).
 
 ## Business decisions
 

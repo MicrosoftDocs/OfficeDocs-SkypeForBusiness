@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
 search.appverid: 
-description: 
+description: Lean about Teams policies.
 audience: admin
 localization_priority: Normal
 MS.collection: 
@@ -67,5 +67,6 @@ Policy type | Description
 
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
+* [View policy assignments in the Activity Log](activity-log.md)
 * [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams for Education policies and policy packages](policy-packages-edu.md)

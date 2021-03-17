@@ -39,6 +39,9 @@ By default, external access is enabled for all domains. You can restrict externa
 
 To configure external access, see [Manage external access](manage-external-access.md). 
 
+>[!NOTE]
+>Microsoft Teams free licenses do not support external access.
+
 ## Guest access
 
 Use guest access to add a person from outside your organization to a team, where they can chat, call, meet, and collaborate on files. A guest can be given nearly all the same Teams capabilities as a native team member.
@@ -60,8 +63,8 @@ The following tables show the differences between using external access (federat
 | See if someone from another organization is available for call or chat | Yes | Yes<sup>1</sup> |
 | Search for people in other organizations | Yes<sup>2</sup> | No |
 | Share files | No | Yes |
-| See the out-of-office message of | No | Yes |
-| Block someone in another organization someone in another organization | No | Yes |
+| See the out-of-office message of someone in another organization | No | Yes |
+| Block someone in another organization  | No | Yes |
 | Use @mentions | Yes<sup>3</sup> | Yes |
 
 ### Things people outside your organization can do

@@ -232,12 +232,10 @@ The following sections summarize behavior that may be experienced when running b
 
 - [Meetings](#meetings)
 - [Interoperability](#interoperability)
-- [Teams conversation threads-Interop versus native threads](#teams-conversations---interop-versus-native-threads)
+- [Interop versus native conversation threads](#interop-versus-native-conversation-threads)
 - [Presence](#presence)
 - [Federation](#federation)
 - [Contacts](#contacts)
-
-
 
 ### Meetings
 
@@ -274,7 +272,7 @@ Within the interop communication, chat is plain-text only. In addition, file sha
 
 - If the Skype for Business user is using a client from 2018 or later and attempts to share any content, an on-demand Skype for Business meeting is automatically created and an invite link to that meeting is sent to the Teams user’s client. Upon clicking the link, the Teams user will attempt to join the Skype for Business meeting. If the Teams user has the Skype for Business client installed, it will open and the user is prompted to sign in (if not already signed in).  If the Teams user does not have the Skype for Business client installed, the user will be prompted to use the web version. Once both users are signed in, they are in a Skype for Business meeting and can share as needed.
 
-### Teams conversation threads - Interop versus native threads
+### Interop versus native conversation threads
 
 Because interop communications do not support all the features of native Teams conversation, the Teams client maintains separate conversation threads for Teams-to-Teams and Teams-to-Skype for Business communication. These conversations are rendered differently in the user interface: Interop threads can be differentiated from a regular native Teams thread by:
 
@@ -318,7 +316,7 @@ Federation from Teams to another user using Skype for Business requires the Team
 - Chats and calls initiated from Teams land in Teams if the recipient is in the same tenant.
 - Chats and calls initiated from Skype for Business always land in Skype for Business.
 
-A federated chat can either be a native thread or an interop thread. See [Teams Conversations ---interop-versus-native-threads](#teams-conversations---interop-versus-native-threads).
+A federated chat can either be a native thread or an interop thread. See [Interop versus native conversation threads](#interop-versus-native-conversation-threads).
 
 - If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
 

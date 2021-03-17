@@ -58,7 +58,7 @@ Before assigning policies to individual users or groups, start by [setting the g
 
 |Do this  |If...  | Using...
 |---------|---------|----|
-|[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to assign one or a couple of policies to a small number of users. |The Microsoft Teams admin center or PowerShell cmdlets in the Skype for Business Online PowerShell module
+|[Assign a policy to individual users](#assign-a-policy-to-individual-users)    | You're new to Teams and just getting started or you only need to assign one or a couple of policies to a small number of users. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module
 |[Assign a policy to a group](#assign-a-policy-to-a-group) |Assign policies based on a user's group membership. For example, assign a policy to all users in a security group or distribution list.| The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 |[Assign a policy to a batch of users](#assign-a-policy-to-a-batch-of-users)   | Assign policies to large sets of users. For example, assign a policy to hundreds or thousands of users in your organization at a time. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 | [Assign a policy package to users](#assign-a-policy-package-to-users)  |Assign multiple policies to specific sets of users in your organization who have the same or similar roles. For example, assign the Education (Teacher) policy package to teachers in your school to give them full access to chats, calling, and meetings. Assign the Education (Secondary school student) policy package to secondary students to limit certain capabilities such as private calling.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
@@ -131,9 +131,9 @@ Or, you can also do the following:
 
 ### Use PowerShell
 
-Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Skype for Business Online PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Teams PowerShell module and are documented in the [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
- Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366) (if you haven't already), and then run the following to connect to Skype for Business Online and start a session.
+ Download and install the [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) (if you haven't already), and then run the following to connect.
 
 > [!NOTE]
 > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
@@ -141,10 +141,11 @@ Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 ```powershell
-Import-Module -Name MicrosoftTeams
-$Cred = Get-Credential
-$CSSession = New-CsOnlineSession -Credential $Cred
-Import-PSSession -Session $CSSession
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 In this example, we assign a Teams meeting policy named Student Meeting Policy to a user named Reda.
@@ -430,8 +431,6 @@ A policy package in Teams is a collection of predefined policies and policy sett
 4. When you're finished adding users, select **Save**.
 
 ## Assign a policy package to a group
-
-**This feature is in private preview**
 
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
