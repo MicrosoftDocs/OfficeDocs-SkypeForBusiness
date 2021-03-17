@@ -94,13 +94,17 @@ Namespace: microsoft.graph
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "string (identifier)",
-                    "displayName": "string",
+
+                    "id": \[{"@odata.type": "microsoft.graph.user"}\],
+                    "displayName": "User Name",
+
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "string (identifier)"
+
+"chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
+
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",
