@@ -20,13 +20,13 @@ appliesto:
 
 # Support remote workers using Microsoft Teams
 
-Does your organization want to get started with Microsoft Teams to support your users who work remotely or from home? Use the guidance in this article to get up and running quickly.
+Does your organization want to use Microsoft Teams to support your users who work remotely or from home? Use the guidance in this article to get up and running quickly.
 
 If you're a small or medium-sized business, don't miss [Empower your small business with remote work](https://aka.ms/remote-business).
 
 ## IT admin guidance
 
-- Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
+- Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). As an option, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](user-access.md)**.
     
@@ -35,7 +35,7 @@ If you're a small or medium-sized business, don't miss [Empower your small busin
 For more, read [Additional resources for supporting remote workers](#additional-resources-for-supporting-remote-workers) below.
 
 
-## End user communications
+## End-user communications
 
 Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)**, which contains these great email templates:
 
@@ -45,7 +45,7 @@ Ready to roll out Teams to your users? Get the **[Customer Success Kit](https://
 
 - A few days later, send the **Tips and Tricks Email** to help your users get the most out of Teams.
 
-## End user guidance
+## End-user guidance
 
 Share these assets and videos with your end users to help them get started quickly:
 
@@ -69,7 +69,7 @@ Share these assets and videos with your end users to help them get started quick
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [Helping small and medium-sized businesses work remotely with Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [The top 9 ways Microsoft IT is enabling remote work for its employees](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [The top nine ways Microsoft IT is enabling remote work for its employees](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Teams for Education 
@@ -77,7 +77,7 @@ Share these assets and videos with your end users to help them get started quick
 
    - Don't miss [Get started with Teams for remote learning](remote-learning-edu.md).
 
-1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to do this.
+1. Make sure your employees have adequate internet access and bandwidth for Teams. Use the guidance in [Prepare your organization's network for Teams](prepare-network.md) to learn how to ensure adequate bandwidth.
 
    - Limited bandwidth can affect audio quality in Teams meetings. To ensure the best meeting experience under low-bandwidth conditions, encourage users to limit video and use PSTN for calls and meeting audio. 
 
@@ -87,7 +87,7 @@ Share these assets and videos with your end users to help them get started quick
    
    - If you're in China, check out [Microsoft 365 or Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
-   - If you need help troubleshooting or fixing problems with call or meeting quality, follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
+   - If you need help with troubleshooting or with fixing problems with call or meeting quality, then follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
 1. Security when everyone's working from home
 
@@ -123,13 +123,13 @@ Share these assets and videos with your end users to help them get started quick
       
       - [Work remotely with Teams](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Teams blog (Feb 28, 2020): [4 tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Teams blog (February 28, 2020): [Four tips for working from home with Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Collaborate with Microsoft 365 or Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [Work remotely with Microsoft 365 or Office 365](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
-      - [9 tips for working remotely](https://www.microsoft.com/tips/home/working-remotely)
+      - [Nine tips for working remotely](https://www.microsoft.com/tips/home/working-remotely)
 
       - Satya Nadella and Teams Product Marketing Manager Aya Tange video about [using Teams to work remotely](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1) (March 20, 2020)
 
@@ -145,7 +145,7 @@ Share these assets and videos with your end users to help them get started quick
     
    - Send out information about your org's work-from-home and health and safety policies.
     
-   - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. For any meeting of more than 250 participants, make it a live event. Turn on live captions for [meetings](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) and [live events](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). In addition, turn on subtitles in live events. These features increase inclusivity, productivity, and comprehension. 
+   - Use [Live events](teams-live-events/what-are-teams-live-events.md) for company-wide meetings and outreach. If your meeting reaches the [Limits and specifications](limits-specifications-teams.md) of a Teams regular meeting, then make it a live event. Turn on live captions for [meetings](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) and [live events](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Turn on subtitles in live events. These features increase inclusivity, productivity, and comprehension. 
 
 4.  Staff up your [helpdesk](troubleshoot-installation.md) to deal with user inquiries.
 
@@ -159,14 +159,14 @@ Share these assets and videos with your end users to help them get started quick
 
 The following is a summary of a Feb 7, 2020 Message center post (MC203397):
 
-Microsoft is aware that some users in the China region are experiencing issues dialing into Skype for Business or Teams conference IDs. In most cases, these problems are external to systems under our control. Often, the issue is with local mobile and telephony carriers. 
+Microsoft understands that some users in the China region are experiencing issues dialing into Skype for Business or Teams conference IDs. In most cases, these problems are external to systems under our control. Often, the issue is with local mobile and telephony carriers. 
 
 We recommend the following if you're having audio conferencing problems:
 
 - Ask the caller or meeting organizer to call your PSTN or mobile number.
 - Join the call or meeting from the desktop or mobile clients, using VoIP.
 
-If you need to log a support ticket, please include the following:
+If you need to log a support ticket, include the following items:
     
 - Exact time of call
 - Conference bridge number dialed

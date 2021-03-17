@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:

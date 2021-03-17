@@ -1,8 +1,8 @@
 ---
 title: "Branch Offices Scope Node"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficesScopeNode
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: "The Branch Sites node lists the branch sites that are associated with this central site. You can perform the following action:"

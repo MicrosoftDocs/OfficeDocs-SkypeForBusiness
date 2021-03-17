@@ -1,7 +1,7 @@
 ---
 title: Teams and Outlook email integration
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 description: Learn about Teams and Outlook email integration features, including features that let users share information between email in Outlook and chat or channel conversations in Teams.  
 ms.collection: 
   - M365-collaboration
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
@@ -30,7 +30,10 @@ To use this feature, Outlook on the web must be turned on for the user. If Outlo
 
 ## Actionable activity emails
 
-Users automatically get actionable missed activity emails which help them to catch up on missed conversations in Teams. The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can click **Reply** to respond directly from within Outlook. To learn more, see [Reply to missed activity emails from Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).
+Users automatically get actionable missed activity emails which help them to catch up on missed conversations in Teams. The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can click **Reply** to respond directly from within Outlook. To learn more, see [Reply to missed activity emails from Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381). 
+
+> [!NOTE]
+> This feature isn't supported in Outlook for Mac or some older versions of Outlook for Windows. For more information, see [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/).
 
 ![Screenshot showing a missed activity email](media/missed-activity-email.png)
 

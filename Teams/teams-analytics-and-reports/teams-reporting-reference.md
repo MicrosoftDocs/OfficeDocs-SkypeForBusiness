@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams analytics and reporting
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.analyticsandreports.overview
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection: 
   - M365-collaboration
 description: In this article, you will learn about the Teams reports that are available in the Microsoft Teams admin center.
@@ -26,7 +26,7 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 ## How to access the reports
 
-To access the reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, Teams communications admin, or Skype for Business admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
+To access the reports, you must be a global admin in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
 
@@ -42,7 +42,7 @@ We're continually improving the Teams reporting experience and adding features a
 |Report  |What's measured? |
 |---------|---------|
 |[Teams usage report](teams-usage-report.md)  |  Active users<br/>Active users in teams and channels<br/>Active channels<br/>Messages<br/>Privacy setting of  teams<br/>Guests in a team   |
-|[Teams user activity report](user-activity-report.md)  |  1:1 calls a user participated in<br/>Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>Last activity date of a user     |
+|[Teams user activity report](user-activity-report.md)  | Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>  1:1 calls a user participated in<br/> Number of meeting user organized <br/>number of meeting user participated it<br/>Meetings Audio, Video and Screen sharing time<br/>   Last activity date of a user     |
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
 |[Teams live event usage report](teams-live-event-usage-report.md)   |  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
 |[Teams PSTN blocked users report](pstn-blocked-users-report.md)   |  Display name<br>Phone number<br>Reason<br>Action type<br>Action date and time   |

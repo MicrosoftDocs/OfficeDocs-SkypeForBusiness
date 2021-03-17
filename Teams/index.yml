@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
 title: Microsoft Teams admin documentation # < 60 chars
-summary: Learn how to roll out and manage Teams, and prepare your users for Teams # < 160 chars
+summary: Find documentation for Microsoft Teams admins and IT Professionals, and learn how to roll out and manage Teams, and prepare your users for Teams. # < 160 chars
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
 brand: teams
 
 metadata:
   title: Microsoft Teams admin documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn about Microsoft Teams admin documentation, including how to roll out and manage Teams, and prepare your users for Teams. # Required; article description that is displayed in search results. < 160 chars.
+  description: Find documentation for Microsoft Teams admins and IT Professionals, and learn how to roll out and manage Teams, and prepare your users for Teams. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   audience: ITPro
@@ -23,76 +23,172 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
-    - title: COVID-19 response - Support remote workers using Teams 
+    - title: Support remote workers using Teams 
       itemType: overview
-      url: /MicrosoftTeams/support-remote-work-with-teams
-    # Card
-    - title: How to roll out Teams
-      itemType: deploy
-      url: /MicrosoftTeams/how-to-roll-out-teams
-    # Card
-    - title: Security and compliance in Teams
-      itemType: overview
-      url: /MicrosoftTeams/security-compliance-overview
-    # Card
-    - title: Find training for you and your users
-      itemType: learn
-      url: /MicrosoftTeams/training-microsoft-teams-landing-page
+      url: https://docs.microsoft.com/en-us/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
     # Card
     - title: Upgrade from Skype for Business to Teams
       itemType: how-to-guide
-      url: /MicrosoftTeams/upgrade-start-here
+      url: /MicrosoftTeams/upgrade-skype-teams
     # Card
-    - title: Adoption hub
+    - title: Use Advisor for Teams to help you roll out Teams
       itemType: get-started
+      url: /MicrosoftTeams/use-advisor-teams-roll-out
+
+# productDirectory section (optional)
+productDirectory:
+  title: IT professionals – get started with Microsoft Teams # < 60 chars (optional)
+  # summary: # < 160 chars (optional)
+  items:
+    # Card
+    - title: Pilot
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+      summary: Plan your rollout and pilot your solutions, so that you can have a smooth experience.
+      url: /MicrosoftTeams/get-started-with-teams-quick-start
+    # Card
+    - title: Prepare for end user adoption 
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+      summary: Get your users on board and share scenarios for success.
       url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    # Card
+    - title: Plan for enterprise deployment 
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
+      summary: Get your environment and infrastructure ready to deploy.
+      url: /MicrosoftTeams/deploy-enterprise-overview
+    # Card
+    - title: Deploy
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
+      summary: Deploy Microsoft Teams across your organization.
+      url: /MicrosoftTeams/deploy-overview
+    # Card
+    - title: Secure
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
+      summary: Follow these best practices to secure your data, files, and identities in Microsoft Teams.
+      url: /MicrosoftTeams/security-compliance-overview
+    # Card
+    - title: Manage
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
+      summary: Perform day to day management tasks for Microsoft Teams.
+      url: /MicrosoftTeams/manage-teams-overview
 
-
-
-
+# tools section (optional)
+tools:
+  title: Resources for all audiences # < 60 chars (optional)
+  # summary: sectionsummary < 160 chars (optional)
+  items:
+    # Card
+    - title: Learn for IT Pros and admins
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
+      url: https://docs.microsoft.com/learn/teams/
+    # Card
+    - title: Microsoft Teams & Microsoft 365 Developer platform
+      imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
+      url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+    # Card
+    - title: End user help and learning
+      imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
+      url: https://support.office.com/Teams
+    # Card
+    - title: Teams blogs and Tech Community
+      imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+    # Card
+    - title: Teams UserVoice (user feedback forum)
+      imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
+      url: https://microsoftteams.uservoice.com/
+    # Card
+    - title: Download Microsoft Teams
+      imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
+      url: https://products.office.com/microsoft-teams/group-chat-software
 
 # additionalContent section (optional)
-# Card with links style
+# Card with summary style
 additionalContent:
   # Supports up to 3 sections
   sections:
-    - items:
+    - title: Key solutions # < 60 chars (optional)
+      # summary: # < 160 chars (optional)
+      items:
         # Card
-        - title: Top articles
+        - title: Chat, teams, and channels
           links:
-            - text: Prepare your network for Teams
-              url: /MicrosoftTeams/prepare-network
-            - text: Use Advisor for Teams to help you roll out Teams
-              url: /MicrosoftTeams/use-advisor-teams-roll-out
-            - text: How Teams uses memory
-              url: /MicrosoftTeams/teams-memory-usage-perf
-            - text: Communicate with users from other organizations (guest/external access)
+            - text: Chat, teams, channels, and apps
+              url: /Microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page
+            - text: Overview of teams and channels
+              url: /Microsoftteams/teams-channels-overview
+            - text: Call and chat with users from other organizations (guest/external access)
               url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-            - text: IT Architecture posters and solutions
-              url: /MicrosoftTeams/teams-architecture-solutions-posters
+            - text: What is collaboration governance?
+              url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+            - text: Configure Teams with three tiers of file sharing security
+              url: https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
         # Card
-        - title: Voice calling with Teams
+        - title: Meetings and conferencing
           links:
-            - text: Cloud voice in Microsoft Teams
+            - text: Meetings and conferencing overview
+              url: /Microsoftteams/deploy-meetings-microsoft-teams-landing-page
+            - text: What are Microsoft Teams live events?
+              url: /Microsoftteams/teams-live-events/what-are-teams-live-events
+            - text: Deploy audio conferencing
+              url: /Microsoftteams/deploy-audio-conferencing-teams-landing-page
+            - text: Microsoft Teams Rooms
+              url: /MicrosoftTeams/rooms/
+        # Card
+        - title: Voice calling
+          links:
+            - text: Plan your Teams voice solution
               url: /MicrosoftTeams/cloud-voice-landing-page
-            - text: Microsoft 365 Business Voice
+            - text: What's Microsoft 365 Business Voice
               url: /MicrosoftTeams/business-voice/whats-business-voice
-            - text: Phone System Direct Routing
-              url: /MicrosoftTeams/direct-routing-landing-page
-            - text: Set up common area phones
-              url: /MicrosoftTeams/set-up-common-area-phones
+            - text: Set up Phone System
+              url: /Microsoftteams/setting-up-your-phone-system
+            - text: "Contoso case study: Teams voice migration"
+              url: /MicrosoftTeams/voice-case-study-overview
         # Card
-        - title: More Teams content
+        - title: Extend Teams functionality
           links:
-            - text: Help content for end-users
-              url: https://support.office.com/Teams
-            - text: Teams tech community
-              url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-            - text: Teams user feedback forum
-              url: https://microsoftteams.uservoice.com/
-            - text: Teams product info
-              url: https://products.office.com/microsoft-teams/group-chat-software
-            - text: Teams developer platform
-              url: https://docs.microsoft.com/microsoftteams/platform/overview
+            - text: Apps, bots, & connectors in Microsoft Teams
+              url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+            - text: Build apps for Microsoft Teams
+              url: /MicrosoftTeams/platform/overview
+            - text: Integration with Microsoft Power Platform
+              url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
+            - text: Microsoft Teams app security and compliance
+              url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
+            - text: Microsoft Viva - Employee Experience and Engagement
+              url: https://www.microsoft.com/microsoft-viva/
+        # Card
+        - title: Education and industries
+          links:
+            - text: Keep students safe while using Teams for distance learning
+              url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
+            - text: Microsoft Teams for Education
+              url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
+            - text: Healthcare
+              url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
+            - text: Frontline workers
+              url: /MicrosoftTeams/flw-quickstart
+            - text: Retail
+              url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page
+        # Card
+        - title: Government
+          links:
+            - text: Teams for Government
+              url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
+            - text: Government - GCC deployments
+              url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc
+            - text: Government - GCC High deployments
+              url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high
+            - text: Government - DoD deployments
+              url: https://docs.microsoft.com/microsoftteams/plan-for-government-dod
+            - text: Policy packages for government
+              url: https://docs.microsoft.com/microsoftteams/policy-packages-gov
 
 

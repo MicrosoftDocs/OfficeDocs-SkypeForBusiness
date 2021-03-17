@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -30,6 +31,8 @@ This article describes Phone System features. For more information about using P
 
 Clients are available for PC, Mac, and mobile, which provides features on devices from tablets and mobile phones to PCs and desktop IP phones. For more information, see [Get clients for Microsoft Teams](get-clients.md).
 
+ > [!Note]
+> For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
   
 ## Phone System features
 
@@ -83,7 +86,7 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
-- [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Pricing for Phone System](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams for Virtualized Desktop Infrastructure with callings and meetings](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

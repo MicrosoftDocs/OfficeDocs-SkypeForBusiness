@@ -1,7 +1,7 @@
 ---
 title: Teams for Virtualized Desktop Infrastructure
-author: LanaChin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ---
@@ -33,6 +34,9 @@ Teams in a virtualized environment supports multiple configurations. These inclu
 Using Teams in a virtualized environment might be somewhat different from using Teams in a non-virtualized environment. For example, some advanced features might not be available in a virtualized environment, and video resolution might differ.
 
 To ensure an optimal user experience, follow the guidance in this article.
+
+> [!Note]
+> For details about Teams VDI on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Teams on VDI components
 
@@ -75,7 +79,11 @@ For the latest server and client requirements, see [this Citrix website](https:/
 
 ### VMware Horizon Workspace and Desktop requirements
 
-VMware Horizon provides optimized AV support for Teams on VDI for improved productivity across virtual desktops. You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page.
+VMware Horizon is a modern platform for secure delivery of virtual desktops and apps across the hybrid cloud. To offer a great end-user experience, VMware Horizon provides media optimization for Teams. This optimization improves overall productivity across virtual desktops and apps, and enhances user experience when calling and meeting using Teams.
+
+You can download the latest version of VMware Horizon from the [VMware Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) page. The required media optimization components are part of the Horizon Agent and Horizon Client by default and there's no need to install any additional plug-in to use the optimization feature for Teams.
+
+To get the latest requirements and instructions on how to configure media optimization for Teams, see [this VMware website](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
 ## Install or update the Teams desktop app on VDI
 
@@ -107,10 +115,12 @@ In a non-persistent setup, users' local operating system changes are not retaine
 
 For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session.
 
-Using Teams with a non-persistent setup also requires a profile caching manager for efficient Teams runtime data sync. This ensures that the appropriate user-specific information (for example, user data, profile, and settings) is cached during the user session. Make sure data in these two folders are synced.  
-
+Using Teams in a non-persistent setup also requires a profile-caching manager, for efficient Teams runtime data synchronization. Efficient data synchronization ensures that the appropriate user-specific information (such as a user's data, profile, or settings) is cached during the user's session. Make sure data in these two folders are synched:<br>
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
+
+> [!NOTE]
+> A roaming folder (or, if you are using folder redirection, a caching manager) is required to ensure that the Teams app has the runtime data and files required to run the application. This is necessary to mitigate network latency issues or network glitches, which would otherwise cause application errors and a slow experience due to unavailable data and files.
 
 There are a variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
@@ -148,8 +158,11 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
 
-    - [32-bit version](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
-    - [64-bit version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
+    - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
+    > [!NOTE]
+    > For government clouds, see [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](msi-deployment.md) for the download links to the MSI files.
 
     The minimum version of the Teams desktop app that's required is version 1.3.00.4461. (PSTN hold isn't supported in earlier versions.)
 
@@ -173,11 +186,14 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
         The next interactive logon session starts Teams and asks for credentials.
 
-    > [!NOTE]
-    > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials.
-    It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments, while the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation.
+        > [!NOTE]
+        > These examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials.
+        It's important to understand the difference between **ALLUSERS=1** and **ALLUSER=1**. The **ALLUSERS=1** parameter can be used in non-VDI and VDI environments, while the **ALLUSER=1** parameter is used only in VDI environments to specify a per-machine installation.
 
-3. Uninstall the MSI from the VDI VM.
+3. Uninstall the MSI from the VDI VM. There are two ways to uninstall Teams.
+
+    - PowerShell script: You can use [this PowerShell script](scripts/powershell-script-deployment-cleanup.md) to uninstall Teams and remove the Teams folder for a user. Run the script for each user profile in which Teams was installed on the computer.
+    - Command line: Run the following command.
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -214,7 +230,6 @@ To learn more about how to prepare your network for Teams, see [Prepare your org
 
 If you're migrating from Skype for Business on VDI to Teams on VDI, besides the differences between the two applications, there are some differences when VDI is also implemented. Some capabilities that aren't currently supported in Teams VDI that are in Skype for Business VDI are as follows:
 
-- Control of VDI calling experiences with policies for limiting media bitrate
 - Per-platform policy to disable some AV features in VDI
 - Give and take control when app sharing
 - Screen share from chat without audio
@@ -341,6 +356,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
+## Control fallback mode in Teams
+
+When users connect from an unsupported endpoint, the users are in fallback mode, in which AV isn't optimized. You can disable or enable fallback mode by setting one of the following registry DWORD values:
+
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+To disable fallback mode, set the value to **1**. To enable audio only, set the value to **2**. If the value isn't present or is set to **0** (zero), fallback mode is enabled.
+
+This feature is available in Teams version 1.3.00.13565 and later.
+
 ## Known issues and limitations
 
 ### Client deployment, installation, and setup
@@ -355,13 +381,16 @@ To learn more about using PowerShell to manage meeting policies, see [Set-CsTeam
 
 The following calling and meeting features are not supported:
 
+- Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
 - Enhanced emergency services
 - HID buttons and LED controls between the Teams app and devices
 - Background blur and effects
-- Broadcast/live events
+- Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - Call park
 - Call queue
+- Shared system audio/computer sound
+- Media bypass for Direct Routing
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
@@ -372,13 +401,13 @@ The following are known issues and limitations for calling and meetings:
 - Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.
 - Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
+- Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
 - Outgoing screen sharing:
     - Application sharing is not supported.
 - Give control and take control:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
 - Citrix-only limitations
-    - Dual Tone Multi Frequency (DTMF) interaction with telephony systems is currently not supported.
     - When screen sharing in a multi-monitor setup, only the main monitor is shared.
     - High DPI scaling on CWA is not supported.
 
@@ -386,9 +415,15 @@ For Teams known issues that aren't related to VDI, see [Support Teams in your or
 
 ## Troubleshooting
 
-#### Troubleshoot Citrix components
+### Troubleshoot Citrix components
 
-For information on how to troubleshoot VDA and CWA issues, see [this Citrix website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+#### Teams crashes or the Teams sign in screen is blank
+
+This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry DWORD value, and set it to 204 (hexadecimal).
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+Then, restart VDA. To learn more, see this Citrix support article, [Troubleshooting HDX optimization for Teams](https://support.citrix.com/article/CTX253754).
 
 ## Related topics
 

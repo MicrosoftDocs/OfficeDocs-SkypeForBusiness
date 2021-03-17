@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:  
   - M365-voice
+  - m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -37,7 +38,11 @@ For dynamic emergency calling, the following must occur:
 
    - If there's a network settings site match – emergency calling policies are returned to the Teams client from that site. (For more information about policies, see [Configure emergency policies](#configure-emergency-policies)).
 
-   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client.
+   - If there's an LIS match – an emergency location from the network element the Teams client is connected to is returned to the Teams client. The match is performed in the following order with the first matched result being returned:
+       - WAP
+       - Ethernet switch/port
+       - Ethernet switch
+       - Subnet
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
@@ -60,6 +65,9 @@ For more information about emergency calling, including information about emerge
 - [Manage network settings for cloud voice features](cloud-voice-network-settings.md)
 - [Manage your network topology for cloud voice features](manage-your-network-topology.md)
 
+For more information about which features are available in the government clouds, see [Government support](#government-support) at the end of this article.
+
+
 ## Supported clients
 
 The following clients are currently supported.  Check back often to see updates to this list.
@@ -76,7 +84,7 @@ The following clients are currently supported.  Check back often to see updates 
 
 ## Assign emergency addresses
 
-You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported; support for Ethernet switch/port is pending).
+You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time).
 
 To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations.)
 
@@ -132,7 +140,7 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 ## Configure Location Information Service
 
-A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and wireless access points (WAPs) are supported. (Support for Ethernet switch/port is pending.)
+A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and wireless access points (WAPs) are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time.
 
 For a client to obtain a location, you must populate the LIS with network identifiers (subnets, WAPs, switches, ports) and emergency locations. You can do this in the Microsoft Teams admin center or by using PowerShell.
 
@@ -206,6 +214,17 @@ Some Emergency Routing Service Providers (ERSPs) in the United States offer an e
 - **Calling Plan users in the United States** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
 
 - **Direct Routing customers in the United States** should coordinate with their ERSP for a test service.
+
+## Government support
+
+The following table shows support for dynamic emergency calling in the government clouds:
+
+| Cloud | Availability |
+| :------------|:-------|
+| World Wide Multi Tenant | Fully available |
+| GCC | Available on all clients except Teams IP phones |
+| GCCH | Pending |
+| DoD | Pending |
 
  ## Related topics
 

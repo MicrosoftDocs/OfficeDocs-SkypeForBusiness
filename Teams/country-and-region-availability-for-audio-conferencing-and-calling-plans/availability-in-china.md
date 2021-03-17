@@ -37,9 +37,9 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes, for use by users located outside of China. Please contact your account team for additional information.  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> | Non-geographic. Phone numbers aren't linked to a specific city or location. <br/>  If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
+|Dial-out capability using the Call Me feature  <br/> | Yes, except for customers who purchase the service from China. Dial-out capabilities are disabled for customers who purchase the service from China.   <br/> |
    
 ## Phone System
 
@@ -66,7 +66,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |Beijing  <br/> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
-|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), except for customers who purchase the service from China. Toll-free numbers are not available for customers who purchase the service from China. <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -76,7 +76,6 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |No  <br/> |
    
-If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
 ## Related topics
 

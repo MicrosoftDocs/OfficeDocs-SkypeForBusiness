@@ -72,7 +72,7 @@ Microsoft continues to deliver additional auto attendant capabilities that custo
 Voicemail migration is Microsoft driven. Admins are not required to do anything, given that the pre-requisite hybrid topology is established. Microsoft performs the required validation and testing to make sure users’ voicemail migration is not disrupted. Admins are encouraged to perform testing and validation on their side. See [Suggested test plan and post-migration validation for admins](#suggested-test-plan-and-post-migration-validation-for-admins) for a recommended test plan.
 
 > [!Note]
-> Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams or Skype for Business Online.  
+> Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams.  
 
 ### Monitor the Admin Notification Center
 
@@ -144,7 +144,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | User Features | Record personal greetings (PSTN) — play on phone |  | N | Y    |
 | VM | User Features | User setting to disable transcription |  | N | Y    |
 | VM | User Features | Transcription  |  | Y | Y    |
-| VM | User Features | Visual voicemail on all endpoints   | With user control to play, delete, message waiting indicator, and status-toggle, on all supported endpoints  | Y | Y    |
+| VM | User Features | MWI (Message Waiting Indicator) using SIP notify messages |  | N | Y    |
 | VM | User Features | MP3 audio file format in Outlook    |  | Y | Y    |
 | VM | User Features | Variable speed play control |  | Y | Y    |
 | VM | User Features | Forward a voicemail  | Forward a received voicemail to other users | Y | Y    |
@@ -153,7 +153,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | User Features | Supported greeting languages | Details here: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | VM | User Features | Call answering rules |  | Y | Y    |
 | VM | User Features | Play on phone (PSTN)- to play message | Call me on my cell to listen to the voice message  | N | Y    |
-| VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | Y | Y    |
+| VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | N | Y    |
 | VM | User Features | Shared mailbox between multiple users |  | Y | Y    |
 | VM | Caller Features  | Caller experience — protected voicemail | The caller can choose an option to mark a recorded message as protected| N | Y    |
 | VM | Caller Features  | Caller experience — private voicemail | The caller can choose an option to mark a recorded message as private  | N | Y    |
@@ -171,6 +171,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | Tenant-Admin Features | Voicemail policy    |   | Y | Y    |
 | VM | Tenant-Admin Features | Web portal administration   |  | CY19   | Y    |
 | VM | Tenant-Admin Features | PowerShell   |  | Y | Y    |
+| UM | User Features | Message Waiting Indicator (MWI) on Skype for Business certified phones   |May be provided by phone partner  | No | Yes    |
 | AA | Service Features | AA support 3rd-party PBX    |  | N | Y    |
 | AA | Service Features | Support Skype for Business Server   |  | Y | Y    |
 | AA | Service Features | Support Microsoft Teams|  | Y | N    |
@@ -240,13 +241,7 @@ Subscriber access might continue to work for your tenant until the service is co
 
 #### Auto Attendant Call Transfer to PSTN
 
-Customers are encouraged to configure a temporary workaround to fulfill the requirements of transferring an auto attendant call to an external PSTN number or to an RGS instance.
-
-An issue was identified during quality assurance with the "Transfer out to PSTN number" feature, which will not be fixed in time for customers to start migrating off the Exchange UMO service before its scheduled retirement date of Feb 28th, 2020. As a workaround, administrators can transfer auto attendant callers to an on-premise virtual user with an active Call Forward setting to the desired PSTN phone number or RGS phone number. The expected experience is:
-
-- Administrators will not need to license the virtual user since this is a workaround solution.
-- Administrators can manipulate the caller ID that the PSTN receiver sees by assigning the desired number to the virtual user or using the SBC digit manipulation capabilities.
-- PSTN Callers will not experience any delay during the call transfer and will continue to see the caller ID of the auto attendant after the transfer is successful.
+To transfer an auto attendant call to an external PSTN phone number via Skype for Business Server or a Response Group service (RGS) on Skype for Business Server, create a new on-premises user with call forwarding set to the PSTN phone number or RGS phone number. The user must be enabled and correctly configured for Enterprise Voice and have a voice policy assigned.
 
 #### Shared mailbox is still accessible
 

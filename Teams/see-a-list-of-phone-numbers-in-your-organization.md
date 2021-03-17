@@ -100,6 +100,22 @@ When you are setting up users in your organization to make and receive phone cal
 
    - **Update failed**
 
+## Using the Teams PowerShell module
+
+You can use the Teams PowerShell module to get the same information from the previous sections, but version 1.1.6 or later is required, which includes the integration of the Skype for Business Online connector. For more information about the module, see [Microsoft Teams PowerShell Overview](teams-powershell-overview.md).
+
+You can see a list of all phone numbers that you have for your organization by using the [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber) cmdlet. For example, you can run the following command to see each phone number and their state:
+
+```PowerShell
+Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+```
+
+You can see all of the phone numbers that are assigned to users by using the [Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser) cmdlet. For example, you can run the following command to see all the users with a phone number assigned:
+
+```PowerShell
+Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
+```
+
 ## Related topics
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
@@ -113,4 +129,4 @@ When you are setting up users in your organization to make and receive phone cal
 
 [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
- 
+[Get-CsOnlineUser](https://docs.microsoft.com/powershell/module/skype/get-csonlineuser)

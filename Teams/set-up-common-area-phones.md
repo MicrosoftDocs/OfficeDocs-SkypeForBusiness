@@ -51,7 +51,7 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 > [!NOTE]
 > You don't need to add a Phone System license. It's included with the Common Area Phone license.
 
-For more information on licenses, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information on licenses, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 The Common Area Phone license supports: 
 
@@ -62,8 +62,8 @@ The Common Area Phone license supports:
 |Microsoft Teams |   &#x2714; |
 |Phone System |    &#x2714; |
 |Audio Conferencing |       &#x2718; &sup1;  |
-|Microsoft Intune |        &#x2718; &sup2; |
-|Worldwide Availability |    &#x2714; |
+|Microsoft Intune |    &#x2718; |
+|Worldwide Availability |       &#x2718; &sup2;  |
 |Channel Availability |    EA, EAS, CSP, GCC, EES, Web Direct  |
 |      |         |
 

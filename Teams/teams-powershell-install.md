@@ -71,22 +71,27 @@ Install-Module PowerShellGet -Force -AllowClobber
 
 To install Teams PowerShell public preview, run the PowerShell command below.
 
+> [!NOTE]
+> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease"
+
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 ```
 
 ## Install the Skype for Business Online Connector
 
-> [!WARNING]
-> Skype for Business Online Connector is currently part of Teams PowerShell public preview. Once we've rolled this feature into the GA release of Teams PowerShell, Skype for Business Online Connector will no longer be available.
+> [!NOTE]
+>
+> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
-Download and install the [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), then run the following in PowerShell.
 
 ```powershell
-Import-Module SkypeOnlineConnector
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 ## Sign in
@@ -97,13 +102,26 @@ To start working with Teams PowerShell, sign in with your Azure credentials.
 > If you're using the latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
 ```powershell
-$credential = Get-Credentials
+$credential = Get-Credential
 
 #Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credentials $credential
+Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credentials $credential
+$session = New-CsOnlineSession -Credential $credential
+Import-PsSession $session
+```
+
+## Sign in using MFA and modern authentication
+
+ If your account uses multi-factor authentication, use the steps in this section.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
 Import-PsSession $session
 ```
 

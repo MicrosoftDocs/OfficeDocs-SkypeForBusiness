@@ -57,7 +57,7 @@ For the detailed steps on how to deploy and configure SBCs for an SBC hosting sc
 - **Oracle:** [Direct Routing Configuration notes](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), the configuration of the SBC hosting scenario is described in the "Microsoft" section. 
 - **Ribbon Communications:**  Please refer to the [Ribbon Communications SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) for documentation on how to configure Ribbon Core Series SBCs and to this page [Ribbon Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-Systems (anynode):**  Please register on the [TE-Systems Community page](https://community.te-systems.de/) for documentation and examples on how to configure anynode SBC for multiple tenants.
-- **Metaswitch:**  Please register on the [Metaswitch Community page](https://sso.metaswitch.com/UI/Login) for documentation on how to enable Perimeta SBC for multiple tenants.
+- **Metaswitch:**  Please register on the [Metaswitch Community page](https://manuals.metaswitch.com/MAN39555) for documentation on how to enable Perimeta SBC for multiple tenants.
 
 > [!NOTE]
 > Please pay attention to how to configure the "Contact" header. The Contact header is used to find the customer tenant on the incoming invite message. 
@@ -82,13 +82,13 @@ The following diagram summarizes the requirements to base domain, subdomains, an
 
 ![Diagram showing requirements to domains and Contact header](media/direct-routing-1-sbc-requirements.png)
 
-The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
+The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
 
 The following table is an example of one configuration.
 
 
-|New domain name |Type|Registered  |Certificate SAN for SBC  |Tenant default domain in the example  |FQDN name that SBC must present in the Contact header when sending calls to users|
+|New domain name |Type|Registered  |Certificate CN/SAN for SBC  |Tenant default domain in the example  |FQDN name that SBC must present in the Contact header when sending calls to users|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    Base     |     In carrier tenant  |    \*.customers.adatum.biz  |   adatum.biz      |NA, this is a service tenant, no users |
 |sbc1.customers.adatum.biz|    Subdomain  |    In a customer tenant  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
@@ -132,7 +132,10 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 ### Activate the domain name
 
-After you have registered a domain name, you need to activate it by adding at least one E1, E3, or E5 licensed user and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain. 
+After you have registered a domain name, you need to activate it by adding at least one user with Phone System license and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain. License can be revoked after the domain activation (it can take up to 24 hours).
+
+> [!NOTE]
+> The Carrier tenant must keep at least one Phone System license assigned to the tenant to avoid removal of the Skype for Business configuration. 
 
 *Please review [Get help with Microsoft 365 or Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Microsoft 365 or Office 365 organizations.*
 
@@ -191,10 +194,13 @@ For more information about admin roles and how to assign a role in Microsoft 365
 11. Ensure that the status is **Setup complete**. 
     
     ![Screenshot of page showing status of Setup complete](media/direct-routing-12-sbc-setup-complete.png)
+    
+> [!NOTE]
+> The base URL and the subdomain for the individual client have to be on the same tenant to enable you to add a _direct route_ trunk.
 
 ### Activate the subdomain name
 
-After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant.
+After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant. License can be revoked from user after the subdomain activation (it can take up to 24 hours).
 
 *Please review [Get help with Microsoft 365 or Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Microsoft 365 or Office 365 organizations.*
 
@@ -260,4 +266,3 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
 [Plan Direct Routing](direct-routing-plan.md)
 
 [Configure Direct Routing](direct-routing-configure.md)
-

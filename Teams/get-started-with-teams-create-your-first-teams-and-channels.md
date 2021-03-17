@@ -1,12 +1,12 @@
 ---
 title: Create your first teams and channels
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: serdars
 description: Learn how to create your first set of teams and channels in Microsoft Teams client or the Microsoft Teams admin center.
 localization_priority: Priority
 search.appverid: MET150
@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020

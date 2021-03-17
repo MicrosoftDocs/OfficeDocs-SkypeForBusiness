@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server Next Hop"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: "The next hop for the Edge pool is a Front End pool (which can be either an Enterprise pool or a Standard Edition server), or, if your deployment includes a Director, the next hop is the Director."

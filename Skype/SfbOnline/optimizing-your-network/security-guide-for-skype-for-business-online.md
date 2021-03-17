@@ -3,7 +3,6 @@ title: "Security guide for Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer:
 ms.date: 01/22/2018
 ms.reviewer: 
 ms.topic: article

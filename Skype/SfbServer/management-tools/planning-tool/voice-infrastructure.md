@@ -1,8 +1,8 @@
 ---
 title: "Voice Infrastructure (Planning Tool)"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -11,8 +11,6 @@ f1.keywords:
 - ms.lync.plan.VoiceInfrastructure
 - ms.lync.plan.VoiceInfrastructure
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: "Skype for Business Server 2015 provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX. For details, see Plan for PSTN connectivity in Skype for Business Server 2015."

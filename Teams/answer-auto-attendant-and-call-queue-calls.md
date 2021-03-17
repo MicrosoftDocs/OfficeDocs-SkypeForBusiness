@@ -1,6 +1,6 @@
 ---
 title: Answer auto attendant and call queue calls
-ms.reviewer: waseemh
+ms.reviewer: colongma
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -45,6 +45,8 @@ Once an auto attendant or call queue call is answered, the user can process the 
 > [!NOTE] 
 > Call queue calls are not forwarded based on the user's configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
 
+> Agents are not notified of any missed calls or voicemails for call queue calls.
+
 ## Supported clients
 
 Support for auto attendant and call queue calls is available in the following clients:
@@ -57,6 +59,11 @@ Support for auto attendant and call queue calls is available in the following cl
 ## Configure auto attendant and call queue support for Microsoft Teams
 
 To receive auto attendant and call queue calls on Microsoft Teams, you need to configure your interoperability policy and upgrade policy. Please review [Migration and interoperability for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). If you do not have auto attendant and/or call queue configured and would like to do so, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md) and [Create a Cloud call queue](create-a-phone-system-call-queue.md).
+
+## Known Issues
+
+When a call queue agents receives a call on their mobile device, calls may go on hold if the device is locked. User must unlock device first and then answer the call.
+
 
 ## Related topics
 

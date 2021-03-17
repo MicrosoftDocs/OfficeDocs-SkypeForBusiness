@@ -91,6 +91,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 ## Migrating from Office 365 Phone System with on-premises PSTN connectivity via Cloud Connector Edition 
 
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](direct-routing-landing-page.md).
+
 For more information about migrating from Phone System with on-premises PSTN connectivity via Cloud Connector, see the following:
 
 - [Planning](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  

@@ -1,7 +1,7 @@
 ---
 title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -32,7 +32,7 @@ Microsoft tests and qualifies video teleconference systems (VTCs), multipoint co
 
 For more information on which products are currently under test read the *UC Communications Team blog* February 23, 2011 [Choice, innovation, and quality of experience from Lync audio and video device partners](http://choice-innovation-and-quality-of-experience-from-lync-audio-and-video-device-partners.aspx).
 
-Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpoints%20Comparison%20Table.pdf).
+Download the [Lync Video Hardware Comparison Tables](https://docs.microsoft.com/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables).
 
 
 ***Video Endpoints***

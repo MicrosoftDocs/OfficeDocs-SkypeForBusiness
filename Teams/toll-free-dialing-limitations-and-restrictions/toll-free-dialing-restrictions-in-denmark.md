@@ -1,11 +1,10 @@
 ---
 title: "Toll-free dialing restrictions in Denmark"
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-cichur
+author: cichur
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -22,8 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Calling Plans
-  - seo-marvel-mar2020
-description: Learn about dialing toll-free numbers in China south, including availability, wired/fixed-line and mobile network availability, and restrictions.
+description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 
 # Toll-free dialing restrictions in Denmark
@@ -34,7 +32,7 @@ description: Learn about dialing toll-free numbers in China south, including ava
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+|Dialing format(s)  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |Country/region ISO code  <br/> |DK  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> | No access from Faroe Islands or Greenland. <br/> |
@@ -45,7 +43,7 @@ description: Learn about dialing toll-free numbers in China south, including ava
 ## Related topics
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numberss](/microsoftteams/getting-service-phone-numbers)
 
   
  

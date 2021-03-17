@@ -1,7 +1,7 @@
 ---
 title: Upgrade Skype for Business on-premises to Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -53,7 +53,7 @@ After you've completed your hybrid setup, you can plan to move your users to Mic
 
 For more information, see:
 
-- [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+- [TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).
 
 - [Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 

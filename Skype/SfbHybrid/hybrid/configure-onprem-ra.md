@@ -78,6 +78,8 @@ Creating a resource account that uses a phone number would require performing th
     ```
 
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+    
+    Note-at this point, the account may have synced, but provisioning may not be complete.  Check the output of [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  If the synced endpoint has not completed provisioning yet, then it will not appear here.  You can check the status of the provisioning requests in the M365 portal under [Teams Setup Status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  This provisioning phase can take up to 24 hours.
 
 5. Assign the Phone System - Virtual User or Phone System license to the resource account. See [Assign Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) and [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -112,8 +114,6 @@ Creating a resource account that uses a phone number would require performing th
 
 8. Associate the resource account with the Phone System auto attendant or call queue you chose previously.
 
-An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
-
 ## Create a resource account without a phone number
 
 This section discusses creating a resource account that is homed on premises. Creating a resource account that is homed online is discussed at [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
@@ -142,8 +142,6 @@ Log in to the Skype for Business front end server and run the following PowerShe
    - [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Create a Cloud call queue](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associate the resource account and the Phone System auto attendant or call queue you chose previously.
-
-An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## Test the implementation
 
@@ -180,8 +178,8 @@ Migration from Exchange UM to Phone System will require recreating the call queu
 
 4. Configure a Phone System auto attendant or call queue that uses the endpoints as previously described.
 
-   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) to create a logical map of the hierarchies in your old Exchange UM system.
 5. Test the Phone System auto attendant or call queue.
+
 6. Reassign the phone number linked to the Exchange UM call queue or auto attendant to the corresponding Phone System auto attendant or call queue.  
 
    At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.

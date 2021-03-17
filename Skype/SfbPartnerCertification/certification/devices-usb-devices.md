@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Skype for Business and Lync"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -31,11 +31,14 @@ The peripherals certification program ensures that USB peripherals such as heads
 > Looking for certified devices for Microsoft Teams? Check out [USB audio and video devices certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/usb-devices).
 
 ## Device qualifications
-##### *Updated April 2020*
+##### *Updated August 2020*
 
 | Manufacturer | Model                                    | Qualified  | Certified Program  |
 |:-------------|:-----------------------------------------|:-----------|:-------------------|
+| ViewSonic    | WCD-IFP8670                              | 07/31/2020 | Skype for Business |
+| ViewSonic    | WCD- IFP6570                             | 07/31/2020 | Skype for Business |
 | Crestron     | CCS-UCA-MIC                              | 12/18/2019 | Skype for Business |
+| Sharp        | WCD PN-CD701                             | 10/15/2019 | Skype for Business |
 | Sennheiser   | SC 665 USB A                             | 09/29/2019 | Skype for Business |
 | Sennheiser   | SC 665 USB C                             | 09/29/2019 | Skype for Business |
 | Sennheiser   | TeamsConnect Ceiling 2                   | 09/19/2019 | Skype for Business |
@@ -259,7 +262,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 - Automatic selection of default audio device and prioritization if multiple audio peripherals are present.
 - Plug and play: once connected, a device registers on the Skype for Business client and is ready to use.
-- Audio devices (e.g., headsets, and speakerphones) offer Basic call control across when used with a PC andor a Mac devices  including at least with answer/hang-up, mute/unmute, and volume control.
+- Audio devices (e.g., headsets, and speakerphones) offer Basic call control across when used with a PC and/or a Mac device, including at least with answer/hang-up, mute/unmute, and volume control.
 - Audio quality (embedded in the device): no echo or excessive glitches, echo cancellation across devices, wideband audio with no echo or distortion or glitches.
 - Video quality: Noise, color, image detail, jitter, latency, frame rate, field of view.
 

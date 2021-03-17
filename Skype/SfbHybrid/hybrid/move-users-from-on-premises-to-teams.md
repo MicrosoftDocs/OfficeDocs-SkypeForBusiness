@@ -30,7 +30,7 @@ When a user is moved from on premises to Teams Only, the user’s Skype for Busi
 - New meetings scheduled by that user are Teams meetings.
 - User can still join any Skype for Business meetings.
 - The user’s pre-existing meetings scheduled for the future will be migrated from on-premises to Teams.
-- Contacts that existed on premises are available in Teams shortly after the user logs on for the first time.
+- Contacts that existed on-premises are available in Teams shortly after the user logs on for the first time.
 - Users cannot initiate calls or chats from Skype for Business, nor can they schedule new meetings in Skype for Business. If they attempt to open the Skype for Business client, they will be redirected to use Teams as shown below. If the Teams client is not installed, they will be directed to the web version of Teams using their browser.<br><br>
     ![Message redirecting a user to Teams](../media/go-to-teams-page.png)
 
@@ -74,6 +74,13 @@ The following cmdlet sequence can be used to move a user to TeamsOnly, and assum
   $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
   Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
   ```
+
+> [!TIP]
+> As there are different circumstances requiring different parameters, the default command for most cases is:
+
+```powershell
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -UseOAuth -HostedMigrationOverrideUrl $url
+```
 
 ### Move to Teams using Skype for Business Server Control Panel
 

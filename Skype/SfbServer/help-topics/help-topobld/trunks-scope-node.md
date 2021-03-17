@@ -1,8 +1,8 @@
 ---
 title: "Trunks Scope Node"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunksScopeNode
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: "Right-click Trunks in Topology Builder to perform the following:"

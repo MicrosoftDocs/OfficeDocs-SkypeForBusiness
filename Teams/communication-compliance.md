@@ -28,9 +28,6 @@ For Microsoft Teams, communication compliance helps identify the [following type
 - Adult, racy, and gory images
 - Sharing of sensitive information
 
->[!IMPORTANT]
->Private Microsoft Teams channels are not supported by communication compliance. Chat communications sent by guest users to Teams users aren't monitored for inappropriate content.
-
 For more information on communication compliance and how to configure policies for your organization, see [Communication compliance in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
 ## How to use communication compliance in Microsoft Teams

@@ -26,7 +26,7 @@ description: "In this article, you will learn about Messaging policies and how t
 
 <!--- Add zone marker here--->
 
-Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the global (Org-wide default) policy that's created automatically or create and assign custom messaging policies.
+Messaging policies are used to control which chat and channel messaging features are available to [users (owners and members)](assign-roles-permissions.md) in Microsoft Teams. You can use the global (Org-wide default) policy that's created automatically or create and assign custom messaging policies.
 
 Users in your organization will automatically get the global policy unless you create and assign a custom policy. You can edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off the features that you want.
 
@@ -48,7 +48,7 @@ Then assign the policy to users.
 
 ## Edit a messaging policy
 
-You can edit the global policy an any custom policies that you create. 
+You can edit the global policy and any custom policies that you create. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Messaging policies**.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
@@ -80,7 +80,7 @@ Here are the messaging policy settings that you can configure.
 <a name="bkchat"> </a>
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
-- **Use Giphys in conversations**  If you turn this on, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
+- **Use Giphys in conversations**  If you turn this on, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating. Please note that in addition to turning this setting on, you also need to enable [Optional Connected Experiences](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) to allow Giphys in conversations.
 - **Giphy content rating**
     - **No restriction** This means that your users will be able to insert any Giphy in chats regardless of the content rating.
     - **Moderate**  This means that your users will be able to insert Giphys in chats, but will be moderately restricted from adult content.
@@ -107,3 +107,4 @@ Here are the messaging policy settings that you can configure.
 ### Related topics
 
 - [Assign policies to your users in Teams](assign-policies.md)
+- [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)

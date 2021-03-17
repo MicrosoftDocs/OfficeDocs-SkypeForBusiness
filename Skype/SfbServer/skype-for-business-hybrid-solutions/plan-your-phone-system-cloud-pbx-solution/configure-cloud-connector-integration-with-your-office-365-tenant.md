@@ -19,7 +19,10 @@ description: "Learn how to configure Cloud Connector integration with your Micro
 ---
 
 # Configure Cloud Connector integration with your Microsoft 365 or Office 365 organization
- 
+
+> [!Important] 
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Learn how to configure Cloud Connector integration with your Microsoft 365 or Office 365 organization.
   
 Once the Skype for Business Cloud Connector Edition installation is complete, perform the steps in this section to configure your deployment and connect it to your Microsoft 365 or Office 365 organization.

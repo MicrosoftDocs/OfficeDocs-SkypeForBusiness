@@ -10,12 +10,12 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
 localization_priority: Normal
-search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom: 
@@ -72,5 +72,5 @@ For more information about features, see [Here's what you get with Phone System]
 - [Set up Phone System](setting-up-your-phone-system.md)
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
-- [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

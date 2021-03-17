@@ -48,6 +48,13 @@ Voice routing is made up of the following elements:
 
 - **Online PSTN gateway** - A pointer to an SBC that also stores the configuration that is applied when a call is placed through the SBC, such as forward P-Asserted-Identity (PAI) or Preferred Codecs; can be added to voice routes.
 
+## Voice routing policy considerations
+
+If a user has a Calling Plan license, that user’s outgoing calls are automatically routed through the Microsoft Calling Plan PSTN infrastructure. If you configure and assign an online voice routing policy to a Calling Plan user, that user’s outgoing calls are checked to determine whether the dialed number matches a number pattern defined in the online voice routing policy. If there’s a match, the call is routed through the Direct Routing trunk. If there’s no match, the call is routed through the Calling Plan PSTN infrastructure.
+
+> [!CAUTION]
+> If you configure and apply the global (Org-wide default) online voice routing policy, all voice-enabled users in your organization will inherit that policy, which may result in PSTN calls from Calling Plan users being inadvertently routed to a Direct Routing trunk. If you don't want all users to use the global online voice routing policy, configure a custom online voice routing policy and assign it to individual voice-enabled users.
+
 ## Example 1: Voice routing with one PSTN usage
 
 The following diagram shows two examples of voice routing policies in a call flow.
@@ -58,7 +65,7 @@ The following diagram shows two examples of voice routing policies in a call flo
 
 ![Shows voice routing policy examples](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-In both examples, while the voice route is assigned priorities, the SBCs in the routes are tried in random order.
+In both examples, while the voice route is assigned priorities, the SBCs in the routes are tried in random order. When two SBC's are configured in one route, network traffic must be routable between both SBC's or media will fail to be established on transfers as it is possible that the new invite for the transfer will be sent to a different SBC in the route.
 
   > [!NOTE]
   > Unless the user also has a Microsoft Calling Plan license, calls to any number except numbers matching the patterns +1 425 XXX XX XX or +1 206 XXX XX XX in the example configuration are dropped. If the user has a Calling Plan license, the call is automatically routed according to the policies of the Microsoft Calling Plan. The Microsoft Calling Plan applies automatically as the last route to all users with the Microsoft Calling Plan license and does not require additional call routing configuration.
@@ -67,11 +74,7 @@ In the example shown in the following diagram, a voice route is added to send ca
 
 ![Shows voice routing policy with a third route](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-For all other calls:
-
-- If a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), the automatic route is used. 
-- If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan.
-- If the user only has Microsoft Phone System, the call is dropped because no matching rules are available.
+For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), the automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan. If the user only has Microsoft Phone System, the call is dropped because no matching rules are available.
 
   > [!NOTE]
   > The Priority value for route "Other +1" doesn't matter in this case because there is only one route that matches the pattern +1 XXX XXX XX XX. If a user makes a call to +1 324 567 89 89 and both sbc5.contoso.biz and sbc6.contoso.biz are unavailable, the call is dropped.

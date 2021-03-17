@@ -1,8 +1,8 @@
 ---
 title: "Associate Branch Office Appliance With Edge"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: "If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list. Click Next to continue."

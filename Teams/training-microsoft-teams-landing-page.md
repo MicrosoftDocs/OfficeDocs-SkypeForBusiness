@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams admin training
 ms.reviewer: 
-description: Use these end user, admin, and instructor-led training resources to help you get the most out of Microsoft Teams in your organization.
+description: Use these end user, admin, and instructor-led training resources and tutorial videos to help you get the most out of Microsoft Teams in your organization.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,16 +18,17 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
+ms.custom: seo-marvel-may2020
 ---
 # Microsoft Teams training
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[Admin training](/microsoftteams/itadmin-readiness)** </br> Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your org. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams live training](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft-hosted free, live, online training classes designed to get you up and running with Teams. Join us to see Teams in action, get your questions answered, and interact with our live instructors. 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Use these self-paced training resources to help users in your get the most out of Teams. |
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[Admin training](/microsoftteams/itadmin-readiness)** </br> Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your org. 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams live training](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft-hosted free, live, online training classes designed to get you up and running with Teams. Join us to see Teams in action, get your questions answered, and interact with our live instructors. 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams online training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Use these self-paced training resources to help users in your get the most out of Teams. |
 
-## Don't miss this key training
+## Don't miss these key training offerings
 
 Check back frequently - we'll keep updating this list so you'll always know about the latest, coolest, most important Teams training.
 
@@ -45,7 +46,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
    :::column-end:::
 
    :::column:::
-   **[Teamwork](https://aka.ms/edx-cld267x-about)** </br>
+   **[Teamwork](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    Course: Enabling Teamwork with Teams
 
    :::column-end:::

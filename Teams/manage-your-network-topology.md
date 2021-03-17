@@ -1,7 +1,7 @@
 ---
 title: Manage your network topology for cloud voice features in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -142,10 +143,10 @@ The following table shows the subnets defined in this example.
 For multiple subnets, you can import a CSV file by using a script such as the following.
 
 ```PowerShell
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
+Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-In this example, the CSV file looks something like this:
+In this example, the CSV file looks something like this: 
 
 ```console
 Identity, Mask, SiteID

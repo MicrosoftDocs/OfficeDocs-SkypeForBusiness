@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms with Exchange Online"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -101,8 +101,8 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
-     Get-MsolAccountSku
-     Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
+    Get-MsolAccountSku
+    Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
     ```
   <!--   ``` Powershell
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -114,11 +114,16 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 1. Create a remote Windows PowerShell session from a PC as follows:
 
+> [!NOTE]
+> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+>
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+
     ``` Powershell
-    Import-Module SkypeOnlineConnector
-    $cred = Get-Credential
-    $cssess = New-CsOnlineSession -Credential $cred  
-    Import-PSSession $cssess -AllowClobber
+    # When using Teams PowerShell Module
+    Import-Module MicrosoftTeams
+    $credential = Get-Credential
+    Connect-MicrosoftTeams -Credential $credential
     ```
 
 2. To enable your Microsoft Teams Rooms account for Skype for Business Server, run this command:

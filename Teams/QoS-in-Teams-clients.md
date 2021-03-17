@@ -8,7 +8,6 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: Learn how to use Quality of Service (QoS) to optimize network traffic for the Microsoft Teams desktop client.
-ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,7 +16,9 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: 
+  - seo-marvel-mar2020
+  - seo-marvel-apr2020
 ---
 
 # Implement Quality of Service (QoS) in Microsoft Teams clients

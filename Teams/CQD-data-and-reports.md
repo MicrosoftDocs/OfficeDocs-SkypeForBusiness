@@ -54,14 +54,14 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
 
 4. Repeat steps 2 and 3 for the second CQD template.
 
-> [!NOTE]
-> Each user must import the CQD templates into their CQD instance. 
+   > [!NOTE]
+   > Each user must import the CQD templates into their CQD instance. 
 
 
 
 ## EUII data
 
-For compliance reasons, end-user identifiable information (EUII) data (also known as personally-identifiable information or PII) is only kept for 30 days. As NRT data crosses the 30-day mark, fields that contain EUII are cleared, resulting in EUII-free NRT data. Fields that contain EUII data are:
+For compliance reasons, end-user identifiable information (EUII) data (also known as personally-identifiable information or PII) is only kept for 28 days. As NRT data crosses the 28-day mark, fields that contain EUII are cleared, resulting in EUII-free NRT data. Fields that contain EUII data are:
 
 - Full IP address
 - Media Access Control (MAC) Address
@@ -146,12 +146,12 @@ In Detailed reports, you can use the **Is Teams** dimension to filter the data t
 
 These are the reports that you'll see on the CQD Dashboard when you first sign in to CQD. They give you an at-a-glance look at quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. 
 
-|Tab  |  |
+| Tab | Description |
 |---------|---------|
-|Overall Call Quality     | Aggregate of the other 3 tabs        |
-|Server—Client     |Details of the streams between server and client endpoints         |
-|Client—Client     |Details of the streams between two client endpoints         |
-|Voice Quality SLA     |Info about calls included in the Skype for Business voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)         |
+|Overall Call Quality     | Aggregate of the other 3 tabs.       |
+|Server—Client     |Details of the streams between server and client endpoints.        |
+|Client—Client     |Details of the streams between two client endpoints.        |
+|Voice Quality SLA     |Info about calls included in the Skype for Business voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).        |
 
 ### Overall Call Quality tab
 
@@ -204,6 +204,7 @@ The Inside Test for a Server-Client scenario only considers the client endpoint.
 #### Wired versus WiFi
 
 As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a WiFi network, then CQD classifies it as WiFi.
+
 > [!NOTE]
 > Given a stream, if one of the two endpoints is connected to a WiFi network, then it is classified as WiFi in CQD.
   
@@ -212,8 +213,8 @@ As the names indicate, the classification criteria is based on the type of clien
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:
 
-- A map of IP address and geographical information
-- A map of each wireless AP and its MAC address
+- A map of IP address and geographical information.
+- A map of each wireless AP and its MAC address.
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
   
 We recommend that you upload your tenant, building, and location data so CQD can include this information in your reports. If you haven't already uploaded this data, read [Upload tenant and building data](CQD-upload-tenant-building-data.md). 
@@ -221,13 +222,13 @@ We recommend that you upload your tenant, building, and location data so CQD can
 
 ## Detailed reports
 
-|Name  |  |
+| Name | Description |
 |---------|---------|
 |Location-Enhanced Reports     |Shows quality trends based on location information. This report appears only if you've [uploaded your tenant data](CQD-upload-tenant-building-data.md).        |
-|Reliability Reports     |Includes audio, video, video-based screen sharing (VBSS), and app sharing reports         |
+|Reliability Reports     |Includes audio, video, video-based screen sharing (VBSS), and app sharing reports.        |
 |Quality of Experience Reports     |Audio quality and reliability for all clients and devices, including meeting rooms. These reports are a “slimmed-down” version of the downloadable [CQD templates](https://aka.ms/QERtemplates), focusing on key areas for analyzing audio quality and reliability.         |
-|Quality Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users         |
-|Failure Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users        |
+|Quality Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users.        |
+|Failure Drill Down Reports     | Drill downs: Date by region, locations, subnets, hour, and users.        |
 |Rate My Call Reports     |Analyze user call ratings by region, location, or by user. Includes verbatim feedback.         |
 |Help Desk Reports     |Help Desk Reports look at call and meeting data for individual users, groups of users, or everyone. Incorporating building and EUII data, these reports help identify possible system issues based on network location, conference details, devices, or firmware.         |
 |Client Version Reports     |Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Pre-built filters for Product and Client Type help focus the versions to specific clients.         |
@@ -239,6 +240,7 @@ We recommend that you upload your tenant, building, and location data so CQD can
 If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or (as of January 2020) [Use Power BI for CQD reports ](cqd-power-bi-query-templates.md)instead.
 
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
+
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
 >
@@ -301,7 +303,7 @@ In order to select multiple filter values, begin by adding a new filter to the r
 
 Then, click **Search** (a magnifying glass icon next to the new filter). You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and click **Search** next to that field to search. Alternatively, leave the text field empty and click **Search** to view up to the first 100 options.
 
-```PowerShell
+```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -313,7 +315,7 @@ Example:
 Certain CQD reports have dashboard-level filters added to them, making it easy to filter by common parameters. These filters appear outside the regular report tabs and directly beneath the Product filter, and they apply to all filters in the Dashboard.
 
 ![Screenshot of a dashboard filter](media/qerguide-image-dashboardfilters.png)
-```PowerShell
+```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -324,29 +326,29 @@ Excluding federated data from CQD reports is useful when you're remediating mana
 
 To add a filter, append the following to the end of the URL:
 
-```
+```console
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
 Example:  
 
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+`https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]`
 
 To add a Dashboard-level filter to a URL, that filter must exist in CQD as either a Product or Dashboard level filter. Add these filters to the URL after the Trending Month and before the URL parameters:
 
-```filter/DATA_MODEL_NAME|VALUE```
+`filter/DATA_MODEL_NAME|VALUE`
 
 For example, to apply a Product filter value of Microsoft Teams, you'd add the following:
 
-```filter/[AllStreams].[Is%20Teams]|[True]```
+`filter/[AllStreams].[Is%20Teams]|[True]`
 
 Your entire URL would look something like this:
 
-```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+`https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
 To apply URL filters with multi-select values, separate each value with a pipe ( | ) character. For example:
 
-```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+`filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
 If you specify an invalid name or value, the URL filter won't be applied.
 
@@ -371,16 +373,15 @@ The tenant ID in CQD corresponds to the Directory ID in Azure. If you don't know
 3.  Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
 
 You can also find your tenant ID by using PowerShell: 
-  ```
-  Login-AzureRmAccount
-  ```
 
-
+```powershell
+Login-AzureRmAccount
+```
 
 ## Comparing Teams and Skype for Business CQD data
 
 Even within the latest CQD (cqd.teams.microsoft.com), you'll see differences in data between Teams and Skype for Business. Some reasons:
-- Differences in the mechanisms for ensuring performance and reliability
+- Differences in the mechanisms for ensuring performance and reliability:
   - Teams has auto-reconnect and fast roaming. Skype for Business doesn't.
   - Teams has dynamic bandwidth management. Skype for Business doesn't.
 - Differences in [IP address ranges](Office-365-URLs-IP-address-ranges.md) between Teams and Skype for Business. The Teams IP ranges are newer, which could cause connectivity problems at the firewall.
@@ -390,10 +391,12 @@ Even within the latest CQD (cqd.teams.microsoft.com), you'll see differences in 
 ![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
 
 1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
+
 2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
+
 3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
 
-     ![Screenshot: Select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+   ![Screenshot: Select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 
 4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
 

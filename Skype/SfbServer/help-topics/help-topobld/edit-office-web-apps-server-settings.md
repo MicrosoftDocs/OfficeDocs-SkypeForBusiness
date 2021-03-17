@@ -1,8 +1,8 @@
 ---
 title: "Edit Office Web Apps Server Settings"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 8/19/2016
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: "You edit the properties of the configured Office Web Apps Server. The following properties are available to edit:"

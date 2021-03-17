@@ -19,6 +19,9 @@ description: "After you've completed the steps to deploy and configure Skype for
 ---
 
 # Validate your Cloud Connector deployment
+
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
  
 After you've completed the steps to deploy and configure Skype for Business Cloud Connector Edition, verify that you can make and receive calls.
   

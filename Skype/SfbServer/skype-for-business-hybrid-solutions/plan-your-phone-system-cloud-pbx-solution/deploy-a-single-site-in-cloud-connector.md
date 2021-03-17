@@ -20,6 +20,9 @@ description: "Learn about deploying a single PSTN site in Cloud Connector Editio
 
 # Deploy a single site in Cloud Connector
  
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Learn about deploying a single PSTN site in Cloud Connector Edition.
   
 You can deploy Skype for Business Cloud Connector Edition with or without High Availability (HA) support. If you want to enable HA, you'll need to deploy two or more appliances within a site. You can also convert an existing appliance to support HA after it is deployed.

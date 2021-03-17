@@ -1,7 +1,7 @@
 ---
 title: "Authentication in Microsoft Teams Rooms"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -85,6 +85,7 @@ However, because Microsoft Teams Rooms uses [resource owner password credentials
 - You must have Exchange Server 2016 CU8 or later, or Exchange Server 2019 CU1 or later.
 - You must have Skype for Business Server 2015 CU5 or later, or Skype for Business Server 2019 or later.
 - MFA isn't supported regardless of the topology you have.
+- Microsoft Teams Rooms does not support SIP and UPN mismatch. You must create a Microsoft Teams Rooms account with the same UPN and SIP for it to work.
 - If you use a third-party authentication provider that's supported by Azure AD, it must support an active authentication flow through WS-Trust.
 - Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published in [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
 

@@ -16,7 +16,8 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "**/common/**"
         ]
       },
       {
@@ -134,10 +135,18 @@
       ],
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "ms.suite": "office",
       "contributors_to_exclude": [
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "feedback_system": "None",
       "hideEdit": true

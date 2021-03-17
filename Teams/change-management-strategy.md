@@ -35,7 +35,7 @@ Best practices for change management for Teams:
     a.  Internal awareness materials such as posters, digital signage, and events
 
     b.  Self-help and training information in a single location
-    
+
     c.  A defined feedback mechanism
 
     d.  Pre-defined success measures (solution adoption, views of key materials, attendance at courses)
@@ -53,7 +53,7 @@ Identify key stakeholders, champions, and user profiles
 
 The first rule of a successful adoption is to create a dynamic team comprised of key stakeholders and the right people that can drive and effect change in others. A successful adoption strategy starts with a team of committed individuals representing a cross-section of your organization. Key stakeholder roles include an Executive Sponsor, Service Owners, IT professionals, and Champions.
 
-|  |  |
+|Icon  |Description  |
 |---------|---------|
 |![Executive Sponsors icon.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**Executive Sponsors** are key leaders within the organization and their participation is essential in driving employee adoption. They have the greatest influence on company culture and can actively communicate the value and benefits of a new technology and way.         |
 |![Service Owners icon.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Service Owners** are responsible for ensuring people use the service and get value from it. Setting Service Owners within your organization is important to ensure the business goals set for Microsoft 365 or Office 365 are realized.         |

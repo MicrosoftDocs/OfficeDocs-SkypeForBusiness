@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365solution-voice
+  - m365solution-scenario
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -34,12 +36,12 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
   
 ## Step 2: Buy and assign licenses
-1. If the Phone System feature isn't included in your Microsoft 365 or Office 365 plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), and buy the licenses and plan. 
+1. If the Phone System feature isn't included in your Microsoft 365 or Office 365 plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). See [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing), and buy the licenses and plan. 
     
     > [!TIP]
     > **Phone System** licenses and Calling Plans in Microsoft 365 or Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
   
-2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
 ## Step 3: Get phone numbers
 There are three ways to get new user numbers:

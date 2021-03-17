@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -34,7 +35,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ## Assign an Audio Conferencing license
 
 > [!NOTE]
-> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). 
+> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). 
   
  **To assign a license for a user**
   
@@ -47,7 +48,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
   
 3. In the Action pane under **Product licenses**, click **Edit**. 
     
-4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
    > [!NOTE]
    > After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the admin center or press CTRL+F5 to refresh the browser window. 

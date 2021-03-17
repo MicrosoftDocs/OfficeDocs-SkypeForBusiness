@@ -1,13 +1,13 @@
 ---
 title: Skype for Business Online retirement
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Learn about the retirement plan for Skype for Business Online and how Microsoft is helping customers migrate to Teams. 
+description: Learn about the retirement plan for Skype for Business Online, and how Microsoft is helping customers migrate to Teams. 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
@@ -44,7 +44,7 @@ Teams is available in most Microsoft 365 Business and Enterprise plans, and your
 
 The Skype consumer service and Skype for Business Server are not affected by the retirement of Skype for Business Online.
 
-[Read FAQs](faq-journey.md) on the process of upgrading to Teams and the Teams capabilities roadmap.
+[Read FAQs](FAQ-journey.yml) on the process of upgrading to Teams and the Teams capabilities roadmap.
 
 ## What is Microsoft doing to help customers transition to Teams?
 
@@ -96,6 +96,9 @@ To support smaller customers that may not have dedicated IT resources, Microsoft
 
 **How does the Skype for Business Online retirement announcement affect organizations with hybrid configurations (Skype for Business Online and Skype for Business Server)?**<br>
 Hybrid customers with online and on-prem configurations will be required to transition users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Upgrade paths for hybrid configurations built around principles of coexistence and interoperability will remain after the retirement of Skype for Business Online. For more information, see [Coexistence with Skype for Business](coexistence-chat-calls-presence.md) and [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+
+**How will the retirement of Skype for Business Online affect organizations with hybrid Skype for Business configurations for on-premises Public Switched Telephone Network (PSTN) connectivity and online Phone System capabilities?**<br>
+Some organizations have split users between homed on-premises for PSTN connectivity and homed online for Phone System capabilities. Once access to Skype for Business Online ends, organizations will need to transition online users to Microsoft Teams and connect their on-premises telephony network to Teams through [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Customers with eligible subscriptions are encouraged to engage with [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) for Teams onboarding assistance.
 

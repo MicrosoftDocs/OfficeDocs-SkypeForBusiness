@@ -1,7 +1,7 @@
 ---
 title: Manage voice routing policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,7 +17,6 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to create and manage voice routing policies in Microsoft Teams. 
-f1.keywords: 
 ---
 
 # Manage voice routing policies in Microsoft Teams

@@ -1,8 +1,8 @@
 ---
 title: "Remove Deployment"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RemoveDeploymentFinalPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 description: "Click Finish to create an empty topology as the first step in decommissioning your entire deployment."

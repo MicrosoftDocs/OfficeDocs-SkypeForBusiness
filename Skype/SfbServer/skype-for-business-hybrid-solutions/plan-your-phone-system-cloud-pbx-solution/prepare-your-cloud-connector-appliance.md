@@ -20,6 +20,9 @@ description: "Learn about how to prepare your Cloud Connector appliance for depl
 
 # Prepare your Cloud Connector appliance
 
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Learn about how to prepare your Cloud Connector appliance for deployment and use with Phone System (Cloud PBX).
 
 This section describes how to get the Skype for Business Cloud Connector Edition installation files, install Cloud Connector software, and prepare your Cloud Connector appliance for deployment. After you have completed all steps in this section, you will be ready to deploy Cloud Connector for a single site or multiple sites. If you have an existing Cloud Connector deployment, and you have not yet upgraded to Cloud Connector version 2.1, see [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).

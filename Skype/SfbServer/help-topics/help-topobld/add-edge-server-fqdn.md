@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server FQDN"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: "You must specify a fully qualified domain name (FQDN) for the Access Edge service. If you did not select the Use a single FQDN &amp; IP address option on the Select features page, you must also specify an FQDN for the Web Conferencing Edge service and for the A/V Edge service."

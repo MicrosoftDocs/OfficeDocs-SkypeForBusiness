@@ -77,18 +77,14 @@ For more information about planning your migration, see [Plan for Skype for Busi
 
 Currently we don't support automated migration to the Cloud of a UM auto attendant system created in Exchange 2013 or 2016. To manually re-create an auto attendant system, you'll need to:
 
-1. Use Exchange admin powershell commands to review the structure of the old auto attendant system, including any nested auto attendants and call queues.  
+1. Use Exchange admin PowerShell commands to review the structure of the old auto attendant system, including any nested auto attendants and call queues.  
 2. Create copies of text-to-speech scripts or recorded messages associated with each UM auto attendant node.
 3. Create on premise endpoints for each auto attendant node, including assigning a test phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System.
-4. Implement a new Cloud auto attendant service with Skype for Business Online and Phone System. See [Configure resource accounts](configure-onprem-ra.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM auto attendant node.
+4. Implement a new Cloud auto attendant service with Microsoft Teams and Phone System. See [Configure resource accounts](configure-onprem-ra.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM auto attendant node.
 5. Test the functionality of the Cloud auto attendant.
 6. Reassign the phone number assigned to the old Exchange UM auto attendant to the newly created main Cloud auto attendant.
 
 See [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
-
-## Additional planning resources
-
-The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Teams admin center. Review the tutorial and use the exercises there to create your plan.
 
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure resource accounts](configure-onprem-ra.md).
 

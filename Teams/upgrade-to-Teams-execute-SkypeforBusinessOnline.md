@@ -1,13 +1,13 @@
 ---
-title: Upgrade Skype for Business Online to Microsoft Teams | Deploy
-author: lanachin
-ms.author: v-lanac
+title: Upgrade from Skype for Business Online to Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business Online deployement. 
+description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business Online deployment. 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -43,9 +43,9 @@ Follow the guidance in this article if you have wholly deployed Skype for Busine
 
 ## Assign the coexistence and upgrade mode
 
-You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams instance of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows Powershell session. You can do this either on a per user basis, or on a tenant-wide basis if you want to upgrade the entire tenant in one step. 
+You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams instance of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows PowerShell session. You can do this either on a per user basis, or on a tenant-wide basis if you want to upgrade the entire tenant in one step. 
 
-For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).
 
 ## Upgrade all users to Teams at one time
 
@@ -102,8 +102,8 @@ Phone System with Teams is supported after the user is in TeamsOnly mode. (If th
 
 When considering Public Switched Telephone Network (PSTN) connectivity options, there are two possible scenarios when moving from Skype for Business Online to TeamsOnly mode:
 
-- A user in Skype for Business Online, with a Microsoft Calling Plan. Upon upgrade, this user will continue to have a Microsoft Calling plan. This is the simplest scenario requiring only a couple of steps. For more information, see [From Skype for Business Online with Microsoft Calling Plans](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+- A user in Skype for Business Online, with a Microsoft Calling Plan. Upon upgrade, this user will continue to have a Microsoft Calling plan. This is the simplest scenario requiring only a couple of steps. For more information, see [From Skype for Business Online with Microsoft Calling Plans](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
 
-- A user in Skype for Business Online, with on-premises voice functionality through Skype for Business on-premises or Cloud Connector Edition. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.  For more information see, [From Skype for Business Online with on-premises voice](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).
+- A user in Skype for Business Online, with on-premises voice functionality through Skype for Business on-premises or Cloud Connector Edition. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.  For more information see, [From Skype for Business Online with on-premises voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice).
 
 

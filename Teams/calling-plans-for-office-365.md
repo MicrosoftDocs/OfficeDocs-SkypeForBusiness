@@ -37,6 +37,8 @@ Here are the Calling Plans options:
 - **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Microsoft 365 or Office 365.
     
 - **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 or Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+
+All users in the same country/region (this is the user country location defined in the licensing area of the Microsoft 365 admin center) with the same Calling Plan share a pool of minutes. For example, if you have 100 users located in the same country/region with a 120 minutes Domestic Calling Plan assigned, they share a pool of 12,000 minutes. All calls exceeding these minutes are billed per minute.
     
 Visit [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to find out about monthly minutes available for each organization in each country/region.
   
@@ -53,27 +55,25 @@ For detailed information about usage limits and terms of use, see [Audio Confere
     ![Screen shot showing option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Microsoft 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
     
     ![Screen shot showing voice calling plan options.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?
 
 If so, you don't need to buy a Calling Plan. Office 365 Enterprise E5 includes the **Phone System** add-on, so you can proceed to checkout.
   
-Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## Pricing information
 
-- [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?LinkId=799761)
+- [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling)
     
-- [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799763)
-    
-- [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings)
     
 ## For more information
 
@@ -81,7 +81,7 @@ Here are more articles that explain how to set up your Calling Plans:
   
 - [Set up Calling Plans](set-up-calling-plans.md)
     
-- [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
     
 - [Here's what you get with Phone System in Microsoft 365 or Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     

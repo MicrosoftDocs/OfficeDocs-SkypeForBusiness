@@ -1,13 +1,13 @@
 ---
 title: Monitor usage and feedback in Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: Learn about the reporting options available to see how users are using Microsoft Teams and gather feedback on user experiences.
 localization_priority: Priority
 search.appverid: MET150
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ---

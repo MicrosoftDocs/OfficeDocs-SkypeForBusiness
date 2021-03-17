@@ -1,11 +1,10 @@
 ---
 title: "Toll-free dialing restrictions in Portugal"
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-cichur
+author: cichur
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: d2672637-c5ce-4310-a2d9-6050a87a1a98
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -33,7 +32,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> |800 XXX XXX  <br/> |
+|Dialing format(s)  <br/> |8000<br/> 8001<br/> 8002<br/> 8003<br/> 8004<br/> 8005<br/> 8006<br/> 8007<br/> 8008<br/> 8009<br/>  802<br/> |
 |Country/region ISO code  <br/> |PT  <br/> |
 |Island/territory covered  <br/> | Azores, Madeira <br/> |
 |Island/territory not covered  <br/> |Not applicable  <br/> |
@@ -45,7 +44,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numbers](/microsoftteams/getting-service-phone-numbers)
 
   
  

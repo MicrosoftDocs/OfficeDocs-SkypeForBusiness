@@ -27,6 +27,8 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+
+|Skype for Business Server 2019 Cumulative Update 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| March 2020 |
 |Skype for Business Server 2019 Cumulative Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| December 2019 |

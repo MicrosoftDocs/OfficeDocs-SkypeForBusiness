@@ -17,9 +17,9 @@ ms.collection:
   - M365-collaboration
 ms.custom:
   - seo-marvel-apr2020
+  - seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
 ---
 
 
@@ -37,7 +37,7 @@ To help IT admins easily set this integration up, we have updated our open-sourc
 * Auto-installation of the Moodle tab and the Moodle Assistant bot into each synchronized team. (Coming soon)
 * One-click publishing of the Moodle app into your private Teams App Store. (Coming soon)
 
-To learn more about the functionality this integration provides, go [here](https://education.microsoft.com/courses-and-resources/resources/microsoft-teams-moodle).
+To learn more about the functionality this integration provides, see [Installing the Moodle integration with Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions).
 
 ## Prerequisites
 

@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Machine NAT IP"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: "If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated. This should be the external IP address of the A/V Edge service."

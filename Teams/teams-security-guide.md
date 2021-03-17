@@ -3,11 +3,12 @@ title: Security guide for Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Security advice and learnings for ITAdmins in installing, configuring and maintaining Microsoft Teams.
+description: Security advice and learnings for IT admins in installing, configuring and maintaining Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -34,7 +35,7 @@ Teams is designed and developed in compliance with the Microsoft Trustworthy Com
 
 ## Trustworthy by Default
 
-Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Teams data is protected on the network.
+Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), all Teams data is protected on the network.
 
 ## How Teams Handles Common Security Threats
 
@@ -234,7 +235,7 @@ Enabling external users to participate in Teams meetings can be very useful, but
 It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
 
 > [!NOTE]
-> For more information on Guest and External Access in Teams, see this [article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams.
+> For more information on Guest and External Access in Teams, see this [article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams. <p> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) and its matrix.
 
 ### Participant Roles
 
@@ -297,6 +298,8 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementing VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementing VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Meeting recordings in Teams, where recordings are stored, and who can access them](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)

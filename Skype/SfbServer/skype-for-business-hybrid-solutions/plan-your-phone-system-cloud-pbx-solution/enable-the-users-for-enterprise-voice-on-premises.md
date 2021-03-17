@@ -24,6 +24,9 @@ description: "For a user to use Phone System (Cloud PBX), you must first enable 
 # Enable the users for Enterprise Voice on premises
  
 For a user to use Phone System (Cloud PBX), you must first enable them for Enterprise Voice and assign them a phone number. You do this using your on-premises deployment while the user is still homed in the on-premises deployment.
+
+> [!Important]
+> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
   
 ### To enable a user for Enterprise Voice on premises and assign a phone number
 

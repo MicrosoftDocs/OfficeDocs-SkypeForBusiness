@@ -1,7 +1,7 @@
 ---
 title: "Add, change, remove emergency locations"
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -26,7 +26,7 @@ An emergency location must be associated with a phone number, but when this happ
 
 No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location. Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices. See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
   
-To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
