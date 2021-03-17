@@ -19,13 +19,13 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams Rooms requirements
 
-Microsoft Teams Rooms scale to different room sizes by using a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size from very small huddle spaces up through very large conference spaces and boardrooms.  The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
+Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size from small huddle spaces up through large conference spaces and boardrooms.  The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
 
 This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
 Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
 
-Also, refer to:
+Refer to:
 
 - [Skype for Business add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
@@ -55,26 +55,25 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
    [Crestron Flex UC-B160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[Crestron Flex UC-C160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
-  |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
+  |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-  |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
+  |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-  |[Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
+  |[Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 with Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[Yealink MVC900 with Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
-  |[Yealink MVC 300 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 GB | 128 GB|
   |[Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400)        |Core i5|8 GB | 128 GB|
-  |[Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
-  |[Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
-  |[Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
   
-
 > [!NOTE]
 > - Core M3 processors are not supported.
 > - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
@@ -109,7 +108,8 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
-|[Jabra Panacast Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
+|[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
+|Lenovo ThinkSmart Cam Camera|1.0.111.4|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -124,7 +124,9 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
+|[Poly Sync 40](https://www.poly.com/us/en/products/phones/sync/sync-40)|0.0.94.1461|
 |[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
+|[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |

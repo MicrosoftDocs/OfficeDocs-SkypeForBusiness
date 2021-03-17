@@ -27,6 +27,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+
 |Skype for Business Server 2019 Cumulative Update 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| March 2020 |
@@ -51,7 +52,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 Cumulative Update 11 Hotfix 1 |[KB 3061064](https://support.microsoft.com/kb/3061064)| July 14, 2020 |
+|Skype for Business Server 2015 Cumulative Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| July, 2020 |
 |Skype for Business Server 2015 Cumulative Update 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| May 13, 2020 |
 |Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| August 2019 |
 |Skype for Business Server 2015 Cumulative Update 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| July 2019 |
@@ -86,7 +87,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Lync Server 2013 Cumulative Update 10 Hotfix 4 |[KB 2809243](https://support.microsoft.com/kb/2809243)|June 2020|
+|Lync Server 2013 Cumulative Update 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|July 2020|
 |Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|June 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|January 2019|

@@ -14,6 +14,7 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 search.appverid: MET150
 description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
@@ -160,20 +161,20 @@ You can use Teams live events in multiple regions across the world. The followin
 
 - Australia
 - Canada
+- Germany
+- France
 - India
 - Japan
+- South Africa
+- South Korea
+- Switzerland
+- UAE
 - United Kingdom
 
 **These countries/regions and clouds aren't supported**
 
 - Brazil
-- Germany
-- France
 - Norway
-- South Africa
-- South Korea
-- Switzerland
-- UAE
 - Government Community Cloud (GCC)-H
 - DOD
 

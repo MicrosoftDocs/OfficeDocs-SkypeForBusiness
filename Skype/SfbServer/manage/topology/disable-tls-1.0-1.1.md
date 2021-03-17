@@ -1,5 +1,5 @@
 ---
-title: "Disable TLS 1.0/1.1 in Skype for Business Server 2015"
+title: Disable TLS 1.0/1.1 in Skype for Business Server 2015
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -11,20 +11,18 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: "Summary: Prepare for and implement disabling TLS 1.0 and 1.1 in your environments."
+description: Prepare for and implement disabling TLS 1.0 and 1.1 in your environments.
 ---
 
 # Disable TLS 1.0/1.1 in Skype for Business Server 2015
 
-The purpose of this article is to provide the necessary guidance for you to prepare for and implement disabling TLS 1.0 and 1.1 in your environments. This process requires extensive planning and preparation. Please carefully review all of the information in this article as you make your plan to disable TLS 1.0 and 1.1 for your organization. Note that there are many external dependencies and connectivity conditions that could be impacted by disabling TLS 1.0/1.1, so extensive planning and testing is warranted.
+This article helps you prepare for and implement disabling TLS 1.0 and 1.1 in your environments. This process requires extensive planning and preparation. Carefully review all of the information in this article as you make your plan to disable TLS 1.0 and 1.1 for your organization. There are many external dependencies and connectivity conditions that could be impacted by disabling TLS 1.0/1.1, so extensive planning and testing is warranted.
 
-## In this article
-
-- [Background and scope](#background)
+- [Background and scope](#background-and-scope)
 - [Prerequisites and process](#prerequisites-and-process)
 - [Advanced deployment scenarios](#advanced-deployment-scenarios)
 
-## Background
+## Background and scope
 
 The primary drivers for providing TLS 1.0 and 1.1 disable support for Skype for Business Server On-Premises are Payment Card Industry (PCI) Security Standards Council and Federal Information Processing Standards requirements. More information for PCI requirements can be found [here](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls).  Microsoft cannot provide guidance on whether or not your organization is required to adhere to these or other requirements. You must determine if it is required for you to disable TLS 1.0 and/or 1.1 in your environments.
 
