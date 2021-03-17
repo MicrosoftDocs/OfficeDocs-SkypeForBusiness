@@ -27,13 +27,13 @@ These limitations are only applied to new private chats that are created after s
 
 ## Review use cases for supervised chats
 
-- 1.1 follow-up with an educator when students aren't comfortable sharing or asking questions publicly
+- 1.1 follow-up with an educator when students aren't comfortable sharing or asking questions publicly.
 
-- Educators reaching out 1.1 to a student about an assignment, recent class interaction (or lack of), or other topic
+- Educators reaching out 1.1 to a student about an assignment, recent class interaction (or lack of), or other topic.
 
-- Student group discussions monitored by an educator
+- Student group discussions monitored by an educator.
 
-- Allow non-teaching staff to chat with student in a supervised environment
+- Allow non-teaching staff to chat with student in a supervised environment.
 
 ## Enable supervised chat
 
@@ -55,13 +55,13 @@ To learn more about setting. Teams policies see Teams policies and policy packag
 
 Roles can't be assigned to guests in your tenant. Guests are assigned the limited role.
 
-### Steps 2: Enable supervised chat
+### Allow supervised chat
 
-Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users you can enable supervised chat within your tenant by going to **Org-wide settings** &gt; **Teams Settings** and setting **Role-based chat permissions** policy to *On.* You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This is under CsTeamsClientConfiguration.
+Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users, you can enable supervised chat within your tenant by going to **Org-wide settings** &gt; **Teams Settings** and setting **Role-based chat permissions** policy to *On.* You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This cmdlet is under CsTeamsClientConfiguration.
 
 Supervised chat must be enabled for all users in the tenant and cannot be enabled for only a portion of your users.
 
-### Steps 3: Enable chat
+### Enable chat
 
 Enable chat for all your users using the existing Chat policy available in Teams admin center.
 
