@@ -28,7 +28,6 @@ IT admins can remotely provision and sign in to a Teams device. To provision a d
 
 The following list shows the device firmware requirements.
 
-||||
 |Device category|Manufacturer|Minimum firmware|
 |-|-|-|
 ||||
