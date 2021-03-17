@@ -46,28 +46,28 @@ _Figure 1. The relationship between an organization's networks and Microsoft 365
 
 At a high level, do the following to implement QoS:
 
-1. [Make sure your network is ready](#make-sure-your-network-is-ready)
+1. [Make sure your network is ready](#make-sure-your-network-is-ready).
 
-1. [Select a QoS implementation method](#select-a-qos-implementation-method)
+1. [Select a QoS implementation method](#select-a-qos-implementation-method).
 
-1. [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type)
+1. [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type).
 
 1. Implement QoS settings:
-   1. On clients using a Group Policy Object (GPO) to [set client device port ranges and markings](QoS-in-Teams-clients.md)
+   1. On clients using a Group Policy Object (GPO) to [set client device port ranges and markings](QoS-in-Teams-clients.md).
    2. On routers (see the manufacturer documentation) or other network devices. This might include port-based Access Control Lists (ACLs) or simply defining the QoS queues and DSCP markings, or all of these.
 
       > [!IMPORTANT]
       > We recommend implementing these QoS policies using the client source ports and a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network.  
 
-   3. [Set how you want to handle media traffic for Teams meetings](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+   3. [Set how you want to handle media traffic for Teams meetings](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings).
 
 5. [Validate your QoS implementation](#validate-your-qos-implementation) by analyzing Teams traffic on the network.
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
-- The shortest path to Microsoft 365 is best
-- Closing ports will only lead to quality degradation
-- Any obstacles in between, such as proxies, aren't recommended
+- The shortest path to Microsoft 365 is best.
+- Closing ports will only lead to quality degradation.
+- Any obstacles in between, such as proxies, aren't recommended.
 - Limit the number of hops:
   - Client to network edge – 3 to 5 hops
   - ISP to Microsoft network edge – 3 hops
@@ -113,7 +113,7 @@ Although port-based tagging works across platforms, it only marks traffic at the
 
 You could also implement QoS by using a Group Policy Object (GPO) to direct client devices to insert a DSCP marker in IP packet headers identifying it as particular type of traffic (for example, voice). Routers and other network devices can be configured to recognize this and put the traffic in a separate, higher-priority queue.
 
-Although this scenario is entirely valid, it will only work for domain-joined Windows clients. Any device that isn't a domain-joined Windows client won't be enabled for DSCP tagging. Clients such as Mac OS have hard-coded tags and will always tag traffic.
+Although this scenario is entirely valid, it will only work for domain-joined Windows clients. Any device that isn't a domain-joined Windows client won't be enabled for DSCP tagging. Other clients, such as those running macOS, have hard-coded tags and will always tag traffic.
 
 On the plus side, controlling the DSCP marking via GPO ensures that all domain-joined computers receive the same settings and that only an administrator can manage them. Clients that can use GPO will be tagged on the originating device, and then configured network devices can recognize the real-time stream by the DSCP code and give it an appropriate priority.
 
@@ -143,8 +143,11 @@ _Recommended initial port ranges_
 Be aware of the following when you use these settings:
 
 - If you plan to implement ExpressRoute in the future and haven't yet implemented QoS, we recommend that you follow the guidance so that DSCP values are the same from sender to receiver.
+
 - All clients, including mobile clients and Teams devices, will use these port ranges and will be affected by any DSCP policy you implement that uses these source port ranges. The only clients that will continue to use dynamic ports are the browser-based clients (clients that let participants join meetings by using their browsers).
+
 - Although the Mac client uses the same port ranges, it also uses hard-coded values for audio (EF) and video (AF41). These values aren't configurable.
+
 - If you later need to adjust the port ranges to improve user experience, the port ranges can't overlap and should be adjacent to each other.
 
 ## Migrate QoS to Teams
@@ -159,22 +162,19 @@ If you've previously deployed Skype for Business Online, including QoS tagging a
 **Set QoS for audio**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000
--IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000 -IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
 ```
 
 **Set QoS for video**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020
--IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
 ```
 
 **Set QoS for sharing**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040
--IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 ```
 
 ## Managing source ports in the Teams admin center

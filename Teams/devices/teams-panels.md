@@ -54,9 +54,7 @@ The hardware, software, and network requirements to deploy panels devices may di
 To use Teams panels, you need [Microsoft Teams Rooms Standard License](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing).
 
 > [!Note]
->
-> - If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need additional license to use Teams panels.
-> - You will require Microsoft Teams Rooms Premium license to use additional advanced Teams panels features that are coming soon.
+> If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need additional license to use Teams panels.
 
 ## Deploy Teams panels devices
 
@@ -135,3 +133,5 @@ To manage your Teams panels devices, in the left navigation of the Microsoft Tea
 [Microsoft Teams blog on Teams panels](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Get started with Teams panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[Devices certified under Microsoft Teams panels certification program](teams-ip-phones.md#currently-certified-teams-panels)

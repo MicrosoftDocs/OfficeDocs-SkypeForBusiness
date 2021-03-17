@@ -39,14 +39,14 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model                         | Firmware version                                                                                                                                                                                                                           | Release date                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes expansion module supported on C450HD |C450HD_TEAMS_0.225                                        | January 2021                 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
-| Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | March 2019                   |
+| Audiocodes C470HD                      | 1.8.293                                                  | January 2021                 |
+| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                       | March 2019                   |
+| Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
 | Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued (5/11/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued (5/11/2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
-| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | January 2020                 |
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | January 2020                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | December 2019                |
@@ -64,9 +64,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
 
-| Device model | Firmware version | Release date  | Room size (up to)                                         |
+| Device model | Firmware version | Release date  | Room size                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
+| Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Medium size room (4.5m x 6m) |
 | Yealink CTP18 touch console  | 137.15.0.28    | March 2021 | Compatible with MeetingBar A20 and MeetingBar A30 |
 | Yealink MeetingBar A20  | 133.15.0.19      | November 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X30         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
@@ -111,14 +111,15 @@ When you install a new firmware version on your device, you can determine the co
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
+| Crestron UC-2       | 1.0.2.53              | 2020 Update #7            |
 | Lenovo ThinkSmart View|CD-18781Y.200922.098 | 2020 Update #6           |
-| Poly CCX400         | 6.2.23.0202         | 2020 Update #7           |
+| Poly CCX400         | 6.2.23.0202       | 2020 Update #7           |
 | Poly CCX500/CCX600  | 6.2.23.0202         | 2020 Update #7          |
 | Poly Trio C60       | 6.2.23.0202          | 2020 Update #7          |
-| Yealink T55/T56/T58 | 58.15.0.118         | 2020 Update #7           |
-| Yealink MP56        | 122.15.0.27          | 2020 Update #7           |
-| Yealink VP59        | 91.15.0.50          | 2020 Update #7           |
-| Yealink CP960       | 73.15.0.111       | 2020 Update #7           |
+| Yealink T55/T56/T58 | 58.15.0.122       | 2020 Update #7           |
+| Yealink MP56        | 122.15.0.33         | 2020 Update #7           |
+| Yealink VP59        | 91.15.0.54         | 2020 Update #7           |
+| Yealink CP960       | 73.15.0.115      | 2020 Update #7           |
 
 ### Product release information for Teams Rooms on Android
 
