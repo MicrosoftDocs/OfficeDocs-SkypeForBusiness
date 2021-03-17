@@ -70,6 +70,8 @@ You need a verification code for the devices. The verification code is generated
 
 When the device is powered on and connected to the network, the technician provisions the device. These steps are completed on the Teams device.
 
+![Provision new device overview](../media/remote-provision-7.png)
+
 1. The technician selects **Provision device** from the **Settings**.  
 
    ![Provision new device option from the Actions tab](../media/provision-device1.png)
