@@ -121,6 +121,10 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink VP59        | 91.15.0.54         | 2020 Update #7           |
 | Yealink CP960       | 73.15.0.115      | 2020 Update #7           |
 
+See [Microsoft Teams phones feature set](phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+
+See [Microsoft Teams displays](teams-displays).
+
 ### Product release information for Teams Rooms on Android
 
 The following are the latest Teams Rooms on Android app and firmware versions.
@@ -161,19 +165,15 @@ When you install a new firmware version on your device, you can determine the co
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, Update #1 |
 
-See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+See [Finding the Firmware version on a mobile device](phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
-See [Finding the Firmware version on a mobile device](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
+## Additional resources
 
-Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-* * *
-
-If you're a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
-
-## More resources
+If you're a vendor seeking to join the certification program, see [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
