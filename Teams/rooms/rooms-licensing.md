@@ -46,7 +46,7 @@ Microsoft has two dedicated SKUs for licensing meetings and calling on a per-dev
 
 &sup2; Not available in sovereign clouds  
 
-&sup3; For more information and avaibility, see [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium.md).
+&sup3; For more information and availability, see [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium.md).
 
 > [!NOTE]
 > If you are currently using E1, E3, E4, E5 SKUs with Skype for Business Plan 2 with Audio Conferencing or with Office 365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model in the table above after current licenses expire.
@@ -64,7 +64,7 @@ The following table lists the features that are available in Microsoft Teams Roo
 |Join a scheduled meeting  | Microsoft Teams Rooms Standard or Premium  |Skype for Business Server Standard CAL  |
 |Initiate an ad hoc meeting | Microsoft Teams Rooms Standard or Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Initiate an ad hoc meeting and dial out from a meeting to phone numbers |  Microsoft Teams Rooms Standard or Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Give the room a phone number and make or receive a calls from the room or join an audio conference using a phone number  | With Direct Routing: Microsoft Teams Rooms Standard or Premium<br/>Without Direct Routing: Domestic or International Calling Plan<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Give the room a phone number and make or receive a call from the room or join an audio conference using a phone number  | With Direct Routing: Microsoft Teams Rooms Standard or Premium<br/>Without Direct Routing: Domestic or International Calling Plan<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Manage your room device with Microsoft Intune |Microsoft Teams Rooms Standard or Premium  |Microsoft Intune subscription with [on-premises MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Microsoft Teams Rooms Managed Services | Microsoft Teams Rooms Premium ||
 | |||
