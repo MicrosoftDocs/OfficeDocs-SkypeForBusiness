@@ -1,8 +1,8 @@
 ---
 title: "Performance Scenarios for the Skype for Business Server 2015 Stress and Performance Tool"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro

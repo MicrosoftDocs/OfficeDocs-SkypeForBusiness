@@ -39,5 +39,5 @@ Centralize communication and critical resources for your crisis management or in
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Coordinate incident response|`com.microsoft.teams.template.CoordinateIncidentResponse` |Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Coordinate incident response|`com.microsoft.teams.template.CoordinateIncidentResponse`|Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

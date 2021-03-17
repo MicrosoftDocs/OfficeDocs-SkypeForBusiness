@@ -1,7 +1,7 @@
 ---
 title: "Toll-free dialing restrictions in Denmark"
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference

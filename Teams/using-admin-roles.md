@@ -61,20 +61,16 @@ You can assign users to these roles in Azure AD. To learn how to assign administ
 
 ## Cmdlets available for each role
 
-Most of the PowerShell tools for these admin roles live in the Skype for Business PowerShell module, and it's important to note that some of the cmdlets that these admin roles have access to control shared settings that are also used for Skype for Business Online. The Skype for Business admin role also has access to all the cmdlets in the Skype for Business PowerShell module.
+Most of the PowerShell tools for these admin roles live in the Teams PowerShell module, and it's important to note that some of the cmdlets that these admin roles have access to control shared settings that are also used for Skype for Business Online. 
 
-To view the full list of cmdlets currently available to a given role in the Skype for Business PowerShell module, follow these steps:
+To view the full list of cmdlets:
 
-1. Assign that role to a user (and make sure that the user has no other roles).
-2. Connect to the Skype for Business PowerShell module:<br>
-   a. $session = new-csonlinesession<br>
-   b. Import-pssession $session<br>
-   c. Use **Get-Module** to identify the name of the imported session (it will be a randomly generated name).<br>
-3. Use **Get-Command -Module** <*name from above*> to identify all available cmdlets
+```powershell
+Get-Command -Module MicrosoftTeams
+ ```
 
 ### Related topics
 
 - [Microsoft Teams PowerShell Overview](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 - [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
-

@@ -1,7 +1,7 @@
 ---
 title: "Release notes"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -24,6 +24,8 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.7.19.0 |02/03/2021 |
+|4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
@@ -64,27 +66,46 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.7.19.0 (02/03/2021)
+
+Introduced in this update:
+- Quality and reliability fixes
+
+### 4.7.15.0 (12/11/2020)
+
+Introduced in this update:
+
+- Share HDMI audio to meeting participants in Teams meeting
+- Cortana voice skills (Preview)
+- Prevent unmuting based on audio permissions when Teams Room joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
+
+> [!NOTE]
+> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
+
 ### 4.6.23.0 (10/19/2020)
 
 Introduced in this update:
+
 - Fix for white half-screen when invoking On-screen keyboard in Teams meeting
 
 ### 4.6.20.0 (09/30/2020)
 
 Introduced in this update:
+
 - See more videos with 3x3 video gallery on front of room displays  
-- Start local live closed captions from MTR 
+- Start local live closed captions from MTR
 - Join Zoom meetings from Teams Rooms with direct guest join (Preview)
 
 > [!NOTE]
-> 3x3 video gallery and local live closed captions are delivered through Microsoft Teams service. These features are available to all Teams Rooms with application version 4.5.37.0 and above. 
-
+> 3x3 video gallery and local live closed captions are delivered through the Microsoft Teams service. These features are available to all Teams Rooms devices with application version 4.5.37.0 and above.
 
 ### 4.5.37.0 (08/14/2020)
 
 Introduced in this update:
-- Coordinated Meetings between Microsoft Teams and Surface Hub 2S 
-- Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) is installed
+
+- Coordinated Meetings between Microsoft Teams and Surface Hub 2S
+- Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) is installed
 
 ### 4.5.35.0 (07/23/2020)
 
@@ -131,7 +152,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Policy updates for "Windows Updates for Business" 
+- Policy updates for "Windows Updates for Business"
 - Fix for device events reporting showing error in Azure Monitor
 
 ### 4.3.33.0 (1/10/2020)
@@ -189,15 +210,14 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Fixes an issue with the "give feedback" feature 
+- Fixes an issue with the "give feedback" feature
 - Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809
 
 ### 4.0.78.0 (03/14/2019)
 
 Introduced in this update:
 
-- Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build. 
-
+- Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build.
 
 ### 4.0.76.0 (03/04/2019)
 
@@ -208,7 +228,6 @@ Introduced in this update:
 - Improvements to Lobby notifications with addition of Front of Room notification
 - Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device
 - Fix for volume control issue in Teams meetings
-
 
 ### 4.0.64.0 (12/14/2018)
 
@@ -222,7 +241,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Dual display (Front of Room) support for Teams Meetings 
+- Dual display (Front of Room) support for Teams Meetings
 
 ### 4.0.31.0 (10/16/2018)
 
@@ -257,6 +276,7 @@ Introduced in this update:
 ### 4.0.8.0 (07/06/2018)
 
 Introduced in this update:
+
 - This update enables both Skype for Business *and* Teams meetings support on Room Systems devices. Teams is turned off by default once the update is applied. Admins can enable Teams locally in device settings or via a remote xml push.
 
 ### 3.1.115.0 (06/18/2018)
@@ -288,7 +308,7 @@ Introduced in this update:
 
 ### 3.1.100.0 (03/16/2018)
 
-Introduced in this update: 
+Introduced in this update:
 
 - Application updated to improve telemetry
 
@@ -305,12 +325,8 @@ Introduced in this update:
 
 - Bug/Crash fixes to improve stability
 - Support for variable-sized console
-- Peripheral audio processing offloading (additional media whitelisting)
-- Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later. 
-
-<!--### 3.1.97.0 (00/00/0000)
-Introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
+- Peripheral audio processing offloading (additional media allowlist)
+- Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.
 
 ### 3.0.16.0 (11/27/2017)
 
@@ -330,7 +346,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Runs on a Surface Pro (2017) tablet 
+- Runs on a Surface Pro (2017) tablet
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)
 - Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware
 - OEM Support for Environment Controls (Crestron)
@@ -353,7 +369,6 @@ Introduced in this update:
 - Improved Telemetry around meeting join reliability
 - Improved OMS reporting
 - Ability for IT Admin to configure devices remotely
- <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
 ### 2.0.2.0 (03/15/2017)
 
@@ -375,7 +390,7 @@ Introduced in this update:
 - Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room
 
  **Transform Any Meeting Room**
- 
+
 - Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display
 - Reuse existing investments in your front of room display or projectors
 - Works in all types of meeting spaces from huddle spaces to large conference rooms
@@ -383,7 +398,7 @@ Introduced in this update:
 - Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
 
  **Easy to Deploy, Simple to Manage**
- 
+
 - Always-on appliance that automatically wakes up the displays when it detects people in the room
 - Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App
 - Windows AppLocker locks down the device to the Skype Meeting app
@@ -392,7 +407,7 @@ Introduced in this update:
 - Low training effort of end-users due to familiar Skype user interface
 - Runs on Surface Pro 4 tablet
 
-<a name="See"> </a> 
+<a name="See"> </a>
 ## See also
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

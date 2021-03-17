@@ -1,7 +1,7 @@
 ---
 title: Assign policies to large sets of users in your school
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -20,6 +20,8 @@ f1keywords:
 ---
 
 # Assign policies to large sets of users in your school
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > For the larger story on assigning policies in Microsoft Teams, see [Assign policies to your users in Teams](assign-policies.md).
@@ -142,6 +144,7 @@ Run the following to connect to Teams and start a session.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
 #### Unassign a policy that was directly assigned to users
@@ -155,7 +158,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt. 
+In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -164,7 +167,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 ##### Get policy assignments for a group
 
-Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
+Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group ID even if its SIP address or email address was used to assign the policy.
 
 ```powershell
 Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
@@ -220,6 +223,7 @@ Run the following to connect to Teams and start a session.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
 #### Identify your users

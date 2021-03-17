@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms maintenance and operations"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro

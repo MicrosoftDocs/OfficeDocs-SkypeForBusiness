@@ -49,23 +49,31 @@ The account you use to view the AA & CQ Analytics historical report needs to hav
 The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Please perform these steps:
+
 - Download the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) and save the zip file to a directory on your computer.
+
 - Double-click on the zip file to open it.
+
 - Double-click on the "CQ and AA combined Analytics 20201105.pbit" template file and Power BI Desktop should launch.
+
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region":::
 
- - You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output. 
- The region will be displayed after the / like in this example: microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
+ - You can see the region using the Skype for Business Online PowerShell cmdlet (Get-CsTenant).ServiceInstance output. 
+ The region will be displayed after the / like in this example:
+
+   microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
+ 
  - The report will launch with sample data.
+ 
  - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option":::
 
 - You will then be prompted to sign in. Select **Organization account** and then select **Sign in**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login":::
 
 - Select **Connect** and watch the data refresh.
 
@@ -88,9 +96,11 @@ The following steps assume you have already completed the Installation steps.
 Please perform these steps:
 - Select **View tab** on the ribbon.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme":::
 
 - Select the color schema from the drop-down list.
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
 
 ## CQD fields description
 
@@ -116,11 +126,11 @@ Please perform these steps:
 |Is Call Queue Involved                  |Boolean                  |If call queue is involved into to this call equal 1 |
 
 
-### PowerBI data model dimensions
+### Power BI data model dimensions
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA Name	                               |string                   |Auto Attendant Id (resource account Id) |
+|AA Name	                               |string                   |Auto Attendant ID (resource account ID) |
 |AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br>§	abs_search<br>§	call_termination<br>§	call_transfer<br>§ main_menu<br>§	user_selection<br>§	speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement |
 |AACallResult                            |string                   |Result of Auto Attendant Call:<br>§	unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – error of AA configuration<br>§	service_terminated – internal AA errors<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§	terminated_transfer_failed<br>§	terminated_automatic_selection<br>§	transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |string                   |Duration of Auto Attendant call in seconds  |
@@ -151,7 +161,7 @@ Please perform these steps:
 
 |Name	                                   |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/ External call source      |
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>|
 |Directory search method totals          |Distribution of call by search type                         |
 |Caller action                           |Distribution of call by call receiver                       |
 |Call result                             |Distribution of call by final call state                    |
@@ -162,7 +172,7 @@ Please perform these steps:
 
 |Name	                                   |Description                            |
 |:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/ External call source         |
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>   |
 |Call volume                             |Distribution of call by call queues                            |
 |Caller result                           |Distribution of call by call result                            |
 |Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
@@ -184,5 +194,8 @@ Please perform these steps:
 
 ## Known Issues
 
-- Currently, Call Queue and auto attendant show resource accounts Id instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
-- Currently, only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
+- Call Queue and auto attendants are shown by resource account's ID instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
+
+- Only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
+
+- <sup>1</sup> **Incoming call source** in the auto attendant and Call Queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or Call Queue, the **Incoming call source** will be reported as Internal.

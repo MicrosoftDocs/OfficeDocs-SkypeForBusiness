@@ -27,7 +27,7 @@ description: Learn how to set up Phone System for call queues with Microsoft Tea
 ---
 # Create a call queue
 
-Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 Call queues provide:
 
@@ -47,11 +47,11 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 ![Screenshot of resource account and language settings](media/call-queue-name-language.png)
 
-1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
+1. Type a name for the call queue.
 
-2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
+2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
 ## Greetings and music on hold in queue
 
@@ -89,9 +89,6 @@ To add a group to the queue, click **Add groups**, search for the group, click *
   
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
-> [!NOTE]
-> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
-
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
@@ -116,12 +113,15 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-For high volume queues, we recommend the following settings:
+The following settings are recommended:
 
 - **Conference mode** to **Auto**
-- **Routing method** to **Attendant routing**
+- **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
+
+> [!NOTE]
+> If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
 ## Call overflow handling
 
@@ -150,7 +150,7 @@ Since agents in a call queue may dial out to return a customer call, consider se
 
 ## Supported clients
 
-- The following clients are supported for call agents in a call queue:
+The following clients are supported for call agents in a call queue:
 
   - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
   - Lync desktop client 2013 (32-bit and 64-bit versions)

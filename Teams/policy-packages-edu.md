@@ -23,14 +23,16 @@ search.appverid: MET150
 description: Learn about policies in a educational or EDU setting, and how to use and manage policy packages in Microsoft Teams. 
 ---
 
-# Teams Policies and Policy Packages for Education
+# Teams policies and policy packages for Education
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](assign-policies.md).
 
 ## Admins: Getting started with Microsoft Teams policy management
 
-Microsoft Teams allows users to do things like attend online meetings or live events, chat, make calls, and use apps. Setting the right Microsoft Teams admin policies is a critical step in ensuring that Teams is a safe learning environment for students. As an admin, you can use policies to control the Teams features that are available to users in your educational institute.  In most cases, policies must be adjusted for both students and educators to keep the environment safe.  
+Microsoft Teams allows users to do things like attend online meetings or live events, chat, make calls, and use apps. Setting the right Microsoft Teams admin policies is a critical step in ensuring that Teams is a safe learning environment for students. As an admin, you can use policies to control the Teams features that are available to users in your educational institute. In most cases, policies must be adjusted for both students and educators to keep the environment safe.  
 
 Here's a list of the main policy areas you will find in Microsoft Teams. To learn more about the policies in each area and the capabilities they control, use the links below:
 

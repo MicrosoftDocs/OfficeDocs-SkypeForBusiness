@@ -1,7 +1,7 @@
 ---
 title: Teams and Outlook email integration
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 description: Learn about Teams and Outlook email integration features, including features that let users share information between email in Outlook and chat or channel conversations in Teams.  
 ms.collection: 
   - M365-collaboration
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 

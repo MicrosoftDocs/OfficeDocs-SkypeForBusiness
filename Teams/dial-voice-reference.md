@@ -29,9 +29,9 @@ Dial by Name is a feature of an auto attendant that is also known as directory s
 
 ## Searching for users
 
-Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or Enterprise Voice enabled for Skype for Business Server users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by Name in an auto attendant.
+Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by Name in an auto attendant.
 
-Dial by extension is a feature of an auto attendant that is also part of directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. Users you wish to have located and reached using Dial by extension  **aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license if they are online users, or Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. Dial by extension  will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by extension in an auto attendant.
+Dial by extension is a feature of an auto attendant that is also part of directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. Users you wish to have located and reached using Dial by extension  **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. Dial by extension  will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by extension in an auto attendant.
 
 ### Maximum directory size
 
@@ -148,5 +148,3 @@ The following voice commands are available in the 14 languages supported for spe
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms managed service
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer:  
 ms.topic: article
@@ -39,7 +39,7 @@ Here's an overview of the capabilities of the Microsoft Teams Rooms managed serv
 |**Insights and recommendations**     |Insights into customer health, usage, utilization, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
 |**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Teams Rooms managed service Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
-|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.         |
+|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub support coming in the second half of 2021*        |
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available integration with customer-hosted Service Now.         |
 
@@ -86,29 +86,86 @@ For more details on the Microsoft Teams Rooms managed service support coverage, 
 
 ## Supported regions
 
-The Microsoft Teams Rooms managed service is available in the following countries and regions.
+The Microsoft Teams Rooms managed service is available in the following countries and regions. 
 
+- Andorra
 - Australia
 - Austria
 - Belgium
-- Canada (excluding Quebec)
+- Bouvet Island
+- Brazil
+- Bulgaria
+- Canada
+- Christmas Island
+- Cocos (Keeling) Islands
+- Cook Islands
+- Croatia
+- Cyprus
+- Czech Republic
 - Denmark
-- Finland
+- Estonia
+- Faroe Islands
+- Fiji
+- France
 - Germany
+- Gibraltar
 - Greece
+- Greenland
+- Heard Island And McDonald Islands
+- Hong Kong SAR
+- Hungary
+- Iceland
+- India
 - Ireland
 - Italy
+- Japan
+- Kiribati
+- Latvia
+- Lesotho
+- Liechtenstein
+- Lithuania
 - Luxembourg
+- Macao SAR
+- Malta
+- Marshall Islands
+- Mexico
+- Micronesia
 - Monaco
-- The Netherlands
+- Nauru
+- Netherlands
 - New Zealand
+- Niue
+- Norfolk Island
+- Northern Mariana Islands
 - Norway
+- Palau
+- Papua New Guinea
+- Pitcairn Islands
+- Poland
 - Portugal
+- Romania
+- Russia
+- Saint Pierre and Miquelon
+- Samoa
+- San Marino
+- Singapore
+- Slovakia
+- Slovenia
+- Solomon Islands
+- South Africa
 - Spain
+- Swaziland
 - Sweden
 - Switzerland
+- Taiwan
+- Tokelau
+- Tonga
+- Tuvalu
 - United Kingdom
 - United States
+- Vanuatu
+- Vatican City
+- Wallis and Futuna
 
 ## Support inclusions and exclusions
 

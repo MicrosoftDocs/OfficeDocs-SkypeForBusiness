@@ -134,7 +134,7 @@ The table below summarizes the difference between Media Processors and Transport
 
 |    | Media Processors | Transport Relays|
 | :--------------|:---------------|:------------|
-In media path for non-bypassed calls for end users | Always | Never | 
+In media path for non-bypassed calls for end users | Always | If client cannot reach the Media Processor directly | 
 In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 
 In media path for voice applications | Always | Never | 
 Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints | 

@@ -38,21 +38,27 @@ The following steps assume you have already installed Power BI Desktop on the co
 
 Please perform these steps:
 - Download the [CQD Teams Auto Attendant & Call Queue Historical Report Template](https://aka.ms/TAPAACQAnalytics) and save it to a directory on your computer.
+
 - Double-click on the template and Power BI Desktop should launch.
+
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
  - You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output. 
- The region will be displayed after the / like in this example: microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
+ The region will be displayed after the / like in this example: 
+ 
+   microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
+   
  - The report will launch with sample data.
+ 
  - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 - You will then be prompted to sign in. Select **Organization account** and then select **Sign in**.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 - Select **Connect** and watch the data refresh.
 
@@ -72,11 +78,11 @@ The following steps assume you have already completed the Installation steps.
 Please perform these steps:
 - Select **View tab** on the ribbon.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 - Select the color schema from the drop-down list.
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
 
 ## CQD fields description
@@ -171,4 +177,5 @@ Please perform these steps:
 
 ## Known Issues
 - Currently, Call Queue and auto attendant show resource accounts Id instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
+
 - Currently, only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.

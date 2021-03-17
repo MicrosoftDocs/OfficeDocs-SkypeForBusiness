@@ -32,7 +32,7 @@ Sometimes people in your organization will need to use a phone to call in to a m
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
-For pricing info, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+For pricing info, see [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing?rtc=3).
 
 ## Step 1: Buy and assign Audio Conferencing licenses
 
@@ -46,7 +46,7 @@ You must be a [global administrator or billing administrator](https://support.of
 
    - **Try it** before you buy it: you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Buy it**: see [Microsoft Teams add-on licensing]https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+   - **Buy it**: see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 3. [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) in your organization who are going to schedule or lead meetings.
 

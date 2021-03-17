@@ -29,48 +29,52 @@ All Microsoft Teams 1:1 or group chats are journaled through to the respective u
 
 eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
 
-Not all Teams content is eDiscoverable. The following table shows the content types that can be located through eDiscovery.
+Not all Teams content is eDiscoverable. The following table shows the content types that you can search for using Microsoft eDiscovery tools:
 
 | Content type | eDiscoverable | Notes |
-|:--- | --- |:--- |
-| Teams chat messages | Yes |  |
-| Private channel messages | Yes | |
-| Name of channel | No | |
-| Meeting IM conversations | Yes | |
-| Meeting metadata<sup>1</sup> | Yes |  |
-| Edited messages | Yes | If the user is on hold, previous versions of edited messages are preserved. |
-| Emojis, GIFs, stickers | Yes | |
-| Code snippets | No | |
-| Chat links | Yes | |
-| Reactions (likes, hearts, and so on) | No | |
-| Inline images | Yes | |
-| Tables | Yes | |
-| Subject | Yes | |
-| Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
-| Audio recordings | No | |
+|:--- | :--- |:--- |
+|Audio recordings | No | |
+|Card content|Yes|See [Search for card content](#search-for-card-content) for more information.|
+|Chat links | Yes | |
+|Chat messages | Yes |This includes content in Teams channels, 1:1 chats, 1:N group chats, and chats with guest user participants.  |
+|Code snippets | No | |
+|Edited messages | Yes | If the user is on hold, previous versions of edited messages are also preserved. |
+|Emojis, GIFs, and stickers | Yes | |
+|Inline images | Yes | |
+|Meeting IM conversations | Yes | |
+|Meeting metadata<sup>1</sup> | Yes |  |
+|Name of channel | No | |
+|Private channel messages | Yes | |
+|Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
+|Reactions (such as likes, hearts, and other reactions) | No | |
+|Subject | Yes | |
+|Tables | Yes | |
+|||
 
-<sup>1</sup> Meeting metadata includes the following:
+<sup>1</sup> Meeting (and call) metadata includes the following:
 
-- Meeting or call start and end time, and duration
-- Call/Meeting join and leave events for each participant
+- Meeting start and end time, and duration
+- Meeting join and leave events for each participant
 - VOIP join/calls
 - Anonymous join
 - Federated user join
 - Guest user join
 
-The image shows an example of the metadata.
+  The image shows an example of meeting metadata.
 
-![Image is of the CVR records meeting metadata.](media/conversationOption3.png)
+  > [!div class="mx-imgBorder"]
+  > ![Image is of the CVR records meeting metadata.](media/conversationOption3.png)
 
-Here's an example of IM conversation between participants during the meeting.
+Here's an example of an IM conversation between participants during the meeting.
 
-![Image is of a conversation between participants.](media/MeetingIMConversations.png)
+![Conversation between participants in Teams.](media/MeetingIMConversations.png)
 
-![Image is of a conversation between participants.](media/MeetingImConversation2.png)
+> [!div class="mx-imgBorder"]
+> ![Conversation between participants in eDiscovery search results.](media/MeetingImConversation2.png)
 
-To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+For more information about conducting an eDiscovery investigation, see [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
 
-Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after export.
+Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after you export them.
 
 When viewing the .pst file for the team, all conversations are kept in the Team Chat folder under Conversation History. The title of the message contains the team name and channel name. For example, the image below shows a message from Bob who messaged the Project 7 standard channel of the Manufacturing Specs team.
 
@@ -82,7 +86,7 @@ Private chats in a user's mailbox are stored in the Team Chat folder under Conve
 
 Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
 
-Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.
+Because each private channel has its own SharePoint site that's separate from the parent team site, files in a private channel are managed independently of the parent team.
 
 Teams doesn't support eDiscovery search of a single channel within a team, so the whole team must be searched. To perform an eDiscovery search of content in a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).
 
@@ -90,7 +94,7 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel files in an eDiscovery search
 
-Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 1. Run the following to get a list of all SharePoint site collections associated with private channels in the team.
 
@@ -117,33 +121,105 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
 
 Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.
 
-1. Run the following to get a list of private channels in the team.
+1. Run the following command to get a list of private channels in the team.
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 
-2. Run the following to get a list of private channel members.
+2. Run the following command to get a list of private channel members.
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. Include the mailboxes of all members from each private channel in the team as part of your eDiscovery search query.
+3. Include the mailboxes of all members from each private channel in the team as part of your [eDiscovery search query](https://docs.microsoft.com/microsoft-365/compliance/search-for-content-in-core-ediscovery).
+
+## Search for content for guest users
+
+You can use eDiscovery tools to search for Teams content related to guest users in your organization. Teams chat content that's associated with a guest user is preserved in a cloud-based storage location and can be searched for using eDiscovery. This includes searching for content in 1:1 and 1:N chat conversations in which a guest user is a participant with other users in your organization. You can also search for private channel messages in which a guest user is a participant and search for content in *guest:guest* chat conversations where the only participants are guest users.
+
+To search for content for guest users:
+
+1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous topic.
+
+2. After you successfully connect to Azure AD PowerShell, run the following command to display the user principal name (UPN) for all guest users in your organization. You have to use the UPN of the guest user when you create the search in step 4.
+
+   ```powershell
+   Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
+   ```
+
+   > [!TIP]
+   > Instead of displaying a list of user principal names on the computer screen, you can redirect the output of the command to a text file. You can do this by appending `> filename.txt` to the previous command. The text file with the user principal names will be saved to the current folder.
+
+3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multi-factor authentication.
+
+4. Create a content search that searches for all content (such as chat messages and email messages) in which the specified guest user was a participant by running the following command.
+
+   ```powershell
+   New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+   For example, to search for content associated with the guest user Sara Davis, you would run the following command.
+
+   ```powershell
+   New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
+   ```
+
+    For more information about using PowerShell to create content searches, see [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch).
+
+5. Run the following command to start the content search that you created in step 4:
+
+   ```powershell
+   Start-ComplianceSearch <search name>
+   ```
+
+6. Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and then click **Show all** > **Content search**.
+
+7. In the list of searches, select the search that you created in step 4 to display the flyout page.
+
+8. On the flyout page, you can do the following things:
+
+   - Click **View results** to view the search results and preview the content.
+
+   - Next to the **Query** field, click **Edit** to edit and then rerun the search. For example, you can add a search query to narrow the results.
+
+   - Click **Export results** to export and download the search results.
+
+## Search for card content
+
+Card content generated by apps in Teams channels, 1:1 chats, and 1xN chats is stored in mailboxes and can be searched. A *card* is a UI container for short pieces of content. Cards can have multiple properties and attachments, and can include buttons that can trigger card actions. For more information, see [Cards](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+
+Like other Teams content, where card content is stored is based on where the card was used. Content for cards used in a Teams channel is stored in the Teams group mailbox. Card content for 1:1 and 1xN chats are stored in the mailboxes of the chat participants.
+
+To search for card content, you can use the `kind:microsoftteams` or `itemclass:IPM.SkypeTeams.Message` search conditions. When reviewing search results, card content generated by bots in a Teams channel has the **Sender/Author** email property as `<appname>@teams.microsoft.com`, where `appname` is the name of the app that generated the card content. If card content was generated by a user, the value of **Sender/Author** identifies the user.
+
+When viewing card content in Content search results, the content appears as an attachment to the message. The attachment is named `appname.html`, where `appname` is the name of the app that generated the card content. The following screenshots show how card content (for an app named Asana) appears in Teams and in the results of a search.
+
+**Card content in Teams**
+
+![Card content in Teams channel message](media/CardContentTeams.png)
+
+**Card content in search results**
+  
+![Same card content in the results of a Content search](media/CardContentEdiscoverySearchResults.png)
+
+> [!NOTE]
+> To display images from card content in search results at this time (such as the checkmarks in the previous screenshot), you have to be signed into Teams (at https://teams.microsoft.com) in a different tab in the same browser session that you use to view the search results. Otherwise, image placeholders are displayed.
 
 ## Advanced eDiscovery
 
-Some Microsoft Teams content can also be searched and preserved using the [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20). While eDiscovery provides a range of search, hold, and export functionality, advanced eDiscovery gives compliance administrators more tools to identify data sources and analyze their contents.
+Some Microsoft Teams content can also be searched and preserved using the [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20). While eDiscovery provides a range of search, hold, and export functionality, Advanced eDiscovery gives compliance administrators more tools to identify data sources and analyze their contents.
 
 ### Advanced eDiscovery custodian workflow for Teams content
 
-Custodians might be a member of various teams. You can capture Teams content that is relevant to these custodians. For background and instructions on the custodian workflow, see [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20).
+Custodians might be a member of various teams. You can capture Teams content that is relevant to these custodians. For instructions on the custodian workflow, see [Add custodians to an Advanced eDiscovery case](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
 
 After adding a custodian, click the **Next** button, then the **Add** button. A window then displays that prompts you to select additional locations, which will show you all of the custodian's memberships and the corresponding SharePoint site locations for their data. From all of these data sources and teams, you can choose the content you want to use for eDiscovery, then place that user and all the data sources that you've identified on hold.
 
 You can select whether to include their Exchange content, their OneDrive content, or both. Exchange content includes all of the application content in the user's mailboxes, such as their email, the Teams content that is stored in their mailbox, and so on. The OneDrive content includes not only the user's content, but also all of the Teams content that is stored in OneDrive, such as 1:1 chats, 1:N chats, and files shared in chats.
 
-You also have the option to associate any team the custodian is a member of so that channel chat messages and files the custodian has access to are included. Additionally, any other team can be associated with a custodian. For more information, see [Add custodians to an Advanced eDiscovery case](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
+You also have the option to associate any team the custodian is a member of so that channel chat messages and files the custodian has access to are included. Additionally, any other team can be associated with a custodian.
 
 > [!NOTE]
 > eDiscovery of messages and files in [private channels](private-channels.md) works differently than in standard channels. To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).
@@ -174,13 +250,14 @@ A normal review set is similar to an export; it provides the individual `.msg` f
 
 A conversation review set provides a more intuitive, threaded view of the conversations; it displays related messages together in the proper order.
 
-![Screenshot of conversation review set](media/conversationOptions2.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of conversation review set](media/conversationOptions2.png)
 
 Functionality such as redaction is available in both types of review sets. For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### Collection options
 
-When adding to a review set, there are several options available as checkboxes under the **Collection Options** section of the window, including **Conversation Retrieval Options** and **Teams Conversations**. If you enable these options, any individual Teams messages that are part of your review set will also be shown with additional messages surrounding them for context. For example, if your query is very specific and only one message is returned as a result, enabling these options will also return several messages leading up to and following the message that matched your query.
+When adding to a review set, there are several options available as checkboxes under the **Collection Options** section of the window, including **Conversation Retrieval Options** and **Teams Conversations**. If you enable these options, any individual Teams messages that are part of your review set will also be shown with additional messages surrounding them for context. For example, if your query is specific and only one message is returned as a result, enabling these options will also return several messages leading up to and following the message that matched your query.
 
 Many logical criteria are used to determine whether additional messages provide context to messages that match your query. For example, for Teams content, enabling these options will retrieve the parent message and all the child messages because of the way the messages are threaded.
 
@@ -210,7 +287,8 @@ Click on the **Annotate view** tab to access annotation features. This tab displ
 
 Here's an example of a redacted file for threaded conversation between users.
 
-![Screenshot of redacted file](media/RedactedFileExample.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of redacted file](media/RedactedFileExample.png)
 
 At the bottom of the **Annotate view** tab is the **Tag documents** button, which displays the tagging panel. Within this panel, you can apply a tag to all messages within the Teams conversation. You can label a conversation as responsive or non-responsive, privileged or not privileged, whether it contains "Interesting items", whether it should be included in export, and whether it needs further review. You can also manage and apply other customizable tags.
 
