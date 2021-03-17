@@ -99,7 +99,7 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
 11. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
     
-To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
+See the [Network Security](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
   
 **Firewall Proxy Host Name/Port Configuration**
 See this article for full details on required FQDNs, Ports and IPs to operate Microsoft Teams Rooms: https://docs.microsoft.com/en-us/microsoftteams/rooms/security#network-security
