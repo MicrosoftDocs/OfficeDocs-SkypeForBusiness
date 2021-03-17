@@ -21,7 +21,7 @@ appliesto:
 # Teams view-only meeting experience
 
 > [!Note]
-> View-only meeting experience will be available in early March 2021. This feature will be enabled on March 1,2021 as default OFF. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
+> View-only meeting experience will be available in early March 2021  and is available for A3, A5, E3, E5 customers only. This feature will be enabled on March 1,2021 as default OFF. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
 > If your meeting or webinar hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year.
