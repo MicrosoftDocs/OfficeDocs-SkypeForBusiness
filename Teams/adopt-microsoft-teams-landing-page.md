@@ -25,7 +25,7 @@ appliesto:
 > [!NOTE]
 > For an overview of making the transition to remote learning and resources to help you get started, see our [remote learning home page](https://www.microsoft.com/education/remote-learning).
 
-If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-quick-start.md), which is designed to get you up and running quickly. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Microsoft 365 or Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under [Deeper adoption guidance](#deeper-adoption-guidance).
+If you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-quick-start.md), which is designed to get you up and running quickly. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Microsoft 365 or Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under [Deeper adoption guidance](#deeper-adoption-guidance).
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

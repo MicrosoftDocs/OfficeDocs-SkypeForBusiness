@@ -31,7 +31,7 @@ This article describes some of the limits, specifications, and other requirement
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of teams a user can be a member of|1,000&sup2;|
-|Number of members in a team | 10,000<sup>6</sup>     |
+|Number of members in a team | 25,000<sup>6</sup>     |
 |Number of owners per team | 100   |
 |Number of org-wide teams allowed in a tenant | 5     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
@@ -54,7 +54,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>5</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
-<sup>6</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+<sup>6</sup> Teams in GCC can accommodate 25,000 members but teams in GCCH/DoD can only accommodate 2,500 members. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
 ## Messaging
 
@@ -220,7 +220,7 @@ A class team can support more than 200 members. However, if you plan to use eith
 |Number of tags per team    | 100        |
 |Number of suggested default tags per team    | 25        |
 |Number of team members assign to a tag    |100         |
-|Number of tags assigned to a user    |25         |
+|Number of tags assigned to a user per team    |25         |
 
 ## Contacts
 

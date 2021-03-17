@@ -22,6 +22,18 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## February 18, 2021
+
+### Meeting reactions policy
+
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. [Learn more.](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---meeting-reactions)
+
+## February 11, 2021
+
+### View-only meeting experience
+
+Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience. [Learn more](../view-only-meeting-experience.md).
+
 ## January 27, 2021
 
 ### Virtual visits with Teams - Integration into EHR
