@@ -27,7 +27,9 @@ These limitations are only applied to new private chats that are created after s
 
 ## Review use cases for supervised chats
 
-- 1.1 follow-up with an educator when students aren't comfortable sharing or asking questions publicly.
+The following examples are descriptions of when a supervised chat is necessary.
+
+-  A 1.1 follow-up with an educator when students aren't comfortable sharing or asking questions publicly.
 
 - Educators reaching out 1.1 to a student about an assignment, recent class interaction (or lack of), or other topic.
 
