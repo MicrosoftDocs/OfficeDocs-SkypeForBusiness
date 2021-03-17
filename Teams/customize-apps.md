@@ -161,4 +161,4 @@ You can only customize apps that have been allowed to be customizable by the app
 
 - [Manage apps](manage-apps.md)
 - [Customize your app store](customize-your-app-store.md)
-- [Publish a custom app](submit-approve-custom-apps.md)
+
