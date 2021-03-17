@@ -26,11 +26,11 @@ IT admins can remotely provision and sign in to a Teams device. To provision a d
 
 ## Review the supported devices
 
-The following list shows the device firmware requirements. 
+The following list shows the device firmware requirements.
 
 ||||
-|-|-|-|
 |Device category|Manufacturer|Minimum firmware|
+|-|-|-|
 ||||
 
 ## Add a device MAC address
