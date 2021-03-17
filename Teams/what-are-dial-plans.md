@@ -70,7 +70,7 @@ To plan custom dial plans, follow these steps:
 - **Step 4** Develop an organization-wide scheme for naming dial plans. Adopting a standard naming scheme assures consistency across an organization and makes maintenance and updates easier.
 
 
-## Creating your new tenant dial plan
+## Creating your new dial plan
 
 When you create a new dial plan, you must put in the information that is required.
 

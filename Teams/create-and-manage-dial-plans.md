@@ -61,38 +61,16 @@ You assign a dial plan in the same way you assign policies. [!INCLUDE [assign-po
 
 ## Using PowerShell
   
-### Verify and start Remote PowerShell
+### Start PowerShell
+- Open a Windows PowerShell command prompt and run the following commands:
 
- **Check that you are running Windows PowerShell version 3.0 or later**
-  
-1. To verify that you're running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
-    
-3. If you don't have version 3.0 or later, download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you're prompted.
-    
-4. You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. You can download this module, which is supported only on 64-bit computers, at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you're prompted.
-    
-To learn more, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-  
- **Start a Windows PowerShell session**
-  
-1. Click **Start** > **Windows PowerShell**.
-    
-2. In the **Windows PowerShell** window, connect to Microsoft 365 or Office 365 by running:
-    
- 
-    > [!NOTE]
-    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-    >
-    > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+```powershell
+  # When using Teams PowerShell Module
 
-    ```PowerShell
-   Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-    ```
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
   
 ### Create and manage your dial plans
 

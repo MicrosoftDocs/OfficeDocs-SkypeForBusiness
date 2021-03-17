@@ -142,8 +142,6 @@ You can edit the settings of a policy through the **Policy packages** page or by
 
 #### Assign a policy package to a group
 
-**This feature is in private preview**
-
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
 To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
