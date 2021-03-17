@@ -102,7 +102,7 @@ Planning for configuration and deployment covers the following key areas:
 
 Every Teams panels device requires a Microsoft 365 room resource account. You use the resource account credentials to sign in to Microsoft Teams app on the panels device.
 
-To set up a Microsoft 365 resource account for Teams panels, it is receommended that you purchase a [Microsoft Teams Rooms Standard license](#license-requirement). 
+To set up a Microsoft 365 resource account for Teams panels, we recommended that you purchase a [Microsoft Teams Rooms Standard license](#license-requirement). 
 For information on how to create a resource account and assign a license to it, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
 > [!NOTE]
