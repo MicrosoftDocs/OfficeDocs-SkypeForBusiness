@@ -1,7 +1,7 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -14,6 +14,7 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 search.appverid: MET150
 description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
@@ -35,10 +36,11 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 
 The following prerequisites are required for the user to schedule a Teams live event.
 
-Here are the licenses that must be assigned to produce or present a Teams live event:  
+Here are the licenses that must be assigned to organize, produce or present a Teams live event:  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
-- A Microsoft Teams license - this is included in the licenses listed in the first bullet.
+- **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license. 
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- A Microsoft Teams license - this is included in the licenses listed in the first and second bullets.
 - A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](https://docs.microsoft.com/stream/license-overview).
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
@@ -86,12 +88,12 @@ As a best practice, we recommend that you create a channel for producers and pre
 | Attendee visibility | Teams production | External app or device production |
 |------------------------------|-----------------|----------------------|
 |Public (anonymous users)      |  Yes            |  No                  |
-|Guest users                   |  Yes            |  No                  |
+|Guest users                   |  Yes<sup>1</sup>            |  No                  |
 |Everyone in external access (federation) company |  Yes<sup>1</sup>|  No                  |
 |Everyone in company           |  Yes            |  Yes                 |
 |Specific groups / people      |  Yes            |  Yes                 |
 
-<sup>1</sup> External access (federation) attendees can only be invited through People & Group <br>
+<sup>1</sup> Can only be invited through People & Group <br>
 
 ## Teams live events and Skype Meeting Broadcast
 
@@ -100,13 +102,13 @@ The following table highlights core capabilities and features offered in live ev
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To help support our customers, through January 1, 2021, we will extend temporary limit increases for live events hosted in Teams, Stream, and Yammer, including**:
+> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
 >
->- Up to 20,000 attendees per event
->- Up to 50 simultaneous events per Teams tenant
->- Up to 16 hours per broadcast
+>- Event support for up to 20,000 attendees
+>- 50 events can be hosted simultaneously across a tenant
+>- Event duration of 16 hours per broadcast
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](../teams-add-on-licensing/advanced-communications.md).**
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | Capability | Skype Meeting Broadcast | Events produced in Teams | Events produced in external app or device |
 |---------|---------|---------|---------|
@@ -159,19 +161,20 @@ You can use Teams live events in multiple regions across the world. The followin
 
 - Australia
 - Canada
-- India
-- Japan
-- United Kingdom
-
-**These countries/regions and clouds aren't supported**
-
 - Germany
 - France
-- Norway
+- India
+- Japan
 - South Africa
 - South Korea
 - Switzerland
 - UAE
+- United Kingdom
+
+**These countries/regions and clouds aren't supported**
+
+- Brazil
+- Norway
 - Government Community Cloud (GCC)-H
 - DOD
 

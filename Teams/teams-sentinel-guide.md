@@ -296,7 +296,7 @@ TeamsData
 
 #### User accounts who are Owners of large numbers of Teams
 
-Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse Teams, when, usually, users create and own a small number of Teams around specific topics. This KQL query looks for suspicious behavior.
+Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse teams, when, usually, users create and own a small number of teams around specific topics. This KQL query looks for suspicious behavior.
 
 ```kusto
 // Adjust this value to change how many teams a user is made owner of before detecting 

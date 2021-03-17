@@ -1,7 +1,7 @@
 ---
-title: Upgrading Skype for Business to Teams - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Get started upgrading Skype for Business to Teams
+author: msdmaguire    
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -38,6 +38,12 @@ appliesto:
 Congratulations on your pending upgrade from Skype for Business to Microsoft Teams. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.
 
 Whether you are upgrading from Skype for Business Online to Teams or from a Skype for Business on-premises environment to Teams, the upgrade framework will guide you through the process based on your business scenario.
+
+| Icon | Description |
+| --- | --- |
+|![Walkthrough symbol](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Upgrade hub**: Find an overview of all of the guidance, training, and resources you'll need to implement a successful upgrade from Skype for Business to Teams at [Plan your upgrade from Skype for Business to Microsoft Teams](upgrade-skype-teams.yml).|
+
+Keep reading for frequently-asked questions about upgrade.
 
 ## Why upgrade to Microsoft Teams?
 

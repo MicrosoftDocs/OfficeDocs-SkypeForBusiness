@@ -30,7 +30,7 @@ Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
-On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Admin account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
+On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Administrator account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
 
 CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. 
 
@@ -47,16 +47,16 @@ If you want non-admin users (such as support engineers and helpdesk agents) to u
 
 |  |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 Global Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Global Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
 |Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
 |Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Azure AD Global Reader |Yes         |Yes         |Yes         |No         |
-|Office 365 Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
+|Global Reader |Yes         |Yes         |Yes         |No         |
+|Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
 
-<sup>1</sup> In addition to reading CQD reports, the Office 365 Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> In addition to reading CQD reports, the Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
 > If you're not seeing [EUII (end-user identifiable information)](CQD-data-and-reports.md#euii-data) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 28 days. Anything older than 28 days is deleted.

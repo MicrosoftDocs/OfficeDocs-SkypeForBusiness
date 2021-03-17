@@ -1,8 +1,8 @@
 ---
 title: "Mediation Server General Settings Expander"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro

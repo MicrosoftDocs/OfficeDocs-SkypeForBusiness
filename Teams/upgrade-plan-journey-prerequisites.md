@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams Prerequisites | Dependencies Adoption Upgrade 
-author: lanachin
-ms.author: v-lanac
+title: Prerequisites and environmental dependencies for upgrading to Teams 
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization 
+description: Use this guidance to learn about the prerequisites and the environmental dependencies for deploying Teams in your organization 
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -54,5 +54,7 @@ See the following articles to learn about prerequisites and how Teams interacts 
 - If your organization is considering Public Switched Telephone Network (PSTN) calling options, see [Voice - Phone System and PSTN connectivity](cloud-voice-landing-page.md), [Which Calling Plan is right for you](calling-plan-landing-page.md), and [Phone System Direct Routing](direct-routing-landing-page.md).
 
 - To ensure all network requirements have been met before rolling out Teams, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+
+- If you are currently using Skype for Business Online Connector to manage your services, you will need to move to the Teams PowerShell module and update your existing PowerShell scripts. See [Move from Skype for Business Online Connector to the Teams PowerShell module](teams-powershell-move-from-sfbo.md) for more information.
 
 After you've verified that your environment meets all applicable prerequisites, [evaluate your current environment for Teams](upgrade-plan-journey-evaluate-environment.md).

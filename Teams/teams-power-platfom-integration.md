@@ -1,7 +1,7 @@
 ---
 title: Teams integration with Microsoft Power Platform
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: kvivek
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -78,7 +78,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Configure Governance in Microsoft Teams                                     | Learn how to create a Teams messaging retention policy for your organization and how to archive, delete and restore individual Teams                                                                                   |  [Configure governance in Microsoft Teams guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Configuring and deploying Microsoft Teams meetings                          | Step through the process of deploying the meetings workload for Microsoft Teams.                                                                                                                                       |  [Configuring and deploying Microsoft Teams meetings guide](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configure Audio Conferencing for Microsoft Teams                            | Discover the capabilities of Audio Conferencing in Teams and learn how to assign conference bridges and dial-in phone numbers.                                                                                          |  [Configuring audio conferencing for Microsoft Teams guide](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Configuring Microsoft Teams for Firstline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Firstline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Firstline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Configuring Microsoft Teams for Frontline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Frontline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Frontline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>Quick start guides</h2>
 

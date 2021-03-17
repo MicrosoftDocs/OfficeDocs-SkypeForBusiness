@@ -24,7 +24,7 @@ ms.custom:
 
 # Edit guest user information
 
-You can edit guest information from the Microsoft 365 admin center or the Azure Directory portal.
+You can edit guest information from the Microsoft 365 admin center or the Azure Active Directory portal.
 
 ## Guest users in the Microsoft 365 admin
 

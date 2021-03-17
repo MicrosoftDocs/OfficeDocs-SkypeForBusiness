@@ -1,8 +1,8 @@
 ---
 title: "Front End General Settings Expander for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
