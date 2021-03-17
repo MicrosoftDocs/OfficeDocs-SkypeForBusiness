@@ -65,7 +65,10 @@ As part of private preview, the Teams Learning app (private preview) is released
 
 The admins for the Microsoft 365 admin center can manage settings related to the Teams Learning app (private preview) and can configure the learning content sources.
 
-The admin selects which learning content sources (such as LinkedIn Learning or SharePoint) will be available in the app. The admin then configures those sources to make sure the content is available for search and discovery and can be browsed by the employees who use the app.
+The admin can select which additional learning content sources (for example, SharePoint or supported third-party content provider sources) will be available to users of the app. The admin then configures those sources to make sure the content is available for search and discovery and can be browsed by the employees who use the app.
+
+> [!NOTE]
+>  Users sign in to non-Microsoft and LinkedIn Learning Pro learnings in a browser or embedded viewer. This configured learning is subject to the separate license, privacy and service terms between your organization and the third party, and not the Learning (Preview) terms. Before selecting this learning in Learning (Preview), verify you have an agreement in place for your organization and users.
 
 ### Configure settings for the learning content sources for the app
 

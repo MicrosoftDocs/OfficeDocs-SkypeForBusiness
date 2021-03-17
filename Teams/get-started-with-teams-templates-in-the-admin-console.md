@@ -22,7 +22,7 @@ appliesto:
 
 # Get started with Teams templates in the admin center
 
-**Custom templates are not yet supported for EDU customers.**
+**Ability to create custom templates is not yet supported for EDU customers.**
 
 > [!NOTE]
 > Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.

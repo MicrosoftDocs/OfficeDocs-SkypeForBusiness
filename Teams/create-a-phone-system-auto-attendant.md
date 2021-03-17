@@ -32,15 +32,17 @@ Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto
 Auto attendants can direct calls, based on callers' input, to one of the following destinations:
 <a name="call-routing-options" ></a>
 
-- **Person in the organization** - a person in your organization who is able to receive voice calls. This can be an online user or a user hosted on-premises using Skype for Business Server.
-- **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
-- **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
 - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
+- **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
+- **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
+- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
+- **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
+- **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
 
 You'll be prompted to choose one of these options at various stages as you set up an auto attendant.
 
-To set up an auto attendant, in the Teams admin center, expand **Voice**, click **Auto attendants**, and then click **Add**.
+To set up an auto attendant, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
 
 ## General info
 
@@ -48,15 +50,18 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, click 
 
 1. Type a name for the auto attendant in the box at the top.
 
-2. If you want to designate an operator, specify the destination for calls to the operator. This is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
+2. To designate an operator, specify the destination for calls to the operator. This designation is optional (but recommended). Set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
 3. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](#call-flow-for-after-hours).
 
-4. Specify a language for this auto attendant. This the language that will be used for system-generated voice prompts.
+4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
 5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-6. Click **Next**.
+> [!NOTE]
+> If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
+
+6. Select **Next**.
 
 ## Call flow
 
@@ -66,7 +71,7 @@ Choose if you want to play a greeting when the auto attendant answers a call.
 
 If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
-If you select **Type a greeting message** the system will read the text you the text that you type (up to 1000 characters) when the auto attendant answers a call.
+If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
 ![Screenshot of call routing settings](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -82,31 +87,31 @@ If you select **Play menu options**, you can choose to **Play an audio file** or
 
 ![Screenshot of dial key options](media/auto-attendant-call-flow-menu-options-complete.png)
 
-For dialing options, you can assign the 0-9 keys on the telephone keypad to one of the call routing destinations. (The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.)
+For dialing options, assign the 0-9 keys on the telephone keypad to one of the call routing destinations. (The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.)
 
-Key mappings don't have to be continuous. It is possible, for example, to create a menu with keys 0, 1, and 3 mapped to options, while the 2 key isn't used.
+Key mappings don't have to be continuous. It's possible to create a menu with keys 0, 1, and 3 mapped to options, while the number 2 key isn't used.
 
-We recommend mapping the 0 key to the operator if you have configured one. If the operator isn't set to any key, the voice command "Operator" is also disabled.
+We recommend mapping the zero key to the operator if you've configured one. If the operator isn't set to any key, the voice command "Operator" is also disabled.
 
-For each menu option, specify the following:
+For each menu option, specify the following settings:
 
 - **Dial key** - the key on the telephone keypad to access this option. If voice inputs are available, callers can also say this number to access the option.
 
-- **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." For example, the caller can press 2, say "two," or say "Sales" to select the option mapped to the 2 key. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to sales."
+- **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." For example, the caller can press 2, say "two," or say "Sales" to select the option mapped to the two keys. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to sales."
 
 - **Redirect to** - the call routing destination used when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
 ### Directory search
 
-If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they may be unexpectedly routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it via a dial key.
+If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they might be unexpectedly routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
-**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
+**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name. (You can set who is and isn't included in the directory on the [Dial scope](#dial-scope) page.)
 
-**Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and is not included in the directory on the [Dial scope](#dial-scope) page.)
+**Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and isn't included in the directory on the [Dial scope](#dial-scope) page.)
 
-Users you wish to make available for Dial By Extension need to have an extension specified as part of one of the following phone attributes defined in Active Directory or Azure Active Directory (See [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) for more information.)
+Users you want to make available for Dial By Extension need to have an extension specified as part of one of the following phones attributes defined in Active Directory or Azure Active Directory (See [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) for more information.)
 
 - OfficePhone
 - HomePhone
@@ -114,7 +119,7 @@ Users you wish to make available for Dial By Extension need to have an extension
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-The required format to enter the extension in the user phone number field is either:
+The required format to enter the extension in the user phone number field can be one of the following formats:
 
 - *+\<phone number>;ext=\<extension>*
 - *+\<phone number>x\<extension>*
@@ -129,7 +134,7 @@ You can set the extension in the [Microsoft 365 admin center](https://admin.micr
 > [!NOTE]
 > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
 
-Once you have selected a **Directory search** option, click **Next**.
+Once you have selected a **Directory search** option, select **Next**.
 
 ## Call flow for after hours
 
@@ -139,11 +144,11 @@ Business hours can be set for each auto attendant. If business hours aren't set,
 
 Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
 
-If you want separate call routing for after-hours callers, then specify your business hours for each day. Click **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
+If you want separate call routing for after-hours callers, then specify your business hours for each day. Select **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
 
-Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified above.
+Once you've specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified above.
 
-Click **Next** when you're done.
+Select **Next** when you're done.
 
 ## Call flows during holidays
 
@@ -151,7 +156,7 @@ Click **Next** when you're done.
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
-1. On the Holiday call settings page, click **Add**.
+1. On the Holiday call settings page, select **Add**.
 
 2. Type a name for this holiday setting.
 
@@ -165,13 +170,13 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 6. If you chose to redirect, choose the call routing destination for the call.
 
-7. Click **Save**.
+7. Select **Save**.
 
 ![Screenshot of holiday settings with holidays listed](media/auto-attendant-holiday-call-settings.png)
 
 Repeat the procedure as needed for each additional holiday.
 
-When you've added all your holidays, click **Next**.
+When you've added all your holidays, select **Next**.
 
 ## Dial scope
 
@@ -184,27 +189,27 @@ You can include or exclude specific users by selecting **Custom user group** und
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
 
-When you're done setting the dial scope, click **Next**.
+When you're done setting the dial scope, select **Next**.
 
 ## Resource accounts
 
-All auto attendants must have an associated resource account.  First level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
+All auto attendants must have an associated resource account.  First-level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
 ![Screenshot of resource account add accounts panel](media/auto-attendant-add-resource-account.png)
 
-To add a resource account, click **Add account** and search for the account that you want to add. Click **Add**, and then click **Add**.
+To add a resource account, select **Add account** and search for the account that you want to add. Select **Add**, and then select **Add**.
 
 ![Screenshot of resource account list showing resource account with assigned service number](media/auto-attendant-resource-account-assigned.png)
 
-When you have finished adding service accounts, click **Submit**. This completes the auto attendant configuration.
+When you have finished adding service accounts, select **Submit** to complete auto attendant configuration.
 
 ## External phone number transfers - technical details
 
-Please refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow auto attendants to transfer calls externally.  In addition:
+Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow auto attendants to transfer calls externally.  In addition:
 
-- For a resource account with a [Calling Plan](calling-plans-for-office-365.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
+- For a resource account with a [Calling Plan license](calling-plans-for-office-365.md), the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
 
-- For a resource account with a Direct Routing number, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
+- For a resource account with a Phone System License and Direct Routing online voice routing policy, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
 
 The outbound phone number that's displayed is determined as follows:
 

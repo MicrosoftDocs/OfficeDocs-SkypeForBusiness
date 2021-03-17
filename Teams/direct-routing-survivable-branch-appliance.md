@@ -23,11 +23,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Survivable Branch Appliance (SBA) for Direct Routing - Public Preview
+# Survivable Branch Appliance (SBA) for Direct Routing
 
-
-> [!NOTE]
-> This is a public preview release.
 
 Occasionally, a customer site using Direct Routing to connect to Microsoft Phone System may experience an internet outage.
 

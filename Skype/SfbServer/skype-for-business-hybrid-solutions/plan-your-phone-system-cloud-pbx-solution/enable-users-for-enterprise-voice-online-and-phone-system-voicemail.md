@@ -46,35 +46,16 @@ To enable a user for Phone System Voice and voicemail, you'll need to perform so
     
 3. Type the following and press Enter:
     
-   ```powershell
+ ```powershell
+  # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
-4. Type the following and press Enter:
-    
-   ```powershell
-   $cred = Get-Credential
-   ```
-
-    After you press Enter, you should see the Windows PowerShell Credential dialog box.
-    
-5. Type your tenant admin username and password, and click **OK**.
-    
-6. In the PowerShell window, type the following and press Enter:
-    
-   ```powershell
-   $Session = New-CsOnlineSession -Credential $cred -Verbose
-   ```
-
-7. Import the session by typing the following cmdlet:
-    
-   ```powershell
-   Import-PSSession $Session -AllowClobber
-   ```
-
-    When running PowerShell on a Skype for Business Server, the local Skype for Business cmdlets are already loaded when you open PowerShell. You must specify the -AllowClobber parameter to allow the online cmdlets to overwrite the on-premises cmdlets with the same name.
-    
-8. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
+  
+4. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true

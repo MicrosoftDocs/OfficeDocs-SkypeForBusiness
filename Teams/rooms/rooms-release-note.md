@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
@@ -64,6 +65,11 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.7.19.0 (02/03/2021)
+
+Introduced in this update:
+- Quality and reliability fixes
 
 ### 4.7.15.0 (12/11/2020)
 
@@ -319,7 +325,7 @@ Introduced in this update:
 
 - Bug/Crash fixes to improve stability
 - Support for variable-sized console
-- Peripheral audio processing offloading (additional media whitelisting)
+- Peripheral audio processing offloading (additional media allowlist)
 - Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.
 
 ### 3.0.16.0 (11/27/2017)
