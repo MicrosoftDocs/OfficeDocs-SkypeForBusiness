@@ -62,52 +62,6 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
  
 6. Click **Save**. 
 
-
-## ![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
-
- **Set up the meeting experience when callers join a meeting**
-    
-1. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-2. On the **Microsoft bridge settings** page, under **Meeting join experience**, select:
-    
-   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
-    
-   - When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
-    
-   - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
-    
-   - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
-  
-   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
-    
-3. After you make your changes, click **Save**.
-    
-**Set the PIN length for meetings**
-  
-1. Sign in with your work or school account.
-    
-2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. On the **Microsoft bridge settings** page, under **Security**, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.
-    
-    > [!IMPORTANT]
-    > The PIN must be between 4 and 12 digits. 
-  
-**Select whether to send email to your users**
-  
-1. Sign in with your work or school account.
-    
-2. Go to the **Microsoft 365 admin center** > **Skype for Business**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their dial-in information changes**, and then click **Save**.
-    
-    See [Emails automatically sent to users when their Audio Conferencing settings change in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) or [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) for more information.
-    
 ## Want to know how to manage with Windows PowerShell?
 
 - To save time or automate this process, you can use the [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet.

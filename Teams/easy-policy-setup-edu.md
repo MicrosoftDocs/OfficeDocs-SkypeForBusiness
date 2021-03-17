@@ -17,12 +17,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use the Teams for Education policy wizard to easily apply policies for students and educators to keep your learning environment safe. 
 f1keywords: 
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use the Teams for Education Policy Wizard to easily apply policies for a safe learning environment
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## Overview
 

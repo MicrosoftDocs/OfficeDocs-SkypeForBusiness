@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System room setup scripts"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -18,7 +18,7 @@ description: "Read this topic to find sample scripts for provisioning Skype Room
  
 Read this topic to find sample scripts for provisioning Skype Room System accounts.
   
-This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.
+This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are only for illustrative purposes. They should be used only after you consult with your IT expert or domain administrator.
   
 ## Example Setup Script: Skype for Business and Exchange Server (On Premises)
 
@@ -42,7 +42,7 @@ Make sure you've reviewed the following prerequisites before running the script:
     
 - Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)
     
-- Windows PowerShell Module for Lync Online
+- Teams PowerShell Module
     
 - Reboot if needed
     
@@ -54,9 +54,9 @@ $rmURI="$rm@$org"$newpass='MyPass@word1'# This Section Signs into Remote PowerSh
 $cred=Get-Credential admin@$org
 $sess=New-PSSession -ConfigurationName microsoft.exchange -Credential $cred -AllowRedirection -Authentication basic -ConnectionUri https://ps.outlook.com/powershell
 Import-PSSession $sess
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred
-Import-PSSession $cssess -AllowClobber
+Import-Module MicrosoftTeams
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
 New-Mailbox -MicrosoftOnlineServicesID $rmURI -room -Name $rm -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
  -EnableRoomMailboxAccount $true
@@ -69,5 +69,4 @@ Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registra
 Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
 # If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
 ```
-
 

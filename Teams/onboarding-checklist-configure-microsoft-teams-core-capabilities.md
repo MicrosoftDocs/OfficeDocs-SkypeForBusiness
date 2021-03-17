@@ -1,7 +1,7 @@
 ---
 title: Onboarding checklist - Configure core capabilities - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article

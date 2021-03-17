@@ -1,7 +1,7 @@
 ---
-title: Purchase services for Teams third-party apps in the Microsoft Teams admin center
-author: LanaChin
-ms.author: v-lanac
+title: Purchase third-party apps for Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,12 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: 
-description: Learn how to purchase services for Teams third-party apps on the Manage apps page of the Microsoft Teams admin center.
+description: Learn how to purchase third-party apps for Teams in the Microsoft Teams admin center.
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 ---
-Purchase services for Teams third-party apps in the Microsoft Teams admin center
+Purchase third-party apps for Teams
 ======================================================
 
 > [!NOTE]

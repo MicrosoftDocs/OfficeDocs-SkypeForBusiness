@@ -83,7 +83,14 @@
         "Lync Server"
       ],
       "contributors_to_exclude": [
-        "dstrome"
+        "dstrome",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "feedback_system": "None",
       "hideEdit": true,

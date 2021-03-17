@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System hybrid deployments"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

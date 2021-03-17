@@ -1,7 +1,7 @@
 ---
 title: "Deploy Teams phones and Teams displays using Intune"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
