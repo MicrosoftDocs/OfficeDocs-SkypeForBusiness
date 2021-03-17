@@ -21,7 +21,7 @@ appliesto:
 # Teams view-only meeting experience
 
 > [!Note]
-> View-only meeting experience will be available in early March 2021  and is available for A3, A5, E3, E5 customers only. This feature will be enabled on March 1,2021 as default OFF. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
+> View-only meeting experience will be available in early March 2021. View-only broadcasts will be available in Microsoft 365 E3/E5, Microsoft 365 A3/A5, and Microsoft 365 Government G3/G5 plans. This feature will be enabled on March 1,2021 as default OFF. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
 > If your meeting or webinar hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year.
@@ -109,8 +109,3 @@ The view-only attendee won't be able to experience the following options in meet
 - View-only attendees won't have the same latency as a regular attendee. <sup>1</sup>
 
   <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.  
-
-## Related topics
-
-- [Advanced communications add-on for Teams](teams-add-on-licensing/advanced-communications.md)
-- [Limits and specifications for Teams](limits-specifications-teams.md)
