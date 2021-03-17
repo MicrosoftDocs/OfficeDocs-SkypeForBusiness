@@ -41,7 +41,7 @@ To use Audio Conferencing in GCC High or DoD, your organization and the users in
 A tenant license and at least one user license are required to enable the service. You can't enable the service with only the tenant license or with only user licenses. To get service licenses for your tenant and the users in your organization, contact your account team.
 
 > [!IMPORTANT]
-> Users can't be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommend that you not assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.  Not following this guidance can prevent working dialpad from being presented at Teams client.
+> Users can't be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommend that you do not assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.  Failure to follow this guidance may cause the dial pad to be completely missing in the Teams client.
 
 ### Step 2: Set up Direct Routing
 
