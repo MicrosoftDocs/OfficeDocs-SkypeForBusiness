@@ -52,7 +52,7 @@ Watch this short video to learn how to manage template policies.
 
 1. To unhide certain templates, scroll to the **Hidden templates** table.
 
-1. Select the templates to unhide, and then select **Show**.
+2. Select the templates to unhide, and then select **Show**.
 
    ![The selected templates that aren't hidden](media/template-policies-3.png)
 
