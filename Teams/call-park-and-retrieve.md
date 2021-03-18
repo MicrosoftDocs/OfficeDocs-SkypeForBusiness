@@ -56,7 +56,7 @@ You can edit the policy by selecting it in the list and clicking **Edit**.
 
 In order for the policy to work, it must be assigned to users. You can [assign the policy to users individually](assign-policies.md) or assign them to a group.
 
-To assign a call part policy to a group
+To assign a call park policy to a group
 
 1. On the **Call park policies** page, on the **Group policy assignment** tab, click **Add group**.
 2. Search for the group that you want to use, and then click **Add**.
