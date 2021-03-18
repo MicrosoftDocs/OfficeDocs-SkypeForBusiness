@@ -72,7 +72,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 To install Teams PowerShell public preview, run the PowerShell command below.
 
 > [!NOTE]
-> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease"
+> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
@@ -109,6 +109,19 @@ Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
 $session = New-CsOnlineSession -Credential $credential
+Import-PsSession $session
+```
+
+## Sign in using MFA and modern authentication
+
+ If your account uses multi-factor authentication, use the steps in this section.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
 Import-PsSession $session
 ```
 
