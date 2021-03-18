@@ -25,6 +25,7 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 # Meeting policy settings for audio & video
 
 <a name="bkaudioandvideo"> </a>
+<a name="ndi"> </a>
 
 This article describes the meeting policy settings specific to audio and video. These include the following:
 
@@ -166,6 +167,8 @@ If there isn't enough bandwidth for a meeting, participants see a message that i
 For meetings that need the highest-quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low-bandwidth conditions when certain network conditions are detected, depending on the scenario.
 
 ## Video filters mode
+
+<a name="bkvideofilters"> </a>
 
 This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
 
