@@ -22,7 +22,10 @@ appliesto:
 
 # Manage the Microsoft Teams Exploratory license
 
-The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now replaced by The Teams Exploratory experience.
+The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization. The earlier [Microsoft Commercial Cloud Trial](iw-trial-teams.md) is now replaced by the Teams Exploratory experience.
+
+> [!NOTE]
+> There is a limit of 100 Microsoft Teams Exploratory licenses per tenant.
 
 ## What's in the Teams Exploratory experience
 
@@ -126,8 +129,8 @@ To turn off the Teams Exploratory experience license:
 
 4. In the **Product licenses** pane, switch the toggle for this exploratory license to **Off**.
 
-    >[!Note]
-    >The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.
+    > [!NOTE]
+    > The Teams Exploratory toggle switch will appear after the first user in the organization launches the Teams Exploratory experience.
 
 ### Manage Teams for users who have the Teams Exploratory license
 
@@ -177,4 +180,9 @@ As of early 2021, Teams Exploratory is available as a 12 month subscription (fro
 
 At the end of the 12 month subscription, administrators should convert all Teams Exploratory users to a paid license that includes Teams. It is vital to ensure this is completed before the Teams Exploratory subscription expires to avoid any disruption to user's experience.
 
+
+> [!NOTE]
+> Customers will be disabled and blocked from starting a new Exploratory trial licenses for 3 months past the expiration of their previous Exploratory trial license.
+
 For more information, see [Upgrade users from the Teams Exploratory license](#upgrade-users-from-the-teams-exploratory-license)), above in this article.
+

@@ -37,11 +37,11 @@ Microsoft Teams Certification programs ensure a higher-quality bar with higher p
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
-|Device model                         | Firmware version                                                                                                                                                                                                                           | Release date                 
+|Device model                         | Firmware version                                                                                                                                                                                                                           | Release date
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | Audiocodes C470HD                      | 1.8.293                                                  | January 2021                 |
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                       | March 2019                   |
-| Audiocodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |
+| Audio codes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
 | Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued (5/11/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued (5/11/2020) |
@@ -77,7 +77,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 The following devices are Certified under the Microsoft Teams display Certification Program:
 
-| Device model | Firmware version | Release date  |                                         
+| Device model | Firmware version | Release date  |
 |:------------------------|:-----------------|:--------------|
 |Lenovo ThinkSmart View|CD-18781Y.201006.099|October 2020 |
 
@@ -105,7 +105,7 @@ The following are the latest Teams phone app and firmware versions.
 
 #### Firmware versions
 
-When you install a new firmware version on your device, you can determine the corresponding installed versions of the Microsoft Teams app, Company Portal, and Admin Agent. To do this, find the product release in the **Included product release** column, and then look up the product release in the preceding **App versions** table.
+When you install a new firmware version on your device, you can determine the corresponding installed versions of the Microsoft Teams app, Company Portal, and Admin Agent. Find the product release in the **Included product release** column, and then look up the product release in the preceding **App versions** table.
 
 | Device model        | Firmware version     | Year/Included product release  |
 |:--------------------|:---------------------|:-------------------------|
@@ -120,6 +120,10 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MP56        | 122.15.0.33         | 2020 Update #7           |
 | Yealink VP59        | 91.15.0.54         | 2020 Update #7           |
 | Yealink CP960       | 73.15.0.115      | 2020 Update #7           |
+
+See [Microsoft Teams phones feature set](phones-for-teams.md) for information on features supported by these devices.
+
+See [Microsoft Teams displays](teams-displays.md).
 
 ### Product release information for Teams Rooms on Android
 
@@ -161,19 +165,18 @@ When you install a new firmware version on your device, you can determine the co
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, Update #1 |
 
-See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
-See [Finding the Firmware version on a mobile device](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
+## More resources
 
-Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
+See [Microsoft Teams phones feature set](phones-for-teams.md) for information on features supported by these devices.
+
+See [Finding the Firmware version on a mobile device](phones-for-teams.md) to determine the device firmware version on your mobile device.
+
+Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-* * *
-
-If you're a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
-
-## More resources
+If you're a vendor seeking to join the certification program, see [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
