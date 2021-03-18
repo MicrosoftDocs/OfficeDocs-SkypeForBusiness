@@ -70,7 +70,7 @@ To plan custom dial plans, follow these steps:
 - **Step 4** Develop an organization-wide scheme for naming dial plans. Adopting a standard naming scheme assures consistency across an organization and makes maintenance and updates easier.
 
 
-## Creating your new tenant dial plan
+## Creating your new dial plan
 
 When you create a new dial plan, you must put in the information that is required.
 
@@ -111,6 +111,10 @@ Normalization rules use .NET Framework regular expressions to specify numeric ma
 For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
+
+> [!NOTE]
+> Normalization rules with the first token as optional are currently not supported on 3pip devices (for example, Polycom VVX 601 model). If you want to apply normalization rules with optionality on 3pip devices, you should create two normalization rules instead of one. For example, the rule ^0?(999)$ should be replaced by the following two rules: (999)$ (Translation:$1) and ^0(999)$ (Translation:$1).
+
 
 ### Sample normalization rules
 

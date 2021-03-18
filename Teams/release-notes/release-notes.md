@@ -22,13 +22,73 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
-## November 25, 2020
+## February 18, 2021
+
+### Meeting reactions policy
+
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. [Learn more.](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---meeting-reactions)
+
+## February 11, 2021
+
+### View-only meeting experience
+
+Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience. [Learn more](../view-only-meeting-experience.md).
+
+## January 27, 2021
+
+### Virtual visits with Teams - Integration into EHR
+
+We've updated the interface for Microsoft Teams Electronic Health Record (EHR) Connector, and connector that makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+
+## January 22, 2021
+
+### Firstline Workers are now called Frontline Workers
+
+We've changed the title of Firstline Workers to Frontline Workers.
+
+## January 21, 2021
+
+### Offline documentation
+
+Teams keeps running even when you're offline or running in low bandwidth conditions. Teams saves all your unsent messages for existing chats (for up to 24 hours) and sends them as soon as you're back online. [Learn more](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+
+## January 19, 2021
+
+### Teams Approvals app availability
+
+The Approvals app is available as a personal app for all Microsoft Teams users. The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams. [Learn more](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+
+## January 15, 2021
 
 ### Set up Microsoft Teams meeting add-on for Google Workspace
 
-Using the Microsoft Teams meeting add-on lets Google calendar users schedule and join a Microsoft Teams meeting directly from Google Workspace. Users will get access to Teams meetings features including video and audio conferencing, screen sharing, meeting chat, digital drawing boards, and more. Stay connected and organized to get more done together across work, school, and life.
+The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app. [Learn more](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
 
-The Microsoft Teams meeting add-on for Google Workspace must be enabled by a Teams admin before tenant users can access the app. [Learn more](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad).
+## January 4, 2021
+
+### Calendar sharing
+
+We added the ability to add a channel to a calendar tab.
+
+## December 21, 2020
+
+### Supported rate centers and coverage for Calling Plans
+
+A rate center is the industry term for a geographical area that traditionally defines boundaries for local calling, billing rates, and phone number assignment for the Public Switched Telephone Network (PSTN). [Learn more](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix).
+
+## December 18, 2020
+
+### Updated meeting settings policies for Breakout rooms
+
+ Breakout Rooms in Teams are used to split meetings into separate, smaller meeting rooms. This setting controls whether meeting organizers have the option to create and manage Breakout Rooms in meetings they schedule or start. This policy setting affects all meetings, including Meet Now meetings. [Learn more](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms).
+
+## December 9, 2020
+
+### Advisor for Teams with Microsoft 365 Learning Pathways
+
+Microsoft 365 learning pathways is an on-demand learning solution that you can customize to train your users, and increase usage and adoption of Teams in your organization. Use learning pathways together with Advisor for Teams to get your users up and running quickly and drive adoption.
+
+Learning pathways gives you a SharePoint Online site template and the ability to easily build a learning site for your users. You can customize the learning pathways training portal to include training and support content specific to your users' needs. Use the Teams playlists from the Microsoft online catalog and add your own. [Learn more](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways).
 
 ## October 28, 2020
 
@@ -62,9 +122,9 @@ You can manage Skype for Business features for Skype for Business users in your 
 
 ## October 16, 2020
 
-### Manage shift-based access for Firstline Workers
+### Manage shift-based access for Frontline Workers
 
-As an admin, you can configure Teams to show a set of shift-based presence states for the Firstline Workers in your organization to indicate when they are on and off shift. With shift-based access, you can manage access to Teams when Firstline Workers are off shift. For example, you can set Teams to display a message that Firstline Workers must acknowledge before they can use Teams when they're not on a scheduled shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
+As an admin, you can configure Teams to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift. With shift-based access, you can manage access to Teams when Frontline Workers are off shift. For example, you can set Teams to display a message that Frontline Workers must acknowledge before they can use Teams when they're not on a scheduled shift. [Learn more](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw).
 
 ## October 15, 2020
 
@@ -164,7 +224,7 @@ We added the ability to now have 250 participants in a group chat. [Learn more](
 
 ### Manage the Praise app
 
-The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The Praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Firstline Workers. [Learn more](../manage-praise-app.md).
+The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The Praise app has a selection of badge sets to choose from and provides the option to create your own badges. Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Frontline Workers. [Learn more](../manage-praise-app.md).
 
 ### Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub
 
@@ -370,7 +430,7 @@ When you are meeting with video, you now have the choice of different static bac
 
 ### Teams for RealWear
 
-Microsoft Teams client for RealWear enables Firstline Workers using RealWear's ruggedized head-mounted wearables to operate Teams 100 percent hands-free and seek remote assistance from experts using Teams video calling. [Learn more](../flw-realwear.md).
+Microsoft Teams client for RealWear enables Frontline Workers using RealWear's ruggedized head-mounted wearables to operate Teams 100 percent hands-free and seek remote assistance from experts using Teams video calling. [Learn more](../flw-realwear.md).
 
 ## March 31, 2020
 

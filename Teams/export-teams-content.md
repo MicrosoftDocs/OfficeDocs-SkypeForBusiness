@@ -23,12 +23,12 @@ appliesto:
 
 # Export content with the Microsoft Teams Export APIs
 
-Teams Export APIs allow you to export 1:1 and group chat messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you are able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) or [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
+Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channel messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you are able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) or [chat](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
 
 Here are some examples on how you can use these export APIs:
 
-- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user.
-- **Example 2**: If you want to programmatically export all user messages daily by providing a date range. Export APIs can retrieve all the messages created or updated during the given date range.
+- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user or team.
+- **Example 2**: If you want to programmatically export all user or team messages daily by providing a date range. Export APIs can retrieve all the messages created or updated during the given date range.
 
 ## What is supported by the Teams Export APIs?
 
@@ -37,24 +37,29 @@ Here are some examples on how you can use these export APIs:
 
     If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) section for information and samples specific to Microsoft Graph.
 - **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
-- **User Deleted Messages:** Messages that are deleted by user from Teams client can be accessed using export APIs up to 30 days from the time of deletion.
+- **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
 - **Chat Message Properties:** Refer to the complete list of properties that Teams Export APIs support [here](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties).
 
 ## How to access Teams Export APIs
 
-- **Example 1** is a simple query to retrieve all the messages of a user without any filters:
+- **Example 1** is a simple query to retrieve all the messages of a user or team without any filters:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
+    ```
+     ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
     ```
 
-- **Example 2** is a sample query to retrieve all the messages of a user by specifying date time filters and top 50 messages:
+- **Example 2** is a sample query to retrieve all the messages of a user or team by specifying date time filters and top 50 messages:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
-
+    ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    ```
 >[!NOTE]
 >The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
@@ -89,13 +94,17 @@ Namespace: microsoft.graph
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "string (identifier)",
-                    "displayName": "string",
+
+                    "id": \[{"@odata.type": "microsoft.graph.user"}\],
+                    "displayName": "User Name",
+
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "string (identifier)"
+
+"chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
+
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",

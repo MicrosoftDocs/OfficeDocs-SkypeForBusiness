@@ -1,7 +1,7 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -201,7 +201,7 @@ administrators who use System Center now have the option to import the Managemen
 within Operations Manager in System Center. Using this tool gives you access to
 the status of your subscribed services, active and resolved service incidents,
 and your Message Center communications (upcoming changes). For more information,
-refer to the following [blog post](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
+refer to the following [blog post](https://www.microsoft.com/en-us/microsoft-365/blog/2014/07/29/new-office-365-admin-tools/).
 
 If you leverage System Center to monitor Teams service health (and dependent
 services), you can further customize the management pack to alert or notify
@@ -214,7 +214,7 @@ support groups, and incident managers in your organization.
 You can monitor service health and upcoming changes by leveraging the Service Communications API to access service health and changes
 programmatically. Use this API to create your own monitoring tool, or connect
 your existing monitoring tools to Microsoft 365 or Office 365 service communications, potentially
-simplifying how you monitor your environment. For more information, see [Microsoft 365 or Office 365 for Enterprise developers](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+simplifying how you monitor your environment. For more information, see [Microsoft 365 or Office 365 for Enterprise developers](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -436,12 +436,12 @@ to determine the interval in which your organization will seek out feedback:
 
 User sentiment can be assessed through many different methods. These can include email surveys, in-person or telephone-style interviews, or simply creating a feedback channel in Teams or Yammer. For more information, see [Best practices for user feedback methods in Microsoft Teams](best-practices-feedback.md).
 
-You can also use an industrywide approach to assess user sentiment called net
+You can also use an industry-wide approach to assess user sentiment called net
 promotor score (NPS), which is described in the following section.
 
 ### NPS
 
-Net promoter score (NPS) is an industrywide customer loyalty metric and a good
+Net promoter score (NPS) is an industry-wide customer loyalty metric and a good
 approach to use to assess user sentiment. NPS can be calculated by asking two questions:
 "How likely are you to recommend Teams to a colleague?", followed by the freeform question, "Why?"
 

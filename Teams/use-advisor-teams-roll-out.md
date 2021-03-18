@@ -195,7 +195,7 @@ Use the resources in your learning pathways site to onboard your help desk and C
 
 For guidance and resources on preparing your help desk and Champions for Teams, see [Train your org](https://adoption.microsoft.com/microsoft-teams/#train-your-org) and [Build Champions](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-As the go-to contact for your users for “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](https://docs.microsoft.comoffice365/customlearning/custom_overview) by building a training and support page, and then [add it  as a tab to a channel](#add-your-site-to-teams) in a team for users to self-serve.
+As the go-to contact for your users for “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](https://docs.microsoft.com/office365/customlearning/) by building a training and support page, and then [add it  as a tab to a channel](#add-your-site-to-teams) in a team for users to self-serve.
 
 ### Drive adoption
 

@@ -1,7 +1,7 @@
 ---
 title: View analytics in Teams
-author: LanaChin    
-ms.author: v-lanac
+author: cichur    
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article

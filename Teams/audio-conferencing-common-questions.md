@@ -118,7 +118,7 @@ We are working on a solution that will let the user access and reset a conferenc
 Skype for Business or Microsoft Teams users can find the PIN in an email that will be sent to them once they are set up.
   
 > [!NOTE]
-> A Skype for Business or Microsoft Teams user won't be able to reset their PIN. The PIN can only be reset by you, the admin. When a PIN is reset, an email is sent to the user. 
+> Teams users can change their pin. There is a link at the bottom of the meeting invite to reset their pin. 
   
 We are working on a solution that will let the user access and reset a PIN without help from an organization's administrator.
   

@@ -21,7 +21,7 @@ appliesto:
 ---
 # Microsoft Teams for RealWear
 
-This article covers the Microsoft Teams client for RealWear head-mounted wearables. FirstLine Workers using RealWear HMT-1 and HMT-1Z1 can now collaborate with a remote expert using video calling on Teams. Through a voice-controlled user interface, Teams for RealWear allows field workers to remain 100% hands-free while maintaining situational awareness in loud and hazardous environments. By showing what they see in real-time, field workers can accelerate the time to resolve issues and reduce the risk of an expensive downtime.
+This article covers the Microsoft Teams client for RealWear head-mounted wearables. Frontline Workers using RealWear HMT-1 and HMT-1Z1 can now collaborate with a remote expert using video calling on Teams. Through a voice-controlled user interface, Teams for RealWear allows field workers to remain 100% hands-free while maintaining situational awareness in loud and hazardous environments. By showing what they see in real-time, field workers can accelerate the time to resolve issues and reduce the risk of an expensive downtime.
 
 ## How to deploy Microsoft Teams for RealWear
 

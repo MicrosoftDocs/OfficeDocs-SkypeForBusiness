@@ -71,7 +71,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **anonymousMeetingToggleMuted** - The number of times the mute toggle button was selected.
 - **anonymousMeetingToggleVideo** - The number of times the video toggle button was selected.
 - **appKilled** - The application is terminated.
-- **approveTimeOffRequest** -  When a FirstLine Worker (FLW) Manager approves a FirstLine Worker request to take time off.
+- **approveTimeOffRequest** -  When a Frontline Worker (FLW) Manager approves a Frontline Worker request to take time off.
 - **assigneeChange** - Triggers when a new assignee is added to a task item.
 - **assignmentPickerClicked** - The **Assign To** button is selected, opening an assignee picker page.
 - **assignmentRemoved** - Triggers when an assignee is removed from a task item by selecting the **x** (which is the only way to remove an assignee).
@@ -508,7 +508,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **endFileShare** - **Go back** is selected on a file sharing dialog.
 - **endMyShift** - Number of devices in shared mode or number of times signed out.
 - **endPhotoShare** - **x** out from photo share.
-- **entryPointClicked** - Selecting **Requests** in the **Schedule** tab. Requests are for when a Firstline Worker (FLW) is requesting a shift time, etc..
+- **entryPointClicked** - Selecting **Requests** in the **Schedule** tab. Requests are for when a Frontline Worker (FLW) is requesting a shift time, etc..
 - **endPSTNCallSelected** - A user ends a PSTN and a Content call.
 - **endPSTNCallShown** - A user is prompted to end a PSTN or a Content call.
 - **endVideoShare** - **x** out from Video share.
@@ -907,8 +907,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **replyViaMsgOptions** - User started reply via context menu.
 - **replyViaSwipe** - User started reply via swipe.
 - **requestActedOn** - Triggered when a manager acts on open shift requests.
-- **requestActionClicked** - When a user requests an action, such as when the request for a shift is selected (either a Firstline Worker (FLW) manager viewing or a Firstline Worker.
-- **requestDetailsClicked** - When the request for a shift is selected (either a Firstline Worker (FLW) manager viewing or Firstline Worker).
+- **requestActionClicked** - When a user requests an action, such as when the request for a shift is selected (either a Frontline Worker (FLW) manager viewing or a Frontline Worker.
+- **requestDetailsClicked** - When the request for a shift is selected (either a Frontline Worker (FLW) manager viewing or Frontline Worker).
 - **requestJoinTeam** - **Request** button pressed.
 - **requestSent** - Logs if there was a request sent.
 - **requestToJoinTeam** - Request to join team (public or private).

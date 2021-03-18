@@ -1,7 +1,7 @@
 ---
 title: "Conferencing policy for Skype Room System accounts"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
