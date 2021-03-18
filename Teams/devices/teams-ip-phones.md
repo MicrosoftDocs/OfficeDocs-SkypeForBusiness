@@ -123,7 +123,7 @@ When you install a new firmware version on your device, you can determine the co
 
 See [Microsoft Teams phones feature set](phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
-See [Microsoft Teams displays](teams-displays).
+See [Microsoft Teams displays](teams-displays.md).
 
 ### Product release information for Teams Rooms on Android
 
@@ -167,9 +167,9 @@ When you install a new firmware version on your device, you can determine the co
 
 
 ## Additional resources
-See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams.md#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+See [Microsoft Teams phones feature set](phones-for-teams.md#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
-See [Finding the Firmware version on a mobile device](/MicrosoftTeams/devices/phones-for-teams.md#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
+See [Finding the Firmware version on a mobile device](phones-for-teams.md#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
 Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
