@@ -63,7 +63,7 @@ Learn more about how you can [assign licenses to users in Microsoft 365 or Offic
 
 ### Make sure users have upload video permissions in Microsoft Stream
 
-By default, everyone in the company can create content in Stream, once Stream is enabled and the license is assigned to the user. A Microsoft Stream administrator can [restrict employees for creating content](https://docs.microsoft.com/stream/restrict-uploaders) in Stream. The users who are in this restricted list will still be able to record, however, their recordings will not be able to uploaded to Stream. Instead, these users' recordings will be stored in a temporary storage location where users will be able to download the recording for 21 days. Afterwhich the recording will be deleted.
+By default, everyone in the company can create content in Stream, once Stream is enabled and the license is assigned to the user. A Microsoft Stream administrator can [restrict employees from creating content](https://docs.microsoft.com/stream/restrict-uploaders) in Stream. The users who are in this restricted list will still be able to record; however, their recordings will not be able to upload to Stream. Instead, these users' recordings will be stored in a temporary storage location where users will be able to download the recording for 21 days. After this period, the recording will be deleted.
 
 ### Notify employees to consent to company guidelines in Microsoft Stream
 
