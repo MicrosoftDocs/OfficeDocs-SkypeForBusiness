@@ -83,15 +83,23 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
  
 8. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
     
-    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
-    
-    `"MigrateProxy"=dword:00000001`
-    
-    `"ProxyEnable"=dword:00000001`
-    
-    `"ProxyServer"="xx.xx.xx.xx:8080"`
+    ```console
+    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "MigrateProxy"=dword:00000001
+    "ProxyEnable"=dword:00000001
+    "ProxyServer"="xx.xx.xx.xx:8080"
+    ```
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
+ 
+    If the customer is using a PAC file the configuration would look like the example below:
+
+     ```console
+    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "MigrateProxy"=dword:00000001
+    "ProxyEnable"=dword:00000001
+    "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
+    ```
     
 9. Once you are finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes** ).
     
