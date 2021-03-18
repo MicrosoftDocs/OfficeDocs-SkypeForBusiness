@@ -67,12 +67,13 @@ For Microsoft 365 Business Voice, you have two options to choose from:
 
 To learn more, see [What do I need to buy to use Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
 
-Here's a summary, based on licensing plan.
+Here's a summary based on licensing plan.
 
 <table>
 <thead>
 <tr class="header">
 <th><strong>Small business (&lt;300 people)</strong></th>
+<th>&nbsp;</th>
 <th>&nbsp;</th>
 <th>&nbsp;</th>
 <th>&nbsp;</th>
@@ -83,7 +84,10 @@ Here's a summary, based on licensing plan.
 <tr class="odd">
 <td><strong>Base plan</strong></td>
 <td colspan="3"><strong>Voice calling and conferencing options</strong></td>
-
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td>Microsoft 365 Business Basic<br />
@@ -105,6 +109,8 @@ Communication Credits </td><td>Or</td>
 <tr class="even">
 <td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
 <td>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
