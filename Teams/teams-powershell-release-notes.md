@@ -90,9 +90,11 @@ This page provides the latest Teams PowerShell change log for both General Avail
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | Yes | Yes |
 | [Set-TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | Yes | Yes |
 | [Set-TeamPicture](https://docs.microsoft.com/powershell/module/teams/set-teampicture?view=teams-ps) | Yes | Yes |
-| [Set-TeamsApp](https://docs.microsoft.com/powershell/module/teams/set-teamsapp?view=teams-ps) | Yes | Yes |
-| [Set-TeamTargetingHierarchy](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#apply-your-hierarchy) | Yes | **No** |
-| [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamsappinstallation?view=teams-ps) | Yes | **No** |
+| [Set-TeamsApp](https://docs.microsoft.com/powershell/module/teams/set-teamapp?view=teams-ps) | Yes | Yes |
+| [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Yes | **No** |
+| [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Yes | **No** |
+| [Enable-CsOnlineSessionForReconnection](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | **No** | **No** |
+
 
 ## Related topics
 
