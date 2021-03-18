@@ -21,7 +21,7 @@ appliesto:
 # Teams view-only meeting experience
 
 > [!Note]
-> View-only broadcasts will be available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. This feature in Microsoft 365 Government G3/G5 plans will be available at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
+> View-only broadcasts is available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. The feature in Microsoft 365 Government Community Cloud (GCC) will begin to roll out at the end of March 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
 > If your meeting or webinar hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year.
