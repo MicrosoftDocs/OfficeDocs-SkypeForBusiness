@@ -1,8 +1,8 @@
 ---
 title: "Media Bypass (Planning Tool)"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro

@@ -17,12 +17,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use the Teams for Education policy wizard to easily apply policies for students and educators to keep your learning environment safe. 
 f1keywords: 
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Use the Teams for Education Policy Wizard to easily apply policies for a safe learning environment
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## Overview
 
@@ -81,7 +78,7 @@ Follow these steps to run the wizard.
 
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Screenshot of page in wizard to review selections":::
 
-5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take up to 48 hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you successfully complete this step.
+5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take few hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you successfully complete this step.
 6. You're on your way but you're not done yet! There's a few more things to consider. Next, check out the steps in the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Screenshot of page in wizard for next steps":::
@@ -221,8 +218,6 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Allow Meet now in private meetings        |Off         |On|
 |  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
 |  |       |Allow chat in meetings         |On         |On|
-|  |Video filters mode       |VideoFiltersMode         |BlurandDefaultBackgrounds|AllFilters|
-|  |Meeting attendance report       |AllowEngagementReport         |Off         |On|
 |Live events policy  |       |Allow scheduling         |Off         |Off|
 |  |       |Allow transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
@@ -243,7 +238,6 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
 |  |       |Remove users from group chats         |Off         |On|
-|  |       |Suggested replies         |On         |On|
 |App permission policy  |       |Microsoft apps         |Block specific apps and allow all others > Walkie Talkie blocked         |Allow all apps|
 |  |       |Third-party apps         |Allow all apps         |Allow all apps|
 |  |       |Custom apps         |Allow all apps         |Allow all apps|
@@ -292,8 +286,6 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |  |       |Allow Meet now in private meetings        |On         |On|
 |  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
 |  |       |Allow chat in meetings         |On         |On|
-|  |Video filters mode       |VideoFiltersMode         |AllFilters|AllFilters|
-|  |Meeting attendance report       |AllowEngagementReport         |On         |On|
 |Live events policy  |       |Allow scheduling         |On         |On|
 |  |       |Allow transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
@@ -314,7 +306,6 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
 |  |       |Remove users from group chats         |On        |On|
-|  |       |Suggested replies         |On         |On|
 |Calling policy  |       |Make private calls         |On       |On|
 |  |       |Call forwarding and simultaneous ringing to people in your organization         |On        |On|
 |  |       |Call forwarding and simultaneous ringing to external phone numbers         |On        |On|

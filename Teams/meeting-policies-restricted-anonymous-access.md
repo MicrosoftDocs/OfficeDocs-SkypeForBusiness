@@ -1,7 +1,7 @@
 ---
 title: Remove the RestrictedAnonymousAccess Teams meeting policy from users 
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -27,7 +27,7 @@ This article shows you how to use PowerShell to remove the RestrictedAnonymousAc
 
 ## Before you start
 
-Install and connect to the [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366). For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).
+Install and connect to the [Skype for Business PowerShell module](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell). For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).
 
 ## Get the Teams meeting policy assignments for your organization
 

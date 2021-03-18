@@ -1,7 +1,7 @@
 ---
 title: Block inbound calls in Microsoft Teams
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud

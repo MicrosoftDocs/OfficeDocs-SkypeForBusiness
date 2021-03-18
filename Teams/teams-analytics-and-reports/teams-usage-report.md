@@ -1,12 +1,12 @@
 ---
 title: Microsoft Teams usage report
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: kojika
 f1.keywords:
 - NOCSH
 localization_priority: Normal

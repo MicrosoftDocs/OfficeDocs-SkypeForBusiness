@@ -11,6 +11,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365solution-voice
+  - m365solution-scenario
 audience: Admin
 appliesto: 
   - Skype for Business

@@ -1,8 +1,8 @@
 ---
 title: "Navigate the Planning Tool in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
