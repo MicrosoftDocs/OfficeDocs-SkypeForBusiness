@@ -20,7 +20,7 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-description: "This appendix includes detailed steps for disabling hybrid as part of cloud consolidation for Teams and Skype for Business."
+description: "This article includes detailed steps for disabling hybrid as part of cloud consolidation for Teams and Skype for Business."
 ---
 
 # Disable hybrid to complete migration to the cloud: Overview
@@ -100,7 +100,7 @@ Administrators can manage users who were previously moved from an on-premises Sk
 These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you are comfortable using the mix of these method as well as with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can simply re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Method 2.
 
 
-### Method 2 Clear Skype for Business Attributes for all on-premises users in Active Directory
+### Method 2 - Clear Skype for Business Attributes for all on-premises users in Active Directory
 
 This option requires additional effort and proper planning because users that were previously moved from an on-premises Skype for Business Server to the cloud are required to be re-provisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments users can be processed in smaller groups in different time windows. 
 
