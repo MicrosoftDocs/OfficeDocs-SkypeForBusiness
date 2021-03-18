@@ -39,6 +39,8 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
+[Why do WiFi VPN connections show as Wired instead of WiFi?](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
@@ -103,6 +105,10 @@ In order to determine, if there are any unexpected differences, you must look at
 ### Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?
 
 CQD is designed for summarized data queries, and is not designed for data export. We recommend restructuring your reports, where possible, to prevent the 10,000 row limit from being exceeded. Start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
+
+### Why do WiFi VPN connections show as Wired instead of WiFi?
+
+This is expected.  The VPN vendor created a virtual ethernet adapter which is treated like a wired connection.  Since it's not properly labeled, the operating system doesn't know it's a WiFi connection and reports it as wired.
 
 ## Related topics
 
