@@ -121,7 +121,7 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink VP59        | 91.15.0.54         | 2020 Update #7           |
 | Yealink CP960       | 73.15.0.115      | 2020 Update #7           |
 
-See [Microsoft Teams phones feature set](phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+See [Microsoft Teams phones feature set](phones-for-teams.md#microsoft-teams-phones-feature-set) for information on features supported by these devices.
 
 See [Microsoft Teams displays](teams-displays.md).
 
