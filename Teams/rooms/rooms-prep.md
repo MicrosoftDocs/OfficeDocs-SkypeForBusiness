@@ -25,14 +25,16 @@ This section contains an overview of the steps required to prepare your environm
     
 2. Ensure that there is a working network/Internet connection for the device to use. 
     
-   - It must be able to receive an IP address using DHCP. (Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup, but  afterwards static IP for the device could be configured on the device or on the upstream switch or router.)
-   - It must have these ports open (in addition to opening the normal ports for media):
+   It must be able to receive an IP address by using DHCP. (Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup, but afterwards, a static IP address for the device could be configured on the device or on the upstream switch or router.)
+
+   It must have these ports open (in addition to opening the normal ports for media):
    - HTTPS: 443
    - HTTP: 80
-   - If your network runs through a proxy, you'll need the proxy address or script information as well.
+
+   If your network runs through a proxy, you'll need the proxy address or script information as well.
     
-     > [!IMPORTANT]
-     > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
+   > [!IMPORTANT]
+   > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
@@ -48,8 +50,11 @@ A  *device account*  is an account that the Microsoft Teams Rooms client uses to
 In order to function properly, the Microsoft Teams Rooms device must have access to a wired network that meets these requirements:
   
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance, as well as your Microsoft Exchange and Skype for Business servers.
+
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms cannot be configured with a static IP address at the first unit startup.
+
 - Access to HTTP ports 80 and 443.
+
 - TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premise Skype for Business Server implementations, or [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams or Skype for Business online implementations.
 
 > [!IMPORTANT]
@@ -77,7 +82,7 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
 4. Click on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected.
        
 5. Click on File and then choose **Load Hive.**
-6. Browse the to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
+6. Browse to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
 
 7. You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User).
  
@@ -93,7 +98,7 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
     
-9. Once you are finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes** ).
+9. Once you are finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes**).
     
 10. You can now close the registry editor and type logoff into the Windows search box.
     
@@ -132,9 +137,9 @@ The Local admin password is not included as a choice during Setup.
   
 ### Machine Account
 
-Much like any Windows device, the Machine Name can be renamed by right clicking in Settings \> About \> Rename PC.
+Much like any Windows device, the Machine Name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
   
- If you would like to rename the computer after joining it to a domain, use the Rename-Computer PowerShell command followed by the computer's new name.
+If you would like to rename the computer after joining it to a domain, use **Rename-Computer**, a PowerShell command, followed by the computer's new name.
   
 ## Related topics
 
