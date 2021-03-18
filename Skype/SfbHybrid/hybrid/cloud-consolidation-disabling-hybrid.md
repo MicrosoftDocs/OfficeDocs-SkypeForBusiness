@@ -103,7 +103,8 @@ These steps are not necessary for new users created after you disable hybrid, an
 
 This option requires additional effort and proper planning because users that were previously moved from an on-premises Skype for Business Server to the cloud are required to be re-provisioned. These users can be categorized into two different categories: users without Phone System and users with Phone System. Users with Phone System will experience a temporary loss of phone service as part of transitioning the phone number from being managed in on-premises Active Directory to the cloud. **It's recommended to perform a pilot involving a small number of users with Phone System prior to start bulk user operations.** For large deployments users can be processed in smaller groups in different time windows. 
 
-Note: the process is simplest for users who have a matching sip address and UserPrincipalName. For organizations that have users with non-matching values across these two attributes, extra care must be taken as noted below for a smooth transition. 
+> [!NOTE]
+> The process is simplest for users who have a matching sip address and UserPrincipalName. For organizations that have users with non-matching values across these two attributes, extra care must be taken as noted below for a smooth transition. 
 
 
 1. Confirm the following on-premises Skype for Business PowerShell cmdlet returns an empty result. An empty result means no users are homed on-premises and have either been moved to Office 365 or have been disabled:
@@ -188,6 +189,7 @@ Note: the process is simplest for users who have a matching sip address and User
         }
    }
     ```
+
    > [!Note]
    >  If you still have Skype for Business endpoints (either Skype clients or 3rd party phones), you will also want to set -HostedVoiceMail to $true. If your organization is only using Teams endpoints for voice enabled users, this setting is not applicable to your users. 
 
@@ -207,6 +209,7 @@ Note: the process is simplest for users who have a matching sip address and User
         }
    }
    ``` 
+
 10. Repeat steps 3 through 9 until all users are processed.
 
 11. Confirm that all users have been processed successfully by running the following two PowerShell commands.
