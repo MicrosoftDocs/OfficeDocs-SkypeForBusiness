@@ -3,7 +3,6 @@ title: Plan for live events in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -40,7 +39,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 
 - **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license. 
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
-- A Microsoft Teams license - this is included in the licenses listed in the first and second bullets.
+- A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
 - A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](https://docs.microsoft.com/stream/license-overview).
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
@@ -75,13 +74,13 @@ The user must have:
 
 ### [Guest to present](#guest-to-present)
 
-For a guest to present in a live event, do the following:
+For a guest to present in a live event, do the following tasks:
 
 1. [Add the user as a guest to a team](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Have the user accept the guest invitation and join the team.
 3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
 
 ## Who can watch live events
 
@@ -160,9 +159,10 @@ You can use Teams live events in multiple regions across the world. The followin
 **Data location for these countries/regions (supported)**
 
 - Australia
+- Brazil
 - Canada
-- Germany
 - France
+- Germany
 - India
 - Japan
 - South Africa
@@ -173,14 +173,13 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **These countries/regions and clouds aren't supported**
 
-- Brazil
 - Norway
 - Government Community Cloud (GCC)-H
-- DOD
+- Department of Defense (DOD)
 
 **Exclusions and considerations**
 
-- **Data location:** Teams data locations, outside of the ones listed above, are not currently supported.
+- **Data location:** Teams data locations, outside of the ones listed above, aren't currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Next steps
@@ -189,6 +188,6 @@ Go to [Set up for Teams live events](set-up-for-teams-live-events.md).
 
 ### Related topics
 
-- [What are Teams live events?](what-are-teams-live-events.md)
+- [What is Teams live events?](what-are-teams-live-events.md)
 - [Set up for Teams live events](set-up-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
