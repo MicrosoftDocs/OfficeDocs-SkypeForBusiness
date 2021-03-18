@@ -211,16 +211,16 @@ Note: the process is simplest for users who have a matching sip address and User
 
 11. Confirm that all users have been processed successfully by running the following two PowerShell commands.
 
-   On-premises Skype for Business Server on-premises PowerShell command:
+    On-premises Skype for Business Server on-premises PowerShell command:
 
-   ```PowerShell
-   Get-CsUser | Select-Object SipAddress, UserPrincipalName
-   ``` 
-   Skype for Business Online PowerShell command:
+    ```PowerShell
+    Get-CsUser | Select-Object SipAddress, UserPrincipalName
+    ``` 
+    Skype for Business Online PowerShell command:
 
-   ```PowerShell
-   Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
-   ``` 
+    ```PowerShell
+    Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+    ``` 
 
 
 ## See also
