@@ -154,16 +154,16 @@ This option requires additional effort and proper planning because users that we
 5. Run the following on-premise Skype for Business PowerShell cmdlet to add sip address value back to the on-premises Active Directory proxyAddresses. This will prevent interoperability issues that rely on this attribute. 
 
    ```PowerShell
-      $sfbusers=import-csv "c:\data\SfbUsers.csv"
-      foreach($user in $sfbusers){
-        $userUpn=$user.UserPrincipalName
-        $userSip=$user.SipAddress
-        $proxies=Get-ADUser -Filter "UserPrincipalName -eq '$userUpn'" -properties * | Select-Object @{Name="proxyAddresses";Expression={$_.proxyAddresses}}
-        if(($null -eq $proxies) -or ($proxies.proxyAddresses -NotContains $userSip))
-        {
-                Get-ADUser -Filter "UserPrincipalName -eq '$userUpn'" | Set-ADUser -Add @{"proxyAddresses"=$user.SipAddress}
-        }
-      }
+   $sfbusers=import-csv "c:\data\SfbUsers.csv"
+   foreach($user in $sfbusers){
+     $userUpn=$user.UserPrincipalName
+     $userSip=$user.SipAddress
+     $proxies=Get-ADUser -Filter "UserPrincipalName -eq '$userUpn'" -properties * | Select-Object @{Name="proxyAddresses";Expression={$_.proxyAddresses}}
+     if(($null -eq $proxies) -or ($proxies.proxyAddresses -NotContains $userSip))
+     {
+             Get-ADUser -Filter "UserPrincipalName -eq '$userUpn'" | Set-ADUser -Add @{"proxyAddresses"=$user.SipAddress}
+     }
+   }
    ```
 
 6. Run Azure AD Sync

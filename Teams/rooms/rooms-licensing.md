@@ -72,4 +72,6 @@ The following table lists the features that are available in Microsoft Teams Roo
 > [!NOTE]
 > If you have existing licenses assigned for room systems, these will continue to work without any interruption. You should move to use the new Meeting Room SKU when existing licenses expire.  
 
- **Use the right version of Windows 10**: For customers who want to deploy Windows 10 images to their devices, see [Configure a Microsoft Teams Rooms console](https://docs.microsoft.com/microsoftteams/room-systems/console). You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
+ **Use the right version of Windows 10**: For customers who want to deploy Windows 10 images to their devices, see [Configure a Microsoft Teams Rooms console](https://docs.microsoft.com/microsoftteams/room-systems/console). You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/). 
+ 
+ See also [Great meeting room experiences: Meet the new Microsoft Teams Rooms Standard and Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
