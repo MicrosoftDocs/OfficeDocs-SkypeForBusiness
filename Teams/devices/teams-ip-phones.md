@@ -165,9 +165,11 @@ When you install a new firmware version on your device, you can determine the co
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, Update #1 |
 
-See [Finding the Firmware version on a mobile device](phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
 ## Additional resources
+See [Microsoft Teams phones feature set](/MicrosoftTeams/devices/phones-for-teams.md#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+
+See [Finding the Firmware version on a mobile device](/MicrosoftTeams/devices/phones-for-teams.md#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device.
 
 Microsoft Teams licenses can be purchased as part of their [Microsoft 365 or Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
