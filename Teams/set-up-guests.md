@@ -28,7 +28,7 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
 > [!Note]
 
-> Until **February 2021**, guest access is turned off by default. You must turn on guest access for Teams before admins or team owners can add guests. After you turn on guest access, it might take a few hours for the changes to take effect. If users see the message **Contact your administrator** when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet. 
+> Until **February 2021**, guest access is turned off by default. You must turn on guest access for Teams before admins or team owners can add guests. After you turn on guest access, it might take a few hours for the changes to take effect. If users see the message **Contact your administrator** when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet.
 
 > After **February 2021**, guest access in Microsoft Teams will be turned on by default for new customers & existing customers who haven't configured this setting. When this change is implemented, if you've not already configured guest access capability in Microsoft Teams, that capability will be enabled in your tenant. If you want guest access to remain disabled for your organization, you'll need to confirm that the guest access setting is set to **Off** instead of **Service default**.
 
@@ -43,7 +43,7 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
 3. Set **Allow guest access in Microsoft Teams** to **On**.
 
-    ![Allow guest access switch set to On ](media/set-up-guests-image1.png)
+    ![Allow guest access switch set to On ](media/guest-access-setting.png)
 
 4. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
