@@ -29,6 +29,7 @@ description: Use Microsoft Teams to set up your Virtual visits system
 
 Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. Built on the Microsoft 365 cloud, Microsoft Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can spend time providing the best possible care. Microsoft Teams Electronic Health Record (EHR) Connector can:
+
 - Launch Teams virtual visits from both provider and patient portals.
 - Write back into EHR metadata on connect and disconnect events to enable automatic auditing and record keeping.
 - Integrate into existing clinician and patient workflows while allowing them to use Microsoft Teams.
@@ -60,7 +61,7 @@ You’ll also need information from the following people in your organization:
 - Epic customer analyst
 
 > [!Note]
-> Request your Epic technical specialist to provide the Epic-Microsoft Teams Telehealth Integration Guide available in the Epic marketplace.
+> Review the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) with your Epic technical specialist. Make sure that all pre-requisites are completed. 
 
 ## Connector setup
 
