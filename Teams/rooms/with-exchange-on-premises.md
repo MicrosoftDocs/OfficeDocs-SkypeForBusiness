@@ -156,12 +156,12 @@ Skype for Business Online PowerShell is used to manage services for both Microso
 3. **Optional.** If you want to assign a phone number to the account, the operation should be performed at this point. If you want to assign a Direct Routing phone number:
 
    ``` Powershell
-    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255388797
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
     ```
     If you're assigning a Microsoft provided phone number, use the cmdlet below after having provisioned the user with a Calling Plan license:
     
     ``` Powershell
-    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255037311 -LocationID c7c5a17f-00d7-47c0-9ddb-3383229d606b
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     ```
     
 4. To enable your Microsoft Teams Rooms account, run this command:
