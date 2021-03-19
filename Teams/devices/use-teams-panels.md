@@ -77,7 +77,7 @@ The tile appears in purple for a meeting space that is reserved for a scheduled 
 
 #### Meeting space is reserved for an ad hoc meeting
 
-The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text, and meeting start and end times.Ad-hoc meetings are automatically scheduled as Teams meetings, hence the Teams logo always appears on the screen.
+The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text along with the meeting start and end times. Ad-hoc meetings are automatically scheduled as Teams meetings, hence the Teams logo always appears on the screen.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting":::
 
