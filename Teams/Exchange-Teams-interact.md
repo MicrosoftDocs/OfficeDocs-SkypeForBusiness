@@ -107,7 +107,7 @@ To enable calendar delegation for these users:
   > [!NOTE]
   > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
-- Teams Scheduling add-in for Outlook when scheduling a meeting on behalf of someone requires Exchange 2013 CU19 or later. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
+- The Teams Scheduling add-in for Outlook requires Exchange 2013 CU19 or later when scheduling a meeting on behalf of someone else. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
 ## Additional considerations
 
