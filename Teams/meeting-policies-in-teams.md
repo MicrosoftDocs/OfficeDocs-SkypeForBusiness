@@ -121,7 +121,7 @@ Allow the Outlook add-in is a per-user policy and applies before a meeting start
 
 ![Screenshot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
 
-If you turn this off, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
+If you turn this feature off, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
 ### Allow channel meeting scheduling
 
@@ -183,12 +183,11 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 ### Allow transcription
 
-Allow transcription is a per-user policy. This setting controls whether this user's meetings can be transcribed.
+This policy turns on Live transcription. Allow transcription is a per-user policy. This setting controls whether this specific Team's meeting can be transcribed.
 
-:::image type="content" source="media/live-transcription.png" alt-text="Screenshot showing transcription options":::
-Transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
+![transcription options in meeting policies](media/live-transcription.png)
 
-Live transcription shows speech-to-text of spoken content during a meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15).
+Live transcription shows speech-to-text of spoken content during a Teams meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live).
 
 Currently, live transcription is supported on the Teams desktop client. Transcription is supported for spoken U.S. English. The transcript is available after the meeting on Teams desktop or web.
 
@@ -196,10 +195,10 @@ Here's how the **Allow transcription** and **Allow cloud recording** policy sett
 
 |Allow transcription|Allow cloud recording|Behavior|
 |---------|---------|---------|
-|**On**|**On**|The **Start transcription** option is available in meetings. The meeting organizer or meeting participants can start and stop transcription. The **Start recording** option is available in meetings. The meeting organizer or meeting participants can start and stop recording. |
-|**On**|**Off**|The **Start transcription** option is available in meetings. The **Start recording** option isn't available in meetings. |
-|**Off**|**On**|The **Start recording** option is available in meetings. The **Start transcription** option isn't available in meetings.|
-|**Off**|**Off**|Recording and transcription aren't available in meetings.  |
+|**On**|**On**|The **Start transcription** option is available in Teams meetings. The meeting organizer or meeting participants can start and stop transcription. The **Start recording** option is available in Teams meetings. The meeting organizer or meeting participants can start and stop recording. |
+|**On**|**Off**|The **Start transcription** option is available in Teams meetings. The **Start recording** option isn't available in Teams meetings. |
+|**Off**|**On**|The **Start recording** option is available in Teams meetings. The **Start transcription** option isn't available in Teams meetings.|
+|**Off**|**Off**|Recording and transcription aren't available in Teams meetings.  |
 
 ### Allow cloud recording
 
@@ -245,7 +244,7 @@ Mode for IP video is a per-user policy. This setting controls whether video can 
 |Setting value |Behavior  |
 |---------|---------|
 |**Outgoing and incoming video enabled**    | Outgoing and incoming video is allowed in the meeting is the default setting. |
-|**Disabled**     | Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>Note that if **Mode for IP audio** is disabled, then **Mode for IP video** will also remain disabled.  |
+|**Disabled**     | Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>If **Mode for IP audio** is disabled, then **Mode for IP video** will also remain disabled.  |
 
 If set to **Disabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
 
@@ -454,10 +453,10 @@ These settings control which meeting participants wait in the lobby before they 
 
 ### Let anonymous people start a meeting
 
-This is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.
+This is a per-organizer policy that allows for leaderless conferencing meetings. This setting controls whether anonymous users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off which means anonymous users will wait in the lobby until an authenticated user from the organization joins the meeting.
 
 > [!NOTE]
-> If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
+> If this setting is turned off and an anonymous user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### Automatically admit people
 

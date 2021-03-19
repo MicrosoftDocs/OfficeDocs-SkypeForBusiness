@@ -35,7 +35,7 @@ The following is a list of sections you can choose from in the **Get started** s
 > If you have an existing Skype for Business Online or on-premises Skype for Business deployment, check out the following topics in addition to those in the **Get started** section.
 >
 > - [Upgrade from Skype for Business](upgrade-start-here.md)
-> - [Plan hybrid connectivity](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - Plan hybrid connectivity
 
 |Section  |Description  |
 |---------|---------|
