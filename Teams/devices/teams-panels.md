@@ -133,4 +133,6 @@ To manage your Teams panels devices, in the left navigation of the Microsoft Tea
 
 [Get started with Teams panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
+[Teams panels marketplace](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
+
 [Devices certified under Microsoft Teams panels certification program](teams-ip-phones.md#currently-certified-teams-panels)
