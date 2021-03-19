@@ -54,7 +54,8 @@ Similarly, you create and publish a sensitivity label named "General" that has t
 
 ![Screenshot of General sensitivity label](media/sensitivity-labels-general-example.png)
 
-When a team is created, the sensitivity label is visible in the upper-right corner of channels in the team.
+When the team is created, the sensitivity label is visible in the upper-right corner of channels in the team. Note that if you are using hierarchical parent child labels such as "Confidential\Finance" then only the parent label will be showin the channel header.
+
 
 ![Screenshot of sensitivity label in team channel](media/sensitivity-labels-channel.png)
 
