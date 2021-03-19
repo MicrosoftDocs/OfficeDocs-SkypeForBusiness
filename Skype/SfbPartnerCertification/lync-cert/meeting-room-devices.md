@@ -18,14 +18,15 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync rooms and devices."
 ---
 
-# Meeting room devices and solutions
+# Partner qualification for Lync - Meeting room devices and solutions
 
 *Find details about our Skype-qualified IP Phones*
 
 ## Meeting room devices and solutions
+
 Microsoft tests and qualifies meeting room solutions for Lync under the [Partner qualification processes](partner-qualification.md) and [Compatible Devices Program](partner-qualification.md#compatible-devices-program). Meeting room solutions optimized for Lync offer high-quality audio and video and reduce the need to set up and troubleshoot equipment.
 
 - IP conference phones

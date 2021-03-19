@@ -26,6 +26,9 @@ Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.m
 
 Make sure you have the right [CQD access role](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) to access the Power BI reports.
 
+> [!NOTE]
+> The CQD Power BI Connector only supports DirectQuery in Power BI; Import mode is not supported. 
+
 ## Installation
 
 The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). For the sake of simplicity, here's a quick explanation:
@@ -50,7 +53,7 @@ In order to build a report and run queries, you will first need to connect to th
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector2-resize.png)
 
-3. You will be prompted to login next. Use the same credentials that you use for CQD.<sup>2</sup>
+3. You will be prompted to sign in next. Use the same credentials that you use for CQD.<sup>2</sup>
 
 4. The next prompt will give you the option between two *Data Connectivity modes*. Select *DirectQuery* and hit *OK*.
 
@@ -58,7 +61,7 @@ In order to build a report and run queries, you will first need to connect to th
 
 6. At this point, Power BI will load the data model onto the right side of the window. The page will remain otherwise blank, and no queries will be loaded by default. Proceed to **Building Queries** below in order to build a query and return data.
 
-If any of the steps during this setup process were not completely clear, a more detailed explanation of the process can be found [here](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
+If any of the steps during this setup process were not completely clear, a more detailed explanation of the process can be found in [Quickstart: Connect to data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
 
 ## Building Queries
 
@@ -118,7 +121,7 @@ Despite making use of Power BI, not all Power BI functionality is support by the
 
 5. **Relative Data Filtering –** Is supported in the CQD Connector, but only with the *Start Time* and *End Time* dimensions. Although the *Date* dimension may be the obvious choice for relative date filtering, *Date* is not stored as a date time object and thus does not support relative date filtering in Power BI.
 
-6. **Government Community Cloud (GCC) Support –** For customers in the GCC environment, the CQD Power BI Connector will work when using Power BI Desktop. The CQD Power BI connector is not currently compatible with the Power BI service for GCC customers.
+6. **Government Community Cloud (GCC) Support –** For customers in the GCC environment, the CQD Power BI Connector will work when using Power BI Desktop. The CQD Power BI connector is compatible with the Power BI service for GCC customers.
 
 Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 

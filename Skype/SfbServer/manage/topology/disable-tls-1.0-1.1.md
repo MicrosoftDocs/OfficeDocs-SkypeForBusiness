@@ -1,8 +1,8 @@
 ---
-title: "Disable TLS 1.0/1.1 in Skype for Business Server 2015"
+title: Disable TLS 1.0/1.1 in Skype for Business Server 2015
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,20 +11,18 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: "Summary: Prepare for and implement disabling TLS 1.0 and 1.1 in your environments."
+description: Prepare for and implement disabling TLS 1.0 and 1.1 in your environments.
 ---
 
 # Disable TLS 1.0/1.1 in Skype for Business Server 2015
 
-The purpose of this article is to provide the necessary guidance for you to prepare for and implement disabling TLS 1.0 and 1.1 in your environments. This process requires extensive planning and preparation. Please carefully review all of the information in this article as you make your plan to disable TLS 1.0 and 1.1 for your organization. Note that there are many external dependencies and connectivity conditions that could be impacted by disabling TLS 1.0/1.1, so extensive planning and testing is warranted.
+This article helps you prepare for and implement disabling TLS 1.0 and 1.1 in your environments. This process requires extensive planning and preparation. Carefully review all of the information in this article as you make your plan to disable TLS 1.0 and 1.1 for your organization. There are many external dependencies and connectivity conditions that could be impacted by disabling TLS 1.0/1.1, so extensive planning and testing is warranted.
 
-## In this article
-
-- [Background and scope](#background)
+- [Background and scope](#background-and-scope)
 - [Prerequisites and process](#prerequisites-and-process)
 - [Advanced deployment scenarios](#advanced-deployment-scenarios)
 
-## Background
+## Background and scope
 
 The primary drivers for providing TLS 1.0 and 1.1 disable support for Skype for Business Server On-Premises are Payment Card Industry (PCI) Security Standards Council and Federal Information Processing Standards requirements. More information for PCI requirements can be found [here](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls).  Microsoft cannot provide guidance on whether or not your organization is required to adhere to these or other requirements. You must determine if it is required for you to disable TLS 1.0 and/or 1.1 in your environments.
 
@@ -40,7 +38,7 @@ Microsoft has produced a white paper on TLS available [here](https://cloudblogs.
 - Skype for Business Server 2015 CU9 6.0.9319.548 (May 2019) or higher on Windows Server 2012 (with KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) or superseding update), 2012 R2 or 2016.
 - In-place Upgraded Skype for Business Server 2015, with CU9 6.0.9319.548 (May 2019) or higher on Windows Server 2008 R2, 2012 (with KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) or superseding update), or 2012 R2.
 - Exchange Connectivity and Outlook Web App with Exchange Server 2010 SP3 RU19 or higher, guidance [here](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
-- Survivable Branch Appliance (SBA) with Skype for Business Server 2015 CU6 HF2 or higher (confirm with your vendor that they packaged the appropiate updates and have been made available for your appliance)
+- Survivable Branch Appliance (SBA) with Skype for Business Server 2015 CU6 HF2 or higher (confirm with your vendor that they packaged the appropriate updates and have been made available for your appliance)
 - Survivable Branch Server (SBS) with Skype for Business Server 2015 CU6 HF2 or higher
 - Lync Server 2013 **Edge Role Only**, this is because Edge role does not have a dependency on Windows Fabric 1.0.
 
@@ -91,6 +89,10 @@ If your organization is required to disable TLS 1.0 and 1.1, and you currently u
 #### Call Quality Dashboard
 
 On-Premises Call Quality Dashboard currently has a dependency on TLS 1.0 during new install (first time installing into your On-Premises environments).  We are currently investigating this issue and plan to release a fix in the near future.  If you are planning to install CQD and also disable TLS 1.0, we recommend that you complete CQD installation first, and then proceed with TLS 1.0 disabling.
+
+#### Skype for Business SDN Manager
+
+Skype for Business SDN Manager using SQL a database has a dependency on TLS 1.0 during new install. If you are planning to install Skype for Business SDN Manager using SQL a database and also disable TLS 1.0, we recommend that you complete Skype for Business SDN Manager first, and then proceed with TLS 1.0 disabling. In case TLS 1.0 was disabled prior to installation, you should temporarily enabled TLS 1.0 back in SQL Server backend server that will be used to host Skype for Business SDN Manager SQL database.
 
 #### Third-party devices
 
@@ -459,7 +461,7 @@ Alternatively, you can use Internet Explorer to test TLS connections to web serv
 
 ## Advanced deployment scenarios
 
-Because some dependency prerequisites are required to support TLS 1.2 in Skype for Business Ser 2015, installing from RTM media will fail on any system where TLS 1.0 and 1.1 have been disabled.
+Because some dependency prerequisites are required to support TLS 1.2 in Skype for Business Server 2015, installing from RTM media will fail on any system where TLS 1.0 and 1.1 have been disabled.
 
 **Deploying New Standard Edition Servers or Enterprise Edition Pools once TLS 1.0 and 1.1 have been disabled in your environment.**
 

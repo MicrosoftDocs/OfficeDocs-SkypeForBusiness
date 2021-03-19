@@ -36,7 +36,7 @@ Teams has been enhanced to support integration of
 third-party recording solutions, including the platform
 functionality, user experiences, and administrative interfaces needed to
 provide an end-to-end solution for configuring, managing, recording,
-storing, and analyzing Teams communications. This includes communications platform APIs and events for recording, which provides:
+storing, and analyzing Teams communications. Enhancements include communications platform APIs and events for recording, which provides:
 
 - Seamless, high-quality media capture across devices and all
     supported endpoints for audio, video, screen share, and chat.
@@ -48,10 +48,12 @@ storing, and analyzing Teams communications. This includes communications platfo
     integration with existing Teams administrative calling and
     meeting tools and policies
 
+Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium and Office 365 A3/A5/E3/E5 users. 
+
 The compliance recording solution integration capabilities were also
 reviewed at Ignite 2019 in the [<span class="underline">Compliance
 Recording and Microsoft Teams
-session</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
+session</span>](https://myignite.microsoft.com/archives/IG19-VCE40).
 
 ## Teams interaction recording overview
 
@@ -65,14 +67,14 @@ Each of the categories entails different requirements for how recordings
 are initiated, what is recorded, where recordings are stored, who is
 notified, who controls access, and how retention is handled.
 
-| Type                   | Convenience        | Functional         | Org - General      | Org - Regulated | Lawful Intercept   |
-| ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
-| Initiator              | User               | App/Solution       | Admin (system)     | Admin (system)  | LEA                |
-| Target                 | Per-call / meeting | Per-call / meeting | Per-call / meeting | Per-user        | Per-endpoint / DID |
-| Storage owner          | User               | App                | Admin              | Compliance      | LEA                |
-| Notification required? | Yes                | Yes                | Yes                | Yes             | No                 |
-| Access Owner           | User               | App                | Admin              | Compliance      | LEA                |
-| Retention Policy?      | Optional           | Yes                | Yes                | Yes             | Yes                |
+| Type                   | Convenience (Regular Teams Recording) | Org - Regulated (Compliance Recording) |
+| ---------------------- | ------------------ | --------------- |
+| Initiator              | User               | Admin (system)  |
+| Target                 | Per-call / meeting | Per-user        |
+| Storage owner          | User               | Compliance      |
+| Notification required? | Yes                | Yes             |
+| Access Owner           | User               | Compliance      |
+| Retention Policy?      | Optional           | Yes             |
 
 Teams provides various capabilities for
 [<span class="underline">convenient</span>](https://docs.microsoft.com/microsoftteams/cloud-recording)
@@ -196,7 +198,7 @@ compliance recording policies. Recorders are automatically invited to
 participate in conversations based on the configuration of these
 policies when a communication interaction takes place. Compliance
 recording policies are managed using [<span class="underline">Microsoft
-Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
+PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
 and can be applied at the tenant, per-user, and security group level for each
 organization. You can find more information on Microsoft Docs for
 [<span class="underline">Meeting
@@ -276,19 +278,25 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 ## Compliance recording for Teams certification programs
 
-In addition to publishing publicly-available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
+In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
+
+The following partners have certified their solution for Microsoft Teams.
+
+|Partner|Solution website |
+|:--|:--|
+|ASC Technologies |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
+|AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
+|Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
+|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
 
 The following partners are in the process of certifying their solution for Microsoft Teams.
 
 |Partner|Solution website |
 |:--|:--|
-|ASC Technologies |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
-|AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
-|Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

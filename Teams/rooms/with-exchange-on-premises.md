@@ -1,7 +1,7 @@
 ---
 title: Deploy Microsoft Teams Rooms with Exchange on-premises
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -140,9 +140,11 @@ Skype for Business Online PowerShell is used to manage services for both Microso
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
 2. Obtain SIP address of the account:
@@ -154,7 +156,7 @@ Skype for Business Online PowerShell is used to manage services for both Microso
 3. To enable your Microsoft Teams Rooms account, run this command:
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
    If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing user using this command:

@@ -1,0 +1,138 @@
+- name: Skype for Business and Teams certification program
+  href: ../certification/overview.md
+  items: 
+    - name: How to Join
+      href: ../certification/how-to-join.md
+    - name: Skype and Lync test specifications
+      href: ../certification/test-spec.md
+    - name: Phones and Devices
+      items: 
+        - name: Skype for Business IP Phones
+          href: ../certification/devices-ip-phones.md
+        - name: Teams IP Phones
+          href: /microsoftteams/teams-ip-phones
+        - name: USB audio and video devices
+          href: ../certification/devices-usb-devices.md
+        - name: PCs
+          href: ../certification/devices-pcs.md
+        - name: Meeting room devices and solutions
+          href: ../certification/devices-meeting-rooms.md
+    - name: Infrastructure
+      items: 
+        - name: Gateways
+          href: ../certification/infra-gateways.md
+        - name: IP PBXs
+          href: ../certification/infra-ip-pbxs.md
+        - name: Survivable branch appliances
+          href: ../certification/infra-sba.md
+        - name: Session Border Controllers
+          href: ../certification/infra-sbc.md
+        - name: Reverse Proxy
+          href: ../certification/infra-rev-proxy.md
+        - name: Load Balancers
+          href: ../certification/infra-load-balancers.md
+    - name: Networking
+      items: 
+        - name: Wi-Fi for Skype for Business
+          href: ../certification/networking-wifi.md
+          items: 
+            - name: Planning for Wi-Fi
+              href: ../certification/plan-wifi.md
+        - name: Wired for Skype for Business
+          href: ../certification/networking-wired.md
+        - name: SDN for Skype for Business
+          href: ../certification/networking-sdn.md
+    - name: Services
+      items: 
+        - name: SIP Trunking services
+          href: ../certification/services-sip-trunking.md
+        - name: E-911 service providers
+          href: ../certification/services-e911.md
+        - name: Audio conferencing providers
+          href: ../certification/services-acps.md
+        - name: Unified Communications certificate partners
+          href: ../certification/services-ssl.md
+    - name: IT Pro
+      href: ../certification/it-pro-tools.md
+      items: 
+        - name: Network Pre-Assessment
+          href: ../certification/it-pro-tools-pre-assessment.md
+        - name: Migration
+          href: ../certification/it-pro-tools-migration.md
+        - name: User and Policy Provisioning
+          href: ../certification/it-pro-tools-user-policy.md
+        - name: Monitoring and Troubleshooting
+          href: ../certification/it-pro-tools-monitor-troubleshoot.md
+        - name: Reporting
+          href: ../certification/it-pro-tools-reporting.md
+    - name: Video
+      href: ../certification/video.md
+    - name: ISV
+      href: ../certification/isv-overview.md
+    - name: Lync Partner Qualification
+      href: ../lync-cert/partner-qualification.md
+      items: 
+        - name: Applications
+          href: ../lync-cert/qualified-lync-apps.md
+          items: 
+            - name: Lync ISV qualification program participation
+              href: ../lync-cert/participation.md
+            - name: Attendant Console Applications
+              href: ../lync-cert/attendant-console-apps.md
+            - name: Billing & Enhanced Reporting Applications
+              href: ../lync-cert/billing-reporting-apps.md
+            - name: Contact center applications
+              href: ../lync-cert/contact-center-apps.md
+            - name: Lync extensibility applications
+              href: ../lync-cert/lync-extensibility-apps.md
+            - name: Persistent chat applications
+              href: ../lync-cert/persistent-chat-apps.md
+            - name: Recording applications
+              href: ../lync-cert/recording-apps.md
+            - name: Software Defined Networking Applications
+              href: ../lync-cert/software-defined-network-apps.md
+            - name: Validated Lync Applications
+              href: ../lync-cert/validated-lync-apps.md
+        - name: Devices
+          items: 
+            - name: Phones and devices qualified for  Lync
+              href: ../lync-cert/ip-phones.md
+            - name: USB audio and video devices
+              href: ../lync-cert/usb-and-video.md
+            - name: Lync Room Systems
+              href: ../lync-cert/room-systems.md
+            - name: Meeting room devices and solutions
+              href: ../lync-cert/meeting-room-devices.md
+            - name: PCs
+              href: ../lync-cert/pcs-optimized-for-lync.md
+        - name: Infrastructure
+          href: ../lync-cert/infrastructure-qualified-node.md
+          items: 
+            - name: IP PBXs and Gateways
+              href: ../lync-cert/qualified-ip-pbx-gateway.md
+            - name: Supported IP PBXs
+              href: ../lync-cert/supported-ip-pbxs.md
+            - name: Survivable branch appliances
+              href: ../lync-cert/survivable-branch-appliances.md
+            - name: Session border controllers
+              href: ../lync-cert/sbcs-lync-server.md
+            - name: Networking
+              href: ../lync-cert/networking-lync-server-2010-2013.md
+            - name: Load balancers
+              href: ../lync-cert/hardware-load-balancers.md
+            - name: Reverse proxies
+              href: ../lync-cert/reverse-proxies.md
+            - name: Virtual Desktop Infrastructure
+              href: ../lync-cert/virtual-desktop-lync-server.md
+        - name: Services
+          href: ../lync-cert/sip-trunking-services.md
+          items: 
+            - name: E-911 Services
+              href: ../lync-cert/e-911-service-providers.md
+            - name: Lync Online Dedicated
+              href: ../lync-cert/online-dedicated.md
+        - name: Video
+          href: ../lync-cert/video-solutions-qualified.md
+          items: 
+            - name: Meeting room devices and solutions
+              href: ../lync-cert/meeting-room-devices.md

@@ -1,7 +1,7 @@
 ---
 title: "Plan for Microsoft Teams Rooms"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: "This article explains the relevant planning considerations for deploying Microsoft Teams Rooms, the next generation of Skype Room Systems."
 ---
 
@@ -52,8 +53,8 @@ You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business On
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
+|![decide deployment](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
+| ![identify activities](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
 | | |
 
 ## Identify who will undertake the key activities throughout your deployment
@@ -90,8 +91,7 @@ As part of your discovery, it’s key to consider room acoustics and layout. For
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Review the rooms in scope, and define Microsoft Teams Rooms configurations for them.</li></ul>|
+| ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Review the rooms in scope, and define Microsoft Teams Rooms configurations for them.</li></ul>|
 
 _Sample meeting/conference room inventory_
 
@@ -112,8 +112,8 @@ Based on the vendor you prefer, use the information provided in the requirements
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul>|
+| ![rooms in scope](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul>|
+| ![gather material](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul>|
 
 _Sample Microsoft Teams Rooms deployment template for your organization_
 
@@ -136,8 +136,8 @@ Depending on your deployment scale and approach, you might decide to have the Mi
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li><li>Plan for adoption and change management.</li></ul>|
+| ![ship components](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul>|
+| ![plan operations](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li><li>Plan for adoption and change management.</li></ul>|
 
 ## Plan for operations 
 
@@ -149,8 +149,8 @@ Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related c
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms–related calls to.</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host accounts. </li></ul>|
+| ![choose manager](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms–related calls to.</li></ul>|
+| ![prepare host accounts](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host accounts. </li></ul>|
 
 
 ## Plan for adoption and change management

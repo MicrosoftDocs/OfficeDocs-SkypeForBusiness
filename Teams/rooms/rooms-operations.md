@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms maintenance and operations"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -58,11 +58,11 @@ The following table summarizes the possible remote operations and the methods yo
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
-|Restart  <br/> |Remote desktop  <br/> Remote Powershell  <br/> |Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
+|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote Powershell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
-|Skype Account Config  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
-|Access logs  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
+|Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
+|Access logs  <br/> |Teams admin center  <br/> |Teams admin center <br/> |
    
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>

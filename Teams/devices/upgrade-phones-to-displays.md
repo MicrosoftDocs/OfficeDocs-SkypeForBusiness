@@ -1,7 +1,7 @@
 ---
 title: "Upgrade Teams phones to Teams displays"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -65,7 +65,13 @@ It can take up to an hour for the upgrade to complete. If the process hasn't com
 
 ## Known issues
 
-Dark theme support on Teams displays will be available in a future update. Teams phones that use the Dark theme will get the Default theme after the upgrade.
+### Teams displays have the Default theme instead of the Dark theme
+
+Dark theme support on Teams displays will be available in a future update. Teams phones that use the Dark theme will get the Default theme after the upgrade to Teams displays.
+
+### Some apps are missing from the Home screen
+
+If certain apps are missing from the Home screen after the upgrade, sign out and sign in again. The fix for this will be available in a future update.
 
 ## See also
 

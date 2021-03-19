@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,6 +20,7 @@ ms.custom:
   - ms.teamsadmincenter.meetingsettings.overview
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn how to manage settings for Teams meetings that users schedule in your organization.
 ---
 
@@ -45,6 +46,26 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 > [!CAUTION]
 > If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
+
+## Allow anonymous users to interact with apps in meetings
+
+Anonymous users will now inherit the user-level global default permission policy. This control will then allow anonymous users to interact with apps in Teams meetings as long as the user-level permission policy has enabled the app. Note that anonymous users can only interact with apps that are already available in a meeting and cannot acquire and/or manage these apps. 
+
+> [!IMPORTANT]
+> By default, the setting to allow anonymous users to interact with apps in meetings is enabled.
+
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+
+You must be a Teams service admin to access this setting. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+
+1. Go to the admin center.
+
+2. In the left navigation, go to **Meetings** > **Meeting settings**.
+
+3. Under **Participants**, the setting for **Anonymous users can interact with apps in meetings** can be changed.
+
+> [!CAUTION]
+> If you don't want anonymous users to interact with apps in meetings scheduled by users in your organization, turn off this setting.
 
 ## Customize meeting invitations
 
@@ -115,6 +136,6 @@ Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
 |Application/Screen Sharing| 50,040–50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\* The port ranges you assign cannot overlap and must be next to each other.
+\* The port ranges you assign can't overlap and should be adjacent to each other.
 
 After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.

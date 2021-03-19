@@ -1,7 +1,7 @@
 ---
 title: Assign Teams add-on licenses to users
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -29,7 +29,7 @@ You can use the Microsoft 365 admin center or PowerShell to assign licenses to u
 
 ## What you need to know before you assign Phone System, Calling Plan, and Communication Credits licenses
 
-Before you get started, review the following:
+Before you get started, review the following requirements:
 
 - If you're using on-premises Public Switched Telephone Network (PSTN) connectivity for hybrid users, you only need to assign a Phone System license. Do NOT assign a Calling Plan license.
 
@@ -37,14 +37,14 @@ Before you get started, review the following:
 
 - You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose the option to buy more.
 
-- Even if your users are assigned Enterprise E5 licenses, you still need to assign [Communications Credits](../what-are-communications-credits.md) licenses to them if they want make or receive calls from the PSTN.
+- Even if your users are assigned Enterprise E5 licenses, you still need to assign [Communications Credits](../what-are-communications-credits.md) licenses to them if they want to make or receive calls from the PSTN.
 
 - After you assign Calling Plan or Communication Credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users. For step-by-step instructions, see [Set up Calling Plans](../set-up-calling-plans.md).
 
 ## Using the Microsoft 365 admin center
 
 Use the Microsoft 365 admin center to assign licenses to individual users or small sets of users at a time. 
-You can assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
+You assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
 For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -58,7 +58,7 @@ Use PowerShell to assign licenses to users in bulk.  To learn more, see [Assign 
 
 Here's an example of how to use a script to assign licenses to your users.
 
-1. Install the 64-bit version of the [Microsoft Online Services Sign-in Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
+1. Install the 64-bit version of the [Microsoft Online Services Sign-in Assistant for IT Professionals RTW](https://docs.microsoft.com/collaborate/connect-redirect?DownloadID=59185).
 2. Install the Microsoft Azure Active Directory Module for Windows PowerShell:
     1. Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an admin).
     2. Run the following command:

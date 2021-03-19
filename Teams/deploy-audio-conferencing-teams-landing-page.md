@@ -12,6 +12,7 @@ ms.service: msteams
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
 ms.custom:
   - seo-marvel-mar2020
 f1.keywords:

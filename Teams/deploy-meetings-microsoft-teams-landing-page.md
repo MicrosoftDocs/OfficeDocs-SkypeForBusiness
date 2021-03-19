@@ -14,6 +14,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
   - remotework
+  - m365initiative-meetings
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
@@ -51,7 +52,7 @@ Teams provides a great out-of-the-box experience for your organization, and most
 > Watch the following session to learn more about Meetings: [Introduction to Meetings in Microsoft Teams for IT Pros](https://aka.ms/teams-meetings-intro)
 
 
-## Meetings and conferencing prerequisites 
+## Meetings and conferencing prerequisites
 
 Before scaling your meetings deployment across your organization, take time to review and confirm that your environment is ready to provide users with the best
 possible experience. Review the following information and make any required changes to your environment as needed.
@@ -136,7 +137,10 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Bandwidth planning 
 
-Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service. 
+Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service.
+
+> [!IMPORTANT]
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth. 
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -154,7 +158,7 @@ To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-recording-transcription)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
 |||
 
 

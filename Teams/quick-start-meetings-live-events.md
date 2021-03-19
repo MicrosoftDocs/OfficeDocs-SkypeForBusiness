@@ -1,7 +1,7 @@
 ---
 title: Admin quick start - Meetings and live events in Microsoft Teams
 ms.reviewer: 
-description: Get started quickly with meetings and live events in Microsoft Teams.
+description: A quick start guide for admins to get licenses for, roll out, and configure online meetings and live events in Microsoft Teams.
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -11,8 +11,11 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.collection: 
-  - M365-collaboration
-  - remotework
+- M365-collaboration
+- remotework
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 

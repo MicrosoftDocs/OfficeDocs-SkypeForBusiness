@@ -1,5 +1,5 @@
 ---
-title: "Phones and Devices for Skype for Business"
+title: "Meeting room devices and solutions"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - Skype for Business Certification
 - dn947482 
 - ms.teamsadmincenter.devices.roomsystems.overview
-description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
+description: "Planning for Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
 ---
 
 # Meeting room devices and solutions
+
 Microsoft tests and qualifies meeting room solutions for Lync and Skype for Business, as well as Teams.
 Skype for Business will support backwards compatibility with Optimized for Lync 2013 meeting room solutions. These include:
-- Lync Room Systems (Aka Skype Room Systems v1)
+- Lync Room Systems (also known as Skype Room Systems v1)
 - Microsoft Teams Rooms (formerly Skype for Business Room Systems v2)
 - USB-based audio/video end points designed for conference rooms
 

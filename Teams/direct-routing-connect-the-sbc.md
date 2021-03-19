@@ -25,7 +25,7 @@ This article describes how to configure a Session Border Controller (SBC) and co
 - **Step 1. Connect your SBC with Phone System and validate the connection** (This article)
 - Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
 - Step 3. [Configure call routing](direct-routing-voice-routing.md)
-- Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
+- Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md)
 
 For information on all the steps required to set up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
@@ -35,7 +35,7 @@ You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-
 
 1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
 2. Click **Add**.
-3. Enter a FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name.
+3. Enter a FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use `sbc.service.contoso.com`, then `service.contoso.com` needs to be registered.
 4. Configure the following settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
 
     ![Screenshot of add SBC page in the Microsoft Teams admin center](media/direct-routing-add-sbc.png)
@@ -81,7 +81,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. We recommend that you set a maximum call limit in the SBC using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
-  > 2. You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.con for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
+  > 2. You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.com for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
   > In addition to the domain registered in your tenant, it's important that there's a user with that domain and an assigned E3 or E5 license. If not, you'll receive the following error:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -166,7 +166,6 @@ This table lists the options that you can set for the SBC in the Microsoft Teams
 |No|**Failover times (seconds)**|FailoverTimeSeconds |When you set a value, outbound calls that aren't answered by the gateway within the time that you set are routed to the next available trunk. If there are no additional trunks, the call is automatically dropped. The default value is 10 seconds. In an organization with slow networks and gateway responses, this could potentially result in calls being dropped unnecessarily.|10|Number|Int|
 |No|**Preferred country or region for media traffic**|MediaRelayRoutingLocationOverride |Use to manually set your preferred country or region for media traffic. We recommend that you set this only if the call logs clearly indicate that the default assignment of the datacenter for the media path doesn't use the path closest to the SBC datacenter. By default, Direct Routing assigns a datacenter based on the public IP address of the SBC, and always selects the path closest to the SBC datacenter. However, in some cases, the default path might not be the optimal path. This parameter allows you to manually set the preferred region for media traffic. |None|Country codes in ISO format||
 |No|**SBC supports PIDF/LO for emergency calls**|PidfloSupported|Specify whether the SBC supports Presence Information Data Format Location Object (PIDF/LO) for emergency calls.||||
-|No|**Ring phone while trying to find the user**|GenerateRingingWhileLocatingUser|Set whether an audio signal is played to the caller to indicate that Teams is in the process of establishing the call. This setting only applies to Direct Routing in non-media bypass mode. Sometimes inbound calls from the PSTN to Teams clients can take longer than expected to be established. When this happens, the caller might not hear anything, the Teams client doesn't ring, and the call might be canceled by some telecommunications providers. This setting helps to avoid unexpected silences that can occur in these scenarios.|True|True<br/>False|Boolean|
 |No| - |MediaBypass|This setting indicates whether the SBC supports media bypass and whether you want to use it for this SBC. |None|True<br/>False|Boolean|
 
 ## See also
