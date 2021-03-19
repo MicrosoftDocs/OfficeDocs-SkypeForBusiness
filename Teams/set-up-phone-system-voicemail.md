@@ -86,7 +86,7 @@ Voicemail messages received by users in your organization are transcribed in the
 
 You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet.
 
-```
+```PowerShell
 PS C:\> Get-CsOnlineVoicemailPolicy
 
 
