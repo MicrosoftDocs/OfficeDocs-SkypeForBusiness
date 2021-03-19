@@ -1,127 +1,65 @@
 ---
-title: Teams PowerShell Overview
+title: Microsoft Teams PowerShell Overview
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
-ms.date: 09/06/2018
+author: brandber
+ms.author: brandber
+manager: kojiko
+ms.date: 06/30/2020
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
-description: Learn to use the PowerShell controls for managing Microsoft Teams, including how PowerShell cmdlets are structured.
+description: Learn to use the PowerShell controls to manage Microsoft Teams.
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
 ---
 
-# Teams PowerShell Overview
+# Microsoft Teams PowerShell Overview
 
-Microsoft Teams has a rich set of tools for IT admins to manage the product through the Microsoft Teams admin center, PowerShell controls, and Graph APIs. This guide explains how we structure our PowerShell cmdlets for IT admins to use, and provides pointers to further documentation. Note that different Teams admin roles have access to different cmdlets. For more information, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).
+Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line. Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows, PowerShell 6.x and higher on all platforms including Azure Cloud Shell.
 
-## Which modules do you need to use?
+Before you can start using PowerShell, you'll need to [install it](teams-powershell-install.md). 
 
-The PowerShell controls for managing Teams are in two different PowerShell modules: 
-- [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/) : The Teams PowerShell module contains all the cmdlets you need to create and manage teams.  
-- [Skype for Business PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366): The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools. 
+> [!WARNING]
+> There are known issues with PowerShell 7 and Teams PowerShell. We recommend using PowerShell 5.1 until the issues are resolved.
 
-The reference documentation for the PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
-
-## What can each admin role do?
-
-Read [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md) to understand which PowerShell cmdlets different admin roles will be able to leverage.
-
-## Creating and managing teams via PowerShell
-
-The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
-
-Teams are backed by O365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
-
-> The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
-
-### Differences between Preview and Generally Available Microsoft Teams PowerShell Module
-
-When we released our generally available version of our PowerShell module, a few cmdlets were left in the beta-only module as described in the table below.
-
-| Cmdlet | Available in Preview | Available in 1.0 |
-|------- | -------------------- | ------------------------------ |
-| Add-TeamUser | Yes | Yes |
-| Connect-MicrosoftTeams | Yes | Yes |
-| Disconnect-MicrosoftTeams | Yes | Yes |
-| Get-Team | Yes | Yes |
-| Get-TeamChannel | Yes | Yes |
-| Get-TeamFunSettings | Prior to 1.0 release only | No |
-| Get-TeamGuestSettings | Prior to 1.0 release only | No |
-| Get-TeamHelp | Yes | Yes |
-| Get-TeamMemberSettings | Prior to 1.0 release only | No |
-| Get-TeamMessagingSettings | Prior to 1.0 release only | No |
-| Get-TeamUser | Yes | Yes |
-| New-Team | Yes | Yes |
-| New-TeamChannel | Yes | Yes |
-| Remove-Team | Yes | Yes |
-| Remove-TeamChannel | Yes | Yes |
-| Remove-TeamUser | Yes | Yes |
-| Set-Team | Yes | Yes |
-| Set-TeamChannel | Yes | Yes |
-| Set-TeamFunSettings | Prior to 1.0 release only | No |
-| Set-TeamGuestSettings | Prior to 1.0 release only | No |
-| Set-TeamMemberSettings | Prior to 1.0 release only | No |
-| Set-TeamMessagingSettings | Prior to 1.0 release only | No |
-| Set-TeamPicture | Yes | No, planned |
+## Releases
 
 
-## Managing policies via PowerShell
+Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) in two release types.
 
-Use the cmdlets in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366) to manage policies for individual users.
+- **General Availability (GA)**: Production-ready cmdlets, updated monthly.
+
+- **Public Preview**: Early access to features. May be updated more frequently than GA.
+
+For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).
+
+
+## Manage Teams with PowerShell
+
+You'll use Teams PowerShell modules to fully manage Teams:
+
+- [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/): The Teams PowerShell module contains cmdlets for managing teams, chat, and channels.
 
 > [!NOTE]
-> The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+> The [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) version 1.1.6 or later is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.
 
-A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
+- [Skype for Business PowerShell Connector](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): The Skype for Business PowerShell connector is now a part of Teams PowerShell module.
 
-- GET commands (for example, ``Get-CsTeamsMeetingPolicy``):  return the policy documents that are available for you to assign in your organization, both the policies created by Microsoft for you to use and the custom policies you've created.
-   > If you want to find only the custom policies you've created in your organization, you can use ``-Filter "tag:*"``.
+For a complete guide to managing Teams using these modules, please see [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md).
 
-- NEW commands (for example, ``New-CsTeamsMeetingPolicy``): let you create new policies for your organization that are then available to be assigned to users in your organization. Not all policies support the creation of custom policies. Often this is to ensure that the policies you use in your organization have a supported combination of settings.
 
-- SET commands (for example, ``Set-CsTeamsMeetingPolicy``): lets you set particular values on a given policy. Some policies do not have set commands available, or contain parameters that cannot be customized in the policy. Each PowerShell description will call out which parameters cannot be customized. 
-   > To edit the policy that will by default be assigned to users in your organization who do not have a custom policy assigned, run ``Set-Cs<PolicyName> -Identity Global``.
+## Related topics
 
-- REMOVE commands (for example, ``Remove-CsTeamsMeetingPolicy``): you can use this cmdlet to delete a custom policy that has been created in your tenant. If you delete a custom policy that has been assigned to at least one user in your organization, that user will fall back to the global policy.
-   > You can't actually remove the global policy in your organization, but if you want to reset the global policy in your organization to the Microsoft-provided default settings, you can run ``Remove-Cs<PolicyName> -Identity Global``.
+[Installing Teams PowerShell](teams-powershell-install.md)
 
-- GRANT command (for example, ``Grant-CsTeamsMeetingPolicy``): lets you assign a policy to a particular user.
-   > To remove a custom policy assignment and make the user fall back to the default policy in your organization, run ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``.
+[Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 
-> [!TIP]
-> Not all policies allow custom policies to be created, and some policies have settings that you can't customize (so you can view the setting but can't set a custom value during ``set-`` and ``new-``). The documentation of the specific cmdlet will call out if parameters are not available for use by customers.
+[Teams PowerShell Release Notes](teams-powershell-release-notes.md)
 
-Common parameters:
+[Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-- **Identity**: For ``Get-``, ``Set-``, ``New-``, and ``Remove-``, the **Identity** parameter will always refer to a specific policy instance. For ``Grant``, the **Identity** parameter refers to a specific user object to whom the policy is being applied.
+[Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 
-<!--more info here?-->
-
-## Managing configurations via PowerShell
-
-The cmdlets for managing your configuration are in the [Skype for Business cmdlet module](https://www.microsoft.com/download/details.aspx?id=39366).
-
-Configurations are buckets of settings maintained in the service that cannot be specified at a user level. Settings always apply across the whole organization. Your global configuration is the only effective configuration in your organization. Each configuration type comes with two primary cmdlets:
-
-- ``Get-Cs<ConfigurationName>`` (for example, ``Get-CsTeamsClientConfiguration``): 
-
-- SET commands (for example, ``Set-CsTeamsClientConfiguration``): set properties in the configuration of that type. Specify the parameters that you want to modify.
-   > You can reference the configuration that you're modifying in one of two ways: by specifying -**Identity Global**, or by running ``Get-Cs<ConfigurationName>`` | ``Set-Cs<ConfigurationName>``.
-
-## Other PowerShell tools
-
-You can find detailed instructions on how to use all PowerShell controls for managing Microsoft Teams and Skype for Business, including detailed descriptions of the settings in each policy, in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps) and [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
-
-## Learn more
-
-- [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
-- [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
+[Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)

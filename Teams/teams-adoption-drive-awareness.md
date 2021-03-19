@@ -1,7 +1,7 @@
 ---
 title: Drive awareness and implement training
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -25,7 +25,7 @@ appliesto:
 
 # Drive awareness and implement training for Microsoft Teams
 
-Awareness and training are the marketing and communications segment of your overall adoption strategy. This will ensure that your employees are aware of the new capabilities of Microsoft Teams and its underlying Office 365 services and apps.
+Awareness and training are the marketing and communications segment of your overall adoption strategy. This will ensure that your employees are aware of the new capabilities of Microsoft Teams and its underlying Microsoft 365 or Office 365 services and apps.
    
 For both your initial pilots and your eventual company-wide roll out, your internal communications should be a priority. They should include:
 
@@ -44,13 +44,13 @@ If your company has a central intranet portal for news, information, or support,
 
 ## Implement end-user training
 
-Use our resources to deliver end-user training as people begin to use Microsoft Teams and other Office 365 services. Visit our resource pages to learn more:
+Use our resources to deliver end-user training as people begin to use Microsoft Teams and other Microsoft 365 or Office 365 services. Visit our resource pages to learn more:
 
-- [Instructor-led end-user training for Teams](instructor-led-training-teams-landing-page.md)
+- [Instructor-led end-user training for Teams](instructor-led-training-teams-landing-page.yml)
 - [Administrator training for Teams](itadmin-readiness.md)
 - [Online End-user video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Coffee in the Cloud online training for champions & IT pros](https://aka.ms/CoffeeintheCloud) 
-- [Day in the Life Office 365 training cheat sheets](https://aka.ms/O365AdoptionTools)
+- [Adoption Tools](https://aka.ms/O365AdoptionTools)
 
 ## Measure and share success
 

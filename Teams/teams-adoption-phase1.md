@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 1 - Start
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: In this article, you will learn about the activities in the startup phase of Microsoft Teams adoption. 
+description: In this article, you will learn about the activities in the startup phase of Microsoft Teams adoption. Understand best practices on Microsoft Teams setup and team planning.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -63,10 +63,10 @@ In most cases, this initial team should be a small group of like-minded people w
 
 ## Additional resources
 
-The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-provided insights into adoption and technical issues for many Office 365 products. We suggest that you join the following communities:
+The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-provided insights into adoption and technical issues for many Microsoft 365 and Office 365 products. We suggest that you join the following communities:
 
 - [Microsoft Teams Technical Community](https://aka.ms/TeamsCommunity) – Get product questions answered, learn from other Teams customers, and follow our blog to stay up to date on new features and use cases for Teams. 
-- [Office 365 Champions Program](https://aka.ms/O365Champions) and the Driving Adoption community – Learn from your peers about how to best drive adoption of Office 365 workloads such as Teams, SharePoint, Yammer, and other products. Open to IT Pros, business users, the “accidental” developer, and anyone interested in driving adoption of cloud services.  
+- [Champions Program](https://aka.ms/O365Champions) and the Driving Adoption community – Learn from your peers about how to best drive adoption of Microsoft 365 or Office 365 workloads such as Teams, SharePoint, Yammer, and other products. Open to IT Pros, business users, the “accidental” developer, and anyone interested in driving adoption of cloud services.  
 
 
 ![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)

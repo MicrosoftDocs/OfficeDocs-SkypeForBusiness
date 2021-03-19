@@ -16,7 +16,8 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "**/common/**"
         ]
       },
       {
@@ -117,7 +118,8 @@
           "**/*.jpg",
           "**/*.gif",
           "**/*.pdf",
-          "**/*.svg"
+          "**/*.svg",
+          "**/*.csv"
         ],
         "exclude": [
           "**/obj/**",
@@ -133,11 +135,18 @@
       ],
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "ms.suite": "office",
       "contributors_to_exclude": [
-        "dstrome",
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "feedback_system": "None",
       "hideEdit": true
@@ -150,7 +159,7 @@
         "SfbServer/**/*.md": "Skype for Business Server 2015"
       },
       "feedback_product_url": { 
-        "SfbHybrid/hybrid/*.md": "https://www.skypefeedback.com/" 
+        "SfbHybrid/hybrid/*.md": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/issues" 
       },
       "feedback_system": {
         "SfbHybrid/hybrid/*.md": "GitHub" 
@@ -159,7 +168,7 @@
         "SfbHybrid/hybrid/*.md": "MicrosoftDocs/OfficeDocs-SkypeForBusiness" 
       },
         "hideEdit": {
-        "SfbHybrid/hybrid/**/*.md": false 
+        "SfbHybrid/hybrid/*.md": false 
       } 
     },
     "template": [],

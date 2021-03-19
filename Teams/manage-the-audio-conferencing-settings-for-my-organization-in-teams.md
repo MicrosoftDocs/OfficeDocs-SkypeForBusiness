@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -34,7 +35,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ## Assign an Audio Conferencing license
 
 > [!NOTE]
-> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](assign-teams-licenses.md). 
+> You can't assign licenses using Teams. You must use the Microsoft 365 admin center. See [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). 
   
  **To assign a license for a user**
   
@@ -47,10 +48,10 @@ It might be easier for you to see all of the audio conferencing settings for Mic
   
 3. In the Action pane under **Product licenses**, click **Edit**. 
     
-4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
-> [!NOTE]
-> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the admin center or press CTRL+F5 to refresh the browser window. 
+   > [!NOTE]
+   > After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the admin center or press CTRL+F5 to refresh the browser window. 
   
 ## Enable or disable emails sent to audio conferencing users
 
@@ -140,6 +141,9 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 4. Under **Entry/exit announcement type**, choose either **Tones** or **Names or phone numbers**. 
 
     If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**. 
+    > [!NOTE]
+    > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
+
 
 5. Click **Save**.
 
@@ -198,7 +202,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 2. Select a phone number from the list and click **Edit**. Here you can:
     
-   - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
+   - View the phone numbers that are to be used for Audio Conferencing. 
     
    - View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.
 
@@ -208,11 +212,11 @@ See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-
 
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
-  - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Why you need to use Microsoft 365 or Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   

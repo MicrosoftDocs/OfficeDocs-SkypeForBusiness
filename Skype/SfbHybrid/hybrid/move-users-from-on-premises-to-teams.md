@@ -30,7 +30,7 @@ When a user is moved from on premises to Teams Only, the user’s Skype for Busi
 - New meetings scheduled by that user are Teams meetings.
 - User can still join any Skype for Business meetings.
 - The user’s pre-existing meetings scheduled for the future will be migrated from on-premises to Teams.
-- Contacts that existed on premises are available in Teams shortly after the user logs on for the first time.
+- Contacts that existed on-premises are available in Teams shortly after the user logs on for the first time.
 - Users cannot initiate calls or chats from Skype for Business, nor can they schedule new meetings in Skype for Business. If they attempt to open the Skype for Business client, they will be redirected to use Teams as shown below. If the Teams client is not installed, they will be directed to the web version of Teams using their browser.<br><br>
     ![Message redirecting a user to Teams](../media/go-to-teams-page.png)
 
@@ -57,23 +57,30 @@ The on-premises admin tools in Skype for Business Server 2015 with CU8, as well 
 
 Move-CsUser is available from an on-premises Skype for Business Management Shell PowerShell window. The steps below and permissions required are the same as moving a user to Skype for Business Online, except that you must also specify the MoveToTeams switch and you must ensure that the user has also been granted a license for Teams (in addition to Skype for Business Online).
 
-You must have sufficient privileges in both the on-premises environment and the Office 365 organization, as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). You can either use a single account that has privileges in both environments, or you can start an on-premises Skype for Business Server Management Shell window with on-premises credentials, and use the `-Credential` parameter to specify credentials for an Office 365 account with the necessary Office 365 administrative role.
+You must have sufficient privileges in both the on-premises environment and the cloud service (Microsoft 365 or Office 365), as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). You can either use a single account that has privileges in both environments, or you can start an on-premises Skype for Business Server Management Shell window with on-premises credentials, and use the `-Credential` parameter to specify credentials for a Microsoft 365 or Office 365 account with the necessary administrative role.
 
 To move a user to Teams Only mode using Move-CsUser:
 
 - Specify the user to move using the `Identity` parameter.
 - Specify the     -Target     parameter with the value “sipfed.online.lync.<span>com”.
 - Specify the `MoveToTeams` switch.
-- If you do not have one account with sufficient permissions in both on premises and Office 365, use the `-credential` parameter to supply an account with sufficient permissions in Office 365.
-- If the account with permissions in Office 365 does not end in “onmicrosoft.<span>com”, you must specify the `-HostedMigrationOverrideUrl` parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- If you do not have one account with sufficient permissions in both on premises and the cloud service (Microsoft 365 or Office 365), use the `-credential` parameter to supply an account with sufficient permissions in Office 365.
+- If the account with permissions in Microsoft 365 or Office 365 does not end in “onmicrosoft.<span>com”, you must specify the `-HostedMigrationOverrideUrl` parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-The following cmdlet sequence can be used to move a user to TeamsOnly, and assumes the Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.
+The following cmdlet sequence can be used to move a user to TeamsOnly, and assumes the Microsoft 365 or Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 
   ```powershell
   $cred=Get-Credential
   $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
   Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
   ```
+
+> [!TIP]
+> As there are different circumstances requiring different parameters, the default command for most cases is:
+
+```powershell
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -UseOAuth -HostedMigrationOverrideUrl $url
+```
 
 ### Move to Teams using Skype for Business Server Control Panel
 
@@ -82,7 +89,7 @@ The following cmdlet sequence can be used to move a user to TeamsOnly, and assum
 3. Use **Find** to locate the user(s) you would like to move to Teams.
 4. Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Teams**.
 5. In the wizard, click **Next**.
-6. If prompted, sign in to Office 365, with an account that ends in .onmicrosoft.com and has sufficient permissions.
+6. If prompted, sign in to Microsoft 365 or Office 365 with an account that ends in .onmicrosoft.com and has sufficient permissions.
 7. Click **Next**, and then **Next** one more time to move the user.
 8. Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
 

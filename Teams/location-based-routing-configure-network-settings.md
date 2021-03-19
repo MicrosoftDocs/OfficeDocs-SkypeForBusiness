@@ -1,7 +1,7 @@
 ---
 title: Configure network settings - Location-based routing
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -20,8 +20,6 @@ ms.custom: seo-marvel-mar2020
 ---
 
 # Configure network settings for Location-Based Routing
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you configure network settings for Location-Based Routing.
 

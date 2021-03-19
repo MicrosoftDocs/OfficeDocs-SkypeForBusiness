@@ -1,15 +1,13 @@
 ---
 title: "Move File Store Data to a New File Store in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 8/30/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 f1.keywords:
 - NOCSH
 localization_priority: Normal

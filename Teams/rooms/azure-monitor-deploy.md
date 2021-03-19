@@ -1,7 +1,7 @@
 ---
 title: Deploy Microsoft Teams Rooms management with Azure Monitor
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -117,9 +117,6 @@ To extract your custom fields out of the captured event logs, follow these steps
 
 3. Select one of the records, select the button to the left, and start the field extraction wizard.
 4. Highlight the data you'd like to extract from the RenderedDescription and provide a Field Title. The field names that you should use are provided in Table 1.
-
-   ![Custom field definition](../media/Deploy-Azure-Monitor-4.png "Custom field definition")
-
 5. Use the mappings shown in *Table 1*. :::no-loc text="Log Analytics"::: will automatically append the **\_CF** string when you define the new field.
 
 > [!IMPORTANT]
@@ -127,8 +124,6 @@ To extract your custom fields out of the captured event logs, follow these steps
 > 
 > Pay attention to the queries required for each custom field in the table below. You need to use the correct queries for :::no-loc text="Log Analytics"::: to successfully extract custom field values.
 > 
- ![Custom field definition](../media/Deploy-Azure-Monitor-5.png "Custom field definition")
-
 **Table 1**
 
 | **JSON field**                   | **:::no-loc text="Log Analytics"::: custom field** | **Event ID** | **Query to use with the extraction**                   |

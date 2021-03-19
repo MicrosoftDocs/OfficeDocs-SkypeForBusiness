@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: "As an Office 365 admin, you can edit the Skype for Business Online Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. "
+description: "As a Microsoft 365 or Office 365 admin, you can edit the Skype for Business Online Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. "
 ---
 
 # Manage the Audio Conferencing settings for a user in Skype for Business Online
@@ -28,7 +28,7 @@ description: "As an Office 365 admin, you can edit the Skype for Business Online
 > [!Note]
 > If you want to manage user settings in Microsoft Teams, see [Manage the Audio Conferencing settings for a user in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Sign in with your work or school account.
@@ -45,7 +45,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 |:-----|:-----|
 |**Provider name** <br/> |Choose your provider from the list.  <br/><br/> **Note:** The remaining settings in this table apply only if you select Microsoft as the audio conferencing provider.           |
 |**Default toll number** (required) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
-|**Default toll-free umber** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Default toll-free number** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Allow using toll-free numbers in the Microsoft bridge of your organization to join the meetings of this user** <br/> |Select this option if you want to allow the user of toll-free numbers for joining meetings.  <br/> |
 |**Send conference info via email** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**Conference ID** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |

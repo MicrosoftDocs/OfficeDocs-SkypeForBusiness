@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync - IP PBXs"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

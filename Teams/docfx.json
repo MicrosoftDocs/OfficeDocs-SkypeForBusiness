@@ -27,7 +27,8 @@
           "**/*.vsdx",
           "**/*.zip",
           "**/*.pptx",
-          "**/*.psd"
+          "**/*.psd",
+          "**/*.csv"
         ],
         "exclude": [
           "**/obj/**",
@@ -43,11 +44,19 @@
       ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "ms.suite": "office",
       "titleSuffix": "Microsoft Teams",
       "contributors_to_exclude": [
         "daswifty",
-        "MikePlumleyMSFT"
+        "MikePlumleyMSFT",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",

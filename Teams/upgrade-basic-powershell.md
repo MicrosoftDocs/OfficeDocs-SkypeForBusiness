@@ -1,12 +1,12 @@
 ---
 title: Basic Upgrade PowerShell| Microsoft Teams| Grant Upgrade Interop Policy
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn about a stopgap for upgrading to Microsoft Teams if the Admin Center hasn't lit up in your tenant. 
 localization_priority: Normal
 search.appverid: MET150

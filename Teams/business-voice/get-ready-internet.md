@@ -55,7 +55,7 @@ Before you start, you need the following information:
 
 Follow these steps:
 
-1. In a browser, go to https://admin.teams.microsoft.com. Sign in by using an account that has Global Administrator permissions. The account that you used to sign up for Office 365 has these permissions.
+1. In a browser, go to https://admin.teams.microsoft.com. Sign in by using an account that has Global Administrator permissions. The account that you used to sign up for Microsoft 365 or Office 365 has these permissions.
 2. Open **Planning** and select **Network planner**.
 3. Under **Network plans**, select **Add**. Enter a name for your plan, and then select **Apply**. Your network plan should look like this:
 
@@ -72,7 +72,7 @@ Follow these steps:
 
 ### Find your minimum Internet connection speed
 
-When you select **Generate report**, Office 365 creates a report that looks like this:
+When you select **Generate report**, Microsoft 365 or Office 365 creates a report that looks like this:
 
 ![Network planner report detail](../media/network-planner-report.png)
 

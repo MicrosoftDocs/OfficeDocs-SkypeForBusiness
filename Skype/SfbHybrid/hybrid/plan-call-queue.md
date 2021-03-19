@@ -38,15 +38,11 @@ In addition to the requirements above, the below requirements must be configured
 
 - Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Cloud call queues for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration.
 
-   For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
+   For more information, see [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
 - If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
 - Create an on-premises [resource account](configure-onprem-ra.md) for each call queue, and assign a license and phone number if required.  
-
-## Additional planning resources
-
-The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Online Admin center. review the tutorial and use the exercises there t create your plan.
 
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to  [Configure resource accounts](configure-onprem-ra.md).
 
@@ -60,8 +56,8 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md)
+[Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md)
 
-[Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md)
+[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md)
 
 [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)

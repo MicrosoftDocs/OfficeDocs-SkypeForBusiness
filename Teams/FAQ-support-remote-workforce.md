@@ -1,7 +1,7 @@
 ---
 title: FAQ - Support your remote workforce
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -29,7 +29,7 @@ Check out [Support your remote workers with Teams](support-remote-work-with-team
 Microsoft has been significantly expanding capacity in key regions with the recent announcements regarding the COVID-19 (coronavirus) outbreak. We are monitoring the situation and our services very closely to ensure that our services are available for our customers. One of the benefits of a cloud service is the ability to scale dynamically, including utilization of our significant supply chain, reallocation of resources between services, and redistribution of load. We have seen an increase in the utilization of Microsoft Teams which we have responded to and continue to monitor closely. We are also working to stay ahead of Calling Plans demand, and working to procure enough telephone numbers as needed.
 
 > [!NOTE]
-> If you're already set up with M365, and want to know more about the actions Microsoft is taking, please go to the Message Center and review the **MC205458** message center post.
+> If you're already set up with Microsoft 365, and want to know more about the actions Microsoft is taking, please go to the Message Center and review the **MC205458** message center post.
 
 Don't miss our March 5, 2020 blog post from Jared Spataro, Corporate Vice President for Microsoft 365: [Our commitment to customers during COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
 
@@ -72,10 +72,7 @@ Teams is available for free through a couple of different programs:
 
 **IT professionals**
 
-- If you work for a business and want to get employees set up on Teams, you can sign up for the six-month [Office 365 E1 Trial](e1-trial-license.md) offer through your Microsoft partner or sales representative.
-
-> [!NOTE]
-> The same free Teams offer is available in the [US Government Cloud](g1-trial-license.md), with the exceptions of GCC High and the Department of Defense.
+- If you work for a business and want to get employees set up on Teams, you can sign up for [Teams Exploratory](teams-exploratory.md).
 
 - If you work in Education and want to set up teachers, students, and administrators on Teams, use Office 365 A1, the free version of Office 365 available to educational institutions. Sign up at [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
@@ -97,24 +94,30 @@ Read [Support remote workers using Teams](support-remote-work-with-teams.md). It
 
 ### I just got started with Microsoft 365 so I can use Teams to support my remote workers or students. I've signed up for the service, but when a user tries to use Teams, they get this error: "You're missing out! Ask your admin to enable Microsoft Teams." What should I do?
 
-After you activate one of the free Teams offers, you'll still need to turn it on for your users. Read [Manage user access to Teams](user-access.md) and  [Add users individual or in bulk to Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+After you activate one of the free Teams offers, you'll still need to turn it on for your users. Read [Manage user access to Teams](user-access.md) and  [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 If you're licensing or enabling a user for the first time but you've had Microsoft 365 for a while, you might need to [Turn on Teams](Office-365-set-up.md) for your organization. Check [I have Microsoft 365 already, but I don't use Teams. Are you providing trial licenses?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) in this article.
 
+### In meetings, attendees are having trouble joining by dialing in - calls aren't getting through.
+
+During periods of high meeting volume (which we've been experiencing in conjunction with the COVID-19 outbreak), we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network. 
+
 ### Can I use Calling Plans with the Office 365 E1 Trial that Microsoft is offering? Can I assign a telephone number to my users? How much am I going to pay?
 
-Users can make app-to-app audio and video calls in any version of Teams. To assign a number to an employee, you'll need [Phone System in Office 365](what-is-phone-system-in-office-365.md). We recommend working with your Microsoft partner or sales representative to obtain and deploy this. Learn more at [Voice and video calling with Teams](https://products.office.com/microsoft-teams/voice-calling).
+Users can make app-to-app audio and video calls in any version of Teams. To assign a number to an employee, you'll need [Phone System](what-is-phone-system-in-office-365.md). We recommend working with your Microsoft partner or sales representative to obtain and deploy this. Learn more at [Voice and video calling with Teams](https://products.office.com/microsoft-teams/voice-calling).
 
 ### Can I set up an Auto Attendant with the new Teams E1 Trial so I can have an emergency line internally at my company to deal with COVID-19 (coronavirus)?
 
-To set up a [Cloud Auto Attendant](what-are-phone-system-auto-attendants.md) in Teams, you'll need [Phone System in Office 365](what-is-phone-system-in-office-365.md) in addition to Teams. We recommend working with your Microsoft partner or sales representative to obtain and deploy this.
+To set up a [Cloud Auto Attendant](what-are-phone-system-auto-attendants.md) in Teams, you'll need [Phone System](what-is-phone-system-in-office-365.md) in addition to Teams. We recommend working with your Microsoft partner or sales representative to obtain and deploy this.
 
 ### Where can I find more information to help remote workers?
 
-End users: [Collaborate with Office 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - how to work better together across all Office 365 workloads
+End users: [Collaborate with Microsoft 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - how to work better together across all Microsoft 365 workloads
 
 IT admins/ITPro: [Support remote workers using Teams](support-remote-work-with-teams.md).
 
 ### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
 
-Read our March 5, 2020 blog from Brad Smith, Microsoft President: [As we work to protect public health, we also need to protect the income of hourly workers who support our campus](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+Read our March 5, 2020 blog from Brad Smith, Microsoft President: [As we work to protect public health, we also need to protect the income of hourly workers who support our campus](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/).
+
+Also be sure to visit [Responding to COVID-19 together](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom) on Microsoft.com.

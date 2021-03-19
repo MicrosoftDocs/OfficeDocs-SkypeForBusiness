@@ -22,4 +22,11 @@ ms.custom:
 
 # Set up policies in your organization
 
+Policies help determine the features of Skype for Business Online that are made available to users. See the following articles for complete details.
 
+- [Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+- [Create custom external access policies](create-custom-external-access-policies.md)
+- [Retaining large files attached to a meeting](retaining-large-files-attached-to-a-meeting.md)
+- [Set up conferencing policies for your organization](set-up-conferencing-policies-for-your-organization.md)
+- [Set up mobile policies for your organization](set-up-mobile-policies-for-your-organization.md)
+- [Set up client policies for your organization](set-up-client-policies-for-your-organization.md)

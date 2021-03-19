@@ -25,7 +25,7 @@ ms.custom: seo-marvel-mar2020
 
 This article gives an overview of the requirements for properly evaluating your current environment for using cloud voice services. By evaluating your environment, you identify risks and requirements that will influence your overall cloud voice deployment. By identifying these items beforehand, you can adjust your planning to drive success.
 
-## Introduction to evaluating your environment 
+## Introduction to evaluating your environment
 
 To achieve your objective key results (OKRs), you previously made key service
 decisions. The next step is to perform environmental discovery to evaluate all
@@ -57,13 +57,14 @@ prepare the necessary information for number porting. You can use the [Environme
 to perform environmental discovery.
 
 <table>
+<tr><td>Title</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## Adoption and change management assessment capabilities 
+## Adoption and change management assessment capabilities
 
 Deployment puts a new technology at a user's fingertips, but business results are only realized after users truly adopt that solution as their own. To help ensure sustained adoption of a new solution, you'll need to focus your efforts on user readiness and change management. For optimal results, conduct user readiness planning as a parallel workstream to your technical readiness activities and incorporate the following activities:
 
@@ -74,6 +75,7 @@ Deployment puts a new technology at a user's fingertips, but business results ar
 Use the following considerations to assess your organization's preparedness to address user change management.
 
 <table>
+<tr><td>Title</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>If you answered &quot;yes&quot; to all of the above, identify the right user change management stakeholders and begin your user readiness planning.</li><li>If you answered &quot;no&quot; to some or all of the above, consider engaging outside resources to assist with driving change management and adoption-related activities for your organization.</li></ol></td></tr>
 </table>
@@ -151,7 +153,7 @@ local egress point, it's paired with local DNS resolution.
 
 Optimizing the network path to Microsoft's global network will improve
 performance and ultimately provide the best experience for users. For more
-detail, see the blog post [Getting the best connectivity and performance in
+detail, see the blog post [Getting the best connectivity and performance in 
 Office
 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
@@ -167,8 +169,8 @@ accommodate the anticipated loads that Teams will require.
 
 The recommendation is to provide an alternate path that bypasses the VPN for
 Teams traffic. This is commonly known as *split-tunnel VPN*. Split tunneling
-means that traffic for Office 365 won't traverse the VPN but will go directly to
-Office 365. This change will have a positive impact on quality, but also
+means that traffic for Microsoft 365 or Office 365 won't traverse the VPN but will go directly to
+Microsoft 365 or Office 365. This change will have a positive impact on quality, but also
 provides the secondary benefit of reducing load from the VPN devices and the
 organization's network.
 
@@ -224,7 +226,7 @@ ports is unsupported and will have an effect on media quality.
 If your organization requires that you specify the exact IP address ranges and
 domains to which these ports should be opened, you can restrict the target IP
 ranges and domains for these ports. For a list of exact ports, protocols, and IP
-ranges, see [Office 365 URLs and IP address
+ranges, see [Microsoft 365 or Office 365 URLs and IP address
 ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 If you choose to restrict the target IP address ranges and domains, you must
 ensure that you keep the list of ports and ranges up to date because they might
@@ -240,7 +242,7 @@ In the event of a proxy server being deployed, we recommend that you bypass the
 proxy server for all Teams services. Although using a proxy might work, it's
 very likely that quality will be reduced due to media being forced to use TCP
 instead of UDP. For more information about proxy servers and bypassing, see
-[Office 365 URLs and IP address
+[Microsoft 365 or Office 365 URLs and IP address
 ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
@@ -338,7 +340,7 @@ If the results of bandwidth planning, port testing, or network requirements
 testing show that your current network needs remediation before you deploy
 Teams, you can accomplish this in several ways:
 
--   For insufficient bandwidth, upgrade connections so that traffic to Office
+-   For insufficient bandwidth, upgrade connections so that traffic to Microsoft 365 or Office
     365 can flow unhindered.
 
 -   For blocked ports, change firewall rules and retest the ports.
@@ -359,6 +361,7 @@ maintain these areas as part of your service management planning.
 
 
 <table>
+<tr><td>Title</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment.</li><li>Perform network remediation based on the results of the assessment for every network segment.</li></ol></td></tr>
 </table>

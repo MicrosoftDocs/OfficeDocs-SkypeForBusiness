@@ -1,11 +1,11 @@
 ---
-title: About the upgrade framework
-author: lanachin
-ms.author: v-lanac
+title: About the upgrade framework - Skype for Business to Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams.
 localization_priority: Normal
@@ -57,7 +57,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 | **3** | **Define your project goals** | Set targeted goals that enable you to measure progress as well as project success. | [Project goals](upgrade-define-project-scope.md#project-goals) |
 | **4** | **Identify risks and mitigation plans** | Establish a mitigation plan to ensure you can quickly get your project back on track should issues arise. | [Risks and mitigation](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5** | **Define your timeline** | Set a timeline and key milestones to help your project stay on time and on budget. | [Timeline](upgrade-define-project-scope.md#timeline) <br><br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **Define the appropriate Skype for Business and Teams upgrade and coexistence strategy** | Map your journey to ensure the best path from Skype for Business to Teams for your organization. | [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **Define the appropriate Skype for Business and Teams upgrade and coexistence strategy** | Map your journey to ensure the best path from Skype for Business to Teams for your organization. | [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br>[Understand Phone System and PSTN connectivity options](cloud-voice-landing-page.md)<br><br>  [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### Prepare: Evaluate your organization's readiness for Teams
@@ -87,7 +87,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 | Step |  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Announce the official launch of Teams** | Generate excitement and momentum by sending an official launch announcement when Teams is ready. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **Enable the appropriate coexistence mode for your users** | Follow steps to set the right coexistence mode(s) for your organization. | [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md) |
+| **2** | **Implement your upgrade** | The steps you take depend on your current deployment of Skype for Business. | [Implement your upgrade](upgrade-to-teams.md) |
 | **3** | **Stay informed about the Teams roadmap** | Monitor the Teams roadmap to identify the right time for your organization to move to Teams. | [Teams roadmap](https://aka.ms/teamsroadmap) |
 | **4** | **Send additional communications and engage Teams champions to drive excitement and adoption of Teams** | Encourage user adoption and maintain excitement for Teams with ongoing communications and champions. | [Microsoft 365 Champions Program](https://aka.ms/O365Champions) |
 
@@ -101,7 +101,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 |------|--|---------|----------|
 | **1** | **Confirm that you've completed the pre-upgrade activities described above** | Help ensure upgrade success by confirming completion of all planning and preparation activities. | All the above |
 | **2** | **Initiate communications to users in your first upgrade group** | Notify users that upgrades are starting, and keep them informed throughout the process. | [Prepare a user readiness plan](upgrade-user-readiness.md) <br><br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **Enable the coexistence mode to Teams Only for users in your first upgrade group** | Follow steps appropriate to your Skype for Business environment to perform the technical user migration. | [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Upgrade from Skype for Business hybrid or on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **3** | **Enable the coexistence mode to Teams Only for users in your first upgrade group** | Follow steps appropriate to your Skype for Business environment to perform the technical user migration. | [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4** | **Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle** | Continue to drive your ongoing communications plan and upgrade user groups based on your plan. | |
 | **5** | **Send post-upgrade feedback surveys to all users** | Use a feedback survey to capture feedback and insights from users. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 

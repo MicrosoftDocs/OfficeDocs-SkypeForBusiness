@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6265A8;}
+	.st1{fill:#2F2F2F;}
+</style>
+<symbol  id="Stats2" viewBox="-14 -14 28 28">
+	<g id="Artwork_331_3_">
+		<path class="st0" d="M-14-14h28V0.4L5.9,4.9l-6.1-2L-8,8.8L-14,5V1.1l8.1-4l6.2,2.1L8-8.6V-4h2v-8H2v2h4.6l-6.9,6.9l-5.8-1.9
+			l-7.9,4V-14z"/>
+	</g>
+	<polygon class="st1" points="14,2.7 14,14 -14,14 -14,7.3 -7.9,11.2 0.2,5.1 6.1,7.1 	"/>
+</symbol>
+<title>trend_graph</title>
+<g id="Layer_2_1_">
+	<g id="SYMBOLS">
+		
+			<use xlink:href="#Stats2"  width="28" height="28" id="trend_graph" x="-14" y="-14" transform="matrix(2.2143 0 0 2.2143 32 32)" style="overflow:visible;"/>
+	</g>
+</g>
+</svg>

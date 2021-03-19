@@ -1,11 +1,11 @@
 ---
-title: Prepare upgrade Skype for Business to Teams
-author: lanachin
-ms.author: v-lanac
+title: Prepare your organization for an upgrade from Skype for Business to Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Assess your organization's readiness to accept change, and prepare a plan for getting users ready to upgrade from Skype for Business to Microsoft Teams.
 localization_priority: Normal

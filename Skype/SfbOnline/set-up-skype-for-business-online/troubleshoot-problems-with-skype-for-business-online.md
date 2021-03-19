@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: "Learn how to fix issues for admins and users of Skype for Business in Office 365."
+description: "Learn how to fix issues for admins and users of Skype for Business in Microsoft 365 and Office 365."
 ---
 
 # Troubleshoot problems with Skype for Business Online
@@ -70,9 +70,9 @@ Most of the problems faced by Skype for Business Online users are related to for
 ## Still need help? Contact support.
 <a name="BK_SupportBridge_1"> </a>
 
-As an admin for Office 365 for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also [contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322) on behalf of Microsoft 365 and Office 365 users in your organization.
+As an admin for Microsoft 365 Apps for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also [contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322) on behalf of Microsoft 365 and Office 365 users in your organization.
 
-- [Get help from the Office 365 community forums](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Get help from the Microsoft 365 and Office 365 community forums](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Admins: Call Support](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
@@ -83,5 +83,3 @@ As an admin for Office 365 for business, you get free access to our knowledgeabl
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
-
-

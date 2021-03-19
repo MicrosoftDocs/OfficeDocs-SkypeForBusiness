@@ -1,106 +1,40 @@
 ---
-title: "Microsoft Teams Rooms"
+title: Microsoft Teams Rooms
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
-layout: LandingPage
 audience: ITPro
-ms.topic: landing-page
+ms.topic: article
+feedback_system: None
 ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.collection:
+-  m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: "The relevant planning considerations for deploying Microsoft Teams Rooms, and how to deploy and manage the system."
+description: Learn how to set up Microsoft Teams Rooms, including planning, deploying, and managing the system to create your ideal virtual meeting room.
+ms.custom: seo-marvel-may2020
 ---
+# Microsoft Teams Rooms
 
-<h1>Microsoft Teams Rooms</h1>
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p>Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that&#39;s simple to use, deploy, and manage. </p>
-                        <p>Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants. </p>
-                        <p>Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.</p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/srs-room.jpg" alt="A conference table with Microsoft Teams Rooms equipment" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="An icon that represents planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Plan</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="An icon that represents deployment" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Deploy</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="An icon that represents management" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Manage</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+:::row:::
+    :::column span="2":::
+       Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage. <br> 
+       Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.<br> 
+       Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.
+    :::column-end:::
+    :::column:::
+       ![A conference table with Microsoft Teams Rooms equipment](../media/srs-room.jpg)
+    :::column-end:::
+:::row-end:::
+
+|               |               |               |
+| ------------- | ------------- | ------------- |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+
+<br>
 
 
 [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)

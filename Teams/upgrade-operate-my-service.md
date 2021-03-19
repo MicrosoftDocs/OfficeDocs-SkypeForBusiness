@@ -1,12 +1,12 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
 localization_priority: Normal
 search.appverid: MET150
@@ -35,7 +35,7 @@ required as part of the service management function for Microsoft Teams.
 
 Service management is a broad topic that covers day-to-day operations of the
 Microsoft Teams service after it has been deployed and enabled for users. The
-Teams service encompasses Microsoft Office 365 and the infrastructure components
+Teams service encompasses Microsoft 365 or Office 365 and the infrastructure components
 that are deployed on-premises (for example, networking).
 
 The notion of service management is most likely not a new concept for most
@@ -46,7 +46,7 @@ the future.
 
 Service management encompasses all the activities and processes involved in
 managing Teams end to end. As noted earlier, some components of service
-management—the infrastructure that the Office 365 service itself comprises—are
+management—the infrastructure that the Microsoft 365 or Office 365 service itself comprises—are
 Microsoft's responsibility, whereas you, the customer, are accountable to your
 users to manage the various aspects of Teams, the network, and endpoints you
 provide.
@@ -59,7 +59,9 @@ upon in the following sections.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization's goals to deliver the quality and reliability of Teams workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your Teams deployment is operating at its peak capabilities.</li></ul></td></tr>
+
 </table>
 
 ### Operational role mapping
@@ -101,7 +103,7 @@ operationalize their roles.
 
 ### Teams service dependencies
 
-Microsoft Teams brings together technologies across Office 365 to provide a hub
+Microsoft Teams brings together technologies across Microsoft 365 and Office 365 to provide a hub
 for teamwork. Examples include:
 
 - Azure Active Directory (Azure AD) provides authentication and authorization services for Teams.
@@ -147,7 +149,7 @@ activity and to assist in readiness initiatives.
 It's important that you understand the overall health of the Microsoft Teams
 service so that you can proactively alert others in your organization of any
 event that affects the service. As described earlier, Teams is dependent on
-other Office 365 services such as Azure Active Directory, Exchange Online,
+other Microsoft 365 and Office 365 services such as Azure Active Directory, Exchange Online,
 SharePoint Online, and OneDrive for Business. Because of this, it's equally
 important that you monitor the health of the dependent services.
 
@@ -162,9 +164,9 @@ tool, and when you should use each one, is included in the following table.
 | Monitoring Tool | Benefits | When to use |
 |---|---|---|
 | Microsoft 365 admin center | Available from any device with a supported browser. | Use when you don't need real-time notifications. |
-| Office 365 Admin app | Provides push notifications to your mobile device. | Use when you need to be notified of service incidents while you're on the go. |
+| Microsoft 365 Admin app | Provides push notifications to your mobile device. | Use when you need to be notified of service incidents while you're on the go. |
 | Microsoft System Center | Integration with Microsoft System Center. | Use when you need advanced monitoring capabilities and notification support. |
-| Office 365 Service Communications API | Programmatic access to Office 365 service health. | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
+| Microsoft 365 Service Communications API | Programmatic access to Microsoft 365 or Office 365 service health. | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
 
 > [!NOTE]
 > Only individuals who are assigned the **global admin** or **service
@@ -179,7 +181,7 @@ services.
 
 ### Monitoring with the mobile app
 
-The Office 365 Admin app is available on Apple iOS, Android, and Windows (PC and
+The Microsoft 365 Admin app is available on Apple iOS, Android, and Windows (PC and
 mobile). The app provides service administrators information about service
 health and upcoming changes. The app supports push notifications that can alert
 you almost immediately after an advisory has been posted. This helps you stay
@@ -187,20 +189,19 @@ current on the status, health, and any upcoming changes to the service. The
 notification support makes it the recommended monitoring tool for
 administrators. For more information, see:
 
-[Office 365 Admin Mobile App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Microsoft 365 Admin Mobile App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[Download the Office 365 Admin Mobile App](https://products.office.com/business/manage-office-365-admin-app)
+[Download the Microsoft 365 Admin Mobile App](https://products.office.com/business/manage-office-365-admin-app)
 
 ### Monitoring with Microsoft System Center
 
 Microsoft System Center is an integrated management platform that helps you
-manage datacenter, client devices, and hybrid cloud IT environments. Office 365
-administrators who use System Center now have the option to import the Office
-365 Management Pack, which enables them to view all service communications
+manage datacenter, client devices, and hybrid cloud IT environments. Microsoft 365 or Office 365
+administrators who use System Center now have the option to import the Management Pack, which enables them to view all service communications
 within Operations Manager in System Center. Using this tool gives you access to
 the status of your subscribed services, active and resolved service incidents,
 and your Message Center communications (upcoming changes). For more information,
-refer to the following [blog post](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
+refer to the following [blog post](https://www.microsoft.com/en-us/microsoft-365/blog/2014/07/29/new-office-365-admin-tools/).
 
 If you leverage System Center to monitor Teams service health (and dependent
 services), you can further customize the management pack to alert or notify
@@ -210,11 +211,10 @@ support groups, and incident managers in your organization.
 
 ### Monitoring for advanced scenarios
 
-You can monitor service health and upcoming changes by leveraging the Office 365
-Service Communications API to access Office 365 service health and changes
+You can monitor service health and upcoming changes by leveraging the Service Communications API to access service health and changes
 programmatically. Use this API to create your own monitoring tool, or connect
-your existing monitoring tools to Office 365 service communications, potentially
-simplifying how you monitor your environment. For more information, see [Office 365 for Enterprise developers](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+your existing monitoring tools to Microsoft 365 or Office 365 service communications, potentially
+simplifying how you monitor your environment. For more information, see [Microsoft 365 or Office 365 for Enterprise developers](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -225,7 +225,7 @@ simplifying how you monitor your environment. For more information, see [Office 
 
 ### References
 
-[How to check Office 365 service health](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+[How to check Microsoft 365 or Office 365 service health](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
 [Verify service health for Microsoft Teams](service-health.md)
 
@@ -332,7 +332,7 @@ After the initial pilot begins, it's critical to establish a regular cadence for
 measuring actual Teams usage. This enables your organization to gain insights
 into how actual usage aligns with the usage you predicted during the Envision
 phase. Although this section focuses on Teams usage, this should be part of a
-broader effort to measure and assess Office 365 usage overall.
+broader effort to measure and assess Microsoft 365 or Office 365 usage overall.
 
 Reviewing usage frequently early in the deployment gives you the opportunity to:
 
@@ -350,8 +350,7 @@ If usage isn't what you expect, this could be due to a deployment issue, or the 
 Usage data from Teams is available in the Reporting dashboard. Teams usage data
 can be found in three different reports. The first report provides a
 cross-product view of how users communicate and collaborate by using the various
-services in Office 365. This report can be found here: [Office 365 active users
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+services in Microsoft 365 or Office 365. This report can be found here: [Microsoft 365 Reports in the admin center - Active Users](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
 The other two reports are Teams-specific, and they provide further detail about
 Teams usage from a user and device perspective. Both reports can be found here:
@@ -373,7 +372,7 @@ In addition, the **Reports reader** role is available for users who require
 access to the reports, but don't perform any tasks that require
 administrator-level permissions. You assign this role to provide usage reports
 to anyone who is a stakeholder, to monitor and drive adoption. For more
-information about the different roles available, see [About Office 365 admin
+information about the different roles available, see [About Microsoft 365 admin
 roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### Assessing usage
@@ -437,12 +436,12 @@ to determine the interval in which your organization will seek out feedback:
 
 User sentiment can be assessed through many different methods. These can include email surveys, in-person or telephone-style interviews, or simply creating a feedback channel in Teams or Yammer. For more information, see [Best practices for user feedback methods in Microsoft Teams](best-practices-feedback.md).
 
-You can also use an industrywide approach to assess user sentiment called net
+You can also use an industry-wide approach to assess user sentiment called net
 promotor score (NPS), which is described in the following section.
 
 ### NPS
 
-Net promoter score (NPS) is an industrywide customer loyalty metric and a good
+Net promoter score (NPS) is an industry-wide customer loyalty metric and a good
 approach to use to assess user sentiment. NPS can be calculated by asking two questions:
 "How likely are you to recommend Teams to a colleague?", followed by the freeform question, "Why?"
 
@@ -509,8 +508,8 @@ be performed at regular intervals.
 
 | Activity | Description | Cadence | Team assigned |
 |---|---|---|---|
-| Monitor Office 365 IPs and URLs | Monitor any changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) by using the provided [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) and initiate a change request to applicable networking groups. | Daily | |
-| Update the network based on changes to Office 365 IPs and URLs | Make updates to the applicable network components (firewalls, proxy servers, VPNs, client-side firewalls, and so on) to reflect changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). | As needed | |
+| Monitor Microsoft 365 or Office 365 IPs and URLs | Monitor any changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) by using the provided [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) and initiate a change request to applicable networking groups. | Daily | |
+| Update the network based on changes to Microsoft 365 or Office 365 IPs and URLs | Make updates to the applicable network components (firewalls, proxy servers, VPNs, client-side firewalls, and so on) to reflect changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). | As needed | |
 | Provide building data | Provide updated subnet information to the quality champion (or relevant stakeholders) to ensure that the [building definitions in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) are kept up to date. | As needed | |
 | Implement change | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul> | As needed | |
 | Network monitoring and reporting | Monitor the network end to end for availability, utilization, and capacity trends by using your existing third-party network management tools and reporting capabilities available from your network providers. Use trending data for network capacity planning. | Daily, weekly, monthly | |
@@ -538,12 +537,12 @@ the organization's size and complexity, this could be any person or group with a
 passion for ensuring a high-quality user experience.
 
 The quality champion leverages existing tools and documented processes, such as
-Call Quality Dashboard (CQD) and the Quality of Experience Review Guide, to monitor
+Call Quality Dashboard (CQD) and [Improve and monitor call quality for Teams](monitor-call-quality-qos.md), to monitor
 user experience, identify quality trends, and drive remediation where needed.
 The quality champion should work with the respective teams to drive remediation
 actions and report to a steering committee about progress and any open issues.
 
-The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes activities
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md) includes activities
 that assess and provide remediation guidance in key areas that have the greatest
 impact on improving user experience. The guidance provided in the Quality
 Experience Review Guide focuses on using CQD Online as the primary tool to
@@ -553,7 +552,7 @@ will also directly translate to improvements in video and desktop sharing.
 
 We strongly recommend that you nominate the quality champion early on. After
 being nominated, they should start to familiarize themselves with the content in
-the Quality of Experience Review Guide and associated training materials.
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md) and associated training materials.
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -569,7 +568,7 @@ the Quality of Experience Review Guide and associated training materials.
 
 [Upload Building information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Quality of Experience Review Guide](https://aka.ms/qerguide)
+[Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -610,7 +609,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality of Experience Review (see [Quality of Experience Review Guide](https://aka.ms/qerguide) for more detail). It's essential to
+driver might be discovered through a Quality of Experience Review (see [Improve and monitor call quality for Teams](monitor-call-quality-qos.md) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they're tested before being deployed to the general user population.
 
@@ -636,15 +635,15 @@ troubleshooting guide. The steps are provided in a specific order, but they
 don't have to be followed explicitly and might not be applicable, depending on
 the nature of the issue.
 
-1. **Validate service health:** The issue a user might be experiencing can be related to an event that negatively affects the Teams service or itsdependent services. As a first step, we recommend that you confirm there are no active service issues. Consult [How to check Office 365 service health](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Remember to check for the status of dependent services (for example, Exchange, SharePoint, OneDrive for Business). Monitoring for service health is discussed in more detail in the previous section, [Monitor service health](#monitor-service-health).
+1. **Validate service health:** The issue a user might be experiencing can be related to an event that negatively affects the Teams service or its dependent services. As a first step, we recommend that you confirm there are no active service issues. Consult [How to check Microsoft 365 service health](https://docs.microsoft.com/office365/enterprise/view-service-health). Remember to check for the status of dependent services (for example, Exchange, SharePoint, OneDrive for Business). Monitoring for service health is discussed in more detail in the previous section, [Monitor service health](#monitor-service-health).
 
 2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](prepare-network.md) guidance.
 
-3. **Check the known issues list:** Consult the [list of known issues for Teams](known-issues.md) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
+3. **Check the known issues list:** Consult [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 
 4. **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) offers dedicated spaces for Teams. The Teams community provides a discussion list, blog posts, and announcements centered around Teams. You can post a question or search previous discussions for solutions to your issue.
 
-5. **Contact Microsoft Support:** You can contact Microsoft Support for issues with Teams online or by phone. For information, see [Contact support for business products](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). For Premier customers, support requests can be initiated by following the guidance at [Contact support for Microsoft Teams (Premier customers)](https://support.microsoft.com/premier/contacts).
+5. **Contact Microsoft Support:** You can contact Microsoft Support for issues with Teams online or by phone. For information, see [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). For Premier customers, support requests can be initiated by following the guidance at [Contact support for Microsoft Teams (Premier customers)](https://support.microsoft.com/premier/contacts).
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -652,7 +651,7 @@ the nature of the issue.
 |---|---|---|---|
 | Endpoint requirements | Ensure that the Teams endpoint continues to meet all the software requirements for Teams listed in [Get clients for Microsoft Teams](get-clients.md). | Monthly | |
 | Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/o365ip/rss) to be notified automatically of changes. | As needed | |
-| Wi-Fi drivers | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)). | As needed | |
+| Wi-Fi drivers | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Improve and monitor call quality for Teams](monitor-call-quality-qos.md)). | As needed | |
 | Endpoint management | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies. | Monthly | |
 | Endpoint troubleshooting | Troubleshooting tasks can include verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors. | As needed | |
 
@@ -664,7 +663,7 @@ the nature of the issue.
 
 [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Known issues for Microsoft Teams](known-issues.md)
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Verify service health for Microsoft Teams](service-health.md)
 

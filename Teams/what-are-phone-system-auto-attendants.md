@@ -1,7 +1,7 @@
 ---
 title: "What are Cloud auto attendants?"
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019
@@ -23,16 +23,17 @@ ms.custom:
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
   - seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 description: Learn about Cloud auto attendants and how to use them to let callers move through a menu system to locate and place or transfer calls to users or departments.
 ---
 
 # What are Cloud auto attendants?
 
-Phone System in Office 365 provides auto attendants, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization.
+Phone System provides auto attendants, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization.
   
 An auto attendant is most often a node in a system, giving a caller a series of voice prompts or audio files they hear instead of a human operator. When people call a number associated with an auto attendant, their choices can redirect the call to a user or locate someone in your organization and then connect to that user. They can express their choices and interact with the menu system by using a phone keypad (DTMF) or speech recognition. The choices they make can also redirect the call to another auto attendant, or to a call queue.
   
-To set up an auto attendant for the Phone System in Office 365, go to [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
+To set up an auto attendant for Phone System, go to [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
   
 A Cloud auto attendant has the following features:
   
@@ -59,15 +60,16 @@ To get started using auto attendants, it's important to remember that:
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
 
    > [!TIP]
-   > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable their account for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable their account for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - To get and use toll-free service numbers for your auto attendants, you need to set up Communications Credits. To do this, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
     > [!IMPORTANT]
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used.
 
-- A complete auto attendant system will usually involve multiple auto attendants and may only require a single assigned phone number for the top-level or entry auto attendant. Other auto attendants or call queues in the complete system will only need a phone number if you want to provide multiple points of entry into the system.
-- It is possible to apply more than one phone number to an auto attendant by associating more than one resource account to an auto attendant.
+- A complete auto attendant system will usually involve multiple auto attendants.
+- It's possible to apply more than one phone number to entry-level auto attendants.
+- Non-entry level auto-attendants or call queues in the complete system will only need a phone number if they will be making outbound PSTN calls.
   
 ## Feature overview
 
@@ -90,6 +92,7 @@ There is no limit on the number of Active Directory users  Dial by Name and Dial
 > If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using Dial Scope feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
   
 ### Dial by Name - Keypad (DTMF) entry
+
 People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. There are various formats that can be used when the name is entered.
 
 When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
@@ -103,7 +106,7 @@ People can search for names in your organization using the following search form
 |FirstName  |Full   |Amos#   |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 |LastName |Full |Marble#  |Press 1 for Amos Marble  <br/> Press 2 for Mary Marble |
 |FirstName or LastName |Partial |Mar# |Press 1 for Mary Marble  <br/> Press 2 for Mary Jones  <br/> Press 3 for Amos Marcus |
-|FirsName + LastName |Partial |Mar0Amos# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
+|FirsName + LastName |Partial |Amos0Mar# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 |LastName + FirstName |Partial |Mar0Am# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 
 There are several special characters that are used when searching for people using a phone keypad. For example, the person will be asked to use the pound key (#), while the zero (0) key is used for a space between names. Pressing the star key (*) will repeat the list of matching names to the person.
@@ -138,7 +141,7 @@ Callers can say names in the following formats:
 
 The following languages are available for text-to-speech used with outgoing prompts:
   
-||||
+|A-E|E-J|K-Z|
 |:-----|:-----|:-----|
 |Arabic (EG)  |English (NZ)  |Korean (KO)  |
 |Chinese (HK)  |English (UK) |Norwegian (NO)  |
@@ -152,7 +155,7 @@ The following languages are available for text-to-speech used with outgoing prom
 
 Speech recognition input for auto attendants is available in the following languages:
   
-|||
+|A-F|F-Z|
 |:-----|:-----|
 |Chinese (ZH)  |French (FR)  |
 |English (AU)  |German (DE)  |
@@ -236,10 +239,8 @@ To assign a service number, you will need to get or port your existing toll or t
   
 ## Related topics
 
-[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa)

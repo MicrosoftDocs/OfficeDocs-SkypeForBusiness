@@ -53,7 +53,7 @@ Microsoft will not disclose personal data except:
 1. as described in the Online Service Terms (such as the use of authorized subcontractors to provide certain components of services);
 1. as required by law.
 
-If law enforcement contacts Microsoft with a demand, Microsoft will attempt to redirect the law enforcement agency to request that personal data directly from the customer. If compelled to disclose personal data to law enforcement, Microsoft will promptly notify the customer and provide a copy of the demand unless legally prohibited from doing so. For more information about data that we disclose in response to requests from law enforcement and other government agencies, please see our [Law Enforcement Requests Report](https://www.microsoft.com/about/corporate-responsibility/lerr/).
+If law enforcement contacts Microsoft with a demand, Microsoft will attempt to redirect the law enforcement agency to request that personal data directly from the customer. If compelled to disclose personal data to law enforcement, Microsoft will promptly notify the customer and provide a copy of the demand unless legally prohibited from doing so. For more information about data that we disclose in response to requests from law enforcement and other government agencies, please see our [Law Enforcement Requests Report](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
 The [Teams Security Guide](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) has more information about our compliance standards.
 

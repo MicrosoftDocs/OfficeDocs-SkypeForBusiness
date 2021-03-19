@@ -1,7 +1,7 @@
 ---
 title: Manage your network topology for cloud voice features in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -35,11 +36,11 @@ You define network regions, network sites, and subnets on the **Network sites** 
 #### Add and configure a network site
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
-2. Click **New**, and then enter a name and description for the site.
+2. Click **Add**, and then enter a name and description for the site.
 
     ![Screenshot of the Add network site page](media/manage-network-topology-add-site.png)
 
-3. To associate the site with a network region, click **Link network region**, select an existing region or click **Add** to add a region, and then click **Link**.  
+3. To associate the site with a network region, click **Add network region**, select an existing region or click **Add** to add a region, and then click **Link**.  
 4. To enable Location-Based Routing for the site, turn on **Location based routing**.
 5. To assign emergency services policies to the site, do one or both of the following:
 
@@ -142,10 +143,10 @@ The following table shows the subnets defined in this example.
 For multiple subnets, you can import a CSV file by using a script such as the following.
 
 ```PowerShell
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
+Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-In this example, the CSV file looks something like this:
+In this example, the CSV file looks something like this: 
 
 ```console
 Identity, Mask, SiteID

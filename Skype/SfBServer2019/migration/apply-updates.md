@@ -1,8 +1,8 @@
 ---
 title: "Apply updates"
 ms.reviewer: 
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 ms.topic: quickstart
 audience: admin

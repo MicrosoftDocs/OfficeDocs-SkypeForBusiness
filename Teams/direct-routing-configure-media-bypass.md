@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Learn how to configure media bypass with Phone System Direct Routing by switching all users at once or implementing a phased approached (recommended).
+description: Learn how to configure media bypass with Phone System Direct Routing for Microsoft Teams by switching all users at once or implementing a phased approached (recommended).
 ms.custom: seo-marvel-apr2020
 ---
 

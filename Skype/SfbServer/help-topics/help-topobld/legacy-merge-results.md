@@ -1,8 +1,8 @@
 ---
 title: "Legacy Merge Results"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeResultPage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 description: "To begin merging a legacy deployment with Skype for Business Server, click Next. For details about running the Topology Builder merge wizard, see Merge Using Topology Builder Merge Wizard in the Migration documentation."

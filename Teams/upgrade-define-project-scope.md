@@ -1,12 +1,12 @@
 ---
-title: Project Scope Skype for Business to Microsoft Teams Adoption
-author: lanachin
-ms.author: v-lanac
+title: Define the project scope for your Skype for Business to Microsoft Teams upgrade
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Scope your upgrade project by refining your vision and goals to ensure all project stakeholders are aligned and working toward the same end results.
 localization_priority: Normal
 search.appverid: MET150

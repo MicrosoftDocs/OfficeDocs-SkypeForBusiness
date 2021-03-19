@@ -1,8 +1,8 @@
 ---
 title: "Associate Mediation Server With Edge"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,8 +12,6 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
-f1.keywords:
-- NOCSH
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: "To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool. To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:"

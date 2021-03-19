@@ -1,7 +1,7 @@
 ---
 title: Define outcomes and success for adopting Microsoft Teams - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -74,13 +74,13 @@ Teams is a transformative technology, so depending on the size of your organizat
 | Teams First | Teams Core | Teams Go Big | Skype Side by Side | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Lead cloud deployment with Teams | Lead collaboration scenario enablement with Teams | All employees on Teams and organization-wide teams | Enable Teams and Skype for Business | Migrate users from Skype for Business to Teams |
-| - Applicable to new or low usage Office 365 customers <br/>- Lead with Teams in customer-specific scenario <br/>- Highlight integrated user experience and accelerated time to value for Office 365 <br/>- Conduct planning workload enablement together to avoid serial implementation | - Enable Teams along with OneDrive and SharePoint Online <br/>- Create a company intranet to share news resources and video with Microsoft Stream<br/>**Better together**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- For customers with less than 5000 seats (current limitation)<br/>- Enable cross organization collaboration with one team for all<br/>- Automate common tasks (vacation requests, employee surveys, executive engagement) |- Use Teams Core tactics to accelerate collaboration<br/>- Highlight meeting scenario guidance based on size and feature set required</br>- Use Skype for Business for enterprise calling, interoperability, and hybrid scenarios<br/>- Use public roadmap for capability planning. |-    Plan move to Teams from Skype for Business by creating service strategy roadmap for the customer<br/>- Attach to feature release schedule<br/>- Recommend including Side by Side and Teams Core to ease transition
+| - Applicable to new or low usage Microsoft 365 or Office 365 customers <br/>- Lead with Teams in customer-specific scenario <br/>- Highlight integrated user experience and accelerated time to value for Microsoft 365 or Office 365 <br/>- Conduct planning workload enablement together to avoid serial implementation | - Enable Teams along with OneDrive and SharePoint Online <br/>- Create a company intranet to share news resources and video with Microsoft Stream<br/>**Better together**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- For customers with less than 5000 seats (current limitation)<br/>- Enable cross organization collaboration with one team for all<br/>- Automate common tasks (vacation requests, employee surveys, executive engagement) |- Use Teams Core tactics to accelerate collaboration<br/>- Highlight meeting scenario guidance based on size and feature set required</br>- Use Skype for Business for enterprise calling, interoperability, and hybrid scenarios<br/>- Use public roadmap for capability planning. |-    Plan move to Teams from Skype for Business by creating service strategy roadmap for the customer<br/>- Attach to feature release schedule<br/>- Recommend including Side by Side and Teams Core to ease transition
 
 The following are our recommendations for most customer organizations. However, there are exceptions. To get guidance for any scenario not covered here, ask your questions in our Driving Adoption community or reach out to the FastTrack team or Microsoft partner network.
 
 - **Choose Teams First or Teams Core**: Most organizations have an existing investment in Microsoft technology. You may be enabling more than one workload at a time, such as Exchange Online, OneDrive for Business, or SharePoint. In these cases, selecting Teams First or Teams Core is a wise choice. It will enable your users to get used to the enhanced collaboration experience of Teams. Your collaboration project team can then plan to roll out additional capabilities and the  training and support required for them to be successful. 
 
-- **Choose Teams Go Big**: In new Office 365 customer organizations it is often best to take a Teams Go Big approach to minimize the change fatigue caused by learning new technology multiple times. You'll get the greatest benefit by enabling Teams for both core collaboration and meetings, SharePoint, OneDrive, Planner, and other workloads, and allowing your employees to learn about them in the context of your Teams deployment. 
+- **Choose Teams Go Big**: In new Microsoft 365 or Office 365 customer organizations it is often best to take a Teams Go Big approach to minimize the change fatigue caused by learning new technology multiple times. You'll get the greatest benefit by enabling Teams for both core collaboration and meetings, SharePoint, OneDrive, Planner, and other workloads, and allowing your employees to learn about them in the context of your Teams deployment. 
 
     Teams Go Big is also the preferred enablement strategy for organizations under 1,000 employees who want to simplify their employee communication and engagement. Using the organization-wide team can bring people together to review common tasks and initiatives on any device. 
 
@@ -132,7 +132,7 @@ Example team level provisioning and management best practices:
 
 An essential part of driving digital transformation and usage in Microsoft Teams is working with your business units to understand what needs, opportunities, and difficulties they have. While similar to the traditional IT to business conversation, your focus should be on what is needed. Listen before moving to technical requirements. In many cases, out of the box features in Teams will meet the needs of your organization.   
 
-Best practice: Before you consider developing a custom solution, be sure that your organization is fully using the out of the box capabilities of Office 365. Custom solution development always incurs long term cost for your IT and support departments.
+Best practice: Before you consider developing a custom solution, be sure that your organization is fully using the out-of-the-box capabilities of Microsoft 365 or Office 365. Custom solution development always incurs long term cost for your IT and support departments.
  
 Take the following steps to streamline your work with business units.  Recognize that in very large, multi-national corporations this process may continue long after your first large scale deployment of Microsoft Teams:
 

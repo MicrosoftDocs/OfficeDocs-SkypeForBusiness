@@ -1,7 +1,7 @@
 ---
 title: "Set up holidays in Microsoft Teams"
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -19,20 +19,18 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Learn how to set up holidays in Microsoft Teams and connect them to your auto attendant using the Holidays feature.
+description: Learn how to set up holidays in Microsoft Teams for use with your auto attendants.
 ---
 
 # Set up holidays in Microsoft Teams
 
-You can use the Microsoft Teams Holidays feature to schedule specific dates and times when people in your organization will be taking time off from work and won't be available during regular business hours. 
+You can use the Teams Holidays feature to provide alternate messages and routing to callers for specific dates and times when departments, call queues or people in your organization will be following different working hours or won't be available. For example, you might create a holiday for New Year's day when your organization may be closed.
 
-You can link the holidays to auto attendants that you create within your organization. Auto attendants let callers navigate a menu system to get to the right department or get to information that they need. When you configure holiday call settings for an auto attendant, you can select the holiday from a list, add a greeting, and specify what to do with the call when it's answered by the auto attendant during the holiday.
-
-A good example is creating a holiday for Christmas for when many of your employees aren't at work. After you create the holiday and set times, then you would add the holiday to your main auto attendant so when people call in, they will hear an audio message you created. Something like, "We are closed for Christmas from December 22nd through December 27th. Please leave us a voice message so we can return your call when we are back in the office."
-
-For more information about auto attendants, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?  
+The holidays you create here are available when you [set up an auto attendant](create-a-phone-system-auto-attendant.md), each with its own greeting and call routing settings.
 
 ## Create a holiday
+
+To create a holiday
 
 1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
 
@@ -46,13 +44,22 @@ For more information about auto attendants, see [What are Cloud auto attendants]
 
 6. Use the drop-down list to select a start time for the holiday.
 
-7. Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end. If the holiday is one day only, this should be the same date as the one you chose under **Start time**.
+7. Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end.
 
-8. Use the drop-down list to select an end time for the holiday.
+8. Use the drop-down list to select an end time for the holiday. The **End time** must be after the **Start time**.  
 
-9. Select **Save**.
+   > [!NOTE]
+   > If the holiday is for one full day (i.e., a 24 hour period), the **End time** should be set to the next day and the time to 12:00 AM. For example, if your organization is closed on January 1 for New Year's day, set the **Start time** to January 1 12:00 AM and set the **End time** to January 2 @ 12:00 AM.
+
+9. Optionally, add more dates for recurring holidays.
+
+10. Select **Save**.
+
+    ![Screenshot of holidays user interface with dates set up for three years](media/holidays-set-up.png)
 
 ## Change a holiday
+
+To change a holiday
 
 1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
 
@@ -64,25 +71,10 @@ For more information about auto attendants, see [What are Cloud auto attendants]
 
 5. Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end. 
 
-6. Use the drop-down list to select an end time for the holiday.
+6. Use the drop-down list to select an end time for the holiday. The **End time** must be after the **Start time**.  
 
 7. Select **Save**.
 
-## Connect a holiday to an auto attendant
-
-1. In the Microsoft Teams admin center, go to **Voice** > **Auto attendants**.
-2. Select a resource account from the list.
-3. In the left pane, select **Holiday call settings**.
-4. Select **New holiday**.
-5. Select the holiday from the drop-down list.
-6. You can add an optional greeting:
-    - To play a recorded greeting, select **Play an audio file**, and then select **Upload file**. Browse to the location of the audio file, select the file, and then select **Open**.
-    - To create a greeting, select **Type a greeting message**, and then type your message. Callers will hear this message if you haven't provided an audio file.
-7. To end the call after the greeting, under **Actions**, select **Disconnect**. 
-
-    To redirect the call, select **Redirect call**, and then select the person who will receive the redirected call from the drop-down list or search for the person by display name.
-8. Select **Save**.
-
 ## Related topics
 
-[What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?
+[Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)?

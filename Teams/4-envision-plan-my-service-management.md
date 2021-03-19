@@ -31,7 +31,7 @@ Envision phase, before your first pilot or production deployment.
 
 Service management is a broad topic that covers day-to-day operations of the
 Microsoft Teams service after it has been deployed and enabled for users. The
-Teams service encompasses Microsoft Office 365 and the infrastructure components
+Teams service encompasses Microsoft 365 or Office 365 and the infrastructure components
 that are deployed on-premises (for example, networking).
 
 The notion of service management is most likely not a new concept for most
@@ -42,14 +42,14 @@ Microsoft Teams in the future.
 
 Service management encompasses all the activities and processes involved in
 managing Microsoft Teams end to end. Some components of service management—the
-infrastructure components that the Office 365 service itself comprises—are
+infrastructure components that the Microsoft 365 or Office 365 service itself comprises—are
 Microsoft’s responsibility, whereas the customer is accountable to its users to
 manage the various aspects of Teams, the network, and endpoints they provide.
 For a complete discussion of the customer responsibility for Teams service
 management and how it relates to the key components that underpin the quality of
 the user experience, see [Plan for service management and quality](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
-![Diagram of the three components of quality](media/plan-my-service-management-image1.png "Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.")
+![Diagram of the three components of quality](media/plan-my-service-management-image1.png "Diagram of the three components of quality--Microsoft 365 or Office 365 service, network, and endpoints--and how service management overlaps all three.")
 
 <!--ENDOFSECTION-->
 

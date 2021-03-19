@@ -1,7 +1,7 @@
 ---
 title: Manage feedback policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: msedliak
 ms.topic: article
@@ -25,9 +25,12 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
+> [!NOTE]
+> Feedback policies aren't available in GCC, GCC High, or DOD deployments.
+
 **The Give feedback feature**
 
-Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
+Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
 ![Screenshot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -41,11 +44,11 @@ Users can also rate their experience with Teams and send us details about the ra
 
 As an admin, you can control whether users in your organization can send feedback about Teams to Microsoft through **Give feedback** and whether they receive the survey. By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the **Give feedback** feature and survey are enabled in the policy. The exception is Teams for Education, where the features are enabled for teachers and disabled for students.
 
-You can edit the global policy or create and assign a custom policy. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user. After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+You can edit the global policy or create and assign a custom policy. After you edit the global policy or assign a custom policy, it can take a few hours for changes to take effect.
 
 Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training. In this scenario, you create a custom policy to turn off both features and assign it to new hires. All other users in your organization get the global policy with the features turned on.  
 
-You use the **New-CsTeamsFeedbackPolicy** cmdlet, *which can be [found here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.
+You manage feedback policies by using PowerShell. Use the **New-CsTeamsFeedbackPolicy** cmdlet, *which can be [found here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, to create a custom policy and the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group.
 
 To turn off and turn on the features, set the following parameters:
 
@@ -60,35 +63,17 @@ In this example, we create a feedback policy called New Hire Feedback Policy and
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## Assign a custom feedback policy
+## Assign a custom feedback policy to users
 
-### Assign a custom feedback policy to a user
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 In this example, we assign a custom policy named New Hire Feedback Policy to a user named user1.
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### Assign a custom feedback policy to users in a group
-
-You may want to assign a custom feedback policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group.
-
-In this example, we assign a custom feedback policy called New Hire Feedback Policy to all users in the Contoso New Hires group.  
-
-Get the GroupObjectId of the particular group.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso New Hires"
-```
-Get the members of the specified group.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Assign all users in the group to a particular feedback policy. In this example, it's New Hire Feedback Policy.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
-``` 
-Depending on the number of members in the group, this command may take several minutes to execute.
 
 ## Related topics
 
 - [Teams PowerShell Overview](teams-powershell-overview.md)
+- [Assign policies to your users in Teams](assign-policies.md)

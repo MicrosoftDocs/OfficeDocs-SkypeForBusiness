@@ -1,7 +1,7 @@
 ---
 title: Admin settings for apps in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -10,14 +10,13 @@ search.appverid: MET150
 ms.reviewer: ritikag, rarang
 description: Learn about the  policies and settings you can use to manage apps for your organization in Microsoft Teams.
 localization_priority: Normal
-ms.custom: 
-  - NewAdminCenter_Update
 f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.apppermspolicies.adminsettings
   - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
   - ms.teamsadmincenter.apppolicies.adminsettings
+  - NewAdminCenter_Update
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -31,7 +30,7 @@ Admin settings for apps in Microsoft Teams
 
 Apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
 
-You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. For example, you can allow or block apps at the org level, set policies to control what apps are available to Teams users, and customize Teams by pinning the apps that are most important for your users.
+You manage apps for your organization in **Teams apps** in the admin center. (See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.) For example, you can allow or block apps at the org level, set policies to control what apps are available to Teams users, and customize Teams by pinning the apps that are most important for your users.
 
 We're continually improving the app experience in Teams and adding features and functionality. Over time, we'll be building additional app management capabilities, so check back for the most up-to-date information on app policies.
 

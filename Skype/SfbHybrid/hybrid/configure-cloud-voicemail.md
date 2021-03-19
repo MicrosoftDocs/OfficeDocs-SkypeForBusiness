@@ -33,7 +33,7 @@ Configuring Cloud Voicemail involves the following tasks:
 
 2.  Ensure that you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
 
-3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider) as described in this article.
+3.  [Configure Cloud Voicemail as the hosting provider on the Front End Server](#configure-cloud-voicemail-as-the-hosting-provider) as described in this article.
 
 4.  [Configure a hosted voicemail policy](#configure-a-hosted-voicemail-policy) as described in this article.
 
@@ -79,7 +79,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Organization** is the default domain assigned to your tenant. You can retrieve this information by having the tenant admin log in to office.com, click on the Admin Center app, navigate to **Setup** on the left, and click **Domains**. For example: mytenant.onmicrosoft.com.
 
-    The Organization name is also the Default Domain name in Office 365.
+    The Organization name is also the Default Domain name in Microsoft 365 or Office 365.
 
 To ensure that a hosted voicemail policy was created successfully, run the following command:
 
@@ -95,7 +95,7 @@ For example, the following command assigns a non-Global hosted voicemail policy 
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## Enable a user for Cloud Voicemail

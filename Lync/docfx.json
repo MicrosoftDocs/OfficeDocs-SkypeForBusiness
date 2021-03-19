@@ -62,7 +62,8 @@
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
-          "**/*.svg"
+          "**/*.svg",
+          "**/*.csv"
         ],
         "exclude": [
           "**/obj/**",
@@ -77,11 +78,19 @@
     "globalMetadata": {
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "searchScope": [
         "Lync Server"
       ],
       "contributors_to_exclude": [
-        "dstrome"
+        "dstrome",
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
       ],
       "feedback_system": "None",
       "hideEdit": true,
@@ -89,7 +98,8 @@
       "ms.prod": "lync-server-2013",
       "audience": "ITPro",
       "ms.collection": "LyncServer",
-      "ms.manager": "serdars"
+      "ms.manager": "serdars",
+      "titleSuffix": "Lync Server"
     },
     "fileMetadata": {},
     "template": [],

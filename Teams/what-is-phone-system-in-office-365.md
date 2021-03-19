@@ -1,5 +1,5 @@
 ---
-title: "What is Phone System in Office 365?"
+title: "What is Phone System?"
 ms.reviewer: 
 author: CarolynRowe
 ms.author: crowe
@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -20,18 +21,18 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - seo-marvel-apr2020
-description: "In this article, you will learn about the Phone System technology in Microsoft Office 365."
+description: "In this article, you will learn about the Phone System technology in Microsoft 365 and Office 365."
 ---
 
-# What is Phone System in Office 365?
+# What is Phone System?
 
-A Private Branch Exchange (PBX) is a phone system within a business. Phone System in Office 365 gives you PBX capabilities, but without the complicated and expensive equipment. 
+A Private Branch Exchange (PBX) is a phone system within a business. Phone System gives you PBX capabilities, but without the complicated and expensive equipment. 
 
-Phone System allows you to replace your existing on-premises PBX system with a set of features delivered from Office 365 that is tightly integrated into your cloud experience. For more information about the features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md).
+Phone System allows you to replace your existing on-premises PBX system with a set of features delivered from Microsoft 365 or Office 365 that is tightly integrated into your cloud experience. For more information about the features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
 
 ## Phone System technology
 
-Phone System enables call control and PBX capabilities in the Office 365 cloud with Microsoft Teams and Skype for Business Online. 
+Phone System enables call control and PBX capabilities in the cloud with Microsoft Teams and Skype for Business Online. 
   
 With Phone System, users can use Teams or Skype for Business Online to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and place Teams or Skype for Business Online calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams and Skype for Business Online. Phone System administrators can manage calling options and settings from the same console used for messaging, collaboration, and so on.
   
@@ -43,7 +44,7 @@ For calls outside your organization, Microsoft provides multiple options for con
   
 Phone System can be connected to the PSTN in one of two ways:
   
-- Purchase a Microsoft Calling Plan (domestic or domestic and international) for Office 365. Microsoft Calling Plan is an all-in-the-cloud solution with Microsoft as your PSTN carrier. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
+- Purchase a Microsoft Calling Plan (domestic or domestic and international). Microsoft Calling Plan is an all-in-the-cloud solution with Microsoft as your PSTN carrier. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
 
 - Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
@@ -62,7 +63,7 @@ Phone System can be connected to the PSTN in one of two ways:
 
 - **Voicemail** -  When you get a Phone System license for a user, that user is able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-For more information about features, see [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md). If you're ready to get started, see [Set up Phone System in your organization](setting-up-your-phone-system.md).
+For more information about features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). If you're ready to get started, see [Set up Phone System in your organization](setting-up-your-phone-system.md).
 
 ## Related topics
 
@@ -71,5 +72,5 @@ For more information about features, see [Here's what you get with Phone System 
 - [Set up Phone System](setting-up-your-phone-system.md)
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
-- [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

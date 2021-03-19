@@ -1,0 +1,35 @@
+- name: Hybrid solutions for Teams and Skype for Business
+  items: 
+    - name: Plan hybrid connectivity
+      href: ../hybrid/plan-hybrid-connectivity.md
+    - name: Configure hybrid connectivity
+      href: ../hybrid/configure-hybrid-connectivity.md
+      items: 
+        - name: Configure Azure AD Connect for hybrid environments
+          href: ../hybrid/configure-azure-ad-connect.md
+        - name: Configure Skype for Business hybrid
+          href: ../hybrid/configure-federation-with-skype-for-business-online.md
+    - name: Move users between on-premises and cloud
+      href: ../hybrid/move-users-between-on-premises-and-cloud.md
+      items: 
+        - name: Move users from on-premises to Teams
+          href: ../hybrid/move-users-from-on-premises-to-teams.md
+        - name: Move users from on premises to Skype for Business Online
+          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
+        - name: Move users from the cloud to on premises
+          href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
+        - name: Manage meeting migration
+          href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
+    - name: Disable hybrid to complete migration to the cloud
+      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: Deploy a resource forest topology
+      href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
+    - name: Cloud consolidation for Teams and Skype for Business
+      href: ../hybrid/cloud-consolidation.md
+      items: 
+        - name: Update the edge certificate
+          href: ../hybrid/cloud-consolidation-edge-certificates.md
+        - name: Update AAD Connect to include more than one forest
+          href: ../hybrid/cloud-consolidation-aad-connect.md
+    - name: Integration with Exchange and SharePoint
+      href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md

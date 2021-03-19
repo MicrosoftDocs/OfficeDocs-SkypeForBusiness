@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Export managers and their directs
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -11,6 +11,7 @@ description: Use this PowerShell script to export a list of managers and their d
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
   - M365-collaboration
 appliesto: 

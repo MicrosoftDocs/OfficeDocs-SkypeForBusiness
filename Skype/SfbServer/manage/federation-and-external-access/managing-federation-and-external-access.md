@@ -5,8 +5,8 @@ ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -68,7 +68,7 @@ Configure the settings as detailed in the topic [Enable or disable sending an Ar
 Configure the settings as detailed in the topics [Configure policies to control public user access](external-access-policies/configure-policies-to-control-public-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Create or edit public SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 
 
-**Do you want to allow users to communicate with SIP Federated Providers that are hosted providers running Microsoft Office 365 and Skype for Business Online?**
+**Do you want to allow users to communicate with SIP Federated Providers that are hosted providers running Microsoft 365 or Office 365 and Skype for Business Online?**
 
 Configure the settings as detailed in the topics [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) and [Create or edit hosted SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 

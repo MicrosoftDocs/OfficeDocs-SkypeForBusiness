@@ -1,8 +1,8 @@
 ---
 title: "Server requirements for Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -173,9 +173,7 @@ If you need to read up more on SQL Mirroring, we have a Back End Server high ava
 <a name="Software"> </a>
 
 There are some things you're going to need to install or configure for any server running Skype for Business Server 2015, and they're listed below. After that are additional requirements for specific server roles.
-  
-> [NOTE!] 
-> Skype For Business server 2015 does not support .NET Framework 4.8.
+
   
  **All Servers:**
   

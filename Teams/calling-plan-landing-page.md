@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 f1.keywords:
 - NOCSH
 ms.reviewer: crowe
@@ -30,8 +31,8 @@ This article describes core deployment decisions for Calling Plans as well as ad
 
 The following articles provide more information about deploying and using Microsoft Calling Plans:
 
-- [Phone System in Office 365](what-is-phone-system-in-office-365.md)
-- [Calling Plans for Office 365](calling-plans-for-office-365.md)
+- [Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md)
+- [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md)
 - [Set up Calling Plans](set-up-calling-plans.md)
 
 
@@ -47,19 +48,19 @@ There are two types of Calling Plans available:
 |Ask yourself|Action |
 |------------|-------|
 |Are Calling Plans available in my area? Which user locations will have Calling Plan service? | For more information, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
-Do my users need international calling? | For more information, see [Calling Plans for Office 365](calling-plans-for-office-365.md). |
+Do my users need international calling? | For more information, see [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). |
 Do my users have Calling Plans licenses? | To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
 Do my users each have a direct inward dial (DID) phone number? | To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
-### Transfer phone numbers to Office 365
+### Transfer phone numbers to Microsoft 365 or Office 365
 
 It's easy to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 
 ### Phone numbers and emergency locations
 
-With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dial (DID) phone number and a corresponding validated emergency address. You can also specify an emergency location within the emergency address (for example, an office number or floor number). 
+With Calling Plans in Microsoft 365 or Office 365, every user in your organization needs to have a unique direct inward dial (DID) phone number and a corresponding validated emergency address. You can also specify an emergency location within the emergency address (for example, an office number or floor number). 
 
 |Ask yourself|Action |
 |:------------|:-------|

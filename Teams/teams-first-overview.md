@@ -11,7 +11,7 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: Use this guidance to roll out Microsoft Teams as your first Office 365 workload.
+description: Use this guidance to roll out Microsoft Teams as your first Microsoft 365 or Office 365 workload.
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto: 
   - Microsoft Teams
@@ -19,41 +19,41 @@ appliesto:
 
 # Roll out Microsoft Teams First
 
-Microsoft Teams can help your employees stay connected and collaborate with each other, especially in the current unprecedented time where remote work is a reality of employees around the world. Being able to chat, do video meetings and collaborate on Office documents within Teams can help companies stay productive. Whether you are a small business, a non-profit or a large organization, you can get started with Teams as the first workload within Office 365 suite before deploying any other Office app or service.
+Microsoft Teams can help your employees stay connected and collaborate with each other, especially in the current unprecedented time where remote work is a reality of employees around the world. Being able to chat, do video meetings and collaborate on Office documents within Teams can help companies stay productive. Whether you are a small business, a non-profit or a large organization, you can get started with Teams as the first workload within Microsoft 365 or Office 365 suite before deploying any other Office app or service.
 
 This article details the considerations you must make with the "Teams First" approach.
 
 > [!IMPORTANT]
 > While Teams can be your organization's first cloud deployed workload, deploying Teams should be part of your overall cloud deployment strategy.
 
-If you have already rolled out other Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out  Teams](How-to-roll-out-teams.md).
+If you have already rolled out other Microsoft 365 or Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out Teams](How-to-roll-out-teams.md).
 
 ## Start here
 
 To get started with your Teams First deployment you will need to meet at minimum some pre-requisites. The following list will show what you must have in place for your organization before Teams can be enabled:
 
-1.  An Office 365 organization configured with your domain name
+1.  A Microsoft 365 or Office 365 organization configured with your domain name
 
 2.  Azure Active Directory connectivity (AAD connect) or similar cloud identity sync solution – with all required attributes synched with your tenant  
     To understand the attributes synchronized with AAD sync, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Appropriate user licenses assigned for Teams  
-    To understand Teams licensing, read [Office 365 licensing for Microsoft Teams](office-365-licensing.md)
+    To understand Teams licensing, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 4.  Organization's network prepared for Teams  
     To understand network preparation, read [Prepare your organization's network for Teams](prepare-network.md).
 
-5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Office 365: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > Tenants created after September 1, 2019 are provisioned in Teams Only mode.
 > 
 > [!IMPORTANT]
-> If you have Skype for Business Server deployed, and your tenant was provisioned AFTER September 1, 2019, please contact premier support to enable coexistence capabilities for Teams. Make sure your 'Organization wide upgrade policy' is set to 'Island mode' <span class="underline">before</span> you assign any Teams licenses to a user.
+> If you have Skype for Business Server deployed, and your tenant was provisioned AFTER September 1, 2019, please contact support to enable coexistence capabilities for Teams. Make sure your 'Organization wide upgrade policy' is set to 'Island mode' <span class="underline">before</span> you assign any Teams licenses to a user.
 
 ## Migration Starting points
 
-Your journey to Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections will detail basic capabilities and configuration options in addition to the pre-requisites above. We have broken down the starting point scenarios to the following topics:
+Your journey to Microsoft 365 or Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections will detail basic capabilities and configuration options in addition to the pre-requisites above. We have broken down the starting point scenarios to the following topics:
 
 **Tenant Teams Configuration**: Tenant and user modes are used to control the recipient's behavior. These settings can be assigned on the tenant level or the user level in an organization. To learn more, read [Coexistence with Skype for Business](coexistence-chat-calls-presence.md).
 
@@ -81,9 +81,9 @@ To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-
 
 Read [How Exchange and Microsoft Teams interact](exchange-teams-interact.md) to learn which compliance features are available in your scenario.
 
-## Organizations **<span class="underline">without</span>** Skype for Business or Lync server
+## Organizations **<span class="underline">without</span>** Skype for Business or Lync Server
 
-This starting point assumes that your organization does not utilize Skype for Business or Lync server currently and Teams will be your first application in Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
+This starting point assumes that your organization does not utilize Skype for Business or Lync Server currently and Teams will be your first application in Microsoft 365 or Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
 
 <table>
 <thead>
@@ -95,25 +95,27 @@ This starting point assumes that your organization does not utilize Skype for Bu
 <tbody>
 <tr class="odd">
 <td>Tenant Teams configuration</td>
-<td>Teams Only mode, all chat and calling features are in Teams Only</td>
+<td>Teams Only mode, all chat and calling features are in Teams Only.</td>
 </tr>
 <tr class="even">
 <td>Chat / External Communication in Teams</td>
-<td><p>Internal (intra Office 365 organization) and external chat communication possible from Teams</p>
-<p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises or in Office 365 to allow federation with Lync and Skype for Business environments.<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">External Domain Name System records for Office 365</a></em></p></td>
+<td><p>Internal (intra Microsoft 365 or Office 365 organization) and external chat communication possible from Teams.</p>
+<p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises, or in Microsoft 365 or Office 365, to allow federation with Lync and Skype for Business environments:<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">External Domain Name System records</a></em></p></td>
 </tr>
 <tr class="odd">
-<td><em>Create and view Meetings in Teams</em></td>
-<td><p><em>Able to create meetings via Outlook add-in</em></p>
-<p><em>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.<br />
-Note: Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard</a><br />
-In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">Configure OAuth authentication between Exchange and Exchange Online organizations</a></em></p></td>
+<td>Create and view Meetings in Teams</td>
+<td><p>Able to create internal and external meetings via Outlook add-in.</p>
+<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
+<p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a> </p>
+<p>In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">Configure OAuth authentication between Exchange and Exchange Online organizations".</p>
+
+</p></td>
 </tr>
 <tr class="even">
 <td>Calling Features<br />
 VoIP / PSTN in Teams</td>
-<td><p>VoIP internally and externally to the tenant is available</p>
+<td><p>VoIP internally and externally to the tenant is available.</p>
 <p>PSTN services can be configured via Microsoft Phone System, plus adding a Microsoft Calling Plan or Direct Routing.</p></td>
 </tr>
 <tr class="odd">
@@ -133,13 +135,11 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <tr class="even">
 <td>Security and Compliance features</td>
 <td><ul>
-<li><p>Retention policies are available</p></li>
-<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported</p></li>
-<li><p>Data Loss Prevention policies (DLP) are available</p></li>
+<li><p>Retention policies are available.</p></li>
+<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
+<li><p>Data Loss Prevention policies (DLP) are available.</p></li>
 </ul>
-<p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a></p>
-<p>for full list</p></td>
+<p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a full list, see <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -159,11 +159,11 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
     
     [Microsoft Teams adoption quick start checklist](teams-adoption-quick-start-checklist.md)
 
-6.  Begin planning moving other workloads to Office 365
+6.  Begin planning moving other workloads to Microsoft 365 or Office 365
 
 ## Organizations **<span class="underline">with</span>** Skype for Business or Lync server
 
-This starting point assumes that your organization utilizes Skype for Business 2019 or 2015+ or Lync 2013+ server on premises. We already have extensive guidance for organizations migrating from on premises servers to Teams and it should be followed for these scenarios. This guidance is specific to the scenario that Teams is the first application you utilize in Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
+This starting point assumes that your organization utilizes Skype for Business 2019 or 2015+ or Lync 2013+ server on premises. We already have extensive guidance for organizations migrating from on premises servers to Teams and it should be followed for these scenarios. This guidance is specific to the scenario that Teams is the first application you utilize in Microsoft 365 or Office 365. The following table details high level configuration and end user capabilities for Teams for core services.
 
 <table>
 <thead>
@@ -175,24 +175,27 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <tbody>
 <tr class="odd">
 <td>Tenant Teams configuration</td>
-<td>Islands mode</td>
+<td>Islands mode.</td>
 </tr>
 <tr class="even">
 <td>Chat / External Communication in Teams</td>
-<td>Internal within your own tenant only, external communication (federation) is via your Skype for Business or Lync server deployment</td>
+<td>Internal within your own tenant only, external communication (federation) is via your Skype for Business or Lync server deployment.</td>
 </tr>
 <tr class="odd">
 <td>Create and view Meetings in Teams</td>
-<td><p>Able to create meetings via Outlook add-in</p>
-<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.<br />
-Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
-<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard</a></p></td>
+<td><p>Able to create internal and external meetings via Outlook add-in.</p>
+<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
+<p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
+<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
+<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps">
+set-csteamsmeetingpolicy</a>.</p> 
+</td>
 </tr>
 <tr class="even">
 <td>Calling Features<br />
 VoIP / PSTN in Teams</td>
-<td><p>VoIP internally to the tenant is available</p>
-<p>PSTN or Calling Plan services are not available until the user is moved to Teams Only experience</p></td>
+<td><p>VoIP internally to the tenant is available.</p>
+<p>PSTN or Calling Plan services are not available until the user is moved to Teams Only experience.</p></td>
 </tr>
 <tr class="odd">
 <td>Teams and Channels collaboration in Teams</td>
@@ -211,14 +214,13 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <tr class="even">
 <td>Security and Compliance features</td>
 <td><ul>
-<li><p>Retention policies are available</p></li>
-<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported</p></li>
-<li><p>Data Loss Prevention policies (DLP) are available</p></li>
+<li><p>Retention policies are available.</p></li>
+<li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
+<li><p>Data Loss Prevention policies (DLP) are available.</p></li>
 </ul>
-<p>Full feature set available with Exchange Online, Exchange on-premises supports most of these features, see</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a></p>
+<p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a complete list, see 
+<a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact.</a></p>
 <ul>
-<li><p>for full list</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -228,7 +230,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 
 1.  Meet pre-requisites detailed in the Start Here section above.
 
-2.  Switch tenant into Islands mode (for tenants provisioned AFTER 9/1/2019, please contact premier support to make this change)  
+2.  Switch tenant into Islands mode (for tenants provisioned AFTER 9/1/2019, please contact support to make this change)  
     [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  Configure your tenant in accordance with your company's business/company policies  
@@ -238,18 +240,17 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
     [Get clients for Teams](get-clients.md)
 
 5.   Drive your adoption program  
-    [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft Teams adoption quick start checklist](teams-adoption-quick-start-checklist.md)
 
-6.  Begin planning moving other workloads to Office 365
+6.  Begin planning moving other workloads to Microsoft 365 or Office 365
 
 7.  Establish Skype for Business hybrid and follow the recommended upgrade paths for Skype for Business and Lync servers  
     [Upgrade from Skype for Business on-premises to Teams](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
 
 ## Closing statement
 
-Microsoft Teams can be an enabler for your organization to bring all the employees, information workers and Firstline workers, together on a single platform. You can [get started](https://products.office.com/microsoft-teams/group-chat-software) today. You can keep in touch with all our latest announcements and monthly product updates [here](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
+Microsoft Teams can be an enabler for your organization to bring all the employees, information workers and Frontline workers, together on a single platform. You can [get started](https://products.office.com/microsoft-teams/group-chat-software) today. You can keep in touch with all our latest announcements and monthly product updates [here](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
 
 Additionally, as companies around the world are managing the current COVID-19 situation, we have created a series of content that will help you utilize Teams for the maximum impact in your organization.
 
@@ -273,7 +274,7 @@ Additionally, as companies around the world are managing the current COVID-19 si
 
 ## Support Services reference
 
-Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Microsoft 365 Groups to provide your users with a fully integrated Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
+Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Microsoft 365 Groups to provide your users with a fully integrated Microsoft 365 or Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
 
 For specifics on each of the services listed above, please follow the links below:
 
@@ -295,4 +296,4 @@ For specifics on each of the services listed above, please follow the links belo
 
 [Support remote workers using Teams](support-remote-work-with-teams.md)
 
-[Work remotely with Office 365](https://aka.ms/remote-work)
+[Work remotely with Microsoft 365](https://aka.ms/remote-work)

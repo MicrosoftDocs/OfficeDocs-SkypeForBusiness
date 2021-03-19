@@ -55,12 +55,12 @@ The following requirements assume that you already have Skype for Business Serve
 
 - Enable Hybrid connectivity. If you already have Skype for Business Server deployed and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration.
 
-   For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
+   For more information, see [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
-- Authenticate to your Office 365 organization and ensure that you have the following roles enabled:
+- Authenticate to your Microsoft 365 or Office 365 organization and ensure that you have the following roles enabled:
 
   - Skype for Business Server Administrator
-  - Global Administrator
+  - Microsoft 365 or Office 365 Global Administrator
 
 - If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 

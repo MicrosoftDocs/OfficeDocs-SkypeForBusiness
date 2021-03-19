@@ -1,7 +1,7 @@
 ---
 title: Microsoft Education governance FAQ for admins
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -30,7 +30,7 @@ To avoid inappropriate or misleading names, or just to provide more structure fo
 
 -   **Prefix-Suffix naming policy** You can use prefixes or suffixes to define the naming convention of teams (groups), for example, **GRP_US_My Group_Engineering**. The prefixes and suffixes can be fixed strings or user attributes (such as **[Department]**) that are added to the name based on the user who's creating the team.
 -   **Custom Blocked Words** You can upload a set of words that users in a specific organization are blocked from using in names of teams they create. For example, you can block the terms **CEO**, **Payroll**, and **HR** from being used in team names for groups they don't apply to.
--   **Classification** You can create classifications that the users in your organization can set when they create an Office 365 group. 
+-   **Classification** You can create classifications that the users in your organization can set when they create a Microsoft 365 Group. 
 
 > [!IMPORTANT]
 > Using the Microsoft 365 Groups Naming Policy requires Azure Active Directory Premium P1 licenses or Azure AD Basic EDU licenses for each unique user that is a member of one or more Microsoft 365 groups.
@@ -61,14 +61,14 @@ At the start of each semester or quarter, you'll need a number of new teams. It 
 -   You can use the Microsoft Graph API (currently in beta) to create, configure, clone, and archive teams. See [Use the Microsoft Graph API to work with Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) for more information.
 
 > [!TIP]
-> School Data Sync creates an Office 365 group for each class synced and [enables hidden group membership](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) so only teachers and students within the class can see the members of that class. If using a different process to create class groups use the HiddenGroupMembershipEnabled parameter of the New-UnifiedGroup cmdlet to meet the same privacy requirements.
+> School Data Sync creates a Microsoft 365 Group for each class synced and [enables hidden group membership](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) so only teachers and students within the class can see the members of that class. If using a different process to create class groups use the HiddenGroupMembershipEnabled parameter of the New-UnifiedGroup cmdlet to meet the same privacy requirements.
 
 ## How do I deal with teams when the semester or quarter ends?
 
 We recommend that you first think about how you want to handle Teams data when the school semester or quarter is over: whether to delete it or keep it available for students even after they've completed the course. You'll want to keep the school calendar in mind so any policies you set don't conflict with holidays. You can use the following tools to implement your strategy:
 
 -   **Retention policy:** Use this to delete all data older than an age you specify to make sure that old data is removed from chats (for all or some users) and channels. You can also configure Teams to retain content so it can't be deleted. For more information, see [Retention policies for Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
--   **Expiry policy:** Configure teams to expire after a certain number of days. Thirty days before expiration, all owners of a team are notified that their team needs to be renewed, otherwise it will be deleted (though an administrator can recover deleted teams for an additional 30 days). This setting is very useful for making sure unused teams are sunsetted. Learn more at [Office 365 Group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+-   **Expiry policy:** Configure teams to expire after a certain number of days. Thirty days before expiration, all owners of a team are notified that their team needs to be renewed, otherwise it will be deleted (though an administrator can recover deleted teams for an additional 30 days). This setting is very useful for making sure unused teams are sunsetted. Learn more at [Microsoft 365 group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
 -   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; Team owners can also use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) to archive or restore a team.
  

@@ -2,10 +2,9 @@
 title: Admin training for Microsoft Teams
 ms.reviewer: 
 description: Get the administrator training and support that you need to manage Microsoft Teams in your organization.
-author: lanachin
+author: cichur
 manager: serdars
 audience: admin
-ms.custom: seo-marvel-mar2020
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
@@ -18,9 +17,9 @@ ms.custom:
   - seo-marvel-mar2020
 f1.keywords:
 - NOCSH
+search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-lanac
-ms.custom: seo-marvel-mar2020
+ms.author: v-cichur
 ---
 # Admin training for Microsoft Teams
 
@@ -28,7 +27,7 @@ Learn how to manage Teams for your organization.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="instructor-led-training-teams-landing-page.md">
+        <a href="instructor-led-training-teams-landing-page.yml">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

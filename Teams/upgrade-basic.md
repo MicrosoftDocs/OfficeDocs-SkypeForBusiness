@@ -1,11 +1,11 @@
 ---
 title: Upgrade checklist| Skype Business to Teams Upgrade | Basic Steps
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Follow this accelerated ten-step action plan to transition from a basic Skype for Business set-up to the Microsoft Teams set-up. 
 localization_priority: Normal
@@ -45,7 +45,7 @@ What happens to Skype for Business after the upgrade? After your users are upgra
 
 See our [FAQ](https://aka.ms/SkypeToTeams-FAQ) for additional questions about your upgrade.
 
-Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
+Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Microsoft 365 and Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -95,7 +95,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 **Resources:**
 
-- [See usage data in activity reports in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Microsoft 365 reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [Return to top](#about-upgrade-basic)
 

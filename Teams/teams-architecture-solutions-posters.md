@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams IT architecture and telephony solutions posters
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -47,3 +47,5 @@ For more information, see the article for this poster: [Microsoft telephony solu
 ## See Also
 
 [Microsoft cloud IT architecture resources](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources)
+
+[Download Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion)

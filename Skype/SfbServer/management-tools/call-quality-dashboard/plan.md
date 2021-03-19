@@ -1,8 +1,8 @@
 ---
 title: "Plan for Call Quality Dashboard for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -313,6 +313,9 @@ For additional help in installing and configuring SQL Server Business Intelligen
 Three domain service accounts are recommended on the principle of least privilege: 
   
 - One that already has both a login security principal for QoE Metrics database (with db_datareader privilege) and a login security principal in QoE Archive SQL Server Instance (needed to create a Linked Server object during setup). This account will be used to run "QoE Archive Data" step of the SQL Server Agent job.
+    
+    > [!NOTE]
+    > If you are working in a heavily locked down environment, you need to check that this service account is indeed granted “Logon as a batch job” and “Allow log on locally” user rights on both the QoE Metrics Monitoring database SQL Server and the QoE Archive SQL Server.
     
 - One that will be used to run "Process Cube" step of the SQL Server Agent job. Setup will create a login security principal to QoE Archive database (with read and write privilege) and also create a member in the QoE Role (with full control privilege) for the Cube.
     

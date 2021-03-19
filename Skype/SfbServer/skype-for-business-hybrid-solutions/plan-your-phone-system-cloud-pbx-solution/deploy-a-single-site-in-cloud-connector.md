@@ -20,6 +20,9 @@ description: "Learn about deploying a single PSTN site in Cloud Connector Editio
 
 # Deploy a single site in Cloud Connector
  
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Learn about deploying a single PSTN site in Cloud Connector Edition.
   
 You can deploy Skype for Business Cloud Connector Edition with or without High Availability (HA) support. If you want to enable HA, you'll need to deploy two or more appliances within a site. You can also convert an existing appliance to support HA after it is deployed.
@@ -50,7 +53,7 @@ You can extend an existing Cloud Connector site to support HA by adding addition
   
 1. Follow the steps to prepare your Cloud Connector appliance as described in [Prepare your Cloud Connector appliance](prepare-your-cloud-connector-appliance.md). Note that some steps are required only for the first appliance in your deployment. Confirm that the site directory exists and is correctly configured for HA support.
     
-2. Run the following cmdlet only on the newly added host server to update topology information in your Office 365 organization configuration. If you want to add multiple appliances at the same time, run the cmdlet on each newly added host server one by one:
+2. Run the following cmdlet only on the newly added host server to update topology information in your Microsoft 365 or Office 365 organization configuration. If you want to add multiple appliances at the same time, run the cmdlet on each newly added host server one by one:
     
    ```powershell
    Register-CcAppliance
@@ -75,7 +78,7 @@ You can extend an existing Cloud Connector site to support HA by adding addition
 
 If you want to remove an appliance from an existing site:
   
-1. Run the following cmdlet only on the host servers you want to remove from the site to update the topology information in your Office 365 organization configuration.
+1. Run the following cmdlet only on the host servers you want to remove from the site to update the topology information in your Microsoft 365 or Office 365 organization configuration.
     
    ```powershell
    Unregister-CcAppliance

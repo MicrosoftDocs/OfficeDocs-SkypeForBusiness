@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -53,6 +54,9 @@ The following are the possible effective dial plans:
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
+> [!NOTE]
+> In the scenario where no dial plan normalization rules apply to a dialed number, the dialed string is still normalized to prepend "+CC" where CC is the country code of the dialing user's usage location. This applies to Calling Plans, Direct Routing and PSTN Conference dial-out scenarios.
+
 ## Planning for tenant dial plans
 
 To plan custom dial plans, follow these steps:
@@ -66,7 +70,7 @@ To plan custom dial plans, follow these steps:
 - **Step 4** Develop an organization-wide scheme for naming dial plans. Adopting a standard naming scheme assures consistency across an organization and makes maintenance and updates easier.
 
 
-## Creating your new tenant dial plan
+## Creating your new dial plan
 
 When you create a new dial plan, you must put in the information that is required.
 
@@ -100,7 +104,7 @@ One or more normalization rules must be assigned to the dial plan. Normalization
 Because any tenant dial plan is effectively merged with a given user's service country dial plan, it is likely that the service country dial plan's normalization rules need to be evaluated in order to determine which tenant dial plan normalization rules are needed. The **Get-CsEffectiveTenantDialPlan** cmdlet can be used for this purpose. The cmdlet takes the user's identity as the input parameter and will return all normalization rules that are applicable to the user.
 
 ### Creating normalization rules
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format. Normalization rules can be created by specifying the regular expression for the match and the translation to be done when a match is found. When you finish, you can enter a test number to verify that the normalization rule works as expected.
 
@@ -108,15 +112,19 @@ For details about using .NET Framework regular expressions, see [.NET Framework 
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
 
+> [!NOTE]
+> Normalization rules with the first token as optional are currently not supported on 3pip devices (for example, Polycom VVX 601 model). If you want to apply normalization rules with optionality on 3pip devices, you should create two normalization rules instead of one. For example, the rule ^0?(999)$ should be replaced by the following two rules: (999)$ (Translation:$1) and ^0(999)$ (Translation:$1).
+
+
 ### Sample normalization rules
 
 The following table shows sample normalization rules that are written as .NET Framework regular expressions. The samples are examples only and are not meant to be a prescriptive reference for creating your own normalization rules.
 
- **Normalization rules using .NET Framework regular expressions**<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a>
+**Normalization rules using .NET Framework regular expressions**
 
-||||||
+| Rule name<br/> | Description<br/> | Number pattern<br/> | Translation<br/> | Example<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Rule name** <br/> |**Description** <br/> |**Number pattern** <br/> |**Translation** <br/> |**Example** <br/> |
 |4digitExtension  <br/> |Translates 4-digit extensions.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 is translated to +14255550100  <br/> |
 |5digitExtension  <br/> |Translates 5-digit extensions.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 is translated to +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Translates 7-digit numbers to Redmond local numbers.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 is translated to +14255550100  <br/>|
@@ -130,13 +138,12 @@ The following table shows sample normalization rules that are written as .NET Fr
 
  The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table.
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Redmond dial plan** <br/>                                                                                                                              |
-| 5digitExtension <br/>                                                                                                                                    |
-| 7digitcallingRedmond <br/>                                                                                                                               |
-| RedmondSitePrefix <br/>                                                                                                                                  |
-| RedmondOperator <br/>                                                                                                                                    |
+| Redmond dial plan<br/> |
+|:-----------------------|                                                                                                                      
+| 5digitExtension <br/> |                                                                                                                                    
+| 7digitcallingRedmond <br/> |
+| RedmondSitePrefix <br/> |
+| RedmondOperator <br/> |
 
 > [!NOTE]
 > The normalization rules names shown in the preceding table don't include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid.

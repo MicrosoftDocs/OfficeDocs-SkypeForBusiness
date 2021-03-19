@@ -3,10 +3,11 @@ title: Deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-audience: ITPro
+audience: 
+  - ITPro
+  - admin
 ms.date: 05/16/2018
 ms.topic: conceptual
-audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -50,7 +51,7 @@ dial tone to a specific site. Instead, they focus on activities and tasks
 recommended to onboard users easily and have them start consuming Teams voice
 workloads through a fast and smooth transition with a high adoption rate, while
 minimizing support requirements. For technical guidance on how to best configure
-your environment for Teams voice, see the onboarding checklists for [configuring Teams voice workloads](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [configuring Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [networking for Teams](prepare-network.md), and [enabling Office 365](onboarding-checklist-enable-office-365.md).
+your environment for Teams voice, see the onboarding checklists for [configuring Teams voice workloads](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [configuring Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [networking for Teams](prepare-network.md), and [enabling Microsoft 365 or Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 

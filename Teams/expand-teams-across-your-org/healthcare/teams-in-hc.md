@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams for Healthcare organizations"
+title: "Get started with Teams for healthcare organizations"
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,107 +7,154 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-overview
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Learn about features for health care that include care coordination, secure messaging, telehealth, EHR integration, and firstline worker system integration.
-ms.custom: seo-marvel-apr2020
+description: Learn about health care features like Microsoft Teams telehealth, EHR integration, Frontline worker system integration, and the Patients app.
+ms.custom: 
+- seo-marvel-apr2020
+- seo-marvel-jun2020
 ---
 
-# Get started with Teams for Healthcare organizations
+# Get started with Teams for healthcare organizations
 
-Microsoft Teams offers a number of features useful for hospitals and other Healthcare organizations. Teams features are under development to aid hospitals with:
+Microsoft Teams offers a number of telemedicine features useful for hospitals and other Healthcare organizations. Teams features are under development to aid hospitals with:
 
-- Care Coordination and collaboration
-- Secure Messaging
-- Telehealth
-- Electronic Healthcare Record (EHR) integration 
-- Firstline Worker system integration 
+- Virtual visits and Electronic Healthcare Record (EHR) integration
+- Teams policy packages
+- Secure messaging
+- Teams templates
+- Care coordination and collaboration
 
-The content in this section builds on the foundational capabilities of Teams, such as meetings, calling, and messaging, and assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
+This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare).
 
-## Care Coordination - Microsoft Teams Patients app
+Watch the following video to learn more about using the healthcare collection to enhance health team collaboration in Microsoft Teams.
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-Microsoft Teams now has a care coordination solution specific to healthcare organizations to help them provide the best patient care. The crux of the care coordination solution, the  Microsoft Teams Patients app, is a first party tab app that integrates with electronic health record (EHR) systems using a Fast Healthcare Interoperability Resources ([FHIR](https://www.hl7.org/fhir/)) interface to bring valuable medical information into Microsoft Teams in context to enable clinical collaboration and communication.  
-
-The care coordination solution can interface with leading Independent Software Vendors (ISVs) that can connect the Patients app to your EHR systems using existing health data standards like HL7v2 and FHIR. Microsoft partners with the following industry leaders to establish electronic health record integration with Teams:
-
-- Datica (through their [CMI](https://datica.com/compliant-managed-integration/) offering)
-- Infor Cloverleaf (through the [Infor FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
-- Redox (through the [R^FHIR server](https://www.redoxengine.com/fhir/))
-- Dapasoft (through [Corolar on FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
-
-An EHR integration and interop partner trying to implement Microsoft Teams for a healthcare provider organization needs to provide the Patients app a secure and authenticated connection with the healthcare provider organization's EHR systems. This enables the one-directional (Read only) flow of the relevant patient records into to the Patients app. The Patients app understands the FHIR format, so the partner is also responsible for transforming the aggregated data from various other formats like HL7v2, etc. into FHIR DSTU2 or STU3.
-
-<br>
-
-![Illustration highlighting Care Coordination and collaboration](../../media/ehr-1.png)
-
-<br>
-
-The Patients app integrates with electronic health records (EHR) systems and enables care providers to communicate about patient care in real-time within Teams' secure platform. The Patients app is the first major investment in the care coordination area which aims to address the following challenges:
-
-- Low efficiency in hand-offs and critical communication through the patient experience
-- Siloed information that creates administrative burdens
-- Dissatisfaction among clinicians with complex and fragmented collaboration tools
-- Inefficient in-person care coordination that can burn too much expensive clinical time
-
-Microsoft Teams enables physicians, clinicians, nurses, and other staff to collaborate efficiently by:
-
-- Being part of a single virtualized team that works and collaborates on Office documents
-- Having persistent conversations about different patients needing attention
-- Using channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources
-- Using channel meetings with the power of Teams audio, video, screen sharing, recording, and transcription features to manage daily meetings
-- Using the Patients app to curate a list of high-risk patients that must be monitored, and pulls their latest details from the EHR system. The Patients app itself adds the following features to Microsoft Teams:
-
-    - Ability to create multiple patient lists within a single channel.
-    - Ability to view and sort information displayed about patients through configurable columns.
-    - Ability to auto-provision the app through a team template.
-    - Available on the Teams App for iOS and Android for mobile first healthcare workers as well as Microsoft Teams web and desktop client.
-    - Support for FHIR DSTU2 and STU3 versions via parsing of conformance statement.
-    - Audit Logs for all view and search actions on its user interface to safeguard PHI per HIPAA guidelines.
-
-The Patients app is built on the Teams extensibility platform and takes advantage of the Tabs framework to display rich patient content within a channel. To learn more about other Teams apps and the platform itself, please see [Apps for Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> The Patients app is in private preview and the FHIR interface is in beta. Released versions are not expected to be backward compatible.
+> The content in this section assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
 
-![Screen shot of the Patients app on desktop and mobile devices](../../media/ehr-2.png)
+The following scenarios are available for healthcare organizations:
 
-See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md) for implementation details,.
+| Scenario | Description | Requirements |
+| -------- | -------- | -------- |
+| [Virtual visits with Electronic Healthcare Record (EHR) integration](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario connects Microsoft Teams and the Epic platform to support virtual visits. | Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer. <br> Users must have an appropriate Microsoft 365 or Office 365 license that includes Microsoft Teams meetings*. <br> Organizations must have with Epic version November 2018 or later. <br>[Details for EHR requirements](ehr-admin.md#before-you-begin) |
+| [Virtual visits with Microsoft Bookings and the Bookings app](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario relies on Microsoft Bookings to support virtual visits. | Microsoft Bookings must be turned on for the organization. <br> All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling*. <br>[Details for Bookings requirements](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [Teams policy packages](#teams-policy-packages)| Ensure that clinical workers, information workers, and patient room devices have the appropriate access to Teams functionality.| Users must have an appropriate license*. |
+| [Secure messaging](#secure-messaging) | Get quicker attention to urgent messages and have confidence that the message was received and read. | Users must have an appropriate license*.  |
+| [Teams templates](#teams-templates-for-healthcare-organizations) | Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within a ward, pod, or department, or between multiple wards, pods, and departments within a hospital. | Users must have an appropriate license*.  |
+| [Care coordination and collaboration](#care-coordination-and-collaboration) | Clinicians and staff can collaborate internally on schedules, documents, tasks, and so on.| Users must have an appropriate license*. |
 
-## Templates
+*Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, A3, A5, E3, and E5 are supported. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md).
 
-New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create Teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+## Virtual visits and Electronic Healthcare Record (EHR) integration
 
-## Secure Messaging
+Use the complete meetings platform in Microsoft Teams to schedule, manage, and conduct virtual visits with patients.
 
-Secure messaging supports collaboration within care teams, including several new features:
+- If your organization already uses Electronic Health Records, or EHR, you can integrate Microsoft Teams for a more seamless experience. Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual visits with Teams - Integration into EHR](ehr-admin.md).
+- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Bookings app and virtual visits in Microsoft Teams](../../bookings-app-admin.md).
+
+![Virtual visits with Microsoft Teams](../../media/virtual-visits-teams.png)
+
+## Teams policy packages
+
+Apply Teams policy packages to define what different roles can do in Teams. For example, specify policies for:
+
+- Clinical workers, such as registered nurses, charge nurses, physicians, and social workers, so that they can have full access to chat, calling, shift management, and meetings.
+- Information workers in your healthcare organization, such as IT personnel, informatics staff, finance personnel, and compliance officers, can have full access to chat, calling, and meetings.
+- Patient rooms, to control settings for patient room devices.
+
+To learn more, see [Teams policy packages for healthcare](../../policy-packages-healthcare.md).
+
+## Secure messaging
+
+Secure messaging supports collaboration within health teams, including several new features:
 
 - A message sender can set a special priority for their message, so the recipient is repeatedly notified until they read the message.
 - A message sender can request a read receipt, so they are notified when a message they sent was read by the message recipient.
 
+Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New health teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
 
-Together, these features allow quicker attention to urgent messages and confidence that the message was received and read. New care teams using these features can be created on a per-patient basis. These features are policy-based, and can be assigned to individuals or entire Teams.
+To learn more, see [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md).
 
-See [Get started with Secure Messaging policies for Healthcare organizations](messaging-policies-hc.md) for further details.
+Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (See [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
 
-Also related to secure messaging is the ability to have other tenants federated by Healthcare organizations, allowing richer inter-tenant communication. (see [Manage external access (federation) in Microsoft Teams](../../manage-external-access.md)).
+## Teams templates for healthcare organizations
 
-## Firstline Worker integration
+New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. To learn more, see [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
 
-Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more.
+## Care coordination and collaboration
 
- See the following articles:
+Bring your health team together to coordinate care and collaborate with Microsoft Teams.
 
-- [Move your Microsoft StaffHub teams to Shifts in Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+![Healthcare: Collaborate with your health team in Teams](../../media/teams-healthcare-collaborate-in-teams.png)
 
-- [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft Teams enables physicians, clinicians, nurses, and other staff to collaborate efficiently with included collaboration features in Microsoft Teams, such as:
+
+- Set up teams and channels for your health teams and information workers. Use channels with tabs as a way to structure their work, with additional help from tabs to which they can pin information sources.
+- Chat, post messages, and communicate. Your team can have persistent conversations about different patients needing attention.
+- Call and meet with members of the health team. Set up individual meetings, or use channel meetings to manage daily meetings, both with the power of Teams audio, video, screen sharing, recording, and transcription features.
+- Store and share files and documents. Your health team is part of a single virtualized team that works and collaborates on Office documents.
+
+In addition, your team can use apps in Teams to:
+
+- Share lists and track information with the Lists app
+- Track and monitor tasks with the Tasks app
+- Streamline approvals with the Approvals app
+- Create, manage, and share schedules with the Shifts app
+
+### Share lists and track information with the Lists app
+
+> [!NOTE]
+> Effective October 30, 2020, the Patients app has been retired and replaced by the [Lists app](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams. With Lists, care teams in your healthcare organization can create patient lists for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring.
+
+The Lists app in Teams helps teams track information and organize work. The app is pre-installed for all Teams users and is available as a tab in every team and channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
+
+Health teams can use the Patients template to get started. They can create lists to track the needs and status of patients. Existing patient data on Excel spreadsheets can be brought in to create a list in Teams. These lists can be used for scenarios such as rounds and patient monitoring to coordinate care.
+
+For example, a charge nurse creates a patient list in a team that includes all health team members. During rounds, the health team access Teams on their mobile devices and update patient information in the list, which everyone on the team can view to stay in sync. At rounding sessions where the health team gathers to discuss and evaluate key health performance metrics to ensure a patient is on the right glide path to discharge, they can share this information using Teams on a large display screen. health team members who aren't on site can join remotely.
+
+Here's an example list which was set up for patient rounding.
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Screenshot of example list for patient rounding":::
+
+To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md).
+
+### Track and monitor tasks with the Tasks app
+
+Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) in Teams to track to do items for your whole health team. Your health team can create, assign, and schedule tasks, categorize tasks, and update status at any time, from any device running Teams.
+
+To learn more, see [Manage the Tasks app for your organization in Microsoft Teams](../../manage-tasks-app.md)
+
+### Streamline approvals with the Approvals app
+
+Use [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) to streamline all of your requests and processes with your team. Create, manage, and share approvals directly from your hub for teamwork. Start an approval flow from the same place you send a chat, in a channel conversation, or from the Approvals app itself. Just select an approval type, add details, attach files, and choose approvers. Once submitted, approvers are notified and can review and act on the request.
+
+You can allow the Approvals app for your organization and add it to your teams. To learn more, see [Teams Approvals app availability](../../approval-admin.md).
+
+### Create, manage, and share schedules with the Shifts app and Frontline Worker integration
+
+Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, Nurse managers can set up and coordinate schedules for their staff, and nurses can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
+
+To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
+
+## Help your clinical and information workers get going with Teams
+
+There are many resources available to help all of the users in your organization get comfortable with using Teams:
+
+- Visit the [Teams adoption center](https://adoption.microsoft.com/microsoft-teams/) for advice on rolling out Teams if you are just starting your organization's journey with Teams, or expanding Teams into more areas of your organization.
+- Consider setting up custom [learning pathways](https://adoption.microsoft.com/microsoft-365-learning-pathways/) for your users to cover just the tasks they need to do.
+- Get help and training for your users on how to perform basic tasks in Microsoft Teams on the [Teams support site](https://support.microsoft.com/teams), including [quick training videos](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). This site also has help and training for the Teams apps, including [Lists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db), [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070), [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3), [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b), and [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).

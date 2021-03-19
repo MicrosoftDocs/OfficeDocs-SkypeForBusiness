@@ -1,7 +1,7 @@
 ---
 title: "Configure accounts for Microsoft Teams Rooms"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -23,11 +23,11 @@ Read this topic to learn about Microsoft Teams Rooms and how it integrates with 
   
 This topic introduces how to create accounts used by Microsoft Teams Rooms in Microsoft Exchange and Skype for Business. Deployment instructions for Microsoft Teams Rooms devices is covered in [Configure a Microsoft Teams Rooms console](console.md). Your infrastructure will likely fall into one of the following configurations:
   
-- Online deployment: Your organization's environment is deployed entirely on Office 365. For more information, see [Deploy Microsoft Teams Rooms with Office 365](with-office-365.md).
+- Online deployment: Your organization's environment is deployed entirely on Microsoft 365 or Office 365. For more information, see [Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365](with-office-365.md).
     
 - On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted. For more information, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
     
-- Hybrid deployments: Your organization has a mix of services, with some hosted on premises and some hosted online through Office 365. With Microsoft Teams Rooms, the following hybrid scenarios are supported: 
+- Hybrid deployments: Your organization has a mix of services, with some hosted on premises and some hosted online through Microsoft 365 or Office 365. With Microsoft Teams Rooms, the following hybrid scenarios are supported:
     
   - Exchange Online with Skype for Business Server on premises. For more information, see [Deploy Microsoft Teams Rooms with Exchange Online (Hybrid)](with-exchange-online.md).
     
@@ -48,7 +48,8 @@ Every device account is unique to a single Microsoft Teams Rooms device, and req
     
 > [!IMPORTANT]
 > It is highly recommended that account creation be done well in advance of actual hardware installation. Ideally, account preparation is started two to three weeks before installation. 
-In hybrid environments the account used for Microsoft Teams Rooms must have password sync enabled in AAD Sync because Microsoft Teams Rooms authentication requires Office 365 authentication.
+
+In hybrid environments the account used for Microsoft Teams Rooms must have password sync enabled in Azure Active Directory (AAD) Sync because Microsoft Teams Rooms authentication requires Microsoft 365 or Office 365 authentication. When setting up the account, make sure that the account's SIP address matches its User Principal Name (UPN) in AAD. 
   
 You can think of a device account as the resource account that people recognize as a conference room's or meeting space's account. When you want to schedule a meeting using that conference room, you invite the account to that meeting. In order to use Microsoft Teams Rooms most effectively, you do the same with the device account that's assigned to each one.
   
@@ -76,7 +77,7 @@ While the properties for the basic configuration will allow the device account t
    
 The easiest way to set up device accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new device accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms device accounts.
   
-If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+If you prefer to use the Microsoft 365 or Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Microsoft 365 or Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## See also
 

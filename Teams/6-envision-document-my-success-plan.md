@@ -216,7 +216,7 @@ emails, and training materials, along with any customizations you’ll need to
 meet your organization’s requirements.
 
 Download templates for adoption activities from the [Microsoft Teams Customer
-Success Kit](https://www.microsoft.com/download/details.aspx?id=54244).
+Success Kit](https://aka.ms/TeamsCustomerSuccess).
 
 ### Operational plan
 

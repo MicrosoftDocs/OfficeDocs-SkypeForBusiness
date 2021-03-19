@@ -1,7 +1,7 @@
 ---
 title: Define usage scenarios for Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -65,6 +65,6 @@ After speaking to one or more business stakeholders you can prioritize your scen
 ![An illustration showing Scenario impact vs. difficulty](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> We are always eager to learn about how our customers use Teams in new an innovative ways. Share your #TeamsStories with us in our [Driving Adoption discussion forum]. Include the hashtag **#TeamsStories** in your post. We are always interested in how you use Teams in your organization.
+> We are always eager to learn about how our customers use Teams in new an innovative ways. Share your #TeamsStories with us in our [Driving Adoption discussion forum](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Include the hashtag **#TeamsStories** in your post. We are always interested in how you use Teams in your organization.
 
 ![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md).

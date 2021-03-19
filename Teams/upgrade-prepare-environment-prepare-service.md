@@ -1,12 +1,12 @@
 ---
-title: Prepare for Microsoft Teams upgrade|  Onboarding Rollout Checklist
-author: lanachin
-ms.author: v-lanac
+title: Prepare your service for an upgrade to Microsoft Teams
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Learn about the requirements for preparing your organization for collaboration and cloud voice services with Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -35,19 +35,22 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 This article gives an overview of the requirements for preparing your organization for collaboration and cloud voice services with Teams. By preparing properly, you can be sure you're ready to provide these capabilities to your organization.
 
-## Onboarding checklists for Microsoft Teams rollout
+## Onboarding checklists and landing pages for Microsoft Teams rollout
 
-The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
+The following checklists and landing pages walk you through the steps for deploying Microsoft Teams in your organization:
 
-- [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
+- [Prepare Microsoft 365 or Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
 - [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
 - [Prepare your network](prepare-network.md)
 
-- [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Chat, teams, channels, and apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [Configure Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Meetings and audio conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [Phone System and PSTN connectivity options](cloud-voice-landing-page.md)
+
 
 The tasks and activities in these checklists are the core "to-do" items that apply to every deployment of collaboration and voice capabilities with Teams. You can customize the checklists to include the activities and tasks that are specific to your own Teams journey.
 

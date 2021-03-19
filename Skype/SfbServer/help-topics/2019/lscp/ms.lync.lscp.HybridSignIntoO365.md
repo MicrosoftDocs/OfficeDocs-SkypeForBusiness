@@ -1,8 +1,8 @@
 ---
 title: "Hybrid wizard Sign in to Microsoft 365 or Office 365"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article

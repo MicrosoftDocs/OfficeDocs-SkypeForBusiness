@@ -24,14 +24,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Macedonia."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Macedonia."
 ---
 
 # Availability in Macedonia
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Macedonia.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Macedonia.
   
 ## Audio Conferencing
 

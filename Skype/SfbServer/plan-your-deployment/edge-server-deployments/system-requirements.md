@@ -1,8 +1,8 @@
 ---
 title: "Edge Server system requirements in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -84,7 +84,7 @@ And for mobile devices:
   
 - it lets them automatically discover Front End Servers offering mobility services.
     
-- it enables push notifications from Office 365 to mobile devices.
+- it enables push notifications from Microsoft 365 or Office 365 to mobile devices.
     
 Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) page. So your reverse proxy:
   

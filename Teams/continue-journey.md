@@ -1,14 +1,14 @@
 ---
-title: Microsoft Teams User Adoption Plan | Best Practices
-author: kenwith
-ms.author: kenwith
+title: How to use Microsoft Teams effectively
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 search.appverid: MET150
-description: Learn how to use Teams to monitor network health, keep users engaged, and prepare for new functionality.
+description: Learn how to use Teams to monitor network health, to keep users engaged, and to prepare for new functionality.
 localization_priority: Normal
 ms.custom: 
 - Teams-upgrade-guidance
@@ -22,7 +22,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# How to use Microsoft Teams Effectively
+# How to use Microsoft Teams effectively
 
 ![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
@@ -32,10 +32,10 @@ Technology is innovating at an unprecedented pace. Staying current and enabling 
 
 ## Monitor for network health and quality
 
-The status of your network affects the user experience. When a user has a poor experience (for example, call drops or lag time when joining meetings), they correlate this to the technology itself, leaving them with the impression that the technology doesn't work and opening the door for unsupported apps. Implementing a plan to monitor and mitigate network health will help ensure a positive user experience in addition to reducing calls to your support desk. For more information, see the following articles:
+The status of your network affects the user experience. When a user has a poor experience (for example, call drops or lag time when joining meetings), they correlate this to the technology itself, leaving them with the impression that the technology doesn't work and opening the door for unsupported apps. Implementing a plan to monitor and mitigate network health will help ensure a positive user experience in addition to reducing calls to your support desk. For more information, see:
 
 - [Operate your service](upgrade-operate-my-service.md)
-- [Monitor quality](upgrade-monitor-quality.md)
+- [Monitor and improve call quality](monitor-call-quality-qos.md)
 - [Enhance your service](upgrade-enhance-my-service.md)
 
 ## Drive user momentum and adoption
@@ -43,7 +43,7 @@ The status of your network affects the user experience. When a user has a poor e
 To realize maximum benefit and business outcomes with Teams, users must actually use it. However, initial excitement tends to wane and users easily revert to old ways of working. Encourage user adoption and maintain excitement for Teams with an ongoing adoption plan, which can include:
 
 - Enlisting peer champions to help evangelize and encourage fellow users.
-- Checking the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) for tips on boosting engagement and driving adoption.
+- Checking the [Microsoft 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) for tips on boosting engagement and driving adoption.
 - Leveraging the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) to enhance awareness and share best practices.
 - Implementing a formal [adoption and change management strategy](http://www.successwithteams.com/) to help sustain adoption growth.
 

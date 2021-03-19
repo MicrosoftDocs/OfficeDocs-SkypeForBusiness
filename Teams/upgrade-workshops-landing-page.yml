@@ -1,0 +1,65 @@
+### YamlMime:Hub
+
+title: Teams upgrade planning workshops
+summary: Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the Plan your upgrade session below. Click any workshop title to register. # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: teams
+
+metadata:
+  title: Teams upgrade planning workshops # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Join us for a series of live, interactive upgrade planning workshops, where we'll share guidance, best practices and resources designed to help you plan and implement your upgrade to Teams. For an optimal experience, start with the Plan your upgrade session below. Click any workshop title to register. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
+  ms.author: serdars #Required; microsoft alias of author; optional team alias.
+  manager: serdars
+  ms.date: 01/27/2020 #Required; mm/dd/yyyy format.
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection: 
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
+  ms.custom:
+    - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto: 
+    - Microsoft Teams
+
+
+# productDirectory section (optional)
+productDirectory:
+  items:
+    # Card
+    - title: Plan your upgrade (Start here!)
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+      summary: Whether you're upgrading to Teams ahead of the retirement of Skype for Business Online (July 31, 2021) or moving scenarios from your Skype for Business on-premises environment to Teams, a successful transition addresses both technical and user readiness. Discover our proven framework, best practices, and resources designed to help you facilitate a successful transition to Teams from Skype for Business Online, Skype for Business Server, or a hybrid environment. Audience – All (Business sponsors, IT admins, user readiness/change manager, project lead)
+      url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+    # Card
+    - title: Implement your Teams upgrade
+      imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+      summary: Join us to identify and prepare to execute the best technical approach for moving all workloads to Teams, based on your goals and your current Skype for Business environment. Most customers who have completed successful transitions have enabled Teams alongside their current Skype for Business Online, Skype for Business Server, or hybrid implementation. This session will share key considerations and valuable resources to help you define the best migration strategy for your organization. Audience - IT admins
+      url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - items:
+        # Card
+        - title: View these workshops on your own time
+          summary: Visit Upgrade to Microsoft Teams on YouTube.
+          url: https://aka.ms/UpgradeOnDemand
+        # Card
+        - title: Expanding your Teams scenarios? 
+          summary: Check out our Teams Chalk Talk workshops for IT Pros.
+          url: https://aka.ms/TeamsChalkTalks
+        # Card
+        - title: New to Teams? 
+          summary: Learn more about getting started with Teams.
+          url: https://docs.microsoft.com/microsoftteams/teams-overview
+

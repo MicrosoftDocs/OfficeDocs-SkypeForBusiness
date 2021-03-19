@@ -1,8 +1,8 @@
 ---
 title: "MediaList table"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/12/2016
 audience: ITPro

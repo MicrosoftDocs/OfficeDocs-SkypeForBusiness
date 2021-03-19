@@ -1,7 +1,7 @@
 ---
 title: Steering committee for cloud voice deployment
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -84,7 +84,7 @@ When scheduling a committee meeting, take into consideration the project and org
 
 ### Prepare for the meeting
 
-To make the most of everyone's time, you need to prepare for the meeting. The core team can start to prepare the material for the steering committee meeting. The [Steering Committee Template – Link to sample PPT template] Steering Committee Template can be used as a starting point for preparation.
+To make the most of everyone's time, you need to prepare for the meeting. The core team can start to prepare the material for the steering committee meeting. You can create a PowerPoint presentation to help prepare for the meeting.
 
 The following assets should be completed and included in the presentation deck for the meeting:
 

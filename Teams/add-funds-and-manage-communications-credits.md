@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
 appliesto: 
   - Skype for Business
   - Microsoft Teams
@@ -33,18 +34,18 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
 
 # Add funds and manage Communications Credits
 
-Communications Credits are a convenient way to pay for Phone System and Calling Plans in Office 365. Communication Credits helps ensure that you and your users are never caught without being able to:
+Communications Credits are a convenient way to pay for Phone System and Calling Plans in Microsoft 365 or Office 365. Communication Credits helps ensure that you and your users are never caught without being able to:
   
 - Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.
-    
+
 - Dial out from an Audio Conferencing meeting to add someone else from anywhere in the world.
-    
+
 - Dial out from an Audio Conferencing meeting to your mobile phone with the Skype for Business or Microsoft Teams app installed.
-    
+
 - Dial any international phone number when you have a **Domestic Calling Plan**.
-    
+
 - Dial out and pay per minute once you have exhausted your monthly minute allotment.
-    
+
 > [!NOTE]
 > If you're wondering how much it is and the rates, see the rates table on the [Calling Plans](https://go.microsoft.com/fwlink/p/?LinkId=799523) page.
   
@@ -57,31 +58,29 @@ You can update your payment options at any time. On the **Subscriptions** page, 
 Funds will be applied only to Communications Credits at Microsoft's published rates when the services are used. Any funds not used within twelve (12) months of the purchase date will expire and be forfeited.
   
 > [!TIP]
-> We'll send you email notifications when funds are added via auto-recharge, when auto-recharge fails (for example, when a credit card expires), and when your balance falls below zero. 
+> We'll send you email notifications when funds are added via auto-recharge, when auto-recharge fails (for example, when a credit card expires), and when your balance falls below zero.
   
 For more information, see [What are Communications Credits?](what-are-communications-credits.md)
   
-## Want to know about plans and pricing?
+## Want to know about plans and pricing
 
 You can see the plans and pricing by visiting one of the following links:
   
 - [Calling Plans](https://go.microsoft.com/fwlink/?LinkId=799761 )
-    
+
 - [Audio Conferencing plans](https://go.microsoft.com/fwlink/?LinkId=799762 )
-    
+
 - [Phone System plans](https://go.microsoft.com/fwlink/?LinkId=799763)
-    
-You can also see information by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+
+You can also see information by signing in to the Microsoft 365 admin center and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## Related topics
 
 - [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
-    
+
 - [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)
-    
-- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
-        
- 
- 
+
+- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md)
+

@@ -1,7 +1,7 @@
 ---
 title: Manage Teams transitioning to the new Teams admin center
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -29,7 +29,7 @@ Manage Teams during the transition to the new Microsoft Teams admin center
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## What is the new Microsoft Teams admin center?  
+## What is the new Microsoft Teams admin center  
 
 The new admin center experience will provide you with a unified experience to manage both Teams and Skype for Business. We're delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
 
@@ -47,7 +47,7 @@ The following table identifies the sections of the Teams experience that have be
 |Email integration     |Allow senders list         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Tenant         |
 |Custom cloud storage     |Box         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Custom cloud storage     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
-|Custom cloud storage     |Egnyte         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
+|Custom cloud storage     |Egnyte        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Custom cloud storage     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Custom cloud storage     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Deprecated<sup>1</sup>        |         |
@@ -79,15 +79,15 @@ The following table identifies the sections of the Teams experience that have be
 
 - Allow a user to sideload apps which can be managed at a user level in [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Allow users in a tenant to interact with custom apps which can be managed at a tenant level in org-wide app settings.
- 
-<sup>3</sup> Default apps and external apps can be enabled and disabled at the user level in TeamsAppPermissionPolicy. Additionally, apps can be blocked at the tenant level in org-wide app settings which overrides any user and tenant-level settings. 
+
+<sup>3</sup> Default apps and external apps can be enabled and disabled at the user level in TeamsAppPermissionPolicy. Additionally, apps can be blocked at the tenant level in org-wide app settings which overrides any user and tenant-level settings.
 
 > [!NOTE]
-> You'll continue to use the Groups dashboard in the Microsoft 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Microsoft 365 admin center and will be migrated later. 
+> You'll continue to use the Groups dashboard in the Microsoft 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Microsoft 365 admin center and will be migrated later.
 
 ## Manage settings during the migration
 
-You can continue to modify settings in the Microsoft 365 admin center and the Skype for Business admin center until migration for a section is complete for your tenant. 
+You can continue to modify settings in the Microsoft 365 admin center and the Skype for Business admin center until migration for a section is complete for your tenant.
 
 The following table shows where you can manage features during the migration.
 
@@ -99,7 +99,7 @@ The following table shows where you can manage features during the migration.
 |Teams Lifecycle Management   |    X    |      |       |
 |Teams Settings   |    X    |      |       |
 |External access settings     |    X    |      |       |
-|User management    |         |         |    X     |    
+|User management    |         |         |    X     |
 |Audio conferencing     |    X     |    X     |         |
 |Calling plans     |    X    |    X     |         |
 |Phone System    |    X    |     X    |         |
@@ -110,4 +110,4 @@ The following table shows where you can manage features during the migration.
 
 ## Manage settings after the migration
 
-When the migration of these settings is complete, we'll disable them in the Office 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.
+When the migration of these settings is complete, we'll disable them in the Microsoft 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.

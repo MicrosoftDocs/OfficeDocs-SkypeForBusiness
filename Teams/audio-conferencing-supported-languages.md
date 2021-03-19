@@ -26,7 +26,7 @@ description: "Find the dial-in conferencing language for each country or region 
 
 # Audio Conferencing supported languages
 
-When you are setting up and configuring Audio Conferencing in Office 365, you can select the primary and secondary (up to 4) languages that are used when callers dial in to a Skype for Business or Microsoft Teams meeting. Here is the list of supported languages for Audio Conferencing: 
+When you are setting up and configuring Audio Conferencing in Microsoft 365 or Office 365, you can select the primary and secondary (up to 4) languages that are used when callers dial in to a Skype for Business or Microsoft Teams meeting. Here is the list of supported languages for Audio Conferencing: 
   
 > [!IMPORTANT]
 > Primary and secondary languages can be changed only on dedicated Audio Conferencing phone numbers. 
@@ -88,11 +88,11 @@ If you are looking for specific countries or regions that have phone numbers for
 
 - To save time or automate this, you can use the [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) or [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) cmdlets.
     
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics: 
     
@@ -107,6 +107,6 @@ If you are looking for specific countries or regions that have phone numbers for
   
 ## Related topics
 
-[Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

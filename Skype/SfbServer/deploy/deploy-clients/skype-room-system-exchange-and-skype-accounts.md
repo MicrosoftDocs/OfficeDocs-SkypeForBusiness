@@ -1,7 +1,7 @@
 ---
 title: "Provisioning of Skype Room System Exchange and Skype Accounts"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -33,7 +33,7 @@ The following topics describe how to provision and manage Skype Room System Exch
     
 - Multiple forest on-premises deployments
     
-- Office 365
+- Microsoft 365 or Office 365
     
 - Hybrid deployments
     

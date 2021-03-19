@@ -1,11 +1,10 @@
 ---
 title: "Toll-free dialing restrictions in Sweden"
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-cichur
+author: cichur
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 2d5f5cf4-1068-4a6d-a9e5-3dc4c67f1105
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -33,7 +32,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 02 XXX XXXX <br/>  0200 XX XXXX <br/> |
+|Dialing format(s)  <br/> | 020 <br/> |
 |Country/region ISO code  <br/> |SE  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> |Not applicable  <br/> |

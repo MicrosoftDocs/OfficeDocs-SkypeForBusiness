@@ -1,8 +1,8 @@
 ---
 title: Verify service health for Microsoft Teams
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: It's a good practice to verify that the Teams service is healthy as well as other Office 365 components such as Exchange, SharePoint, and OneDrive for Business.
+description: It's a good practice to verify that the Teams service is healthy as well as other Microsoft 365 or Office 365 components such as Exchange, SharePoint, and OneDrive for Business.
 appliesto: 
   - Microsoft Teams
 ---
@@ -21,10 +21,15 @@ appliesto:
 Verify service health for Microsoft Teams
 ===========================================
 
-Service health for Microsoft Teams is displayed on the Microsoft 365 admin center. Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy.
+Service health for Microsoft Teams is displayed on the Microsoft 365 admin center. Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy. Go to the <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> console to review the service health.
 
-Also, keep in mind that, Microsoft Teams is built on top of additional Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business. Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.
+Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft 365 or Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business. Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.
 
 ![Screenshot of the Service Health page.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Screenshot showing the Microsoft Teams service is healthy.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## Related topics
+
+[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

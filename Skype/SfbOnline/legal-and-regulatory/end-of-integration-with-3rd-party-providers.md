@@ -54,7 +54,7 @@ Depending on the desired end state of an organization, there are three paths tha
 
 Organizations that decide to migrate to Microsoft Audio Conferencing and complete their migration prior to July 31, 2021, will not experience any service impact during or after that date. The migration to Microsoft Audio Conferencing will introduce the following changes to an organization: 
 
-- The service will be billed with all other Office 365 services. 
+- The service will be billed with all other Microsoft 365 or Office 365 services. 
 
 - If the standard subscription is purchased, toll dial-in cost will be included in the per-user monthly subscription cost. 
 
@@ -68,13 +68,13 @@ Organizations that decide to migrate to Microsoft Audio Conferencing and complet
 
 Migrating to Microsoft Audio Conferencing is simple, and it can be done in just a couple of steps after acquiring the licenses for the service. To learn about how to migrate to Microsoft Audio Conferencing, see:
 
-- [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Summary:**
 
 - Organizations that migrate to Microsoft Audio Conferencing and complete their migration before July 31, 2021, won’t see any impact to their service during or after that date.
 
-- To learn more about migrating to Microsoft Audio Conferencing, see [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
+- To learn more about migrating to Microsoft Audio Conferencing, see [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
 
 ### Path #2: Continue to separately use a third-party audio conferencing provider
 

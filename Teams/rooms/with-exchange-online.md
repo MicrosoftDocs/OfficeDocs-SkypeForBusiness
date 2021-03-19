@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms with Exchange Online"
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -81,7 +81,7 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 4. Click **Finish** to create the account.
 5. After you have created the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) in PowerShell. When that is complete, go to the users page and verify that the two accounts created in the previous steps have merged.
 
-### Assign an Office 365 license
+### Assign a Microsoft 365 or Office 365 license
 
 1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
@@ -95,14 +95,14 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. The user account needs to have a valid Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account. You'll make the assignment in a following step.
-3. Next, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> to retrieve a list of available SKUs for your Office 365 organization.
+2. The user account needs to have a valid Microsoft 365 or Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account. You'll make the assignment in a following step.
+3. Next, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
 4. Once you list out the SKUs, you can add a license using the `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK). 
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
-     Get-MsolAccountSku
-     Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
+    Get-MsolAccountSku
+    Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
     ```
   <!--   ``` Powershell
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -114,11 +114,16 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 1. Create a remote Windows PowerShell session from a PC as follows:
 
+> [!NOTE]
+> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+>
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+
     ``` Powershell
-    Import-Module SkypeOnlineConnector
-    $cred = Get-Credential
-    $cssess = New-CsOnlineSession -Credential $cred  
-    Import-PSSession $cssess -AllowClobber
+    # When using Teams PowerShell Module
+    Import-Module MicrosoftTeams
+    $credential = Get-Credential
+    Connect-MicrosoftTeams -Credential $credential
     ```
 
 2. To enable your Microsoft Teams Rooms account for Skype for Business Server, run this command:
@@ -135,7 +140,7 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 ### Assign a Skype for Business Server license to your Microsoft Teams Rooms account
 
-1. Log in as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.
+1. Log in as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.
 2. Click on **Users and Groups** and then click **Add users, reset passwords, and more**.
 3. Click the Microsoft Teams Rooms account, and then click the pen icon to edit the account information.
 4. Click **Licenses**.
@@ -145,7 +150,7 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 For validation, you should be able to use any Skype for Business client to log in to this account.
 
 > [!NOTE]
-> If you're currently using E1, E3, E4, or E5 SKUs with Skype for Business Plan 2 with Audio Conferencing or with Office 365 Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model as described in [Teams Meeting Room Licensing Update](rooms-licensing.md), after current licenses expire.
+> If you're currently using E1, E3, E4, or E5 SKUs with Skype for Business Plan 2 with Audio Conferencing or with Phone System and a Calling Plan, these will continue to work. However, you should consider moving to a simpler licensing model as described in [Teams Meeting Room Licensing Update](rooms-licensing.md), after current licenses expire.
 
 > [!IMPORTANT]
 > If you're using Skype for Business Plan 2, you can only use the Microsoft Teams Rooms in Skype for Business Only mode, meaning all of your meetings will be Skype for Business meetings. In order to enable your meeting room for Microsoft Teams meetings, we recommend you purchase the Meeting Room license.

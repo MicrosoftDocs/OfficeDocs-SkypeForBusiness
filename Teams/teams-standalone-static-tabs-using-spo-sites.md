@@ -1,6 +1,6 @@
 ---
 title: Create a Teams 'Intranet Portal app' from a SharePoint Online site or page
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -12,7 +12,7 @@ ms.collection:
   - remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Take an existing SharePoint Online site or page and create a standalone static tab that can be used as an Intranet portal for your organization. 
+description: Take an existing SharePoint Online site or page and create a standalone personal tab that can be used as an Intranet portal for your organization. 
 localization_priority: Priority
 ---
 
@@ -32,20 +32,26 @@ Be aware that the process shown **must use** a *modern* SharePoint site or page 
 Before you begin:
 
 1. You'll need to know the URL of a SharePoint Online modern Communication or Team site, or page.
-    - These sites will always have either */teams/* or */sites/* in their paths.
+
+   These sites will always have either */teams/* or */sites/* in their paths.
 
 2. You'll need to know your tenant's subdomain, which will be used in the placeholder **{{subdomain}}**.
 
-3. This article will use **{{siteUrl}}** placeholder for your the *URL* of the site or page you chose.
-    - Example *URLs*:
-        https://contoso.sharepoint.com/teams/Contoso
-        *or*
-        https://contoso.sharepoint.com/sites/Contoso
+3. This article will use **{{siteUrl}}** as a placeholder for the *URL* of the site or page you chose.
+
+   Example *URLs*:
+   
+   - `https://contoso.sharepoint.com/teams/Contoso`
+      <br/>*or*
+   - `https://contoso.sharepoint.com/sites/Contoso`
+		
 4. Also, **{{sitePath}}** will be used to denote the *path* of the URL (ex: /teams/Contoso).
-    - Example *paths*:
-        /teams/Contoso
-        *or*
-        /sites/Contoso
+
+   Example *paths*:
+   
+   - /teams/Contoso
+     <br/>*or*
+   - /sites/Contoso
 
 Begin by following the steps below:
 
@@ -69,48 +75,50 @@ Begin by following the steps below:
 
 10. Fill in the **contentURL and Website URL**.
 
-- **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
-- **websiteUrl**: {{siteUrl}}
+    - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+	
+    - **websiteUrl**: {{siteUrl}}
 
-    Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+      Example **contentURL**:
+	  
+      `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
 
-    Example: contoso.sharepoint.com
+    Example: `contoso.sharepoint.com`
 
 12. Add the following web app **single sign-on** properties:
 
-     Example:
-     **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
-     **Resource Url**: {{subdomain}}.sharepoint.com
+    Example:
+	
+    - **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
+	
+    - **Resource Url**: {{subdomain}}.sharepoint.com
 
-    ![Web app single sign-on, with ID and URL.](media/personal-app.png)
+      ![Web app single sign-on, with ID and URL.](media/personal-app.png)
 
 13. **Save** these properties and then navigate to **Test and distribute**.
 
 14. Install the app to test the application personally.
 
-> [!IMPORTANT]
-> If you aren't using Teams App Studio, you will have to .zip the manifest.JSON file you just created, navigate to the App Store in Teams, and click  **upload custom app** link (at the bottom right of the App Store). This will make the app available to you.
+    > [!IMPORTANT]
+    > If you aren't using Teams App Studio, you will have to .zip the manifest.JSON file you just created, navigate to the App Store in Teams, and click  **upload custom app** link (at the bottom right of the App Store). This will make the app available to you.
 
-15. Now the app is available as a static tab for you to load and view in Teams.
+15. Now the app is available as a personal tab for you to load and view in Teams.
 
-## Test and view your new static tab
+## Test and view your new personal tab
 
 To view the new tab on the Teams desktop, navigate to the ellipses (**…**) in the left-hand side of your app bar. Find your new app, load it, and test your standalone application in Teams.
 
-If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this. This setting can be found under the Team admin section > app policy > add a pinned application. When you assign the policy to a user for testing, the change will appear 24 hours later. With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.
+If you want to make the new app available in the left menu at a higher position, you must use an app policy setting for this. This setting can be found under the Team admin section > app policy > add a pinned application. When you assign the policy to a user for testing, the change will appear a few hours later. With this in mind, please decide where the app should appear at your earliest convenience to help avoid delays.
 
 To view and test the new app on a mobile device, open the app drawer by tapping on the chevron (**^**) above the tab bar near the bottom of your screen. Find your app and navigate to it on your mobile device.
 
-> [!CAUTION]
-> Mobile support is currently in Developer Preview. To enable Developer Preview, navigate to Settings > About and then enable Developer Preview mode.
-
 ## A Sample Manifest.JSON file
 
-The JSO        file you generate will look something like the one below.
+The JSON file you generate will look something like the one below.
 
-```JSON'
+```json
 {
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",

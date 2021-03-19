@@ -1,0 +1,83 @@
+### YamlMime:Landing
+
+title: Skype for Business Server 2015 documentation # < 60 chars
+summary: Learn how to implement Skype for Business Server 2015.  # < 160 chars
+
+metadata:
+  title: Skype for Business Server 2015 documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to implement Skype for Business Server 2015. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: skype-for-business-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  audience: ITPro
+  ms.topic: landing-page # Required
+  ms.collection: collection # Optional; Remove if no collection is used.
+  author: lanachin #Required; your GitHub user alias, with correct capitalization.
+  ms.author: v-lanac #Required; microsoft alias of author; optional team alias.
+  ms.date: 06/23/2020 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About Skype for Business Server 2015
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Environment requirements
+            url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+          - text: Network requirements
+            url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+          - text: Skype Meeting Broadcast
+            url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
+          - text: Technical diagrams
+            url: /SkypeForBusiness/technical-diagrams
+      - linkListType: download
+        links:
+          - text: Download now!
+            url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
+
+  # Card (optional)
+  - title: Plan
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Plan for your deployment
+            url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+          - text: Plan hybrid connectivity
+            url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
+          - text: Plan for clients and devices
+            url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
+          - text: Plan your Enterprise Voice solution
+            url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+  # Card
+  - title: Install and manage
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Deploy Skype for Business Server
+            url: /SkypeForBusiness/deploy/deploy
+          - text: Install Skype for Business Server
+            url: /SkypeForBusiness/deploy/install/install
+          - text: Upgrade to Skype for Business Server
+            url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+          - text: Deploy Enterprise Voice
+            url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+          - text: Configure your on-premises deployment for Skype Meeting Broadcast
+            url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+      - linkListType: how-to-guide
+        links:
+          - text: Manage Skype for Business Server
+            url: /SkypeForBusiness/manage/manage
+
+  # Card
+  - title: Other resources
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Skype for Business readiness series
+            url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
+          - text: Skype for Business Server 2019 documentation
+            url: /SkypeForBusiness/skype-for-business-server-2019
+          - text: Lync Server 2013 documentation
+            url: /lyncserver/microsoft-lync-server-2013

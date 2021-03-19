@@ -1,8 +1,8 @@
 ---
 title: Plan for Microsoft 365 Groups when creating teams
 ms.reviewer: 
-author: LolaJacobsen
-ms.author: lolaj
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/29/2018
 ms.topic: conceptual
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
 ms.custom: 
@@ -28,11 +29,9 @@ When considering the use of Microsoft 365 Groups or when creating teams, conside
 
 There are two scenarios that warrant some discussion around planning of Microsoft 365 Groups and their impact on (or by) Microsoft Teams:
 
--   First, since customers could have existing investments in Groups, we currently support both Public and Private groups of less than 5000 members. As mentioned previously, you want to manage the membership of people to a team using the Teams client rather than the Office 365 admin web console. Given this scenario, if people are used to threaded conversations in Microsoft 365 Groups, it is worthwhile noting that a Groups conversation is essentially email and not the same as a chat message in a Teams channel. Educate your people about this difference and suggest they adopt the more flexible chat message format in Teams versus emailing the Group using Outlook or OWA.
+-   First, since customers could have existing investments in Groups, we currently support both Public and Private groups, for the number of members currently supported, please see [Limits and specifications for Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams). As mentioned previously, you want to manage the membership of people to a team using the Teams client rather than the Microsoft 365 admin center. Given this scenario, if people are used to threaded conversations in Microsoft 365 Groups, it is worthwhile noting that a Groups conversation is essentially email and not the same as a chat message in a Teams channel. Educate your people about this difference and suggest they adopt the more flexible chat message format in Teams versus emailing the Group using Outlook or OWA.
 
--   Second, for customers who don't have existing Groups defined in Office 365, you can either create them using the Microsoft 365 admin center, the Teams web, or desktop clients. As mentioned previously, manage all future membership to the Office 365 Group using the Teams client. Since membership to a team is also defining membership to Microsoft 365 Groups, you should prepare people for this change.
- 
-
+-   Second, for customers who don't have existing Groups defined in Microsoft 365, you can either create them using the Microsoft 365 admin center, the Teams web, or desktop clients. As mentioned previously, manage all future membership to the Microsoft 365 group using the Teams client. Since membership to a team is also defining membership to Microsoft 365 Groups, you should prepare people for this change.
 
 ## Teams respects Microsoft 365 Groups naming policy (in private preview)
 
@@ -49,4 +48,4 @@ The following articles are a good place to find readiness and adoption content f
 
 -   [Add or remove members from Microsoft 365 Groups using the Microsoft 365 admin center](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [Restore a deleted Office 365 Group](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [Restore a deleted group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)

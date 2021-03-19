@@ -1,5 +1,5 @@
 ---
-title: "Management overview for Microsoft Teams Rooms"
+title: "Manage Microsoft Teams Rooms"
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -17,75 +17,157 @@ description: Learn about how to develop and execute ongoing maintenance and oper
 ms.custom: seo-marvel-apr2020
 ---
 
-# Management overview
+# Manage Microsoft Teams Rooms
 
-It's essential that you develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users and deliver a great user experience. 
+If you have Microsoft Teams Rooms-certified devices in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams Admin Center or you can transfer management responsibility to dedicated experts using [Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com).  You can also delegate management access to a partner of your choice for either of the options.
 
-## Monitoring 
+With Microsoft Teams Admin Center, you can:
 
-Monitoring Microsoft Teams Rooms systems consists of two key activities:
+- Perform device management like restarting or blocking devices, and downloading device logs
+- Apply Teams-specific settings
+- Check the health status of Microsoft Teams Room devices and their peripherals, including cameras, displays, microphones, and so on
+- Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
+- See peripherals (such as cameras and projectors) connected to a Microsoft Teams Room device
 
-- Device, application, and peripheral device monitoring
-- Quality and reliability monitoring (CQD)
+To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Devices** > **Teams Rooms**.
 
-### Microsoft Teams Rooms device, application, and peripheral device monitoring
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams Rooms summary pages in Teams admin center":::
 
-To ensure that users are able to use the Microsoft Teams Rooms units, the units must be on, connected to the network with the Microsoft Teams Rooms application correctly configured, and be connected to functioning peripheral devices. 
+> [!IMPORTANT]
+> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Service Administrator or Teams Device Administrator roles.
 
-Information about the state of the Microsoft Teams Rooms application and connected peripheral devices is written by the Microsoft Teams Rooms application to the Windows event log and documented in [Understand the log entries](azure-monitor-manage.md#understand-the-log-entries). 
+## Make changes to Teams Rooms devices
 
-|**Setting**|**Allows**|
-|:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Enables Microsoft Teams Rooms to boot up  <br/> |
-|Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
+If you have more than one Teams Rooms device, you can do most actions on multiple devices at the same time. For example, you can set Teams app settings on all of your devices at the same time.
 
-Transferring files using Group Policies is discussed in [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
-  
-## Remote Management using PowerShell
-<a name="RemotePS"> </a>
+### Device settings
 
-We recommend that you use Microsoft Operations Manager Suite to monitor your Microsoft Teams Rooms systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md). 
+You can change settings on one or more devices in your organization. To change settings, select the device or devices you want to manage and then select **Edit Settings**. A new pane will open with all of the settings you can change on your devices. The following table lists the settings you can change using the Teams admin center. Some settings are only available when you select a single device.
 
-Using this guidance, you can create a simple-to-use dashboard to identify any issues with your Microsoft Teams Rooms units across your deployment. 
+If you select more than one device, settings that support bulk editing show the two following options.
 
-|    |     |
-|-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Microsoft Teams Rooms deployment.</li><li>Decide the target distribution list you'll use for email alerts.</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
+- **Keep existing value** If you choose this option, no changes will be made to the setting on the devices you selected.
+- **Replace existing value with** If you choose this option, you can update the setting on the devices you selected with the value you provide.
+    > [!CAUTION]
+    > Existing values on the settings you choose to update will be replaced with the value you provide. If you want to add to a list of existing values, you need to include the existing values with the value you want to add. For example, if a setting has an existing domain list of `contoso.com, fabrikam.com`, and you want to add `northwindtraders.com`, the value you need to provide would be `contoso.com, fabrikam.com, northwindtraders.com`.
+    >
+    > If you select multiple devices, the setting on all of the devices you select will be changed to the value you provide. If devices have different values for a setting, they'll all be updated to the same value.
 
-## Quality and reliability monitoring (CQD)
+| Setting                                                      | Accepted values                                        | Supports bulk edit |
+|--------------------------------------------------------------|--------------------------------------------------------|--------------------|
+| *Account*                                                    |                                                        |                    |
+| **Email**                                                    | Email address                                          | No                 |
+| **Supported meeting mode**                                   | Skype for Business (default) and Microsoft Teams<br>Skype for Business and Microsoft Teams (default)<br>Skype for Business Only|Yes|
+| **Modern authentication**                                    | On<br>Off                                              | Yes                |
+| **Exchange address**                                         | Email address                                          | No                 |
+| **Domain\username (optional)**                               | Account domain and user name                           | No                 |
+| **Configure domain**                                         | Comma-separated list                                   | Yes                |
+| *Meetings*                                                   |                                                        |                    |
+| **Automatic screen sharing**                                 | On<br>Off                                              | Yes                |
+| **Show meeting names**                                       | On<br>Off                                              | Yes                |
+| **Auto-leave if everyone else left meeting**                 | On<br>Off                                              | Yes                |
+| *Device*                                                     |                                                        |                    |
+| **Dual monitor mode**                                        | On<br>Off                                              | Yes                |
+| **Bluetooth beaconing**                                      | On<br>Off                                              | Yes                |
+| **Automatically accept proximity-based meeting invitations** | Selected<br>Unselected                                 | Yes                |
+| **Send logs with feedback**                                  | On<br>Off                                              | Yes                |
+| **Email address for logs and feedback**                      | Email address                                          | Yes                |
+| *Peripherals*                                                |                                                        |                    |
+| **Conferencing microphone**                                  | List of available microphones                          | No                 |
+| **Conferencing speaker**                                     | List of available speakers                             | No                 |
+| **Default volume**                                           | 0-100                                                  | No                 |
+| **Default speaker**                                          | List of available speakers                             | No                 |
+| **Default volume**                                           | 0-100                                                  | No                 |
+| **Content camera**                                           | List of available cameras                              | No                 |
+| **Content Camera Enhancements**                              | On<br>Off                                              | No                 |
+| **Rotate Content Camera 180 degrees**                        | On<br>Off                                              | No                 |
+| *Theming*                                                    |                                                        |                    |
+|                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                |
 
-We recommend that you implement ongoing operational quality and reliability monitoring procedures as part of your deployment to monitor the trending of call and meeting quality and reliability, identifying any areas of concern and working toward a resolution. 
+### Device restart options
 
-When you upload your building information to CQD you can investigate call quality and reliability trends on a per-building level, which makes it easy to compare buildings and focus your attention on specific problems.
+Changes to device settings will only take effect after the devices have been restarted. When you make changes that need a restart, you can choose whether to restart the devices immediately or schedule a restart. Here are the available restart options:
 
-We recommend that you review and follow the [Quality of Experience Review Guide](https://aka.ms/qerguide) to identify quality and reliability trends, and create an action plan to resolve them. 
+- **Immediate restart** If you choose this option, all of the devices you're making changes to will restart as soon as you select this option.
+- **Scheduled restart** If you choose this option, you can restart the devices you're making changes to at a time that's less disruptive to your organization.
+  - **Select date and time** - Choose the specific date and time to restart the device. The date and time you choose is local to the device being restarted. 
+  - **Leave update for nightly reboot** Devices are restarted nightly to perform maintenance. Changes you make to devices will be applied during this restart.
 
-## Updating the Microsoft Teams Rooms OS and Microsoft Teams Rooms application
+> [!CAUTION]
+> Devices in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
 
-We recommend that you update the Microsoft Teams Rooms OS and Microsoft Teams Rooms application to benefit from product updates and improvements. For detailed guidance, see [Manage Microsoft Teams Rooms](rooms-operations.md#software-updates). 
+### Remove or block a device
 
-## Windows Updates
+When you **remove** a device, the device is removed from your organization and no longer appears in your list of Teams Rooms devices in the Teams admin center. 
 
-Microsoft Teams Rooms runs on Windows 10 Enterprise IoT or Windows 10 Enterprise (VL) and receives the same Windows Updates and OS builds as a standard desktop. See [Manage Windows Updates](updates.md) for details.
+When you **block** a device, Teams no longer communicates with the device. Blocked devices won't be sent commands even if they're included in a group of devices that are being bulk-edited. It's still listed in your list of Teams Rooms devices with a status of **Blocked**.
 
+Regardless of whether a device is blocked or removed, if it's still configured with a valid username and password, it will be automatically re-added to your Teams Rooms devices list if it connects to Microsoft 365.
 
-## Troubleshooting
+To remove one or more devices, do the following:
 
-We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Microsoft Teams Rooms issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](rooms-operations.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local "smart hands" or IT support to investigate and reconnect the devices. 
+1. Go to **Devices** > **Teams Rooms** and select the devices you want to remove.
+1. Select **Remove**.
 
-For more information about troubleshooting and admin mode, see [Admin mode and device management](rooms-operations.md#admin-mode-and-device-management). 
+To block a device, do the following:
 
+1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to block.
+1. On the device details page, select **Actions** in the top-right corner of the page.
+1. Select **Block**.
 
-## See also
+To unblock a device, do the following:
 
-[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to block.
+1. On the device details page, select **Actions** in the top-right corner of the page.
+1. Select **Unblock**.
 
-[Plan for Microsoft Teams Rooms](rooms-plan.md)
+## Download device logs
 
-[Deploy Microsoft Teams Rooms](rooms-deploy.md)
+You can download a copy of a device's diagnostic log files if requested to do so by Microsoft support. Log files are compressed into a zip file that can be downloaded from the Teams admin center.
 
-[Configure a Microsoft Teams Rooms console](console.md)
+To download logs from a Teams Rooms device to your computer, do the following:
 
-[Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
+1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to download logs from.
+1. Select **Download device logs**. It can take several minutes for device logs to become available.
+1. Select the **History** tab and then select log file link under **Diagnostics file**. A zip file containing your device's diagnostic log files will be downloaded to your browser's default Downloads folder.
+
+## View device information
+
+From the Teams admin center, you an view the overall status of all devices in your organization and view details of each device individually.
+
+### Teams Rooms system dashboard
+
+The Teams Rooms system dashboard shows you the status and health of all of your devices at a glance.
+
+### Device details view
+
+To view detailed information about a device, select its name from the device list. When in details view, you can see the following information about your device:
+
+- **Health status** Shows the overall health of the Teams Room device. Health status can be either **Healthy** or **Unhealthy**.
+- **Offline since** Shows the last time Microsoft 365 was able to communicate with the device.
+- **Device status** Shows the current state of the device: **Idle**, **Teams meeting**, **Skype meeting**, or **Ingest**.
+- **Peripherals** Shows the peripherals connected to your Teams Room device and their health status. Health status can be either **Connected** or **Disconnected**.
+- **Health** Shows detailed information about the peripherals connected to your Teams Room device, network connectivity, sign in status to required services, and software version information.
+- **Details** Shows manufacturer information, network IP address, and Teams Room device serial/MAC address.
+- **Activity** Shows past meeting details including date and time of the meeting, number of participants, duration, and audio quality. For more information about meeting details, see the [Meeting activity details](#meeting-activity-details) section later in this article.
+- **History** Shows a history of management activity on the Teams Room device, including configuration updates, device restarts, and device log download links.
+
+#### Meeting activity details
+
+The **Activity** tab in Teams Room device details shows high-level and detailed information about all of the meetings the device has participated in over time. In the **Activity** tab, you can see when a meeting was held, how many participants attended the meeting, and the quality of audio during the meeting.
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Room device activity summary list":::
+
+To see the detail information about a specific meeting, select the date and time of the meeting you want more information about. If a meeting has only two participants, you'll see the participant details page, otherwise you'll see a participant summary page.
+
+##### Participant summary
+
+The participant summary page shows all of the participants that attended the meeting. You can see when each participant joined the meeting, their name, audio quality, and what features were used during their session. To view the details of a participant's session, select the session start time for that participant.
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Room device conference details":::
+
+##### Participant details
+
+The participant details page shows end-to-end diagnostic information for that participant's session. As shown in the following graphic, **Device**, **System**, and **Connectivity** information is provided for the participant and for the Teams Rooms device. **Network** diagnostic information between the participant and the Teams Rooms device is also provided. Select the icon for the context you want more information about. For additional diagnostic information, select the **Advanced** tab.
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Room device call details":::

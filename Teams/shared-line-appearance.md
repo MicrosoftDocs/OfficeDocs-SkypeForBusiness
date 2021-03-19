@@ -1,7 +1,7 @@
 ---
 title: "Shared line appearance in Microsoft Teams"
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -35,7 +35,7 @@ Shared line appearance is part of the delegation feature that lets a user choose
 
 A user must be have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
 
-Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Office 365 licensing for Microsoft Teams](office-365-licensing.md).
+Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## Configuring delegation and shared line appearance
 
@@ -54,7 +54,7 @@ Shared line appearance is currently supported by the following apps and devices.
 
 | Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) |Teams mobile iOS/Android App | Teams IP phone |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Set up delegation | Yes | Yes | Yes | No | No |
+| Set up delegation | Yes | Yes | Yes | No | Yes |
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |

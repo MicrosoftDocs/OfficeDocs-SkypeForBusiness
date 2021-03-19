@@ -24,14 +24,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for France."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for France."
 ---
 
 # Availability in France
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for France.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for France.
   
 ## Audio Conferencing
 
@@ -55,7 +55,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>1200 minute Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li> 
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>1200 minute Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li> |
 |Can make outbound calls to French premium numbers? <br/> | Yes, fully supported when using Communications Credits to pay per minute. <br/> |
 |Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

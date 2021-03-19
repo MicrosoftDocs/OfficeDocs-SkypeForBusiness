@@ -1,0 +1,75 @@
+### YamlMime:Landing
+
+title: Skype for Business Server 2019 documentation # < 60 chars
+summary: Learn how to implement Skype for Business Server 2019. # < 160 chars
+
+metadata:
+  title: Skype for Business Server 2019 documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to implement Skype for Business Server 2019. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: skype-for-business-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: landing-page # Required
+  audience: ITPro
+  author: LanaChin #Required; your GitHub user alias, with correct capitalization.
+  ms.author: v-lanac #Required; microsoft alias of author; optional team alias.
+  ms.date: 06/23/2020 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About Skype for Business Server 2019
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: What's new
+            url: /skypeforbusiness/whats-new
+      - linkListType: overview
+        links:
+          - text: System requirements
+            url: /skypeforbusiness/plan/system-requirements
+          - text: Network requirements	
+            url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+      - linkListType: download
+        links:
+          - text: Download now!
+            url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
+
+  # Card (optional)
+  - title: Plan
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Topology Basics
+            url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+          - text: Plan hybrid connectivity
+            url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+          - text: Plan for Enterprise Voice
+            url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+
+  # Card
+  - title: Install and manage
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Install Skype for Business Server
+            url: /skypeforbusiness/deploy/install/install
+          - text: Migrate to Skype for Business 2019
+            url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+          - text: Deploy Enterprise Voice
+            url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+      - linkListType: how-to-guide
+        links:
+          - text: Manage your topology
+            url: /skypeforbusiness/manage/topology/topology
+
+  # Card
+  - title: Other resources
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Skype for Business Server 2015 documentation
+            url: /SkypeForBusiness/skype-for-business-server-2015
+          - text: Lync Server 2013 documentation
+            url: /lyncserver/microsoft-lync-server-2013

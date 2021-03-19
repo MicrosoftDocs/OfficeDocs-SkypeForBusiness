@@ -216,7 +216,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 ## Related topics
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

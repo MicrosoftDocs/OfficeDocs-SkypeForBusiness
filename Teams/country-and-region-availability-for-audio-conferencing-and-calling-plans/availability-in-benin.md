@@ -1,7 +1,7 @@
 ---
 title: "Availability in Benin"
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,14 +23,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Benin."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Benin."
 ---
 
 # Availability in Benin
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Benin.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Benin.
   
 ## Audio Conferencing
 

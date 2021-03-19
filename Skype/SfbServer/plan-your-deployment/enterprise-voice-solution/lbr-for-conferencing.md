@@ -1,8 +1,8 @@
 ---
 title: "Location-Based Routing for Conferencing in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -22,7 +22,7 @@ description: "Planning for location-based routing for conferencing in Skype for 
 
 Planning for location-based routing for conferencing in Skype for Business Server Enterprise Voice, including consultative call transfers.
 
-Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call. Location-Based Routing for Conferencing enables you to enforce Location-Based Routing rules on meetings (i.e. conferences) to prevent PSTN toll bypass. The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating. The Location-Based Routing for Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.
+Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call. Location-Based Routing for Conferencing enables you to enforce Location-Based Routing rules on meetings (i.e., conferences) to prevent PSTN toll bypass. The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating. The Location-Based Routing for Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.
 
 The Location-Based Routing Conferencing application provides to Skype for Business Conferences a mechanism for the prevention of PSTN toll bypass. The application monitors active conferences and enforces Location-Based Routing restrictions based on the location of the Skype for Business users participating.
 
@@ -44,10 +44,7 @@ The Location-Based Routing for Conferencing application prevents the participati
 
 These conferencing Location-Based Routing restrictions are summarized in the following table.
 
-|
-|
-
-|**User(s) in a conference at any given point**|**User(s) allowed to join the conference**|**User(s) not allowed to join the conference**|
+|User(s) in a conference at any given point|User(s) allowed to join the conference|User(s) not allowed to join the conference|
 |:-----|:-----|:-----|
 |Skype for Business VoIP client user(s) from a single network site  <br/> |Skype for Business VoIP client user from the same network site  <br/> Skype for Business VoIP client user from a different network site  <br/> Skype for Business VoIP client user from an unknown network site  <br/> Federated Skype for Business VoIP client user  <br/> User joining from a PSTN endpoint  <br/> |None  <br/> |
 |Skype for Business VoIP client user(s) from an unknown network site  <br/> |Skype for Business VoIP client user from any site  <br/> Skype for Business VoIP client user from an unknown site  <br/> Federated Skype for Business VoIP client user  <br/> |User joining via a PSTN endpoint  <br/> |
@@ -65,7 +62,7 @@ The following are additional characteristics of the Location-Based Routing for C
 > [!NOTE]
 > With Skype for Business Cumulative Update 4, the behavior in the following table should be observed:
 
-|**User**|**Other Party**|**Action**|**Result**|
+|User|Other Party|Action|Result|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile is in a PSTN call. Skype for Business Mobile then escalates the call to a Conference Auto Attendant (CAA).  <br/> |The call is blocked, with an appropriate error message.  <br/> |
 |Skype for Business Mobile  <br/> |Skype for Business Client or Federated User  <br/> |The Client or Federated User is on a VoIP call to a Skype for Business Mobile Location-Based Routing user, and either party escalates to a CAA.  <br/> |The escalation call is blocked, with an appropriate error message.  <br/> |
@@ -80,25 +77,25 @@ In addition to enforcing Location-Based Routing to Skype for Business meetings, 
 
 When a user enabled for Location-Based Routing initiates a consultative call transfer of a PSTN endpoint (as shown in the preceding figure), this creates two active calls, one call between the PSTN user and Skype for Business user A, and the other between Skype for Business user A and Skype for Business user B. the following behavior is enforced by the Location-Based Routing for Conferencing application:
 
-- If the SIP trunk routing the PSTN call is authorized to re-route the PSTN call to the network site where Skype for Business user B (i.e. transfer target) is located,, then the call transfer will be allowed; otherwise, the consultative call transfer will be blocked. This authorization is performed based on the transferred party's location being in the same network site as the SIP trunk that is routing the active call to the PSTN endpoint.
+- If the SIP trunk routing the PSTN call is authorized to re-route the PSTN call to the network site where Skype for Business user B (i.e., transfer target) is located, then the call transfer will be allowed; otherwise, the consultative call transfer will be blocked. This authorization is performed based on the transferred party's location being in the same network site as the SIP trunk that is routing the active call to the PSTN endpoint.
 
-- If the SIP trunk routing the inbound PSTN call is not authorized to route calls to the network site where the transferred party (Skype for Business user B) is located or the transferred party is located in an unknown network site, then the consultative call transfer to the PSTN endpoint (i.e. call transfer target) will be blocked.
+- If the SIP trunk routing the inbound PSTN call is not authorized to route calls to the network site where the transferred party (Skype for Business user B) is located or the transferred party is located in an unknown network site, then the consultative call transfer to the PSTN endpoint (i.e., call transfer target) will be blocked.
 
 The following table describes how Location-Based Routing restrictions are applied by the Location-Based Routing for Conferencing application for consultative call transfers. Although PBX endpoints are not directly associated with a network site, the SIP trunk the PBX is connected to can be assigned a network site. Therefore, the PBX endpoint can be indirectly associated with a network site.
 
 
-|**Network site of call transferred party**|**Network site of call transfer target**|**Behavior**|
+|Network site of call transferred party|Network site of call transfer target|Behavior|
 |:-----|:-----|:-----|
-|PSTN endpoint  <br/> |Skype for Business user in the same network site (i.e. site 1)  <br/> |Consultative transfer will be allowed  <br/> |
-|PSTN endpoint  <br/> |Skype for Business user in different network sites (i.e. site 2)  <br/> |Consultative transfer will be disallowed  <br/> |
+|PSTN endpoint  <br/> |Skype for Business user in the same network site (i.e., site 1)  <br/> |Consultative transfer will be allowed  <br/> |
+|PSTN endpoint  <br/> |Skype for Business user in different network sites (i.e., site 2)  <br/> |Consultative transfer will be disallowed  <br/> |
 |PSTN endpoint  <br/> |Skype for Business user in an unknown network site  <br/> |Consultative transfer will be disallowed  <br/> |
 |PSTN endpoint  <br/> |Federated Skype for Business user  <br/> |Consultative transfer will be disallowed  <br/> |
-|PSTN endpoint  <br/> |PBX endpoint in the same site (i.e. site 1)  <br/> |Consultative transfer will be allowed  <br/> |
-|PSTN endpoint  <br/> |PBX endpoint in a different sites (i.e. site 2)  <br/> |Consultative transfer will be disallowed  <br/> |
-|PBX endpoint in the same site (i.e. site 1)  <br/> |PSTN endpoint  <br/> |Consultative transfer will be allowed  <br/> |
-|PBX endpoint in a different site (i.e. site 2)  <br/> |PSTN endpoint  <br/> |Consultative transfer will be disallowed  <br/> |
-|PBX endpoint in any site  <br/> |Skype for Business user in the same network site (i.e. site 1)  <br/> |Consultative transfer will be allowed  <br/> |
-|PBX endpoint in any site  <br/> |Skype for Business user in different network sites (i.e. site 2)  <br/> |Consultative transfer will be allowed  <br/> |
+|PSTN endpoint  <br/> |PBX endpoint in the same site (i.e., site 1)  <br/> |Consultative transfer will be allowed  <br/> |
+|PSTN endpoint  <br/> |PBX endpoint in a different sites (i.e., site 2)  <br/> |Consultative transfer will be disallowed  <br/> |
+|PBX endpoint in the same site (i.e., site 1)  <br/> |PSTN endpoint  <br/> |Consultative transfer will be allowed  <br/> |
+|PBX endpoint in a different site (i.e., site 2)  <br/> |PSTN endpoint  <br/> |Consultative transfer will be disallowed  <br/> |
+|PBX endpoint in any site  <br/> |Skype for Business user in the same network site (i.e., site 1)  <br/> |Consultative transfer will be allowed  <br/> |
+|PBX endpoint in any site  <br/> |Skype for Business user in different network sites (i.e., site 2)  <br/> |Consultative transfer will be allowed  <br/> |
 |PBX endpoint in any site  <br/> |Skype for Business user in an unknown network site  <br/> |Consultative transfer will be allowed  <br/> |
 |PBX endpoint in any site  <br/> |Federated Skype for Business user  <br/> |Consultative transfer will be allowed  <br/> |
 
@@ -109,7 +106,7 @@ The Location-Based Routing for Conferencing application requires that either Sky
 The following table identifies the combination of server roles and versions that support Location-Based Routing.
 
 
-|**Front-End Pool version**|**Mediation Server version**|**Supported**|
+|Front-End Pool version|Mediation Server version|Supported|
 |:-----|:-----|:-----|
 |Skype for Business Server or Lync Server 2013 Cumulative Update 2  <br/> |Skype for Business Server or Lync Server 2013 Cumulative Update 2  <br/> |Yes  <br/> |
 |Lync Server 2013 Cumulative Update 2  <br/> |Lync Server 2013 Cumulative Update 1  <br/> |No  <br/> |
@@ -133,7 +130,11 @@ The Location-Based Routing for Conferencing application relies on the configurat
 
 The Location-Based Routing for Conferencing application is disabled by default. Before enabling this application, you need to determine the right priority to assign for the application. To determine this priority, run the following cmdlet in Skype for Business Server Management Shell:
 
-Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>In this cmdlet, \<Pool FQDN\> is the pool in which the Location-Based Routing for Conferencing application is to be enabled.
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
+
+In this cmdlet, \<Pool FQDN\> is the pool in which the Location-Based Routing for Conferencing application is to be enabled.
 
 This cmdlet will return the list of the applications hosted by Skype for Business Server and the priority value for each of them. The Location-Based Routing for Conferencing application needs to be assigned a priority value larger than the "UdcAgent" application and smaller than the "DefaultRouting", "ExumRouting" and "OutboundRouting" applications. We recommend that you assign the Location-Based Routing for Conferencing application a priority value that is one point higher than the priority value of the "UdcAgent" application.
 
@@ -141,11 +142,15 @@ For example, if the "UdcAgent" application has a priority value of "2", the "Def
 
 After you find the correct priority value for the Location-Based Routing for Conferencing application, type the following cmdlet for each Front-End pool or Standard Edition Server that homes users enabled for Location-Based Routing:
 
-New-CsServerApplication -Identity Service:Registrar:`<Pool FQDN`>/LBRouting -Priority \<Application Priority\> -Enabled $true -Critical $true -Uri <https://www.microsoft.com/LCS/LBRouting> 
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
+```
 
 For example:
 
-New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri https://www.microsoft.com/LCS/LBRouting 
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 After using this cmdlet, restart all Front End servers in the pool or the Standard Edition Servers where the Location-Based Routing for Conferencing application has been enabled.
 

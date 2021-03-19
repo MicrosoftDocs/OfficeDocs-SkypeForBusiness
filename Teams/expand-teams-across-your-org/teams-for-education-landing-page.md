@@ -1,99 +1,36 @@
 ---
 title: Teams for Education
 description: Learn about the admin resources available to help you successfully deploy, adopt, and manage Teams in your school or institution.
-layout: LandingPage
-ms.topic: landing-page
-author: lanachin
-ms.author: v-lanac
+ms.topic: conceptual
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.assignments.overview
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+- seo-marvel-apr2020
+- ms.teamsadmincenter.assignments.overview
 ---
 
 # Teams for Education
 
 With Teams, educators and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and educators. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/teams-quick-start-edu">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Quick start - Teams for Education admins</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Assignments in Teams for Education</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/resources-teams-edu">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Resources for Teams for Education admins</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li><li>
-        <a href="https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Governance FAQ for Teams for Education admins</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+
+|               |               |
+| ------------- | ------------- |
+| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Quick start - Teams for Education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
+| ![sign-up-teams](../media/sign-up-teams.svg) | [Assignments in Teams for Education](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
+| ![insights-teams](../media/insights-teams.svg) | [Insights in Teams for Education](https://docs.microsoft.com/microsoftteams/class-insights) |
+| ![toolbox](../media/toolbox.svg)  |  [Resources for Teams for Education admins](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
+| ![task-checklist-planning-teams](../media/task-checklist-planning-teams.svg)  |  [Governance FAQ for Teams for Education admins](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
+

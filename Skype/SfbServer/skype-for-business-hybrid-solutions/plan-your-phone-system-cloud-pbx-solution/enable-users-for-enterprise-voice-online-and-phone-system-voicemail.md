@@ -1,5 +1,5 @@
 ---
-title: "Enable users for Enterprise Voice online and Phone System in Office 365 Voicemail"
+title: "Enable users for Enterprise Voice online and Phone System Voicemail"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -18,56 +18,44 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: 
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: "Learn how to enable Phone System in Office 365 voice services for your Skype for Business users."
+description: "Learn how to enable Phone System voice services for your Skype for Business users."
 ---
 
-# Enable users for Enterprise Voice online and Phone System in Office 365 Voicemail
+# Enable users for Enterprise Voice online and Phone System Voicemail
  
-Learn how to enable Phone System in Office 365 voice services for your Skype for Business users.
-  
-The final step in deploying Phone System in Office 365 with on-premises PSTN connectivity is to enable your users for Phone System in Office 365 and voicemail. To enable these capabilities, you must be a user with the Global Administrator role, and be able to run remote PowerShell. You need to follow the steps in this topic for all user accounts that do not already have Enterprise Voice enabled for Skype for Business Online.
-  
-## Enable Phone System in Office 365 voice services
+> [!Important]
+> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
-To enable a user for Phone System in Office 365 Voice and voicemail, you'll need to perform some initial steps, like checking to see if the Skype for Business Online Connector is deployed on your servers and enable your users for hosted voicemail.
+Learn how to enable Phone System voice services for your Skype for Business users.
   
-### To enable your users for Phone System in Office 365 voice and voicemail
+The final step in deploying Phone System with on-premises PSTN connectivity is to enable your users for Phone System and voicemail. To enable these capabilities, you must be a user with the Global Administrator role, and be able to run remote PowerShell. You need to follow the steps in this topic for all user accounts that do not already have Enterprise Voice enabled for Skype for Business Online.
+  
+## Enable Phone System voice services
 
-1. Before you begin, check that the Skype for Business Online Connector (Windows PowerShell module) is deployed on your Front End Servers. If it's not, you can download it from [the download center](https://www.microsoft.com/download/details.aspx?id=39366). You can find more information about using this module at [Configuring your computer for Skype for Business Online management](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
+To enable a user for Phone System Voice and voicemail, you'll need to perform some initial steps, like checking to see if the Skype for Business Online Connector is deployed on your servers and enable your users for hosted voicemail.
+  
+### To enable your users for Phone System voice and voicemail
+
+> [!NOTE]
+> Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
+> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+
+1. Before you begin, check that the Teams PowerShell module is installed on your Front End Servers. If it's not, please  install using the instructions in [Teams PowerShell Module Installation](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Start Windows PowerShell as an administrator.
     
 3. Type the following and press Enter:
     
-   ```powershell
-   Import-Module skypeonlineconnector
-   ```
+ ```powershell
+  # When using Teams PowerShell Module
 
-4. Type the following and press Enter:
-    
-   ```powershell
-   $cred = Get-Credential
-   ```
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
-    After you press Enter, you should see the Windows PowerShell Credential dialog box.
-    
-5. Type your tenant admin username and password, and click **OK**.
-    
-6. In the PowerShell window, type the following and press Enter:
-    
-   ```powershell
-   $Session = New-CsOnlineSession -Credential $cred -Verbose
-   ```
-
-7. Import the session by typing the following cmdlet:
-    
-   ```powershell
-   Import-PSSession $Session -AllowClobber
-   ```
-
-    When running PowerShell on a Skype for Business Server, the local Skype for Business cmdlets are already loaded when you open PowerShell. You must specify the -AllowClobber parameter to allow the online cmdlets to overwrite the on-premises cmdlets with the same name.
-    
-8. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
+  
+4. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -82,9 +70,9 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     > [!NOTE]
     > You can also specify a user by their SIP address, User Principal name (UPN), domain name and username (domain\username), and display name in Active Directory ("Bob Kelly"). 
   
-## Update the Line URI and dial plan for users enabled for Phone System in Office 365
+## Update the Line URI and dial plan for users enabled for Phone System
 
-This section describes how to update the Line URI and dial plan for users enabled for Phone System in Office 365. 
+This section describes how to update the Line URI and dial plan for users enabled for Phone System. 
   
 ### To update the Line URI
 
@@ -136,12 +124,12 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 ## Update the voice routing policies using on-premises Windows PowerShell cmdlets
 
-This section describes how to update the voice routing policies for users enabled for Phone System in Office 365.
+This section describes how to update the voice routing policies for users enabled for Phone System.
   
-Phone System in Office 365 users must have a Voice Routing Policy assigned to them for calls to route successfully. This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully. The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System in Office 365 users. You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies. For more information, see [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Phone System users must have a Voice Routing Policy assigned to them for calls to route successfully. This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully. The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System users. You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies. For more information, see [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> All Phone System in Office 365 users are assigned the same online Voice Policy named BusinessVoice which defines the calling features allowed; for example, Allow Simultaneous Ring. 
+> All Phone System users are assigned the same online Voice Policy named BusinessVoice which defines the calling features allowed; for example, Allow Simultaneous Ring. 
   
 ### To assign a per-user voice routing policy to a single user
 

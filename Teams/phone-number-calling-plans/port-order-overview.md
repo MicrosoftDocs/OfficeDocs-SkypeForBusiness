@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -107,7 +107,7 @@ For example, you need to submit a unique number porting request for each of the 
 
 - Mobile numbers
 
-- Service numbers that can be used for Audio Conferencing in Office 365.
+- Service numbers that can be used for Audio Conferencing in Microsoft 365 or Office 365.
 
 Here's more information about how to submit number porting requests for each of these types of numbers:
   
@@ -124,7 +124,7 @@ Here's more information about how to submit number porting requests for each of 
 ## How long does it take to port numbers?
 <a name="bkmk_type_1"> </a>
 
-After you've completed the port order request, it takes between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you that you're good to go.
+After you've completed the port order request, it takes between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you know that you're good to go.
   
 To check the status of your port order, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**. Each port order status is listed in the **Status** column.
   
@@ -132,6 +132,14 @@ To check the status of your port order, in the left navigation of the Microsoft 
 <a name="bkmk_type_1"> </a>
 
 Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+
+## Can I port out my numbers from Teams to a different phone service provider or carrier?
+
+To port out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You'll also need to set a porting PIN in the Microsoft Teams admin center.
+
+To define your porting PIN, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, on the upper-right corner of the page, select **Manage porting PIN**, and then enter a 10-digit PIN.
+
+When your new carrier contacts us with the porting request, we'll ask them to provide the PIN you defined.
 
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>

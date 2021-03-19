@@ -10,6 +10,9 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - m365solution-voice
+  - m365solution-scenario
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -20,12 +23,12 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - seo-marvel-apr2020
-description: Step-by-step guide detailing how to set up Phone System (Cloud PBX) for your organization in Office 365.
+description: Step-by-step guide detailing how to set up Phone System (Cloud PBX) for your organization in Microsoft 365 or Office 365.
 ---
 
 # Set up Phone System in your organization
 
-The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
+The following is a step-by-step guide for setting up Phone System in Microsoft 365 or Office 365. Links to additional, detailed information are available at the end of each step.
 
 ## Step 1: Make sure that Phone System is available in your country or region
 
@@ -35,7 +38,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## Step 2: Buy and assign Phone System and Calling Plan licenses
 
-To assign a Phone System and Calling Plan license to a single user, the steps are the same as assigning an Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
+To assign a Phone System and Calling Plan license to a single user, the steps are the same as assigning a Microsoft 365 or Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
@@ -46,7 +49,7 @@ Before you can set up users in your organization to make and receive phone calls
 You have three ways of getting numbers for your users:
 - Get new numbers using the Teams admin center.
 - Get new numbers that aren't available in the Teams admin center.
-- Port or transfer your existing numbers from your current service provider or phone carrier to Office 365.
+- Port or transfer your existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365.
 
 You must use the **Add numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
 
@@ -72,7 +75,7 @@ For detailed information about getting new phone numbers or transferring existin
 
 ## Step 4: Get service phone numbers (audio conferencing, call queues, auto attendants)
 
-In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+In addition to getting phone numbers for your users from Microsoft 365 or Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
 
 ### Get new service numbers using the Teams admin center
 
@@ -137,7 +140,7 @@ If you don't set up Communications Credits billing and assign a **Communications
   
 
 ## Related topics
-[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System in Microsoft 365 or Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

@@ -26,7 +26,7 @@ description: "See how to try or purchase Audio Conferencing (PSTN conferencing) 
 # Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online
 
 > [!Note]
-> For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
+> For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
 
 
 Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
@@ -37,7 +37,7 @@ For pricing info, see [Pricing for Audio Conferencing](https://products.office.c
 
 ## Step 1: Buy and assign Audio Conferencing licenses
 
-You must be an [About Office 365 admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
+You must be an admin to perform these steps. See [About admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) for more information.
 
 ### To buy and assign user Audio Conferencing licenses:
 
@@ -49,7 +49,7 @@ You must be an [About Office 365 admin roles](https://support.office.com/article
 
    - **Buy it**, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-3. [Assign or remove licenses for Office 365 for business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
+3. [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
 
 4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
@@ -66,7 +66,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
     > [!IMPORTANT]
     > If Communications Credits haven't been set up, Audio Conferencing won't work for any users with pay-per-minute licenses. Also, if you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage but you might still need to assign them for another service.
 
-4. [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
+4. [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
 
 
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
@@ -87,7 +87,7 @@ The following steps are **optional**, but a lot of admins like to do them:
 
 
 > [!NOTE]
-> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> This feature is not yet available to customers using Microsoft 365 or Office 365 operated by 21Vianet in China. To learn more, see [Learn about Microsoft 365 or Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## Related topics
 

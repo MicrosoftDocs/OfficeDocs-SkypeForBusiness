@@ -30,7 +30,7 @@ The following sections provide guidance on how to configure an environment that 
 
 Multiple user forests are supported. Keep the following in mind: 
     
-- For supported versions of Lync Server and Skype for Business Server in a hybrid configuration, see [Server version requirements](plan-hybrid-connectivity.md#server-version-requirements) in [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md).
+- For supported versions of Lync Server and Skype for Business Server in a hybrid configuration, see [Server version requirements](plan-hybrid-connectivity.md#server-version-requirements) in [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md).
     
 - Exchange Server can be deployed in one or more forests, which may or may not include the forest containing Skype for Business Server. Make sure you have applied the latest Cumulative Update.
     
@@ -68,9 +68,9 @@ Do not sync the UPNs between the forests. We found during testing that we needed
     
 - If the unique UPN from each user forest was synchronized to the associated disabled object in the resource forest, AD FS authentication would fail. The matching rule would find the UPN on the object in the resource forest, which was disabled and could not be used for authentication. 
     
-## Create an Office 365 organization
+## Create a Microsoft 365 or Office 365 organization
 
-You will next need to provision an Office 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+You will next need to provision a Microsoft 365 or Office 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## Configure Active Directory Federation Services
 
@@ -86,9 +86,9 @@ Unless you use a unique SIP/SMTP/UPN for users from each forest, you can still r
     
 By placing an AD FS farm in each user forest and using a unique SIP/SMTP/UPN for each forest, we resolve both issues. Only the accounts in that specific user forest would be searched and matched during authentication attempts. This will help provide a more seamless authentication process. 
   
-This will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How To Install AD FS 2012 R2 For Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+This will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How To Install AD FS 2012 R2 For Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
-Once deployed, you then have to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft Office 365 Identity Platform**, and then click **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**. 
+Once deployed, you then have to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft 365 Identity Platform** or **Microsoft Office 365 Identity Platform**, and then select **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**. 
   
 ![Multi-forest Edit Rules Screen](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -102,9 +102,9 @@ When finished and AAD Connect is merging, if you look at an object in the metave
   
 ![Multi-forest Metaverse Object Screen](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-The green highlighted attributes were merged from Office 365, the yellow are from the user forest, and the blue are from the resource forest. 
+The green highlighted attributes were merged from Microsoft 365 or Office 365, the yellow are from the user forest, and the blue are from the resource forest. 
   
-This is a test user, and you can see that AAD Connect has identified the sourceAnchor and the cloudSourceAnchor from the user and the resource forest objects from Office 365, in our case 1101, which is the employeeNumber selected earlier. It then was able to merge this object into what you see above. 
+This is a test user, and you can see that AAD Connect has identified the sourceAnchor and the cloudSourceAnchor from the user and the resource forest objects from Microsoft 365 or Office 365, in our case 1101, which is the employeeNumber selected earlier. It then was able to merge this object into what you see above. 
   
 For more information, see [Integrate your on-premises directories with Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   

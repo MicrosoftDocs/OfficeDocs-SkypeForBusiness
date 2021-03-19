@@ -1,10 +1,8 @@
 ---
 title: Teams for Healthcare
 description: Learn about the admin resources available for you to manage Teams for healthcare teams in your organization.
-layout: LandingPage
-ms.topic: landing-page
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -22,61 +20,10 @@ ms.custom: seo-marvel-apr2020
 
 # Teams for Healthcare
 
-Teams gives care teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.
+Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started with Teams for Healthcare organizations</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started with Teams templates for Healthcare organizations</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started with Secure Messaging for Healthcare organizations</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![get-started-teams](../media/get-started-teams.svg)  |  [Get started with Teams for Healthcare organizations](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [Get started with Teams templates for Healthcare organizations](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
+| ![chat](../media/chat.svg)  |  [Get started with Secure Messaging for Healthcare organizations](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |

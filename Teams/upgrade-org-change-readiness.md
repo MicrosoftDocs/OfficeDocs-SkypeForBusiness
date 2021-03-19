@@ -1,13 +1,13 @@
 ---
-title: Skype for Business to Microsoft Teams| Upgrade User Change Readiness  
-author: lanachin
-ms.author: v-lanac
+title: Assess organizational change readiness for your Skype for Business to Teams upgrade
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
-description: Learn how to assess your organization's readiness to successfully transition to the Microsoft Teams environment.
+ms.reviewer: landerl
+description: Learn how to assess your organization's readiness for a successful transition to Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -142,7 +142,7 @@ It could be easy to get carried away forming a teamwork strategy for every user,
 
   - Sales teams/regions – road warriors, easy access resources, quick turn-around responses
   - HR – standardized processes across all divisions, consistent approach for hiring
-  - Firstline workers – connection to their peers/management, access to procedures, NEO
+  - Frontline workers – connection to their peers/management, access to procedures, NEO
 
 - Keep these considerations in mind:
 

@@ -55,46 +55,22 @@ After you plan the dial plans for your organization and figured out all the norm
 2. Select the dial plan by clicking to the left of the dial plan name, and then click **Edit**.
 3. Make the changes that you want, and then click **Save**.
 
-### Add users to a dial plan
+### Assign a dial plan to users
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
-2. Select the user by clicking the display name.
-3. Select the **Policies** tab.
-4. Click **Edit** to the right of Assigned policies.
-5. From the **Dial plan** drop-down menu, select the dial plan you want to assign to the user and then click **Apply**.
+You assign a dial plan in the same way you assign policies. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## Using PowerShell
   
-### Verify and start Remote PowerShell
+### Start PowerShell
+- Open a Windows PowerShell command prompt and run the following commands:
 
- **Check that you are running Windows PowerShell version 3.0 or later**
-  
-1. To verify that you're running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
-    
-3. If you don't have version 3.0 or later, download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you're prompted.
-    
-4. You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. You can download this module, which is supported only on 64-bit computers, at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you're prompted.
-    
-To learn more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-  
- **Start a Windows PowerShell session**
-  
-1. Click **Start** > **Windows PowerShell**.
-    
-2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
-    
-    > [!NOTE]
-    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
-  
+```powershell
+  # When using Teams PowerShell Module
 
-    ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-    ```
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
   
 ### Create and manage your dial plans
 

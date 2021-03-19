@@ -24,14 +24,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for the Dominican Republic."
+description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for the Dominican Republic."
 ---
 
 # Availability in the Dominican Republic
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for the Dominican Republic.
+Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for the Dominican Republic.
   
 ## Audio Conferencing
 

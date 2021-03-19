@@ -47,12 +47,12 @@ To configure the user and the SBC sites, you will need to:
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
-This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documenation.
+This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation.
 
 Local Media Optimization is supported by the following SBC vendors:
 
 | Vendor | Product |	Software version |
-|:------------|:-------|:-------| :-------|
+|:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
 |            |	Mediant 800 SBC |	7.20A.256 |	
 |            |	Mediant 2600 SBC |	7.20A.256 |	
@@ -66,9 +66,9 @@ Local Media Optimization is supported by the following SBC vendors:
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Microsoft+Teams+Direct+Routing+-+On+Premises+Deployment)  |  SBC 1000         | 8.1.1, build 527 |
-|            |  SBC 2000         | 8.1.1, build 527 |
-|            |  SBC SWe Lite     | 8.1.0, build 222 |
+| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |
@@ -237,7 +237,7 @@ The following table shows the X-MS headers sent by Direct Routing:
 
 | Parameter	| Explanation |
 |:------------|:-------|
-| Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI | 
+| Invite +8443926300@VNsbc.contoso.com | The target FQDN of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI | 
 | X-MS-UserLocation: internal |	The field indicated that user is located inside the corporate network |
 | X-MS-MediaPath: VNsbc.contoso.com |	Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is internal the target name sent as the only name in the header. | 
 |X-MS-UserSite: Vietnam | 	The field indicated within the site the user is located. |
@@ -275,7 +275,7 @@ The following table shows the X-MS headers sent by the Direct Routing service:
 
 | Parameter |	Explanation |
 |:------------|:-------|
-|Invite +8443926300@VNsbc.contoso.com | The target name of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI.|
+|Invite +8443926300@VNsbc.contoso.com | The target FQDN of the SBC as defined in the Online Voice Routing Policy is sent in the Request URI.|
 | X-MS-UserLocation: external |	The field indicated that user is located outside the corporate network. |
 | X-MS-MediaPath: proxysbc.contoso.com, VNsbc.contoso.com	 | Specifies which SBC the client must traverse to the target SBC. In this case as we have Always Bypass, and the client is external. |
 

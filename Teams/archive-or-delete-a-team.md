@@ -1,7 +1,7 @@
 ---
 title: Archive or delete a team in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -35,22 +35,22 @@ When you delete a team, team activity in standard and private channels (and asso
 
 ## Archive a team
 
-Follow these steps to archive a team.
+Follow these steps to archive a team. You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
 
-1. In the Microsoft Teams admin center, select **Teams**.
+1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
 3. Select **Archive**. The following message will appear.
 
     ![Screenshot of Teams archive message](media/teams-archive-message.png)
 
-4. If you would like to make the SharePoint site for the team read-only, select the check box.
+4. To prevent people from editing the content in the SharePoint site and Wiki tab associated with the team, select **Make the SharePoint site read-only for team members**. (Teams owners will still be able to edit this content.)
 5. Select **Archive** to archive the team. The team’s status will change to **Archived**.
 
 ## Make an archived team active
 
 Follow these steps to make an archived team active again.
 
-1. In the Microsoft Teams admin center, select **Teams**.
+1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
 3. Select **Unarchive**. The team’s status will change to **Active**.
 
@@ -58,23 +58,23 @@ Follow these steps to make an archived team active again.
 
 If the team will not be required in the future, then you can delete it rather than archiving it. Follow these steps to delete a team.
 
-1.	In the Microsoft Teams admin center, select **Teams**.
+1.	In the admin center, select **Teams**.
 2.	Select a team by clicking the team name.
 3.	Select **Delete**. A confirmation message will appear.
 4.	Select **Delete** to permanently delete the team.
 
 ## Restore a deleted team
 
-Follow these steps to restore a deleted team by restoring the Office 365 group that's associated with the team. Restoring the Office 365 group for a team, restores team content, including tabs, standard channels, and private channels and their associated site collections.
+Follow these steps to restore a deleted team by restoring the Microsoft 365 group that's associated with the team. Restoring the Microsoft 365 group for a team restores team content, including tabs, standard channels, and private channels and their associated site collections.
 
-By default, a deleted Office 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Office 365 Group](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### Install the AzureADPreview module
 
 1. Open Windows PowerShell as an admin.
 2. If you have an earlier version of the AzureADPreview module installed or the AzureAD module installed, uninstall it by running one of the following:
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -85,9 +85,9 @@ By default, a deleted Office 365 group is retained for 30 days. This 30-day peri
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
-### Restore the deleted Office 365 group
+### Restore the deleted Microsoft 365 group
 
 1. Connect to Azure AD by running the following:
     ```PowerShell
@@ -97,7 +97,7 @@ By default, a deleted Office 365 group is retained for 30 days. This 30-day peri
 2. Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have a lot of groups.
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. Find the group that you want to restore, and then make a note of the Id.
 4. Run the following to restore the group, where [Id] is the group Id.
     ```PowerShell

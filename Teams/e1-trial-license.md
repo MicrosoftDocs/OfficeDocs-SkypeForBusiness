@@ -1,7 +1,7 @@
 ---
 title: Manage the free Office 365 E1 Trial
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -20,41 +20,18 @@ appliesto:
 Manage the Office 365 E1 Trial
 ==============================
 
-New in March 2020, a free 6-month Office 365 E1 Trial, including Microsoft Teams, is now available. Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak. 
+As of July 1, 2020, the Office 365 E1 Trial license is no longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
 
-To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
+
+If you're a Teams for Education customer, check out the free [Office 365 A1 license](teams-edu-licensing.md).
+
+Use the guidance in this article to manage your existing Office 365 E1 Trial licenses, including [upgrading to a paid subscription](#upgrade-users-from-the-office-365-e1-trial-license).
 
 Don't miss all of our guidance for [supporting remote workers with Teams](support-remote-work-with-teams.md).
 
-## How to get an E1 Trial license
-
-Contact your Microsoft account representative. They'll get you a promo code that you can use to sign up for the E1 Trial. 
-
-For organizations served by a Microsoft partner, work with your partner to get a free 6-month Teams trial. If you don't have a Microsoft partner yet and would like to work with one, go to [Microsoft Solution Providers](https://www.microsoft.com/solution-providers/home) and search for partners with expertise in Teams.
-
-
-## How to sign up for E1
-
-Click the promo code in the email your account rep will send you. 
-
-
-## Who's eligible?
-
-This offer is intended for any customer that's managed by a Microsoft account rep. It's for organizations - including nonprofits - who haven't activated any other Office 365 E1 trials in the past. 
-
-After you've used your E1 Trial promo code, you can't use it again, nor can you activate another E1 Trial code. In these cases, you can have your employees activate a [Teams Exploratory license](teams-exploratory.md).
-
-## Who isn't eligible
-
-- This offer isn't available for GCC, GCC High, DoD, or EDU customers. 
-
-- For GCC, check out the [Office 365 G1 Trial](g1-trial-license.md). 
-
-- EDU customers should use the free Office 365 A1 license.
-
 ## Manage the E1 Trial
 
-Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it. To learn how, read [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it. To learn how, read [Manage user access to Teams](user-access.md).
 
 
 Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
@@ -71,7 +48,7 @@ To upgrade E1 Trial users to a paid subscription:
 
 3. Assign the newly purchased license.
 
-For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).
+For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 
@@ -82,17 +59,16 @@ For more information, see [Office 365 licensing for Microsoft Teams](Office-365-
 [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
-
+[Delete a user from your organization](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
 ## Related topics
 
-[Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Manage user access to Teams](user-access.md)
 
 [Manage Teams settings for your organization](enable-features-office-365.md)
 
 [Manage the Teams Exploratory experience](teams-exploratory.md)
 
-[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Microsoft 365 or Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
 
 [Get assistance deploying Teams](https://go.microsoft.com/fwlink/?linkid=780698)

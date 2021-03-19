@@ -1,7 +1,7 @@
 ---
 title: How ready is your organization for Microsoft Teams?
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -60,7 +60,7 @@ Early adopters share certain traits no matter what size or industry your organiz
 - Willing to share their observations and learnings with the group
 - Are risk takers; that is, they're willing to try something to see if it works
 
-Use a simple form in Office 365 to allow these individuals to opt into your early adopter program for Teams. Depending on the size and complexity of your organization, you may choose to enable some or all of these individuals for your experimentation phase. In this program, they are agreeing to actively participate in your experimentation phase and provide regular feedback to the project team. Avoid having individuals who simply want to test drive new technology. Let them know that by giving this active feedback, they are helping to craft the outcome of your project. You will use this list of people in [Phase 2 - experiment](teams-adoption-phase2-experiment.md).
+Use a simple form in Microsoft 365 or Office 365 to allow these individuals to opt into your early adopter program for Teams. Depending on the size and complexity of your organization, you may choose to enable some or all of these individuals for your experimentation phase. In this program, they are agreeing to actively participate in your experimentation phase and provide regular feedback to the project team. Avoid having individuals who simply want to test drive new technology. Let them know that by giving this active feedback, they are helping to craft the outcome of your project. You will use this list of people in [Phase 2 - experiment](teams-adoption-phase2-experiment.md).
 
 Our Early Adopter Program Guide is a helpful resource for kicking off this program in your environment.  
  

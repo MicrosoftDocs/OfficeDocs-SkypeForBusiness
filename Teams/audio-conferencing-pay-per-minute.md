@@ -34,7 +34,7 @@ You can find out if your [country/region is supported](country-and-region-availa
 
   
 > [!NOTE]
-> Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire licenses. 
+> Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire these licenses. 
   
 ## Need some details?
 
@@ -49,9 +49,9 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
 > [!NOTE]
 > You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
   
-Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) set up. It also requires that a Pay-per-minute license and a Communications Credits license must both be assigned to each user for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
-To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Microsoft Office 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
 ## Why is it best for you?
 
@@ -69,17 +69,17 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
   
 ## Want to find out more about pricing?
 
- **Looking for prices?** See [How to see prices and buy add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
+ **Looking for prices?** See the following:
   
-- [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
     
-- [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
     
-- [Pricing for Calling Plans](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799763)
     
 ## Related topics
   
-[Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
   
  

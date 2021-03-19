@@ -33,7 +33,8 @@ When you dial out to someone, we recommend that you do so using their full phone
   Please note that:
 
 - You can dial out only if you join a meeting using Teams.
-- You, as the meeting organizer, have been enabled for audio conferencing.
+- The meeting organizer, has been enabled for audio conferencing, OR, in the case no audio conferencing license is assigned, is allowed to make calls to the public switched telephone network via online calling plans or direct routing.
+- The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -55,6 +56,6 @@ If you are looking for instructions on how to let your users dial in to a Teams 
 
 ## Want to know more about audio conferencing?
 
-[Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Try or purchase Audio Conferencing](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)

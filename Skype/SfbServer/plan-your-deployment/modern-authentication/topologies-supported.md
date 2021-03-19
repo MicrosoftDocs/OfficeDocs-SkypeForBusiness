@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business topologies supported with Modern Authentication"
 ms.reviewer:
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -31,7 +31,7 @@ Given Skype for Business, Skype for Business online, Exchange Server, and Exchan
 
 ### Supported MA topologies in Skype for Business
 
-There are potentially two server applications, and two Office 365 workloads, involved with Skype for Business topologies used by MA.
+There are potentially two server applications, and two Microsoft 365 or Office 365 workloads, involved with Skype for Business topologies used by MA.
 
 - Skype for Business server (CU 5) on-premises
 

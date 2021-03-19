@@ -19,7 +19,7 @@ description: "Find and manage updates for Skype for Business Server 2015/2019 an
 
 Find and manage updates for [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history),  [Lync Server 2013](#lync-server-2013-update-history),  and [Lync Server 2010](#lync-server-2010-update-history) in one place. Use the links on this page to get more information about updates, and then download the updates.
 
-For the latest Skype for Business Online and Office 365 updates, see the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
+For the latest Skype for Business Online and Microsoft 365 updates, see the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## Skype for Business Server 2019 update history
 
@@ -27,6 +27,8 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 Cumulative Update 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2020 |
+|Skype for Business Server 2019 Cumulative Update 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| March 2020 |
 |Skype for Business Server 2019 Cumulative Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| December 2019 |
 |Skype for Business Server 2019 Cumulative Update 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
@@ -49,6 +51,8 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 Cumulative Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| July, 2020 |
+|Skype for Business Server 2015 Cumulative Update 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| May 13, 2020 |
 |Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| August 2019 |
 |Skype for Business Server 2015 Cumulative Update 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| July 2019 |
 |Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| May 2019 |
@@ -82,6 +86,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2013 Cumulative Update 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|July 2020|
 |Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|June 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|January 2019|

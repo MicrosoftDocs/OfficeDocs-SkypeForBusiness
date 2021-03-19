@@ -1,15 +1,15 @@
 ---
 title: Plan for lifecycle management
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
-ms.date: 09/26/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: In this article, you will learn about how to plan for implementing lifecycle management capabilities in Teams.
 localization_priority: Priority
+search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -35,7 +35,7 @@ The following concepts and definitions all affect the decisions you make for lif
 
 **Teams**
 
-A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Office 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Microsoft 365 or Office 365. [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Channels**
 
@@ -52,10 +52,10 @@ These determine who can join the team:
 
 Team user types determine how much control a team member has:
 
--   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Microsoft 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   _Team owner_ manages membership and settings for the team. There can be as many as 100 team owners per team.
--   _Team member_ is a member of your organization who participates in a team.
--   _Guest_ is a user who's external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
+-   *Team creator* has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Microsoft 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Team creators automatically become an owner of the team.
+-   *Team owner* manages membership and settings for the team. There can be as many as 100 team owners per team.
+-   *Team member* is a member of your organization who participates in a team.
+-   *Guest* is a user who's external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
 
 > [!Note]
 > You can learn more about team owner and team member capabilities in the article [Assign role and permissions in Microsoft Teams](assign-roles-permissions.md).
@@ -135,7 +135,7 @@ Teams can originate from a variety of methods, including:
 
 -   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
 -   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
--   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
+-   Add a team to an existing Microsoft 365 group, which also gives the team access to its mailbox and SharePoint site.
 -   Use the Microsoft Graph Teams APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
 
 Use these links to get more information about organizing your teams:
@@ -158,6 +158,8 @@ Any team owner or member with appropriate permissions can create channels in a t
 
 To spark interest, the channel owner can post a welcome message, upload relevant documents to the **Files** tab, or add tabs or connectors to the channel. The owner also sets the channel description, and can "auto-favorite" important channels so they're listed by default for all team members.
 
+Consider channel names before creating them as renaming a channel in the team will not rename the corresponding folder in the SharePoint document library which can lead to end-user confusion. 
+
 |    |     |
 |-----------|------------|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
@@ -171,17 +173,13 @@ Trust, tolerance, and a spirit of collaboration grow organically as key group co
 
 Because teams are living organisms, they occasionally need to be checked on and cared for. These are some best practices:
 
--   Use champions to sustain usage if it starts to drop, and also to discover and propagate creative new behaviors. 
--   Manage guests judiciously, making sure their access ends when the business need ends.
--   Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or consider archiving or deleting them if they contain sensitive or ephemeral data, based on your retention requirements).
--   Carve out new teams as larger groups or interest-based areas emerge.
--   Try different channel collaborations, such as channel meetings or tab conversations around documents.
-
-If a team starts to get into a rut, consider:
-
--   Driving communications into teams as opposed to email.
--   Using mobile apps to increase engagement.
--   Pruning the number of channels.
+- Use champions to sustain usage if it starts to drop, and also to discover and propagate creative new behaviors. 
+- Manage guests judiciously, making sure their access ends when the business need ends.
+- Encourage members to use threaded conversations with subject lines to improve visibility and attention with scrolling through a channel.
+- Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or consider archiving or deleting them if they contain sensitive or ephemeral data, based on your retention requirements).
+- Carve out new teams as larger groups or interest-based areas emerge.
+- Try different channel collaborations, such as channel meetings or tab conversations around documents.
+- Use the Microsoft Teams mobile app to increase engagement.
 
 |    |     |
 |-----------|------------|
@@ -192,9 +190,11 @@ If a team starts to get into a rut, consider:
 
 When the work of a team has run its course, it's important to formally acknowledge that it's over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like postmortems and executive summaries.
 
-You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 21 days (30 days for Microsoft 365 Groups). Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion.
+You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 21 days (30 days for Microsoft 365 Groups). Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion. Deleting a channel will not delete the folder or its contents from the SharePoint document library.
 
 You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren't active any longer or whose owners have left the organization.
+
+Retention policies applied to Teams or associated services such as SharePoint may prohibit the deletion of teams. Additionally, consider that content in a team is often more than just files in the SharePoint document library; it is conversations, Planner boards, wikis, Forms results, recorded meetings, OneNote notebooks, and various others.
 
 For information about setting up expiration and retention policies, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 

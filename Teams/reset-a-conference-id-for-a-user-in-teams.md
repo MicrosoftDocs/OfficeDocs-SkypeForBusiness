@@ -28,8 +28,7 @@ description: Learn the steps to reset a user's meeting conference ID in Microsof
 A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
   
 > [!NOTE]
-> If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only by default. Unfortunately, there's no ability to change it to become static, as this is now unsupported. Conference IDs are only automatically set for Microsoft Teams users enabled for Audio Conferencing. 
-
+> Conference IDs are generated automatically, will be between 7-9 digits, and are set when you enable Audio Conferencing for a user. **Static conference IDs aren't supported.** 
 
 ## Resetting the conference ID for a user
 
@@ -45,7 +44,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
     
 > [!NOTE]
-> After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions for updating existing meetings. 
+> After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Microsoft 365 or Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions for updating existing meetings. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -54,7 +53,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 - You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info in email** for the user in the **Audio Conferencing** section. It doesn't send the PIN.
     
-- A conference ID will contain 7 digits, and you can't change its length.
+- A 7- 9 digit conference ID is created by the Teams service. You can't change its length.
     
 - After it has been reset, you can see the new conference ID listed under **Conference ID**.
     
@@ -62,11 +61,11 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
     

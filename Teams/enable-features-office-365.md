@@ -1,7 +1,7 @@
 ---
 title: Manage settings for your organization
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -64,13 +64,13 @@ Tags let users communicate with a subset of people on a team. Tags can be added 
 
 #### Email integration
 
-Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**.
+Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**. Next, check to make sure that the domain for the sender's email address isn't blocked in Teams Admin Center>Org-Wide settings>Teams Settings>Email integration>**Accept channel email from these SMTP domains**. It should be either blank or includes all the domains that you expect to receive emails from. Next, you need to make sure you have the necessary rules in place to ensure [the email to the Teams channel email address isn't blocked](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### Files
 
 Here you can turn on or turn off file sharing and cloud file storage options.
 
-Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include Dropbox, Box, ShareFile, Google Drive, and [Egnyte](https://www.egnyte.com). Turn on the switch for the cloud storage providers that your organization wants to use.
+Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include Dropbox, Box, ShareFile, Google Drive, and Egnyte. Turn on the switch for the cloud storage providers that your organization wants to use.
 
 #### Organization
 
@@ -92,6 +92,10 @@ Microsoft Teams scoped directory search uses Exchange address book policy (APB) 
 - Your school wants to limit chats between faculty and students. 
 
 Switch this setting **On** to turn on scoped directory searches.
+
+### Skype for Business
+
+Use this page to manage Skype for Business features for Skype for Business users in your organization. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](skype-for-business-settings.md).
 
 ### Teams upgrade
 

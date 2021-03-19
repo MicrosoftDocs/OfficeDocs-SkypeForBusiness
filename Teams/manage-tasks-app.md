@@ -1,46 +1,48 @@
 ---
 title: Manage the Tasks app for your organization in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 audience: admin
 description: Learn how to manage the Tasks app for users in your organization.
 localization_priority: Normal
 MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_Help
+  - M365-collaboration
+  - microsoftcloud-healthcare
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ---
 
 # Manage the Tasks app for your organization in Microsoft Teams
 
-> **This feature is currently in private preview.**
-
 ## Overview of Tasks
 
-The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating personal tasks powered by To Do and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab in a channel within individual teams. The **Personal lists** and **Team lists** in Tasks let users view and manage all their personal and team tasks and prioritize their work. Tasks is available in Teams desktop, web, and mobile clients. 
+The Tasks app brings a cohesive task management experience to Microsoft Teams, integrating individual tasks powered by [Microsoft To Do](https://todo.microsoft.com/tasks/) and team tasks powered by Planner in one place. Users can access Tasks as an app on the left side of Teams and as a tab in a channel within individual teams. **My tasks** and **Shared plans** in Tasks let users view and manage all their individual and team tasks and prioritize their work. Tasks is available in Teams desktop, web, and mobile clients. 
 
 > [!NOTE]
 > As we roll out the Tasks experience on Teams desktop clients, the app name will initially appear as **Planner** to users. The name will then temporarily change to **Tasks by Planner and To Do**, and later on, it will be renamed to **Tasks**. On Teams mobile clients, users will always see the app name as **Tasks**. There may be a short delay in the availability of the mobile experience after the desktop experience is available.
 
    ![Screenshot of list view of tasks on Teams list](media/manage-tasks-app-tasks.png)
 
-For organizations who want to streamline task management for Firstline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Firstline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and Firstline Workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
+For organizations who want to streamline task management for Frontline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Frontline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and Frontline Workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), you'll first need to set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
 ## What you need to know about Tasks
 
-Tasks is available as an app and as a tab in a channel. Keep in mind that the app comprises both personal tasks from To Do and team tasks from Planner whereas the tab shows only team tasks.
+Tasks is available as an app and as a tab in a channel. Keep in mind that the app comprises both individual tasks from To Do and team tasks from Planner whereas the tab shows only team tasks.
 
 With Tasks, users get a desktop, web, and mobile experience. If Tasks is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guest users. It's important to know that guests can only access Tasks as an app from the Teams mobile client. Guests will see Tasks tabs on both Teams desktop and web clients.
 
-Personal lists show a user's individual tasks. Team lists show tasks that the whole team is working on and includes any task list that's added as a Tasks tab to a channel. Note the following:
+**My tasks** shows a user's individual tasks. **Shared plans** show tasks that the whole team is working on and includes any task list that's added as a Tasks tab to a channel. Note the following:
 
-- Personal lists that a user creates in the Tasks app will also appear in To Do clients for that user. Similarly, task lists that a user creates in To Do will appear in Personal lists in Tasks for that user. The same is true for individual tasks.
+- Task lists that a user creates in the Tasks app will also appear in To Do clients for that user. Similarly, task lists that a user creates in To Do will appear in **My tasks** in Tasks for that user. The same is true for individual tasks.
 
 - Any Tasks tab that's added to a channel will also appear in Planner clients. When a user creates a plan in Planner, the plan won't show in the Tasks or Planner app unless it's added as a tab to a channel. When a user adds a new Tasks tab, they can create a new list or plan or choose an existing one.
 
@@ -59,6 +61,9 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
     - To turn off Tasks for your organization, search for the Tasks app, select it, and then click **Block**.
     - To turn on Tasks for your organization, search for the Tasks app, select it, and then click **Allow**.
 
+> [!NOTE]
+> If you can't find the Tasks app, search for the names in the first note of this article. The app could still be in the process of being renamed.
+
 ### Enable or disable Tasks for specific users in your organization
 
 To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
@@ -69,9 +74,11 @@ App setup policies let you customize Teams to highlight the apps that are most i
 
 To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-### Hide users' Personal lists if you don't want users to see them 
+### A user's My tasks is visible if the user is licensed for Exchange Online
 
-If you don't want users to see Personal lists, you can hide it. To do this, [remove the user's Exchange Online license](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Note that after you remove an Exchange Online license, the user no longer has access to their mailbox. Mailbox data is held for 30 days, after which the data will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+If you don't want a user to see **My tasks**, you can hide it. To do this, [remove the user's Exchange Online license](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). It's important to know that after you remove an Exchange Online license, the user no longer has access to their mailbox.  Mailbox data is held for 30 days, after which the data will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+
+We don't recommend this for information workers, but there may be some scenarios where this could apply, such as for Frontline Workers who don't depend on email.
 
 ## Task publishing
 
@@ -81,7 +88,7 @@ With task publishing, your organization can publish task lists targeted to speci
     ![Screenshot of task publishing](media/manage-tasks-app-publish.png)
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.<br>
     ![Screenshot of assigning a task](media/manage-tasks-app-assign.png)
-- Firstline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
+- Frontline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.<br>
     ![Screenshot of assigned tasks on mobile](media/manage-tasks-app-reporting.png)
 
@@ -97,7 +104,7 @@ The Marketing team shares the promotion details and the corresponding list of ta
 
 Store managers at each location receive a copy of the published tasks and assign those tasks to their team members. Managers can use the Tasks experience to understand all the work required across their store. They can also use the available filters to focus on a specific set of work, such as work due today or work in a particular area.
 
-Firstline Workers at each store location now have a prioritized list of their work in Tasks on their mobile device. When they finish a task, they mark it complete. Some may even choose to upload and attach a photo to the task to show their work.
+Frontline Workers at each store location now have a prioritized list of their work in Tasks on their mobile device. When they finish a task, they mark it complete. Some may even choose to upload and attach a photo to the task to show their work.
 
 Contoso headquarters and intermediate managers can view reporting to see the assignment and completion status of tasks at each store and across stores. They can also drill down to a specific task to see the status within different stores. As the launch date gets closer, they can spot any abnormalities and check in with their teams as needed. This visibility allows Contoso to improve the efficiency of the rollout and provide a more consistent experience across their stores.
 

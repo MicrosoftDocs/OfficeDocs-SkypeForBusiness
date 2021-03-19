@@ -1,7 +1,7 @@
 ---
 title: Migrate from Slack to Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -76,12 +77,12 @@ For exporting Direct Messages, check out tools, such as Export, in the Slack App
 Apps in Slack are like apps in Teams. Once you have a list of apps and their configurations in the Workspace, you can search in the Teams App store to see if they’re available for Teams*. 
 
 Go to <your Slack workspace>.slack.com/apps/manage to get a list of Apps and Custom Integrations. This page also shows you the number of configurations where each app is in use. 
-Custom Integrations vary in their “migrate-ability.” If it’s a Web Hook, you can usually send it to an Office 365 Connector to shift the workflow into Teams. Assess bots and other apps on a case-by-case basis to plan for moving them to Teams.
+Custom Integrations vary in their “migrate-ability.” If it’s a Web Hook, you can usually send it to a Microsoft 365 or Office 365 Connector to shift the workflow into Teams. Assess bots and other apps on a case-by-case basis to plan for moving them to Teams.
 
 \* If your administrator has restricted apps usage, you may not be looking at the full list of available apps.
 
 ### Users
-The identity schemes you used in Slack might not map directly to Office 365. For example, the email addresses of your Slack users may not map to Office 365 work or school accounts. You should create a user-ID map before you start planning your Teams rollout.
+The identity schemes you used in Slack might not map directly to Microsoft 365 or Office 365. For example, the email addresses of your Slack users may not map to Microsoft 365 or Office 365 work or school accounts. You should create a user-ID map before you start planning your Teams rollout.
 
 If you’re on a paid Slack service plan, you can go to *<your Slack workspace>.slack.com/admin/stats#members* to get member details such as email address and account type for each user (for example, single vs. multi-channel guest).
 
@@ -332,7 +333,7 @@ To figure out which apps to add to Teams, it’s important to understand how the
 
 In many cases, apps primarily receive event-driven data from an external service (for example, monitoring system) and push a message into Slack. You can achieve the same outcome by using a Microsoft 365 Connector that can push messages into Teams based on events.
 
-Below are examples of Slack solutions where an Office 365 Connector was used in Teams for integration.
+Below are examples of Slack solutions where a Microsoft 365 Connector was used in Teams for integration.
 - Ansible
   - Alerts can be sent to Teams via [Ansible webhook](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook)
 - New Relic

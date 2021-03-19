@@ -33,13 +33,13 @@ description: Learn about dialing toll-free numbers in Egypt, including availabil
 
 |**Details**|**Description**|
 |:-----|:-----|
-|Is toll-free calling available?  <br/> |Yes  <br/> |
+|Is toll-free calling available?  <br/> |No  <br/> |
 |Dialing format(s)  <br/> |0800-XXX-XXXX  <br/> |
 |Country/region ISO code  <br/> |EG  <br/> |
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> |Not applicable  <br/> |
 |Wired/fixed line availability  <br/> |From Telecom Egypt only.  <br/> |
-|Mobile network availability  <br/> |Yes  <br/> |
+|Mobile network availability  <br/> |No  <br/> |
 |Comments, restrictions, and access issues  <br/> |None  <br/> |
    
 ## Related topics

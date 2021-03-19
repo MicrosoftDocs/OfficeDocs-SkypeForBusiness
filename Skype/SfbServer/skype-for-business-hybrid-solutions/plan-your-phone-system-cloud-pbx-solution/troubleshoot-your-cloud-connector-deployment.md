@@ -19,6 +19,9 @@ description: "Troubleshoot your Cloud Connector Edition deployment."
 ---
 
 # Troubleshoot your Cloud Connector deployment
+
+> [!Important]
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
  
 Troubleshoot your Cloud Connector Edition deployment.
   
@@ -300,7 +303,7 @@ Following are solutions to commonly encountered issues:
     
 - **Issue: You receive the following error message in the Cloud Connector Management Service Log, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService Error: 0 : Unexpected exception when reporting status to online: System.Management.Automation.CmdletInvocationException: Logon failed for the user \<Global Tenant Admin\>. Please create a new credential object, making sure that you have used the correct user name and password. ---\>**
     
-    **Resolution:** The Office 365 global tenant admin credentials have been changed since the Cloud Connector appliance was registered. To update the locally stored credentials on the Cloud Connector appliance, run the following from Administrator PowerShell on the host appliance:
+    **Resolution:** The Microsoft 365 or Office 365 global tenant admin credentials have been changed since the Cloud Connector appliance was registered. To update the locally stored credentials on the Cloud Connector appliance, run the following from Administrator PowerShell on the host appliance:
     
   ```powershell
   Set-CcCredential -AccountType TenantAdmin

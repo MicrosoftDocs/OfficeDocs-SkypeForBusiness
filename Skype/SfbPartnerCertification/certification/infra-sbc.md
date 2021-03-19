@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Certification Program — Session Border Controllers"
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -29,7 +29,7 @@ These session border controllers that are certified for Skype for Business.
 |:--- |:--- |:--- |:--- |
 |[Audiocodes](https://www.audiocodes.com/products/microsoft-skype-for-business-sbc)|Mediant 500 E-SBC | | 7.00A.021.013 |
 | |Mediant 800 E-SBC | | 7.00A.021.013 |
-| |Mediant 800 E-SBC | | 7.00A.021.013 |
+| |Mediant 1000 E-SBC | | 7.00A.021.013 |
 | |Mediant 2600 SBC | |7.00A.021.013 |
 | | Mediant 4000B SBC | | 7.00A.021.013 |
 | | Mediant 9000 SBC | | 7.00A.044.007 |

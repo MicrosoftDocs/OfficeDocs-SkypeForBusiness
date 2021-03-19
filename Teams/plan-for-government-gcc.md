@@ -1,13 +1,13 @@
 ---
 title: Microsoft 365 Government - GCC deployments
-author: lolajacobsen
+author: SerdarSoysal
 ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
 audience: admin
-description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation
+description: Guidance for IT pros to drive Microsoft 365 deployments in entities that handle data subject to US government regulation
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -24,7 +24,7 @@ appliesto:
 
 # Plan for Microsoft 365 Government - GCC deployments
 
-This guidance is for IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that's subject to government regulations and requirements, where the use of Microsoft 365 Government - GCC is appropriate to meet these requirements. New March 26, 2020: Don't miss our downloadable [Quick Start guide for GCC](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
+This guidance is for IT pros who are driving deployments of Microsoft 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that's subject to government regulations and requirements, where the use of Microsoft 365 Government - GCC is appropriate to meet these requirements. New March 26, 2020: Don't miss our downloadable [Quick Start guide for GCC](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
 
 > [!IMPORTANT]
 > Microsoft Teams is experiencing a tremendous spike in online calls and audio/video conferencing due to the coronavirus (COVID-19) pandemic.<br/>
@@ -45,16 +45,16 @@ This guidance is for IT pros who are driving deployments of Office 365 in US fed
 
 The Microsoft 365 Government - GCC environment provides compliance with US government requirements for cloud services, including FedRAMP Moderate, and requirements for criminal justice and federal tax information systems (CJI and FTI data types).
 
-In addition to enjoying the features and capabilities of Office 365, organizations benefit from the following features that are unique to Microsoft 365 Government - GCC:
+In addition to enjoying the features and capabilities of Microsoft 365, organizations benefit from the following features that are unique to Microsoft 365 Government - GCC:
 
--   Your organization's customer content is logically segregated from customer content in the commercial Office 365 services from Microsoft.
+-   Your organization's customer content is logically segregated from customer content in the commercial Microsoft 365 services from Microsoft.
 -   Your organization's customer content is stored within the United States.
 -   Access to your organization's customer content is restricted to screened Microsoft personnel.
 -   Microsoft 365 Government - GCC complies with certifications and accreditations that are required for US Public Sector customers.
 
-You can find more information about the Microsoft 365 Government - GCC offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
+You can find more information about the Microsoft 365 Government - GCC offering for US Government customers at [Microsoft 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-The [Office 365 US Government service description](https://technet.microsoft.com/library/mt774581.aspx) describes the platform's benefits, which are centered around meeting compliance requirements within the United States.
+The [Microsoft 365 US Government service description](https://technet.microsoft.com/library/mt774581.aspx) describes the platform's benefits, which are centered around meeting compliance requirements within the United States.
 
 > [!Tip]
 > You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization's needs.
@@ -64,7 +64,7 @@ The [Office 365 US Government service description](https://technet.microsoft.com
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Microsoft 365 Government - GCC is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
 
 > [!Note]
-> Microsoft 365 Government - GCC is only available in the United States. Non–US Government customers can choose from a number of [Office 365 Government plans](https://products.office.com/en/government/compare-office-365-government-plans).
+> Microsoft 365 Government - GCC is only available in the United States. Non–US Government customers can choose from a number of [Microsoft 365 Government plans](https://products.office.com/en/government/compare-office-365-government-plans).
 
 
 ## Step 2. Apply for Microsoft 365 Government - GCC

@@ -1,8 +1,8 @@
 ---
 title: "Manage Front End Servers in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,6 +17,9 @@ description: "Summary: Learn how to add, remove, patch, or update Front End Serv
 # Manage Front End Servers in Skype for Business Server
  
 This article explains how to add or remove Front End Servers and how to apply upgrades or patches to Front End Servers.
+
+  > [!NOTE]
+> Skype for Business Server 2019 does not support Enterprise Edition Front End pools with two Front End Servers, and will not allow the topology to be published in that scenario.
 
 ## Add or remove Front End Servers
   
