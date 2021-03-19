@@ -87,9 +87,42 @@ Voicemail messages received by users in your organization are transcribed in the
 
 You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet.
 
- **PS C:\\> Get-CsOnlineVoicemailPolicy**
-  
-![Get-CsOnlineVoiceMailPolicy results window.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
+```PowerShell
+PS C:\> Get-CsOnlineVoicemailPolicy
+
+
+Identity                            : Global
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:Default
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:TranscriptionProfanityMaskingEnabled
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : True
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:TranscriptionDisabled
+EnableTranscription                 : False
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+```
   
 ### Turning off transcription for your organization
 
