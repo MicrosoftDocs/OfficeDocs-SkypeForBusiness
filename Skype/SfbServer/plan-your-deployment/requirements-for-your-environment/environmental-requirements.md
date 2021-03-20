@@ -234,7 +234,7 @@ So certificate planning's a must. Now, let's look at a list of some of the thing
     
 - All server certificates must contain a CRL Distribution Point (CDP).
     
-- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2015 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.
+- All certificates must be signed using RSA signing algorithm supported by the operating system. Skype for Business Server 2015 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.
     
 - Auto-enrollment is supported for internal servers running Skype for Business Server 2015.
     
@@ -246,7 +246,8 @@ So certificate planning's a must. Now, let's look at a list of some of the thing
 > Although KB922706 provides support for resolving issues with enrolling web certificates against a Windows Server 2003 Certificate Services web enrollment, it does not make it possible to use Windows Server 2008, Windows Vista, or Windows 7 to request a certificate from a Windows Server 2003 CA. 
   
 > [!NOTE]
-> Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems. 
+> Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems.
+> Non RSA signature algorithm is not supported 
 
 > [!NOTE]
 > Skype for Business Server 2015 does not support CNG certificates.
