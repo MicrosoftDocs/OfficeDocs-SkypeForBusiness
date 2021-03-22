@@ -12306,6 +12306,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/How-to-roll-out-teams.md",
+      "redirect_url": "/microsoftteams/deploy-overview",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/healthcare-templates.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console",
       "redirect_document_id": true

@@ -50,6 +50,8 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 1. Have the user go to [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
 2. Click **Reset PIN**. 
 
+> [!NOTE]
+> For GCCH go to: https://webdir2g.online.gov.skypeforbusiness.us/lscp/usp/pstnconferencing.
 
 ## What else should you know about PINs?
 

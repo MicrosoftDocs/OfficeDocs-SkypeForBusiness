@@ -2,7 +2,7 @@
 title: View-only meeting experience
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -21,10 +21,10 @@ appliesto:
 # Teams view-only meeting experience
 
 > [!Note]
-> View-only meeting experience will be available in early March 2021.
+> View-only broadcasts is available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. The feature in Microsoft 365 Government Community Cloud (GCC) will begin to roll out at the end of March 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> We've temporarily increased view-only experience for 20,000 attendees, but we'll revert support to 10,000 attendees on June 30, 2021.
+> If your meeting or webinar hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year.
 
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached, additional attendees will join with a view-only experience.
 
@@ -37,9 +37,9 @@ We have full Android and iOS mobile support for an attendee to join.
 > [!Note]
 > The current limit for the number of people who can chat and call in to a meeting is 300 in WW and 250 in GCC, GCC High, and DoD.
 
-The view-only experience is enabled by default for any organizer who has E3/E5/A3/A5 SKU. No further configuration or setup is required.
+The view-only experience is disabled by default for any organizer who has E3/E5/A3/A5 SKU. No further configuration or setup is required.
 
-### Disable Teams view-only experience
+## Disable Teams view-only experience
 
 Administrators can disable the view-only experience using PowerShell.
 
@@ -60,7 +60,7 @@ When the capacity of the main meeting has been reached, an attendee will be unab
 
 When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that the meeting capacity has been reached and that new attendees will join a view-only attendee.
 
-  ![the Teams client and banner messsage for organizers and presenters](media/chat-and-banner-message.png)
+  ![the Teams client and banner message for organizers and presenters](media/chat-and-banner-message.png)
 
 When the capacity of the main meeting has been reached, meeting attendees will be informed on the pre-join screen that they're joining in view-only mode.
 
@@ -72,8 +72,6 @@ If presenter/attendee roles haven't been set, spaces in the main meeting are fil
 
 ## Impact to meeting presenters
 
-We'll reserve space in the normal meeting for users explicitly indicated as presenters in the meeting options. If a presenter leaves and then later rejoins the meeting, they'll be let into the meeting as a presenter.
-
 Limitations for meeting presenters include:
 
 - You'll have no information about the view-only attendee. We don't support E-discovery for view-only attendees.
@@ -81,7 +79,7 @@ Limitations for meeting presenters include:
 - You can't remove a view-only attendee from the meeting.
 
 > [!Note]
-> Attendee count will only reflect the people in the meeting and not the people in the overflow room. Therefore, presenters can't get an exact count of who is in the view-only experience.
+> Attendee count will only reflect the people in the meeting and not the people in the view-only room. Therefore, presenters can't get an exact count of who is in the view-only experience.
 
 ## Experience for view-only attendees
 
@@ -94,9 +92,8 @@ The Teams view-only experience allows attendees to:
 The view-only attendee won't be able to experience the following options in meetings:
 
 - Join the meeting if the attendee doesn't have permission to bypass the lobby based on set lobby policies or options.
-- Join the Overflow Room via Audio Conferencing.
-- Join the Overflow Room via Microsoft Teams Room system or via Cloud Video Interop (CVI) services.
-- Join the Overflow Room via the Teams Android mobile app.
+- Join the view-only room using Audio Conferencing.
+- Join the view-only room using Microsoft Teams Room system or using Cloud Video Interop (CVI) services.
 - Share their audio or video.
 - See or participate in the meeting chat.
 - See the video feed of meeting participants unless the participant is the active speaker.
@@ -112,8 +109,3 @@ The view-only attendee won't be able to experience the following options in meet
 - View-only attendees won't have the same latency as a regular attendee. <sup>1</sup>
 
   <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.  
-
-## Related topics
-
-- [Advanced communications add-on for Teams](teams-add-on-licensing/advanced-communications.md)
-- [Limits and specifications for Teams](limits-specifications-teams.md)

@@ -72,6 +72,19 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 
+## Sign in using MFA and modern authentication
+
+ If your account uses multi-factor authentication, use the steps in this section.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
+Import-PsSession $session
+```
+
 ## Update Teams PowerShell
 
 To update Teams PowerShell, open a new elevated PowerShell command prompt and run the following:
@@ -97,7 +110,7 @@ Uninstall-Module MicrosoftTeams
 ## Install Teams PowerShell public preview
 
 > [!NOTE]
-> If you're using the public preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
+> If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
 
 Installing the Teams PowerShell public preview module for all users on a system requires elevated privileges. Start the PowerShell
 session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux.
@@ -111,7 +124,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 To install Teams PowerShell public preview, run the PowerShell command below.
 
 > [!NOTE]
-> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease"
+> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions"
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"

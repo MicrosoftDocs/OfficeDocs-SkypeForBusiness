@@ -65,6 +65,9 @@ For more information about emergency calling, including information about emerge
 - [Manage network settings for cloud voice features](cloud-voice-network-settings.md)
 - [Manage your network topology for cloud voice features](manage-your-network-topology.md)
 
+For more information about which features are available in the government clouds, see [Government support](#government-support) at the end of this article.
+
+
 ## Supported clients
 
 The following clients are currently supported.  Check back often to see updates to this list.
@@ -211,6 +214,17 @@ Some Emergency Routing Service Providers (ERSPs) in the United States offer an e
 - **Calling Plan users in the United States** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
 
 - **Direct Routing customers in the United States** should coordinate with their ERSP for a test service.
+
+## Government support
+
+The following table shows support for dynamic emergency calling in the government clouds:
+
+| Cloud | Availability |
+| :------------|:-------|
+| World Wide Multi Tenant | Fully available |
+| GCC | Available on all clients except Teams IP phones |
+| GCCH | Pending |
+| DoD | Pending |
 
  ## Related topics
 

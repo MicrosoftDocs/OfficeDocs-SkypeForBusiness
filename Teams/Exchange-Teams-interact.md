@@ -45,7 +45,7 @@ The following table provides a helpful quick reference to feature availability b
 | **Exchange Online**                                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
 | **Exchange Online Dedicated vNext**                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
 | **Exchange Online Dedicated – Legacy** (Sync to Azure AD required)  | Yes <sup>1</sup> | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
-| **Exchange On-premises** (Sync to Azure AD) | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>         | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
+| **Exchange On-premises** (Sync to Azure AD) | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>         | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -59,9 +59,10 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
-<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads an inappropriate picture, change it according to your organization's internal policies.
-
+<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture, so the porfile picture wont be synced to teams if the admin changes the photo.
 <sup>8</sup> You need to meet the requirements listed in the [Requirements to create and view meetings for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
+
+<sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required. For more information, see [Search for Teams chat data for on-premises users](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
 ## Requirements to get the most out of Microsoft Teams
 
@@ -101,12 +102,12 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 To enable calendar delegation for these users:
 
-- You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
+- You must also complete steps as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
   > [!NOTE]
   > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
-- Teams Scheduling add-in for Outlook when scheduling a meeting on behalf of someone requires Exchange 2013 CU19 or later. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
+- The Teams Scheduling add-in for Outlook requires Exchange 2013 CU19 or later when scheduling a meeting on behalf of someone else. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
 ## Additional considerations
 
