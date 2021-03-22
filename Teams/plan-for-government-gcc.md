@@ -33,7 +33,7 @@ This guidance is for IT pros who are driving deployments of Microsoft 365 in US 
 > 
 >These audio/video servers reside within the Microsoft Azure FedRAMP High accreditation boundary servers in the United States and do not store any customer content. However, these servers are processing audio and video for calls and conferences and are operating under our commercial staff during this interim period.<br/>
 > 
->Qualified, screened personnel are monitoring these servers for potential access to customer data by reviewing any interactive log-ons to these servers. Qualified personnel meet GCC requirements for access to customer content. For details about screening requirements, see the [GCC service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).<br/>
+>Qualified, screened personnel are monitoring these servers for potential access to customer data by reviewing any interactive log-ons to these servers. Qualified personnel meet GCC requirements for access to customer content. For details about screening requirements, see the [GCC service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).<br/>
 > 
 >Thank you for your support as we take steps to ensure that our services remain available and reliable in these extraordinary times.<br/>
 
@@ -54,7 +54,7 @@ In addition to enjoying the features and capabilities of Microsoft 365, organiza
 
 You can find more information about the Microsoft 365 Government - GCC offering for US Government customers at [Microsoft 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-The [Microsoft 365 US Government service description](https://technet.microsoft.com/library/mt774581.aspx) describes the platform's benefits, which are centered around meeting compliance requirements within the United States.
+The [Microsoft 365 US Government service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform's benefits, which are centered around meeting compliance requirements within the United States.
 
 > [!Tip]
 > You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization's needs.
@@ -83,7 +83,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC and Enterprise plans. Refer to the following table to see which features are available.
 
-[Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+[Microsoft Teams service description](/office365/servicedescriptions/teams-service-description)
 
 > [!Note]
 > Once other workloads are fully available in the GCC cloud, then they will become available in Teams when all additional  integration work is completed.
@@ -103,11 +103,10 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 
 ## Step 6. Deploy Teams for collaboration
 
-After you've been onboarded to Microsoft 365 Government – GCC, follow the recommended deployment path outlined in [How to roll out Microsoft Teams](How-to-roll-out-teams.md). Be sure to engage with your Adoption and Change Management team and Teams champions.
+After you've been onboarded to Microsoft 365 Government – GCC, follow the recommended deployment path outlined in [How to roll out Microsoft Teams](./deploy-overview.md). Be sure to engage with your Adoption and Change Management team and Teams champions.
 
 You can also work with [FastTrack](https://www.microsoft.com/fasttrack) or your chosen partner to onboard the service.
 
 ## Step 7. Deploy Teams for meetings and voice
 
-This is also a great time to use Teams with your wider stakeholder group to start planning for rolling out meetings and [cloud voice features](cloud-voice-deployment.md).
-
+This is also a great time to use Teams with your wider stakeholder group to start planning for rolling out meetings and [cloud voice features](./cloud-voice-landing-page.md).

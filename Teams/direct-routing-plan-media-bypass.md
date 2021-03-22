@@ -65,7 +65,7 @@ If the user has direct access to the public IP address of the SBC, the call flow
 
 The following diagram shows call flow when media bypass is enabled, the client is internal, and the client can reach the public IP address of the SBC (direct media): 
 
-- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
+- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](./microsoft-teams-online-call-flows.md).
 
 - The SIP signaling always takes paths 4 and 4' (depending on the direction of the traffic). Media stays local and takes path 5b.
 
@@ -86,7 +86,7 @@ For example, assume the user is external, and the tenant administrator decided n
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
 
-- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
+- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](./microsoft-teams-online-call-flows.md).
 
 - Media is relayed via paths 3, 3', 4 and 4'
 
@@ -101,7 +101,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client can reach the public IP address of the SBC (direct media).
 
-- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](./microsoft-teams-online-call-flows.md) article.
 
 - The SIP signaling always takes paths 3 and 3' (depending on the direction of the traffic). Media flows using path 2.
 
@@ -170,7 +170,7 @@ Direct Routing is offered in the following Microsoft 365 or Office 365 environme
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
-Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
+Learn more about [Office 365 and US Government environments](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
 
 ### Microsoft 365, Office 365, and Office 365 GCC environments
 
@@ -369,5 +369,3 @@ For all other endpoints that do not support media bypass, we will convert the ca
 ## See also
 
 [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
-
-

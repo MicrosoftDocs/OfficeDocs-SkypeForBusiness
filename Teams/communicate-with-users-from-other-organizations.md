@@ -48,7 +48,7 @@ Use guest access to add a person from outside your organization to a team, where
 
 Guests are added to your organization's Azure Active Directory as B2B users and must sign in to Teams using their guest account. This means that they may have to sign out of their own organization to sign in to your organization.
 
-To configure guest access for Teams, see [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+To configure guest access for Teams, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
 ## Compare external and guest access
 
@@ -100,4 +100,3 @@ The following tables show the differences between using external access (federat
 [External access in Teams](manage-external-access.md)
 
 [Guest access in Teams](guest-access.md)
-

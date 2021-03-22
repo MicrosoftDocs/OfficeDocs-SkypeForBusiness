@@ -105,7 +105,7 @@ These are the main takeaways from this guidance. You must:
     Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure
     that you meet the requirements described in [Media quality and network
     connectivity
-    performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
+    performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
     from both the edge segment and the client segment.
 
 ## Why should you prepare your network?
@@ -243,7 +243,7 @@ proxy server for all Teams services. Although using a proxy might work, it's
 very likely that quality will be reduced due to media being forced to use TCP
 instead of UDP. For more information about proxy servers and bypassing, see
 [Microsoft 365 or Office 365 URLs and IP address
-ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+ranges](./office-365-urls-ip-address-ranges.md).
 
 <!--ENDOFSECTION-->
 
@@ -307,7 +307,7 @@ jitter:
 
 The maximum values for these impairments are described in [Media quality and
 network connectivity
-performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 When testing for these impairments, we distinguish between two separate
 segments:
 
@@ -325,7 +325,7 @@ You should test both segments by using the Network Assessment Tool. To test the
 segment, navigate to the directory and enter **networkassessmenttool.exe** at
 the command prompt. The results are written to a file named Results.tsv, and you
 can compare them to the
-[requirements](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
+[requirements](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
 for each segment.
 
 Note that both segments must meet the requirements for a high-quality
@@ -352,7 +352,7 @@ separating traffic. Some organizations choose to deploy QoS to overcome
 bandwidth issues or restrict the amount of traffic flowing. This won't improve
 quality and will lead to new problems. A root-cause analysis should always be
 performed when network impairments exceed requirements. QoS can be a solution.
-For more information, see [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
+For more information, see [Quality of Service in Microsoft Teams](./qos-in-teams.md).
 
 >[!NOTE]
 >Many networks evolve over time due to upgrades, expansion, or other

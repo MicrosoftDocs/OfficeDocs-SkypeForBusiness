@@ -35,13 +35,13 @@ Starting July 31, 2019, Teams client updates use significantly lower network ban
 
 ## What about updates to Microsoft 365 Apps for enterprise?
 
-Teams is installed by default with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/teams-install). 
+Teams is installed by default with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/DeployOffice/teams-install). 
 
-Teams follows its own update process as outlined above, and not the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+Teams follows its own update process as outlined above, and not the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## What about updates to Teams on VDI?
 
-Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi). You must uninstall the current version to update to a newer version.
+Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](./teams-for-vdi.md#install-teams-on-vdi). You must uninstall the current version to update to a newer version.
 
 ## Can admins deploy updates instead of Teams auto-updating?
 

@@ -159,6 +159,6 @@ Now you're ready to manage Teams using Teams PowerShell. See [Managing Teams wit
 
 [Teams PowerShell Release Notes](teams-powershell-release-notes.md)
 
-[Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps)
 
-[Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps)

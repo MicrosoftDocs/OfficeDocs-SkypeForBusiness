@@ -158,7 +158,7 @@ inform users, the helpdesk, and your operations teams to prepare to handle user
 escalations.
 
 The following sections describe the tools that you can leverage to monitor for
-[service incidents](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1) that affect the Teams service. A summary of the benefits of each
+[service incidents](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity#Anchor_1) that affect the Teams service. A summary of the benefits of each
 tool, and when you should use each one, is included in the following table.
 
 | Monitoring Tool | Benefits | When to use |
@@ -214,7 +214,7 @@ support groups, and incident managers in your organization.
 You can monitor service health and upcoming changes by leveraging the Service Communications API to access service health and changes
 programmatically. Use this API to create your own monitoring tool, or connect
 your existing monitoring tools to Microsoft 365 or Office 365 service communications, potentially
-simplifying how you monitor your environment. For more information, see [Microsoft 365 or Office 365 for Enterprise developers](https://docs.microsoft.com/office/developer-program/microsoft-365-developer-program-faq).
+simplifying how you monitor your environment. For more information, see [Microsoft 365 or Office 365 for Enterprise developers](/office/developer-program/microsoft-365-developer-program-faq).
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -229,7 +229,7 @@ simplifying how you monitor your environment. For more information, see [Microso
 
 [Verify service health for Microsoft Teams](service-health.md)
 
-[Service Health and Continuity](https://technet.microsoft.com/library/office-365-service-health.aspx)
+[Service Health and Continuity](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)
 
 <!--ENDOFSECTION-->
 
@@ -508,9 +508,9 @@ be performed at regular intervals.
 
 | Activity | Description | Cadence | Team assigned |
 |---|---|---|---|
-| Monitor Microsoft 365 or Office 365 IPs and URLs | Monitor any changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) by using the provided [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) and initiate a change request to applicable networking groups. | Daily | |
-| Update the network based on changes to Microsoft 365 or Office 365 IPs and URLs | Make updates to the applicable network components (firewalls, proxy servers, VPNs, client-side firewalls, and so on) to reflect changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). | As needed | |
-| Provide building data | Provide updated subnet information to the quality champion (or relevant stakeholders) to ensure that the [building definitions in CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) are kept up to date. | As needed | |
+| Monitor Microsoft 365 or Office 365 IPs and URLs | Monitor any changes to the [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) by using the provided [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) and initiate a change request to applicable networking groups. | Daily | |
+| Update the network based on changes to Microsoft 365 or Office 365 IPs and URLs | Make updates to the applicable network components (firewalls, proxy servers, VPNs, client-side firewalls, and so on) to reflect changes to the [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). | As needed | |
+| Provide building data | Provide updated subnet information to the quality champion (or relevant stakeholders) to ensure that the [building definitions in CQD](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) are kept up to date. | As needed | |
 | Implement change | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul> | As needed | |
 | Network monitoring and reporting | Monitor the network end to end for availability, utilization, and capacity trends by using your existing third-party network management tools and reporting capabilities available from your network providers. Use trending data for network capacity planning. | Daily, weekly, monthly | |
 | Capacity planning | Collaborate with the Teams service owners to understand changing business and technical requirements that might drive additional capacity changes.  | As needed | |
@@ -519,9 +519,9 @@ be performed at regular intervals.
 
 ### References
 
-[Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
+[Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
-[Building data schema](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
+[Building data schema](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
 <!--ENDOFSECTION-->
 
@@ -561,12 +561,12 @@ being nominated, they should start to familiarize themselves with the content in
 | Nominate and train quality champion(s) | Nominate and train a quality champion. | As needed | |
 | Perform Quality of Experience Reviews (QERs) | Perform a QER to identify trends in quality and reliability, review against defined targets, and report out to key stakeholders in the organization. | Monthly (weekly during deployments) | |
 | Drive remediation | Coordinate remediation efforts across the organization based on the QER assessments and findings. | As needed | |
-| Update building data in CQD | Update or add new building definitions in CQD when changes are made to the network (see [Upload Building information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | As needed | |
+| Update building data in CQD | Update or add new building definitions in CQD when changes are made to the network (see [Upload Building information](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | As needed | |
 | Fill the Quality Champion role | End-to-end responsibility for quality in the organization. This includes:<ul><li>Ensure that the QER is being conducted regularly.</li><li>Report out to key stakeholders on quality status.</li><li>Ensure the building data definitions are up to date.</li><li>Coordinate remediation efforts across the organization to ensure that users have a high-quality experience with Teams.</li></ul> | Daily | |
 
 ### References
 
-[Upload Building information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[Upload Building information](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
@@ -601,7 +601,7 @@ to be kept current as well. A list of supported platforms can be found in [Get c
 Client-side firewalls can have a significant impact on the user experience.
 Client-side firewalls can affect call quality and even prevent a call from being
 established. After the appropriate exclusions on the client firewall have been
-configured, they need to be kept up to date based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor
+configured, they need to be kept up to date based on the information in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). Your third-party vendor
 will have specific guidance for how to update the exclusions.
 
 ### Wi-Fi drivers
@@ -635,35 +635,35 @@ troubleshooting guide. The steps are provided in a specific order, but they
 don't have to be followed explicitly and might not be applicable, depending on
 the nature of the issue.
 
-1. **Validate service health:** The issue a user might be experiencing can be related to an event that negatively affects the Teams service or its dependent services. As a first step, we recommend that you confirm there are no active service issues. Consult [How to check Microsoft 365 service health](https://docs.microsoft.com/office365/enterprise/view-service-health). Remember to check for the status of dependent services (for example, Exchange, SharePoint, OneDrive for Business). Monitoring for service health is discussed in more detail in the previous section, [Monitor service health](#monitor-service-health).
+1. **Validate service health:** The issue a user might be experiencing can be related to an event that negatively affects the Teams service or its dependent services. As a first step, we recommend that you confirm there are no active service issues. Consult [How to check Microsoft 365 service health](/office365/enterprise/view-service-health). Remember to check for the status of dependent services (for example, Exchange, SharePoint, OneDrive for Business). Monitoring for service health is discussed in more detail in the previous section, [Monitor service health](#monitor-service-health).
 
-2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](prepare-network.md) guidance.
+2. **Validate client connectivity:** Connectivity issues cause functionality or sign-in issues in Teams. We recommend (especially for new sites or locations) that you validate connectivity to the service. Ensure the following [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) guidance is followed for each site. You can leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to perform a connectivity test to validate that the media ports have been opened correctly for Teams capabilities. Detailed steps on how to run the connectivity tests are provided in the [network readiness](prepare-network.md) guidance.
 
-3. **Check the known issues list:** Consult [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
+3. **Check the known issues list:** Consult [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams) to determine whether the user has been negatively affected by one of these issues. Follow the workaround provided (if there is one) to resolve the issue.
 
 4. **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) offers dedicated spaces for Teams. The Teams community provides a discussion list, blog posts, and announcements centered around Teams. You can post a question or search previous discussions for solutions to your issue.
 
-5. **Contact Microsoft Support:** You can contact Microsoft Support for issues with Teams online or by phone. For information, see [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). For Premier customers, support requests can be initiated by following the guidance at [Contact support for Microsoft Teams (Premier customers)](https://support.microsoft.com/premier/contacts).
+5. **Contact Microsoft Support:** You can contact Microsoft Support for issues with Teams online or by phone. For information, see [Contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). For Premier customers, support requests can be initiated by following the guidance at [Contact support for Microsoft Teams (Premier customers)](https://support.microsoft.com/premier/contacts).
 
 ### Daily/weekly/monthly/as-needed tasks
 
 | Activity | Description | Cadence | Team assigned |
 |---|---|---|---|
 | Endpoint requirements | Ensure that the Teams endpoint continues to meet all the software requirements for Teams listed in [Get clients for Microsoft Teams](get-clients.md). | Monthly | |
-| Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/o365ip/rss) to be notified automatically of changes. | As needed | |
+| Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/o365ip/rss) to be notified automatically of changes. | As needed | |
 | Wi-Fi drivers | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Improve and monitor call quality for Teams](monitor-call-quality-qos.md)). | As needed | |
 | Endpoint management | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies. | Monthly | |
 | Endpoint troubleshooting | Troubleshooting tasks can include verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors. | As needed | |
 
 ### References
 
-[Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
+[Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 [Get clients for Microsoft Teams](get-clients.md)
 
 [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
 
 [Verify service health for Microsoft Teams](service-health.md)
 
@@ -718,7 +718,7 @@ users to submit requests that are processed by an assigned team.
 |---|---|---|---|
 | Service administration | Administration of tenant-wide Teams settings. | As needed | |
 | User administration | Administration of user-based settings and licensing in Teams. | As needed | |
-| License management | Plan for current and future needs for both user and consumption-based licensing (Calling Plans and Communication Credits) by leveraging the [PSTN usage report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) and [PSTN minute pools](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) report. | Weekly | |
+| License management | Plan for current and future needs for both user and consumption-based licensing (Calling Plans and Communication Credits) by leveraging the [PSTN usage report](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) and [PSTN minute pools](/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) report. | Weekly | |
 | Telephone number management | Manage the telephone numbers available for future growth, and adjust inventory levels to meet your organizational needs. | Weekly | |
 | Team creation (optional) | Review and process requests for team creation. | As needed | |
 
