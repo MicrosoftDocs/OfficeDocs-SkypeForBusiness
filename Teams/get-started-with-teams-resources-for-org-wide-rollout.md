@@ -58,6 +58,6 @@ Many businesses can deploy Teams just using [Small business setup](deploy-small-
 If this sounds like your organization, you need to complete Teams enterprise setup. Enterprise setup helps you plan your deployment and provides recommendations for how to establish an adoption program to maximize the use of Teams.
 
 > [!div class="nextstepaction"]
-> [Go to enterprise setup](deploy-advanced.md)
+> [Go to enterprise setup](deploy-enterprise-overview.md)
 
 ---
