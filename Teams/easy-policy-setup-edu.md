@@ -62,7 +62,7 @@ Now, let's get started!
 
 Follow these steps to run the wizard.
 
-1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
+1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of the wizard in the dashboard":::
 
@@ -140,7 +140,7 @@ Until this capability is available, check [Message Center](https://admin.microso
 
 If you need to make changes after you run the wizard, you can re-run it and change your selections.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
 2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the group of educators and staff to which you want to assign policies, or both.
 
 The following table summarizes what happens when you make a change in the wizard.
