@@ -25,13 +25,10 @@ The **Topology**: **Status** page displays the status of the servers in your Sky
 
 You can perform the following tasks on the **Topology**: **Status** page:
 
-- [View a List of Computers Running Skype for Business Server or Lync Server](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [View a List of Computers Running Skype for Business Server or Lync Server](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
-- [View Details About a Service](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [View Details About a Service](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 
-- [Start or Stop Services](https://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [Start or Stop Services](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
 
-- [Prevent New Connections to Services](https://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
-
-
-
+- [Prevent New Connections to Services](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)

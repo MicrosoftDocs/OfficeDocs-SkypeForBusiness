@@ -44,6 +44,6 @@ You edit the properties of the Mediation Servers in this dialog. Along the left 
 
 ## See also
 
-[Overview of SIP Trunking](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
+[Overview of SIP Trunking](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-sip-trunking)
 
-[PSTN Gateway Deployment Options](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[PSTN Gateway Deployment Options](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-gateway-deployment-options)

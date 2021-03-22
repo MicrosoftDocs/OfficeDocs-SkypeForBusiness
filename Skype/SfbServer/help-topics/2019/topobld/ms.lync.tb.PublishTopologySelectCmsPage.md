@@ -26,4 +26,4 @@ The Central Management Server is a single master/multiple replica system, where 
   
 ## See also
 
-[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps)
