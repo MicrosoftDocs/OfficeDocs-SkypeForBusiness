@@ -108,4 +108,3 @@ You can optionally specify a custom username and email address to join third-par
 
 > [!NOTE]
 > To join Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted using Cisco WebEx web application version WBS 40.7 or later.
-
