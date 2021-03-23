@@ -37,4 +37,4 @@ You define the root trunk for the IP or public switched telephone network (PSTN)
 
 [Configure a trunk without media bypass in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[SIP Trunking Support](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[SIP Trunking Support](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

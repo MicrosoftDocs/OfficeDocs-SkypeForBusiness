@@ -606,4 +606,4 @@ We recommend that you visit the vendor's web site for the latest information reg
 </table>
 
 
-For more information on Direct SIP configurations, please see [PSTN Connectivity Components](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/pstn-connectivity).
+For more information on Direct SIP configurations, please see [PSTN Connectivity Components](../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md).

@@ -80,7 +80,7 @@ To complete the steps in this section, you'll need some familiarity with PowerSh
 
 ### Define network regions
 
- Use the [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.
+ Use the [New-CsTenantNetworkRegion](/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -91,11 +91,11 @@ In this example, we create a network region named India.
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-See also [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworkregion).
+See also [Set-CsTenantNetworkRegion](/powershell/module/skype/set-cstenantnetworkregion).
 
 ### Define network sites
 
-Use the [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet to define network sites. Each network site must be associated with a network region.
+Use the [New-CsTenantNetworkSite](/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet to define network sites. Each network site must be associated with a network region.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -115,11 +115,11 @@ The following table shows the network sites defined in this example.
 |Site ID    |    Site 1 (Delhi)     |  Site 2 (Hyderabad)       |
 |Region ID  |     Region 1 (India)    |   Region 1 (India)      |
 
-See also [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite).
+See also [Set-CsTenantNetworkRegion](/powershell/module/skype/set-cstenantnetworksite).
 
 ### Define network subnets
 
-Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
+Use the [New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -156,11 +156,11 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-See also [Set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet).
+See also [Set-CsTenantNetworkSubnet](./h/powershell/module/skype/set-cstenantnetworksubnet).
 
 ### Define external subnets (external trusted IP addresses)
 
-Use the [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
+Use the [New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
@@ -172,7 +172,7 @@ For example:
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
-See also [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress).
+See also [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenanttrustedipaddress).
 
 ## Related topics
 

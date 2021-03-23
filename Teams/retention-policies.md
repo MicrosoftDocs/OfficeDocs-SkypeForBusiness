@@ -32,9 +32,9 @@ Retention policies and retention labels from Microsoft 365 help you to more effe
 
 Teams supports retention policies for chat and channel messages so that as an admin, you can decide proactively whether to retain this data, delete it, or retain it for a specific period of time and then delete it. You can apply a Teams retention policy to your entire organization or to specific users and teams. Retention labels aren't supported for Teams.
 
-To learn more about retention, and how you can apply retention settings by using retention policies or retention labels for other workloads in Microsoft 365, see [Learn about retention policies and retention labels](https://docs.microsoft.com/microsoft-365/compliance/retention).
+To learn more about retention, and how you can apply retention settings by using retention policies or retention labels for other workloads in Microsoft 365, see [Learn about retention policies and retention labels](/microsoft-365/compliance/retention).
 
-The minimum licensing requirement for retention policies for Teams is Microsoft 365 E3. To learn more about licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+The minimum licensing requirement for retention policies for Teams is Microsoft 365 E3. To learn more about licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 ## How Teams retention/deletion policies work
 
@@ -42,7 +42,7 @@ Teams chat messages are stored in two locations. Primary copy is stored in Azure
 
 When a chat message retention poilcy is applied to a user or Team, and if the messages are deleted (either due to another deletion policy or by user themselves), the primary copy is deleted, hence Teams client will see the message disappear, but secondary copy is automatically moved to a hidden folder named **SubstrateHolds** , which is as a subfolder in the Exchange **Recoverable Items** folder. Until these messages are permanently deleted from the SubstrateHolds folder, they remain searchable by eDiscovery tools.
 
-For detailed information about what's included and excluded for Teams retention policies, and how these policies work depending on your policy configuration, see [Learn about retention for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams).
+For detailed information about what's included and excluded for Teams retention policies, and how these policies work depending on your policy configuration, see [Learn about retention for Microsoft Teams](/microsoft-365/compliance/retention-policies-teams).
 
 > [!NOTE]
 > That page explains why you might sometimes see delays when retention policies delete messages. For example, messages can be visible up to 7 days after the expiration period you've configured in the retention policy.
@@ -51,7 +51,7 @@ If you set up multiple Teams retention policies with different retention setting
 - If there is a conflict between retaining or deleting the same content, the content is always retained.
 - If there is a conflict in how long to retain the same content, it is retained for the longest retention period.
 
-These two principles of retention address most conflicts that might arise when you have multiple retention policies for Teams, but for more information, see [The principles of retention, or what takes precedence?](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+These two principles of retention address most conflicts that might arise when you have multiple retention policies for Teams, but for more information, see [The principles of retention, or what takes precedence?](/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## When to use retention policies for Teams
 
@@ -63,7 +63,7 @@ For example, for channel messages, you can apply a one-year deletion policy to s
 
 ## Create and manage retention policies for Teams
 
-To create a retention policy for Teams chats and channel messages, use the instructions from [Retention policy for Teams locations](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
+To create a retention policy for Teams chats and channel messages, use the instructions from [Retention policy for Teams locations](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
 
 That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 Groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.  
 
@@ -89,6 +89,6 @@ The links in these displayed messages go to [Teams messages about retention poli
 
 ## Related topics
 
-- [Get started with retention policies and retention labels](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
-- [Learn about retention for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
-- [Create and configure retention policies](https://docs.microsoft.com/microsoft-365/compliance/create-retention-policies)
+- [Get started with retention policies and retention labels](/microsoft-365/compliance/get-started-with-retention)
+- [Learn about retention for Microsoft Teams](/microsoft-365/compliance/retention-policies-teams)
+- [Create and configure retention policies](/microsoft-365/compliance/create-retention-policies)

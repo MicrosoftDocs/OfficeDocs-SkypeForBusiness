@@ -32,13 +32,13 @@ By driving adoption of Microsoft Teams, you can deliver an excellent user experi
 
 Before getting started, make sure that:
 
-- [Teams is installed](get-clients.md) and [licenses are assigned](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) in your environment. At a minimum licenses should be assigned to your core team and to the early adopters who will participate in this initial project phase.
+- [Teams is installed](get-clients.md) and [licenses are assigned](/office365/servicedescriptions/teams-service-description) in your environment. At a minimum licenses should be assigned to your core team and to the early adopters who will participate in this initial project phase.
 
 - You've downloaded the desktop and mobile applications. 
 
 ## Adoption framework
 
-Microsoft 365 and Office 365 have an adoption framework that applies to major workloads in the service. This framework addresses the core steps that any organization should take to support cloud services. To learn more about the overall adoption framework, see [Microsoft Enterprise documentation and resources](https://aka.ms/O365AdoptionHub). 
+Microsoft 365 and Office 365 have an adoption framework that applies to major workloads in the service. This framework addresses the core steps that any organization should take to support cloud services. To learn more about the overall adoption framework, see [Microsoft Enterprise documentation and resources](/microsoft-365/enterprise/). 
 
 In this Teams adoption plan, we've organized the steps in phases and provided specific Teams guidance as outlined in [Adoption phases](#adoption-phases), next.
 

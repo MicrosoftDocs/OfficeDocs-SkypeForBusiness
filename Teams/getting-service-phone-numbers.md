@@ -26,16 +26,16 @@ description: Learn how to get new phone numbers and port or transfer existing nu
 
 # Getting service phone numbers
 
-In addition to [getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+In addition to [getting phone numbers for your users](./getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
 > [!NOTE]
-> You have to first set up Communications Credits before you can get toll-free numbers. To learn more, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
+> You have to first set up Communications Credits before you can get toll-free numbers. To learn more, see [Set up Communications Credits for your organization](./set-up-communications-credits-for-your-organization.md).
   
 There are three ways to get service numbers:
   
 - **Use the Microsoft Teams admin center.** For some countries and regions, you can get service numbers using the Microsoft Teams admin center. See [Get new service numbers](#get-new-service-numbers).
 
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
 - **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
@@ -59,7 +59,7 @@ There are three ways to get service numbers:
 
 ## Port or transfer existing service numbers
 
-To transfer your phone numbers from your current service provider or carrier to Teams, you can use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+To transfer your phone numbers from your current service provider or carrier to Teams, you can use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 If your country or region isn't listed in the porting wizard, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download a Letter of Authorization (LOA). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) that you'll be transferring by using an LOA. In the LOA, you must select the correct type of service number. Make sure you specify that you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
 
@@ -74,16 +74,16 @@ In the left navigation, go to **Voice** > **Phone numbers** to view the numbers 
 
 ## Assign service phone numbers
 
-After you get your service numbers, assign each number to an Audio Conferencing bridge. See [Change the toll or toll free numbers on your Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+After you get your service numbers, assign each number to an Audio Conferencing bridge. See [Change the toll or toll free numbers on your Audio Conferencing bridge](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 ## Related topics
 
-[Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
 
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

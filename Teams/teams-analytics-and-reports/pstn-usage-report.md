@@ -20,7 +20,7 @@ ms.custom: seo-marvel-apr2020
 ---
 # Microsoft Teams PSTN usage report
 
-The Teams PSTN usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
+The Teams PSTN (Public Switched Telephone Network) usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
 
 The **Calling Plans** tab shows information including the number of minutes that users spent in inbound and outbound PSTN calls and the cost of these calls. The **Direct Routing** tab shows you information including the SIP address and call start and end times. Use the information in this report to gain insight into PSTN usage in your organization and help you to investigate, plan, and make business decisions.
 
@@ -103,7 +103,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
  You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
 
 > [!div class="has-no-wrap"]  
-> | # | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
 > | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
@@ -131,7 +131,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 You can export data up to five months (150 days) from the current date unless country-specific regulations prohibit retention of the data for that period.
 
 > [!div class="has-no-wrap"]  
-> | # | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Unique call identifier |
 > | 1 | SIP Address | `nvarchar(128)` | The address of the user or bot that made or received the call.<br/>Note that this is actually UserPrincipalName (UPN, sign in name) in Azure Active Directory, which is usually the same as SIP Address |

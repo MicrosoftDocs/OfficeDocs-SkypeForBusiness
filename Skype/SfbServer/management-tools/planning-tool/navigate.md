@@ -44,6 +44,6 @@ Additionally, hardware information is displayed in the overview under the Action
 
 [Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
 
-[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
 
-[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

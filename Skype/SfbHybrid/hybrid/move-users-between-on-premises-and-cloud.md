@@ -95,4 +95,4 @@ The policies (such as to control messaging, meeting, and calling behavior) in on
 
 [Plan Direct Routing](/microsoftteams/direct-routing-plan)
 
-[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
+[Move-CsUser](/powershell/module/skype/move-csuser)

@@ -42,7 +42,7 @@ You can use the free version of Power BI Desktop. The minimum compatible version
 
 ## Permissions to access the CQD pipeline
 
-The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Please refer to the [CQD access role](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) for more information.
+The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Please refer to the [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-roles-for-accessing-cqd) for more information.
 
 ## Installation 
 
