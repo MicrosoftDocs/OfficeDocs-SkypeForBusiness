@@ -78,3 +78,7 @@ After supervised chat is initially enabled, you'll need to do a few things to en
 - Assign appropriate roles to any new users that join your tenant. By default, users will be assigned a restricted role.
 
 - If a user with full permissions leaves or is removed from a tenant, the chats they were supervising will be left unattended. Before you remove the original user, ensure that another user with full permissions is added to these conversations so that the chat can remain supervised. Once the original supervisor is removed, new participants can't be added to the conversation, but current participants can continue to communicate.
+
+## Related topics
+
+[Supervised chats for Teams in education](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)
