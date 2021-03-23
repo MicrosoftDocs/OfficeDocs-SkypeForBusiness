@@ -25,22 +25,19 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
- Microsoft Teams provides apps to improve the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app based on the organizational needs from the Teams admin center **Manage apps** page. The details you can customize are:
+ Microsoft Teams provides app customization to enhance the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app properties based on the organizational needs using the Teams admin center **Manage apps** page. The details you can customize are:
 
-- short name
-- short description
-- full description
-- privacy policy URLs
-- website URL
-- terms of use URLs
-- color icon
-- outline icon
-- accent color
+- Short name
+- Short description
+- Full description
+- Privacy policy URLs
+- Website URL
+- Terms of use URLs
+- Color icon
+- Outline icon
+- Accent color
 
 See the [Teams Manifest schema](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) for details about the fields that you can customize.
-
-> [!Note]
-> Changes to branding might require up to 24 hours for the users to see the changes.
 
 ## Customize the app's details
 
@@ -52,7 +49,7 @@ To start customizing an app, complete the following steps:
 
    ![The customize column that's sorted](media/customize-column.png)
 
-   There are three entry points to access the customize features:
+   There are three entry points to access the customize feature:
 
    - Select next to the app that you want to customize, and then select **Customize**.
 
@@ -105,13 +102,16 @@ Now your Teams end users can open their Teams client to see the customized app.
 
  ![Selected app that can't be customized](media/customized-not-allowed.png)
 
+> [!Note]
+> Changes to branding might require up to 24 hours for the users to see the changes.
+
 ## Review app details
 
 You might want to see the app details to review the information.
 
 1. Sign in to the Teams admin center.
 
-2. Expand **Teams Apps** and select **Manage apps**.
+2. Expand **Teams apps** and select **Manage apps**.
 
 3. Select the app name.
 
