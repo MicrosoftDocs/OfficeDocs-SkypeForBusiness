@@ -72,14 +72,14 @@ items:
     - On the [public roadmap](https://aka.ms/O365Roadmap), review the “Calling
     roadmap” slide for an overview of the expected timelines for feature release dates.
     - Review [Here’s what you get with Phone System in Office
-    365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+    365](./here-s-what-you-get-with-phone-system.md)
     for a description of Phone System features. Keep in mind that at this writing, some
     of these features might only be available for Skype for Business.
 
     ### Emergency Services calling
     It’s important that you understand how the Emergency Services calling feature operates differently in Teams than in traditional telephone services. You must make sure your users also understand those differences. For example, when they use Teams to call emergency services (such as 911 in the United States), users need to be aware that Teams might not be able to determine the actual location of the caller.
 
-    <span style="color:red">**Action**:</span> Review [Emergency calling terms and conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) for detailed information about Emergency Services calling.
+    <span style="color:red">**Action**:</span> Review [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) for detailed information about Emergency Services calling.
 
 - title: Considerations for Skype for Business Online customers
   durationInMinutes: 2
@@ -93,7 +93,7 @@ items:
     Skype for Business Online: While Calling Plans (formerly known as Cloud PBX
     with PSTN Connectivity), exist for both, the option for connecting your
     existing PBX or SIP Trunk to Teams is called "Direct Routing".
-    Detailed documentation on Direct Routing can be found here: [Phone System Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+    Detailed documentation on Direct Routing can be found here: [Phone System Direct Routing](./direct-routing-plan.md)
 
     - **Features are different between Skype for Business and Microsoft Teams.**
     Note that the calling features in Skype for Business and Microsoft Teams are
@@ -271,7 +271,7 @@ items:
     users.
 
     <span style="color:red">**Action**:</span> Review [Country and region availability for Audio Conferencing and
-    Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+    Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     for the following information:
 
     -   For the country where your billing address is located, check whether Audio
@@ -320,7 +320,7 @@ items:
 
     -   Review the Calling Plans section in [Country and region availability for
     Audio Conferencing and Calling
-    Plans](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+    Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     to understand the calling minutes allocation for each Calling Plan add-in
     type.
 
@@ -328,12 +328,12 @@ items:
 
     -   Learn more about licensing for Phone System and Calling Plans from [Country
     and region availability for Audio Conferencing and Calling
-    Plans](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+    Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
     -   Learn more about the Calling Plan add-ins from [Phone System and Calling Plans](calling-plan-landing-page.md)
 
     -   Learn more about Communications Credits from [What are Communications
-    Credits](https://docs.microsoft.com/MicrosoftTeams/what-are-communications-credits)?
+    Credits](./what-are-communications-credits.md)?
 
     ### Phone numbers and emergency locations
 
@@ -362,23 +362,23 @@ items:
     **Additional information**
 
     -   Review [Different kinds of phone numbers used for Calling
-    Plans](https://docs.microsoft.com/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
+    Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
     to understand about the types of phone numbers supported by Phone System in
     Office 365.
 
     -   Review [Manage phone numbers for your
-    organization](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+    organization](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
     to learn more about obtaining user numbers for Calling Plans implementation.
 
     -   To learn more about transferring (porting) phone numbers to Microsoft, see
-    [Transfer phone numbers to Teams](https://docs.microsoft.com/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+    [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
     -   To learn more about emergency address and locations, review [What are
     emergency locations, addresses and call
-    routing?](https://docs.microsoft.com/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing)
+    routing?](./what-are-emergency-locations-addresses-and-call-routing.md)
 
     -   [Emergency calling terms and
-    conditions](https://docs.microsoft.com/MicrosoftTeams/emergency-calling-terms-and-conditions)
+    conditions](./emergency-calling-terms-and-conditions.md)
 
     ### Voicemail
 
@@ -547,7 +547,7 @@ items:
     plan) are available, you need to assign the licenses to users.
 
     Follow the instructions in [Assign Skype for Business and Microsoft Teams
-    licenses](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)
+    licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)
     to perform license assignment for individual or multiple users by using the
     Skype for Business admin center or a remote PowerShell session.
 
@@ -566,13 +566,13 @@ items:
     ### 5. Set up emergency addresses and locations
 
     Follow the instructions in  [Add or remove an emergency address for your
-    organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization), to set up emergency addresses and locations. For more information, see
+    organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization), to set up emergency addresses and locations. For more information, see
 
 
     ### 6. Assign phone numbers and emergency address to users
 
     Follow the instructions in [Assign, change, or remove a phone number for a
-    user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
+    user](./assign-change-or-remove-a-phone-number-for-a-user.md), to assign phone numbers and emergency addresses to users.
 
     > [!NOTE]
     > For the assigned phone numbers to show up in Teams, you must update
@@ -587,14 +587,14 @@ items:
     Based on your implementation plan, you might need to configure the Calling
     Identity settings for your users. Follow the instructions in [Set the Caller ID
     for a
-    user](/microsoftteams/set-the-caller-id-for-a-user).
+    user](./set-the-caller-id-for-a-user.md).
 
     ### 8. Optional: Assign Dial Plan settings to users
 
     Depending on your organization’s and users’ requirements, you might need to
     assign tenant dial plans to your users. Follow the instructions in [Create and
     manage dial
-    plans](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans).
+    plans](./create-and-manage-dial-plans.md).
 
     ### 9. Assign the Teams calling interop policy
 
@@ -639,11 +639,11 @@ items:
         -   If you haven’t installed the Skype for Business Online Connector module,
         follow the instructions here: [Configuring your computer for Skype for
         Business Online
-        management](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
+        management](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
         -   To connect PowerShell to Skype for Business Online, follow these
         instructions: [Connecting to Skype for Business Online by using Windows
-        PowerShell](https://technet.microsoft.com/library/dn362795(v=ocs.15).aspx).
+        PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
     -   At least two endpoints and a phone
 
@@ -708,7 +708,7 @@ items:
     -   [Phone System with Calling Plans](calling-plan-landing-page.md)
 
     -   [Quick start guide: Configuring Calling Plans in Microsoft
-    Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)
+    Teams](./configuring-teams-calling-quickstartguide.md)
 
     Next steps
 
@@ -722,6 +722,4 @@ items:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/O365Roadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    4.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).
-
-
+    4.  Explore [more training and tutorials](./itadmin-readiness.md#technical-training).

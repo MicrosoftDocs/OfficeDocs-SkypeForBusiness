@@ -40,4 +40,4 @@ If you can't access the Microsoft 365 admin center, if you don't see an option t
 
 ## What if I'm still having trouble?
 
-If you've checked all of the reasons above and still can't buy Business Voice, see [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
+If you've checked all of the reasons above and still can't buy Business Voice, see [Contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).

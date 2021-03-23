@@ -64,7 +64,7 @@ With Calling Plans in Microsoft 365 or Office 365, every user in your organizati
 
 |Ask yourself|Action |
 |:------------|:-------|
-|How detailed do I want the emergency address and location information to be? |For more information, see [What are emergency locations, addresses, and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
+|How detailed do I want the emergency address and location information to be? |For more information, see [What are emergency locations, addresses, and call routing?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
 ### Calling identity
@@ -75,7 +75,3 @@ By default, all outbound calls use the assigned phone number as calling identity
 |:------------|:-------|
 |Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](set-the-caller-id-for-a-user.md). |
 |||
-
-
-
-

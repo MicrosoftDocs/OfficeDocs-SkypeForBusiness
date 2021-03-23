@@ -171,13 +171,13 @@ The following clients are supported for call agents in a call queue:
 
 You can also use Windows PowerShell to create and set up call queues. Here are the cmdlets that you use to manage a call queue.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
 ## Related topics
 
@@ -187,6 +187,6 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
 
 [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

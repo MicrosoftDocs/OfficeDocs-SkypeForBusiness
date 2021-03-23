@@ -31,7 +31,7 @@ Teams gives Frontline Workers in your organization the tools they need to commun
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Manage Shifts in your organization](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![design](../media/Help-small.svg)  | **[Shifts Help for Frontline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Manage Shifts in your organization](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![design](../media/Help-small.svg)  | **[Shifts Help for Frontline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### Shifts extensions
 

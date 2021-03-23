@@ -120,7 +120,7 @@ items:
   content: |
 
     Joining meetings is possible from a variety of clients. Review [Get clients for
-    Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
+    Microsoft Teams](./get-clients.md)
     (estimated reading time 3 minutes) to understand which platforms Teams is
     available for.
 
@@ -130,7 +130,7 @@ items:
 
     In Outlook for Windows, you can use an add-in to schedule meetings directly from
     your calendar. Review [Use the Teams Meeting add-in in
-    Outlook](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)
+    Outlook](./teams-add-in-for-outlook.md)
     (estimated reading time 2 minutes).
 
 - title: Requirements and considerations for meetings
@@ -146,7 +146,7 @@ items:
     phone, requires an additional license. This will be addressed in a dedicated
     training on Audio Conferencing.
 
-    For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+    For more information, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
     ### Bandwidth and media flow
     In Teams, there are two ways to initiate real-time communication:
@@ -170,7 +170,7 @@ items:
     the user experience.
 
     For more information, see [Prepare your organization's network for 
-    Teams](https://docs.microsoft.com/microsoftteams/prepare-network).
+    Teams](./prepare-network.md).
 
     ### Exchange dependencies
 
@@ -178,7 +178,7 @@ items:
     version of Exchange Server) some limitations when it comes to creating and
     viewing meetings from the Teams client, but also when it comes to compliance.
     Review [How Exchange and Microsoft Teams
-    interact](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)
+    interact](./exchange-teams-interact.md)
     (estimated reading time 3 minutes) to understand potential limitations.
 
     ### End meetings for all participants
@@ -209,14 +209,14 @@ items:
 
     Use Teams meeting policies to control the features that are available to
     meeting participants for meetings that are scheduled by users in your organization. To learn more, see
-    [Manage meeting policies in Teams](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)
+    [Manage meeting policies in Teams](./meeting-policies-in-teams.md)
     (estimated reading time 16 minutes). 
 
     ### Meeting settings
 
     Use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations,
     and if you want to enable Quality of Service (QoS), set port ranges for real-time traffic. These settings apply to all
-    Teams meetings that users schedule in your organization. To learn more, see [Manage meeting settings in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+    Teams meetings that users schedule in your organization. To learn more, see [Manage meeting settings in Teams](./meeting-settings-in-teams.md).
     (estimated time reading time 4 minutes).
 
 - title: Exercise - Configure meetings
@@ -243,7 +243,7 @@ items:
     ### Suggested scenarios to test
     -   Schedule different meeting types from within the Teams client: Channel
         meetings, ad-hoc meetings, private meetings.
-    -   Schedule meetings by using the [Outlook add-in](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook).
+    -   Schedule meetings by using the [Outlook add-in](./teams-add-in-for-outlook.md).
     -   For scheduled meetings, initiate a chat before the meeting begins (to
         discuss the agenda, for example).
     -   Join meetings and test different scenarios and workloads: For example, audio only, video,
@@ -281,7 +281,7 @@ items:
     training material:
 
     -   For information about the role of Quality Champion, see [Quality champion
-        role](https://docs.microsoft.com/microsoftteams/prepare-network).
+        role](./prepare-network.md).
     -   For information about the Call Quality Dashboard, see [Investigate Media
         Quality using CQD](https://aka.ms/sof-cqd).
 
@@ -303,4 +303,4 @@ items:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/O365Roadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)
-    4.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).
+    4.  Explore [more training and tutorials](./itadmin-readiness.md#technical-training).

@@ -128,7 +128,4 @@ items:
 
      - [Prepare your organization's network for Microsoft Teams](prepare-network.md)
      - [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
-     - [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-
-
-
+     - [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)
