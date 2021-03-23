@@ -31,7 +31,7 @@ You need to have Power BI Desktop installed. You can install it from the [Micros
 You can use the free version of Power BI Desktop. The minimum compatible version is 2.85.681.0 (September 2020).
 
 ## Permissions to access the CQD pipeline
-The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Please refer to the [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-roles-for-accessing-cqd) for more information.
+The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Please refer to the [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) for more information.
 
 ## Installation 
 The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
