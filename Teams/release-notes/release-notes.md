@@ -86,7 +86,7 @@ A rate center is the industry term for a geographical area that traditionally de
 
 ### Updated meeting settings policies for Breakout rooms
 
- Breakout Rooms in Teams are used to split meetings into separate, smaller meeting rooms. This setting controls whether meeting organizers have the option to create and manage Breakout Rooms in meetings they schedule or start. This policy setting affects all meetings, including Meet Now meetings. [Learn more](../meeting-policies-in-teams.md#meeting-policy-settings---allow-breakout-rooms).
+ Breakout Rooms in Teams are used to split meetings into separate, smaller meeting rooms. This setting controls whether meeting organizers have the option to create and manage Breakout Rooms in meetings they schedule or start. This policy setting affects all meetings, including Meet Now meetings. [Learn more](../meeting-policies-in-teams.md).
 
 ## December 9, 2020
 
