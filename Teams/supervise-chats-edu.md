@@ -42,7 +42,8 @@ The following examples are descriptions of when a supervised chat is necessary.
 
 ## Enable supervised chat
 
-Ensure that you set up chat permission roles and the role-based chat permission policies before enabling chat for your institution to avoid unwanted student access to unsupervised chats.
+> [!Note]
+> Ensure that you set up chat permission roles and the role-based chat permission policies before enabling chat for your institution to avoid unwanted student access to unsupervised chats.
 
 ### Define chat permission roles for each user in your environment
 
