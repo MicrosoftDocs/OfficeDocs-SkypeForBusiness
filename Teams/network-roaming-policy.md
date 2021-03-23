@@ -31,6 +31,7 @@ In addition to managing video and media settings with meeting policies, you can 
 
 This policy enables you to assign settings to network sites. The Teams client will dynamically pick up the settings based on which network site it connects to. When the Teams client signs in from a network site with a roaming policy assigned, that policy will be used. If there is no policy assigned, the values set in the meeting policy will be used. For more information about meeting policy audio and video settings, see [Meeting policy settings - Audio & video](meeting-policies-in-teams#meeting-policy-settings---audio--video.md).
 
+## Configure the TeamsNetworkRoamingPolicy
 
 To configure the TeamsNetworkRoamingPolicy, you use the following PowerShell cmdlets:
 
@@ -47,9 +48,7 @@ The TeamsNetworkRoamingPolicy contains the following parameters:
 
 - MediaBitRateKb - This setting determines the total average media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user.
 
-After you have configured the policy, you assign it to one or more network sites. 
-
-You assign the policy to a network site by using the following PowerShell cmdlet:
+After you have configured the policy, you assign it to one or more network sites by using the following PowerShell cmdlet:
 
 ```PowerShell
  Set-CsTenantNetworkSite -NetworkRoamingPolicy
