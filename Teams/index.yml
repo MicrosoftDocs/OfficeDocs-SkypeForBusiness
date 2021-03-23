@@ -106,7 +106,7 @@ tools:
     # Card
     - title: Download Microsoft Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
-      url: https://products.office.com/microsoft-teams/group-chat-software
+      url: https://www.microsoft.com/microsoft-teams/download-app
 
 # additionalContent section (optional)
 # Card with summary style
