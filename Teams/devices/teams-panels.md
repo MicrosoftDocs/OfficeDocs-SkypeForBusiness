@@ -54,9 +54,7 @@ The hardware, software, and network requirements to deploy panels devices may di
 To use Teams panels, you need [Microsoft Teams Rooms Standard License](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing).
 
 > [!Note]
->
-> - If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need additional license to use Teams panels.
-> - You will require Microsoft Teams Rooms Premium license to use additional advanced Teams panels features that are coming soon.
+> If you already have Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then you don't need an additional license to use Teams panels.
 
 ## Deploy Teams panels devices
 
@@ -87,7 +85,7 @@ Our recommendations for Teams panels sites are:
 
 - Dedicated resource accounts
 - Power supply (Panels generally support Power over ethernet plus (PoE+) for power. Refer to the OEM documentation for any device-specific power requirements.)
-- Quality of Service (QoS) enabled on the network for Microsoft Teams
+
 
 For physical installation considerations, see the OEM documentation and, if you have one, use the experience of your audio-visual team before you install and mount devices and run cabling.
 
@@ -102,15 +100,14 @@ Planning for configuration and deployment covers the following key areas:
 
 Every Teams panels device requires a Microsoft 365 room resource account. You use the resource account credentials to sign in to Microsoft Teams app on the panels device.
 
-To set up a Microsoft 365 resource account for Teams panels, you'll need to purchase a [Microsoft Teams Rooms Standard license](#license-requirement). This license includes a resource mailbox that enables people in your organization to book the meeting space via Outlook or Teams.
-
+To set up a Microsoft 365 resource account for Teams panels, we recommended that you purchase a [Microsoft Teams Rooms Standard license](#license-requirement). 
 For information on how to create a resource account and assign a license to it, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
 > [!NOTE]
 >
 >- If you already have a room resource account set up for the meeting space where you're installing panels, use the same room resource account to sign in to the panels device. However, make sure that the room resource account has the Microsoft Teams Rooms Standard license assigned to it in order to use it as panels resource account.
 >
->- If you already have a Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, then the resource account already has the [Microsoft Teams Rooms license](../rooms/rooms-licensing.md). In such cases, you don't need to purchase a separate Microsoft Teams Rooms Standard license for deploying panels. The admin signs in to the panels device with the same credentials as the Microsoft Teams Rooms for the same space.
+>- If you already have a Microsoft Teams Rooms deployed in the meeting space where you're installing Teams panels, you don't need to purchase a separate license for deploying panels. The admin signs in to the panels device with the same credentials as the Microsoft Teams Rooms for the same space.
 >
 >- For large meeting spaces, such as board rooms or conference rooms, with multiple entrances, you can mount one panels device at each entrance. Multiple panels that belong to a single meeting space share the same resource account and sign in with the same credentials. You don't need to create separate resource accounts for each panels for the same space.
 
@@ -135,5 +132,7 @@ To manage your Teams panels devices, in the left navigation of the Microsoft Tea
 [Microsoft Teams blog on Teams panels](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Get started with Teams panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[Teams panels marketplace](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
 
 [Devices certified under Microsoft Teams panels certification program](teams-ip-phones.md#currently-certified-teams-panels)

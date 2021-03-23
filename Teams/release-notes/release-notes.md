@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## February 22, 2021
+
+### Custom (LOB) tabs are available for DoD customers
+
+Now DoD customers can upload and deploy their own custom (LOB) Teams apps.
+
 ## February 18, 2021
 
 ### Meeting reactions policy
