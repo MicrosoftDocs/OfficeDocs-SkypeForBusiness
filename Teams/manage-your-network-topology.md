@@ -157,7 +157,9 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
+
 See also [Set-CsTenantNetworkSubnet](/powershell/module/skype/set-cstenantnetworksubnet).
+
 
 ### Define external subnets (external trusted IP addresses)
 

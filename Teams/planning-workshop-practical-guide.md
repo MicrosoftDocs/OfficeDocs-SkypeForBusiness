@@ -30,6 +30,7 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
     Follow our recommended path to rolling out Teams.
 
+
 - [Get Teams technical training](itadmin-readiness.md)
 
     Use these technical training resources to educate yourself, teach others, or run workshops.
