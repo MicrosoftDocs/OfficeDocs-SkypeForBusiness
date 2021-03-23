@@ -1379,6 +1379,8 @@ items:
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
+        - name: Supervise chats in Teams
+          href: supervise-chats-edu.md
         - name: Education Insights
           items:           
             - name: Get started with Insights

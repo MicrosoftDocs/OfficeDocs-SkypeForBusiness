@@ -32,7 +32,7 @@ Now DoD customers can upload and deploy their own custom (LOB) Teams apps.
 
 ### Meeting reactions policy
 
-Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. [Learn more.](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-reactions)
+Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting. [Learn more.](../meeting-policies-in-teams.md)
 
 ## February 11, 2021
 
@@ -86,7 +86,7 @@ A rate center is the industry term for a geographical area that traditionally de
 
 ### Updated meeting settings policies for Breakout rooms
 
- Breakout Rooms in Teams are used to split meetings into separate, smaller meeting rooms. This setting controls whether meeting organizers have the option to create and manage Breakout Rooms in meetings they schedule or start. This policy setting affects all meetings, including Meet Now meetings.
+ Breakout Rooms in Teams are used to split meetings into separate, smaller meeting rooms. This setting controls whether meeting organizers have the option to create and manage Breakout Rooms in meetings they schedule or start. This policy setting affects all meetings, including Meet Now meetings. [Learn more](../meeting-policies-in-teams.md).
 
 ## December 9, 2020
 
