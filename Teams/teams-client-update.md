@@ -41,6 +41,7 @@ Teams follows its own update process as outlined above, and not the update proce
 
 ## What about updates to Teams on VDI?
 
+
 Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](teams-for-vdi.md). You must uninstall the current version to update to a newer version.
 
 ## Can admins deploy updates instead of Teams auto-updating?
