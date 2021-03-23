@@ -24,6 +24,6 @@ Teams gives health teams and healthcare professionals a secure way to communicat
 
 |               |               |
 | ------------- | ------------- |
-| ![get-started-teams](../media/get-started-teams.svg)  |  [Get started with Teams for Healthcare organizations](./healthcare/teams-in-hc.md) |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [Get started with Teams templates for Healthcare organizations](./healthcare/healthcare-templates-admin-console.md) |
-| ![chat](../media/chat.svg)  |  [Get started with Secure Messaging for Healthcare organizations](./healthcare/messaging-policies-hc.md) |
+| ![Screenshot of hand with a finger pointing at an arrow icon](../media/get-started-teams.svg)  |  [Get started with Teams for Healthcare organizations](./healthcare/teams-in-hc.md) |
+| ![Screenshot of a map icon](../media/walkthrough-map-teams.svg) | [Get started with Teams templates for Healthcare organizations](./healthcare/healthcare-templates-admin-console.md) |
+| ![Screenshot of dialog bubbles icon](../media/chat.svg)  |  [Get started with Secure Messaging for Healthcare organizations](./healthcare/messaging-policies-hc.md) |
