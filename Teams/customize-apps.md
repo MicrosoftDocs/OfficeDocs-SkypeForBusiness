@@ -53,7 +53,7 @@ To start customizing an app, complete the following steps:
 
    - Select next to the app that you want to customize, and then select **Customize**.
 
-     ![The customize selection](media/select-customize.png)
+     ![The customize selection](media/select-app-to-customize.png)
 
    - Select the app name and then **Customizable**.
 
@@ -63,7 +63,7 @@ To start customizing an app, complete the following steps:
 
      ![The customize selection](media/customize-action-menu.png)
 
-5. Expand the **Details** section and customize the following fields:
+4. Expand the **Details** section and customize the following fields:
 
     - Short name
     - Short description
@@ -72,7 +72,7 @@ To start customizing an app, complete the following steps:
     - Privacy policy URLs
     - Terms of use URLs
 
-   ![The customize selection](media/customize-apps-fields.png)
+   ![The customize selection](media/customize-settings.png)
 
 > [!Note]
 > Only the fields that the app developer has assigned as customizable will be visible.
@@ -85,7 +85,7 @@ To start customizing an app, complete the following steps:
 
    c. Select an app accent color that matches the icon.
 
-    ![Customize the icon panel](media/customize-icon-color.png)
+    ![Customize the icon panel](media/customize-app-colors.png)
 
 6. Once your app has been customized, select **Apply**.
 
@@ -95,7 +95,7 @@ To start customizing an app, complete the following steps:
 
 Now your Teams end users can open their Teams client to see the customized app.
 
-   ![Customized app in Teams client](media/customized-app-in-teams.png)
+   ![Customized app in Teams client](media/find-customized-app.png)
 
 > [!Note]
 > In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
@@ -157,6 +157,9 @@ No, the tenant admins will have to manually remove any custom app and publish th
 
 You can only customize apps that have been allowed to be customizable by the app publisher. The app publisher will need to opt in to allow its customers to customize the app.
 
+** Will the customized properties show up on the graph permission consent screen?**
+
+No, the permission consent screen will still show the original value sent by the publisher.
 ## Related article
 
 - [Manage apps](manage-apps.md)
