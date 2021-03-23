@@ -23,7 +23,7 @@ Use the following procedures to manage Skype for Business Server security and au
   
 ## In this section
 
-- [How to use Modern Authentication (ADAL) with Skype for Business](use-adal.md)
+- [How to use Modern Authentication (ADAL) with Skype for Business](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
 - [Stage AV and OAuth certificates in Skype for Business Server using -Roll in Set-CsCertificate](stage-av-and-oauth-certificates.md)
     
@@ -40,5 +40,3 @@ Use the following procedures to manage Skype for Business Server security and au
 - [Manage PIN settings in Skype for Business Server](pin-settings.md)
     
 - [Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
-    
-

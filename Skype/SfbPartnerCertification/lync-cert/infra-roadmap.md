@@ -37,38 +37,38 @@ This page enables Networking professionals to find the information they need for
 - [Edge Reference Diagrams](https://blogs.technet.com/b/nexthop/archive/2011/03/14/lync-server-2010-edge-server-reference-architecture-diagrams-available-for-download.aspx)
 
 ## Planning
-- [Network Infrastructure Requirements](https://technet.microsoft.com/library/gg425841.aspx)
-- [AV Capacity Planning](https://technet.microsoft.com/library/gg399017.aspx)
-- [Bandwidth Planning](https://technet.microsoft.com/library/gg413004.aspx)
-- [Bandwidth Calculator](https://technet.microsoft.com/library/gg413004.aspx)
+- [Network Infrastructure Requirements](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)
+- [AV Capacity Planning](../../SfbServer/plan-your-deployment/capacity/capacity.md)
+- [Bandwidth Planning](/previous-versions/office/skype-server-2010/gg413004(v=ocs.14))
+- [Bandwidth Calculator](/previous-versions/office/skype-server-2010/gg413004(v=ocs.14))
 - [Enable Media to Bypass VPN](https://blogs.technet.com/b/nexthop/archive/2011/11/15/enabling-lync-media-to-bypass-a-vpn-tunnel.aspx)
 
 ## Security
-- [Overview](https://technet.microsoft.com/library/gg195690.aspx)
-- [Internet Boundary](https://technet.microsoft.com/gg195654.aspx) 
-- [Security Framework](https://technet.microsoft.com/gg195819.aspx)
+- [Overview](/previous-versions/office/skype-server-2010/gg195690(v=ocs.14))
+- [Internet Boundary](/previous-versions/office/skype-server-2010/gg195654(v=ocs.14)) 
+- [Security Framework](/previous-versions/office/skype-server-2010/gg195819(v=ocs.14))
 
 
 ## Call Admission Control
 - [Call Admission Control Overview](https://blogs.technet.com/b/nexthop/archive/2010/11/17/call-admission-control-in-lync-server-2010.aspx)
-- [Call Admission Control Documentation](https://technet.microsoft.com/library/gg398842.aspx)
+- [Call Admission Control Documentation](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-call-admission-control)
 - Bandwidth Policy Service Monitor and Bandwidth Utilization Analyzer in [Lync Server Resource Kit Tools](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=80cc5ce7-970d-4fd2-8731-d5d7d0829266) 
-- [Simulating Lync Server 2010 Call Admission Control in a Lab Environment](https://blogs.technet.com/b/drrez/archive/2011/03/28/simulating-lync-server-2010-call-admission-control-in-a-lab-environment.aspx)
+- [Simulating Lync Server 2010 Call Admission Control in a Lab Environment](/archive/blogs/drrez/simulating-lync-server-2010-call-admission-control-in-a-lab-environment)
 
 ## Quality of Service
-- [QoS Overview](https://technet.microsoft.com/library/gg405407.aspx)
-- [Planning for QoS](https://technet.microsoft.com/library/gg405412.aspx)
-- [QoS Policies](https://technet.microsoft.com/library/gg405414.aspx)
+- [QoS Overview](/previous-versions/office/skype-server-2010/gg405407(v=ocs.14))
+- [Planning for QoS](/previous-versions/office/skype-server-2010/gg405412(v=ocs.14))
+- [QoS Policies](/previous-versions/office/skype-server-2010/gg405414(v=ocs.14))
 
 ## Configuration
 - [Custom SQL Network with Lync](https://blogs.technet.com/b/nexthop/archive/2011/04/12/using-lync-server-2010-with-a-custom-sql-server-network-configuration.aspx)
-- [Non-windows DHCP Servers](https://technet.microsoft.com/library/gg412828.aspx)
-- [Network Settings for Advanced Voice features](https://technet.microsoft.com/library/gg398637.aspx)
+- [Non-windows DHCP Servers](/previous-versions/office/skype-server-2010/gg412828(v=ocs.14))
+- [Network Settings for Advanced Voice features](../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 - [Custom SQL Networking](https://blogs.technet.com/b/nexthop/archive/2011/04/12/using-lync-server-2010-with-a-custom-sql-server-network-configuration.aspx)
 
 ## Troubleshooting
-- [How IP Phones Connect to the Network](https://technet.microsoft.com/library/gg425740.aspx)
-- [Common issues with IP phones](https://technet.microsoft.com/library/gg399002.aspx)
+- [How IP Phones Connect to the Network](/previous-versions/office/lync-server-2013/lync-server-2013-topologies-for-ip-phones)
+- [Common issues with IP phones](/previous-versions/office/skype-server-2010/gg399002(v=ocs.14))
 Download Network Monitor 3.4:
 - [Program](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=983b941d-06cb-4658-b7f6-3088333d062f&displaylang=en) and [Lync Parsers](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8a1847fe-c1ad-41e4-98ab-e25e6f62542c)
 - [Capture and Decrypt TLS Traffic](https://blogs.technet.com/b/nexthop/archive/2012/02/15/how-to-decrypt-lync-2010-tls-traffic-using-microsoft-network-monitor.aspx)
@@ -78,4 +78,3 @@ Download Network Monitor 3.4:
 - [Brocade](https://www.brocade.com/)
 - [Extreme Networks](http://h17007.www1.hp.com/us/en/networking/index.aspx#.U6LrvXlOVaQ)
 - [Juniper](https://www.arubanetworks.com/lync)
-

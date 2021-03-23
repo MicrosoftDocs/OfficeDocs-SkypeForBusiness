@@ -21,7 +21,7 @@ description: "Learn about how to prepare your Cloud Connector appliance for depl
 # Prepare your Cloud Connector appliance
 
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Learn about how to prepare your Cloud Connector appliance for deployment and use with Phone System (Cloud PBX).
 
@@ -310,5 +310,3 @@ A Microsoft 365 or Office 365 organization with Skype for Business Online and Ph
 Some Microsoft 365 and Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Microsoft 365 or Office 365 organization. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Create a dedicated Skype for Business administrator account for Cloud Connector online management, for example CceOnlineManagmentAdministrator. This account will be used by appliance to add or remove appliance, enable or disable automatic OS update, enable or disable automatic binary update. Set the password for this account to never expire so that you do not need to change it for the service each time it expires.
-
-

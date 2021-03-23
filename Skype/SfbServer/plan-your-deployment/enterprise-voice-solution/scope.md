@@ -34,7 +34,7 @@ Before you configure Skype for Business for E9-1-1, you need to plan your E9-1-1
 
  **How will you deploy E9-1-1 to branch sites?**
 
- Voice resiliency is an important concept to understand when deploying E9-1-1 at a branch site. If you have centralized E-9-1-1 SIP trunks and a WAN outage occurs, clients signing in may not be able to obtain a location from Location Information service or to connect to the emergency services service provider. Skype for Business provides several strategies for handling voice resiliency in branch offices, including: having resilient data networks, deploying a SIP trunk at each branch, or pushing emergency calls out to the local gateway during outages. For details, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+ Voice resiliency is an important concept to understand when deploying E9-1-1 at a branch site. If you have centralized E-9-1-1 SIP trunks and a WAN outage occurs, clients signing in may not be able to obtain a location from Location Information service or to connect to the emergency services service provider. Skype for Business provides several strategies for handling voice resiliency in branch offices, including: having resilient data networks, deploying a SIP trunk at each branch, or pushing emergency calls out to the local gateway during outages. For details, see [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
 
  **Will you enable E9-1-1 for users working outside the network?**
 
@@ -46,5 +46,3 @@ Before you configure Skype for Business for E9-1-1, you need to plan your E9-1-1
  **Do you want to provide emergency call routing to sites outside the U.S.?**
 
  You may want to provide emergency routing to areas of your company not served by an emergency services service provider (for example, international locations). To do this, create a new site, and then assign voice policies to the sites that refer to a PSTN usage that routes the call through the local PSTN gateway.
-
-

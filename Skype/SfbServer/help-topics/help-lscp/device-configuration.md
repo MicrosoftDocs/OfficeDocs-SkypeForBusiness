@@ -53,4 +53,4 @@ The following lists describe the menus, commands, fields, and properties on the 
 
 [Device Configuration: Create New or Edit Existing](device-configuration-create-new-or-edit-existing.md)
 
-[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

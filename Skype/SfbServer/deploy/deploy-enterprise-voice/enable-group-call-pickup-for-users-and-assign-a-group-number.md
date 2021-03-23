@@ -45,5 +45,4 @@ After you add call pickup group numbers to the call park orbit table, you use th
 
 ## See also
 
-[Disable Group Pickup for Users](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
-
+[Disable Group Pickup for Users](/previous-versions/office/lync-server-2013/lync-server-2013-disable-group-call-pickup-for-users)

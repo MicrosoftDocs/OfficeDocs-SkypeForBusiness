@@ -39,7 +39,7 @@ The first thing you need to do is to confirm that you have the following:
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
-    Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the  [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet and setting the *EnableDeviceUpdate* parameter to `false`.
+    Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the  [Set-CsIPPhonePolicy](/powershell/module/skype/set-csipphonepolicy) cmdlet and setting the *EnableDeviceUpdate* parameter to `false`.
 
 ## Setting up a Common Area Phone
 You will need to follow these steps:
@@ -140,5 +140,3 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
 
 - Learn more about available phones at [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
 - [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md)
-
-
