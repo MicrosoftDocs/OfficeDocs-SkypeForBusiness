@@ -102,6 +102,10 @@ Templates are limited to a specific number of channels, tabs, and apps.
 
 See [Limits and specifications of Teams](limits-specifications-teams.md) for more information.
 
+## Known issues
+
+Sensitivity labels are not supported in Team Templates. The sensitivity label option you see in create team from template flow will not be applied to the team.
+
 ## Related topics
 
 - [Create a custom team template](create-a-team-template.md)
