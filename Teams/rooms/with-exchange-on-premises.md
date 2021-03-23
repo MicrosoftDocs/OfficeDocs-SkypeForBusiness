@@ -44,6 +44,8 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
   - You'll need to have Skype for Business Online (Plan 2) or higher in your Microsoft 365 or Office 365 plan. The plan needs to support conferencing capability.
   
   - If you need Enterprise Voice (PSTN telephony) using telephony service providers for Microsoft Teams Rooms you need Skype for Business Online (Plan 3).
+
+  - When configuring a room account with Microsoft Teams or Skype for Business Online, the phone number should be assigned prior to the account being enabled as a room account.
   
   - Your tenant users must have Exchange mailboxes.
   
@@ -153,7 +155,18 @@ Skype for Business Online PowerShell is used to manage services for both Microso
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. To enable your Microsoft Teams Rooms account, run this command:
+3. **Optional.** If you want to assign a phone number to the account, the operation should be performed at this point. If you want to assign a Direct Routing phone number:
+
+   ``` Powershell
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
+    ```
+    If you're assigning a Microsoft provided phone number, use the cmdlet below after having provisioned the user with a Calling Plan license:
+    
+    ``` Powershell
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    ```
+    
+4. To enable your Microsoft Teams Rooms account, run this command:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
