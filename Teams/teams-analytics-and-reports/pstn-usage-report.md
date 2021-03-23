@@ -103,7 +103,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
  You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
 
 > [!div class="has-no-wrap"]  
-> | # | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
 > | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
@@ -131,7 +131,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 You can export data up to five months (150 days) from the current date unless country-specific regulations prohibit retention of the data for that period.
 
 > [!div class="has-no-wrap"]  
-> | # | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Unique call identifier |
 > | 1 | SIP Address | `nvarchar(128)` | The address of the user or bot that made or received the call.<br/>Note that this is actually UserPrincipalName (UPN, sign in name) in Azure Active Directory, which is usually the same as SIP Address |

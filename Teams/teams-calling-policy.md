@@ -101,6 +101,6 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ## Related topics
 
-[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
 [Assign policies to your users in Teams](assign-policies.md)

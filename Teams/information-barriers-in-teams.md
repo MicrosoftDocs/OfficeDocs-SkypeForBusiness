@@ -106,7 +106,7 @@ IB policies are activated when the following Teams events take place:
 
 - **A user places a phone call in Teams** - Whenever a user initiates a voice call (via VOIP) to another user or group of users, the call is evaluated to make sure that it doesn't violate the IB policies of other team members. If there's any violation, the voice call is blocked.
 
-- **Guests in Teams** - IB policies apply to guests in Teams, too. If guests need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Once guests are discoverable, you can [define IB policies](/office365/securitycompliance/information-barriers-policies).
+- **Guests in Teams** - IB policies apply to guests in Teams, too. If guests need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Once guests are discoverable, you can [define IB policies](/office365/securitycompliance/information-barriers-policies).
 
 ## How policy changes impact existing chats
 
@@ -184,7 +184,7 @@ When a team is created, a SharePoint site is provisioned and associated with Mic
 **Example of IB policies on SharePoint site of a team**: In Contoso Bank corporation, user 'Sesha@contosobank.onmicrosoft.com' belongs to the Investment Banking segment and user 'Nikita@contosobank.onmicrosoft.com' belongs to the Advisory segment. The organization's IB policy blocks communication and collaboration between these two segments.
 When user Sesha creates a team for the Investment Banking segment, the team and the SharePoint site that backs it will be accessible only to Investment Banking users. User Nikita can't access that site even if she has the site link.
 
-For more information, see [Use information barriers with SharePoint](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+For more information, see [Use information barriers with SharePoint](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 ## Required licenses and permissions
 

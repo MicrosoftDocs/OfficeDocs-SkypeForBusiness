@@ -204,41 +204,41 @@ items:
     - name: Hybrid connectivity
       items: 
         - name: Plan hybrid connectivity
-          href: https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+          href: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
         - name: Configure hybrid connectivity
           items: 
             - name: Overview
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity
+              href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
             - name: Configure Azure AD Connect for hybrid environments
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect
+              href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
             - name: Configure Skype for Business hybrid
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
+              href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
         - name: Move users between on-premises and cloud
           items: 
             - name: Overview
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
+              href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
             - name: Move users from on-premises to Teams
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
+              href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
             - name: Move users from on premises to Skype for Business Online
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
+              href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
             - name: Move users from the cloud to on premises
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
+              href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
             - name: Manage meeting migration
-              href: https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
+              href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
         - name: Disable hybrid to complete migration to the cloud
-          href: https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+          href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
         - name: Deploy a resource forest topology
-          href: https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
+          href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
         - name: Cloud consolidation for Teams and Skype for Business Online
           items: 
             - name: Overview
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation
+              href: /SkypeForBusiness/hybrid/cloud-consolidation
             - name: Update the edge certificate
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
+              href: /SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
             - name: Update AAD Connect to include more than one forest
-              href: https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
+              href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
         - name: Integration with Exchange and SharePoint
-          href: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
+          href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
 
 - name: Security, privacy, and compliance
   items: 
@@ -255,7 +255,7 @@ items:
         - name: Sign in to Microsoft Teams 
           href: sign-in-teams.md
         - name: Safe Links in Teams
-          href: https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: AppLocker application control policies
           href: applocker-in-teams.md
         - name: Block Access to Sharepoint
@@ -273,7 +273,7 @@ items:
         - name: Sensitivity labels
           href: sensitivity-labels.md
         - name: Data Loss Prevention
-          href: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: /microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: eDiscovery
           href: ediscovery-investigation.md
         - name: Legal hold
@@ -283,7 +283,7 @@ items:
         - name: Auditing
           href: audit-log-events.md
         - name: Customer key
-          href: https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
@@ -345,7 +345,7 @@ items:
             - name: About guest access
               href: guest-access.md
             - name: Guest access checklist
-              href: https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team
+              href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
             - name: Authorize guest access
@@ -529,7 +529,7 @@ items:
             - name: About guest access
               href: guest-access.md
             - name: Guest access checklist
-              href: https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team
+              href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
             - name: Authorize guest access
@@ -689,7 +689,7 @@ items:
             - name: Country and region zones for Audio Conferencing
               href: audio-conferencing-zones.md
             - name: Videos - Audio Conferencing in Teams
-              href: audio-conferencing-videos.md
+              href: ./audio-conferencing-in-office-365.md
     - name: Live events
       items: 
         - name: What are Teams live events?
@@ -1271,11 +1271,11 @@ items:
     - name: Third-party apps
       items:
         - name: App certification
-          href: https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview
+          href: /microsoft-365-app-certification/overview
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
     - name: App templates for Teams
-      href: https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
     - name: How to build and customize your own apps
       items:
@@ -1439,7 +1439,7 @@ items:
           href: policy-packages-gov.md
               
 - name: Troubleshoot 
-  href: https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams
+  href: /MicrosoftTeams/troubleshoot/teams
   items:
     - name: Troubleshoot installation and update issues
       href: troubleshoot-installation.md
@@ -1452,7 +1452,7 @@ items:
     - name: Verify service health for Teams
       href: service-health.md
     - name: Contact support for business products - Admin Help
-      href: https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products
+      href: /microsoft-365/admin/contact-support-for-business-products
     - name: How to look up your support PIN
       href: support-pin.md
 
@@ -1499,7 +1499,7 @@ items:
             - name: Configure an Exchange hybrid organization for use with Teams
               href: exchange-hybrid-organization.md
             - name: Use mail flow rules with Exchange
-              href: https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
+              href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: How SharePoint Online and OneDrive for Business interact with Teams
           href: sharepoint-onedrive-interact.md
         - name: Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy
@@ -1551,9 +1551,9 @@ items:
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams
-          href: https://docs.microsoft.com/powershell/module/teams/?view=teams-ps
+          href: /powershell/module/teams/?view=teams-ps
     - name: Developer documentation for Teams
-      href: https://docs.microsoft.com/microsoftteams/platform
+      href: /microsoftteams/platform
     - name: Teams content updates
       href: teams-updates.md
     - name: Country and region availability for Audio Conferencing and Calling Plans
