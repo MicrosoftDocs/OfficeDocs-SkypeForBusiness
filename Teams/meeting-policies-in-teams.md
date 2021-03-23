@@ -121,7 +121,7 @@ Allow the Outlook add-in is a per-user policy and applies before a meeting start
 
 ![Screenshot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
 
-If you turn this feature off, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
+If you turn off this feature, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
 ### Allow channel meeting scheduling
 
@@ -164,7 +164,7 @@ The channel calendar app will show up in the **Microsoft apps** section on the a
 
 Scheduling private meetings is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
 
-If you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. By default, this setting is turned on.
+If you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**, the **Add required attendees** and **Add channel** options are disabled for users in Teams. By default, this setting is turned on.
 
 ### Allow Meet now in private meetings
 
@@ -486,11 +486,7 @@ This is a per-organizer policy. This setting controls whether people who dial in
 
 ### Allow team members to bypass the lobby
 
-Meeting policies have a setting for letting users bypass the meeting lobby. We added an option for people in the organization but exclude guest users.
-
-EveryoneInCompanyExcludingGuests
-
-AutoAdmittedUsers
+Meeting policies have a setting for letting team members bypass the meeting lobby. We've added the EveryoneInCompanyExcludingGuests option for people in the organization to bypass the lobby but exclude guest users from bypassing the lobby.
 
 ### Enable live captions
 
@@ -519,7 +515,7 @@ The **Who can present?** setting lets meeting organizers choose who can be prese
 
 You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-To specify the default value of the **Who can present?** setting in Teams, set the **DesignatedPresenterRoleMode** parameter to one of the following:
+To specify the default value of the **Who can present?** setting in Teams, set the **DesignatedPresenterRoleMode** parameter to one of the following settings:
 
 - **EveryoneUserOverride**:  All meeting participants can be presenters. This is the default value. This parameter corresponds to the **Everyone** setting in Teams.
 - **EveryoneInCompanyUserOverride**: Authenticated users in the organization, including guest users, can be presenters. This parameter corresponds to the **People in my organization** setting in Teams.
