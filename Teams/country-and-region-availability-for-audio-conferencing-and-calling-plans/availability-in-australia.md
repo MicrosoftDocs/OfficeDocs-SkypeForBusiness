@@ -95,6 +95,6 @@ If you want to set them up, see [Set up Communications Credits for your organiza
   
 ## Related topics
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

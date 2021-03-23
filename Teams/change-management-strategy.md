@@ -30,7 +30,7 @@ Best practices for change management for Teams:
 
 3.  Conduct a pilot that includes business users, champions, and IT professionals.  
 
-4.  Design, launch and manage your adoption campaign. Download our [Customer Success Kit](https://aka.ms/TeamsSuccessKit) as a starting point. A good adoption campaign includes:
+4.  Design, launch and manage your adoption campaign. Download our [Customer Success Kit](./planning-workshop-practical-guide.md) as a starting point. A good adoption campaign includes:
 
     a.  Internal awareness materials such as posters, digital signage, and events
 
@@ -151,6 +151,4 @@ Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin ce
 
 Driving change in an organization is an ongoing activity, not an event. Your kick-off meeting is only the beginning of empowering people to collaborate more effectively. It's important to plan moments in this journey that highlight your successes, introduce new features, and connect with your overall Microsoft 365 or Office 365 service strategy - which your IT department will craft. Ensuring that your users are engaged rather than overwhelmed will reduce their change fatigue and support them in letting go of old habits - such as emailing attachments - to embrace something new, such as storing documents in the cloud.
 
-Share your questions about service adoption of Teams and Microsoft 365 or Office 365 in the [Driving Adoption community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) on the Microsoft Technical Community site. We always want to hear from you and help you in your adoption journey.  
-
-
+Share your questions about service adoption of Teams and Microsoft 365 or Office 365 in the [Driving Adoption community](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) on the Microsoft Technical Community site. We always want to hear from you and help you in your adoption journey.

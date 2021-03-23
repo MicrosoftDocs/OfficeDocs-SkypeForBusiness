@@ -72,7 +72,7 @@ Here's an example of an IM conversation between participants during the meeting.
 > [!div class="mx-imgBorder"]
 > ![Conversation between participants in eDiscovery search results.](media/MeetingImConversation2.png)
 
-For more information about conducting an eDiscovery investigation, see [Get started with Core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+For more information about conducting an eDiscovery investigation, see [Get started with Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
 
 Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after you export them.
 
@@ -94,7 +94,7 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel files in an eDiscovery search
 
-Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 1. Run the following to get a list of all SharePoint site collections associated with private channels in the team.
 
@@ -133,7 +133,7 @@ Before you perform these steps, make sure you have the [latest version of the Te
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. Include the mailboxes of all members from each private channel in the team as part of your [eDiscovery search query](https://docs.microsoft.com/microsoft-365/compliance/search-for-content-in-core-ediscovery).
+3. Include the mailboxes of all members from each private channel in the team as part of your [eDiscovery search query](/microsoft-365/compliance/search-for-content-in-core-ediscovery).
 
 ## Search for content for guest users
 
@@ -141,7 +141,7 @@ You can use eDiscovery tools to search for Teams content related to guest users 
 
 To search for content for guest users:
 
-1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous topic.
+1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous topic.
 
 2. After you successfully connect to Azure AD PowerShell, run the following command to display the user principal name (UPN) for all guest users in your organization. You have to use the UPN of the guest user when you create the search in step 4.
 
@@ -152,7 +152,7 @@ To search for content for guest users:
    > [!TIP]
    > Instead of displaying a list of user principal names on the computer screen, you can redirect the output of the command to a text file. You can do this by appending `> filename.txt` to the previous command. The text file with the user principal names will be saved to the current folder.
 
-3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multi-factor authentication.
+3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multi-factor authentication.
 
 4. Create a content search that searches for all content (such as chat messages and email messages) in which the specified guest user was a participant by running the following command.
 
@@ -166,7 +166,7 @@ To search for content for guest users:
    New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-    For more information about using PowerShell to create content searches, see [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch).
+    For more information about using PowerShell to create content searches, see [New-ComplianceSearch](/powershell/module/exchange/new-compliancesearch).
 
 5. Run the following command to start the content search that you created in step 4:
 
@@ -188,7 +188,7 @@ To search for content for guest users:
 
 ## Search for card content
 
-Card content generated by apps in Teams channels, 1:1 chats, and 1xN chats is stored in mailboxes and can be searched. A *card* is a UI container for short pieces of content. Cards can have multiple properties and attachments, and can include buttons that can trigger card actions. For more information, see [Cards](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+Card content generated by apps in Teams channels, 1:1 chats, and 1xN chats is stored in mailboxes and can be searched. A *card* is a UI container for short pieces of content. Cards can have multiple properties and attachments, and can include buttons that can trigger card actions. For more information, see [Cards](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
 Like other Teams content, where card content is stored is based on where the card was used. Content for cards used in a Teams channel is stored in the Teams group mailbox. Card content for 1:1 and 1xN chats are stored in the mailboxes of the chat participants.
 
@@ -209,11 +209,11 @@ When viewing card content in Content search results, the content appears as an a
 
 ## Advanced eDiscovery
 
-Some Microsoft Teams content can also be searched and preserved using the [Advanced eDiscovery workflow](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20). While eDiscovery provides a range of search, hold, and export functionality, Advanced eDiscovery gives compliance administrators more tools to identify data sources and analyze their contents.
+Some Microsoft Teams content can also be searched and preserved using the [Advanced eDiscovery workflow](/microsoft-365/compliance/overview-ediscovery-20). While eDiscovery provides a range of search, hold, and export functionality, Advanced eDiscovery gives compliance administrators more tools to identify data sources and analyze their contents.
 
 ### Advanced eDiscovery custodian workflow for Teams content
 
-Custodians might be a member of various teams. You can capture Teams content that is relevant to these custodians. For instructions on the custodian workflow, see [Add custodians to an Advanced eDiscovery case](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case).
+Custodians might be a member of various teams. You can capture Teams content that is relevant to these custodians. For instructions on the custodian workflow, see [Add custodians to an Advanced eDiscovery case](/microsoft-365/compliance/add-custodians-to-case).
 
 After adding a custodian, click the **Next** button, then the **Add** button. A window then displays that prompts you to select additional locations, which will show you all of the custodian's memberships and the corresponding SharePoint site locations for their data. From all of these data sources and teams, you can choose the content you want to use for eDiscovery, then place that user and all the data sources that you've identified on hold.
 
@@ -226,7 +226,7 @@ You also have the option to associate any team the custodian is a member of so t
 
 ### Placing a data source on hold
 
-If there is no specific user to designate as a custodian, you can place an entire data source on hold. For more information on holds, see [Manage holds in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-holds).
+If there is no specific user to designate as a custodian, you can place an entire data source on hold. For more information on holds, see [Manage holds in Advanced eDiscovery](/microsoft-365/compliance/managing-holds).
 
 When creating a hold for Teams content, you can choose all of the locations you wish to include in your hold. Even if users are deleting or changing content, the hold will maintain copies of all previous versions of that content.
 
@@ -234,13 +234,13 @@ You can also use an optional query to set conditions for the hold based on keywo
 
 ### Advanced eDiscovery searches
 
-Teams content can also be searched. For more information on searches, see [Collect data for a case in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery). A search will return an entire conversation if even one message matches the search query.
+Teams content can also be searched. For more information on searches, see [Collect data for a case in Advanced eDiscovery](/microsoft-365/compliance/collecting-data-for-ediscovery). A search will return an entire conversation if even one message matches the search query.
 
 When creating a search query, you can choose custodians so that all the sources that you've already selected will be searched. You can also search non-custodial sources such as a Teams site that is not mapped to a user. Optional queries are also available to narrow your search within the Teams content.
 
 After you've created a search and selected it, a window displays with additional details and actions that you can take on the selected search. If you click the **Statistics** button, you can view statistics about your search, including breakdowns according to location types, the original source for the content, and whether the content is located in a group mailbox, the individual user mailbox, or a SharePoint site. Thus, you can see a breakdown of what sources are contributing to your search results. There is also a **Queries** view available so you can see which individual keywords are contributing to your results.
 
-After you finalize your search, you can click the **Add results to review set** button and add it to a review set. For more information about review sets, see [Manage review sets in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) and [Review Sets workflow](#review-sets-workflow) later in this article.
+After you finalize your search, you can click the **Add results to review set** button and add it to a review set. For more information about review sets, see [Manage review sets in Advanced eDiscovery](/microsoft-365/compliance/managing-review-sets) and [Review Sets workflow](#review-sets-workflow) later in this article.
 
 #### Normal review sets and conversation review sets
 
@@ -253,7 +253,7 @@ A conversation review set provides a more intuitive, threaded view of the conver
 > [!div class="mx-imgBorder"]
 > ![Screenshot of conversation review set](media/conversationOptions2.png)
 
-Functionality such as redaction is available in both types of review sets. For more information about review sets, see [Review conversations in advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
+Functionality such as redaction is available in both types of review sets. For more information about review sets, see [Review conversations in advanced eDiscovery](/microsoft-365/compliance/conversation-review-sets).
 
 #### Collection options
 
@@ -267,7 +267,7 @@ If you must be certain about which contextual messages will be returned with mat
 
 ### Review sets workflow
 
-You can view existing review sets or create new ones by clicking the **Review Sets** tab. For more information about review sets, see [Manage review sets in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets).
+You can view existing review sets or create new ones by clicking the **Review Sets** tab. For more information about review sets, see [Manage review sets in Advanced eDiscovery](/microsoft-365/compliance/managing-review-sets).
 
 In addition to documents, you can add emails, Teams messages, Yammer messages, and other content to your review set. Within a review set, you can also perform many of the same operations that you can perform in other contexts, such as searching content and creating custom queries. These operations only apply to items that have been added to the review set.
 
@@ -306,12 +306,12 @@ If you applied any redactions to the content as described in the [Summary view, 
 
 You can choose to export to a Microsoft-provided Azure blob storage container or you can provide your own Azure Blob storage container.
 
-When you are ready to begin the export process, click the **Export** button. See [Download export jobs](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) for more information about how you can access the Azure blob storage container and download your exported content after export is complete.
+When you are ready to begin the export process, click the **Export** button. See [Download export jobs](/microsoft-365/compliance/download-export-jobs) for more information about how you can access the Azure blob storage container and download your exported content after export is complete.
 
 > [!NOTE]
 > Exporting can take an extended period of time. To track the status of the export process, exit the **Review sets** tab and click the **Exports** tab.
 
 ## Related topics
 
-- [eDiscovery in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
+- [eDiscovery in Microsoft 365](/microsoft-365/compliance/ediscovery)
 - [Teams PowerShell Overview](teams-powershell-overview.md)
