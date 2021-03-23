@@ -84,7 +84,7 @@ When transferring calls to an external phone number, the resource account perfor
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.<br>
 > Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.<br>
-> In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-queue).
+> In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 
 ## Business decisions
 

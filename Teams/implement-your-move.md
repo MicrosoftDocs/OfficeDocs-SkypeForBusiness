@@ -40,7 +40,7 @@ We recommend the following framework for transition:
    
 1. First, move your chat groups to Microsoft Teams.
 1. Next, use apps in Teams to replace Kaizala action cards.
-1. To ensure that frontline workers are equipped, upgrade to Teams Frontline Worker functionality. For a quick start guide on Teams Frontline Worker, see [Frontline Worker Quick Start Guide](https://docs.microsoft.com/microsoftteams/flw-quickstart).
+1. To ensure that frontline workers are equipped, upgrade to Teams Frontline Worker functionality. For a quick start guide on Teams Frontline Worker, see [Frontline Worker Quick Start Guide](./flw-quickstart.yml).
 1. Consider Onboarding suppliers and partners to invite as guests in Teams.  
   
 **Manage change**  
@@ -91,4 +91,4 @@ We recommend the following framework for transition:
      
 - **Move your organization to Teams** 
 
-    Empower your organization with a streamlined tool for communication from CEO to the frontline! 
+    Empower your organization with a streamlined tool for communication from CEO to the frontline!

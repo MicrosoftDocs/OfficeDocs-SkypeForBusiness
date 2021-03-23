@@ -38,8 +38,8 @@ Microsoft Teams licenses are part of Microsoft 365 and Office 365 subscriptions.
 
 RealWear devices can be managed using Android Device Administrator mode. Support for management via Android Enterprise is limited, as the devices currently don't have Google Mobile Services (GMS) available.
 
-- To learn more about managing RealWear devices on Microsoft Endpoint Manager, see [Android device administrator enrollment in Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator).
-- For more details on policies, see [How to use Intune in environments without Google Mobile Services](https://docs.microsoft.com/mem/intune/apps/manage-without-gms).
+- To learn more about managing RealWear devices on Microsoft Endpoint Manager, see [Android device administrator enrollment in Intune](/mem/intune/enrollment/android-enroll-device-administrator).
+- For more details on policies, see [How to use Intune in environments without Google Mobile Services](/mem/intune/apps/manage-without-gms).
 
 ### Third-party Enterprise Mobility Managers (EMMs)
 

@@ -28,7 +28,7 @@ But you'll likely want to customize Business Voice to better meet your business 
 | Task                                                          | Description                                                                                          |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [Move phone numbers to Business Voice](port-phone-numbers.md) | Bring your existing phone numbers to Business Voice.                                                 |
-| [Set up auto attendants](set-up-auto-attendants.md)           | Add more call menus to expand the options for callers who reach your main phone number.        |
+| [Set up auto attendants](./create-a-phone-system-auto-attendant-smb.md)           | Add more call menus to expand the options for callers who reach your main phone number.        |
 | [Set up calling policies](set-up-policies.md)                 | Control whether users can do things like make private calls, use call forwarding, and delegate calls.        |
 | [Create additional users](create-users.md)                    | Add more users and assign new or existing phone numbers to them.                                     |
-| [Set up call queues](set-up-call-queues.md)                   | Create a queue where callers can wait for the next available agent.                                  |
+| [Set up call queues](./create-a-phone-system-call-queue-smb.md)                   | Create a queue where callers can wait for the next available agent.                                  |

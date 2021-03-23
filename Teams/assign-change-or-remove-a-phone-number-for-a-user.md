@@ -24,13 +24,13 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 # Assign, change, or remove a phone number for a user (Calling Plans)
 
-When you set up Calling Plans, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. For instructions about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](https://docs.microsoft.com/microsoftteams/direct-routing-enable-users).
+When you set up Calling Plans, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. For instructions about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
 ![User's phone number displayed in Teams.](media/teams-phone-number.png)
 
 When you're setting up users so they can make and receive phone calls, you must first use the Microsoft Teams admin center and assign a phone number. You can change or remove the phone number if you need to.
   
-To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
@@ -46,10 +46,10 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
 6. Click **Save**.
 
-For a PowerShell example, see [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
     > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
 
   
 ## Change a phone number for a user
@@ -66,7 +66,7 @@ For a PowerShell example, see [Set-CsOnlineVoiceUser](https://docs.microsoft.com
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 9. Click **Save**.
 
-For a PowerShell example, please see [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
 ## Remove a phone number from a user
  
@@ -78,7 +78,7 @@ For a PowerShell example, please see [Set-CsOnlineVoiceUser](https://docs.micros
 4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
 5. Click **Save**.
 
-For a PowerShell example, please see [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
 ## Related topics
 
@@ -86,10 +86,10 @@ For a PowerShell example, please see [Set-CsOnlineVoiceUser](https://docs.micros
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
-[Calling Plans for Microsoft 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)
+[Calling Plans for Microsoft 365](./calling-plans-for-office-365.md)

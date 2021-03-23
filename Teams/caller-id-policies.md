@@ -39,7 +39,7 @@ You manage caller ID policies by going to **Voice** > **Caller ID policies** in 
 4. From here, choose the settings that you want:
 
     - **Block incoming caller ID**: Turn on this setting to block the caller ID of incoming calls from being displayed.
-    - **Override the caller ID policy**: Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID. For more information, see [End user control of outbound caller ID](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id).
+    - **Override the caller ID policy**: Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID. For more information, see [End user control of outbound caller ID](./how-can-caller-id-be-used-in-your-organization.md#end-user-control-of-outbound-caller-id).
     - **Replace the caller ID with**: Set the caller ID to be displayed for users by selecting one of the following:
 
         - **User's number**: Displays the user's number. 
@@ -64,6 +64,6 @@ You can edit the global policy or any custom policies that you create.
 
 ## Related topics
 
-[New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
 [Assign policies to your users in Teams](assign-policies.md)

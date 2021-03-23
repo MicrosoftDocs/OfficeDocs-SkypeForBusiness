@@ -101,7 +101,7 @@ The Lync VDI plug-in allows audio and video calling for supported virtualization
 
 The Lync VDI plug-in supports full desktop remote sessions in the personal virtual desktop scenario, but not in the remote desktop session scenario. These scenarios can be described as follows:
   
-- **Supported: Personalized Virtual Desktops or Virtual Desktop Infrastructure (VDI).** In this scenario, each user logs on to a customizable virtual desktop and is able to save files on the desktop that persist across sessions. Microsoft Remote Desktop Services and VMware Horizon View are example implementations that have been tested for use with Skype for Business 2015. Other implementations undergoing validation include Citrix XenDesktop. For information about vendor-specific VDI environments and client hardware that have been tested by Microsoft, see [Infrastructure qualified for Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
+- **Supported: Personalized Virtual Desktops or Virtual Desktop Infrastructure (VDI).** In this scenario, each user logs on to a customizable virtual desktop and is able to save files on the desktop that persist across sessions. Microsoft Remote Desktop Services and VMware Horizon View are example implementations that have been tested for use with Skype for Business 2015. Other implementations undergoing validation include Citrix XenDesktop. For information about vendor-specific VDI environments and client hardware that have been tested by Microsoft, see [Infrastructure qualified for Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
     
 - **Not supported: Remote Desktop Sessions.** In this scenario, each user logs on to a generic virtual desktop session that can't be customized. Examples include Microsoft Remote Desktop Sessions (RDSH) and Citrix XenApp combined with Citrix Receiver.
     
@@ -115,7 +115,7 @@ The Lync VDI plug-in was designed to use platform-independent APIs called Dynami
 In a VDI environment, the virtual machines and the user's local computer must meet the requirements outlined in this section.
   
 > [!NOTE]
->  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft Library: [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514), [Remote Desktop Services in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=247513) 
+>  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft Library: [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)), [Remote Desktop Services in Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
   
 Virtual machines must be configured with Windows 8, Windows 7, or Windows Server 2008 R2 with the latest service packs.
   
@@ -127,7 +127,7 @@ The user's local computer must meet the following requirements:
     
 - If you're using Remote Desktop Services, choose the 32-bit or 64-bit Lync VDI plug-in to match the local computer's operating system. It's not required for both the local computer and the virtual machine to have 32-bit or 64-bit operating systems. If you're using another virtualization solution or platform, refer to your provider's requirements.
     
-- The local computer must be running the [latest version of the remote desktop client](https://go.microsoft.com/fwlink/p/?LinkId=268032). Install the latest updates of Remote Desktop Services client from Microsoft or the latest remote desktop client software from your virtualization solution provider. 
+- The local computer must be running the [latest version of the remote desktop client](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients). Install the latest updates of Remote Desktop Services client from Microsoft or the latest remote desktop client software from your virtualization solution provider. 
     
 - On the local computer, the remote desktop client settings must be configured so that audio plays on the local computer and remote recording is disabled. To configure these settings for Remote Desktop Connection in Windows, see the next section, "To configure Remote Desktop Connection settings." 
     
@@ -165,4 +165,3 @@ The Lync VDI plug-in is not supported in Microsoft 365 or Office 365 environment
 <a name="Citrix_RT"> </a>
 
 [Deploy the Lync VDI plug-in with Skype for Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
-

@@ -23,7 +23,7 @@ Before you can integrate Skype for Business Server and Exchange Server, you must
   
 For details about installing Exchange Server, see the Exchange Server Planning and Deployment documentation for your version of Exchange. 
    
-After the servers are up and running, you must assign server-to-server authentication certificates to both Skype for Business Server and Exchange Server; these certificates allow Skype for Business Server and Exchange Server to exchange information and to communicate with one another. When you install Exchange Server, a self-signed certificate with the name Microsoft Exchange Server Auth Certificate is created for you. This certificate, which can be found in the local computer certificate store, should be used for server-to-server authentication on Exchange Server. For details about assigning certificates in Exchange Server, see [Configure Mail Flow and Client Access](https://go.microsoft.com/fwlink/p/?LinkId=268540).
+After the servers are up and running, you must assign server-to-server authentication certificates to both Skype for Business Server and Exchange Server; these certificates allow Skype for Business Server and Exchange Server to exchange information and to communicate with one another. When you install Exchange Server, a self-signed certificate with the name Microsoft Exchange Server Auth Certificate is created for you. This certificate, which can be found in the local computer certificate store, should be used for server-to-server authentication on Exchange Server. For details about assigning certificates in Exchange Server, see [Configure Mail Flow and Client Access](/exchange/configure-mail-flow-and-client-access-exchange-2013-help).
   
 For Skype for Business Server you can use an existing Skype for Business Server certificate as your server-to-server authentication certificate; for example, your default certificate can also be used as the OAuthTokenIssuer certificate. Skype for Business Server allows you to use any Web server certificate as the certificate for server-to-server authentication provided that:
   
@@ -59,7 +59,7 @@ You can assign the autodiscover URI by running a command similar to this:
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-For details about the autodiscover service, see [Autodiscover Service](https://go.microsoft.com/fwlink/p/?LinkId=268542).
+For details about the autodiscover service, see [Autodiscover Service](/Exchange/architecture/client-access/autodiscover).
   
 After the autodiscover service has been configured, you must then modify the Skype for Business Server OAuth configuration settings; this ensures that Skype for Business Server knows where to find the autodiscover service. To modify the OAuth configuration settings in Skype for Business Server, run the following command from within the Skype for Business Server Management Shell. When running this command, be sure that you specify the URI to the autodiscover service running on your Exchange Server, and that you use **autodiscover.svc** to point to the service location instead of **autodiscover.xml** (which points to the XML file used by the service):
   
@@ -121,6 +121,6 @@ The following table details the features supported under various combinations of
 
 [Integrate Skype for Business Server with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
-[How to integrate Exchange Server 2013 with Lync Server 2013, Skype for Business Online, or a Lync Server 2013 hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkId=746494)
+[How to integrate Exchange Server 2013 with Lync Server 2013, Skype for Business Online, or a Lync Server 2013 hybrid deployment](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-hybrid-deployments)
   
 [Configure partner applications in Skype for Business Server and Microsoft Exchange Server](../../deploy/integrate-with-exchange-server/configure-partner-applications.md)
