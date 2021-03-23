@@ -69,7 +69,7 @@ This is the minimum software release required for supported phones to work with 
 |Yealink  <br/> |X.8.1.52  <br/> |February 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |December 2016  <br/> |
 
-For more details on current certified firmware versions, see [Skype for Business IP Phones](../../../SfbPartnerCertification/certification/devices-ip-phones.md#conference-phones).
+For more details on current certified firmware versions, see [Skype for Business IP Phones](../../../SfbPartnerCertification/certification/devices-ip-phones.md).
 
 > [!NOTE]
 > Lync Phone Edition (LPE) phones you have set up for your on-premises deployment must be updated to the minimum or later required firmware prior to moving those users over to Skype for Business Online. If you move your users from on-premises to Skype for Business Online before you update the firmware on the phones, those phones won't be able to connect to Skype for Business Online. 
