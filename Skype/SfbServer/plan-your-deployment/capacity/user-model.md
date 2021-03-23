@@ -47,7 +47,7 @@ The following table summarizes our recommendations.
 |One Director  <br/> |12,000 concurrent remote users.  <br/> |
 |Monitoring and Archiving  <br/> |The Monitoring and Archiving front end services run on each Front End Server, instead of on separate server roles.  <br/> Monitoring and Archiving each still require their own database stores. If you also run Exchange 2013 or later, you can keep your Archiving data in Exchange, rather than in a dedicated SQL database.  <br/> |
 |One Mediation Server  <br/> |Mediation Server collocated with Front End Server runs on every Front End Server in a pool, and should provide enough capacity for the users in the pool. For stand-alone Mediation Server, see the "Mediation Server" section later in this topic.  <br/> |
-|One Standard Edition server  <br/> |We strongly recommend that if you use Standard Edition servers to host users, you always use two servers, paired using the recommendations in [Planning for High Availability and Disaster Recovery](https://technet.microsoft.com/library/15a72073-0336-45dd-b2a0-35e7522c6000.aspx). Each server in the pair can host up to 2,500 users, and if one server fails the remaining server can support 5,000 users in a failover scenario.  <br/>  If your deployment includes a significant amount of audio or video traffic, server performance may suffer with more than 2,500 users per server. In this case, you should consider adding more Standard Edition servers or moving to Skype for Business Server Enterprise Edition. <br/> |
+|One Standard Edition server  <br/> |We strongly recommend that if you use Standard Edition servers to host users, you always use two servers, paired using the recommendations in [Planning for High Availability and Disaster Recovery](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). Each server in the pair can host up to 2,500 users, and if one server fails the remaining server can support 5,000 users in a failover scenario.  <br/>  If your deployment includes a significant amount of audio or video traffic, server performance may suffer with more than 2,500 users per server. In this case, you should consider adding more Standard Edition servers or moving to Skype for Business Server Enterprise Edition. <br/> |
 
 ## Front End Server
 
@@ -79,7 +79,7 @@ The following table shows the average bandwidth for IM and presence, given the u
 |1.3 Kpbs  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> To improve the media performance of the co-located A/V Conferencing and Mediation Server functionality on your Front End Servers, you should enable receive-side scaling (RSS) on the network adapters on your Front End Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see [Receive Side Scaling (RSS) in the Windows Server 2012 documentation](https://go.microsoft.com/fwlink/p/?LinkId=620365). For details about how to enable RSS, you'll need to refer to your network adapter documentation.
+> To improve the media performance of the co-located A/V Conferencing and Mediation Server functionality on your Front End Servers, you should enable receive-side scaling (RSS) on the network adapters on your Front End Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see [Receive Side Scaling (RSS) in the Windows Server 2012 documentation](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). For details about how to enable RSS, you'll need to refer to your network adapter documentation.
 
 ## Conferencing Maximums
 
@@ -98,20 +98,20 @@ If your organization has a lot more mixed-mode conferences than are assumed in t
 > [!NOTE]
 > Stretched pools aren't supported for this server role.
 
-You should deploy one Edge Server for every 12,000 remote users who will access a site concurrently. At a minimum we recommend two Edge Servers for high availability. These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server Hardware Platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+You should deploy one Edge Server for every 12,000 remote users who will access a site concurrently. At a minimum we recommend two Edge Servers for high availability. These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server Hardware Platforms](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 When you account for the number of users for the Edge Servers, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.
 
 > [!NOTE]
 > To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, check "[Receive Side Scaling (RSS)
-in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation.
+in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". For details about how to enable RSS, you'll need to refer to your network adapter documentation.
 
 ## Director
 
 > [!NOTE]
 > Stretched pools aren't supported for this server role.
 
-If you deploy the Director server role, we recommend that you deploy one Director for every 12,000 remote users who will access a site concurrently. At a minimum we recommend two Directors for high availability. These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server Hardware Platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+If you deploy the Director server role, we recommend that you deploy one Director for every 12,000 remote users who will access a site concurrently. At a minimum we recommend two Directors for high availability. These recommendations assume that the hardware for your Edge Servers meets the recommendations in [Server Hardware Platforms](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 When you account for the number of users for the Directors, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.
 
@@ -124,7 +124,7 @@ If you collocate Mediation Server with Front End Server, Mediation Server runs o
 
 If you deploy a stand-alone Mediation Server pool, then how many Mediation Servers to deploy depends on many factors, including the hardware used for Mediation Server, the number of VoIP users you have, the number of gateway peers that each Mediation Server pool controls, the busy hour traffic through those gateways, and the percentage of calls with media that bypasses the Mediation Server.
 
-The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server Hardware Platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) and that hyper-threading is enabled. For details about Mediation Server scalability, see [Estimating voice usage and traffic for Skype for Business Server](estimating-voice-traffic.md) and [Deployment guidelines for Mediation Server in Skype for Business Server](mediation-server-deployment-guidelines.md).
+The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server Hardware Platforms](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) and that hyper-threading is enabled. For details about Mediation Server scalability, see [Estimating voice usage and traffic for Skype for Business Server](estimating-voice-traffic.md) and [Deployment guidelines for Mediation Server in Skype for Business Server](mediation-server-deployment-guidelines.md).
 
 All the following tables assume usage as summarized in [User models in Skype for Business Server](user-models.md).
 
@@ -148,11 +148,11 @@ All the following tables assume usage as summarized in [User models in Skype for
 > This number is much smaller than the numbers for the stand-alone Mediation Server. That's because the Front End Server has to handle other features and functions for the 6600 users homed on it, in addition to the transcoding needed for voice calls.
 
 > [!NOTE]
-> To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "[Receive-Side Scaling in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation.
+> To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "[Receive-Side Scaling in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". For details about how to enable RSS, you'll need to refer to your network adapter documentation.
 
 ## Back End Server
 
-Although much of the database information is stored primarily on the Front End Servers, you should make sure your Back End Servers meet the hardware recommendations listed earlier in this section and in [Server Hardware Platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+Although much of the database information is stored primarily on the Front End Servers, you should make sure your Back End Servers meet the hardware recommendations listed earlier in this section and in [Server Hardware Platforms](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 To provide high availability of your Back End Server, we recommend deploying AlwaysOn Availability Groups or server mirroring. For more information, see [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
@@ -189,5 +189,3 @@ Microsoft used the hardware in the following table for the database server for M
 ## Video Interop Server capacity
 
 If you deploy Video Interop Server and you need to determine capacity, you look at the maximum number of Video Teleconferencing Systems (VTCs) that will be in concurrent calls. For example, if you have 250 VTCs in your organization and your user model estimates that at most, 20% of them might be in concurrent calls, you base your capacity planning on 50 concurrent VTCs.
-
-

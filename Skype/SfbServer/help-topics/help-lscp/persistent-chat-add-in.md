@@ -37,7 +37,7 @@ The following lists describe the menus, command, fields, and properties on the p
 
 1. From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
 
-2. From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start the control panel, see [Open Lync Server Administrative Tools](https://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).
+2. From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start the control panel, see [Open Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools).
 
 3. In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.
 
@@ -58,5 +58,3 @@ The following lists describe the menus, command, fields, and properties on the p
 ## See also
 
 For details about Persistent Chat Server features and capabilities, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
-
-

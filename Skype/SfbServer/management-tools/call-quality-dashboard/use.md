@@ -202,7 +202,7 @@ CQD doesn't use Caller/Callee fields, instead it uses "First" and "Second" becau
 |4 (Skype for Business) |4 (Skype for Business) |The Caller in MediaLine |The Callee in MMediaLine |
 |||||
 
-If both endpoints are the same type, CQD makes the Caller entry First and the Callee Second. For more information about endpoint names, see [this blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx).
+If both endpoints are the same type, CQD makes the Caller entry First and the Callee Second. For more information about endpoint names, see [this blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
 ## Accounting for VPN
 

@@ -24,7 +24,7 @@ Use this PowerShell script to create a team for each manager with their directs 
 
 To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).
 
-If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
+If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
 
 
 ## Create new people manager teams 
@@ -208,5 +208,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Exiting.."
 #endregion
 
 ```
-
-

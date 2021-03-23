@@ -63,7 +63,7 @@ The PowerShell execution policy helps to determine which configuration files can
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
-    For details about execution policy, see [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=135170).
+    For details about execution policy, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
   
 ## Import-Module Error caused by incorrect version of Windows PowerShell
 <a name="BKMKIncorrectVersion"> </a>
@@ -79,7 +79,7 @@ The Skype for Business Online Connector module can be run only under Windows Pow
 
 The latest version of the Skype for Business Online Connector module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication.  Modern authentication uses bearer tokens which are usually passed in the *Authorization: Bearer* header. Windows PowerShell, upon which Skype for Business PowerShell is built, does not allow for manipulation of this header.  Instead, Skype for Business PowerShell uses the *Authorization: Basic* header to pass the bearer token.
 
-See [Download and install Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) for instructions on how to enable WinRM for Basic authentication.
+See [Download and install Windows PowerShell](./download-and-install-windows-powershell-5-1.md) for instructions on how to enable WinRM for Basic authentication.
 
 ## Failed to connect to Live ID Server
 <a name="BKMKFailedConnect"> </a>
@@ -125,7 +125,7 @@ When you attempt to make a remote connection to Skype for Business Online, you m
 
 You cannot make a remote PowerShell connection toSkype for Business Online unless you are a member of the Tenant Administrators group. If you are not, your connection attempt will fail, and you'll receive the following error message:
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' does not have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' does not have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Microsoft Support.
   
@@ -134,7 +134,7 @@ You cannot make a remote PowerShell connection toSkype for Business Online unles
 
 To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it is not, your connection will fail, and you'll receive the following error message:
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Please contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Please contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Resolution**: If you see this error message, you'll need to contact Microsoft Support and get remote PowerShell access enabled.
   
@@ -160,4 +160,3 @@ Although each administrator is allowed to have as many as three simultaneous con
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
- 

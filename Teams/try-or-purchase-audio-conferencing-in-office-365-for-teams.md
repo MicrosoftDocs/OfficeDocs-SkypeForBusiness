@@ -46,11 +46,11 @@ You must be a [global administrator or billing administrator](https://support.of
 
    - **Try it** before you buy it: you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Buy it**: see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+   - **Buy it**: see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-3. [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) in your organization who are going to schedule or lead meetings.
+3. [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) in your organization who are going to schedule or lead meetings.
 
-4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### To buy and assign pay-per-minute Audio Conferencing licenses
 
@@ -65,7 +65,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
     > [!IMPORTANT]
     > If Communications Credits haven't been set up, Audio Conferencing won't work for any users with pay-per-minute licenses.
 
-4. [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) in your organization who are going to schedule or lead meetings.
+4. [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) in your organization who are going to schedule or lead meetings.
 
     > [!NOTE]
     > If you have Audio Conferencing pay-per-minute licenses, you must assign a Communications Credits license separately to each user as well.
@@ -74,7 +74,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 When you assign an **Audio Conferencing** license to people in your organization who don't have Skype for Business integrated with a 3rd party audio conferencing provider, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
 
-If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Microsoft as the audio conferencing provider](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## Step 3: Other admin tasks
 

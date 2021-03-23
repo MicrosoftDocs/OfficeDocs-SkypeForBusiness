@@ -40,9 +40,9 @@ Using the admin settings in the Microsoft Teams admin center, you can turn featu
 ### Weekly guardian email digest
 
 
-Guardian emails are sent each weekend to parents or guardians. The email contains information about assignments from the previous week and for the upcoming week. The Parent and Guardian Sync can be setup using [School Data Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync).
+Guardian emails are sent each weekend to parents or guardians. The email contains information about assignments from the previous week and for the upcoming week. The Parent and Guardian Sync can be setup using [School Data Sync](/schooldatasync/parent-contact-sync).
 
-1. Import parent contact information via Parent and Guardian Sync in SDS. For instructions on how to enable Parent and Guardian Sync, see [Enabling Parent and Guardian Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
+1. Import parent contact information via Parent and Guardian Sync in SDS. For instructions on how to enable Parent and Guardian Sync, see [Enabling Parent and Guardian Sync](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
 2. Turn on the Guardian Setting in the Microsoft Teams admin center, as the setting is turned off by default. This will enable teachers to send out a weekly digest.
 
@@ -51,7 +51,7 @@ Guardian emails are sent each weekend to parents or guardians. The email contain
 
 To verify that Parents will get the email the following three items must be true:
 
- - Email address attached to the student profile in SDS and tagged as _Parent_ or _Guardian_. For details, see [Parent and Guardian Sync File Format](https://docs.microsoft.com/schooldatasync/parent-contact-sync-file-format).
+ - Email address attached to the student profile in SDS and tagged as _Parent_ or _Guardian_. For details, see [Parent and Guardian Sync File Format](/schooldatasync/parent-contact-sync-file-format).
 
  - Students belong to at least one class in which e-mail is not disabled by the teacher in [assignment settings](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
 
@@ -103,4 +103,3 @@ Copy the API key and paste it into the Microsoft Teams admin center.  This is th
 ![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
 Upon clicking the **Save** button in the admin center for this setting, allow a few hours for these settings to take effect.
-
