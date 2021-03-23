@@ -164,4 +164,3 @@ No, the permission consent screen will still show the original value sent by the
 
 - [Manage apps](manage-apps.md)
 - [Customize your app store](customize-your-app-store.md)
-
