@@ -104,7 +104,7 @@ See [Limits and specifications of Teams](limits-specifications-teams.md) for mor
 
 ## Known issues
 
-Sensitivity labels are not supported in Team Templates. The sensitivity label option you see in create team from template flow will not be applied to the team.
+Sensitivity labels are not supported in Team Templates. The sensitivity label option you see in **Create team from template** flow will not be applied to the team.
 
 ## Related topics
 
