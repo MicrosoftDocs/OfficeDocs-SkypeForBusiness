@@ -17,7 +17,7 @@ ms.custom:
 
 # Navigate Microsoft Teams
 
-Now that you have a clear understanding of your organization’s unique path and needs, it is time to get started on your journey to powerful collaboration. Use the section below to learn how to navigate Kaziala’s capabilities complimented within Teams.
+Now that you have a clear understanding of your organization’s unique path and needs, it's time to get started on your journey to powerful collaboration. Use the section below to learn how to navigate Kaziala’s capabilities complimented within Teams.
 
 ## Getting Started
 Getting started on your move from Kaizala to Teams is easier than ever with our getting started guide. To learn more about starting your Microsoft Teams journey, see [Getting started with Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us).
@@ -27,7 +27,7 @@ Create 1:1 or group chats to collaborate with a smaller group or to talk private
 
 Communicate efficiently by starting 1:1 or group calls with anyone in your organization. With Teams,  you have the flexibility to make both audio and video calls.  To get started, see [Make calls](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us).
 
-[Create section about how Kaizala users can move their groups to Teams channels and group chats.Need to include the info around when to use what.] 
+[Create section about how Kaizala users can move their groups to Teams channels and group chats. Need to include the info around when to use what.] 
 
 ## Getting work done
 
@@ -37,13 +37,13 @@ The functionality of Kaizala action cards currently exists within Microsoft Team
 
 You can share important updates and information with your workforce with [Announcements in Teams](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992).
 
-Create and send messages intended for multiple teams or large number of employees over chat with the [company communicato](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate and send messages in a targeted manner. Build custom targeted communication capabilities such as custom telemetry on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
+Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate and send messages in a targeted manner. Build custom targeted communication capabilities such as custom telemetry on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
 
 ### Check-ins
 
 Use the Teams Smart Camera to capture and share an annotated image with your Team. Easily share your location with precision to keep your team in the know. Need to have more info to communicate how the Kaizala features map to Teams. Definitely have as much info from the slide deck as we can into the doc.
 
-[Use the Staff checkins](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#staff-check-ins) app template to enable front line Staff to easily provide time-critical information and status updates on either a scheduled or ad-hoc basis directly from Teams. The app supports real-time location, photos, and notes as well as reminder notifications and automated workflows.
+[Use the Staff checkins](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#staff-check-ins) app template to enable front line Staff to easily provide time-critical information and status updates on either a scheduled or ad-hoc basis directly from Teams. The app supports real-time location, photos, notes, reminder notifications, and automated workflows.
 
 ### Training
 
@@ -69,7 +69,7 @@ Users can create teams through the Desktop or mobile app. For adding users in bu
 
 Search for anyone in your organization through the Search Bar in teams. You can also use the search bar results to view files, messages, and posts.
 
-Enjoy rich analytics through the help of polls, [surveys](https://www.office.com/launch/forms?auth=2) and [checklists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) with built in reports and downloadable data. Jobs can also be assigned with the help of [Tasks](https://support.microsoft.com/office/manage-tasks-in-planner-ee61ecb0-a0bb-4c39-8682-f47fe7674f05) in planner.
+Enjoy rich analytics through the help of polls, [surveys](https://www.office.com/launch/forms?auth=2), and [checklists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) with built-in reports and downloadable data. Jobs can also be assigned with the help of [Tasks](https://support.microsoft.com/office/manage-tasks-in-planner-ee61ecb0-a0bb-4c39-8682-f47fe7674f05) in planner.
 
 To enable [extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) within a Team, use the Connectors option from the menu (…) for any channel for which the connector is required.
 
@@ -89,7 +89,7 @@ While using Teams, you can still maintain control of your corporate data in Kaiz
 
 ## Collaborating with External Users(Vendors/suppliers/Partners)​
 
-Collaborating with vendors, suppliers, partners, and other external users is easier than ever in Microsoft Teams. Begin communicating externally with Microsoft Teams using external access and guest access. Determine which type of access suits your organization’s collaboration needs with external users.
+Collaborating with vendors, suppliers, partners, and other external users are easier than ever in Microsoft Teams. Begin communicating externally with Microsoft Teams using external access and guest access. Determine which type of access suits your organization’s collaboration needs with external users.
 
 ## What is External Access in Teams?
 
@@ -102,7 +102,7 @@ With [guest access](https://docs.microsoft.com/MicrosoftTeams/guest-access), you
 ## Who can be a Guest in Teams?
 A guest is someone who isn't an employee, or member of your organization. They don't have a work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants.
 
-Anyone who is not part of your organization can be [added as guest in Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team). This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (e.g., outlook.com, gmail.com, etc) can participate as a guest in Teams with access to teams and channel experiences.
+Anyone who isn't part of your organization can be [added as guest in Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team). This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (for example, outlook.com, gmail.com, so on) can participate as a guest in Teams with access to teams and channel experiences.
 
 >[!NOTE]
 > Before guests can join a team, guest access must be enabled by an admin in Teams.
