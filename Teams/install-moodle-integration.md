@@ -37,7 +37,7 @@ To help IT admins easily set this integration up, we have updated our open-sourc
 * Auto-installation of the Moodle tab and the Moodle Assistant bot into each synchronized team. (Coming soon)
 * One-click publishing of the Moodle app into your private Teams App Store. (Coming soon)
 
-To learn more about the functionality this integration provides, see [Installing the Moodle integration with Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions).
+To learn more about the functionality this integration provides, see [Installing the Moodle integration with Microsoft Teams](/microsoftteams/platform/resources/moodleinstructions).
 
 ## Prerequisites
 
@@ -172,7 +172,7 @@ Once the resources are finished deploying to Azure, you'll need to configure the
 
 Now that you have your Bot deployed to Azure and configured to talk to your Moodle server, it's time to deploy your Microsoft Teams app. To do this you'll load the manifest file you downloaded from the Moodle Plugin Team Settings page in the previous step.
 
-Before you can install the app you'll need to make sure external apps and sideloading of apps is enabled. To do so you can follow [these steps](https://docs.microsoft.com/MicrosoftTeams/admin-settings). Once you've ensured that external apps are enabled, you can follow the steps below to deploy your app.
+Before you can install the app you'll need to make sure external apps and sideloading of apps is enabled. To do so you can follow [these steps](./admin-settings.md). Once you've ensured that external apps are enabled, you can follow the steps below to deploy your app.
 
 1. Open Microsoft Teams.
 2. Click the **Store** icon on the lower left of the navigation bar.

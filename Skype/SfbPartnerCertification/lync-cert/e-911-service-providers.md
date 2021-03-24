@@ -39,7 +39,7 @@ Microsoft Lync supports two methods of placing E-911 calls: Using a qualified se
 |Level 3|Level 3 SIP Trunking for Lync|
 ||
 
-Learn more about E911 services here: [Emergency Services (E9-1-1)](https://technet.microsoft.com/library/gg398154.aspx).
+Learn more about E911 services here: [Emergency Services (E9-1-1)](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-emergency-services-e9-1-1).
 <!-- links to 2013 to be migrated -->
 
 ***Table 2 - E-911 ELIN Gateways***
@@ -50,4 +50,3 @@ Learn more about E911 services here: [Emergency Services (E9-1-1)](https://techn
 |Audiocodes|Mediant Gateway & SBA version 6.4|
 |Sonus |SBC 1000 & SBC 2000|
 ||
-

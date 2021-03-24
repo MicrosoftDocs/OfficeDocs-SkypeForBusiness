@@ -21,6 +21,4 @@ description: "To set or modify the Next hop pool that the Edge Servers will use 
 
 To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list. Only Directors or Front End Servers that have been configured in Topology Builder appear in the list.
 
-For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
-
-
+For details about defining and configuring the settings for Edge services, see [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

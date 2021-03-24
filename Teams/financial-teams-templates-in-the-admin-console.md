@@ -29,7 +29,7 @@ Teams templates have pre-built definitions of team structures designed around fi
 
 In this article, we'll introduce each of the Teams templates and recommend how to use them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
 To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -50,4 +50,3 @@ Centralize collaboration for your bank branch employees across Huddles, Customer
 | ------------------ |--|----------------------------------------------------- |
 |Collaborate within a bank branch|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Approvals Request</li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>Apps:<ul><li>Praise</li></ul>|
 ||||
-

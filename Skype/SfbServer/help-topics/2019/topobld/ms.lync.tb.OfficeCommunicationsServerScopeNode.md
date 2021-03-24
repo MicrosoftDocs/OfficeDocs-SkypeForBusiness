@@ -25,6 +25,6 @@ You click **Office Communications Server 2007 R2** to expand the sections under 
 
 ## See also
 
-[Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[Merge Using Topology Builder Merge Wizard](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard)
 
-[Verify Topology Information](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[Verify Topology Information](/previous-versions/office/lync-server-2013/verify-topology-information)

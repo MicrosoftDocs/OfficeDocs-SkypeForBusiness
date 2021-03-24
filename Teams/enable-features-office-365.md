@@ -37,7 +37,7 @@ You can control organization-wide user settings in the Microsoft Teams admin cen
 
 ### External access
 
-**External access** lets your Teams and Skype for Business users communicate with users who are outside of your organization or domain. To configure external access, go to [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md).
+**External access** lets your Teams and Skype for Business users communicate with users who are outside of your organization or domain. To configure external access, go to [Let your Teams users chat and communicate with users in another Teams organization](./manage-external-access.md).
 
 To add or block a domain:
 
@@ -64,7 +64,7 @@ Tags let users communicate with a subset of people on a team. Tags can be added 
 
 #### Email integration
 
-Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**. Next, check to make sure that the domain for the sender's email address isn't blocked in Teams Admin Center>Org-Wide settings>Teams Settings>Email integration>**Accept channel email from these SMTP domains**. It should be either blank or includes all the domains that you expect to receive emails from. Next, you need to make sure you have the necessary rules in place to ensure [the email to the Teams channel email address isn't blocked](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
+Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**. Next, check to make sure that the domain for the sender's email address isn't blocked in Teams Admin Center>Org-Wide settings>Teams Settings>Email integration>**Accept channel email from these SMTP domains**. It should be either blank or includes all the domains that you expect to receive emails from. Next, you need to make sure you have the necessary rules in place to ensure [the email to the Teams channel email address isn't blocked](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### Files
 
@@ -119,7 +119,7 @@ Here you can choose the app that users will use to join Skype for Business meeti
 
 #### Network Planner
 
-Network Planner helps you determine and organize network requirements for connecting Teams users across your organization.  Learn how to [Use the Network Planner for Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
+Network Planner helps you determine and organize network requirements for connecting Teams users across your organization.  Learn how to [Use the Network Planner for Microsoft Teams](./network-planner.md).
 
 You can also select the "Download the Teams app in the background for Skype for Business users" option as well.  By default this setting is set to On. With this setting enabled it will download the Teams app in the background for users running the Skype for Business app on Windows PCs. This happens if the Coexistence mode for the user is Teams Only, or if a pending upgrade notification is enabled in the Skype for Business app.
 

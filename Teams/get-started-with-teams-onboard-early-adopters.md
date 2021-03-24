@@ -50,7 +50,7 @@ Jump to: [Teams for Windows](#teams-for-windows) | [Teams for Mac](#teams-for-ma
 
 ### Desktop client
 
-The Teams desktop client gives Windows and Mac users the best overall experience. To learn more, see [Get clients for Teams (Desktop client)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) and [Hardware requirements for the Microsoft Teams app](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
+The Teams desktop client gives Windows and Mac users the best overall experience. To learn more, see [Get clients for Teams (Desktop client)](./get-clients.md#desktop-client) and [Hardware requirements for the Microsoft Teams app](./hardware-requirements-for-the-teams-app.md).
 
 > [!NOTE]
 > As an admin, you can choose the method to distribute the installation files to computers in your organization, such as Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS).
@@ -79,7 +79,7 @@ Teams provides a feature-rich web client, [https://teams.microsoft.com](https://
 
 ### Mobile client
 
-The Teams mobile clients for iOS and Android keep users connected and productive when on-the-go. To learn more, see [Get clients for Teams (Mobile clients)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).
+The Teams mobile clients for iOS and Android keep users connected and productive when on-the-go. To learn more, see [Get clients for Teams (Mobile clients)](./get-clients.md#mobile-clients).
 
 #### Teams for iOS 
 

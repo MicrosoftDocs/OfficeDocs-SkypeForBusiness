@@ -115,11 +115,10 @@ You can see the plans and pricing by visiting one of the following links:
     
 You can also see information about pricing by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Purchase Services**.
   
-To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Related topics
 
 [Teams PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
 
   
- 

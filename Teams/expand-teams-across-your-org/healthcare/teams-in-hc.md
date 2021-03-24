@@ -38,14 +38,14 @@ Microsoft Teams offers a number of telemedicine features useful for hospitals an
 - Teams templates
 - Care coordination and collaboration
 
-This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare).
+This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](/industry/healthcare).
 
 Watch the following video to learn more about using the healthcare collection to enhance health team collaboration in Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> The content in this section assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
+> The content in this section assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../deploy-overview.md).
 
 The following scenarios are available for healthcare organizations:
 
@@ -94,7 +94,7 @@ Also related to secure messaging is the ability to have other tenants federated 
 
 ## Teams templates for healthcare organizations
 
-New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. To learn more, see [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. To learn more, see [Get started with Teams templates for Healthcare organizations](./healthcare-templates-admin-console.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
 
 ## Care coordination and collaboration
 

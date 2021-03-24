@@ -34,10 +34,10 @@ The following lists describe the menus, command, fields, and properties on the p
 
 - **Description** A description of the mobility policy.
 
-For details about mobility policies, see [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
+For details about mobility policies, see [Mobility Policies](/previous-versions/office/lync-server-2013/lync-server-2013-mobility-policies).
 
 ## See also
 
-[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 
-[Deploying Mobility](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[Deploying Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)
