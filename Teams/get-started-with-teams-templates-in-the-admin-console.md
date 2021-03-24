@@ -25,11 +25,15 @@ appliesto:
 **Ability to create custom templates is not yet supported for EDU customers.**
 
 > [!NOTE]
-> Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
+> Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions. Sensitivity labels are not supported in Team Templates. The sensitivity label option you see in **Create team from template** flow won't be applied to the team.
 
 Teams templates are pre-built definitions of a team's structure designed around a business need or project. Use pre-built templates or create your own template. Teams templates let you quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. Currently you can create a team from a template in Teams or using [Microsoft Graph](get-started-with-teams-templates.md).
 
-This article describes the properties that can be defined in templates, what base template types are, and how you can use a few samples requests to create a team from a template.
+This article describes the following features:
+
+- The properties that can be defined in templates.
+- The base template types.
+- How you can use a few samples requests to create a team from a template.
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization
 
@@ -55,7 +59,7 @@ Most properties in a team are included and supported by templates. But there are
 
 Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the apps store.
 
-Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. Some base template types contain properties that can't be overridden.
+Once a base template type is defined, you can extend or override these special templates with more properties that you'd like to specify. Some base template types contain properties that can't be overridden.
 
 > [!NOTE]
 > Pre-defined base templates provided in Microsoft Teams can be duplicated but not edited.
@@ -101,10 +105,6 @@ Templates are limited to a specific number of channels, tabs, and apps.
 |||
 
 See [Limits and specifications of Teams](limits-specifications-teams.md) for more information.
-
-## Known issues
-
-Sensitivity labels are not supported in Team Templates. The sensitivity label option you see in **Create team from template** flow will not be applied to the team.
 
 ## Related topics
 
