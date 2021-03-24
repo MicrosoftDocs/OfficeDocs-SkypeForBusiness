@@ -49,7 +49,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Reactions (such as likes, hearts, and other reactions) | No | |
 |Subject | Yes | |
 |Tables | Yes | |
-|Feed Notifications | No | |
+|Feed notifications | No | |
 |||
 
 <sup>1</sup> Meeting (and call) metadata includes the following:
