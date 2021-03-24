@@ -59,7 +59,7 @@ Administrators can manage the entire Teams workload, or they can have delegated 
 
 To navigate the admin center, visit [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-You can monitor your organization’s security and compliance across Microsoft 365 with the Microsoft 365 [Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center?view=o365-worldwide) and [Security Center](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center?view=o365-worldwide).
+You can monitor your organization’s security and compliance across Microsoft 365 with the Microsoft 365 [Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) and [Security Center](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center).
 
 Protect your business and empower your users in the [Azure Active Directory admin center](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) where you can review groups, identity, licenses, and access across Microsoft 365.
 
