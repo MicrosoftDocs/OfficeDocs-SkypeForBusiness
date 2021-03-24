@@ -31,7 +31,7 @@ This topic provides an overview of the configuration requirements that are commo
 A network region is a network hub or network backbone used only in the configuration of call admission control (CAC), E9-1-1, and media bypass.
 
 > [!NOTE]
-> Network regions are not the same as Skype for Business Server dial-in conferencing regions, which are required to associate dial-in conferencing access numbers with one or more Skype for Business Server dial plans. For details about dial-in conferencing regions, see [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
+> Network regions are not the same as Skype for Business Server dial-in conferencing regions, which are required to associate dial-in conferencing access numbers with one or more Skype for Business Server dial plans. For details about dial-in conferencing regions, see [Planning for Dial-In Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-dial-in-conferencing-requirements).
 
 CAC requires that every network region have an associated Skype for Business Server central site, which manages media traffic within the region (that is, it makes decisions based on policies that you have configured, regarding whether or not a real-time audio or video session can be established). Skype for Business Server central sites do not represent geographical locations, but rather logical groups of servers that are configured as a pool or a set of pools.
 
@@ -48,7 +48,7 @@ A network site represents a geographical location, such as a branch office, a re
 > [!NOTE]
 > Network sites are used only by the advanced Enterprise Voice features. They are not the same as the branch sites that you configure in your Skype for Business Server topology.
 
-To configure a network site and associate it with a network region, you can either use the **Network Configuration** section of Skype for Business Server Control Panel, or run the Skype for Business Server Management Shell **New-CsNetworkSite** or **Set-CsNetworkSite** cmdlets. For details, see [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
+To configure a network site and associate it with a network region, you can either use the **Network Configuration** section of Skype for Business Server Control Panel, or run the Skype for Business Server Management Shell **New-CsNetworkSite** or **Set-CsNetworkSite** cmdlets. For details, see [Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
 
 ## Identify IP Subnets
 
@@ -63,7 +63,7 @@ For example, the New York site in the North America region can be assigned the f
 
 Every subnet in the enterprise network must be associated with a network site (that is, every subnet needs to be associated with a geographic location). This association of subnets enables the advanced Enterprise Voice features to locate the endpoints geographically. For example, locating the endpoints enables CAC to regulate the flow of real-time audio and video data going to and from the network site.
 
-To associate subnets with network sites, you can either use the **Network Configuration** section of Skype for Business Server Control Panel, or you can use the Skype for Business Server Management Shell. For instructions, see [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
+To associate subnets with network sites, you can either use the **Network Configuration** section of Skype for Business Server Control Panel, or you can use the Skype for Business Server Management Shell. For instructions, see [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
 
 ## See also
 
@@ -72,4 +72,3 @@ To associate subnets with network sites, you can either use the **Network Config
 [Plan for emergency services in Skype for Business Server](emergency-services.md)
 
 [Plan for media bypass in Skype for Business](media-bypass.md)
-

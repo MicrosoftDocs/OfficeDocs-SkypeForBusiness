@@ -81,7 +81,7 @@ Direct Routing is only supported with Microsoft Teams. To receive PSTN calls thr
 
 |Ask yourself|Action |
 |:------------|:-------|
-|What does Teams Only mode mean? | For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
+|What does Teams Only mode mean? | For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](./migration-interop-guidance-for-teams-with-skype.md).|
 |||
 
 ## Additional deployment considerations

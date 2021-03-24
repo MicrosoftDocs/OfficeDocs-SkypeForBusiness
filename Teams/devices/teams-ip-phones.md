@@ -67,10 +67,11 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Device model | Firmware version | Release date  | Room size                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Medium size room (4.5m x 6m) |
-| Yealink CTP18 touch console  | 137.15.0.28    | March 2021 | Compatible with MeetingBar A20 and MeetingBar A30 |
+| Yealink CTP18 touch console  | 137.15.0.28    | March 2021 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 |
 | Yealink MeetingBar A20  | 133.15.0.19      | November 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X30         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Poly Studio X50         | 3.1.1.216109     | June 2020     | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
+| Poly TC8                | 3.3.2.210441     | March 2021    | Compatible with Poly Studio X30 and Poly Studio X50 |
 | Yealink VC210           | 118.15.0.14      | February 2020 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 
 ## Currently certified Teams displays
@@ -97,17 +98,17 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Update #7  | December 8, 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
-| Update #6  | October 12, 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
-| Update #5  | August 31, 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
-| Update #4  | June 30, 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Update #3  | May 13, 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
+| 2020 Update #7  | December 8, 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
+| 2020 Update #6  | October 12, 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
+| 2020 Update #5  | August 31, 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
+| 2020 Update #4  | June 30, 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| 2020 Update #3  | May 13, 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
 #### Firmware versions
 
 When you install a new firmware version on your device, you can determine the corresponding installed versions of the Microsoft Teams app, Company Portal, and Admin Agent. Find the product release in the **Included product release** column, and then look up the product release in the preceding **App versions** table.
 
-| Device model        | Firmware version     | Year/Included product release  |
+| Device model        | Firmware version     | Included product release  |
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
@@ -133,19 +134,19 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
-| Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
-| Update #1  | May 13, 2020 | .040901                     | .4715                  | .210                |
+| 2020 Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
+| 2020 Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
+| 2020 Update #1  | May 13, 2020 | .040901                     | .4715                  | .210                |
 
 #### Firmware versions
 
 When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
 
-| Device model  | Firmware version | Year/ Included product release |
+| Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.42     | 2020, Update #3    |
-| Poly Studio X30 | 3.2.3.280012          | 2020, Update #3    |
-| Poly Studio X50 | 3.2.3.280012          | 2020, Update #3    |
+| Yealink VC210 + CP900 | 118.15.0.42     | 2020 Update #3    |
+| Poly Studio X30 | 3.2.3.280012          | 2020 Update #3    |
+| Poly Studio X50 | 3.2.3.280012          | 2020 Update #3    |
 
 ### Product release information for Teams displays
 
@@ -155,15 +156,17 @@ The following are the latest versions for the Microsoft Teams display app and fi
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Update #1  |October 22, 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+|2021 Update #1  |March 18, 2021 |1449/1.0.95.2021021104    |5.0.5045.0            |1.0.0.202101280722.product|
+|2020 Update #1  |October 22, 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+
 
 #### Firmware versions
 
 When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
 
-| Device model  | Firmware version | Year/ Included product release|
+| Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
-|Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, Update #1 |
+|Lenovo ThinkSmart View| CD-18781Y.210228.109 |2021 Update #1 |
 
 
 ## More resources

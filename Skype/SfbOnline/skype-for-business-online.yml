@@ -43,9 +43,9 @@ landingContent:
           - text: Need help signing in to Skype for Business?
             url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
           - text: Troubleshoot problems with Skype for Business Online
-            url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+            url: ./set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md
           - text: Journey from Skype for Business to Teams
-            url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+            url: /MicrosoftTeams/upgrade-start-here
 
   # Card (optional)
   - title: What's new
@@ -55,7 +55,7 @@ landingContent:
           - text: Setting up Phone System in your organization
             url: /microsoftteams/setting-up-your-phone-system
           - text: Third-party integration with Audio Conferencing
-            url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+            url: ./legal-and-regulatory/end-of-integration-with-3rd-party-providers.md
           - text: Set up Audio Conferencing
             url: /microsoftteams/audio-conferencing-in-office-365
       - linkListType: overview
@@ -77,7 +77,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Manage the Audio Conferencing settings for my organization
-            url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+            url: ./audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md
           - text: Compare audio conferencing providers
             url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
 
@@ -87,11 +87,11 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Set up Skype for Business Online
-            url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+            url: ./set-up-skype-for-business-online/set-up-skype-for-business-online.md
           - text: Allow users to contact external Skype for Business users
-            url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+            url: ./set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
           - text: Let Skype for Business users add Skype contacts
-            url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+            url: ./set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md
   
   # Card
   - title: Add-on licensing
@@ -99,7 +99,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: Skype for Business and Microsoft Teams add-on licensing
-            url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+            url: ./skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
           - text: What are Communications Credits?
             url: /MicrosoftTeams/what-are-communications-credits
 

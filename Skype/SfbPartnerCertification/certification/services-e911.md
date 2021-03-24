@@ -34,7 +34,7 @@ Microsoft Lync supports two methods of placing E-911 calls: Using a qualified se
 |[Red Sky Technologies](http://www.redskye911.com/e911-for-lync)      | E911 Anywhere |
 |      |         |
 
-Learn more about E911 services here: <a href="https://technet.microsoft.com/library/gg398154.aspx">Emergency Services (E9-1-1)</a>.
+Learn more about E911 services here: <a href="/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-emergency-services-e9-1-1">Emergency Services (E9-1-1)</a>.
 <!-- 2013 topic yet to migrate -->
 
 |Company | Qualified Product|
@@ -46,4 +46,3 @@ Learn more about E911 services here: <a href="https://technet.microsoft.com/libr
 
 <br>
 If you are a vendor seeking to join the certification program, see <a href="how-to-join.md" data-raw-source="[How to Join](how-to-join.md)">How to Join</a> for requirements and available programs.
-

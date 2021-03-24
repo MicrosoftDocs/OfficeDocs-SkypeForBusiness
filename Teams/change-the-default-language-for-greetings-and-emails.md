@@ -64,7 +64,7 @@ If you are a [global administrator](https://support.office.com/article/da585eea-
     
 - [Set up Calling Plans](set-up-calling-plans.md)
     
-- [Plan Phone System in Microsoft 365 or Office 365 with on-premises PSTN connectivity in Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Plan Phone System in Microsoft 365 or Office 365 with on-premises PSTN connectivity in Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
     
 ## Related topics
 
@@ -75,4 +75,3 @@ If you are a [global administrator](https://support.office.com/article/da585eea-
 - [Enable or change a keyboard layout language](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
- 

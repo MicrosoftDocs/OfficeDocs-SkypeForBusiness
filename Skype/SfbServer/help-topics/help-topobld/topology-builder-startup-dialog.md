@@ -31,6 +31,6 @@ You start Topology Builder to configure the properties and configuration of your
 
 ## See also
 
-[Introduction to Lync Server 2013 Preview](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[Introduction to Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-introduction)
 
-[Lync Server Administrative Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)

@@ -51,7 +51,7 @@ An email will be sent to the user with the conference ID and the default audio c
   
 **Using Windows PowerShell**
 
-See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
     
   
 ### To reset the conference ID
@@ -70,7 +70,7 @@ You can reset a conference ID for a user if, for example, they forget it.
   
 **Using Windows PowerShell**
 
-See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
 
 
 ## What else should you know?
@@ -86,11 +86,11 @@ See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powers
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
-  - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
     
 ## Related topics
 

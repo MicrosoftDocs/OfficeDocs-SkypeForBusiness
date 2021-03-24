@@ -135,7 +135,7 @@ Currently, data is collected from the following areas in class teams:
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
 ### Privacy and security
-The information collected and shown through Insights meets [more than 90 regulatory and industry standards](https://docs.microsoft.com/compliance/regulatory/offering-home), including [GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
+The information collected and shown through Insights meets [more than 90 regulatory and industry standards](/compliance/regulatory/offering-home), including [GDPR](/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
 
 The data belongs to the institution, and Microsoft only collects the data and stores it. Microsoft personnel cannot access the data or see it, except as allowed by compliance in an audited way to maintain the service, such as data recovery.
 
@@ -171,7 +171,7 @@ To access Insights, users must have an A1, A3, or A5 faculty license for Microso
 ## Student Information System (SIS) integration
 The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.
 
-To provide organization-level Insights, we must use [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
+To provide organization-level Insights, we must use [School Data Sync (SDS)](/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
 
 Viewing class-level Insights as the class educator *does not* require this because we use Teams' class structure and permissions.
 
@@ -190,7 +190,7 @@ If educators want direct access to each class, they can manually install the Ins
 In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 > [!TIP]
-> For more details, read [Teams Policies and Policy Packages for Education](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
+> For more details, read [Teams Policies and Policy Packages for Education](./policy-packages-edu.md).
 
 ## Encourage the adoption of Insights
 Get your educational institution excited about using Insights.
@@ -253,6 +253,3 @@ Also, check that students did *not* [join the class meeting without a Teams acco
 
 > [!NOTE]
 > If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
-
-
-

@@ -122,7 +122,7 @@ You will need to set up the infrastructure for archiving storage. This includes 
 > [!NOTE]
 > To support users who are not homed on Exchange servers, or if you do not want to use the Microsoft Exchange integration option, you must deploy archiving storage using a 64-bit SQL Server database. 
     
-You must set up the SQL Server platforms prior to deploying and enabling archiving. If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology. You can also create the database later, included as part of the installation procedure. For details about SQL Server, see the [SQL Server documentation](https://go.microsoft.com/fwlink/p/?linkID=129045).
+You must set up the SQL Server platforms prior to deploying and enabling archiving. If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology. You can also create the database later, included as part of the installation procedure. For details about SQL Server, see the [SQL Server documentation](/sql/sql-server/).
     
 The load increase for archiving can be significant. Therefore, you should ensure that disk space is adequate for Front End Servers on which archiving is enabled.
 
@@ -161,7 +161,7 @@ Sixteen-node:
 > [!IMPORTANT]
 > For upgrading, we do want you to ensure that on your Front End Servers you have at least SQL Server 2012 SP1 installed prior to upgrade. [Here's a link](https://www.microsoft.com/download/details.aspx?id=35575) to SP1 if you want to download it right away.
   
-If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 topic. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](https://technet.microsoft.com/library/hh231721.aspx), [2012](https://technet.microsoft.com/library/hh231721%28v=sql.110%29.aspx), and [2008](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx).
+If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 topic. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation), [2012](/previous-versions/sql/sql-server-2012/hh231721(v=sql.110)), and [2008](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)).
   
 > [!NOTE]
 > New to the 2015 release is support of SQL Always On. It is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
@@ -208,7 +208,7 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
 > If you are online, the command accesses Windows Update. 
 > However, if you are offline, you need to make sure the source files are available to the command. 
 > For more information about using PowerShell to install roles and features, 
-> see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/library/hh831809.aspx) 
+> see [Install or Uninstall Roles, Role Services, or Features](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) 
 > Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
 
  **Directors also need:**
@@ -267,10 +267,8 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **Persistent Chat Servers also need:**
   
-Message Queuing, which is also called MSMQ. It's a Windows Server component, and you can install it under the Features section in Server Manager. If you want to read more about this, check out [Installing and Managing Message Queuing](https://technet.microsoft.com/library/cc771474.aspx).
+Message Queuing, which is also called MSMQ. It's a Windows Server component, and you can install it under the Features section in Server Manager. If you want to read more about this, check out [Installing and Managing Message Queuing](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771474(v=ws.11)).
   
  **Last thoughts:**
   
 Please don't install any Microsoft Internet Security and Acceleration (ISA) Server client software, or any other Winsock Layered Service Providers (LSP) software (any third-party firewalls or anti-virus network inspection software would be included here) on any of your front end servers or standalone mediation servers. Poor media traffic performance has been seen when that software's installed.
-  
-

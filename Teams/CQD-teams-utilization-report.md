@@ -162,7 +162,6 @@ The bottom table provides detailed information for the sessions each user partic
 
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Call Analytics and Call Quality Dashboard](./monitor-call-quality-qos.md)
 
-[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
- 
+[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
