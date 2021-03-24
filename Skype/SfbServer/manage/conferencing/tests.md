@@ -34,7 +34,7 @@ As final verification of your dial-in conferencing configuration, you can search
 
     This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.
     
-For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+For more information, see [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## Find access numbers without assigned regions
 
@@ -50,7 +50,7 @@ For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.mi
 
     This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.
     
-For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+For more information, see [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## Test webpage and access numbers
 
@@ -77,6 +77,4 @@ To verify that the Dial-in Conferencing Settings webpage and the dial-in access 
 
     The resulting report shows either Success or Failure, along with specific diagnostic information. The -Verbose flag provides more detailed information about how many access numbers were found and details about them.
     
-For more information, see [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
-  
-
+For more information, see [Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps).

@@ -27,7 +27,7 @@ appliesto:
 If your organization is using the free version of Microsoft Teams, you can easily upgrade to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users. The full version provides additional Teams features — like scheduling, audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from virtually anywhere through the internet. When you upgrade Teams, your existing Teams data will not be lost; all your teams, channels, chats, files, and permissions come with you. 
 
 > [!NOTE]
-> If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides the full version of Teams for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](iw-trial-teams.md).
+> If you already have a Microsoft 365 or Office 365 subscription, you're eligible for the trial version of Teams (with your corporate identity), not the free version. The Teams trial provides the full version of Teams for a limited time. For more information, see [Manage the Microsoft Teams Commercial Cloud Trial offer](./teams-exploratory.md).
 
 ## How does Teams free compare to the full version of Teams?
 
@@ -92,4 +92,3 @@ After your upgrade is complete, see [Get started with Microsoft Teams](get-start
 - For more information about upgrading to the full version of Teams, see [Upgrade from Teams free to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - For additional admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams free to a paid subscription](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
 - For information about managing Teams free in your organization, see [Manage the free version of Microsoft Teams](manage-freemium.md).
-

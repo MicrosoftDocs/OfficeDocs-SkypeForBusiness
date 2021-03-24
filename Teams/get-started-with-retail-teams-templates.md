@@ -29,7 +29,7 @@ Teams templates have pre-built definitions of team structures designed around re
 
 In this article, we'll introduce each of the Teams templates and recommend how to use them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
 To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates.md).
 
@@ -63,7 +63,7 @@ Recommended ways to customize the Manager Collaboration template for your organi
 
 ## How to use first party templates
 
-To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > The channels in the template will automatically be created under the General Tab.

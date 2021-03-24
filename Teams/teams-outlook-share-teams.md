@@ -25,7 +25,7 @@ Share to Teams from Outlook (Share to Teams) enables users to share emails, incl
 The Share to Teams feature requires an add-in for Outlook. This add-in is installed automatically whenever a user logs on to either the Teams Web app or the Teams desktop client.
 
 > [!NOTE]
-> Be sure to review [Add-ins for Outlook in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) and [Client Access Rules in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) to make sure your add-ins for Outlook function correctly. Also, disabling connected experiences can prevent add-ins for Outlook from working properly. See [Connected experiences in Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) for more information.  
+> Be sure to review [Add-ins for Outlook in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) and [Client Access Rules in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) to make sure your add-ins for Outlook function correctly. Also, disabling connected experiences can prevent add-ins for Outlook from working properly. See [Connected experiences in Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) for more information.  
 
 Share to Teams uses the same transport mechanism as when a user emails a channel. For sharing to chats, emails (including email attachments) are copied to the sender’s OneDrive. For sharing to channels, emails and attachments are copied to the **Email messages** folder in SharePoint.
 
@@ -38,13 +38,13 @@ The Outlook add-in for Share to Teams can be selectively disabled or enabled on 
 > [!NOTE]
 > Disabling the add-in is only possible after the add-in has been installed. If you would like to enforce disabling for all users in your tenant, run a script periodically.
 
-To disable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](https://docs.microsoft.com/powershell/module/exchange/disable-app?view=exchange-ps). 
+To disable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](/powershell/module/exchange/disable-app?view=exchange-ps). 
 
-To enable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](https://docs.microsoft.com/powershell/module/exchange/enable-app?view=exchange-ps).
+To enable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](/powershell/module/exchange/enable-app?view=exchange-ps).
 
 ## Browsers and Single Sign-on
 
-Share to Teams, in both Outlook on the web and Outlook desktop clients, relies on a browser WebView. See [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) for details on which clients use which specific browsers. 
+Share to Teams, in both Outlook on the web and Outlook desktop clients, relies on a browser WebView. See [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) for details on which clients use which specific browsers. 
 
 > [!IMPORTANT]
 > Share to Teams requires both third-party cookies and local storage access to be enabled for users' browsers.

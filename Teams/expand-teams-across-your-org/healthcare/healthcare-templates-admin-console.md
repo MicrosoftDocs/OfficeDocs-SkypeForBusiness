@@ -61,7 +61,7 @@ Streamline communication and collaboration between multiple wards, pods, and dep
 
 ## Use the Teams templates with the Microsoft Graph
 
-Developers can use the Microsoft Graph to create teams with the Teams templates. We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with Teams templates](../../get-started-with-teams-templates.md). And for information about Teams templates and the Microsoft Graph, see [Microsoft Teams API overview](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) and [teamsTemplate resource type](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use the Microsoft Graph to create teams with the Teams templates. We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with Teams templates](../../get-started-with-teams-templates.md). And for information about Teams templates and the Microsoft Graph, see [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0) and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 ### Ward template
 
@@ -87,7 +87,7 @@ The hospital template is meant for communication and collaboration between multi
 
 ### How to use first-party templates
 
-To use these templates, simply change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+To use these templates, simply change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > The channels in the template will automatically be created under the General Tab.

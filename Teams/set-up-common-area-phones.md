@@ -51,7 +51,7 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 > [!NOTE]
 > You don't need to add a Phone System license. It's included with the Common Area Phone license.
 
-For more information on licenses, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+For more information on licenses, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 The Common Area Phone license supports: 
 
@@ -92,7 +92,7 @@ The Common Area Phone license supports:
 > [!NOTE]
 > If you are using Microsoft Phone System Direct Routing, you do not need to assign a Calling Plan license.
 
-For more information, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+For more information, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Step 3 - Assign a phone number to the Common Area Phone user account
 

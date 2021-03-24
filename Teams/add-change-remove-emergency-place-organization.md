@@ -39,7 +39,7 @@ You manage emergency locations for your organization in the Microsoft Teams admi
 
 ### Using PowerShell
 
-See [New-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation).
+See [New-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocation).
     
 ## Change a place for an emergency location
 
@@ -52,7 +52,7 @@ See [New-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype
 
 ### Using PowerShell
 
-See [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
+See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
     
 ## Remove a place from an emergency location
 
@@ -64,10 +64,10 @@ See [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype
 
 ### Using PowerShell
 
-See [Remove-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation).
+See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelislocation).
     
 ## Related topics
 
 - [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)

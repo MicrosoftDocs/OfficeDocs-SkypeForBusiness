@@ -64,5 +64,4 @@ You can manage anonymous user access by using Windows PowerShell and the **Set-C
 
 ## See Also
 
-[Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
-  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  

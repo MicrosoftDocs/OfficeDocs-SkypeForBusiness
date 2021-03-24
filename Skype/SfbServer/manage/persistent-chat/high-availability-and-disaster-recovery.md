@@ -58,7 +58,7 @@ To fail over Persistent Chat Server:
 
 2. Copy any uncopied backup files from the backup share to the copy destination folder of the backup server.
     
-3. Apply any unapplied transaction log backups in sequence to the secondary database. For details, see [How to: Apply a Transaction Log Backup (Transact-SQL)](https://go.microsoft.com/fwlink/p/?linkid=247428).
+3. Apply any unapplied transaction log backups in sequence to the secondary database. For details, see [How to: Apply a Transaction Log Backup (Transact-SQL)](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105)).
     
 4. Bring the backup mgc database online. Using the query window that opens in step 1b, do the following:
     
@@ -171,6 +171,4 @@ To restore the pool to its normal state run the following Windows PowerShell com
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 
-For more information, see the help topic for the [Set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) cmdlet.
-  
-
+For more information, see the help topic for the [Set-CsPersistentChatState](/powershell/module/skype/set-cspersistentchatstate?view=skype-ps) cmdlet.
