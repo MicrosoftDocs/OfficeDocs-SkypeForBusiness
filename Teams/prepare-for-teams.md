@@ -1,5 +1,5 @@
 ---
-title: Prepare for Teams 
+title: Charting your Kaizala to Teams journey 
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
@@ -15,27 +15,76 @@ ms.collection:
 ms.custom:
 ---
 
-# Prepare your organization for a successful adoption of Microsoft Teams
+# Charting your Kaizala to Teams journey
 
-After following the recommended framework for planning a successful transition from Kaizala, it’s time to prepare your organization for a successful adoption of Microsoft Teams. It’s essential to ensure that administrators are prepared to educate themselves and the organization about Teams.
+You’ve decided that your organization is ready to move to Teams. Before getting started, it is important that you understand your organization’s collaboration needs before transitioning. What does successful communication look like for your organization? What preparations will your organization need to make for the move? To answer these questions, you will need to consider what your path to Teams may consist of and the collaboration needs of your workforce.
 
-Use the following training resources to help users in your organization get the most out of Teams:
+## Determine your path
 
-- For IT Admin readiness, see [Admin training resources](https://docs.microsoft.com/microsoftteams/itadmin-readiness).  
+Your first action should be to **determine what your path from Kaizala to Teams will look like**. Every organization is unique, and no workforce’s journey will be the exact same. Organizations not currently using Teams will need to make additional strategic decisions to ensure a successful transition journey. Determining your path will help you identify any important actions that should be completed for a successful transition.
 
-- For instructor led training, see [Instructor-led training for Microsoft Teams](https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page). 
+We’ve outlined what the path may consist of depending on your organization’s usage today:  
 
-- For training videos, see [Microsoft Teams video training](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us). 
+For organizations **not using Teams**:
 
-Example timeline on how to move from Kaizala to Teams:
- - Share the pre-launch teasers
- - Set up Team site and add users
- - Announce the switchover to Teams
- - Set Kaizala group to "Read Only"
- - Have engagement contests
- - Establish the guidelines on how/when to use Teams
- - Explain why Teams is better
- - Have leadership participation
- - Seek feedback
- -  Follow the content calendar
- -  Delete Kaizala group
+ 1. Envision teamwork for your organization
+ 
+ 2. Pilot Teams
+  
+ 3. Deploy Teams
+  
+ 4. Use Kaizala and Teams
+  
+ 5. Manage change
+ 
+ 6. Plan for your adoption of Teams
+ 
+ 7. Move your organization to Teams
+
+For organizations **already using Teams**:
+
+ 1. Plan for your transition
+ 
+ 2. Manage change
+ 
+## Identify User Groups
+
+The next action is to **identify user groups for the transition**. *Who will be using the tool and how? What needs will these groups require for effective teamwork?* Understand that every user group has its own unique needs in terms of communication.
+
+We’ve identified three common user groups to support you in identifying collaboration needs.
+
+ 1. Information workers
+
+ 2. Frontline workers
+ 
+ 3. External connections (e.g., suppliers/vendors)
+
+Users connecting with other information workers in their workforce need:
+
+ - Chat, meeting, file collaboration
+ 
+ - Work across devices
+ 
+ - Industry solutions
+ 
+ - Advanced IT controls
+  
+ - Internal and external collaboration with email
+
+Users connecting with the Frontline workforce need:
+
+ - Connection with Frontline Workers within their organization’s directory
+ 
+ - Offline, remote locations
+ 
+ - Workforce engagement and outreach
+ 
+ - Digitized processes and workflows
+ 
+ - Shifts scheduling and tasks management
+
+Users connecting with external users (suppliers/vendors) could leverage:
+ - Guest access collaboration
+ 
+ - Federation 
+ 
