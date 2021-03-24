@@ -106,7 +106,7 @@ All capabilities and user experiences in Meetings First, including the Teams cli
 
 ![Screenshot of the admin settings to enable Meetings First](media/teams-meeting-admin-settings.png)
 
-Optionally, should you want to hide the Teams and Channels application from the left navigation of your users' Teams client to further focus their experience on meetings, that can be achieved by using the [App Permission policy](teams-app-permission-policies.md).
+Optionally, should you want to hide the Teams and Channels application from the left navigation of your users' Teams client to further focus their experience on meetings, that can be achieved by using the [App Setup policy](teams-app-setup-policies.md).
 
 ## Reporting and Call Analytics
 
