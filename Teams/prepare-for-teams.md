@@ -17,7 +17,7 @@ ms.custom:
 
 # Charting your Kaizala to Teams journey
 
-You’ve decided that your organization is ready to move to Teams. Before getting started, it is important that you understand your organization’s collaboration needs before transitioning. What does successful communication look like for your organization? What preparations will your organization need to make for the move? To answer these questions, you will need to consider what your path to Teams may consist of and the collaboration needs of your workforce.
+You’ve decided that your organization is ready to move to Teams. Before getting started, it's important that you understand your organization’s collaboration needs before transitioning. What does successful communication look like for your organization? What preparations will your organization need to make for the move? To answer these questions, you'll need to consider what your path to Teams may consist of and the collaboration needs of your workforce.
 
 ## Determine your path
 
@@ -57,7 +57,7 @@ We’ve identified three common user groups to support you in identifying collab
 
  2. Frontline workers
  
- 3. External connections (e.g., suppliers/vendors)
+ 3. External connections (for example, suppliers/vendors)
 
 Users connecting with other information workers in their workforce need:
 
@@ -83,7 +83,7 @@ Users connecting with the Frontline workforce need:
  
  - Shifts scheduling and tasks management
 
-Users connecting with external users (suppliers/vendors) could leverage:
+Users connecting with external users (suppliers/vendors) could use:
  - Guest access collaboration
  
  - Federation 
