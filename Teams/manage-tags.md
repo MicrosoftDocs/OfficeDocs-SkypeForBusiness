@@ -20,9 +20,6 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
-> [!NOTE]
-> One of the features discussed in this article, **tagging by shift**, is rolling out. If you're an admin, you can find out when this feature will be released for your region in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)). To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
-
 ## Overview
 
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. You can create and assign custom tags to categorize people based on attributes, such as role, project, skill, or location. Or, tags can be automatically assigned to people based on their schedule and shift information in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (coming soon). After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
@@ -97,13 +94,13 @@ To delete a tag, select **˙˙˙ More options** next to the tag, and then select
 
 ### Set up tagging by shift
 
+Tagging by shift allows your users to reach the people on-shift in real time. Teams automatically assigns users with tags matching their schedule and shift group name from the Shifts app, enabling dynamic role based messaging. Notifications are sent only to those people who are on shift at the time a tag is used to start a chat or in a channel post. 
+
 1. In Teams, go to the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
 2. Create [shift groups](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) and name them after an attribute such as a role. For example, EngineerOnCall. The shift group name will be the name of the tag.
 3. [Fill out a schedule](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea) by assigning shifts to members of you teams. When you're finished, in the upper-right corner of the Shifts app, select **Share with team**.
 4. Wait 15 minutes for the scheduled shifts to populate the tagging service.
 5. Use the tag anywhere you use tags in Teams.
-
-Tagging by shift allows your users to reach the people on-shift in real time. Notifications are sent only to those people who are on shift at the time a tag is used to start a chat or in a channel post.
 
 ## Related topics
 
