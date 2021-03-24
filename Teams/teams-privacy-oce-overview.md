@@ -21,7 +21,7 @@ appliesto:
 If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY and/or URL Preview service. These cloud-backed services are optional. Whether you use them is up to you. They're offered to you under  terms that differ from the [Microsoft Online Service Terms](https://www.microsoft.com/licensing/product-licensing/products), as described separately for each optional service. This article lists our Teams cloud-backed services.
 
 > [!NOTE]
-> If you're an admin, see the [Manage privacy controls](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls) article to learn how to give or restrict your users' ability to use optional connected experiences.
+> If you're an admin, see the [Manage privacy controls](/deployoffice/privacy/manage-privacy-controls) article to learn how to give or restrict your users' ability to use optional connected experiences.
 
 ## GIPHY
 
@@ -37,8 +37,8 @@ The URL Preview service automatically generates a preview snippet and attaches u
 
 ## Related articles
 
-- [Overview of privacy controls for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)
+- [Overview of privacy controls for Microsoft 365 Apps for enterprise](/deployoffice/privacy/overview-privacy-controls)
 - [Overview of policy controls for Teams](policy-control-overview.md)
 - [Privacy and Microsoft Teams](teams-privacy.md)
-- [Required service data for Office](https://docs.microsoft.com/deployoffice/privacy/required-service-data)
+- [Required service data for Office](/deployoffice/privacy/required-service-data)
 - [Account Privacy Settings](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)

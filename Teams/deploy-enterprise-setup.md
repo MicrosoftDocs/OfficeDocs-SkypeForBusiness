@@ -40,7 +40,7 @@ Before you start deploying Teams, make sure you've completed your planning proce
 We strongly recommend using the [Teams advisor](https://admin.teams.microsoft.com/teams-deployment) to help you with your deployment. For details about how the Teams advisor works, see [Use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md).
 
 > [!TIP]
-> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
+> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](/learn/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
 
 For information about planning for Teams, see [Teams enterprise deployment overview](deploy-enterprise-overview.md).
 
@@ -53,7 +53,7 @@ There are lots of ways you can customize Teams. The following sections show you 
 Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or more users talk to each other, share files, and meet privately. **Teams**, which can be visible to everyone in your organization or only to those in the team, let the right people collaborate whatever the task or occasion, whether it's a long-running project or planning for a birthday party. **Channels** within teams can segment topics, projects, departments, or anything else make sense for your team. For details about chat, teams, and channels, check out [Overview of teams and channels](teams-channels-overview.md).
 
 > [!TIP]
-> See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
+> See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
 
 ### Administration and team ownership
 
@@ -83,7 +83,7 @@ Meetings and conferencing let people in your organization meet with each other a
 **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
 
 > [!TIP]
-> Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
+> Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
 
 ### Meetings
 
@@ -140,12 +140,12 @@ Teams and Microsoft 365 provide many tools that can help you conform to regulato
 | [Communication compliance](communication-compliance.md)| Helps reduce communication risks by identifying, and taking action on, offensive, profane, and harassing language; adult racy, and gory images; and the sharing of sensitive information. |
 | [Policy-based recording for calls and meetings](teams-recording-policy.md)| Lets you control when, or whether, calls and meetings should be automatically recorded and stored for later processing, retention, or analysis.|
 | [Sensitivity labels](sensitivity-labels.md)| Helps you to protect and regulate access to sensitive information by creating labels that enforce selected privacy options.|
-| [Data Loss Prevention](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=%2Fmicrosoftteams%2Ftoc.json&bc=%2Fmicrosoftteams%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide)| Lets you create rules that determine how certain information, such as social security numbers, credit card numbers, and so on, should be handled. You can prevent the sending of certain information, prevent it from leaving your organization, and so on.|
+| [Data Loss Prevention](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Lets you create rules that determine how certain information, such as social security numbers, credit card numbers, and so on, should be handled. You can prevent the sending of certain information, prevent it from leaving your organization, and so on.|
 | [eDiscovery](eDiscovery-investigation.md)| Helps you search for, and retrieve, content in your organization when your organization receives discovery demands in legal proceedings. |
 | [Legal hold](legal-hold.md)| Helps you retain information in your organization, even if it's deleted by a user, when required during legal proceedings so that it can be discovered during eDiscovery investigations. |
 | [Content search](content-search.md)| Provides a way to query Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.|
 | [Auditing](audit-log-events.md)| Lets you see information about a specified action, including who performed the action, when the action was performed, the IP address that was used, and so on. Action include the creation or deletion of teams, creation of channels, changed settings in Teams, and so on.|
-| [Customer key](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=%2Fmicrosoftteams%2Ftoc.json&bc=%2Fmicrosoftteams%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide)| Lets you create a data encryption policy using encryption keys you provide.|
+| [Customer key](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Lets you create a data encryption policy using encryption keys you provide.|
 
 ## Clients
 
@@ -154,7 +154,7 @@ When you're ready for your users to start using Teams, they can install the Team
 Make sure everyone who will be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
-> Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
+> Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/learn/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
 
 If your organization uses Microsoft Endpoint Configuration Manager, Group Policy, or a third-party distribution mechanism, to deploy software to your user's computers, see [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](msi-deployment.md).
 

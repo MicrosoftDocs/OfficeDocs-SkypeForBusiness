@@ -18,11 +18,11 @@ description: "Read this topic to learn how to monitor your Cloud Connector versi
 # Monitor Cloud Connector using Operations Management Suite (OMS)
 
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS).
 
-You can now monitor your Cloud Connector version 2.1 and later deployment by using Operations Management Suite (OMS), a Microsoft cloud IT management solution. OMS Log Analytics enables you to monitor and analyze the availability and performance of resources including physical and virtual machines. For more information about OMS and Log Analytics, see [What is Operations Management Suite (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
+You can now monitor your Cloud Connector version 2.1 and later deployment by using Operations Management Suite (OMS), a Microsoft cloud IT management solution. OMS Log Analytics enables you to monitor and analyze the availability and performance of resources including physical and virtual machines. For more information about OMS and Log Analytics, see [What is Operations Management Suite (OMS)?](/azure/operations-management-suite/operations-management-suite-overview)
 
 This topic contains the following sections:
 
@@ -40,11 +40,11 @@ This topic contains the following sections:
 
 Before you can use OMS to monitor your Cloud Connector deployment, you will need the following:
 
-- **An Azure account and an OMS workspace.** If you don't already have an Azure account, you will need to create one to use OMS Log Analytics. For information about how to create an Azure account and set up an OMS workspace, see [Get started with a Log Analytics workspace](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
+- **An Azure account and an OMS workspace.** If you don't already have an Azure account, you will need to create one to use OMS Log Analytics. For information about how to create an Azure account and set up an OMS workspace, see [Get started with a Log Analytics workspace](/azure/log-analytics/log-analytics-get-started).
 
 - **Cloud Connector version 2.1 or later**
 
-- **Log Analytics new log search** is required for Cloud Connector monitoring. For more information, see [Upgrade your Azure Log Analytics workspace to new log search](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
+- **Log Analytics new log search** is required for Cloud Connector monitoring. For more information, see [Upgrade your Azure Log Analytics workspace to new log search](/azure/log-analytics/log-analytics-log-search-upgrade).
 
 ## Configure Cloud Connector to use OMS
 
@@ -104,7 +104,7 @@ In the OMS portal, you must specify information about the event logs and perform
      > [!NOTE]
      > You must manually enter Lync Server in the text box. It does not appear as an option in the drop-down list. 
 
-     For more information, see [Windows event log data sources in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+     For more information, see [Windows event log data sources in Log Analytics](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. Go to Settings-\>Data-\> Windows Performance Counters, and add performance counters for: 
 
@@ -127,11 +127,11 @@ In the OMS portal, you must specify information about the event logs and perform
      > [!NOTE]
      > You must manually enter the performance counters in the text box. They do not appear as options in the drop-down list. 
 
-     For more information, see [Windows and Linux performance data sources in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     For more information, see [Windows and Linux performance data sources in Log Analytics](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### Create alerts
 
-There are two types of alerts in OMS: Number of results alerts and Metric measurement alerts. For more information about creating alerts, see [Working with alert rules in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
+There are two types of alerts in OMS: Number of results alerts and Metric measurement alerts. For more information about creating alerts, see [Working with alert rules in Log Analytics](/azure/log-analytics/log-analytics-alerts-creating).
 
 You should consider the following when creating alerts:
 
@@ -159,7 +159,7 @@ To create this alert pair:
 
     The query uses the computer filter  *where Computer contains "MediationServer"*  . The filter selects only the computer whose name contains the string "MediationServer".
 
-     You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. For more information, see [String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
+     You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. For more information, see [String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](/azure/log-analytics/log-analytics-computer-groups).
 
     For each computer, the error query will get the last event log for both the RTCMEDSRV service start and service stop. It will return one log if the last event is the service stop event; it will return nothing if the last event is the service start event. In short, the query would return a list of servers whose RTCMEDSRV is stopped in the time window. 
 
@@ -203,7 +203,7 @@ The query will get all processor usage counter and service stop event from all c
 
 ## Analyze the alerts in your Log Analytics repository
 
-To analyze the alerts in your repository, use the Alert Management solution. For more information, see [Alert Management solution in Operations Management Suite (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
+To analyze the alerts in your repository, use the Alert Management solution. For more information, see [Alert Management solution in Operations Management Suite (OMS)](/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## Recommended minimal monitoring set
 
@@ -245,12 +245,10 @@ The following lists the call capacity counters that should be monitored. These n
 
 For more information about working with OMS, see the following:
 
-- [Find data using log searches in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
+- [Find data using log searches in Log Analytics](/azure/log-analytics/log-analytics-log-searches)
 
 - [Azure Log Analytics Language Reference](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Understanding alerts in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
+- [Understanding alerts in Log Analytics](/azure/log-analytics/log-analytics-alerts)
 
-- [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
-
-
+- [Connect Windows computers to the Log Analytics service in Azure](/azure/log-analytics/log-analytics-windows-agents)

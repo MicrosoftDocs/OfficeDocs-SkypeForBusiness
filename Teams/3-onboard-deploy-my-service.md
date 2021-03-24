@@ -134,7 +134,7 @@ status roll-up formulas won’t work.<br/><br/>
 planned for, such as number porting and procurement activities. These activities
 can negatively affect the site deployment timeline. Be sure to review and update
 the activity list and the associated timeline weekly, and present them at
-[steering committee meetings](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) to ensure that stakeholders are aware
+[steering committee meetings](./envision-steering-committee-complete-guide.md) to ensure that stakeholders are aware
 of the status of each site and any possible deviations from the deployment
 schedule.
 

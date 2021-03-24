@@ -27,8 +27,8 @@ appliesto:
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Teams combines multiple Microsoft 365 and Office 365 services, and is therefore dependent on the correct implementation and operation of these services. These services include—but aren't limited to—SharePoint Online, Exchange Online, and OneDrive for Business.
@@ -49,7 +49,7 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 - To learn how [Microsoft 365 groups and Microsoft Teams interact](Office-365-groups.md).
 
-- If your organization is an educational institution and you use a Student Information System, see [Welcome to Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) before deploying Microsoft Teams.
+- If your organization is an educational institution and you use a Student Information System, see [Welcome to Microsoft School Data Sync](/schooldatasync) before deploying Microsoft Teams.
 
 - If your organization is considering Public Switched Telephone Network (PSTN) calling options, see [Voice - Phone System and PSTN connectivity](cloud-voice-landing-page.md), [Which Calling Plan is right for you](calling-plan-landing-page.md), and [Phone System Direct Routing](direct-routing-landing-page.md).
 

@@ -21,7 +21,4 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Assign a Location Policy to a User](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
-
-
-
+- [Assign a Location Policy to a User](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)

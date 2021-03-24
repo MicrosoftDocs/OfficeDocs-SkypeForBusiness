@@ -39,6 +39,4 @@ To create a conference directory, use the **New-CsConferenceDirectory** cmdlet. 
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 
-For more information, see [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps).
-  
-
+For more information, see [New-CsConferenceDirectory](/powershell/module/skype/new-csconferencedirectory?view=skype-ps).

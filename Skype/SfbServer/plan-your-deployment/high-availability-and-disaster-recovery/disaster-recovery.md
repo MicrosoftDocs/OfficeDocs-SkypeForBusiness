@@ -81,7 +81,7 @@ While the risk of man-in-the-middle attacks within the corporate network exists,
   
 ### Mitigating security risks
 
-You have many ways to enhance security protection for the Backup Service traffic. This ranges from restricting access to the data centers to securing the WAN transport between the two data centers. In most cases, enterprises deploying Skype for Business Server might already have the required security infrastructure in place. For enterprises looking for guidance, Microsoft provides a solution as an example of how to build a secure IT infrastructure. For details, see [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544). 
+You have many ways to enhance security protection for the Backup Service traffic. This ranges from restricting access to the data centers to securing the WAN transport between the two data centers. In most cases, enterprises deploying Skype for Business Server might already have the required security infrastructure in place. For enterprises looking for guidance, Microsoft provides a solution as an example of how to build a secure IT infrastructure. For details, see [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)). 
   
 We do not imply that it is the only solution, nor do we imply that it is the preferred solution for Skype for Business Server. We recommend that enterprise customers choose the solution suits their specific needs, based on their IT security infrastructure and requirements. The example Microsoft solution employs IPSec and Group Policy for Server and Domain Isolation.
   
