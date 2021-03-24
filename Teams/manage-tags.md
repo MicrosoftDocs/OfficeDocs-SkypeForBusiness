@@ -20,9 +20,6 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
-> [!NOTE]
-> One of the features discussed in this article, **tagging by shift**, is rolling out. If you're an admin, you can find out when this feature will be released for your region in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)). To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
-
 ## Overview
 
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. You can create and assign custom tags to categorize people based on attributes, such as role, project, skill, or location. Or, tags can be automatically assigned to people based on their schedule and shift information in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (coming soon). After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
