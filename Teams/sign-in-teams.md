@@ -59,9 +59,9 @@ To sign out of Teams, users can select their profile picture at the top of the a
 
 Users on domain-joined computer may not be able to sign in to Teams with another account in the same Active Directory domain.
 
-## MacOS users
+## macOS users
 
-On MacOS, Teams will prompt users to enter their username and credentials and may prompt for multi-factor authentication depending on your organization's settings. Once users enter their credentials, they won't be required to provide them again. From that point on, Teams automatically starts whenever they're working on the same computer.
+On macOS, Teams will prompt users to enter their username and credentials and may prompt for multi-factor authentication depending on your organization's settings. Once users enter their credentials, they won't be required to provide them again. From that point on, Teams automatically starts whenever they're working on the same computer.
 
 ## Teams on iOS and Android users
 
@@ -109,13 +109,13 @@ To create an app configuration policy for managed iOS/iPadOS devices, see [Add 
 To create an app configuration policy for managed Android devices, see [Add app configuration policies for managed Android devices](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### How to restrict sign in on desktop devices
-Teams apps on Windows and MacOS are gaining support for device policies that restrict sign in to your organization. The policies can be set via usual Device Management solutions such as MDM (Mobile Device Management) or GPO (Group Policy Object). 
+Teams apps on Windows and macOS are gaining support for device policies that restrict sign in to your organization. The policies can be set via usual Device Management solutions such as MDM (Mobile Device Management) or GPO (Group Policy Object). 
 
 When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but they won't be operable.
 
 > [!NOTE]
 >1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as guest in other Azure AD tenants, or switch to other tenants.
->2. The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for MacOS version 1.3.00.30882 (released mid-November 2020).
+>2. The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for macOS version 1.3.00.30882 (released mid-November 2020).
 
 **Policies for Windows**
 Administrative Template files (ADMX/ADML) are available from the [Download center](https://www.microsoft.com/download/details.aspx?id=49030) (the policy setting descriptive name in the administrative template file is "Restrict sign in to Teams to accounts in specific tenants"). Additionally, you can manually set keys in Windows Registry:
@@ -134,8 +134,8 @@ SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromT
 or
 SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = Tenant ID 1,Tenant ID 2,Tenant ID 3
 
-**Policies for MacOS**
-For MacOS managed devices, use .plist to deploy sign-in restrictions. The configuration profile is a .plist file that consists of entries identified by a key (which denotes the name of the preference), followed by a value, which depends on the nature of the preference. Values can either be simple (such as a numerical value) or complex, such as a nested list of preferences.
+**Policies for macOS**
+For macOS managed devices, use .plist to deploy sign-in restrictions. The configuration profile is a .plist file that consists of entries identified by a key (which denotes the name of the preference), followed by a value, which depends on the nature of the preference. Values can either be simple (such as a numerical value) or complex, such as a nested list of preferences.
 
 - Domain: com.microsoft.teams
 - Key: RestrictTeamsSignInToAccountsFromTenantList
