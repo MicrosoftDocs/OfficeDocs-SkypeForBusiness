@@ -32,7 +32,7 @@ Remote call control was a feature in previous versions of Lync Server which enab
    
 1. Neither feature is supported.
   
-For more information, see [Remote Call Control](https://go.microsoft.com/fwlink/p/?LinkId=530208) in the Lync Server 2013 documentation.
+For more information, see [Remote Call Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-remote-call-control) in the Lync Server 2013 documentation.
   
 ## See also
 
@@ -41,4 +41,3 @@ For more information, see [Remote Call Control](https://go.microsoft.com/fwlink/
 [Desktop client feature comparison for Skype for Business](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
 [Make a Skype for Business call but use your PBX desk phone for audio](https://support.office.com/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
-

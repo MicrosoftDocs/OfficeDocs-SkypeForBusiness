@@ -22,7 +22,7 @@ ms.custom:
 
 Device health monitoring in the Microsoft Teams admin center gives you an ability to proactively monitor the health of various Teams devices. Monitor the offline state of a device and receive alerts in real time if the monitored device in your organization goes offline.  
 
-Before you start, you'll need the teams/channel creation permissions in your tenant. [Learn More](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
+Before you start, you'll need the teams/channel creation permissions in your tenant. [Learn More](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
 
 ## Configure device state rule
 
@@ -42,7 +42,7 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 |Field |Description  |
 |--------|-------------|
 |**Rule type**   |The device state rule helps you effectively manage. Teams devices and is classified as a device management type. In the future, more rules of device management type will be available to monitor other related capabilities (examples may include: unhealthy device and the sign-in status of device).|
-|**Condition**   |You can monitor the health of devices if they go offline. [Learn more](https://docs.microsoft.com/microsoftteams/devices/device-management) about device management in Teams admin center. |
+|**Condition**   |You can monitor the health of devices if they go offline. [Learn more](../devices/device-management.md) about device management in Teams admin center. |
 |**Scope**   |You can specify how frequently you want to monitor device health status by mentioning the rule evaluation frequency. By default teams devices will be monitored in near real time if they go offline. |
 |**Device users**   |You can specify which devices need proactive offline statue monitoring by selecting them based on signed-in users. Refer to [Select devices for configuration](#select-devices-for-configuration) for more details. |
 |**Actions** > **Channel alert**   |In the Actions section, you can specify teams channels you want to get alerts for. Currently, a default team named **Admin Alerts and Notifications** and channel named **MonitoringAlerts** will be created where notifications will be delivered to. <BR/> <BR/> Global administrators and Teams administrators in your tenant will be automatically added to this default team.|

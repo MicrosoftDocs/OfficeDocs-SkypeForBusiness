@@ -33,7 +33,7 @@ From a technical perspective, a user's mode governs several  aspects of the user
 - *Meeting scheduling*: Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook? TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
 - *Client experience*: What functionality is available in Teams and/or Skype for Business client? Can users initiate calls and chats in Teams, Skype for Business, or both? Is Teams & Channels experience available?  
 
-For more information on routing and presence behavior based on mode, see [Coexistence with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence).
+For more information on routing and presence behavior based on mode, see [Coexistence with Skype for Business](./coexistence-chat-calls-presence.md).
 
 However, from an experience perspective, mode can be described as defining the experience for:
 - *Chat and Calling*: Which client does a user use?
@@ -103,7 +103,7 @@ These policy instances can be granted either to individual users or on a tenant-
 
 ## The Teams client user experience when using Skype for Business modes
 
-When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), all incoming chats and calls are routed to the user's Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is automatically disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and automatically enabled when a user is in the SfBWithTeamsCollabAndMeetings mode. For details, see [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
+When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), all incoming chats and calls are routed to the user's Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is automatically disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and automatically enabled when a user is in the SfBWithTeamsCollabAndMeetings mode. For details, see [Teams client experience and conformance to coexistence modes](./teams-client-experience-and-conformance-to-coexistence-modes.md).
 
 > [!Note] 
 > - Prior to delivery of the automatic enforcement of Teams and Channels, the SfbOnly and SfBWithTeamsCollab modes behave the same.
@@ -127,16 +127,16 @@ When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsColl
 
 ## Related topics
 
-[Coexistence with Skype for Business](https://docs.microsoft.com/microsoftteams/coexistence-chat-calls-presence)
+[Coexistence with Skype for Business](./coexistence-chat-calls-presence.md)
 
-[Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+[Teams client experience and conformance to coexistence modes](./teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

@@ -49,14 +49,13 @@ In addition to the supported operating system, the computer must also be running
     
 You can find information about downloading and installing these items in the following topics:
   
-- [Download and install the Teams Powershell module](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
+- [Download and install the Teams Powershell module](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Download and install Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## Related topics
 [Diagnose connection problems with the skype for business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
- 

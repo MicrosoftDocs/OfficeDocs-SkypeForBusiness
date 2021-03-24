@@ -26,7 +26,7 @@ If you're a small or medium-sized business, don't miss [Empower your small busin
 
 ## IT admin guidance
 
-- Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). As an option, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
+- Make sure everyone has access to Teams with a [paid subscription that includes Teams](/office365/servicedescriptions/teams-service-description). As an option, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
 
 -  If you already have a subscription that includes Teams, **[turn it on for everyone](user-access.md)**.
     
@@ -85,7 +85,7 @@ Share these assets and videos with your end users to help them get started quick
 
    - March 26, 2020 blog: [Running on VPN: How Microsoft is keeping its remote workforce connected](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - If you're in China, check out [Microsoft 365 or Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
+   - If you're in China, check out [Microsoft 365 or Office 365 global tenant performance optimization for China users](/Office365/Enterprise/office-365-networking-china).
 
    - If you need help with troubleshooting or with fixing problems with call or meeting quality, then follow the guidance in [Known issue - China: Dialing into Skype for Business/Teams conference IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) at the bottom of this article.
 
@@ -97,9 +97,9 @@ Share these assets and videos with your end users to help them get started quick
 
    - [Work remotely, stay secure—guidance for CISOs](https://www.microsoft.com/security/blog/?p=90736)
 
-   - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   - [Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - [Security and Teams](teams-security-guide.md) goes into all the technical details of Teams security, as part of Microsoft 365 enterprise-grade security best practices and procedures.
 
@@ -114,7 +114,7 @@ Share these assets and videos with your end users to help them get started quick
 
    - Share [in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) with users who want to learn more.
 
-   - Read [How to roll out Teams](How-to-roll-out-teams.md) to learn how to get ready for and manage Teams.
+   - Read [How to roll out Teams](./deploy-overview.md) to learn how to get ready for and manage Teams.
 
     
 3. Read our new content about working remotely and share it with your users:
@@ -141,7 +141,7 @@ Share these assets and videos with your end users to help them get started quick
 
 8. Use Teams to stay in touch with your employees:
 
-   - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app template.
+   - [Org-wide teams](create-an-org-wide-team.md) and [Company Communicator](/microsoftteams/platform/samples/app-templates#company-communicator) app template.
     
    - Send out information about your org's work-from-home and health and safety policies.
     

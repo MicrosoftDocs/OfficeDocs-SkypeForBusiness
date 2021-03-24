@@ -34,22 +34,22 @@ You will need to set up Communications Credits if you would like to use toll-fre
   
 ## Step 1: Assign an Audio Conferencing or Calling Plan license to your users
 
-When you sign up, you get a certain number of minutes depending on your country/region. You can search for your country or region in the [Country or region availability list for Audio Conferencing and Calling Plans](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) to see the number of minutes you will get. After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
+When you sign up, you get a certain number of minutes depending on your country/region. You can search for your country or region in the [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) to see the number of minutes you will get. After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   
 To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
   
-- Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+- Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+- Assign **Phone System** and a **Domestic or Domestic and International** Calling Plan license to your users. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
     > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or a **Domestic and International Calling Plan** license.
   
     After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](set-up-calling-plans.md).
     
-For more information, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## Step 2: Set up Communications Credits for your organization
 
@@ -74,7 +74,7 @@ For more information, see [Microsoft Teams add-on licensing](https://docs.micros
       > [!NOTE]
      > Funds will be applied only to Communications Credits at Microsoft published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited. 
      > 
-     > Monthly billing for Communication Credits will only be applied if the alloted fund has been used, to learn how to check your monthly usage, read [Skype for Business PSTN usage report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > Monthly billing for Communication Credits will only be applied if the alloted fund has been used, to learn how to check your monthly usage, read [Skype for Business PSTN usage report](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Enter your payment information and click **Place order**.
     >[!IMPORTANT]
@@ -82,7 +82,7 @@ For more information, see [Microsoft Teams add-on licensing](https://docs.micros
     
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Microsoft Teams admin center** > **Reports** > **PSTN usage details** report.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts you need. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel if you need to store the data or create custom reports. To learn how to see usage, read [PSTN usage report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
+When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts you need. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel if you need to store the data or create custom reports. To learn how to see usage, read [PSTN usage report](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## Step 3: Assign a Communications Credits license to users
 
@@ -98,7 +98,7 @@ When you are setting up Communications Credits, you will need to investigate cal
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
 
     > [!TIP]
-    > You can use [Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) to assign licenses and apps to multiple users with one command.
+    > You can use [Powershell](/powershell/module/skype/?view=skype-ps) to assign licenses and apps to multiple users with one command.
   
 ## Want to know about plans and pricing?
 
@@ -112,7 +112,7 @@ You can see the plans and pricing by visiting one of the following links:
     
 You can also see information by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Related topics
 
@@ -125,4 +125,3 @@ To see a table with the license or licenses you will need for each feature, see 
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
     
   
- 

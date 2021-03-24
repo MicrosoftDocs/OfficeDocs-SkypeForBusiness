@@ -71,7 +71,7 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
 
 ### Enable Location-Based Routing for users
 
-1. Use the [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) cmdlet to set PSTN usages. For multiple usages, separate each usage with a comma.
+1. Use the [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) cmdlet to set PSTN usages. For multiple usages, separate each usage with a comma.
 
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -80,7 +80,7 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Use the [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to create a voice routing policy to associate the user with the appropriate PSTN usages.
+2. Use the [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to create a voice routing policy to associate the user with the appropriate PSTN usages.
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -103,13 +103,13 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     |Online voice policy ID   |Delhi online voice routing policy   |Hyderabad online voice routing policy    |
     |Online PSTN usages  |Long Distance  |Long Distance, Local, Internal  |
 
-3. Use the [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to associate online voice routing policies to users who require routing restrictions to be     enforced.
+3. Use the [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) cmdlet to associate online voice routing policies to users who require routing restrictions to be     enforced.
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ### Enable Location-Based Routing for network sites
 
-1.  Use the [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) cmdlet to enable Location-Based Routing and associate voice routing policies to your network sites that need to enforce routing restrictions.
+1.  Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) cmdlet to enable Location-Based Routing and associate voice routing policies to your network sites that need to enforce routing restrictions.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -130,7 +130,7 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
 
 ### Enable Location-Based Routing for gateways
 
-1. Use the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet to create a gateway configuration for each gateway or network site. 
+1. Use the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) cmdlet to create a gateway configuration for each gateway or network site. 
 
     ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
@@ -143,7 +143,7 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     ```
     For more information, see [Configure Direct Routing](direct-routing-configure.md).
     
-2. Use the [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) cmdlet to enable Location-Based Routing for your gateways that need to enforce routing restrictions. 
+2. Use the [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) cmdlet to enable Location-Based Routing for your gateways that need to enforce routing restrictions. 
 
     Enable Location-Based Routing to gateways that route calls to PSTN gateways that route calls to the PSTN, and associate the network site where the gateway is located.
 
@@ -174,7 +174,7 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
 
 To enforce Location-Based Routing for specific users, set up the users' voice policy to prevent PTSN toll bypass. 
 
-Use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) cmdlet to enable Location-Based routing by preventing PSTN toll bypass.
+Use the [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) cmdlet to enable Location-Based routing by preventing PSTN toll bypass.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

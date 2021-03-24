@@ -79,5 +79,4 @@ productDirectory:
     - title: Upgrade planning workshops
       imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
       summary: 'Plan and implement a successful upgrade to Teams. (Audience: IT professionals, adoption change managers)'
-      url: https://aka.ms/SkypetoTeamsPlanning
-
+      url: ./upgrade-workshops-landing-page.yml

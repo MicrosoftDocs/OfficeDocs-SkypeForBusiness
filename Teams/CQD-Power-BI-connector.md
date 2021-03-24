@@ -24,20 +24,20 @@ Before you can use the Power BI query templates (PBIX files) for Microsoft Teams
 
 Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md) to learn about these templates.
 
-Make sure you have the right [CQD access role](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) to access the Power BI reports.
+Make sure you have the right [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to access the Power BI reports.
 
 > [!NOTE]
 > The CQD Power BI Connector only supports DirectQuery in Power BI; Import mode is not supported. 
 
 ## Installation
 
-The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). For the sake of simplicity, here's a quick explanation:
+The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](/power-bi/desktop-connector-extensibility). For the sake of simplicity, here's a quick explanation:
 
 1. Check to see if your computer already has a *\[Documents\]\\Power BI Desktop\\Custom Connectors* folder. If not, create this folder.<sup>1</sup>
 
 2. Download the connector file (either a *\*.mez* or *\*.pqx* file) and place it in the *Custom Connectors* directory.
 
-3. **If the connector file is a *\*.mez* file,** you will also need to adjust your security settings as described in the [custom connector setup documentation](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
+3. **If the connector file is a *\*.mez* file,** you will also need to adjust your security settings as described in the [custom connector setup documentation](/power-bi/desktop-connector-extensibility#data-extension-security).
 
 If a new version of this Power BI Connector for Microsoft Teams is released, simply replace the old connector file in the *Custom Connectors* directory with the new file.
 
@@ -61,7 +61,7 @@ In order to build a report and run queries, you will first need to connect to th
 
 6. At this point, Power BI will load the data model onto the right side of the window. The page will remain otherwise blank, and no queries will be loaded by default. Proceed to **Building Queries** below in order to build a query and return data.
 
-If any of the steps during this setup process were not completely clear, a more detailed explanation of the process can be found in [Quickstart: Connect to data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data).
+If any of the steps during this setup process were not completely clear, a more detailed explanation of the process can be found in [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 ## Building Queries
 
@@ -89,7 +89,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 ## Creating a Drillthrough Report
 
-[Drillthrough in Power BI](https://docs.microsoft.com/power-bi/desktop-drillthrough) allows you to create focused reports that you can quickly filter using the values of other reports as context. Once you know how to create your first query with the CQD Connector, creating a drillthrough is even simpler.
+[Drillthrough in Power BI](/power-bi/desktop-drillthrough) allows you to create focused reports that you can quickly filter using the values of other reports as context. Once you know how to create your first query with the CQD Connector, creating a drillthrough is even simpler.
 
 1. Create another page for the focused report, and then add your queries to that page.
 
@@ -167,8 +167,8 @@ Query performance for the various templates is actually the same in both the bro
 
 For more information, see the following articles:
 
-- [Optimization guide for Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
-- [DirectQuery model guidance](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+- [Optimization guide for Power BI](/power-bi/guidance/power-bi-optimization)
+- [DirectQuery model guidance](/power-bi/guidance/directquery-model-guidance)
 
 ### I find that I routinely run into the 10,000-row limit when running queries. How can I get the connector to return more than 10,000 rows
 

@@ -56,7 +56,7 @@ Microsoft Teams uses different telephone number types depending on the purpose f
 
 ## Related topics
 
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

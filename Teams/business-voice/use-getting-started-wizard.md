@@ -105,7 +105,7 @@ For more information, see [What are emergency locations, addresses, and call rou
 </table>
 
 > [!IMPORTANT]
-> The Getting Started wizard helps you set up a simple call menu to get you up and running quickly. If you have multiple phone numbers that you want to set up call menus for or you want to set up more complex call menus (also called auto attendants), see [Set up a Cloud auto attendant](set-up-auto-attendants.md) after you finish the wizard.
+> The Getting Started wizard helps you set up a simple call menu to get you up and running quickly. If you have multiple phone numbers that you want to set up call menus for or you want to set up more complex call menus (also called auto attendants), see [Set up a Cloud auto attendant](./create-a-phone-system-auto-attendant-smb.md) after you finish the wizard.
 
 <table>
     <tr>

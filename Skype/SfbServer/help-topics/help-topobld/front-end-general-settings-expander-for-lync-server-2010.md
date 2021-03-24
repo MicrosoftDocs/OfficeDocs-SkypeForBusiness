@@ -38,7 +38,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
 
 - If you selected Conferencing, **Dial-in (PSTN) conferencing** can be selected. Select the check box to enable dial-in conferencing features.
 
-- Select the check box **Enterprise Voice** if you intend to deploy features to enable Lync Server 2013 to act as your telephone voice system using voice over IP (VoIP) technologies, including the option of deploying handset telephones, SIP trunks, or public switched telephone network connectivity using Mediation Server, PSTN Gateways, and IP-PBX, in combination or alone, based on the design and requirements. For detail on Enterprise Voice, see [Enterprise Voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) and [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Select the check box **Enterprise Voice** if you intend to deploy features to enable Lync Server 2013 to act as your telephone voice system using voice over IP (VoIP) technologies, including the option of deploying handset telephones, SIP trunks, or public switched telephone network connectivity using Mediation Server, PSTN Gateways, and IP-PBX, in combination or alone, based on the design and requirements. For detail on Enterprise Voice, see [Enterprise Voice](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) and [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
@@ -56,7 +56,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
 
 - Select the **Associated backup Registrar pool** check box to select from the list a Front End Server or Front End pool that will be the backup Registrar ( that is, the Front End Server or Front End pool designated as a secondary registrar in the event that the primary fails)
 
-- If you selected Associated backup Registrar pool and have chosen a backup registrar, you can select the checkbox for **Automatic failover and failback for Voice**. You can now define numerical properties for **Voice failover detection internal (sec)** and **Voice failback interval (sec)**. For details, see [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+- If you selected Associated backup Registrar pool and have chosen a backup registrar, you can select the checkbox for **Automatic failover and failback for Voice**. You can now define numerical properties for **Voice failover detection internal (sec)** and **Voice failback interval (sec)**. For details, see [Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)
 
   **Web services**
 
@@ -68,7 +68,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
 - To configure **External web services**, you define **Listening ports** for **HTTP** and **HTTPS**. By default, these are TCP port 80 and TCP port 443, respectively. You also configure the **Published ports** for **HTTP** and **HTTPS**. By default, these are TCP port 80 and TCP port 443, respectively. Based on your internal web services configuration and use of load balancers (hardware load balancers and DNS load balancing), adjust the port values to define the listening and published ports.
 
     > [!IMPORTANT]
-    > External web services and the defined listening and published ports are for external clients and devices. External clients and devices use the external web services listening and published ports, typically defined by your reverse proxy along with the defined external web services fully qualified domain name (FQDN). The relationship of the external web services FQDN and the Simple URLs define the uniform resource locator (URL) addresses that external clients will use to access services available for external users and devices. For more details on Simple URLs, see [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
+    > External web services and the defined listening and published ports are for external clients and devices. External clients and devices use the external web services listening and published ports, typically defined by your reverse proxy along with the defined external web services fully qualified domain name (FQDN). The relationship of the external web services FQDN and the Simple URLs define the uniform resource locator (URL) addresses that external clients will use to access services available for external users and devices. For more details on Simple URLs, see [Planning for Simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls).
 
   **Mediation Server**
 
@@ -86,7 +86,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
     If you have more than one gateway associated with a Mediation Server, you can specify the default gateway by selecting the gateway that you want to make the default, and clicking **Make Default**. If you choose to remove the current default gateway, select the gateway and click **Unmake Default**.
 
 > [!IMPORTANT]
-> If you make changes to the properties in this dialog, you must publish the topology and run the Skype for Business Server Deployment Wizard on all affected servers. After publishing the new topology, a list of affected servers where the Skype for Business Server Deployment Wizard must be run is provided for you as a link on the successful topology publishing summary screen. For details on publishing the updated topology, see [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). For details on the Skype for Business Server Deployment Wizard , see [Lync Server Administrative Tools](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
+> If you make changes to the properties in this dialog, you must publish the topology and run the Skype for Business Server Deployment Wizard on all affected servers. After publishing the new topology, a list of affected servers where the Skype for Business Server Deployment Wizard must be run is provided for you as a link on the successful topology publishing summary screen. For details on publishing the updated topology, see [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). For details on the Skype for Business Server Deployment Wizard , see [Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools).
 
 Click **OK** to save and commit your changes to the topology document.
 
@@ -96,4 +96,4 @@ Click **Help** to read this help topic.
 
 ## See also
 
-[Define and Configure a Front End Pool or Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
+[Define and Configure a Front End Pool or Standard Edition Server](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)
