@@ -24,6 +24,8 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for New Zealand
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 Use this table to find information on getting and managing phone numbers in New Zealand for Microsoft Teams.
   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).

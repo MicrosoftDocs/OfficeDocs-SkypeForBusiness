@@ -3,7 +3,7 @@ title: "Phone number management for Romania"
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: chandra.kilaru, kirsten.kutser
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
@@ -24,6 +24,8 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for Romania
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 Use this table to find information on getting and managing phone numbers in Romania for Microsoft Teams.
   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
@@ -36,6 +38,8 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
 |Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
 |Know your customers|form|
+|Accessibility support for Microsoft Teams|[Prezentare generală accesibilitate a Microsoft teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)|
+|OST|[MicrosoftOnlineServicesTerms(WW)(Romanian)(February2021)] Chandra, what link do you want here?|
    
 ## Related topics
 

@@ -3,7 +3,7 @@ title: "Phone number management for Luxembourg"
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: chandra.kilaru, kirsten.kutser
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
@@ -23,6 +23,8 @@ description: "Use this table to find information on getting and managing phone n
 ---
 
 # Phone number management for Luxembourg
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Use this table to find information on getting and managing phone numbers in Luxembourg for Microsoft Teams.
   
