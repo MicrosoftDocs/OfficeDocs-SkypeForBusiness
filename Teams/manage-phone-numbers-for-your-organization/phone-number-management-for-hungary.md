@@ -24,7 +24,7 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for Hungary
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Use this table to find information on getting and managing phone numbers in Hungary for Microsoft Teams.
   

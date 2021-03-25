@@ -24,7 +24,7 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for South Korea
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Use this table to find information on getting and managing phone numbers in South Korea for Microsoft Teams.
   

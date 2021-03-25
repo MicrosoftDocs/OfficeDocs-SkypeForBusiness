@@ -24,7 +24,7 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for the Czech Republic
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Use this table to find information on getting and managing phone numbers in the Czech Republic for Microsoft Teams.
   
