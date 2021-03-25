@@ -32,25 +32,26 @@ Attendees who join the meeting first, up to the capacity of the main meeting, wi
 
 Attendees who join after the main meeting capacity has been reached will have a view-only experience.
 
-Attendees will be able to join the view-only experience through Desktop, Web, and Teams Mobile (Android and iOS).
+Attendees will be able to join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
 > [!Note]
 > The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 300 in WW and 250 in GCC, GCC High, and DoD.
 
 ## Teams view-only experience controls
 
-Administrators can disable the view-only experience using PowerShell.
+You enable the view-only experience using PowerShell.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 ```
+
 To disable the view-only experience, you can also use PowerShell.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-In the future, it will also be possible for administrators to enable or disable the view-only experience in the Teams admin center.
+In the future, you'll be able to enable or disable the view-only experience in the Teams admin center.
 
 ## Impact to users
 
@@ -59,7 +60,7 @@ A user's experience will vary depending on several factors.
 When the capacity of the main meeting has been reached, an attendee will be unable to join the meeting if any of the following are true:
 
 - An administrator has disabled the Teams view-only experience for either the organizer or for the entire tenant.
-- The view-only attendee can't bypass the lobby. As an example, if an organizer of a meeting chooses to have only People in my Organization bypass the lobby, and an attendee who is outside of the Organization attempts to join as a view-only attendee, they will be rejected.
+- The view-only attendee can't bypass the lobby. As an example, if an organizer of a meeting chooses to have only **People in my organization** bypass the lobby, and an attendee who is outside of the organization attempts to join as a view-only attendee, they'll be rejected.
 
 When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that new attendees will join as view-only attendees.
 
@@ -82,7 +83,7 @@ Limitations for meeting presenters include:
 - You can't remove a view-only attendee from the meeting.
 
 > [!Note]
-> Attendee count will only reflect the people in the meeting and not the people in the view-only room. Therefore, presenters can't get an exact count of who is in the view-only experience.
+> Attendee count will only reflect the people in the main meeting and not the people in the view-only room. Therefore, presenters can't get an exact count of who is in the view-only experience.
 
 ## Experience for view-only attendees
 
@@ -96,12 +97,12 @@ The view-only attendee won't be able to experience the following options in meet
 
 - Join the meeting if the attendee doesn't have permission to bypass the lobby based on set lobby policies or options.
 - Join the view-only room using Audio Conferencing.
-- Join the view-only room using Microsoft Teams Room system or using Cloud Video Interop (CVI) services.
+- Join the view-only room using Microsoft Teams Rooms system or using Cloud Video Interop (CVI) services.
 - Share their audio or video.
 - See or participate in the meeting chat.
   - The first 1000 (or 300 depending on your main meeting limit) users invited to the meeting will be added to the chat.
-  - While view-only users will not see the chat in the meeting, they may still be able to chat on the main app if they were the first 350 people invited.
-  - Conversely, if an interactive user was not part of the first 350 users invited to the meeting, they'll not get access to the meeting chat both on the main Teams App and in the meeting.
+  - While view-only users won't see the chat in the meeting, they might still be able to chat on the main app if they were the first 350 people invited.
+  - Conversely, if an interactive user wasn't part of the first 350 users invited to the meeting, they'll not get access to the meeting chat both on the main Teams App and in the meeting.
 - See the video feed of meeting participants unless the participant is the active speaker.
 - See PowerPoint files that are shared using the PowerPoint Live functionality or individual application shares (other than desktop or screen sharing).
 - Raise their hand in the meeting.
