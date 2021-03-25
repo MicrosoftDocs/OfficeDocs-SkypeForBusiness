@@ -108,7 +108,7 @@ CQD is designed for summarized data queries, and is not designed for data export
 
 ### Why do WiFi VPN connections show as Wired instead of WiFi?
 
-This is expected.  The VPN vendor created a virtual ethernet adapter which is treated like a wired connection.  Since it's not properly labeled, the operating system doesn't know it's a WiFi connection and reports it as wired.
+This is expected. The VPN vendor created a virtual ethernet adapter which is treated like a wired connection. Since it's not properly labeled, the operating system doesn't know it's a WiFi connection and reports it as wired.
 
 ## Related topics
 
