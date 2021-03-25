@@ -132,7 +132,7 @@ The following number fields are among those that your normalization rules may ne
 
 Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format for the purpose of performing reverse number lookup. You create normalization rules in the Skype for Business Server Control Panel either by entering the expressions manually, or by entering the starting digits and the length of the dial strings to be matched and letting the Skype for Business Server Control Panel generate the corresponding regular expression for you. Either way, when you finish, you can enter a test number to verify that the normalization rule works as expected.
   
-For details about using .NET Framework regular expressions, see [".NET Framework Regular Expressions"](https://go.microsoft.com/fwlink/p/?linkId=140927).
+For details about using .NET Framework regular expressions, see [".NET Framework Regular Expressions"](/dotnet/standard/base-types/regular-expressions).
   
 #### Sample Normalization Rules
 <a name="BKMK_SampleNormalizationRules"> </a>
@@ -327,5 +327,3 @@ In creating outbound call routes, you should be aware of the following factors t
 - If a user is not enabled for Enterprise Voice, the server applies other routing logic, as appropriate.
     
 - If a call is routed to a gateway that is fully occupied (all trunk lines are busy), the gateway rejects the call and the outbound routing logic redirects the call to the next-least-cost route. Give this careful consideration, because a gateway sized for a small office overseas (for example, Zurich) may actually carry a significant amount of nonlocal traffic for international calls to Switzerland. If the gateway is not correctly sized for this additional traffic, calls to Switzerland may be routed by way of a gateway in Germany, resulting in larger toll charges.
-    
-

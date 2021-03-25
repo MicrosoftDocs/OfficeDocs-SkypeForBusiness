@@ -89,7 +89,7 @@ Get-CsHostedVoicemailPolicy
 
 ## Assign a hosted voicemail policy
 
-By default, the Global hosted voicemail policy is assigned to all users. If you use a different policy, before enabling users for hosted voicemail, you must first grant users the desired hosted voicemail policy by using the [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet.
+By default, the Global hosted voicemail policy is assigned to all users. If you use a different policy, before enabling users for hosted voicemail, you must first grant users the desired hosted voicemail policy by using the [Grant-CSHostedVoicemailPolicy](/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) cmdlet.
 
 For example, the following command assigns a non-Global hosted voicemail policy to a user:
 
@@ -100,7 +100,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:Cl
 
 ## Enable a user for Cloud Voicemail
 
-To enable a user’s voicemail calls to be routed to Cloud Voicemail, you use the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet with the HostedVoiceMail parameter. 
+To enable a user’s voicemail calls to be routed to Cloud Voicemail, you use the [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) cmdlet with the HostedVoiceMail parameter. 
 
 For example, the following command enables a user account for Cloud Voicemail: 
 

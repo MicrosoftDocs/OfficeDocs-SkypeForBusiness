@@ -21,7 +21,7 @@ The following topic provides guidance for updating DNS entries, moving the Conte
 For a dated but exhaustive article on removing servers and server roles, and a step-by-step guide to decommissioning a deployment, download [Uninstalling Microsoft Lync Server and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227). 
   
 > [!IMPORTANT]
-> For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, before decommissioning your legacy environment, see [UCMA applications: Coexistence, migration, and upgrade scenarios](https://go.microsoft.com/fwlink/p/?LinkId=269555).
+> For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, before decommissioning your legacy environment, see [UCMA applications: Coexistence, migration, and upgrade scenarios](/previous-versions/office/jj728782(v=office.15)).
   
 ## In this section
 
@@ -38,5 +38,3 @@ For a dated but exhaustive article on removing servers and server roles, and a s
 > [Remove the Enterprise Edition Front End Server or Standard Edition Front End Server](remove-the-front-end-server.md)
 > 
 > [Remove SQL Server instances and databases on the Back End Server](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
-    
-

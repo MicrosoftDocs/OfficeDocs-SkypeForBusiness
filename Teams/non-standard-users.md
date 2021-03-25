@@ -28,7 +28,7 @@ This article describes how apps in Teams behave when guest, external (federated)
 - An **external (federated) user** belongs to another domain and has no access to your organization's teams or team resources.
 
 >[!Note]
-> For a more detailed comparison of guest versus external users, [see communicate with users from other organizations](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations).
+> For a more detailed comparison of guest versus external users, [see communicate with users from other organizations](./communicate-with-users-from-other-organizations.md).
 
 - An **anonymous user** is a concept in Teams meetings where the user has joined the meeting via a link. The user hasn't logged in with their Microsoft or organization’s account.
 

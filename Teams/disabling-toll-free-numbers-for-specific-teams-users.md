@@ -58,4 +58,4 @@ From the **Microsoft Teams admin center**:
  
 **Using PowerShell**  
 
-See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.

@@ -29,7 +29,7 @@ description: Learn about how many phone numbers you can get in Microsoft Teams b
 
 When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) to find out about the different phone numbers that are used in Microsoft Teams.
   
-You can see the number of phone numbers you can get on the **Get phone numbers** page in the Microsoft Teams admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) cmdlet.
+You can see the number of phone numbers you can get on the **Get phone numbers** page in the Microsoft Teams admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/Get-CsOnlineTelephoneNumberAvailableCount) cmdlet.
   
 > [!IMPORTANT]
 > The limits below don't include phone numbers you have ported or transferred to Microsoft. 
@@ -47,7 +47,7 @@ You can see the number of phone numbers you can get on the **Get phone numbers**
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -58,4 +58,3 @@ You can see the number of phone numbers you can get on the **Get phone numbers**
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

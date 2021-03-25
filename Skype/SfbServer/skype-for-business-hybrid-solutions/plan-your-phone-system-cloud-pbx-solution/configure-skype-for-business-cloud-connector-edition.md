@@ -25,7 +25,7 @@ description: "Learn how to configure Skype for Business Cloud Connector Edition,
 # Configure and manage Skype for Business Cloud Connector Edition
  
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Learn how to configure Skype for Business Cloud Connector Edition, a minimal on-premises topology to enable integration of your on-premises voice infrastructure with Phone System (Cloud PBX) voice services in Skype for Business Online. 
   
@@ -50,5 +50,3 @@ The following table lists the steps you'll need to install and configure Cloud C
 |[Deploy media bypass in Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md) <br/> |Learn how to deploy media bypass in Cloud Connector.  <br/> |
 |[Cloud Connector cmdlet reference](cloud-connector-cmdlet-reference.md) <br/> |Learn about the PowerShell cmdlets used in Cloud Connector.  <br/> |
 |[Troubleshoot your Cloud Connector deployment](troubleshoot-your-cloud-connector-deployment.md) <br/> |Solutions to common issues encountered with a Cloud Connector deployment.  <br/> |
-   
-

@@ -72,7 +72,7 @@ This command returns information similar to the following:
 |{ConferencingServer}  <br/> |Running  <br/> |
 |{MediationServer}  <br/> |Running  <br/> |
    
-For details, see [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/get-cswindowsservice.md?view=skype-ps).
+For details, see [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps).
   
 ## View details about a service
 <a name="view_details"> </a>
@@ -148,5 +148,3 @@ You can use Skype for Business Server Control Panel to prevent new sessions for 
 7. Click **Action**.
 8. Click **Prevent new sessions for service**.
 9. Click **Close**.
-    
-
