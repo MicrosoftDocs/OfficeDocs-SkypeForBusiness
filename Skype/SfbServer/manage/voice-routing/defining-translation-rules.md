@@ -25,7 +25,7 @@ Skype for Business Server offers the option to also translate the calling partyâ
 
 **To configure Caller ID by using the Skype for Business Server Control Panel**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx).
+1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. In the left navigation bar, click **Voice Routing**, and then click **Trunk Configuration**.
 4. On the Trunk Configuration page, double-click an existing trunk (for example, the **Global** trunk) to display the **Edit Trunk Configuration** dialog box.
@@ -50,7 +50,7 @@ You can use either of the following methods to create or modify a translation ru
 - [Write regular expressions manually](#create-or-modify-a-translation-rule-manually) to define the matching pattern and translation rule.
 
 > [!Note]
-> For information about how to write regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+> For information about how to write regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions). 
 
 ### Create or modify a translation rule by using the Build a Translation Rule tool
 
@@ -58,7 +58,7 @@ Follow these steps if you want to define a translation rule by entering a set of
 
 **To define a rule by using the Build a Translation Rule tool**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx).
+1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass](GET LINK AFTER MIGRATION)through step 10 or [Configure a trunk without media bypass](GET LINK AFTER MIGRATION) through step 9.
 4. Under **Name** on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.
@@ -85,7 +85,7 @@ Follow these steps if you want to define a translation rule by entering a set of
 9. On the **Trunk Configuratio**n page, click **Commit**, and then click **Commit all**. 
 
 > [!Note]
-> Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx). 
+> Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration). 
 
 ### Create or modify a translation rule manually
 
@@ -93,7 +93,7 @@ Follow these steps if you want to define a translation rule by writing a regular
 
 **To define a translation rule manually**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx).
+1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions).
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass](GET LINK AFTER MIGRATION)through step 10 or [Configure a trunk without media bypass](GET LINK AFTER MIGRATION) through step 9.
 4. In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.
@@ -109,4 +109,4 @@ Follow these steps if you want to define a translation rule by writing a regular
 10. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
 
 > [!Note] 
-> Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx). 
+> Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration).

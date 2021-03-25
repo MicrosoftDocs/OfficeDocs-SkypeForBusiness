@@ -52,7 +52,7 @@ To connect your SBC to Direct Routing, you'll need to:
 
 ### Connect to Skype for Business Online by using PowerShell
 
-You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
  
 After you establish a remote PowerShell session, verify that you can see the commands to manage the SBC. To verify the commands, type or copy and paste the following command in the PowerShell session, and then press Enter: 
 
@@ -73,7 +73,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### Connect the SBC to the tenant
 
-Use the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet to connect the SBC to the tenant. In a PowerShell session, type the following, and then press Enter:
+Use the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet to connect the SBC to the tenant. In a PowerShell session, type the following, and then press Enter:
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
@@ -106,7 +106,7 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> This example shows only the minimum required parameters. There are additional parameters that you can set  with the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
+> This example shows only the minimum required parameters. There are additional parameters that you can set  with the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
  
 ### Verify the SBC connection
 
@@ -117,7 +117,7 @@ To verify the connection:
  
 #### Check whether the SBC is on the list of paired SBCs
 
-After you connect the SBC, use the [Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
+After you connect the SBC, use the [Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -151,7 +151,7 @@ To validate the pairing using incoming SIP options, use the SBC management inter
 
 ## SBC settings
 
-This table lists the options that you can set for the SBC in the Microsoft Teams admin center and by using the [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) cmdlet.
+This table lists the options that you can set for the SBC in the Microsoft Teams admin center and by using the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet.
 
 |Required?|Microsoft Teams admin center setting|PowerShell parameter|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|

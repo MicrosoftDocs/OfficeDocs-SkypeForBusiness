@@ -74,7 +74,7 @@ You can see the plans and pricing by visiting one of the following links:
 
 You can also see information by signing in to the Microsoft 365 admin center and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Related topics
 
@@ -83,4 +83,3 @@ To see a table with the license or licenses you will need for each feature, see 
 - [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)
 
 - [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md)
-

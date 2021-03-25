@@ -41,7 +41,7 @@ This topic contains the following sections:
 ### Return information about all your Skype for Business Online users
 <a name="BKAllUsers"> </a>
 
-To return information about all your users who have been enabled for Skype for Business Online, call the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet without any additional parameters.
+To return information about all your users who have been enabled for Skype for Business Online, call the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet without any additional parameters.
 
 ```PowerShell
 Get-CsOnlineUser
@@ -62,7 +62,7 @@ Get-CsOnlineUser -ResultSize 5
 ### Return information for a specific user in Skype for Business Online
 <a name="BKSpecificUser"> </a>
 
-There are multiple ways of referencing a specific user account when calling the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet. You can use the user's Active Directory Domain Services (AD DS) display name.
+There are multiple ways of referencing a specific user account when calling the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet. You can use the user's Active Directory Domain Services (AD DS) display name.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
@@ -83,7 +83,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### Return specific information for specific users in Skype for Business Online
 <a name="BKSpecificUsers"> </a>
 
-By default, the [Get-CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) cmdlet returns a huge amount of information for each Skype for Business Online user account. If you are interested in only a subset of that information, pipe the returned data to the **Select-Object** cmdlet. For example, this command returns all the data for the user Ken Myer, and then uses the **Select-Object** cmdlet to limit the information displayed onscreen to Ken's AD DS display name and dial plan.
+By default, the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet returns a huge amount of information for each Skype for Business Online user account. If you are interested in only a subset of that information, pipe the returned data to the **Select-Object** cmdlet. For example, this command returns all the data for the user Ken Myer, and then uses the **Select-Object** cmdlet to limit the information displayed onscreen to Ken's AD DS display name and dial plan.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -104,7 +104,7 @@ Get-CsOnlineUser | Get-Member
 ### Return a filtered list of users in Skype for Business Online
 <a name="BKListofUsers"> </a>
 
-By using the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) cmdlet and the _LdapFilter_ or _Filter_ parameters, you can easily return information about a targeted set of users. For example, this command returns all the users who work in the Finance department.
+By using the [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) cmdlet and the _LdapFilter_ or _Filter_ parameters, you can easily return information about a targeted set of users. For example, this command returns all the users who work in the Finance department.
 
 ```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
@@ -112,5 +112,3 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
-
-

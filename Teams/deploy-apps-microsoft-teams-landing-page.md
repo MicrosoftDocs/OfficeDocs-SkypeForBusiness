@@ -31,15 +31,15 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 ## Use third-party apps
 
-In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with  Microsoft 365 developer partners to provide the information needed to expedite decisions about using Teams apps and add-ins. For more information, see [Microsoft Teams App Security and Compliance](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps).
+In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with  Microsoft 365 developer partners to provide the information needed to expedite decisions about using Teams apps and add-ins. For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 ## Use Teams templates
 
-You can also use [Teams templates](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub.
+You can also use [Teams templates](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json), production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub.
 
 ## Create custom apps
 
-You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/overview).  
+You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
 
 
 ## Apps deployment decisions
@@ -52,7 +52,7 @@ These are the apps settings that most organizations want to change (if the Teams
 
 ### App availability settings 
 
-Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
+Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
 
 By default, all Microsoft-provided, third-party, and custom apps are available, and you can turn individual apps on or off. There are org-wide settings that lets you turn all third-party and/or custom apps on or off for your entire organization.
 
@@ -76,7 +76,7 @@ Bots are automated programs that respond to queries or give updates and notifica
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### Built-in and custom tabs
@@ -107,7 +107,7 @@ You can use activity reports to see how users in your organization are using Tea
 
 | Ask yourself | Action |
 |--------------|--------|
-| <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
+| <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 |||
 
 ### App templates
@@ -116,10 +116,5 @@ App templates are production-ready apps for Microsoft Teams that are community d
 
 | Ask yourself | Action |
 |--------------|--------|
-| Do I want to install any Teams app templates, such as Icebreaker? |To learn more, read [App templates for Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| Do I want to install any Teams app templates, such as Icebreaker? |To learn more, read [App templates for Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
 |||
-
-
-
-
-

@@ -73,7 +73,7 @@ In Skype for Business Server, you can override the default amount of time betwee
         
           - **Not Required**   The user will not be prompted for a location. When a call is made with no location information, the emergency services provider will answer the call and ask for a location.
         
-          - **Disclaimer**   This option is the same as **Required** except that the user cannot dismiss the prompt without entering location information. The user can still complete an emergency call, but no other calls can be completed without entering the information. In addition, disclaimer text will be displayed to the user that can alert them to the consequences of declining to enter location information. To set the disclaimer text, you must use the Skype for Business Server Management Shell to run the **Set-CsLocationPolicy** cmdlet or the **New-CsLocationPolicy** cmdlet with the EnhancedEmergencyServiceDisclaimer parameter. For details, see [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) or [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy).
+          - **Disclaimer**   This option is the same as **Required** except that the user cannot dismiss the prompt without entering location information. The user can still complete an emergency call, but no other calls can be completed without entering the information. In addition, disclaimer text will be displayed to the user that can alert them to the consequences of declining to enter location information. To set the disclaimer text, you must use the Skype for Business Server Management Shell to run the **Set-CsLocationPolicy** cmdlet or the **New-CsLocationPolicy** cmdlet with the EnhancedEmergencyServiceDisclaimer parameter. For details, see [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) or [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy).
           
     
       - **Use location for emergency services only** Skype for Business can use location information for various reasons (for example, to notify teammates of your current location). Select this check box to ensure location information is available only for use with an emergency call.
@@ -150,10 +150,10 @@ In Skype for Business Server, you can override the default amount of time betwee
 
 [Create or modify network sites](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 
-[New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)  
 
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) 
+[Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 
  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[Remove-CsLocationPolicy](/powershell/module/skype/Remove-CsLocationPolicy)  
 
-[Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[Get-CsLocationPolicy](/powershell/module/skype/Get-CsLocationPolicy)

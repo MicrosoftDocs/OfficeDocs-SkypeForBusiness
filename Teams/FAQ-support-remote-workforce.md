@@ -46,15 +46,15 @@ During the duration of the COVID-19 outbreak, we recommend that users join meeti
 
 Because of unique needs in China, customers may need to take specific actions:
 
-- [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+- [Office 365 global tenant performance optimization for China users](/office365/enterprise/office-365-networking-china)
 
-- [General guidelines for any network where Microsoft 365 is being used](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)
+- [General guidelines for any network where Microsoft 365 is being used](/Office365/Enterprise/assessing-network-connectivity)
 
 - [Prepare your organization's network for Teams](prepare-network.md)
 
 ### My users are reporting bad calls, or their calls are not connecting. What should I do to get help?
 
-We're here to help. Before you [contact Support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products), make sure you've followed all of our [networking recommendations](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network). To help you troubleshoot call quality, use [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md). We also recommend checking the [Service health dashboard](https://docs.microsoft.com/office365/enterprise/view-service-health) in the Microsoft 365 admin center for any current advisories or issues with Microsoft services.
+We're here to help. Before you [contact Support](/microsoft-365/admin/contact-support-for-business-products), make sure you've followed all of our [networking recommendations](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network). To help you troubleshoot call quality, use [Call Analytics and Call Quality Dashboard](./monitor-call-quality-qos.md). We also recommend checking the [Service health dashboard](/office365/enterprise/view-service-health) in the Microsoft 365 admin center for any current advisories or issues with Microsoft services.
 
 ### What other actions can I take to have a better experience?
 
@@ -82,11 +82,11 @@ If you have Microsoft 365, then you already have Teams. [Turn it on](Office-365-
 
 ### How do I get help to get started with Teams and make sure the deployment is successful?
 
-Microsoft offers the [FastTrack Center Benefit for Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), which will help you to plan, deploy, drive usage, and adopt best practices. This service is offered at no cost when you have at least 150 users. To find out more, read [Requesting FastTrack assistance for Microsoft 365 just got easier](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). FastTrack setup guidance for Microsoft 365 is available to all Office 365 organization administrators. To access this guidance, sign into [https://aka.ms/setupguidance](https://aka.ms/setupguidance) with your admin credentials.
+Microsoft offers the [FastTrack Center Benefit for Office 365](/fasttrack/o365-fasttrack-benefit-for-office-365), which will help you to plan, deploy, drive usage, and adopt best practices. This service is offered at no cost when you have at least 150 users. To find out more, read [Requesting FastTrack assistance for Microsoft 365 just got easier](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). FastTrack setup guidance for Microsoft 365 is available to all Office 365 organization administrators. To access this guidance, sign into [https://aka.ms/setupguidance](https://aka.ms/setupguidance) with your admin credentials.
 
-If you want to get started on your own, read [How to roll out Teams](How-to-roll-out-teams.md) and check out our [Teams in 30](https://aka.ms/Teamsin30) webinar series, designed to get you up and running with Teams in as few as 30 days.
+If you want to get started on your own, read [How to roll out Teams](./deploy-overview.md) and check out our [Teams in 30](./teams-in-30-workshops.md) webinar series, designed to get you up and running with Teams in as few as 30 days.
 
-For Education (EDU) tenants, Microsoft offers [School Data Sync](https://docs.microsoft.com/schooldatasync/), which helps you to sync information from a school's Student Information System (SIS). For help deploying Microsoft 365, read [Microsoft 365 Education deployment overview](https://docs.microsoft.com/microsoft-365/education/deploy/). Don't miss our new article, [Get started with Teams for remote learning](remote-learning-edu.md).
+For Education (EDU) tenants, Microsoft offers [School Data Sync](/schooldatasync/), which helps you to sync information from a school's Student Information System (SIS). For help deploying Microsoft 365, read [Microsoft 365 Education deployment overview](/microsoft-365/education/deploy/). Don't miss our new article, [Get started with Teams for remote learning](remote-learning-edu.md).
 
 ### Where do I find help getting Teams running for my company so my users can work from home during this crisis?
 
@@ -94,7 +94,7 @@ Read [Support remote workers using Teams](support-remote-work-with-teams.md). It
 
 ### I just got started with Microsoft 365 so I can use Teams to support my remote workers or students. I've signed up for the service, but when a user tries to use Teams, they get this error: "You're missing out! Ask your admin to enable Microsoft Teams." What should I do?
 
-After you activate one of the free Teams offers, you'll still need to turn it on for your users. Read [Manage user access to Teams](user-access.md) and  [Add users individually or in bulk](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+After you activate one of the free Teams offers, you'll still need to turn it on for your users. Read [Manage user access to Teams](user-access.md) and  [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users).
 
 If you're licensing or enabling a user for the first time but you've had Microsoft 365 for a while, you might need to [Turn on Teams](Office-365-set-up.md) for your organization. Check [I have Microsoft 365 already, but I don't use Teams. Are you providing trial licenses?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) in this article.
 

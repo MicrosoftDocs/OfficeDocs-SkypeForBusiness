@@ -65,7 +65,7 @@ Advisor for Teams currently provides the following plans:
     - Planner plan, including adoption tasks
     - Forms user survey
     - Advisor for Teams bot
-    - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Leveraging a proven success framework for implementing change, the plan will guide you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan will also connect you to [online guidance and best practices](https://aka.ms/SkypeToTeams),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](https://aka.ms/UpgradeWorkshops), and additional resources to support your success.
+    - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Leveraging a proven success framework for implementing change, the plan will guide you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan will also connect you to [online guidance and best practices](./upgrade-start-here.md),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](./upgrade-workshops-landing-page.yml), and additional resources to support your success.
 
 We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and select **Add channel** to start the next workload.
 
@@ -85,11 +85,11 @@ The sections below describe each assessment, including whether something is a pr
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Vanity domain configured     |Whether there's a non-@onmicrosoft.com domain configured for your tenant (for example, @contoso.onmicrosoft.com). You can use the @onmicrosoft.com domain, of course, or you can configure a vanity domain - your choice. For more information, read [Add a domain to Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
-|Teams licenses     |This is a prerequisite - you **must have** Teams licenses in order to roll out Teams. Queries the Microsoft Graph to see whether you have Teams licenses (with at least one license available to assign). For more information, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
+|Vanity domain configured     |Whether there's a non-@onmicrosoft.com domain configured for your tenant (for example, @contoso.onmicrosoft.com). You can use the @onmicrosoft.com domain, of course, or you can configure a vanity domain - your choice. For more information, read [Add a domain to Microsoft 365](/microsoft-365/admin/setup/add-domain). |
+|Teams licenses     |This is a prerequisite - you **must have** Teams licenses in order to roll out Teams. Queries the Microsoft Graph to see whether you have Teams licenses (with at least one license available to assign). For more information, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).    |
 |Exchange Online licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience. Queries the Microsoft Graph to analyze the subscriptions associated with your tenant and validate whether you have subscriptions with an eligible Exchange Online license (with at least one license available to assign). For more information, read [How Exchange and Teams interact](exchange-teams-interact.md).    |
-|SharePoint Online licenses     |Whether you have an active subscription with available SharePoint Online licenses. We recommend per-user SharePoint Online licenses to provide OneDrive for Business for file storage in chats. Queries the Microsoft Graph to see whether you have SharePoint Online licenses (with at least one license available to assign). For more information, read [How SharePoint Online and OneDrive for Business interact with Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
-|Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. See [Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) to walk through turning on guest access in Teams; the checklist includes the required Azure AD configurations. |
+|SharePoint Online licenses     |Whether you have an active subscription with available SharePoint Online licenses. We recommend per-user SharePoint Online licenses to provide OneDrive for Business for file storage in chats. Queries the Microsoft Graph to see whether you have SharePoint Online licenses (with at least one license available to assign). For more information, read [How SharePoint Online and OneDrive for Business interact with Teams](./sharepoint-onedrive-interact.md).    |
+|Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. See [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) to walk through turning on guest access in Teams; the checklist includes the required Azure AD configurations. |
 |External access configured     |Whether [external access](manage-external-access.md) is turned on. By default, it's turned on, with open federation. |
 
 ### Assessments for chat, teams, channels, and apps
@@ -98,8 +98,8 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Yammer). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).    |
-|Microsoft 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Microsoft 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Microsoft 365 group expiration policy](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Yammer). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Microsoft 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Microsoft 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Microsoft 365 group expiration policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### Assessments for meetings and conferencing
 
@@ -107,7 +107,7 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Audio Conferencing licenses    |Whether you have an active subscription with Audio conferencing licenses. This is a prerequisite if you're deploying Audio conferencing bridges. Queries the Microsoft Graph to see whether you have Audio Conferencing licenses (with at least one license available to assign) For more information, read [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
+|Audio Conferencing licenses    |Whether you have an active subscription with Audio conferencing licenses. This is a prerequisite if you're deploying Audio conferencing bridges. Queries the Microsoft Graph to see whether you have Audio Conferencing licenses (with at least one license available to assign) For more information, read [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
 |Stream licenses     |Whether you have an active subscription with Microsoft Stream licenses. This is a prerequisite if you want to turn on Meeting Recording. Queries the Microsoft Graph to see whether you have Microsoft Stream licenses (with at least one license available to assign). For more information on Stream and how to turn it on, read [Teams cloud meeting recording](cloud-recording.md).
 
 ### Assessments for Skype for Business Upgrade
@@ -138,7 +138,7 @@ Once Advisor for Teams creates your Deployment team, the Advisor bot delivers th
 
 ## Advisor for Teams and Microsoft 365 learning pathways
 
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an on-demand learning solution that you can customize to train your users, and increase usage and adoption of Teams in your organization. Use learning pathways together with Advisor for Teams to get your users up and running quickly and drive adoption.
+[Microsoft 365 learning pathways](/office365/customlearning/) is an on-demand learning solution that you can customize to train your users, and increase usage and adoption of Teams in your organization. Use learning pathways together with Advisor for Teams to get your users up and running quickly and drive adoption.
 
 Learning pathways gives you a SharePoint Online site template and the ability to easily build a learning site for your users. You can customize the learning pathways training portal to include training and support content specific to your users' needs. Use the Teams playlists from the Microsoft online catalog and add your own.
 
@@ -150,9 +150,9 @@ The following is an overview of how you can use Advisor for Teams together with 
 
 ### Get started in learning pathways
 
-To get started with learning pathways, check out [Get started with learning pathways](https://docs.microsoft.com/office365/customlearning/).
+To get started with learning pathways, check out [Get started with learning pathways](/office365/customlearning/).
 
-To set up a new learning pathways solution in your environment, see [Provision a new learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_provision).
+To set up a new learning pathways solution in your environment, see [Provision a new learning pathways solution](/office365/customlearning/custom_provision).
 
 ### Create a learning plan
 
@@ -160,13 +160,13 @@ To set up a new learning pathways solution in your environment, see [Provision a
 
 Before you build your site in learning pathways, take some time to review and collect the learning resources and capabilities available to you. With learning pathways, you can use content from the Microsoft 365 training page and add content that you create to tailor the site to your unique needs.
 
-To learn more, see [Plan your learning pathways content](https://docs.microsoft.com/office365/customlearning/custom_plancontent) and [Resources for supporting your remote workforce](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources).
+To learn more, see [Plan your learning pathways content](/office365/customlearning/custom_plancontent) and [Resources for supporting your remote workforce](/office365/customlearning/custom_plancontent_remoteresources).
 
 #### Explore Teams content in learning pathways
 
 Learning pathways provides a SharePoint site with a web part that's connected to an online catalog. The Microsoft 365 training page, which hosts the web part, shows all the training available in learning pathways. Have a look around to get familiar with what's available and how content is organized.
 
-[Go to your learning pathways site](https://docs.microsoft.com/office365/customlearning/custom_goto), select **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then select the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
+[Go to your learning pathways site](/office365/customlearning/custom_goto), select **Microsoft 365 training**, and then select **Microsoft Teams** to see all the Teams training playlists in the online catalog. Select a playlist and then select the **Next** and **Previous** buttons to navigate through it. You can also click the down arrow to view the contents of the playlist and go to a specific topic.
 
 #### Take an inventory of Teams learning resources in your organization
 
@@ -174,7 +174,7 @@ Review the Teams learning content that's already available in your organization.
 
 #### Build your site in learning pathways
 
-The [Admin Success Center](https://docs.microsoft.com/office365/customlearning/custom_successcenter) in learning pathways provides guidance and resources to help you plan and customize learning pathways in your organization. Learn how to [customize the site](https://docs.microsoft.com/office365/customlearning/custom_overview), show and hide content, build custom playlists, and more.
+The [Admin Success Center](/office365/customlearning/custom_successcenter) in learning pathways provides guidance and resources to help you plan and customize learning pathways in your organization. Learn how to [customize the site](/office365/customlearning/custom_overview), show and hide content, build custom playlists, and more.
 
 To access the Admin Success Center, on the learning pathways Home page, select **Admin Success Center**.
 
@@ -195,7 +195,7 @@ Use the resources in your learning pathways site to onboard your help desk and C
 
 For guidance and resources on preparing your help desk and Champions for Teams, see [Train your org](https://adoption.microsoft.com/microsoft-teams/#train-your-org) and [Build Champions](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-As the go-to contact for your users for “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](https://docs.microsoft.com/office365/customlearning/) by building a training and support page, and then [add it  as a tab to a channel](#add-your-site-to-teams) in a team for users to self-serve.
+As the go-to contact for your users for “how to” questions, your help desk and Champions can use the learning pathways site to train users and as an alternative to creating support tickets. Encourage your help desk and Champions to [customize your learning pathways site](/office365/customlearning/) by building a training and support page, and then [add it  as a tab to a channel](#add-your-site-to-teams) in a team for users to self-serve.
 
 ### Drive adoption
 
@@ -207,7 +207,7 @@ Engage your users by highlighting the ways they can collaborate in Teams, and th
 
 Check out these resources, which include guidance, adoption kits, best practices, and more, to help you implement a successful rollout and adoption plan.  
 
-- [Drive adoption of learning pathways](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [Drive adoption of learning pathways](/office365/customlearning/driveadoption)
 - [Adopt Teams](adopt-microsoft-teams-landing-page.md)
 - [Adoption resources for Teams](https://adoption.microsoft.com/microsoft-teams/)
 
@@ -263,10 +263,10 @@ Go to the [Forms help center](https://support.office.com/forms).
 
 ## Related topics
 
-[Customize your Teams advisor](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
+[Customize your Teams advisor](/office365/customlearning/custom_teamsadvisor)
 
-[How to roll out Teams](How-to-roll-out-teams.md)
+[How to roll out Teams](./deploy-overview.md)
 
 [Best practices for organizing teams in Teams](best-practices-organizing.md)
 
-[Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+[Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

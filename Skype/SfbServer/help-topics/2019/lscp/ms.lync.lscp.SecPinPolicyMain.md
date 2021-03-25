@@ -29,11 +29,8 @@ What do you want to do? Click the link to the task that you want to perform.
 - [Delete a PIN policy in Skype for Business Server](../../../manage/authentication/delete-a-pin-policy.md)
 
   **Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.
-- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Modify the Default Dial-in Conferencing PIN Settings](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
-- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
-
-
-
+- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)

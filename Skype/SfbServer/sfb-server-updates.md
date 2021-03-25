@@ -27,7 +27,6 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-
 |Skype for Business Server 2019 Cumulative Update 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| July 2020 |
 |Skype for Business Server 2019 Cumulative Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| March 2020 |
@@ -230,7 +229,7 @@ Package Name/Link|Release Date|
 Package Name/Link|Release Date|
 |:--- |:--- |
 |[Lync Server 2010 Documentation Help File](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|March 2012 |
-|[Lync Server 2010 Welcome page](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|October 2012 |
+|[Lync Server 2010 Welcome page](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|October 2012 |
 |[IM an Expert for Microsoft Lync Server 2010 Documentation](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|March 2012 |
 |[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|January 2011 |
 |[Lync Server 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|January 2011 |
@@ -264,6 +263,6 @@ Software updates include any update, update rollup, service pack, feature pack, 
 
 ## Related topics
 
-- [Install Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [Upgrade to  Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Install Skype for Business Server 2015](./deploy/install/install.md)
+- [Upgrade to  Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](sfb-client-updates.md)

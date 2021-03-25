@@ -25,7 +25,7 @@ When you roll out Microsoft Teams, rather than launching with a "blank slate" (n
 
 ## How to use the PowerShell script 
 
-Start by running the [Export managers and their directs script](scripts/powershell-script-create-teams-from-managers-export-managers.md) (which assumes you've already run the [Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) and [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell modules). The *Export managers and their directs* script creates a tab-delimited file (ExportedManagerDirects.txt) that lists all managers with their direct reports. 
+Start by running the [Export managers and their directs script](scripts/powershell-script-create-teams-from-managers-export-managers.md) (which assumes you've already run the [Connect-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) and [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) PowerShell modules). The *Export managers and their directs* script creates a tab-delimited file (ExportedManagerDirects.txt) that lists all managers with their direct reports. 
 
 Then, run the [Create new people manager teams script](scripts/powershell-script-create-teams-from-managers-new-teams.md). This script reads in the ExportedManagerDirects.txt file and creates a team for each manager, with that manager's direct reports as members. If any manager or direct isn't enabled for Teams, the script skips them and doesn't create a team. (Review the report, then rerun the script after you've turned on Teams for anybody who needs it. The script won't create a second team for any manager it's already created a team for.)
 

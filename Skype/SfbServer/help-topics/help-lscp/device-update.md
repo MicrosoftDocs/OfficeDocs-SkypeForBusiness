@@ -19,7 +19,7 @@ description: "Microsoft periodically releases a new set of device firmware updat
 
 # Device Update
 
-Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users. You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition." Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded. After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab). For details, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
+Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users. You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition." Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded. After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab). For details, see [Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
 
 After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.
 
@@ -56,7 +56,7 @@ The following lists describe the menus, commands, fields, and properties on the 
 
 - **Refresh** You can refresh the list to verify the status of all device updates.
 
-For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in the Planning documentation.
+For details about Device Update Web service, see [View Software Updates for Devices in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-view-software-updates-for-devices-in-your-organization) in the Planning documentation.
 ## See also
 
-[Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
+[Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

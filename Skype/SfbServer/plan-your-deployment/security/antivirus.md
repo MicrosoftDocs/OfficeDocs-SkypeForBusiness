@@ -135,8 +135,6 @@ To ensure that the antivirus scanner does not interfere with the operation of Sk
 
   - File share store (specified in Topology Builder). File stores are specified in Topology Builder.
 
-  - SQL Server data and log files, including those for the back-end database, user store, archiving store, monitoring store, and application store. Database and log files can be specified in Topology Builder. For details about the data and log files for each database, including default names, see [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in the Deployment documentation.
+  - SQL Server data and log files, including those for the back-end database, user store, archiving store, monitoring store, and application store. Database and log files can be specified in Topology Builder. For details about the data and log files for each database, including default names, see [SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in the Deployment documentation.
 
   - SQL Server data and log files, including those for the Front-end database, Skype for Business store, and RtcDatabase store. They are normally under %localdrive%\CSData.
-
-

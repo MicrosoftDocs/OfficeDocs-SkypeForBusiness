@@ -25,21 +25,21 @@ You can use the results of a search query to configure users for Skype for Busin
 
 You can perform the following tasks on the **User Search** Control Panel page:
 
-- [Search for Users](https://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Search for Users](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 
-- [Enable or Disable Users](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Enable or Disable Users](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
 - [Move User](ms.lync.lscp.UserMove.md)
 
 - [Move All Users](ms.lync.lscp.UserMoveAll.md)
 
-- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
 - [Enable users for Enterprise Voice in Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
 
 
@@ -100,5 +100,3 @@ Add additional descriptive text, as appropriate.
   - **Move selected users to pool** Opens the [Move User](ms.lync.lscp.UserMove.md) dialog, where you can select a pool to move the selected user to.
 
   - **Move all users to pool** Opens the [Move User](ms.lync.lscp.UserMove.md) dialog, where you can select a pool to move all selected users to.
-
-
