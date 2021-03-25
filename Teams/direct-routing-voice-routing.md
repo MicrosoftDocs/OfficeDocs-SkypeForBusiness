@@ -160,9 +160,9 @@ Identity    : Global
 Usage        : {testusage, US and Canada, International, karlUsage. . .}
 ```
 
-The following example shows the result of running the `(Get-CSOnlinePSTNUsage).usage` Powershell command to display full names (not truncated):
+The following example shows the result of running the `(Get-CSOnlinePSTNUsage).usage` PowerShell command to display full names (not truncated):
 
-<pre>
+```console
  testusage
  US and Canada
  International
@@ -172,7 +172,7 @@ The following example shows the result of running the `(Get-CSOnlinePSTNUsage).u
  karlUsage2
  Unrestricted
  Two trunks
-</pre>
+```
 
 #### Step 2: Create three voice routes (Redmond 1, Redmond 2, and Other +1)
 
@@ -184,7 +184,8 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
 ```
 
 Which returns:
-<pre>
+
+```console
 Identity                : Redmond 1
 Priority                : 1
 Description             :
@@ -192,7 +193,7 @@ NumberPattern           : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages        : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name                    : Redmond 1
-</pre>
+```
 
 To create the Redmond 2 route, enter:
 
@@ -225,7 +226,8 @@ Verify that you've correctly configured the route by running the `Get-CSOnlineVo
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Which should return:
-<pre>
+
+```console
 Identity            : Redmond 1 
 Priority               : 1
 Description         : 
@@ -248,7 +250,7 @@ NumberPattern         : ^\+1(\d{10})$
 OnlinePstnUsages     : {US and Canada}     
 OnlinePstnGatewayList    : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name             : Other +1
-</pre>
+```
 
 In the example, the route "Other +1" was automatically assigned priority 4. 
 
@@ -262,12 +264,12 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 
 The result is shown in this example:
 
-<pre>
+```console
 Identity            : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
-</pre>
+```
 
 #### Step 4: Assign the voice routing policy to a user named Spencer Low
 
@@ -284,11 +286,12 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 
 The command returns the following:
-<pre>
+
+```console
 OnlineVoiceRoutingPolicy
 ---------------------
 US Only
-</pre>
+```
 
 ## Example 2: Voice routing with multiple PSTN usages
 
@@ -310,7 +313,7 @@ For all other calls, if a user has both licenses (Microsoft Phone System and Mic
 
 The following table summarizes routing policy "No Restrictions" usage designations and voice routes. 
 
-|**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
+| PSTN usage | Voice route | Number pattern | Priority | SBC | Description |
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |US and Canada|"Redmond 1"|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
 |US and Canada|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
@@ -391,9 +394,10 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
 ```
+
 Which returns:
 
-<pre>
+```console
 Identity                  : International
 Priority                  : 5
 Description               :
@@ -401,7 +405,7 @@ NumberPattern             : .*
 OnlinePstnUsages          : {International}
 OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
 Name                      : International
-</pre>
+```
 
 #### Step 3: Create a voice routing policy named "No Restrictions"
 
@@ -423,12 +427,12 @@ Take note of the order of PSTN usages:
 
 Which returns:
 
-    <pre>
+```console
     Identity              : International 
     OnlinePstnUsages : {US and Canada, International}     
     Description         :  
     RouteType               : BYOT
-    </pre>
+```
 
 #### Step 4: Assign the voice routing policy to the user named John Woods
 
@@ -444,11 +448,11 @@ Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
 
 Which returns:
 
-<pre>
+```console
 OnlineVoiceRoutingPolicy
 ------------------------
 No Restrictions
-</pre>
+```
 
 The result is that the voice policy applied to John Woods' calls is unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
