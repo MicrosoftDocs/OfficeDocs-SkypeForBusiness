@@ -81,7 +81,7 @@ In both views, an educator can access class data. Using the personal app, the ed
 At the class level, if an educator owns a class Team, Insights is available without any other action on the part of the IT Admin.
 
 ### Education leaders
-Education leaders can use Insights as a personal app available from Teams left app bar.
+Education leaders can use Insights as a [personal app](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347) available from Teams left app bar.
 
 At the organizational level, the IT admin needs to connect the student information system and assign permissions to each role to access the schools or departments relevant to them.
 
@@ -129,6 +129,7 @@ Currently, data is collected from the following areas in class teams:
 | **Assignments** |	Opening, turning in, and grade on assignments.|
 | **Channel engagement** |	Visiting a channel, creating a post, replying to and liking a post (not including chat content).|
 | **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
+| **OneNote Class Notebook** |	Editing a page or section in a notebook (not including page content).|
 | **Meetings** |	Attendance (not including meeting content).|
 
 > [!NOTE]
@@ -203,7 +204,8 @@ Feel free to distribute the following material to your **educators**:
 *	Train yourself with the [free Insights course](https://aka.ms/insights/course) at the Microsoft Educator Center
 *	And lastly, check out [this blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) dedicated to Insights.
 
-Material for **education leaders** will be published soon.
+Material for **education leaders**:
+*	[Insights for education organizations support page](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
 ## Turn Insights off or on
 By default, Insights is turned on. When you opt-out, we *delete all the data collected* for Insights. Turn Insights back on, and we start collecting data from the time it's re-enabled.
