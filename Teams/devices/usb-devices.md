@@ -74,7 +74,6 @@ If you're a manufacturer and want to join the certification program, see [How to
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |EPOS/Sennheiser      |Adapt 200 Series Headsets                                  |3/19/2021       |Certified for Microsoft Teams                           |
-|Poly                 |Voyager Focus 2 Headset                                    |3/11/2021       |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Certified for Microsoft Teams                           |
 |Poly                 |Studio P15 Video bar                                       |2/1/2021        |Certified for Microsoft Teams                           |
 |Poly                 |Sync 40 speakerphone                                       |1/19/2021       |Certified for Microsoft Teams                           |
