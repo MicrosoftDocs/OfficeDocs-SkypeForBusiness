@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 
 
 ## Week of March 15, 2021
@@ -9,7 +10,6 @@
 |------|------------|--------|
 | 3/15/2021 | [Microsoft Teams Devices Monitoring and Alerting](../alerts/device-health-status.md) | added |
 | 3/15/2021 | [Microsoft Teams Monitoring and Alerting](../alerts/teams-admin-alerts.md) | added |
-| 3/15/2021 | [Implement your move to Microsoft Teams](../implement-your-move.md) | added |
 | 3/15/2021 | [Teams and Outlook email integration](../teams-outlook-email-integration.md) | modified |
 | 3/15/2021 | [Share to Teams](../teams-outlook-share-teams.md) | added |
 | 3/16/2021 | [Create a custom team template in Microsoft Teams](../create-a-team-template.md) | modified |
