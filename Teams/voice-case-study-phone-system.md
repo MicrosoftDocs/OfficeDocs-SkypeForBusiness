@@ -38,7 +38,7 @@ To implement a Microsoft Phone System solution for their entire organization, Co
 
 - Combination of Phone System with Calling Plan and Phone System with own PSTN carrier through Direct Routing
  
-To determine the right solution for their organization, Contoso used [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+To determine the right solution for their organization, Contoso used [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
 
 ## Site Type A: Skype for Business Enterprise Voice 
 
@@ -207,11 +207,5 @@ Contoso saw the opportunity to leverage Local Media Optimization in the differen
 
 Contoso had a number of users who needed to work remotely for an extended period of time after they were enabled for Phone System. The users used VPN to access certain Line of Business applications. While on VPN, the Phone System users experienced a degradation of call quality. 
 
-To resolve the quality issue, Contoso implemented VPN split tunneling, which allowed their Office 365 traffic to traverse the Internet while the connection to the internal apps remained on the VPN. To implement VPN split tunneling, Contoso followed the guidance in [Implementing VPN split tunneling for Office 365](https://docs.microsoft.com/office365/enterprise/office-365-vpn-implement-split-tunnel).  
-
- 
-
-
-
-
+To resolve the quality issue, Contoso implemented VPN split tunneling, which allowed their Office 365 traffic to traverse the Internet while the connection to the internal apps remained on the VPN. To implement VPN split tunneling, Contoso followed the guidance in [Implementing VPN split tunneling for Office 365](/office365/enterprise/office-365-vpn-implement-split-tunnel).  
 

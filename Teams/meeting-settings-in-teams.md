@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -34,7 +34,7 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
 ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
-You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
 1. Go to the admin center.
 
@@ -46,6 +46,26 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 > [!CAUTION]
 > If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
+
+## Allow anonymous users to interact with apps in meetings
+
+Anonymous users will now inherit the user-level global default permission policy. This control will then allow anonymous users to interact with apps in Teams meetings as long as the user-level permission policy has enabled the app. Note that anonymous users can only interact with apps that are already available in a meeting and cannot acquire and/or manage these apps. 
+
+> [!IMPORTANT]
+> By default, the setting to allow anonymous users to interact with apps in meetings is enabled.
+
+![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+
+You must be a Teams service admin to access this setting. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
+
+1. Go to the admin center.
+
+2. In the left navigation, go to **Meetings** > **Meeting settings**.
+
+3. Under **Participants**, the setting for **Anonymous users can interact with apps in meetings** can be changed.
+
+> [!CAUTION]
+> If you don't want anonymous users to interact with apps in meetings scheduled by users in your organization, turn off this setting.
 
 ## Customize meeting invitations
 

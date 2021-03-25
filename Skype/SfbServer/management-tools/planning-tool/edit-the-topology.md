@@ -79,4 +79,4 @@ To save the Planning Tool design, click **File**, and then click **Save Topology
 ## See also
 <a name="Edit_Network_diagram"> </a>
 
-[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

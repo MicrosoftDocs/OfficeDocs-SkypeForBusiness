@@ -71,7 +71,7 @@ To help you will sizing your network, download the [Skype for Business Bandwidth
 
 For more about media quality and QoS, see [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
 
-For more about setting up and managing QoS, see [Managing Quality of Service](https://technet.microsoft.com/library/gg425841.aspx).
+For more about setting up and managing QoS, see [Managing Quality of Service](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md).
 
 ## Bypass proxies and WAN optimization devices
 
@@ -87,7 +87,7 @@ Here are some available resources that can help too:
 
 - [Office 365 Proxy Pac generator](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
-- [Using WAN Optimization Controller or Traffic/Inspection devices with Microsoft 365 or Office 365](https://aka.ms/kb2690045)
+- [Using WAN Optimization Controller or Traffic/Inspection devices with Microsoft 365 or Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
 - [Routing with ExpressRoute for Microsoft 365 or Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
@@ -104,9 +104,9 @@ Additional resources:
 
 - [Enabling Lync Media to Bypass a VPN Tunnel](https://blogs.technet.microsoft.com/nexthop/2011/11/14/enabling-lync-media-to-bypass-a-vpn-tunnel/)
 
-- [More on Direct Access, Split Tunneling and Force Tunneling](https://blogs.technet.com/b/tomshinder/archive/2010/03/30/more-on-directaccess-split-tunneling-and-force-tunneling.aspx)
+- [More on Direct Access, Split Tunneling and Force Tunneling](/archive/blogs/tomshinder/more-on-directaccess-split-tunneling-and-force-tunneling)
 
-- [Enable Direct Access](https://technet.microsoft.com/library/jj574163.aspx)
+- [Enable Direct Access](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj574163(v=ws.11))
 
 ## Ensure the right ports and protocols are open
 
@@ -127,11 +127,11 @@ See the following for more information on supported and certified devices:
 
 - [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 
-- [Phones and Devices for Skype for Business](https://technet.microsoft.com/office/dn947482.aspx)
+- [Phones and Devices for Skype for Business](../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
 - [Solutions Catalog for Personal Peripherals](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
-- [Phones and devices qualified for Microsoft Lync](https://technet.microsoft.com/office/dn788944.aspx)
+- [Phones and devices qualified for Microsoft Lync](../../SfbPartnerCertification/lync-cert/ip-phones.md)
 
 The environment and surrounding area where users are meeting and using audio and video devices is another big factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants will receive.
 

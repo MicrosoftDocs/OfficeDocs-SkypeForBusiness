@@ -80,7 +80,7 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-For more information, see the help topic for the [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) cmdlet.
   
 ## See also
 

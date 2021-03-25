@@ -23,14 +23,14 @@ ms.custom:
 
 # Manage app setup policies in Microsoft Teams
 
-> [!NOTE]
-> If you enabled the org-wide app setting, **Allow interaction with custom apps**, you may not see app setup policies yet in the Microsoft Teams admin center. It's currently being rolled out and will be available soon in your organization.
-
 As an admin, you can use app setup policies to do the following tasks:
 
 - Customize Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. Pinning apps lets you showcase apps that users in your organization need, including apps built by third parties or by developers in your organization.
 - Control whether users can pin apps to Teams.
-- Install apps on behalf of users **(in preview)**. You choose which apps are installed by default for users when they start Teams. Keep in mind that users can still install apps themselves if the [app permission policy](teams-app-permission-policies.md) that's assigned to them allows it.
+- Install apps on behalf of users. You choose which apps are installed by default for users when they start Teams. Keep in mind that users can still install apps themselves if the [app permission policy](teams-app-permission-policies.md) that's assigned to them allows it.
+
+> [!Note]
+> For apps installed by admins, users can't uninstall those apps.
 
 Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
@@ -38,7 +38,7 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 |---------|---------|
 |![The Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
 
-To see their pre-installed apps, in the app bar, users select **... More apps** in the Teams desktop and web clients and swipe up in the mobile clients.
+To see the apps installed by admins, in the app bar, users select **... More apps** in the Teams desktop and web clients and swipe up in the mobile clients.
 
 You manage app setup policies in the Microsoft Teams admin center. Use the global (Org-wide default) policy or create and assign custom policies.  Users in your organization will automatically get the global policy unless you create and assign a custom policy. You must be a global admin or Teams service admin to manage these policies.
 
@@ -58,7 +58,7 @@ You can use the Microsoft Teams admin center to create a custom policy.
 2. Select **Add**.
 
    ![the Add app setup policies page](media/app-setup-policies-add.png)
-	
+
 3. Enter a name and description for the policy.
 
 4. Turn on or turn off **Upload custom apps**, depending on whether you want to let users upload custom apps to Teams. You can't change this setting if **Allow third-party apps** is turned off in [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
@@ -68,18 +68,18 @@ You can use the Microsoft Teams admin center to create a custom policy.
    > [!NOTE]
    > The **Allow user pinning** setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but currently it has no effect.
 
-6. To install apps for users **(in preview)**, do the following tasks:
+6. To install apps for users, do the following tasks:
 
     1. Under **Installed apps**, select **Add apps**.
-	
+
     2. In the **Add installed apps** pane, search for the apps you want to automatically install for users when they start Teams. You can also filter apps by app permission policy. When you've chosen your list of apps, select **Add**.
 
        ![the Add installed apps pane](media/app-setup-policies-add-installed-apps.png)
 
-7. To pin apps, do the following:
+7. To pin apps, do the following steps:
 
     1. Under **Pinned apps**, select **Add apps**.
-	
+
     2. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps to pin, select **Add**.
 
        ![the Add pinned apps pane](media/app-setup-policies-add-apps.png)
@@ -112,7 +112,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 - **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users.
 
-- **FirstLineWorker**: This policy is for Firstline Workers. You can assign it to Firstline Workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
+- **FrontlineWorker**: This policy is for Frontline Workers. You can assign it to Frontline Workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
 
 #### Why can't I find an app in the Add pinned apps pane
 
@@ -157,11 +157,11 @@ Users can change the order of their pinned apps on Teams desktop and mobile clie
 
 #### Does user pinning take precedence
 
-If the app setup policy assigned to the user is changed to block user app pinning, Teams removes any apps pinned to the app bar. If the policy is then changed to allow user app pinning, users must re-pin their previously pinned apps.
+If the app setup policy assigned to the user is changed to block user app pinning, Teams removes any apps pinned to the app bar. If the policy is then changed to allow user app pinning, users must repin their previously pinned apps.
 
 ### Custom Teams apps
 
-#### My organization built a custom Teams app and published it, either to AppSource or the tenant app catalog, but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it
+My organization built a custom Teams app and published it, either to AppSource or the tenant app catalog, but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 

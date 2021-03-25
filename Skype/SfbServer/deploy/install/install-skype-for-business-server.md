@@ -115,7 +115,7 @@ Once you have published a topology, you can install the Skype for Business Serve
     > Skype for Business Server includes support for the SHA-2 suite (SHA-2 uses digest lengths of 224, 256, 384 or 512 bits) of digest hash and signing algorithms for connections from clients running the Windows 10, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 operating systems. To support external access using the SHA-2 suite, the external certificate is issued by a public CA that also can issue a certificate with the same bit length digest. 
   
     > [!IMPORTANT]
-    > The selection of which hash digest and signing algorithm is dependent on the clients and the servers that will use the certificate, and other computers and devices that clients and servers will communicate with who must also know how to use the algorithms used in the certificate. For information on which digest lengths are supported in the operating system and some client applications, see [Windows PKI blog - SHA2 and Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002). 
+    > The selection of which hash digest and signing algorithm is dependent on the clients and the servers that will use the certificate, and other computers and devices that clients and servers will communicate with who must also know how to use the algorithms used in the certificate. For information on which digest lengths are supported in the operating system and some client applications, see [Windows PKI blog - SHA2 and Windows](/archive/blogs/pki/sha2-and-windows). 
   
     Each Standard Edition or Front End server requires up to four certificates: the oAuthTokenIssuer certificate, a default certificate, a web internal certificate, and a web external certificate. However, you can request and assign a single default certificate with appropriate subject alternative name entries as well as the oAuthTokenIssuer certificate. For details about the certificate requirements, see [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
     
@@ -177,7 +177,7 @@ Once you have published a topology, you can install the Skype for Business Serve
     > If you are installing in a lab environment and have just set up the Certificate Authority using Active Directory Certificate Services, you will need to reboot both the server running Certificate Services and also the Front End server before the certificate assignment can go through successfully. 
   
     > [!TIP]
-    >  For more information about certificates in Active Directory Certificate Services, see [Active Directory Certificate Services](https://technet.microsoft.com/windowsserver/dd448615.aspx). 
+    >  For more information about certificates in Active Directory Certificate Services, see [Active Directory Certificate Services](/windows/deployment/deploy-whats-new). 
   
 ### Step 4: Start Services
 
@@ -193,5 +193,3 @@ Once you have published a topology, you can install the Skype for Business Serve
     > The command to start the services on the server is a best effort method to report that the services have, in fact, started. It might not reflect the actual state of the service. We recommend that you use the step **Service Status (Optional)** to open the Microsoft Management Console (MMC) and confirm that the services have started successfully, as shown in the figure. If any Skype for Business Server service has not started, you can right-click that service in the MMC, and then click **Start**. 
   
      ![Verify services have started.](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)
-  
-

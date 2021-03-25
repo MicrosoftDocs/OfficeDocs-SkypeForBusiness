@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams virtual meeting rooms
+title: Microsoft Teams Rooms
 ms.reviewer: 
 ms.author: dstrome
 author: dstrome
@@ -32,7 +32,7 @@ ms.custom: seo-marvel-may2020
 
 |               |               |               |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[Deploy](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[Manage](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Plan](./rooms-plan.md)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Deploy](./rooms-deploy.md)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Manage](./rooms-manage.md)** |
 
 <br>
 

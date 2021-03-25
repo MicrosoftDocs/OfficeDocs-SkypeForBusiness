@@ -33,7 +33,7 @@ Some of the common scenarios for using call park are:
 - A user parks a call on a mobile device because the device battery is running out of power. The user can then enter the code to retrieve the call from a Teams desk phone.
 - A support representative parks a customer call and sends an announcement on a Teams channel for an expert to retrieve the call and help the customer. An expert enters the code in Teams clients to retrieve the call
 
-To park and retrieve calls, a user must be an Enterprise Voice user and and must be included in a call park policy.
+To park and retrieve calls, a user must be an Enterprise Voice user and must be included in a call park policy.
 
 > [!NOTE]
 > Call park and retrieve is only available in [Teams Only deployment mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and is not supported on Skype for Business IP phones.
@@ -56,16 +56,16 @@ You can edit the policy by selecting it in the list and clicking **Edit**.
 
 In order for the policy to work, it must be assigned to users. You can [assign the policy to users individually](assign-policies.md) or assign them to a group.
 
-To assign a call part policy to a group
+To assign a call park policy to a group
 
 1. On the **Call park policies** page, on the **Group policy assignment** tab, click **Add group**.
 2. Search for the group that you want to use, and then click **Add**.
 3. Choose a rank compared to other group assignments.
 4. Under **Select a policy**, choose the policy that you want to assign this group to.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![park policies image](media/call-park-assign-policy-to-group.png)
 
-5. Click **Apply**.
+5. Select **Apply**.
 
 ## Related topics
 
@@ -73,8 +73,8 @@ To assign a call part policy to a group
 
 [Assign policies to your users in Teams](assign-policies.md)
 
-[New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
 
-[Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
+[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
 
-[Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)
+[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)

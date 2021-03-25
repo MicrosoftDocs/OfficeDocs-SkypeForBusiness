@@ -29,8 +29,8 @@ appliesto:
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 To drive a successful Teams upgrade in your organization, it's important that you validate your current Skype for Business environment and your network readiness. Preparing your current environment will help ensure a high-quality user experience now, in addition to improving the quality of the user experience in Teams. Taking time to plan individual steps can help accelerate your deployment and ensure that you haven't skipped any important action items.

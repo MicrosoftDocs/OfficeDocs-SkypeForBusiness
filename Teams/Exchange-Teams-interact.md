@@ -32,7 +32,7 @@ Users hosted on Exchange Online or Exchange Dedicated vNext can use all the feat
 Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they cannot modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
 > [!IMPORTANT]
-> For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later. Modern Hybrid support is limited to Free/Busy and will not provide calendar integration from Teams to mailboxes on-premises, for example. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid).
+> For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later. Modern Hybrid support is limited to Free/Busy and will not provide calendar integration from Teams to mailboxes on-premises, for example. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](/exchange/exchange-hybrid).
 
 Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section are met.
 
@@ -45,7 +45,7 @@ The following table provides a helpful quick reference to feature availability b
 | **Exchange Online**                                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
 | **Exchange Online Dedicated vNext**                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
 | **Exchange Online Dedicated – Legacy** (Sync to Azure AD required)  | Yes <sup>1</sup> | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
-| **Exchange On-premises** (Sync to Azure AD) | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>         | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
+| **Exchange On-premises** (Sync to Azure AD) | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>         | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -59,9 +59,10 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
-<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture. For example, if a user uploads a profile picture that's approved by your organization's IT or HR department, no action is needed. However, if a user uploads an inappropriate picture, change it according to your organization's internal policies.
-
+<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture, so the porfile picture wont be synced to teams if the admin changes the photo.
 <sup>8</sup> You need to meet the requirements listed in the [Requirements to create and view meetings for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
+
+<sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required. For more information, see [Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
 ## Requirements to get the most out of Microsoft Teams
 
@@ -84,29 +85,29 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 - The required Teams license needs to be assigned for the Azure Active Directory synced user.
 
-- Users must be synchronized to Azure Active Directory. For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Hybrid identity documentation](https://docs.microsoft.com/azure/active-directory/hybrid/).
+- Users must be synchronized to Azure Active Directory. For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Hybrid identity documentation](/azure/active-directory/hybrid/).
 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
 - Autodiscover and Exchange Web Services is published externally.
 
-- OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+- OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   > [!NOTE]
   > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
 - The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set.
 
-- For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
+- For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 To enable calendar delegation for these users:
 
-- You must also complete steps 2-3 as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
+- You must also complete steps as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
  
   > [!NOTE]
   > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
-- Teams Scheduling add-in for Outlook when scheduling a meeting on behalf of someone requires Exchange 2013 CU19 or later. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
+- The Teams Scheduling add-in for Outlook requires Exchange 2013 CU19 or later when scheduling a meeting on behalf of someone else. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
 ## Additional considerations
 
@@ -116,12 +117,12 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Allow scheduling private meetings](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings).
+- If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Allow scheduling private meetings](./meeting-policies-in-teams.md#allow-scheduling-private-meetings).
 
-- In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
-- For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid).
+- For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](/exchange/hybrid-deployment/deploy-hybrid).
 
 ## Troubleshooting
 
-For a full troubleshooting guide on the topic, make sure to check out [Troubleshoot Microsoft Teams and Exchange Server interaction issues](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).
+For a full troubleshooting guide on the topic, make sure to check out [Troubleshoot Microsoft Teams and Exchange Server interaction issues](/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue).

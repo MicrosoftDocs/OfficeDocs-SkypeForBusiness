@@ -2,83 +2,93 @@
 
 
 
-## Week of January 04, 2021
+## Week of March 15, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 1/4/2021 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 1/4/2021 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
-| 1/4/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 1/4/2021 | [Configure Session Border Controller - Multiple tenants](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modified |
-| 1/5/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 1/5/2021 | [Enhance existing Microsoft 365 groups](/MicrosoftTeams/enhance-office-365-groups) | modified |
-| 1/5/2021 | [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | modified |
-| 1/5/2021 | [Teams experience in a Microsoft 365 Multi-Geo-enabled environment](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modified |
-| 1/5/2021 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
-| 1/5/2021 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
-| 1/5/2021 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
-| 1/6/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 1/6/2021 | [Manage the private channels in Microsoft Teams with Graph API](/MicrosoftTeams/private-channels-life-cycle-management) | modified |
-| 1/6/2021 | [Manage teams policies in Microsoft Teams](/MicrosoftTeams/teams-policies) | modified |
-| 1/6/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 1/6/2021 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
-| 1/7/2021 | [Use Microsoft Teams scoped directory search](/MicrosoftTeams/teams-scoped-directory-search) | modified |
-| 1/7/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 1/8/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 1/8/2021 | [Retention policies in Microsoft Teams](/MicrosoftTeams/retention-policies) | modified |
-| 1/8/2021 | [Turn on or turn off guest access to Microsoft Teams](/MicrosoftTeams/set-up-guests) | modified |
-| 1/8/2021 | [Teams for Education Policy Wizard to easily apply policies for safe learning](/MicrosoftTeams/easy-policy-setup-edu) | modified |
+| 3/15/2021 | [Microsoft Teams Devices Monitoring and Alerting](../alerts/device-health-status.md) | added |
+| 3/15/2021 | [Microsoft Teams Monitoring and Alerting](../alerts/teams-admin-alerts.md) | added |
+| 3/15/2021 | [Implement your move to Microsoft Teams](../implement-your-move.md) | added |
+| 3/15/2021 | [Teams and Outlook email integration](../teams-outlook-email-integration.md) | modified |
+| 3/15/2021 | [Share to Teams](../teams-outlook-share-teams.md) | added |
+| 3/16/2021 | [Create a custom team template in Microsoft Teams](../create-a-team-template.md) | modified |
+| 3/16/2021 | [Plan Direct Routing](../direct-routing-plan.md) | modified |
+| 3/16/2021 | [Phone System Direct Routing](../direct-routing-protocols-sip.md) | modified |
+| 3/16/2021 | [Information barriers in Microsoft Teams](../information-barriers-in-teams.md) | modified |
+| 3/16/2021 | [Overview of security and compliance](../security-compliance-overview.md) | modified |
+| 3/17/2021 | [Country and region availability for Business Voice](../business-voice/country-region-availability.md) | modified |
+| 3/17/2021 | [Export content with the Microsoft Teams Export APIs](../export-teams-content.md) | modified |
+| 3/17/2021 | [Reset the Audio Conferencing PIN in Microsoft Teams](../reset-the-audio-conferencing-pin-in-teams.md) | modified |
+| 3/17/2021 | [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) | modified |
+| 3/17/2021 | [Microsoft Teams panels](../devices/teams-panels.md) | modified |
+| 3/17/2021 | [Get started with Teams for healthcare organizations](../expand-teams-across-your-org/healthcare/teams-in-hc.md) | modified |
+| 3/17/2021 | [Microsoft Teams admin documentation # < 60 chars](../index.yml) | modified |
+| 3/17/2021 | [Install Moodle integration with Microsoft Teams](../install-moodle-integration.md) | modified |
+| 3/17/2021 | [Limits and specifications for Microsoft Teams](../limits-specifications-teams.md) | modified |
+| 3/17/2021 | [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md) | modified |
+| 3/17/2021 | [Microsoft Teams PSTN usage report](../teams-analytics-and-reports/pstn-usage-report.md) | modified |
+| 3/17/2021 | [Manage the Microsoft Teams Exploratory experience](../teams-exploratory.md) | modified |
+| 3/17/2021 | [Microsoft Teams PowerShell Release Notes](../teams-powershell-release-notes.md) | modified |
+| 3/17/2021 | [Try or purchase Audio Conferencing in Microsoft 365 for Teams](../try-or-purchase-audio-conferencing-in-office-365-for-teams.md) | modified |
+| 3/17/2021 | [View-only meeting experience](../view-only-meeting-experience.md) | modified |
+| 3/18/2021 | [Install Power BI Connector to use CQD query templates](../cqd-power-bi-connector.md) | modified |
+| 3/18/2021 | [How Exchange and Microsoft Teams interact](../exchange-teams-interact.md) | modified |
+| 3/18/2021 | [Admin training resources - Microsoft Teams](../itadmin-readiness.md) | modified |
+| 3/18/2021 | [Answer auto attendant and call queue calls](../answer-auto-attendant-and-call-queue-calls.md) | modified |
+| 3/18/2021 | [Microsoft Teams apps permissions and considerations](../app-permissions.md) | modified |
+| 3/18/2021 | [Country/region availability - Audio Conferencing, Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | modified |
+| 3/18/2021 | [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md) | modified |
+| 3/18/2021 | [Manage and filter Microsoft Teams device tags](../devices/manage-device-tags.md) | modified |
+| 3/18/2021 | [Devices for Teams](../devices/teams-ip-phones.md) | modified |
+| 3/18/2021 | [Microsoft Teams panels](../devices/teams-panels.md) | modified |
+| 3/18/2021 | [Connect your Session Border Controller (SBC) to Direct Routing](../direct-routing-connect-the-sbc.md) | modified |
+| 3/18/2021 | [Export content with the Microsoft Teams Export APIs](../export-teams-content.md) | modified |
+| 3/18/2021 | [Information barriers in Microsoft Teams](../information-barriers-in-teams.md) | modified |
+| 3/18/2021 | [Limits and specifications for Microsoft Teams](../limits-specifications-teams.md) | modified |
+| 3/18/2021 | [Manage meeting policies](../meeting-policies-in-teams.md) | modified |
+| 3/18/2021 | [Release notes for Microsoft Teams](../release-notes/release-notes.md) | modified |
+| 3/18/2021 | [Manage Microsoft Teams Rooms devices with Azure Monitor](../rooms/azure-monitor-manage.md) | modified |
+| 3/18/2021 | [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md) | modified |
+| 3/18/2021 | [Microsoft Teams Rooms maintenance and operations](../rooms/rooms-operations.md) | modified |
+| 3/18/2021 | [Prepare your Environment](../rooms/rooms-prep.md) | modified |
+| 3/18/2021 | [Remotely manage Microsoft Teams Rooms device settings](../rooms/xml-config-file.md) | modified |
+| 3/18/2021 | [Sensitivity labels for Microsoft Teams](../sensitivity-labels.md) | modified |
+| 3/18/2021 | [Support remote workers using Microsoft Teams](../support-remote-work-with-teams.md) | modified |
+| 3/18/2021 | [Microsoft Teams PSTN usage report](../teams-analytics-and-reports/pstn-usage-report.md) | modified |
+| 3/18/2021 | [Install Microsoft Teams PowerShell](../teams-powershell-install.md) | modified |
+| 3/18/2021 | [Microsoft Teams PowerShell Release Notes](../teams-powershell-release-notes.md) | modified |
+| 3/18/2021 | [Manage Teams templates in the admin center](../templates-policies.md) | modified |
+| 3/18/2021 | [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md) | modified |
+| 3/18/2021 | [Teams for Virtual visits](../expand-teams-across-your-org/healthcare/ehr-admin.md) | modified |
+| 3/18/2021 | [View-only meeting experience](../view-only-meeting-experience.md) | modified |
+| 3/18/2021 | [Walkie Talkie application in Microsoft Teams](../walkie-talkie.md) | modified |
+| 3/18/2021 | [Turn on or turn off guest access to Microsoft Teams](../set-up-guests.md) | modified |
+| 3/18/2021 | [Plan for live events in Microsoft Teams](../teams-live-events/plan-for-teams-live-events.md) | modified |
+| 3/19/2021 | [Manage meeting policies](../meeting-policies-in-teams.md) | modified |
+| 3/19/2021 | [Microsoft Teams panels](../devices/teams-panels.md) | modified |
+| 3/19/2021 | [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) | modified |
 
 
-## Week of December 21, 2020
+## Week of February 15, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/22/2020 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
-| 12/22/2020 | [Using breakout rooms in Teams](/MicrosoftTeams/using-breakout-rooms) | modified |
-| 12/23/2020 | [Connect the Patients app to Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | modified |
-| 12/23/2020 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
-| 12/23/2020 | [Onboarding checklist - Configure cloud voice workloads - Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | modified |
-| 12/23/2020 | [Use the Teams App Submission API to submit and approve your custom apps](/MicrosoftTeams/submit-approve-custom-apps) | modified |
-| 12/23/2020 | [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modified |
-| 12/23/2020 | [Create a Teams 'Intranet Portal app' from a SharePoint Online site or page](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | modified |
-| 12/23/2020 | [Operations for Microsoft Teams\| Service Management \| Quality](/MicrosoftTeams/upgrade-operate-my-service) | modified |
-| 12/23/2020 | [Use Advisor for Teams to help you roll out Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modified |
-
-
-## Week of December 14, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/15/2020 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
-| 12/15/2020 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
-| 12/15/2020 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
-| 12/15/2020 | [Plan your voice solution in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modified |
-| 12/15/2020 | [Cortana voice assistance in Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modified |
-| 12/15/2020 | [Direct Routing Local Media Optimization](/MicrosoftTeams/direct-routing-media-optimization) | modified |
-| 12/15/2020 | [PSTN considerations when upgrading to Teams from a Skype for Business on-premises deployment](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modified |
-| 12/16/2020 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 12/16/2020 | [Plan your voice solution in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modified |
-| 12/16/2020 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
-| 12/16/2020 | [Configure Direct Routing](/MicrosoftTeams/direct-routing-configure) | modified |
-| 12/16/2020 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
-| 12/16/2020 | [Set up Calling Plans](/MicrosoftTeams/set-up-calling-plans) | modified |
-| 12/16/2020 | [Setting up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system) | modified |
-| 12/16/2020 | [Azure Sentinel and Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | modified |
-| 12/16/2020 | [Try or purchase Audio Conferencing in Microsoft 365 for Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modified |
-| 12/16/2020 | [Teams voice Contoso case study](/MicrosoftTeams/voice-case-study-overview) | modified |
-| 12/17/2020 | Upgrading from Skype for Business to Teams FAQ | removed |
-| 12/17/2020 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 12/17/2020 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 12/17/2020 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
-| 12/17/2020 | [Skype for Business Online retirement](/MicrosoftTeams/skype-for-business-online-retirement) | modified |
-| 12/18/2020 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
-| 12/18/2020 | [Phones and Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 12/18/2020 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 12/18/2020 | [Teams for Education Policy Wizard to easily apply policies for safe learning](/MicrosoftTeams/easy-policy-setup-edu) | modified |
-| 12/18/2020 | [Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
-| 12/18/2020 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 12/18/2020 | [What are dial plans?](/MicrosoftTeams/what-are-dial-plans) | modified |
+| 2/16/2021 | [Call park and retrieve in Microsoft Teams](../call-park-and-retrieve.md) | modified |
+| 2/16/2021 | [Create a team using Teams healthcare templates](../expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md) | modified |
+| 2/16/2021 | [Templates for healthcare organizations](../expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md) | modified |
+| 2/16/2021 | [Interoperability between Skype for Business and Microsoft Teams](../teams-and-skypeforbusiness-coexistence-and-interoperability.md) | modified |
+| 2/17/2021 | [Teams for Remote Desktop](/MicrosoftTeams/teams-for-rdp) | added |
+| 2/17/2021 | [Use Teams with remote desktop services](../teams-on-rdp.md) | added |
+| 2/17/2021 | [Use the Microsoft Teams Meeting add-in in Outlook](../teams-add-in-for-outlook.md) | modified |
+| 2/17/2021 | [Call park and retrieve in Microsoft Teams](../call-park-and-retrieve.md) | modified |
+| 2/17/2021 | [Session Border Controllers certified for Direct Routing](../direct-routing-border-controllers.md) | modified |
+| 2/17/2021 | [Connect your Session Border Controller (SBC) to Direct Routing](../direct-routing-connect-the-sbc.md) | modified |
+| 2/17/2021 | [Phone System Direct Routing](../direct-routing-protocols-sip.md) | modified |
+| 2/17/2021 | Templates for healthcare organizations | removed |
+| 2/17/2021 | [Teams apps behavior for non-standard users](../non-standard-users.md) | modified |
+| 2/17/2021 | [Plan for live events in Microsoft Teams](../teams-live-events/plan-for-teams-live-events.md) | modified |
+| 2/17/2021 | [Use OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) | modified |
+| 2/17/2021 | Teams for Remote Desktop | removed |
+| 2/17/2021 | [Install, manage, and assign permissions for the Teams Learning app (private preview)](../teams-learning-app-overview.md) | modified |

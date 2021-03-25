@@ -117,17 +117,17 @@ Now that you've defined your testing approach, the next step is configuring your
 
 For additional information, see:
 
-- [Technical Planning for Audio Conferencing](cloud-voice-deployment.md)
+- [Technical Planning for Audio Conferencing](./cloud-voice-landing-page.md)
 
 - [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 - [Technical Planning for Phone System with Calling Plans](calling-plan-landing-page.md)
 
-- [Set up Calling Plans for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Set up Calling Plans for Skype for Business and Microsoft Teams](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-- [Plan Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+- [Plan Direct Routing](./direct-routing-plan.md)
 
-- [Configure Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [Configure Direct Routing](./direct-routing-configure.md)
 
 ### Execute the test plan
 
@@ -176,7 +176,7 @@ After the user environment and the service have been configured, the last step o
 
 -   The list of organizational sites and user groups have been identified.
 
--   A [certified session border controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) has been deployed, configured and paired with Phone System.
+-   A [certified session border controller (SBC)](./direct-routing-plan.md#supported-session-border-controllers-sbcs) has been deployed, configured and paired with Phone System.
 
 -   Enterprise voice has been enabled, and the phone numbers have been assigned.
 
@@ -192,8 +192,8 @@ After the user environment and the service have been configured, the last step o
 </table>
 
 
-For additional detailed guidance on how to perform testing for Audio Conferencing in Teams, see the [detailed testing guide for Audio Conferencing](onboarding-test-plan-for-enterprises-Audio-Conferencing.md).
+For additional detailed guidance on how to perform testing for Audio Conferencing in Teams, see the [detailed testing guide for Audio Conferencing](./deploy-audio-conferencing-teams-landing-page.md).
 
-For additional detailed guidance on how to perform testing for Calling Plans in Teams, see the [detailed testing guide for Phone System](onboarding-test-plan-for-enterprises-Phone-System.md).
+For additional detailed guidance on how to perform testing for Calling Plans in Teams, see the [detailed testing guide for Phone System](./cloud-voice-landing-page.md).
 
 <!--ENDOFSECTION-->

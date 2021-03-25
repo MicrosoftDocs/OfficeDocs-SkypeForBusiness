@@ -53,7 +53,7 @@ To create a new archiving policy by using the Control Panel:
   
 ## Create a new archiving policy by using Windows PowerShell
 
-You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet. For more information, see the help topic for the [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.
+You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet. For more information, see the help topic for the [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.
   
 ### To create a new archiving policy at the site level
 

@@ -70,7 +70,7 @@ To plan custom dial plans, follow these steps:
 - **Step 4** Develop an organization-wide scheme for naming dial plans. Adopting a standard naming scheme assures consistency across an organization and makes maintenance and updates easier.
 
 
-## Creating your new tenant dial plan
+## Creating your new dial plan
 
 When you create a new dial plan, you must put in the information that is required.
 
@@ -108,7 +108,7 @@ Because any tenant dial plan is effectively merged with a given user's service c
 
 Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format. Normalization rules can be created by specifying the regular expression for the match and the translation to be done when a match is found. When you finish, you can enter a test number to verify that the normalization rule works as expected.
 
-For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
+For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).
 
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
 

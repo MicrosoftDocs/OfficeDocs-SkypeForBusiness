@@ -59,8 +59,8 @@ Teams currently includes the following policy packages.
 |Education (Teacher)    |Creates a set of policies and policy settings that apply to teachers.      |
 |Education (Primary school teacher using remote learning)    |Creates a set of policies that apply to primary teachers to maximize student safety and collaboration when using remote learning.      |
 |Education (Primary school student using remote learning)    |Creates a set of policies that apply to primary students to maximize student safety and collaboration when using remote learning.      |
-|Frontline manager |Creates a set of policies and applies those settings to Fronttline managers in your organization. |
-|Fronttline worker |Creates a set of policies and applies those settings to Fronttline workers in your organization. |
+|Frontline manager |Creates a set of policies and applies those settings to Frontline managers in your organization. |
+|Frontline worker |Creates a set of policies and applies those settings to Frontline workers in your organization. |
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
@@ -142,15 +142,13 @@ You can edit the settings of a policy through the **Policy packages** page or by
 
 #### Assign a policy package to a group
 
-**This feature is in private preview**
-
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
 To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
 
 #### Assign a policy package to a large set (batch) of users
 
-Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
+Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
 A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 

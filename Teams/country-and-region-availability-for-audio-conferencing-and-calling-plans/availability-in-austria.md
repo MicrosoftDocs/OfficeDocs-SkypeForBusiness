@@ -38,7 +38,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li>Vienna </ul>If you want dedicated phone numbers, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li>Vienna </ul>If you want dedicated phone numbers, see [Getting service phone numbers](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
 ## Phone System
@@ -68,7 +68,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
+ If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers](../getting-service-phone-numbers.md).
   
 ## Communications Credits
 
@@ -80,8 +80,6 @@ If you want to set them up, see [Set up Communications Credits for your organiza
   
 ## Related topics
 
-[Getting service phone numbers](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numbers](../getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-

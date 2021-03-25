@@ -40,6 +40,6 @@ To edit or modify the settings for a SIP trunk, you do the following:
 
 ## See also
 
-[SIP Trunking Deployment Checklist](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[SIP Trunking Deployment Checklist](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 
-[Components and Topologies for SIP Trunking](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Components and Topologies for SIP Trunking](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-sip-trunking)
