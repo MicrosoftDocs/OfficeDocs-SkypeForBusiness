@@ -1,9 +1,9 @@
 ---
 title: "Phone number management for New Zealand"
-author: CarolynRowe
-ms.author: crowe
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud

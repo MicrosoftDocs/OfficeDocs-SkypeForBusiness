@@ -61,7 +61,6 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
 > - [Luxembourg](phone-number-management-for-luxembourg.md)
-> - [Netherlands](phone-number-management-for-the-netherlands.md)
 > - [New Zealand](phone-number-management-for-new-zealand.md)
 > - [Norway](phone-number-management-for-norway.md)
 > - [Poland](phone-number-management-for-poland.md)
@@ -73,6 +72,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Spain](phone-number-management-for-spain.md)
 > - [Sweden](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)
+> - [Netherlands](phone-number-management-for-the-netherlands.md)
 > - [United Kingdom](phone-number-management-for-the-u-k.md)
 > - [United States & Puerto Rico](phone-number-management-for-the-u-s.md)
 

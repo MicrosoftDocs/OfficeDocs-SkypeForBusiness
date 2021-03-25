@@ -1,9 +1,9 @@
 ---
 title: "Phone number management for South Korea"
-author: CarolynRowe
-ms.author: crowe
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
@@ -34,7 +34,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Get phone numbers transferred to us.  <br/> | Download this form. <br/>[Letter of Authorization (LOA) for South Korea (all numbers) (v.1.0) (kr-kr)]() <br/> <br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/> |
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
-|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). Support is in English language only. |
    
 ## Related topics
 
