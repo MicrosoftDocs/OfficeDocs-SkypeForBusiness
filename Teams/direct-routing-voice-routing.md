@@ -65,7 +65,7 @@ The following diagram shows two examples of voice routing policies in a call flo
 
 ![Shows voice routing policy examples](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-In both examples, while the voice route is assigned priorities, the SBCs in the routes are tried in random order. When two SBC's are configured in one route, network traffic must be routable between both SBC's or media will fail to be established on transfers as it is possible that the new invite for the transfer will be sent to a different SBC in the route.
+In both examples, while the voice route is assigned priorities, the SBCs in the routes are tried in random order.
 
   > [!NOTE]
   > Unless the user also has a Microsoft Calling Plan license, calls to any number except numbers matching the patterns +1 425 XXX XX XX or +1 206 XXX XX XX in the example configuration are dropped. If the user has a Calling Plan license, the call is automatically routed according to the policies of the Microsoft Calling Plan. The Microsoft Calling Plan applies automatically as the last route to all users with the Microsoft Calling Plan license and does not require additional call routing configuration.
