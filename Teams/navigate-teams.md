@@ -27,8 +27,6 @@ Create 1:1 or group chats to collaborate with a smaller group or to talk private
 
 Communicate efficiently by starting 1:1 or group calls with anyone in your organization. With Teams,  you have the flexibility to make both audio and video calls.  To get started, see [Make calls](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us).
 
-[Create section about how Kaizala users can move their groups to Teams channels and group chats. Need to include the info around when to use what.] 
-
 ## Getting work done
 
 The functionality of Kaizala action cards currently exists within Microsoft Teams. When it comes to getting work done, the right tools can enable efficiency. There are over 300 external applications available now in Microsoft Teams. Keep reading to learn how to use  apps and templates to create [meeting invites](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67), announcements, and precise location check-ins to stay connected across your organization.
