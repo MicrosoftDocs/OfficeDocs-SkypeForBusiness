@@ -197,6 +197,8 @@ For more information on licenses and permissions, including plans and pricing, s
 - **Team owners are not removed**: If a new IB policy is applied that results in two or more conflicting segments present in a Teams channel, the segments with team owners are given higher preference and other segment users are removed. Also, at this time, team owners are not getting removed, even if they are in conflict with other owners/users. Tenant admins and other channel owners will have to remove conflicting owners manually.
 - **Maximum number of segments allowed in a tenant**: Each tenant can set up to 100 segments when configuring IB policies. There is no limit on the number of policies that can be configured.
 
+- **IB policies don't work for federated users**: If you allow federation with external tenants, the users of those tenants won't be restricted by IB policies. If users of your organization join a chat or meeting organized by external federated users, then IB policies also won't restrict communication between users of your organization.
+
 ## More information
 
 - To learn more about IBs, see [Information barriers](/office365/securitycompliance/information-barriers).
