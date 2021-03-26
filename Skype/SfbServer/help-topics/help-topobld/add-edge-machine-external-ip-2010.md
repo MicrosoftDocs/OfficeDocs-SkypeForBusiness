@@ -29,6 +29,4 @@ You can configure the properties on this page to point the Edge Server to the ex
 
 - Click **Help** to read this Help topic.
 
-For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx). For information about migrating Edge Servers, see [Phase 5: Add Lync Server 2013 Preview Edge Server to Pilot Pool](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx).
-
-
+For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology). For information about migrating Edge Servers, see [Phase 5: Add Lync Server 2013 Preview Edge Server to Pilot Pool](/previous-versions/office/lync-server-2013/phase-5-add-lync-server-2013-edge-server-to-pilot-pool).

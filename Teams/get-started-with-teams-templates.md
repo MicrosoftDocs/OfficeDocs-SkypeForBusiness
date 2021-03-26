@@ -99,6 +99,6 @@ See [Get started with Teams templates in the Admin center](get-started-with-team
 ## Related topics
 
 - [Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in preview)
-- [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
+- [Create team](/graph/api/team-post?view=graph-rest-beta) (in preview)
+- [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)

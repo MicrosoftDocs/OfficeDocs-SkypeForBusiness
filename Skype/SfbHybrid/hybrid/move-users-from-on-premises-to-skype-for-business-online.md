@@ -61,4 +61,4 @@ If the administrator account is MFA (Multi-Factor Authentication) enabled, do no
 
 ## See also
 
-[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
+[Move-CsUser](/powershell/module/skype/move-csuser)

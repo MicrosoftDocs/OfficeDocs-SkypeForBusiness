@@ -56,7 +56,7 @@ You can edit the policy by selecting it in the list and clicking **Edit**.
 
 In order for the policy to work, it must be assigned to users. You can [assign the policy to users individually](assign-policies.md) or assign them to a group.
 
-To assign a call part policy to a group
+To assign a call park policy to a group
 
 1. On the **Call park policies** page, on the **Group policy assignment** tab, click **Add group**.
 2. Search for the group that you want to use, and then click **Add**.
@@ -73,8 +73,8 @@ To assign a call part policy to a group
 
 [Assign policies to your users in Teams](assign-policies.md)
 
-[New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
 
-[Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
+[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
 
-[Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)
+[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)

@@ -21,7 +21,4 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Configuring Network Subnets](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
-
-
-
+- [Configuring Network Subnets](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)

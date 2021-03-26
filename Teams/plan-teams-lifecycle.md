@@ -95,10 +95,10 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 <tr>
 </tbody>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a> only</td>
+<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
+">PowerShell—Skype for Business module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a> only</td>
 </tr>
 </tfoot>
 </table>

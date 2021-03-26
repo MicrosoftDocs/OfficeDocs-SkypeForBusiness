@@ -46,7 +46,7 @@ For the people who will organize, schedule, and host meetings or live events, th
 >
 > <sup>2</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 or [Audio Conference add-in license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). A [dial plan](what-are-dial-plans.md) may also be needed.
 
-To learn more about licensing, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+To learn more about licensing, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 ## Make sure your network's ready
 
@@ -62,7 +62,7 @@ If you already prepared your network when you rolled out Microsoft 365 or Office
 
 - To learn about managing meeting options, read [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
-- Don't forget about [managing your users' devices](device-management.md) - phones, headsets, cameras. To get the latest and up-to-date information on Teams certified devices, go to [Teams devices](https://office.com/teamsdevices).
+- Don't forget about [managing your users' devices](./devices/device-management.md) - phones, headsets, cameras. To get the latest and up-to-date information on Teams certified devices, go to [Teams devices](https://office.com/teamsdevices).
 
 ## Live events
 

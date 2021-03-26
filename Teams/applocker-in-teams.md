@@ -20,15 +20,15 @@ ms.custom: seo-marvel-mar2020
 
 # AppLocker application control policies in Microsoft Teams
 
-This article explains how to enable the Teams desktop client app with AppLocker application control policies. Use of AppLocker is designed to restrict program and script execution by non-administrative users. For more information and guidance on AppLocker, see [What is AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
+This article explains how to enable the Teams desktop client app with AppLocker application control policies. Use of AppLocker is designed to restrict program and script execution by non-administrative users. For more information and guidance on AppLocker, see [What is AppLocker?](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
 
-The process for enabling Teams with AppLocker requires the creation of AppLocker-based allow listing policies. Policies are created with Group Policy management software and/or the use of Windows PowerShell cmdlets for AppLocker (see the [AppLocker technical reference](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) for more information). The AppLocker policy is saved in XML format and can be edited with any text or XML editor.
+The process for enabling Teams with AppLocker requires the creation of AppLocker-based allow listing policies. Policies are created with Group Policy management software and/or the use of Windows PowerShell cmdlets for AppLocker (see the [AppLocker technical reference](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) for more information). The AppLocker policy is saved in XML format and can be edited with any text or XML editor.
 
 ## Teams allow list with AppLocker
 
 AppLocker rules are organized into collections of rules. AppLocker rules apply to the targeted app, and they are the components that make up the AppLocker policy.  
 
-To allow Teams, we recommend that you use the [publisher condition rules](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) since all Teams app files are digitally signed.
+To allow Teams, we recommend that you use the [publisher condition rules](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) since all Teams app files are digitally signed.
   
 We don't recommend the use of path rules because the Teams installation directory is user-writable. We also don't recommend the use of hash rules because the rules would have to be updated each time the Teams client app is updated.
 
@@ -45,5 +45,5 @@ Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## Related topics
-[What is AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
-[AppLocker technical reference](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+[What is AppLocker?](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
+[AppLocker technical reference](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)

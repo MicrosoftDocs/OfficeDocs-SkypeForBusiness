@@ -122,7 +122,7 @@ The first row of the CSV contains column names.
 Exported file contains additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
 > [!div class="has-no-wrap"]  
-> | #  | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | #  | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
 > | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
@@ -168,4 +168,3 @@ Exported file contains additional fields that are not available in the online re
 [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
- 

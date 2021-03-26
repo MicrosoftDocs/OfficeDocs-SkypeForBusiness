@@ -55,10 +55,10 @@ The first time you start a new Front End pool, it is essential that 85% of the s
 
 
    
-Every subsequent time the pool is started, 85% of the servers should be started (as shown in the preceding table). If this number of servers cannot be started (but enough servers can be started so that you are not at pool-level quorum loss), you can use the  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet to enable the pool to recover from this routing group level quorum loss and make progress. For more information about how to use this cmdlet, see [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
+Every subsequent time the pool is started, 85% of the servers should be started (as shown in the preceding table). If this number of servers cannot be started (but enough servers can be started so that you are not at pool-level quorum loss), you can use the  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet to enable the pool to recover from this routing group level quorum loss and make progress. For more information about how to use this cmdlet, see [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
-> In pools with an even number of servers, Skype for Business Server uses the Primary SQL database as Witness. In a pool like this, if you shut down the primary database and switch to the Mirror copy, and shut down enough Front End servers so that not enough are running according to the preceding table, the entire pool will go down. For more information, see [Database Mirroring Witness](https://go.microsoft.com/fwlink/?LinkId=393672). 
+> In pools with an even number of servers, Skype for Business Server uses the Primary SQL database as Witness. In a pool like this, if you shut down the primary database and switch to the Mirror copy, and shut down enough Front End servers so that not enough are running according to the preceding table, the entire pool will go down. For more information, see [Database Mirroring Witness](/sql/database-engine/database-mirroring/database-mirroring-witness). 
   
 #### Pool-level quorum loss
 
@@ -77,7 +77,7 @@ For a Front End pool to function at all, it cannot be in pool-level quorum loss.
 In the preceding table, the "first servers" are the servers which were brought up first, chronologically, when the pool was started for the first time. To determine these servers, you can use the  `Get-CsComputer` cmdlet with the `-PoolFqdn` option. This cmdlet will show the servers in the order that they appear in the topology, and the ones at the top of the list are the first servers.
   
 > [!IMPORTANT]
-> The maximum number of front end servers has been increased to 16 in [Skype for Business Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)
+> The maximum number of front end servers has been increased to 16 in [Skype for Business Server 2019](../../../SfBServer2019/plan/user-model-2019.md)
 > 
 #### Additional steps to ensure pools are functional
 
@@ -112,5 +112,3 @@ Whenever you make a configuration change to a Front End pool, such as adding or 
 - After the new topology has been published, you must restart each Front End server in the pool. Restart them one at a time.
     
 - If the entire pool has been down during the configuration change, then run the following cmdlet after the new topology is published:  `Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
-    
-
