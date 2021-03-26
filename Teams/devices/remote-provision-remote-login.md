@@ -83,6 +83,8 @@ When the device is powered on and connected to the network, the technician provi
 
    Once the device is provisioned successfully, the tenant name appears on the sign-in page.
 
+   ![Tenant name on sign-in page](../media/provision-code.png)
+
 ## Sign in remotely
 
 The provisioned device appears in the **Awaiting sign in** tab. Start the remote sign-in process by selecting the individual device.
