@@ -11266,6 +11266,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Teams/direct-routing-ringback-bot.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/direct-routing-configure",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/what-are-calling-plans-in-office-365.md",
       "redirect_url": "/MicrosoftTeams/calling-plan-landing-page",
       "redirect_document_id": true
