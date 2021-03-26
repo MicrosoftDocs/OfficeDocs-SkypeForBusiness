@@ -31,7 +31,7 @@ Microsoft Teams lets organizations provide custom views of the directory to thei
 > [!NOTE]
 > In Exchange hybrid environments, this feature only works with Exchange Online mailboxes, and not with on-premises mailboxes.
 
-See also [Address book policies in Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)
+See also [Address book policies in Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
 
 ## When should you use scoped directory searches?
 
