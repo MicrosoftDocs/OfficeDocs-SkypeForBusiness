@@ -30,9 +30,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 - Short name
 - Short description
 - Full description
-- Privacy policy URLs
+- Privacy policy URL
 - Website URL
-- Terms of use URLs
+- Terms of use URL
 - Color icon
 - Outline icon
 - Accent color
