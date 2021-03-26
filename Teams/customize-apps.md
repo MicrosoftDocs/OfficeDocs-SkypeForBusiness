@@ -69,8 +69,8 @@ To start customizing an app, complete the following steps:
     - Short description
     - Full description
     - Website
-    - Privacy policy URLs
-    - Terms of use URLs
+    - Privacy policy URL
+    - Terms of use URL
 
    ![The customize selection](media/customize-settings.png)
 
@@ -99,8 +99,6 @@ Now your Teams end users can open their Teams client to see the customized app.
 
 > [!Note]
 > In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
-
- ![Selected app that can't be customized](media/customized-not-allowed.png)
 
 > [!Note]
 > Changes to branding might require up to 24 hours for the users to see the changes.
