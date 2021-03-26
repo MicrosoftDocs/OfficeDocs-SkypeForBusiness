@@ -26,7 +26,7 @@ The Monitoring Dashboard provides administrators with a quick overview of their 
     
 - Totals for the month, and trend totals for the past six months (for system usage only).
     
-Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
+Note that you can use the [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -191,5 +191,3 @@ You will then need to refresh the Monitoring Dashboard before the changes take e
 You can also create an Excel spreadsheet that includes live data feeds, which includes links to the latest Monitoring Dashboard data. To create a live data feed file, click the orange **Export to Data Feed** icon in the toolbar.
   
 If you would prefer to print the current Dashboard then click the printer icon in the toolbar.
-  
-

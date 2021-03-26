@@ -40,7 +40,7 @@ In the Microsoft Teams admin center, under **Teams app** > **Setup policies**, y
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Shows the Pinned apps section and the Add Apps button to be selected.":::
 
-On the **Add pinned apps** panel that appears on the right, use the **Search** textbox to look for Walkie Talkie. When you have it as a search result, click the **Add** button to the right of the name to add it to your list.
+On the **Add pinned apps** panel that appears on the right, use the **Search** textbox to look for Walkie Talkie. When you have it as a search result, select the **Add** button to the right of the name to add it to your list.
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Shows the Add pinned apps sidebar with Walkie entered into the search pane and the Walkie Talkie app in the search results, with the Add button next to it.":::
 
@@ -60,7 +60,7 @@ Walkie Talkie in Teams requires Internet connectivity and below the network cond
 
 As noted above, the quality of real-time media over an IP network is greatly impacted by the quality of the network connectivity, but especially by the amount of:
 
-- **Latency** - This is the time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including additional overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
+- **Latency** - This is the time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
 - **Packet Loss** - This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact, to back-to-back burst losses that cause complete audio cut-out.
 - **Jitter** - This is the average change in delay between successive packets.
 
@@ -83,7 +83,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 ### License requirements
 
-Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 > [!NOTE]
 > Certain advanced features may require additional licensing. For example, integration with Samsung Galaxy XCover Pro requires a Knox license.

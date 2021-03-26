@@ -44,10 +44,10 @@ The following lists describe the menus, command, fields, and properties on the p
 
 - **Refresh** Refreshes the list of policies displayed. When you click **Refresh**, the search filter string is cleared and all existing policies are displayed.
 
-For details about configuring mobility policies, see [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+For details about configuring mobility policies, see [Configuring Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy).
 
 ## See also
 
-[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 
-[Deploying Mobility](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[Deploying Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)

@@ -46,7 +46,7 @@ You can assign or change the place for an emergency location for a user in the M
 
 ## Using PowerShell
 
-See [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
+See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
     
 ## Related topics
 
@@ -55,4 +55,4 @@ See [Set-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype
 - [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)

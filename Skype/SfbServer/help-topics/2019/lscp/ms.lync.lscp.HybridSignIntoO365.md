@@ -29,6 +29,4 @@ Use the Skype for Business Server Hybrid Manageability wizard to help you config
 
 Enter the user name and password for your Microsoft 365 or Office 365 organization to login and connect your on-premises deployment with your Microsoft 365 or Office 365 organization. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Microsoft 365 or Office 365, for example, admin@contoso.onmicrosoft.com.
 
-For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
-
-
+For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-hybrid-deployments).

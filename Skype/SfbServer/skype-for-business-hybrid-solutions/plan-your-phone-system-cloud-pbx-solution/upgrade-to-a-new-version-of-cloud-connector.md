@@ -21,7 +21,7 @@ description: "Learn about how to upgrade your Cloud Connector Edition deployment
 # Upgrade to a new version of Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
  
 Learn about how to upgrade your Cloud Connector Edition deployment.
   
@@ -119,5 +119,3 @@ Set-CcCredential -AccountType TenantAdmin
 <a name="BKMK_Upgrade"> </a>
 
 Follow the steps for upgrading a single site, upgrading one site at a time for each site in your deployment. Make sure and [Validate your Cloud Connector deployment](validate-your-cloud-connector-deployment.md) after upgrading each site.
-  
-

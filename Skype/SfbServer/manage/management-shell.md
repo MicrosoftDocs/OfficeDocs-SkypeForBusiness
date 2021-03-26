@@ -49,7 +49,7 @@ Things to know about Windows PowerShell in Skype for Business Server:
   
 - Skype for Business Server Management Shell is automatically installed on every Skype for Business Server Enterprise Edition Front End Server or Standard Edition server.
     
-- You can update the Skype for Business Server Management Shell help content by running the [Update-Help](https://technet.microsoft.com/library/hh849720.aspx) cmdlet. The Update-Help cmdlet downloads and installs the newest help files available for all of the modules installed on your computer, including updates to Skype for Business cmdlets.
+- You can update the Skype for Business Server Management Shell help content by running the [Update-Help](/powershell/module/microsoft.powershell.core/update-help) cmdlet. The Update-Help cmdlet downloads and installs the newest help files available for all of the modules installed on your computer, including updates to Skype for Business cmdlets.
     
     By default, the **Update-Help** cmdlet will update all the modules installed on your Skype for Business Server. If you want to update only certain modules, you can use the _Module_ parameter to limit the scope of the cmdlet. The following example updates only the Skype for Business module.
     
@@ -57,7 +57,7 @@ Things to know about Windows PowerShell in Skype for Business Server:
   Update-Help -Module SkypeforBusiness
   ```
 
-    If you need to update the Help on servers that are not connected to the internet, you can use the [Save-Help](https://technet.microsoft.com/library/hh849724.aspx) cmdlet to get the latest version of the help and save it to a location you specify. You can then use the **Update-Help** cmdlet with the _-SourcePath_ parameter on servers not connected to the internet to get the updated help from the location you selected. The following example shows how to save the help files to a network file share, and then update the help for the Skype for Business module from the file share.
+    If you need to update the Help on servers that are not connected to the internet, you can use the [Save-Help](/powershell/module/microsoft.powershell.core/save-help) cmdlet to get the latest version of the help and save it to a location you specify. You can then use the **Update-Help** cmdlet with the _-SourcePath_ parameter on servers not connected to the internet to get the updated help from the location you selected. The following example shows how to save the help files to a network file share, and then update the help for the Skype for Business module from the file share.
     
   ```PowerShell
   // Save the help files
@@ -66,9 +66,7 @@ Things to know about Windows PowerShell in Skype for Business Server:
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 
-    For more detailed information, see [About Updatable Help](https://technet.microsoft.com/library/hh847735.aspx).
+    For more detailed information, see [About Updatable Help](/powershell/module/microsoft.powershell.core/about/about_updatable_help).
     
     > [!NOTE]
-    > If you are using PowerShell remotely you may need to allow communication through a firewall. To learn more about the ports PowerShell remoting uses, see [What Port Does PowerShell Remoting Use?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/).
-    
-
+    > If you are using PowerShell remotely you may need to allow communication through a firewall. To learn more about the ports PowerShell remoting uses, see [What Port Does PowerShell Remoting Use?](/archive/blogs/christwe/what-port-does-powershell-remoting-use).

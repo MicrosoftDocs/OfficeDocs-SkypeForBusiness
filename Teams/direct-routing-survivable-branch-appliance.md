@@ -150,9 +150,9 @@ To allow different SBAs used within your tenant to read required data from Micro
 
 For more information about application registration, see the following:
 
-- [Develop line-of-business apps for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Develop line-of-business apps for Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).  
+- [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).  
 
 You only need to register one application for use by all the SBAs in your tenant. 
 
