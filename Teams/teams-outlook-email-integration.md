@@ -40,3 +40,5 @@ Users automatically get actionable missed activity emails which help them to cat
 ![Screenshot showing how to reply to a missed activity email](media/missed-activity-email-reply.png)
 
 You can use the [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet together with the **SmtpActionableMessagesEnabled** parameter to turn off actionable emails. By default, the **SmtpActionableMessagesEnabled** parameter is set to **true**. Setting the parameter to **false** turns off actionable email messages across Office 365. For Teams users, this means that the **Reply** option to respond directly in Outlook isn't available in missed activity emails. Instead, the missed activity emails include a **Reply in Teams** option for users to reply in Teams.
+
+See also [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/).
