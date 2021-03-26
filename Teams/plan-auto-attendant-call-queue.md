@@ -213,6 +213,8 @@ See the following articles for information on how to create auto attendants and 
 - [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
 - [Create a call queue](create-a-phone-system-call-queue.md)
 
+If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
+
 ## Related topics
 
 [Plan Direct Routing](direct-routing-plan.md)
