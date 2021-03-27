@@ -154,7 +154,7 @@ Closed captions are supported for Teams meeting recordings for 60 days from when
 Closed captions aren't fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive for Business or SharePoint.
 
 > [!NOTE]
->There will be English-only closed captions (meeting transcription is not yet available in GCC) 
+> There will be English-only closed captions (meeting transcription is not yet available in GCC).
 
 **How will my storage quota be impacted?**
 
