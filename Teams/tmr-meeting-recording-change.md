@@ -139,7 +139,7 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 - For Channel meetings, permissions are inherited from the owners and members list in the channel.
 
->[!NOTE]
+> [!NOTE]
 >You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously
 >You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.  
 
