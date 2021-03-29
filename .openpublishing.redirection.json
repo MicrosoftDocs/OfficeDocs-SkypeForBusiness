@@ -12321,6 +12321,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/Teams-dependencies.md",
+      "redirect_url": "/microsoft-365/solutions/collaborate-as-team",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/operator-connect-data-transfer.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/",
       "redirect_document_id": true

@@ -348,8 +348,6 @@ items:
               href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
-            - name: Authorize guest access
-              href: teams-dependencies.md
             - name: Turn guest access on or turn off
               href: set-up-guests.md
             - name: Add a guest to a team
