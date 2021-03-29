@@ -1510,6 +1510,8 @@ items:
       items: 
         - name: Manage your devices in Teams
           href: devices/device-management.md
+        - name: Remote provisioning and sign-in
+          href: devices/remote-provision-remote-login.md
         - name: Update your devices remotely
           href: devices/remote-update.md
         - name: Manage Teams device tags
