@@ -768,6 +768,8 @@ items:
               href: rooms/lrs-migration.md
             - name: Content cameras
               href: rooms/content-camera.md
+            - name: Biometric enrollment
+              href: rooms/biometric-enrollment.md
         - name: Manage
           items: 
             - name: Management overview
