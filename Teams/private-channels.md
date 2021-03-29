@@ -115,6 +115,8 @@ Each team can have a maximum of 30 private channels and each private channel can
 
 When you create a team from an existing team, any private channels in the existing team won't be copied over.
 
+Notifications from private channels are not included in missed activity emails at this time.
+
 ## Related topics
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
