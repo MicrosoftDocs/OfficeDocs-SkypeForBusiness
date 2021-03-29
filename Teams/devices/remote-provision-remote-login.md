@@ -49,9 +49,12 @@ In the **Provision new devices** window, you can either add the MAC address manu
 ### Manually add a device MAC address
 
 1. From the **Awaiting Activation** tab, select **Add MAC ID**.
-2. Enter the MAC ID.
-3. Enter a location, which helps technicians identify where to install the devices.
-4. Select **Apply** when finished.
+
+   ![manually add a device mac address](../media/remote-provision-6.png)
+
+1. Enter the MAC ID.
+1. Enter a location, which helps technicians identify where to install the devices.
+1. Select **Apply** when finished.
 
 ### Upload a file to add a device MAC address
 
