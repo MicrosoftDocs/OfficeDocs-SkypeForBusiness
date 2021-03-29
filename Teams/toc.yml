@@ -328,7 +328,7 @@ items:
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
           href: manage-policy-packages.md
-    - name: Communicate with external users
+    - name: Work with people outside the organization
       items: 
         - name: Communicate with users from other organizations
           href: communicate-with-users-from-other-organizations.md
@@ -336,7 +336,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat for external users
+            - name: Native Teams chat
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -354,7 +354,7 @@ items:
               href: set-up-guests.md
             - name: Add a guest to a team
               href: view-guests.md
-            - name: Edit guest user information
+            - name: Edit guest information
               href: edit-guests-information.md
             - name: Troubleshoot guest access
               href: troubleshoot-guest-access.md
@@ -512,7 +512,7 @@ items:
           href: manufacturing-teams-templates-in-the-admin-console.md
         - name: Manage Teams template policies
           href: templates-policies.md
-    - name: Communicate with external users
+    - name: Work with people outside the organization
       items: 
         - name: Communicate with users from other organizations
           href: communicate-with-users-from-other-organizations.md
@@ -520,7 +520,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat for external users
+            - name: Native Teams chat
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -538,9 +538,9 @@ items:
               href: set-up-guests.md
             - name: Add a guest to a team
               href: add-guests.md
-            - name: View guest users in a team
+            - name: View guests in a team
               href: view-guests.md
-            - name: Edit guest user information
+            - name: Edit guest information
               href: edit-guests-information.md
             - name: Troubleshoot guest access
               href: troubleshoot-guest-access.md
