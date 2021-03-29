@@ -769,7 +769,7 @@ items:
             - name: Content cameras
               href: rooms/content-camera.md
             - name: Biometric enrollment
-              href: rooms/biometric-enrollment.md
+              href: rooms/voice-recognition.md
         - name: Manage
           items: 
             - name: Management overview

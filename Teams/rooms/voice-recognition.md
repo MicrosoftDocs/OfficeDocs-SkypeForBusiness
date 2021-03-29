@@ -1,5 +1,5 @@
 ---
-title: Tenant Administration control for biometric data in meeting rooms 
+title: Tenant Administration control for voice recognition (biometric data) in meeting rooms 
 author: cichur
 ms.author: v-cichur
 ms.reviewer: parisataheri
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn about Tenant Administration control for biometric data in meeting rooms.
+description: Learn about Tenant Administration control for voice recognition (biometric data) in meeting rooms.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -18,9 +18,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Tenant Administration control for biometric data in meeting rooms
+# Tenant Administration control for voice recognition (biometric data) in meeting rooms
 
-A Teams tenant admin can control to what degree the organization is using biometric data. This feature allows people to edit the speakers of transcripts. You can change the speaker of a single utterance on all transcripts. The people you can change the speaker label for are the ones who are listed in the meeting. You can remove the identification of a single utterance or all utterances identified as that speaker on every transcript.
+A Teams tenant admin can control to what degree the organization is using voice recognition (biometric data). This feature allows people to edit the speakers of transcripts. You can change the speaker of a single utterance on all transcripts. The people you can change the speaker label for are the ones who are listed in the meeting. You can remove the identification of a single utterance or all utterances identified as that speaker on every transcript.
 
 There are two major policies used with biometric data:
 
