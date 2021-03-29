@@ -32,11 +32,11 @@ For more information, see [Manage phone numbers for your organization](manage-ph
   
 |**What you want to do?**|**Download the correct forms**|
 |:-----|:-----|
-|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center. <br/> |In South Korea, you can't get phone numbers for your organization using the Microsoft Teams admin center. You must submit a new phone number request. <br/><br/>Download this form.<br/>[New phone number request for South Korea (v.1.0) (kr-kr)](). <br/><br/> Fill it out, and [send it to us](mailto:ptneu@microsoft.com).  <br/> |
-|Get phone numbers transferred to us.  <br/> | Download this form. <br/>[Letter of Authorization (LOA) for South Korea (all numbers) (v.1.0) (kr-kr)]() <br/> <br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/> |
+|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center.<br>PSTN Service Desk can only provide support in English language as of now.<br> Phone numbers will be ordered in blocks of 100. Customers will be charged only for the calling plan licenses subscribed.<br>"New orders can take four to six weeks to fill in this market. <br/> |In South Korea, you can get phone numbers for your organization using the Microsoft Teams admin center. You can also submit a new phone number request. <br/><br/>Download this form.<br/>[New phone number request for South Korea (v.1.0) (kr-kr)](). <br/><br/> Fill it out, and [send it to us](mailto:ptneu@microsoft.com).  <br/> |
+|Get phone numbers transferred to us. <br>Transferring numbers can take four to six weeks to complete in this market. These numbers can't be used for conferencing at this time. <br/> | Download this form. <br/>[Letter of Authorization (LOA) for South Korea (all numbers) (v.1.0) (kr-kr)]() <br/> <br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/> |
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
-|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). Support is in English language only. |
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). Support is in English language only. <br>Transferring numbers can take four to six weeks to complete in this market depending on the complexity of the port. These numbers can't be used for conferencing at this time. |
    
 ## Related topics
 
