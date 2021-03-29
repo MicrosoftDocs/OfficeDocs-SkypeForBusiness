@@ -38,9 +38,9 @@ The minimum licensing requirement for retention policies for Teams is Microsoft 
 
 ## How Teams retention/deletion policies work
 
-Teams chat messages are stored in two locations. Primary copy is stored in Azure, a secondary copy, that is used for compilance policies, is stored in a hidden folder in the Exchange online mailbox of each user included in the chat, and Teams channel messages are stored in a similar hidden folder in the group mailbox for the team. When a chat message deletion policy is applied to a user or Team, secondary copy is deleted first, followed by primary copy. eDiscovery or Teams search is based off of messages stored in secondary copy and hence messages become non discoverable when secondary copy is deleted. 
+Teams chat messages are stored in two locations. Primary copy is stored in Azure, a secondary copy, that is used for compliance policies, is stored in a hidden folder in the Exchange online mailbox of each user included in the chat, and Teams channel messages are stored in a similar hidden folder in the group mailbox for the team. When a chat message deletion policy is applied to a user or Team, secondary copy is deleted first, followed by primary copy. eDiscovery or Teams search is based off of messages stored in secondary copy and hence messages become non-discoverable when secondary copy is deleted. 
 
-When a chat message retention poilcy is applied to a user or Team, and if the messages are deleted (either due to another deletion policy or by user themselves), the primary copy is deleted, hence Teams client will see the message disappear, but secondary copy is automatically moved to a hidden folder named **SubstrateHolds** , which is as a subfolder in the Exchange **Recoverable Items** folder. Until these messages are permanently deleted from the SubstrateHolds folder, they remain searchable by eDiscovery tools.
+When a chat message retention policy is applied to a user or Team, and if the messages are deleted (either due to another deletion policy or by user themselves), the primary copy is deleted, hence Teams client will see the message disappear, but secondary copy is automatically moved to a hidden folder named **SubstrateHolds** , which is as a subfolder in the Exchange **Recoverable Items** folder. Until these messages are permanently deleted from the SubstrateHolds folder, they remain searchable by eDiscovery tools.
 
 For detailed information about what's included and excluded for Teams retention policies, and how these policies work depending on your policy configuration, see [Learn about retention for Microsoft Teams](/microsoft-365/compliance/retention-policies-teams).
 
@@ -67,7 +67,7 @@ To create a retention policy for Teams chats and channel messages, use the instr
 
 That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 Groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.  
 
-## End user experience
+## End-user experience
 
 For private chats (1:1 chats) or group chats, users will see that chats older than the retention policy configuration are deleted and an automatically generated message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages. For example:
 
