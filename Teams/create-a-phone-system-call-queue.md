@@ -39,7 +39,7 @@ Call queues provide:
 
 - Handling options for queue overflow and timeout.
 
-Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.
+Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
@@ -69,13 +69,15 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 ![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
 
-You can add up to 20 agents individually and up to 200 agents via groups or Teams channels.
-
 ##### Teams channel
 
-If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), Select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**.
+You can add up to 200 agents via a Teams channel.
+
+If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**.
 
 ##### Users and groups
+
+You can add up to 20 agents individually and up to 200 agents via groups.
 
 If you want to add individual users or groups to the queue, select the **Choose users and groups** option. 
 
