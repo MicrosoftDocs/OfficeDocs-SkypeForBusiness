@@ -67,7 +67,13 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 
 Please refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
 
-![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
+You can choose a team channel or individual users or groups to answer incoming calls for the queue.
+
+![Screenshot of teams, users and group settings for call queues](media/cq-call-answering-01.png)
+
+To add a team channel, click **Add channel**, search for the channel, click **Add**, and then select the channel and click **Apply**.
+
+If you choose to add users and groups, 
 
 You can add up to 20 agents individually and up to 200 agents via groups.
 
