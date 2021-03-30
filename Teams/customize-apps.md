@@ -53,7 +53,7 @@ To start customizing an app, complete the following steps:
 
    - Select next to the app that you want to customize, and then select **Customize**.
 
-     ![The customize selection](media/select-app-to-customize.png)
+     ![The customize selection](media/select-app-to-customize1.png)
 
    - Select the app name and then **Customizable**.
 
