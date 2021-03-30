@@ -1,7 +1,7 @@
 ---
 title: Network roaming policy
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -12,8 +12,7 @@ appliesto:
   - Microsoft Teams
 localization_priority: Priority
 search.appverid: MET150
-f1.keywords:
-- CSH
+ 
 ms.custom: 
 
 ms.collection: 
@@ -69,7 +68,7 @@ New-CsTeamsNetworkRoamingPolicy -Identity LowBandwidthSite -AllowIPVideo $false 
 ```
 
 ```PowerShell
-set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthSit
+Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthSite
 ```
 
 ## Supported clients
