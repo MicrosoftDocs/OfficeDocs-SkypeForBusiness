@@ -139,7 +139,7 @@ To add agents to the call queue, we'll add the team that we created earlier.
 2. Type the name of the team that you created.
 3. Click **Add**, and then click **Add**.
 
-    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups-smb.png)
+    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups.png)
 
 You can add up to 20 agents individually and up to 200 agents via groups or teams.
 
