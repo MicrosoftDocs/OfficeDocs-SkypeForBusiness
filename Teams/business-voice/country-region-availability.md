@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Countries and regions in which Microsoft 365 Business Voice is available.
 appliesto: 
 - Microsoft Teams
 ---
