@@ -18,8 +18,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ---
-Manage your apps in the Microsoft Teams admin center
-======================================================
+# Manage your apps in the Microsoft Teams admin center
 
 As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams, purchase services for third-party apps, view permissions requested by apps, grant admin consent to apps, and manage org-wide app settings.
 
@@ -144,6 +143,10 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 4. Click **Save** for org-wide app settings to take effect.
+
+## Customize an app (in preview)
+
+You can now customize an app to include a specific look and feel according to your organization needs. [Customize apps in Teams](customize-apps.md)
 
 ## Related topics
 
