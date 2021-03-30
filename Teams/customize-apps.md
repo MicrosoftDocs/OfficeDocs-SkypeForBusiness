@@ -53,15 +53,15 @@ To start customizing an app, complete the following steps:
 
    - Select next to the app that you want to customize, and then select **Customize**.
 
-     ![The customize selection](media/select-app-to-customize1.png)
+     ![The customize selection option 1](media/select-app-to-customize1.png)
 
    - Select the app name and then **Customizable**.
 
-     ![The customize selection](media/app-details-customizable.png)
+     ![The customize selection option 2](media/app-details-customizable.png)
 
    - Select the app name, and then select **Customize** from the **Actions** dropdown.
 
-     ![The customize selection](media/customize-action-menu.png)
+     ![The customize selection option 3](media/customize-action-menu.png)
 
 4. Expand the **Details** section and customize the following fields:
 
@@ -72,7 +72,7 @@ To start customizing an app, complete the following steps:
     - Privacy policy URL
     - Terms of use URL
 
-   ![The customize selection](media/customize-settings.png)
+   ![The customize settings](media/customize-settings.png)
 
 > [!Note]
 > Only the fields that the app developer has assigned as customizable will be visible.
