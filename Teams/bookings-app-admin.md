@@ -68,7 +68,7 @@ This feature is gradually being rolled out worldwide to Microsoft 365 and Office
 
 When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, this can cause problems when sending meeting invites to external recipients; your invite might be flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
 
-We recommend that you change the default domain prior to creating your Bookings mailbox. For information on how to do this, see the [Domains FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+We recommend that you change the default domain prior to creating your Bookings mailbox. For information on how to do this, see the [Domains FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
 
 If you need to change the default domain after your Bookings mailbox has already been created, you can do so with PowerShell:
 
@@ -76,7 +76,7 @@ If you need to change the default domain after your Bookings mailbox has already
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-For more information, see the PowerShell documentation for the [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) cmdlet.
+For more information, see the PowerShell documentation for the [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox) cmdlet.
 
 > [!NOTE]
 > If you are using an Exchange hybrid configuration, we recommend that you thoroughly test mail flow between on-premises Exchange and Exchange Online when changing the default domain.

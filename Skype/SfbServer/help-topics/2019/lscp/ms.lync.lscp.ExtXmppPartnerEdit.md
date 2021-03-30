@@ -24,7 +24,6 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Create or Edit XMPP Partner Configuration](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [Create or Edit XMPP Partner Configuration](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-xmpp-partner-configuration)
 
-- [Negotiation Settings Table for XMPP Federated Partners](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
-
+- [Negotiation Settings Table for XMPP Federated Partners](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)

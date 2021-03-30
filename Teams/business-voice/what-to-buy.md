@@ -42,7 +42,7 @@ There are two types of Business Voice licenses: Business Voice **with** Calling 
 
 To see whether your country or region supports Calling Plan, check out [Country and region availability for Business Voice](country-region-availability.md).
 
-To learn about Business Voice features, see [Microsoft 365 Business Voice service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+To learn about Business Voice features, see [Microsoft 365 Business Voice service description](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 ## Business Voice with Calling Plan
 

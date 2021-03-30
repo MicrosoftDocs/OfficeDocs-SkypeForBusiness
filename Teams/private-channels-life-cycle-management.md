@@ -22,7 +22,7 @@ description: Learn how to manage private channels in your organization using Gra
 
 # Manage the life cycle of private channels in Microsoft Teams
 
-Here you'll find the guidance you need to manage use the Graph API to manage [Teams private channels](https://docs.microsoft.com/microsoftteams/private-channels) in your organization.
+Here you'll find the guidance you need to manage use the Graph API to manage [Teams private channels](./private-channels.md) in your organization.
 
 ## Set whether team members can create private channels
 
@@ -206,14 +206,14 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
 
 ## Related topics
 
-[Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+[Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
 
-[List channels](https://docs.microsoft.com/graph/api/channel-list)
+[List channels](/graph/api/channel-list)
 
-[Create channel](https://docs.microsoft.com/graph/api/channel-post)
+[Create channel](/graph/api/channel-post)
 
-[Add member to channel](https://docs.microsoft.com/graph/api/conversationmember-add)
+[Add member to channel](/graph/api/conversationmember-add)
 
-[Update member in channel](https://docs.microsoft.com/graph/api/conversationmember-update)
+[Update member in channel](/graph/api/conversationmember-update)
 
-[Remove member from channel](https://docs.microsoft.com/graph/api/conversationmember-delete)
+[Remove member from channel](/graph/api/conversationmember-delete)

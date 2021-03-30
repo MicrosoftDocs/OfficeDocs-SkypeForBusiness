@@ -47,13 +47,13 @@ The following lists describe the menus, commands, fields, and properties on the 
 
 - **Unique identifier** You can type the MAC address or serial number of the device.
 
-For details about testing devices, see [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in the Operations documentation.
+For details about testing devices, see [Add a Device to Test Update Functionality](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-device-to-test-update-functionality) in the Operations documentation.
 ## See also
 
 [Test Device](ms.lync.lscp.ClientDeviceTestMain.md)
 
-[New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
+[New-CsTestDevice](/powershell/module/skype/new-cstestdevice?view=skype-ps)
 
-[Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
+[Set-CsTestDevice](/powershell/module/skype/set-cstestdevice?view=skype-ps)
 
-[View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
+[View Software Updates for Devices in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-view-software-updates-for-devices-in-your-organization)

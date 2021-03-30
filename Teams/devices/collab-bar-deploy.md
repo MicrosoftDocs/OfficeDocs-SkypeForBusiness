@@ -59,7 +59,7 @@ Before you deploy Teams Rooms, you need to decide if they'll use Microsoft 365 r
 
 If you decide to set up a Microsoft 365 resource account, you'll need to purchase a Meeting Room license for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams. The license also enables video and audio conferencing and screen sharing among meeting participants.
 
-If you need to receive or make calls to or from an external telephone number, you may need a Calling Plan or Microsoft 365 Business Voice [add-on license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business). If you have Direct Routing enabled in your organization, you only need the Meeting Room SKU.
+If you need to receive or make calls to or from an external telephone number, you may need a Calling Plan or Microsoft 365 Business Voice [add-on license](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business). If you have Direct Routing enabled in your organization, you only need the Meeting Room SKU.
 
 When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can book the resource, and so on.
 
@@ -109,7 +109,7 @@ Next, you need to create your plan to deliver the devices and their assigned per
 
 After you have deployed Teams Rooms, you should test them. Sign in to Teams Rooms and check that the expected capabilities are working. We highly recommend that you verify that they are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
 
-We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide).
+We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](../quality-of-experience-review-guide.md).
 
 ### Asset management
 
