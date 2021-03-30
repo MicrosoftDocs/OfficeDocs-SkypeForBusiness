@@ -51,18 +51,18 @@ Settings are disabled by default. When the settings are disabled:
 
 ## Set Biometric usage
 
-Turn on or off biometric usage for attribution and diarization. Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity. Use RoomAttributeUserOverride in Rooms to set biometric usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use of both voice and face for transcription attribution purposes. This setting is off by default, so it won't use a user's attribute or distinguish features.
+Turn on or off biometric usage for attribution and diarization. Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity. Use RoomAttributeUserOverride in Rooms to set biometric usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use of both voice and face for transcription attribution purposes. This setting is **off** by default, so it won't use a user's attribute or distinguish features.
 
 - Rooms won't send audio stream-saving bandwidths from the room.  
 - Rooms users won't be attributed or diarized.
 - Rooms users are unknown.  
 
-Distinguish (distinguish but don't identify)
+Distinguish participants but don't identify
 
-- Room users will be diarized (attendee n), no user identity is shown for in-room attendees. 
-- Room will send seven audio streams from the room. 
+- Rooms users will be diarized but not specifically named (attendee n). No user identity is shown for in-room attendees.
+- Rooms will send seven audio streams from the room.
 
-Biometric information of the user is created during the meeting and dismissed at the end of the meeting 
+Biometric information of the user is created during the meeting and dismissed at the end of the meeting.
 
 Attribute  
 
@@ -70,26 +70,3 @@ Attribute
 - Users who are enrolled, are shown with their name in the transcription  
 - Users who aren't enrolled show as attendee n
 - Room will send seven audio streams from the room
-
-## Plaza Only 
-
-Policy Name = RoomPeopleNameUserOverride
-
-Purpose = Turn on or turn off biometric usage of face data by showing or hiding user names in the roster and people video feeds in rooms.  
-
-Feature Description =  Plaza family of cameras are capable of recognizing people in a room using their face biometric data. Once a person in a conference room is recognized by the camera, the name of that person will be added to the meeting roster and also as a name label on the people video feed of that person viewed by remote users.  
-
-Policy description =  A Teams tenant admin should be able to control if meeting room participants can be identified or not using their face biometric data.
-
-Values
-
-- Off (don't show the names) Default setting.
-- Room won't send face stream from the Plaza device.
-- Room attendees names won't appear in the meeting roster nor on the people video feeds.
-- Room users remain unknown.
-
-On (show the names in roster and people video feeds)
-
-- Room will send face stream from the Plaza device 
-- Names of the room attendees who have enrolled their face will show in the meeting roster and on their people video feed. 
-- If a user isn't face enrolled, they appear as speaker 1, speaker 2, and so on, in the meeting roster.
