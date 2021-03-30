@@ -97,7 +97,7 @@ Now your Teams end users can open their Teams client to see the customized app.
 
    ![Customized app in Teams client](media/find-customized-app.png)
 
-## Special considerations for customizing an app
+### Special considerations for customizing an app
 
 The following notes include important details about customizing an app.
 
