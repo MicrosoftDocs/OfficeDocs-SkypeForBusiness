@@ -34,9 +34,9 @@ ms.custom: seo-marvel-may2020
     :::column-end:::
 :::row-end:::
 
-|               |               |               |
+|    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Plan](./rooms-plan.md)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Deploy](./rooms-deploy.md)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Manage](./rooms-manage.md)** |
+|  **[Plan](./rooms-plan.md)** |  **[Deploy](./rooms-deploy.md)** |  **[Manage](./rooms-manage.md)** |
 
 > [!NOTE]
 > Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.
