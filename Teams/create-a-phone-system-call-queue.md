@@ -75,7 +75,7 @@ You can add up to 20 agents individually and up to 200 agents via groups or Team
 
 If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), Select the **Choose a team** option and click **Add a channel**. Choose the team and channel that you want to use.
 
-#### Users and groups
+##### Users and groups
 
 If you want to add individual users or groups to the queue, select the **Choose users and groups** option. 
 
