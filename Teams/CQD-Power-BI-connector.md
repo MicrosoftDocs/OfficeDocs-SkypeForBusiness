@@ -24,7 +24,7 @@ Before you can use the Power BI query templates (PBIX files) for Microsoft Teams
 
 Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md) to learn about these templates.
 
-Make sure you have the right [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-roles-for-accessing-cqd) to access the Power BI reports.
+Make sure you have the right [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to access the Power BI reports.
 
 > [!NOTE]
 > The CQD Power BI Connector only supports DirectQuery in Power BI; Import mode is not supported. 

@@ -47,7 +47,7 @@ You will need to follow these steps:
 ### Step 1 - Buy the licenses
 1. In the admin center, go to **Billing** > **Purchase services**, and add **Other plans**.
 
-    ![CAP-license.png](../../images/cap-license.png)
+    ![Screenshot of Common Area Phone license](../../images/cap-license.png)
 2. Click on **Common Area Phone** > **Buy now** > on the **Checkout** page click on **Buy now**.
 3. Click on to expand **Add-on subscriptions** and then click on to buy a Calling Plan. Choose either the **Domestic Calling Plan** or **Domestic and International Calling Plan**.
 
@@ -86,7 +86,7 @@ For more details, see [Add a user](https://support.office.com/article/1970f7d6-0
 5. While you're there you will need to add an emergency address. Once you search, look under the **Select emergency address** to pick the right one for you.
 6. Click **Save** and your user should look like this:
 
-    ![cap-user-number.png](../../images/cap-user-number.png)
+    ![Screenshot of user phone number](../../images/cap-user-number.png)
 
    > [!Note]
    > Users will only show up if they have a **Phone System** licence applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.

@@ -3,7 +3,7 @@ title: "Create a call queue in Microsoft Teams - small business tutorial"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: dobro
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -49,7 +49,7 @@ Since agents in a call queue may dial out to return a customer call, consider se
 
 # [Step 1<br>Create a team](#tab/create-team)
 
-When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend using a team. This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers. A team also provides a voice mailbox for callers to leave a message after hours or if the queue reaches its maximum capacity.
+When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend [using a team channel](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e). This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers. A team also provides a voice mailbox for callers to leave a message after hours or if the queue reaches its maximum capacity.
 
 To create a team
 
@@ -68,6 +68,14 @@ To create a team
 8. Type the names of the people that you want to have in your call queue, and then click **Add**.
 
 9. Click **Close**. People you add to a team will receive an email letting them know they are now a member of your team and the team will show up in their teams list.
+
+Next, we'll add a channel to use with the call queue.
+
+To add a channel
+
+1. In Teams, find the team you just created, click **More options** (...), and then click **Add channel**.
+
+2. Type a name and description for the channel, and then click **Add**.
 
 > [!div class="nextstepaction"]
 > [Step 2 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
@@ -133,15 +141,14 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 # [Step 3<br>Call agents](#tab/call-agents)
 
-To add agents to the call queue, we'll add the team that we created earlier.
+To add agents to the call queue, we'll add them to the team and channel that we created earlier.
 
-1. Click **Add groups**.
-2. Type the name of the team that you created.
-3. Click **Add**, and then click **Add**.
+1. Select the **Choose a team** option and click **Add a channel**.
+2. Type the name of the team that you created, select it, and click **Add**.
+3. Select the channel that you created for the queue.
+3. Click **Apply**.
 
-    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups-smb.png)
-
-You can add up to 20 agents individually and up to 200 agents via groups or teams.
+    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups.png)
 
 > [!NOTE]
 > When new users are added to the team, it can take up to eight hours for their first call to arrive.

@@ -87,6 +87,7 @@ New-CsTenantNetworkRegion -NetworkRegionID <region ID>
 ```
 
 In this example, we create a network region named India.
+
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
@@ -146,7 +147,7 @@ For multiple subnets, you can import a CSV file by using a script such as the fo
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-In this example, the CSV file looks something like this: 
+In this example, the CSV file looks something like this:
 
 ```console
 Identity, Mask, SiteID
@@ -156,7 +157,9 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-See also [Set-CsTenantNetworkSubnet](./h/powershell/module/skype/set-cstenantnetworksubnet).
+
+See also [Set-CsTenantNetworkSubnet](/powershell/module/skype/set-cstenantnetworksubnet).
+
 
 ### Define external subnets (external trusted IP addresses)
 
