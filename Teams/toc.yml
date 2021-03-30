@@ -1218,8 +1218,6 @@ items:
           href: business-voice/prepare-users.md
     - name: Run the Getting Started wizard
       href: business-voice/use-getting-started-wizard.md
-    - name: Things to try
-      href: business-voice/things-to-try.md
     - name: Customize your setup
       items: 
         - name: Customization options
