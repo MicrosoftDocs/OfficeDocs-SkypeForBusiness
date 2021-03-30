@@ -120,7 +120,7 @@ You might want to see the app details to review the information.
 
 4. View the app details, including the original app name **Short name from publisher**.
 
-   ![Customize the icon panel](media/app-details-original-name.png)
+   ![Customize the icon panel with palette.](media/app-details-original-name.png)
 
    The **Short name from publisher** field is only visible if you've changed the app's short name.
 
