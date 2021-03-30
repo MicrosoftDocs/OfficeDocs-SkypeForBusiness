@@ -57,6 +57,8 @@ This page provides the latest Teams PowerShell change log for both General Avail
 | [Get-CsGroupPolicyAssignmentOperation](/powershell/module/teams/get-csgrouppolicyassignment?view=teams-ps) | Yes | **No** |
 | [Get-CsOnlinePowerShellEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint?view=skype-ps) | Yes | Yes |
 | [Get-CsPolicyPackage](/powershell/module/teams/get-cspolicypackage?view=teams-ps) | Yes | Yes |
+| [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) | Yes | Yes |
+| [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps) | Yes | Yes |
 | [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Yes | Yes |
 | [Get-CsUserPolicyPackage](/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | Yes | Yes |
 | [Get-CsUserPolicyPackageRecommendation](/powershell/module/teams/get-csuserpolicypackagerecommendation?view=teams-ps) | Yes | Yes |
@@ -71,10 +73,12 @@ This page provides the latest Teams PowerShell change log for both General Avail
 | [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Yes | Yes |
 | [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Yes | Yes |
 | [New-CsOnlineSession](/powershell/module/skype/new-csonlinesession?view=skype-ps) | Yes | Yes |
+| [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps) | Yes | Yes |
 | [New-Team](/powershell/module/teams/new-team?view=teams-ps) | Yes | Yes |
 | [New-TeamChannel](/powershell/module/teams/new-teamchannel?view=teams-ps) | Yes | Yes |
 | [New-TeamsApp](/powershell/module/teams/new-teamsapp?view=teams-ps) | Yes | Yes |
 | [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | Yes | Yes |
+| [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) | Yes | Yes |
 | [Remove-Team](/powershell/module/teams/remove-team?view=teams-ps) | Yes | Yes |
 | [Remove-TeamChannel](/powershell/module/teams/remove-teamchannel?view=teams-ps) | Yes | Yes |
 | [Remove-TeamChannelUser](/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | Yes | **No** |
@@ -89,6 +93,7 @@ This page provides the latest Teams PowerShell change log for both General Avail
 | [Set-TeamPicture](/powershell/module/teams/set-teampicture?view=teams-ps) | Yes | Yes |
 | [Set-TeamsApp](/powershell/module/teams/set-teamapp?view=teams-ps) | Yes | Yes |
 | [Set-TeamTargetingHierarchy](/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | Yes | **No** |
+| [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps) | Yes | Yes |
 | [Update-TeamsAppInstallation](/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Yes | **No** |
 | [Enable-CsOnlineSessionForReconnection](/skypeforbusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | **No** | **No** |
 
