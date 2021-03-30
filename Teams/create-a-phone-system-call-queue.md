@@ -69,13 +69,15 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 ![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
 
-You can add up to 20 agents individually and up to 200 agents via groups or Teams channels.
-
 ##### Teams channel
+
+You can add up to 200 agents via a Teams channel.
 
 If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), Select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**.
 
 ##### Users and groups
+
+You can add up to 20 agents individually and up to 200 agents via groups.
 
 If you want to add individual users or groups to the queue, select the **Choose users and groups** option. 
 
