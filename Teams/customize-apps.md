@@ -99,13 +99,14 @@ Now your Teams end users can open their Teams client to see the customized app.
 
 ### Special considerations for customizing an app
 
-The following notes include important details about customizing an app.
+The following note includes important details about customizing an app.
 
-- When you customize apps and any description related to an app, ensure that you follow the Customization Guidelines provided by the app publisher. You're responsible for respecting the rights of others regarding third-party images you might use.
-- Admin-provided customization data is stored in the Settings Store in the nearest region. It isn't necessarily in any GoLocal Cloud Teams deployment.
-- You're responsible for ensuring that the links to the terms of use or privacy statements are valid. You must provide appropriate management of the changes they make (or allow to be made) to app metadata. Current implementation will provide support to help you to revert to developer-provided URLs. You may not configure the app without a URL (if the app allows customization of the URLs).
-- In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
-- Changes to branding might require up to 24 hours for the users to see the changes.
+> [!Note]
+> - When you customize apps and any description related to an app, ensure that you follow the Customization Guidelines provided by the app publisher. You're responsible for respecting the rights of others regarding third-party images you might use.
+> - Admin-provided customization data is stored in the Settings Store in the nearest region. It isn't necessarily in any GoLocal Cloud Teams deployment.
+> - You're responsible for ensuring that the links to the terms of use or privacy statements are valid. You must provide appropriate management of the changes they make (or allow to be made) to app metadata. Current implementation will provide support to help you to revert to developer-provided URLs. You may not configure the app without a URL (if the app allows customization of the URLs).
+> - In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
+> - Changes to branding might require up to 24 hours for the users to see the changes.
 
 ## Review app details
 
