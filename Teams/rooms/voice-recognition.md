@@ -20,11 +20,11 @@ appliesto:
 
 # Tenant Administration control for voice recognition (biometric data) in Teams Meeting Rooms
 
-Microsoft Teams Meetings Rooms now have voice recognition (biometric data). The tenant admin can control to what degree the organization is using voice recognition and the following features: 
+Microsoft Teams Meetings Rooms now have voice recognition (biometric data). The tenant admin can control to what degree the organization is using voice recognition and the following features:
 
-- Edit the speakers of transcripts. 
-- Change the speaker of a single utterance on all transcripts. 
-- Change the speaker label for the people who are listed in the meeting. 
+- Edit the speakers of transcripts.
+- Change the speaker of a single utterance on all transcripts.
+- Change the speaker label for the people who are listed in the meeting.
 - Remove the identification of a single utterance or all utterances identified as that speaker on every transcript.
 
 There are two major policies used with biometric data:
@@ -52,7 +52,7 @@ Settings are disabled by default. When the settings are disabled:
 - Users who have never enrolled can't view, enroll, or re-enroll.
 - The entry point to enrollment flow will be hidden.
 - If users select a link to enrollment page, they'll see a message that this feature isn't enabled for their organization.  
-- Users who have already enrolled will be able to view and remove their biometric data in the Teams settings. Once they remove their biometric data, they won't be able to view, access, or complete the enrollment flow.  
+- Users who've already enrolled will be able to view and remove their biometric data in the Teams settings. Once they remove their biometric data, they won't be able to view, access, or complete the enrollment flow.  
 
 ## Set biometric usage
 
@@ -67,9 +67,9 @@ The distinguish feature captures the following details:
 - Rooms users will be diarized but not named (attendee n). No user identity is shown for in-room attendees.
 - Rooms will send seven audio streams from the room.
 
-The attribute feature captures the following details: 
+The attribute feature captures the following details:
 
-- Rooms users will be attributed based on their enrollment status. 
+- Rooms users will be attributed based on their enrollment status.
 - Users who are enrolled, are shown with their name in the transcription.  
 - Users who aren't enrolled show as attendee n.
 - Rooms will send seven audio streams from the room.
@@ -78,15 +78,15 @@ Biometric information of the user is created during the meeting and dismissed at
 
 ## Use intelligent speakers in Teams Rooms
 
-Intelligent speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent speakers include a special 7 microphone array and Microsoft Office graph. The speakers use biometric information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
+Intelligent speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent speakers include a special seven microphone array and Microsoft Office graph. The speakers use biometric information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
 
 ## Review the speaker requirements
 
 The following items are intelligent speaker requirements:
 
 - The customer tenant must be located in the U.S.(North America).
--	Rooms have regular meetings with multiple (2-10) people present in person.
-- Rooms have upload link of minimum 7 Mbps.
+- Rooms have regular meetings with multiple (2-10) people present in person.
+- Rooms has an upload link of minimum 7 Mbps.
 
 ## Set up the intelligent speakers
 
@@ -97,7 +97,7 @@ Rockfall should be placed at least 8 inches (20 cm) away from walls and large ob
 1. Sign in to the console as administrator.
 2. Set the Teams device settings to match the Rockfall microphone and speaker.
 3. Ensure you have the right Microphone and Speaker settings.
-   
+
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Rockfall device. For best results, Rockfall should be placed at least eight inches away from walls and large objects, such as laptops.
 
@@ -105,11 +105,13 @@ Rockfall should be placed at least 8 inches (20 cm) away from walls and large ob
 
 Use the following required policies to set speaker and user attribution.
 
-- `enrollUserOverride`: To control user biometric (voice) enrollment using the Teams desktop client (Windows). This isn't required to be set for mobile accounts. Allowed values are `Enabled` and `Disabled`. 
-- `roomAttributeUserOverride`: To control the voice-based user identification in meeting rooms. Required for MTR accounts. Allowed values are `Off`, `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). 
+- `enrollUserOverride`: To control user biometric (voice) enrollment using the Teams desktop client (Windows). This isn't required to be set for mobile accounts. Allowed values are `Enabled` and `Disabled`.
+- `roomAttributeUserOverride`: To control the voice-based user identification in meeting rooms. Required for MTR accounts. Allowed values are `Off`, `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled).
 - `enabletranscription`: Required for user and Teams rooms accounts. Allowed values are `true` and `false`.
 
-## To set the tenant policies, complete the following steps.
+## Set the tenant policies
+
+Use PowerShell to set the tenant policies.
 
 1. Open the PowerShell admin mode.
 
@@ -144,14 +146,36 @@ Use the following required policies to set speaker and user attribution.
 
 4. To grant the created identity to a certain user, see [grant-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy?view=skype-ps).
 
-   The following is an example of setting the identity to a certain user:
+   The following example is setting the identity to a certain user:
 
    ```PowerShell
    Grant-CsTeamsMeetingPolicy -identity "Ken Myer" -PolicyName TestMeetingPolicy
    ```
 
-Frequently asked questions (FAQ)
+## Frequently asked questions (FAQ)
 
+**Where biometric data is stored?**
+
+Biometric data is stored in Office 365 cloud with user content.
+
+**How long biometric data is stored after employee left the company?**
+
+Biometric data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+
+**Is biometric data used across Microsoft services?**
+
+Scenario 1: User enrolls in company tenant then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal) and their voice recognized by consumer service.
+Scenario 2:  Users enroll in their company tenant and their voice recognized and attributed in the meeting hosted by another company.
+
+No, biometric data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use biometric data across different non-Teams services at this point.
+
+**Is Rockfall general data protection regulation (GDPR) compliant?**
+
+Yes, audio data collected from user can be exported by tenant admin using Teams admin center.
+
+**What is retention timeline/policy?**
+
+General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, biometric data will be deleted after three years if the data isn't used in any meetings for existing employees.
 
 ## Related topics
 
