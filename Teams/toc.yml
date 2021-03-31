@@ -556,9 +556,9 @@ items:
       href: deploy-meetings-microsoft-teams-landing-page.md
     - name: Meetings
       items:
-        - name: Manage meeting policies - Test
+        - name: Manage meeting policies
           items: 
-            - name: Manage meeting policies
+            - name: Overview
               href: meeting-policies-in-teams.md
             - name: General policies
               href: meeting-policies-in-teams-general.md
