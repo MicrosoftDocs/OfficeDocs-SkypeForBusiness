@@ -3,7 +3,7 @@ title: "Set up an auto attendant for Microsoft Teams - small business tutorial"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: dobro
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
