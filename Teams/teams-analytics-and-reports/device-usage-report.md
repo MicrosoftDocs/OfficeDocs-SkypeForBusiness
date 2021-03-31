@@ -41,6 +41,17 @@ The Teams device usage report in the Microsoft Teams admin center provides you w
 |**5**   |Select **Edit columns** to add or remove columns in the table. |
 |**6**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screenshot of the Downloads tab showing exported reports](../media/teams-reports-export-to-csv.png)|
 
+
+## Make the user sepcific data anonymous
+
+To make the data in Teams device usage report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email and AAD ID in report and their export.
+
+1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
+    
+2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
+  
+3. Select **Save changes**.
+
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)

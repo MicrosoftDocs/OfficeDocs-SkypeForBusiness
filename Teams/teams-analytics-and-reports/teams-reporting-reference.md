@@ -51,3 +51,16 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Correlation ID  |
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## Make the user sepcific data anonymous
+
+To make the data in Teams user activity and Teams device usage report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email and AAD ID in reports and their exports.
+
+1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
+    
+2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
+  
+3. Select **Save changes**.
+
+> [!NOTE]
+> Enabling this setting will de-identify information in [Teams user activity report](user-activity-report.md) and [Teams device usage report](device-usage-report.md) reports. It will not affect other usage reports available in Teams admin center.
