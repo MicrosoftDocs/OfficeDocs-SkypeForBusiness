@@ -1,5 +1,5 @@
 ---
-title: Tenant Administration control for voice recognition (biometric data) in meeting rooms 
+title: Tenant Administration control for voice recognition (biometric data) in Teams meeting rooms 
 author: cichur
 ms.author: v-cichur
 ms.reviewer: parisataheri
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn about Tenant Administration control for voice recognition (biometric data) in meeting rooms.
+description: Learn about Tenant Administration control for voice recognition (biometric data) in Teams meeting rooms.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -20,7 +20,12 @@ appliesto:
 
 # Tenant Administration control for voice recognition (biometric data) in Teams Meeting Rooms
 
-Microsoft Teams Meetings Rooms now have voice recognition. A Teams tenant admin can control to what degree the organization is using voice recognition (biometric data). This feature allows people to edit the speakers of transcripts. You can change the speaker of a single utterance on all transcripts. The people you can change the speaker label for are the ones who are listed in the meeting. You can remove the identification of a single utterance or all utterances identified as that speaker on every transcript.
+Microsoft Teams Meetings Rooms now have voice recognition (biometric data). The tenant admin can control to what degree the organization is using voice recognition and the following features: 
+
+- Edit the speakers of transcripts. 
+- Change the speaker of a single utterance on all transcripts. 
+- Change the speaker label for the people who are listed in the meeting. 
+- Remove the identification of a single utterance or all utterances identified as that speaker on every transcript.
 
 There are two major policies used with biometric data:
 
@@ -31,7 +36,7 @@ Biometric data can be used in any meeting with or without external audio devices
 
 ## Use biometric data settings
 
-Turn on or off biometric capture, or enrollment, in Teams settings through the admin policy EnrollUserOverride. An admin can enable or disable the enrollment feature for a tenant. One policy will cover both voice and face enrollment. This policy works independently from the usage policy to give admins flexibility to roll out this feature. The flexibility includes:
+Turn on or off biometric capture, or enrollment, in Teams settings through the admin policy `EnrollUserOverride`. An admin can enable or disable the enrollment feature for a tenant. One policy will cover both voice and face enrollment. This policy works independently from the usage policy to give admins flexibility to roll out this feature. The flexibility includes:
 
 - Turn on biometric capture.
 - Enroll users.
@@ -51,46 +56,47 @@ Settings are disabled by default. When the settings are disabled:
 
 ## Set biometric usage
 
-Turn on or off biometric usage for attribution and diarization. Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity. Use RoomAttributeUserOverride in Rooms to set biometric usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use of both voice and face for transcription attribution purposes. This setting is **off** by default, so it won't use a user's attribute or distinguish features.
+Turn on or off biometric usage for attribution and dimerization. Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity. Use `RoomAttributeUserOverride` in Rooms to set biometric usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use of both voice and face for transcription attribution purposes. This setting is **off** by default, so it won't use a user's attribute or distinguish features.
 
 - Rooms won't send audio stream-saving bandwidths from the room.  
 - Rooms users won't be attributed or diarized.
 - Rooms users are unknown.  
 
-Distinguish participants but don't identify the participants
+The distinguish feature captures the following details:
 
-- Rooms users will be diarized but not specifically named (attendee n). No user identity is shown for in-room attendees.
+- Rooms users will be diarized but not named (attendee n). No user identity is shown for in-room attendees.
 - Rooms will send seven audio streams from the room.
 
-Biometric information of the user is created during the meeting and dismissed at the end of the meeting.
-
-Attribute  
+The attribute feature captures the following details: 
 
 - Rooms users will be attributed based on their enrollment status. 
 - Users who are enrolled, are shown with their name in the transcription.  
 - Users who aren't enrolled show as attendee n.
 - Rooms will send seven audio streams from the room.
 
+Biometric information of the user is created during the meeting and dismissed at the end of the meeting.
+
 ## Use intelligent speakers in Teams Rooms
 
-Intelligent speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room, enabling attendees to spend less time note taking and easily follow along who said what in the room. Intelligent speakers include a special seven microphone array and Microsoft Office graph and biometric information to identify voices of up to ten people in meeting rooms so whether you are working remotely or following the meeting in the conference room, you can effectively see who said what during and after the meeting.
+Intelligent speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent speakers include a special 7 microphone array and Microsoft Office graph. The speakers use biometric information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
 
-## Review the requirements
+## Review the speaker requirements
+
+The following items are intelligent speaker requirements:
 
 - The customer tenant must be located in the U.S.(North America).
 -	Rooms have regular meetings with multiple (2-10) people present in person.
-- Rooms have upload link of minimum 7Mbps.
-- All meetings will be recorded by Microsoft for testing and AI/speech training. Customers must be aware of the recordings. Signs need to be posted inside and outside of the conference room to this effect (provided by Microsoft).
+- Rooms have upload link of minimum 7 Mbps.
 
-## Set up the device
+## Set up the intelligent speakers
 
 Yealink Rockfall connects directly using USB to the Teams Rooms console. For best results, we recommend that you use Yealink Rockfall with the Yealink console.
 
-Rockfall should be placed at least eight inches (20 cm) away from walls and large objects, such as laptops. If the the Rockfall USB cable isn't long enough for your setup, use cable extenders.
+Rockfall should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Rock fall USB cable isn't long enough for your setup, use cable extenders.
 
 1. Sign in to the console as administrator.
 2. Set the Teams device settings to match the Rockfall microphone and speaker.
-3. Make sure you have the right Microphone and Speaker settings. 
+3. Ensure you have the right Microphone and Speaker settings.
    
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Rockfall device. For best results, Rockfall should be placed at least eight inches away from walls and large objects, such as laptops.
@@ -101,17 +107,17 @@ Use the following required policies to set speaker and user attribution.
 
 - `enrollUserOverride`: To control user biometric (voice) enrollment using the Teams desktop client (Windows). This isn't required to be set for mobile accounts. Allowed values are `Enabled` and `Disabled`. 
 - `roomAttributeUserOverride`: To control the voice-based user identification in meeting rooms. Required for MTR accounts. Allowed values are `Off`, `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). 
-`enabletranscription`: Required for user and MTR accounts. Allowed values are `true` and `false`.
+- `enabletranscription`: Required for user and Teams rooms accounts. Allowed values are `true` and `false`.
 
 ## To set the tenant policies, complete the following steps.
 
-1. Open the PowerShell admin mode. 
+1. Open the PowerShell admin mode.
 
     ```PowerShell
     Install-Module MicrosoftTeams $userCredential = Get-Credential
     ```
 
-2. Enter tenant admin credentials.
+2. Enter the tenant admin credentials.
 
     ```PowerShell
     $teamsSession= New-CsOnlineSession -Credential $userCredential 
@@ -120,7 +126,7 @@ Use the following required policies to set speaker and user attribution.
     Set-CsTeamsMeetingPolicy -Identity <Value> -<PolicyName> <Value>  
     ```
 
-    Examples:
+    See these examples for setting the Teams meeting policy:
 
     ```PowerShell
     Set-CsTeamsMeetingPolicy –Identity XYZ -AllowTranscription "True"
@@ -134,13 +140,18 @@ Use the following required policies to set speaker and user attribution.
     New-CsTeamsMeetingPolicy –Identity TestMeetingPolicy  -AllowTranscription $True -EnrollUserOverride "Enabled" -RoomAttributeUserOverride "Attribute"
     ```
 
-   See [New-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps).
+   See [New-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) for more details.
 
-4. To grant the above created identity to certain user, instructions see [grant-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy?view=skype-ps)
+4. To grant the created identity to a certain user, see [grant-csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy?view=skype-ps).
+
+   The following is an example of setting the identity to a certain user:
 
    ```PowerShell
    Grant-CsTeamsMeetingPolicy -identity "Ken Myer" -PolicyName TestMeetingPolicy
    ```
+
+Frequently asked questions (FAQ)
+
 
 ## Related topics
 
