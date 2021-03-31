@@ -69,7 +69,7 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 
     d. Select **Apply**.
 
-    ![shows the group policy assignment](media/group-pkg-assignment.png)
+![shows the group policy assignment](media/group-pkg-assignment.png)
 
 5. To manage ranking for a specific policy type, navigate to the specific policy page.
 6. To reassign a policy package to a group, first remove the group policy assignment. Then, follow the steps above to assign the policy package to a group.
