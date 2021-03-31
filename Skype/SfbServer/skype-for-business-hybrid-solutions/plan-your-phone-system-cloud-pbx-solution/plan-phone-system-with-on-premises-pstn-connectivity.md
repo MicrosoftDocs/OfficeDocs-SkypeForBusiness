@@ -25,11 +25,11 @@ description: "Learn about the planning considerations for Phone System (Cloud PB
 # Plan Phone System with on-premises PSTN connectivity in Skype for Business Server
 
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Learn about the planning considerations for Phone System (Cloud PBX) with on-premises PSTN connectivity.
 
-This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](../../../SfbHybrid/hybrid/msft-telephony-solutions.md).
 
  Phone System with on-premises PSTN connectivity enables you to leverage Phone System (Cloud PBX) capabilities for your users. This can help with the following scenarios:
 
@@ -44,7 +44,7 @@ To learn more about Phone System, including licensing and plans, see [PSTN Calli
 
 ## Feature comparison
 
-Cloud PBX with on-premises PSTN Connectivity does not offer the same feature set as a fully on-premises Enterprise Voice solution. To help you decide whether Cloud PBX with on-premises PSTN Connectivity will provide the right feature set for your organization, see [Here's what you get with Cloud PBX](https://go.microsoft.com/fwlink/?LinkId=715517).
+Cloud PBX with on-premises PSTN Connectivity does not offer the same feature set as a fully on-premises Enterprise Voice solution. To help you decide whether Cloud PBX with on-premises PSTN Connectivity will provide the right feature set for your organization, see [Here's what you get with Cloud PBX](/microsoftteams/here-s-what-you-get-with-phone-system?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2ftoc.json).
 
 ## Benefits and planning considerations
 
@@ -57,7 +57,7 @@ By deploying Phone System with on-premises PSTN connectivity, you can move your 
 
 You may have a custom feature or a major add-on to your legacy PBX, such as a call center. If the custom feature is not currently available on Phone System, you should leave those users that require that custom feature on-premises with the legacy PBX, and just port the users who do not need to access the custom feature to Phone System with on-premises PSTN connectivity.
 
-For a list of legacy PBXs that interoperate directly with Skype for Business Server 2015 see  [Infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). If your PBX is not on this list, you can use a Session Border Controller to connect your PBX with Phone System in Skype for Business Online.
+For a list of legacy PBXs that interoperate directly with Skype for Business Server 2015 see  [Infrastructure Qualified for Microsoft Lync](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). If your PBX is not on this list, you can use a Session Border Controller to connect your PBX with Phone System in Skype for Business Online.
 
 ### Network considerations for quality and performance
 
@@ -99,19 +99,17 @@ In addition you must ensure the following:
 
 - **On-premises Enterprise Voice is configured and tested for on-premises users** This includes PSTN connectivity components. For more information, see the following topics if you are using Skype for Business Server 2015, see [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) and [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
-    If you are using Lync Server 2013, see [Planning for Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) and [Deploying Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg412876%28v=ocs.15%29.aspx).
+    If you are using Lync Server 2013, see [Planning for Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) and [Deploying Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice).
 
 - **Active Directory synchronization** You must configure Active Directory synchronization using Azure AD Connect. For more information, see [Managing Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > The version of AAD Connect you use must be version 1.0.9125.0 or later. If you are using an earlier version of AAD Connect tools or DirSync, please upgrade to the supported version. You can upgrade your current installation and maintain any custom rules you have defined in your environment. 
 
-- **Configure your hybrid deployment** Whether all your Skype for Business users are currently homed either online or on-premises, or if you currently have a mix, you must complete the steps to configure a hybrid deployment of Skype for Business Server or Lync Server 2013, as outlined in [Deploy hybrid connectivity between Skype for Business Server and Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). For more background information on hybrid deployments, see [Plan hybrid connectivity between Skype for Business Server and Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
+- **Configure your hybrid deployment** Whether all your Skype for Business users are currently homed either online or on-premises, or if you currently have a mix, you must complete the steps to configure a hybrid deployment of Skype for Business Server or Lync Server 2013, as outlined in [Deploy hybrid connectivity between Skype for Business Server and Office 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). For more background information on hybrid deployments, see [Plan hybrid connectivity between Skype for Business Server and Office 365](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 
 
-    If you are using Lync Server 2013, see [Lync Server 2013 hybrid](https://technet.microsoft.com/library/jj204805%28v=ocs.15%29.aspx).
+    If you are using Lync Server 2013, see [Lync Server 2013 hybrid](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid).
 
-- **(Recommended) Active Directory Federation Services (AD FS).** We recommend deploying AD FS to support Single Sign-on. For more information, see [Active Directory Federation Services (AD FS)](https://technet.microsoft.com/library/cc736690%28v=ws.10%29.aspx).
+- **(Recommended) Active Directory Federation Services (AD FS).** We recommend deploying AD FS to support Single Sign-on. For more information, see [Active Directory Federation Services (AD FS)](/previous-versions/windows/it-pro/windows-server-2003/cc736690(v=ws.10)).
 
 For information about deploying Phone System, see [Enable users for Phone System with on-premises PSTN connectivity in Skype for Business Server](enable-users-for-phone-system.md).
-
-

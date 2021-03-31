@@ -18,7 +18,7 @@ description: "The following table lists the Skype for Business Cloud Connector E
 # Cloud Connector cmdlet reference
  
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 The following table lists the Skype for Business Cloud Connector Edition cmdlets with a brief description and links to more information.
   
@@ -65,5 +65,3 @@ The following table lists the Skype for Business Cloud Connector Edition cmdlets
 |[Unregister-CcAppliance](unregister-ccappliance.md) <br/> |Unregisters the current Cloud Connector appliance from a PSTN site in the online tenant configuration.  <br/> |
 |[Update-CcCACertificate](update-cccacertificate.md) <br/> Version 2.0 and later  <br/> |Reinstalls the Certification Authority Service AD Server to create a new root CA certificate.  <br/> |
 |[Update-CcServerCertificate](update-ccservercertificate.md) <br/> Version 2.0 and later  <br/> |Renews the certificates for Cloud Connector when they are near expiration or already expired.  <br/> |
-   
-

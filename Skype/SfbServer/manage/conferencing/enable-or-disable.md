@@ -42,6 +42,4 @@ To enable or disable dial-in conferencing, use the **Set-CsConferencingPolicy** 
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
-  
-
+For more information, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

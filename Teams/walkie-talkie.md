@@ -83,7 +83,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 ### License requirements
 
-Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 > [!NOTE]
 > Certain advanced features may require additional licensing. For example, integration with Samsung Galaxy XCover Pro requires a Knox license.

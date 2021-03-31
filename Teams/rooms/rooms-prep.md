@@ -61,7 +61,7 @@ In order to function properly, the Microsoft Teams Rooms device must have access
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
 
 > [!NOTE]
-> Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.
+> Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.
   
 ### Certificates
 
@@ -112,7 +112,7 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
 11. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
     
-See the [Network Security](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
+See the [Network Security](./security.md#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
   
   
 ### Create provisioning packages
@@ -161,4 +161,4 @@ If you would like to rename the computer after joining it to a domain, use **Ren
   
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
-[Prerequisites for Microsoft Store for Business and Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business)

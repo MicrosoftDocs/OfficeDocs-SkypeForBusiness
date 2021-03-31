@@ -60,7 +60,7 @@ Contoso should consider redesigning the auto attendant and call queue system. If
 If you decide to switch the license on your resource account from a Phone System license to a Microsoft 365 Phone System – Virtual User license:
 
 1. Get the new Microsoft 365 Phone System – Virtual User license.
-2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
 > Always remove a full Phone System License and assign the Microsoft 365 Phone System – Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Microsoft 365 Phone System – Virtual User license and remove the broken resource account. 

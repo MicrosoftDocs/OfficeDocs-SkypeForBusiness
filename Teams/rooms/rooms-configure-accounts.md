@@ -77,7 +77,7 @@ While the properties for the basic configuration will allow the device account t
    
 The easiest way to set up device accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new device accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms device accounts.
   
-If you prefer to use the Microsoft 365 or Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Microsoft 365 or Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+If you prefer to use the Microsoft 365 or Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Microsoft 365 or Office 365](/surface-hub/create-a-device-account-using-office-365).
   
 ## See also
 
@@ -86,4 +86,3 @@ If you prefer to use the Microsoft 365 or Office 365 UI over Windows PowerShell 
 [Configure a Microsoft Teams Rooms console](console.md)
   
 [Manage Microsoft Teams Rooms](rooms-manage.md)
-

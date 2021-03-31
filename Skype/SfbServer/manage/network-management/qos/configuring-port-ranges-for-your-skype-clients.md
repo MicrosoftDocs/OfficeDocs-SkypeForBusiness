@@ -262,4 +262,4 @@ After creating and configuring the new registry value, you will need to reboot y
 
 ## See also
 
-[Create a Group Policy Object in Windows 10](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+[Create a Group Policy Object in Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

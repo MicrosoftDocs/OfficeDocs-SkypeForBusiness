@@ -121,6 +121,4 @@ The following example creates a new conferencing policy with the Identity SalesC
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-For more information, including a complete syntax description and list of parameters, see [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
-  
-
+For more information, including a complete syntax description and list of parameters, see [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
