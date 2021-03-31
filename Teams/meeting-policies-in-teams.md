@@ -86,10 +86,10 @@ You can edit the global policy and any custom policies that you create.
 
 When you select an existing policy on the **Meeting policies** page or select **Add** to add a new policy, you can configure settings for the following.
 
-- [General](#meeting-policy-settings---general)
-- [Audio & video](#meeting-policy-settings---audio--video)
-- [Content sharing](#meeting-policy-settings---content-sharing)
-- [Participants & guests](#meeting-policy-settings---participants--guests)
+- [General](meeting-policies-in-teams-general.md)
+- [Audio & video](meeting-policies-audio-and-video.md)
+- [Content sharing](#meeting-policies-content-sharing.md)
+- [Participants & guests](#meeting-policies-participants-and-guests.md)
 
 
 ## Related topics
