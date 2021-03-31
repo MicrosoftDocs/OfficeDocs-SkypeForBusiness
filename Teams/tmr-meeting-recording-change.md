@@ -56,7 +56,7 @@ Watch "Meeting Recording" for more information.
 The meeting recording option is a setting at the Teams policy level. The following example shows how to set the Global policy. Make sure that you set the meeting recording option for the policy or policies that you've assigned to your users.
 
 > [!Note]
-> Teams meeting policy changes take awhile to propagate. Check back after a few hours of setting it, then sign out and sign in Teams Desktop app again or simply restart computer.
+> Teams meeting policy changes take a while to propagate. Check back after a few hours of setting it, then sign out and sign in to the Teams Desktop app again or simply restart your computer.
 
 1. Install Teams PowerShell PowerShell.
 
