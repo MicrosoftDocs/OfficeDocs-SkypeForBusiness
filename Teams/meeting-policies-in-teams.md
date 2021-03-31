@@ -88,8 +88,8 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 - [General](meeting-policies-in-teams-general.md)
 - [Audio & video](meeting-policies-audio-and-video.md)
-- [Content sharing](#meeting-policies-content-sharing.md)
-- [Participants & guests](#meeting-policies-participants-and-guests.md)
+- [Content sharing](meeting-policies-content-sharing.md)
+- [Participants & guests](meeting-policies-participants-and-guests.md)
 
 
 ## Related topics
