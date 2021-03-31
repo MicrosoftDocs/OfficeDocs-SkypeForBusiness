@@ -48,7 +48,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## Make the user sepcific data anonymous
+## Make the user specific data anonymous
 
 To make the data in Teams user activity report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email and AAD ID in report and their export.
 
