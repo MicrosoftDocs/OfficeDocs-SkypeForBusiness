@@ -52,7 +52,7 @@ We're continually improving the Teams reporting experience and adding features a
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## Make the user sepcific data anonymous
+## Make the user specific data anonymous
 
 To make the data in Teams user activity and Teams device usage report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email and AAD ID in reports and their exports.
 
