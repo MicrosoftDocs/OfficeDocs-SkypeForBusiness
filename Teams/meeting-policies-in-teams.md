@@ -22,6 +22,19 @@ description: Learn to manage meeting policy settings in Teams and use them to co
 ---
 # Manage meeting policies in Teams
 
+<a name="bkautomatically-admit-people"> </a>
+
+<a name="bkallow-a-participant-to-give-or-request-control"> </a>
+
+<a name="bkallow-transcription"> </a>
+
+
+
+
+
+
+
+
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
