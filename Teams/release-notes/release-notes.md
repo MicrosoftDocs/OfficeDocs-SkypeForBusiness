@@ -38,7 +38,7 @@ Microsoft Teams provides app customization to enhance the Teams experience. Some
 
 ### Enable live transcripts in Teams
 
-This is a per-user policy and applies during a meeting. This setting controls whether the Turn on live captions option is available for the user to turn on and turn off live captions in meetings that the user attends. [Learn more](../meeting-policies-participants-and-guests#enable-live-captions).
+This is a per-user policy and applies during a meeting. This setting controls whether the Turn on live captions option is available for the user to turn on and turn off live captions in meetings that the user attends. [Learn more](../meeting-policies-participants-and-guests.md#enable-live-captions).
 
 ## March 23, 2021
 
