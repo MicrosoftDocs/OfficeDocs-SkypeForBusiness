@@ -48,7 +48,7 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
   
 ## What are the Communications Credits rates?
 
-If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates) Plans (scroll down to "See rates for where you want to call").
+If you're wondering what the cost of the calls are for Calling Plans, see [Cloud-Based Phone System for Voice Calling](https://go.microsoft.com/fwlink/p/?LinkId=799523) (scroll down to "See rates for where you want to call").
   
 ## What is it?
 
@@ -115,11 +115,10 @@ You can see the plans and pricing by visiting one of the following links:
     
 You can also see information about pricing by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Purchase Services**.
   
-To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Related topics
 
 [Teams PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
 
   
- 

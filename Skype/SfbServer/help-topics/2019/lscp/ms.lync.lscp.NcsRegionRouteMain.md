@@ -1,8 +1,8 @@
 ---
 title: "Configure a Network Region Route"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -21,7 +21,4 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Configuring Network Region Routes](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
-
-
-
+- [Configuring Network Region Routes](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-region-routes)

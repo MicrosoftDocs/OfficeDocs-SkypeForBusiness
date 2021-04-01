@@ -1,7 +1,7 @@
 ---
 title: Onboard support for Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -29,7 +29,7 @@ To ensure that the early adopter and champions teams will have the appropriate s
 
 - [Foundations - Core Components of Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Troubleshooting Teams](https://youtu.be/0KNh9KNpXcA)
-- [Known issues and troubleshooting](https://aka.ms/TeamsKnownIssues)
-- [Microsoft Teams training](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
+- [Known issues and troubleshooting](/MicrosoftTeams/troubleshoot/teams-welcome)
+- [Microsoft Teams training](./training-microsoft-teams-landing-page.md)
 
 ![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).

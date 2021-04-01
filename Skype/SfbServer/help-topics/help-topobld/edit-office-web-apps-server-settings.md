@@ -1,8 +1,8 @@
 ---
 title: "Edit Office Web Apps Server Settings"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 8/19/2016
 audience: ITPro
@@ -31,4 +31,4 @@ Select the check box **Office Web Apps Server is deployed in an external network
 
 ## See also
 
-[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Components and Topologies for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

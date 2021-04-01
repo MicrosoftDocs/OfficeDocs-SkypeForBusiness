@@ -1,8 +1,8 @@
 ---
 title: "Stage AV and OAuth certificates in Skype for Business Server using -Roll in Set-CsCertificate"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -130,6 +130,6 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](server-to-server-and-partner-applications.md)
 
-[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
+[Set-CsCertificate](/powershell/module/skype/set-cscertificate?view=skype-ps)
   
-[Remove-CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
+[Remove-CsCertificate](/powershell/module/skype/remove-cscertificate?view=skype-ps)

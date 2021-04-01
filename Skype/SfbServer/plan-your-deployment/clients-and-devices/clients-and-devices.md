@@ -1,7 +1,7 @@
 ---
 title: "Plan for clients and devices"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
@@ -79,7 +79,7 @@ Microsoft Teams Rooms is Microsoft's latest conferencing solution which uses a f
 
 ### Skype for Business on Surface Hub
 
-Microsoft Surface Hub is an all-in-one productivity device that is intended for brainstorming, collaboration, and presentations. It has its own iteration of the Skype for Business client, documented in the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/surface-hub/).
+Microsoft Surface Hub is an all-in-one productivity device that is intended for brainstorming, collaboration, and presentations. It has its own iteration of the Skype for Business client, documented in the [Microsoft Surface Hub admin guide](/surface-hub/).
 
 ## Choosing your organization's preferred client
 <a name="BK_client_choose"> </a>
@@ -88,7 +88,7 @@ If your organization bought the appropriate licenses, choose the Full client, ot
 
 Your users can install the client for themselves from [Download Skype for Business across all your devices](https://products.office.com/skype-for-business/download-app?tab=tabs-3). The client is also installed when users install Microsoft 365 or Office 365 on Windows. If some of your users have Macs, those users will have a different set of features as described in earlier sections.
 
-Some features available with Skype for Business Server 2015 are not available in Skype for Business Online or Skype for Business Server 2019, see [Online or Hybrid user account limitations for 2015](desktop-feature-comparison.md#Online-Hybrid) or [Online or Hybrid user account limitations for 2019](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
+Some features available with Skype for Business Server 2015 are not available in Skype for Business Online or Skype for Business Server 2019, see [Online or Hybrid user account limitations for 2015](desktop-feature-comparison.md#Online-Hybrid) or [Online or Hybrid user account limitations for 2019](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) for information on the different plans available to them.
 
  Before you deploy or upgrade to Skype for Business, check which clients are already in use in your organization. Use the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md) to understand the feature support impact on those clients. This can help you communicate changes to users, pace the roll-out process, and fully understand the benefits of upgrading to the latest client.
 
@@ -134,7 +134,7 @@ MSI is a more traditional installation method, used on the Skype for Business 20
 
 Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-Skype for Business Server 2015 supports the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) and [Client Comparison Tables for Lync Server 2010](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx).
+Skype for Business Server 2015 supports the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) and [Client Comparison Tables for Lync Server 2010](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14)).
 
 
 ## Client system requirements
@@ -160,7 +160,7 @@ See the following articles to understand the supported features, platforms, oper
 
 - [Skype for Business on Mac client requirements](mac-requirements.md)
 
-- [Plan for Microsoft Teams Rooms](skype-room-systems-v2-0.md)
+- [Plan for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-plan)
 
 - [Plan for Skype for Business in VDI environments](vdi-environments.md)
 

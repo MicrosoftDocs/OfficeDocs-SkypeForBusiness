@@ -1,8 +1,8 @@
 ---
 title: "Add Monitoring Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -19,6 +19,4 @@ description: "To incorporate a Monitoring Server into your topology design, you 
 
 # Add Monitoring Server
 
-To incorporate a Monitoring Server into your topology design, you must specify the fully qualified domain name (FQDN) of the server on which you want to deploy Monitoring Server. Prior to publishing a topology that includes the Monitoring Server and installing Skype for Business Server on the server, you should complete all prerequisites for deploying monitoring. For details about these prerequisites, see [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) in the Deployment documentation.
-
-
+To incorporate a Monitoring Server into your topology design, you must specify the fully qualified domain name (FQDN) of the server on which you want to deploy Monitoring Server. Prior to publishing a topology that includes the Monitoring Server and installing Skype for Business Server on the server, you should complete all prerequisites for deploying monitoring. For details about these prerequisites, see [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring) in the Deployment documentation.

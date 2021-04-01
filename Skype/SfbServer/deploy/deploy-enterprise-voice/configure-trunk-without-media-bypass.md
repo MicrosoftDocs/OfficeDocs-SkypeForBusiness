@@ -1,8 +1,8 @@
 ---
 title: "Configure a trunk without media bypass in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -164,5 +164,4 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
 [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md)
 
-[Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-
+[Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

@@ -27,19 +27,19 @@ Sometimes things aren't working like you expect. Here is a list of topics that c
 
 ## Troubleshoot admin issues for Skype for Business Online
 
-You can get answers for most of your Skype for Business Online questions in the article [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094). The following KB article also includes many troubleshooting resources and error code references: [Troubleshooting Skype for Business Online sign-in errors for administrators](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
+You can get answers for most of your Skype for Business Online questions in the article [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094). The following KB article also includes many troubleshooting resources and error code references: [Troubleshooting Skype for Business Online sign-in errors for administrators](./troubleshooting-sign-in-errors-for-admins.md).
 
 For dial-in conferencing issues, see [Audio Conferencing troubleshooting and known issues](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
 ## Additional help for Skype for Business Online admin issues
 
-- [Troubleshoot Skype for Business Online DNS issues](https://go.microsoft.com/fwlink/p/?LinkId=786985)
+- [Troubleshoot Skype for Business Online DNS issues](/SkypeForBusiness/troubleshoot/online-configuration/dns-configuration-issue)
 
-- [Skype for Business Online users can't communicate with external contacts](https://go.microsoft.com/fwlink/p/?LinkId=786984)
+- [Skype for Business Online users can't communicate with external contacts](/SkypeForBusiness/troubleshoot/online-im-presence/cannot-communicate-with-external-contacts)
 
 - [Skype for Business and Lync Troubleshooting Guide (downloadable PDF)](https://gallery.technet.microsoft.com/office/Skype-for-Business-and-7857597d/view/Discussions)
 
-- [Diagnosing and resolving PowerShell connection problems with Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=786983)
+- [Diagnosing and resolving PowerShell connection problems with Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## Help your Skype for Business Online users
 
@@ -70,14 +70,14 @@ Most of the problems faced by Skype for Business Online users are related to for
 ## Still need help? Contact support.
 <a name="BK_SupportBridge_1"> </a>
 
-As an admin for Microsoft 365 Apps for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also [contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322) on behalf of Microsoft 365 and Office 365 users in your organization.
+As an admin for Microsoft 365 Apps for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also [contact support](/microsoft-365/Admin/contact-support-for-business-products) on behalf of Microsoft 365 and Office 365 users in your organization.
 
 - [Get help from the Microsoft 365 and Office 365 community forums](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
-- [Admins: Call Support](https://go.microsoft.com/fwlink/p/?LinkID=518322)
+- [Admins: Call Support](/microsoft-365/Admin/contact-support-for-business-products)
 
 > [!NOTE]
-> If you're using Office 365 operated by 21Vianet in China, please [contact the 21Vianet support team](https://go.microsoft.com/fwlink/p/?linkid=847978).
+> If you're using Office 365 operated by 21Vianet in China, please [contact the 21Vianet support team](/microsoft-365/Admin/contact-support-for-business-products).
 
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)

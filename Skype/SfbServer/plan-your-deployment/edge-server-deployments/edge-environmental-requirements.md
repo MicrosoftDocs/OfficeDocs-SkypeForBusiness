@@ -1,8 +1,8 @@
 ---
 title: "Edge Server environmental requirements in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -283,7 +283,7 @@ We'll discuss external and internal certificate needs separately, and then look 
   
 ### External Certificates
 
-At a minimum, the certificate assigned to your external Edge Server interfaces will need to be provided by a public Certificate Authority (CA). We can't recommend a specific CA to you, but we do have a list of CAs, [Unified Communications certificate partners](/SkypeForBusiness/certification/services-ssl) that you can take a look at to see if your preferred CA is listed.
+At a minimum, the certificate assigned to your external Edge Server interfaces will need to be provided by a public Certificate Authority (CA). We can't recommend a specific CA to you, but we do have a list of CAs, [Unified Communications certificate partners](../../../SfbPartnerCertification/certification/services-ssl.md) that you can take a look at to see if your preferred CA is listed.
   
 When will you need to submit a request to a CA for this public certificate, and how do you do it? There are a couple of ways to accomplish this:
   

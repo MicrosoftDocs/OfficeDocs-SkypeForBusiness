@@ -25,7 +25,7 @@ In the decision to migrate from Skype for Business to Teams, Contoso wanted to p
 To understand fundamental concepts about upgrade, methods, and modes, Contoso read the following articles:
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
-- [Upgrade from Skype for Business to Teams](upgrade-to-teams-on-prem-overview.md) 
+- [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md) 
 - [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md)
  
 Contoso also attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions). Contoso learned about:
@@ -43,8 +43,8 @@ Contoso also attended the Ignite 2019 session [Designing your path from Skype fo
   - Availability of collaboration functionality in Teams clients 
 
 To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read
-[Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
- [Configure hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) to understand how to: 
+[Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
+ [Configure hybrid connectivity](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) to understand how to: 
 
   - Configure their on-premises environment service to federate with Office 365. 
 
@@ -54,4 +54,4 @@ To plan and configure hybrid connectivity, the first step in moving their on-pre
 
   - Use Islands mode during the technical pilot.
 
-  - Switch users to TeamsOnly mode once the user is enabled for Phone System. TeamsOnly mode is required for  Calling Plan and Direct Routing. 
+  - Switch users to TeamsOnly mode once the user is enabled for Phone System. TeamsOnly mode is required for  Calling Plan and Direct Routing.

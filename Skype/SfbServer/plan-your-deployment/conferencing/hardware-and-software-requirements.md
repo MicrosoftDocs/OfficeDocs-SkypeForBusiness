@@ -1,8 +1,8 @@
 ---
 title: "Hardware and software requirements for conferencing in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -64,7 +64,7 @@ The web conferencing service then stores content such as PowerPoint slides, whit
 
 In order to use web conferencing capabilities, you must install Office Web Apps Server and configure Skype for Business Server to communicate with Office Web Apps Server.
 
-Office Web Apps Server should be installed on a stand-alone computer that is not running Skype for Business Server, SQL Server, or any other server application. (You must not have any version of Office installed on that computer.) Any computer used to run Office Web Apps Server must also have a specific set of software installed (including .NET Framework 4.5 and Windows PowerShell 3.0). These requirements, along with information about configuring certificates and Internet Information Services (IIS), are discussed in detail in the [Microsoft Office Web Apps Deployment website](https://go.microsoft.com/fwlink/p/?linkid=257525).
+Office Web Apps Server should be installed on a stand-alone computer that is not running Skype for Business Server, SQL Server, or any other server application. (You must not have any version of Office installed on that computer.) Any computer used to run Office Web Apps Server must also have a specific set of software installed (including .NET Framework 4.5 and Windows PowerShell 3.0). These requirements, along with information about configuring certificates and Internet Information Services (IIS), are discussed in detail in the [Microsoft Office Web Apps Deployment website](/webappsserver/deploy-the-infrastructure-office-web-apps-server).
 
 For information about how to configure Skype for Business Server to work with Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
 
@@ -76,7 +76,7 @@ For information about audio and video capacity planning for conferences, see [Pl
 
 You can use call admission control (CAC) to manage the network bandwidth used by A/V conferencing. This is important for restricted networks, such as limited bandwidth links between central and branch sites. For details, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
 
-If you deploy audio conferencing in your network, your users will need audio devices such as headsets to participate in an audio conference. If you deploy video conferencing, you need to deploy video devices, such as webcams for users. For both audio and video devices, device deployment and user training are important steps for you to consider. For more information, see [Plan for clients and devices](../../plan-your-deployment/clients-and-devices/clients-and-devices.md). Microsoft recommends that you use unified communications (UC) devices that are certified by Microsoft for all device types, to ensure an optimal user experience. For details about UC-certified devices, see [Phones and devices for Skype for Business](https://go.microsoft.com/fwlink/?LinkId=619916).
+If you deploy audio conferencing in your network, your users will need audio devices such as headsets to participate in an audio conference. If you deploy video conferencing, you need to deploy video devices, such as webcams for users. For both audio and video devices, device deployment and user training are important steps for you to consider. For more information, see [Plan for clients and devices](../../plan-your-deployment/clients-and-devices/clients-and-devices.md). Microsoft recommends that you use unified communications (UC) devices that are certified by Microsoft for all device types, to ensure an optimal user experience. For details about UC-certified devices, see [Phones and devices for Skype for Business](../../../SfbPartnerCertification/certification/devices-ip-phones.md).
 
 ## Requirements for dial-in conferencing
 
@@ -153,5 +153,3 @@ In order to use the conferencing features, Skype for Business Server requires th
 |1024-65535 \*  <br/> |TCP/UDP  <br/> |Audio port range (minimum of 20 ports required)  <br/> |
 |1024-65535 \*  <br/> |TCP/UDP  <br/> |Video port range (minimum of 20 ports required).  <br/> |
 |1024-65535 \*  <br/> |TCP  <br/> |Application sharing.  <br/> |
-
-

@@ -1,8 +1,8 @@
 ---
 title: "Manage trusted applications"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -99,4 +99,4 @@ To view all of your trusted applications, type the following command in the Skyp
         ExUmEnabled            : False
         Enabled                : True
     
-   For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
+   For details, see [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

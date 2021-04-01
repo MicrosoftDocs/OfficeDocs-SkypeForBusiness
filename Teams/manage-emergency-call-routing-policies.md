@@ -1,7 +1,7 @@
 ---
 title: Manage emergency call routing policies
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -55,7 +55,7 @@ If you assigned an emergency call routing policy to a network site and to a user
 
 ### Using PowerShell
 
-See [New-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
+See [New-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
 
 ## Edit an emergency call routing policy
 
@@ -69,17 +69,17 @@ You can edit the global policy or any custom policies that you create.
 
 ### Using PowerShell
 
-See [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
+See [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
 
 ## Assign a custom emergency call routing policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-See also [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
+See also [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
 ## Assign a custom emergency call routing policy to a network site
 
-Use the [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling routing policy to a network site.
+Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling routing policy to a network site.
 
 This example shows how to assign a policy called Emergency Call Routing Policy 1 to the Site1 site.
 

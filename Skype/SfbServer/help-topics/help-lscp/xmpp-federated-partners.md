@@ -1,8 +1,8 @@
 ---
 title: "XMPP Federated Partners"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -21,7 +21,6 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Manage XMPP Federated Partners for Your Organization](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+- [Manage XMPP Federated Partners for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-xmpp-federated-partners-for-your-organization)
 
 For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-

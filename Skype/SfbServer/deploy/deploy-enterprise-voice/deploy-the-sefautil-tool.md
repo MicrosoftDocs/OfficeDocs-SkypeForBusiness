@@ -1,8 +1,8 @@
 ---
 title: "Deploy the SEFAUtil tool in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -32,7 +32,7 @@ To run the SEFAUtil tool you must run Steps 1, 2, and 3 from the Skype for Busin
 SEFAUtil requires the local configuration store to be present, as well as a certificate.
   
 > [!NOTE]
-> For more details about running SEFAUtil, see the  blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
+> For more details about running SEFAUtil, see the  blog article, "[How to get SEFAutil running?](/archive/blogs/jenstr/how-to-get-sefautil-running)". 
   
 ### To deploy SEFAUtil
 
@@ -78,5 +78,3 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
    ```
 
 The call forwarding settings for the user will be displayed.
-    
-

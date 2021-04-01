@@ -1,8 +1,8 @@
 ---
 title: "Voice Policy"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -23,7 +23,4 @@ What do you want to do? Click the link to the task that you want to perform.
 
 - [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [Modify a Voice Policy and Configure PSTN Usage Records](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-
-
-
+- [Modify a Voice Policy and Configure PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)

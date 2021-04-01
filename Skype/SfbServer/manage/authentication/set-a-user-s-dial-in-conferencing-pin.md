@@ -1,8 +1,8 @@
 ---
 title: "Set a user's dial-in conferencing PIN in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -94,6 +94,4 @@ This command uses the Pin parameter to assign the PIN number 121989 to the user 
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-For more information, see the help topic for the [Set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) cmdlet.
-  
-
+For more information, see the help topic for the [Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps) cmdlet.

@@ -1,8 +1,8 @@
 ---
 title: "Associate Front End With Office Web Apps Server Page"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -33,4 +33,4 @@ The options in this dialog present you with these choices:
 
 ## See also
 
-[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[Publishing Office Web Apps Server Using a Reverse Proxy Server](/previous-versions/office/lync-server-2013/lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server)

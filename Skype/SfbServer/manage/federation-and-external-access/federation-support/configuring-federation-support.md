@@ -5,8 +5,8 @@ ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 mtps_version: v=OCS.15
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -45,7 +45,7 @@ To federate with a Skype for Business Online customer, you should have already c
 
 Federating with a Skype for Business Online customer requires you to complete the following steps:
 
-  - Configure support for the domain of the Skype for Business Online 2010 customer (for example, contoso.onmicrosoft.com). As specified in [Prerequisites for federating with a Skype for Business Online customer](#prerequisites-for-federating-with-a-skype-for-business-online-customer), you should have already enabled federation for your organization. Enabling federation requires specifying the method to be used to control access by federated domains. If you configured your organization to use discovery, adding the domain to your organization’s allowed list is optional. If you did not enable domain discovery, then you must add the domain name of the Skype for Business Online customer to your allowed domains list. You can add a domain name either by using Skype for Business Server Control Panel or by running the **New-CSAllowedDomain** cmdlet. For details about using Skype for Business Server Control Panel, including enabling discovery of domains, see [Manage SIP federated providers for your organization in Skype for Business Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). For details about using the **New-CSAllowedDomain** cmdlet to add a domain, see [New-CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain).
+  - Configure support for the domain of the Skype for Business Online 2010 customer (for example, contoso.onmicrosoft.com). As specified in [Prerequisites for federating with a Skype for Business Online customer](#prerequisites-for-federating-with-a-skype-for-business-online-customer), you should have already enabled federation for your organization. Enabling federation requires specifying the method to be used to control access by federated domains. If you configured your organization to use discovery, adding the domain to your organization’s allowed list is optional. If you did not enable domain discovery, then you must add the domain name of the Skype for Business Online customer to your allowed domains list. You can add a domain name either by using Skype for Business Server Control Panel or by running the **New-CSAllowedDomain** cmdlet. For details about using Skype for Business Server Control Panel, including enabling discovery of domains, see [Manage SIP federated providers for your organization in Skype for Business Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md). For details about using the **New-CSAllowedDomain** cmdlet to add a domain, see [New-CsAllowedDomain](/powershell/module/skype/New-CsAllowedDomain).
 
     > [!NOTE]  
     > A Skype for Business Online customer can have multiple domains. If you want to federate with more than one of the domains, you must configure support for each individual domain with which you want to support federation, and the administrator of the Skype for Business Online customer must enable federation for each of the domains to be federated.
@@ -80,7 +80,7 @@ Federating with a Skype for Business Online customer requires you to complete th
     
       - **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology.
     
-    For details about using this cmdlet, see [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider).
+    For details about using this cmdlet, see [New-CsHostingProvider](/powershell/module/skype/New-CsHostingProvider).
 
 ## Configure user access for federation with a Skype for Business Online customer 
 
@@ -94,4 +94,4 @@ To enable Skype for Business users in your organization to communicate with user
   - Configured domain access support in your internal deployment. This includes creating a host provider entry and configuring your deployment to allow access from the Skype for Business Online customer’s domain. For details, see [Configure federation support for a Skype for Business Online domain](#configure-federation-support-for-a-skype-for-business-online-domain).
   - Configured your user accounts to support federation. For details, see [Configure user access for federation with a Skype for Business Online customer](#configure-user-access-for-federation-with-a-skype-for-business-online-customer).
 
-After you complete all of these steps and the administrator of the Skype for Business Online customer completes all configuration of their online services to support federation with your organization, verify communications by testing communications between an internal user in your organization and a user of the Skype for Business Online customer. If communication is not successful, use the Logging Tool from your Edge Server to capture log and trace files in order to troubleshoot the problem. 
+After you complete all of these steps and the administrator of the Skype for Business Online customer completes all configuration of their online services to support federation with your organization, verify communications by testing communications between an internal user in your organization and a user of the Skype for Business Online customer. If communication is not successful, use the Logging Tool from your Edge Server to capture log and trace files in order to troubleshoot the problem.

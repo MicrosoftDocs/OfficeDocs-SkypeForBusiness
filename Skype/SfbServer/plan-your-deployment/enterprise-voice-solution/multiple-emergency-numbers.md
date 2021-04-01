@@ -1,8 +1,8 @@
 ---
 title: "Plan for multiple emergency numbers in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -54,7 +54,7 @@ When planning for multiple emergency numbers, keep the following in mind:
   
 Before you configure multiple emergency numbers, keep the following in mind:
   
-- To configure multiple emergency numbers, you must use the New-CsEmergencyNumber cmdlet, and you must define location policies that support more than one emergency number by specifying the EmergencyNumbers parameter with the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) and [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlets.
+- To configure multiple emergency numbers, you must use the New-CsEmergencyNumber cmdlet, and you must define location policies that support more than one emergency number by specifying the EmergencyNumbers parameter with the [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) and [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlets.
     
 - If you have existing numbers defined using the Set-CsLocationPolicy or New-CsLocationPolicy cmdlet with the EmergencyDialString and EmergencyDialMask parameters, the values specified with the EmergencyNumbers parameter will take precedence over the old values. That is, the values for the EmergencyDialString and EmergencyDialMask parameters will be ignored.
     
@@ -103,5 +103,3 @@ The following table shows client support for multiple emergency numbers. Microso
 || Aastra 6721ip and Aastra 6725ip telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110 and HP 4120 telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
 ||Polycom CX500, Polycom CX600, and Polycom CX3000 telephones - September 2016 cumulative update (Build 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
-   
-

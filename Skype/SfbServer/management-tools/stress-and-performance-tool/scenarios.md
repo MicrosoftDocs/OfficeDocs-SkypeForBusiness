@@ -1,8 +1,8 @@
 ---
 title: "Performance Scenarios for the Skype for Business Server 2015 Stress and Performance Tool"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -34,7 +34,7 @@ We're providing sample PowerShell scripts you can use to prepare for your load s
   
 ## Stress and Performance Tool client version names
 
-You might need to configure the Client Version Check policy if you've previously changed the settings from the default values. If you're unsure about this, check the [Client Version Check documentation](https://msdn.microsoft.com/vsto/jj923060).
+You might need to configure the Client Version Check policy if you've previously changed the settings from the default values. If you're unsure about this, check the [Client Version Check documentation](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules).
   
 The Stress and Performance Tool uses the following User Agent versions by default when communicating with Skype for Business Server 2015:
   
@@ -47,5 +47,3 @@ For the Mobility (UCWA) client in LyncPerfTool:
 - UCWA Perf Tool/Web Conference
     
 - UCWA Perf Tool/Mobile
-    
-

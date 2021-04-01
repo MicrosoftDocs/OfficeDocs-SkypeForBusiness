@@ -1,8 +1,8 @@
 ---
 title: "Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -27,19 +27,19 @@ In general, setting up SQL mirroring between the two Back End Servers with a wit
 
 - The primary and the mirror must have the same edition of SQL Server. The witness may have a different edition.
 
-For SQL best practices in terms of what SQL versions are supported for a Witness role, see [Database Mirroring Witness](https://go.microsoft.com/fwlink/p/?LinkId=247345).
+For SQL best practices in terms of what SQL versions are supported for a Witness role, see [Database Mirroring Witness](/sql/database-engine/database-mirroring/database-mirroring-witness).
 
 You use Topology Builder to deploy SQL mirroring. You select an option in Topology Builder to mirror the databases, and Topology Builder sets up the mirroring (including setting up a witness, if you want) when you publish the topology. Note that you set up or remove the witness at the same time you set up or remove the mirror. There is no separate command to deploy or remove only a witness.
 
-To configure server mirroring, you must first set up SQL database permissions correctly. For details, see [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).
+To configure server mirroring, you must first set up SQL database permissions correctly. For details, see [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability).
 
 With SQL mirroring, database recovery mode is always set to **Full**, which means you must closely monitor transaction log size and back up transaction logs on a regular basis to avoid running out of disk space on the Back End Servers. The frequency of transaction log backups depends on the log growth rate, which in turn depends on database transactions incurred by user activities on the Front End pool. We recommend that you determine how much transaction log growth is expected for your deployment workload so that you can do the planning accordingly. The following articles provide additional information on SQL backup and log management:
 
-- [Database recovery models](https://go.microsoft.com/fwlink/p/?LinkId=268446)
+- [Database recovery models](/sql/relational-databases/backup-restore/recovery-models-sql-server)
 
-- [Backup overview](https://go.microsoft.com/fwlink/p/?LinkId=268449)
+- [Backup overview](/sql/relational-databases/backup-restore/backup-overview-sql-server)
 
-- [Backup transaction log](https://go.microsoft.com/fwlink/p/?LinkId=268452)
+- [Backup transaction log](/sql/relational-databases/backup-restore/back-up-a-transaction-log-sql-server)
 
 With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.
 
@@ -114,9 +114,9 @@ You should keep the following in mind when setting up SQL mirroring:
 
 - Any port already allocated for other applications on the same server, including those for other SQL instances, should not be used for the installed SQL instances at hand. This implies that if you have more than one SQL instance installed on the same server, they must not use the same port for mirroring. For details, see the following articles:
 
-  - [Specify a Server Network Address (Database Mirroring)](https://go.microsoft.com/fwlink/p/?LinkId=247346)
+  - [Specify a Server Network Address (Database Mirroring)](/sql/database-engine/database-mirroring/specify-a-server-network-address-database-mirroring)
 
-  - [The Database Mirroring Endpoint (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
+  - [The Database Mirroring Endpoint (SQL Server)](/sql/database-engine/database-mirroring/the-database-mirroring-endpoint-sql-server)
 
 ## Using Skype for Business Server 2015 Management Shell Cmdlets to Set Up SQL Mirroring
 
@@ -284,6 +284,4 @@ Use this procedure if you need to remove the witness from a Back End Server mirr
 
     However, do not follow that step, and do not type  `Uninstall-CsMirrorDatabase` as that would uninstall the entire mirroring configuration.
 
-4. To remove just the witness from the SQL Server configuration, follow the instructions in [Remove the Witness from a Database Mirroring Session (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).
-
-
+4. To remove just the witness from the SQL Server configuration, follow the instructions in [Remove the Witness from a Database Mirroring Session (SQL Server)](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server).

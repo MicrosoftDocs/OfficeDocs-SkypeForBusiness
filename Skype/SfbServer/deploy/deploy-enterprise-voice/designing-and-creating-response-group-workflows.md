@@ -1,8 +1,8 @@
 ---
 title: "Designing and creating response group workflows in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -60,7 +60,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 8. To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
 
     > [!NOTE]
-    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). For details about the federation setting, see [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premises deployment. This is true in both hybrid deployments and in cases where an on-premises deployment is federated with a Skype for Business Online deployment.
@@ -107,7 +107,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     - To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
     > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 18. Under **Step 4 Specify Your Business Hours**, in **Your time zone**, click the time zone for the workflow.
 
@@ -143,7 +143,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
       > [!NOTE]
-      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 23. Specify how to handle calls after the message is played (if a message is configured):
 
@@ -170,7 +170,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
       > [!NOTE]
-      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 26. Specify how to handle calls after the message is played (if a message is configured):
 
@@ -191,7 +191,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     - To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
       > [!NOTE]
-      > All user provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > All user provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 29. Click **Deploy**.
 
@@ -214,7 +214,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
    ```
 
      > [!NOTE]
-     > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Get the identity of the queue or question where the calls will be directed. At the command line, run:
 
@@ -222,7 +222,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    For details about creating the queue, see [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps).
+    For details about creating the queue, see [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps).
 
 5. Define the default action to be taken when a workflow is opened during business hours, and save it in a variable. At the command line, run:
 
@@ -241,7 +241,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 6. If you want to define business hours and holidays, you need to create them before you create or modify the workflow. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
 
-7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) and [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) and [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
 8. Retrieve the service name for the Lync Server Response Group service and assign it to a variable. At the command, run:
 
@@ -265,7 +265,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
      > All users who are designated managers for workflows must be assigned the CsResponseGroupManager role.
 
      > [!NOTE]
-     > For details about additional optional parameters, see [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) or [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > For details about additional optional parameters, see [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) or [Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
 ## Designing an interactive workflow
 
@@ -393,7 +393,7 @@ The following list describes some best practices for designing your IVR:
 8. To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
 
     > [!NOTE]
-    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see **Set-CsExternalAccessPolicy** in documentation..
+    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). For details about the federation setting, see **Set-CsExternalAccessPolicy** in documentation..
 
     > [!NOTE]
     > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premises deployment. This is true in both hybrid deployments and in cases where an on-premises deployment is federated with a Skype for Business Online deployment.
@@ -437,7 +437,7 @@ The following list describes some best practices for designing your IVR:
     - To use a Wave or Windows Media Audio file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
     > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 18. Under **Step 4 Specify Your Business Hours**, in the **Your time zone** box, click the time zone of the workflow.
 
@@ -470,7 +470,7 @@ The following list describes some best practices for designing your IVR:
     - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
     > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 23. Specify how to handle calls after the message is played (if a message is configured):
 
@@ -497,7 +497,7 @@ The following list describes some best practices for designing your IVR:
     - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
       > [!NOTE]
-      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 26. Specify how to handle calls after the message is played (if a message is configured):
 
@@ -516,7 +516,7 @@ The following list describes some best practices for designing your IVR:
     - To use an audio file recording for the on-hold music, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
     > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 28. Under **Step 7 Configure Interactive Voice Response**, under the **The user will hear the following text or recorded message** heading, specify the question to ask callers as follows:
 
@@ -531,7 +531,7 @@ The following list describes some best practices for designing your IVR:
     - To use a prerecorded audio file that contains the question, click **Select a recording**, and then click the **a recording** link to upload the file. In the new browser window, click **Browse**, select the audio file, and then click **Open**. Click **Upload** to load the file, and then optionally you can type the question in the text box (this enables the question, and the caller's response, to be forwarded to the responding agent).
 
       > [!NOTE]
-      > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
 
 29. Under **Response 1**, specify the first possible answer to the question by doing the following:
 
@@ -645,11 +645,10 @@ The following list describes some best practices for designing your IVR:
 
 [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md)
 
-[New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 
-[Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+[Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
 
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
-
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)

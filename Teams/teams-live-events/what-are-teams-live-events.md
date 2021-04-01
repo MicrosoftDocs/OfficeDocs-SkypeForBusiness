@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -21,6 +21,7 @@ ms.custom:
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 
   - Microsoft Teams
+localization_priority: Normal
 ---
 
 # What are Microsoft Teams live events
@@ -56,6 +57,9 @@ Teams provides the ability for the organizers to create an event with the approp
 
 ![the New live events screen](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
+> [!IMPORTANT]
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
+
 ### Production
 
 The video input is the foundation of the live event and it can vary from a single webcam to a multi-camera professional video production. The live events in Microsoft 365 support a spectrum of production scenarios, include an event produced in Teams using a webcam or an event produced in an external app or device. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
@@ -73,8 +77,8 @@ The video input is the foundation of the live event and it can vary from a singl
 
 The live event streaming platform is made up of the following pieces:
 
-- **Azure Media Services**:  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
-- **Azure Content Delivery Network (CDN)**:  Once your stream goes live, it's delivered through the [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows the streams to be viewed worldwide with no buffering.
+- **Azure Media Services**:  [Azure Media Services](/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
+- **Azure Content Delivery Network (CDN)**:  Once your stream goes live, it's delivered through the [Azure Content Delivery Network (CDN)](/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows the streams to be viewed worldwide with no buffering.
 
 ### Enterprise Content Delivery Network (eCDN)
 
@@ -101,7 +105,7 @@ Go to [Plan for Teams live events](plan-for-teams-live-events.md).
 
 ### Related topics
 
-- [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](/stream/live-event-m365)
 - [Get started with Microsoft Teams live events](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Live events in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Live events in Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
+- [Live events in Microsoft Stream](/stream/live-event-overview)

@@ -52,7 +52,7 @@ Teams provides a great out-of-the-box experience for your organization, and most
 > Watch the following session to learn more about Meetings: [Introduction to Meetings in Microsoft Teams for IT Pros](https://aka.ms/teams-meetings-intro)
 
 
-## Meetings and conferencing prerequisites 
+## Meetings and conferencing prerequisites
 
 Before scaling your meetings deployment across your organization, take time to review and confirm that your environment is ready to provide users with the best
 possible experience. Review the following information and make any required changes to your environment as needed.
@@ -67,7 +67,7 @@ To scale meetings across your organization you should ensure that all user locat
 
 | Ask yourself | Action |
 |--------------|--------|
-|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Is my network ready for Teams meetings deployment? | To verify that your network is ready, see:<ul><li>[Prepare your organization's network for Microsoft Teams](./prepare-network.md)</li><li>[URLs and IP address ranges](./office-365-urls-ip-address-ranges.md)</li></ul> |
 |||
 
 ## Core deployment decisions
@@ -81,7 +81,7 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 | Ask yourself | Action |
 |--------------|--------|
 |Who will be assigned the Teams Communications Administrator role?|To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
-|Who will be assigned the Teams Communications Support Engineer role?|To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|Who will be assigned the Teams Communications Support Engineer role?|To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |Who will be assigned the Teams Communications Support Specialist role?||
 |||
 
@@ -117,7 +117,7 @@ For an optimal meeting experience in Teams, consider using Teams devices such as
 | Ask yourself | Action |
 |--------------|--------|
 |Will I purchase personal devices for my users? |Read [Manage your devices in Teams](devices/device-management.md). |
-|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
 |||
 
 ### Reporting
@@ -137,7 +137,10 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Bandwidth planning 
 
-Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service. 
+Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service.
+
+> [!IMPORTANT]
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth. 
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -155,7 +158,7 @@ To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-recording-transcription)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
 |||
 
 
@@ -176,7 +179,7 @@ Organizations with many conference rooms may want to consider a structured appro
 
 | Ask yourself | Action |
 |--------------|--------|
-| What do I need to do to roll out conference room systems?|Check out the [Plan Microsoft Teams Rooms](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) articles.|
+| What do I need to do to roll out conference room systems?|Check out the [Plan Microsoft Teams Rooms](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) articles.|
 |||
 
 ### Cloud video interop

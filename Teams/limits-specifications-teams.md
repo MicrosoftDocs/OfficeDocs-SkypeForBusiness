@@ -31,28 +31,30 @@ This article describes some of the limits, specifications, and other requirement
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of teams a user can be a member of|1,000&sup2;|
-|Number of members in a team | 10,000<sup>5</sup>     |
+|Number of members in a team | 25,000<sup>6</sup>     |
 |Number of owners per team | 100   |
-|Number of org-wide teams allowed in a tenant | 5     |
-|Number of members in an [org-wide team](create-an-org-wide-team.md) | 5,000       |
+|Number of org-wide teams allowed in a tenant | 5&sup2;     |
+|Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
-|Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup2;     |
-|Number of channels per team    | 200 (includes deleted channels)&sup3;         |
-|Number of Private channels per team    |30| (includes deleted channels)&sup3;
+|Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup3;     |
+|Number of channels per team    | 200 (includes deleted channels)<sup>4</sup>        |
+|Number of Private channels per team    |30 (includes deleted channels)<sup>4</sup>        |
 |Number of members in a Private channel    |250|
 |Maximum size of distribution list, security group or Office 365 group that can be imported in to a team    |3,500|
-|Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>5</sup>     |
-|Channel conversation post size | Approximately 28 KB per post<sup>4</sup> |
+|Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>6</sup>     |
+|Channel conversation post size | Approximately 28 KB per post<sup>5</sup> |
 
-<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams. To go beyond the maximum number of teams a Microsoft 365 or Office 365 organization can have, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant.
+<sup>2</sup> This limit includes archived teams. 
 
-<sup>3</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
+<sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
 
-<sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
+<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
-<sup>5</sup> Teams in GCC can only accommodate 5,000 members and teams in GCCH/DoD can only accommodate 2,500 members.
+<sup>5</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
+
+<sup>6</sup> Teams in GCC can accommodate 25,000 members but teams in GCCH/DoD can only accommodate 2,500 members. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
 ## Messaging
 
@@ -71,7 +73,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -92,7 +94,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
-For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
@@ -103,7 +105,7 @@ Channel names can't contain the following characters or words:
 
 |Type|Example|
 |---------|---------|
-|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
+|Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , ..        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
 |Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
@@ -124,13 +126,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300 |
-|Number of people in a video or audio call started from the chat tab | 20 |
-|Max PowerPoint File Size | 2 GB|
+|Number of people in a meeting (can chat and call in)  | 300. **View-only** allows for up to 10,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU.<br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow. Learn more about the [View-only experience](view-only-meeting-experience.md).|
+|Number of people in a video or audio call from chat | 20 |
+|Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 ### Meeting expiration
 
@@ -177,7 +176,7 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
-> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site (previously called "site collection").
+> Each [private channel](./private-channels.md) has its own SharePoint site (previously called "site collection").
 
 If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
@@ -221,7 +220,7 @@ A class team can support more than 200 members. However, if you plan to use eith
 |Number of tags per team    | 100        |
 |Number of suggested default tags per team    | 25        |
 |Number of team members assign to a tag    |100         |
-|Number of tags assigned to a user    |25         |
+|Number of tags assigned to a user per team    |25         |
 
 ## Contacts
 

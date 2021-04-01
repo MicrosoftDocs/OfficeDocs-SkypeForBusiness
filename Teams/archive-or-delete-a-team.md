@@ -35,7 +35,7 @@ When you delete a team, team activity in standard and private channels (and asso
 
 ## Archive a team
 
-Follow these steps to archive a team. You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) to read about getting admin roles and permissions.
+Follow these steps to archive a team. You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
@@ -67,7 +67,7 @@ If the team will not be required in the future, then you can delete it rather th
 
 Follow these steps to restore a deleted team by restoring the Microsoft 365 group that's associated with the team. Restoring the Microsoft 365 group for a team restores team content, including tabs, standard channels, and private channels and their associated site collections.
 
-By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
+By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### Install the AzureADPreview module
 

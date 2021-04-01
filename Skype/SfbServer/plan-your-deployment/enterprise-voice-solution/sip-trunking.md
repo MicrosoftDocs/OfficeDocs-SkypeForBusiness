@@ -1,8 +1,8 @@
 ---
 title: "SIP trunking in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -133,7 +133,7 @@ Skype for Business Server supports only the following codecs:
 
 ### Internet Telephony Service Provider
 
-How you implement the service provider side of a SIP trunk connection varies from one ITSP to another. For deployment information, contact your service provider. For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](https://go.microsoft.com/fwlink/p/?LinkId=287029).
+How you implement the service provider side of a SIP trunk connection varies from one ITSP to another. For deployment information, contact your service provider. For a list of certified SIP trunking service providers, see [Microsoft Unified Communications Open Interoperability Program website](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 For details about Microsoft certified SIP trunking providers, contact your Microsoft representative.
 
@@ -154,7 +154,7 @@ As shown in the diagram, an IP virtual private network (VPN) is used for connect
 > Contact your service provider to determine whether it provides support for high availability, including failover. If so, you will need to determine the procedures for setting it up. For example, do you need to configure only one IP address and one SIP trunk on each Mediation Server, or do you need to configure multiple SIP trunks on each Mediation Server? > If you have multiple central sites, also ask whether the service provider has the ability to enable connections to and from another central site.
 
 > [!NOTE]
-> For SIP trunking, we strongly recommend that you deploy stand-alone Mediation Servers. For details, see [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) in the Deployment documentation.
+> For SIP trunking, we strongly recommend that you deploy stand-alone Mediation Servers. For details, see [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers) in the Deployment documentation.
 
 ### Securing the Mediation Server for SIP Trunking
 
@@ -181,4 +181,3 @@ If you use a VPN server, we recommend that you follow these guidelines:
 ## See also
 
 [Branch site SIP trunking in Skype for Business Server](branch-site.md)
-

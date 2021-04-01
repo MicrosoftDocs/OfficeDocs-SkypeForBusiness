@@ -1,8 +1,8 @@
 ---
 title: "Plan for Call Quality Dashboard for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -30,7 +30,7 @@ The Skype for Business Server Call Quality Dashboard (CQD) is a reporting layer 
 - **Web API access to the Report Structure and Analysis Cube Data.** The Dashboard reporting framework is not the only way to display the data from the Cube. CQD provides several examples of using HTML and JavaScript to retrieve data from the CQD Web APIs and render the data in a custom format. The combination of the Report Editor and the CQD Web APIs allows rapid prototyping of reports and custom report layout.
 
 > [!NOTE]
-> An admin can now manage Skype for Business Server 2019 using [CQD version 3](https://cqd.teams.microsoft.com) (log in with Admin credentials). This requires a hybrid implementation and the use of Call Data Connector (CDC). See [Plan Call Data Connector](/SkypeForBusiness/hybrid/plan-call-data-connector) for more information on enabling CDC. For CQD version 3 documentation, see [Turn on and use Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) for more information about CQD version 3.
+> An admin can now manage Skype for Business Server 2019 using [CQD version 3](https://cqd.teams.microsoft.com) (log in with Admin credentials). This requires a hybrid implementation and the use of Call Data Connector (CDC). See [Plan Call Data Connector](../../../SfbHybrid/hybrid/plan-call-data-connector.md) for more information on enabling CDC. For CQD version 3 documentation, see [Turn on and use Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) for more information about CQD version 3.
 
 ## CQD Design Goals
 
@@ -306,7 +306,7 @@ In all cases, "Database Engine Services" and "Analysis Services" must be install
   
 When configuring the SSAS setup, in the Analysis Services Configuration, set "Server Mode" to "Multidimensional and Data Mining Mode". 
   
-For additional help in installing and configuring SQL Server Business Intelligence Features, see [Install Analysis Services in Multidimensional and Data Mining Mode](https://msdn.microsoft.com/library/ms143708%28v=sql.110%29.aspx).
+For additional help in installing and configuring SQL Server Business Intelligence Features, see [Install Analysis Services in Multidimensional and Data Mining Mode](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110)).
   
 #### Account Requirements
 
@@ -341,5 +341,3 @@ The type of hardware to use depends on your requirements for how quickly syncs s
 - SSIS Cube compresses the data almost 10x compared to DB
     
 - Data is partitioned monthly; partitions can be deleted
-    
-

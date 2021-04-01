@@ -1,8 +1,8 @@
 ---
 title: "Web Service Security Settings Create New or Modify Existing"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -23,9 +23,6 @@ What do you want to do? Click the link to the task that you want to perform.
 
 - [Manage Web Service configuration settings in Skype for Business Server](../../../manage/authentication/web-service-configuration-settings.md)
 
-- [Modify an Existing Web Service](https://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
+- [Modify an Existing Web Service](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-web-service-configuration-settings)
 
-- [Delete a Web Service](https://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
-
-
-
+- [Delete a Web Service](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-web-service-configuration-settings)

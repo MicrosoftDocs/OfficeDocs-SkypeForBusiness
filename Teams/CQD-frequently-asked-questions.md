@@ -37,6 +37,8 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
+[Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
+
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
@@ -74,7 +76,7 @@ To compute call count and user count measures, a distinct countif operation is p
 > As of July 1, 2020, the older CQD (CQD.lync.com) uses data from the latest CQD (CQD.Teams.microsoft.com). The older CQD data is no longer available, and you can't export your building or report data. You can still use CQD.lync.com (available from the Skype for Business admin center), but we'll turn off access to CQD.lync.com soon, so you should move to CQD.Teams.microsoft.com if you haven't already done so.
 
 
-If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD from the Teams admin center (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because the latest CQD reports on many additional calling scenarios. If you're still using reports from the older CQD, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
+If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD from the Teams admin center (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because the latest CQD reports on many additional calling scenarios. If you're still using reports from the older CQD, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
 
   
@@ -98,6 +100,9 @@ For instance, it is expected that your customers and you will see 200,000 audio 
 
 In order to determine, if there are any unexpected differences, you must look at various breakdowns of the overall data.  Compare with intent.  Slicing the data by User Agent Category Pair is one of the first things we recommend.  *First Product* and *Second Product* are also good slicers.  
 
+### Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?
+
+CQD is designed for summarized data queries, and is not designed for data export. We recommend restructuring your reports, where possible, to prevent the 10,000 row limit from being exceeded. Start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
 
 ## Related topics
 
@@ -119,4 +124,4 @@ In order to determine, if there are any unexpected differences, you must look at
 
 [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
 
-[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)

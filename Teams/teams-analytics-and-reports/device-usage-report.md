@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams device usage report
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -40,6 +40,17 @@ The Teams device usage report in the Microsoft Teams admin center provides you w
 |**4**   |The table gives you a breakdown of device usage by user. <ul><li>**Username** is the display name of the user. You can click the display name to go to the user's setting page in the Microsoft Teams admin center. </li><li>**Windows** is selected if the user was active in the Teams desktop client on a Windows-based computer.</li><li>**Mac** is selected if the user was active in the Teams desktop client on a macOS computer. </li> <li>**Linux** is selected if the user was active in the Teams desktop client on a Linux computer. </li> <li>**iOS** is selected if the user was active on the Teams mobile client for iOS.</li><li>**Android phone** is selected if the user was active on the Teams mobile client for Android. <li><li>**Web** is selected if the user was active on the Teams web client. <li>**Last activity** is the last date (UTC) that the user participated in a Teams activity.</li> </ul> Note that if a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
 |**5**   |Select **Edit columns** to add or remove columns in the table. |
 |**6**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screenshot of the Downloads tab showing exported reports](../media/teams-reports-export-to-csv.png)|
+
+
+## Make the user specific data anonymous
+
+To make the data in Teams device usage report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email and AAD ID in report and their export.
+
+1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
+    
+2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
+  
+3. Select **Save changes**.
 
 ## Related topics
 

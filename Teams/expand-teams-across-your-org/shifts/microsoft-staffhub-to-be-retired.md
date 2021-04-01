@@ -1,7 +1,7 @@
 ---
 title: Microsoft StaffHub has been retired
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
@@ -24,7 +24,7 @@ ms.custom: seo-marvel-mar2020
 
 Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.
 
-These changes are part of our continued efforts to empower every employee with Microsoft 365. With capabilities for Firstline Workers now in Teams, every employee in your organization will be able to use Teams to streamline their workday, collaborate with coworkers, and access information and expertise to help them do their best work.
+These changes are part of our continued efforts to empower every employee with Microsoft 365. With capabilities for Frontline Workers now in Teams, every employee in your organization will be able to use Teams to streamline their workday, collaborate with coworkers, and access information and expertise to help them do their best work.
 
 ## Frequently asked questions
 
@@ -58,7 +58,7 @@ If you had a StaffHub team associated to an Office 365 group that you didn't mov
 
 #### What is Shifts?
 
-The Shifts app in Teams is a schedule management tool that keeps Firstline Workers connected and in sync. Managers create, update, and manage shift schedules for teams, and team members can view their schedules, see who else is scheduled for the day, request to swap or offer a shift, and request time off, all from their mobile devices.  
+The Shifts app in Teams is a schedule management tool that keeps Frontline Workers connected and in sync. Managers create, update, and manage shift schedules for teams, and team members can view their schedules, see who else is scheduled for the day, request to swap or offer a shift, and request time off, all from their mobile devices.  
 
 #### Which plans is Shifts available in?
 
@@ -87,7 +87,7 @@ Core functionality is the same between the Shifts iOS and Android apps. There ar
 Shifts works on all the browsers that Teams supports which includes the latest versions of Microsoft Edge, Internet Explorer, Google Chrome, and Mozilla Firefox. For more information, see [Get clients for Teams](../../get-clients.md).
 
 > [!Note]
-> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting  November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is  installed. 
+> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting  November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is  installed. 
 
 #### What languages does Shifts support?
 
@@ -105,7 +105,7 @@ For product information, go to [https://products.office.com/microsoft-teams/staf
 
 For admin guidance, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-For end-user help, go to [Shifts Help for Firstline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
+For end-user help, go to [Shifts Help for Frontline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
 #### What licenses do I need for Teams?
 
@@ -139,11 +139,11 @@ To learn more, see [How SharePoint Online and OneDrive for Business interact wit
  
 #### Is there integration between Shifts and the Outlook calendar? Can I export a schedule to a calendar?
  
-Firstline Workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Microsoft Flow to set up integration with Shifts in Teams and Outlook and Google calendars.
+Frontline Workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Microsoft Flow to set up integration with Shifts in Teams and Outlook and Google calendars.
  
 #### What admin controls are available to manage whether users in my organization can use Shifts?  
   
-You can turn on or turn off Shifts org-wide for all users in your organization. In the Microsoft Teams admin center, you can also use the Firstline Worker app setup policy to customize Teams for your Firstline Workforce. The policy is configured with the Activity, Shifts, Chat, and Calling apps. Assigning the policy pins these apps to the app bar in Teams for quick and easy access by users. 
+You can turn on or turn off Shifts org-wide for all users in your organization. In the Microsoft Teams admin center, you can also use the Frontline Worker app setup policy to customize Teams for your Frontline Workforce. The policy is configured with the Activity, Shifts, Chat, and Calling apps. Assigning the policy pins these apps to the app bar in Teams for quick and easy access by users. 
 
 To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 

@@ -100,17 +100,33 @@ When you are setting up users in your organization to make and receive phone cal
 
    - **Update failed**
 
-## Related topics
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
+## Using the Teams PowerShell module
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+You can use the Teams PowerShell module to get the same information from the previous sections, but version 1.1.6 or later is required, which includes the integration of the Skype for Business Online connector. For more information about the module, see [Microsoft Teams PowerShell Overview](teams-powershell-overview.md).
+
+You can see a list of all phone numbers that you have for your organization by using the [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) cmdlet. For example, you can run the following command to see each phone number and their state:
+
+```PowerShell
+Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+```
+
+You can see all of the phone numbers that are assigned to users by using the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. For example, you can run the following command to see all the users with a phone number assigned:
+
+```PowerShell
+Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
+```
+
+## Related topics
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
+
+[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
+[Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   
- 
+[Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)

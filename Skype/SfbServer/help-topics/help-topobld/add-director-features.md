@@ -1,8 +1,8 @@
 ---
 title: "Add Director Features"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -21,6 +21,4 @@ description: "If you want the Director pool to include Monitoring Server, select
 
 If you want the Director pool to include Monitoring Server, select **Monitoring (CDR and QoE Metrics)**.
 
-For more details about adding a Director pool, see [Scenarios for the Director](https://technet.microsoft.com/library/d2cf384a-0860-4779-80ce-cba2543be322.aspx) and [Setting Up the Director](https://technet.microsoft.com/library/408b76f7-6fdd-4e50-8a3e-e87db12c1394.aspx).
-
-
+For more details about adding a Director pool, see [Scenarios for the Director](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) and [Setting Up the Director](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director).

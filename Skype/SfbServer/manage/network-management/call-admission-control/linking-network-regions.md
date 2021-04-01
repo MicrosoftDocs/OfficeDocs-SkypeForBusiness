@@ -1,8 +1,8 @@
 ---
 title: 'Linking network regions'
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -58,7 +58,7 @@ You can view network region links by using Windows PowerShell and the **Get-CsNe
         NetworkRegionID2    : California
 
 
-For details, see [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+For details, see [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink).
 
 
 ## Configure network region links 
@@ -129,10 +129,10 @@ You can configure links between two network regions as part of call admission co
 
 ## See Also
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[New-CsNetworkRegionLink](/powershell/module/skype/New-CsNetworkRegionLink)  
 
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Set-CsNetworkRegionLink](/powershell/module/skype/Set-CsNetworkRegionLink)  
 
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[Remove-CsNetworkRegionLink](/powershell/module/skype/Remove-CsNetworkRegionLink)  
 
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)

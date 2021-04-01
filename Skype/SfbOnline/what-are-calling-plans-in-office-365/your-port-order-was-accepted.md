@@ -34,7 +34,7 @@ Now that it's approved and your phone numbers are ready, you will need to do a c
   
 - Make sure you [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). You will need an **Phone System** and **Domestic Calling Plan** or **International Calling Plan**.
     
-- Create your [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) and, if you want to, your[Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md) (in some countries/regions, you get an emergency address with the phone number).
+- Create your [Add or remove an emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) and, if you want to, your[Add, change, or remove an emergency location for your organization](/MicrosoftTeams/add-change-remove-emergency-place-organization) (in some countries/regions, you get an emergency address with the phone number).
     
 - Go ahead and [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
@@ -51,4 +51,3 @@ Now that it's approved and your phone numbers are ready, you will need to do a c
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

@@ -1,8 +1,8 @@
 ---
 title: "Topology Server Application"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -33,6 +33,6 @@ You can perform the following tasks on the **Topology**: **Server Application** 
 
 ## See also
 
-[Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application)
 
-[Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical](/previous-versions/office/lync-server-2013/lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical)

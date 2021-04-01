@@ -42,6 +42,12 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 **Create a team from a large Microsoft 365 group**: When you create a team from a large Microsoft 365 group, members are automatically part of the Microsoft 365 group **and** the team. In the future, as team members join or leave the Microsoft 365 group, they're automatically added or removed from the team.
 
+## Bulk import/export/remove members in a team
+
+The Azure portal allows users to bulk import/export/remove members in a Microsoft 365 Group. For more information, see [To bulk import group members](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members).
+
+Since every team is backed by a Microsoft 365 Group, you can use the Azure portal to perform these operations in the group corresponding to the team. The member operations will be reflected in the team within 24 hours.
+
 ## Create channels to focus discussions
 
 You can narrow the group discussions by creating focused channels. See [Best practices for organizing teams](best-practices-organizing.md).

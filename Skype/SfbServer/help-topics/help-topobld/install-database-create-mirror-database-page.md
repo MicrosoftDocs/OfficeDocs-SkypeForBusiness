@@ -1,8 +1,8 @@
 ---
 title: "Install Database Create Mirror Database Page"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -27,6 +27,6 @@ If you chose not to install the SQL Server mirror databases during the Publish p
 
 [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 
-[Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
+[Install-CsMirrorDatabase](/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   
-[Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+[Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps)

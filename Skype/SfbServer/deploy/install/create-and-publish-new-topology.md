@@ -1,8 +1,8 @@
 ---
 title: "Create and publish new topology in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -135,7 +135,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
      > [!NOTE]
      > The file share for Skype for Business Server can be collocated but it is not recommended for performance reasons. Note that in this example, the file share has been located on a single dedicated server that will act as the file share. However, other more robust file share systems, such as DFS using Windows Server 2012 R2, are recommended. For details about supported file share systems, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). For more information about creating the file share, see [Create a file share in Skype for Business Server](create-a-file-share.md). You can define the file share without the file share having been created. You will need to create the file share in the location you define before you publish the topology. 
   
-10. On the Specify the Web Services URL page, you must decide if you need to override the internal Web Services pool base URL. The reason for this override has to do with load balancing. Basic SIP traffic can be load balanced through simple DNS load balancing. However, the HTTP/S Web Services network traffic must use a supported Hardware or Software load balancing solution. For supported load balancers, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). In this example, we used DNS load balancing for SIP traffic and a supported software load balancing solution. Because we are dividing the traffic this way, we need to override the internal Web Services pool FQDN. Alternatively, if we had a top line load balancer and sent all traffic through it instead of using DNS load balancing for SIP traffic, we would not need to override the Web Services URL. 
+10. On the Specify the Web Services URL page, you must decide if you need to override the internal Web Services pool base URL. The reason for this override has to do with load balancing. Basic SIP traffic can be load balanced through simple DNS load balancing. However, the HTTP/S Web Services network traffic must use a supported Hardware or Software load balancing solution. For supported load balancers, see [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). In this example, we used DNS load balancing for SIP traffic and a supported software load balancing solution. Because we are dividing the traffic this way, we need to override the internal Web Services pool FQDN. Alternatively, if we had a top line load balancer and sent all traffic through it instead of using DNS load balancing for SIP traffic, we would not need to override the Web Services URL. 
     
     In the DNS section of this topic, we created an A record for webint.contoso.local. This is the URL we are using for the web services HTTP/S traffic, and it must go through the supported software load balancer we set up. Therefore, in this example, we override the URL to let Skype for Business Server know that all HTTP/S traffic should go to webint.contoso.local instead of pool.contoso.local, as shown in the figure. For more about load balancing, see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md).
     
@@ -243,5 +243,3 @@ You can use Skype for Business Server Topology Builder to design, define, config
     The "Completed with warnings" message for the database creation does not mean there was an error. The installation process has to change settings in SQL Server for Skype for Business Server to work correctly. When a setting is changed in SQL Server, it is logged as a warning so that SQL Server administrators can understand exactly what the installation process completed. If you receive a warning, you can select the record, and then click **View Logs** to view the details of the warning.
     
     When the topology has been successfully published, you can begin installing a local replica of the Central Management store on each server running Skype for Business Server in your topology. We recommend that you begin with the first Front End pool. 
-    
-

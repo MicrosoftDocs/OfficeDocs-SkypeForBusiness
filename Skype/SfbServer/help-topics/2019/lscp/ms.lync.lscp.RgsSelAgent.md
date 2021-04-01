@@ -1,8 +1,8 @@
 ---
 title: "Select Agents"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -41,6 +41,4 @@ The following list describes the fields in the **Select Agents** dialog box.
 
 - **Enabled** Displays the value of the **Enabled for Lync Server** field defined for users.
 
-For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.
-
-
+For details about working with agent groups, see [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) in the Operations documentation.

@@ -1,8 +1,8 @@
 ---
 title: "Configure the personal contacts store on Lync 2010 client computers"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -32,5 +32,4 @@ To configure this value on a single computer, complete the following procedure:
 5. After the new value is created, type PersonalContactStoreOverride and then press ENTER to rename the value.
 6. Verify that the value of PersonalContactStoreOverride is set to 0 and then close Registry Editor.
 
-If you need to make this same change on multiple computers you can do so by creating a custom Group Policy object. For details on doing this in Windows 10, see the [Create a Group Policy Object](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) article.
-  
+If you need to make this same change on multiple computers you can do so by creating a custom Group Policy object. For details on doing this in Windows 10, see the [Create a Group Policy Object](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) article.

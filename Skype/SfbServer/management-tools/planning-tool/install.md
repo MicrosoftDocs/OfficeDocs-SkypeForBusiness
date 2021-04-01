@@ -1,8 +1,8 @@
 ---
 title: "Install the Planning Tool in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -106,4 +106,4 @@ Exporting your design to Microsoft Visio creates a diagram for use in your docum
 ## See also
 <a name="Optional_Software"> </a>
 
-[Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Installing the Planning Tool](/previous-versions/office/lync-server-2013/lync-server-2013-installing-the-planning-tool)

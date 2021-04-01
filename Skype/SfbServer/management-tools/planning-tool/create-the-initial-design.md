@@ -1,8 +1,8 @@
 ---
 title: "Create the initial topology design for Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -74,4 +74,4 @@ After you have finished installing the Skype for Business Server Planning Tool, 
 
 ## See also
 
-[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
