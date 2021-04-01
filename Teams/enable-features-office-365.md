@@ -42,7 +42,7 @@ You can control organization-wide user settings in the Microsoft Teams admin cen
 To add or block a domain:
 
 1. Select **Add a domain**.
-2. In the Add a domain pane, enter the domain name, and click the space bar to save the name.
+2. In the Add a domain pane, enter the domain name, and select the space bar to save the name.
 3. Select **Allowed** or **Blocked**.
 4. Select **Done** to save your changes. 
 
@@ -89,9 +89,13 @@ These settings control resource account behavior for Surface Hub devices attendi
 Microsoft Teams scoped directory search uses Exchange address book policy (APB) to allow organizations to create virtual boundaries that control how users can find and communicate with other users in their organization. You might want to use a scoped directory search in situations like these:
 
 - Your organization has multiple companies within its tenant that you want to keep separate. 
-- Your school wants to limit chats between faculty and students. 
+- Your school wants to limit chats between faculty and students.
 
 Switch this setting **On** to turn on scoped directory searches.
+
+#### Safety and communications
+
+Supervised chat allows organizations and schools to limit chat capabilities using role-based permissions. These permissions control the amount of supervision a user requires while chatting with others. Learn more about [supervised chat](supervised-chat-edu.md).
 
 ### Skype for Business
 
