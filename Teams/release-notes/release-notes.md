@@ -51,6 +51,10 @@ Supervised chat allows designated educators to initiate chats with students and 
 
 We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer), from external people only or have masking disabled. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting. [Learn more](../ptsn-mask-phone-numbers.md).
 
+### Create a phone system auto attendant
+
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. [Learn more](../create-a-phone-system-auto-attendant.md).
+
 ## March 1, 2021
 
 ### Additional GoLocal support in Teams live events
