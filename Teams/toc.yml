@@ -321,7 +321,7 @@ items:
       items:
         - name: Overview
           href: manage-teams-with-policies.md
-        - name: Policy assignment overview
+        - name: Assign policies in Teams - getting started
           href: policy-assignment-overview.md
         - name: Assign policies to users and groups
           href: assign-policies-users-and-groups.md
