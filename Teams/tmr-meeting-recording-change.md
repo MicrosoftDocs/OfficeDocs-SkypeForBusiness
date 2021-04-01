@@ -47,7 +47,7 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - Multi-geo support – recordings are stored in a region specific to that user
 - Bring your own key (BYOK) support
 
-See the full list of [features available today and what to expect over time](https://docs.microsoft.com/en-us/stream/streamnew/features-new-version-stream). 
+See the full list of [features available today and what to expect over time](https://docs.microsoft.com/stream/streamnew/features-new-version-stream). 
 
 Watch "What's New for Microsoft Teams Meeting Recordings" for more information.
 
