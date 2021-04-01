@@ -31,7 +31,7 @@ Policies can be assigned in several different ways depending on what your organi
 
 ![Screenshot of group policy assignment.](media/group-policy-assignment.png)
 
-Learn more about assigning policies [here](policy-assignment-overview.md).
+Read more about assigning policies [here](assign-policies.md).
 
 ## How to manage policies
 
@@ -67,5 +67,6 @@ Policy type | Description
 
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
+* [View policy assignments in the Activity Log](activity-log.md)
 * [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams for Education policies and policy packages](policy-packages-edu.md)
