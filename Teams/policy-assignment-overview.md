@@ -20,7 +20,7 @@ f1keywords:
   - ms.teamsadmincenter.bulkoperations.edit
 ---
 
-# Policy assignment overview
+# Assign policies in Teams – getting started
 
 As an admin, you use policies to control the Teams features that are available to users in your organization. For example, there are calling policies, meeting policies, and messaging policies, to name just a few.
 
@@ -29,6 +29,8 @@ Organizations have different types of users with unique needs. Custom policies t
 To easily manage policies in your organization, Teams offers several ways to assign policies to users. Assign a policy directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. You can also use policy packages to assign a preset collection of policies to users in your organization who have similar roles. The option that you choose depends on the number of policies that you're managing and the number of users you're assigning policies to. Global (Org-wide default) policies apply to the largest number of users in your organization. You only have to assign policies to those users that require specialized policies.
 
 This article describes the different ways that you can assign policies to users and the recommended scenarios for when to use what.
+
+For details on how to **assign policies to users and groups**, see [assigning policies to users and groups](assign-policies-users-and-groups.md). For details on how to **assign policy packages**, see [assign policy packages](assign-policy-packages.md).
 
 ## Which policy takes precedence?
 
@@ -137,5 +139,7 @@ To view your policy assignments in the Activity log:
 
 ## Related topics
 
+- [Assign policies to users and groups](assign-policies-users-and-groups.md)
+- [Assign policy packages to users and groups](assign-policy-packages.md)
 - [Manage Teams with policies](manage-teams-with-policies.md)
 - [Teams PowerShell Overview](teams-powershell-overview.md)
