@@ -1,5 +1,5 @@
 ---
-title: Policy assignment overview
+title: Assign policies in Teams
 author: KarliStites
 ms.author: kastites
 manager: serdars
