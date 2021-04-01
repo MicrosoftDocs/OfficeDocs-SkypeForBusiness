@@ -42,7 +42,7 @@ You can control organization-wide user settings in the Microsoft Teams admin cen
 To add or block a domain:
 
 1. Select **Add a domain**.
-2. In the Add a domain pane, enter the domain name, and click the space bar to save the name.
+2. In the Add a domain pane, enter the domain name, and select the space bar to save the name.
 3. Select **Allowed** or **Blocked**.
 4. Select **Done** to save your changes. 
 
