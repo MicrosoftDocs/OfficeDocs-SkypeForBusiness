@@ -93,10 +93,6 @@ Microsoft Teams scoped directory search uses Exchange address book policy (APB) 
 
 Switch this setting **On** to turn on scoped directory searches.
 
-#### Safety and communications
-
-Supervised chat allows organizations and schools to limit chat capabilities using role-based permissions. These permissions control the amount of supervision a user requires while chatting with others. Learn more about [supervised chat](supervised-chat-edu.md).
-
 ### Skype for Business
 
 Use this page to manage Skype for Business features for Skype for Business users in your organization. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](skype-for-business-settings.md).
