@@ -1,5 +1,5 @@
 --- 
-title: Manage meeting policies fpr participants and guests
+title: Manage meeting policies for participants and guests
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -40,7 +40,7 @@ These settings control which meeting participants wait in the lobby before they 
 
 ## Let anonymous people start a meeting
 
-This is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.
+This setting is a per-organizer policy that allows for leaderless dial-in conferencing meetings. This setting controls whether dial-in users can join the meeting without an authenticated user from the organization in attendance. By default, this setting is turned off, which means dial-in users will wait in the lobby until an authenticated user from the organization joins the meeting.
 
 > [!NOTE]
 > If this setting is turned off and a dial-in user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
@@ -65,14 +65,14 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 ## Allow dial-in users to bypass the lobby
 
-This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until a organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting.
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting.
 
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
 
 ## Enable live captions
 
-This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
+This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
 
 ![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
 
@@ -85,7 +85,7 @@ This is a per-user policy and applies during a meeting. This setting controls wh
 
 ## Allow chat in meetings
 
-This is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
+This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
 <a name="bkparticipantsandguests"> </a>
 

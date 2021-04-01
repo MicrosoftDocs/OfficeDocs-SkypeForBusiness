@@ -37,7 +37,7 @@ This article describes the following meeting policy settings related to content 
 
 ## Screen sharing mode
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether desktop and/or window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
+This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, anonymous, guest, B2B, and federated participants) inherit the policy of the meeting organizer.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -52,19 +52,19 @@ Let's look at the following example.
 |Daniela  | Global   | Entire screen |
 |Amanda   | Location1MeetingPolicy  | Disabled |
 
-Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them. This means that Daniela can't share her screen or a single application in Amanda's meetings.  
+Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings.  
 
 Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
 
 ## Allow a participant to give or request control
 
-This is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
+This setting is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
 
 If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
 
 ![Screenshot showing the Give Control option](media/meeting-policies-give-control.png)
 
-If the settings is turned off for the user, the **Give Control** option isn't available.
+If the setting is turned off for the user, the **Give Control** option isn't available.
 
 ![Screenshot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
 
@@ -75,7 +75,7 @@ Let's look at the following example.
 |Daniela   | Global   | On       |
 |Babek    | Location1MeetingPolicy        | Off   |
 
-Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek whereas Babek can't give control to other participants.
+Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek. However, Babek can't give control to other participants.
 
 To use PowerShell to control who can give control or accept requests for control, use the AllowParticipantGiveRequestControl cmdlet.
 
@@ -84,7 +84,7 @@ To use PowerShell to control who can give control or accept requests for control
 
 ## Allow an external participant to give or request control
 
-This is a per-user policy. Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
+This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
 
 - Anonymous user
 - Guest users  
@@ -110,7 +110,7 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ## Allow whiteboard
 
-This is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
+This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -123,7 +123,7 @@ Amanda can't share the whiteboard in a meeting even if she's the meeting organiz
 
 ## Allow shared notes
 
-This is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
+This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
 
 Let's look at the following example.
 
