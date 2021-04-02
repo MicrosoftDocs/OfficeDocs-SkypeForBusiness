@@ -78,7 +78,7 @@ To add a channel
 2. Type a name and description for the channel, and then click **Add**.
 
 > [!div class="nextstepaction"]
-> [Step 2 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [Step 2 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # [Step 2<br>Resource accounts](#tab/resource-account)
 
@@ -137,7 +137,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 > [!div class="nextstepaction"]
-> [Step 3 - Call agents >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [Step 3 - Call agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # [Step 3<br>Call agents](#tab/call-agents)
 
@@ -154,7 +154,7 @@ To add agents to the call queue, we'll add them to the team and channel that we 
 > When new users are added to the team, it can take up to eight hours for their first call to arrive.
 
 > [!div class="nextstepaction"]
-> [Step 4 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [Step 4 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # [Step 4<br>Call routing](#tab/call-routing)
 
@@ -183,7 +183,7 @@ Choose the call routing method that you want to use.
     ![Screenshot of routing, opt out, and alert time settings](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Step 5 - Call overflow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [Step 5 - Call overflow >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # [Step 5<br>Call overflow](#tab/call-overflow)
 
@@ -200,7 +200,7 @@ Choose how you want to handle calls that exceed the maximum in the queue.
     ![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Step 6 - Call timeout >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [Step 6 - Call timeout >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # [Step 6<br>Call timeout](#tab/call-timeout)
 

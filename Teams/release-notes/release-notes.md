@@ -22,6 +22,51 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## March 31, 2021
+
+### Share to Teams from Outlook
+
+Share to Teams from Outlook allows you to send a copy of email messages or conversations, including attachments, into Teams chats and channels. Find the **Share to Teams** option in the Outlook ribbon or the action menu for an email. Share to Teams supports Outlook on the web, Outlook for Windows, and the new Outlook for Mac Preview. [Learn more](../teams-outlook-share-teams.md).
+
+## March 30, 2021
+
+### Customize apps in Teams (preview)
+
+Microsoft Teams provides app customization to enhance the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app properties based on the organizational needs using the Teams admin center Manage apps page. [Learn more](../customize-apps.md).
+
+## March 29, 2021
+
+### Remote provisioning and sign-in for Teams Android devices
+
+IT admins can remotely provision and sign in to a Teams Android device. To provision a device remotely, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center. [Learn more](../devices/remote-provision-remote-login.md).
+
+## March 24, 2021
+
+### Enable live transcripts in Teams
+
+This is a per-user policy and applies during a meeting. This setting controls whether the Turn on live captions option is available for the user to turn on and turn off live captions in meetings that the user attends. [Learn more](../meeting-policies-in-teams.md#enable-live-captions).
+
+## March 23, 2021
+
+### Supervised chats
+
+Supervised chat allows designated educators to initiate chats with students and blocks students from starting new chats unless an appropriate educator is present. When chat supervision is enabled, supervisors aren't allowed to leave chats and other participants aren't allowed to remove them, ensuring that chats involving students are properly supervised.
+[Learn more](../supervise-chats-edu.md).
+
+### Masking phone numbers
+
+We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer), from external people only or have masking disabled. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting. [Learn more](../ptsn-mask-phone-numbers.md).
+
+### Create a phone system auto attendant
+
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. [Learn more](../create-a-phone-system-auto-attendant.md).
+
+## March 1, 2021
+
+### Additional GoLocal support in Teams live events
+
+Support for South Africa, South Korea, Switzerland, France, Germany, and Brazil has been added to Live events. [Learn more](../teams-live-events/plan-for-teams-live-events.md#regional-availability)
+
 ## February 22, 2021
 
 ### Custom (LOB) tabs are available for DoD customers
