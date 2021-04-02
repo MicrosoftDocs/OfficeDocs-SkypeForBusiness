@@ -33,7 +33,7 @@ This article describes some of the limits, specifications, and other requirement
 |Number of teams a user can be a member of|1,000&sup2;|
 |Number of members in a team | 25,000<sup>6</sup>     |
 |Number of owners per team | 100   |
-|Number of org-wide teams allowed in a tenant | 5     |
+|Number of org-wide teams allowed in a tenant | 5&sup2;     |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup3;     |
@@ -44,7 +44,7 @@ This article describes some of the limits, specifications, and other requirement
 |Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>6</sup>     |
 |Channel conversation post size | Approximately 28 KB per post<sup>5</sup> |
 
-<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
 <sup>2</sup> This limit includes archived teams. 
 
@@ -73,7 +73,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -94,7 +94,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
-For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
@@ -176,7 +176,7 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
-> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site (previously called "site collection").
+> Each [private channel](./private-channels.md) has its own SharePoint site (previously called "site collection").
 
 If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
@@ -220,7 +220,7 @@ A class team can support more than 200 members. However, if you plan to use eith
 |Number of tags per team    | 100        |
 |Number of suggested default tags per team    | 25        |
 |Number of team members assign to a tag    |100         |
-|Number of tags assigned to a user    |25         |
+|Number of tags assigned to a user per team    |25         |
 
 ## Contacts
 

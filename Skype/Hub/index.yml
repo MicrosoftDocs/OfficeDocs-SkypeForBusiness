@@ -27,15 +27,15 @@ additionalContent:
         # Card
         - title: Skype for Business Online
           summary: Find resources for managing Skype for Business Online in your Office 365 environment.
-          url: /SkypeForBusiness/skype-for-business-online
+          url: ../SfbOnline/skype-for-business-online.yml
         # Card
         - title: Hybrid Solutions
           summary: Find information on planning a Skype for Business hybrid deployment.
-          url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+          url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
         # Card
         - title: Skype for Business Server
           summary: Deploy and manage Skype for Business Server for your organization.
-          url: /SkypeForBusiness/skype-for-business-server-2019
+          url: ../SfBServer2019/skype-for-business-server-2019.yml
         # Card
         - title: PowerShell Reference for Skype for Business
           summary: Learn about the PowerShell cmdlets you need to manage Skype for Business and Skype for Business Online.
@@ -55,7 +55,7 @@ additionalContent:
         # Card
         - title: Skype for Business certification program
           summary: Learn about certified solutions and devices.
-          url: /SkypeForBusiness/certification/overview
+          url: ../SfbPartnerCertification/certification/overview.md
         # Card
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.

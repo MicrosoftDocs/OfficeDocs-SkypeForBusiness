@@ -25,9 +25,9 @@ This topic contains the recommended client deployment steps you should take befo
     
 ## See also
 
-[New and changed settings for Lync 2013](https://technet.microsoft.com/library/jj205204(v=ocs.15).aspx) 
+[New and changed settings for Lync 2013](/previous-versions/office/lync-server-2013/lync-server-2013-new-and-changed-settings-for-lync-2013) 
  
-[Client interoperability in Lync 2013](https://technet.microsoft.com/library/jj204672(v=ocs.15).aspx)
+[Client interoperability in Lync 2013](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)
  <!-- The above links point to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
 
  [Plan for clients and devices](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)

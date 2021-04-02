@@ -61,6 +61,5 @@ We allow one-time downgrades from Teams to SfBO, to allow tenants to further pre
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
 - [Skype for Business Online retirement](skype-for-business-online-retirement.md)
-- [Get-CsTeamsUpgradeStatus](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
+- [Get-CsTeamsUpgradeStatus](/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
 - [Teams Only mode considerations](teams-only-mode-considerations.md)
-

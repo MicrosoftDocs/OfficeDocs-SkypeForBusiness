@@ -33,6 +33,4 @@ The following list describes the controls and fields in the **Select Groups** di
 
 - **Routing method** Displays the type of routing defined for the agent group.
 
-For details about working with queues, see [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.
-
-
+For details about working with queues, see [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) in the Operations documentation.

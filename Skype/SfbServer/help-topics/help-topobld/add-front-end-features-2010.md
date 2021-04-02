@@ -21,6 +21,4 @@ description: "Select each feature that you want to enable for the Front End pool
 
 Select each feature that you want to enable for the Front End pool. At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected. You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC). Some features are dependent on your topology.
 
-For details about specifying features for a Standard Edition server or Enterprise Edition pool, see [Define and Configure a Front End Pool or Standard Edition Server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.
-
-
+For details about specifying features for a Standard Edition server or Enterprise Edition pool, see [Define and Configure a Front End Pool or Standard Edition Server](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) in the Deployment documentation.
