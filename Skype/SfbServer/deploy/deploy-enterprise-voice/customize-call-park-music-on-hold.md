@@ -40,9 +40,9 @@ You can specify your own music file to use for music on hold, instead of the def
    ```
 
     > [!TIP]
-    > Use the **Get-CsService** cmdlet to identify the service. For details, see [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps). 
+    > Use the **Get-CsService** cmdlet to identify the service. For details, see [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps). 
   
-    The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable. Then the audio file is assigned as the music-on-hold file for Call Park. For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
+    The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable. Then the audio file is assigned as the music-on-hold file for Call Park. For details, see [Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
     
    ```powershell
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
@@ -51,6 +51,6 @@ You can specify your own music file to use for music on hold, instead of the def
 
 ## See also
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
+[Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)

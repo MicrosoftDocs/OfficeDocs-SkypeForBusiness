@@ -27,7 +27,7 @@ This topic provides details on deploying the Microsoft Lync VDI plug-in, which i
 ## Prepare your environment for the Lync VDI plug-in
 <a name="Prepare_vdi"> </a>
 
-1. In Skype for Business Server, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet.
+1. In Skype for Business Server, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help topics for the [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet and the [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet.
     
 2. On the data center server, install the Skype for Business client on all virtual desktops.
     
@@ -40,7 +40,7 @@ This topic provides details on deploying the Microsoft Lync VDI plug-in, which i
 
 To prepare Remote Desktop Connection for the Lync VDI plug-in, follow these steps on the local computer:
   
-1. If the local computer is running Windows 8, skip this step. If the local computer is running Windows 7 with SP1, install the latest Windows 8 version of the [Remote Desktop Services client](https://go.microsoft.com/fwlink/p/?LinkId=268032).
+1. If the local computer is running Windows 8, skip this step. If the local computer is running Windows 7 with SP1, install the latest Windows 8 version of the [Remote Desktop Services client](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
     
 2. Start the Remote Desktop Services client by clicking **Start**, and then clicking **Remote Desktop Connection**.
     

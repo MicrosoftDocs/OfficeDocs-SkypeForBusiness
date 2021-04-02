@@ -21,6 +21,4 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Manage SIP Federated Providers for Your Organization](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-
-
+- [Manage SIP Federated Providers for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-sip-federated-providers-for-your-organization)

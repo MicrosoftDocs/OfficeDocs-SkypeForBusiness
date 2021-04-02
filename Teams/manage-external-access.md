@@ -20,7 +20,7 @@ ms.custom:
 description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 ---
 
 # Manage external access in Microsoft Teams
@@ -45,7 +45,7 @@ Use external access when:
 By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
 
 > [!NOTE]
-> If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](./meeting-settings-in-teams.md).
 
 - **Open federation**: This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 

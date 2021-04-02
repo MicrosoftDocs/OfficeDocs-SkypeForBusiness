@@ -65,7 +65,7 @@ You can also use these downloads to deploy the Skype for Business app to your us
 ## For larger and enterprise organizations
 
 > [!NOTE]
-> This section only applies to the Skype for Business app available through Office 365 plans. If your organization is using a volume licensed version of the Skype for Business app, which is Windows Installer-based (MSI), see [Customize Windows client installation in Skype for Business Server](https://technet.microsoft.com/library/jj204934.aspx).
+> This section only applies to the Skype for Business app available through Office 365 plans. If your organization is using a volume licensed version of the Skype for Business app, which is Windows Installer-based (MSI), see [Customize Windows client installation in Skype for Business Server](../../SfbServer/deploy/deploy-clients/customize-windows-client-installation.md).
   
 In many enterprises or large organizations, users aren't allowed to install software on their computers. Instead, the IT departments deploy the necessary software to the users' computers. IT departments also might want to control the amount of Internet or network bandwidth used in their organization, so they want to install software from a nearby location on their network instead of from across the Internet or across the corporate network.
   
@@ -93,9 +93,9 @@ Here's an overview of the steps involved in using the Office Deployment Tool to 
     
 For details on using the Office Deployment Tool and configuration.xml file, see the following articles:
   
-- [Office Deployment Tool overview](https://technet.microsoft.com/library/jj219422.aspx)
+- [Office Deployment Tool overview](/deployoffice/overview-office-deployment-tool)
     
-- [Configuration.xml settings](https://technet.microsoft.com/library/jj219426.aspx)
+- [Configuration.xml settings](/deployoffice/office-deployment-tool-configuration-options)
     
 ### More info on using Microsoft Endpoint Configuration Manager
 
@@ -103,11 +103,11 @@ You can use your existing software deployment tools and processes, such as Micro
   
 For more information about using Configuration Manager to deploy software, see the following articles:
   
-- [Create applications in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/create-applications)
+- [Create applications in Configuration Manager](/configmgr/apps/deploy-use/create-applications)
     
-- [Deploy applications with Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
+- [Deploy applications with Configuration Manager](/configmgr/apps/deploy-use/deploy-applications)
     
-If you're deploying the Skype for Business app as part of deploying Microsoft 365 Apps for enterprise, see [Manage Microsoft 365 Apps for enterprise with Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
+If you're deploying the Skype for Business app as part of deploying Microsoft 365 Apps for enterprise, see [Manage Microsoft 365 Apps for enterprise with Configuration Manager](/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
   
 ## Planning for updates to the Skype for Business app
 
@@ -127,11 +127,11 @@ For example, many organizations want to test updates with a group of users befor
   
 For more information about how updates work for Office 365 software, see these articles:
   
-- [Overview of the update process for Microsoft 365 Apps for enterprise](https://technet.microsoft.com/library/dn761709.aspx)
+- [Overview of the update process for Microsoft 365 Apps for enterprise](/deployoffice/overview-update-process-microsoft-365-apps)
     
-- [Choose how to manage updates to Microsoft 365 Apps for enterprise](https://technet.microsoft.com/library/dn761707.aspx)
+- [Choose how to manage updates to Microsoft 365 Apps for enterprise](/deployoffice/choose-how-manage-updates-microsoft-365-apps)
     
-- [Configure update settings for Microsoft 365 Apps for enterprise](https://technet.microsoft.com/library/dn761708.aspx)
+- [Configure update settings for Microsoft 365 Apps for enterprise](/deployoffice/configure-update-settings-microsoft-365-apps)
     
   **How often to get feature updates**
   
@@ -152,4 +152,3 @@ You can control how often you get feature updates by using the Office Deployment
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
- 

@@ -187,7 +187,7 @@ Messaging policies are used to control which chat and channel messaging features
 #### Steps to Create Teams Message Policies
 
 1. Find the **TeamsMessagingPolicies.csv** file in the scripts folder in the repository.
-1. Update the **TeamsMessagingPolicies.csv** file with your organization's specific information. Additional information on some of the various options can be found [here](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings).
+1. Update the **TeamsMessagingPolicies.csv** file with your organization's specific information. Additional information on some of the various options can be found [here](./messaging-policies-in-teams.md#messaging-policy-settings).
 1. Find the **CreateTeamsMessagePolicies.ps1** script in the scripts folder in the repository.
 1. From PowerShell, run the **CreateTeamsMessagePolicies.ps1** script.
 
@@ -208,7 +208,7 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 #### Create the Frontline Manager app setup policy
 
-The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.  
@@ -233,7 +233,7 @@ The following settings can be customized to meet your business needs. We have ch
 
 #### Create the Frontline Worker app setup policy
 
-The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.
@@ -296,8 +296,8 @@ The following settings can be customized to meet your business needs. These are 
 To work with a large amount of users in Teams you first need to have the users created in Azure AD. There are many ways to provision a large number of users, but we're going to highlight the following:
 
 - If these users already exist in one of the following HR systems, use the following links to set up user provisioning:
-  - SAP Success Factors - [Tutorial: Configure SAP SuccessFactors to Active Directory user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
-  - Workday - [Tutorial: Configure Workday for automatic user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial).
+  - SAP Success Factors - [Tutorial: Configure SAP SuccessFactors to Active Directory user provisioning](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
+  - Workday - [Tutorial: Configure Workday for automatic user provisioning](/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - If you have your user information in other systems, proceed with the following steps.
 
 In order to manage these users at scale more effectively, you need to create two security groups for Frontline Workers and Frontline Managers, and provision those users into the security groups directly, following these steps:
@@ -309,7 +309,7 @@ In order to manage these users at scale more effectively, you need to create two
 1. Find the **SecurityGroups.csv** file in the scripts folder in the repository.
 1. Update the **SecurityGroups.csv** file with your organization's specific security group information.
     1. Make sure to update the **MessagePolicy**, **AppPermissionPolicy**, and **AppSetupPolicy** fields to map to the appropriate policies you created earlier.
-    1. Make sure to update the **LicensePlan** field to reflect the licensing that you intend to give each of these users. For more information on product names and service plan identifiers, review the documentation [here](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+    1. Make sure to update the **LicensePlan** field to reflect the licensing that you intend to give each of these users. For more information on product names and service plan identifiers, review the documentation [here](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
 1. From PowerShell, run the script **CreateUsers.ps1** from assets.
 
 ### Assign licensing to users via group-based licensing
@@ -378,7 +378,7 @@ Minimal error handling has been implemented in these sample scripts. There are t
 
 ## Further reading
 
-- [New Team Channel (Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [New Teams Messaging Policy (Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [New Team Channel (Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [New Teams Messaging Policy (Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Assign policies to your users in Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
-- [Assign licenses and user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Assign licenses and user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

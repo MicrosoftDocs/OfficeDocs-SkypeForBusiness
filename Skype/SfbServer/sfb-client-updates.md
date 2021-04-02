@@ -31,9 +31,9 @@ Skype for Business compatibility with Microsoft 365 or Office 365 and your on-pr
 
 - For Skype for Business Server on-premises deployments, follow the system requirements for your version of Skype for Business:
 
-  - [Requirements for your Skype for Business environment](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [Requirements for your Skype for Business environment](./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)
 
-  - [Lync Server 2013 system requirements](https://technet.microsoft.com/library/jj205115(v=ocs.15).aspx)
+  - [Lync Server 2013 system requirements](/previous-versions/office/lync-server-2013/lync-server-2013-system-requirements)
 
 ## Skype for Business 2016 client updates
 - [Latest Updates for Skype for Business 2016](https://support.microsoft.com/help/3123065/how-to-obtain-the-latest-update-for-skype-for-business-2016)

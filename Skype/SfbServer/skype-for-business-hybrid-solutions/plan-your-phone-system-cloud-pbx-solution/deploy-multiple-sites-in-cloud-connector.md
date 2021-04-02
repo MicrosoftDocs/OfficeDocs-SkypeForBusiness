@@ -21,7 +21,7 @@ description: "Learn about deploying multiple PSTN sites in Cloud Connector Editi
 # Deploy multiple sites in Cloud Connector
 
 > [!Important] 
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Learn about deploying multiple PSTN sites in Cloud Connector Edition.
   
@@ -94,5 +94,3 @@ The following table lists the differences between single site with HA support an
 |Setup  <br/> |Hybrid tenant  <br/> |Set HybridPSTNSite  <br/> Set PeerDestination for fallback  <br/> |Set HybridPSTNSite  <br/> Set PeerDestination for fallback  <br/> |
 |Setup  <br/> |Gateway  <br/> |MS GW **M:N** mapping in this site <br/> |PSTN gateway(s) in each PSTN site should only connect to the Mediation Server(s) in the same site  <br/> |
 |Setup  <br/> |User  <br/> |Set UserPSTNSettings  <br/> |Set UserPSTNSettings  <br/> |
-   
-

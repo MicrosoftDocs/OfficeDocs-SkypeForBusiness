@@ -143,7 +143,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 11. (Optional) Enter a number to test the dial plan and then click **Go**. The test results are displayed under **Enter a number to test**.
 
     > [!NOTE]
-    > You can save a dial plan that does not yet pass the test and then reconfigure it later. For details, see [Testing Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
+    > You can save a dial plan that does not yet pass the test and then reconfigure it later. For details, see [Testing Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing).
 
 12. Click **OK**.
 
@@ -155,4 +155,3 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 ## See also
 
 [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md)
-

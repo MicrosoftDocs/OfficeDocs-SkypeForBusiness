@@ -32,4 +32,4 @@ Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft
 
 ## Related topics
 
-[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
