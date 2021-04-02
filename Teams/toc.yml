@@ -320,10 +320,12 @@ items:
       items:
         - name: Overview
           href: manage-teams-with-policies.md
-        - name: Assign policies to your users
-          href: assign-policies.md
-        - name: View your policy assignments in the Activity log
-          href: activity-log.md
+        - name: Assign policies in Teams - getting started
+          href: policy-assignment-overview.md
+        - name: Assign policies to users and groups
+          href: assign-policies-users-and-groups.md
+        - name: Assign policy packages
+          href: assign-policy-packages.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
