@@ -160,7 +160,7 @@ This may occur if one or more policies in the package weren't created or applied
 
 ## Related topics
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policy packages](assign-policy-packages.md)
 
 [Teams policy packages for EDU admins](policy-packages-edu.md)
 
