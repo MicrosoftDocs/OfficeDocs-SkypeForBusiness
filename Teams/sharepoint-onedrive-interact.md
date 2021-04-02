@@ -25,7 +25,7 @@ ms.custom: seo-marvel-mar2020
 > [!Tip]
 > Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
-Each team in Microsoft Teams has a team site in SharePoint Online, and each standard channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams. To see the impact of changing a site address in SharePoint, read [Change a site address](https://docs.microsoft.com/sharepoint/change-site-address).
+Each team in Microsoft Teams has a team site in SharePoint Online, and each standard channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams. To see the impact of changing a site address in SharePoint, read [Change a site address](/sharepoint/change-site-address).
 
 > [!NOTE]
 > This article applies only to standard channels. The architecture for private channels is different from standard channels. Each private channel has its own SharePoint site collection that's separate from the parent team site. To learn more, see [Private channels in Microsoft Teams](private-channels.md).
@@ -80,11 +80,10 @@ The **Files** tab in Teams closely resembles the SharePoint documents view. On t
 
 ## Default link type setting
 
-SharePoint and OneDrive have an admin setting for specifying the default link type for links that are created for a file. Teams is adopting that same approach by reusing the settings that the admin sets for SharePoint and OneDrive. More details about this approach are described in [Change the default link type when users get links for sharing](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+SharePoint and OneDrive have an admin setting for specifying the default link type for links that are created for a file. Teams is adopting that same approach by reusing the settings that the admin sets for SharePoint and OneDrive. More details about this approach are described in [Change the default link type when users get links for sharing](/sharepoint/change-default-sharing-link). 
 
 ## More information
 
 For more information about how SharePoint works with Teams, see [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
 To learn more about the guest experience in Teams, read [What the guest experience is like](guest-experience.md).
-

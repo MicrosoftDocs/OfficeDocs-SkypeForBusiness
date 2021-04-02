@@ -69,7 +69,7 @@ Creating a resource account that uses a phone number would require performing th
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
-    See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
+    See [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
 4. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
@@ -77,11 +77,11 @@ Creating a resource account that uses a phone number would require performing th
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+    See [Start-ADSyncSyncCycle](/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
     
-    Note-at this point, the account may have synced, but provisioning may not be complete.  Check the output of [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  If the synced endpoint has not completed provisioning yet, then it will not appear here.  You can check the status of the provisioning requests in the M365 portal under [Teams Setup Status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  This provisioning phase can take up to 24 hours.
+    Note-at this point, the account may have synced, but provisioning may not be complete.  Check the output of [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint).  If the synced endpoint has not completed provisioning yet, then it will not appear here.  You can check the status of the provisioning requests in the M365 portal under [Teams Setup Status](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  This provisioning phase can take up to 24 hours.
 
-5. Assign the Phone System - Virtual User or Phone System license to the resource account. See [Assign Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) and [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+5. Assign the Phone System - Virtual User or Phone System license to the resource account. See [Assign Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) and [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
    If you are assigning a phone number to a resource account you can now use the cost-free Phone System - Virtual User license. This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.
 
@@ -92,7 +92,7 @@ Creating a resource account that uses a phone number would require performing th
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
     ```
 
-    See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
+    See [Set-CsHybridApplicationEndpoint](/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
     To assign a Direct Routing or hybrid number to  a resource account, use the following cmdlet:
 
@@ -128,7 +128,7 @@ Log in to the Skype for Business front end server and run the following PowerShe
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
-    See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
+    See [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
 2. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
@@ -136,7 +136,7 @@ Log in to the Skype for Business front end server and run the following PowerShe
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
-    See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+    See [Start-ADSyncSyncCycle](/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 3. Create the Phone System auto attendant or call queue. See one of the following:
    - [Set up a Cloud auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant)
@@ -166,7 +166,7 @@ Migration from Exchange UM to Phone System will require recreating the call queu
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
 
-    See [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of options you might need to capture is at [UMAutoAttendant members](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) but the most important options to note down are:
+    See [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of options you might need to capture is at [UMAutoAttendant members](/previous-versions/office/exchange-server-api/ff340649(v=exchg.150)) but the most important options to note down are:
 
     - Business hours
     - Non-business hours
@@ -198,8 +198,8 @@ Migration from Exchange UM to Phone System will require recreating the call queu
 
 [Plan Cloud Voicemail service for on-premises users](plan-cloud-voicemail.md)
 
-[New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
 [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) - \(to create resource accounts homed online\)

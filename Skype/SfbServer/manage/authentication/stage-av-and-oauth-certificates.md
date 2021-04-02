@@ -130,6 +130,6 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](server-to-server-and-partner-applications.md)
 
-[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
+[Set-CsCertificate](/powershell/module/skype/set-cscertificate?view=skype-ps)
   
-[Remove-CsCertificate](https://docs.microsoft.com/powershell/module/skype/remove-cscertificate?view=skype-ps)
+[Remove-CsCertificate](/powershell/module/skype/remove-cscertificate?view=skype-ps)

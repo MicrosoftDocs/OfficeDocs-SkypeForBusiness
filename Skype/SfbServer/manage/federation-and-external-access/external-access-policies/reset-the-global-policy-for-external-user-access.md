@@ -51,6 +51,4 @@ The global external access policy can be reset by using Windows PowerShell and t
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-For more information, see the help topic for the [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.
-
-
+For more information, see the help topic for the [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.

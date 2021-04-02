@@ -36,6 +36,4 @@ Administrators use the OCT to create a setup customization .msp file and can cus
     
 - **Outlook** Used to customize a user's default Outlook profile, specify Exchange settings, add accounts, remove accounts and export settings, and specify Send\Receive groups.
     
-For information about the OCT, see [Use the OCT to customize Office 2013](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Note that this information also applies to later versions of Office.
-  
-
+For information about the OCT, see [Use the OCT to customize Office 2013](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Note that this information also applies to later versions of Office.

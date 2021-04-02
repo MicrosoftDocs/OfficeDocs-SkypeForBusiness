@@ -31,9 +31,9 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 
 ### Related resources
 
-[Deploying the Lync VDI Plug-in](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
+[Deploying the Lync VDI Plug-in](../../SfbServer/deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 
-[Troubleshooting the Lync VDI Plug-in](https://technet.microsoft.com/library/jj204713(v=ocs.15)) <!-- 2013 yet to migrate -->
+[Troubleshooting the Lync VDI Plug-in](/previous-versions/office/lync-server-2013/lync-server-2013-troubleshooting-the-lync-vdi-plug-in) <!-- 2013 yet to migrate -->
 
 ## VDI environments
 The following table lists the VDI partners and their products which have been tested with the Lync 2013 VDI plug-in. 

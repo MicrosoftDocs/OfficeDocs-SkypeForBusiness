@@ -21,7 +21,4 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Configuring Network Region Links](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-
-
-
+- [Configuring Network Region Links](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-network-region-links)

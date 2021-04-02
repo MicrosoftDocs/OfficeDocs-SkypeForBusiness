@@ -37,4 +37,4 @@ You define a new session initiation protocol (SIP) trunk by providing the follow
 
 [M:N trunk in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[How do I implement SIP trunking?](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[How do I implement SIP trunking?](/previous-versions/office/lync-server-2013/lync-server-2013-how-do-i-implement-sip-trunking)

@@ -25,13 +25,13 @@ landingContent:
       - linkListType: overview
         links:
           - text: Environment requirements
-            url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+            url: ./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
           - text: Network requirements
-            url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+            url: ./plan-your-deployment/network-requirements/network-requirements.md
           - text: Skype Meeting Broadcast
             url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
           - text: Technical diagrams
-            url: /SkypeForBusiness/technical-diagrams
+            url: ./technical-diagrams.md
       - linkListType: download
         links:
           - text: Download now!
@@ -43,32 +43,32 @@ landingContent:
       - linkListType: overview
         links:
           - text: Plan for your deployment
-            url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+            url: ./plan-your-deployment/plan-your-deployment.md
           - text: Plan hybrid connectivity
             url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
           - text: Plan for clients and devices
-            url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
+            url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
           - text: Plan your Enterprise Voice solution
-            url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+            url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
   # Card
   - title: Install and manage
     linkLists:
       - linkListType: deploy
         links:
           - text: Deploy Skype for Business Server
-            url: /SkypeForBusiness/deploy/deploy
+            url: ./deploy/deploy.md
           - text: Install Skype for Business Server
-            url: /SkypeForBusiness/deploy/install/install
+            url: ./deploy/install/install.md
           - text: Upgrade to Skype for Business Server
-            url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+            url: ./deploy/upgrade-to-skype-for-business-server.md
           - text: Deploy Enterprise Voice
-            url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+            url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
           - text: Configure your on-premises deployment for Skype Meeting Broadcast
-            url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+            url: ./deploy/configure-skype-meeting-broadcast.md
       - linkListType: how-to-guide
         links:
           - text: Manage Skype for Business Server
-            url: /SkypeForBusiness/manage/manage
+            url: ./manage/manage.md
 
   # Card
   - title: Other resources
@@ -78,6 +78,6 @@ landingContent:
           - text: Skype for Business readiness series
             url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
           - text: Skype for Business Server 2019 documentation
-            url: /SkypeForBusiness/skype-for-business-server-2019
+            url: ../SfBServer2019/skype-for-business-server-2019.yml
           - text: Lync Server 2013 documentation
             url: /lyncserver/microsoft-lync-server-2013

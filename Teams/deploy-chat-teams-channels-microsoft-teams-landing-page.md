@@ -61,7 +61,7 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 | Ask yourself | Action |
 |--------------|--------|
 |Who will be assigned the Teams Communications Administrator role?|To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
-|Who will be assigned the Teams Communications Support Engineer role?|To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|Who will be assigned the Teams Communications Support Engineer role?|To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |Who will be assigned the Teams Communications Support Specialist role?||
 |||
 
@@ -83,7 +83,7 @@ Messaging policies control which chat and channel messaging features are availab
 |------------|-------|
 |Will I customize the global messaging policy?|For information about using the Microsoft Teams admin center to change the global messaging policy or add a new policy, see [Manage messaging policies in Teams](messaging-policies-in-teams.md).|
 |Do I require multiple messaging policies?|To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md).|
-|How will I determine which groups of users get which messaging policy?|To learn about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
+|How will I determine which groups of users get which messaging policy?|To learn about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 
 
 ### External access
@@ -97,7 +97,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 ### Guest access
 
-Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned off by default. To learn more, see [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned off by default. To learn more, see [Guest access in Teams](./guest-access.md).
 
 > [!NOTE]
 > For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
@@ -130,11 +130,11 @@ Teams supports a number of clients from web to desktop to mobile, and the defaul
 
 ### Teams usage reporting
 
-The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics).
+The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics](/microsoft-365/admin/usage-analytics/usage-analytics).
 
 |Ask yourself|Action |
 |------------|-------|
-|<br> Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) to learn how to assign admin roles in Azure Active Directory. |
+|<br> Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) to learn how to assign admin roles in Azure Active Directory. |
 |||
 
 ### Teams default apps 
@@ -149,11 +149,11 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Teams licensing
 
-Teams is provided as part of many Microsoft 365 or Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Teams is provided as part of many Microsoft 365 or Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 |Ask yourself|Action |
 |------------|-------|
-|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
+|Do my users have the licenses they need in order to use all the Teams features I want to roll out? | To learn about licensing requirements, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).|
 |||
 
 ### Exchange and SharePoint interoperability
@@ -176,7 +176,7 @@ When planning an enterprise deployment of Teams, you should take into account an
 
 ### URLs and ports
 
-Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 and Office 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
+Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 and Office 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -191,7 +191,7 @@ Your organization might require that you implement controls on how teams are nam
 | Ask yourself | Action |
 |--------------|--------|
 |Will I need to implement controls on who can create teams?| Read [Plan for governance in Teams](plan-teams-governance.md).|
-|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 groups in Azure AD](/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### Teams application policy (side-rail control)
@@ -221,7 +221,7 @@ Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Busine
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

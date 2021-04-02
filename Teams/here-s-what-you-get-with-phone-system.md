@@ -43,7 +43,7 @@ Phone System provides the following features. Unless otherwise noted, features a
 |**Phone System feature** <br/> |**Description** <br/> |
 |[Cloud auto attendants](what-are-phone-system-auto-attendants.md) <br/> |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> |
 |[Cloud call queues](create-a-phone-system-call-queue.md) <br/> |Lets you configure how call queues are managed for your organization: for example, set up greetings and music on hold, search for the next available call agent to handle the call, and so on.  <br/> |
-|Music on hold | Plays default music defined by the service when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. This feature is configurable by the administrator but [currently only via PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Hold music is also not supported in consultative transfer of a PSTN call.|
+|Music on hold | Plays default music defined by the service when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. This feature is configurable by the administrator but [currently only via PowerShell](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Hold music is also not supported in consultative transfer of a PSTN call.|
 |Call answer/initiate (by name and number)  <br/> |Lets users answer inbound calls with a touch, and place outbound calls either by dialing the full phone number or by clicking a name in the client.  <br/> |
 |[Call forwarding options and simultaneous ring](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Lets users set up forwarding rules so calls can go with them anywhere, or calls can be forwarded to colleagues or to voicemail.  <br/> |
 |[Group call pickup and forward to group](call-sharing-and-group-call-pickup.md) <br/> | Lets users share incoming calls with colleagues so that the colleagues can answer calls that occur while the user is unavailable. Less disruptive to recipients than other forms of call sharing (such as call forwarding or simultaneous ringing) because users can configure how they want to be notified of an incoming shared call. |
@@ -86,9 +86,8 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Monitor and manage call quality](monitor-call-quality-qos.md)
-- [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Pricing for Phone System](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams for Virtualized Desktop Infrastructure with callings and meetings](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   
- 
