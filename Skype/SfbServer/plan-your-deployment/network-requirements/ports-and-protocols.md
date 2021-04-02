@@ -23,15 +23,15 @@ description: "Summary: Review the port usage considerations before implementing 
  
 **Summary:** Review the port usage considerations before implementing Skype for Business Server.
   
-Skype for Business Server requires that specific ports on the external and internal firewalls be open. Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. 
+Skype for Business Server requires that specific ports on the external and internal firewalls are open. Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. 
   
-While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://go.microsoft.com/fwlink/p/?LinkID=282725). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the Firewall Report within the Edge Admin Report, and use the information listed there to create yourfirewall rules. You can also make adjustments to many of the names and IP addresses used, for details see [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the Firewall Report will be one of the worksheets in the file. 
+While this might seem a bit daunting, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://go.microsoft.com/fwlink/p/?LinkID=282725). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the Firewall Report within the Edge Admin Report, and use the information listed there to create your firewall rules. You can also make adjustments to many of the names and IP addresses used, for details see [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the Firewall Report will be one of the worksheets in the file. 
   
-You can also find the information in these tables in diagram form by reviewing the Protocol Workloads poster linked off of the [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md) article.
+You find the information in these tables in diagram form by reviewing the Protocol Workloads poster linked off of the [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md) article.
 
 > [!NOTE]
 > - If you're implementing Skype for Business Online (Microsoft 365 or Office 365) refer to [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybrid environments will need to reference this topic and also [Plan hybrid connectivity](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json).
-> - You can have hardware or software firewalls, we don't require specific models or versions. What matters is what ports are added to an allowlist so the firewall won't impair the functioning of Skype for Business Server.
+> - You can have hardware or software firewall. We don't require specific models or versions. What matters is what ports are added to an allowlist so the firewall won't impair the functioning of Skype for Business Server.
   
 ## Port and Protocol Details
 
@@ -49,7 +49,7 @@ The following table lists the ports that need to be open on each internal server
 |Server role|Service name|Port|Protocol|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |All Servers  |SQL Browser  |1434  |UDP  |SQL Browser for the local replicated copy of the Central Management Store database.  |
-|Front End Servers  |Skype for Business Server Front-End service  |5060  |TCP  |Optionally used by Standard Edition servers and Front End Servers for static routes to trusted services, such as remote call control servers.  |
+|Front-End Servers  |Skype for Business Server Front-End service  |5060  |TCP  |Optionally used by Standard Edition servers and Front End Servers for static routes to trusted services, such as remote call control servers.  |
 |Front End Servers  |Skype for Business Server Front-End service  |5061  | TCP (TLS) |Used by Standard Edition servers and Front End pools for all internal SIP communications between servers (MTLS), for SIP communications between Server and Client (TLS) and for SIP communications between Front End Servers and Mediation Servers (MTLS). Also used for communications with a Monitoring Server.  |
 | Front End Servers |Skype for Business Server Front-End service  |444  | HTTPS <br/> TCP  |Used for HTTPS communication between the Focus (the Skype for Business Server component that manages conference state) and the individual servers.  <br/> This port is also used for TCP communication between Survivable Branch Appliances and Front End Servers.  |
 |Front End Servers  |Skype for Business Server Front-End service  |135  |DCOM and remote procedure call (RPC)  |Used for DCOM based operations such as Moving Users, User Replicator Synchronization, and Address Book Synchronization.  |
@@ -180,18 +180,18 @@ The following table explains the recommended IPsec exception settings.
 
 |Rule name|Source IP|Destination IP|Protocol|Source port|Destination port|Authentication Requirement|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|A/V Edge Server Internal Inbound  |Any  |A/V Edge Server Internal  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|A/V Edge Server External Inbound  |Any  |A/V Edge Server External  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|A/V Edge Server Internal Outbound  |A/V Edge Server Internal  |Any  |UDP &amp; TCP  |Any  |Any  |Do not authenticate  |
-|A/V Edge Server External Outbound  |A/V Edge Server External  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|Mediation Server Inbound  |Any  |Mediation  <br/> Server(s)  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|Mediation Server Outbound  |Mediation  <br/> Server(s)  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|Conferencing Attendant Inbound  |Any  |Front End Server running Conferencing Attendant  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|Conferencing Attendant Outbound  |Front End Server running Conferencing Attendant  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|A/V Conferencing Inbound  |Any  |Front End Servers  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|A/V Conferencing Outbound  |Front End Servers  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|Exchange Inbound  |Any  |Exchange Unified Messaging  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|Application Sharing Servers Inbound  |Any  |Application Sharing Servers  |TCP  |Any  |Any  |Do not authenticate  |
-|Application Sharing Server Outbound  |Application Sharing Servers  |Any  |TCP  |Any  |Any  |Do not authenticate  |
-|Exchange Outbound  |Exchange Unified Messaging  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
-|Clients  |Any  |Any  |UDP  |Specified media port range  |Any  |Do not authenticate  |
+|A/V Edge Server Internal Inbound  |Any  |A/V Edge Server Internal  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|A/V Edge Server External Inbound  |Any  |A/V Edge Server External  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|A/V Edge Server Internal Outbound  |A/V Edge Server Internal  |Any  |UDP &amp; TCP  |Any  |Any  |Don't authenticate  |
+|A/V Edge Server External Outbound  |A/V Edge Server External  |Any  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|Mediation Server Inbound  |Any  |Mediation  <br/> Server(s)  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|Mediation Server Outbound  |Mediation  <br/> Server(s)  |Any  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|Conferencing Attendant Inbound  |Any  |Front End Server running Conferencing Attendant  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|Conferencing Attendant Outbound  |Front End Server running Conferencing Attendant  |Any  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|A/V Conferencing Inbound  |Any  |Front End Servers  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|A/V Conferencing Outbound  |Front End Servers  |Any  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|Exchange Inbound  |Any  |Exchange Unified Messaging  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|Application Sharing Servers Inbound  |Any  |Application Sharing Servers  |TCP  |Any  |Any  |Don't authenticate  |
+|Application Sharing Server Outbound  |Application Sharing Servers  |Any  |TCP  |Any  |Any  |Don't authenticate  |
+|Exchange Outbound  |Exchange Unified Messaging  |Any  |UDP and TCP  |Any  |Any  |Don't authenticate  |
+|Clients  |Any  |Any  |UDP  |Specified media port range  |Any  |Don't authenticate  |
