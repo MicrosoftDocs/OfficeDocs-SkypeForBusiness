@@ -84,7 +84,7 @@ The following clients are currently supported.  Check back often to see updates 
 > 
 
 > [!NOTE]
-> Dynamic emergency calling on Teams phones will not suport WAP for LIS matching.
+> Dynamic emergency calling on Teams phones does not support WAP for LIS matching.
 
 ## Assign emergency addresses
 
