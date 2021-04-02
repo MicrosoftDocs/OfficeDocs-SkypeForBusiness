@@ -95,7 +95,7 @@ Switch this setting **On** to turn on scoped directory searches.
 
 #### Safety and communications
 
-Supervised chat allows organizations and schools to limit chat capabilities using role-based permissions. These permissions control the amount of supervision a user requires while chatting with others. Learn more about [supervised chat](supervise-chat-edu.md).
+Supervised chat allows organizations and schools to limit chat capabilities using role-based permissions. These permissions control the amount of supervision a user requires while chatting with others. Learn more about [supervised chat](supervise-chats-edu.md).
 
 ### Skype for Business
 
