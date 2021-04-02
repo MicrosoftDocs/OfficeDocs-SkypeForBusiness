@@ -34,6 +34,12 @@ Share to Teams from Outlook allows you to send a copy of email messages or conve
 
 Microsoft Teams provides app customization to enhance the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app properties based on the organizational needs using the Teams admin center Manage apps page. [Learn more](../customize-apps.md).
 
+## March 29, 2021
+
+### Remote provisioning and sign-in for Teams Android devices
+
+IT admins can remotely provision and sign in to a Teams Android device. To provision a device remotely, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center. [Learn more](../devices/remote-provision-remote-login.md).
+
 ## March 24, 2021
 
 ### Enable live transcripts in Teams
