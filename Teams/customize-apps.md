@@ -103,15 +103,10 @@ The following note includes important details about customizing an app.
 
 > [!Note]
 > - When you customize apps, and any description related to an app, ensure that you follow any customization guidelines if provided by the app publisher in their documentation or terms of use. You're also responsible for respecting the rights of others regarding any third-party images you might use.
->
 > - Admin-provided customization data is stored in the nearest region.
->
 > - You are responsible for ensuring that links to terms of use or privacy policy are valid.
->
 > - In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
->
 > - Changes to branding might require up to 24 hours for the users to see the changes.
->
 
 ## Review app details
 
