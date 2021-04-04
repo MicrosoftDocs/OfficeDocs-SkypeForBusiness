@@ -23,9 +23,9 @@
     - name: Decommission your on-premises Skype for Business environment
       items:
          - name: Overview
-           href: ../hybrid/decommission-on-prem-environment.md
+           href: ../hybrid/decommission-on-prem-overview.md
          - name: Move users and endpoints to the cloud
-           href: ../hybrid/decommission-on-prem-environment.md
+           href: ../hybrid/decommission-move-on-prem-users.md
          - name: Disable hybrid to complete migration to the cloud
            href: ../hybrid/cloud-consolidation-disabling-hybrid.md
          - name: Remove your on-premises Skype for Business deployment

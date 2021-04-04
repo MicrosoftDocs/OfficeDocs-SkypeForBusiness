@@ -31,7 +31,7 @@ To complete your move from on-premises to the cloud and decommission your on-pre
 
 - **Step 1.** [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md).
 
-- **Step 2.** [Disable your hybrid configuration](decommission-disable-hybrid.md).
+- **Step 2.** [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
 - **Step 3.** [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
