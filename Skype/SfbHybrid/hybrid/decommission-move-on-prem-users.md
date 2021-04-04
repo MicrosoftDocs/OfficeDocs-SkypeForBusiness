@@ -22,21 +22,21 @@ description: "Moving user and endpoints before decommissioning a Skype for Busin
 
 # Move required users and endpoints before decommissioning your on-premises environment
 
-This article describes how to remove required users and application endpoints before decommissioning your on-premises Skype for Business environment. This is step 1 of the following steps to decommission your on-premises environment:
+This article describes how to move required users and application endpoints before decommissioning your on-premises Skype for Business environment. This is step 1 of the following steps to decommission your on-premises environment:
 
 - **Step 1. Move all required users and application endpoints from on-premises to online.** (This article.)
 
-- **Step 2.** [Disable your hybrid configuration](decommission-disable-hybrid.md).
+- Step 2. [Disable your hybrid configuration](decommission-disable-hybrid.md).
 
-- **Step 3.** [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
+- Step 3. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
 
 ## Move all required users from on-premises to the cloud
 
-Any users that you will continue to use after completing the migration must be first moved from on-premises to the cloud. This is done using the on-premises administration tools. For details, see
-Move users between on-premises and cloud
+Any users that you will continue to use after completing the migration must first be moved from on-premises to the cloud. You move users by using the on-premises administration tools. For details, see
+[Move users between on-premises and cloud](move-users-between-on-premises-and-cloud.md).
 
-Even though it is possible for users with on-premises Skype for Business Server accounts to use Teams, these users do not have the full functionality of Teams. In particular, these users cannot interop or federate with any other user still using Skype for Business (whether online or on-premises) nor can these users receive PSTN calls in their Teams client. Hence these users must be moved online. This step also ensures any contacts or meetings created in Skype for Business Server are migrated to the Teams.
+Although it is possible for users with on-premises Skype for Business Server accounts to use Teams, these users do not have the full functionality of Teams. In particular, these users cannot interoperate or federate with any other user still using Skype for Business (whether online or on-premises). Nor can these users receive PSTN calls in their Teams client. Hence these users must be moved online. This step also ensures any contacts or meetings created in Skype for Business Server are migrated to Teams.
 
 To check if there are any remaining users in your on-premises deployment, run the following cmdlets in a Skype for Business Server PowerShell window.
 
@@ -55,21 +55,21 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 
 ## Move on-premises hybrid application endpoints to Microsoft 365
 
-1. Record on-premises Hybrid Application Endpoint settings, by executing the following on-premises Skype for Business Server PowerShell command to export endpoint data:
+1. Retrieve and export on-premises hybrid application endpoint settings by executing the following on-premises Skype for Business Server PowerShell command:
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Create and license new Resource Accounts in Microsoft 365 to replace existing on-premises hybrid application endpoints.
+2. Create and license new Resource Accounts in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
 
-3. Associate the new Resource Accounts with the existing Hybrid Application Endpoints.
+3. Associate the new Resource Accounts with the existing hybrid application endpoints.
 
-4. Remove phone numbers defined in on-premises Hybrid Application Endpoints by executing the following on-premises Skype for Business Server PowerShell command:
+4. Remove phone numbers defined in the on-premises hybrid application endpoints by executing the following on-premises Skype for Business Server PowerShell command:
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Because it's possible the phone numbers for these accounts were managed in Microsoft 365 instead of on-premises, run the following command in Skype for Business Online PowerShell:
+5. Because it's possible that phone numbers for these accounts were managed in Microsoft 365 instead of on-premises, run the following command in Skype for Business Online PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -84,14 +84,14 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
    }
    ```
 
-6. Assign phone numbers to new Resource Accounts created in Step 2. For more details how to assign phone number to a resource account please refer to the following article: https://docs.microsoft.com/en-us/microsoftteams/manage-resource-accounts#assign-a-service-number.
+6. Assign phone numbers to the new Resource Accounts created in Step 2. For more information about how to assign phone number to a resource account, see the following article: [Assign a service number](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number).
 
 7. Delete the on-premises endpoints by executing the following on-premises Skype for Business Server PowerShell command:
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-You are now ready to disable your hybrid configuration.
+You are now ready to [disable your hybrid configuration](decommission-disable-hybrid.md).
 
 
 

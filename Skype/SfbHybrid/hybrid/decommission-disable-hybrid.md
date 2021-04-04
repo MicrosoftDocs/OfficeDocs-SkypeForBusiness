@@ -20,6 +20,47 @@ description: "Instructions for implementing  hybrid connectivity between Skype f
 
 ---
 
+# Disable hybrid to complete migration to the cloud 
+
+This article describes how to disable your hybrid configuration before decommissioning your on-premises Skype for Business environment. This is step 2 of the following steps to decommission your on-premises environment:
+
+- Step 1. [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md).
+
+- **Step 2. Disable your hybrid configuration. (This article.)**
+
+- Step 3. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
+
+
+## Overview
+
+After you have upgraded all users from Skype for Business on-premises to Teams Only in Microsoft 365 or Office 365, you can decommission the on-premises Skype for Business deployment. Before decommission of the on-premises Skype for Business and removing any hardware, a critical step is to logically separate the on-premises deployment from Microsoft 365 or Office 365 by disabling hybrid. Disabling hybrid consists of 3 steps:
+
+1.	Update DNS records to point to Microsoft 365 or Office 365.
+
+2.	Disable split domain in the Microsoft 365 or Office 365 organization.
+
+3.	Disable the ability in on-premises to communicate with Microsoft 365 or Office 365.
+
+These steps logically separate your on-premise deployment of Skype for Business Server from Office 365 and should be done together as a unit. Details for each step are provided in this article below. Once that is complete, you can decommission your on-premises Skype for Business Deployment using one of 2 methods referenced below.
+
+> [!Note] 
+> Once this logical separation is complete, msRTCSIP attributes from your on-premises Active Directory still have values and will continue to sync via Azure AD Connect into Azure AD. How you decommission the on-premises environment depends on whether you intend to leave these attributes in place, or first clear them from your on-premises Active Directory. Details and tradeoffs of the two decommissioning approaches are described below.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Configure hybrid connectivity between Skype for Business Server and Office 365
 
 **Summary:** Read this topic to learn how to configure hybrid connectivity between Skype for Business Server and Teams or Skype for Business Online.  Hybrid connectivity enables you to move your on-premises users to Teams or Skype for Business Online, and enables your users to take advantage of cloud services.
