@@ -42,7 +42,7 @@ To complete the steps in this article, you need privileges for both the Schema A
 
 After you move all required user accounts to the cloud, there may still be some remaining on-premises objects such as contacts and applications that you will need clean up.
 
-Use the steps below to clean these objects, and make sure you are a member of both the Local Administrator group and the RTCUniversalServerAdmins group. Note that ExUmContacts and PersistantChatEndPoints are not available in Skype for Business Server 2019, so the corresponding cmdlets in the steps below should be omittted if you have Skype for Business Server 2019.
+Use the steps below to clean these objects, and make sure you are a member of both the Local Administrator group and the RTCUniversalServerAdmins group. Note that ExUmContacts and PersistantChatEndPoints are not available in Skype for Business Server 2019. If you have Skype for Business Server 2019, the corresponding cmdlets in the steps below should be omitted.
 
 1. To check if there are any contacts or applications associated with the Skype for Business Server on-premises deployment, run the following Skype for Business Server PowerShell cmdlets.
 
@@ -80,7 +80,7 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 
 1. Logically remove the Skype for Business Server deployment, except for a single front end, as follows:
 
-   a. Update your Skype for Business Server topology to have a single front end pool:
+   a. Update your Skype for Business Server topology to have a single front-end pool:
 
      - In Topology Builder, download a new copy and navigate to the Frontend pool.
      - Right-click the pool, and then click **Edit Properties**.
@@ -130,7 +130,6 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
-- [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md)
 
 
 
