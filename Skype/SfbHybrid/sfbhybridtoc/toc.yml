@@ -22,14 +22,14 @@
           href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
     - name: Decommission your on-premises Skype for Business environment
       items:
-         - name: Overview
-           href: ../hybrid/decommission-on-prem-overview.md
-         - name: Move users and endpoints to the cloud
-           href: ../hybrid/decommission-move-on-prem-users.md
-         - name: Disable hybrid to complete migration to the cloud
-           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
-         - name: Remove your on-premises Skype for Business deployment
-           href: ../hybrid/decommission-remove-on-prem.md
+        - name: Overview
+          href: ../hybrid/decommission-on-prem-overview.md
+        - name: Move users and endpoints to the cloud
+          href: ../hybrid/decommission-move-on-prem-users.md
+        - name: Disable hybrid to complete migration to the cloud
+          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Remove your on-premises Skype for Business deployment
+          href: ../hybrid/decommission-remove-on-prem.md
    
     - name: Deploy a resource forest topology
       href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
