@@ -239,4 +239,6 @@ This option requires additional effort and proper planning because users that we
 
 ## See also
 
-[Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
+- [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
+
+- [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)

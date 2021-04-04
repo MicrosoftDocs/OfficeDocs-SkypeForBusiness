@@ -40,9 +40,9 @@ To complete the steps in this article, you need privileges for both the Schema A
 
 ## Prepare to remove the Skype for Business deployment
 
-You will need to remove any unnecessary on-premises contacts, applications, and other objects.
+After you move all required user accounts to the cloud, there may still be some remaining on-premises objects such as contacts and applications that you will need clean up.
 
-After you move all required user accounts to the cloud, there may still be some remaining on-premises objects such as contacts and applications that need to be cleaned up. Use the steps below to clean these objects, and make sure you are a member of both the Local Administrator group and the RTCUniversalServerAdmins group. Note that ExUmContacts and PersistantChatEndPoints are not available in Skype for Business Server 2019, so the corresponding cmdlets in the steps below should be omittted if you have Skype for Business Server 2019.
+Use the steps below to clean these objects, and make sure you are a member of both the Local Administrator group and the RTCUniversalServerAdmins group. Note that ExUmContacts and PersistantChatEndPoints are not available in Skype for Business Server 2019, so the corresponding cmdlets in the steps below should be omittted if you have Skype for Business Server 2019.
 
 1. To check if there are any contacts or applications associated with the Skype for Business Server on-premises deployment, run the following Skype for Business Server PowerShell cmdlets.
 
@@ -78,16 +78,16 @@ After you move all required user accounts to the cloud, there may still be some 
 
 After completing all the preliminary steps, you can remove the Skype for Business deployment by following these steps:
 
-1. Logically remove Skype for Business Server deployment, except for a single front end, as follows:
+1. Logically remove the Skype for Business Server deployment, except for a single front end, as follows:
 
    a. Update your Skype for Business Server topology to have a single front end pool:
 
      - In Topology Builder, download a new copy and navigate to the Frontend pool.
-     - Right-click the pool, and then click Edit Properties.
-     - In Associations, uncheck Associate Edge Pool (for media components) and click OK.
+     - Right-click the pool, and then click **Edit Properties**.
+     - In **Associations**, uncheck **Associate Edge Pool** (for media components) and click **OK**.
      - If there is more than one Frontend Pool, remove Associations for all remaining pools.
-     - Select "Action > Remove Deployment".
-     - Select "Action > Publish Topology".
+     - Select **Action > Remove Deployment**.
+     - Select **Action > Publish Topology**.
 
     b. After publishing the topology, complete the additional steps described in the wizard.
 
@@ -121,6 +121,16 @@ After completing all the preliminary steps, you can remove the Skype for Busines
    ```PowerShell
    Disable-CsAdForest
    ```
+
+## See also
+
+- [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
+- [Move user and endpoints to the cloud](decommission-move-on-prem-users.md)
+
+- [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
+
+- [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md)
 
 
 
