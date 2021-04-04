@@ -29,7 +29,7 @@ This article describes how to disable your hybrid configuration before decommiss
 
 - Step 1. [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md).
 
-- **Step 2. Disable your hybrid configuration. (This article.)**
+- **Step 2. Disable your hybrid configuration.** (This article)
 
 - Step 3. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 

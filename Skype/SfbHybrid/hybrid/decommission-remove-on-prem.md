@@ -1,5 +1,5 @@
 ---
-title: Configure hybrid connectivity | Deploy Skype for Business Server 2019 connect
+title: Decommission Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,22 +16,121 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: "Instructions for implementing  hybrid connectivity between Skype for Business Server and Skype for Business Online."
+description: "Instructions for decommissioning Skype for Business Server."
 
 ---
 
-# Configure hybrid connectivity between Skype for Business Server and Office 365
+# Remove your on-premises Skype for Business deployment
 
-**Summary:** Read this topic to learn how to configure hybrid connectivity between Skype for Business Server and Teams or Skype for Business Online.  Hybrid connectivity enables you to move your on-premises users to Teams or Skype for Business Online, and enables your users to take advantage of cloud services.
-  
-Before performing the steps in this topic, you should have read [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md).
-  
-The following table lists the tasks required to configure Skype for Business hybrid connectivity and provides links to the associated articles for more information.
-  
-|Step|Description|
-|:-----|:-----|
-|Create a tenant account for Office 365   <br/> |Learn about Office 365 at [Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> To make sure that your environment is ready for Office 365, see the [System Requirements](https://products.office.com/office-system-requirements).  <br/> For details about setting up Office 365, see [Getting Started with Office 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
-|Add your domain to your Office 365 organization and verify ownership  <br/> | You must add your domain to your Office 365 organization, and then follow the steps to validate the domain with Office 365. This is to confirm that you are the owner of the domain. <br/> To add your domain to your Office 365 organization, follow the steps described in [Add a domain to Office 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).  <br/> |
-|Set up Active Directory synchronization  <br/> |Active Directory synchronization keeps your on-premises Active Directory continuously synchronized with Office 365. This lets you create synchronized versions of each user account and group.  <br/> <br> **Important:** You need to synchronize the AD accounts for all Skype for Business users in your organization between your on-premises and online deployments, even if users are not moved to Teams or Skype for Business Online. If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected. For more information, see [Configure Azure AD Connect for hybrid environments](configure-azure-ad-connect.md).         |
-| Configure Skype for Business hybrid | There are three basic steps: <br><br> 1. Configure your on-premises environment to federate with Office 365. <br> 2. Configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365.<br> 3. Enable shared SIP address space in your Office 365 organization. <br><br> In addition, if you have Exchange on-premises, then you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments. <br> <br>For more information, see [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
-|Move pilot users  <br/> |After you have completed the steps to prepare and configure your environment for Teams or Skype for Business Online, you can start moving pilot users to your online Office 365 organization. For more information, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md) and [Move users from on premises to Teams](move-users-from-on-premises-to-Teams.md).  <br/> |
+This article describes how to remove your on-premises Skype for Business deployment. This is step 3 of the following steps to decommission your on-premises environment:
+
+- Step 1. [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md). 
+
+- Step 2. [Disable your hybrid configuration](decommission-disable-hybrid.md).
+
+- **Step 3. Remove your on-premises Skype for Business deployment.** (This article)
+
+
+> [!IMPORTANT] 
+> The steps in this article apply only if you are using Method 2 for managing user attributes, as described [here](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). 
+If you are using Method 1, do not use the steps described in this article to remove your Skype for Business servers. Instead, you can re-image the servers.
+
+To complete the steps in this article, you need privileges for both the Schema Admins group and the Enterprise Admin group. You will need these privileges to undo the Skype for Business Server schema and forest-level changes to Active Directory Domain Services. You will also need to be a member of the RTCUniversalServerAdmins group.
+
+
+## Prepare to remove the Skype for Business deployment
+
+You will need to remove any unnecessary on-premises contacts, applications, and other objects.
+
+After you move all required user accounts to the cloud, there may still be some remaining on-premises objects such as contacts and applications that need to be cleaned up. Use the steps below to clean these objects, and make sure you are a member of both the Local Administrator group and the RTCUniversalServerAdmins group. Note that ExUmContacts and PersistantChatEndPoints are not available in Skype for Business Server 2019, so the corresponding cmdlets in the steps below should be omittted if you have Skype for Business Server 2019.
+
+1. To check if there are any contacts or applications associated with the Skype for Business Server on-premises deployment, run the following Skype for Business Server PowerShell cmdlets.
+
+   ```PowerShell
+   Get-CsMeetingRoom
+   Get-CsCommonAreaPhone
+   Get-CsAnalogDevice
+   Get-CsExUmContact
+   Get-CsDialInConferencingAccessNumber
+   Get-CsRgsWorkflow
+   Get-CsTrustedApplicationEndpoint
+   Get-CsTrustedApplication
+   Get-CsPersistentChatEndpoint
+   Get-CsAudioTestServiceApplication
+   Get-CsCallParkOrbit
+   ```
+2. Review the output lists from the cmdlets in Step 1. Then if objects can be removed, run the following Skype for Business Server PowerShell cmdlets:
+
+   ```PowerShell
+   Get-CsMeetingRoom | Disable-CsMeetingRoom
+   Get-CsCommonAreaPhone | Remove-CsCommonAreaPhone 
+   Get-CsAnalogDevice | Remove-CsAnalogDevice
+   Get-CsExUmContact | Remove-CsExUmContact
+   Get-CsDialInConferencingAccessNumber | Remove-CsDialInConferencingAccessNumber
+   Get-CsRgsWorkflow | Remove-CsRgsWorkflow
+   Get-CsTrustedApplicationEndpoint | Remove-CsTrustedApplicationEndpoint
+   Get-CsTrustedApplication | Remove-CsTrustedApplication -Force
+   Get-CsPersistentChatEndpoint |  Remove-CsPersistentChatEndpoint
+   Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
+   Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
+   ```
+## Remove your on-premises Skype for Business deployment
+
+After completing all the preliminary steps, you can remove the Skype for Business deployment by following these steps:
+
+1. Logically remove Skype for Business Server deployment, except for a single front end, as follows:
+
+   a. Update your Skype for Business Server topology to have a single front end pool:
+
+     - In Topology Builder, download a new copy and navigate to the Frontend pool.
+     - Right-click the pool, and then click Edit Properties.
+     - In Associations, uncheck Associate Edge Pool (for media components) and click OK.
+     - If there is more than one Frontend Pool, remove Associations for all remaining pools.
+     - Select "Action > Remove Deployment".
+     - Select "Action > Publish Topology".
+
+    b. After publishing the topology, complete the additional steps described in the wizard.
+
+2. Remove Skype for Business Server conference directories by running the following Skype for Business Server PowerShell cmdlet:
+
+   ```PowerShell
+   Get-CsConferenceDirectory | Remove-CsConferenceDirectory -Force
+   ```
+
+3. Finalize the uninstall of your Skype for Business Server deployment by running the following Skype for Business Server PowerShell cmdlet:
+
+   ```PowerShell
+   Publish-CsTopology -FinalizeUninstall
+   ```
+   > [!NOTE]
+   > If this step returns an error, please open a Microsoft support ticket to get help removing the remaining stale objects.
+
+4. Remove Central Management Store Service Control Point by running the following Skype for Business Server PowerShell cmdlet:
+
+   ```PowerShell
+   Remove-CsConfigurationStoreLocation
+   ``` 
+
+5. Undo Skype for Business Server Active Directory Domain forest-level changes by running the following Skype for Business Server PowerShell cmdlet:
+
+   ```PowerShell
+   Disable-CsAdDomain
+   ```
+6. Undo Skype for Business Server Active Directory Domain schema changes by running the following Skype for Business Server PowerShell cmdlet:
+
+   ```PowerShell
+   Disable-CsAdForest
+   ```
+
+
+
+
+
+
+
+
+
+
+
+
+
