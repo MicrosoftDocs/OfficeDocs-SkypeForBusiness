@@ -1,0 +1,37 @@
+---
+title: Decommission your on-premises Skype for Business environment
+ms.author: crowe
+author: CarolynRowe
+manager: serdars
+ms.reviewer: bjwhalen
+audience: ITPro
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: 
+- Hybrid 
+- M365-voice
+- M365-collaboration
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
+description: "Instructions for implementing  hybrid connectivity between Skype for Business Server and Skype for Business Online."
+
+---
+
+# Decommission your on-premises Skype for Business environment
+
+If your organization uses Teams or Skype for Business Online, with an on-premises deployment of Skype for Business Server, you can migrate these environments fully to the cloud, and then retire your on-premises deployment of Skype for Business Server. 
+
+> [NOTE:]
+> Before decommissioning your on-premises environment, you must [configure hybrid connectivity](configure-hybrid-connectivity.md) between your on-premises deployment and Microsoft 365. After configuring hybrid connectivity, you can migrate users to the cloud, migrate their meetings from on-premises, any migrate any contacts from Skype for Business Server to Teams.
+
+To complete your move from on-premises to the cloud and decommission your on-premises Skype for Business Server environment, you must complete the following steps in the following order:
+
+- **Step 1.** [Move all required users and application endpoints from on-premises to online](decommission-remove-on-users.md).
+
+- **Step 2.** [Disable your hybrid configuration].
+
+- **Step 3.** [Remove your on-premises Skype for Business deployment].
+
