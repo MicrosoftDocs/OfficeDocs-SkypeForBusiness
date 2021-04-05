@@ -2,6 +2,57 @@
 
 
 
+## Week of March 29, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/29/2021 | [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login) | added |
+| 3/29/2021 | [Deploy Microsoft Teams Rooms using Microsoft Endpoint Configuration Manager](/MicrosoftTeams/rooms/rooms-scale) | modified |
+| 3/29/2021 | [Use the Microsoft Teams Meeting add-in in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modified |
+| 3/29/2021 | Authorize guest access in Microsoft Teams | removed |
+| 3/29/2021 | [Manage retention policies for Microsoft Teams](/MicrosoftTeams/retention-policies) | modified |
+| 3/30/2021 | [Set up an auto attendant for Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modified |
+| 3/30/2021 | [Create a call queue in Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modified |
+| 3/30/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 3/30/2021 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
+| 3/30/2021 | [Customize Microsoft apps in Teams](/MicrosoftTeams/customize-apps) | added |
+| 3/30/2021 | [Set up Microsoft Teams in your enterprise](/MicrosoftTeams/deploy-enterprise-setup) | modified |
+| 3/30/2021 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 3/30/2021 | [Customize Microsoft apps in Teams](/MicrosoftTeams/customize-apps) | modified |
+| 3/30/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
+| 3/31/2021 | [Set up an auto attendant for Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modified |
+| 3/31/2021 | [Create a call queue in Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modified |
+| 3/31/2021 | [Microsoft Teams device usage report](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | modified |
+| 3/31/2021 | [Microsoft Teams analytics and reporting](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modified |
+| 3/31/2021 | [Microsoft Teams user activity report](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modified |
+| 3/31/2021 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
+| 3/31/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 4/1/2021 | [Install Power BI Connector to use CQD query templates](/MicrosoftTeams/cqd-power-bi-connector) | modified |
+| 4/1/2021 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
+| 4/1/2021 | [Use supervised chats](/MicrosoftTeams/supervise-chats-edu) | modified |
+| 4/1/2021 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 4/2/2021 | [Set up an auto attendant for Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modified |
+| 4/2/2021 | [Create a call queue in Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modified |
+| 4/2/2021 | [Create a custom team template in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modified |
+| 4/2/2021 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 4/2/2021 | [Manage settings for your organization](/MicrosoftTeams/enable-features-office-365) | modified |
+| 4/2/2021 | [Manage messaging policies in Teams](/MicrosoftTeams/messaging-policies-in-teams) | modified |
+| 4/2/2021 | [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modified |
+| 4/2/2021 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
+| 4/2/2021 | [Assign policies to users and groups](/MicrosoftTeams/assign-policies-users-and-groups) | added |
+| 4/2/2021 | [Assign policy packages to users and groups](/MicrosoftTeams/assign-policy-packages) | added |
+| 4/2/2021 | [Assign policies in Teams](/MicrosoftTeams/policy-assignment-overview) | added |
+| 4/2/2021 | [Customize Microsoft apps in Teams](/MicrosoftTeams/customize-apps) | modified |
+| 4/2/2021 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 4/2/2021 | [Phone number management for Belgium](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modified |
+| 4/2/2021 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 4/2/2021 | [Manage Teams with policies](/MicrosoftTeams/manage-teams-with-policies) | modified |
+| 4/2/2021 | [Use CQD to manage call and meeting quality in Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modified |
+| 4/2/2021 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
+| 4/2/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
+
+
 ## Week of March 22, 2021
 
 
