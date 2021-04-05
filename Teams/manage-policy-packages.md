@@ -78,7 +78,7 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 
 ## Custom policy packages
 
-**This feature is in private preview**
+**Custom policy packages is not yet available for the Government Community Cloud (GCC)**
 
 Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.
 
