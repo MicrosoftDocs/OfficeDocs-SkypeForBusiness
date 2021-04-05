@@ -85,7 +85,7 @@ Before you use sensitivity labels for Teams, be aware of the following limitatio
 
 - **Sensitivity labels aren't supported by Teams Graph APIs, PowerShell cmdlets, and templates**
     
-    Users won't be able to specify sensitivity labels while creating teams directly through Teams Graph APIs, Teams PowerShell cmdlets, and Teams templates. However Modern Groups Graph APIs and PowerShell cmdlets do allow creation of groups with labels. So users can first create Groups with labels using Groups Graph APIs or Powershell cmdlets and then convert these Groups in to Teams.
+    Users won't be able to specify sensitivity labels while creating teams directly through Teams Graph APIs, Teams PowerShell cmdlets, and Teams templates. However Modern Groups Graph APIs and PowerShell cmdlets do allow creation of groups with labels. So users can first create Groups with labels using Groups Graph APIs or PowerShell cmdlets and then convert these Groups in to Teams.
 
 - **Support for private channels**
     
