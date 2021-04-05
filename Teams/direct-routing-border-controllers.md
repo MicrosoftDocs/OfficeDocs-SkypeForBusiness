@@ -100,6 +100,8 @@ If you have any questions about the SBC certification program for Direct Routing
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
 
+* * *
+
 ### Direct Routing tables N-Z
 
 #### [Nokia](#tab/Nokia/)
