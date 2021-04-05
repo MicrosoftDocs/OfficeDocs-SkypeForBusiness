@@ -16,13 +16,13 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: "Moving user and endpoints before decommissioning a Skype for Business on-premises environment."
+description: "Move users and endpoints before decommissioning a Skype for Business on-premises environment."
 
 ---
 
 # Move required users and endpoints before decommissioning your on-premises environment
 
-This article describes how to move required users and application endpoints before decommissioning your on-premises Skype for Business environment. This is step 1 of the following steps to decommission your on-premises environment:
+This article describes how to move required users and application endpoints to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 1 of the following steps to decommission your on-premises environment:
 
 - **Step 1. Move all required users and application endpoints from on-premises to online.** (This article.)
 
@@ -51,7 +51,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 ```
 
 > [!NOTE]
-> This action will remove all Skype for Business attributes for all users meeting the filter criteria. Before proceeding, confirm that these accounts are no longer needed going forward.
+> Running Disable-CsUser will remove all Skype for Business attributes for all users meeting the filter criteria. Before proceeding, confirm that these accounts are no longer needed going forward.
 
 ## Move on-premises hybrid application endpoints to Microsoft 365
 
@@ -60,7 +60,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Create and license new Resource Accounts in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
+2. Create and license new [Resource Accounts](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
 
 3. Associate the new Resource Accounts with the existing hybrid application endpoints.
 
