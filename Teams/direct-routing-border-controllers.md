@@ -42,7 +42,7 @@ If you have any questions about the SBC certification program for Direct Routing
 <br/>
 <br/>
 
-### First tables set {.tabset}
+### First tables set
 
 #### [**AudioCodes**](#tab/AudioCode/)
 
@@ -75,9 +75,8 @@ If you have any questions about the SBC certification program for Direct Routing
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |    
 
-
-### next tables {.tabset}
-
+* * *
+### next tables
 
 #### [Oracle](#tab/Oracle/)
 |                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | Validated with E911 providers | ELIN capable
@@ -162,6 +161,7 @@ If you have any questions about the SBC certification program for Direct Routing
 |[Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 
 * * *
+
 ### Direct routing and analog devices interoperability
 
 The following table lists devices that are verified for interoperability between Direct Routing and Analog Devices.
