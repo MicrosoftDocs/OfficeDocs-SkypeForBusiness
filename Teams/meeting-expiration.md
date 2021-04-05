@@ -59,12 +59,12 @@ When you switch a meeting policy setting from **Off** to **On**, users who are a
 
 Here's a summary of how meeting expiration works for each of the meeting policy settings discussed in this article.
 
-|If you want to... |Do this  |Meeting join behavior  |
-|---------|---------|---------|
-|Expire channel Meet now meetings started by a user  |Turn off **Allow Meet now in channels**.|No one can join channel Meet now meetings started by the user.         |
-|Expire channel meetings scheduled by a user   |Turn off **Allow channel meeting scheduling**.         |No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Channel meetings that occurred in the past.</li> <li>Channel meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>       |
-|Expire private meetings scheduled by a user    |Turn off **Allow scheduling private meetings** *and* turn off **Allow the Outlook add-in**.          |No one can join private meetings scheduled by the user. This prevents people from joining the following: <ul><li>Private meetings that occurred in the past.</li> <li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul> Both **Allow scheduling private meetings** and **Allow the Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.      |
-|Expire private Meet now meetings started by a user  |Turn off **Allow Meet now in private meetings**.          |No one can join private Meet now meetings started by the user.         |
+|If you want to...&nbsp;&nbsp; |Do this&nbsp;&nbsp;&nbsp;&nbsp;  |Meeting join behavior&nbsp;&nbsp;&nbsp;&nbsp;  |
+|---------------------------|---------------------|---------|
+|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Turn off **Allow Meet now in private meetings**.&nbsp;&nbsp;|No one can join private **Meet now** meetings started by the user.|
+|Expire private meetings scheduled by a user&nbsp;&nbsp;|Turn off **Allow scheduling private meetings** `and` turn off **Allow the Outlook add-in**. &nbsp;&nbsp;|No one can join private meetings scheduled by the user. This prevents people from joining the following:<ul><li>Private meetings that occurred in the past.</li><li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul><br>Both **Allow scheduling private meetings** and **Allow the Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Turn off **Allow Meet now in channels** `and` turn off **Allow channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel **Meet now** meetings started by the user.|
+|Expire channel meetings scheduled by a user&nbsp;&nbsp;|Turn off **Allow channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel meetings scheduled by the user. This prevents people from joining the following:<ul><li>Channel meetings that occurred in the past.</li><li>Channel meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>|
 
 If you want people to access meetings that were previously scheduled or started by a particular user, you can:
 
