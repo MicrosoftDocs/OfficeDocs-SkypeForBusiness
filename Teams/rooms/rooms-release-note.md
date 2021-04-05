@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.8.18.0 |04/05/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
@@ -65,6 +66,16 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.8.18.0 (04/05/2021)
+
+Introduced in this update:
+- Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download application 4.8.18.0 update from [Manually update a Microsoft Teams Rooms device](https://docs.microsoft.com/en-us/microsoftteams/rooms/manual-update)
+- Join Zoom meetings with better video quality (720p support) and recieve video gallery of participants
+- Skype for Business sign in failure banner removel for Teams default mode to support organizations removing Skype for Business infrastructure
+- Teams meetings join link parsing now handles Microsoft Advanced Thread Protection Safe-Link service, to allow joining external Teams seamlessly
+- Fix for shared content scaling issue in Skype for Busniess meetings when sharers PC has custom DPI setting in Widows
+- Quality and reliability fixes
 
 ### 4.7.19.0 (02/03/2021)
 
