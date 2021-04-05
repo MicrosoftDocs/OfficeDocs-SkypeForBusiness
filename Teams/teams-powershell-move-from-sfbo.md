@@ -16,7 +16,7 @@ appliesto:
 
 # Move from Skype for Business Online Connector to the Teams PowerShell module
 
-To move from using Skype for Business Online Connector to the Teams PowerShell module to manage Teams, you'll need to update existing PowerShell scripts. This article explains how to do this. Note that using Teams PowerShell module you can manage both Skype for Business Online and Teams users.
+To move from using Skype for Business Online Connector to the Teams PowerShell module to manage Teams, you'll need to update existing PowerShell scripts. This article explains how to do this. Note that by using Teams PowerShell module you can manage both Skype for Business Online and Teams users.
 
 1. Install the latest Teams PowerShell module. For steps, see [Install Microsoft Teams Powershell](teams-powershell-install.md).
 2. Uninstall Skype For Business Online Connector. To do this, in Control Panel, go **Programs and Features**, select **Skype for Business Online, Windows PowerShell Module**, and then select **Uninstall**.
