@@ -1,8 +1,8 @@
 ---
 title: "Configure watcher node test users and settings"
 ms.reviewer: 
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -366,7 +366,7 @@ The Video Interop Server (VIS) synthetic transaction requires that you download 
   
 To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) cmdlet.
+For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) cmdlet.
   
 ## Changing the Run Frequency for Synthetic Transactions
 <a name="special_synthetictrans"> </a>
@@ -438,4 +438,4 @@ You can view these files by using Windows Internet Explorer, Microsoft Visual St
 Synthetic transactions run from inside of System Center Operations Manager will automatically generate these log files for failures. These logs will not be generated if the execution fails before Skype for Business Server PowerShell is able to load and run the synthetic transaction. 
   
 > [!IMPORTANT]
-> By default, Skype for Business Server saves log files to a folder that is not shared. To make these logs readily accessible, you should share this folder. For example: \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> By default, Skype for Business Server saves log files to a folder that is not shared. To make these logs readily accessible, you should share this folder. For example: \\atl-watcher-001.litwareinc.com\WatcherNode.

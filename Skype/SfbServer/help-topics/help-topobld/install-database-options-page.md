@@ -1,8 +1,8 @@
 ---
 title: "Install Database Options Page"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -31,7 +31,7 @@ You configure advanced options for the placement of database and log files on yo
  **Us these path on target SQL Server**: Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
 
 > [!IMPORTANT]
-> The paths that you enter may be modified based on performance optimization algorithms in the installation. For details, see [Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
+> The paths that you enter may be modified based on performance optimization algorithms in the installation. For details, see [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).
 
  **OK**: Click the OK button to commit your changes.
 
@@ -41,4 +41,4 @@ You configure advanced options for the placement of database and log files on yo
 
 ## See also
 
-[SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+[SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)

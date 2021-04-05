@@ -14,27 +14,27 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Learn about using Content Search in Microsoft Teams to query Microsoft Teams information from Exchange, SharePoint Online, OneDrive for Business, and OneNote.
+description: Learn about using Content search in the Microsoft 365 compliance center to search for Microsoft Teams content that's stored in Exchange Online, SharePoint Online, OneDrive for Business, and OneNote.
 appliesto: 
   - Microsoft Teams
 ---
 
-Use Content Search in Microsoft Teams
+Use Content search in Microsoft Teams
 =====================================
 
 > [!NOTE]
 > Content search of messages and files in [private channels](private-channels.md) work differently than in standard channels. To learn more, see [Content search of private channels](#content-search-of-private-channels).
 
-Content Search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.
+Content search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.
 
-To learn more, read [Content Search in Microsoft 365 or Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+To learn more, see [Content search in Microsoft 365](/microsoft-365/compliance/content-search).
 
-For example, using **Content Search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.
+For example, using **Content search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.
 
 You can also add query criteria to the **Content Search** to narrow the results returned. In the above example, you can look for content where the keywords "**New Factory Specs"** were used.
 
 > [!TIP]
-> After adding search conditions, you can export a report or the data to your computer for analysis.
+> After adding search conditions, you can export a report or the actual content to your computer for analysis.
 
 ## Content search of private channels
 
@@ -48,7 +48,7 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel files in a content search
 
-Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
 1. Run the following to get a list of all SharePoint site collections associated with private channels in the team.
 
@@ -87,4 +87,4 @@ Before you perform these steps, make sure you have the [latest version of the Te
 
 ## Related topics
 
-- [eDiscovery cases in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [eDiscovery cases in the Microsoft 365 Compliance Center](/Office365/SecurityCompliance/ediscovery-cases)

@@ -31,7 +31,7 @@ appliesto:
 This article helps you decide which Microsoft voice solution is right for your organization. After you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution.
 
 > [!NOTE]
-> For guidance on planning a Teams voice solution as part as your overall plan to upgrade to Teams from Skype for Business Server, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](upgrade-to-Teams-on-prem-pstn-considerations.md).
+> For guidance on planning a Teams voice solution as part as your overall plan to upgrade to Teams from Skype for Business Server, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](upgrade-to-teams-on-prem-pstn-considerations.md).
 
 You might want the simplest solution&mdash;Phone System with Calling Plan. This is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram. With this solution, Microsoft is your PSTN carrier.
 
@@ -77,7 +77,7 @@ Consider which of these additional configurations you might need:
 
 
 > [!Important]
-> This article focuses on voice solutions with Microsoft Teams. While solutions with Skype for Business Online are still available (as described in [Microsoft telephony solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)), it's important to understand that Skype for Business Online will be retired on July 31, 2021.  After that date, the Skype for Business Online service will no longer be accessible. In addition, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online will no longer be supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Direct Routing.
+> This article focuses on voice solutions with Microsoft Teams. While solutions with Skype for Business Online are still available (as described in [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions)), it's important to understand that Skype for Business Online will be retired on July 31, 2021.  After that date, the Skype for Business Online service will no longer be accessible. In addition, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online will no longer be supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Direct Routing.
 
 
 ## Phone System
@@ -171,7 +171,7 @@ For more information about Calling Plan, see the following articles:
 
 - [Which Calling Plan is right for you?](calling-plan-landing-page.md)
 - [How to buy a Calling Plan](calling-plans-for-office-365.md)
-- [Country and region availability for Calling Plan](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Country and region availability for Calling Plan](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Set up Calling Plan](set-up-calling-plans.md)
 
 
@@ -282,7 +282,7 @@ For an organization that is upgrading to Teams, the ultimate goal is to move all
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
 - [About the upgrade framework](upgrade-framework.md)
-- [Upgrade from Skype for Business to Teams — for IT administrators](upgrade-to-teams-on-prem-overview.md)
+- [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md)
 
 When migrating your voice solution, there are four possible calling scenarios when moving to TeamsOnly mode:
 
@@ -307,15 +307,3 @@ For more information about how to implement your voice migration for each of the
   - [Emergency calling](voice-case-study-emergency-calling.md)
   - [Auto attendants and call queues](voice-case-study-call-queues.md)
   - [Audio Conferencing](voice-case-study-audio-conferencing.md)
-
-
-
-
-
-
-
-
-
-
-
-

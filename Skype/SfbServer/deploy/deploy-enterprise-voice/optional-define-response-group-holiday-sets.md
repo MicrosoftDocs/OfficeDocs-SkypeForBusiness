@@ -1,8 +1,8 @@
 ---
 title: "(Optional) Define Response Group holiday sets in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -54,6 +54,6 @@ Holiday settings define the days that a response group is closed for business an
 
 [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md)
 
-[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
+[New-CsRgsHolidaySet](/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

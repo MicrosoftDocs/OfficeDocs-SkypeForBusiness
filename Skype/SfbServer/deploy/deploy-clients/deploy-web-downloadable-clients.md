@@ -1,7 +1,7 @@
 ---
 title: "Deploy Web downloadable clients in Skype for Business Server"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -23,7 +23,7 @@ Skype for Business Web App is an Internet Information Services (IIS) web client 
 The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.
 
 > [!NOTE]
-> In Skype for Business Server Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [DNS requirements for simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> In Skype for Business Server Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) and [DNS requirements for simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## Enable Multi-Factor Authentication for Skype for Business Web App
 <a name="MFA"> </a>
@@ -43,9 +43,9 @@ Skype for Business Web App,  Skype Meetings App, and Skype for Business for Mac 
 
 ### Configure Multi-Factor Authentication
 
-1. Install an AD FS federation server role. For details, see the [Active Directory Federation Services 2.0 Deployment Guide](https://go.microsoft.com/fwlink/p/?linkid=267511)
+1. Install an AD FS federation server role. For details, see the [Active Directory Federation Services 2.0 Deployment Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
-2. Create certificates for AD FS. For more information, see ["Federation server certificates"](https://go.microsoft.com/fwlink/p/?LinkId=285376) section of the Plan for and deploy AD FS for use with single sign-on topic.
+2. Create certificates for AD FS. For more information, see ["Federation server certificates"](/previous-versions/azure/azure-services/jj205462(v=azure.100)) section of the Plan for and deploy AD FS for use with single sign-on topic.
 
 3. From the Windows PowerShell command-line interface, run the following command:
 
@@ -72,12 +72,12 @@ Skype for Business Web App,  Skype Meetings App, and Skype for Business for Mac 
 
 The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Skype for Business Web App web components. To prevent issues for Skype for Business Web App users, make sure that BranchCache is not enabled.
 
-For details about disabling BranchCache, see the [BranchCache Deployment Guide](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+For details about disabling BranchCache, see the [BranchCache Deployment Guide](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## Verifying Skype for Business Web App Deployment
 <a name="MFA"> </a>
 
-You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) in the Skype for Business Server Management Shell documentation.
+You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) in the Skype for Business Server Management Shell documentation.
 
 ## Troubleshooting Plug-in Installation on Windows Server 2008 R2
 <a name="MFA"> </a>
@@ -130,7 +130,7 @@ This procedure is optional, and applies to Skype for Business Server 2015 CU5 an
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Information sent to Microsoft is in strict compliance with [Skype for Business data collection practices](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Information sent to Microsoft is in strict compliance with [Skype for Business data collection practices](/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Set the timeout before fall back to the locally hosted Skype for Business Web App experience if CDN isn't available. The default value is 6 seconds. If this value is set to 0, there will be no timeout.
 

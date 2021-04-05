@@ -1,8 +1,8 @@
 ---
 title: "Define the IP Address of the IP or PSTN Gateway"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -25,4 +25,4 @@ If you select **Use all configured IP addresses**, all addresses configured on t
 
 ## See also
 
-[Dial-In Conferencing Requirements](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[Dial-In Conferencing Requirements](/previous-versions/office/lync-server-2013/lync-server-2013-dial-in-conferencing-requirements)

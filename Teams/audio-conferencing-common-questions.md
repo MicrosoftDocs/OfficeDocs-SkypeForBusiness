@@ -82,7 +82,7 @@ The maximum length of time depends on who is in the meeting and the type of auth
 
 See [Limits and Specifications](limits-specifications-teams.md) for total number of attendees allowed in meetings.
   
-To find out about meeting limits, see [Skype for Business Online Limits](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
+To find out about meeting limits, see [Skype for Business Online Limits](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#bkmk_Meeting_LyncOnlineLimits).
   
 ## Why did users start receiving emails with their Audio Conferencing information?
 
@@ -118,7 +118,7 @@ We are working on a solution that will let the user access and reset a conferenc
 Skype for Business or Microsoft Teams users can find the PIN in an email that will be sent to them once they are set up.
   
 > [!NOTE]
-> A Skype for Business or Microsoft Teams user won't be able to reset their PIN. The PIN can only be reset by you, the admin. When a PIN is reset, an email is sent to the user. 
+> Teams users can change their pin. There is a link at the bottom of the meeting invite to reset their pin. 
   
 We are working on a solution that will let the user access and reset a PIN without help from an organization's administrator.
   
@@ -151,4 +151,3 @@ Scheduling a meeting that will be joined by all attendees using a phone to dial 
 [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
-  

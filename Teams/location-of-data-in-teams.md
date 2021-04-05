@@ -34,7 +34,7 @@ To see which region houses data for your tenant, go to the [Microsoft 365 admin 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
-For a detailed list of countries and data stored, see [Where your Microsoft 365 customer data is stored](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide).
+For a detailed list of countries and data stored, see [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide).
 
 ## Data stored with a third-party storage provider
 

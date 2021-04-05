@@ -1,8 +1,8 @@
 ---
 title: "Legacy Merge Results"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,6 +19,4 @@ description: "To begin merging a legacy deployment with Skype for Business Serve
 
 # Legacy Merge Results
 
-To begin merging a legacy deployment with Skype for Business Server, click **Next**. For details about running the Topology Builder merge wizard, see [Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) in the Migration documentation.
-
-
+To begin merging a legacy deployment with Skype for Business Server, click **Next**. For details about running the Topology Builder merge wizard, see [Merge Using Topology Builder Merge Wizard](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard) in the Migration documentation.

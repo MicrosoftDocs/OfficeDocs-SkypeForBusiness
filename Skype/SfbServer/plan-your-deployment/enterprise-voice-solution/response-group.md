@@ -1,8 +1,8 @@
 ---
 title: "Plan for the Response Group application in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -73,7 +73,7 @@ Response Group Managers can use the following tools to manage their designated r
 
 - Skype for Business Server Management Shell
 
-Response Group scales well to departmental or workgroup environments (for details, see [Capacity Planning for Response Group](https://technet.microsoft.com/library/a2459a69-1f45-4f2f-bca5-d4f442708e44.aspx)) and can be deployed in entirely new telephony installations. It supports incoming calls from the Enterprise Voice deployment and from the local carrier network. Agents can use Skype for Business, Lync 2013, Lync 2010, Lync 2010 Attendant, or Lync Phone Edition to take the calls routed to them.
+Response Group scales well to departmental or workgroup environments (for details, see [Capacity Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) and can be deployed in entirely new telephony installations. It supports incoming calls from the Enterprise Voice deployment and from the local carrier network. Agents can use Skype for Business, Lync 2013, Lync 2010, Lync 2010 Attendant, or Lync Phone Edition to take the calls routed to them.
 
 ## Deployment and requirements
 
@@ -211,5 +211,3 @@ The following table describes the Response Group user model that you can use as 
 |Active agents (formal and informal)  <br/> |2400  <br/> |2400  <br/> |
 |Number of hunt groups  <br/> |800  <br/> |800  <br/> |
 |Number of IVR groups (use speech recognition)  <br/> |400  <br/> |400  <br/> |
-
-

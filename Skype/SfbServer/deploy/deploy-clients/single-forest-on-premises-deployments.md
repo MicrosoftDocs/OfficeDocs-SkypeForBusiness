@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System single forest on-premises deployments"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -22,7 +22,7 @@ This section provides an overview of the steps for provisioning the Skype Room S
   
 ## Single forest on-premises deployments
 
-If you already have a resource mailbox account for the conferencing room, you can use it. Otherwise, you will need to create a new one. You can use either Exchange Management Shell (PowerShell) or Exchange Management Console to create a new resource mailbox account. We recommend using a new (delete old mailbox and re-create) resource mailbox for Skype Room System. Make sure to back up mailbox data before deleting and then export it back to the re-created mailbox using the Outlook client (see Export or back up messages, calendar, tasks, and contacts for more information). To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
+If you already have a resource mailbox account for the conferencing room, you can use it. Otherwise, you will need to create a new one. You can use either Exchange Management Shell (PowerShell) or Exchange Management Console to create a new resource mailbox account. We recommend using a new (delete old mailbox and re-create) resource mailbox for Skype Room System. Make sure to back up mailbox data before deleting and then export it back to the re-created mailbox using the Outlook client (see Export or back up messages, calendar, tasks, and contacts for more information). To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
 To use an existing resource mailbox account (for example, LRS-01) follow the steps below:
   
@@ -110,5 +110,3 @@ After you create a resource mailbox account for the conferencing rooms, use Skyp
 
 > [!NOTE]
 > If you enable Enterprise Voice for the Skype Room System conference room account, make sure to configure a restricted Voice Policy suitable for your organization. If the Skype for Business Meeting Room is a publicly available resource, anyone could use it to join a meeting, either scheduled or ad hoc. After joining a meeting, the person could dial out to any number. In Skype for Business Server, the dial-out from conferences feature uses the voice policy of the user, in this case the Skype Room System account used to join the meeting. In earlier versions of Lync Server, the voice policy of the organizer is used. Therefore, if a user of an earlier version of Lync Server schedules a meeting room and invites the Skype Room System room account, anyone could use the Skype for Business Meeting Room to join the meeting and could dial any national/regional or international phone number, as long as the organizer is allowed to dial those numbers. 
-  
-

@@ -1,8 +1,8 @@
 ---
 title: "Create or modify a translation rule for called ID presentation in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -22,7 +22,7 @@ description: "Summary: Learn how to define a translation rule by using the Build
 
 **Summary:** Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server.
 
-Follow these steps if you want to define a translation rule by entering a set of values in the **Build a Translation Rule** tool and enabling Skype for Business Server Control Panel to generate the corresponding matching pattern and translation rule for you. Alternatively, you can a write regular expression manually to define the matching pattern and translation rule. For details, see [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
+Follow these steps if you want to define a translation rule by entering a set of values in the **Build a Translation Rule** tool and enabling Skype for Business Server Control Panel to generate the corresponding matching pattern and translation rule for you. Alternatively, you can a write regular expression manually to define the matching pattern and translation rule. For details, see [Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually).
 
 ### To define a rule by using the Build a Translation Rule tool
 
@@ -105,4 +105,3 @@ Follow these steps if you want to define a translation rule by entering a set of
 [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md)
 
 [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md)
-

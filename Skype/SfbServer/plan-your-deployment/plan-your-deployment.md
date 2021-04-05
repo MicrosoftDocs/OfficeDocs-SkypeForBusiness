@@ -1,8 +1,8 @@
 ---
 title: "Plan for your Skype for Business Server 2015 deployment"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/21/2018
 audience: ITPro
@@ -49,7 +49,7 @@ The following articles about how to plan for Skype for Business Server are avail
 |**[Plan to integrate Skype for Business and Exchange](integrate-with-exchange/integrate-with-exchange.md)** Does your organization deploy both Exchange Server and Skype for Business Server? If so, read bout how you can integrate features of both products. For example, presence information and archiving of data. <br/> |**[Plan for clients and devices](clients-and-devices/clients-and-devices.md)** Skype for Business Server supports a collection of client interfaces that you can deploy to your organization's users. Thoughtful planning ensures that employees get what they need and that Skype for Business is available to them wherever they happen to be. <br/> |
 |**[Plan for Persistent Chat Server in Skype for Business Server 2015](persistent-chat-server/persistent-chat-server.md)** Does you organization want to implement chat rooms that let multiple users in your organization participate in conversations that persist over time? If so read about how you can plan and deploy Persistent Chat Server. <br/> |**[Plan for high availability and disaster recovery in Skype for Business Server 2015](high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** High availability refers to making sure that Skype for Business Server services are available even if one or more servers goes down. Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible. Read the topics in this sectino to plan for high availability and disaster recovery. <br/> |
 |**[Plan for conferencing in Skype for Business Server 2015](conferencing/conferencing.md)**  What are the conferencing requirements for your organization? Read about web conferencing, A/V conferencing, and dial-in conferencing features and requirements. <br/> |**[Plan for security in Skype For Business Server 2015](security/security.md)** Find resources about user authentication, server-to-server authentication, and application authentication to help you understand and plan for authentication in Skype for Business Server. <br/> |
-|**[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  Do you have users who are homed on both on-premises Skype for Business Server and Skype for Business Online? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain. <br/> ||
+|**[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)**  Do you have users who are homed on both on-premises Skype for Business Server and Skype for Business Online? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain. <br/> ||
 |**[Plan for Edge Server deployments in Skype for Business Server 2015](edge-server-deployments/edge-server-deployments.md)**  Does your organization communicate with users outside of your internal network? If so, read about how you can deploy Edge Server to support communications across your organization's firewall. <br/> ||
    
 ## Additional resources about planning for Skype for Business Server
@@ -58,6 +58,6 @@ The following resources about how to plan for Skype for Business Server are avai
   
 ||**Content**|**Description**|
 |:--- |:--- |:--- |
-|![Icon for Docs](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visit the resource center to access videos, community sites, documentation, downloads, and more.  <br/> |
-|![Icon for developer content](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Developer Platform](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Find developer resources for Skype for Business Server, including code samples, training, and SDKs.  <br/> |
+|![Icon for Docs](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](../../Hub/index.yml) <br/> |Visit the resource center to access videos, community sites, documentation, downloads, and more.  <br/> |
+|![Icon for developer content](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Developer Platform](/skype-sdk/skypedeveloperplatform) <br/> |Find developer resources for Skype for Business Server, including code samples, training, and SDKs.  <br/> |
 |![Icon for news, blogs, and so on](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change management and adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Keep up with news from the teams that create and document Skype for Business Server.  <br/> |

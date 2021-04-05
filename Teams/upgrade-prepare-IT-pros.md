@@ -28,8 +28,8 @@ appliesto:
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Your Microsoft 365 or Office 365 organization admins, technical leads, and support desk are accountable for driving a high-quality user experience. This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.
@@ -37,7 +37,7 @@ Your Microsoft 365 or Office 365 organization admins, technical leads, and suppo
 Share the following resources with your IT staff members, and confirm that they're ready to support users before you begin your upgrade to Teams:
 
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
-- [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+- [Contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products)
 - [Troubleshoot connectivity issues with the Microsoft Teams client](connectivity-issues.md)
 - [Use log files in troubleshooting Microsoft Teams](log-files.md)
 

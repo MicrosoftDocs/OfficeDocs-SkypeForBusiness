@@ -1,7 +1,7 @@
 ---
 title: Upgrade checklist| Skype Business to Teams Upgrade | Basic Steps
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -43,7 +43,7 @@ What happens to Skype for Business after the upgrade? After your users are upgra
 - If users try to sign in to Skype for Business, they get a notification from their client that they've been upgraded to Teams.
 - Users need to manually uninstall the Skype for Business client on their mobile devices.
 
-See our [FAQ](https://aka.ms/SkypeToTeams-FAQ) for additional questions about your upgrade.
+See our [FAQ](./faq-journey.yml) for additional questions about your upgrade.
 
 Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Microsoft 365 and Office 365.
 
@@ -95,7 +95,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 **Resources:**
 
-- [Microsoft 365 reports in the admin center](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
+- [Microsoft 365 reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports)
 
 [Return to top](#about-upgrade-basic)
 

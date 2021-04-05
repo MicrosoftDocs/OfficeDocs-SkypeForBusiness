@@ -1,7 +1,7 @@
 ---
 title: Upgrade Skype for Business on-premises to Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -29,12 +29,12 @@ appliesto:
 This article is part of the Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
+- [Prepared your environment](./upgrade-prepare-environment.md)
+- [Prepared your organization](./upgrade-prepare-organization.md)
+- [Conducted a pilot](./pilot-essentials.md)
 
 Follow the guidance in this article if you've deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Microsoft Teams either selectively—by using multiple coexistence modes—or all-in. 
 
@@ -63,4 +63,4 @@ Transitioning from on-premises phone systems to Teams will allow you to take adv
 
 If you're not using Calling Plans, you need to transition your enterprise voice deployment to Phone System Direct Routing as part of your upgrade to Teams.
 
-For more information, see [additional considerations for Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing). If you are planning to use Calling Plans, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+For more information, see [additional considerations for Phone System Direct Routing](./direct-routing-landing-page.md). If you are planning to use Calling Plans, please refer to our guidance for [transferring your phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

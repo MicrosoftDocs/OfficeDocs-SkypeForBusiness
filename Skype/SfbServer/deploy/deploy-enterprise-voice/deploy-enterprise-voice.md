@@ -1,8 +1,8 @@
 ---
 title: "Deploy Enterprise Voice in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -22,7 +22,7 @@ description: "Summary: Learn how to deploy Enterprise Voice for Skype for Busine
 
 **Summary:** Learn how to deploy Enterprise Voice for Skype for Business Server at a central site.
 
-Use this topic to deploy Enterprise Voice at a central site. To deploy Enterprise Voice at a branch site, skip to [Deploying Branch Sites](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
+Use this topic to deploy Enterprise Voice at a central site. To deploy Enterprise Voice at a branch site, skip to [Deploying Branch Sites](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites).
 
 This section includes procedures for deployments in which a Mediation Server is collocated on each Front End Server or Standard Edition server, as recommended, and also for deployments with a stand-alone Mediation Server pool.You can skip the following content if you used Topology Builder to define and publish a topology that collocates a Mediation Server on each Front End Server or Standard Edition server, because Deployment Wizard already automatically installed the files for Mediation Server when you installed files for your Front End Server pool or Standard Edition server:
 ## In this section
@@ -58,4 +58,3 @@ This section includes procedures for deployments in which a Mediation Server is 
 ## See also
 
 [Plan for Enterprise Voice in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
-

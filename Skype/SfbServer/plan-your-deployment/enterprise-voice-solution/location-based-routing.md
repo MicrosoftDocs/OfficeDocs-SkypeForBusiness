@@ -1,8 +1,8 @@
 ---
 title: "Plan for Location-Based Routing in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -234,7 +234,7 @@ The following table identifies the clients that Location-Based Routing supports.
 |Lync Mobile 2010  <br/> |yes  <br/> ||
 
 > [!NOTE]
-> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
 ## Capabilities not supported by Location-Based Routing
 
@@ -258,6 +258,4 @@ To enforce Location-Based Routing rules to the types of interactions in the foll
 
 - Consultative transfers involving PSTN endpoints
 
-To enable Location-Based Routing for Conferencing, see [Location-Based Routing for Conferencing](https://technet.microsoft.com/library/e1acb1ba-0ed2-4abf-8a7b-1ca3049e95e3.aspx).
-
-
+To enable Location-Based Routing for Conferencing, see [Location-Based Routing for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-location-based-routing-for-conferencing).

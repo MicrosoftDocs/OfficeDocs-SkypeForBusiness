@@ -1,8 +1,8 @@
 ---
 title: "Modify SIP trunk configuration settings in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -48,7 +48,7 @@ When modifying SIP trunk configuration settings using the Skype for Business Ser
 |||
 
 > [!Note]
-> The Skype for Business Server CsTrunkConfiguration cmdlets support additional properties not shown in the Skype for Business Server Control Panel. For more information, see the help topic for the [Set-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet. 
+> The Skype for Business Server CsTrunkConfiguration cmdlets support additional properties not shown in the Skype for Business Server Control Panel. For more information, see the help topic for the [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet. 
 
 **To modify SIP trunk configuration settings by using the Skype for Business Server Control Panel**
 

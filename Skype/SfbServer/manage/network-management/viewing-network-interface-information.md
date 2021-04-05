@@ -1,8 +1,8 @@
 ---
 title: 'Viewing network interface information'
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -35,6 +35,4 @@ You can view network interface information by using Windows PowerShell and the *
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
-
-
+    For details, see [Get-CsNetworkInterface](/powershell/module/skype/Get-CsNetworkInterface).

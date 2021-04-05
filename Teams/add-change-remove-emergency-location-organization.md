@@ -1,7 +1,7 @@
 ---
 title: "Add, change, remove emergency locations"
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -26,7 +26,7 @@ An emergency location must be associated with a phone number, but when this happ
 
 No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location. Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices. See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
   
-To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
@@ -47,7 +47,7 @@ You manage emergency locations for your organization in the Microsoft Teams admi
 
 ### Using PowerShell
 
-See [New-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress).
+See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).
     
 ## Change an emergency location
 
@@ -63,7 +63,7 @@ See [New-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/s
 
 ### Using PowerShell
 
-See [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress).
+See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
     
 ## Remove an emergency location
 
@@ -74,11 +74,11 @@ See [Set-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/s
 
 ### Using PowerShell
 
-See [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).
+See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).
 
 ## Related topics
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+- [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)

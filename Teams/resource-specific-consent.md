@@ -1,7 +1,7 @@
 ---
 title: Resource-specific consent in Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 ms.reviewer: nkramer
 manager: serdars
 ms.topic: article
@@ -41,11 +41,11 @@ This setting controls whether users in your organization can consent to apps on 
 1. In the Azure portal, go to **Enterprise applications** > **User settings**.
 2. Under **Enterprise applications**, set **Users can consent to apps accessing company data on their behalf** to **No** or **Yes**.
 
-You can also manage this setting using PowerShell. To learn more, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
+You can also manage this setting using PowerShell. To learn more, see [Configure user content to applications](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
 #### The "EnableGroupSpecificConsent" setting
 
-This setting controls whether users in your organization can consent to apps accessing company data for the groups that they own. This setting must be enabled for team owners to give consent. For steps on how to manage this setting by using PowerShell, see [Configure group owner consent to apps accessing group data](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
+This setting controls whether users in your organization can consent to apps accessing company data for the groups that they own. This setting must be enabled for team owners to give consent. For steps on how to manage this setting by using PowerShell, see [Configure group owner consent to apps accessing group data](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).
 
 ### Settings in the Microsoft Teams admin center
 
@@ -90,7 +90,7 @@ When uploading a custom app (also known sideloading) that uses resource-specific
 
 ## Related topics
 
-- [Available RSC permissions](https://aka.ms/teams-rsc)
+- [Available RSC permissions](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)

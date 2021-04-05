@@ -45,7 +45,6 @@ description: Learn about dialing toll-free numbers in China north, including ava
 ## Related topics
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

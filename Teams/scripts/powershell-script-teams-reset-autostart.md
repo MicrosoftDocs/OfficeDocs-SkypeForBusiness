@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Reset the autostart setting in Teams
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -145,4 +145,4 @@ if($null -eq $teamsProc) {
 ## Related topics
 
 - [Install Teams using MSI](../msi-deployment.md)
-- [Deploy Teams with Microsoft 365 Apps for enterprise](https://docs.microsoft.com/deployoffice/teams-install)
+- [Deploy Teams with Microsoft 365 Apps for enterprise](/deployoffice/teams-install)

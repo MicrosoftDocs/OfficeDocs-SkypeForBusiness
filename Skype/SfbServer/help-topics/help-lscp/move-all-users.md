@@ -1,8 +1,8 @@
 ---
 title: "Move All Users"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -21,6 +21,4 @@ description: "On the Move Users dialog, you can select the source and destinatio
 
 On the **Move Users** dialog, you can select the source and destination pools for moving user accounts from one pool to another in your deployment.
 
-For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).
-
-
+For more information about moving users, see [Move Users to Another Pool](/previous-versions/office/lync-server-2013/lync-server-2013-move-users-to-another-pool).

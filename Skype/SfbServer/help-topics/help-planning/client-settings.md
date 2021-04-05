@@ -1,8 +1,8 @@
 ---
 title: "Client Settings (Planning Tool)"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -20,6 +20,4 @@ description: "The mobility feature in Skype for Business Server 2015 supports Sk
 
 # Client Settings (Planning Tool)
 
-The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices. For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).
-
-
+The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices. For details, see [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).

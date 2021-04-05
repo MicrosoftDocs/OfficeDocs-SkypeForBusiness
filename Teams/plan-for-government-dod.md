@@ -39,7 +39,7 @@ The Office 365 Government - DoD environment provides compliance with US governme
 
 You can find more information about the Office 365 Government – DoD offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-The [Office 365 US Government service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform's benefits, which are centered on meeting compliance requirements within the United States.
+The [Office 365 US Government service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform's benefits, which are centered on meeting compliance requirements within the United States.
 
 
 > [!Tip]
@@ -71,7 +71,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 To accommodate the requirements of our government cloud customers, there are some differences between Teams in Office 365 Government - DoD and Teams in the Enterprise plans. Refer to the following table to see which features are available.
 
-[Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+[Microsoft Teams service description](/office365/servicedescriptions/teams-service-description)
 
 ## Step 5. Plan for governance
 
@@ -83,6 +83,9 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 
 ## Step 6. Deploy Teams for collaboration
 
-After you've been onboarded to Office 365 Government – DoD, follow the recommended deployment path outlined in [How to roll out Microsoft Teams](How-to-roll-out-teams.md). Be sure to engage with your Adoption and Change Management team and Teams champions.
+After you've been onboarded to Office 365 Government – DoD, follow the recommended deployment path outlined in [How to roll out Microsoft Teams](./deploy-overview.md). Be sure to engage with your Adoption and Change Management team and Teams champions.
 
 You can also work with [FastTrack](https://www.microsoft.com/fasttrack) or your chosen partner to onboard the service.
+
+> [!NOTE]
+> The Mac Teams client for DOD environments is not yet supported.

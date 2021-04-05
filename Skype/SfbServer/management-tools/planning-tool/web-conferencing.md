@@ -1,8 +1,8 @@
 ---
 title: "Web Conferencing (Planning Tool)"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -21,7 +21,7 @@ description: "Skype for Business Server 2015 web conferencing includes document 
 Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing.
   
 > [!NOTE]
-> Skype for Business Server 2015 uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations. Web conferencing features function exactly the same as they do in Microsoft Lync 2013. For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype for Business Server 2015 uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations. Web conferencing features function exactly the same as they do in Microsoft Lync 2013. For details about installing and configuring the Office Web Apps Server, see [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013). 
   
 For planning details about enabling web conferencing in your organization, see the following topics: 
   
@@ -32,5 +32,3 @@ For planning details about enabling web conferencing in your organization, see t
 - [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
 - [Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
-    
-

@@ -1,7 +1,7 @@
 ---
 title: Manually submit a port order
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -36,7 +36,7 @@ To manually submit a new port order, send your completed Letter of Authorization
 
 ## What else should you know about number porting
 
-- To use Calling Plans you must purchase and assign licenses to your users. See [Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+- To use Calling Plans you must purchase and assign licenses to your users. See [Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - You must assign the new phone numbers you have to each of your users. See [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
 

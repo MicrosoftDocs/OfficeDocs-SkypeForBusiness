@@ -36,12 +36,12 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
   
 ## Step 2: Buy and assign licenses
-1. If the Phone System feature isn't included in your Microsoft 365 or Office 365 plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). See [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing), and buy the licenses and plan. 
+1. If the Phone System feature isn't included in your Microsoft 365 or Office 365 plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md). See [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md), and buy the licenses and plan. 
     
     > [!TIP]
     > **Phone System** licenses and Calling Plans in Microsoft 365 or Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
   
-2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams add-on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+2. First assign the licenses, and then assign a Calling Plan to the people in your organization. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 ## Step 3: Get phone numbers
 There are three ways to get new user numbers:
@@ -82,15 +82,15 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
 
 If you know Windows PowerShell, you can use the following cmdlets to automate assigning phone numbers to your users. 
   
-- [Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsOnlineTelephoneNumber?redirectedfrom=MSDN&view=skype-ps): Retrieves the telephone numbers from the Business Voice Directory.
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps): Retrieves the telephone numbers from the Business Voice Directory.
     
-- [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?redirectedfrom=MSDN&view=skype-ps): Sets the telephone numbers.
+- [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): Sets the telephone numbers.
     
 To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
   
 
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -105,4 +105,3 @@ To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
 [Teams: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

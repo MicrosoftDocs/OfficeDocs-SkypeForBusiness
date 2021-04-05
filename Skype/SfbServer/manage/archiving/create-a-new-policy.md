@@ -1,8 +1,8 @@
 ---
 title: "Create a new archiving policy in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -53,7 +53,7 @@ To create a new archiving policy by using the Control Panel:
   
 ## Create a new archiving policy by using Windows PowerShell
 
-You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet. For more information, see the help topic for the [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.
+You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet. For more information, see the help topic for the [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.
   
 ### To create a new archiving policy at the site level
 

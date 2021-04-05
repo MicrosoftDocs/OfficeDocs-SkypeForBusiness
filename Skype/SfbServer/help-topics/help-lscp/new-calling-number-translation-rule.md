@@ -1,8 +1,8 @@
 ---
 title: "New Calling Number Translation Rule"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -23,8 +23,6 @@ You can use the **New Trunk Configuration**: **New Calling Number Translation Ru
 
 1. [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-2. [Trunk Configuration and Translation Rules](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [Trunk Configuration and Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks)
 
-3. [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-
-
+3. [Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

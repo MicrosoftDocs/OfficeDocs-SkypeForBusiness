@@ -1,7 +1,7 @@
 ---
 title: Teams policy packages for government
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -41,8 +41,8 @@ Teams currently includes the following policy packages for government.
 |Package name in the Microsoft Teams admin center|Best used for|Description |
 |---------|---------|---------|
 |Public safety officer  |Public safety officers in your government organization  |Creates a set of policies and policy settings that apply to public safety officers in your organization. |
-|Firstline manager  |Firstline Managers in your government organization |Creates a set of policies and applies those settings to Firstline Managers in your organization.|
-|Firstline worker  |Firstline Workers in your government organization |Creates a set of policies and applies those settings to Firstline Workers in your organization.|
+|Frontline manager  |Frontline Managers in your government organization |Creates a set of policies and applies those settings to Frontline Managers in your organization.|
+|Frontline worker  |Frontline Workers in your government organization |Creates a set of policies and applies those settings to Frontline Workers in your organization.|
 
 ![Screenshot of healthcare policy packages](media/policy-packages-gov.png)
 
@@ -88,7 +88,7 @@ To learn more, see [Assign a policy package to a group](assign-policies.md#assig
 
 #### Assign a policy package to a large set (batch) of users
 
-Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
+Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
 A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
@@ -96,4 +96,4 @@ A batch can contain up to 5,000 users. You can specify users by their object Id,
 
 [Manage policy packages in Teams](manage-policy-packages.md)
 
-[Assign policies to your users in Teams](assign-policies.md) 
+[Assign policies to your users in Teams](assign-policies.md)

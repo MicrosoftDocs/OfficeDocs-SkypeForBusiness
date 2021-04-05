@@ -1,7 +1,7 @@
 ---
 title: Manage Skype for Business settings in the Microsoft Teams admin center
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -37,7 +37,7 @@ You'll only see the **Skype for Business** page if the coexistence mode for your
 > [!NOTE]
 > Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center. With the retirement of the legacy portal, we migrated the settings to these new locations in the Teams admin center for Skype for Business management.
 
-You must be assigned the [Azure AD admin role](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Microsoft Teams admin center.
+You must be assigned the [Azure AD admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Microsoft Teams admin center.
 
 ## Manage Skype for Business settings for your organization
 
@@ -53,7 +53,7 @@ Use the following settings to manage [Skype Meeting Broadcast](https://support.m
 
 :::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Screenshot of Skype Meeting Broadcast settings in the admin center":::
 
-- **Skype Meeting Broadcasts**: Turn this on to enable Skype Meeting Broadcast for your organization. After you enable this feature, you need to [set up your network for Skype Meeting Broadcast](https://docs.microsoft.com/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).
+- **Skype Meeting Broadcasts**: Turn this on to enable Skype Meeting Broadcast for your organization. After you enable this feature, you need to [set up your network for Skype Meeting Broadcast](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast).
 - **See preview features**: Turn this on to get early access to new features.
 - **Organizers can schedule anonymous meetings**: Turn this on if you want to let organizers create broadcast events that allow anyone outside your organization to join without having to sign in. 
 - **Record Skype Meeting Broadcast meetings**: Turn this on to enable organizers and presenters to record meetings.  
@@ -119,4 +119,4 @@ You can configure the following meeting settings for the user.
     - **Audio and video (HD)**: User can use audio and high definition video.
     
 - **Record conversations & meetings**: Turn this on to allow the user to record conversations and meetings.
-- **Compliance**: Turn this on if you're legally required to retain electronically stored information. 
+- **Compliance**: Turn this on if you're legally required to retain electronically stored information.

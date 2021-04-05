@@ -1,8 +1,8 @@
 ---
 title: "Users View or Configure Archiving Policy"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -21,9 +21,8 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Assign a Per-User Archiving Policy](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [Assign a Per-User Archiving Policy](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-archiving-policy)
 
-- [Apply an Archiving Policy to a User or User Group](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [Apply an Archiving Policy to a User or User Group](/previous-versions/office/lync-server-2013/lync-server-2013-applying-an-archiving-policy-to-users)
 
 For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
-

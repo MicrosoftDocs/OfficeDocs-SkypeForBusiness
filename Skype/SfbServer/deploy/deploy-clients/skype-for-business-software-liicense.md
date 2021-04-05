@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System Skype for Business software license"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -28,7 +28,7 @@ From a command prompt, run:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
 For more information, see [How to discover Office and Windows KMS hosts via DNS and remove unauthorized instances](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
-To set up a KMS, see [KMS activation of Office 2013](https://technet.microsoft.com/library/ee624357.aspx) and [GVLKs for KMS and Active Directory activation of Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
+To set up a KMS, see [KMS activation of Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) and [GVLKs for KMS and Active Directory activation of Office 2013](/DeployOffice/vlactivation/gvlks)
   
 Office 2013 Generic Volume License Key for Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (This key causes the Skype Room System to look for a KMS on the network.)
   
@@ -53,5 +53,3 @@ If the customer doesn't have a Volume License Agreement, Skype for Business acti
 - Deployment date
     
 - If the customer has a Microsoft Technical Account Manager, the TAM's name and contact information
-    
-

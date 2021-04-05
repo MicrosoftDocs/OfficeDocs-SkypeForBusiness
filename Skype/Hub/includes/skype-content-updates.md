@@ -2,28 +2,19 @@
 
 
 
-## Week of November 30, 2020
+## Week of March 29, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
+| 3/29/2021 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | modified |
 
 
-## Week of November 16, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/16/2020 | [Phones and Devices for Skype for Business](/SkypeForBusiness/certification/devices-ip-phones) | modified |
-| 11/16/2020 | [Meeting room devices and solutions](/SkypeForBusiness/certification/devices-meeting-rooms) | modified |
-| 11/16/2020 | [Partner qualification for Lync - Meeting room devices and solutions](/SkypeForBusiness/lync-cert/meeting-room-devices) | modified |
-| 11/17/2020 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
-
-
-## Week of November 02, 2020
+## Week of March 15, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 11/3/2020 | [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions) | modified |
-| 11/3/2020 | [Plan hybrid connect \| Skype for Business Server 2019 and Microsoft 365 or Office 365 integration](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
+| 3/16/2021 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
+| 3/18/2021 | [Disable hybrid to complete migration to the cloud](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid) | modified |
+| 3/18/2021 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |

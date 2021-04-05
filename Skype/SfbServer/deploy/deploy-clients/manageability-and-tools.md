@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System manageability and tools"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -45,7 +45,7 @@ See the following article for more details:
   - Skype for Business Health Analysis Tool (Excel)    
   - Skype for Business Connectivity Analyzer 32-Bit or 64-Bit
     
-- Review [Useful new troubleshooting and analysis tools for Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirm you have a Skype for Business pool and an Office Web Apps server and can share a PowerPoint deck using the Skype for Business client.
+- Review [Useful new troubleshooting and analysis tools for Office 365](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365). Confirm you have a Skype for Business pool and an Office Web Apps server and can share a PowerPoint deck using the Skype for Business client.
     
 - If the meeting room already has a resource mailbox, enable it for Skype for Business.
     
@@ -130,5 +130,3 @@ Import the .crl files on the Skype Room System under the Intermediate Certificat
 Note: The Office Web Apps 2013 server may share the same CA as Skype for Business. If it doesn't you won't be able to share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
   
 Domain membership can simplify some things because you can treat the Skype Room System as a Windows system and it can rely on Active Directory for some of the certificate aspects. However, it's best to manually manage this.
-  
-

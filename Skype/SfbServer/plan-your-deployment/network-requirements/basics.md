@@ -1,8 +1,8 @@
 ---
 title: "DNS basics"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,7 +16,7 @@ description: "Windows Server 2016 has built-in software that can provide DNS ser
 
 # DNS basics
  
-Windows Server 2016 has built-in software that can provide DNS services, so you may want to review the available documentation such as the [DNS Policy Scenario Guide](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide). You can choose a third-party solution if you prefer.
+Windows Server 2016 has built-in software that can provide DNS services, so you may want to review the available documentation such as the [DNS Policy Scenario Guide](/windows-server/networking/dns/deploy/dns-policy-scenario-guide). You can choose a third-party solution if you prefer.
   
 We recommend that as a best practice you dedicate a specific server in your implementation to provide DNS. You could potentially set it up on one of the servers dedicated to one of the Skype for Business server roles, but if that server was also part of a pool and got decommissioned by accident Skype for Business would malfunction until DNS services were re-established.
   
@@ -54,5 +54,3 @@ An organization's SIP domain name usually aligns with the email addresses given 
 You can use DNS to share traffic load among several servers that are set up as a server pool. To do this, you would create several A records for the pool's FQDN, each of which points to the IP address of a node in the pool.
   
 See [DNS load balancing](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSLB) for additional discussions of load balancing.
-  
-

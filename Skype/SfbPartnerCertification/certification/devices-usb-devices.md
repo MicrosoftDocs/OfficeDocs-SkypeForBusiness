@@ -28,7 +28,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 [Explore devices tested and certified for Skype for Business.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 > [!TIP]
-> Looking for certified devices for Microsoft Teams? Check out [USB audio and video devices certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/usb-devices).
+> Looking for certified devices for Microsoft Teams? Check out [USB audio and video devices certified for Microsoft Teams](/microsoftteams/devices/usb-devices).
 
 ## Device qualifications
 ##### *Updated August 2020*

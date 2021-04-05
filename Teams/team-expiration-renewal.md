@@ -1,7 +1,7 @@
 ---
 title: Team expiration and renewal in Microsoft Teams
-author: LanaChin    
-ms.author: v-lanac
+author: cichur    
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -21,7 +21,7 @@ appliesto:
 
 Organizations with a large number of teams often have teams that are never actually used. This can happen because of several reasons including product experimentation, short-term team collaboration, or team owners leaving the organization. Over time, such teams can accumulate and create a burden on tenant resources.  
 
-To curb the number of unused teams, as an admin, you can use [Microsoft 365 group expiration policy](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) to automatically clean up unused teams. Because teams are backed by groups, group expiration policies automatically apply to teams as well.
+To curb the number of unused teams, as an admin, you can use [Microsoft 365 group expiration policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) to automatically clean up unused teams. Because teams are backed by groups, group expiration policies automatically apply to teams as well.
 
 When you apply an expiration policy to a team, a team owner receives a notification for team renewal 30 days, 15 days and 1 day before the team's expiration date. When the team owner receives the notification, they can click **Renew now** in team settings to renew the team.
 

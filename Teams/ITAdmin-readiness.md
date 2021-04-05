@@ -1,8 +1,8 @@
 ---
 title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -26,8 +26,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![An icon depicting a hand and an upward arrow](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Get started fast with a couple of teams and channels](/MicrosoftTeams/get-started-with-teams-quick-start) | ![An icon depicting two users](https://docs.microsoft.com/office/media/icons/users-people.png) | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![An icon depicting a check mark](https://docs.microsoft.com/office/media/icons/success-teams.png) | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Tasks clipboard symbol](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](https://aka.ms/TeamsChalkTalks) |
+| ![An icon depicting a hand and an upward arrow](/office/media/icons/get-started-teams.png) | [Get started fast with a couple of teams and channels](./get-started-with-teams-quick-start.md) | ![An icon depicting two users](/office/media/icons/users-people.png) | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![An icon depicting a check mark](/office/media/icons/success-teams.png) | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Tasks clipboard symbol](/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml) |
 
 <h2>Technical training</h2>
 
@@ -79,6 +79,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Configuring and deploying Microsoft Teams meetings                          | Step through the process of deploying the meetings workload for Microsoft Teams.                                                                                                                                       |  [Configuring and deploying Microsoft Teams meetings guide](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configure Audio Conferencing for Microsoft Teams                            | Discover the capabilities of Audio Conferencing in Teams and learn how to assign conference bridges and dial-in phone numbers.                                                                                          |  [Configuring audio conferencing for Microsoft Teams guide](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Configuring Microsoft Teams for Firstline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Firstline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Firstline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Deploying Microsoft Teams Rooms                           | Learn how to create and configure an account to use with Microsoft Teams Rooms and manage the device in Microsoft Teams admin center.                                                                                                                  | [Deploying Microsoft Teams Rooms](https://aka.ms/teamsroomslab)              |
 
 <h2>Quick start guides</h2>
 
@@ -93,5 +94,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Courses</h2>
 
-- [Enabling Teamwork with Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
-- [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
+- [Enabling Teamwork with Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
+- [Microsoft Service Adoption Specialist](/learn/paths/m365-service-adoption/)
