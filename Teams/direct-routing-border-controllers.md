@@ -22,27 +22,23 @@ ms.custom: seo-marvel-apr2020
 
 # List of Session Border Controllers certified for Direct Routing
 
-Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs work with Direct Routing. 
+Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs work with Direct Routing.
 
 Microsoft works with each vendor to:
 
 - Jointly work on the SIP interconnection protocols.
-- Perform intense tests using a third-party lab. Only devices that pass the tests are certified. 
-- Run daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud will work with certified SBCs. 
+- Perform intense tests using a third-party lab. Only devices that pass the tests are certified.
+- Run daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud will work with certified SBCs.
 - Establish a joint support process with the SBC vendors.
-
 
   > [!NOTE]
   > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to engage the SBC vendor for support.
 
-The table below lists devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
+The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
 [Learn more about Direct Routing](https://aka.ms/dr). 
 If you have any questions about the SBC certification program for Direct Routing, please contact drsbccertification@microsoft.com.
 <br/>
-<br/>
-
-### First tables set
 
 #### [**AudioCodes**](#tab/AudioCode/)
 
@@ -74,9 +70,6 @@ If you have any questions about the SBC certification program for Direct Routing
 |                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | Validated with E911 providers | ELIN capable
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |    
-
-* * *
-### next tables
 
 #### [Oracle](#tab/Oracle/)
 |                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | Validated with E911 providers | ELIN capable
