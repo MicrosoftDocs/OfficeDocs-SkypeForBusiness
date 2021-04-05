@@ -25,7 +25,7 @@ To move from using Skype for Business Online Connector to the Teams PowerShell m
    |-------------------------------------- |-------------------------------|-----------------------------------------------------------------|
    | Import-Module SkypeOnlineConnector    | Import-Module MicrosoftTeams  |                                                                 |
    | Import-Module LyncOnlineConnector     | Import-Module MicrosoftTeams  |                                                                 |
-   | $session = New-CsOnlineSession <br> Import-PsSession -Session $session    | Connect-MicrosoftTeams        | using New-CsOnlineSession and importing session is optional at this time and will be deprecated in the future                  |
+   | $session = New-CsOnlineSession <br> Import-PsSession -Session $session    | Connect-MicrosoftTeams        | Using New-CsOnlineSession and importing session is optional at this time and will be deprecated in the future.                  |
    | Enable-CsOnlinesessionForReconnection | -Remove it-                   | Reconnections are now made automatically and this cmdlet is no longer needed, thus it is removed from the module.  |
 
 ## Related topics
