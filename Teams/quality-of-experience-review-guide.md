@@ -661,7 +661,7 @@ We [recommend](proxy-servers-for-skype-for-business-online.md) that you always b
 
 The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can quickly determine which proxy needs to be configured for media bypass.
 
-Verify that the required [Microsoft 365 or Office 365 FQDNs](/microsoft-365/enterprise/urls-and-ip-address-ranges) are whitelisted in your proxy.
+Verify that the required [Microsoft 365 or Office 365 FQDNs](/microsoft-365/enterprise/urls-and-ip-address-ranges) are add to an allowlist in your proxy.
 
 ## Endpoint investigations
 

@@ -34,6 +34,12 @@ Share to Teams from Outlook allows you to send a copy of email messages or conve
 
 Microsoft Teams provides app customization to enhance the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app properties based on the organizational needs using the Teams admin center Manage apps page. [Learn more](../customize-apps.md).
 
+## March 29, 2021
+
+### Remote provisioning and sign-in for Teams Android devices
+
+IT admins can remotely provision and sign in to a Teams Android device. To provision a device remotely, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center. [Learn more](../devices/remote-provision-remote-login.md).
+
 ## March 24, 2021
 
 ### Enable live transcripts in Teams
@@ -50,6 +56,10 @@ Supervised chat allows designated educators to initiate chats with students and 
 ### Masking phone numbers
 
 We released a new admin setting for masking phone numbers for dial-in participants when they join a meeting. Admins can choose to mask phone numbers from everyone in the meeting (except the organizer), from external people only or have masking disabled. If the admins choose to have this setting disabled, the phone numbers will be displayed fully in the meeting. [Learn more](../ptsn-mask-phone-numbers.md).
+
+### Create a phone system auto attendant
+
+Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell. [Learn more](../create-a-phone-system-auto-attendant.md).
 
 ## March 1, 2021
 
