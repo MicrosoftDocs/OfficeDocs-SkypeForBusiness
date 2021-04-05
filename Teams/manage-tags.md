@@ -94,7 +94,7 @@ To delete a tag, select **˙˙˙ More options** next to the tag, and then select
 
 ### Set up tagging by shift
 
-Tagging by shift allows your users to reach the people on-shift in real time. Teams automatically assigns users with tags matching their schedule and shift group name from the Shifts app, enabling dynamic role based messaging. Notifications are sent only to those people who are on shift at the time a tag is used to start a chat or in a channel post. 
+Tagging by shift allows your users to reach the people on-shift in real-time. Teams automatically assigns users with tags matching their schedule and shift group name from the Shifts app, enabling dynamic role-based messaging. Notifications are sent only to those people who are on shift at the time a tag is used to start a chat or in a channel post. 
 
 1. In Teams, go to the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
 2. Create [shift groups](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) and name them after an attribute such as a role. For example, EngineerOnCall. The shift group name will be the name of the tag.
