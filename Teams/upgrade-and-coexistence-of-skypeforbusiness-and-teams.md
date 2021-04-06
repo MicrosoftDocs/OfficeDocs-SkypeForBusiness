@@ -57,7 +57,7 @@ To help guide your decision-making process, familiarize yourself with the variou
 
 A user that has been migrated to Teams no longer uses a Skype for Business client except to join a meeting hosted in Skype for Business. All incoming chats and calls land in the user's Teams client, regardless of whether the sender uses Teams or Skype for Business. Any new meetings organized by the upgraded user will be scheduled as Teams meetings. If the user attempts to use the Skype for Business client, initiation of chats and calls is blocked<sup>1</sup>. However, the user can (and must) still use the Skype for Business client to join meetings they are invited to.
 
-Administrators manage their transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md), which is a property of [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). A user that has been migrated to Teams as described above is in "TeamsOnly" mode. For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
+Administrators manage their transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md), which is a property of [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true). A user that has been migrated to Teams as described above is in "TeamsOnly" mode. For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
 
 There are two methods for migrating an existing organization with Skype for Business (whether online or on-premises) to Teams:
 
@@ -108,7 +108,7 @@ The following table summarizes the Teams experience for both Islands mode and Te
 | Incoming chats and calls received in:|  Teams or Skype for Business | Teams |
 | PSTN calls received in: | Skype for Business <br>(Using PSTN functionality in Teams is not supported in Islands mode.)     | Teams |   
  |Presence    | Presence in Skype for Business and Teams is independent. Users may see different states for the same Islands user, depending on which client they use. | Presence is based solely on the user's activity in Teams. All other users, regardless of which client they use, see that presence. | 
- | Meeting scheduling    | Users can schedule meetings in either Teams or Skype for Business. By default, they will see both add-ins in Outlook. You can set a Teams meeting policy to control whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins. To learn more, see [set the meeting provider for users in Islands mode](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Users only schedule meetings in Teams. Only the Teams add-in is available in Outlook. | 
+ | Meeting scheduling    | Users can schedule meetings in either Teams or Skype for Business. By default, they will see both add-ins in Outlook. You can set a Teams meeting policy to control whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins. To learn more, see [set the meeting provider for users in Islands mode](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode). |     Users only schedule meetings in Teams. Only the Teams add-in is available in Outlook. | 
 
 The following table summarizes the pros and cons of using the overlapping capabilities method to migrate your organization to Teams.
 
@@ -207,6 +207,6 @@ After you've chosen the best upgrade journey for your organization, [perform you
 
 [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)
 
 [Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
