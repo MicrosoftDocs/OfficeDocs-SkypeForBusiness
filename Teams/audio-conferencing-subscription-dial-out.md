@@ -72,11 +72,11 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
 
   - Billing Administrator
   - Skype for Business Administrator
-  - Company Administrator
-  - User Account Administrator
+  - Global Administrator 
+  - User Administrator
   - Helpdesk Administrator
   - Service Support Administrator
-  - Device Administrators
+  - Azure AD Joined Device Local Administrator 
   - Application Administrator
   - License Administrator
   - Cloud Device Administrator
@@ -85,7 +85,7 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
   - Teams Communications Administrator
   - Teams Communications Support Engineer
   - Teams Communications Support Specialist
-  - Teams Service Administrator
+  - Teams Administrator
 
 For additional information on Communication Credits, see [Communications Credits](what-are-communications-credits.md).
 
