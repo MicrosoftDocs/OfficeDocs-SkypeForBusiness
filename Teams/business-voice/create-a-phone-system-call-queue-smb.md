@@ -92,7 +92,7 @@ You can create a resource account in the Teams admin center.
 
 2. Click **Add**.
 
-3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**.
+3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**. Agents will see the display name when they receive an incoming call from the queue.
 
     ![Screenshot of add resource account user interface](../media/resource-account-add-cq.png)
 
@@ -120,7 +120,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 1. In the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
-1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
+1. Type a name for the call queue.
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
 
