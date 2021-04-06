@@ -157,7 +157,7 @@ Users can change the order of their pinned apps on Teams desktop and mobile clie
 
 #### Does user pinning take precedence
 
-Admin pins always take precedence. If the **Allow user pinning** option is turned on, then users will retain their pinned apps below admin pinned apps. If the **Allow user pinning** option is turned off, then users will lose their pre-existing pins and only admin pinned apps will be present in the app bar.
+Admin pins always take precedence. If the **Allow user pinning** option is turned on, then users will retain their pinned apps below admin pinned apps. If the **Allow user pinning** option is turned off, then users will lose their pre-existing pins, and only admin-pinned apps will be present in the app bar.
 
 ### Custom Teams apps
 
