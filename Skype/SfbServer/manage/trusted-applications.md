@@ -99,4 +99,4 @@ To view all of your trusted applications, type the following command in the Skyp
         ExUmEnabled            : False
         Enabled                : True
     
-   For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
+   For details, see [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

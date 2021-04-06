@@ -29,7 +29,6 @@ To set up the Teams Learning app (private preview), you'll need to involve:
 
 -	Teams admin center admin
 -	Microsoft 365 admin center admin (that is, a global admin)
--	Knowledge admin (a new role in the Microsoft 365 admin center that a global admin (also known as IT admin or Microsoft 365 admin) can assign to anyone in the organization. This role manages the organization’s learning content sources through the Microsoft 365 admin center.) 
 
 ## Manage the Teams Learning app (private preview) in the Teams admin center
 
@@ -64,26 +63,16 @@ As part of private preview, the Teams Learning app (private preview) is released
 
 ## Configure learning content sources in the Microsoft 365 admin center
 
-The admins for the Microsoft 365 admin center—either by themselves or by assigning the Knowledge admin role to selected individuals in your organization—can manage settings related to the Teams Learning app (private preview) and can configure the learning content sources.
+The admins for the Microsoft 365 admin center can manage settings related to the Teams Learning app (private preview) and can configure the learning content sources.
 
-> [!TIP]
-> The Knowledge admin should be moderately technical and have existing SharePoint admin credentials, preferably someone who is well-versed in the education, learning, training, or employee experience part of the organization.
- 
-The admin selects which learning content sources (such as LinkedIn Learning or SharePoint) will be available in the app. The admin then configures those sources to make sure the content is available for search and discovery and can be browsed by the employees who use the app.
+The admin can select which additional learning content sources (for example, SharePoint or supported third-party content provider sources) will be available to users of the app. The admin then configures those sources to make sure the content is available for search and discovery and can be browsed by the employees who use the app.
 
-### Assign the Knowledge admin role [Optional]
-
-These steps are to be performed by the admin for the Microsoft 365 admin center.
-
-1.	In the left navigation of the Microsoft 365 admin center, go to **Roles**.
-
-2.	On the **Roles** page, on the **Azure AD** tab, select **Knowledge admin**.
- 
-3.	On the **Knowledge admin** page, in the **Assigned Admins** section, select **Add**, and then add the person you choose for the role.
+> [!NOTE]
+>  Users sign in to non-Microsoft and LinkedIn Learning Pro learnings in a browser or embedded viewer. This configured learning is subject to the separate license, privacy and service terms between your organization and the third party, and not the Learning (Preview) terms. Before selecting this learning in Learning (Preview), verify you have an agreement in place for your organization and users.
 
 ### Configure settings for the learning content sources for the app
 
-These steps are to be performed by the Microsoft 365 admin or the Knowledge admin.
+These steps are to be performed by the Microsoft 365 admin.
 
 1.	In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org settings**.
 
@@ -114,7 +103,7 @@ You configure SharePoint as a learning content source for the Teams Learning app
 
 ### Overview
 
-The Knowledge admin provides a site URL to where the Learning Service can create an empty centralized learning content repository in the form of a structured SharePoint list. This list can be used by the organization to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in the Teams Learning app (private preview).
+The admin provides a site URL to where the Learning Service can create an empty centralized learning content repository in the form of a structured SharePoint list. This list can be used by the organization to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in the Teams Learning app (private preview).
 
 ### Permissions
 
@@ -126,7 +115,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 ### Configure SharePoint as a source
 
-These steps are to be performed by Microsoft 365 admin or the Knowledge admin.
+These steps are to be performed by Microsoft 365 admin.
 
 1.	In the left navigation of the Microsoft 365 admin center, go to **Settings**.
  

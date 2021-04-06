@@ -23,13 +23,13 @@ appliesto:
 
 Microsoft Teams is a digital hub that brings conversations, content, and apps together in one place. Because it's built on Office 365, schools benefit from integration with their familiar Office apps and services. Your institution can use Microsoft Teams to create collaborative classrooms, connect in professional learning communities, and communicate with school staff all from a single experience in Office 365 for Education.
 
-To get started, IT administrators need to use the Microsoft 365 Admin Center to [enable Microsoft Teams for your school](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
+To get started, IT administrators need to use the Microsoft 365 Admin Center to [enable Microsoft Teams for your school](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
 Once complete, you must assign licenses to user accounts so your faculty, staff, and students can access Office 365 services, such as Microsoft Teams.
 
 You can assign licenses to user accounts either individually or automatically through group membership. This article will walk you through how to assign Office 365 licenses to an individual or a small set of user accounts via the Microsoft 365 admin center. To assign licenses automatically through group membership, see one of our supporting articles:
 
-- [Office 365 Powershell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Group-based Licensing in Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [Office 365 Powershell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Group-based Licensing in Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 You can assign licenses to users on either the **Licenses** page, or on the **Active Users** page. Which method you use depends on whether you want to assign product licenses to specific users, or assign users licenses to specific products.
 
@@ -39,7 +39,7 @@ You can assign licenses to users on either the **Licenses** page, or on the **Ac
 ## Assign licenses to users on the Licenses page
 
 > [!NOTE]
-> You must be a Global admin, Billing admin, License admin, or User management admin. For more information, see [About Office 365 admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+> You must be a Global admin, Billing admin, License admin, or User management admin. For more information, see [About Office 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 When you use the **Licenses** page to assign licenses, you assign licenses for a specific product for up to 20 users. On the **Licenses** page, you see a list of all the products you have subscriptions for, together with the total number of licenses for each product, how many licenses are assigned, and how many are available.
 

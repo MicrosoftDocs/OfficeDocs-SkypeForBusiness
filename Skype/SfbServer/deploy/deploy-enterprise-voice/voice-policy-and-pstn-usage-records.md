@@ -300,7 +300,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
 
-   - To edit a route that is already associated with this PSTN usage record, highlight the route, and then click **Show details**. For details, see [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+   - To edit a route that is already associated with this PSTN usage record, highlight the route, and then click **Show details**. For details, see [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 
      d. Click **OK**.
 
@@ -316,7 +316,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
      - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
 
-     - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. For details, see [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+     - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. For details, see [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 
      c. Click **OK**.
 
@@ -340,4 +340,3 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md)
 
 [Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md)
-

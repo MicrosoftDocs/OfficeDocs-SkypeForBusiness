@@ -30,6 +30,4 @@ To review Next Steps suggested to complete your topology, click the link **Click
 
 Click **Finish**
 
-For details, see [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx).
-
-
+For details, see [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology).

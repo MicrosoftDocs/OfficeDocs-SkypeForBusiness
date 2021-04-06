@@ -232,7 +232,7 @@ Push notifications are used for mobile applications that support this functional
   
 ### Do you want all your users accessing all Mobility features, or do you want to specify the users who can access these features instead?
 
-We have a table to help with some of the features that are available to all users, and whether they're set that way or not by default. For a complete list, please review [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+We have a table to help with some of the features that are available to all users, and whether they're set that way or not by default. For a complete list, please review [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > The scopes for all these features are Global/Site/User. 
@@ -257,5 +257,3 @@ Either way, the Voice policy you assign needs to have public switched telephone 
   
 > [!NOTE]
 > Mobile users who want to use Click to Join require a Voice policy, along with the related PSTN usage records and voice routes, because when they click on that link on their mobile devices, an outbound call from Skype for Business Server will be the result. 
-  
-
