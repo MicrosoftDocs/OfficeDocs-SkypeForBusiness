@@ -23,29 +23,32 @@ appliesto:
 
 # Azure Sentinel and Microsoft Teams
 
+> [!IMPORTANT]
+> Azure Sentinel now has an integrated connector. For more information, see [Connect Office 365 Logs to Azure Sentinel](/azure/sentinel/connect-office-365). This is the recommended route for collecting these logs and supersedes the collection methods described below.
+
 Teams serves a central role in both communication and data sharing in the Microsoft 365 Cloud. Because the Teams service touches on so many underlying technologies in the Cloud, it can benefit from human and automated analysis not only when it comes to *hunting in logs*, but also in *real-time monitoring of meetings*. Azure Sentinel offers admins these solutions.
 
 > [!NOTE]
-> Need a refresher on Azure Sentinel? [This article](https://docs.microsoft.com/azure/sentinel/overview) is just the thing.
+> Need a refresher on Azure Sentinel? [This article](/azure/sentinel/overview) is just the thing.
 
 ## Sentinel and Microsoft Teams Activity Logs
 
 This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected 3rd party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks, and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
 
 > [!NOTE]
-> More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](https://docs.microsoft.com/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
+> More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
 
 ## Step 1: Collect Teams logs
 
 This section has three parts:
 
-1. Enabling Audit Logs in **Microsoft 365** (M365).
+1. Enabling Audit Logs in **Microsoft 365**.
 2. Registering an App in **Microsoft Azure** to permit authentication and authorization for log collection.
-3. Registering the API subscription that will allow log collection via M365 API via **PowerShell**.
+3. Registering the API subscription that will allow log collection via Microsoft 365 API via **PowerShell**.
 
-### Enable Audit logs in M365
+### Enable Audit logs in Microsoft 365
 
-Because Teams logs activity through M365, audit logs aren't collected by default. Turn on this feature via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0). Teams data is collected in the M365 audit under *Audit.General*.
+Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature via [these steps](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
 
 ### Register an App in Microsoft Azure for log collection
 
@@ -71,7 +74,7 @@ Authenticate and authorize an Azure Active Directory (Azure AD) app to collect l
 
 ### Register the API with PowerShell to collect Teams logs
 
-The final step in setup is to collect and register the API subscription so that you can collect your log data. This is done via PowerShell REST calls to the M365 Management Activity API.
+The final step in setup is to collect and register the API subscription so that you can collect your log data. This is done via PowerShell REST calls to the Microsoft 365 Management Activity API.
 
 Be ready to supply **Application (client) ID**, the new **Client Secret**, your **URL domain for M365**, and **Directory (tenant) ID** values in the PowerShell cmdlet below.
 
@@ -197,7 +200,7 @@ TeamsData
 ```
 
 > [!TIP]
-> To learn more about External and Guest access types in Teams see [this article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations), or the *Participant Types* section in the [Teams Security Guide](https://docs.microsoft.com/microsoftteams/teams-security-guide).
+> To learn more about External and Guest access types in Teams see [this article](./communicate-with-users-from-other-organizations.md), or the *Participant Types* section in the [Teams Security Guide](./teams-security-guide.md).
 
 #### Who recently joined / Whose role changed
 
@@ -433,8 +436,8 @@ SigninLogs
 
 **Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.** Pete Bryan and the people he collaborates with will continue to develop detection and hunting queries for Teams, so keep in touch with this [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) repository for updates.  Monitor for updates to the [parser](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) and [logic app](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) used in this article. You can also join and contribute to the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki). Thank you! Happy hunting.
 
-[Registering your application in Azure AD](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Registering your application in Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+[Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)
 
-[What is Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview)
+[What is Azure Sentinel](/azure/sentinel/overview)

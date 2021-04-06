@@ -22,11 +22,11 @@ localization_priority: Priority
 # Microsoft Teams Public Preview
 
 > [!NOTE]
-> Features included in preview might not be complete, and might undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only.
+> Features included in preview might not be complete, and might undergo changes before becoming available in the public release. They're provided for evaluation and exploration purposes only. Not supported in Office 365 Government Community Cloud (GCC).
 
 Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
 
-For a list of what's available in the Teams public preview, visit [Release Notes for Office Current Channel (Preview)](https://docs.microsoft.com/officeupdates/current-channel-preview).
+For a list of what's available in the Teams public preview, visit [Release Notes for Office Current Channel (Preview)](/officeupdates/current-channel-preview).
 
 ## Set the Update policy
 
@@ -52,5 +52,4 @@ To enable the public preview on a desktop or web client, you need to do the foll
 
 ## Related topics
 
-[Public developer preview](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[Public developer preview](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

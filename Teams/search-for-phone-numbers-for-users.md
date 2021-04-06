@@ -60,20 +60,19 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 8. On the **Get numbers** page, select the phone numbers you want, click **Acquire numbers**, and then click **Next**.
 
     > [!IMPORTANT]
-    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](./how-many-phone-numbers-can-you-get.md)
 
 9. On the **Confirmation** page, verify your choices, and then click **Place order**.
 
 10. When you return to the **Phone numbers** page, select the phone number or numbers that you want to assign and then click **Edit** to assign it to a user.  
 
 ## Related topics
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-

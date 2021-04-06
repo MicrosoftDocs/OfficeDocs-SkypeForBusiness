@@ -61,13 +61,13 @@ The following platforms have virtual desktop infrastructure solutions for Teams.
 
 |Platform|Solution|
 |----|---|
-|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
+|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
 |![The logo representing Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![The logo representing VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### Windows Virtual Desktop
 
-Windows Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd).
+Windows Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Windows Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
 
 ### Citrix Virtual Apps and Desktops requirements
 
@@ -122,7 +122,7 @@ Using Teams in a non-persistent setup also requires a profile-caching manager, f
 > [!NOTE]
 > A roaming folder (or, if you are using folder redirection, a caching manager) is required to ensure that the Teams app has the runtime data and files required to run the application. This is necessary to mitigate network latency issues or network glitches, which would otherwise cause application errors and a slow experience due to unavailable data and files.
 
-There are a variety of caching manager solutions available. For example, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
+There are a variety of caching manager solutions available. For example, [FSLogix](/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
 ##### Teams cached content exclusion list for non-persistent setup
 
@@ -152,7 +152,7 @@ Microsoft 365 Apps for enterprise doesn't support per-machine installations of T
 
 #### How to exclude Teams deployment through Microsoft 365 Apps for enterprise
 
-To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exclude Teams from new installations of Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) and [Use Group Policy to control the installation of Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exclude Teams from new installations of Microsoft 365 Apps for enterprise](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) and [Use Group Policy to control the installation of Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### Deploy the Teams desktop app to the VM
 
@@ -284,21 +284,21 @@ Or, you can also do the following:
 
 #### Assign policies using PowerShell
 
-The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) to assign the DisallowCalling calling policy to a user.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOff meeting policy to a user.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## Migrate Teams on VDI with chat and collaboration to optimize Teams with calling and meetings
 
@@ -340,21 +340,21 @@ Or, you can also do the following:
 
 #### Assign policies using PowerShell
 
-The following example shows how to use the [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) to assign the AllowCalling calling policy to a user.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-The following example shows how to use the [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOn meeting policy to a user.
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the AllOn meeting policy to a user.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## Control fallback mode in Teams
 
@@ -381,6 +381,7 @@ This feature is available in Teams version 1.3.00.13565 and later.
 
 The following calling and meeting features are not supported:
 
+- Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
 - Enhanced emergency services
 - HID buttons and LED controls between the Teams app and devices
 - Background blur and effects
@@ -410,7 +411,7 @@ The following are known issues and limitations for calling and meetings:
     - When screen sharing in a multi-monitor setup, only the main monitor is shared.
     - High DPI scaling on CWA is not supported.
 
-For Teams known issues that aren't related to VDI, see [Support Teams in your organization](Known-issues.md).
+For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
 ## Troubleshooting
 
@@ -428,4 +429,4 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use Microsoft Teams on Windows Virtual desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
+- [Use Microsoft Teams on Windows Virtual desktop](/azure/virtual-desktop/teams-on-wvd)

@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Countries and regions in which Microsoft 365 Business Voice is available.
 appliesto: 
 - Microsoft Teams
 ---
@@ -41,7 +41,7 @@ In countries and regions **without** support for Calling Plans and the Getting S
 
 If your tenant is located in a country or region that doesn't support Calling Plans and the Getting Started Wizard, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
 
-To see what's included in Business Voice with Calling Plan and without Calling Plan, see [Microsoft 365 Business Voice Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+To see what's included in Business Voice with Calling Plan and without Calling Plan, see [Microsoft 365 Business Voice Service Description](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 
 | Country or region    | Business Voice<br> with Calling Plan | Business Voice<br> without Calling Plan<br>(Direct routing) | Getting Started wizard |

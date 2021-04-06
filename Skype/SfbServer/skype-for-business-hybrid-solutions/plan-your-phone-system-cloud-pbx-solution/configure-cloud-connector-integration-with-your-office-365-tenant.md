@@ -21,7 +21,7 @@ description: "Learn how to configure Cloud Connector integration with your Micro
 # Configure Cloud Connector integration with your Microsoft 365 or Office 365 organization
 
 > [!Important] 
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Learn how to configure Cloud Connector integration with your Microsoft 365 or Office 365 organization.
   
@@ -43,7 +43,7 @@ If you are using TLS between Mediation Servers and gateways, you will need to co
     
 3. Import the Root CA certificate for the certificate issued to your gateway on the Mediation Servers. If you need to obtain an SSL certificate for the gateway, you may do this using the Certificate Authority service running on the Cloud Connector Active Directory computer as follows:
     
-   - Modify the existing Web Server template to enable Authenticated users to enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modify the existing Web Server template to enable Authenticated users to enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11)).
     
    - Request a certificate using Certificate snap-in selecting the Web Server template that you have enabled. Be sure to add Common name in Subject and DNS name in Alternative name with FQDN of the gateway, and confirm on the Private Key that Make private key exportable is selected under key options. 
     
@@ -65,7 +65,7 @@ Add the following DNS records to your Microsoft 365 or Office 365 organization. 
   
 ## Set up hybrid connectivity between Cloud Connector Edition and Microsoft 365 or Office 365
 
-To configure hybrid connectivity between your Skype for Business Cloud Connector Edition deployment and your Microsoft 365 or Office 365 organization, run the following cmdlet in a remote PowerShell session. To learn how to establish a remote PowerShell session, see: [Set up your computer for Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
+To configure hybrid connectivity between your Skype for Business Cloud Connector Edition deployment and your Microsoft 365 or Office 365 organization, run the following cmdlet in a remote PowerShell session. To learn how to establish a remote PowerShell session, see: [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 The cmdlet sets the Access Edge external FQDN. In the first of the commands, the \<External Access Edge FQDN\> should be the one for the SIP Access Edge role. By default, this should be ap.\<Domain Name\>.
   
@@ -89,7 +89,7 @@ If you are using TLS between Mediation Servers and gateways, you will need to co
     
 3. Import the Root CA certificate for the certificate issued to your gateway on the Mediation Servers. If you need to obtain an SSL certificate for the gateway, you may do this using the Certificate Authority service running on the Cloud Connector Active Directory computer as follows:
     
-   - Modify the existing Web Server template to enable Authenticated users to Enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modify the existing Web Server template to enable Authenticated users to Enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730705(v=ws.11)).
     
    - Request a certificate using Certificate snap-in selecting the Web Server template that you have enabled. Be sure to add Common name in Subject and DNS name in Alternative name with FQDN of the gateway, and confirm on the Private Key that Make private key exportable is selected under key options. 
     
@@ -103,7 +103,7 @@ Log in to the Microsoft 365 admin center, add the users that will be enabled for
   
 ## Enable users for Phone System voice and voicemail services
  
-After adding your users to Microsoft 365 or Office 365, enable their accounts for Phone System voice services, including voicemail. To enable these capabilities, you must log in to your Microsoft 365 or Office 365 organization with an account that is a Global Administrator role, and be able to run remote PowerShell. To learn how to establish a remote PowerShell session, see: [Set up your computer for Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
+After adding your users to Microsoft 365 or Office 365, enable their accounts for Phone System voice services, including voicemail. To enable these capabilities, you must log in to your Microsoft 365 or Office 365 organization with an account that is a Global Administrator role, and be able to run remote PowerShell. To learn how to establish a remote PowerShell session, see: [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 - Assign the policy to your user and configure the user's business voice phone number, which you specify with the value of the **Identity** parameter:
     
@@ -142,7 +142,7 @@ To re-enable international calling on a per user basis after it has been disable
   
 ## Assign users to PSTN sites
 
-Use tenant remote PowerShell to assign a site to users even if you only deployed a single site. To learn how to establish a remote PowerShell session, see: [Set up your computer for Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
+Use tenant remote PowerShell to assign a site to users even if you only deployed a single site. To learn how to establish a remote PowerShell session, see: [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ```powershell
 # Set the site to users
@@ -191,4 +191,3 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     For  *EdgeServerExternalFQDN*  , use the external FQDN defined for Edge Server Access Proxy. If there are multiple Cloud Connector PSTN sites, choose the Edge Server Access Proxy FQDN assigned to the site where the Mediation Server is located.
     
 4. If there are multiple Cloud Connector Mediation Servers (multiple-site, HA), please repeat the previous steps for each of them.
-    

@@ -1,5 +1,5 @@
 ---
-title: "Deploy collaboration bars for Microsoft Teams"
+title: "Deploy Microsoft Teams Rooms on Android"
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -14,18 +14,18 @@ ms.collection:
   - M365-collaboration
 ms.custom: 
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: "Read this article to learn about deploying collaboration bars for Microsoft Teams."
+description: "Read this article to learn about deploying Microsoft Teams Rooms on Android."
 ---
 
-# Deploy collaboration bars for Microsoft Teams
+# Deploy Microsoft Teams Rooms on Android
 
-Deployment of collaboration bars for Microsoft Teams can be broken down into the following phases:
+Deployment of Microsoft Teams Rooms on Android can be broken down into the following phases:
 
 - **Site readiness** Confirm that your deployment locations (rooms) meet the deployment requirements.
-- **Service readiness** Create resource accounts and assign them to the devices ([see Create a resource account using the Microsoft 365 admin center](resource-account-ui.md)). While we recommend using a dedicated room license, a properly licensed end user account can also sign in to collaboration bars.
-- **Configuration and deployment** Set up collaboration bars in rooms and connect the peripheral devices you need (see the manufacturer's documentation for your collaboration bars).
+- **Service readiness** Create resource accounts and assign them to the devices ([see Create a resource account using the Microsoft 365 admin center](resource-account-ui.md)). While we recommend using a dedicated room license, a properly licensed end user account can also sign in to Teams Rooms on Android.
+- **Configuration and deployment** Set up Teams Rooms and connect the peripheral devices you need (see the manufacturer's documentation for details).
 
-To manage collaboration bars, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+To manage Teams Rooms, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 ## Site readiness
 
@@ -33,7 +33,7 @@ While the ordered devices are being delivered to your organization, work with yo
 
 Our recommendations for collaboration bar sites are:
 
-- Rooms up to 4 people in size
+- Rooms up to 5 people in size
 - Dedicated resource accounts
 - Touch-enabled displays
 - Ethernet cabling
@@ -53,19 +53,19 @@ For physical installation considerations, see the manufacturer's documentation a
 
 ## Service readiness
 
-Before you deploy your collaboration bars, you need to decide if they'll use Microsoft 365 resource accounts, end-user accounts, or a mixture of both. Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. These resource accounts can automatically respond to meeting invites using rules you define when they're created. Unless a collaboration bar is dedicated to a specific individual for their private use, we recommend setting up a Microsoft 365 resource account for it.
+Before you deploy Teams Rooms, you need to decide if they'll use Microsoft 365 resource accounts, end-user accounts, or a mixture of both. Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. These resource accounts can automatically respond to meeting invites using rules you define when they're created. Unless Teams Rooms is dedicated to a specific individual for their private use, we recommend setting up a Microsoft 365 resource account for it.
 
 ### Using a resource account
 
 If you decide to set up a Microsoft 365 resource account, you'll need to purchase a Meeting Room license for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams. The license also enables video and audio conferencing and screen sharing among meeting participants.
 
-If you need to receive or make calls to or from an external telephone number, you may need a Calling Plan or Microsoft 365 Business Voice [add-on license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business). If you have Direct Routing enabled in your organization, you only need the Meeting Room SKU.
+If you need to receive or make calls to or from an external telephone number, you may need a Calling Plan or Microsoft 365 Business Voice [add-on license](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business). If you have Direct Routing enabled in your organization, you only need the Meeting Room SKU.
 
 When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can book the resource, and so on.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-For more information about collaboration bars for Microsoft 365 resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
+For more information about Microsoft 365 resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
 |    |     |
 |-----------|------------|
@@ -78,7 +78,7 @@ Planning for configuration and deployment covers the following key areas:
 
 - Resource account provisioning
 - Device deployment
-- Collaboration bars for Microsoft Teams application and peripheral device configuration
+- Teams Rooms application and peripheral device configuration
 - Testing
 - Asset management
 
@@ -86,10 +86,10 @@ Planning for configuration and deployment covers the following key areas:
 
 If you plan on using Microsoft 365 resource accounts to let users book collaboration bars, follow the instructions in [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) to create a Microsoft 365 resource account for each collaboration bar that needs one. This is also where you'll need to add a Meeting Room license to the resource account and, if you want to make or receive calls to or from external phone numbers, a Calling Plan or Business Voice license if your organization is not using Direct Routing.
 
-If you want to assign collaboration bars to individual users for their private use, you don't need to set up any additional accounts. Users can sign into collaboration bars using their personal accounts.
+If you want to assign Teams Rooms to individual users for their private use, you don't need to set up any additional accounts. Users can sign into collaboration bars using their personal accounts.
 
 > [!TIP]
-> Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding collaboration bars for Microsoft Teams to meetings. You could use a convention like *Site*-*Room Name*(*Max Room Capacity*), so for example Curie, a 4-person meeting room in London, might have the display name LON-CURIE(4).
+> Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Teams Rooms to meetings. You could use a convention like *Site*-*Room Name*(*Max Room Capacity*), so for example Curie, a 4-person meeting room in London, might have the display name LON-CURIE(4).
 
 |    |     |
 |-----------|------------|
@@ -102,14 +102,14 @@ Next, you need to create your plan to deliver the devices and their assigned per
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the collaboration bars for Microsoft Teams on site and undertake the configuration and testing.</li></ul>|
+| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install Teams Rooms on site and undertake the configuration and testing.</li></ul>|
 | ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>|
 
 ### Testing
 
-After the collaboration bars for Microsoft Teams have been deployed, you should test them. Sign in to the device and check that the expected capabilities are working on the deployed device. We highly recommend that you verify that the devices are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
+After you have deployed Teams Rooms, you should test them. Sign in to Teams Rooms and check that the expected capabilities are working. We highly recommend that you verify that they are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
 
-We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide).
+We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](../quality-of-experience-review-guide.md).
 
 ### Asset management
 
@@ -117,6 +117,6 @@ As part of the deployment, you'll want to update your asset register with the ro
 
 ## Related topics
 
-[Configure accounts for collaboration bars for Microsoft Teams using Microsoft Teams admin center](resource-account-ui.md)
+[Configure accounts for Microsoft Teams Rooms using Microsoft Teams admin center](resource-account-ui.md)
 
 <!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->

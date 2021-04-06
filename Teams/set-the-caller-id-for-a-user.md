@@ -55,38 +55,17 @@ To learn more about these settings and how you can use them, go [How can caller 
 > [!NOTE]
 > For all of the Caller ID settings in Skype for Business Online, you must use Windows PowerShell and you **can't use** the **Skype for Business admin center**. 
   
-### Verify and start Windows PowerShell
+### Start PowerShell
 
-- **Check that you are running Windows PowerShell version 3.0 or higher**
-    
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
-    
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
-    
-4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
-    
-    If you need to know more, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
-    
-- **Start a Windows PowerShell session**
-    
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
-    
-   > [!NOTE]
-   >
-   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-   > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
-   ```PowerShell
-    Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+- Open a Windows PowerShell command prompt and run the following commands:
 
-If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+```powershell
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
     
 ### See all of the caller ID policy settings in your organization
 
@@ -95,7 +74,7 @@ If you want more information about starting Windows PowerShell, see [Connect to 
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  See more examples and details for [Get-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx).
+  See more examples and details for [Get-CsCallingLineIdentity](/powershell/module/skype/Get-CsCallingLineIdentity).
     
 ### Create a new caller ID policy for your organization
 
@@ -108,16 +87,16 @@ If you want more information about starting Windows PowerShell, see [Connect to 
   > [!NOTE]  
   > In all cases, the "Service Number" field should not include an initial "+".
 
-  See more examples and details for [New-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx).
+  See more examples and details for [New-CsCallingLineIdentity](/powershell/module/skype/New-CsCallingLineIdentity).
     
 - To apply the new policy you created to Amos Marble, run:
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  See more on the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet.
+  See more on the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
     
-If you have already created a policy, you can use the [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet to apply the settings to your users.
+If you have already created a policy, you can use the [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet to apply the settings to your users.
   
 ### Set it so the incoming caller ID is blocked
 
@@ -126,14 +105,14 @@ If you have already created a policy, you can use the [Set-CsCallingLineIdentity
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  See more examples and details for [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx).
+  See more examples and details for [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity).
     
 - To apply the policy setting you created to a user in your organization, run:
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    See more on the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet.
+    See more on the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
     
 ### Remove a caller ID policy
 
@@ -151,29 +130,28 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
-  - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365 or Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365 or Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Using Windows PowerShell to do common Skype for Business Online management tasks](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
  ## Related topics
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [More about Calling Line ID and Calling Party Name](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 

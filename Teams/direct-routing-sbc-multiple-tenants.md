@@ -132,10 +132,10 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 ### Activate the domain name
 
-After you have registered a domain name, you need to activate it by adding at least one E1, E3, or E5 licensed user and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain. License can be revoked after the domain activation (it can take up to 24 hours).
+After you have registered a domain name, you need to activate it by adding at least one user with Phone System license and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain. License can be revoked after the domain activation (it can take up to 24 hours).
 
 > [!NOTE]
-> The Carrier tenant must keep at least one E1/E3/E5/M365 Business license assigned to the tenant to avoid removal of the Skype for Business configuration. 
+> The Carrier tenant must keep at least one Phone System license assigned to the tenant to avoid removal of the Skype for Business configuration. 
 
 *Please review [Get help with Microsoft 365 or Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Microsoft 365 or Office 365 organizations.*
 
@@ -236,7 +236,7 @@ Examples:
 -   Carrier will need to setup DNS record resolving derived trunk FQDN to carrier SBC ip address.
 
 -    Any changes made on a carrier trunk (on carrier tenant) is automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don't need to go to every tenant and change the parameter on every trunk.
--    The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-    The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](./direct-routing-monitor-and-troubleshoot.md).
 -    The carrier can drain the carrier trunk, and all derived trunks will be drained as well. 
  
 

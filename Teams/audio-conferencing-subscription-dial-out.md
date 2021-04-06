@@ -39,7 +39,7 @@ Each Audio Conferencing subscription provides 60 minutes per user per month that
 
 ## Audio Conferencing "Dial Out From a Meeting" & "Call Me At" details
 
-For customers adopting our Audio Conferencing service, Microsoft provides the ability to dial out from meetings organized by users assigned an Audio Conferencing subscription license. Dial-out calls to countries not included in the [Zone A countries and regions](audio-conferencing-zones.md) list are charged per minute using Communications Credits. For dial-out calls that are billed per minute (calls exceeding the tenant dial-out minute pool or calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list, the calls and their associated rates are based on the destination of the call and not the organizer's country of residence or the meeting participant initiating the dial-out call. For example, an audio conference dial-out call to a phone number in France, which is a Zone A country, will be billed at the same per-minute rate if it were initiated by a meeting participant in the United States, France, or Zimbabwe. 
+For customers adopting our Audio Conferencing service, Microsoft provides the ability to dial out from meetings organized by users assigned an Audio Conferencing subscription license. Dial-out calls to countries not included in the [Zone A countries and regions](audio-conferencing-zones.md) list are charged per minute using Communications Credits. For dial-out calls that are billed per minute (calls exceeding the tenant dial-out minute pool or calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list), the calls and their associated rates are based on the destination of the call and not the organizer's country of residence or the meeting participant initiating the dial-out call. For example, an audio conference dial-out call to a phone number in France, which is a Zone A country, will be billed at the same per-minute rate if it were initiated by a meeting participant in the United States, France, or Zimbabwe. 
 
 
 |Meeting organizer license usage location |Destination dialed |Can I use my dial-out minute pool minutes?|Do I need Communications Credits?|
@@ -72,11 +72,11 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
 
   - Billing Administrator
   - Skype for Business Administrator
-  - Company Administrator
-  - User Account Administrator
+  - Global Administrator 
+  - User Administrator
   - Helpdesk Administrator
   - Service Support Administrator
-  - Device Administrators
+  - Azure AD Joined Device Local Administrator 
   - Application Administrator
   - License Administrator
   - Cloud Device Administrator
@@ -85,7 +85,7 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
   - Teams Communications Administrator
   - Teams Communications Support Engineer
   - Teams Communications Support Specialist
-  - Teams Service Administrator
+  - Teams Administrator
 
 For additional information on Communication Credits, see [Communications Credits](what-are-communications-credits.md).
 

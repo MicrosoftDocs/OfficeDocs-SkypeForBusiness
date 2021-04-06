@@ -66,6 +66,8 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
 
 - If a column uses the String data type, a data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 
+- There is a 1,000,000 expanded row limit per tenant data file.
+
 - There must be 15 columns for each row, each column must have the appropriate data type, and the columns must be in the order listed in the following table (comma or tab delimited):
 
   **Building data file format**
@@ -101,7 +103,7 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
 > [!IMPORTANT]
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. 
 >
-> The VPN column is optional and will default to 0. If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
+> The VPN column is optional and will default to 0. If the VPN column’s value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet. Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data. If the expansion of the subnet results in the expansion row limit of 1,000,000 being exceeded, the building file will not be accepted.
 
 
 ### Supernetting

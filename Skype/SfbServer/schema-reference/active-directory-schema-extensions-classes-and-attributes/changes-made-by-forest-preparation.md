@@ -103,7 +103,7 @@ Forest preparation also creates the following role-based access control (RBAC) g
 
 - CsResponseGroupManager
 
-For details about RBAC roles and the tasks allowed for each, see [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) in the Planning documentation.
+For details about RBAC roles and the tasks allowed for each, see [Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) in the Planning documentation.
 
 Forest preparation creates both private and public ACEs. It creates private ACEs on the global settings container used by Skype for Business Server. This container is used only by Skype for Business Server and is located either in the Configuration container or the System container in the root domain, depending on where you store global settings. The public ACEs created by forest preparation are listed in the following table.
 
@@ -129,5 +129,3 @@ On the Configuration container, under the Configuration naming context, forest p
 - Adds **msRTCSIP-PrimaryUserAddress** under the **extraColumns** attribute of each language organizational unit (OU) display specifier (for example, CN=organizationalUnit-Display,CN=409,CN=DisplaySpecifiers) and copies the values of the **extraColumns** attribute of the default display (for example, CN=default-Display, CN=409,CN=DisplaySpecifiers).
 
 - Adds **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**, and **msRTCSIP-UserEnabled** filtering attributes under the **attributeDisplayNames** attribute of each language display specifier for Users, Contacts, and InetOrgPerson objects (for example, in English: CN=user-Display,CN=409,CN=DisplaySpecifiers).
-
-

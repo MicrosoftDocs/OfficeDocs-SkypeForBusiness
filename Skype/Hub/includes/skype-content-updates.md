@@ -2,22 +2,19 @@
 
 
 
-## Week of January 18, 2021
+## Week of March 29, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 1/21/2021 | [Configure a resource account in Skype for Business Server 2019](/SkypeForBusiness/hybrid/configure-onprem-ra) | modified |
-| 1/21/2021 | [Plan a Cloud call queue](/SkypeForBusiness/hybrid/plan-call-queue) | modified |
-| 1/21/2021 | [Plan a Cloud auto attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) | modified |
-| 1/21/2021 | Small business example - Set up a Call Queue | removed |
+| 3/29/2021 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | modified |
 
 
-## Week of January 11, 2021
+## Week of March 15, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 1/13/2021 | [Blocked user licenses for Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast) | modified |
-| 1/13/2021 | [Enable Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast) | modified |
-| 1/13/2021 | [Set up your network for Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast) | modified |
+| 3/16/2021 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
+| 3/18/2021 | [Disable hybrid to complete migration to the cloud](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid) | modified |
+| 3/18/2021 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |

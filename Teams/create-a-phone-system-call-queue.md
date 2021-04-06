@@ -23,7 +23,7 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
   - seo-marvel-apr2020
-description: Learn how to set up Phone System for call queues with Microsoft Teams, which provide a greeting message, hold music, call redirecting, and other features.
+description: Learn how to set up Phone System for call queues with Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
 ---
 # Create a call queue
 
@@ -39,7 +39,7 @@ Call queues provide:
 
 - Handling options for queue overflow and timeout.
 
-Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.
+Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
@@ -47,11 +47,11 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 ![Screenshot of resource account and language settings](media/call-queue-name-language.png)
 
-1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
+1. Type a name for the call queue.
 
-2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
+2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
 ## Greetings and music on hold in queue
 
@@ -65,11 +65,21 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 
 ## Call agents
 
-Please refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to be able to add agents to a call queue.
+Review the [prerequisites for adding agents to a call queue](plan-auto-attendant-call-queue.md#prerequisites).
 
 ![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
 
+##### Teams channel
+
+You can add up to 200 agents via a Teams channel.
+
+If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**.
+
+##### Users and groups
+
 You can add up to 20 agents individually and up to 200 agents via groups.
+
+If you want to add individual users or groups to the queue, select the **Choose users and groups** option. 
 
 To add a user to the queue, click **Add users**, search for the user, click **Add**, and then click **Add**.
 
@@ -88,9 +98,6 @@ To add a group to the queue, click **Add groups**, search for the group, click *
   - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
-
-> [!NOTE]
-> Busy on Busy is not supported by conference mode. Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
@@ -116,12 +123,15 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-For high volume queues, we recommend the following settings:
+The following settings are recommended:
 
 - **Conference mode** to **Auto**
-- **Routing method** to **Attendant routing**
+- **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
+
+> [!NOTE]
+> If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
 ## Call overflow handling
 
@@ -171,13 +181,13 @@ The following clients are supported for call agents in a call queue:
 
 You can also use Windows PowerShell to create and set up call queues. Here are the cmdlets that you use to manage a call queue.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
 ## Related topics
 
@@ -187,6 +197,6 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
 
 [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

@@ -24,7 +24,7 @@ description: "Learn how to enable Phone System voice services for your Skype for
 # Enable users for Enterprise Voice online and Phone System Voicemail
  
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Learn how to enable Phone System voice services for your Skype for Business users.
   
@@ -40,41 +40,22 @@ To enable a user for Phone System Voice and voicemail, you'll need to perform so
 > Skype for Business Online Connector is currently part of latest Teams PowerShell Module.
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
-1. Before you begin, check that the Teams PowerShell module is installed on your Front End Servers. If it's not, please  install using the instructions in [Teams PowerShell Module Installation](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Before you begin, check that the Teams PowerShell module is installed on your Front End Servers. If it's not, please  install using the instructions in [Teams PowerShell Module Installation](/microsoftteams/teams-powershell-install).
     
 2. Start Windows PowerShell as an administrator.
     
 3. Type the following and press Enter:
     
-   ```powershell
+ ```powershell
+  # When using Teams PowerShell Module
+
    Import-Module MicrosoftTeams
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
-4. Type the following and press Enter:
-    
-   ```powershell
-   $cred = Get-Credential
-   ```
-
-    After you press Enter, you should see the Windows PowerShell Credential dialog box.
-    
-5. Type your tenant admin username and password, and click **OK**.
-    
-6. In the PowerShell window, type the following and press Enter:
-    
-   ```powershell
-   $Session = New-CsOnlineSession -Credential $cred -Verbose
-   ```
-
-7. Import the session by typing the following cmdlet:
-    
-   ```powershell
-   Import-PSSession $Session -AllowClobber
-   ```
-
-    When running PowerShell on a Skype for Business Server, the local Skype for Business cmdlets are already loaded when you open PowerShell. You must specify the -AllowClobber parameter to allow the online cmdlets to overwrite the on-premises cmdlets with the same name.
-    
-8. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
+  
+4. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -112,11 +93,11 @@ This section describes how to update the Line URI and dial plan for users enable
     
 ## Update the dial plan using on-premises Windows PowerShell cmdlets
 
-You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet. You can run this cmdlet either from the Skype for Business Server 2015 or from a remote session of Windows PowerShell.
+You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet. You can run this cmdlet either from the Skype for Business Server 2015 or from a remote session of Windows PowerShell.
   
 ### To assign a per-user dial plan to a single user
 
-- Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:
+- Use the [Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -124,7 +105,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 ### To assign a per-user dial plan to multiple users
 
-- The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet:
+- The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps) cmdlet:
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -135,7 +116,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
   
 ### To unassign a per-user dial plan
 
-- Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer. After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway. A service scope dial plan takes precedence over the global dial plan:
+- Use the [Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer. After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway. A service scope dial plan takes precedence over the global dial plan:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -145,14 +126,14 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 This section describes how to update the voice routing policies for users enabled for Phone System.
   
-Phone System users must have a Voice Routing Policy assigned to them for calls to route successfully. This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully. The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System users. You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies. For more information, see [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Phone System users must have a Voice Routing Policy assigned to them for calls to route successfully. This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully. The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System users. You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies. For more information, see [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
 > All Phone System users are assigned the same online Voice Policy named BusinessVoice which defines the calling features allowed; for example, Allow Simultaneous Ring. 
   
 ### To assign a per-user voice routing policy to a single user
 
-- Use the [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:
+- Use the [Grant-CsVoiceRoutingPolicy](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -160,7 +141,7 @@ Phone System users must have a Voice Routing Policy assigned to them for calls t
 
 ### To assign a per-user voice routing policy to multiple users
 
-- The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
@@ -177,6 +158,4 @@ Phone System users must have a Voice Routing Policy assigned to them for calls t
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    For more information, see [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
-    
-
+    For more information, see [Grant-CsVoiceRoutingPolicy](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).

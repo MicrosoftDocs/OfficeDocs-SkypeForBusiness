@@ -22,10 +22,10 @@ description: Learn about how to block access to SharePoint for specific users
 
 # Block access to SharePoint for specific users
 
-Applying any Conditional Access (CA) policy on SharePoint in Microsoft 365 is also applied to Teams. However, some organizations want to block access to SharePoint files (upload, download, view, edit, create) yet allow their employees to use Teams desktop, mobile, and web clients on unmanaged devices. Under the CA policy rules, blocking Sharepoint would lead to blocking Teams as well. This article explains how you can work around this limitation and allow your employees to continue using Teams while completely blocking access to files stored in SharePoint.
+Applying any Conditional Access (CA) policy on SharePoint in Microsoft 365 is also applied to Teams. However, some organizations want to block access to SharePoint files (upload, download, view, edit, create) yet allow their employees to use Teams desktop, mobile, and web clients on unmanaged devices. Under the CA policy rules, blocking SharePoint would lead to blocking Teams as well. This article explains how you can work around this limitation and allow your employees to continue using Teams while completely blocking access to files stored in SharePoint.
 
 > [!Note]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. Learn about [Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/). For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). For info about recommended SharePoint Online access policies, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.
+> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. Learn about [Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/). For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint Online access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.
 
 You can block or limit access for:
 
@@ -51,14 +51,14 @@ When access is blocked, users will see an error message. Blocking access helps p
 
 5. Update the policy to target only specific users or a group.
 
-    ![the Sharepoint admin center with the Select user section highlighted.](media/no-sharepoint-access2b.png)
+    ![the SharePoint admin center with the Select user section highlighted.](media/no-sharepoint-access2b.png)
 
   > [!Note]
 > Setting this policy will cut your access to the SharePoint admin portal. We recommended that you configure the exclusion policy and select the Global and SharePoint admins.
 
 6. Verify that only SharePoint is selected as targeted Cloud App
 
-    ![Sharepoint is selected as the targeted app.](media/no-sharepoint-access3.png)
+    ![SharePoint is selected as the targeted app.](media/no-sharepoint-access3.png)
 
 7. Update **Conditions** to include desktop clients, as well.
 
@@ -78,10 +78,10 @@ To test your policy, you need to sign out from any client such as the Teams desk
 
  ![The item not found message.](media/access-denied-sharepoint.png)
 
-In Sharepoint, you'll receive an access denied message.
+In SharePoint, you'll receive an access denied message.
 
 ![The access denied message.](media/blocked-access-warning.png)
 
 ## Related topics
 
-[Control access for unmanaged devices in SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Control access for unmanaged devices in SharePoint](/sharepoint/control-access-from-unmanaged-devices)

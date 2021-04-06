@@ -32,39 +32,23 @@ Client policy settings can be configured at the time a policy is created, or you
 > [!NOTE]
 > For all of the client policy settings in Skype for Business Online, you must use Windows PowerShell and you **can't use** the **Skype for Business admin center**. 
   
-### Verify and start Windows PowerShell
+### Start Windows PowerShell
 
-- **Check that you are running Windows PowerShell version 3.0 or higher**
+> [!NOTE]
+> Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.
+1. Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).
     
-	1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-		
-	2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
-		
-	3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
-		
-	4. You will also need to install the Windows PowerShell module for Teams that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. 
-    
-    If you need to know more, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
-    
-- **Start a Windows PowerShell session**
-    
-	1. From the **Start Menu** > **Windows PowerShell**.
-		
-	2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
-    
-	> [!NOTE]
-	> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-	>
-	> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+2. Open a Windows PowerShell command prompt and run the following commands: 
 
-	   ```powershell
-		Import-Module -Name MicrosoftTeams
-		$credential = Get-Credential
-		$session = New-CsOnlineSession -Credential $credential
-		Import-PSSession $session 
-	   ```
-If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
-    
+    ```powershell
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+   If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+ 
 ### Disable emoticons and presence notifications and prevent saving of IMs
 
 - To create a new policy for these settings, run:
@@ -74,7 +58,7 @@ If you want more information about starting Windows PowerShell, see [Connect to 
    New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
    ```
 
-  See more on the [New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet.
+  See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.
     
 - To grant the new policy you created to all of the users in your organization, run:
     
@@ -83,9 +67,9 @@ If you want more information about starting Windows PowerShell, see [Connect to 
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
    ```
 
-  See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet.
+  See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.
     
-If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet to apply the settings to your users.
+If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.
   
 ### Enable URLs or hyperlinks to be clickable in IMs
 
@@ -96,7 +80,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
    New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
    ```
 
-  See more on the [New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet.
+  See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.
     
 - To grant the new policy you created to all of the users in your organization, run:
     
@@ -105,9 +89,9 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
    ```
 
-  See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet.
+  See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.
     
-If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet to apply the settings to your users.
+If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.
   
 ### Prevent showing recent contacts
 
@@ -117,7 +101,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  See more on the [New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet.
+  See more on the [New-CsClientPolicy](/powershell/module/skype/New-CsClientPolicy) cmdlet.
     
 - To grant the new policy you created to Amos Marble, run:
    
@@ -125,25 +109,25 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
    ```
 
-  See more on the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet.
+  See more on the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet.
     
-  If you have already created a policy, you can use the [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet to apply the settings to your users.
+  If you have already created a policy, you can use the [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy) cmdlet to make changes to the existing policy, and then use the [Grant-CsClientPolicy](/powershell/module/skype/Grant-CsClientPolicy) cmdlet to apply the settings to your users.
   
 ## Want to know more about Windows PowerShell?
 
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
-  - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [An introduction to Windows PowerShell and Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365 or Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365 or Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Using Windows PowerShell to manage Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Using Windows PowerShell to do common Skype for Business Online management tasks](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## Related topics
 [Create custom external access policies](create-custom-external-access-policies.md)
@@ -153,4 +137,3 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 
   
- 
