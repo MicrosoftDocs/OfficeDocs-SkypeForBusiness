@@ -92,7 +92,7 @@ You can create a resource account in the Teams admin center.
 
 2. Click **Add**.
 
-3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**.
+3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**. Agents will see the display name when they receive an incoming call from the queue.
 
     ![Screenshot of add resource account user interface](../media/resource-account-add-cq.png)
 
@@ -106,7 +106,7 @@ The new account will appear in the list of accounts.
 
 You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
 
-1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
+1. In the Microsoft 365 admin center, in the **Active users** list, click the resource account to which you want to assign a license.
 
 2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 
@@ -120,7 +120,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 1. In the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
-1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
+1. Type a name for the call queue.
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
 
