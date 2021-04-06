@@ -22,7 +22,7 @@ appliesto:
 
 # Help for low bandwidth situations for Teams for EDU
 
-There are a lot of network elements when it comes to working with Microsoft Teams that can affect performance, and low bandwidth is one of the situations that can feel entirely out of your control. Consider the following:
+There are numerous network elements when it comes to working with Microsoft Teams that can affect performance, and low bandwidth is one of the situations that can feel entirely out of your control. Consider the following:
 
 - A low-speed internet connection for the school.
 - A low-speed internet connection for one or more students.
@@ -37,7 +37,7 @@ This article will give you best practices to follow for a variety of Teams activ
 
 ## Resolving low bandwidth issues for ITAdmins
 
-The important thing to remember, as an ITAdmin, is that while you have solutions for low bandwidth issues that are wide-spread that will resolve problems quickly, this should be considered carefully, as some issues may be able to resolved with a more narrow focus taken at the educator or even the student/parent level.
+The important thing to remember, as an ITAdmin, is that while you have solutions for low bandwidth issues that are wide-spread that will resolve problems quickly, this should be considered carefully, as some issues may be able to resolve with a more narrow focus taken at the educator or even the student/parent level.
 
 In short, if the low bandwidth issue occurs for a wide group of students, taking action as an ITAdmin makes sense, and it also makes sense if the actions taken at the student/educator level haven't been helpful.
 
@@ -46,7 +46,7 @@ In short, if the low bandwidth issue occurs for a wide group of students, taking
 
 ### Meetings and video
 
-A primary focus for low bandwidth issues are meetings, and specifically video in meetings. We have some of the actions below that an ITAdmin should consider when dealing with issues reported by students or educators in regard to having the best meeting experience in an educational setting.
+A primary focus for low bandwidth issues is meetings, and specifically video in meetings. We have some of the actions below that an ITAdmin should consider when dealing with issues reported by students or educators in regard to having the best meeting experience in an educational setting.
 
 #### Meeting policies
 
