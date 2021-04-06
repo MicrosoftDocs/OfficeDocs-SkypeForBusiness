@@ -40,6 +40,7 @@ The tables that follow list devices certified for Direct Routing. (For informati
 If you have any questions about the SBC certification program for Direct Routing, please contact drsbccertification@microsoft.com.
 <br/>
 
+## Certified SBC vendors
 #### [Certified SBC vendors A-M](#tab/CertifiedSBCvendorsA-M/)
 
 #### [Atos](#tab/Atos/)
