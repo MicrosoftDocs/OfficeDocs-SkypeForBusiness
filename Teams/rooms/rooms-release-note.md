@@ -70,7 +70,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 ### 4.8.18.0 (04/05/2021)
 
 Introduced in this update:
-- Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download application 4.8.18.0 update from [Manually update a Microsoft Teams Rooms device](https://docs.microsoft.com/en-us/microsoftteams/rooms/manual-update)
+- Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download application 4.8.18.0 update from [Manually update a Microsoft Teams Rooms device](https://docs.microsoft.com/microsoftteams/rooms/manual-update)
 - Join Zoom meetings with better video quality (720p support) and recieve video gallery of participants
 - Skype for Business sign in failure banner removel for Teams default mode to support organizations removing Skype for Business infrastructure
 - Teams meetings join link parsing now handles Microsoft Advanced Thread Protection Safe-Link service, to allow joining external Teams seamlessly
