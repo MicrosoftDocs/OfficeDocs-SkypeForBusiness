@@ -80,7 +80,7 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> Dynamic emergency calling including security desk notification isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
+> Dynamic emergency calling including security desk notification isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time. 
 
 ## Assign emergency addresses
 
