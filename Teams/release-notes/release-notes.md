@@ -44,7 +44,7 @@ IT admins can remotely provision and sign in to a Teams Android device. To provi
 
 ### Enable live transcripts in Teams
 
-This is a per-user policy and applies during a meeting. This setting controls whether the Turn on live captions option is available for the user to turn on and turn off live captions in meetings that the user attends. [Learn more](../meeting-policies-in-teams.md#enable-live-captions).
+This is a per-user policy and applies during a meeting. This setting controls whether the Turn on live captions option is available for the user to turn on and turn off live captions in meetings that the user attends. [Learn more](../meeting-policies-participants-and-guests.md#enable-live-captions).
 
 ## March 23, 2021
 
@@ -211,7 +211,7 @@ We've recently added calling plan support for Austria, Denmark, Italy, Portugal,
 
 ### Meeting policy settings
 
-Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-audio-and-video.md).
 
 ## September 27, 2020
 
