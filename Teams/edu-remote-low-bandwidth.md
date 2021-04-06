@@ -57,13 +57,13 @@ Some of the things you can set via policy include:
 - Disabling video altogether, so no one could enable it.
 - Media bit rate (this is set per-user).
 
-To learn more about your options, and to walk through the specifics of what policies you'd need to set for meetings and video, check out [Meeting policy settings in Teams: Audio and video](./meeting-policies-audio-and-video.md) for detailed walk-through information.
+To learn more about your options, and to walk through the specifics of what policies you'd need to set for meetings and video, check out [Meeting policy settings in Teams: Audio and video](./meeting-policies-audio-and-video.md#meeting-policy-settings-for-audio-&-video) for detailed walk-through information.
 
 #### Screen sharing policies
 
 In other cases, educators may be sharing their entire screen to students, when sharing should be limited to an application relevant to the lesson being taught. This can also be set via policy, if that's a more desirable way to do it than to have educators making that choice individually.
 
-For a good idea of what you can do about limiting screen sharing via policy settings, check out [Meeting policy settings in Teams: Screen sharing](./meeting-policies-audio-and-video.md).
+For a good idea of what you can do about limiting screen sharing via policy settings, check out [Meeting policy settings in Teams: Screen sharing](./meeting-policies-audio-and-video.md#meeting-policy-settings-for-audio-&-video).
 
 #### Dial-in number for meetings
 
