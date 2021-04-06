@@ -106,7 +106,7 @@ The new account will appear in the list of accounts.
 
 You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
 
-1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
+1. In the Microsoft 365 admin center, in the **Users** list, click the resource account to which you want to assign a license.
 
 2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 
