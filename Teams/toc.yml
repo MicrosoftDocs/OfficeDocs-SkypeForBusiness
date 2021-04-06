@@ -561,7 +561,7 @@ items:
         - name: Manage meeting policies
           items: 
             - name: Overview
-              href: meeting-policies-in-teams.md
+              href: meeting-policies-overview.md
             - name: General policies
               href: meeting-policies-in-teams-general.md
             - name: Audio and video policies
