@@ -183,20 +183,20 @@ This hybrid approach allows you to either use SDS to create groups for each clas
 
 To get started with the SDS method, go to [School Data Sync (SDS)](/SchoolDataSync) and contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) deployment assistance. 
 
-To use the Graph API method, see [Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0) and [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta).  
+To use the Graph API method, see [Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) and [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true).  
 
 > [!NOTE]
 > To use this method with SDS, you'll need to turn the automatic team creation toggle off in your SDS profile. You can also use a combination of automatic and educator-led team creation for required and optional class teams by using two SDS profiles.
 
 #### PowerShell script using Graph APIs
 
-With PowerShell, you can write a script to create teams, channels and configure settings automatically. It requires the admin to first create the group, add educators and students, and then create the team as outlined [here](/graph/teams-create-group-and-team). You can also use the Microsoft Graph API to create, configure, clone, and archive teams. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) and [Create a class team](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type). Using Graph APIs is a great way to have more control and flexibility, however, it requires a high level of technical expertise and takes more time to set up initially.
+With PowerShell, you can write a script to create teams, channels and configure settings automatically. It requires the admin to first create the group, add educators and students, and then create the team as outlined [here](/graph/teams-create-group-and-team). You can also use the Microsoft Graph API to create, configure, clone, and archive teams. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) and [Create a class team](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true). Using Graph APIs is a great way to have more control and flexibility, however, it requires a high level of technical expertise and takes more time to set up initially.
 
 ##### Benefits
 
 - Additional flexibility and control.
 - Option to create early educator access teams or immediate student access to teams.  
-- If you [create teams from groups](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group), educators will have early access and student membership changes to the Azure AD group will be synced.
+- If you [create teams from groups](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true), educators will have early access and student membership changes to the Azure AD group will be synced.
 
 ##### Considerations
 
@@ -205,7 +205,7 @@ With PowerShell, you can write a script to create teams, channels and configure 
 - Membership changes are not synced with SIS. 
 
 > [!NOTE]
-> Class teams require hidden group membership so only educators and students within the class can see the members of that class. To create an Office 365 class group, see [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) to meet the same privacy requirements.
+> Class teams require hidden group membership so only educators and students within the class can see the members of that class. To create an Office 365 class group, see [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) to meet the same privacy requirements.
 
 #### Manual team creation
 
@@ -235,15 +235,15 @@ Early Access Class Teams allows educators access to their class teams before the
 
 ##### How do I create class teams that allow educators early access to set up a team before admitting students?
 
-Teams created from groups (through SDS, educator-led or Graph API) automatically create early access teams by default. To create your own early access teams using Graph API, you’ll need to [create a class](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) and [create the team from a group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group).
+Teams created from groups (through SDS, educator-led or Graph API) automatically create early access teams by default. To create your own early access teams using Graph API, you’ll need to [create a class](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) and [create the team from a group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 ##### How do I check if a class is activated?
 
-In the [team resource type](/graph/api/resources/team?view=graph-rest-beta), we added a new property, [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties), to determine whether a class is activated. Use the [Get Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta) to query the ```isMembershipLimitedToOwners``` property for a specific class. If the team is activated, it will return a value of false. If the team hasn't been activated by the team owner, it will return a value of true.
+In the [team resource type](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true), we added a new property, [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true), to determine whether a class is activated. Use the [Get Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) to query the ```isMembershipLimitedToOwners``` property for a specific class. If the team is activated, it will return a value of false. If the team hasn't been activated by the team owner, it will return a value of true.
 
 ##### How do I activate a class for an educator?
 
-Use the [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta) and set the ```isMembershipLimitedToOwners``` property to  false to activate the team on your educator’s behalf. Note that after a team is activated, it can't be reversed.
+Use the [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) and set the ```isMembershipLimitedToOwners``` property to  false to activate the team on your educator’s behalf. Note that after a team is activated, it can't be reversed.
 
 ### Create staff teams for staff communication and collaboration
 
