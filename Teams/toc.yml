@@ -320,10 +320,12 @@ items:
       items:
         - name: Overview
           href: manage-teams-with-policies.md
-        - name: Assign policies to your users
-          href: assign-policies.md
-        - name: View your policy assignments in the Activity log
-          href: activity-log.md
+        - name: Assign policies in Teams - getting started
+          href: policy-assignment-overview.md
+        - name: Assign policies to users and groups
+          href: assign-policies-users-and-groups.md
+        - name: Assign policy packages
+          href: assign-policy-packages.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
@@ -557,9 +559,25 @@ items:
     - name: Meetings
       items:
         - name: Manage meeting policies
-          href: meeting-policies-in-teams.md
-        - name: Remove the RestrictedAnonymousAccess meeting policy from users
-          href: meeting-policies-restricted-anonymous-access.md
+          items: 
+            - name: Overview
+              href: meeting-policies-overview.md
+            - name: General policies
+              href: meeting-policies-in-teams-general.md
+            - name: Audio and video policies
+              href: meeting-policies-audio-and-video.md
+            - name: Content and screen sharing policies
+              items:
+                - name: Content sharing
+                  href: meeting-policies-content-sharing.md
+                - name: Configure desktop sharing
+                  href: configure-desktop-sharing.md
+            - name: Participant, guest, and access policies
+              items:
+                - name: Participants and guest policies
+                  href: meeting-policies-participants-and-guests.md
+                - name: Remove the RestrictedAnonymousAccess meeting policy from users
+                  href: meeting-policies-restricted-anonymous-access.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change

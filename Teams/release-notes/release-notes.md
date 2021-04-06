@@ -34,11 +34,17 @@ Share to Teams from Outlook allows you to send a copy of email messages or conve
 
 Microsoft Teams provides app customization to enhance the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app properties based on the organizational needs using the Teams admin center Manage apps page. [Learn more](../customize-apps.md).
 
+## March 29, 2021
+
+### Remote provisioning and sign-in for Teams Android devices
+
+IT admins can remotely provision and sign in to a Teams Android device. To provision a device remotely, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center. [Learn more](../devices/remote-provision-remote-login.md).
+
 ## March 24, 2021
 
 ### Enable live transcripts in Teams
 
-This is a per-user policy and applies during a meeting. This setting controls whether the Turn on live captions option is available for the user to turn on and turn off live captions in meetings that the user attends. [Learn more](../meeting-policies-in-teams.md#enable-live-captions).
+This is a per-user policy and applies during a meeting. This setting controls whether the Turn on live captions option is available for the user to turn on and turn off live captions in meetings that the user attends. [Learn more](../meeting-policies-participants-and-guests.md#enable-live-captions).
 
 ## March 23, 2021
 
@@ -205,7 +211,7 @@ We've recently added calling plan support for Austria, Denmark, Italy, Portugal,
 
 ### Meeting policy settings
 
-Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+Adding two policy settings for IP audio and IP video in Teams meetings policies: Mode for IP audio and Mode for IP video. You can now set incoming and outgoing IP audio and IP video in Teams meeting policies. [Learn more](../meeting-policies-audio-and-video.md).
 
 ## September 27, 2020
 
