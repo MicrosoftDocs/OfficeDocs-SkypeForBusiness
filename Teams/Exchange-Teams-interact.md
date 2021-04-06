@@ -117,7 +117,7 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Allow scheduling private meetings](./meeting-policies-in-teams.md#allow-scheduling-private-meetings).
+- If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Allow scheduling private meetings](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
 
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
