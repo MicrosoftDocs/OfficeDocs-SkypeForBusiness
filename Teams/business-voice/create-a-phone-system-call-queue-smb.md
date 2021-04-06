@@ -206,7 +206,7 @@ Choose how you want to handle calls that exceed the maximum in the queue.
 
 Choose what you want to happen when calls have been waiting in the queue for too long.
 
-1. Set the **Call Timeout: maximum wait time**.
+1. Set the **Maximum wait time**.
 
 2. Choose what you want to do when a call times out. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
     - **Person in the organization** - a person in your organization who is able to receive voice calls
