@@ -20,7 +20,7 @@ appliesto:
 Manage the Office 365 E1 Trial
 ==============================
 
-As of July 1, 2020, the Office 365 E1 Trial license is no longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
+As of July 1, 2020, the Office 365 E1 Trial license is no longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. Alternatively, eligible organizations can use the **[Free version of Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, or employees can activate the **[Teams Exploratory](teams-exploratory.md)** experience.
 
 
 If you're a Teams for Education customer, check out the free [Office 365 A1 license](teams-edu-licensing.md).
@@ -48,7 +48,7 @@ To upgrade E1 Trial users to a paid subscription:
 
 3. Assign the newly purchased license.
 
-For more information, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+For more information, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 
@@ -56,10 +56,10 @@ For more information, see [Microsoft Teams service description](https://docs.mic
 ### Remove an Office 365 E1 Trial license
 
 - If you would like to remove this license by using PowerShell, see:
-[Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+[Remove licenses from user accounts with Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - If you would like to remove this license through the admin portal, see:
-[Delete a user from your organization](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
+[Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user)
 
 ## Related topics
 

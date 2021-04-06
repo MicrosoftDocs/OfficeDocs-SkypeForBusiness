@@ -61,38 +61,16 @@ You assign a dial plan in the same way you assign policies. [!INCLUDE [assign-po
 
 ## Using PowerShell
   
-### Verify and start Remote PowerShell
+### Start PowerShell
+- Open a Windows PowerShell command prompt and run the following commands:
 
- **Check that you are running Windows PowerShell version 3.0 or later**
-  
-1. To verify that you're running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
-    
-3. If you don't have version 3.0 or later, download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you're prompted.
-    
-4. You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. You can download this module, which is supported only on 64-bit computers, at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you're prompted.
-    
-To learn more, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-  
- **Start a Windows PowerShell session**
-  
-1. Click **Start** > **Windows PowerShell**.
-    
-2. In the **Windows PowerShell** window, connect to Microsoft 365 or Office 365 by running:
-    
- 
-    > [!NOTE]
-    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-    >
-    > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+```powershell
+  # When using Teams PowerShell Module
 
-    ```PowerShell
-   Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-    ```
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
   
 ### Create and manage your dial plans
 
@@ -106,7 +84,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    For other examples and parameters, see [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).
+    For other examples and parameters, see [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan).
     
 - To edit the settings of an existing dial plan, run:
     
@@ -115,7 +93,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    For other examples and parameters, see [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).
+    For other examples and parameters, see [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan).
     
 - To add users to a dial plan, run:
     
@@ -123,7 +101,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    For other examples and parameters, see [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
+    For other examples and parameters, see [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan).
     
 - To view the settings on a dial plan, run:
     
@@ -131,7 +109,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    For other examples and parameters, see [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
+    For other examples and parameters, see [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
     
 - To delete a dial plan, run:
     
@@ -139,7 +117,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    For other examples and parameters, see [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
+    For other examples and parameters, see [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
     
 - To see the settings of the effective dial plan, run:
     
@@ -147,7 +125,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).
+    For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan).
     
 - To test the effective settings of a dial plan, run:
     
@@ -155,7 +133,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
+    For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
     
 #### Using a PowerShell script
 
@@ -237,7 +215,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## Related topics
 
 - [What are dial plans?](what-are-dial-plans.md)
-- [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+- [Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

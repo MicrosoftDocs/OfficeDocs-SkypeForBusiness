@@ -22,7 +22,7 @@ description: "Decisions necessary for planning an the location information datab
 
 Decisions necessary for planning an the location information database, or a similar external database, for an E9-1-1 deployment using SIP trunking providers, in Skype for Business Server Enterprise Voice.
 
-To configure Skype for Business Server to automatically locate clients within a network, you need to either populate the Location Information service database with a network wiremap and publish the locations, or link to an external database that already contains the correct mappings. As part of this process, you need to validate the civic addresses of the locations with your E9-1-1 service provider. For details, see [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in the Deployment documentation.
+To configure Skype for Business Server to automatically locate clients within a network, you need to either populate the Location Information service database with a network wiremap and publish the locations, or link to an external database that already contains the correct mappings. As part of this process, you need to validate the civic addresses of the locations with your E9-1-1 service provider. For details, see [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) in the Deployment documentation.
 
 You populate the Location Information service database with an Emergency Response Location (ERL), which consists of a civic address and the specific address within a building. The Location Information service **Location** field, which is the specific location within a building, has a maximum length of 20 characters (including spaces). Within that limited length, try to include the following:
 
@@ -33,7 +33,7 @@ You populate the Location Information service database with an Emergency Respons
 - If the location is approximate because it's determined by a wireless access point, you can add the word **[Near]** (for example, "Near 1st Floor 1234").
 
 > [!NOTE]
-> Locations added to the central location database are not available to the client until they are published by using a Skype for Business Server Management Shell command and are replicated to the pool's local stores. For details, see [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) in the Deployment documentation.
+> Locations added to the central location database are not available to the client until they are published by using a Skype for Business Server Management Shell command and are replicated to the pool's local stores. For details, see [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) in the Deployment documentation.
 
 The following sections discuss considerations that you need to take into account when populating and maintaining the location database.
 
@@ -49,9 +49,9 @@ Where does the data exist, and what steps do you need to take to convert the dat
 
 By using the Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform. A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user. This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Skype for Business client. The user can then choose the most appropriate location.
 
-To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema. For details, see  ["[MS-E911WS]: Web Service for E911 Support Protocol Specification"](https://go.microsoft.com/fwlink/p/?linkid=213819). For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
+To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema. For details, see  ["[MS-E911WS]: Web Service for E911 Support Protocol Specification"](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd). For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
 
-For details about populating the location database, see [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in the Deployment documentation.
+For details about populating the location database, see [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) in the Deployment documentation.
 
 ## Maintaining the Location Database
 
@@ -64,5 +64,3 @@ There are several scenarios that require an update to the location database, inc
  **Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**
 
 If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database. If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.
-
-

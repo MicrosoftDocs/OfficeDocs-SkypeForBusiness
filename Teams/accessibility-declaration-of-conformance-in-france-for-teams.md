@@ -204,4 +204,4 @@ Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE 
 
 ## Related topics
 
-[Accessibility solutions for Skype for Business Online in France](/microsoftteams/accessibility-solutions-in-france)
+[Accessibility solutions for Skype for Business Online in France](./accessibility-solutions-in-france.md)

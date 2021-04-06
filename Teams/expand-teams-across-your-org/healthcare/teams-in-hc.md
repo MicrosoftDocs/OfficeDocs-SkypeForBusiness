@@ -38,14 +38,14 @@ Microsoft Teams offers a number of telemedicine features useful for hospitals an
 - Teams templates
 - Care coordination and collaboration
 
-This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare).
+This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](/industry/healthcare).
 
 Watch the following video to learn more about using the healthcare collection to enhance health team collaboration in Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> The content in this section assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../How-to-roll-out-teams.md).
+> The content in this section assumes that you've already deployed Teams in your organization. If you haven't yet rolled out Teams, start by reading [How to roll out Microsoft Teams](../../deploy-overview.md).
 
 The following scenarios are available for healthcare organizations:
 
@@ -94,7 +94,7 @@ Also related to secure messaging is the ability to have other tenants federated 
 
 ## Teams templates for healthcare organizations
 
-New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. To learn more, see [Get started with Teams templates for Healthcare organizations](healthcare-templates.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
+New templates for creating Teams were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create teams that Healthcare workers use to coordinate care for patients in various departments or wards. To learn more, see [Get started with Teams templates for Healthcare organizations](./healthcare-templates-admin-console.md). Teams can be started for internal departments such as cardiology, or for care wards, and more templates are in development.
 
 ## Care coordination and collaboration
 
@@ -123,7 +123,7 @@ In addition, your team can use apps in Teams to:
 
 The Lists app in Teams helps teams track information and organize work. The app is pre-installed for all Teams users and is available as a tab in every team and channel. Lists can be created from scratch, from predefined templates, or by importing data to Excel.
 
-health teams can use the Patients template to get started. They can create lists to track the needs and status of patients. Existing patient data on Excel spreadsheets can be brought in to create a list in Teams. These lists can be used for scenarios such as rounds and patient monitoring to coordinate care.
+Health teams can use the Patients template to get started. They can create lists to track the needs and status of patients. Existing patient data on Excel spreadsheets can be brought in to create a list in Teams. These lists can be used for scenarios such as rounds and patient monitoring to coordinate care.
 
 For example, a charge nurse creates a patient list in a team that includes all health team members. During rounds, the health team access Teams on their mobile devices and update patient information in the list, which everyone on the team can view to stay in sync. At rounding sessions where the health team gathers to discuss and evaluate key health performance metrics to ensure a patient is on the right glide path to discharge, they can share this information using Teams on a large display screen. health team members who aren't on site can join remotely.
 
@@ -143,7 +143,7 @@ To learn more, see [Manage the Tasks app for your organization in Microsoft Team
 
 Use [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) to streamline all of your requests and processes with your team. Create, manage, and share approvals directly from your hub for teamwork. Start an approval flow from the same place you send a chat, in a channel conversation, or from the Approvals app itself. Just select an approval type, add details, attach files, and choose approvers. Once submitted, approvers are notified and can review and act on the request.
 
-You can allow the Approvals app for your organization and add it to your teams. To learn more about managing apps, see [Manage your apps in the Microsoft Teams admin center](../../manage-apps.md).
+You can allow the Approvals app for your organization and add it to your teams. To learn more, see [Teams Approvals app availability](../../approval-admin.md).
 
 ### Create, manage, and share schedules with the Shifts app and Frontline Worker integration
 

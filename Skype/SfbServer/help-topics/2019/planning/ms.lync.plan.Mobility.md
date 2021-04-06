@@ -21,6 +21,4 @@ description: "The mobility feature in Skype for Business Server supports Skype f
  
 The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.
   
-Mobility functionality is the same in Skype for Business Server as in Lync Server 2013. For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).
-  
-
+Mobility functionality is the same in Skype for Business Server as in Lync Server 2013. For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).

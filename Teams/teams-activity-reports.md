@@ -1,5 +1,5 @@
 ---
-title: Use activity reports for Microsoft Teams
+title: "Use activity reports for Microsoft Teams"
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -96,7 +96,7 @@ The activity reports can be accessed by users that are assigned:
 
 ### Reports reader role
 
-You can assign the Reports reader role to people who don’t have administrator rights but are responsible for driving adoption or tracking license usage of Teams. To learn how to assign roles, read [Assign administrator and on-administrator roles to users with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+You can assign the Reports reader role to people who don’t have administrator rights but are responsible for driving adoption or tracking license usage of Teams. To learn how to assign roles, read [Assign administrator and non-administrator roles to users with Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## Other information on the Reports dashboard
 

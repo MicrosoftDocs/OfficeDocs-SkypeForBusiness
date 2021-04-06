@@ -57,9 +57,8 @@ additionalContent:
         # Card
         - title: Expanding your Teams scenarios? 
           summary: Check out our Teams Chalk Talk workshops for IT Pros.
-          url: https://aka.ms/TeamsChalkTalks
+          url: ./chalk-talks-landing-page.yml
         # Card
         - title: New to Teams? 
           summary: Learn more about getting started with Teams.
-          url: https://docs.microsoft.com/microsoftteams/teams-overview
-
+          url: ./teams-overview.md
