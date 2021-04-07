@@ -49,7 +49,9 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
 > [!NOTE]
 > You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
   
-Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) set up. It also requires that a Pay-per-minute license and a Communications Credits license must both be assigned to each user for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+  
+Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) set up. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+
   
 To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Microsoft Office 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
@@ -70,12 +72,12 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 ## Want to find out more about pricing?
 
  **Looking for prices?** See the following:
-  
-- [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [Pricing for Phone System](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Pricing for Calling Plans](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## Related topics
   

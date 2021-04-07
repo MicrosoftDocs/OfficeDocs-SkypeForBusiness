@@ -187,7 +187,7 @@ This policy turns on Live transcription. Allow transcription is a per-user polic
 
 ![transcription options in meeting policies](media/live-transcription.png)
 
-Live transcription shows speech-to-text of spoken content during a Teams meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live).
+Live transcription shows speech-to-text of spoken content during a Teams meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b).
 
 Currently, live transcription is supported on the Teams desktop client. Transcription is supported for spoken U.S. English. The transcript is available after the meeting on Teams desktop or web.
 
