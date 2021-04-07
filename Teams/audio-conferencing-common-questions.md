@@ -128,7 +128,7 @@ We are working on a solution that will let the user access and reset a PIN witho
     
 - *1 (Plays the descriptions of dial-pad commands that are available) 
 
-- *2, *21, *22 (Lobby and Entry notifications)
+- *2, *21, *22 (Lobby and entry notifications)
     
 ## Can attendees dial out to international phone numbers when they are in a Skype for Business or Microsoft Teams meeting?
 
