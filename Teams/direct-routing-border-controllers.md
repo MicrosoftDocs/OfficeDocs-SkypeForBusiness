@@ -201,7 +201,7 @@ The following table lists devices that are verified for interoperability between
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 
-### [*TE-SYSTEMS**](#tab/TE-SYSTEMS/)
+### [**TE-SYSTEMS**](#tab/TE-SYSTEMS/)
 
 |                                                       Vendor                                                        |       Product       | Verified
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
