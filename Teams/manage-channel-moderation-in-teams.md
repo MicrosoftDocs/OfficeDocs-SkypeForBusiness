@@ -61,7 +61,7 @@ Channel moderation is a per-channel setting. There's no tenant-level setting for
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![manage-channel-moderation-in-teams-preferences.png](media/manage-channel-moderation-in-teams-preferences.png)
+![preferences for managing-channel-moderation-in-teams](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### Turn on or turn off moderation for a channel
 
