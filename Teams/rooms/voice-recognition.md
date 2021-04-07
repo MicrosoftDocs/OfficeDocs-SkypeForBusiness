@@ -31,7 +31,7 @@ Intelligent Speakers use biometric information to recognize who said what in liv
 
 Intelligent Speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent Speakers include a special seven-microphone array and Microsoft Office graph. The speakers use biometric information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
 
-## Review the speaker requirements
+### Intelligent Speakers requirements
 
 The following items are Intelligent Speaker requirements:
 
