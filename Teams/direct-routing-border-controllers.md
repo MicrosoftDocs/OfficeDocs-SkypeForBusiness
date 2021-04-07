@@ -162,50 +162,25 @@ If you have any questions about the SBC certification program for Direct Routing
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
 
+* * *
 ## Direct routing and analog devices interoperability
 
 The following table lists devices that are verified for interoperability between Direct Routing and Analog Devices.
 
-### [Direct routing and analog devices interoperability vendors](#tab/Directroutingandanalogdevicesinteroperabilityvendors/)
-
-### [**AudioCodes**](#tab/AudioCode/)
-
 |                                                       Vendor                                                        |       Product       | Verified
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
-
-### [**Cisco**](#tab/Cisco/)
-
-|                                                       Vendor                                                        |       Product       | Verified
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|  
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     | 
 | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform Analog Telephone Adapter |     &#10004;     |
-
-### [**Oracle**](#tab/Oracle/)
-
-|                                                       Vendor                                                        |       Product       | Verified
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 Software Version 8.3.0.1.2 |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 Software Version 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 Software Version 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 Software Version 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 Software Version 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME Software Version 8.3.0.1.2 |     &#10004;     |
-
-### [**Ribbon**](#tab/Ribbon/)
-
-|                                                       Vendor                                                        |       Product       | Verified
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-
-### [**TE-SYSTEMS**](#tab/TE-SYSTEMS/)
-
-|                                                       Vendor                                                        |       Product       | Verified
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode with Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
-
-* * *
   
 To give us product feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com).
 Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.
