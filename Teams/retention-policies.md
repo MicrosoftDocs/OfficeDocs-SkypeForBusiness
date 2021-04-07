@@ -60,7 +60,7 @@ In many cases, organizations consider private chat data as more of a liability t
 
 You can set up separate retention policies for private chats (1:1 or 1:many chats) and channel messages. You can also configure unique policies that apply to specific users or teams in your organization. For Teams chats, you can select which users the policy applies to. For Teams channel messages, you can select which teams the policy applies to.
 
-For example, for channel messages, you can apply a retention policy to specific teams in your organization and that policy is configured with a delete action after one year. Then apply another retention policy to all other teams and that policy is configured with a delete action after one year.
+For example, for channel messages, you can apply a retention policy to specific teams in your organization and that policy is configured with a delete action after 1 year. Then apply another retention policy to all other teams and that policy is configured with a delete action after 3 years.
 
 ## Create and manage retention policies for Teams
 
