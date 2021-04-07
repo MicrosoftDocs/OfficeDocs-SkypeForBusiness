@@ -28,7 +28,7 @@ description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 eac
 
 ## Microsoft Teams and Skype for Business PSTN Audio Conferencing
 
-Each Audio Conferencing subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the Zone A countries as described in this document. Your tenant dial-out minute pool size is based on *purchased* licenses. This benefit is applicable to Audio Conferencing *monthly subscription* licenses and does not extend to Audio Conferencing pay-per-minute licenses. 
+Each Audio Conferencing subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the Zone A countries as described in this document. Your tenant dial-out minute pool size is based on *purchased* licenses. This benefit is applicable to Audio Conferencing *monthly subscription* licenses and does not extend to Audio Conferencing pay-per-minute licenses.
 
 > [!NOTE]
 > As of October 22, 2020, the dial-out minute pool size of our tenant is based on the number of *purchased* Audio Conferencing subscription licenses. Before, the dial-out minute pool size was based on the number of licenses that were *assigned* to users.
@@ -62,7 +62,11 @@ For customers adopting our Audio Conferencing service, Microsoft provides the ab
 
 Consider the following example. A customer has purchased 115 Audio Conferencing subscription licenses and has 10 users in the United States, 100 users in the United Kingdom, and 5 users in Zimbabwe, all with Audio Conferencing subscription licenses assigned. All 115 users share a pool of (115 users x 60 min = 6,900 conferencing dial-out out minutes per calendar month) to place outbound calls to non-premium numbers in any of the [Zone A countries and regions](audio-conferencing-zones.md), *regardless* of where the meeting organizer is licensed or physically located. For example, a Zimbabwe meeting organizer will be able to dial out to any of the [Zone A countries and regions](audio-conferencing-zones.md) up to the minute pool limit.
 
-- All dial-out calls exceeding 6,900 minutes per calendar month are billed per minute using Communications Credits at our published rates to that destination. (Note: The customer must set up [Communications Credits](what-are-communications-credits.md) and assign the Communications Credits license to the meeting organizer.)
+- All dial-out calls exceeding 6,900 minutes per calendar month are billed per minute using Communications Credits at our published rates to that destination. 
+
+   > [!NOTE]
+   > The customer must set up [Communications Credits](what-are-communications-credits.md) and assign the Communications Credits license to the meeting organizer.)
+
 - All dial-out calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list are billed per minute using Communications Credits at our published rates to that destination (provided the customer has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
 ## How can I monitor minute my pool usage?
