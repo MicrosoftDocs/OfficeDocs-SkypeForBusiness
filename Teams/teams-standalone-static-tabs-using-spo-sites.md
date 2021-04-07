@@ -232,4 +232,31 @@ The JSON file you generate will look something like the one below.
     }
 
 }
+
+## Troubleshooting guide
+There are certain issues that can arise to add SharePoint site/pages as Personal tab.
+
+Possible issues:
+Personal tab with SharePoint site/page is loading sometimes and showing blank screen intermittently.
+Working fine in Teams webclient(https://teams.microsoft.com) and not working in Desktop teams client. Showing blank screen.
+
+Possible reasons and solution:
+1. contentURL and Website URL might have given wrong.:
+   contentUrl in manifest must be in following format: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}
+     Ex: https://contoso.sharepoint.com/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+     Ex2: https://orgtenantname.sharepoint.com/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/site2
+
+  websiteUrl must be in following format: {{siteUrl}}
+     Ex: https://contoso.sharepoint.com/sites/ContosoHub
+     Ex2: https://orgtenantname.sharepoint.com/teams/site2
+
+2. SSO(single sign-on) properties missing in manifest
+   Make sure you added following properties in manifest:
+   AAD application ID: 00000003-0000-0ff1-ce00-000000000000
+   Resource Url: {{subdomain}}.sharepoint.com
+      Ex: https://contoso.sharepoint.com
+      Ex2: https://orgtenantname.sharepoint.com
+
+Final generated manifest should be similar as shown here: https://docs.microsoft.com/en-us/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites#a-sample-manifestjson-file
+
 ```
