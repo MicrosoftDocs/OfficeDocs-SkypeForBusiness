@@ -12,6 +12,7 @@ ms.collection:
   - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
+localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Practical guidance for deploying cloud voice features in Teams to record Teams meetings and group calls to capture audio, video, and screen sharing activity.
