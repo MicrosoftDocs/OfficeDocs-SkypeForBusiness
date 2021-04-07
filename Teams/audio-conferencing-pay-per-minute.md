@@ -72,12 +72,12 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 ## Want to find out more about pricing?
 
  **Looking for prices?** See the following:
-  
-- [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [Pricing for Phone System](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Pricing for Calling Plans](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## Related topics
   
