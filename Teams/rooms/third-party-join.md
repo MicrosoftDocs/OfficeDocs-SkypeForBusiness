@@ -107,4 +107,4 @@ You can optionally specify a custom username and email address to join third-par
 ```
 
 > [!NOTE]
-> To join Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted using Cisco WebEx web application version WBS 40.7 or later. ThirdParty join is not supported by WebEx for the Personal Conference option because of encryption. Customers will have to use the WebEx Meetings Pro option. 
+> To join a Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted using Cisco WebEx web application version WBS 40.7 or later. Joining a third-party meeting is not supported by the WebEx Personal Conference option because of encryption. You would need to use the WebEx Meetings Pro option. 
