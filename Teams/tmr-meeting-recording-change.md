@@ -35,7 +35,7 @@ appliesto:
 Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits.
 
 > [!NOTE]
-> If a Teams meeting recording fails to successfully upload to OneDrive/SharePoint, the recording will instead be temporarily saved to Azure Media Services (AMS). Once stored in   AMS, no retry attempts are made to automatically upload the recording to OneDrive/SharePoint or Stream.
+> If a Teams meeting recording fails to successfully upload to OneDrive/SharePoint, the recording will instead be temporarily saved to Azure Media Services (AMS). Once stored in AMS, no retry attempts are made to automatically upload the recording to OneDrive/SharePoint or Stream.
 
 Meeting recordings stored in AMS are available for 21 days before being automatically deleted. Users can download the video from AMS if they need to keep a copy.
 
