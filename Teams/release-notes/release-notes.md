@@ -15,12 +15,12 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-description: Release notes for Microsoft Teams admin features. 
+description: Release notes for Microsoft Teams. 
 ---
 
-# Release notes for Microsoft Teams admin features
+# Release notes for Microsoft Teams
 
-These release notes provide information about new admin features for Microsoft Teams.
+These release notes provide information about new features for Microsoft Teams.
 
 ## March 31, 2021
 
