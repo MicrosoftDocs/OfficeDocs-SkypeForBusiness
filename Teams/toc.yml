@@ -624,6 +624,8 @@ items:
           href: google-workspace-addon-teams.md
         - name: Cloud Video Interop
           href: cloud-video-interop.md
+        - name: Set up for webinars in Microsoft Teams
+          href: set-up-webinars.md 
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
