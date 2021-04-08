@@ -29,9 +29,11 @@ If your organization uses Teams or Skype for Business Online with an on-premises
 
 To complete your move from on-premises to the cloud and decommission your on-premises Skype for Business Server environment, you must complete the following steps in the following order:
 
-- **Step 1.** [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md).
+- **Step 1.** [Move all required users from on-premises to online](decommission-move-on-prem-users.md).
 
 - **Step 2.** [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- **Step 3.** [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
+- **Step 3.** [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
+
+- **Step 4.** [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
