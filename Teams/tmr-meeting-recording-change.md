@@ -63,29 +63,29 @@ Watch "What's New for Microsoft Teams Meeting Recordings" for more information.
 The meeting recording option is a setting at the Teams policy level. The following example shows how to set the Global policy. Make sure that you set the meeting recording option for the policy or policies that you've assigned to your users.
 
 > [!Note]
-> Teams meeting policy changes take awhile to propagate. Check back after a few hours of setting it, then sign out and sign in again.
+> Teams meeting policy changes take a while to propagate. Check back after a few hours of setting it, then sign out and sign in to the Teams Desktop app again or simply restart your computer.
 
 1. Install Teams PowerShell PowerShell.
 
    > [!NOTE]
    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module. If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector. See [Manage Skype for Business Online with PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
 
-1. Launch PowerShell as an admin.
+2. Launch PowerShell as an admin.
 
-2. Install [Teams PowerShell module](./teams-powershell-install.md).
+3. Install [Teams PowerShell module](./teams-powershell-install.md).
 
-3. Import the MicrosoftTeams module and sign in as a Teams admin.
+4. Import the MicrosoftTeams module and sign in as a Teams admin.
 
 
-```powershell
-  # When using Teams PowerShell Module
-
+   ```powershell
+   # When using Teams PowerShell Module
+   
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
-```
+   ```
 
-4. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
+5. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
