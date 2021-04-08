@@ -101,7 +101,7 @@ To set up an auto attendant
 
 4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you create a separate call flow for after hours.
 
-5. Specify a language for this auto attendant. This the language that will be used for system-generated voice prompts.
+5. Specify a language for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
 6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
