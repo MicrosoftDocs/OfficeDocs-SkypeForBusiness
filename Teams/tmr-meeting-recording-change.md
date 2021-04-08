@@ -146,6 +146,10 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 - For Channel meetings, permissions are inherited from the owners and members list in the channel.
 
+> [!NOTE]
+> You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously.
+> You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.  
+
 **How can I manage captions?**
 
 Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) to ensure their users have the option to record meetings with transcription.
@@ -155,6 +159,9 @@ Captions help create inclusive content for viewers of all abilities. As an owner
 Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
 
 Closed captions aren't fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive for Business or SharePoint.
+
+> [!NOTE]
+> There will be English-only closed captions (meeting transcription is not yet available in GCC).
 
 **How will my storage quota be impacted?**
 
