@@ -52,7 +52,7 @@ There are several ways to control who has access to the Bookings app and to spec
 
 ## Recommended Meeting Policy Settings
 
-To enable the best experience for Bookings, create a staff meeting policy to automatically admit **Everyone in your organization**. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-in-teams.md#automatically-admit-people).
+To enable the best experience for Bookings, create a staff meeting policy to automatically admit **Everyone in your organization**. This will allow staff to join the appointment automatically and enable lobby experience for external attendees. You can learn more about [automatically admitting people to meetings](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 ### Optional staff approvals setting
 

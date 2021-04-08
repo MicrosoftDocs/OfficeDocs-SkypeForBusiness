@@ -110,6 +110,10 @@ You use the **Add to team** button to install an app to a team. Keep in mind tha
 2. Select **Add to team**.
 3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
+## Customize an app (in preview)
+
+You can now customize an app to include a specific look and feel according to your organization needs. See [Customize apps in Teams](customize-apps.md).
+
 ## Purchase services for third-party apps
 
 You can search for and purchase licenses for services offered by third-party apps for users in your organization directly from the Manage apps page. The **Licenses** column in the table indicates whether an app offers a paid SaaS subscription. Click **Purchase now** to view plans and pricing information and buy licenses for your users. To learn more, see [Purchase services for Teams third-party apps in the Microsoft Teams admin center](purchase-third-party-apps.md).
@@ -143,10 +147,6 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 4. Click **Save** for org-wide app settings to take effect.
-
-## Customize an app (in preview)
-
-You can now customize an app to include a specific look and feel according to your organization needs. [Customize apps in Teams](customize-apps.md)
 
 ## Related topics
 

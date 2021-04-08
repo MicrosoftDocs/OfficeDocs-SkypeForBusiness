@@ -34,7 +34,7 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 
 > [!NOTE]
 > - There is **no direct URL** that links to the Teams add-in.
-> - There are additional considerations if your organization runs both Teams and Skype for Business. Under some circumstances, the Teams add-in is not available in Outlook. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview) for details.
+> - There are additional considerations if your organization runs both Teams and Skype for Business. Under some circumstances, the Teams add-in is not available in Outlook. See [Upgrade from Skype for Business to Teams](upgrade-to-Teams-on-prem-tools.md) for details.
 > - User permissions to execute the Regsvr32.exe file is a minimum requirement for the Teams Meeting add-in to be installed on the computer.
 > - If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
 > - If you are using an Office Outlook installation from the Microsoft Store, the Teams Meeting add-in isn't supported. Users who require this add-in are advised to install Click-to-Run version of Office, as outlined in [Office on Windows 10 in S mode](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) article.
@@ -110,7 +110,7 @@ Due to certain limitations in the initial release, Outlook mobile can only suppo
 
 As an admin, you can configure a Teams meeting policy setting to control which Outlook meeting add-in is used for *users who are in Islands mode*. You can specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook.
 
-You can only apply this policy to users who are in Islands mode and have the **AllowOutlookAddIn** parameter set to **True** in their Teams meeting policy. For steps on how to set this policy, see [set the meeting provider for users in Islands mode](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+You can only apply this policy to users who are in Islands mode and have the **AllowOutlookAddIn** parameter set to **True** in their Teams meeting policy. For steps on how to set this policy, see [Meeting policy settings - General](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## Other considerations
 
@@ -137,7 +137,7 @@ Alternatively, perform the following steps manually:
 
 - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
-- Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Manage meeting policies in Teams](./meeting-policies-in-teams.md#allow-the-outlook-add-in) for more details.
+- Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Meeting policy settings - General](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) for more details.
 - Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
 - Ensure the user has Outlook 2013 or later installed.
 - Make sure the user has permission to execute regsvr32.exe.

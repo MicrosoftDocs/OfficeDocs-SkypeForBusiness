@@ -23,6 +23,9 @@ appliesto:
 
 # Azure Sentinel and Microsoft Teams
 
+> [!IMPORTANT]
+> Azure Sentinel now has an integrated connector. For more information, see [Connect Office 365 Logs to Azure Sentinel](/azure/sentinel/connect-office-365). This is the recommended route for collecting these logs and supersedes the collection methods described below.
+
 Teams serves a central role in both communication and data sharing in the Microsoft 365 Cloud. Because the Teams service touches on so many underlying technologies in the Cloud, it can benefit from human and automated analysis not only when it comes to *hunting in logs*, but also in *real-time monitoring of meetings*. Azure Sentinel offers admins these solutions.
 
 > [!NOTE]
@@ -39,13 +42,13 @@ This article focuses on collecting Teams activity logs in Azure Sentinel. Aside 
 
 This section has three parts:
 
-1. Enabling Audit Logs in **Microsoft 365** (M365).
+1. Enabling Audit Logs in **Microsoft 365**.
 2. Registering an App in **Microsoft Azure** to permit authentication and authorization for log collection.
-3. Registering the API subscription that will allow log collection via M365 API via **PowerShell**.
+3. Registering the API subscription that will allow log collection via Microsoft 365 API via **PowerShell**.
 
-### Enable Audit logs in M365
+### Enable Audit logs in Microsoft 365
 
-Because Teams logs activity through M365, audit logs aren't collected by default. Turn on this feature via [these steps](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Teams data is collected in the M365 audit under *Audit.General*.
+Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature via [these steps](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
 
 ### Register an App in Microsoft Azure for log collection
 
@@ -71,7 +74,7 @@ Authenticate and authorize an Azure Active Directory (Azure AD) app to collect l
 
 ### Register the API with PowerShell to collect Teams logs
 
-The final step in setup is to collect and register the API subscription so that you can collect your log data. This is done via PowerShell REST calls to the M365 Management Activity API.
+The final step in setup is to collect and register the API subscription so that you can collect your log data. This is done via PowerShell REST calls to the Microsoft 365 Management Activity API.
 
 Be ready to supply **Application (client) ID**, the new **Client Secret**, your **URL domain for M365**, and **Directory (tenant) ID** values in the PowerShell cmdlet below.
 
