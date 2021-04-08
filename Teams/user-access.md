@@ -53,6 +53,9 @@ The steps are different depending on whether you use the **Licenses** page or **
 
 ### Remove a Teams license
 
+> [!IMPORTANT]
+> It takes about 24 hours for disabling a Teams SKU to take effect.
+
 When you remove a Teams license from a user, Teams is disabled for that user, and they will no longer see Teams in the app launcher or homepage. For detailed steps, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 |||

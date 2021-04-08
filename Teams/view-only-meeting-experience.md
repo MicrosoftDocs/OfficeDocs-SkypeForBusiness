@@ -100,9 +100,6 @@ The view-only attendee won't be able to experience the following options in meet
 - Join the view-only room using Microsoft Teams Rooms system or using Cloud Video Interop (CVI) services.
 - Share their audio or video.
 - See or participate in the meeting chat.
-  - The first 1000 (or 300 depending on your main meeting limit) users invited to the meeting will be added to the chat.
-  - While view-only users won't see the chat in the meeting, they might still be able to chat on the main app if they were the first 350 people invited.
-  - Conversely, if an interactive user wasn't part of the first 350 users invited to the meeting, they'll not get access to the meeting chat both on the main Teams App and in the meeting.
 - See the video feed of meeting participants unless the participant is the active speaker.
 - See PowerPoint files that are shared using the PowerPoint Live functionality or individual application shares (other than desktop or screen sharing).
 - Raise their hand in the meeting.
