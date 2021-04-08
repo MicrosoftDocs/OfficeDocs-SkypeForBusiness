@@ -28,7 +28,7 @@ This article describes how to move required hybrid application endpoints to the 
 
 - Step 2. [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- **Step 3. Move hybrid application endpoints from on-premises to online.** (This article.)
+- **Step 3. Move hybrid application endpoints from on-premises to online.** (This article)
 
 - Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
@@ -78,6 +78,8 @@ You are now ready to [remove your on-premises Skype for Business deployment](dec
 ## See also
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
+- [Move all required users from on-premises to online](decommission-move-on-prem-users.md)
 
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
