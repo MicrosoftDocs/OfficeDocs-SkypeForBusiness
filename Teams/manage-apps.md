@@ -18,8 +18,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ---
-Manage your apps in the Microsoft Teams admin center
-======================================================
+# Manage your apps in the Microsoft Teams admin center
 
 As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams, purchase services for third-party apps, view permissions requested by apps, grant admin consent to apps, and manage org-wide app settings.
 
@@ -110,6 +109,10 @@ You use the **Add to team** button to install an app to a team. Keep in mind tha
 1. Search for the app you want, and then select the app by clicking to the left of the app name.
 2. Select **Add to team**.
 3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
+
+## Customize an app (in preview)
+
+You can now customize an app to include a specific look and feel according to your organization needs. See [Customize apps in Teams](customize-apps.md).
 
 ## Purchase services for third-party apps
 

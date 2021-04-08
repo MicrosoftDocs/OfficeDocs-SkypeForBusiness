@@ -23,7 +23,7 @@ Education institutions provide a safe and healthy digital space for students. Th
 
 Supervised chat allows designated educators to initiate chats with students and blocks students from starting new chats unless an appropriate educator is present. When chat supervision is enabled, supervisors aren't allowed to leave chats and other participants aren't allowed to remove them, ensuring that chats involving students are properly supervised.
 
-These limitations are only applied to new private chats that are created after supervised chat has been fully enabled. They don't apply to existing private chats, meetings chats, or channels. To learn more about best practices for meeting chat or channel safety, view student safety guide.
+These limitations are only applied to new private chats that are created after supervised chat has been fully enabled. They don't apply to existing private chats, meetings chats, or channels. To learn more about best practices for meeting chat, channel safety, and keeping students safe, view [Keeping students safe while using Teams](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators).
 
 > [!Note]
 > Supervised chat protects new chats created after the feature is enforced.  It doesn't protect existing chats.

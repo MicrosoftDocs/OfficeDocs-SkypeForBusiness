@@ -225,8 +225,16 @@ items:
               href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
             - name: Manage meeting migration
               href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
-        - name: Disable hybrid to complete migration to the cloud
-          href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+        - name: Decommission your on-premises Skype for Business environment
+          items: 
+            - name: Overview
+              href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
+            - name: Move users and endpoints to the cloud
+              href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
+            - name: Disable hybrid to complete migration to the cloud
+              href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+            - name: Remove your Skype for Business deployment
+              href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
         - name: Deploy a resource forest topology
           href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
         - name: Cloud consolidation for Teams and Skype for Business Online
@@ -320,15 +328,17 @@ items:
       items:
         - name: Overview
           href: manage-teams-with-policies.md
-        - name: Assign policies to your users
-          href: assign-policies.md
-        - name: View your policy assignments in the Activity log
-          href: activity-log.md
+        - name: Assign policies in Teams - getting started
+          href: policy-assignment-overview.md
+        - name: Assign policies to users and groups
+          href: assign-policies-users-and-groups.md
+        - name: Assign policy packages
+          href: assign-policy-packages.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
           href: manage-policy-packages.md
-    - name: Communicate with external users
+    - name: Work with people outside the organization
       items: 
         - name: Communicate with users from other organizations
           href: communicate-with-users-from-other-organizations.md
@@ -336,7 +346,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat for external users
+            - name: Native Teams chat
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -348,13 +358,11 @@ items:
               href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
-            - name: Authorize guest access
-              href: teams-dependencies.md
             - name: Turn guest access on or turn off
               href: set-up-guests.md
             - name: Add a guest to a team
               href: view-guests.md
-            - name: Edit guest user information
+            - name: Edit guest information
               href: edit-guests-information.md
             - name: Troubleshoot guest access
               href: troubleshoot-guest-access.md
@@ -512,7 +520,7 @@ items:
           href: manufacturing-teams-templates-in-the-admin-console.md
         - name: Manage Teams template policies
           href: templates-policies.md
-    - name: Communicate with external users
+    - name: Work with people outside the organization
       items: 
         - name: Communicate with users from other organizations
           href: communicate-with-users-from-other-organizations.md
@@ -520,7 +528,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat for external users
+            - name: Native Teams chat
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -538,9 +546,9 @@ items:
               href: set-up-guests.md
             - name: Add a guest to a team
               href: add-guests.md
-            - name: View guest users in a team
+            - name: View guests in a team
               href: view-guests.md
-            - name: Edit guest user information
+            - name: Edit guest information
               href: edit-guests-information.md
             - name: Troubleshoot guest access
               href: troubleshoot-guest-access.md
@@ -559,9 +567,25 @@ items:
     - name: Meetings
       items:
         - name: Manage meeting policies
-          href: meeting-policies-in-teams.md
-        - name: Remove the RestrictedAnonymousAccess meeting policy from users
-          href: meeting-policies-restricted-anonymous-access.md
+          items: 
+            - name: Overview
+              href: meeting-policies-overview.md
+            - name: General policies
+              href: meeting-policies-in-teams-general.md
+            - name: Audio and video policies
+              href: meeting-policies-audio-and-video.md
+            - name: Content and screen sharing policies
+              items:
+                - name: Content sharing
+                  href: meeting-policies-content-sharing.md
+                - name: Configure desktop sharing
+                  href: configure-desktop-sharing.md
+            - name: Participant, guest, and access policies
+              items:
+                - name: Participants and guest policies
+                  href: meeting-policies-participants-and-guests.md
+                - name: Remove the RestrictedAnonymousAccess meeting policy from users
+                  href: meeting-policies-restricted-anonymous-access.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
@@ -1220,8 +1244,6 @@ items:
           href: business-voice/prepare-users.md
     - name: Run the Getting Started wizard
       href: business-voice/use-getting-started-wizard.md
-    - name: Things to try
-      href: business-voice/things-to-try.md
     - name: Customize your setup
       items: 
         - name: Customization options
@@ -1510,6 +1532,8 @@ items:
       items: 
         - name: Manage your devices in Teams
           href: devices/device-management.md
+        - name: Remote provisioning and sign-in
+          href: devices/remote-provision-remote-login.md
         - name: Update your devices remotely
           href: devices/remote-update.md
         - name: Manage Teams device tags
