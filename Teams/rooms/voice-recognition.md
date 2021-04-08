@@ -41,7 +41,7 @@ The following items are Intelligent Speaker requirements:
 
 ## Set up the Intelligent Speaker
 
-Yealink Rockfall connects directly using USB to the Teams Rooms console. For best results, we recommend that you use Yealink Rock fall with the Yealink console.
+Yealink Rockfall connects directly using USB to the Teams Rooms console. For best results, we recommend that you use Yealink Rockfall with the Yealink console.
 
 Rockfall should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Rockfall USB cable isn't long enough for your setup, use cable extenders.
 
