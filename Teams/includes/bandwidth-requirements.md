@@ -3,6 +3,7 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
 
 |Bandwidth(up/down) |Scenarios |
 |---|---|
+|6 kbps |Peer-to-peer audio calling, with [Satin codec](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/satin-microsoft-s-latest-ai-powered-audio-codec-for-real-time/ba-p/2141382) |
 |30 kbps |Peer-to-peer audio calling |
 |130 kbps |Peer-to-peer audio calling and screen sharing |
 |500 kbps |Peer-to-peer quality video calling 360p at 30fps |
