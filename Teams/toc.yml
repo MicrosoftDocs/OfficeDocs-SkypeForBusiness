@@ -225,8 +225,16 @@ items:
               href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
             - name: Manage meeting migration
               href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
-        - name: Disable hybrid to complete migration to the cloud
-          href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+        - name: Decommission your on-premises Skype for Business environment
+          items: 
+            - name: Overview
+              href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
+            - name: Move users and endpoints to the cloud
+              href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
+            - name: Disable hybrid to complete migration to the cloud
+              href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+            - name: Remove your Skype for Business deployment
+              href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
         - name: Deploy a resource forest topology
           href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
         - name: Cloud consolidation for Teams and Skype for Business Online
@@ -559,9 +567,25 @@ items:
     - name: Meetings
       items:
         - name: Manage meeting policies
-          href: meeting-policies-in-teams.md
-        - name: Remove the RestrictedAnonymousAccess meeting policy from users
-          href: meeting-policies-restricted-anonymous-access.md
+          items: 
+            - name: Overview
+              href: meeting-policies-overview.md
+            - name: General policies
+              href: meeting-policies-in-teams-general.md
+            - name: Audio and video policies
+              href: meeting-policies-audio-and-video.md
+            - name: Content and screen sharing policies
+              items:
+                - name: Content sharing
+                  href: meeting-policies-content-sharing.md
+                - name: Configure desktop sharing
+                  href: configure-desktop-sharing.md
+            - name: Participant, guest, and access policies
+              items:
+                - name: Participants and guest policies
+                  href: meeting-policies-participants-and-guests.md
+                - name: Remove the RestrictedAnonymousAccess meeting policy from users
+                  href: meeting-policies-restricted-anonymous-access.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
