@@ -20,7 +20,7 @@ description: Release notes for Microsoft Teams.
 
 # Release notes for Microsoft Teams
 
-These release notes provide information about new features for Microsoft Teams.
+These release notes provide information about new admin features for Microsoft Teams.
 
 ## March 31, 2021
 
