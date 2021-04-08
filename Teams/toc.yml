@@ -233,9 +233,9 @@ items:
               href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
             - name: Disable hybrid to complete migration to the cloud
               href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
-            - name: Remove your Skype for Business deployment
             - name: Move application endpoints to the cloud
               href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
+            - name: Remove your Skype for Business deployment
               href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
         - name: Deploy a resource forest topology
           href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
