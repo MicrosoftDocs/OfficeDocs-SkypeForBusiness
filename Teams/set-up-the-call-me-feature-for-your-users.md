@@ -25,16 +25,16 @@ In Microsoft Teams, the **Call me** feature gives users a way to join the audio 
 
 > [!IMPORTANT]
 > 
-> During periods of high meeting volume (which we've been experiencing in conjunction with the COVID-19 outbreak), we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network. 
+> During periods of high meeting volume (which we've been experiencing in conjunction with the COVID-19 outbreak), we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.
 
-> [!IMPORTANT]
-> During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the **Join Teams Meeting** button rather than dialing in by using the PSTN conference numbers or by using **Call me at**</strong>. This is primarily because of congestion in the telephony infrastructures of countries impacted by COVID-19. By avoiding PSTN calls, you'll likely experience better audio quality. 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## The user experience
 
 ### Join a meeting by using phone for audio
 
-Click **Join** to join a meeting, and then click **Phone audio** on the  **Choose your audio and video settings** screen. From here, users can have the meeting call and join them or dial in manually to the meeting.
+Click **Join** to join a meeting, then **Phone audio** on the **Choose your video and audio options** screen, and click **Join now**. From here, users can have the meeting call and join them or dial in manually to the meeting.
 
 ![Screen shot of the Phone audio option](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
@@ -66,6 +66,6 @@ To enable the Call me feature for users in your organization, the following must
 
 - Audio Conferencing is enabled for users in your organization who schedule meetings (meeting organizers). To learn more, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md) and [Manage the Audio Conferencing settings for a user in Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 
-- Users can dial out from meetings. To learn more, see [Manage the Audio Conferencing settings for a user in Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
+- Meeting organizer can dial-out from meetings. To learn more, see [Manage the Audio Conferencing settings for a user in Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 
-If a user doesn't have dial out from meetings enabled, the **Call me** option isn't available and the user won't receive a call to join them to the meeting. Instead, the user sees a list of phone numbers on the **Use phone for audio** screen that they can use to dial in manually to the meeting on their phone.
+If the meeting organizer doesn't have dial-out from meetings enabled, the **Phone audio** option on the **Choose your video and audio options** screen isn't available to anyone, and other users can't receive a call to join them to the meeting. For users with dial-out enabled, once they have joined the meeting, they can join others dialing their number from the **Show participants** icon.
