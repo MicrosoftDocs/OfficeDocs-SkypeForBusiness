@@ -27,7 +27,7 @@ The Manage apps page gives you a view into all available apps, providing you wit
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 
 > [!NOTE]
-> The Manage apps page isn't available yet in Microsoft 365 Government Community Cloud (GCC) deployments of Teams.
+> The Manage apps page isn't available yet in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
 
 ## View apps
 
