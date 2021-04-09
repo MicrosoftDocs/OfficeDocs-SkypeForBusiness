@@ -1340,6 +1340,8 @@ items:
           href: teams-app-setup-policies.md
         - name: Manage custom app policies and settings in Teams
           href: teams-custom-app-policies-and-settings.md
+        - name: Customize apps in Teams
+          href: customize-apps.md
 
 - name: Industries and government guidance
   items: 
