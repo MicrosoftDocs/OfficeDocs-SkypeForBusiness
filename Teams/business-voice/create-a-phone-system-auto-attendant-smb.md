@@ -239,7 +239,7 @@ All auto attendants must have an associated resource account.  First level auto 
 
 To add a resource account
 
-1. Click **Add account** and search for the account that you want to add. Click **Add**, and then click **Add**.
+1. Click **Add** and search for the account that you want to add. Click **Add**, and then click **Add**.
 
     ![Screenshot of resource account add accounts panel](../media/auto-attendant-add-resource-account.png)
 
