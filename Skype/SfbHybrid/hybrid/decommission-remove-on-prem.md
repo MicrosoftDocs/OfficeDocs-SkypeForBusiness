@@ -22,13 +22,15 @@ description: "Instructions for decommissioning Skype for Business Server."
 
 # Remove your on-premises Skype for Business deployment
 
-This article describes how to remove your on-premises Skype for Business deployment. This is step 3 of the following steps to decommission your on-premises environment:
+This article describes how to remove your on-premises Skype for Business deployment. This is step 4 of the following steps to decommission your on-premises environment:
 
-- Step 1. [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md). 
+- Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md). 
 
 - Step 2. [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- **Step 3. Remove your on-premises Skype for Business deployment.** (This article)
+- Step 3. [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
+
+- **Step 4. Remove your on-premises Skype for Business deployment.** (This article)
 
 
 > [!IMPORTANT] 
@@ -126,12 +128,11 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
 
-- [Move user and endpoints to the cloud](decommission-move-on-prem-users.md)
+- [Move all required users from on-premises to online](decommission-move-on-prem-users.md)
 
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
 
 
 

@@ -27,11 +27,13 @@ description: "This article includes detailed steps for disabling hybrid as part 
 
 This article describes how to disable your hybrid configuration before decommissioning your on-premises Skype for Business environment. This is step 2 of the following steps to decommission your on-premises environment:
 
-- Step 1. [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md).
+- Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md).
 
 - **Step 2. Disable your hybrid configuration.** (This article)
 
-- Step 3. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
+- Step 3. [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md).
+
+- Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
 
 ## Overview
@@ -238,7 +240,7 @@ This option requires additional effort and proper planning because users who wer
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. After you have completed all steps in Method 2, refer to [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.
+12. After you have completed all steps in Method 2, see [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) and [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.
 
 
 ## See also
@@ -246,3 +248,4 @@ This option requires additional effort and proper planning because users who wer
 - [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
