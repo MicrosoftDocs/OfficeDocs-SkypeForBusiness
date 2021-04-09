@@ -125,15 +125,35 @@ You can configure SharePoint as a learning content source to make your organizat
 
 ### Overview
 
-The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create an empty centralized learning content repository in the form of a structured SharePoint list. This list can be used by the organization to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in the Teams Learning app (private preview).
+The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create an empty centralized location—the Learning App Content Repository—in the form of a structured SharePoint list. This list can be used by your organization to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning (private preview).
+
+Viva Learning (private preview) supports the following document types:
+
+- Word, PowerPoint, Excel, PDF
+- Audio (.m4a)
+- Video (.mov, .mp4, .avi)
+
+For more information, see the [SharePoint Online documentation](https://docs.microsoft.com/sharepoint/introductionlink). 
 
 ### Permissions
 
-Folder URLs can be collected from any SharePoint site in the organization. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
- 
+Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning (private preview) follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visable within Viva Learning (private preview). Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
+
+Content deletion from your organization’s repository is not currently supported.
+
+To remove unintentionally surfaced content, follow these steps:
+
+1.	To restrict access on the document library, select the **Show actions** option, and then select **Manage access**.
+	 
+   ![Document library page in SharePoint showing Show actions option with Manage access highligted.](media/sharepoint-permissions2.png)
+
+2.	Delete the original document within the document library.
+
+For more information, see [Sharing and permissions in the SharePoint modern experience](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions). 
+
 ### Learning Service
 
-The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization’s content within Viva Learning (private preview). Content deletion from the repository isn't supported at this point. Unintentionally surfaced content can only be removed by supplying a new SharePoint site URL in the Microsoft 365 admin center.
+The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization’s content within Viva Learning (private preview). All changes to content, including updated metadata and permissions, will also be applied in the Learning Service within 24 hours.
 
 ### Configure SharePoint as a source
 
@@ -151,7 +171,7 @@ To configure SharePoint as a learning content sources in for Viva Learning (priv
 
    ![Learning panel in the Microsoft 365 admin center showing SharePoint selected.](media/learning-app-365-panel-sharepoint-selected.png)
 
-4.	A SharePoint list is created automatically within the provided organization’s SharePoint site. In the left navigation of the SharePoint site, select **Learning App Content Repository**. 
+4.	A SharePoint list is created automatically within the provided SharePoint site. In the left navigation of the SharePoint site, select **Site contents** > **Learning App Content Repository**. 
 
    ![Left navigation in SharePoint showing the Learning App Content Repository section.](media/learning-app-content-repository-nav.png)
 
@@ -170,7 +190,21 @@ To configure SharePoint as a learning content sources in for Viva Learning (priv
 
    ![Learning Content Repository page in SharePoint showing the updated information.](media/learning-app-content-repository-populated.png)
 
+> [!NOTE]
+> Coming soon: To allow for broader access to the Learning App Content Repository, a link to the list will be surfaced in Viva Learning interface where tenant users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site as a while where the list is stored.
 
+### Folder URL document library curation
+
+Default metadata (such as modified date, created by, document name, content type, and organization name) is automatically pulled into Viva Learning by the Microsoft Graph API.
  
+To improve overall discovery and search relevance of the content, we recommend adding a **Description** column. To do this:
 
+To add a Description column to the document library page, follow these steps:
+
+1.	Select **Add column**.
+
+2. Select **Single line of text**. 
+
+   ![Learning Content Repository page in SharePoint showing the Add column option.](media/sharepoint-curation-1.png)
+ 
 
