@@ -56,9 +56,9 @@ You can create a resource account in the Teams admin center.
 
 4. Click **Save**.
 
-The new account will appear in the list of accounts.
+    The new account will appear in the list of accounts.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+    ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
 ### Assign a license
 
@@ -101,7 +101,7 @@ To set up an auto attendant
 
 4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you create a separate call flow for after hours.
 
-5. Specify a language for this auto attendant. This the language that will be used for system-generated voice prompts.
+5. Specify a language for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
 6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
@@ -208,11 +208,11 @@ Your auto attendant can have a call flow for each holiday you've set up. You can
 
 7. Click **Save**.
 
-Repeat the procedure as needed for each additional holiday.
-
-![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
-
-When you've added all your holidays, click **Next**.
+    Repeat the procedure as needed for each additional holiday.
+    
+    ![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
+    
+    When you've added all your holidays, click **Next**.
 
 > [!div class="nextstepaction"]
 > [Step 6 - Choose who's in the directory >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -247,7 +247,7 @@ To add a resource account
 
     ![Screenshot of resource account list showing resource account with assigned service number](../media/auto-attendant-resource-account-assigned.png)
 
-This completes the auto attendant configuration.
+    This completes the auto attendant configuration.
 
 ---
 
