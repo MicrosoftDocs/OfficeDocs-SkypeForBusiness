@@ -2,6 +2,20 @@
 
 
 
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/5/2021 | [Move users and endpoints to the cloud](/SkypeForBusiness/hybrid/decommission-move-on-prem-users) | added |
+| 4/5/2021 | [Decommission your on-premises Skype for Business environment](/SkypeForBusiness/hybrid/decommission-on-prem-overview) | added |
+| 4/5/2021 | [Decommission Skype for Business Server](/SkypeForBusiness/hybrid/decommission-remove-on-prem) | added |
+| 4/9/2021 | [Move hybrid application endpoints to the cloud](/SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints) | added |
+| 4/9/2021 | [Move users to the cloud](/SkypeForBusiness/hybrid/decommission-move-on-prem-users) | modified |
+| 4/9/2021 | [Decommission your on-premises Skype for Business environment](/SkypeForBusiness/hybrid/decommission-on-prem-overview) | modified |
+| 4/9/2021 | [Decommission Skype for Business Server](/SkypeForBusiness/hybrid/decommission-remove-on-prem) | modified |
+
+
 ## Week of March 29, 2021
 
 
