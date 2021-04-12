@@ -181,11 +181,11 @@ To configure SharePoint as a learning content sources in for Viva Learning (priv
 
 5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders.
 
-   1.	Select **New** to view the **New item** panel. 
+   1. Select **New** to view the **New item** panel. 
 
      ![Learning Content Repository page in SharePoint showing the New option.](media/learning-sharepoint-configure5.png)
  
-   2.	On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**.
+   2. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**.
 
    ![New item panel in SharePoint showing the Title and Folder URL fields.](media/learning-sharepoint-configure6.png)
 
@@ -208,15 +208,15 @@ To add a **Description** column to the document library page, follow these steps
 
 2. Select the **Show actions** option, and then select **Single line of text**.
 
-     ![Documents page in SharePoint showing the Show actions options with Single line of text highlighted.](media/learning-sharepoint-curation-1.png)
+     ![Documents page in SharePoint showing the Show actions options with Single line of text highlighted.](media/learning-sharepoint-curation1.png)
 
 3. On the **Create a column** panel, in the **Name** field, add a descriptive name for the column. Select **Save**.
 
-     ![Create a column panel in SharePoint showing the Name and other fields.](media/learning-sharepoint-curation-2.png)
+     ![Create a column panel in SharePoint showing the Name and other fields.](media/learning-sharepoint-curation2.png)
  
 4. On the **Documents** page, in the **Description** column, add custom descriptions for each item. If no description is supplied, Viva Learning (private preview) will provide a default message that highlights the content as being from your own SharePoint library. 
 
-     ![Documents page in SharePoint showing the descriptions in the Description column.](media/learning-sharepoint-curation-3.png)
+     ![Documents page in SharePoint showing the descriptions in the Description column.](media/learning-sharepoint-curation3.png)
  
 ### Frequently asked questions
 
