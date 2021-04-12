@@ -38,9 +38,9 @@ This article focuses on collecting Teams activity logs in Azure Sentinel. Aside 
 > [!NOTE]
 > More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
 
-## Step 1: Collect Teams logs: Enable Audit logs in M365
+## Step 1: Collect Teams logs: Enable Audit logs in Microsoft 365
 
-Because Teams logs activity through M365, audit logs aren't collected by default. Turn on this feature via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the M365 audit under *Audit.General*.
+Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
 
 ## Step 2: Connect Office 365 logs to Azure Sentinel
 
