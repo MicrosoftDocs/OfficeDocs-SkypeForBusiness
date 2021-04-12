@@ -349,7 +349,7 @@ If a Direct Routing datacenter is busy, the service can send a Retry-After messa
 When the SBC receives a 503 message with a Retry-After header in response to an INVITE, the SBC must terminate that connection and try the next available Microsoft datacenter.
 
 ## Handling retries (603 response)
-If end-customer observes several missed calls for one call after declining the incoming call it means that either SBC or PSTN trunk provides' retry mechanism is misconfigured. SBC must be reconfigured to stop retrying on 603 response.
+If an end user observes several missed calls for one call after declining the incoming call, it means that the SBC or PSTN trunk provider's retry mechanism is misconfigured. The SBC must be reconfigured to stop the retry efforts on the 603 response.
 
 ## ICE Restart: Media bypass call transferred to an endpoint that does not support media bypass
 
