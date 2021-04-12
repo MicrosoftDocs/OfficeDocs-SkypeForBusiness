@@ -117,7 +117,7 @@ Here's a list of the log files that are generated and the information they conta
 Desktop logs
 ---------------------
 
-See the	Collect and enable logging section for Windows and Mac instrutions. Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text-based editor in a top-down format.
+See the _Collect and enable logging_ section for Windows and Mac instructions. Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top-down format.
 
 To collect logs for Linux:
 Click on the **Microsoft Teams** icon in your system tray, and select **Get Logs**.
