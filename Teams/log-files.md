@@ -34,7 +34,7 @@ Collect and enable logging
 
 It’s important to collect logs as soon as an issue occurs. The logs can be collected together with just a couple of clicks.
 
-Windows
+Windows:
 Right-click on the Teams icon in the system tray and choosing Collect support files. 
 
 Mac
