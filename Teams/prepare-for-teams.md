@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: This article describes how to prepare for Teams.  
+description: This article describes how to move from Kaizala to Microsoft Teams.  
 f1.keywords:
 localization_priority: Normal
 search.appverid:
@@ -17,48 +17,22 @@ ms.custom:
 
 # Charting your Kaizala to Teams journey
 
-You’ve decided that your organization is ready to move to Teams. Before getting started, it's important that you understand your organization’s collaboration needs before transitioning. What does successful communication look like for your organization? What preparations will your organization need to make for the move? To answer these questions, you'll need to consider what your path to Teams may consist of and the collaboration needs of your workforce.
+You’ve decided that your organization is ready to move from Kaizala to Microsoft Teams. Before getting started, it's important to understand your organization’s collaboration needs before transitioning. What does successful communication look like for your organization? What preparations will your organization need to make for the move? To answer these questions, you'll need to consider your organization's user groups and their unique collaboration needs. Your workforce's unique needs will determine what path you will take to Teams.
 
-## Determine your path
-
-Your first action should be to **determine what your path from Kaizala to Teams will look like**. Every organization is unique, and no workforce’s journey will be the exact same. Organizations not currently using Teams will need to make additional strategic decisions to ensure a successful transition journey. Determining your path will help you identify any important actions that should be completed for a successful transition.
-
-We’ve outlined what the path may consist of depending on your organization’s usage today:  
-
-For organizations **not using Teams**:
-
- 1. Envision teamwork for your organization
- 
- 2. Pilot Teams
-  
- 3. Deploy Teams
-  
- 4. Use Kaizala and Teams
-  
- 5. Manage change
- 
- 6. Plan for your adoption of Teams
- 
- 7. Move your organization to Teams
-
-For organizations **already using Teams**:
-
- 1. Plan for your transition
- 
- 2. Manage change
- 
 ## Identify User Groups
 
-The next action is to **identify user groups for the transition**. *Who will be using the tool and how? What needs will these groups require for effective teamwork?* Understand that every user group has its own unique needs in terms of communication.
+*What groups exist in your organization? Who will be using Teams and how? What needs will these groups require for effective teamwork?* To begin your journey to Teams, first **identify users groups for your transition.**  User groups are a set of employees within your workforce that conduct work in similar areas of the business. 
 
-We’ve identified three common user groups to support you in identifying collaboration needs.
+We’ve identified three common user groups to support you in identifying collaboration needs. Every user group has its own unique needs in terms of communication. 
 
- 1. Information workers
+![Chart of User Groups for Transition](/media/KaizalaUserGroups.png)
 
- 2. Frontline workers
+ 1. Information workers are employees who create, use, transform, consume, or manage information in the course of their work.
+
+ 2. **Frontline workers** are employees whose primary function is to work directly with customers or the general public providing services, support, and selling products, or employees directly involved in the manufacturing and distribution of products or services.
  
- 3. External connections (for example, suppliers/vendors)
-
+ 3. External users are people outside your organization such as your suppliers, vendors, business partners, clients, or customers. 
+ 
 Users connecting with other information workers in their workforce need:
 
  - Chat, meeting, file collaboration
@@ -87,4 +61,38 @@ Users connecting with external users (suppliers/vendors) could use:
  - Guest access collaboration
  
  - Federation 
+
+## Determine your path
+
+After verifying the collaboration needs of your user groups, you'll be able to determine what your path from Kaizala to Teams will look like. Every organization is unique, and no workforce’s journey will be the exact same. Organizations not currently using Teams will need to make additional strategic decisions to ensure a successful transition journey. Determining your path will help you identify any important actions that should be completed for a successful transition.
+
+We’ve outlined what the path may consist of depending on your organization’s usage today:  
+
+![Path for organization's not using Teams](/media/KaizalaNotUsingTeams.png)
+
+For organizations **not using Teams**:
+
+ 1. Envision teamwork for your organization
+ 
+ 2. Pilot Teams
+  
+ 3. Deploy Teams
+  
+ 4. Use Kaizala and Teams
+  
+ 5. Manage change
+ 
+ 6. Plan for your adoption of Teams
+ 
+ 7. Move your organization to Teams
+
+![Path for organization's not using Teams](/media/KaizalaUsingTeams.png)
+
+For organizations **already using Teams**:
+
+ 1. Plan for your transition
+ 
+ 2. Manage change
+ 
+
  
