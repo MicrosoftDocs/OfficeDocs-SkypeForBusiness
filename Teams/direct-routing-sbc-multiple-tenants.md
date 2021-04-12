@@ -240,7 +240,7 @@ Examples:
 -    The carrier can drain the carrier trunk, and all derived trunks will be drained as well. 
  
 > [!NOTE]
-> Please note that number translation rules applied on carrier trunk do not apply to derived trunks. This is a known issue. As an alternative solution, number translation rule must be created for each customers' tenant.
+> Number translation rules applied on the carrier trunk do not apply to derived trunks. This is a known issue. As an alternative solution, number translation rule must be created for each customer's tenant.
 
 **Migration from the previous model to the carrier trunk**
  
