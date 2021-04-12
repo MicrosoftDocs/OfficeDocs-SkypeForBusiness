@@ -102,7 +102,7 @@ Media logging is turned off by default. To log diagnostic data for Teams meeting
 When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
 To collect logs for Linux:
-The files will be available ~/.config/Microsoft/Microsoft Teams/media-stack/*.blog and ~/.config/Microsoft/Microsoft Teams/skylib/*.blog.
+The files will be available in ~/.config/Microsoft/Microsoft Teams/media-stack/*.blog and ~/.config/Microsoft/Microsoft Teams/skylib/*.blog.
 
 Here's a list of the log files that are generated and the information they contain.
 
