@@ -32,7 +32,7 @@ There are three types of log files automatically produced by the client, which c
 Collect and enable logging
 ---------------------------
 
-It’s important to collect logs as soon as an issue occurs. The log can be collected together with just a couple clicks.
+It’s important to collect logs as soon as an issue occurs. The logs can be collected together with just a couple of clicks.
 
 Windows
 Right-click on the Teams icon in the system tray and choosing Collect support files. 
