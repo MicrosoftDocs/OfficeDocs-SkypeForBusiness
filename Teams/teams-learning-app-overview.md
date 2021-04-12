@@ -194,7 +194,7 @@ To configure SharePoint as a learning content sources in for Viva Learning (priv
    ![Learning Content Repository page in SharePoint showing the updated information.](media/learning-sharepoint-configure7.png)
 
 > [!NOTE]
-> Coming soon: To allow for broader access to the Learning App Content Repository, a link to the list will be surfaced in Viva Learning (private preview) interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site as a while where the list is stored.
+> Coming soon: To allow for broader access to the Learning App Content Repository, a link to the list will be available in the Viva Learning (private preview) interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored.
 
 ### Folder URL document library curation
 
@@ -208,15 +208,15 @@ To add a **Description** column to the document library page, follow these steps
 
 2. Select the **Show actions** option, and then select **Single line of text**.
 
-   ![Documents page in SharePoint showing the Show actions options with Single line of text highlighted.](media/sharepoint-curation-1.png)
+   ![Documents page in SharePoint showing the Show actions options with Single line of text highlighted.](media/learning-sharepoint-curation-1.png)
 
 3. On the **Create a column** panel, in the **Name** field, add a descriptive name for the column. Select **Save**.
 
-   ![Create a column panel in SharePoint showing the Name and other fields.](media/sharepoint-curation-2.png)
+   ![Create a column panel in SharePoint showing the Name and other fields.](media/learning-sharepoint-curation-2.png)
  
 4. On the **Documents** page, in the **Description** column, add custom descriptions for each item. If no description is supplied, Viva Learning (private preview) will provide a default message that highlights the content as being from your own SharePoint library. 
 
-   ![Documents page in SharePoint showing the descriptions in the Description column.](media/sharepoint-curation-3.png)
+   ![Documents page in SharePoint showing the descriptions in the Description column.](media/learning-sharepoint-curation-3.png)
  
 ### Frequently asked questions
 
