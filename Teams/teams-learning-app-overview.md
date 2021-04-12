@@ -183,15 +183,15 @@ To configure SharePoint as a learning content sources in for Viva Learning (priv
 
    1. Select **New** to view the **New item** panel. 
 
-     ![Learning Content Repository page in SharePoint showing the New option.](media/learning-sharepoint-configure5.png)
+       ![Learning Content Repository page in SharePoint showing the New option.](media/learning-sharepoint-configure5.png)
  
    2. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**.
 
-   ![New item panel in SharePoint showing the Title and Folder URL fields.](media/learning-sharepoint-configure6.png)
+       ![New item panel in SharePoint showing the Title and Folder URL fields.](media/learning-sharepoint-configure6.png)
 
    3. The **Learning App Content Repository** page is updated with the new learning content.
 
-     ![Learning Content Repository page in SharePoint showing the updated information.](media/learning-sharepoint-configure7.png)
+       ![Learning Content Repository page in SharePoint showing the updated information.](media/learning-sharepoint-configure7.png)
 
 > [!NOTE]
 > To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning (private preview) interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored.
