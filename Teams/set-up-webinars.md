@@ -27,7 +27,7 @@ This article will help you set up your organization to host webinars.
 
 ## What are webinars?
 
-Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes.
+Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes. Unlike traditional meetings that include a lot of discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
 ## Allow users to schedule webinars using PowerShell
 
@@ -35,7 +35,7 @@ You can use the following attributes within the Windows PowerShell **Set-CsTeams
 
 - AllowMeetingRegistration
 - WhoCanRegister
-- AllowPrivateMeetingRegistration
+- AllowPrivateMeetingScheduling
 
 Read [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for more information on the cmdlet.
 
@@ -52,7 +52,7 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 
 ### Configure who can register for webinars
 
-You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. If meeting registration is not enabled, the default value is **False**. If meeting registration is enabled, the default value is **EveryoneInCompany**.
+You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. If meeting registration is not enabled, the default value is **False**. If meeting registration is enabled, the default value is **Everyone**.
 
 > [!CAUTION]
 > Keep in mind that **AllowPrivateMeetingScheduling** must be set to **True** for **WhoCanRegister** to work.
@@ -69,7 +69,7 @@ Then, run:
 Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 ```
 
-**To allow both people in your organization *and* guests to register for webinars, run:**
+**To allow anyone, including anonymous users, to register for webinars, run:**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
@@ -80,6 +80,9 @@ Then, run:
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
+
+> [!IMPORTANT]
+> If anonymous join is turned off in meeting settings, anonymous users won't be able to register for webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
 
 ### Configure webinar settings
 
