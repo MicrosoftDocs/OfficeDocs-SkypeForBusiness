@@ -23,7 +23,7 @@ description: "The following describes Open Preview functionality for On-network 
 
 # Open Preview of On-network Conferencing for Audio Conferencing
 
-The Open Preview of On-network Conferencing is available to all customers. On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers.
+The Open Preview of On-network Conferencing is available to all customers. On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers or outbound calls to the PSTN from Microsoft Audio Conferencing Bridge. 
 
 This article describes the prerequisites and configuration steps required to enable On-network Conferencing for your organization.
 
