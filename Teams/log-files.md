@@ -121,7 +121,7 @@ See the _Collect and enable logging_ section for Windows and Mac instructions. D
 
 To collect logs for Linux:
 Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
-The files will be available ~/.config/Microsoft/Microsoft Teams/logs.txt.  
+The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
 
 ## Related topics
