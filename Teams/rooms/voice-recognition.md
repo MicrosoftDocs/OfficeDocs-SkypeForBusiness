@@ -86,7 +86,7 @@ When the settings are enabled:
 - Users can view, access, and complete the enrollment flow.
 - The entry point will show on Teams settings page under the **Recognition** tab.  
 
-Settings are disabled by default. When the settings are disabled:
+Settings are disabled by default. When the Capture policy is disabled:
 
 - Users who have never enrolled can't view, enroll, or re-enroll.
 - The entry point to enrollment flow will be hidden.
@@ -113,29 +113,29 @@ The attribute feature captures the following details:
 - Rooms users will be diarized but not named (Speaker n). No user identity is shown for in-room attendees.
 - Rooms will send seven audio streams from the room.
 
-Biometric information of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting and dismissed at the end of the meeting.
+The voice profile of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting and dismissed at the end of the meeting.
 
 ## Frequently asked questions (FAQ)
 
-**Where biometric data is stored?**
+**Where is the voice profile data is stored?**
 
-Biometric data is stored in Office 365 cloud with user content.
+Voice profile data is stored in Office 365 cloud with user content.
 
-**How long biometric data is stored after employee left the company?**
+**How long is voice profile information stored after employee left the company?**
 
-Biometric data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+Voice profile data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
-**Is biometric data used across Microsoft services?**
+**Is voice profile data used across Microsoft services?**
 
 Scenario 1: User enrolls in company tenant then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal) and their voice recognized by consumer service.
 Scenario 2:  Users enroll in their company tenant and their voice recognized and attributed in the meeting hosted by another company.
 
-No, biometric data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use biometric data across different non-Teams services at this point.
+No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use biometric data across different non-Teams services at this point.
 
 **Is Rockfall General Data Protection Regulation (GDPR) compliant?**
 
 Yes, audio data collected from user can be exported by tenant admin using Teams admin center.
 
-**What is retention timeline/policy?**
+**What is the retention timeline and policy?**
 
-General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, biometric data will be deleted after three years if the data isn't used in any meetings for existing employees.
+General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, the voice profile data will be deleted after three years if the data isn't used in any meetings for existing employees.
