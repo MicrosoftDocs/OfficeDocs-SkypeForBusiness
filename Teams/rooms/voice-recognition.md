@@ -29,7 +29,7 @@ Intelligent Speakers use voice profile information to recognize who said what in
 
 ## Use an Intelligent Speaker in Teams Rooms
 
-Intelligent Speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent Speakers include a special seven-microphone array and Microsoft Office graph. The speakers use biometric information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
+Intelligent Speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent Speakers include a special seven-microphone array and Microsoft Office graph. The speakers use voice profile information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
 
 ### Review Intelligent Speaker requirements
 
@@ -42,6 +42,9 @@ The following items are Intelligent Speaker requirements:
 ## Set up an Intelligent Speaker
 
 Yealink Rockfall connects directly using USB to the Teams Rooms console. For best results, we recommend that you use Yealink Rockfall with the Yealink console.
+
+> [!NOTE]
+> We don't support Rockfall connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue for that Teams Rooms can't recognize the Rockfall device through the dock.
 
 Rockfall should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Rockfall USB cable isn't long enough for your setup, use cable extenders.
 
@@ -68,8 +71,8 @@ Use the following required policies to set speaker and user attribution.
 
 There are two major policies used with a voice profile:
 
-- Capture, which controls the capture of the biometric data through the enrollment flow.
-- Usage, which controls how the biometric data will be used in meeting rooms.
+- Capture, which controls the capture of the voice profile data through the enrollment flow.
+- Usage, which controls how the voice profile data will be used in meeting rooms.
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams.md) and the [PowerShell meeting cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
 
@@ -130,7 +133,7 @@ Voice profile data is considered user content and is treated as such per Office 
 Scenario 1: User enrolls in company tenant then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal) and their voice recognized by consumer service.
 Scenario 2:  Users enroll in their company tenant and their voice recognized and attributed in the meeting hosted by another company.
 
-No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use biometric data across different non-Teams services at this point.
+No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use the voice profile data across different non-Teams services at this point.
 
 **Is Rockfall General Data Protection Regulation (GDPR) compliant?**
 
