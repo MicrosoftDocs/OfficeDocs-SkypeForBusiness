@@ -31,7 +31,7 @@ Intelligent Speakers use voice profile information to recognize who said what in
 
 Intelligent Speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent Speakers include a special seven-microphone array and Microsoft Office graph. The speakers use biometric information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
 
-### Intelligent Speaker requirements
+### Review Intelligent Speaker requirements
 
 The following items are Intelligent Speaker requirements:
 
@@ -64,14 +64,14 @@ Use the following required policies to set speaker and user attribution.
 - `roomAttributeUserOverride`: To control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts. Allowed values are `Off`, `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled).
 - `enabletranscription`: This setting is required for user and Teams rooms accounts. Allowed values are `true` and `false`.
 
-## Voice Profile policies
+## Use Voice Profile policies
 
 There are two major policies used with a voice profile:
 
 - Capture, which controls the capture of the biometric data through the enrollment flow.
 - Usage, which controls how the biometric data will be used in meeting rooms.
 
-Biometric data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams.md) and the [PowerShell meeting cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams.md) and the [PowerShell meeting cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
 
 ### Voice profile settings
 
