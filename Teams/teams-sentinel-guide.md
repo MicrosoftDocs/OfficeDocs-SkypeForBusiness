@@ -33,7 +33,7 @@ Teams serves a central role in both communication and data sharing in the Micros
 
 ## Sentinel and Microsoft Teams Activity Logs
 
-This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected 3rd party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks, and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
+This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected third party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks, and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
 
 > [!NOTE]
 > More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
@@ -71,7 +71,7 @@ OfficeActivity
 
 ### Who recently joined / Whose role changed
 
-Query a specific user to check if they were added to a Teams channel in the last 7 days, or within a week:
+Query a specific user to check if they were added to a Teams channel in the last seven days, or within a week:
 
 ```Kusto
 OfficeActivity
@@ -81,7 +81,7 @@ OfficeActivity
 | project TeamName, Operation, UserId, Members
 ```
 
-Was a user's role changed for a Team in the last 7 days:
+Query whether a user's role changed for a Team in the last seven days:
 
 ```Kusto
 OfficeActivity
@@ -97,31 +97,31 @@ OfficeActivity
 
 In Teams, you can add external users to your environment or channels. Organizations often have a limited number of key partnerships and add users from among these partners. This KQL looks at external users added to teams who come from organizations that haven't been seen or added before.
 
-For more information, see the query in the [Azure Sentinel community github](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/ExternalUserFromNewOrgAddedToTeams.yaml).
+For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/ExternalUserFromNewOrgAddedToTeams.yaml).
 
 ### External users who were added and then removed
 
 Attackers with some level of existing access may add a new external account to Teams to access and exfiltrate data. They may also quickly remove that user to hide that they made access. This query hunts for external accounts that are added to Teams and swiftly removed to help identify suspicious behavior.
 
-For more information, see the query in the [Azure Sentinel community github](https://github.com/Azure/Azure-Sentinel/blob/master/Detections/OfficeActivity/ExternalUserAddedRemovedInTeams.yaml).
+For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Detections/OfficeActivity/ExternalUserAddedRemovedInTeams.yaml).
 
 ### New bot or application added
 
-Teams has the ability to include apps or bots in a Team to extend the feature set. This includes custom apps and bots. In some cases, an app or bot could be used to establish persistence in Teams without needing a user account, as well as access files and other data. This query hunts for apps or bots that are new to Teams.
+Teams has the ability to include apps or bots in a Team to extend the feature set. This includes custom apps and bots. In some cases, an app or bot could be used to establish persistence in Teams without needing a user account, and access files and other data. This query hunts for apps or bots that are new to Teams.
 
-For more information, see the query in the [Azure Sentinel community github](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/NewBotAddedToTeams.yaml).
+For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/NewBotAddedToTeams.yaml).
 
 ### User accounts who are Owners of large numbers of Teams
 
-Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse teams, when, usually, users create and own a small number of teams around specific topics. This KQL query looks for suspicious behavior.
+Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse teams, when, usually, users create and own a few teams around specific topics. This KQL query looks for suspicious behavior.
 
-For more information, see the query in the [Azure Sentinel community github](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultiTeamOwner.yaml).
+For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultiTeamOwner.yaml).
 
 ### Many Team deletions by a single user
 
 Attackers can cause disruptions and jeopardize projects and data by deleting multiple teams. Because teams are generally deleted by individual Owners, a central deletion of many teams can be a sign of trouble. This KQL looks for single users who delete multiple teams.
 
-For more information, see the query in the [Azure Sentinel community github](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultipleTeamsDeletes.yaml).
+For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultipleTeamsDeletes.yaml).
 
 ### Expanding your threat hunting opportunities
 
@@ -203,7 +203,7 @@ SigninLogs
 
 ## Important information and updates
 
-**Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.** Pete Bryan and the people he collaborates with will continue to develop detection and hunting queries for Teams, so keep in touch with this [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) repository for updates.  Monitor for updates to the [parser](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) and [logic app](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) used in this article. You can also join and contribute to the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki). Thank you! Happy hunting.
+**Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.** Pete Bryan and the people he collaborates with will continue to develop detection and hunting queries for Teams, so keep in touch with this [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) repository for updates.  Monitor for updates to the [parser](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) and [logic app](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) used in this article. You can also join and contribute to the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki). Thank you! Happy hunting.
 
 [Registering your application in Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
