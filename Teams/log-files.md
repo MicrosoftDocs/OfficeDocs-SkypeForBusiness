@@ -45,7 +45,7 @@ Debug, Desktop, and Media logs will be collected in one folder with the name MST
 Windows:
 Crtl + Alt + Shift + 1
 
-Mac
+Mac:
 Option + Command + Shift + 1
 
 Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to Settings > General, select the Enable logging for meeting diagnostics (requires restarting Teams). The Teams client must be restarted for logging to begin.
