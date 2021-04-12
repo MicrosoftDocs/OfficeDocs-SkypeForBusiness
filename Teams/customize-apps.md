@@ -39,6 +39,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 See the [Teams Manifest schema](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) for details about the fields that you can customize.
 
+> [!NOTE
+> Customizing apps isn't supported in Government Community Cloud High (GCCH) or Department of Defense (DoD) at this time.
+
 ## Customize the app's details
 
 To start customizing an app, complete the following steps:
