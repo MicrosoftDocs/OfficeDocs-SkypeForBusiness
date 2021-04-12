@@ -68,7 +68,7 @@ After verifying the collaboration needs of your user groups, you'll be able to d
 
 We’ve outlined what the path may consist of depending on your organization’s usage today:  
 
-![Path for organization's not using Teams](/media/KaizalaNotUsingTeams.png)
+![Path for organizations not currently using Teams](/media/KaizalaNotUsingTeams.png)
 
 For organizations **not using Teams**:
 
@@ -86,7 +86,7 @@ For organizations **not using Teams**:
  
  7. Move your organization to Teams
 
-![Path for organization's not using Teams](/media/KaizalaUsingTeams.png)
+![Path for organizations currently using Teams](/media/KaizalaUsingTeams.png)
 
 For organizations **already using Teams**:
 
