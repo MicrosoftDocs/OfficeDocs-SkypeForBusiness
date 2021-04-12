@@ -52,12 +52,12 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 
 ### Configure who can register for webinars
 
-You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. If meeting registration is not enabled, the default value is **False**. If meeting registration is enabled, the default value is **Everyone**.
+You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone**. If you want to turn off meeting registration, set **WhoCanRegister** to **False**.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Keep in mind that **AllowPrivateMeetingScheduling** must be set to **True** for **WhoCanRegister** to work.
 
-**To allow *only* everyone in your company to register for webinars, run:**
+**To allow *only* users in your organization to register for webinars, run:**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
