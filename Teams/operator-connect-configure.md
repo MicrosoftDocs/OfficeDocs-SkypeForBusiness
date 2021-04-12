@@ -3,7 +3,7 @@ title: Phone System Direct Routing
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 03/08/21
+ms.date: 04/12/21
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -31,7 +31,7 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs, and then select the operator you would like to enable.  
 
-2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator. 
+2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
 
 3. **Select services.** By default, the operator will be enabled for all services available in the region. If you do not want to enable all services, use the filter to designate which services you want to use.  
 
@@ -50,9 +50,9 @@ To learn how to assign phone numbers to your users, see [Assign, change, or remo
 
 From the My Operators tab, you can view your operators and their status and make the following changes to your selections:  
 
-- Suspend an operator 
-- Disable an operator in a specified country 
-- Remove an operator 
+- Suspend an operator
+- Disable an operator in a specified country
+- Remove an operator
 
 >[!NOTE]
 >Before removing an operator, you must remove all phone numbers assigned to users and ask the operator to remove them from your tenant. Before disabling an operator in a specific country, you must remove all numbers assigned to users in the country.  

@@ -1,9 +1,9 @@
 ---
 title: Operator Connect
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.date: 03/08/2021
+ms.date: 04/12/21
 ms.topic: article
 ms.service: msteams
 audience: admin
