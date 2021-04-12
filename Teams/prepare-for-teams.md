@@ -25,7 +25,7 @@ You’ve decided that your organization is ready to move from Kaizala to Microso
 
 We’ve identified three common user groups to support you in identifying collaboration needs. Every user group has its own unique needs in terms of communication. 
 
-![Chart of User Groups for Transition](/media/KaizalaUserGroups.png)
+![Chart of User Groups for Transition](media/kaizala-user-groups.png)
 
  1. Information workers are employees who create, use, transform, consume, or manage information in the course of their work.
 
@@ -68,7 +68,7 @@ After verifying the collaboration needs of your user groups, you'll be able to d
 
 We’ve outlined what the path may consist of depending on your organization’s usage today:  
 
-![Path for organizations not currently using Teams](/media/KaizalaNotUsingTeams.png)
+![Path for organizations not currently using Teams](media/kaizala-not-using-teams.png)
 
 For organizations **not using Teams**:
 
@@ -86,7 +86,7 @@ For organizations **not using Teams**:
  
  7. Move your organization to Teams
 
-![Path for organizations currently using Teams](/media/KaizalaUsingTeams.png)
+![Path for organizations currently using Teams](media/kaizala-using-teams.png)
 
 For organizations **already using Teams**:
 
