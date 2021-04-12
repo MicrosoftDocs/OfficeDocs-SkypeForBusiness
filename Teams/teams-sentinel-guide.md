@@ -33,7 +33,7 @@ Teams serves a central role in both communication and data sharing in the Micros
 
 ## Sentinel and Microsoft Teams Activity Logs
 
-This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected third party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks, and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
+This article focuses on collecting Teams activity logs in Azure Sentinel. Aside from allowing administrators to put security management under one pane of glass (including any selected third-party devices, Microsoft Threat Protection, and other Microsoft 365 Workloads), Sentinel workbooks, and runbooks can make security monitoring systematic. A good first step in this process is collecting the needed logs for analysis.
 
 > [!NOTE]
 > More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
