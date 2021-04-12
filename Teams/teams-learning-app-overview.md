@@ -173,9 +173,9 @@ To configure SharePoint as a learning content sources in for Viva Learning (priv
 
 4.	A SharePoint list is created automatically within the provided SharePoint site.
 
-   ![Newly created SharePoint list within the SharePoint site.](media/learning-sharepoint-configure3.png)
+     ![Newly created SharePoint list within the SharePoint site.](media/learning-sharepoint-configure3.png)
 
-   In the left navigation of the SharePoint site, select **Site contents** > **Learning App Content Repository**. 
+     In the left navigation of the SharePoint site, select **Site contents** > **Learning App Content Repository**. 
 
    ![SharePoint list showing the Site contents navigation and the Learning App Content Repository section.](media/learning-sharepoint-configure4.png) 
 
@@ -194,7 +194,7 @@ To configure SharePoint as a learning content sources in for Viva Learning (priv
    ![Learning Content Repository page in SharePoint showing the updated information.](media/learning-sharepoint-configure7.png)
 
 > [!NOTE]
-> Coming soon: To allow for broader access to the Learning App Content Repository, a link to the list will be available in the Viva Learning (private preview) interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored.
+> To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning (private preview) interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored.
 
 ### Folder URL document library curation
 
