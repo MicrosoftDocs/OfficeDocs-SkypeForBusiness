@@ -54,11 +54,11 @@ Take advantage of the broad range of resources available to help plan your Teams
 
 - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams deployment assistance available for qualifying plans.
 
-- [Teams live training](https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page) – Free online training classes designed to get you and your end users up and running with Teams.
+- [Teams live training](./instructor-led-training-teams-landing-page.yml) – Free online training classes designed to get you and your end users up and running with Teams.
 
-- [Teams Chalk Talks](https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page) – Free online workshops for IT pros and decision makers sharing best practices for some of the most popular and compelling scenarios in Teams.
+- [Teams Chalk Talks](./chalk-talks-landing-page.yml) – Free online workshops for IT pros and decision makers sharing best practices for some of the most popular and compelling scenarios in Teams.
 
-- [Teams upgrade planning workshops](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page) – Free interactive upgrade planning workshops, where you’ll receive guidance, best practices and resources designed to help you plan and implement your upgrade to Teams.
+- [Teams upgrade planning workshops](./upgrade-workshops-landing-page.yml) – Free interactive upgrade planning workshops, where you’ll receive guidance, best practices and resources designed to help you plan and implement your upgrade to Teams.
 
 - [Microsoft Partners](https://www.microsoft.com/solution-providers/home) – Microsoft solution providers can help you take full advantage of Teams.
 
@@ -92,15 +92,12 @@ Teams is available in many of the Microsoft 365 suites. Capabilities that are pr
 **Is Microsoft planning scheduled upgrades?**<br>
 Currently, we have no plans to schedule upgrades for enterprise customers. Customers can choose to move to Teams as it makes sense for their organizations before the July 31, 2021 retirement date for Skype for Business Online. We'll empower administrators and users with tools and guidance to help with the transition to Teams.
 
-To support smaller customers that may not have dedicated IT resources, Microsoft is assisting with automated upgrades from Skype for Business Online to Teams. Eligible customers are notified of the upgrade through emails and Message Center notifications. More details are provided in the communications. For more information, see [Automated Upgrades from Skype for Business Online to Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-automated).
+To support smaller customers that may not have dedicated IT resources, Microsoft is assisting with automated upgrades from Skype for Business Online to Teams. Eligible customers are notified of the upgrade through emails and Message Center notifications. More details are provided in the communications. For more information, see [Automated Upgrades from Skype for Business Online to Microsoft Teams](./upgrade-automated.md).
 
 **How does the Skype for Business Online retirement announcement affect organizations with hybrid configurations (Skype for Business Online and Skype for Business Server)?**<br>
 Hybrid customers with online and on-prem configurations will be required to transition users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Upgrade paths for hybrid configurations built around principles of coexistence and interoperability will remain after the retirement of Skype for Business Online. For more information, see [Coexistence with Skype for Business](coexistence-chat-calls-presence.md) and [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 **How will the retirement of Skype for Business Online affect organizations with hybrid Skype for Business configurations for on-premises Public Switched Telephone Network (PSTN) connectivity and online Phone System capabilities?**<br>
-Some organizations have split users between homed on-premises for PSTN connectivity and homed online for Phone System capabilities. Once access to Skype for Business Online ends, organizations will need to transition online users to Microsoft Teams and connect their on-premises telephony network to Teams through [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+Some organizations have split users between homed on-premises for PSTN connectivity and homed online for Phone System capabilities. Once access to Skype for Business Online ends, organizations will need to transition online users to Microsoft Teams and connect their on-premises telephony network to Teams through [Direct Routing](./direct-routing-landing-page.md).
 
 Customers with eligible subscriptions are encouraged to engage with [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) for Teams onboarding assistance.
-
-
-

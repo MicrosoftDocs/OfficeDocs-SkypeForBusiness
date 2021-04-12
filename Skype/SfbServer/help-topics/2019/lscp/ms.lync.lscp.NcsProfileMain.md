@@ -21,7 +21,4 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [Configuring Bandwidth Policy Profile](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
-
-
-
+- [Configuring Bandwidth Policy Profile](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-bandwidth-policy-profiles)

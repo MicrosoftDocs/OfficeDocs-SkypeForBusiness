@@ -31,11 +31,11 @@ Policies can be assigned in several different ways depending on what your organi
 
 ![Screenshot of group policy assignment.](media/group-policy-assignment.png)
 
-Read more about assigning policies [here](assign-policies.md).
+Learn more about assigning policies [here](policy-assignment-overview.md).
 
 ## How to manage policies
 
-Policies are managed with the Microsoft Teams admin center or [using PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell).
+Policies are managed with the Microsoft Teams admin center or [using PowerShell](./teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 For example, an app setup policy can allow you to enable users to upload custom apps, install apps on behalf of your users, and pin apps to the Teams app bar. These policies are configured in the Teams admin center.
 
@@ -65,8 +65,8 @@ Policy type | Description
 
 ## Related topics
 
+* [Assign policies in Teams - getting started](policy-assignment-overview.md)
 * [Manage feedback policies in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Manage teams policies in Microsoft Teams](teams-policies.md)
-* [View policy assignments in the Activity Log](activity-log.md)
 * [Set up for live events in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams for Education policies and policy packages](policy-packages-edu.md)

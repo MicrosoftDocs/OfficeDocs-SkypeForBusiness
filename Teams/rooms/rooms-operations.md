@@ -58,11 +58,11 @@ The following table summarizes the possible remote operations and the methods yo
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
-|Restart  <br/> |Remote desktop  <br/> Remote Powershell  <br/> |Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
+|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote Powershell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
-|Skype Account Config  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
-|Access logs  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
+|Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
+|Access logs  <br/> |Teams admin center  <br/> |Teams admin center <br/> |
    
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>
@@ -76,7 +76,7 @@ This section covers system settings that Microsoft Teams Rooms depends on to fun
 |Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
    
-Transferring files using Group Policies is discussed in [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
+Transferring files using Group Policies is discussed in [Configure a File Item](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11)).
 
 > [!NOTE]
 > When Microsoft Teams Rooms device is compatible with the next version of Windows 10 OS, the device automatically updates to the next version through Windows Update. Microsoft Teams Rooms device should not be upgraded to next release of Windows 10 manually or via enabling Windows Update for Business (WUFB) group policies “Select the Windows readiness level for the updates you want to receive” and "Select when Preview Builds and Feature Updates are received" through GPO. A device with these group policies enabled is known to run into issues with Windows 10 OS update by Microsoft Teams Rooms app.
@@ -94,7 +94,7 @@ You can perform the following management operations remotely by using PowerShell
 - Transfer files (requires a domain-joined Microsoft Teams Rooms)
     
 > [!NOTE]
-> This functionality is off by default. You need to enable remote PowerShell for your environment on the Microsoft Teams Rooms system to perform the operations below. Refer to the documentation on **[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** for information about how to enable remote PowerShell.
+> This functionality is off by default. You need to enable remote PowerShell for your environment on the Microsoft Teams Rooms system to perform the operations below. Refer to the documentation on **[Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** for information about how to enable remote PowerShell.
   
 For example, you can enable Remote PowerShell as follows:
   
@@ -164,7 +164,7 @@ By default, Microsoft Teams Rooms attempts to connect to the Windows Store to ge
   
 By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the Settings app.
   
-If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with Configuration Manager. The deployment kit release lags behind the store release, so it might not always match the latest available build.
+If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with Configuration Manager. The deployment kit release lags behind the store release, so it might not always match the latest available build.
   
 ### To update using Powershell
 
@@ -218,4 +218,3 @@ The console is now back in its normal operation mode.The following procedure req
 - In the event that a mirror image is displayed in room preview, the IT admin can correct by cycling camera power or flipping the image orientation using the camera remote control.
 - Loss of console touchscreen access has been known to occur. In such cases, the issue is sometimes resolved by restarting the Microsoft Teams Rooms system.
 - Loss of local audio when connecting a PC to console via wired ingest has been known to occur. In such cases, restarting the PC can resolve the local audio playback issue.
-    

@@ -78,9 +78,9 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Public DNS entry for the SBC |A public DNS entry mapping the SBC FQDN to the public IP Address. |
 |Public trusted certificate for the SBC |A certificate for the SBC to be used for all communication with Direct Routing. For more information, see [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc).|
 |Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs](#sip-signaling-fqdns).|
-|Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+|Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport Profile|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Firewall IP addresses and ports for Microsoft Teams media |For more information, see [URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Firewall IP addresses and ports for Microsoft Teams media |For more information, see [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## Licensing and other requirements 
@@ -93,10 +93,14 @@ Users of Direct Routing must have the following licenses assigned in Microsoft 3
 
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
+> 
+> [!IMPORTANT]
+> GCC High and DoD users should disable any Audio Conferencing licensing included in G5 and wait to enable any Audio Conferencing until Direct Routing has been fully configured. Users should have dial-in phone numbers configured and a working dial pad before enabling Audio Conferencing licenses. See [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) for more details.
 
 
 > [!IMPORTANT]
 >  In the case that you would like to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the audio conferencing license is required.
+>  For GCC High and DoD, do not assign an Audio Conferencing license for G5 users.  For G3 users, do not assign an Audio Conferencing license until Direct Routing is fully configured and the user has a working dial pad.
 
 
 ### Ad hoc call escalation and Audio Conferencing license
@@ -116,16 +120,16 @@ Direct Routing also supports users who are licensed for Microsoft Calling Plan. 
 
 Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful (for example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC). One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBXs, are routed using Microsoft Calling Plan, but calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN. 
 
-For more information about Phone System licensing, see [Get the most from Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Plan Options](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
+For more information about Phone System licensing, see [Get the most from Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options). 
 
-For more information about Phone System licensing, see [Microsoft Teams add-on licensing](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). 
+For more information about Phone System licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## Supported end points 
 
 You can use as an end point:
 
 - Any Teams client. 
-- Common Area Phones. See [Set up the Common Area Phone license for Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-common-area-phones). Note you do not need a Calling Plan license when setting up a Common Area Phone with Direct Routing.
+- Common Area Phones. See [Set up the Common Area Phone license for Microsoft Teams](./set-up-common-area-phones.md). Note you do not need a Calling Plan license when setting up a Common Area Phone with Direct Routing.
 - Skype for Business 3PIP phones. See [Skype for Business phones (3PIP) support with Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
@@ -185,13 +189,16 @@ The certificate needs to be generated by one of the following root certificate a
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
+- USERTrust RSA Certification Authority
+- Hongkong Post Root CA 1,2,3
+- Sectigo Root CA
 
 For Direct Routing in Office 365 GCCH and DoD environments the certificate needs to be generated by one of the following root certificate authorities:
 - DigiCert Global Root CA
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> *If Mutual TLS (MTLS) support is enabled for the Teams connection on the SBC, then you must install the Baltimore CyberTrust Root Certificate in the SBC Trusted Root Store of the Teams TLS context. (This is because the Microsoft service certificates use the Baltimore root certificate.) To download the Baltimore root certificate, see [Office 365 Encryption chains](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> *If Mutual TLS (MTLS) support is enabled for the Teams connection on the SBC, then you must install the Baltimore CyberTrust Root Certificate in the SBC Trusted Root Store of the Teams TLS context. (This is because the Microsoft service certificates use the Baltimore root certificate.) To download the Baltimore root certificate, see [Office 365 Encryption chains](/microsoft-365/compliance/encryption-office-365-certificate-chains).
 
 Microsoft is working on adding additional certification authorities based on customer requests. 
 
@@ -203,7 +210,7 @@ Direct Routing is offered in the following environments:
 - Office 365 GCC High
 - Office 365 DoD
 
-Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
+Learn more about [Office 365 and US Government environments](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
 
 ### Microsoft 365, Office 365, and Office 365 GCC environments
 
@@ -287,7 +294,7 @@ The table below summarizes the relationships between primary, secondary, and ter
 |||||
 
 ## Media traffic: Port ranges
-Note that the requirements below apply if you want to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass, please refer to [Plan for media bypass with Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass).
+Note that the requirements below apply if you want to deploy Direct Routing without Media Bypass. For firewall requirements for Media Bypass, please refer to [Plan for media bypass with Direct Routing](./direct-routing-plan-media-bypass.md).
 
 
 

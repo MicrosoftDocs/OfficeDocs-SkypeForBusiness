@@ -66,12 +66,10 @@ The Deployment Wizard can automatically populate subject names (SNs) and subject
   
 ## Trustworthy Computing Security Development Lifecycle (SDL)
 
-Skype for Business Server is designed and developed in compliance with the [Microsoft Trustworthy Computing Security Development Lifecycle](https://go.microsoft.com/fwlink/p/?linkid=68761) (SDL).
+Skype for Business Server is designed and developed in compliance with the [Microsoft Trustworthy Computing Security Development Lifecycle](/previous-versions/ms995349(v=msdn.10)) (SDL).
   
 - **Trustworthy by Design** The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. In addition, Microsoft performs testing outside of the designed behavior in order to find security vulnerabilities resulting from unexpected product behavior. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Server incorporates industry standard security technologies as a fundamental part of its architecture.
     
 - **Trustworthy by Default** By default, network communications in Skype for Business Server are encrypted. Because all servers use certificates and Kerberos authentication, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 128-bit Advanced Encryption Standard (AES) encryption, virtually all Skype for Business Server data is protected on the network. In addition, role-based access control makes it possible to deploy servers running Skype for Business Server so that each server role runs only the services, and has only the permissions related to those services, that are appropriate for the server role.
     
 - **Trustworthy by Deployment** All Skype for Business Server documentation includes best practices and recommendations to help you determine and configure the optimal security levels for your deployment and assess the security risks of activating non-default options.
-    
-

@@ -18,7 +18,7 @@ description: "The sections in this article describe how to enable, temporarily d
 
 The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server.
 
-For information on how to enable an Active Directory user, see [Create a New User Account](https://technet.microsoft.com/library/cc732336%28v=ws.11%29.aspx). For information on how to delete an Active Directory user, see [Delete a User Account](https://technet.microsoft.com/library/cc753730%28v=ws.11%29.aspx).
+For information on how to enable an Active Directory user, see [Create a New User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732336(v=ws.11)). For information on how to delete an Active Directory user, see [Delete a User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)).
 
 These procedures should be performed during a maintenance window, when Skype for Business usage is lowest. Whether this is done on a daily or weekly schedule will be determined by the needs of your organization.
 
@@ -69,7 +69,7 @@ You can search for users by using the Skype for Business Server Control Panel or
 
 After enabling a user account in Active Directory Users and Computers, you can use Skype for Business Server Control Panel to create and enable new Skype for Business Server user accounts by adding an Active Directory user to Skype for Business Server.
 
-You can also use a cmdlet, specifically [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps).
+You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps).
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
 
@@ -128,7 +128,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-For more information, see the help topic for the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) cmdlet.
 
 ## Disable a user for Enterprise Voice
 <a name="Disable_EV"> </a>
@@ -156,7 +156,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
 
 8. Click **Commit**.
 
-The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](https://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server Management Shell](../management-shell.md)
+The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [Enable users for Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server Management Shell](../management-shell.md)
 ## Remove a user account with the Skype for Business Server Management Shell
 <a name="Remove"> </a>
 
@@ -192,11 +192,11 @@ To remove a user account, use the Disable-CsUser cmdlet. For example:
 
     After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
 
 ## See also
 <a name="Remove"> </a>
 
-[Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
+[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
 
-[Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
+[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)
