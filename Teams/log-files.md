@@ -51,7 +51,7 @@ Option + Command + Shift + 1
 Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin.
 
 > [!NOTE]
->  If Media logging is enabled there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging isnot enabled there will be a limited number of logs available.
+> If Media logging is enabled, there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging is not enabled, there will be a limited number of logs available.
 
 
 > [!NOTE]
