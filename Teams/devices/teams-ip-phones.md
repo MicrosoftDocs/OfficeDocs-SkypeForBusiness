@@ -140,6 +140,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #1  |April 5th, 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | 2020 Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
 | 2020 Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
 | 2020 Update #1  | May 13, 2020 | .040901                     | .4715                  | .210                |
@@ -150,6 +151,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBar A20 | 133.15.0.54     | 2021 Update #1    |
+| Yealink MeetingBar A30 | 133.15.0.54     | 2021 Update #1    |
+| Yealink CTP18 | 137.15.0.30     | 2021 Update #1    |
 | Yealink VC210 + CP900 | 118.15.0.42     | 2020 Update #3    |
 | Poly Studio X30 | 3.2.3.280012          | 2020 Update #3    |
 | Poly Studio X50 | 3.2.3.280012          | 2020 Update #3    |
