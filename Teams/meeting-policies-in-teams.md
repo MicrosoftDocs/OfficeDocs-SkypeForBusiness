@@ -121,7 +121,7 @@ Allow the Outlook add-in is a per-user policy and applies before a meeting start
 
 ![Screenshot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
 
-If you turn this feature off, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
+If you turn off this feature, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
 ### Allow channel meeting scheduling
 
@@ -164,7 +164,7 @@ The channel calendar app will show up in the **Microsoft apps** section on the a
 
 Scheduling private meetings is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
 
-If you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. By default, this setting is turned on.
+If you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**, the **Add required attendees** and **Add channel** options are disabled for users in Teams. By default, this setting is turned on.
 
 ### Allow Meet now in private meetings
 
@@ -445,6 +445,7 @@ These settings control which meeting participants wait in the lobby before they 
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
 - [Automatically admit people](#automatically-admit-people)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [Allow team members to bypass the lobby](#allow-team-members-to-bypass-the-lobby)
 - [Enable live captions](#enable-live-captions)
 - [Allow chat in meetings](#allow-chat-in-meetings)
 
@@ -483,6 +484,10 @@ This is a per-organizer policy. This setting controls whether people who dial in
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
 
+### Allow team members to bypass the lobby
+
+Meeting policies have a setting for letting team members bypass the meeting lobby. We've added the EveryoneInCompanyExcludingGuests option for people in the organization to bypass the lobby but exclude guest users from bypassing the lobby.
+
 ### Enable live captions
 
 This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
@@ -510,7 +515,7 @@ The **Who can present?** setting lets meeting organizers choose who can be prese
 
 You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-To specify the default value of the **Who can present?** setting in Teams, set the **DesignatedPresenterRoleMode** parameter to one of the following:
+To specify the default value of the **Who can present?** setting in Teams, set the **DesignatedPresenterRoleMode** parameter to one of the following settings:
 
 - **EveryoneUserOverride**:  All meeting participants can be presenters. This is the default value. This parameter corresponds to the **Everyone** setting in Teams.
 - **EveryoneInCompanyUserOverride**: Authenticated users in the organization, including guest users, can be presenters. This parameter corresponds to the **People in my organization** setting in Teams.
