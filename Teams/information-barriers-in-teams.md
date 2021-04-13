@@ -179,12 +179,7 @@ Currently, users experience the following scenarios if an IB policy blocks anoth
 
 ## Teams policies and SharePoint sites
 
-When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. IB policies aren't honored on this SharePoint site and files by default. To enable IB policies, the administrator has already filled out a form, requesting that IB policies be enabled on SharePoint and OneDrive (see the *Prerequisites* section in [Information barriers](/sharepoint/information-barriers#prerequisites)). If the IB policy is turned on in SharePoint and OneDrive, then the IB policies will work on SharePoint sites that are provisioned when a team is created with Microsoft Teams.
-
-**Example of IB policies on SharePoint site of a team**: In Contoso Bank corporation, user 'Sesha@contosobank.onmicrosoft.com' belongs to the Investment Banking segment and user 'Nikita@contosobank.onmicrosoft.com' belongs to the Advisory segment. The organization's IB policy blocks communication and collaboration between these two segments.
-When user Sesha creates a team for the Investment Banking segment, the team and the SharePoint site that backs it will be accessible only to Investment Banking users. User Nikita can't access that site even if she has the site link.
-
-For more information, see [Use information barriers with SharePoint](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. Information barrier policies aren't honored on this SharePoint site and files by default. To enable information barriers in SharePoint and OneDrive, follow the guidance and steps in the [Use information barriers with SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) topic.
 
 ## Required licenses and permissions
 
@@ -196,6 +191,8 @@ For more information on licenses and permissions, including plans and pricing, s
 - **Users can't join channel meetings**: If IB policies are enabled, users aren't allowed to join channel meetings if they're not a member of the team. The root cause is that IB checks rely on whether users can be added to a meeting chat roster, and only when they can be added to the roster are they allowed to join the meeting. The chat thread in a channel meeting is available to Team/Channel members only, and non-members can't see or access the chat thread. If IB is enabled for the tenant and a non-team member attempts to join a channel meeting, that user isn't allowed to join the meeting. However, if IB is *not* enabled for the tenant and a non-team member attempts to join a channel meeting, the user is allowed to join the meeting—but they won't see the chat option in the meeting.
 - **Team owners are not removed**: If a new IB policy is applied that results in two or more conflicting segments present in a Teams channel, the segments with team owners are given higher preference and other segment users are removed. Also, at this time, team owners are not getting removed, even if they are in conflict with other owners/users. Tenant admins and other channel owners will have to remove conflicting owners manually.
 - **Maximum number of segments allowed in a tenant**: Each tenant can set up to 100 segments when configuring IB policies. There is no limit on the number of policies that can be configured.
+
+- **IB policies don't work for federated users**: If you allow federation with external tenants, the users of those tenants won't be restricted by IB policies. If users of your organization join a chat or meeting organized by external federated users, then IB policies also won't restrict communication between users of your organization.
 
 ## More information
 
