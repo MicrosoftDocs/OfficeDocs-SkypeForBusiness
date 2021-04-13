@@ -159,7 +159,6 @@ You can use Teams live events in multiple regions across the world. The followin
 **Data location for these countries/regions (supported)**
 
 - Australia
-- Brazil
 - Canada
 - France
 - Germany
@@ -173,6 +172,7 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **These countries/regions and clouds aren't supported**
 
+- Brazil
 - Norway
 - Government Community Cloud (GCC)-H
 - Department of Defense (DOD)

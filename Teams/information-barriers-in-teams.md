@@ -179,12 +179,7 @@ Currently, users experience the following scenarios if an IB policy blocks anoth
 
 ## Teams policies and SharePoint sites
 
-When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. IB policies aren't honored on this SharePoint site and files by default. To enable IB policies, the administrator has already filled out a form, requesting that IB policies be enabled on SharePoint and OneDrive (see the *Prerequisites* section in [Information barriers](/sharepoint/information-barriers#prerequisites)). If the IB policy is turned on in SharePoint and OneDrive, then the IB policies will work on SharePoint sites that are provisioned when a team is created with Microsoft Teams.
-
-**Example of IB policies on SharePoint site of a team**: In Contoso Bank corporation, user 'Sesha@contosobank.onmicrosoft.com' belongs to the Investment Banking segment and user 'Nikita@contosobank.onmicrosoft.com' belongs to the Advisory segment. The organization's IB policy blocks communication and collaboration between these two segments.
-When user Sesha creates a team for the Investment Banking segment, the team and the SharePoint site that backs it will be accessible only to Investment Banking users. User Nikita can't access that site even if she has the site link.
-
-For more information, see [Use information barriers with SharePoint](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. Information barrier policies aren't honored on this SharePoint site and files by default. To enable information barriers in SharePoint and OneDrive, follow the guidance and steps in the [Use information barriers with SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) topic.
 
 ## Required licenses and permissions
 
