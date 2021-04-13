@@ -27,11 +27,11 @@ We’ve identified three common user groups to support you in identifying collab
 
 ![Chart of User Groups for Transition](media/kaizala-user-groups.png)
 
- 1. Information workers are employees who create, use, transform, consume, or manage information in the course of their work.
+ 1. **Information workers** are employees who create, use, transform, consume, or manage information in the course of their work.
 
  2. **Frontline workers** are employees whose primary function is to work directly with customers or the general public providing services, support, and selling products, or employees directly involved in the manufacturing and distribution of products or services.
  
- 3. External users are people outside your organization such as your suppliers, vendors, business partners, clients, or customers. 
+ 3. **External users** are people outside your organization such as your suppliers, vendors, business partners, clients, or customers. 
  
 Users connecting with other information workers in their workforce need:
 
