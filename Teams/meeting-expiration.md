@@ -25,15 +25,15 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 ## Overview
 
-[Meeting policies](meeting-policies-in-teams.md) in Microsoft Teams are used to control whether users in your organization can start and schedule meetings and the features that are available to meeting participants for meetings that are scheduled by users. You can use the global (Org-wide default) policy or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [Get](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingpolicy), [New](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy), [Set](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlets.
+[Meeting policies](meeting-policies-in-teams.md) in Microsoft Teams are used to control whether users in your organization can start and schedule meetings and the features that are available to meeting participants for meetings that are scheduled by users. You can use the global (Org-wide default) policy or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell cmdlets.
 
 The meeting policy settings that control whether users can start and schedule meetings also control expiration of meetings scheduled by users. When a meeting join link and conference ID for a meeting expires, no one can join the meeting. The following meeting policy settings determine whether users can start and schedule meetings in Teams, and we refer to them throughout this article.
 
-- [Allow Meet now in channels](meeting-policies-in-teams.md#allow-meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
-- [Allow channel meeting scheduling](meeting-policies-in-teams.md#allow-channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
-- [Allow scheduling private meetings](meeting-policies-in-teams.md#allow-scheduling-private-meetings): Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
-- [Allow the Outlook add in](meeting-policies-in-teams.md#allow-the-outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
-- [Allow Meet now in private meetings](meeting-policies-in-teams.md#allow-meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
+- [Allow Meet now in channels](meeting-policies-in-teams-general.md#allow-meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
+- [Allow channel meeting scheduling](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
+- [Allow scheduling private meetings](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings): Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
+- [Allow the Outlook add in](meeting-policies-in-teams-general.md#allow-the-outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
+- [Allow Meet now in private meetings](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
 
 By default, these settings are on. When any of these settings are turned off, any user who is assigned the policy can't start or schedule new meetings of that type. At the same time, the meeting join links and conference IDs of all existing meetings of that type that the user previously started or scheduled expire.
 

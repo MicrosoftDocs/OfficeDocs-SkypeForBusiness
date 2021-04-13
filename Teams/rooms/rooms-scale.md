@@ -39,15 +39,15 @@ To deploy Microsoft Teams Rooms with Configuration Manager, ensure that you meet
 
 ### Microsoft Endpoint Configuration Manager requirements
 
--   Microsoft Endpoint Configuration Manager version must be at least 1706 or above. We recommend using 1710 or later. Check out [Support for Windows 10 in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) to learn about the Windows 10 versions that Configuration Manager supports.
+-   Microsoft Endpoint Configuration Manager version must be at least 1706 or above. We recommend using 1710 or later. Check out [Support for Windows 10 in Configuration Manager](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) to learn about the Windows 10 versions that Configuration Manager supports.
 
--   A supported version of Windows Assessment and Deployment Kit (ADK) for Windows 10 must be installed. See the versions of the [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) that you can use with different versions of Configuration Manager, and ensure that your deployment includes the correct version.
+-   A supported version of Windows Assessment and Deployment Kit (ADK) for Windows 10 must be installed. See the versions of the [Windows 10 ADK](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) that you can use with different versions of Configuration Manager, and ensure that your deployment includes the correct version.
 
--   The site system servers must have been assigned the distribution point role, and the boot images should be enabled for [preboot execution environment (PXE) support](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) to enable network-initiated deployments. If PXE support isn't enabled, you can use [bootable media](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments.
+-   The site system servers must have been assigned the distribution point role, and the boot images should be enabled for [preboot execution environment (PXE) support](/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) to enable network-initiated deployments. If PXE support isn't enabled, you can use [bootable media](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments.
 
--   A network access account must be configured to support new computer (bare metal) deployment scenarios. To learn more about the configuration of a network access account, see [Accounts used in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+-   A network access account must be configured to support new computer (bare metal) deployment scenarios. To learn more about the configuration of a network access account, see [Accounts used in Configuration Manager](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   We recommend that you enable [multicast support](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), if you're likely to deploy the same Microsoft Teams Rooms image to multiple units at the same time.
+-   We recommend that you enable [multicast support](/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), if you're likely to deploy the same Microsoft Teams Rooms image to multiple units at the same time.
 
 ### Networking requirements
 
@@ -56,14 +56,14 @@ To deploy Microsoft Teams Rooms with Configuration Manager, ensure that you meet
     > [!NOTE]
     > DHCP lease duration must be set to a value longer than the image deployment duration. Otherwise, the deployment might fail.
 
--   Your network, including switches and virtual LANs (VLANs), should be configured to support PXE. Refer to your network vendor for more information about IP Helper and PXE configuration. Alternatively, you can use [bootable media](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments, if PXE support isn't enabled.
+-   Your network, including switches and virtual LANs (VLANs), should be configured to support PXE. Refer to your network vendor for more information about IP Helper and PXE configuration. Alternatively, you can use [bootable media](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments, if PXE support isn't enabled.
 
     > [!NOTE]
-    > For Surface Pro devices, booting from the network (PXE boot) is only supported when you use an Ethernet adapter or docking station from Microsoft. Third-party Ethernet adapters don't support PXE boot with Surface Pro. See [Ethernet adapters and Surface deployment](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) for more information.
+    > For Surface Pro devices, booting from the network (PXE boot) is only supported when you use an Ethernet adapter or docking station from Microsoft. Third-party Ethernet adapters don't support PXE boot with Surface Pro. See [Ethernet adapters and Surface deployment](/surface/ethernet-adapters-and-surface-device-deployment) for more information.
 
 ## Configure Microsoft Endpoint Configuration Manager for operating system deployment
 
-This article assumes you already have a healthy Configuration Manager deployment, and doesn't detail all the steps required to deploy and configure Configuration Manager from scratch. The [documentation and the configuration guidance](https://docs.microsoft.com/configmgr/) on the Microsoft Endpoint Configuration Manager is a great resource; we recommend you start with these resources if you haven't yet deployed Configuration Manager.
+This article assumes you already have a healthy Configuration Manager deployment, and doesn't detail all the steps required to deploy and configure Configuration Manager from scratch. The [documentation and the configuration guidance](/configmgr/) on the Microsoft Endpoint Configuration Manager is a great resource; we recommend you start with these resources if you haven't yet deployed Configuration Manager.
 
 Use the following instructions to verify that the operating system deployment (OSD) features are configured properly.
 
@@ -73,7 +73,7 @@ Use the following instructions to verify that the operating system deployment (O
 
 2.  Check the installed build and applicable updates that haven't been installed yet.
 
-3.  Review [Support for Windows 10 in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); if you need to upgrade your deployment, select the update you want to install, and then select **Download**.
+3.  Review [Support for Windows 10 in Configuration Manager](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); if you need to upgrade your deployment, select the update you want to install, and then select **Download**.
 
 4.  After the download is complete, select the update, and then select **Install Update Pack**.
 
@@ -101,7 +101,7 @@ Use the following instructions to verify that the operating system deployment (O
 3.  Select the **Network Access Account** tab. Set up one or more accounts, and then select **OK**.
 
 > [!NOTE]
-> The accounts don't need any special rights, except for the **Access this computer from the network** right on the distribution point server. A generic domain user account will be appropriate. For more information, see [Accounts used in Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+> The accounts don't need any special rights, except for the **Access this computer from the network** right on the distribution point server. A generic domain user account will be appropriate. For more information, see [Accounts used in Configuration Manager](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
 ### Configure a boot image
 
@@ -123,10 +123,10 @@ Use the following instructions to verify that the operating system deployment (O
 
 6.  When asked, select **Yes** and distribute the updated boot image to your distribution points.
 
-For more information, see [Manage boot images with Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images).
+For more information, see [Manage boot images with Configuration Manager](/configmgr/osd/get-started/manage-boot-images).
 
 > [!NOTE]
-> You can create a bootable USB media to initiate Configuration Manager task sequence–based deployments for environments that have no PXE support. The bootable media contains only the boot image, optional prestart commands and their required files, and Configuration Manager binaries to support booting into Windows PE and connecting to Configuration Manager for the rest of the deployment process. For more information, see [Create bootable media](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
+> You can create a bootable USB media to initiate Configuration Manager task sequence–based deployments for environments that have no PXE support. The bootable media contains only the boot image, optional prestart commands and their required files, and Configuration Manager binaries to support booting into Windows PE and connecting to Configuration Manager for the rest of the deployment process. For more information, see [Create bootable media](/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## Create Configuration Manager packages
 
@@ -151,7 +151,7 @@ You need to create and configure the following packages, and then distribute the
 | Surface Pro                          | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro                     |
 | Surface Pro 4                        | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro 4                   |
 
-For more information, see [Packages and programs in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
+For more information, see [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
 
 ### Create folders for the package source files
 
@@ -471,14 +471,14 @@ You create this package to distribute the root certificate for devices that won'
 
 6.  Select **Close**.
 
-For more information, see [Manage OS images with Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images).
+For more information, see [Manage OS images with Configuration Manager](/configmgr/osd/get-started/manage-operating-system-images).
 
 ### Create Surface Pro device driver packages
 
 Microsoft Teams Rooms is supported for both Surface Pro and Surface Pro 4. You need to create a driver package for each Surface Pro model you have in your environment.
 
 > [!IMPORTANT]
-> The drivers must be compatible with the Windows 10 Enterprise build and the Microsoft Teams Rooms deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) and [Configure a console](console.md).
+> The drivers must be compatible with the Windows 10 Enterprise build and the Microsoft Teams Rooms deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) and [Configure a console](console.md).
 
 1.  Download the latest drivers and firmware.
     -   For Surface Pro:
@@ -487,8 +487,8 @@ Microsoft Teams Rooms is supported for both Surface Pro and Surface Pro 4. You n
         <https://www.microsoft.com/download/details.aspx?id=49498>
 
 2.  Extract the downloaded driver and firmware. Open a Command Prompt window and at the command prompt, enter one of the following commands:
-    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
-    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
+    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro"`
+    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro 4"`
 
 3.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Drivers**, and then select **Import Driver**.
 
@@ -511,7 +511,7 @@ Microsoft Teams Rooms is supported for both Surface Pro and Surface Pro 4. You n
 12. Move all the imported drivers to the newly created folder for easier navigation and operation.
 
 > [!NOTE]
-> Repeat the same steps for other Surface Pro models you might have. For more information, see [Manage drivers in Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers).
+> Repeat the same steps for other Surface Pro models you might have. For more information, see [Manage drivers in Configuration Manager](/configmgr/osd/get-started/manage-drivers).
 
 ### Create Microsoft Teams Rooms Configuration Package
 
@@ -702,7 +702,7 @@ Validate and troubleshoot the solution
 
 After you've completed the Microsoft Endpoint Configuration Manager task sequences, you'll need to perform a test run to validate that the task sequence can deploy and configure Microsoft Teams Rooms units.
 
-1.  Connect the test device to the wired network by using one of the supported Ethernet adapters or using the Surface dock. If PXE boot functionality hasn't been configured for your environment, you can use the boot image on the USB flash drive [that you created earlier](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) to boot from USB and connect to Configuration Manager.
+1.  Connect the test device to the wired network by using one of the supported Ethernet adapters or using the Surface dock. If PXE boot functionality hasn't been configured for your environment, you can use the boot image on the USB flash drive [that you created earlier](/configmgr/osd/deploy-use/create-bootable-media) to boot from USB and connect to Configuration Manager.
 
 2.  Access the firmware and initiate PXE boot:
 
@@ -764,4 +764,4 @@ To troubleshoot PXE boot issues, check the two log files on the Configuration Ma
 
 -   **Smspxe.log**, located in Configuration Manager Management Point (MP) logs directory
 
-For a complete list of the log files that you can use to further troubleshoot your Configuration Manager installation, see the Microsoft Endpoint Configuration Manager [Log file reference](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files).
+For a complete list of the log files that you can use to further troubleshoot your Configuration Manager installation, see the Microsoft Endpoint Configuration Manager [Log file reference](/configmgr/core/plan-design/hierarchy/log-files).

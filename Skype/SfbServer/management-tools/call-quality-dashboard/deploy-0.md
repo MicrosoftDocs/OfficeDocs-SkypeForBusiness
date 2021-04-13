@@ -83,7 +83,7 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
    - **SQL Agent Job User - User Name &amp; Password:** Domain service account name and password (masked) that will be used to run the "QoE Archive Data" step of the SQL Server Agent job (which will run the stored procedure to fetch data from QoE Metrics DB into Archive DB, so this account must have read access to QoE Metrics DB, as indicated under Accounts section. This account also needs to have a login in the QoE Archive SQL Server Instance).
     
      > [!NOTE]
-     > The account that the SQL Server instance is running under, such as NT SERVICE\MSSQLSERVER, must have access/permission to the directories given above for the installation to succeed. For details, see [Configure File System Permissions for Database Engine Access](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
+     > The account that the SQL Server instance is running under, such as NT SERVICE\MSSQLSERVER, must have access/permission to the directories given above for the installation to succeed. For details, see [Configure File System Permissions for Database Engine Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
   
 7. Upon clicking next, the installer will perform pre-requisite checks and report if any issues are encountered. When all pre-requisite checks pass, the installer will go to the Cube Configuration page. 
     
@@ -99,7 +99,7 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
    - **Cube Analysis Server:** SQL Server Analysis Service instance name for where the cube is to be created. This can be a different machine but the installing user has to be a member of Server administrators of the target SQL Server Analysis Service instance.
     
      > [!NOTE]
-     >  For more information about configuring Analysis Services Server Administrator Permissions, see [Grant Server Administrator Permissions (Analysis Services)](https://msdn.microsoft.com/library/ms174561.aspx)
+     >  For more information about configuring Analysis Services Server Administrator Permissions, see [Grant Server Administrator Permissions (Analysis Services)](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
   
    - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used .
     
@@ -228,7 +228,7 @@ For HTTP and HTTPS port bindings the installer will create port bindings on the 
   
 To enable SSL/TLS in IIS and force users to connect via secure HTTPS instead of HTTP:
   
-1. Configure Secure Sockets Layer in IIS, see [Configuring Secure Sockets Layer in IIS 7](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx). Once done, replace  `http` with `https`.
+1. Configure Secure Sockets Layer in IIS, see [Configuring Secure Sockets Layer in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10)). Once done, replace  `http` with `https`.
     
 2. For instructions on enabling TLS in the SQL Server connections, see [How to enable SSL encryption for an instance of SQL Server by using Microsoft Management Console](https://support.microsoft.com/kb/316898/).
     
@@ -383,7 +383,7 @@ Importing Buildings gives you the ability to get building specific insights (poo
 > [!NOTE]
 > This step is optional, but recommended.
   
-Import Subnets and map them to the Buildings imported in the last step. If you decided not to populate NetworkName, ensure each entry in this table uses a NetworkNameID of 0. For more information on SQL syntax and parameters for the Call Quality Dashboard, see [Use Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use).
+Import Subnets and map them to the Buildings imported in the last step. If you decided not to populate NetworkName, ensure each entry in this table uses a NetworkNameID of 0. For more information on SQL syntax and parameters for the Call Quality Dashboard, see [Use Call Quality Dashboard for Skype for Business Server](./use.md).
   
  **Sample SQL Syntax**
   
@@ -439,5 +439,3 @@ To tag all the previous records with this new data, you will need to run the Cqd
 Give it the date of your first record (identify that using the Select MIN(StartTime) FROM CqdPartitionedStreamView SQL command ), an EndDate of tomorrow, then NULL for the last two values.
   
 Once the data is associated with stream data, the SSIS Cube needs to reprocess all records. This also applies when bulk adding BSSID/ISP data. Ensure that "Process Full" is selected.
-  
-

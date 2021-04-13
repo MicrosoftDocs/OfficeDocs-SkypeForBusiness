@@ -32,7 +32,7 @@ Microsoft tests and qualifies video teleconference systems (VTCs), multipoint co
 
 For more information on which products are currently under test read the *UC Communications Team blog* February 23, 2011 [Choice, innovation, and quality of experience from Lync audio and video device partners](http://choice-innovation-and-quality-of-experience-from-lync-audio-and-video-device-partners.aspx).
 
-Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpoints%20Comparison%20Table.pdf).
+Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables).
 
 
 ***Video Endpoints***
@@ -388,4 +388,4 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 [Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
 
 * * *
-This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](https://blogs.technet.com/b/uc/archive/2011/09/02/what-devices-have-been-certified-for-mac.aspx)
+This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](/archive/blogs/uc/what-devices-have-been-certified-for-mac)

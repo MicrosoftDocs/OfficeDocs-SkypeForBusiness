@@ -124,7 +124,7 @@ Here's more information about how to submit number porting requests for each of 
 ## How long does it take to port numbers?
 <a name="bkmk_type_1"> </a>
 
-After you've completed the port order request, it takes between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you that you're good to go.
+After you've completed the port order request, it takes between 7-14 days to be processed. However, depending on your service provider it may take up to 30 days. After the phone numbers are ported over, you'll get an email from us to let you know that you're good to go.
   
 To check the status of your port order, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, and then click **Order history**. Each port order status is listed in the **Status** column.
   

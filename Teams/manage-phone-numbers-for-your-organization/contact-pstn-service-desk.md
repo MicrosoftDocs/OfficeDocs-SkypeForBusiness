@@ -40,22 +40,22 @@ To contact the PSTN Service Desk team, send email to the appropriate alias liste
 
 ## Transfer or port your existing phone numbers to Microsoft Teams
 Send email to the appropriate email alias from the above table. Include as many details as possible, such as:
-  - Your [Organization ID (Tenant ID) or currently active Microsoft domains](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
+  - Your [Organization ID (Tenant ID) or currently active Microsoft domains](/onedrive/find-your-office-365-tenant-id).
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
   - Other important details based on your request.
 
 ## Get new phone numbers for Microsoft Teams
 Send email to the appropriate email alias from the above table. Include as many details as possible, such as:
-  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
+  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](/onedrive/find-your-office-365-tenant-id)
   - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
   - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate.
 
 ## Additional resources
 
-- For assistance that's related to numbers setup/configuration, licenses, fees, or billing, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+- For assistance that's related to numbers setup/configuration, licenses, fees, or billing, see [Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 - For information about the calling plans that are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 - For information that can help you select the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- For information about how to set up phone numbers for your organization, see [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+- For information about how to set up phone numbers for your organization, see [Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
 ## Related topics
 
@@ -64,4 +64,3 @@ Send email to the appropriate email alias from the above table. Include as many 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
-  

@@ -24,13 +24,13 @@ landingContent:
       - linkListType: whats-new
         links:
           - text: What's new
-            url: /skypeforbusiness/whats-new
+            url: ./whats-new.md
       - linkListType: overview
         links:
           - text: System requirements
-            url: /skypeforbusiness/plan/system-requirements
+            url: ./plan/system-requirements.md
           - text: Network requirements	
-            url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+            url: ../SfbServer/plan-your-deployment/network-requirements/network-requirements.md
       - linkListType: download
         links:
           - text: Download now!
@@ -42,11 +42,11 @@ landingContent:
       - linkListType: overview
         links:
           - text: Topology Basics
-            url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+            url: ../SfbServer/plan-your-deployment/topology-basics/topology-basics.md
           - text: Plan hybrid connectivity
-            url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+            url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md
           - text: Plan for Enterprise Voice
-            url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+            url: ../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
 
   # Card
   - title: Install and manage
@@ -54,15 +54,15 @@ landingContent:
       - linkListType: deploy
         links:
           - text: Install Skype for Business Server
-            url: /skypeforbusiness/deploy/install/install
+            url: ../SfbServer/deploy/install/install.md
           - text: Migrate to Skype for Business 2019
-            url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+            url: ./migration/migration-to-skype-for-business-server-2019.md
           - text: Deploy Enterprise Voice
-            url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+            url: ../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
       - linkListType: how-to-guide
         links:
           - text: Manage your topology
-            url: /skypeforbusiness/manage/topology/topology
+            url: ../SfbServer/manage/topology/topology.md
 
   # Card
   - title: Other resources
@@ -70,6 +70,6 @@ landingContent:
       - linkListType: overview
         links:
           - text: Skype for Business Server 2015 documentation
-            url: /SkypeForBusiness/skype-for-business-server-2015
+            url: ../SfbServer/skype-for-business-server-2015.yml
           - text: Lync Server 2013 documentation
             url: /lyncserver/microsoft-lync-server-2013

@@ -22,8 +22,6 @@ appliesto:
 
 # Teams Approvals app availability
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
 
@@ -47,13 +45,13 @@ To use the Approvals app, you need permission for the following items:
 
 - Administrator Role in the target environment.
 
-- License for a [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
+- License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
 
 ## Storage with CDS
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](https://docs.microsoft.com/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
-Learn more about the [Approval workflow](https://docs.microsoft.com/power-automate/modern-approvals).
+Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
 ## Approvals Teams app permissions
 
@@ -98,13 +96,13 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
 ## Retention policy
 
-Approvals created from the Approvals App are stored in the default CDS environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Approvals created from the Approvals App are stored in the default CDS environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 ## Auditing
 
 The Approvals App logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
 
-1. Go to the M365 Compliance Site.
+1. Go to the Microsoft 365 Compliance Site.
 
 2. Select the **Audit** section.
 
@@ -130,21 +128,21 @@ You can search for the following activities:
 
 - Added e-signature to approval request
 
-For access to more auditing approvals within Flow, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
+For access to more auditing approvals within Flow, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
-1. To use the preconfigured reports, sign in to Office 365 Security and Compliance.
+1. To use the preconfigured reports, sign in to Microsoft 365 Security and Compliance.
 
 2. Select **Search & investigation**.
 
 3. Search the Audit log and select the **Dynamics 365 activities** tab.
 
-Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing).
+Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## Security
 
-From the Teams Approval App, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
+From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
 
 > [!Note]
 > A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.

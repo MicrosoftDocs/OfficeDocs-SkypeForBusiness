@@ -48,7 +48,7 @@ In addition to the above features, you can control what capabilities are availab
 
 ## Required licenses
 
-Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 subscriptions](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
+Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
@@ -71,4 +71,3 @@ You can upgrade Teams phones in your organization to Teams displays in the Micro
 [Teams Marketplace](https://office.com/teamsdevices)
 
 [IP phones certified for Microsoft Teams](teams-ip-phones.md)
-

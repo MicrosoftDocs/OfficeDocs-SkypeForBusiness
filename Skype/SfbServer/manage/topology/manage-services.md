@@ -72,7 +72,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-For details, see [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).
+For details, see [Get-CsWindowsService](/powershell/module/skype/Get-CsWindowsService).
 
 ## Start or stop Skype for Business services
 

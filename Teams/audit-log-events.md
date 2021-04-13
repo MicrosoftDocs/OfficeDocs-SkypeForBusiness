@@ -52,7 +52,7 @@ Before you can look at audit data, you have to first turn on auditing in the [Se
 > [!IMPORTANT]
 > Audit data is only visible in the audit log if auditing is turned on.
 
-The length of time that an audit record is retained and searchable in the audit log depends on your Microsoft 365 or Office 365 subscription, and specifically the type of license that's assigned to users. To learn more, see the [Security & Compliance Center service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
+The length of time that an audit record is retained and searchable in the audit log depends on your Microsoft 365 or Office 365 subscription, and specifically the type of license that's assigned to users. To learn more, see the [Security & Compliance Center service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 ## Tips for searching the audit log
 
@@ -64,7 +64,7 @@ Here are tips for searching for Teams activities in the audit log.
 
   ![Screenshot of audit log search](media/audit-log-search.png)
 
-- To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, search for all activities, and then filter the results by typing the name of the operation in the box in the **Activity** column. To learn more, see [Step 3: Filter the search results](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+- To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, search for all activities, and then filter the results by typing the name of the operation in the box in the **Activity** column. To learn more, see [Step 3: Filter the search results](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
 
 - To clear the current search criteria, click **Clear**. The date range returns to the default of the last seven days. You can also click **Clear all to show results for all activities** to cancel all selected activities.
 
@@ -74,13 +74,13 @@ Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audi
 
 ## Use Cloud App Security to set activity policies
 
-Using [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) integration, you can set [activity policies](https://docs.microsoft.com/cloud-app-security/user-activity-policies) to enforce a wide range of automated processes using the app provider's APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity.
+Using [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integration, you can set [activity policies](/cloud-app-security/user-activity-policies) to enforce a wide range of automated processes using the app provider's APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity.
 
 After you set an activity detection policy, it starts to generate alerts. Alerts are only generated on activities that occur after you create the policy. Here's some example scenarios for how you can use activity policies in Cloud App Security to monitor Teams activities.
 
 ### External user scenario
 
-One scenario you might want to keep an eye on, from a business perspective, is the addition of external users to your Teams environment. If external users are enabled, monitoring their presence is a good idea.  You can use [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) to identify potential threats.
+One scenario you might want to keep an eye on, from a business perspective, is the addition of external users to your Teams environment. If external users are enabled, monitoring their presence is a good idea.  You can use [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) to identify potential threats.
 
 ![Screenshot of a list of events triggered by mass deletions](media/TeamsExternalUserAddPolicy.png)
 
@@ -114,7 +114,7 @@ You can set alerts and send emails to admins and other users when an activity po
 
 ## Use Cloud App Security to set anomaly detection policies
 
-[Anomaly detection policies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in Cloud App Security provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
+[Anomaly detection policies](/cloud-app-security/anomaly-detection-policy) in Cloud App Security provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
 
 We're working to integrate Teams events into anomaly detection policies. For now, you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 
@@ -190,12 +190,12 @@ If your organization is using the Shifts app in Teams, you can search the audit 
 
 ## Office 365 Management Activity API
 
-You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
+You can use the Office 365 Management Activity API to retrieve information about Teams events. To learn more about the  Management Activity API schema for Teams, see [Teams schema](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
 ## Attribution in Teams audit logs
 
-Membership changes to Teams (such as users added or deleted) made through Azure Active Directory (Azure AD), Microsoft 365 admin portal, or Microsoft 365 Groups Graph API will appear in Teams audit messages and in the General channel with an attribution to an existing owner of the team, and not to the actual initiator of the action. In these scenarios, consult Azure AD or [Microsoft 365 Group audit logs](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to see the relevant information.
+Membership changes to Teams (such as users added or deleted) made through Azure Active Directory (Azure AD), Microsoft 365 admin portal, or Microsoft 365 Groups Graph API will appear in Teams audit messages and in the General channel with an attribution to an existing owner of the team, and not to the actual initiator of the action. In these scenarios, consult Azure AD or [Microsoft 365 Group audit logs](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to see the relevant information.
 
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Search the audit log in the Microsoft 365 compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

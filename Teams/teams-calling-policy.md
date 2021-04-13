@@ -77,13 +77,9 @@ This setting enables inbound calls to be sent to voicemail. Valid options are:
 
 ### Inbound calls can be routed to call groups 
 
-> [!Include [feature preview](includes/preview-feature.md)]
-
 This setting controls whether incoming calls can be forwarded to a call group.
 
 ### Allow delegation for inbound and outbound calls
-
-> [!Include [feature preview](includes/preview-feature.md)]
 
 This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions. For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
@@ -93,7 +89,7 @@ Setting this to **On** will send calls through the PSTN and incur charges rather
 
 ### Busy on Busy is available while in a call
 
-Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
+Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
 
 ### Allow web PSTN calling
 
@@ -105,6 +101,6 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ## Related topics
 
-[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
 [Assign policies to your users in Teams](assign-policies.md)

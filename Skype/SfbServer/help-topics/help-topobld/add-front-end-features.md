@@ -34,6 +34,4 @@ Select each feature that you want to enable for the Front End pool. At a minimum
 > [!NOTE]
 > If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site. We recommend CAC if you are deploying voice features or A/V Conferencing.
 
-For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.
-
-
+For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) in the Deployment documentation.
