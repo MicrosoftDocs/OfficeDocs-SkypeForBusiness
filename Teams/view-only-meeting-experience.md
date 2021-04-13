@@ -39,7 +39,16 @@ Attendees will be able to join the view-only experience through desktop, web, an
 
 ## Teams view-only experience controls
 
-You enable the view-only experience using PowerShell.
+You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet from the [SkypeForBusiness PowerShell module](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps) or at least version 2.0.0 of the [MicrosoftTeams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
+
+To use the recommended `MicrosoftTeams` module:
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+To enable the view-only experience, you can use the following PowerShell snippet.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
