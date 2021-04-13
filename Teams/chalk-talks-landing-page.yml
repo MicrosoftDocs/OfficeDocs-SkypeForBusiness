@@ -45,7 +45,7 @@ productDirectory:
       summary: Join us for an in-depth look at adding PSTN calling capabilities to your Teams deployment. Together, we'll walk through calling terminology, key concepts, and configurations.
       url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
     # Card
-    - title: Energize your Live Team Events with Microsoft Teams
+    - title: Energize your Live Events with Microsoft Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
       summary: Engage and energize your audience with large, online virtual events using Microsoft Teams. Learn best practices to ensure your event is successful.
       url: https://aka.ms/ChalkTalksVirtualEvents
