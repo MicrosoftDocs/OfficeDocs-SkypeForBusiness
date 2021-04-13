@@ -29,6 +29,35 @@ There are three types of log files automatically produced by the client, which c
 
 -   Desktop logs
 
+**Collect and enable logging**
+=================================================
+
+It’s important to collect logs as soon as an issue occurs. The log can be collected together with just a couple clicks.
+Windows
+Right-click on the Teams icon in the system tray and choosing Collect support files. 
+Mac
+Select the Help menu and choose Collect support files.
+Debug, Desktop and Media logs will be collected in one folder with the name MSTeams Diagnostics Log <local data and time>. This folder can be compressed and shared when you open a support request with Microsoft Support. This folder will contain folders for Desktop, Meeting (Media) and Debug (web). You can collect the files using the keyboard shortcuts -
+
+Windows
+Crtl + Alt + Shift + 1
+Mac
+Option + Command + Shift + 1
+Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to Settings > General, select the Enable logging for meeting diagnostics (requires restarting Teams). The Teams client must be restarted for logging to begin.
+Note If Media logging is enabled there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging is not enabled there will be a limited number of logs available.
+Note In this article, the term Debug logs refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term diagnostic logs in their names.
+The following table outlines the various clients and their associated logs. 
+TABLE 1
+Client	Debug	Desktop	Media
+Web	X	-	-
+Windows	X	X	X
+Mac OSX	X	X	X
+Linux	X	X	X
+iOS	-	-	-
+Android	-	-	-
+For a complete list of supported operating systems and browsers, see Get clients for Microsoft Teams.
+
+
 When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **desktop** logs are only required if requested by Microsoft.
 
 > [!NOTE]
