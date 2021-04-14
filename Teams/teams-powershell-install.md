@@ -24,8 +24,8 @@ This article explains how to install the Microsoft Teams PowerShell module using
 
 Teams PowerShell requires PowerShell 5.1 or higher on all platforms. Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system.
 
-> [!WARNING]
-> There are known issues with PowerShell 7 and Teams PowerShell. For the best experience, we recommend that you use PowerShell 5.1.
+> [!NOTE]
+> For the best experience, we recommend that you use PowerShell 5.1.
 
 ## Install the Teams PowerShell module
 
@@ -66,10 +66,6 @@ $credential = Get-Credential
 
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -Credential $credential
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credential $credential
-Import-PsSession $session
 ```
 
 ## Sign in using MFA and modern authentication
@@ -79,10 +75,6 @@ Import-PsSession $session
 ```powershell
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -AccountId <UPN>
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession
-Import-PsSession $session
 ```
 
 ## Update Teams PowerShell

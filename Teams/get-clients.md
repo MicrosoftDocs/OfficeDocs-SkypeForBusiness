@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
 f1.keywords:
