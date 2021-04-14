@@ -374,8 +374,6 @@ This feature is available in Teams version 1.3.00.13565 and later.
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
 - Windows Virtual Desktop and VMware don't support MacOS and Linux-based clients at this time.
-- Citrix doesn't support MacOs clients at this time.
-- Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint.
 
 ### Calling and meetings
 
