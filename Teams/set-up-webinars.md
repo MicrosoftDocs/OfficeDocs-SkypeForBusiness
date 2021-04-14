@@ -3,7 +3,7 @@ title: Set up for webinars in Microsoft Teams
 author: KarliStites
 ms.author: kastites
 manager: serdars
-ms.reviewer: sachung
+ms.reviewer: sachung, emryan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -27,7 +27,7 @@ This article will help you set up your organization to host webinars.
 
 ## What are webinars?
 
-Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes. Unlike traditional meetings that include a lot of discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
+Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes. After setting up webinars in your organization, your users can schedule webinars and open registration to a variety of attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
 ## Allow users to schedule webinars using PowerShell
 
