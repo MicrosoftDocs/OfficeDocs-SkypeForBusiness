@@ -100,7 +100,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
 > [!NOTE]
-    > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
+> Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
