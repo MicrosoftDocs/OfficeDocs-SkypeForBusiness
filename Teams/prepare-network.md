@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
 description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

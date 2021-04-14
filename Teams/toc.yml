@@ -1489,6 +1489,15 @@ items:
   items: 
     - name: Limits and specifications for Teams
       href: limits-specifications-teams.md
+    - name: Moving from Kaizala to Microsoft Teams
+      items:
+        - name: Kaizala and Microsoft Teams
+          items:
+            - name: Your path to Teams
+              href: prepare-for-teams.md
+              items:
+                - name: Navigate Teams capabilities
+               
     - name: Licensing
       items: 
         - name: Manage user access to Teams
