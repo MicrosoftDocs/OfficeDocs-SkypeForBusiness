@@ -63,7 +63,7 @@ The diagram shows how the Intelligent Speaker is connected to the device.
 
 Use the following required policies to set speaker and user attribution.
 
-- `enrollUserOverride`: Us `enrollUserOverride` to control user voice enrollment. Allowed values are `Enabled` and `Disabled`.
+- `enrollUserOverride`: Use `enrollUserOverride` to control user voice enrollment. Allowed values are `Enabled` and `Disabled`.
 - `roomAttributeUserOverride`: To control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts. Allowed values are `Off`, `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). *This setting will be available at a later date.*
 - `enabletranscription`: This setting is required for user and Teams rooms accounts. Allowed values are `true` and `false`.
 
@@ -111,9 +111,9 @@ The attribute feature captures the following details:
 - Users who aren't enrolled show as Speaker n.
 - Rooms will send seven audio streams from the room.
 
-(coming in the future) The distinguish feature acts captures the following details only for people who are invited:
+(**coming in the future** do we want to say this?) The distinguish feature acts captures the following details only for people who are invited:
 
-- Rooms users will be diarized but not named (Speaker n). No user identity is shown for in-room attendees.
+- Rooms users will be distinguished but not named (Speaker n). No user identity is shown for in-room attendees.
 - Rooms will send seven audio streams from the room.
 
 The voice profile of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting and dismissed at the end of the meeting.
@@ -131,7 +131,7 @@ Voice profile data is considered user content and is treated as such per Office 
 **Is voice profile data used across Microsoft services?**
 
 Scenario 1: User enrolls in company tenant then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal) and their voice recognized by consumer service.
-Scenario 2:  Users enroll in their company tenant and their voice recognized and attributed in the meeting hosted by another company.
+Scenario 2: Users enroll in their company tenant and their voice recognized and attributed in the meeting hosted by another company.
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use the voice profile data across different non-Teams services at this point.
 
@@ -145,5 +145,5 @@ Yes, audio data collected from user can be exported by tenant admin using Teams 
 
 General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, the voice profile data will be deleted after three years if the data isn't used in any meetings for existing employees.
 
-> [NOTE]
-> In the future, if we can give a bar of how good the audio data is.
+> [!NOTE]
+> In the future, if we can give a bar of how good the audio data is, then you can evaluate the quality of the transcript.
