@@ -35,9 +35,11 @@ Intelligent Speakers are intelligent peripherals for Microsoft Teams Rooms. They
 
 The following items are Intelligent Speaker requirements:
 
-- The customer tenant must be located in the U.S.(North America).
+- The customer tenant must be located in the U.S.(North America).<sup>1</sup> 
 - Rooms has a maximum of 10 people present in person.
 - Rooms has an upload link of minimum 7 Mbps.
+
+ <sup>1</sup> Rockfall and associated biometric storage and usage will only be available in EN-US language and for US (NA-US region) tenants. Both conditions must be true for a tenant user to be able to enroll and use Rockfall for attributed transcription.
 
 ## Set up an Intelligent Speaker
 
