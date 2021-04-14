@@ -115,10 +115,10 @@ When you install a new firmware version on your device, you can determine the co
 | Poly Trio C60   | 7.0.2.1071  | 2021 Update #1                        |
 | CCX400/CCX500/CCX600   | 7.0.2.1072  | 2021 Update #1                 |
 | Audio Codes C448HD/C450HD/C470HD   | 1.10.120  | 2021 Update #1       |
-| YL T55/T56/T58   | 58.15.0.124  | 2021 Update #1                      |
-| YL VP59   | 91.15.0.58  | 2021 Update #1                              |
-| YL CP960  |73.15.0.117  | 2021 Update #1                              |
-| YL MP56/MP54/MP58  |122.15.0.36  | 2021 Update #1                     |
+| Yealink T55/T56/T58   | 58.15.0.124  | 2021 Update #1                      |
+| Yealink VP59   | 91.15.0.58  | 2021 Update #1                              |
+| Yealink CP960  |73.15.0.117  | 2021 Update #1                              |
+| Yealink MP56/MP54/MP58  |122.15.0.36  | 2021 Update #1                     |
 | Crestron UC-2  |1.0.3.52 | 2021 Update #1 |
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
