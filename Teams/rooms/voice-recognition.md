@@ -44,13 +44,13 @@ The following items are Intelligent Speaker requirements:
 Yealink Rockfall connects directly using USB to the Teams Rooms console. For best results, we recommend that you use Yealink Rockfall with the Yealink console.
 
 > [!NOTE]
-> We don't support Rockfall connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue for that Teams Rooms can't recognize the Rockfall device through the dock.
+> We don't support Rockfall connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Rockfall device through the dock.
 
 Rockfall should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Rockfall USB cable isn't long enough for your setup, use cable extenders.
 
 1. Sign in to the console as administrator.
-2. Set the Teams device settings to match the Rockfall microphone and speaker. (They can also do this through the TAC portal instead of at the room console.)What is TAC?
-3. Ensure you have the correct Microphone and Speaker settings.
+2. Set the Teams device settings to match the Rockfall microphone and speaker. (**They can also do this through the TAC portal instead of at the room console.)What is TAC?**
+3. Ensure you have the correct microphone and speaker settings.
 
 The diagram shows how the Intelligent Speaker is connected to the device.
 
@@ -67,7 +67,7 @@ Use the following required policies to set speaker and user attribution.
 - `roomAttributeUserOverride`: To control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts. Allowed values are `Off`, `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). *This setting will be available at a later date.*
 - `enabletranscription`: This setting is required for user and Teams rooms accounts. Allowed values are `true` and `false`.
 
-## Use Voice Profile policies
+## Use voice profile policies
 
 There are two major policies used with a voice profile:
 
@@ -92,16 +92,16 @@ When the settings are enabled:
 Settings are disabled by default. When the Capture policy is disabled:
 
 - Users who have never enrolled can't view, enroll, or re-enroll.
-- The entry point to enrollment flow will be hidden.
-- If users select a link to enrollment page, they'll see a message that this feature isn't enabled for their organization.  
+- The entry point to the enrollment flow will be hidden.
+- If users select a link to the enrollment page, they'll see a message that this feature isn't enabled for their organization.  
 - Users who have already enrolled will be able to view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow.  
 
 ### Set voice profile usage
 
-Turn on or off voice profile usage for attribution and diarization. Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity. Use `RoomAttributeUserOverride` in Rooms to set voice profile usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use of both voice and face for transcription attribution purposes. This setting is **off** by default, so it won't use a user's attribute or distinguish features.
+Turn on or off voice profile usage for attribution and diarization. (Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity.) Use `RoomAttributeUserOverride` in Rooms to set voice profile usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use of both voice and face for transcription attribution purposes. This setting is **off** by default, so it won't use a user's attribute or distinguish features.
 
 - Rooms won't send audio stream-saving bandwidths from the room.  
-- Rooms users won't be attributed or diarized, and their voice signatures won't be retrieved or used at all.
+- Rooms users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.
 - Rooms users are unknown.  
 
 The attribute feature captures the following details:
@@ -109,18 +109,18 @@ The attribute feature captures the following details:
 - Rooms users will be attributed based on their enrollment status.
 - Users who are enrolled, are shown with their name in the transcription.  
 - Users who aren't enrolled show as Speaker n.
-- Rooms will send seven audio streams from the room.
+- Rooms will send 7 audio streams from the room.
 
-(**coming in the future** do we want to say this?) The distinguish feature acts captures the following details only for people who are invited:
+(**coming in the future** do we want to say this?) The distinguish feature captures the following details only for people who are invited:
 
 - Rooms users will be distinguished but not named (Speaker n). No user identity is shown for in-room attendees.
 - Rooms will send seven audio streams from the room.
 
-The voice profile of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting and dismissed at the end of the meeting.
+The voice profile of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile is dismissed at the end of the meeting.
 
 ## Frequently asked questions (FAQ)
 
-**Where is the voice profile data is stored?**
+**Where is the voice profile data stored?**
 
 Voice profile data is stored in Office 365 cloud with user content.
 
@@ -130,8 +130,8 @@ Voice profile data is considered user content and is treated as such per Office 
 
 **Is voice profile data used across Microsoft services?**
 
-Scenario 1: User enrolls in company tenant then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal) and their voice recognized by consumer service.
-Scenario 2: Users enroll in their company tenant and their voice recognized and attributed in the meeting hosted by another company.
+Scenario 1: User enrolls in company tenant and then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal. Their voice is recognized by the consumer service.
+Scenario 2: Users enroll in their company tenant and their voice is recognized and attributed in the meeting hosted by another company.
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use the voice profile data across different non-Teams services at this point.
 
@@ -139,11 +139,11 @@ However,  Microsoft may decide in the future to use the same voice and face enro
 
 **Is Rockfall General Data Protection Regulation (GDPR) compliant?**
 
-Yes, audio data collected from user can be exported by tenant admin using Teams admin center.
+Yes, audio data collected from user can be exported by the tenant admin using Teams admin center.
 
 **What is the retention timeline and policy?**
 
 General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, the voice profile data will be deleted after three years if the data isn't used in any meetings for existing employees.
 
 > [!NOTE]
-> In the future, if we can give a bar of how good the audio data is, then you can evaluate the quality of the transcript.
+> In the future, if we can give a bar of how good the audio data is, then you can evaluate the quality of the transcript.(**reviewer comment**)
