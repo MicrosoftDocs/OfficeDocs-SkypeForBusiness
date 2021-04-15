@@ -1,9 +1,9 @@
 ---
-title: Phone System Direct Routing
+title: Configure Operator Connect
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/21
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -39,19 +39,20 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 5. **Accept the data transfer notice.** Learn more about Data Transfer in Operator Connect.
 
-## Manage phone numbers
+## Acquire and manage phone numbers
+
+You'll need to go to your operator's website to acquire phone numbers.
 
 To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 >[!NOTE]
->Emergency addresses acquired with Operator Connect are managed directly with your operator. Contact them to make any changes to existing numbers.
+>Phone numbers acquired with Operator Connect that have been assigned to emergency addresses  are managed directly with your operator. Contact them to make any changes to existing phone numbers.
 
 ## Manage your operators
 
 From the My Operators tab, you can view your operators and their status and make the following changes to your selections:  
 
 - Suspend an operator
-- Disable an operator in a specified country
 - Remove an operator
 
 >[!NOTE]

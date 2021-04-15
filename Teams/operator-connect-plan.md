@@ -3,7 +3,7 @@ title: Operator Connect
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/21
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -25,9 +25,9 @@ appliesto:
 
 # Plan for Operator Connect
 
-Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. 
+Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System.  
 
-This article describes benefits and requirements, and lists the operators participating in the Operator Connect Program.  If you decide Operator Connect is the right solution for your organization, after reading this article, see [Configure Operator Connect](operator-connect-configure.md). 
+This article describes benefits and requirements, and lists the operators participating in the Operator Connect Program.  If you decide Operator Connect is the right solution for your organization, after reading this article, see [Configure Operator Connect](operator-connect-configure.md).  
 
 ## Benefits
 
@@ -35,9 +35,11 @@ With Operator Connect, if your existing operator is a participant in the Microso
 
 - **Leverage existing operator contracts.** You keep your preferred operator and contracts.
 
+- **Find the right operator for you.** Choose from a selection of participating operators to meet your business needs.
+
 - **Operator-managed infrastructure.** Your operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
-- **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to users -– all from the Teams Admin Center. 
+- **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to users -– all from the Teams Admin Center.
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
 
@@ -46,33 +48,30 @@ With Operator Connect, if your existing operator is a participant in the Microso
  Operator Connect might be the right solution for your organization if:
 
 - Microsoft Calling Plan is not available in your geographic location.
-- Your carrier is a participant in the Microsoft Operator Connect program.
+- Your preferred operator is a participant in the Microsoft Operator Connect program.
 - You want to find a new operator to enable calling in Teams.
 
 To enable phone number assignments with Operator Connect, make sure your users are:
 
-- Teams Phone licensed
-- Enterprise Voice enabled
-- In TeamsOnly mode
+- Teams Phone licensed, to learn more see [What is Phone System?](https://docs.microsoft.com/microsoftteams/what-is-phone-system-in-office-365) and [Assign Teams add-on licenses to users](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)
+- In TeamsOnly mode, to learn more see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)
 
- ## Available Operators
+## Available Operators
 
  [List available operators here with links to operator content/sites?]
 
 The following operators are participants in the Microsoft Operator Connect program:
 
-| Operator | Country coverage |
-| --- | --- |
-| BT |  |
-| Deutshe |  |
-| Telekom |  |
-| Intrado |  |
-| NTT |  |
-| Nuwave |  |
-| Orange Business Services |  |
-| Pure IP |  |
-| Rogers |  |
-| Swisscom |  |
-| TATA |  |
-| Telenor |  |
-| Verizon |  |
+| Operator | Capability | Country coverage |
+| --- | --- | --- |
+| BT | Calling | United Kingdom, United States, France, Netherlands, Ireland, Germany, Switzerland  |
+| Deutshe Telekom | Calling | Germany  |
+| Intrado | Calling | Netherlands, New Zealand, France, Canada, United Kingdom, Japan, Singapore, Australia, Luxembourg, Belgium, Ireland, Sweden, Spain, United States, Denmark, Hong Kong  |
+| NTT | Calling | Australia, Austria, Belgium, Brazil, Canada, Czechia, Denmark, Finland, Germany, France, Hong Kong, Ireland, Italy, Japan, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Puerto Rico, Romania, Singapore, South Africa, Spain, Sweden, Switzerland, United Kingdom, United States  |
+| Nuwave | Calling | Austria, Belgium, Denmark, France, Germany, Ireland, Italy, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, Canada  |
+| Orange Business Services | Calling | Austria, Australia, Belgium, Canada, Switzerland, Czechia, Germany, Denmark, Spain, Finland, France, United Kingdom, Hong Kong, Ireland, Italy, Luxembourg, Netherlands, Norway, New Zealand, Poland, Portugal, Réunion, Saint Barthélemy, Sweden, Svalbard and Jan Maye, United States  |
+| Pure IP | Calling | Austria, Lithuania, Italy, Portugal, Cyprus, Malaysia, Chile, Netherlands, Poland, Czechia, New Zealand, Finland, Slovenia, Greece, France, Brazil, Croatia, Puerto Rico, Canada, United Kingdom, Mexico, Colombia, Norway, Romania, Japan, Bulgaria, Singapore, Switzerland, Australia, Luxembourg, Germany, Belgium, Ireland, Sweden, Spain, United States, Denmark, Hong Kong, Slovakia  |
+| Rogers | Calling | United States, Canada  |
+| TATA | Calling | Austria, Belgium, Denmark, France, Germany, Ireland, Italy, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, Canada  |
+| Telenor | Calling | Finland, Norway, Sweden, Denmark  |
+| Verizon | Calling | United States, Canada, Mexico, United Kingdom, Germany, France, Ireland, Belgium, Netherlands, Australia, Hong Kong, Singapore |
