@@ -2,6 +2,75 @@
 
 
 
+## Week of April 05, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/5/2021 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
+| 4/5/2021 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
+| 4/5/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 4/5/2021 | [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | modified |
+| 4/5/2021 | [What is Call Quality Dashboard (CQD)?](/MicrosoftTeams/cqd-what-is-call-quality-dashboard) | modified |
+| 4/5/2021 | [Use the Microsoft Teams Meeting add-in in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modified |
+| 4/5/2021 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 4/5/2021 | [Sensitivity labels for Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modified |
+| 4/6/2021 | [Manage meeting policies for audio and video](/MicrosoftTeams/meeting-policies-audio-and-video) | added |
+| 4/6/2021 | [Manage meeting policies for content sharing](/MicrosoftTeams/meeting-policies-content-sharing) | added |
+| 4/6/2021 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | added |
+| 4/6/2021 | [Manage meeting policies](/MicrosoftTeams/meeting-policies-overview) | added |
+| 4/6/2021 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | added |
+| 4/6/2021 | [Create a call queue in Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modified |
+| 4/6/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 4/6/2021 | [Microsoft Teams low-bandwidth guidance for EDU](/MicrosoftTeams/edu-remote-low-bandwidth) | modified |
+| 4/6/2021 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 4/6/2021 | [Meeting policies and meeting expiration in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | modified |
+| 4/6/2021 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
+| 4/6/2021 | [Microsoft Teams resources for Education admins](/MicrosoftTeams/remote-learning-edu) | modified |
+| 4/6/2021 | [Microsoft Teams meeting attendance report](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
+| 4/6/2021 | [Azure Sentinel and Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | modified |
+| 4/6/2021 | [Choose your upgrade journey from Skype for Business to Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | modified |
+| 4/6/2021 | [Use NDI in Microsoft Teams](/MicrosoftTeams/use-ndi-in-meetings) | modified |
+| 4/6/2021 | [Audio Conferencing pay-per-minute](/MicrosoftTeams/audio-conferencing-pay-per-minute) | modified |
+| 4/6/2021 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 4/6/2021 | [Teams apps behavior for non-standard users](/MicrosoftTeams/non-standard-users) | modified |
+| 4/6/2021 | [Release notes](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 4/6/2021 | [Create a Teams 'Intranet Portal app' from a SharePoint Online site or page](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | modified |
+| 4/7/2021 | [Admin training resources - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modified |
+| 4/7/2021 | [Audio Conferencing pay-per-minute](/MicrosoftTeams/audio-conferencing-pay-per-minute) | modified |
+| 4/7/2021 | [Audio Conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modified |
+| 4/7/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 4/7/2021 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 4/7/2021 | [Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 4/7/2021 | [Teams apps behavior for non-standard users](/MicrosoftTeams/non-standard-users) | modified |
+| 4/7/2021 | [Manage retention policies for Microsoft Teams](/MicrosoftTeams/retention-policies) | modified |
+| 4/7/2021 | [Manage Teams with Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-managing-teams) | modified |
+| 4/7/2021 | [Set up the Call me feature for your users](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | modified |
+| 4/8/2021 | [On-network Conferencing for Audio Conferencing](/MicrosoftTeams/audio-conferencing-on-network) | modified |
+| 4/8/2021 | [Call sharing and group call pickup](/MicrosoftTeams/call-sharing-and-group-call-pickup) | modified |
+| 4/8/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 4/8/2021 | [Configure live event settings in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modified |
+| 4/8/2021 | [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modified |
+| 4/8/2021 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 4/8/2021 | [Manage user access to Microsoft Teams](/MicrosoftTeams/user-access) | modified |
+| 4/8/2021 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
+| 4/8/2021 | [Direct Routing country codes](/MicrosoftTeams/direct-routing-country-codes) | modified |
+| 4/8/2021 | [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modified |
+| 4/8/2021 | [Calling policies in Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | modified |
+| 4/8/2021 | [Microsoft Teams admin training](/MicrosoftTeams/training-microsoft-teams-landing-page) | modified |
+| 4/9/2021 | [Set up an auto attendant for Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modified |
+| 4/9/2021 | [Manage feedback policies in Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | modified |
+| 4/9/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
+| 4/9/2021 | [Customize Microsoft apps in Teams](/MicrosoftTeams/customize-apps) | modified |
+| 4/9/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 4/9/2021 | [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modified |
+| 4/9/2021 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 4/9/2021 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
+| 4/9/2021 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
+| 4/9/2021 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 4/9/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+
+
 ## Week of March 29, 2021
 
 

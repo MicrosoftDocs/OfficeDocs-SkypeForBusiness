@@ -98,6 +98,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #1A | April 5th, 2021  |1449/1.0.94.2021033002|  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | 2021 Update #1  | March 26, 2021  |1449/1.0.94.2021022403 |  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | 2020 Update #7  | December 8, 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (223) |
 | 2020 Update #6  | October 12, 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
@@ -111,10 +112,13 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release  |
 |:--------------------|:---------------------|:-------------------------|
-| YL T55/T56/T58   | 58.15.0.124  | 2021 Update #1 |
-| YL VP59   | 91.15.0.58  | 2021 Update #1 |
-| YL CP960  |73.15.0.117  | 2021 Update #1 |
-| YL MP56/MP54/MP58  |122.15.0.36  | 2021 Update #1 |
+| Poly Trio C60   | 7.0.2.1071  | 2021 Update #1                        |
+| CCX400/CCX500/CCX600   | 7.0.2.1072  | 2021 Update #1                 |
+| Audio Codes C448HD/C450HD/C470HD   | 1.10.120  | 2021 Update #1       |
+| Yealink T55/T56/T58   | 58.15.0.124  | 2021 Update #1                      |
+| Yealink VP59   | 91.15.0.58  | 2021 Update #1                              |
+| Yealink CP960  |73.15.0.117  | 2021 Update #1                              |
+| Yealink MP56/MP54/MP58  |122.15.0.36  | 2021 Update #1                     |
 | Crestron UC-2  |1.0.3.52 | 2021 Update #1 |
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
@@ -140,6 +144,8 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #1  |April 7th, 2021  |1449/1.0.96.2021020902(Yealink VC210)  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
+| 2021 Update #1  |April 5th, 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | 2020 Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
 | 2020 Update #2  | August 24, 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
 | 2020 Update #1  | May 13, 2020 | .040901                     | .4715                  | .210                |
@@ -150,6 +156,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink VC210 |118.15.0.47     | 2021 Update #1    |
+| Yealink MeetingBar A20 | 133.15.0.54     | 2021 Update #1    |
+| Yealink MeetingBar A30 | 133.15.0.54     | 2021 Update #1    |
+| Yealink CTP18 | 137.15.0.30     | 2021 Update #1    |
 | Yealink VC210 + CP900 | 118.15.0.42     | 2020 Update #3    |
 | Poly Studio X30 | 3.2.3.280012          | 2020 Update #3    |
 | Poly Studio X50 | 3.2.3.280012          | 2020 Update #3    |

@@ -32,4 +32,6 @@ Because a Multi-Geo tenancy is a single global tenant, during @ mentions satelli
 
 Conversations in chats, channels messages, and meeting IM notes/chats within the Teams experience aren't Multi-Geo-aware and are all kept only inside the central location of the tenant. Typically, chat conversations aren’t applied to data residency needs. For more information, see [Location of data in Microsoft Teams](location-of-data-in-teams.md).
 
+Multi-Geo support for Teams is on the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70783).
+
 For more info about Multi-Geo, refer to the [Microsoft Multi-Geo capabilities page](https://aka.ms/multi-geo).
