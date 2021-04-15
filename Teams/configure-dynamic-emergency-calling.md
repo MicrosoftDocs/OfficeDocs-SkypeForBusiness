@@ -222,8 +222,8 @@ The following table shows support for dynamic emergency calling in the governmen
 | Cloud | Availability |
 | :------------|:-------|
 | World Wide Multi Tenant | Fully available |
-| GCC | Available on all clients except Teams IP phones |
-| GCCH | Pending |
+| GCC | Available on all clients |
+| GCCH | Available on Teams desktop |
 | DoD | Pending |
 
  ## Related topics
