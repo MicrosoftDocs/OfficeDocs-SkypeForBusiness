@@ -24,7 +24,7 @@ ms.custom:
 description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
 ---
 
-# Dimensions and measurements available in Call Quality Dashboard (CQD)
+# Dimensions and measurements available in Call Quality Dashboard (CQD) -
 
 The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to better understand call quality of calls made with these services. This topic provides detailed information about the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
 
@@ -437,8 +437,9 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it is false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Jitter|Milliseconds|The variation in arrival time of RTP packets. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 5.982||
 |Packet Loss Rate|Percentage|The percentage of streams between Mediation Server and SBC or Gateway, if available. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 1.2%||
-|Latency (Round-trip Time)|Milliseconds|The average network propagation round-trip time per stream computed. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 3.49||
+|Latency (Round-trip Time)|Milliseconds|The average network propagation round-trip time per stream computed. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for test more information.<br/>**Example:** 3.49||
 ||||
+
 
 ### Notes on dimension data type/units
 
