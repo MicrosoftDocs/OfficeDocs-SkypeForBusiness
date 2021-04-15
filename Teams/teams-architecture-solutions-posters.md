@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams IT architecture and telephony solutions posters
+title: Microsoft Teams IT architecture and voice solutions posters
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -15,10 +15,10 @@ search.appverid:
   - MET150
 f1.keywords:
 - NOCSH
-description: "Summary: Learn about the logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams. Also learn about telephony solutions for Teams. "
+description: "Summary: Learn about the logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams. Also learn about voice solutions for Teams."
 ---
 
-# Microsoft Teams IT architecture and telephony solutions posters
+# Microsoft Teams IT architecture and voice solutions posters
 
 ## Teams as part of Microsoft 365
 
@@ -35,14 +35,14 @@ This is what IT architects need to know about groups in Microsoft 365. These ill
 
 [![Thumb image for groups infographic](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
 
-## Microsoft telephony solutions
+## Microsoft voice solutions
 
-Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This poster helps you decide which Microsoft telephony solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how your organization can connect to the Public Switched Telephone Network (PSTN).
+Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This poster helps you decide which Microsoft voice solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how your organization can connect to the Public Switched Telephone Network (PSTN).
 
-[![Thumbnail for Microsoft Telephony Solutions poster](media/microsoft-telephony-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/>
+[![Thumbnail for Microsoft Voice Solutions poster](media/microsoft-telephony-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/>
 [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) | [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx)
 
-For more information, see the article for this poster: [Microsoft telephony solutions](cloud-voice-landing-page.md)
+For more information, see the article for this poster: [Microsoft voice solutions](cloud-voice-landing-page.md)
   
 ## See Also
 
