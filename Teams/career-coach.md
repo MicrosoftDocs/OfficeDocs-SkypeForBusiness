@@ -291,16 +291,16 @@ Include Career Coach links
 
 -   [Managing apps in Microsoft Teams Admin Center](manage-apps.md)
 
--   [Security, privacy, and compliance in Microsoft Teams](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fmicrosoftteams%2Fsecurity-compliance-overview&data=04%7C01%7Cv-julmye%40microsoft.com%7C5b7aad45e2cb4d3f132608d8b6643816%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637459888836174201%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=0jLtK%2BmWx4J67visjCEaOnjEq6BL89WZkb6j2B35VVA%3D&reserved=0)
+-   [Security, privacy, and compliance in Microsoft Teams](security-compliance-overview.md)
 
--   [Teams Learning Orientation Kit](https://nam06.safelinks.protection.outlook.com/ap/p-59584e83/?url=https%3A%2F%2Fmicrosoft.sharepoint.com%2F%3Ap%3A%2Ft%2FPLGEngineering%2FERD7cPllZytAqVtQNafPNLgBHOibqDu6DPFBJXzgM67xOw%3Fe%3DiwKKnc&data=04%7C01%7Cv-julmye%40microsoft.com%7C5b7aad45e2cb4d3f132608d8b6643816%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637459888836184198%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=5bQjLkSrkfEyl8A7AN9Isslng9pWHezsLWpQuQuB2dY%3D&reserved=0)
+-   [Teams Learning Orientation Kit]() need the link
 
--   [Limits and specification of Teams channels](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fmicrosoftteams%2Flimits-specifications-teams&data=04%7C01%7Cv-julmye%40microsoft.com%7C5b7aad45e2cb4d3f132608d8b6643816%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637459888836184198%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=Gn6jH5CZpzLmqGPERpCLv%2BrTk6Iojvr7Wk%2BQbSOmtn0%3D&reserved=0)
+-   [Limits and specification of Teams channels](limits-specifications-teams.md)
 
--   [Location of data in Microsoft Teams](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fmicrosoftteams%2Flocation-of-data-in-teams&data=04%7C01%7Cv-julmye%40microsoft.com%7C5b7aad45e2cb4d3f132608d8b6643816%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637459888836194185%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=xI0cR4KI9ptNFWnVBJxeQZqaeSPxFraaYX3IoluVLkY%3D&reserved=0)
+-   [Location of data in Microsoft Teams](location-of-data-in-teams.md)
 
--   [Getting started with admin training for Microsoft Teams](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fmicrosoftteams%2Fitadmin-readiness&data=04%7C01%7Cv-julmye%40microsoft.com%7C5b7aad45e2cb4d3f132608d8b6643816%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637459888836194185%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=WVy16lE24WPkPAHCm8UFJbVMUASQR7NhL%2FZmvP9aRrs%3D&reserved=0)
+-   [Getting started with admin training for Microsoft Teams](ITAdmin-readiness.md)
 
--   [Teams troubleshooting](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2FMicrosoftTeams%2Ftroubleshoot%2Fteams-welcome&data=04%7C01%7Cv-julmye%40microsoft.com%7C5b7aad45e2cb4d3f132608d8b6643816%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637459888836204182%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=gxsL7gETg3pS78KV%2Fa481ZTP7EayHtOwjRBrNuAlb%2Fo%3D&reserved=0)
+-   [Teams troubleshooting](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-welcome)
 
 -   [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md)
