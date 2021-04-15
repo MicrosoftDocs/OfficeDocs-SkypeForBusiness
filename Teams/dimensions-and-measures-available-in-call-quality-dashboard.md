@@ -439,7 +439,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |Packet Loss Rate|Percentage|The percentage of streams between Mediation Server and SBC or Gateway, if available. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 1.2%||
 |Latency (Round-trip Time)|Milliseconds|The average network propagation round-trip time per stream computed. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 3.49||
 |**Meeting**|||
-|Meeting Scenario|Enumeration <br/>**Possible values:** <br/> Bookings <br/> EHR Connector <br/> Unknown |A field provided by meeting scheduling client teams (e.g. Bookings, EHR Connector) through their telemetry to help distinguish their meetings from the rest. As of CY21Q2, only Bookings and EHR Connector have signed up to provide telemetry to identify a meeting's scenario.|The scheduling client has not provided this parameter through its telemetry.|
+|Meeting Scenario|Enumeration <br/>**Possible values:** <br/> Bookings <br/> EHR Connector <br/> Unknown |A field provided by meeting scheduling client teams (e.g. Bookings, EHR Connector) through their telemetry to help distinguish their meetings from the rest. As of April 2021, only Bookings and EHR Connector have signed up to provide telemetry to identify a meeting's scenario.|The scheduling client has not provided this parameter through its telemetry.|
 ||||
 
 
