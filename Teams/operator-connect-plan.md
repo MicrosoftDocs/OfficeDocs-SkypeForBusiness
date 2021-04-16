@@ -58,8 +58,6 @@ To enable phone number assignments with Operator Connect, make sure your users a
 
 ## Available Operators
 
- [List available operators here with links to operator content/sites?]
-
 The following operators are participants in the Microsoft Operator Connect program:
 
 | Operator | Capability | Country coverage |
