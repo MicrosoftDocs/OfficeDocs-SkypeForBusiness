@@ -53,8 +53,8 @@ With Operator Connect, if your existing operator is a participant in the Microso
 
 To enable phone number assignments with Operator Connect, make sure your users are:
 
-- Teams Phone licensed, to learn more see [What is Phone System?](https://docs.microsoft.com/microsoftteams/what-is-phone-system-in-office-365) and [Assign Teams add-on licenses to users](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)
-- In TeamsOnly mode, to learn more see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)
+- Teams Phone licensed. To learn more, see [What is Phone System?](https://docs.microsoft.com/microsoftteams/what-is-phone-system-in-office-365) and [Assign Teams add-on licenses to users](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+- In TeamsOnly mode. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
 ## Available Operators
 
