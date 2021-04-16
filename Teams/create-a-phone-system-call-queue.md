@@ -75,6 +75,11 @@ You can add up to 200 agents via a Teams channel.
 
 If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**.
 
+The following clients are supported when using a Teams channel for call queues: 
+
+  - Microsoft Teams Windows client
+  - Microsoft Teams Mac client
+
 ##### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
@@ -98,6 +103,9 @@ To add a group to the queue, click **Add groups**, search for the group, click *
   - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
+
+> [!NOTE]
+> Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
