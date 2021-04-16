@@ -218,20 +218,3 @@ To add a **Description** column to the document library page, follow these steps
 
      ![Documents page in SharePoint showing the descriptions in the Description column.](media/learning-sharepoint-curation3.png)
  
-### Frequently asked questions
-
-#### Does Viva Learning (private preview) support keyword, skills tags, and custom-built columns for documents?
-
-At the moment no, but we are planning to provide these options.
-
-#### Does Viva Learning (private preview) support custom thumbnails?
-
-At the moment no, but working to provide preview thumbnails.
- 
-#### How will nested folders within document libraries be handled?
-
-Currently, there are five levels of folders. The folder levels will be flattened as items are ingested into the learning service.
-
-#### How many total SharePoint items does Viva Learning (private preview) support?
-
-Viva Learning (private preview) supports 5,000 total items per organization for private preview. 
