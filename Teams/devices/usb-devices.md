@@ -26,7 +26,7 @@ To explore devices tested and certified for Microsoft Teams, head over to the [T
 For more information about call control support with Teams, see [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
 
 > [!TIP]
-> Looking for devices certified for Skype for Business? Head over to [USB audio and video devices certified for Skype for Business](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices).
+> Looking for devices certified for Skype for Business? Head over to [USB audio and video devices certified for Skype for Business](/skypeforbusiness/certification/devices-usb-devices).
 
 ## Understanding certification categories
 
@@ -65,14 +65,17 @@ Browse [devices certified for Microsoft Teams](https://products.office.com/micro
 - No provisioning required
 - All devices support firmware updates to allow new features and performance improvements.
 
-If you're a manufacturer and want to join the certification program, see [How to Join](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you're a manufacturer and want to join the certification program, see [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 ## Certified devices
 
-*Table Updated January 2021*
+*Table Updated March 2021*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |Adapt 200 Series Headsets                                  |3/19/2021       |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Certified for Microsoft Teams                           |
+|Poly                 |Studio P15 Video bar                                       |2/1/2021        |Certified for Microsoft Teams                           |
 |Poly                 |Sync 40 speakerphone                                       |1/19/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Sync 40+ speakerphone with Poly BT600 USB Dongle           |1/19/2021       |Certified for Microsoft Teams                           |
 |Yealink              |UH34 Dual/Mono Headset                                     |12/23/2020      |Certified for Microsoft Teams                           |
@@ -167,4 +170,3 @@ If you're a manufacturer and want to join the certification program, see [How to
 | Polycom             | Studio Soundbar                                           | 10/18/2019     | Certified for Microsoft Teams                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Certified for Microsoft Teams                          |
 | Jabra               | PanaCast                                                  | 08/14/2019     | Certified for Microsoft Teams                          |
-

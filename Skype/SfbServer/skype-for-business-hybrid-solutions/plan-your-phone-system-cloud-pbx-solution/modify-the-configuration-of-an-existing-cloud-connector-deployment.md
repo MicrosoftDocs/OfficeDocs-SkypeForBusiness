@@ -21,7 +21,7 @@ description: "Follow the steps in this topic to modify the configuration of an e
 # Modify the configuration of an existing Cloud Connector deployment
 
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Follow the steps in this topic to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment. 
   
@@ -371,5 +371,3 @@ When you need to replace the external Edge certificate on your Cloud Connector a
     If the password of the new certificate is the same as the old, the import will be successful. If the password is different, you will receive an error that the password is wrong, and you will need to reset the password by running the Register-CcAppliance cmdlet with the -Local parameter, and then repeating step 2. 
     
 4. Take the appliance out of maintenance mode by using the Exit -CcUpdate cmdlet.
-    
-

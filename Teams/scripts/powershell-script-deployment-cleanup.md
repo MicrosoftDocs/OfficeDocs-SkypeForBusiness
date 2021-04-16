@@ -60,4 +60,4 @@ catch
 ## Related topics
 
 - [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Deploy Teams with Microsoft 365 Apps](https://docs.microsoft.com/deployoffice/teams-install)
+- [Deploy Teams with Microsoft 365 Apps](/deployoffice/teams-install)

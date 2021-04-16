@@ -45,7 +45,7 @@ items:
 
     Audio Conferencing adds features and functionality to meetings in Teams. We
     recommend that you complete [Meetings in Microsoft
-    Teams](https://aka.ms/tr-meetings) before this tutorial.
+    Teams](./tutorial-meetings-in-teams.yml) before this tutorial.
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
@@ -73,10 +73,10 @@ items:
         Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)
         (estimated reading time for “\#1 - Join a meeting via Audio Conferencing” is
         1 minute; more if you read the whole article)
-    -   [Audio Conferencing common questions](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)
+    -   [Audio Conferencing common questions](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)
         (estimated reading time 7 minutes)
     -   [Dialing out from a meeting so other people can join
-        it](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
+        it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
         (estimated reading time 2 minutes)
 
 - title: Scenario – Audio Conferencing
@@ -139,19 +139,19 @@ items:
         Conferencing](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing)
         (estimated reading time 11 minutes)
     -   [Make my service decisions - Audio
-        Conferencing](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing)
+        Conferencing](./deploy-audio-conferencing-teams-landing-page.md)
         (estimated reading time 12 minutes)
     -   [Evaluate my
-        environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment)
+        environment](./3-envision-evaluate-my-environment.md)
         (estimated reading time 12 minutes)
     -   [Plan my service
-        management](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management)
+        management](./4-envision-plan-my-service-management.md)
         (estimated reading time 5 minutes)
     -   [Plan my users’
-        experience](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience)
+        experience](./5-envision-plan-my-users-experience.md)
         (estimated reading time 5 minutes)
     -   [Document my success
-        plan](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan)
+        plan](./6-envision-document-my-success-plan.md)
         (estimated reading time 6 minutes)
 
 - title: Onboard Audio Conferencing
@@ -163,16 +163,16 @@ items:
     Conferencing:
 
     -   [Prepare my
-        service](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service)
+        service](./1-onboard-prepare-my-service.md)
         (estimated reading time 6 minutes)
     -   [Prepare my
-        users](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users)
+        users](./2-onboard-prepare-my-users.md)
         (estimated reading time 2 minutes)
     -   [Deploy my
-        service](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service)
+        service](./3-onboard-deploy-my-service.md)
         (estimated reading time 3 minutes)
     -   [Audio Conferencing troubleshooting and known
-        issues](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)
+        issues](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)
         (estimated reading time for Teams-specific content is 2 minutes)
 
 - title: Exercise – Configure Audio Conferencing
@@ -235,7 +235,7 @@ items:
     training material:
 
     -   [Operate my
-        service](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)
+        service](./1-drive-value-operate-my-service.md)
 
 - title: Next steps
   durationInMinutes: 1
@@ -255,4 +255,4 @@ items:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/O365Roadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    4.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).
+    4.  Explore [more training and tutorials](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training).

@@ -21,14 +21,14 @@ appliesto:
 # Sync Student Information System (SIS) data with Education Insights
 The more data is fed into [Education Insights](class-insights.md), the better educators can support their students, and education leaders can support the educators.
 
-To provide organization-level Insights, we must use [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
+To provide organization-level Insights, we must use [School Data Sync (SDS)](/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
 
 Viewing class-level Insights as the class educator *does not* require this sync because we use Teams' class structure and permissions.
 
 ## Plan your SIS integration
 The SIS data provides the hierarchical structure of the educational system and maps which user is assigned where.
 
-Insights works best when using [SDS V2 file format](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format) but also supports [SDS V1 file format](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds) with *limited* functionality.
+Insights works best when using [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format) but also supports [SDS V1 file format](/schooldatasync/school-data-sync-format-csv-files-for-sds) with *limited* functionality.
 
 ### Differences between SDS V1 and V2 file formats
 
@@ -75,7 +75,7 @@ Here are some best practices to ensure the smooth deployment of SDS so that your
 	
     *	Based on the org unit for staff, you will be able to define the relevant permissions. Make sure they are associated with the correct unit level, so they receive the permissions they need. For example, a counselor assigned to four schools needs to see all the classes in these schools; a principal needs to see all the classes in their school. 
 	
-*	The role is vital. Although this list is closed, try to match the role from [the list](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) to the real role of each user you upload. In this way, you can assign role-based permissions accordingly. For example, provide permissions for all principals to see the classes in their school, or for all professors to see their faculty. 
+*	The role is vital. Although this list is closed, try to match the role from [the list](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) to the real role of each user you upload. In this way, you can assign role-based permissions accordingly. For example, provide permissions for all principals to see the classes in their school, or for all professors to see their faculty. 
 
 ### Organizations
 
@@ -84,7 +84,7 @@ Here are some best practices to ensure the smooth deployment of SDS so that your
 * Ensure that *all org units down the org tree include students or classes* to aggregate student data for them. We recommend that students are on the lowest branch of the tree.
 
 > [!NOTE]
-> For more details about SDS deployment, visit [Planning SDS](https://docs.microsoft.com/schooldatasync/planning-school-data-sync).
+> For more details about SDS deployment, visit [Planning SDS](/schooldatasync/planning-school-data-sync).
 
 ## Integrate SIS using SDS
 
@@ -111,7 +111,7 @@ To sync your current profiles with Insights, go to your **Sync Profile(s)**, cli
 
 :::image type="content" source="media/insights-sds-profile-sync.png" alt-text="Sync profile with Insights toggles":::
 
-**If you don't use SDS yet**, you now need to [deploy it](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync).
+**If you don't use SDS yet**, you now need to [deploy it](/schooldatasync/deploying-school-data-sync).
 
 During the deployment process, you can decide if you want to use SDS for provisioning users and classes in Teams or to use it only to provide data to Insights.
 

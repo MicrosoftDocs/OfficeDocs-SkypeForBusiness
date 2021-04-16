@@ -121,7 +121,6 @@ A trunk configuration as described below groups a set of parameters that are app
 20. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
 
     > [!Note]
-    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx). (NEED NEW LINK?)
+    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration). (NEED NEW LINK?)
 
 After you have configured the trunk, continue configuring media bypass by choosing between global media bypass options, as described in [Deploy media bypass in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md).
-

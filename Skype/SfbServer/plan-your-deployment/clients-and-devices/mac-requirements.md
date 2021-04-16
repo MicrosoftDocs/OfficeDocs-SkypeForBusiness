@@ -36,9 +36,9 @@ The Skype for Business on Mac client requires Mac OS X El Capitan and higher, an
 
 Skype for Business Server 2015 also supports the following legacy clients on computers that are running Mac OS 10.5.8 or latest service pack or release (Intel-based) operating systems (Mac OS 10.9 operating system is not currently supported). For details about supported features, see [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md).
   
-- Microsoft Lync for Mac 2011 (see [Lync for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268786))
+- Microsoft Lync for Mac 2011 (see [Lync for Mac 2011 Deployment Guide](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14)))
     
-- Microsoft Communicator for Mac 2011 (see [Communicator for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268787))
+- Microsoft Communicator for Mac 2011 (see [Communicator for Mac 2011 Deployment Guide](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14)))
  
 These clients are not supported by Skype for Business Server 2019.
    
@@ -70,7 +70,7 @@ Mobility must be properly deployed for the Skype for Business on the Mac client 
     
 - lyncdiscover.\<sipdomain\>
     
-For more information, refer to: [Deploying Mobility in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224), and the [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226).
+For more information, refer to: [Deploying Mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility), and the [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226).
   
 ## See also
 <a name="Infrastructure"> </a>
