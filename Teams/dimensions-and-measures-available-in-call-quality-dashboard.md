@@ -72,8 +72,8 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second OS Filtered  | String  | Operating System name and major and minor version reported by the second endpoint. This string can contain more than the OS name and version. <br/> **Example value:** Windows 10  | <br/>&bull; The endpoint did not report this information <br/>&bull; The report from this endpoint was not received |
 | First OS Architecture  | String  | Hardware architecture reported by the first endpoint. <br/> **Example value:** x64  | &bull; The endpoint did not report this information <br/>&bull; The report from this endpoint was not received <br/>&bull; The format of the architecture wasn't recognized |
 | Second OS Architecture  | String  | Hardware architecture reported by the second endpoint. <br/> **Example value:** x64  | &bull; The endpoint did not report this information <br/>&bull; The report from this endpoint was not received <br/>&bull; The format of the architecture wasn't recognized  |
-| First Virtualization Flag  | Enumeration <br/>**Possible values:** <br/> "0x00" = None " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = Virtual PC <br/> "0x08" = Xen PC | Flag that indicates the type of virtualization environment reported by the first endpoint. | <br/>&bull; Data was not reported by the endpoint |
-| Second Virtualization Flag  | Enumeration <br/>**Possible values:** <br/> "0x00" = None " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = Virtual PC <br/> "0x08" = Xen PC | Flag that indicates the type of virtualization environment reported by the second endpoint.  | <br/>&bull; Data was not reported by the endpoint |
+| First Virtualization Flag  | Enumeration <br/>**Possible values:** <br/> "0x00" = None  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Virtual PC <br/> "0x08" = Xen PC | Flag that indicates the type of virtualization environment reported by the first endpoint. | <br/>&bull; Data was not reported by the endpoint |
+| Second Virtualization Flag  | Enumeration <br/>**Possible values:** <br/> "0x00" = None  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Virtual PC <br/> "0x08" = Xen PC | Flag that indicates the type of virtualization environment reported by the second endpoint.  | <br/>&bull; Data was not reported by the endpoint |
 |First Endpoint Make |String |Device manufacturer, information is read from an Endpoint Data file EndpointMake field. | <br/>&bull; No data file for the endpoint |
 | First Endpoint Model |String|Device model, information is read from an Endpoint Data file EndpointModel field.| <br/>&bull; No data file for the endpoint |
 | First Endpoint Type|String|Device type, information is read from an Endpoint Data file EndpointType field.| <br/>&bull; No data file for the endpoint |
@@ -86,6 +86,16 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Endpoint Label 1|String| A customizable label, information is read from an Endpoint Data file. | <br/>&bull; No data file for the endpoint |
 | Second Endpoint Label 2|String|A customizable label, information is read from an Endpoint Data file.| <br/>&bull; No data file for the endpoint|
 | Second Endpoint Label 3|String|A customizable label, information is read from an Endpoint Data file.| <br/>&bull; No data file for the endpoint |
+| First ASN|String|Autonomous system number for the first endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN|String|Autonomous system number for the second endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN Country Code|String|Country code for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** US  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN Country Code|String|Country code for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** US  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN Country|String|Country name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** United States  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN Country|String|Country name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** United States  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN City|String|City name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** Redmond  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN City|String|City name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** Redmond  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN State|String|State name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** WA  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN State|String|State name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** WA  | <br/>&bull; Network data was not available to determine endpoint ASN |
 |**Building**| | |
 | First Network | String | Subnet used for media stream by the first endpoint if the subnet exists in subnet to tenant building data. <br/> **Example value:** 10.0.1.12.0 | &bull; Network data was not reported by the endpoint <br/>&bull; Network is not defined in subnet-mapping data.  |
 | First Network Name  | String  | Name of network used for media stream by first endpoint. Based on mapping subnet to tenant building data. <br/> **Example value:** USA/WA/REDMOND | &bull; Network data was not reported by the endpoint <br/>&bull; Network is not defined in subnet-mapping data  |
@@ -438,7 +448,10 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |Jitter|Milliseconds|The variation in arrival time of RTP packets. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 5.982||
 |Packet Loss Rate|Percentage|The percentage of streams between Mediation Server and SBC or Gateway, if available. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 1.2%||
 |Latency (Round-trip Time)|Milliseconds|The average network propagation round-trip time per stream computed. Please see [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for more information.<br/>**Example:** 3.49||
+|**Meeting**|||
+|Meeting Scenario|Enumeration <br/>**Possible values:** <br/> Bookings <br/> EHR Connector <br/> Unknown |A field provided by meeting scheduling client teams (e.g. Bookings, EHR Connector) through their telemetry to help distinguish their meetings from the rest. As of April 2021, only Bookings and EHR Connector have signed up to provide telemetry to identify a meeting's scenario.|The scheduling client has not provided this parameter through its telemetry.|
 ||||
+
 
 ### Notes on dimension data type/units
 
