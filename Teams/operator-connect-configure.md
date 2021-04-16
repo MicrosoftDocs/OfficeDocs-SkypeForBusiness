@@ -42,6 +42,7 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 ## Acquire and manage phone numbers
 
 - **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. [Planning to add hyperlink to operator's sites]
+
 | Operator |
 | --- |
 | BT |
