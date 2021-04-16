@@ -42,6 +42,11 @@ Auto attendants can direct calls, based on callers' input, to one of the followi
 
 You'll be prompted to choose one of these options at various stages as you set up an auto attendant.
 
+> [!NOTE]
+> When choosing Voicemail as a destination, two additional options are available:
+> - **Transcription** - (Default: Off) When enabled, the voicemail message will be transcribed and included as part of the email
+> - **Suppress Greeting** - (Default: Off) When enabled, the standard system message "Please leave a message after the tone. When yo have finished please hang up or press the hash key for more options." will be suppressed.
+
 To set up an auto attendant, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
 
 ## General info
