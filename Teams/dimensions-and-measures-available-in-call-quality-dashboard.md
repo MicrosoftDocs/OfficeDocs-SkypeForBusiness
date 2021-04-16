@@ -86,6 +86,16 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Endpoint Label 1|String| A customizable label, information is read from an Endpoint Data file. | <br/>&bull; No data file for the endpoint |
 | Second Endpoint Label 2|String|A customizable label, information is read from an Endpoint Data file.| <br/>&bull; No data file for the endpoint|
 | Second Endpoint Label 3|String|A customizable label, information is read from an Endpoint Data file.| <br/>&bull; No data file for the endpoint |
+| First ASN|String|Autonomous system number for the first endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN|String|Autonomous system number for the second endpoint. <br/> **Example value:** 8069  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN Country Code|String|Country code for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** US  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN Country Code|String|Country code for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** US  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN Country|String|Country name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** United States  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN Country|String|Country name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** United States  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN City|String|City name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** Redmond  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN City|String|City name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** Redmond  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| First ASN State|String|State name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** WA  | <br/>&bull; Network data was not available to determine endpoint ASN |
+| Second ASN State|String|State name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** WA  | <br/>&bull; Network data was not available to determine endpoint ASN |
 |**Building**| | |
 | First Network | String | Subnet used for media stream by the first endpoint if the subnet exists in subnet to tenant building data. <br/> **Example value:** 10.0.1.12.0 | &bull; Network data was not reported by the endpoint <br/>&bull; Network is not defined in subnet-mapping data.  |
 | First Network Name  | String  | Name of network used for media stream by first endpoint. Based on mapping subnet to tenant building data. <br/> **Example value:** USA/WA/REDMOND | &bull; Network data was not reported by the endpoint <br/>&bull; Network is not defined in subnet-mapping data  |
