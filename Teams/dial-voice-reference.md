@@ -95,7 +95,7 @@ Callers can say names in the following formats:
   
 ## Language support
 
-Language support for text-to-speech and speech recognition is available in these [supported languages] (create-a-phone-system-auto-attendant-languages.md).
+Language support for text-to-speech and speech recognition is available in these [supported languages](create-a-phone-system-auto-attendant-languages.md).
 
 The following voice commands are available for speech recognition: 
   
