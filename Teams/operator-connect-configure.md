@@ -29,21 +29,34 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 ## Enable an operator
 
-1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs, and then select the operator you would like to enable.  
+1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then select the operator you want to enable.  
 
 2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
 
-3. **Select services.** By default, the operator will be enabled for all services available in the region. If you do not want to enable all services, use the filter to designate which services you want to use.  
+3. **Select services.** By default, the operator will be enabled for all services available in the region. If you don't want to enable all services, use the filter to designate which services you want to use.  
 
-4. **Provide contact information.** You have the option to allow operators to contact you. Operators may want to share [commercial or business-related information]. To opt in, check the box and provide your contact information.  
+4. **Provide contact information.** Operators may want to contact you to share [commercial or business-related information]. To opt in, check the box and provide your contact information.  
 
-5. **Accept the data transfer notice.** Learn more about Data Transfer in Operator Connect.
+5. **Accept the data transfer notice.** Learn more about [Data Transfer in Operator Connect]().
 
 ## Acquire and manage phone numbers
 
-You'll need to go to your operator's website to acquire phone numbers.
+- **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. [Planning to add hyperlink to operator's sites]
+| Operator |
+| --- |
+| BT |
+| Deutshe Telekom |
+| Intrado |
+| NTT |
+| Nuwave |
+| Orange Business Services |
+| Pure IP |
+| Rogers |
+| TATA |
+| Telenor |
+| Verizon |
 
-To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+- **Assign numbers.** To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) View numbers assignments on the **Phone numbers** page.
 
 >[!NOTE]
 >Phone numbers acquired with Operator Connect that have been assigned to emergency addresses  are managed directly with your operator. Contact them to make any changes to existing phone numbers.
@@ -56,4 +69,4 @@ From the My Operators tab, you can view your operators and their status and make
 - Remove an operator
 
 >[!NOTE]
->Before removing an operator, you must remove all phone numbers assigned to users and ask the operator to remove them from your tenant. Before disabling an operator in a specific country, you must remove all numbers assigned to users in the country.  
+>Before removing an operator, you must remove all phone numbers assigned to users and contact the operator to release them from your tenant. Before disabling an operator in a specific country, you must remove all numbers assigned to users in the country and contact your operator to release them.
