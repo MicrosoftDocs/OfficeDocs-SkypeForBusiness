@@ -39,10 +39,10 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model                         | Firmware version                                                                                                                                                                                                                           | Release date
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes C435HD                      | 1.12.33                                                  | April 2021                 |
-| Audiocodes C470HD                      | 1.8.293                                                  | January 2021                 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                       | March 2019                   |
-| Audio codes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |
+| AudioCodes C435HD                      | 1.12.33                                                  | April 2021                 |
+| AudioCodes C470HD                      | 1.8.293                                                  | January 2021                 |
+| AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | March 2019                   |
+| AudioCodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
 | Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued (5/11/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued (5/11/2020) |
