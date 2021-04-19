@@ -26,6 +26,8 @@ This page provides the latest Teams PowerShell change log for both General Avail
 
 | Date | Version | Updates |
 |------- | -------------------- | ------------------------------ |
+| April 2021 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>Fixes for integrated Windows authentication to use -AccountId with Connect-MicrosoftTeams.</li><li>Added cmdlet to get details of total change notification events that can be sent to users.</li><li>Added cmdlet to get multi-geo region for users and groups.</li><li>Handling of values passed to TeamsEnvironment name was case sensitive. This has been fixed.</li><li>Major refactor of remote session management within the module to facilitate unit tests. There should be no functional change for tenant admins.</li>|
+| April 2021 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>Fixed formatting of existing cmdlets (for example, Get-CsTeamsNetworkRoamingPolicy, Get-CsTeamsMeetingPolicy, Get-CsTeamsMessagingPolicy, and more).</li><li>Updated parameter list of policy management cmdlets.</li>|
 | March 2021 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>Uses MSAL for authentication & authorization</li> <li>Connect-MicrosoftTeams is the entry point for all cmdlets.</li><li>New-csOnlineSession is no longer available. It has been replaced with Connect-MicrosoftTeams.</li><li>Enable-csonlinesessionforreconnection is no longer required. The feature has been natively implemented in Teams PowerShell Module.</li> <li>Refactored Policy Package cmdlets and adds group package assignment</li><li>Significant performance enhancements for Get-Team cmdlet</li> <li>Improved logging and debugging option for existing cmdlets </li> <li>Added template management cmdlets</li> <li>Deprecation of New-CsOnlineSession</li>|
 | February 2021 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>Added template management cmdlets</li><li>Mezzo and batching enhancements for Get-Team cmdlet</li> <li>Improved logging and debugging option for existing cmdlets </li> <li>Refactored Policy Package cmdlets</li>|
 | December 2020 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>Updates to New-team cmdlet with increased retries and sleep duration</li>|
@@ -96,7 +98,6 @@ This page provides the latest Teams PowerShell change log for both General Avail
 | [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps) | Yes | Yes |
 | [Update-TeamsAppInstallation](/powershell/module/teams/update-teamappinstallation?view=teams-ps) | Yes | **No** |
 | [Enable-CsOnlineSessionForReconnection](/skypeforbusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | **No** | **No** |
-
 
 ## Related topics
 

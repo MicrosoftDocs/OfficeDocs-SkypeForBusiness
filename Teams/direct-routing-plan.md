@@ -100,6 +100,7 @@ Users of Direct Routing must have the following licenses assigned in Microsoft 3
 
 > [!IMPORTANT]
 >  In the case that you would like to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the audio conferencing license is required.
+>  For GCC High and DoD, do not assign an Audio Conferencing license for G5 users.  For G3 users, do not assign an Audio Conferencing license until Direct Routing is fully configured and the user has a working dial pad.
 
 
 ### Ad hoc call escalation and Audio Conferencing license

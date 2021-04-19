@@ -121,7 +121,7 @@ Despite making use of Power BI, not all Power BI functionality is support by the
 
 5. **Relative Data Filtering –** Is supported in the CQD Connector, but only with the *Start Time* and *End Time* dimensions. Although the *Date* dimension may be the obvious choice for relative date filtering, *Date* is not stored as a date time object and thus does not support relative date filtering in Power BI.
 
-6. **Government Community Cloud (GCC) Support –** For customers in the GCC environment, the CQD Power BI Connector will work when using Power BI Desktop. The CQD Power BI connector is compatible with the Power BI service for GCC customers.
+6. **Government Community Cloud (GCC) Support –** For customers in the GCC environment, the CQD Power BI Connector will work when using Power BI Desktop. The CQD Power BI connector is not presently compatible with the Power BI service for GCC customers.
 
 Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 
