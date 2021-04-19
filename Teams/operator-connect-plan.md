@@ -33,9 +33,7 @@ This article describes benefits and requirements, and lists the operators partic
 
 With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. The Operator Connect program provides the following benefits:
 
-- **Leverage existing operator contracts.** You keep your preferred operator and contracts.
-
-- **Find the right operator for you.** Choose from a selection of participating operators to meet your business needs.
+- **Leverage existing contracts, or find a new operator.** You keep your preferred operator and contracts, or choose a new one from a selection of participating operators to meet your business needs
 
 - **Operator-managed infrastructure.** Your operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
