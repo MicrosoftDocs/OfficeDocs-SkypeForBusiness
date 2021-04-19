@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: In this article, you'll learn about the hardware requirements needed to install and run Microsoft Teams.
 f1.keywords:
