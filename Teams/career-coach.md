@@ -47,7 +47,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 **Data and files from your educational institution**
 
-  - Course catalogue data
+  - Course catalog data
 
   - Fields of study and degrees offered
 
@@ -65,7 +65,7 @@ For step-by-step instructions, see [Assign licenses to users](https://docs.micr
 
 ### Turn on LinkedIn account connections
 
-Career Coach **requires** your educational institution’s users to have the ability to connect their Microsoft 365 account to their LinkedIn account which is facilitated within Career Coach
+Career Coach **requires** your educational institution’s users to have the ability to connect their Microsoft 365 account to their LinkedIn account that is facilitated within Career Coach
 
 #### To enable LinkedIn account connections in the Azure portal
 
@@ -83,15 +83,15 @@ Career Coach **requires** your educational institution’s users to have the abi
 
    - Select **No** to withdraw consent from all users in your educational institution
 
-Learn how to [Integrate LinkedIn account connections in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/enterprise-users/linkedin-integration)
+Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
 
 ## Configure Career Coach in the Microsoft Teams admin center
 
-Using the admin settings in the Microsoft Teams admin center, you can configure Career Coach for your educational institution and enable it for users. The following are settings related to Assignments:
+Using the admin settings in the Microsoft Teams admin center, you can configure Career Coach for your educational institution and enable it for users.
 
 ## Access the Career Coach app settings
 
-Use the [Manage apps page](https://docs.microsoft.com/en-us/microsoftteams/manage-apps) to view the Teams apps in your educational institution’s app catalog.
+Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps in your educational institution’s app catalog.
 
 1. Visit the **Microsoft Teams admin center**.
 
@@ -102,7 +102,7 @@ Use the [Manage apps page](https://docs.microsoft.com/en-us/microsoftteams/manag
 
 4. Select Career Coach and select **Settings.**  
 
-Learn how to [manage your apps in the Microsoft Teams admin center](https://docs.microsoft.com/en-us/microsoftteams/manage-apps)
+Learn how to [manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps)
 
 ### Configure the Career Coach app settings
 
@@ -149,7 +149,7 @@ Determine the educational institutions LinkedIn page. This can be done by search
 
 3. Select **Apply**.
 
-4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](#Xa39a3ee5e6b4b0d3255bfef95601890afd80709).  
+4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en).  
     *The verification link provided in step 4 expires after 48 hours.  
     *  
     /\*\*\* Screenshot of flow and LinkedIn page+URL \*\*\*/
@@ -176,11 +176,11 @@ To create the course catalog, put together a list of all courses taught at your 
 
 #### Documents formatting:
 
-- Formatted as a CSV with a maximum size of 18MB.
+- Formatted as a CSV with a maximum size of 18 MB.
 
 - Contain the required fields: course title, course ID.
 
-- Including the recommended fields improve the experience for students by returning better search results and skill identification.
+- Including the recommended fields improves the experience for students by returning better search results and skill identification.
 
 > [!NOTE]
 > Start with the sample course catalog document to get started. Download sample course catalog
@@ -200,12 +200,12 @@ To create the course catalog, put together a list of all courses taught at your 
 
 | Name              | Status      | Type           | Description                                                                    |
 |-------------------|-------------|----------------|--------------------------------------------------------------------------------|
-| externalId        | Required    | string         | Usually the course id (Typically maps to what is generated in the transcript). |
+| externalId        | Required    | string         | Usually the course ID (Typically maps to what is generated in the transcript). |
 | title             | Required    | string         | Usually the course title.                                                      |
 | sourceLink        | Required    | url            | Website link to the course page.                                               |
 | shortDescription  | Required    |                | Introduction text for the course.                                              |
 | longDescription   | Recommended | string         | Extended description for the course.                                           |
-| format            | Recommended | string         | Mode of teaching, e.g., online, video, in-person.                              |
+| format            | Recommended | string         | Mode of teaching, for example, online, video, in person.                              |
 | topics            | Recommended | list           | Topics or tags that are associated with the skills the courses teach.          |
 | sourceLastUpdated | Recommended | dateTimeOffset | Datetime when the content/metadata for the course is updated.                  |
 | thumbnailLink     | Recommended | url            | Thumbnail link to tin                                                          |
@@ -230,7 +230,7 @@ Add all fields of study available to students such as Engineering, English, Busi
 
 #### Documents formatting
 
-- Formatted as a CSV with a maximum size of 18MB.
+- Formatted as a CSV with a maximum size of 18 MB.
 
 - Single column of fields of study
 
@@ -268,7 +268,7 @@ After you complete customization, you’ll be able to enable the app for student
 ### Pin the app
 
 Pinning Career Coach will make the app more accessible and visible for students.
-1. Go to the Microsoft Teams admin center. Select **Teams apps** &gt; **Manage apps** &gt;**Setup polices** &gt; ***Specific policy***.
+1. Go to the Microsoft Teams admin center. Select **Teams apps** &gt; **Manage apps** &gt;**Setup policies** &gt; ***Specific policy***.
 
 2. Under **Pinned apps** choose **Add apps**. Search for **Career Coach**. Select **Add**.
 
@@ -301,6 +301,6 @@ Include Career Coach links
 
 -   [Getting started with admin training for Microsoft Teams](ITAdmin-readiness.md)
 
--   [Teams troubleshooting](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-welcome)
+-   [Teams troubleshooting](/microsoftteams/troubleshoot/teams-welcome)
 
 -   [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md)
