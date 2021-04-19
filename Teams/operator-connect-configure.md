@@ -66,6 +66,8 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 From the My Operators tab, you can view your operators and their status and make the following changes to your selections:  
 
+- Add or remove operator services for your organization
+- Manage available operator services by country
 - Suspend an operator
 - Remove an operator
 
