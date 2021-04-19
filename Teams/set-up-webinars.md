@@ -27,7 +27,7 @@ This article will help you set up your organization to host webinars.
 
 ## What are webinars?
 
-Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes. After setting up webinars in your organization, your users can schedule webinars and open registration to a variety of attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
+Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes. After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
 ## Allow users to schedule webinars using PowerShell
 
@@ -84,8 +84,19 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 > [!IMPORTANT]
 > If anonymous join is turned off in meeting settings, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
 
+### Collect meeting attendance
+
+If you want your organizers to analyze who registered and attended their webinars, you'll need to turn on the **AllowEngagementReport** policy. To do this, run the following command in PowerShell.
+
+```powershell
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
+```
+
 ### Configure webinar settings
 
 After enabling your environment for webinars, no further admin management is required. The policy controls which options show up for webinar organizers.
 
 ## Related topics
+
+- [Meeting policies in Teams - General](meeting-policies-in-teams-general.md)
+- [Set-CsTeamsMeetingPolicy documentation](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)
