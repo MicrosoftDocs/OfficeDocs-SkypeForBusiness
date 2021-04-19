@@ -167,7 +167,7 @@ This option requires additional effort and proper planning because users who wer
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. Run the following on-premise Skype for Business PowerShell cmdlet to add sip address value back to the on-premises Active Directory proxyAddresses. This will prevent interoperability issues that rely on this attribute. 
+5. Run the following on-premise Active Directory Module for Windows PowerShell cmdlet to add sip address value back to the on-premises Active Directory proxyAddresses. This will prevent interoperability issues that rely on this attribute. 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
