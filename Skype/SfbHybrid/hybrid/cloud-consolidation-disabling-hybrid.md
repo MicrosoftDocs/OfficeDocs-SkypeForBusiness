@@ -27,11 +27,13 @@ description: "This article includes detailed steps for disabling hybrid as part 
 
 This article describes how to disable your hybrid configuration before decommissioning your on-premises Skype for Business environment. This is step 2 of the following steps to decommission your on-premises environment:
 
-- Step 1. [Move all required users and application endpoints from on-premises to online](decommission-move-on-prem-users.md).
+- Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md).
 
 - **Step 2. Disable your hybrid configuration.** (This article)
 
-- Step 3. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
+- Step 3. [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md).
+
+- Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
 
 ## Overview
@@ -99,7 +101,10 @@ There are two options available for handling this situation:
 
 Administrators can manage users who were previously moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. If you want to make changes to a user’s sip address or to a user’s phone number (and the sip address or phone number already has a value in the on-premises Active Directory), you must do this in the on-premises Active Directory and let the value(s) flow up to Azure AD. This does NOT require on-premises Skype for Business Server. Rather, you can modify these attributes directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in (as shown below), or by using PowerShell. If you are using the MMC snap-in, open the properties page of the user, click Attribute Editor tab, and find the appropriate attributes to modify:
 
-- To modify a user’s sip address, modify the `msRTCSIP-PrimaryUserAddress`. Note, if the `ProxyAddresses` attribute contains a sip address, also update that value as a best practice. Although the sip address in `ProxyAddresses` is ignored by O365 if `msRTCSIP-PrimaryUserAddress` is populated, it may be used by other on-premises components.
+- To modify a user’s sip address, modify the `msRTCSIP-PrimaryUserAddress`.
+
+    > [!NOTE]
+    > If the `ProxyAddresses` attribute contains a sip address, also update that value as a best practice. Although the sip address in `ProxyAddresses` is ignored by O365 if `msRTCSIP-PrimaryUserAddress` is populated, it may be used by other on-premises components.
 
 - To modify a user’s phone number, modify `msRTCSIP-Line` *if it already has a value*.
 
@@ -165,7 +170,7 @@ This option requires additional effort and proper planning because users who wer
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. Run the following on-premise Skype for Business PowerShell cmdlet to add sip address value back to the on-premises Active Directory proxyAddresses. This will prevent interoperability issues that rely on this attribute. 
+5. Run the following on-premise Active Directory Module for Windows PowerShell cmdlet to add sip address value back to the on-premises Active Directory proxyAddresses. This will prevent interoperability issues that rely on this attribute. 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -238,7 +243,7 @@ This option requires additional effort and proper planning because users who wer
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. After you have completed all steps in Method 2, refer to [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.
+12. After you have completed all steps in Method 2, see [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) and [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.
 
 
 ## See also
@@ -246,3 +251,4 @@ This option requires additional effort and proper planning because users who wer
 - [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
