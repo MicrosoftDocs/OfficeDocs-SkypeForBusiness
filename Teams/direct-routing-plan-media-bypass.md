@@ -25,7 +25,7 @@ ms.custom: seo-marvel-apr2020
 
 Media bypass enables you to shorten the path of media traffic and reduce the number of hops in transit for better performance. With media bypass, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System. To configure media bypass, the SBC and the client must be in the same location or network.
 
-You can control media bypass for each SBC by using the **Set-CSOnlinePSTNGateway** command with the **-MediaBypass** parameter set to true or false. If you enable media bypass, this does not mean that all media traffic will stay within the corporate network. This article describes the call flow in different scenarios.    
+You can control media bypass for each SBC by using the **Set-CSOnlinePSTNGateway** command with the **-MediaBypass** parameter set to true or false. If you enable media bypass, this does not mean that all media traffic will stay within the corporate network. This article describes the call flow in different scenarios.
 
 The diagrams below illustrate the difference in call flow with and without media bypass.
 
@@ -121,7 +121,11 @@ There are two components in the Microsoft Cloud that can be in the path of media
 
    Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured .
 
-The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled. Note the diagram only illustrates traffic originating from--or destined to--end users.  
+The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled.
+
+> [!NOTE]
+> The diagram only illustrates traffic originating from--or destined to--end users.  
+
 - The Media Controller is a microservice in Azure that assigns Media Processors and creates Session Description Protocol (SDP) offers.
 
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
@@ -251,7 +255,8 @@ Media traffic flows between the SBC and Teams client if direct connectivity is a
 
 The client must have access to the specified ports (see table) on the public IP address of the SBC. 
 
-Note: If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hair pinning on your NAT device so traffic never leaves the enterprise network equipment.
+> [!NOTE]
+> If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hair pinning on your NAT device so traffic never leaves the enterprise network equipment.
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -270,7 +275,7 @@ Transport Relays are in the same range as Media Processors (for non-bypass cases
 
 - 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
-## Office 365 GCC DoD environment
+### Office 365 GCC DoD environment
 
 - 52.127.64.0/21
 
@@ -310,7 +315,7 @@ The IP range for media traffic is
 
 - 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
-## Office 365 GCC DoD environment
+### Office 365 GCC DoD environment
 
 - 52.127.64.0/21
 
