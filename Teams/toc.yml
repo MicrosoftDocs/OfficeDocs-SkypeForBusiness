@@ -861,8 +861,6 @@ items:
               href: aa-cq-cqd-historical-reports.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
-            - name: Reporting
-              href: aa-cq-cqd-historical-reports.md
         - name: Block inbound calls
           href: block-inbound-calls.md
         - name: Call park and retrieve
