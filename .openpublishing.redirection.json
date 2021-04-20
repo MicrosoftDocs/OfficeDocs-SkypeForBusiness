@@ -12352,7 +12352,7 @@
     },
     {  
       "source_path": "Teams/data-collection-practices.md",
-      "redirect_url": "Teams/teams-privacy.md", 
+      "redirect_url": "microsoftteams/teams-privacy", 
       "redirect_document_id": true 
     } 
   ]
