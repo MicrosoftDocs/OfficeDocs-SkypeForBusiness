@@ -164,6 +164,9 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 
 -   Call accepted – converted by the SIP proxy to SIP message 200 with SDP. On receiving message 200, the SBC is expected to send and receive media to and from the provided SDP candidates.
 
+    > [!NOTE]
+    > Direct Routing does not support Delayed Offer Invite (Invite without SDP).
+
 #### Multiple endpoints ringing with provisional answer
 
 1.  On receiving the first Invite from the SBC, the SIP proxy sends the message "SIP SIP/2.0 100 Trying" and notifies all end user endpoints about the incoming call. 
