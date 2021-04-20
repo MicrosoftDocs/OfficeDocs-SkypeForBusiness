@@ -298,8 +298,6 @@ items:
       items: 
         - name: Privacy and Microsoft Teams
           href: teams-privacy.md
-        - name: Data collection practices
-          href: data-collection-practices.md
         - name: Location of data in Teams
           href: location-of-data-in-teams.md
         - name: Block access to Sharepoint Online for specific users
