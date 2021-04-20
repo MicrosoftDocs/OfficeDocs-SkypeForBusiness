@@ -44,11 +44,11 @@ Sentinel lets administrators do security management in one location. This includ
 Sentinel workbooks and runbooks can make security monitoring *systematic*. A good first step in this process is collecting the logs needed analysis.
 
 > [!NOTE]
-> More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log file s. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
+> More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log files. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
 
 ## Step 1: Collect Teams logs: Enable Audit logs in Microsoft 365
 
-Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature via [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
+Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature with [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
 
 ## Step 2: Connect Office 365 logs to Azure Sentinel
 
@@ -129,7 +129,7 @@ For more information, see the query in the [Azure Sentinel community git hub](ht
 
 ### Many Team deletions by a single user
 
-Attackers can cause disruptions and jeopardize projects and data by deleting multiple teams. Because teams are usually deleted by individual Owners, central deletion of many teams can be a sign of trouble. This KQL looks for single users who delete multiple teams.
+Attackers can cause disruptions and jeopardize projects and data by deleting multiple teams. Since teams are usually deleted by individual Owners, central deletion of many teams can be a sign of trouble. This KQL looks for single users who delete multiple teams.
 
 For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultipleTeamsDeletes.yaml).
 
@@ -182,13 +182,13 @@ OfficeActivity
 | where Members in (failed_signins)
 ```
 
-Also, you can make the SigninLogs detections specific to Teams by adding a filter for only Teams-based sign-ins by using:
+Also, you can make the SigninLogs detections specific to Teams by adding a filter for only Teams-based logons by using:
 
 ```Kusto
 | where AppDisplayName has 'Teams'
 ```
 
-To help explain using where AppDisplayName has "Teams" further, the KQL below demonstrates a successful logon from one IP address with failure from a different IP address, but scoped only to Teams sign-ins:
+To help explain using *where AppDisplayName has Teams* further, the KQL you see below demonstrates a successful logon from one IP address with failure from a different IP address, but scoped to *only* Teams sign-ins:
 
 ```Kusto
 let timeFrame = 1d;
@@ -213,17 +213,16 @@ SigninLogs
 
 ## Important information and updates
 
-**Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.** Pete Bryan and people he collaborates with will continue to develop detection and hunting queries for Teams.
+**Thank you for content collaboration, Pete Bryan, Nicholas DiCola, and Matthew Lowe.** Pete Bryan, and people he collaborates with, continue to develop detection and hunting queries for Teams.
 
-Keep in touch with this [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) repository for updates.
+Stay in touch with this [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) repository for updates.
 
 Watch for updates to the [parser](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) and [logic app](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) used in this article.
 
-You can also join and contribute the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki). Thank you & Happy hunting.
+You should also join (and contribute to) the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki). We are actively looking for feedback on this article, so please use the feedback option below. Thank you & Happy hunting.
 
 [Registering your application in Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-
 [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
-[What is Azure Sentinel](/azure/sentinel/overview)
+[What is Azure Sentinel?](/azure/sentinel/overview)

@@ -69,12 +69,17 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated March 2021*
+*Table Updated April 2021*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Microsoft            |Modern USB-C Speaker                                       |4/15/2021       |Certified for Microsoft Teams                           |
+|Microsoft            |Modern USB Headset                                         |4/15/2021       |Certified for Microsoft Teams                           |
+|Yealink              |UVC20 Webcam                                               |3/30/2021       |Certified for Microsoft Teams                           |
+|Microsoft            |Modern Webcam                                              |3/24/2021       |Certified for Microsoft Teams                           |
 |EPOS/Sennheiser      |Adapt 200 Series Headsets                                  |3/19/2021       |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Certified for Microsoft Teams                           |
+|Microsoft            |Surface Headphones 2+                                      |2/26/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P15 Video bar                                       |2/1/2021        |Certified for Microsoft Teams                           |
 |Poly                 |Sync 40 speakerphone                                       |1/19/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Sync 40+ speakerphone with Poly BT600 USB Dongle           |1/19/2021       |Certified for Microsoft Teams                           |
