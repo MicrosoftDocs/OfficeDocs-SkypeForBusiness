@@ -345,8 +345,8 @@ The example below illustrates this logic.
 
 | Set of users | Number of users | Trunk FQDN assigned in OVRP | Media bypass enabled |
 | :------------ |:----------------- |:--------------|:--------------|
-Users with non-media bypass trunk | 980 | sbc1.contoso.com:5060 | true
-Users with media bypass trunk | 20 | sbc2.contoso.com:5061 | false | 
+Users with non-media bypass trunk | 980 | sbc1.contoso.com:5061 | false |
+Users with media bypass trunk | 20 | sbc2.contoso.com:5060 | true | 
 
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
