@@ -27,7 +27,9 @@ This article will help you set up your organization to host webinars.
 
 ## What are webinars?
 
-Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes. After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
+Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes or sales and marketing lead generation scenarios.
+
+After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
 ## Allow users to schedule webinars using PowerShell
 
@@ -49,7 +51,6 @@ To allow users in your organization to schedule webinars, run:
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
-
 ### Configure who can register for webinars
 
 You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone**. If you want to turn off meeting registration, set **WhoCanRegister** to **False**.
@@ -86,7 +87,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### Collect meeting attendance
 
-If you want your organizers to analyze who registered and attended their webinars, you'll need to turn on the **AllowEngagementReport** policy. To do this, run the following command in PowerShell.
+If you want organizers to analyze who registered and attended webinars, you'll need to turn on the **AllowEngagementReport** policy. To do this, run the following command in PowerShell.
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
