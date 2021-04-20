@@ -79,8 +79,8 @@ For an in-depth discussion of network optimization, including guidance for ident
 <table>
 <thead>
 <tr class="header">
-<th><strong>Network optimization task</strong></th>
-<th><strong>Details</strong></th>
+<th>Network optimization task</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
