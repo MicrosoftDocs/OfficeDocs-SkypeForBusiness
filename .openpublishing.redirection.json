@@ -12350,6 +12350,11 @@
       "redirect_url": "/microsoftteams/meeting-policies-participants-and-guests",
       "redirect_document_id": true
     }
+    {  
+      "source_path": "Teams/data-collection-practices.md",
+      "redirect_url": "Teams/privacy.md", 
+      "redirect_document_id": true 
+  } 
   ]
 }
 
