@@ -1564,10 +1564,6 @@ items:
           href: devices/teams-ip-phones.md
         - name: Phones for Skype for Business Online
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Teams alerting and monitoring
-          href: alerts/teams-admin-alerts.md 
-        - name: Teams device health monitoring
-          href: alerts/device-health-status.md 
     - name: Teams PowerShell
       items: 
         - name: Overview
