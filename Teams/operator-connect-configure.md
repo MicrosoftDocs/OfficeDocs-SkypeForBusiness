@@ -39,7 +39,7 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 ## Acquire and manage phone numbers
 
-- **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. See [Operators](#operators) for more information.  
+- **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. See [Operators](#operators) to learn more.  
 
 - **Assign numbers.** To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) View numbers or make changes to assignments from the **Phone numbers** window.
 
@@ -50,13 +50,12 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 From the My Operators tab, you can view your operators and their status and make the following changes to your selections:  
 
-- Add or remove operator services for your organization
-- Manage available operator services by country
+- Manage operator services by country
 - Suspend an operator
 - Remove an operator
 
 >[!NOTE]
->Before removing an operator, you must remove all phone numbers assigned to users and contact the operator to release them from your tenant. Before disabling an operator in a specific country, you must remove all numbers assigned to users in the country and contact your operator to release them.
+>Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to users in the organization or country and contact the operator to release the numbers.
 
 ## Operators
 
