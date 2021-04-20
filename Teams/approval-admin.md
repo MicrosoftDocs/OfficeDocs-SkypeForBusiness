@@ -2,7 +2,7 @@
 title: Approvals application availability in Teams
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -35,6 +35,9 @@ The first approval created from the Approvals app will trigger the provisioning 
 
 This article describes the Approvals app requirements and roles.
 
+> [!NOTE]
+> This feature hasn't been released to Government Community Cloud (GCC), Government Community Cloud High (GCCH), and Department of Defense (DOD) users yet.
+
 ## Required permissions and licenses
 
 To use the Approvals app, you need permission for the following items:
@@ -49,7 +52,7 @@ To use the Approvals app, you need permission for the following items:
 
 ## Storage with CDS
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners, that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
