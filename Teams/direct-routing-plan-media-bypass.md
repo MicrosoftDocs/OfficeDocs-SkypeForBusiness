@@ -123,7 +123,7 @@ There are two components in the Microsoft Cloud that can be in the path of media
 
 The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled.
 
-> [NOTE]
+> [!NOTE]
 > The diagram only illustrates traffic originating from--or destined to--end users.  
 
 - The Media Controller is a microservice in Azure that assigns Media Processors and creates Session Description Protocol (SDP) offers.
