@@ -3,7 +3,7 @@ title: "Phone number management for Singapore"
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: chandra.kilaru, kirsten.kutser
+ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
@@ -36,7 +36,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Get phone numbers transferred to us.  <br/> | Download this form. <br/>[Letter of Authorization (LOA) for Singapore (all numbers) (v.1.0) (en-sg)]() <br/> <br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/> |
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
-|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). <br>Transferring numbers can take one to six weeks to complete in this market depending on the complexity of the port. These numbers can't be used for conferencing at this time. |
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). <br>Transferring numbers can take one to six weeks to complete in this market depending on the complexity of the port. <br/>**These numbers can't be used for conferencing at this time**. |
 |Know your customers|form|
    
 ## Related topics
@@ -47,4 +47,4 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
   
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
