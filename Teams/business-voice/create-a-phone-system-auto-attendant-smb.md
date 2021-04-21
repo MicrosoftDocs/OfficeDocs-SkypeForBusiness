@@ -28,9 +28,9 @@ Auto attendants let people call your organization and navigate a menu system to 
 
 #### Before you begin
 
-Get the service numbers that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
+Get the service numbers (service numbers are a special type of phone number that are used by auto attendants) that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
 
-Get a [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md) for each auto attendant that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
+Each auto attendant needs to be assigned a Phone System - Virtual User license. When you purchased Business Voice, you also received a number of Phone System - Virtual User licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md).
 
 If you want to have your auto attendant route calls differently on holidays, then [create the holidays that you want to use](../set-up-holidays-in-teams.md) before you create the auto attendant.
 
@@ -186,8 +186,6 @@ Click **Next** when you're done.
 
 You can have calls to your auto attendant routed differently on holidays than on other days. (If you don't want to have a different call flow for holidays, you can skip this step.)
 
-
-
 Your auto attendant can have a call flow for each holiday you've set up. You can add up to 20 scheduled holidays to each auto attendant.
 
 1. On the Holiday call settings page, click **Add**.
@@ -209,9 +207,9 @@ Your auto attendant can have a call flow for each holiday you've set up. You can
 7. Click **Save**.
 
     Repeat the procedure as needed for each additional holiday.
-    
+
     ![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
-    
+
     When you've added all your holidays, click **Next**.
 
 > [!div class="nextstepaction"]
@@ -250,4 +248,3 @@ To add a resource account
     This completes the auto attendant configuration.
 
 ---
-
