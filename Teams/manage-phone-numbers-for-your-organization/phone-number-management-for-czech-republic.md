@@ -32,13 +32,11 @@ For more information, see [Manage phone numbers for your organization](manage-ph
   
 |**What you want to do?**|**Download the correct forms**|
 |:-----|:-----|
-|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center.<br>New orders can take two to three weeks to fill in this market. <br/> |In the Czech Republic, you can get phone numbers for your organization using the Microsoft Teams admin center. You also can submit a new phone number request. <br/><br/>Download this form.<br/>[New phone number request for the Czech Republic (v.1.0) ()](). <br/><br/> Fill it out, and [send it to us](mailto:ptneu@microsoft.com).  <br/> |
-|Get phone numbers transferred to us. <br>Transferring numbers can take two to three weeks to complete in this market. <br/>**These numbers can't be used for conferencing at this time**. <br/> | Download this form. <br/>[Letter of Authorization (LOA) for the Czech Republic (all numbers) (v.1.0) (en-)]() 
-<br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/> |
+|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center. |In the Czech Republic, you can get phone numbers for your organization using the Microsoft Teams admin center. You can also submit a new phone number request by downloading the form and [sending it to us](mailto:ptneu@microsoft.com).<br/><br/>[New phone number request for the Czech Republic (v.1.0) ()](). <br/><br/> Before phone numbers can be assigned to you, you must download the [Know your customer] form, complete it in full, and send it to us.<br/><br/>New orders can take two to three weeks to fill in this market.  |
+|Get phone numbers transferred to us. | Download this form. <br/><br/>[Letter of Authorization (LOA) for the Czech Republic (all numbers) (v.1.0) (en-)]()<br/><br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/><br/>Transferring numbers can take two to three weeks to complete in this market. <br/><br/>These numbers can't be used for conferencing at this time. |
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
 |Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
-|Get to know your customers |form |
    
 ## Related topics
 
