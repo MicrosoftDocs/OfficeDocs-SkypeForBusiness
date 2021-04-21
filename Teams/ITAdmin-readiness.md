@@ -26,8 +26,16 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![An icon depicting a hand and an upward arrow](/office/media/icons/get-started-teams.png) | [Get started fast with a couple of teams and channels](./get-started-with-teams-quick-start.md) | ![An icon depicting two users](/office/media/icons/users-people.png) | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![An icon depicting a hand and an upward arrow](/office/media/icons/get-started-teams.png) | [Start your rollout here](./get-started-with-teams-quick-start.md) | ![An icon depicting two users](/office/media/icons/users-people.png) | [View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
 | ![An icon depicting a check mark](/office/media/icons/success-teams.png) | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Tasks clipboard symbol](/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml) |
+
+<h2>Key training offerings and courses</h2>
+
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+| ![ Support remote workers](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) | [Teams essentials for IT](https://aka.ms/MicrosoftTeamsforIT) | ![Manage Team collaboration for IT](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration) | [Service Adoption Specialist certification](https://docs.microsoft.com/learn/paths/m365-service-adoption/) |
+| ![Introduction to teamwork in Microsoft 365](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 Certified: Teamwork Administrator Associate](https://www.microsoft.com/learning/m365-teamwork-administrator.aspx) |
+
 
 <h2>Technical training</h2>
 
@@ -94,7 +102,3 @@ Use the training resources to educate yourself about Teams, teach others or run 
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
 
-<h2>Courses</h2>
-
-- [Enabling Teamwork with Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
-- [Microsoft Service Adoption Specialist](/learn/paths/m365-service-adoption/)
