@@ -1240,8 +1240,18 @@ items:
           href: business-voice/get-ready-internet.md
         - name: Get your users ready
           href: business-voice/prepare-users.md
-    - name: Run the Getting Started wizard
-      href: business-voice/use-getting-started-wizard.md
+    - name: Set up Business Voice
+      items:
+        - name: Overview
+          href: business-voice/set-up-overview.md
+        - name: Set up phone numbers
+          href: business-voice/set-up-phone-numbers.md
+        - name: Assign licenses
+          href: business-voice/set-up-licenses.md
+        - name: Set up auto attendants
+          href: business-voice/create-a-phone-system-auto-attendant-smb.md
+        - name: Send welcome email
+          href: set-up-send-welcome.md
     - name: Customize your setup
       items: 
         - name: Customization options
