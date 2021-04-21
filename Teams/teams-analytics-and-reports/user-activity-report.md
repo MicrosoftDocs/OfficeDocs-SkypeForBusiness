@@ -23,6 +23,9 @@ ms.custom: seo-marvel-apr2020
 
 The Teams user activity report gives insight into the types of activities that users in your organization do in Teams. You can see how many users communicate on an unplanned basis through unscheduled meetings (1:1 and group calls). See how many meetings a Teams user has organized, and meetings a Teams user has participated in. See details about screen, video, and audio minutes, and chat communication statistics, such as how many users reply to and post channel messages, and how many users engage in 1:1 or group chat messages.
 
+> [!NOTE]
+> The ability to schedule a user activity report isn't available at this time.
+
 ## View the user activity report
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](../using-admin-roles.md) to read about getting admin roles and permissions.
@@ -47,6 +50,16 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 |**9**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab, select **Download** to download the report when it's ready.<br><br>![Screenshot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png) <br>When you view the report in Excel, you'll also see an **ID** column, which represents the User ID. A User ID is typically an alphanumeric string. ||
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## Make the user-specific data anonymous
+
+To make the data in Teams user activity report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email, and AAD ID in report and their export.
+
+1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
+    
+2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center and Teams admin center.
+  
+3. Select **Save changes**.
 
 ## Related topics
 

@@ -56,9 +56,9 @@ You can create a resource account in the Teams admin center.
 
 4. Click **Save**.
 
-The new account will appear in the list of accounts.
+    The new account will appear in the list of accounts.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+    ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
 ### Assign a license
 
@@ -87,7 +87,7 @@ If you need this auto attendant to be reachable by a phone number, then assign t
 4. Click **Save**.
 
 > [!div class="nextstepaction"]
-> [Step 2 - Auto attendant general info >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
+> [Step 2 - Auto attendant general info >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # [Step 2<br>Attendant general info](#tab/general-info)
 
@@ -101,7 +101,7 @@ To set up an auto attendant
 
 4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you create a separate call flow for after hours.
 
-5. Specify a language for this auto attendant. This the language that will be used for system-generated voice prompts.
+5. Specify a language for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
 6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
@@ -110,7 +110,7 @@ To set up an auto attendant
 7. Click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 3 - Call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
+> [Step 3 - Call flow >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # [Step 3<br>Call flow](#tab/call-flow)
 
@@ -163,7 +163,7 @@ Choose your call flow options
 5. Once you have selected a **Directory search** option, click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 4 - After hours call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+> [Step 4 - After hours call flow >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # [Step 4<br>After hours](#tab/after-hours)
 
@@ -180,7 +180,7 @@ Once you have specified your business hours, then choose your call routing optio
 Click **Next** when you're done.
 
 > [!div class="nextstepaction"]
-> [Step 5 - Holiday call flow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
+> [Step 5 - Holiday call flow >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # [Step 5<br>Holidays](#tab/holidays)
 
@@ -208,14 +208,14 @@ Your auto attendant can have a call flow for each holiday you've set up. You can
 
 7. Click **Save**.
 
-Repeat the procedure as needed for each additional holiday.
-
-![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
-
-When you've added all your holidays, click **Next**.
+    Repeat the procedure as needed for each additional holiday.
+    
+    ![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
+    
+    When you've added all your holidays, click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 6 - Choose who's in the directory >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [Step 6 - Choose who's in the directory >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # [Step 6<br>Directory members](#tab/dial-scope)
 
@@ -231,7 +231,7 @@ You can include or exclude specific users by selecting **Custom user group** und
 When you're done setting the dial scope, click **Next**.
 
 > [!div class="nextstepaction"]
-> [Step 7 - Assign a resource account >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
+> [Step 7 - Assign a resource account >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # [Step 7<br>Resource accounts](#tab/resource-accounts)
 
@@ -239,7 +239,7 @@ All auto attendants must have an associated resource account.  First level auto 
 
 To add a resource account
 
-1. Click **Add account** and search for the account that you want to add. Click **Add**, and then click **Add**.
+1. Click **Add** and search for the account that you want to add. Click **Add**, and then click **Add**.
 
     ![Screenshot of resource account add accounts panel](../media/auto-attendant-add-resource-account.png)
 
@@ -247,7 +247,7 @@ To add a resource account
 
     ![Screenshot of resource account list showing resource account with assigned service number](../media/auto-attendant-resource-account-assigned.png)
 
-This completes the auto attendant configuration.
+    This completes the auto attendant configuration.
 
 ---
 
