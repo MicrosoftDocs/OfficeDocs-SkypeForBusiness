@@ -82,7 +82,7 @@ Teams media flows connectivity is implemented using standard IETF Interactive Co
 
 ### Technologies that are not recommended with Microsoft Teams
 
-**VPN network**. It is not recommended for media traffic (or flow 2'). The VPN client should use split tunnelling and route Teams media traffic like any external non-VPN user, as specified in [Enabling Lync media to bypass a VPN tunnel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210).
+**VPN network**. It is not recommended for media traffic (or flow 2'). The VPN client should use split tunneling and route Teams media traffic like any external non-VPN user, as specified in [Enabling Lync media to bypass a VPN tunnel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210).
 
 > [!NOTE]
 > Although the title indicates Lync, it is applicable to Teams as well.
