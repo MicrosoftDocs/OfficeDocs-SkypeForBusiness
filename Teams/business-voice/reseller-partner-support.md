@@ -1,6 +1,23 @@
 ---
-author: dstrome
 title: Get help from a Microsoft reseller or partner
+author: dstrome 
+ms.author: dstrome
+manager: serdars
+ms.topic: article
+ms.service: msteams
+audience: admin
+f1.keywords:
+- NOCSH
+localization_priority: Priority
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
+- Teams_Business_Voice
+search.appverid: MET150
+description: 
+appliesto: 
+- Microsoft Teams
+no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]
 ---
 
 # Get help from a Microsoft reseller or partner
@@ -19,7 +36,7 @@ A Microsoft partner or reseller can:
 -   Set up communication between your on-premises telephony hardware and Microsoft 365
 -   Help you set up Business Voice features like Call Queues, Auto Attendant, Voice Mail, and more
 
-When contacting a Microsoft partner or reseller about setting up Business Voice without Calling Plan, you’ll need to provide them with information such as:
+When contacting a Microsoft partner or reseller about setting up Business Voice without Calling Plan, you'll need to provide them with information such as:
 
 -   How many users, phones, and other devices, will need to make and receive calls to and from external phone numbers
 -   Details about your existing phone system

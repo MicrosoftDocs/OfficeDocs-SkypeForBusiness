@@ -1,6 +1,26 @@
 ---
+title: "Set up an auto attendant for Microsoft Teams - small business tutorial"
+ms.author: mikeplum
 author: MikePlumleyMSFT
-title: Set up an auto attendant for Microsoft Teams - small business tutorial
+manager: serdars
+ms.reviewer: dobro
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+search.appverid: MET150
+ms.collection: 
+  - M365-voice
+  - m365initiative-voice
+audience: Admin
+appliesto: 
+  - Skype for Business
+  - Microsoft Teams
+localization_priority: Normal
+f1.keywords:
+- CSH
+ms.custom: 
+  - Phone System
+description: "Learn how to set up and test auto attendants for Microsoft 365 Business Voice."
 ---
 
 # Set up an auto attendant - small business tutorial
@@ -19,7 +39,7 @@ If you want to have your auto attendant route calls differently on holidays, the
 
 # [Step 1Phone number](\l)
 
-Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we’ll create the account, assign it a *Microsoft 365 Phone System - Virtual User* license, and then assign a service number.
+Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft 365 Phone System - Virtual User* license, and then assign a service number.
 
 ### Create a resource account
 
@@ -125,7 +145,7 @@ Choose your call flow options
 
     Screenshot of call routing settings
 
-3.  If you want callers to use dial keys to navigate, then under **Set menu options**, choose what you want to happen when callers press a dial key. (If you’re creating this auto attendant as a company directory, leave the dial key options blank.)
+3.  If you want callers to use dial keys to navigate, then under **Set menu options**, choose what you want to happen when callers press a dial key. (If you're creating this auto attendant as a company directory, leave the dial key options blank.)
 
 -   You can set any of the dial keys to the following destinations:
 
@@ -149,7 +169,7 @@ Choose your call flow options
 
     Screenshot of dial key options
 
-4.  If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user’s name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name.
+4.  If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name.
 
 -   (You can choose **Dial by extension**, however the extension must be configured in Azure Active Directory.)
 
@@ -159,7 +179,7 @@ Choose your call flow options
 
 # [Step 4After hours](\l)
 
-Business hours can be set for each auto attendant. If business hours aren’t set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
+Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
 
 Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
 
@@ -171,15 +191,15 @@ Screenshot of after hours day and time settings
 
 Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified in **Step 3 - Call flow**.
 
-Click **Next** when you’re done.
+Click **Next** when you're done.
 
 > \[!div class=“nextstepaction”\] [Step 5 - Holiday call flow &gt;](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # Step 5Holidays
 
-You can have calls to your auto attendant routed differently on holidays than on other days. (If you don’t want to have a different call flow for holidays, you can skip this step.)
+You can have calls to your auto attendant routed differently on holidays than on other days. (If you don't want to have a different call flow for holidays, you can skip this step.)
 
-Your auto attendant can have a call flow for each holiday you’ve set up. You can add up to 20 scheduled holidays to each auto attendant.
+Your auto attendant can have a call flow for each holiday you've set up. You can add up to 20 scheduled holidays to each auto attendant.
 
 1.  On the Holiday call settings page, click **Add**.
 
@@ -209,9 +229,9 @@ Your auto attendant can have a call flow for each holiday you’ve set up. You c
 
     Screenshot of holiday settings with holidays listed
 
-    When you’ve added all your holidays, click **Next**.
+    When you've added all your holidays, click **Next**.
 
-> \[!div class=“nextstepaction”\] [Step 6 - Choose who’s in the directory &gt;](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
+> \[!div class=“nextstepaction”\] [Step 6 - Choose who's in the directory &gt;](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # [Step 6Directory members](\l)
 
@@ -225,7 +245,7 @@ Screenshot of dial scope include and exclude options
 
 > \[!NOTE\] It might take up to 36 hours for a new user to have their name listed in the directory.
 
-When you’re done setting the dial scope, click **Next**.
+When you're done setting the dial scope, click **Next**.
 
 > \[!div class=“nextstepaction”\] [Step 7 - Assign a resource account &gt;](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
