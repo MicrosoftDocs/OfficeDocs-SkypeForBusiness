@@ -1251,7 +1251,7 @@ items:
         - name: Set up auto attendants
           href: business-voice/create-a-phone-system-auto-attendant-smb.md
         - name: Send welcome email
-          href: set-up-send-welcome.md
+          href: business-voice/set-up-send-welcome.md
     - name: Customize your setup
       items: 
         - name: Customization options
