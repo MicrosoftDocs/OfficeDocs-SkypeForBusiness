@@ -147,7 +147,9 @@ To view all apps that are pinned for a user, users might have to do the followin
 
 #### What do I need to know about the Teams mobile experience
 
-The Teams mobile clients (iOS and Android) currently don't support personal apps with static tabs. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients.
+The Teams mobile clients (iOS and Android) support personal apps with static tabs. Apps pinned to the Teams desktop client will appear in the Teams mobile clients. Personal bots will appear in Chat on mobile clients.
+
+Third-party apps (which can be downloaded from Teams Store) need to be approved before they show up on mobile. If an admin pins a third-party app that is unapproved by Microsoft, it will show up on the Teams Desktop, but not show up on mobile. See [Mobile clients](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) for more information.
 
 With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts.
 
