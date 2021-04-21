@@ -35,6 +35,7 @@ When you're ready to move your phone numbers to Business Voice, follow the steps
 After your phone numbers have been moved to Business Voice, you need to assign them to people. To do that, follow the steps in [Change a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user). When you follow these steps, you'll replace the phone number that was temporarily assigned to the user with their original phone number that you ported over.
 
 If you need help, let us know! We're here to help you get your phone numbers moved to Business Voice as easy as possible. Be sure to include the following information:
+
 - Your organization ID (such as ***contoso***.onmicrosoft.com)
 - What types and how many numbers you need help with
 - The authorizing person on your account
