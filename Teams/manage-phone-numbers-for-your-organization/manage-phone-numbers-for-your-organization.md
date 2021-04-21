@@ -68,7 +68,6 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Romania](phone-number-management-for-romania.md)
 > - [Singapore](phone-number-management-for-singapore.md)
 > - [Slovakia](phone-number-management-for-slovakia.md)
-> - [South Korea](phone-number-management-for-south-korea.md)
 > - [Spain](phone-number-management-for-spain.md)
 > - [Sweden](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)
