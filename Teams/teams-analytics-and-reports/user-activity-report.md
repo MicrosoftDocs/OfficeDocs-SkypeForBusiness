@@ -23,6 +23,9 @@ ms.custom: seo-marvel-apr2020
 
 The Teams user activity report gives insight into the types of activities that users in your organization do in Teams. You can see how many users communicate on an unplanned basis through unscheduled meetings (1:1 and group calls). See how many meetings a Teams user has organized, and meetings a Teams user has participated in. See details about screen, video, and audio minutes, and chat communication statistics, such as how many users reply to and post channel messages, and how many users engage in 1:1 or group chat messages.
 
+> [!NOTE]
+> The ability to schedule a user activity report isn't available at this time.
+
 ## View the user activity report
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](../using-admin-roles.md) to read about getting admin roles and permissions.
