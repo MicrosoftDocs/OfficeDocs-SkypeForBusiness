@@ -48,7 +48,7 @@ Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
 Connect-MicrosoftTeams
 ```
 
-To enable the view-only experience, you can use the following PowerShell snippet.
+To enable the view-only experience, you can use the following PowerShell snippet:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
