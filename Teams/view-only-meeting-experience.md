@@ -35,7 +35,7 @@ Attendees who join after the main meeting capacity has been reached will have a 
 Attendees will be able to join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
 > [!Note]
-> The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 300 in WW and 250 in GCC, GCC High, and DoD.
+> The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 300.
 
 ## Teams view-only experience controls
 
