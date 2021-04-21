@@ -27,17 +27,17 @@ Some Business Voice features, specifically Calling Plans, are available only in 
 
 In countries and regions **with** support for Calling Plans, you can buy Business Voice from Microsoft and then set up or transfer your existing phone numbers to Microsoft. Doing this will let you manage all of your phone numbers in Microsoft 365. After your move to Business Voice is finished:
 
--   Microsoft 365 becomes your telephone provider and domestic local and long distance calls are included in Business Voice. Toll free and international long distance charges are billed directly by Microsoft.
--   You no longer need to subscribe to a third-party telephone provider to manage your phone numbers.
--   You no longer need any on-premises telephony equipment (other than end-user devices such as desk phones).
+- Microsoft 365 becomes your telephone provider and domestic local and long distance calls are included in Business Voice. Toll free and international long distance charges are billed directly by Microsoft.
+- You no longer need to subscribe to a third-party telephone provider to manage your phone numbers.
+- You no longer need any on-premises telephony equipment (other than end-user devices such as desk phones).
 
 If your tenant is located in a country or region that supports Calling Plans, check out [What do I need to buy to use Microsoft 365 Business Voice with Calling Plan?](what-to-buy.md)
 
 In countries and regions **without** support for Calling Plans, you need to purchase Business Voice from a Microsoft partner or reseller. They will work with your third-party telephone provider to set up Direct Routing between your on-premises telephony hardware and Microsoft 365.
 
--   Your telephone provider doesn't change. All local, long distance, and toll-free charges are billed by your existing third-party telephone provider.
--   Your telephone provider continues to manage your phone numbers. If you want to add or remove phone numbers, you need to coordinate that change with your telephone provider.
--   You need to maintain some on-premises telephone equipment to enable your on-premises telephony equipment (such as desk phones) to communicate with Microsoft 365.
+- Your telephone provider doesn't change. All local, long distance, and toll-free charges are billed by your existing third-party telephone provider.
+- Your telephone provider continues to manage your phone numbers. If you want to add or remove phone numbers, you need to coordinate that change with your telephone provider.
+- You need to maintain some on-premises telephone equipment to enable your on-premises telephony equipment (such as desk phones) to communicate with Microsoft 365.
 
 If your tenant is located in a country or region that doesn't support Calling Plans, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
 
@@ -45,9 +45,9 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 
 | Country or region    | Business Voice with Calling Plan | Business Voice without Calling Plan(Direct routing) |
 |----------------------|----------------------------------|-----------------------------------------------------|
-| Canada               | X                                | X1                                                  |
-| United Kingdom       | X                                | X1                                                  |
-| United States        | X                                | X1                                                  |
+| Canada               | X                                | X<sup>1</sup>                                       |
+| United Kingdom       | X                                | X<sup>1</sup>                                       |
+| United States        | X                                | X<sup>1</sup>                                       |
 | Argentina            |                                  | X                                                   |
 | Australia            |                                  | X                                                   |
 | Austria              |                                  | X                                                   |
@@ -76,7 +76,7 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 | Ireland              |                                  | X                                                   |
 | Israel               |                                  | X                                                   |
 | Italy                |                                  | X                                                   |
-| Japan                |                                  | X2                                                  |
+| Japan                |                                  | X<sup>2</sup>                                       |
 | Jordan               |                                  | X                                                   |
 | Kenya                |                                  | X                                                   |
 | Latvia               |                                  | X                                                   |
@@ -119,6 +119,6 @@ To see what's included in Business Voice with Calling Plan and without Calling P
 | Venezuela            |                                  | X                                                   |
 | Vietnam              |                                  | X                                                   |
 
-1 Unless you have specific needs that prevent you from transferring (porting) your phone numbers to Microsoft 365, we recommend that you choose Business Voice with Calling Plan. Business Voice without Calling Plan requires the use of [Phone System Direct Routing](../direct-routing-landing-page.md). Direct Routing has many requirements that may increase the complexity of your deployment and may require the use of a Microsoft partner or consultant.
+<sup>1</sup>  Unless you have specific needs that prevent you from transferring (porting) your phone numbers to Microsoft 365, we recommend that you choose Business Voice with Calling Plan. Business Voice without Calling Plan requires the use of [Phone System Direct Routing](../direct-routing-landing-page.md). Direct Routing has many requirements that may increase the complexity of your deployment and may require the use of a Microsoft partner or consultant.
 
-2 Business Voice includes the licenses for Phone System and Audio Conferencing. Even though you can't get a Calling Plan through us, you can contact us to purchase your licenses and get your phone numbers.
+<sup>2</sup>  Business Voice includes the licenses for Phone System and Audio Conferencing. Even though you can't get a Calling Plan through us, you can contact us to purchase your licenses and get your phone numbers.
