@@ -21,3 +21,21 @@ appliesto:
 
 # Assign Microsoft 365 Business Voice licenses
 
+Each user that needs to use Microsoft 365 Business Voice needs to be assigned licenses for Business Voice. Business Voice is a collection of three individual licenses:
+
+- Microsoft 365 Audio Conferencing
+- Microsoft 365 Domestic Calling Plan
+- Microsoft 365 Phone System
+
+Assign each of these licenses to every user that needs to use Business Voice. 
+
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
+2. Select **Microsoft 365 Business Voice**.
+3. On the product details page, select **Assign licenses**.
+4. In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list. You can add up to 20 users at a time.
+5. Expand **Turn apps and services on or off**
+6. Select **Microsoft 365 Audio Conferencing**, **Microsoft 365 Domestic Calling Plan**, and **Microsoft 365 Phone System**.
+7. When you're finished, select **Assign**, then select **Close**.
+
+> [!div class="nextstepaction"]
+> [Next step: Set up an auto attendant](create-a-phone-system-auto-attendant-smb.md)
