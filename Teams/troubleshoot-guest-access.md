@@ -27,6 +27,8 @@ appliesto:
 - Find out about upcoming new or updated guest access features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
 - Tell us what you want in [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 ## If your guests are seeing license errors
 
 Guest access in Teams uses Azure Active Directory (Azure AD) Business to Business (B2B) and its licensing model. Guest access is included with all Microsoft 365 Business Standard, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Microsoft 365 or Office 365 license is necessary.
