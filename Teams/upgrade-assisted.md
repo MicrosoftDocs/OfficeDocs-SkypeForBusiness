@@ -22,7 +22,7 @@ appliesto:
 
 # Assisted upgrades from Skype for Business Online to Microsoft Teams
 
-Microsoft offers assisted upgrades to Teams to help organizations make the successful transition from Skype for Business Online as the service retires July 31, 2021. Assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
+Microsoft offers assisted upgrades to Teams to help organizations make a successful transition from Skype for Business Online as the service retires July 31, 2021. Assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
 
 We recommend that you review our [upgrade guidance](upgrade-basic.md) before your upgrade. Our upgrade guidance includes recommended activities and helpful resources for completing an upgrade from Skype for Business to Teams. This guidance applies to any organization planning an upgrade to Teams, whether they manage all aspects of the upgrade or use the assisted process.
 
