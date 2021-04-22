@@ -46,8 +46,8 @@ Check back frequently - we'll keep updating this list so you'll always know abou
    :::column-end:::
 
    :::column:::
-   **[Teamwork](/learn/paths/m365-manage-team-collaboration)** </br>
-   Course: Enabling Teamwork with Teams
+   **[Manage Team Collaboration for IT](/learn/paths/m365-manage-team-collaboration)** </br>
+   Course: Learn how to use Teams to facilitate teamwork and communication within your org across applications and devices.
 
    :::column-end:::
 

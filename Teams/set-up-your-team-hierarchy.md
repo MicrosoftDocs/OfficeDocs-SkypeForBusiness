@@ -130,9 +130,9 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
 Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,
 Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,
-HR,,,,,,,,
-East Regional Office,,,,,,,,
-West Regional Office,,,,,,,,
+HR,,125399ce-a761-4983-a125-3abc249037fc,,,,,,
+East Regional Office,HR;Communications;Recall,,,,,,,
+West Regional Office,HR;Communications;Recall,,,,,,,
 Northeast Zone,East Regional Office,,,,,,,
 Southeast Zone,East Regional Office,,,,,,,
 New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,
