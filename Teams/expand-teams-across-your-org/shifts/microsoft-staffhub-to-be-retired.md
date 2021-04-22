@@ -153,6 +153,9 @@ You manage Teams through the Microsoft Teams PowerShell module and the Skype for
 
 If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
+
+[!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
+
 #### Is reporting available to view Shifts usage across my organization?
 
 Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, check out [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
