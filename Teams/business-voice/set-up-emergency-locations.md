@@ -38,3 +38,7 @@ If you have users in multiple locations, such as home offices or offices in othe
 
 1. If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.
 1. Click **Save**.
+
+
+> [!div class="nextstepaction"]
+> [Next step: Set up main company phone number](create-a-phone-system-auto-attendant-smb.md)
