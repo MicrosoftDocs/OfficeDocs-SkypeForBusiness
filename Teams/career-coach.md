@@ -22,7 +22,7 @@ appliesto:
 
 Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey.  Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.
 
-Learn more about [Career Coach](aka.ms/career-coach).
+Learn more about [Career Coach](https://aka.ms/career-coach).
 
 > [!NOTE]
 > Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff. /\*\*\*Link to marketing & edu support \*\*\*/
@@ -93,14 +93,14 @@ Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps i
 
 1. Sign in to the **Teams admin center**.
 
-2. In the left navigation, go to **Teams apps** > **Manage apps**.  
+2. In the left navigation, select **Teams apps** > **Manage apps**.  
     
     > [!NOTE]
     > You must be a global admin or Teams service admin to access the page.
 
 3. Search or browse for **Career Coach**.  
 
-4. Select **Career Coach** and select **Settings.**  
+4. Select **Career Coach**, and then select **Settings.**  
 
     ![shows the Career Coach app selected with the Settings option showing](media/app-settings.png)
 
@@ -133,7 +133,7 @@ The educational institution icon will be used throughout Career Coach to identif
 
  - A transparent PNG
  - Aspect ratio of 1:1
- - Maximum size of 64px x 64px
+ - Maximum size of 64px x 64px.
 
 ##### Educational institution thumbnail
 
@@ -158,7 +158,7 @@ Determine the educational institutions LinkedIn page. This can be done by search
  
 1. Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.
 
-2. Enter your educational institution's LinkedIn Page URL  
+2. Enter your educational institution's LinkedIn page URL.  
 
 3. Select **Apply**.
 
@@ -178,10 +178,10 @@ To create the course catalog, put together a list of all courses taught at your 
 
 ##### Course catalog documents formatting and schema
 
-The documents need to include be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title** and **course ID**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
+The documents need to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title** and **course ID**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
 
 > [!NOTE]
-> Start with the sample course catalog document to get started. Download the sample course catalog. [where is the catalog sample]
+> Start with the sample course catalog document to get started. Download the sample course catalog. where is the catalog sample
 
 | Name             | Status      | Type   | Description |
 |------------------|-------------|--------|-------------|
@@ -246,7 +246,7 @@ Career Coach can be customized to be unique to your educational institution. The
 
 1. Sign in to the **Teams admin center**. 
 
-1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Customization**.
+1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** > **Settings** &gt; **Customization**.
 
 2. Add each URL, a title, and short description.  
   
@@ -274,9 +274,11 @@ Pinning Career Coach will make the app more accessible and visible for students.
 
 1. Sign in to the **Teams admin center**. 
 
-1. Select **Teams apps** &gt; **Manage apps** &gt;**Setup policies** &gt; ***Specific policy***.
+1. Select **Teams apps** &gt;**Setup policies** &gt; **Specific policy**. (what is the policy name?)
 
-2. Under **Pinned apps** choose **Add apps**. Search for **Career Coach**. Select **Add**.
+2. Under **Pinned apps** choose **Add apps**. 
+
+1. Search for **Career Coach**, and then select **Add**.
 
 1. Choose the order for the app to appear and select **Save**.
 
