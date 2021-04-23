@@ -59,7 +59,7 @@ The default configuration of TeamsUpgradePolicy is Islands mode, which is design
 To ensure that incoming VOIP and PSTN calls always land in a user's Teams client, update the user's coexistence mode to be TeamsOnly (which means, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy.  For more information on coexistence modes and TeamsUpgradePolicy, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](./migration-interop-guidance-for-teams-with-skype.md)
 
 **NOTES**
- - Skype for Business IP phones will receive calls, even if the user is in TeamsOnly mode.  
+ - Skype for Business IP phones will receive calls, even if the user is in TeamsOnly mode, if the IP phone has the mix mode aviliable
  - Users that have been provisioned with Phone System and Calling Plans licenses for use with Skype for Business Online (e.g. they have been assigned a value of OnlineVoiceRoutingPolicy) , will have the Calls tab enabled in Teams and can place outbound PSTN calls from Teams without administrators having to take any administrative action.
 
 
