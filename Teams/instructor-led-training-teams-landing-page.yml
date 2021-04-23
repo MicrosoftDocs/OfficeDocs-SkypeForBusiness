@@ -30,6 +30,10 @@ highlightedContent:
     - title: Microsoft 365 Adoption Tools
       itemType: deploy
       url: https://adoption.microsoft.com
+    # Card
+    - title: Teams online training
+      itemType: video
+      url: https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
 
 # productDirectory section (optional)
 productDirectory:
