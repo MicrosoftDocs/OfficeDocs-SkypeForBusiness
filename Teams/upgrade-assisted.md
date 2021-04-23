@@ -1,5 +1,5 @@
 ---
-title: Assisted upgrades| Skype Business to Teams Upgrade 
+title: Assisted upgrades | Skype Business Online to Teams Upgrade 
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: billkau
 audience: admin
-description: Overview of assisted upgrades from Skype for Business to Teams
+description: Overview of assisted upgrades from Skype for Business Online to Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -24,10 +24,12 @@ appliesto:
 
 Microsoft offers assisted upgrades to Teams to help organizations make a successful transition from Skype for Business Online as the service retires July 31, 2021. Assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
 
-We recommend that you review our [upgrade guidance](https://aka.ms/SkypeToTeams) before your upgrade. Our upgrade guidance includes recommended activities and helpful resources for completing an upgrade from Skype for Business to Teams. This guidance applies to any organization planning an upgrade to Teams, whether they manage all aspects of the upgrade or use the assisted process.
+We recommend that you review our [upgrade guidance](https://aka.ms/SkypeToTeams) before your upgrade. Our upgrade guidance includes recommended activities and helpful resources for completing an upgrade from Skype for Business Online to Teams. This guidance applies to any organization planning an upgrade to Teams, whether they manage all aspects of the upgrade or use the assisted process.
 
 > [!NOTE]
 > If you're scheduled for an assisted upgrade to Teams, you can perform your own upgrade from Skype for Business Online before your scheduled upgrade date. For more information about how to manually upgrade to Teams, see our [upgrade guidance](https://aka.ms/SkypeToTeams).
+>
+> Assisted upgrade is not available for on-premises deployments of Skype for Business Server.
 
 ## Notifications for scheduled customers
 
@@ -47,9 +49,9 @@ When the assisted upgrade completes, the **Coexistence Mode** for upgraded users
 
 |  |  |
 |---------|---------|
-|**Chat and Calling**     | <UL><LI>All calls and chats are started and received in Teams<LI>Users can communicate (chat/call) with any Skype for Business user<LI>Organizations can enable Teams users to communicate with users of the Skype consumer service by managing [external access permissions](manage-external-access.md)<LI>Teams users who attempt to sign in to Skype for Business will be redirected to Teams</UL>  |
+|**Chat and Calling**     | <UL><LI>All calls and chats are started and received in Teams<LI>Users can communicate (chat/call) with any Skype for Business user<LI>Organizations can enable Teams users to communicate with users of the Skype consumer service by managing [external access permissions](manage-external-access.md)<LI>Teams users who attempt to sign in to Skype for Business Online will be redirected to Teams</UL>  |
 |**Meetings**     |  <UL><LI>Users schedule all new meetings in Teams (plugin replaced)    </UL>   |
-|**Migrated Data**     |<UL><LI>Existing contacts from Skype for Business including federated (but no distribution lists)<LI>Existing Skype for Business meetings are converted to Teams meetings</UL>         |
+|**Migrated Data**     |<UL><LI>Existing contacts from Skype for Business Online including federated (but no distribution lists)<LI>Existing Skype for Business Online meetings are converted to Teams meetings</UL>         |
 
 ## Related content
 
