@@ -12321,6 +12321,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/retail-teams-templates-in-the-admin-console.md",
+      "redirect_url": "/microsoftteams/get-started-with-retail-teams-templates",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/Teams-dependencies.md",
       "redirect_url": "/microsoft-365/solutions/collaborate-as-team",
       "redirect_document_id": false
