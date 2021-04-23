@@ -82,7 +82,7 @@ productDirectory:
       url: ./upgrade-workshops-landing-page.yml
 
 # courses section (optional)
-courses:
+  courses:
   items:
     # Card
     - title: Teamwork Specialist certification
