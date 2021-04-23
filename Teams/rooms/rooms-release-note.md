@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -66,6 +67,15 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.8.25.0 (04/22/2021)
+
+Introduced in this update:
+- Fix for issue where room information on Teams Room console doesn't show up for room accounts that are hidden from GAL
+
+> [!NOTE]
+> GCCH customers can download the upgrade package from [Manually update a Microsoft Teams Rooms device](manual-update.md)
+
 
 ### 4.8.19.0 (04/06/2021)
 
