@@ -12354,7 +12354,12 @@
       "source_path": "Teams/data-collection-practices.md",
       "redirect_url": "/microsoftteams/teams-privacy", 
       "redirect_document_id": true 
-    } 
+    },
+    {  
+      "source_path": "Teams/upgrade-automated.md",
+      "redirect_url": "/microsoftteams/upgrade-assisted", 
+      "redirect_document_id": true 
+    }
   ]
 }
 
