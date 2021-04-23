@@ -21,9 +21,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Get started with Teams templates in retail
+# Create a team using Teams retail templates
 
-Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Teams templates have pre-built definitions of team structures designed around retailer needs. You can use Teams templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
 
@@ -32,6 +32,13 @@ In this article, we'll introduce each of the Teams templates and recommend how t
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
 To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates.md).
+
+| Who | Method to use: |
+| ---- | --------- |
+| Admins and IT Professionals | [Use the Teams admin center](#use-the-teams-templates-in-the-teams-admin-center) to create teams based on the retail Teams templates.|
+| Developers and systems integrators | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create teams based on the retail Teams templates. |
+
+## Use the Teams templates in the Teams admin center
 
 ## Store template
 
