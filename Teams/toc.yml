@@ -1437,9 +1437,7 @@ items:
           href: teams-standalone-static-tabs-using-spo-sites.md
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-      items: 
-        - name: Get started with Retail Teams templates in the admin center
-          href: retail-teams-templates-in-the-admin-console.md
+      items:
         - name: Get started with Retail Teams templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
