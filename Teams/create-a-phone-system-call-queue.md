@@ -179,7 +179,7 @@ The following clients are supported for call agents in a call queue:
   - iPad Skype for Business Client (version 6.16.0 and later)
   - Microsoft Teams Windows client (32-bit and 64-bit versions)
   - Microsoft Teams Mac client
-  - Microsoft Teams on [Virtualized Desktop Infrastructure (Windows Virtual Desktop, Citrix, and VMware)](https://docs.microsoft.com/en-us/microsoftteams/teams-for-vdi) 
+  - Microsoft Teams on [Virtualized Desktop Infrastructure](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix, and VMware)
   - Microsoft Teams iPhone app
   - Microsoft Teams Android app
 
