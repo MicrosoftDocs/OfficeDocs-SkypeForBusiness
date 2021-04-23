@@ -187,6 +187,8 @@ items:
       href: continue-journey.md
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
+    - name: Skype for Business Online assisted upgrades
+      href: upgrade-assisted.md
     - name: FAQ
       href: FAQ-journey.yml
     - name: Reference
