@@ -21,3 +21,5 @@ appliesto:
 
 # Set up Microsoft 365 Business Voice phone numbers
 
+> [!div class="nextstepaction"]
+> [Next step: Assign licenses to Teams users](set-up-licenses.md)

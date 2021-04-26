@@ -21,3 +21,5 @@ appliesto:
 
 # Set up Microsoft 365 Business Voice
 
+> [!div class="nextstepaction"]
+> [Next step: Start setting up Business Voice](set-up-emergency-locations.md)
