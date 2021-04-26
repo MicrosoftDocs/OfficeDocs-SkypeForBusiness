@@ -184,3 +184,5 @@ Now that you have the app installed you can add the tab to any channel that you 
 That's it! You and your team, can now start working with your Moodle courses directly from Microsoft Teams.
 
 To share any feature requests or feedback with us, please visit our [User Voice page](https://microsoftteams.uservoice.com/forums/916759-moodle).
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
