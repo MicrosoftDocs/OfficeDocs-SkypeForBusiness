@@ -1253,7 +1253,7 @@ items:
         - name: 3. Assign licenses
           href: business-voice/set-up-licenses.md
         - name: 4. Set up auto attendants
-          href: business-voice/create-a-phone-system-auto-attendant-smb.md
+          href: business-voice/set-up-auto-attendant.md
         - name: 5. Send welcome email
           href: business-voice/set-up-send-welcome.md
     - name: Customize your setup

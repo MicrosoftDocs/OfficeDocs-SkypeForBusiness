@@ -38,4 +38,4 @@ Assign each of these licenses to every user that needs to use Business Voice.
 7. When you're finished, select **Assign**, then select **Close**.
 
 > [!div class="nextstepaction"]
-> [Next step: Set up an auto attendant](create-a-phone-system-auto-attendant-smb.md)
+> [Next step: Set up an auto attendant](set-up-auto-attendant.md)
