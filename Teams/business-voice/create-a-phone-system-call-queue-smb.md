@@ -132,9 +132,9 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 5. Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
-> [!NOTE]
-> The uploaded recording can be no larger than 5 MB.
-> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
+   > [!NOTE]
+   > The uploaded recording can be no larger than 5 MB.
+   > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 > [!div class="nextstepaction"]
 > [Step 3 - Call agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
