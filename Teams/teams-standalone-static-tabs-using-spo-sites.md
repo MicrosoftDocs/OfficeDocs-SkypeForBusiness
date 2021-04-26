@@ -233,3 +233,22 @@ The JSON file you generate will look something like the one below.
 
 }
 ```
+
+## Troubleshooting guide
+The Personal tab with the SharePoint site/page shows a blank screen in the desktop Teams client. In the web client, the tab opens without any issues.
+
+Possible reasons and solutions:
+- contentURL and websiteURL may have been set wrong:
+	- contentUrl in the manifest must be in following format: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}
+   		- Example 1: https://contoso.sharepoint.com/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+   		- Example 2: https://orgtenantname.sharepoint.com/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/site2
+
+  	- websiteUrl must be in following format: {{siteUrl}}
+  		- Example 1: https://contoso.sharepoint.com/sites/ContosoHub
+  		- Example 2: https://orgtenantname.sharepoint.com/teams/site2
+
+- SSO (single sign-on) properties missing in the manifest. Make sure you added the following properties in the manifest:
+	- AAD application ID: 00000003-0000-0ff1-ce00-000000000000
+	- Resource Url: {{subdomain}}.sharepoint.com
+		- Example 1: https://contoso.sharepoint.com
+		- Example 2: https://orgtenantname.sharepoint.com
