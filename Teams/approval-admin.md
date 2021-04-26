@@ -131,6 +131,12 @@ You can search for the following activities:
 
 - Added e-signature to approval request
 
+- Viewed e-Signature request details
+
+- Reviewed e-Signature request
+
+- Canceled e-Signature request
+
 For access to more auditing approvals within Flow, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
@@ -149,3 +155,19 @@ From the Teams Approvals app, users have access to create new Approvals and view
 
 > [!Note]
 > A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
+
+## Approvals e-Signature Integration
+
+E-signature approvals created from the Approvals App are stored in the selected providers cloud environment. For further information regarding storage around the e-signature agreement please view their documentation around storage.
+
+To use the Approvals app e-Signature feature, you need the following items:
+
+- License for the specific e-Signature provider you are choosing to use. In order to obtain a license for your organization you will need to go to the provider’s site.
+
+For the Approvals e-Signature functionality, Third party signature partners will appear in the Teams Approvals app by default. You can disable specific e-Signature providers through the app settings within the Teams admin center.
+
+1. Within the Approvals app under the Manage apps section in the Teams admin center select **Settings**
+
+2.	Select the toggle for the specific eSignature provider to disable it. Should a Teams admin disable a provider, end users will not see the provider when creating an approval or be able to view any e-Signture requests that were made with that provider. 
+
+E-signature Approvals created from the Approvals App are stored in the selected provider’s cloud. To export any data regarding eSign you will need to go to the providers site in order to do this. Please refer to their documentation about export and retention of these agreements.
