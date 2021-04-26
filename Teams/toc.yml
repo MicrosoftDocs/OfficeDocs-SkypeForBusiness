@@ -1246,15 +1246,17 @@ items:
       items:
         - name: Overview
           href: business-voice/set-up-overview.md
-        - name: 1. Set up emergency locations
+        - name: "Step 1: Set up emergency locations"
           href: business-voice/set-up-emergency-locations.md
-        - name: 2. Set up phone numbers
+        - name: "Step 2: Set up phone numbers"
           href: business-voice/set-up-phone-numbers.md
-        - name: 3. Assign licenses
+        - name: "Step 3: Assign licenses"
           href: business-voice/set-up-licenses.md
-        - name: 4. Set up auto attendants
+        - name: "Step 4: Create a resource account"
+          href: business-voice/set-up-resource-account.md
+        - name: "Step 5: Set up auto attendants"
           href: business-voice/set-up-auto-attendant.md
-        - name: 5. Send welcome email
+        - name: "Step 6: Send welcome email"
           href: business-voice/set-up-send-welcome.md
     - name: Customize your setup
       items: 
