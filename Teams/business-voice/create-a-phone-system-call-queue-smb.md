@@ -98,9 +98,9 @@ You can create a resource account in the Teams admin center.
 
 4. Click **Save**.
 
-The new account will appear in the list of accounts.
+   The new account will appear in the list of accounts.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+   ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
 ### Assign a license
 
