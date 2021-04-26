@@ -25,7 +25,7 @@ description: Learn how to set up call queues with Microsoft 365 Business Voice.
 ---
 # Create a call queue - small business tutorial
 
-Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 Call queues provide:
 
