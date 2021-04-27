@@ -20,9 +20,6 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 # Manage tags in Microsoft Teams
 
-> [!NOTE]
-> One of the features discussed in this article, **tagging by shift**, is rolling out. If you're an admin, you can find out when this feature will be released for your region in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)). To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
-
 ## Overview
 
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. You can create and assign custom tags to categorize people based on attributes, such as role, project, skill, or location. Or, tags can be automatically assigned to people based on their schedule and shift information in the [Shifts app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (coming soon). After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post or to start a conversation with only those people who are assigned that tag.
@@ -33,7 +30,7 @@ As mentioned earlier, there are two kinds of tags in Teams.
 - **Tagging by shift**: With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Teams. For example, the "EngineerOnCall" tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information. Tagging by shift can also be backed by major workforce management systems like JDA, Kronos, and AMiON by integrating them with Shifts in Teams. To learn more about how to set up this feature, see [Set up tagging by shift](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Tags are not yet supported in private channels. Tags are rolling out to US Government Community Cloud (GCC). Tags are not available in GCC High, or Department of Defense (DoD) organizations. 
+> Tags are not yet supported in private channels. Tags are not available in GCC High, or Department of Defense (DoD) organizations. 
 
 ## How tags work
 

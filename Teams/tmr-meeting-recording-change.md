@@ -2,7 +2,7 @@
 title: Use OneDrive for Business and SharePoint for meeting recordings
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: debhag
 manager: serdars
 ms.topic: article
 audience: admin
@@ -185,3 +185,8 @@ See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retent
 **How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
 
 See [Which policy takes precedence?](./assign-policies.md#which-policy-takes-precedence).
+
+**Where does the recording go if the user doesn't have OneDrive for Business or SharePoint?**
+
+The recording will land in our temporary storage location where it will be held for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
+
