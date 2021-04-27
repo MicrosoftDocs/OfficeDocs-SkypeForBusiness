@@ -25,6 +25,9 @@ appliesto:
 
 # Configure Operator Connect
 
+>[!NOTE]
+>Operator Connect is currently available in public preview. [more here]
+
 You can enable, edit, and remove operators in the Teams Admin Center. In the left navigation pane, go to **Voice > Operators**.
 
 ## Enable an operator
@@ -39,12 +42,28 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 ## Acquire and manage phone numbers
 
+- [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users.md)
+
+- [Move existing numbers from  Direct Routing to Operator Connect]()
+
+- [Move existing numbers from Calling Plans to Operator Connect]()
+
+### Acquire numbers for new Teams users
+
 - **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. See [Operators](#operators) to learn more.  
 
 - **Assign numbers.** To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) View numbers or make changes to assignments from the **Phone numbers** window.
 
 >[!IMPORTANT]
 >**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses  are managed directly with your operator. Contact them to make any changes to existing phone numbers.
+
+### Move numbers acquired with Direct Routing to Operator Connect
+
+- [...]
+
+### Move numbers acquired with Calling Plans to Operator Connect
+
+- [...]
 
 ## Manage your operators
 
