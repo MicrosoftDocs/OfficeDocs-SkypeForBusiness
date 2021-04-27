@@ -52,7 +52,7 @@ To use the Approvals app, you need permission for the following items:
 
 ## Storage with CDS
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners, that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
@@ -129,7 +129,13 @@ You can search for the following activities:
 
 - Reassigned approval request
 
-- Added e-signature to approval request
+- Added e-Signature to approval request
+
+- Viewed e-Signature request details
+
+- Reviewed e-Signature request
+
+- Canceled e-Signature request
 
 For access to more auditing approvals within Flow, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
@@ -137,7 +143,7 @@ Auditing can be customized further in the [Microsoft 365 Security and Compliance
 
 1. To use the preconfigured reports, sign in to Microsoft 365 Security and Compliance.
 
-2. Select **Search & investigation**.
+2. Select **Search & investigation**.
 
 3. Search the Audit log and select the **Dynamics 365 activities** tab.
 
@@ -149,3 +155,19 @@ From the Teams Approvals app, users have access to create new Approvals and view
 
 > [!Note]
 > A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
+
+## Approvals e-Signature Integration
+
+E-Signature approvals created from the Approvals app are stored in the selected provider's cloud environment. For further information about storage around the e-Signature agreement, view the selected provider's storage documentation.
+
+To use the Approvals app e-Signature feature, you need the following items:
+
+- License for the specific e-Signature provider you're choosing to use. In order to obtain a license for your organization, you'll need to go to the provider’s site.
+
+For the Approvals e-Signature functionality, third-party signature partners will appear in the Teams Approvals app by default. You can disable specific e-Signature providers by accessing app settings in the Teams admin center.
+
+1. In the Approvals app, under the Manage apps section in the Teams admin center, select **Settings**.
+
+2. Select the toggle for the specific e-Signature provider to disable it. If a Teams admin disables a provider, end users won't see the provider when creating an approval. End users will also be unable to view any e-Signature requests that were made with that provider.
+
+E-Signature Approvals created from the Approvals App are stored in the selected provider’s cloud. You will therefore need to go to the provider's site in order to export any data about e-Signatures. Refer to the provider's documentation about export and retention of these agreements.
