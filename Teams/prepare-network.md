@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
 description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -35,12 +35,11 @@ If you've already [optimized your network for Microsoft 365 or Office 365](/Offi
     |[IP addresses](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, and <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > If you need to federate with Skype for Business, either on-premises or online, you will need to configure some additional DNS records.
+    > If you need to federate with Skype for Business, either on-premises or online, you will need to configure an additional DNS record.
     >
-    >|CNAME Records / Host name  |TTL  |Points to address or value  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|DNS record  |Service  |Protocol  |Priority  |Weight  |Port  |Target  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  Do you have a verified domain for Microsoft 365 or Office 365 (for example, contoso.com)?
     
@@ -80,8 +79,8 @@ For an in-depth discussion of network optimization, including guidance for ident
 <table>
 <thead>
 <tr class="header">
-<th><strong>Network optimization task</strong></th>
-<th><strong>Details</strong></th>
+<th>Network optimization task</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>

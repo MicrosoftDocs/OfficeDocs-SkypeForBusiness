@@ -59,7 +59,9 @@ In Teams, go to the channel, click **More options ...** > **Manage channel**. Fr
 
 Channel moderation is a per-channel setting. There's no tenant-level setting for channel moderation. If you'd like us to add a tenant-level channel moderation setting, request it on [Teams UserVoice](https://microsoftteams.uservoice.com/).
 
-![manage-channel-moderation-in-teams-preferences.png](media/manage-channel-moderation-in-teams-preferences.png)
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
+![preferences for managing-channel-moderation-in-teams](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### Turn on or turn off moderation for a channel
 

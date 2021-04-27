@@ -25,7 +25,7 @@ description: Learn how to set up call queues with Microsoft 365 Business Voice.
 ---
 # Create a call queue - small business tutorial
 
-Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 Call queues provide:
 
@@ -104,9 +104,9 @@ You can create a resource account in the Teams admin center.
 
 4. Click **Save**.
 
-The new account will appear in the list of accounts.
+   The new account will appear in the list of accounts.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+   ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
 ### Assign a license
 
@@ -138,9 +138,9 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 5. Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
-> [!NOTE]
-> The uploaded recording can be no larger than 5 MB.
-> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
+   > [!NOTE]
+   > The uploaded recording can be no larger than 5 MB.
+   > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 > [!div class="nextstepaction"]
 > [Step 3 - Call agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)

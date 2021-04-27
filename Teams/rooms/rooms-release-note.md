@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -67,10 +68,19 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.8.25.0 (04/22/2021)
+
+Introduced in this update:
+- Fix for an issue where room information on Teams Rooms consoles doesn't show up for room accounts that are hidden from the global address list (GAL)
+
+> [!NOTE]
+> GCCH customers can download the upgrade package from [Manually update a Microsoft Teams Rooms device](manual-update.md)
+
+
 ### 4.8.19.0 (04/06/2021)
 
 Introduced in this update:
-- Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download version 4.8.18.0 from [Manually update a Microsoft Teams Rooms device](manual-update.md)
+- Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download version 4.8.19.0 from [Manually update a Microsoft Teams Rooms device](manual-update.md)
 - Join Zoom meetings with better video quality (720p support) and receive the video gallery of participants
 - Skype for Business sign-in failure banner removed for Teams default mode. This change supports organizations removing Skype for Business infrastructure
 - Teams meetings join link parsing now handles Microsoft Defender Advanced Thread Protection Safe Links to allow joining external Teams seamlessly
