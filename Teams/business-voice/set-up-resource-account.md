@@ -72,4 +72,4 @@ After you've created your resource account, you need to assign a *Microsoft 365 
 4. Click **Save**.
 
 > [!div class="nextstepaction"]
-> [Next step: Set up an auto attendant](set-up-auto-attendant.md)
+> [Next step: Assign phone numbers to your users](set-up-assign-numbers.md)
