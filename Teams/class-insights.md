@@ -131,6 +131,7 @@ Currently, data is collected from the following areas in class teams:
 | **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
 | **OneNote Class Notebook** |	Editing a page or section in a notebook (not including page content).|
 | **Meetings** |	Attendance (not including meeting content).|
+| **[Reflect](reflect.md)** |	Check-ins (including values).|
 
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
