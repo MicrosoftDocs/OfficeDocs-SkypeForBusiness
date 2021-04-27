@@ -11246,6 +11246,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "SkypeForBusiness/hybrid/msft-telephony-solutions.md",
+      "redirect_url": "/MicrosoftTeams/cloud-voice-landing-page",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/quick-start-enable-teams.md",
       "redirect_url": "/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page",
       "redirect_document_id": true
