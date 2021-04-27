@@ -56,7 +56,7 @@ Rockfall should be placed at least 8 inches (20 cm) away from walls and large ob
 
 The diagram shows how the Intelligent Speaker is connected to the device.
 
-   ![The Intelligent Speaker setup with the speaker, the power and data box. One line goes to the USB port of the console, and the other line goes to power. ](../media/intelligent-speakers.png)
+   ![The Intelligent Speaker setup with the speaker, the power and data box. One line goes to the USB port of the console, and the other line goes to power. ](../media/intelligent-speakers1.png)
 
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Rockfall device.
