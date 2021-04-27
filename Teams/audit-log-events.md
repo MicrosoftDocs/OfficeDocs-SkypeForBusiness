@@ -152,7 +152,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Upgraded app |AppUpgraded           |An app was upgraded to its latest version in the catalog.     |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
 |Sent a message with a URL link in Teams     |MessageCreatedHasLink         |A user sends a message containing a URL link in Teams.         |
-|User edits a message with a URL link in Teams     |MessageEditedHasLink         |A user edits a message and adds a URL Link to it in Teams.         |
+|Edited a message with a URL link in Teams     |MessageEditedHasLink         |A user edits a message and adds a URL link to it in Teams.         |
 
 
 ## Shifts in Teams activities
