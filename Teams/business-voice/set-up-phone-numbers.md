@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Learn how to set up Microsoft 365 Business Voice phone numbers for users and services in your organziation.
+description: Learn how to set up Microsoft 365 Business Voice phone numbers for users and services in your organization.
 appliesto: 
 - Microsoft Teams
 ---
 
-# Set up Microsoft 365 Business Voice phone numbers
+# Set up Business Voice phone numbers
 
 Before you can set up users or auto attendants in your organization, you need to get phone numbers for them. There are several different types of phone numbers, however the following are the two types of numbers that you need to add in this step:
 
@@ -29,7 +29,12 @@ Before you can set up users or auto attendants in your organization, you need to
 > [!IMPORTANT]
 > Even if you want to use your existing phone numbers, you need to create and assign temporary phone numbers to your company's main phone line and your users. You'll be able to replace these temporary numbers with your existing phone numbers in a later step.
 
-## Set up a company phone number
+> [!NOTE]
+> It may take several hours for your new phone numbers to become available in Teams.
+
+## Set up a service number
+
+The service number you set up now will be used in a later step for your company's main phone number.
 
 1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
 2. Enter a name for the order and add a description.
@@ -44,7 +49,7 @@ Before you can set up users or auto attendants in your organization, you need to
     4. Under **Area code**, select an area code.
     5. Under **Quantity**, select **1**, and then click **Next** to select your numbers.
 
-4. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
+4. Select the number you want. You have 10 minutes to select your phone number and place your order. If you take more than 10 minutes, the phone number will be returned to the pool of numbers.
 5. When you're ready to place your order, click **Place order**.
 
 ## Set up phone numbers for your users

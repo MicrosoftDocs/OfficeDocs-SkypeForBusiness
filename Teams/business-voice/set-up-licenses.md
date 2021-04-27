@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Assign Microsoft 365 Business Voice licenses
+# Assign Business Voice licenses
 
 Each user that needs to use Microsoft 365 Business Voice needs to be assigned licenses for Business Voice. Business Voice is a collection of three individual licenses:
 

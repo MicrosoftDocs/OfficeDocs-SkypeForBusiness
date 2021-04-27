@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up a Microsoft 365 Business Voice emergency location
+# Set up a Business Voice emergency location
 
 An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. This step sets up the primary emergency location for your organization. This location will be associated with your company's main phone number in a later step.
 
