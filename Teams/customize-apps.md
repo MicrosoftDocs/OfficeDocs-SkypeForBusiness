@@ -39,7 +39,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 See the [Teams Manifest schema](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) for details about the fields that you can customize.
 
-> [!NOTE
+> [!NOTE]
 > Customizing apps isn't supported in Government Community Cloud High (GCCH) or Department of Defense (DoD) at this time.
 
 ## Customize the app's details
@@ -98,7 +98,7 @@ To start customizing an app, complete the following steps:
 
 Now your Teams end users can open their Teams client to see the customized app.
 
-   ![Customized app in Teams client](media/find-customized-app.png)
+   ![Customized app in Teams client](media/contoso-app.png)
 
 ### Special considerations for customizing an app
 
@@ -123,7 +123,7 @@ You might want to see the app details to review the information.
 
 4. View the app details, including the original app name **Short name from publisher**.
 
-   ![Customize the icon panel app name](media/app-details-original-name.png)
+   ![Customize the icon panel app name](media/original-app-version.png)
 
    The **Short name from publisher** field is only visible if you've changed the app's short name.
 

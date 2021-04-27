@@ -187,6 +187,8 @@ items:
       href: continue-journey.md
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
+    - name: Skype for Business Online assisted upgrades
+      href: upgrade-assisted.md
     - name: FAQ
       href: FAQ-journey.yml
     - name: Reference
@@ -298,8 +300,6 @@ items:
       items: 
         - name: Privacy and Microsoft Teams
           href: teams-privacy.md
-        - name: Data collection practices
-          href: data-collection-practices.md
         - name: Location of data in Teams
           href: location-of-data-in-teams.md
         - name: Block access to Sharepoint Online for specific users
@@ -861,8 +861,6 @@ items:
               href: aa-cq-cqd-historical-reports.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
-            - name: Reporting
-              href: aa-cq-cqd-historical-reports.md
         - name: Block inbound calls
           href: block-inbound-calls.md
         - name: Call park and retrieve
@@ -1447,9 +1445,7 @@ items:
           href: teams-standalone-static-tabs-using-spo-sites.md
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-      items: 
-        - name: Get started with Retail Teams templates in the admin center
-          href: retail-teams-templates-in-the-admin-console.md
+      items:
         - name: Get started with Retail Teams templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
@@ -1570,10 +1566,6 @@ items:
           href: devices/teams-ip-phones.md
         - name: Phones for Skype for Business Online
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Teams alerting and monitoring
-          href: alerts/teams-admin-alerts.md 
-        - name: Teams device health monitoring
-          href: alerts/device-health-status.md 
     - name: Teams PowerShell
       items: 
         - name: Overview
