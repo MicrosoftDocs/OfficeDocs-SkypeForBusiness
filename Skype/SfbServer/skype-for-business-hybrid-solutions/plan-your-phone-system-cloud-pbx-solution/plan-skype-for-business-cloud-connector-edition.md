@@ -423,7 +423,7 @@ The host machine must be able to reach external resources to successfully instal
 |Outbound  <br/> |Cloud Connector host IPs  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |Certificate Revocation List (CRL)  <br/> |
 |Outbound  <br/> |Cloud Connectorr host IPs  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |Cloud Connector update  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |
 
-If more restrictive rules are required, refer to following whitelisting URLs:
+If more restrictive rules are required, refer to following allowlist URLs:
 
 - [Certificate Revocation List URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
