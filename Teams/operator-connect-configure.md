@@ -42,15 +42,17 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 ## Acquire and manage phone numbers
 
-- [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users.md)
+- [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users)
 
-- [Move existing numbers from  Direct Routing to Operator Connect]()
+- [Move existing numbers from  Direct Routing to Operator Connect](#move-numbers-acquired-with-direct-routing-to-operator-connect)
 
-- [Move existing numbers from Calling Plans to Operator Connect]()
+- [Move existing numbers from Calling Plans to Operator Connect](#move-numbers-acquired-with-calling-plans-to-operator-connect)
 
 ### Acquire numbers for new Teams users
 
 - **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. See [Operators](#operators) to learn more.  
+
+- **Create emergency addresses** Go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/en-us/MicrosoftTeams/add-change-remove-emergency-location-organization).
 
 - **Assign numbers.** To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) View numbers or make changes to assignments from the **Phone numbers** window.
 
