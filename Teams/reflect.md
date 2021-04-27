@@ -60,7 +60,7 @@ Once you have enabled Reflect, educators go to the class and select **New Conver
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="Add Reflect to class team":::
 
-They can right click on the Reflect icon and select **Pin** for easy access.
+They can right-click on the Reflect icon and select **Pin** for easy access.
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app":::
 
