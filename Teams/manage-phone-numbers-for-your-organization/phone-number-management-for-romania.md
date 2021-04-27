@@ -37,8 +37,6 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
 |Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
-|Accessibility support for Microsoft Teams|[Prezentare generală accesibilitate a Microsoft teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)|
-|OST|[MicrosoftOnlineServicesTerms(WW)(Romanian)(February2021)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
    
 ## Related topics
 
