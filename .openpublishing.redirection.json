@@ -11246,8 +11246,8 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "/SkypeForBusiness/hybrid/msft-telephony-solutions.md",
-      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+      "source_path": "SkypeForBusiness/hybrid/msft-telephony-solutions.md",
+      "redirect_url": "/MicrosoftTeams/cloud-voice-landing-page",
       "redirect_document_id": true
     },
     {
