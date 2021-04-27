@@ -29,7 +29,7 @@ description: "Find information on Skype for Business Cloud Connector Edition, a 
 
 Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System (Cloud PBX).
 
-Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System solution is right for your business, see [Microsoft telephony solutions](../../../SfbHybrid/hybrid/msft-telephony-solutions.md).
+Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System solution is right for your business, see [Microsoft telephony solutions](/microsoftteams/cloud-voice-landing-page.md).
 
 This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this topic before you configure your Cloud Connector environment. When you are ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -56,7 +56,7 @@ Consider the following when planning your Cloud Connector Edition deployment:
 
 - Cloud Connector does not require a full on-premises Skype for Business Server deployment.
 
-    Currently, Cloud Connector cannot co-exist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Currently, Cloud Connector cannot co-exist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - If you had a previous Skype for Business or Lync Server deployment, and you extended the schema, you do not need to clean up the schema for the Cloud Connector deployment, as long as you've removed all Skype for Business or Lync Server components from your environment.
 
