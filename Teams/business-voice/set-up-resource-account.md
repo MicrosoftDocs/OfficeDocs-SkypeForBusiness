@@ -54,22 +54,19 @@ After you've created your resource account, you need to assign a *Microsoft 365 
 ![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
 
 1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
-
 2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
-
 3. Click **Save changes**.
 
 ## Assign a service number
 
 ![Screenshot of the assign service number user interface](../media/resource-account-assign-phone-number.png)
 
-1. In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then click **Assign/unassign**.
-
-2. In the **Phone number type** dropdown, choose the type of number that you want to use.
-
-3. In the **Assigned phone number** box, search for the number you want to use and click **Add**.
-
+1. In the Teams admin center, on the **Resource accounts** page, select the resource account you just created, and then click **Assign/unassign**.
+2. In the **Phone number type** dropdown, choose **Online**.
+3. In the **Assigned phone number** box, search for the number you want to use and click **Add**. Be sure to include the country code (for example, **+1** 250 555 0012)
 4. Click **Save**.
+    > [!NOTE]
+    > You don't need to select an auto attendant under **Assign to** because the auto attendant you want to add the number to is already selected.
 
 > [!div class="nextstepaction"]
 > [Next step: Assign phone numbers to your users](set-up-assign-numbers.md)

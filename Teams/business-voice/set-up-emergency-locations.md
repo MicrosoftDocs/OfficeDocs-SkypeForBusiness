@@ -27,7 +27,7 @@ If you have users in multiple locations, such as home offices or offices in othe
 
 ## Add an emergency location
 
-1. Open the [Microsoft 365 admin center](https://admin.teams.microsoft.com) and log in to a user that is a Global admin.
+1. Open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
 1. Click **Add**.
 1. Enter a name and description for the location.

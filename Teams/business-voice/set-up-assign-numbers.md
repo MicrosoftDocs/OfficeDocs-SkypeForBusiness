@@ -32,7 +32,7 @@ Before users can use Teams to make or receive phone calls to or from regular pho
 2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
 3. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
 4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
-5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+5. Make sure **Email user with telephone number information** is selected so the user receives a welcome email with their new phone number.
 6. Click **Save**.
 
 > [!NOTE]
