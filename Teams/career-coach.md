@@ -94,7 +94,7 @@ Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps i
 1. Sign in to the **Teams admin center**.
 
 2. In the left navigation, select **Teams apps** > **Manage apps**.  
-    
+
     > [!NOTE]
     > You must be a global admin or Teams service admin to access the page.
 
@@ -123,13 +123,13 @@ Career Coach has five configuration categories:
 
 #### Brand and preferences
 
-You can set your educational institution’s name, logo, and default language on the brand and preferences settings page.
+Set your educational institution’s name, logo, and default language on the brand and preferences settings page.
 
 ![the Career Coach branding section of the admin center](media/brand-preferences.png)
 
 ##### Educational institution icon
 
-The educational institution icon will be used throughout Career Coach to identify content unique to your educational institution – course catalog resources throughout the app and in the optional Real world experiences on the dashboard. The icon is best formatted as: 
+The educational institution icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and in the optional Real world experiences on the dashboard. The icon is best formatted as:
 
  - A transparent PNG
  - Aspect ratio of 1:1
@@ -137,11 +137,11 @@ The educational institution icon will be used throughout Career Coach to identif
 
 ##### Educational institution thumbnail
 
-The educational institution icon will be used for course catalog resources throughout the app when a specific image isn't available for a course. The icon is best formatted as: 
+The educational institution icon will be used for course catalog resources throughout the app when a specific image isn't available for a course. The icon is best formatted as:
 
 - A PNG
 - Aspect ratio of 16:9
-- Maximum size of 360x200px.
+- Maximum size of 360 px x 200 px.
 
 #### LinkedIn configuration
 
@@ -155,7 +155,7 @@ The LinkedIn configuration connects Career Coach with your educational instituti
 Determine the educational institution's LinkedIn page. Find the LinkedIn page by searching on LinkedIn or connecting with a career services staff member to determine the correct page to use.  
   
 1. Sign in to the **Teams admin center**.
- 
+
 1. Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.
 
 2. Enter your educational institution's LinkedIn page URL.  
@@ -163,9 +163,9 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 3. Select **Apply**.
 
 4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en). The verification link expires after 48 hours.  
-    
+
    ![linkedin settings for the career coach](media/linkedin.png)  
-   
+
 #### Course catalog
 
 The course catalog represents the courses offered to students by your educational institution. These courses are used within the app in two areas:
@@ -191,6 +191,7 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
 ```
 
 The following table shows the items to include in the course catalog:
+
 
 | Name             | Status      | Type   | Description |
 |------------------|-------------|--------|-------------|
@@ -251,7 +252,7 @@ Career Coach can be customized to be unique to your educational institution. The
 
 ##### Add customized experiences
 
-1. Sign in to the **Teams admin center**. 
+1. Sign in to the **Teams admin center**.
 
 1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** > **Settings** &gt; **Customization**.
 
@@ -266,7 +267,7 @@ After you complete customization, enable the app for students and licensed users
 > [!NOTE]
 > You must have Global or Teams admin role permissions.
 
-1. Sign in to the **Teams admin center**. 
+1. Sign in to the **Teams admin center**.
 
 1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach**.
 
@@ -279,11 +280,11 @@ After you complete customization, enable the app for students and licensed users
 
 Pinning Career Coach will make the app more accessible and visible for students.
 
-1. Sign in to the **Teams admin center**. 
+1. Sign in to the **Teams admin center**.
 
 1. Select **Teams apps** &gt;**Setup policies** &gt; **Specific policy**. (what is the policy name?)
 
-2. Under **Pinned apps**, choose **Add apps**. 
+2. Under **Pinned apps**, choose **Add apps**.
 
 1. Search for **Career Coach**, and then select **Add**.
 
@@ -305,7 +306,7 @@ The following resources will help you plan your Career Coach app.
 
 - [Security, privacy, and compliance in Microsoft Teams](security-compliance-overview.md)
 
-- [Teams Learning Orientation Kit]() need the link
+- [Online Virtual Orientation Kit](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [Limits and specification of Teams channels](limits-specifications-teams.md)
 
