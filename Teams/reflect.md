@@ -62,7 +62,7 @@ Once you have enabled Reflect, educators go to the class and select **New Conver
 
 They can right-click on the Reflect icon and select **Pin** for easy access.
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Pin the Reflect app":::
 
 > [!TIP]
 > You can also locate the Reflect app through this link: [https://aka.ms/getReflect](https://aka.ms/getReflect)
