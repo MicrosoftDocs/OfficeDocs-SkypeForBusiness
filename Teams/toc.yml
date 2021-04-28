@@ -1259,7 +1259,7 @@ items:
         - name: "Step 6: Set up an auto attendant"
           href: business-voice/set-up-auto-attendant.md
         - name: "Post-setup resources"
-          href: business-voice/set-up-send-finish.md
+          href: business-voice/set-up-finish.md
     - name: Customize your setup
       items: 
         - name: Customization options
