@@ -31,12 +31,13 @@ Before users can use Teams to make or receive phone calls to or from regular pho
 1. In the left navigation, click **Voice** > **Phone numbers**.
 2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
 3. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
-4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
+4. Under **Emergency location**, you can select either the emergency location you added in the [Set up emergency locations](set-up-emergency-locations.md) step, or if you need to create a new location for another office or a home office, click **Add a location**.
 5. Make sure **Email user with telephone number information** is selected so the user receives a welcome email with their new phone number.
 6. Click **Save**.
+7. Repeat the above steps for each user to which you want to assign a phone number.
 
 > [!NOTE]
 > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
 
 > [!div class="nextstepaction"]
-> [Next step: Set up an auto attendant](set-up-auto-attendant.md)
+> [Next step: Set up an auto attendant](set-up-auto-attendant.md?tabs=general-info#steps)
