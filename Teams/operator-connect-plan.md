@@ -26,7 +26,7 @@ appliesto:
 # Plan for Operator Connect
 
 >[!NOTE]
->Operator Connect is currently available in public preview. [more here]
+>Operator Connect is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Community Cloud (GCC).
 
 Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System.  
 
