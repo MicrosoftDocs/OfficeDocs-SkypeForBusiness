@@ -33,12 +33,9 @@ There are two scenarios that warrant some discussion around planning of Microsof
 
 -   Second, for customers who don't have existing Groups defined in Microsoft 365, you can either create them using the Microsoft 365 admin center, the Teams web, or desktop clients. As mentioned previously, manage all future membership to the Microsoft 365 group using the Teams client. Since membership to a team is also defining membership to Microsoft 365 Groups, you should prepare people for this change.
 
-## Teams respects Microsoft 365 Groups naming policy (in private preview)
+## Teams respects Microsoft 365 Groups naming policy
 
 Any Microsoft 365 Groups naming policy that has been set by your admin will be applied in Teams when users create or edit team names. This includes things like mandatory prefixes or suffixes and excluding banned words.
-
-> [!NOTE]
-> This feature is in private preview, which means that if you're not part of this preview, Teams doesn't yet adhere to this Microsoft 365 Groups naming policy.
 
 To learn more, read [Microsoft 365 Groups naming policy in Teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 

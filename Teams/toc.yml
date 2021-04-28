@@ -183,6 +183,8 @@ items:
       href: continue-journey.md
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
+    - name: Skype for Business Online assisted upgrades
+      href: upgrade-assisted.md
     - name: FAQ
       href: FAQ-journey.yml
     - name: Reference
@@ -1404,7 +1406,9 @@ items:
             - name: Get started with Insights
               href: class-insights.md
             - name: Sync SIS data with Insights
-              href: education-insights-sis-data-sync.md              
+              href: education-insights-sis-data-sync.md
+            - name: Get started with Reflect
+              href: reflect.md      
         - name: Assignments in Teams for Education
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams resources for Education admins
@@ -1433,9 +1437,7 @@ items:
           href: teams-standalone-static-tabs-using-spo-sites.md
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-      items: 
-        - name: Get started with Retail Teams templates in the admin center
-          href: retail-teams-templates-in-the-admin-console.md
+      items:
         - name: Get started with Retail Teams templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
