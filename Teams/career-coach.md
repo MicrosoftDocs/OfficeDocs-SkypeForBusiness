@@ -20,7 +20,7 @@ appliesto:
 
 # Purchase, configure, and enable Career Coach for Microsoft Teams
 
-Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey.  Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.
+Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.
 
 Learn more about [Career Coach](https://aka.ms/career-coach).
 
@@ -133,11 +133,11 @@ The educational institution icon will be used throughout Career Coach to identif
 
  - A transparent PNG
  - Aspect ratio of 1:1
- - Maximum size of 64px x 64px.
+ - Maximum size of 64 px x 64 px.
 
 ##### Educational institution thumbnail
 
-The educational institution icon will be used for course catalog resources throughout the app when a specific image is not available for a course. The icon is best formatted as: 
+The educational institution icon will be used for course catalog resources throughout the app when a specific image isn't available for a course. The icon is best formatted as: 
 
 - A PNG
 - Aspect ratio of 16:9
@@ -152,7 +152,7 @@ The LinkedIn configuration connects Career Coach with your educational instituti
 
 ##### Add and confirm the LinkedIn page
 
-Determine the educational institutions LinkedIn page. This can be done by searching on LinkedIn or connecting with a career services staff member to determine the correct page to use.  
+Determine the educational institution's LinkedIn page. Find the LinkedIn page by searching on LinkedIn or connecting with a career services staff member to determine the correct page to use.  
   
 1. Sign in to the **Teams admin center**.
  
@@ -181,7 +181,16 @@ To create the course catalog, put together a list of all courses taught at your 
 The documents need to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title** and **course ID**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
 
 > [!NOTE]
-> Start with the sample course catalog document to get started. Download the sample course catalog. where is the catalog sample
+> Start with the sample course catalog document to get started.
+
+##### Sample .CSV file
+
+```
+courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
+"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
+```
+
+The following table shows the items to include in the course catalog:
 
 | Name             | Status      | Type   | Description |
 |------------------|-------------|--------|-------------|
@@ -193,9 +202,6 @@ The documents need to be in CSV format with a maximum size of 18 MB. The documen
 | thumbnailLink    | Recommended | string |             |
 | thumbnailAltText | Recommended | string |             |
 | format           | Recommended | string |             |
-
-| Name              | Status      | Type           | Description                                                                    |
-|-------------------|-------------|----------------|--------------------------------------------------------------------------------|
 | externalId        | Required    | string         | Usually the course ID (Typically maps to what is generated in the transcript). |
 | title             | Required    | string         | Usually the course title.                                                      |
 | sourceLink        | Required    | url            | Website link to the course page.                                               |
@@ -213,6 +219,7 @@ The documents need to be in CSV format with a maximum size of 18 MB. The documen
 ##### Add the course catalog
 
 1. Sign in to the **Teams admin center**.
+
 1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.
 
 2. Upload courses in CSV format.
@@ -227,7 +234,7 @@ The documents need to be in CSV format with a maximum size of 18 MB. The documen
 
 The fields of study are synonymous with major areas of interest, academic major, and degree. These titles are referenced by students when they start using the app and begin setting up their personalized profile.
 
-Add all fields of study available to students such as Engineering, English, Business, and so on. This lets students discover fields of study that may interest them and add their area of focus to their profile.
+Add all fields of study available to students such as Engineering, English, Business, and so on. The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.
 
 ##### Add the fields of study
 
@@ -240,7 +247,7 @@ Add all fields of study available to students such as Engineering, English, Busi
 
 #### Customization
 
-Career Coach can be customized to be unique to your educational institution. The customization supports adding experiences to the dashboard. It is recommended to add links to the educational institution’s job boards, events, career services office and career-related events, clubs, educational institutions, and experiences and any other resources that help students gain experience.
+Career Coach can be customized to be unique to your educational institution. The customization supports adding experiences to the dashboard. It's recommended to add links to the educational institution’s job boards, events, career services office and career-related events, clubs, educational institutions, and experiences and any other resources that help students gain experience.
 
 ##### Add customized experiences
 
@@ -276,7 +283,7 @@ Pinning Career Coach will make the app more accessible and visible for students.
 
 1. Select **Teams apps** &gt;**Setup policies** &gt; **Specific policy**. (what is the policy name?)
 
-2. Under **Pinned apps** choose **Add apps**. 
+2. Under **Pinned apps**, choose **Add apps**. 
 
 1. Search for **Career Coach**, and then select **Add**.
 
