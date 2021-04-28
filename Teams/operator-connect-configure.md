@@ -40,32 +40,38 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 4. **Accept the data transfer notice.**
 
-## Acquire and manage phone numbers
+## Set up phone numbers
 
 - [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users)
 
-- [Move existing numbers from  Direct Routing to Operator Connect](#move-numbers-acquired-with-direct-routing-to-operator-connect)
-
-- [Move existing numbers from Calling Plans to Operator Connect](#move-numbers-acquired-with-calling-plans-to-operator-connect)
+- [Move numbers from other voice solutions to Operator Connect](#move-from-other-voice-solutions-to-operator-connect)
 
 ### Acquire numbers for new Teams users
 
+- **Create emergency addresses** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/en-us/MicrosoftTeams/add-change-remove-emergency-location-organization).
+
 - **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. See [Operators](#operators) to learn more.  
 
-- **Create emergency addresses** Go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/en-us/MicrosoftTeams/add-change-remove-emergency-location-organization).
-
-- **Assign numbers.** To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) View numbers or make changes to assignments from the **Phone numbers** window.
+- **Assign numbers.** View numbers or make changes to assignments from the **Phone numbers** window. To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user)
 
 >[!IMPORTANT]
->**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses  are managed directly with your operator. Contact them to make any changes to existing phone numbers.
+>**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses are managed directly with your operator. Contact them to make any changes to existing phone numbers.
 
-### Move numbers acquired with Direct Routing to Operator Connect
+### Move from other voice solutions to Operator Connect
 
-- [...]
+If you use Direct Routing or Calling Plans for your Teams voice solution and want to move existing phone numbers to Operator Connect, you'll need to deconfigure your current solution and remove all assigned phone numbers.
 
-### Move numbers acquired with Calling Plans to Operator Connect
+Then, you can assign Operator Connect numbers to your users in one of two ways:
 
-- [...]
+- Provide a list of users and their numbers to your Operator Connect operator, who will assign the phone numbers for you.
+
+- Or, use Powershell and run the following command for each user:
+
+```PowerShell
+
+Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+
+```
 
 ## Manage your operators
 
