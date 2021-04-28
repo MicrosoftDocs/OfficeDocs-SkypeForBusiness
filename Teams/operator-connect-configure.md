@@ -26,7 +26,7 @@ appliesto:
 # Configure Operator Connect
 
 >[!NOTE]
->Operator Connect is currently available in public preview. [more here]
+>Operator Connect is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Community Cloud (GCC).
 
 You can enable, edit, and remove operators in the Teams Admin Center. In the left navigation pane, go to **Voice > Operators**.
 
@@ -48,7 +48,7 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 ### Acquire numbers for new Teams users
 
-- **Create emergency addresses** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/en-us/MicrosoftTeams/add-change-remove-emergency-location-organization).
+- **Create emergency addresses** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization).
 
 - **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. See [Operators](#operators) to learn more.  
 
