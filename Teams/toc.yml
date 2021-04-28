@@ -1252,14 +1252,14 @@ items:
           href: business-voice/set-up-phone-numbers.md
         - name: "Step 3: Assign licenses"
           href: business-voice/set-up-licenses.md
-        - name: "Step 4: Create a resource account"
+        - name: "Step 4: Set up a resource account"
           href: business-voice/set-up-resource-account.md
         - name: "Step 5: Assign phone numbers to users"
           href: business-voice/set-up-assign-numbers.md
         - name: "Step 6: Set up an auto attendant"
           href: business-voice/set-up-auto-attendant.md
-        - name: "Step 7: Send welcome email"
-          href: business-voice/set-up-send-welcome.md
+        - name: "Post-setup resources"
+          href: business-voice/set-up-send-finish.md
     - name: Customize your setup
       items: 
         - name: Customization options

@@ -28,4 +28,4 @@ An auto attendant lets you set up a call menu so that callers to your main phone
 When you've stepped through all the tabs above to set up your auto attendant, click on the following button to move to the next article.
 
 > [!div class="nextstepaction"]
-> [Next step: Send welcome email](set-up-send-welcome.md)
+> [Next step: Finish Business Voice setup](set-up-finish.md)
