@@ -92,12 +92,12 @@ additionalContent:
   sections:
     - title: courses
       items:
-# Card
-  title: Teamwork Specialist certification
-  summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team
-  url: https://docs.microsoft.com/learn/paths/teamwork-specialist
-# Card
-  title: Service Adoption Specialist certification
-  summary: The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your organization
-  url: https://docs.microsoft.com/learn/paths/m365-service-adoption
+        # Card
+        - title: Teamwork Specialist certification
+        - summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team
+        - url: https://docs.microsoft.com/learn/paths/teamwork-specialist
+        # Card
+        - title: Service Adoption Specialist certification
+        - summary: The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your organization
+        - url: https://docs.microsoft.com/learn/paths/m365-service-adoption
  
