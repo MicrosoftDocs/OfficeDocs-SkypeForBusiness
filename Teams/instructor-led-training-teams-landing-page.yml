@@ -64,7 +64,7 @@ productDirectory:
       summary: 'Explore ways to determine the best approach for creating workspaces for projects and workgroups. (Audience: Everyone)'
       url: https://aka.ms/CollaborateInTeams
     # Card
-    - title: Leverage pro tips in Teams
+    - title: Use pro tips in Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
       summary: 'Learn how Teams can help organize your workday and make it easier to stay connected with colleagues. (Audience: Everyone)'
       url: https://aka.ms/TeamsProTips
