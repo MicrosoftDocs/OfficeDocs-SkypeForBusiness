@@ -1,12 +1,11 @@
 ---
 title: "More about Calling Line ID and Calling Party Name"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -25,8 +24,10 @@ description: "Learn why you need to add an authorized person who can make change
 # More about Calling Line ID and Calling Party Name
 
 CallerID, as it is typically referred to, actually consists of two user-facing identifiable pieces of information:
-    - A phone number (typically referred to as CLID or calling line ID) 
-    - Calling party name (typically referred to as CNAM) which can be up to 15 characters in length. 
+
+- A phone number (typically referred to as CLID or calling line ID) 
+
+- Calling party name (typically referred to as CNAM) which can be up to 15 characters in length. 
 
 When a call is made, the CLID (phone number) is routed to the destination's carrier (also known as the terminating carrier). The CNAM info for the call may or may not be routed with the call as this depends on how the country has implemented CNAM (if at all). The reliability of CNAM delivery with the call varies depending on the country and carriers which handle the call either as an intermediary and/or a terminating carrier. 
 

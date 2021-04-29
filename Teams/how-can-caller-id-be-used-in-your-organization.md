@@ -3,7 +3,7 @@ title: "How can caller ID be used in your organization"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz
+ms.reviewer: jens, roykuntz
 ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
@@ -30,33 +30,33 @@ Caller ID consists of two user-facing identifiable pieces of information:
 - A phone number (typically referred to as CLID or calling line ID). This is the Public Switched Telephone Number (PSTN) presented as the identification of the caller.
 
 - A Calling party name (typically referred to as CNAM), which can be up to 15 characters in length. 
-
-You can control Caller ID for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity. You can also control the company name associated with the outbound call, the Calling Party Name or CNAM. For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md.)
   
-The caller ID functionality is available to all Phone System users regardless of PSTN connectivity:
+The caller ID functionality is available to all Phone System users regardless of PSTN connectivity option:
 
 - Microsoft Calling Plans 
 
 - Phone System Direct Routing 
   
-  
-## Outbound caller ID
+You can control Caller ID for both inbound and outbound calls by using a policy called CallingLineIdentity. For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-id-and-calling-party-name.md).
 
-For presenting the outbound PSTN caller ID, the following options are available:
+  
+## Outbound PSTN caller ID
+
+For the outbound PSTN caller ID, the following options are available:
   
 - The telephone number assigned to the user, which is the default.
 
 - Anonymous, which is possible by removing the presentation of the user’s PSTN number. 
 
-- Substituting the users caller ID with a different phone number:
+- A substitute phone number, which can be:
 
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is usually assigned to an Teams Auto Attendant or Call Queue.
 
-  - An on-premises telephone number via Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
+  - An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
 
 In addition, you can also specify the Calling Party Name or CNAM set on the outbound PSTN call.
     
-To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
+For more information, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
   
 ### End user control of outbound caller ID
 
@@ -88,7 +88,7 @@ Keep the following in mind:
 
 - EnableUserOverride has preference to other settings in the policy, except if substitution is set to Anonymous. For instance, if a policy instance has substitution using a resource account and EnableUserOverride is set and enabled by the user, then the outbound caller ID will be blocked and Anonymous will be used. If a policy instance has substitution set to Anonymous and EnableUserOverride is set, the outbound caller ID will always be Anonymous, no matter the end user setting.
 
-This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+ This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
 
    

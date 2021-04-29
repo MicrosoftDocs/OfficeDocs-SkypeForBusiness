@@ -1,9 +1,9 @@
 ---
 title: Manage caller ID policies in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: roykuntz; jens
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
