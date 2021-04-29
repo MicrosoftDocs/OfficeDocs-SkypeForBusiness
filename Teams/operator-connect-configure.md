@@ -34,6 +34,8 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 ## Enable an operator
 
+To enable an operator:
+
 1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then select the operator you want to enable.  
 
 2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
@@ -44,9 +46,13 @@ You can enable, edit, and remove operators in the Teams Admin Center. In the lef
 
 ## Set up phone numbers
 
+How you set up phone numbers depends on whether you are setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans or Direct Routing.
+
 - If you need to acquire phone numbers for new users, see [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).
 
-- If you're currently using Direct Routing or Calling Plans and want to move existing numbers to Operator Connect, see [Move numbers from other voice solutions to Operator Connect](#move-numbers-from-other-voice-solutions-to-operator-connect).
+- If you want to move existing numbers from Calling Plans to Operator Connect, see [Move numbers from Calling Plans to Operator Connect](#move-numbers-from-calling-plans-to-operator-connect).
+
+- If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
 ### Acquire numbers for new Teams users
 
@@ -63,29 +69,18 @@ To acquire numbers for new Teams users, follow these steps:
 >[!IMPORTANT]
 >**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses are managed directly with your operator. Contact them to make any changes to existing phone numbers.
 
-### Move numbers from other voice solutions to Operator Connect
-
-If you use Direct Routing or Calling Plans for your Teams voice solution and want to move existing phone numbers to Operator Connect, you'll need to deconfigure your current solution and remove all assigned phone numbers.
-
-Then, you can assign Operator Connect numbers to your users in one of two ways:
-
-- Provide a list of users and their numbers to your Operator Connect operator, who will assign the phone numbers for you.
-
-- Or, use Powershell and run the following command for each user:
-
-```PowerShell
-
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
-
-```
 
 ### Move numbers from Calling Plans to Operator Connect
 
-To move numbers from Calling Plans to Operator Connect, your opeartor will provide and reserve new PSTN numbers. You'll need to provide your operator with your tenant ID and with the  emergency service addresses associated with the new PSTN numbers.
+To move numbers from Calling Plans to Operator Connect, your operator will provide and reserve new PSTN numbers. You'll need to provide your operator with the following information:  
 
-To move a user from Calling Plans to Operator Connect:
+- Your tenant ID 
 
-1. Unassign the user their Calling Plan Phone Number.
+- The emergency service addresses associated with the new PSTN numbers.
+
+To move a user from Calling Plans to Operator Connect, you'll need to:
+
+1. Unassign the user's Calling Plan phone number.
 
 2. Remove the Calling Plan License.
 
@@ -98,6 +93,7 @@ You can now start assigning Operator Connect numbers to the test user(s) by usin
 ```
 Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
 ```
+
 For example:
 
 ```
@@ -116,33 +112,35 @@ To move numbers from Direct Routing to Operator Connect, you'll need to provide 
 
 - The emergency service addresses associated with the numbers you wish to migrate.
 
-To move a user from Direct Routing to Operator Connect, you will need  to first remove the existing telephone number from the user.  
+To move a user from Direct Routing to Operator Connect, you will need to:
 
-To get the existing On-prem Line URI for an existing user, run the following command:
+1. Remove the existing telephone number from the user as follows:  
 
-```
-Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
-```
+   To get the existing On-prem Line URI for an existing user, run the following command:
 
-To remove the On-prem Line URI for an existing user,  run the PowerShell command below :  
+   ```
+   Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
+   ```
 
-```
-Set-CsUser -identity <user> - OnPremLineURI $null 
-```
+   To remove the On-prem Line URI for an existing user,  run the PowerShell command below :  
 
-Then you will need to remove any PSTNUsage associated with the users that you want to use for this private preview, otherwise calls will be routed to the gateway specified in the PSTN Usage. 
+   ```
+   Set-CsUser -identity <user> - OnPremLineURI $null 
+   ```
 
-You can now start assigning Operator Connect numbers to the test user(s) as follows:
+2. Remove any PSTNUsage associated with the users that you want to use for this private preview, otherwise calls will be routed to the gateway specified in the PSTN Usage. 
 
-```
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
-```
+3. Start assigning Operator Connect numbers to the test user(s) as follows:
 
-For example:
+   ```
+   Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+   ```
 
-```
-Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
-```
+   For example:
+   
+   ```
+   Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
+   ```
 
 Alternatively, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  
 
