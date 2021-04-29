@@ -58,13 +58,31 @@ How you set up phone numbers depends on whether you are setting up numbers for n
 
 To acquire numbers for new Teams users, follow these steps:
 
-1. **Create and validate emergency addresses** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization).
+1. Create the new Teams users in the Teams admin center. (Do not assign any existing PSTN usage, telephone numbers, or  perform any Direct Routing configuration to the newly created users).
 
-2. **WHAT ABOUT PROVIDING THE TENANT ID TO THE OPERATOR?** This seems to be an important step listed in the Pure IP doc.
+2. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization).
 
-3. **Acquire numbers.** You'll need to go to your operator's website to acquire phone numbers. See [Operators](#operators) to learn more.  
+3. Your operator will provide new PSTN numbers.
 
-4. **Assign numbers.** View numbers or make changes to assignments from the **Phone numbers** window. To learn how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user)
+4. You will need to provide your Tenant ID to your operator.  
+
+5. **Acquire numbers.** Your operator will upload test numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.  
+
+5. **Assign numbers.** You can now view numbers or make changes by using the Teams admin center **Phone numbers** window or by using the Set-CsOnlineVoiceUser cmdlet as follows:
+
+   ```
+   Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+   ```
+ 
+   For example:
+  
+   ```
+   Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
+   ```
+   
+   Alternatively, you can provide the list of users and associated telephone numbers to your operator so that your operator can to do the number assignment.    
+
+For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user)
 
 >[!IMPORTANT]
 >**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses are managed directly with your operator. Contact them to make any changes to existing phone numbers.
@@ -122,7 +140,7 @@ To move a user from Direct Routing to Operator Connect, you will need to:
    Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
    ```
 
-   To remove the On-prem Line URI for an existing user,  run the PowerShell command below :  
+   To remove the On-prem Line URI for an existing user, run the PowerShell command below :  
 
    ```
    Set-CsUser -identity <user> - OnPremLineURI $null 
@@ -142,7 +160,7 @@ To move a user from Direct Routing to Operator Connect, you will need to:
    Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
    ```
 
-Alternatively, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  
+   Alternatively, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  
 
 ## Manage your operators
 
