@@ -54,6 +54,9 @@ How you set up phone numbers depends on whether you are setting up numbers for n
 
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
+>[!IMPORTANT]
+>**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses are managed directly with your operator. Contact them to make any changes to existing phone numbers.
+
 ### Acquire numbers for new Teams users
 
 To acquire numbers for new Teams users, follow these steps:
@@ -82,19 +85,20 @@ To acquire numbers for new Teams users, follow these steps:
    
    Alternatively, you can provide the list of users and associated telephone numbers to your operator so that your operator can to do the number assignment.    
 
-For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user)
+   For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user)
 
->[!IMPORTANT]
->**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses are managed directly with your operator. Contact them to make any changes to existing phone numbers.
+
 
 
 ### Move numbers from Calling Plans to Operator Connect
 
-To move numbers from Calling Plans to Operator Connect, your operator will provide and reserve new PSTN numbers. You'll need to provide your operator with the following information:  
+To move numbers from Calling Plans to Operator Connect, you'll need to provide your operator with the following information:  
 
 - Your tenant ID 
 
 - The emergency service addresses associated with the new PSTN numbers.
+
+Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.   
 
 To move a user from Calling Plans to Operator Connect, you'll need to:
 
@@ -130,17 +134,19 @@ To move numbers from Direct Routing to Operator Connect, you'll need to provide 
 
 - The emergency service addresses associated with the numbers you wish to migrate.
 
+Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.   
+
 To move a user from Direct Routing to Operator Connect, you will need to:
 
 1. Remove the existing telephone number from the user as follows:  
 
-   To get the existing On-prem Line URI for an existing user, run the following command:
+   To get the existing On-prem Line URI for an existing user, run the following PowerShell command:
 
    ```
    Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
    ```
 
-   To remove the On-prem Line URI for an existing user, run the PowerShell command below :  
+   To remove the On-prem Line URI for an existing user, run the following PowerShell command:  
 
    ```
    Set-CsUser -identity <user> - OnPremLineURI $null 
@@ -159,7 +165,7 @@ To move a user from Direct Routing to Operator Connect, you will need to:
    ```
    Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
    ```
-
+   
    Alternatively, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  
 
 ## Manage your operators
