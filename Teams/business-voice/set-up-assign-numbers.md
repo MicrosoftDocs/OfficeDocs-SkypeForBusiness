@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Assign Business Voice phone numbers to your users
+# Step 5: Assign Business Voice phone numbers to your users
 
 Before users can use Teams to make or receive phone calls to or from regular phone lines, you need to assign phone numbers to them. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. Do the following for each user that needs a phone number.
 

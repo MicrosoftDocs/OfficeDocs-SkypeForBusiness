@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up a Business Voice resource account
+# Step 4: Set up a Business Voice resource account
 
 In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned service telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
 
