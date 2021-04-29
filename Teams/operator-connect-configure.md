@@ -61,7 +61,7 @@ How you set up phone numbers depends on whether you are setting up numbers for n
 
 To acquire numbers for new Teams users, follow these steps:
 
-1. Create the new Teams users in the Teams admin center. (Do not assign any existing PSTN usage, telephone numbers, or  perform any Direct Routing configuration to the newly created users).
+1. Create the new Teams users in the Teams admin center. (Do not assign any existing PSTN usage, telephone numbers, or perform any Direct Routing configuration to the newly created users.)
 
 2. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization).
 
@@ -71,7 +71,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 5. **Acquire numbers.** Your operator will upload test numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.  
 
-5. **Assign numbers.** You can now view numbers or make changes by using the Teams admin center **Phone numbers** window or by using the Set-CsOnlineVoiceUser cmdlet as follows:
+5. **Assign numbers.** You can now view numbers or make changes by using the Teams admin center or by using the Set-CsOnlineVoiceUser cmdlet. Or, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  
 
    ```
    Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
@@ -89,14 +89,13 @@ To acquire numbers for new Teams users, follow these steps:
 
 
 
-
 ### Move numbers from Calling Plans to Operator Connect
 
 To move numbers from Calling Plans to Operator Connect, you'll need to provide your operator with the following information:  
 
 - Your tenant ID 
 
-- The emergency service addresses associated with the new PSTN numbers.
+- The emergency service addresses associated with the new PSTN numbers
 
 Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.   
 
@@ -110,7 +109,7 @@ To move a user from Calling Plans to Operator Connect, you'll need to:
 
 4. Wait 30 minutes at least  (state why you're waiting).
 
-You can now start assigning Operator Connect numbers to the test user(s) by using the following PowerShell cmdlet:
+You can now start assigning Operator Connect numbers to the test user(s) by using the Teams admin center or by using the following PowerShell cmdlet.  Or, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.   
 
 ```
 Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
@@ -122,7 +121,7 @@ For example:
 Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
 ```
 
-Alternatively, you can provide the list of users and associated telephone numbers to your operator so that your operator can to do the number assignment.  
+ 
 
 ### Move numbers from Direct Routing to Operator Connect
 
@@ -154,7 +153,7 @@ To move a user from Direct Routing to Operator Connect, you will need to:
 
 2. Remove any PSTNUsage associated with the users that you want to use for this private preview, otherwise calls will be routed to the gateway specified in the PSTN Usage. 
 
-3. Start assigning Operator Connect numbers to the test user(s) as follows:
+3. Start assigning Operator Connect numbers to the test user(s) by using the Teams admin center or by using the following PowerShell cmdlets. Or, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  
 
    ```
    Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
