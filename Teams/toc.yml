@@ -344,7 +344,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat
+            - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -356,7 +356,7 @@ items:
               href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
-            - name: Turn guest access on or turn off
+            - name: Turn on guest access or turn off
               href: set-up-guests.md
             - name: Add a guest to a team
               href: view-guests.md
@@ -526,7 +526,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat
+            - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -540,7 +540,7 @@ items:
               href: guest-experience.md
             - name: Authorize guest access
               href: teams-dependencies.md
-            - name: Turn guest access on or turn off
+            - name: Turn on guest access or turn off
               href: set-up-guests.md
             - name: Add a guest to a team
               href: add-guests.md
@@ -1250,7 +1250,7 @@ items:
           href: business-voice/set-up-policies.md
         - name: Manage policy packages
           href: business-voice/policy-packages.md
-        - name: Create additional users
+        - name: Create more users
           href: business-voice/create-users.md
         - name: Set up a call queue
           href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1395,7 +1395,7 @@ items:
           href: batch-group-policy-assignment-edu.md
         - name: PowerShell script to create security groups for educators and students
           href: scripts/powershell-script-security-groups-edu.md
-        - name: Low bandwidth guidance for Education admins
+        - name: Low-bandwidth guidance for Education admins
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
