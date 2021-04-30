@@ -119,7 +119,7 @@ To move a user from Direct Routing to Operator Connect, you will need to:
      Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
      ```
 
-     - Remove the On-prem Line URI by running the following PowerShell command:  
+   - Remove the On-prem Line URI by running the following PowerShell command:  
 
      ```
      Set-CsUser -identity <user> - OnPremLineURI $null 
@@ -131,7 +131,7 @@ To move a user from Direct Routing to Operator Connect, you will need to:
 
    
 
-## Assign numbers
+### Assign numbers
 
 Whether you are creating new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
 
