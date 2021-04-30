@@ -89,13 +89,13 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
   3. Search for the Approvals app.
 
-![shows the Admin center navigation with Teams Apps > Manage Apps highlighted](media/manage-approval-apps.png)
+     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted](media/manage-approval-apps.png)
 
   4. Select Approvals.
 
   5. Select the toggle to disable the app for your organization.
 
-![shows the details for the Approvals app](media/approvals-details.png)
+     ![shows the details for the Approvals app](media/approvals-details.png)
 
 ## Retention policy
 
