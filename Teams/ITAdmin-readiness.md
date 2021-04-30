@@ -33,8 +33,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 |   Icon            | Description              |  Icon             |    Description           |
 | :------------ | :------------ | :------------ | :------------ |
-| ![ Support remote workers](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) | [Teams essentials for IT](https://aka.ms/MicrosoftTeamsforIT) | ![Manage Team collaboration for IT](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration) | [Service Adoption Specialist certification](https://docs.microsoft.com/learn/paths/m365-service-adoption/) |
-| ![Introduction to teamwork in Microsoft 365](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 Certified: Teamwork Administrator Associate](https://www.microsoft.com/learning/m365-teamwork-administrator.aspx) |
+| ![Support remote workers using Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essentials for IT](https://aka.ms/MicrosoftTeamsforIT) | ![Manage Team collaboration for IT](/learn/paths/m365-manage-team-collaboration) | [Service Adoption Specialist certification](/learn/paths/m365-service-adoption/) |
+| ![Introduction to teamwork in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 Certified: Teamwork Administrator Associate](/learning/m365-teamwork-administrator.aspx) |
 
 
 <h2>Technical training</h2>

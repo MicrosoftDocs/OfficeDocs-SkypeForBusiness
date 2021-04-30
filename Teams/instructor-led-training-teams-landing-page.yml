@@ -97,13 +97,13 @@ additionalContent:
         # additionalContent.sections.items.title
           summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team
         # additionalContent.sections.items.summary
-          url: https://docs.microsoft.com/learn/paths/teamwork-specialist
+          url: /learn/paths/teamwork-specialist
         # additionalContent.sections.items.url
         # Card
         - title: Service Adoption Specialist certification
         # additionalContent.sections.items.title
           summary: The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your organization
         # additionalContent.sections.items.summary
-          url: https://docs.microsoft.com/learn/paths/m365-service-adoption
+          url: /learn/paths/m365-service-adoption
         # additionalContent.sections.items.url
  
