@@ -12369,8 +12369,12 @@
       "source_path": "Teams/upgrade-automated.md",
       "redirect_url": "/microsoftteams/upgrade-assisted", 
       "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/teams-learning-app-overview.md",
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/learning",
+      "redirect_document_id": false
     }
-  ]
+] 
 }
-
 
