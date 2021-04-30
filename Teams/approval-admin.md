@@ -160,7 +160,7 @@ From the Teams Approvals app, users have access to create new Approvals and view
 
 e-Signature approvals created from the Approvals App are stored in the selected provider's cloud environment. For further information regarding storage around the e-Signature agreement, please view their documentation around storage.
 
-To use the Approvals app e-Signature feature, you need the following items:
+To use the Approvals app e-Signature feature, you need a license for the specific e-Signature provider you are choosing to use. In order to obtain a license for your organization, you will need to go to the provider’s site.```
 
 - License for the specific e-Signature provider you are choosing to use. In order to obtain a license for your organization you will need to go to the provider’s site.
 
