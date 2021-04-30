@@ -162,7 +162,7 @@ e-Signature approvals created from the Approvals App are stored in the selected 
 
 To use the Approvals app e-Signature feature, you need a license for the specific e-Signature provider you are choosing to use. In order to obtain a license for your organization, you will need to go to the provider’s site.```
 
-For the Approvals e-Signature functionality, Third party signature partners will appear in the Teams Approvals app by default. You can disable specific e-Signature providers through the app settings within the Teams admin center.
+For the Approvals e-Signature functionality, third-party signature partners will appear in the Teams Approvals app by default. You can disable specific e-Signature providers through the app settings within the Teams admin center, as follows:
 
 1. Within the Approvals app under the Manage apps section in the Teams admin center select **Settings**
 
