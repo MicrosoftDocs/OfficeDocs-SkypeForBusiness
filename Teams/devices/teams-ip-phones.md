@@ -39,7 +39,8 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model                         | Firmware version                                                                                                                                                                                                                           | Release date
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| AudioCodes C435HD                      | 1.12.33                                                  | April 2021                 |
+| Yealink MP52                           | 145.15.0.6                                               |   April 2021                 |
+| AudioCodes C435HD                      | 1.12.33                                                  | April 2021                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | January 2021                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | March 2019                   |
 | AudioCodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |

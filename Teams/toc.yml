@@ -1426,7 +1426,9 @@ items:
             - name: Get started with Insights
               href: class-insights.md
             - name: Sync SIS data with Insights
-              href: education-insights-sis-data-sync.md              
+              href: education-insights-sis-data-sync.md
+            - name: Get started with Reflect
+              href: reflect.md      
         - name: Assignments in Teams for Education
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams resources for Education admins

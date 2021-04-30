@@ -110,7 +110,7 @@ You use the **Add to team** button to install an app to a team. Keep in mind tha
 2. Select **Add to team**.
 3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
-## Customize an app (in preview)
+## Customize an app 
 
 You can now customize an app to include a specific look and feel according to your organization needs. See [Customize apps in Teams](customize-apps.md).
 
