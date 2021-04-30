@@ -164,7 +164,7 @@ To use the Approvals app e-Signature feature, you need a license for the specifi
 
 For the Approvals e-Signature functionality, third-party signature partners will appear in the Teams Approvals app by default. You can disable specific e-Signature providers through the app settings within the Teams admin center, as follows:
 
-1. Within the Approvals app under the Manage apps section in the Teams admin center select **Settings**
+1. Within the Approvals app under the Manage apps section in the Teams admin center, select **Settings**.
 
 2.	Select the toggle for the specific eSignature provider to disable it. Should a Teams admin disable a provider, end users will not see the provider when creating an approval or be able to view any e-Signture requests that were made with that provider. 
 
