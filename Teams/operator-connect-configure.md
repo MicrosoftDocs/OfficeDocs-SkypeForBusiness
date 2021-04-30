@@ -139,15 +139,15 @@ Whether you are creating new Teams users or moving existing users to Operator Co
 
 To assign numbers by using PowerShell, use the Set-CsOnlineVoiceUser cmdlet as follows:
 
-   ```
-   Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
-    ```
+```
+Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+```
 
-   For example:
+For example:
 
-    ```
-   Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
-   ```
+```
+Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
+```
 
 For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user).
 
@@ -161,8 +161,8 @@ From the My operators tab, you can view your operators and their status and make
 - Suspend an operator
 - Remove an operator
 
->[!NOTE]
->Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to users in the organization or country and contact the operator to release the numbers.
+> [!NOTE]
+> Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to users in the organization or country and contact the operator to release the numbers.
 
 ## Operators
 
