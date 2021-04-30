@@ -113,17 +113,17 @@ To move a user from Direct Routing to Operator Connect, you will need to:
 
 1. Remove the existing telephone number from the user as follows:  
 
-   - Get the existing On-prem Line URI by running the following PowerShell command:
+   Get the existing On-prem Line URI by running the following PowerShell command:
 
-     ```
-     Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
-     ```
+   ```
+   Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
+   ```
 
-   - Remove the On-prem Line URI by running the following PowerShell command:  
+   Remove the On-prem Line URI by running the following PowerShell command:  
 
-     ```
-     Set-CsUser -identity <user> - OnPremLineURI $null 
-     ```
+   ```
+   Set-CsUser -identity <user> - OnPremLineURI $null 
+   ```
 
 2. Remove any PSTNUsage associated with the users that you want to use for this private preview, otherwise calls will be routed to the gateway specified in the PSTN Usage. 
 
