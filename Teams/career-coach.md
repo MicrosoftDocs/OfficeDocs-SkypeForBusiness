@@ -220,8 +220,6 @@ The following table shows the items to include in the course catalog:
 
 2. Upload courses in CSV format.
 
-3. Add the course title, ID, and description.
-
 4. Select **Apply**.
 
    ![the course catalog section of the career coach app](media/course-catalog.png)
