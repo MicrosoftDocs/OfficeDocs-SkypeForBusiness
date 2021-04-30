@@ -73,6 +73,18 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |EncorePro 525-M                                            |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 515-M                                            |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 520 and DA85-M                                   |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 510 and DA85-M                                   |4/26/2021       |Certified for Microsoft Teams                           |
+|Logitech             |C920e Webcam                                               |4/22/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WL5022 Pro Wireless Headset                                |4/22/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WH3022 Pro Wired Headset                                   |4/22/2021       |Certified for Microsoft Teams                           |
+|Poly                 |Studio P5 Webcam                                           |4/22/2021       |Certified for Microsoft Teams                           |
+|Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Biz 2300                                                   |4/22/2021       |Skype for Business with upgrade to Microsoft Teams      |
+|Microsoft            |Modern Wireless Headset                                    |4/19/2021       |Certified for Microsoft Teams                           |
 |Microsoft            |Modern USB-C Speaker                                       |4/15/2021       |Certified for Microsoft Teams                           |
 |Microsoft            |Modern USB Headset                                         |4/15/2021       |Certified for Microsoft Teams                           |
 |Yealink              |UVC20 Webcam                                               |3/30/2021       |Certified for Microsoft Teams                           |
@@ -109,6 +121,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
