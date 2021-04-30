@@ -67,7 +67,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 3. Your operator will provide new PSTN numbers.
 
-4. You will need to provide your Tenant ID to your operator.  
+4. Provide your Tenant ID to your operator.  
 
 5. **Acquire numbers.** Your operator will upload test numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.  
 
@@ -81,9 +81,7 @@ To acquire numbers for new Teams users, follow these steps:
   
    ```
    Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
-   ```
-   
-   Alternatively, you can provide the list of users and associated telephone numbers to your operator so that your operator can to do the number assignment.    
+   ```  
 
    For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user.](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user)
 
@@ -91,13 +89,13 @@ To acquire numbers for new Teams users, follow these steps:
 
 ### Move numbers from Calling Plans to Operator Connect
 
-To move numbers from Calling Plans to Operator Connect, you'll need to provide your operator with the following information:  
+To move numbers from Calling Plans to Operator Connect, follow these steps:  
 
-- Your tenant ID 
+1. Provide your tenant ID to your operator.
 
-- The emergency service addresses associated with the new PSTN numbers
+2. Provide the emergency service addresses associated with the new PSTN numbers.
 
-Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.   
+3. Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.   
 
 To move a user from Calling Plans to Operator Connect, you'll need to:
 
@@ -109,47 +107,46 @@ To move a user from Calling Plans to Operator Connect, you'll need to:
 
 4. Wait 30 minutes at least  (state why you're waiting).
 
-You can now start assigning Operator Connect numbers to the test user(s) by using the Teams admin center or by using the following PowerShell cmdlet.  Or, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.   
+5. You can now start assigning Operator Connect numbers to the test user(s) by using the Teams admin center or by using the following PowerShell cmdlet. Or, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.   
 
-```
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
-```
+   ```
+   Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+   ```
 
-For example:
+   For example:
 
-```
-Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
-```
+   ```
+   Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
+   ```
 
- 
 
 ### Move numbers from Direct Routing to Operator Connect
 
-To move numbers from Direct Routing to Operator Connect, you'll need to provide your operator with the following:
+To move numbers from Direct Routing to Operator Connect, follow these steps:  
 
-- Your tenant ID.
+1. Provide your tenant ID to your operator.
 
-- The existing Direct Routing telephone numbers you want to migrate to Operator Connect for testing.
+2. Provide the existing Direct Routing telephone numbers you want to migrate to Operator Connect for testing.
 
-- The emergency service addresses associated with the numbers you wish to migrate.
+3. Provide the emergency service addresses associated with the numbers you wish to migrate.
 
-Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.   
+4. Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.   
 
 To move a user from Direct Routing to Operator Connect, you will need to:
 
 1. Remove the existing telephone number from the user as follows:  
 
-   To get the existing On-prem Line URI for an existing user, run the following PowerShell command:
+   - Get the existing On-prem Line URI for a user by running the following PowerShell command:
 
-   ```
-   Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
-   ```
+     ```
+     Get-CsOnlineUser -Identity <user> | select OnPremLineURI 
+     ```
 
-   To remove the On-prem Line URI for an existing user, run the following PowerShell command:  
+     - Remove the On-prem Line URI for the user by running the following PowerShell command:  
 
-   ```
-   Set-CsUser -identity <user> - OnPremLineURI $null 
-   ```
+     ```
+     Set-CsUser -identity <user> - OnPremLineURI $null 
+     ```
 
 2. Remove any PSTNUsage associated with the users that you want to use for this private preview, otherwise calls will be routed to the gateway specified in the PSTN Usage. 
 
@@ -164,8 +161,7 @@ To move a user from Direct Routing to Operator Connect, you will need to:
    ```
    Set-CsOnlineVoiceUser -Identity operatorconnect.teamstest@pure-ip.com -TelephoneNumber +14158000700 
    ```
-   
-   Alternatively, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  
+
 
 ## Manage your operators
 
