@@ -35,7 +35,7 @@ For example, you might have 10 factory employees and 5 office employees. The fac
 
 There are two types of Business Voice licenses: Business Voice **with** Calling Plan and Business Voice **without** Calling Plan. The type of Business Voice license available to you depends on the location of your Microsoft 365 tenant. The license type determines whether you can set up Business Voice on your own, if you need help from a Microsoft partner or reseller, who manages your phone numbers, and so on.
 
-- **Business Voice with Calling Plan** You can buy Business Voice from Microsoft, use the Getting Started Wizard to set up Business Voice, and then set up or transfer your existing phone numbers to Microsoft. The article [Use the Getting Started wizard to set up Business Voice](use-getting-started-wizard.md) shows you how to set up Business Voice for your tenant.
+- **Business Voice with Calling Plan** You can buy Business Voice from Microsoft, set it up on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Microsoft 365 Business Voice](set-up-overview.md) shows you how to set up Business Voice for your tenant.
 
   See [Business Voice with Calling Plan](#business-voice-with-calling-plan) later in this article for more information about buying Business Voice with Calling Plan licenses.
 - **Business Voice without Calling Plan** You need to buy Business Voice from a Microsoft partner or reseller who will help you set up Business Voice. Your existing phone numbers remain with your current third-party telephone provider. The article [Get help from a Microsoft reseller or partner](reseller-partner-support.md) gives you an overview of process needed to set up Business Voice in your tenant.
