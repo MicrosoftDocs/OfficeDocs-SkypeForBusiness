@@ -1403,6 +1403,8 @@ items:
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
+        - name: Use Career Coach app for Teams
+          href: career-coach.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
         - name: Education Insights
@@ -1425,8 +1427,6 @@ items:
           href: teams-edu-licensing.md
         - name: Education SKU reference
           href: sku-reference-edu.md
-        - name: Use Career Coach app for Teams
-          href: career-coach.md
     - name: Teams for Frontline Workers
       items: 
         - name: Quickstart for Frontline Workers
