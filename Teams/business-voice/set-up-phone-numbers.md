@@ -36,8 +36,8 @@ Before you can set up users or auto attendants in your organization, you need to
 
 The service number you set up now will be used in a later step for your company's main phone number.
 
-1. Go to the Microsoft Teams Admin Center.
-2. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
+1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
+2. In the left navigation, go to <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**Voice** > **Phone numbers**</a>, and then click **Add**.
 3. Enter a name for the order and add a description.
 4. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
@@ -56,8 +56,8 @@ The service number you set up now will be used in a later step for your company'
 
 ## Set up phone numbers for your users
 
-1. Go to the Microsoft Teams Admin Center.
-2. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
+1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
+2. In the left navigation, go to <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**Voice** > **Phone numbers**</a>, and then click **Add**.
 3. Enter a name for the order and add a description.
 4. On the Location and quantity page, do the following:
 
