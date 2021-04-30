@@ -25,7 +25,7 @@ Career Coach is a Microsoft Teams for Education app powered by LinkedIn that pro
 Learn more about [Career Coach](https://aka.ms/career-coach).
 
 > [!NOTE]
-> Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff. See the [marketing & edu support](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.
+> Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff. See the [Quick planning guide](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.
 
 ## Review the requirements
 
@@ -52,7 +52,7 @@ To enable Career Coach for your educational institution, review what you need to
 
   - Course catalog data
 
-  - Fields of study and degrees offered
+  - Fields of study offered
 
   - Educational institution’s LinkedIn page
 
@@ -171,7 +171,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 #### Course catalog
 
-The course catalog represents the courses/classes/modules offered to students by your educational institution. These courses are used within the app in two areas:
+The course catalog represents the courses and classes offered to students by your educational institution. These courses are used within the app in two areas:
 
 - Courses are returned as part of learning resources.  
 
@@ -184,7 +184,7 @@ To create the course catalog, put together a list of all courses taught at your 
 
 ##### Course catalog documents formatting and schema
 
-The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title** and **course ID**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
+The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title**, **course ID**, and **course URL**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
 
 > [!NOTE]
 > Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to get started.
@@ -209,7 +209,6 @@ The following table shows the items to include in the course catalog:
 | format           | Recommended | string | Mode of teaching, e.g., online, video, in-person.                              |
 | thumbnailLink    | Recommended | URL    | Thumbnail link to the course image.                                            |
 | thumbnailAltText | Recommended | string | Accessibility alt text for the image                                           |
-|                  |             |        |                                                                                |
 | educationLevel   | Recommended | string | Study level, ex. Undergraduate/Graduate.                                       |
 | topics           | Recommended | string | Topics or tags that are associated with the skills the courses teach.          |
 
@@ -233,18 +232,20 @@ The fields of study are synonymous with major areas of interest, academic major,
 
 Add all fields of study available to students such as Engineering, English, Business, and so on. The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.
 
+> [!NOTE]
+> Start with the [sample field of study](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document.
 ##### Add the fields of study
 
 1. Sign in to the **Teams admin center**.
 1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.
 
-2. Under Upload Field of study document, add the [field of study document](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) in CSV format.
+2. Upload field of study in CSV format.
 
 3. Select **Apply**.
 
 #### Customization
 
-Career Coach can be customized to be unique to your educational institution. The customization supports adding experiences to the dashboard. It's recommended to add links to the educational institution’s job boards, events, career services office and career-related events, clubs, educational institutions, and experiences and any other resources that help students gain experience.
+Career Coach can be customized to be unique to your educational institution. The customization supports adding experiences to the dashboard. It's recommended to add links to job boards, events, career services office, career-related events, student clubs, and any other resources that help students gain real-world experience.
 
 ##### Add customized experiences
 
