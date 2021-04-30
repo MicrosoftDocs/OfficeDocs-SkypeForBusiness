@@ -156,7 +156,7 @@ From the Teams Approvals app, users have access to create new Approvals and view
 > [!Note]
 > A user will be given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
 
-## Approvals e-Signature Integration
+## Approvals e-Signature integration
 
 E-signature approvals created from the Approvals App are stored in the selected providers cloud environment. For further information regarding storage around the e-signature agreement please view their documentation around storage.
 
