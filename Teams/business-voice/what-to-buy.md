@@ -15,7 +15,7 @@ MS.collection:
 - Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: 
+description: Learn what licenses and other add-ons you need to buy to set up Microsoft 365 Business Voice.
 appliesto: 
 - Microsoft Teams
 no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]

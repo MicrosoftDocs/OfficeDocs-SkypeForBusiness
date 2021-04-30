@@ -12,7 +12,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn what the differences are between Microsoft 365 Enterprise Voice and Business Voice.
 appliesto: 
 - Microsoft Teams
 ---

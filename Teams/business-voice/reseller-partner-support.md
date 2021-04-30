@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn how to get support from a Microsoft reseller or partner to help you set up Microsoft 365 Business Voice without a Calling Plan.
 appliesto: 
 - Microsoft Teams
 no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]

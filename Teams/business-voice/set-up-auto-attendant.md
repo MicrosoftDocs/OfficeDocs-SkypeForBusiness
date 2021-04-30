@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Learn how to set up emergency locations for Microsoft 365 Business Voice.
+description: Learn how to set up an auto attendant (also known as a call queue) Microsoft 365 Business Voice.
 appliesto: 
 - Microsoft Teams
 ---

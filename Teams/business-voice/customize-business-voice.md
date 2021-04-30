@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn how to customize Microsoft 365 Business Voice to meet the specific needs of your organization.
 appliesto: 
 - Microsoft Teams
 ---

@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn how to move your existing phone numbers from your current provider to Microsoft 365 Business Voice.
 appliesto: 
 - Microsoft Teams
 ---
