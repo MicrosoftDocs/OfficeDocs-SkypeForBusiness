@@ -25,7 +25,7 @@ Career Coach is a Microsoft Teams for Education app powered by LinkedIn that pro
 Learn more about [Career Coach](https://aka.ms/career-coach).
 
 > [!NOTE]
-> Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff. /\*\*\*Link to marketing & edu support \*\*\*/
+> Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff. See the [marketing & edu support](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.
 
 ## Review the requirements
 
@@ -41,9 +41,12 @@ To enable Career Coach for your educational institution, review what you need to
 
 **Licenses**
 
-  - Faculty
+  - Faculty 
 
   - Students
+
+> [!NOTE]
+> A Career Coach Faculty license must be assigned to the IT admin completing the configuration.
 
 **Data and files from your educational institution**
 
@@ -57,7 +60,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 ## Purchase the Career Coach licenses
 
-Career Coach is available as an add-on SKU to Office 365 A1, A3, and A5 licenses. For an educational institution to access Career Coach, this SKU must be purchased with the appropriate number of licenses for the users who will use the app.
+Career Coach is available worldwide (except China and Russia) for qualified higher education institutions through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct). As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5.
 
 ### Assign app licenses to users
 
@@ -119,7 +122,7 @@ Career Coach has five configuration categories:
 - [Customization](#customization)
 
 > [!NOTE]
-> Brand and preferences, LinkedIn configuration, Course catalog, and Fields of study are **required** to effectively enable the app for students, educators, faculty, and staff.
+> Brand and preferences, LinkedIn configuration, Course catalog, and Fields of study are **required** to effectively enable the app for students, faculty, and staff.
 
 #### Brand and preferences
 
@@ -129,7 +132,7 @@ Set your educational institution’s name, logo, and default language on the bra
 
 ##### Educational institution icon
 
-The educational institution icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and in the optional Real world experiences on the dashboard. The icon is best formatted as:
+The educational institution icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard. The icon is best formatted as:
 
  - A transparent PNG
  - Aspect ratio of 1:1
@@ -145,7 +148,7 @@ The educational institution icon will be used for course catalog resources throu
 
 #### LinkedIn configuration
 
-The LinkedIn configuration connects Career Coach with your educational institution’s alumni data from LinkedIn.
+The LinkedIn configuration connects Career Coach with public alumni data from LinkedIn.
 
 > [!NOTE]
 > Career Coach can't be enabled without the LinkedIn page connection verified.
@@ -162,26 +165,29 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 3. Select **Apply**.
 
-4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en). The verification link expires after 48 hours.  
+4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en). The verification link expires after 30 days.  
 
    ![linkedin settings for the career coach](media/linkedin.png)  
 
 #### Course catalog
 
-The course catalog represents the courses offered to students by your educational institution. These courses are used within the app in two areas:
+The course catalog represents the courses/classes/modules offered to students by your educational institution. These courses are used within the app in two areas:
 
 - Courses are returned as part of learning resources.  
 
 - Courses and course meta data, like descriptions, are used to help students identify their skills when they upload a transcript.  
 
-To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file. The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take.
+To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file. The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take. 
+
+> [!NOTE]
+> See [Location of data in Teams](location-of-data-in-teams.md) and [Security and compliance](security-compliance-overview.md) for information about protecting of student information. 
 
 ##### Course catalog documents formatting and schema
 
-The documents need to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title** and **course ID**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
+The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title** and **course ID**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
 
 > [!NOTE]
-> Start with the sample course catalog document to get started.
+> Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to get started.
 
 ##### Sample .CSV file
 
@@ -193,29 +199,19 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
 The following table shows the items to include in the course catalog:
 
 
-| Name             | Status      | Type   | Description |
-|------------------|-------------|--------|-------------|
-| courseId         | Required    | string |             |
-| title            | Required    | string |             |
-| description      | Recommended | string |             |
-| language         | Recommended | string |             |
-| sourceLink       | Recommended | string |             |
-| thumbnailLink    | Recommended | string |             |
-| thumbnailAltText | Recommended | string |             |
-| format           | Recommended | string |             |
-| externalId        | Required    | string         | Usually the course ID (Typically maps to what is generated in the transcript). |
-| title             | Required    | string         | Usually the course title.                                                      |
-| sourceLink        | Required    | url            | Website link to the course page.                                               |
-| shortDescription  | Required    |                | Introduction text for the course.                                              |
-| longDescription   | Recommended | string         | Extended description for the course.                                           |
-| format            | Recommended | string         | Mode of teaching, for example, online, video, in person.                              |
-| topics            | Recommended | list           | Topics or tags that are associated with the skills the courses teach.          |
-| sourceLastUpdated | Recommended | dateTimeOffset | Datetime when the content/metadata for the course is updated.                  |
-| thumbnailLink     | Recommended | url            | Thumbnail link to tin                                                          |
-| thumbnailAltText  | Recommended | string         |                                                                                |
-| sourceSkills      | Recommended | string         |                                                                                |
-| industries        | Recommended | string         |                                                                                |
-| keyPhrases        | Recommended | list           |                                                                                |
+| Name             | Status      | Type   | Description                                                                    |
+|------------------|-------------|--------|--------------------------------------------------------------------------------|
+| courseId         | Required    | string | Usually the course id (Typically maps to what is generated in the transcript). |
+| title            | Required    | string | Usually the course title.                                                      |
+| sourceLink       | Required    | URL    | Website link to the course page.                                               |
+| description      | Recommended | string | Introduction text for the course.                                              |
+| language         | Recommended | string | Language of the course. Use standard language codes.                           |
+| format           | Recommended | string | Mode of teaching, e.g., online, video, in-person.                              |
+| thumbnailLink    | Recommended | URL    | Thumbnail link to the course image.                                            |
+| thumbnailAltText | Recommended | string | Accessibility alt text for the image                                           |
+|                  |             |        |                                                                                |
+| educationLevel   | Recommended | string | Study level, ex. Undergraduate/Graduate.                                       |
+| topics           | Recommended | string | Topics or tags that are associated with the skills the courses teach.          |
 
 ##### Add the course catalog
 
@@ -242,7 +238,7 @@ Add all fields of study available to students such as Engineering, English, Busi
 1. Sign in to the **Teams admin center**.
 1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.
 
-2. Under Upload Field of study document, add the field of study document in CSV format.
+2. Under Upload Field of study document, add the [field of study document](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) in CSV format.
 
 3. Select **Apply**.
 
@@ -262,7 +258,7 @@ Career Coach can be customized to be unique to your educational institution. The
 
 ### Enable the app
 
-After you complete customization, enable the app for students and licensed users so they'll have access to Career Coach.  
+After you complete the configuration, enable the app for students and licensed users so they'll have access to Career Coach.  
   
 > [!NOTE]
 > You must have Global or Teams admin role permissions.
@@ -282,7 +278,7 @@ Pinning Career Coach will make the app more accessible and visible for students.
 
 1. Sign in to the **Teams admin center**.
 
-1. Select **Teams apps** &gt;**Setup policies** &gt; **Specific policy**. (what is the policy name?)
+1. Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*. 
 
 2. Under **Pinned apps**, choose **Add apps**.
 
