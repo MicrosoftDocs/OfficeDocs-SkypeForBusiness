@@ -39,27 +39,28 @@ The following items are Intelligent Speaker requirements:
 - Rooms has a maximum of 10 people present in person.
 - Rooms has an upload link of minimum 7 Mbps.
 
- <sup>1</sup> Rockfall and associated biometric storage and usage will only be available in EN-US language and for US (NA-US region) tenants. Both conditions must be true for a tenant user to be able to enroll and use Rockfall for attributed transcription.
+ <sup>1</sup> An Intelligent Speaker and associated biometric storage and usage will only be available in EN-US language and for US (NA-US region) tenants. Both conditions must be true for a tenant user to be able to enroll and use an Intelligent Speaker for attributed transcription.
 
 ## Set up an Intelligent Speaker
 
-Yealink Rockfall connects directly using USB to the Teams Rooms console. For best results, we recommend that you use Yealink Rockfall with the Yealink console.
+An Intelligent Speaker connects directly using USB to the Teams Rooms console. For best results, we recommend that you use the same brand Intelligent Speaker with the same brand console.
 
 > [!NOTE]
-> We don't support Rockfall connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Rockfall device through the dock.
+> We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
 
-Rockfall should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Rockfall USB cable isn't long enough for your setup, use cable extenders.
+An Intelligent Speaker should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
 
 1. Sign in to the console as administrator.
-2. Set the Teams device settings to match the Rockfall microphone and speaker. (**They can also do this through the TAC portal instead of at the room console.)What is TAC?**
-3. Ensure you have the correct microphone and speaker settings.
+2. Set the Teams device settings to match the Intelligent Speaker microphone and speaker.
+   You can also do this through the TAC portal instead of at the room console.
+1. Ensure you have the correct microphone and speaker settings.
 
 The diagram shows how the Intelligent Speaker is connected to the device.
 
    ![The Intelligent Speaker setup with the speaker, the power and data box. One line goes to the USB port of the console, and the other line goes to power. ](../media/intelligent-speakers1.png)
 
 > [!Note]
-> EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Rockfall device.
+> EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
 
 ### Enable an Intelligent Speaker and user attribution
 
@@ -100,7 +101,7 @@ Settings are disabled by default. When the Capture policy is disabled:
 
 ### Set voice profile usage
 
-Turn on or off voice profile usage for attribution and diarization. (Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity.) Use `RoomAttributeUserOverride` in Rooms to set voice profile usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use of both voice and face for transcription attribution purposes. This setting is **off** by default, so it won't use a user's attribute or distinguish features.
+Turn on or off voice profile usage for attribution and diarization. (Speaker diarization is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity.) Use `RoomAttributeUserOverride` in Rooms to set voice profile usage. An admin can control if users in a conference room will be attributed, diarized (distinguished), or neither. This policy controls use voice transcription attribution purposes. This setting is **off** by default, so it won't use a user's attribute or distinguish features.
 
 - Rooms won't send audio stream-saving bandwidths from the room.  
 - Rooms users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.
@@ -113,7 +114,7 @@ The attribute feature captures the following details:
 - Users who aren't enrolled show as Speaker n.
 - Rooms will send 7 audio streams from the room.
 
-(**coming in the future** do we want to say this?) The distinguish feature captures the following details only for people who are invited:
+(**coming in the future**) The distinguish feature captures the following details only for people who are invited:
 
 - Rooms users will be distinguished but not named (Speaker n). No user identity is shown for in-room attendees.
 - Rooms will send seven audio streams from the room.
@@ -137,9 +138,9 @@ Scenario 2: Users enroll in their company tenant and their voice is recognized a
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use the voice profile data across different non-Teams services at this point.
 
-However,  Microsoft may decide in the future to use the same voice and face enrollment data for other Microsoft Office 365 scenarios. Such a decision will be duly notified, with required consent and policies in place, empowering tenant admins to decide and control.
+However,  Microsoft may decide in the future to use the same voice enrollment data for other Microsoft Office 365 scenarios. Such a decision will be duly notified, with required consent and policies in place, empowering tenant admins to decide and control.
 
-**Is Rockfall General Data Protection Regulation (GDPR) compliant?**
+**Is an Intelligent Speaker General Data Protection Regulation (GDPR) compliant?**
 
 Yes, audio data collected from user can be exported by the tenant admin using Teams admin center.
 
@@ -148,4 +149,4 @@ Yes, audio data collected from user can be exported by the tenant admin using Te
 General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, the voice profile data will be deleted after three years if the data isn't used in any meetings for existing employees.
 
 > [!NOTE]
-> In the future, if we can give a bar of how good the audio data is, then you can evaluate the quality of the transcript.(**reviewer comment**)
+> In the future, if we can give a bar of how good the audio data is, then you can evaluate the quality of the transcript.
