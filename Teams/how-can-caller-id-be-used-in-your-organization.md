@@ -64,7 +64,7 @@ Users can change their caller ID setting to **Anonymous** by setting the EnableU
 
 If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect and the caller ID is always set to Anonymous. The default value of EnableUserOverride is False.
 
-Your end users can set their caller ID to Anonymous by going to Settings > Calls, and then under Caller ID, select Hide my phone number and profile information for all calls.
+Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.
 
 ### Notes
 
@@ -91,7 +91,7 @@ Keep the following in mind:
    
 ## Inbound caller ID
 
-Phone System will show the incoming external phone number as the caller ID. If the number is associated with a user or contact in Azure AD or a personal contact, the Teams client will show the caller ID based on that information. If the phone number is not in Azure AD or a personal contact, the telco-provided display name will be shown if it is available.
+Phone System will show the incoming external phone number as the caller ID. If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number is not in Azure AD or a personal contact, the telco-provided display name will be shown if it is available.
 
 The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. When this setting is enabled the incoming PSTN caller will be displayed as coming from Anonymous.
   

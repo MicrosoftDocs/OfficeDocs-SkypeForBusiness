@@ -27,7 +27,7 @@ description: Learn about the Microsoft 365 and Office 365 default caller ID (a u
 
 Phone System in Microsoft 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
   
- By default, the following caller ID settings are **turned off**. This means that the Teams user's phone number can be seen when that user makes a call to a PSTN phone. You can change these settings as follows:
+By default, the following caller ID settings are **turned off**. This means that the Teams user's phone number can be seen when that user makes a call to a PSTN phone. You can change these settings as follows:
   
 - **Outgoing caller ID** You can replace a user's Caller ID, which by default is their telephone number, with another phone number. For example, you could change the user's Caller ID from their phone number to a main phone number for your business or change the user's Calling Line ID from their phone number to a main phone number for the legal department. You can change the Calling ID number to any online service number (toll or toll-free). You can also change the Calling ID number to an on-premises phone number through Direct Routing that is assigned to a resource account used by an Auto Attendant or Call Queue.
     
@@ -77,20 +77,21 @@ Connect-MicrosoftTeams -Credential $credential
      ```
     In all cases, the "Service Number" field should not include an initial "+".
 
-     See more examples and details for [New-CsCallingLineIdentity](/powershell/module/skype/New-CsCallingLineIdentity).
+   For more information, see [New-CsCallingLineIdentity](/powershell/module/skype/New-CsCallingLineIdentity).
     
 3. Apply the new policy you created by using the Grant-CsCallingIdentity cmdlet. For example, the following example applies the new policy to user Amos Marble.
     
      ```PowerShell
       Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
-     See more on the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
+   For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
     
 
 4. If you want to block the incoming caller ID, run:
     
    ```PowerShell
-   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true 
+   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true
+   ``` 
 
    For more information, see [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity).
     
@@ -99,7 +100,7 @@ Connect-MicrosoftTeams -Credential $credential
    ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
    ```
-    For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity).
+   For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity).
 
 If you have already created a policy, you can use the [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet to apply the settings to your users.
     
