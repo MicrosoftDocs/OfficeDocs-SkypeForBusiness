@@ -22,11 +22,12 @@ description: Learn how to use and manage caller ID policies in Microsoft Teams t
 
 # Manage caller ID policies in Microsoft Teams
 
->[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
+> [!NOTE]
+> The options for setting caller ID to the phone number of a resource account and to set the calling party name are not currently available in the Microsoft Teams admin center. To set these options, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Microsoft Skype for Business Online PowerShell module.
 
-As an admin, you can use caller ID policies in Microsoft Teams to change or block the caller ID (also known as calling line ID). By default, the phone number of Teams users can be seen when they make a call to a PSTN phone and the phone number of PSTN callers can be seen when they call a Teams user. You can use caller ID policies to display an alternate phone number for Teams users in your organization or block an incoming number from being displayed.
+By default, when a Teams user makes a call to a PSTN phone, the phone number of the Teams users is visible.  Likewise, when a PSTN caller makes a call to a Teams users, the PSTN caller's phone number is visible.
 
-For example, when users make a call, you can change the caller ID to display your organization's main phone number instead of users' phone numbers.
+As an administrator, you can use caller ID policies to change or block the caller ID (also known as calling line ID). You can use caller ID policies to display an alternate phone number for Teams users in your organization, block the outbound phone number, block an incoming number from being displayed, or set the Calling Party Name (CNAM). For example, when a user makes a call, you can change the caller ID to display your organization's main phone number and company name instead of the user's phone number.
 
 You manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
@@ -65,5 +66,7 @@ You can edit the global policy or any custom policies that you create.
 ## Related topics
 
 [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
 
 [Assign policies to your users in Teams](assign-policies.md)

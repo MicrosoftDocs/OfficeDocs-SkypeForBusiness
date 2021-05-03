@@ -86,10 +86,7 @@ Keep the following in mind:
 
 - For Direct Routing, the phone number substitution and the Calling Party Name is sent in the FROM SIP header. If the corresponding OnlinePstnGateway is configured with ForwardPai = True, the P-ASSERTED-IDENTITY SIP header will contain the real calling user.
 
-- EnableUserOverride has preference to other settings in the policy, except if substitution is set to Anonymous. For instance, if a policy instance has substitution using a resource account and EnableUserOverride is set and enabled by the user, then the outbound caller ID will be blocked and Anonymous will be used. If a policy instance has substitution set to Anonymous and EnableUserOverride is set, the outbound caller ID will always be Anonymous, no matter the end user setting.
-
- This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
-  
+- EnableUserOverride has precedence over other settings in the policy--unless substitution is set to Anonymous. For example, assume policy instance has substitution using a resource account and EnableUserOverride is set and enabled by the user. In this case, the outbound caller ID will be blocked and Anonymous will be used. If a policy instance has substitution set to Anonymous and EnableUserOverride is set, then the outbound caller ID will always be Anonymous, regardless of the end user setting.
 
    
 ## Inbound caller ID
@@ -98,7 +95,7 @@ Phone System will show the incoming external phone number as the caller ID. If t
 
 The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. When this setting is enabled the incoming PSTN caller will be displayed as coming from Anonymous.
   
-To set the outbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
+To block the inbound caller ID, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
   
 ## Related topics
 [Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
