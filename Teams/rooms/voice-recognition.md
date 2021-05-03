@@ -136,7 +136,7 @@ Voice profile data is considered user content and is treated as such per Office 
 
 **Is voice profile data used across Microsoft services?**
 
-Scenario 1: User enrolls in company tenant and then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal. Their voice is recognized by the consumer service.
+Scenario 1: User enrolls in company tenant and then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal). Their voice is recognized by the consumer service.
 Scenario 2: Users enroll in their company tenant and their voice is recognized and attributed in the meeting hosted by another company.
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use the voice profile data across different non-Teams services at this point.
