@@ -24,14 +24,14 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Romania."
+description: "Here are the services for Skype for Business and Microsoft Teams available for Romania."
 ---
 
 # Availability in Romania
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Romania.
+Here is the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Romania.
   
 ## Audio Conferencing
 
@@ -55,7 +55,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>1200 minute Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li></ul>Accessibility support for Microsoft Teams [Prezentare generală accesibilitate a Microsoft teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(Romanian)(February2021)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minutes Domestic Calling Plan </li><li>240 minutess Domestic Calling Plan</li></li><li>1200 minutes Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li></ul>Accessibility support for Microsoft Teams [Prezentare generală accesibilitate a Microsoft Teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(Romanian)(February2021)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
 |Can make outbound calls to premium numbers?  <br/> | Not supported at this time. <br/> |
 |Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
