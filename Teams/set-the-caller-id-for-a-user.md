@@ -68,7 +68,7 @@ Connect-MicrosoftTeams -Credential $credential
      ```PowerShell
      Get-CsCallingLineIdentity |fl
      ```
-     See more examples and details for [Get-CsCallingLineIdentity](/powershell/module/skype/Get-CsCallingLineIdentity).
+   For more information, see [Get-CsCallingLineIdentity](/powershell/module/skype/Get-CsCallingLineIdentity).
     
 2. To create a new caller ID policy for your organization, use the New-CsCallingIdentity cmdlet:
     
