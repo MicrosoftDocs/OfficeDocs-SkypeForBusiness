@@ -2,6 +2,45 @@
 
 
 
+## Week of April 26, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/26/2021 | [Create a call queue in Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modified |
+| 4/26/2021 | [Customize Microsoft apps in Teams](/MicrosoftTeams/customize-apps) | modified |
+| 4/26/2021 | [Manage tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | modified |
+| 4/26/2021 | [Native chat experience for external (federated) users in Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modified |
+| 4/26/2021 | [Plan for Microsoft 365 Groups when creating teams](/MicrosoftTeams/plan-office-365-groups) | modified |
+| 4/27/2021 | [Customize Microsoft apps in Teams](/MicrosoftTeams/customize-apps) | modified |
+| 4/27/2021 | [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login) | modified |
+| 4/27/2021 | [Microsoft Teams call flows](/MicrosoftTeams/microsoft-teams-online-call-flows) | modified |
+| 4/27/2021 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 4/27/2021 | [IT Admin Guide to Reflect in Microsoft Teams](/MicrosoftTeams/reflect) | added |
+| 4/27/2021 | [Create a call queue in Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modified |
+| 4/27/2021 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 4/27/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 4/28/2021 | [IT Admin Guide to Reflect in Microsoft Teams](/MicrosoftTeams/reflect) | modified |
+| 4/28/2021 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
+| 4/28/2021 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 4/29/2021 | [Microsoft Education governance FAQ for admins](/MicrosoftTeams/plan-teams-governance-edu) | modified |
+| 4/29/2021 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
+| 4/30/2021 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 4/30/2021 | [Purchase, configure, and enable Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach) | added |
+| 4/30/2021 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
+| 4/30/2021 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 4/30/2021 | [Assign Business Voice phone numbers to your users](/MicrosoftTeams/business-voice/set-up-assign-numbers) | added |
+| 4/30/2021 | [Set up an auto attendant for your company's main phone number](/MicrosoftTeams/business-voice/set-up-auto-attendant) | added |
+| 4/30/2021 | [Set up Microsoft 365 Business Voice emergency locations](/MicrosoftTeams/business-voice/set-up-emergency-locations) | added |
+| 4/30/2021 | [Finished Business Voice setup](/MicrosoftTeams/business-voice/set-up-finish) | added |
+| 4/30/2021 | [Assign Microsoft 365 Business Voice licenses](/MicrosoftTeams/business-voice/set-up-licenses) | added |
+| 4/30/2021 | [Set up Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/set-up-overview) | added |
+| 4/30/2021 | [Set up Microsoft 365 Business Voice phone numbers](/MicrosoftTeams/business-voice/set-up-phone-numbers) | added |
+| 4/30/2021 | [Set up a Microsoft 365 Business Voice resource account](/MicrosoftTeams/business-voice/set-up-resource-account) | added |
+| 4/30/2021 | Use the Getting Started wizard to set up Business Voice | removed |
+| 4/30/2021 | [What do I need to buy to use Microsoft 365 Business Voice with Calling Plan?](/MicrosoftTeams/business-voice/what-to-buy) | modified |
+
+
 ## Week of April 19, 2021
 
 
@@ -214,45 +253,3 @@
 | 4/2/2021 | [Use CQD to manage call and meeting quality in Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modified |
 | 4/2/2021 | [Release notes for Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | modified |
 | 4/2/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
-
-
-## Week of March 22, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/22/2021 | [How Exchange and Microsoft Teams interact](/MicrosoftTeams/exchange-teams-interact) | modified |
-| 3/22/2021 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 3/22/2021 | [How to use Microsoft Teams panels devices](/MicrosoftTeams/devices/use-teams-panels) | modified |
-| 3/22/2021 | [Phone number management for Belgium](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modified |
-| 3/22/2021 | [Skype Room System domain joining considerations](/MicrosoftTeams/rooms/domain-joining-considerations) | modified |
-| 3/22/2021 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
-| 3/22/2021 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
-| 3/22/2021 | [Direct Routing Local Media Optimization](/MicrosoftTeams/direct-routing-media-optimization) | modified |
-| 3/22/2021 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
-| 3/24/2021 | [Create a custom team template in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | modified |
-| 3/24/2021 | [Use Teams templates in the admin center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modified |
-| 3/24/2021 | [Call park and retrieve in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modified |
-| 3/24/2021 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 3/24/2021 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
-| 3/24/2021 | [Sign in to Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modified |
-| 3/25/2021 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
-| 3/25/2021 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
-| 3/25/2021 | [Assign policies to your users in Microsoft Teams](/MicrosoftTeams/assign-policies) | modified |
-| 3/25/2021 | [Audio Conferencing with Direct Routing, GCCH and DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | modified |
-| 3/25/2021 | [Configure voice routing for Direct Routing](/MicrosoftTeams/direct-routing-voice-routing) | modified |
-| 3/25/2021 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
-| 3/25/2021 | Implement your move to Microsoft Teams | removed |
-| 3/25/2021 | [Meeting First - Microsoft Teams](/MicrosoftTeams/meetings-first) | modified |
-| 3/25/2021 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
-| 3/25/2021 | [Microsoft Teams PSTN usage report](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modified |
-| 3/25/2021 | [Live events recording policies](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | modified |
-| 3/25/2021 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-| 3/26/2021 | Set up the Ringback bot for Direct Routing | removed |
-| 3/26/2021 | [Configure voice routing for Direct Routing](/MicrosoftTeams/direct-routing-voice-routing) | modified |
-| 3/26/2021 | [Live events recording policies](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | modified |
-| 3/26/2021 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
-| 3/26/2021 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
-| 3/26/2021 | [Teams and Outlook email integration](/MicrosoftTeams/teams-outlook-email-integration) | modified |
-| 3/26/2021 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
-| 3/26/2021 | [Manage the Microsoft Teams Exploratory experience](/MicrosoftTeams/teams-exploratory) | modified |

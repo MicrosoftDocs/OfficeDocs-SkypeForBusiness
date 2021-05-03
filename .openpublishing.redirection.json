@@ -12372,7 +12372,12 @@
     },
     {
       "source_path": "Teams/teams-learning-app-overview.md",
-      "redirect_url": "https://docs.microsoft.com/microsoft-365/learning",
+      "redirect_url": "/microsoft-365/learning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/business-voice/use-getting-started-wizard.md",
+      "redirect_url": "/microsoftteams/business-voice/set-up-overview",
       "redirect_document_id": false
     }
 ] 
