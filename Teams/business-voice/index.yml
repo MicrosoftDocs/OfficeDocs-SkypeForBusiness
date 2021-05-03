@@ -35,8 +35,8 @@ productDirectory:
           text: Check your Internet connection
         - url: prepare-users.md
           text: Get your users ready
-        - url: use-getting-started-wizard.md
-          text: Run the Getting Started wizard
+        - url: set-up-overview.md
+          text: Set up Business Voice
     # Card
     - title: Customize your setup
       imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg

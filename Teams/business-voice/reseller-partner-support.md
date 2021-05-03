@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn how to get support from a Microsoft reseller or partner to help you set up Microsoft 365 Business Voice without a Calling Plan.
 appliesto: 
 - Microsoft Teams
 no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Microsoft Teams, Office 365]
@@ -25,7 +25,7 @@ no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Mic
 > [!IMPORTANT]
 > The information in this article is applicable to Business Voice **without** Calling Plan only. Before reading this article, check [Country and region availability for Business Voice](country-region-availability.md) to see whether your country or region supports Business Voice with Calling Plan.
 >
-> If your tenant is located in a country or region that supports Business Voice with Calling Plan, check out [Use the Getting Started wizard to set up Business Voice](use-getting-started-wizard.md).
+> If your tenant is located in a country or region that supports Business Voice with Calling Plan, check out [Set up Microsoft 365 Business Voice](set-up-overview.md).
 
 Setting up Business Voice without Calling Plan requires the configuration of Phone System Direct Routing. Direct Routing enables interoperability between your on-premises telephone hardware; Microsoft Phone System, which is the core feature of Business Voice; and your third-party Public Switched Telephone Network (PSTN) provider. Because Direct Routing requires a deep understanding of Microsoft Phone System, PSTN connectivity, networking, and other technical skills, we recommend that you use a Microsoft partner or seller to set it up. Additionally, Business Voice without Calling Plan licenses are only available from Microsoft partners and resellers.
 
@@ -45,4 +45,3 @@ When contacting a Microsoft partner or reseller about setting up Business Voice 
 - Your Internet connection
 - Unique design considerations about your organization such as the need to support call centers, phone system call menus (for example, press 1 for Sales, press 2 for Technical Support), conference rooms, phone kiosks, and so on.
 - How many locations your existing phone system supports and how connectivity is set up between them
-
