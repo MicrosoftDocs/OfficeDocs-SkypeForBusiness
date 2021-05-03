@@ -1244,8 +1244,24 @@ items:
           href: business-voice/get-ready-internet.md
         - name: Get your users ready
           href: business-voice/prepare-users.md
-    - name: Run the Getting Started wizard
-      href: business-voice/use-getting-started-wizard.md
+    - name: Set up Business Voice
+      items:
+        - name: Overview
+          href: business-voice/set-up-overview.md
+        - name: "Step 1: Set up emergency locations"
+          href: business-voice/set-up-emergency-locations.md
+        - name: "Step 2: Set up phone numbers"
+          href: business-voice/set-up-phone-numbers.md
+        - name: "Step 3: Assign licenses"
+          href: business-voice/set-up-licenses.md
+        - name: "Step 4: Set up a resource account"
+          href: business-voice/set-up-resource-account.md
+        - name: "Step 5: Assign phone numbers to users"
+          href: business-voice/set-up-assign-numbers.md
+        - name: "Step 6: Set up an auto attendant"
+          href: business-voice/set-up-auto-attendant.md
+        - name: "Post-setup resources"
+          href: business-voice/set-up-finish.md
     - name: Customize your setup
       items: 
         - name: Customization options
@@ -1405,6 +1421,8 @@ items:
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
+        - name: Career Coach app in Teams for Education
+          href: career-coach.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
         - name: Education Insights
