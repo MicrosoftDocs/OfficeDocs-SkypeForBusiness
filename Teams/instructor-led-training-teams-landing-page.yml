@@ -1,12 +1,12 @@
 ### YamlMime:Hub
 
-title: End-user training for Microsoft Teams # < 60 chars
-summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Microsoft Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end-user training. Click a session below to sign up.
+title: End user training for Microsoft Teams # < 60 chars
+summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Microsoft Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end user training. Click a session below to sign up.
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: teams
 
 metadata:
-  title: End-user training for Microsoft Teams # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: End user training for Microsoft Teams # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Microsoft is excited to provide free, live, virtual training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Microsoft Teams in action, get your questions answered, and interact with our live instructors. Click a session below to sign up and be sure to check out more courses farther below. # Required; article description that is displayed in search results. < 160 chars.
   ms.topic: hub-page # Required
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
@@ -23,18 +23,14 @@ highlightedContent:
       itemType: overview
       url: https://aka.ms/SayhelloTeams
     # Card
-    - title: On-demand end-user training
+    - title: On-demand end user training
       itemType: video
       url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
     # Card
     - title: Microsoft 365 Adoption Tools
       itemType: deploy
       url: https://adoption.microsoft.com
-    # Card
-    - title: Teams online training
-      itemType: video
-      url: https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
-
+    
 # productDirectory section (optional)
 productDirectory:
   items:
@@ -90,7 +86,7 @@ productDirectory:
 additionalContent:
   # Supports up to 4 sections:
   sections:
-    - title: courses
+    - title: Courses
       items:
         # Card
         - title: Teamwork Specialist certification
