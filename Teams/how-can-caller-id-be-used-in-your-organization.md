@@ -46,15 +46,15 @@ For the outbound PSTN caller ID, the following options are available:
   
 - The telephone number assigned to the user, which is the default.
 
-- Anonymous, which is possible by removing the presentation of the user’s PSTN number. 
+- Anonymous, which is available by removing the presentation of the user’s PSTN number. 
 
 - A substitute phone number, which can be:
 
-  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is usually assigned to an Teams Auto Attendant or Call Queue.
+  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is usually assigned to a Teams Auto Attendant or Call Queue.
 
   - An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
 
-In addition, you can also specify the Calling Party Name or CNAM set on the outbound PSTN call.
+- The Calling Party Name or CNAM set on the outbound PSTN call.
     
 For more information, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
   
