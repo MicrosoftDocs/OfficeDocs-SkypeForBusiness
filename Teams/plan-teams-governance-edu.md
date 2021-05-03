@@ -116,7 +116,7 @@ For more details about Teams policies, see [Manage Microsoft Teams settings for 
 
 You can use guest access to invite users from outside of your tenant, which can be useful for research collaboration or guest lectures:
 
--   Use domain whitelisting to allow or block guests based on their domain.
+-   Use a domain allowlist to allow or block guests based on their domain.
 -   Turn guest access on and off for particular Microsoft 365 Groups and teams, to control which teams can (and can't) invite guests.
 -   Use the audit log to see which alerts were sent to invited guests.
 
