@@ -684,7 +684,7 @@ items:
               href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
             - name: Disabling toll-free numbers for specific users
               href: disabling-toll-free-numbers-for-specific-teams-users.md
-            - name: Outbound calling restriction policies for Audio Conferencing and user PSTN calls
+            - name: Outbound calling restriction policies for Audio Conferencing and user PSTN call
               href: outbound-calling-restriction-policies.md
             - name: View and reset a conference ID assigned to a user
               href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
@@ -720,7 +720,7 @@ items:
       items: 
         - name: What are Teams live events?
           href: teams-live-events/what-are-teams-live-events.md
-        - name: Plan for Teams live events
+        - name: Plan for Teams lives events
           href: teams-live-events/plan-for-teams-live-events.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
@@ -1435,7 +1435,7 @@ items:
           href: batch-group-policy-assignment-edu.md
         - name: PowerShell script to create security groups for educators and students
           href: scripts/powershell-script-security-groups-edu.md
-        - name: Low bandwidth guidance for Education admins
+        - name: Low-bandwidth guidance for Education admins
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
