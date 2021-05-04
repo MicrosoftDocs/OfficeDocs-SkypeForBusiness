@@ -2,6 +2,17 @@
 
 
 
+## Week of April 26, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/27/2021 | Microsoft telephony solutions | removed |
+| 4/27/2021 | [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity) | modified |
+| 4/27/2021 | [Plan for Skype for Business Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition) | modified |
+| 4/29/2021 | [Validated Lync Applications](/SkypeForBusiness/lync-cert/validated-lync-apps) | modified |
+
+
 ## Week of April 19, 2021
 
 
