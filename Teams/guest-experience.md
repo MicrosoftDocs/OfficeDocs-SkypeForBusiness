@@ -47,7 +47,7 @@ The following table compares the Teams functionality available for an organizati
 |Post, delete, and edit messages  <br/> |&#x2713;|&#x2713;|
 |Share a channel file  <br/> |&#x2713;|&#x2713;|
 |Access SharePoint files<br/> |&#x2713;|&#x2713;|
-|Attach files<br/> |&#x2713;|Team chats only|
+|Attach files<br/> |&#x2713;|Channel posts only|
 |Download private chat files<br/> |&#x2713;|&#x2713;|
 |Search within files<br/> |&#x2713;||
 |Share a chat file  <br/> |&#x2713;||
