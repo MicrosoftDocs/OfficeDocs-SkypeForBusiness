@@ -24,7 +24,7 @@ The following section covers Skype Room System account provisioning.
 
 Your online tenant must meet the following requirements:
   
-- The Microsoft 365 or Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
+- The Microsoft 365 or Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
     
 - Your tenant must have the conferencing capability of Skype for Business enabled.
     
@@ -64,7 +64,7 @@ You may already have a resource room mailbox in Exchange that provides the sched
     
 ## Exchange Online provisioning
 
-First, connect to Exchange Online PowerShell by following the instructions in the topic, [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+First, connect to Exchange Online PowerShell by following the instructions in the topic, [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
   
 To set an existing resource room mailbox account for Skype Room System, run the following commands in Exchange Online PowerShell:
   
@@ -96,7 +96,7 @@ After you assign a license for Skype for Business Online, you will be able to lo
 
 After a resource room mailbox account has been created and enabled as shown previously, and you have licensed the account for Skype For Business Online the account will synchronize from the Exchange Online forest to Skype for Business Online forest by using the Windows Azure Active Directory forest. The following steps are required to provision the Skype Room System account in the Skype for Business Online pool. These steps are the same for both an existing resource mailbox account or a newly created account (confrm1 or confrm2), because once they are enabled in Exchange Online, both of these accounts will be synchronized to Skype for Business Online in the same way:
   
-1. Create a Remote PowerShell session. Note that you will need to download [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Create a Remote PowerShell session. Note that you will need to download [Teams PowerShell module](/microsoftteams/teams-powershell-install).
     
   ```powershell
   # When using Teams PowerShell Module
@@ -138,9 +138,8 @@ In Microsoft 365 or Office 365, the default password expiration policy for all o
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## Validate
 
 For validation, you should be able to use any Skype for Business client to sign in to the account you created.
-

@@ -29,12 +29,12 @@ appliesto:
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
+- [Prepared your environment](./upgrade-prepare-environment.md)
+- [Prepared your organization](./upgrade-prepare-organization.md)
+- [Conducted a pilot](./pilot-essentials.md)
 
 Follow the guidance in this article if you have wholly deployed Skype for Business Online and want to upgrade your users from Skype for Business to Teams. You can upgrade users selectively or all-in, based on the upgrade journey that your organization has chosen, by assigning the appropriate coexistence and upgrade mode to your users.
 
@@ -45,7 +45,7 @@ Follow the guidance in this article if you have wholly deployed Skype for Busine
 
 You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams instance of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows PowerShell session. You can do this either on a per user basis, or on a tenant-wide basis if you want to upgrade the entire tenant in one step. 
 
-For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).
+For more information, see [Setting your coexistence and upgrade settings](./setting-your-coexistence-and-upgrade-settings.md) and [TeamsUpgradePolicy: managing migration and coexistence](upgrade-to-teams-on-prem-tools.md).
 
 ## Upgrade all users to Teams at one time
 
@@ -105,5 +105,3 @@ When considering Public Switched Telephone Network (PSTN) connectivity options, 
 - A user in Skype for Business Online, with a Microsoft Calling Plan. Upon upgrade, this user will continue to have a Microsoft Calling plan. This is the simplest scenario requiring only a couple of steps. For more information, see [From Skype for Business Online with Microsoft Calling Plans](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
 
 - A user in Skype for Business Online, with on-premises voice functionality through Skype for Business on-premises or Cloud Connector Edition. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.  For more information see, [From Skype for Business Online with on-premises voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice).
-
-

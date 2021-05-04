@@ -27,7 +27,7 @@ Use Content search in Microsoft Teams
 
 Content search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.
 
-To learn more, see [Content search in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search).
+To learn more, see [Content search in Microsoft 365](/microsoft-365/compliance/content-search).
 
 For example, using **Content search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.
 
@@ -48,7 +48,7 @@ Use the following steps to identify files and messages in a private channel to i
 
 ### Include private channel files in a content search
 
-Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
 1. Run the following to get a list of all SharePoint site collections associated with private channels in the team.
 
@@ -87,4 +87,4 @@ Before you perform these steps, make sure you have the [latest version of the Te
 
 ## Related topics
 
-- [eDiscovery cases in the Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [eDiscovery cases in the Microsoft 365 Compliance Center](/Office365/SecurityCompliance/ediscovery-cases)

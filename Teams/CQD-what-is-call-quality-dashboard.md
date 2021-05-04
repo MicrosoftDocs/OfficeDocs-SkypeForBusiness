@@ -32,7 +32,7 @@ The Microsoft Call Quality Dashboard (CQD) - [https://cqd.teams.microsoft.com](h
   
 The latest version of CQD features a [near-real-time (NRT) data feed](CQD-data-and-reports.md), which means that call records are available in CQD within 30 minutes of the end of a call.
 
-Wherever CQD includes [end-user identifiable information (EUII) data](CQD-data-and-reports.md#euii-data), it's managed in the same way as [EUII throughout Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
+Wherever CQD includes [end-user identifiable information (EUII) data](CQD-data-and-reports.md#euii-data), it's managed in the same way as [EUII throughout Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
 
 CQD is designed to help Teams admins, Skype for Business admins, and network engineers monitor call and meeting quality at an org-wide level. You'll use CQD to help you **optimize your network** to drive performance quality. When you need to look into call and meeting information for a **specific user**, use CQD data in conjunction with per-user [call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md).
 
@@ -46,12 +46,12 @@ In CQD, we encourage you to upload building and endpoint information, which lets
 
 Don't miss our [Manage call and meeting quality](quality-of-experience-review-guide.md) article, which offers in-depth guidance for the Teams admin or support engineer responsible for managing service quality in Teams.
 
-## Older version of CQD (CQD.lync.com)
+## Legacy version of CQD (CQD.lync.com)
 
-The current version of CQD (https://CQD.Teams.microsoft.com) is replacing the older version of CQD (https://CQD.lync.com). You can still use CQD.lync.com (available from the Skype for Business admin center), but as of July 1, 2020, it's using the data from CQD.Teams.microsoft.com. We'll turn off access to CQD.lync.com soon, so you should move to CQD.Teams.microsoft.com if you haven't already done so.
+The current version of CQD (https://CQD.Teams.microsoft.com) has replaced the legacy version of CQD (https://CQD.lync.com). You can still use CQD.lync.com (available from the Skype for Business admin center), but as of July 1, 2020, it's using the data from CQD.Teams.microsoft.com and you can no longer view or modify your building or query data from the old CQD (CQD.lync.com). If you haven't already migrated this data from CQD.lync.com and still need it, log a support ticket.
 
 > [!IMPORTANT]
-> As of July 1, 2020, you can no longer view or modify your building or query data from the old CQD (CQD.lync.com). If you haven't already migrated this data from CQD.lync.com and still need it, log a support ticket.
+> As of July 31, 2021, we are retiring the legacy version of CQD (CQD.lync.com). After that date, you will be automatically redirected to CQD.Teams.microsoft.com when attempting to access CQD.lync.com, and any unmigrated building or query data will be lost.
 
 ## Use Power BI to analyze CQD data
 
@@ -80,4 +80,4 @@ Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to lear
 [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md)
 
 
-[Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)

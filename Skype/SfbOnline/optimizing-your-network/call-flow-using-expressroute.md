@@ -38,7 +38,7 @@ The call flows described here can be impacted by a variety of factors that are u
 
 - [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
-- [ExpressRoute Overview](https://docs.microsoft.com/azure/expressroute/expressroute-introduction)
+- [ExpressRoute Overview](/azure/expressroute/expressroute-introduction)
 
 - [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)
 
@@ -62,7 +62,7 @@ Typically, the edge of your network has one or more DMZ with firewalls and/or pr
 
  **Internet** This is the network segment that is part of your overall network that will be used by users who are connecting to Skype for Business Online from outside of your network, and is used for all connections when ExpressRoute isn't configured. The Internet and all of its connections aren't managed by you or Microsoft, so performance and routing paths can't be determined, and this will have the greatest impact on overall call flow and quality.
 
- **ExpressRoute** This is the network segment that is part of your overall network that will give you a dedicated, private connection to the Microsoft network. This is the recommended option for connecting your network to the Microsoft network (Microsoft 365 or Office 365 datacenters) for all of the workloads that are dependent on network speed and performance, such as Skype for Business Online real-time communication. ExpressRoute connections are made between your network and the Microsoft network use [ExpressRoute connectivity providers](https://azure.microsoft.com/documentation/articles/expressroute-locations/) to provide a private and managed network, with 99.9% uptime and support for Quality of Service (QoS) that can improve performance for real-time media during periods of network congestion.
+ **ExpressRoute** This is the network segment that is part of your overall network that will give you a dedicated, private connection to the Microsoft network. This is the recommended option for connecting your network to the Microsoft network (Microsoft 365 or Office 365 datacenters) for all of the workloads that are dependent on network speed and performance, such as Skype for Business Online real-time communication. ExpressRoute connections are made between your network and the Microsoft network use [ExpressRoute connectivity providers](/azure/expressroute/expressroute-locations) to provide a private and managed network, with 99.9% uptime and support for Quality of Service (QoS) that can improve performance for real-time media during periods of network congestion.
 
  **Microsoft network** This is the network segment that is part of your overall network that supports Microsoft 365 and Office 365 services. This includes all of the communication between Online servers for Microsoft 365 or Office 365. This may include traffic that traverses the Microsoft network backbone and is transmitted between geographical regions.
 
@@ -229,6 +229,4 @@ Users that will connect to Cloud Connector Edition are all homed Online. This me
 
 ## Related topics
 
-[ExpressRoute documentation](https://go.microsoft.com/fwlink/?LinkId=690285)
-
-
+[ExpressRoute documentation](/azure/expressroute/)

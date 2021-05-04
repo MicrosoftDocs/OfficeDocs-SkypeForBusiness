@@ -162,12 +162,12 @@ Use one of the following procedures to configure unassigned number ranges for th
    ```
 
     > [!NOTE]
-    > For details about more options, see [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
+    > For details about more options, see [Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
 ## See also
 
-[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
+[New-CsUnassignedNumber](/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
+[Set-CsUnassignedNumber](/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
-[Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
+[Get-CsUnassignedNumber](/powershell/module/skype/get-csunassignednumber?view=skype-ps)

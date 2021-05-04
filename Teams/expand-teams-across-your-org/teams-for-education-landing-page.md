@@ -28,9 +28,8 @@ With Teams, educators and faculty can create collaborative classrooms, connect i
 
 |               |               |
 | ------------- | ------------- |
-| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Quick start - Teams for Education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![sign-up-teams](../media/sign-up-teams.svg) | [Assignments in Teams for Education](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![insights-teams](../media/insights-teams.svg) | [Insights in Teams for Education](https://docs.microsoft.com/microsoftteams/class-insights) |
-| ![toolbox](../media/toolbox.svg)  |  [Resources for Teams for Education admins](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![task-checklist-planning-teams](../media/task-checklist-planning-teams.svg)  |  [Governance FAQ for Teams for Education admins](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
-
+| ![Screenshot of right arrow icon](../media/arrow-right-2-teams.svg)  |  [Quick start - Teams for Education admins](../teams-quick-start-edu.yml) |
+| ![Screenshot of paper and pencil icon](../media/sign-up-teams.svg) | [Assignments in Teams for Education](./assignments-in-teams.md) |
+| ![Screenshot of insights icon](../media/insights-teams.svg) | [Insights in Teams for Education](../class-insights.md) |
+| ![Screenshot of toolbox icon](../media/toolbox.svg)  |  [Resources for Teams for Education admins](../resources-teams-edu.md) |
+| ![Screenshot of checklist icon](../media/task-checklist-planning-teams.svg)  |  [Governance FAQ for Teams for Education admins](../plan-teams-governance-edu.md) |

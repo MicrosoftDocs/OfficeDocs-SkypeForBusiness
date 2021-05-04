@@ -63,7 +63,7 @@ If you do not have a Skype for Business hybrid topology established, you need to
 
 ### Plan your auto attendant migration
 
-Admins can start migrating their auto attendants from ExchUMO to the Cloud auto attendant at any time. See [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) for more details.
+Admins can start migrating their auto attendants from ExchUMO to the Cloud auto attendant at any time. See [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant) for more details.
 
 Microsoft continues to deliver additional auto attendant capabilities that customers might consider required for their migration. Admins should evaluate the feature set and migrate their auto attendant instances accordingly. For a feature-list comparison, see the [ExchUMO and Azure cloud-based services feature matrix](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
@@ -107,9 +107,9 @@ Microsoft 365 and Office 365 organization administrators are required to re-crea
 
 We strongly advise that you start the setup of your new auto attendants early to avoid last minute issues and to get familiar with the functionality and experience of the Cloud Auto Attendant service. For auto attendants that require one or more gap features, you can create and test the auto attendants when the gap features are available to prepare for deployment. For more information about gap features, see the [Appendix](#appendix).
 
-1. Use the Exchange UMO cmdlets to export the configuration of existing auto attendants by using [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant).  
-2. Use the [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) cmdlet in Exchange Online PowerShell to export the greeting media files (if used) and convert them to .mp3 format.
-3. Follow the instructions in [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) to create auto attendants by using the Microsoft Teams admin center or Powershell.
+1. Use the Exchange UMO cmdlets to export the configuration of existing auto attendants by using [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+2. Use the [Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt) cmdlet in Exchange Online PowerShell to export the greeting media files (if used) and convert them to .mp3 format.
+3. Follow the instructions in [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant) to create auto attendants by using the Microsoft Teams admin center or Powershell.
 4. Review your greetings if the menu options changed.
 5. Configure transfers to your response groups by using the "Auto Attendant Call Transfer to PSTN" workaround in the [Known issues](#known-issues) section of this article.  
 6. Test the new auto attendants by calling them internally or assigning a test phone number.  
@@ -231,7 +231,7 @@ New Skype for Business users will be automatically provisioned for Cloud voicema
 
 ### Admin Auto Attendant management experience
 
-To learn more about auto attendants, see [Set up a Cloud auto attendant](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
+To learn more about auto attendants, see [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant).
 
 ### Known issues
 

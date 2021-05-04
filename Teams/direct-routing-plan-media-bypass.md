@@ -25,7 +25,7 @@ ms.custom: seo-marvel-apr2020
 
 Media bypass enables you to shorten the path of media traffic and reduce the number of hops in transit for better performance. With media bypass, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System. To configure media bypass, the SBC and the client must be in the same location or network.
 
-You can control media bypass for each SBC by using the **Set-CSOnlinePSTNGateway** command with the **-MediaBypass** parameter set to true or false. If you enable media bypass, this does not mean that all media traffic will stay within the corporate network. This article describes the call flow in different scenarios.    
+You can control media bypass for each SBC by using the **Set-CSOnlinePSTNGateway** command with the **-MediaBypass** parameter set to true or false. If you enable media bypass, this does not mean that all media traffic will stay within the corporate network. This article describes the call flow in different scenarios.
 
 The diagrams below illustrate the difference in call flow with and without media bypass.
 
@@ -65,7 +65,7 @@ If the user has direct access to the public IP address of the SBC, the call flow
 
 The following diagram shows call flow when media bypass is enabled, the client is internal, and the client can reach the public IP address of the SBC (direct media): 
 
-- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
+- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](./microsoft-teams-online-call-flows.md).
 
 - The SIP signaling always takes paths 4 and 4' (depending on the direction of the traffic). Media stays local and takes path 5b.
 
@@ -86,7 +86,7 @@ For example, assume the user is external, and the tenant administrator decided n
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
 
-- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows).
+- The arrows and numeric values of the paths are in accordance with [Microsoft Teams call flows](./microsoft-teams-online-call-flows.md).
 
 - Media is relayed via paths 3, 3', 4 and 4'
 
@@ -101,7 +101,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client can reach the public IP address of the SBC (direct media).
 
-- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) article.
+- The arrows and numeric values of the paths are in accordance with the [Microsoft Teams call flows](./microsoft-teams-online-call-flows.md) article.
 
 - The SIP signaling always takes paths 3 and 3' (depending on the direction of the traffic). Media flows using path 2.
 
@@ -121,7 +121,11 @@ There are two components in the Microsoft Cloud that can be in the path of media
 
    Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured .
 
-The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled. Note the diagram only illustrates traffic originating from--or destined to--end users.  
+The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled.
+
+> [!NOTE]
+> The diagram only illustrates traffic originating from--or destined to--end users.  
+
 - The Media Controller is a microservice in Azure that assigns Media Processors and creates Session Description Protocol (SDP) offers.
 
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
@@ -170,7 +174,7 @@ Direct Routing is offered in the following Microsoft 365 or Office 365 environme
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
-Learn more about [Office 365 and US Government environments](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
+Learn more about [Office 365 and US Government environments](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
 
 ### Microsoft 365, Office 365, and Office 365 GCC environments
 
@@ -251,7 +255,8 @@ Media traffic flows between the SBC and Teams client if direct connectivity is a
 
 The client must have access to the specified ports (see table) on the public IP address of the SBC. 
 
-Note: If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hair pinning on your NAT device so traffic never leaves the enterprise network equipment.
+> [!NOTE]
+> If the client is in an internal network, the media flows to the public IP address of the SBC. You can configure hair pinning on your NAT device so traffic never leaves the enterprise network equipment.
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -270,7 +275,7 @@ Transport Relays are in the same range as Media Processors (for non-bypass cases
 
 - 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
-## Office 365 GCC DoD environment
+### Office 365 GCC DoD environment
 
 - 52.127.64.0/21
 
@@ -310,7 +315,7 @@ The IP range for media traffic is
 
 - 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254)
 
-## Office 365 GCC DoD environment
+### Office 365 GCC DoD environment
 
 - 52.127.64.0/21
 
@@ -345,8 +350,8 @@ The example below illustrates this logic.
 
 | Set of users | Number of users | Trunk FQDN assigned in OVRP | Media bypass enabled |
 | :------------ |:----------------- |:--------------|:--------------|
-Users with non-media bypass trunk | 980 | sbc1.contoso.com:5060 | true
-Users with media bypass trunk | 20 | sbc2.contoso.com:5061 | false | 
+Users with non-media bypass trunk | 980 | sbc1.contoso.com:5061 | false |
+Users with media bypass trunk | 20 | sbc2.contoso.com:5060 | true | 
 
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
@@ -369,5 +374,3 @@ For all other endpoints that do not support media bypass, we will convert the ca
 ## See also
 
 [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
-
-
