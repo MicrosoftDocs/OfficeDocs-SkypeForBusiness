@@ -16,31 +16,26 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Manage voice recognition technology controls for an Intelligent Speaker
 
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
-
-Intelligent Speakers use voice profile information to recognize who said what in live transcription. When a Microsoft Teams Rooms for Windows meeting room is equipped with an Intelligent Speaker, live transcription can be used during the meeting. This article explains how you, a tenant admin, control the voice profiling that's used for voice recognition to generate live transcription. You can control to what degree the organization is using voice recognition and the following features:
+An Intelligent Speaker uses voice profile information to recognize who said what in live transcription. When a Microsoft Teams Rooms for Windows meeting room is equipped with an Intelligent Speaker, live transcription can be used during the meeting. This article explains how you, a tenant admin, control the voice profiling that's used for voice recognition to generate live transcription. You can control to what degree the organization is using voice recognition and the following features:
 
 - Edit the speaker's name in transcripts.
 - Change the speaker of a single utterance in the transcript or change the speaker in all the utterances in the transcript (but not on future transcripts).
 - Change the speaker identification for the people who are listed in the meeting.
-- Remove the identification of a single utterance or all utterances identified as that speaker on every transcript.
-
-## Use an Intelligent Speaker in Teams Rooms
-
-Intelligent Speakers are intelligent peripherals for Microsoft Teams Rooms. They'll bring speaker attributed transcription for participants in the meeting room. Intelligent Speakers include a special seven-microphone array. The speakers use voice profile information to identify voices of up to 10 people in meeting rooms. The speakers help you see who said what during and after the meeting.
+- Remove the identification of one or more utterances identified as that speaker, on every transcript.
 
 ### Review Intelligent Speaker requirements
+
+An Intelligent Speaker includes a special seven-microphone array. The speaker uses voice profile information to identify voices of up to 10 people in meeting rooms. 
 
 The following items are Intelligent Speaker requirements:
 
 - The customer tenant must be located in the U.S.(North America).<sup>1</sup> 
-- Meeting room should have a maximum of 10 people present in person.
-- Meeting room has an upload link of minimum 7 Mbps.
+- The meeting room should have a maximum of 10 people present in person.
+- The meeting room has an upload link of minimum 7 Mbps.
 
  <sup>1</sup> An Intelligent Speaker and associated biometric storage and usage will only be available in EN-US language and for US (NA-US region) tenants. Both conditions must be true for a tenant user to enroll and use an Intelligent Speaker for attributed transcription.
 
@@ -49,7 +44,7 @@ The following items are Intelligent Speaker requirements:
 An Intelligent Speaker connects directly using USB to the Teams Rooms console. For best results, we recommend that you use the same brand Intelligent Speaker with the same brand console.
 
 > [!NOTE]
-> A Yealink Intelligent Speaker must be used with a Yealink console.
+> A Yealink Intelligent Speaker **must** be used with a Yealink console.
 
 > [!NOTE]
 > We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
@@ -70,13 +65,13 @@ The diagram shows how the Intelligent Speaker is connected to the device.
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
 
-### Enable an Intelligent Speaker and user attribution
+### Enable an Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams.md) and the [PowerShell meeting cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
 
 The voice profile of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile is dismissed at the end of the meeting.
 
-The following are the required policies to set speaker and user recognition.
+The following are the required policies to set an Intelligent Speaker and user recognition.
 
 |Policy|Description|Values|
 |-|-|-|
@@ -85,17 +80,17 @@ The following are the required policies to set speaker and user recognition.
 |`enabletranscription`|Required for user and Teams rooms accounts|`true` and `false`|
 |||| 
 
-Settings are disabled by default. When the Capture policy is disabled:
+Settings are disabled by default. When the policies are disabled:
 
 - Users who have never enrolled can't view, enroll, or re-enroll.
 - The entry point to the enrollment flow will be hidden.
 - If users select a link to the enrollment page, they'll see a message that states this feature isn't enabled for their organization.  
-- Users who have already enrolled will be able to view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow. 
+- Users who have enrolled can view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow. 
 - The Teams Rooms device won't send audio stream-saving bandwidth from the room.  
 - Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.
 - Meeting room users are unknown.
 
-When the settings are enabled:
+When the policies are enabled:
 
 - Users can view, access, and complete the enrollment flow.
 - The entry point will show on Teams settings page under the **Recognition** tab.
