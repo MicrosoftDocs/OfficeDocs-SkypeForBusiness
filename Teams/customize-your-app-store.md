@@ -101,6 +101,8 @@ When you select **Choose a custom color**, a color chooser opens. Select the col
 When you've finished customizing your apps store, be sure to select **Save** to save your changes.
 To preview your changes, select **Preview apps store** to see a representation of your customized apps store.
 
+![another option](media/PowerAppsInStore650w.png)
+
 [![preview of the custom apps store](media/app-store-branding.png)](media/BrandingInStore.png#lightbox)
 
 > [!Note]
