@@ -686,7 +686,7 @@ items:
               href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
             - name: Disabling toll-free numbers for specific users
               href: disabling-toll-free-numbers-for-specific-teams-users.md
-            - name: Outbound calling restriction policies for Audio Conferencing and user PSTN calls
+            - name: Outbound calling restriction policies for Audio Conferencing and user PSTN call
               href: outbound-calling-restriction-policies.md
             - name: View and reset a conference ID assigned to a user
               href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
@@ -722,7 +722,7 @@ items:
       items: 
         - name: What are Teams live events?
           href: teams-live-events/what-are-teams-live-events.md
-        - name: Plan for Teams live events
+        - name: Plan for Teams lives events
           href: teams-live-events/plan-for-teams-live-events.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
@@ -1057,20 +1057,40 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
             - name: Phone number management for Canada
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+            - name: Phone number management for the Czech Republic
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
             - name: Phone number management for Denmark
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+            - name: Phone number management for Finland
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
             - name: Phone number management for France
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
             - name: Phone number management for Germany
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+            - name: Phone number management for Hungary
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
             - name: Phone number management for Ireland
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
             - name: Phone number management for Italy
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
             - name: Phone number management for Japan
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+            - name: Phone number management for Luxembourg
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+            - name: Phone number management for New Zealand
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+            - name: Phone number management for Norway
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+            - name: Phone number management for Poland
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
             - name: Phone number management for Portugal
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+            - name: Phone number management for Romania
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+            - name: Phone number management for Singapore
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+            - name: Phone number management for Slovakia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
             - name: Phone number management for Spain
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
             - name: Phone number management for the Netherlands
@@ -1417,7 +1437,7 @@ items:
           href: batch-group-policy-assignment-edu.md
         - name: PowerShell script to create security groups for educators and students
           href: scripts/powershell-script-security-groups-edu.md
-        - name: Low bandwidth guidance for Education admins
+        - name: Low-bandwidth guidance for Education admins
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
