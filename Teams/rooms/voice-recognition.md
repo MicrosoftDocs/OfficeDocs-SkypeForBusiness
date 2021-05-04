@@ -27,7 +27,7 @@ An Intelligent Speaker uses voice profile information to recognize who said what
 - Change the speaker identification for the people who are listed in the meeting.
 - Remove the identification of one or more utterances identified as that speaker, on every transcript.
 
-### Review Intelligent Speaker requirements
+## Review Intelligent Speaker requirements
 
 An Intelligent Speaker includes a special seven-microphone array. The speaker uses voice profile information to identify voices of up to 10 people in meeting rooms. 
 
@@ -65,7 +65,7 @@ The diagram shows how the Intelligent Speaker is connected to the device.
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
 
-### Enable an Intelligent Speaker user recognition
+## Enable an Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams.md) and the [PowerShell meeting cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
 
