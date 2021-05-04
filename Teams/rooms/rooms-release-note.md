@@ -83,7 +83,7 @@ Introduced in this update:
 - Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download version 4.8.19.0 from [Manually update a Microsoft Teams Rooms device](manual-update.md)
 - Join Zoom meetings with better video quality (720p support) and receive the video gallery of participants
 - Skype for Business sign-in failure banner removed for Teams default mode. This change supports organizations removing Skype for Business infrastructure
-- Teams meetings join link parsing now handles Microsoft Defender Advanced Thread Protection Safe Links to allow joining external Teams seamlessly
+- Teams meetings join link parsing now handles Microsoft Defender Advanced Threat Protection Safe Links to allow joining external Teams seamlessly
 - Fix for shared content scaling issue in Skype for Business meetings when the sharer's PC has a custom DPI set in Windows
 - Quality and reliability fixes
 
