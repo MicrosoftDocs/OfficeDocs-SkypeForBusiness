@@ -29,7 +29,7 @@ description: "Summary: Learn about Skype for Business Server 2015 integration wi
 
 You can configure Skype for Business Server 2015 deployments for integration with Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010, and SharePoint Server, both on-premises and online. The features listed in the following table are supported with all clients unless otherwise specified. For more information about client support, see [Desktop client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) and Skype for Business Online client comparison tables at [Clients for Skype for Business Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-features).
 
-[!INCLUDE [sfbo-retirement-sfbonline](../../SfbOnline/includes/sfbo-retirement-sfbonline.md)]
+[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement-skype.md)]
 
 ## Integration with Exchange Server
 
