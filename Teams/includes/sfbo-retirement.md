@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Skype for Business Online will be retired on July 31, 2021. If you haven't upgraded your organization to Microsoft Teams before that date, your organization will be automatically scheduled for an [assisted upgrade](../upgrade-assisted.md). If you want to upgrade your organization to Teams yourself, we strongly recommend that you begin planning your upgrade path today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage our [upgrade guidance](../upgrade-start-here.md) as you navigate your journey to Teams.
