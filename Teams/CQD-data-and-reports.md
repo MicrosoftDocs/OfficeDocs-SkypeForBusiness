@@ -385,30 +385,14 @@ Login-AzureRmAccount
 
 ## Comparing Teams and Skype for Business CQD data
 
-Even within the latest CQD (cqd.teams.microsoft.com), you'll see differences in data between Teams and Skype for Business. Some reasons:
+When reviewing your data, you may see differences in data between Teams and Skype for Business. Some reasons:
 - Differences in the mechanisms for ensuring performance and reliability:
   - Teams has auto-reconnect and fast roaming. Skype for Business doesn't.
   - Teams has dynamic bandwidth management. Skype for Business doesn't.
 - Differences in [IP address ranges](Office-365-URLs-IP-address-ranges.md) between Teams and Skype for Business. The Teams IP ranges are newer, which could cause connectivity problems at the firewall.
 
-## Open CQD from the Skype for Business legacy portal
-
-![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
-
-1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
-
-2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
-
-3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
-
-   ![Screenshot: Select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-
-4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
-
-After the first time you sign in, CQD will begin collecting and processing data. 
-
 > [!IMPORTANT]
-> As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned. As of July 1, 2020, the older version of CQD accesses data from the new CQD (https://CQD.teams.microsoft.com), and you can no longer export building and report data. Sometime in late 2020, we'll turn off the old CQD and you'll no longer be able to access it.
+> As of July 1, 2020, the legacy version of CQD (cqd.lync.com) accesses data from the new CQD (https://CQD.teams.microsoft.com), and you can no longer export building and report data. Effective July 31, 2021, coinciding with the retirement of Skype for Business Online, we'll turn off legacy CQD and you'll no longer be able to access it.
 
 
 ## Related topics
