@@ -59,7 +59,7 @@ To move users between on premises and the cloud (whether to Teams or to Skype fo
 
 To move users between on premises and the cloud, you must use an account with sufficient privileges in both the on-premises Skype for Business Server environment as well as in the Microsoft 365 or Office 365 organization. You can either use one account that has all the necessary privileges, or you can use two accounts, in which case you would access the on-premises tools using on-premises credentials, and then in those tools you would supply additional credentials for a Microsoft 365 or Office 365 administrative account.  
 
-- In the on-premises environment, the user performing the move must have the CSServerAdminstrator role in Skype for Business Server.
+- In the on-premises environment, the user performing the move must have the CSServerAdministrator role in Skype for Business Server.
 - In Microsoft 365 and Office 365, the user performing the move must either be a Global Administrator or must have both Skype for Business Administrator and User Administrator roles.  
 
     > [!Important]
