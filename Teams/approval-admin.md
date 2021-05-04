@@ -50,11 +50,20 @@ To use the Approvals app, you need permission for the following items:
 
 - License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
 
+- License for Microsoft Forms is required for user’s to setup new approval templates. 
+
 ## Storage with CDS
 
 The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
+
+Approvals that are created from a template are still stored in CDS such as their title, details, template ID, and more. Responses that are submitted on the approval request are stored in Forms. Learn more about  [Data storage for Microsoft Forms](https://support.microsoft.com/en-us/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe). 
+
+>[!Note] 
+>If you delete the Form template on the Microsoft Forms site, it will break your Approval template and users will not be able to start the request. Users will get an error "CDB TableNotFound" when trying to open a Approval template that has been deleted on Microsoft Forms. 
+
+The approval templates are stored in Substrate Data Storage(SDS), which is a compliant storage platform used internally only inside Microsoft. The organization scoped templates are stored in “tenant shard” of SDS, and team scoped templates are stored in “group shards” of SDS, which means the org-scoped templates would share the same lifetime of the tenant and team-scoped templates would share the same lifetime of the team, when the team is deleted permanently, the related templates would be deleted as well. 
 
 ## Approvals Teams app permissions
 
@@ -79,6 +88,15 @@ The Approvals Teams app lets you access the following features:
 
 - Use the team's information to contact them.
 
+Approval Template Permissions
+
+- All team owners have the ability to create an approval template for their specific teams that they are the owner of. 
+
+- When an Admin creates a template for their entire organization for the first time It will automatically create a new Teams team for all admins of the tenant which include the global and Team’s service admins. These admins will be added as owners of the team, so they have the ability to co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as the team owner so they have the same permissions to manage organization wide templates. 
+
+> [!Note] 
+> If an admin deletes the team you have one month to restore it within the Azure Active Directory (AAD) portal and all related data will be restored as well. After one month or if the admin deletes this team within the recycle bin all data will be lost.   
+
 ## Disable the Approvals app
 
 The Approvals app is available by default. You can disable the app in the Teams admin center.
@@ -100,6 +118,12 @@ The Approvals app is available by default. You can disable the app in the Teams 
 ## Retention policy
 
 Approvals created from the Approvals App are stored in the default CDS environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+
+For the data stored in Forms, it will not be deleted until the team owners clean it up from delete forms tab in Microsoft Forms web app. 
+
+## Data limitations
+
+Each of the teams could contain at most 400 approvals templates, and each of the template could collect 50,000 requests, based on the current capability in Microsoft Forms. 
 
 ## Auditing
 
@@ -136,6 +160,14 @@ You can search for the following activities:
 - Reviewed e-signature request
 
 - Canceled e-signature request
+
+- Create new template
+
+- Edit an existing template
+
+- Enable/disable a template
+
+- Viewed template
 
 For access to more auditing approvals within Flow, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
