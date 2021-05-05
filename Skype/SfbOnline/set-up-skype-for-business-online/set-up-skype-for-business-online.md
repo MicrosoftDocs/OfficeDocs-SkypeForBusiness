@@ -30,6 +30,8 @@ description: "Learn to set up your domain, users, IM and presence for your organ
 
 You must have global admin permissions to set up Skype for Business. If you have a firewall or proxy server that restricts access to parts of the web, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to set up Skype for Business for you.
 
+[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement-skype.md)]
+
 ## Setting up Skype
 
 Looks like you need help setting up Skype with your Microsoft 365 or Office 365 subscription. You can follow the steps in this article to get your setup completed.
