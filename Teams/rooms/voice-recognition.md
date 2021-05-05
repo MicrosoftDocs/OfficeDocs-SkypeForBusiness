@@ -29,11 +29,11 @@ An Intelligent Speaker uses voice profile information to recognize who said what
 
 ## Review Intelligent Speaker requirements
 
-An Intelligent Speaker includes a special seven-microphone array. The speaker uses voice profile information to identify voices of up to 10 people in meeting rooms. 
+An Intelligent Speaker includes a special seven-microphone array. The speaker uses voice profile information to identify voices of up to 10 people in meeting rooms.
 
 The following items are Intelligent Speaker requirements:
 
-- The customer tenant must be located in the U.S.(North America).<sup>1</sup> 
+- The customer tenant must be located in the U.S.(North America).<sup>1</sup>
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
 
@@ -76,16 +76,16 @@ The following are the required policies to set an Intelligent Speaker and user r
 |Policy|Description|Values|
 |-|-|-|
 |`enrollUserOverride`|Use to set voice profile capture, or enrollment, in Teams settings for a tenant. |`Enabled` and `Disabled`|
-|`roomAttributeUserOverride`|Control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts.|- `Off`<br/>- `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). <br/> - `distinguish`, *This setting will be available at a later date.*| 
+|`roomAttributeUserOverride`|Control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts.|- `Off`<br/>- `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). <br/> - `distinguish`, *This setting will be available at a later date.*|
 |`enabletranscription`|Required for user and Teams rooms accounts|`true` and `false`|
-|||| 
+||||
 
 Settings are disabled by default. When the policies are disabled:
 
 - Users who have never enrolled can't view, enroll, or re-enroll.
 - The entry point to the enrollment flow will be hidden.
 - If users select a link to the enrollment page, they'll see a message that states this feature isn't enabled for their organization.  
-- Users who have enrolled can view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow. 
+- Users who have enrolled can view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow.
 - The Teams Rooms device won't send audio stream-saving bandwidth from the room.  
 - Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.
 - Meeting room users are unknown.
