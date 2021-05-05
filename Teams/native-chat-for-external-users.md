@@ -28,7 +28,7 @@ To see a list of capabilities for external access users in Teams, see [Compare e
 
 ## How do I know if I'm in a native chat?
 
-If you can only exchange text in your chat with people in other organizations, then you're in a standard external-access (federated) chat. If you've got all of the other chat functionality, including formatting, @mentions, emojis, etc., then you're in a native Teams chat. 
+If you can only exchange text in your chat with people in other organizations, then you're in a standard external-access (federated) chat. If you've got other chat functionality, including formatting, @mentions, emojis, etc., then you're in a native Teams chat. 
 
 Teams periodically checks the upgrade mode for people in other organizations and, when it finds an them running Teams in the TeamsOnly upgrade mode, it'll prompt you to switch to a native Teams chat and lock the original chat.
 
