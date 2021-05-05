@@ -122,9 +122,6 @@ However,  Microsoft may decide in the future to use the same voice enrollment da
 
 Yes, audio data collected from user can be exported by the tenant admin using Teams admin center.
 
-> [!NOTE]
-> In the future, if we can give a bar of how good the audio data is, then you can evaluate the quality of the transcript.
-
 ## Related topics
 
 [Support article: Use Intelligent Speakers to Identify in-room participants ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
