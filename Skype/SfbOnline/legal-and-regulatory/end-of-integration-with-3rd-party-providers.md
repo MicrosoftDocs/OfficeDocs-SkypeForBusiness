@@ -26,6 +26,8 @@ description: "On July 31, 2021, the end of life program will conclude for the in
 
 Microsoft has announced the start of the end of life program for the integration of Skype for Business with third-party audio conferencing providers (ACPs). 
 
+[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement-skype.md)]
+
 The end of life program will conclude on July 31, 2021. When the program concludes, the integration of Skype for Business with third-party audio conferencing providers will stop working and the following changes will be observed on that date (July 31, 2021):
 
 - Participants who attempt to join any Skype for Business meeting via dial-in numbers provided by a third-party ACP service will no longer be connected to the Skype for Business meeting.
