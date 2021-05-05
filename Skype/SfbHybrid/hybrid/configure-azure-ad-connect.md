@@ -22,7 +22,9 @@ description: "Instructions for configuring Azure AD Connect in a hybrid environm
 
 # Configure Azure AD Connect for Teams and Skype for Business
  
-Organizations that have Skype for Business Server (or Lync Server) on-premises and who are planning to use either Teams or Skype for Business Online must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365 or Office 365, as described in this document.  This includes organizations that move directly from Skype for Business on-premises to Teams. In particular, organizations with Skype for Business on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. 
+Organizations that have Skype for Business Server (or Lync Server) on-premises and who are planning to use either Teams or Skype for Business Online must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365 or Office 365, as described in this document.  This includes organizations that move directly from Skype for Business on-premises to Teams. In particular, organizations with Skype for Business on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD.
+
+[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement-skype.md)]
 
 > [!NOTE]
 > Existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud in order to get full functionality-- such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. Even if the user will only be using Teams, this online Skype for Business account is required by the infrastructure to deliver the additional functionality.  For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.
