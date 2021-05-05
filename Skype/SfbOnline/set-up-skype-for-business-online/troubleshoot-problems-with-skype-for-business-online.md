@@ -25,6 +25,8 @@ description: "Learn how to fix issues for admins and users of Skype for Business
 
 Sometimes things aren't working like you expect. Here is a list of topics that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.
 
+[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement-skype.md)]
+
 ## Troubleshoot admin issues for Skype for Business Online
 
 You can get answers for most of your Skype for Business Online questions in the article [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094). The following KB article also includes many troubleshooting resources and error code references: [Troubleshooting Skype for Business Online sign-in errors for administrators](./troubleshooting-sign-in-errors-for-admins.md).
