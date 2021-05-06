@@ -23,6 +23,8 @@ description: "Skype for Business Online allows you to create additional external
 
 # Create custom external access policies
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios. These are:
   
 - No Federated or Skype Consumer Access (_Tag:NoFederationAndPIC_ )
