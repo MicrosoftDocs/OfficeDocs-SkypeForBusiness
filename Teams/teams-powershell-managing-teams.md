@@ -25,7 +25,7 @@ Use this guidance in conjunction with the [Microsoft Teams cmdlet reference](/po
 
 The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/).
 
-Teams are backed by Office 365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
+Teams are backed by Office 365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Administrator, you'll be able to act on all teams in your organization.
 
 ```powershell
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"

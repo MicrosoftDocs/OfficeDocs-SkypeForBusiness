@@ -137,8 +137,9 @@ If you want to use Power BI to analyze your CQD data, read [Use Power BI to anal
 ### Select product data to see in reports
 
 In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
-  
-![Screenshot: shows the Product Filter control options](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows the Product Filter control options](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
 In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data.
 
@@ -156,25 +157,29 @@ These are the reports that you'll see on the CQD Dashboard when you first sign i
 ### Overall Call Quality tab
 
 Use the data on this tab to evaluate call quality status and trends based on stream counts and poor percentages. The legend in the upper-right corner shows which color and visual elements represent these metrics.
-  
-![Screenshot: show the Call Quality tab](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: show the Call Quality tab](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*, the *Poor %*  is unaffected by the presence of multiple *Unclassified*  streams. To see what classifies a stream as poor or good, refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).
   
 Use the scale on the left to measure the stream count values.
-  
-![Screenshot: shows stream count values](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows stream count values](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 Use the scale on the right to measure the Poor % values.
-  
-![Screenshot: shows poor % values](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows poor % values](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 You can also obtain the actual numerical values by hovering the mouse over a bar.
   
 > [!NOTE]
 > The following example is from a very small sample data set, and the values aren't realistic for an actual deployment.
-  
-![Screenshot: shows mouse used to access data](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows mouse used to access data](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 The overall stream volume helps determine how relevant the calculated Poor percentages are. The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
   
@@ -380,30 +385,14 @@ Login-AzureRmAccount
 
 ## Comparing Teams and Skype for Business CQD data
 
-Even within the latest CQD (cqd.teams.microsoft.com), you'll see differences in data between Teams and Skype for Business. Some reasons:
+When reviewing your data, you may see differences in data between Teams and Skype for Business. Some reasons:
 - Differences in the mechanisms for ensuring performance and reliability:
   - Teams has auto-reconnect and fast roaming. Skype for Business doesn't.
   - Teams has dynamic bandwidth management. Skype for Business doesn't.
 - Differences in [IP address ranges](Office-365-URLs-IP-address-ranges.md) between Teams and Skype for Business. The Teams IP ranges are newer, which could cause connectivity problems at the firewall.
 
-## Open CQD from the Skype for Business legacy portal
-
-![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
-
-1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
-
-2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
-
-3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
-
-   ![Screenshot: Select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-
-4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
-
-After the first time you sign in, CQD will begin collecting and processing data. 
-
 > [!IMPORTANT]
-> As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned. As of July 1, 2020, the older version of CQD accesses data from the new CQD (https://CQD.teams.microsoft.com), and you can no longer export building and report data. Sometime in late 2020, we'll turn off the old CQD and you'll no longer be able to access it.
+> As of July 1, 2020, the legacy version of CQD (cqd.lync.com) accesses data from the new CQD (https://CQD.teams.microsoft.com), and you can no longer export building and report data. Effective July 31, 2021, coinciding with the retirement of Skype for Business Online, we'll turn off legacy CQD and you'll no longer be able to access it.
 
 
 ## Related topics

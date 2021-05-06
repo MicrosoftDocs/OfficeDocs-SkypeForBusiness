@@ -23,6 +23,8 @@ description: "Learn about the Skype Meeting Broadcast feature of Skype for Busin
 
 # Set up your network for Skype Meeting Broadcast
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 After you [Enable Skype Meeting Broadcast](enable-skype-meeting-broadcast.md) Skype Meeting Broadcast, you need to configure your network. Do this step if you want to hold webinars and other broadcasts for people outside of your business.
 
 > [!IMPORTANT]
