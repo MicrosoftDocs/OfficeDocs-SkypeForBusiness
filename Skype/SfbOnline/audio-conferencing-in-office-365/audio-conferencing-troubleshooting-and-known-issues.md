@@ -25,6 +25,8 @@ description: "Get a list of known issues when using Microsoft as their dial-in c
 
 # Audio Conferencing troubleshooting and known issues
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
  **This article is for Skype for Business users using Microsoft as their audio conferencing provider. It does not apply to customers who are using a third-party audio conferencing provider (ACP).**
   
 ## Troubleshooting and known issues

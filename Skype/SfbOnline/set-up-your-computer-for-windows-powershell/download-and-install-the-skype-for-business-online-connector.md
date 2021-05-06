@@ -23,6 +23,8 @@ description: Download, install, and then use the Skype for Business Online Conne
 
 # Download and install the Teams PowerShell module
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!NOTE]
 
 > The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams and Skype for Business online PowerShell management.

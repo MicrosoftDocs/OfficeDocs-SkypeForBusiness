@@ -24,6 +24,8 @@ description: "This article helps to explain the core call flow principles for Sk
 
 # Call flow using ExpressRoute
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article helps to explain the core call flow principles for Skype for Business Online and ExpressRoute, and gives you some detailed examples of call flows so you can understand and plan correctly.
 
 If you are deploying Skype for Business Online as part of Microsoft 365 or Office 365, Skype for Business Server Hybrid, or Skype for Business Cloud Connector Edition, you will need to understand the communication between the Skype for Business client and servers and the call flow so you can effectively plan, deploy, operate, and troubleshoot your Skype for Business Online services.
