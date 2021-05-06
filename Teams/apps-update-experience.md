@@ -1,5 +1,5 @@
 ---
-title: Customized apps update experience in Microsoft Teams
+title: Apps update experience in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,10 +17,10 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to update customized apps in Microsoft Teams. 
+description: Learn how to update apps in Microsoft Teams. 
 ---
 
-# Update custom apps in Microsoft Teams
+# Update apps in Microsoft Teams
 
 In most cases, after you publish an app update, the new version automatically appears for users. However, there are some updates to the <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
 
@@ -38,6 +38,8 @@ In most cases, after you publish an app update, the new version automatically ap
 
 ![upgrade option for an app](media/manage-your-custom-apps-update2.png)
 
+[!NOTE] The update process applies to all app updates for Microsoft apps, customized apps, and third-party apps. 
+
 ## Related topics
 
-[Manage custom apps](manage-apps.md)
+[Manage apps](manage-apps.md)
