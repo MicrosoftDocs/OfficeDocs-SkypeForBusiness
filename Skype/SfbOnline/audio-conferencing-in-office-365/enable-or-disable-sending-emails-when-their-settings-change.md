@@ -25,6 +25,8 @@ description: "Learn how to enable or disable Skype from sending emails to users 
 
 # Enable or disable sending emails when Audio Conferencing settings change in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!Note]
 > If you want to enable or disable sending emails in Microsoft Teams, see [Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
 

@@ -26,6 +26,8 @@ description: "Learn what Skype for business user statistics are available, such 
 
 # User statistics and organization information
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 The Skype for Business dashboard gives you a quick snapshot of how the service is set up for your business. If you haven't yet configured Skype for Business, see [Set up Skype for Business Online](set-up-skype-for-business-online.md) for step-by-step instructions.
   
 ## How to change Skype for Business Online user statistics

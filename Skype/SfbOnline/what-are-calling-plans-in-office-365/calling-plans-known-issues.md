@@ -23,6 +23,8 @@ description: "Learn known issues with the calling plan for PSTN Calling and what
 
 # Calling Plans known issues
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Calling Plans are a new feature found in Skype for Business Online. The following are current issues that are being tracked and actively investigated. They will be potentially resolved when the feature is updated in future builds.
   
 ## Calling Plans known issues

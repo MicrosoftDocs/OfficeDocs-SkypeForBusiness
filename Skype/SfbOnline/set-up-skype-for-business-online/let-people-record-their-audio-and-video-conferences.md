@@ -24,6 +24,8 @@ description: "How to turn on recording for audio and video conferences, and lear
 
 # Let people record their audio and video conferences
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 ## Choose the default recording setting for a single user or everyone in your organization
 
 ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
