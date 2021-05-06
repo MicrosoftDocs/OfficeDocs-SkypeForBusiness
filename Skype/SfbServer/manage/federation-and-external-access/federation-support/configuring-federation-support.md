@@ -26,7 +26,7 @@ You can provide communications services to users in your organization in any of 
 
 If you deploy Skype for Business in your organization, you can federate with the domains of one or more Skype for Business Online customers. To enable federation between users of your on-premises Skype for Business deployment and users of a Skype for Business Online customer, you must configure support for the domain and users of the Skype for Business Online customer.
 
-[!INCLUDE [sfbo-retirement-skype](../../../../Hub/includes/sfbo-retirement-skype.md)]
+[!INCLUDE [sfbo-retirement-skype](../../../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]  
 > This documentation describes only the procedures for configuring your organization to support federation with an Skype for Business Online customer. This documentation does not describe the procedures for configuring the Skype for Business Online customer to support federation.

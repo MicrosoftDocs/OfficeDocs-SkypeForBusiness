@@ -34,7 +34,7 @@ To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://a
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams Rooms summary pages in Teams admin center":::
 
 > [!IMPORTANT]
-> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Service Administrator or Teams Device Administrator roles.
+> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator or Teams Device Administrator roles.
 
 ## Make changes to Teams Rooms devices
 

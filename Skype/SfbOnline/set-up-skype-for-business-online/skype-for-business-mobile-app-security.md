@@ -23,6 +23,8 @@ description: "Learn to set up mobile app security for your users. "
 
 # Skype for Business mobile app security
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 ## Skype for Business Client Security
 
 This article covers data encryption information on Skype for Business Mobile Apps.

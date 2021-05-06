@@ -25,6 +25,8 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Enterprise E5
 
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 The [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) plan includes most Skype for Business features. There are just a few additional options.
   
 |||
