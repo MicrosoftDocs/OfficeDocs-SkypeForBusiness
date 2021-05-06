@@ -39,7 +39,7 @@ Congratulations on your pending upgrade from Skype for Business to Microsoft Tea
 
 Whether you are upgrading from Skype for Business Online to Teams or from a Skype for Business on-premises environment to Teams, the upgrade framework will guide you through the process based on your business scenario. We also encourage you to visit the [Upgrade hub](upgrade-skype-teams.yml) for additional training and resources for implementing a successful upgrade from Skype for Business to Teams.
 
-[!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement-skype.md)]
+[!INCLUDE [sfbo-retirement](../Skype/Hub/includes/sfbo-retirement.md)]
 
 Keep reading for frequently-asked questions about upgrade.
 
