@@ -23,9 +23,9 @@ description: "Learn how to fix issues for admins and users of Skype for Business
 
 # Troubleshoot problems with Skype for Business Online
 
-Sometimes things aren't working like you expect. Here is a list of topics that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement-skype.md)]
+Sometimes things aren't working like you expect. Here is a list of topics that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.
 
 ## Troubleshoot admin issues for Skype for Business Online
 

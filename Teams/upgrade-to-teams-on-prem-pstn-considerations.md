@@ -23,7 +23,7 @@ appliesto:
 
 This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.
 
-[!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement-skype.md)]
+[!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 
