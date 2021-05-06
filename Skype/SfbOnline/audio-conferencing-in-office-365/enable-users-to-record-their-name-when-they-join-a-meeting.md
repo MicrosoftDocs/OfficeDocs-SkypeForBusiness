@@ -25,6 +25,8 @@ description: "Learn how to enable or disable whether your users can record their
 
 # Enable users to record their name when they join a meeting in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!Note]
 > If you want to allow users to record their names in Teams, see [Enable users to record their name when they join a meeting in Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 

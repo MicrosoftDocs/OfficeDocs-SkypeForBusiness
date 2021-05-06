@@ -23,6 +23,8 @@ description: "Troubleshoot creating a remote PowerShell session to connect to Sk
 
 # Diagnose connection problems with the Skype for Business Online Connector
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This topic provides information that will help you diagnose and resolve problems that can occur when you try to create a remote Microsoft PowerShell session that connects to Skype for Business Online. See the following sections:
   
 - [Import-Module error caused by Windows PowerShell execution policy](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
