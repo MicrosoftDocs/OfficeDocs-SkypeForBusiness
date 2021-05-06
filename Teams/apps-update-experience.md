@@ -38,7 +38,8 @@ In most cases, after you publish an app update, the new version automatically ap
 
 ![upgrade option for an app](media/manage-your-custom-apps-update2.png)
 
-[!NOTE] The update process applies to all app updates for Microsoft apps, customized apps, and third-party apps. 
+> [!NOTE] 
+> The update process applies to all app updates for Microsoft apps, customized apps, and third-party apps. 
 
 ## Related topics
 
