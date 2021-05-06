@@ -120,7 +120,7 @@ However,  Microsoft may decide in the future to use the same voice enrollment da
 
 **Is an Intelligent Speaker General Data Protection Regulation (GDPR) compliant?**
 
-Yes, audio data collected from user can be exported by the tenant admin using Teams admin center.
+Your IT admin can export your audio data at any time.
 
 ## Related topics
 
