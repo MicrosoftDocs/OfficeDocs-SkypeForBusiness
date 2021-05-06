@@ -4,7 +4,7 @@ ms.reviewer: tejeshs
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 05/06/21
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -30,7 +30,7 @@ There are three types of log files automatically produced by the client, which c
 
 This article describes the three logs and how they are used. 
 
-For information about troubleshooting specific issues, see: [Teams Troubleshooting](MicrosoftTeams/troubleshoot/teams). For information about how to contact support, see [Get support](/microsoft-365/business-video/get-help-support).
+For information about troubleshooting specific issues, see: [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams). For information about how to contact support, see [Get support](/microsoft-365/business-video/get-help-support).
 
 When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **desktop** logs are only required if requested by Microsoft.
 
