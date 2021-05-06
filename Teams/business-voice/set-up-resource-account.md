@@ -21,11 +21,20 @@ appliesto:
 
 # Step 4: Set up a Business Voice resource account
 
-In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned service telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
+Resource accounts aren't assigned to any specific user. Instead, resource accounts, which use a free virtual user license, are used by devices and services in Microsoft 365. In Microsoft Teams, resource accounts are assigned phone numbers and are then associated with auto attendants and call queues.
+
+By associating resource accounts to auto attendants and call queues, you can add one or more toll or toll-free phone numbers to them. For example, you could associate one resource account with a toll number to an auto attendant for local callers. For long distance calls, you could associate another resource account with a toll-free number to the same auto attendant.
+
+The sections in this article show you how to set up a resource account and then assign a phone number to it. Later on, you'll associate the resource account with an auto attendant.
 
 ## Obtain virtual user licenses
 
 Resource accounts require a license in order to work with auto attendants and call queues. You can use a free *Microsoft 365 Phone System - Virtual User* license.
+
+> [!NOTE]
+> You should only need to perform the following steps if you've signed up for a Business Voice trial period. If you purchased Business Voice licenses, virtual licenses should already be applied to your account. 
+>
+> To see if you already have virtual licenses, log into Microsoft 365 using an account with Global admin permissions. Then go to Billing > [Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have virtual licenses, they'll appear as **Microsoft 365 Phone System - Virtual User**.
 
 1. Open the Microsoft 365 admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 2. In the left navigation pane, go to <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">**Billing** > **Purchase services**</a> > **Add-ons** > **See all Add-ons products**.
@@ -51,7 +60,7 @@ After you've received your *Microsoft 365 Phone System - Virtual User* license, 
 5. In **Resource account type**, select **Auto attendant**.
 6. Select **Save**.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+![Screenshot of a list of resource accounts](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## Assign a license
 
