@@ -106,6 +106,16 @@ Templates are limited to a specific number of channels, tabs, and apps.
 
 See [Limits and specifications of Teams](limits-specifications-teams.md) for more information.
 
+## Manage templates in PowerShell
+
+Use the following cmdlts to manage your templates in PowerShell.
+
+- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+
 ## Related topics
 
 - [Create a custom team template](create-a-team-template.md)
