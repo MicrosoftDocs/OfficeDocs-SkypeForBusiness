@@ -182,7 +182,7 @@ services.
 ### Monitoring with the mobile app
 
 The Microsoft 365 Admin app is available on Apple iOS, Android, and Windows (PC and
-mobile). The app provides service administrators information about service
+mobile). The app provides administrators information about service
 health and upcoming changes. The app supports push notifications that can alert
 you almost immediately after an advisory has been posted. This helps you stay
 current on the status, health, and any upcoming changes to the service. The
@@ -343,7 +343,7 @@ Reviewing usage frequently early in the deployment gives you the opportunity to:
 
 - Understand whether there are discrepancies between the Envision phase requirements and actual usage.
 
-If usage isn't what you expect, this could be due to a deployment issue, or the adoption plan isn't being executed properly, or some other problem. Depending on the actual reason behind the low usage, the service administrator must collaborate with the related teams to help remove usage barriers.
+If usage isn't what you expect, this could be due to a deployment issue, or the adoption plan isn't being executed properly, or some other problem. Depending on the actual reason behind the low usage, the administrator must collaborate with the related teams to help remove usage barriers.
 
 ### Measuring usage with the Microsoft 365 admin center
 

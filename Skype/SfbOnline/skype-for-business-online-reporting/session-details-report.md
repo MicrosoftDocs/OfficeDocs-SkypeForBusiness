@@ -23,6 +23,8 @@ description: "The Reports dashboard shows you the activity overview across the M
 
 # Session details report
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 The **Reports** dashboard shows you the activity overview across the Microsoft 365 or Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business Session details** report to see details about individual user's call experiences.
   
 Check out [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.

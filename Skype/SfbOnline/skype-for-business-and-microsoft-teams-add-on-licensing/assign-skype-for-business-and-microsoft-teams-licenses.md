@@ -25,6 +25,8 @@ description: "Learn how to assign Skype for Business licenses for Phone System, 
 
 # Assign Skype for Business licenses
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]

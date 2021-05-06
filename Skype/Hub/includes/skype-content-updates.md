@@ -2,6 +2,25 @@
 
 
 
+## Week of April 26, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/27/2021 | Microsoft telephony solutions | removed |
+| 4/27/2021 | [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity) | modified |
+| 4/27/2021 | [Plan for Skype for Business Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition) | modified |
+| 4/29/2021 | [Validated Lync Applications](/SkypeForBusiness/lync-cert/validated-lync-apps) | modified |
+
+
+## Week of April 19, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/20/2021 | [Disable hybrid to complete migration to the cloud](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid) | modified |
+
+
 ## Week of April 05, 2021
 
 
@@ -22,13 +41,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 3/29/2021 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | modified |
-
-
-## Week of March 15, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/16/2021 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
-| 3/18/2021 | [Disable hybrid to complete migration to the cloud](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid) | modified |
-| 3/18/2021 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |

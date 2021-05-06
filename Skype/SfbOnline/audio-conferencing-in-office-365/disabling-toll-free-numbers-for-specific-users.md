@@ -23,6 +23,8 @@ description: "Administrators can control how organizers can use toll-free number
 ---
 
 # Disabling toll-free numbers for specific Skype for Business Online users
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
  
 > [!Note]
 > For information about disabling tool-free numbers for Teams users, see  [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).

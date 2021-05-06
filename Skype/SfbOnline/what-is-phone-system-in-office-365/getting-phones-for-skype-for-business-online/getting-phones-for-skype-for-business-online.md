@@ -26,6 +26,8 @@ description: "Learn which phones work with Skype for Business from Polycom, HP, 
 
 # Getting phones for Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
 
 > [!NOTE]
