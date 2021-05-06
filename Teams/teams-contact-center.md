@@ -1,7 +1,7 @@
 ---
 title: Teams Contact Center
-author: microsoftheidi
-ms.author: heidip
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,7 +20,7 @@ appliesto:
 
 # Contact Center integrations for Microsoft Teams
 
-Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.  This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and additional information on the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
+Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.  This article provides an overview of how tested and verified contact center solutions can be integrated with Microsoft Teams and additional information on the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
 
 ## What is a Contact Center integration for Microsoft Teams?
 
