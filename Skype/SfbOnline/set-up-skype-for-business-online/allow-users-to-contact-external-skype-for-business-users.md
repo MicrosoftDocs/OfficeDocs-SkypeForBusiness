@@ -31,6 +31,8 @@ description: "See how to configure Skype for Business to let users talk to users
 ---
 
 # Allow users to contact external Skype for Business users
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
   
 Use the steps in this article when:
   

@@ -26,6 +26,8 @@ description: "Learn what to do if your carrier isn't listed in Skype for Busines
 
 # What if my phone carrier isn't listed as the source carrier?
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
 It's a little confusing when you see that the name of your carrier isn't listed. In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier. There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider. 
   
 An example:
