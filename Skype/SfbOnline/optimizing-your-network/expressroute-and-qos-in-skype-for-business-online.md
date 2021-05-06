@@ -24,6 +24,8 @@ description: "Learn about using Azure ExpressRoute to have a network with bandwi
 
 # ExpressRoute and QoS in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Connect to Microsoft 365 or Office 365 over a dedicated network connection using Azure ExpressRoute for Microsoft 365 or Office 365 and Skype for Business Online. Your dedicated connection for your Skype for Business apps will give you reliable and predictable performance as well as privacy away from the public internet. You can now buy a better network connection to Microsoft 365 or Office 365 and Skype for Business Online that adds predictability, business class reliability and comes with an uptime SLA.
   
 > [!NOTE]
