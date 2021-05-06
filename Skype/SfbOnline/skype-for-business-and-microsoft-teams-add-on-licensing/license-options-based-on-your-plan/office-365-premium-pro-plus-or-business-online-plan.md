@@ -25,6 +25,8 @@ description: "Learn about add-on licenses, features, and how to buy for Microsof
 
 # Microsoft 365 Apps for enterprise or Skype for Business Online Standalone Plan 2
 
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 If you have already purchased [Microsoft 365 Apps for enterprise](https://products.office.com/en/business/office-365-proplus-business-software) or [Skype for Business Online Standalone Plan 2](https://products.office.com/skype-for-business/online), here are the add-on licenses you need to buy to get more Skype for Business features.
 
 > [!IMPORTANT]
