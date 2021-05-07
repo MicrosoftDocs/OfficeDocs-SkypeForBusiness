@@ -1,5 +1,5 @@
 ---
-title: "Release notes"
+title: Release notes for Microsoft Teams Rooms
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
