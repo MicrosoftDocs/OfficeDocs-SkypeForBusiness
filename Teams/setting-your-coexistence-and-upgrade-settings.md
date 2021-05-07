@@ -1,7 +1,7 @@
 ---
 title: Set your coexistence and upgrade settings
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
