@@ -208,16 +208,6 @@ People outside your organization, such as federated and anonymous users, can't s
 
 ![the recording options](media/meeting-policies-recording.png)
 
-Let's look at the following example.
-
-|User |Meeting policy  |Allow cloud recording |
-|---------|---------|---------|
-|Daniela | Global   | Off |
-|Amanda | Location1MeetingPolicy | On|
-|John (external user) | Not applicable | Not applicable|
-
-Daniela, even if she were the organizer can't record because her policy is set to off. Amanda, who has the policy setting enabled, can record meetings, including those organized by Daniela. If Amanda were to organize a meeting, she'll be able to record that meeting. However, Daniela, who has the policy setting disabled, and John who is an external user, can't record that meeting.
-
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
 ### Mode for IP audio
