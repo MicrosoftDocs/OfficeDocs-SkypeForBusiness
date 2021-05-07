@@ -91,7 +91,7 @@ additionalContent:
         # Card
         - title: Teamwork Specialist certification
         # additionalContent.sections.items.title
-        - title: https://docs.microsoft.com/office/media/icons/users-group.png
+          imageSrc: https://docs.microsoft.com/office/media/icons/users-group.png
         # additionalContent.sections.items.imageSrc
           summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team
         # additionalContent.sections.items.summary
