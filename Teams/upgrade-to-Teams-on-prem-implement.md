@@ -1,7 +1,7 @@
 ---
 title: Upgrade strategies for IT administrators
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
