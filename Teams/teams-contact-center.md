@@ -38,17 +38,17 @@ For others who desire integrated solutions with business tools and workflows to 
 
 The Connected Contact Center for Microsoft Teams certification program provides customers with the assurance that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
-For a list of solution certified providers as well as providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions.md).
+For a list of solution certified providers as well as providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions).
 
 ## Choose an integration model
 
 There are three solution models to choose from to integrate your Connected Contact Center into Teams:
 
-- If you want to use certified SBCs and Direct Routing to connect a contact center solution to Teams, see the [Connect model](#connect.md).
+- If you want to use certified SBCs and Direct Routing to connect a contact center solution to Teams, see the [Connect model](#the-connect-model).
 
-- If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](#extend.md).
+- If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](#the-extend-model).
 
-- If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#power.md). Power solutions will be possible when the SDK is available, towards the end of 2021.
+- If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#the-power-model). Power solutions will be possible when the SDK is available, towards the end of 2021.
 
 ### Comparing connected contact center integration models
 
