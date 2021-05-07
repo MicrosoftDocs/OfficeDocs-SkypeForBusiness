@@ -20,7 +20,7 @@ appliesto:
 
 # Contact Center integrations for Microsoft Teams
 
-Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.  This article provides an overview of how tested and verified contact center solutions can be integrated with Microsoft Teams and additional information on the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
+Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.  This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
 
 ## What is a Contact Center integration for Microsoft Teams?
 
@@ -34,12 +34,21 @@ Microsoft Teams supports customer interaction work streams by acting as the hub 
 
 For others who desire integrated solutions with business tools and workflows to drive the customer journey, Microsoft Teams also integrates with some of the industry’s leading Contact Center as a Service (CCaaS) solution providers.
 
-## Connected Contact Center for Microsoft Teams Certification Program
+## Connected Contact Center for Microsoft Teams certification program
 
-The APIs allow solution providers to develop and integrate CCaaS solutions for Teams. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions. For a list of solution certified providers as well as providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions).
+The Connected Contact Center for Microsoft Teams certification program provides customers with the assurance that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
-## Choose an Teams integration model
+For a list of solution certified providers as well as providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions).
 
+## Choose an integration model
+
+There are three solution models to choose from to integrate your Connected Contact Center into Teams:
+
+- If you want to use certified SBCs and Direct Routing to connect a contact center solution to Teams, see the [Connect model](#connect).
+
+- If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](#extend).
+
+- If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#power). Power solutions will be possible when the SDK is available, towards the end of 2021.
 
 ### Comparing connected contact center integration models
 
@@ -107,7 +116,8 @@ Review the table below for an overview of the integration models that Microsoft 
 </tbody>
 </table>
 
-### Connect
+
+### The Connect model
 
 This model connects CCaaS solution providers with Microsoft Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights. 
 
@@ -131,7 +141,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Solution Providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](./direct-routing-border-controllers.md) 
 
-### Extend
+### The Extend model
 
 This model extends contact center personnel and agent experiences by integrating with the Teams client using the [Teams client platform](/microsoftteams/platform/overview), [Teams Graph APIs](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) and uses the Teams phone system for all contact center calls and call control experiences. In this model, the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
 
@@ -159,7 +169,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Preserve performance and quality of Teams client experiences in all apps  
 
-### Power
+### The Power model
 
 This model enables solution providers to create native Azure-based voice applications using the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection. The goal of Extend and Power is to stoke developer creativity and drive customer productivity.
 
