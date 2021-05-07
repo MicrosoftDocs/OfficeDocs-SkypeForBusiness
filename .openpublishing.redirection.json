@@ -12383,7 +12383,7 @@
     {
       "source_path": "Teams/teams-standalone-static-tabs-using-spo-sites.md",
       "redirect_url": "/sharepoint/viva-connections",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
 ] 
 }
