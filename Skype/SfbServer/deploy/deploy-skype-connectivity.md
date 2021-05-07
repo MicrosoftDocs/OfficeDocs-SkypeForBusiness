@@ -63,7 +63,7 @@ The following table outlines support for Skype Directory Search.
 > Skype graph service will throttle search requests from any on-premises or Microsoft 365 or Office 365 customer if the request rate exceeds 15 requests / second. 
   
 > [!NOTE]
-> For large enterprise on-premises customers, the domains will need to be whitelisted with the Skype search service to allow higher request rates. 
+> For large enterprise on-premises customers, the domains will need to be added to an allowlist with the Skype search service to allow higher request rates.
   
 > [!NOTE]
 > Skype for Business Server will throttle incoming requests, if there are too many pending requests in the queue. 

@@ -21,19 +21,46 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Get started with Teams templates in retail
+# Create a team using Teams retail templates
 
-Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Teams templates have pre-built definitions of team structures designed around retailer needs. You can use Teams templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
 
 In this article, we'll introduce each of the Teams templates and recommend how to use them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
 To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates.md).
 
-## Store template
+| Who | Method to use: |
+| ---- | --------- |
+| Admins and IT Professionals | [Use the Teams admin center](#use-the-teams-templates-in-the-teams-admin-center) to create teams based on the retail Teams templates.|
+| Developers and systems integrators | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create teams based on the retail Teams templates. |
+
+## Use the Teams templates in the Teams admin center
+
+### Organize a store
+
+Bring your retail employees together in one central experience to manage tasks, share documents and resolve customer issues. Integrate additional applications to streamline shift start & end processes.
+
+| Base template type |baseTemplateId | Properties that come with this base template |
+| ------------------|-- |----------------------------------------------------- |
+|Organize a store|`retailStore`|Channels: <ul><li>General<li>Shift handoff</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
+||||
+
+### Manager Collaboration
+
+The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions, etc. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, along with the regional manager for that region.
+
+| Base template type| baseTemplateId | Properties that come with this base template |
+| ------------------|- |----------------------------------------------------- |
+|Retail - manager collaboration|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
+||||
+
+## Use the Teams templates with the Microsoft Graph
+
+### Store template
 
 The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
 
@@ -48,7 +75,7 @@ Recommended ways to customize the Store template for your organization:
 
 - If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel. Refer to [Get started with Teams templates](get-started-with-teams-templates.md) for instructions.
 
-## Manager Collaboration template
+### Manager Collaboration template
 
 The Manager Collaboration template is another one of the Teams templates designed around retailer needs. The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions, and more. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, as well as the regional manager for that region.
 
@@ -63,7 +90,7 @@ Recommended ways to customize the Manager Collaboration template for your organi
 
 ## How to use first party templates
 
-To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > The channels in the template will automatically be created under the General Tab.
@@ -83,6 +110,3 @@ To use these templates, change the 'template@odata.bind' property in the request
   ]
 }
 ```
-## Relate topic
-
-[Get started with Teams templates in the Admin center](get-started-with-teams-templates-in-the-admin-console.md)

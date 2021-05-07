@@ -44,7 +44,7 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 ## Bulk import/export/remove members in a team
 
-The Azure portal allows users to bulk import/export/remove members in a Microsoft 365 Group. For more information, see [To bulk import group members](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members).
+The Azure portal allows users to bulk import/export/remove members in a Microsoft 365 Group. For more information, see [To bulk import group members](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members).
 
 Since every team is backed by a Microsoft 365 Group, you can use the Azure portal to perform these operations in the group corresponding to the team. The member operations will be reflected in the team within 24 hours.
 

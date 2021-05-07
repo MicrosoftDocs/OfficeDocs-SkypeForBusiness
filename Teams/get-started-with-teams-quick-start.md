@@ -49,7 +49,7 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
 - [Prepare your organization's network for Teams](prepare-network.md)
   - This includes configuring your Microsoft 365 or Office 365 domain, SharePoint Online, Exchange Online, and OneDrive for Business.
 
-- Get Teams licenses for everybody. Check out [Teams plans](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) and [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+- Get Teams licenses for everybody. Check out [Teams plans](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) and [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 - [Learn about the benefits of installing the desktop, web, and mobile clients](get-clients.md)
 
@@ -58,7 +58,7 @@ To get ready for your Teams rollout, here's what you need to do, whether Teams i
 If you're new to Teams, the best way to get familiar with it is to start using it right away. The great thing about Teams is that what you set up now won't get in the way of any upgrades or migrations you might need to do later.
 
 > [!TIP]
-> Check out the learning paths and modules available in [Microsoft Learn for Teams](/learn/teams/). You can get a tour of the [Teams admin center](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/), learn how to [configure your network for Teams](/learn/modules/m365-teams-connectivity/), get ideas on how to best [onboard your users to Teams](/learn/modules/m365-teams-onboard-users/), and more!
+> Check out the learning paths and modules available in [Microsoft Learn for Teams](/learn/teams/). You can get a tour of the [Teams admin center](/learn/modules/m365-teams-navigate-admin-portal/), learn how to [configure your network for Teams](/learn/modules/m365-teams-connectivity/), get ideas on how to best [onboard your users to Teams](/learn/modules/m365-teams-onboard-users/), and more!
 
 Use the steps below to set up a couple teams and onboard a few early adopters to help you get familiar with Teams.
 
@@ -74,5 +74,5 @@ If you're coming to Teams from Skype for Business (online or on premises), or if
 |  |Your organization's profile|Guidance  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|I'm currently using Skype for Business Online, and I'm ready to move to Teams. |Go to [Upgrade to Teams](upgrade-start-here.md).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|My organization is running Skype for Business Server, and I want to roll out Teams. |For a full-scale Teams rollout, first you need to configure hybrid connectivity between your on-premises environment and Microsoft 365. Start by reading [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>You should also review [Upgrade to Teams](upgrade-start-here.md).   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|My organization is running Skype for Business Server, and I want to roll out Teams. |For a full-scale Teams rollout, first you need to configure hybrid connectivity between your on-premises environment and Microsoft 365. Start by reading [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>You should also review [Upgrade to Teams](upgrade-start-here.md).   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|I don't have Skype for Business Server, but I do have an on-premises Public Switched Telephone Network (PSTN) solution. I want to roll out Teams, but I want to keep my on-premises PSTN solution. |Roll out Teams following  the suggestions in this article.<br><br>Then read [Plan Direct Routing](direct-routing-plan.md) to learn about using Phone System Direct Routing to hook up your on-premises PSTN solution with Teams.|

@@ -21,8 +21,8 @@ description: "You publish the topology that you have configured using Topology B
 
 You publish the topology that you have configured using Topology Builder. You are asked to select from a list which Front End Server or Front End pool will assume the role of holding the Central Management store. Only one Front End Server or Front End pool can hold this role at any given time.
 
-For more information on what the Central Management store is, see [Move the Lync Server 2010 Central Management Server to Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).
+For more information on what the Central Management store is, see [Move the Lync Server 2010 Central Management Server to Lync Server 2013](/previous-versions/office/lync-server-2013/move-the-lync-server-2010-central-management-server-to-lync-server-2013).
 
 ## See also
 
-[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps)

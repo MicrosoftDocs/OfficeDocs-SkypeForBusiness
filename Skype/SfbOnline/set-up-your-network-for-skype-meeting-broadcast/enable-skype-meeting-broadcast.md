@@ -23,6 +23,8 @@ description: "Before the people in your organization can use Skype Meeting Broad
 
 # Enable Skype Meeting Broadcast
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!IMPORTANT]
 > Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the core client for communications and teamwork in Microsoft 365.
 
@@ -31,7 +33,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
 
 
 > [!NOTE]
-> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Azure AD admin role](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Azure AD admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
   
 ## Enable Skype Meeting Broadcast using the Skype for Business admin center
@@ -46,7 +48,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     
 ## Enable Skype Meeting Broadcast using PowerShell
 
-1. Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Install the [Teams PowerShell module](/microsoftteams/teams-powershell-install).
     
 2. Open a Windows PowerShell command prompt and run the following commands: 
 
@@ -92,9 +94,8 @@ To skip this step and instead add another business to your federation, see [Allo
   
 ## Related topics
 
-[An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+[An introduction to Windows PowerShell and Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
- 

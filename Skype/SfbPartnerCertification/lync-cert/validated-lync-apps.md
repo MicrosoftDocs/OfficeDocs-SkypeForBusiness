@@ -22,7 +22,7 @@ description: "Applications that have been validated as using Lync 2013 APIs."
 ---
 
 # Validated Lync Applications
-The following applications have been validated as using Lync 2013 APIs. The independent software vendors have validated their solutions and sent results to Microsoft. They have not necessarily been tested by third parties.
+The following applications have been validated as using Lync 2013 APIs. The independent software vendors have validated their solutions and sent results to Microsoft. They haven't necessarily been tested by third parties.
 
 
 ## [Active Communications - ACS for Lync](http://www.activecommunications.nl/en_nl/unified-communications)
@@ -37,11 +37,11 @@ Streamline organization-wide group email communications making them more meaning
 
 * * *
 
-Share live video and data between primary care physicians, specialists and medical teams anywhere, at any time.
+Share live video and data between primary care physicians, specialists, and medical teams anywhere, at any time.
 
 ## [BluePosition Lync Search](http://go.blueposition.com/?id=4003)
 * * *
-Extend Lync toast, by displaying additional relevant information about the incoming caller, including location data, maps, and directory and CRM lookups.
+Extend Lync toast, by displaying other relevant information about the incoming caller, including location data, maps, and directory and CRM lookups.
 
 ## [BluePosition UC Mobile Status](http://go.blueposition.com/?id=4002)
 * * *
@@ -54,11 +54,11 @@ Pick up other's calls, change settings for managers, BusyOnBusy options to avoid
 
 ## [Bressner Technology FonComfort QuickLink](http://bressner.com/foncomfort-featurepacks/)
 * * *
-Provide Manager/Admins and Team members with rich Presence information and 1 click calling, pickup and transferring to improve efficiency and productivity.
+Provide Manager/Admins and Team members with rich Presence information and one-click calling, pickup, and transferring to improve efficiency and productivity.
 
 ## [Colima Cerebro](https://colima.de/en/products.html)
 * * *
-Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and white lists, offline instant message, and expanded presence alerts.
+Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and allowlists, offline instant message, and expanded presence alerts.
 
 ## [DC Stockade Ethical Wall & Content Filter](http://www.devcentrics.com/Home/DCF)
 * * *
@@ -66,11 +66,11 @@ Implement communications barriers between groups or partners. Block or mask usag
 
 ## [Derdack Enterprise Alert](http://www.derdack.com/en/solutions/alert-and-emergency-notifications-for-microsoft-lync/)
 * * *
-Ensure rapid response to critical events with fully automated emergency callouts, escalation chains and application-to-person notifications, real-time delivery tracking, acknowledgements and status replies.
+Ensure rapid response to critical events with fully automated emergency callouts, escalation chains and application-to-person notifications, real-time delivery tracking, acknowledgments, and status replies.
 
 ## [Desire2Learn Online Rooms for Lync](http://www.desire2learn.com/)
 * * *
-Leverage existing course context and structure for the simple creation and management of online meetings within the Desire2Learn Learning Environment.
+Use existing course context and structure for the simple creation and management of online meetings within the Desire2Learn Learning Environment.
 
 ## [Enabling Technologies CRM Sync](http://enablingtechcorp.com/LyncApps/ETCCRMSync.aspx)
 * * *
@@ -97,11 +97,11 @@ Synchronize presence information from Lync to SAP BCM Contact Center. Give custo
 
 ## [Groupo Unika Coolab](http://www.grupounika.com.mx/coolab)
 * * *
-Automate business processes with a plug-in interface for workflow controls, documents review, workflow rendering; all of that with the same experience as sending instant messages.
+Automate business processes with a plug-in interface for workflow controls, documents review, workflow rendering; all of those features with the same experience as sending instant messages.
 
 ## [HotelMagix Lync Edition](http://www.ipmagix.com/products-detais.php?id=376)
 * * *
-Offer guest access to hotel services and information anytime, anywhere, wakeup call, DND, valet, and other requests with one click from an IP phone or mobile.
+Offer guest access to hotel services and information anytime, anywhere, wakeup call, DND, valet, and other requests with one-click from an IP phone or mobile.
 
 ## [Insource Technology Virtual Receptionist](http://www.insource.com/solutions/unified-communications/insource-virtual-assistant)
 * * *
@@ -109,7 +109,7 @@ Allow visitors to serve themselves with a touch-screen in a lobby or entrance. S
 
 ## [Kuando Busylight](http://www.busylight.com/busylight-lync.html)
 * * *
-Increase productivity with a powerful LED light that shows Lync presence status in the office. Choose from 8 different ringtones for incoming calls.
+Increase productivity with a powerful LED light that shows Lync presence status in the office. Choose from eight different ringtones for incoming calls.
 
 ## [Landis Computer Attendant Pro for Lync](http://landiscomputer.com/pages/attendantpro.aspx)
 * * *
@@ -161,7 +161,7 @@ Collect and process call records to support enterprise business decisions regard
 
 ## [TE Systems ANYNODE](http://www.te-systems.de/index.php?id=168&L=2)
 * * *
-Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing and call handling.
+Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing, and call handling.
 
 ## [UMojo GRM System](http://www.umojo.com/?page_id=3901)
 * * *
@@ -181,7 +181,7 @@ Enable many alerting and call pickup use cases. Improve responsiveness by effici
 
 ## [Viases PostOffice for Lync](http://www.viases.com/en/postoffice-for-lync/)
 * * *
-Support various types of call transfers, and distribution models. Blacklist unwanted callers. Add flexibility to voicemail. Develop and deliver complex IVR flows with this complementary suite.
+Support various types of call transfers, and distribution models. Blocklist unwanted callers. Add flexibility to voicemail. Develop and deliver complex IVR flows with this complementary suite.
 
 ## [Vytru VA-50](http://www.vytru.com/va-50.html)
 * * *

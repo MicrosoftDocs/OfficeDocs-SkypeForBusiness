@@ -33,7 +33,7 @@ Emergency Services calling operates differently with Calling Plans in Microsoft 
 The differences in our Emergency Services calling capabilities include the following: (i) Skype for Business and Teams may not know the actual location of a caller making an Emergency Services call, which could result in the call being routed to the wrong Emergency Services call center and/or emergency services being dispatched to the wrong location; (ii) if the user's Teams client is offline, or if the user's device is unable to access the internet for any reason, such as a network outage or power outage, Emergency Services calls through Phone System in Microsoft 365 or Office 365 are not supported and are not expected to work; and (iii) although Calling Plans in Microsoft 365 or Office 365 can be used anywhere in the world where an internet connection is available, users should not make an Emergency Services call from a location outside their home country/region because the call likely will not be routed to the appropriate call center in that country/region.
   
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
@@ -42,4 +42,3 @@ The differences in our Emergency Services calling capabilities include the follo
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

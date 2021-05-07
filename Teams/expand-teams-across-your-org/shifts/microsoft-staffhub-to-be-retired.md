@@ -87,7 +87,7 @@ Core functionality is the same between the Shifts iOS and Android apps. There ar
 Shifts works on all the browsers that Teams supports which includes the latest versions of Microsoft Edge, Internet Explorer, Google Chrome, and Mozilla Firefox. For more information, see [Get clients for Teams](../../get-clients.md).
 
 > [!Note]
-> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting  November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is  installed. 
+> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting  November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is  installed. 
 
 #### What languages does Shifts support?
 
@@ -152,6 +152,9 @@ To learn more, see [Manage the Shifts app for your organization in Teams](manage
 You manage Teams through the Microsoft Teams PowerShell module and the Skype for Business PowerShell module. For more information, see [Teams PowerShell Overview](../../teams-powershell-overview.md). At this time, there are no specific PowerShell cmdlets available to manage Shifts.  
 
 If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
+
+
+[!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### Is reporting available to view Shifts usage across my organization?
 

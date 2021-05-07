@@ -3,7 +3,7 @@ title: "Create a call queue in Microsoft Teams - small business tutorial"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: dobro
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,7 +25,7 @@ description: Learn how to set up call queues with Microsoft 365 Business Voice.
 ---
 # Create a call queue - small business tutorial
 
-Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 Call queues provide:
 
@@ -36,6 +36,12 @@ Call queues provide:
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 
 - Handling options for queue overflow and timeout.
+
+#### Video demonstration
+
+This video demonstrates how to create a call queue in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### Before you begin
 
@@ -49,7 +55,7 @@ Since agents in a call queue may dial out to return a customer call, consider se
 
 # [Step 1<br>Create a team](#tab/create-team)
 
-When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend using a team. This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers. A team also provides a voice mailbox for callers to leave a message after hours or if the queue reaches its maximum capacity.
+When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend [using a team channel](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e). This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers. A team also provides a voice mailbox for callers to leave a message after hours or if the queue reaches its maximum capacity.
 
 To create a team
 
@@ -69,8 +75,16 @@ To create a team
 
 9. Click **Close**. People you add to a team will receive an email letting them know they are now a member of your team and the team will show up in their teams list.
 
+Next, we'll add a channel to use with the call queue.
+
+To add a channel
+
+1. In Teams, find the team you just created, click **More options** (...), and then click **Add channel**.
+
+2. Type a name and description for the channel, and then click **Add**.
+
 > [!div class="nextstepaction"]
-> [Step 2 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [Step 2 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # [Step 2<br>Resource accounts](#tab/resource-account)
 
@@ -84,21 +98,21 @@ You can create a resource account in the Teams admin center.
 
 2. Click **Add**.
 
-3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**.
+3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**. Agents will see the display name when they receive an incoming call from the queue.
 
     ![Screenshot of add resource account user interface](../media/resource-account-add-cq.png)
 
 4. Click **Save**.
 
-The new account will appear in the list of accounts.
+   The new account will appear in the list of accounts.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+   ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
 ### Assign a license
 
 You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
 
-1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
+1. In the Microsoft 365 admin center, in the **Active users** list, click the resource account to which you want to assign a license.
 
 2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 
@@ -112,7 +126,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 1. In the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
-1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
+1. Type a name for the call queue.
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
 
@@ -124,30 +138,29 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 5. Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
-> [!NOTE]
-> The uploaded recording can be no larger than 5 MB.
-> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
+   > [!NOTE]
+   > The uploaded recording can be no larger than 5 MB.
+   > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 > [!div class="nextstepaction"]
-> [Step 3 - Call agents >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [Step 3 - Call agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # [Step 3<br>Call agents](#tab/call-agents)
 
-To add agents to the call queue, we'll add the team that we created earlier.
+To add agents to the call queue, we'll add them to the team and channel that we created earlier.
 
-1. Click **Add groups**.
-2. Type the name of the team that you created.
-3. Click **Add**, and then click **Add**.
+1. Select the **Choose a team** option and click **Add a channel**.
+2. Type the name of the team that you created, select it, and click **Add**.
+3. Select the channel that you created for the queue.
+3. Click **Apply**.
 
-    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups-smb.png)
-
-You can add up to 20 agents individually and up to 200 agents via groups or teams.
+    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups.png)
 
 > [!NOTE]
 > When new users are added to the team, it can take up to eight hours for their first call to arrive.
 
 > [!div class="nextstepaction"]
-> [Step 4 - Resource accounts >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [Step 4 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # [Step 4<br>Call routing](#tab/call-routing)
 
@@ -176,7 +189,7 @@ Choose the call routing method that you want to use.
     ![Screenshot of routing, opt out, and alert time settings](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Step 5 - Call overflow >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [Step 5 - Call overflow >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # [Step 5<br>Call overflow](#tab/call-overflow)
 
@@ -193,13 +206,13 @@ Choose how you want to handle calls that exceed the maximum in the queue.
     ![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Step 6 - Call timeout >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [Step 6 - Call timeout >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # [Step 6<br>Call timeout](#tab/call-timeout)
 
 Choose what you want to happen when calls have been waiting in the queue for too long.
 
-1. Set the **Call Timeout: maximum wait time**.
+1. Set the **Maximum wait time**.
 
 2. Choose what you want to do when a call times out. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
     - **Person in the organization** - a person in your organization who is able to receive voice calls

@@ -25,6 +25,8 @@ description: "Learn about add-on licenses, features, and how to buy for Microsof
 
 # Microsoft 365 Business Standard
 
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 If you have [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium), you can use Skype for Business to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can call and IM each other using Skype for Business.
 
  **To make and receive calls from people external to your business, you have two options**:

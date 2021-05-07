@@ -43,6 +43,6 @@ When users share a file in a chat or channel, they're notified whether some or a
 
 [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Change the default link type for a site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Change the default link type for a site](/sharepoint/change-default-sharing-link)
 
-[Collaborate with guests in a team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team)
