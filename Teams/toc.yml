@@ -453,9 +453,9 @@ items:
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
               
-    - name: Use log files to monitor and troubleshoot Teams
+    - name: Log files, service health, and support
       items:
-        - name: Log files
+        - name: Use log files to monitor and troubleshoot Teams
           href: log-files.md
         - name: Verify service health for Teams
           href: service-health.md
