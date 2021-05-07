@@ -36,37 +36,76 @@ For others who desire integrated solutions with business tools and workflows to 
 
 ## Connected Contact Center for Microsoft Teams Certification Program
 
-The APIs allow solution providers to develop and integrate CCaaS solutions for Teams. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
+The APIs allow solution providers to develop and integrate CCaaS solutions for Teams. In addition, we have developed the Connected Contact Center for Microsoft Teams Certification Program to provide customers with the assurance that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions. For a list of solution certified providers as well as providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions).
 
-![Certified Badge.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
+## Choose an Teams integration model
 
-|  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
-| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
-| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
-| `Enghouse Interactive` | http://www.enghouseteams.com/         |
-| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
-### Connected Contact Center solutions currently in the certification process
+### Comparing connected contact center integration models
 
-|  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
-| `ContactCenter4All` | www.contactcenter4all.com |
-| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
-| `FrontStage` | https://www.frontstage.cc                                                                                        |
-| `Genesys` | https://www.genesys.com/microsoft                                                                                   |
-| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
-| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| `Luware` | https://luware.com/en/solutions/                                                                                       |
-| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
-| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
-| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
+Review the table below for an overview of the integration models that Microsoft Teams supports.
 
-This list will be updated as more solution providers join and meet the certification criteria.
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Teams voice apps</th>
+<th>Connect</th>
+<th>Extend</th>
+<th>Power</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cloud service model</td>
+<td>Azure</td>
+<td>Solution Provider</td>
+<td><p>Solution Provider +</p>
+<p>Azure</p></td>
+<td>Azure</td>
+</tr>
+<tr class="even">
+<td>Who operates the solution?</td>
+<td>Microsoft</td>
+<td>Solution Provider</td>
+<td>Solution Provider</td>
+<td>Solution Provider</td>
+</tr>
+<tr class="odd">
+<td>M365 Sign-in</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Users with Teams calling?</td>
+<td>Informal, SME</td>
+<td>Informal, SME</td>
+<td>Informal, SME, Formal</td>
+<td>Informal, SME, Formal</td>
+</tr>
+<tr class="odd">
+<td>IW/SME experience</td>
+<td>Teams</td>
+<td>Teams</td>
+<td><p>Teams +</p>
+<p>extensions</p></td>
+<td><p>Teams +</p>
+<p>extensions</p></td>
+</tr>
+<tr class="even">
+<td>Service connectivity</td>
+<td>Platform<br />
+(Calling Plans +DR)</td>
+<td>Direct routing</td>
+<td>Platform<br />
+(Calling Plans + DR)</td>
+<td>Platform<br />
+(Calling Plans + DR)</td>
+</tr>
+</tbody>
+</table>
 
 ### Connect
 
@@ -140,71 +179,39 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Direct conversation control and interaction with users during Teams conversations 
 
-### Comparing connected contact center integration models
 
-Review the table below for an overview of the integration models that Microsoft Teams supports.
 
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th>Teams voice apps</th>
-<th>Connect</th>
-<th>Extend</th>
-<th>Power</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cloud service model</td>
-<td>Azure</td>
-<td>Solution Provider</td>
-<td><p>Solution Provider +</p>
-<p>Azure</p></td>
-<td>Azure</td>
-</tr>
-<tr class="even">
-<td>Who operates the solution?</td>
-<td>Microsoft</td>
-<td>Solution Provider</td>
-<td>Solution Provider</td>
-<td>Solution Provider</td>
-</tr>
-<tr class="odd">
-<td>M365 Sign-in</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Users with Teams calling?</td>
-<td>Informal, SME</td>
-<td>Informal, SME</td>
-<td>Informal, SME, Formal</td>
-<td>Informal, SME, Formal</td>
-</tr>
-<tr class="odd">
-<td>IW/SME experience</td>
-<td>Teams</td>
-<td>Teams</td>
-<td><p>Teams +</p>
-<p>extensions</p></td>
-<td><p>Teams +</p>
-<p>extensions</p></td>
-</tr>
-<tr class="even">
-<td>Service connectivity</td>
-<td>Platform<br />
-(Calling Plans +DR)</td>
-<td>Direct routing</td>
-<td>Platform<br />
-(Calling Plans + DR)</td>
-<td>Platform<br />
-(Calling Plans + DR)</td>
-</tr>
-</tbody>
-</table>
+## Connected Contact Center Solutions
+
+![Certified Badge.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
+
+|  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
+| `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
+| `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+
+### Connected Contact Center solutions currently in the certification process
+
+|  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
+| `ContactCenter4All` | www.contactcenter4all.com |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
+| `FrontStage` | https://www.frontstage.cc                                                                                        |
+| `Genesys` | https://www.genesys.com/microsoft                                                                                   |
+| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
+| `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
+| `Luware` | https://luware.com/en/solutions/                                                                                       |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
+| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
+| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
+
+This list will be updated as more solution providers join and meet the certification criteria.
 
 ## Next steps
 
