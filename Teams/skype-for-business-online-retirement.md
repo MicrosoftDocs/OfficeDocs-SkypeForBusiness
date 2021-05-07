@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Online retirement
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
