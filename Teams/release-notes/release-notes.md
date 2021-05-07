@@ -1,5 +1,5 @@
 ---
-title: Release notes for Microsoft Teams
+title: Release notes for Microsoft Teams admin features
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
