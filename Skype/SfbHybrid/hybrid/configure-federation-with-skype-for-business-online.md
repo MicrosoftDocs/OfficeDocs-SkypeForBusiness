@@ -28,7 +28,7 @@ To configure Skype for Business hybrid, you need to:
 - [Configure your on-premises environment to trust Teams and enable shared SIP address space](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365).
 - [Enable shared SIP address space in your Teams organization](#enable-shared-sip-address-space-in-your-organization).
 
-Note that if you have Exchange on-premises, you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
+If you have Exchange on-premises, you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
   
 ## Configure your on-premises Edge service to federate with Teams
 
@@ -46,7 +46,7 @@ If '-EnablePartnerDiscovery' value is set to $True, Skype for Business Server wi
 
 ## Configure your on-premises environment to enable shared SIP address space with Teams
 
-You must also configure your on-premises environment to trust Teams and enable shared SIP address space. This means Teams can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online.  You do this by configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.
+You must also configure your on-premises environment to trust Teams and enable shared SIP address space. This configuration means Teams can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online. You configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.
 
 First, check if you already have a hosting provider with ProxyFqdn=sipfed.online.lync.com. If one exists, then remove it by using the following command in the Skype for Business Server Management Shell:
 
@@ -54,7 +54,7 @@ First, check if you already have a hosting provider with ProxyFqdn=sipfed.online
 Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
 ```
 
-Then create a new hosting provider, use the New-CsHostingProvider cmdlet as follows: 
+Then create a new hosting provider by using the New-CsHostingProvider cmdlet as follows: 
 
 ```PowerShell
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
