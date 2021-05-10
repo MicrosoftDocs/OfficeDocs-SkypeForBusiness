@@ -12379,6 +12379,11 @@
       "source_path": "Teams/business-voice/use-getting-started-wizard.md",
       "redirect_url": "/microsoftteams/business-voice/set-up-overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-standalone-static-tabs-using-spo-sites.md",
+      "redirect_url": "/sharepoint/viva-connections",
+      "redirect_document_id": false
     }
 ] 
 }

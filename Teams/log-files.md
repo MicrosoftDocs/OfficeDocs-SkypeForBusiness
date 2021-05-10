@@ -29,7 +29,7 @@ There are three types of log files automatically produced by the client, which c
 
 -   Desktop logs
 
-When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **desktop** logs are only required if requested by Microsoft.
+When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **Desktop** logs are only required if requested by Microsoft.
 
 > [!NOTE]
 > In this article, the term **Debug logs** refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.  
@@ -137,6 +137,26 @@ Linux:
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
+
+Browser trace
+---------------------------
+
+For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs.
+
+Before you start the browser trace, make sure that you’re signed in to Teams. It's important to do this before you start the trace so that the trace doesn't contain sensitive sign-in information.
+
+After you’re signed in, select one of the following links, as appropriate for your browser, and follow the provided steps. 
+
+-   [Chrome & Edge (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+
+-   [Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+
+-   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
+
+-   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
+
+> [!NOTE]
+> In the steps, replace all references to the Azure portal with the Teams client. 
 
 ## Related topics
 
