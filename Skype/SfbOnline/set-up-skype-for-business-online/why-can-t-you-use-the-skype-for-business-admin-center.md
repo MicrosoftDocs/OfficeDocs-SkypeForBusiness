@@ -25,6 +25,8 @@ description: "Learn what you can and can't use in Skype for Business admin cente
 
 # Why can't I use the Skype for Business Online admin center right now?
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
 We know it's frustrating when you can't get your work done, so we're going to explain what's happening here and why it'll be worth the wait. 
   
 First, here's the technical explanation:

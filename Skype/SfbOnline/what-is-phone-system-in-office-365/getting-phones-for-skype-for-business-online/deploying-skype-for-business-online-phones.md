@@ -24,6 +24,8 @@ description: "Learn the deployment steps to get the correct firmware, update it 
 ---
 # Deploying Skype for Business Online phones
 
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 This is deployment guide will help you deploy Skype for Business Online IP phones.
   
 In all types of businesses, having a phone number allows users to make and get voice calls, and it is an important requirement to do business. Users who have phone numbers will be able to make voice calls across all Skype for Business devices including IP phones, PCs, and mobile devices. You can learn more about Skype for Business IP phones by reading [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).

@@ -626,6 +626,8 @@ items:
           href: google-workspace-addon-teams.md
         - name: Cloud Video Interop
           href: cloud-video-interop.md
+        - name: Set up for webinars in Microsoft Teams
+          href: set-up-webinars.md 
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -1284,14 +1286,14 @@ items:
           href: business-voice/set-up-assign-numbers.md
         - name: "Step 6: Set up an auto attendant"
           href: business-voice/set-up-auto-attendant.md
+        - name: "Step 7: Port phone numbers (optional)"
+          href: business-voice/port-phone-numbers.md
         - name: "Post-setup resources"
           href: business-voice/set-up-finish.md
     - name: Customize your setup
       items: 
         - name: Customization options
           href: business-voice/customize-business-voice.md
-        - name: Port phone numbers
-          href: business-voice/port-phone-numbers.md
         - name: Set up calling policies
           href: business-voice/set-up-policies.md
         - name: Manage policy packages
@@ -1481,8 +1483,6 @@ items:
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
-        - name: Create a Teams Intranet Portal app from a SPO site or page
-          href: teams-standalone-static-tabs-using-spo-sites.md
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:

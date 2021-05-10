@@ -195,13 +195,15 @@ You must place these three FQDNs in order to:
 
 The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **sip3.pstnhub.microsoft.com** will be resolved to one of the following IP addresses:
 - 52.114.148.0
-- 52.114.132.46
+- 52.114.132.46 
+- 52.114.75.24 
+- 52.114.76.76 
+- 52.114.7.24 
+- 52.114.14.70
 - 52.114.16.74
 - 52.114.20.29
-- 52.114.75.24
-- 52.114.76.76
-- 52.114.7.24
-- 52.114.14.70
+- 52.114.36.156 
+- 52.114.32.169
 
 You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP addresses. 
 
@@ -260,8 +262,8 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Client | SBC | 50 000 – 50 019  | Defined on the SBC |
-| UDP/SRTP | SBC | Client | Defined on the SBC | 50 000 – 50 019  |
+UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
+| UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and 49152 – 53247  |
 
 
 > [!NOTE]
