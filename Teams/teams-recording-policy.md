@@ -244,7 +244,7 @@ policies](./assign-policies.md#assign-a-policy-to-a-group).
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
 
-   [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps)
+   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps).
 
 3. Assign the Compliance Recording policy to a user.
 
@@ -252,7 +252,7 @@ policies](./assign-policies.md#assign-a-policy-to-a-group).
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
    ```
 
-   [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps)
+   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps).
 
    ```powershell
    PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl
@@ -282,7 +282,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
 
-The following partners have certified their solution for Microsoft Teams.
+The following partners have certified their solution for Microsoft Teams.<br/><br/>
 
 |Partner|Solution website |
 |:--|:--|
@@ -292,7 +292,8 @@ The following partners have certified their solution for Microsoft Teams.
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 
-The following partners are in the process of certifying their solution for Microsoft Teams.
+<br/>
+The following partners are in the process of certifying their solution for Microsoft Teams.<br/><br/>
 
 |Partner|Solution website |
 |:--|:--|
