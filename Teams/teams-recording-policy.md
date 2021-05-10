@@ -96,8 +96,8 @@ eDiscovery, legal hold, and other corporate retention uses.
 <table>
 <thead>
 <tr class="header">
-<th><strong>Persona</strong></th>
-<th><strong>Needs</strong></th>
+<th>Persona</th>
+<th>Needs</th>
 </tr>
 </thead>
 <tbody>
