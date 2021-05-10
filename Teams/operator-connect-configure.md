@@ -26,7 +26,7 @@ appliesto:
 # Configure Operator Connect
 
 >[!NOTE]
->Operator Connect is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Community Cloud (GCC).
+>Operator Connect is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Clouds.
 
 This article describes how to configure Operator Connect. Before configuring Operator Connect, be sure to read [Plan for Operator Connect](operator-connect-plan.md) for information about prerequisites and licensing.
 
@@ -40,9 +40,11 @@ To enable an operator:
 
 2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
 
-3. **Provide contact information.** Operators may want to contact you to with additional information about Operator Connect. To opt in, check the box and provide your contact information.  
+3. **Provide contact information (optional).** Operators may want to contact you to with additional information about Operator Connect. To opt in, check the box and provide your contact information.  
 
 4. **Accept the data transfer notice.**
+
+5. **Add your operator.** Select **Add as my operator** to apply your selections.
 
 ## Set up phone numbers
 
@@ -55,23 +57,23 @@ How you set up phone numbers depends on whether you are setting up numbers for n
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
 >[!IMPORTANT]
->**Emergency addresses:** Phone numbers acquired with Operator Connect that have been assigned to emergency addresses are managed directly with your operator. Contact them to make any changes to existing phone numbers.
+>**Emergency addresses:** Emergency addresses associated with a number acquired from the operator are managed directly with the operator. Please contact the Operator to make any changes.
 
 ### Acquire numbers for new Teams users
 
 To acquire numbers for new Teams users, follow these steps:
 
-1. **Create the new Teams users in the Teams admin center.** (Do not assign any existing PSTN usage, telephone numbers, or perform any Direct Routing configuration to the newly created users.) For more information, see [Manage user access to Teams](https://docs.microsoft.com/microsoftteams/user-access).
+1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using Powershell. For more information, see [Assign Teams add-on licenses to users](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses). 
 
-2. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization).
+2. Make sure your users are in Teams Only mode. To check this, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. The coexistence mode should be set to Teams only.
 
-3. Your operator will provide new PSTN numbers.
+3. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization).
 
-4. Provide your Tenant ID to your operator. **Specify how to do this?**
+4. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id) for more information.
 
-5. **Acquire numbers.** Your operator will upload test numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.  
+5. Once your operator completes the order, they'll upload test numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**.
 
-5. **Assign numbers.** Assign numbers to users by using the Teams admin center or by using PowerShell. Or, you can provide the list of users and associated telephone numbers to your operator who can work with Microsoft to do the number assignment.  For more information, see [Assign numbers](#assign-numbers).
+6. **Assign numbers.** Assign numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
  
 
 ### Move numbers from Calling Plans to Operator Connect
