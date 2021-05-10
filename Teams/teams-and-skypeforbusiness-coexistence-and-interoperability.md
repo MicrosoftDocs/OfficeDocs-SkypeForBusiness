@@ -49,7 +49,7 @@ The following sections describe the coexistence modes that are available when yo
 We recommend that you review the following coexistence modes to help determine which path is right for your organization.
 
 > [!Important]
-> Introducing new technology or making changes to your existing, familiar Skype for Business environment, while delivering great new business benefits, can be disruptive for users. Take time to assess user readiness and implement a communication and training plan before you implement any of the changes outlined in this article. In addition, we strongly encourage you to pilot your plan with a selected group of users before implementing it across your organization.
+> Coexistence modes will continue to exist after retirement of Skype for Business Online on July 31, 2021, but will only be relevant for organizations with on-premises deployments of Skype for Business Server. Just before the retirement, users homed in the on-premises deployment can be assigned any mode other than TeamsOnly. However, after retirement of Skype for Business Online, users homed in the cloud can only be TeamsOnly.
 
 ### Islands mode
 
@@ -330,7 +330,7 @@ Teams and Skype for Business have separate lists of contacts. This means that co
 
 - For any Skype for Business Online user, the first time they log onto Teams, contacts from Skype for Business will be copied over to Teams.  This behavior is not available for users with an on-premises account in Skype for Business Server.  
 
-- After a user is upgraded to TeamsOnly (either via assigning TeamsUpgradePolicy or via Move-CsUser -MoveToTeams), the next time a user logs into Teams, existing contacts in Skype for Business will be merged with existing contacts already in Teams. This behavior happens whether the user’s Skype for Business Account is homed on-premises or online. 
+- After a user is upgraded to TeamsOnly (either via assigning TeamsUpgradePolicy or via Move-CsUser -MoveToTeams), the next time a user logs into Teams, existing contacts in Skype for Business will be merged with existing contacts already in Teams. This behavior happens whether the user was moved to TeamsOnly from on-premises or online. 
 
 In both cases, the transfer of contacts from Skype for Business to Teams is asynchronous so it may be a few minutes before contacts appear in Teams. The two events above are what trigger the copy.  
 
