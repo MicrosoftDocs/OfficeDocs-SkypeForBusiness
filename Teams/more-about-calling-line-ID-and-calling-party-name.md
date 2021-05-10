@@ -18,6 +18,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - Calling Plans
+ms.service: msteams
 description: "Learn why you need to add an authorized person who can make changes to the account when you use the New Local Number Port Order wizard."
 ---
 

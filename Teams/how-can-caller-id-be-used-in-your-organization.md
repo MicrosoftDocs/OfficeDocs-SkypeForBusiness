@@ -10,6 +10,7 @@ ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+ms.service: msteams
 audience: Admin
 appliesto: 
   - Skype for Business
