@@ -124,7 +124,7 @@ Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number>
 For example:
 
 ```
-Set-CsOnlineVoiceUser -Identity hannah@contoso.com -TelephoneNumber +14158000700 
+Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 ```
 
 For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user).
