@@ -50,7 +50,9 @@ To learn more about these settings and how you can use them, see [How can caller
 ## Set your caller ID policy settings
 
 > [!NOTE]
-> Not all the Caller ID settings are currently available in the Teams admin center or in Teams PowerShell. For setting the caller id to a phone number of a resource account or setting the caller party name, you need to use Skype for Business Online PowerShell. To open 
+> To set the caller ID to a phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.) 
+
+Open 
 a Windows PowerShell command prompt and run the following commands:
 
 ```PowerShell
@@ -101,6 +103,13 @@ Connect-MicrosoftTeams -Credential $credential
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
    ```
    For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity).
+
+6. To create a new Caller ID policy that sets the Caller ID to the phone number of the specified resource account and sets the Calling party name to Contoso:
+
+   ```PowerShell
+   $ObjId = (Get-CsOnlineApplicationInstance -Identity dkcq@contoso.com).ObjectId
+   New-CsCallingLineIdentity  -Identity DKCQ -CallingIDSubstitute Resource -EnableUserOverride $false -ResourceAccount $ObjId -CompanyName "Contoso"
+   ```
 
 If you have already created a policy, you can use the [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet to apply the settings to your users.
     

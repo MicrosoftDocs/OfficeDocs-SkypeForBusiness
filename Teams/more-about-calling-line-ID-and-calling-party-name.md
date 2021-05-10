@@ -27,7 +27,7 @@ CallerID consists of two user-facing identifiable pieces of information:
 
 - A phone number (typically referred to as CLID or calling line ID).
 
-- Calling party name (typically referred to as CNAM) which can be up to 15 characters in length. 
+- Calling party name (typically referred to as CNAM). 
 
 When a call is made, the CLID (phone number) is routed to the destination's carrier (also known as the terminating carrier). The CNAM info for the call may or may not be routed with the call as this depends on how the country has implemented CNAM (if at all). The reliability of CNAM delivery with the call varies depending on the country and carriers which handle the call either as an intermediary and/or a terminating carrier. 
 

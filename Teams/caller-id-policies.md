@@ -23,9 +23,9 @@ description: Learn how to use and manage caller ID policies in Microsoft Teams t
 # Manage caller ID policies in Microsoft Teams
 
 > [!NOTE]
-> The options for setting caller ID to the phone number of a resource account and to set the calling party name are not currently available in the Microsoft Teams admin center. To set these options, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Microsoft Skype for Business Online PowerShell module.
+> To set the caller ID to a phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.) 
 
-By default, when a Teams user makes a call to a PSTN phone, the phone number of the Teams user is visible.  Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
+By default, when a Teams user makes a call to a PSTN phone, the phone number of the Teams user is visible. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
 
 As an administrator, you can use caller ID policies to change or block the caller ID (also known as calling line ID). You can use caller ID policies to display an alternate phone number for Teams users in your organization, block the outbound phone number, block an incoming number from being displayed, or set the Calling Party Name (CNAM). For example, when a user makes a call, you can change the caller ID to display your organization's main phone number and company name instead of the user's phone number.
 

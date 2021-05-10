@@ -29,7 +29,7 @@ Caller ID consists of two user-facing identifiable pieces of information:
 
 - A phone number (typically referred to as CLID or calling line ID). This is the Public Switched Telephone Number (PSTN) presented as the identification of the caller.
 
-- A Calling party name (typically referred to as CNAM), which can be up to 15 characters in length. 
+- A Calling party name (typically referred to as CNAM). 
   
 The caller ID functionality is available to all Phone System users regardless of PSTN connectivity option:
 
@@ -42,7 +42,7 @@ You can control Caller ID for both inbound and outbound calls by using a policy 
   
 ## Outbound PSTN caller ID
 
-For the outbound PSTN caller ID, the following options are available:
+For the outbound PSTN caller ID, the following options are available.  Note that some options are in preview release.
   
 - The telephone number assigned to the user, which is the default.
 
@@ -52,9 +52,9 @@ For the outbound PSTN caller ID, the following options are available:
 
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is usually assigned to a Teams Auto Attendant or Call Queue.
 
-  - An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
+  - An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue. **Preview release.**
 
-- The Calling Party Name or CNAM set on the outbound PSTN call.
+- Preview release. The Calling Party Name or CNAM set on the outbound PSTN call.  **Preview release.**
     
 For more information, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
   
@@ -82,7 +82,7 @@ Keep the following in mind:
 
 - Calling Party Name is only sent on calls where the caller ID is substituted with LineUri, a service or resource account phone number and when the caller is a Teams user.
 
-- Calling Party Name can have a maximum of 200 characters.
+- Calling Party Name can have a maximum of 200 characters, but downstream systems might support fewer characters.
 
 - For Direct Routing, the phone number substitution and the Calling Party Name is sent in the FROM SIP header. If the corresponding OnlinePstnGateway is configured with ForwardPai = True, the P-ASSERTED-IDENTITY SIP header will contain the real calling user.
 
