@@ -1,7 +1,7 @@
 ---
 title: PSTN considerations when upgrading to Teams from Skype for Business
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
