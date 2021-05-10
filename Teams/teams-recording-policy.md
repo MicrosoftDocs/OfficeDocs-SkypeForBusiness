@@ -61,7 +61,8 @@ Interaction recording use cases can effectively be separated into four
 primary categories of recording functionality – Convenience, Functional,
 Organizational, and Lawful Intercept, as shown in the image:
 
-![Screenshot showing the interaction recording what and why.](media/recording-taxonomy.png "The image shows the recording categories.")
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the interaction recording what and why.](media/recording-taxonomy.png "The image shows the recording categories.")
 
 Each of the categories entails different requirements for how recordings
 are initiated, what is recorded, where recordings are stored, who is
@@ -137,7 +138,8 @@ eDiscovery, legal hold, and other corporate retention uses.
 Compliance recording solutions are integrated with Teams as
 shown in the following diagram:
 
-![Screenshot showing the team custom app setting](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "The images shows the flow when a Teams meeting or call is sent and received.")
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the team custom app setting](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "The images shows the flow when a Teams meeting or call is sent and received.")
 
 ## Recorder
 
