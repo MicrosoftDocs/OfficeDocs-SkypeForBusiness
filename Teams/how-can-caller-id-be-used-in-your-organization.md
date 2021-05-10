@@ -43,7 +43,10 @@ You can control Caller ID for both inbound and outbound calls by using a policy 
   
 ## Outbound PSTN caller ID
 
-For the outbound PSTN caller ID, the following options are available.  Note that some options are in preview release.
+For the outbound PSTN caller ID, the following options are available. 
+
+> [!NOTE]
+> Some options, indicated below, are in preview release.
   
 - The telephone number assigned to the user, which is the default.
 
@@ -53,9 +56,9 @@ For the outbound PSTN caller ID, the following options are available.  Note that
 
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is usually assigned to a Teams Auto Attendant or Call Queue.
 
-  - An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue. **Preview release.**
+  - **Preview release.** An on-premises telephone number through Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue. 
 
-- Preview release. The Calling Party Name or CNAM set on the outbound PSTN call.  **Preview release.**
+- **Preview release.** The Calling Party Name or CNAM set on the outbound PSTN call.  
     
 For more information, see [Set the Caller ID for a user](./set-the-caller-id-for-a-user.md).
   
