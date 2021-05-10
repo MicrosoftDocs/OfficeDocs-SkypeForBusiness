@@ -178,7 +178,7 @@ Your video will play on the video player of OneDrive for Business or SharePoint 
 
 Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [Stream classic migration](/stream/streamnew/classic-migration) for more information.
 
-**How do I apply a retention label?**
+**How do I apply a retention label to Microsoft Teams meeting recordings?**
 
 See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
