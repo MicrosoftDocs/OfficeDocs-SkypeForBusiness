@@ -50,7 +50,7 @@ To learn more about these settings and how you can use them, see [How can caller
 ## Set your caller ID policy settings
 
 > [!NOTE]
-> To set the caller ID to a phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.) 
+> To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.) 
 
 Open 
 a Windows PowerShell command prompt and run the following commands:
