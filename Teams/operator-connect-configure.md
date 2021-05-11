@@ -146,14 +146,16 @@ From the My operators tab, you can view your operators and their status and make
 
 You can acquire phone numbers from the following operators by going to the websites linked here:
 
-- BT
-- Deutsche Telekom
-- Intrado
-- NTT
-- Nuwave
-- Orange Business Services
-- Pure IP
-- Rogers
-- TATA
-- Telenor
-- Verizon
+
+|Operator  |Operator website  |
+|---------|---------|
+|`BT`     | 	https://www.globalservices.bt.com/en/aboutus/operator-connect        |
+|`Deutsche Telekom`     |   https://cloud.telekom.de/de/blog/cloud-software/microsoft-teams-operator-connect      |
+| `NTT`     |  https://www.arkadin.com/products/microsoft-cloud-uc/operator-connect       |
+|`Nuwave`     |     	https://www.nuwave.com/operator-connect    |
+|`Orange Business Services`     | https://www.orange-business.com/en/partners/microsoft-operator-connect        |
+|`Pure IP`    | https://info.pure-ip.com/operator-connect        |
+|`Rogers`    | https://www.rogers.com/business/products-and-solutions/microsoft-365-business-voice        |
+|`TATA`     |  https://www.tatacommunications.com/solutions/unified-communications/unified-communications-as-a-service/microsoft-teams-solutions/       |
+|`Telenor`     | https://www.telenor.no/bedrift/telefoni/teams/operator-connect        |
+|`Verizon`     |  https://www.verizon.com/business/resources/lp/operator-connect       |
