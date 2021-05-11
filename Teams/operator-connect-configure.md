@@ -147,7 +147,7 @@ From the My operators tab, you can view your operators and their status and make
 You can acquire phone numbers from the following operators by going to the websites linked here:
 
 - BT
-- Deutshe Telekom
+- Deutsche Telekom
 - Intrado
 - NTT
 - Nuwave
