@@ -59,7 +59,7 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
    ![The Intelligent Speaker setup with the speaker, the power and data box. One line goes to the USB port of the console, and the other line goes to power. ](../media/intelligent-speakers1.png)
 
-  The diagram shows how the Intelligent Speaker is connected to the device if the device doesn't include a data box.
+   The diagram shows how the Intelligent Speaker is connected to the device if the device doesn't include a data box.
 
    ![The Intelligent Speaker setup with the speaker connecting directly to the console. ](../media/intelligent-speakers2.png)
 
