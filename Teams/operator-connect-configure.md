@@ -44,7 +44,7 @@ To enable an operator:
 
 4. **Accept the data transfer notice.**
 
-5. **Add your operator.** Select **Add as my operator** to apply your selections.
+5. **Add your operator.** Select **Add as my operator** to save.
 
 ## Set up phone numbers
 
@@ -78,7 +78,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 ### Move numbers from Calling Plans to Operator Connect
 
-1. How you move existing phone numbers to Operator Connect will depend on your operator. Contact your operator to get started. See [Operators](#operators) to find your operator's website.
+1. How you move existing phone numbers from Calling Plans to Operator Connect will depend on your operator. Contact your operator to get started. See [Operators](#operators) to find your operator's website.
 
 2. Once your operator has helped you move your numbers to Operator Connect, unassign the user's Calling Plan phone number, and remove the Calling Plan License. Then, your operator will upload the numbers to your tenant.
 
@@ -111,7 +111,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 ### Assign numbers
 
-Whether you are creating new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
+Whether you're adding new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
 
 To assign numbers by using the Teams admin center, go to **Phone numbers**. The steps are the same as assigning numbers for Calling Plans. See [Assign a phone number to a user](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user) for more information.
 
