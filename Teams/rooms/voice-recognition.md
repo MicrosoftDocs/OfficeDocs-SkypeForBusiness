@@ -55,12 +55,13 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 2. Set the Teams device settings to match the Intelligent Speaker microphone and speaker.
    You can also do this through the TAC portal instead of at the room console.
 
-The diagram shows how the Intelligent Speaker is connected to the device.
+   The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
 
    ![The Intelligent Speaker setup with the speaker, the power and data box. One line goes to the USB port of the console, and the other line goes to power. ](../media/intelligent-speakers1.png)
 
-[cindy will get a second diagram]The diagram shows how a Yealink Intelligent Speaker is connected to a Yealink device.
-*add diagram*
+  The diagram shows how the Intelligent Speaker is connected to the device if the device doesn't include a data box.
+
+   ![The Intelligent Speaker setup with the speaker connecting directly to the console. ](../media/intelligent-speakers2.png)
 
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
