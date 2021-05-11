@@ -63,13 +63,13 @@ How you set up phone numbers depends on whether you are setting up numbers for n
 
 To acquire numbers for new Teams users, follow these steps:
 
-1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using Powershell. For more information, see [Assign Teams add-on licenses to users](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses). 
+1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using Powershell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 2. **Make sure you're in Teams Only mode.** To check this, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. The coexistence mode should be set to Teams only.
 
-3. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/MicrosoftTeams/add-change-remove-emergency-location-organization).
+3. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
 
-4. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id) for more information.
+4. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
 
 5. Once your operator completes the order, they'll upload test numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**.
 
@@ -113,7 +113,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 Whether you're adding new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
 
-To assign numbers by using the Teams admin center, go to **Phone numbers**. The steps are the same as assigning numbers for Calling Plans. See [Assign a phone number to a user](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user) for more information.
+To assign numbers by using the Teams admin center, go to **Phone numbers**. The steps are the same as assigning numbers for Calling Plans. See [Assign a phone number to a user](assign-change-or-remove-a-phone-number-for-a-user.md) for more information.
 
 To assign numbers by using PowerShell, use the Set-CsOnlineVoiceUser cmdlet as follows:
 
@@ -127,7 +127,7 @@ For example:
 Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 ```
 
-For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](https://docs.microsoft.com/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user#assign-a-phone-number-to-a-user).
+For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 
 
