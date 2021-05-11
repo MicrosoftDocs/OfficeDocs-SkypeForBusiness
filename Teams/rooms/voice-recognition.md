@@ -37,7 +37,7 @@ The following items are Intelligent Speaker requirements:
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
 
- <sup>1</sup> An Intelligent Speaker and associated biometric storage and usage will only be available in EN-US language and for US (NA-US region) tenants. Both conditions must be true for a tenant user to enroll and use an Intelligent Speaker for attributed transcription.
+ <sup>1</sup> An Intelligent Speaker and associated voice profile and usage will only be available in EN-US language and for US (NA-US region) tenants. Both conditions must be true for a tenant user to enroll and use an Intelligent Speaker for attributed transcription.
 
 ## Set up an Intelligent Speaker
 
@@ -108,18 +108,19 @@ Voice profile data is stored in Office 365 cloud with user content.
 
 **What is the retention timeline and policy?**
 
-General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, the voice profile data will be deleted after three years if the data isn't used in any meetings for existing employees. If an employee has left the company, voice profile data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+General retention policy is stated in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, a user's voice profile data will be deleted after 3 years  if the user isn't invited to any meetings with an Intelligent Speaker within that 3-year period. Data isn't used in any meetings for existing employees. If an employee has left the company, voice profile data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](https://docs.microsoft.com/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 **Is voice profile data used across Microsoft services?**
 
-- Scenario 1: User enrolls in company tenant and then uses Microsoft consumer service (Xbox, Teams for Life, Office 365 Personal). Their voice is recognized by the consumer service.
-- Scenario 2: Users enroll in their company tenant and their voice is recognized and attributed in the meeting hosted by another company.
+No, voice profile data is only used for the purpose for which the user has provided consent. Microsoft will not use the voice profile data except within Teams voice recognition scenarios.
 
-No, voice profile data is only used for the purpose for which the user has provided consent. Therefore, Microsoft isn't intending to use the voice profile data across different non-Teams services at this point.
+For example, Microsoft won't use the data in the following situations:
 
-However,  Microsoft may decide in the future to use the same voice enrollment data for other Microsoft Office 365 scenarios. Such a decision will be duly notified, with required consent and policies in place, empowering tenant admins to decide and control.
+**Is my voice profile data used when I join a meeting in another organization?** 
 
-**Is an Intelligent Speaker General Data Protection Regulation (GDPR) compliant?**
+No only in meetings organized by a user in your organization.
+
+**How can I export my voice profile?**
 
 Your IT admin can export your audio data at any time.
 
