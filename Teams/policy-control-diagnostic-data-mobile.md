@@ -353,7 +353,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **composeParticipantAdded** - When a participant is added to the Shifts app.
 - **composeSearchResult** - Message extension result selection, which is helpful to understand the app search result relevance. Also enhances message send telemetry with app data.
 - **composeSelectExtension** - Tap on a ME app.
-- **composeSendSmartReply** - A suggested reply item is clicked.
+- **composeSendSmartReply** - A smart reply item is clicked.
 - **composeSendMessage** - Enhances message send telemetry with app data.
 - **confirmAudioOn** - A user confirms that they want audio on.
 - **confirmFileShare** - **Share** is selected on the confirmation dialog.
