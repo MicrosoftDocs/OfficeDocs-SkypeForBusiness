@@ -353,6 +353,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **composeParticipantAdded** - When a participant is added to the Shifts app.
 - **composeSearchResult** - Message extension result selection, which is helpful to understand the app search result relevance. Also enhances message send telemetry with app data.
 - **composeSelectExtension** - Tap on a ME app.
+- **composeSendSmartReply** - A suggested reply item is clicked.
 - **composeSendMessage** - Enhances message send telemetry with app data.
 - **confirmAudioOn** - A user confirms that they want audio on.
 - **confirmFileShare** - **Share** is selected on the confirmation dialog.
@@ -483,6 +484,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **editNavigation** - **Reorder** is selected in the **More** menu to edit the order of bottom bar apps.
 - **editRsvpMeetingOptions** - Select **RSVP** to change from the previous selection.
 - **editShiftClicked** - Edit a shift.
+- **editSmartReply** - A smart reply item is edited.
 - **editTeam** - A user taps on a button to edit a team that they own or administer.
 - **editTeam, editChannel** - Relating to the successful addition of members in a team and successful creation of an existing team when:
   - The **Cancel** button is selected in the **Add Members** page (existing team or channel).
@@ -639,6 +641,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **loginFailed** - User was unable to login.
 - **loginSuccess** - User was able to login.
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
+- **manualSendMessage** - A message is sent out manually.
 - **mapAppPicker** - When a user selects which mapping app to use when they tap on a location card.
 - **markAsRead** - Mark as read.
 - **markAsUnread** - Mark as unread.
@@ -1005,6 +1008,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Simultaneous call forward target is set.
   - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
 - **skipVerificationForLink** - Thw user chose to skip verification.
+- **smartReply** - Smart reply toggle button is clicked.
 - **SMSSendMessage** - The user sends a SMS message.
 - **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
 - **startEditing** - **Edit** button selected.
@@ -1180,6 +1184,9 @@ action.
 - **load_smart_task_list** - Confirms the successful fetching of a smart tasklist's tasks for the tasklist view.
 - **rename_personal_plan** - Confirms the successful renaming of a personal task list.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
+- **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
+- **smart_reply_received** - Confirms that a smart reply suggestion is received.
+- **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
 - **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for a user to land on resulting view after action.
 - **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
 
