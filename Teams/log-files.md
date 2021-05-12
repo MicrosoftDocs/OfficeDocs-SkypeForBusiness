@@ -138,8 +138,7 @@ Linux:
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-Browser trace
----------------------------
+## Browser trace
 
 For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs.
 
