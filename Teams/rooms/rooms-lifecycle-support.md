@@ -48,20 +48,31 @@ The following table shows recommended and supported versions of Windows 10 that 
 
 |Version  |Availability date   |Microsoft Teams Rooms support status   |Microsoft Teams Rooms Minimum application version | Recommended OS build  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 20H2 |2020-10-20 |Under validation, <br/>Not supported yet|&#x2014; |19042.572 |
-| 2004 |2020-05-27 |Skipped, <br/> Not recommended|&#x2014; |19041.264 |
-| 1909 |2019-11-12 |Supported, <br/>Recommended |4.5.33.0 |18363.418  |
-| 1903 |2019-05-21 |Supported  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |Not Supported, <br/>Known compatibility issues &#x2780;|&#x2014; |&#x2014; |
+| 20H2 |2020-10-20 |Supported, <br/>Recommended|4.8.31.0 |19042.631 |
+| 2004 |2020-05-27 |Skipped, <br/> Not recommended &#x2780;|&#x2014; |&#x2014; |
+| 1909 |2019-11-12 |Supported |4.5.33.0 |18363.418  |
+| 1903 |2019-05-21 |Not Supported  |&#x2014; |&#x2014; |
+| 1809 |2019-03-28 |Not Supported, <br/>Known compatibility issues &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Not Supported                             |&#x2014;  |&#x2014; |
 | 1709 |2018-01-18 |Not supported                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |Not Supported                         |&#x2014; |&#x2014; |
 
-&#x2780; Windows 10 version 1809 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot. This issue was addressed in  Windows 10 version 1903.  
+&#x2780; Windows 10 version 2004 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot. 
 
-&#x2781; Windows 10 version 2004 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot. 
+&#x2781; Windows 10 version 1809 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot. This issue was addressed in  Windows 10 version 1903.  
 
 When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
+
+
+> [!IMPORTANT]
+> Windows 10 20H2 update is not yet available for following Teams Rooms devices due to compatibility issues and device OEMs are working on resolving these issues. Windows 10 20H2 will not be offered on these devices. Please do not manually update these devices to 20H2 via overriding GPOs or MDM. 
+> The devices with compatiablity issues are: <br/>
+> 1. HP Elite Slice
+> 2. HP Elite Slice G2 MS SRS Audio Ready
+> 3. HP Elite Slice MS SRS Partner Ready
+> 4. HP Elite Slice G2 with MS MTR
+> 5. Crestron UC-Engine (BIOS version/date contains "KYSKLI" - indicating a Skull Canyon BIOS) 
+
 
 ## Related topics
 
