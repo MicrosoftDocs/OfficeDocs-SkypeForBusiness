@@ -20,19 +20,15 @@ appliesto:
 
 # Contact center integrations for Microsoft Teams
 
- If you're a contact center solution provider or an organization with support call center environments like sales, customer service, or technical support, this article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
+ If you're a contact center solution provider or an organization with support call center environments like sales, customer service, or technical support, this article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected contact center certification program.
 
 ## What is contact center integration for Microsoft Teams?
 
 Microsoft Teams supports customer interaction work streams by acting as the hub for internal and external customer connection across its modes of communication including chat, video meetings and calling. For some organizations, Microsoft Teams’ [cloud voice capabilities](./cloud-voice-landing-page.md), including [auto attendant](./what-are-phone-system-auto-attendants.md) and [call queues](./create-a-phone-system-call-queue.md), provide the features and configuration to meet their needs.
 
-But with the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations need a solution that addresses the following realities:
+But with the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations need a solution equips every member of their organization with the appropriate tools to handle the expanded scope of customer interactions and drive consistency, improvement, and scale.
 
-1. Every member of the organization has the potential to be involved in engaging a customer directly and therefore needs to be equipped with the appropriate tools.
-
-2. This expanded scope of customer interactions requires tools that can help drive consistency, constant improvement, and scale.
-
-For organization who desire integrated solutions with business tools and workflows to drive the customer journey, contact center integration for Microsoft Teams integrates Teams with leading Contact Center as a Service (CCaaS) solution providers.
+For organizations that want solutions with business tools and workflows to drive the customer journey, contact center integration for Microsoft Teams integrates Teams with leading Contact Center as a Service (CCaaS) solution providers.
 
 
 ## Connected contact center for Microsoft Teams certification program
