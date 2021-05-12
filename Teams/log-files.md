@@ -1,10 +1,10 @@
 ---
 title: Use log files in troubleshooting Microsoft Teams
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,21 +13,24 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with troubleshooting.
+description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with monitoring and troubleshooting.
 appliesto: 
   - Microsoft Teams
 ---
 
-Use log files in troubleshooting Microsoft Teams
-=================================================
+# Use log files to monitor and troubleshoot Microsoft Teams
 
-There are three types of log files automatically produced by the client, which can be leveraged to assist in troubleshooting Microsoft Teams:
+There are three types of log files automatically produced by the client, which can be leveraged to assist in monitoring and troubleshooting Teams:
 
--   Debug logs
+-   [Debug logs](#debug-logs)
 
--   Media logs
+-   [Media logs](#media-logs)
 
--   Desktop logs
+-   [Desktop logs](#desktop-logs)
+
+This article describes the three logs and how they are used. 
+
+For information about troubleshooting specific issues, see: [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams). For information about how to contact support, see [Get support](/microsoft-365/business-video/get-help-support).
 
 When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **Desktop** logs are only required if requested by Microsoft.
 
@@ -48,8 +51,7 @@ The following table outlines the various clients and their associated logs. Log 
 
 For a complete list of supported operating systems and browsers, see [Get clients for Microsoft Teams](get-clients.md).
 
-Debug logs
----------------------------
+## Debug logs
 
 These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
 
@@ -85,8 +87,7 @@ The debug logs are automatically downloaded to the following folders:
 
 -   Browser: You will be prompted to save the debug log to default save location
 
-Media logs
----------------------------
+## Media logs
 
 Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
 
@@ -114,8 +115,7 @@ Here's a list of the log files that are generated and the information they conta
 |Debug-0-s2790420889.blog    | Contains information related to the media agent, including rendering quality.          |
 |tscalling-0-2061129496.blog   |Records events in the ts-calling API.       |
 
-Desktop logs
----------------------
+## Desktop logs
 
 Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text-based editor in a top-down format.
 
