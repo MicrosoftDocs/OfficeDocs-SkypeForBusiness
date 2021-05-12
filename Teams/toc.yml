@@ -452,6 +452,15 @@ items:
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
+              
+    - name: Log files, service health, and support
+      items:
+        - name: Use log files to monitor and troubleshoot Teams
+          href: log-files.md
+        - name: Verify service health for Teams
+          href: service-health.md
+        - name: How to look up your support PIN
+          href: support-pin.md
 
 
 - name: Chat, teams, and channels
@@ -1378,6 +1387,8 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Customize apps in Teams
           href: customize-apps.md
+        - name: Update experience for apps
+          href: apps-update-experience.md
 
 - name: Industries and government guidance
   items: 
