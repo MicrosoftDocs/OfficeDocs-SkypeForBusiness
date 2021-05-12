@@ -30,9 +30,9 @@ With Walkie Talkie in Teams, Frontline workers can now securely communicate with
 
 ### Deploying Walkie Talkie
 
-Currently, Walkie Talkie is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/).
+Walkie Talkie is currently available for Teams on Android devices with Google Mobile Services (GMS). Support for iOS devices is coming soon. 
 
-Once enabled, Walkie Talkie will become available on the Android app within 48 hours.
+Currently, Walkie Talkie is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/). Once enabled, Walkie Talkie will become available on the Android app within 48 hours.
 
 ### Adding Walkie Talkie to your app list
 
@@ -72,9 +72,9 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 - Headsets
   - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
-  - Wireless headsets ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
+  - Wireless headsets ([BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Rugged phones
-  - Samsung Galaxy XCover Pro
+  - Samsung Galaxy XCover Pro, XCover 4S/5
     - [More info](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).
     - [Setup guide](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm).
 
@@ -84,9 +84,6 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 ### License requirements
 
 Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
-
-> [!NOTE]
-> Certain advanced features may require additional licensing. For example, integration with Samsung Galaxy XCover Pro requires a Knox license.
 
 ## Further information
 
