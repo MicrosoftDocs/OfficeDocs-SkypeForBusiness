@@ -1,7 +1,7 @@
 ---
 title: Tools for upgrading to Teams from a Skype for Business on-premises deployment
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
