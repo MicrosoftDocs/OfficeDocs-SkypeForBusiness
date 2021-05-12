@@ -1383,6 +1383,8 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Customize apps in Teams
           href: customize-apps.md
+        - name: Update experience for apps
+          href: apps-update-experience.md
 
 - name: Industries and government guidance
   items: 
