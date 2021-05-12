@@ -20,11 +20,11 @@ appliesto:
 
 # Contact center integrations for Microsoft Teams
 
- This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
+ If you're a contact center solution provider or an organization with support call center environments like sales, customer service, or technical support, this article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
 
 ## What is contact center integration for Microsoft Teams?
 
-Today’s contact centers provide much more than support – they act as one of the main vehicles for interaction and unfiltered feedback on a customer’s experience with a brand. Due to the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations have realized two additional realities:
+Today’s contact centers act as one of the main vehicles for customer interaction and feedback. Due to the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations have realized two additional realities:
 
 1. Every member of the organization has the potential to be involved in engaging a customer directly and therefore needs to be equipped with the appropriate tools.
 
@@ -38,7 +38,7 @@ For others who desire integrated solutions with business tools and workflows to 
 
 The connected contact center for Microsoft Teams certification program provides customers with the assurance that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
-If you're an organization with support call center environments like sales, customer service, or technical support looking for an integrated contact center solution, see [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of solution certified providers as well as providers in the process of certification.
+If you're an organization looking for an integrated contact center solution, see [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of solution certified providers as well as providers in the process of certification.
 
 If you are a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.
 
@@ -145,7 +145,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
 This model integrates with the Teams client using the [Teams client platform](/microsoftteams/platform/overview), [Teams Graph APIs](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0). The Extend model also uses the Teams phone system for all contact center calls and call control experiences. In this model, the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
 
-Working within Teams for internal collaboration and external communication allows agents to benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching.
+By using Connect and Extend-based solutions, agents can working within Teams for internal collaboration and external communication and benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching.
 
 Organizations can design workflows and advanced routing configurations down to the individual and measure the quality of their system and interactions.
 
