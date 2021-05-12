@@ -1508,25 +1508,6 @@ items:
           href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
         - name: Teams policy packages for Government
           href: policy-packages-gov.md
-              
-- name: Troubleshoot 
-  href: /MicrosoftTeams/troubleshoot/teams
-  items:
-    - name: Troubleshoot installation and update issues
-      href: troubleshoot-installation.md
-    - name: Troubleshoot connectivity issues with the Teams client
-      href: connectivity-issues.md
-    - name: Issues receiving messages and calls on legacy systems
-      href: legacy-login-issues.md
-    - name: Use log files in troubleshooting Teams
-      href: log-files.md
-    - name: Verify service health for Teams
-      href: service-health.md
-    - name: Contact support for business products - Admin Help
-      href: /microsoft-365/admin/contact-support-for-business-products
-    - name: How to look up your support PIN
-      href: support-pin.md
-
 
 - name: Reference
   items: 
