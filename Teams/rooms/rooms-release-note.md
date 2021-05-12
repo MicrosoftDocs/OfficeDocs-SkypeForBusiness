@@ -75,9 +75,7 @@ Introduced in this update:
 - Windows 10 20H2 support 
 
 > [!NOTE]
-> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in near future. Windows 10 20H2 will not be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
-
-
+> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
 
 ### 4.8.25.0 (04/22/2021)
 
@@ -86,7 +84,6 @@ Introduced in this update:
 
 > [!NOTE]
 > GCCH customers can download the upgrade package from [Manually update a Microsoft Teams Rooms device](manual-update.md)
-
 
 ### 4.8.19.0 (04/06/2021)
 
