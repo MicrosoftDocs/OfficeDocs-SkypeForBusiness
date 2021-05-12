@@ -20,49 +20,50 @@ Teams PowerShell Module provides a complete set of cmdlets for managing Teams di
 
 > [!NOTE]
 > Teams administrator were notified through Message center post (MC244740, dated March 16, 2021; MC250940, dated April 16 2021) about this change.
-> 
-> Teams PowerShell Module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication. See [Download and install Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) for instructions on how to enable WinRM for Basic authentication.
+>
+> Teams PowerShell Module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication. See [Download and install Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) for instructions on how to enable WinRM for Basic authentication.
 
 > [!WARNING]
 > Skype for Business Online Connector connections will be rejected starting May 17, 2021. Please contact Microsoft Support for help and support for migrating to Teams PowerShell Module.
 
-# How to Migrate
+## How to Migrate
 
 Migrating from using Skype for Business Online Connector to Teams PowerShell module is easy and simple. The below steps explains how to do this.
 
 1. Install the latest Teams PowerShell module. For steps, see [Install Microsoft Teams Powershell](teams-powershell-install.md).
-2.	Uninstall Skype For Business Online Connector. To do this, in Control Panel, go to **Programs and Features**, select **Skype for Business Online, Windows PowerShell Module**, and then select **Uninstall**.
-3. In your PowerShell scripts, change the module name that's referenced in ```Import-Module``` from 
-```SkypeOnlineConnector``` or ```LyncOnlineConnector``` to ```MicrosoftTeams```.
+2. Uninstall Skype For Business Online Connector. To do this, in Control Panel, go to **Programs and Features**, select **Skype for Business Online, Windows PowerShell Module**, and then select **Uninstall**.
+3. In your PowerShell scripts, change the module name that's referenced in ```Import-Module``` from
 
-    For example, change ```Import-Module -Name SkypeOnlineConnector``` to ```Import-Module -Name MicrosoftTeams```.
+    `SkypeOnlineConnector` or `LyncOnlineConnector` to `MicrosoftTeams`.
 
-4.	When using Teams PowerShell Module 2.0 or later, update your scripts that refers New-CsOnlineSession to Connect-MicrosoftTeams. Import-PsSession is no longer required to  establish a Skype for Business Online Remote PowerShell Session as that is done implicit when using Connect-MicrosoftTeams.
+    For example, change `Import-Module -Name SkypeOnlineConnector` to `Import-Module -Name MicrosoftTeams`.
 
-```powershell
-   # When using the Skype for Business online connector
-     Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
-     $credential = Get-Credential
-     $SkypeSession = New-CsOnlineSession -Credential $credential
-     Import-Session $SkypeSession
+4. When using Teams PowerShell Module 2.0 or later, update your scripts that refers `New-CsOnlineSession` to `Connect-MicrosoftTeams`. `Import-PsSession` is no longer required to establish a Skype for Business Online Remote PowerShell Session as that is done implicit when using `Connect-MicrosoftTeams`.
 
-   # Example getting tenant details
-     Get-csTenant
-
-   # When using Teams PowerShell Module 2.0 or later
-     Import-Module MicrosoftTeams
-     $credential = Get-Credential
-     Connect-MicrosoftTeams -Credential $credential
-   
-   # Example getting tenant details
-     Get-csTenant
-
-   # Closing the Session when using the Skype for Business online connector
-	   Get-PsSession $SkypeSession |	Remove-PsSession
-
-   # Disconnecting from Teams PowerShell Module 
-	   Disconnect-MicrosoftTeams
-```
+    ```powershell
+       # When using the Skype for Business online connector
+         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         $credential = Get-Credential
+         $SkypeSession = New-CsOnlineSession -Credential $credential
+         Import-Session $SkypeSession
+    
+       # Example getting tenant details
+         Get-csTenant
+    
+       # When using Teams PowerShell Module 2.0 or later
+         Import-Module MicrosoftTeams
+         $credential = Get-Credential
+         Connect-MicrosoftTeams -Credential $credential
+       
+       # Example getting tenant details
+         Get-csTenant
+    
+       # Closing the Session when using the Skype for Business online connector
+         Get-PsSession $SkypeSession | Remove-PsSession
+    
+       # Disconnecting from Teams PowerShell Module 
+         Disconnect-MicrosoftTeams
+    ```
 
 ## Online Support
 
