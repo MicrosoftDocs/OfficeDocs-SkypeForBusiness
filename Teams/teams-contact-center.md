@@ -18,11 +18,11 @@ appliesto:
 
 
 
-# Contact Center integrations for Microsoft Teams
+# Contact center integrations for Microsoft Teams
 
-Integrating popular contact center solutions with Microsoft Teams is a common need for customers deploying Teams Calling capabilities.  This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
+If you're a contact center solution provider or an organization with support call center environments like sales, customer service, or technical support, you can leverage Teams Calling capabilities and integrate your contact center solution with Microsoft Teams. This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected Contact Center Certification Program.
 
-## What is a Contact Center integration for Microsoft Teams?
+## What is contact center integration for Microsoft Teams?
 
 Today’s contact centers provide much more than support – they act as one of the main vehicles for interaction and unfiltered feedback on a customer’s experience with a brand. Due to the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations have realized two additional realities:
 
@@ -39,6 +39,8 @@ For others who desire integrated solutions with business tools and workflows to 
 The Connected Contact Center for Microsoft Teams certification program provides customers with the assurance that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
 For a list of solution certified providers as well as providers in the process of certification, see [Connected Contact Center solutions](#connected-contact-center-solutions).
+
+If you are a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.
 
 ## Choose an integration model
 
@@ -193,6 +195,8 @@ While the following is not a comprehensive list of feature capabilities for this
 
 ## Connected Contact Center Solutions
 
+### Certified solutions 
+
 ![Certified Badge.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -204,7 +208,7 @@ While the following is not a comprehensive list of feature capabilities for this
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
-### Connected Contact Center solutions currently in the certification process
+### Solutions currently in the certification process
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -223,6 +227,3 @@ While the following is not a comprehensive list of feature capabilities for this
 
 This list will be updated as more solution providers join and meet the certification criteria.
 
-## Next steps
-
-If you are a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.
