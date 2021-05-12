@@ -82,12 +82,6 @@ productDirectory:
       url: ./upgrade-workshops-landing-page.yml
 
 # additionalContent section (optional)
-# Card with summary style
-additionalContent:
-  # Supports up to 4 sections:
-  sections:
-    - title: Courses
-      items:
         # Card
         - title: Teamwork Specialist certification
           imageSrc: https://docs.microsoft.com/office/media/icons/users-group.png
