@@ -68,7 +68,7 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
 ## Enable an Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams.md) and the [PowerShell meeting cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams#allow-transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
 
 The voice profile of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile is dismissed at the end of the meeting.
 
@@ -80,6 +80,10 @@ The following are the required policies to set an Intelligent Speaker and user r
 |`roomAttributeUserOverride`|Control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts.|- `Off`<br/>- `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). <br/> - `distinguish`, *This setting will be available at a later date.*|
 |`enabletranscription`|Required for user and Teams rooms accounts|`true` and `false`|
 ||||
+
+In the Teams admin center, set the **Allow transcription** policy.
+
+![the admin center with meeting policies highlighted and Allow transcription selected](../media/allow-transcription.png)
 
 Settings are disabled by default. When the policies are disabled:
 
