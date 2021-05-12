@@ -117,7 +117,7 @@ When you create a team from an existing team, any private channels in the existi
 
 Notifications from private channels are not included in missed activity emails at this time.
 
-Teams messages in private channels are currently not supported for retention policies.
+Retention policies are not supported for messages in private channels.
 
 ## Related topics
 
