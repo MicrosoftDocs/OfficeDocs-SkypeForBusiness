@@ -87,7 +87,7 @@ items:
 
     4. Since the Seattle HQ site has local internet and local PSTN connections, you need to correctly specify these characteristics.
 
-    ![New site egress settings](media/network-planner-add-network-site-egress.png)
+    ![New site egress settings](media/network-planner-add-network-site-link-capacity.png)
 
     5. Click **Save** to complete adding the Seattle HQ site.
     6. Create the Denver site using the same process. WAN should not be enabled. 
