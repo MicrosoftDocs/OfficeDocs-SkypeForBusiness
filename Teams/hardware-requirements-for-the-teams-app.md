@@ -31,7 +31,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 | Component | Requirement |
 |---------|---------|
 |Computer and processor    | Minimum 1.6 GHz (or higher), 2 core<br><br>Note: For Intel processors, the maximum speed achieved using Intel Turbo Boost Technology (Max Turbo Frequency) must be considered         |
-|Memory     |    4.0 GB RAM  (Teams requires a dedicated 4GB of RAM over and above any other system requirements)    |
+|Memory     |    4.0 GB RAM  (Teams requires a dedicated 4 GB of RAM over and above any other system requirements)    |
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Windows OS: Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update)
