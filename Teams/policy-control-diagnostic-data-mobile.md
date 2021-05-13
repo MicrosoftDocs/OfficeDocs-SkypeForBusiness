@@ -379,17 +379,16 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **copyLink** - Copy a link to a channel post.
 - **contactActivity** - When the button to view a user's activity from the contact card is selected.
 - **conversation** - When a user navigates to the **Chat** or **Posts** tab.
-- **cortanaOpen**
-- **cortanaInvoke**
-- **cortanaStopResponding**
-- **cortanaEduOpen**
-- **cortanaClose**
-- **cortanaVoiceSelect**
-- **cortanaEduCategorySelect**
-- **cortanaFreOpen**
-- **cortanaMicPermissionDialogButtonClick**
-- **cortanaKWSSwitchToggle**
-- **cortanaSettingsOpen**
+- **cortanaOpen** - When a user opens Cortana canvas.
+- **cortanaInvoke** - When a user clicks mic button on Cortana canvas.
+- **cortanaStopResponding** - When a user clicks cancel button on Cortana canvas.
+- **cortanaEduOpen** - When education page shows on Cortana canvas.
+- **cortanaClose** - When a user manually dismisses Cortana canvas.
+- **cortanaVoiceSelect** - When a user selects Cortana voice font in Cortana settings page.
+- **cortanaEduCategorySelect** - When a user clicks on an education tips category item.
+- **cortanaMicPermissionDialogButtonClick** - When a user grants or declines mic permission on Cortana canvas.
+- **cortanaKWSSwitchToggle** - When a user tap on KWS switch in Cortana settings page.
+- **cortanaSettingsOpen** - When a user opens Cortana settings page via clicking Cortana settings button on Cortana canvas.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
   - The **Cancel** button is selected on the **Create Channel** Page.
