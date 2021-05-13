@@ -379,6 +379,17 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **copyLink** - Copy a link to a channel post.
 - **contactActivity** - When the button to view a user's activity from the contact card is selected.
 - **conversation** - When a user navigates to the **Chat** or **Posts** tab.
+- **cortanaOpen**
+- **cortanaInvoke**
+- **cortanaStopResponding**
+- **cortanaEduOpen**
+- **cortanaClose**
+- **cortanaVoiceSelect**
+- **cortanaEduCategorySelect**
+- **cortanaFreOpen**
+- **cortanaMicPermissionDialogButtonClick**
+- **cortanaKWSSwitchToggle**
+- **cortanaSettingsOpen**
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
   - The **Cancel** button is selected on the **Create Channel** Page.
@@ -1167,6 +1178,13 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
+- **cortana_background_token_refresh**
+- **cortana_admin_policy_refresh**
+- **cortana_skill_action_execution**
+- **cortana_skill_action_delay**
+- **cortana_sdk_events**
+- **cortana_initialization**
+- **cortana_watchdog**
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
