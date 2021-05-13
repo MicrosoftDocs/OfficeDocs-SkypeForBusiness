@@ -61,7 +61,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 | Component | Requirement |
 |---------|---------|
 |Computer and processor    | 1.6 GHz (or higher) (32-bit or 64-bit), 2 core        |
-|Memory     |    4.0 GB RAM  (Teams requires a dedicated 4GB of RAM over and above any other system requirements)   |
+|Memory     |    4.0 GB RAM  (Teams requires a dedicated 4 GB of RAM over and above any other system requirements)   |
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  128 MB graphics memory
