@@ -48,6 +48,8 @@ For every team, a SharePoint site is created, and the **Shared Documents** folde
 > [!NOTE]
 > It's not currently possible to replace the default SharePoint site and document library with another one. We've heard from you that you want it, and we're considering it. Check the [Teams Roadmap](https://aka.ms/teamsroadmap) or [Teams UserVoice](https://aka.ms/TeamsUserVoice) to stay on top of upcoming features.
 
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 > [!TIP]
 > To add a tab to your team that links to an existing SharePoint site page or to your existing SharePoint document library:
 > 1. Select the  plus sign next to the tabs.

@@ -119,16 +119,12 @@ items:
               href: troubleshoot-installation.md
     - name: Teams training
       items: 
-        - name: Overview
-          href: training-microsoft-teams-landing-page.md
         - name: Admin training for Teams
           href: itadmin-readiness.md
-        - name: Teams sessions at Ignite 2020
+        - name: Teams sessions at Ignite
           href: ignite-2020-landing-page.md
-        - name: Teams live training
+        - name: End user training for Teams
           href: instructor-led-training-teams-landing-page.yml
-        - name: Teams online training
-          href: https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
@@ -187,6 +183,8 @@ items:
       href: continue-journey.md
     - name: Skype for Business Online retirement
       href: skype-for-business-online-retirement.md
+    - name: Skype for Business Online assisted upgrades
+      href: upgrade-assisted.md
     - name: FAQ
       href: FAQ-journey.yml
     - name: Reference
@@ -298,8 +296,6 @@ items:
       items: 
         - name: Privacy and Microsoft Teams
           href: teams-privacy.md
-        - name: Data collection practices
-          href: data-collection-practices.md
         - name: Location of data in Teams
           href: location-of-data-in-teams.md
         - name: Block access to Sharepoint Online for specific users
@@ -348,7 +344,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat
+            - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -360,7 +356,7 @@ items:
               href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
-            - name: Turn guest access on or turn off
+            - name: Turn on guest access or turn off
               href: set-up-guests.md
             - name: Add a guest to a team
               href: view-guests.md
@@ -452,6 +448,15 @@ items:
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
+              
+    - name: Log files, service health, and support
+      items:
+        - name: Use log files to monitor and troubleshoot Teams
+          href: log-files.md
+        - name: Verify service health for Teams
+          href: service-health.md
+        - name: How to look up your support PIN
+          href: support-pin.md
 
 
 - name: Chat, teams, and channels
@@ -530,7 +535,7 @@ items:
           items: 
             - name: Manage external access
               href: manage-external-access.md
-            - name: Native Teams chat
+            - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
               href: teams-skype-interop.md
@@ -544,7 +549,7 @@ items:
               href: guest-experience.md
             - name: Authorize guest access
               href: teams-dependencies.md
-            - name: Turn guest access on or turn off
+            - name: Turn on guest access or turn off
               href: set-up-guests.md
             - name: Add a guest to a team
               href: add-guests.md
@@ -626,6 +631,8 @@ items:
           href: google-workspace-addon-teams.md
         - name: Cloud Video Interop
           href: cloud-video-interop.md
+        - name: Set up for webinars in Microsoft Teams
+          href: set-up-webinars.md 
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -684,7 +691,7 @@ items:
               href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
             - name: Disabling toll-free numbers for specific users
               href: disabling-toll-free-numbers-for-specific-teams-users.md
-            - name: Outbound calling restriction policies for Audio Conferencing and user PSTN calls
+            - name: Outbound calling restriction policies for Audio Conferencing and user PSTN call
               href: outbound-calling-restriction-policies.md
             - name: View and reset a conference ID assigned to a user
               href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
@@ -720,7 +727,7 @@ items:
       items: 
         - name: What are Teams live events?
           href: teams-live-events/what-are-teams-live-events.md
-        - name: Plan for Teams live events
+        - name: Plan for Teams lives events
           href: teams-live-events/plan-for-teams-live-events.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
@@ -861,8 +868,6 @@ items:
               href: aa-cq-cqd-historical-reports.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
-            - name: Reporting
-              href: aa-cq-cqd-historical-reports.md
         - name: Block inbound calls
           href: block-inbound-calls.md
         - name: Call park and retrieve
@@ -1057,20 +1062,40 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
             - name: Phone number management for Canada
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+            - name: Phone number management for the Czech Republic
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
             - name: Phone number management for Denmark
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+            - name: Phone number management for Finland
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
             - name: Phone number management for France
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
             - name: Phone number management for Germany
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+            - name: Phone number management for Hungary
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
             - name: Phone number management for Ireland
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
             - name: Phone number management for Italy
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
             - name: Phone number management for Japan
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+            - name: Phone number management for Luxembourg
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+            - name: Phone number management for New Zealand
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+            - name: Phone number management for Norway
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+            - name: Phone number management for Poland
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
             - name: Phone number management for Portugal
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+            - name: Phone number management for Romania
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+            - name: Phone number management for Singapore
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+            - name: Phone number management for Slovakia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
             - name: Phone number management for Spain
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
             - name: Phone number management for the Netherlands
@@ -1244,19 +1269,35 @@ items:
           href: business-voice/get-ready-internet.md
         - name: Get your users ready
           href: business-voice/prepare-users.md
-    - name: Run the Getting Started wizard
-      href: business-voice/use-getting-started-wizard.md
+    - name: Set up Business Voice
+      items:
+        - name: Overview
+          href: business-voice/set-up-overview.md
+        - name: "Step 1: Set up emergency locations"
+          href: business-voice/set-up-emergency-locations.md
+        - name: "Step 2: Set up phone numbers"
+          href: business-voice/set-up-phone-numbers.md
+        - name: "Step 3: Assign licenses"
+          href: business-voice/set-up-licenses.md
+        - name: "Step 4: Set up a resource account"
+          href: business-voice/set-up-resource-account.md
+        - name: "Step 5: Assign phone numbers to users"
+          href: business-voice/set-up-assign-numbers.md
+        - name: "Step 6: Set up an auto attendant"
+          href: business-voice/set-up-auto-attendant.md
+        - name: "Step 7: Port phone numbers (optional)"
+          href: business-voice/port-phone-numbers.md
+        - name: "Post-setup resources"
+          href: business-voice/set-up-finish.md
     - name: Customize your setup
       items: 
         - name: Customization options
           href: business-voice/customize-business-voice.md
-        - name: Port phone numbers
-          href: business-voice/port-phone-numbers.md
         - name: Set up calling policies
           href: business-voice/set-up-policies.md
         - name: Manage policy packages
           href: business-voice/policy-packages.md
-        - name: Create additional users
+        - name: Create more users
           href: business-voice/create-users.md
         - name: Set up a call queue
           href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1342,6 +1383,8 @@ items:
           href: teams-custom-app-policies-and-settings.md
         - name: Customize apps in Teams
           href: customize-apps.md
+        - name: Update experience for apps
+          href: apps-update-experience.md
 
 - name: Industries and government guidance
   items: 
@@ -1401,10 +1444,12 @@ items:
           href: batch-group-policy-assignment-edu.md
         - name: PowerShell script to create security groups for educators and students
           href: scripts/powershell-script-security-groups-edu.md
-        - name: Low bandwidth guidance for Education admins
+        - name: Low-bandwidth guidance for Education admins
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
+        - name: Career Coach app in Teams for Education
+          href: career-coach.md
         - name: Supervise chats in Teams
           href: supervise-chats-edu.md
         - name: Education Insights
@@ -1412,7 +1457,9 @@ items:
             - name: Get started with Insights
               href: class-insights.md
             - name: Sync SIS data with Insights
-              href: education-insights-sis-data-sync.md              
+              href: education-insights-sis-data-sync.md
+            - name: Get started with Reflect
+              href: reflect.md      
         - name: Assignments in Teams for Education
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams resources for Education admins
@@ -1437,13 +1484,9 @@ items:
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
-        - name: Create a Teams Intranet Portal app from a SPO site or page
-          href: teams-standalone-static-tabs-using-spo-sites.md
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-      items: 
-        - name: Get started with Retail Teams templates in the admin center
-          href: retail-teams-templates-in-the-admin-console.md
+      items:
         - name: Get started with Retail Teams templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
@@ -1465,39 +1508,11 @@ items:
           href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
         - name: Teams policy packages for Government
           href: policy-packages-gov.md
-              
-- name: Troubleshoot 
-  href: /MicrosoftTeams/troubleshoot/teams
-  items:
-    - name: Troubleshoot installation and update issues
-      href: troubleshoot-installation.md
-    - name: Troubleshoot connectivity issues with the Teams client
-      href: connectivity-issues.md
-    - name: Issues receiving messages and calls on legacy systems
-      href: legacy-login-issues.md
-    - name: Use log files in troubleshooting Teams
-      href: log-files.md
-    - name: Verify service health for Teams
-      href: service-health.md
-    - name: Contact support for business products - Admin Help
-      href: /microsoft-365/admin/contact-support-for-business-products
-    - name: How to look up your support PIN
-      href: support-pin.md
-
 
 - name: Reference
   items: 
     - name: Limits and specifications for Teams
-      href: limits-specifications-teams.md
-    - name: Moving from Kaizala to Microsoft Teams
-      items:
-        - name: Kaizala and Microsoft Teams
-          items:
-            - name: Your path to Teams
-              href: prepare-for-teams.md
-              items:
-                - name: Navigate Teams capabilities
-               
+      href: limits-specifications-teams.md            
     - name: Licensing
       items: 
         - name: Manage user access to Teams
@@ -1573,10 +1588,6 @@ items:
           href: devices/teams-ip-phones.md
         - name: Phones for Skype for Business Online
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Teams alerting and monitoring
-          href: alerts/teams-admin-alerts.md 
-        - name: Teams device health monitoring
-          href: alerts/device-health-status.md 
     - name: Teams PowerShell
       items: 
         - name: Overview

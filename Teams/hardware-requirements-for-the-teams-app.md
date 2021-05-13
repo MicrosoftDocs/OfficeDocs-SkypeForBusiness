@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: In this article, you'll learn about the hardware requirements needed to install and run Microsoft Teams.
 f1.keywords:
@@ -35,7 +35,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Windows OS: Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update)
-|Operating system  |    Windows 10, Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2|
+|Operating system  |    Windows 10, Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Note: We recommend using the latest Windows version and security patches available.|
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    |

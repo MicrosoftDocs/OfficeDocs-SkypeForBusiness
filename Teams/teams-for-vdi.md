@@ -372,10 +372,9 @@ This feature is available in Teams version 1.3.00.13565 and later.
 ### Client deployment, installation, and setup
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
+- In Citrix environments, if the user disconnects from the Virtual Machine while Teams is running, Teams updates can result in the user to be in a non-optimized state for AV when they reconnect. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
-- Windows Virtual Desktop and VMware don't support MacOS and Linux-based clients at this time.
-- Citrix doesn't support MacOs clients at this time.
-- Citrix doesn't support the use of explicit HTTP proxies defined on an endpoint.
+- Windows Virtual Desktop doesn't support macOS and Linux-based clients at this time.
 
 ### Calling and meetings
 
@@ -388,9 +387,9 @@ The following calling and meeting features are not supported:
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - Call park
-- Call queue
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
+- Zoom control 
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.

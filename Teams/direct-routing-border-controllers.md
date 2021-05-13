@@ -109,4 +109,8 @@ The following table lists devices that are verified for interoperability between
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode with Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
 To give us product feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com).
+
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
 Note the certification granted to a major version. That means that firmware with any number in the SBC firmware following the major version is supported.

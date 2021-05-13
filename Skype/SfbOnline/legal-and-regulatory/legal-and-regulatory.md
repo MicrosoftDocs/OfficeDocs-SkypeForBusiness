@@ -22,3 +22,5 @@ ms.custom:
 description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 # Legal and regulatory
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

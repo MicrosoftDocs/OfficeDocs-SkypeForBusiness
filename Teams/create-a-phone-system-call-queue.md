@@ -43,6 +43,12 @@ Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto
 
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
+## Video demonstration
+
+This video shows a basic example of how to create a call queue in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
+
 ## Resource account and language
 
 ![Screenshot of resource account and language settings](media/call-queue-name-language.png)
@@ -74,6 +80,11 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 You can add up to 200 agents via a Teams channel.
 
 If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**.
+
+The following clients are supported when using a Teams channel for call queues: 
+
+  - Microsoft Teams Windows client
+  - Microsoft Teams Mac client
 
 ##### Users and groups
 
@@ -174,6 +185,7 @@ The following clients are supported for call agents in a call queue:
   - iPad Skype for Business Client (version 6.16.0 and later)
   - Microsoft Teams Windows client (32-bit and 64-bit versions)
   - Microsoft Teams Mac client
+  - Microsoft Teams on [Virtualized Desktop Infrastructure](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix, and VMware)
   - Microsoft Teams iPhone app
   - Microsoft Teams Android app
 
