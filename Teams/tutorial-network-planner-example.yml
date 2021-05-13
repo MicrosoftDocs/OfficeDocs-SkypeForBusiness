@@ -70,18 +70,18 @@ items:
   content: |
     Now, you need to add the three sites to your network plan. The table below summarizes the characteristics of Contoso's network locations.
 
-    |Location       |Total number of employees|Calling only employees|Internet connection       |PSTN connection                |
-    |---------------|-------------------------|----------------------|--------------------------|-------------------------------|
-    |Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing|
-    |Kirkland Office|400                      |10                    |Remote Internet through HQ|Remote PSTN through HQ         |
-    |Denver Office  |250                      |50                    |Local Internet            |No PSTN connection             |
+    |Location       |Total number of employees|Calling only employees|Internet connection       |PSTN connection                |WAN link capacity   | Internet link capacity   |
+    |---------------|-------------------------|----------------------|--------------------------|-------------------------------|--------------------|--------------------------|
+    |Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing| 200                |500                       |
+    |Kirkland Office|400                      |10                    |Remote Internet through HQ|Remote PSTN through HQ         | ??                 |??                        |
+    |Denver Office  |250                      |50                    |Local Internet            |No PSTN connection             | N/A                | ??                       |
 
     1. Click your network plan in Network Planner.
     2. Select the **Network sites** tab and click **Add a network site**.
 
     ![Adding a network site](media/network-planner-add-network-site.png)
 
-    3. Using the table above, fill in the details for the Seattle HQ site.
+    3. Using the table above, fill in the details for the Seattle HQ site. Turn on both the **ExpressRoute** and **Connected to WAN** toggles. 
 
     ![New site details](media/network-planner-add-network-site-2.png)
 
@@ -90,7 +90,7 @@ items:
     ![New site egress settings](media/network-planner-add-network-site-egress.png)
 
     5. Click **Save** to complete adding the Seattle HQ site.
-    6. Create the Denver site using the same process.
+    6. Create the Denver site using the same process. WAN should not be enabled. 
     7. Since the Kirkland site leverages the connection to Seattle HQ for both internet and PSTN connectivity, it is considered a remote site. When creating the Kirkland site, you need to specify that it is connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
 
     ![Remote site egress settings](media/network-planner-add-remote-site-egress.png)
