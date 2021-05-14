@@ -386,7 +386,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **cortanaKWSSwitchToggle** - When a user tap on KWS switch in Cortana settings page.
 - **cortanaMicPermissionDialogButtonClick** - When a user grants or declines mic permission on Cortana canvas.
 - **cortanaOpen** - When a user opens Cortana canvas.
-- **cortanaOptionsOpen** - When the user taps options button on Cortana canvas
+- **cortanaOptionsOpen** - When the user taps options button on Cortana canvas.
 - **cortanaSafetyFirstActions** - When the user accepts safety first declaration.
 - **cortanaSafetyFirstLaunch** - When the user opens Cortana for the first time after FRE is finished.
 - **cortanaSettingsOpen** - When a user opens Cortana settings page via clicking Cortana settings button on Cortana canvas.
@@ -1181,17 +1181,17 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
-- **cortanaError** To monitor Cortana error happends
+- **cortanaError** To monitor Cortana error happends.
 - **cortanaView** - To monitor Cortana canvas appear.
 - **cortanaRestart** To monitor Cortana restart.
-- **cortanaSetNewConversation** To monitor Cortana sets new conversation
-- **cortanaSpeechRecognization** To monitor Cortana speech recognization latency
-- **cortanaStart** To monitor Cortana backend start
-- **cortanaStartListening** To monitor Cortana start listening
-- **cortanaStopListening** To monitor Cortana stop listening
-- **cortanaThinking** To monitor Cortana state change to thinking(waiting for service's response)
-- **cortanaTokenRefresh** To monitor Cortana token refresh in foreground
-- **cortanaWarmingUp** To monitor Cortana warming up start(Cortana is open but token is still fetching)
+- **cortanaSetNewConversation** To monitor Cortana sets new conversation.
+- **cortanaSpeechRecognization** To monitor Cortana speech recognization latency.
+- **cortanaStart** To monitor Cortana backend start.
+- **cortanaStartListening** To monitor Cortana start listening.
+- **cortanaStopListening** To monitor Cortana stop listening.
+- **cortanaThinking** To monitor Cortana state change to thinking(waiting for service's response).
+- **cortanaTokenRefresh** To monitor Cortana token refresh in foreground.
+- **cortanaWarmingUp** To monitor Cortana warming up start(Cortana is open but token is still fetching).
 - **cortana_admin_policy_refresh** - To monitor Cortana admin policy refresh.
 - **cortana_background_token_refresh** - To monitor Cortana token refresh.
 - **cortana_initialization** - To monitor Cortana initialization steps.
