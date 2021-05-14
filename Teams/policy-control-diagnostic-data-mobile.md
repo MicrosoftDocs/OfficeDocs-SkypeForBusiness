@@ -663,6 +663,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **messageBookmarkMessage** - Connector card save. Uses existing telemetry with app specific data. Or save a bot message.
 - **markAsLastUnread** - Connector card context menu.
 - **maskCallerId** - A user enables or disables calling setting to mask caller id.
+- **meetingAttachmentFileClick** - A meeting attachment item is clicked.
+- **meetingAttachmentFileOptions** - A meeting attachment item options is clicked.
+- **meetingAttachmentSeeMoreClick** - A meeting attachment see more button is clicked.
 - **meetingDetailCalendarList** - Meeting Details page selected from calendarList, or select the **Details** tab on the Meeting Details page.
 - **meetingDetailChatWithParticipants** - Chat with participants from the Meeting detail page.
 - **meetingDetailDeleteMeetingforSelf** - Delete a Meeting from Meeting Detail page for oneself.
@@ -670,6 +673,10 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **meetingDetailParticipants** - See all participants from the Meeting Detail page.
 - **meetingDetailScheduledMeeting** - Meeting details page selected from scheduled meeting object (**…**), or select the **Details** tab of a scheduled meeting.
 - **meetingDetailSearchParticipants** - Selected **Search** in meeting participants on the meeting schedule.
+- **meetingInsightFileClick** - A meeting related file item is clicked.
+- **meetingInsightFileLocatorClick** - A meeting related content locator tip button is clicked.
+- **meetingInsightFileOptions** - A meeting related file item options is clicked.
+- **meetingInsightSeeMoreClick** - A meeting related content see more button is clicked.
 - **meetingJoinLeave** - Leave tapped -> **x** is tapped after the **Join** button is tapped.
 - **meetingJoinNow** - **Join now for VOIP** selected.
 - **meetingJoinNowWithCallMe** - A user joins a meeting with **Call me**.
@@ -1214,6 +1221,11 @@ action.
 - **load_personal_task_list** - Confirms the successful fetching of a personal tasklist's tasks for the tasklist view.
 - **load_shared_task_list** - Confirms the successful fetching of a shared tasklist's tasks for the tasklist view.
 - **load_smart_task_list** - Confirms the successful fetching of a smart tasklist's tasks for the tasklist view.
+- **meetingAttachmentRender** - Confirms the render of meeting attachments.
+- **meetingInsightFetch** - Confirms the fetch of meeting related content.
+- **meetingInsightLocatorRender** - Confirms the render of meeting related content locator tip.
+- **meetingInsightRender** - Confirms the render of meeting related content.
+- **meetingInsightVisible** - Confirms the visibility of meeting related content.
 - **rename_personal_plan** - Confirms the successful renaming of a personal task list.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
 - **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
