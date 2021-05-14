@@ -1177,13 +1177,13 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
-- **cortana_background_token_refresh**
-- **cortana_admin_policy_refresh**
-- **cortana_skill_action_execution**
-- **cortana_skill_action_delay**
-- **cortana_sdk_events**
-- **cortana_initialization**
-- **cortana_watchdog**
+- **cortana_background_token_refresh** - To monitor Cortana token refresh.
+- **cortana_admin_policy_refresh** - To monitor Cortana admin policy refresh.
+- **cortana_skill_action_execution** - To monitor Cortana action execution.
+- **cortana_skill_action_delay** - Confirms the start of delay action.
+- **cortana_sdk_events** - To monitor Cortana turn related events.
+- **cortana_initialization** - To monitor Cortana initialization steps.
+- **cortana_watchdog** - To monitor Cortana watchdog recovery process.
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
