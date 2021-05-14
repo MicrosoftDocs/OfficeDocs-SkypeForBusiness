@@ -1,3 +1,9 @@
+#### Video demonstration
+
+This video shows a basic example of how to create an auto attendant in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
+
 #### Before you begin
 
 Get the service numbers (service numbers are a special type of phone number that are used by auto attendants) that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
