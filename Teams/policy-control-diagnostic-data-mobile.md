@@ -379,20 +379,20 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **copyLink** - Copy a link to a channel post.
 - **contactActivity** - When the button to view a user's activity from the contact card is selected.
 - **conversation** - When a user navigates to the **Chat** or **Posts** tab.
-- **cortanaOpen** - When a user opens Cortana canvas.
-- **cortanaInvoke** - When Cortana starts listening.
-- **cortanaStopResponding** - When a user clicks cancel button on Cortana canvas.
-- **cortanaEduOpen** - When education page shows on Cortana canvas.
 - **cortanaClose** - When a user manually dismisses Cortana canvas.
-- **cortanaVoiceSelect** - When a user selects Cortana voice font in Cortana settings page.
 - **cortanaEduCategorySelect** - When a user clicks on an education tips category item.
-- **cortanaMicPermissionDialogButtonClick** - When a user grants or declines mic permission on Cortana canvas.
+- **cortanaEduOpen** - When education page shows on Cortana canvas.
+- **cortanaInvoke** - When Cortana starts listening.
 - **cortanaKWSSwitchToggle** - When a user tap on KWS switch in Cortana settings page.
-- **cortanaSettingsOpen** - When a user opens Cortana settings page via clicking Cortana settings button on Cortana canvas.
-- **cortanaSafetyFirstLaunch** - When the user opens Cortana for the first time after FRE is finished.
-- **cortanaSafetyFirstActions** - When the user accepts safety first declaration.
+- **cortanaMicPermissionDialogButtonClick** - When a user grants or declines mic permission on Cortana canvas.
+- **cortanaOpen** - When a user opens Cortana canvas.
 - **cortanaOptionsOpen** - When the user taps options button on Cortana canvas
+- **cortanaSafetyFirstActions** - When the user accepts safety first declaration.
+- **cortanaSafetyFirstLaunch** - When the user opens Cortana for the first time after FRE is finished.
+- **cortanaSettingsOpen** - When a user opens Cortana settings page via clicking Cortana settings button on Cortana canvas.
+- **cortanaStopResponding** - When a user clicks cancel button on Cortana canvas.
 - **cortanaUserSettingsLaunch** - When the user opens Cortana settings in Teams settings.
+- **cortanaVoiceSelect** - When a user selects Cortana voice font in Cortana settings page.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
   - The **Cancel** button is selected on the **Create Channel** Page.
@@ -1181,24 +1181,24 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
-- **cortana_background_token_refresh** - To monitor Cortana token refresh.
+- **cortanaError** To monitor Cortana error happends
+- **cortanaView** - To monitor Cortana canvas appear.
+- **cortanaRestart** To monitor Cortana restart.
+- **cortanaSetNewConversation** To monitor Cortana sets new conversation
+- **cortanaSpeechRecognization** To monitor Cortana speech recognization latency
+- **cortanaStart** To monitor Cortana backend start
+- **cortanaStartListening** To monitor Cortana start listening
+- **cortanaStopListening** To monitor Cortana stop listening
+- **cortanaThinking** To monitor Cortana state change to thinking(waiting for service's response)
+- **cortanaTokenRefresh** To monitor Cortana token refresh in foreground
+- **cortanaWarmingUp** To monitor Cortana warming up start(Cortana is open but token is still fetching)
 - **cortana_admin_policy_refresh** - To monitor Cortana admin policy refresh.
+- **cortana_background_token_refresh** - To monitor Cortana token refresh.
+- **cortana_initialization** - To monitor Cortana initialization steps.
+- **cortana_sdk_events** - To monitor Cortana turn related events.
 - **cortana_skill_action_execution** - To monitor Cortana action execution.
 - **cortana_skill_action_delay** - Confirms the start of delay action.
-- **cortana_sdk_events** - To monitor Cortana turn related events.
-- **cortana_initialization** - To monitor Cortana initialization steps.
 - **cortana_watchdog** - To monitor Cortana watchdog recovery process.
-- **cortanaView** - To monitor Cortana canvas appear.
-- **cortanaWarmingUp** To monitor Cortana warming up start(Cortana is open but token is still fetching)
-- **cortanaRestart** To monitor Cortana restart.
-- **cortanaStartListening** To monitor Cortana start listening
-- **cortanaSpeechRecognization** To monitor Cortana speech recognization latency
-- **cortanaThinking** To monitor Cortana state change to thinking(waiting for service's response)
-- **cortanaError** To monitor Cortana error happends
-- **cortanaSetNewConversation** To monitor Cortana sets new conversation
-- **cortanaStart** To monitor Cortana backend start
-- **cortanaTokenRefresh** To monitor Cortana token refresh in foreground
-- **cortanaStopListening** To monitor Cortana stop listening
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
