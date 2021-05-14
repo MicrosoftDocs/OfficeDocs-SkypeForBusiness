@@ -72,6 +72,14 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>Teams Android devices</h2>
+
+<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on  Microsoft Teams devices.  
+
+| Module | Video | PowerPoint deck (PDF)  |
+| ------------ | -------------------- | -------------------- |
+| Module 1: Introduction to Microsoft Teams Android devices  | |[Deck](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Module 2: Planning Microsoft Teams Android devices|| [Deck](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 <h2>Interactive guides</h2>
 
 | Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
@@ -102,7 +110,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
 
-<h2>Teams devices</h2>
+<h2>Teams Android devices</h2>
 
 <p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on  Microsoft Teams devices.  
 
