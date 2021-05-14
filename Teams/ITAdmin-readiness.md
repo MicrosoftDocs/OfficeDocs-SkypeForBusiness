@@ -24,10 +24,18 @@ appliesto:
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content.
 
-|               |               |               |               |
+|       Icon        | Description               |    Icon           |Description               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![An icon depicting a hand and an upward arrow](/office/media/icons/get-started-teams.png) | [Get started fast with a couple of teams and channels](./get-started-with-teams-quick-start.md) | ![An icon depicting two users](/office/media/icons/users-people.png) | [Get training for your users](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![An icon depicting a check mark](/office/media/icons/success-teams.png) | [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Tasks clipboard symbol](/office/media/icons/task-checklist-planning-teams.png) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml) |
+| [Start your rollout here](./get-started-with-teams-quick-start.md) | [View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
+| [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml) |
+
+<h2>Key training offerings and courses</h2>
+
+|   Icon            | Description              |  Icon             |    Description           |
+| :------------ | :------------ | :------------ | :------------ |
+| [Support remote workers using Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essentials for IT](https://aka.ms/MicrosoftTeamsforIT) | [Manage Team collaboration for IT](/learn/paths/m365-manage-team-collaboration) | [Service Adoption Specialist certification](/learn/paths/m365-service-adoption) |
+| [Introduction to teamwork in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 Certified: Teamwork Administrator Associate](/learning/m365-teamwork-administrator.aspx) |
+
 
 <h2>Technical training</h2>
 
@@ -36,7 +44,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | [Microsoft Mechanics - Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT) | [Video: Teams Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: Deploy & Configure Teams - Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Security and Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams Controls for Security and Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Foundations - Core Components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
 | Windows Desktop Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
-| Governance, management and Lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
+| Governance, management, and Lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
 | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
 | Call Quality Overview | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
@@ -61,7 +69,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 5: Configuring and starting Microsoft Teams Rooms (32:27 min) | [Video](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
 | Module 6: Managing Microsoft Teams Rooms, Part 1 (18:31 min) | [Video](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
 | Module 7: Managing Microsoft Teams Rooms, Part 2 (41:06 min) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Module 8: Microsoft Teams Rooms -- Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>Interactive guides</h2>
@@ -69,14 +77,14 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identity, Access management & Threat Protection for Teams                   | Learn how to use Microsoft admin centers and PowerShell to configure access and identity policies and Enable Office 365 Advanced Threat Protection for Teams                                                            | [Teams security guide](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Data Loss Prevention (DLP) Policies for Microsoft Teams                     | Learn how to add Microsoft Teams to an existing DLP policy, as well as create a new policy, whether based on a template or fully customized to your organization's data protection needs.                        | [Teams DLP guide](https://aka.ms/teamsdlpguide)         |
+| Data Loss Prevention (DLP) Policies for Microsoft Teams                     | Learn how to add Microsoft Teams to an existing DLP policy, and how create a new policy, whether based on a template or fully customized to your organization's data protection needs.                        | [Teams DLP guide](https://aka.ms/teamsdlpguide)         |
 | Managing Compliance in Teams                                                | Use the Microsoft 365 Security, Microsoft 365 Compliance, and Microsoft Teams admin centers, as well as Windows PowerShell to manage and configure an Office 365 organization's Microsoft Teams policies and settings. | [Managing compliance in Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams Advisor: Deploying chats, teams, channels and apps in Microsoft Teams | Learn how to leverage Teams advisor to assess your environment and build a plan for deploying chats, teams, channels and apps.                                                                                         |  [Teams Advisor guide](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Teams Advisor: Deploying chats, teams, channels and apps in Microsoft Teams | Learn how to use Teams advisor to assess your environment and build a plan for deploying chats, teams, channels, and apps.                                                                                         |  [Teams Advisor guide](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Streamlining Teams administration with PowerShell and dynamic groups        | Convert an Office 365 group from static membership to dynamic and use Windows PowerShell to assign a new App permission policy to all members.                                                                         |  [Streamlining Teams administration guide](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Managing Teams and Guest Access in the Microsoft Teams admin center         | Learn how to configure and manage Microsoft Teams and guest access for your organization.                                                                                                                              | [Managing Teams and guest access guide](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Configure Teams Phone System: Auto Attendant & Call Queue                   | Step through the process of creating and deploying a Call Queue and Auto Attendant as part of Microsoft Teams calling using the Microsoft Teams admin center.                                                          |  [Configure Teams phone system guide](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | Configure Direct Routing: connecting SBCs and voice routing                 | Use Microsoft Teams Phone System Direct Routing to integrate with your existing telephony infrastructure.                                                                                                              | [Configure direct routing guide](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| Configure Governance in Microsoft Teams                                     | Learn how to create a Teams messaging retention policy for your organization and how to archive, delete and restore individual Teams                                                                                   |  [Configure governance in Microsoft Teams guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| Configure Governance in Microsoft Teams                                     | Learn how to create a Teams messaging retention policy for your organization and how to archive, delete, and restore individual Teams                                                                                   |  [Configure governance in Microsoft Teams guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Configuring and deploying Microsoft Teams meetings                          | Step through the process of deploying the meetings workload for Microsoft Teams.                                                                                                                                       |  [Configuring and deploying Microsoft Teams meetings guide](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Configure Audio Conferencing for Microsoft Teams                            | Discover the capabilities of Audio Conferencing in Teams and learn how to assign conference bridges and dial-in phone numbers.                                                                                          |  [Configuring audio conferencing for Microsoft Teams guide](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Configuring Microsoft Teams for Firstline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Firstline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Firstline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
@@ -94,7 +102,3 @@ Use the training resources to educate yourself about Teams, teach others or run 
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
 
-<h2>Courses</h2>
-
-- [Enabling Teamwork with Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
-- [Microsoft Service Adoption Specialist](/learn/paths/m365-service-adoption/)
