@@ -389,6 +389,10 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **cortanaMicPermissionDialogButtonClick** - When a user grants or declines mic permission on Cortana canvas.
 - **cortanaKWSSwitchToggle** - When a user tap on KWS switch in Cortana settings page.
 - **cortanaSettingsOpen** - When a user opens Cortana settings page via clicking Cortana settings button on Cortana canvas.
+- **cortanaSafetyFirstLaunch** - When the user opens Cortana for the first time after FRE is finished.
+- **cortanaSafetyFirstActions** - When the user accepts safety first declaration.
+- **cortanaOptionsOpen** - When the user taps options button on Cortana canvas
+- **cortanaUserSettingsLaunch** - When the user opens Cortana settings in Teams settings.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
   - The **Cancel** button is selected on the **Create Channel** Page.
@@ -1184,6 +1188,17 @@ action.
 - **cortana_sdk_events** - To monitor Cortana turn related events.
 - **cortana_initialization** - To monitor Cortana initialization steps.
 - **cortana_watchdog** - To monitor Cortana watchdog recovery process.
+- **cortanaView** - To monitor Cortana canvas appear.
+- **cortanaWarmingUp** To monitor Cortana warming up start(Cortana is open but token is still fetching)
+- **cortanaRestart** To monitor Cortana restart.
+- **cortanaStartListening** To monitor Cortana start listening
+- **cortanaSpeechRecognization** To monitor Cortana speech recognization latency
+- **cortanaThinking** To monitor Cortana state change to thinking(waiting for service's response)
+- **cortanaError** To monitor Cortana error happends
+- **cortanaSetNewConversation** To monitor Cortana sets new conversation
+- **cortanaStart** To monitor Cortana backend start
+- **cortanaTokenRefresh** To monitor Cortana token refresh in foreground
+- **cortanaStopListening** To monitor Cortana stop listening
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
