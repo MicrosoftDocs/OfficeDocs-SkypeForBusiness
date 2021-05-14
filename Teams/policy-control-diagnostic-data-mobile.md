@@ -380,7 +380,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **contactActivity** - When the button to view a user's activity from the contact card is selected.
 - **conversation** - When a user navigates to the **Chat** or **Posts** tab.
 - **cortanaOpen** - When a user opens Cortana canvas.
-- **cortanaInvoke** - When a user clicks mic button on Cortana canvas.
+- **cortanaInvoke** - When Cortana starts listening.
 - **cortanaStopResponding** - When a user clicks cancel button on Cortana canvas.
 - **cortanaEduOpen** - When education page shows on Cortana canvas.
 - **cortanaClose** - When a user manually dismisses Cortana canvas.
