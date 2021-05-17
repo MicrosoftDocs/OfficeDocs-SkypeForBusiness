@@ -49,10 +49,6 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 | Organizer can record or not | Enabled and selected by default                  | Enabled and selected by default   |
 | Never record               | Disabled and not selected                            | Enabled and not selected      |
 
-When the policy is set to **Always record**, the policy page has the following selected options:
-
-![live events policy settings](../media/live-event-recording-policy.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
-
 ## Storage and persistence behavior
 
 | Option                                       | State   | DVR                                                   | VOD                                                     | Recording                |
