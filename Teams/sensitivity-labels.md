@@ -85,7 +85,7 @@ Before you use sensitivity labels for Teams, be aware of the following limitatio
     
     Users won't be able to apply sensitivity labels on teams that are created directly through Teams Graph APIs, Teams PowerShell cmdlets, and Teams templates.
     
-    However, users can use the [update groups beta API](https://docs.microsoft.com/graph/api/group-update?view=graph-rest-beta&tabs=http) to update sensitivity labels.
+    However, users can use the [update groups beta API](/graph/api/group-update?view=graph-rest-beta&tabs=http) to update sensitivity labels.
 
 - **Support for private channels**
     
