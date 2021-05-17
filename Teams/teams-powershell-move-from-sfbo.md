@@ -42,26 +42,30 @@ Migrating from using Skype for Business Online Connector to Teams PowerShell mod
 
     ```powershell
        # When using the Skype for Business online connector
-         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         
+         # Establishing a session
+         Import-Module SkypeOnlineConnector [LyncOnlineConnector]
          $credential = Get-Credential
          $SkypeSession = New-CsOnlineSession -Credential $credential
          Import-Session $SkypeSession
     
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
+         
+         # Disconnecting and closing the Session 
+         Get-PsSession $SkypeSession | Remove-PsSession
     
        # When using Teams PowerShell Module 2.0 or later
+       
+         # Establishing a session
          Import-Module MicrosoftTeams
          $credential = Get-Credential
          Connect-MicrosoftTeams -Credential $credential
        
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
-    
-       # Closing the Session when using the Skype for Business online connector
-         Get-PsSession $SkypeSession | Remove-PsSession
-    
-       # Disconnecting from Teams PowerShell Module 
+         
+         # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
 
