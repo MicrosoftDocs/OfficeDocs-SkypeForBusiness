@@ -47,7 +47,7 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Always record               | Disabled and selected                                | Enabled and selected         |
 | Organizer can record or not | Enabled and selected by default                  | Enabled and selected by default   |
-| Never record               | Disabled and not selected                            | Enabled and not selected      |
+| Never record               | Disabled and not selected                            | Disabled and not selected      |
 
 ## Storage and persistence behavior
 
