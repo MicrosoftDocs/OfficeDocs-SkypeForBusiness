@@ -24,18 +24,25 @@ appliesto:
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content.
 
-|       Icon        | Description               |    Icon           |Description               |
-| :------------ | :------------ | :------------ | :------------ |
-| [Start your rollout here](./get-started-with-teams-quick-start.md) | [View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml) |
+|**Training Resources**  |
+|---------|
+|[Start your rollout here](./get-started-with-teams-quick-start.md)     |
+|[View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)     |
+|[View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |
+|[Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml)     |
+|    |
 
 <h2>Key training offerings and courses</h2>
 
-|   Icon            | Description              |  Icon             |    Description           |
-| :------------ | :------------ | :------------ | :------------ |
-| [Support remote workers using Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essentials for IT](https://aka.ms/MicrosoftTeamsforIT) | [Manage Team collaboration for IT](/learn/paths/m365-manage-team-collaboration) | [Service Adoption Specialist certification](/learn/paths/m365-service-adoption) |
-| [Introduction to teamwork in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 Certified: Teamwork Administrator Associate](/learning/m365-teamwork-administrator.aspx) |
-
+|**Training Resources**  |
+|---------|
+|[Support remote workers using Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams)     |
+|[Teams essentials for IT](https://aka.ms/MicrosoftTeamsforIT)     |
+|[Manage Team collaboration for IT](/learn/paths/m365-manage-team-collaboration)     |
+|[Service Adoption Specialist certification](/learn/paths/m365-service-adoption)     |
+|[Introduction to teamwork in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index)     |
+|[Microsoft 365 Certified: Teamwork Administrator Associate](/learning/m365-teamwork-administrator.aspx)     |
+|    |
 
 <h2>Technical training</h2>
 
