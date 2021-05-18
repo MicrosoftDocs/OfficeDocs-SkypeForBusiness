@@ -41,6 +41,9 @@ Upgrade notifications will include the scheduled date of the assisted upgrade, a
 
 Assisted upgrades will begin in August 2021 with tenant-specific dates shared in the scheduling notifications mentioned above.
 
+> [!NOTE]
+> Don't worry if your assisted upgrade is scheduled for a date after July 31, 2021. You, and your users, will be able to use Skype for Business Online until your upgrade is complete.
+
 The duration of the upgrade will vary by volume of users and the characteristics of the deployment. However, in most cases, users within a tenant will be upgraded within 24 hours of the start of the upgrade. During this time, end users will still have access to Skype for Business Online functionality. Once the upgrade has completed and users sign out of Skype for Business Online, they'll start using Teams for messaging, meetings, and calling.
 
 ## The post-upgrade experience
@@ -55,7 +58,7 @@ When the assisted upgrade completes, the **Coexistence Mode** for upgraded users
         - All calls and chats are started and received in Teams
         - Users can communicate (chat/call) with any Skype for Business user
         - Organizations can enable Teams users to communicate with users of the Skype consumer service by managing [external access permissions](manage-external-access.md)
-        - Teams users who attempt to sign in to Skype for Business Online will be redirected to Teams
+        - Teams users who attempt to sign in to Skype for Business Online are redirected to Teams
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -71,7 +74,8 @@ When the assisted upgrade completes, the **Coexistence Mode** for upgraded users
         **Migrated Data**
     :::column-end:::
     :::column span="3":::
-        - Existing contacts from Skype for Business Online including federated (but no distribution lists
+        - Existing contacts from Skype for Business Online including federated (but no distribution lists)
+        - Contacts are migrated when users log into Teams for the first time
         - Existing Skype for Business Online meetings are converted to Teams meetings
     :::column-end:::
 :::row-end:::
