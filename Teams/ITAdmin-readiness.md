@@ -24,6 +24,13 @@ appliesto:
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content.
 
+
+|         |         |         |         |
+|---------|---------|---------|---------|
+|Icon     |[Start your rollout here](./get-started-with-teams-quick-start.md)         |Icon     |[View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|Icon     |[View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)         |Icon     |[Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml)         |
+
+
 |**Training Resources**  |
 |---------|
 |[Start your rollout here](./get-started-with-teams-quick-start.md)     |
@@ -81,7 +88,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Teams Android devices</h2>
 
-<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on Microsoft Teams Android Devices which includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
+<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
 
 | Module | Video | PowerPoint deck (PDF)  |
 | ------------ | -------------------- | -------------------- |
