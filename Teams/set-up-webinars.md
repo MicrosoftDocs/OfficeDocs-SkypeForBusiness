@@ -49,7 +49,7 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 To allow users in your organization to schedule webinars, run:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### Configure who can register for webinars
 
@@ -61,7 +61,7 @@ You can restrict registration to users only in your organization or open it up t
 **To allow *only* users in your organization to register for webinars, run:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Then, run:
@@ -73,7 +73,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **To allow anyone, including anonymous users, to register for webinars, run:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Then, run:
