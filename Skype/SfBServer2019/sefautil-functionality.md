@@ -59,7 +59,7 @@ This cmdlet returns an object of delegates list, and displays the specified user
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-This cmdlet modifies the specified user’s delegation settings, returns an object of delegates list and displays the list of delegates, in case of success. In case of failure, an appropriate error message will be shown. 
+This cmdlet modifies the specified user’s delegation settings, returns an object of delegates list, and displays the list of delegates, in case of success. In case of failure, an appropriate error message will be shown. 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
