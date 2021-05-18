@@ -78,7 +78,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 1. Contact your operator to port your numbers to Operator Connect. See [Operators](#operators) to find your operator's website.
 
-2. Unassign your users' Calling Plan phone numbers, and remove the Calling Plan License. Once your operator completes the porting order, they'll upload the numbers to your tenant.
+2. After your operator completes the porting order, you can unassign your users' Calling Plan phone numbers, and remove the Calling Plan License. Then, your operator can upload the numbers to your tenant.
 
 3. Assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
