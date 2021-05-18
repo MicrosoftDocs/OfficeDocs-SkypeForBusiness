@@ -78,8 +78,8 @@ If your agents are using the Microsoft Teams app for call queue calls, they need
 
 When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a Microsoft 365 Phone System Virtual User license and one of the following assigned:
 
-- A [Calling Plan](calling-plans-for-office-365.md) license
-- An [online voice routing policy](manage-voice-routing-policies.md)
+- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
+- An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.<br>
