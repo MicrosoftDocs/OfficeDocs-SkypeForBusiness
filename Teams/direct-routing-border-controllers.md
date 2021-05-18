@@ -42,7 +42,7 @@ If you have any questions about the SBC certification program for Direct Routing
 
 ## Certified SBC vendors
 
-|                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | 911 Service Provider Capable | ELIN capable
+|                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | 911 Service Provider Capable* | ELIN capable
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Supported 7.20A.250 (Recommended 7.20A.258)   | &#10004;   |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.250 (Recommended 7.20A.258)   | &#10004;   |  &#10004;  |
@@ -87,6 +87,11 @@ If you have any questions about the SBC certification program for Direct Routing
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 
 <br/>
+* 911 service providers
+
+- [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
+- [Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
 
 ## Direct routing and analog devices interoperability
