@@ -24,7 +24,6 @@ appliesto:
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content.
 
-
 |         |         |         |         |
 |---------|---------|---------|---------|
 |Icon     |[Start your rollout here](./get-started-with-teams-quick-start.md)         |Icon     |[View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
@@ -32,7 +31,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 
 <h2>Key training offerings and courses</h2>
-
 
 | | |  |
 |---------|---------|---------|
