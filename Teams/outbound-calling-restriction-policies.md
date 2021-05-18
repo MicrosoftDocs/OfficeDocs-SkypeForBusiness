@@ -76,7 +76,7 @@ Outbound call restrictions are controlled by a single policy called OnlineDialOu
 You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and use the following command for the setup:
 
 ```
-Get-CSOnlineDialOutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy>    
 ```
 
 Set the policy on a per-user level with the Grant-CSDialOutPolicy cmdlet. (The Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.)
