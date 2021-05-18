@@ -63,14 +63,14 @@ The following operators are participants in the Microsoft Operator Connect progr
 
 | Operator | Capability | Country coverage |
 | --- | --- | --- |
-| `BT`  | Calling | United Kingdom, United States, France, Netherlands, Ireland, Germany, Switzerland  |
-| `Deutsche Telekom` | Calling | Germany  |
-| `Intrado` | Calling | Netherlands, New Zealand, France, Canada, United Kingdom, Japan, Singapore, Australia, Luxembourg, Belgium, Ireland, Sweden, Spain, United States, Denmark, Hong Kong  |
-| `NTT`  | Calling | Australia, Austria, Belgium, Brazil, Canada, Czechia, Denmark, Finland, Germany, France, Hong Kong, Ireland, Italy, Japan, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Puerto Rico, Romania, Singapore, South Africa, Spain, Sweden, Switzerland, United Kingdom, United States  |
-| `Nuwave` | Calling | Austria, Belgium, Denmark, France, Germany, Ireland, Italy, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, Canada  |
-| `Orange Business Services` | Calling | Austria, Australia, Belgium, Canada, Switzerland, Czechia, Germany, Denmark, Spain, Finland, France, United Kingdom, Hong Kong, Ireland, Italy, Luxembourg, Netherlands, Norway, New Zealand, Poland, Portugal, Réunion, Saint Barthélemy, Sweden, Svalbard and Jan Maye, United States  |
-| `Pure IP` | Calling | Austria, Lithuania, Italy, Portugal, Cyprus, Malaysia, Chile, Netherlands, Poland, Czechia, New Zealand, Finland, Slovenia, Greece, France, Brazil, Croatia, Puerto Rico, Canada, United Kingdom, Mexico, Colombia, Norway, Romania, Japan, Bulgaria, Singapore, Switzerland, Australia, Luxembourg, Germany, Belgium, Ireland, Sweden, Spain, United States, Denmark, Hong Kong, Slovakia  |
-| `Rogers` | Calling | United States, Canada  |
-| `TATA` | Calling | Austria, Belgium, Denmark, France, Germany, Ireland, Italy, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, Canada  |
-| `Telenor` | Calling | Finland, Norway, Sweden, Denmark  |
-| `Verizon` | Calling | United States, Canada, Mexico, United Kingdom, Germany, France, Ireland, Belgium, Netherlands, Australia, Hong Kong, Singapore |
+| `BT`  | Calling | Belgium, Denmark, Finland, France, Germany, Ireland, Italy, Luxembourg, Netherlands, Norway, South Africa, Spain, Sweden, Switzerland, United Kingdom   |
+| `Intrado` | Calling | Australia, Belgium, Canada, Denmark, France, Germany, Hong Kong S.A.R., Ireland, Japan, Luxembourg, Netherlands, New Zealand, Singapore, Spain, Sweden, United Kingdom, United States  |
+| `NTT`  | Calling | Australia, Austria, Belgium, Brazil, Canada, Czechia, Denmark, Finland,  France, Germany, Hong Kong S.A.R., Ireland, Italy, Japan, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Puerto Rico, Romania, Singapore, South Africa, Spain, Sweden, Switzerland, United Kingdom, United States |
+| `NuWave` | Calling | Austria, Belgium, Canada, Denmark, France, Germany, Ireland, Italy, Netherlands, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States   |
+| `Orange Business Services` | Calling | Austria, Belgium, Czechia, Denmark, Finland, France, French Guiana, Germany, Guadeloupe, Ireland, Italy, Luxembourg, Martinique, Mayotte, Netherlands, Norway, Poland, Portugal, Réunion, Saint Barthélemy, Saint Martin, Spain, Svalbard, Sweden, Switzerland, United Kingdom  |
+| `Pure IP` | Calling | Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Finland, France, Germany, Greece, Hong Kong S.A.R., Ireland, Italy, Japan, Lithuania, Luxembourg, Malaysia, Mexico, Netherlands, New Zealand, Norway, Panama, Poland, Portugal, Puerto Rico, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, United Kingdom, United States  |
+| `Rogers Business` | Calling | United States, Canada  |
+| `TATA Communications` | Calling | Australia, Austria, Belgium, Canada, Czechia, Denmark, France, Germany, Hong Kong S.A.R., Hungary, Ireland, Italy, Malaysia, Mexico, Netherlands, New Zealand, Poland, Portugal, Romania, Singapore, South Korea, Spain, Sweden, Switzerland, Thailand, United Kingdom, United States |
+| `Telekom Deutschland` | Calling | Germany  |
+| `Telenor` | Calling | Denmark, Finland, Norway, Sweden  |
+| `Verizon` | Calling | United States |

@@ -40,7 +40,7 @@ To enable an operator:
 
 2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
 
-3. **Provide contact information (optional).** Operators may want to contact you to with additional information about Operator Connect. To opt in, check the box and provide your contact information.  
+3. **Provide contact information (optional).** If you want operators to contact you with additional information about Operator Connect, check the box and provide your contact information.  
 
 4. **Accept the data transfer notice.**
 
@@ -65,22 +65,20 @@ To acquire numbers for new Teams users, follow these steps:
 
 1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using Powershell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. **Make sure you're in Teams Only mode.** To check this, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. The coexistence mode should be set to Teams only.
+2. **Make sure you're in TeamsOnly mode.** To check this, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. The coexistence mode should be set to Teams only.
 
 3. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
 
 4. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id) for more information.
 
-5. Once your operator completes the order, they'll upload test numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**.
-
-6. **Assign numbers.** Assign numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
+5. **Assign numbers.** Once your operator completes the order, they'll upload test numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
  
 
 ### Move numbers from Calling Plans to Operator Connect
 
-1. How you move existing phone numbers from Calling Plans to Operator Connect will depend on your operator. Contact your operator to get started. See [Operators](#operators) to find your operator's website.
+1. Contact your operator to port your numbers to Operator Connect. See [Operators](#operators) to find your operator's website.
 
-2. Once your operator has helped you move your numbers to Operator Connect, unassign the user's Calling Plan phone number, and remove the Calling Plan License. Then, your operator will upload the numbers to your tenant.
+2. Unassign your users' Calling Plan phone numbers, and remove the Calling Plan License. Once your operator completes the porting order, they'll upload the numbers to your tenant.
 
 3. Assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
@@ -101,11 +99,11 @@ To acquire numbers for new Teams users, follow these steps:
    Set-CsUser -identity <user> - OnPremLineURI $null 
    ```
 
-2. Remove any PSTNUsage associated with the users that you want to use for this private preview, otherwise calls will be routed to the gateway specified in the PSTN Usage. 
+2. Remove any PSTNUsage associated with your users, otherwise calls will be routed to the gateway specified in the PSTN Usage. To learn how to remove PSTN usage, see [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps).
 
-3. Your operator will provide new PSTN test numbers and upload these numbers to your tenant. You'll need to go to your operator's website to acquire these phone numbers. See [Operators](#operators) to learn more.
+3. Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id) for more information.
 
-4. Assign Operator Connect numbers to users by using the Teams admin center or by using  PowerShell. For more information, see [Assign numbers](#assign-numbers).
+4. Once your operator completes the order, they'll upload test numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using  PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
    
 
@@ -150,12 +148,13 @@ You can acquire phone numbers from the following operators by going to the websi
 |Operator  |Operator website  |
 |---------|---------|
 |`BT`     | 	https://www.globalservices.bt.com/en/aboutus/operator-connect        |
-|`Deutsche Telekom`     |   https://cloud.telekom.de/de/blog/cloud-software/microsoft-teams-operator-connect      |
-| `NTT`     |  https://www.arkadin.com/products/microsoft-cloud-uc/operator-connect       |
-|`Nuwave`     |     	https://www.nuwave.com/operator-connect    |
+|`Intrado`     | https://insight.intrado.com/operator-connect       |
+|`NTT`     |  https://www.arkadin.com/products/microsoft-cloud-uc/operator-connect       |
+|`NuWave`     |   https://ipilot.io/microsoft-operator-connect/   |
 |`Orange Business Services`     | https://www.orange-business.com/en/partners/microsoft-operator-connect        |
 |`Pure IP`    | https://info.pure-ip.com/operator-connect        |
 |`Rogers`    | https://www.rogers.com/business/products-and-solutions/microsoft-365-business-voice        |
-|`TATA`     |  https://www.tatacommunications.com/solutions/unified-communications/unified-communications-as-a-service/microsoft-teams-solutions/       |
+|`TATA Communications`     |  https://www.tatacommunications.com/solutions/unified-communications/unified-communications-as-a-service/microsoft-teams-solutions/       |
+|`Telekom Deutschland`     |   https://cloud.telekom.de/de/blog/cloud-software/microsoft-teams-operator-connect      |
 |`Telenor`     | https://www.telenor.no/bedrift/telefoni/teams/operator-connect        |
 |`Verizon`     |  https://www.verizon.com/business/resources/lp/operator-connect       |
