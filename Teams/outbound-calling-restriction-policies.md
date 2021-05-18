@@ -73,7 +73,13 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy, which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings.
 
-You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and use the following commands for the setup. Set the policy on a per-user level with the Grant-CSDialOutPolicy cmdlet. (The Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.)
+You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and use the following command for the setup:
+
+```
+Get-CSOnlineDialOutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+```
+
+Set the policy on a per-user level with the Grant-CSDialOutPolicy cmdlet. (The Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.)
 
 Set the policy on the tenant level with the following cmdlet:
 
@@ -85,7 +91,7 @@ All users of the tenant who don't have any dialout policy assigned will get this
 
 The following table provides an overview of each policy.
 
-|||
+|PowerShell cmdlet|Description|
 |:-----|:-----|
 |Identity='tag:DialoutCPCandPSTNInternational'    |    User in the conference can dial out to   international and domestic numbers, and this user can also make outbound calls to international and domestic numbers.    |
 |Identity='tag:DialoutCPCDomesticPSTNInternational'  |    User in the conference can only dial out to   domestic numbers, and this user can make outbound calls to international and domestic numbers.    |
