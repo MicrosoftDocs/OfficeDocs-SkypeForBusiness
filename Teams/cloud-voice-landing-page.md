@@ -46,9 +46,10 @@ If you answer yes to the following, then Phone System with Calling Plan is the r
 However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions: 
 
 - Phone System with Calling Plan
-- Phone System with your own PSTN carrier with Direct Routing
-- A combination solution that uses both Phone System with Calling Plan and Phone System with Direct Routing
 - Phone System with your own PSTN carrier with Operator Connect (currently available only in **public preview**)
+- Phone System with your own PSTN carrier with Direct Routing
+- A combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, and/or Phone System with Direct Routing
+
 
 ## What do you need to read?
 
