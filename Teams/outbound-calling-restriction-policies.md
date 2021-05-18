@@ -73,15 +73,15 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy, which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings.
 
-You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and use the following command for the setup:
+You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and use the following command for the setup.
 
-Set the policy on a per-user level with the Grant-CSDialOutPolicy cmdlet. (The Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.)
+**Set the policy on a per-user level with the following cmdlet**. (The Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.)
 
 ```
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
-Set the policy on the tenant level with the following cmdlet:
+**Set the policy on the tenant level with the following cmdlet**.
 
 ```
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
