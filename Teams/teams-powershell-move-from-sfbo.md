@@ -30,8 +30,10 @@ Teams PowerShell Module provides a complete set of cmdlets for managing Teams di
 
 Migrating from using Skype for Business Online Connector to Teams PowerShell module is easy and simple. The below steps explains how to do this.
 
-1. Install the latest Teams PowerShell module. For steps, see [Install Microsoft Teams Powershell](teams-powershell-install.md).
+1. Install the latest Teams PowerShell module. For steps, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).
+
 2. Uninstall Skype For Business Online Connector. To do this, in Control Panel, go to **Programs and Features**, select **Skype for Business Online, Windows PowerShell Module**, and then select **Uninstall**.
+
 3. In your PowerShell scripts, change the module name that's referenced in ```Import-Module``` from
 
     `SkypeOnlineConnector` or `LyncOnlineConnector` to `MicrosoftTeams`.
@@ -42,41 +44,50 @@ Migrating from using Skype for Business Online Connector to Teams PowerShell mod
 
     ```powershell
        # When using the Skype for Business online connector
-         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         
+         # Establishing a session
+         Import-Module SkypeOnlineConnector [LyncOnlineConnector]
          $credential = Get-Credential
          $SkypeSession = New-CsOnlineSession -Credential $credential
          Import-Session $SkypeSession
     
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
+         
+         # Disconnecting and closing the Session 
+         Get-PsSession $SkypeSession | Remove-PsSession
     
        # When using Teams PowerShell Module 2.0 or later
+       
+         # Establishing a session
          Import-Module MicrosoftTeams
          $credential = Get-Credential
          Connect-MicrosoftTeams -Credential $credential
        
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
-    
-       # Closing the Session when using the Skype for Business online connector
-         Get-PsSession $SkypeSession | Remove-PsSession
-    
-       # Disconnecting from Teams PowerShell Module 
+         
+         # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
 
 ## Online Support
 
 Save time by starting your service request online. We'll help you find a solution or connect you to technical support.
+
 1.	Go to the admin center at [https://admin.microsoft.com](https://admin.microsoft.com). If you get a message that says you don't have permission to access this page or perform this action, then you aren't an admin. Who has admin permissions in my business?
+
 2.	Select the **Need help**? button.
+
 3.	In the **Need help**? pane, tell us what you need help with, and then press Enter.
+
 4.	If the results don't help, select **Contact support**.
+
 5.	Enter a description of your issue, confirm your contact number and email address, select your preferred contact method, and then select **Contact me**. The expected wait time is indicated in the Need help? pane.
 
 ## Related topics
 
-[Install Microsoft Teams Powershell](teams-powershell-install.md)
+[Install Microsoft Teams PowerShell](teams-powershell-install.md)
 
 [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 
