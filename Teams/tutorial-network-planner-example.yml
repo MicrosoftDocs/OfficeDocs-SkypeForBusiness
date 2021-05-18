@@ -72,9 +72,9 @@ items:
 
     |Location       |Total number of employees|Calling only employees|Internet connection       |PSTN connection                |WAN link capacity   | Internet link capacity   |
     |---------------|-------------------------|----------------------|--------------------------|-------------------------------|--------------------|--------------------------|
-    |Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing| 200                |500                       |
-    |Kirkland Office|400                      |10                    |Remote Internet through HQ|Remote PSTN through HQ         | ??                 |??                        |
-    |Denver Office  |250                      |50                    |Local Internet            |No PSTN connection             | N/A                | ??                       |
+    |Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing| 200 Mbps           | 500 Mbps                 |
+    |Kirkland Office|400                      |10                    |Remote Internet through HQ|Remote PSTN through HQ         | 200 Mbps           | N/A                      |
+    |Denver Office  |250                      |50                    |Local Internet            |No PSTN connection             | N/A                | 150 Mbps                 |
 
     1. Click your network plan in Network Planner.
     2. Select the **Network sites** tab and click **Add a network site**.
