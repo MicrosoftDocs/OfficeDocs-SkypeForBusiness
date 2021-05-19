@@ -26,8 +26,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-|![An icon depicting a hand and an upward arrow](https://docs.microsoft.com/office/media/icons/get-started-teams.png) |[Start your rollout here](./get-started-with-teams-quick-start.md)     |![An icon depicting two users](https://docs.microsoft.com/office/media/icons/users-people.png) |[View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![An icon depicting a check mark](https://docs.microsoft.com/office/media/icons/success-teams.png) |[View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![Tasks clipboard symbol](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) |[Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml)         |
+|![a hand and an upward arrow](https://docs.microsoft.com/office/media/icons/get-started-teams.png) |[Start your rollout here](./get-started-with-teams-quick-start.md)     |![document with a list](https://docs.microsoft.com/office/media/icons/document-teams.png)|[View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![a video play button](https://docs.microsoft.com/office/media/icons/video-play.png) |[View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![person with a wrench](https://docs.microsoft.com/office/media/icons/administrator.png) |[Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml)         |
 |  |  | |
 
 <h2>Key training offerings and courses</h2>
