@@ -58,7 +58,7 @@ The Manager Collaboration template is ideal for creating a team for a set of man
 |Retail - manager collaboration|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
-## Use a team template with Microsoft Graph
+## Use the team templates with the Microsoft Graph
 
 ### Store template
 
