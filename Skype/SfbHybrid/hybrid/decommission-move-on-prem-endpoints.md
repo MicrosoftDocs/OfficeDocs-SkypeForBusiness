@@ -20,7 +20,7 @@ description: "Move hyrid application endpoints before decommissioning a Skype fo
 
 ---
 
-# Move hyrid application endpoints before decommissioning your on-premises environment
+# Move hybrid application endpoints before decommissioning your on-premises environment
 
 This article describes how to move required hybrid application endpoints to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 3 of the following steps to decommission your on-premises environment:
 
