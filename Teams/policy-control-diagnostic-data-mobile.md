@@ -1199,7 +1199,7 @@ action.
   - When a file is previewed within Teams app.
   - When file upload option is tapped in OneDrive files screen.
   - When "Copy Link" option is tapped in file preview screen.
-  - When the file sharing screen is dismissed
+  - When the file sharing screen is dismissed.
   - When files options menu is opened or when one of the options in that menu is tapped.
   - When "in-call" files screen is opened.
   - When a file is tapped to open.
@@ -1219,7 +1219,7 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
-- **chat_add_giphy** - Confirms that the Giphy GIF rendering action was successful or failed..
+- **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **cortanaError** To monitor Cortana error happends.
 - **cortanaView** - To monitor Cortana canvas appear.
 - **cortanaRestart** To monitor Cortana restart.
