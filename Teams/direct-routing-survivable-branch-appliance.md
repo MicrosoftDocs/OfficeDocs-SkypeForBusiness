@@ -207,5 +207,3 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 - The SBA does not support call forwarding settings. 
 
 - Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
-
-- The output of Get-CsOnlineUser shows TeamsBranchSurvivabilityPolicy.
