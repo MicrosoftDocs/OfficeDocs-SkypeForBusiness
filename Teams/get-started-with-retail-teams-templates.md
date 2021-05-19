@@ -23,7 +23,7 @@ appliesto:
 
 # Create a team using retail team templates
 
-Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Microsoft team templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
 Team templates have pre-built definitions of team structures designed around retailer needs. You can use team templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
 
@@ -31,12 +31,12 @@ In this article, we'll introduce each of the team templates and recommend how to
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
-To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates.md).
+To learn more about team templates in general, refer to [Get started with team templates](get-started-with-teams-templates.md).
 
 | Who | Method to use: |
 | ---- | --------- |
-| Admins and IT Professionals | [Use the Teams admin center](#use-the-teams-templates-in-the-teams-admin-center) to create teams based on the retail Teams templates.|
-| Developers and systems integrators | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create teams based on the retail Teams templates. |
+| Admins and IT Professionals | [Use the Teams admin center](#use-the-team-templates-in-the-teams-admin-center) to create teams based on the retail team templates.|
+| Developers and systems integrators | [Use the Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph) to create teams based on the retail team templates. |
 
 ## Use the team templates in the Teams admin center
 
@@ -73,7 +73,7 @@ Recommended ways to customize the Store template for your organization:
 
 - If your organization has departments within each store, add a channel for each department. Adding a channel facilitates communication and collaboration within the department.
 
-- If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel. Refer to [Get started with Teams templates](get-started-with-teams-templates.md) for instructions.
+- If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel. Refer to [Get started with team templates](get-started-with-teams-templates.md) for instructions.
 
 ### Manager Collaboration template
 
@@ -86,11 +86,11 @@ The Manager Collaboration template is another one of the team templates designed
 
 Recommended ways to customize the Manager Collaboration template for your organization:
 
-- If your organization has any internal websites, such as a SharePoint site, that are relevant for managers, consider pinning them as tabs in a relevant team channel. You can take a look at the [Microsoft Teams Template documentation](get-started-with-teams-templates.md) for instructions.
+- If your organization has any internal websites, such as a SharePoint site, that are relevant for managers, consider pinning them as tabs in a relevant team channel. You can take a look at the [Microsoft team Template documentation](get-started-with-teams-templates.md) for instructions.
 
-## How to use first party templates
+## How to use first-party templates
 
-To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy Teams templates, see the Microsoft Graph article on how to [create a Team](/graph/api/team-post?view=graph-rest-beta).
+To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy team templates, see the Microsoft Graph article on how to [create a Team](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > The channels in the template will automatically be created under the General Tab.

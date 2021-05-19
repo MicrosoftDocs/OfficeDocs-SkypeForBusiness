@@ -37,7 +37,7 @@ This article is for you if you're:
 
 ## Team template capabilities
 
-Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
+Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. The following table provides a quick summary of what's included and what's not included in team templates.
 
 | **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
 | ------------------------------------------------ | -------------------------------------------------------- |
@@ -55,7 +55,7 @@ Most properties in a team are included and supported by templates. But there are
 
 ## What are base template types
 
-Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store. In addition, base templates often contain team properties that aren't yet supported individually in Teams templates. Learn how to use the [team templates in Microsoft Graph](get-started-with-teams-templates.md).
+Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store. In addition, base templates often contain team properties that aren't yet supported individually in team templates. Learn how to use the [team templates in Microsoft Graph](get-started-with-teams-templates.md).
 
 Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. Some base template types contain properties that can't be overridden.
 

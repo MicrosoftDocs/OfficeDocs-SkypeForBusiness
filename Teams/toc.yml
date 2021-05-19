@@ -513,7 +513,7 @@ items:
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: Team templates built in Graph for Small and Medium Businesses
           href: smb-templates.md
-        - name: Create a custom Teams template
+        - name: Create a custom team template
           href: create-a-team-template.md
         - name: Create a template from an existing team
           href: create-template-from-existing-team.md

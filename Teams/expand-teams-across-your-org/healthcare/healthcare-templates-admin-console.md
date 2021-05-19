@@ -23,7 +23,7 @@ ms.reviewer:
 description: Use team templates in the admin center or with Microsoft Graph to quickly and easily create teams by providing a predefined template of settings, channels, and apps.
 ms.custom: seo-marvel-mar2020
 ---
-# Use a team healthcare templates
+# Use a healthcare team templates
 
 Templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
@@ -33,8 +33,8 @@ Choose a method for creating teams with the team healthcare templates:
 
 | Who | Method to use: |
 | ---- | --------- |
-| Admins and IT Professionals | [Use the Teams admin center](#use-the-teams-templates-in-the-teams-admin-center) to create teams based on the healthcare team templates.|
-| Developers and systems integrators | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create a team based on the healthcare team templates. |
+| Admins and IT Professionals | [Use the Teams admin center](#use-the-team-templates-in-the-teams-admin-center) to create teams based on the healthcare team templates.|
+| Developers and systems integrators | [Use the Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph) to create a team based on the healthcare team templates. |
 
 ## Use the team templates in the admin center
 
