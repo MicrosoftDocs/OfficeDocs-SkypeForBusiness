@@ -1,5 +1,5 @@
 ---
-title: Get started with Teams templates in retail
+title: Get started with a team template in retail
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use Teams templates to create team structures designed for retailer needs by providing predefined settings, channels, and pre-installed apps.
+description: Learn how to use team templates to create team structures designed for retailer needs by providing predefined settings, channels, and pre-installed apps.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -21,13 +21,13 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Create a team using Teams retail templates
+# Create a team using retail team templates
 
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-Teams templates have pre-built definitions of team structures designed around retailer needs. You can use Teams templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
+Team templates have pre-built definitions of team structures designed around retailer needs. You can use team templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
 
-In this article, we'll introduce each of the Teams templates and recommend how to use them.
+In this article, we'll introduce each of the team templates and recommend how to use them.
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your retail organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
@@ -38,7 +38,7 @@ To learn more about team templates in general, refer to [Get started with Teams 
 | Admins and IT Professionals | [Use the Teams admin center](#use-the-teams-templates-in-the-teams-admin-center) to create teams based on the retail Teams templates.|
 | Developers and systems integrators | [Use the Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph) to create teams based on the retail Teams templates. |
 
-## Use the Teams templates in the Teams admin center
+## Use the team templates in the Teams admin center
 
 ### Organize a store
 
@@ -58,7 +58,7 @@ The Manager Collaboration template is ideal for creating a team for a set of man
 |Retail - manager collaboration|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
-## Use the Teams templates with the Microsoft Graph
+## Use a team template with Microsoft Graph
 
 ### Store template
 
@@ -77,7 +77,7 @@ Recommended ways to customize the Store template for your organization:
 
 ### Manager Collaboration template
 
-The Manager Collaboration template is another one of the Teams templates designed around retailer needs. The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions, and more. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, as well as the regional manager for that region.
+The Manager Collaboration template is another one of the team templates designed around retailer needs. The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions, and more. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, as well as the regional manager for that region.
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |

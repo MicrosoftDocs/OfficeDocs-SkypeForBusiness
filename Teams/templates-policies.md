@@ -1,5 +1,5 @@
 ---
-title: Manage Teams templates in the admin center
+title: Manage team templates in the admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to manage Teams templates in the admin center
+description: Learn how to manage team templates in the admin center
 ---
-# Manage Teams templates in the admin center
+# Manage team templates in the admin center
 
-Manage the Teams templates that your end users see by creating templates policies in the admin center. Within each template policy, you can designate which templates are shown or hidden.
-Assign different users to different template policies so that your users view only the subset of Teams templates specified.
+Manage the team templates that your end users see by creating templates policies in the admin center. Within each template policy, you can designate which templates are shown or hidden.
+Assign different users to different template policies so that your users view only the subset of team templates specified.
 
 Watch this short video to learn how to manage template policies.
 
@@ -113,7 +113,7 @@ A: Yes.
 A: In the Admin center:
 
 1. Go to the **Users** section.
-2. Select the filter in the Users list table and filter for the teams template policy.
+2. Select the filter in the Users list table and filter for the team template policy.
 3. Select **Apply**.
 
 ![The selected template policy and view users](media/template-policies-5.png)

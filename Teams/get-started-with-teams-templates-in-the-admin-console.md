@@ -1,5 +1,5 @@
 ---
-title: Use Teams templates in the admin center
+title: Use team templates in the admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use Teams templates to create collaboration spaces with channels for different topics using preinstalled templates.
+description: Learn how to use team templates to create collaboration spaces with channels for different topics using preinstalled templates.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -20,14 +20,14 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Get started with Teams templates in the admin center
+# Get started with team templates in the admin center
 
 **Ability to create custom templates is not yet supported for EDU customers.**
 
 > [!NOTE]
-> Private channels and sensitivity labels are currently not supported in Teams templates. Private channel creation is not included in template definitions. The sensitivity label option in **Create team from template** flow will not be applied to the team.
+> Private channels and sensitivity labels are currently not supported in team templates. Private channel creation is not included in template definitions. The sensitivity label option in **Create team from template** flow will not be applied to the team.
 
-Teams templates are pre-built definitions of a team's structure designed around a business need or project. Use pre-built templates or create your own template. Teams templates let you quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. Currently you can create a team from a template in Teams or using [Microsoft Graph](get-started-with-teams-templates.md).
+Team templates are pre-built definitions of a team's structure designed around a business need or project. Use pre-built templates or create your own template. Team templates let you quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Team templates provide a predefined team structure that can help you easily create consistent teams across your organization. Currently you can create a team from a template in Teams or using [Microsoft Graph](get-started-with-teams-templates.md).
 
 This article describes the following features:
 
@@ -37,11 +37,11 @@ This article describes the following features:
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization
 
-## Teams template capabilities
+## Team template capabilities
 
 Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
 
-| **Team properties supported by Teams templates** | **Team properties not yet supported by Teams templates** |
+| **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Base template type | Team membership |
 | Team name | Team picture |
