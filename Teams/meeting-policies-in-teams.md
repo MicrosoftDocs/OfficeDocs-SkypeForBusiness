@@ -560,7 +560,7 @@ To specify whether users can customize their video background in a meeting or us
 
 > [!IMPORTANT]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
-> For Together Mode Scenes, you are responsible for respecting others' rights, including copyright.
+> For Together Mode scenes, you are responsible for respecting the rights of others, including copyright.
 > Together Mode scenes available through Store can be governed through regular Apps Permission policies. Learn more about [Together Mode](https://review.docs.microsoft.com/en-us/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode?branch=pr-en-us-2710#create-an-app-package-and-use-the-scene-in-teams) and [Policies](https://docs.microsoft.com/en-us/microsoftteams/teams-app-permission-policies) by reviewing the links
 
 > [!NOTE]
