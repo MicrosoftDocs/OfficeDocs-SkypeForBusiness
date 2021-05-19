@@ -549,7 +549,7 @@ This is a per-user policy. This setting controls whether users can customize the
 
 Currently, you can only use PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
 
-To specify whether users can customize their video background in a meeting or consume scenes outside of the company and Microsoft Teams Store, set the **VideoFiltersMode** parameter as follows:
+To specify whether users can customize their video background in a meeting or use scenes from outside the Company Apps Store and Microsoft Teams Store, set the **VideoFiltersMode** parameter as follows:
 
 |Setting value in PowerShell |Behavior  |
 |---------|---------|
