@@ -149,7 +149,7 @@ You can acquire phone numbers from the following operators by going to the websi
 |---------|---------|
 |`BT`     | 	https://www.globalservices.bt.com/en/aboutus/operator-connect        |
 |`Intrado`     | https://insight.intrado.com/operator-connect       |
-|`NTT`     |  https://www.arkadin.com/products/microsoft-cloud-uc/operator-connect       |
+|`NTT`     |  https://www.hello.global.ntt/operator-connect       |
 |`NuWave`     |   https://ipilot.io/microsoft-operator-connect/   |
 |`Orange Business Services`     | https://www.orange-business.com/en/partners/microsoft-operator-connect        |
 |`Pure IP`    | https://info.pure-ip.com/operator-connect        |
