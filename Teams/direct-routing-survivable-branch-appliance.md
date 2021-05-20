@@ -77,7 +77,7 @@ All configuration is done by using Skype for Business Online PowerShell cmdlets.
 
 ### Create the SBAs
 
-To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has has the following parameters:
+To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
