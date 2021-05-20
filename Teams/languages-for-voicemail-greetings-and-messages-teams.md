@@ -34,9 +34,9 @@ Teams supports the following languages for voicemail greetings.
 |Arabic        |Saudi Arabia       |ar-SA             |Yes **                                       |Yes **                                |No ** |
 |Bulgarian     |Bulgaria           |bg-BG             |Yes **                                       |Yes **                                |No ** |
 |Catalan       |Catalan            |ca-ES             |Yes                                          |Yes                                   |No  |
-|Chinese (Simplified)   |China     |zh-hans **        |Yes                                          |Yes                                   |Yes |
+|Chinese (Simplified)   |China     |zh-hans ** zh-CN  |Yes                                          |Yes                                   |Yes |
 |Chinese (Hong Kong)    |China     |zh-hk             |Yes, but Chinese (Traditional) (zh-hant) is used.   | Yes                           |Yes, but Chinese (Traditional) (zh-hant) is used. |
-|Chinese (Traditional)  |Taiwan    |zh-hant **        |Yes                                          |Yes                                   |No  |
+|Chinese (Traditional)  |Taiwan    |zh-hant ** zh-TW  |Yes                                          |Yes                                   |No  |
 |Croatian      |Croatia            |hr-HR             |Yes                                          |Yes                                   |No                            |
 |Czech         |Czech Republic     |cs-CZ             |Yes                                          |Yes                                   |No                            |
 |Danish        |Denmark            |da-DK             |Yes                                          |Yes                                   |No                            |
