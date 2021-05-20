@@ -29,11 +29,11 @@ An Intelligent Speaker uses voice profile information to recognize who said what
 
 ## Review Intelligent Speaker requirements
 
-An Intelligent Speaker includes a special seven-microphone array. The speaker uses voice profile information to identify voices of up to 10 people in meeting rooms.
+An Intelligent Speaker includes a special seven-microphone array. The system uses voice profile information to identify voices of up to 10 people in meeting rooms.
 
 The following items are Intelligent Speaker requirements:
 
-- The customer tenant must be located in the U.S.(North America).<sup>1</sup>
+- The customer tenant must be located in the U.S. (North America).<sup>1</sup>
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
 
@@ -41,7 +41,7 @@ The following items are Intelligent Speaker requirements:
 
 ## Set up an Intelligent Speaker
 
-An Intelligent Speaker connects directly using USB to the Teams Rooms console. For best results, we recommend that you use the same brand Intelligent Speaker with the same brand console.
+An Intelligent Speaker connects directly using USB to the Teams Rooms console. For best results, a Yealink brand Intelligent Speaker should be used with a Yealink brand console.
 
 > [!NOTE]
 > A Yealink Intelligent Speaker **must** be used with a Yealink console.
@@ -70,39 +70,20 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meeting-policies-in-teams.md#allow-transcription) and the [PowerShell meeting cmdlets](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
 
-The voice profile of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile is dismissed at the end of the meeting.
+The voice profile data of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile data is dismissed at the end of the meeting.
 
 The following are the required policies to set an Intelligent Speaker and user recognition.
 
-|Policy|Description|Values|
+|Policy|Description|Values and Behavior|
 |-|-|-|
-|`enrollUserOverride`|Use to set voice profile capture, or enrollment, in Teams settings for a tenant. |`Enabled` and `Disabled`|
-|`roomAttributeUserOverride`|Control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts.|- `Off`<br/>- `attribute`, which means room participants will be distinguished and identified based on enrolled voices (if enrolled). <br/> - `distinguish`, *This setting will be available at a later date.*|
-|`enabletranscription`|Required for user and Teams rooms accounts|`true` and `false`|
+|enrollUserOverride|Use to set voice profile capture, or enrollment, in Teams settings for a tenant. |**Disabled**<br><ul><li> Users who have never enrolled can't view, enroll, or re-enroll.<li>The entry point to the enrollment flow will be hidden.<li>If users select a link to the enrollment page, they'll see a message that states this feature isn't enabled for their organization.  <li>Users who have enrolled can view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow.</li></ul><br>**Enabled**<br><ul><li> Users can view, access, and complete the enrollment flow.<li>The entry point will show on Teams settings page under the **Recognition** tab.</li></ul>|
+|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts.| **Off**<br><ul><li>The Teams Rooms device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker n.<li>The Teams Rooms device will send seven audio streams from the room.</ul> <br>**Distinguish**<br> *This setting will be available at a later date.*|
+|enabletranscription|Required for user and Teams rooms accounts.|**True** and **False**|
 ||||
 
-In the Teams admin center, set the **Allow transcription** policy.
+In the Teams admin center, set the **Allow transcription** policy. Settings are **Off** by default.
 
-![the admin center with meeting policies highlighted and Allow transcription selected](../media/allow-transcription.png)
-
-Settings are disabled by default. When the policies are disabled:
-
-- Users who have never enrolled can't view, enroll, or re-enroll.
-- The entry point to the enrollment flow will be hidden.
-- If users select a link to the enrollment page, they'll see a message that states this feature isn't enabled for their organization.  
-- Users who have enrolled can view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow.
-- The Teams Rooms device won't send audio stream-saving bandwidth from the room.  
-- Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.
-- Meeting room users are unknown.
-
-When the policies are enabled:
-
-- Users can view, access, and complete the enrollment flow.
-- The entry point will show on Teams settings page under the **Recognition** tab.
-- Rooms users will be attributed based on their enrollment status.
-- Users who are enrolled are shown with their name in the transcription.  
-- Users who aren't enrolled show as Speaker n.
-- The Teams Rooms device will send seven audio streams from the room.
+![the admin center with meeting policies highlighted and Allow transcription selected](../media/allow-transcription1.png)
 
 ## Frequently asked questions (FAQ)
 
