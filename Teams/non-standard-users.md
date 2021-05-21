@@ -36,17 +36,23 @@ This article describes how apps in Teams behave when guest, external (federated)
 
 ### Install, update, and delete for guest users
 
-Guests can't install, update, or delete apps into a shared context, such as a chat, channel, or meeting. They can install, update, or delete apps to their personal scope using message extensions and direct links. Guests don't have access to the Teams app store.
+Guests can't install, update, or delete apps into a shared context, such as a chat, channel, or meeting. They can install, update, or delete apps to their personal scope using message extensions and direct links. Guests don't have access to the Teams app store from the Teams desktop application, but they can access it with a direct link.
 
 ### Usage behavior and policy for guest users
 
 Guests can use an app if the app was installed by a native user.
 
-Bots can proactively message guest users, but guests can't interact with the bot. Guests can't message the bot 1:1, @ mention the bot, or interact with adaptive cards that communicate with the bot.
+### Bots installed to a channel
 
-Guests will adhere to global and org-wide permission policies set for the host tenant for any app. In other words, if an app is blocked for the whole host organization, then guests can't use the app either.
+Bots can proactively message guest users, but guests can't interact with the bot. Guests can't message the bot one-to-one, mention the bot, or interact with adaptive cards that communicate with the bot.
 
-Setup policies don't apply to guest users. This means admin pinned app from the default policy doesn't affect guest users.
+### Personal bots installed with policies
+
+- Guests will adhere to global and org-wide permission policies set for the host tenant for any app. If an app is blocked for the whole host organization, then guests can't use the app either.
+- Any bot included in the global default app setup policy will also be installed for guests.
+- Bots can proactively communicate with guests, and guests can communicate back with bots after being added to a global default app setup policy that has contains bots.
+- You cannot remove a guest from the global default app setup policy.
+- To avoid a guest accessing a bot, you should create additional app setup policies, assign those to internal users, and install the bot with the custom policy.
 
 ## External (Federated) user access
 
