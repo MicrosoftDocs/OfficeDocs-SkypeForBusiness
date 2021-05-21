@@ -32,7 +32,7 @@ This article describes how apps in Teams behave when guest, external (federated)
 
 - An **anonymous user** is a concept in Teams meetings where the user has joined the meeting via a link. The user hasn't logged in with their Microsoft or organization’s account.
 
-## Guest access
+## Guest users
 
 ### Install, update, and delete for guest users
 
@@ -54,7 +54,7 @@ Bots can proactively message guest users, but guests can't interact with the bot
 - You can't remove a guest from the global default app setup policy.
 - To avoid guest from accessing bots, you can create more app setup policies, assign them to internal users, and install bots with the custom policies.
 
-## External (Federated) user access
+## External (Federated) users
 
 ### Install, update, and delete for external users
 
@@ -65,7 +65,7 @@ External users can't install, update, or delete apps into any context, such as a
 - External users can't use any Teams apps, and when an external user is added to a context with native users, all users – native and external – can no longer use apps.
 - External users aren't impacted by app policies, because they can't use Teams apps.
 
-## Anonymous user in meetings access
+## Anonymous users
 
 ### Install, update, and delete for anonymous users
 
