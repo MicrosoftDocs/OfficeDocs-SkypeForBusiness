@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test auto attendants for Microsoft 365 Business Voice."
+description: "Learn how to set up and test auto attendants for small businesses in Microsoft 365 Business Voice."
 --- 
 # Set up an auto attendant - small business tutorial
 
