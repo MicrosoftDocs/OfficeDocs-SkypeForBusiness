@@ -1183,11 +1183,43 @@ action.
 - **whiteboardUsed** - A user annotates on a whiteboard (any action on the webview).
 - **wiki - No AS assigned** - Wiki usage telemetry.
 
+### PanelView
+
+> [!NOTE]
+> For information on the properties of PanelView events, see [Properties sent with panelview events](#properties-sent-with-panelview-events).
+
+- **fileDeleteFailed** - Triggered when a file delete operation fails.
+- **fileDeleteSuccess** - Triggered when a file delete operation succeeds.
+- **filePreview** - Triggered in following scenarios:
+  - When share option is tapped in file preview screen.
+  - When copy option is tapped in file preview screen.
+  - When download option is tapped in file preview screen.
+  - When a file preview is successfully loaded.
+- **files** - Triggered in following scenarios:
+  - When a file is previewed within Teams app.
+  - When file upload option is tapped in OneDrive files screen.
+  - When "Copy Link" option is tapped in file preview screen.
+  - When the file sharing screen is dismissed.
+  - When files options menu is opened or when one of the options in that menu is tapped.
+  - When "in-call" files screen is opened.
+  - When a file is tapped to open.
+- **filesChannel** - Triggered when channel files screen is opened.
+- **fileSources** - Triggered when files options menu is opened or when one of the options in that menu is tapped.
+- **filesPersonal** - Triggered when a batch of files is loaded in OneDrive or recent files screen.
+- **fileUploadDeleteTriggered** - Triggered when a file attachment is deleted or detached from message area.
+- **fileUploadFailed** - Triggered when a file upload operation fails.
+- **fileUploadIndividualNotification** - Triggered when the contents of file upload notification change or when the notification is interacted with. The interactions may include gestures like swiping to dismiss the notification or tapping the notification etc.
+- **fileUploadSuccess** - Triggered when a file upload operation succeeds.
+- **fileUploadSummaryNotification** - Triggered when the contents of file upload summary notification change or when the notification is interacted with. The interactions may include gestures like swiping to dismiss the notification or tapping the notification etc.
+- **meetingFiles** - Triggered when meeting files screen is opened.
+- **navPersonalFiles** - Triggered when navigation to files screen is performed.
+
 ### Scenario
 
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
+- **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **cortanaError** To monitor Cortana error happends.
 - **cortanaView** - To monitor Cortana canvas appear.
 - **cortanaRestart** To monitor Cortana restart.
@@ -1211,6 +1243,7 @@ action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
 - **create_planner_plan_and_nav_to_view** - Confirms successful creation of shared task list and how long it took for a user to land on resulting view after action.
 - **create_planner_task** - Confirms successful creation of shared task item.
+- **forwardExistingAmsObject** Confirms that the media forward action succeeded or failed.
 - **delete_personal_plan** - Confirms the successful deletion of a personal task list.
 - **delete_personal_task** - Confirms the successful deletion of a personal task item.
 - **delete_planner_plan** - Confirms the successful deletion of a shared task list.
@@ -1226,13 +1259,20 @@ action.
 - **meetingInsightLocatorRender** - Confirms the render of meeting related content locator tip.
 - **meetingInsightRender** - Confirms the render of meeting related content.
 - **meetingInsightVisible** - Confirms the visibility of meeting related content.
+- **open_image** Confirms that the full screen image rendering succeeded or failed.
 - **rename_personal_plan** - Confirms the successful renaming of a personal task list.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
+- **save_image** Confirms that the image save action succeeded or failed.
+- **share_image** Confirms that the image share action succeeded or failed.
 - **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
 - **smart_reply_received** - Confirms that a smart reply suggestion is received.
 - **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
 - **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for a user to land on resulting view after action.
-- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
+- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after 
+- **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
+- **upload_images** Confirms that the image upload action succeeded or failed.
+- **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
+- **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
 
 ## Property lists
 
