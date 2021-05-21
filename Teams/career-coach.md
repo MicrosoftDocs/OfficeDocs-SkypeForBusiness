@@ -189,13 +189,6 @@ The document needs to be in CSV format with a maximum size of 18 MB. The documen
 > [!NOTE]
 > Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to get started.
 
-##### Sample .CSV file
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
-
 The following table shows the items to include in the course catalog:
 
 
@@ -255,6 +248,10 @@ Career Coach can be customized to be unique to your educational institution. The
   
 3. Select **Apply**.
 
+## Making Career Coach available to your organization
+
+Now that Career Coach has been configured for your organization. Follow these steps to ensure that Career Coach is available to organization in Microsoft Teams.
+
 ### Enable the app
 
 After you complete the configuration, enable the app for students and licensed users so they'll have access to Career Coach.  
@@ -271,21 +268,37 @@ After you complete the configuration, enable the app for students and licensed u
   > [!NOTE]
   > Allowed means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
 
-#### Pin the app
+### Add Career Coach as an installed app
+
+> [!NOTE]
+> This step ensures 1) that Career Coach is properly configured for your organization 2) that students find Career Coach.
+
+1. Sign in to the **Teams admin center**.
+
+2. Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*. 
+
+3. Under Installed apps, select Add apps.
+
+4. In the Add installed apps pane, search for the apps you want to automatically install for users when they start Teams. You can also filter apps by app permission policy. When you've chosen your list of apps, select Add.
+
+### Pin the app
 
 Pinning Career Coach will make the app more accessible and visible for students.
 
 1. Sign in to the **Teams admin center**.
 
-1. Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*. 
+2. Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*. 
 
-2. Under **Pinned apps**, choose **Add apps**.
+3. Under **Pinned apps**, choose **Add apps**.
 
-1. Search for **Career Coach**, and then select **Add**.
+4. Search for **Career Coach**, and then select **Add**.
 
-1. Choose the order for the app to appear and select **Save**.
+5. Choose the order for the app to appear and select **Save**.
 
-   Students will be notified in Microsoft Teams that Career Coach has been pinned.  
+> [!NOTE]
+> Students will be notified in Microsoft Teams that Career Coach has been pinned.
+
+Reference [Manage app setup policies in Microsoft](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) for additional details.
 
 ## Resources
 
