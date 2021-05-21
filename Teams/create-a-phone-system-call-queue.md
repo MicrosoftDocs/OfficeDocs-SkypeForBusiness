@@ -87,7 +87,7 @@ The following clients are supported when using a Teams channel for call queues:
   - Microsoft Teams Mac client
 
 > [!NOTE]
-> If you use this option, it can take up to 24 hours for the Call Queue to be fully operational.
+> If you use this option, it can take up to 24 hours for the call queue to be fully operational.
 
 ##### Users and groups
 
