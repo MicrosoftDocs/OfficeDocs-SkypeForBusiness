@@ -61,7 +61,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 > [!Note]
 > When a Calling Plan (domestic or domestic and international) user in the U.S. dials a phone number in Canada, it will be treated as a domestic call. This is also the case when a user in Canada will make a call to a U.S. number. However, if you also use calling plan policies to limit user dial-out to “domestic” only, a U.S. user won't be able to call Canada and likewise, a Canada user won't be able to call a U.S. user.
 
->[!Note] 
+>[!Note]
 > United States domestic calling includes calls to all 50 U.S. states and Puerto Rico. Users assigned with the license usage location of U.S. and/or Puerto Rico share the same pool of minutes.
 
 ## Toll and toll-free numbers for services
