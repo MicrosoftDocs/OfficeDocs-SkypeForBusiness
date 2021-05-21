@@ -329,11 +329,11 @@ Developers can use the Teams App Submission API to submit custom apps directly t
 
 ### Enhanced Manageability using Device Tagging functionality
 
-As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Learn more](/../../manage-device-tags.md).
+As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Learn more](../../manage-device-tags.md).
 
 ### View-only in meetings
 
-View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
+View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](/limits-specifications-teams.md#meetings-and-calls).
 
 ## July 28, 2020
 
