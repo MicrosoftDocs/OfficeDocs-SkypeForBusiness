@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test auto attendants for Microsoft Teams."
+description: "Learn how to set up and test auto attendants for large organizations in Microsoft Teams."
 --- 
 # Set up an auto attendant
 
