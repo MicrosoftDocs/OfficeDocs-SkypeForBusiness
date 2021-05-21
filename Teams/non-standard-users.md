@@ -34,11 +34,11 @@ This article describes how apps in Teams behave when guest, external (federated)
 
 ## Guest access
 
-### Install, update, and delete
+### Install, update, and delete for guest users
 
 Guests can't install, update, or delete apps into a shared context, such as a chat, channel, or meeting, but they can to their personal scope using message extensions and direct links. Guests don't have access to the Teams app store from the Teams desktop application, but they can access it with a direct link.
 
-### Usage behavior
+### Usage behavior and policy for guest users 
 
 Guests can use an app if the app was installed by a native user.
 
