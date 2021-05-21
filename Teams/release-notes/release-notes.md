@@ -22,25 +22,11 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
-<<<<<<< Updated upstream
 ## April 30, 2021
 
 ### Career coach
 
 Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place. [Learn more](../career-coach.md).
-=======
-## May 5, 2021
-
-### Approvals app is available
-
-The Approvals app is available as a personal app for all Microsoft Teams users. The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams. [Learn more](approval-admin.md).
-
-## April 30, 2021
-
-### Career Coach
-
-Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place. [Learn more](career-coach.md).
->>>>>>> Stashed changes
 
 ## March 31, 2021
 
