@@ -32,6 +32,9 @@ You can use the [policy packages included in Teams](#policy-packages-included-in
 
 You can customize the settings of the policies in a policy package to suit the needs of your users. When you change the settings of policies in a package, all users who are assigned to that package get the updated settings. You manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
+> [!NOTE]
+> Each user will require the Advanced Communications add-on in order to recieve a custom policy package assignment. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+
 ## What is a policy package?
 
 Policy packages let you control Teams features that you want to allow or restrict for specific sets of people across your organization. Each policy package in Teams is designed around a user role and includes predefined policies and policy settings that support the collaboration and communication activities that are typical for that role.
