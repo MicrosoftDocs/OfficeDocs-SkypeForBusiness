@@ -148,6 +148,21 @@ Use org-wide app settings to control whether users can install third-party apps 
 3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 4. Select **Save** for org-wide app settings to take effect.
 
+## View security, compliance, and data protection information for Microsoft 365 certified apps
+
+When deciding whether to allow an App for their organization, admins rely on independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and other features of an app. The MCAS feature makes security, compliance, and data protection information available in the Teams admin center for Microsoft 365 certified applications.
+
+To access MCAS information, follow these steps.
+
+1. In the Teams admin center, select **Manage apps**.
+1. Sort apps by Certification to get push all Microsoft 365 certified apps to the top of the list.
+1. Select a Microsoft 365 certified app.
+1. Select the **Security and compliance** tab.
+
+![Screenshot of Teams admin center security and compliance tab](media/mcas.png)
+
+You'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details.
+
 ## Related topics
 
 - [Admin settings for apps in Teams](admin-settings.md)
