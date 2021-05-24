@@ -35,7 +35,7 @@ Set up external access if you need to find, call, chat, and set up meetings with
 
 By default, external access is enabled for all domains. You can restrict external access by allowing or blocking specific domains or by turning it off.
 
-![Screenshot of external access settings](media/external-access-federation-settings.png)
+![Screenshot of external access settings](media/external-access-federation-settings.png) - [SL: UPdate screenshot]
 
 To configure external access, see [Manage external access](manage-external-access.md). 
 
