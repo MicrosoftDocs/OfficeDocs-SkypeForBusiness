@@ -135,7 +135,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-    ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png) [SL: update screenshot with new privacy notice]
+    ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
     
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
@@ -144,7 +144,9 @@ Use org-wide app settings to control whether users can install third-party apps 
         > [!NOTE]
         > When **Allow third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are disabled, which means that users can't create them. When this setting is on, outgoing webhooks are enabled for all users and you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md). <br><br>Note that if you have existing [app permission policies](teams-app-permission-policies.md) for **Microsoft apps** that use the **Allow specific apps and block all others** setting, and you want to enable outgoing webhooks for users, add the Outgoing Webhook app to the list.
 
-[Note] Your Teams users can add apps when they host meetings or chats with other organizations, and they can use apps shared by external users when your users join meetings or chats hosted by other organizations. The data policies of the hosting user's organization, as well as the data sharing practices of the third-party apps shared by that user's organization, will be applied.
+        > [!NOTE]
+        > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
+
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
