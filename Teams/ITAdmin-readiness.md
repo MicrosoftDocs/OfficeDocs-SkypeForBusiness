@@ -81,6 +81,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | ------------| -------------------- |
 | Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | Module 2: Planning Microsoft Teams Android devices|[Deck](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+|Module 3: Features of Microsoft Teams Android Devices |[Deck](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+
 <h2>Interactive guides</h2>
 
 | Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
