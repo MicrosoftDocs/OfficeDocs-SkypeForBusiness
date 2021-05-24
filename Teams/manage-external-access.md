@@ -44,7 +44,8 @@ Use external access when:
 
 By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
 
-[NOTE]Your Teams users can add apps when they host meetings or chats with other organizations, and they can use apps shared by external users when your users join meetings or chats hosted by other organizations. The data policies of the hosting user's organization, as well as the data sharing practices of the third-party apps shared by that user's organization, will be applied.
+> [!NOTE]
+> Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
 > [!NOTE]
 > If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](./meeting-settings-in-teams.md).
