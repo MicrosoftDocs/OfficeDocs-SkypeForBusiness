@@ -66,7 +66,7 @@ To move users between on premises and the cloud, you must use an account with su
 - In the on-premises environment, the user performing the move must have the CSServerAdministrator role in Skype for Business Server.
 - In Teams, the user performing the move must meet one of the following criteria:
   - The user is a member of the Global Administrator role.
-  - The user is a member of both the Teams Administrator and User Adminstrator roles.
+  - The user is a member of both the Teams Administrator and User Administrator roles.
   - The user is a member of both the Skype for Business Administrator and User Administrator roles.  
 
     > [!Important]
