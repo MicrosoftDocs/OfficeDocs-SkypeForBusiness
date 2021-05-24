@@ -150,21 +150,21 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 ## View security, compliance, and data protection information for Microsoft 365 certified apps
 
-When deciding whether to allow an App for their organization, admins rely on independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and other features of an app. The MCAS feature makes security, compliance, and data protection information available in the Teams admin center for Microsoft 365 certified applications.
+When deciding whether to allow an app for their organization, admins rely on independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and other features of an app. The MCAS feature makes security, compliance, and data protection information available in the Teams admin center for Microsoft 365 certified applications.
 
 > [!NOTE]
 > This feature is available to all admins, whether or not your organization has an active MCAS license.
 
 To access MCAS information, follow these steps.
 
-1. In the Teams admin center, select **Manage apps**.
-1. Sort apps by Certification to push all Microsoft 365 certified apps to the top of the list.
-1. Select a Microsoft 365 certified app.
+1. In the Teams admin center, select **Manage apps** under **Teams apps**.
+1. Select **Certification** to sort apps and push all Microsoft 365 certified apps to the top of the table.
+1. Choose a Microsoft 365 certified app.
 1. Select the **Security and compliance** tab.
 
 ![Screenshot of Teams admin center security and compliance tab](media/mcas.png)
 
-On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details.
+On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which settings are supported for the selected application.
 
 ## Related topics
 
