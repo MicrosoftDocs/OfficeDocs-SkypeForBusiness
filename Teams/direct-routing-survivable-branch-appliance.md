@@ -77,7 +77,7 @@ All configuration is done by using Skype for Business Online PowerShell cmdlets.
 
 ### Create the SBAs
 
-To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has has the following parameters:
+To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
@@ -207,5 +207,3 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 - The SBA does not support call forwarding settings. 
 
 - Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
-
-- The output of Get-CsOnlineUser shows TeamsBranchSurvivabilityPolicy.
