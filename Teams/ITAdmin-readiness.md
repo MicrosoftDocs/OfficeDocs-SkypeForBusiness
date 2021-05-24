@@ -78,10 +78,10 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
 
-| Module | Video | PowerPoint deck (PDF)  |
-| ------------ | -------------------- | -------------------- |
-| Module 1: Introduction to Microsoft Teams Android devices  | |[Deck](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| Module 2: Planning Microsoft Teams Android devices|| [Deck](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Module | PowerPoint deck (PDF)  |
+| ------------| -------------------- |
+| Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Module 2: Planning Microsoft Teams Android devices|[Deck](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 <h2>Interactive guides</h2>
 
 | Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
