@@ -62,10 +62,10 @@ External users can't install, update, or delete apps into any context, such as a
 
 ### Usage behavior and policy for external users
 
-- External users will adhere to the native tenant default user permission policy and native tenant org-wide settings
-- Native users can add apps in meeting chats with external users. External users cannot add apps in meeting chats but can interact with bots and tabs once added to the chat.
-- After a bot is installed, bots can proactively communicate with guests and guests can communicate back with bots.
-- Note: The data policies of the native organization, as well as the data sharing practices of the third-party apps shared by that user's organization, will be applied.
+- People from other organizations adhere to the hosting organization's default user permission policy and org-wide settings.
+- Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations cannot add apps in meeting chats but can interact with bots and tabs once added to the chat.
+- After a bot is installed in a chat, it can proactively communicate with people from other organizations in that chat and those people can communicate with bot.
+- The data policies of the hosting organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
 ## Anonymous users
 
