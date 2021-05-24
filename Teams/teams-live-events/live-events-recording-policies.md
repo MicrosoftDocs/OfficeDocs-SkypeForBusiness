@@ -47,11 +47,7 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Always record               | Disabled and selected                                | Enabled and selected         |
 | Organizer can record or not | Enabled and selected by default                  | Enabled and selected by default   |
-| Never record               | Disabled and not selected                            | Enabled and not selected      |
-
-When the policy is set to **Always record**, the policy page has the following selected options:
-
-![live events policy settings](../media/live-event-recording-policy.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+| Never record               | Disabled and not selected                            | Disabled and not selected      |
 
 ## Storage and persistence behavior
 

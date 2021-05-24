@@ -25,6 +25,8 @@ description: "See Skype for Business Online steps to assign a dial-in conferenci
 
 # Manage the Audio Conferencing settings for my organization in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!NOTE]
 > If you want to manage these settings in Teams, see [Manage the Audio Conferencing settings for my organization in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
 

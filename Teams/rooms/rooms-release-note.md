@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
@@ -68,6 +69,14 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.8.31.0 (05/12/2021)
+
+Introduced in this update:
+- Windows 10 20H2 support 
+
+> [!NOTE]
+> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
+
 ### 4.8.25.0 (04/22/2021)
 
 Introduced in this update:
@@ -75,7 +84,6 @@ Introduced in this update:
 
 > [!NOTE]
 > GCCH customers can download the upgrade package from [Manually update a Microsoft Teams Rooms device](manual-update.md)
-
 
 ### 4.8.19.0 (04/06/2021)
 

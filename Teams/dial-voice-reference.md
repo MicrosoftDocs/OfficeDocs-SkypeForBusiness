@@ -95,33 +95,9 @@ Callers can say names in the following formats:
   
 ## Language support
 
-The following languages are available for text-to-speech used with outgoing prompts:
-  
-|-|-|-|
-|:-----|:-----|:-----|
-|Arabic (EG)  |English (NZ)  |Korean (KO)  |
-|Chinese (HK)  |English (UK) |Norwegian (NO)  |
-|Chinese (TW) |English (US) |Polish (PL)  |
-|Chinese (ZH) |Finnish (FI) |Portuguese (BR) |
-|Danish (DA)  |French (CA)  |Portuguese (PT) |
-|Dutch (NL)   |French (FR)  |Russian (RU) |
-|English (AU)  |German (DE) |Spanish (ES)  |
-|English (CA)  |Italian (IT) |Spanish (MX)|
-|English (IN)  |Japanese (JP) |Swedish (SV)|
+Language support for text-to-speech and speech recognition is available in these [supported languages](create-a-phone-system-auto-attendant-languages.md).
 
-Speech recognition input for auto attendants is available in the following languages:
-  
-|-|-|
-|:-----|:-----|
-|Chinese (ZH)  |French (FR)  |
-|English (AU)  |German (DE)  |
-|English (CA)  |Italian (IT)  |
-|English (IN)  |Japanese (JP)  |
-|English (UK)  |Portuguese (BR)  |
-|English (US)  |Spanish (ES)  |
-|French (CA)   |Spanish (MX)  |
-
-The following voice commands are available in the 14 languages supported for speech recognition:
+The following voice commands are available for speech recognition: 
   
 |Voice command| Corresponds to |
 |:-----|:-----|

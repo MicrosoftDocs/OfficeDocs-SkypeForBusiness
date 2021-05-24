@@ -23,6 +23,8 @@ description: "How to use an IP Relay account for Canada."
 
 # IP Relay in Canada - user guide
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Description of the IP Message Relay service from Microsoft:
 
 ## Scenario A

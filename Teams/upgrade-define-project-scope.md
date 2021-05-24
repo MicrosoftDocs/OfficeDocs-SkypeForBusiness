@@ -1,7 +1,7 @@
 ---
 title: Define the project scope for your Skype for Business to Microsoft Teams upgrade
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 audience: admin
