@@ -1275,7 +1275,7 @@ action.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
 - **cancel_channel_meeting** Confirms that the cancellation of channel meeting has succeeded or failed.
 - **cancel_meeting** Confirms that the cancellation of a meeting has succeeded or failed.
-- **cancel_private_meeting** Confirms that the cancellation of private meeting has succeeded or failed.
+- **cancel_private_meeting** Confirms that the cancellation of a private meeting has succeeded or failed.
 - **edit_channel_meeting** Confirms that the edit operation of a channel meeting has succeeded or failed.
 - **edit_meeting** Confirms that the edit operation of a meeting has succeeded or failed.
 - **server_fetch_agenda_view** Confirms that the calendar event sync using the Middle Tier API has succeeded or failed.
