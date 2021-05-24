@@ -1273,7 +1273,7 @@ action.
 - **upload_images** Confirms that the image upload action succeeded or failed.
 - **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
-- **cancel_channel_meeting** Confirms that the cancellation of channel meeting has succeeded or failed.
+- **cancel_channel_meeting** Confirms that the cancellation of a channel meeting has succeeded or failed.
 - **cancel_meeting** Confirms that the cancellation of a meeting has succeeded or failed.
 - **cancel_private_meeting** Confirms that the cancellation of a private meeting has succeeded or failed.
 - **edit_channel_meeting** Confirms that the edit operation of a channel meeting has succeeded or failed.
