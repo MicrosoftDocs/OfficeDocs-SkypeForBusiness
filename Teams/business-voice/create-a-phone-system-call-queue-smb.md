@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-description: Learn how to set up call queues with Microsoft 365 Business Voice.
+description: Learn how to set up call queues for small businesses in Microsoft 365 Business Voice.
 ---
 # Create a call queue - small business tutorial
 
