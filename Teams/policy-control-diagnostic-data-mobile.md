@@ -1280,7 +1280,7 @@ action.
 - **edit_meeting** Confirms that the edit operation of meeting has succeeded or failed.
 - **server_fetch_agenda_view** Confirms that the calendar event sync using the Middle Tier API has succeeded or failed.
 - **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
-- **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for TFL group has succeeded or failed.
+- **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
 - **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
 - **meeting_details** Confirms that the meeting details sync has succeeded or failed.
 - **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
