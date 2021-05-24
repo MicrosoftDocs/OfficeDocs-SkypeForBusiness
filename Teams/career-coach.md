@@ -298,7 +298,7 @@ Pinning Career Coach will make the app more accessible and visible for students.
 > [!NOTE]
 > Students will be notified in Microsoft Teams that Career Coach has been pinned.
 
-Reference [Manage app setup policies in Microsoft](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) for additional details.
+Reference [Manage app setup policies in Microsoft](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) for additional details.
 
 ## Resources
 
