@@ -1,7 +1,7 @@
 ---
 title: Microsoft Information protection license report
 author: 
-ms.author:
+ms.author:anandab-msft
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 The Teams Info protection license report gives insight into the apps which has [subscribed](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-1.0) for [change notification](https://docs.microsoft.com/en-us/graph/api/resources/webhooks?view=graph-rest-1.0) events to listen to create, update or delete of messages at tenant level (i.e. /teams/getAllMessage or /chats/getAllMessages). A change notification corresponding to message is sent successfully only when user has the [required license](https://docs.microsoft.com/en-us/graph/teams-licenses).  You can see how many change notifications was triggered by a given user.
 
-
+> **Note** : This report is currently available in private preview only.
 
 
 ## View the information protection License report report
