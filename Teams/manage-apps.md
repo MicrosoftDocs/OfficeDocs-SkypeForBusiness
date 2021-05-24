@@ -155,7 +155,7 @@ When deciding whether to allow an app for their organization, admins rely on ind
 > [!NOTE]
 > This feature is available to all admins, whether or not your organization has an active MCAS license.
 
-To access MCAS information, follow these steps.
+To access MCAS information, follow these steps:
 
 1. In the Teams admin center, select **Manage apps** under **Teams apps**.
 1. Select **Certification** to sort apps and push all Microsoft 365 certified apps to the top of the table.
