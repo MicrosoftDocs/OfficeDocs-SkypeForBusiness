@@ -1277,7 +1277,7 @@ action.
 - **cancel_meeting** Confirms that the cancellation of a meeting has succeeded or failed.
 - **cancel_private_meeting** Confirms that the cancellation of private meeting has succeeded or failed.
 - **edit_channel_meeting** Confirms that the edit operation of channel meeting has succeeded or failed.
-- **edit_meeting** Confirms that the edit operation of meeting has succeeded or failed.
+- **edit_meeting** Confirms that the edit operation of a meeting has succeeded or failed.
 - **server_fetch_agenda_view** Confirms that the calendar event sync using the Middle Tier API has succeeded or failed.
 - **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
 - **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
