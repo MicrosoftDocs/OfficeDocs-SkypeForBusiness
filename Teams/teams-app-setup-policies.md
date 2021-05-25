@@ -101,7 +101,7 @@ To create an app setup policy to install apps, do the following steps:
    ![the Add installed apps pane](media/app-setup-policies-add-installed-apps.png)
 
 > [!IMPORTANT]
-> For apps installed by admins, users can't uninstall those apps.
+> Users can uninstall apps that are installed by admins.
 
 ## Upload custom apps
 
