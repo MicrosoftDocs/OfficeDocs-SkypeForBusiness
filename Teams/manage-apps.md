@@ -43,22 +43,18 @@ You can view every app including the following information about each app.
 - **Publisher**: Name of the publisher.
 - **Publishing status**: Publishing status of custom apps.
 - **Status**: Status of the app at the org level, which can be one of the following:
-
-    - **Allowed**: The app is available for all users in your organization.
-    
-    - **Blocked**: The app is blocked and not available for any users in your organization.
-    
-    - **Blocked org-wide**: The app is blocked in org-wide app settings.
-    
+- **Allowed**: The app is available for all users in your organization.
+- **Blocked**: The app is blocked and not available for any users in your organization.
+- **Blocked org-wide**: The app is blocked in org-wide app settings.
       It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page. 
 - **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
-    - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
-    - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
-    - **- -**: The app doesn't offer a SaaS subscription.
+- **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
+- **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+- **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
 - **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
-    - **View details**: The app has permissions that require consent before the app can access data. 
-    - **- -**: The app doesn't have permissions that need consent.
+- **View details**: The app has permissions that require consent before the app can access data. 
+- **- -**: The app doesn't have permissions that need consent.
 - **Categories**: Categories that apply to the app.
 - **Version**: App version.
 - **Admin can install in meetings**: Indicates whether the app can be pre-installed for Teams meetings.
@@ -72,7 +68,7 @@ Use the Manage apps page to publish apps that are built specifically for your or
 - [Approve a custom app](#approve-a-custom-app): Use this method if the developer submits the app directly to the Manage apps page using the Teams App Submission API. You can then review and publish (or reject) the app directly from the app details page.
 - [Upload an app package](#upload-an-app-package): Use this method if the developer sends you the app package in .zip format. You publish the app by uploading the app package.
 
-###  Approve a custom app
+### Approve a custom app
 
 The **Pending approvals** widget on the Manage apps page notifies you when a developer submits an app by using the Teams App Submission API. A newly submitted app is listed with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish it, set **Publishing status** to **Publish**.
 
@@ -111,7 +107,7 @@ You use the **Add to team** button to install an app to a team. Keep in mind tha
 2. Select **Add to team**.
 3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
-## Customize an app 
+## Customize an app
 
 You can now customize an app to include a specific look and feel according to your organization needs. See [Customize apps in Teams](customize-apps.md).
 
@@ -137,7 +133,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
     ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
-    
+
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
