@@ -448,7 +448,7 @@ items:
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              name: Teams Information protection license report
+              name: Teams information protection license report
               href: teams-analytics-and-reports/information-protection-license-report.md
               
     - name: Log files, service health, and support
