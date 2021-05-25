@@ -69,7 +69,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 3. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
 
-4. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id) for more information.
+4. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
 
 5. **Assign numbers.** Once your operator completes the order, they'll upload test numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
  
@@ -99,9 +99,9 @@ To acquire numbers for new Teams users, follow these steps:
    Set-CsUser -identity <user> - OnPremLineURI $null 
    ```
 
-2. Remove any PSTNUsage associated with your users, otherwise calls will be routed to the gateway specified in the PSTN Usage. To learn how to remove PSTN usage, see [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps).
+2. Remove any PSTNUsage associated with your users, otherwise calls will be routed to the gateway specified in the PSTN Usage. To learn how to remove PSTN usage, see [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps).
 
-3. Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id) for more information.
+3. Go to your operator's website to order and acquire phone numbers. For a list of operator websites, see [Operators](#operators). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
 
 4. Once your operator completes the order, they'll upload test numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using  PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
