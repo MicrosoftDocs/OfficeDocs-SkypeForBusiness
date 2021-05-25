@@ -66,13 +66,15 @@ To create an app setup policy to pin apps, do the following steps:
 
 5. Under **Pinned apps**, select **Add apps**.
 
-6. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**. You can also filter apps by app permission policy. When you've chosen your list of apps to pin, select **Add**.
+6. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**. You can also filter apps by app permission policy.
 
-   ![the Add pinned apps pane](media/app-setup-policies-add-apps.png)
+7. Select **Add**.
 
-7. Arrange the apps in the order that you want them to appear in Teams, and then select **Save**.
+8. Arrange the apps in the order that you want them to appear in Teams.
 
    ![the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
+
+9. Select **Save**.
 
 ## Install apps
 
@@ -96,9 +98,11 @@ To create an app setup policy to install apps, do the following steps:
 
 4. Under **Installed apps**, select **Add apps**.
 
-5. In the **Add installed apps** pane, search for the apps you want to automatically install for users when they start Teams. You can also filter apps by app permission policy. When you've chosen your list of apps, select **Add**.
+5. In the **Add installed apps** pane, search for the apps you want to automatically install for users. You can also filter apps by app permission policy.
 
-   ![the Add installed apps pane](media/app-setup-policies-add-installed-apps.png)
+    ![the Add installed apps pane](media/app-setup-policies-add-installed-apps.png)
+
+6. Select **Add**.
 
 > [!IMPORTANT]
 > Users can't uninstall apps that are installed by admins.
@@ -115,7 +119,10 @@ To create an app setup policy to allow users to upload custom apps to Teams, do 
 
 3. Enter a name and description for the policy.
 
-4. Turn on or turn off **Upload custom apps**, depending on whether you want to let users upload custom apps to Teams. You can't change this setting if **Allow third-party apps** is turned off in [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
+4. Turn on or turn off **Upload custom apps**, depending on whether you want to let users upload custom apps to Teams.
+
+> [!NOTE]
+> You can't change this setting if **Allow third-party apps** is turned off in [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
 ## Edit an app setup policy
 
@@ -123,9 +130,9 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 
-2. Select the policy by clicking to the left of the policy name, and then select **Edit**.
+2. Choose the policy you want to edit and then select **Edit**.
 
-3. From here, make the changes that you want.
+3. Make the changes that you want.
 
 4. Select **Save**.
 
