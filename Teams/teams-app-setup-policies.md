@@ -84,7 +84,7 @@ Using an app setup policy, you can do the following tasks:
 - Install apps for users that will be available in meetings.
 
 > [!NOTE]
-> Keep in mind that users can still install apps themselves if the [app permission policy](teams-app-permission-policies.md) that's assigned to them allows it.
+> Users can still install apps themselves if the [app permission policy](teams-app-permission-policies.md) that's assigned to them allows it.
 
 To create an app setup policy to install apps, do the following steps:
 
