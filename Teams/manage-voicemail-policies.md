@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Manage Voicemail Policies for your users. "
+description: "Manage Voicemail Policies for your users."
 ---
 
 ## Setting voicemail policies in your organization
@@ -113,4 +113,3 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 > [!IMPORTANT]
 > The voicemail service in Microsoft 365 and Office 365 caches voicemail policies and updates the cache every 4 hours. So, policy changes that you make can take up to 4 hours to be applied.
-
