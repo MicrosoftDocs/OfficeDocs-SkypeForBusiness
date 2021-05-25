@@ -38,7 +38,7 @@ This article describes how apps in Teams behave when guest, external (federated)
 
 Guests can't install, update, or delete apps into a shared context, such as a chat, channel, or meeting, but they can to their personal scope using message extensions and direct links. Guests don't have access to the Teams app store from the Teams desktop application, but they can access it with a direct link.
 
-### Usage behavior and policy for guest users 
+### Usage behavior and policy for guest users
 
 Guests can use an app if the app was installed by a native user.
 
@@ -76,3 +76,7 @@ Anonymous users can't install, update, or delete apps in meetings.
 Anonymous users can't directly use apps in meetings. Native users can continue to use meetings apps if anonymous users are present. If an app sends an adaptive card in the chat, anonymous users can interact with the card. For more information, read [Allow anonymous users to join meetings](/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings).
 
 Anonymous users will inherit the user-level global default permission policy. They can interact with apps in Teams meetings if the user-level permission policy has enabled the app. Anonymous users can only interact with apps that are already available in a meeting and can't acquire and/or manage these apps.
+
+## Related topics
+
+[Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md)
