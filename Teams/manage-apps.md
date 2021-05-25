@@ -61,6 +61,7 @@ You can view every app including the following information about each app.
     - **- -**: The app doesn't have permissions that need consent.
 - **Categories**: Categories that apply to the app.
 - **Version**: App version.
+- **Admin can install in meetings**: Indicates whether the app can be pre-installed for Teams meetings.
 
 To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
 
