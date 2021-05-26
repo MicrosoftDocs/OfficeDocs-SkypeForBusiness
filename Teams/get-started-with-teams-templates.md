@@ -1,5 +1,5 @@
 ---
-title: Get started with Teams templates using Microsoft Graph
+title: Get started with team templates using Microsoft Graph
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use Teams templates in Microsoft Graph to create collaboration spaces with channels for different topics and preinstall apps to provide content and services.
+description: Learn how to use team templates in Microsoft Graph to create collaboration spaces with channels for different topics and preinstall apps to provide content and services.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -21,12 +21,12 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Get started with Teams templates using Microsoft Graph
+# Get started with team templates using Microsoft Graph
 
 > [!NOTE]
-> Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
+> Team templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
 
-Teams templates are pre-built definitions of a team's structure designed around a business need or project. You can [create your own template in the admin console](get-started-with-teams-templates-in-the-admin-console.md). With Microsoft Graph, you use the pre-built templates . You can use Teams templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization.
+Team templates are pre-built definitions of a team's structure designed around a business need or project. You can [create your own template in the admin console](get-started-with-teams-templates-in-the-admin-console.md). With Microsoft Graph, you use the pre-built templates . You can use team templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Team templates provide a predefined team structure that can help you easily create consistent teams across your organization.
 
 In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few samples requests to create a team from a template.
 
@@ -35,11 +35,11 @@ This article is for you if you're:
 - Responsible for planning, deploying, and managing multiple teams across your organization<br>
 - A developer wanting to programmatically create a team with predefined channels and apps
 
-## Teams template capabilities
+## Team template capabilities
 
-Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
+Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. The following table provides a quick summary of what's included and what's not included in team templates.
 
-| **Team properties supported by Teams templates** | **Team properties not yet supported by Teams templates** |
+| **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Base template type | Team membership |
 | Team name | Team picture |
@@ -55,7 +55,7 @@ Most properties in a team are included and supported by templates. But there are
 
 ## What are base template types
 
-Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store. In addition, base templates often contain team properties that aren't yet supported individually in Teams templates. Learn how to use the [team templates in Microsoft Graph](get-started-with-teams-templates.md).
+Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store. In addition, base templates often contain team properties that aren't yet supported individually in team templates. Learn how to use the [team templates in Microsoft Graph](get-started-with-teams-templates.md).
 
 Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. Some base template types contain properties that can't be overridden.
 
@@ -94,11 +94,11 @@ Use the following templates to create teams in both the Teams client as well as 
 |Retail - manager collaboration| `retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
-See [Get started with Teams templates in the Admin center](get-started-with-teams-templates-in-the-admin-console.md) for more details.
+See [Get started with team templates in the Admin center](get-started-with-teams-templates-in-the-admin-console.md) for more details.
 
 ## Related topics
 
-- [Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create team](/graph/api/team-post?view=graph-rest-beta) (in preview)
+- [Get started with team templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a team](/graph/api/team-post?view=graph-rest-beta) (in preview)
 - [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)

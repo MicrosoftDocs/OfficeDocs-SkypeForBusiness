@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Create a template from an existing team in Microsoft Teams
+# Create a team template from an existing team in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
