@@ -36,8 +36,8 @@ The following scenarios are available for retail organizations:
 
 | Icon | Scenario | Description |
 | ---- | -------- | -------- |
-| :::image type="content" source="office/media/icons/collaborate-teams.png" alt-text="Collaborate":::| [Retail team operations and collaboration](retail-team-collaboration.md) | |
-| :::image type="content" source="office/media/icons/small-business-teams.png" alt-text="Store front":::| [Curbside delivery/multichannel fulfillment](retail-fulfillment.md) | |
+| :::image type="content" source="/office/media/icons/collaborate-teams.png" alt-text="Collaborate":::| [Retail team operations and collaboration](retail-team-collaboration.md) | |
+| :::image type="content" source="/office/media/icons/small-business-teams.png" alt-text="Store front":::| [Curbside delivery/multichannel fulfillment](retail-fulfillment.md) | |
 
 ## Retail user types and licensing
 
