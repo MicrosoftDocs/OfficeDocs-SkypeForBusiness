@@ -30,14 +30,14 @@ Microsoft 365 and Microsoft Teams offer several capabilities that can help retai
 
 For all of these capabilities, users mush have an appropriate license. Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, Business Premium, A3, A5, E3, and E5 are supported. You can also use Microsoft 365 Frontline Worker F1 and F3 or Office 365 F3. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md). See [Retail user types and licensing](#retail-user-types-and-licensing) for more about using Microsoft 365 Frontline Worker in combination with other licenses.
 
-This functionality is also part of the Microsoft Cloud for Retail. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail).
-
 The following scenarios are available for retail organizations:
 
 | Scenario | Description |
 | -------- | -------- |
 | [Retail team operations and collaboration](retail-team-collaboration.md) | |
 | [Curbside delivery/multichannel fulfillment](retail-fulfillment.md) | |
+
+These scenarios are also part of the Microsoft Cloud for Retail. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail).
 
 ## Retail user types and licensing
 
