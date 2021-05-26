@@ -1487,6 +1487,10 @@ items:
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
+        - name: 1. Retail team collaboration
+          href: expand-teams-across-your-org/retail-collaboration.md
+        - name: 2. Retail fulfillment
+          href: expand-teams-across-your-org/retail-fulfillment.md
         - name: Get started with Retail Teams templates
           href: get-started-with-retail-teams-templates.md
         - name: Scripted deployment
