@@ -26,7 +26,7 @@ appliesto:
 > [!Note]
 > If your meeting or webinar hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year.
 
-Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 300 users enter a meeting), additional attendees will join with a view-only experience.
+Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience.
 
 Attendees who join the meeting first, up to the capacity of the main meeting, will get the full Teams meeting experience. They can share audio and video, see shared videos, and participate in meeting chat.
 
@@ -35,7 +35,7 @@ Attendees who join after the main meeting capacity has been reached will have a 
 Attendees will be able to join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
 > [!Note]
-> The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 300.
+> The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 1000 and includes GCC.
 
 ## Teams view-only experience controls
 

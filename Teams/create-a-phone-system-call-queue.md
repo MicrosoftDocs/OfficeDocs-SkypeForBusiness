@@ -23,11 +23,14 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
   - seo-marvel-apr2020
-description: Learn how to set up Phone System for call queues with Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
+description: Learn how to set up call queues for large organizations in Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
 ---
 # Create a call queue
 
 Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+
+> [!TIP]
+> This article is large organizations. If your organization is a small business, read [Create a call queue - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) instead.
 
 Call queues provide:
 
@@ -41,9 +44,17 @@ Call queues provide:
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
+## Video demonstration
+
+This video shows a basic example of how to create a call queue in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
+
+## Create the call queue
+
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
-## Resource account and language
+### Resource account and language
 
 ![Screenshot of resource account and language settings](media/call-queue-name-language.png)
 
@@ -53,7 +64,7 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-## Greetings and music on hold in queue
+### Greetings and music on hold in queue
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
@@ -63,7 +74,7 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 > The uploaded recording can be no larger than 5 MB.
 > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
-## Call agents
+### Call agents
 
 Review the [prerequisites for adding agents to a call queue](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -93,7 +104,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
 
-## Call routing
+### Call routing
 
 ![Screenshot of conference mode and routing method settings](media/call-queue-conference-mode-routing-method.png)
 
@@ -141,7 +152,7 @@ The following settings are recommended:
 > [!NOTE]
 > If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
-## Call overflow handling
+### Call overflow handling
 
 ![Screenshot of call overflow settings](media/call-queue-overflow-handling.png)
 
@@ -152,7 +163,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 
-## Call timeout handling
+### Call timeout handling
 
 ![Screenshot of call timeout settings](media/call-queue-timeout-handling.png)
 

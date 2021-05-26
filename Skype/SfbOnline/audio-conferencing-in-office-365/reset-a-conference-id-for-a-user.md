@@ -25,6 +25,8 @@ description: "Learn the steps to reset a user's meeting conference ID in Skype f
 
 # Reset a conference ID for a user in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!NOTE]
 > For information about resetting conference ID in Microsoft Teams, see [Reset a conference ID for a user in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
 

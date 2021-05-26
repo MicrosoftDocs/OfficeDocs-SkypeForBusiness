@@ -25,6 +25,8 @@ description: "Learn how to look up your dial-in conferencing numbers from within
 
 # See a list of Audio Conferencing numbers in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!NOTE]
 > For information about Audio Conferencing numbers in Microsoft Teams, see [See a list of Audio Conferencing numbers in Microsoft Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
 

@@ -25,6 +25,8 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
 
 # View and reset a conference ID assigned to a user in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!Note]
 > For information about user conference IDs in Microsoft Teams, see [View and reset a conference ID assigned to a user in Microsoft Teams](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
 

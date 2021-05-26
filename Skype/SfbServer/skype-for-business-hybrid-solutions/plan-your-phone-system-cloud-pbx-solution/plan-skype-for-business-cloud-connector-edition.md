@@ -29,9 +29,9 @@ description: "Find information on Skype for Business Cloud Connector Edition, a 
 
 Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System (Cloud PBX).
 
-Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System solution is right for your business, see [Microsoft telephony solutions](../../../SfbHybrid/hybrid/msft-telephony-solutions.md).
+Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System solution is right for your business, see [Microsoft telephony solutions](/microsoftteams/cloud-voice-landing-page).
 
-This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this topic before you configure your Cloud Connector environment. When you are ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
+This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this article before you configure your Cloud Connector environment. When you are ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
 Cloud Connector Edition 2.1 is now available. If you have not yet upgraded to 2.1, see [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). You can find the installation file at [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).
 
@@ -50,13 +50,13 @@ Cloud Connector will provide routing between the users homed on premises and onl
 
 Consider the following when planning your Cloud Connector Edition deployment:
 
-- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for a Microsoft 365 or Office 365 organization that includes Phone System. If you do not yet have a Microsoft 365 or Office 365 organization you can learn how to sign up here: [Microsoft 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
+- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for a Microsoft 365 or Office 365 organization that includes Phone System. If you do not yet have a Microsoft 365 or Office 365 organization, you can learn how to sign up here: [Microsoft 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
 
 - To register Cloud Connector appliances with the Skype for Business Online service, and to run various cmdlets, Cloud Connector 2.0 and later requires a dedicated Microsoft 365 or Office 365 account with the Skype for Business Tenant Administrator rights. Cloud Connector versions previous to 2.0 require a dedicated Microsoft 365 or Office 365 account with tenant Global Administrator rights.
 
 - Cloud Connector does not require a full on-premises Skype for Business Server deployment.
 
-    Currently, Cloud Connector cannot co-exist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Currently, Cloud Connector cannot coexist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - If you had a previous Skype for Business or Lync Server deployment, and you extended the schema, you do not need to clean up the schema for the Cloud Connector deployment, as long as you've removed all Skype for Business or Lync Server components from your environment.
 
@@ -64,7 +64,7 @@ Consider the following when planning your Cloud Connector Edition deployment:
 
 - If your organization has configured Directory Synchronization (DirSync), then all accounts of users who are planned for hybrid voice must be created in your on-premises deployment first, and then synchronized to the cloud.
 
-- You can keep your current PSTN carrier if required.
+- You can keep your current PSTN carrier if necessary.
 
 - If you want to provide dial-in conferencing to users hosted on Cloud Connector, you can purchase PSTN conferencing license or pay as you go Audio Conferencing offer from Microsoft.
 
@@ -76,7 +76,7 @@ Consider the following when planning your Cloud Connector Edition deployment:
 
 - Cloud Connector is available in all countries where Office 365 Enterprise E5 is available.
 
-This topic contains the following sections:
+This article contains the following sections:
 
 - [Cloud Connector Edition components](plan-skype-for-business-cloud-connector-edition.md#BKMK_Components)
 
@@ -115,7 +115,7 @@ Cloud Connector components provide the following functionality:
 
 - **Outbound Routing** - Provides load balancing of the voice traffic between gateways or SBCs connected to a Cloud Connector appliance. Calls will be split evenly between all gateways or SBCs connected to the Cloud Connector appliance.
 
-    Provides routing to gateways based on policies. Only global policies which are based on destination (outbound) PSTN numbers are supported.
+    Provides routing to gateways based on policies. Only global policies that are based on destination (outbound) PSTN numbers are supported.
 
 - **Central Management Store (CMS) role** - Includes the configuration store for the topology components, including CMS File Transfer.
 
@@ -127,7 +127,7 @@ Cloud Connector components provide the following functionality:
 
   - Active Directory Certificate Services to issue internal certificates
 
-- **Mediation component** - Implements SIP and Media gateway mapping protocol between Skype for Business and PSTN gateways. Includes a CMS replica that synchronizes configuration from the global CMS database.
+- **Mediation component** - Implements SIP and Media gateway-mapping protocol between Skype for Business and PSTN gateways. Includes a CMS replica that synchronizes configuration from the global CMS database.
 
 ## Cloud Connector Edition topologies
 <a name="BKMK_Topologies"> </a>
@@ -152,7 +152,7 @@ You can deploy the following Cloud Connector topologies:
 
 When planning your topology, consider the following:
 
-- With Cloud Connector 2.0 and later, one PSTN site can have up to 16 Cloud Connector appliances. Previous versions support up to 4 appliances per site.
+- With Cloud Connector 2.0 and later, one PSTN site can have up to 16 Cloud Connector appliances. Previous versions support up to four appliances per site.
 
 - There are two types of hardware configurations tested with Cloud Connector:
 
@@ -224,7 +224,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - 64 gigabytes (GB) ECC RAM
 
-  - Four 600 GB (or better) 10K RPM 128M Cache SAS 6Gbps disks, configured in a RAID 5 configuration
+  - Four 600 GB (or better) 10K RPM 128M Cache SAS 6 Gbps disks, configured in a RAID 5 configuration
 
   - Three 1 Gbps RJ45 high throughput network adapters
 
@@ -234,7 +234,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - 32 GB DDR3-1600 non ECC
 
-  - 2: 1TB 7200RPM SATA III (6 Gbps) in RAID 0
+  - 2: 1 TB 7200RPM SATA III (6 Gbps) in RAID 0
 
   - 2: 1 Gbps Ethernet (RJ45)
 
@@ -244,7 +244,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - Specify proxy settings per machine rather than per user. Otherwise Cloud Connector downloads will fail. You can specify proxy settings per machine with a registry change or with the Group Policy setting as follows:
 
-  - **Registry:** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword:00000000
+  - **Registry:** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword: 00000000
 
   - **Group Policy:** Computer\>Administrative Templates\>Windows Components\> Internet Explorer: Make Proxy settings per machine (rather than per user)
 
@@ -315,7 +315,7 @@ When defining media port ranges, be aware of the following:
 
 - Clients always use port range 50000 to 50019 for media traffic—this range is predefined in Skype for Business Online and cannot be changed.
 
-- The Mediation component, by default, will use port range 49 152 to 57 500 for media traffic. However, connection is established via internal firewall, and, for security reasons, you can limit this port range in your topology. You will need up to 4 ports per call. If you want to limit the number of ports between the Mediation component and the PSTN gateway, then you will also need to configure the corresponding port range on the gateway.
+- The Mediation component, by default, will use port range 49 152 to 57 500 for media traffic. However, connection is established via internal firewall, and, for security reasons, you can limit this port range in your topology. You will need up to four ports per call. If you want to limit the number of ports between the Mediation component and the PSTN gateway, then you will also need to configure the corresponding port range on the gateway.
 
 - You must deploy Cloud Connector in a perimeter network. This means you will have two firewalls:
 
@@ -356,7 +356,7 @@ This table shows the ports and port ranges for enabling communication between cl
 
 \*\*\* Note that you can also limit the port range on your SBC/Gateway if allowed by the SBC/Gateway manufacturer.
 
-For security purposes, you can limit the port range for the Mediation component by using the [Set-CsMediationServer](/powershell/module/skype/set-csmediationserver?view=skype-ps) cmdlet.
+For security purposes, you can limit the port range for the Mediation component by using the [Set-CsMediationServer](/powershell/module/skype/set-csmediationserver?) cmdlet.
 
 For example, the following command limits the number of ports that the Mediation component will use for media traffic to 50 000 - 51 000 for audio (in and out). The Mediation component will be able to handle 250 simultaneous calls with this configuration. Note that you also might want to limit this range on the SBC/PSTN gateway:
 
@@ -364,7 +364,7 @@ For example, the following command limits the number of ports that the Mediation
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
-To retrieve the name of the Mediation component and see default ports, you can use the [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps) cmdlet as follows:
+To retrieve the name of the Mediation component and see default ports, you can use the [Get-CsService](/powershell/module/skype/get-csservice?) cmdlet as follows:
 
 ```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
@@ -392,7 +392,7 @@ In this case, all media traffic to the internet will flow via the Online Edge as
 
 The next table shows ports and port ranges for enabling communication between the Cloud Connector Edge component to the external firewall. This table shows the recommended solution.
 
-In this case all media traffic for the end point in the internet can flow directly to the Cloud Connector Edge component. The media path will be User End Point -\> Cloud Connector Edge.
+In this case, all media traffic for the end point in the internet can flow directly to the Cloud Connector Edge component. The media path will be User End Point -\> Cloud Connector Edge.
 
 > [!NOTE]
 > This solution will not work if the user end point is behind a symmetric NAT.
@@ -421,9 +421,9 @@ The host machine must be able to reach external resources to successfully instal
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Outbound  <br/> |Cloud Connector host IPs  <br/> |any  <br/> |any  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Outbound  <br/> |Cloud Connector host IPs  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |Certificate Revocation List (CRL)  <br/> |
-|Outbound  <br/> |Cloud Connectorr host IPs  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |Cloud Connector update  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |
+|Outbound  <br/> |Cloud Connector host IPs  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |Cloud Connector update  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |
 
-If more restrictive rules are required, refer to following whitelisting URLs:
+If more restrictive rules are required, refer to following allowlist URLs:
 
 - [Certificate Revocation List URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
@@ -485,7 +485,7 @@ When configuring gateway information, remember the following:
 |State  <br/> |State (Optional).  <br/> Name in .ini file: "State"  <br/> ||
 |Base VM IP address  <br/> |The IP address of the temporary base VM that will be used to create the VHDX for all Cloud Connector virtual machines. This IP must be in the same perimeter corporate network subnet defined in the next step and requires Internet access. Be sure to define the corporate default gateway and the DNS that is routable to the internet.  <br/> Name in .ini file: "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> Release 1.4.1 and later  <br/> |The address of the Windows Server Update Services (WSUS)—an intranet server to host updates from Microsoft Update.  <br/> You can leave blank if WSUS is not needed.  <br/> ||
-|Subnet mask for internal network  <br/> |Cloud Connector configures an IP network for internal communication between Cloud Connector components. Edge also must be connected to another subnet which allows Internet connectivity.  <br/> Name in .ini file: "CorpnetIPPrefixLength" under "Parameters for a pool of VM network"  <br/> ||
+|Subnet mask for internal network  <br/> |Cloud Connector configures an IP network for internal communication between Cloud Connector components. Edge also must be connected to another subnet that allows Internet connectivity.  <br/> Name in .ini file: "CorpnetIPPrefixLength" under "Parameters for a pool of VM network"  <br/> ||
 |Subnet mask for external network  <br/> |For the external network of the Edge component.  <br/> Name in .ini file: "InternetIPPrefix" under "Parameters for a pool of VM network"  <br/> ||
 |Switch name for internal network  <br/> |Name for switch that will be used for the internal Cloud Connector network.  <br/> In most cases the default suggested value can be used.  <br/> Name in .ini file: "CorpnetSwitchName" under "Parameters for a pool of VM network  <br/> ||
 |Switch name for external network  <br/> |Name for switch that will be used for the external Cloud Connector network.  <br/> In most cases the default suggested value can be used.  <br/> Name in .ini file: "InternetSwitchName" under "Parameters for a pool of VM network  <br/> ||
@@ -505,18 +505,18 @@ When configuring gateway information, remember the following:
 |Edge Server internal name  <br/> |Component Name of Edge component. Enter Netbios name only. The AD Domain name will be used to generate the FQDN.  <br/> Name in .ini file: "InternalServerName" under "Parameters for a pool of Edge Servers"  <br/> |Must be 15 characters or less. Enter Netbios name only.  <br/> |
 |Edge server internal IP  <br/> |Internal perimeter network IP of Edge component to communicate with other components of Cloud Connector.  <br/> Name in .ini file: "InternalServerIPs" under "Parameters for a pool of Edge Servers"  <br/> ||
 |Access Pool External Name  <br/> |Name of Access Edge; for example, AP. This name must match the name provided for the SSL certificate. Enter Netbios name only. The SIP Domain name will be used to generate the FQDN. One external pool name will be used for all Edge components in the pool. One Edge Access pool is required per PSTN site.  <br/> Name in .ini file: "ExternalSIPPoolName" under "Parameters for a pool of Edge Servers"  <br/> |Must be 15 characters or less. Enter Netbios name only.  <br/> "sip" is reserved and therefore cannot be used as the name.  <br/> The generated FQDN name must match the name provided for the SSL certificate.  <br/> |
-|External IP of Access Edge  <br/> |External IP of Edge component - either Public IP if no NAT is available, or translated IP (please specify both addresses if mapped).  <br/> Name in .ini file: "ExternalSIPIPs" under "Parameters for a pool of Edge Servers"  <br/> ||
+|External IP of Access Edge  <br/> |External IP of Edge component - either Public IP if no NAT is available, or translated IP (specify both addresses if mapped).  <br/> Name in .ini file: "ExternalSIPIPs" under "Parameters for a pool of Edge Servers"  <br/> ||
 |Media Relay name  <br/> |Name of Audio Video Media Relay Edge; for example, MR. One external pool name will be used for all Edge components in a pool. One Edge Media Relay pool is required per PSTN site.  <br/> Name in .ini file: "ExternalMRFQDNPoolName" under "Parameters for a pool of Edge Servers"  <br/> |Must be 15 characters or less. Enter Netbios name only.  <br/> |
-|External IP of Media Relay Edge  <br/> |Currently only one IP is supported, so this will be the same IP as Access Edge, either public or mapped IP (please specify both addresses if mapped). Can be the same address as Edge component External IP of Access Edge. Note if Edge is behind NAT, you also need to specify the value for the next parameter.  <br/> Name in .ini file: "ExternalMRIPs" under "Parameters for a pool of Edge Servers"  <br/> ||
-|External IP of Media Relay Edge (if Edge is behind NAT)  <br/> |If your Edge is behind NAT you also need to specify the public address of the NAT device.  <br/> Name in .ini file: "ExternalMRPublicIPs" under "Parameters for a pool of Edge Servers"  <br/> ||
+|External IP of Media Relay Edge  <br/> |Currently only one IP is supported, so this will be the same IP as Access Edge, either public or mapped IP (specify both addresses if mapped). Can be the same address as Edge component External IP of Access Edge. Note if Edge is behind NAT, you also need to specify the value for the next parameter.  <br/> Name in .ini file: "ExternalMRIPs" under "Parameters for a pool of Edge Servers"  <br/> ||
+|External IP of Media Relay Edge (if Edge is behind NAT)  <br/> |If your Edge is behind NAT, you also need to specify the public address of the NAT device.  <br/> Name in .ini file: "ExternalMRPublicIPs" under "Parameters for a pool of Edge Servers"  <br/> ||
 |Voice Gateway 1 Make and Model  <br/> |Specify the make and model of the SBC/Voice gateway. Note that you can connect a device or SIP trunk from the list of tested devices at [https://technet.Microsoft.com/UCOIP](../../../SfbPartnerCertification/certification/overview.md).  <br/> ||
 |Voice Gateway 2 Make and Model (copy this row if you have more than 2 gateways)  <br/> |Specify the make and model of Voice gateway. Note that you can connect a device from the list of tested devices at [https://technet.Microsoft.com/UCOIP](../../../SfbPartnerCertification/certification/overview.md).  <br/> ||
-|Voice Gateway 1 Name  <br/> |Used to generate the machine FQDN with AD Domain. Required if TLS will be used between the Mediation component and Voice Gateway. If you do not plan to use FQDN—for example, TLS is not required or Voice Gateway doesn't support connection using FQDN (only IP)—please specify.  <br/> ||
-|Voice Gateway 2 Name (copy this row if you have more than 2 gateways)  <br/> |Used to generate the machine FQDN with AD Domain. Required if TLS will be used between Mediation component and Voice Gateway. If you do not plan to use FQDN—for example, TLS is not required or Voice Gateway doesn't support connection using FQDN (only IP)—please specify.  <br/> ||
+|Voice Gateway 1 Name  <br/> |Used to generate the machine FQDN with AD Domain. Required if TLS will be used between the Mediation component and Voice Gateway. If you do not plan to use FQDN—for example, TLS is not required or Voice Gateway doesn't support connection using FQDN (only IP) — specify.  <br/> ||
+|Voice Gateway 2 Name (copy this row if you have more than 2 gateways)  <br/> |Used to generate the machine FQDN with AD Domain. Required if TLS will be used between Mediation component and Voice Gateway. If you do not plan to use FQDN—for example, TLS is not required or Voice Gateway doesn't support connection using FQDN (only IP) — specify.  <br/> ||
 |Voice Gateway 1 IP Address  <br/> |IP Address of Voice Gateway.  <br/> ||
 |Voice Gateway 2 IP Address (copy this row if you have more than 2 gateways)  <br/> |IP Address of Voice Gateway.  <br/> ||
-|Voice Gateway 1 Port # (copy this row if you have more than 2 gateways)  <br/> |Port that the Voice Gateway SIP trunk will listen on, e.g. 5060.  <br/> ||
-|Voice Gateway 2 Port #  <br/> |Port that the Voice Gateway SIP trunk will listen on, e.g. 5060.  <br/> ||
+|Voice Gateway 1 Port # (copy this row if you have more than 2 gateways)  <br/> |Port that the Voice Gateway SIP trunk will listen on, for example, 5060.  <br/> ||
+|Voice Gateway 2 Port #  <br/> |Port that the Voice Gateway SIP trunk will listen on, for example, 5060.  <br/> ||
 |Voice Gateway 1 Protocol for SIP Traffic  <br/> |TCP or TLS.  <br/> ||
 |Voice Gateway 2 Protocol for SIP Traffic (copy this row if you have more than 2 gateways)  <br/> |TCP or TLS.  <br/> ||
 |External Media port range for traffic to and from Edge component  <br/> |TCP/UDP port range for media traffic to and from external interface of edge. Must always start from 50 000. Refer to "Ports and Protocols" for more information.  <br/> |50000 - 59 999  <br/> |
@@ -529,10 +529,10 @@ When configuring gateway information, remember the following:
 |CABackupFile  <br/> Version 2.0 and later  <br/> |Used for saving the Certification Authority Service from the Active Directory server to a file when deploying multiple appliances in a Cloud Connector site. Be sure to use the same password for all appliances within one Cloud Connector site in order to import the CA backup file to new added appliance successfully.  <br/> ||
 |CCEService  <br/> Version 2.0 and later  <br/> |Used for the Cloud Connector Management service; needs access to the Cloud Connector site directory. Be sure to use the same password for all appliances within one Cloud Connector site.  <br/> ||
 |Microsoft 365 or Office 365 Tenant Admin  <br/> | The account is used by Cloud Connector to update and manage tenant settings for Cloud Connector: <br/>  Version 2.0 and later: Credentials for a dedicated Microsoft 365 or Office 365 account with Skype for Business Administrator rights. <br/>  Versions previous to 2.0: Credentials for a dedicated Microsoft 365 or Office 365 account with Global Tenant Administrator rights. <br/> ||
-|Enable REFER support  <br/> |This will define whether SIP REFER support is enabled or disabled on the Trunk Configuration to your IP/PBX. The default value is True. If your IP/PBX Gateway supports REFER support, please leave this as True. If it does not, this value needs to be changed to False. If you are not sure if your gateway supports REFER, please see [Qualified IP-PBXs and Gateways](../../../SfbPartnerCertification/certification/infra-gateways.md).   <br/> ||
+|Enable REFER support  <br/> |This will define whether SIP REFER support is enabled or disabled on the Trunk Configuration to your IP/PBX. The default value is True. If your IP/PBX Gateway supports REFER support, leave this as True. If it does not, this value needs to be changed to False. If you are not sure if your gateway supports REFER,  see [Qualified IP-PBXs and Gateways](../../../SfbPartnerCertification/certification/infra-gateways.md).   <br/> ||
 |EnableFastFailoverTimer  <br/> Version 2.0 and later  <br/> |With the default value "True", if outbound calls are not answered by the gateway within 10 seconds they will be routed to the next available gateway; if there are no additional trunks then the call will be dropped automatically.  <br/> However, in an organization with slow networks and gateway responses, or when the process of establishing calls takes more than 10 seconds, this could potentially result in calls being dropped unnecessarily.  <br/> When placing calls to some countries, for example the UAE or Afghanistan, call establishing process can take more than 10 seconds. You will need to change the value to False if you encounter similar issues. Do not forget to change the corresponding setting on the connected SBC or Gateway.  <br/> The value can be True or False. The default value is True.  <br/> ||
-|ForwardCallHistory  <br/> Version 2.0 and later  <br/> | This parameter is used to turn on SIP headers that are used to report the initial caller in Simultaneous Ringing, Call Forwarding, and Call Transfer scenarios. Setting the parameter to True will turn on two SIP headers: <br/>  History-Info <br/>  Referred-By <br/>  The History-Info header is used for re-targeting SIP requests and "provide(s) a standard mechanism for capturing the request history information to enable a wide variety of services for networks and end-users" ([RFC 4244 - Section 1.1](http://www.ietf.org/rfc/rfc4244.txt)). For the Cloud Connector trunk interfaces, this is used in Simulring and Call Forwarding scenarios.  <br/>  The value can be True or False. The default value is False. <br/> ||
-|Forward PAI  <br/> Version 2.0 and later  <br/> |PAI is a private extension to SIP that enables SIP servers to assert the identity of authenticated users. For the SIP trunk provider, PAI may be used for bill-to purposes in the event that History-Info and Referred-By headers are not present. When Forward P-Asserted-Identity is enabled in the configuration, the Mediation Server will forward PAI headers with SIP &amp; Tel URI's from Cloud Connector onto the SIP Trunk. The Mediation Server will forward PAI headers with tel URI's &amp; E.164 numbers ONLY received on the SIP trunk to Cloud Connector. The Mediation Server will also forward any Privacy headers received in either direction. If the SIP Request sent by the Mediation Server includes a Privacy header of the form - "Privacy: id" in conjunction with the PAI header, then the asserted identity should be kept private outside of the network trust domain.  <br/> The value can be True or False. The default value is False.  <br/> ||
+|ForwardCallHistory  <br/> Version 2.0 and later  <br/> | This parameter is used to turn on SIP headers that are used to report the initial caller in Simultaneous Ringing, Call Forwarding, and Call Transfer scenarios. Setting the parameter to True will turn on two SIP headers: <br/>  History-Info <br/>  Referred-By <br/>  The History-Info header is used for retargeting SIP requests and "provide(s) a standard mechanism for capturing the request history information to enable a wide variety of services for networks and end-users" ([RFC 4244 - Section 1.1](http://www.ietf.org/rfc/rfc4244.txt)). For the Cloud Connector trunk interfaces, this is used in simultaneous ring and Call Forwarding scenarios.  <br/>  The value can be True or False. The default value is False. <br/> ||
+|Forward PAI  <br/> Version 2.0 and later  <br/> |PAI is a private extension to SIP that enables SIP servers to assert the identity of authenticated users. For the SIP trunk provider, PAI may be used for bill-to purposes if History-Info and Referred-By headers are not present. When Forward P-Asserted-Identity is enabled in the configuration, the Mediation Server will forward PAI headers with SIP &amp; Tel URI's from Cloud Connector onto the SIP Trunk. The Mediation Server will forward PAI headers with tel URI's &amp; E.164 numbers ONLY received on the SIP trunk to Cloud Connector. The Mediation Server will also forward any Privacy headers received in either direction. If the SIP Request sent by the Mediation Server includes a Privacy header of the form - "Privacy: id" in conjunction with the PAI header, then the asserted identity should be kept private outside of the network trust domain.  <br/> The value can be True or False. The default value is False.  <br/> ||
 
 ### Certificate requirements
 <a name="BKMK_Certs"> </a>
@@ -706,7 +706,7 @@ Cloud Connector 2.1 and later supports monitoring Cloud Connector using Operatio
 
 For more information, see the following:
 
-- [Microsoft telephony solutions](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Microsoft telephony solutions](/microsoftteams/cloud-voice-landing-page)
 
 - [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 
