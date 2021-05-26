@@ -62,8 +62,10 @@ External users can't install, update, or delete apps into any context, such as a
 
 ### Usage behavior and policy for external users
 
-- External users can't use any Teams apps, and when an external user is added to a context with native users, all users – native and external – can no longer use apps.
-- External users aren't impacted by app policies, because they can't use Teams apps.
+- People from other organizations adhere to the hosting organization's default user permission policy and org-wide settings.
+- Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations cannot add apps in meeting chats but can interact with bots and tabs once added to the chat.
+- After a bot is installed in a chat, it can proactively communicate with people from other organizations in that chat and those people can communicate with bot.
+- The data policies of the hosting organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
 ## Anonymous users
 
