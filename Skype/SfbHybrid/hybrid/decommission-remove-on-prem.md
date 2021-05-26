@@ -114,7 +114,7 @@ After completing all the preliminary steps, you can remove the Skype for Busines
    ``` 
 
    > [!NOTE]
-   > If you are using Method 1 for managing user attributes, as described [here](cloud-consolidation-disabling-hybrid#method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory), do not continue with following steps.
+   > If you are using Method 1 for managing user attributes, as described [here](cloud-consolidation-disabling-hybrid#method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory), do not continue with the following steps.
    
 5. Undo Skype for Business Server Active Directory Domain forest-level changes by running the following Skype for Business Server PowerShell cmdlet:
 
@@ -136,7 +136,6 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
 - [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
-
 
 
 
