@@ -48,7 +48,7 @@ With Operator Connect, if your existing operator is a participant in the Microso
 
  Operator Connect might be the right solution for your organization if:
 
-- Microsoft Calling Plan is not available in your geographic location.
+- Microsoft Calling Plan isn't available in your geographic location.
 - Your preferred operator is a participant in the Microsoft Operator Connect program.
 - You want to find a new operator to enable calling in Teams.
 

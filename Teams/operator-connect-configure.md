@@ -48,7 +48,7 @@ To enable an operator:
 
 ## Set up phone numbers
 
-How you set up phone numbers depends on whether you are setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans or Direct Routing.
+How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans or Direct Routing.
 
 - If you need to acquire phone numbers for new users, see [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).
 
@@ -63,9 +63,9 @@ How you set up phone numbers depends on whether you are setting up numbers for n
 
 To acquire numbers for new Teams users, follow these steps:
 
-1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using Powershell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. **Make sure you're in TeamsOnly mode.** To check this, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. The coexistence mode should be set to Teams only.
+2. **Make sure you're in TeamsOnly mode.** To check, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. The coexistence mode should be set to Teams only.
 
 3. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
 
@@ -111,7 +111,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 Whether you're adding new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
 
-To assign numbers by using the Teams admin center, go to **Phone numbers**. The steps are the same as assigning numbers for Calling Plans. See [Assign a phone number to a user](assign-change-or-remove-a-phone-number-for-a-user.md) for more information.
+To assign numbers by using the Teams admin center, go to **Phone numbers**. The steps are the same as assigning numbers for Calling Plans. For more information, see [Assign a phone number to a user](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 To assign numbers by using PowerShell, use the Set-CsOnlineVoiceUser cmdlet as follows:
 
