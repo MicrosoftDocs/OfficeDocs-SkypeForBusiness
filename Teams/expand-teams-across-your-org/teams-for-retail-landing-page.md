@@ -30,19 +30,6 @@ These scenarios are also part of the Microsoft Cloud for Retail. Learn more abou
 
 For all of these capabilities, users must have an appropriate license. Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, Business Premium, A3, A5, E3, and E5 are supported. You can also use Microsoft 365 Frontline Worker F1 and F3 or Office 365 F3. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md). See [Retail user types and licensing](#retail-user-types-and-licensing) for more about using Microsoft 365 Frontline Worker in combination with other licenses.
 
-You can use the following tools to manage Teams for your organization:
-
-:::image type="content" source="../media/retail-manage-teams.png" alt-text="Tools to manage Teams for your retail organization":::
-
-| Tool | Description |
-| -------- | -------- |
-| [Teams apps for retail](#teams-apps-for-retail) | Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. |
-| [Teams templates for retail](#teams-templates-for-retail)| Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within an individual store, with a region, or between headquarters and your staff wherever they are.|
-| [Teams policy packages for frontline workers](#teams-policy-packages-for-frontline-workers)| Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality. |
-| [Scripted deployment](#scripted-deployment-for-frontline-workers)| Quickly provision users and teams and assign all relevant policies with a scripted deployment. |
-
-This article explains more about these tools and what you need to know about Teams for Retail.
-
 ## Retail user types and licensing
 
 In retail environments, you most likely have a mix of user types in your organization:
@@ -72,7 +59,22 @@ Additional capabilities for retail environments are available with the Microsoft
 
 Of course, for simplicity, or if your workers all need access to the full capabilities of Microsoft 365, you can use the same Enterprise license for all of your worker types, and still target capabilities to different user roles using Teams policy packages, such as the Frontline Worker [policy package](../manage-policy-packages.md).
 
-## Teams apps for retail
+## Manage Teams for Retail
+
+You can use the following tools to manage Teams for your organization:
+
+:::image type="content" source="../media/retail-manage-teams.png" alt-text="Tools to manage Teams for your retail organization":::
+
+| Tool | Description |
+| -------- | -------- |
+| [Teams apps for retail](#teams-apps-for-retail) | Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. |
+| [Teams templates for retail](#teams-templates-for-retail)| Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within an individual store, with a region, or between headquarters and your staff wherever they are.|
+| [Teams policy packages for frontline workers](#teams-policy-packages-for-frontline-workers)| Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality. |
+| [Scripted deployment](#scripted-deployment-for-frontline-workers)| Quickly provision users and teams and assign all relevant policies with a scripted deployment. |
+
+This article explains more about these tools and what you need to know about Teams for Retail.
+
+### Teams apps for retail
 
 - Shifts
 - Time clock
@@ -90,16 +92,16 @@ Of course, for simplicity, or if your workers all need access to the full capabi
 - Power Apps integrations
 - Document storage & collaboration
 
-## Teams policy packages for Frontline Workers
+### Teams policy packages for Frontline Workers
 
-## Teams templates for Retail
+### Teams templates for Retail
 
-## Provisioning users
+### Provisioning users
 
 - Scripted deployment for frontline workers
 - Delegated user management (new)
 
-## Provisioning users from a workforce management or HR system (cloud feature)
+### Provisioning users from a workforce management or HR system (cloud feature)
 
 
 ## Devices for retail
