@@ -168,3 +168,4 @@ No, the permission consent screen will still show the original value sent by the
 
 - [Manage apps](manage-apps.md)
 - [Customize your app store](customize-your-app-store.md)
+- [Rebrand your apps](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
