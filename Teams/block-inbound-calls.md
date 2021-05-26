@@ -31,7 +31,7 @@ Admin controls for blocking numbers are provided using PowerShell only. Number b
 
 ## Call blocking PowerShell commands
 
-You manage number patterns by using the **New**, **Get**, **Set**, **Remove** -**CsInboundBlockedNumberPattern** cmdlets. You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern.
+You manage number patterns by using the **New-**, **Get-**, **Set-**, and **Remove-CsInboundBlockedNumberPattern** cmdlets. You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern.
 
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern)
 returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern for each.
@@ -129,7 +129,7 @@ Get-CsInboundExemptNumberPattern
 
 #### Modify a number exception
 
-The **Set-CsInboundExemptNumberPattern** cmdlet lets you modify one or more parameters for a given number pattern identity. In this example, the **Identity** parameter is mandatory.
+The **Set-CsInboundExemptNumberPattern** cmdlet lets you modify one or more parameters for a given number pattern identity. In this example, the **Identity** parameter is required.
  
 ```powershell
 Set-CsInboundExemptNumberPattern -Identity <String> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -153,7 +153,7 @@ Remove-CsInboundExemptNumberPattern -Identity <String>
 Remove-CsInboundExemptNumberPattern -Identity "AllowContoso1"
 ```
 
-### Test whether a number is blocked
+## Test whether a number is blocked
 
 Use the **Test-CsInboundBlockedNumberPattern** cmdlet to verify whether a number is blocked in the tenant.
  
@@ -163,7 +163,7 @@ The **PhoneNumber** parameter is required, and should be a numeric string withou
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
 ```
 
-Examples:
+### Examples
 
 In these examples you can see that the phone number 1 (312) 555-8884 is blocked as it should be due to it being in the blocked range above, while the phone number 1 (312) 555-8883 is allowed to call as it should be based on the exemption created above.
 
