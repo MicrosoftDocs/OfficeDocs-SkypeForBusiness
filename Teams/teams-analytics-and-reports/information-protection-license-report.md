@@ -23,8 +23,6 @@ ms.custom: seo-marvel-apr2020
 
 The Teams information protection license report gives insight into apps that have [subscribed](/graph/api/resources/subscription?view=graph-rest-1.0) to [change notification](/graph/api/resources/webhooks?view=graph-rest-1.0) events to listen to created, updated, or deleted messages at tenant level (that is, /teams/getAllMessage or /chats/getAllMessages). A change notification corresponding to the message is sent successfully only when the user has the [required license](/graph/teams-licenses).  You can see how many change notifications was triggered by a given user.
 
-   > [!NOTE]
-   > This report is currently available in private preview only.
 
 ## View the information protection license report
 
@@ -42,7 +40,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 |--------|-------------|
 |**1**   |The information protection license report can be viewed for trends over the last 7 days, 30, or 90 days. |
 |**2**   |App name will display a list of all apps that have subscribed to change notification events of messages in the last n days as selected in the date range. |
-|**3**   |The table gives you a breakdown of usage per user for the selected app.<ul><li>**Display name** is the display name of the user. Select the display name to go to the user's details page in the Microsoft Teams admin center.</li><li>**Has Required License** is yes if the user has one of the required licenses as defined here. If the user does not have the required license, the _Assign license_ link is displayed which navigated to the user's license detail page in the Microsoft admin center (**Users** > **Active Users** > select username).</li><li>**License Protected Events** is the number of unique change notification events sent to the app against a message which was created by that user.</li></ul> |
+|**3**   |The table gives you a breakdown of usage per user for the selected app.<ul><li>**Display name** is the display name of the user. Select the display name to go to the user's details page in the Microsoft Teams admin center.</li><li>**Has Required License** is yes if the user has one of the required licenses as defined (here)[https://docs.microsoft.com/en-us/graph/teams-licenses]. If the user does not have the required license, the _Assign license_ link is displayed which navigated to the user's license detail page in the Microsoft admin center (**Users** > **Active Users** > select username).</li><li>**License Protected Events** is the number of unique change notification events sent to the app against a message which was created, updated or deleted by that user.</li></ul> |
 |**4**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab. Select **Download** to download the report when it's ready. |
 |**5**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab. Select **Download** to download the report when it's ready. When you view the report in Excel, you'll also see an **Id** and **email** column, which represents the User ID and email address of the user. |
 
