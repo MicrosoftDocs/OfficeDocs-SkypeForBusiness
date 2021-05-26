@@ -21,6 +21,12 @@ appliesto:
 
 # Set up Microsoft 365 Business Voice
 
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
+
+</br>
+
 Business Voice is a complete phone system that can replace your existing telephony provider. Whether you're a new business setting up phone numbers for the first time, or an established business moving from a legacy on-premises telephony provider, the steps in these articles can help you get up and running with Business Voice. When you're finished setting up Business Voice:
 
 * You'll be able to receive toll or toll-free phone calls on a main company phone line. You can even set up a call menu if you want.
