@@ -35,7 +35,7 @@ This article describes how to remove your on-premises Skype for Business deploym
 
 > [!IMPORTANT] 
 > The exact steps in this article apply only if you are using Method 2 for managing user attributes, as described [here](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). 
-If you are using Method 1, do not complete the whole procedure described in this article to remove your Skype for Business servers. Instead, you can follow this procedure without running steps 5 & 6 from Remove your on-premises Skype for Business deployment section (without undoing Forest-level and Domain-level changes). 
+If you are using Method 1, do not complete the whole procedure described in this article to remove your Skype for Business servers. Instead, you can follow this procedure without running steps 5 and 6 from the _Remove your on-premises Skype for Business deployment_ section (without undoing Forest-level and Domain-level changes). 
 
 To complete the steps in this article, you need privileges for both the Schema Admins group and the Enterprise Admin group. You will need these privileges to undo the Skype for Business Server schema and forest-level changes to Active Directory Domain Services. You will also need to be a member of the RTCUniversalServerAdmins group.
 
@@ -136,7 +136,6 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
 - [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
-
 
 
 
