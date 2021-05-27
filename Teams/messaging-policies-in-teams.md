@@ -86,7 +86,7 @@ Here are the messaging policy settings that you can configure.
     - **Moderate**  This means that your users will be able to insert Giphys in chats, but will be moderately restricted from adult content.
     - **Strict**  This means that your users will be able to insert Giphys in chats, but will be strictly restricted from adult content.
 - **Use Memes in conversations** If you turn Memes on, users can include Memes in chat conversations with other people.
-- **Use Stickers in conversations. If you turn this on, users can include Stickers in chat conversations with other people.
+- **Use Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
