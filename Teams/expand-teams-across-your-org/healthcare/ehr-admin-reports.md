@@ -1,3 +1,30 @@
+---
+title: Teams for Virtual visits - Admin reports
+author: cichur
+ms.author: v-cichur
+manager: serdars
+audience: ITPro
+ms.topic: conceptual
+ms.service: msteams
+search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+f1.keywords:
+- NOCSH
+localization_priority: Normal
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
+appliesto: 
+  - Microsoft Teams
+ms.reviewer: ansantam
+description: View admin reports for Teams EHR connector visits
+---
+
 # Microsoft Teams EHR connector Admin Reports
 
 The Microsoft Teams electronic health record (EHR) connector Admin Report dialog provides a quick and easy to read view of usage data.

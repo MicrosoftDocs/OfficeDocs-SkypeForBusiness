@@ -21,7 +21,7 @@ ms.collection:
   - m365solution-scenario
 appliesto: 
   - Microsoft Teams
-ms.reviewer: 
+ms.reviewer: ansantam 
 description: Use Microsoft Teams to set up your Virtual visits system
 ---
 
