@@ -76,25 +76,31 @@ This article explains more about these tools and what you need to know about Tea
 
 ### Teams apps for retail
 
-- Shifts
-- Time clock
+You can determine which apps are available for your users by including them in a Teams template, or 
+The Retail "Organize a store" template includes the Approvals, Tasks, and Wiki apps, or you can [create a custom template](create-a-team-template.md) to include the apps your store needs:
+- Shifts (extra configuration?)/Time clock
 - Tasks
 - Approvals
-- Corporate communications (Viva Connections)
+- Corporate communications (Viva Connections) Bulletins?
 - Chat
 - Calling
 - Learning (Viva Learning)
 - Teams dashboard
 - Walkie Talkie
-- Virtual Visits
+- Virtual Visits?
 - Praise
 
 - Power Apps integrations
 - Document storage & collaboration
 
+### Teams templates for Retail
+
 ### Teams policy packages for Frontline Workers
 
-### Teams templates for Retail
+### Frontline Worker integration (section) app setup policy
+
+Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
+To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
 ### Provision users
 
@@ -102,7 +108,6 @@ This article explains more about these tools and what you need to know about Tea
 - Delegated user management (new)
 
 ### Provision users from a workforce management or HR system (cloud feature)
-
 
 ## Devices for retail
 
