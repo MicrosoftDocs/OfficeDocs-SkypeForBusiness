@@ -63,13 +63,13 @@ The following operators are participants in the Microsoft Operator Connect progr
 
 | Operator | Capability | Country coverage |
 | --- | --- | --- |
-| `BT`  | Calling | Belgium, Denmark, Finland, France, Germany, Ireland, Italy, Luxembourg, Netherlands, Norway, South Africa, Spain, Sweden, Switzerland, United Kingdom   |
-| `Intrado` | Calling | Australia, Belgium, Canada, Denmark, France, Germany, Hong Kong S.A.R., Ireland, Japan, Luxembourg, Netherlands, New Zealand, Singapore, Spain, Sweden, United Kingdom, United States  |
-| `NTT`  | Calling | Australia, Austria, Belgium, Brazil, Canada, Czechia, Denmark, Finland,  France, Germany, Hong Kong S.A.R., Ireland, Italy, Japan, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Puerto Rico, Romania, Singapore, South Africa, Spain, Sweden, Switzerland, United Kingdom, United States |
+| `BT`  | Calling | Belgium, Denmark, Finland, France, Germany, Ireland, Italy, Luxembourg, Netherlands, Norway, Poland, South Africa, Spain, Sweden, Switzerland, United Kingdom |
+| `Intrado` | Calling | Belgium, Canada, Denmark, France, Germany, Ireland, Luxembourg, Netherlands, Spain, Sweden, United Kingdom, United States  |
+| `NTT`  | Calling | Austria, Belgium, Brazil, Canada, Czechia, Denmark, Finland,  France, Germany, Ireland, Italy, Luxembourg, Mexico, Netherlands, Norway, Poland, Portugal, Puerto Rico, Romania, South Africa, Spain, Sweden, Switzerland, United Kingdom, United States |
 | `NuWave` | Calling | Austria, Belgium, Canada, Denmark, France, Germany, Ireland, Italy, Netherlands, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States   |
 | `Orange Business Services` | Calling | Austria, Belgium, Czechia, Denmark, Finland, France, French Guiana, Germany, Guadeloupe, Ireland, Italy, Luxembourg, Martinique, Mayotte, Netherlands, Norway, Poland, Portugal, Réunion, Saint Barthélemy, Saint Martin, Spain, Svalbard, Sweden, Switzerland, United Kingdom  |
 | `Pure IP` | Calling | Australia, Austria, Belgium, Brazil, Bulgaria, Canada, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Finland, France, Germany, Greece, Hong Kong S.A.R., Ireland, Italy, Japan, Lithuania, Luxembourg, Malaysia, Mexico, Netherlands, New Zealand, Norway, Panama, Poland, Portugal, Puerto Rico, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, Switzerland, United Kingdom, United States  |
-| `Rogers Business` | Calling | United States, Canada  |
+| `Rogers Business` | Calling | Canada  |
 | `TATA Communications` | Calling | Australia, Austria, Belgium, Canada, Czechia, Denmark, France, Germany, Hong Kong S.A.R., Hungary, Ireland, Italy, Malaysia, Mexico, Netherlands, New Zealand, Poland, Portugal, Romania, Singapore, South Korea, Spain, Sweden, Switzerland, Thailand, United Kingdom, United States |
 | `Telekom Deutschland` | Calling | Germany  |
 | `Telenor` | Calling | Denmark, Finland, Norway, Sweden  |
