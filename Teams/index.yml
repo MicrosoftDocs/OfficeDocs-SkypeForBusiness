@@ -90,7 +90,7 @@ tools:
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform
       imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-      url: ./deploy-apps-microsoft-teams-landing-page.md
+      url: /microsoftteams/platform/
     # Card
     - title: End user help and learning
       imageSrc: https://docs.microsoft.com/office/media/icons/help.svg

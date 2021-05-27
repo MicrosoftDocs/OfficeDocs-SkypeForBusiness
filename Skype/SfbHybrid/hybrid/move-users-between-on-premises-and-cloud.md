@@ -35,7 +35,7 @@ Prerequisites to move a user to the cloud (whether to Teams Only mode or Skype f
 
 - The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user as described in [Configure Azure AD Connect](configure-azure-ad-connect.md).
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
-- The user must be assigned a license for Teams and Skype for Business Online (Plan 2). Even after retirement of Skype for Business Online, the Skype for Business Online licese is still required.  In addition:
+- The user must be assigned a license for Teams and Skype for Business Online (Plan 2). Even after retirement of Skype for Business Online, the Skype for Business Online license is still required.  In addition:
     - If the user is enabled for dial-in conferencing in on premises, by default the user must also have an Audio Conferencing license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. If for some reason you want to move a user to the cloud, but not use audio conferencing functionality, you can override this check by specifying the `BypassAudioConferencingCheck` parameter in `Move-CsUser`.
     - If the user is enabled for Enterprise Voice in on premises, by default the user must have a Phone System license assigned in Teams before you move the user online. Once Migrated to the cloud, the user will be provisioned for Phone System in the cloud. If for some reason you want to move a user to the cloud but not use Phone System functionality, you can override this check by specifying the `BypassEnterpriseVoiceCheck`parameter in `Move-CsUser`.
 
@@ -63,10 +63,10 @@ To move users between on premises and the cloud (whether to Teams or to Skype fo
 
 To move users between on premises and the cloud, you must use an account with sufficient privileges in both the on-premises Skype for Business Server environment as well as in the Teams organization. You can either use one account that has all the necessary privileges, or you can use two accounts, in which case you would access the on-premises tools using on-premises credentials, and then in those tools you would supply additional credentials for a Teams administrative account.  
 
-- In the on-premises environment, the user performing the move must have the CSServerAdminstrator role in Skype for Business Server.
+- In the on-premises environment, the user performing the move must have the CSServerAdministrator role in Skype for Business Server.
 - In Teams, the user performing the move must meet one of the following criteria:
   - The user is a member of the Global Administrator role.
-  - The user is a member of both the Teams Administrator and User Adminstrator roles.
+  - The user is a member of both the Teams Administrator and User Administrator roles.
   - The user is a member of both the Skype for Business Administrator and User Administrator roles.  
 
     > [!Important]
