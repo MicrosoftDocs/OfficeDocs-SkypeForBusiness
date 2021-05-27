@@ -148,6 +148,7 @@ You can acquire phone numbers from the following operators by going to the websi
 |Operator  |Operator website  |
 |---------|---------|
 |`BT`     | 	https://www.globalservices.bt.com/en/aboutus/operator-connect        |
+|`Deutsche Telekom`     |   https://cloud.telekom.de/de/blog/cloud-software/microsoft-teams-operator-connect      |
 |`Intrado`     | https://insight.intrado.com/operator-connect       |
 |`NTT`     |  https://www.hello.global.ntt/operator-connect       |
 |`NuWave`     |   https://ipilot.io/microsoft-operator-connect/   |
@@ -155,6 +156,5 @@ You can acquire phone numbers from the following operators by going to the websi
 |`Pure IP`    | https://info.pure-ip.com/operator-connect        |
 |`Rogers`    | https://www.rogers.com/business/products-and-solutions/microsoft-365-business-voice        |
 |`TATA Communications`     |  https://www.tatacommunications.com/solutions/unified-communications/unified-communications-as-a-service/microsoft-teams-solutions/       |
-|`Telekom Deutschland`     |   https://cloud.telekom.de/de/blog/cloud-software/microsoft-teams-operator-connect      |
 |`Telenor`     | https://www.telenor.no/bedrift/telefoni/teams/operator-connect        |
 |`Verizon`     |  https://www.verizon.com/business/resources/lp/operator-connect       |
