@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
+description: "This content must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 
 # Accessibility Declaration of Conformance for Skype for Business Online in France
@@ -79,7 +79,7 @@ Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/stand
   
 ## Section 5: Exigences génériques
 
-|
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
 |:-----|:-----|:-----|
 |**5.1.2.2 - 5.1.6.2** <br/> |Non applicable  <br/> |Fonctionnalité fermée  <br/> |
@@ -97,7 +97,7 @@ Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/stand
 ## Section 6: TIC avec communication voix bidirectionnelle
 
 
-|
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
 |:-----|:-----|:-----|
 |**6.1 Bande passante audio pour la parole (recommandation pour information)** <br/> Dans le cas où la TIC permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et de déchiffrer la communication voix bidirectionnelle dans une bande de fréquence plafonnée à au moins 7 000 Hz.<br/> |Pris en charge  <br/> ||
@@ -133,7 +133,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 ## Section 11: Logiciel
 
 
-|
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
 |:-----|:-----|:-----|
 |**11.2.1.1 Contenu non textuel (lecture d'écran prise en charge)** <br/> Dans le cas où la TIC est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit les Critères de Succès indiqués dans le Tableau 11.1 : Contenu non textuel : <br/> Tout le contenu non textuel qui est présenté à l’utilisateur est doté d’un équivalent textuel qui a la même fonction, sauf dans les situations suivantes :<br/> Commandes, saisie : Si le contenu non textuel est une commande ou s'il permet la saisie d'informations par l’utilisateur, alors il a un nom qui décrit sa fonction.  <br/> Media limité dans le temps : Si le contenu non textuel est un media limité dans le temps, alors les équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel. <br/> Test : Si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté sous forme de texte, alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.<br/> Contenu sensoriel : Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique, alors des équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel. <br/> CAPTCHA : Si le contenu non textuel sert à confirmer que c’est une personne et non un ordinateur qui accède au contenu, alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis, et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de perception sensorielle sont fournies afin de répondre aux besoins des différents handicaps.<br/> Décoration, formatage, invisible : Si le contenu non textuel est purement décoratif, s’il n’est utilisé que pour le formatage visuel ou s’il n’est pas présenté aux utilisateurs, alors il est mis en œuvre de manière à être ignoré par la technologie d’assistance. <br/> |Pris en charge  <br/> ||
@@ -197,7 +197,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 ## Section 12 Documentation et services d'assistance
 
 
-|
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
 |:-----|:-----|:-----|
 |**12.1.1 Caractéristiques d'accessibilité et de compatibilité** <br/> La documentation produit fournie avec la TIC, qu’elle soit fournie séparément ou intégrée dans la TIC, dresse la liste des caractéristiques d’accessibilité et de compatibilité de la TIC et explique comment les utiliser. <br/> |Pris en charge  <br/> ||
