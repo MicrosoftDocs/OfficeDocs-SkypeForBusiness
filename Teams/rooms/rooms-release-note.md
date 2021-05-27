@@ -24,6 +24,9 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.8.31.0 |05/12/2021 |
+|4.8.25.0 |04/22/2021 |
+|4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
@@ -65,6 +68,32 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.8.31.0 (05/12/2021)
+
+Introduced in this update:
+- Windows 10 20H2 support 
+
+> [!NOTE]
+> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
+
+### 4.8.25.0 (04/22/2021)
+
+Introduced in this update:
+- Fix for an issue where room information on Teams Rooms consoles doesn't show up for room accounts that are hidden from the global address list (GAL)
+
+> [!NOTE]
+> GCCH customers can download the upgrade package from [Manually update a Microsoft Teams Rooms device](manual-update.md)
+
+### 4.8.19.0 (04/06/2021)
+
+Introduced in this update:
+- Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download version 4.8.19.0 from [Manually update a Microsoft Teams Rooms device](manual-update.md)
+- Join Zoom meetings with better video quality (720p support) and receive the video gallery of participants
+- Skype for Business sign-in failure banner removed for Teams default mode. This change supports organizations removing Skype for Business infrastructure
+- Teams meetings join link parsing now handles Microsoft Defender Advanced Thread Protection Safe Links to allow joining external Teams seamlessly
+- Fix for shared content scaling issue in Skype for Business meetings when the sharer's PC has a custom DPI set in Windows
+- Quality and reliability fixes
 
 ### 4.7.19.0 (02/03/2021)
 
@@ -199,7 +228,7 @@ Introduced in this update:
 - Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements
 - Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup>
 - Call quality feedback rating after Teams calls/ meetings<sup>1</sup>
-- Recieve/ render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup>
+- Receive/render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup>
 - Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client. Windows 10 Version 19H1 support will be added in future releases
 
 <sup>1</sup> Microsoft Teams service rollout using Teams rings. This feature may be available earlier or later than 4.0.105.0 client update

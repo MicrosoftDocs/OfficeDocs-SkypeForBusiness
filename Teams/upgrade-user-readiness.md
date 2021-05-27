@@ -1,7 +1,7 @@
 ---
 title: Prepare a user readiness plan for upgrading from Skype for Business to Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams

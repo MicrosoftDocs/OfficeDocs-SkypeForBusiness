@@ -94,14 +94,14 @@ Make sure the text color has enough contrast with the background so that the use
 
 When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
- ![Image of a color chooser](media/choose-a-custom-color.png)
+ ![the color chooser](media/choose-a-custom-color.png)
 
 ## Complete the customization of your team apps store
 
 When you've finished customizing your apps store, be sure to select **Save** to save your changes.
 To preview your changes, select **Preview apps store** to see a representation of your customized apps store.
 
- ![preview of the custom apps store](media/app-store1.jpg)
+![preview of the custom apps store](media/PowerAppsInStore650w.png)
 
 > [!Note]
 > The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.

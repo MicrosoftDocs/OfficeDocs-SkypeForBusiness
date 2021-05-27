@@ -23,6 +23,8 @@ description: "Learn to save time, support calls and increase satisfaction by set
 
 # Test your Skype for Business Online installation
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Save time, reduce support calls, and increase user satisfaction by testing your Skype for Business Online installation before you set it up for everyone in your organization.
 
 Here's what you need:

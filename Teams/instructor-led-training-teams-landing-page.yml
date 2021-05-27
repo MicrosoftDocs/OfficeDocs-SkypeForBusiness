@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
-title: Instructor-led training for Microsoft Teams # < 60 chars
-summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end-user training. Click a session below to sign up.
+title: End-user training for Microsoft Teams # < 60 chars
+summary: Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Microsoft Teams in action, get your questions answered, and interact with our live instructors. To view our training classes on your own time, visit our on-demand end user training. Click a session below to sign up.
 # brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-bi | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
 brand: teams
 
 metadata:
-  title: Instructor-led training for Microsoft Teams # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn about how to sign up for free, live, instructor-led training classes to learn all about Microsoft Teams. # Required; article description that is displayed in search results. < 160 chars.
+  title: End-user training for Microsoft Teams # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Microsoft is excited to provide free, live, virtual training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Microsoft Teams in action, get your questions answered, and interact with our live instructors. Click a session below to sign up and be sure to check out more courses farther below. # Required; article description that is displayed in search results. < 160 chars.
   ms.topic: hub-page # Required
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
   ms.author: serdars #Required; microsoft alias of author; optional team alias.
@@ -25,12 +25,12 @@ highlightedContent:
     # Card
     - title: On-demand end-user training
       itemType: video
-      url: https://aka.ms/TeamsOnDemand
+      url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
     # Card
     - title: Microsoft 365 Adoption Tools
       itemType: deploy
       url: https://adoption.microsoft.com
-
+    
 # productDirectory section (optional)
 productDirectory:
   items:
@@ -60,7 +60,7 @@ productDirectory:
       summary: 'Explore ways to determine the best approach for creating workspaces for projects and workgroups. (Audience: Everyone)'
       url: https://aka.ms/CollaborateInTeams
     # Card
-    - title: Leverage pro tips in Teams
+    - title: Use pro tips in Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
       summary: 'Learn how Teams can help organize your workday and make it easier to stay connected with colleagues. (Audience: Everyone)'
       url: https://aka.ms/TeamsProTips
@@ -80,3 +80,26 @@ productDirectory:
       imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
       summary: 'Plan and implement a successful upgrade to Teams. (Audience: IT professionals, adoption change managers)'
       url: ./upgrade-workshops-landing-page.yml
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 4 sections:
+  sections:
+    - title: Courses
+      items:
+        # Card
+        - title: Teamwork Specialist certification
+        # additionalContent.sections.items.title
+          summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team
+        # additionalContent.sections.items.summary
+          url: /learn/paths/teamwork-specialist
+        # additionalContent.sections.items.url
+        # Card
+        - title: Service Adoption Specialist certification
+        # additionalContent.sections.items.title
+          summary: The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your organization
+        # additionalContent.sections.items.summary
+          url: /learn/paths/m365-service-adoption
+        # additionalContent.sections.items.url
+ 

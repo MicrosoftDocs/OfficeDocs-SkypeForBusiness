@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Learn the Presence states in Teams and the administrative settings for the Presence feature.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

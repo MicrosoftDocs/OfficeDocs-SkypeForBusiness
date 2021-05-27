@@ -239,6 +239,8 @@ Examples:
 -    The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](./direct-routing-monitor-and-troubleshoot.md).
 -    The carrier can drain the carrier trunk, and all derived trunks will be drained as well. 
  
+> [!NOTE]
+> Number translation rules applied on the carrier trunk do not apply to derived trunks. This is a known issue. As an alternative solution, number translation rule must be created for each customer's tenant.
 
 **Migration from the previous model to the carrier trunk**
  

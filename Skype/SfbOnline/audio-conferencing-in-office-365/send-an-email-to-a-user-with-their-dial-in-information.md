@@ -25,6 +25,8 @@ description: "Send your users an email with their audio conferencing information
 
 # Send an email to a user with their Audio Conferencing information in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!Note]
 > For information about sending Audio Conferencing information to users in Microsoft Teams, see [Send an email to a user with their Audio Conferencing information in Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
 

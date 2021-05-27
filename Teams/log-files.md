@@ -1,10 +1,10 @@
 ---
 title: Use log files in troubleshooting Microsoft Teams
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,24 +13,27 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with troubleshooting.
+description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with monitoring and troubleshooting.
 appliesto: 
   - Microsoft Teams
 ---
 
-Use log files in troubleshooting Microsoft Teams
-=================================================
+# Use log files to monitor and troubleshoot Microsoft Teams
 
-There are three types of log files automatically produced by the client, which can be leveraged to assist in troubleshooting Microsoft Teams:
+There are three types of log files automatically produced by the client, which can be leveraged to assist in monitoring and troubleshooting Teams:
 
--   Debug logs
+-   [Debug logs](#debug-logs)
 
--   Media logs
+-   [Media logs](#media-logs)
 
--   Desktop logs
+-   [Desktop logs](#desktop-logs)
 
-Collect and enable logging
----------------------------
+This article describes these logs and how they are used. For information about troubleshooting specific issues, see: [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams). For information about how to contact support, see [Get support](/microsoft-365/business-video/get-help-support). When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **Desktop** logs are only required if requested by Microsoft.
+
+> [!NOTE]
+> In this article, the term **Debug logs** refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.  
+
+## Collect and enable logging
 
 It’s important to collect logs as soon as an issue occurs. The logs can be collected together with just a couple of clicks.
 
@@ -53,10 +56,6 @@ Media logging is turned off by default. To enable Media logging, users must turn
 > [!NOTE]
 > If Media logging is enabled, there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging is not enabled, there will be a limited number of logs available.
 
-
-> [!NOTE]
-> In this article, the term **Debug logs** refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.  
-
 The following table outlines the various clients and their associated logs. Log files are stored in locations specific to the client and operating system.
 
 
@@ -71,8 +70,7 @@ The following table outlines the various clients and their associated logs. Log 
 
 For a complete list of supported operating systems and browsers, see [Get clients for Microsoft Teams](get-clients.md).
 
-Debug logs
----------------------------
+## Debug logs
 
 See the _Collect and enable logging_ section for Windows and Mac instructions. Debug logs are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text-based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
 
@@ -92,8 +90,7 @@ To collect logs for Browser:
       Keyboard shortcut: Crtl + Alt + Shift + 1
       The files will be available in %userprofile%\Downloads
 
-Media logs
----------------------------
+## Media logs
 
 See the _Collect and enable logging_ section for Windows and Mac instructions. Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
 
@@ -114,8 +111,7 @@ Here's a list of the log files that are generated and the information they conta
 |Debug-0-s2790420889.blog    | Contains information related to the media agent, including rendering quality.          |
 |tscalling-0-2061129496.blog   |Records events in the ts-calling API.       |
 
-Desktop logs
----------------------
+## Desktop logs
 
 See the _Collect and enable logging_ section for Windows and Mac instructions. Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top-down format.
 
@@ -123,6 +119,25 @@ To collect logs for Linux:
 Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
 The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
+
+## Browser trace
+
+For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs.
+
+Before you start the browser trace, make sure that you’re signed in to Teams. It's important to do this before you start the trace so that the trace doesn't contain sensitive sign-in information.
+
+After you’re signed in, select one of the following links, as appropriate for your browser, and follow the provided steps. 
+
+-   [Chrome & Edge (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+
+-   [Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+
+-   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
+
+-   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
+
+> [!NOTE]
+> In the steps, replace all references to the Azure portal with the Teams client. 
 
 ## Related topics
 

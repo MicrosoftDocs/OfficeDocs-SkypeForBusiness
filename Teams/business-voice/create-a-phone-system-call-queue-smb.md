@@ -21,11 +21,11 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-description: Learn how to set up call queues with Microsoft 365 Business Voice.
+description: Learn how to set up call queues for small businesses in Microsoft 365 Business Voice.
 ---
 # Create a call queue - small business tutorial
 
-Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 Call queues provide:
 
@@ -36,6 +36,12 @@ Call queues provide:
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 
 - Handling options for queue overflow and timeout.
+
+#### Video demonstration
+
+This video demonstrates how to create a call queue in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### Before you begin
 
@@ -92,21 +98,21 @@ You can create a resource account in the Teams admin center.
 
 2. Click **Add**.
 
-3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**.
+3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**. Agents will see the display name when they receive an incoming call from the queue.
 
     ![Screenshot of add resource account user interface](../media/resource-account-add-cq.png)
 
 4. Click **Save**.
 
-The new account will appear in the list of accounts.
+   The new account will appear in the list of accounts.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+   ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
 ### Assign a license
 
 You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
 
-1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
+1. In the Microsoft 365 admin center, in the **Active users** list, click the resource account to which you want to assign a license.
 
 2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 
@@ -120,7 +126,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 1. In the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
-1. Type a name for the call queue. Agents will see this name when they receive an incoming call from the queue.
+1. Type a name for the call queue.
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
 
@@ -132,9 +138,9 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 5. Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
-> [!NOTE]
-> The uploaded recording can be no larger than 5 MB.
-> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
+   > [!NOTE]
+   > The uploaded recording can be no larger than 5 MB.
+   > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 > [!div class="nextstepaction"]
 > [Step 3 - Call agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
@@ -206,7 +212,7 @@ Choose how you want to handle calls that exceed the maximum in the queue.
 
 Choose what you want to happen when calls have been waiting in the queue for too long.
 
-1. Set the **Call Timeout: maximum wait time**.
+1. Set the **Maximum wait time**.
 
 2. Choose what you want to do when a call times out. You can disconnect the call or redirect it. We recommend that you redirect the call to one of the following destinations:
     - **Person in the organization** - a person in your organization who is able to receive voice calls

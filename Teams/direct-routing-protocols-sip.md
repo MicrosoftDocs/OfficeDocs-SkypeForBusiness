@@ -164,6 +164,9 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 
 -   Call accepted – converted by the SIP proxy to SIP message 200 with SDP. On receiving message 200, the SBC is expected to send and receive media to and from the provided SDP candidates.
 
+    > [!NOTE]
+    > Direct Routing does not support Delayed Offer Invite (Invite without SDP).
+
 #### Multiple endpoints ringing with provisional answer
 
 1.  On receiving the first Invite from the SBC, the SIP proxy sends the message "SIP SIP/2.0 100 Trying" and notifies all end user endpoints about the incoming call. 
@@ -346,7 +349,10 @@ See the section Failover mechanism for SIP signaling in [Plan for Direct Routing
 ## Retry-After
 
 If a Direct Routing datacenter is busy, the service can send a Retry-After message with a one-second interval to the SBC. 
-When the SBC receives a 503 message with a Retry-After header in response to an INVITE, the SBC must terminate that connection and try the next available Microsoft datacenter. 
+When the SBC receives a 503 message with a Retry-After header in response to an INVITE, the SBC must terminate that connection and try the next available Microsoft datacenter.
+
+## Handling retries (603 response)
+If an end user observes several missed calls for one call after declining the incoming call, it means that the SBC or PSTN trunk provider's retry mechanism is misconfigured. The SBC must be reconfigured to stop the retry efforts on the 603 response.
 
 ## ICE Restart: Media bypass call transferred to an endpoint that does not support media bypass
 
