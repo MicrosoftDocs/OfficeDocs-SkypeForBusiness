@@ -39,7 +39,7 @@ The process for installing a custom connector and adjusting security to enable u
 
 3. **If the connector file is a *\*.mez* file,** you will also need to adjust your security settings as described in the [custom connector setup documentation](/power-bi/desktop-connector-extensibility#data-extension-security).
 
-If a new version of the Microsoft Call Quality connector is released, simply replace the old connector file in the *Custom Connectors* directory with the new file.
+If a new version of the Microsoft Call Quality connector is released, replace the old connector file in the *Custom Connectors* directory with the new file.
 
 ## Setup
 
@@ -61,7 +61,7 @@ In order to build a report and run queries, you will first need to connect to th
 
 6. At this point, Power BI will load the data model onto the right side of the window. The page will remain otherwise blank, and no queries will be loaded by default. Proceed to **Building Queries** below in order to build a query and return data.
 
-If any of the steps during this setup process were not completely clear, a more detailed explanation of the process can be found in [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+If any of the steps during this setup process weren't clear, a more detailed explanation of the process can be found in [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 ## Building Queries
 
@@ -97,25 +97,25 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector6-resize.png)
 
-3. **That's it\!** Any other query on another page that uses that dimension can now drillthrough to that page, automatically applying the drillthrough dimension's value as a filter.
+3. **That's it\!** Any other query on another page that uses that dimension can now drill through to that page, automatically applying the drillthrough dimension's value as a filter.
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector7-resize.png)
 
-Unlike Call Quality Dashboard, Power BI supports non-sequential drillthrough. So long as a query includes the necessary dimension, it can drillthrough to any other page.
+Unlike Call Quality Dashboard, Power BI supports non-sequential drillthrough. If a query includes the necessary dimension, it can drill through to any other page.
 
 ### Best practice
 
-Microsoft Call Quality connector queries should be designed with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries which contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates have been designed in this manner in order to act as an example.
+Microsoft Call Quality connector queries should be designed with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries that contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates have been designed in this manner in order to act as an example.
 
 ## Limitations
 
 Despite making use of Power BI, not all Power BI functionality is support by the Microsoft Call Quality connector, either as a result of limitations on Call Quality Dashboard's data model or on DirectQuery connectors in general. The list below notes some of the Connector's more noteworthy limitations, but this list should not be considered exhaustive:
 
-1. **Calculated Columns –** DirectQuery connectors in general have limited support for calculated columns in Power BI. While some calculated columns may work with the Connector, these should be considered exceptions. As a general rule, calculated columns will not function.
+1. **Calculated Columns –** DirectQuery connectors in general have limited support for calculated columns in Power BI. Some calculated columns might work with the Connector, that those columns are exceptions. As a general rule, calculated columns don't function.
 
 2. **Aggregations –** The Call Quality Dashboard data model is built on a cube model, meaning that aggregations are already supported in the form of measures. Attempting to manually add aggregations to different dimensions or changing the aggregation type of a measure will not work with the Connector, and it will generally result in an error.
 
-3. **Custom Visuals –** While the Microsoft Call Quality connector does work with a range of custom visuals, we are unable to guarantee compatibility with all custom visuals. Many custom visuals rely on the use of calculated columns or imported data, neither or which are supported by DirectQuery connectors.
+3. **Custom Visuals –** While the Microsoft Call Quality connector does work with a range of custom visuals, we are unable to guarantee compatibility with all custom visuals. Many custom visuals rely on the use of calculated columns or imported data, neither of which is supported by DirectQuery connectors.
 
 4. **Referencing Cached Data –** Power BI currently does not support referencing cached data from a DirectQuery connector in any way. Any attempt to reference the results of a query will result in a new query.
 
