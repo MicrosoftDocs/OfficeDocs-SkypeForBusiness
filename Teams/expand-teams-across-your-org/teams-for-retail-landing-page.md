@@ -96,12 +96,12 @@ This article explains more about these tools and what you need to know about Tea
 
 ### Teams templates for Retail
 
-### Provisioning users
+### Provision users
 
 - Scripted deployment for frontline workers
 - Delegated user management (new)
 
-### Provisioning users from a workforce management or HR system (cloud feature)
+### Provision users from a workforce management or HR system (cloud feature)
 
 
 ## Devices for retail
