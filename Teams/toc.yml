@@ -841,7 +841,7 @@ items:
             - name: Change the default language for voicemail
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
-              href: languages-for-voicemail-greetings-and-messages.md
+              href: languages-for-voicemail-greetings-and-messages-teams.md
         - name: Caller ID
           items: 
             - name: How can caller ID be used in your organization
