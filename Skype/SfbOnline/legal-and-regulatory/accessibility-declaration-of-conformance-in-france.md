@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
+description: "This content must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 
 # Accessibility Declaration of Conformance for Skype for Business Online in France
@@ -69,7 +69,7 @@ Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/stand
   
 [4.2.7 Utilisation avec manipulation ou force limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&amp;functional_statements_submitted=true)
   
-[4.2.8 Utilisation avec une portée limitée(<http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&amp;functional_statements_submitted=true>)
+[4.2.8 Utilisation avec une portée limitée](<http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&amp;functional_statements_submitted=true>)
   
 [4.2.9 Minimiser les déclencheurs de crises photosensibles](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&amp;functional_statements_submitted=true)
   
@@ -79,9 +79,9 @@ Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/stand
   
 ## Section 5: Exigences génériques
 
-||||
-|:-----|:-----|:-----|
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
+|:-----|:-----|:-----|
 |**5.1.2.2 - 5.1.6.2** <br/> |Non applicable  <br/> |Fonctionnalité fermée  <br/> |
 |**5.2 Activation des fonctionnalités d'accessibilité** <br/> Dans le cas où la TIC présente des fonctionnalités d’accessibilité documentées, il est possible d’activer les fonctionnalités qui sont requises pour répondre à un besoin spécifique sans faire appel à une méthode qui ne prend pas en charge ce besoin.<br/> |Pris en charge  <br/> ||
 |**5.3 Biométrie** <br/> Dans le cas où la TIC fait appel à des caractéristiques biologiques, elle ne fait pas de l’utilisation d’une caractéristique biologique le seul moyen d’identification de l’utilisateur ou de contrôle de la TIC.<br/> |Non applicable  <br/> ||
@@ -96,9 +96,10 @@ Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/stand
    
 ## Section 6: TIC avec communication voix bidirectionnelle
 
-||||
-|:-----|:-----|:-----|
+
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
+|:-----|:-----|:-----|
 |**6.1 Bande passante audio pour la parole (recommandation pour information)** <br/> Dans le cas où la TIC permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et de déchiffrer la communication voix bidirectionnelle dans une bande de fréquence plafonnée à au moins 7 000 Hz.<br/> |Pris en charge  <br/> ||
 |**6.2.1.1 Communication en temps réel par texte (RTT)** <br/> Dans le cas où la TIC est compatible avec la communication voix bidirectionnelle dans un contexte d’utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.<br/> |Pas pris en charge  <br/> ||
 |**6.2.1.2 Voix et texte simultanés** <br/> Dans le cas où la TIC ou les TIC fournies à un utilisateur sont compatibles avec la communication voix bidirectionnelle et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT, elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.<br/> |Pas pris en charge  <br/> ||
@@ -131,9 +132,10 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
   
 ## Section 11: Logiciel
 
-||||
-|:-----|:-----|:-----|
+
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
+|:-----|:-----|:-----|
 |**11.2.1.1 Contenu non textuel (lecture d'écran prise en charge)** <br/> Dans le cas où la TIC est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit les Critères de Succès indiqués dans le Tableau 11.1 : Contenu non textuel : <br/> Tout le contenu non textuel qui est présenté à l’utilisateur est doté d’un équivalent textuel qui a la même fonction, sauf dans les situations suivantes :<br/> Commandes, saisie : Si le contenu non textuel est une commande ou s'il permet la saisie d'informations par l’utilisateur, alors il a un nom qui décrit sa fonction.  <br/> Media limité dans le temps : Si le contenu non textuel est un media limité dans le temps, alors les équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel. <br/> Test : Si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté sous forme de texte, alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.<br/> Contenu sensoriel : Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique, alors des équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel. <br/> CAPTCHA : Si le contenu non textuel sert à confirmer que c’est une personne et non un ordinateur qui accède au contenu, alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis, et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de perception sensorielle sont fournies afin de répondre aux besoins des différents handicaps.<br/> Décoration, formatage, invisible : Si le contenu non textuel est purement décoratif, s’il n’est utilisé que pour le formatage visuel ou s’il n’est pas présenté aux utilisateurs, alors il est mis en œuvre de manière à être ignoré par la technologie d’assistance. <br/> |Pris en charge  <br/> ||
 |**11.2.1.2 Audio seulement et vidéo seulement (préenregistré)** <br/> Dans le cas où la TIC est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran et où aucune information sonore préenregistrée n’est nécessaire pour permettre l’utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès indiqués dans le Tableau 11.2 : Audio seulement et vidéo seulement (préenregistré) : <br/> Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les principes ci-après se vérifient sauf lorsque l’audio ou la vidéo est un média de remplacement du texte et est clairement identifié comme tel :  <br/> Audio seulement préenregistré : Une alternative au media limité dans le temps, qui présente des informations équivalentes pour le contenu audio seulement préenregistré, est fournie. <br/> Vidéo seulement préenregistrée : Une alternative au media limité dans le temps ou une piste audio, qui présente des informations équivalentes pour le contenu vidéo seulement préenregistré, est fournie.<br/> |Non applicable  <br/> ||
 |**11.2.1.3 Sous-titres (préenregistrés)** <br/> Dans le cas où la TIC est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les Critères de Succès indiqués dans le Tableau 11.3 : Sous-titres (préenregistrés) :<br/> Des sous-titres sont fournis pour tout le contenu audio préenregistré en média synchronisé, sauf quand le média est une alternative au texte et est clairement identifié comme tel. <br/> |Non applicable  <br/> ||
@@ -194,9 +196,10 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
    
 ## Section 12 Documentation et services d'assistance
 
-||||
-|:-----|:-----|:-----|
+
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
+|:-----|:-----|:-----|
 |**12.1.1 Caractéristiques d'accessibilité et de compatibilité** <br/> La documentation produit fournie avec la TIC, qu’elle soit fournie séparément ou intégrée dans la TIC, dresse la liste des caractéristiques d’accessibilité et de compatibilité de la TIC et explique comment les utiliser. <br/> |Pris en charge  <br/> ||
 |**12.1.2 Documentation accessible** <br/>  La documentation produit fournie avec la TIC est mise à disposition dans au moins un des formats électroniques suivants :<br/>  a) un format web qui est conforme à la clause 9, ou <br/>  b) un format non-web qui est conforme à la clause 10. <br/> |Pris en charge  <br/> ||
 |**12.2.2 Informations sur les caractéristiques d'accessibilité et de compatibilité** <br/> Les services d’assistance de la TIC communiquent des informations sur les caractéristiques d’accessibilité et de compatibilité qui sont mentionnées dans la documentation produit. <br/> |Pris en charge  <br/> ||
