@@ -42,7 +42,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Create and license new [Resource Accounts](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
+2. Create and license new [Resource Accounts](/microsoftteams/manage-resource-accounts) in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
 
 3. Associate the new Resource Accounts with the existing hybrid application endpoints.
 
