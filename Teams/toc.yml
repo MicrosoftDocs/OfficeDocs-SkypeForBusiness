@@ -507,25 +507,25 @@ items:
       href: archive-or-delete-a-team.md
     - name: Migrate from Slack to Teams
       href: migrate-slack-to-teams.md
-    - name: Work with Teams templates
+    - name: Work with team templates
       items: 
-        - name: Use Teams templates in the admin center
+        - name: Use team templates in the admin center
           href: get-started-with-teams-templates-in-the-admin-console.md
-        - name: Teams templates built in Graph for Small and Medium Businesses
+        - name: Team templates built in Graph for Small and Medium Businesses
           href: smb-templates.md
-        - name: Create a custom Teams template
+        - name: Create a custom team template
           href: create-a-team-template.md
         - name: Create a template from an existing team
           href: create-template-from-existing-team.md
         - name: Build a template from an existing template
           href: create-template-from-existing-template.md
-        - name: Financial category Teams templates
+        - name: Financial category team templates
           href: financial-teams-templates-in-the-admin-console.md
-        - name: General category Teams templates
+        - name: General category team templates
           href: general-teams-templates-in-the-admin-console.md
-        - name: Manufacturing category Teams templates
+        - name: Manufacturing category team templates
           href: manufacturing-teams-templates-in-the-admin-console.md
-        - name: Manage Teams template policies
+        - name: Manage team template policies
           href: templates-policies.md
     - name: Work with people outside the organization
       items: 
@@ -968,6 +968,12 @@ items:
               href: manage-voice-routing-policies.md
             - name: Direct Routing Survivable Branch Appliance
               href: direct-routing-survivable-branch-appliance.md
+    - name: Operator Connect
+      items: 
+        - name: Plan for Operator Connect
+          href: operator-connect-plan.md
+        - name: Configure Operator Connect
+          href: operator-connect-configure.md
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
@@ -1392,7 +1398,7 @@ items:
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
     - name: All industries
       items: 
-        - name: Get started with Teams templates
+        - name: Get started with team templates
           href: get-started-with-teams-templates.md
         - name: Shifts for Teams
           href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
@@ -1417,7 +1423,7 @@ items:
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: Message delegation
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Use Teams healthcare templates
+        - name: Use healthcare team templates
           href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
         - name: Manage the Lists app
           href: manage-lists-app.md
@@ -1487,14 +1493,14 @@ items:
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Get started with Retail Teams templates
+        - name: Get started with Retail team templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items: 
         - name: Support remote workers (WFH)
           href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: Get started with Government Teams templates
+        - name: Get started with Government team templates
           href: government-teams-templates-in-the-admin-console.md
         - name: Manage the Office 365 G1 Trial offer
           href: g1-trial-license.md
@@ -1588,6 +1594,10 @@ items:
           href: devices/teams-ip-phones.md
         - name: Phones for Skype for Business Online
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+        - name: Teams alerting and monitoring
+          href: alerts/teams-admin-alerts.md 
+        - name: Teams device health monitoring
+          href: alerts/device-health-status.md 
     - name: Teams PowerShell
       items: 
         - name: Overview
