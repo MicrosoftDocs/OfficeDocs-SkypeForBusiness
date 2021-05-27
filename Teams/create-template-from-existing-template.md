@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Create a new template from an existing team template in Microsoft Teams
+# Create a new team template from an existing team template in Microsoft Teams
 
 **Custom templates are not yet supported for EDU customers.**
 
@@ -28,7 +28,7 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 
-3. In the **Team templates** section, select next to a template that you want to duplicate to highlight it.
+3. In the **Team templates** section, select next to a team template that you want to duplicate to highlight it.
 
 4. Select **Duplicate**.
 
