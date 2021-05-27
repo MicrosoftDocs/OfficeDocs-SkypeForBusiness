@@ -12336,11 +12336,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/operator-connect-data-transfer.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/",
-      "redirect_document_id": true
-    },
-    {
       "source_path": "Teams/meeting-policies-in-teams.md#bkaudioandvideo",
       "redirect_url": "/microsoftteams/meeting-policies-audio-video",
       "redirect_document_id": true
