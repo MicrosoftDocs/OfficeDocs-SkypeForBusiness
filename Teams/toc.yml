@@ -308,6 +308,9 @@ items:
           href: policy-control-diagnostic-data-desktop.md
         - name: Optional connected experiences
           href: teams-privacy-oce-overview.md
+        - name: Operator Connect data transfer
+          href: operator-connect-data-transfer.md
+
 
 - name: Manage and monitor Teams
   items: 
@@ -968,6 +971,12 @@ items:
               href: manage-voice-routing-policies.md
             - name: Direct Routing Survivable Branch Appliance
               href: direct-routing-survivable-branch-appliance.md
+    - name: Operator Connect
+      items: 
+        - name: Plan for Operator Connect
+          href: operator-connect-plan.md
+        - name: Configure Operator Connect
+          href: operator-connect-configure.md
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
