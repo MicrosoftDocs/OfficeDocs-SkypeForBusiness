@@ -53,10 +53,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### Configure who can register for webinars
 
-You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone**. If you want to turn off meeting registration, set **WhoCanRegister** to **False**.
+You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone**. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
 
 > [!IMPORTANT]
-> Keep in mind that **AllowPrivateMeetingScheduling** must be set to **True** for **WhoCanRegister** to work. Additionally, Microsoft Lists needs to be set up in SharePoint. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
+> Keep in mind that **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work. Additionally, Microsoft Lists needs to be set up in SharePoint. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
 
 **To allow *only* users in your organization to register for webinars, run:**
 
