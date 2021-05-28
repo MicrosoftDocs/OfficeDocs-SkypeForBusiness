@@ -60,8 +60,7 @@ Type a name for the call queue.
 
 ### 2. Resource accounts
 
-![Screenshot of resource account and language settings](media/call-queue-name-language.png)
-![Screenshot of resource account and language settings](media/call-queue-resource-account.png)
+![Screenshot of resource account settings](media/call-queue-resource-account.png)
 
 Click **Add**, search for the resource accounts that you want to use to receive calls into this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
@@ -77,13 +76,13 @@ Click **Add**, search for the resource accounts that you want to allow agents to
 
 ### 4. Language
 
-![Screenshot of resource account and language settings](media/call-queue-language.png)
+![Screenshot of language settings](media/call-queue-language.png)
 
 Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
 ### 5. Greetings and music on hold in queue
 
-![Screenshot of resource account and language settings](media/call-queue-greetings-music.png)
+![Screenshot of greetings and music on hold in queue settings](media/call-queue-greetings-music.png)
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
