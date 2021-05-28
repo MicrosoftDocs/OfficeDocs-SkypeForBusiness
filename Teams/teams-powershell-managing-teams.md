@@ -67,7 +67,7 @@ Common parameters:
 
 ## Manage configurations via PowerShell
 
-Find the cmdlets for managing your configuration in the [Skype for Business cmdlet module](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps).
+Find the cmdlets for managing your configuration in the [Skype for Business cmdlet module](/powershell/module/skype/?view=skype-ps).
 
 Configurations are buckets of settings maintained in the service that can't be specified at a user level. Settings always apply across the whole organization. Your global configuration is the only effective configuration in your organization. Each configuration type comes with two primary cmdlets:
 
