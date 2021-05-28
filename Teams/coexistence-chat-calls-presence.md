@@ -93,7 +93,7 @@ In the tables that follow:
 
 | <br/><br/> Mode   | Originator <br/><br/> Client | <br/><br/> SfB&nbsp;homed |<br/><br/>Route-->|   Recipient <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Islands   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Not Possible <br/>*Teams*  |
+| Islands   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>**Not Possible** <br/>*Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> On-prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
