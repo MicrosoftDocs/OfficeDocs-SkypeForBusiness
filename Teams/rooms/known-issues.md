@@ -16,7 +16,7 @@ description: Admin can learn about a list of known issues for Microsoft Teams Ro
 ms.custom: seo-marvel-apr2020
 ---
 
-# Known issues 
+# Known issues
  
 This article lists the known issues for Microsoft Teams Rooms, by feature area.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
