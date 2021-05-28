@@ -308,6 +308,9 @@ items:
           href: policy-control-diagnostic-data-desktop.md
         - name: Optional connected experiences
           href: teams-privacy-oce-overview.md
+        - name: Operator Connect data transfer
+          href: operator-connect-data-transfer.md
+
 
 - name: Manage and monitor Teams
   items: 

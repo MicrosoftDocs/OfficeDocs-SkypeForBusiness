@@ -152,7 +152,7 @@ You can acquire phone numbers from the following operators by going to the websi
 |`Intrado`     | https://insight.intrado.com/operator-connect       |
 |`NTT`     |  https://www.hello.global.ntt/operator-connect       |
 |`NuWave`     |   https://ipilot.io/microsoft-operator-connect/   |
-|`Orange Business Services`     | https://www.orange-business.com/en/partners/microsoft-operator-connect        |
+|`Orange Business Services`     | https://www.orange-business.com/en/blogs/operator-connect-orange-and-microsoft-streamline-calling-for-teams-users        |
 |`Pure IP`    | https://info.pure-ip.com/operator-connect        |
 |`Rogers`    | https://www.rogers.com/business/products-and-solutions/microsoft-365-business-voice        |
 |`TATA Communications`     |  https://www.tatacommunications.com/solutions/unified-communications/unified-communications-as-a-service/microsoft-teams-solutions/       |
