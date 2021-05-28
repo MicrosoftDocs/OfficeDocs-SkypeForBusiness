@@ -804,7 +804,7 @@ items:
               href: rooms/lrs-migration.md
             - name: Content cameras
               href: rooms/content-camera.md
-            - name: Biometric enrollment
+            - name: Voice recognition with Intelligent speakers
               href: rooms/voice-recognition.md
         - name: Manage
           items: 
