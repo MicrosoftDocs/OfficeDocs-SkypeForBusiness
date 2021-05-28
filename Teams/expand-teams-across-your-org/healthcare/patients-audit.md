@@ -40,7 +40,7 @@ According to HIPAA guidelines, healthcare providers are required to keep records
 
 An Audit is dependent on several prior configurations:
 
-1. The admin would have to work with their FHIR service provider to have EMR in a format used by the Patients App. See [Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md).
+1. The admin would have to work with their FHIR service provider to have EMR in a format used by the Patients App. 
 2. A healthcare provider admin would have to enable the patients app in Teams Admin center. See [Manage app setup policies in Microsoft Teams](../../teams-app-setup-policies.md) and related articles for more information.
 3. The admin would have to enable activity audits, the same way they enable any activity log audit, as described in [Before you begin](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) and [Turn audit log search on or off](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). If audit logging is already on, nothing special is needed for the Patients App. Any time a healthcare provider installs and runs the app within a Team, the audit logs record their PHI activity.
 4. The admin would then need to announce availability of the Patients app, and Healthcare workers would have to start generating activity to be included in an audit.
@@ -55,7 +55,7 @@ For instructions on running a search of the activity log, see [Search the audit 
 
 The Patients app has its own logged activities, listed in the following table:
 
-|Friendly name |Operation|Description|
+|Friendly name | Operation | Description|
 |:---|:---|:---|
 | Viewed patient list | PatientListView | A user viewed a patient list.|
 | Deleted patient list | PatientListDelete | A user deleted a list of patients.|
@@ -73,7 +73,6 @@ The Patients app has its own logged activities, listed in the following table:
 | Viewed patient details | PatientView | A user viewed a patient record.|
 | Edited patient details | PatientDetailsEdit | A detail on a patient record was edited. |
 | Set EHR connection | EHRConnectionSet | Set the URL used to connect to the EHR FHIR Service connection. Example: https://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
-||||
 
 You can customize your Audit as needed to search for or filter on any of these logged activities.
 
@@ -82,5 +81,3 @@ Logged activities for Microsoft Teams in general are described in [Microsoft Tea
 ## Related topics
 
 [Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
-
-[Integrating Electronic Healthcare Records into Microsoft Teams](patients-app.md)
