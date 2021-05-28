@@ -12382,12 +12382,12 @@
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app.md",
-      "redirect_url": "Teams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
       "redirect_document_id": true
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md",
-      "redirect_url": "Teams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
       "redirect_document_id": true
     }
 ] 
