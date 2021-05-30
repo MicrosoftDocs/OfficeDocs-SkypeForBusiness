@@ -38,8 +38,6 @@ To skip this step and instead add another business to your federation so you can
 
 Use **one** of the following methods to set up allowed domains:
 
-## #
-
  **Method 1: Use the admin center**
 
 1. Go to the admin center and then in the left nav, click **Settings** > **Services &amp; add-ins**, and then choose **Skype for Business**.
@@ -55,8 +53,6 @@ Use **one** of the following methods to set up allowed domains:
    - resources.lync.com
 
 3. Click **Save**.
-
-## #
 
  **Method 2: Use Windows PowerShell**
 
