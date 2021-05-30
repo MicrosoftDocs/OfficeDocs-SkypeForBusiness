@@ -63,8 +63,6 @@ For more details on AudioCodes phones, see [Skype for Business IP Phones](https:
 This is the minimum software release required for supported phones to work with Phone System:
   
 
-||||
-|:-----|:-----|:-----|
 |**Phone type** <br/> |**Minimum firmware** <br/> |**Release date** <br/> |
 |:-----|:-----|:-----|
 |Optimized (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |May 2015  <br/> |

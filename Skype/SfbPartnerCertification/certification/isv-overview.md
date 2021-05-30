@@ -58,6 +58,7 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 ## Solutions qualified for Skype for Business
 
 
+
 |Brand|Product name	|Version tested|
 |:--- |:--- |:--- |
 |Actiance	|Vantage	|Compliance|

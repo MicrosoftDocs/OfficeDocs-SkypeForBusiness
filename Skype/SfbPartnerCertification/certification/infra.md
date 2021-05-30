@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947483
-description: "Information about certified gateways for Skype for Business."
+description: "Details about certified gateways for Skype for Business."
 ---
 
 # Skype for Business Certification Program gateways
