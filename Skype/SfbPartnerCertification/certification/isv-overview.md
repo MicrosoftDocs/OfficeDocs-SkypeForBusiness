@@ -55,10 +55,11 @@ A Call Recording & Compliance ISV seeking certification must meet all the Skype 
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-
 ## Solutions qualified for Skype for Business
 
-|Brand|Product Name	|Version Tested|
+
+
+|Brand|Product name	|Version tested|
 |:--- |:--- |:--- |
 |Actiance	|Vantage	|Compliance|
 |Active Communications	|ACS Lync appliance	||
