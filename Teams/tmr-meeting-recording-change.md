@@ -52,7 +52,7 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - Multi-geo support – recordings are stored in a region specific to that user
 - Bring your own key (BYOK) support
 
-See the full list of [features available today and what to expect over time](https://docs.microsoft.com/stream/streamnew/features-new-version-stream). 
+See the full list of [features available today and what to expect over time](/stream/streamnew/features-new-version-stream). 
 
 Watch "What's New for Microsoft Teams Meeting Recordings" for more information.
 
@@ -138,7 +138,7 @@ By default, all recording files will go to the OneDrive account of the user who 
 
 **How do I handle recordings from former employees?**
 
-Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process](/onedrive/retention-and-deletion).
 
 **Who has the permissions to view the meeting recording?**
 
@@ -152,7 +152,7 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 **How can I manage captions?**
 
-Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) to ensure their users have the option to record meetings with transcription.
+Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy](/microsoftteams/cloud-recording) to ensure their users have the option to record meetings with transcription.
 
 Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there. 
 
@@ -180,7 +180,7 @@ Stream as a platform won't be deprecated in the near future. The videos that cur
 
 **How do I apply a retention label to Microsoft Teams meeting recordings?**
 
-See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
 
 **How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
 

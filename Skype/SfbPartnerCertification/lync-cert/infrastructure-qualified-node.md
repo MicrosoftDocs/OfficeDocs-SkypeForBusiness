@@ -1,5 +1,5 @@
 ---
-title: "Solutions qualified with Lync Online Dedicated"
+title: "Lync Online dedicated qualified solutions"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788945
-description: "Partner qualification requirements for Lync."
+description: "Describes partner qualification requirements for Lync."
 ---
 
 
