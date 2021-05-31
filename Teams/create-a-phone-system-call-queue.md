@@ -154,7 +154,7 @@ You can enable presence-based call routing with any of the routing methods.
 
 > [!NOTE]
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off**.
-> The Presence-based routing toggle will not be changeable when Longest idle is the selected routing method.
+> The Presence-based routing toggle will not be changeable when **Longest idle** is the selected routing method.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to. 
 
