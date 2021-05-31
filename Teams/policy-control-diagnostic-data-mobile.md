@@ -1182,6 +1182,8 @@ action.
 - **voicemail - No AS Assigned** - A speaker taps on a voicemail item.
 - **whiteboardUsed** - A user annotates on a whiteboard (any action on the webview).
 - **wiki - No AS assigned** - Wiki usage telemetry.
+- **poorNetworkBanner** - Poor network banner shown.
+- **badNetworkBanner** - Bad network banner shown.
 
 ### PanelView
 
@@ -1273,6 +1275,11 @@ action.
 - **upload_images** Confirms that the image upload action succeeded or failed.
 - **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
+- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_warm** To monitor warm app launch.
+- **app_start_hot** To monitor hot app launch.
+- **app_start_cold** To monitor cold app launch.
 
 ## Property lists
 
