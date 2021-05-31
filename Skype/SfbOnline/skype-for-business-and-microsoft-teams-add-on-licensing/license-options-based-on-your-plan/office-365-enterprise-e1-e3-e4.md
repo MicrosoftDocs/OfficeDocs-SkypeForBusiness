@@ -29,9 +29,10 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software), or E4 plan, here are the add-on licenses you need to buy to get more Skype for Business features.
 
-|||
-|:-----|:-----|
+
+
 |**To add this feature** <br/> |**Here's what you need to buy** <br/> |
+|:-----|:-----|
 |**Audio Conferencing** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**Audio Conferencing** add-on <br/>Once you buy the license, Microsoft will be your audio conferencing provider. |
 |**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world** <br/> |[Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Phone System** <br/> |1. **Office 365 Phone System** add-on <br/> 2. Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365. <br/>  Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |

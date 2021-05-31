@@ -41,9 +41,8 @@ Microsoft is partnering and working closely with Polycom, Yealink, and AudioCode
   
 When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
-|||
-|:-----|:-----|
 |**Phone Partner** <br/> |**Skype for Business specific product ID** <br/> |
+|:-----|:-----|
 |Polycom  <br/> |Product ID -019  <br/> |
 |Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
 |AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
@@ -63,9 +62,9 @@ For more details on AudioCodes phones, see [Skype for Business IP Phones](https:
 
 This is the minimum software release required for supported phones to work with Phone System:
   
-||||
-|:-----|:-----|:-----|
+
 |**Phone type** <br/> |**Minimum firmware** <br/> |**Release date** <br/> |
+|:-----|:-----|:-----|
 |Optimized (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |May 2015  <br/> |
 |Certified Polycom VVX Series  <br/> |5.4.0A  <br/> |December 2015  <br/> |
 |Yealink  <br/> |X.8.1.52  <br/> |February 2017  <br/> |
@@ -86,9 +85,9 @@ Manufacturer licensing models might vary between open SIP and Skype for Business
 
 For full device features and capabilities, check the manufacturer user guides.
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
+
 |**Feature** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |Sign in with user credentials  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Sign in via PC (Pairing), Windows Only  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Sign in using (Web Sign-in)  <br/>  <br/> **Note:** Check the supportability matrix in deployment guide.           |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |

@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
+description: "This content must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 
 # Accessibility Declaration of Conformance for Skype for Business Online in France
@@ -79,7 +79,7 @@ Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/stand
   
 ## Section 5: Exigences génériques
 
-|
+
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
 |:-----|:-----|:-----|
 |**5.1.2.2 - 5.1.6.2** <br/> |Non applicable  <br/> |Fonctionnalité fermée  <br/> |
@@ -97,23 +97,6 @@ Définitions et abréviations: [EN 301 549](http://mandate376.standards.eu/stand
 ## Section 6: TIC avec communication voix bidirectionnelle
 
 
-|
-|**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
-|:-----|:-----|:-----|
-|**6.1 Bande passante audio pour la parole (recommandation pour information)** <br/> Dans le cas où la TIC permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et de déchiffrer la communication voix bidirectionnelle dans une bande de fréquence plafonnée à au moins 7 000 Hz.<br/> |Pris en charge  <br/> ||
-|**6.2.1.1 Communication en temps réel par texte (RTT)** <br/> Dans le cas où la TIC est compatible avec la communication voix bidirectionnelle dans un contexte d’utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.<br/> |Pas pris en charge  <br/> ||
-|**6.2.1.2 Voix et texte simultanés** <br/> Dans le cas où la TIC ou les TIC fournies à un utilisateur sont compatibles avec la communication voix bidirectionnelle et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT, elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.<br/> |Pas pris en charge  <br/> ||
-|**6.2.2.1 Affichage visuellement distinguable** <br/> Dans le cas où la TIC est dotée de capacités d’envoi et de réception en RTT, l’affichage du texte envoyé est visuellement différencié de celui du texte reçu. <br/> |Pas pris en charge  <br/> ||
-|**6.2.2.2 Direction envoi/réception déterminable par un programme informatique** <br/> Dans le cas où la TIC est dotée de capacités d’envoi et de réception en RTT, la direction (envoi/réception) du texte transmis est déterminable par un programme informatique, à moins que le RTT n’ait une fonctionnalité fermée. <br/> |Pas pris en charge  <br/> ||
-|**6.2.3 Interopérabilité** <br/> Dans le cas où une TIC dotée de la fonctionnalité RTT affiche une interopérabilité avec d’autres TIC dotées de la fonctionnalité RTT (comme l’exige le 6.2.1.1), elles sont compatibles avec au moins un des quatre mécanismes d’interopérabilité RTT décrits ci-dessous:  <br/> a) TIC inter-opérant sur le Réseau Téléphonique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l’une de ses annexes pour les signaux de téléphonie en mode texte sur l’interface RTC;  <br/> b) TIC inter-opérant avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103;<br/> c) TIC inter-opérant avec une autre TIC utilisant une technologie RTT conforme à l’ensemble des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229;<br/> d) TIC inter-opérant avec une autre TIC utilisant une spécification commune adaptée et applicable pour l’échange RTT qui est publiée et peut être consultée. Cette spécification commune comprend une méthode pour indiquer la perte ou de la corruption de caractères.<br/> |Pas pris en charge  <br/> ||
-|**6.2.4 Réactivité de la RTT** <br/> Dans le cas où la TIC utilise la saisie RTT, cette saisie RTT est transmise au réseau TIC compatible RTT dans la seconde qui suit sa saisie.<br/> |Pas pris en charge  <br/> ||
-|**6.3 Identification de l'appelant** <br/> Dans le cas où la TIC propose l’identification de l’appelant et où des fonctions de télécommunications similaires sont proposées, l’identification de l’appelant et les fonctions de télécommunication similaires sont disponibles sous forme de texte et via au moins une autre modalité. <br/> |Pris en charge  <br/> ||
-|**6.4 Alternatives aux services basés sur la voix** <br/> Dans le cas où la TIC propose la communication voix en temps réel et propose également des fonctions de messagerie vocale, de réception automatique ou de serveur vocal interactif, la TIC doit offrir aux utilisateurs un moyen d'accéder aux informations et d'exécuter les fonctions fournies par la TIC sans utiliser l'audition ou la parole.  <br/> |Pris en charge  <br/> ||
-|**6.5.2 Résolution** <br/>  Lorqu’une TIC qui permet la communication voix bidirectionnelle est également dotée d’une fonctionnalité vidéo en temps réel, cette TIC:<br/>  a) est compatible au moins avec la résolution « QCIF » ; <br/>  b) doit de préférence être compatible avec au moins la résolution « CIF ». <br/> |Pris en charge  <br/> ||
-|**6.5.3 Taux de trame (vitesse d'images** ) <br/> Lorsqu'une TIC qui propose la communication voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en temps réel, cette TIC:  <br/> a) prend en charge un taux de trame d'au moins 12 images par seconde (IPS) ;  <br/> b) doit de préférence prendre en charge un taux de trame d'au moins 20 images par seconde (IPS) avec ou sans langue des signes dans le flux de données vidéo.  <br/> |Pris en charge  <br/> ||
-|**6.5.4 Synchronisation entre le signal audio et le signal vidéo** <br/> Lorsqu’une TIC qui permet la communication voix bidirectionnelle est dotée d’une fonctionnalité de vidéo en temps réel, cette TIC doit garantir un écart de temps de 100 ms maximum entre la voix et les images présentées à l’utilisateur.<br/> |Pris en charge  <br/> ||
-|**6.6 Alternatives aux services vidéo** <br/>  Dans le cas où la TIC propose la communication vidéo en temps réel et propose également des fonctions de répondeur, de réception automatique ou de réponse interactive, la TIC doit proposer aux utilisateurs un moyen d’accéder aux informations et d’accomplir les tâches associées à ces fonctions: <br/>  a) pour les informations audibles, sans utilisation de l’audition;<br/>  b) pour les commandes vocales, sans utilisation de la voix;<br/>  c) pour les informations visuelles, sans utilisation de la vision.<br/> |Pris en charge  <br/> ||
-   
 ## Section 7: TIC avec fonctions vidéo
 
 Cette section ne s'applique pas à Skype Entreprise 2016.
@@ -133,7 +116,6 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 ## Section 11: Logiciel
 
 
-|
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
 |:-----|:-----|:-----|
 |**11.2.1.1 Contenu non textuel (lecture d'écran prise en charge)** <br/> Dans le cas où la TIC est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit les Critères de Succès indiqués dans le Tableau 11.1 : Contenu non textuel : <br/> Tout le contenu non textuel qui est présenté à l’utilisateur est doté d’un équivalent textuel qui a la même fonction, sauf dans les situations suivantes :<br/> Commandes, saisie : Si le contenu non textuel est une commande ou s'il permet la saisie d'informations par l’utilisateur, alors il a un nom qui décrit sa fonction.  <br/> Media limité dans le temps : Si le contenu non textuel est un media limité dans le temps, alors les équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel. <br/> Test : Si le contenu non textuel est un test ou un exercice qui serait invalide s’il était présenté sous forme de texte, alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.<br/> Contenu sensoriel : Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique, alors des équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel. <br/> CAPTCHA : Si le contenu non textuel sert à confirmer que c’est une personne et non un ordinateur qui accède au contenu, alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis, et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de perception sensorielle sont fournies afin de répondre aux besoins des différents handicaps.<br/> Décoration, formatage, invisible : Si le contenu non textuel est purement décoratif, s’il n’est utilisé que pour le formatage visuel ou s’il n’est pas présenté aux utilisateurs, alors il est mis en œuvre de manière à être ignoré par la technologie d’assistance. <br/> |Pris en charge  <br/> ||
@@ -197,7 +179,6 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 ## Section 12 Documentation et services d'assistance
 
 
-|
 |**Critères** <br/> |**Fonctionnalités prises en charge** <br/> |**Remarques et explications** <br/> |
 |:-----|:-----|:-----|
 |**12.1.1 Caractéristiques d'accessibilité et de compatibilité** <br/> La documentation produit fournie avec la TIC, qu’elle soit fournie séparément ou intégrée dans la TIC, dresse la liste des caractéristiques d’accessibilité et de compatibilité de la TIC et explique comment les utiliser. <br/> |Pris en charge  <br/> ||
