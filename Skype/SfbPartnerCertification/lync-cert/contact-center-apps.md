@@ -1,5 +1,5 @@
 ---
-title: "Qualified Lync applications"
+title: "Qualified Lync contact center applications"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars

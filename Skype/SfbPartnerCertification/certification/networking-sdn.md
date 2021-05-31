@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business - Networking - Wired"
+title: "Skype for Business wired networking"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Planning the optimal Skype for Business experience in a wired world."
 ---
 
-# SDN for Skype for Business
+# Skype for Business wired networking
 Skype for Business has been pioneering a whole new paradigm of software defined networks (SDN) called UC SDN, which lowers TCO while improving end-user experience. The guiding principles for UC SDN is improved visibility, control, automation, and agility.
 
 For anyone deploying enterprise voice and/or video this evolution of networking enables a whole new paradigm shift for how end-user apps and networks effectively communicate machine-to-machine (M2M).

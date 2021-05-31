@@ -1,5 +1,5 @@
 ---
-title: "Solutions qualified with Lync Online Dedicated"
+title: "Lync Online eedicated qualified solutions"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars

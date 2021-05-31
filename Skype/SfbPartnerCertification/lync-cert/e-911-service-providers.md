@@ -1,5 +1,5 @@
 ---
-title: "Partner qualification for Lync"
+title: "Partner qualification requirements for Lync"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
