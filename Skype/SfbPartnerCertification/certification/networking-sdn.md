@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - mt147899
-description: "Planning the optimal Skype for Business experience in a wired world."
+description: "Planning for the optimal Skype for Business experience in a wired world."
 ---
 
 # Skype for Business wired networking
