@@ -72,7 +72,7 @@ Click **Add**, search for the resource accounts that you want to allow agents to
 
 > [!NOTE]
 > Only resource accounts with phone numbers assigned may be used here.
-> <br>This feature is currently only available to agents in call queues that use a Teams channel. To set the outbound calling ID for agents in non-Teams channel call queues please see [Caller ID for outbound calls](create-a-phone-system-call-queue.md#caller-id-for-outbound-calls)
+> This feature is currently only available to agents in call queues that use a Teams channel. To set the outbound calling ID for agents in non-Teams channel call queues please see [Caller ID for outbound calls](create-a-phone-system-call-queue.md#caller-id-for-outbound-calls).
 
 ### 4. Language
 
