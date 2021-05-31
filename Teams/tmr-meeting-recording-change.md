@@ -180,7 +180,7 @@ Stream as a platform won't be deprecated in the near future. The videos that cur
 
 **How do I apply a retention label to Microsoft Teams meeting recordings?**
 
-See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide).
+See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
 
 **How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
 
