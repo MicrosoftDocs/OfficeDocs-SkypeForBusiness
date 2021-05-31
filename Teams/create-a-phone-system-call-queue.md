@@ -196,7 +196,7 @@ When you have selected your call timeout options, click **Save**.
 
 ## Caller ID for outbound calls
 
-If your queues are not using a Teams channel to control agent membership consider setting the caller ID for members of a call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
+If your call queues are not using a Teams channel to control agent membership, consider setting the caller ID for members of a call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
 
 ## Supported clients
 
