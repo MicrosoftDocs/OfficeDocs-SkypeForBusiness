@@ -1217,6 +1217,11 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
+- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_cold** To monitor cold app launch (Android only).
+- **app_start_hot** To monitor hot app launch (Android only).
+- **app_start_warm** To monitor warm app launch (Android only).
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **cortanaError** To monitor Cortana error happends.
 - **cortanaView** - To monitor Cortana canvas appear.
@@ -1271,11 +1276,6 @@ action.
 - **upload_images** Confirms that the image upload action succeeded or failed.
 - **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
-- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
-- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
-- **app_start_warm** To monitor warm app launch.
-- **app_start_hot** To monitor hot app launch.
-- **app_start_cold** To monitor cold app launch.
 
 ## Property lists
 
