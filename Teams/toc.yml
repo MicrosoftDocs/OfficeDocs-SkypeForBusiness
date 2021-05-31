@@ -1589,7 +1589,7 @@ items:
           href: devices/phones-displays-deploy.md
         - name: USB audio and video devices
           href: devices/usb-devices.md
-        - name: Deploy collaboration bars for Microsoft Teams
+        - name: Deploy Microsoft Teams Rooms on Android
           href: devices/collab-bar-deploy.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
