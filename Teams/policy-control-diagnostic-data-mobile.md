@@ -338,6 +338,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **companionDismissProximity** - Dismiss the companion banner.
 - **companionJoin** - Join as companion option is selected on the sheet.
 - **companionJoinProximity** - Joined through tje companion banner.
+- **completeVaultFRE** - User completes process of generating a master key which is used to encrypt their Safe data.
 - **completionStateChange** - Triggers when a completed or uncompleted filter toggle is selected in filter view from task list.
 - **composeExpandComposer** - **Format** button tapped.
 - **composeFilePick** - Native file picker launched.
@@ -426,6 +427,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **deleteMeeting** - Select the **Delete** button from the Meeting Details page.
 - **deletePersonalTask** - Confirms a personal task has been successfully deleted.
 - **deletePersonalSubtask** - Confirms a personal sub-task has been successfully deleted.
+- **deletePersonalVaultItem** - User requests to delete their personal Safe.
 - **deletePlannerTask** - Confirms that a shared task delete operation completed successfully.
 - **deleteShift** - Shift deletion.
 - **duration_picker_dismissed** - When the duration picker is dismissed.
@@ -565,6 +567,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **funSelectItem** - Giphy image chosen. Success data for the giphy attachment feature in Teams.
 - **galleryImage** - Image uploaded - gallery.
 - **get_directions_clicked** - The **Get directions** button is selected.
+- **giphyUserDisabled** - User selects to decline Giphy terms/conditions.
+- **giphyUserEnabled** - User selects to accept Giphy terms/conditions.
 - **goToNotificationSettings** - Go to the notification settings page from **we updated notification settings** dialog.
 - **GPSPromptClicked** - The **Allow** or **Don't Allow** is selected in an OS prompt. either allowing GPS or not.
 - **group_map_closed** - A user opens the map viw from chat.
@@ -611,6 +615,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **labelSelected** - Confirms that a label has been successfully selected.
 - **labelUnselected** - Confirms that a label has been successfully unselected.
 - **launchLinksGallery** - When a user enters the links gallery from the dashboard.
+- **launchSlideshow** - User Launches Slideshow full screen image viewer from one of three possible app feature locations. 
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
@@ -650,7 +655,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **location_sharing_stop** - A user stops sharing their live location in a chat.
 - **loginFailed** - User was unable to login.
 - **loginSuccess** - User was able to login.
+- **logoutVault** - User logs out of the app and in turn logs out of Safe. 
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
+- **manageVaultKey** - User changes their Safe key management choice (MSA vs self tracked).
 - **manualSendMessage** - A message is sent out manually.
 - **mapAppPicker** - When a user selects which mapping app to use when they tap on a location card.
 - **markAsRead** - Mark as read.
@@ -702,6 +709,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **meetingUserFreemium** - A freemium user joined the meeting.
 - **meetingUserGuest** - A guest user joined the meeting.
 - **meetingUserTenant** - An in-tenant user joined the meeting.
+- **memeGenerated** - When a meme is generated given a user input of image and text data. 
 - **messageCopyMessage** - Copy Message.
 - **messageDelete** - Message delete.
 - **messageEditMessage** - Edit message.
@@ -934,6 +942,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **requestToJoinTeam** - Request to join team (public or private).
 - **requestToJoinTeamError** - Error with join request.
 - **requestTypeClicked** - Determining the type of request people select from the requests picker.
+- **resetLocalVault** - User resets and clears all Safe data from their device.
 - **resolveIssue** - **Resolve** is selected in the notification troubleshooter flyout to navigate to the blocker app.
 - **responseClicked** - A user selects a response page.
 - **retryButtonClicked** - The **Retry** button is selected.
@@ -997,6 +1006,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **Setting/Dismiss** - Device contacts setting.
 - **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
 - **settingsOpened** - This is triggered when the user's device time zone doesn't match the team time zone, and the user goes to Settings.
+- **setupPinVault** - User saves a Safe pin for their account. 
 - **shareFile** - Triggered when **Share file** is selected. Also helps to check if:
   - The user was able to initiate share file operation.
   - The user can share a file successfully.
