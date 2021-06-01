@@ -100,7 +100,7 @@ Audio Conferencing Communication Credits </td><td>Or</td>
 <td>Audio Conferencing Communication Credits</td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1</td>
 <td>Microsoft 365 Business Voice<br>International Calling Plan <br />(optional)
 Communication Credits </td><td>Or</td>
 <td>Microsoft 365 Business Voice without calling plan</td><td>Or</td>
@@ -148,7 +148,7 @@ Here's a summary, based on licensing plan.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Audio Conferencing<br>Phone System<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1<br></td><td>Audio Conferencing<br>Phone System<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
 <td></td>
 </tr>
 <tr class="odd">

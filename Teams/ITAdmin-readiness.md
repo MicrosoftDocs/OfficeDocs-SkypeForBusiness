@@ -24,17 +24,18 @@ appliesto:
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content.
 
-|       Icon        | Description               |    Icon           |Description               |
+|               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| [Start your rollout here](./get-started-with-teams-quick-start.md) | [View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml) |
+|![a hand and an upward arrow](/office/media/icons/get-started-teams.png) |[Start your rollout here](./get-started-with-teams-quick-start.md)     |![document with a list](/office/media/icons/document-teams.png)|[View Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![a video play button](/office/media/icons/video-play.png) |[View best practice and how-to videos in the Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![person with a wrench](/office/media/icons/administrator.png) |[Teams Chalk Talks: learn best practices and practical guidance around popular Teams scenarios](./chalk-talks-landing-page.yml)         |
+|  |  | |
 
 <h2>Key training offerings and courses</h2>
 
-|   Icon            | Description              |  Icon             |    Description           |
-| :------------ | :------------ | :------------ | :------------ |
-| [Support remote workers using Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essentials for IT](https://aka.ms/MicrosoftTeamsforIT) | [Manage Team collaboration for IT](/learn/paths/m365-manage-team-collaboration) | [Service Adoption Specialist certification](/learn/paths/m365-service-adoption) |
-| [Introduction to teamwork in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 Certified: Teamwork Administrator Associate](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|[**Teams essentials for IT**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" video series shows you – the admin – how to roll out, configure, and manage Teams.     |[**Support remote workers using Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Get the guidance you need – including links to training – to support your users who are working from home.         |[**Manage Team collaboration for IT**](/learn/paths/m365-manage-team-collaboration) - Learn how to use Teams to facilitate teamwork and communication within your org across applications and devices.         |
+|[**Service Adoption Specialist certification**](/learn/paths/m365-service-adoption) - The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your org.     |[**Introduction to teamwork in Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.        |
 
 
 <h2>Technical training</h2>
@@ -72,6 +73,16 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 8: Microsoft Teams Rooms--Tips, tricks, and troubleshooting (18:14 min)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | One-touch Join Instructions |  | [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>Teams Android devices</h2>
+
+<p>The following table contains links to comprehensive video training, with accompanying PowerPoint decks (in PDF format), on Microsoft Teams Android Devices that includes Teams Displays, Teams Phones, Teams Rooms for Android, and Teams Panels.  
+
+| Module | PowerPoint deck (PDF)  |
+| ------------| -------------------- |
+| Module 1: Introduction to Microsoft Teams Android devices  |[Deck](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| Module 2: Planning Microsoft Teams Android devices|[Deck](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+|Module 3: Features of Microsoft Teams Android Devices |[Deck](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+
 <h2>Interactive guides</h2>
 
 | Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
@@ -101,4 +112,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 - [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
+
 
