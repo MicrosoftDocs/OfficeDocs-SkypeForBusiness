@@ -427,7 +427,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **deleteMeeting** - Select the **Delete** button from the Meeting Details page.
 - **deletePersonalTask** - Confirms a personal task has been successfully deleted.
 - **deletePersonalSubtask** - Confirms a personal sub-task has been successfully deleted.
-- **deletePersonalVaultItem** - User requests to delete their personal Safe.**
+- **deletePersonalVaultItem** - User requests to delete their personal Safe.
 - **deletePlannerTask** - Confirms that a shared task delete operation completed successfully.
 - **deleteShift** - Shift deletion.
 - **duration_picker_dismissed** - When the duration picker is dismissed.
