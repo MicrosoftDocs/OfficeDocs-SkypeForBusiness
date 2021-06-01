@@ -22,6 +22,10 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## June 1, 2021
+
+Collection of Teams diagnostic logs just got easier. By right-clicking on the Teams icon in the system tray and choosing **Collect support files** all desktop and debug logs will be collected in one folder in Downloads. This option will also include media logs (if enabled in Settings). More information can be found at https://docs.microsoft.com/en-us/microsoftteams/log-files. 
+
 ## March 31, 2021
 
 ### Share to Teams from Outlook
