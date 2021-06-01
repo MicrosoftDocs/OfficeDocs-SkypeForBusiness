@@ -43,6 +43,7 @@ The Call Analytics and CQD tools enable you to monitor the quality of calls and 
 
 - Call Quality Dashboard focuses on network performance and issues across an organization. Skype for Business administrators and network engineers use this tool to troubleshoot and optimize network performance.
 
+
 For more information, see [Call Analytics and Call Quality Dashboard diagram with Monitoring Server details.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solution with customized reports and workflows.  Call Data Connector allows you to configure sending data to the online service while also keeping a copy of the data on your on-premises server, as shown in the following diagram:
