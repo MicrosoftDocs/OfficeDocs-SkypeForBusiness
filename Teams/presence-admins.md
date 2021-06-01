@@ -44,7 +44,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 |![Yellow clock icon, indicates away, be right back](media/Presence_Away.png) Be right back| |
 |![Gray circle with x, indicates Offline](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. | |
 || ![Open gray circle, indicates status unknown](media/Presence_Unknown.png) Status unknown|
-|| ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. (Available in Outlook only.) |
+|| ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
 |||
  > [!Note]
  > For users that there mailbox is hosted onprem it is expected to have presence delays with a maximun of an hour.
