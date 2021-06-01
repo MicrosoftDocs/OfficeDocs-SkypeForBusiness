@@ -103,10 +103,6 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Numbers from settings.
 - **blockChat** - Blocking a bot chat. This enhances existing telemetry around chats and is only adding application information.
 - **botClickCardAction** - Connector card usage.
-- **brbFeedback** - Relating to the performance of the BRB feedback form.
-- **brbFormCancelled** - An event sent when the BRB feedback form is cancelled and the user returns to the app.
-- **brbFormOpened** - An event sent when the BRB form is opened.
-- **brbFormSubmit** - An event sent when the user selects **Submit** on the feedback form.
 - **breakStartEndClicked** - On the clock in screen, the **Start** or the **End break** button is selected.
 - **breakStartEndTriggered** - Register a user chooses to use break start or end.
 - **bucketSelected** - Confirms that a bucket has been successfully selected.
@@ -1182,6 +1178,8 @@ action.
 - **voicemail - No AS Assigned** - A speaker taps on a voicemail item.
 - **whiteboardUsed** - A user annotates on a whiteboard (any action on the webview).
 - **wiki - No AS assigned** - Wiki usage telemetry.
+- **poorNetworkBanner** - Poor network banner shown.
+- **badNetworkBanner** - Bad network banner shown.
 
 ### PanelView
 
@@ -1219,6 +1217,11 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
+- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_cold** To monitor cold app launch (Android only).
+- **app_start_hot** To monitor hot app launch (Android only).
+- **app_start_warm** To monitor warm app launch (Android only).
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **cortanaError** To monitor Cortana error happends.
 - **cortanaView** - To monitor Cortana canvas appear.
@@ -1273,6 +1276,18 @@ action.
 - **upload_images** Confirms that the image upload action succeeded or failed.
 - **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
+- **cancel_channel_meeting** Confirms that the cancellation of a channel meeting has succeeded or failed.
+- **cancel_meeting** Confirms that the cancellation of a meeting has succeeded or failed.
+- **cancel_private_meeting** Confirms that the cancellation of a private meeting has succeeded or failed.
+- **edit_channel_meeting** Confirms that the edit operation of a channel meeting has succeeded or failed.
+- **edit_meeting** Confirms that the edit operation of a meeting has succeeded or failed.
+- **server_fetch_agenda_view** Confirms that the calendar event sync using the Middle Tier API has succeeded or failed.
+- **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
+- **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
+- **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
+- **meeting_details** Confirms that the meeting details sync has succeeded or failed.
+- **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
+
 
 ## Property lists
 

@@ -30,7 +30,7 @@ description: Learn how to set up call queues for large organizations in Microsof
 Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 > [!TIP]
-> This article is large organizations. If your organization is a small business, read [Create a call queue - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) instead.
+> This article is for large organizations. If your organization is a small business, read [Create a call queue - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) instead.
 
 Call queues provide:
 
