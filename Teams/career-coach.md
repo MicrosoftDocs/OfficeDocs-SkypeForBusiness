@@ -105,7 +105,7 @@ Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps i
 
 4. Select **Career Coach**, and then select **Settings.**  
 
-    ![shows the Career Coach app selected with the Settings option showing](images/app-settings.png)
+    ![shows the Career Coach app selected with the Settings option showing](media/app-settings.png)
 
 ### Configure the Career Coach app settings
 
@@ -128,7 +128,7 @@ Career Coach has five configuration categories:
 
 Set your educational institution’s name, logo, and default language on the brand and preferences settings page.
 
-![the Career Coach branding section of the admin center](images/brand-preferences.png)
+![the Career Coach branding section of the admin center](media/brand-preferences.png)
 
 ##### Educational institution icon
 
@@ -167,7 +167,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en). The verification link expires after 30 days.  
 
-   ![linkedin settings for the career coach](images/linkedin.png)  
+   ![linkedin settings for the career coach](media/linkedin.png)  
 
 #### Course catalog
 
