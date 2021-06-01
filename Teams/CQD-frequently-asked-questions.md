@@ -45,16 +45,16 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
  
-For audio streams, any of the 5 classifiers, which are calculated for the average based on the length of the call, could all be within "good" parameters. It doesn't mean the users didn't experience something that contributed to an audio drop out, static, or glitch. 
+For audio streams, any of the five classifiers, which are calculated for the average based on the length of the call, could all be within "good" parameters. It doesn't mean the users didn't experience something that contributed to an audio drop out, static, or glitch. 
 
 To determine if it was a network problem, look at the delta between the average values for the session and the max values. Max values are the maximum detected and reported during the session.
  
-Here's an example of how to troubleshoot this situation. Let's say you take a network trace during a call and the first 20 minutes there are no lost packets but then you have a gap of 1.5 seconds of packets and then good for the remainder of the call. The average is going to be <10% (0.1) Packet loss even in a Wireshark trace RTP analysis. What was the Max Packet Loss? 1.5 Seconds in a 5-second period would be 30% (0.3). Did that occur within the five second sampling period (maybe or it could be split over the sampling period)?
+Here's an example of how to troubleshoot this situation. Let's say you take a network trace during a call and the first 20 minutes there are no lost packets but then you have a gap of 1.5 seconds of packets and then good for the remainder of the call. The average is going to be <10% (0.1) Packet loss even in a Wireshark trace RTP analysis. What was the Max Packet Loss? 1.5 Seconds in a 5-second period would be 30% (0.3). Did that occur within the 5-second sampling period (maybe or it could be split over the sampling period)?
  
 If network metrics look good in the averages and max values, then look to other telemetry data: 
 - Check CPU Insufficient Event Ratio to see if the detected CPU resources available were insufficient and caused poor quality. 
 - Was the audio device in Half Duplex mode to prevent feedback due to microphones that are to close to speakers? 
-- Check the Device Half Duplex AEC Event Ratio. Was the device glitching or the microphone glitching introducing noise or static due to USB Audio Drop outs when plugged into a Hub or Docking Station:  
+- Check the Device Half Duplex AEC Event Ratio. Was the device glitching or the microphone glitching introducing noise or static due to USB Audio Drop outs when plugged into a Hub or Docking Station?  
 - Check the Device Glitches and Microphone glitches event ratios. Was the device itself functioning properly?  
 - Check the Capture and Render Device Not Functioning Event Ratios.
 
