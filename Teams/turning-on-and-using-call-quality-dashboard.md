@@ -30,7 +30,7 @@ Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
-On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Administrator account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
+On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
 
 CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. 
 
@@ -48,7 +48,7 @@ If you want non-admin users (such as support engineers and helpdesk agents) to u
 |  |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Global Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
 |Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |

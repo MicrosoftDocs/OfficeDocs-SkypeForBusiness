@@ -129,24 +129,6 @@ Keep in mind the following:
 
 For more information about using the Graph API to update apps, see <a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">here</a>.
 
-### Update experience for users
-
-In most cases, after you publish an app update, the new version automatically appears for users. However, there are some updates to the <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
-
-* A bot was added or removed
-* An existing bot's "botId" property changed
-* An existing bot's "isNotificationOnly" property changed
-* The bot's "supportsFiles" property changed
-* A messaging extension was added or removed
-* A new connector was added
-* A new static tab was added
-* A new configurable tab was added
-* Properties inside "webApplicationInfo" changed
-
-![new version available](media/manage-your-custom-apps-update1.png)
-
-![upgrade option for an app](media/manage-your-custom-apps-update2.png)
-
 ## Related topics
 
 - [Publish a custom app by uploading an app package](upload-custom-apps.md)

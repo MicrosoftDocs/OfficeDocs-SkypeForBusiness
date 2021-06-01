@@ -25,6 +25,8 @@ description: "Customize Skype meeting invitations with graphic logos, help and l
 
 # Customize meeting invitations
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 As an admin, you can ensure that all Skype for Business meeting invitations include some helpful information your users might need, such as links to your support website and legal disclaimer, your company logo, and other text you want to include. 
   
 ## Tips for creating a logo for meeting invitations

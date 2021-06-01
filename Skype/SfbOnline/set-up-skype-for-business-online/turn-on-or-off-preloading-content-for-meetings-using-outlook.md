@@ -23,6 +23,8 @@ description: "See how to turn preloaded content on or off for Skype for Business
 
 # Turn on or off allowing content to be preloaded for meetings using Outlook
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Users can preload content, files, or attachments that are attached to an Outlook meeting invitation to a Skype for Business Online meeting, but you can it turn on or off. It's turned on by default for all organizations that are using Skype for Business Online. See how to [Preload attachments for a Skype for Business meeting](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]

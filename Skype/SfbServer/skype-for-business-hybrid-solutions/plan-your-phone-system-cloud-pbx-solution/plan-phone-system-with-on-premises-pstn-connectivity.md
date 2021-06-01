@@ -29,7 +29,7 @@ description: "Learn about the planning considerations for Phone System (Cloud PB
 
 Learn about the planning considerations for Phone System (Cloud PBX) with on-premises PSTN connectivity.
 
-This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](../../../SfbHybrid/hybrid/msft-telephony-solutions.md).
+This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](/microsoftteams/cloud-voice-landing-page).
 
  Phone System with on-premises PSTN connectivity enables you to leverage Phone System (Cloud PBX) capabilities for your users. This can help with the following scenarios:
 

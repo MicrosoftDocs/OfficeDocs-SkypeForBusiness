@@ -27,28 +27,34 @@ This article describes how apps in Teams behave when guest, external (federated)
 
 - An **external (federated) user** belongs to another domain and has no access to your organization's teams or team resources.
 
->[!Note]
-> For a more detailed comparison of guest versus external users, [see communicate with users from other organizations](./communicate-with-users-from-other-organizations.md).
+  > [!Note]
+  > For a more detailed comparison of guest versus external users, [see communicate with users from other organizations](./communicate-with-users-from-other-organizations.md).
 
 - An **anonymous user** is a concept in Teams meetings where the user has joined the meeting via a link. The user hasn't logged in with their Microsoft or organization’s account.
 
-## Guest user access
+## Guest users
 
 ### Install, update, and delete for guest users
 
-Guests can't install, update, or delete apps into a shared context, such as a chat, channel, or meeting. They can install, update, or delete apps to their personal scope using message extensions and direct links. Guests don't have access to the Teams app store.
+Guests can't install, update, or delete apps into a shared context, such as a chat, channel, or meeting, but they can to their personal scope using message extensions and direct links. Guests don't have access to the Teams app store from the Teams desktop application, but they can access it with a direct link.
 
-### Usage behavior and policy for guest users
+### Usage behavior and policy for guest users 
 
 Guests can use an app if the app was installed by a native user.
 
-Bots can proactively message guest users, but guests can't interact with the bot. Guests can't message the bot 1:1, @ mention the bot, or interact with adaptive cards that communicate with the bot.
+#### Bots installed to a channel
 
-Guests will adhere to global and org-wide permission policies set for the host tenant for any app. In other words, if an app is blocked for the whole host organization, then guests can't use the app either.
+Bots can proactively message guest users, but guests can't interact with the bot. Guests can't message the bot one-to-one, mention the bot, or interact with adaptive cards that communicate with the bot.
 
-Setup policies don't apply to guest users. This means admin pinned app from the default policy doesn't affect guest users.
+#### Personal bots installed with policies
 
-## External (Federated) user access
+- Guests will adhere to global and org-wide permission policies set for the host tenant for any app. If an app is blocked for the whole host organization, then guests can't use the app either.
+- Any bot included in the global default app setup policy will also be installed for guests.
+- After a bot is installed, bots can proactively communicate with guests and guests can communicate back with bots.
+- You can't remove a guest from the global default app setup policy.
+- To avoid guest from accessing bots, you can create more app setup policies, assign them to internal users, and install bots with the custom policies.
+
+## External (Federated) users
 
 ### Install, update, and delete for external users
 
@@ -56,11 +62,12 @@ External users can't install, update, or delete apps into any context, such as a
 
 ### Usage behavior and policy for external users
 
-External users can't use any Teams apps, and when an external user is added to a context with native users, all users – native and external – can no longer use apps.
+- People from other organizations adhere to the hosting organization's default user permission policy and org-wide settings.
+- Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations cannot add apps in meeting chats but can interact with bots and tabs once added to the chat.
+- After a bot is installed in a chat, it can proactively communicate with people from other organizations in that chat and those people can communicate with bot.
+- The data policies of the hosting organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
-External users aren't impacted by app policies, because they can't use Teams apps.
-
-## Anonymous user in meetings access
+## Anonymous users
 
 ### Install, update, and delete for anonymous users
 
@@ -68,6 +75,6 @@ Anonymous users can't install, update, or delete apps in meetings.
 
 ### Usage behavior and policy for anonymous users
 
-Anonymous users can't directly use apps in meetings. Native users can continue to use meetings apps if anonymous users are present. If an app sends an adaptive card in the chat, anonymous users can interact with the card For more information, see [Allow anonymous users to join meetings](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings).
+Anonymous users can't directly use apps in meetings. Native users can continue to use meetings apps if anonymous users are present. If an app sends an adaptive card in the chat, anonymous users can interact with the card. For more information, read [Allow anonymous users to join meetings](/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings).
 
 Anonymous users will inherit the user-level global default permission policy. They can interact with apps in Teams meetings if the user-level permission policy has enabled the app. Anonymous users can only interact with apps that are already available in a meeting and can't acquire and/or manage these apps.

@@ -11246,6 +11246,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "SkypeForBusiness/hybrid/msft-telephony-solutions.md",
+      "redirect_url": "/MicrosoftTeams/cloud-voice-landing-page",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/quick-start-enable-teams.md",
       "redirect_url": "/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page",
       "redirect_document_id": true
@@ -12321,14 +12326,14 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/retail-teams-templates-in-the-admin-console.md",
+      "redirect_url": "/microsoftteams/get-started-with-retail-teams-templates",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/Teams-dependencies.md",
       "redirect_url": "/microsoft-365/solutions/collaborate-as-team",
       "redirect_document_id": false
-    },
-    {
-      "source_path": "Teams/operator-connect-data-transfer.md",
-      "redirect_url": "https://docs.microsoft.com/microsoftteams/",
-      "redirect_document_id": true
     },
     {
       "source_path": "Teams/meeting-policies-in-teams.md#bkaudioandvideo",
@@ -12349,8 +12354,42 @@
       "source_path": "Teams/meeting-policies-in-teams.md#bkparticipantsandguests",
       "redirect_url": "/microsoftteams/meeting-policies-participants-and-guests",
       "redirect_document_id": true
+    },
+    {  
+      "source_path": "Teams/data-collection-practices.md",
+      "redirect_url": "/microsoftteams/teams-privacy", 
+      "redirect_document_id": true 
+    },
+    {  
+      "source_path": "Teams/upgrade-automated.md",
+      "redirect_url": "/microsoftteams/upgrade-assisted", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/teams-learning-app-overview.md",
+      "redirect_url": "/microsoft-365/learning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/business-voice/use-getting-started-wizard.md",
+      "redirect_url": "/microsoftteams/business-voice/set-up-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-standalone-static-tabs-using-spo-sites.md",
+      "redirect_url": "/sharepoint/viva-connections",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/patients-app-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/patients-app-overview",
+      "redirect_document_id": true
     }
-  ]
+] 
 }
-
 

@@ -38,7 +38,7 @@ To share calls with others, a user creates a call group and adds the users they 
 
 ## License required
 
-Users must be Enterprise Voice enabled to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
+Users must be assigned a Microsoft Teams Phone System license to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Here's what you get with Phone System](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 ## Configure group call pickup
 
@@ -52,7 +52,7 @@ Important: When admins turn off call groups for users (after it has been turned 
 
 ## Limitations
 
-A tenant can contain a maximum of 32,768 call groups. There can be a maximum of 25 users in each call group. 
+Each configured call group can have a maximum of 25 users or 32,768 characters. 
 
 ## More information
 
