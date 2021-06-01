@@ -1273,6 +1273,18 @@ action.
 - **upload_images** Confirms that the image upload action succeeded or failed.
 - **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
+- **cancel_channel_meeting** Confirms that the cancellation of a channel meeting has succeeded or failed.
+- **cancel_meeting** Confirms that the cancellation of a meeting has succeeded or failed.
+- **cancel_private_meeting** Confirms that the cancellation of a private meeting has succeeded or failed.
+- **edit_channel_meeting** Confirms that the edit operation of a channel meeting has succeeded or failed.
+- **edit_meeting** Confirms that the edit operation of a meeting has succeeded or failed.
+- **server_fetch_agenda_view** Confirms that the calendar event sync using the Middle Tier API has succeeded or failed.
+- **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
+- **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
+- **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
+- **meeting_details** Confirms that the meeting details sync has succeeded or failed.
+- **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
+
 
 ## Property lists
 
