@@ -1416,6 +1416,8 @@ items:
           items: 
             - name: Virtual visits with Teams - Integration into EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
+            - name: EHR admin reports
+              href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual visits with Bookings and Teams
               href: bookings-app-admin.md
         - name: View and assign policy packages
