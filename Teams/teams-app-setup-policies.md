@@ -25,6 +25,10 @@ ms.custom:
 
 As an admin, you can use app setup policies to install and pin apps to promote the most used apps in your organization, and to decide if you want users to upload custom apps to Teams.
 
+- **Pin apps:** app setup policies let you choose apps to pin, set the order they show up in for your users, and control whether or not users can pin their own apps to the Teams app bar. For more information, see [Pin apps](#pin-apps).
+- **Install apps:** app setup policies let you install apps on behalf of users when they start Teams and during meetings. For more information, see [Install apps](#install-apps).
+- **Upload custom apps:** app setup policies let you allow users to upload custom apps to Teams. For more information, see [Upload custom apps](Upload-custom-apps).
+
 ## Pin apps
 
 Pinning apps lets you showcase apps that users in your organization need, including apps built by third parties or by developers in your organization.
@@ -203,7 +207,7 @@ Admin pins always take precedence. If the **Allow user pinning** option is turne
 
 ### Custom Teams apps
 
-My organization built a custom Teams app and published it, either to AppSource or the tenant app catalog, but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it
+#### My organization built a custom Teams app and published it, either to AppSource or the tenant app catalog, but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 
