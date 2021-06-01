@@ -53,11 +53,11 @@ You can view every app including the following information about each app.
 - **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
 - **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
-- **View details**: The app has permissions that require consent before the app can access data. 
+- **View details**: The app has permissions that require consent before the app can access data.
 - **- -**: The app doesn't have permissions that need consent.
 - **Categories**: Categories that apply to the app.
 - **Version**: App version.
-- **Admin can install in meetings**: Indicates whether the app can be pre-installed for Teams meetings.
+- **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
 
 To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
 
