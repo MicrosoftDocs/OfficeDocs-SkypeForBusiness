@@ -21,11 +21,14 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test auto attendants for Microsoft Teams."
+description: "Learn how to set up and test auto attendants for large organizations in Microsoft Teams."
 --- 
 # Set up an auto attendant
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell.
+
+> [!TIP]
+> This article is large organizations. If your organization is a smaall business, read [Set up an auto attendant - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) instead.
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
@@ -48,6 +51,12 @@ You'll be prompted to choose one of these options at various stages as you set u
 > - **Suppress Greeting** (Default: Off) - when enabled, the standard system message "Please leave a message after the tone. When you have finished please hang up or press the hash key for more options." will be suppressed.
 
 To set up an auto attendant, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
+
+## Video demonstration
+
+This video shows a basic example of how to create an auto attendant in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
 ## General info
 

@@ -1,7 +1,7 @@
 ---
 title: PSTN considerations when upgrading to Teams from Skype for Business
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,8 +21,9 @@ appliesto:
 
 # PSTN considerations for upgrading to Teams from Skype for Business on-premises
 
-This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.   
+This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.
 
+[!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 

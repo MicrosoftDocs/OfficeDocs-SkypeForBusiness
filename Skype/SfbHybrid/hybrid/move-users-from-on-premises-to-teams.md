@@ -41,13 +41,16 @@ Before moving any users, be sure to review the [prerequisites](move-users-betwee
 > Unified Contact Store should be disabled on the on-prem SfB account for the contact to be moved to Teams.
 
 
-There are two methods to move a user from on premises to Teams:
+There are *currently* two methods to move a user from on premises to Teams:
 
 - If you are using a version earlier than Skype for Business Server 2015 CU8, the move requires two steps (which can be scripted to be done together as a single step, if desired):
   - [Move the user from Skype for Business Server (on premises) to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
   - Once the user is homed in Skype for Business Online, assign the user TeamsUpgradePolicy with mode= TeamsOnly. To grant TeamsOnly mode, run the following cmdlet from a Skype for Business Online PowerShell window:
         `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - If you have admin tools from Skype for Business Server 2015 CU8 or later, you can use the method above, or you can do this move in one step as described below. In addition, you can optionally provide a notification within the Skype for Business client prior to moving them to Teams Only as well as optionally have the Teams client silently downloaded by the Skype for Business client.
+
+> [!NOTE]
+> In preparation for the upcoming retirement of Skype for Business Online, Microsoft will be simplifying how organizations move to Teams in the near future. When moving a user from on-premises to Teams, it will soon no longer be required to specify the `-MoveToTeams` switch in `Move-CsUser` to move users directly from on-premises to TeamsOnly. Currently if this switch is not specified, users transition from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remains unchanged. After retirement, when moving a user from on-premises to the cloud with `Move-CsUser`, users will automatically be assigned TeamsOnly mode and their meetings from on-premises will be automtically converted to Teams meetings, just as if the `-MoveToTeams switch had been specified`, regardless of whether the switch is actually specified. We expect to release this functionality before the actual retirement of July 31, 2021.
 
 ## Move a user directly from Skype for Business on premises to Teams Only
 

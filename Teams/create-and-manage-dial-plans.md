@@ -25,7 +25,7 @@ description: Learn how to use the Microsoft Teams admin center or Windows PowerS
 
 # Create and manage dial plans
 
-After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans. You can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
+After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans. With an administrator account that has a valid Teams license, you can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
 
 ## Using the Microsoft Teams admin center
 

@@ -23,6 +23,8 @@ description: "How to sigh up for an IP Relay account for Canada."
 
 # IP Relay in Canada - sign up
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 To get an IP Relay account set up for Canada, please complete the information in the table below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
 |||

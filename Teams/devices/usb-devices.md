@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Microsoft Teams"
-ms.author: dmaguire
-author: msdmaguire
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -69,15 +69,21 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated April 2021*
+*Table Updated May 2021*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logitech             |C920e Webcam                                               |4/22/2021       |Certified for Microsoft Teams                           |
+|Poly                 |Studio P5 Webcam                                           |4/22/2021       |Certified for Microsoft Teams                           |
+|Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Biz 2300                                                   |4/22/2021       |Skype for Business with upgrade to Microsoft Teams      |
+|Microsoft            |Modern Wireless Headset                                    |4/19/2021       |Certified for Microsoft Teams                           |
 |Microsoft            |Modern USB-C Speaker                                       |4/15/2021       |Certified for Microsoft Teams                           |
 |Microsoft            |Modern USB Headset                                         |4/15/2021       |Certified for Microsoft Teams                           |
 |Yealink              |UVC20 Webcam                                               |3/30/2021       |Certified for Microsoft Teams                           |
 |Microsoft            |Modern Webcam                                              |3/24/2021       |Certified for Microsoft Teams                           |
 |EPOS/Sennheiser      |Adapt 200 Series Headsets                                  |3/19/2021       |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Focus 2 Headset                                    |3/11/2021       |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Certified for Microsoft Teams                           |
 |Microsoft            |Surface Headphones 2+                                      |2/26/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P15 Video bar                                       |2/1/2021        |Certified for Microsoft Teams                           |
@@ -109,6 +115,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Business with upgrade to Microsoft Teams      |
+|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 660 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 630 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |
 |EPOS/Sennheiser      |Impact SC 260 with USB-ED CC 01 MS connector               |8/20/2020       |Skype for Business with upgrade to Microsoft Teams      |

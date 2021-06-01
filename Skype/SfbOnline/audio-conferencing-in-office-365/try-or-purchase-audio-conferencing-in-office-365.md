@@ -25,6 +25,8 @@ description: "See how to try or purchase Audio Conferencing (PSTN conferencing) 
 
 # Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!Note]
 > For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
 

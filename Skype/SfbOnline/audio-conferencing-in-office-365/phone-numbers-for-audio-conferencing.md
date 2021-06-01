@@ -26,6 +26,8 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 
 # Phone numbers for Audio Conferencing in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!NOTE]
 > For information about phone numbers in Microsoft Teams, see [Phone numbers for Audio Conferencing in Microsoft Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
 

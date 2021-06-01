@@ -81,7 +81,7 @@ For example, assume the user is external, and the tenant administrator decided n
 
 - Teams Transport Relays are used.
 
-- For media bypass, Microsoft uses a version of Transport Relays that requires opening ports 50 000 to 59 999 between the Teams Transport Relays and the SBC (in the future we plan to move to the version which requires only 3478 and 3479 ports).
+- For media bypass, Microsoft uses a version of Transport Relays that requires opening ports 50 000 to 59 999 between the Teams Transport Relays and the SBC (in the future we plan to move to the version which requires 3478-3481 ports).
 
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
@@ -195,13 +195,15 @@ You must place these three FQDNs in order to:
 
 The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **sip3.pstnhub.microsoft.com** will be resolved to one of the following IP addresses:
 - 52.114.148.0
-- 52.114.132.46
+- 52.114.132.46 
+- 52.114.75.24 
+- 52.114.76.76 
+- 52.114.7.24 
+- 52.114.14.70
 - 52.114.16.74
 - 52.114.20.29
-- 52.114.75.24
-- 52.114.76.76
-- 52.114.7.24
-- 52.114.14.70
+- 52.114.36.156 
+- 52.114.32.169
 
 You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP addresses. 
 
@@ -260,8 +262,8 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Client | SBC | 50 000 – 50 019  | Defined on the SBC |
-| UDP/SRTP | SBC | Client | Defined on the SBC | 50 000 – 50 019  |
+UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
+| UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and 49152 – 53247  |
 
 
 > [!NOTE]
@@ -290,7 +292,7 @@ The port range of the Teams Transport Relays (applicable to all environments) is
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
-| UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478, 3479     |
+| UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -298,11 +300,11 @@ UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
 > 
 > - v4, which can only work with port range 50 000 to 59 999
 > 
-> - v6, which works with ports 3478, 3479
+> - v6, which works with ports 3478-3481
 
 At this time, media bypass only supports v4 version of Transport Relays. We will introduce support of v6 in the future. 
 
-You need to open ports 3478 and 3479 for transitioning. When Microsoft introduces support for v6 Transport Relays with Media Bypass, you will not need to reconfigure your network equipment or SBCs. 
+You need to open ports 3478-3481 for transitioning. When Microsoft introduces support for v6 Transport Relays with Media Bypass, you will not need to reconfigure your network equipment or SBCs. 
 
 ### Requirements for using media processors
 
@@ -327,8 +329,8 @@ The port range of the Media Processors (applicable to all environments) is shown
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Media Processor | SBC | 3478, 3479 and 49 152 – 53 247    | Defined on the SBC |
-| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478, 3479 and 49 152 – 53 247     |
+UDP/SRTP | Media Processor | SBC | 3478-3481 and 49 152 – 53 247    | Defined on the SBC |
+| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478-3481 and 49 152 – 53 247     |
 
 ## Configure separate trunks for media bypass and non-media bypass  
 

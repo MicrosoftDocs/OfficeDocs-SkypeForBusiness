@@ -23,6 +23,8 @@ description: Learn the deployment steps to get the correct firmware, update it i
 ---
 
 # Set up common area phones
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
 
 ## Prerequisites for common area phones

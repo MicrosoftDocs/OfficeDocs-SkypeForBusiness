@@ -23,6 +23,8 @@ description: "The new Skype for Business Admin Center Reports area shows you cal
 
 # PSTN minute pools report
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 >[!NOTE]
 >This report is only available to preview customers.
 

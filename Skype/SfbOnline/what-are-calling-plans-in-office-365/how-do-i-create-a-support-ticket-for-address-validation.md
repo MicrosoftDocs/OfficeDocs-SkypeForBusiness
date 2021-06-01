@@ -26,6 +26,8 @@ description: "Address validation is an important part of setting up Calling Plan
 
 # How do I create a support ticket for address validation?
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
 Address validation is an important part of setting up Calling Plans. It provides a user in your organization an emergency calling address that can be used by emergency response services. How you do this is based on the size of your organization.
 
 > [!NOTE]
