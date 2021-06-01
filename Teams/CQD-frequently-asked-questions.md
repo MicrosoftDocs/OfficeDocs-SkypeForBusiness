@@ -98,7 +98,7 @@ CQDv2 and CQDv3 will always have different total counts since CQDv3 will have ne
 
 Depending on Customers’ scenario, CQDv3 will include SFB 2019 on-premises calls (if SFB 2019 is used with a data connector), Skype Bot calls (AA, CVI, VDI), Live Events and PSTN calls. Scenarios/Features which are available for the customers, but their data are not in CQD V2.
 
-For instance, it is expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report; versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls etc) in CQD V3.
+For instance, it is expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report; versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls, etc.) in CQD V3.
 
 In order to determine, if there are any unexpected differences, you must look at various breakdowns of the overall data.  Compare with intent.  Slicing the data by User Agent Category Pair is one of the first things we recommend.  *First Product* and *Second Product* are also good slicers.  
 
