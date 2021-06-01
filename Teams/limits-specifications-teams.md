@@ -113,17 +113,6 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 ## Meetings and calls
 
-> [!IMPORTANT]
-> **Microsoft 365 live event limit increases**
->
-> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
->
->- Event support for up to 20,000 attendees
->- 50 events can be hosted simultaneously across a tenant
->- Event duration of 16 hours per broadcast
->
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting (can chat and call in)  | 1000, includes GCC but not yet for GCCH, DoD, or A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). Learn more about the [View-only experience](view-only-meeting-experience.md).|
