@@ -228,7 +228,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | Russia          | RU |
 | Rwanda          | RW |
 | Saba            | XS |
-| Saint Barthelemy | BL |
+| Saint Barthélemy | BL |
 | Saint Kitts and Nevis | KN |
 | Saint Lucia     | LC |
 | Saint Martin    | MF |
