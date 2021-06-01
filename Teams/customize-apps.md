@@ -1,5 +1,5 @@
 ---
-title: Customize Microsoft apps in Teams
+title: Customize apps in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -34,7 +34,7 @@ description: Learn how to customize apps in Microsoft Teams.
 - Outline icon
 - Accent color
 
-See the [Teams Manifest schema](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) for details about the fields that you can customize.
+See the [Teams Manifest schema](/microsoftteams/platform/resources/schema/manifest-schema) for details about the fields that you can customize.
 
 > [!NOTE]
 > Customizing apps isn't supported in Government Community Cloud High (GCCH) or Department of Defense (DoD) at this time.
@@ -168,3 +168,4 @@ No, the permission consent screen will still show the original value sent by the
 
 - [Manage apps](manage-apps.md)
 - [Customize your app store](customize-your-app-store.md)
+- [Rebrand your apps](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)

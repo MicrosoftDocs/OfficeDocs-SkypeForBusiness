@@ -21,11 +21,14 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test auto attendants for Microsoft Teams."
+description: "Learn how to set up and test auto attendants for large organizations in Microsoft Teams."
 --- 
 # Set up an auto attendant
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell.
+
+> [!TIP]
+> This article is for large organizations. If your organization is a small business, read [Set up an auto attendant - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) instead.
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
@@ -49,6 +52,12 @@ You'll be prompted to choose one of these options at various stages as you set u
 
 To set up an auto attendant, in the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
 
+## Video demonstration
+
+This video shows a basic example of how to create an auto attendant in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
+
 ## General info
 
 ![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs](media/auto-attendant-general-info-page-new.png)
@@ -63,8 +72,8 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, select
 
 5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-> [!NOTE]
-> If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
+   > [!NOTE]
+   > If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
 
 6. Select **Next**.
 

@@ -152,7 +152,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Duration (Minutes)  | Range (minutes)  | Duration of stream in minutes. Values grouped by range. <br/> **Example value:** 065: [3–4) ||
 | Duration (Seconds)  | Range (seconds) | Duration of stream in seconds. Values grouped by range. <br/> **Example value:** 062: [1 -2)||
 |**Date**|||
-|End Time|  String| Time of day the call ended.|&bull; Call setup failed |
+|End Time|  String| Time of day the call ended.|&bull; Call setup failed or was not established (see CDR Response Reason) |
 | Year  | Integer  | Year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2018 | |
 | Month  | Integer  | Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2 | |
 | Day  | Integer  | Day of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 1 | |
@@ -163,10 +163,10 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Day Of Year  | Integer  | Day of year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 32 | |
 | Day Of Week  | String  | Day of week of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** Wednesday | |
 | Day Number Of Week  | Integer  | Day number of week of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 3 | |
-|Week|  String  |Starting date of the week  in which the call took place. <br/> **Example value:** 2019-09-01 |&bull; Call setup failed |
+|Week|  String  |Starting date of the week  in which the call took place. <br/> **Example value:** 2019-09-01 |&bull; Call setup failed or was not established (see CDR Response Reason) |
 | Month Year  | String  | Month and year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02 | |
 | Full Month  | Date time  | Full Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02-01T00:00:00 | |
-|Start time|String  |Time of day the call started.|&bull; Call setup failed |
+|Start time|String  |Time of day the call started.|&bull; Call setup failed or was not established (see CDR Response Reason) |
 |**UserAgent** | | |
 | First Domain  | String  | Domain of the first endpoint's user. If the first endpoint is a conference server, it uses the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario.  <br/> **Example value:** contoso<span></span>.com | |
 | Second Domain  | String  | Domain of the second endpoint's user. If the second endpoint is a conference server, it uses the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario. <br/> **Example value:** contoso<span></span>.com  | |
@@ -411,12 +411,12 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second User ObjectId|String|The Active Directory object ID of the second endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. | |
 | First MAC Address|String|The media access control (MAC) address of the first endpoint's network device. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| |
 | Second MAC Address|String|The media access control (MAC) address of the second endpoint's network device. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| |
-| First Sip Uri|String|The Session Initiation Protocol (SIP) URI of the first endpoint's user. Populated only for Skype for Business endpoints. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| Second Sip Uri|String|The SIP URI of the first endpoint's user. Populated only for Skype for Business endpoints. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| First Phone Number|String|The phone number of the first endpoint's user. Populated only for PSTN endpoints. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| Second Phone Number|String|The phone number of the second endpoint's user. Populated only for PSTN endpoints. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| First UPN|String|The user principal name (UPN) of the first endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| Second UPN|String|The user principal name (UPN) of the second endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| <br/>&bull; Not all UserTypes have UPNs; include the Second UserType or Second User ObjectId dimensions to learn more about these endpoints |
+| First Sip Uri|String|The Session Initiation Protocol (SIP) URI of the first endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User does not have permissions to view EUII. |
+| Second Sip Uri|String|The SIP URI of the first endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints.<br/>&bull; User does not have permissions to view EUII. |
+| First Phone Number|String|The phone number of the first endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. The last four digits of PSTN numbers are always obfuscated in CQD irrespective of EUII viewing privileges.<br/> **Example value:** +1425555****| &bull; Populated only for PSTN endpoints. <br/>&bull; User does not have permissions to view EUII. |
+| Second Phone Number|String|The phone number of the second endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. The last four digits of PSTN numbers are always obfuscated in CQD irrespective of EUII viewing privileges.<br/> **Example value:** +1425555**** | &bull; Populated only for PSTN endpoints.<br/>&bull; User does not have permissions to view EUII. |
+| First UPN|String|The user principal name (UPN) of the first endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Not all UserTypes have UPNs; include the Second UserType or Second User ObjectId dimensions to learn more about these endpoints. |
+| Second UPN|String|The user principal name (UPN) of the second endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Not all UserTypes have UPNs; include the Second UserType or Second User ObjectId dimensions to learn more about these endpoints. |
 | First Feedback Text|String|Verbatim feedback text, if any, provided by first endpoint's user at the end of a call. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. | |
 | Second Feedback Text|String| Verbatim feedback text, if any, provided by second endpoint's user at the end of a call. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
 | First Client Endpoint Name|String|The machine name of the first endpoint. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
