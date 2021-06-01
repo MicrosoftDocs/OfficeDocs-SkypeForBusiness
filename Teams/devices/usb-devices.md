@@ -73,6 +73,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|NEC                  |WD551 Windows Collaboration Display                        |5/21/2021       |Certified for Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |Certified for Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business with upgrade to Microsoft Teams      |
