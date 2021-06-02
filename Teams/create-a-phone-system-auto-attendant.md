@@ -28,7 +28,7 @@ description: "Learn how to set up and test auto attendants for large organizatio
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, call queue, person, or an operator. You can create auto attendants for your organization with the Microsoft Teams admin center, or with PowerShell.
 
 > [!TIP]
-> This article is large organizations. If your organization is a smaall business, read [Set up an auto attendant - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) instead.
+> This article is for large organizations. If your organization is a small business, read [Set up an auto attendant - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) instead.
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
@@ -72,8 +72,8 @@ This video shows a basic example of how to create an auto attendant in Teams.
 
 5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-> [!NOTE]
-> If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
+   > [!NOTE]
+   > If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
 
 6. Select **Next**.
 
