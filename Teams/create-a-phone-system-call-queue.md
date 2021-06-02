@@ -54,15 +54,40 @@ This video shows a basic example of how to create a call queue in Teams.
 
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
-### Resource account and language
+Type a name for the call queue.
 
-![Screenshot of resource account and language settings](media/call-queue-name-language.png)
+### Resource accounts
 
-1. Type a name for the call queue.
+![Screenshot of resource account settings](media/call-queue-name-language.png)
 
-2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
+Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+
+
+
+
+### Assign calling ID
+
+![Screenshot of calling ID settings](media/call-queue-assign-calling-id.png)
+call-queue-assign-calling-id.png
+
+Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
+
+> [!NOTE]
+> Only resource accounts with phone numbers assigned may be used here.
+> This feature is currently only available to agents in call queues that use a Teams channel. To set the outbound calling ID for agents in non-Teams channel call queues see [Caller ID for outbound calls](create-a-phone-system-call-queue.md#caller-id-for-outbound-calls).
+
+### Language
+
+
+
+
+Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+
+
+
+
+
 
 ### Greetings and music on hold in queue
 
