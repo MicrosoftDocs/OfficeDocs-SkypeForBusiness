@@ -103,10 +103,6 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Numbers from settings.
 - **blockChat** - Blocking a bot chat. This enhances existing telemetry around chats and is only adding application information.
 - **botClickCardAction** - Connector card usage.
-- **brbFeedback** - Relating to the performance of the BRB feedback form.
-- **brbFormCancelled** - An event sent when the BRB feedback form is cancelled and the user returns to the app.
-- **brbFormOpened** - An event sent when the BRB form is opened.
-- **brbFormSubmit** - An event sent when the user selects **Submit** on the feedback form.
 - **breakStartEndClicked** - On the clock in screen, the **Start** or the **End break** button is selected.
 - **breakStartEndTriggered** - Register a user chooses to use break start or end.
 - **bucketSelected** - Confirms that a bucket has been successfully selected.
@@ -342,6 +338,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **companionDismissProximity** - Dismiss the companion banner.
 - **companionJoin** - Join as companion option is selected on the sheet.
 - **companionJoinProximity** - Joined through tje companion banner.
+- **completeVaultFRE** - User completes process of generating a master key which is used to encrypt their Safe data.
 - **completionStateChange** - Triggers when a completed or uncompleted filter toggle is selected in filter view from task list.
 - **composeExpandComposer** - **Format** button tapped.
 - **composeFilePick** - Native file picker launched.
@@ -430,6 +427,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **deleteMeeting** - Select the **Delete** button from the Meeting Details page.
 - **deletePersonalTask** - Confirms a personal task has been successfully deleted.
 - **deletePersonalSubtask** - Confirms a personal sub-task has been successfully deleted.
+- **deletePersonalVaultItem** - User requests to delete their personal Safe.
 - **deletePlannerTask** - Confirms that a shared task delete operation completed successfully.
 - **deleteShift** - Shift deletion.
 - **duration_picker_dismissed** - When the duration picker is dismissed.
@@ -569,6 +567,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **funSelectItem** - Giphy image chosen. Success data for the giphy attachment feature in Teams.
 - **galleryImage** - Image uploaded - gallery.
 - **get_directions_clicked** - The **Get directions** button is selected.
+- **giphyUserDisabled** - User selects to decline Giphy terms/conditions.
+- **giphyUserEnabled** - User selects to accept Giphy terms/conditions.
 - **goToNotificationSettings** - Go to the notification settings page from **we updated notification settings** dialog.
 - **GPSPromptClicked** - The **Allow** or **Don't Allow** is selected in an OS prompt. either allowing GPS or not.
 - **group_map_closed** - A user opens the map viw from chat.
@@ -615,6 +615,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **labelSelected** - Confirms that a label has been successfully selected.
 - **labelUnselected** - Confirms that a label has been successfully unselected.
 - **launchLinksGallery** - When a user enters the links gallery from the dashboard.
+- **launchSlideshow** - User Launches Slideshow full screen image viewer from one of three possible app feature locations. 
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
@@ -654,7 +655,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **location_sharing_stop** - A user stops sharing their live location in a chat.
 - **loginFailed** - User was unable to login.
 - **loginSuccess** - User was able to login.
+- **logoutVault** - User logs out of the app and in turn logs out of Safe. 
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
+- **manageVaultKey** - User changes their Safe key management choice (MSA vs self tracked).
 - **manualSendMessage** - A message is sent out manually.
 - **mapAppPicker** - When a user selects which mapping app to use when they tap on a location card.
 - **markAsRead** - Mark as read.
@@ -706,6 +709,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **meetingUserFreemium** - A freemium user joined the meeting.
 - **meetingUserGuest** - A guest user joined the meeting.
 - **meetingUserTenant** - An in-tenant user joined the meeting.
+- **memeGenerated** - When a meme is generated given a user input of image and text data. 
 - **messageCopyMessage** - Copy Message.
 - **messageDelete** - Message delete.
 - **messageEditMessage** - Edit message.
@@ -938,6 +942,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **requestToJoinTeam** - Request to join team (public or private).
 - **requestToJoinTeamError** - Error with join request.
 - **requestTypeClicked** - Determining the type of request people select from the requests picker.
+- **resetLocalVault** - User resets and clears all Safe data from their device.
 - **resolveIssue** - **Resolve** is selected in the notification troubleshooter flyout to navigate to the blocker app.
 - **responseClicked** - A user selects a response page.
 - **retryButtonClicked** - The **Retry** button is selected.
@@ -1001,6 +1006,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **Setting/Dismiss** - Device contacts setting.
 - **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
 - **settingsOpened** - This is triggered when the user's device time zone doesn't match the team time zone, and the user goes to Settings.
+- **setupPinVault** - User saves a Safe pin for their account. 
 - **shareFile** - Triggered when **Share file** is selected. Also helps to check if:
   - The user was able to initiate share file operation.
   - The user can share a file successfully.
@@ -1182,6 +1188,8 @@ action.
 - **voicemail - No AS Assigned** - A speaker taps on a voicemail item.
 - **whiteboardUsed** - A user annotates on a whiteboard (any action on the webview).
 - **wiki - No AS assigned** - Wiki usage telemetry.
+- **poorNetworkBanner** - Poor network banner shown.
+- **badNetworkBanner** - Bad network banner shown.
 
 ### PanelView
 
@@ -1219,6 +1227,11 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
+- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_cold** To monitor cold app launch (Android only).
+- **app_start_hot** To monitor hot app launch (Android only).
+- **app_start_warm** To monitor warm app launch (Android only).
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **cortanaError** To monitor Cortana error happends.
 - **cortanaView** - To monitor Cortana canvas appear.
@@ -1273,6 +1286,18 @@ action.
 - **upload_images** Confirms that the image upload action succeeded or failed.
 - **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
+- **cancel_channel_meeting** Confirms that the cancellation of a channel meeting has succeeded or failed.
+- **cancel_meeting** Confirms that the cancellation of a meeting has succeeded or failed.
+- **cancel_private_meeting** Confirms that the cancellation of a private meeting has succeeded or failed.
+- **edit_channel_meeting** Confirms that the edit operation of a channel meeting has succeeded or failed.
+- **edit_meeting** Confirms that the edit operation of a meeting has succeeded or failed.
+- **server_fetch_agenda_view** Confirms that the calendar event sync using the Middle Tier API has succeeded or failed.
+- **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
+- **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
+- **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
+- **meeting_details** Confirms that the meeting details sync has succeeded or failed.
+- **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
+
 
 ## Property lists
 

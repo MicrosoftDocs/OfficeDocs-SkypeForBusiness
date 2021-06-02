@@ -179,9 +179,6 @@ The course catalog represents the courses and classes offered to students by you
 
 To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file. The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take. 
 
-> [!NOTE]
-> See [Location of data in Teams](location-of-data-in-teams.md) and [Security and compliance](security-compliance-overview.md) for information about protecting of student information. 
-
 ##### Course catalog documents formatting and schema
 
 The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title**, **course ID**, and **course URL**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
@@ -312,13 +309,9 @@ The following resources will help you plan your Career Coach app.
 
 - [Managing apps in Microsoft Teams Admin Center](manage-apps.md)
 
-- [Security, privacy, and compliance in Microsoft Teams](security-compliance-overview.md)
-
 - [Online Virtual Orientation Kit](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [Limits and specification of Teams channels](limits-specifications-teams.md)
-
-- [Location of data in Microsoft Teams](location-of-data-in-teams.md)
 
 - [Getting started with admin training for Microsoft Teams](ITAdmin-readiness.md)
 
