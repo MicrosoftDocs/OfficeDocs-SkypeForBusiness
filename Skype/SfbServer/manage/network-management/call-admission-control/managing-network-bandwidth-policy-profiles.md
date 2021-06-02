@@ -42,20 +42,23 @@ Network bandwidth profiles can be viewed by using Windows PowerShell and the Get
 
 ### To view network bandwidth policy profile information
 
-  - To view information about all your network bandwidth policy profiles, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
-    
-        Get-CsNetworkBandwidthPolicyProfile
-    
-    That will return information similar to this:
-    
-        Identity          : RedmondBandwidthPolicy
-        BWPolicy          : {BWLimit=200;BWSessionLimit=200;
-                            BWPolicyModality=Audio, 
-                            BWLimit=1400;BWSessionLimit=500;
-                            BWPolicyModality=Video}
-        BWPolicyProfileID : RedmondBandwidthPolicy
-        Description       :
+To view information about all your network bandwidth policy profiles, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
 
+```powershell    
+Get-CsNetworkBandwidthPolicyProfile
+```
+    
+That will return information similar to this:
+
+```console    
+Identity          : RedmondBandwidthPolicy
+BWPolicy          : {BWLimit=200;BWSessionLimit=200;
+                    BWPolicyModality=Audio, 
+                    BWLimit=1400;BWSessionLimit=500;
+                    BWPolicyModality=Video}
+BWPolicyProfileID : RedmondBandwidthPolicy
+Description       :
+```
 
 For more information, see the help topic for the [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet.
 

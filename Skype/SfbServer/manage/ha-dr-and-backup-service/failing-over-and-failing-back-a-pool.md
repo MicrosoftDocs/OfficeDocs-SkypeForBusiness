@@ -44,25 +44,33 @@ If a Front-End pool fails, but the Edge pool at that site is still running, you 
 
 1. Open a Skype for Business Server Management Shell window and type the following cmdlet:
 
-        Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```powershell
+    Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```
 
 **To fail over a pool in a disaster**
 
 1. Find the host pool for the Central Management Server by typing the following cmdlet on a Front-End server in Pool2:
 
-        Invoke-CsManagementServerFailover -Whatif
+    ```powershell
+    Invoke-CsManagementServerFailover -Whatif
+    ```
 
     The results of this cmdlet show which pool currently hosts the Central Management Server. In the rest of this procedure, this pool is known as CMS\_Pool.
 
 2. Use Topology Builder to find the version of Skype for Business Server running on the CMS\_Pool. If it's running Skype for Business Server, use the following cmdlet to find the backup pool of Pool 1.
 
-        Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```powershell
+    Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```
 
     Let Backup\_Pool be the backup pool.
 
 3. Check the status of the Central Management store with the following cmdlet:
 
-        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    ```powershell
+    Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+    ```
 
     This cmdlet should show that both ActiveMasterFQDN and ActiveFileTransferAgents are pointing to the FQDN of CMS\_Pool. If they are empty, the Central Management Server is not available and you must fail it over.
 
@@ -70,27 +78,37 @@ If a Front-End pool fails, but the Edge pool at that site is still running, you 
 
 5.  To fail over the Central Management store on a pool running Skype for Business Server, do the following:
 
-      - First, check which Back-End Server in Backup\_Pool runs the principal instance of the Central Management store by typing the following:
+    1. First, check which Back-End Server in Backup\_Pool runs the principal instance of the Central Management store by typing the following:
 
-            Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```powershell
+        Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```
     
-      - If the primary Back-End Server in Backup\_Pool is the principal, type:
+    1. If the primary Back-End Server in Backup\_Pool is the principal, type:
+
+        ```powershell        
+        Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
+        ```
         
-            Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
-        
-        If the mirror Back-End Server in Backup\_Pool is the principal, type:
-        
-            Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+    1. If the mirror Back-End Server in Backup\_Pool is the principal, type:
     
-      - Validate that the Central Management Server failover is complete. Type the following command:
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+        ```powershell
+        Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+        ```
+    
+    1. Validate that the Central Management Server failover is complete. Type the following command:
+    
+        ```powershell    
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         Check that both ActiveMasterFQDN and ActiveFileTransferAgents are pointing to the FQDN of Backup\_Pool.
     
-      - Finally, check the replica status for all Front-End Servers by typing the following:
+    1. Finally, check the replica status for all Front-End Servers by typing the following:
         
-            Get-CsManagementStoreReplicationStatus 
+        ```powershell
+        Get-CsManagementStoreReplicationStatus 
+        ```
         
         Check that all replicas have a value of True.
         
@@ -98,35 +116,45 @@ If a Front-End pool fails, but the Edge pool at that site is still running, you 
 
 6.  Install the Central Management store on the Back End Server of Backup\_Pool.
     
-      - First, run the following command:
-        ```PowerShell
-         
+    1. First, run the following command:
+
+        ```powershell
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - Run the next command on one of the Front End Servers of Backup\_Pool to force the move of the Central Management store:
-        
-            Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
+    1. Run the next command on one of the Front End Servers of Backup\_Pool to force the move of the Central Management store:
+
+        ```powershell
+        Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force
+        ```
     
-      - Validate the move is complete:
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    1. Validate the move is complete:
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         Check that both ActiveMasterFQDN and ActiveFileTransferAgents are pointing to the FQDN of Backup\_Pool.
     
-      - Check the replica status for all Front End Servers by typing the following:
-        
-            Get-CsManagementStoreReplicationStatus 
+    1. Check the replica status for all Front End Servers by typing the following:
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus
+        ```
         
         Check that all replicas have a value of True.
     
-      - Install the Central Management Server service on the rest of the Front End Servers in Backup\_Pool. To do so, run the following command on all the Front End Servers, except the one you used when forcing the Central Management store move earlier in this procedure:
-        
-            Bootstrapper /Setup 
+    1. Install the Central Management Server service on the rest of the Front End Servers in Backup\_Pool. To do so, run the following command on all the Front End Servers, except the one you used when forcing the Central Management store move earlier in this procedure:
+
+        ```console
+        Bootstrapper /Setup
+        ```
 
 7.  Fail over the users from Pool1 to Pool2 by running the following cmdlet in a Skype for Business Server Management Shell window:
-    
-        Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+
+    ```powershell
+    Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+    ```
     
     Because the steps taken in the previous parts of this procedure to check the Central Management store status are not universal, there is still a chance this cmdlet will fail because the Central Management store is not yet fully failed over. In this case, you must fix the Central Management store based on the error messages that you see, and then run this cmdlet again.
     
@@ -146,8 +174,10 @@ After the pool that experienced the disaster is back online (that is, Pool1 in t
 The failback process takes several minute to complete. For reference, it's expected to take up to 60 minutes for a pool of 20,000 users.
 
 Fail back the users who were originally homed in Pool1 and have been failed over to Pool2 by typing the following cmdlet:
-    
-    Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+
+```powershell
+Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+```
 
 No other steps are necessary. If you failed over the Central Management Server, you can leave it in Pool2.
 
@@ -183,26 +213,34 @@ In the following procedure, EdgePool1 is the pool, which originally hosted XMPP 
 1.  If you don’t already have another Edge pool deployed (besides the one that is currently down), deploy that pool. 
 
 2.  On each Edge Server in the new Edge pool which will now host XMPP federation (EdgePool2), run the following cmdlet:
-    
-        Stop-CsWindowsService
+
+    ```powershell
+    Stop-CsWindowsService
+    ```
 
 3.  Run the following cmdlet to repoint the XMPP federation route to EdgePool2:
-    
-        Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+
+    ```powershell
+    Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+    ```
     
     In this example, Site2 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer2.contoso.com is the FQDN of an Edge Server in that pool.
 
 4.  On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.
 
 5.  If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.
-    
-        _xmpp-server._tcp.contoso.com
+
+    ```powershell
+    _xmpp-server._tcp.contoso.com
+    ```
 
 6.  Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.
 
 7.  Start the services on all Edge Servers in the Edge pool which will now host XMPP federation:
-    
-        Start-CsWindowsService
+
+    ```powershell
+    Start-CsWindowsService
+    ```
 
 ## Fail back the Edge pool used for Skype for Business Server federation or XMPP federation 
 
@@ -212,35 +250,39 @@ After a failed Edge pool that used to host federation has been brought back onli
 
 2.  If you want to fail back the Skype for Business Server federation route to use the restored Edge Server, do the following:
     
-      - On a Front End server, open Topology Builder. Expand **Edge pools**, then right-click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.
+    1. On a Front End server, open Topology Builder. Expand **Edge pools**, then right-click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.
     
-      - In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**. Select **OK**.
+    1. In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**. Select **OK**.
     
-      - Expand **Edge pools**, then right-click the original Edge server or Edge server pool that you again want to use for Federation. Select **Edit properties**.
+    1. Expand **Edge pools**, then right-click the original Edge server or Edge server pool that you again want to use for Federation. Select **Edit properties**.
     
-      - In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**. Select **OK**.
+    1. In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**. Select **OK**.
     
-      - Select **Action**, select **Topology**, select **Publish**. When prompted on **Publish the topology**, select **Next**. When the Publish is finished, select **Finish**.
+    1. Select **Action**, select **Topology**, select **Publish**. When prompted on **Publish the topology**, select **Next**. When the Publish is finished, select **Finish**.
     
-      - On the Edge server, open the Skype for Business Server Deployment wizard. Select **Install or Update Skype for Business Server System**, then select **Setup or Remove Skype for Business Server Components**. Select **Run Again**.
+    1. On the Edge server, open the Skype for Business Server Deployment wizard. Select **Install or Update Skype for Business Server System**, then select **Setup or Remove Skype for Business Server Components**. Select **Run Again**.
     
-      - Select **Next**. The summary screen will show actions as they are executed. Once the deployment is done, select **View Log** to view available log files. Select **Finish** to complete the deployment.
+    1. Select **Next**. The summary screen will show actions as they are executed. Once the deployment is done, select **View Log** to view available log files. Select **Finish** to complete the deployment.
 
 3.  If you want to fail back the XMPP federation route to use the restored Edge Server, do the following:
     
-      - Run the following cmdlet to repoint the XMPP federation route to the Edge pool which will now host XMPP federation (in this example, EdgeServer1):
-        
-            Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+    1. Run the following cmdlet to repoint the XMPP federation route to the Edge pool which will now host XMPP federation (in this example, EdgeServer1):
+  
+        ```powershell
+        Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+        ```
         
         In this example, Site1 is the site containing the Edge pool which will now host the XMPP federation route, and EdgeServer1.contoso.com is the FQDN of an Edge Server in that pool.
     
-      - If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.
-        
-            _xmpp-server._tcp.contoso.com
+    1. If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.
+
+        ```powershell
+        _xmpp-server._tcp.contoso.com
+        ```
     
-      - On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.
+    1. On the external DNS server, change the DNS A record for XMPP federation to point to EdgeServer2.contoso.com.
     
-      - Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.
+    1. Verify that the Edge pool which will now host XMPP federation has port 5269 open externally.
 
 4.  If the Front End pools remained running in the site containing the Edge pool that failed and has been restored, you should update the Web Conferencing Service and A/V Conferencing Service on these Front End pools to again use the Edge pools at their local site.
 

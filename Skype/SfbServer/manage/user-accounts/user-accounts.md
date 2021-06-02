@@ -54,13 +54,13 @@ You can search for users by using the Skype for Business Server Control Panel or
 
 5. (Optional) Specify additional search criteria to narrow the results:
 
-   a. Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.
+   1. Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.
 
-   b. Enter the user property by typing it or clicking the arrow in the drop-down list to select a user property.
+   1. Enter the user property by typing it or clicking the arrow in the drop-down list to select a user property.
 
-   c. In the **Equal to** list, click **Equal to** or **Not equal to**.
+   1. In the **Equal to** list, click **Equal to** or **Not equal to**.
 
-   d. In the text box, type the search criteria you want to use to filter search results, and then click **Find**.
+   1. In the text box, type the search criteria you want to use to filter search results, and then click **Find**.
 
 6. The search results appear under **Search Results**. You can select any or all of the users in the list and perform configuration tasks on the users you select.
 
@@ -184,13 +184,14 @@ You can use the following procedure to remove a previously added user account in
 You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
 
 ### To remove a user account
+
 To remove a user account, use the Disable-CsUser cmdlet. For example:
 
   ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
+After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
 For more information, see the help topic for the [Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
 
