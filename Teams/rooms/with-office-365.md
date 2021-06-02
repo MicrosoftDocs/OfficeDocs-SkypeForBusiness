@@ -176,7 +176,10 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
-7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).
+> [!NOTE]
+> If you are configuring Teams Rooms to only natively join Microsoft Teams meetings, you should not proceed with the following step. The following is only required if you will also be enabling support for Skype for Business on-premises.
+
+7. To enable the device account with Skype for Business on-premises, be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).
 
    Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
 
