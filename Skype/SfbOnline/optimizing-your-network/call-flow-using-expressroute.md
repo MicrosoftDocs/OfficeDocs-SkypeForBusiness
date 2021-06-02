@@ -191,9 +191,9 @@ Skype for Business Online usage scenarios involve users who are homed Online, an
 
  **Call flow summary for Skype for Business Online**
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
 |**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Peer-to-peer call  <br/> |Two clients, both on your network.  <br/> |ExpressRoute  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Peer-to-peer call  <br/> |Two clients, one on your network (internal) and the other client on the Internet (external).  <br/> |Internal user: ExpressRoute  <br/> External user: Internet  <br/> |Internal user: ExpressRoute  <br/> External user: Internet to Microsoft 365 or Office 365 Edge server.  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Assumes that firewall blocks direct connections between clients, that requires an Online Edge server. Traffic from internal user to Online Edge server follows similar path as that to conferencing server for conference call.  <br/> |
 |Peer-to-peer call to a user in a federated organization  <br/> |Two clients, on your network (internal) and at Online user on federated organization's network (federated).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Online user on your network joining a conference that is hosted Online](call-flow-using-expressroute.md#bk_Figure3) <br/> |Assumes a firewall blocks direct connections between clients, requiring Online Edge server. Traffic from the internal user to Online Edge server follows a similar path as that of a conferencing server for conference call.  <br/> |
@@ -210,9 +210,10 @@ Skype for Business Online usage scenarios involve users who are homed Online, an
 
 Hybrid call flows apply when you have a Skype for Business deployment that includes at least some users that are homed on-premises. The call flows in this section include both on-premises conferences and peer-to-peer or PSTN calls with at least one on-premises homed user.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Peer-to-peer call  <br/> |Two clients, both on customer network and homed on-premises  <br/> |Local  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Since users are homed on-premises, signaling flows locally to the on-premises datacenter instead of the cloud.  <br/> |
 |Peer-to-peer call  <br/> |Two clients, both connecting from customer network. One is homed online, the other is homed on-premises.  <br/> |Online user: ExpressRoute  <br/> On-premises user: local  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Only the Online homed user sends signaling traffic to the cloud.  <br/> |
 |Peer-to-peer call to a user in a federated organization  <br/> |Two clients, on premise-user in customer network (internal) and online user at federated company's network (Federated).  <br/> |Internal user: local  <br/> Federated user: ExpressRoute  <br/> |Internet or ExpressRoute (depends whether online or on-premises edge server is used)  <br/> |[Online user on your network joining a conference that is hosted Online](call-flow-using-expressroute.md#bk_Figure3) and part of [On-premises Edge server with Microsoft 365 or Office 365 hosted conferences](call-flow-using-expressroute.md#bk_Figure5) (for media traffic). <br/> |Assumes a firewall blocks direct connections between clients, requiring Online Edge server. ICE negotiation will offer both Online (by the online user) and on-premises Edge servers (by the on-premises user) for connectivity.  <br/> |
@@ -223,9 +224,10 @@ Hybrid call flows apply when you have a Skype for Business deployment that inclu
 
 Users that will connect to Cloud Connector Edition are all homed Online. This means that conferences will be online, and signaling follows the same patterns as for Online users. For scenarios other than PSTN calls, the call flow will be exactly as described above for Skype for Business Online.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |PSTN call  <br/> |Online user on your network using Cloud Connector Edition.  <br/> |local  <br/> |local  <br/> |[PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN call  <br/> |Online user using the internet using Cloud Connector Edition.  <br/> |Internet  <br/> |Internet  <br/> |Combination of [On-premises Edge server with Microsoft 365 or Office 365 hosted conferences](call-flow-using-expressroute.md#bk_Figure5) and [PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internet users will connect via the Edge server that is included in Cloud Connector, and Cloud Connector will connect to the PSTN network.  <br/> |
 

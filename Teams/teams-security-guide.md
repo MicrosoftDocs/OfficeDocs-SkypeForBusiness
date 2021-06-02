@@ -1,5 +1,5 @@
 ---
-title: Security guide for Microsoft Teams
+title: Microsoft Teams security guide
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -133,9 +133,9 @@ This table summarizes the protocols used by Teams.
 
 ***Traffic Encryption***
 
-|||
-|:-----|:-----|
+
 |**Traffic type**|**Encrypted by**|
+|:-----|:-----|
 |Server-to-server|MTLS|
 |Client-to-server (ex. instant messaging and presence)|TLS|
 |Media flows (ex. audio and video sharing of media)|TLS|
@@ -151,7 +151,7 @@ Teams uses a credentials-based token for secure access to media relays over TURN
 
 #### FIPS
 
-Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. For more information on the implementation of FIPS, please see [Federal Information Processing Standard (FIPS) Publication 140-2](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
+Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. For more information on the implementation of FIPS, please see [Federal Information Processing Standard (FIPS) Publication 140-2](/microsoft-365/compliance/offering-fips-140-2).
 
 ### User and Client Authentication
 
