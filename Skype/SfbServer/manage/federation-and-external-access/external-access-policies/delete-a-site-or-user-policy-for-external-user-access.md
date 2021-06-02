@@ -50,23 +50,29 @@ External access policies can be deleted by using Windows PowerShell and the Remo
 
 ## To remove a specific external access policy
 
-  - This command removes the external access policy applied to the Redmond site:
-    
-        Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+This command removes the external access policy applied to the Redmond site:
+
+```powershell
+Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+```
 
 
 ## To remove all the external access policies applied to the per-user scope
 
-  - This command removes all the external access policies configured at the per-user scope:
-    
-        Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+This command removes all the external access policies configured at the per-user scope:
+
+```powershell
+Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+```
 
 
 ## To remove all the external access policies where outside user access is disabled
 
-  - This command deletes all the external access policies where outside user access has been disabled:
-    
-        Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+This command deletes all the external access policies where outside user access has been disabled:
+
+```powershell
+Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+```
 
 
 For more information, see the help topic for the [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.
