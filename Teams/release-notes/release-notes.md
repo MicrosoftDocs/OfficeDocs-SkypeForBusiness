@@ -24,7 +24,7 @@ These release notes provide information about new admin features for Microsoft T
 
 ## June 1, 2021
 
-Collection of Teams diagnostic logs just got easier. By right-clicking on the Teams icon in the system tray and choosing **Collect support files** all desktop and debug logs will be collected in one folder in Downloads. This option will also include media logs (if enabled in Settings). More information can be found at https://docs.microsoft.com/en-us/microsoftteams/log-files. 
+Collection of Teams diagnostic logs just got easier. By right-clicking on the Teams icon in the system tray and choosing **Collect support files**, all desktop and debug logs will be collected in one folder in Downloads. This option will also include media logs (if enabled in Settings). [Learn more](/microsoftteams/log-files).
 
 ## March 31, 2021
 
