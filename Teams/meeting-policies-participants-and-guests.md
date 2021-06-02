@@ -62,7 +62,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 |**People in my organization and guests**     |Authenticated users within the organization, including guest users, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
 |**People in my organization, trusted organizations, and guests**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
 |**Everyone in my organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
-|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations and anonymous users must wait in the lobby.           |
+|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations, and anonymous users must wait in the lobby.           |
 |**Invited users only**    |Only invited users and meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations and anonymous users must wait in the lobby.           |
 
 ## Allow dial-in users to bypass the lobby
