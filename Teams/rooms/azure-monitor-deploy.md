@@ -345,15 +345,13 @@ See [Log alerts in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platf
 ### Configure an email alert for :::no-loc text="Microsoft Teams Rooms"::: hardware issues
 
 Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::: devices that have encountered hardware issues within the last hour.
-
 1.  Sign in to the [:::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) and go to :::no-loc text="Log Analytics"::: and select your workspace.
 
-2. Navigate to your :::no-loc text="Log Analytics"::: workspace and select **Alerts** and then select **New alert rule**.
+2. Navigate to your :::no-loc text="Log Analytics"::: workspace and select **Alerts** and then select **New alert rule**
 
-3. Select **Add condition** and then **Custom log search**.
+3. Select **Add condition** and then **Custom log search**
 
-4.  Enter the following query to the Search query text box.
-
+4.  Enter the following query to the Search query text box.<br>
     ```
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
@@ -362,17 +360,17 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
     |sort by TimeGenerated desc
     ```
 
-5.  Configure the Alert logic settings:
-    - **Based on:** Number of results
-    - **Condition:** Greater then
-    - **Threshold:** 0
+5.  Configure the Alert logic settings:<br>
+    **Based on:** Number of results<br>
+    **Condition:** Greater then<br>
+    **Threshold:** 0<br>
 
-6. Configure Evaluation settings and select **Done**:
-   - **Period (in minutes):** 60
-   - **Frequency (in minutes):** 60
+6. Configure Evaluation settings and select **Done**: <br>
+    **Period (in minutes):** 60<br>
+    **Frequency (in minutes):** 60<br>
 
 7. Configure action groups:
-    1.  Select **Create New**.
+    1.  Select **Create New**
     2.  Provide suitable names for the *Action group name* and *Short Name* fields.
     3.  Specify a unique *Action Name* and select **Email/SMS/Push/Voice**, and then select **Edit details**.
     4.  Select the **Email** checkbox and provide the email address of the person or group that will receive the alerts.
@@ -381,9 +379,9 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 8. **Customize Actions** if you like to override the subject line of the alert emails.
 
-9. Specify a rule name and description.
-   - **Rule Name:** :::no-loc text="Microsoft Teams Rooms"::: Hardware Failure Alert
-   - **Description:** List of devices that encountered a hardware issue within the last hour
+9. Specify a rule name and description.<br>
+    **Rule Name:** :::no-loc text="Microsoft Teams Rooms"::: Hardware Failure Alert<br>
+    **Description:** List of devices that encountered a hardware issue within the last hour<br>
 
 10. Select the intended severity and make sure the rule is enabled.
 
@@ -421,10 +419,10 @@ If you already deployed your :::no-loc text="Microsoft Teams Rooms"::: devices b
 
 1.  Create a shared network path and grant read access to **Domain Computers** group.
 
-2.  Download the 64-bit version of the :::no-loc text="Microsoft Monitoring"::: Agent for :::no-loc text="Windows"::: from <https://go.microsoft.com/fwlink/?LinkID=517476>.
+2.  Download the 64-bit version of the :::no-loc text="Microsoft Monitoring"::: Agent for :::no-loc text="Windows"::: from <https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Extract the contents of the setup package into the network share.
-    1.  Open a Command Prompt window, and then execute **MMASetup-AMD64.exe /c**.
+    1.  Open a Command Prompt window, and then execute **MMASetup-AMD64.exe /c**
     2.  Specify the share you just created, and extract the content.
 
 4.  Create a new Group Policy Object and assign it to the organizational unit where :::no-loc text="Microsoft Teams Rooms"::: machine accounts are located.
@@ -436,7 +434,7 @@ If you already deployed your :::no-loc text="Microsoft Teams Rooms"::: devices b
 6.  Configure the startup script:
     1.  Copy the following script and save it as Install-MMAgent.ps1.
     2.  Modify WorkspaceId, WorkspaceKey, and SetupPath parameters to match your configuration.
-    3.  Edit the same Group Policy Object and navigate to Computer Configuration \\ Policies \\ :::no-loc text="Windows"::: Settings \\ Scripts (Startup/Shutdown).
+    3.  Edit the same Group Policy Object and navigate to Computer Configuration \\ Policies \\ :::no-loc text="Windows"::: Settings \\ Scripts (Startup/Shutdown)
     4.  Double-click to select **Startup**, and then select **PowerShell Scripts**.
     5.  Select **Show Files**, and then copy the **Install-MMAgent.ps1** file to that folder.
     6.  Select **Add**, and then **Browse**.

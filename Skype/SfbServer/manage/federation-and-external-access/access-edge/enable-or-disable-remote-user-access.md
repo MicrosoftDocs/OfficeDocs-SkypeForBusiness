@@ -41,9 +41,9 @@ To support remote user access, you must enable remote user access. When you enab
 
 5.  In **Edit Access Edge Configuration**, do one of the following:
     
-    - To enable remote user access for your organization, select the **Enable remote user access** check box.
+      - To enable remote user access for your organization, select the **Enable remote user access** check box.
     
-    - To disable remote user access for your organization, clear the **Enable remote user access** check box.
+      - To disable remote user access for your organization, clear the **Enable remote user access** check box.
 
 6.  Click **Commit**.
 
@@ -56,16 +56,14 @@ Remote user access can be managed by using Windows PowerShell and the Set-CsAcce
 
 ## To enable remote user access
 
-To enable remote user access, set the value of the **AllowOutsideUsers** property to True ($True):
-
-```powershell
-Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
-```
+  - To enable remote user access, set the value of the **AllowOutsideUsers** property to True ($True):
+    
+        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
 ## To disable remote user access
 
-To disable remote user access, set the value of the **AllowOutsideUsers** property to False ($False):
+  - To disable remote user access, set the value of the **AllowOutsideUsers** property to False ($False):
+    
+        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 
-```powershell
-Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
-```
+

@@ -46,23 +46,19 @@ You can view network region information by using Windows PowerShell and the **Ge
 
 ### To view network region information
 
-To view information about all your network regions, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
-
-```powershell    
-Get-CsNetworkRegion
-```
+  - To view information about all your network regions, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
-That will return information similar to this:
-
-```console    
-Identity         : Pacific Northwest
-Description      :
-BypassID         : 3b232b84-2c1d-4da2-8181-e9330bafebe9
-CentralSite      : Site:Redmond1
-BWAlternatePaths : {BWPolicyModality=Audio;AlternatePath=True, 
-                    BWPolicyModality=Video;AlternatePath=True}
-NetworkRegionID  : Pacific Northwest
-```
+        Get-CsNetworkRegion
+    
+    That will return information similar to this:
+    
+        Identity         : Pacific Northwest
+        Description      :
+        BypassID         : 3b232b84-2c1d-4da2-8181-e9330bafebe9
+        CentralSite      : Site:Redmond1
+        BWAlternatePaths : {BWPolicyModality=Audio;AlternatePath=True, 
+                           BWPolicyModality=Video;AlternatePath=True}
+        NetworkRegionID  : Pacific Northwest
 
 For more information, see the help topic for the [Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet.
 
@@ -134,6 +130,7 @@ A network region interconnects various parts of a network across multiple geogra
 5.  On the **Edit** menu, click **Delete**.
 
 6.  Click **OK**.
+
 
     > [!WARNING]  
     > A network region cannot be removed if it is associated with a network site. If you attempt to remove a region associated with a site, you will receive an error message. To see if a region is associated with any sites, select the region and then click **Show details** on the **Edit** menu.

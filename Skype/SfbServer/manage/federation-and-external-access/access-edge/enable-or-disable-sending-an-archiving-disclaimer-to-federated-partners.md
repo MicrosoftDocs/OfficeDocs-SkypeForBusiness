@@ -48,16 +48,14 @@ The use of the archiving disclaimer can be managed by using Windows PowerShell a
 
 ## To enable the archiving disclaimer
 
-To enable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to True ($True):
-
-```powershell
-Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
-```
+  - To enable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to True ($True):
+    
+        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 
 ## To disable the archiving disclaimer
 
-To disable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to False ($False):
+  - To disable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to False ($False):
+    
+        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 
-```powershell
-Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
-```
+

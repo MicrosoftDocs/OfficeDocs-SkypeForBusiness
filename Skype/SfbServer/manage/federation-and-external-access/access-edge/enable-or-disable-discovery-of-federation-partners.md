@@ -48,17 +48,14 @@ Discovery of federation partners can be managed by using Windows PowerShell and 
 
 ## To enable discovery of federation partners
 
-To enable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to True ($True). Note that you must enable DNS SRV routing in order to change this property value.
-
-```powershell
-Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
-```
+  - To enable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to True ($True). Note that you must enable DNS SRV routing in order to change this property value.
+    
+        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## To disable discovery of federation partners
 
-To disable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to False ($False):
+  - To disable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to False ($False):
+    
+        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 
-```powershell
-Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
-```

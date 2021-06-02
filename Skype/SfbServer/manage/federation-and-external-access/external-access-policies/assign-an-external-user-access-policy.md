@@ -52,29 +52,24 @@ Per-user external access policies can be assigned by using Windows PowerShell an
 
 ## To assign a per-user external access policy to a single user
 
-This command assigns the per-user external access policy RedmondExternalAccessPolicy to the user Ken Myer.
-
-```powershell
-Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
-```
+  - This command assigns the per-user external access policy RedmondExternalAccessPolicy to the user Ken Myer.
+    
+        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
 
 
 ## To assign a per-user external access policy to multiple users
 
-This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory. For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](/powershell/module/skype/Get-CsUser) cmdlet.
-
-```powershell
-Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
-```
+  - This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory. For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](/powershell/module/skype/Get-CsUser) cmdlet.
+    
+        Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
 ## To unassign a per-user external access policy
 
-This command unassigns any per-user external access policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+  - This command unassigns any per-user external access policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+    
+        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-```powershell
-Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
-```
 
 
 For more information, see the help topic for the [Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet.

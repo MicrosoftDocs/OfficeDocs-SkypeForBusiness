@@ -22,7 +22,7 @@ Some de-emphasized features are included in Skype for Business Server 2019 for c
 
 ## Features deprecated in Skype for Business Server 2019 
 
-The following features and functionality have been deprecated in Skype for Business Server 2019.
+    The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### XMPP Gateways for Skype for Business Server
 

@@ -24,9 +24,9 @@ Support for federation is required to enable users who have an account with a tr
 
 To support access by users of federated domains, you must enable federation. If you enable federation for your organization, you must also specify whether to implement the following options:
 
-- **Enable partner domain discovery**   If you enable this option, Skype for Business Server uses Domain Name System (DNS) records to try to discover domains not listed in the allowed domains list, automatically evaluating incoming traffic from discovered federated partners and limiting or blocking that traffic based on trust level, amount of traffic, and administrator settings. If you do not select this option, federated user access is enabled only for users in the domains that you include on the allowed domains list. Whether or not you select this option, you can specify that individual domains to be blocked or allowed, including restricting access to specific servers running the Access Edge service in the federated domain. For details about controlling access by federated domains, see [Configure support for allowed external domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+  - **Enable partner domain discovery**   If you enable this option, Skype for Business Server uses Domain Name System (DNS) records to try to discover domains not listed in the allowed domains list, automatically evaluating incoming traffic from discovered federated partners and limiting or blocking that traffic based on trust level, amount of traffic, and administrator settings. If you do not select this option, federated user access is enabled only for users in the domains that you include on the allowed domains list. Whether or not you select this option, you can specify that individual domains to be blocked or allowed, including restricting access to specific servers running the Access Edge service in the federated domain. For details about controlling access by federated domains, see [Configure support for allowed external domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
-- **Send an archiving disclaimer to federated partners**    Disclaimer notice is sent to federated partners that archiving in your deployment is in place. If you support archiving of external communications with federated partner domains, you should enable the archiving disclaimer notification to warn partners that their messages are being archived.
+  - **Send an archiving disclaimer to federated partners**    Disclaimer notice is sent to federated partners that archiving in your deployment is in place. If you support archiving of external communications with federated partner domains, you should enable the archiving disclaimer notification to warn partners that their messages are being archived.
 
 If you later want to temporarily or permanently prevent access by users of federated domains, you can disable federation for your organization. Use the procedure in this section to enable or disable federated user access for your organization, including specifying the appropriate federation options to be supported for your organization.
 
@@ -45,16 +45,16 @@ If you later want to temporarily or permanently prevent access by users of feder
 4.  On the **Access Edge Configuration** page, click **Global**, click **Edit**, and then click **Show details**.
 
 5.  In **Edit Access Edge Configuration**, do one of the following:
-
-    - To enable federated user access for your organization, select the **Enable communications with federated users** check box.
     
-    - To disable federated user access for your organization, clear the **Enable communications with federated users** check box.
+      - To enable federated user access for your organization, select the **Enable communications with federated users** check box.
+    
+      - To disable federated user access for your organization, clear the **Enable communications with federated users** check box.
 
 6.  If you selected the **Enable communications with federated users** check box, do the following:
     
     1.  If you want to support automatic discovery of partner domains, select the **Enable partner domain discovery** check box.
     
-    1.  If your organization supports archiving of external communications, select the **Send archiving disclaimer to federated partners** check box.
+    2.  If your organization supports archiving of external communications, select the **Send archiving disclaimer to federated partners** check box.
 
 7.  Click **Commit**.
 
@@ -67,17 +67,15 @@ Federation and public IM connectivity can also be managed by using Windows Power
 
 ## To enable federation and public IM connectivity
 
-To enable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to True ($True):
+  - To enable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to True ($True):
+    
+        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
-```powershell
-Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
-```
 
 
 ## To disable federation and public IM connectivity
 
-To disable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to False ($False):
+  - To disable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to False ($False):
+    
+        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 
-```powershell
-Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
-```

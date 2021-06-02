@@ -40,34 +40,31 @@ These options include the following types of access that can be configured throu
 
 **Viewing Access Edge configuration information by using Windows PowerShell cmdlets**
 
-Access Edge configuration information can be viewed by using Windows PowerShell and the **Get-CsAccessEdgeConfiguration** cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
+  - Access Edge configuration information can be viewed by using Windows PowerShell and the **Get-CsAccessEdgeConfiguration** cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
     
-To view information about all your Access Edge configuration settings, type the following command in the Skype for Business Server Management Shell and then press ENTER:
-
-```powershell
-Get-CsAccessEdgeConfiguration
-```
+    To view information about all your Access Edge configuration settings, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
-That will return information similar to this:
+     `Get-CsAccessEdgeConfiguration`
+    
+    That will return information similar to this:
+    
+        Identity                               : Global
+        AllowAnonymousUsers                    : False
+        AllowFederatedUsers                    : False
+        AllowOutsideUsers                      : True
+        BeClearingHouse                        : False
+        EnablePartnerDiscovery                 : False
+        EnableArchivingDisclaimer              : False
+        EnableUserReplicator                   : True
+        KeepCrlsUpToDateForPeers               : True
+        MarkSourceVerifiableOnOutgoingMessages : True
+        OutgoingTlsCountForFederatedPartners   : 4
+        DiscoveredPartnerStandardRate          : 20
+        EnableDiscoveredPartnerContactsLimit   : True
+        MaxContactsPerDiscoveredPartner        : 1000
+        DiscoveredPartnerReportPeriodMinutes   : 60
+        MaxAcceptedCertificatesStored          : 1000
+        MaxRejectedCertificatesStored          : 500
+        CertificatesDeletedPercentage          : 20
+        RoutingMethod                          : UseDnsSrvRouting
 
-```console    
-Identity                               : Global
-AllowAnonymousUsers                    : False
-AllowFederatedUsers                    : False
-AllowOutsideUsers                      : True
-BeClearingHouse                        : False
-EnablePartnerDiscovery                 : False
-EnableArchivingDisclaimer              : False
-EnableUserReplicator                   : True
-KeepCrlsUpToDateForPeers               : True
-MarkSourceVerifiableOnOutgoingMessages : True
-OutgoingTlsCountForFederatedPartners   : 4
-DiscoveredPartnerStandardRate          : 20
-EnableDiscoveredPartnerContactsLimit   : True
-MaxContactsPerDiscoveredPartner        : 1000
-DiscoveredPartnerReportPeriodMinutes   : 60
-MaxAcceptedCertificatesStored          : 1000
-MaxRejectedCertificatesStored          : 500
-CertificatesDeletedPercentage          : 20
-RoutingMethod                          : UseDnsSrvRouting
-```
