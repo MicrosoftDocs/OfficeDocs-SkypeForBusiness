@@ -113,17 +113,6 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 ## Meetings and calls
 
-> [!IMPORTANT]
-> **Microsoft 365 live event limit increases**
->
-> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
->
->- Event support for up to 20,000 attendees
->- 50 events can be hosted simultaneously across a tenant
->- Event duration of 16 hours per broadcast
->
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting (can chat and call in)  | 1000, includes GCC but not yet for GCCH, DoD, or A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). Learn more about the [View-only experience](view-only-meeting-experience.md).|
@@ -134,7 +123,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 ### Meeting expiration
 
 > [!NOTE]
-> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers and/or underlying meeting policies and settings.
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
 
 |Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
 |---------|---------|---------|
@@ -211,10 +200,10 @@ Limits for class teams are listed in the following table:
 |Feature  |Maximum limit  |
 |---------|---------|
 |Number of members in a team    | See the [Teams and channels](#teams-and-channels) section of this article        |
-|Number of members to use Assignments in a class team    | 200        |
-|Number of members to use a OneNote Class Notebook in a class team     |200         |
+|Number of members to use Assignments in a class team    | 300        |
+|Number of members to use a OneNote Class Notebook in a class team     |300         |
 
-A class team can support more than 200 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## Tags
 

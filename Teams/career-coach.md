@@ -64,7 +64,7 @@ Career Coach is available worldwide (except China and Russia) for qualified high
 
 ### Assign app licenses to users
 
-For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Turn on LinkedIn account connections
 
@@ -105,7 +105,7 @@ Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps i
 
 4. Select **Career Coach**, and then select **Settings.**  
 
-    ![shows the Career Coach app selected with the Settings option showing](media/app-settings.png)
+    ![shows the Career Coach app selected with the Settings option showing](media/career-coach-app.png)
 
 ### Configure the Career Coach app settings
 
@@ -128,7 +128,7 @@ Career Coach has five configuration categories:
 
 Set your educational institution’s name, logo, and default language on the brand and preferences settings page.
 
-![the Career Coach branding section of the admin center](media/brand-preferences.png)
+![the Career Coach branding section of the admin center](media/career-coach-brand.png)
 
 ##### Educational institution icon
 
@@ -167,7 +167,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en). The verification link expires after 30 days.  
 
-   ![linkedin settings for the career coach](media/linkedin.png)  
+   ![linkedin settings for the career coach](media/career-coach-linked-in.png)  
 
 #### Course catalog
 
@@ -178,9 +178,6 @@ The course catalog represents the courses and classes offered to students by you
 - Courses and course meta data, like descriptions, are used to help students identify their skills when they upload a transcript.  
 
 To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file. The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take. 
-
-> [!NOTE]
-> See [Location of data in Teams](location-of-data-in-teams.md) and [Security and compliance](security-compliance-overview.md) for information about protecting of student information. 
 
 ##### Course catalog documents formatting and schema
 
@@ -298,7 +295,7 @@ Pinning Career Coach will make the app more accessible and visible for students.
 > [!NOTE]
 > Students will be notified in Microsoft Teams that Career Coach has been pinned.
 
-Reference [Manage app setup policies in Microsoft](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) for additional details.
+Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for additional details.
 
 ## Resources
 
@@ -312,13 +309,9 @@ The following resources will help you plan your Career Coach app.
 
 - [Managing apps in Microsoft Teams Admin Center](manage-apps.md)
 
-- [Security, privacy, and compliance in Microsoft Teams](security-compliance-overview.md)
-
 - [Online Virtual Orientation Kit](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [Limits and specification of Teams channels](limits-specifications-teams.md)
-
-- [Location of data in Microsoft Teams](location-of-data-in-teams.md)
 
 - [Getting started with admin training for Microsoft Teams](ITAdmin-readiness.md)
 
