@@ -49,8 +49,7 @@ View this short video to learn more about best practices for creating teams and 
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-Membership, roles, and settings
-------------------------------
+## Membership, roles, and settings
 
 **Team membership**
 
@@ -84,8 +83,7 @@ By default, all users have permissions to create a team within Microsoft Teams (
 
 One key early planning activity to engage users with Microsoft Teams is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways. Bring them together in a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
 
-Example Teams
---------------
+## Example Teams
 
 Below are a few functional examples of how different types of users may approach setting up their teams, channels, and apps (tabs/connectors/bots). This may be useful to help kick off a conversation about Microsoft Teams with your user community. As you think about how to implement Microsoft Teams in your organization, remember that you can provide guidance on how to structure their teams; however, users have control of how they can self-organize. These are just examples to help get teams to start thinking through the possibilities.
 
