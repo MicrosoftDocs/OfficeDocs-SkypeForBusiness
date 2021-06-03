@@ -65,7 +65,6 @@ Click **Add accounts**, search for the resource account that you want to use wit
 ### Assign calling ID
 
 ![Screenshot of calling ID settings](media/call-queue-assign-calling-id.png)
-call-queue-assign-calling-id.png
 
 If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying a resource account with a phone number.
 
@@ -147,10 +146,12 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 ![Screenshot of routing, opt out, and alert time settings](media/call-queue-presence-agents-time.png)
 
-
 **Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
 
 You can enable presence-based call routing with any of the routing methods.
+
+> [!NOTE]
+> When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to. 
 
