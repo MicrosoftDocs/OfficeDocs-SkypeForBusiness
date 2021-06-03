@@ -183,10 +183,10 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
    Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
 
-> [!NOTE]
-> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
->
-> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+   > [!NOTE]
+   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+   >
+   > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
    ``` Powershell
    # When using Teams PowerShell Module
