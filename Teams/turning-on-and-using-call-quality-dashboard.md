@@ -24,7 +24,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
 ---
-# Call Quality Dashboard setup
+# How to set up the Call Quality Dashboard
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. 
 
