@@ -132,11 +132,11 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 3. (Optional) Under **Assign calling ID**, click **Add**, search for the resource accounts that you created for your auto attendant, click **Add**, and then click **Add**. This will give your call agents the caller ID of your main line when they call out.
 
-    ![Screenshot of resource account and language settings](../media/call-queue-assign-calling-id.png)
+    ![Screenshot of calling ID settings](../media/call-queue-assign-calling-id.png)
 
 3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-    ![Screenshot of resource account and language settings](../media/call-queue-name-language.png)
+    ![Screenshot of resource account settings](../media/call-queue-name-language.png)
 
 4. Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
