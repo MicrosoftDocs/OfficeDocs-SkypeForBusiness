@@ -112,4 +112,4 @@ A batch can contain up to 5,000 users. You can specify users by their object Id,
 
 [Manage policy packages in Teams](manage-policy-packages.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policy packages to users and groups](assign-policy-packages.md)
