@@ -62,34 +62,26 @@ Type a name for the call queue.
 
 Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-
-
-
-
 ### Assign calling ID
 
 ![Screenshot of calling ID settings](media/call-queue-assign-calling-id.png)
 call-queue-assign-calling-id.png
 
+If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying a resource account with a phone number.
+
 Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
 
-> [!NOTE]
-> Only resource accounts with phone numbers assigned may be used here.
-> This feature is currently only available to agents in call queues that use a Teams channel. To set the outbound calling ID for agents in non-Teams channel call queues see [Caller ID for outbound calls](create-a-phone-system-call-queue.md#caller-id-for-outbound-calls).
+If your call queues are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
 
 ### Language
 
-
-
+![Screenshot of language settings](media/call-queue-language.png)
 
 Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-
-
-
-
-
 ### Greetings and music on hold in queue
+
+![Screenshot of greetings and music on hold in queue settings](media/call-queue-greetings-music.png)
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
@@ -197,10 +189,6 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
-
-## Caller ID for outbound calls
-
-Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
 
 ## Supported clients
 
