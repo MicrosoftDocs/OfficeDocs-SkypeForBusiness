@@ -141,8 +141,8 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-> [!NOTE]
-> If the password is not set to Never Expire, the account will no longer sign in on the device when the account reaches the expiry period. The password will then need to be changed for the account and also updated locally on the MTR device.
+    > [!NOTE]
+    > If the password is not set to Never Expire, the account will no longer sign in on the device when the account reaches the expiry period. The password will then need to be changed for the account and also updated locally on the MTR device.
 
 6. The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:
 
@@ -176,17 +176,17 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
-> [!NOTE]
-> If you are configuring Teams Rooms to only natively join Microsoft Teams meetings, you should not proceed with the following step. The following is only required if you will also be enabling support for Skype for Business on-premises.
+    > [!NOTE]
+    > If you are configuring Teams Rooms to only natively join Microsoft Teams meetings, you should not proceed with the following step. The following is only required if you will also be enabling support for Skype for Business on-premises.
 
 7. To enable the device account with Skype for Business on-premises, be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).
 
    Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
 
-> [!NOTE]
-> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
->
-> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+   > [!NOTE]
+   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+   >
+   > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
    ``` Powershell
    # When using Teams PowerShell Module
