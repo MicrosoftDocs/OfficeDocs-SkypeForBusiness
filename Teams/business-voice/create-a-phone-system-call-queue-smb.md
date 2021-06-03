@@ -130,6 +130,10 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
 
+3. (Optional) Under **Assign calling ID**, click **Add**, search for the resource accounts that you created for your auto attendant, click **Add**, and then click **Add**. This will give your call agents the caller ID of your main line when they call out.
+
+    ![Screenshot of resource account and language settings](../media/call-queue-assign-calling-id.png)
+
 3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
     ![Screenshot of resource account and language settings](../media/call-queue-name-language.png)
