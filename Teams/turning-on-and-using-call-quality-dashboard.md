@@ -24,7 +24,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
 ---
-# Set up Call Quality Dashboard (CQD)
+# Call Quality Dashboard (CQD) setup
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. 
 
@@ -45,7 +45,7 @@ Assign [roles](/microsoft-365/admin/add-users/about-admin-roles) for accessing C
 If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD. 
 
 
-|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+| &nbsp; |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Global Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Administrator     |Yes         |Yes         |Yes         |Yes         |

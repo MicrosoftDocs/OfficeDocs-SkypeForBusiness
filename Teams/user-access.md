@@ -49,7 +49,7 @@ The steps are different depending on whether you use the **Licenses** page or **
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot of Teams license enabled for a user](media/assign-teams-licenses-1.png)    | ![Screenshot of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
+|![Screenshot of Teams license enabled for a user](media/assign-teams-licenses-1.png)    | ![Seconde screenshot of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
 
 ### Remove a Teams license
 
@@ -60,7 +60,7 @@ When you remove a Teams license from a user, Teams is disabled for that user, an
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot of Teams license disabled for a user](media/remove-teams-licenses-1.png)    | ![Screenshot of Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
+|![Repeat screenshot of Teams license disabled for a user](media/remove-teams-licenses-1.png)    | ![Repeat second screenshot of Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
 
 ## Using PowerShell
 

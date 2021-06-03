@@ -13,13 +13,13 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: Teams voice case study for multi-national corporation - Phone system
 appliesto: 
   - Microsoft Teams
 ---
 
 
-# Contoso case study: Phone System
+# Contoso case study: Phone system
 
 Depending on geographic location and other factors, Contoso had offices using the following telephony solutions:
 
@@ -73,7 +73,7 @@ Based on the answers to their questions, Contoso decided to:
 
 The following diagram shows the initial Skype for Business Enterprise Voice deployment and how this deployment was migrated to both Microsoft Calling Plans and Direct Routing:
 
-![Diagram showing before and after states](media/voice-case-study-1.png)
+![Diagram showing before and after states for Enterprise Voice.](media/voice-case-study-1.png)
 
 ## Site Type B: Traditional legacy telephony systems
 
@@ -104,12 +104,12 @@ Based on the answers to their questions, Contoso decided to:
 The following diagrams show the original legacy system deployment with remote sites and the migration to a Direct Routing deployment with Local Media Optimization:
 
 **Original legacy deployment** 
-![Diagram showing before and after states](media/voice-case-study-2.png)
+![Diagram showing before and after states fo the main site.](media/voice-case-study-2.png)
 
 
 **Deployment with Direct Routing**
 
-![Diagram showing before and after states](media/voice-case-study-3.png)
+![Diagram showing before and after states for a legacy site with remote sites.](media/voice-case-study-3.png)
  
 ## Site Type C: Combination of Skype for Business Enterprise Voice and traditional legacy telephony systems
 
@@ -143,10 +143,10 @@ Based on the answers to their questions, Contoso decided on the following:
 The following diagrams show the original Skype for Business Enterprise Voice and legacy telephony system deployment and the migration to a mixed deployment using Direct Routing:
 
 **Original mixed deployment**
-![Diagram showing before state](media/voice-case-study-4.png)
+![Diagram showing before state - Business nterprise voice and legacy telephony](media/voice-case-study-4.png)
 
 **Mixed deployment with Direct Routing**
-![Diagram showing before state](media/voice-case-study-4a.png)
+![Diagram showing before state - mixed environment end state](media/voice-case-study-4a.png)
 
 
 ## Calling Plans
