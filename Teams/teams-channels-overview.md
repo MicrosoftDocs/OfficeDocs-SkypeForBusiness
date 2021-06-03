@@ -54,7 +54,7 @@ Membership, roles, and settings
 
 **Team membership**
 
-When Microsoft Teams is activated for your entire organization, designated team owners can invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings guests who are team members but outside of your organization can also be added to your teams. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
+When Microsoft Teams is activated for your entire organization, designated team owners can invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings people from outside of your organization can be added to your teams as guests. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
 
 Team owners can also create a team based on an existing Microsoft 365 group. Any changes made to the group will be synced with Microsoft Teams automatically. Creating a team based on an existing Microsoft 365 group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
 
@@ -66,6 +66,9 @@ There are two main roles in Microsoft Teams:
 - **Team members** - The people who the owners invite to join their team.
 
 In addition, if moderation is set up, team owners and members can have moderator capabilities for a channel. Moderators can start new posts in the channel and control whether team members can reply to existing channel messages. Team owners can assign moderators within a channel. (Team owners have moderator capabilities by default.) Moderators within a channel can add or remove other moderators within that channel. For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+> [!NOTE]
+> When you add a team owner, they are also added as a member, except when the team is created in the Teams admin center or when a team is added to a new or existing Microsoft 365 group.
 
 **Team settings** 
 
