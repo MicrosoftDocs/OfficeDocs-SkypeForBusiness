@@ -141,8 +141,8 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-> [!NOTE]
-> If the password is not set to Never Expire, the account will no longer sign in on the device when the account reaches the expiry period. The password will then need to be changed for the account and also updated locally on the MTR device.
+    > [!NOTE]
+    > If the password is not set to Never Expire, the account will no longer sign in on the device when the account reaches the expiry period. The password will then need to be changed for the account and also updated locally on the MTR device.
 
 6. The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:
 
