@@ -198,12 +198,12 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.
 
-| &nbsp; | Very skilled | Somewhat skilled | Not skilled at all | Want to learn more | N/A | Unsure/not familiar | | | | |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Use Teams for IM/chatting with others | | | | | | | | | | |
-| Use Teams for online meetings | | | | | | | | | | |
-| Use Teams for collaboration (teams and channels) | | | | | | | | | | |
-| Use Teams on my mobile device | | | | | | | | | | |
+| &nbsp; | Very skilled | Somewhat skilled | Not skilled at all | Want to learn more | N/A | Unsure/not familiar 
+|---|---|---|---|---|---|---|
+| Use Teams for IM/chatting with others | | | | | | |
+| Use Teams for online meetings | | | | | | |
+| Use Teams for collaboration (teams and channels) | | | | | | |
+| Use Teams on my mobile device | | | | | | | |
 
 | **What, if anything, is preventing you from using Microsoft Teams?** | **Select all that apply** |
 |---|---|

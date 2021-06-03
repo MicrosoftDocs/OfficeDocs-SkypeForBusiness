@@ -41,7 +41,7 @@ After you've secured your project team and defined your vision, scope, and goals
 > [!Note]
 > You can adapt the assessment activities given below to any change initiative in your organization. Simply address the questions based on the scope of your project. In the following discussions, "new solution" can apply to audio calling, audio conferencing, or your upgrade from Skype for Business to Teams.
 
-| | |
+| &nbsp;|&nbsp; |
 |---|---|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture of your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the following guidance and associated activities to capture your organization's user readiness profile.</li></ul>|
@@ -101,7 +101,7 @@ Understanding how user work and how they come together can help users visualize 
 
 To get the most out of Teams, build a teamwork strategy that includes both scenarios, helping users understand how Teams can work for them.
 
-| | |
+|&nbsp; | &nbsp;|
 |---|---|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

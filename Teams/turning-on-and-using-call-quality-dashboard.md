@@ -1,5 +1,5 @@
 ---
-title: Set up Call Quality Dashboard (CQD)
+title: Call Quality Dashboard (CQD) setup
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
