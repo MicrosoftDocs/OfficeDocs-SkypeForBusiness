@@ -80,7 +80,7 @@ This diagnostic data doesn’t include names of users, their email addresses, or
 To see what diagnostic data is being sent to Microsoft, you can use the Diagnostic Data Viewer, which you can download and install for free from the Microsoft Store. For more information, see [Using the Diagnostic Data Viewer with Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
 > [!NOTE]
-> Support for the Diagnostic Data Viewer is available for Teams on devices running Android. Support for Teams on devices running iOS or running Windows is being worked on.
+> Support for the Diagnostic Data Viewer is available for Teams on devices running Android. Support for Teams on devices running Windows, macOS, or iOS is being worked on.
 
 ## Required service data for connected experiences
 
