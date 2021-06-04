@@ -139,13 +139,13 @@ To extract your custom fields out of the captured event logs, follow these steps
 | AppVersion                       | SRSAppVersion               | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
 | IPv4Address                      | SRSIPv4Address              | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
 | IPv6Address                      | SRSIPv6Address              | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
-| Conference Microphone status     | SRSConfMicrophoneStatus     | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
-| Conference Speaker status        | SRSConfSpeakerStatus        | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
-| Default Speaker status           | SRSDefaultSpeakerStatus     | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
-| Camera status                    | SRSCameraStatus             | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
-| Front of Room Display status     | SRSFORDStatus               | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
-| Motion Sensor status             | SRSMotionSensorStatus       | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
-| HDMI Ingest status               | SRSHDMIIngestStatus         | **3001**     | Event \| where Source == "SRS-App" and EventID == 3001 |
+| Conference Microphone status     | SRSConfMicrophoneStatus     | **3000**     | Event \| where Source == "SRS-App" and EventID == 3000 |
+| Conference Speaker status        | SRSConfSpeakerStatus        | **3000**     | Event \| where Source == "SRS-App" and EventID == 3000 |
+| Default Speaker status           | SRSDefaultSpeakerStatus     | **3000**     | Event \| where Source == "SRS-App" and EventID == 3000 |
+| Camera status                    | SRSCameraStatus             | **3000**     | Event \| where Source == "SRS-App" and EventID == 3000 |
+| Front of Room Display status     | SRSFORDStatus               | **3000**     | Event \| where Source == "SRS-App" and EventID == 3000 |
+| Motion Sensor status             | SRSMotionSensorStatus       | **3000**     | Event \| where Source == "SRS-App" and EventID == 3000 |
+| HDMI Ingest status               | SRSHDMIIngestStatus         | **3000**     | Event \| where Source == "SRS-App" and EventID == 3000 |
 
 
 ## Define the :::no-loc text="Microsoft Teams Rooms"::: views in :::no-loc text="Log Analytics":::
