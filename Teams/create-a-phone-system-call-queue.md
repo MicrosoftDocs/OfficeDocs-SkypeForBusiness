@@ -66,7 +66,7 @@ Click **Add accounts**, search for the resource account that you want to use wit
 
 ![Screenshot of calling ID settings](media/call-queue-assign-calling-id.png)
 
-If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying a resource account with a phone number.
+If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
 
 Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
 
