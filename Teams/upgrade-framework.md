@@ -50,7 +50,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ### Plan: Create your upgrade plan to help ensure your organization is set up for long-term success
 
-| Step |  | Summary | Resource |
+| # | Step | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Define your stakeholders** | Assign project team members accountable for driving upgrade success. | [Enlist your stakeholders](upgrade-enlist-stakeholders.md) |
 | **2** | **Define your project vision and scope** | Design your "big picture" vision and current project scope to create a blueprint for your upgrade journey. | [Project vision](upgrade-define-project-scope.md#project-vision) <br> <br>[Project scope](upgrade-define-project-scope.md#project-scope) |
@@ -62,7 +62,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ### Prepare: Evaluate your organization's readiness for Teams
 
-| Step |  | Summary | Resource |
+| #  | Step  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Assess your environment and complete Teams technical onboarding** | Ensure your environment is ready for Teams to help optimize the user experience and facilitate your upgrade over time. | [Evaluate your environment before upgrading to Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Prepare your service for upgrading to Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Optimize network for Teams, particularly for real-time media scenarios** | If you're deploying audio, video, or meetings, take these additional steps to optimize your network for that functionality. | [Prepare your network for upgrading to Teams](prepare-network.md) |
@@ -73,7 +73,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ### Pilot: Run a pilot to confirm that your organization is ready and inform your optimal journey to Teams
 
-| Step |  | Summary | Resource |
+| # |Step  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Outline pilot logistics** | Define formal pilot logistics to help validate your organization's readiness to upgrade or coexist. | [Outline pilot logistics](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **Select your pilot participants and test scenarios** | Identify users who can help validate teamwork scenarios and verify Teams readiness. | [Select your pilot participants and test scenarios](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -84,7 +84,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ### Deploy: Run Teams in coexistence with Skype for Business
 
-| Step |  | Summary | Resource |
+| # | Step  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Announce the official launch of Teams** | Generate excitement and momentum by sending an official launch announcement when Teams is ready. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **Implement your upgrade** | The steps you take depend on your current deployment of Skype for Business. | [Implement your upgrade](upgrade-to-teams.md) |
@@ -97,7 +97,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ### Upgrade: Implement your upgrade from Skype for Business to Teams
 
-| Step |  | Summary | Resource |
+| # |Step  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Confirm that you've completed the pre-upgrade activities described above** | Help ensure upgrade success by confirming completion of all planning and preparation activities. | All the above |
 | **2** | **Initiate communications to users in your first upgrade group** | Notify users that upgrades are starting, and keep them informed throughout the process. | [Prepare a user readiness plan](upgrade-user-readiness.md) <br><br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
@@ -111,7 +111,7 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 
 ### Operate: Measure the success of your upgrade
 
-| Step |  | Summary | Resource |
+| # |Step  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Assess your initial upgrade success** | Evaluate progress against the goals you established in the pre-upgrade phase. | [Project goals](upgrade-define-project-scope.md#project-goals) |
 | **2** | **Implement a mitigation plan for any goals that aren't on track** | Define mitigation or course-correction strategies for goals that are not being met. | [Project goals](upgrade-define-project-scope.md#project-goals) |

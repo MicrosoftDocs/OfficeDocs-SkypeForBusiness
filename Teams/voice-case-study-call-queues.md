@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: 'Teams voice Contoso case study: Auto attendants and call queues'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: Teams voice case study for multi-national corporation - auto attendants and call queues.
 appliesto: 
   - Microsoft Teams
 ---
