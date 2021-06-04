@@ -92,12 +92,10 @@ When the assisted upgrade completes, the **Coexistence Mode** for upgraded users
         - Existing Skype for Business Online meetings are converted to Teams meetings
             > [!IMPORTANT]
             > Customers with pure Skype for Business Online configurations need to use the Meeting Migration Service (MMS) to migrate existing Skype for Business Online meetings to Teams meetings. We recommend using MMS prior to the assisted upgrade date. For more information about MMS, see [Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
-            >
-            > If you have a Skype for Business Server hybrid deployment and upgrade to Teams, you can move users between Skype for Business Server and Teams after your upgrade is complete.
     :::column-end:::
 :::row-end:::
 
-After your upgrade is complete, organizations with hybrid deployments may move users from on-premises to Teams or moved from Teams to on-premises.  
+If you have a Skype for Business Server hybrid deployment and upgrade to Teams, you can move users between Skype for Business Server and Teams after your upgrade is complete.
 
 ## Related content
 
