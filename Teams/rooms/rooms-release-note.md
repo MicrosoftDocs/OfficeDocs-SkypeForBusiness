@@ -16,7 +16,7 @@ description: Admin can read the release notes for Microsoft Teams Rooms, which l
 ms.custom: seo-marvel-apr2020
 ---
 
-# Release notes
+# Release notes for Microsoft Teams Rooms
 
 This article discusses cumulative improvements in Microsoft Teams Rooms.
 
