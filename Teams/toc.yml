@@ -810,7 +810,7 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
-            - name: Support Teams in your organization
+            - name: Known issues
               href: rooms/known-issues.md
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
