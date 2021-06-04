@@ -96,7 +96,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
   > [!NOTE]
   > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
-- The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set. For more information, see [Exchange hybrid writeback](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
+- The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set. For more information, see [Exchange hybrid writeback](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
 
 - For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
