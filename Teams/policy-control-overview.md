@@ -53,9 +53,10 @@ The following clients adhere to diagnostic controls and will submit data:
 - Android
 - Desktop (only the component that is using the win32 API)
 
-For required mobile data diagnostics, see [Policy control diagnostic data for mobile](policy-control-diagnostic-data-mobile.md).
+To see a list of required diagnostic data events and their properties, see the following articles:
 
-For required desktop data diagnostics, see [Policy control diagnostic data for desktop](policy-control-diagnostic-data-desktop.md).
+- [Required mobile diagnostic data for Microsoft Teams](policy-control-diagnostic-data-mobile.md)
+- [Required desktop diagnostic data for Microsoft Teams](policy-control-diagnostic-data-desktop.md)
 
 ## Diagnostic data sent from the Teams app to Microsoft
 
