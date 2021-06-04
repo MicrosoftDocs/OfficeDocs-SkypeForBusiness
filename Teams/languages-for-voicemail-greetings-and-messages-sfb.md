@@ -27,9 +27,9 @@ description: Learn which languages you can set in Skype for Business for the def
 # Languages for voicemail greetings and messages
 
 You can set up Skype for Business to play its system voicemail greeting in one of the languages listed in this table.
-  
+
 To change the language that Skype for Business uses for system voicemail greetings, see [Change the default language for voicemail greetings and emails in your organization](change-the-default-language-for-greetings-and-emails.md).
-  
+
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Language** <br/> |**Country/region** <br/> |**Language code** <br/> |**Available for a user to see it in email?** <br/> |**Available when the user calls in?** <br/> |**Transcription available?** <br/> |
@@ -71,11 +71,8 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Thai <br/> |Thailand  <br/> |th-TH  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Vietnamese <br/> |Vietnam  <br/> |vi-VN  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-   
+
 ## Related topics
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
-  
-  
- 
