@@ -109,10 +109,11 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
      Get-AzureADSubscribedSku
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
      ``` -->
-> [!NOTE]
-> If you are configuring Teams Rooms to only natively join Microsoft Teams meetings, you should not proceed with the following steps. The following is only required if you will also be enabling support for Skype for Business.
-> 
+
 ### Enable the user account with Skype for Business Server
+
+> [!NOTE]
+> If you're setting up Teams Rooms to only join Microsoft Teams meetings, you don't need to do the following steps. The following steps are only required if you want to enable support for Skype for Business.
 
 1. Create a remote Windows PowerShell session from a PC as follows:
 
@@ -139,9 +140,11 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
    ``` Powershell
    Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
-> [!NOTE]
-> If you are configuring Teams Rooms to only natively join Microsoft Teams meetings, you should not proceed with the following steps. The following is only required if you will also be enabling support for Skype for Business.
+
 ### Assign a Skype for Business Server license to your Microsoft Teams Rooms account
+
+> [!NOTE]
+> If you're setting up Teams Rooms to only join Microsoft Teams meetings, you don't need to do the following steps. The following steps are only required if you want to enable support for Skype for Business.
 
 1. Log in as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.
 2. Click on **Users and Groups** and then click **Add users, reset passwords, and more**.
