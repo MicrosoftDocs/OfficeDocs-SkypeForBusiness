@@ -65,6 +65,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required. For more information, see [Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
+<sup>10</sup> Teams do not support time zone settings for mailboxes hosted on-premises.
 ## Requirements to get the most out of Microsoft Teams
 
 Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with rich experience. To support this experience, you need to enable certain features or services and assign licenses.
