@@ -132,27 +132,27 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 7. Select **Smartcard User** under the **Certificate Template** section and complete the advanced certificate request with the following values:
 
-  - **Key Options** confirm the following settings:
+   - **Key Options** confirm the following settings:
 
-    - Select the **Create new key set** radio button
+     - Select the **Create new key set** radio button
 
-    - For **CSP**, select **Microsoft Base Smart Card Crypto Provider**
+     - For **CSP**, select **Microsoft Base Smart Card Crypto Provider**
 
-    - For **Key Usage**, select **Exchange** (this is the only option available).
+     - For **Key Usage**, select **Exchange** (this is the only option available).
 
-    - For **Key Size**, enter 2048
+     - For **Key Size**, enter 2048
 
-    - Confirm that **Automatic key container name** is selected
+     - Confirm that **Automatic key container name** is selected
 
-    - Leave the other boxes unchecked.
+     - Leave the other boxes unchecked.
 
-  - Under **Additional Options** confirm the following values:
+   - Under **Additional Options** confirm the following values:
 
-    - For **Request Format** select **CMC**.
+     - For **Request Format** select **CMC**.
 
-    - For **Hash Algorithm** select **sha1**.
+     - For **Hash Algorithm** select **sha1**.
 
-    - For **Friendly Name** enterSmardcard Certificate.
+     - For **Friendly Name** enterSmardcard Certificate.
 
 8. If you are using a physical smartcard reader, insert the smart card into the device.
 
