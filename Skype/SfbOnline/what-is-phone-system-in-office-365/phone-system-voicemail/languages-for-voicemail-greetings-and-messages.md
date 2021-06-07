@@ -28,7 +28,7 @@ description: Learn which languages you can set in Skype for Business for the def
 
 You can set up Skype for Business to play its system voicemail greeting in one of the languages listed in this table.
 
-To change the language that Skype for Business uses for system voicemail greetings, see [Change the default language for voicemail greetings and emails in your organization](change-the-default-language-for-greetings-and-emails.md).
+To change the language that Skype for Business uses for system voicemail greetings, see [Change the default language for voicemail greetings and emails in your organization](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -73,6 +73,5 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Vietnamese <br/> |Vietnam  <br/> |vi-VN  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 
 ## Related topics
-[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
+[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
