@@ -30,7 +30,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Multi-tenant SIP trunking to support several customers on solution provider’s SBC.  
 
-  - Solution providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](./direct-routing-border-controllers.md) 
+  - Solution providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](../direct-routing-border-controllers.md)
 
 
 ### [**The Extend model**](#tab/extend)
