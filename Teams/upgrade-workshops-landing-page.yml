@@ -51,10 +51,6 @@ additionalContent:
   sections:
     - items:
         # Card
-        - title: View these workshops on your own time
-          summary: Visit Upgrade to Microsoft Teams on YouTube.
-          url: https://aka.ms/UpgradeOnDemand
-        # Card
         - title: Expanding your Teams scenarios? 
           summary: Check out our Teams Chalk Talk workshops for IT Pros.
           url: ./chalk-talks-landing-page.yml
