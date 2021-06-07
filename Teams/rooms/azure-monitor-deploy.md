@@ -25,7 +25,7 @@ You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and :::no-loc text="Microsoft Teams Rooms"::: application and operating system version distribution.
 
-![Screenshot of sample Log Analytics view for Microsoft Teams Rooms](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
+:::image type="content" alt-text="Screenshot of sample Log Analytics view for Microsoft Teams Rooms" source="../media/Deploy-Azure-Monitor-1.png" lightbox="../media/Deploy-Azure-Monitor-1.png":::
 
 At a high level, you need to perform the following tasks:
 
@@ -60,7 +60,7 @@ You need to configure :::no-loc text="Log Analytics"::: to collect the logs requ
 
 To configure :::no-loc text="Log Analytics"::: to collect the :::no-loc text="Microsoft Teams Rooms"::: events, see [:::no-loc text="Windows"::: event log data sources in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Screenshot of event log settings](../media/Deploy-Azure-Monitor-2.png "Event log settings")
+:::image type="content" alt-text="Screenshot of event log settings" source="../media/Deploy-Azure-Monitor-2.png" lightbox="../media/Deploy-Azure-Monitor-2.png":::
 
 > [!IMPORTANT]
 > Configure :::no-loc text="Windows"::: Event Log settings and enter **:::no-loc text="Skype Room System":::** as event log name, and then select the **Error**, **Warning**, and **Information** check boxes.
