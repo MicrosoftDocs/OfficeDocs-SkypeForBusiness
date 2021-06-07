@@ -27,7 +27,7 @@ As an admin, you can use app setup policies to install and pin apps to promote t
 
 - **Pin apps:** app setup policies let you choose apps to pin, set the order they show up in for your users, and control whether or not users can pin their own apps to the Teams app bar. For more information, see [Pin apps](#pin-apps).
 - **Install apps:** app setup policies let you install apps on behalf of users when they start Teams and during meetings. For more information, see [Install apps](#install-apps).
-- **Upload custom apps:** app setup policies let you allow users to upload custom apps to Teams. For more information, see [Upload custom apps](Upload-custom-apps).
+- **Upload custom apps:** app setup policies let you allow users to upload custom apps to Teams. For more information, see [Upload custom apps](#upload-custom-apps).
 
 ## Pin apps
 
@@ -150,7 +150,7 @@ For more information on assigning policies to your users, see [Assign policies t
 
 #### Can I assign an app setup policy to a group
 
-App setup policies can be assigned to groups using PowerShell. For more information on assigning policies to groups using PowerShell, see [Assign policies to users and groups](assign-policies-users-and-groups.md#Use-the-PowerShell-option).
+App setup policies can be assigned to groups using PowerShell. For more information on assigning policies to groups using PowerShell, see [Assign policies to users and groups](assign-policies-users-and-groups.md#use-the-powershell-option).
 
 #### What built-in app setup policies are included in the Microsoft Teams admin center
 
