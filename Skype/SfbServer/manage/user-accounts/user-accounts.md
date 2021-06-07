@@ -69,7 +69,7 @@ You can search for users by using the Skype for Business Server Control Panel or
 
 After enabling a user account in Active Directory Users and Computers, you can use Skype for Business Server Control Panel to create and enable new Skype for Business Server user accounts by adding an Active Directory user to Skype for Business Server.
 
-You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps).
+You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype/enable-csuserype-ps).
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
 
@@ -128,7 +128,7 @@ To re-enable a disabled user account, set the value of the Enabled property to T
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-For more information, see the help topic for the [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Set-CsUser](/powershell/module/skype/set-csuser-ps) cmdlet.
 
 ## Disable a user for Enterprise Voice
 <a name="Disable_EV"> </a>
@@ -193,11 +193,11 @@ To remove a user account, use the Disable-CsUser cmdlet. For example:
 
 After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-For more information, see the help topic for the [Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Disable-CsUser](/powershell/module/skype/disable-csuser) cmdlet.
 
 ## See also
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
+[Enable-CsUser](/powershell/module/skype/enable-csuser)
 
-[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)
+[Disable-CsUser](/powershell/module/skype/disable-csuser)
