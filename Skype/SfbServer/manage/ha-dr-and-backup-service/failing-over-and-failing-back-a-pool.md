@@ -160,11 +160,11 @@ If a Front-End pool fails, but the Edge pool at that site is still running, you 
     
     If you see the following error message, then you need to change the Edge pool at this site to use a different pool as its next hop before failing over the pool. For details, see the procedures at the beginning of this topic.
     
-        Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
-        topology as the next hop for the Edge server. Failing over this pool may cause External
-        access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
-        change the Edge internal next hop setting to point to a different Front-end pool,  before you
-        proceed.
+    > Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
+    > topology as the next hop for the Edge server. Failing over this pool may cause External
+    > access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
+    > change the Edge internal next hop setting to point to a different Front-end pool,  before you
+    > proceed.
 
 
 ## Fail back a pool
