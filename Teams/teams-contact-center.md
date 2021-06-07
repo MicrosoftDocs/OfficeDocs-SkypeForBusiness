@@ -39,6 +39,8 @@ If you're an organization looking for an integrated contact center solution, see
 
 If you're a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.
 
+<a name="steps"></a>
+
 ## Integration models for solution providers
 
 As a contact center solution provider, there are three models to choose from to integrate your connected contact center solution into Teams:
@@ -49,9 +51,7 @@ As a contact center solution provider, there are three models to choose from to 
 
 - If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#the-power-model). Power solutions will be possible when the SDK is available, towards the end of 2021.
 
-<a name="steps"></a>
-
-# [The Connect model](#tab/connect)
+### [The Connect model](#tab/connect)
 
 The Connect model leverages Microsoft certified SBCs and Direct Routing to connect contact center solutions to Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights.
 
@@ -73,10 +73,8 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Solution providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](./direct-routing-border-controllers.md) 
 
-> [!div class="nextstepaction"]
 
-
-### The Extend model
+### [The Extend model](#tab/extend)
 
 The Extend model uses Azure bots, and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps for more integrated contact center experience in Teams.
 
@@ -106,7 +104,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
   - Preserve performance and quality of Teams client experiences in all apps  
 
-### The Power model
+### [The Power model](#tab/power)
 
 The Power model leverages a SDK enabling solution providers to imbed native Teams experiences in their App.
 
