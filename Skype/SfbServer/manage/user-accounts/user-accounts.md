@@ -108,7 +108,7 @@ You can use the following procedure to disable a previously enabled user account
 
    - To enable the user account for Skype for Business Server, click **Re-enable for Lync Server**.
 
-### Use Windows Powershell to Disable or Re-enable User Accounts
+### Use Windows PowerShell to Disable or Re-enable User Accounts
 
 User accounts can be temporarily disabled, and then later re-enabled, by using the **Set-CsUser** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
 
@@ -179,7 +179,7 @@ You can use the following procedure to remove a previously added user account in
 
 7. From the dialog box, select **OK** to remove the user.
 
-### Remove user accounts with Windows Powershell cmdlets
+### Remove user accounts with Windows PowerShell cmdlets
 
 You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
 
