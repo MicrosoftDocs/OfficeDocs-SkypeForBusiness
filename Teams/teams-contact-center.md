@@ -33,7 +33,7 @@ For organizations that want solutions with business tools and workflows to drive
 
 ## Connected contact center for Microsoft Teams certification program
 
-The Connected contact center for Microsoft Teams certification program provides customers ensures that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
+The Connected contact center for Microsoft Teams certification program ensures that each participating provider’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
 If you're an organization looking for an integrated contact center solution, see [Certified Microsoft Teams solutions for contact centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions) for a list of solution certified providers, and see [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of providers in the process of certification.
 
