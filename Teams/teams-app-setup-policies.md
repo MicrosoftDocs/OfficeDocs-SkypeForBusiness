@@ -46,12 +46,6 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 
 To see the apps installed by admins, in the app bar, users select **... More apps** in the Teams desktop and web clients and swipe up in the mobile clients.
 
-You manage app setup policies in the Microsoft Teams admin center. Use the global (Org-wide default) policy or create and assign custom policies.  Users in your organization will automatically get the global policy unless you create and assign a custom policy. You must be a global admin or Teams service admin to manage these policies.
-
-You edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
-
-![the App setup policies page](media/app-setup-policies.png)
-
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
 
@@ -104,8 +98,6 @@ To create an app setup policy to install apps, do the following steps:
 
 5. In the **Add installed apps** pane, search for the apps you want to automatically install for users. You can also filter apps by app permission policy.
 
-    ![the Add installed apps pane](media/app-setup-policies-add-installed-apps.png)
-
 6. Select **Add**.
 
 > [!IMPORTANT]
@@ -128,7 +120,15 @@ To create an app setup policy to allow users to upload custom apps to Teams, do 
 > [!NOTE]
 > You can't change this setting if **Allow third-party apps** is turned off in [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
-## Edit an app setup policy
+## Manage app setup policies
+
+You manage app setup policies in the Microsoft Teams admin center. Use the global (Org-wide default) policy or create and assign custom policies.  Users in your organization will automatically get the global policy unless you create and assign a custom policy. You must be a global admin or Teams service admin to manage these policies.
+
+You edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
+
+![the App setup policies page](media/app-setup-policies.png)
+
+### Edit an app setup policy
 
 You can use the Microsoft Teams admin center to edit a policy, including the global (Org-wide default) policy and custom policies that you create.
 
@@ -140,7 +140,7 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 4. Select **Save**.
 
-## Assign a custom app setup policy to users
+### Assign a custom app setup policy to users
 
 For more information on assigning policies to your users, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
 
