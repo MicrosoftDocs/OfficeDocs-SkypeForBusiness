@@ -1134,8 +1134,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Transfer target is set to a Person.
   - Transfer target is set to a Phone Number.
 - **translateFailed** - Translation failed (excluding offline). Feature success metrics for message translation feature.
-- **trigger_created** - The user created a Geofence.
-- **trigger_deleted** - The user deleted a Geofence.
+- **trigger_created** - The user created a geofence.
+- **trigger_deleted** - The user deleted a geofence.
 - **unansweredCallForward** - An unanswered call forward target is set. Also enables unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled).
 - **unblockCaller** - Unblock:
   - Contact or number from the action sheet.
