@@ -6,6 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 mtps_version: v=OCS.15
 ms.author: v-cichur
+description: Howt to enable or disable sending an Archiving disclaimer to federated partners in Skype for Business Server.
 author: cichur
 manager: serdars
 audience: ITPro
