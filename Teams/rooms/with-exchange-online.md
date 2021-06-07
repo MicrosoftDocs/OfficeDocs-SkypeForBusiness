@@ -117,6 +117,9 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 ### Enable the user account with Skype for Business Server
 
+> [!NOTE]
+> If you're setting up Teams Rooms to only join Microsoft Teams meetings, you don't need to do the following steps. The following steps are only required if you want to enable support for Skype for Business.
+
 1. Create a remote Windows PowerShell session from a PC as follows:
 
     > [!NOTE]
@@ -144,6 +147,9 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
    ```
 
 ### Assign a Skype for Business Server license to your Microsoft Teams Rooms account
+
+> [!NOTE]
+> If you're setting up Teams Rooms to only join Microsoft Teams meetings, you don't need to do the following steps. The following steps are only required if you want to enable support for Skype for Business.
 
 1. Log in as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.
 
