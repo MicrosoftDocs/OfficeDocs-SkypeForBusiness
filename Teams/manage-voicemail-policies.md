@@ -151,13 +151,13 @@ Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip
 You must first create a custom voicemail policy using the [New-CsOnlineVoicemailPolicy](/powershell/modeul/skype/New-CsOnlineVoicemailPolicy) cmdlet. The command shown below creates a per-user online voicemail policy enUS-esSP-VoicemailPolicy with the PrimarySystemPromptLanguage set to en-US (English - United States) and the SecondarySystemPromptLanguage set to es-SP (Spanish - Spain).
 
 ```
-New-CsOnlineVoicemailPolicy -Identity "enUS-esSP-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-SP
+New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
 ```
 
 To assign this custom policy to a user, run: 
 
 ```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esSP-VoicemailPolicy" -Identity sip:amosmar@contoso.com
+Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity sip:amosmar@contoso.com
 ```
 
 > [!NOTE]
@@ -168,8 +168,6 @@ Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esSP-VoicemailPolicy" -Identity 
 > Get-CsOnlineVoicemailPolicy -Identify PolicyName).SecondarySystemPromptLanguage 
 >
 > *Replace **PolicyName** with the name of the policy.
-
-
 
 
 > [!IMPORTANT]
