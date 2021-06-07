@@ -44,8 +44,6 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 |---------|---------|
 |![The Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
 
-To see the apps installed by admins, in the app bar, users select **... More apps** in the Teams desktop and web clients and swipe up in the mobile clients.
-
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
 
@@ -76,12 +74,13 @@ To create an app setup policy to pin apps, do the following steps:
 
 ## Install apps
 
-You can choose which apps are installed by default for users when they start Teams and designate which apps should be pre-installed for meetings.
+You can choose which apps are installed by default for users in their personal Teams environment, install apps as [messaging extensions](microsoftteams/platform/messaging-extensions/what-are-messaging-extensions), and designate apps to be installed in meetings.
 
 Using an app setup policy, you can do the following tasks:
 
-- Install apps on behalf of users when they start Teams.
-- Install apps for users that will be available in meetings.
+- Install apps for users in their personal Teams environment
+- Install apps for users as messaging extensions
+- Install apps in meetings for meeting organizers
 
 > [!NOTE]
 > Users can still install apps themselves if the [app permission policy](teams-app-permission-policies.md) that's assigned to them allows it.
@@ -99,6 +98,8 @@ To create an app setup policy to install apps, do the following steps:
 5. In the **Add installed apps** pane, search for the apps you want to automatically install for users. You can also filter apps by app permission policy.
 
 6. Select **Add**.
+
+To see the apps installed by admins, in the app bar, users select **... More added apps** in the Teams desktop and web clients and swipe up in the mobile clients.
 
 > [!IMPORTANT]
 > Users can't uninstall apps that are installed by admins.
