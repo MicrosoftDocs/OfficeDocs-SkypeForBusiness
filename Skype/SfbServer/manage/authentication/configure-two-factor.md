@@ -222,7 +222,7 @@ The following section describes how to configure Active Directory Federation Ser
     
     ```powershell
     Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-  ```
+    ```
 
 10. From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.
 
