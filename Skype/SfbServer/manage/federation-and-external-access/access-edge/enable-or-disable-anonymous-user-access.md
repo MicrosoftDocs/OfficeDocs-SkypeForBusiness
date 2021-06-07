@@ -68,4 +68,4 @@ Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 ## See Also
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  
