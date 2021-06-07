@@ -45,9 +45,9 @@ For detailed parameter descriptions, see [New-CsNetworkInterSitePolicy](/powersh
 
 3.  Use the **Set-CsNetworkInterSitePolicy** cmdlet to modify the properties of a given network site link. You can modify either (or both) or the connected sites, and you can modify the bandwidth policy profile associated with the link. Here is an example of modifying the bandwidth policy profile of a site link named Reno\_Portland:
 
-```powershell
-Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
-```
+    ```powershell
+    Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
+    ```
 
 For detailed parameter descriptions, see [Set-CsNetworkInterSitePolicy](/powershell/module/skype/Set-CsNetworkInterSitePolicy).
 
@@ -60,9 +60,9 @@ For detailed parameter descriptions, see [Set-CsNetworkInterSitePolicy](/powersh
 
 3.  Use the **Remove-CsNetworkInterSitePolicy** cmdlet to remove a network site link. The following example deletes the Reno\_Portland network site link:
 
-```powershell
-Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
-```
+    ```powershell
+    Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
+    ```
 
 For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
 
@@ -101,7 +101,7 @@ Get-CsNetworkSite
     
 That will return information similar to this:
 
-```console    
+```console
 Identity          : Redmond
 NetworkSiteID     : Redmond
 Description       :
