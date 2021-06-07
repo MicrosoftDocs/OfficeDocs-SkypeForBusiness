@@ -230,7 +230,7 @@ In the following procedure, EdgePool1 is the pool, which originally hosted XMPP 
 
 5.  If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.
 
-    ```powershell
+    ```console
     _xmpp-server._tcp.contoso.com
     ```
 
@@ -276,7 +276,7 @@ After a failed Edge pool that used to host federation has been brought back onli
     
     1. If you do not already have a DNS SRV record for XMPP federation which resolves to the Edge pool which will now host XMPP federation, you must add it, as in the following example. This SRV record must have a port value of 5269.
 
-        ```powershell
+        ```console
         _xmpp-server._tcp.contoso.com
         ```
     
