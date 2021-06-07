@@ -42,7 +42,7 @@ Now that you have your topology down (and if you don't, you can check out the [T
   
 Recommended hardware for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers:
   
-|**Hardware component**|**Recommended**|
+| Hardware component | Recommended |
 |:-----|:-----|
 |CPU  <br/> |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2015 roles.  <br/> |
 |Memory  <br/> |32 gigabytes (GB).  <br/> |
@@ -51,7 +51,7 @@ Recommended hardware for Front End Servers, Back End Servers, Standard Edition s
    
 Recommended hardware for Edge Servers, standalone Mediation Servers, Video Interop Servers, and Directors:
   
-|**Hardware component**|**Recommended**|
+| Hardware component | Recommended |
 |:-----|:-----|
 |CPU  <br/> |64-bit dual processor, quad-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2015 roles.  <br/> |
 |Memory  <br/> |16 gigabytes.  <br/> |
