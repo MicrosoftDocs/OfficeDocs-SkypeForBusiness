@@ -39,7 +39,7 @@ If you're an organization looking for an integrated contact center solution, see
 
 If you're a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.
 
-<a name="steps"></a>
+<a name="steps">
 
 ## Integration models for solution providers
 
@@ -128,6 +128,8 @@ While the following is not a comprehensive list of feature capabilities for this
 
 >[!NOTE]
 > The Power model will be available towards the end of 2021.
+
+</a>
 
 ### Compare connected contact center integration models
 
