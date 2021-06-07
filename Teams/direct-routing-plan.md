@@ -225,26 +225,18 @@ Placing these three FQDNs in order is required to:
 - Provide optimal experience (less loaded and closest to the SBC datacenter assigned by querying the first FQDN).
 - Provide failover when connection from an SBC is established to a datacenter that is experiencing a temporary issue. For more information, see [Failover mechanism](#failover-mechanism-for-sip-signaling) below.  
 
-The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pstnhub.microsoft.com – will be resolved to one of the following IP addresses:
+The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pstnhub.microsoft.com – will be resolved to IP addresses from the following subnets:
 
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP addresses. 
+You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP subnets. 
 
 > [!IMPORTANT]
-> As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Australia in November 2020. This is reflected in two additional IP addresses (52.114.16.74 and 52.114.20.29) to which the following FQDNs will be resolved for Australian customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to add these two IP addresses (52.114.16.74 and 52.114.20.29) to your IP Access Control Lists (ACLs) and open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
+> As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Australia in November 2020. This is reflected in two additional IP addresses (52.114.16.74 and 52.114.20.29) to which the following FQDNs will be resolved for Australian customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to make sure these two IP addresses (52.114.16.74 and 52.114.20.29) are allowed in your IP Access Control Lists (ACLs) and ports are open for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 > [!IMPORTANT]
-> As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Japan in May 2021. This is reflected in two additional IP addresses (52.114.36.156 and 52.114.32.169) to which the following FQDNs will be resolved for Japan customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to add these two IP addresses (52.114.36.156 and 52.114.32.169) to your IP Access Control Lists (ACLs) and open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
+> As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Japan in May 2021. This is reflected in two additional IP addresses (52.114.36.156 and 52.114.32.169) to which the following FQDNs will be resolved for Japan customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to make sure these two IP addresses (52.114.36.156 and 52.114.32.169) are allowed in your IP Access Control Lists (ACLs) and ports are open for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ### Office 365 GCCH and DoD environment
 
@@ -252,10 +244,9 @@ The connection point for Direct Routing is the following FQDN:
 
 **sip.pstnhub.dod.teams.microsoft.us** – Global FQDN. As the Office 365 DoD environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
 
-The FQDN sip.pstnhub.dod.teams.microsoft.us will be resolved to one of the following IP addresses:
+The FQDN sip.pstnhub.dod.teams.microsoft.us will be resolved to an IP address from the following subnet:
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
 You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
@@ -265,10 +256,9 @@ The connection point for Direct Routing is the following FQDN:
 
 **sip.pstnhub.gov.teams.microsoft.us** – Global FQDN. As the GCC High environment exists only in the US data centers, there is no secondary and tertiary FQDNs.
 
-The FQDN sip.pstnhub.gov.teams.microsoft.us will be resolved to one of the following IP addresses:
+The FQDN sip.pstnhub.gov.teams.microsoft.us will be resolved to an IP address from the following subnet:
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
 You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.gov.teams.microsoft.us** resolves to all these IP addresses. This FQDN can also be used as Federated FQDN for inbound call classification.
 
