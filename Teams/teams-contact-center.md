@@ -49,8 +49,9 @@ As a contact center solution provider, there are three models to choose from to 
 
 - If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#the-power-model). Power solutions will be possible when the SDK is available, towards the end of 2021.
 
+<a name="steps"></a>
 
-### The Connect model
+# [The Connect model](#tab/connect)
 
 The Connect model leverages Microsoft certified SBCs and Direct Routing to connect contact center solutions to Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights.
 
@@ -71,6 +72,9 @@ While the following is not a comprehensive list of feature capabilities for this
   - Multi-tenant SIP trunking to support several customers on solution provider’s SBC.  
 
   - Solution providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](./direct-routing-border-controllers.md) 
+
+> [!div class="nextstepaction"]
+
 
 ### The Extend model
 
@@ -227,13 +231,3 @@ Review the table below for an overview of the integration models that Microsoft 
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 This list will be updated as more solution providers join and meet the certification criteria.
-
-<a name="steps"></a>
-
-#### Follow these steps to set up your auto attendant
-
-# [Step 1<br>Phone number](#tab/phone-number)
-
-hello helllo test test
-
-> [!div class="nextstepaction"]
