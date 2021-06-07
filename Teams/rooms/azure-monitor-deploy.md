@@ -126,7 +126,7 @@ To extract your custom fields out of the captured event logs, follow these steps
 > 
 **Table 1**
 
-| **JSON field**                   | **:::no-loc text="Log Analytics"::: custom field** | **Event ID** | **Query to use with the extraction**                   |
+| JSON field | :::no-loc text="Log Analytics"::: custom field | Event ID | Query to use with the extraction |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
 | Description                      | SRSEventDescription         | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
 | ResourceState                    | SRSResourceState            | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
@@ -161,9 +161,13 @@ After data is collected and custom fields are mapped, you can use View Designer 
 You can import an :::no-loc text="Microsoft Teams Rooms"::: dashboard and start monitoring your devices quickly. Take the following steps to import the dashboard:
 
 1.  Get the [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) dashboard file.
+
 2.  Sign in to the [:::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) and go to :::no-loc text="Log Analytics"::: and select your workspace.
+
 3.  Open **View Designer**.
+
 4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
+
 5.  Select **Save**.
 
 ### Create a Microsoft Teams Rooms dashboard manually
@@ -173,154 +177,244 @@ Alternatively, you can create your own dashboard and add only the tiles that you
 #### Configure the Overview Tile
 
 1.  Open **View Designer**.
+
 2.  Select **Overview Tile**, and then select **Two numbers** from the gallery.
+
 3.  Name the tile **:::no-loc text="Microsoft Teams Rooms":::**.
-4.  Define the **First Tile**:<br>
+
+4.  Define the **First Tile**:
+
     **Legend:** Devices that sent a heartbeat at least once within the last month<br>
-    **Query:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
-5.  Define the **Second Tile**:<br>
+    **Query:** `Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)`
+
+5.  Define the **Second Tile**:
+
     **Legend:** Active devices that sent a heartbeat within the last hour<br>
-    **Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
-6.  Select **Apply**.
+    **Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)`
+
+1.  Select **Apply**.
 
 ### Create a tile that displays active devices
 
 1.  Select **View Dashboard** to start adding your tiles.
+
 2.  Select **Number & list** from the gallery
-3.  Define the **General** properties:<br>
+
+3.  Define the **General** properties:
+
     **Group Title:** Heartbeat Status<br>
     **New Group:** Selected
-4.  Define the **Tile** properties:<br>
+
+4.  Define the **Tile** properties:
+
     **Legend:** Active devices (heartbeat sent in the last 20 minutes)<br>
-    **Tile Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
-5.  Define the **List** properties:<br>
-    **List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-6.  Define **Column Titles**:<br>
+    **Tile Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count`
+
+5.  Define the **List** properties:
+
+    **List Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated`
+
+6.  Define **Column Titles**:
+
     **Name:** Computer Name<br>
     **Value:** Last Heartbeat
-7.  Define **Navigation Query**.<br>
-    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+
+7.  Define **Navigation Query**.
+
+    `search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF`
+
 8.  Select **Apply**, and then **Close**.
 
 ### Create a tile that displays devices that have connectivity issues
 
 1.  Select **Number & list** from the gallery, and then add a new tile.
-2.  Define the **General** properties:<br>
+
+2.  Define the **General** properties:
+
     **Group Title:** Leave empty<br>
     **New Group:** Not Selected
-3.  Define the **Tile** properties:<br>
+
+3.  Define the **Tile** properties:
+
     **Legend:** Inactive Devices (no heartbeat message sent in the last 20 minutes)<br>
-    **Tile Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
-4.  Define the **List** properties:<br>
-    **List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
-5.  Define **Column Titles**:<br>
+    **Tile Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count`
+
+4.  Define the **List** properties:
+
+    **List Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated`
+
+5.  Define **Column Titles**:
+
     **Name:** Computer Name<br>
     **Value:** Last Heartbeat
-6.  Define **Navigation Query**:<br>
-    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+
+6.  Define **Navigation Query**:
+
+    `search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF`
+
 7.  Select **Apply**, and then **Close**.
 
 ### Create a tile that displays devices that have a hardware error
 
 1.  Select **Number & list** from the gallery, and then add a new tile.
-2.  Define the **General** properties:<br>
+
+2.  Define the **General** properties:
+
     **Group Title:** Hardware Status<br>
     **New Group:** Selected
-3.  Define the **Tile** properties:<br>
+
+3.  Define the **Tile** properties:
+
     **Legend:** Devices that experienced a hardware error in the last hour<br>
-    **Tile Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
-4.  Define the **List** properties:<br>
-    **List Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-5.  Define **Column Titles**:<br>
+    **Tile Query:** `Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count`
+
+4.  Define the **List** properties:
+
+    **List Query:** `Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated`
+
+5.  Define **Column Titles**:
+
     **Name:** Computer Name<br>
     **Value:** Last Error
+
 6.  Define **Navigation Query**:<br>
-    ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
+
+    `search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc`
+
 7.  Select **Apply**, and then **Close**.
 
 ### Create a tile that displays :::no-loc text="Microsoft Teams Rooms"::: Operating System versions
 
 1.  Select **Donut & list** from the gallery, and then add a new tile.
-2.  Define the **General** properties:<br>
+
+2.  Define the **General** properties:
+
     **Group Title:** Operating System details<br>
     **New Group:** Selected
-3.  Define the **Header** properties:<br>
+
+3.  Define the **Header** properties:
+
     **Title:** Operating System versions<br>
     **Subtitle:** Devices running specific OS versions
-4.  Define the **Donut** properties:<br>
-    **Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+
+4.  Define the **Donut** properties:
+
+    **Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc`<br>
     **Center Text:** Devices<br>
     **Operation:** Sum
-5.  Define the **List** properties.<br>
-    **List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+
+5.  Define the **List** properties.
+
+    **List Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc`<br>
     **Hide Graph:** Selected<br>
     **Enable Sparklines:** Not selected
-6.  Define **Column Titles**.<br>
+
+6.  Define **Column Titles**.
+
     **Name:** Computer Name<br>
     **Value:** Leave Empty
-7.  Define **Navigation Query**.<br>
-    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+
+7.  Define **Navigation Query**.
+
+    `search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF`
+
 8.  Select **Apply** and then **Close**.
 
 ### Create a tile that displays :::no-loc text="Microsoft Teams Rooms"::: application versions
 
 1.  Select **Donut & list** from the gallery, and then add a new tile.
-2.  Define the **General** properties:<br>
+
+2.  Define the **General** properties:
+
     **Group Title:** :::no-loc text="Microsoft Teams Rooms"::: application details<br>
     **New Group:** Selected
-3.  Define the **Header** properties:<br>
+
+3.  Define the **Header** properties:
+
     **Title:** Application versions<br>
     **Subtitle:** Devices running specific application versions
-4.  Define the **Donut** properties:<br>
-    **Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
+
+4.  Define the **Donut** properties:
+
+    **Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc`<br>
     **Center Text:** Devices<br>
     **Operation:** Sum
-5.  Define the **List** properties.<br>
-    **List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
+
+5.  Define the **List** properties.
+
+    **List Query:** `Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc`<br>
     **Hide Graph:** Selected<br>
     **Enable Sparklines:** Not selected
-6.  Define **Column Titles**.<br>
+
+6.  Define **Column Titles**.
+
     **Name:** Computer Name<br>
     **Value:** Leave Empty
-7.  Define **Navigation Query**.<br>
-    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+
+7.  Define **Navigation Query**.
+
+    `search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF`
+
 8.  Select **Apply** and then **Close**.
 
 ### Create a tile that displays devices that have an application error
 
 1.  Select **Number & list** from the gallery, and then add a new tile.
-2.  Define the **General** properties.<br>
+
+2.  Define the **General** properties.
+
     **Group Title:** Leave empty<br>
     **New Group:** Not Selected
-3.  Define the **Tile** properties.<br>
+
+3.  Define the **Tile** properties.
+
     **Legend:** Devices that experienced an application error in the last hour<br>
-    **Tile Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
-4.  Define the **List** properties.<br>
-    **List Query:** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
-5.  Define **Column Titles**.<br>
+    **Tile Query:** `Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count`
+
+4.  Define the **List** properties.
+
+    **List Query:** `Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated`
+
+5.  Define **Column Titles**.
+
     **Name:** Computer Name<br>
     **Value:** Last Error
-6.  Define **Navigation Query**.<br>
-    ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
+
+6.  Define **Navigation Query**.
+
+    `search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc`
+
 7.  Select **Apply** and then **Close**.
 
 ### Create a tile that displays devices that have been restarted
 
 1.  Select **Number & list** from the gallery, and then add a new tile.
-2.  Define the **General** properties.<br>
+
+2.  Define the **General** properties.
+
     **Group Title:** Leave empty<br>
     **New Group:** Not Selected
-3.  Define the **Tile** properties.<br>
+
+3.  Define the **Tile** properties.
+
     **Legend:** Devices where the application was restarted in the last 24 hours, and number of restarts<br>
-    **Tile Query:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
-4.  Define the **List** properties.<br>
-    **List Query:** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
-5.  Define **Column Titles**.<br>
+    **Tile Query:** `Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count`
+
+4.  Define the **List** properties.
+
+    **List Query:** `Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer`
+
+5.  Define **Column Titles**.
+
     **Name:** Computer Name<br>
     **Value:** Number of Restarts
+
 6.  Define **Navigation Query**.<br>
-    ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+
+    `search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF`
+
 7.  Select **Apply** and then **Close**.
+
 8.  Select **Save** to save your dashboard.
 
 Now you've completed creating your views.
@@ -354,7 +448,7 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 4.  Enter the following query to the Search query text box.
 
-    ```
+    ```kusto
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
@@ -393,13 +487,13 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 Repeat the same procedure but use the following query to list devices that have encountered application issues within the last hour.
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+```kusto
+Event
+| where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+| summarize arg_max(TimeGenerated, *) by Computer
+| project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+| sort by TimeGenerated desc
+```
 
 Now you've completed defining alerts. You can define additional alerts by using the examples above.
 
@@ -409,6 +503,7 @@ When an alert is generated, you'll get an email that lists the devices that enco
 
 ## Configure all devices for :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"> </a>
+
 After the dashboards and alerts are configured, you can set up and configure :::no-loc text="Microsoft Monitoring"::: agent on all :::no-loc text="Microsoft Teams Rooms"::: devices to complete your monitoring deployment.
 
 Although you can install and configure the :::no-loc text="Microsoft Monitoring"::: agent manually on each device, we highly recommend you leverage existing software deployment tools and methods.
