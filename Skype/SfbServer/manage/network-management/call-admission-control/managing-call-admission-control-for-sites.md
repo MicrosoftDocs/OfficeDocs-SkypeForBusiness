@@ -28,8 +28,10 @@ Within a call admission control (CAC) configuration, you can create network inte
 2.  Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Management Shell**.
 
 3.  From the command prompt, type the following command, substituting values that are valid for your configuration:
-    
-        New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
+
+    ```powershell
+    New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
+    ```
     
     This example creates a new network site link named Reno\_Portland that sets bandwidth limitations between the Reno and Portland network sites. The network sites and the bandwidth policy profile must already exist before running this command.
 
@@ -42,8 +44,10 @@ For detailed parameter descriptions, see [New-CsNetworkInterSitePolicy](/powersh
 2.  Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Management Shell**.
 
 3.  Use the **Set-CsNetworkInterSitePolicy** cmdlet to modify the properties of a given network site link. You can modify either (or both) or the connected sites, and you can modify the bandwidth policy profile associated with the link. Here is an example of modifying the bandwidth policy profile of a site link named Reno\_Portland:
-    
-        Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
+
+    ```powershell
+    Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
+    ```
 
 For detailed parameter descriptions, see [Set-CsNetworkInterSitePolicy](/powershell/module/skype/Set-CsNetworkInterSitePolicy).
 
@@ -55,8 +59,10 @@ For detailed parameter descriptions, see [Set-CsNetworkInterSitePolicy](/powersh
 2.  Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Management Shell**.
 
 3.  Use the **Remove-CsNetworkInterSitePolicy** cmdlet to remove a network site link. The following example deletes the Reno\_Portland network site link:
-    
-        Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
+
+    ```powershell
+    Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
+    ```
 
 For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](/powershell/module/skype/Remove-CsNetworkInterSitePolicy).
 
@@ -87,19 +93,23 @@ You can view network site information by using Windows PowerShell and the Get-Cs
 
 ### To view network site information
 
-  - To view information about all your network sites, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
+To view information about all your network sites, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
+
+```powershell
+Get-CsNetworkSite
+```
     
-        Get-CsNetworkSite
-    
-    That will return information similar to this:
-    
-        Identity          : Redmond
-        NetworkSiteID     : Redmond
-        Description       :
-        NetworkRegionID   : Pacific Northwest
-        BypassID          : 3b232b84-2c1d-4da2-8181-e9330bafebe9
-        BWPolicyProfileID :
-        LocationPolicy    :
+That will return information similar to this:
+
+```console
+Identity          : Redmond
+NetworkSiteID     : Redmond
+Description       :
+NetworkRegionID   : Pacific Northwest
+BypassID          : 3b232b84-2c1d-4da2-8181-e9330bafebe9
+BWPolicyProfileID :
+LocationPolicy    :
+```
 
 For more information, see the help topic for the [Get-CsNetworkSite](/powershell/module/skype/Get-CsNetworkSite) cmdlet.
 
@@ -183,7 +193,6 @@ Network sites are the offices or locations configured within each region of a ca
 
 6.  Click **OK**.
     
-
     > [!WARNING]  
     > You cannot remove a network site if it is associated with a network subnet. If you attempt to remove a site associated with a subnet you will receive an error message. To see if a site is associated with any subnets, click the site and then click **Show details** on the **Edit** menu.
 

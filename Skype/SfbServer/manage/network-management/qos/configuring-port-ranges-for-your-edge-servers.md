@@ -17,7 +17,6 @@ localization_priority: Normal
 description: "This article describes how to configure port ranges for Edge Servers and how to configure a Quality of Service policy for your A/V Edge Servers."
 ---
 
-
 # Configuring port ranges and a Quality of Service policy for your Edge Servers in Skype for Business Server
 
 This article describes how to configure port ranges for Edge Servers and how to configure a Quality of Service policy for your A/V Edge Servers.
@@ -69,15 +68,21 @@ For example, suppose you have configured your Conferencing, Application, and Med
 
 As you can see, your port ranges for audio, video, and application sharing start at port 40803 and encompass a total of 24732 ports. If you prefer, you can configure a given Edge Server to use these overall port values by running a command similar to this one from within the Skype for Business Server Management Shell:
 
-    Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
+```powershell
+Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
+```
 
 Or, use the following command to simultaneously configure all the Edge Servers in your organization:
 
-    Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
+```powershell
+Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
+```
 
 You can verify the current port settings for your Edge Servers by using this Skype for Business Server Management Shell command:
 
-    Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
+```powershell
+Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
+```
 
 Again, while we do provide these options, we strongly recommend you leave things as they are for the port configuration.
 
@@ -133,7 +138,9 @@ If you decide to create a policy for managing application sharing traffic, you m
 
 The new policies you have created will not take effect until Group Policy has been refreshed on your Edge servers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:
 
-    Gpudate.exe /force
+```console
+Gpudate.exe /force
+```
 
 This command can be run from within the Skype for Business Server or from any command window that is running under administrator credentials. To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**. Note that you might need to restart the Edge server even after running Gpudate.exe.
 

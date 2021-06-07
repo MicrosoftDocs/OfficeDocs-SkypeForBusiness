@@ -38,9 +38,9 @@ If you later want to temporarily or permanently prevent access by anonymous user
 
 5.  In **Edit Access Edge Configuration**, do one of the following:
     
-      - To enable anonymous user access for your organization, select the **Enable communications with anonymous users** check box.
+    - To enable anonymous user access for your organization, select the **Enable communications with anonymous users** check box.
     
-      - To disable anonymous user access for your organization, clear the **Enable communications with anonymous users** check box.
+    - To disable anonymous user access for your organization, clear the **Enable communications with anonymous users** check box.
 
 6.  Click **Commit**.
 
@@ -51,15 +51,19 @@ You can manage anonymous user access by using Windows PowerShell and the **Set-C
 
 ## To enable anonymous user access
 
-  - To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+```
 
 ## To disable anonymous user access
 
-  - To disable anonymous user access, set the value of the **AllowAnonymousUsers** property to False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+To disable anonymous user access, set the value of the **AllowAnonymousUsers** property to False ($False):
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+```
 
 
 ## See Also
