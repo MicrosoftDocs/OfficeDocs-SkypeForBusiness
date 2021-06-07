@@ -266,9 +266,9 @@ Using forms-based authentication, you can develop a web page that allows users t
 
 11. Restart IIS by running the following command:
 
-  ```console
-  IISReset /Restart /NoForce
-  ```
+    ```console
+    IISReset /Restart /NoForce
+    ```
 
 ## Configuring Skype for Business Server passive authentication
 
