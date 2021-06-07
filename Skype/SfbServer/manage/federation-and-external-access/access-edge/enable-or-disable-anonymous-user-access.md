@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ""
+description: How to enable or disable anonymous user access in Skype for Business Server.
 ---
 
 # Enable or disable anonymous user access in Skype for Business Server
