@@ -63,7 +63,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, Video Inter
 
 Once you have the hardware in place, you'll need to install operating systems (OS). These are the OS that will allow you to install and successfully use Skype for Business Server 2015.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Windows Server 2019 (You need Skype for Business Cumulative Update 9 or later). <br/> |Windows Server 2016 (You need Skype for Business Cumulative Update 5 or later. For more information check [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
@@ -93,7 +93,7 @@ When installing Skype for Business Server 2015 Standard Edition, you'll have SQL
   
 Skype for Business Server 2015 Enterprise Edition is a little more complicated, but the supported list is below (everything is 64-bit edition, you'll notice, please don't use 32-bit editions):
   
-||||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
 |Microsoft SQL Server 2019 Enterprise (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2016 Enterprise (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
 |Microsoft SQL Server 2019 Standard (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack. <br/> |Microsoft SQL Server 2016 Standard (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.  <br/> |
