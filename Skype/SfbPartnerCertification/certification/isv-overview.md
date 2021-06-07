@@ -60,7 +60,7 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 
 
 |Brand|Product name	|Version tested|
-|:--- |:--- |:--- |
+|:---|:---|:---|
 |Actiance	|Vantage	|Compliance|
 |Active Communications	|ACS Lync appliance	||
 |Agat Software	|SphereShield Security and Compliance	|Compliance|
@@ -117,3 +117,4 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 |WORKSTREAMPEOPLE BV	|Anywhere365 Reception Attendant	|Attendant Console|
 |Zylinc	|Attendant Console	|Attendant Console|
 |Zylinc	|Service Center	|Contact Center|
+
