@@ -22,7 +22,8 @@ This page provides the latest Teams PowerShell change log for both General Avail
 ## Release Notes
 
 > [!NOTE]
-> **-preview** in the version column below represents updates to Teams PowerShell public preview.
+> **-preview** in the version column below represents updates to Teams PowerShell public preview. There are newer prerelease versions of these modules available.
+See the version list below in each module for more details.
 
 | Date | Version | Updates |
 |------- | -------------------- | ------------------------------ |
