@@ -49,72 +49,6 @@ As a contact center solution provider, there are three models to choose from to 
 
 - If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#the-power-model). Power solutions will be possible when the SDK is available, towards the end of 2021.
 
-### Compare connected contact center integration models
-
-Review the table below for an overview of the integration models that Microsoft Teams supports.
-
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th>Teams voice apps</th>
-<th>Connect</th>
-<th>Extend</th>
-<th>Power</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cloud service model</td>
-<td>Azure</td>
-<td>Solution Provider</td>
-<td><p>Solution Provider +</p>
-<p>Azure</p></td>
-<td>Azure</td>
-</tr>
-<tr class="even">
-<td>Who operates the solution?</td>
-<td>Microsoft</td>
-<td>Solution Provider</td>
-<td>Solution Provider</td>
-<td>Solution Provider</td>
-</tr>
-<tr class="odd">
-<td>M365 Sign-in</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Users with Teams calling?</td>
-<td>Informal, SME</td>
-<td>Informal, SME</td>
-<td>Informal, SME, Formal</td>
-<td>Informal, SME, Formal</td>
-</tr>
-<tr class="odd">
-<td>IW/SME experience</td>
-<td>Teams</td>
-<td>Teams</td>
-<td><p>Teams +</p>
-<p>extensions</p></td>
-<td><p>Teams +</p>
-<p>extensions</p></td>
-</tr>
-<tr class="even">
-<td>Service connectivity</td>
-<td>Platform<br />
-(Calling Plans +DR)</td>
-<td>Direct routing</td>
-<td>Platform<br />
-(Calling Plans + DR)</td>
-<td>Platform<br />
-(Calling Plans + DR)</td>
-</tr>
-</tbody>
-</table>
-
 
 ### The Connect model
 
@@ -193,6 +127,73 @@ While the following is not a comprehensive list of feature capabilities for this
 >[!NOTE]
 > The Power model will be available towards the end of 2021.
 
+### Compare connected contact center integration models
+
+Review the table below for an overview of the integration models that Microsoft Teams supports.
+
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Teams voice apps</th>
+<th>Connect</th>
+<th>Extend</th>
+<th>Power</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cloud service model</td>
+<td>Azure</td>
+<td>Solution Provider</td>
+<td><p>Solution Provider +</p>
+<p>Azure</p></td>
+<td>Azure</td>
+</tr>
+<tr class="even">
+<td>Who operates the solution?</td>
+<td>Microsoft</td>
+<td>Solution Provider</td>
+<td>Solution Provider</td>
+<td>Solution Provider</td>
+</tr>
+<tr class="odd">
+<td>M365 Sign-in</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Users with Teams calling?</td>
+<td>Informal, SME</td>
+<td>Informal, SME</td>
+<td>Informal, SME, Formal</td>
+<td>Informal, SME, Formal</td>
+</tr>
+<tr class="odd">
+<td>IW/SME experience</td>
+<td>Teams</td>
+<td>Teams</td>
+<td><p>Teams +</p>
+<p>extensions</p></td>
+<td><p>Teams +</p>
+<p>extensions</p></td>
+</tr>
+<tr class="even">
+<td>Service connectivity</td>
+<td>Platform<br />
+(Calling Plans +DR)</td>
+<td>Direct routing</td>
+<td>Platform<br />
+(Calling Plans + DR)</td>
+<td>Platform<br />
+(Calling Plans + DR)</td>
+</tr>
+</tbody>
+</table>
+
+
 ## Connected Contact Center Solutions
 
 ### Certified solutions 
@@ -227,3 +228,12 @@ While the following is not a comprehensive list of feature capabilities for this
 
 This list will be updated as more solution providers join and meet the certification criteria.
 
+<a name="steps"></a>
+
+#### Follow these steps to set up your auto attendant
+
+# [Step 1<br>Phone number](#tab/phone-number)
+
+hello helllo test test
+
+> [!div class="nextstepaction"]
