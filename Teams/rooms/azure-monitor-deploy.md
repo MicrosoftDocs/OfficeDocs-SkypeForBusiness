@@ -466,6 +466,7 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
    - **Frequency (in minutes):** 60
 
 7. Configure action groups:
+
     1.  Select **Create New**.
     2.  Provide suitable names for the *Action group name* and *Short Name* fields.
     3.  Specify a unique *Action Name* and select **Email/SMS/Push/Voice**, and then select **Edit details**.
@@ -519,16 +520,19 @@ If you already deployed your :::no-loc text="Microsoft Teams Rooms"::: devices b
 2.  Download the 64-bit version of the :::no-loc text="Microsoft Monitoring"::: Agent for :::no-loc text="Windows"::: from <https://go.microsoft.com/fwlink/?LinkID=517476>.
 
 3.  Extract the contents of the setup package into the network share.
+
     1.  Open a Command Prompt window, and then execute **MMASetup-AMD64.exe /c**.
     2.  Specify the share you just created, and extract the content.
 
 4.  Create a new Group Policy Object and assign it to the organizational unit where :::no-loc text="Microsoft Teams Rooms"::: machine accounts are located.
 
 5.  Configure PowerShell execution policy:
+
     1.  Edit the newly created Group Policy Object and navigate to Computer Configuration \\ Policies \\ Administrative Templates \\ :::no-loc text="Windows"::: Components \\ :::no-loc text="Windows PowerShell":::
     2.  Enable the **Turn on Script Execution** and set **Execution Policy** to **Allow Local Scripts**.
 
 6.  Configure the startup script:
+ 
     1.  Copy the following script and save it as Install-MMAgent.ps1.
     2.  Modify WorkspaceId, WorkspaceKey, and SetupPath parameters to match your configuration.
     3.  Edit the same Group Policy Object and navigate to Computer Configuration \\ Policies \\ :::no-loc text="Windows"::: Settings \\ Scripts (Startup/Shutdown).
