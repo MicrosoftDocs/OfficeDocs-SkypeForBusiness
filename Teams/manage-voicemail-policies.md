@@ -24,7 +24,7 @@ ms.custom:
 description: "Manage Voicemail Policies for your users."
 ---
 
-## Setting voicemail policies in your organization
+# Setting voicemail policies in your organization
 
 > [!WARNING]
 > For Skype for Business customers, disabling voicemail through a Microsoft Teams calling policy might also disable the voicemail service for your Skype for Business users.
@@ -75,7 +75,7 @@ MaximumRecordingLength              : 00:05:00
 EnableTranscriptionTranslation      : True
 ```
   
-### Turning off transcription for your organization
+## Turning off transcription for your organization
 
 Because the default setting for transcription is on for your organization, you may want to disable it by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). To do this, run:
 
@@ -83,7 +83,7 @@ Because the default setting for transcription is on for your organization, you m
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 ```
 
-### Turning on transcription profanity masking for your organization
+## Turning on transcription profanity masking for your organization
 
 Transcription profanity masking is disabled by default for your organization. If there is a business requirement to enable it, you can enable transcription profanity masking by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). To do this, run:
 
@@ -91,7 +91,7 @@ Transcription profanity masking is disabled by default for your organization. If
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 ```
 
-### Turning off transcription for a user
+## Turning off transcription for a user
 
 User policies are evaluated before the organizational default settings. For example, if voicemail transcription is enabled for all of your users, you can assign a policy to disable transcription for a specific user by using the [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet.
 
@@ -101,7 +101,7 @@ To disable transcription for a single user, run:
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
 ```
 
-### Turning on transcription profanity masking for a user
+## Turning on transcription profanity masking for a user
 
 To enable transcription profanity masking for a specific user, you can assign a policy to enable transcription profanity masking for a specific user by using the [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet.
 
