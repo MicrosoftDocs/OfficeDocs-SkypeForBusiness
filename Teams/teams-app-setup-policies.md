@@ -74,7 +74,7 @@ To create an app setup policy to pin apps, do the following steps:
 
 ## Install apps
 
-You can choose which apps are installed by default for users in their personal Teams environment, install apps as [messaging extensions](microsoftteams/platform/messaging-extensions/what-are-messaging-extensions), and designate apps to be installed in meetings.
+You can choose which apps are installed by default for users in their personal Teams environment, install apps as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions), and designate apps to be installed in meetings.
 
 Using an app setup policy, you can do the following tasks:
 
