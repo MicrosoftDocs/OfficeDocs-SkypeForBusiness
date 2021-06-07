@@ -114,7 +114,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 ### To disable a user account
 
-- To temporarily disable a user account, set the value of the Enabled property to False ($False). For example:
+To temporarily disable a user account, set the value of the Enabled property to False ($False). For example:
 
   ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
@@ -122,7 +122,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 ### To re-enable a user account
 
-- To re-enable a disabled user account, set the value of the Enabled property to True ($True). For example:
+To re-enable a disabled user account, set the value of the Enabled property to True ($True). For example:
 
   ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
