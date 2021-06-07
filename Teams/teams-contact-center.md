@@ -45,11 +45,11 @@ If you're a vendor seeking to join the certification program, please email <Team
 
 As a contact center solution provider, there are three models to choose from to integrate your connected contact center solution into Teams:
 
-- If you want to use certified SBCs and Direct Routing to connect a contact center solution to Teams, see the [Connect model](#tabconnect).
+- If you want to use certified SBCs and Direct Routing to connect a contact center solution to Teams, see the [Connect model](#tabs=connect).
 
-- If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](#the-extend-model).
+- If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](#tabs=extend).
 
-- If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#the-power-model). Power solutions will be possible when the SDK is available, towards the end of 2021.
+- If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](#tabs=power). Power solutions will be possible when the SDK is available, towards the end of 2021.
 
 ### [The Connect model](#tab/connect)
 
@@ -129,7 +129,7 @@ While the following is not a comprehensive list of feature capabilities for this
 >[!NOTE]
 > The Power model will be available towards the end of 2021.
 
-## {-}
+#  
 
 ### Compare connected contact center integration models
 
