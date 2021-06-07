@@ -80,7 +80,7 @@ The Extend model uses Azure bots, and the Microsoft Graph Communication APIs to 
 
 This model integrates with the Teams client using the [Teams client platform](/microsoftteams/platform/overview), [Teams Graph APIs](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0). The Extend model also uses the Teams phone system for all contact center calls and call control experiences, and the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
 
-**By using Connect and Extend-based solutions,** agents can working within Teams for internal collaboration and external communication and can benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching.
+Agents can working within Teams for internal collaboration and external communication and can benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching.
 
 Organizations can design workflows and advanced routing configurations down to the individual and measure the quality of their system and interactions.
 
@@ -112,7 +112,7 @@ This model enables solution providers to create native Azure-based voice applica
 
 By building directly on Azure, solution providers can rapidly deploy and provision their solution across all Teams regions and geographies, benefitting from our shared, global communications network while taking advantage of Azure’s storage, compute, analytics & cognitive services.
 
-**With the Extend and Power integration model,** solution providers can provide contact center agents with omni-channel communication experiences while incorporating artificial intelligence to customize how and when participants - or other services - are engaged in a call applying the [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0).
+Solution providers can provide contact center agents with omni-channel communication experiences while incorporating artificial intelligence to customize how and when participants - or other services - are engaged in a call applying the [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0).
 
 **Feature highlights:**
 
@@ -128,6 +128,8 @@ While the following is not a comprehensive list of feature capabilities for this
 
 >[!NOTE]
 > The Power model will be available towards the end of 2021.
+
+## {-}
 
 ### Compare connected contact center integration models
 
