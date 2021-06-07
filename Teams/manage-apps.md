@@ -150,10 +150,10 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 ## View security and compliance information for Microsoft 365 Certified apps
 
-When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and other features of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you can make the decision on whether or not you should allow an app in your organization.
+When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
 
 > [!NOTE]
-> This feature is available to all admins, whether or not your organization has an active MCAS license.
+> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
 
 To access MCAS information, follow these steps:
 
@@ -164,7 +164,7 @@ To access MCAS information, follow these steps:
 
 ![Screenshot of Teams admin center security and compliance tab](media/mcas2.png)
 
-On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which settings are supported for the selected application.
+On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
 
 ## Related topics
 
