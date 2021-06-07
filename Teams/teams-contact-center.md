@@ -39,9 +39,10 @@ If you're an organization looking for an integrated contact center solution, see
 
 If you're a vendor seeking to join the certification program, please email <Teamscategorypartner@microsoft.com>.
 
-<a name="steps"></a>
 
 ## Integration models for solution providers
+
+<a name="steps"></a>
 
 As a contact center solution provider, there are three models to choose from to integrate your connected contact center solution into Teams:
 
@@ -129,7 +130,7 @@ While the following is not a comprehensive list of feature capabilities for this
 >[!NOTE]
 > The Power model will be available towards the end of 2021.
 
-#  
+##  
 
 ### Compare connected contact center integration models
 
