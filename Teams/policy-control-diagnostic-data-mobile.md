@@ -103,6 +103,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Numbers from settings.
 - **blockChat** - Blocking a bot chat. This enhances existing telemetry around chats and is only adding application information.
 - **botClickCardAction** - Connector card usage.
+- **brbFormOpened** - The user requested to send feedback.
+- **brbFormSubmit** - The user submitted feedback.
 - **breakStartEndClicked** - On the clock in screen, the **Start** or the **End break** button is selected.
 - **breakStartEndTriggered** - Register a user chooses to use break start or end.
 - **bucketSelected** - Confirms that a bucket has been successfully selected.
@@ -455,6 +457,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **dialOutDialog** - **New number** is selected in the action sheet.
 - **dialOutFailRetry** - **Retry** is selected from a failure banner.
 - **DialPad** - The **DialPad** button is selected from the call list.
+- **directShare** - Shared an invite link to a Sms/Email native app.
 - **disableCategory** - Disable a type of notification or disable incoming call notifications.
 - **disabled** - **Skip notifications** is selected in the First-run experience (FRE). This provides key success data for skipping the notification in the FRE flow.
 - **disableQuietDays** - Quiet Days disabled. Feature success telemetry for quiet days.
@@ -571,7 +574,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **giphyUserEnabled** - User selects to accept Giphy terms/conditions.
 - **goToNotificationSettings** - Go to the notification settings page from **we updated notification settings** dialog.
 - **GPSPromptClicked** - The **Allow** or **Don't Allow** is selected in an OS prompt. either allowing GPS or not.
-- **group_map_closed** - A user opens the map viw from chat.
+- **group_map_closed** - A user opens the map view from chat.
 - **group_map_open** - User closes the map view.
 - **groupCallJoin** - A user joins a Group call.
 - **groupClicked** - Tracks when a user selects the shift group.
@@ -619,6 +622,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
+- **link** - User initiated initiated redeem of invite link by entering Teams application.
 - **likeAppDismiss** - When the prompt that asks whether a user likes the app or not is dismissed without a response.
 - **likeAppNo** - When the prompt that asks whether user likes the app receives a response of no.
 - **likeAppYes** - When the prompt that asks whether user likes the app receives a response of yes.
@@ -644,6 +648,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **location_active_tracking** - A user's device is switched to active tracking.
 - **locationCard** - Select a location card.
 - **location_family_sync** - Showing members of a Family group that were created in MSA family app. Confirms that all family members that can be granted consent are displayed.
+- **location_data_use_privacy_denied** - The user denied acceptance of privacy terms.
 - **location_group_map_sync** - Map view is opened.
 - **location_map_load** - Map view load.
 - **location_map_markers_load** - Map view load. Confirms that location markers for all users actively sharing are displayed properly on the map view.
@@ -849,6 +854,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **pinChannel** - Pin a channel to show it above the teams and channels list.
 - **pinSelf** - Pin myself from the action sheet.
 - **pinUser** - Pin a user from the action sheet.
+- **place_created** - The user created a shared place.
+- **place_deleted** - The user deleted a shared place.
+- **place_edited** - The user edited a shared place.
 - **play** - Play the recording.
 - **playVoicemail** - **Play** tapped on voicemail item.
 - **plusButtonClicked** - Selecting the **plus button** (**+**).
@@ -912,6 +920,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **reactRemoved_HB** - When a user removes a reaction through the reaction summary page experience.
 - **readReceipts** - User enabled feature.
 - **redeemInvite** - In app redemption.
+- **redeemLinkInAppStart** - User initiated redeem of invite link from within Teams application.
 - **refreshCalendarList** - Pull down to refresh agenda view.
 - **refreshLinksGallery** - When a user swipes down to refresh the links gallery.
 - **removeAssignee** - Confirms that an assignee is removed from the assignment picker view (as opposed to *assignmentRemoved* which triggers when selecting **x** outside of assignment picker view).
@@ -952,6 +961,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **saveEditMeeting** - Select the **Save** button while on the meeting scheduler page after updating a meeting.
 - **saveNewMeeting** - Select the **Save** button while on the meeting scheduler page. To log successfully saved meetings and the percentage of meetings that failed to create due to a client side or service error.
 - **savePlanClicked** - Triggers **Create** is selected in the new plan creator from the default opening of the app.
+- **scenarioChannelDashboard** - The user navigates to a tile on the dashboard.
+- **scenarioDashboardNav** - The user navigates to the dashboard tab within a conversation (sibling of the chat tab).
 - **scheduledMeetingJoin** - The **Meeting Join** button is selected from the scheduled meeting object.
 - **scrollCalendarList** - Measures scrolls in calendar.
 - **scrollDatePicker** - Scroll through the calendar date picker control.
@@ -1007,6 +1018,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
 - **settingsOpened** - This is triggered when the user's device time zone doesn't match the team time zone, and the user goes to Settings.
 - **setupPinVault** - User saves a Safe pin for their account. 
+- **shareCharmCompleted** - User completed sharing of an invite link via application share charm.
+- **shareCharmOpened** - User initiated sharing of an invite link via application share charm. 
 - **shareFile** - Triggered when **Share file** is selected. Also helps to check if:
   - The user was able to initiate share file operation.
   - The user can share a file successfully.
@@ -1121,6 +1134,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Transfer target is set to a Person.
   - Transfer target is set to a Phone Number.
 - **translateFailed** - Translation failed (excluding offline). Feature success metrics for message translation feature.
+- **trigger_created** - The user created a geofence.
+- **trigger_deleted** - The user deleted a geofence.
 - **unansweredCallForward** - An unanswered call forward target is set. Also enables unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled).
 - **unblockCaller** - Unblock:
   - Contact or number from the action sheet.
@@ -1220,6 +1235,7 @@ action.
 - **fileUploadSuccess** - Triggered when a file upload operation succeeds.
 - **fileUploadSummaryNotification** - Triggered when the contents of file upload summary notification change or when the notification is interacted with. The interactions may include gestures like swiping to dismiss the notification or tapping the notification etc.
 - **meetingFiles** - Triggered when meeting files screen is opened.
+- **meetNowActionSheet** - Triggered when user creates a Meet Now meeting.
 - **navPersonalFiles** - Triggered when navigation to files screen is performed.
 
 ### Scenario
