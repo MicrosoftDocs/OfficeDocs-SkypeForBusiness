@@ -2486,6 +2486,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/sharing-files-in-teams.md",
+      "redirect_url": "https://support.microsoft.com/office/share-files-in-teams-0c4d34ee-5dd8-46d5-ab35-0d227b5e6eb5",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir",
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/patients-app-overview",
       "redirect_document_id": true
