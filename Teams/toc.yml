@@ -837,6 +837,8 @@ items:
           items: 
             - name: Set up Cloud Voicemail
               href: set-up-phone-system-voicemail.md
+            - name: Manage Voicemail policies
+              href: manage-voicemail-policies.md
             - name: Change the default language for voicemail
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
