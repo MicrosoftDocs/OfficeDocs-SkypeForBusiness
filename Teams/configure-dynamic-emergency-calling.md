@@ -105,7 +105,7 @@ Network settings are used to determine the location of a Teams client, and to dy
 Network settings include sites that include a collection of subnets and these are used exclusively for dynamic policy assignment to users. For example, an emergency calling policy and an emergency call routing policy might be assigned to the "Redmond site" so that any user that roams from home or another Microsoft location is configured with emergency numbers, routing, and security desk specific to Redmond.  
 
 >[!Note]
->Subnets can also be defined in LIS and can be associated with an emergency location.  
+>Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is **10.10.10.128**. For more information, see [Understand TCP/IP addressing and subnetting basics](https://docs.microsoft.com/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
 
 Keep the following definitions in mind. For more information, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
