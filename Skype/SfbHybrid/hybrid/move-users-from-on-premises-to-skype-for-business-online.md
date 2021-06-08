@@ -29,8 +29,7 @@ After you move a user from on-premises to Skype for Business Online, the user in
 Before moving any users, be sure to review the [prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites) to move users to the cloud.
 
 > [!NOTE]
-> In preparation for the upcoming retirement of Skype for Business Online, Microsoft will be simplifying how organizations move to Teams in the near future and it will no longer be possible to move to Skype for Business Online.  Once these changes are made available, when moving a user from on-premises to the cloud, users will automatically be assigned TeamsOnly mode and their meetings from on-premises will be automtically converted to Teams meetings, just as if the `-MoveToTeams` switch had been specified, regardless of whether the switch is actually specified. We expect to release this functionality before the actual retirement of July 31, 2021.   Currently if this switch is not specified, users transition from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remains unchanged, which is the functionality documented in this article.
-
+> In preparation for the upcoming retirement of Skype for Business Online, Microsoft has simplified how organizations move to Teams. When moving users from on-premises to the cloud, users are now automatically assigned TeamsOnly mode and their meetings from on-premises are automtically converted to Teams meetings, just as if the `-MoveToTeams` switch had been specified, regardless of whether the switch was actually specified.  Prior to retirement of Skype for Business Online, organizations that require moving users from on-premises to Skype for Business Online can achieve this in two steps by updating the user's mode *after the user is moved to TeamsOnly*. However in the near future, it will no longer be possible to assign a mode other than TeamsOnly to users homed in the cloud.  
  
 ## Move users with Move-CsUser 
 
@@ -41,29 +40,35 @@ To move a user to online using Move-CsUser:
 - Specify the user to move using the Identity parameter.
 - Specify the -Target parameter with the value “sipfed.online.lync.<span>com”.
 - If you do not have one account with sufficient permissions in both on premises and Microsoft 365, use the -credential parameter to supply an account with sufficient permissions in Microsoft 365.
-- If the account with permissions in Microsoft 365 does not end in “.onmicrosoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with  the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- If the account with permissions in Microsoft 365 does not end in “.onmicrosoft.<span>com”, then you must specify the -HostedMigrationOverrideUrl parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-The following cmdlet sequence can be used to move a user to Skype for Business Online. It assumes the Microsoft 365 credential is a separate account and supplied as input for the Get-Credential prompt.
+The following cmdlet sequence can be used to move a user to Skype for Business Online and assigns the tenant default mode to the user. It assumes the Microsoft 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 
 ```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
  
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
+Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName $null
 ```
 
 If the administrator account is MFA (Multi-Factor Authentication) enabled, do not specify the -Credential parameter. The administrator will be prompted for credentials.
 
-## Move users with Skype for Business Server Control Panel 
+## Move users with Skype for Business Server Control Panel and Teams Admin Center
 
 1. Open the Skype for Business Server Control Panel app.
 2. In the left navigation, choose **Users**.
 3. Use **Find** to locate the user(s) you would like to move to Skype for Business Online.
-4. Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Skype for Business Online**.
+4. Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Skype for Business Online** or **Move selected users to Teams**. Either option will initially move the user to TeamsOnly mode but after the move you can assign another mode. 
 5. In the wizard, click **Next**.
 6. If prompted, sign in to Microsoft 365 with an account that ends in .onmicrosoft.com and has sufficient permissions.
 7. Click **Next**, and then **Next** one more time to move the user.
 8. Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
+9. Open the Teams Admin Center and select "Users" in the left hand navigation. 
+10. Click on the desired user in the listview. 
+11. Click the **Edit** in the section that says **Teams upgrade**.
+12. In the right-hand flyout, select the desired coexistence mode and click **Apply**.
+ 
 
 ## See also
 
