@@ -56,7 +56,7 @@ To move users between on premises and the cloud (whether to Teams or to Skype fo
 - [From online (whether Teams Only or not), to on premises](move-users-from-the-cloud-to-on-premises.md).
 - 
 > [!NOTE] 
-> It is no longer required to specify the -MoveToTeams switch in Move-CsUser to move users directly from on-premises to TeamsOnly. Previously if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. Now when moving a user from on-premises to the cloud with Move-CsUser, users are automatically assigned TeamsOnly mode and their meetings from on-premises are automtically converted to Teams meetings, just as if the -MoveToTeams switch had been specified, regardless of whether the switch was actually specified. 
+> It is no longer required to specify the -MoveToTeams switch in Move-CsUser to move users directly from on-premises to TeamsOnly. Previously if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. Now when moving a user from on-premises to the cloud with Move-CsUser, users are automatically assigned TeamsOnly mode and their meetings from on-premises are automatically converted to Teams meetings, just as if the -MoveToTeams switch had been specified, regardless of whether the switch was actually specified. 
 > 
 
 ## Required administrative credentials
