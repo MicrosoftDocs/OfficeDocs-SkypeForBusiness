@@ -53,7 +53,8 @@ For organizations to move from Skype for Business Server or Lync Server 2013 to 
 
 Co-existence modes will continue to exist after retirement of Skype for Business Online. As before, users with accounts homed in Skype for Business Server on-premises can be assigned any coexistence mode except TeamsOnly. After retirement however, users homed online can only be TeamsOnly (in contrast to the present where Skype for Business Online users can be any mode).  
 
-[!Important] Existing hybrid organizations with users homed in Skype for Business Online who are NOT TeamsOnly should focus on upgrading these users to Teams Only mode as soon as possible, but no later than the retirement on July 31, 2021. If your organization still has users homed in Skype for Business Online who are not TeamsOnly, you may be scheduled for a Microsoft-assisted upgrade to transition these users to TeamsOnly. This will not impact users who are homed in Skype for Business Server on-premises. Scheduling notifications will be sent in advance to hybrid customers with users homed in Skype for Business Online before these online, non-TeamsOnly users are upgraded to Teams.
+> [!Important]
+> Existing hybrid organizations with users homed in Skype for Business Online who are NOT TeamsOnly should focus on upgrading these users to Teams Only mode as soon as possible, but no later than the retirement on July 31, 2021. If your organization still has users homed in Skype for Business Online who are not TeamsOnly, you may be scheduled for a Microsoft-assisted upgrade to transition these users to TeamsOnly. This will not impact users who are homed in Skype for Business Server on-premises. Scheduling notifications will be sent in advance to hybrid customers with users homed in Skype for Business Online before these online, non-TeamsOnly users are upgraded to Teams.
 
 
 ## About Shared SIP Address Space functionality
