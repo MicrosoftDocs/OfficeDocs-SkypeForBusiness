@@ -51,7 +51,7 @@ $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
  
-# And then from a TeamsPowerShell window, remove TeamsOnly mode by running: 
+# And then from a Teams PowerShell window, remove TeamsOnly mode by running: 
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName $null
 ```
 
