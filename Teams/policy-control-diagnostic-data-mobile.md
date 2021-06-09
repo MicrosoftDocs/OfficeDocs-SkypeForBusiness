@@ -21,6 +21,8 @@ appliesto:
 
 The following article contains a list of Microsoft Teams mobile events, and lists of properties each event collects.
 
+For more information about diagnostic data, including how to control what diagnostic data is sent to Microsoft, see [Diagnostic data sent from the Teams app to Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). To view the diagnostic data being sent to Microsoft, you can use the [Diagnostic Data Viewer](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
+
 ## Events
 
 > [!NOTE]
@@ -31,7 +33,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with panelaction events](#properties-sent-with-panelaction-events).
 
-- **accessibilityUserConfiguration** - When a users toggles an accessibility feature.
+- **accessibilityUserConfiguration** - When a user toggles an accessibility feature.
 - **acknowledgeSettingChange** - Acknowledge an update in the we updated a notification setting dialog. This is a feature success metrics used to acknowledge update notifications and to determine overall notification reliability.
 - **actionComposeMenu**
   - Create message extension usage.
@@ -334,12 +336,12 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **closeLobbyBanner** - Number of times the lobby toast is closed using its **Close** button.
 - **commentAdded** - Confirms that a comment was added to a task.
 - **commentsClicked** - Confirms that the comments view was successfully launched.
-- **commentUpdated** - Confirms that a comments was successfully updated on a task.
+- **commentUpdated** - Confirms that a comment was successfully updated on a task.
 - **companionBannerJoin** - Select **Join** on the top-level banner.
 - **companionDismiss** - Dismiss the companion banner.
 - **companionDismissProximity** - Dismiss the companion banner.
 - **companionJoin** - Join as companion option is selected on the sheet.
-- **companionJoinProximity** - Joined through tje companion banner.
+- **companionJoinProximity** - Joined through the companion banner.
 - **completeVaultFRE** - User completes process of generating a master key which is used to encrypt their Safe data.
 - **completionStateChange** - Triggers when a completed or uncompleted filter toggle is selected in filter view from task list.
 - **composeExpandComposer** - **Format** button tapped.
@@ -622,7 +624,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
-- **link** - User initiated initiated redeem of invite link by entering Teams application.
+- **link** - User initiated redeem of invite link by entering Teams application.
 - **likeAppDismiss** - When the prompt that asks whether a user likes the app or not is dismissed without a response.
 - **likeAppNo** - When the prompt that asks whether user likes the app receives a response of no.
 - **likeAppYes** - When the prompt that asks whether user likes the app receives a response of yes.
@@ -654,7 +656,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **location_map_markers_load** - Map view load. Confirms that location markers for all users actively sharing are displayed properly on the map view.
 - **location_message_send** - A user initiates a location sharing session.
 - **location_data_use_privacy_denied** - A user dismisses or selects **Not now** on a popup explaining use of location data by TFL.
-- **location_data_use_privacy_granted** - A user selects **Allow** on the a popup explaining the use of location data by TFL.
+- **location_data_use_privacy_granted** - A user selects **Allow** on a popup explaining the use of location data by TFL.
 - **location_settings_open** - A user opens location settings.
 - **location_sharing_start** - A user shares their live location in a chat.
 - **location_sharing_stop** - A user stops sharing their live location in a chat.
@@ -936,7 +938,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **reorderChannelItem** - A user reorders pinned channels.
 - **reportAbuseConfirmation** - When a user selects the **Done** button on the confirmation screen.
 - **reportAbuseOpen** The number of times the **Report a concern** button is selected in the context menu.
-- **reportAbuseSend** - When a users selects the **Report** button, the telemetry should store the type of report selected.
+- **reportAbuseSend** - When a user selects the **Report** button, the telemetry should store the type of report selected.
 - **replyChain** - Selected **New message** button or textbox in reply chain (thread).
 - **replyChannel** - Selected **Reply** button in channels.
 - **replyNavigation** - Reply object was selected to navigate to referenced post.
@@ -1119,7 +1121,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **timesheetBreakEdited** - When a user confirms their timesheet. The event is logged when the user hits confirm in the modal.
 - **timesheetBreakNoteAdded** - When a user deletes their timesheet. The event is logged when the user confirms the delete in the modal.
 - **timesheetClockAdded** - When a user selects Edit for a timesheet.
-- **timesheetClockEdited**  When a user slects Save on an edited timesheet.
+- **timesheetClockEdited**  When a user selects Save on an edited timesheet.
 - **timesheetConfirmed** - When a user adds a note to their timesheet edits. The event is logged once the user saves the changes.
 - **timesheetDeleted** - If a user does or does not have a shift reminder set, and the amount of minutes before a shift a user wants to be alerted.
 - **timesheetEditClicked** - User Configuration telemetry.
@@ -1249,7 +1251,7 @@ action.
 - **app_start_hot** To monitor hot app launch (Android only).
 - **app_start_warm** To monitor warm app launch (Android only).
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
-- **cortanaError** To monitor Cortana error happends.
+- **cortanaError** To monitor Cortana error happens.
 - **cortanaView** - To monitor Cortana canvas appear.
 - **cortanaRestart** To monitor Cortana restart.
 - **cortanaSetNewConversation** To monitor Cortana sets new conversation.
@@ -1298,7 +1300,7 @@ action.
 - **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
 - **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for a user to land on resulting view after action.
 - **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after 
-- **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
+- **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared task list.
 - **upload_images** Confirms that the image upload action succeeded or failed.
 - **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
 - **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
