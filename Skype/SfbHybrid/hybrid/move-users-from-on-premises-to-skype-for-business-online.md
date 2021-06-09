@@ -45,10 +45,13 @@ To move a user to online using Move-CsUser:
 The following cmdlet sequence can be used to move a user to Skype for Business Online and assigns the tenant default mode to the user. It assumes the Microsoft 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 
 ```PowerShell
+# From an on-premises Skype for Business Server or Lync Server 2013 management shell window, run:
+ 
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
- 
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
+ 
+# And then from a Teams PowerShell window, remove TeamsOnly mode by running: 
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName $null
 ```
 
