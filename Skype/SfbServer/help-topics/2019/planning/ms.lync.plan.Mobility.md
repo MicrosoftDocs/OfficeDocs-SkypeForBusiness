@@ -1,5 +1,5 @@
 ---
-title: "Mobility (Planning Tool)"
+title: "Mobility (planning tool) in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -17,7 +17,7 @@ ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: "The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices."
 ---
 
-# Mobility (Planning Tool)
+# Mobility (planning tool) in Skype for Business Server
  
 The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.
   

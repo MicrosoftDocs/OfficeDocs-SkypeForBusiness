@@ -1,5 +1,5 @@
 ---
-title: "View information about individual SIP trunks in Skype for Business Server"
+title: "Skype for Business Server: View information about individual SIP trunks"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: "Summary: Learn how to view information about SIP trunks in Skype for Business Server."
 ---
 
-# View information about individual SIP trunks in Skype for Business Server
+# Skype for Business Server: View information about individual SIP trunks
  
 **Summary:** Learn how to view information about SIP trunks in Skype for Business Server.
   
