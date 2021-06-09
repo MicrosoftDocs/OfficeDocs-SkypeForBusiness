@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788949
-description: "Use this page to find USB audio and video devices optimized for Lync, including desk phones, personal speakerphones, corded and wireless headsets, corded handsets, and HD webcams."
+description: "Find USB video devices optimized for Lync."
 ---
 
 # Devices qualified for Microsoft Lync - video solutions

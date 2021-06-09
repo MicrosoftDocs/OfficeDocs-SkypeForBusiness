@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync ISV Qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios."
 ---
 
 # Lync ISV Qualification Program 

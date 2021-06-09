@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788945
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync for survivable branch appliances."
 ---
 
 # Partner qualification for Lync - survivable branch appliances
