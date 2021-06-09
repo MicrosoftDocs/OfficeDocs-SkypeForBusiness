@@ -30,7 +30,7 @@ Writers update articles on a continuing basis as new information becomes availab
 
 View the following resources for information about how to deploy Skype for Business Server.
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Icon for technical diagrams](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server 2015](../technical-diagrams.md) <br/> |See architecture choices at a glance in these large-format diagrams.  <br/> |
 |![Icon for videos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Videos about how to install Skype for Business Server -  *coming soon!*  <br/> |Discover video presentations and training for Skype for Business Server.  <br/> |
@@ -39,7 +39,7 @@ View the following resources for information about how to deploy Skype for Busin
 
 The following articles about how to install and configure Skype for Business Server are available to view online. 
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Icon for documentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Requirements for your Skype for Business environment](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Learn about server and environmental requirements for Skype for Business Server.  <br/> |
 |![Icon for documentation](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Topology Basics for Skype for Business Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Learn about topology options and server collocation scenarios for Skype for Business Server.  <br/> |
@@ -56,7 +56,7 @@ The following articles about how to install and configure Skype for Business Ser
 
 The following resources about how to plan for Skype for Business Server are available from other subject matter experts. 
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Icon for Docs](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](../../Hub/index.yml) <br/> |Visit the resource center to access videos, community sites, documentation, downloads, and more.  <br/> |
 |![Icon for developer content](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Developer Platform](/skype-sdk/skypedeveloperplatform) <br/> |Find developer resources for Skype for Business Server, including code samples, training, and SDKs.  <br/> |

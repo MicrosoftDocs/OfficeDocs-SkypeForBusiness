@@ -1,5 +1,5 @@
 ---
-title: "Solutions qualified with Lync Online Dedicated"
+title: "Solutions qualified with Lync Online Dedicated-qualified solutoins"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -18,10 +18,10 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - Dn788950
-description: "Read about Solutions qualified with Lync Online Dedicated."
+description: "Read about solutions qualified with Lync Online Dedicated."
 ---
 
-# Solutions qualified with Lync Online Dedicated
+# Lync Online Dedicated-qualified solutions
 
 Customers deployed with Lync Online Dedicated have Lync running in data centers hosted and managed by Microsoft with infrastructure provisioned specifically for their deployment.
 
