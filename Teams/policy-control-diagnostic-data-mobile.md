@@ -1298,6 +1298,8 @@ action.
 - **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
 - **smart_reply_received** - Confirms that a smart reply suggestion is received.
 - **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
+- **park_call_for_hold_v2** - Confirms that putting call on hold succeeded or failed using call park.
+- **unpark_call_for_hold_v2** - Confirms that resuming call succeeded or failed using call un-park. 
 - **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for a user to land on resulting view after action.
 - **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after 
 - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared task list.
