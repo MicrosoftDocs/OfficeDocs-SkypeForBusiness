@@ -1,5 +1,5 @@
 ---
-title: "Delete an existing collection of SIP trunk configuration settings in Skype for Business Server"
+title: "Delete a collection of SIP trunk configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: "Summary: Learn how to delete a collection of trunk configuration settings by using the Skype for Business Server Control Panel."
 ---
 
-# Delete an existing collection of SIP trunk configuration settings in Skype for Business Server
+# Delete a collection of SIP trunk configuration settings in Skype for Business Server
  
 **Summary:** Learn how to delete a collection of trunk configuration settings by using the Skype for Business Server Control Panel.
   

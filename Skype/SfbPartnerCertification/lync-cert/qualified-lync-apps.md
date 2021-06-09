@@ -1,5 +1,5 @@
 ---
-title: "Qualified Lync applications"
+title: "Lync qualified applications"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
 
-# Qualified Lync applications
+# Lnyc qualified applications
 Microsoft Lync empowers organizations by bringing the power of software to communications. It integrates telephony, voice, web conferencing, presence, and instant messaging into one seamless experience. Microsoft partners extend the Lync software platform with applications that meet an expanding variety of business and communications needs.
 
 See the [Skype for Business Applications](http://apps.skypeforbusiness.com/) page and find out about [application certification](http://apps.skypeforbusiness.com/certified.aspx).

@@ -1,5 +1,5 @@
 ---
-title: "Configure a trunk without media bypass in Skype for Business Server"
+title: "Skype for Business Server: Configure a trunk without media bypass"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: "Summary: Configure a trunk without media bypass enabled for Skype for Business Server."
 ---
 
-# Configure a trunk without media bypass in Skype for Business Server
+# Skype for Business Server: Configure a trunk without media bypass
 
 **Summary:** Configure a trunk without media bypass enabled for Skype for Business Server.
 

@@ -1,5 +1,5 @@
 ---
-title: "Test SIP trunk configuration settings in Skype for Business Server"
+title: "Test SIP trunk configuration in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: "Summary: Learn how to test SIP trunk configuration settings by using the Skype for Business Server Management Shell."
 ---
 
-# Test SIP trunk configuration settings in Skype for Business Server
+# Test SIP trunk configuration  in Skype for Business Server
  
 **Summary:** Learn how to test SIP trunk configuration settings by using the Skype for Business Server Management Shell.
   
