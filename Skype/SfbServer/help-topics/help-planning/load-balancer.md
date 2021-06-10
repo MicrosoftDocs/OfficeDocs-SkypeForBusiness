@@ -18,7 +18,7 @@ ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: "If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools. Load balancing distributes the traffic among the servers in a pool. For details, see:"
 ---
 
-# Load Balancer (Planning Tool)
+# Skype for Business Server 2015 Load Balancer (planning tool)
  
 If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools. Load balancing distributes the traffic among the servers in a pool. For details, see:
   
