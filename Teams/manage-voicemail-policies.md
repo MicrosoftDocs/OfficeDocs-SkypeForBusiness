@@ -30,9 +30,9 @@ description: "Manage Voicemail Policies for your users."
 > For Skype for Business customers, disabling voicemail through a Microsoft Teams calling policy might also disable the voicemail service for your Skype for Business users.
 
 ## Voicemail organization defaults for all users
-- Voicemail transcription is enabled
-- Voicemail transcription profanity masking is disabled
-- The maximum recording duration is set to 5 minutes
+- Voicemail transcription is enabled.
+- Voicemail transcription profanity masking is disabled.
+- The maximum recording duration is set to five minutes.
 
 You can control these default by using the [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) and [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlets.
 
