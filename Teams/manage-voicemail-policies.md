@@ -98,7 +98,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ## Changing the recording duration for your organization
 
-The maximum recording length is set to 5:00 minutes by default for your organization. If there is a business requirement to increase or decrease the maximum recording length this can be done by by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). For example, to set the maximum recording time to 60 seconds,  run:
+The maximum recording length is set to five minutes by default for your organization. If there is a business requirement to increase or decrease the maximum recording length, this can be done by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). For example, to set the maximum recording time to 60 seconds,  run:
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
