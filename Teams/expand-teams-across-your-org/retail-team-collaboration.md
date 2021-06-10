@@ -21,7 +21,7 @@ appliesto:
 
 Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.
 
-<!-- daisy put the image here-->
+![Infographic showing the different functions available in Teams and as Teams apps as described in the list below](media/retail-teams-collab.png)
 
 Microsoft Teams enables in-store sales associates, managers, and other staff to collaborate efficiently with included collaboration features in Microsoft Teams, such as:
 
