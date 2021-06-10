@@ -1,7 +1,7 @@
 ---
-title: "Inter-trunk routing in Skype for Business Server"
+title: "Skype for Business Server inter-trunk routing"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-cichur 
 author: cichur
 manager: serdars
 audience: ITPro
@@ -10,10 +10,10 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Skype for Business Server provides basic session management through the support of intertrunk routing. "
+description: "Skype for Business Server provides basic session management through the support of intertrunk routing."
 ---
 
-# Inter-trunk routing in Skype for Business Server
+# Skype for Business Server inter-trunk routing
 
 Skype for Business Server provides basic session management through the support of intertrunk routing. This capability enables Skype for Business Server to provide call control functionalities to downstream telephony systems. Intertrunk routing can interconnect an IP-PBX to a public switched telephone network (PSTN) gateway so that calls from a private branch exchange (PBX) phone can be routed to the PSTN, and incoming PSTN calls can be routed to a PBX phone. Similarly, Skype for Business Server can interconnect two or more IP-PBX systems so that calls can be placed and received between PBX phones from the different IP-PBX systems. 
 

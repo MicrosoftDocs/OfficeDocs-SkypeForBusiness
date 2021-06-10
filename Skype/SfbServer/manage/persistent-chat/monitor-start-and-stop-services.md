@@ -21,7 +21,7 @@ description: "Summary: Learn how to start, stop, and monitor the Persistent Chat
   
 The Persistent Chat services and Persistent Chat Compliance services are part of the Skype for Business Server topology and can therefore be monitored, stopped, and started by using the following cmdlets:
   
-|||
+|Command|Action|
 |:-----|:-----|
 |get-CsWindowsService  <br/> |Returns detailed information about Skype for Business Server 2015 components that run as Windows services.  <br/> |
 |start-CsWindowsService  <br/> |Starts the service.  <br/> |
