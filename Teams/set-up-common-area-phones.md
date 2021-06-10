@@ -56,7 +56,7 @@ For more information on licenses, see [Microsoft Teams add-on licensing](./teams
 The Common Area Phone license supports: 
 
 
-|   |  Common Area Phone  |
+|Product or feature   |  Common Area Phone  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
