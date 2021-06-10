@@ -53,7 +53,7 @@ If a problem occurs with a specific meeting or live event, it's helpful to have 
 > If Media logging is enabled, there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging is not enabled, there will be a limited number of logs available.
   
 > [!NOTE]
-> The debug logs were previouly collecting using the keyboard shortcuts below.These still function and will complete the same log capture as the **Collect support files** option.
+> The debug logs were previously collecting using the keyboard shortcuts below. These still function and will complete the same log capture as the **Collect support files** option.
 
 > Windows:
 > Crtl + Alt + Shift + 1
