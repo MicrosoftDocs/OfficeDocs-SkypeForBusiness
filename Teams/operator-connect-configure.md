@@ -104,7 +104,7 @@ To acquire numbers for new Teams users, follow these steps:
 ### Assign numbers
 
 > [!NOTE]
-> Before assign a number, make sure the user is in TeamsOnly mode. To check, see [Set upgrade options for a single user in your organization](setting-your-coexistence-and-upgrade-settings.md#set-upgrade-options-for-a-single-user-in-your-organization).
+> Before assigning a number, make sure the user is in TeamsOnly mode. To check, see [Set upgrade options for a single user in your organization](setting-your-coexistence-and-upgrade-settings.md#set-upgrade-options-for-a-single-user-in-your-organization).
 
 Whether you're adding new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
 
