@@ -108,3 +108,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
     ```
 
     It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.
+    
+## Related topics
+
+- [Archive or restore a team](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) (client version from Office support)
