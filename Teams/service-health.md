@@ -18,8 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Verify service health for Microsoft Teams
-===========================================
+# Verify service health for Microsoft Teams
 
 Service health for Microsoft Teams is displayed on the Microsoft 365 admin center. Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy. Go to the <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> console to review the service health.
 
