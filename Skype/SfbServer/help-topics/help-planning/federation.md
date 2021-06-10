@@ -15,7 +15,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-description: "Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services."
+description: "You can configure Edge Servers to allow your internal and external users access to contacts at partner organizations or services."
 ---
 
 # Skype for Business Server 2015 Federation (planning tool)
