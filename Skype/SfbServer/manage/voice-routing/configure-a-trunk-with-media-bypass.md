@@ -1,5 +1,5 @@
 ---
-title: "Configure a trunk with media bypass in Skype for Business Server"
+title: "Skype for Business Server: Configure a trunk with media bypass"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -10,10 +10,10 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Follow these steps to configure a trunk with media bypass enabled. "
+description: "Configure a trunk with media bypass enabled in Skype for Business Server."
 ---
 
-# Configure a trunk with media bypass in Skype for Business Server
+# Skype for Business Server: Configure a trunk with media bypass
 
 Follow these steps to configure a trunk with media bypass enabled. To configure a trunk with media bypass disabled, see [Configure a trunk without media bypass in Skype for Business Server](configure-a-trunk-without-media-bypass.md). Media bypass is useful when you want to minimize the number of Mediation Servers deployed. Typically, a Mediation Server pool will be deployed at a central site, and it will control gateways at branch sites. Enabling media bypass allows media for public switched telephone network (PSTN) calls from clients at branch sites to flow directly through the gateways at those sites. Skype for Business Server outbound call routes and Enterprise Voice policies must be properly configured so that PSTN calls from clients at a branch site are routed to the appropriate gateway.
 
