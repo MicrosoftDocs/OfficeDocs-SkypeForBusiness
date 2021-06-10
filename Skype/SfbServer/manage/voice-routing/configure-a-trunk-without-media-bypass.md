@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Server: Configure a trunk without media bypass"
+title: "Configure a trunk without media bypass in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -10,10 +10,10 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Follow these steps to configure a trunk with media bypass enabled."
+description: "How configure a trunk with media bypass enabled in Skype for Business Server."
 ---
 
-# Skype for Business Server: Configure a trunk without media bypass 
+# Configure a trunk without media bypass in Skype for Business Server 
 
 If you want to configure a trunk with media bypass disabled, follow these steps. If you want to configure a trunk with media bypass enabled, see [Configure a trunk with media bypass in Skype for Business Server](configure-a-trunk-with-media-bypass.md).
 

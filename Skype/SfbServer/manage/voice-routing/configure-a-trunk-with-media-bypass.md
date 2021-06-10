@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Follow these steps to configure a trunk with media bypass enabled."
+description: "Configure a trunk with media bypass enabled in Skype for Business Server."
 ---
 
 # Skype for Business Server: Configure a trunk with media bypass
