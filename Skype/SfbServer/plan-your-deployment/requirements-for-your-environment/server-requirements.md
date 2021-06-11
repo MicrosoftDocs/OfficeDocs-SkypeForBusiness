@@ -15,7 +15,7 @@ ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: 
-ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
+ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1 
 description: "Summary: Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm."
 ---
 
@@ -97,7 +97,7 @@ In addition to the latest service pack, you'll want to ensure the following upda
 
 When installing Skype for Business Server 2015 Standard Edition, you'll have SQL Server 2014 Express (64-bit edition) is automatically installed as well.
   
-Skype for Business Server 2015 Enterprise Edition is a little more complicated, but the supported list is below (everything is 64-bit edition, you'll notice, please don't use 32-bit editions):
+Skype for Business Server 2015 Enterprise Edition is a little more complicated, but the supported list is below (everything is 64-bit edition, you'll notice, please don't use 32-bit editions):  
   
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|

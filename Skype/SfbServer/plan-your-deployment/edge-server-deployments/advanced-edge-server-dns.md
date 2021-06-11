@@ -1,5 +1,5 @@
 ---
-title: "Advanced Edge Server DNS planning for Skype for Business Server"
+title: "Advanced Edge Server: DNS planning for Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: "Summary: Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help."
 ---
 
-# Advanced Edge Server DNS planning for Skype for Business Server
+# Advanced Edge Server: DNS planning for Skype for Business Server
  
 **Summary:** Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
   
@@ -224,11 +224,9 @@ For example, if there are three Front End Servers in a pool named pool01.contoso
   
 - Clients running Skype for Business query DNS for pool01.contoso.com. The query returns three IP addresses and caches them as follows (in some order):
     
-   |||
-   |:-----|:-----|
-   |pool01.contoso.com  <br/> |192.168.10.90  <br/> |
-   |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
-   |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
+   pool01.contoso.com  - 192.168.10.90<br/>
+   pool01.contoso.com  - 192.168.10.91<br/>
+   pool01.contoso.com  - 192.168.10.92  
    
 - The client tries to establish a TCP connection to one of the IP addresses. If that fails, it'll try the next IP address it's cached from that list.
     

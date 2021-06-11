@@ -78,7 +78,7 @@ Additional information on collocation for these servers can be found below.
 
 All the Front End pools and Standard Edition servers deployed at your central site share the following, assuming you've deployed them:
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |Director or Director pool  <br/> |Stand-alone Mediation Server or Mediation Server pool  <br/> |Office Web Apps Server  <br/> |
 |Edge Server or Edge pool  <br/> |Persistent Chat Server or Persistent Chat Server pool  <br/> |Monitoring  <br/> |
@@ -87,7 +87,7 @@ Where is Exchange Unified Messaging (UM) Server in this list? Well, you can cert
 
 You may be planning to have multiple central site, and if that's so, they can share the following servers and roles, if they're deployed on your central site:
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Stand-alone Mediation Server or Mediation Server pool  <br/> |Edge Server or Edge pool  <br/> |
 |Persistent Chat Server or Persistent Chat Server pool  <br/> |Monitoring  <br/> |
@@ -96,7 +96,7 @@ Just like the last list, we aren't including the Exchange UM Server here because
 
 There are some other components and options that go into deployments, of course.
 
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
 |Firewalls  <br/> |PSTN gateways (if you deploy Enterprise Voice  <br/> |Exchange UM Server (if you want to integrate with Exchange UM)  <br/> |DNS load balancing  <br/> |
 |Hardware load balancers  <br/> |SQL Server databases  <br/> |File shares  <br/> ||
