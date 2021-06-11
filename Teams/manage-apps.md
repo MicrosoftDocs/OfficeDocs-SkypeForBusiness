@@ -160,7 +160,7 @@ To access MCAS information, follow these steps:
 1. In the Teams admin center, select **Manage apps** under **Teams apps**.
 1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
 1. Choose a Microsoft 365 Certified app.
-1. Select the **Security and privacy** tab.
+1. Select the **Security and compliance** tab.
 
 ![Screenshot of Teams admin center security and compliance tab](media/mcas.png)
 
