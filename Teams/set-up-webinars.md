@@ -77,7 +77,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > If anonymous join is turned off in meeting settings, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
 
 ### Collect meeting attendance
