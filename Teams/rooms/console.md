@@ -223,8 +223,8 @@ Use the following checklist while doing a final verification that the console an
   
 **Application settings**
 
-|||
-|:-----|:-----|
+|Completed |Check |
+|:-----:|:-----|
 |☐  <br/> |Room account name and phone # (if PSTN enabled) are correctly displayed in top right of console screen  <br/> |
 |☐  <br/> |Windows computer name is set correctly (useful for remote administration)  <br/> |
 |☐  <br/> |Administrator account password set and verified  <br/> |
@@ -232,8 +232,8 @@ Use the following checklist while doing a final verification that the console an
    
 **Audio/video peripherals**
 
-|||
-|:-----|:-----|
+|Completed |Check |
+|:-----:|:-----|
 |☐  <br/> |Camera peripheral firmware version is correct (if applicable)  <br/> |
 |☐  <br/> |Camera functional and positioned optimally  <br/> |
 |☐  <br/> |Settings for Playback Default Device and Playback Default Communications Device set to intended audio peripheral  <br/> |
@@ -244,8 +244,8 @@ Use the following checklist while doing a final verification that the console an
    
 **Dock**
 
-|||
-|:-----|:-----|
+|Completed |Check |
+|:-----:|:-----|
 |☐  <br/> |Cables are secure and not pinched  <br/> |
 |☐  <br/> |Audio ingest over HDMI is functional  <br/> |
 |☐  <br/> |Video ingest over HDMI is functional  <br/> |
