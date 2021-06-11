@@ -165,10 +165,10 @@ Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity 
 
 > ```PowerShell
 > 
-> Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
-> Get-CsOnlineVoicemailPolicy -Identify PolicyName).SecondarySystemPromptLanguage 
+> (Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
+> (Get-CsOnlineVoicemailPolicy -Identity PolicyName).SecondarySystemPromptLanguage 
 >
-> *Replace **PolicyName** with the name of the policy.
+> Replace **PolicyName** with the name of the policy.
 
 
 > [!IMPORTANT]
