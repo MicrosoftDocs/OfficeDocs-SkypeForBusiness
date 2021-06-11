@@ -48,7 +48,7 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone**. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work. Additionally, Microsoft Lists needs to be set up in SharePoint. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
 
 1. Allow users in your organization to schedule webinars
@@ -77,7 +77,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > If anonymous join is turned off in meeting settings, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
 
 ### Collect meeting attendance
