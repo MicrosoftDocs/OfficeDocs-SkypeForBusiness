@@ -98,7 +98,7 @@ Uninstall-Module MicrosoftTeams -Allversion
 
 # Next Steps 
 
-Now you're ready to manage Microsoft Teams using Microsoft Teams PowerShell. See [Managing Teams with Teams PowerShell](https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-managing-teams) to get started. 
+Now you're ready to manage Microsoft Teams using Microsoft Teams PowerShell. See [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md) to get started. 
 
 ## Related topics
 
