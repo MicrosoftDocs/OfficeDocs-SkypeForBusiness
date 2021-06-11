@@ -46,7 +46,7 @@ For physical installation considerations, see the manufacturer's documentation a
 >
 > We don't recommend placing proxy servers between Teams devices and the Internet. For more information about proxy servers and Teams, check out [Proxy servers for Teams](../proxy-servers-for-skype-for-business-online.md).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the site readiness requirements for collaboration bars for Microsoft Teams.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>|
 | ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your collaboration bar deployment and configuration.</li></ul>|
@@ -67,7 +67,7 @@ When you create a resource account, you can choose whether to let the account au
 
 For more information about Microsoft 365 resource accounts, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you want to make or receive external phone calls and identify licensing requirements for your resource accounts.</li></ul>|
 | ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare resource accounts.</li></ul>|
@@ -91,7 +91,7 @@ If you want to assign Teams Rooms to individual users for their private use, you
 > [!TIP]
 > Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Teams Rooms to meetings. You could use a convention like *Site*-*Room Name*(*Max Room Capacity*), so for example Curie, a 4-person meeting room in London, might have the display name LON-CURIE(4).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your dedicated resource accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ul>|
 | ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>|
@@ -100,7 +100,7 @@ If you want to assign Teams Rooms to individual users for their private use, you
 
 Next, you need to create your plan to deliver the devices and their assigned peripheral devices to your rooms, and then proceed with installation and configuration.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install Teams Rooms on site and undertake the configuration and testing.</li></ul>|
 | ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>|

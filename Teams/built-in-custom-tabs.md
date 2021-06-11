@@ -18,8 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Use built-in and custom tabs in Microsoft Teams
-==================================================
+# Use built-in and custom tabs in Microsoft Teams
 
 Tabs allow team members to access services and content in a dedicated space within a channel or in a chat. This lets the team work directly with tools and data, and have conversations about the tools and data, all within the context of the channel or chat.
 

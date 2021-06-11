@@ -21,8 +21,8 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-Quick start guide: Configuring Calling Plans in Microsoft Teams
-==============================================================
+# Quick start guide: Configuring Calling Plans in Microsoft Teams
+
 
 This guide will help you get a set of users up and running so they can explore Calling Plans in Teams.
 

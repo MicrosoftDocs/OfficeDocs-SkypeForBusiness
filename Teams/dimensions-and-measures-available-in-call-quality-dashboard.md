@@ -55,8 +55,8 @@ For example, here each row represents a pair of User Agents involved in a stream
 
 Dimensions information is based in part on data uploaded to the CQD portal. Many Dimension values can also be used as filters. The following table lists the dimensions currently available in CQD, in the order listed in the Query Editor used to create reports or edit previously defined reports.
 
-| Name | Data type  | Description | Possible Reasons for blank values |
-|:---  |:---        |:---         |:--- |
+|Name|Data type|Description|Possible Reasons for blank values|
+|:---|:---|:---|:---|
 |**Endpoint**|||
 | First CPU Name  | String  | Name of the CPU used by the first endpoint. <br/> **Example value:** Contoso CPU X11 @ 1.80 GHz | <br/>&bull; This data was not reported by the endpoint   |
 | Second CPU Name  | String  | Name of the CPU used by the second endpoint. <br/> **Example value:** Contoso CPU X11 @ 1.80 GHz | <br/>&bull; This data was not reported by the endpoint     |
@@ -511,8 +511,8 @@ The table above lists possible reasons why a dimension may be blank. Many dimens
 
 Many Measurement values can also be used as filters. The following table lists the measurements currently available in CQD, shown in the order listed in the Query Editor
 
-|Measure Name |Units |Description |
-|:--- |:--- |:--- |
+|Measure Name|Units|Description|
+|:---|:---|:---|
 |Total Stream Count |Number of streams |Number media streams regardless of type of media, including reliability/diagnostics streams that may not have a media type. |
 | Total CDR Available Stream Count | Number of streams |Number of media streams with reliability/diagnostics information available. See [Call detail recording (CDR) in Skype for Business Server](/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Total Media Failed Stream Count |Number of streams |Number of streams where either media path could not be established or did not terminate normally. |
