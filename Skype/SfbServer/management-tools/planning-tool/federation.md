@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Server 2015 Federation (planning tool)"
+title: "Skype for Business Server 2015: Federation (planning tool)"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -16,7 +16,7 @@ ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: "Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services."
 ---
 
-# Skype for Business Server 2015 Federation (planning tool)
+# Skype for Business Server 2015: Federation (planning tool)
  
 Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services.
   
