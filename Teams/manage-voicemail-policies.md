@@ -162,13 +162,12 @@ Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity 
 
 > [!NOTE]
 > The Get-CsOnlineVoicemailPolicy cmdlet is not currently returning the values for PrimarySystemPromptLanguage and SecondarySystemPromptLanguage. To see these values modify the command as follows:
-
-> ```PowerShell
-> 
-> Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
-> Get-CsOnlineVoicemailPolicy -Identify PolicyName).SecondarySystemPromptLanguage 
 >
-> *Replace **PolicyName** with the name of the policy.
+> >```PowerShell
+> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
+> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).SecondarySystemPromptLanguage 
+>
+> Replace **PolicyName** with the name of the policy.
 
 
 > [!IMPORTANT]
