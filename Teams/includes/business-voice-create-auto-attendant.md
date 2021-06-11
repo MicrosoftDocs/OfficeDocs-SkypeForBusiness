@@ -82,7 +82,7 @@ To set up an auto attendant
 
 4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you create a separate call flow for after hours.
 
-5. Specify a language for this auto attendant. This is the language that will be used for system-generated voice prompts.
+5. Specify a [supported language](../create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts. 
 
 6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
@@ -122,7 +122,7 @@ Choose your call flow options
     - **Person in the organization** - a person in your organization who is able to receive voice calls.
     - **Voice app** - another auto attendant or a call queue.
     - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
-    - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
+    - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
     - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
 
     We recommend setting 0 key to the operator.

@@ -22,6 +22,21 @@ appliesto:
 
 Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.
 
+## Supported languages
+Career Coach is localized in the following languages:
+
+  - Chinese (Simplified, Mainland China)
+  - Chinese (Traditional, Taiwan)
+  - English (US)
+  - English (UK)
+  - French (Canada)
+  - French (France)
+  - German (Deutschland)
+  - Japanese (Japan)
+  - Portuguese (Brazil)
+  - Spanish (Spain)
+  - Spanish (Mexico)
+
 Learn more about [Career Coach](https://aka.ms/career-coach).
 
 > [!NOTE]
@@ -105,7 +120,7 @@ Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps i
 
 4. Select **Career Coach**, and then select **Settings.**  
 
-    ![shows the Career Coach app selected with the Settings option showing](media/app-settings.png)
+    ![shows the Career Coach app selected with the Settings option showing](media/career-coach-app.png)
 
 ### Configure the Career Coach app settings
 
@@ -128,7 +143,7 @@ Career Coach has five configuration categories:
 
 Set your educational institution’s name, logo, and default language on the brand and preferences settings page.
 
-![the Career Coach branding section of the admin center](media/brand-preferences.png)
+![the Career Coach branding section of the admin center](media/career-coach-brand.png)
 
 ##### Educational institution icon
 
@@ -167,7 +182,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en). The verification link expires after 30 days.  
 
-   ![linkedin settings for the career coach](media/linkedin.png)  
+   ![linkedin settings for the career coach](media/career-coach-linked-in.png)  
 
 #### Course catalog
 
