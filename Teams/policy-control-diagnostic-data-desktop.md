@@ -21,6 +21,8 @@ appliesto:
 
 The following article contains a list of Microsoft Teams desktop events, and lists of properties each event collects.
 
+For more information about diagnostic data, including how to control what diagnostic data is sent to Microsoft, see [Diagnostic data sent from the Teams app to Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). To view the diagnostic data being sent to Microsoft, you can use the [Diagnostic Data Viewer](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
+
 ## Events
 
 > [!NOTE]
@@ -35,7 +37,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 - **adalAnonymousUtil.ts:loggingService.getInstance** - Records error statement logging that the app could not launch anonymous user authentication.
 - **adal-anonymous-windows.ts:this.logger.logError** - Records that a generic sso error occurred when logging in anonymously on a windows device.
 - **adalBase.ts:this.loggingService.logError** - Records information needed to determine that the user profile is null or empty.
-- **adal-impl-mac.ts:this.loggingService.logError** - Records the occurrence of an issue when parsing telemetry received during authentication or genaric sso error occurred when logging in on a Mac device.
+- **adal-impl-mac.ts:this.loggingService.logError** - Records the occurrence of an issue when parsing telemetry received during authentication or generic sso error occurred when logging in on a Mac device.
 - **adal-rigel-windows.ts:this.logger.logError** - General logging statement indicating a generic sso error occurred when logging in on our Meeting room device.
 - **adal-sso-windows.ts:this.loggingService.logError** - Records that a generic sso error occurred when logging in on a Windows device, errors in initiating the chat service or log in failure information.
 - **appOnlineService.ts:loggingService.getInstance** - Records the occurrence of an error due to settings that could not be parsed during startup or with downloading pre-user authentication, pre-authorized settings.
@@ -48,7 +50,7 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 - **localStorageService.ts:loggingService.getInstance** - Records the occurrence of an error when essential boot data does not load properly to run the application.
 - **logProviders\pageDumpProvider.ts:loggingService.getInstance** - Records error information when the application crashes.
 - **multiWindowManager.ts:this.logError** - Records the occurrence of an error when essential boot data does not load properly to run the application.
-- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** - This event records the occurrence of an error whenattempting to launch a notification about a failure.
+- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** - This event records the occurrence of an error when attempting to launch a notification about a failure.
 - **OutlookMeetingAddinHelper.ts:loggingService.getInstance** - Records the occurrence of an error when attempting to connect to a meeting using the Outlook meeting addin.
 - **recoveryManager.ts:loggingService.getInstance** - Records the occurrence of an error during update rollbacks.
 - **renderer\startPage\startPage.ts:this.logger.logError** - Records the occurrence of an error with the application start page.
@@ -86,12 +88,12 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 > [!NOTE]
 > For information on the properties of Tracking events, see [Properties sent with tracking events](#properties-sent-with-tracking-events).
 
-- **deeplink_scenario_missing** - Teams was launched from an deeplink, but the telemetry/diagnostic is not present.
+- **deeplink_scenario_missing** - Teams was launched from a deeplink, but the telemetry/diagnostic is not present.
 - **desktop_app_initialized** - Records information needed to determine if the application has successfully started when the desktop application is initialized.
 - **desktop_app_quit_exception** - The application crashed while attempting to close.
 - **desktop_blankScreenDetected** - Records information needed to determine errors when the desktop application renders a blank screen.
 - **desktop_blankScreenDetectedAfterRepaint** - Detected that page was blank upon detecting rendering attempt.
-- **desktop_blankScreenRecoveredAfterRepaint** - Recovered from an rendering issue where the screen was not rendered earlier.
+- **desktop_blankScreenRecoveredAfterRepaint** - Recovered from a rendering issue where the screen was not rendered earlier.
 - **desktop_configuration_failed_to_save** - Collects information needed to determine configuration errors when desktop settings have failed to save.
 - **desktop_navigation_error_recovery** - Collects information needed to determine desktop navigation errors when a page fails to load after five attempts.
 - **desktop_previous_gpu_crashed** - Records information needed to determine graphics processing unit errors when the desktop crashes.
@@ -391,6 +393,6 @@ The following article contains a list of Microsoft Teams desktop events, and lis
 | TeamsRing                       | Ring of current user logged into Teams client                            |
 | TeamsVersion                    | Captures version of Teams app                                            |
 | TelemetrySetupCompletedTime     | Time when telemetry setup is completed                                   |
-| UpnMismatch                     | Whether theres a upn mismatch between outlook and teams                  |
+| UpnMismatch                     | Whether there is a upn mismatch between outlook and teams                  |
 | UserDomain                      | Domain of the user                                                       |
 | ViewUpdatedTime                 | Time when the view got updated                                           |
