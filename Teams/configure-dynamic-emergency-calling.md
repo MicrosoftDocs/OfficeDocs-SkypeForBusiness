@@ -83,7 +83,7 @@ The following clients are currently supported.  Check back often to see updates 
 > Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all Teams clients. 
+> Subnet and WiFi-based locations are supported on all Teams clients. <br>
 > Ethernet/Switch (LLDP) is only supported on Windows and only on Windows versions 8.1 and later at this time.
 
 ## Assign emergency addresses
