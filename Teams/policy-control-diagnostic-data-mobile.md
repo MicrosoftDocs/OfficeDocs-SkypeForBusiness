@@ -973,18 +973,11 @@ For more information about diagnostic data, including how to control what diagno
   - Search was successful or if the user abandoned search.
   - A search query was successful.
 - **searchContacts** - Search from the Call List.
-- **searchIcon** - Determine:
-  - If search can be triggered.
-  - The source of a search trigger.
-  - If relevant results are found successfully.
 - **searchInitiated** - Determines if search can be triggered, and the source of search trigger.
 - **searchMeetingParticipants** - Search for participants to add within the scheduler form. To distinguish between the number of appointments created versus the number of meetings created.
 - **searchResultsClicked** - Determines:
   - If relevant results can be found successfully.
   - If search results were from the All tab versus an individual domain.
-- **searchTab** - Determines:
-  - Domain information of the search result - for people, chat, messages, and files.
-  - If search results was from ALL tab vs individual domain.
 - **searchTabClicked** - Determines:
   - Domain information of the search result - for people, chat, messages, and files.
   - If the relevant results are found successfully.
@@ -1317,7 +1310,7 @@ action.
 - **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
 - **meeting_details** Confirms that the meeting details sync has succeeded or failed.
 - **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
-
+- **search** Confirms that the whole search session has succeeded or failed.
 
 ## Property lists
 
