@@ -79,8 +79,7 @@ Identifying the individuals who can become your collaboration champions provides
 
 To learn about building a champion program, get [Build a champion program](https://go.microsoft.com/fwlink/?linkid=854665).
 
-Identify and select your business scenarios
----------------------------------------------------------------
+## Identify and select your business scenarios
 
 Once you have identified your key stakeholders and user segments, identifying your business scenarios will be that much easier. Here are a few examples of business outcomes:
 
