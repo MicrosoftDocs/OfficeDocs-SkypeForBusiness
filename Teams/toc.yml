@@ -490,8 +490,6 @@ items:
       href: teams-policies.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
-    - name: Sharing files in Teams
-      href: sharing-files-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
     - name: Share to Teams from Outlook
@@ -839,6 +837,8 @@ items:
           items: 
             - name: Set up Cloud Voicemail
               href: set-up-phone-system-voicemail.md
+            - name: Manage Voicemail policies
+              href: manage-voicemail-policies.md
             - name: Change the default language for voicemail
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
@@ -1591,7 +1591,7 @@ items:
           href: devices/phones-displays-deploy.md
         - name: USB audio and video devices
           href: devices/usb-devices.md
-        - name: Deploy collaboration bars for Microsoft Teams
+        - name: Deploy Microsoft Teams Rooms on Android
           href: devices/collab-bar-deploy.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

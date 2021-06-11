@@ -20,9 +20,11 @@ ms.custom:
 Now that you have a clear understanding of your organization’s unique path and needs, it's time to get started on your journey to powerful collaboration. Use the section below to learn how to navigate Kaziala’s capabilities complimented within Teams.
 
 ## Getting Started
+
 Getting started on your move from Kaizala to Teams is easier than ever with our getting started guide. To learn more about starting your Microsoft Teams journey, see [Getting started with Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us).
 
 ## Starting new chats, 1:1 audio and video calls
+
 Create 1:1 or group chats to collaborate with a smaller group or to talk privately within Teams. You can pin chats and save messages for quick access. To begin chatting with our rich text formatting, emojis and gifs, see [Chats in Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us).
 
 Communicate efficiently by starting 1:1 or group calls with anyone in your organization. With Teams,  you have the flexibility to make both audio and video calls.  To get started, see [Make calls](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us).
@@ -41,7 +43,7 @@ Create and send messages intended for multiple teams or large number of employee
 
 Use the Teams Smart Camera to capture and share an annotated image with your Team. Easily share your location with precision to keep your team in the know. Need to have more info to communicate how the Kaizala features map to Teams. Definitely have as much info from the slide deck as we can into the doc.
 
-[Use the Staff checkins](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#staff-check-ins) app template to enable front line Staff to easily provide time-critical information and status updates on either a scheduled or ad-hoc basis directly from Teams. The app supports real-time location, photos, notes, reminder notifications, and automated workflows.
+[Use the Staff checkins](/microsoftteams/platform/samples/app-templates#staff-check-ins) app template to enable front line Staff to easily provide time-critical information and status updates on either a scheduled or ad-hoc basis directly from Teams. The app supports real-time location, photos, notes, reminder notifications, and automated workflows.
 
 ### Training
 
@@ -57,7 +59,7 @@ Administrators can manage the entire Teams workload, or they can have delegated 
 
 To navigate the admin center, visit [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-You can monitor your organization’s security and compliance across Microsoft 365 with the Microsoft 365 [Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) and [Security Center](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center).
+You can monitor your organization’s security and compliance across Microsoft 365 with the Microsoft 365 [Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center) and [Security Center](/microsoft-365/security/defender/overview-security-center).
 
 Protect your business and empower your users in the [Azure Active Directory admin center](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) where you can review groups, identity, licenses, and access across Microsoft 365.
 
@@ -69,11 +71,12 @@ Search for anyone in your organization through the Search Bar in teams. You can 
 
 Enjoy rich analytics through the help of polls, [surveys](https://www.office.com/launch/forms?auth=2), and [checklists](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) with built-in reports and downloadable data. Jobs can also be assigned with the help of [Tasks](https://support.microsoft.com/office/manage-tasks-in-planner-ee61ecb0-a0bb-4c39-8682-f47fe7674f05) in planner.
 
-To enable [extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) within a Team, use the Connectors option from the menu (…) for any channel for which the connector is required.
+To enable [extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) within a Team, use the Connectors option from the menu (…) for any channel for which the connector is required.
 
 To view usage, activity, and overall adoption reports, Team owners can access reports for their teams by navigating from the menu (…) to manage team > analytics.
 
 ## Kaizala Group Dissolution​
+
 As you transition to Teams channels and chats, you may consider Kaizala group dissolution to ensure your organization has one central place for communication.  Deleting a Kaizala group removes the group from the Chats list. If you are the only admin in the group, you will need to assign the admin role to at least one person in the group before deleting.
 
 To delete a group:
@@ -83,7 +86,8 @@ To delete a group:
  • Tap Delete group.
 
 ## Kaizala Tenant Data export​
-While using Teams, you can still maintain control of your corporate data in Kaizala. For more information, see [Export tenant data from the management portal](https://docs.microsoft.com/office365/kaizala/export-or-delete-your-data).
+
+While using Teams, you can still maintain control of your corporate data in Kaizala. For more information, see [Export tenant data from the management portal](/office365/kaizala/export-or-delete-your-data).
 
 ## Collaborating with External Users(Vendors/suppliers/Partners)​
 
@@ -91,16 +95,17 @@ Collaborating with vendors, suppliers, partners, and other external users are ea
 
 ## What is External Access in Teams?
 
-External access is turned on by default in Teams, which means that your organization can communicate with all external domains. External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. To learn more about external access, see [Manage external access](https://docs.microsoft.com/microsoftteams/manage-external-access).
+External access is turned on by default in Teams, which means that your organization can communicate with all external domains. External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. To learn more about external access, see [Manage external access](/microsoftteams/manage-external-access).
 
 ## What is Guest Access in Teams?
 
-With [guest access](https://docs.microsoft.com/MicrosoftTeams/guest-access), you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization, while maintaining control over your corporate data. No additional licensing is required to add Guests in Teams.
+With [guest access](/MicrosoftTeams/guest-access), you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization, while maintaining control over your corporate data. No additional licensing is required to add Guests in Teams.
 
 ## Who can be a Guest in Teams?
+
 A guest is someone who isn't an employee, or member of your organization. They don't have a work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants.
 
-Anyone who isn't part of your organization can be [added as guest in Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team). This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (for example, outlook.com, gmail.com, so on) can participate as a guest in Teams with access to teams and channel experiences.
+Anyone who isn't part of your organization can be [added as guest in Teams](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team). This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (for example, outlook.com, gmail.com, so on) can participate as a guest in Teams with access to teams and channel experiences.
 
 >[!NOTE]
 > Before guests can join a team, guest access must be enabled by an admin in Teams.

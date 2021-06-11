@@ -130,7 +130,7 @@ For online only users, Cloud Voicemail is automatically set up and provisioned f
 For more information about Cloud Voicemail and its configuration, see the following articles:
 
 - [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
-- [Set voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
+- [Set voicemail policies in your organization](manage-voicemail-policies.md)
 
 
 ### Calling identity
