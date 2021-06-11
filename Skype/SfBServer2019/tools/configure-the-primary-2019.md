@@ -15,7 +15,7 @@ ms.collection: IT_Skype16
 description: "Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2019."
 ---
 
-# Configure the Primary Management Server
+# Skype for Business Server 2019: Configure the Primary Management Server
 
 **Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2019.
 

@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
-description: "The topics in this section help you understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate."
+description: "Understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate."
 ---
 
 # Capacity Planning for Skype for Business Server 2019
@@ -158,7 +158,7 @@ If you deploy Monitoring or Archiving, the front end functionality of these serv
 
 The following table indicates approximately how much database storage is required per user per day for Monitoring and Archiving data.
 
-||**CDR (Monitoring)** <br/> |**QoE (Monitoring)** <br/> |**Archiving** <br/> |
+|&nbsp;|**CDR (Monitoring)** <br/> |**QoE (Monitoring)** <br/> |**Archiving** <br/> |
 |:-----|:-----|:-----|:-----|
 |Disk space required per user per day  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
 

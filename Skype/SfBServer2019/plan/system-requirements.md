@@ -83,11 +83,8 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 
 After you have the hardware in place, you'll need to the install operating system (OS) that will allow you to install and successfully use Skype for Business Server 2019.
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
 Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019. For example, Server Core option is not listed, and is thus not supported.
 
@@ -195,11 +192,9 @@ When installing Skype for Business Server 2019 Standard Edition, you'll have SQL
 
 Skype for Business Server 2019 Enterprise Edition will require full SQL Server, as indicated below (only 64-bit edition; please don't use 32-bit editions):
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.  <br/> |Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.  <br/> |
-Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.|
- |
+- Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.
+- Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.
+- Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.
 
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   

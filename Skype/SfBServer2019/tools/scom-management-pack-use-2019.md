@@ -119,7 +119,7 @@ Skype for Business Server 2019 Management Packs provide increased coverage for a
   
 **Supported Synthetic Transactions for Registration, Presence, and Contacts**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |1  <br/> |Registration (user login)  <br/> |Available Lync Server 2010 and beyond  <br/> |
 |2  <br/> |Address Book Service (file download)  <br/> |Available Lync Server 2010 and beyond  <br/> |
@@ -129,7 +129,7 @@ Skype for Business Server 2019 Management Packs provide increased coverage for a
    
 **Supported Synthetic Transactions for Peer-to-Peer Services**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |6  <br/> |Peer-to-Peer Instant Messaging  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |7  <br/> |Peer-to-Peer Audio Video  <br/> |Available in Lync Server 2010 and beyond  <br/> |
@@ -140,7 +140,7 @@ Skype for Business Server 2019 Management Packs provide increased coverage for a
   
 **Supported Synthetic Transactions for Conferencing and Persistent Chat**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |9  <br/> |Audio Video Conferencing  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |10  <br/> |Data Conferencing  <br/> |Available in Lync Server 2013 and beyond  <br/> |
@@ -153,7 +153,7 @@ Skype for Business Server 2019 Management Packs provide increased coverage for a
    
 **Supported Synthetic Transactions for Network and Partner Dependencies**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |17  <br/> |AV Edge Connectivity  <br/> |Available in Lync Server 2013 and beyond  <br/> |
 |18  <br/> |AV Edge Connectivity Exchange Unified Message Connectivity (voicemail)  <br/> |Available in Lync Server 2013 and beyond  <br/> |
