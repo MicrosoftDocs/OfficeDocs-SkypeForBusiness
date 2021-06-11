@@ -107,6 +107,28 @@ Please perform these steps:
 - Select the color schema from the drop-down list.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
+  
+## Report to CQD table and field mapping
+
+|Report Name                   |Report Tab         |Table           |
+|:-----------------------------|:------------------|:---------------|
+|Cloud Auto Attendant Analytics|Auto Attendant     |fAutoAttendant  |
+
+
+|Report Section  |Fields Used     |Filters Applied     |
+|:---------------|:---------------|:-------------------|
+|:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::  |AA Name         | |
+|Incoming call source            |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Directory Search Method Totals  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
+|Caller Actions                  |AATransferAction<br>TotalCallCount         |                                                                 |
+|Avg Seconds/Actions             |AAChainDuration<br>AACallerActionCount     |                                                                 |
+|Call results                    |AACallResult<br>TotalCallCount             |                                                                 |
+|Caller actions count            |AACallerActionCount<br>TotalCallCount      |                                                                 |
+|Lower part                      |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |                    |
+
+
+
+
 
 ## CQD fields description
 
