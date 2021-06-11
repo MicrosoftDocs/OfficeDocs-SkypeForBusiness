@@ -23,7 +23,7 @@ If you have a work or school account, your organization's admin may have provide
 If your admin has given you the ability to use optional connected experiences in Teams, you can go to **Settings** > **Privacy** in Teams and choose whether you want to use optional connected experiences.
 
 > [!NOTE]
-> If you're an admin, you can give or restrict your users' ability to use optional connected experiences. You can do this by using the [Office cloud policy service](/deployoffice/overview-office-cloud-policy-service) and configuring the *Allow the use of additional optional connected experiences in Office* policy setting. 
+> If you're an admin, you can give or restrict your users' ability to use optional connected experiences. You can do this by using the [Office cloud policy service](/deployoffice/overview-office-cloud-policy-service) and configuring the *Allow the use of additional optional connected experiences in Office* policy setting. This is the same policy setting that controls whether optional connected experiences are available to your users in the Office apps (such as Word, Excel, and PowerPoint) that come with Microsoft 365 Apps for enterprise.
 
 ## GIPHY
 
