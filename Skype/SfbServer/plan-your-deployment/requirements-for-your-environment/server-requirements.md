@@ -63,11 +63,17 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, Video Inter
 
 Once you have the hardware in place, you'll need to install operating systems (OS). These are the OS that will allow you to install and successfully use Skype for Business Server 2015.
   
-|&nbsp;|&nbsp;|
-|:-----|:-----|
-|Windows Server 2019 (You need Skype for Business Cumulative Update 9 or later). <br/> |Windows Server 2016 (You need Skype for Business Cumulative Update 5 or later. For more information check [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
-|Windows Server 2012 R2 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 R2 Standard OS with all required updates installed.  <br/> |
-|Windows Server 2012 Datacenter OS with all required updates installed.  <br/> |Windows Server 2012 Standard OS with all required updates installed.  <br/> |
+- Windows Server 2019 (You need Skype for Business Cumulative Update 9 or later).
+
+- Windows Server 2016 (You need Skype for Business Cumulative Update 5 or later. For more information check [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  
+
+- Windows Server 2012 R2 Datacenter OS with all required updates installed.
+
+- Windows Server 2012 R2 Standard OS with all required updates installed.
+
+- Windows Server 2012 Datacenter OS with all required updates installed.
+
+- Windows Server 2012 Standard OS with all required updates installed.
    
 If it's not on this list, it won't work properly, please don't try it for new installations of Skype for Business Server 2015.
 
