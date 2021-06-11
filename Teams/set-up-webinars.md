@@ -27,7 +27,7 @@ This article will help you set up your organization to host webinars.
 
 ## What are webinars?
 
-Webinars are structured meetings where instructors and participants have clear roles, often used for training purposes or sales and marketing lead generation scenarios.
+Webinars are structured meetings where presenters and participants have clear roles, often used for training purposes or sales and marketing lead generation scenarios.
 
 After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
