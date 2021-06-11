@@ -23,12 +23,18 @@ appliesto:
 
 Each user that needs to use Microsoft 365 Business Voice needs to be assigned licenses for Business Voice.
 
+The following video shows you how to complete these steps in the Microsoft 365 admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
+
 1. Open the Microsoft 365 admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 1. In the left navigation pane, go to <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**Billing** > **Licenses**</a>.
 1. Select **Microsoft 365 Business Voice**.
 1. On the product details page, select **Assign licenses**.
 1. In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list. You can add up to 20 users at a time.
 1. When you're finished, select **Assign**, then select **Close**.
+
+
 
 > [!div class="nextstepaction"]
 > [Next step: Set up Teams resource account](set-up-resource-account.md)
