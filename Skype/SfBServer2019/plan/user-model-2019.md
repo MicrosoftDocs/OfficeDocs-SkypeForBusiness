@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
-description: "The topics in this section help you understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate."
+description: "Understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate."
 ---
 
 # Capacity Planning for Skype for Business Server 2019
