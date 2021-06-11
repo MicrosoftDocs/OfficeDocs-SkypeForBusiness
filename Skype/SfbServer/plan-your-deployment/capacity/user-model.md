@@ -162,7 +162,7 @@ If you deploy Monitoring or Archiving, the front end functionality of these serv
 
 The following table indicates approximately how much database storage is required per user per day for Monitoring and Archiving data.
 
-||**CDR (Monitoring)** <br/> |**QoE (Monitoring)** <br/> |**Archiving** <br/> |
+|&nbsp;|**CDR (Monitoring)** <br/> |**QoE (Monitoring)** <br/> |**Archiving** <br/> |
 |:-----|:-----|:-----|:-----|
 |Disk space required per user per day  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
 

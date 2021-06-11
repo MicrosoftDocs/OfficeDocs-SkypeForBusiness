@@ -88,7 +88,7 @@ If you are integrating Skype for Business Server with Exchange Online, your next
 
 The following table details the features supported under various combinations of online or on premises for Exchange and Skype for Business.
   
-||**Exchange 2016/2013/2010 (on premises) + Skype for Business Server (on premises)**|**Exchange Online + Skype for Business Server (on premises)**|**Exchange 2010 (on premises) + Skype for Business Online**|**Exchange 2016/2013(on premises) + Skype for Business Online**|**Exchange Online + Skype for Business Online**|
+|&nbsp;|**Exchange 2016/2013/2010 (on premises) + Skype for Business Server (on premises)**|**Exchange Online + Skype for Business Server (on premises)**|**Exchange 2010 (on premises) + Skype for Business Online**|**Exchange 2016/2013(on premises) + Skype for Business Online**|**Exchange Online + Skype for Business Online**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Presence in Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |Respond via IM, PSTN Call, Skype Call or Video Call from an Outlook email  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |

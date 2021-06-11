@@ -46,13 +46,11 @@ Use the following sample table to determine the number of users you will be able
   
 **Persistent Chat Server pool maximum capacity sample**
 
-|||
-|:-----|:-----|
-|Active Persistent Chat service instances  <br/> |4  <br/> |
-|Persistent Chat service instances  <br/> |8 (only a maximum of 4 can be active; 4 must be inactive)  <br/> |
-|Active users connected  <br/> |80,000  <br/> |
-|Total provisioned users  <br/> |150,000  <br/> |
-|Number of endpoints  <br/> |120,000  <br/> |
+- Active Persistent Chat service instances:  4  <br/> 
+- Persistent Chat service instances: 8 (a maximum of 4 can be active; 4 must be inactive)  <br/>
+- Active users connected: 80,000  <br/>
+- Total provisioned users: 150,000  <br/>
+- Number of endpoints: 120,000  <br/>
    
 In the preceding sample, the plan is to support the maximum number of users that Persistent Chat Server allows: four servers/instances of the Persistent Chat service (can have four more passive servers running Persistent Chat Server for high availability and disaster recovery) and 20,000 users per server, for a total of 80,000 active users.
   
@@ -62,7 +60,7 @@ The following sample table can help you plan for managing chat room access in a 
   
 **Managing chat room access sample**
 
-||**Small Chat Rooms**|**Medium Chat Rooms**|**Large Chat Rooms**|**Total**|
+|&nbsp;|**Small Chat Rooms**|**Medium Chat Rooms**|**Large Chat Rooms**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Size of chat rooms (number of users connected)  <br/> |30 per room  <br/> |150 per room  <br/> |16,000 per room  <br/> ||
 |Chat rooms  <br/> |32,000  <br/> |1,067  <br/> |10  <br/> |33,077  <br/> |
@@ -119,7 +117,7 @@ The sample data in the following table assumes that, on the **Chat room settings
   
 **Chat room access by invitation sample**
 
-||**Small Chat Rooms**|**Medium Chat Rooms**|**Large Chat Rooms**|**Total**|
+|&nbsp;|**Small Chat Rooms**|**Medium Chat Rooms**|**Large Chat Rooms**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Users who can access chat room  <br/> |30 per room  <br/> |150 per room  <br/> |16,000 per room  <br/> ||
 |Percentage of rooms that have invitations  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
@@ -141,39 +139,37 @@ The following table describes the user model for Persistent Chat Server. It prov
   
 **Persistent Chat Server performance user model**
 
-|||
-|:-----|:-----|
-|Number of active users connected  <br/> |80,000  <br/> |
-|Number of Persistent Chat Server service instances  <br/> |4  <br/> |
-|Size of small chat rooms  <br/> |30 users  <br/> |
-|Size of medium chat rooms  <br/> |150 users  <br/> |
-|Size of large chat rooms  <br/> |16,000 users  <br/> |
-|Total number of chat rooms  <br/> |33,077  <br/> |
-|Number of small chat rooms  <br/> |32,000  <br/> |
-|Number of medium chat rooms  <br/> |1,067  <br/> |
-|Number of large chat rooms  <br/> |10  <br/> |
-|Total number of chat rooms per user  <br/> |16  <br/> |
-|Number of small chat rooms per user  <br/> |12  <br/> |
-|Number of medium chat rooms per user  <br/> |2  <br/> |
-|Number of large chat rooms per user  <br/> |2  <br/> |
-|Number of rooms joined per user  <br/> |24  <br/> |
-|Peak join rate  <br/> |10/second  <br/> |
-|Total chat rate  <br/> |24/second  <br/> |
-|Chat rate for small chat rooms  <br/> |22.22/second  <br/> |
-|Chat rate for medium chat rooms  <br/> |1.67/second  <br/> |
-|Chat rate for large chat rooms  <br/> |~0.15/second  <br/> |
-|Percentage of chat rooms configured for invitations  <br/> |50%  <br/> |
-|Percentage of direct memberships  <br/> |50%  <br/> |
-|Percentage of group memberships  <br/> |50%  <br/> |
-|Average number of ancestor affiliations in Active Directory Domain Services  <br/> |100 - 200  <br/> |
-|Number of subscribed contacts per user  <br/> |80  <br/> |
-|Average number of endpoints per user  <br/> |1.5  <br/> |
-|Average number of visible chat rooms per endpoint  <br/> |1.5  <br/> |
-|Average number of visible chat rooms per user  <br/> |2.25 (50% for 1 room and 50% for 2 rooms); Up to 6 rooms open, one per monitor  <br/> |
-|Number of participants polled per interval  <br/> |25 per visible chat room  <br/> |
-|Length of polling interval  <br/> |5 minutes  <br/> |
-|Number of participants polled per second  <br/> |15,000  <br/> |
-|Number of presence changes per hour per user  <br/> |6  <br/> |
-|Number of presence changes per second  <br/> |133.33  <br/> |
+- Number of active users connected: 80,000  <br/>
+- Number of Persistent Chat Server service instances: 4  <br/>
+- Size of small chat rooms: 30 users  <br/> 
+- Size of medium chat rooms: 150 users  <br/>
+- Size of large chat rooms: 16,000 users  <br/>
+- Total number of chat rooms: 33,077  <br/> 
+- Number of small chat rooms: 32,000  <br/> 
+- Number of medium chat rooms: 1,067  <br/> 
+- Number of large chat rooms: 10  <br/> 
+- Total number of chat rooms per user: 16  <br/> 
+- Number of small chat rooms per user: 12  <br/> 
+- Number of medium chat rooms per user: 2  <br/> 
+- Number of large chat rooms per user: 2  <br/> 
+- Number of rooms joined per user: 24  <br/>
+- Peak join rate: 10/second  <br/> 
+- Total chat rate: 24/second  <br/> 
+- Chat rate for small chat rooms: 22.22/second  <br/> 
+- Chat rate for medium chat rooms: 1.67/second  <br/> 
+- Chat rate for large chat rooms: ~0.15/second  <br/> 
+- Percentage of chat rooms configured for invitations: 50%  <br/>
+- Percentage of direct memberships: 50%  <br/>
+- Percentage of group memberships: 50%  <br/> 
+- Average number of ancestor affiliations in Active Directory Domain Services: 100 - 200  <br/>
+- Number of subscribed contacts per user: 80  <br/> 
+- Average number of endpoints per user: 1.5  <br/> 
+- Average number of visible chat rooms per endpoint: 1.5  <br/> 
+- Average number of visible chat rooms per user: 2.25 (50% for 1 room and 50% for 2 rooms); Up to 6 rooms open, one per monitor  <br/> 
+- Number of participants polled per interval: 25 per visible chat room  <br/> 
+- Length of polling interval: 5 minutes  <br/> 
+- Number of participants polled per second: 15,000  <br/>
+- Number of presence changes per hour per user: 6  <br/> 
+- Number of presence changes per second: 133.33  
    
 
