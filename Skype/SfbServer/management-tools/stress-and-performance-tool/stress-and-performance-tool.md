@@ -37,7 +37,7 @@ You would typically use this tool after you use the [Skype for Business Server 2
 
 The Stress and Performance Tool can simulate these types of user load:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Instant Messaging (IM) and presence  <br/> |Audio conferencing  <br/> |
 |Application sharing  <br/> |Voice over IP (VoIP), including public switched telephone network (PTSN) simulation  <br/> |
