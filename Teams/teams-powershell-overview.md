@@ -17,38 +17,24 @@ appliesto:
 
 # Microsoft Teams PowerShell Overview
 
-Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line. Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows, PowerShell 6.x and higher on all platforms including Azure Cloud Shell.
+Microsoft Teams PowerShell module is a set of cmdlets for managing Teams directly from the PowerShell command line. PowerShell provides powerful features for automation that can be leveraged for managing your Teams workload.  
 
-Before you can start using PowerShell, you'll need to [install it](teams-powershell-install.md). 
+You can use the Microsoft Teams PowerShell module with one of the following methods: 
 
-> [!WARNING]
-> There are known issues with PowerShell 7 and Teams PowerShell. We recommend using PowerShell 5.1 until the issues are resolved.
-
-## Releases
+- Install the Microsoft Teams PowerShell module via [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) (recommended option). 
+- Install the Microsoft Teams PowerShell module with [Manual Download](https://www.powershellgallery.com/packages/MicrosoftTeams). 
 
 
-Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) in two release types.
+# Features 
 
-- **General Availability (GA)**: Production-ready cmdlets, updated monthly.
+The Microsoft Teams PowerShell module includes the following features: 
 
-- **Public Preview**: Early access to features. May be updated more frequently than GA.
+- Uses a single module to manage all aspects of Teams administration including users, teams, policies and configuration.  
+- Supports authentication mechanisms such as access tokens and credentials. 
 
-For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).
+# Data collection 
 
-
-## Manage Teams with PowerShell
-
-You'll use Teams PowerShell modules to fully manage Teams:
-
-- [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/): The Teams PowerShell module contains cmdlets for managing teams, chat, and channels.
-
-> [!NOTE]
-> The [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) version 2.0 or higher includes all  Skype for Business Online Connector cmdlets, providing a single module for Teams PowerShell management.
-
-- [Skype for Business PowerShell Connector](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): The Skype for Business PowerShell connector is now a part of Teams PowerShell module.
-
-For a complete guide to managing Teams using these modules, please see [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md).
-
+Microsoft Teams PowerShell module default settings collect telemetry data. Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience. Microsoft Teams PowerShell module does not collect any private or personal data.  
 
 ## Related topics
 
