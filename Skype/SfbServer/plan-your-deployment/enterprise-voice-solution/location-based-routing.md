@@ -234,7 +234,7 @@ The following table identifies the clients that Location-Based Routing supports.
 |Lync Mobile 2010  <br/> |yes  <br/> ||
 
 > [!NOTE]
-> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy).
 
 ## Capabilities not supported by Location-Based Routing
 
