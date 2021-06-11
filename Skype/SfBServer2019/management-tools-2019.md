@@ -23,7 +23,7 @@ Skype for Business Server 2019 offers instant messaging (IM), presence, conferen
   
 ## Skype for Business Server 2019 Tools
 
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![dashboard icon](../SfbServer/media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Call Quality Dashboard](../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md) <br/> |The Call Quality Dashboard (CQD) is a web portal for quickly creating and organizing reports based on Quality of Experience (QoE) data from your Skype for Business environment. The CQD deploys a SSAS cube to aggregate the data in the QoEMetrics database, which enables users to create and modify reports and see them update in real-time. Additionally, CQD exposes web APIs that give users programmatic access to the cube data for use in custom dashboards.  <br/> |
 |![icon for KHI](../SfbServer/media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[KHI Resources](https://www.microsoft.com/download/details.aspx?id=57519) <br/> |Key Health Indicators (KHI) are Performance Counters with recommended thresholds aimed at revealing problems that can impact the user experience. The KHI Guide outlines the operational process and remediation steps to maintain a healthy deployment, and includes a sample PowerShell script used to configure KHI Data Collectors and an Analysis and Definitions Workbook which can analyze KHI performance data.  <br/> |

@@ -15,7 +15,7 @@ ms.collection: IT_Skype16
 description: "Summary: Install the Operations Manager agent files on the Skype for Business Server 2019 computer to be monitored, and configure the computer to act as a System Center proxy."
 ---
 
-# Configure the Skype for Business Server computers that will be monitored
+# Skype for Business Server 2019: Configure the server computers that will be monitored
 
 **Summary:** Install the Operations Manager agent files on the Skype for Business Server 2019 computer to be monitored, and configure the computer to act as a System Center proxy.
 

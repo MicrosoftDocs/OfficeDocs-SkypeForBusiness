@@ -31,7 +31,7 @@ Writers update articles on a continuing basis as new information becomes availab
 
 The following articles about how to install and configure Skype for Business Server are available to view online. 
   
-||Content|Description|
+|&nbsp;|Content|Description|
 |:-----|:-----|:-----|
 |![Icon for documentation](/office/media/icons/paragraph-writing-blue.svg)|[System requirements for Skype for Business Server 2019](../plan/system-requirements.md)  <br/> |Learn about server and environmental requirements for Skype for Business Server.  <br/> |
 |![Icon for documentation](/office/media/icons/paragraph-writing-blue.svg)|[Topology Basics for Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Learn about topology options and server collocation scenarios for Skype for Business Server.  <br/> |
@@ -47,7 +47,7 @@ The following articles about how to install and configure Skype for Business Ser
 
 The following resources about how to plan for Skype for Business Server are available from other subject matter experts. 
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:-----|:-----|:-----|
 |![Icon for Docs](/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server for IT pros](../../Hub/index.yml) <br/> |Visit the resource center to access videos, community sites, documentation, downloads, and more.|
 |![Icon for developer content](/office/media/icons/developer-blue.svg)|[Skype Developer Platform](/skype-sdk/skypedeveloperplatform) <br/> |Find developer resources for Skype for Business Server, including code samples, training, and SDKs.  <br/> |

@@ -31,7 +31,7 @@ Writers update articles on a continuing basis as new information becomes availab
 
 View the following resources for information about how to plan for your Skype for Business Server deployment.
   
-||Content|Description|
+|&nbsp;|Content|Description|
 |:--- |:--- |:--- |
 |![Icon for videos](../media/get_started.png)|<UL><LI>[Skype for Business: A quick introduction](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [Skype for Business: Step-by-step guide for new users](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |Discover video presentations and training for Skype for Business.    |
    
