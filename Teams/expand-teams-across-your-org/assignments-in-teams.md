@@ -103,3 +103,10 @@ Copy the API key and paste it into the Microsoft Teams admin center.  This is th
 ![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
 
 Upon clicking the **Save** button in the admin center for this setting, allow a few hours for these settings to take effect.
+
+### Removing Assignments and Grades
+You can use Teams policies to remove Assignments and Grades for a specific user or for your entire tenant. 
+
+To remove Assignments and Grades for an individual user go to **Teams Admin Center**, navigate to **Teams apps > Permission policies** to create a new app permission policy definition.  When creating the new policy definition set the **Microsoft apps** policy to _Block specific apps and allow all others_ and add **Assignments** to the list of blocked applications. Once your new policy definition is saved, assign it to the appropriate users.
+
+To remove Assignments and Grades for your entire tenant go to **Teams Admin Center**, navigate to **Teams apps > Manage apps**, search for and select **Assignments** from the application list. Change the status setting within the Assignment application settings page to _Blocked_. 
