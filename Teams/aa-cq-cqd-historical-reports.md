@@ -60,11 +60,17 @@ Please perform these steps:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region":::
 
- - You can see the region using the Skype for Business Online PowerShell cmdlet (Get-CsTenant).ServiceInstance output. 
- The region will be displayed after the / like in this example:
+- The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant.md) cmdlet.
 
-   microsoftcommunicationsonline/noam-4a-s7 where the region is noam.
- 
+    ```PowerShell
+    (Get-CsTenant).ServiceInstance
+
+
+    microsoftcommunicationsonline/noam-4a-s7
+    ```
+
+    - The region will be displayed after the **/** like in the above example where there region is noam.
+
  - The report will launch with sample data.
  
  - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
@@ -103,6 +109,10 @@ Please perform these steps:
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
 
 ## CQD fields description
+
+|Report          |Table
+|:---------------|:---------------|
+|Auto Attendant  |fAutoAttendant  |
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
