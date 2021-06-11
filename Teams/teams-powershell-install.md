@@ -67,7 +67,7 @@ In some environments, it's not possible to connect to the PowerShell Gallery. In
 
 ## Sign in
 
-To start working with Teams PowerShell, sign in with your Azure credentials.
+To start working with Microsoft Teams PowerShell module, sign in with your Azure credentials.
 
 ```PowerShell
 Connect-MicrosoftTeams 
