@@ -1,7 +1,7 @@
 ---
-title: Quick start - Meetings, live events, and webinars in Microsoft Teams
+title: Quick start - Meetings in Microsoft Teams
 ms.reviewer: 
-description: A quick start guide for administrators to get licenses for, roll out, and configure online meetings and live events in Microsoft Teams.
+description: A quick start guide for administrators to get licenses for, roll out, and configure  meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
 author: CarolynRowe
 ms.author: crowe
@@ -23,7 +23,7 @@ appliesto:
 ---
 
 
-# Quick start - Meetings, webinars, and live events in Microsoft Teams
+# Quick start - Meetings in Microsoft Teams
 
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events. 
 
@@ -32,11 +32,13 @@ This article for administrators briefly describes the differences in types of me
 > [!Note]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## Types of meetings
+## Meetings, webinars, and live events
 
-Meetings, webinars, and live events are all types of meetings, but webinars and live events are a type of structured meeting that provide additional control for the organizer over the conversation and participants. While webinars provide for more participant interaction than live events, both have limited interaction compared to an unstructured meeting. The different types of meetings also have different participant limits and participant capabilities.
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events are a type of structured meeting that provide additional control for the organizer over the conversation and participants. 
 
-The following table briefly summarizes the three types of events, the number of recommended participants, and how participants can interact in the event.
+While webinars provide for more participant interaction than live events, both have limited interaction compared to an unstructured meeting. The different types of meetings also have different participant limits and participant capabilities.
+
+The following table briefly summarizes the three types of events, the number of recommended participants, and how participants can interact in the event. More information about each type of meeting follow the table.
 
  | Type of event | Number of participants | Interaction | Registration required |
 |----------|--------|--------|-----|
@@ -46,7 +48,7 @@ The following table briefly summarizes the three types of events, the number of 
 ||||
 
 *The usual 10,000 is increased to 20,000 during COVID.<br>
-**The usual 10,000 has increased to 20,000 during COVID. Note that you can schedule even greater numbers with Live Events through Yammer and/or Microsoft Stream. For more information, see...  
+**The usual 10,000 is increased to 20,000 during COVID. Note that you can schedule even greater numbers with Live Events through Yammer and/or Microsoft Stream. For more information, see...  
 
 ### Meetings
 
@@ -63,17 +65,19 @@ Don't forget about [managing your users' devices](./devices/device-management.md
 
 ### Webinars
 
-**Webinars** are structured meetings where presenters and participants have clear roles, often used for training purposes or sales and marketing presentation scenarios. A key difference is that webinars require registration. After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md). With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.
+**Webinars** are structured meetings where presenters and participants have clear roles. Webinars are often used for training purposes or sales and marketing presentation scenarios. A key difference is that webinars require registration.
+
+After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md). With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.
 
 ### Live events
 
-**Live events** are structured meetings that enable you to schedule and produce events that stream to large online audiences - up to 20,000 people. If you need a meeting with broadcast capabilities only for more than 1000 people, use a live event. With live events, audience participation is limited to posting questions.
-
-As the administrator, you [configure live events](teams-live-events/configure-teams-live-events.md) for everyone. You then set up (and assign) [live event policies](teams-live-events/set-up-for-teams-live-events.md) to control what your users can (and can't) do.
-
-Make sure your live event producers and organizers are trained - send them to [Get started with live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a).
+**Live events** are structured meetings that enable your organizatiaon to schedule and produce events that stream to large online audiences - up to 20,000 people. If you need a meeting with broadcast capabilities only for more than 1000 people, use a live event. With live events, audience participation is limited to posting questions.
 
 If you're new to live events, for more information, see [What are Teams live events?](teams-live-events/what-are-teams-live-events.md) and [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md).
+
+As the administrator, you [configure live events](teams-live-events/configure-teams-live-events.md) for everyone. You then set up and assign [live event policies](teams-live-events/set-up-for-teams-live-events.md) to control what your users can and can't do.
+
+Make sure your live event producers and organizers are trained. For training, your users should see  [Get started with live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a).
 
 
 ## License requirements for meetings, webinars, and live events
