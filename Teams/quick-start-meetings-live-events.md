@@ -40,9 +40,9 @@ While webinars provide for more participant interaction than live events, both h
 
 The following table briefly summarizes the three types of events, the number of recommended participants, and how participants can interact in the event. More information about each type of meeting follow the table.
 
- | Type of event | Number of participants | Interaction | Registration required |
+ | Type of event | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings | Up to 1000 | Interactive chat with multiple presenters | No |
+| Meetings (unstructured) | Up to 1000 | Interactive chat with multiple presenters | No |
 | Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience nteraction configurable, but limited| Yes |
 | Live events | 1001 to 20,000** |- Broadcast to large audiences <br>- Audience interaction limited to posting questions | No |
 ||||
