@@ -17,8 +17,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Create a change management strategy for Microsoft Teams
-=======================================================
+# Create a change management strategy for Microsoft Teams
 
 A change management strategy for end-user awareness and adoption of new technologies is critical to the successful rollout of any new technology in an organization. Successful completion of this effort will ensure user adoption and satisfaction of the new experience.  The steps identified below can be altered depending on the size of your organization but ensure a sustained level of communication with stakeholders, champions, IT adminstrators, and users is key to landing a successful change.  
 
@@ -48,8 +47,7 @@ Best practices for change management for Teams:
 
 7.  Adjust your messaging and methods based on feedback, repeat.
 
-Identify key stakeholders, champions, and user profiles
------------------------------------------------
+## Identify key stakeholders, champions, and user profiles
 
 The first rule of a successful adoption is to create a dynamic team comprised of key stakeholders and the right people that can drive and effect change in others. A successful adoption strategy starts with a team of committed individuals representing a cross-section of your organization. Key stakeholder roles include an Executive Sponsor, Service Owners, IT professionals, and Champions.
 
@@ -67,15 +65,13 @@ We recommend a regular meeting of these stakeholders to keep them up to date on 
 > [!TIP]
 > Those people who may be the biggest obstacles to change can become your best allies in a deployment of this kind. We encourage you to engage with these members of your organization early and often to hear their concerns and issues. Often, they have valuable feedback that will make your campaign more successful.
 
-User profiles
--------------
+### User profiles
 
 It is equally important to understand the types of users in your environment. Do you have users who are primarily mobile? Some who are in constant meetings or giving presentations? Do you know which of your users have the most difficulty with your existing collaboration solutions? Segmenting your user community can help you find groups that are most open to change. They are often the best targets for your early business pilots and their feedback is extremely valuable.
 
 Understanding the day in the life of your users will help you to prioritize your business outcomes, design adoption goals appropriate for your deployment and sustain usage over time.
 
-Champions
----------
+### Champions
 
 Identifying the individuals who can become your collaboration champions provides you with an extended support team for your implementation. Create a community by providing them early insight and feedback to your plans. Any investment you make in this community whether it be time, attention or rewards will be returned to your implementation through their support and evangelism.
 
@@ -83,8 +79,7 @@ Identifying the individuals who can become your collaboration champions provides
 
 To learn about building a champion program, get [Build a champion program](https://go.microsoft.com/fwlink/?linkid=854665).
 
-Identify and select your business scenarios
----------------------------------------------------------------
+## Identify and select your business scenarios
 
 Once you have identified your key stakeholders and user segments, identifying your business scenarios will be that much easier. Here are a few examples of business outcomes:
 
@@ -102,8 +97,7 @@ It's also wise to consider the users who are embedded in these scenarios. Are th
 
 Technology projects become challenged when little or no attention is paid to the human change management requirements. By following these recommendations, you will enhance your chances for success!
 
-Design, launch, and manage your adoption campaign
--------------------------------------------------
+## Design, launch, and manage your adoption campaign
 
 For both your initial pilots and your eventual company-wide roll out, your internal communications should be a priority. They include:
 
@@ -137,8 +131,7 @@ As with any communications & adoption campaign you will want to identify your su
 
 -   Attendance at learning events
 
-Measure and share success
--------------------------------------------------
+## Measure and share success
 
 On your project team should be IT administrators from your organization. These individuals will have access to the Microsoft 365 or Office 365 Microsoft Teams usage reports that are built into the Microsoft 365 admin center experience. This information can show the usage of Microsoft Teams in your company. We also recommend getting feedback directly from your users about their experience of Teams and additional ideas they have for use. Sharing these real world examples from within your own company is extremely valuable to landing sustained change over time with your user community.  
 
