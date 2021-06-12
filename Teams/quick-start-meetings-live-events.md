@@ -42,9 +42,9 @@ The following table briefly summarizes the three types of events, the number of 
 
  | Type of event | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings (unstructured) | Up to 1000 | Interactive chat with multiple presenters | No |
-| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience nteraction configurable, but limited| Yes |
-| Live events | 1001 to 20,000** |- Broadcast to large audiences <br>- Audience interaction limited to posting questions | No |
+| Meetings (unstructured) | Up to 1000 | Interactive chat with multiple presenters; all participants have equal meeting capabilities | No |
+| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience interaction configurable, but limited <br> - Can specify presenters | Yes |
+| Live events | 1001 to 20,000** |- Broadcast to large audiences <br>- Audience interaction limited to posting questions <br> - Can specify presenters| No |
 ||||
 
 *The usual 10,000 is increased to 20,000 during COVID.<br>
