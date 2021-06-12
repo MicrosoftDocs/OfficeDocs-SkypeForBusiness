@@ -43,7 +43,7 @@ The following table briefly summarizes the three types of events, the number of 
  | Type of event | Number of participants | Interaction | Registration required |
 |----------|--------|--------|-----|
 | Meetings | Up to 1000 | Interactive chat with multiple presenters | No |
-| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Interaction configurable, but limited| Yes |
+| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience nteraction configurable, but limited| Yes |
 | Live events | 1001 to 20,000** |- Broadcast to large audiences <br>- Audience interaction limited to posting questions | No |
 ||||
 
@@ -54,7 +54,7 @@ The following table briefly summarizes the three types of events, the number of 
 
 **Meetings** in Teams include audio, video, and screen sharing for up to 1000 people. They're one of the key ways to collaborate in Teams. And participants don't need to be a member of an organization (or even have a Teams account) to join a Teams meeting--all they need to do is look in the invitation for instructions about calling in.
 
-As the administrator, you'll configure [meeting settings](meeting-settings-in-teams.md) for everyone. Then you'll use [meeting policies](meeting-policies-in-teams.md) to control what meeting features are (and aren't) available for your users.
+As the administrator, you'll configure [meeting settings](meeting-settings-in-teams.md) for everyone. Then you'll use [meeting policies](meeting-policies-in-teams.md) to control what meeting features are and aren't available for your users.
 
 To learn about managing meeting recording, read [Teams cloud meeting recording](cloud-recording.md).
 
@@ -65,9 +65,9 @@ Don't forget about [managing your users' devices](./devices/device-management.md
 
 ### Webinars
 
-**Webinars** are structured meetings where presenters and participants have clear roles. Webinars are often used for training purposes or sales and marketing presentation scenarios. A key difference is that webinars require registration.
+**Webinars** are structured meetings where presenters and participants have clear roles. Webinars are often used for training purposes or sales and marketing presentation scenarios. A key difference is that webinars support registration.
 
-After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md). With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.
+After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md). With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.   **IS THE LAST SENTENCE TRUE?**
 
 ### Live events
 
@@ -98,7 +98,7 @@ Meeting audio is part of a Teams meeting, but if you want people to be able to d
 | Create a Teams meeting | An F3, E1, E3, or E5 license |  |
 | Create a Teams meeting with dial-in phone number | An F3, E1, E3, or E5 license plus Audio Conferencing add-on license<sup>1</sup>
 | Create a Teams live event | E1, E3, E5 license | |
-| Create a Teams webinar | | 
+| Create a Teams webinar | **SAME AS CREATE A TEAMS MEETING??** | 
 | Dial out from a meeting to add someone at their **Call me at** number | An F3, E1, E3, or E5 license plus Audio Conferencing add-on license<sup>2</sup> | | 
 |||
 
