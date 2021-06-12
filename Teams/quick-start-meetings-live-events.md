@@ -25,9 +25,9 @@ appliesto:
 
 # Quick start - Meetings in Microsoft Teams
 
-There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events. 
+There are multiple ways to meet in Microsoft Teams: unstructured meetings, webinars, and live events. 
 
-This article for administrators briefly describes the differences in types of meetings and how to quickly roll out and configure meetings, webinars, and live events for your organization.
+This article for administrators briefly describes the differences in types of meetings--unstructured, webinars, and live events--and how to quickly roll out and configure meetings and events for your organization.
 
 > [!Note]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
