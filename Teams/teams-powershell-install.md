@@ -50,7 +50,7 @@ Microsoft Teams PowerShell module is currently supported for use with PowerShell
 
 - Update to [Windows PowerShell 5.1](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell). If you're on Windows 10 version 1607 or higher, you already have PowerShell 5.1 installed. 
 - Install [.NET Framework 4.7.2](/dotnet/framework/install) or later. 
-- Run the following command to install latest PowerShellGet:
+- Run the following command to install the latest PowerShellGet:
  
 ```powershell
 Install-Module -Name PowerShellGet -Force -AllowClobber
