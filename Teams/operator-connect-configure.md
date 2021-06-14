@@ -57,7 +57,7 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
 >[!IMPORTANT]
->**Emergency addresses:** Your operator will associate the acquired numbers with an emergency address created by you in Teams Admin Center and manage them directly. Please contact the operator to make any changes.
+>**Emergency addresses:** When you create an emergency address in the Teams admin center, your operator will assign an acquired number to it. Please contact the operator to make any changes.
 
 ### Acquire numbers for new Teams users
 
