@@ -47,17 +47,13 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Always record               | Disabled and selected                                | Enabled and selected         |
 | Organizer can record or not | Enabled and selected by default                  | Enabled and selected by default   |
-| Never record               | Disabled and not selected                            | Enabled and not selected      |
-
-When the policy is set to **Always record**, the policy page has the following selected options:
-
-![live events policy settings](../media/live-event-recording-policy.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+| Never record               | Disabled and not selected                            | Disabled and not selected      |
 
 ## Storage and persistence behavior
 
 | Option                                       | State   | DVR                                                   | VOD                                                     | Recording                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Recording available to producers and presenters | Selected     | DVR is available and the Azure Media Services (AMS) asset is stored for 180 days | Attendee can access and watch the event                     |                              |
+| Recording available for attendees | Selected     | DVR is available and the Azure Media Services (AMS) asset is stored for 180 days | Attendee can access and watch the event                     |                              |
 |                                                  | Not Selected | DVR is available and the AMS asset is stored for 180 days | Attendee won't get access into the event after it's over |                              |
 ||Disabled (Not selected)|DVR is available and the AMS asset is deleted after the event|Attendee won't get access into the event after it's over||
 | Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored |

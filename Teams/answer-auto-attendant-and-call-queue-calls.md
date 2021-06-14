@@ -21,8 +21,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Answer auto attendant and call queue calls directly from Teams
-===========================================================
+# Answer auto attendant and call queue calls directly from Teams
 
 Teams users can receive and answer calls from Cloud auto attendants and call queues directly from their Teams client.
 

@@ -22,6 +22,8 @@ description: "Use Windows PowerShell and the Get-CsTenant and Get-CsTenantLicens
 ---
 
 # Manage Skype for Business Online organizations
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
 > The latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.
 

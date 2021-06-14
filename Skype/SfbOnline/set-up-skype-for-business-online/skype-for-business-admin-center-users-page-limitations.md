@@ -25,6 +25,8 @@ description: "Learn how to work within the limitations of Skype for Business Onl
 
 # Skype for Business Online admin center users page limitations
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 For performance reasons the **Skype for Business admin center**displays the first 1,000 users in your user list. If you have more than 1,000 users, use **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.
   
 ## Bulk editing

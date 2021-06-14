@@ -25,6 +25,8 @@ description: "This is content that must be published to meet requirements for ac
 
 # Accessibility Declaration of Conformance for Skype for Business Online in France
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > **Date: 2 octobre 2016**
 > 
 > **Nom du produit: Skype Entreprise 2016**

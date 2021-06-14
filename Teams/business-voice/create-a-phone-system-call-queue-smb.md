@@ -21,11 +21,11 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-description: Learn how to set up call queues with Microsoft 365 Business Voice.
+description: Learn how to set up call queues for small businesses in Microsoft 365 Business Voice.
 ---
 # Create a call queue - small business tutorial
 
-Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
 
 Call queues provide:
 
@@ -36,6 +36,12 @@ Call queues provide:
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 
 - Handling options for queue overflow and timeout.
+
+#### Video demonstration
+
+This video demonstrates how to create a call queue in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### Before you begin
 
@@ -98,9 +104,9 @@ You can create a resource account in the Teams admin center.
 
 4. Click **Save**.
 
-The new account will appear in the list of accounts.
+   The new account will appear in the list of accounts.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+   ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
 
 ### Assign a license
 
@@ -124,17 +130,21 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.
 
+3. (Optional) Under **Assign calling ID**, click **Add**, search for the resource accounts that you created for your auto attendant, click **Add**, and then click **Add**. This will give your call agents the caller ID of your main line when they call out.
+
+    ![Screenshot of calling ID settings](../media/call-queue-assign-calling-id.png)
+
 3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-    ![Screenshot of resource account and language settings](../media/call-queue-name-language.png)
+    ![Screenshot of resource account settings](../media/call-queue-name-language.png)
 
 4. Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
 5. Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
-> [!NOTE]
-> The uploaded recording can be no larger than 5 MB.
-> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
+   > [!NOTE]
+   > The uploaded recording can be no larger than 5 MB.
+   > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
 > [!div class="nextstepaction"]
 > [Step 3 - Call agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)

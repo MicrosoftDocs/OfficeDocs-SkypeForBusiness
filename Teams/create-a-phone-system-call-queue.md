@@ -23,11 +23,14 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
   - seo-marvel-apr2020
-description: Learn how to set up Phone System for call queues with Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
+description: Learn how to set up call queues for large organizations in Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
 ---
 # Create a call queue
 
 Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*). 
+
+> [!TIP]
+> This article is for large organizations. If your organization is a small business, read [Create a call queue - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) instead.
 
 Call queues provide:
 
@@ -41,19 +44,43 @@ Call queues provide:
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
+## Video demonstration
+
+This video shows a basic example of how to create a call queue in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
+
+## Create the call queue
+
 To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.
 
-## Resource account and language
+Type a name for the call queue.
 
-![Screenshot of resource account and language settings](media/call-queue-name-language.png)
+### Resource accounts
 
-1. Type a name for the call queue.
+![Screenshot of resource account settings](media/call-queue-name-language.png)
 
-2. Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
+Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-3. Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+### Assign calling ID
 
-## Greetings and music on hold in queue
+![Screenshot of calling ID settings](media/call-queue-assign-calling-id.png)
+
+If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
+
+Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
+
+If you are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
+
+### Language
+
+![Screenshot of language settings](media/call-queue-language.png)
+
+Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
+
+### Greetings and music on hold in queue
+
+![Screenshot of greetings and music on hold in queue settings](media/call-queue-greetings-music.png)
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
@@ -63,7 +90,7 @@ Teams provides default music to callers while they are on hold in a queue. If yo
 > The uploaded recording can be no larger than 5 MB.
 > The default music supplied in Teams call queues is free of any royalties payable by your organization. 
 
-## Call agents
+### Call agents
 
 Review the [prerequisites for adding agents to a call queue](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -93,7 +120,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
 
-## Call routing
+### Call routing
 
 ![Screenshot of conference mode and routing method settings](media/call-queue-conference-mode-routing-method.png)
 
@@ -119,10 +146,12 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 ![Screenshot of routing, opt out, and alert time settings](media/call-queue-presence-agents-time.png)
 
-
 **Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
 
 You can enable presence-based call routing with any of the routing methods.
+
+> [!NOTE]
+> When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
 
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to. 
 
@@ -141,7 +170,7 @@ The following settings are recommended:
 > [!NOTE]
 > If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
-## Call overflow handling
+### Call overflow handling
 
 ![Screenshot of call overflow settings](media/call-queue-overflow-handling.png)
 
@@ -152,7 +181,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 
-## Call timeout handling
+### Call timeout handling
 
 ![Screenshot of call timeout settings](media/call-queue-timeout-handling.png)
 
@@ -161,10 +190,6 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
-
-## Caller ID for outbound calls
-
-Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
 
 ## Supported clients
 
@@ -179,6 +204,7 @@ The following clients are supported for call agents in a call queue:
   - iPad Skype for Business Client (version 6.16.0 and later)
   - Microsoft Teams Windows client (32-bit and 64-bit versions)
   - Microsoft Teams Mac client
+  - Microsoft Teams on [Virtualized Desktop Infrastructure](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix, and VMware)
   - Microsoft Teams iPhone app
   - Microsoft Teams Android app
 
