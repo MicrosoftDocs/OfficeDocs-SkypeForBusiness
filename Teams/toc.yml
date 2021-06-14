@@ -821,8 +821,6 @@ items:
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Manage voice and calling policies in Teams
-      href: voice-and-calling-policies.md
     - name: Phone System
       items: 
         - name: What is Phone System
