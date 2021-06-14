@@ -32,7 +32,7 @@ The Microsoft Teams PowerShell module includes the following features:
 - Uses a single module to manage all aspects of Teams administration, including users, teams, policies, and configuration.  
 - Supports authentication mechanisms such as access tokens and credentials. 
 
-# Data collection 
+##  Data collection 
 
 Microsoft Teams PowerShell module default settings collect telemetry data. Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience. Microsoft Teams PowerShell module does not collect any private or personal data.  
 
