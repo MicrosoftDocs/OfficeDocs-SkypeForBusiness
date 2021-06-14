@@ -1040,7 +1040,7 @@ For more information about diagnostic data, including how to control what diagno
 - **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
 - **shownReadReceiptNotice** - The user shown feature notice with settings options.
 - **signIn** - **Sign in** is selected on welcome page, or the **Sign In** button is tapped.
-- **SignInWithOTP** - User selects the option to sign in as a guest with OTP. 
+- **SignInWithOTP** - User selects the option to sign in as a guest with one time passcode (OTP). 
 - **signUp** - **Create a free account** or **Sign up for free** is selected.
 - **SignUpFromSignIn**- User taps on **Create a new account** option from sign-in
 - **simultaneousCallForward** - Triggered when:
