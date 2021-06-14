@@ -55,7 +55,7 @@ Microsoft Teams PowerShell module is currently supported for use with PowerShell
 ```powershell
 Install-Module -Name PowerShellGet -Force -AllowClobber
 ```
-- Install the Teams PowerShell Module
+- Install the Teams PowerShell Module.
 
 ```powershell
 Install-Module -Name MicrosoftTeams -Force -AllowClobber
