@@ -885,6 +885,7 @@ items:
           href: dial-pad-configuration.md
 
     - name: PSTN connectivity
+      href: pstn-connectivity.md
       items:
         - name: Calling Plans
           items: 
