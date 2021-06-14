@@ -883,8 +883,9 @@ items:
           href: dial-pad-configuration.md
 
     - name: PSTN connectivity
-      href: pstn-connectivity.md
       items:
+        - name: Overview
+          href: pstn-connectivity.md
         - name: Calling Plans
           items: 
             - name: Which Calling Plan is right for you?
