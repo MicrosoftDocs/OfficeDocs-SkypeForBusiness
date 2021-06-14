@@ -131,7 +131,7 @@ Please perform these steps:
 |Caller actions count                            |AACallerActionCount<br>TotalCallCount      |None                                                             |
 |Lower section of report                         |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |None                |
 
-#### CQD fields description
+#### fAutoAttendant CQD fields description
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
