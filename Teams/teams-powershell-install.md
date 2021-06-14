@@ -75,7 +75,7 @@ Connect-MicrosoftTeams
 
 ## Update Teams PowerShell Module
 
-To update any PowerShell module, you should use the same method used to install the module. For example, if you originally used Install-Module, then you should use [Update-Module](https://docs.microsoft.com/en-us/powershell/module/powershellget/update-module) to get the latest version.  
+To update any PowerShell module, you should use the same method used to install the module. For example, if you originally used Install-Module, then you should use [Update-Module](/powershell/module/powershellget/update-module) to get the latest version.  
 
 ```powershell
 Update-Module MicrosoftTeams
