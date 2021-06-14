@@ -14,7 +14,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Direct Routing protocols
+description: Direct Routing definitions and RFC standard protocols.
 appliesto:
 - Microsoft Teams 
 ---

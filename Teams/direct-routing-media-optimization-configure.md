@@ -246,6 +246,7 @@ The following table shows the X-MS headers sent by Direct Routing:
 #### Inbound calls and the user is in the same location as the SBC with Always Bypass
 
 | Mode | 	User | 	Location | 	Call direction |
+
 |:------------|:-------|:-------|:-------|:-------|
 | AlwaysBypass |	Internal | The same site as SBC | Inbound |
 
@@ -257,19 +258,19 @@ Note: Given that a user can have multiple endpoints, support of 183 is not possi
 
 The following diagram shows the SIP ladder for in inbound call with AlwaysBypass mode, and the user is in the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-11.png)
+![Diagram shows SIP ladder.](media/direct-routing-media-op-11.png)
 
 
 #### Outbound calls and the user is external with Always Bypass
 
-| Mode |	User |	Site |	Call direction
+| Mode |	User |	Site |	Call direction|
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |	External |	N/A | Outbound |
 
 
 The following diagram shows the SIP ladder for an outbound call with AlwaysBypass mode, and the user is external:
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-12.png)
+![Diagram showing SIP ladder for an outbound call.](media/direct-routing-media-op-12.png)
 
 The following table shows the X-MS headers sent by the Direct Routing service:
 
@@ -289,7 +290,7 @@ For an inbound call, the SBC connected to Direct Routing needs to send a re-invi
 
 The following diagram shows the SIP ladder for an inbound call with AlwaysBypass mode, and the user is external.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-13.png)
+![Diagram showing SIP ladder for an inbound call.](media/direct-routing-media-op-13.png)
 
 
 ### Only for local users mode
@@ -317,7 +318,7 @@ The following table shows end user configuration and action:
 
 The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-14.png)
+![Diagram showing SIP ladder for OnlyForLocalUsers mode, user in same location as SBC.](media/direct-routing-media-op-14.png)
 
 
 #### Inbound calls and the user is in the same location as the SBC with Only for local users
@@ -328,7 +329,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and th
 
 The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-15.png)
+![Diagram showing SIP ladder, inbound call.](media/direct-routing-media-op-15.png)
 
 
 #### User is not at the same location as the SBC but is in the corporate network with Only for local users
@@ -342,7 +343,7 @@ Direct routing calculates X-MediaPath based on the reported location of the user
 
 The following diagram shows an outbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-16.png)
+![Diagram showing SIP ladder, outbound call.](media/direct-routing-media-op-16.png)
 
 
 #### Inbound call and the user is internal but is not at the same location as the SBC with Only for local users
@@ -353,13 +354,5 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and an
 
 The following diagram shows an inbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-17.png)
-
-
-
-
-
-
-
-
+![Diagram showing SIP ladder, inbound call, OnlyForLocalUsers mode.](media/direct-routing-media-op-17.png)
 

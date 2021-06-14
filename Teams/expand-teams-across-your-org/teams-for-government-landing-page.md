@@ -4,6 +4,7 @@ description: Learn how to plan and deploy Teams in Microsoft 365 Government envi
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.topic: article
 audience: admin
 f1.keywords:
 - NOCSH

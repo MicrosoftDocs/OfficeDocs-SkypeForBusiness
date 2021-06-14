@@ -14,7 +14,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Direct Routing protocols
+description: How Direct Routing supports media bypass with a Session Border Controller (SBC) enabled for ICE Lite.
 appliesto:
 - Microsoft Teams
 ---
