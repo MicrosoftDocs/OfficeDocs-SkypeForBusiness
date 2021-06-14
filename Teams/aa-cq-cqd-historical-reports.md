@@ -122,7 +122,7 @@ Please perform these steps:
 
 |Report Section                                  |Field(s) Used                              |Filters Applied     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
-|Auto Attedant (drop down - top right)           |AA Name         |                          |                    |
+|Auto Attedant (drop down - top right)           |AA Name         |                          |None                |
 |Incoming call source                            |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Directory search method totals                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
 |Caller actions                                  |AATransferAction<br>TotalCallCount         |None                                                             |
