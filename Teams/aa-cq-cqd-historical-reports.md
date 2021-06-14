@@ -120,7 +120,7 @@ Please perform these steps:
 |:----------------------------|:----------------------------|:----------------|
 |fAutoAttedant                |AutoAttendant                |Source = AutoAttendant, <br>#"Filtered Rows" = Table.SelectRows(Source, each true), <br>#"Auto Attendant" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@"))), <br>#"Changed Type" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", type datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
 
-|Report Section                                  |Field  Used                                |Filters Applied     |
+|Report Section                                  |Field(s) Used                              |Filters Applied     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Auto Attedant (drop down - top right)           |AA Name         |                          |                    |
 |Incoming call source                            |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
@@ -166,7 +166,7 @@ Please perform these steps:
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |None             |
 
 
-|Report Section                      |Table -> Field Used                   |Filters Applied       |
+|Report Section                      |Table -> Field(s) Used                |Filters Applied       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Date selector                       |Dates -> DateTime                     |None                  |
 |Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
