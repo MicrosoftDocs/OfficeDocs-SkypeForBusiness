@@ -136,7 +136,7 @@ The following diagram shows two call flows – one with media bypass enabled and
 
 The table below summarizes the difference between Media Processors and Transport Relays.
 
-|    | Media Processors | Transport Relays|
+|  &nbsp; | Media Processors | Transport Relays|
 | :--------------|:---------------|:------------|
 In media path for non-bypassed calls for end users | Always | If client cannot reach the Media Processor directly | 
 In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 

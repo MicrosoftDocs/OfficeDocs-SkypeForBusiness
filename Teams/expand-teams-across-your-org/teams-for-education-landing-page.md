@@ -26,7 +26,7 @@ ms.custom:
 With Teams, educators and faculty can create collaborative classrooms, connect in professional learning communities, and communicate with students and educators. Use the admin resources here to help you successfully deploy, adopt, and manage Teams in your school or institution. 
 
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![Screenshot of right arrow icon](../media/arrow-right-2-teams.svg)  |  [Quick start - Teams for Education admins](../teams-quick-start-edu.yml) |
 | ![Screenshot of paper and pencil icon](../media/sign-up-teams.svg) | [Assignments in Teams for Education](./assignments-in-teams.md) |

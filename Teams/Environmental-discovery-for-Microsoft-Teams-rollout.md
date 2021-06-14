@@ -20,8 +20,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Environmental discovery for a Microsoft Teams rollout
-===================================================
+# Environmental discovery for a Microsoft Teams rollout
 
 Discovery is one of the very first, key steps that you take when planning for your journey to Microsoft Teams.
 
@@ -43,8 +42,7 @@ organization's readiness for your Teams deployment in several major areas. Work 
 > [!TIP]
 > You can start by copying the questionnaire into a Microsoft Word document. Try to answer all questions and capture all details as you move through.
 
-Project team
----
+**Project team**
 
 Capture detailed information about the key stakeholders of your Teams rollout project. Note that one person can play several roles throughout the project.
 
@@ -67,8 +65,7 @@ Capture detailed information about the key stakeholders of your Teams rollout pr
 > | Video Team Lead | | | |
 > | Business Unit Leads | | | |
 
-Microsoft 365 or Office 365 organization details
----
+**Microsoft 365 or Office 365 organization details**
 
 We highly recommend that you have an active Microsoft 365 or Office 365 organization as you work with
 this questionnaire. If you haven't activated or configured a Microsoft 365 or Office 365 organization
@@ -90,8 +87,7 @@ Use the following table to capture information about the Microsoft 365 or Office
 > | If you currently maintain an active Microsoft 365<br/>or Office 365 tenant, is the SMTP/SIP domain of <br/>your targeted users associated with the tenant? | <input type="checkbox"> N/A – No Microsoft 365 or<br/>&nbsp; &nbsp; &nbsp;Office 365 tenant in place <br/> <input type="checkbox"> No, users' SMTP/SIP <br/>&nbsp; &nbsp; &nbsp;domain isn't associated <br/>&nbsp; &nbsp; &nbsp;with any tenants in <br/>&nbsp; &nbsp; &nbsp;Microsoft 365 or Office 365<br/> <input type="checkbox"> Yes, users' SMTP/SIP <br/>&nbsp; &nbsp; &nbsp;domain is associated <br/>&nbsp; &nbsp; &nbsp;with an existing tenant in <br/>&nbsp; &nbsp; &nbsp;Microsoft 365 or Office 365 | |
 > | Do user UPNs match their primary SMTP address? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> Inconsistently | |
 
-Existing collaboration platform summary
----
+**Existing collaboration platform summary**
 
 Use the following table to capture information about your existing collaboration platform deployment.
 
@@ -107,8 +103,7 @@ Use the following table to capture information about your existing collaboration
 > | What is the current telephony and conferencing solution <br/>of the users who are in scope for this initiative? | | |
 > | Do you have [SBC's that support Direct Routing](./direct-routing-plan.md#supported-session-border-controllers-sbcs) deployed <br/>for your offices that are in scope for this initiative? If Yes,<br/>note the details in the Comments column.| <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 
-Collaboration platform deployment details
----
+**Collaboration platform deployment details**
 
 ### Microsoft Teams (if applicable)
 
@@ -151,8 +146,7 @@ If applicable, capture the details of your Skype for Business deployment by usin
 > | Select services that your Edge role provides today. | <input type="checkbox"> External user access (corporate users) <br/> <input type="checkbox"> Remote user access (anonymous <br/>&nbsp; &nbsp; &nbsp;external meeting participants) <br/> <input type="checkbox"> Federation <br/> <input type="checkbox"> Media relay | |
 > | Which of the following voice calling features do you <br/>currently have dependencies on? <br/>Note any additional dependencies in the Comments <br/>column. | <input type="checkbox"> Busy options <br/> <input type="checkbox"> Call park <br/> <input type="checkbox"> Call pickup or group call pickup <br/> <input type="checkbox"> Common area phones, or "hot desking" <br/> <input type="checkbox"> Response groups or hunt groups <br/> <input type="checkbox"> Shared line appearance <br/> <input type="checkbox"> Private line <br/> <input type="checkbox"> Voicemail <br/> <input type="checkbox"> Call via work <br/> <input type="checkbox"> Emergency or information numbers <br/>&nbsp; &nbsp; &nbsp;(911, 811, 411) <br/> <input type="checkbox"> Extension dialing <br/> <input type="checkbox"> Auto Attendant <br/> <input type="checkbox"> Subscriber access <br/> <input type="checkbox"> Analog devices <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Caller ID masking or altering <br/> <input type="checkbox"> Location-based routing <br/> <input type="checkbox"> Least-cost routing <br/> <input type="checkbox"> Elevator phones | |
 
-Networking and access to Microsoft 365 and Office 365 services
----
+**Networking and access to Microsoft 365 and Office 365 services**
 
 Use the following table to capture your organization's networking details and
 how your users are (or will be) connected to Microsoft 365 and Office 365 services.
@@ -169,8 +163,7 @@ how your users are (or will be) connected to Microsoft 365 and Office 365 servic
 > | Can you prioritize Teams audio and video traffic <br/>to drive a high-quality experience? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Do all locations within a region have internet egress, <br/>or is internet egress centralized for the entire region? | <input type="checkbox"> Regional access to the internet <br/> <input type="checkbox"> Centralized access to the <br/>&nbsp; &nbsp; &nbsp;internet | |
 
-Endpoints
----
+**Endpoints**
 
 Use the following table to capture the details of the clients and endpoints in use.
 
@@ -183,8 +176,8 @@ Use the following table to capture the details of the clients and endpoints in u
 > | How are mobile devices provided? <br/>Select all that apply. | <input type="checkbox"> Corporate devices <br/> <input type="checkbox"> Bring your own device | |
 > | What devices do users currently use to access <br/>voice and conferencing services <br/>(handsets, headsets, phones, video)? | | |
 
-Operations
----
+**Operations**
+
 
 Use the following table to capture the details of the operational aspects of your environment.
 
@@ -199,8 +192,7 @@ Use the following table to capture the details of the operational aspects of you
 > | Do you experience call quality issues? | <input type="checkbox"> Yes<br/> <input type="checkbox"> No | |
 > | How and when do you provide training to your <br/>helpdesk on new services and capabilities? | | |
 
-Adoption and readiness
----
+**Adoption and readiness**
 
 Use the following table and capture the current adoption and readiness state of your organization.
 

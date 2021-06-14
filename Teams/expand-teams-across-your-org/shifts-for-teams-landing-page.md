@@ -29,13 +29,13 @@ Teams gives Frontline Workers in your organization the tools they need to commun
 
 ### Set up and manage Shifts for your organization
 
-|               |               |               |               |
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- |
 |![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Manage Shifts in your organization](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![design](../media/Help-small.svg)  | **[Shifts Help for Frontline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### Shifts extensions
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![api](../media/api-small.svg) | **[Shift Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph APIs allow you to integrate Shifts data with external workforce management systems. You'll have the flexibility to build custom Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.             |
 | ![api](../media/api-small.svg) | **[Workforce management integrations](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** If you're using third-party workforce management systems, such as Kronos and JDA, for scheduling, time, and attendance, you can integrate directly with Shifts through Shifts Graph APIs and SDK with open source integrations. |
@@ -43,6 +43,6 @@ Teams gives Frontline Workers in your organization the tools they need to commun
 
 ## Featured training
 
-|               |               |               |               |               |               |
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | ![arrow-right-2-teams](../media/arrow-right-2-teams-small.svg)  |  [Video: What is Shifts?](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![clock-teams](../media/clock-teams-small.svg)  |  [Video: What is Shifts?](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![blocks-teams](../media/blocks-teams-small.svg)  |  [Video: Manage a Shifts schedule](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
