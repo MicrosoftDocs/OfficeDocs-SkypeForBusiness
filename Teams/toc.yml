@@ -1046,6 +1046,8 @@ items:
           href: manage-emergency-calling-policies.md
         - name: Manage emergency call routing policies
           href: manage-emergency-call-routing-policies.md
+    - name: Manage voice and calling policies in Teams
+      href: voice-and-calling-policies.md
     - name: Contoso voice migration case study
       items: 
         - name: Overview

@@ -33,9 +33,7 @@ Microsoft provides complete PBX capabilities for your organization through Phone
 
 For information about Microsoft voice solutions, incuding details about Phone System features and which PSTN connectivity option is right for your organization, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-This article focuses on the differences in the PSTN configuration options and how it affects configuration of features such as phone number management and emergency calling.  
-
-
+This article focuses on the differences in the PSTN options and how it affects configuration of features such as phone number management and emergency calling.  
 
 To connect Phone System to the PSTN, you can choose one of the following options:
 
