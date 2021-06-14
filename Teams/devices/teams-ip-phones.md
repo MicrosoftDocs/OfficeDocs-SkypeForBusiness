@@ -47,7 +47,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | AudioCodes C470HD                      | 1.8.293                                                  | January 2021                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | March 2019                   |
 | AudioCodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |
-|Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
+| Crestron UC-2                          |1.0.1.46                                                  | July 2020                    |
 | Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued (5/11/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued (5/11/2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
@@ -96,6 +96,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 |:------------------------|:-----------------|:--------------|
 |Crestron TSS-770 | 1.003.0082 |February 2021 |
 |Crestron TSS-1070 | 1.003.0082 |February 2021 |
+|Yealink RoomPanel | 147.15.0.2 |May 2021 |
 
 ### Product release information for Teams phones
 
