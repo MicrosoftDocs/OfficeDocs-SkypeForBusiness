@@ -108,33 +108,95 @@ Please perform these steps:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
   
-## Report to CQD table and field mapping
+## Report name to CQD table and field mapping
 
-|Report Name                   |Report Tab         |Table           |
-|:-----------------------------|:------------------|:---------------|
-|Cloud Auto Attendant Analytics|Auto Attendant     |fAutoAttendant  |
+### Cloud Auto Attendant Analytics
 
+|Power BI Report Tab   |Report Table Name     |Global Filter                          |
+|:---------------------|:---------------------|:--------------------------------------|
+|Auto Attendant        |fAutoAttendant        |AAStartTime is within the last 28 days |
+ 
+|Report Table Name            |Source Table Name            |Processing       |
+|:----------------------------|:----------------------------|:----------------|
+|fAutoAttedant                |AutoAttendant                |Source = AutoAttendant, <br>#"Filtered Rows" = Table.SelectRows(Source, each true), <br>#"Auto Attendant" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@"))), <br>#"Changed Type" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", type datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
 
-|Report Section  |Fields Used     |Filters Applied     |
-|:---------------|:---------------|:-------------------|
+|Report Section                  |Field  Used                                |Filters Applied     |
+|:-------------------------------|:------------------------------------------|:-------------------|
 |:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::  |AA Name         | |
 |Incoming call source            |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Directory Search Method Totals  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
-|Caller Actions                  |AATransferAction<br>TotalCallCount         |                                                                 |
-|Avg Seconds/Actions             |AAChainDuration<br>AACallerActionCount     |                                                                 |
-|Call results                    |AACallResult<br>TotalCallCount             |                                                                 |
-|Caller actions count            |AACallerActionCount<br>TotalCallCount      |                                                                 |
-|Lower part                      |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |                    |
+|Caller Actions                  |AATransferAction<br>TotalCallCount         |None                                                             |
+|Avg Seconds/Actions             |AAChainDuration<br>AACallerActionCount     |None                                                             |
+|Call results                    |AACallResult<br>TotalCallCount             |None                                                             |
+|Caller actions count            |AACallerActionCount<br>TotalCallCount      |None                                                             |
+|Lower part                      |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |None                |
+
+#### CQD fields description
+
+|Name                                    |Data Type                |Description                            |
+|:---------------------------------------|:------------------------|:--------------------------------------|
+|AA Name                                 |string                   |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|AACallerActionCount                     |int                      |Count of used action by caller         |
+|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br><br>possible values:<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
+|AACallResult                            |string                   |Final call result<br><br>possible values:<br>§ unknown<br>§ transferred_to_user<br>§  transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|AAChainDuration                         |int                      |Duration of call in AA                 |
+|AAChainIndex                            |                         |                                       |
+|AAConnectivityType                      |                         |                                       |
+|AACount                                 |                         |                                       |
+|AADirectorySearchMethod                 |string                   |Last Address book search method<br><br>possible values:<br>§ abs_search_dtmf<br>§  abs_search_name       |
+|AAStartTime                             |datetime                 |AA chain start time                    |
+|AATransferAction                        |string                   |Call transfer target type<br><br>possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
+|Call Type                               |                         |Type of call<br><br>possible values:<br>§ External<br>§ Internal                                       |
+|IsAAInvolved                            |boolean                  |Indicated if AA involved into the call |
+|PSTNMinutes                             |int                      |                                       |
+|TotalCallCount                          |int                      |                                       |
 
 
+### Cloud Call Queue Analytics
+
+|Report Tab         |Report Table Names        |Global Filter                          |
+|:------------------|:-------------------------|:--------------------------------------|
+|Call Queue         |Dates<br>dCQ-CQIdenity<br>fCallQueueAnalytics<br>fCallQueueFinalStateAction |None |
+ 
+|Report Table Name            |Source Table Name            |Processing       |
+|:----------------------------|:----------------------------|:----------------|
+|Dates                        |Dates                        |None             |
+|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics, <br>#"Removed Columns" = Table.RemoveColumns(Source,{"Call Count", "Call Queue Call Result", "Date", "PSTN Connectivity Type", "Call Queue Target Type", "PSTN Total Minutes"}),<br>Distinct = Table.Distinct(#"Removed Columns") |
+|fCallQueueAnalytics          |CallQueueAnalytics           |None             |
+|fCallQueueFinalStateAction   |CallQueueFinalStateAction    |None             |
+
+
+|Report Section  |Table -> Field Used                   |Filters Applied       |
+|:---------------|:-------------------------------------|:---------------------|
+|date selector   |Dates -> DateTime                     |None                  |
+|CQ Identity     |dCQ-CQIdentity -> Call Queue Identity |None                  |
+|Incoming C. Src |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal  |
+|Avg Waiting Time|fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
+|Call Result     |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Qeueue Call Result | None |
+|TO / Overflow   |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
+|Xfer/Fwd t.tots |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |None |
+|Call Volumes    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |None |
+|Abandoned Calls |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
+|Avg Session len |fCallQueueFinalStateAction -> Average Call Duration<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |None |
+
+
+### CQD fields description
+
+|Name                                    |Data Type                |Description                            |
+|:---------------------------------------|:------------------------|:--------------------------------------|
+|Call Queue Call Result                  |String                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Call Queue Final State Action           |String                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
+|Call Queue Identity                     |String                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
+|Call Queue Is Conference Mode           |Boolean                  |Set to 1 if conference mode enabled on CQ |
+|Call Queue Target Type                  |String                   |Expected call redirection target type     |
+|Transferred From Call Queue Identity    |Boolean                  |Name of resource account attached to CQ from which this call was transferred<br>Example: aa_test@microsoft.com|
+|Call Queue Agent Opt In Count           |int                      |Count of agents available to this queue at the moment of call |
+|Call Queue Agent Count                  |int                      |Count of agents assigned to this queue at the moment of call |
+|Is Call Queue Involved                  |Boolean                  |If call queue is involved into to this call equal 1 |
 
 
 
 ## CQD fields description
-
-|Report          |Table
-|:---------------|:---------------|
-|Auto Attendant  |fAutoAttendant  |
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
