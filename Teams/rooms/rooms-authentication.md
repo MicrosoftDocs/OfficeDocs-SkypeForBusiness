@@ -103,6 +103,18 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 
 ### Azure AD conditional access
 
-You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
+You can create a Conditional Access policy that supports IP/location-based access or that requires the device to be compliant per MDM compliance policies for the Microsoft Teams Rooms resource accounts.  For devices to support Require compliant device Conditional Access polices, the following minimum requirements must be met:
 
-No other conditional access policies are supported. For more information about device compliance, see [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
+- Microsoft Teams Rooms application 4.8.19.0 or above
+- Windows 10 version 20H2 (10.0.19042)
+
+In addition to the minimum requirements, the following Cloud App must be excluded from teh Require compliant device Conditional Access policy:
+
+- Skype for Business Online
+
+> [!NOTE]
+> Microsoft Teams Rooms does not support the device compliance check for Skype for Business Online authentication.  If Skype for Business Online sign-in is not required for your Microsoft Teams Rooms deployment, the exclusion from the Conditional Access policy is not required.
+
+To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location) and [Conditional Access: Require compliant devices](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
+
+For more information about device compliance, see [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
