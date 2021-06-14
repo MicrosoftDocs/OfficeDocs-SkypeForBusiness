@@ -19,7 +19,7 @@ appliesto:
 
 Microsoft Teams PowerShell module is a set of cmdlets for managing Teams directly from the PowerShell command line. PowerShell provides powerful features for automation that can be leveraged for managing your Teams workload.  
 
-You can use the Microsoft Teams PowerShell module with one of the following methods: 
+You can use the Microsoft Teams PowerShell module using one of the following methods: 
 
 - Install the Microsoft Teams PowerShell module via [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) (recommended option). 
 - Install the Microsoft Teams PowerShell module with [Manual Download](https://www.powershellgallery.com/packages/MicrosoftTeams). 
