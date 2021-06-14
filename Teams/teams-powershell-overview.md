@@ -29,7 +29,7 @@ You can use the Microsoft Teams PowerShell module using one of the following met
 
 The Microsoft Teams PowerShell module includes the following features: 
 
-- Uses a single module to manage all aspects of Teams administration including users, teams, policies and configuration.  
+- Uses a single module to manage all aspects of Teams administration, including users, teams, policies, and configuration.  
 - Supports authentication mechanisms such as access tokens and credentials. 
 
 # Data collection 
