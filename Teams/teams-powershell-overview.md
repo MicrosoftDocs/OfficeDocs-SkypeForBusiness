@@ -25,7 +25,7 @@ You can use the Microsoft Teams PowerShell module using one of the following met
 - Install the Microsoft Teams PowerShell module via [Manual Download](https://www.powershellgallery.com/packages/MicrosoftTeams). 
 
 
-# Features 
+## Features 
 
 The Microsoft Teams PowerShell module includes the following features: 
 
