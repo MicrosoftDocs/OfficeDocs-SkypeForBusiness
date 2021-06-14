@@ -136,20 +136,20 @@ Please perform these steps:
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |string                   |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
-|AACallerActionCount                     |int                      |Count of used action by caller         |
+|AACallerActionCount                     |int	                     |Count of actions selected by caller in Auto Attendant during the call  |
 |AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br><br>possible values:<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
 |AACallResult                            |string                   |Final call result<br><br>possible values:<br>§ unknown<br>§ transferred_to_user<br>§  transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|AAChainDuration                         |int                      |Duration of call in AA                 |
-|AAChainIndex                            |                         |                                       |
-|AAConnectivityType                      |                         |                                       |
-|AACount                                 |                         |                                       |
-|AADirectorySearchMethod                 |string                   |Last Address book search method<br><br>possible values:<br>§ abs_search_dtmf<br>§  abs_search_name       |
-|AAStartTime                             |datetime                 |AA chain start time                    |
+|AAChainDuration                         |int                      |Duration of call in Auto Attendant     |
+|AAChainIndex                            |string                   |                                       |
+|AAConnectivityType                      |string                   |                                       |
+|AACount                                 |string                   |# of Auto Attendant involve in call    |
+|AADirectorySearchMethod                 |string                   |Last Address book search method<br><br>possible values:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name       |
+|AAStartTime                             |datetime                 |Auto Attendant call start time (UTC)   |
 |AATransferAction                        |string                   |Call transfer target type<br><br>possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
-|Call Type                               |                         |Type of call<br><br>possible values:<br>§ External<br>§ Internal                                       |
+|Call Type                               |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal                                       |
 |IsAAInvolved                            |boolean                  |Indicated if AA involved into the call |
-|PSTNMinutes                             |int                      |                                       |
-|TotalCallCount                          |int                      |                                       |
+|PSTNMinutes                             |int                      |Total minute usage                     |
+|TotalCallCount                          |int                      |Total number of calls                  |
 
 
 ### Cloud Call Queue Analytics
@@ -183,15 +183,15 @@ Please perform these steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Call Queue Call Result                  |String                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Call Queue Final State Action           |String                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
-|Call Queue Identity                     |String                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
-|Call Queue Is Conference Mode           |Boolean                  |Set to 1 if conference mode enabled on CQ |
-|Call Queue Target Type                  |String                   |Expected call redirection target type     |
-|Transferred From Call Queue Identity    |Boolean                  |Name of resource account attached to CQ from which this call was transferred<br>Example: aa_test@microsoft.com|
+|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Call Queue Final State Action           |string                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
+|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
+|Call Queue Is Conference Mode           |boolean                  |Set to 1 if conference mode enabled on CQ |
+|Call Queue Target Type                  |string                   |Expected call redirection target type     |
+|Transferred From Call Queue Identity    |boolean                  |Name of resource account attached to CQ from which this call was transferred<br>Example: aa_test@microsoft.com|
 |Call Queue Agent Opt In Count           |int                      |Count of agents available to this queue at the moment of call |
 |Call Queue Agent Count                  |int                      |Count of agents assigned to this queue at the moment of call |
-|Is Call Queue Involved                  |Boolean                  |If call queue is involved into to this call equal 1 |
+|Is Call Queue Involved                  |boolean                  |If call queue is involved into to this call equal 1 |
 
 
 
