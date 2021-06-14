@@ -1,5 +1,5 @@
 ---
-title:  Phone System Direct Routing
+title:  "Phone System Direct Routing: Call notifications"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -32,7 +32,7 @@ In the following diagram, user Irena has two endpoints:
 When a call arrives, the SBC forks the call between Phone System Direct Routing and the third-party SBC.
 
 
-![Diagram showing forked Teams endpoints](media/direct-routing-call-notification-1.png)
+![Diagram shows forked Teams endpoints.](media/direct-routing-call-notification-1.png)
 
 If the call is accepted on Fork 2 (by the third-party SBC), Teams will generate a “Missed Call” notification.  
 
@@ -45,4 +45,4 @@ Note that the call will not be registered in the call detail records of Microsof
 
 The diagram below illustrates the SIP ladder for Fork 1, explains the call flow, and the expected REASON in the Cancel message. 
 
-![Diagram showing forked Teams endpoints](media/direct-routing-call-notification-2.png)
+![Diagram illustrates call flow.](media/direct-routing-call-notification-2.png)
