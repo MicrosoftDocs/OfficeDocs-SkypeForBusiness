@@ -245,6 +245,7 @@ The following table shows the X-MS headers sent by Direct Routing:
 
 #### Inbound calls and the user is in the same location as the SBC with Always Bypass
 
+
 | Mode | 	User | 	Location | 	Call direction |
 
 |:------------|:-------|:-------|:-------|:-------|
