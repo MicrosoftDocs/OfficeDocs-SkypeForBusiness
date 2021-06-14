@@ -178,20 +178,43 @@ Please perform these steps:
 |Abandoned Calls                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
 |Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Duration<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |None |
 
-
-### CQD fields description
+#### dCQ-CQIdenity CQD fields description
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Call Queue Final State Action           |string                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
+|Call Queue Identity                     |string                   |                                       |
+
+
+
+#### fCallQueueAnalytics CQD fields description
+
+|Name                                    |Data Type                |Description                            |
+|:---------------------------------------|:------------------------|:--------------------------------------|
+|% Abandoned Calls                       |                         |                                       |
+|Call Count                              |                         |                                       |
+|Call Queue Call Result                  |string                   |Call queue call final state<br><br?possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
-|Call Queue Is Conference Mode           |boolean                  |Set to 1 if conference mode enabled on CQ |
-|Call Queue Target Type                  |string                   |Expected call redirection target type     |
-|Transferred From Call Queue Identity    |boolean                  |Name of resource account attached to CQ from which this call was transferred<br>Example: aa_test@microsoft.com|
-|Call Queue Agent Opt In Count           |int                      |Count of agents available to this queue at the moment of call |
-|Call Queue Agent Count                  |int                      |Count of agents assigned to this queue at the moment of call |
-|Is Call Queue Involved                  |boolean                  |If call queue is involved into to this call equal 1 |
+|Call Queue Target Type                  |string                   |Expected call redirection target type  |
+|Call Type                               |                         |                                       |
+|Date                                    |                         |                                       |
+|IsAbandoned                             |                         |                                       |
+|PSTN Connectivity Type                  |                         |                                       |
+|PSTN Total Minutes                      |                         |                                       |
+|Total Calls                             |                         |                                       |
+|TotalCallCount                          |                         |                                       |
+
+#### fCallQueueFinalStateAction  CQD fields description
+
+|Name                                    |Data Type                |Description                            |
+|:---------------------------------------|:------------------------|:--------------------------------------|
+|Average Call Duration (seconds          |                         |                                       |
+|Call Count                              |                         |                                       |
+|Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Call Queue Final State Action           |string                   |Call queue final action<br><br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
+|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
+|Date                                    |                         |                                       |
+|IsAbandoned                             |                         |                                       |
+
 
 
 
