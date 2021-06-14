@@ -120,16 +120,16 @@ Please perform these steps:
 |:----------------------------|:----------------------------|:----------------|
 |fAutoAttedant                |AutoAttendant                |Source = AutoAttendant, <br>#"Filtered Rows" = Table.SelectRows(Source, each true), <br>#"Auto Attendant" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@"))), <br>#"Changed Type" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", type datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
 
-|Report Section                  |Field  Used                                |Filters Applied     |
-|:-------------------------------|:------------------------------------------|:-------------------|
-|:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::  |AA Name         | |
-|Incoming call source            |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
-|Directory Search Method Totals  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
-|Caller Actions                  |AATransferAction<br>TotalCallCount         |None                                                             |
-|Avg Seconds/Actions             |AAChainDuration<br>AACallerActionCount     |None                                                             |
-|Call results                    |AACallResult<br>TotalCallCount             |None                                                             |
-|Caller actions count            |AACallerActionCount<br>TotalCallCount      |None                                                             |
-|Lower part                      |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |None                |
+|Report Section                                  |Field  Used                                |Filters Applied     |
+|:-----------------------------------------------|:------------------------------------------|:-------------------|
+|Auto Attedant (drop down - top right)           |AA Name         |                          |                    |
+|Incoming call source                            |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Directory search method totals                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
+|Caller actions                                  |AATransferAction<br>TotalCallCount         |None                                                             |
+|Average Seconds in AA<br>Average Caller Actions |AAChainDuration<br>AACallerActionCount     |None                                                             |
+|Call results                                    |AACallResult<br>TotalCallCount             |None                                                             |
+|Caller actions count                            |AACallerActionCount<br>TotalCallCount      |None                                                             |
+|Lower section of report                         |AA Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Call Type<br>TotalCallCount |None                |
 
 #### CQD fields description
 
@@ -166,18 +166,18 @@ Please perform these steps:
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |None             |
 
 
-|Report Section  |Table -> Field Used                   |Filters Applied       |
-|:---------------|:-------------------------------------|:---------------------|
-|date selector   |Dates -> DateTime                     |None                  |
-|CQ Identity     |dCQ-CQIdentity -> Call Queue Identity |None                  |
-|Incoming C. Src |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal  |
+|Report Section                      |Table -> Field Used                   |Filters Applied       |
+|:-----------------------------------|:-------------------------------------|:---------------------|
+|Date selector                       |Dates -> DateTime                     |None                  |
+|Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
+|Incoming call soure                 |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal  |
 |Avg Waiting Time|fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
-|Call Result     |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Qeueue Call Result | None |
-|TO / Overflow   |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
-|Xfer/Fwd t.tots |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |None |
-|Call Volumes    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |None |
-|Abandoned Calls |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
-|Avg Session len |fCallQueueFinalStateAction -> Average Call Duration<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |None |
+|Call Result                         |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Qeueue Call Result | None |
+|Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
+|Transfer/Forard target totals       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |None |
+|Call volumes                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |None |
+|Abandoned Calls                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
+|Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Duration<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |None |
 
 
 ### CQD fields description
