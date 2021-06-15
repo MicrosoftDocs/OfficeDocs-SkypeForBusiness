@@ -1312,6 +1312,7 @@ action.
 - **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
 - **search** Confirms that the whole search session has succeeded or failed.
 
+
 ## Property lists
 
 ### Properties sent with all events
@@ -1409,3 +1410,29 @@ action.
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
+
+
+## OnePlayer Events
+
+### OnePlayer User Events
+- **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view
+- **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view
+- **PlayerSeek** - Confirms if the user seeks the video either using seek bar or forward/backward buttons in the OnePlayer view
+- **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed
+- **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback
+- **ShareVideo** - Confirms if the user has tapped on share icon
+- **PlayerClose** - Confirms if the user has tapped on the close icon
+
+### OnePlayer Playback Events
+- **Playing** - Confirms if the player has started playing
+- **Paused** - Confirms if the player has paused playing
+- **Buffering** - Confirms if the player is buffering content
+- **Ended** - Confirms if the player has ended playing
+- **PlayerHeartbeat** - This is recurring event sent to log the current status of player and playback
+
+### Properties sent with all OnePlayer events
+
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
+
