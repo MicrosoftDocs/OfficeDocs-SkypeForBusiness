@@ -116,7 +116,7 @@ Perform the following steps:
 
 |Report Section                          |Description                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup> |
+|Incoming call source<sup>1</sup>        |Distribution of call by Internal/External call source             |
 |Directory search method totals          |Distribution of call by search type                               |
 |Caller action                           |Distribution of call by call receiver                             |
 |Call result                             |Distribution of call by final call state                          |
@@ -157,7 +157,7 @@ Perform the following steps:
 |AAChainDuration                         |int                      |Duration of call in Auto Attendant     |
 |AAChainIndex                            |string                   |                                       |
 |AAConnectivityType                      |string                   |                                       |
-|AACount                                 |string                   |# of Auto Attendant involve in call    |
+|AACount                                 |int                      |Number of Auto Attendants involved in call    |
 |AADirectorySearchMethod                 |string                   |Last Address book search method<br><br>possible values:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name       |
 |AAStartTime                             |datetime                 |Auto Attendant call start time (UTC)   |
 |AATransferAction                        |string                   |Call transfer target type<br><br>possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
@@ -173,7 +173,7 @@ Perform the following steps:
 
 |Report Section                          |Description                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>  |
+|Incoming call source<sup>1</sup>        |Distribution of call by Internal/External call source              |
 |Call volume                             |Distribution of call by call queues                                |
 |Caller result                           |Distribution of call by call result                                |
 |Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result       |
@@ -198,8 +198,8 @@ Perform the following steps:
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Date selector                       |Dates -> DateTime                     |None                  |
 |Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
-|Incoming call source<sup>1</sup>                |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
-|Avg Waiting Time|fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
+|Incoming call source<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Avg Waiting Time                    |fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
 |Call Result                         |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | None |
 |Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
 |Transfer/Forard target totals       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |None |
@@ -218,15 +218,15 @@ Perform the following steps:
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |% Abandoned Calls                       |                         |                                       |
-|Call Count                              |                         |                                       |
+|Call Count                              |int                      |                                       |
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
 |Call Queue Target Type                  |string                   |Expected call redirection target type  |
 |Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
-|Date                                    |                         |                                       |
-|IsAbandoned                             |                         |                                       |
+|Date                                    |datetime                 |                                       |
+|IsAbandoned                             |boolean                  |                                       |
 |PSTN Connectivity Type                  |                         |                                       |
-|PSTN Total Minutes                      |                         |                                       |
+|PSTN Total Minutes                      |int                      |                                       |
 |Total Calls                             |                         |                                       |
 |TotalCallCount                          |                         |                                       |
 
@@ -234,13 +234,13 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Average Call Duration (seconds)         |                         |                                       |
+|Average Call Duration (Seconds)         |                         |                                       |
 |Call Count                              |                         |                                       |
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Final State Action           |string                   |Call queue final action<br><br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
-|Date                                    |                         |                                       |
-|IsAbandoned                             |                         |                                       |
+|Date                                    |datetime                 |                                       |
+|IsAbandoned                             |boolean                  |                                       |
 
 
 ### Cloud Call Queue Agent Timeline
@@ -276,12 +276,12 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Agent Name                              |                         |                                       |
+|Agent Name                              |string                   |                                       |
 |Average Call Duration (Second)          |                         |                                       |
 |Call Count                              |                         |                                       |
 |Call Duration (Minute)                  |                         |                                       |
-|Call Queue Name                         |                         |                                       |
-|Date                                    |                         |                                       |
+|Call Queue Name                         |string                   |                                       |
+|Date                                    |datetime                 |                                       |
 
 
 ## Known Issues
