@@ -217,9 +217,9 @@ The use of Insights *does not* require the use of SDS. However, you may choose t
 
 * To turn off/on Insights all together, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn off/on  '**Collect activity data for Insights**' to disable/enable Insights.
 
-* To turn off Insights use of School Data Sync follow the instruction in [Disabling SDS for Insights](hhttps://docs.microsoft.com/en-us/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
+* To turn off Insights use of School Data Sync follow the instruction in [Disabling SDS for Insights](./schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
 
-* To turn it back on follow the instructions in [How to deploy SDS for Insights](https://docs.microsoft.com/en-us/schooldatasync/how-to-deploy-sds-for-insights).
+* To turn it back on follow the instructions in [How to deploy SDS for Insights](./schooldatasync/how-to-deploy-sds-for-insights).
 
 ### How to delete your data
 Insights stores student and educator actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
