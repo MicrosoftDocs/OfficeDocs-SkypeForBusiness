@@ -568,12 +568,13 @@ items:
 
 - name: Meetings and audio conferencing
   items: 
-    - name: Quick start - meetings, webinars, and live events
-      href: quick-start-meetings-live-events.md
+    
     - name: Plan your deployment
       href: deploy-meetings-microsoft-teams-landing-page.md
     - name: Meetings, webinars, and live events
       items:
+        - name: Quick start 
+          href: quick-start-meetings-live-events.md
         - name: Manage meeting policies
           items: 
             - name: Overview
@@ -739,20 +740,7 @@ items:
               href: audio-conferencing-zones.md
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
-    - name: Live events
-      items: 
-        - name: What are Teams live events?
-          href: teams-live-events/what-are-teams-live-events.md
-        - name: Plan for Teams lives events
-          href: teams-live-events/plan-for-teams-live-events.md
-        - name: Set up for Teams live events
-          href: teams-live-events/set-up-for-teams-live-events.md
-        - name: Use PowerShell to set Teams live events policies
-          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-        - name: Configure Teams live events settings
-          href: teams-live-events/configure-teams-live-events.md
-        - name: Live events recording policies
-          href: teams-live-events/live-events-recording-policies.md
+
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
