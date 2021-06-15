@@ -162,7 +162,7 @@ Perform the following steps:
 |AAStartTime                             |datetime                 |Auto Attendant call start time (UTC)   |
 |AATransferAction                        |string                   |Call transfer target type<br><br>possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
 |Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
-|IsAAInvolved                            |boolean                  |Indicated if AA involved into the call |
+|IsAAInvolved                            |boolean                  |True if Auto Attendant involved        |
 |PSTNMinutes                             |int                      |Total minute usage                     |
 |TotalCallCount                          |int                      |Total number of calls                  |
 
@@ -217,30 +217,30 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|% Abandoned Calls                       |                         |                                       |
+|% Abandoned Calls                       |                         |Measure: TotalCallCount / Total Calls  |
 |Call Count                              |int                      |                                       |
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
 |Call Queue Target Type                  |string                   |Expected call redirection target type  |
 |Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
-|Date                                    |datetime                 |                                       |
-|IsAbandoned                             |boolean                  |                                       |
-|PSTN Connectivity Type                  |                         |                                       |
-|PSTN Total Minutes                      |int                      |                                       |
-|Total Calls                             |                         |                                       |
-|TotalCallCount                          |                         |                                       |
+|Date                                    |datetime                 |                                         |
+|IsAbandoned                             |boolean                  |True if call is not answered by an agent |
+|PSTN Connectivity Type                  |string                   |                                         |
+|PSTN Total Minutes                      |int                      |                                         |
+|Total Calls                             |int                      |Measure:                                          |
+|TotalCallCount                          |int                      |Measure: Sum(Call Count)<br>Sum all all calls in queue |
 
 #### fCallQueueFinalStateAction  CQD fields description
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Average Call Duration (Seconds)         |                         |                                       |
-|Call Count                              |                         |                                       |
+|Average Call Duration (Seconds)         |int                      |                                       |
+|Call Count                              |int                      |                                       |
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Final State Action           |string                   |Call queue final action<br><br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
 |Date                                    |datetime                 |                                       |
-|IsAbandoned                             |boolean                  |                                       |
+|IsAbandoned                             |boolean                  |True if call is abandoned while in queue |
 
 
 ### Cloud Call Queue Agent Timeline
@@ -277,9 +277,9 @@ Perform the following steps:
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Agent Name                              |string                   |                                       |
-|Average Call Duration (Second)          |                         |                                       |
-|Call Count                              |                         |                                       |
-|Call Duration (Minute)                  |                         |                                       |
+|Average Call Duration (Second)          |int                      |                                       |
+|Call Count                              |int                      |                                       |
+|Call Duration (Minute)                  |int                      |                                       |
 |Call Queue Name                         |string                   |                                       |
 |Date                                    |datetime                 |                                       |
 
