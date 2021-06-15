@@ -599,40 +599,40 @@ items:
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
           href: emails-sent-to-users-when-their-settings-change-in-teams.md
-        - name: Enable users to record their name when they join a meeting
-          href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-        - name: Turn on or off entry and exit announcements for meetings
-          href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-        - name: Use NDI® technology in Teams
-          href: use-NDI-in-meetings.md
-        - name: Raise your hand option in Teams meetings
-          href: raise-hand-meetings.md
-        - name: Teams meetings on unsupported browsers
-          href: unsupported-browsers.md
-        - name: Configure desktop sharing in Teams
-          href: configure-desktop-sharing.md
-        - name: Teams cloud meeting recording
-          href: cloud-recording.md
-        - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
-          href: tmr-meeting-recording-change.md
-        - name: Contact Center integrations
-          href: teams-contact-center.md
-        - name: Use the Teams Meeting add-in in Outlook
-          href: teams-add-in-for-outlook.md
-        - name: Configure the Skype Meetings App to work with Teams
-          href: configure-skype-meetings-app-to-work-with-teams.md 
-        - name: Set up the Call me feature for your users
-          href: set-up-the-call-me-feature-for-your-users.md
-        - name: Get a meeting attendance report
-          href: teams-analytics-and-reports/meeting-attendance-report.md
-        - name: Setting up the Meeting Migration Service (MMS)
+        - name: Manage meetings and meeting features
+          items:
+            - name: Enable users to record their name when they join a meeting
+              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+            - name: Turn on or off entry and exit announcements for meetings
+              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+            - name: Use NDI® technology in Teams
+              href: use-NDI-in-meetings.md
+            - name: Teams meetings on unsupported browsers
+              href: unsupported-browsers.md
+            - name: Configure desktop sharing in Teams
+              href: configure-desktop-sharing.md
+            - name: Teams cloud meeting recording
+              href: cloud-recording.md
+            - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
+              href: tmr-meeting-recording-change.md
+            - name: Contact Center integrations
+              href: teams-contact-center.md
+            - name: Use the Teams Meeting add-in in Outlook
+              href: teams-add-in-for-outlook.md
+            - name: Configure the Skype Meetings App to work with Teams
+              href: configure-skype-meetings-app-to-work-with-teams.md 
+            - name: Set up the Call me feature for your users
+              href: set-up-the-call-me-feature-for-your-users.md
+            - name: Get a meeting attendance report
+              href: teams-analytics-and-reports/meeting-attendance-report.md
+            - name: Manage the Whiteboard in Teams
+              href: manage-whiteboard.md
+            - name: Set up Teams meeting add-on for Google Workspace
+              href: google-workspace-addon-teams.md
+            - name: Cloud Video Interop
+              href: cloud-video-interop.md
+        - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Manage the Whiteboard in Teams
-          href: manage-whiteboard.md
-        - name: Set up Teams meeting add-on for Google Workspace
-          href: google-workspace-addon-teams.md
-        - name: Cloud Video Interop
-          href: cloud-video-interop.md
         - name: Set up for webinars in Microsoft Teams
           href: set-up-webinars.md 
 
