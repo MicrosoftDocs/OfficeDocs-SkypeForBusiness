@@ -200,7 +200,7 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
 Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading is not supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the Teams Mobile App itself will be supported provided the version is within three months of the current release.
 
-| | | |
+|&nbsp; |&nbsp; |&nbsp; |
 |---|---|---|
 |![An icon depicting a decision point](media/Get_clients_for_Microsoft_Teams_image4.png)|Decision Point|Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?|
 |![An icon depicting the next steps](media/Get_clients_for_Microsoft_Teams_image5.png)|Next Steps|If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.|
