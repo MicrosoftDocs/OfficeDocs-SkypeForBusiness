@@ -253,7 +253,7 @@ Use Teams live events settings to configure settings for live events that are he
 
 ### Skype for Business Online Connector integrated to Teams PowerShell module
 
-The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. [Learn more](../teams-powershell-overview.md#manage-teams-with-powershell).
+The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.  [Learn more](../teams-powershell-overview.md).
 
 ## September 8, 2020
 
