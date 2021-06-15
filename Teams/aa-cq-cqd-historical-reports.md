@@ -181,7 +181,6 @@ Perform the following steps:
 |Abandoned calls ratio                   |Ratio of successful to abandoned call count                    |
 |Average session length (seconds)        |Call length in seconds grouped by abandoned/successful calls   |
 
-
 #### Report to CQD table and field mapping
 
 |Report Tab         |Report Table Names                                                          |Global Filter |
@@ -199,7 +198,7 @@ Perform the following steps:
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Date selector                       |Dates -> DateTime                     |None                  |
 |Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
-|Incoming call source                |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal  |
+|Incoming call source                |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal<sup>1</sup>  |
 |Avg Waiting Time|fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
 |Call Result                         |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | None |
 |Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
@@ -212,9 +211,7 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Call Queue Identity                     |string                   |                                       |
-
-
+|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
 
 #### fCallQueueAnalytics CQD fields description
 
@@ -222,10 +219,10 @@ Perform the following steps:
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |% Abandoned Calls                       |                         |                                       |
 |Call Count                              |                         |                                       |
-|Call Queue Call Result                  |string                   |Call queue call final state<br><br?possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
+|Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
 |Call Queue Target Type                  |string                   |Expected call redirection target type  |
-|Call Type                               |                         |                                       |
+|Call Type                               |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
 |Date                                    |                         |                                       |
 |IsAbandoned                             |                         |                                       |
 |PSTN Connectivity Type                  |                         |                                       |
@@ -237,7 +234,7 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Average Call Duration (seconds          |                         |                                       |
+|Average Call Duration (seconds)         |                         |                                       |
 |Call Count                              |                         |                                       |
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Final State Action           |string                   |Call queue final action<br><br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
@@ -250,12 +247,11 @@ Perform the following steps:
 
 #### Report description
 
-|Report Section                                          |Description                            |
-|:-------------------------------------------------------|:--------------------------------------|
+|Report Section                                          |Description                                                  |
+|:-------------------------------------------------------|:------------------------------------------------------------|
 |# calls by agent                                        |Distribution of call by call queue and agent                 |
 |Total call duration (seconds) by agent and Call Queue   |Total duration (seconds) of call by agent and call queue     |
-|Average call duration (seconds) by agent name            |Average duration (seconds) of call by agent                  |
-
+|Average call duration (seconds) by agent name           |Average duration (seconds) of call by agent                  |
 
 #### Report to CQD table and field mapping
 
@@ -267,96 +263,31 @@ Perform the following steps:
 |:----------------------------|:----------------------------|:----------------|
 |fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Changed Type" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
 
-|Report Section                      |Table -> Field(s) Used                |Filters Applied       |
-|:-----------------------------------|:-------------------------------------|:---------------------|
-|Agent Name                          |                                      |                      |
-|Call Queue Name                     |                                      |None                  |
-|#Calls By Agent                     |                                      |                      |
-|Distribution by Agent and Call Queue|                                      |                      |
-|Bottom Left                         |                                      | None                 |
-|Agent Call Duration (Seconds) by Agent Name |                              |                      |
+|Report Section                                |Field(s) Used                         |Filters Applied       |
+|:---------------------------------------------|:-------------------------------------|:---------------------|
+|Agent Name                                    |Agent Name                            |None                  |
+|Call Queue Name                               |Call Queue Name                       |None                  |
+|#Calls By Agent                               |Agent Name<br>Call Count<br>Date      |None                  |
+|Distribution by Agent and Call Queue          |Agent Name<br>Call Count<br>Call Duration (Minutes)<br>Call Queue Name |None                      |
+|Bottom Left                                   |Agent Name<br>Average Call Duration (Second)<br>Call Count<br>Call Duration (Minute)<br>Call Queue Name | None |
+|Average Call Duration (Seconds) by Agent Name |Agent Name<br>Average Call Duration (Second)<br>Call Count<br>Call Duration (Minute)<br>Call Queue Name | None |
 
-#### dCQ-CQIdenity CQD fields description
-
-|Name                                    |Data Type                |Description                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-
-
-
-
-
-
-
-
-
-
-
-## CQD fields description
+#### fAgentTimelineAnalytics CQD fields description
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Auto Attendant Identity                 |string                   |Name of resource account attached to AA<br>Example: aa_test@microsoft.com|
-|Auto Attendant Chain Start Time         |datetime                 |AA chain start time                    |
-|Auto Attendant Directory Search Method  |string                   |Last Address book search method        |
-|Auto Attendant Transfer Action          |string                   |Call transfer target type<br>possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
-|Auto Attendant Call Result              |string                   |Call result:<br>§ unknown<br>§ transferred_to_user<br>§  transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|Auto Attendant Call Flow                |string                   |Encapsulates the different states of Auto Attendant Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
-|Is Auto Attendant Involved              |Boolean                  |Indicated if AA involved into the call |
-|Auto Attendant Caller Action Count      |int                      |Count of used action by caller         |
-|Auto Attendant Chain Duration Seconds   |int                      |Duration of call in AA                 |
-|Call Queue Call Result                  |String                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Call Queue Final State Action           |String                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
-|Call Queue Identity                     |String                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
-|Call Queue Is Conference Mode           |Boolean                  |Set to 1 if conference mode enabled on CQ |
-|Call Queue Target Type                  |String                   |Expected call redirection target type     |
-|Transferred From Call Queue Identity    |Boolean                  |Name of resource account attached to CQ from which this call was transferred<br>Example: aa_test@microsoft.com|
-|Call Queue Agent Opt In Count           |int                      |Count of agents available to this queue at the moment of call |
-|Call Queue Agent Count                  |int                      |Count of agents assigned to this queue at the moment of call |
-|Is Call Queue Involved                  |Boolean                  |If call queue is involved into to this call equal 1 |
-
-
-### Power BI data model dimensions
-
-|Name                                    |Data Type                |Description                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|AA Name	                               |string                   |Auto Attendant ID (resource account ID) |
-|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br>§	abs_search<br>§	call_termination<br>§	call_transfer<br>§ main_menu<br>§	user_selection<br>§	speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement |
-|AACallResult                            |string                   |Result of Auto Attendant Call:<br>§	unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – error of AA configuration<br>§	service_terminated – internal AA errors<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§	terminated_transfer_failed<br>§	terminated_automatic_selection<br>§	transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|AAChainDuration                         |string                   |Duration of Auto Attendant call in seconds  |
-|AACount                                 |string                   |# of Auto Attendant involve in call         |
-|AADirectorySearchMethod                 |string                   |Search method used in call:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
-|AAStartTime                             |string                   |Call time in UTC      |
-|AATransferAction                        |string                   |Receiver of call:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ AA - Organizational Auto Attendant entity<br>§ CQ - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity      |
-|PSTNMinutes                             |int                      |Total minute usage                          |
-|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
-|Call Queue Identity                     |string                   |Name of resource account attached to CQ     |
-|Call Queue Target Type                  |string                   |Expected call redirection target type:<br>§ User<br>§ Application Endpoint<br>§ Other     |
-|Call Queue Call Result                  |string                   |Call queue call final state<br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
-|Call Queue Final State Action           |string                   |Call queue final action<br>possible values:<br>§ forward<br>§ disconnect<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other             |
-|Agent Name                              |string                   |User UPN               |
-
-
-### Measures
-
-|Name	                                   |Type	                   |Description                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|AACallerActionCount                     |int	                     |# of action selected by user in AA during the call  |
-|PSTNMinutes                             |int                      |Total minute usage                                  |
-|TotalCallCount                          |int                      |# of calls                                          |
-|Average Call Duration( Seconds)         |int                      |Total duration of call queue calls in seconds     |
-
-
-
-
-
-
-
+|Agent Name                              |                         |                                       |
+|Average Call Duration (Second)          |                         |                                       |
+|Call Count                              |                         |                                       |
+|Call Duration (Minute)                  |                         |                                       |
+|Call Queue Name                         |                         |                                       |
+|Date                                    |                         |                                       |
 
 
 ## Known Issues
 
-- Call Queue and auto attendants are shown by resource account's ID instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
+- Call queue and auto attendants are shown by resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue you must select all the resource accounts assigned to the auto attendant or call queue.
 
-- Only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
+- Only 28 days of history is available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
-- <sup>1</sup> **Incoming call source** in the auto attendant and Call Queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or Call Queue, the **Incoming call source** will be reported as Internal.
+- <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
