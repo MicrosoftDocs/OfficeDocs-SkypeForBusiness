@@ -28,7 +28,7 @@ Viewing class-level Insights as the class educator *does not* require this sync 
 ## Plan your School Data Sync integration
 The Microsoft School Data Sync (a.k.a SDS) provides the School Information System (a.k.a SIS) data and it’s hierarchical structure of the educational system and maps which user is assigned where, as well as provides additional data on the student and organizational hierarchy.
 
-Insights works best when using [SDS V2 file format](./schooldatasync/sds-v2-csv-file-format) and up, but also supports [SDS V1 file format](./schooldatasync/school-data-sync-format-csv-files-for-sds) *with limited functionality*.
+Insights works best when using [SDS V2 file format](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format) and up, but also supports [SDS V1 file format](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds) *with limited functionality*.
 
 
 ### Differences between SDS V1 and V2 file formats
@@ -89,7 +89,7 @@ It also synchronizes the SIS data with Insights.
 
 As an IT Admin, you can choose to use SDS for provisioning only, Insights only or for both.
 
-To Sync your SIS information with Educations Insights follow the instructions in [How to deploy SDS for Insights](./schooldatasync/how-to-deploy-sds-for-insights).
+To Sync your SIS information with Educations Insights follow the instructions in [How to deploy SDS for Insights](https://docs.microsoft.com/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### Deploy SDS
 **If you already use SDS**, we recommend you follow our [best practices](#best-practices). 
@@ -102,7 +102,7 @@ During the deployment process, you can decide if you want to use SDS for provisi
 > If it's the middle of the year and you already created teams manually, use SDS only to provide the user and organizational hierarchy data to Insights, and next year consider using SDS for provisioning users and classes for Teams as well.
 
 ### Verify the sync process
-To verify the sync status progress follow the instructions in [SDS for Insights Data Health and Monitoring](./schooldatasync/sds-for-insights-data-health-and-monitoring).
+To verify the sync status progress follow the instructions in [SDS for Insights Data Health and Monitoring](https://docs.microsoft.com/schooldatasync/sds-for-insights-data-health-and-monitoring).
 
 > [!IMPORTANT]
 > If you run into any problems, [customer support](https://aka.ms/edusupport) is there to help you.
