@@ -147,7 +147,7 @@ When calls are redirected by an auto attendant or call queue, you can choose fro
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another auto attendant or a call queue. Choose the resource account associated with the destination.
 - **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
+- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
 - **Operator** (auto attendant only) - the operator defined for the auto attendant. Defining an operator is optional. An operator can be any of the other destinations in this list.
 
 Auto attendants offer separate call routing options for calls received outside of business hours and on holidays. After-hours call routing allows all the options listed above, while holiday call routing allows only redirecting or disconnecting a call, but no dial key options.

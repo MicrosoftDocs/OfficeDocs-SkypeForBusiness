@@ -58,12 +58,14 @@ Bots can proactively message guest users, but guests can't interact with the bot
 
 ### Install, update, and delete for external users
 
-External users can't install, update, or delete apps into any context, such as a personal, chat, channel, or meeting. They don't have access to the Teams app store.
+External users can't install, update, or delete apps into any context, such as a personal, chat, channel, or meeting. They don't have access to the Teams app store of the hosting organization.
 
 ### Usage behavior and policy for external users
 
-- External users can't use any Teams apps, and when an external user is added to a context with native users, all users – native and external – can no longer use apps.
-- External users aren't impacted by app policies, because they can't use Teams apps.
+- People from other organizations adhere to the hosting organization's global (org-wide default) policy
+- Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations cannot add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
+- After a bot is installed in a meeting chat, it can proactively communicate with people from other organizations in that chat and those people can communicate with bot.
+- The data policies of the hosting organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
 ## Anonymous users
 

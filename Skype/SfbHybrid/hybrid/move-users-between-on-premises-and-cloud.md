@@ -35,7 +35,7 @@ Prerequisites to move a user to the cloud (whether to Teams Only mode or Skype f
 
 - The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user as described in [Configure Azure AD Connect](configure-azure-ad-connect.md).
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
-- The user must be assigned a license for Teams and Skype for Business Online (Plan 2). Even after retirement of Skype for Business Online, the Skype for Business Online licese is still required.  In addition:
+- The user must be assigned a license for Teams and Skype for Business Online (Plan 2). Even after retirement of Skype for Business Online, the Skype for Business Online license is still required.  In addition:
     - If the user is enabled for dial-in conferencing in on premises, by default the user must also have an Audio Conferencing license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. If for some reason you want to move a user to the cloud, but not use audio conferencing functionality, you can override this check by specifying the `BypassAudioConferencingCheck` parameter in `Move-CsUser`.
     - If the user is enabled for Enterprise Voice in on premises, by default the user must have a Phone System license assigned in Teams before you move the user online. Once Migrated to the cloud, the user will be provisioned for Phone System in the cloud. If for some reason you want to move a user to the cloud but not use Phone System functionality, you can override this check by specifying the `BypassEnterpriseVoiceCheck`parameter in `Move-CsUser`.
 
@@ -51,22 +51,22 @@ When a user is moved from on-premises to the cloud:
 
 To move users between on premises and the cloud (whether to Teams or to Skype for Business Online), use either the Move-CsUser cmdlet or the Skype for Business Admin Control Panel, both of which are on-premises tools. These tools support three different move paths:
 
-- [From Skype for Business Server (on premises) directly to Teams Only](move-users-from-on-premises-to-teams.md) (which also moves them to Skype for Business Online).  The option to move directly from on premises to Teams Only is *currently* available in Skype for Business Server 2019 as well as Cumulative Update 8 for Skype for Business Server 2015. Organizations using earlier versions of Skype for Business Server can move users to Teams Only by first moving them to Skype for Business Online, and then applying the TeamsOnly mode to these users once they are online. 
+- [From Skype for Business Server (on premises) directly to Teams Only](move-users-from-on-premises-to-teams.md) (which also moves them to Skype for Business Online).  The behavior to move directly from on premises to Teams Only is now automatic, regardless of which version of Skype for Business Server or Lync Server is used. It is no longer necessary to specify the `-MoveToTeams` switch to get this behavior.  
+- [From Skype for Business Server (on premises) to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md). Customers who still need to move users to Skype for Business Online without becoming TeamsOnly can achieve this by first moving the user to the cloud with TeamsOnly mode, and then updating the user's mode to be something other than TeamsOnly using either `Grant-CsTeamsUpgradePolicy` or the Teams Admin Center. This option will no longer be available once Skype for Business Online is retired.
+- [From online (whether Teams Only or not), to on premises](move-users-from-the-cloud-to-on-premises.md).
 
 > [!NOTE] 
-> It will soon no longer be required to specify the -MoveToTeams switch in Move-CsUser to move users directly from on-premises to TeamsOnly. Currently if this switch is not specified, users transition from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remains unchanged. After retirement, when moving a user from on-premises to the cloud with Move-CsUser, users will automatically be assigned TeamsOnly mode and their meetings from on-premises will be automtically converted to Teams meetings, just as if the -MoveToTeams switch had been specified, regardless of whether the switch is actually specified. We expect to release this functionality before the actual retirement of July 31, 2021.
-
-- [From Skype for Business Server (on premises) to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md). This option will soon no longer be available.
-- [From online (whether Teams Only or not), to on premises](move-users-from-the-cloud-to-on-premises.md).
+> It is no longer required to specify the -MoveToTeams switch in Move-CsUser to move users directly from on-premises to TeamsOnly. Previously if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. Now when moving a user from on-premises to the cloud with Move-CsUser, users are automatically assigned TeamsOnly mode and their meetings from on-premises are automatically converted to Teams meetings, just as if the `-MoveToTeams` switch had been specified, regardless of whether the switch was actually specified. 
+> 
 
 ## Required administrative credentials
 
 To move users between on premises and the cloud, you must use an account with sufficient privileges in both the on-premises Skype for Business Server environment as well as in the Teams organization. You can either use one account that has all the necessary privileges, or you can use two accounts, in which case you would access the on-premises tools using on-premises credentials, and then in those tools you would supply additional credentials for a Teams administrative account.  
 
-- In the on-premises environment, the user performing the move must have the CSServerAdminstrator role in Skype for Business Server.
+- In the on-premises environment, the user performing the move must have the CSServerAdministrator role in Skype for Business Server.
 - In Teams, the user performing the move must meet one of the following criteria:
   - The user is a member of the Global Administrator role.
-  - The user is a member of both the Teams Administrator and User Adminstrator roles.
+  - The user is a member of both the Teams Administrator and User Administrator roles.
   - The user is a member of both the Skype for Business Administrator and User Administrator roles.  
 
     > [!Important]
