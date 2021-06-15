@@ -138,7 +138,7 @@ Perform the following steps:
 |Report Section                                  |Field(s) Used                              |Filters Applied     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Auto Attedant (drop down - top right)           |AA Name                                    |None                |
-|Incoming call source                            |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
+|Incoming call source<sup>1</sup>                |Call Type<br>TotalCallCount                |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Directory search method totals                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
 |Caller actions                                  |AATransferAction<br>TotalCallCount         |None                                                             |
 |Average Seconds in AA<br>Average Caller Actions |AAChainDuration<br>AACallerActionCount     |None                                                             |
@@ -161,7 +161,7 @@ Perform the following steps:
 |AADirectorySearchMethod                 |string                   |Last Address book search method<br><br>possible values:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name       |
 |AAStartTime                             |datetime                 |Auto Attendant call start time (UTC)   |
 |AATransferAction                        |string                   |Call transfer target type<br><br>possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
-|Call Type                               |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal                                       |
+|Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
 |IsAAInvolved                            |boolean                  |Indicated if AA involved into the call |
 |PSTNMinutes                             |int                      |Total minute usage                     |
 |TotalCallCount                          |int                      |Total number of calls                  |
@@ -171,15 +171,15 @@ Perform the following steps:
 
 #### Report description
 
-|Report Section                          |Description                            |
-|:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>   |
-|Call volume                             |Distribution of call by call queues                            |
-|Caller result                           |Distribution of call by call result                            |
-|Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
-|Transfer/Forward target totals          |Distribution of call forwarded by call result                  |
-|Abandoned calls ratio                   |Ratio of successful to abandoned call count                    |
-|Average session length (seconds)        |Call length in seconds grouped by abandoned/successful calls   |
+|Report Section                          |Description                                                        |
+|:---------------------------------------|:------------------------------------------------------------------|
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>  |
+|Call volume                             |Distribution of call by call queues                                |
+|Caller result                           |Distribution of call by call result                                |
+|Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result       |
+|Transfer/Forward target totals          |Distribution of call forwarded by call result                      |
+|Abandoned calls ratio                   |Ratio of successful to abandoned call count                        |
+|Average session length (seconds)        |Call length in seconds grouped by abandoned/successful calls       |
 
 #### Report to CQD table and field mapping
 
@@ -198,7 +198,7 @@ Perform the following steps:
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Date selector                       |Dates -> DateTime                     |None                  |
 |Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
-|Incoming call source                |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal<sup>1</sup>  |
+|Incoming call source<sup>1</sup>                |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Avg Waiting Time|fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
 |Call Result                         |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | None |
 |Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
@@ -222,7 +222,7 @@ Perform the following steps:
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
 |Call Queue Target Type                  |string                   |Expected call redirection target type  |
-|Call Type                               |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
+|Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
 |Date                                    |                         |                                       |
 |IsAbandoned                             |                         |                                       |
 |PSTN Connectivity Type                  |                         |                                       |
