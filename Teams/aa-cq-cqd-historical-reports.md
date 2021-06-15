@@ -152,16 +152,16 @@ Perform the following steps:
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |string                   |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
 |AACallerActionCount                     |int	                     |Count of actions selected by caller in Auto Attendant during the call  |
-|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call<br><br>possible values:<br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |string                   |Final call result<br><br>possible values:<br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ transferred_to_operator<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
+|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call -- possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |string                   |Final call result -- possible values:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ transferred_to_operator<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
 |AAChainDuration                         |int                      |Duration of call in Auto Attendant     |
 |AAChainIndex                            |string                   |                                       |
 |AAConnectivityType                      |string                   |                                       |
 |AACount                                 |int                      |Number of Auto Attendants involved in call    |
-|AADirectorySearchMethod                 |string                   |Last address book search method<br><br>possible values:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name |
+|AADirectorySearchMethod                 |string                   |Last address book search method -- possible values:<br><br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name |
 |AAStartTime                             |datetime                 |Auto Attendant call start time (UTC)   |
-|AATransferAction                        |string                   |Call transfer target type<br><br>possible values:<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ hunt_group - Call Queue entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ shared_voicemail - shared voicemail entity<br>§ unknown - entity type was not specified<br>§ user - user entity |
-|Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
+|AATransferAction                        |string                   |Call transfer target type -- possible values:<br><br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ hunt_group - Call Queue entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ shared_voicemail - shared voicemail entity<br>§ unknown - entity type was not specified<br>§ user - user entity |
+|Call Type<sup>1</sup>                   |string                   |Type of call -- possible values:<br><br>§ External<br>§ Internal |
 |IsAAInvolved                            |boolean                  |True if Auto Attendant involved        |
 |PSTNMinutes                             |int                      |Total minute usage                     |
 |TotalCallCount                          |int                      |Total number of calls                  |
@@ -218,10 +218,10 @@ Perform the following steps:
 |Name                                    |Data Type                |Description                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
 |Call Count                              |int                      |                                         |
-|Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ agent_joined_conference<br>§ declined<br>§ error<br>§ failed<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Call Queue Call Result                  |string                   |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ error<br>§ failed<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
 |Call Queue Target Type                  |string                   |Expected call redirection target type    |
-|Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
+|Call Type<sup>1</sup>                   |string                   |Type of call -- possible values:<br><br>§ External<br>§ Internal |
 |Date                                    |datetime                 |Call Queue call start time (UTC)         | 
 |IsAbandoned                             |boolean                  |True if call is not answered by an agent |
 |PSTN Connectivity Type                  |string                   |                                         |
@@ -241,8 +241,8 @@ Perform the following steps:
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Average Call Duration (Seconds)         |int                      |                                       |
 |Call Count                              |int                      |                                       |
-|Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ agent_joined_conference<br>§ declined<br>§ error<br>§ failed<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Call Queue Final State Action           |string                   |Call queue final action<br><br>possible values:<br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
+|Call Queue Call Result                  |string                   |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ error<br>§ failed<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Call Queue Final State Action           |string                   |Call queue final action -- possible values:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
 |Date                                    |datetime                 |                                       |
 |IsAbandoned                             |boolean                  |True if call is abandoned while in queue |
