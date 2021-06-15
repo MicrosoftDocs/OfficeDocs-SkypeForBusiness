@@ -1475,7 +1475,8 @@ action.
 | environment   | environment name  |
 | mediaService  | which media service is being used (SPO, ODB, ODC, IC3-AMS, Unknown) |
 | mediaType     | type of the media being played  |
-| playbackTech  | playback tech of the video  |
+| playbackTech  | playback tech of the media  |
+| correlationId | correlation id for the media if any |
 
 
 ### b) Properties sent with all OnePlayer User Action Events
@@ -1506,6 +1507,7 @@ action.
 ### c) Properties sent only with Heartbeat Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | current playback time of the media |
 | isLoaded | is media loaded |
 | loadTimeMs | load time taken in milliseconds |
 | numberOfStalls | number of stalls during playback |
@@ -1520,3 +1522,7 @@ action.
 | errorType | error type for the error if any |
 | errorMessage | error message for the error if any |
 | errorStack | extended error info for the error if any |
+| metaUrl | meta url for media |
+| odspDocId | odsp doc id for media |
+| siteId | site id for media |
+| teamsCallId | teams call id for media if any |
