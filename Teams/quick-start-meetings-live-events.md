@@ -1,5 +1,5 @@
 ---
-title: Quick start - Meetings in Microsoft Teams
+title: Quick start - Meetings, webinars, and live events
 ms.reviewer: 
 description: A quick start guide for administrators to get licenses for, roll out, and configure  meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
@@ -67,7 +67,9 @@ Don't forget about [managing your users' devices](./devices/device-management.md
 
 **Webinars** are structured meetings where presenters and participants have clear roles. Webinars are often used for training purposes or sales and marketing presentation scenarios. A key difference is that webinars support registration.
 
-After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md). With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.   **IS THE LAST SENTENCE TRUE?**
+After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. For more information about user capabilities, see [Get started with Teams webinars](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3). 
+
+For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md. With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.   **IS THE LAST SENTENCE TRUE?**
 
 ### Live events
 
