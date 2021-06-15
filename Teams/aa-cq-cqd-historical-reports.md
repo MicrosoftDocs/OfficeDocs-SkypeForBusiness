@@ -108,7 +108,7 @@ Perform the following steps:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
   
-## Auto Attendant and Call Queue Historical Reports
+## Auto Attendant and Call Queue Historical Reports Definitions
 
 ### Cloud Auto Attendant Analytics
 
@@ -116,11 +116,11 @@ Perform the following steps:
 
 |Report Section                          |Description                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Incoming call source<sup>1</sup>        |Distribution of call by Internal/External call source             |
-|Directory search method totals          |Distribution of call by search type                               |
-|Caller action                           |Distribution of call by call receiver                             |
-|Call result                             |Distribution of call by final call state                          |
-|Caller action count                     |Distribution of call by number action used during the call        |
+|Incoming call source<sup>1</sup>        |Distribution of calls by Internal/External call source             |
+|Directory search method totals          |Distribution of calls by search type                               |
+|Caller action                           |Distribution of calls by call receiver                             |
+|Call result                             |Distribution of calls by final call state                          |
+|Caller action count                     |Distribution of calls by number action used during the call        |
 
 
 #### Report to CQD table and field mapping
@@ -215,20 +215,20 @@ Perform the following steps:
 
 #### fCallQueueAnalytics CQD fields description
 
-|Name                                    |Data Type                |Description                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|% Abandoned Calls                       |                         |Measure: TotalCallCount / Total Calls  |
-|Call Count                              |int                      |                                       |
+|Name                                    |Data Type                |Description                              |
+|:---------------------------------------|:------------------------|:----------------------------------------|
+|% Abandoned Calls                       |percentage               |Measure: TotalCallCount / Total Calls    |
+|Call Count                              |int                      |                                         |
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
-|Call Queue Target Type                  |string                   |Expected call redirection target type  |
+|Call Queue Target Type                  |string                   |Expected call redirection target type    |
 |Call Type<sup>1</sup>                   |string                   |Type of call<br><br>possible values:<br>§ External<br>§ Internal |
-|Date                                    |datetime                 |                                         |
+|Date                                    |datetime                 |Call Queue call start time (UTC)         | 
 |IsAbandoned                             |boolean                  |True if call is not answered by an agent |
 |PSTN Connectivity Type                  |string                   |                                         |
-|PSTN Total Minutes                      |int                      |                                         |
-|Total Calls                             |int                      |Measure:                                          |
-|TotalCallCount                          |int                      |Measure: Sum(Call Count)<br>Sum all all calls in queue |
+|PSTN Total Minutes                      |int                      |Total minute usage                       |
+|Total Calls                             |int                      |Measure:                                 |
+|TotalCallCount                          |int                      |Measure: Sum(Call Count)                 |
 
 #### fCallQueueFinalStateAction  CQD fields description
 
