@@ -1434,5 +1434,25 @@ action.
 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
+| aadUserId     | user id of the user |                                
+| tenantId      | tenant id |
+| hostApp       | name of the host app |
+| hostSettings  | attributes set by host app |
+| loadMode      | load mode of the player |
+| platform      | platform of OnePlayer(iOS / Android) |
+| flightFilters | description |
+| engineVersion | Operating System Version |
+| component     | component name (OnePlayer) |
+| hostIntegrationType | host integration type(Package, OneUp etc.) |
+| ring          | ring to which user belongs |
+| version       | version of the OnePlayer being userd |
+| language      | locale/ language of the app |
+| flightsOverridden | bool for flights overridden or not |
+| engineName    | Underlying player name (AVFoundation for iOS / ExoPlayer for Android) |
+| hostVersion   | version of the host app |
+| accountType   | type of user account (business etc.) |
+| hostPlatform  | platform for host app |
+| playbackSessionId | session id for playback |
+
+
 
