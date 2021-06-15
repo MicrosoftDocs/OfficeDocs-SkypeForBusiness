@@ -111,7 +111,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 The following table shows the network sites defined in this example.
 
-||Site 1 |Site 2 |
+|&nbsp;|Site 1 |Site 2 |
 |---------|---------|---------|
 |Site ID    |    Site 1 (Delhi)     |  Site 2 (Hyderabad)       |
 |Region ID  |     Region 1 (India)    |   Region 1 (India)      |
@@ -135,7 +135,8 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 
 The following table shows the subnets defined in this example.
 
-||Site 1 |Site 2 |
+|&nbsp;
+|Site 1 |Site 2 |
 |---------|---------|---------|
 |Subnet ID   |    192.168.0.0     |  2001:4898:e8:25:844e:926f:85ad:dd8e     |
 |Mask  |     24    |   120      |

@@ -21,8 +21,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Manage teams in the Microsoft Teams admin center
-==========================================
+# Manage teams in the Microsoft Teams admin center
+
 
 ## Overview
 
