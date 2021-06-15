@@ -108,17 +108,32 @@ Please perform these steps:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
   
-## Report name to CQD table and field mapping
+## Auto Attendant and Call Queue Historical Reports
 
 ### Cloud Auto Attendant Analytics
 
-|Power BI Report Tab   |Report Table Name     |Global Filter                          |
+#### Report description
+
+|Report Section                          |Description                                                       |
+|:---------------------------------------|:-----------------------------------------------------------------|
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup> |
+|Directory search method totals          |Distribution of call by search type                               |
+|Caller action                           |Distribution of call by call receiver                             |
+|Call result                             |Distribution of call by final call state                          |
+|Caller action count                     |Distribution of call by number action used during the call        |
+
+
+#### Report to CQD table and field mapping
+
+|Report Tab            |Report Table Name     |Global Filter                          |
 |:---------------------|:---------------------|:--------------------------------------|
 |Auto Attendant        |fAutoAttendant        |AAStartTime is within the last 28 days |
- 
+
+
 |Report Table Name            |Source Table Name            |Processing       |
 |:----------------------------|:----------------------------|:----------------|
 |fAutoAttedant                |AutoAttendant                |Source = AutoAttendant, <br>#"Filtered Rows" = Table.SelectRows(Source, each true), <br>#"Auto Attendant" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@"))), <br>#"Changed Type" = Table.TransformColumnTypes(#"Auto Attendant",{{"AAStartTime", type datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
+
 
 |Report Section                                  |Field(s) Used                              |Filters Applied     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
@@ -153,6 +168,21 @@ Please perform these steps:
 
 
 ### Cloud Call Queue Analytics
+
+#### Report description
+
+|Report Section                          |Description                            |
+|:---------------------------------------|:--------------------------------------|
+|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>   |
+|Call volume                             |Distribution of call by call queues                            |
+|Caller result                           |Distribution of call by call result                            |
+|Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
+|Transfer/Forward target totals          |Distribution of call forwarded by call result                  |
+|Abandoned calls ratio                   |Ratio of successful to abandoned call count                    |
+|Average session length (seconds)        |Call length in seconds grouped by abandoned/successful calls   |
+
+
+#### Report to CQD table and field mapping
 
 |Report Tab         |Report Table Names                                                          |Global Filter |
 |:------------------|:---------------------------------------------------------------------------|:-------------|
@@ -273,28 +303,7 @@ Please perform these steps:
 |Average Call Duration( Seconds)         |int                      |Total duration of call queue calls in seconds     |
 
 
-### Power BI graph description Auto Attendant
 
-|Name	                                   |Description                            |
-|:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>|
-|Directory search method totals          |Distribution of call by search type                         |
-|Caller action                           |Distribution of call by call receiver                       |
-|Call result                             |Distribution of call by final call state                    |
-|Caller action count                     |Distribution of call by number action used during the call  |
-
-
-### Call Queue
-
-|Name	                                   |Description                            |
-|:---------------------------------------|:--------------------------------------|
-|Incoming call source                    |Distribution of call by Internal/External call source<sup>1</sup>   |
-|Call volume                             |Distribution of call by call queues                            |
-|Caller result                           |Distribution of call by call result                            |
-|Timeout/Overflow call total action      |Distribution of NOT forwarded(abandoned) call by call result   |
-|Transfer/Forward target totals          |Distribution of call forwarded by call result                  |
-|Abandoned calls ratio                   |Ratio of successful to abandoned call count                    |
-|Average session length (seconds)        |Call length in seconds grouped by abandoned/successful calls   |
 
 
 
