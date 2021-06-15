@@ -1430,8 +1430,8 @@ action.
 - **Ended** - Confirms if the player has ended playing
 - **PlayerHeartbeat** - This is recurring event sent to log the current status of player and playback
 
-### Properties sent with all OnePlayer events
-##### Standard Properties
+### a) Properties sent with all OnePlayer events
+##### a.1 Standard Properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | eventType | type of event (AppLogic, ErrorAlert, Performance, UserAction) |
@@ -1443,7 +1443,7 @@ action.
 | version       | version of the OnePlayer being userd |
 | aadUserId     | user id of the user |                                
 
-##### Player Properties
+##### a.2 Player Properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | engineName    | Underlying player name (AVFoundation for iOS / ExoPlayer for Android) |
@@ -1451,7 +1451,7 @@ action.
 | loadMode      | load mode of the player |
 | playbackSessionId | session id for playback |
 
-##### Host Properties
+##### a.3 Host Properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | hostIntegrationType | host integration type(Package, OneUp etc.) |
@@ -1460,7 +1460,7 @@ action.
 | hostApp       | name of the host app |
 | hostVersion   | version of the host app |
 
-##### Experimentation Properties
+##### a.4 Experimentation Properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | ring          | ring to which user belongs |
@@ -1468,7 +1468,7 @@ action.
 | flightFilters | description |
 | flightsOverridden | bool for flights overridden or not |
 
-#### Service Properties
+##### a.5 Service Properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | contentType   | type of content being served |
@@ -1478,78 +1478,45 @@ action.
 | playbackTech  | playback tech of the video  |
 
 
-### Properties sent with all OnePlayer User Action Events
+### b) Properties sent with all OnePlayer User Action Events
 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | actionType    | type of action being performed like tap, drag, flick etc. |
 | isIntentional | boolean value if the action is intentional or not |
 
-### Properties sent with changePlaybackQuality Event
+#### b.1 Properties sent with changePlaybackQuality Event
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | currentPlaybackQuality | current playback quality |
 
 
-### Properties sent with ChangePlaybackSpeed Event
+#### b.2 Properties sent with ChangePlaybackSpeed Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | previousPlaybackRate  | previous playback rate of the video |
 | currentPlaybackRate   | current playback rate of the video |
 
-### Properties sent with PlayerSeek Event
+#### b.3 Properties sent with PlayerSeek Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | seekSource    | source of seek (seekbar, forwardButton, backwardButton) |
 | seekValue     | seek position |
 
-### Properties sent with Playback Events Event
+### c) Properties sent only with Heartbeat Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
-| mediaCurrentTime | 13.542414672 |
-
-### Properties sent with Playback Events - Playing, Paused, Buffering, Ended
-| Property name | Description                                                                                    |
-|---------------|------------------------------------------------------------------------------------------------|
-| playedSeconds | 13.608663082122803 |
-| loadTimeMs | 40308 |
-| siteId | 5678 |
-| numberOfStalls | 1 |
-| environment | prod |
-| metaUrl | www.meta.com |
-| mediaType | Video |
-| observedBitrate | 0.0 |
-| teamsCallId | 910 |
-| hostSettings | host settings {\\\"moreOptionsEnabled\\\":true,\\\"shareFeatureEnabled\\\":true,\\\"playbackQualityFeatureEnabled\\\":true,\\\"playbackSpeedFeatureEnabled\\\":true} |
-| mediaService | ODB |
-| timeSinceSourceSetMs | 78723 |
-| triggerType | buffering |
-| odspDocId | 1234 |
-| correlationId | 8BC2A5D7-E43E-4EE9-8648-27727CE3FEC5 |
-| rebufferingSeconds | 0.0 |
-| contentType | generic |
-| playbackTech | hls |
-
-### Properties sent only with Heartbeat Event Event
-| Property name | Description |
-|---------------|------------------------------------------------------------------------------------------------|
-| errorTelemetry | {errorCorrelationId, errorId, errorMessage, errorType, extendedErrorJsonData, extendedErrorInfo}
-| loadTimeMs | 40308 |
-| numberOfStalls | 1 |
-| observedBitrate | 0.0 |
-| playedSeconds | 13.608663082122803 |
-| rebufferingSeconds | 0.0 |
-| timeSinceSourceSetMs | 78723 |
-| triggerType | buffering |
-
-| environment | prod |
-| metaUrl | www.meta.com |
-| mediaType | Video |
-| teamsCallId | 910 |
-| hostSettings | host settings {\\\"moreOptionsEnabled\\\":true,\\\"shareFeatureEnabled\\\":true,\\\"playbackQualityFeatureEnabled\\\":true,\\\"playbackSpeedFeatureEnabled\\\":true} |
-| mediaService | ODB |
-| odspDocId | 1234 |
-| correlationId | 8BC2A5D7-E43E-4EE9-8648-27727CE3FEC5 |
-| contentType | generic |
-| playbackTech | hls |
-| siteId | 5678 |
+| isLoaded | is media loaded |
+| loadTimeMs | load time taken in milliseconds |
+| numberOfStalls | number of stalls during playback |
+| observedBitrate | observed bit rate during playback |
+| playedSeconds | played seconds till the event |
+| rebufferingSeconds | rebuffering seconds during playback |
+| timeSinceSourceSetMs | item since source was set ms |
+| triggerType | trigger type (buffering, error, errorLog etc.) |
+| errorId | error id for the error if any |
+| errorCorrelationId | error correlation id for the error if any |
+| errorLog | error log for the error if any |
+| errorType | error type for the error if any |
+| errorMessage | error message for the error if any |
+| errorStack | extended error info for the error if any |
