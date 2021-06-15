@@ -57,7 +57,7 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
 >[!IMPORTANT]
->**Emergency addresses:** Emergency addresses associated with a number acquired from the operator are managed directly with the operator. Please contact the operator to make any changes.
+>**Emergency addresses:** Phone numbers associated with emergency addresses are managed by your operator. Once you create emergency addresses in the Teams admin center, your operator will assign phone numbers to those emergency addresses. To make changes to emergency addresses and their assigned phone numbers, contact your operator.
 
 ### Acquire numbers for new Teams users
 
@@ -65,7 +65,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. **Make sure you're in TeamsOnly mode.** To check, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. The coexistence mode should be set to Teams only.
+2. **Make sure you're in Teams only mode.** To check if your organization is in Teams only mode, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. To check if a user is in Teams only mode, go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** verify that your coexistence mode is set to 'Teams only.'
 
 3. **Create and validate emergency addresses.** In the Teams admin center, go to **Locations > Emergency addresses** to set up emergency addresses. To learn more, see [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md).
 
