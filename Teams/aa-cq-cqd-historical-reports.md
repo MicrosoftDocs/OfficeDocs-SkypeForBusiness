@@ -42,13 +42,13 @@ You can use the free version of Power BI Desktop. The minimum compatible version
 
 ## Permissions to access the CQD pipeline
 
-The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Please refer to the [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) for more information.
+The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Refer to the [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) for more information.
 
 ## Installation 
 
 The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
 
-Please perform these steps:
+Perform the following steps:
 
 - Download the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) and save the zip file to a directory on your computer.
 
@@ -69,11 +69,11 @@ Please perform these steps:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - The region will be displayed after the **/** like in the above example where there region is noam.
+    - The region will be displayed after the **/** as in the above example where there region is: noam
 
  - The report will launch with sample data.
  
- - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
+ - To see your own data, click **Refresh** in the Home tab under Queries in Power BI Desktop.
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option":::
 
@@ -91,7 +91,7 @@ You will have to refresh the data to see the new analytics data.
 
 ## Customization 
 
-You are able to customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, etc.
+You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, etc.
 
 You cannot add additional data fields other than the ones provided in the report.
 
@@ -99,7 +99,7 @@ You cannot add additional data fields other than the ones provided in the report
 
 The following steps assume you have already completed the Installation steps.
 
-Please perform these steps:
+Perform the following steps:
 - Select **View tab** on the ribbon.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme":::
@@ -199,9 +199,9 @@ Please perform these steps:
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Date selector                       |Dates -> DateTime                     |None                  |
 |Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
-|Incoming call soure                 |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal  |
+|Incoming call source                |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal  |
 |Avg Waiting Time|fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
-|Call Result                         |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Qeueue Call Result | None |
+|Call Result                         |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | None |
 |Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
 |Transfer/Forard target totals       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |None |
 |Call volumes                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |None |
@@ -321,6 +321,6 @@ Please perform these steps:
 
 - Call Queue and auto attendants are shown by resource account's ID instead of Call Queue/auto attendant names.  To show all the traffic for an auto attendant or Call Queue you must select all the resource accounts assigned to the auto attendant or Call Queue.
 
-- Only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered end user identifiable information and is subject to data privacy retention policies.
+- Only 28 days of history is available in the dashboard as Call Queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
 - <sup>1</sup> **Incoming call source** in the auto attendant and Call Queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or Call Queue, the **Incoming call source** will be reported as Internal.
