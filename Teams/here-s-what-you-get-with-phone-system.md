@@ -38,7 +38,7 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 
 Phone System provides the following features. Unless otherwise noted, features are available in both Teams and Skype for Business Online.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |**Phone System feature** <br/> |**Description** <br/> |
 |[Cloud auto attendants](what-are-phone-system-auto-attendants.md) <br/> |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> Note that users *do not* need to be voice enabled to receive calls from the auto attendant. |

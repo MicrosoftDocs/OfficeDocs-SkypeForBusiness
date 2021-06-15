@@ -71,7 +71,7 @@ Use the steps below to set up a couple teams and onboard a few early adopters to
 
 If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the recommended path above for a Teams deployment, but first you need to do some extra planning. Start by reviewing the guidance in the table below that applies to your organization's profile.
 
-|  |Your organization's profile|Guidance  |
+|&nbsp;|Your organization's profile|Guidance  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|I'm currently using Skype for Business Online, and I'm ready to move to Teams. |Go to [Upgrade to Teams](upgrade-start-here.md).        |
 |<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|My organization is running Skype for Business Server, and I want to roll out Teams. |For a full-scale Teams rollout, first you need to configure hybrid connectivity between your on-premises environment and Microsoft 365. Start by reading [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>You should also review [Upgrade to Teams](upgrade-start-here.md).   |
