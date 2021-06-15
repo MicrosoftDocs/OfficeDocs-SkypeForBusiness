@@ -217,7 +217,6 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|% Abandoned Calls                       |percentage               |Measure: TotalCallCount / Total Calls    |
 |Call Count                              |int                      |                                         |
 |Call Queue Call Result                  |string                   |Call queue call final state<br><br>possible values:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
@@ -227,6 +226,12 @@ Perform the following steps:
 |IsAbandoned                             |boolean                  |True if call is not answered by an agent |
 |PSTN Connectivity Type                  |string                   |                                         |
 |PSTN Total Minutes                      |int                      |Total minute usage                       |
+
+#### fCallQueueAnalytics measures description
+
+|Name                                    |Data Type                |Description                              |
+|:---------------------------------------|:------------------------|:----------------------------------------|
+|% Abandoned Calls                       |percentage               |Measure: TotalCallCount / Total Calls    |
 |Total Calls                             |int                      |Measure:                                 |
 |TotalCallCount                          |int                      |Measure: Sum(Call Count)                 |
 
