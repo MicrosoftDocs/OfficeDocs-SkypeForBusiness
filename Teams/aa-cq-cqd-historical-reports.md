@@ -246,6 +246,49 @@ Perform the following steps:
 |IsAbandoned                             |                         |                                       |
 
 
+### Cloud Call Queue Agent Timeline
+
+#### Report description
+
+|Report Section                                          |Description                            |
+|:-------------------------------------------------------|:--------------------------------------|
+|# calls by agent                                        |Distribution of call by call queue and agent                 |
+|Total call duration (seconds) by agent and Call Queue   |Total duration (seconds) of call by agent and call queue     |
+|Average call duration (seconds) by agent name            |Average duration (seconds) of call by agent                  |
+
+
+#### Report to CQD table and field mapping
+
+|Report Tab         |Report Table Names        |Global Filter |
+|:------------------|:-------------------------|:-------------|
+|Agent Timeline     |fAgentTimelineAnalytics   |None          |
+ 
+|Report Table Name            |Source Table Name            |Processing       |
+|:----------------------------|:----------------------------|:----------------|
+|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Changed Type" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
+
+|Report Section                      |Table -> Field(s) Used                |Filters Applied       |
+|:-----------------------------------|:-------------------------------------|:---------------------|
+|Agent Name                          |                                      |                      |
+|Call Queue Name                     |                                      |None                  |
+|#Calls By Agent                     |                                      |                      |
+|Distribution by Agent and Call Queue|                                      |                      |
+|Bottom Left                         |                                      | None                 |
+|Agent Call Duration (Seconds) by Agent Name |                              |                      |
+
+#### dCQ-CQIdenity CQD fields description
+
+|Name                                    |Data Type                |Description                            |
+|:---------------------------------------|:------------------------|:--------------------------------------|
+
+
+
+
+
+
+
+
+
 
 
 ## CQD fields description
@@ -307,13 +350,6 @@ Perform the following steps:
 
 
 
-### Agent timeline
-
-|Name	                                                   |Description                            |
-|:-------------------------------------------------------|:--------------------------------------|
-|# calls by agent                                        |Distribution of call by call queue and agent                 |
-|Total call duration (seconds) by agent and Call Queue   |Total duration (seconds) of call by agent and call queue     |
-|Average call duration (seconds) by agent name            |Average duration (seconds) of call by agent                  |
 
 
 
