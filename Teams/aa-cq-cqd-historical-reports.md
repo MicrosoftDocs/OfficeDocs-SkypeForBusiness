@@ -279,14 +279,14 @@ Perform the following steps:
 
 #### fAgentTimelineAnalytics CQD fields description
 
-|Name                                    |Data Type                |Description                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|Agent Name                              |string                   |                                       |
-|Average Call Duration (Second)          |int                      |                                       |
-|Call Count                              |int                      |                                       |
-|Call Duration (Minute)                  |int                      |                                       |
-|Call Queue Name                         |string                   |                                       |
-|Date                                    |datetime                 |                                       |
+|Name                                    |Data Type                |Description                                         |
+|:---------------------------------------|:------------------------|:---------------------------------------------------|
+|Agent Name                              |string                   |User UPN                                            |
+|Average Call Duration (Second)          |int                      |The average duration of call queue calls in seconds |
+|Call Count                              |int                      |                                                    |
+|Call Duration (Minute)                  |int                      |                                                    |
+|Call Queue Name                         |string                   |                                                    |
+|Date                                    |datetime                 |                                                    |
 
 
 ## Known Issues
