@@ -1414,7 +1414,7 @@ action.
 
 ## OnePlayer Events
 
-### OnePlayer User Events
+### OnePlayer User Action Events
 - **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view
 - **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view
 - **PlayerSeek** - Confirms if the user seeks the video either using seek bar or forward/backward buttons in the OnePlayer view
@@ -1431,28 +1431,125 @@ action.
 - **PlayerHeartbeat** - This is recurring event sent to log the current status of player and playback
 
 ### Properties sent with all OnePlayer events
+##### Standard Properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | type of event (AppLogic, ErrorAlert, Performance, UserAction) |
+| accountType   | type of user account (business etc.) |
+| component     | OnePlayer |
+| language      | locale/ language of the app |
+| platform      | platform of OnePlayer(iOS / Android) |
+| tenantId      | tenant id |
+| version       | version of the OnePlayer being userd |
+| aadUserId     | user id of the user |                                
+
+##### Player Properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | Underlying player name (AVFoundation for iOS / ExoPlayer for Android) |
+| engineVersion | Operating System Version |
+| loadMode      | load mode of the player |
+| playbackSessionId | session id for playback |
+
+##### Host Properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | host integration type(Package, OneUp etc.) |
+| hostPlatform  | platform for host app |
+| hostProperties| host properties if any |
+| hostApp       | name of the host app |
+| hostVersion   | version of the host app |
+
+##### Experimentation Properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| ring          | ring to which user belongs |
+| hostSettings  | attributes set by host app (moreOptionsEnabled, shareFeatureEnabled, playbackQualityFeatureEnabled, playbackSpeedFeatureEnabled) |
+| flightFilters | description |
+| flightsOverridden | bool for flights overridden or not |
+
+#### Service Properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | type of content being served |
+| environment   | environment name  |
+| mediaService  | which media service is being used (SPO, ODB, ODC, IC3-AMS, Unknown) |
+| mediaType     | type of the media being played  |
+| playbackTech  | playback tech of the video  |
+
+
+### Properties sent with all OnePlayer User Action Events
 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| aadUserId     | user id of the user |                                
-| tenantId      | tenant id |
-| hostApp       | name of the host app |
-| hostSettings  | attributes set by host app |
-| loadMode      | load mode of the player |
-| platform      | platform of OnePlayer(iOS / Android) |
-| flightFilters | description |
-| engineVersion | Operating System Version |
-| component     | component name (OnePlayer) |
-| hostIntegrationType | host integration type(Package, OneUp etc.) |
-| ring          | ring to which user belongs |
-| version       | version of the OnePlayer being userd |
-| language      | locale/ language of the app |
-| flightsOverridden | bool for flights overridden or not |
-| engineName    | Underlying player name (AVFoundation for iOS / ExoPlayer for Android) |
-| hostVersion   | version of the host app |
-| accountType   | type of user account (business etc.) |
-| hostPlatform  | platform for host app |
-| playbackSessionId | session id for playback |
+| actionType    | type of action being performed like tap, drag, flick etc. |
+| isIntentional | boolean value if the action is intentional or not |
+
+### Properties sent with changePlaybackQuality Event
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | current playback quality |
 
 
+### Properties sent with ChangePlaybackSpeed Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | previous playback rate of the video |
+| currentPlaybackRate   | current playback rate of the video |
 
+### Properties sent with PlayerSeek Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | source of seek (seekbar, forwardButton, backwardButton) |
+| seekValue     | seek position |
+
+### Properties sent with Playback Events Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | 13.542414672 |
+
+### Properties sent with Playback Events - Playing, Paused, Buffering, Ended
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| playedSeconds | 13.608663082122803 |
+| loadTimeMs | 40308 |
+| siteId | 5678 |
+| numberOfStalls | 1 |
+| environment | prod |
+| metaUrl | www.meta.com |
+| mediaType | Video |
+| observedBitrate | 0.0 |
+| teamsCallId | 910 |
+| hostSettings | host settings {\\\"moreOptionsEnabled\\\":true,\\\"shareFeatureEnabled\\\":true,\\\"playbackQualityFeatureEnabled\\\":true,\\\"playbackSpeedFeatureEnabled\\\":true} |
+| mediaService | ODB |
+| timeSinceSourceSetMs | 78723 |
+| triggerType | buffering |
+| odspDocId | 1234 |
+| correlationId | 8BC2A5D7-E43E-4EE9-8648-27727CE3FEC5 |
+| rebufferingSeconds | 0.0 |
+| contentType | generic |
+| playbackTech | hls |
+
+### Properties sent only with Heartbeat Event Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| errorTelemetry | {errorCorrelationId, errorId, errorMessage, errorType, extendedErrorJsonData, extendedErrorInfo}
+| loadTimeMs | 40308 |
+| numberOfStalls | 1 |
+| observedBitrate | 0.0 |
+| playedSeconds | 13.608663082122803 |
+| rebufferingSeconds | 0.0 |
+| timeSinceSourceSetMs | 78723 |
+| triggerType | buffering |
+
+| environment | prod |
+| metaUrl | www.meta.com |
+| mediaType | Video |
+| teamsCallId | 910 |
+| hostSettings | host settings {\\\"moreOptionsEnabled\\\":true,\\\"shareFeatureEnabled\\\":true,\\\"playbackQualityFeatureEnabled\\\":true,\\\"playbackSpeedFeatureEnabled\\\":true} |
+| mediaService | ODB |
+| odspDocId | 1234 |
+| correlationId | 8BC2A5D7-E43E-4EE9-8648-27727CE3FEC5 |
+| contentType | generic |
+| playbackTech | hls |
+| siteId | 5678 |
