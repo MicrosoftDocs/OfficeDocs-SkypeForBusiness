@@ -1292,8 +1292,8 @@ action.
 - **delete_planner_task** - Confirms the successful deletion of a shared task item.
 - **json_parse_failure**- Provides information on the frequently of JSON parsing issues.
 - **getProfilePicture**- Necessary service call to get user profile picture. 
-- **get_resource_token_async**: Required service call to acquires tokens for Azure Active Directory resources asynchronously
-- **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously
+- **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
+- **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
 - **get_sender_sub_scenario** - get sender sub scenario in activity.
 - **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
