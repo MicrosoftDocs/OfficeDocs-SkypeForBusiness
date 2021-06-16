@@ -1424,10 +1424,6 @@ action.
 - **PlayerClose** - Confirms if the user has tapped on the close icon
 
 ### OnePlayer Playback Events
-- **Playing** - Confirms if the player has started playing
-- **Paused** - Confirms if the player has paused playing
-- **Buffering** - Confirms if the player is buffering content
-- **Ended** - Confirms if the player has ended playing
 - **PlayerHeartbeat** - This is recurring event sent to log the current status of player and playback
 
 ### a) Properties sent with all OnePlayer events
