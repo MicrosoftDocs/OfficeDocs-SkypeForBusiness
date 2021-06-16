@@ -589,7 +589,7 @@ For more information about diagnostic data, including how to control what diagno
 - **hide** - Hide chat.
 - **hideChannel** - Hide a channel from the teams and channel list.
 - **image** - Image.
-- **inAppNotification**- Triggered when notification is tapped while user is active in the app
+- **inAppNotification**- Triggered when a notification is tapped while the user is active in the app.
 - **immediateCallForward** - Immediate call forward target is set, or enabling immediate call forwarding (Calls ring me is disabled).
 - **importanceToggleClicked** - Triggers when the **!** field is toggled inside task item details.
 - **importantMessage_select** - A user selects an important message from the priority context menu.
