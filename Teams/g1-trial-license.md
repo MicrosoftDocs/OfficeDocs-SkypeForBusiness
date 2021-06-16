@@ -17,8 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Manage the Office 365 G1 Trial for US government 
-==============================
+# Manage the Office 365 G1 Trial for US government 
 
 As of July 1, 2020, the Office 365 E1 Trial license is no longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. 
 
