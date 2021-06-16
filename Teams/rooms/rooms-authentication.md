@@ -108,7 +108,7 @@ You can create a Conditional Access policy that supports IP/location-based acces
 - Microsoft Teams Rooms application 4.8.19.0 or above
 - Windows 10 version 20H2 (10.0.19042)
 
-In addition to the minimum requirements, the following Cloud App must be excluded from teh Require compliant device Conditional Access policy:
+In addition to the minimum requirements, the following cloud app must be excluded from the _Require compliant device Conditional Access policy_:
 
 - Skype for Business Online
 
