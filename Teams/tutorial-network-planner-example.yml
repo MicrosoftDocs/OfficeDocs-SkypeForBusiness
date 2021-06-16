@@ -117,7 +117,7 @@ items:
 
     Network planner also gives you recommendations based on the projected impact of Teams on your network. Click the recommendation view icon to see recommendations for each site, if there are any. The image below shows a sample recommendation view.
 
-    ![Recommendation view](media/network-planner-recommendation-view-ten-percent.png)
+    ![Recommendation view](media/network-planner-recommendation-view.png)
 
     Here, you can see that currently the Kirkland site's bandwidth needs to be increased to get the best performance from Teams. 
 
