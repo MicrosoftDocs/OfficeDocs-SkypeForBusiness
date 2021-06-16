@@ -8,17 +8,17 @@ As a contact center solution provider, there are three models to choose from to 
 
 - If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](?tabs=extend#steps).
 
-- If you want to use a SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](?tabs=power#steps). Power solutions will be possible when the SDK is available, towards the end of 2021.
+- If you want to use an SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](?tabs=power#steps). Power solutions will be possible when the SDK is available, towards the end of 2021.
 
 ### [**The Connect model**](#tab/connect)
 
-The Connect model leverages Microsoft certified SBCs and Direct Routing to connect contact center solutions to Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights.
+The Connect model uses Microsoft certified SBCs and Direct Routing to connect contact center solutions to Teams phone system infrastructure, enabling enhanced routing, configuration, and system insights.
 
-Other benefits include the option to set up automated virtual assistants and skill-based routing queues that help agents gather information and connect customers with available subject matter experts.
+Agents can set up automated virtual assistants and skill-based routing queues to gather information and connect customers with subject matter experts.
 
 **Feature highlights:**
 
-While the following is not a comprehensive list of feature capabilities for this model of integration, the focus areas include:
+While these features aren't a comprehensive list of feature capabilities for this model of integration, the focus areas include:
 
   - Office 365 authN for agents to connect to their Microsoft tenant from their integrated CCaaS client 
 
@@ -43,7 +43,7 @@ Organizations can design workflows and advanced routing configurations down to t
 
 **Feature highlights:**
 
-While the following is not a comprehensive list of feature capabilities for this model of integration, it does highlight the main focus areas:
+While these features aren't a comprehensive list of feature capabilities for this model of integration, the focus areas include:
 
   - Teams Graph APIs and Cloud Communication APIs for integration with Teams 
 
@@ -67,7 +67,7 @@ The Power model enables solution providers to create native Azure-based voice ap
 
 **Feature highlights:**
 
-While the following is not a comprehensive list of feature capabilities for this model of integration, these highlight areas in addition to those provided by the Connect and Extend model.
+While these features aren't a comprehensive list of feature capabilities for this model of integration, the focus areas include:
 
   - Formal agent experiences natively enabled for omni-channel communication via Teams SDK 
 
