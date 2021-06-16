@@ -178,7 +178,7 @@ The diagram below gives you a high-level outline of the things you’ll address 
 A Slack Workspace may represent a single team, multiple teams or an entire organization. It’s important to understand the scope of the Workspaces as you determine the structure. The closest relationship to a Teams team in Slack is the Workspace, which contains a collection of channels. The diagram below demonstrates 3 different Slack-to-Teams mappings, and guidance for picking the right one for each Workspace.
 
 
-|Slack-to-Teams mapping |  |
+|Slack-to-Teams mapping |&nbsp;|
 |---------|---------|
 |1 Slack Workspace :arrow_right: 1 team   | For smaller Slack workspaces that need fewer than 200 channels<br>Include a buffer for growth and private channel planning  |
 |1 Slack Workspace :arrow_right: multiple teams     | Use your Slack Workspace analytics data to create logical channel groupings, which become the basis of your teams        |
