@@ -1046,7 +1046,7 @@ For more information about diagnostic data, including how to control what diagno
 - **simultaneousCallForward** - Triggered when:
   - Simultaneous call forward target is set.
   - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
-- **skipVerificationForLink** - Thw user chose to skip verification.
+- **skipVerificationForLink** - The user chose to skip verification.
 - **smartReply** - Smart reply toggle button is clicked.
 - **SMSSendMessage** - The user sends a SMS message.
 - **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
