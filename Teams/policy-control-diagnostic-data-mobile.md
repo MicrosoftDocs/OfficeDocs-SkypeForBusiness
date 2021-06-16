@@ -1253,11 +1253,11 @@ action.
 - **acquire_resource_token_interactive**- Required service call which is triggered when an authentication token is acquired by interactive sign-in. 
 - **acquire_resource_token_silent**- Required service call which is triggered when an authentication token is acquired by silent sign-in.
 - **app_crash2** – Triggered when the app is crashed unexpectedly. Provides information on how frequently the Teams app is crashing. 
-- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
-- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
-- **app_start_cold** To monitor cold app launch (Android only).
-- **app_start_hot** To monitor hot app launch (Android only).
-- **app_start_warm** To monitor warm app launch (Android only).
+- **app_incremental_sync_launch** - Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** - Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_cold** - To monitor cold app launch (Android only).
+- **app_start_hot** - To monitor hot app launch (Android only).
+- **app_start_warm** - To monitor warm app launch (Android only).
 - **auth_adal_tokens**- Required service call to do silent authentication. Triggered when a user starts the app, or the token is refreshed on expiry.
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **chat_send_message_sfc**- Triggered when a chat message is sent in SfC interop chat.
