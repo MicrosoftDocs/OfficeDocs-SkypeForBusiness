@@ -61,7 +61,7 @@ The following table briefly summarizes the three types of events, the number of 
 
  | Type of event | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 1000 <br> [View-only](view-only-meeting-experience.md) allows up to 20,000* | Interactive chat with multiple presenters <br> All participants up to 1000 have equal meeting capabilities <br> Over 1000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
+| Meetings  | -Up to 1000 <br> -[View-only](view-only-meeting-experience.md) allows up to 20,000* | -Interactive chat with multiple presenters <br> -All participants up to 1000 have equal meeting capabilities <br> -Over 1000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
 | Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience interaction configurable, but limited <br> -Can specify presenters and moderators | Yes |
 | Live events | 1001 to 20,000** |-Broadcast to large audiences <br>-Audience interaction limited to posting questions <br> -Can specify presenters, including external presenters | No |
 ||||
