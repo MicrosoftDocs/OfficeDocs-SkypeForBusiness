@@ -1415,19 +1415,21 @@ action.
 ## OnePlayer Events
 
 ### OnePlayer User Action Events
-
->Review Comments:
-1. `PlayerSeek` seems iOS-specific. We've `VideoPlayerSeekForward`, `VideoPlayerSeekBackward` on Android. 
-2. Few user-events seem to be missing: VideoCaptionsOn, VideoCaptionsOff, ChangePlayerOrientation, OpenPlayerSettingsMenu, OpenPlaybackSpeedMenu, PlayerAction.
-3. Few other missing events: PlayerErrorOccurred, PlayerReportingEndQoS.
-
 - **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view
 - **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view
-- **PlayerSeek** - Confirms if the user seeks the video either using seek bar or forward/backward buttons in the OnePlayer view
+- **PlayerSeek** - Confirms if the user seeks the video either using seek bar or forward/backward buttons in the OnePlayer view [iOS Only]
+- **VideoPlayerSeekForward** - Confirms if the user seeks the video either using seek bar or forward buttons in the OnePlayer view [Android Only]
+- **VideoPlayerSeekBackward** - Confirms if the user seeks the video either using seek bar or backward buttons in the OnePlayer view [Android Only]
 - **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed
 - **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback
 - **ShareVideo** - Confirms if the user has tapped on share icon
 - **PlayerClose** - Confirms if the user has tapped on the close icon
+- **VideoCaptionsOn** - Confirms if the user has switched on the caption
+- **VideoCaptionsOff** - Confirms if the user has switched off the caption
+- **ChangePlayerOrientation** - Confirms if the user has changed orientation of the device
+- **OpenPlayerSettingsMenu** - Confirms if the user has opened settings menu
+- **OpenPlaybackSpeedMenu** - Confirms if the user has opened playback speed menu
+- **PlayerAction** - Custom action provided by host app
 
 ### OnePlayer Playback Events
 - **PlayerHeartbeat** - This is recurring event sent to log the current status of player and playback
@@ -1453,15 +1455,12 @@ action.
 | loadMode      | load mode of the player |
 | playbackSessionId | session id for playback |
 
-##### a.3 Host Properties
-
-> `hostProperties` is not present on Android.
-
+##### a.3 Host Properties 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | hostIntegrationType | host integration type(Package, OneUp etc.) |
 | hostPlatform  | platform for host app |
-| hostProperties| host properties if any |
+| hostProperties| host properties if any [iOS only] |
 | hostApp       | name of the host app |
 | hostVersion   | version of the host app |
 
@@ -1484,10 +1483,7 @@ action.
 | correlationId | correlation id for the media if any |
 
 
-### b) Properties sent with all OnePlayer User Action Events
-
-> We're not emitting these props (actionType, isIntentional) on Android.
-
+### b) Properties sent with all OnePlayer User Action Events [iOS only]
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | actionType    | type of action being performed like tap, drag, flick etc. |
@@ -1500,41 +1496,31 @@ action.
 
 
 #### b.2 Properties sent with ChangePlaybackSpeed Event
-
-> We're not emitting the `previousPlaybackRate` prop on Android.
-
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
-| previousPlaybackRate  | previous playback rate of the video |
+| previousPlaybackRate  | previous playback rate of the video [iOS only] |
 | currentPlaybackRate   | current playback rate of the video |
 
-#### b.3 Properties sent with PlayerSeek Event
-
-> We're not emitting these props (seekSource, seekValue) on Android.
-
+#### b.3 Properties sent with PlayerSeek Event [iOS only]
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | seekSource    | source of seek (seekbar, forwardButton, backwardButton) |
 | seekValue     | seek position |
 
 ### c) Properties sent only with Heartbeat Event
-
-> 1. Instead of `numberOfStalls`, we've `bufferingCount` on Android. Not sure about iOS
-> 2. Instead of `observedBitrate`, we've `avgBitrateBitsPerSecond` on Android. Not sure about iOS
-> 3. mediaCurrentTime is not there on Android
-> 4. We should add other trigger-types: canPlayThrough, intervalHeartbeat, sourceset, unload. 
-
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
-| mediaCurrentTime | current playback time of the media |
+| mediaCurrentTime | current playback time of the media [iOS only]|
 | isLoaded | is media loaded |
 | loadTimeMs | load time taken in milliseconds |
-| numberOfStalls | number of stalls during playback |
-| observedBitrate | observed bit rate during playback |
+| numberOfStalls | number of stalls during playback [iOS only] |
+| bufferingCount | number of stalls during playback [Android only] |
+| observedBitrate | observed bit rate during playback [iOS only] |
+| avgBitrateBitsPerSecond | observed bit rate during playback [Android only] |
 | playedSeconds | played seconds till the event |
 | rebufferingSeconds | rebuffering seconds during playback |
 | timeSinceSourceSetMs | item since source was set ms |
-| triggerType | trigger type (buffering, error, errorLog etc.) |
+| triggerType | trigger type (buffering, error, errorLog, canPlayThrough, intervalHeartbeat, sourceset, unload) |
 | errorId | error id for the error if any |
 | errorCorrelationId | error correlation id for the error if any |
 | errorLog | error log for the error if any |
