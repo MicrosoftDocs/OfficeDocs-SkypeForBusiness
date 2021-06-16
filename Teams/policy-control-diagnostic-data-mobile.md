@@ -1212,7 +1212,7 @@ action.
 > [!NOTE]
 > For information on the properties of PanelView events, see [Properties sent with panelview events](#properties-sent-with-panelview-events).
 
-- **appInstall**: Triggered when user opens the app first time after installation
+- **appInstall**: Triggered when a user opens the app for the first time after installation.
 - **fileDeleteFailed** - Triggered when a file delete operation fails.
 - **fileDeleteSuccess** - Triggered when a file delete operation succeeds.
 - **filePreview** - Triggered in following scenarios:
