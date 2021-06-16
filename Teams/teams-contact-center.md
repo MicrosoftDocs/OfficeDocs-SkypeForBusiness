@@ -26,9 +26,7 @@ appliesto:
 
 Microsoft Teams supports customer interaction work streams by acting as the hub for internal and external customer connection across its modes of communication including chat, video meetings and calling. For some organizations, Microsoft Teams’ [cloud voice capabilities](./cloud-voice-landing-page.md), including [auto attendant](./what-are-phone-system-auto-attendants.md) and [call queues](./create-a-phone-system-call-queue.md), provide the features and configuration to meet their needs.
 
-But with the breadth of channels that today’s customers prefer to engage across – phone, email, text, social – and the expanded volume of touch points associated with present day purchase processes, many organizations need a solution that equips every member of their organization with the appropriate tools to handle the expanded scope of customer interactions and drive consistency, improvement, and scale.
-
-For organizations that want solutions with business tools and workflows to drive the customer journey, contact center integration for Microsoft Teams integrates Teams with leading Contact Center as a Service (CCaaS) solution providers.
+For organizations that want solutions with business tools and workflows to drive the customer journey, contact center integration for Microsoft Teams allows Contact Center as a Service (CCaaS) solution providers to integrate their solutions into Teams.
 
 
 ## Connected contact center for Microsoft Teams certification program
@@ -41,76 +39,12 @@ If you're a vendor seeking to join the certification program, please email <Team
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
-### Compare connected contact center integration models
-
-Review the table below for an overview of the integration models that Microsoft Teams supports.
-
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th>Teams voice apps</th>
-<th>Connect</th>
-<th>Extend</th>
-<th>Power</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Cloud service model</td>
-<td>Azure</td>
-<td>Solution Provider</td>
-<td><p>Solution Provider +</p>
-<p>Azure</p></td>
-<td>Azure</td>
-</tr>
-<tr class="even">
-<td>Who operates the solution?</td>
-<td>Microsoft</td>
-<td>Solution Provider</td>
-<td>Solution Provider</td>
-<td>Solution Provider</td>
-</tr>
-<tr class="odd">
-<td>M365 Sign-in</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>Users with Teams calling?</td>
-<td>Informal, SME</td>
-<td>Informal, SME</td>
-<td>Informal, SME, Formal</td>
-<td>Informal, SME, Formal</td>
-</tr>
-<tr class="odd">
-<td>IW/SME experience</td>
-<td>Teams</td>
-<td>Teams</td>
-<td><p>Teams +</p>
-<p>extensions</p></td>
-<td><p>Teams +</p>
-<p>extensions</p></td>
-</tr>
-<tr class="even">
-<td>Service connectivity</td>
-<td>Platform<br />
-(Calling Plans +DR)</td>
-<td>Direct routing</td>
-<td>Platform<br />
-(Calling Plans + DR)</td>
-<td>Platform<br />
-(Calling Plans + DR)</td>
-</tr>
-</tbody>
-</table>
-
 
 ## Connected Contact Center Solutions
 
-### Certified solutions 
+The following providers offer contact center solutions that are integrated into Teams using one of the Connect, Extend, or Power integration models. The solutions listed have been certified by Microsoft or are in the process of certification.
+
+### Certified solutions
 
 ![Certified Badge.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
@@ -121,6 +55,7 @@ Review the table below for an overview of the integration models that Microsoft 
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
 ### Solutions currently in the certification process
@@ -129,10 +64,11 @@ Review the table below for an overview of the integration models that Microsoft 
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
+| `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
-| `Genesys` | https://www.genesys.com/microsoft                                                                                   |
-| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
+| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
+| `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |

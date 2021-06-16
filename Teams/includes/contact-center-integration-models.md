@@ -63,9 +63,7 @@ While the following is not a comprehensive list of feature capabilities for this
 
 ### [**The Power model**](#tab/power)
 
-The Power model enables solution providers to create native Azure-based voice applications using the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection. The goal of the Power model is to stoke developer creativity and drive customer productivity.
-
-Solution providers can help contact center agents with omni-channel communication experiences while incorporating artificial intelligence to customize how and when participants - or other services - are engaged in a call applying the [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0).
+The Power model enables solution providers to create native Azure-based voice applications using the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection. The goal of the Power model is to provide a one-app, one-screen contact center experience.
 
 **Feature highlights:**
 
