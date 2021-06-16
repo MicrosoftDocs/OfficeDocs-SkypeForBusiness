@@ -1241,7 +1241,7 @@ action.
 - **navPersonalFiles** - Triggered when navigation to files screen is performed.
 - **signInSSOPage**: Triggered when the user views a single sign-on page while signed in.
 -- **signInError**: Triggered when the user hits any error while signed in. This is needed to proactively identify and fix issues that users face during sign-in. 
--- **TfLSignInSuccessful** : Triggered when user successfully signs in to personal Microsoft account. This is needed to understand sign in and sign-up reliability and proactively identify and fix issues.
+-- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 -- **TfWFreemiumSignInSuccessful** : Triggered user successfully signs in to freemium account. This is needed to understand sign in and sign-up reliability and proactively identify and fix issues.
 -- **TfWSignInSuccessful** : Triggered when user successfully signs in to work or school account. This is needed to understand sign in and sign-up reliability and proactively identify and fix issues.
 
