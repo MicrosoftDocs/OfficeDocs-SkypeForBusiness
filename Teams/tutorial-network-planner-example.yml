@@ -93,7 +93,7 @@ items:
     6. Create the Denver site using the same process. WAN should not be enabled. 
     7. Since the Kirkland site leverages the connection to Seattle HQ for both internet and PSTN connectivity, it is considered a remote site. When creating the Kirkland site, you need to specify that it is connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
 
-    ![Remote site egress settings](media/network-planner-add-remote-site-egress-kirkland.png)
+    ![Remote site egress settings](media/network-planner-add-remote-site-egress.png)
 
 - title: Create a report
   durationInMinutes: 3
@@ -113,11 +113,11 @@ items:
   content: | 
     Once you generate the report, you’ll see a screen displaying your bandwidth requirements both as overall and modality specific values. By default, the allowed bandwidth is set to 30%. By changing this value and clicking **Run report**, you can see the different impact on the bandwidth for your network. Any areas that need more bandwidth will be highlighted in red.
 
-    ![Report analysis](media/network-planner-report-output.png)
+    ![Report analysis](media/network-planner-contoso-report-output.png)
 
     Network planner also gives you recommendations based on the projected impact of Teams on your network. Click the recommendation view icon to see recommendations for each site, if there are any. The image below shows a sample recommendation view.
 
-    ![Recommendation view](media/network-planner-recommendation-view.png)
+    ![Recommendation view](media/network-planner-recommendation-view-ten-percent.png)
 
     Here, you can see that currently the Kirkland site's bandwidth needs to be increased to get the best performance from Teams. 
 
