@@ -1415,6 +1415,12 @@ action.
 ## OnePlayer Events
 
 ### OnePlayer User Action Events
+
+>Review Comments:
+1. `PlayerSeek` seems iOS-specific. We've `VideoPlayerSeekForward`, `VideoPlayerSeekBackward` on Android. 
+2. Few user-events seem to be missing: VideoCaptionsOn, VideoCaptionsOff, ChangePlayerOrientation, OpenPlayerSettingsMenu, OpenPlaybackSpeedMenu, PlayerAction.
+3. Few other missing events: PlayerErrorOccurred, PlayerReportingEndQoS.
+
 - **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view
 - **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view
 - **PlayerSeek** - Confirms if the user seeks the video either using seek bar or forward/backward buttons in the OnePlayer view
@@ -1448,6 +1454,9 @@ action.
 | playbackSessionId | session id for playback |
 
 ##### a.3 Host Properties
+
+> `hostProperties` is not present on Android.
+
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | hostIntegrationType | host integration type(Package, OneUp etc.) |
@@ -1477,6 +1486,8 @@ action.
 
 ### b) Properties sent with all OnePlayer User Action Events
 
+> We're not emitting these props (actionType, isIntentional) on Android.
+
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | actionType    | type of action being performed like tap, drag, flick etc. |
@@ -1489,18 +1500,30 @@ action.
 
 
 #### b.2 Properties sent with ChangePlaybackSpeed Event
+
+> We're not emitting the `previousPlaybackRate` prop on Android.
+
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | previousPlaybackRate  | previous playback rate of the video |
 | currentPlaybackRate   | current playback rate of the video |
 
 #### b.3 Properties sent with PlayerSeek Event
+
+> We're not emitting these props (seekSource, seekValue) on Android.
+
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | seekSource    | source of seek (seekbar, forwardButton, backwardButton) |
 | seekValue     | seek position |
 
 ### c) Properties sent only with Heartbeat Event
+
+> 1. Instead of `numberOfStalls`, we've `bufferingCount` on Android. Not sure about iOS
+> 2. Instead of `observedBitrate`, we've `avgBitrateBitsPerSecond` on Android. Not sure about iOS
+> 3. mediaCurrentTime is not there on Android
+> 4. We should add other trigger-types: canPlayThrough, intervalHeartbeat, sourceset, unload. 
+
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | mediaCurrentTime | current playback time of the media |
