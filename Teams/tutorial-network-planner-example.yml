@@ -93,7 +93,7 @@ items:
     6. Create the Denver site using the same process. WAN should not be enabled. 
     7. Since the Kirkland site leverages the connection to Seattle HQ for both internet and PSTN connectivity, it is considered a remote site. When creating the Kirkland site, you need to specify that it is connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
 
-    ![Remote site egress settings](media/network-planner-add-remote-site-egress.png)
+    ![Remote site egress settings](media/network-planner-add-remote-site-egress-kirkland.png)
 
 - title: Create a report
   durationInMinutes: 3
