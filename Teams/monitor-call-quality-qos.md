@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-# Monitor and improve call quality in Teams
+# Monitor, improve call quality in Teams
 
 This article introduces three key tools you can use to monitor, troubleshoot, manage, and improve call quality in Microsoft Teams. 
 
