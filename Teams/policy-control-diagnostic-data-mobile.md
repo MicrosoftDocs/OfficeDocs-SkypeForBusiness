@@ -589,6 +589,7 @@ For more information about diagnostic data, including how to control what diagno
 - **hide** - Hide chat.
 - **hideChannel** - Hide a channel from the teams and channel list.
 - **image** - Image.
+- **inAppNotification**- Triggered when a notification is tapped while the user is active in the app.
 - **immediateCallForward** - Immediate call forward target is set, or enabling immediate call forwarding (Calls ring me is disabled).
 - **importanceToggleClicked** - Triggers when the **!** field is toggled inside task item details.
 - **importantMessage_select** - A user selects an important message from the priority context menu.
@@ -785,6 +786,7 @@ For more information about diagnostic data, including how to control what diagno
 - **notBlockedDevice** - A user doesn't reach the threshold for background activity failures in 30 days.
 - **notNow** - **Not now** is selected in reminder.
 - **notNowUpdate** - UpdateDefer.
+- **notification/ notification_clicked** – Triggered when a notification is tapped.
 - **notificationNavChannelConversation** - Launch the app using a notification for a channel conversation.
 - **notificationNavChannelThreadConversation** - Launch the app using a notification for a specific message in a channel conversation.
 - **notificationSettingTurnedOff** - Turn off push notifications for the Teams Android app.
@@ -1038,14 +1040,17 @@ For more information about diagnostic data, including how to control what diagno
 - **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
 - **shownReadReceiptNotice** - The user shown feature notice with settings options.
 - **signIn** - **Sign in** is selected on welcome page, or the **Sign In** button is tapped.
+- **SignInWithOTP** - User selects the option to sign in as a guest with one time passcode (OTP). 
 - **signUp** - **Create a free account** or **Sign up for free** is selected.
+- **SignUpFromSignIn**- User taps on **Create a new account** option from sign-in.
 - **simultaneousCallForward** - Triggered when:
   - Simultaneous call forward target is set.
   - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
-- **skipVerificationForLink** - Thw user chose to skip verification.
+- **skipVerificationForLink** - The user chose to skip verification.
 - **smartReply** - Smart reply toggle button is clicked.
 - **SMSSendMessage** - The user sends a SMS message.
 - **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
+- **SSOAccountListItem**: Triggered when the user taps on an SSO account to sign in.
 - **startEditing** - **Edit** button selected.
 - **startPresentPhoto** - Start presenting photo.
 - **startPresentVideo** - Start presenting video.
@@ -1073,6 +1078,7 @@ For more information about diagnostic data, including how to control what diagno
 - **stuckOnConnectingRetrySelected** - **Retry** is selected on the drawer.
 - **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
 - **suggested_place_selected** - A user shares a static location by selecting a suggested place.
+- **Switching**- Tenant or account is switched from the app. This is required to measure account/tenant switch issues proactively and provides a smooth account/tenant switch experience.
 - **switchTeamAction** - A user switches teams within the time clock. This should fire after the user selects which team they want to switch to.
 - **switchTeamsDialogTriggered** - A user views the **Shifts** tab.
 - **tabActionCopyLink** - How users discover and use the tab copy link on mobile.
@@ -1206,6 +1212,7 @@ action.
 > [!NOTE]
 > For information on the properties of PanelView events, see [Properties sent with panelview events](#properties-sent-with-panelview-events).
 
+- **appInstall**: Triggered when a user opens the app for the first time after installation.
 - **fileDeleteFailed** - Triggered when a file delete operation fails.
 - **fileDeleteSuccess** - Triggered when a file delete operation succeeds.
 - **filePreview** - Triggered in following scenarios:
@@ -1232,21 +1239,31 @@ action.
 - **meetingFiles** - Triggered when meeting files screen is opened.
 - **meetNowActionSheet** - Triggered when user creates a Meet Now meeting.
 - **navPersonalFiles** - Triggered when navigation to files screen is performed.
+- **signInSSOPage**: Triggered when the user views a single sign-on page while signed in.
+-- **signInError**: Triggered when the user hits any error while signed in. This is needed to proactively identify and fix issues that users face during sign-in. 
+-- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 
 ### Scenario
 
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
-
-- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
-- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
-- **app_start_cold** To monitor cold app launch (Android only).
-- **app_start_hot** To monitor hot app launch (Android only).
-- **app_start_warm** To monitor warm app launch (Android only).
+> 
+- **acquire_resource_token_interactive**- Required service call which is triggered when an authentication token is acquired by interactive sign-in. 
+- **acquire_resource_token_silent**- Required service call which is triggered when an authentication token is acquired by silent sign-in.
+- **app_crash2** – Triggered when the app is crashed unexpectedly. Provides information on how frequently the Teams app is crashing. 
+- **app_incremental_sync_launch** - Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** - Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_cold** - To monitor cold app launch (Android only).
+- **app_start_hot** - To monitor hot app launch (Android only).
+- **app_start_warm** - To monitor warm app launch (Android only).
+- **auth_adal_tokens**- Required service call to do silent authentication. Triggered when a user starts the app, or the token is refreshed on expiry.
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
-- **cortanaError** To monitor Cortana error happens.
+- **chat_send_message_sfc**- Triggered when a chat message is sent in SfC interop chat.
+- **cortanaError** - To monitor Cortana error happens.
 - **cortanaView** - To monitor Cortana canvas appear.
-- **cortanaRestart** To monitor Cortana restart.
+- **cortanaRestart** - To monitor Cortana restart.
 - **cortanaSetNewConversation** To monitor Cortana sets new conversation.
 - **cortanaSpeechRecognization** To monitor Cortana speech recognization latency.
 - **cortanaStart** To monitor Cortana backend start.
@@ -1263,6 +1280,7 @@ action.
 - **cortana_skill_action_delay** - Confirms the start of delay action.
 - **cortana_watchdog** - To monitor Cortana watchdog recovery process.
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
+- **create_new_chat_thread_sfc**- Triggered when a new chat thread is created for an SfC interop chat.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
 - **create_planner_plan_and_nav_to_view** - Confirms successful creation of shared task list and how long it took for a user to land on resulting view after action.
@@ -1272,7 +1290,12 @@ action.
 - **delete_personal_task** - Confirms the successful deletion of a personal task item.
 - **delete_planner_plan** - Confirms the successful deletion of a shared task list.
 - **delete_planner_task** - Confirms the successful deletion of a shared task item.
-- **get_sender_sub_scenario** - get sender sub scenario in activity.
+- **json_parse_failure**- Provides information on the frequently of JSON parsing issues.
+- **getProfilePicture**- Necessary service call to get user profile picture. 
+- **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
+- **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
+- **get_sender_sub_scenario** - Get sender sub scenario in activity.
+- **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication.
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
 - **load_home_page** - Confirms the successful fetching of both personal and shared tasklists for the main home view.
 - **load_personal_task_list** - Confirms the successful fetching of a personal tasklist's tasks for the tasklist view.
@@ -1287,7 +1310,8 @@ action.
 - **rename_personal_plan** - Confirms the successful renaming of a personal task list.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
 - **save_image** Confirms that the image save action succeeded or failed.
-- **share_image** Confirms that the image share action succeeded or failed.
+- **saveMeProfile**- Required service call that gets triggered when user saves the profile
+- **share_image** - Confirms that the image share action succeeded or failed.
 - **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
 - **smart_reply_received** - Confirms that a smart reply suggestion is received.
 - **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
@@ -1308,9 +1332,10 @@ action.
 - **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
 - **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
 - **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
-- **meeting_details** Confirms that the meeting details sync has succeeded or failed.
-- **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
-- **search** Confirms that the whole search session has succeeded or failed.
+- **meeting_details** - Confirms that the meeting details sync has succeeded or failed.
+- **show_meeting_participants** - Confirms that showing the meeting participant list has succeeded or failed.
+- **search** - Confirms that the whole search session has succeeded or failed.
+- **time_based_retention_shared_channel** – Captures performance data for pruning the database.
 
 ## Property lists
 
