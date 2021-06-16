@@ -1042,7 +1042,7 @@ For more information about diagnostic data, including how to control what diagno
 - **signIn** - **Sign in** is selected on welcome page, or the **Sign In** button is tapped.
 - **SignInWithOTP** - User selects the option to sign in as a guest with one time passcode (OTP). 
 - **signUp** - **Create a free account** or **Sign up for free** is selected.
-- **SignUpFromSignIn**- User taps on **Create a new account** option from sign-in
+- **SignUpFromSignIn**- User taps on **Create a new account** option from sign-in.
 - **simultaneousCallForward** - Triggered when:
   - Simultaneous call forward target is set.
   - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
