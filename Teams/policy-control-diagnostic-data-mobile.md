@@ -1294,8 +1294,8 @@ action.
 - **getProfilePicture**- Necessary service call to get user profile picture. 
 - **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
 - **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
-- **get_sender_sub_scenario** - get sender sub scenario in activity.
-- **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication
+- **get_sender_sub_scenario** - Get sender sub scenario in activity.
+- **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication.
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
 - **load_home_page** - Confirms the successful fetching of both personal and shared tasklists for the main home view.
 - **load_personal_task_list** - Confirms the successful fetching of a personal tasklist's tasks for the tasklist view.
