@@ -1258,7 +1258,7 @@ action.
 - **app_start_cold** To monitor cold app launch (Android only).
 - **app_start_hot** To monitor hot app launch (Android only).
 - **app_start_warm** To monitor warm app launch (Android only).
-- **auth_adal_tokens**- Required service call to do silent authentication. Triggered when user starts the app, or token is refreshed on expiry.
+- **auth_adal_tokens**- Required service call to do silent authentication. Triggered when a user starts the app, or the token is refreshed on expiry.
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **chat_send_message_sfc**- Triggered when chat message is sent in Sfc interop chat
 - **cortanaError** To monitor Cortana error happens.
