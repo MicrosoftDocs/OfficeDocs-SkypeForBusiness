@@ -1263,7 +1263,7 @@ action.
 - **chat_send_message_sfc**- Triggered when chat message is sent in Sfc interop chat
 - **cortanaError** - To monitor Cortana error happens.
 - **cortanaView** - To monitor Cortana canvas appear.
-- **cortanaRestart** To monitor Cortana restart.
+- **cortanaRestart** - To monitor Cortana restart.
 - **cortanaSetNewConversation** To monitor Cortana sets new conversation.
 - **cortanaSpeechRecognization** To monitor Cortana speech recognization latency.
 - **cortanaStart** To monitor Cortana backend start.
