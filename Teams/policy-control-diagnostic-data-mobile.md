@@ -786,7 +786,7 @@ For more information about diagnostic data, including how to control what diagno
 - **notBlockedDevice** - A user doesn't reach the threshold for background activity failures in 30 days.
 - **notNow** - **Not now** is selected in reminder.
 - **notNowUpdate** - UpdateDefer.
-- **notification/ notification_clicked** – Triggered when notification is tapped
+- **notification/ notification_clicked** – Triggered when a notification is tapped.
 - **notificationNavChannelConversation** - Launch the app using a notification for a channel conversation.
 - **notificationNavChannelThreadConversation** - Launch the app using a notification for a specific message in a channel conversation.
 - **notificationSettingTurnedOff** - Turn off push notifications for the Teams Android app.
