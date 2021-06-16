@@ -22,12 +22,25 @@ appliesto:
   - Microsoft Teams
 ---
 
+**QUESTIONS**
 
-# Quick start - Meetings in Microsoft Teams
+-**TERMINOLOGY: DO WE CONSIDER WEBINARS AND LIVE EVENTS A TYPE OF MEETING?** I've done some research and many MVPs/customers are referring to webinars as a function of Teams meetings. Our UI also groups the three:  New Meeting ->  Schedule meeting, Webinar, Live event
 
-There are multiple ways to meet in Microsoft Teams: unstructured meetings, webinars, and live events. 
+- **WHAT INFO DO WE WANT TO HIGHLIGHT IN THE FIRST TABLE?**
 
-This article for administrators briefly describes the differences in types of meetings--unstructured, webinars, and live events--and how to quickly roll out and configure meetings and events for your organization.
+- **ARE THE LIMITS SPECIFIED CORRECT?** Note: We might decide to point to the limits doc instead of repeating limits here, but for purposes of this review, let's agree on the limits.
+
+- **WHAT IS THE DEFINITION OF LARGE MEETING?  IS IT THE 1001 - 20,000 VIEW ONLY CAPABILITY?**
+
+- **ARE THE LICENSING REQUIREMENTS SPECIFIED CORRECT?**
+
+- **IS THERE ANYWHERE THAT LISTS THE PRIMARY DIFFERENCES IN FUNCTIONALITY/CAPABILITIES BETWEEN MEETINGS, LARGE MEETINGS, WEBINARS, LIVE EVENTS?**
+
+# Quick start - Meetings, webinars, and live events in Microsoft Teams
+
+There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events. 
+
+This article, intended for administrators and IT Pros, briefly describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
 
 > [!Note]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -36,14 +49,16 @@ This article for administrators briefly describes the differences in types of me
 
 [Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events are a type of structured meeting that provide additional control for the organizer over the conversation and participants. 
 
-While webinars provide for more participant interaction than live events, both have limited interaction compared to an unstructured meeting. The different types of meetings also have different participant limits and participant capabilities.
+While webinars provide for more participant interaction than live events, both have limited interaction compared to a meeting. The different types of meetings also have different participant limits and participant capabilities.
 
-The following table briefly summarizes the three types of events, the number of recommended participants, and how participants can interact in the event. More information about each type of meeting follow the table.
+The following table briefly summarizes the three types of events, the number of recommended participants, and how participants can interact in the event. More information about each type of event follow the table.
+
+**QUESTION:  WHAT INFO DO WE WANT TO HIGHLIGHT IN THIS TABLE? THIS TABLE SHOULD BE JUST THE HIGHLIGHTS--NOT ALL ENCOMPASSING.**
 
  | Type of event | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings (unstructured) | Up to 1000 | Interactive chat with multiple presenters; all participants have equal meeting capabilities | No |
-| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience interaction configurable, but limited <br> - Can specify presenters | Yes |
+| Meetings  | Up to 1000 <br> [View-only](view-only-meeting-experience.md) allows up to 20,000* | Interactive chat with multiple presenters; all participants have equal meeting capabilities | No |
+| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience interaction configurable, but limited <br> - Can specify presenters and moderators | Yes |
 | Live events | 1001 to 20,000** |- Broadcast to large audiences <br>- Audience interaction limited to posting questions <br> - Can specify presenters| No |
 ||||
 
@@ -62,6 +77,8 @@ If your users are new to Teams meetings, share the [Manage meetings](https://sup
 
 Don't forget about [managing your users' devices](./devices/device-management.md) - phones, headsets, cameras. To get the latest and up-to-date information on Teams certified devices, go to [Teams devices](https://office.com/teamsdevices).
 
+For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
+
 
 ### Webinars
 
@@ -69,7 +86,7 @@ Don't forget about [managing your users' devices](./devices/device-management.md
 
 After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. For more information about user capabilities, see [Get started with Teams webinars](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3). 
 
-For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md. With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.   **IS THE LAST SENTENCE TRUE?**
+For more information about how to set up webinars, see [Set up webinars in Teams](set-up-webinars.md). With webinars, you can configure your meeting to be interactive to the first 1000 users, but view only for the remaining users up to 20,000.   **IS THE LAST SENTENCE TRUE?**
 
 ### Live events
 
@@ -115,9 +132,11 @@ To learn more about licensing, read [Microsoft Teams service description](/offic
 
 [Meetings and conferencing in Teams](deploy-meetings-microsoft-teams-landing-page.md)
 
-[Audio conferencing in Teams](deploy-audio-conferencing-teams-landing-page.md)
+[Set up webinars in Teams](set-up-webinars.md)
 
 [Live events in Teams](teams-live-events/what-are-teams-live-events.md)
+
+[Teams view-only meeting experience](view-only-meeting-experience.md)
 
 [Limits and specifications for Teams](limits-specifications-teams.md)
 

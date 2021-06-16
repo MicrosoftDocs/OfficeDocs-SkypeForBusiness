@@ -631,6 +631,8 @@ items:
               href: google-workspace-addon-teams.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
+            - name: View-only meeting experience
+              href: view-only-meeting-experience.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up for webinars in Microsoft Teams
