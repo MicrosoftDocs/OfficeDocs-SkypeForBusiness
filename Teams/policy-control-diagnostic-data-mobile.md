@@ -1261,7 +1261,7 @@ action.
 - **auth_adal_tokens**- Required service call to do silent authentication. Triggered when a user starts the app, or the token is refreshed on expiry.
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
 - **chat_send_message_sfc**- Triggered when chat message is sent in Sfc interop chat
-- **cortanaError** To monitor Cortana error happens.
+- **cortanaError** - To monitor Cortana error happens.
 - **cortanaView** - To monitor Cortana canvas appear.
 - **cortanaRestart** To monitor Cortana restart.
 - **cortanaSetNewConversation** To monitor Cortana sets new conversation.
