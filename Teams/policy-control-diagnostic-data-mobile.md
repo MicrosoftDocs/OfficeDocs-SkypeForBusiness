@@ -1243,7 +1243,7 @@ action.
 -- **signInError**: Triggered when the user hits any error while signed in. This is needed to proactively identify and fix issues that users face during sign-in. 
 -- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 -- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
--- **TfWSignInSuccessful** : Triggered when user successfully signs in to work or school account. This is needed to understand sign in and sign-up reliability and proactively identify and fix issues.
+-- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 
 ### Scenario
 
