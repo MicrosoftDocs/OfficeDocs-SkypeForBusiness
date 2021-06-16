@@ -22,21 +22,25 @@ appliesto:
   - Microsoft Teams
 ---
 
-**QUESTIONS**
 
--**TERMINOLOGY: DO WE CONSIDER WEBINARS AND LIVE EVENTS A TYPE OF MEETING?** I've done some research and many MVPs/customers are referring to webinars as a function of Teams meetings. Our UI also groups the three:  New Meeting ->  Schedule meeting, Webinar, Live event
+# Quick start - Meetings, webinars, and live events in Microsoft Teams
+
+**QUESTIONS** to consider as you review:
+
+- **TERMINOLOGY: DO WE CONSIDER WEBINARS AND LIVE EVENTS A TYPE OF MEETING?** I've done some research and many MVPs/customers are referring to webinars as a function of Teams meetings. Our UI also groups the three:  New Meeting ->  Schedule meeting, Webinar, Live event.
 
 - **WHAT INFO DO WE WANT TO HIGHLIGHT IN THE FIRST TABLE?**
 
 - **ARE THE LIMITS SPECIFIED CORRECT?** Note: We might decide to point to the limits doc instead of repeating limits here, but for purposes of this review, let's agree on the limits.
 
-- **WHAT IS THE DEFINITION OF LARGE MEETING?  IS IT THE 1001 - 20,000 VIEW ONLY CAPABILITY?**
+- **WHAT IS THE DEFINITION OF LARGE MEETING?  IS IT THE 1001 - 20,000 VIEW-ONLY CAPABILITY?**
 
 - **ARE THE LICENSING REQUIREMENTS SPECIFIED CORRECT?**
 
 - **IS THERE ANYWHERE THAT LISTS THE PRIMARY DIFFERENCES IN FUNCTIONALITY/CAPABILITIES BETWEEN MEETINGS, LARGE MEETINGS, WEBINARS, LIVE EVENTS?**
 
-# Quick start - Meetings, webinars, and live events in Microsoft Teams
+**BEGIN ARTICLE REVIEW**
+-------------------------------------------
 
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events. 
 
@@ -47,9 +51,9 @@ This article, intended for administrators and IT Pros, briefly describes the dif
 
 ## Meetings, webinars, and live events
 
-[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events are a type of structured meeting that provide additional control for the organizer over the conversation and participants. 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events are a type of meeting that provide additional control for the organizer over the conversation and participants. 
 
-While webinars provide for more participant interaction than live events, both have limited interaction compared to a meeting. The different types of meetings also have different participant limits and participant capabilities.
+While webinars provide for more participant interaction than live events, both have limited interaction compared to a fully-interactive meeting. The different types of meetings also have different participant limits and participant capabilities.
 
 The following table briefly summarizes the three types of events, the number of recommended participants, and how participants can interact in the event. More information about each type of event follow the table.
 
@@ -57,13 +61,13 @@ The following table briefly summarizes the three types of events, the number of 
 
  | Type of event | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 1000 <br> [View-only](view-only-meeting-experience.md) allows up to 20,000* | Interactive chat with multiple presenters; all participants have equal meeting capabilities | No |
-| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience interaction configurable, but limited <br> - Can specify presenters and moderators | Yes |
-| Live events | 1001 to 20,000** |- Broadcast to large audiences <br>- Audience interaction limited to posting questions <br> - Can specify presenters| No |
+| Meetings  | Up to 1000 <br> [View-only](view-only-meeting-experience.md) allows up to 20,000* | Interactive chat with multiple presenters; <br> all participants up to 1000 have equal meeting capabilities; <br> over 1000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
+| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience interaction configurable, but limited <br> -Can specify presenters and moderators | Yes |
+| Live events | 1001 to 20,000** |-Broadcast to large audiences <br>-Audience interaction limited to posting questions <br> -Can specify presenters, including external presenters| No |
 ||||
 
 *The usual 10,000 is increased to 20,000 during COVID.<br>
-**The usual 10,000 is increased to 20,000 during COVID. Note that you can schedule even greater numbers with Live Events through Yammer and/or Microsoft Stream. For more information, see...  
+**The usual 10,000 is increased to 20,000 during COVID. Note that you can schedule even greater numbers with Live Events through Yammer and/or Microsoft Stream. For more information, see [NEED LINK HERE].
 
 ### Meetings
 
@@ -116,7 +120,7 @@ Meeting audio is part of a Teams meeting, but if you want people to be able to d
 | Join a webinar | No license required
 | Create a Teams meeting | An F3, E1, E3, or E5 license |  |
 | Create a Teams meeting with dial-in phone number | An F3, E1, E3, or E5 license plus Audio Conferencing add-on license<sup>1</sup>
-| Create a Teams live event | E1, E3, E5 license | |
+| Create a Teams live event | An E1, E3, or E5 license | |
 | Create a Teams webinar | **SAME AS CREATE A TEAMS MEETING??** | 
 | Dial out from a meeting to add someone at their **Call me at** number | An F3, E1, E3, or E5 license plus Audio Conferencing add-on license<sup>2</sup> | | 
 |||
