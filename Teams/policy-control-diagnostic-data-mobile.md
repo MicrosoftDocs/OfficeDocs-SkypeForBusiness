@@ -1250,7 +1250,7 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 > 
--- **acquire_resource_token_interactive**- Required service call which is triggered when authentication token is acquired by interactive sign in. 
+- **acquire_resource_token_interactive**- Required service call which is triggered when an authentication token is acquired by interactive sign-in. 
 -- **acquire_resource_token_silent**- Required service call which is triggered when authentication token is acquired by silent sign in.
 -- **app_crash2** – Triggered when app is crashed unexpectedly. Provides information on how frequently Teams app is crashing. 
 - **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
