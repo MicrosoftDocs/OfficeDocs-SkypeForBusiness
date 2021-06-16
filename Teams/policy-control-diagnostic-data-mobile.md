@@ -1280,7 +1280,7 @@ action.
 - **cortana_skill_action_delay** - Confirms the start of delay action.
 - **cortana_watchdog** - To monitor Cortana watchdog recovery process.
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
-- **create_new_chat_thread_sfc**- Triggered when new chat thread is created for sfc interop chat
+- **create_new_chat_thread_sfc**- Triggered when a new chat thread is created for an SfC interop chat.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
 - **create_planner_plan_and_nav_to_view** - Confirms successful creation of shared task list and how long it took for a user to land on resulting view after action.
