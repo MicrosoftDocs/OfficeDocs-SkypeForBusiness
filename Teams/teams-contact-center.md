@@ -42,7 +42,7 @@ If you're a vendor seeking to join the certification program, please email <Team
 
 ## Connected Contact Center Solutions
 
-The following providers offer contact center solutions that are integrated into Teams using one of the Connect, Extend, or Power integration models. The solutions listed have been certified by Microsoft or are in the process of certification.
+The following providers offer contact center solutions that are integrated into Teams using one of the Connect, Extend, or Power integration models.
 
 ### Certified solutions
 
