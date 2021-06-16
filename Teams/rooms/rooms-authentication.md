@@ -103,7 +103,7 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 
 ### Azure AD conditional access
 
-You can create a Conditional Access policy that supports IP/location-based access or that requires the device to be compliant per MDM compliance policies for the Microsoft Teams Rooms resource accounts.  For devices to support Require compliant device Conditional Access polices, the following minimum requirements must be met:
+You can create a Conditional Access policy that supports IP/location-based access or that requires the device to be compliant per mobile device management compliance policies for the Microsoft Teams Rooms resource accounts. For devices to support _Require compliant device Conditional Access policies_, the following minimum requirements must be met:
 
 - Microsoft Teams Rooms application 4.8.19.0 or above
 - Windows 10 version 20H2 (10.0.19042)
