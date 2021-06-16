@@ -1311,7 +1311,7 @@ action.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
 - **save_image** Confirms that the image save action succeeded or failed.
 - **saveMeProfile**- Required service call that gets triggered when user saves the profile
-- **share_image** Confirms that the image share action succeeded or failed.
+- **share_image** - Confirms that the image share action succeeded or failed.
 - **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
 - **smart_reply_received** - Confirms that a smart reply suggestion is received.
 - **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
