@@ -21,7 +21,7 @@ ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-may2020
 search.appverid: MET150
-description: Learn more about the Microsoft Teams PSTN connectivity options and the decisions that you will make for your organization.
+description: Learn more about Teams calling (PSTN connectivity) options and the decisions that you will make for your organization.
 appliesto: 
   - Microsoft Teams
 ---
@@ -43,9 +43,16 @@ To connect Phone System to the PSTN, you can choose one of the following options
 
 - **Phone System with your own PSTN carrier by using Operator Connect**, which is currently available only in **public preview.**  With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. For more information about Operator Connect, and for a list of operators participating in this program, see [Plan Operator Connect](operator-connect-plan.md).
 
-You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration (more about migration later).
+You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration (more about migration later)
 
+The following table summarizes ....
 
+| Option | Phone numbers | Voice routing | Emergency calling | LBR | 
+| :--- | :--- | :--- | :--- | :--- |
+| Calling Plans | -Obtained through Microsoft   | Managed by Microsoft | -Enabled by Microsoft <br>-Dynamic calling only in U.S. <br>-Admin registers addresses |   |
+| Operator Connect | -Obtained through Operator<br>-Numbers associated with emergency calling managed by Operator  |  |  |   |
+| Direct Routing | Managed by | Configured by admin | Configured by admin<br>-Registered addresses not supported | Applies to Direct Routing only. Restrict toll bypass in certain geographic locations |
+|||||
 
 ## Phone number management
 
