@@ -116,12 +116,12 @@ Meeting audio is part of a Teams meeting, but if you want people to be able to d
 |----------|--------|--------|
 | Join a meeting | No license required | Any email address can participate| 
 | Join a meeting using a dial-in phone number | No license required | Any phone number can dial into a meeting provided the meeting organizer has set up audio conferencing<sup>1</sup>  |
-| Join a live event | No license required
-| Join a webinar | No license required
+| Join a live event | No license required | |
+| Join a webinar | No license required | |
 | Create a Teams meeting | An F3, E1, E3, or E5 license |  |
-| Create a Teams meeting with dial-in phone number | An F3, E1, E3, or E5 license plus Audio Conferencing add-on license<sup>1</sup>
+| Create a Teams meeting with dial-in phone number | An F3, E1, E3, or E5 license plus Audio Conferencing add-on license<sup>1</sup> | |
 | Create a Teams live event | An E1, E3, or E5 license | |
-| Create a Teams webinar | **SAME AS CREATE A TEAMS MEETING??** | 
+| Create a Teams webinar | **SAME AS CREATE A TEAMS MEETING??** | |
 | Dial out from a meeting to add someone at their **Call me at** number | An F3, E1, E3, or E5 license plus Audio Conferencing add-on license<sup>2</sup> | | 
 |||
 
