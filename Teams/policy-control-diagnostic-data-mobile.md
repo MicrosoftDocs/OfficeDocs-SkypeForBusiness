@@ -1078,7 +1078,7 @@ For more information about diagnostic data, including how to control what diagno
 - **stuckOnConnectingRetrySelected** - **Retry** is selected on the drawer.
 - **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
 - **suggested_place_selected** - A user shares a static location by selecting a suggested place.
-- **Switching**- Tenant or account is switched from the app. This is required to measure account/ tenant switch issues proactively and provide smoot account/ tenant switch experience.
+- **Switching**- Tenant or account is switched from the app. This is required to measure account/tenant switch issues proactively and provides a smooth account/tenant switch experience.
 - **switchTeamAction** - A user switches teams within the time clock. This should fire after the user selects which team they want to switch to.
 - **switchTeamsDialogTriggered** - A user views the **Shifts** tab.
 - **tabActionCopyLink** - How users discover and use the tab copy link on mobile.
