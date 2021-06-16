@@ -151,21 +151,21 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA Name                                 |string                   |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
-|AACallerActionCount                     |int	                     |Count of actions selected by caller in Auto Attendant during the call  |
-|AACallFlow                              |string                   |Encapsulates the different states of Auto Attendant Call -- possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |string                   |Final call result -- possible values:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
-|AAChainDuration                         |int ***whole***          |Duration of call in Auto Attendant     |
-|AAChainIndex                            |string ***int***         |                                       |
-|AAConnectivityType                      |string                   |***InternalCall***                     |
-|AACount                                 |int                      |Number of Auto Attendants involved in call    |
-|AADirectorySearchMethod                 |string                   |Last address book search method -- possible values:<br><br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name |
-|AAStartTime                             |datetime                 |Auto Attendant call start time         |
-|AATransferAction                        |string                   |Call transfer target type -- possible values:<br><br>***§ application - voice application entity***<br>§ external_pstn<br>***§ hunt_group - Call Queue entity***<br>***§ orgaa - Organizational Auto Attendant entity***<br>§ shared_voicemail<br>§ unknown<br>§ user |
-|Call Type<sup>1</sup>                   |string                   |Type of call -- possible values:<br><br>§ External<br>§ Internal |
-|IsAAInvolved                            |boolean                  |Always true (1)                        |
-|PSTNMinutes                             |int ***TBD***            |Total minute usage ***for PSTN calls***|
-|TotalCallCount                          |int                      |Always 1 - used to provide sum of all calls |
+|AA Name                                 |text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|AACallerActionCount                     |whole number             |Count of actions selected by caller in Auto Attendant during the call  |
+|AACallFlow                              |text                     |Encapsulates the different states of Auto Attendant Call -- possible values:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |text                     |Final call result -- possible values:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
+|AAChainDuration                         |decimal number           |Duration of call in Auto Attendant     |
+|AAChainIndex                            |text                     |                                       |
+|AAConnectivityType                      |text                     |***InternalCall***                     |
+|AACount                                 |text                     |Number of Auto Attendants involved in call    |
+|AADirectorySearchMethod                 |text                     |Last address book search method -- possible values:<br><br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name |
+|AAStartTime                             |date/time                |Auto Attendant call start time         |
+|AATransferAction                        |text                     |Call transfer target type -- possible values:<br><br>***§ application - voice application entity***<br>§ external_pstn<br>***§ hunt_group - Call Queue entity***<br>***§ orgaa - Organizational Auto Attendant entity***<br>§ shared_voicemail<br>§ unknown<br>§ user |
+|Call Type<sup>1</sup>                   |text                     |Type of call -- possible values:<br><br>§ External<br>§ Internal |
+|IsAAInvolved                            |text                     |Always 1                               |
+|PSTNMinutes                             |whole number             |Total minute usage ***for PSTN calls***|
+|TotalCallCount                          |whole number             |Always 1 - used to provide sum of all calls |
 
 
 ### Cloud Call Queue Analytics
