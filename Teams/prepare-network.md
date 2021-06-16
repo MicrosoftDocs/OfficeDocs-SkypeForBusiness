@@ -29,7 +29,7 @@ If you've already [optimized your network for Microsoft 365 or Office 365](/Offi
 
 1.  Do all your locations have internet access (so they can connect to Microsoft 365 or Office 365)? At a minimum, in addition to normal web traffic, make sure you've opened the following, for all locations, for media in Teams:
 
-    |  |  |
+    |&nbsp;|&nbsp;|
     |---------|---------|
     |Ports     |UDP ports <strong>3478</strong> through <strong>3481</strong>        |
     |[IP addresses](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, and <strong>52.120.0.0/14</strong>         |

@@ -17,8 +17,9 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ---
-Purchase third-party apps for Teams
-======================================================
+
+# Purchase third-party apps for Teams
+
 
 > [!NOTE]
 > This feature is currently only available in the United States.

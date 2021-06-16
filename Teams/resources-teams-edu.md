@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams resources for Education admins
+title: Microsoft Teams remote learning resources for education admins
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,8 +19,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-Microsoft Teams resources for Education admins
-==============================================
+# Microsoft Teams remote learning resources for education admins
 
 ## Resources for remote learning
 
