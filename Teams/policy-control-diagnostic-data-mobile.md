@@ -1050,7 +1050,7 @@ For more information about diagnostic data, including how to control what diagno
 - **smartReply** - Smart reply toggle button is clicked.
 - **SMSSendMessage** - The user sends a SMS message.
 - **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
-- **SSOAccountListItem**: Triggered when user taps on an SSO account to sign-in
+- **SSOAccountListItem**: Triggered when the user taps on an SSO account to sign in.
 - **startEditing** - **Edit** button selected.
 - **startPresentPhoto** - Start presenting photo.
 - **startPresentVideo** - Start presenting video.
