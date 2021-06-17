@@ -1414,7 +1414,7 @@ action.
 
 ## OnePlayer Events
 
-### OnePlayer User Action Events
+### OnePlayer user action events
 - **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view
 - **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view
 - **PlayerSeek** - Confirms if the user seeks the video either using seek bar or forward/backward buttons in the OnePlayer view [iOS Only]
