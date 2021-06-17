@@ -131,7 +131,11 @@ Or, you can also do the following:
 
 ### Use PowerShell
 
+<<<<<<< Updated upstream
 Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Teams PowerShell module and are documented in the [Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps).
+=======
+Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Teams PowerShell module and are documented in the [Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps&preserve-view=true).
+>>>>>>> Stashed changes
 
 Download and install the [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) (if you haven't already), and then run the following to connect.
 
@@ -303,7 +307,11 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Here's an example of how to change the effective policy for a user who is directly assigned a policy.
 
+<<<<<<< Updated upstream
 First, we use the [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet together with the `PolicySource` parameter to get details of the Teams meeting broadcast policies associated with the user.
+=======
+First, we use the [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet together with the ```PolicySource``` parameter to get details of the Teams meeting broadcast policies associated with the user.
+>>>>>>> Stashed changes
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -346,7 +354,7 @@ To assign a policy to users in bulk:
 
 4. Select **Edit settings**, make the changes that you want, and then select **Apply**.
 
-To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you select **Apply** to submit your policy assignment, select **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Home**, and then under **Activity log**, select **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
+To view the status of your policy assignment, in the banner that appears at the top of the **Users** page after you select **Apply** to submit your policy assignment, select **Activity log**. Or, in the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity log**, select **View details**. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. To learn more, see [View your policy assignments in the Activity log](activity-log.md).
 
 ### Use PowerShell method
 
@@ -389,7 +397,11 @@ When you're prompted, sign in using the same admin credentials that you used to 
 
 #### Assign a setup policy to a batch of users
 
+<<<<<<< Updated upstream
 In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.txt file.
+=======
+In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
+>>>>>>> Stashed changes
 
 ```powershell
 $users_ids = Get-Content .\users_ids.txt
@@ -456,6 +468,14 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 ### Assign a policy package to a group of users in the admin center
 
 1. Sign in to the Teams admin center.
+<<<<<<< Updated upstream
+=======
+2. In the left navigation, go to the policy package page.
+3. Select the Group package assignment tab.
+4. Select **Add group**, and then in the Assign a policy package to group pane, do the following:
+
+    a. Search for and add the group you want to assign the policy package to.
+>>>>>>> Stashed changes
 
 2. In the left navigation, go to the policy package page.
 
