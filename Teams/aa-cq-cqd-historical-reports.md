@@ -212,7 +212,7 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com** then the value for Call Queue Identify will be **cq_test** |
 
 #### fCallQueueAnalytics CQD fields description
 
@@ -220,7 +220,7 @@ Perform the following steps:
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Call Count                              |whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Call Result                  |text                     |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com** then the value for Call Queue Identify will be **cq_test** |
 |Call Queue Target Type                  |text                     |***Call redirection target type -- possible values:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
 |Call Type<sup>1</sup>                   |text                     |Type of call -- possible values:<br><br>§ External<br>§ Internal           |
 |Date                                    |date/time                |Call Queue call start date and time (hour) (UTC)                           | 
@@ -244,7 +244,7 @@ Perform the following steps:
 |Call Count                              |whole number             |Summarize: Sum<br>Number of calls                  |
 |Call Queue Call Result                  |text                     |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
 |Call Queue Final State Action           |text                     |Call queue final action -- possible values:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
-|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com** then the value for Call Queue Identity will be **cq_test** |
 |Date                                    |date/time                |Call Queue call start date and time (hour) (UTC)   |
 |IsAbandoned                             |true/false               |True if call is not answered by an agent           |
 
