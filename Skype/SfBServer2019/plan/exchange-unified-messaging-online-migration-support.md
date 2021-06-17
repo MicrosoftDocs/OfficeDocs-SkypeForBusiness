@@ -108,10 +108,15 @@ Microsoft 365 and Office 365 organization administrators are required to re-crea
 We strongly advise that you start the setup of your new auto attendants early to avoid last minute issues and to get familiar with the functionality and experience of the Cloud Auto Attendant service. For auto attendants that require one or more gap features, you can create and test the auto attendants when the gap features are available to prepare for deployment. For more information about gap features, see the [Appendix](#appendix).
 
 1. Use the Exchange UMO cmdlets to export the configuration of existing auto attendants by using [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+
 2. Use the [Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt) cmdlet in Exchange Online PowerShell to export the greeting media files (if used) and convert them to .mp3 format.
+
 3. Follow the instructions in [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant) to create auto attendants by using the Microsoft Teams admin center or Powershell.
+
 4. Review your greetings if the menu options changed.
+
 5. Configure transfers to your response groups by using the "Auto Attendant Call Transfer to PSTN" workaround in the [Known issues](#known-issues) section of this article.  
+
 6. Test the new auto attendants by calling them internally or assigning a test phone number.  
 
 ### Cutover
@@ -150,7 +155,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | User Features | Forward a voicemail  | Forward a received voicemail to other users | Y | Y    |
 | VM | User Features | Sending a voice message to a group of users  |Voicemail broadcast   | N | Y   |
 | VM | User Features | Voicemail notification using SMS    | Users can receive an SMS when they have a new voicemail    | N | Y    |
-| VM | User Features | Supported greeting languages | Details here: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| VM | User Features | Supported greeting languages | Details here: [What are Cloud auto attendants?](microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
 | VM | User Features | Call answering rules |  | Y | Y    |
 | VM | User Features | Play on phone (PSTN)- to play message | Call me on my cell to listen to the voice message  | N | Y    |
 | VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | N | Y    |
@@ -177,7 +182,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | AA | Service Features | Support Microsoft Teams|  | Y | N    |
 | AA | Service Features | Dial by name, DTMF input    |  | Y | Y    |
 | AA | Service Features | Dial by name, speech input  |  | Y | Y    |
-| AA | Service Features | Multi-language support | Language details here: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| AA | Service Features | Multi-language support | Language details here: [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
 | AA | Service Features | Transfer to operator, CQ, or a user |  | Y | Y    |
 | AA | Service Features | Transfer to PSTN number internally (DID RNL)  |  | Y | Y    |
 | AA | Service Features | Transfer to PSTN number externally  |  | Check out Known Issues section below | Y    |
