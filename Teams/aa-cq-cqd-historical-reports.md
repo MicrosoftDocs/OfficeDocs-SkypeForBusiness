@@ -201,7 +201,7 @@ Perform the following steps:
 |Call Queue Identity                 |dCQ-CQIdentity -> Call Queue Identity |None                  |
 |Incoming call source<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Avg Waiting Time                    |fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Before Transfer: Call Queue Call Result is agent_joined_conference or transferred_to_agent<br>Before Hang Up: Call Queue Call Result is not agent_joined_conference or transferred_to_agent |
-|Call Result                         |fCallQueueAnalytics ->Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | None |
+|Call Result                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | None |
 |Timeout/Overflow calls total action |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |Call Queue Final State Action is not forward |
 |Transfer/Forard target totals       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |None |
 |Call volumes                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |None |
@@ -212,41 +212,41 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
+|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
 
 #### fCallQueueAnalytics CQD fields description
 
-|Name                                    |Data Type                |Description                              |
-|:---------------------------------------|:------------------------|:----------------------------------------|
-|Call Count                              |int                      |                                         |
-|Call Queue Call Result                  |string                   |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ error<br>§ failed<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com |
-|Call Queue Target Type                  |string                   |Expected call redirection target type    |
-|Call Type<sup>1</sup>                   |string                   |Type of call -- possible values:<br><br>§ External<br>§ Internal |
-|Date                                    |datetime                 |Call Queue call start time (UTC)         | 
-|IsAbandoned                             |boolean                  |True if call is not answered by an agent |
-|PSTN Connectivity Type                  |string                   |                                         |
-|PSTN Total Minutes                      |int                      |Total minute usage                       |
+|Name                                    |Data Type                |Description                                                                |
+|:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
+|Call Count                              |whole number             |Summarize: Sum<br>Number of calls                                          |
+|Call Queue Call Result                  |text                     |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|Call Queue Target Type                  |text                     |***Call redirection target type -- possible values:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
+|Call Type<sup>1</sup>                   |text                     |Type of call -- possible values:<br><br>§ External<br>§ Internal           |
+|Date                                    |date/time                |Call Queue call start date and time (hour) (UTC)                           | 
+|IsAbandoned                             |true/false               |True if call is not answered by an agent                                   |
+|PSTN Connectivity Type                  |text                     |Type of call -- possible values:<br><br>§ ExternalCall<br>§ InternalCall   |
+|PSTN Total Minutes                      |whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                       |
 
 #### fCallQueueAnalytics measures description
 
 |Name                                    |Data Type                |Description                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
 |% Abandoned Calls                       |percentage               |Measure: TotalCallCount / Total Calls    |
-|Total Calls                             |int                      |Measure:                                 |
-|TotalCallCount                          |int                      |Measure: Sum(Call Count)                 |
+|Total Calls                             |whole number             |Measure: ***TBD***                       |
+|TotalCallCount                          |whole number             |Measure: Sum(Call Count)                 |
 
 #### fCallQueueFinalStateAction  CQD fields description
 
-|Name                                    |Data Type                |Description                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|Average Call Duration (Seconds)         |int                      |                                       |
-|Call Count                              |int                      |                                       |
-|Call Queue Call Result                  |string                   |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ error<br>§ failed<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Call Queue Final State Action           |string                   |Call queue final action -- possible values:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
-|Call Queue Identity                     |string                   |Name of resource account attached to CQ<br>Example: aa_test@microsoft.com|
-|Date                                    |datetime                 |                                       |
-|IsAbandoned                             |boolean                  |True if call is abandoned while in queue |
+|Name                                    |Data Type                |Description                                        |
+|:---------------------------------------|:------------------------|:--------------------------------------------------|
+|Average Call Duration (Seconds)         |decimal number           |Summarize: Sum<br>Average call duration in seconds |
+|Call Count                              |whole number             |Summarize: Sum<br>Number of calls                  |
+|Call Queue Call Result                  |text                     |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Call Queue Final State Action           |text                     |Call queue final action -- possible values:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
+|Call Queue Identity                     |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|Date                                    |date/time                |Call Queue call start date and time (hour) (UTC)   |
+|IsAbandoned                             |true/false               |True if call is not answered by an agent           |
 
 
 ### Cloud Call Queue Agent Timeline
@@ -282,12 +282,12 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|Agent Name                              |string                   |User UPN                                            |
-|Average Call Duration (Second)          |int                      |The average duration of call queue calls in seconds |
-|Call Count                              |int                      |                                                    |
-|Call Duration (Minute)                  |int                      |                                                    |
-|Call Queue Name                         |string                   |                                                    |
-|Date                                    |datetime                 |                                                    |
+|Agent Name                              |text                     |User UPN<br>If the full username is **user@microsoft.com** then the value for Agent Name will be **user** |
+|Average Call Duration (Second)          |decimal number           |Summarize: Sum<br>The average duration of call queue calls in seconds |
+|Call Count                              |whole number             |Summarize: Sum<br>Number of calls handled by agent  |
+|Call Duration (Minute)                  |whole number             |Summarize: Sum<br>Total call duration of call queue calls in minutes  |
+|Call Queue Name                         |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **aa_test@microsoft.com** then the value for AA Name will be **aa_test** |
+|Date                                    |date                     |                                                    |
 
 
 ## Known Issues
