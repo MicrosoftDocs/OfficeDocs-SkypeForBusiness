@@ -882,7 +882,7 @@ items:
         - name: Dial pad configuration
           href: dial-pad-configuration.md
 
-    - name: Calling (PSTN connectivity) options
+    - name: PSTN connectivity options
       items:
         - name: Overview
           href: pstn-connectivity.md
