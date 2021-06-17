@@ -82,7 +82,7 @@ Table 1. Example network parameters for SBCs
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Amsterdam | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | Germany | Not deployed | 192.168.6.0/24 | 172.16.76.74 | Not deployed |  Not deployed |
-| France | Not deployed | 192.168.7.0/24 | 172.16.76.75 | Not deployed |  Not deployed ||||
+| France | Not deployed | 192.168.7.0/24 | 172.16.76.75 | Not deployed |  Not deployed |
 
 
 ### Internal user
