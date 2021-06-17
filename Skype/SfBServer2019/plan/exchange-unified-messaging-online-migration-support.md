@@ -155,7 +155,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | User Features | Forward a voicemail  | Forward a received voicemail to other users | Y | Y    |
 | VM | User Features | Sending a voice message to a group of users  |Voicemail broadcast   | N | Y   |
 | VM | User Features | Voicemail notification using SMS    | Users can receive an SMS when they have a new voicemail    | N | Y    |
-| VM | User Features | Supported greeting languages | Details here: [What are Cloud auto attendants?](microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
+| VM | User Features | Supported greeting languages | Details here: [What are Cloud auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
 | VM | User Features | Call answering rules |  | Y | Y    |
 | VM | User Features | Play on phone (PSTN)- to play message | Call me on my cell to listen to the voice message  | N | Y    |
 | VM | User Features | Play on phone (Auth)- to play message | Call me on my authenticated device  | N | Y    |
