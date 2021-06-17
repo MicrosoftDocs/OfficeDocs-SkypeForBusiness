@@ -216,9 +216,10 @@ You can add custom background images to be used per tenant. This feature allows 
 
 9. Select **Save**.
 
-   ![The Org wide meeting branding page with background images added.](media/save-background-images.png)
-
 The meeting attendees will see a selection of background images that they can use when they attend a meeting.
+
+> [!NOTE]
+> It could take up to 24 hours for the changes to take effect.
 
 ## Related topics
 
