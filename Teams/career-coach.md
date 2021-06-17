@@ -99,7 +99,7 @@ Career Coach **requires** your educational institution’s users to have the abi
 
    - Select **No** to withdraw consent from all users in your educational institution
 
-Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
+Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
 
 ## Configure Career Coach in the Teams admin center
 
@@ -277,8 +277,8 @@ After you complete the configuration, enable the app for students and licensed u
 
 2. Move the Status toggle to **Allowed**.  
 
-  > [!NOTE]
-  > Allowed means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
+   > [!NOTE]
+   > Allowed means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
 
 ### Add Career Coach as an installed app
 
