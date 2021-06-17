@@ -802,6 +802,8 @@ items:
               href: rooms/lrs-migration.md
             - name: Content cameras
               href: rooms/content-camera.md
+            - name: Voice recognition controls for Intelligent speakers
+              href: rooms/voice-recognition.md
         - name: Manage
           items: 
             - name: Management overview
