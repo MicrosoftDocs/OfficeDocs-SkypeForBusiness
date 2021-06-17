@@ -1415,21 +1415,21 @@ action.
 ## OnePlayer Events
 
 ### OnePlayer user action events
-- **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view
-- **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view
-- **PlayerSeek** - Confirms if the user seeks the video either using seek bar or forward/backward buttons in the OnePlayer view [iOS Only]
-- **VideoPlayerSeekForward** - Confirms if the user seeks the video either using seek bar or forward buttons in the OnePlayer view [Android Only]
-- **VideoPlayerSeekBackward** - Confirms if the user seeks the video either using seek bar or backward buttons in the OnePlayer view [Android Only]
-- **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed
-- **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback
-- **ShareVideo** - Confirms if the user has tapped on share icon
-- **PlayerClose** - Confirms if the user has tapped on the close icon
-- **VideoCaptionsOn** - Confirms if the user has switched on the caption
-- **VideoCaptionsOff** - Confirms if the user has switched off the caption
-- **ChangePlayerOrientation** - Confirms if the user has changed orientation of the device
-- **OpenPlayerSettingsMenu** - Confirms if the user has opened settings menu
-- **OpenPlaybackSpeedMenu** - Confirms if the user has opened playback speed menu
-- **PlayerAction** - Custom action provided by host app
+- **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view.
+- **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view.
+- **PlayerSeek** - Confirms if the user seeks the video either using the seek bar or forward/backward buttons in the OnePlayer view (iOS only).
+- **VideoPlayerSeekForward** - Confirms if the user seeks the video either using the seek bar or forward buttons in the OnePlayer view (Android only).
+- **VideoPlayerSeekBackward** - Confirms if the user seeks the video either using the seek bar or backward buttons in the OnePlayer view (Android only).
+- **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed.
+- **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback.
+- **ShareVideo** - Confirms if the user has tapped on the share icon.
+- **PlayerClose** - Confirms if the user has tapped on the close icon.
+- **VideoCaptionsOn** - Confirms if the user has switched on the captions.
+- **VideoCaptionsOff** - Confirms if the user has switched off the captions.
+- **ChangePlayerOrientation** - Confirms if the user has changed the orientation of the device.
+- **OpenPlayerSettingsMenu** - Confirms if the user has opened the settings menu.
+- **OpenPlaybackSpeedMenu** - Confirms if the user has opened the playback speed menu.
+- **PlayerAction** - Custom action provided by the host app.
 
 ### OnePlayer Playback Events
 - **PlayerHeartbeat** - This is recurring event sent to log the current status of player and playback
