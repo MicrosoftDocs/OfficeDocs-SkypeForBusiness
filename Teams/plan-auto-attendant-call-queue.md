@@ -78,13 +78,13 @@ If your agents are using the Microsoft Teams app for call queue calls, they need
 
 When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a Microsoft 365 Phone System Virtual User license and one of the following assigned:
 
-- A [Calling Plan](calling-plans-for-office-365.md) license
-- An [online voice routing policy](manage-voice-routing-policies.md)
+- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
+- An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
 > [!NOTE]
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.<br>
 > Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.<br>
-> In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-queue).
+> In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 
 ## Business decisions
 
@@ -147,7 +147,7 @@ When calls are redirected by an auto attendant or call queue, you can choose fro
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another auto attendant or a call queue. Choose the resource account associated with the destination.
 - **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify.
+- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
 - **Operator** (auto attendant only) - the operator defined for the auto attendant. Defining an operator is optional. An operator can be any of the other destinations in this list.
 
 Auto attendants offer separate call routing options for calls received outside of business hours and on holidays. After-hours call routing allows all the options listed above, while holiday call routing allows only redirecting or disconnecting a call, but no dial key options.
@@ -212,6 +212,8 @@ See the following articles for information on how to create auto attendants and 
 
 - [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
 - [Create a call queue](create-a-phone-system-call-queue.md)
+
+If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
 
 ## Related topics
 

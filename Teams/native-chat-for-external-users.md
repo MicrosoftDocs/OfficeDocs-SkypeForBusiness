@@ -20,7 +20,7 @@ description: Learn about the native Teams chat experience for external access (f
 
 # Native chat experience for external (federated) users in Microsoft Teams
 
-When a Microsoft Teams user is chatting with an external (federated) user, the chat experience is limited to text. However, if both your Teams user and the person in another organization is in the TeamsOnly upgrade mode, you can have a "native-Teams chat experience," which includes rich formatting, @mentions, and other chat features. In other words, you can have the same rich 1:1 Teams chat experience with eligible people in other organizations as you'd have with users in your organization. Native Teams chats with people in other organizations are limited to 1:1 chats only.
+When a Microsoft Teams user is chatting with an external (federated) user, the chat experience is limited to text. However, if both your Teams user and the person in another organization are in the TeamsOnly upgrade mode, you can have a "native-Teams chat experience," which includes rich formatting, @mentions, and other chat features. Native Teams chats with people in other organizations are limited to 1:1 chats only.
 
 The native chat experience for people in other organizations is turned on for all Teams tenants, but not all people are eligible. To be offered a native chat experience, both the sender and receiver need to be configured for TeamsOnly upgrade mode. To learn more about upgrade policies, read [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md).
 
@@ -28,7 +28,7 @@ To see a list of capabilities for external access users in Teams, see [Compare e
 
 ## How do I know if I'm in a native chat?
 
-If you can only exchange text in your chat with people in other organizations, then you're in a standard external-access (federated) chat. If you've got all of the other chat functionality, including formatting, @mentions, emojis, etc., then you're in a native Teams chat. 
+If you can only exchange text in your chat with people in other organizations, then you're in a standard external-access (federated) chat. If you've got other chat functionality, including formatting, @mentions, emojis, etc., then you're in a native Teams chat. 
 
 Teams periodically checks the upgrade mode for people in other organizations and, when it finds an them running Teams in the TeamsOnly upgrade mode, it'll prompt you to switch to a native Teams chat and lock the original chat.
 

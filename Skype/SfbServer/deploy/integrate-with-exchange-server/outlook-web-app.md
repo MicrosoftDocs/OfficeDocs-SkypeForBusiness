@@ -87,6 +87,6 @@ Double check if the information shown matches the changes committed in the previ
 
 ## See also
 
-[Providing Skype for Business Server users voice mail on hosted Exchange UM](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[Providing Skype for Business Server users voice mail on hosted Exchange UM](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 
-[Hosted Exchange Unified Messaging integration in Skype for Business Server](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
+[Hosted Exchange Unified Messaging integration in Skype for Business Server](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)

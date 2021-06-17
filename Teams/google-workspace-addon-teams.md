@@ -68,7 +68,7 @@ if ($servicePrincipal) {
 }
 ```
 
-For more information, see [Create an Azure service principal with Azure PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
+For more information, see [Create an Azure service principal with Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
 
 ## Delete the Microsoft Teams meeting add-on for Google Workspace
 

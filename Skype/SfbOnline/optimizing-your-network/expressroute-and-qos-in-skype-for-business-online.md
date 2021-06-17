@@ -24,6 +24,8 @@ description: "Learn about using Azure ExpressRoute to have a network with bandwi
 
 # ExpressRoute and QoS in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Connect to Microsoft 365 or Office 365 over a dedicated network connection using Azure ExpressRoute for Microsoft 365 or Office 365 and Skype for Business Online. Your dedicated connection for your Skype for Business apps will give you reliable and predictable performance as well as privacy away from the public internet. You can now buy a better network connection to Microsoft 365 or Office 365 and Skype for Business Online that adds predictability, business class reliability and comes with an uptime SLA.
   
 > [!NOTE]
@@ -47,7 +49,7 @@ When you are getting ready for ExpressRoute for Skype for Business, it's a good 
     
 - [ExpressRoute Pricing](https://go.microsoft.com/fwlink/?LinkId=690284)
     
-- [ExpressRoute documentation](https://go.microsoft.com/fwlink/?LinkId=690285)
+- [ExpressRoute documentation](/azure/expressroute/)
     
 ## Part 1: Case study - ExpressRoute for Dewey Law, LLC.
 
@@ -111,7 +113,7 @@ To implement QoS across their enterprise network, the endpoints or routers must 
 This also requires that the association of the Layer 3 and Layer 2 QoS priorities be defined at each point. The Layer 2 priority mechanisms are defined in IEEE 802.1p for wired networks and 802.11e/WMM for Wi-Fi networks. More importantly, the network router facing the network service provider's MPLS network must maintain the DSCP settings on all outbound packets so that they will maintain the appropriate MPLS class of service. 
   
 > [!TIP]
->  For the specific details regarding QoS set-up, refer to Section 2.6 [Network Planning, Monitoring, and Troubleshooting with Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). You can also see [Plan network requirements for Skype for Business 2015](https://go.microsoft.com/fwlink/?LinkId=690287) for more network planning requirements.
+>  For the specific details regarding QoS set-up, refer to Section 2.6 [Network Planning, Monitoring, and Troubleshooting with Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). You can also see [Plan network requirements for Skype for Business 2015](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) for more network planning requirements.
   
 ### Ordering Network Access Services
 
@@ -399,7 +401,6 @@ Effective business tools must perform reliably, consistently, and deliver a user
   
 ## Related topics
 
-[ExpressRoute documentation](https://go.microsoft.com/fwlink/?LinkId=690285)
+[ExpressRoute documentation](/azure/expressroute/)
 
   
- 

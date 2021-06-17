@@ -64,7 +64,7 @@ The following example shows a Config.xml file for a typical silent installation 
 </Configuration>
 ```
 
-Detailed information about using the Config.xml file to perform Office installation and maintenance tasks is available at [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514).
+Detailed information about using the Config.xml file to perform Office installation and maintenance tasks is available at [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)).
 
 ## To customize the Config.xml file
 
@@ -79,5 +79,3 @@ Detailed information about using the Config.xml file to perform Office installat
    </pre>
 
 4. Save the Config.xml file.
-
-

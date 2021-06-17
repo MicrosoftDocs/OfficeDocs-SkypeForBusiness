@@ -23,6 +23,8 @@ description: "Unfortunately, there are certain user licenses that are blocked wh
 
 # Blocked user licenses for hosting Skype Meeting Broadcast
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!IMPORTANT]
 > Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the core client for communications and teamwork in Microsoft 365.
 
@@ -59,9 +61,8 @@ Hosting Skype Meeting Broadcast events will be blocked if any of the following u
     
 ## Related topics
 
-[An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+[An introduction to Windows PowerShell and Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
- 

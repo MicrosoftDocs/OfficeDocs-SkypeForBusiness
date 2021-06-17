@@ -30,7 +30,7 @@ Microsoft Teams has clients available for web, desktop (Windows and Mac), and
 mobile (Android and iOS). For additional details about how the
 desktop (Windows and Mac) and mobile clients are installed, see [Get
 clients for Microsoft
-Teams](https://docs.microsoft.com/microsoftteams/get-clients).
+Teams](./get-clients.md).
 
 ## Client updates
 
@@ -68,7 +68,7 @@ device.
 
 For information about the software requirements for Teams clients on each
 platform (web, desktop, and mobile), see [Get clients for Microsoft
-Teams](https://docs.microsoft.com/microsoftteams/get-clients).
+Teams](./get-clients.md).
 
 ## Endpoint firewalls
 
@@ -76,7 +76,7 @@ Client-side firewalls can have a significant impact on the user experience.
 Client-side firewalls can affect call quality in addition to preventing a call
 from being established. Configure the appropriate exclusions on the client
 firewall based on the information in [Microsoft 365 or Office 365 URLs and IP address
-ranges](https://aka.ms/o365ips). Your third-party vendor will have specific
+ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). Your third-party vendor will have specific
 guidance on how to create the exclusions.
 
 >[!NOTE]
@@ -162,7 +162,7 @@ device strategy is optimal.
 > [!NOTE]
 > At this time, we recommend using audio devices that were certified
 through the Skype for Business Certification program. To find devices certified
-under this program, see the [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices/devices) and [USB audio and video devices](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+under this program, see the [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices/devices) and [USB audio and video devices](/SkypeForBusiness/certification/devices-usb-devices).
 
 
 

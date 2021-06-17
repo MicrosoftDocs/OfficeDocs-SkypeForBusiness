@@ -26,7 +26,7 @@ This article introduces a case study for how a fictional multi-national corporat
 
 Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for the following: networking, identity, Windows 10 Enterprise, Office 365 ProPlus, mobile device management, information protection, security, upgrade from Skype for Business to Teams, Phone System, and Audio Conferencing.  
 
-This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso case study overview](https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide).
+This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso case study overview](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide).
 
 https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
 
@@ -79,6 +79,4 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Auto Attendants and Call Queues
 
-  As a result of Covid-19, Contoso wanted to provide receptionist support while their staff was working remotely. Contoso used auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).  
-
-
+  As a result of Covid-19, Contoso wanted to provide receptionist support while their staff was working remotely. Contoso used auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).

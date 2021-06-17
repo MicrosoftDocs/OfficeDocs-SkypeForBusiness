@@ -21,6 +21,4 @@ description: "On the Move Users page, you can select a destination pool to move 
 
 On the **Move Users** page, you can select a destination pool to move the selected user to.
 
-For more information about moving users, see [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).
-
-
+For more information about moving users, see [Move Users to Another Pool](/previous-versions/office/lync-server-2013/lync-server-2013-move-users-to-another-pool).

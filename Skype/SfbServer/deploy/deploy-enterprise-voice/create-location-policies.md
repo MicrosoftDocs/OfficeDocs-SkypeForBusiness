@@ -24,7 +24,7 @@ Read this topic to learn how to configure enhanced emergency service (E9-1-1) lo
 
 Skype for Business Server uses a location policy to enable Skype for Business clients for E9-1-1 during client registration. A location policy contains the settings that define how E9-1-1 will be implemented. For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
 
-You define location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet.
+You define location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet.
 
 > [!NOTE]
 > Skype for Business Server now supports the configuration of multiple emergency numbers for a client. If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business](configure-multiple-emergency-numbers.md). 
@@ -33,7 +33,7 @@ You can edit the global location policy and create new tagged location policies.
 
 To create a location policy, you must use an account that is a member of the RTCUniversalServerAdmins group, or is a member of the CsVoiceAdministrator administrative role, or has equivalent administrator rights and permissions.
 
-For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in this procedure use a location policy defined using the following values. For a complete description of cmdlet parameters and values, see [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in this procedure use a location policy defined using the following values. For a complete description of cmdlet parameters and values, see [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
 
 
 | **Element**                               | **Value**                                                                                                                                                                          |

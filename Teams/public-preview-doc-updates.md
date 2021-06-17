@@ -26,7 +26,7 @@ localization_priority: Priority
 
 Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
 
-For a list of what's available in the Teams public preview, visit [Release Notes for Office Current Channel (Preview)](https://docs.microsoft.com/officeupdates/current-channel-preview).
+For a list of what's available in the Teams public preview, visit [Release Notes for Office Current Channel (Preview)](/officeupdates/current-channel-preview).
 
 ## Set the Update policy
 
@@ -46,11 +46,10 @@ You can also set the policy using PowerShell using the `CsTeamsUpdateManagementP
 
 To enable the public preview on a desktop or web client, you need to do the following tasks:
 
-1. Select your profile to display the Teams menu.
-2. Select **About** → **Public preview**.
+1. Select the three dots to the left of your profile to display the Teams menu.
+2. Select **About** > **Public preview**.
 3. Select **Switch to Public preview**.
 
 ## Related topics
 
-[Public developer preview](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[Public developer preview](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

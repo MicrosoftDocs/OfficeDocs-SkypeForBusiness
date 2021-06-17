@@ -23,6 +23,8 @@ description: "Troubleshoot creating a remote PowerShell session to connect to Sk
 
 # Diagnose connection problems with the Skype for Business Online Connector
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This topic provides information that will help you diagnose and resolve problems that can occur when you try to create a remote Microsoft PowerShell session that connects to Skype for Business Online. See the following sections:
   
 - [Import-Module error caused by Windows PowerShell execution policy](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
@@ -55,7 +57,7 @@ The PowerShell execution policy helps to determine which configuration files can
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
-    For details about execution policy, see [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=135170).
+    For details about execution policy, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
   
 ## Import-Module Error caused by incorrect version of Windows PowerShell
 <a name="BKMKIncorrectVersion"> </a>
@@ -110,7 +112,7 @@ When you attempt to make a remote connection to Skype for Business Online, you m
 
 You cannot make a remote PowerShell connection toSkype for Business Online unless you are a member of the Tenant Administrators group. If you are not, your connection attempt will fail, and you'll receive the following error message:
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' does not have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' does not have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Microsoft Support.
   
@@ -119,7 +121,7 @@ You cannot make a remote PowerShell connection toSkype for Business Online unles
 
 To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it is not, your connection will fail, and you'll receive the following error message:
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Please contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
+- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Please contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1).*
 
 - **Resolution**: If you see this error message, you'll need to contact Microsoft Support and get remote PowerShell access enabled.
   
@@ -145,4 +147,3 @@ Although each administrator is allowed to have as many as three simultaneous con
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
- 

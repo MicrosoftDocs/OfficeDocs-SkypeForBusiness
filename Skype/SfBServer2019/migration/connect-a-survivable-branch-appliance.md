@@ -56,7 +56,7 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool that
     3. Click **Survivable Branch Appliance**.
     
 9. Follow the directions in the wizard that opens. For information about wizard items, see    
-   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/library/gg398280(v=ocs.15).aspx). -->
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](/previous-versions/office/lync-server-2013/lync-server-2013-define-a-survivable-branch-appliance-or-server). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
@@ -65,5 +65,3 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool that
 10. If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.
     
 11. Repeat the previous steps for each branch site you want to add to the topology.
-    
-

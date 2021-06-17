@@ -1,7 +1,7 @@
 ---
 title: Choose your upgrade journey from Skype for Business to Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -30,8 +30,8 @@ appliesto:
 This article is part of the Project Definition stage of your upgrade journey. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 As an existing Skype for Business customer, your complete transition to Teams might take some time. However, you can begin realizing the value of Teams today, by enabling your users to use Teams alongside Skype for Business. Given that there's some overlapping functionality between the two apps, we recommend that you review the available coexistence and upgrade modes to help determine which path is right for your organization. For example, you might opt to enable all workloads on both solutions without interoperability. Or, you might decide to manage the user experience, either by gradually introducing Teams capabilities or by targeting groups of users for select capabilities, until your organization is ready to upgrade everyone to Teams. Use the outcome of your pilot to help assess the right upgrade journey for your organization.
 
@@ -43,21 +43,21 @@ This article outlines the various modes that enable you to manage which modaliti
 > [!TIP]
 > Join us for live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
 >
->Join the [Plan your upgrade](https://aka.ms/SkypeToTeamsPlanning) session first to get started.
+>Join the [Plan your upgrade](./upgrade-workshops-landing-page.yml) session first to get started.
 
 
 ## Upgrade journey building blocks
 
 To formally prepare your organization for its journey to Teams, you need to start planning for the upgrade scenarios that will eventually let your organization fully embrace Teams as your sole communications and collaboration solution.
 
-To help guide your decision-making process, familiarize yourself with the various modes, concepts, and terminology relevant to upgrading from Skype for Business to Teams. For more information, see [Microsoft Teams and Skype for Business coexistence and interoperability](https://aka.ms/SkypeToTeams-Coexist).
+To help guide your decision-making process, familiarize yourself with the various modes, concepts, and terminology relevant to upgrading from Skype for Business to Teams. For more information, see [Microsoft Teams and Skype for Business coexistence and interoperability](./teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 > [!NOTE]
 > You will also need to consider your voice migration scenarios. Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 or Office 365 cloud. To connect Phone System to the Public Switched Telephone Network (PSTN) so that users can make phone calls around the world, you have options based on your business need. For more information on Phone System and PSTN connectivity options, see [Voice - Phone System and PSTN connectivity](cloud-voice-landing-page.md).
 
 A user that has been migrated to Teams no longer uses a Skype for Business client except to join a meeting hosted in Skype for Business. All incoming chats and calls land in the user's Teams client, regardless of whether the sender uses Teams or Skype for Business. Any new meetings organized by the upgraded user will be scheduled as Teams meetings. If the user attempts to use the Skype for Business client, initiation of chats and calls is blocked<sup>1</sup>. However, the user can (and must) still use the Skype for Business client to join meetings they are invited to.
 
-Administrators manage their transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md), which is a property of [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). A user that has been migrated to Teams as described above is in "TeamsOnly" mode. For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
+Administrators manage their transition to Teams using the concept of [mode](migration-interop-guidance-for-teams-with-skype.md), which is a property of [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true). A user that has been migrated to Teams as described above is in "TeamsOnly" mode. For an organization that is migrating to Teams, the ultimate goal is to move all users to TeamsOnly mode.
 
 There are two methods for migrating an existing organization with Skype for Business (whether online or on-premises) to Teams:
 
@@ -108,7 +108,7 @@ The following table summarizes the Teams experience for both Islands mode and Te
 | Incoming chats and calls received in:|  Teams or Skype for Business | Teams |
 | PSTN calls received in: | Skype for Business <br>(Using PSTN functionality in Teams is not supported in Islands mode.)     | Teams |   
  |Presence    | Presence in Skype for Business and Teams is independent. Users may see different states for the same Islands user, depending on which client they use. | Presence is based solely on the user's activity in Teams. All other users, regardless of which client they use, see that presence. | 
- | Meeting scheduling    | Users can schedule meetings in either Teams or Skype for Business. By default, they will see both add-ins in Outlook. You can set a Teams meeting policy to control whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins. To learn more, see [set the meeting provider for users in Islands mode](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Users only schedule meetings in Teams. Only the Teams add-in is available in Outlook. | 
+ | Meeting scheduling    | Users can schedule meetings in either Teams or Skype for Business. By default, they will see both add-ins in Outlook. You can set a Teams meeting policy to control whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins. To learn more, see [set the meeting provider for users in Islands mode](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode). |     Users only schedule meetings in Teams. Only the Teams add-in is available in Outlook. | 
 
 The following table summarizes the pros and cons of using the overlapping capabilities method to migrate your organization to Teams.
 
@@ -122,7 +122,7 @@ The following table summarizes the pros and cons of using the overlapping capabi
 
 <sup>2</sup> This is true even if the user is homed on-premises in Skype for Business Server. Whether the user is homed on-premises or online, leave the Skype for Business Online license enabled, because it is currently needed for full Teams functionality.
 
-<sup>3</sup> Note that migration of Skype for Business meetings to Teams meetings is only triggered when applying TeamsUpgradePolicy to individual users, not on a per tenant basis. See [Meeting migration](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) for details.
+<sup>3</sup> Note that migration of Skype for Business meetings to Teams meetings is only triggered when applying TeamsUpgradePolicy to individual users, not on a per tenant basis. See [Meeting migration](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) for details.
 
 ## Select capabilities method (using Skype for Business modes)
 
@@ -195,19 +195,18 @@ The following table summarizes the upgrade methods:
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Next steps</td><td><ul> Decide the timeline of your organization's upgrade journey based on messaging, meetings, and calling business requirements.<br><br> Decide the required additional work to complete your upgrade journey.<br><br></ul></td></tr>
 </table>
 
-After you've chosen the best upgrade journey for your organization, [perform your upgrade to Teams](https://aka.ms/SkypeToTeams-Upgrade).
+After you've chosen the best upgrade journey for your organization, [perform your upgrade to Teams](./upgrade-to-teams.md).
 
 ## Related links
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Move users between on-premises and cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)
 
-[Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

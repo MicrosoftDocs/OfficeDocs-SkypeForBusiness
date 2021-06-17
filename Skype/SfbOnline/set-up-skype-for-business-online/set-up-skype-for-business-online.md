@@ -28,6 +28,8 @@ description: "Learn to set up your domain, users, IM and presence for your organ
 
 # Set up Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 You must have global admin permissions to set up Skype for Business. If you have a firewall or proxy server that restricts access to parts of the web, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to set up Skype for Business for you.
 
 ## Setting up Skype
@@ -169,7 +171,4 @@ The quality of audio, video, and application sharing in Skype for Business is gr
 ## Related topics
 <a name="bkmk_more"> </a>
 
-[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](https://go.microsoft.com/fwlink/p/?linkid=400791)
-
-
-
+[Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)

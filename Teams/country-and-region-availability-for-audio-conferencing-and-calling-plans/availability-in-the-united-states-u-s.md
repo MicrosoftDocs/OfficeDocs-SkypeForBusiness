@@ -38,7 +38,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>New York City</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>New York City</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
 
 ## Phone System
@@ -59,9 +59,9 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 | Can make outbound calls to premium numbers? <br/> | Not supported at this time. <br/>                                                                                                                                                                                                                                                                                               |
 | Can make outbound calls to?  <br/>                | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Calls to Canada are treated as domestic calls.
+> When a Calling Plan (domestic or domestic and international) user in the U.S. dials a phone number in Canada, it will be treated as a domestic call. This is also the case when a user in Canada dials a phone number in the U.S. However, if you also use calling plan policies to limit user dial-out to “domestic” only, a U.S. user won't be able to call Canada and likewise, a Canada user won't be able to call a U.S. user.
 
->[!Note] 
+>[!Note]
 > United States domestic calling includes calls to all 50 U.S. states and Puerto Rico. Users assigned with the license usage location of U.S. and/or Puerto Rico share the same pool of minutes.
 
 ## Toll and toll-free numbers for services
@@ -72,7 +72,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
 
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).
 
 ## Communications Credits
 
@@ -84,10 +84,6 @@ If you want to set them up, see [Set up Communications Credits for your organiza
 
 ## Related topics
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
-
-

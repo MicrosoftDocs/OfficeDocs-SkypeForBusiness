@@ -30,9 +30,7 @@ With Walkie Talkie in Teams, Frontline workers can now securely communicate with
 
 ### Deploying Walkie Talkie
 
-Currently, Walkie Talkie is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/).
-
-Once enabled, Walkie Talkie will become available on the Android app within 48 hours.
+Currently, Walkie Talkie is available for Android devices with Google Mobile Services (GMS) and is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/). Once enabled, Walkie Talkie will become available on the Android app within 48 hours.
 
 ### Adding Walkie Talkie to your app list
 
@@ -61,29 +59,31 @@ Walkie Talkie in Teams requires Internet connectivity and below the network cond
 As noted above, the quality of real-time media over an IP network is greatly impacted by the quality of the network connectivity, but especially by the amount of:
 
 - **Latency** - This is the time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
+- **Inter-Arrival Jitter** - This is the average change in delay between successive packets.
 - **Packet Loss** - This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact, to back-to-back burst losses that cause complete audio cut-out.
-- **Jitter** - This is the average change in delay between successive packets.
 
-Expected data usage from Walkie Talkie is around 20KB/s when sending or receiving audio. When idle, expected data usage from Walkie Talkie is negligible.
+Expected data usage from Walkie Talkie is around 20 Kb/s when sending or receiving audio. When idle, expected data usage from Walkie Talkie is negligible.
 
 ### Walkie Talkie devices
 
 Frontline workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
 
-- Headsets
-  - Wired headsets ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
-  - Wireless headsets ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
-- Rugged phones
-  - Samsung Galaxy XCover Pro
-    - [More info](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).
-    - [Setup guide](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm).
+- **Headsets**
+  - Wireless headsets 
+    - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+  - Wired headsets 
+    - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+- **Rugged phones**
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+    -  Manual setup - With Teams installed, navigate to Settings > Advanced Features > XCover/Active key. Turn on 'Control XCover key with app' and select 'Teams'
+    -  [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Teams Walkie Talkie.
 
 ### License requirements
 
-Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 > [!NOTE]
 > Certain advanced features may require additional licensing. For example, integration with Samsung Galaxy XCover Pro requires a Knox license.

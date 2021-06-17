@@ -94,7 +94,7 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
     
 4. Review the returned dial plans to identify any that are missing the dial-in conferencing region. 
     
-For more information, see [Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps).
+For more information, see [Get-CsDialPlan](/powershell/module/skype/get-csdialplan?view=skype-ps).
   
 ### To set the region property for a dial plan
 
@@ -116,7 +116,7 @@ For more information, see [Get-CsDialPlan](https://docs.microsoft.com/powershell
 
    In this example, the dial plan with the Identity of Redmond is modified to set the DialinConferencingRegion property to "US West Coast". 
     
-For more information, see [Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps).
+For more information, see [Set-CsDialPlan](/powershell/module/skype/set-csdialplan?view=skype-ps).
   
 ## Configure dial-in access numbers
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
@@ -129,7 +129,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 > You cannot use a new dial-in access number until Active Directory Domain Services (AD DS) replication of that access number is complete. Replication can take several hours to complete. 
   
 > [!NOTE]
-> After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number. To modify the display name, use the [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) cmdlet. You should not modify Active Directory objects manually.
+> After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number. To modify the display name, use the [Set-CsDialInConferencingAccessNumber](/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) cmdlet. You should not modify Active Directory objects manually.
   
 ### To create a dial-in access number
 
@@ -169,7 +169,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 9. In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.
     
     > [!NOTE]
-    > If you need to change the pool after you create the access number, you must use the [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) cmdlet or delete and recreate the access number.
+    > If you need to change the pool after you create the access number, you must use the [Move-CsApplicationEndpoint](/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) cmdlet or delete and recreate the access number.
   
 10. In **Primary language**, click the language in which prompts are played for this dial-in access number. 
     
@@ -215,5 +215,3 @@ The procedure in this topic describes how to assign a **Line URI** for a single 
     > You can specify **Line URI** only if **Telephony** is set to **PC-to-PC only**, **Enterprise Voice**, **Remote call control** or **Remote call control only**. 
   
 7. Click **Commit**.
-    
-

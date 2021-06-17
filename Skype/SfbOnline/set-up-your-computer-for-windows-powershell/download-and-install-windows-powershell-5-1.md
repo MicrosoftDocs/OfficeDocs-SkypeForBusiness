@@ -24,6 +24,8 @@ description: "Download, install, and then use Windows PowerShell 5.1 to create a
 
 # Download and install Windows PowerShell 5.1
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 If you are using Windows 10 Anniversary Update, or Windows Server 2016, you should already have Windows PowerShell 5.1. That's because this application comes preinstalled with those operating systems.
   
 To determine which version of Microsoft PowerShelll you are using, do the following on your Windows 7 or Windows Server 2008 R2 or Windows Server 2012 computer:
@@ -89,7 +91,7 @@ Before installing Windows Management Framework 5.1:
 
 If you aren't sure which version of Windows you are running, or you aren't sure if you've installed Windows 7 Service Pack 1, click **Start**, right-click **Computer**, and then click **Properties**. This information will be reported in the System dialog box.
   
-To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
+To install Windows Management Framework 5.1, complete the procedure in [Install and Configure WMF 5.1](/powershell/scripting/wmf/setup/install-configure).
   
 After the computer has rebooted, verify that Windows PowerShell can start and that the application can be run under administrative credentials. To do this:
   
@@ -143,4 +145,3 @@ If basic authentication has been set to true, then you're ready to use PowerShel
 [Set up your computer for Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
   
- 

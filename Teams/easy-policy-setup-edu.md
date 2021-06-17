@@ -70,7 +70,7 @@ Follow these steps to run the wizard.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in wizard to select institution type":::
 
-3. Search for and select a group that contains your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select a group that contains your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in wizard to select educator and staff group":::
 

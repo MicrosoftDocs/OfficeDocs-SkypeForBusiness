@@ -31,9 +31,9 @@ This article provides an overview of the management tools for Teams in the Micro
 As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
 
 - Global Administrator
-- Teams Service Administrator
+- Teams Administrator
 
-You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
+You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps).
 
 
 
@@ -53,7 +53,7 @@ The grid displays the following properties:
 - **Privacy** - the Visibility/AccessType of the backing Microsoft 365 group.
 - **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Description** - the description of the backing Microsoft 365 group.
-- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Office groups in your organization](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
 - **GroupID** - the unique GroupID of the backing Microsoft 365 group.
 
 > [!NOTE]
@@ -76,7 +76,7 @@ You can archive a team. Archiving a team puts the team into read-only mode withi
 
 ### Delete
 
-Deleting a team is a soft-delete of the team and corresponding Microsoft 365 group. To restore a mistakenly deleted team, follow the instructions in [Restore a deleted Group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
+Deleting a team is a soft-delete of the team and corresponding Microsoft 365 group. To restore a mistakenly deleted team, follow the instructions in [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### Search
 
@@ -117,7 +117,7 @@ Some of your teams are missing from the list of teams in the Teams overview grid
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 
-Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
 1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -133,6 +133,6 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 ## Learn more
 
-- [Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Teams cmdlet reference](/powershell/teams/?view=teams-ps)  
 - [Use Teams administrator roles to manage Teams](using-admin-roles.md)
 - [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)

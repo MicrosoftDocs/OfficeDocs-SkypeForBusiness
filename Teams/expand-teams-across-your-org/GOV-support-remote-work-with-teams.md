@@ -26,13 +26,13 @@ If you're running Microsoft Teams as part of Office 365 for Government, use this
 
 Learn how to get Teams ready in your organization:
 
-  - Make sure everyone has access to Teams with a [paid subscription that includes Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
+  - Make sure everyone has access to Teams with a [paid subscription that includes Teams](/office365/servicedescriptions/teams-service-description). 
 
   - If you already have a subscription, make sure that **[Teams is turned on](../user-access.md)** for everyone.
 
   - For rapid deployment, visit [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) to get Teams rolled out in your organization.
 
-  - Understand how to get your organization started with **[Meetings in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**.
+  - Understand how to get your organization started with **[Meetings in Teams](../tutorial-meetings-in-teams.yml)**.
 
 ## End user communication
 
@@ -58,10 +58,10 @@ Share these assets and videos with your end users to help them get started quick
 
 ## Learn more
 
-  - Start your Teams journey with a series of live, **[interactive trainings](https://aka.ms/TeamsLiveTraining)**, designed to get your organization up and running with Teams.
+  - Start your Teams journey with a series of live, **[interactive trainings](../instructor-led-training-teams-landing-page.yml)**, designed to get your organization up and running with Teams.
 
   - Join one of our **[online classes](../instructor-led-training-teams-landing-page.yml)** to see Teams in action and get your questions answered.
 
   - Share **[in-depth training videos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** with users who want to learn more.
 
-  - Read the **[Teams admin documentation](https://docs.microsoft.com/MicrosoftTeams/)** to learn how to roll out and manage Teams.
+  - Read the **[Teams admin documentation](../index.yml)** to learn how to roll out and manage Teams.

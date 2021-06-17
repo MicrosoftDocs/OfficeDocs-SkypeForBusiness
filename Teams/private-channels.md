@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Learn how to use and manage private channels in Microsoft Teams. 
 ---
@@ -85,7 +85,7 @@ See [Manage the lifecycle of private channels in Teams](private-channels-life-cy
 
 ## Private channel SharePoint sites
 
-Each private channel has its own SharePoint site. The separate site is to ensure access to private channel files is restricted to only members of the private channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API.
+Each private channel has its own SharePoint site. The separate site is to ensure access to private channel files is restricted to only members of the private channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API. Please note: Private channel SharePoint sites aren't included in the Active sites page of the new SharePoint admin center.
 
 A private channel site syncs data classification and inherits guest access permissions from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the private channel within Teams. Any changes to the membership of Owner or Member groups in SharePoint will be reverted to private channel membership within four hours automatically. In scenarios where certain users need to access documents without needing to access private channel messages, add them to the Visitors group on the site or to a new group that's separate from Owners and Members.
 
@@ -115,10 +115,14 @@ Each team can have a maximum of 30 private channels and each private channel can
 
 When you create a team from an existing team, any private channels in the existing team won't be copied over.
 
+Notifications from private channels are not included in missed activity emails at this time.
+
+Retention policies are not supported for messages in private channels.
+
 ## Related topics
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
 
 [Teams PowerShell overview](teams-powershell-overview.md)
 
-[Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview)
+[Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview)

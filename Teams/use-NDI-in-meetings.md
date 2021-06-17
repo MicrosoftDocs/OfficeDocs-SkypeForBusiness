@@ -48,6 +48,9 @@ The following image shows the banner message that a user sees in a Teams meeting
 
 The banner has a link to the [Microsoft privacy policy](https://aka.ms/teamsprivacy).
 
+> [!NOTE]
+> NDI® is activated per session only. On the next login, the user must activate it before using NDI®.
+
 ## Supported locales and user types
 
 NDI® technology is supported in all locales. The following users are included in an NDI® technology stream, but not all users can access the NDI® technology stream:

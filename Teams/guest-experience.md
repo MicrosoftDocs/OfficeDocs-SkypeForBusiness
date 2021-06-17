@@ -47,7 +47,7 @@ The following table compares the Teams functionality available for an organizati
 |Post, delete, and edit messages  <br/> |&#x2713;|&#x2713;|
 |Share a channel file  <br/> |&#x2713;|&#x2713;|
 |Access SharePoint files<br/> |&#x2713;|&#x2713;|
-|Attach files<br/> |&#x2713;|Team chats only|
+|Attach files<br/> |&#x2713;|Channel posts only|
 |Download private chat files<br/> |&#x2713;|&#x2713;|
 |Search within files<br/> |&#x2713;||
 |Share a chat file  <br/> |&#x2713;||
@@ -100,8 +100,8 @@ The following table shows the calling and meeting features available to guests, 
 >  - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
 >  - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
 >
->To learn more, see [What are the default user permissions in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
+>To learn more, see [What are the default user permissions in Azure Active Directory?](/azure/active-directory/fundamentals/users-default-permissions)
 
 ## Related topics
 
-[Leave an organization as a guest](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Leave an organization as a guest](/azure/active-directory/b2b/leave-the-organization)

@@ -1,5 +1,5 @@
 ---
-title: Use general Teams templates in the admin center
+title: Use general team templates in the admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use general Teams templates to create team structures by providing predefined settings, channels, and pre-installed apps using the admin center.
+description: Learn how to use general team templates to create team structures by providing predefined settings, channels, and pre-installed apps using the admin center.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -21,17 +21,17 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use general Teams templates in the admin center
+# Use general team templates in the admin center
 
-Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Team templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-Teams templates have pre-built definitions of team structures designed around financial needs. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
+Team templates have pre-built definitions of team structures designed around financial needs. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
 
-In this article, we introduce each of the Teams templates and recommend how to use them.
+In this article, we introduce each of the team templates and recommend how to use them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
-To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
+To learn more about team templates in general, refer to [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Global crisis or event
 
