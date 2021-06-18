@@ -29,11 +29,11 @@ appliesto:
 
 # PSTN connectivity options
 
-Microsoft provides complete PBX capabilities for your organization through Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN).
+Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN).
 
 This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, incuding details about Phone System features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-To connect Phone System to the PSTN, you can choose one of the following connectivity options:
+To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
@@ -137,9 +137,9 @@ The PSTN connectivity option you choose affects some of the configuration decisi
 
 | Option | Phone numbers | Call routing | Emergency calling | LBR | 
 | :--- | :--- | :--- | :--- | :--- |
-| Calling Plans | -Obtained through Microsoft   | Managed by Microsoft | -Enabled by Microsoft <br>-Dynamic calling only in U.S. <br>-Admin registers addresses |   |
-| Direct Routing | Managed by | Configured by admin | Configured by admin<br>-Registered addresses not supported | Applies to Direct Routing only. Restrict toll bypass in certain geographic locations |
-| Operator Connect | -Obtained through Operator<br>-Numbers associated with emergency calling managed by Operator  |  |  |   |
+| Calling Plans | Obtained through Microsoft   | -Handled by Microsoft infrastructure. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. |   |
+| Direct Routing | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation.|-Requires extra configuration by admin.<br>-Registered addresses not supported. | Applies to Direct Routing only. Used to restrict toll bypass in certain geographic locations. |
+| Operator Connect | Obtained through operator. | Managed by operator (?) | -Numbers associated with emergency calling managed by Operator. |   |
 |||||
 
 ### Phone number management
@@ -149,9 +149,9 @@ The PSTN connectivity option you choose affects some of the configuration decisi
 
 How you configure call routing differs depending on your PSTN connectivity option.  
 
-For Calling Plans, most of call routing is handled by the Microsoft Calling Plan infrastructure. You configure user dial plans--a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164) for purposes of call authorization and call routing. For more information, see [What are dial plans?](what-are-dial-plans.md).
+For Calling Plans, most of call routing is handled by the Microsoft Calling Plan infrastructure. You configure user dial plans--a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164)--for purposes of call authorization and call routing. For more information, see [What are dial plans?](what-are-dial-plans.md).
 
-For Direct Routing, you must configure call routing by specifying a voice routing policy, PSTN usages, and voice routes, and pointers to the online PSTN gateways. You can configure number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs).  For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
+For Direct Routing, you must configure call routing by specifying a voice routing policy, PSTN usages, and voice routes, and provide pointers to the online PSTN gateways. You can configure number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
 
 For Operator Connect, ...
 
@@ -163,6 +163,8 @@ For Calling Plan, each user is automatically enabled for emergency calling and i
 
 For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users.)  Additional configuration is also required to support dynamic emergency calling.
 
+For Operator Connect, ...
+
  For more information about emergency calling concepts and terminology, and how to configure dynamic emergency calling, see the following articles:
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
@@ -172,7 +174,7 @@ For Direct Routing, you must define emergency calling policies for users by usin
 
 ### Location-Based Routing for Direct Routing
 
-In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information about how to plan and configure (LBR) see the following articles:
+In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information about how to plan and configure LBR, see the following articles:
 
 - [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 - [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
