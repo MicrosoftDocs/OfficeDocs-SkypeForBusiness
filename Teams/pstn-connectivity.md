@@ -47,7 +47,7 @@ Be aware that the option or options you choose affect how some Phone System feat
 
 
 
-### Phone System with Calling Plan 
+## Phone System with Calling Plan 
 
 Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This is the simplest option that connects Phone System to the PSTN. With this option, Microsoft acts as your PSTN carrier, as shown in the following diagram:
 
@@ -77,7 +77,7 @@ For more information about Calling Plan, see the following articles:
 - [Set up Calling Plan](set-up-calling-plans.md)
 
 
-### Phone System with own PSTN carrier with Direct Routing
+## Phone System with own PSTN carrier with Direct Routing
 
 This option connects Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
 
@@ -118,7 +118,7 @@ For more information about Direct Routing, see the following articles:
 - [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 
 
-### Phone System with Operator Connect
+## Phone System with Operator Connect
 
 With Operator Connect, currently in public preview, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
