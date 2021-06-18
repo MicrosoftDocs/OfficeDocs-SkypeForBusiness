@@ -1455,7 +1455,7 @@ action.
 | loadMode      | Load mode of the player |
 | playbackSessionId | Session ID for playback |
 
-##### a.3 Host Properties 
+##### 1.3 Host properties 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | hostIntegrationType | host integration type(Package, OneUp etc.) |
