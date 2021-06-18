@@ -48,7 +48,9 @@ If your Skype for Business Online deployment coexists with Skype for Business 20
 
 For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
-## Ensure that the user is homed online and phone number is not being synced from on-premises (applicable for Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing)
+## Ensure that the user is homed online and phone number is not being synced from on-premises 
+
+This step applies to Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing.
 
 Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. 
 OnPremLineUriManuallySet parameter should also to be set to True. This is achieved by configuring the phone number and enable enterprise voice and voicemail using Skype for Business Online PowerShell.
@@ -111,7 +113,7 @@ To add the phone number and enable for voicemail:
     > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
 
-## Configuring sending calls directly to voicemail
+## Configure sending calls directly to voicemail
 
 Direct Routing allows you to end the call to a user and send it directly to the user's voicemail. If you want to send the call directly to voicemail, attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail". In this case, the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
