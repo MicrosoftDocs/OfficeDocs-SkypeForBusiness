@@ -1,5 +1,5 @@
 ---
-title: PSTN connecivity options in Microsoft Teams
+title: PSTN connectivity options in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
