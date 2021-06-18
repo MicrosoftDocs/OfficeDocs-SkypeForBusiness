@@ -1434,8 +1434,8 @@ action.
 ### OnePlayer playback events
 - **PlayerHeartbeat** - This is a recurring event that sends the current status of the player and playback to a log.
 
-### a) Properties sent with all OnePlayer events
-##### a.1 Standard Properties
+### 1. Properties sent with all OnePlayer events
+##### 1.1 Standard properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | eventType | type of event (AppLogic, ErrorAlert, Performance, UserAction) |
