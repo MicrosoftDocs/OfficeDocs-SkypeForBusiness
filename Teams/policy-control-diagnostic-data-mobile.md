@@ -1412,7 +1412,7 @@ action.
 | Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
 
 
-## OnePlayer Events
+## OnePlayer events
 
 ### OnePlayer user action events
 - **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view.
