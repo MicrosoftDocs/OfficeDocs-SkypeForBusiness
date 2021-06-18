@@ -1431,8 +1431,8 @@ action.
 - **OpenPlaybackSpeedMenu** - Confirms if the user has opened the playback speed menu.
 - **PlayerAction** - Custom action provided by the host app.
 
-### OnePlayer Playback Events
-- **PlayerHeartbeat** - This is recurring event sent to log the current status of player and playback
+### OnePlayer playback events
+- **PlayerHeartbeat** - This is a recurring event that sends the current status of the player and playback to a log.
 
 ### a) Properties sent with all OnePlayer events
 ##### a.1 Standard Properties
