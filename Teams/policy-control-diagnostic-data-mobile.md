@@ -1458,11 +1458,11 @@ action.
 ##### 1.3 Host properties 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| hostIntegrationType | host integration type(Package, OneUp etc.) |
-| hostPlatform  | platform for host app |
-| hostProperties| host properties if any [iOS only] |
-| hostApp       | name of the host app |
-| hostVersion   | version of the host app |
+| hostIntegrationType | Host integration type (for example, Package, OneUp) |
+| hostPlatform  | Platform for host app |
+| hostProperties| Host properties, if any (iOS only) |
+| hostApp       | Name of the host app |
+| hostVersion   | Version of the host app |
 
 ##### a.4 Experimentation Properties
 | Property name | Description                                                                                    |
