@@ -1472,16 +1472,15 @@ action.
 | flightFilters | Description |
 | flightsOverridden | Bool for flights overridden or not |
 
-##### a.5 Service Properties
+##### 1.5 Service properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| contentType   | type of content being served |
-| environment   | environment name  |
-| mediaService  | which media service is being used (SPO, ODB, ODC, IC3-AMS, Unknown) |
-| mediaType     | type of the media being played  |
-| playbackTech  | playback tech of the media  |
-| correlationId | correlation id for the media if any |
-
+| contentType   | Type of content being served |
+| environment   | Environment name  |
+| mediaService  | Which media service is being used (SPO, ODB, ODC, IC3-AMS, Unknown) |
+| mediaType     | Type of the media being played  |
+| playbackTech  | Playback tech of the media  |
+| correlationId | Correlation ID for the media, if any |
 
 ### b) Properties sent with all OnePlayer User Action Events [iOS only]
 | Property name | Description                                                                                    |
