@@ -1508,24 +1508,24 @@ action.
 ### c) Properties sent only with Heartbeat Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
-| mediaCurrentTime | current playback time of the media [iOS only]|
-| isLoaded | is media loaded |
-| loadTimeMs | load time taken in milliseconds |
-| numberOfStalls | number of stalls during playback [iOS only] |
-| bufferingCount | number of stalls during playback [Android only] |
-| observedBitrate | observed bit rate during playback [iOS only] |
-| avgBitrateBitsPerSecond | observed bit rate during playback [Android only] |
-| playedSeconds | played seconds till the event |
-| rebufferingSeconds | rebuffering seconds during playback |
-| timeSinceSourceSetMs | item since source was set ms |
-| triggerType | trigger type (buffering, error, errorLog, canPlayThrough, intervalHeartbeat, sourceset, unload) |
-| errorId | error id for the error if any |
-| errorCorrelationId | error correlation id for the error if any |
-| errorLog | error log for the error if any |
-| errorType | error type for the error if any |
-| errorMessage | error message for the error if any |
-| errorStack | extended error info for the error if any |
-| metaUrl | meta url for media |
-| odspDocId | odsp doc id for media |
-| siteId | site id for media |
-| teamsCallId | teams call id for media if any |
+| mediaCurrentTime | Current playback time of the media (iOS only)|
+| isLoaded | Is media loaded |
+| loadTimeMs | Load time taken in milliseconds |
+| numberOfStalls | Number of stalls during playback (iOS only) |
+| bufferingCount | Number of stalls during playback (Android only) |
+| observedBitrate | Observed bit rate during playback (iOS only) |
+| avgBitrateBitsPerSecond | Observed bit rate during playback (Android only) |
+| playedSeconds | Played seconds till the event |
+| rebufferingSeconds | Rebuffering seconds during playback |
+| timeSinceSourceSetMs | Time since source was set (ms) |
+| triggerType | Trigger type (buffering, error, errorLog, canPlayThrough, intervalHeartbeat, sourceset, unload) |
+| errorId | Error ID for the error, if any |
+| errorCorrelationId | Error correlation ID for the error, if any |
+| errorLog | Error log for the error, if any |
+| errorType | Error type for the error, if any |
+| errorMessage | Error message for the error, if any |
+| errorStack | Extended error info for the error, if any |
+| metaUrl | Meta URL for media |
+| odspDocId | ODSP doc ID for media |
+| siteId | Site ID for media |
+| teamsCallId | Teams call ID for media, if any |
