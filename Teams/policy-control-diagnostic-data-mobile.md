@@ -1493,17 +1493,17 @@ action.
 |---------------|------------------------------------------------------------------------------------------------|
 | currentPlaybackQuality | current playback quality |
 
-#### b.2 Properties sent with ChangePlaybackSpeed Event
+#### 2.2 Properties sent with ChangePlaybackSpeed Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
-| previousPlaybackRate  | previous playback rate of the video [iOS only] |
-| currentPlaybackRate   | current playback rate of the video |
+| previousPlaybackRate  | Previous playback rate of the video (iOS only) |
+| currentPlaybackRate   | Current playback rate of the video |
 
-#### b.3 Properties sent with PlayerSeek Event [iOS only]
+#### 2.3 Properties sent with PlayerSeek Event [iOS only]
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
-| seekSource    | source of seek (seekbar, forwardButton, backwardButton) |
-| seekValue     | seek position |
+| seekSource    | Source of seek (seekbar, forwardButton, backwardButton) |
+| seekValue     | Seek position |
 
 ### c) Properties sent only with Heartbeat Event
 | Property name | Description |
