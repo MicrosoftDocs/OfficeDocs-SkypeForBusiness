@@ -1450,10 +1450,10 @@ action.
 ##### 1.2 Player properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| engineName    | Underlying player name (AVFoundation for iOS / ExoPlayer for Android) |
-| engineVersion | Operating System Version |
-| loadMode      | load mode of the player |
-| playbackSessionId | session id for playback |
+| engineName    | Underlying player name (AVFoundation for iOS/ExoPlayer for Android) |
+| engineVersion | Operating System version |
+| loadMode      | Load mode of the player |
+| playbackSessionId | Session ID for playback |
 
 ##### a.3 Host Properties 
 | Property name | Description                                                                                    |
