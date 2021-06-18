@@ -42,7 +42,7 @@ You can use the free version of Power BI Desktop. The minimum compatible version
 
 ## Permissions to access the CQD pipeline
 
-The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. Refer to the [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) for more information.
+The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. For more information see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## Installation 
 
@@ -91,7 +91,7 @@ You will have to refresh the data to see the new analytics data.
 
 ## Customization 
 
-You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, etc.
+You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and so on.
 
 You cannot add additional data fields to the report.
 
