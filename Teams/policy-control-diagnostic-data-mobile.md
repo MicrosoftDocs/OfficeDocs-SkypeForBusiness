@@ -1467,10 +1467,10 @@ action.
 ##### 1.4 Experimentation properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| ring          | ring to which user belongs |
-| hostSettings  | attributes set by host app (moreOptionsEnabled, shareFeatureEnabled, playbackQualityFeatureEnabled, playbackSpeedFeatureEnabled) |
-| flightFilters | description |
-| flightsOverridden | bool for flights overridden or not |
+| ring          | Ring to which the user belongs |
+| hostSettings  | Attributes set by the host app (moreOptionsEnabled, shareFeatureEnabled, playbackQualityFeatureEnabled, playbackSpeedFeatureEnabled) |
+| flightFilters | Description |
+| flightsOverridden | Bool for flights overridden or not |
 
 ##### a.5 Service Properties
 | Property name | Description                                                                                    |
