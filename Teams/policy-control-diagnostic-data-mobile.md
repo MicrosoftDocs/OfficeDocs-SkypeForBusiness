@@ -1447,7 +1447,7 @@ action.
 | version       | Version of the OnePlayer being used |
 | aadUserId     | User ID |                                
 
-##### a.2 Player Properties
+##### 1.2 Player properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | engineName    | Underlying player name (AVFoundation for iOS / ExoPlayer for Android) |
