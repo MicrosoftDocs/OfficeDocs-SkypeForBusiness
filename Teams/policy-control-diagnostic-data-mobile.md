@@ -1505,7 +1505,7 @@ action.
 | seekSource    | Source of seek (seekbar, forwardButton, backwardButton) |
 | seekValue     | Seek position |
 
-### c) Properties sent only with Heartbeat Event
+### 3. Properties sent only with Heartbeat Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | mediaCurrentTime | Current playback time of the media (iOS only)|
