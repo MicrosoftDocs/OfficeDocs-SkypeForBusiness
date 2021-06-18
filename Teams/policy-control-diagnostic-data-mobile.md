@@ -1438,14 +1438,14 @@ action.
 ##### 1.1 Standard properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| eventType | type of event (AppLogic, ErrorAlert, Performance, UserAction) |
-| accountType   | type of user account (business etc.) |
+| eventType | Type of event (AppLogic, ErrorAlert, Performance, UserAction) |
+| accountType   | Type of user account (for example, business) |
 | component     | OnePlayer |
-| language      | locale/ language of the app |
-| platform      | platform of OnePlayer(iOS / Android) |
-| tenantId      | tenant id |
-| version       | version of the OnePlayer being userd |
-| aadUserId     | user id of the user |                                
+| language      | Locale/language of the app |
+| platform      | Platform of OnePlayer (iOS/Android) |
+| tenantId      | Tenant ID|
+| version       | Version of the OnePlayer being used |
+| aadUserId     | User ID |                                
 
 ##### a.2 Player Properties
 | Property name | Description                                                                                    |
