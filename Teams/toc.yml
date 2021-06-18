@@ -1045,7 +1045,7 @@ items:
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
           href: manage-emergency-calling-policies.md
-        - name: Manage emergency call routing policies
+        - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
     - name: Manage voice and calling policies in Teams
       href: voice-and-calling-policies.md
