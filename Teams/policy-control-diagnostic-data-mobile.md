@@ -1464,7 +1464,7 @@ action.
 | hostApp       | Name of the host app |
 | hostVersion   | Version of the host app |
 
-##### a.4 Experimentation Properties
+##### 1.4 Experimentation properties
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | ring          | ring to which user belongs |
