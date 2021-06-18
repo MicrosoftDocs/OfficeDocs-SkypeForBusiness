@@ -137,8 +137,8 @@ The PSTN connectivity option you choose affects some of the configuration decisi
 | Option | Phone numbers | Call routing | Emergency calling | LBR | 
 | :--- | :--- | :--- | :--- | :--- |
 | Calling Plans | Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| NA  |
-| Direct Routing | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation.|-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>Dynamic calling supported but requires additional configuration.  | Applies to Direct Routing only. Used to restrict toll bypass in certain geographic locations. |
-| Operator Connect | Obtained through operator. <br>- Numbers associated with emergency addresses managed by operator.| Managed by operator. (?) |  |  NA |
+| Direct Routing | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation.|-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | Applies to Direct Routing only. Used to restrict toll bypass in certain geographic locations. |
+| Operator Connect | Obtained through operator. <br>- Numbers associated with emergency addresses managed by operator.| Managed by operator. (?) | Managed by operator (?) |  NA |
 |||||
 
 ### Phone number management
@@ -170,7 +170,7 @@ How you configure emergency calling differs depending on your PSTN connectivity 
 
 - For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users. 
 
-For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity.
+  For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity.
 
 - For Operator Connect, ...
 
