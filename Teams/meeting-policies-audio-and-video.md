@@ -31,11 +31,12 @@ This article describes the meeting policy settings specific to audio and video. 
 
 - [Allow transcription](#allow-transcription)
 - [Allow cloud recording](#allow-cloud-recording)
-- [Mode for IP audio](#mode-for-ip-audio) 
-- [Mode for IP video](#mode-for-ip-video) 
+- [Mode for IP audio](#mode-for-ip-audio)
+- [Mode for IP video](#mode-for-ip-video)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
-- [Video vilters mode](#video-filters-mode)
+- [Video filters mode](#video-filters-mode)
+- [Allow custom background settings](#allow-custom-background-settings)
 
 ### Allow transcription
 
@@ -91,7 +92,7 @@ This is a per-user policy. This setting controls whether video can be turned on 
 
 If set to **Disabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
 
-This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices. 
+This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 This setting isn't yet available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
 
@@ -102,7 +103,7 @@ To learn more, see [Manage audio/video for meeting participants](#manage-audiovi
 
 ### Allow IP video
 
-This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting. 
+This is a combination of a per-organizer and per-user policy. Video is a key component to meetings. In some organizations, admins might want more control over which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.
 
 Meetings organized by a user who has this policy setting enabled, allow video sharing in the meeting by the meeting participants, if the participants also have the policy setting enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
@@ -146,7 +147,7 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 |---------|---------|
 |Disable audio and video for participants in meetings  |Mode for IP audio: **Disabled**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A       |
 |Enable only incoming video and audio for participants in meetings  |Mode for IP audio: **Outgoing and incoming audio enabled**<br> Mode for IP video: **Outgoing and incoming video enabled**<br>Allow IP video: **Off**       |
-|Disable video for participants in meetings (participants have audio only)|  Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A        
+|Disable video for participants in meetings (participants have audio only)|  Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Disabled**<br>Allow IP video: N/A
 |Enable audio and video for participants in meetings    |Mode for IP audio: **Outgoing and incoming audio enabled** (default)<br> Mode for IP video: **Outgoing and incoming video enabled** (default)<br>Allow IP video: **On** (default)    |
 
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, if an organizer has a policy that restricts video and a user’s policy doesn't restrict video, meeting participants inherit the policy of the meeting organizer and don't have access to video in meetings. This means that they can join the meeting with audio only.
@@ -186,13 +187,41 @@ To specify whether users can customize their video background in a meeting, set 
 > [!NOTE]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
 
+### Allow custom background settings
 
+You can add custom background images to be used per tenant. This feature allows companies to apply corporate branding to Teams meetings.
 
+1. Sign in to the Teams admin center.
 
+2. Select **Meeting Policies** > **Customize meeting images**.
 
+   ![The meeting policies selection with the Customize meeting images button highlighted](media/custom-background-image-button.png)
+
+3. Select **On** from **Org wide background images**.
+
+4. Select **+ Add images**.
+
+5. In the Managing backgrounds panel, select **Add image**.
+
+6. Ensure that the images meet these requirements:
+  
+   - Minimum size 360 px
+   - Maximum size 2048 px
+   - File type of PNG, JPG, or BMP
+   - Maximum 50 images can be uploaded
+
+7. Preview the images that you've selected, and then select **Close**.
+
+8. Review the images and add more as needed.
+
+9. Select **Save**.
+
+The meeting attendees will see a selection of background images that they can use when they attend a meeting.
+
+> [!NOTE]
+> It could take up to 24 hours for the changes to take effect.
 
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](assign-policies.md)
-
