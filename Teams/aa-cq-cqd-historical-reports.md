@@ -60,7 +60,7 @@ Perform the following steps:
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region":::
 
-- The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant.md) cmdlet.
+- The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
     ```PowerShell
     (Get-CsTenant).ServiceInstance
