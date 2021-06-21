@@ -1,7 +1,7 @@
 ---
 title: Choose your upgrade journey from Skype for Business to Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

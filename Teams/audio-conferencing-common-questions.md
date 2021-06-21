@@ -124,10 +124,21 @@ We are working on a solution that will let the user access and reset a PIN witho
   
 ## What in-meeting dial-pad commands are supported?
 
-- *6 (Mute/unmute themselves)
-    
-- *1 (Plays the descriptions of dial-pad commands that are available) 
-    
+For meeting participants and organizers:
+
+| Command Name | Command Keys | Description                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| Command menu | \*1          | Press \*1 to play the descriptions of dial-pad commands that are available. |
+| Mute/unmute  | \*6          | Press \*6 to mute or unmute themselves.                         |
+
+For meeting organizers only:
+
+| Command Name                   | Command Keys | Description                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| Admit all                      | \*21         | Press \*21 to admit all participants waiting in the lobby.  |
+| Mute all                       | \*22         | Press \*21 to mute all participants (except the organizer). |
+| Toggle Enter/Exit Announcement | \*23         | Press \*23 to enable or disable Enter/Exit Announcement.    |
+
 ## Can attendees dial out to international phone numbers when they are in a Skype for Business or Microsoft Teams meeting?
 
 Yes, attendees can dial out internationally and invite other callers into a Skype for Business or Microsoft Teams meeting. See [Dialing out from a Microsoft Teams meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) or [Dialing out from a Skype for Business Online meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
@@ -143,7 +154,7 @@ Scheduling a meeting that will be joined by all attendees using a phone to dial 
 - **Option #1**: By default, if the meeting organizer and all participants are joining a meeting using a phone, the meeting organizer needs to input her Audio Conferencing PIN to start it. Callers get asked if they want to authenticate as the organizer of a given meeting when they dial the phone number of an online meeting. All participants that join the meeting via dial-in before the organizer starts will be placed in the lobby and will listen to music on hold. For Skype for Business meetings, once the organizer starts it by inputting his or her Audio Conferencing PIN, all participants in the lobby will automatically join the meeting. For Microsoft Teams meetings, the participants will join the meeting according to the value of the automatically admit people setting in the organizer's meeting policy.
 
 - **Option #2**: The “Allow unauthenticated callers to be the first people in a meeting“ setting is disabled by default. If the setting is enabled for a given organizer, then all meetings scheduled by that organizer can be started before the organizer inputs the Audio Conferencing PIN. When this setting is enabled, the meeting will start as soon as the first participant joins it via a dial-in phone number, and the first participant won't be put in the lobby. For more information, see, [Manage Audio Conferencing settings for a user in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) or [Manage Audio Conferencing settings for a user in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
-   
+  
 ## Related topics
 
 [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)

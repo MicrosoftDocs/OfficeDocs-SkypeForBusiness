@@ -27,6 +27,8 @@ description: "Learn about add-on licenses, what features you'll get with it, how
 
 # Skype for Business add-on licensing
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 ## What are add-on licenses?
 
 Add-on licenses are licenses for specific Skype for Business features. Some businesses want the flexibility of purchasing only specific features at a competitive price. To add a feature, buy one add-on license for each user who will use it.

@@ -73,7 +73,7 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2">Teams Service Administrator</td>
+    <td valign="top" colspan="2">Teams Administrator</td>
     <td valign="top">Manage the Teams service, and create and manage Microsoft 365 Groups</td>
     <td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>Manage messaging, including messaging policies<sup>1</sup><br><br>Manage all org-wide settings, including federation, Teams upgrade, and Teams client settings<sup>1</sup><br><br>Manage the teams in the organization and their associated settings, including membership<sup>2</sup><br><br>View the user profile page and troubleshoot user call quality problems by using advanced troubleshooting toolset<sup>3</sup></td>
 </tr>

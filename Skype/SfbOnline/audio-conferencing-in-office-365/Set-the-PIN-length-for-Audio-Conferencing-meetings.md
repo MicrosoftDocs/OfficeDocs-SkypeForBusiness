@@ -25,6 +25,8 @@ description: "Learn the parameters for the length and requirements of a PIN and 
 
 # Set the PIN length for Audio Conferencing meetings in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 > [!NOTE]
 > For information about setting the PIN length in Microsoft Teams, see [Set the PIN length for Audio Conferencing meetings in Microsoft Teams](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).

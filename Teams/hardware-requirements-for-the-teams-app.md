@@ -30,12 +30,12 @@ All of the requirements in the following sections apply to both the Microsoft Te
 
 | Component | Requirement |
 |---------|---------|
-|Computer and processor    | Minimum 1.6 GHz (or higher), 2 core<br><br>Note: For Intel processors, the maximum speed achieved using Intel Turbo Boost Technology (Max Turbo Frequency) must be considered         |
-|Memory     |    4.0 GB RAM     |
+|Computer and processor    | Minimum 1.1 GHz or faster, 2 core<br><br>Note: For Intel processors, the maximum speed achieved using Intel Turbo Boost Technology (Max Turbo Frequency) must be considered         |
+|Memory     |    4.0 GB RAM  (Teams requires a dedicated 4 GB of RAM over and above any other system requirements)    |
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Windows OS: Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update)
-|Operating system  |    Windows 10, Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2|
+|Operating system  |    Windows 10, Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Note: We recommend using the latest Windows version and security patches available.|
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    |
@@ -47,7 +47,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 | Component | Requirement |
 |---------|---------|
 |Computer and processor    | Intel Core Duo processor |
-|Memory     |   4.0 GB RAM      |
+|Memory     |   4.0 GB RAM  (Teams requires a dedicated 4 GB of RAM over and above any other system requirements)     |
 |Hard disk    |   1.5 GB of available disk space      |
 |Display    | 1280 x 800 or higher resolution    |
 |Operating system  |    One of the three most recent versions of macOS. You can find information about the latest macOS versions, and how to upgrade your version of macOS, [here](https://support.apple.com/en-us/HT201260). For example, when a new version of macOS is released, the new version and the two immediately preceding it become the supported versions.      |
@@ -61,7 +61,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 | Component | Requirement |
 |---------|---------|
 |Computer and processor    | 1.6 GHz (or higher) (32-bit or 64-bit), 2 core        |
-|Memory     |    4.0 GB RAM     |
+|Memory     |    4.0 GB RAM  (Teams requires a dedicated 4 GB of RAM over and above any other system requirements)   |
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  128 MB graphics memory

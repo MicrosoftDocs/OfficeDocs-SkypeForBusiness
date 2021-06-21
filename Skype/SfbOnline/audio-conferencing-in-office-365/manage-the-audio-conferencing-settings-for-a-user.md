@@ -25,6 +25,8 @@ description: "As a Microsoft 365 or Office 365 admin, you can edit the Skype for
 
 # Manage the Audio Conferencing settings for a user in Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!Note]
 > If you want to manage user settings in Microsoft Teams, see [Manage the Audio Conferencing settings for a user in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 

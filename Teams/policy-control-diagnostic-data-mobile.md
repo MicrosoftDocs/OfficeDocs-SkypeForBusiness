@@ -21,6 +21,8 @@ appliesto:
 
 The following article contains a list of Microsoft Teams mobile events, and lists of properties each event collects.
 
+For more information about diagnostic data, including how to control what diagnostic data is sent to Microsoft, see [Diagnostic data sent from the Teams app to Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft). To view the diagnostic data being sent to Microsoft, you can use the [Diagnostic Data Viewer](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
+
 ## Events
 
 > [!NOTE]
@@ -31,7 +33,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with panelaction events](#properties-sent-with-panelaction-events).
 
-- **accessibilityUserConfiguration** - When a users toggles an accessibility feature.
+- **accessibilityUserConfiguration** - When a user toggles an accessibility feature.
 - **acknowledgeSettingChange** - Acknowledge an update in the we updated a notification setting dialog. This is a feature success metrics used to acknowledge update notifications and to determine overall notification reliability.
 - **actionComposeMenu**
   - Create message extension usage.
@@ -103,10 +105,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Numbers from settings.
 - **blockChat** - Blocking a bot chat. This enhances existing telemetry around chats and is only adding application information.
 - **botClickCardAction** - Connector card usage.
-- **brbFeedback** - Relating to the performance of the BRB feedback form.
-- **brbFormCancelled** - An event sent when the BRB feedback form is cancelled and the user returns to the app.
-- **brbFormOpened** - An event sent when the BRB form is opened.
-- **brbFormSubmit** - An event sent when the user selects **Submit** on the feedback form.
+- **brbFormOpened** - The user requested to send feedback.
+- **brbFormSubmit** - The user submitted feedback.
 - **breakStartEndClicked** - On the clock in screen, the **Start** or the **End break** button is selected.
 - **breakStartEndTriggered** - Register a user chooses to use break start or end.
 - **bucketSelected** - Confirms that a bucket has been successfully selected.
@@ -336,12 +336,13 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **closeLobbyBanner** - Number of times the lobby toast is closed using its **Close** button.
 - **commentAdded** - Confirms that a comment was added to a task.
 - **commentsClicked** - Confirms that the comments view was successfully launched.
-- **commentUpdated** - Confirms that a comments was successfully updated on a task.
+- **commentUpdated** - Confirms that a comment was successfully updated on a task.
 - **companionBannerJoin** - Select **Join** on the top-level banner.
 - **companionDismiss** - Dismiss the companion banner.
 - **companionDismissProximity** - Dismiss the companion banner.
 - **companionJoin** - Join as companion option is selected on the sheet.
-- **companionJoinProximity** - Joined through tje companion banner.
+- **companionJoinProximity** - Joined through the companion banner.
+- **completeVaultFRE** - User completes process of generating a master key which is used to encrypt their Safe data.
 - **completionStateChange** - Triggers when a completed or uncompleted filter toggle is selected in filter view from task list.
 - **composeExpandComposer** - **Format** button tapped.
 - **composeFilePick** - Native file picker launched.
@@ -353,6 +354,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **composeParticipantAdded** - When a participant is added to the Shifts app.
 - **composeSearchResult** - Message extension result selection, which is helpful to understand the app search result relevance. Also enhances message send telemetry with app data.
 - **composeSelectExtension** - Tap on a ME app.
+- **composeSendSmartReply** - A smart reply item is clicked.
 - **composeSendMessage** - Enhances message send telemetry with app data.
 - **confirmAudioOn** - A user confirms that they want audio on.
 - **confirmFileShare** - **Share** is selected on the confirmation dialog.
@@ -378,6 +380,20 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **copyLink** - Copy a link to a channel post.
 - **contactActivity** - When the button to view a user's activity from the contact card is selected.
 - **conversation** - When a user navigates to the **Chat** or **Posts** tab.
+- **cortanaClose** - When a user manually dismisses Cortana canvas.
+- **cortanaEduCategorySelect** - When a user clicks on an education tips category item.
+- **cortanaEduOpen** - When education page shows on Cortana canvas.
+- **cortanaInvoke** - When Cortana starts listening.
+- **cortanaKWSSwitchToggle** - When a user tap on KWS switch in Cortana settings page.
+- **cortanaMicPermissionDialogButtonClick** - When a user grants or declines mic permission on Cortana canvas.
+- **cortanaOpen** - When a user opens Cortana canvas.
+- **cortanaOptionsOpen** - When the user taps options button on Cortana canvas.
+- **cortanaSafetyFirstActions** - When the user accepts safety first declaration.
+- **cortanaSafetyFirstLaunch** - When the user opens Cortana for the first time after FRE is finished.
+- **cortanaSettingsOpen** - When a user opens Cortana settings page via clicking Cortana settings button on Cortana canvas.
+- **cortanaStopResponding** - When a user clicks cancel button on Cortana canvas.
+- **cortanaUserSettingsLaunch** - When the user opens Cortana settings in Teams settings.
+- **cortanaVoiceSelect** - When a user selects Cortana voice font in Cortana settings page.
 - **createChannel** - Provides success data around the successful creation or discard action for new channel creation, when:
   - The **Done** button is selected on the **Create Channel** Page.
   - The **Cancel** button is selected on the **Create Channel** Page.
@@ -415,6 +431,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **deleteMeeting** - Select the **Delete** button from the Meeting Details page.
 - **deletePersonalTask** - Confirms a personal task has been successfully deleted.
 - **deletePersonalSubtask** - Confirms a personal sub-task has been successfully deleted.
+- **deletePersonalVaultItem** - User requests to delete their personal Safe.
 - **deletePlannerTask** - Confirms that a shared task delete operation completed successfully.
 - **deleteShift** - Shift deletion.
 - **duration_picker_dismissed** - When the duration picker is dismissed.
@@ -442,6 +459,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **dialOutDialog** - **New number** is selected in the action sheet.
 - **dialOutFailRetry** - **Retry** is selected from a failure banner.
 - **DialPad** - The **DialPad** button is selected from the call list.
+- **directShare** - Shared an invite link to a Sms/Email native app.
 - **disableCategory** - Disable a type of notification or disable incoming call notifications.
 - **disabled** - **Skip notifications** is selected in the First-run experience (FRE). This provides key success data for skipping the notification in the FRE flow.
 - **disableQuietDays** - Quiet Days disabled. Feature success telemetry for quiet days.
@@ -483,6 +501,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **editNavigation** - **Reorder** is selected in the **More** menu to edit the order of bottom bar apps.
 - **editRsvpMeetingOptions** - Select **RSVP** to change from the previous selection.
 - **editShiftClicked** - Edit a shift.
+- **editSmartReply** - A smart reply item is edited.
 - **editTeam** - A user taps on a button to edit a team that they own or administer.
 - **editTeam, editChannel** - Relating to the successful addition of members in a team and successful creation of an existing team when:
   - The **Cancel** button is selected in the **Add Members** page (existing team or channel).
@@ -553,9 +572,11 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **funSelectItem** - Giphy image chosen. Success data for the giphy attachment feature in Teams.
 - **galleryImage** - Image uploaded - gallery.
 - **get_directions_clicked** - The **Get directions** button is selected.
+- **giphyUserDisabled** - User selects to decline Giphy terms/conditions.
+- **giphyUserEnabled** - User selects to accept Giphy terms/conditions.
 - **goToNotificationSettings** - Go to the notification settings page from **we updated notification settings** dialog.
 - **GPSPromptClicked** - The **Allow** or **Don't Allow** is selected in an OS prompt. either allowing GPS or not.
-- **group_map_closed** - A user opens the map viw from chat.
+- **group_map_closed** - A user opens the map view from chat.
 - **group_map_open** - User closes the map view.
 - **groupCallJoin** - A user joins a Group call.
 - **groupClicked** - Tracks when a user selects the shift group.
@@ -568,6 +589,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **hide** - Hide chat.
 - **hideChannel** - Hide a channel from the teams and channel list.
 - **image** - Image.
+- **inAppNotification**- Triggered when a notification is tapped while the user is active in the app.
 - **immediateCallForward** - Immediate call forward target is set, or enabling immediate call forwarding (Calls ring me is disabled).
 - **importanceToggleClicked** - Triggers when the **!** field is toggled inside task item details.
 - **importantMessage_select** - A user selects an important message from the priority context menu.
@@ -599,9 +621,11 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **labelSelected** - Confirms that a label has been successfully selected.
 - **labelUnselected** - Confirms that a label has been successfully unselected.
 - **launchLinksGallery** - When a user enters the links gallery from the dashboard.
+- **launchSlideshow** - User Launches Slideshow full screen image viewer from one of three possible app feature locations. 
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
+- **link** - User initiated redeem of invite link by entering Teams application.
 - **likeAppDismiss** - When the prompt that asks whether a user likes the app or not is dismissed without a response.
 - **likeAppNo** - When the prompt that asks whether user likes the app receives a response of no.
 - **likeAppYes** - When the prompt that asks whether user likes the app receives a response of yes.
@@ -627,18 +651,22 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **location_active_tracking** - A user's device is switched to active tracking.
 - **locationCard** - Select a location card.
 - **location_family_sync** - Showing members of a Family group that were created in MSA family app. Confirms that all family members that can be granted consent are displayed.
+- **location_data_use_privacy_denied** - The user denied acceptance of privacy terms.
 - **location_group_map_sync** - Map view is opened.
 - **location_map_load** - Map view load.
 - **location_map_markers_load** - Map view load. Confirms that location markers for all users actively sharing are displayed properly on the map view.
 - **location_message_send** - A user initiates a location sharing session.
 - **location_data_use_privacy_denied** - A user dismisses or selects **Not now** on a popup explaining use of location data by TFL.
-- **location_data_use_privacy_granted** - A user selects **Allow** on the a popup explaining the use of location data by TFL.
+- **location_data_use_privacy_granted** - A user selects **Allow** on a popup explaining the use of location data by TFL.
 - **location_settings_open** - A user opens location settings.
 - **location_sharing_start** - A user shares their live location in a chat.
 - **location_sharing_stop** - A user stops sharing their live location in a chat.
 - **loginFailed** - User was unable to login.
 - **loginSuccess** - User was able to login.
+- **logoutVault** - User logs out of the app and in turn logs out of Safe. 
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
+- **manageVaultKey** - User changes their Safe key management choice (MSA vs self tracked).
+- **manualSendMessage** - A message is sent out manually.
 - **mapAppPicker** - When a user selects which mapping app to use when they tap on a location card.
 - **markAsRead** - Mark as read.
 - **markAsUnread** - Mark as unread.
@@ -646,6 +674,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **messageBookmarkMessage** - Connector card save. Uses existing telemetry with app specific data. Or save a bot message.
 - **markAsLastUnread** - Connector card context menu.
 - **maskCallerId** - A user enables or disables calling setting to mask caller id.
+- **meetingAttachmentFileClick** - A meeting attachment item is clicked.
+- **meetingAttachmentFileOptions** - A meeting attachment item options is clicked.
+- **meetingAttachmentSeeMoreClick** - A meeting attachment see more button is clicked.
 - **meetingDetailCalendarList** - Meeting Details page selected from calendarList, or select the **Details** tab on the Meeting Details page.
 - **meetingDetailChatWithParticipants** - Chat with participants from the Meeting detail page.
 - **meetingDetailDeleteMeetingforSelf** - Delete a Meeting from Meeting Detail page for oneself.
@@ -653,6 +684,10 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **meetingDetailParticipants** - See all participants from the Meeting Detail page.
 - **meetingDetailScheduledMeeting** - Meeting details page selected from scheduled meeting object (**…**), or select the **Details** tab of a scheduled meeting.
 - **meetingDetailSearchParticipants** - Selected **Search** in meeting participants on the meeting schedule.
+- **meetingInsightFileClick** - A meeting related file item is clicked.
+- **meetingInsightFileLocatorClick** - A meeting related content locator tip button is clicked.
+- **meetingInsightFileOptions** - A meeting related file item options is clicked.
+- **meetingInsightSeeMoreClick** - A meeting related content see more button is clicked.
 - **meetingJoinLeave** - Leave tapped -> **x** is tapped after the **Join** button is tapped.
 - **meetingJoinNow** - **Join now for VOIP** selected.
 - **meetingJoinNowWithCallMe** - A user joins a meeting with **Call me**.
@@ -682,6 +717,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **meetingUserFreemium** - A freemium user joined the meeting.
 - **meetingUserGuest** - A guest user joined the meeting.
 - **meetingUserTenant** - An in-tenant user joined the meeting.
+- **memeGenerated** - When a meme is generated given a user input of image and text data. 
 - **messageCopyMessage** - Copy Message.
 - **messageDelete** - Message delete.
 - **messageEditMessage** - Edit message.
@@ -750,6 +786,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **notBlockedDevice** - A user doesn't reach the threshold for background activity failures in 30 days.
 - **notNow** - **Not now** is selected in reminder.
 - **notNowUpdate** - UpdateDefer.
+- **notification/ notification_clicked** – Triggered when a notification is tapped.
 - **notificationNavChannelConversation** - Launch the app using a notification for a channel conversation.
 - **notificationNavChannelThreadConversation** - Launch the app using a notification for a specific message in a channel conversation.
 - **notificationSettingTurnedOff** - Turn off push notifications for the Teams Android app.
@@ -821,6 +858,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **pinChannel** - Pin a channel to show it above the teams and channels list.
 - **pinSelf** - Pin myself from the action sheet.
 - **pinUser** - Pin a user from the action sheet.
+- **place_created** - The user created a shared place.
+- **place_deleted** - The user deleted a shared place.
+- **place_edited** - The user edited a shared place.
 - **play** - Play the recording.
 - **playVoicemail** - **Play** tapped on voicemail item.
 - **plusButtonClicked** - Selecting the **plus button** (**+**).
@@ -884,6 +924,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **reactRemoved_HB** - When a user removes a reaction through the reaction summary page experience.
 - **readReceipts** - User enabled feature.
 - **redeemInvite** - In app redemption.
+- **redeemLinkInAppStart** - User initiated redeem of invite link from within Teams application.
 - **refreshCalendarList** - Pull down to refresh agenda view.
 - **refreshLinksGallery** - When a user swipes down to refresh the links gallery.
 - **removeAssignee** - Confirms that an assignee is removed from the assignment picker view (as opposed to *assignmentRemoved* which triggers when selecting **x** outside of assignment picker view).
@@ -899,7 +940,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **reorderChannelItem** - A user reorders pinned channels.
 - **reportAbuseConfirmation** - When a user selects the **Done** button on the confirmation screen.
 - **reportAbuseOpen** The number of times the **Report a concern** button is selected in the context menu.
-- **reportAbuseSend** - When a users selects the **Report** button, the telemetry should store the type of report selected.
+- **reportAbuseSend** - When a user selects the **Report** button, the telemetry should store the type of report selected.
 - **replyChain** - Selected **New message** button or textbox in reply chain (thread).
 - **replyChannel** - Selected **Reply** button in channels.
 - **replyNavigation** - Reply object was selected to navigate to referenced post.
@@ -914,6 +955,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **requestToJoinTeam** - Request to join team (public or private).
 - **requestToJoinTeamError** - Error with join request.
 - **requestTypeClicked** - Determining the type of request people select from the requests picker.
+- **resetLocalVault** - User resets and clears all Safe data from their device.
 - **resolveIssue** - **Resolve** is selected in the notification troubleshooter flyout to navigate to the blocker app.
 - **responseClicked** - A user selects a response page.
 - **retryButtonClicked** - The **Retry** button is selected.
@@ -923,6 +965,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **saveEditMeeting** - Select the **Save** button while on the meeting scheduler page after updating a meeting.
 - **saveNewMeeting** - Select the **Save** button while on the meeting scheduler page. To log successfully saved meetings and the percentage of meetings that failed to create due to a client side or service error.
 - **savePlanClicked** - Triggers **Create** is selected in the new plan creator from the default opening of the app.
+- **scenarioChannelDashboard** - The user navigates to a tile on the dashboard.
+- **scenarioDashboardNav** - The user navigates to the dashboard tab within a conversation (sibling of the chat tab).
 - **scheduledMeetingJoin** - The **Meeting Join** button is selected from the scheduled meeting object.
 - **scrollCalendarList** - Measures scrolls in calendar.
 - **scrollDatePicker** - Scroll through the calendar date picker control.
@@ -931,18 +975,11 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Search was successful or if the user abandoned search.
   - A search query was successful.
 - **searchContacts** - Search from the Call List.
-- **searchIcon** - Determine:
-  - If search can be triggered.
-  - The source of a search trigger.
-  - If relevant results are found successfully.
 - **searchInitiated** - Determines if search can be triggered, and the source of search trigger.
 - **searchMeetingParticipants** - Search for participants to add within the scheduler form. To distinguish between the number of appointments created versus the number of meetings created.
 - **searchResultsClicked** - Determines:
   - If relevant results can be found successfully.
   - If search results were from the All tab versus an individual domain.
-- **searchTab** - Determines:
-  - Domain information of the search result - for people, chat, messages, and files.
-  - If search results was from ALL tab vs individual domain.
 - **searchTabClicked** - Determines:
   - Domain information of the search result - for people, chat, messages, and files.
   - If the relevant results are found successfully.
@@ -977,6 +1014,9 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **Setting/Dismiss** - Device contacts setting.
 - **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
 - **settingsOpened** - This is triggered when the user's device time zone doesn't match the team time zone, and the user goes to Settings.
+- **setupPinVault** - User saves a Safe pin for their account. 
+- **shareCharmCompleted** - User completed sharing of an invite link via application share charm.
+- **shareCharmOpened** - User initiated sharing of an invite link via application share charm. 
 - **shareFile** - Triggered when **Share file** is selected. Also helps to check if:
   - The user was able to initiate share file operation.
   - The user can share a file successfully.
@@ -1000,13 +1040,17 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
 - **shownReadReceiptNotice** - The user shown feature notice with settings options.
 - **signIn** - **Sign in** is selected on welcome page, or the **Sign In** button is tapped.
+- **SignInWithOTP** - User selects the option to sign in as a guest with one time passcode (OTP). 
 - **signUp** - **Create a free account** or **Sign up for free** is selected.
+- **SignUpFromSignIn**- User taps on **Create a new account** option from sign-in.
 - **simultaneousCallForward** - Triggered when:
   - Simultaneous call forward target is set.
   - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
-- **skipVerificationForLink** - Thw user chose to skip verification.
+- **skipVerificationForLink** - The user chose to skip verification.
+- **smartReply** - Smart reply toggle button is clicked.
 - **SMSSendMessage** - The user sends a SMS message.
 - **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
+- **SSOAccountListItem**: Triggered when the user taps on an SSO account to sign in.
 - **startEditing** - **Edit** button selected.
 - **startPresentPhoto** - Start presenting photo.
 - **startPresentVideo** - Start presenting video.
@@ -1034,6 +1078,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **stuckOnConnectingRetrySelected** - **Retry** is selected on the drawer.
 - **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
 - **suggested_place_selected** - A user shares a static location by selecting a suggested place.
+- **Switching**- Tenant or account is switched from the app. This is required to measure account/tenant switch issues proactively and provides a smooth account/tenant switch experience.
 - **switchTeamAction** - A user switches teams within the time clock. This should fire after the user selects which team they want to switch to.
 - **switchTeamsDialogTriggered** - A user views the **Shifts** tab.
 - **tabActionCopyLink** - How users discover and use the tab copy link on mobile.
@@ -1075,7 +1120,7 @@ The following article contains a list of Microsoft Teams mobile events, and list
 - **timesheetBreakEdited** - When a user confirms their timesheet. The event is logged when the user hits confirm in the modal.
 - **timesheetBreakNoteAdded** - When a user deletes their timesheet. The event is logged when the user confirms the delete in the modal.
 - **timesheetClockAdded** - When a user selects Edit for a timesheet.
-- **timesheetClockEdited**  When a user slects Save on an edited timesheet.
+- **timesheetClockEdited**  When a user selects Save on an edited timesheet.
 - **timesheetConfirmed** - When a user adds a note to their timesheet edits. The event is logged once the user saves the changes.
 - **timesheetDeleted** - If a user does or does not have a shift reminder set, and the amount of minutes before a shift a user wants to be alerted.
 - **timesheetEditClicked** - User Configuration telemetry.
@@ -1090,6 +1135,8 @@ The following article contains a list of Microsoft Teams mobile events, and list
   - Transfer target is set to a Person.
   - Transfer target is set to a Phone Number.
 - **translateFailed** - Translation failed (excluding offline). Feature success metrics for message translation feature.
+- **trigger_created** - The user created a geofence.
+- **trigger_deleted** - The user deleted a geofence.
 - **unansweredCallForward** - An unanswered call forward target is set. Also enables unanswered call forwarding (Calls ring me is enabled and If unanswered is enabled).
 - **unblockCaller** - Unblock:
   - Contact or number from the action sheet.
@@ -1157,31 +1204,138 @@ action.
 - **voicemail - No AS Assigned** - A speaker taps on a voicemail item.
 - **whiteboardUsed** - A user annotates on a whiteboard (any action on the webview).
 - **wiki - No AS assigned** - Wiki usage telemetry.
+- **poorNetworkBanner** - Poor network banner shown.
+- **badNetworkBanner** - Bad network banner shown.
+
+### PanelView
+
+> [!NOTE]
+> For information on the properties of PanelView events, see [Properties sent with panelview events](#properties-sent-with-panelview-events).
+
+- **appInstall**: Triggered when a user opens the app for the first time after installation.
+- **fileDeleteFailed** - Triggered when a file delete operation fails.
+- **fileDeleteSuccess** - Triggered when a file delete operation succeeds.
+- **filePreview** - Triggered in following scenarios:
+  - When share option is tapped in file preview screen.
+  - When copy option is tapped in file preview screen.
+  - When download option is tapped in file preview screen.
+  - When a file preview is successfully loaded.
+- **files** - Triggered in following scenarios:
+  - When a file is previewed within Teams app.
+  - When file upload option is tapped in OneDrive files screen.
+  - When "Copy Link" option is tapped in file preview screen.
+  - When the file sharing screen is dismissed.
+  - When files options menu is opened or when one of the options in that menu is tapped.
+  - When "in-call" files screen is opened.
+  - When a file is tapped to open.
+- **filesChannel** - Triggered when channel files screen is opened.
+- **fileSources** - Triggered when files options menu is opened or when one of the options in that menu is tapped.
+- **filesPersonal** - Triggered when a batch of files is loaded in OneDrive or recent files screen.
+- **fileUploadDeleteTriggered** - Triggered when a file attachment is deleted or detached from message area.
+- **fileUploadFailed** - Triggered when a file upload operation fails.
+- **fileUploadIndividualNotification** - Triggered when the contents of file upload notification change or when the notification is interacted with. The interactions may include gestures like swiping to dismiss the notification or tapping the notification etc.
+- **fileUploadSuccess** - Triggered when a file upload operation succeeds.
+- **fileUploadSummaryNotification** - Triggered when the contents of file upload summary notification change or when the notification is interacted with. The interactions may include gestures like swiping to dismiss the notification or tapping the notification etc.
+- **meetingFiles** - Triggered when meeting files screen is opened.
+- **meetNowActionSheet** - Triggered when user creates a Meet Now meeting.
+- **navPersonalFiles** - Triggered when navigation to files screen is performed.
+- **signInSSOPage**: Triggered when the user views a single sign-on page while signed in.
+-- **signInError**: Triggered when the user hits any error while signed in. This is needed to proactively identify and fix issues that users face during sign-in. 
+-- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 
 ### Scenario
 
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
-
+> 
+- **acquire_resource_token_interactive**- Required service call which is triggered when an authentication token is acquired by interactive sign-in. 
+- **acquire_resource_token_silent**- Required service call which is triggered when an authentication token is acquired by silent sign-in.
+- **app_crash2** – Triggered when the app is crashed unexpectedly. Provides information on how frequently the Teams app is crashing. 
+- **app_incremental_sync_launch** - Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** - Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_cold** - To monitor cold app launch (Android only).
+- **app_start_hot** - To monitor hot app launch (Android only).
+- **app_start_warm** - To monitor warm app launch (Android only).
+- **auth_adal_tokens**- Required service call to do silent authentication. Triggered when a user starts the app, or the token is refreshed on expiry.
+- **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
+- **chat_send_message_sfc**- Triggered when a chat message is sent in SfC interop chat.
+- **cortanaError** - To monitor Cortana error happens.
+- **cortanaView** - To monitor Cortana canvas appear.
+- **cortanaRestart** - To monitor Cortana restart.
+- **cortanaSetNewConversation** To monitor Cortana sets new conversation.
+- **cortanaSpeechRecognization** To monitor Cortana speech recognization latency.
+- **cortanaStart** To monitor Cortana backend start.
+- **cortanaStartListening** To monitor Cortana start listening.
+- **cortanaStopListening** To monitor Cortana stop listening.
+- **cortanaThinking** To monitor Cortana state change to thinking(waiting for service's response).
+- **cortanaTokenRefresh** To monitor Cortana token refresh in foreground.
+- **cortanaWarmingUp** To monitor Cortana warming up start(Cortana is open but token is still fetching).
+- **cortana_admin_policy_refresh** - To monitor Cortana admin policy refresh.
+- **cortana_background_token_refresh** - To monitor Cortana token refresh.
+- **cortana_initialization** - To monitor Cortana initialization steps.
+- **cortana_sdk_events** - To monitor Cortana turn related events.
+- **cortana_skill_action_execution** - To monitor Cortana action execution.
+- **cortana_skill_action_delay** - Confirms the start of delay action.
+- **cortana_watchdog** - To monitor Cortana watchdog recovery process.
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
+- **create_new_chat_thread_sfc**- Triggered when a new chat thread is created for an SfC interop chat.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
 - **create_planner_plan_and_nav_to_view** - Confirms successful creation of shared task list and how long it took for a user to land on resulting view after action.
 - **create_planner_task** - Confirms successful creation of shared task item.
+- **forwardExistingAmsObject** Confirms that the media forward action succeeded or failed.
 - **delete_personal_plan** - Confirms the successful deletion of a personal task list.
 - **delete_personal_task** - Confirms the successful deletion of a personal task item.
 - **delete_planner_plan** - Confirms the successful deletion of a shared task list.
 - **delete_planner_task** - Confirms the successful deletion of a shared task item.
-- **get_sender_sub_scenario** - get sender sub scenario in activity.
+- **json_parse_failure**- Provides information on the frequently of JSON parsing issues.
+- **getProfilePicture**- Necessary service call to get user profile picture. 
+- **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
+- **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
+- **get_sender_sub_scenario** - Get sender sub scenario in activity.
+- **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication.
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
 - **load_home_page** - Confirms the successful fetching of both personal and shared tasklists for the main home view.
 - **load_personal_task_list** - Confirms the successful fetching of a personal tasklist's tasks for the tasklist view.
 - **load_shared_task_list** - Confirms the successful fetching of a shared tasklist's tasks for the tasklist view.
 - **load_smart_task_list** - Confirms the successful fetching of a smart tasklist's tasks for the tasklist view.
+- **meetingAttachmentRender** - Confirms the render of meeting attachments.
+- **meetingInsightFetch** - Confirms the fetch of meeting related content.
+- **meetingInsightLocatorRender** - Confirms the render of meeting related content locator tip.
+- **meetingInsightRender** - Confirms the render of meeting related content.
+- **meetingInsightVisible** - Confirms the visibility of meeting related content.
+- **open_image** Confirms that the full screen image rendering succeeded or failed.
 - **rename_personal_plan** - Confirms the successful renaming of a personal task list.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
+- **save_image** Confirms that the image save action succeeded or failed.
+- **saveMeProfile**- Required service call that gets triggered when user saves the profile
+- **share_image** - Confirms that the image share action succeeded or failed.
+- **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
+- **smart_reply_received** - Confirms that a smart reply suggestion is received.
+- **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
+- **park_call_for_hold_v2** - Confirms that putting call on hold succeeded or failed using call park.
+- **unpark_call_for_hold_v2** - Confirms that resuming call succeeded or failed using call un-park. 
 - **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for a user to land on resulting view after action.
-- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared taks list.
+- **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after 
+- **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared task list.
+- **upload_images** Confirms that the image upload action succeeded or failed.
+- **upload_voice_messages** Confirms that the voice message upload action succeeded or failed.
+- **voiceMessageUpload** Confirms that the voice message upload action succeeded or failed.
+- **cancel_channel_meeting** Confirms that the cancellation of a channel meeting has succeeded or failed.
+- **cancel_meeting** Confirms that the cancellation of a meeting has succeeded or failed.
+- **cancel_private_meeting** Confirms that the cancellation of a private meeting has succeeded or failed.
+- **edit_channel_meeting** Confirms that the edit operation of a channel meeting has succeeded or failed.
+- **edit_meeting** Confirms that the edit operation of a meeting has succeeded or failed.
+- **server_fetch_agenda_view** Confirms that the calendar event sync using the Middle Tier API has succeeded or failed.
+- **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
+- **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
+- **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
+- **meeting_details** - Confirms that the meeting details sync has succeeded or failed.
+- **show_meeting_participants** - Confirms that showing the meeting participant list has succeeded or failed.
+- **search** - Confirms that the whole search session has succeeded or failed.
+- **time_based_retention_shared_channel** – Captures performance data for pruning the database.
 
 ## Property lists
 

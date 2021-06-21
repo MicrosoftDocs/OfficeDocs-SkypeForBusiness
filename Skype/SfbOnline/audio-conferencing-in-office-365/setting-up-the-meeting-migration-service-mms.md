@@ -42,7 +42,6 @@ By default, MMS is automatically triggered in each of these cases, although admi
 - The user’s mailbox is hosted in Exchange on-premises.
 - The user is being migrated from the cloud to Skype for Business Server on-premises.
 
-In these situations, end users can use the [Meeting Migration Tool](https://www.microsoft.com/download/details.aspx?id=51659) to migrate their own meetings instead.
 
 ## How MMS works
 

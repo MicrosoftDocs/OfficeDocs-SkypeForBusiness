@@ -23,6 +23,8 @@ description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get infor
 
 # Manage user accounts using the Online Connector
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 ## Manage user accounts
 
 This topic contains the following sections:
