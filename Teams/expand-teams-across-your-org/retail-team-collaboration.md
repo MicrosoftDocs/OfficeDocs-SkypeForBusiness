@@ -40,6 +40,18 @@ In addition, your team can use apps in Teams to:
 - Manage learning and skilling with Viva Learning.
 - Keep everyone informed with Bulletins.
 
+[Learn how to manage apps in the Microsoft Teams admin center](microsoftteams/manage-apps)
+
+## Teams templates and apps
+
+The easiest way to collaborate in Teams is to use a template. The [Organize a store and Retail for managers templates](microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off a previously created team.
+
+### Create a team based on a template
+
+1. In Microsoft Teams, select **Join or create a team**
+
+2. Select **Create a team** and then scroll down to see available templates.
+
 ## Create, manage and share schedules with the Shifts app
 
 Use [Shifts](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) to seamlessly manage and share schedules. Managers can create custom groups such as cashiers or greeters, assign shifts to employees, add custom labeling and breaks, and add open shifts that employees can request to take. Employees can use Shifts to set their availability, view their schedules, swap shifts with coworkers, and clock in and out.
