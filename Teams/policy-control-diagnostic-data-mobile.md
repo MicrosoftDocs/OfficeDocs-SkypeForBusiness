@@ -1312,6 +1312,28 @@ action.
 - **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
 - **search** Confirms that the whole search session has succeeded or failed.
 
+## OnePlayer events
+> [!NOTE]
+> For OnePlayer events, only properties listed in Property lists for OnePlayer events apply.
+### OnePlayer user action events
+- **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view.
+- **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view.
+- **PlayerSeek** - Confirms if the user seeks the video either using the seek bar or forward/backward buttons in the OnePlayer view (iOS only).
+- **VideoPlayerSeekForward** - Confirms if the user seeks the video either using the seek bar or forward buttons in the OnePlayer view (Android only).
+- **VideoPlayerSeekBackward** - Confirms if the user seeks the video either using the seek bar or backward buttons in the OnePlayer view (Android only).
+- **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed.
+- **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback.
+- **ShareVideo** - Confirms if the user has tapped on the share icon.
+- **PlayerClose** - Confirms if the user has tapped on the close icon.
+- **VideoCaptionsOn** - Confirms if the user has switched on the captions.
+- **VideoCaptionsOff** - Confirms if the user has switched off the captions.
+- **ChangePlayerOrientation** - Confirms if the user has changed the orientation of the device.
+- **OpenPlayerSettingsMenu** - Confirms if the user has opened the settings menu.
+- **OpenPlaybackSpeedMenu** - Confirms if the user has opened the playback speed menu.
+- **PlayerAction** - Custom action provided by the host app.
+
+### OnePlayer playback events
+- **PlayerHeartbeat** - This is a recurring event that sends the current status of the player and playback to a log.
 
 ## Property lists
 
@@ -1411,28 +1433,7 @@ action.
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
 
-
-## OnePlayer events
-
-### OnePlayer user action events
-- **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view.
-- **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view.
-- **PlayerSeek** - Confirms if the user seeks the video either using the seek bar or forward/backward buttons in the OnePlayer view (iOS only).
-- **VideoPlayerSeekForward** - Confirms if the user seeks the video either using the seek bar or forward buttons in the OnePlayer view (Android only).
-- **VideoPlayerSeekBackward** - Confirms if the user seeks the video either using the seek bar or backward buttons in the OnePlayer view (Android only).
-- **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed.
-- **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback.
-- **ShareVideo** - Confirms if the user has tapped on the share icon.
-- **PlayerClose** - Confirms if the user has tapped on the close icon.
-- **VideoCaptionsOn** - Confirms if the user has switched on the captions.
-- **VideoCaptionsOff** - Confirms if the user has switched off the captions.
-- **ChangePlayerOrientation** - Confirms if the user has changed the orientation of the device.
-- **OpenPlayerSettingsMenu** - Confirms if the user has opened the settings menu.
-- **OpenPlaybackSpeedMenu** - Confirms if the user has opened the playback speed menu.
-- **PlayerAction** - Custom action provided by the host app.
-
-### OnePlayer playback events
-- **PlayerHeartbeat** - This is a recurring event that sends the current status of the player and playback to a log.
+## Property lists for OnePlayer events
 
 ### 1. Properties sent with all OnePlayer events
 ##### 1.1 Standard properties
@@ -1505,7 +1506,7 @@ action.
 | seekSource    | Source of seek (seekbar, forwardButton, backwardButton) |
 | seekValue     | Seek position |
 
-### 3. Properties sent only with Heartbeat Event
+### 3. Properties sent with OnePlayer Heartbeat Event
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | mediaCurrentTime | Current playback time of the media (iOS only)|
