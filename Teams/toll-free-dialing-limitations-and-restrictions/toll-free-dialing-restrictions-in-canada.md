@@ -1,5 +1,5 @@
 ---
-title: Toll-free dialing restrictions in the Canada
+title: Toll-free dialing restrictions in Canada
 ms.author: v-lsaldanha
 author: lovina-saldanha
 manager: dansimp
@@ -33,13 +33,24 @@ description: Learn about dialing toll-free numbers in Canada, including availabi
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 0 800 XXX XXXX <br/>  0 808 XXX XXXX <br/> |
-|Country/region ISO code  <br/> |GB  <br/> |
-|Island/territory covered  <br/> |England, Guernsey, Isle of Man, Northern Ireland, Scotland, Wales, and Channel Islands  <br/> |
-|Island/territory not covered  <br/> |Not applicable  <br/> |
+|Dialing format(s)  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
+|Country/region ISO code  <br/> |CAN  <br/> |
+|Island/territory covered  <br/> |American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, Canada, Cayman Islands, Dominica, Dominican Republic, Grenada, Guam, Jamaica, Montserrat, Northern Mariana Islands, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarteny, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Virgin Islands <br/> |
 |Wired/fixed line availability  <br/> |Yes  <br/> |
 |Mobile network availability  <br/> |Yes  <br/> |
 |Comments, restrictions, and access issues  <br/> |None  <br/> |
+
+> [!NOTE]
+> **Dialing Formats**:
+> - 800-389 are special and for Bahamas
+> - 800-534 are special and for Barbados
+> - 800-623 are special and for Bermuda
+> - 800-415 or 907 or 751 are for the Dom Republic
+> - 800-271 are special and for Trinidad
+> - 800-555 is the deaf line range
+
+> [!IMPORTANT]
+> **North America Numbering Plan Toll Free Numbers**: Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
    
 ## Related topics
 
