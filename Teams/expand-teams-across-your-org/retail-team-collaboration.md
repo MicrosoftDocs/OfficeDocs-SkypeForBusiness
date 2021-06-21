@@ -40,11 +40,11 @@ In addition, your team can use apps in Teams to:
 - Manage learning and skilling with Viva Learning.
 - Keep everyone informed with Bulletins.
 
-[Learn how to manage apps in the Microsoft Teams admin center](microsoftteams/manage-apps)
+[Learn how to manage apps in the Microsoft Teams admin center](/microsoftteams/manage-apps)
 
 ## Teams templates and apps
 
-The easiest way to collaborate in Teams is to use a template. The [Organize a store and Retail for managers templates](microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off a previously created team.
+The easiest way to collaborate in Teams is to use a template. The [Organize a store and Retail for managers templates](/microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off a previously created team.
 
 ### Create a team based on a template
 
