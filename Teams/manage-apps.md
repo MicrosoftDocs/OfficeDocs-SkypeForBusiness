@@ -43,22 +43,18 @@ You can view every app including the following information about each app.
 - **Publisher**: Name of the publisher.
 - **Publishing status**: Publishing status of custom apps.
 - **Status**: Status of the app at the org level, which can be one of the following:
-
-    - **Allowed**: The app is available for all users in your organization.
-    
-    - **Blocked**: The app is blocked and not available for any users in your organization.
-    
-    - **Blocked org-wide**: The app is blocked in org-wide app settings.
-    
-      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page. 
+- **Allowed**: The app is available for all users in your organization.
+- **Blocked**: The app is blocked and not available for any users in your organization.
+  - **Blocked org-wide**: The app is blocked in org-wide app settings.
+      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
 - **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
-    - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
-    - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
-    - **- -**: The app doesn't offer a SaaS subscription.
+- **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
+- **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+- **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
 - **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
-    - **View details**: The app has permissions that require consent before the app can access data. 
-    - **- -**: The app doesn't have permissions that need consent.
+- **View details**: The app has permissions that require consent before the app can access data.
+- **- -**: The app doesn't have permissions that need consent.
 - **Categories**: Categories that apply to the app.
 - **Version**: App version.
 
@@ -71,7 +67,7 @@ Use the Manage apps page to publish apps that are built specifically for your or
 - [Approve a custom app](#approve-a-custom-app): Use this method if the developer submits the app directly to the Manage apps page using the Teams App Submission API. You can then review and publish (or reject) the app directly from the app details page.
 - [Upload an app package](#upload-an-app-package): Use this method if the developer sends you the app package in .zip format. You publish the app by uploading the app package.
 
-###  Approve a custom app
+### Approve a custom app
 
 The **Pending approvals** widget on the Manage apps page notifies you when a developer submits an app by using the Teams App Submission API. A newly submitted app is listed with a **Publishing status** of **Submitted** and an **Status** of **Blocked**. Go to the app details page to see more information about the app, and then to publish it, set **Publishing status** to **Publish**.
 
@@ -110,7 +106,7 @@ You use the **Add to team** button to install an app to a team. Keep in mind tha
 2. Select **Add to team**.
 3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
-## Customize an app (in preview)
+## Customize an app
 
 You can now customize an app to include a specific look and feel according to your organization needs. See [Customize apps in Teams](customize-apps.md).
 
@@ -136,17 +132,39 @@ Use org-wide app settings to control whether users can install third-party apps 
 1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
     ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
-    
+
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
 
         > [!NOTE]
         > When **Allow third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are disabled, which means that users can't create them. When this setting is on, outgoing webhooks are enabled for all users and you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md). <br><br>Note that if you have existing [app permission policies](teams-app-permission-policies.md) for **Microsoft apps** that use the **Allow specific apps and block all others** setting, and you want to enable outgoing webhooks for users, add the Outgoing Webhook app to the list.
+
+        > [!NOTE]
+        > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
+
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 4. Select **Save** for org-wide app settings to take effect.
+
+## View security and compliance information for Microsoft 365 Certified apps
+
+When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
+
+> [!NOTE]
+> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
+
+To access MCAS information, follow these steps:
+
+1. In the Teams admin center, select **Manage apps** under **Teams apps**.
+1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
+1. Choose a Microsoft 365 Certified app.
+1. Select the **Security and compliance** tab.
+
+![Screenshot of Teams admin center security and compliance tab](media/mcas.png)
+
+On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
 
 ## Related topics
 

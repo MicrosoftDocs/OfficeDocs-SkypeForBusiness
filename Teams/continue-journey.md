@@ -1,7 +1,7 @@
 ---
 title: How to use Microsoft Teams effectively
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

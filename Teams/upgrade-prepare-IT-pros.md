@@ -1,7 +1,7 @@
 ---
 title: Prepare your IT staff for Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams

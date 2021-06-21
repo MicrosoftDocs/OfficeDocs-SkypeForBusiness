@@ -26,6 +26,8 @@ description: "What it means when your port order has been accepted, and what you
 
 # Your port order was accepted
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Your port order is approved! Look for your phone numbers in the **Skype for Business admin center** > **Voice** > **Phone numbers**.
   
  **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.

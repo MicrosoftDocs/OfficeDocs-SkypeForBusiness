@@ -23,4 +23,6 @@ description: "Learn about Cloud Voicemail."
 
 # License options based on your plan
 
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 

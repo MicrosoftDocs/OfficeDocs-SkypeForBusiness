@@ -26,6 +26,8 @@ description: "See what you need to do next after you've ported your phone number
 
 # What do you need to do after you have ported over your phone numbers?
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
 After you have submitted your port order, we will contact your carrier and work out the details with them. When the final transfer date has been set, we will notify you via email. However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.
   
 - Learn more about [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).

@@ -1,7 +1,7 @@
 ---
 title: PSTN considerations when upgrading to Teams from Skype for Business
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,8 +21,9 @@ appliesto:
 
 # PSTN considerations for upgrading to Teams from Skype for Business on-premises
 
-This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.   
+This article describes Public Switched Telephone Network (PSTN) considerations when upgrading to Teams.
 
+[!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
 In addition, the following articles describe important upgrade concepts and coexistence behaviors:
 
@@ -32,7 +33,9 @@ In addition, the following articles describe important upgrade concepts and coex
 
 
  > [!NOTE]
- > - Using Phone System with Teams is only supported when the user is in TeamsOnly mode.  If the user is in Islands mode, Phone System is only supported with Skype for Business. 
+ > - Using Phone System with Teams is only supported when the user's account is assigned a Teams upgrade policy with Teams Only mode.  
+ > - Using Phone System with Skype for Business is only supported when the user's account is assigned a Teams upgrade policy with an SfB mode. 
+ > - Phone System is not supported when the user's account is assigned a Teams upgrade policy with Islands mode.
  > - Any call forwarding, team-call group, and delegation settings from Skype for Business are not migrated and will need to be re-recreated for Teams.
  > - For a general overview of Microsoft Teams cloud voice features, and help deciding which Microsoft voice solution is right for your organization, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 

@@ -24,6 +24,8 @@ description: "This summary of Skype for Business organization and user settings 
 
 # Skype for Business Online settings summary
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 The **Skype for Business admin center** includes settings for your entire organization, and for individual users. 
   
 > [!NOTE]

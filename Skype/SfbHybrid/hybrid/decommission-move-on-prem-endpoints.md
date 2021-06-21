@@ -20,7 +20,7 @@ description: "Move hyrid application endpoints before decommissioning a Skype fo
 
 ---
 
-# Move hyrid application endpoints before decommissioning your on-premises environment
+# Move hybrid application endpoints before decommissioning your on-premises environment
 
 This article describes how to move required hybrid application endpoints to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 3 of the following steps to decommission your on-premises environment:
 
@@ -42,7 +42,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Create and license new [Resource Accounts](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
+2. Create and license new [Resource Accounts](/microsoftteams/manage-resource-accounts) in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
 
 3. Associate the new Resource Accounts with the existing hybrid application endpoints.
 
@@ -66,7 +66,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    }
    ```
 
-6. Assign phone numbers to the new Resource Accounts created in Step 2. For more information about how to assign a phone number to a resource account, see the following article: [Assign a service number](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number).
+6. Assign phone numbers to the new Resource Accounts created in Step 2. For more information about how to assign a phone number to a resource account, see the following article: [Assign a service number](/microsoftteams/manage-resource-accounts#assign-a-service-number).
 
 7. Delete the on-premises endpoints by executing the following on-premises Skype for Business Server PowerShell command:
 
