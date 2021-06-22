@@ -118,7 +118,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Adhoc/Scheduled meeting                    |Other meeting member   |Meeting member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. <br /><br />Organizer has edit rights and can share.<br /><br /> All other meeting members have read access.|
 |Adhoc/Scheduled meeting with external users|Organizer              |Organizer’s OneDrive for Business account                     |Organizer has full rights to the recording.<br /> <br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br /> All other external members have no access, and the Organizer must share it to them.|
 |Adhoc/Scheduled meeting with external users|Other meeting member   |Member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. Organizer has edit rights and can share. <br /><br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br />All other external members have no access, and the Organizer must share it to them.|
-|Channel meeting                            |Channel Member         |Teams' SharePoint location for that channel. Channel Meeting Recording upload to SP is not supported for IP based restrictions (we are working to enable it). Meanwhile using simple conditional access is recommended.                   |Member who clicked on Record has edit rights to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
+|Channel meeting                            |Channel Member         |Teams' SharePoint location for that channel. Channel meeting recording upload to SharePoint is not supported for IP-based restrictions (we are working to enable it). Meanwhile, we recommend using simple conditional access.                   |Member who clicked on Record has edit rights to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
 
 ## Frequently asked questions
 
@@ -188,4 +188,3 @@ See [Which policy takes precedence?](./assign-policies.md#which-policy-takes-pre
 **Where does the recording go if the user doesn't have OneDrive for Business or SharePoint, or the storage quota is full?**
 
 The recording will land in our temporary storage location where it will be held for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
-
