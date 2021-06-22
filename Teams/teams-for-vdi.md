@@ -391,9 +391,10 @@ The following calling and meeting features are not supported:
 - Background blur and effects
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
-- Call park
+- PSTN call ringback tone
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
+- Call park
 - Zoom control 
 
 > [!NOTE]
