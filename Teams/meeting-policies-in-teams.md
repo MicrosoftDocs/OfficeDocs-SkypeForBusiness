@@ -549,17 +549,19 @@ This is a per-user policy. This setting controls whether users can customize the
 
 Currently, you can only use PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
 
-To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter as follows:
+To specify whether users can customize their video background in a meeting or use scenes from outside the Company Apps Store and Microsoft Teams Store, set the **VideoFiltersMode** parameter as follows:
 
 |Setting value in PowerShell |Behavior  |
 |---------|---------|
 |**NoFilters**     |User can't customize their video background.|
 |**BlurOnly**     |Users can blur their video background. |
 |**BlurandDefaultBackgrounds**     |User has the option to blur their video background or choose from the default set of images to use as their background. |
-|**AllFilters**     |User has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
+|**AllFilters**     |User has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background, and use Together Mode scenes from outside the Microsoft Teams Store and Company Apps Store. |
 
 > [!IMPORTANT]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
+> For Together Mode scenes, you are responsible for respecting the rights of others, including copyright.
+> Together Mode scenes available through the Teams Store can be governed through regular app permission policies. Learn more about [Together Mode](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode?branch=pr-en-us-2710#create-an-app-package-and-use-the-scene-in-teams) and [policies](/microsoftteams/teams-app-permission-policies) by reviewing the links.
 
 > [!NOTE]
 > These features are not available for all Teams clients. For more information, see the _Video and backgrounds_ title in [Meetings and live events](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e).
