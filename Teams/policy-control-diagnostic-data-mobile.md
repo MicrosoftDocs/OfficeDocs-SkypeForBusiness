@@ -1244,6 +1244,9 @@ action.
 -- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 -- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 -- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+- **appDrawer** - Triggered when app drawer is opened successfully.
+- **appPolicyChange** - Triggered when a user resets and save new tabs order locally.
+- **app_stageview** - Triggered when a stage view is successfully rendered.
 
 ### Scenario
 
@@ -1336,6 +1339,17 @@ action.
 - **show_meeting_participants** - Confirms that showing the meeting participant list has succeeded or failed.
 - **search** - Confirms that the whole search session has succeeded or failed.
 - **time_based_retention_shared_channel** – Captures performance data for pruning the database.
+- **sync_user_entitlements_and_app_definitions** -  Required service call to fetch aggregatedEntitlements.
+- **bots_load_mediacards** - Captures instanced when Connector cards are configured in chat and channel.
+- **bots_load_one_card** - Captures if at least one card is present and loaded when chatting with a bot.
+- **load_assignments** - Captures exceptional handling for loading assignment app.
+- **load_channel_tab** - Captures loading of channel tab. (Android  only)
+- **load_messaging_extension_results** - Captures loading of messaging extension search/query result. (Android  only)
+- **load_static_tab** - Captures loading of static tab. (Android  only)
+- **app_authenticated** - Confirms that the authentication is sucessful and a token is fetched. (Android  only)
+- **blocked_by_conditional_access** - When receive conditional access blocked error code in authentication. (we try to force refresh the primary token in that case). (Android  only)
+- **get_resource_token_sync** - Triggered when we attempt to fetch token for app resources synchronously. (Android  only)
+- **get_resource_token_async** - Triggered when we attempt to fetch token for app resources asynchronously. (Android  only)
 
 ## Property lists
 
