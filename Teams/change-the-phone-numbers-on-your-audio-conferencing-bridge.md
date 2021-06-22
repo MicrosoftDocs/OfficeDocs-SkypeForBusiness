@@ -128,13 +128,15 @@ For more information about the Meeting Migration Service, see [Setting up the Me
   
 ### Step 3 - Unassign the old phone number from the audio conferencing bridge
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+Use the Unregister-CsOnlineDialInConferencingServiceNumber cmdlet to unregister a Toll or Toll free number from a conference bridge
 
-1. In the left navigation, go to **Voice** > **Phone numbers**.
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+Note
+To find the BridgeID, use the Get-CsOnlineDialInConferencingBridge.
 
-2. If the phone number is a toll-free number, select the phone number from the list, and click **Release**. If the phone number is a toll number, please contact [Microsoft support](/microsoft-365/admin/contact-support-for-business-products) to have the phone number unassigned.
-
-3. If the phone number is a toll-free number, click **Yes** in the confirmation window.
 
    > [!IMPORTANT]
    > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings.
