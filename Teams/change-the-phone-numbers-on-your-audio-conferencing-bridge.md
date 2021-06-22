@@ -134,8 +134,8 @@ Use the Unregister-CsOnlineDialInConferencingServiceNumber cmdlet to unregister 
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
 ```
-Note
-To find the BridgeID, use the Get-CsOnlineDialInConferencingBridge.
+Note:
+To find the Conference Bridge ID, run the following PowerShell: Get-CsOnlineDialInConferencingBridge.
 
 
    > [!IMPORTANT]
