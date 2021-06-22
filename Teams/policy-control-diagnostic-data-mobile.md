@@ -1483,11 +1483,11 @@ action.
 | playbackTech  | Playback tech of the media  |
 | correlationId | Correlation ID for the media, if any |
 
-### 2. Properties sent with all OnePlayer User Action Events (iOS only)
+### 2. Properties sent with all OnePlayer User Action Events 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| actionType    | Type of action being performed, such as tap, drag, and flick |
-| isIntentional | Boolean value if the action is intentional or not |
+| actionType    | Type of action being performed, such as tap, drag, and flick( iOS only)|
+| isIntentional | Boolean value if the action is intentional or not (iOS only) |
 
 #### 2.1 Properties sent with changePlaybackQuality Event
 | Property name | Description                                                                                    |
@@ -1500,7 +1500,7 @@ action.
 | previousPlaybackRate  | Previous playback rate of the video (iOS only) |
 | currentPlaybackRate   | Current playback rate of the video |
 
-#### 2.3 Properties sent with PlayerSeek Event [iOS only]
+#### 2.3 Properties sent with PlayerSeek Event (iOS only)
 | Property name | Description |
 |---------------|------------------------------------------------------------------------------------------------|
 | seekSource    | Source of seek (seekbar, forwardButton, backwardButton) |
