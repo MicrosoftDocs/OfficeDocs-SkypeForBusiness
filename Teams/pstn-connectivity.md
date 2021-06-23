@@ -134,11 +134,11 @@ For information on the benefits and requirements of Operator Connect, and for a 
 
 The PSTN connectivity option you choose affects some of the configuration decisions you need to make for Phone System features. These considerations are highlighted in the following table. The sections that follow provide links to more information.
 
-| Option | Phone numbers | Call routing | Emergency calling | LBR | 
-| :--- | :--- | :--- | :--- | :--- |
-| Calling Plans | Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| NA  |
-| Direct Routing | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation.|-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | Applies to Direct Routing only. Used to restrict toll bypass in certain geographic locations. |
-| Operator Connect | Obtained through operator. <br>- Numbers associated with emergency addresses managed by operator.| Managed by operator. (?) | Managed by operator (?) |  NA |
+| Option | Description | Phone number management | Call routing | Emergency calling availability |  
+| :--- | :--- | :--- | :--- | :--- | 
+| Calling Plans | Microsoft acts as PSTN carrier.| Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| 
+| Direct Routing | Use existing PSTN carrier. Connect your SBC to Phone System. | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation.|-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
+| Operator Connect | Operator manages PSTN connectivity and SBCs.| Obtained through operator. <br>- Numbers associated with emergency addresses managed by operator.| Managed by operator. (?) | Managed by operator (?) |  
 |||||
 
 ### Phone number management
