@@ -44,7 +44,7 @@ Before you get started, review the following requirements:
 ## Using the Microsoft 365 admin center
 
 Use the Microsoft 365 admin center to assign licenses to individual users or small sets of users at a time. 
-You assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
+You assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page (for up to 40 users at a time). The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
 For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
