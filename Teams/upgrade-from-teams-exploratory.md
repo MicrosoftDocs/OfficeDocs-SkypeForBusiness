@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Upgrade from Teams Exploratory trial 
+# Upgrade from Teams Exploratory
 
 This article provides an overview of how to upgrade your users from a Teams Exploratory trial to a paid license.
 
