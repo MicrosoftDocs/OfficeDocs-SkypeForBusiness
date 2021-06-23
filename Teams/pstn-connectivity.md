@@ -132,12 +132,14 @@ For information on the benefits and requirements of Operator Connect, and for a 
 
 ## Configuration considerations
 
-The PSTN connectivity option you choose affects some of the configuration decisions you need to make for Phone System features. These considerations are highlighted in the following table. The sections that follow provide links to more information.
+In general, most Phone Sytem features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available.  For a complete list of Phone Sytem features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
+
+However, the option you choose affects how you configure some Phone System features and there might be some differences in functionality. For example, Direct Routing provides Location-Based-Routing (LBR) so that you can restrict toll bypass in certain geographic locations where it is not allowed. These configuration differences are highlighted in the following table. The sections that follow provide links to more information.
 
 | Option | Description | Phone number management | Call routing | Emergency calling availability |  
 | :--- | :--- | :--- | :--- | :--- | 
 | Calling Plans | Microsoft acts as PSTN carrier.| Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| 
-| Direct Routing | -Connect your SBC to Phone System. <br> -Use your existing PSTN carrier.  | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <BR> -Location-Based-Routing (LBR) available to restrict toll bypass. |-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
+| Direct Routing | -Connect your SBC to Phone System. <br> -Use your existing PSTN carrier.  | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <BR> -LBR available to restrict toll bypass. |-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
 | Operator Connect | Operator manages PSTN connectivity and SBCs.| Obtained through operator. <br>- Numbers associated with emergency addresses managed by operator.| Managed by operator. (?) | Managed by operator (?) |  
 |||||
 
