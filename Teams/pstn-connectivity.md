@@ -164,6 +164,16 @@ How you configure call routing differs depending on your PSTN connectivity optio
 
 - For Operator Connect, ...
 
+#### Location-Based Routing for Direct Routing
+
+In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information about how to plan and configure LBR, see the following articles:
+
+- [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
+- [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
+- [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md)<br>
+  Describes how a fictional multi-national corporation, Contoso, implemented Location-Based Routing for their organization.
+
 ### Emergency calling
 
 How you configure emergency calling differs depending on your PSTN connectivity option.
@@ -186,15 +196,7 @@ For more information about emergency calling concepts and terminology, and how t
   Describes how a fictional multi-national corporation, Contoso, implemented emergency calling for their organization.
 
 
-### Location-Based Routing for Direct Routing
 
-In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information about how to plan and configure LBR, see the following articles:
-
-- [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-- [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
-- [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md)<br>
-  Describes how a fictional multi-national corporation, Contoso, implemented Location-Based Routing for their organization.
 
 
 
