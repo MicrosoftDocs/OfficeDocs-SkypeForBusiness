@@ -72,6 +72,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Release date  | Room size                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Rally Bar      | 1.2.788     |       June 2021    |    Medium size room (4.5m x 6m)       |
 | AudioCodes RXV80 | 1.9.155        |   May 2021  | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | April 2021 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Medium size room (4.5m x 6m) |
