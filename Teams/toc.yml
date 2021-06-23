@@ -922,6 +922,10 @@ items:
                   href: direct-routing-sbc-multiple-tenants.md
                 - name: How to use analog devices with Direct Routing
                   href: direct-routing-analog-devices.md
+                - name: Manage voice routing policies
+                  href: manage-voice-routing-policies.md
+                - name: Manage call notifications
+                  href: direct-routing-call-notifications.md
             - name: Location-Based Routing
               items: 
                 - name: Plan Location-Based Routing for Direct Routing
@@ -960,8 +964,6 @@ items:
                   href: direct-routing-country-codes.md
                 - name: PowerShell script to test Session Border Controller connections
                   href: sip-tester-powershell-script.md
-                - name: Manage call notifications
-                  href: direct-routing-call-notifications.md
                 - name: Protocols
                   items: 
                     - name: Definitions and RFC standards
@@ -970,8 +972,6 @@ items:
                       href: direct-routing-protocols-SIP.md
                     - name: Media protocols
                       href: direct-routing-protocols-media.md
-                - name: Manage voice routing policies
-                  href: manage-voice-routing-policies.md
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
         - name: Operator Connect

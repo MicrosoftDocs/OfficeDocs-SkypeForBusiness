@@ -128,7 +128,7 @@ Operator Connect might be the right solution for your organization if:
 - Your preferred operator is a participant in the Microsoft Operator Connect program.
 - You want to find a new operator to enable calling in Teams.
 
-For information on the benefits and requirements of Operator Connect, and for a list of operators participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operatore-connect-configure.md).
+For information on the benefits and requirements of Operator Connect, and for a list of operators participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
 
 ## Configuration considerations
 
