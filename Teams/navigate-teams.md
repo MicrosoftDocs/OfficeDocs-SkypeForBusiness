@@ -37,7 +37,7 @@ The functionality of Kaizala action cards currently exists within Microsoft Team
 
 You can share important updates and information with your workforce with [Announcements in Teams](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992).
 
-Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate and send messages in a targeted manner. Build custom targeted communication capabilities such as custom telemetry on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
+Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate and send messages in a targeted manner. Build custom targeted communication capabilities such as custom telemetry on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
 
 ### Check-ins
 

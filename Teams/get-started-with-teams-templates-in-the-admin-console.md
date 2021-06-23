@@ -41,8 +41,8 @@ This article is for you if you're responsible for planning, deploying, and manag
 
 Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. The following table provides a quick summary of what's included and what's not included in team templates.
 
-| **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
-| ------------------------------------------------ | -------------------------------------------------------- |
+| Team properties supported by team templates | Team properties not yet supported by team templates |
+| ------------------------------------------- | --------------------------------------------------- |
 | Base template type | Team membership |
 | Team name | Team picture |
 | Team description | Channel settings |
@@ -110,10 +110,10 @@ See [Limits and specifications of Teams](limits-specifications-teams.md) for mor
 
 Use the following cmdlts to manage your templates in PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
 - [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## Related topics

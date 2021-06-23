@@ -18,7 +18,7 @@ search.appverid: MET150
 appliesto: 
 - Microsoft Teams
 ---
-# Tools for Driving Adoption 
+# Tools for Driving Adoption
 
 Use the tools below to support each phase of your service adoption plan.  
 

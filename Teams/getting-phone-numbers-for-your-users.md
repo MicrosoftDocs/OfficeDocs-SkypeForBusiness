@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users. "
+description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users."
 ---
 
 # Getting phone numbers for your users
@@ -36,7 +36,7 @@ There are three ways to get user numbers:
 - **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams Admin Center or you'll need specific phone numbers or area codes. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
 > [!NOTE]
-> If you need help setting up phone numbers for your organization, please [contact Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+> If you need help setting up phone numbers for your organization, please [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
   
 ## Get new phone numbers for your users
 
@@ -45,15 +45,20 @@ There are three ways to get user numbers:
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
 1. Go to the Microsoft Teams Admin Center.
+
 2. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
+
 3. Enter a name for the order and add a description.
+
 4. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
     2. Under **Number type**, select **User (subscriber)**.
     3. Under **Location**, select a location. If you need to create a new location, click **Add a location**.
     4. Under **Area code**, select an area code.
     5. Under **Quantity**, enter the number of numbers that you want for your organization, and then click **Next** to select your numbers.
+
 5. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
+
 6. When you're ready to place your order, click **Place order**.
 
     > [!IMPORTANT]

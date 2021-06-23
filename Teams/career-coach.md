@@ -40,7 +40,7 @@ Career Coach is localized in the following languages:
 Learn more about [Career Coach](https://aka.ms/career-coach).
 
 > [!NOTE]
-> Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff. See the [Quick planning guide](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.
+> Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff. See [Quick planning guide](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4).
 
 ## Review the requirements
 
@@ -56,7 +56,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 **Licenses**
 
-  - Faculty 
+  - Faculty
 
   - Students
 
@@ -99,7 +99,7 @@ Career Coach **requires** your educational institution’s users to have the abi
 
    - Select **No** to withdraw consent from all users in your educational institution
 
-Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
+Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
 
 ## Configure Career Coach in the Teams admin center
 
@@ -151,7 +151,7 @@ The educational institution icon is used throughout Career Coach to identify con
 
  - A transparent PNG
  - Aspect ratio of 1:1
- - Maximum size of 64 px x 64 px.
+ - Maximum size of 64 px × 64 px.
 
 ##### Educational institution thumbnail
 
@@ -159,7 +159,7 @@ The educational institution icon will be used for course catalog resources throu
 
 - A PNG
 - Aspect ratio of 16:9
-- Maximum size of 360 px x 200 px.
+- Maximum size of 360 px x 200 px
 
 #### LinkedIn configuration
 
@@ -240,6 +240,7 @@ Add all fields of study available to students such as Engineering, English, Busi
 ##### Add the fields of study
 
 1. Sign in to the **Teams admin center**.
+
 1. Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.
 
 2. Upload field of study in CSV format.
@@ -277,8 +278,8 @@ After you complete the configuration, enable the app for students and licensed u
 
 2. Move the Status toggle to **Allowed**.  
 
-  > [!NOTE]
-  > Allowed means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
+   > [!NOTE]
+   > Allowed means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
 
 ### Add Career Coach as an installed app
 

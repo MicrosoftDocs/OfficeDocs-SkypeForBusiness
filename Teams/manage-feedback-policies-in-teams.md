@@ -32,13 +32,15 @@ Users in your organization can send feedback about Teams to Microsoft let us kno
 
 Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
-![Screenshot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Surveys**
 
 Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When a user selects **Provide feedback** in the notification, the survey is displayed for them to complete.
 
-![the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
+> [!div class="mx-imgBorder"]
+> ![the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## Set whether users can send feedback about Teams to Microsoft
 
@@ -48,12 +50,14 @@ You can edit the global policy or create and assign a custom policy. After you e
 
 Say, for example, you want to allow all users in your organization to send feedback through **Give feedback** and receive surveys except for new hires in training. In this scenario, you create a custom policy to turn off both features and assign it to new hires. All other users in your organization get the global policy with the features turned on.  
 
-You manage feedback policies by using PowerShell. Use the **New-CsTeamsFeedbackPolicy** cmdlet, *which can be [found here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, to create a custom policy. Use the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group. Use **Set-CsTeamsFeedbackPolicy** to set specific flags.
+You manage feedback policies by using PowerShell. Use the **New-CsTeamsFeedbackPolicy** cmdlet (for more, see [Manage Skype for Business Online with PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)) to create a custom policy. Use the **Grant-CsTeamsFeedbackPolicy** cmdlet to assign it to one or more users or groups of users, such as a security group or distribution group. Use **Set-CsTeamsFeedbackPolicy** to set specific flags.
 
 To turn off and turn on the features, set the following parameters:
 
  - **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
+
  - **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
+
  - **Email**: Use the **AllowEmailCollection** flag to add an email field.
 
 ## Create a custom feedback policy
