@@ -22,7 +22,13 @@ appliesto:
 
 # Upgrade from Teams Exploratory trial 
 
-This article provides an overview of how to upgrade your users from a Teams Exploratory trial to a paid subscription to Teams.
+This article provides an overview of how to upgrade your users from a Teams Exploratory trial to a paid license.
+
+- [Step 1: When to upgrade](#step-1-when-to-upgrade)
+
+- [Step 2: Choose an upgrade path](#step-2-choose-an-upgrade-path)
+
+- [Step 3: Assing paid licenses](#step-3-assign-paid-licenses)
 
 ## Step 1: When to upgrade  
 
