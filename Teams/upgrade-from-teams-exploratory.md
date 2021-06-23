@@ -49,16 +49,21 @@ Depending on the subscriptions your organization currently has, there are three 
 
 - **Buy a new Microsoft 365 subscription.** Use this option if your organization doesn’t have any existing subscriptions to Office products, or if your organization wants to buy a subscription that’s different from their existing subscription to cover Teams Exploratory users.  For more information, see <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Buy a different Microsoft 365 for business subscription</a>.
 
-If you’re not sure which M365 subscription to upgrade to, see  <a href="https://www.microsoft.com/microsoft-365/business/compare-all-microsoft-365-business-products" target="_blank">Compare All Microsoft 365 Plans</a>. If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your Microsoft partner or Microsoft account representative.
+If you’re not sure which M365 subscription to upgrade to, see <a href="https://www.microsoft.com/microsoft-365/business/compare-all-microsoft-365-business-products" target="_blank">Compare All Microsoft 365 Plans</a>. If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your Microsoft partner or Microsoft account representative.
 
 ## Step 3: Assign paid licenses
 
 > [!IMPORTANT]
-> Before you unassign any Teams Exploratory licenses, assign new licenses to all the users you’re upgrading. Otherwise, they lose access to Teams until you assign a paid license.  
+> Before you unassign any Teams Exploratory licenses, assign the new licenses to all the users you’re upgrading. Otherwise, they lose access to Teams until you assign a paid license.  
 
 To assign your newly-acquired licenses, see <a href="/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&viewFallbackFrom=o365-worldwide%22%20%5C" target="_blank">Assign licenses to users</a>.  
 
 After you assign the new licenses, unassign the Teams Exploratory licenses. See <a href="/microsoft-365/admin/manage/remove-licenses-from-users?view=o365-worldwide" target="_blank">Unassign licenses from users</a>, for more information.
 
-> [!NOTE]
-> Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. See <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies | Microsoft Docs</a> for more information.
+### Auto-claim policies
+
+Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. See <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies</a> for more information.
+
+## Related topics
+
+- [Manage the Microsoft Teams Exploratory license](teams-exploratory.md)
