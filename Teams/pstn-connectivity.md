@@ -137,7 +137,7 @@ The PSTN connectivity option you choose affects some of the configuration decisi
 | Option | Description | Phone number management | Call routing | Emergency calling availability |  
 | :--- | :--- | :--- | :--- | :--- | 
 | Calling Plans | Microsoft acts as PSTN carrier.| Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| 
-| Direct Routing | Use existing PSTN carrier. Connect your SBC to Phone System. | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation.|-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
+| Direct Routing | Connect your SBC to Phone System. Use your existing PSTN carrier.  | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <BR> -Location-Based-Routing (LBR) available to restrict toll bypass. |-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
 | Operator Connect | Operator manages PSTN connectivity and SBCs.| Obtained through operator. <br>- Numbers associated with emergency addresses managed by operator.| Managed by operator. (?) | Managed by operator (?) |  
 |||||
 
