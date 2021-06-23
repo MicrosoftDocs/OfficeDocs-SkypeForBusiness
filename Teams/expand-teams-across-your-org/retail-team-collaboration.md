@@ -44,7 +44,7 @@ In addition, your team can use apps in Teams to:
 
 ## Teams templates and apps
 
-The easiest way to collaborate in Teams is to use a template. The [Organize a store and Retail for managers templates](/microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off a previously created team.
+The easiest way to create a team for collaboration in Teams is to start with a template. The [Organize a store and Retail for managers templates](/microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off a previously created team. Even when you start with a template, you can customize the team and channels, and add additional apps to suit your team's needs.
 
 ### Create a team based on a template
 
