@@ -143,7 +143,7 @@ To learn more about where data is stored across services in Microsoft 365 or Off
 
 ### Turn on or turn off recording transcription
 
-This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription. For a Teams meeting that was recorded to OneDrive & SharePoint and was also transcribed live during the meeting you can now search in Microsoft Search to find the meeting recording file based on the transcript 
+This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription. For a Teams meeting that was recorded to OneDrive and SharePoint and was also transcribed live during the meeting, you can now search in Microsoft Search to find the meeting recording file based on the transcript.
 
 > [!NOTE]
 > That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
