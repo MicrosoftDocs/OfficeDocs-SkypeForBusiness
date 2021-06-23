@@ -23,6 +23,10 @@ appliesto:
 
 An auto attendant lets you set up a call menu so that callers to your main phone number can choose from a list of options. For example, you could have options to connect to a sales or support department, specific individual, the switchboard, and even another auto attendant.
 
+The following video shows you how to complete these steps in the Teams admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Oy7n]
+
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
 
 When you've stepped through all the tabs above to set up your auto attendant, click on the following button to move to the next article.
