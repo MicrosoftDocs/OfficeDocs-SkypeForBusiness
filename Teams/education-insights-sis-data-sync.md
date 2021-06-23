@@ -17,7 +17,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-
+ 
 # Sync Student Information System (SIS) data with Education Insights
 The more data is fed into [Education Insights](class-insights.md), the better educators can support their students, and education leaders can support the educators.
 
