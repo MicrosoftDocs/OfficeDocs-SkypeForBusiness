@@ -85,7 +85,7 @@ Individual users can try out Cortana voice assistance in different devices:
 
 - Select the microphone button or say "Cortana" in Microsoft Teams Rooms.
 
-- Say "Cortana" on Microsoft Teams display devices.
+- Say "Cortana" on Microsoft Teams displays devices.
 
 You can control whether Cortana in Teams is enabled for your device by using a setting in the device.
 
