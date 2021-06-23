@@ -5,11 +5,11 @@ ms.author: czawideh
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: baluc
+ms.reviewer: 
 ms.service: msteams
-search.appverid: MET150
-localization_priority: Priority
-description: "Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
+search.appverid: 
+localization_priority: 
+description: "Upgrade users from a Teams Exploratory trial to a paid license."
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -47,7 +47,7 @@ Depending on the subscriptions your organization currently has, there are three 
 
 - **Add users to an existing Microsoft 365 subscription.** Use this option if your organization doesn’t have enough paid Teams licenses to cover the Teams Exploratory users. For more information, see <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Buy or remove licenses</a>. To add users to an existing subscription that already has enough available licenses, see <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Move users to a different subscription</a>. To see active users for an existing subscription, go to **Users >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Active users</b></a> in the Microsoft 365 admin center.
 
-- **Buy a new Microsoft 365 subscription.** Use this option if your organization doesn’t have any existing subscriptions to Office products, or if your organization wants to buy a subscription that’s different from their existing subscription to cover Teams Exploratory users.  For more information, see <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\l%20%22buy-a-different-subscription" target="_blank">Buy a different Microsoft 365 for business subscription</a>.
+- **Buy a new Microsoft 365 subscription.** Use this option if your organization doesn’t have any existing subscriptions to Office products, or if your organization wants to buy a subscription that’s different from their existing subscription to cover Teams Exploratory users.  For more information, see <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Buy a different Microsoft 365 for business subscription</a>.
 
 If you’re not sure which M365 subscription to upgrade to, see  <a href="https://www.microsoft.com/microsoft-365/business/compare-all-microsoft-365-business-products" target="_blank">Compare All Microsoft 365 Plans</a>. If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your Microsoft partner or Microsoft account representative.
 
