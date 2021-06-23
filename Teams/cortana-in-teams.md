@@ -24,10 +24,10 @@ appliesto:
 # Cortana voice assistance in Teams
 
 > [!Note]
-> Cortana voice assistance is supported in Microsoft Teams mobile apps for iOS and Android and Microsoft Teams displays for users in the United States, United Kingdom, Canada, India, and Australia.  Microsoft Teams Rooms on Windows is only supported for users in the United States. Cortana voice assistance isn't currently available for GCC, GCC-High, DoD, EDU tenants. Expansion to additional languages and regions will happen as part of future releases.
+> Cortana voice assistance is supported in Microsoft Teams mobile apps for iOS and Android and Microsoft Teams displays for users in the United States, United Kingdom, Canada, India, and Australia. Microsoft Teams Rooms on Windows is only supported for users in the United States. Cortana voice assistance isn't currently available for GCC, GCC-High, DoD, EDU tenants. Expansion to additional languages and regions will happen as part of future releases.
 
 > [!Note]
-> Cortana voice assistance in Microsoft  Teams  Rooms is released under Preview. In its preview release, Cortana is supported only in the US with language EN-US on devices that have connected Rally microphones.
+> Cortana voice assistance in Microsoft Teams Rooms is released under Preview. In its preview release, Cortana is supported only in the US with language EN-US on devices that have connected Rally microphones.
 
 Cortana voice assistance in the Teams mobile app, on Microsoft Teams Rooms on Windows, and on Microsoft Teams display devices enables Microsoft 365 Enterprise users to streamline communication, collaboration, and meeting-related tasks using spoken natural language. Users can speak to Cortana by selecting the microphone button located in the upper right of the Teams mobile app, or by saying &#8220;Cortana&#8221; in the Microsoft Teams Room or when using a Microsoft Teams display. To quickly connect with their team hands-free and while on the go, users can say queries such as &#8220;call Megan&#8221; or &#8220;send a message to my next meeting&#8221;. Users can also join meetings by saying &#8220;join my next meeting&#8221; and use voice assistance to share files, check their calendar, and more. These voice assistance experiences are delivered using [Cortana enterprise-grade services](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) that fully comply with Office 365's privacy, security, and compliance promises as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
 
@@ -124,3 +124,21 @@ To enable Cortana at the device level, these XML attributes must be added in the
 Making changes at the meeting level is available if Cortana is enabled at the device level.
 
 To enable Cortana voice assistance during a meeting, move the toggle **On** or **Off**. Once the meeting ends, Cortana returns to the device level settings set.
+
+## Cortana for EDU
+
+Cortana voice assistance in the Teams mobile app and Microsoft Teams display is now available for EDU customers in en-US. Use Cortana to streamline communication, collaboration, and class-related tasks in school using spoken natural language. With Cortana voice assistance, you can call someone or perform class-related tasks, you can message someone or send message to your class. Also, you can find and share files, and search or navigate within the Teams mobile app or on the Microsoft Teams display.
+
+Class-related tasks:
+
+- To check your class schedule, you can select the microphone icon and say, "How many classes do I have today" or "Do I have any class at 6 pm" in the Teams mobile app, or say, "Hey Cortana, how many classes do I have today" or "Hey Cortana, do I have any class at 6 pm" on the Microsoft Teams display.
+
+- When you're ready to join a class, say, "Join my next Science class" in the Teams mobile app, or say "Hey Cortana, join my next Science class" on the Microsoft Teams display.
+
+- Once you're in a class, invoke Cortana voice assistance to perform various in-class tasks, like adding someone to class. For example, say, "Add Megan to the class’ in the Teams mobile app, or, "Hey Cortana, add Megan to the class" on the Microsoft Teams display.
+
+- When you want to end your class, you can say "Hang up class" in the Teams mobile app, or "Hey Cortana, hang up class" on the Microsoft Teams display.
+
+- To present a deck to the class, you can say "Present the Science class deck" in the Teams mobile app, or "Hey Cortana, present the Science class deck" on the Microsoft Teams display. Or you can navigate to a particular slide in your presentation by saying: "Go to the appendix slide" in the Teams mobile app, or "Hey Cortana, go to the appendix slide" on the Microsoft Teams display.
+
+- When you want to cancel the class, you can say "Cancel my Science class I have on Monday at 8 pm" in the Teams mobile app, or "Hey Cortana, cancel my Science class I have on Monday at 8 pm" on the Microsoft Teams display.
