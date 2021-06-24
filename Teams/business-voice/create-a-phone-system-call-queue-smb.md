@@ -151,7 +151,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 # [Step 3<br>Call agents](#tab/call-agents)
 
-To add agents to the call queue, we'll add them to the team and channel that we created earlier.
+To add agents to the call queue, we'll add them to the team and channel that we created earlier. You need to be a member of the team to do this.
 
 1. Select the **Choose a team** option and click **Add a channel**.
 2. Type the name of the team that you created, select it, and click **Add**.
