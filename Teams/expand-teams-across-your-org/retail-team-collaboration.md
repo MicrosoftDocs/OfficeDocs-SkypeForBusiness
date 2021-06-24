@@ -34,7 +34,7 @@ Microsoft Teams enables in-store sales associates, managers, and other staff to 
 
 In addition, your team can use [apps](#manage-apps) in Teams for the following tasks:
 
-| Task | App | Description | More information | End user training |
+| Task | App | Description | Manage this app | End user training |
 | ---- | ---- | ---- | ---- | ---- |
 | Create, manage, and share schedules| Shifts | Use Shifts to seamlessly manage and share schedules. Managers can create custom groups such as cashiers or greeters, assign shifts to employees, add custom labeling and breaks, and add open shifts that employees can request to take. Employees can use Shifts to set their availability, view their schedules, swap shifts with coworkers, and clock in and out. | [Manage Shifts](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)|[Shifts video training](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)|
 | Keep in touch | Walkie Talkie | The Walkie Talkie app provides instant push-to-talk communication. By using Walkie Talkie, employees and managers can communicate from anywhere in the store. For example, if a customer on one side of the store asks an employee if an item is in stock on the other side of the store, the employee can use Walkie Talkie to contact someone who works near the item. Because Walkie Talkie doesn’t have limited range, employees can also easily consult with experts in other stores or corporate offices. | [Manage Walkie Talkie](../walkie-talkie.md)  | [Walkie Talkie video training](https://support.microsoft.com/office/use-walkie-talkie-in-teams-884a008a-761e-4b62-99f8-15671d9a2f69) |
