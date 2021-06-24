@@ -107,10 +107,17 @@ The following clients are supported when using a Teams channel for call queues:
   - Microsoft Teams Windows client
   - Microsoft Teams Mac client
 
+So there are two pre-condition for tenant admin to use Channel as Call Queue:
+
+They can use a channel from Team they are member of.
+
+They can use the channel from Team which they have created and are owner of.
+
+
 > [!NOTE]
-> In order to use a Teams channel to manage the queue the administration must:
-> 1. Be a member of the Teams channel or 
-> 2. Have created and are the owner of the channel
+> In order to use a Teams channel to manage the queue the administrator must:
+> 1. Be a member of the Team or 
+> 2. Have created and be the owner of the channel
 
 ##### Users and groups
 
