@@ -37,7 +37,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 |[**Teams essentials for IT**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "Teams for IT" video series shows you – the admin – how to roll out, configure, and manage Teams.     |[**Support remote workers using Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Get the guidance you need – including links to training – to support your users who are working from home.         |[**Manage Team collaboration for IT**](/learn/paths/m365-manage-team-collaboration) - Learn how to use Teams to facilitate teamwork and communication within your org across applications and devices.         |
 |[**Service Adoption Specialist certification**](/learn/paths/m365-service-adoption) - The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your org.     |[**Introduction to teamwork in Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) - The Microsoft Service Adoption Specialist Certification course features Teams. Learn how to drive adoption of Microsoft services in your org.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive, and Teams.        |
 
-
 <h2>Technical training</h2>
 
 | Module | Video | PowerPoint deck  |
@@ -83,6 +82,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 2: Planning Microsoft Teams Android devices|[Deck](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |Module 3: Features of Microsoft Teams Android Devices |[Deck](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |Module 4: Managing Microsoft Teams Android Devices|[Deck](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|Module 5: Microsoft Teams Android Devices - Troubleshooting |[Deck](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>Interactive guides</h2>
 
@@ -114,5 +114,3 @@ Use the training resources to educate yourself about Teams, teach others or run 
 - [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
-
-
