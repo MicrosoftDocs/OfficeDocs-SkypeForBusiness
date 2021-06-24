@@ -22,14 +22,14 @@ appliesto:
 
 # Assisted upgrades from Skype for Business Online to Microsoft Teams
 
-Microsoft offers assisted upgrades to Teams to help organizations make a successful transition from Skype for Business Online as the service retires July 31, 2021. Assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
+Microsoft offers assisted upgrades to Teams to help organizations make a successful transition from Skype for Business Online as the service retires July 31, 2021. Whether your organization is upgrading from a *Skype for Business Online* or *Skype for Business Online with hybrid* (users in both Skype for Business Online **and** Skype for Business Server) environment, assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
 
 We recommend that you review our [upgrade guidance](https://aka.ms/SkypeToTeams) before your upgrade. Our upgrade guidance includes recommended activities and helpful resources for completing an upgrade from Skype for Business Online to Teams. This guidance applies to any organization planning an upgrade to Teams, whether they manage all aspects of the upgrade or use the assisted process.
 
 > [!NOTE]
 > If you're scheduled for an assisted upgrade to Teams, you can perform your own upgrade from Skype for Business Online before your scheduled upgrade date. For more information about how to manually upgrade to Teams, see our [upgrade guidance](https://aka.ms/SkypeToTeams).
 >
-> Assisted upgrade is not available for on-premises deployments of Skype for Business Server.
+> Assisted upgrades are not available for on-premises deployments of Skype for Business Server.
 
 ## Notifications for scheduled customers
 
@@ -41,11 +41,25 @@ Upgrade notifications will include the scheduled date of the assisted upgrade, a
 
 Assisted upgrades will begin in August 2021 with tenant-specific dates shared in the scheduling notifications mentioned above.
 
-The duration of the upgrade will vary by volume of users and the characteristics of the deployment. However, in most cases, users within a tenant will be upgraded within 24 hours of the start of the upgrade. During this time, end users will still have access to Skype for Business Online functionality. Once the upgrade has completed and users sign out of Skype for Business Online, they'll start using Teams for messaging, meetings, and calling.
+Your assisted upgrade experience will differ slightly depending on whether you have a Skype for Business Online-only or a Skype for Business Online with hybrid environment:
+
+- **Skype for Business Online-only** The assisted upgrade process will apply the `TeamsUpgradeOverridePolicy` policy to your organization. When this policy is applied, all your Skype for Business Online users will be placed in Teams Only mode.
+- **Skype for Business Online with hybrid** Hybrid environments may have users that fall into one of the following categories:
+
+  - On-premises users homed on Skype for Business Server
+  - Skype for Business Online users that are in Teams Only mode
+  - Skype for Business Online users that are **not** in Teams Only mode
+
+  If you have a mixture of users in each of the categories listed above, the assisted upgrade process will only switch Skype for Business Online users to Teams Only mode if they're not already in that mode. On-premises Skype for Business users won't be impacted by the assisted upgrade process.
+
+> [!NOTE]
+> Don't worry if your assisted upgrade is scheduled for a date after July 31, 2021. Your organization will be able to use Skype for Business Online until your upgrade is complete.
+
+The duration of the upgrade will vary by volume of users and the characteristics of the deployment. In most cases, users within a tenant will be upgraded within 24 hours of the start of the upgrade. During this time, end users will still have access to Skype for Business Online functionality. Once the upgrade has completed and users sign out of Skype for Business Online, they'll start using Teams for messaging, meetings, and calling.
 
 ## The post-upgrade experience
 
-When the assisted upgrade completes, the **Coexistence Mode** for upgraded users is set to Teams Only and can only be changed to a different coexistence mode by Microsoft. We recommend that you review [Teams Only mode considerations](teams-only-mode-considerations.md) before your upgrade. The table below provides a high-level overview of the Teams Only user experience.
+When the assisted upgrade completes, the **Coexistence Mode** for upgraded users is set to Teams Only. We recommend that you review [Teams Only mode considerations](teams-only-mode-considerations.md) before your upgrade. The table below provides a high-level overview of the Teams Only user experience.
 
 :::row:::
     :::column span="1":::
@@ -55,7 +69,7 @@ When the assisted upgrade completes, the **Coexistence Mode** for upgraded users
         - All calls and chats are started and received in Teams
         - Users can communicate (chat/call) with any Skype for Business user
         - Organizations can enable Teams users to communicate with users of the Skype consumer service by managing [external access permissions](manage-external-access.md)
-        - Teams users who attempt to sign in to Skype for Business Online will be redirected to Teams
+        - Teams users who attempt to sign in to Skype for Business Online are redirected to Teams
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -71,10 +85,17 @@ When the assisted upgrade completes, the **Coexistence Mode** for upgraded users
         **Migrated Data**
     :::column-end:::
     :::column span="3":::
-        - Existing contacts from Skype for Business Online including federated (but no distribution lists
+        - Existing contacts from Skype for Business Online including federated (but no distribution lists)
+        - Contacts are migrated when users log into Teams for the first time.
+            > [!IMPORTANT]
+            >Contacts must be migrated within 90 days of the completion of your upgrade.
         - Existing Skype for Business Online meetings are converted to Teams meetings
+            > [!IMPORTANT]
+            > Customers with pure Skype for Business Online configurations need to use the Meeting Migration Service (MMS) to migrate existing Skype for Business Online meetings to Teams meetings. We recommend using MMS prior to the assisted upgrade date. For more information about MMS, see [Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
     :::column-end:::
 :::row-end:::
+
+If you have a Skype for Business Server hybrid deployment and upgrade to Teams, you can move users between Skype for Business Server and Teams after your upgrade is complete.
 
 ## Related content
 

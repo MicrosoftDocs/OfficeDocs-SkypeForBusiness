@@ -38,7 +38,7 @@ highlightedContent:
     # Card
     - title: Register for free upgrade planning workshops
       itemType: learn
-      url: ./upgrade-workshops-landing-page.yml
+      url: https://aka.ms/upgradeworkshops
     # Card
     - title: Learn how Black & Veatch transitioned to Teams in eight weeks
       itemType: video

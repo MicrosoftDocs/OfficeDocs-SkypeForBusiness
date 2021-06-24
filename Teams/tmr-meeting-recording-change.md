@@ -52,7 +52,7 @@ The benefits of using OneDrive for Business and SharePoint for storing recording
 - Multi-geo support – recordings are stored in a region specific to that user
 - Bring your own key (BYOK) support
 
-See the full list of [features available today and what to expect over time](https://docs.microsoft.com/stream/streamnew/features-new-version-stream). 
+See the full list of [features available today and what to expect over time](/stream/streamnew/features-new-version-stream). 
 
 Watch "What's New for Microsoft Teams Meeting Recordings" for more information.
 
@@ -81,8 +81,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
    # When using Teams PowerShell Module
    
    Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
+   Connect-MicrosoftTeams
    ```
 
 5. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
@@ -113,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |1:1 call with internal parties             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights. <br /><br />Caller (if in the same tenant has read-only access. No sharing access. <br /><br />Caller (if in different tenant) has no access. Callee must share it to the Caller.|
 |1:1 call with an external call             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights.<br /> <br />Callee has no access. Caller must share it to the Callee.|
 |1:1 call with an external call             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights.<br /><br />Caller has no access. Callee must share it to the Caller.|
-|Group call                                 |Any member of the call |Group member who clicked on Record’s OneDrive for Business account  |Member who clicked on Record has full rights. <br /><br /> Other  fr from the same tenant have Read rights. <br /><br /> Other group members from different tenant have no rights to it.|
+|Group call                                 |Any member of the call |Group member who clicked on Record’s OneDrive for Business account  |Member who clicked on Record has full rights. <br /><br /> Other members from the same tenant have Read rights. <br /><br /> Other group members from different tenants have no rights to it.|
 |Adhoc/Scheduled meeting                    |Organizer              |Organizer’s OneDrive for Business account                     |Organizer has full rights to the recording. <br /><br /> All other members of the meeting have read access.|
 |Adhoc/Scheduled meeting                    |Other meeting member   |Meeting member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. <br /><br />Organizer has edit rights and can share.<br /><br /> All other meeting members have read access.|
 |Adhoc/Scheduled meeting with external users|Organizer              |Organizer’s OneDrive for Business account                     |Organizer has full rights to the recording.<br /> <br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br /> All other external members have no access, and the Organizer must share it to them.|
@@ -138,7 +137,7 @@ By default, all recording files will go to the OneDrive account of the user who 
 
 **How do I handle recordings from former employees?**
 
-Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **Who has the permissions to view the meeting recording?**
 
@@ -148,11 +147,10 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 > [!NOTE]
 > You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously.
-> You can control with whom you share the recording, but you won't be able to block people with shared access from downloading the recording.  
 
 **How can I manage captions?**
 
-Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) to ensure their users have the option to record meetings with transcription.
+Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) to ensure their users have the option to record meetings with transcription.
 
 Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there. 
 
@@ -189,4 +187,3 @@ See [Which policy takes precedence?](./assign-policies.md#which-policy-takes-pre
 **Where does the recording go if the user doesn't have OneDrive for Business or SharePoint, or the storage quota is full?**
 
 The recording will land in our temporary storage location where it will be held for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
-
