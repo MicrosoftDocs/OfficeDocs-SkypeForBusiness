@@ -33,7 +33,7 @@ Insights works best when using [SDS V2.1 file format](schooldatasync/sds-v2.1-cs
 
 ### Differences between SDS V1 and V2 file formats
 
-| Data type | V1 | V2 |
+| Data type | V1 | V2 and V2.1 |
 |:--- |:--- |:--- |
 | **Users** |Supports only ‘educator’ role, as a result org-level permissions for your education leaders need to be set manually|Supports multiple roles so that role-based permissions can be set|
 | **Orgs** | Supports only ‘schools’, aggregation level.<br><br>As a result, does not provide multiple aggregation levels and provide limited ability to compare different types of schools (e.g primary vs. secondary school, science vs. art school)|Supports multi-layer hierarchy, including district/institution, universities, colleges, faculties, campuses, regions, programs, etc.<br><br>Allows for multiple aggregation levels and to easily compare between organizational units at each level, assign permissions to specific levels, set goals by org level, etc.|
