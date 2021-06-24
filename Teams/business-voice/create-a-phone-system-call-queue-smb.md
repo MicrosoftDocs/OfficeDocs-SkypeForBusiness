@@ -161,9 +161,9 @@ To add agents to the call queue, we'll add them to the team and channel that we 
     ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups.png)
 
 > [!NOTE]
-> In order to use a Teams channel to manage the queue the administration must:
-> 1. Be a member of the Teams channel or 
-> 2. Have created and are the owner of the channel
+> In order to use a Teams channel to manage the queue the administrator must:
+> 1. Be a member of the Team or 
+> 2. Have created and be the owner of the channel
 > 
 > When new users are added to the team, it can take up to eight hours for their first call to arrive.
 
