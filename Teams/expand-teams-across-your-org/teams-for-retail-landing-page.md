@@ -24,7 +24,7 @@ Microsoft 365 and Microsoft Teams offer several capabilities that can help retai
 | Scenario | Description |
 | -------- | -------- |
 | [Retail team operations and collaboration](retail-team-collaboration.md) | Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.|
-| [Curbside delivery/multichannel fulfillment](retail-fulfillment.md) | |
+| [Curbside delivery/multichannel fulfillment](retail-fulfillment.md) | Use Teams to help your store employees communicate and deliver products directly to customers when they come to pick them up. |
 
 These scenarios are also part of the Microsoft Cloud for Retail. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail).
 
@@ -73,7 +73,7 @@ You can use the following tools to manage Teams for your organization:
 To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).|
 | [Scripted deployment](../flw-scripted-deployment.md)| Quickly provision users and teams and assign all relevant policies with a scripted deployment. <!--- add delegated user management when ready and provisioning users from a workforce management or HR system---> |
 
-## Devices for retail
+## Manage devices for retail teams
 
 - Shared devices
 - SMS sign-in
