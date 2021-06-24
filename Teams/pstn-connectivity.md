@@ -37,14 +37,13 @@ To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Direct Routing**](#phone-system-with-own-pstn-carrier-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller (SBC) to Phone System.
+- [**Direct Routing**](#phone-system-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System.
 
 - [**Operator Connect**](#phone-system-with-operator-connect), which is currently available only in **public preview.**  With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration.
 
 Be aware that the option or options you choose affect how some Phone System features are configured. For more information, see [Configuration considerations](#configuration-considerations) later in this article.
-
 
 
 ## Phone System with Calling Plan 
@@ -77,7 +76,7 @@ For more information about Calling Plan, see the following articles:
 - [Set up Calling Plan](set-up-calling-plans.md)
 
 
-## Phone System with your own PSTN carrier with Direct Routing
+## Phone System with Direct Routing
 
 This option connects Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
 
