@@ -22,6 +22,21 @@ appliesto:
 
 Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.
 
+## Supported languages
+Career Coach is localized in the following languages:
+
+  - Chinese (Simplified, Mainland China)
+  - Chinese (Traditional, Taiwan)
+  - English (US)
+  - English (UK)
+  - French (Canada)
+  - French (France)
+  - German (Deutschland)
+  - Japanese (Japan)
+  - Portuguese (Brazil)
+  - Spanish (Spain)
+  - Spanish (Mexico)
+
 Learn more about [Career Coach](https://aka.ms/career-coach).
 
 > [!NOTE]

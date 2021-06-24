@@ -151,7 +151,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you're looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://www.microsoft.com/download/details.aspx?id=102271)**.
+**If you're looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-06162021)-(en-us).xlsx)**.
 
 ***
 

@@ -23,6 +23,7 @@ Microsoft works with our partners to deliver a solution that is secure and doesn
 
 > [!NOTE]
 > Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different.
+> This article applies to Microsoft Teams Rooms devices running on Windows.
 
 Limited end-user data is stored on Teams Rooms. End-user data may be stored in the log files for troubleshooting and support only. At no point can an attendee of a meeting using Teams Rooms copy files to the hard drive or sign in as themselves. No end-user data is transferred to, or accessible by, the Microsoft Teams Rooms device.
 

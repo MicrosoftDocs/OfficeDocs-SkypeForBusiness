@@ -39,7 +39,8 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model                         | Firmware version                                                                                                                                                                                                                           | Release date
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Crestron UC-P10-T (with and without handset)    | 1.0.0.80                                                 | May 2021                     |
+| Crestron UC-P10-T (with and without handset)    | 1.0.0.80                                                 | May 2021             |
+| Crestron UC-P8-T (with and without handset)     | 1.0.0.56                                                 | February 2021        
 | Crestron UC-P10-C-T (with and without handset)  | 1.0.0.80                                                 | May 2021                     |
 | Crestron UC-P8-C-T (with and without handset)   | 1.0.0.80                                                 | May 2021                     |
 | Yealink MP52                           | 145.15.0.6                                               | April 2021                   |
@@ -47,7 +48,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | AudioCodes C470HD                      | 1.8.293                                                  | January 2021                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | March 2019                   |
 | AudioCodes C448HD (CAP mode only)      | C450HD_TEAMS_0.225                                       | March 2019                   |
-|Crestron UC-2                           |1.0.1.46                                                  | July 2020                    |
+| Crestron UC-2                          |1.0.1.46                                                  | July 2020                    |
 | Crestron M100                          | This product has been discontinued. For more information, visit [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) on Crestron's website. | Discontinued (5/11/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | This product has been discontinued. For more information, visit [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) on Crestron's website.                  | Discontinued (5/11/2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
@@ -71,6 +72,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Release date  | Room size                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Rally Bar      | 1.2.788     |       June 2021    |    Medium size room (4.5m x 6m)       |
 | AudioCodes RXV80 | 1.9.155        |   May 2021  | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | April 2021 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Medium size room (4.5m x 6m) |
@@ -96,6 +98,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 |:------------------------|:-----------------|:--------------|
 |Crestron TSS-770 | 1.003.0082 |February 2021 |
 |Crestron TSS-1070 | 1.003.0082 |February 2021 |
+|Yealink RoomPanel | 147.15.0.2 |May 2021 |
 
 ### Product release information for Teams phones
 
@@ -105,6 +108,8 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #2A | June 10th, 2021  |1449/1.0.94.2021052803|  5.0.5088.0 |  1.0.0.202103160138.product (256) |
+| 2021 Update #2  | June 8th, 2021  |1449/1.0.94.2021051303|  5.0.5088.0 |  1.0.0.202103160138.product (256) |
 | 2021 Update #1A | April 5th, 2021  |1449/1.0.94.2021033002|  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | 2021 Update #1  | March 26, 2021  |1449/1.0.94.2021022403 |  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | 2020 Update #7  | December 8, 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (223) |
@@ -119,8 +124,16 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release  |
 |:--------------------|:---------------------|:-------------------------|
+| Poly Trio C60   | 7.0.3.0342  | 2021 Update #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | 2021 Update #2                     |
+| Audio Codes C448HD/C450HD/C470HD   | 1.10.143  | 2021 Update #2           |
+| Yealink T55/T56/T58   | 58.15.0.131  | 2021 Update #2                       |
+| Yealink VP59   | 91.15.0.63  | 2021 Update #2                               |
+| Yealink CP960  |73.15.0.126  | 2021 Update #2                               |
+| Yealink MP56/MP54/MP58  |122.15.0.44 | 2021 Update #2                       |
+| Crestron UC-2  |1.0.3.66 | 2021 Update #2 |
 | Poly Trio C60   | 7.0.2.1071  | 2021 Update #1                        |
-| CCX400/CCX500/CCX600   | 7.0.2.1072  | 2021 Update #1                 |
+| Poly CCX400/CCX500/CCX600   | 7.0.2.1072  | 2021 Update #1                 |
 | Audio Codes C448HD/C450HD/C470HD   | 1.10.120  | 2021 Update #1       |
 | Yealink T55/T56/T58   | 58.15.0.124  | 2021 Update #1                      |
 | Yealink VP59   | 91.15.0.58  | 2021 Update #1                              |
@@ -182,7 +195,8 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 Update #1  |March 18, 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
+|2021 Update #2  |June 9th, 2021 |1449/1.0.95.2021042103    |5.0.5088.0            |  1.0.0.202103160138.product (256)|
+|2021 Update #1  |March 18th, 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
 
 
 #### Firmware versions
@@ -191,7 +205,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View| CD-18781Y.210507.111 |2021 Update #2 |
 |Lenovo ThinkSmart View| CD-18781Y.210228.109 |2021 Update #1 |
+
 
 
 ## More resources
