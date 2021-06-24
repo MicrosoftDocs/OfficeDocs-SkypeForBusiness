@@ -37,9 +37,9 @@ To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Direct Routing**](#phone-system-with-own-pstn-carrier-with-direct-routing), which enables you to use your own PSTN carrier by connecting your on-premises environment to Teams.
+- [**Direct Routing**](#phone-system-with-own-pstn-carrier-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller (SBC) to Phone System.
 
-- [**Operator Connect**](#phone-system-with-operator-connect), which is currently available only in **public preview.**  With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. 
+- [**Operator Connect**](#phone-system-with-operator-connect), which is currently available only in **public preview.**  With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration.
 
@@ -77,7 +77,7 @@ For more information about Calling Plan, see the following articles:
 - [Set up Calling Plan](set-up-calling-plans.md)
 
 
-## Phone System with own PSTN carrier with Direct Routing
+## Phone System with your own PSTN carrier with Direct Routing
 
 This option connects Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
 
@@ -120,27 +120,29 @@ For more information about Direct Routing, see the following articles:
 
 ## Phone System with Operator Connect
 
-With Operator Connect, currently in public preview, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
+With Operator Connect, currently in public preview, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your carrier manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
 Operator Connect might be the right solution for your organization if:
 
 - Microsoft Calling Plan isn't available in your geographic location.
-- Your preferred operator is a participant in the Microsoft Operator Connect program.
-- You want to find a new operator to enable calling in Teams.
+- Your preferred carrier is a participant in the Microsoft Operator Connect program.
+- You want to find a new carrier to enable calling in Teams.
 
-For information on the benefits and requirements of Operator Connect, and for a list of operators participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
+For information on the benefits and requirements of Operator Connect, and for a list of carriers participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
 
 ## Configuration considerations
 
-In general, most Phone Sytem features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available.  For a complete list of Phone Sytem features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
+Most Phone Sytem features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Phone Sytem features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
 
-However, the option you choose affects how you configure some Phone System features and there might be some differences in functionality. For example, Direct Routing provides Location-Based-Routing (LBR) so that you can restrict toll bypass in certain geographic locations where it is not allowed. These configuration differences are highlighted in the following table. The sections that follow provide links to more information.
+There are some differences in functionality, however, that affect how you configure certain Phone System features. For example, Direct Routing requires additional steps to configure call routing. As another example, Direct Routing provides Location-Based-Routing (LBR)--so that you can restrict toll bypass in certain geographic locations where it is not allowed. 
+
+The following table highlights the primary configuration differences.  The sections that follow the table provide links to more information and details.
 
 | Option | Description | Phone number management | Call routing | Emergency calling availability |  
 | :--- | :--- | :--- | :--- | :--- | 
 | Calling Plans | Microsoft acts as PSTN carrier.| Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| 
-| Direct Routing | -Connect your SBC to Phone System. <br> -Use your existing PSTN carrier.  | Obtained through operator. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <BR> -LBR available to restrict toll bypass. |-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
-| Operator Connect | Operator manages PSTN connectivity and SBCs.| Obtained through operator. <br>- Numbers associated with emergency addresses managed by operator.| Managed by operator. (?) | Managed by operator (?) |  
+| Direct Routing | -Connect your SBC to Phone System. <br> -Use your existing PSTN carrier.  | Obtained through carrier. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <BR> -LBR available to restrict toll bypass. |-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
+| Operator Connect | Carrier manages PSTN connectivity and SBCs.| Obtained through carrier. <br>- Numbers associated with emergency addresses managed by carrier.| Managed by carrier. (?) | Managed by carrier (?) |  
 |||||
 
 ### Phone number management
@@ -162,11 +164,11 @@ How you configure call routing differs depending on your PSTN connectivity optio
 
 - For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
 
-- For Operator Connect, ...
+- For Operator Connect, **DOES THE CARRIER HANDLE MOST OF CALL ROUTING??**
 
 #### Location-Based Routing for Direct Routing
 
-In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information about how to plan and configure LBR, see the following articles:
+In some countries and regions, it's illegal to bypass the PSTN carrier to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Teams users based on their geographic location. For more information about how to plan and configure LBR, see the following articles:
 
 - [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 - [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
@@ -180,11 +182,9 @@ How you configure emergency calling differs depending on your PSTN connectivity 
 
 - For Calling Plan, each user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported.  
 
-- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users. 
+- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. Registered emergency locations are not supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity.
 
-  For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity.
-
-- For Operator Connect, ...
+- For Operator Connect, ...  **Carrier manages numbers associated with emergence addresses...   is dynamic emergency calling available?** 
 
 For more information about emergency calling concepts and terminology, and how to configure emergency calling and dynamic emergency calling, see the following articles:
 
