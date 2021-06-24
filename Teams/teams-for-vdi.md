@@ -417,6 +417,81 @@ The following are known issues and limitations for calling and meetings:
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
+## Disable audio and video settings for VDI
+
+Teams VDI policies are available in the Microsoft Teams module.
+These policies are active and enforced on non-optimized VDI environments.
+
+``` powershell
+New-CsTeamsVdiPolicy  
+Grant-CsTeamsVdiPolicy
+Remove-CsTeamsVdiPolicy
+Set-CsTeamsVdiPolicy
+```
+
+### update-Module -Name MicrosoftTeams -AllowPrerelease
+
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+### VDI Policysetting -DisableCallsAndMeetings $true
+
+When users with this policy log into Teams on VDI, they shouldn't be able to:
+
+- Make calls.
+- Join meetings.
+- Do a screenshare from chat.
+
+All types of calling should be disabled.
+
+ This is only for non-optimized environments.
+
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+
+### VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true
+
+When users sign in to Teams, they should be able to:
+
+ - Do a screen share from chat.
+ - Join a meeting and share a screen.
+ - Move their audio to a phone.
+
+Users should *not* be able to do a person-to-person audio and video call from VDI.
+
+This is only for non-optimized environments.
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
 ## Troubleshooting
 
 ### Troubleshoot Citrix components
