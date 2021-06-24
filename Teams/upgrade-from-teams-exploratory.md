@@ -28,7 +28,7 @@ This article provides an overview of how to upgrade your users from a Teams Expl
 
 - [Step 2: Choose an upgrade path](#step-2-choose-an-upgrade-path)
 
-- [Step 3: Assigning paid licenses](#step-3-assign-paid-licenses)
+- [Step 3: Assign paid licenses](#step-3-assign-paid-licenses)
 
 ## Step 1: When to upgrade  
 
