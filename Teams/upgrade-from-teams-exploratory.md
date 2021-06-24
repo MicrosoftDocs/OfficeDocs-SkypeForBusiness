@@ -35,7 +35,7 @@ This article provides an overview of how to upgrade your users from a Teams Expl
 To check when your organization’s Teams Exploratory trial is expiring and how many active users it has, go to **Billing >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Your products</b></a> in the Microsoft 365 admin center. You’ll also be notified before the Teams Exploratory trial expires.
 
 > [!IMPORTANT]
-> You should make a plan to upgrade your users to a paid license before the expiration date, so users don’t lose access to Teams.
+> You should make a plan to upgrade your users to paid licenses before the expiration date, so users don’t lose access to Teams.
 >
 > Users will lose access to Teams 30 days after the trial's expiration date. As long as users are assigned a paid license within 60 days of the expiration date, they can regain access to Teams and all content still exists. However, after 60 days, the users’ data is deleted. After a new license is assigned to the users to enable Teams functionality again, if they are added within the grace period time frame, all content remains. For more information, see <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">What happens to my data and access when my subscription ends?</a>
 
