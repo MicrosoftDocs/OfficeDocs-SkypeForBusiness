@@ -23,7 +23,7 @@ Microsoft 365 and Microsoft Teams offer several capabilities that can help retai
 
 | Scenario | Description |
 | -------- | -------- |
-| [Retail team operations and collaboration](retail-team-collaboration.md) | |
+| [Retail team operations and collaboration](retail-team-collaboration.md) | Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.|
 | [Curbside delivery/multichannel fulfillment](retail-fulfillment.md) | |
 
 These scenarios are also part of the Microsoft Cloud for Retail. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail).
@@ -67,47 +67,11 @@ You can use the following tools to manage Teams for your organization:
 
 | Tool | Description |
 | -------- | -------- |
-| [Teams apps for retail](#teams-apps-for-retail) | Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. |
-| [Teams templates for retail](#teams-templates-for-retail)| Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within an individual store, with a region, or between headquarters and your staff wherever they are.|
-| [Teams policy packages for frontline workers](#teams-policy-packages-for-frontline-workers)| Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality. |
-| [Scripted deployment](#scripted-deployment-for-frontline-workers)| Quickly provision users and teams and assign all relevant policies with a scripted deployment. |
-
-This article explains more about these tools and what you need to know about Teams for Retail.
-
-### Teams apps for retail
-
-You can determine which apps are available for your users by including them in a Teams template, or 
-The Retail "Organize a store" template includes the Approvals, Tasks, and Wiki apps, or you can [create a custom template](create-a-team-template.md) to include the apps your store needs:
-- Shifts (extra configuration?)/Time clock
-- Tasks
-- Approvals
-- Corporate communications (Viva Connections) Bulletins?
-- Chat
-- Calling
-- Learning (Viva Learning)
-- Teams dashboard
-- Walkie Talkie
-- Virtual Visits?
-- Praise
-
-- Power Apps integrations
-- Document storage & collaboration
-
-### Teams templates for Retail
-
-### Teams policy packages for Frontline Workers
-
-### Frontline Worker integration (section) app setup policy
-
-Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
-To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
-
-### Provision users
-
-- Scripted deployment for frontline workers
-- Delegated user management (new)
-
-### Provision users from a workforce management or HR system (cloud feature)
+| [Teams apps](../manage-apps.md) for retail | Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. You can determine which apps are available for your users by enabling them in the Microsoft Teams admin center or by including them in a Team template. |
+| [Teams templates for retail](../get-started-with-retail-teams-templates.md)| Create teams that include a predefined set of settings, channels, tabs, and pre-installed apps for communication and collaboration within an individual store, with a region, or between headquarters and your staff wherever they are. <br><br>The Retail **Organize a store** template includes channels for General, Shift Handoff, and Learning, and includes the Approvals, Tasks, and Wiki apps. <br><br>The **Retail for managers** template includes channels for General, Operations, and Learning, and includes a Wiki tab. <br><br>You can also [create a custom template](create-a-team-template.md) to include the apps your store needs. |
+| [Teams policy packages](../manage-policy-packages.md) | Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. <br><br>Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it.
+To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).|
+| [Scripted deployment](../flw-scripted-deployment.md)| Quickly provision users and teams and assign all relevant policies with a scripted deployment. <!--- add delegated user management when ready and provisioning users from a workforce management or HR system---> |
 
 ## Devices for retail
 
