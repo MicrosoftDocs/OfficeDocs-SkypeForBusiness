@@ -35,7 +35,7 @@ description: Learn about dialing toll-free numbers in US, including availability
 |Is toll-free calling available?  <br/> |Yes  <br/> |
 |Dialing format(s)  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
 |Country/region ISO code  <br/> |USA  <br/> |
-|Island/territory covered  <br/> |American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, Canada, Cayman Islands, Dominica, Dominican Republic, Grenada, Guam, Jamaica, Montserrat, Northern Mariana Islands, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarteny, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Virgin Islands <br/> |
+|Island/territory covered  <br/> |American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, Canada, Cayman Islands, Dominica, Dominican Republic, Grenada, Guam, Jamaica, Montserrat, Northern Mariana Islands, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarten, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Virgin Islands <br/> |
 |Wired/fixed line availability  <br/> |Yes  <br/> |
 |Mobile network availability  <br/> |Yes  <br/> |
 |Comments, restrictions, and access issues  <br/> |None  <br/> |
