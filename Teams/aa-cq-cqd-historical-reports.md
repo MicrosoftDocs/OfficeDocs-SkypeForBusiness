@@ -25,7 +25,7 @@ description: Learn about how to use Call Quality Dashboard Power BI report to vi
 ---
 # Auto Attendant & Call Queue Historical Report
 
-The CQD Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports.
+The CQD Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
 
 :::row:::
     :::column span="":::
@@ -34,7 +34,7 @@ The CQD Teams Auto Attendant & Call Queue Historical Report Power BI Template pr
 Shows analytics for calls that are coming into your Auto Attendants.
     :::column-end:::
     :::column span="":::
-:::image type="content" alt-text="Example of the Auto Attendant report." source="/Teams/media/cqd-teams-aa-cq-historical-report-sample-aa.png" lightbox="/Teams/media/cqd-teams-aa-cq-historical-report-sample-aa.png":::
+:::image type="content" alt-text="Example of the Auto Attendant report." source="media/cqd-teams-aa-cq-historical-report-sample-aa.png" lightbox="media/cqd-teams-aa-cq-historical-report-sample-aa.png":::
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -44,7 +44,7 @@ Shows analytics for calls that are coming into your Auto Attendants.
 Shows analytics for calls that are coming into your Call Queue.
     :::column-end:::
     :::column span="":::
-:::image type="content" alt-text="Example of the Call Queue report." source="/Teams/media/cqd-teams-aa-cq-historical-report-sample-cq.png" lightbox="/Teams/media/cqd-teams-aa-cq-historical-report-sample-cq.png":::
+:::image type="content" alt-text="Example of the Call Queue report." source="media/cqd-teams-aa-cq-historical-report-sample-cq.png" lightbox="media/cqd-teams-aa-cq-historical-report-sample-cq.png":::
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -54,10 +54,13 @@ Shows analytics for calls that are coming into your Call Queue.
 Shows a timeline view of agents that are active in Call Queue calls.
     :::column-end:::
     :::column span="":::
-:::image type="content" alt-text="Example of the Agent Timeline report." source="/Teams/media/cqd-teams-aa-cq-historical-report-sample-at.png" lightbox="/Teams/media/cqd-teams-aa-cq-historical-report-sample-at.png":::
+:::image type="content" alt-text="Example of the Agent Timeline report." source="media/cqd-teams-aa-cq-historical-report-sample-at.png" lightbox="media/cqd-teams-aa-cq-historical-report-sample-at.png":::
     :::column-end:::
 :::row-end:::
 
+- [Auto Attendant](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – showing analytics for calls coming into your Auto Attendants.
+- [Call Queue](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – showing analytics for calls coming into your Call Queues.
+- [Agent Timeline](media/cqd-teams-aa-cq-historical-report-sample-at.png) – showing a timeline view of agents being active in Call Queue calls.
 
 These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. They allow organizations
 to report on the number of calls being processed by auto attendants and call queues.  They also provide insight to agent performance in the call queues.
