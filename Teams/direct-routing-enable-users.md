@@ -48,10 +48,9 @@ If your Skype for Business Online deployment coexists with Skype for Business 20
 
 For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
-## Ensure that the user is homed online and phone number is not being synced from on-premises (applicable for Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing)
+## Ensure that the user is homed online (applicable for Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing)
 
-Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. 
-OnPremLineUriManuallySet parameter should also to be set to True. This is achieved by configuring the phone number and enable enterprise voice and voicemail using Skype for Business Online PowerShell.
+Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. It's also recommended, but not required, to change management of the LineURI from on-premises to online when migrating users to Teams Direct Routing. 
 
 1. Connect a Skype for Business Online PowerShell session.
 
@@ -60,13 +59,16 @@ OnPremLineUriManuallySet parameter should also to be set to True. This is achiev
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, please clean the parameters using on-premises Skype for Business Management Shell, before configuring the phone number using Skype for Business Online PowerShell. 
+    In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and syncrhonized to O365. If you want manage the phone number online, clean the parameter using on-premises Skype for Business Management Shell and synchronize to O365, before configuring the phone number using Skype for Business Online PowerShell. 
 
 1. From Skype for Business Management Shell issue the command: 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > Do not set EnterpriseVoiceEnabled to False as there is no requirement to do so and this can lead to dial plan normalization issues if legacy Skype for Business phones are in use and the Tenant hybrid configuration is set with UseOnPremDialPlan $True. 
+    
    After the changes have synced to Office 365 the expected output of `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` would be:
 
    ```console
@@ -75,16 +77,22 @@ OnPremLineUriManuallySet parameter should also to be set to True. This is achiev
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > All user's phone attributes must be managed online before you [decomission your on-premises Skype for Business environment](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
-## Configure the phone number and enable enterprise voice and voicemail 
+## Configure the phone number and enable enterprise voice and voicemail online 
 
-After you have created the user and assigned a license, the next step is to configure the user's phone number and voicemail. 
+After you have created the user and assigned a license, the next step is to configure the user's online phone settings. 
 
-To add the phone number and enable for voicemail:
  
 1. Connect a Skype for Business Online PowerShell session. 
 
-2. Issue the command: 
+2. If managing the user's phone number on-premises, issue the command: 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. If managing the user's phone number online, issue the command: 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
