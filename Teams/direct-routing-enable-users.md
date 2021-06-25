@@ -37,7 +37,7 @@ When you are ready to enable users for Direct Routing, follow these steps:
 3. Configure the phone number and enable enterprise voice and voicemail. 
 4. Assign Teams Only mode to users.
 
-## Create a user and assign the license 
+## Create a user and assign the license
 
 There are two options for creating a new user in Microsoft 365 or Office 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
 
@@ -59,7 +59,7 @@ Direct Routing requires the user to be homed online. You can check by looking at
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and syncrhonized to O365. If you want manage the phone number online, clean the parameter using on-premises Skype for Business Management Shell and synchronize to O365, before configuring the phone number using Skype for Business Online PowerShell. 
+    In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and synchronized to O365. If you want manage the phone number online, clean the parameter using on-premises Skype for Business Management Shell and synchronize to O365, before configuring the phone number using Skype for Business Online PowerShell. 
 
 1. From Skype for Business Management Shell issue the command: 
 
@@ -78,7 +78,7 @@ Direct Routing requires the user to be homed online. You can check by looking at
    LineURI                              : 
    ```
  > [!NOTE]
- > All user's phone attributes must be managed online before you [decomission your on-premises Skype for Business environment](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/decommission-on-prem-overview). 
+ > All user's phone attributes must be managed online before you [decomission your on-premises Skype for Business environment](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
 ## Configure the phone number and enable enterprise voice and voicemail online 
 
