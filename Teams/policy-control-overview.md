@@ -29,7 +29,7 @@ This article is intended to provide you with information about privacy controls 
 As part of these changes, there are new and updated user interface (UI) elements and policy settings
 
 > [!IMPORTANT]
-> For further reading, please review the [Policy Control Overview](/deployoffice/privacy/overview-privacy-controls) content for Microsoft 365.
+> For further reading, please review [Overview of privacy controls for Microsoft 365 Apps for enterprise](/deployoffice/privacy/overview-privacy-controls).
 
 ## Diagnostic data sent from Microsoft 365 Apps for enterprise to Microsoft
 
