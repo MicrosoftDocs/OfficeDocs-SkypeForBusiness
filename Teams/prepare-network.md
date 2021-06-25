@@ -142,14 +142,18 @@ For an in-depth discussion of network optimization, including guidance for ident
 
 ## Bandwidth requirements
 
+Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
+Where bandwidth isn't limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps (frames per second) for video and 15fps for content, and high-fidelity audio.
+
+This table describes how Teams uses bandwidth. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.5Mbps. The actual bandwidth consumption in each audio/video call or meeting will vary based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available, quality and usage will increase to deliver the best experience.
 
 :::row:::
    :::column span="":::
       **Modality**
    :::column-end:::
    :::column span="3":::
-      **<center>Bandwidth Requirements (bitrate KB/s up/down) </center>**
+      **<center>Bandwidth requirements (bitrate KB/s up/down) </center>**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -163,7 +167,7 @@ For an in-depth discussion of network optimization, including guidance for ident
       **<center>Recommended</center>**
    :::column-end:::
    :::column span="":::
-      **<center>Best Performance</center>**
+      **<center>Best performance</center>**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -173,7 +177,21 @@ For an in-depth discussion of network optimization, including guidance for ident
 :::row-end:::
 :::row:::
    :::column span="":::
-        Audio (1:1/meetings)
+        One-to-one
+   :::column-end:::
+   :::column span="":::
+        <center>10/10</center>
+   :::column-end:::
+   :::column span="":::
+        <center>58/58</center>
+   :::column-end:::
+   :::column span="":::
+        <center>76/76</center>
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Meetings
    :::column-end:::
    :::column span="":::
         <center>10/10</center>
@@ -192,84 +210,108 @@ For an in-depth discussion of network optimization, including guidance for ident
 :::row-end:::
 :::row:::
    :::column span="":::
-        1:1 video
+        One-to-one
    :::column-end:::
    :::column span="":::
         <center>150/150</center>
    :::column-end:::
    :::column span="":::
-        <center>1500/1500</center>
+        <center>1,500/1,500</center>
    :::column-end:::
    :::column span="":::
-        <center>4000/4000</center>
+        <center>4,000/4,000</center>
    :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="":::
-        Meetings video
+        Meetings
    :::column-end:::
    :::column span="":::
         <center>150/200</center>
    :::column-end:::
    :::column span="":::
-        <center>2500/4000</center>
+        <center>2,500/4,000</center>
    :::column-end:::
    :::column span="":::
-        <center>4000/4000</center>
+        <center>4,000/4,000</center>
    :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="4":::
-      **Screen sharing (content frame rates)**
+      **Screen sharing**
    :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="":::
-        1:1 screen sharing
+        One-to-one
    :::column-end:::
    :::column span="":::
         <center>200/200</center>
    :::column-end:::
    :::column span="":::
-        <center>1500/1500</center>
+        <center>1,500/1,500</center>
    :::column-end:::
    :::column span="":::
-        <center>4000/4000</center>
+        <center>4,000/4,000</center>
    :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="":::
-        Meetings screen sharing
+        Meetings
    :::column-end:::
    :::column span="":::
         <center>250/250</center>
    :::column-end:::
    :::column span="":::
-        <center>2500/2500</center>
+        <center>2,500/2,500</center>
    :::column-end:::
    :::column span="":::
-        <center>4000/4000</center>
+        <center>4,000/4,000</center>
    :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="4":::
-      **Together mode**
+      **Together Mode**
    :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="":::
-        1:1 screen sharing
+        One-to-one
    :::column-end:::
    :::column span="":::
-        <center>1000/1500</center>
+        <center>N/A</center>
    :::column-end:::
    :::column span="":::
-        <center>1500/2500</center>
+        <center>N/A</center>
    :::column-end:::
    :::column span="":::
-        <center>2500/4000</center>
+        <center>N/A</center>
    :::column-end:::
 :::row-end:::
+:::row:::
+   :::column span="":::
+        Meetings
+   :::column-end:::
+   :::column span="":::
+        <center>1,000/1,500</center>
+   :::column-end:::
+   :::column span="":::
+        <center>1,500/2,500</center>
+   :::column-end:::
+   :::column span="":::
+        <center>2,500/4,000</center>
+   :::column-end:::
+:::row-end:::
+
+**Minimum**, **Recommended**, and **Best performance** bandwidth requirements are based on per-endpoint usage. Typically, there's one endpoint per user, such as a computer or mobile device. However, if a user joins a Teams meeting on *both* a computer *and* a mobile device, two endpoints are associated with that user.
+
+- **Minimum** Bandwidth requirements for video calls are up to 240p resolution, screen sharing content frame rates adaptive 1.875 to 7.5fps, and Together Mode/Large Gallery video up to 540p resolution.  
+
+- **Recommended** Bandwidth requirements for video calls are up to 1080p resolution<sup>\*</sup>, screen sharing content frame rates adaptive 7.5 to 30fps, and Together Mode/Large Gallery video up to 1080p resolution<sup>\*</sup>.  
+
+- **Best Performance** Guidance allows higher fidelity video for larger attendee meetings, high loss environments, and higher motion content with screen sharing content frame rates adaptive 15 to 30fps.
+
+<sup>\*</sup>Expect up to 1080p quality but depending on your network conditions, video resolution and quality will be optimized accordingly.  
 
 ## Related Topics
 
