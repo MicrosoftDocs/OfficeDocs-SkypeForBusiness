@@ -21,9 +21,9 @@ appliesto:
 
 Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.
 
-![Infographic showing the different functions available in Teams and as Teams apps as described in the list below](../media/retail-teams-collab.png)
+![Infographic showing the different functions available in Teams and as Teams apps as described in the list below](../media/retail-teams-collaborate-core.png)
 
-Microsoft Teams enables in-store sales associates, managers, and other staff to collaborate efficiently with included collaboration features in Microsoft Teams, such as the following:
+Microsoft Teams enables in-store sales associates, managers, and other staff to collaborate efficiently with the following core collaboration features included in Microsof Teams:
 
 | Task | Description | Manage this capability | End user training |
 | ---- | ---- | ---- | ---- |
@@ -32,7 +32,9 @@ Microsoft Teams enables in-store sales associates, managers, and other staff to 
 |Call and meet with team members | Managers can set up individual meetings, or use channel meetings to manage daily meetings, both with the power of Teams audio, video, screen sharing, recording, and transcription features. For example, a manager could set up a morning video meeting with store associates in different departments to check their status before opening the store. <br><br>You'll need to configure settings for meetings and conferencing, and enable a Voice solution to use calling. | [Meetings and conferencing in Microsoft Teams](../deploy-meetings-microsoft-teams-landing-page.md) and [Plan your Teams Voice solution](../cloud-voice-landing-page.md) | [Make calls](https://support.microsoft.com/office/overview-of-teams-calls-425d6970-6e27-47b6-bc61-4c38fff51c4f) and [Join a meeting](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) |
 |Store and share files and documents | Sharing files allows in-store staff to easily access information such as merchandising diagrams without having to leave the sales floor or get help from a manager. Every team automatically comes with a Files tab that you can use to store and share documents. This tab actually represents a folder within the default team site document library in SharePoint that is automatically created when the team is created. | [How SharePoint and OneDrive interact with Microsoft Teams](../sharepoint-onedrive-interact.md) | [Upload and share files](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12) |
 
-In addition, your team can use [apps](#manage-apps) in Teams for the following tasks:
+In addition, your team can use [apps](#manage-apps) in Teams to coordinate and collaborate with each other on day to day tasks, such as the following:
+
+![Infographic showing the different functions available in Teams and as Teams apps as described in the list below](../media/retail-teams-collaborate.png)
 
 | Task | App | Description | Manage this app | End user training |
 | ---- | ---- | ---- | ---- | ---- |
