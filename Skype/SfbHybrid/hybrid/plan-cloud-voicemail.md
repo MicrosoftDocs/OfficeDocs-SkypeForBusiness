@@ -79,6 +79,8 @@ In addition to the requirements above, the below requirements must be configured
 
 - If you have an on-premises Exchange server, set up Cloud Voicemail using the steps in [Set up Cloud Voicemail for Exchange Server Mailbox Users](/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users).
 
+- If the user has a mailbox on Exchange Online, an Exchange Online Plan 2 is required. 
+
 ## Migration and interoperability
 
 If you are planning to deploy Skype for Business Server 2019 and/or Exchange Server 2019, you must plan your migration carefully to ensure continued service for voice messaging. Keep the following in mind:
