@@ -42,7 +42,7 @@ description: Learn about dialing toll-free numbers in US, including availability
 
 > [!NOTE]
 > **Dialing Formats**:
-
+>
 > - 800-389 are special and for Bahamas
 > - 800-534 are special and for Barbados
 > - 800-623 are special and for Bermuda
