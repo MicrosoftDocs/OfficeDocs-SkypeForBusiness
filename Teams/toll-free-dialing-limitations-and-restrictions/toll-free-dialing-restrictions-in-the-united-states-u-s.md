@@ -42,6 +42,7 @@ description: Learn about dialing toll-free numbers in US, including availability
 
 > [!NOTE]
 > **Dialing Formats**:
+
 > - 800-389 are special and for Bahamas
 > - 800-534 are special and for Barbados
 > - 800-623 are special and for Bermuda
@@ -51,7 +52,7 @@ description: Learn about dialing toll-free numbers in US, including availability
 
 > [!IMPORTANT]
 > **North America Numbering Plan Toll Free Numbers**: Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
-    
+
 ## Related topics
 
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
