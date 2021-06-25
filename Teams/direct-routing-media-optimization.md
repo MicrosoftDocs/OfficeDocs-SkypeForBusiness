@@ -30,7 +30,7 @@ Local Media Optimization for Direct Routing lets you manage voice quality by:
 
 Local Media Optimization supports two scenarios:
 
-- Centralization of all local trunks through a centralized SBC connected to the main Session Initiation Protocol (SIP)trunk--providing telephony services to all local branch offices of the company.
+- Centralization of all local trunks through a centralized SBC connected to the main Session Initiation Protocol (SIP) trunk--providing telephony services to all local branch offices of the company.
 
 - 	Building a virtual network topology of SBCs--where the SBCs in the local branch offices are connected to a centralized proxy SBC that is visible to, and communicating with, Microsoft Phone System through its external IP address. In a virtual network topology, downstream SBCs are communicating through internal IPs and are not directly visible to Phone System.
 
