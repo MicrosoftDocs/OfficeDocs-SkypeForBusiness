@@ -37,7 +37,7 @@ When you are ready to enable users for Direct Routing, follow these steps:
 3. Configure the phone number and enable enterprise voice and voicemail. 
 4. Assign Teams Only mode to users.
 
-## Create a user and assign the license 
+## Create a user and assign the license
 
 There are two options for creating a new user in Microsoft 365 or Office 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
 
