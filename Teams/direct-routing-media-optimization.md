@@ -74,7 +74,8 @@ To build a solution where PSTN services are provided to all local branch offices
 
 - When a user is outside of the corporate network, the SBC provides the external (public) IP of the SBC.
 
-Note: All values within examples, tables, or diagrams are presented for illustration purposes only.
+> [!NOTE]
+> All values within examples, tables, or diagrams are presented for illustration purposes only.
 
 Table 1. Example network parameters for SBCs 
 
@@ -149,7 +150,8 @@ The user, who is assigned to a local branch office in Vietnam, and is on premise
 
 - The downstream SBC in the local branch office is not visible to Phone System directly but is mapped within the virtual network topology that is defined by the Contoso administrator while setting up Local Media Optimization.
 
-Note: The behavior might be different for local users and non-local users depending on the configured Local Media Optimization mode. 
+> [!NOTE]
+> The behavior might be different for local users and non-local users depending on the configured Local Media Optimization mode. 
 
 For more information on possible modes and relevant behavior, see Configure Local Media Optimization.
 
@@ -185,8 +187,8 @@ Local Media Optimization supports two modes:
 
 To distinguish between Local Media Optimization modes, the tenant administrator needs to set the -BypassMode parameter to either ‘Always’ or ‘OnlyForLocalUsers’ for every SBC by using the  Set-CSonlinePSTNGateway cmdlet. For more information, see [Configure Local Media Optimization](direct-routing-media-optimization-configure.md).  
 
- > [!NOTE]
-  > When users are internal, media connectivity between the user and the SBC over the internal IP address is **required**. There is no fallback to public transport relays for media in this case as the SBC will be providing an internal IP for media connectivity. 
+> [!NOTE]
+> When users are internal, media connectivity between the user and the SBC over the internal IP address is **required**. There is no fallback to public transport relays for media in this case as the SBC will be providing an internal IP for media connectivity. 
 
 ### Mode 1: Always bypass
 
