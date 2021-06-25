@@ -142,12 +142,134 @@ For an in-depth discussion of network optimization, including guidance for ident
 
 ## Bandwidth requirements
 
-Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
-Where bandwidth *isn't* limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio. 
 
-[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
-
+:::row:::
+   :::column span="":::
+      **Modality**
+   :::column-end:::
+   :::column span="3":::
+      **<center>Bandwidth Requirements (bitrate KB/s up/down) </center>**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      <!-- blank -->
+   :::column-end:::
+   :::column span="":::
+      **<center>Minimum</center>**
+   :::column-end:::
+   :::column span="":::
+      **<center>Recommended</center>**
+   :::column-end:::
+   :::column span="":::
+      **<center>Best Performance</center>**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Audio**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Audio (1:1/meetings)
+   :::column-end:::
+   :::column span="":::
+        <center>10/10</center>
+   :::column-end:::
+   :::column span="":::
+        <center>58/58</center>
+   :::column-end:::
+   :::column span="":::
+        <center>76/76</center>
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Video**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        1:1 video
+   :::column-end:::
+   :::column span="":::
+        <center>150/150</center>
+   :::column-end:::
+   :::column span="":::
+        <center>1500/1500</center>
+   :::column-end:::
+   :::column span="":::
+        <center>4000/4000</center>
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Meetings video
+   :::column-end:::
+   :::column span="":::
+        <center>150/200</center>
+   :::column-end:::
+   :::column span="":::
+        <center>2500/4000</center>
+   :::column-end:::
+   :::column span="":::
+        <center>4000/4000</center>
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Screen sharing (content frame rates)**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        1:1 screen sharing
+   :::column-end:::
+   :::column span="":::
+        <center>200/200</center>
+   :::column-end:::
+   :::column span="":::
+        <center>1500/1500</center>
+   :::column-end:::
+   :::column span="":::
+        <center>4000/4000</center>
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Meetings screen sharing
+   :::column-end:::
+   :::column span="":::
+        <center>250/250</center>
+   :::column-end:::
+   :::column span="":::
+        <center>2500/2500</center>
+   :::column-end:::
+   :::column span="":::
+        <center>4000/4000</center>
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Together mode**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        1:1 screen sharing
+   :::column-end:::
+   :::column span="":::
+        <center>1000/1500</center>
+   :::column-end:::
+   :::column span="":::
+        <center>1500/2500</center>
+   :::column-end:::
+   :::column span="":::
+        <center>2500/4000</center>
+   :::column-end:::
+:::row-end:::
 
 ## Related Topics
 
