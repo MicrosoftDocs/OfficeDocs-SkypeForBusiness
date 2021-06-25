@@ -27,7 +27,7 @@ The Teams usage report in the Microsoft Teams admin center gives you an overview
 1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Teams usage**.
 2. Under **Date range**, select a range, and then click **Run report**.
 
-    ![Screenshot of the Teams usage report in the Teams admin center with callouts](../media/teams-reports-teams-usage-with-callouts.png "Screenshot of the Teams usage report in the Teams admin center with callouts")
+    ![Screenshot of the Teams usage report in the Teams admin center with callouts](../media/teams-reports-teams-usage-with-callouts1.png "Screenshot of the Teams usage report in the Teams admin center with callouts")
 
 ## Interpret the report
 
@@ -40,6 +40,8 @@ The Teams usage report in the Microsoft Teams admin center gives you an overview
 |**5**   |The table gives you a breakdown of usage by team. <ul><li>**Team name** is the display name of the team. You can click the team name to go to the team's settings page in the Microsoft Teams admin center. </li> <li>**Privacy** refers to whether the team is a private team or public team.</li> <li>**Active users** is the number of active users in the team in the specified time period.</li><li>**Guests** is the number of guests in the team in the specified time period.</li> <li>**Active channels** is the number of channels that have at least one active user in the specified time period.</li> <li>**Post Messages** is the number of all the post messages in channels in the specified time period.</li> <li>**Reply messages** is the number  of all the reply messages in channels in the specified time period.</li> <li>**Meetings organized** is the number of scheduled and ad hoc meetings a user organized during the specified time period. </li><li>**Urgent messages** is the number  of all the urgent messages in the specified time period.</li><li>**Reactions** is the number  of all the reactions to messages in the specified time period.</li><li>**Mentions** is the number of all the mentions used in messages in the specified time period.</li><li>**Channel messages** is the number of unique messages that the team's users posted in a team chats during the specified time period.</li> </li> </ul>Note that if a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
 |**6**   |Select **Edit columns** to add or remove columns in the table.|
 |**7**   |You can export the report to a CSV file for offline analysis. Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready.<br><br>![Screenshot of the Downloads tab showing exported reports to download](../media/teams-reports-export-to-csv.png)|
+|**8** |Time series data points in the graph show different usage metrics aggregated at tenant|
+|**9** |Tabular data represented different usage metrics aggregated per team|
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
