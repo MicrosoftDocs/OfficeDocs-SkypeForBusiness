@@ -78,7 +78,7 @@ Direct Routing requires the user to be homed online. You can check by looking at
    LineURI                              : 
    ```
  > [!NOTE]
- > All user's phone attributes must be managed online before you [decomission your on-premises Skype for Business environment](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/decommission-on-prem-overview). 
+ > All user's phone attributes must be managed online before you [decomission your on-premises Skype for Business environment](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
 ## Configure the phone number and enable enterprise voice and voicemail online 
 
