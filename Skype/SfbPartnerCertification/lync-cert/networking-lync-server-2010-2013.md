@@ -46,7 +46,7 @@ Please contact the listed partner for more information on these products.
 		<td><strong>Firmware Version Tested</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.aerohive.com/products/overview/access-points.html">Aerohive Networks</a></td>
+		<td><a href="https://www.aerohiveworks.com/?hsa_tgt=kwd-78752607582570:loc-190&hsa_grp=1260040457835392&hsa_src=o&hsa_net=adwords&hsa_mt=e&hsa_ver=3&hsa_ad=&hsa_acc=9041622380&hsa_kw=aerohive%20networks&hsa_cam=56560501&msclkid=ab9fbb28c5ca1ded0656dbfec64a3df8&utm_source=bing&utm_medium=cpc&utm_campaign=Aerohive%20%20Networks%20*219&utm_term=aerohive%20networks&utm_content=Aerohive%20Specific">Aerohive Networks</a></td>
 		<td>AP350 &amp; AP330 Access Points</td>
 		<td> </td>
 		<td>HiveOS 6.4r1</td>

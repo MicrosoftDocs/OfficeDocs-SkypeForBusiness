@@ -91,7 +91,7 @@ Use video door phones in combination with Lync. Identify the person at the door,
 * * *
 Integrate incompatible phone devices fully into Lync. They then act like any other registered phone.
 
-## [Fujitsu SAP BCM Presence integration](http://www.fujitsu.com/fi/english/)
+## [Fujitsu SAP BCM Presence integration](https://www.fujitsu.com/global/)
 * * *
 Synchronize presence information from Lync to SAP BCM Contact Center. Give customer service and switchboard agents better employee presence information for greater efficiency and reachability.
 
@@ -107,7 +107,7 @@ Offer guest access to hotel services and information anytime, anywhere, wakeup c
 * * *
 Allow visitors to serve themselves with a touch-screen in a lobby or entrance. Selecting the appropriate option places a call to the desired person.
 
-## [Kuando Busylight](http://www.busylight.com/busylight-lync.html)
+## [Kuando Busylight](http://www.busylight.com/)
 * * *
 Increase productivity with a powerful LED light that shows Lync presence status in the office. Choose from eight different ringtones for incoming calls.
 

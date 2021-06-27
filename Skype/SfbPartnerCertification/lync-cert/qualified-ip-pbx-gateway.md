@@ -396,7 +396,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.dialogic.com/Solutions/Unified-Communications/UC-Connectivity/Microsoft-Lync.aspx">Dialogic</a></td>
+			<td rowspan="3"><a href="https://www.dialogic.com/solutions">Dialogic</a></td>
 			<td>DMG1000</td>
 			<td>6.0 SU7</td>
 			<td>Enhanced Gateway</td>

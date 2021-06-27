@@ -29,7 +29,7 @@ The following table includes the names and websites for the certification author
 
 |Certification authority  |Website  |
 |:---       |:--- |
-|Comodo     |  http://www.comodo.com/msexchange       |
+|Comodo     |  http://www.comodo.com/       |
 |DigiCert   |  http://www.digicert.com/unified-communications-ssl-tls.htm |
 |GeoTrust   |  http://www.geotrust.com/ssl/ssl-certificates-san-uc/ |
 |GlobalSign |  http://www.globalsign.com/ssl/buy-ssl-certificates/unified-communications-ssl/   |

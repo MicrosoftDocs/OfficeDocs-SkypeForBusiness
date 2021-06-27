@@ -59,7 +59,7 @@ Vendors listed in the following table have been certified with Skype for Busines
 			<td>Y</td>
 		</tr>
 		<tr>
-			<td><a href="http://www.btconferencing.com/products-and-services/bt-meetme-audio-conferencing/bt-conference-connect/">BT</a></td>
+			<td><a href="http://www.btconferencing.com">BT</a></td>
 			<td>Y</td>
 			<td>Y</td>
 			<td>N</td>

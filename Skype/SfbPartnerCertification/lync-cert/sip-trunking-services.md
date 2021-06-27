@@ -99,8 +99,8 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |Carrier  |Service Name  |Qualified with TLS & SRTP  |
 |:--- |:--- |:---: |
 |[AinaCom](http://www.ainacom.fi/) | SIP Trunk |         |
-|[AT&amp;T](http://www.business.att.com/enterprise/online_campaign/msocs_ipflex/)     | AT&amp;T IP Flexible Reach Service        |         |
-|[Bicentel](http://www.bicentel.com/lync) |Lync SIP Connect|         |
+|[AT&amp;T](http://www.business.att.com/)     | AT&amp;T IP Flexible Reach Service        |         |
+|[Bicentel](https://www.c3ntro.com/) |Lync SIP Connect|         |
 |[BroadSoft Adaption](http://www.adpt-tech.com/) |OfficeTrunk|         |
 |[BT Global Services](http://www.globalservices.bt.com/uk/en/products/one_voice) |BT Onevoice| |
 |[Cellip](http://www.cellip.com/tjanster/microsoft-lync/) |Sip-trunk Lync|&#x2714;|
