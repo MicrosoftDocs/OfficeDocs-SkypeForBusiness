@@ -635,7 +635,9 @@ items:
         - name: Cloud Video Interop
           href: cloud-video-interop.md
         - name: Set up for webinars in Microsoft Teams
-          href: set-up-webinars.md 
+          href: set-up-webinars.md
+        - name: Supervised chat for non-educational tenants
+          href: supervised-chat-non-edu.md  
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
