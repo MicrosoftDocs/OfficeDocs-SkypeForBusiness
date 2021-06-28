@@ -29,9 +29,6 @@ description: "Here are the Microsoft 365 and Office 365 services for Skype for B
 
 # Availability in Poland
 
-> [!IMPORTANT]
-> We are currently facing unexpected delays in Poland in fulfilling new phone number orders and porting orders. You can continue placing orders, but please note that we expect this delay to be resolved by September, at which time all pending orders will be fulfilled.
-
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
 Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Poland.
@@ -54,6 +51,9 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Voicemail  <br/> |Available  <br/> |
    
 ## Calling Plans
+
+> [!IMPORTANT]
+> We are currently facing unexpected delays in Poland in fulfilling new phone number orders and porting orders. You can continue placing orders, but please note that we expect this delay to be resolved by September, at which time all pending orders will be fulfilled.
 
 |**Feature**|**Details**|
 |:-----|:-----|
