@@ -24,9 +24,17 @@ Retail environments, with their rotating schedules and on-the-go staff, have ver
 ![Four steps to perform as you get started with Teams in a retail environment.](../media/retail-get-started.png)
 
 1. **Choose your scenarios** - Determine where Teams can help your organization communicate and collaborate, and what processes you might want to transform with the power of the digital tools in Teams for scheduling, tracking tasks, automating tasks, and sharing information.
-1. **Identify roles and responsibilities** - Answer questions such as: who is responsible for creating teams? Who adds users? Who sets up apps or settings?
-1. **Understand user license types** - Use the appropriate license for people in your organization who work primarily from a desktop or laptop computer in an office (enterprise information workers) or primarily on mobile devices or face-to-face with customers (frontline workers).
-1. **Learn about the ways to control what's available in Teams** - Answer questions such as: what apps do you want to make available? What policies should you have in place? Should you create custom templates for your teams?
+1. **Identify roles and responsibilities** - Answer questions such as:
+    - Who is responsible for creating teams?
+    - Who adds users?
+    - Who sets up apps or settings?
+1. **Understand user license types** - Use the appropriate license for people in your organization who:
+    - Work primarily from a desktop or laptop computer in an office (enterprise information workers)
+    - Work primarily on mobile devices or face-to-face with customers (frontline workers).
+1. **Learn about the ways to control what's available in Teams** - Answer questions such as: 
+    - what apps do you want to make available?
+    - What policies should you have in place?
+    - Should you create custom templates for your teams?
 
 ## Choose the scenarios you want to support for your retail business
 
