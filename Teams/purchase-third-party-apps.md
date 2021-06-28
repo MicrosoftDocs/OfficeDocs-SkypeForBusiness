@@ -31,20 +31,21 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 
 :::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot showing third-party apps that have SaaS subscriptions":::
 
-## Search for and purchase services for a third-party app
+## Purchase apps in the Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 2. Search for the app that you want. To identify apps that have a paid SaaS subscription, look in the **Licenses** column. Each app will have one of the following values:
-    - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
+    - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
-3. When you find the app, click **Purchase now** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, click the **learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).  
-4. To buy a plan, click **Purchase now**. You'll be redirected to the purchase experience for the offer associated with the Teams app. This is where you'll complete your purchase of the service or SaaS offer.
-5. Choose the plan that you want. If the SaaS offer includes more than one plan, click **Change** to see the list of available plans.
-6. Select your billing term (either **Monthly** or **Yearly**), and then enter the number of user licenses that you want to buy.
-7. Enter your payment method.
-8. When you're ready, select **Place order**.
-9. Click **Configure now** to activate your subscription on the publisher's website.
+3. When you find the app, click **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select the **learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).  
+4. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow will open directly in the Teams admin center.
+    ![Screenshot of the purchase flow](media/purchase-flow.png)
+5. Select the number of user licenses you want to buy.
+6. Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **New**.
+7. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. The billing profile lets you add a purchase order number to identify your order later.
+8. Select **Place order**.
+9. Select **Set up** to activate your subscription on the publisher's website.
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
 
