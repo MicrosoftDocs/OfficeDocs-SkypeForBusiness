@@ -90,7 +90,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
-- Autodiscover and Exchange Web Services is published externally.
+- Autodiscover, Exchange Web Services (EWS) and REST API (for presence status) virtual directories are published externally.
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
@@ -122,7 +122,7 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft 365 Compliance Center](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
-- For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](/exchange/hybrid-deployment/deploy-hybrid).
+- For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call. Please note that presence updates are pulled each 60min for Exchange on-premises hosted mailoboxes.
 
 ## Troubleshooting
 
