@@ -29,7 +29,7 @@ Retail environments, with their rotating schedules and on-the-go staff, have ver
     - Who adds users?
     - Who sets up apps or settings?
 1. **Understand user license types** - Use the appropriate license for people in your organization who:
-    - Work primarily from a desktop or laptop computer in an office (enterprise information workers)
+    - Work primarily from a desktop or laptop computer in an office (enterprise information workers).
     - Work primarily on mobile devices or face-to-face with customers (frontline workers).
 1. **Learn about the ways to control what's available in Teams** - Answer questions such as: 
     - What apps do you want to make available?
