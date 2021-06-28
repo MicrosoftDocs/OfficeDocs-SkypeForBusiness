@@ -32,7 +32,7 @@ Retail environments, with their rotating schedules and on-the-go staff, have ver
     - Work primarily from a desktop or laptop computer in an office (enterprise information workers)
     - Work primarily on mobile devices or face-to-face with customers (frontline workers).
 1. **Learn about the ways to control what's available in Teams** - Answer questions such as: 
-    - what apps do you want to make available?
+    - What apps do you want to make available?
     - What policies should you have in place?
     - Should you create custom templates for your teams?
 
