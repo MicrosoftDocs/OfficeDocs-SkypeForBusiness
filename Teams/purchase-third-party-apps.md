@@ -42,10 +42,10 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 4. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow will open directly in the Teams admin center.
     ![Screenshot of the purchase flow](media/purchase-flow.png)
 5. Select the number of user licenses you want to buy.
-6. Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **New**.
+6. Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **Add**.
 7. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. The billing profile lets you add a purchase order number to identify your order later.
 8. Select **Place order**.
-9. Select **Set up** to activate your subscription on the publisher's website.
+9. Select **Set up** to activate your subscription on the publisher's website. If you don't set up your subscription after your purchase, you can do it later through the **Manage license** link.
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
 
@@ -54,7 +54,7 @@ After you've purchased the SaaS offer associated with the Teams app, you can vie
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab of app details page":::
 
-Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage license assignments for users.
+Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased.
 
 Global admins can view the purchases made by anyone in the organization whereas Teams service admins can only view the purchases made by themselves.  
 
