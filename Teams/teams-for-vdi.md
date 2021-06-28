@@ -372,62 +372,15 @@ To disable fallback mode, set the value to **1**. To enable audio only, set the 
 
 This feature is available in Teams version 1.3.00.13565 and later.
 
-## Known issues and limitations
-
-### Client deployment, installation, and setup
-
-- With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
-- In Citrix environments, if the user disconnects from the Virtual Machine while Teams is running, Teams updates can result in the user to be in a non-optimized state for AV when they reconnect. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario.
-- Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
-- Windows Virtual Desktop doesn't support macOS and Linux-based clients at this time.
-
-### Calling and meetings
-
-The following calling and meeting features are not supported:
-
-- Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
-- Enhanced emergency services
-- HID buttons and LED controls between the Teams app and devices
-- Background blur and effects
-- Broadcast and live event producer and presenter roles
-- Location-Based Routing (LBR)
-- PSTN call ringback tone
-- Shared system audio/computer sound
-- Media bypass for Direct Routing
-- Call park
-- Zoom control 
-
-> [!NOTE]
-> We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
-
-The following are known issues and limitations for calling and meetings:
-
-- Interoperability with Skype for Business is limited to audio calls; there is no video modality.
-- Incoming and outgoing video stream resolution is limited to 720p resolution.
-- Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
-- Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
-- Outgoing screen sharing:
-    - Application sharing is not supported.
-- Give control and take control:
-    - Not supported during a screen sharing or application sharing session.
-    - Supported during a PowerPoint sharing session.
-- Citrix-only limitations
-    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
-    - High DPI scaling on CWA is not supported.
-
-For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
-
 ## Disable audio and video settings for VDI
 
 Teams VDI policies are available in the Microsoft Teams module.
 These policies are active and enforced on non-optimized VDI environments.
 
-``` powershell
-New-CsTeamsVdiPolicy  
-Grant-CsTeamsVdiPolicy
-Remove-CsTeamsVdiPolicy
-Set-CsTeamsVdiPolicy
-```
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
 
 ### update-Module -Name MicrosoftTeams -AllowPrerelease
 
@@ -446,7 +399,7 @@ When users with this policy log into Teams on VDI, they shouldn't be able to:
 
 - Make calls.
 - Join meetings.
-- Do a screenshare from chat.
+- Do a screen share from chat.
 
 All types of calling should be disabled.
 
@@ -492,6 +445,52 @@ if($cleanup){
     # remove Policies
     Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
 }
+
+## Known issues and limitations
+
+### Client deployment, installation, and setup
+
+- With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
+- In Citrix environments, if the user disconnects from the Virtual Machine while Teams is running, Teams updates can result in the user to be in a non-optimized state for AV when they reconnect. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario.
+- Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
+- Windows Virtual Desktop doesn't support macOS and Linux-based clients at this time.
+
+### Calling and meetings
+
+The following calling and meeting features are not supported:
+
+- Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
+- Enhanced emergency services
+- HID buttons and LED controls between the Teams app and devices
+- Background blur and effects
+- Broadcast and live event producer and presenter roles
+- Location-Based Routing (LBR)
+- PSTN call ringback tone
+- Shared system audio/computer sound
+- Media bypass for Direct Routing
+- Call park
+- Zoom control 
+
+> [!NOTE]
+> We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
+
+The following are known issues and limitations for calling and meetings:
+
+- Interoperability with Skype for Business is limited to audio calls; there is no video modality.
+- Incoming and outgoing video stream resolution is limited to 720p resolution.
+- Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
+- Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
+- Outgoing screen sharing:
+    - Application sharing is not supported.
+- Give control and take control:
+    - Not supported during a screen sharing or application sharing session.
+    - Supported during a PowerPoint sharing session.
+- Citrix-only limitations
+    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
+    - High DPI scaling on CWA is not supported.
+
+For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
+
 ## Troubleshooting
 
 ### Troubleshoot Citrix components
