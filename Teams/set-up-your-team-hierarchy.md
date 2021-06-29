@@ -21,6 +21,9 @@ appliesto:
 
 Setting up a team targeting hierarchy will allow your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to. Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you'll need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it.
 
+> [!NOTE]
+> Government Community Cloud (GCC) customers must use [cmdlet preview version 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) or later to ensure data is routed to the GCC environment, rather than the public cloud environment.
+
 > [!IMPORTANT]
 > For the initial release, only the Tasks app supports hierarchical teams.  Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
 
