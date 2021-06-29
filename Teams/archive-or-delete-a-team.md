@@ -111,4 +111,4 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
     
 ## Related topics
 
-- [Archive or restore a team](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) (client version from Office support)
+- [Archive or restore a team](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 
