@@ -29,6 +29,9 @@ description: "When you get phone numbers or port (transfer) numbers for your org
 
 To contact the PSTN Service Desk team, send email to the appropriate alias listed in the following table.
 
+> [!NOTE]
+> Coming soon, there will be a new process to interact with the PSTN service desk. At that time, the current email system will be retired. The new process will allow you to open tickets, track your communication and view your company tickets all in a single place by using the Teams Admin Center. More updates will follow over the coming weeks.
+
 | **I want to transfer/port existing numbers**  | **I want to order new numbers for** |
 |:-----:|:------:|
 | [**Inside the United States or Canada**, email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
