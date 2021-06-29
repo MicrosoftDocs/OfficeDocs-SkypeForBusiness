@@ -91,7 +91,7 @@ Teams is great for breaking down organizational silos and promoting cross-functi
 |Technical Operations    |Incident Management<br></br>Sprint Planning<br></br>Work Items<br></br>Infrastructure and Operations         |Team Services<br></br>Jira<br></br>AzureBot         |
 |Product Team	   |Strategy<br></br>Marketing<br></br>Sales<br></br>Operations<br></br>Insights<br></br>Services & Support         |Power BI<br></br>Team Services         |
 |Finance    |Current Fiscal<br></br>FY Planning<br></br>Forecasting<br></br>Accounts Receivable<br></br>Accounts Payable         |Power BI<br></br>Google Analytics         |
-|Logistics     |Warehouse Operations<br></br>Vehicle Maintenance<br></br>Driver Rosters         |Weather Service<br></br>Travel / Road Disruptions<br></br>Planner<br></br>Tubot<br></br>UPS Bot         |
+|Logistics     |Warehouse Operations<br></br>Vehicle Maintenance<br></br>Driver Rosters         |Weather Service<br></br>Travel / Road Disruptions<br></br>Planner<br></br>UPS Bot         |
 |HR     |Talent Management<br></br>Recruiting<br></br>Performance Review Planning<br></br>Morale         |HR Tools<br></br>External Job Posting Sites<br></br>Growbot         |
 |Cross-organizational <br></br>Virtual Team |Strategy<br></br>Workforce Development<br></br>Compete & Research         |Power BI<br></br>Microsoft Stream         |
 
