@@ -430,8 +430,6 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-Use the VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true
-
 When users with the VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true sign in to Teams on VDI, they should be able to:
 
 - Do a screen share from chat.
