@@ -1,7 +1,7 @@
 ---
 title: "Services for Skype for Business"
-ms.author: dmaguire
-author: msdmaguire
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
