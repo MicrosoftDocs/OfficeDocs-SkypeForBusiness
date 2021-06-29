@@ -116,6 +116,7 @@ In a non-persistent setup, users' local operating system changes are not retaine
 For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session.
 
 Using Teams in a non-persistent setup also requires a profile-caching manager, for efficient Teams runtime data synchronization. Efficient data synchronization ensures that the appropriate user-specific information (such as a user's data, profile, or settings) is cached during the user's session. Make sure data in these two folders are synched:<br>
+
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
@@ -181,6 +182,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         This process adds a required registry key to the machine that lets the Teams installer know it is a VDI instance.  Without it, the installer will error out, stating: "Installation has failed.  Cannot install for all users when a VDI environment is not detected."
 
         ```console
@@ -251,7 +253,7 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. 
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams.
 
 ### Set policies to turn off calling and meeting functionality
 
@@ -268,8 +270,8 @@ To assign the DisallowCalling calling policy and the AllOff meeting policy to a 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Do the following:
-    1.  Under **Calling policy**, click **DisallowCalling**.
-    2.  Under **Meeting policy**, click **AllOff**.
+    1. Under **Calling policy**, click **DisallowCalling**.
+    2. Under **Meeting policy**, click **AllOff**.
 4. Click **Apply**.
 
 To assign a policy to multiple users at a time:
@@ -313,7 +315,7 @@ If you have an existing implementation of Teams on VDI with chat and collaborati
 
 You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users. It can take some time (a few hours) for policy changes to propagate. If you don't see changes for a given account immediately, try again after a few hours.
 
-[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. 
+[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users.
 
 [**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.
 
@@ -324,8 +326,8 @@ To assign the AllowCalling calling policy and the AllOn meeting policy to a user
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Do the following:
-    1.  Under **Calling policy**, click **AllowCalling**.
-    2.  Under **Meeting policy**, click **AllOn**.
+    1. Under **Calling policy**, click **AllowCalling**.
+    2. Under **Meeting policy**, click **AllOn**.
 4. Click **Apply**.
 
 To assign a policy to multiple users at a time:
@@ -374,16 +376,18 @@ This feature is available in Teams version 1.3.00.13565 and later.
 
 ## Disable audio and video settings for VDI
 
-Teams VDI policies are available in the Microsoft Teams module.
-These policies are active and enforced on non-optimized VDI environments.
+Teams VDI policies are available in the Microsoft Teams module. These policies are active and enforced on non-optimized VDI environments.
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
 - Remove-CsTeamsVdiPolicy
 - Set-CsTeamsVdiPolicy
 
-### update-Module -Name MicrosoftTeams -AllowPrerelease
+### Update a module name
 
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
 <# Import and connect to online (CSOnline runs the policies) #>
 Import-Module microsoftTeams
 if( -not $sess){
@@ -393,9 +397,11 @@ if( -not $sess){
 <# Check out the commands #>
 Get-Command -Noun *VDI*
 <#
-### VDI Policysetting -DisableCallsAndMeetings $true
+```
 
-When users with this policy log into Teams on VDI, they shouldn't be able to:
+### Set policies to limit chat features
+
+When users with this VDI Policysetting -DisableCallsAndMeetings $true policy to sign in to Teams on VDI, they shouldn't be able to:
 
 - Make calls.
 - Join meetings.
@@ -403,8 +409,10 @@ When users with this policy log into Teams on VDI, they shouldn't be able to:
 
 All types of calling should be disabled.
 
- This is only for non-optimized environments.
+> [!NOTE]
+> This is only for non-optimized environments.
 
+```PowerShell
 #>
 New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
 <# Assign Policy #>
@@ -417,18 +425,22 @@ Show all Policies
 #>
 Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
+```
 
-### VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true
+### Use the VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true
 
-When users sign in to Teams, they should be able to:
+When using the -DisableAudioVideoInCallsAndMeetings $true, users should be able to:
 
  - Do a screen share from chat.
  - Join a meeting and share a screen.
  - Move their audio to a phone.
 
-Users should *not* be able to do a person-to-person audio and video call from VDI.
+Users shouldn't be able to do a person-to-person audio and video call from VDI.
 
-This is only for non-optimized environments.
+> [!NOTE]
+> This is only for non-optimized environments.
+
+```powershell
 #>
 $PolName = "DisableCallsAndMeetingsAV"
 New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
@@ -445,6 +457,7 @@ if($cleanup){
     # remove Policies
     Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
 }
+```
 
 ## Known issues and limitations
 
@@ -469,7 +482,7 @@ The following calling and meeting features are not supported:
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
 - Call park
-- Zoom control 
+- Zoom control
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
