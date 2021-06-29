@@ -95,15 +95,15 @@ Integrate incompatible phone devices fully into Lync. They then act like any oth
 * * *
 Synchronize presence information from Lync to SAP BCM Contact Center. Give customer service and switchboard agents better employee presence information for greater efficiency and reachability.
 
-## [Groupo Unika Coolab](http://www.grupounika.com.mx/coolab)
+## [Groupo Unika Coolab](https://www.c3ntro.com/)
 * * *
 Automate business processes with a plug-in interface for workflow controls, documents review, workflow rendering; all of those features with the same experience as sending instant messages.
 
-## [HotelMagix Lync Edition](http://www.ipmagix.com/products-detais.php?id=376)
+## [HotelMagix Lync Edition](http://www.ipmagix.com/)
 * * *
 Offer guest access to hotel services and information anytime, anywhere, wakeup call, DND, valet, and other requests with one-click from an IP phone or mobile.
 
-## [Insource Technology Virtual Receptionist](http://www.insource.com/solutions/unified-communications/insource-virtual-assistant)
+## [Insource Technology Virtual Receptionist](http://www.insource.com/)
 * * *
 Allow visitors to serve themselves with a touch-screen in a lobby or entrance. Selecting the appropriate option places a call to the desired person.
 

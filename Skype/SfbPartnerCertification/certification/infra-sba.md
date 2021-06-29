@@ -50,7 +50,7 @@ The survivable branch appliances (SBAs) along with the relevant firmware shown i
 		</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="2"> <a href="http://www.nuera.com/microsoft-uc.htm">Nuera</a></td>
+		<td rowspan="2"> <a href="https://www.nuera.com/">Nuera</a></td>
 		<td valign="top">GX-800 SBA</td>
 		<td valign="top">
 			<p>SBA/OS Version: 6.3.9600</p>

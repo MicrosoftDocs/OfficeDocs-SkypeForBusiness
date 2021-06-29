@@ -202,8 +202,7 @@ Please contact the listed partner for more information on these products.
 		<td>HP 2610, 2910al, 3500yl, 5400zl, 8200zl</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.juniper.net/us/en/dm/microsoft-lync/">Juniper Networks</a></td>
+		<td><a href="http://www.juniper.net/">Juniper Networks</a></td>
 		<td>Juniper 10.2R2.11</td>
 	</tr>
 </table>
-
