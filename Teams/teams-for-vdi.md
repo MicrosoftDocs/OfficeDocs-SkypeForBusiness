@@ -1,7 +1,7 @@
 ---
 title: Teams for Virtualized Desktop Infrastructure
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -404,7 +404,7 @@ Get-Command -Noun *VDI*
 
 ### Set policies to limit calling features
 
-When users with this VDI Policysetting -DisableCallsAndMeetings $true policy to sign in to Teams on VDI, they shouldn't be able to:
+When users with this VDI Policy setting -DisableCallsAndMeetings $true to sign in to Teams on VDI, they shouldn't be able to:
 
 - Make calls.
 - Join meetings.
@@ -432,11 +432,11 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 
 Use the VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true
 
-When using the -DisableAudioVideoInCallsAndMeetings $true, users should be able to:
+When users with the VDI Policysetting -DisableAudioVideoInCallsAndMeetings $true sign in to Teams on VDI, they should be able to:
 
- - Do a screen share from chat.
- - Join a meeting and share a screen. Move their audio to a phone.
- - Users shouldn't be able to do a person-to-person audio and video call from VDI.
+- Do a screen share from chat.
+- Join a meeting and share a screen. Move their audio to a phone.
+- Users shouldn't be able to do a person-to-person audio and video call from VDI.
 
 > [!NOTE]
 > This is only for non-optimized environments.
