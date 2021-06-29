@@ -79,7 +79,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - If you have an on-premises Exchange server, set up Cloud Voicemail using the steps in [Set up Cloud Voicemail for Exchange Server Mailbox Users](/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users).
 
-- If the user has a mailbox on Exchange Online, an Exchange Online Plan 2 is required. 
+- If the user has a mailbox in Exchange Online, an Exchange Online Plan 2 is required. 
 
 ## Migration and interoperability
 
