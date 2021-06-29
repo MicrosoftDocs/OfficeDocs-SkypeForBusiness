@@ -383,6 +383,9 @@ Teams VDI policies are available in the Microsoft Teams module. These policies a
 - Remove-CsTeamsVdiPolicy
 - Set-CsTeamsVdiPolicy
 
+> [!NOTE]
+> This is only for non-optimized environments.
+
 ### Update a module name
 
 update-Module -Name MicrosoftTeams -AllowPrerelease
@@ -399,7 +402,7 @@ Get-Command -Noun *VDI*
 <#
 ```
 
-### Set policies to limit chat features
+### Set policies to limit calling features
 
 When users with this VDI Policysetting -DisableCallsAndMeetings $true policy to sign in to Teams on VDI, they shouldn't be able to:
 
@@ -427,15 +430,13 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-### Use the VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true
+Use the VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true
 
 When using the -DisableAudioVideoInCallsAndMeetings $true, users should be able to:
 
  - Do a screen share from chat.
- - Join a meeting and share a screen.
- - Move their audio to a phone.
-
-Users shouldn't be able to do a person-to-person audio and video call from VDI.
+ - Join a meeting and share a screen. Move their audio to a phone.
+ - Users shouldn't be able to do a person-to-person audio and video call from VDI.
 
 > [!NOTE]
 > This is only for non-optimized environments.
