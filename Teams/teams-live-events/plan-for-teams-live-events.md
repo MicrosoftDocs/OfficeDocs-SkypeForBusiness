@@ -43,6 +43,8 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 - A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](/stream/license-overview).
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
+  
+  In order to schedule an event from Teams client user interface, the organizer must have proper access to Calendar App - Access to calendar from Teams is only available for users hosted on a mailbox configured on [Exchange Hybrid](https://docs.microsoft.com/en-us/exchange/hybrid-deployment/deploy-hybrid) or Exchange Online.
 
 >[!Note]
 > The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
@@ -52,7 +54,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 
 It's important to know that a Microsoft 365 or Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
-- **For events produced in Teams**  The user must be assigned a Teams license.
+- **For events produced in Teams**  The user must be assigned a Teams license. 
 - **For events produced with an external app or device** The user must be assigned a Stream license.
 
 > [!NOTE]
