@@ -49,7 +49,7 @@ Depending on the subscriptions your organization currently has, there are three 
 
 - **Buy a new Microsoft 365 subscription.** Use this option if your organization doesn’t have any existing subscriptions to Office products, or if your organization wants to buy a subscription that’s different from their existing subscription to cover Teams Exploratory users.  For more information, see <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Buy a different Microsoft 365 for business subscription</a>.
 
-If you’re not sure which Microsoft 365 subscription to upgrade to, see <a href="https://www.microsoft.com/microsoft-365/business#coreui-heading-hiatrep" target="_blank">Microsoft 365 for Business</a>. If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">Microsoft partner</a> or Microsoft account representative.
+If you’re not sure which Microsoft 365 subscription to upgrade to, see <a href="https://www.microsoft.com/microsoft-365/business#coreui-heading-hiatrep" target="_blank">Microsoft 365 for Business</a>. If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your <a href="https://www.microsoft.com/solution-providers/home" target="_blank">Microsoft partner</a> or Microsoft account representative.
 
 ## Step 3: Assign paid licenses
 
