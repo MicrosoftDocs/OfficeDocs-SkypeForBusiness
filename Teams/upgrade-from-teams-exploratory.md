@@ -1,5 +1,5 @@
 ---
-title: Upgrade from Teams Exploratory trial
+title: Upgrade from the Teams Exploratory trial
 author: cazawideh
 ms.author: czawideh
 manager: serdars
