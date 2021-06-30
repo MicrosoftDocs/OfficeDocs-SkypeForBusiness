@@ -79,7 +79,7 @@ At the time, of the initial release for Microsoft 365 Enterprise users in the US
 
 ## User control
 
-Individual users can try out Cortana voice assistance in different devices:
+Individual users can try Cortana voice assistance in different devices:
 
 - Select the microphone button in the Teams mobile app.
 
