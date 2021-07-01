@@ -65,16 +65,16 @@ Now that you know what scenarios you want to implement, you need to gather your 
 
 In retail environments, you most likely have a mix of user types in your organization:
 
-- Information workers, who probably have desktop or laptop computers, and likely work more on documents than directly with customers, such as corporate staff and managers.
-- Frontline workers, who work on tablets or phones, and work either directly with customers or in store operations, such as sales associates, stockers, and pickers.
+- Information workers, who probably have desktop or laptop computers, and likely work more on documents than directly with customers, such as headquarters staff.
+- Frontline workers, who work on tablets or phones, and work either directly with customers or in store operations, such as store managers, sales associates, stockers, and pickers.
 
-Microsoft 365 and Microsoft Teams have features and a licensing model to support both types of users for your Retail organization. [Microsoft 365 for Frontline Workers](https://www.microsoft.com/microsoft-365/enterprise/frontline) is optimized for a mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization. 
+Microsoft 365 and Microsoft Teams have features and a licensing model to support both types of users for your Retail organization. [Microsoft 365 for Frontline Workers](https://www.microsoft.com/microsoft-365/enterprise/frontline) is optimized for a mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization.
 
 ### Assign appropriate licenses to support frontline worker and information worker user types
 
 If it makes sense for your organization, you can assign different licenses to these different types of users. The following illustration shows one way to apply licenses and policies for Retail workers:
 
-:::image type="content" source="../media/retail-license-options.png" alt-text="Mix license types to support the different roles in your organization. Use Enterprise licenses for your information workers, such as corporate staff and managers, and Frontline Worker licenses for mobile workers, such as sales associates, shipping staff, stockers, and pickers.":::
+:::image type="content" source="../media/retail-license-options.png" alt-text="Mix license types to support the different roles in your organization. Use Enterprise licenses for your information workers, such as headquarters staff, and Frontline Worker licenses for mobile workers, such as store managers, sales associates, shipping staff, stockers, and pickers.":::
 
 With this example, you can mix license types for the two types of workers in your organization, like in the following table:
 
