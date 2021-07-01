@@ -1,8 +1,8 @@
 ---
 title: "Plan your conferencing topology for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -71,7 +71,7 @@ Web conferencing requires the following:
 - Integration with Office Web Apps Server/Office Online Server, which is necessary in order to share PowerPoint files during a conference.
     
 > [!NOTE]
-> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Skype for Business Server. For more detail, refer to the [Office Online Server documentation](https://technet.microsoft.com/library/jj219456%28v=office.16%29.aspx). 
+> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Skype for Business Server. For more detail, refer to the [Office Online Server documentation](/officeonlineserver/office-online-server). 
   
 Skype for Business Server provides the following ways to configure Office Web Apps Server/Office Online Server. Depending on your needs you can:
   
@@ -115,5 +115,3 @@ Additional notes about the topology include:
 - Load balancing of the Front End Servers requires hardware load balancing for the HTTP traffic (such as meeting content download). DNS load balancing is recommended for SIP traffic. For details see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
 - If you want to use Monitoring Server for the dedicated large-meeting pool, we recommend using the Monitoring Server and its database that are shared across all of the Front End Server pools in your Skype for Business Server deployment. For more information, see [Plan for monitoring in Skype for Business Server](../../plan-your-deployment/monitoring.md).
-    
-

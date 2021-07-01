@@ -36,7 +36,7 @@ An incoming call to a Cloud auto attendant can take one of several paths, as sho
 Also see:
 
 - [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant)
-- [Automatically answer and route incoming calls](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+- [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## Requirements
 
@@ -52,7 +52,7 @@ In addition to the requirements above, the below requirements must be configured
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
-- If you're assigning a phone number to to your auto attendant, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license.
+- If you're assigning a phone number to to your auto attendant, you will need an [Office 365 Enterprise E5](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md) license.
 - Create an online [resource account](/MicrosoftTeams/manage-resource-accounts.md) or on-premises [resource account](configure-onprem-ra.md) for each auto attendant, and assign phone numbers and licenses. 
 
 ## Migration and interoperability
@@ -77,7 +77,7 @@ For more information about planning your migration, see [Plan for Skype for Busi
 
 Currently we don't support automated migration to the Cloud of a UM auto attendant system created in Exchange 2013 or 2016. To manually re-create an auto attendant system, you'll need to:
 
-1. Use Exchange admin powershell commands to review the structure of the old auto attendant system, including any nested auto attendants and call queues.  
+1. Use Exchange admin PowerShell commands to review the structure of the old auto attendant system, including any nested auto attendants and call queues.  
 2. Create copies of text-to-speech scripts or recorded messages associated with each UM auto attendant node.
 3. Create on premise endpoints for each auto attendant node, including assigning a test phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System.
 4. Implement a new Cloud auto attendant service with Microsoft Teams and Phone System. See [Configure resource accounts](configure-onprem-ra.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM auto attendant node.
@@ -85,10 +85,6 @@ Currently we don't support automated migration to the Cloud of a UM auto attenda
 6. Reassign the phone number assigned to the old Exchange UM auto attendant to the newly created main Cloud auto attendant.
 
 See [Moving an Exchange UM auto attendant or call queue to Phone System](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system) for details on these steps.
-
-## Additional planning resources
-
-The tutorial titled [Small business example - Set up an auto attendant](/microsoftteams/tutorial-org-aa) goes through the process of gathering information about user needs, planning a structure of auto attendants and users (and possibly call queues), writing the menu prompts, and implementing the plan in the Teams admin center. Review the tutorial and use the exercises there to create your plan.
 
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure resource accounts](configure-onprem-ra.md).
 
@@ -101,13 +97,13 @@ When you have a solid structure that meets your needs and a script that guides c
 
 [Configure resource accounts](configure-onprem-ra.md)
 
-[Enable custom prompt recording using the telephone user interface](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
+[Enable custom prompt recording using the telephone user interface](/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
 [What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant)
 
-Exchange UM: [Automatically answer and route incoming calls](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
+Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md)
 

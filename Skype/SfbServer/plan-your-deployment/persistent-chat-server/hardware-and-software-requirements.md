@@ -1,8 +1,8 @@
 ---
 title: "Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
@@ -64,11 +64,11 @@ On the database server, be sure that one of the following software applications 
 
 - Microsoft SQL Server 2017 with the latest service pack.
 
-- Microsoft SQL Server 2016 with Service Pack 1, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2016 with Service Pack 1, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
-- Microsoft SQL Server 2014, and you must run with Skype for Business Server Cumulative Update 6 or later releases. We recommended running SQL Server 2014 with the latest service pack. For details about how to install Microsoft SQL Server 2014, see [Install SQL Server 2014](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
+- Microsoft SQL Server 2014, and you must run with Skype for Business Server Cumulative Update 6 or later releases. We recommended running SQL Server 2014 with the latest service pack. For details about how to install Microsoft SQL Server 2014, see [Install SQL Server 2014](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
-- Microsoft SQL Server 2012 (64-bit edition), and we recommended running with the latest service pack. For details about how to install Microsoft SQL Server 2012, see [Install SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
+- Microsoft SQL Server 2012 (64-bit edition), and we recommended running with the latest service pack. For details about how to install Microsoft SQL Server 2012, see [Install SQL Server 2012](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110)).
 
 ## Persistent Chat Server certificate requirements
 
@@ -81,5 +81,3 @@ For more information about hardware and software requirements, see the following
 - [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
 - [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
-    
-

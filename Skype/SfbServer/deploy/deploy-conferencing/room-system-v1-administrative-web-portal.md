@@ -1,8 +1,8 @@
 ---
 title: "Deploy SRS v1 Administrative Web Portal in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -127,7 +127,7 @@ To verify installation of the SRS v1 Administrative Web Portal, do the following
 
     https://\<fe-server\>/lrs
 
-    To access the page, you will need to add the DNS records as described in "[Required DNS Records for Automatic Client Sign-In](https://go.microsoft.com/fwlink/p/?LinkId=318056)."
+    To access the page, you will need to add the DNS records as described in "[Required DNS Records for Automatic Client Sign-In](/previous-versions/office/communications-server/bb663700(v=office.12))."
 
 ## Use the SRS Administrative Web Portal
 <a name="Use_Portal"> </a>
@@ -244,5 +244,3 @@ Make sure that the LRSApp user account is SIP-enabled, and is part of the LRSPow
 #### Does the SRS v1 administrative web portal work with Microsoft Teams Rooms?
 
 No.
-
-

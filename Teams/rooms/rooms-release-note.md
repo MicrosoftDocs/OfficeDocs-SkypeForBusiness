@@ -1,7 +1,7 @@
 ---
-title: "Release notes"
-ms.author: v-lanac
-author: lanachin
+title: Release notes for Microsoft Teams Rooms
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,7 +16,7 @@ description: Admin can read the release notes for Microsoft Teams Rooms, which l
 ms.custom: seo-marvel-apr2020
 ---
 
-# Release notes
+# Release notes for Microsoft Teams Rooms
 
 This article discusses cumulative improvements in Microsoft Teams Rooms.
 
@@ -24,6 +24,11 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.8.31.0 |05/12/2021 |
+|4.8.25.0 |04/22/2021 |
+|4.8.19.0 |04/06/2021 |
+|4.7.19.0 |02/03/2021 |
+|4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
@@ -64,27 +69,72 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.8.31.0 (05/12/2021)
+
+Introduced in this update:
+- Windows 10 20H2 support 
+
+> [!NOTE]
+> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
+
+### 4.8.25.0 (04/22/2021)
+
+Introduced in this update:
+- Fix for an issue where room information on Teams Rooms consoles doesn't show up for room accounts that are hidden from the global address list (GAL)
+
+> [!NOTE]
+> GCCH customers can download the upgrade package from [Manually update a Microsoft Teams Rooms device](manual-update.md)
+
+### 4.8.19.0 (04/06/2021)
+
+Introduced in this update:
+- Government Community Cloud High (GCCH) support for Teams Rooms. GCCH customers with existing Teams Rooms devices can download version 4.8.19.0 from [Manually update a Microsoft Teams Rooms device](manual-update.md)
+- Join Zoom meetings with better video quality (720p support) and receive the video gallery of participants
+- Skype for Business sign-in failure banner removed for Teams default mode. This change supports organizations removing Skype for Business infrastructure
+- Teams meetings join link parsing now handles Microsoft Defender Advanced Thread Protection Safe Links to allow joining external Teams seamlessly
+- Fix for shared content scaling issue in Skype for Business meetings when the sharer's PC has a custom DPI set in Windows
+- Quality and reliability fixes
+
+### 4.7.19.0 (02/03/2021)
+
+Introduced in this update:
+- Quality and reliability fixes
+
+### 4.7.15.0 (12/11/2020)
+
+Introduced in this update:
+
+- Share HDMI audio to meeting participants in Teams meeting
+- Cortana voice skills (Preview)
+- Prevent unmuting based on audio permissions when Teams Room joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
+
+> [!NOTE]
+> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)
+
 ### 4.6.23.0 (10/19/2020)
 
 Introduced in this update:
+
 - Fix for white half-screen when invoking On-screen keyboard in Teams meeting
 
 ### 4.6.20.0 (09/30/2020)
 
 Introduced in this update:
+
 - See more videos with 3x3 video gallery on front of room displays  
-- Start local live closed captions from MTR 
+- Start local live closed captions from MTR
 - Join Zoom meetings from Teams Rooms with direct guest join (Preview)
 
 > [!NOTE]
-> 3x3 video gallery and local live closed captions are delivered through Microsoft Teams service. These features are available to all Teams Rooms with application version 4.5.37.0 and above. 
-
+> 3x3 video gallery and local live closed captions are delivered through the Microsoft Teams service. These features are available to all Teams Rooms devices with application version 4.5.37.0 and above.
 
 ### 4.5.37.0 (08/14/2020)
 
 Introduced in this update:
-- Coordinated Meetings between Microsoft Teams and Surface Hub 2S 
-- Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) is installed
+
+- Coordinated Meetings between Microsoft Teams and Surface Hub 2S
+- Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) is installed
 
 ### 4.5.35.0 (07/23/2020)
 
@@ -99,7 +149,7 @@ Introduced in this update:
 - Search and call federated users (tenant) from Teams Room
 
 > [!IMPORTANT]
-> Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803. For more information about Windows version support, see [Windows 10 release support](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support).
+> Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
 
 ### 4.4.63.0 (06/25/2020)
 
@@ -131,7 +181,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Policy updates for "Windows Updates for Business" 
+- Policy updates for "Windows Updates for Business"
 - Fix for device events reporting showing error in Azure Monitor
 
 ### 4.3.33.0 (1/10/2020)
@@ -178,7 +228,7 @@ Introduced in this update:
 - Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements
 - Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup>
 - Call quality feedback rating after Teams calls/ meetings<sup>1</sup>
-- Recieve/ render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup>
+- Receive/render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup>
 - Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client. Windows 10 Version 19H1 support will be added in future releases
 
 <sup>1</sup> Microsoft Teams service rollout using Teams rings. This feature may be available earlier or later than 4.0.105.0 client update
@@ -189,15 +239,14 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Fixes an issue with the "give feedback" feature 
+- Fixes an issue with the "give feedback" feature
 - Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809
 
 ### 4.0.78.0 (03/14/2019)
 
 Introduced in this update:
 
-- Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build. 
-
+- Fix for "hang at app start-up" bug that affected devices on legacy Windows 10 RS2 build.
 
 ### 4.0.76.0 (03/04/2019)
 
@@ -208,7 +257,6 @@ Introduced in this update:
 - Improvements to Lobby notifications with addition of Front of Room notification
 - Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device
 - Fix for volume control issue in Teams meetings
-
 
 ### 4.0.64.0 (12/14/2018)
 
@@ -222,7 +270,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Dual display (Front of Room) support for Teams Meetings 
+- Dual display (Front of Room) support for Teams Meetings
 
 ### 4.0.31.0 (10/16/2018)
 
@@ -236,7 +284,7 @@ Introduced in this update:
 
 - Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade
 - Fix formatting issue with localized EULAs (specifically Norwegian) which prevents advancing beyond EULA OOBE setup window
-- Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
+- Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems. See more [here](./lrs-migration.md).
 
 ### 4.0.19.0 (8/31/2018)
 
@@ -257,6 +305,7 @@ Introduced in this update:
 ### 4.0.8.0 (07/06/2018)
 
 Introduced in this update:
+
 - This update enables both Skype for Business *and* Teams meetings support on Room Systems devices. Teams is turned off by default once the update is applied. Admins can enable Teams locally in device settings or via a remote xml push.
 
 ### 3.1.115.0 (06/18/2018)
@@ -288,7 +337,7 @@ Introduced in this update:
 
 ### 3.1.100.0 (03/16/2018)
 
-Introduced in this update: 
+Introduced in this update:
 
 - Application updated to improve telemetry
 
@@ -305,12 +354,8 @@ Introduced in this update:
 
 - Bug/Crash fixes to improve stability
 - Support for variable-sized console
-- Peripheral audio processing offloading (additional media whitelisting)
-- Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later. 
-
-<!--### 3.1.97.0 (00/00/0000)
-Introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
+- Peripheral audio processing offloading (additional media allowlist)
+- Optimizations that enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.
 
 ### 3.0.16.0 (11/27/2017)
 
@@ -330,7 +375,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Runs on a Surface Pro (2017) tablet 
+- Runs on a Surface Pro (2017) tablet
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)
 - Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware
 - OEM Support for Environment Controls (Crestron)
@@ -353,7 +398,6 @@ Introduced in this update:
 - Improved Telemetry around meeting join reliability
 - Improved OMS reporting
 - Ability for IT Admin to configure devices remotely
- <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
 ### 2.0.2.0 (03/15/2017)
 
@@ -375,7 +419,7 @@ Introduced in this update:
 - Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room
 
  **Transform Any Meeting Room**
- 
+
 - Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display
 - Reuse existing investments in your front of room display or projectors
 - Works in all types of meeting spaces from huddle spaces to large conference rooms
@@ -383,7 +427,7 @@ Introduced in this update:
 - Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
 
  **Easy to Deploy, Simple to Manage**
- 
+
 - Always-on appliance that automatically wakes up the displays when it detects people in the room
 - Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App
 - Windows AppLocker locks down the device to the Skype Meeting app
@@ -392,7 +436,7 @@ Introduced in this update:
 - Low training effort of end-users due to familiar Skype user interface
 - Runs on Surface Pro 4 tablet
 
-<a name="See"> </a> 
+<a name="See"> </a>
 ## See also
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

@@ -1,7 +1,7 @@
 ---
 title: "Manage Windows Updates for Microsoft Teams Rooms"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
@@ -28,13 +28,13 @@ Windows Updates can be managed in a few different ways:
 - Quality Updates and drivers will download and install day-one automatically. 
 - Feature Updates. See additional notes below. 
 
-## [Windows Updates for Business](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO or Intune)   
+## [Windows Updates for Business](/windows/deployment/update/waas-manage-updates-wufb) (GPO or Intune)   
 - Updates are downloaded from WU or your WSUS but with configured delays past the KB’s original release date. 
 - Combined with multiple OU’s or filtered policies, this allows for the creation of deployment “rings”, where administrators can specify which devices install Quality Updates first and which ones will install later. This allows for reliability and performance testing on a subset of systems before rolling out updates across the entire deployment without the overhead of managing Windows Updates in Microsoft Endpoint Configuration Manager for example.
-- WSUS and Windows Updates for Business can be [configured at the same time](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) if you desire both bandwidth management and the control Windows Updates for Business provides.
+- WSUS and Windows Updates for Business can be [configured at the same time](/windows/deployment/update/waas-integrate-wufb) if you desire both bandwidth management and the control Windows Updates for Business provides.
 - Feature updates. See additional notes below.
 
-## [WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+## [WSUS/Configuration Manager](/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Much like Windows Update for Business, but with the additional option of targeting specific KB's within each "ring" or the entire deployment. Each Update can be individually deployed and tested at will, rather than relying on only a delay. 
 - Feature updates. See additional notes below.
 

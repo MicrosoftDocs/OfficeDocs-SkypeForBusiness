@@ -105,7 +105,7 @@ Use the following table to capture information about your existing collaboration
 > | Do you have any other third-party platforms deployed <br/>and in use today? If so, note the number of users of <br/>these platforms and the usage details in the <br/>Comments column. | <input type="checkbox"> Cisco WebEx <br/> <input type="checkbox"> Slack <br/> <input type="checkbox"> Other (Specify in the <br/>&nbsp; &nbsp; &nbsp;Comments column.) | Number of users: <br/>Details:|
 > | Are you planning to move users from these third-party <br/>platforms to Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | What is the current telephony and conferencing solution <br/>of the users who are in scope for this initiative? | | |
-> | Do you have [SBC's that support Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) deployed <br/>for your offices that are in scope for this initiative? If Yes,<br/>note the details in the Comments column.| <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
+> | Do you have [SBC's that support Direct Routing](./direct-routing-plan.md#supported-session-border-controllers-sbcs) deployed <br/>for your offices that are in scope for this initiative? If Yes,<br/>note the details in the Comments column.| <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 
 Collaboration platform deployment details
 ---

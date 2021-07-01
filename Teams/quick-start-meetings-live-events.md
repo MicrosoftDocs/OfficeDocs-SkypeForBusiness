@@ -11,9 +11,11 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.collection: 
-  - M365-collaboration
-  - remotework
-  - m365initiative-meetings
+- M365-collaboration
+- remotework
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
@@ -28,9 +30,9 @@ There are 2 ways to meet in Microsoft Teams - meetings and live events. Use this
 > [!Note]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
- - **Meetings** in Teams include audio, video, and screen sharing for up to 300 people. They're one of the key ways to collaborate in Teams. And you don't need to be a member of an organization (or even have a Teams account!) to join a Teams meeting—just look in the invitation for instructions about calling in.
+ - **Meetings** in Teams include audio, video, and screen sharing for up to 1000 people. They're one of the key ways to collaborate in Teams. And you don't need to be a member of an organization (or even have a Teams account!) to join a Teams meeting—just look in the invitation for instructions about calling in.
 
- - **Live events** are an extension of Teams meetings that enable you to schedule and produce events that stream to large online audiences - up to 10,000 people. If you need a meeting for more than 300 people, use a live event.
+ - **Live events** are an extension of Teams meetings that enable you to schedule and produce events that stream to large online audiences - up to 10,000 people. If you need a meeting for more than 1000 people, use a live event.
 
 ## Get licenses for meetings and live events
 
@@ -44,7 +46,7 @@ For the people who will organize, schedule, and host meetings or live events, th
 >
 > <sup>2</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 or [Audio Conference add-in license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). A [dial plan](what-are-dial-plans.md) may also be needed.
 
-To learn more about licensing, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+To learn more about licensing, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 ## Make sure your network's ready
 
@@ -60,7 +62,7 @@ If you already prepared your network when you rolled out Microsoft 365 or Office
 
 - To learn about managing meeting options, read [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
-- Don't forget about [managing your users' devices](device-management.md) - phones, headsets, cameras. To get the latest and up-to-date information on Teams certified devices, go to [Teams devices](https://office.com/teamsdevices).
+- Don't forget about [managing your users' devices](./devices/device-management.md) - phones, headsets, cameras. To get the latest and up-to-date information on Teams certified devices, go to [Teams devices](https://office.com/teamsdevices).
 
 ## Live events
 

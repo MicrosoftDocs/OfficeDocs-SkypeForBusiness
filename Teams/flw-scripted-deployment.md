@@ -1,5 +1,5 @@
 ---
-title: Provisioning Microsoft Teams at scale for Firstline Workers
+title: Provisioning Microsoft Teams at scale for Frontline Workers
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: Guidance on using a scripts to deploy or provision Microsoft Teams for Firstline Workers.
+description: Guidance on using a scripts to deploy or provision Microsoft Teams for Frontline Workers.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# How to provision Teams at scale for Firstline Workers
+# How to provision Teams at scale for Frontline Workers
 
 Do you need to rapidly onboard a large number of users to Microsoft Teams and configure a streamlined experience for them? You can quickly provision identities, provision teams, and assign all relevant policies to control the end user experience by walking through the following instructions.
 
@@ -129,11 +129,11 @@ You'll need to install and connect to several PowerShell modules, including Azur
 
 ## Create and set up Teams
 
-In order to communicate and collaborate with your Firstline Workers, you will first need to establish a series of Teams and add standard Channels to those teams, which we'll walk through next.
+In order to communicate and collaborate with your Frontline Workers, you will first need to establish a series of Teams and add standard Channels to those teams, which we'll walk through next.
 
 ### Create teams
 
-Teams are a collection of people, content, and tools within your organization. For most Firstline Worker-centric organizations, it is best practice to anchor a Team around a physical location. For example, a Team for each of the following:
+Teams are a collection of people, content, and tools within your organization. For most Frontline Worker-centric organizations, it is best practice to anchor a Team around a physical location. For example, a Team for each of the following:
 
 - Store
 - Distribution Center
@@ -176,18 +176,18 @@ Channels are dedicated sections within a team to keep conversations organized by
 
 As an admin, you can use teams policies in Microsoft Teams to control what users in your organization see and can. For example, you can control which applications are pinned to the left rail on your Desktop or Web browser, or the bottom bar on mobile devices, in order to simplify the end user experience when onboarding a large amount of users. Some of these policies can be created with PowerShell, and others have to be manually created in the Teams Admin Console.
 
-*Best Practice Discussion*: For each of the following policies, we're choosing to actually create two policies: one for Firstline Workers and one for Firstline Managers. You can choose to create as many or as few as you like. For most customers, two is a good place to start, even if you give the same settings to each group initially. As your experience with Teams grows, you may choose to differentiate their experience further and having the two separate policies already created can make that simpler.
+*Best Practice Discussion*: For each of the following policies, we're choosing to actually create two policies: one for Frontline Workers and one for Frontline Managers. You can choose to create as many or as few as you like. For most customers, two is a good place to start, even if you give the same settings to each group initially. As your experience with Teams grows, you may choose to differentiate their experience further and having the two separate policies already created can make that simpler.
 
 ### Create Teams message policies
 
 Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 
-*Best Practice Discussion*: While you can use the default Global policy that is created automatically, we have opted to create a custom policy using the steps below to provide a more locked down, simple, and differentiated experience for Firstline Managers and Firstline Workers.
+*Best Practice Discussion*: While you can use the default Global policy that is created automatically, we have opted to create a custom policy using the steps below to provide a more locked down, simple, and differentiated experience for Frontline Managers and Frontline Workers.
 
 #### Steps to Create Teams Message Policies
 
 1. Find the **TeamsMessagingPolicies.csv** file in the scripts folder in the repository.
-1. Update the **TeamsMessagingPolicies.csv** file with your organization's specific information. Additional information on some of the various options can be found [here](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings).
+1. Update the **TeamsMessagingPolicies.csv** file with your organization's specific information. Additional information on some of the various options can be found [here](./messaging-policies-in-teams.md#messaging-policy-settings).
 1. Find the **CreateTeamsMessagePolicies.ps1** script in the scripts folder in the repository.
 1. From PowerShell, run the **CreateTeamsMessagePolicies.ps1** script.
 
@@ -204,16 +204,16 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 |---------|---------|---------|
 |![A screenshot of the Teams desktop client with apps pinned to the *app* bar.](media/FLW-Teams-Desktop-Client.png)         |         |![A screenshot of the Teams desktop client with apps pinned to the *bottom* bar.](media/FLW-Teams-Mobile-Client.png) |
 
-*Best Practice Discussion*: You manage app setup policies in the Microsoft Teams admin center. They aren't able to be created with PowerShell. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically be assigned to the global policy unless you create and assign a custom policy. For our purposes, we are creating two new policies for Firstline Workers and Firstline Managers, in order to provide them a simpler and more streamlined experience to ease onboarding a large number of users simultaneously. You can choose to customize the experience as your business needs.
+*Best Practice Discussion*: You manage app setup policies in the Microsoft Teams admin center. They aren't able to be created with PowerShell. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically be assigned to the global policy unless you create and assign a custom policy. For our purposes, we are creating two new policies for Frontline Workers and Frontline Managers, in order to provide them a simpler and more streamlined experience to ease onboarding a large number of users simultaneously. You can choose to customize the experience as your business needs.
 
-#### Create the Firstline Manager app setup policy
+#### Create the Frontline Manager app setup policy
 
-The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.  
-3. Enter a name and description for the policy. As an example: **Firstline Manager App Setup Policy**.
-![Firstline manager app setup policy image.](media/FLW-FLM-App-Setup-Policy.png)
+3. Enter a name and description for the policy. As an example: **Frontline Manager App Setup Policy**.
+![Frontline manager app setup policy image.](media/FLW-FLM-App-Setup-Policy.png)
 
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
@@ -231,14 +231,14 @@ The following settings can be customized to meet your business needs. We have ch
     1. Shifts
     ![Screenshot of the manager apps list in order.](media/FLW-Manager-Pinned-Apps.png)
 
-#### Create the Firstline Worker app setup policy
+#### Create the Frontline Worker app setup policy
 
-The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy).
+The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.
-3. Enter a name and description for the policy. As an example: **Firstline Worker App Setup Policy**.
-![Firstline worker app setup policy image.](media/FLW-FLW-App-Setup-Policy.png)
+3. Enter a name and description for the policy. As an example: **Frontline Worker App Setup Policy**.
+![Frontline worker app setup policy image.](media/FLW-FLW-App-Setup-Policy.png)
 
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
@@ -259,9 +259,9 @@ The following settings can be customized to meet your business needs. We have ch
 
 As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps, or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users who have the policy are unable to install it from the Teams app store. You must be a global admin or Teams service admin to manage these policies.
 
-*Best Practice Discussion*: You manage app setup policies in the Microsoft Teams admin center. They aren't able to be created with PowerShell. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy. For our purposes, we are creating two new policies for Firstline Workers and Firstline Managers in order to provide a secure and more streamlined experience to ease onboarding a large number of users simultaneously. You can of course choose to customize the experience as your business needs.
+*Best Practice Discussion*: You manage app setup policies in the Microsoft Teams admin center. They aren't able to be created with PowerShell. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy. For our purposes, we are creating two new policies for Frontline Workers and Frontline Managers in order to provide a secure and more streamlined experience to ease onboarding a large number of users simultaneously. You can of course choose to customize the experience as your business needs.
 
-#### Create the Firstline Manager app permission policy
+#### Create the Frontline Manager app permission policy
 
 The following settings can be customized to meet your business needs. These are some recommended options based on best practices that can improve the ease of onboarding new users at scale. For more information, click [here](teams-app-permission-policies.md).
 
@@ -269,13 +269,13 @@ The following settings can be customized to meet your business needs. These are 
 2. Click **Add**.
 ![Shows the add app permission policy page, with sections for Microsoft, third-party, and tenant apps.](media/FLW-add-app-permission-policy.png)
 
-3. Enter a name and description for the policy. As an example: Firstline Manager App Permission Policy.
+3. Enter a name and description for the policy. As an example: Frontline Manager App Permission Policy.
 4. Under Microsoft apps, select **Allow all apps**.
 5. Under Third-party apps, select **Allow all apps**.
 6. Under Tenant apps, select **Allow all apps**.
 7. Click **Save**.
 
-#### Create the Firstline Worker App Permission Policy
+#### Create the Frontline Worker App Permission Policy
 
 The following settings can be customized to meet your business needs. These are some recommended options based on best practices that can improve the ease of onboarding new users at scale. For more information, click [here](teams-app-permission-policies.md).
 
@@ -283,7 +283,7 @@ The following settings can be customized to meet your business needs. These are 
 2. Click **Add**.
 ![Shows the add app permission policy page, with sections for Microsoft, third-party, and tenant apps.](media/FLW-add-app-permission-policy.png)
 
-3. Enter a name and description for the policy. As an example: Firstline Worker App Permission Policy.
+3. Enter a name and description for the policy. As an example: Frontline Worker App Permission Policy.
 4. Under Microsoft apps, select **Allow all apps**.
 5. Under Third-party apps, select **Block all apps**.
 6. Under Tenant apps, select **Allow all apps**.
@@ -296,11 +296,11 @@ The following settings can be customized to meet your business needs. These are 
 To work with a large amount of users in Teams you first need to have the users created in Azure AD. There are many ways to provision a large number of users, but we're going to highlight the following:
 
 - If these users already exist in one of the following HR systems, use the following links to set up user provisioning:
-  - SAP Success Factors - [Tutorial: Configure SAP SuccessFactors to Active Directory user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
-  - Workday - [Tutorial: Configure Workday for automatic user provisioning](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial).
+  - SAP Success Factors - [Tutorial: Configure SAP SuccessFactors to Active Directory user provisioning](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial).
+  - Workday - [Tutorial: Configure Workday for automatic user provisioning](/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - If you have your user information in other systems, proceed with the following steps.
 
-In order to manage these users at scale more effectively, you need to create two security groups for Firstline Workers and Firstline Managers, and provision those users into the security groups directly, following these steps:
+In order to manage these users at scale more effectively, you need to create two security groups for Frontline Workers and Frontline Managers, and provision those users into the security groups directly, following these steps:
 
 1. Find the **Users.csv** file in the scripts folder in the repository.
 1. Update the **Users.csv** file with your organization's specific information.
@@ -309,7 +309,7 @@ In order to manage these users at scale more effectively, you need to create two
 1. Find the **SecurityGroups.csv** file in the scripts folder in the repository.
 1. Update the **SecurityGroups.csv** file with your organization's specific security group information.
     1. Make sure to update the **MessagePolicy**, **AppPermissionPolicy**, and **AppSetupPolicy** fields to map to the appropriate policies you created earlier.
-    1. Make sure to update the **LicensePlan** field to reflect the licensing that you intend to give each of these users. For more information on product names and service plan identifiers, review the documentation [here](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+    1. Make sure to update the **LicensePlan** field to reflect the licensing that you intend to give each of these users. For more information on product names and service plan identifiers, review the documentation [here](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
 1. From PowerShell, run the script **CreateUsers.ps1** from assets.
 
 ### Assign licensing to users via group-based licensing
@@ -362,7 +362,7 @@ Now that you've completed all the steps, it's time to verify the work you've com
 1. Verify the user is in the correct team. If not, review the **Create and Setup Users** and **Assign Users to Teams** sections.
 
 > [!NOTE]
-> If Firstline employee provisioning is managed through your Identity and Access Management team, you will need to follow their process for providing the employee their credentials.
+> If Frontline employee provisioning is managed through your Identity and Access Management team, you will need to follow their process for providing the employee their credentials.
 
 ### Check for errors
 
@@ -378,7 +378,7 @@ Minimal error handling has been implemented in these sample scripts. There are t
 
 ## Further reading
 
-- [New Team Channel (Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [New Teams Messaging Policy (Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [New Team Channel (Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [New Teams Messaging Policy (Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Assign policies to your users in Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
-- [Assign licenses and user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Assign licenses and user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

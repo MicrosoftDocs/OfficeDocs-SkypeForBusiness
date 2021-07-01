@@ -1,8 +1,8 @@
 ---
 title: "Load balancing requirements for Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -57,7 +57,7 @@ The Skype for Business Server scaled consolidated Edge topology is optimized for
 > [!NOTE]
 > The direct server return (DSR) NAT is not supported with Skype for Business Server. 
   
-To determine whether your hardware load balancer supports the necessary features required by Skype for Business Server, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
+To determine whether your hardware load balancer supports the necessary features required by Skype for Business Server, see [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). 
   
 ### Hardware Load Balancer Requirements for Edge Servers Running the A/V Edge Service
 
@@ -107,7 +107,7 @@ If you are deploying mobile devices, your hardware load balancer must be able to
 > If you are deploying mobile devices, your hardware load balancer must be able to individually load balance each request within a TCP connection. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2.  
   
 > [!CAUTION]
-> For details on third party hardware load balancers, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> For details on third party hardware load balancers, see [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md).  
   
 Following are the hardware load balancer requirements for Director and Front End pool Web Services:
   
@@ -156,7 +156,7 @@ The following diagram shows an example that includes both internal and external 
 
 ![example of DNS network diagram](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-If you use DNS load balancing, you may also be able to purchase lower-cost hardware load balancers than if you used the hardware load balancers for all types of traffic. You should use load balancers that have passed interoperability qualification testing with Skype for Business Server. For details about load balancer interoperability testing, see [Lync Server 2010 Load Balancer Partners](https://go.microsoft.com/fwlink/p/?linkId=202452). The content there applies to Skype for Business Server.
+If you use DNS load balancing, you may also be able to purchase lower-cost hardware load balancers than if you used the hardware load balancers for all types of traffic. You should use load balancers that have passed interoperability qualification testing with Skype for Business Server. For details about load balancer interoperability testing, see [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). The content there applies to Skype for Business Server.
   
 DNS load balancing is supported for Front End pools, Edge Server pools, Director pools, and stand-alone Mediation Server pools.
   
@@ -285,5 +285,3 @@ To deploy DNS load balancing on a Mediation Server pool, you must provision DNS 
 If you use DNS load balancing and you need to block traffic to a specific computer, it is not sufficient to just remove the IP address entries from the Pool FQDN. You must remove the DNS entry for the computer as well. 
   
 Note that for server-to-server traffic, Skype for Business Server uses topology-aware load balancing. Servers read the published topology in the Central Management store to obtain the FQDNs of servers in the topology, and automatically distribute the traffic among the servers. To block a server from receiving server-to-server traffic, you must remove the server from the topology. 
-  
-

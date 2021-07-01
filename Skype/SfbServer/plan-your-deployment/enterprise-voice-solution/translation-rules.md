@@ -1,8 +1,8 @@
 ---
 title: "Translation rules in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -33,11 +33,9 @@ By performing outbound route translation on the server, you can reduce the confi
 
 The following examples of translation rules show how you can develop rules on the server to translate numbers from E.164 format to a local format for the trunk peer.
 
-For details about how to implement translation rules, see [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in the Deployment documentation.
+For details about how to implement translation rules, see [Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules) in the Deployment documentation.
 
 |**Description**|**Starting Digits**|**Length**|**Digits to Remove**|**Digits to Add**|**Matching Pattern**|**Translation**|**Example**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Conventional long-distance dialing in U.S.  <br/> (strip out the '+')  <br/> |+1  <br/> |Exactly 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10})$  <br/> |$1  <br/> |+14255551010 becomes 14255551010  <br/> |
 |U.S. international long-distance dialing  <br/> (strip out '+' and add 011)  <br/> |+  <br/> |At least 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 becomes 011441235551010  <br/> |
-
-

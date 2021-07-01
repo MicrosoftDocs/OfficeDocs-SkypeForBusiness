@@ -1,8 +1,8 @@
 ---
 title: "Configure the client experience with Skype for Business 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -162,7 +162,7 @@ The following procedure describes how to modify the registry so that the Lync cl
 
 1. Start the **Group Policy Management console**.
     
-    For information about how to use the Group Policy Management Console, see [Group Policy Management Console](https://go.microsoft.com/fwlink/?LinkId=532759).
+    For information about how to use the Group Policy Management Console, see [Group Policy Management Console](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265969(v=ws.11)).
     
 2. Right-click the **Group Policy Objects** node and select **New** on the menu.
     
@@ -211,5 +211,3 @@ gpupdate /target:user
     You should see "Assigned Group Policy Objects" with the name of the GPO you created displayed below.
     
 You can also verify that the GPO has successfully updated the registry on a user's computer by examining the registry. Open Registry Editor and navigate to the **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** key. If the GPO successfully updated the registry you will see a value named EnableSkypeUI with a value of 0.
-  
-

@@ -1,7 +1,7 @@
 ---
 title: "Set up Audio Conferencing for small and medium businesses"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -117,4 +117,4 @@ Then, assign the number to each person who will lead meetings. Use the M
 - [Audio Conferencing common questions](audio-conferencing-common-questions.md)
 - [Getting service numbers](getting-service-phone-numbers.md)
 - [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+- [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users)

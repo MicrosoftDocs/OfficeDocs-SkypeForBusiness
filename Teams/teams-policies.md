@@ -1,7 +1,7 @@
 ---
 title: Manage teams policies in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -14,7 +14,6 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -24,6 +23,7 @@ ms.custom:
   - ms.teamsadmincenter.teamsandchannelpolicies.overview
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
+description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels.
 ---
 
 # Manage teams policies in Microsoft Teams
@@ -62,3 +62,5 @@ You can edit the global policy or any custom policies that you create.
 [Private channels in Teams](private-channels.md)
 
 [Assign policies to your users in Teams](assign-policies.md)
+
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

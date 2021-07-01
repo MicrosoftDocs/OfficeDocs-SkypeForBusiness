@@ -17,28 +17,29 @@ description: "This article discusses how to configure your organization and Team
 
 # Enable Teams Room devices to join third-party meetings
 
-Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings. When enabled, you can use a Teams Rooms device to join meetings hosted on Cisco WebEx and Zoom<sup>1</sup> just as easily as you can join meetings hosted in Microsoft Teams.
+Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct guest join. When enabled, you can use a Teams Rooms device to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
 
 Before you can join third-party meetings from a Teams Rooms device, you need to do the following:
 
-1. Configure the Teams Rooms device's Exchange Online room mailbox to process invites for third-party meetings
-2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services
-3. Configure your Teams Rooms devices to allow third-party meetings
+1. Configure the Teams Rooms device's Exchange Online room mailbox to process invites for third-party meetings.
+2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services.
+3. Configure your Teams Rooms devices to allow third-party meetings.
 
 The following sections show you how to do each of these steps.
 
 ## Step 1: Allow calendar invite processing for third-party meetings
 
-The first thing you need to do to enable a one-touch join experience from a Team Rooms device is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet, do the following:
+The first thing you need to do to enable a one-touch join experience from a Team Rooms device is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet, do the following:
 
-1. Connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online Powershell with Basic authentication](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) or [Connect to Exchange Online PowerShell using multi-factor authentication](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps), depending on your authentication method.
+1. Connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell with Basic authentication](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) or [Connect to Exchange Online PowerShell using multi-factor authentication](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps), depending on your authentication method.
 
 2. Get the User Principal Name (UPN) of the room mailbox if you don't know it by running the following command:
 
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
-3. Find the name of the room mailbox associated with your Teams Rooms device and make note of its UPN
+    
+3. Find the name of the room mailbox associated with your Teams Rooms device and make note of its UPN.
 
 4. After you find the room mailbox's UPN, run the following command. Replace `<UserPrincipalName>` with the room mailbox's UPN:
 
@@ -46,18 +47,18 @@ The first thing you need to do to enable a one-touch join experience from a Team
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-Learn more about [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps).
+Learn more about [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps).
 
 ## Step 2: Configure Office 365 Threat Protection and link rewrite
 
-To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Office 365 Advanced Threat Protection Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the ATP Safe Links "do not rewrite" list or the third-party URL rewrite exception list.
+To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Office 365 Advanced Threat Protection Safe Links](/microsoft-365/security/office-365-security/atp-safe-links) feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the ATP Safe Links "do not rewrite" list or the third-party URL rewrite exception list.
 
-To add third-party meeting service URLs to the ATP Safe Links "do not rewrite" list, follow the steps in [Set up a custom do-not-rewrite URLs list using ATP Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide). If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
+To add third-party meeting service URLs to the ATP Safe Links "do not rewrite" list, follow the steps in [Set up a custom do-not-rewrite URLs list using ATP Safe Links](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide). If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
 
 Here are some example entries that you may need to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list:
 
 - **Cisco WebEx** `*.webex.com*`
-- **Zoom** `*zoom.us*`, `*zoom.com*`, `*zoomgov.com*`
+- **Zoom** `*.zoom.us*`, `*.zoom.com*`, `*.zoomgov.com*`
 
 For a complete list of URLs to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from. 
 
@@ -72,11 +73,11 @@ The last step you need to do is allow each Teams Rooms device to join third-part
 
 To configure the Teams Rooms device using its touchscreen, do the following:
 
-1. On the Microsoft Teams Rooms device, select **More ...**
-2. Select **Settings**, and then enter the device administrator username and password
-3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**<sup>1</sup>, or both
-4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**
-5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use
+1. On the Microsoft Teams Rooms device, select **More ...**.
+2. Select **Settings**, and then enter the device administrator username and password.
+3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**, or both.
+4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
+5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
 6. Select **Save and exit**. Your device will restart.
 
 ### Use the SkypeSettings.xml configuration file
@@ -89,7 +90,7 @@ To enable Cisco WebEx meetings, set the `WebExMeetingsEnabled` XML element to *
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-To enable Zoom<sup>1</sup> meetings, set the `ZoomMeetingsEnabled` XML element to **True**, as follows.
+To enable Zoom meetings, set the `ZoomMeetingsEnabled` XML element to **True**, as follows.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
@@ -106,6 +107,4 @@ You can optionally specify a custom username and email address to join third-par
 ```
 
 > [!NOTE]
-> To join Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted using Cisco WebEx web application version WBS 40.7 or later.
-
-<sup>1</sup> Zoom meetings join is currently only available to select Microsoft Teams Rooms customers through Technology Access Program (TAP).
+> To join a Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in WebEx Meetings Pro using Cisco WebEx web application version WBS 40.7 or later. 

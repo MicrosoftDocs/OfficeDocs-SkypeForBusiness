@@ -1,8 +1,8 @@
 ---
 title: "Direct SIP connections in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -54,7 +54,7 @@ The following figure shows the generic topology for deployment of Enterprise Voi
 ![Departmental Migration Option diagram](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> If you are connecting your Skype for Business Server deployment to a certified Direct SIP partner, a public switched telephone network (PSTN) gateway between the Mediation Server and the PBX is not required. For a list of certified Direct SIP partners, see the  [Microsoft Unified Communications Open Interoperability Program](https://go.microsoft.com/fwlink/p/?linkId=203309).
+> If you are connecting your Skype for Business Server deployment to a certified Direct SIP partner, a public switched telephone network (PSTN) gateway between the Mediation Server and the PBX is not required. For a list of certified Direct SIP partners, see the  [Microsoft Unified Communications Open Interoperability Program](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 > [!NOTE]
 > The media path shown in this figure has media bypass enabled (the recommended configuration). If you opt to disable media bypass, the media path is routed through the Mediation Server.
@@ -123,7 +123,7 @@ The Mediation Servers can route calls through multiple gateways, Session Border 
 
 For details about planning for multiple gateways, see [M:N trunk in Skype for Business Server](m-n-trunk.md).
 
-For details about other outbound routing enhancements, see [Call Routes](https://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
+For details about other outbound routing enhancements, see [Call Routes](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes).
 
 #### Gateway Topologies
 
@@ -160,5 +160,3 @@ The PSTN gateways that most organizations will consider deploying range in size 
 For any given number of users you must support, you have the choice of deploying fewer, larger gateways, or smaller ones. As a rule, a minimum of two gateways for an organization is recommended to maintain availability if one gateway fails.
 
 Each PSTN gateway that you deploy must have at least one corresponding Mediation Server.
-
-

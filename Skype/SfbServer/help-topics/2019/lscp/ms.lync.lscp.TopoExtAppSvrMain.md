@@ -1,8 +1,8 @@
 ---
 title: "Topology Trusted Application"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -21,7 +21,4 @@ description: "What do you want to do? Click the link to the task that you want t
 
 What do you want to do? Click the link to the task that you want to perform.
 
-- [View a List of Trusted Applications](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
-
-
-
+- [View a List of Trusted Applications](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-trusted-applications)

@@ -1,7 +1,7 @@
 ---
 title: Teams client experience and conformance to coexistence modes
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -84,8 +84,4 @@ When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the config
 
 ## Related topics
 
-[Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
-
-
-
-
+[Migration and interoperability guidance for organizations using Teams together with Skype for Business](./migration-interop-guidance-for-teams-with-skype.md)

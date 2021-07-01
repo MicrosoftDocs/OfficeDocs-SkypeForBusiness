@@ -1,8 +1,8 @@
 ---
 title: "Review the Administrator Reports in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -83,4 +83,4 @@ You should have your DNS management team review the DNS Report thoroughly to mak
 ## See also
 <a name="DNS_Report"> </a>
 
-[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](/previous-versions/office/lync-server-2013/lync-server-2013-reviewing-the-administrator-reports)

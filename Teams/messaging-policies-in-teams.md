@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.messagingpolicies.overview
   - seo-marvel-apr2020
-description: "In this article, you will learn about Messaging policies and how they can be used to control chat messaging in Teams."
+description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
 ---
 
 # Manage messaging policies in Teams
@@ -28,17 +28,17 @@ description: "In this article, you will learn about Messaging policies and how t
 
 Messaging policies are used to control which chat and channel messaging features are available to [users (owners and members)](assign-roles-permissions.md) in Microsoft Teams. You can use the global (Org-wide default) policy that's created automatically or create and assign custom messaging policies.
 
-Users in your organization will automatically get the global policy unless you create and assign a custom policy. You can edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off the features that you want.
+Users in your organization will automatically get the global policy, unless you create and assign a custom policy. Edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off the features that you want.
 
 ## Create a custom messaging policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Messaging policies**.
-2. Click **Add**.
+2. Select **Add**.
 3. Enter a name and description for the policy.
 4. Choose the settings that you want.
-5. Click **Save**.
+5. Select **Save**.
 
-For example, say you want to make sure that sent messages aren't deleted or altered. Create a new custom policy named "Retain sent messages" and turn off the following settings:
+For example, you want to make sure that sent messages aren't deleted or altered. Create a new custom policy named "Retain sent messages" and turn off the following settings:
 
 - Owners can delete sent messages
 - Users can delete sent messages
@@ -48,12 +48,12 @@ Then assign the policy to users.
 
 ## Edit a messaging policy
 
-You can edit the global policy and any custom policies that you create. 
+You can edit the global policy and any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Messaging policies**.
-2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
+2. Select the policy by clicking to the left of the policy name, and then select **Edit**.
 3. From here, make the changes that you want.
-4. Click **Save**.
+4. Select **Save**.
 
 ## Assign a custom messaging policy to users
 
@@ -73,25 +73,25 @@ Here are the messaging policy settings that you can configure.
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Users can delete sent messages** Use this setting to let users delete messages that they sent in chat.
 - **Users can edit sent messages** Use this setting to let users edit the messages that they sent in chat.
-- **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or less. Message read receipts remove uncertainly about whether a message was read, and improve team communication. Please note that read receipts are not captured in eDiscovery reporting.  
+- **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainly about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
     - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
-    - **On for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. Be aware that when using the **On for everyone** setting, the only way to set receipts for the whole tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts. The read receipts feature is most effective when the feature is enabled to **On for everyone**.
+    - **On for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. When using the **On for everyone** setting, the only way to set receipts for the whole tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts. The read receipts feature is most effective when the feature is enabled to **On for everyone**.
     - **Off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
 <a name="bkchat"> </a>
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
-- **Use Giphys in conversations**  If you turn this on, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
+- **Use Giphys in conversations**  If you turn on Giphys, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating. In addition to turning on this setting, you need to enable [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) to allow Giphys in conversations.
 - **Giphy content rating**
     - **No restriction** This means that your users will be able to insert any Giphy in chats regardless of the content rating.
     - **Moderate**  This means that your users will be able to insert Giphys in chats, but will be moderately restricted from adult content.
     - **Strict**  This means that your users will be able to insert Giphys in chats, but will be strictly restricted from adult content.
-- **Use Memes in conversations** If you turn this on, users can include Memes in chat conversations with other people.
+- **Use Memes in conversations** If you turn Memes on, users can include Memes in chat conversations with other people.
 - **Use Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
-- **Send urgent messages using priority notifications** If you turn this on, users can send messages using [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for a period of 20 minutes or until messages that are marked as *urgent* are picked up and read by the recipient, maximizing the likelihood that the message is acted upon in a timely manner.
-- **Audio message creation** 
+- **Send urgent messages using priority notifications** If you turn this on, users can send messages using [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as *urgent* are picked up and read by the recipient. This feature increases the likelihood that the message is acted upon in a timely manner.
+- **Audio message creation**
   > [!Important]
   > Audio messages are not captured in eDiscovery reporting.
     - **Allowed in chats and channels** This means that users can leave audio messages in both chats and channels.
@@ -100,11 +100,12 @@ Here are the messaging policy settings that you can configure.
 - **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.
 - **Allow a user to remove users from a group chat** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 - **Enable suggested replies**  Turn this setting on to enable suggested replies for chat messages.
+- **Chat permission role** Use this setting to define the supervised chat role of the user.  Learn more about [supervised chat](supervise-chats-edu.md).
 
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
 
 ### Related topics
 
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to users and groups in Teams](assign-policies-users-and-groups.md)
 - [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)

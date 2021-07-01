@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms managed service
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer:  
 ms.topic: article
@@ -39,7 +39,7 @@ Here's an overview of the capabilities of the Microsoft Teams Rooms managed serv
 |**Insights and recommendations**     |Insights into customer health, usage, utilization, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
 |**Customer support**   |24x7x365 ticket support through the dedicated Microsoft Teams Rooms managed service Service Operation Center (SOC). Escalation on your behalf to other primary vendors when applicable. To learn more, see [Customer support](#customer-support).|
-|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.         |
+|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub support coming in the second half of 2021*        |
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available integration with customer-hosted Service Now.         |
 
@@ -59,7 +59,7 @@ Here's a summary of important features the Microsoft Teams Rooms managed service
 
 ## Service prerequisites
 
-For the Microsoft Teams Rooms managed service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](requirements.md#hardware-requirements), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
+For the Microsoft Teams Rooms managed service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](requirements.md#hardware-requirements), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
 
 As provider of a managed service, Microsoft needs to work with responsible stakeholders for rooms in your organization to keep rooms healthy and recover from issues. You're responsible for uncertified devices used in meeting rooms, third-party or custom software that you've chosen to deploy in your meeting room devices, and adhering to change management practices recommended by Microsoft.
 
@@ -86,29 +86,7 @@ For more details on the Microsoft Teams Rooms managed service support coverage, 
 
 ## Supported regions
 
-The Microsoft Teams Rooms managed service is available in the following countries and regions.
-
-- Australia
-- Austria
-- Belgium
-- Canada (excluding Quebec)
-- Denmark
-- Finland
-- Germany
-- Greece
-- Ireland
-- Italy
-- Luxembourg
-- Monaco
-- The Netherlands
-- New Zealand
-- Norway
-- Portugal
-- Spain
-- Sweden
-- Switzerland
-- United Kingdom
-- United States
+The Microsoft Teams Rooms Premium license is available in all countries and regions where Microsoft 365 is available. For a complete list of countries and regions, see [Microsoft 365 international availability](https://www.microsoft.com/microsoft-365/business/international-availability).
 
 ## Support inclusions and exclusions
 

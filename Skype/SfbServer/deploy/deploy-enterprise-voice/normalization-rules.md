@@ -1,8 +1,8 @@
 ---
 title: "Create or modify a normalization rule in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -28,7 +28,7 @@ Define, create, and modify normalization rules in Skype for Business Server.
 
 1. Open Skype for Business Server Control Panel
 
-2. (Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.
+2. (Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) through step 10.
 
 3. In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).
 
@@ -61,7 +61,7 @@ Define, create, and modify normalization rules in Skype for Business Server.
 8. (Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.
 
     > [!NOTE]
-    > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).
+    > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing).
 
 9. Click **OK** to save the normalization rule.
 
@@ -104,5 +104,3 @@ Define, create, and modify normalization rules in Skype for Business Server.
 
     > [!NOTE]
     > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
-
-

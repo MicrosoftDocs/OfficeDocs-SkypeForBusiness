@@ -1,8 +1,8 @@
 ---
 title: "Add Branch Site Details"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -27,6 +27,4 @@ Specify a state/province name for the new branch site. The State/Province value 
 
 Specify a country/region Code name for the new branch site. The Country/Region Code value is an optional entry.
 
-For additional information, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).
-
-
+For additional information, see [Sites](/previous-versions/office/lync-server-2013/lync-server-2013-sites).

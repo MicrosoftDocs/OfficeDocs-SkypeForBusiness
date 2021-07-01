@@ -15,32 +15,22 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Install Microsoft Teams PowerShell
+# Install Microsoft Teams PowerShell Module
 
-This article explains how to install the Microsoft Teams PowerShell module using
-[PowerShellGet](/powershell/scripting/gallery/installing-psget). These instructions work on [Azure Cloud Shell](/azure/cloud-shell/overview), Linux, macOS, and Windows platforms.
+This article explains how to install the Microsoft Teams PowerShell module using PowerShell Gallery. The Microsoft Teams PowerShell module is supported on all Windows platforms. 
 
 ## Requirements
 
-Teams PowerShell requires PowerShell 5.1 or higher on all platforms. Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system.
+Microsoft Teams PowerShell module requires PowerShell 5.1 or higher on all platforms. Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system. 
 
-> [!WARNING]
-> There are known issues with PowerShell 7 and Teams PowerShell. For the best experience, we recommend that you use PowerShell 5.1.
-
-## Install the Teams PowerShell module
-
-> [!NOTE]
-> For the best experience, use either General Availability (GA) or Public Preview modules - not both. They're not intended to work together.
-
-
-Use the **PowerShellGet** cmdlets to install the Teams PowerShell module. Installing the module for all users on a system requires elevated privileges. Start the PowerShell
-session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux:
+To check your PowerShell version, run the following command from within a PowerShell session: 
 
 ```powershell
-Install-Module MicrosoftTeams
+$PSVersionTable.PSVersion 
 ```
-
-By default, the PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**. The first time you use the PSGallery, you'll see the following message:
+We recommend that you use the  Install-Module cmdlet to install the Microsoft Teams PowerShell module. 
+ 
+If PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**, the first time you use the PSGallery you'll see the following message:
 
 ```console
 Untrusted repository
@@ -54,65 +44,38 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 Answer **Yes** or **Yes to All** to continue with the installation.
 
+## Installing using the PowerShellGallery
 
-## Install Teams PowerShell public preview
+Microsoft Teams PowerShell module is currently supported for use with PowerShell 5.1 on Windows. Follow these steps to install the module: 
 
-> [!NOTE]
-> If you're using the Public Preview version of Teams PowerShell, we strongly recommend that you first uninstall Skype for Business Online Connector.
-
-Installing the Teams PowerShell public preview module for all users on a system requires elevated privileges. Start the PowerShell
-session using **Run as administrator** in Windows or use the `sudo` command on macOS or Linux.
-
-If you're using PowerShell 5.1, you must update the **PowerShellGet** module beforehand. After you update **PowerShellGet**, close and reopen an elevated PowerShell session to ensure that the latest **PowerShellGet** is loaded.
+- Update to [Windows PowerShell 5.1](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell). If you're on Windows 10 version 1607 or higher, you already have PowerShell 5.1 installed. 
+- Install [.NET Framework 4.7.2](/dotnet/framework/install) or later. 
+- Run the following command to install the latest PowerShellGet:
+ 
+```powershell
+Install-Module -Name PowerShellGet -Force -AllowClobber
+```
+- Install the Teams PowerShell Module.
 
 ```powershell
-Install-Module PowerShellGet -Force -AllowClobber
+Install-Module -Name MicrosoftTeams -Force -AllowClobber
 ```
 
-To install Teams PowerShell public preview, run the PowerShell command below.
+## Offline Installation 
 
-> [!NOTE]
-> You can find the latest preview version at [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) or in PowerShell by running "Find-Module MicrosoftTeams -AllowPrerelease"
-
-```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
-```
-
-## Install the Skype for Business Online Connector
-
-> [!NOTE]
->
-> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
-
-```powershell
-Import-Module -Name MicrosoftTeams
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
-```
+In some environments, it's not possible to connect to the PowerShell Gallery. In those situations, please follow these [manual installation steps](https://aka.ms/psgallery-manualdownload).  
 
 ## Sign in
 
-To start working with Teams PowerShell, sign in with your Azure credentials.
+To start working with Microsoft Teams PowerShell module, sign in with your Azure credentials.
 
-> [!NOTE]
-> If you're using the latest [Teams PowerShell public preview release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+```PowerShell
+Connect-MicrosoftTeams 
+``` 
 
-```powershell
-$credential = Get-Credential
+## Update Teams PowerShell Module
 
-#Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credential $credential
-
-#Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credential $credential
-Import-PsSession $session
-```
-
-## Update Teams PowerShell
-
-To update Teams PowerShell, open a new elevated PowerShell command prompt and run the following:
+To update any PowerShell module, you should use the same method used to install the module. For example, if you originally used Install-Module, then you should use [Update-Module](/powershell/module/powershellget/update-module) to get the latest version.  
 
 ```powershell
 Update-Module MicrosoftTeams
@@ -124,19 +87,18 @@ Update-Module MicrosoftTeams
 
 ## Uninstall Teams PowerShell
 
-
-
-To uninstall Teams PowerShell, open a new elevated PowerShell command prompt and run the following:
+To uninstall Microsoft Teams PowerShell, open a new PowerShell command prompt and run the following: 
 
 ```powershell
 Uninstall-Module MicrosoftTeams
+
+# Uninstall all versions of the module
+Uninstall-Module MicrosoftTeams -Allversions 
 ```
-> [!WARNING]
-> If Teams PowerShell has already been imported into your PowerShell session, uninstalling the module will fail. Close PowerShell and re-open a new elevated PowerShell session.
 
-## Next Steps
+## Next Steps 
 
-Now you're ready to manage Teams using Teams PowerShell. See [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md) to get started.
+Now you're ready to manage Microsoft Teams using Microsoft Teams PowerShell. See [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md) to get started. 
 
 ## Related topics
 
@@ -144,6 +106,6 @@ Now you're ready to manage Teams using Teams PowerShell. See [Managing Teams wit
 
 [Teams PowerShell Release Notes](teams-powershell-release-notes.md)
 
-[Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps)
 
-[Skype for Business cmdlet reference](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps)

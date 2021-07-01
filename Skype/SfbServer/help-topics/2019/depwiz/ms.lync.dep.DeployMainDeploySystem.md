@@ -1,8 +1,8 @@
 ---
 title: "Install or Update Skype for Business Server System"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -25,5 +25,4 @@ If you are updating a currently deployed server, you must make the changes that 
 
 ## See also
 
-[Deployment](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
-
+[Deployment](/previous-versions/office/lync-server-2013/lync-server-2013-deployment)

@@ -1,8 +1,8 @@
 ---
 title: "Move File Store Data to a New File Store in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -52,7 +52,7 @@ If you need to remove the file server that is currently acting as the file store
 10. In **Define New File Store**, under **File server FQDN**, type the fully qualified domain name (FQDN) of the file server. Under **File share**, type the folder name for the new file share, and then click **OK**.
 
      > [!IMPORTANT]
-     > This step defines a new file store for use in Topology Builder. You define it only once, not for each server. Before you publish the topology, you must create the defined file share on the defined file server. For details, see [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > This step defines a new file store for use in Topology Builder. You define it only once, not for each server. Before you publish the topology, you must create the defined file share on the defined file server. For details, see [Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14)).
 
 11. For each server or pool that uses the file store, do the following:
 
@@ -60,7 +60,7 @@ If you need to remove the file server that is currently acting as the file store
 
 13. In **Edit Properties**, under **Associations**, in **File store**, select the new file share, and then click **OK**.
 
-14. Publish the topology, check replication status, and then run the Skype for Business Server Deployment Wizard as needed. For details, see [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Publish the topology, check replication status, and then run the Skype for Business Server Deployment Wizard as needed. For details, see [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
 15. Start a command prompt: Click **Start**, click **Run**, and then type cmd.exe.
 
@@ -77,12 +77,12 @@ If you need to remove the file server that is currently acting as the file store
 
 18. For each server or pool where you stopped services, select the server or pool, click **Action**, and then click **Start all services**.
 
-19. Remove the old file store from the topology and then publish the topology. For details, see [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Remove the old file store from the topology and then publish the topology. For details, see [Remove a file store](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14)).
 
 20. (Optional) Log on to the computer that contains the file store that you just removed as a member of the local Administrators group or the Domain Admins group, and then remove the old file share and directory.
 
 ## See also
 
-[Reassign a Server to a Different File Store](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
+[Reassign a Server to a Different File Store](/previous-versions/office/skype-server-2010/gg195633(v=ocs.14))
 
-[Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
+[Remove a file store](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14))

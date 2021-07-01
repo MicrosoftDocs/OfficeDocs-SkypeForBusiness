@@ -1,7 +1,7 @@
 ---
 title: Microsoft Education governance FAQ for admins
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -56,9 +56,9 @@ If you're sure you want to control who can create teams, see [Manage who can cre
 
 At the start of each semester or quarter, you'll need a number of new teams. It might make sense to take an automated approach to create these teams automatically, populate them with the right users, and set the right permissions:
 
--   School Data Sync can create Microsoft 365 Groups for Exchange Online and SharePoint Online, class teams for Microsoft Teams and OneNote Class notebooks, school groups for Intune for Education, and rostering and single sign-on (SSO) integration for many other third-party applications. Learn more at [Overview of School Data Sync](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync).
--   With PowerShell, you can create teams and channels, and configure settings automatically. See [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
--   You can use the Microsoft Graph API (currently in beta) to create, configure, clone, and archive teams. See [Use the Microsoft Graph API to work with Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) for more information.
+-   School Data Sync can create Microsoft 365 Groups for Exchange Online and SharePoint Online, class teams for Microsoft Teams and OneNote Class notebooks, school groups for Intune for Education, and rostering and single sign-on (SSO) integration for many other third-party applications. Learn more at [Overview of School Data Sync](/schooldatasync/overview-of-school-data-sync).
+-   With PowerShell, you can create teams and channels, and configure settings automatically. See [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) for more information.
+-   You can use the Microsoft Graph API (currently in beta) to create, configure, clone, and archive teams. See [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview) for more information.
 
 > [!TIP]
 > School Data Sync creates a Microsoft 365 Group for each class synced and [enables hidden group membership](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) so only teachers and students within the class can see the members of that class. If using a different process to create class groups use the HiddenGroupMembershipEnabled parameter of the New-UnifiedGroup cmdlet to meet the same privacy requirements.
@@ -70,18 +70,18 @@ We recommend that you first think about how you want to handle Teams data when t
 -   **Retention policy:** Use this to delete all data older than an age you specify to make sure that old data is removed from chats (for all or some users) and channels. You can also configure Teams to retain content so it can't be deleted. For more information, see [Retention policies for Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
 -   **Expiry policy:** Configure teams to expire after a certain number of days. Thirty days before expiration, all owners of a team are notified that their team needs to be renewed, otherwise it will be deleted (though an administrator can recover deleted teams for an additional 30 days). This setting is very useful for making sure unused teams are sunsetted. Learn more at [Microsoft 365 group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
--   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; Team owners can also use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) to archive or restore a team.
+-   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; Team owners can also use the [Graph API (beta)](/graph/api/resources/teams-api-overview) to archive or restore a team.
  
 > [!IMPORTANT]
 > Using the Microsoft 365 Groups Expiration Policy requires Azure Active Directory Premium P1 licenses for each unique user that is a member of one or more Microsoft 365 groups.
 
 ## Are there team templates for my faculty members to use when creating a team?
 
-Yes. Users can select **Create Team from existing template** when creating a new team, and Teams owners can also use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) to create a new team from the available templates.
+Yes. Users can select **Create Team from existing template** when creating a new team, and Teams owners can also use the [Graph API (beta)](/graph/api/resources/teams-api-overview) to create a new team from the available templates.
 
 ## What tasks can I automate via PowerShell or Graph?
 
-The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) can do the following:
+The [Microsoft Graph API (beta)](/graph/api/resources/teams-api-overview) can do the following:
 
 -   Create a team.
 -   Add members and owners.
@@ -94,7 +94,7 @@ The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-
 -   Delete the team.
 -   Create a channel thread
 
-[PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) can do the following:
+[PowerShell](/powershell/module/teams/?view=teams-ps) can do the following:
 
 -   Create a team.
 -   Add members and owners.
@@ -103,7 +103,7 @@ The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-
 -   Delete the team.
 
 > [!TIP]
-> The Graph API and PowerShell cmdlets are constantly adding functionality. Make sure to check the [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) and [PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) articles often for feature enhancements.  
+> The Graph API and PowerShell cmdlets are constantly adding functionality. Make sure to check the [Microsoft Graph API (beta)](/graph/api/resources/teams-api-overview) and [PowerShell](/powershell/module/teams/?view=teams-ps) articles often for feature enhancements.  
 
 
 ## Can I control what Teams features my faculty and students have access to?
@@ -116,7 +116,7 @@ For more details about Teams policies, see [Manage Microsoft Teams settings for 
 
 You can use guest access to invite users from outside of your tenant, which can be useful for research collaboration or guest lectures:
 
--   Use domain whitelisting to allow or block guests based on their domain.
+-   Use a domain allowlist to allow or block guests based on their domain.
 -   Turn guest access on and off for particular Microsoft 365 Groups and teams, to control which teams can (and can't) invite guests.
 -   Use the audit log to see which alerts were sent to invited guests.
 

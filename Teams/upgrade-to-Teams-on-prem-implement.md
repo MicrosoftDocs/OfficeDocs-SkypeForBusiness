@@ -1,14 +1,13 @@
 ---
-title: Upgrade to Teams from a Skype for Business on-premises deployment - Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Upgrade strategies for IT administrators
+author: dstrome
+ms.author: dstrome
 manager: serdars
-ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Upgrade from Skype for Business to Teams  
+description: The article is for IT administrators and describes strategies for implementing their upgrade from Skype for Business to Teams  
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,20 +19,15 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Implement your upgrade from Skype for Business to Teams &mdash; for IT administrators
+# Upgrade strategies for IT administrators
 
-This article describes how to implement your upgrade. This article is the fifth of several that describe upgrade concepts and implementation for IT administrators.  
+![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-- [Overview](upgrade-to-teams-on-prem-overview.md)
-- [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md)
-- [Tools for managing your upgrade](upgrade-to-teams-on-prem-tools.md)
-- [Additional considerations for organizations with Skype for Business on-premises](upgrade-to-teams-on-prem-considerations.md)
-- **Implement your upgrade** (this article)
-- [Public Switched Telephone Network (PSTN) considerations](upgrade-to-teams-on-prem-pstn-considerations.md)
+This article is for IT administrators who want to implement their upgrade to Teams from Skype for Business.
 
-In addition, the following articles describe important upgrade concepts and coexistence behaviors:
+Before implementing your upgrade, we recommend the following articles which describe important upgrade concepts and coexistence behaviors:
 
-- [Coexistence of Teams and Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
+- [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Coexistence modes - Reference](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
@@ -45,7 +39,7 @@ This section describes how to implement your upgrade by using one of the followi
 - [A select capabilities upgrade for an organization that has not yet started using Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [A select capabilities upgrade for an organization that is already using Teams in Islands mode](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
-If you need more information about the options, make sure you have already read [Upgrade methods](upgrade-to-teams-on-prem-upgrade-methods.md).
+If you need more information about the options, make sure you have already read [Choose your upgrade journey from Skype for Business to Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
 
 ## Overlapping capabilities upgrade (using Islands mode)
 
@@ -90,6 +84,10 @@ Notes
 - Instead of setting the tenant-wide policy to SfbWithTeamsCollab, you could set it to SfbWithTeamsCollabAndMeetings. This causes all users to schedule all new meetings in Teams.
 - `Move-CsUser` is a cmdlet in the on-premises tools. The `MoveToTeams` switch requires Skype for Business Server 2019 or Skype for Business Server 2015 with CU8 or later. If you are using a prior version, you can first move the user to Skype for Business Online, and then grant TeamsOnly mode to that user.
 - By default, Skype for Business meetings are migrated to Teams when upgrading to TeamsOnly mode or when assigning SfbWithTeamsCollabAndMeetings mode.  
+
+> [!NOTE]
+> In preparation for the upcoming retirement of Skype for Business Online, Microsoft will be simplifying how organizations move to Teams in the near future. When moving a user from on-premises to Teams, it will soon no longer be required to specify the `-MoveToTeams` switch in `Move-CsUser` to move users directly from on-premises to TeamsOnly. Currently if this switch is not specified, users transition from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remains unchanged. After retirement, when moving a user from on-premises to the cloud with `Move-CsUser`, users will automatically be assigned TeamsOnly mode and their meetings from on-premises will be automtically converted to Teams meetings, just as if the `-MoveToTeams switch had been specified`, regardless of whether the switch is actually specified. We expect to release this functionality before the actual retirement of July 31, 2021.
+
 
 The diagram below shows the conceptual phases of select capabilities upgrade for an organization with no prior usage of Teams. The height of the bars represents number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using Interop, and vice versa. Users in Islands mode must be sure to run both clients.
 
@@ -147,13 +145,12 @@ The diagram below shows the conceptual phases of a select capabilities transitio
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Move users between on-premises and cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

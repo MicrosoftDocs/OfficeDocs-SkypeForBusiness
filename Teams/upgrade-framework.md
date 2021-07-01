@@ -1,7 +1,7 @@
 ---
-title: About the upgrade framework
-author: lanachin
-ms.author: v-lanac
+title: About the upgrade framework - Skype for Business to Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -37,9 +37,9 @@ Look for this framework graphic on related pages to identify where you are in th
 Your upgrade journey begins when you start planning for the change. Leveraging the success framework as a guideline, below is a sample timeline that take you from the pre-upgrade phase where you will plan and prepare for your upgrade, through the upgrade and into the post-upgrade operational phase, designed to sustain and amplify your outcomes. 
 
 > [!NOTE]
-> We understand that your journey to Teams might involve leveraging multiple [modes](https://aka.ms/skypetoteams-coexist) and upgrading groups of users at different times, which will enable you to control the user upgrade experience while maintaining momentum with Teams.  
+> We understand that your journey to Teams might involve leveraging multiple [modes](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) and upgrading groups of users at different times, which will enable you to control the user upgrade experience while maintaining momentum with Teams.  
 
-To help demonstrate how your upgrade journey might unfold, we've provided a sample plan below that defines a journey going from Skype for Business Online to Islands mode to Teams only. In addition, the sample plan outlines an organization that has divided their users into four upgrade groups, or cohorts. Using this as a template, customize the plan to encompass your specific journey to Teams, incorporating the various [modes](https://aka.ms/skypetoteams-coexist) you'll use and the number of upgrade groups you'll segment your users into. 
+To help demonstrate how your upgrade journey might unfold, we've provided a sample plan below that defines a journey going from Skype for Business Online to Islands mode to Teams only. In addition, the sample plan outlines an organization that has divided their users into four upgrade groups, or cohorts. Using this as a template, customize the plan to encompass your specific journey to Teams, incorporating the various [modes](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) you'll use and the number of upgrade groups you'll segment your users into. 
 
 ## Pre-upgrade
 

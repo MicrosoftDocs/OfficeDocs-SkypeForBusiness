@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Security advice and learnings for ITAdmins in installing, configuring and maintaining Microsoft Teams.
+description: Security advice and learnings for IT admins in installing, configuring and maintaining Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -35,7 +35,7 @@ Teams is designed and developed in compliance with the Microsoft Trustworthy Com
 
 ## Trustworthy by Default
 
-Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Teams data is protected on the network.
+Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), all Teams data is protected on the network.
 
 ## How Teams Handles Common Security Threats
 
@@ -95,7 +95,7 @@ Core elements are:
 
 - Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts. User profile information is stored in Azure AD through the actions of Microsoft Graph.
   - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
-- Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [please see this document](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
+- Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [please see this document](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
 
 The next sections discuss some of these core technologies.
@@ -151,7 +151,7 @@ Teams uses a credentials-based token for secure access to media relays over TURN
 
 #### FIPS
 
-Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. For more information on the implementation of FIPS, please see [Federal Information Processing Standard (FIPS) Publication 140-2](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
+Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. For more information on the implementation of FIPS, please see [Federal Information Processing Standard (FIPS) Publication 140-2](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
 
 ### User and Client Authentication
 
@@ -159,7 +159,7 @@ A trusted user is one whose credentials have been authenticated by Azure AD in M
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
-- **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as Multi-Factor Authentication and Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, as well as the web client, [all support MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
+- **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as Multi-Factor Authentication and Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, as well as the web client, [all support MA](./sign-in-teams.md).
 
 > [!NOTE]
 > If you need to brush up on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
@@ -178,7 +178,7 @@ In Teams, IT Admins can manage their service via the Microsoft 365 admin center 
 
 ### Configuring Access to Teams at your Internet Boundary
 
-For Teams to function properly (for users to be able to join meetings etc.), customers need to configure their internet access such that outbound UDP and TCP traffic to services in the Teams cloud is allowed. For more details, see here: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+For Teams to function properly (for users to be able to join meetings etc.), customers need to configure their internet access such that outbound UDP and TCP traffic to services in the Teams cloud is allowed. For more details, see here: [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
 
 ### UDP 3478-3481 and TCP 443
 
@@ -235,7 +235,7 @@ Enabling external users to participate in Teams meetings can be very useful, but
 It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
 
 > [!NOTE]
-> For more information on Guest and External Access in Teams, see this [article](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams. <p> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) and its matrix.
+> For more information on Guest and External Access in Teams, see this [article](./communicate-with-users-from-other-organizations.md). It covers what features guest or external users can expect to see and use when they login to Teams. <p> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](./tmr-meeting-recording-change.md) and its matrix.
 
 ### Participant Roles
 
@@ -256,7 +256,7 @@ Meeting participants are also categorized by location and credentials. You can u
     b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join meetings and act as presenters.
 .
 2. **Users that do not belong to the tenant** These users do not have credentials in Azure AD for the tenant.
-    a. *Federated Users* - Federated users have valid credentials with federated partners and are therefore treated as authenticated by Teams, but are still Anonymous to the meeting organizer tenant. Federated users can join meetings and be promoted to presenters after they have joined the meeting, but they can't create meetings in enterprises with which they are federated.
+    a. *Federated Users* - Federated users have valid credentials with federated partners and are therefore treated as authenticated by Teams, but are still external to the meeting organizer tenant. Federated users can join meetings and be promoted to presenters after they have joined the meeting, but they can't create meetings in enterprises with which they are federated.
     b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant.
 
 Many meetings involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a meeting. The next section describes how Teams limits meeting access to those user types that have been explicitly allowed, and requires all user types to present appropriate *credentials* when entering a meeting.
@@ -292,14 +292,14 @@ It's possible to modify the meeting options while a meeting is on-going. The cha
 
 ## Related topics
 
-[Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+[Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
 
-[Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+[Manage meeting settings in Microsoft Teams](./meeting-settings-in-teams.md)
 
-[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementing VPN split tunnelling](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementing VPN split tunneling](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Meeting recordings in Teams, where recordings are stored, and who can access them](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
+[Meeting recordings in Teams, where recordings are stored, and who can access them](./tmr-meeting-recording-change.md)

@@ -1,7 +1,7 @@
 ---
-title: Purchase services for Teams third-party apps in the Microsoft Teams admin center
-author: LanaChin
-ms.author: v-lanac
+title: Purchase third-party apps for Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,12 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: 
-description: Learn how to purchase services for Teams third-party apps on the Manage apps page of the Microsoft Teams admin center.
+description: Learn how to purchase third-party apps for Teams in the Microsoft Teams admin center.
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
 ---
-Purchase services for Teams third-party apps in the Microsoft Teams admin center
+Purchase third-party apps for Teams
 ======================================================
 
 > [!NOTE]
@@ -61,9 +61,9 @@ Global admins can view the purchases made by anyone in the organization whereas 
 
 Developers can create SaaS offers associated with their Teams apps. These offers are published through [Partner Center](https://partner.microsoft.com) and are available for organizations to purchase through [AppSource](https://appsource.microsoft.com/) and the Microsoft Teams admin center.
  
-Third-party app developers can go to [Create a SaaS offer](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) for more information.
+Third-party app developers can go to [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer) for more information.
 
 ## Related topics
 
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-- [Create a SaaS offer](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
+- [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer)

@@ -1,8 +1,8 @@
 ---
 title: "Manage conferencing server configuration settings in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -32,10 +32,10 @@ To manage conferencing configuration settings by using Skype for Business Server
 
 |**Cmdlet**|**Description**|
 |:-----|:-----|
-|[Get-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |Returns information about the conferencing configuration settings for your organization.  <br/> |
-|[New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |Creates a new collection of conferencing configuration settings.  <br/> |
-|[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |Removes the specified collection of conferencing configuration settings.  <br/> |
-|[Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Modifies an existing collection of conferencing configuration settings.  <br/> |
+|[Get-CsConferencingConfiguration](/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |Returns information about the conferencing configuration settings for your organization.  <br/> |
+|[New-CsConferencingConfiguration](/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |Creates a new collection of conferencing configuration settings.  <br/> |
+|[Remove-CsConferencingConfiguration](/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |Removes the specified collection of conferencing configuration settings.  <br/> |
+|[Set-CsConferencingConfiguration](/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Modifies an existing collection of conferencing configuration settings.  <br/> |
    
 The following command creates a new collection of conferencing configuration settings for the Redmond site (site:Redmond). In this example, one additional parameter is included (Organization) which is used to set the value of the Organization property to Litwareinc: 
   
@@ -60,5 +60,3 @@ Set-CsConferencingConfiguration -Instance $x
 ```
 
 If you do not call the **Set-CsConferencingConfiguration** cmdlet, the new settings will never take effect. Instead, they will disappear as soon as you end your Windows PowerShell session or delete the variable $x.
-  
-

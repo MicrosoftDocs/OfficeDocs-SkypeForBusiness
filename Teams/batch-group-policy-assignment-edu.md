@@ -1,7 +1,7 @@
 ---
 title: Assign policies to large sets of users in your school
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -20,6 +20,8 @@ f1keywords:
 ---
 
 # Assign policies to large sets of users in your school
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > For the larger story on assigning policies in Microsoft Teams, see [Assign policies to your users in Teams](assign-policies.md).
@@ -67,7 +69,7 @@ You'll need to complete all these steps for your staff and educators to inherit 
 
 First, create a security group for your staff and educators.
 
-With [School Data Sync](https://docs.microsoft.com/SchoolDataSync/) (SDS), you can [easily create security groups educators and students](https://docs.microsoft.com/SchoolDataSync/edu-security-groups) in your school. We recommend that you use SDS to create the security groups you need to manage policies for your school.
+With [School Data Sync](/SchoolDataSync/) (SDS), you can [easily create security groups educators and students](/SchoolDataSync/edu-security-groups) in your school. We recommend that you use SDS to create the security groups you need to manage policies for your school.
 
 If you're unable to deploy SDS within your environment, use [this PowerShell script](scripts/powershell-script-security-groups-edu.md) to create two security groups, one for all staff and educators who have a Faculty license assigned and another for all students who have a Student license assigned. You'll need to run this script routinely to keep the groups fresh and up to date.
 
@@ -95,7 +97,7 @@ To change the ranking of a group assignment, you have to first remove the group 
 #### Using PowerShell
 
 > [!NOTE]
-> Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
+> Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
 
 ##### Install and connect to the Microsoft Teams PowerShell module
 
@@ -142,6 +144,7 @@ Run the following to connect to Teams and start a session.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
 #### Unassign a policy that was directly assigned to users
@@ -155,7 +158,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt. 
+In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -164,7 +167,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 ##### Get policy assignments for a group
 
-Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group Id even if its SIP address or email address was used to assign the policy.
+Run the following to see all the policies assigned to a specific security group. Note that groups are always listed by their group ID even if its SIP address or email address was used to assign the policy.
 
 ```powershell
 Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
@@ -205,7 +208,7 @@ Connect-AzureAD
 
 When you're prompted, sign in using your admin credentials.
 
-To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
 ##### Install and connect to the Microsoft Teams PowerShell module
 
@@ -220,6 +223,7 @@ Run the following to connect to Teams and start a session.
 ```powershell
 Connect-MicrosoftTeams
 ```
+
 When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
 
 #### Identify your users
@@ -307,11 +311,11 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 For an overview of using PowerShell to manage Teams, see [Teams PowerShell overview](teams-powershell-overview.md). For more information about the cmdlets used in this article, see:
 
-- [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
-- [Get-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)
-- [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
-- [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)
-- [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)
+- [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
+- [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)
+- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
+- [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment)
 
 ## Related topics
 

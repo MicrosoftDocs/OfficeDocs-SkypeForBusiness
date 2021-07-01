@@ -1,8 +1,8 @@
 ---
 title: "DNS requirements for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -22,7 +22,7 @@ description: "Summary: Review the DNS considerations in this topic before implem
 
 **Summary:** Review the DNS considerations in this topic before implementing Skype for Business Server.
 
-This article only addresses DNS planning for Skype for Business Server deployments on an organization's on-premise network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [https://aka.ms/o365ips](https://aka.ms/o365ips).
+This article only addresses DNS planning for Skype for Business Server deployments on an organization's on-premise network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [https://aka.ms/o365ips](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 A Domain name service (DNS) server maps hostnames (like www.<span></span>contoso<span></span>.com, presumably a web server) to IP addresses (such as 10.10.10.10). It helps clients and interdependent servers communicate with each other on the network. When you set up an implementation of Skype for Business Server 2015 you'll need to make sure the mapping of new server names (usually reflecting the role they'll be taking on) matches the IP addresses they are assigned to.
 
@@ -123,7 +123,7 @@ Split brain DNS is a DNS configuration where you have two DNS zones with the sam
 
 If you plan to have some users homed online and some homed on premises, refer to the Hybrid connectivity planning article [Skype for Business server 2019](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). You will need to configure DNS as normal for Skype for Business Server 2015 and also add additional DNS records.
 
-You should also refer to "Office 365 URLs and IP address ranges" at [https://aka.ms/o365ips](https://aka.ms/o365ips) to confirm that your users will have access to the online resources they will need.
+You should also refer to "Office 365 URLs and IP address ranges" at [https://aka.ms/o365ips](/microsoft-365/enterprise/urls-and-ip-address-ranges) to confirm that your users will have access to the online resources they will need.
 
 ## Simple URLs
 <a name="BK_Simple"> </a>
@@ -171,5 +171,3 @@ These generic record requirements apply to any server role used by Skype for Bus
 - [Split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS)
 
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
-
-

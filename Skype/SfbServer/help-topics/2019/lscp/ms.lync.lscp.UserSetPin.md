@@ -1,8 +1,8 @@
 ---
 title: "Set PIN"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -27,4 +27,4 @@ To create your own PIN, select **Manually enter a specific PIN**, and then type 
 
 ## See also
 
-[User PINs](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
+[User PINs](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

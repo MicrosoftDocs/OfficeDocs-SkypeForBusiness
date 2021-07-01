@@ -23,31 +23,31 @@ productDirectory:
           text: What's Business Voice
         - url: https://www.microsoft.com/microsoft-365/business-voice
           text: Microsoft 365 Business Voice          
-        - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
           text: Service description
     # Card
     - title: Set up
       imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
       links:
-        - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+        - url: ./what-to-buy.md
           text: How to get Business Voice
         - url: get-ready-internet.md
           text: Check your Internet connection
         - url: prepare-users.md
           text: Get your users ready
-        - url: use-getting-started-wizard.md
-          text: Run the Getting Started wizard
+        - url: set-up-overview.md
+          text: Set up Business Voice
     # Card
     - title: Customize your setup
       imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
       links:
         - url: port-phone-numbers.md
           text: Port existing phone numbers
-        - url: set-up-auto-attendants.md
+        - url: ./create-a-phone-system-auto-attendant-smb.md
           text: Set up auto attendants
         - url: set-up-policies.md
           text: Set up policies
-        - url: set-up-call-queues.md
+        - url: ./create-a-phone-system-call-queue-smb.md
           text: Set up call queues
           
    # Card
@@ -67,7 +67,7 @@ productDirectory:
     - title: Resources for partners
       imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
       links:
-        - url: https://docs.microsoft.com/partner-center/
+        - url: /partner-center/
           text: Get Microsoft 365 Business from Partner Center
         - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
           text: Microsoft 365 Business Voice for Partners
@@ -86,11 +86,11 @@ productDirectory:
     - title: Help documentation
       imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
       links:
-        - url: /microsoftteams/cloud-voice-landing-page
+        - url: ../cloud-voice-landing-page.md
           text: Microsoft Teams admin docs
         - url: https://microsoftteams.uservoice.com/
           text: Microsoft Teams UserVoice feedback
         - url: https://support.office.com/teams
           text: Microsoft Teams client docs
-        - url: https://docs.microsoft.com/office365/admin/
+        - url: /office365/admin/
           text: Microsoft 365 and Office 365 admin docs

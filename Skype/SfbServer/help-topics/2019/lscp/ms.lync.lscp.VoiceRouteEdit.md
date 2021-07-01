@@ -1,8 +1,8 @@
 ---
 title: "Voice Route Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -23,7 +23,4 @@ What do you want to do? Click the link to the task that you want to perform.
 
 - [Create or modify a voice route in Skype for Business](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
-
-
-
+- [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)

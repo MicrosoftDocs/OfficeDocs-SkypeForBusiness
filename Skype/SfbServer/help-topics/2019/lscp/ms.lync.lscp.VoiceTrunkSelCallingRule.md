@@ -1,8 +1,8 @@
 ---
 title: "Select Calling Number Rules Translation"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -23,8 +23,6 @@ The **Select Calling Number Translation Rules** dialog displays the translation 
 
 1. [Translation rules in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
-2. [Trunk Configuration and Translation Rules](https://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
+2. [Trunk Configuration and Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks)
 
 3. [Create or modify a translation rule for called ID presentation in Skype for Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-
-

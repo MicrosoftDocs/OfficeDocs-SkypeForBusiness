@@ -19,9 +19,11 @@ ms.custom: seo-marvel-apr2020
 
 # Manage Microsoft Teams Rooms
 
-If you have Microsoft Teams Rooms-certified devices in your organization, you can manage them from a central location using the Microsoft Teams admin center. You can:
+If you have Microsoft Teams Rooms-certified devices in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams Admin Center or you can transfer management responsibility to dedicated experts using [Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com).  You can also delegate management access to a partner of your choice for either of the options.
 
-- Perform device management like restarting or blocking devices, and downloading device logs
+With Microsoft Teams Admin Center, you can:
+
+- Perform device management like restarting devices and downloading device logs
 - Apply Teams-specific settings
 - Check the health status of Microsoft Teams Room devices and their peripherals, including cameras, displays, microphones, and so on
 - Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
@@ -32,7 +34,7 @@ To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://a
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams Rooms summary pages in Teams admin center":::
 
 > [!IMPORTANT]
-> To manage devices using the Teams admin center, you need to be assigned the Teams Service Administrator or Global Administrator roles.
+> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator or Teams Device Administrator roles.
 
 ## Make changes to Teams Rooms devices
 
@@ -94,30 +96,16 @@ Changes to device settings will only take effect after the devices have been res
 > [!CAUTION]
 > Devices in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
 
-### Remove or block a device
+### Remove device
 
-When you **remove** a device, the device is removed from your organization and no longer appears in your list of Teams Rooms devices in the Teams admin center. 
+When you remove a device, the device is removed from your organization and no longer appears in your list of Teams Rooms devices in the Teams admin center.
 
-When you **block** a device, Teams no longer communicates with the device. Blocked devices won't be sent commands even if they're included in a group of devices that are being bulk-edited. It's still listed in your list of Teams Rooms devices with a status of **Blocked**.
-
-Regardless of whether a device is blocked or removed, if it's still configured with a valid username and password, it will be automatically re-added to your Teams Rooms devices list if it connects to Microsoft 365.
+If you remove a device and it's still configured with a valid username and password, it will be automatically re-added to your Teams Rooms devices list if it connects to Microsoft 365 again.
 
 To remove one or more devices, do the following:
 
 1. Go to **Devices** > **Teams Rooms** and select the devices you want to remove.
 1. Select **Remove**.
-
-To block a device, do the following:
-
-1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to block.
-1. On the device details page, select **Actions** in the top-right corner of the page.
-1. Select **Block**.
-
-To unblock a device, do the following:
-
-1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to block.
-1. On the device details page, select **Actions** in the top-right corner of the page.
-1. Select **Unblock**.
 
 ## Download device logs
 

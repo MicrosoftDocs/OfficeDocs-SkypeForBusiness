@@ -1,13 +1,13 @@
 ---
-title: Pilot Microsoft Teams with Skype for Business | Deploy, Adopt Implement 
-author: lanachin
-ms.author: v-lanac
+title: Conduct a user pilot to evaluate and test how Microsoft Teams will work in your organization 
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business 
+description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization, while you continue to use Skype for Business 
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -27,11 +27,11 @@ appliesto:
 This article is part of Deployment and Implementation stage of your upgrade journey, and shares insights for running an effective pilot. Before proceeding, confirm that you've completed the following activities:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Prepared your environment](./upgrade-prepare-environment.md)
+- [Prepared your organization](./upgrade-prepare-organization.md)
 
 By deploying new technologies, your organization can realize business value such as cost savings, security compliance, employee satisfaction, and operational efficiencies, but it can also affect your users' productivity and organizational infrastructure (your network). Before enabling new technology across your organization, conduct a formal user pilot. Just like you'd paint a small patch of color on a wall before painting the whole room, you'd test a broad rollout on a smaller scale by conducting a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation.
 
@@ -60,7 +60,7 @@ One of the most important tasks of pilot planning is thoughtful participant sele
 
 ## 3. Design your test plan and feedback survey
 
-For a successful pilot experience, give your participants clearly defined tasks to complete along with a way for them to share their feedback. Group tasks together to offer real-world scenarios to your users, demonstrating relevancy to their daily activities. Let the use cases you defined in [Assess organizational change readiness](https://aka.ms/OrgReadiness) guide your test plan.
+For a successful pilot experience, give your participants clearly defined tasks to complete along with a way for them to share their feedback. Group tasks together to offer real-world scenarios to your users, demonstrating relevancy to their daily activities. Let the use cases you defined in [Assess organizational change readiness](./upgrade-org-change-readiness.md) guide your test plan.
 
 Your organization might choose to pilot all functionality at once, or use a gradual approach—for example, pilot collaboration first, then meetings, then chat and calling. Ensure that you have an open feedback channel to track progress and measure outcomes. Use a predefined survey as an easy way to capture and assess pilot results; the survey design should be based on the scenarios and features in your test plan.
 
@@ -103,8 +103,8 @@ If your results indicate:
 
 - **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
   - Extending the pilot to additional participants
-  - [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](./setting-your-coexistence-and-upgrade-settings.md)
+  - [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](./setting-your-coexistence-and-upgrade-settings.md)
 - **Your pilot didn't achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]

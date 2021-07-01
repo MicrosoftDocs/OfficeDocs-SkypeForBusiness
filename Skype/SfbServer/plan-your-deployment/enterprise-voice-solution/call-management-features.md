@@ -1,8 +1,8 @@
 ---
 title: "Plan for call management features in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -36,12 +36,10 @@ If you plan to deploy Enterprise Voice, you can choose to implement any or all o
 
 ## In this section
 
-- [Planning for Call Parking](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
+- [Planning for Call Parking](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-call-park)
 
-- [Planning for Group Pickup](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
+- [Planning for Group Pickup](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-group-call-pickup)
 
-- [Planning for Response Groups](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
+- [Planning for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-response-groups)
 
-- [Planning for Announcements](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
-
-
+- [Planning for Announcements](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-announcements)

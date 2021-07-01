@@ -1,7 +1,7 @@
 ---
 title: Create your first teams in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -33,7 +33,7 @@ The best way to drive adoption of Teams is to use the product. We recommend that
 | Microsoft Teams Implementation | General <br/> Awareness and Adoption <br/> Business Engagement <br/> Early Adopter Program <br/> Feedback and Insights <br/> Security and Compliance <br/> Strategy and Planning <br/> Service Health and Incidents <br/> Training <br/> Watercooler Chat |
 | Teamwork Champions | General <br/> Best Practices, Training, and How To <br/> Champion Corner <br/> Feedback and Support <br/> Program Leads <br/> Social Hub |
 
-Within Microsoft Teams, the [tab gallery](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) gives you access to all Microsoft 365 or Office 365 and third-party apps that have been turned on by the administrator. To get the most value from your product, we suggest pinning key resources as tabs in each of the appropriate channels. See the example below.
+Within Microsoft Teams, the [tab gallery](/microsoftteams/platform/concepts/tabs/tabs-overview) gives you access to all Microsoft 365 or Office 365 and third-party apps that have been turned on by the administrator. To get the most value from your product, we suggest pinning key resources as tabs in each of the appropriate channels. See the example below.
 
 ![Screen shot showing default and custom tabs](media/teams-adoption-tab-example.png)
 
@@ -42,12 +42,12 @@ In your initial teams, we suggest pinning the following items for easy reference
 |Team/Channel Name | Pinned Tab |
 |----------------- | ---------- |
 | **Microsoft Teams Deployment** ||
-| General | Web tab: [Teams documentation](https://aka.ms/SuccessWithTeams) |
+| General | Web tab: [Teams documentation](./index.yml) |
 | Awareness and adoption | [Teams Adoption Hub](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
 | Business engagement | Wiki – Engagement guidance<br/>Form – Request for Teams consultation<br/>List – Engagement requests |
 |Early adopters | Pinned feedback community <br/> OneNote for FAQ and common themes |
 | Feedback and reporting | Pinned Microsoft 365 or Office 365 usage report (for Microsoft 365 or Office 365 admins only) |
-| Security and compliance | Microsoft Trust Portal <br/> [Security and compliance documentation](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| Security and compliance | Microsoft Trust Portal <br/> [Security and compliance documentation](/office365/securitycompliance/index)<br/> [Roadmap](/office365/securitycompliance/security-roadmap) |
 | Strategy and planning | Collaboration North Star PowerPoint <br/> Service Adoption Project Plan |
 | Training | Custom learning training portal <br/> [Teams online training](https://aka.ms/TeamsTraining) |
 | **Teamwork Champions**|  |

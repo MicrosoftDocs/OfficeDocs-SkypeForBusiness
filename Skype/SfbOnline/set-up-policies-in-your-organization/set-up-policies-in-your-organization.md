@@ -22,6 +22,8 @@ ms.custom:
 
 # Set up policies in your organization
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Policies help determine the features of Skype for Business Online that are made available to users. See the following articles for complete details.
 
 - [Block point-to-point file transfers](block-point-to-point-file-transfers.md)

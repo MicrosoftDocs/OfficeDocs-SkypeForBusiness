@@ -1,13 +1,13 @@
 ---
-title: Plan Skype for Business to Microsoft Teams upgrade | Adoption Framework
-author: lanachin
-ms.author: v-lanac
+title: Plan for your Skype for Business to Microsoft Teams upgrade
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Learn about how to plan for your upgrade by enlisting stakeholders first, and then scoping the project.
+description: Learn about how to plan for your upgrade by enlisting stakeholders, and then scoping the project.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -29,8 +29,8 @@ appliesto:
 A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning. A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals. By taking time to properly define success, you can measure results as you progress through your deployment and verify that you're achieving the outcomes you wanted. Planning your journey includes:
 
 - [Enlisting your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defining the scope of your project](https://aka.ms/SkypetoTeams-Scope)
-- [Understanding coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defining the scope of your project](./upgrade-define-project-scope.md)
+- [Understanding coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Choosing your upgrade journey based on your business needs](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Planning a user pilot](pilot-essentials.md)
 
@@ -39,4 +39,4 @@ After you've planned your journey, you will read topics about [preparing your en
 > [!TIP]
 > Join us for live, interactive workshops in which we'll share guidance, best practices, and resources designed to kick start upgrade planning and implementation.
 >
-> Join the [Plan your upgrade](https://aka.ms/SkypeToTeamsPlanning) session first to get started.
+> Join the [Plan your upgrade](./upgrade-workshops-landing-page.yml) session first to get started.

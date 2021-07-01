@@ -1,8 +1,8 @@
 ---
 title: "Define the PSTN Gateway FQDN"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -25,4 +25,4 @@ For details, see [PSTN connectivity components in Skype for Business Server 2015
 
 ## See also
 
-[PSTN Gateway Deployment Options](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[PSTN Gateway Deployment Options](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-gateway-deployment-options)

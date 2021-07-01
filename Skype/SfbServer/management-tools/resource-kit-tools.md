@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server 2015 Resource Kit Tools Documentation"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
-description: "This topic describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the Web Conf Data tool can be used to easily control data that is uploaded by users during an online meeting. The SEFAUtil tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015."
+description: "This article describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the Web Conf Data tool can be used to easily control data that is uploaded by users during an online meeting. The SEFAUtil tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015."
 ---
 
 # Skype for Business Server 2015 Resource Kit Tools Documentation
 
-This topic describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the **Web Conf Data** tool can be used to easily control data that is uploaded by users during an online meeting. The **SEFAUtil** tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015.
+This article describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the **Web Conf Data** tool can be used to easily control data that is uploaded by users during an online meeting. The **SEFAUtil** tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015.
 
 ## Installation of the Resource Kit Tools
 
@@ -78,7 +78,7 @@ The primary scenarios for the tool are the following:
 
 - To enable administrators to specify the Active Directory Domain Services attribute to be included or excluded in the Address Book Service files.
 
-- To enable administrators to restore default Address Book Service settings.
+- To enable administrators to restore,  default Address Book Service settings.
 
 The ABSConfig tool can be started by using the ABSConfig.exe file. The tool opens to the **Configure Attributes** tab. This table has options to map Active Directory Domain Services attributes to the attribute fields for Skype for Business Server 2015 and to specify which users to include or exclude in Address Book Service files based on specific attribute filters. It also has options to customize which value of the phone number to be included in the Address Book file. The **Restore Defaults** option enables administrators to restore Address Book Service settings to default values.
 
@@ -101,11 +101,11 @@ ABSConfig provides a quick and easy way to customize Skype for Business Server 2
 
 #### Computer
 
-ABSConfig can be run only from a domain-joined computer that has Skype for Business Server 2015 installed. In the case of Skype for Business Server 2015, Enterprise Edition, this tool can be run on any Front End servers that have the Address Book Service enabled during setup.
+ABSConfig can be run only from a domain-joined computer that has Skype for Business Server 2015 installed. In the case of Skype for Business Server 2015, Enterprise Edition, this tool can be run on any Front-End servers that have the Address Book Service enabled during setup.
 
 #### Network
 
-The computer should be able to connect to the Front End pool and back-end database.
+The computer should be able to connect to the Front-End pool and back-end database.
 
 #### Software
 
@@ -184,7 +184,7 @@ Bandwidth Utilization Analyzer is implemented as a GUI-based application. This t
 
 ### Output
 
-Bandwidth Utilization Analyzer provides graphic al plots of bandwidth capacity and utilization for audio for all the WAN links that are configured in the system.
+Bandwidth Utilization Analyzer provides graphical plots of bandwidth capacity and utilization for audio for all the WAN links that are configured in the system.
 
 ### Purpose
 
@@ -222,9 +222,9 @@ Bandwidth Utilization Analyzer has the following two applications (tools):
 
 There are two phases when using Bandwidth Utilization Analyzer:
 
-- Collect logs, which is performed by using WanLinkLogCollector.exe
+- Collect logs, which are performed by using WanLinkLogCollector.exe
 
-- Customize reports, which is performed by using BandwidthUtilizationAnalyzer.xlsm
+- Customize reports, which are performed by using BandwidthUtilizationAnalyzer.xlsm
 
 	> [!IMPORTANT]
 	> We strongly recommend that BandwidthUtilizationAnalyzer.xlsm not be manually launched by end users.
@@ -301,7 +301,7 @@ The filters that can be applied to the report view as shown below are described 
 
 ![Applying filters in Report View.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
-1. **Name** Filter by WAN links (the filter is on the right side of the graph).The prefix denotes the following link types; see the vertical (blue) box:
+1. **Name** Filter by WAN links (the filter is on the right side of the graph). The prefix denotes the following link types; see the vertical (blue) box:
 
    - **S Site** The WAN link from a network site to a network region
 
@@ -528,25 +528,25 @@ DBAnalyzer provides administrators a quick and easy to analyze Skype for Busines
 ## Import Storage Service Data
 <a name="Issd"> </a>
 
-The ImportStorageServiceData resource kit tool allows for re-importing Queue and Endpoint data that was flushed out of the Storage Service (LYSS) back into the Storage Service.
+The ImportStorageServiceData resource kit tool allows for reimporting Queue and Endpoint data that was flushed out of the Storage Service (LYSS) back into the Storage Service.
 
 ### Description
 
-The data flushed out of the Storage Service could have been automatic (periodic) based on Queue Item status or database size. It could have happened due to the manual invocation of the pool failover cmdlet, or the StorageServiceFullFlush cmdlet (which the pool failover cmdlet invokes). Note that data should ideally not be re-imported if any of the Storage Service (LYSS ) database size on the front ends is above the normal level, because doing so will likely just cause more data to be exported back out. Furthermore, any problems which could have contributed to errors that caused the Storage Service Queue to grow should first be resolved (for example Exchange endpoint errors, network issues, or other problems).
+The data flushed out of the Storage Service could have been automatic (periodic) based on Queue Item status or database size. It could have happened due to the manual invocation of the pool failover cmdlet, or the StorageServiceFullFlush cmdlet (which the pool failover cmdlet invokes). Note that data should ideally not be reimported if any of the Storage Service (LYSS ) database sizes on the front ends is above the normal level, because doing so will likely just cause more data to be exported back out. Furthermore, any problems that could have contributed to errors that caused the Storage Service Queue to grow should first be resolved (for example Exchange endpoint errors, network issues, or other problems).
 
- **Scenario 1:** during pool failover, files may be flushed out from storage service for each front end. After failover is completed, the tool should be run to re-import the data.
+ **Scenario 1:** during pool failover, files may be flushed out from storage service for each front end. After failover is completed, the tool should be run to reimport the data.
 
- **Scenario 2:** data is being flushed automatically each day or in response to Storage Service database exceeding certain size thresholds ( for example 60%, 80%, 90% full ). This automatically flushed data should be re-imported routinely by the administrator. In the above situation, if the monitoring SCOM pack is not deployed, there are events for Skype for Business Server Storage Service relating to data being flushed from the Storage Service. Event IDs of 32075 (full flush operation is started), 32076 (full flush has completed), 32082 (maintenance level flush started), 32083 (maintenance level flush complete), 32089 (flush occurred due to filling up of database). Note these event Ids correspond to the RTM release. When an administrator sees these events, it means that there are files that have been flushed out. This data should routinely be imported back using this tool, for example once per week.
+ **Scenario 2:** data is being flushed automatically each day or in response to Storage Service database exceeding certain size thresholds (for example 60%, 80%, 90% full). This automatically flushed data should be reimported routinely by the administrator. In the above situation, if the monitoring SCOM pack is not deployed, there are events for Skype for Business Server Storage Service relating to data being flushed from the Storage Service. Event IDs of 32075 (full flush operation is started), 32076 (full flush has completed), 32082 (maintenance level flush started), 32083 (maintenance level flush complete), 32089 (flush occurred due to filling up of database). Note these event Ids correspond to the RTM release. When an administrator sees these events, it means that there are files that have been flushed out. This data should routinely be imported back using this tool, for example once per week.
 
-For the Online Service release, if health monitoring SCOM pack for Skype for Business Server is deployed, there are new alerts which may be raised which ask the administrator to re-import the flushed data back into Storage Service. There will be a corresponding event in the event log on the Front End server which triggered the alert. The event will give a description of the Parent path under which the flushed data files are located, as well as how many files there are which meet the alert criteria. The alert criteria is that there are X or more files under the particular parent path which are at least Y days old ( where X and Y are preset within the StorageService but can be overridden by changing the APPCONFIG file.)Two examples of events which can trigger the health alert are shown below, with the difference being their parent path. One possibility is under Web service file share, while the other possibility is the local Application Data directory of each front end. ( for example c:\ProgramData\Microsoft\Skype for Business Server 2015\StorageService ). The administrator will then run this reskit tool.
+For the Online Service release, if health monitoring SCOM pack for Skype for Business Server is deployed, there are new alerts that may be raised which ask the administrator to reimport the flushed data back into Storage Service. There will be a corresponding event in the event log on the Front-End server that triggered the alert. The event will give a description of the Parent path under which the flushed data files are located, and how many files there are which meet the alert criteria. The alert criteria is that there are X or more files under the particular parent path that are at least Y days old (where X and Y are preset within the StorageService but can be overridden by changing the APPCONFIG file.)Two examples of events that can trigger the health alert are shown below, with the difference being their parent path. One possibility is under Web service file share, while the other possibility is the local Application Data directory of each front end. (for example c:\ProgramData\Microsoft\Skype for Business Server 2015\StorageService). The administrator will then run this reskit tool.
 
-This tool will increase CPU and IO load on the front end it is running on, as well as other front ends, in the situation that the data is not owned by the front end that the tool is executed on. We recommend runng this tool when front ends are not under heavy CPU and IO load, for example outside of peak hours. Secondly, this tool can 2 to 3 minutes to import one data file. Keep this in mind when estimating how long tool will be running. The verbose log file generated by the tool will by default appear on the File Store. Delete it if there are no errors reported, because the log file can be tens of MB or more.
+This tool will increase CPU and IO load on the front end it is running on, and other front ends, in the situation that the data is not owned by the front end that the tool is executed on. We recommend running this tool when front ends are not under heavy CPU and IO load, for example outside of peak hours. Secondly, this tool can 2 to 3 minutes to import one data file. Keep this in mind when estimating how long tool will be running. The verbose log file generated by the tool will by default appear on the File Store. Delete it if there are no errors reported, because the log file can be tens of MB or more.
 
 ![Sample Storage Server event log events.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
 ### Requirements
 
-Install the Skype for Business Server 2015 Resource Kit tools. The tool runs on domain-joined machines where Skype for Business Server and Skype for Business Server Management Shell are installed. The tool uses a cmdlet from the management shell to identify all the Front End servers in the pool. Secondly, the tool must be executed from a machine in the pool which has the **RtcLocal** database installed. This database is used by the tool to retrieve the location of the WEBSERVICE file share for the pool. Additionally, before using the tool, each Front End server must first enable Windows PowerShell Remoting using **Enable-PSRemoting** on each Front End server, as well as the machine that the tool is executed from. Otherwise, remote Windows PowerShell commands from this tool will fail. Windows PowerShell Remoting can be turned off on all Front End servers in the pool after it is finished. Finally, the account or credential invoking the tool must have read/write permission to the webservice file share for the pool they are executing this tool on. Otherwise the tool will fail with IO Permission errors.
+Install the Skype for Business Server 2015 Resource Kit tools. The tool runs on domain-joined machines where Skype for Business Server and Skype for Business Server Management Shell are installed. The tool uses a cmdlet from the management shell to identify all the Front-End servers in the pool. Secondly, the tool must be executed from a machine in the pool that has the **RtcLocal** database installed. This database is used by the tool to retrieve the location of the WEBSERVICE file share for the pool. Additionally, before using the tool, each Front-End server must first enable Windows PowerShell Remoting using **Enable-PSRemoting** on each Front-End server, and the machine that the tool is executed from. Otherwise, remote Windows PowerShell commands from this tool will fail. Windows PowerShell Remoting can be turned off on all Front-End servers in the pool after it is finished. Finally, the account or credential invoking the tool must have read/write permission to the webservice file share for the pool they are executing this tool on. Otherwise the tool will fail with IO Permission errors.
 
 > [!NOTE]
 > On Windows Server 2012, Windows PowerShell Remoting is enabled by default, but not on the Windows Server 2008 operating system.
@@ -718,7 +718,7 @@ The LCSSync tool helps to deploy Skype for Business Server 2015 communications s
 
 ### Description
 
- LCSSync uses the synchronized Active Directory Domain Services contact objects in the central forest to enable users for Skype for Business Server. To provide single sign-in, the primary user account must be mapped to the Active Directory Domain Services contact object in the central forest for Skype for Business Server 2015. This tool helps perform that mapping. This tool provides templates for creating Management Agents in the Microsoft Identity Integration Server.
+ LCSSync uses the synchronized Active Directory Domain Services contact objects in the central forest to enable users for Skype for Business Server. To provide single sign in, the primary user account must be mapped to the Active Directory Domain Services contact object in the central forest for Skype for Business Server 2015. This tool helps perform that mapping. This tool provides templates for creating Management Agents in the Microsoft Identity Integration Server.
 
 ### Summary
 
@@ -782,11 +782,11 @@ C:\Program Files\Skype for Business Server 2015\ResKit\>LookupUserConsole.exe
 ## MsTurnPing
 <a name="MsTurnPing"> </a>
 
-The MSTurnPing tool allows an administrator of Skype for Business Server 2015 communications software to check the status of the servers running the Audio/Video Edge and Audio/Video Authentication services as well as the servers that are running Bandwidth Policy Services in the topology.
+The MSTurnPing tool allows an administrator of Skype for Business Server 2015 communications software to check the status of the servers running the Audio/Video Edge, Audio/Video Authentication services, and the servers that are running Bandwidth Policy Services in the topology.
 
 ### Description
 
-The MSTurnPing tool allows an administrator of Skype for Business Server 2015 communications software to check the status of the servers running the Audio/Video Edge and Audio/Video Authentication services as well as the servers that are running Bandwidth Policy Services in the topology.
+The MSTurnPing tool allows an administrator of Skype for Business Server 2015 communications software to check the status of the servers running the Audio/Video Edge, Audio/Video Authentication services, and the servers that are running Bandwidth Policy Services in the topology.
 
 The tool allows the administrator to perform the following tests:
 
@@ -843,7 +843,7 @@ This tool can be a valuable resource to Skype for Business Server 2015 administr
 ## Network Configuration Viewer
 <a name="NCV"> </a>
 
-Network Configuration Viewer can be used by Skype for Business Server 2015 communications software administrators to view call admission control (CAC) network topology for an enterprise that is provisioned to allow real-time communication sessions, such as voice or video calls based on specified bandwidth capacity. Skype for Business Server 2015 administrators define CAC policies, which are enforced by the Bandwidth Policy services that are installed with Skype for Business Server 2015.
+Network Configuration Viewer can be used by Skype for Business Server 2015 communications software administrators to view call admission control (CAC) network topology for an enterprise that is provisioned to allow real-time communication sessions, such as voice or video calls based on specified bandwidth capacity. Skype for Business Server 2015 administrators defines CAC policies, which are enforced by the Bandwidth Policy services that are installed with Skype for Business Server 2015.
 
 ### Description
 
@@ -875,7 +875,7 @@ View enterprise CAC network topology links in a graphical interface.
 
 ![Downloading the network configuration.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
- **Load and View CAC network topology from a Bandwidth Policy server log file in a graphical format:** Skype for Business Server 2015 Bandwidth Policy servers save the CAC network topology as a part of the logging mechanism under the Skype for Business Server 2015 file share location. Skype for Business Server 2015 administrators can view such a file in a graphical format by using the **Open Network Configuration** option as shown below.
+ **Load and View CAC network topology from a Bandwidth Policy server log file in a graphical format:** Skype for Business Server 2015 Bandwidth Policy servers saves the CAC network topology as a part of the logging mechanism under the Skype for Business Server 2015 file share location. Skype for Business Server 2015 administrators can view such a file in a graphical format by using the **Open Network Configuration** option as shown below.
 
 ![Opening a Bandwidth Policy Server log file.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
@@ -930,7 +930,7 @@ The figure below illustrates the main interface of Response Group Agent Live.
 
 The following three main features are available for agents in Response Group Agent Live:
 
-- **Sign-in/out:** Contrary to the Agent Groups page (accessible from Skype for Business Server 2015), Response Group Agent Live allows only agents to sign-in or out of all agent groups at once. This application provides three quick ways for agents to sign in or out:
+- **Sign-in/out:** Contrary to the Agent Groups page (accessible from Skype for Business Server 2015), Response Group Agent Live allows only agents to sign in or out of all agent groups at once. This application provides three quick ways for agents to sign in or out:
 
   - Click the Sign-in/out (green and red) buttons within the application.
 
@@ -974,12 +974,12 @@ The figure below illustrates how Response Group Agent Live displays the current 
 
 ### Summary
 
-Fast sign-in and sign-out, group membership, and basic real-time statistics are interesting Response Group agent features that are only available outside the application from the Response Group service. With the Response Group Agent Live Resource Kit tool, Skype for Business Server 2015 administrators can provide their agents with a Windows application that allows them to perform tasks in a faster and graphical way.
+Fast sign in and sign out, group membership, and basic real-time statistics are interesting Response Group agent features that are only available outside the application from the Response Group service. With the Response Group Agent Live Resource Kit tool, Skype for Business Server 2015 administrators can provide their agents with a Windows application that allows them to perform tasks in a faster and graphical way.
 
 ## SEFAUtil
 <a name="SEFAUtil"> </a>
 
-SEFAUtil (secondary extension feature activation) is a command-line tool that enables Skype for Business Server 2015 communications software administrators and helpdesk agents to configure delegate-ringing, call-forwarding, simultaneous ringing, team-call settings and group call pickup on behalf of a Skype for Business Server 2015 user. The tool also allows administrators to query the call-routing settings that are published for a particular user.The SEFAUtil tool allows the administrator to enable/disable/modify call forwarding or simultaneously ringing on behalf of the user. The administrator can specify the target (in the form of a SIP URI) or use a target that has already been published by the user. This tool also allows administrators to add or remove delegates or team-call group members on behalf of the user.This tool is built on Microsoft Unified Communications Managed API (UCMA) 3.0 and requires that administrators create a trusted application in the Central Management store for SEFAUtil.
+SEFAUtil (secondary extension feature activation) is a command-line tool that enables Skype for Business Server 2015 communications software administrators and helpdesk agents to configure delegate-ringing, call-forwarding, simultaneous ringing, team-call settings and group call pickup on behalf of a Skype for Business Server 2015 user. The tool also allows administrators to query the call-routing settings that are published for a particular user. The SEFAUtil tool allows the administrator to enable/disable/modify call forwarding or simultaneously ringing on behalf of the user. The administrator can specify the target (in the form of a SIP URI) or use a target that has already been published by the user. This tool also allows administrators to add or remove delegates or team-call group members on behalf of the user. This tool is built on Microsoft Unified Communications Managed API (UCMA) 3.0 and requires that administrators create a trusted application in the Central Management store for SEFAUtil.
 
 SEFAUtil (secondary extension feature activation) enables Skype for Business Server 2015 administrators and helpdesk agents to configure delegate-ringing, call-forwarding, simultaneous ringing, team-call settings and group call pickup on behalf of a Skype for Business Server 2015 user. This tool also allows administrators to query the call-routing settings that are published for a particular user.
 
@@ -987,7 +987,7 @@ SEFAUtil (secondary extension feature activation) enables Skype for Business Ser
 
 The current version of SEFAUtil is only a command-line tool; there is no supporting graphical user interface. This tool is based on Microsoft Unified Communications Managed API (UCMA) 3.0. The features in this tool allow administrators and helpdesk agents to do the following:
 
-- View all call routing settings for a user (includes call-forwarding, delegation, simultaneous ringing, team-call and group call pickup)
+- View all call routing settings for a user (includes call-forwarding, delegation, simultaneous ringing, team-call, and group call pickup)
 
 - Enable/disable/modify call-forwarding setting (includes destination and no-answer timer)
 
@@ -1026,13 +1026,13 @@ Following are some of the key scenarios where this tool may be used:
 
 - Bob is an executive and has been moved to Skype for Business Server telephony. He has delegation on his existing PBX system. As part of the move to Skype for Business Server 2015, the administrator is able to configure Bob's routing to reflect his pre-existing delegation configuration.
 
-- Alice is travelling and realizes that she is expecting an important call from one of her customers. However, she is in a hotel and has no access to a computer. She calls the helpdesk and requests that they forward to her mobile number all the calls made to her work number. The helpdesk personnel are able to do the configuration on her behalf.
+- Alice is traveling and realizes that she is expecting an important call from one of her customers. However, she is in a hotel and has no access to a computer. She calls the helpdesk and requests that they forward to her mobile number all the calls made to her work number. The helpdesk personnel are able to do the configuration on her behalf.
 
 - Joe's calls to his work number are going to his mobile voicemail whenever he is at work; however, things appear to be working correctly in most other locations. The helpdesk technician is able to view Joe's routing configuration and discovers that Joe has simultaneous ringing configured to his mobile phone. The technician asks Joe about the mobile coverage at his office and is able to determine that the simultaneous ringing rule is what is causing the calls to go to Joe's mobile voicemail when his network coverage is poor.
 
 - Mike is a new employee at Contoso and he's joining a new team on which all members are configured for team-call, when being enabled for Skype for Business Server 2015, the administrator is able to set his team-call group settings to include all his new team members, additionally, the administrator adds Mike as a team-call group member for each of the members in his team.
 
-- A customer service practice in the human resources department at Contoso is to provide personal service for all callers since the first call. Given that all members of the department sit very close to each other, having all phones ringing at the same time with team-call is very disruptive for the team. To provide the best service without disrupting the team members, the Skype for Business Server 2015 administrator takes advantage of the Group Call Pickup capability. The administrator adds all department members to a pickup group and communicates to the department the pickup group number. When Samantha is absent from her desk, Joe notices her phone ringing and he proceeds to answer the call from his desk.
+- A customer service practice in the human resources department at Contoso is to provide personal service for all callers since the first call. Given that all members of the department sit very close to each other, having all phones ringing at the same time with team-call is disruptive for the team. To provide the best service without disrupting the team members, the Skype for Business Server 2015 administrator takes advantage of the Group Call Pickup capability. The administrator adds all department members to a pickup group and communicates to the department the pickup group number. When Samantha is absent from her desk, Joe notices her phone ringing and he proceeds to answer the call from his desk.
 
 ### Requirements
 
@@ -1282,7 +1282,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 ```
 
 > [!NOTE]
-> Adding a member to the team-call group of a user will automatically switch the simultaneous ringing settigs of the users to simulring his team-call group.
+> Adding a member to the team-call group of a user will automatically switch the simultaneous ringing settigs of the users to simultaneous ring his team-call group.
 
  **Output**
 
@@ -1403,11 +1403,11 @@ UM Enabled: True
 
 SYSPrep.ps1 is a Windows PowerShell script that will install the following Skype for Business Server 2015 prerequisites on your Windows Server 2008 operating system machine.
 
-- Microsoft .Net Framework 4.5
+- Microsoft .NET Framework 4.5
 
 - Microsoft SQL Server Express
 
-- Windows Powershell version 3.0
+- Windows PowerShell version 3.0
 
 - Visual C++ 2010 Redistributable
 
@@ -1426,9 +1426,9 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 
 | **Prerequisite**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
-| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
-| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
+| Windows PowerShell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
 | Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
 | Internet Information Server Updates  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
@@ -1534,7 +1534,7 @@ This tool allows the administrator to perform the following operations:
 4. Move all Web conferencing data associated with a single user when that user is moved from one pool to another.
 
 	> [!NOTE]
-	> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) cmdlet.
+	> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](/powershell/module/skype/move-csuser?) cmdlet.
 
 The tool deletes meeting data only for meetings that are inactive. Active meetings (or meetings in sessions) cannot be deleted.
 
@@ -1575,5 +1575,3 @@ The preceding is an example of a delete command. The delete command will remove 
 ### Summary
 
 This tool can be a valuable resource to administrators who need more precise control over conference meeting data.
-
-

@@ -1,7 +1,7 @@
 ---
 title: "Upgrade Teams phones to Teams displays"
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -85,4 +85,4 @@ If certain apps are missing from the Home screen after the upgrade, sign out and
 
 [IP Phones certified for Microsoft Teams](teams-ip-phones.md)
 
-[Cortana voice assistance in Teams](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)
+[Cortana voice assistance in Teams](../cortana-in-teams.md)

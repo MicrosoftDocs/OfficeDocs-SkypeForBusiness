@@ -27,13 +27,14 @@ When a reasonable expectation of litigation exists, organizations are required t
 Within Microsoft Teams, an entire team or select users can be put on legal hold. Doing that will make sure that all messages that were exchanged in those teams (including private channels) or messages exchanged by those individuals are discoverable by the organization's compliance managers or Teams Admins.
 
 > [!NOTE]
-> Placing a user on hold doesn't automatically place a group on hold or vice-versa.
+> Placing a user on hold does not automatically place a group on hold or vice-versa.
+> Notifications sent in activity feed can't be placed on hold.
 
-To put a user or a team on legal hold:
+To put a user or a team on legal hold in a Core eDiscovery case:
 
-1. Navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). When you create a new case, you are presented with the option to place mailboxes or sites on hold.
+1. Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com). When you create a new case, you are presented with the option to place mailboxes or sites on hold.
 
-2. Go to **eDiscovery** and create a case by clicking **Create a case**. After the case is created, open it.
+2. Go to **eDiscovery** > **Core** and create a case by clicking **Create a case**. After the case is created, open it.
   
    ![Microsoft Teams eDiscovery tab is selected, showing the Create a case button.](media/LegalHold1.png)
 
@@ -60,15 +61,21 @@ After the legal hold has been created, you can search the content retained by an
 > [!IMPORTANT]
 > When a user or group is placed on hold, all message copies will be retained. For example, if a user posted a message in a channel and then modified the message, in a hold scenario, both copies of the message are retained. Without the legal hold in-place, only the latest message is retained.
 
-As a helpful guide, you can use the table below to understand what needs to be placed on Legal Hold based on data requirements:
+## Content locations to place on legal hold to preserve Teams content
 
-|Scenario  |What to place on hold|
+As a helpful guide, you can use the following table to understand what content location (such as a mailbox or site) to place on legal hold to preserve different types of Teams content.
+
+|Scenario  |Content location  |
 |---------|---------|
-|Microsoft Teams chats content by a user (for example, 1:1 chats, 1:N or group chats, private channel conversations, and [card content](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards))     |User mailbox         |
-|Microsoft Teams Channel chats and card content (excluding private channels)   |Group mailbox used for the team         |
-|Microsoft Teams content (for example, team Wiki and files)     |SharePoint site used by the team         |
-|Microsoft Teams private channel files     |Dedicated Private Channel SharePoint Site     |
-|User's private content     |OneDrive for Business site of the user         |
+|Teams chats for a user (for example, 1:1 chats, 1:N group chats, and private channel conversations)     |User mailbox.         |
+|Teams channel chats (excluding private channels)    |Group mailbox used for the team.         |
+|Teams file content (for example, Wiki content and files)     |SharePoint site used by the team.         |
+|Teams private channel files     |Dedicated SharePoint site for private channels.     |
+|User's private content     |The user's OneDrive for Business account.         |
+|Card content in chats|User mailbox for 1:1 chats, 1:N group chats, and private channel conversations or group mailbox for card content in channel messages. For more information, see the "Preserve card content" section in [Create an eDiscovery hold](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content).
+||||
 
 > [!NOTE]
-> To retain communication in private channels, you need to put the user mailboxes (private channel users) on hold. When searching for content in private channels, you should search that user's mailbox. As previously, private channel chats are stored in user mailboxes, not in group mailbox of a Team.
+> To retain communication in private channels, you need to put the user mailboxes ( Private channel users) on hold and when using eDiscovery tool to search, you should search in that user’s mailbox. As was stated earlier, private channel chats are stored in user mailboxes, not in group mailbox of a Team.
+
+If you want to read further on this topic for non-Teams areas in Microsoft 365, you should review [Manage eDiscovery cases: Place content locations on hold](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).

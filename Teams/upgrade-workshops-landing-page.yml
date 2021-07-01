@@ -36,23 +36,13 @@ productDirectory:
     - title: Plan your upgrade (Start here!)
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-      summary: Discover everything you need to facilitate a successful upgrade to Teams. Audience - All (Business sponsors, IT admins, user readiness/change manager, project lead)
-      url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+      summary: Whether you're upgrading to Teams ahead of the retirement of Skype for Business Online (July 31, 2021) or moving scenarios from your Skype for Business on-premises environment to Teams, a successful transition addresses both technical and user readiness. Discover our proven framework, best practices, and resources designed to help you facilitate a successful transition to Teams from Skype for Business Online, Skype for Business Server, or a hybrid environment. Audience – All (Business sponsors, IT admins, user readiness/change manager, project lead)
+      url: https://aka.ms/SfBtoTeamsPlan
     # Card
-    - title: Ready your end users
-      imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-      summary: Design a user readiness strategy to help your users love and adopt Teams. Audience - User readiness/change manager
-      url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
-    # Card
-    - title: Identify your upgrade approach
+    - title: Implement your Teams upgrade
       imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-      summary: Determine the most suitable approach based on your current Skype for Business implementation and upgrade goals. Audience - IT admins
-      url: https://microsoftteams.eventbuilder.com/UpgradeApproach
-    # Card
-    - title: Implement your upgrade approach
-      imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-      summary: Execute your defined upgrade approach as part of your formal upgrade plan. Audience - IT admins
-      url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+      summary: Join us to identify and prepare to execute the best technical approach for moving all workloads to Teams, based on your goals and your current Skype for Business environment. Most customers who have completed successful transitions have enabled Teams alongside their current Skype for Business Online, Skype for Business Server, or hybrid implementation. This session will share key considerations and valuable resources to help you define the best migration strategy for your organization. Audience - IT admins
+      url: https://aka.ms/SfBtoTeamsImplement
 
 # additionalContent section (optional)
 # Card with summary style
@@ -61,15 +51,10 @@ additionalContent:
   sections:
     - items:
         # Card
-        - title: View these workshops on your own time
-          summary: Visit Upgrade to Microsoft Teams on YouTube.
-          url: https://aka.ms/UpgradeOnDemand
-        # Card
         - title: Expanding your Teams scenarios? 
           summary: Check out our Teams Chalk Talk workshops for IT Pros.
-          url: https://aka.ms/TeamsChalkTalks
+          url: ./chalk-talks-landing-page.yml
         # Card
         - title: New to Teams? 
           summary: Learn more about getting started with Teams.
-          url: https://docs.microsoft.com/microsoftteams/teams-overview
-
+          url: ./teams-overview.md

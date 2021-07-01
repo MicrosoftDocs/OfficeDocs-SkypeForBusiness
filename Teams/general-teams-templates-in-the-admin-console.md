@@ -1,5 +1,5 @@
 ---
-title: Use general Teams templates in the admin center
+title: Use general team templates in the admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use general Teams templates to create team structures by providing predefined settings, channels, and pre-installed apps using the admin center.
+description: Learn how to use general team templates to create team structures by providing predefined settings, channels, and pre-installed apps using the admin center.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -21,19 +21,17 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use general Teams templates in the admin center
+# Use general team templates in the admin center
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+Team templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Team templates have pre-built definitions of team structures designed around financial needs. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
 
-Teams templates have pre-built definitions of team structures designed around financial needs. You can also extend the Teams templates to create teams that are tailored to your specific organizational needs.
+In this article, we introduce each of the team templates and recommend how to use them.
 
-In this article, we introduce each of the Teams templates and recommend how to use them.
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't rolled out Teams, start by reading the [How to roll out Microsoft Teams](How-to-roll-out-teams.md).
-
-To learn more about team templates in general, refer to [Get started with Teams templates](get-started-with-teams-templates-in-the-admin-console.md).
+To learn more about team templates in general, refer to [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Global crisis or event
 
@@ -41,7 +39,7 @@ Centralize collaboration for your crisis team across business units and help cre
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |--|----------------------------------------------------------|
-| Collaborate on global crisis or event |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li></ul>|
+| Collaborate on global crisis or event |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>External comms</li><li>Approvals request</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
 ||||
 
 ## Adopt Office 365
@@ -59,7 +57,7 @@ Manage tasks, share documents, conduct project meetings and document risks and d
 
 | Base template type| baseTemplateId| Properties that come with this base template |
 | ------------------|--|-----------------------------------------------------------|
-| Manage a project| com.microsoft.teams.template.ManageAProject  | Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Manage a project| `com.microsoft.teams.template.ManageAProject`  | Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Lists</li> </ul> |
 ||||
 
 ## Manage an event
@@ -79,7 +77,7 @@ Improve your culture and streamline your employee onboarding with this central t
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------|--|-----------------------------------------------------------|
-|Onboard employees|`com.microsoft.teams.template.OnboardEmployees`  | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee chat</li> <li>Training</li></ul>Apps:<ul><li>Wiki</li><li>Communities</li></ul>|
+|Onboard employees|`com.microsoft.teams.template.OnboardEmployees`  | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee chat</li> <li>Training</li></ul>Apps:<ul><li>Wiki</li><li>Communities</li><li>Planner</li></ul>|
 ||||
 
 ## Organize a help desk
@@ -88,5 +86,5 @@ Collaborate on documentation, policy, and processes that support your helpdesk. 
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------|--|------------------------------------------------------------|
-|Organize help desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li></ul> |
+|Organize help desk|`com.microsoft.teams.template.OrganizeHelpDesk`| Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Praise </li></ul> |
 ||||

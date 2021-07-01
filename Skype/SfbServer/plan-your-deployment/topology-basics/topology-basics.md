@@ -1,8 +1,8 @@
 ---
 title: "Topology Basics for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -131,7 +131,7 @@ The Front End Server includes the following:
 
 - Web components to supported web-based tasks such as web scheduler and join launcher.
 
-- Optionally, Archiving, to archive IM communications and meeting content for compliance reasons. For details, see [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) in the Planning documentation.
+- Optionally, Archiving, to archive IM communications and meeting content for compliance reasons. For details, see [Planning for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-archiving) in the Planning documentation.
 
     In Lync Server 2010 and prior versions, Monitoring and Archiving were separate server roles, not collocated on Front End Server.
 

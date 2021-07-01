@@ -1,7 +1,7 @@
 ---
 title: Plan Location-Based Routing for Direct Routing
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

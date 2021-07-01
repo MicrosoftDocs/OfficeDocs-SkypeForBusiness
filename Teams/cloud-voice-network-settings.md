@@ -1,7 +1,7 @@
 ---
 title: Network settings for cloud voice features
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -56,3 +56,6 @@ Trusted IP addresses are the internet external IP addresses of the enterprise ne
 If the user's external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user's endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
 
 If the user's external IP address doesn't match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
+
+> [!Important]
+> Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.

@@ -1,8 +1,8 @@
 ---
 title: "Manage health and monitoring in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -34,7 +34,6 @@ Topics in this section provide step-by-step procedures for monitoring and health
 
 
 
-[Plan for monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[Plan for monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[Deploy monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-
+[Deploy monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

@@ -31,14 +31,14 @@ The call sharing and group call pickup features of Microsoft Teams let users sha
 
 Group call pickup is less disruptive to recipients than other forms of call sharing (such as call forwarding or simultaneous ringing) because users can configure how they want to be notified of an incoming shared call (via audio and visual notification, visual only, or banner in the Teams app), and they can decide whether to answer it.
 
-To share calls with others, a user creates a call group and adds the users they want to share their calls with. Then they choose a simultaneous ring or forward setting. See [Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) for details.
+To share calls with others, a user creates a call group and adds the users they want to share their calls with. Then they choose a simultaneous ring or forward setting. See [Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) for details. Note that mobile devices will only get notified if they're set for banner and ringtone.
 
 > [!IMPORTANT]
 > Users, the call group owner, and members of the call group must be in Teams Only deployment mode. For more details on Teams deployment modes, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## License required
 
-Users must be Enterprise Voice enabled to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Users must be assigned a Microsoft Teams Phone System license to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Here's what you get with Phone System](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 ## Configure group call pickup
 
@@ -52,7 +52,7 @@ Important: When admins turn off call groups for users (after it has been turned 
 
 ## Limitations
 
-A tenant can contain a maximum of 32,768 call groups. There can be a maximum of 25 users in each call group. 
+Each configured call group can have a maximum of 25 users or 32,768 characters. 
 
 ## More information
 

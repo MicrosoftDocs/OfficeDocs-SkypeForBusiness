@@ -1,8 +1,8 @@
 ---
 title: "Manage Skype for Business Server 2019 using SCOM Management pack"
 ms.reviewer: 
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -200,35 +200,35 @@ Creating a new management pack for storing customizations of each sealed managem
 
 The following links connect you to information about common tasks that are associated with System Center 2012 Monitoring Packs:
   
-- [Management Pack Life Cycle](https://technet.microsoft.com/library/hh212732.aspx)
+- [Management Pack Life Cycle](/previous-versions/system-center/system-center-2012-R2/hh212732(v=sc.12))
     
-- [How to Import a Management Pack in Operations Manager 2012](https://technet.microsoft.com/library/hh212691.aspx)
+- [How to Import a Management Pack in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212691(v=sc.12))
     
-- [How to Override a Rule or Monitor](https://technet.microsoft.com/library/hh212869.aspx)
+- [How to Override a Rule or Monitor](/previous-versions/system-center/system-center-2012-R2/hh212869(v=sc.12))
     
-- [How to Create a Run As Account in Operations Manager 2012](https://technet.microsoft.com/library/hh321655.aspx)
+- [How to Create a Run As Account in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh321655(v=sc.12))
     
-- [Managing Run As Accounts and Profiles](https://technet.microsoft.com/library/hh212714.aspx)
+- [Managing Run As Accounts and Profiles](/previous-versions/system-center/system-center-2012-R2/hh212714(v=sc.12))
     
-- [How to Export an Operations Manager Management Pack](https://technet.microsoft.com/library/hh320149.aspx)
+- [How to Export an Operations Manager Management Pack](/previous-versions/system-center/system-center-2012-R2/hh320149(v=sc.12))
     
-- [How to Remove an Operations Manager Management Pack](https://technet.microsoft.com/library/hh230746.aspx)
+- [How to Remove an Operations Manager Management Pack](/previous-versions/system-center/system-center-2012-R2/hh230746(v=sc.12))
     
 The following links connect you to information about common tasks that are associated with System Center 2007 Monitoring Packs:
   
-- [Administering the Management Pack Life Cycle](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Administering the Management Pack Life Cycle](/previous-versions/system-center/operations-manager-2007-r2/cc974486(v=technet.10))
     
-- [How to Import a Management Pack in Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [How to Import a Management Pack in Operations Manager 2007](/previous-versions/system-center/operations-manager-2007-r2/cc974494(v=technet.10))
     
-- [How to Monitor Using Overrides](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [How to Monitor Using Overrides](/previous-versions/system-center/operations-manager-2007-r2/bb309719(v=technet.10))
     
-- [How to Create a Run As Account in Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [How to Create a Run As Account in Operations Manager 2007](/previous-versions/system-center/operations-manager-2007-r2/bb309445(v=technet.10))
     
-- [How to Modify an Existing Run As Profile](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [How to Modify an Existing Run As Profile](/previous-versions/system-center/operations-manager-2007-r2/dd891202(v=technet.10))
     
-- [How to Export Management Pack Customizations](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [How to Export Management Pack Customizations](/previous-versions/system-center/operations-manager-2007-r2/cc974487(v=technet.10))
     
-- [How to Remove a Management Pack](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [How to Remove a Management Pack](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
 For questions about Operations Manager and monitoring packs, see the [System Center Operations Manager community forum](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   

@@ -1,8 +1,8 @@
 ---
 title: "Legacy Merge Summary Page"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -25,4 +25,4 @@ Review the summary and determine if your selections have been correctly defined.
 
 ## See also
 
-[Migration from Office Communications Server 2007 R2 to Lync Server 2013](https://technet.microsoft.com/library/f3fa4f5f-e9a2-4fb7-a12d-20f04173e697.aspx)
+[Migration from Office Communications Server 2007 R2 to Lync Server 2013](/previous-versions/office/lync-server-2013/migration-from-office-communications-server-2007-r2-to-lync-server-2013)

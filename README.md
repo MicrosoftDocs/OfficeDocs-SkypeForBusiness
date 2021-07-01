@@ -10,7 +10,7 @@ When you contribute your work will go directly into the content set after being 
 
 ## Contribute using the GitHub website
 
-### NOTE: The following guidance is for Office PowerShell but the same process applies for any Markdown document on GitHub.
+### NOTE: The following guidance is for Office PowerShell but the same process applies to any Markdown document on GitHub.
 
 [![Image of Quick Start video](images/edit_video_capture.jpg)](https://support.office.com/article/edit-powershell-cmdlet-in-github-dcd20227-3764-48ce-ad6e-763af8b48daf?ui=en-US&rs=en-US&ad=US)
 
@@ -27,7 +27,7 @@ When you contribute your work will go directly into the content set after being 
 
 5. You can click the Preview changes link to see what the changes will look like.
 
-6. Once you are satisified with your work, go to the **Propose file change** area at the bottom of the topic. Enter a title and other description informaton and then click **Propose file change**.
+6. Once you are satisfied with your work, go to the **Propose file change** area at the bottom of the topic. Enter a title and other description information and then click **Propose file change**.
 ![Image of Propose file change on Github](images/propose_file_change.png)
 
 7. On the next screen, click **Create pull request**.

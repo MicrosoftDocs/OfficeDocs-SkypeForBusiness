@@ -1,8 +1,8 @@
 ---
 title: "Office Web Apps Servers Scope Node"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -29,4 +29,4 @@ You right click **Office Web Apps Servers** and select **New Office Web Apps Ser
 
 ## See also
 
-[Configuring Integration with Office Web Apps Server](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Configuring Integration with Office Web Apps Server](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

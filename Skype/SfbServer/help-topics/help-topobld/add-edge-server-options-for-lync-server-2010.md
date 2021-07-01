@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server Options for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -32,6 +32,6 @@ You define a new Edge Server or Edge pool and are presented with the opportunity
 
 ## See also
 
-[Planning for External User Access](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+[Planning for External User Access](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-external-user-access)
 
-[Deploying External User Access](https://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
+[Deploying External User Access](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-external-user-access)

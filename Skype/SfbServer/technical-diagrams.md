@@ -1,8 +1,8 @@
 ---
 title: Posters for Skype for Business Server 2015 | Voice PSTN
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -36,7 +36,7 @@ You might need additional software to view these files. See the following table 
 
 These posters detail a specific technical area, and are intended to be used with corresponding articles or content available on the download center.
 
-For more information about using Microsoft Teams, see [Microsoft Teams IT architecture and telephony solutions posters](https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters).
+For more information about using Microsoft Teams, see [Microsoft Teams IT architecture and telephony solutions posters](/MicrosoftTeams/teams-architecture-solutions-posters).
 
 |Title|Description|
 |:---|:---|

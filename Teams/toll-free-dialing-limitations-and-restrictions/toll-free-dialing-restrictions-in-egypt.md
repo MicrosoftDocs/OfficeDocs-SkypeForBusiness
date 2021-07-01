@@ -39,14 +39,13 @@ description: Learn about dialing toll-free numbers in Egypt, including availabil
 |Island/territory covered  <br/> |Not applicable  <br/> |
 |Island/territory not covered  <br/> |Not applicable  <br/> |
 |Wired/fixed line availability  <br/> |From Telecom Egypt only.  <br/> |
-|Mobile network availability  <br/> |Yes  <br/> |
+|Mobile network availability  <br/> |No  <br/> |
 |Comments, restrictions, and access issues  <br/> |None  <br/> |
    
 ## Related topics
 
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

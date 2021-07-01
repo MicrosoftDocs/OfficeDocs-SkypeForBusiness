@@ -1,8 +1,8 @@
 ---
 title: "Manage two-factor authentication in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -98,7 +98,7 @@ The **SavePassword** registry setting should be disabled when Skype for Business
 
 AD FS 2.0 provides a feature referred to as token replay detection, by which multiple token requests using the same token can be detected and then discarded. When this feature is enabled, token replay detection protects the integrity of authentication requests in both the WS-Federation passive profile and the SAML WebSSO profile by making sure that the same token is never used more than once.
   
-This feature should be enabled in situations where security is a very high concern such as when using kiosks. For more information about token replay detection, see [Best Practices for Secure Planning and Deployment of AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+This feature should be enabled in situations where security is a very high concern such as when using kiosks. For more information about token replay detection, see [Best Practices for Secure Planning and Deployment of AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10)).
   
 ## External User Access
 
@@ -107,4 +107,3 @@ Configuring an ADFS Proxy or Reverse Proxy to support Skype for Business two-fac
 ## See also
 
 [Configure two-factor authentication in Skype for Business Server](configure-two-factor.md)
-  

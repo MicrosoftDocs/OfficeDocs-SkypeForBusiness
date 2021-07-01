@@ -1,9 +1,9 @@
 ---
 title: "Set the Caller ID for a user"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz
+ms.reviewer: jens, roykuntz
 ms.topic: article
 ms.assetid: c7323490-d9b7-421a-aa76-5bd485f80583
 ms.tgt.pltfrm: cloud
@@ -13,7 +13,7 @@ ms.collection:
   - M365-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
+  - Skype for Business Online  
   - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
@@ -24,118 +24,97 @@ ms.custom:
 description: Learn about the Microsoft 365 and Office 365 default caller ID (a user's assigned telephone number), also known as Calling Line ID. You can change or block a user's caller ID.
 ---
 # Set the Caller ID for a user
-The Phone System in Microsoft 365 and Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
+
+Phone System in Microsoft 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
   
-> [!TIP]
-> You can't block incoming calls currently in Skype for Business Online. 
+By default, the following caller ID settings are **turned off**. This means that the Teams user's phone number can be seen when that user makes a call to a PSTN phone. You can change these settings as follows:
   
-There are settings that you can change:
-  
-> [!NOTE]
-> This **is not** for on-premises organizations with Lync or Skype for Business Server.
-  
-- **Change their outgoing caller ID** You can replace a user's Caller ID, which by default is their telephone number, with another phone number. For example, you could change the user's Caller ID from their phone number to a main phone number for your business or change the user's Calling Line ID from their phone number to a main phone number for the legal department. You can change the Calling ID number to any Online **service** number (toll or toll-free).
+- **Outgoing caller ID** You can replace a user's Caller ID, which by default is their telephone number, with another phone number. For example, you could change the user's Caller ID from their phone number to a main phone number for your business or change the user's Calling Line ID from their phone number to a main phone number for the legal department. You can change the Calling ID number to any online service number (toll or toll-free). You can also change the Calling ID number to an on-premises phone number through Direct Routing that is assigned to a resource account used by an Auto Attendant or Call Queue.
     
-    > [!NOTE]
-    > If you want to use the  _Service_ parameter, you must specify a valid service number.
+  > [!NOTE]
+  > If you want to use the *Service* parameter, you must specify a valid service number.
+  > You need to use the PowerShell cmdlets for Resource account number if not visible in drop down.
   
-- **Block their outbound caller ID** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
+- **Block outbound caller ID.** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
     
-- **Block their incoming caller ID** You can block a user from receiving Caller ID on any incoming PSTN calls.
+- **Block incoming caller ID.** You can block a user from receiving Caller ID on any incoming PSTN calls.
+
+- **Set Calling Party Name (CNAM).** For your Microsoft Teams users you can send a CNAM on outbound PSTN calls.
     
 > [!IMPORTANT]
 > Emergency calls will always send the user's telephone number (caller ID). 
   
-By default, all of these caller ID settings are **turned off**. This means that the Skype for Business Online user's phone number can be seen when that user makes a call to a PSTN phone.
+
   
-To learn more about these settings and how you can use them, go [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
+To learn more about these settings and how you can use them, see [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
   
 ## Set your caller ID policy settings
 
 > [!NOTE]
-> For all of the Caller ID settings in Skype for Business Online, you must use Windows PowerShell and you **can't use** the **Skype for Business admin center**. 
-  
-### Verify and start Windows PowerShell
+> To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.) 
 
-- **Check that you are running Windows PowerShell version 3.0 or higher**
+Open 
+a Windows PowerShell command prompt and run the following commands:
+
+```PowerShell
+# When using Teams PowerShell Module
+
+Import-Module MicrosoftTeams
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
+``` 
+
+### View, create, and apply policy settings
+
+1. To view all of the caller ID policy settings in your organization, run:
+
+     ```PowerShell
+     Get-CsCallingLineIdentity |fl
+     ```
+   For more information, see [Get-CsCallingLineIdentity](/powershell/module/skype/Get-CsCallingLineIdentity).
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+2. To create a new caller ID policy for your organization, use the New-CsCallingIdentity cmdlet:
     
-2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
+     ```PowerShell
+     New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
+     ```
+    In all cases, the "Service Number" field should not include an initial "+".
+
+   For more information, see [New-CsCallingLineIdentity](/powershell/module/skype/New-CsCallingLineIdentity).
     
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
+3. Apply the new policy you created by using the Grant-CsCallingIdentity cmdlet. For example, the following example applies the new policy to user Amos Marble.
     
-4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
+     ```PowerShell
+      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     ```
+   For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
     
-    If you need to know more, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx).
+
+4. If you want to block the incoming caller ID, run:
     
-- **Start a Windows PowerShell session**
-    
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. In the **Windows PowerShell** window, connect to your Microsoft 365 or Office 365 by running:
-    
-   > [!NOTE]
-   >
-   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
-   > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
    ```PowerShell
-    Import-Module -Name MicrosoftTeams
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
+   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true
+   ``` 
+
+   For more information, see [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity).
+    
+5. To apply the policy setting you created to a user in your organization, run:
+    
+   ```PowerShell
+   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
+   ```
+   For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity).
+
+6. To create a new Caller ID policy that sets the Caller ID to the phone number of the specified resource account and sets the Calling party name to Contoso:
+
+   ```PowerShell
+   $ObjId = (Get-CsOnlineApplicationInstance -Identity dkcq@contoso.com).ObjectId
+   New-CsCallingLineIdentity  -Identity DKCQ -CallingIDSubstitute Resource -EnableUserOverride $false -ResourceAccount $ObjId -CompanyName "Contoso"
    ```
 
-If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+If you have already created a policy, you can use the [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet to apply the settings to your users.
     
-### See all of the caller ID policy settings in your organization
-
-- To view all of the caller ID policy settings in your organization, run:
-
-  ```PowerShell
-  Get-CsCallingLineIdentity |fl
-  ```
-  See more examples and details for [Get-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx).
-    
-### Create a new caller ID policy for your organization
-
-
-- To create a new caller ID policy that sets the caller ID to anonymous, run:
-    
-  ```PowerShell
-  New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
-  ```
-  > [!NOTE]  
-  > In all cases, the "Service Number" field should not include an initial "+".
-
-  See more examples and details for [New-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx).
-    
-- To apply the new policy you created to Amos Marble, run:
-    
-  ```PowerShell
-   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
-  ```
-  See more on the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet.
-    
-If you have already created a policy, you can use the [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet to apply the settings to your users.
-  
-### Set it so the incoming caller ID is blocked
-
-- To block the incoming caller ID, run:
-    
-  ```PowerShell
-  Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
-  ```
-  See more examples and details for [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx).
-    
-- To apply the policy setting you created to a user in your organization, run:
-    
-  ```PowerShell
-  Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
-  ```
-    See more on the [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet.
-    
-### Remove a caller ID policy
+### Remove a policy setting
 
 To remove a policy from your organization, run:
   
@@ -149,31 +128,30 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## Want to know more about Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 using a single point of administration that can simplify your daily work. To get started with Windows PowerShell, see these topics:
     
-  - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+- [An introduction to Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365 or Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Best ways to manage Microsoft 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+- [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
+- [Using Windows PowerShell to do common Skype for Business Online management tasks](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
  ## Related topics
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
+[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [More about Calling Line ID and Calling Party Name](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 

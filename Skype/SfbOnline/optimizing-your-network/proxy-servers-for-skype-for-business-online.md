@@ -24,6 +24,8 @@ description: "This article provides information about using a proxy server with 
 
 # Proxy servers for Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article provides guidance about using a proxy server with Skype for Business.
   
 ## Not using a proxy server is recommended

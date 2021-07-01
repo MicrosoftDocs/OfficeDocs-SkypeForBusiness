@@ -2,8 +2,8 @@
 title: Teams for Retail
 description: Learn about the admin resources available to manage and get the most out of Teams for your retail stores and workforce.
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 f1.keywords:
@@ -24,4 +24,4 @@ Use the admin resources here to manage and get the most out of Teams for your re
 
 |               |               |
 | ------------- | ------------- |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [Get started with Retail Teams templates](/microsoftteams/get-started-with-retail-teams-templates) |
+| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [Get started with Retail Teams templates](../get-started-with-retail-teams-templates.md) |

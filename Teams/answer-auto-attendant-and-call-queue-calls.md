@@ -1,6 +1,6 @@
 ---
 title: Answer auto attendant and call queue calls
-ms.reviewer: waseemh
+ms.reviewer: colongma
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,8 +21,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Answer auto attendant and call queue calls directly from Teams
-===========================================================
+# Answer auto attendant and call queue calls directly from Teams
 
 Teams users can receive and answer calls from Cloud auto attendants and call queues directly from their Teams client.
 
@@ -44,6 +43,8 @@ Once an auto attendant or call queue call is answered, the user can process the 
 
 > [!NOTE] 
 > Call queue calls are not forwarded based on the user's configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
+
+> Agents are not notified of any missed calls or voicemails for call queue calls.
 
 ## Supported clients
 

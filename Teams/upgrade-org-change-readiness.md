@@ -1,13 +1,13 @@
 ---
-title: Skype for Business to Microsoft Teams| Upgrade User Change Readiness  
-author: lanachin
-ms.author: v-lanac
+title: Assess organizational change readiness for your Skype for Business to Teams upgrade
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Learn how to assess your organization's readiness to successfully transition to the Microsoft Teams environment.
+description: Learn how to assess your organization's readiness for a successful transition to Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -29,8 +29,8 @@ appliesto:
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 After you've secured your project team and defined your vision, scope, and goals, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn't guarantee that you achieve your goal. Users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn't all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are two ways you should look at your user base:
@@ -142,7 +142,7 @@ It could be easy to get carried away forming a teamwork strategy for every user,
 
   - Sales teams/regions – road warriors, easy access resources, quick turn-around responses
   - HR – standardized processes across all divisions, consistent approach for hiring
-  - Firstline workers – connection to their peers/management, access to procedures, NEO
+  - Frontline workers – connection to their peers/management, access to procedures, NEO
 
 - Keep these considerations in mind:
 
@@ -151,4 +151,4 @@ It could be easy to get carried away forming a teamwork strategy for every user,
   - Consider timing. Rolling out a new teamwork strategy to sales at the end of your fiscal year may not be ideal.
   - Iterate. No need to reinvent the wheel. When you find a teamwork structure that works, repeat it with other workgroups and projects. Define a template team and set guidelines to help users quickly assimilate into Teams and provide consistency.
 
-Use the information you've gathered above to inform your [user readiness plan](https://aka.ms/UserReadinessPlan).
+Use the information you've gathered above to inform your [user readiness plan](./upgrade-user-readiness.md).

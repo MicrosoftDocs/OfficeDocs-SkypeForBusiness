@@ -1,8 +1,8 @@
 ---
 title: "Plan for Exchange Unified Messaging integration in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -49,7 +49,7 @@ Skype for Business Server, Enterprise Voice uses the Exchange Unified Messaging 
 
 - **Auto attendant** Auto attendant is an Exchange UM feature that can be used to configure a phone number that outside users can dial to reach company representatives. In particular, it provides a series of voice prompts that assist an external caller in navigating a menu system. The list of available options is configured on the Exchange UM server by the Exchange UM administrator.
 
-- **Fax Services** Exchange UM includes fax features, which enable users to receive incoming faxes in their Exchange mailboxes. For details, see [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) in the Microsoft Exchange Server documentation.
+- **Fax Services** Exchange UM includes fax features, which enable users to receive incoming faxes in their Exchange mailboxes. For details, see [Unified Messaging](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) in the Microsoft Exchange Server documentation.
 
     > [!NOTE]
     > Fax services provided by the Exchange UM server are not available in Skype for Business Server deployments that are integrated with Microsoft Exchange Server 2010, Exchange 2010 with the latest service pack, Exchange 2013, or Exchange 2016.
@@ -60,7 +60,7 @@ Skype for Business Server, Enterprise Voice uses the Exchange Unified Messaging 
 
 To provide the Exchange UM features and services described in [Features of integrated Unified Messaging and Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) to Enterprise Voice users in your organization, you must deploy an Microsoft Exchange Mailbox server and Client Access server, which hosts user mailboxes and provides a single storage location for email and voice mail. Exchange UM runs as a service on Exchange Mailbox and Client Access servers.
 
-For details about Exchange UM components in Microsoft Exchange Server 2010, see [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
+For details about Exchange UM components in Microsoft Exchange Server 2010, see [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) .
 
 ### Supported Topologies
 
@@ -125,13 +125,13 @@ In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center
 
 In Example 2, under ordinary operating conditions Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. All four servers are included in the Tukwila users' SIP URI dial plan; however, servers 3 and 4 are disabled. In the event of an Exchange UM outage in Tukwila, for example, Exchange UM servers 1 and 2 should be disabled and Exchange UM servers 3 and 4 should be enabled so the Tukwila Exchange UM traffic will be routed to the servers in Dublin.
 
-For details about how to enable or disable Unified Messaging on Exchange 2013, see  [Integrate Exchange 2013 UM with Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=265372). The information provided applies equally to Skype for Business Server.
+For details about how to enable or disable Unified Messaging on Exchange 2013, see  [Integrate Exchange 2013 UM with Lync Server](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help). The information provided applies equally to Skype for Business Server.
 
 For details about how to enable or disable Unified Messaging on Microsoft Exchange Server 2010, see:
 
-- [Enable Unified Messaging on Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Enable Unified Messaging on Exchange 2010](/previous-versions/office/exchange-server-2010/aa997908(v=exchg.141))
 
-- [Disable Unified Messaging on Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Disable Unified Messaging on Exchange 2010](/previous-versions/office/exchange-server-2010/bb123529(v=exchg.141))
 
 ### Exchange Server 2019
 

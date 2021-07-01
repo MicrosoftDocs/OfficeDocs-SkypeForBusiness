@@ -1,8 +1,8 @@
 ---
 title: "Deployment process for Response Group in Skype for Business"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -66,7 +66,7 @@ You might need to perform the following tasks before configuring Response Group:
 
 ### Enabling Users
 
-The first step in configuring Response Group is to create agent groups. Before you can create an agent group, you must enable the users who will be agents for Response Group for Skype for Business and Enterprise Voice. Enabling users for Skype for Business is typically a step in the Enterprise Edition server or Standard Edition server deployment. For details about enabling users for Skype for Business, see [Enable or Disable Users for Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx). Enabling users for Enterprise Voice is typically a step in the Enterprise Voice deployment. For details, see [Enable users for Enterprise Voice in Skype for Business Server](enable-users-for-enterprise-voice.md).
+The first step in configuring Response Group is to create agent groups. Before you can create an agent group, you must enable the users who will be agents for Response Group for Skype for Business and Enterprise Voice. Enabling users for Skype for Business is typically a step in the Enterprise Edition server or Standard Edition server deployment. For details about enabling users for Skype for Business, see [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). Enabling users for Enterprise Voice is typically a step in the Enterprise Voice deployment. For details, see [Enable users for Enterprise Voice in Skype for Business Server](enable-users-for-enterprise-voice.md).
 
 ### Complying with FIPS requirements
 
@@ -99,7 +99,7 @@ To modify the Web.config file, do the following:
 This section applies to you only if your organization needs to support Yi, Meng, or Zang characters.
 
 > [!NOTE]
-> For information on what the Yi, Meng, and Zang characters are and why they may be important to your deployment, see the information on the GB18030 character sets [https://go.microsoft.com/fwlink/p/?linkId=240223](https://go.microsoft.com/fwlink/p/?linkId=240223).
+> For information on what the Yi, Meng, and Zang characters are and why they may be important to your deployment, see the information on the GB18030 character sets [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)).
 
 To support Yi, Meng, or Zang characters, you need to modify the collation for the Rgsconfig database. Change the collation of the **Name** column in the following tables in each Rgsconfig database:
 
@@ -115,9 +115,9 @@ To support Yi, Meng, or Zang characters, you need to modify the collation for th
 
 For SQL Server 2008 R2 and SQL Server 2012, use the Latin_General_100 (Accent Sensitive) collation. If you use this collation, all object names are not case-sensitive.
 
-You can change the collation by using Microsoft SQL Server Management Studio. For details about using this tool, see ["Using SQL Server Management Studio"](https://go.microsoft.com/fwlink/p/?linkId=196184). Follow these steps to change the collation:
+You can change the collation by using Microsoft SQL Server Management Studio. For details about using this tool, see ["Using SQL Server Management Studio"](/sql/ssms/sql-server-management-studio-ssms). Follow these steps to change the collation:
 
-1. Be sure that SQL Server Management Studio is configured to allow changes that require tables to be recreated. For details, see ["Save (Not Permitted) Dialog Box"](https://go.microsoft.com/fwlink/p/?linkId=196186). For details about setting a column collation, see at ["How to: Set Column Collation (Visual Database Tools)"](https://go.microsoft.com/fwlink/p/?linkId=196185).
+1. Be sure that SQL Server Management Studio is configured to allow changes that require tables to be recreated. For details, see ["Save (Not Permitted) Dialog Box"](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box). For details about setting a column collation, see at ["How to: Set Column Collation (Visual Database Tools)"](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105)).
 
 2. Using Microsoft SQL Server Management Studio, connect to the Rgsconfig database.
 
@@ -131,10 +131,10 @@ You can change the collation by using Microsoft SQL Server Management Studio. Fo
 
 |**Phase**|**Steps**|**Permissions**|**Deployment documentation**|
 |:-----|:-----|:-----|:-----|
-|Enable users for Skype for Business and for Enterprise Voice  <br/> |Enable users who will be agents for Skype for Business and Enterprise Voice. Users must be enabled before you can add them to agent groups. Typically, users are enabled for Skype for Business during the Enterprise Edition or Standard Edition server deployment. Users are enabled for Enterprise Voice during the Enterprise Voice deployment.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Enable users for Enterprise Voice in Skype for Business Server](enable-users-for-enterprise-voice.md) <br/> |
-|Create and configure response groups, which consist of agent groups, queues, and workflows  <br/> |1. Use the Skype for Business Server Control Panel or Skype for Business Server Management Shell to do the following:  <br/> a. Create and configure agent groups.  <br/> b. Create and configure queues.  <br/> 2. Optionally, use Skype for Business Server Management Shell to create predefined response group business hours and holidays.  <br/> 3. Use the Response Group Configuration Tool or Skype for Business Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.  <br/> You can access the Response Group Configuration Tool through Skype for Business Server Control Panel.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Create Response Group Queues](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) <br/> [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
+|Enable users for Skype for Business and for Enterprise Voice  <br/> |Enable users who will be agents for Skype for Business and Enterprise Voice. Users must be enabled before you can add them to agent groups. Typically, users are enabled for Skype for Business during the Enterprise Edition or Standard Edition server deployment. Users are enabled for Enterprise Voice during the Enterprise Voice deployment.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Enable users for Enterprise Voice in Skype for Business Server](enable-users-for-enterprise-voice.md) <br/> |
+|Create and configure response groups, which consist of agent groups, queues, and workflows  <br/> |1. Use the Skype for Business Server Control Panel or Skype for Business Server Management Shell to do the following:  <br/> a. Create and configure agent groups.  <br/> b. Create and configure queues.  <br/> 2. Optionally, use Skype for Business Server Management Shell to create predefined response group business hours and holidays.  <br/> 3. Use the Response Group Configuration Tool or Skype for Business Server Management Shell to create workflows (hunt groups or interactive voice response (IVR) call flows), including custom response group business hours and holidays.  <br/> You can access the Response Group Configuration Tool through Skype for Business Server Control Panel.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Create Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) <br/> [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
 |(Optional) Customize application-level settings  <br/> |Use Skype for Business Server Management Shell to customize the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Managing application-level Response Group settings in Skype for Business](managing-application-level-response-group-settings.md) <br/> |
-|(Optional) Delegate management of response groups  <br/> |Assign users the CsResponseGroupManager role to delegate configuration of response groups. Response Group Managers can then configure the response groups assigned to them.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planning for Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
+|(Optional) Delegate management of response groups  <br/> |Assign users the CsResponseGroupManager role to delegate configuration of response groups. Response Group Managers can then configure the response groups assigned to them.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planning for Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |
 |Verify your Response Group deployment  <br/> |Test answering calls to your hunt group and interactive voice response workflows to ensure that your configuration works as expected.  <br/> |-  <br/> |-  <br/> |
 
 ## Overview of workflow creation scenarios
@@ -147,5 +147,3 @@ When you create workflows, there are two possible scenarios:
 
     > [!NOTE]
     > When you want to create a managed workflow, you need to create the workflow as active. After you save an active, managed workflow, you can then modify and deactivate the workflow.
-
-

@@ -1,8 +1,8 @@
 ---
 title: "Add Office Web Apps Server"
 ms.reviewer: 
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -32,4 +32,4 @@ The **Define New Office Web Apps Server** wizard defines a new Office Web Apps S
 
 ## See also
 
-[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Components and Topologies for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

@@ -12,6 +12,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - m365solution-voice
+  - m365solution-scenario
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -29,7 +31,7 @@ For information about whether Direct Routing is the right solution for your orga
 > [!Tip]
 > You can also watch the following session to learn about the benefits of Direct Routing, how to plan for it, and how to deploy it: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing).
 
-To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 Before performing the steps in these articles, Microsoft recommends that you confirm that your SBC has already been configured as recommended by your SBC vendor: 
 
@@ -56,4 +58,3 @@ If you are configuring an SBC for multiple tenants, you'll also want to read [Co
 [Phone System Direct Routing](direct-routing-landing-page.md)
 
 [Plan Direct Routing](direct-routing-plan.md)
-

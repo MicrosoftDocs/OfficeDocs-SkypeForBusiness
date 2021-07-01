@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Learn the Presence states in Teams and the administrative settings for the Presence feature.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -23,9 +23,11 @@ appliesto:
 
 Presence is part of a user's profile in Microsoft Teams (and throughout Microsoft 365 or Office 365). Presence indicates the user's current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online. Presence is updated in real time on the web and desktop versions when you refresh the page on mobile.
 
- > [!Note]
+ > [!NOTE]
  > For details about Teams user profiles on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
+ > [!NOTE]
+ > Teams respects your privacy configuration so if you have enabled the privacy mode, your presence will not be visible to external users.
 ## Presence states in Teams
 
 |User configured|App configured|
@@ -33,7 +35,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 | ![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
 || ![Open green check mark, indicates available oof](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using the app during these periods of time, a dual presence might be shown, such as "Out of office, available". |
 |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
-|| ![Solid red circle, indicates Busy in a call](media/Presence_Busy.png) On a call|
+|| ![Solid red circle, indicates Busy in a call](media/Presence_Busy.png) In a call|
 || ![Solid red circle, indicates Busy in a meeting](media/Presence_Busy.png) In a meeting |
 || ![Open red circle, indicates Busy](media/Presence_Busy_OOF.png) On a call, out of office|
 |  ![Red circle with white line, indicates Do Not Disturb](media/Presence_DND.png) Do not disturb ||
@@ -44,8 +46,10 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 |![Yellow clock icon, indicates away, be right back](media/Presence_Away.png) Be right back| |
 |![Gray circle with x, indicates Offline](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. | |
 || ![Open gray circle, indicates status unknown](media/Presence_Unknown.png) Status unknown|
-|| ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. (Available in Outlook only.) |
+|| ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
 |||
+ > [!NOTE]
+ > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
 
 App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
 
@@ -74,6 +78,9 @@ User configured states have default expiration settings in Teams, in order to pr
 | Others|7 days|
 |||
 
+> [!NOTE]
+> A user can also configure manually a duration for her presence. For instance, a user can set herself as Appear offline until tomorrow morning.
+
 ## Admin settings in Teams compared to Skype for Business
 
 The following admin settings Skype for Business are different in Teams:
@@ -89,7 +96,7 @@ The following admin settings Skype for Business are different in Teams:
 
 ## Admin settings in Teams compared to Microsoft Outlook
 
-Teams presence in Outlook is supported on the Outlook 2013 desktop app and later.
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later for contacts in the same organization.
 
 If the upgrade mode policy of the user account is set to TeamsOnly, Outlook talks to Teams to get presence. If the user account isn't set to TeamsOnly, then Outlook talks to Skype for Business.
 
