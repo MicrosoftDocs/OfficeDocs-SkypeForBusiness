@@ -71,6 +71,14 @@ Click the app name to go to the app details page. On the **About** tab, you can 
 
 For more information about using the Graph API to check the **Publishing status**, see <a href="/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">here</a>.
 
+### App submission notifications
+
+You can turn on notifications so you know when developers submit a new application for review and approval. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **Settings** > **App submissions** and turn on **Receive by notification bot**. By default, this setting is turned off.
+
+![App submissions screenshot](media/apps-submissions.png)
+
+After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. You'll also get notifications when developers submit app updates. For more information on notifications and alerts, see [Teams admin alerts](/alerts/teams-admin-alerts).
+
 ## Publish
 
 When you're ready to make the app available to users, publish the app.
@@ -136,4 +144,5 @@ For more information about using the Graph API to update apps, see <a href="/gra
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
+- [Teams admin alerts](teams-admin-alerts.md)
 - <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Microsoft Graph API for Teams apps</a>
