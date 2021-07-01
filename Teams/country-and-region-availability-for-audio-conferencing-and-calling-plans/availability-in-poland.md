@@ -52,6 +52,9 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
    
 ## Calling Plans
 
+> [!IMPORTANT]
+> We are currently facing unexpected delays in Poland in fulfilling new phone number orders and porting orders. You can continue placing orders, but please note that we expect this delay to be resolved by September, at which time all pending orders will be fulfilled.
+
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
