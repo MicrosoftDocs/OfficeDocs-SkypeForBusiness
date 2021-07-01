@@ -144,5 +144,5 @@ For more information about using the Graph API to update apps, see <a href="/gra
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
-- [Teams admin alerts](teams-admin-alerts.md)
+- [Teams monitoring and alerting](/alerts/teams-admin-alerts)
 - <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Microsoft Graph API for Teams apps</a>
