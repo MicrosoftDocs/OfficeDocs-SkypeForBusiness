@@ -122,8 +122,8 @@ We're working to integrate Teams events into anomaly detection policies. For now
 
 Here's a list of all events that are logged for user and admin activities in Teams in the Microsoft 365 audit log. The table includes the friendly name that's displayed in the **Activities** column and the name of the corresponding operation that appears in the detailed information of an audit record and in the CSV file when you export the search results.
 
-|Friendly name  |Operation|Description |
-|---------|---------|---------|
+|Friendly name  |Operation |Description |
+|:---------|:---------|:---------|
 |Added bot to team   |BotAddedToTeam        |A user adds a bot to a team.        |
 |Added channel   |ChannelAdded         |A user adds a channel to a team.         |
 |Added connector  |ConnectorAdded          |A user adds a connector to a channel.        |
