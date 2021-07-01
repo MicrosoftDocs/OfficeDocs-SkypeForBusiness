@@ -24,6 +24,9 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for Poland
 
+> [!IMPORTANT]
+> We are currently facing unexpected delays in Poland in fulfilling new phone number orders and porting orders. You can continue placing orders, but please note that we expect this delay to be resolved by September, at which time all pending orders will be fulfilled.
+
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Use this table to find information on getting and managing phone numbers in Poland for Microsoft Teams.

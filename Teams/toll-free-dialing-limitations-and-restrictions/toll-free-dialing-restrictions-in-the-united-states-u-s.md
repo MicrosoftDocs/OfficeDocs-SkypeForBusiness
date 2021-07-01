@@ -1,11 +1,11 @@
 ---
-title: "Toll-free dialing restrictions in Mexico"
-ms.author: crowe
-author: CarolynRowe
-manager: serdars
+title: Toll-free dialing restrictions in US
+ms.author: v-lsaldanha
+author: lovina-saldanha
+manager: dansimp
 ms.reviewer: mikedav, oscarr
 ms.topic: reference
-ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
@@ -23,10 +23,10 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - seo-marvel-mar2020
-description: Learn about dialing toll-free numbers in Mexico, including availability, wired/fixed-line and mobile network availability, and restrictions.
+description: Learn about dialing toll-free numbers in US, including availability, wired/fixed-line and mobile network availability, and restrictions.
 ---
 
-# Toll-free dialing restrictions in Mexico
+# Toll-free dialing restrictions in the Unites States
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
@@ -34,7 +34,7 @@ description: Learn about dialing toll-free numbers in Mexico, including availabi
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
 |Dialing format(s)  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|Country/region ISO code  <br/> |MX  <br/> |
+|Country/region ISO code  <br/> |USA  <br/> |
 |Island/territory covered  <br/> |American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, Canada, Cayman Islands, Dominica, Dominican Republic, Grenada, Guam, Jamaica, Montserrat, Northern Mariana Islands, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarten, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Virgin Islands <br/> |
 |Wired/fixed line availability  <br/> |Yes  <br/> |
 |Mobile network availability  <br/> |Yes  <br/> |
