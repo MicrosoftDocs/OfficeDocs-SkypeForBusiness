@@ -22,7 +22,7 @@ appliesto:
 
 Communication compliance is an insider risk solution in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and act on inappropriate messages in your organization.
 
-For Microsoft Teams, communication compliance helps identify the [following types](/microsoft-365/compliance/communication-compliance-feature-reference) of inappropriate content in Teams channels or in 1:1 and group chats:
+For Microsoft Teams, communication compliance helps identify the [following types](/microsoft-365/compliance/communication-compliance-feature-reference) of inappropriate content in Teams channels, Private Teams channels, or in 1:1 and group chats:
 
 - Offensive, profane, and harassing language
 - Adult, racy, and gory images
@@ -41,7 +41,7 @@ Getting started with communication compliance in Microsoft Teams begins with [pl
 Teams administrators can configure communication compliance policies at the following levels:
 
 - **User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats. Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.
-- **Teams level**: Policies at this level apply to a Microsoft Team channel. These policies cover messages sent in the Teams channel only.
+- **Teams level**: Policies at this level apply to a Microsoft Team channel, including a Private channel. These policies cover messages sent in the Teams channel only.
 
 ### Act on inappropriate messages in Microsoft Teams
 

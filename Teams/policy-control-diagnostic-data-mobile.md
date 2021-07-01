@@ -1244,6 +1244,9 @@ action.
 -- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 -- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 -- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+- **appDrawer** - Triggered when app drawer is opened successfully.
+- **appPolicyChange** - Triggered when a user resets and save new tabs order locally.
+- **app_stageview** - Triggered when a stage view is successfully rendered.
 
 ### Scenario
 
@@ -1336,6 +1339,40 @@ action.
 - **show_meeting_participants** - Confirms that showing the meeting participant list has succeeded or failed.
 - **search** - Confirms that the whole search session has succeeded or failed.
 - **time_based_retention_shared_channel** – Captures performance data for pruning the database.
+- **sync_user_entitlements_and_app_definitions** -  Required service call to fetch aggregatedEntitlements.
+- **bots_load_mediacards** - Captures instanced when Connector cards are configured in chat and channel.
+- **bots_load_one_card** - Captures if at least one card is present and loaded when chatting with a bot.
+- **load_assignments** - Captures exceptional handling for loading assignment app.
+- **load_channel_tab** - Captures loading of channel tab. (Android  only)
+- **load_messaging_extension_results** - Captures loading of messaging extension search/query result. (Android  only)
+- **load_static_tab** - Captures loading of static tab. (Android  only)
+- **app_authenticated** - Confirms that the authentication is sucessful and a token is fetched. (Android  only)
+- **blocked_by_conditional_access** - When receive conditional access blocked error code in authentication. (we try to force refresh the primary token in that case). (Android  only)
+- **get_resource_token_sync** - Triggered when we attempt to fetch token for app resources synchronously. (Android  only)
+- **get_resource_token_async** - Triggered when we attempt to fetch token for app resources asynchronously. (Android  only)
+
+## OnePlayer events
+> [!NOTE]
+> For OnePlayer events, only properties listed in [Property lists for OnePlayer events](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) apply.
+### OnePlayer user action events
+- **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view.
+- **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view.
+- **PlayerSeek** - Confirms if the user seeks the video either using the seek bar or forward/backward buttons in the OnePlayer view (iOS only).
+- **VideoPlayerSeekForward** - Confirms if the user seeks the video either using the seek bar or forward buttons in the OnePlayer view (Android only).
+- **VideoPlayerSeekBackward** - Confirms if the user seeks the video either using the seek bar or backward buttons in the OnePlayer view (Android only).
+- **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed.
+- **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback.
+- **ShareVideo** - Confirms if the user has tapped on the share icon.
+- **PlayerClose** - Confirms if the user has tapped on the close icon.
+- **VideoCaptionsOn** - Confirms if the user has switched on the captions.
+- **VideoCaptionsOff** - Confirms if the user has switched off the captions.
+- **ChangePlayerOrientation** - Confirms if the user has changed the orientation of the device.
+- **OpenPlayerSettingsMenu** - Confirms if the user has opened the settings menu.
+- **OpenPlaybackSpeedMenu** - Confirms if the user has opened the playback speed menu.
+- **PlayerAction** - Custom action provided by the host app.
+
+### OnePlayer playback events
+- **PlayerHeartbeat** - This is a recurring event that sends the current status of the player and playback to a log.
 
 ## Property lists
 
@@ -1434,3 +1471,101 @@ action.
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
+
+## Property lists for OnePlayer events
+
+### 1. Properties sent with all OnePlayer events
+##### 1.1 Standard properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | Type of event (AppLogic, ErrorAlert, Performance, UserAction) |
+| accountType   | Type of user account (for example, business) |
+| component     | OnePlayer |
+| language      | Locale/language of the app |
+| platform      | Platform of OnePlayer (iOS/Android) |
+| tenantId      | Tenant ID|
+| version       | Version of the OnePlayer being used |
+| aadUserId     | User ID |                                
+
+##### 1.2 Player properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | Underlying player name (AVFoundation for iOS/ExoPlayer for Android) |
+| engineVersion | Operating System version |
+| loadMode      | Load mode of the player |
+| playbackSessionId | Session ID for playback |
+
+##### 1.3 Host properties 
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | Host integration type (for example, Package, OneUp) |
+| hostPlatform  | Platform for host app |
+| hostProperties| Host properties, if any (iOS only) |
+| hostApp       | Name of the host app |
+| hostVersion   | Version of the host app |
+
+##### 1.4 Experimentation properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| ring          | Ring to which the user belongs |
+| hostSettings  | Attributes set by the host app (moreOptionsEnabled, shareFeatureEnabled, playbackQualityFeatureEnabled, playbackSpeedFeatureEnabled) |
+| flightFilters | Description |
+| flightsOverridden | Bool for flights overridden or not |
+
+##### 1.5 Service properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | Type of content being served |
+| environment   | Environment name  |
+| mediaService  | Which media service is being used (SPO, ODB, ODC, IC3-AMS, Unknown) |
+| mediaType     | Type of the media being played  |
+| playbackTech  | Playback tech of the media  |
+| correlationId | Correlation ID for the media, if any |
+
+### 2. Properties sent with all OnePlayer User Action Events 
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| actionType    | Type of action being performed, such as tap, drag, and flick( iOS only)|
+| isIntentional | Boolean value if the action is intentional or not (iOS only) |
+
+#### 2.1 Properties sent with changePlaybackQuality Event
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | current playback quality |
+
+#### 2.2 Properties sent with ChangePlaybackSpeed Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | Previous playback rate of the video (iOS only) |
+| currentPlaybackRate   | Current playback rate of the video |
+
+#### 2.3 Properties sent with PlayerSeek Event (iOS only)
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | Source of seek (seekbar, forwardButton, backwardButton) |
+| seekValue     | Seek position |
+
+### 3. Properties sent with OnePlayer Heartbeat Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | Current playback time of the media (iOS only)|
+| isLoaded | Is media loaded |
+| loadTimeMs | Load time taken in milliseconds |
+| numberOfStalls | Number of stalls during playback (iOS only) |
+| bufferingCount | Number of stalls during playback (Android only) |
+| observedBitrate | Observed bit rate during playback (iOS only) |
+| avgBitrateBitsPerSecond | Observed bit rate during playback (Android only) |
+| playedSeconds | Played seconds till the event |
+| rebufferingSeconds | Rebuffering seconds during playback |
+| timeSinceSourceSetMs | Time since source was set (ms) |
+| triggerType | Trigger type (buffering, error, errorLog, canPlayThrough, intervalHeartbeat, sourceset, unload) |
+| errorId | Error ID for the error, if any |
+| errorCorrelationId | Error correlation ID for the error, if any |
+| errorLog | Error log for the error, if any |
+| errorType | Error type for the error, if any |
+| errorMessage | Error message for the error, if any |
+| errorStack | Extended error info for the error, if any |
+| metaUrl | Meta URL for media |
+| odspDocId | ODSP doc ID for media |
+| siteId | Site ID for media |
+| teamsCallId | Teams call ID for media, if any |

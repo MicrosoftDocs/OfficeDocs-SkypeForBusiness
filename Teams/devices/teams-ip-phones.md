@@ -72,6 +72,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Release date  | Room size                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Rally Bar      | 1.2.788     |       June 2021    |    Medium size room (4.5m x 6m)       |
 | AudioCodes RXV80 | 1.9.155        |   May 2021  | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | April 2021 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | March 2021 | Medium size room (4.5m x 6m) |
@@ -163,6 +164,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #2 | June 28th, 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | 2021 Update #1A  |May 12, 2021  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | 2021 Update #1  |April 5th, 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | 2020 Update #3  |November 24, 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
@@ -175,6 +177,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.5.0.344025          | 2021 Update #2    |
+| Poly Studio X50 | 3.5.0.344025        | 2021 Update #2    |
+| Poly TC8 | 3.5.0.210489                 | 2021 Update #2    |
 | Poly Studio X30 | 3.3.2.286154          | 2021 Update #1    |
 | Poly Studio X50 | 3.3.2.286154          | 2021 Update #1    |
 | Poly TC8 | 3.3.2.286154                 | 2021 Update #1    |

@@ -451,6 +451,8 @@ items:
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
+            - name: Teams information protection license report
+              href: teams-analytics-and-reports/information-protection-license-report.md
               
     - name: Log files, service health, and support
       items:
@@ -564,6 +566,8 @@ items:
       href: cortana-in-teams.md
     - name: Set up your team targeting hierarchy
       href: set-up-your-team-hierarchy.md
+    - name: Supervised chat for non-educational tenants
+      href: supervised-chat-non-edu.md  
     
 
 - name: Meetings, conferencing, and live events
@@ -633,7 +637,7 @@ items:
         - name: Cloud Video Interop
           href: cloud-video-interop.md
         - name: Set up for webinars in Microsoft Teams
-          href: set-up-webinars.md 
+          href: set-up-webinars.md
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -1540,6 +1544,8 @@ items:
           href: g1-trial-license.md
         - name: Manage the Teams Exploratory experience
           href: teams-exploratory.md
+        - name: Upgrade users from Teams Exploratory
+          href: upgrade-from-teams-exploratory.md
         - name: Manage the free version of Teams
           href: manage-freemium.md
         - name: Upgrade Teams free to subscription version
