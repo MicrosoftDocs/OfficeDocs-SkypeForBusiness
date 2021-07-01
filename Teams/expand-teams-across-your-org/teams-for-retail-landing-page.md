@@ -47,7 +47,7 @@ Microsoft 365 and Microsoft Teams offer several capabilities that can help retai
 
 ![Two scenarios for using Teams in Retail environments: retail team operations and collaboration and Curbside delivery/multichannel fulfillment](../media/retail-teams-scenarios.png)
 
-These scenarios are also part of the Microsoft Cloud for Retail. You can do more with these scenarios when you also use other capabilities from the Microsoft Cloud for Retail, such as Microsoft Dynamics 365. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail).
+<!-- These scenarios are also part of the Microsoft Cloud for Retail. You can do more with these scenarios when you also use other capabilities from the Microsoft Cloud for Retail, such as Microsoft Dynamics 365. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail). -->
 
 For all of these capabilities, users must have an appropriate license. Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, Business Premium, A3, A5, E3, and E5 are supported. You can also use Microsoft 365 Frontline Worker F1 and F3 or Office 365 F3. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md). See [Retail user types and licensing](#retail-user-types-and-licensing) for more about using Microsoft 365 Frontline Worker in combination with other licenses.
 
@@ -86,7 +86,7 @@ With this example, you can mix license types for the two types of workers in you
 
 For a detailed comparison of what's included in Microsoft 365 with various licenses, see this [Comparison table](https://go.microsoft.com/fwlink/?linkid=2139145).
 
-Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](https://www.microsoft.com/industry/retail/microsoft-cloud-for-retail).
+<!-- Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](https://www.microsoft.com/industry/retail/microsoft-cloud-for-retail). -->
 
 Of course, for simplicity, or if your workers all need access to the full capabilities of Microsoft 365, you can use the same Enterprise license for all of your worker types, and still target capabilities to different user roles using Teams policy packages, such as the Frontline Worker [policy package](../manage-policy-packages.md).
 
