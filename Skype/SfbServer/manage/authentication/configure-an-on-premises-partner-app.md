@@ -69,7 +69,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-After copying the code, save the script using a .PS1 file extension (for example, C:\Scripts\ServerToServerAuth.ps1). Note that, before you run this script, you must replace the metadata URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 and http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively. See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.
+After copying the code, save the script using a .PS1 file extension (for example, C:\Scripts\ServerToServerAuth.ps1). Note that, before you run this script, you must replace the metadata URLs `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` and `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively. See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.
   
 If you look at the last line of the script you will notice that the Set-CsOAuthConfiguration cmdlet is called using this syntax:
   

@@ -70,10 +70,10 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[SoTel Systems, LLC](http://www.sotelsystems.com/business-voip)  | SIP Trunking |  |
 |[Sprint](https://www.sprint.com/business/solutions/sprint_enablers/sip_trunking/index.html?INTNAV=ATG:HE:SIPTrunking#.U6LRQnlOVaQ)  |Global SIP Trunking  |  |
 |[Swisscom (Switzerland)](http://www.swisscom.ch/solutions/de/start/loesungen/telefonie-ucc/enterprise-telephony/hosted-enterprise-telephony.html)  |VoIP Gate  |  |
-|[Tata Communications](http://www.tatacommunications.com/GSC/index.html)  | Global SIP Connect | &#x2714; |
+|[Tata Communications](http://www.tatacommunications.com/)  | Global SIP Connect | &#x2714; |
 |[TDC](http://tdc.se/element.php?dogtag=tdcs_erb_fas_but)  | TDC Business Trunk |  |
 |[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview)  | talkAssure SIP Trunking for Microsoft Lync |  |
-|[Telavox](http://www.telavox.se/telefoni-for-vaxlar/#specification-5)  | SIP Trunk | &#x2714; |
+|[Telavox](https://telavox.com/)  | SIP Trunk | &#x2714; |
 |[Tele2](https://www.tele2.nl/zakelijk/telefonie/voip-bellen/?gclid=CjwKEAjw-JqgBRCAyqjoic27nlQSJABBTpFEPqylpfzn4si30OM_T7hTqYhAPfNK3pBlpjhjyUzhbxoCasnw_wcB)  |VoIP Connect  |  |
 |[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/en/multinational/products-services/unified-communication-and-collaboration/)  | SIP Trunking |  |
 |[Telecom New Zealand / Gen-I](http://www.gen-i.co.nz/solutions/collaboration/voice-connect/)  | Voice Connect |  |
@@ -82,11 +82,11 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Telkomsel](http://www.telkomsel.com/)  | Telkomsel Connect |  |
 |[Telus](http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking)  |IP Trunking  |  |
 |[Thinktel](http://www.thinktel.ca/en/sip-for-lync)  | SIP Trunking |  |
-| [toplink GmbH](http://www.toplink.de/lync-2013) |tpl_sip.business LC  | &#x2714;  |
+| [toplink GmbH](http://www.toplink.de/) |tpl_sip.business LC  | &#x2714;  |
 | [T-Systems International GmbH](http://www.t-systems.com/) |Corporate SIP Germany  |   |
 | [tw telecom](http://www.twtelecom.com/telecom-solutions/voice-solutions/business-voice-services/) | Managed SIP Services |   |
 | [Verizon Business](http://www.verizonbusiness.com/products/advanced-communications/) | IP Trunking Services |   |
-| [Vodafone GmbH](http://www.vodafone.de/business/firmenkunden/loesungen/ip-anlagen-anschluss.html) | IP Anlagen-Anschluss |   |
+| [Vodafone GmbH](https://www.vodafone.de/business.html) | IP Anlagen-Anschluss |   |
 | [Vodafone Netherlands](https://www.vodafone.nl/zakelijk/midden-groot-bedrijf/) | Vodafone Office Voice (VoV) and Corporate Net over IP (CNoIP) |   |
 | [Voxbone SA](http://www.voxbone.com/microsoft-lync.jsf) |VoxDID, Vox800  |   |
 | [West IP Communications](http://westipc.com/products-and-services/voice-services/maxxconnect-ip-trunking/) |MaxxConnect |   |
@@ -136,7 +136,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Swisscom](http://www.swisscom.ch/en/residential.html) |Swisscom VoIP Gate| |
 |[Tata Communications](http://www.tatacommunications.com/GSC/index.html) |Global SIP Connect|&#x2714;|
 |[TDC](http://tdc.se/element.php?dogtag=tdcs_erb_fas_but)     |TDC Business Trunk| |
-|[Telavox](http://www.telavox.se/nyheter/?page=4)     |SIP Trunk|&#x2714;|
+|[Telavox](http://www.telavox.se/)     |SIP Trunk|&#x2714;|
 |[Tele2](https://www.tele2.nl/zakelijk/telefonie/voip-bellen/) |VOIP Connect| |
 |[Telenet](http://business.telenet.be/nl/telefonie-isdn/overzicht) |Telenet SIP Trunking| |
 |[Telenor](http://www.telenor.no/bedrift/samordnet-kommunikasjon/index.jsp) |Telenor Samordnet kommunikasjon (Unified Communication)| |
@@ -152,9 +152,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Vodafone Netherlands](https://www.vodafone.nl/zakelijk/midden-groot-bedrijf/) |Office Voice / OneVoice| |
 |[Voiceworks](http://www.voiceworks.com/nl) |Voice Connect| |
 |VoIPunlimited   |Lync Trunk| |
-|[West IP Communications](http://www.westipc.com/products-and-services/voice-services/maxxconnect-ip-trunking/) |MaxxConnect| |
+|[West IP Communications](https://stage.westuc.com/) |MaxxConnect| |
 |[Windstream](http://www.windstreambusiness.com/) |Dynamic IP| |
 |[XO Communications](http://www.xo.com/unified-communications/sip/) |SIP Trunk| |
 |     |         |         |
-
-

@@ -159,7 +159,7 @@ Bring situational awareness with complete integrated communication, resource man
 * * *
 Collect and process call records to support enterprise business decisions regarding security accountability and productivity.
 
-## [TE Systems ANYNODE](http://www.te-systems.de/index.php?id=168&L=2)
+## [TE Systems ANYNODE](https://www.anynode.de/anynode-and-microsoft-teams/)
 * * *
 Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing, and call handling.
 
@@ -179,7 +179,7 @@ Securely identify, welcome, and connect visitors via a touchscreen kiosk. Offer 
 * * *
 Enable many alerting and call pickup use cases. Improve responsiveness by efficiently connecting callers to available resources.
 
-## [Viases PostOffice for Lync](http://www.viases.com/en/postoffice-for-lync/)
+## [Viases PostOffice for Lync](http://www.viases.com/)
 * * *
 Support various types of call transfers, and distribution models. Blocklist unwanted callers. Add flexibility to voicemail. Develop and deliver complex IVR flows with this complementary suite.
 
