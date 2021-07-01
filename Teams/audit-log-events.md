@@ -133,26 +133,44 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Changed organization setting   |TeamsTenantSettingChanged         |The TeamsTenantSettingChanged operation is logged when the following activities are performed by a global admin in the Microsoft 365 admin center. These activities affect org-wide Teams settings. To learn more, see [Manage Teams settings for your organization](enable-features-office-365.md). <br>For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Enables or disables Teams for the organization (**Microsoft Teams**).</li><li>Enables or disables interoperability between Microsoft Teams and Skype for Business for the organization (**Skype for Business interoperability**).</li><li>Enables or disables the organizational chart view in Microsoft Teams clients (**Org chart view**).</li><li>Enables or disables the ability for team members to schedule private meetings (**Private meeting scheduling**).</li><li>Enables or disables the ability for team members to schedule channel meetings (**Channel meeting scheduling**).</li><li>Enables or disables video calling in Teams meetings (**Video for Skype meetings**).</li><li>Enables or disables screen sharing in Microsoft Teams meetups for the organization (**Screen sharing for Skype meetings**).</li><li>Enables or disables that ability to add animated images (called Giphys) to Teams conversations (**Animated images**).</li><li>Changes the content rating setting for the organization (**Content rating**). The content rating restricts the type of animated image that can be displayed in conversations.</li><li>Enables or disables the ability for team members to add customizable images (called custom memes) from the internet to team conversations (**Customizable images from the Internet**).</li><li>Enables or disables the ability for team members to add editable images (called stickers) to team conversations (**Editable images**).</li><li>Enables or disables that ability for team members to use bots in Microsoft Teams chats and channels (**Org-wide bots)**.</li><li>Enables specific bots for Microsoft Teams. This doesn't include the T-Bot, which is Teams help bot that's available when bots are enabled for the organization (**Individual bots**).</li><li>Enables or disables the ability for team members to add extensions or tabs (**Extensions or tabs**).</li><li>Enables or disables the side-loading of proprietary bots for Microsoft Teams (**Side loading of Bots**).</li><li>Enables or disables the ability for users to send email messages to a Microsoft Teams channel (**Channel email**).</li></ul>|
 |Changed role of members in team    |MemberRoleChanged         |A team owner changes the role of members in a team. The following values indicate the role type assigned to the user. <br><br>**1** - Indicates the Member role.<br>**2** -  Indicates the Owner role.<br>**3** -  Indicates the Guest role.<br><br>The Members property also includes the name of your organization and the member's email address.        |
 |Changed team setting    |TeamSettingChanged        |The TeamSettingChanged operation is logged when the following activities are performed by a team owner. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the **Item** column in the audit log search results.<ul><li>Changes the access type for a team. Teams can be set as private or public (**Team access type**). When a team is private (the default setting), users can access the team only by invitation. When a team is public, it's discoverable by anyone.</li><li>Changes the information classification of a team (**Team classification**). For example, team data can be classified as high business impact, medium business impact, or low business impact.</li><li>Changes the name of a team (**Team name**).</li><li>Changes the team description (**Team description**).</li><li>Changes made to team settings. To access these settings,  a team owner can right-click a team, select **Manage team**, and then click the **Settings** tab. For these activities, the name of the setting that was changed is displayed in the **Item** column in the audit log search results.</li></ul>         |
+|Created a chat <sup>1</sup>|	ChatCreated|	A Teams chat was created.|
 |Created team    |TeamCreated         |A user creates a team.         |
 |Deleted all organization apps|DeletedAllOrganizationApps           |Deleted all organization apps from the catalog.     |
 |Deleted app |AppDeletedFromCatalog           |An app has been deleted from the catalog.     |
 |Deleted channel     |ChannelDeleted         |A user deletes a channel from a team.         |
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
 |Edited a message with a URL link in Teams     |MessageEditedHasLink         |A user edits a message and adds a URL link to it in Teams.         |
+|Exported messages <sup>1</sup> |	MessagesExported |Chat or channel messages were exported|.
+|Fetched chats <sup>1</sup>	|ChatRetrieved	|A Microsoft Teams chat was retrieved.|
+|Fetched hosted content of a message<sup>1</sup>	|MessageHostedContentsListed	|Hosted content of a message, such as images or code snippets, were retrieved.|
 |Installed app |AppInstalled         |An app was installed.   |
 |Performed action on card|PerformedCardAction|A user took action on an adaptive card within a chat. Adaptive cards are typically used by bots to allow the rich display of information and interaction in chats. <br/><br/>**Note:** Only inline input actions on an adaptive card inside a chat will be available in the audit log. For example, when a user submits a poll response in a channel conversation on an adaptive card generated by a Poll bot. User actions such as "View result", which will open a dialog, or user actions inside dialogs won't be available in the audit log.|
+|Posted a new message <sup>1</sup>	|MessageSent	A new message was posted to a chat or channel.|
 |Published app |AppPublishedToCatalog           |An app was added to the catalog.     |
+|Read a message <sup>1</sup>	|MessageRead	|A message of a chat or channel was retrieved.|
+|Read hosted content of a message <sup>1</sup>	|MessageHostedContentRead	|Hosted content of a message, such as an image or a code snippet, was retrieved.|
 |Removed bot from team   |BotRemovedFromTeam         |A user removes a bot from a team.       |
 |Removed connector     |ConnectorRemoved         |A user removes a connector from a channel.         |
 |Removed members    |MemberRemoved        |A team owner removes members from a team, channel, or group chat.         |
 |Removed tab    |TabRemoved         |A user removes a tab from a channel.         |
+|Retrieved messages <sup>1</sup>	|MessagesListed	|Messages from a chat or channel were retrieved.|
 |Sent a message with a URL link in Teams |MessageCreatedHasLink|A user sends a message containing a URL link in Teams.|
+|Sent change notification for message creation <sup>1</sup>	|MessageCreatedNotification	|A change notification was sent to notify a subscribed listener application of a new message.|
+|Sent change notification for message deletion <sup>1</sup>	|MessageDeletedNotification	|A change notification was sent to notify a subscribed listener application of a deleted message.|
+|Sent change notification for message update <sup>1</sup>	|MessageUpdatedNotification	|A change notification was sent to notify a subscribed listener application of an updated message.|
+|Subscribed to message change notifications <sup>1</sup>	|SubscribedToMessages	|A subscription was created by a listener application to receive change notifications for messages.|
 |Uninstalled app |AppUninstalled           |An app was uninstalled.     |
 |Updated app |AppUpdatedInCatalog           |An app was updated in the catalog.     |
+|Updated a chat <sup>1</sup>	|ChatUpdated	|A Teams chat was updated.|
+|Updated a message <sup>1</sup>	|MessageUpdated	|A message of a chat or channel was updated.|
 |Updated connector    |ConnectorUpdated         |A user modified a connector in a channel.         |
 |Updated tab   |TabUpdated         |A user modified a tab in a channel.         |
 |Upgraded app |AppUpgraded           |An app was upgraded to its latest version in the catalog.     |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
+||||
+
+> [!NOTE]
+> <sup>1</sup> An audit record for this event is only logged when the operation is performed by Microsoft Graph. If the operation is performed in the Teams client, an audit record will not be logged.
 
 ## Shifts in Teams activities
 
