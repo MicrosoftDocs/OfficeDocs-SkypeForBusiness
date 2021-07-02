@@ -57,13 +57,17 @@ Keep in mind that this doesn't publish the app to your organization's app store 
 
 For more information about using the Graph API to submit apps, see <a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">here</a>.
 
-### Notify
+## Notify
 
 You can turn on notifications so you know when developers submit a new application for review and approval. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **Settings** > **App submissions**, and turn on **Receive by notification bot**. By default, this setting is turned off.
 
 ![App submissions screenshot.](media/apps-submissions.png)
 
 After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. You'll also get notifications when developers submit app updates. For more information on notifications and alerts, see [Teams admin alerts](alerts/teams-admin-alerts.md).
+
+![App submission notification.](media/app-submission-notification.png)
+
+You can review the notification card to see app details, and select **View details** to open the app in the Teams admin center.
 
 ## Validate
 
@@ -116,7 +120,7 @@ If you created and assigned an app setup policy, the app is pinned to the app ba
 
 To update an app, developers should continue to follow the steps in the [Develop](#develop) section.
 
-When the developer submits an update to a published custom app, you'll get notified in the **Pending approval** widget of the <a href="/microsoftteams/manage-apps" target="_blank">Manage apps</a> page. In the table, the **Publishing status** of the app will be set to **Update submitted**.
+When the developer submits an update to a published custom app, you'll get notified in the **Pending approval** widget of the <a href="/microsoftteams/manage-apps" target="_blank">Manage apps</a> page. In the table, the **Publishing status** of the app will be set to **Update submitted**. You'll also be notified in the **Admin Alerts and Notifications** team under the **App submission** channel if you turned on app submission notifications. The notification card will have a link to take you directly to the app in the Teams admin center. For more information on how to turn on app submission notifications, see [Notify](#notify).
 
 ![Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-submitted.png)
 
