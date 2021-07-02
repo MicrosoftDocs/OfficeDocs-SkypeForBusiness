@@ -24,9 +24,7 @@ appliesto:
 
 A custom team template is a predefined team structure with a set of channels, tabs, and apps. You can develop a template that helps you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
 
-
 > [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx>]
-
 
 To get started:
 
