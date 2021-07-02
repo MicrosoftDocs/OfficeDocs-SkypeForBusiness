@@ -42,9 +42,9 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
     
 For help using teams and channels, check out [Teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-View this short video to learn more about best practices for creating teams and channels.
+View this short video to learn more about best practices for creating teams and channels:
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [TechTip: Guidance for Creating Teams & Channels including Private Channels in Microsoft Teams](https://youtu.be/WkAVgNKn0hs) (21:08 min)
 
 ## Membership, roles, and settings
 
