@@ -218,7 +218,7 @@ sections:
 
       - question: Will the latest generation of Skype Room Systems v2 support meetings in Teams?
         answer: | 
-         We rebranded Skype Room Systems to Microsoft Teams Rooms which fully supports Microsoft Teams meetings and offers an easy migration path from Skype for Business to Teams by just enabling Teams on the device. In addition to the ability for users to identify nearby Microsoft Teams Rooms with proximity detection, Teams meetings can be joined with a single-click, dual-screen support, Microsoft Whiteboard and we continue to bring innovative features like a content camera with intelligent capture.
+          We rebranded Skype Room Systems to Microsoft Teams Rooms which fully supports Microsoft Teams meetings and offers an easy migration path from Skype for Business to Teams by just enabling Teams on the device. In addition to the ability for users to identify nearby Microsoft Teams Rooms with proximity detection, Teams meetings can be joined with a single-click, dual-screen support, Microsoft Whiteboard and we continue to bring innovative features like a content camera with intelligent capture.
 
   - name: General
     questions:
@@ -246,7 +246,7 @@ sections:
           
       - question: What are the benefits of Teams' back-end infrastructure?
         answer: |
-        Teams is built for the cloud on a highly scalable microservices architecture that's efficient in bandwidth consumption, provides more robust telemetry, and enables maintenance and upgrades with minimal disruption. As a result, users see faster meeting join times and a better browser experience without needing to download plug-ins. This modern infrastructure makes it easy to tap into Microsoft Cognitive Services—which include transcription, translation, speech recognition, and machine learning capabilities—and have the power to make communication and collaboration easier and more effective.
+          Teams is built for the cloud on a highly scalable microservices architecture that's efficient in bandwidth consumption, provides more robust telemetry, and enables maintenance and upgrades with minimal disruption. As a result, users see faster meeting join times and a better browser experience without needing to download plug-ins. This modern infrastructure makes it easy to tap into Microsoft Cognitive Services—which include transcription, translation, speech recognition, and machine learning capabilities—and have the power to make communication and collaboration easier and more effective.
           
       - question: How can customers learn when Skype for Business capabilities will be available in Teams?
         answer: |
@@ -254,11 +254,11 @@ sections:
 
       - question: What's the plan for video interoperability support for Teams meetings?
         answer: | 
-         [Meeting room devices](https://products.office.com/microsoft-teams/across-devices) are critical to our vision for the modern workplace. [Cloud video interoperability services](./cloud-video-interop.md) to support Teams meetings with existing VTC systems are available through our partners Pexip, Polycom, and Blue Jeans.
+          [Meeting room devices](https://products.office.com/microsoft-teams/across-devices) are critical to our vision for the modern workplace. [Cloud video interoperability services](./cloud-video-interop.md) to support Teams meetings with existing VTC systems are available through our partners Pexip, Polycom, and Blue Jeans.
       
       - question: Are third-party audio conferencing providers (ACP) supported in Teams?
         answer: | 
-        There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be to use our Audio Conferencing services. Customers who need to leverage ACP support in Skype for Business meetings can continue to use their Skype for Business client to join Skype for Business meetings. Meetings scheduled in Teams will need to utilize the Audio Conferencing services of Microsoft 365. Support for the integration of third-party party audio conferencing providers (ACP) in Skype for Business Online has been extended to July 31, 2021, with limited support for remaining active tenants to allow additional time for transition. This is an update in the ACP timeline announced in April 2018.
+          There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be to use our Audio Conferencing services. Customers who need to leverage ACP support in Skype for Business meetings can continue to use their Skype for Business client to join Skype for Business meetings. Meetings scheduled in Teams will need to utilize the Audio Conferencing services of Microsoft 365. Support for the integration of third-party party audio conferencing providers (ACP) in Skype for Business Online has been extended to July 31, 2021, with limited support for remaining active tenants to allow additional time for transition. This is an update in the ACP timeline announced in April 2018.
           
  
 
