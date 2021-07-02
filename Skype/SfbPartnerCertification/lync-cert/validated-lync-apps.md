@@ -56,7 +56,7 @@ Pick up other's calls, change settings for managers, BusyOnBusy options to avoid
 * * *
 Provide Manager/Admins and Team members with rich Presence information and one-click calling, pickup, and transferring to improve efficiency and productivity.
 
-## [Colima Cerebro](https://colima.de/en/products.html)
+## [Colima Cerebro](http://www.colima.de/)
 * * *
 Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and allowlists, offline instant message, and expanded presence alerts.
 

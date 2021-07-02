@@ -13,7 +13,7 @@
         - name: Server updates
           href: ../sfb-server-updates.md
     - name: Microsoft telephony solutions
-      href: /MicrosoftTeams/cloud-voice-landing-page.md
+      href: ../../../Teams/cloud-voice-landing-page.md
       items: 
         - name: Plan Phone System with on-premises PSTN connectivity in Skype for Business Server
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
