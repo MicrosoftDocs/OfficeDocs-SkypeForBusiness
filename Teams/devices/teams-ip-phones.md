@@ -98,7 +98,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 |:------------------------|:-----------------|:--------------|
 |Crestron TSS-770 | 1.003.0082 |February 2021 |
 |Crestron TSS-1070 | 1.003.0082 |February 2021 |
-|Yealink RoomPanel | 147.15.0.2 |May 2021 |
+|Yealink RoomPanel | 147.15.0.1 |May 2021 |
 
 ### Product release information for Teams phones
 
