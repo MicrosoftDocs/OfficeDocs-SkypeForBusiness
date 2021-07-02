@@ -61,7 +61,7 @@ To get started:
 Your new template is displayed in the **Team templates** list. The template can be used to create a team in Teams.
 
 > [!Note]
-> It can take up to 24 hours for teams users to see a custom template in the gallery.
+> It can take up to 24 hours for teams users to see a custom template change in the gallery.
 
 ## Customizing Website Tab apps
 
