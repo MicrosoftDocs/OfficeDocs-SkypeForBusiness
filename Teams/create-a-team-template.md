@@ -24,6 +24,11 @@ appliesto:
 
 A custom team template is a predefined team structure with a set of channels, tabs, and apps. You can develop a template that helps you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx]
+
+
 To get started:
 
 1. Sign in to the Teams admin center.
@@ -59,7 +64,7 @@ To get started:
 Your new template is displayed in the **Team templates** list. The template can be used to create a team in Teams.
 
 > [!Note]
-> It can take up to 24 hours for teams users to see a custom template in the gallery.
+> It can take up to 24 hours for teams users to see a custom template change in the gallery.
 
 ## Customizing Website Tab apps
 
