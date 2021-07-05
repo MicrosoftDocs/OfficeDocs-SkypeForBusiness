@@ -53,6 +53,11 @@ To customize and extend Teams, add third-party apps through [apps, bots, and con
 > For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
 
 
+## Prerequisites
+Before setting up Microsoft Teams, review the following requirements:
+- [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md)
+- [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
+
 ## Managing Teams
 
 As the admin, you'll manage Teams through the Microsoft Teams admin center. For a quick orientation, watch the Manage Teams using the Teams admin center video (3:03 min):
