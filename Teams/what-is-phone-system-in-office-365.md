@@ -50,7 +50,7 @@ Phone System can be connected to the PSTN in one of two ways:
 
   For your Teams users, you can connect your on-premises telephony infrastructure to Phone System by using Direct Routing. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
 
-  For more information about all Microsoft telephony solutions, see [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions).
+  For more information about all Microsoft telephony solutions, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
 
 ## Phone System with services
