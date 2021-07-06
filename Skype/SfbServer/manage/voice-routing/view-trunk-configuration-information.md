@@ -30,7 +30,7 @@ When you install Skype for Business Server, a global collection of SIP trunk con
 
 ## Viewing SIP trunk configuration information by using Windows PowerShell cmdlets
 
-SIP trunk configuration settings can be viewed by using Skype for Business Server PowerShell and the Get-CsTrunkConfiguration cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at https://go.microsoft.com/fwlink/p/?linkId=255876. REPLACE OR REMOVE THIS LINK.
+SIP trunk configuration settings can be viewed by using Skype for Business Server PowerShell and the Get-CsTrunkConfiguration cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/. REPLACE OR REMOVE THIS LINK.
 
 
 **To view SIP trunk configuration information**
