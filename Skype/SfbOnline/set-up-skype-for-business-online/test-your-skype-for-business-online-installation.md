@@ -102,7 +102,7 @@ Verify that the major Skype for Business Online features are working as expected
 |[Sign in to and out of Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |The Skype for Business sign-in screen is displayed  <br/> |
 |[Sign in to and out of Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |The Skype for Business window closes, and the Skype for Business icon no longer appears in the Windows notification area.  <br/> |
 
-Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Online](https://support.microsoft.com/kb/2541980).
+Can't sign in? See [Troubleshooting Skype for Business sign-in for users](https://docs.microsoft.com/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users).
 
  **Contacts, presence, and instant messaging**
 

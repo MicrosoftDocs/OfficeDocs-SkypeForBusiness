@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
-description: "The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is https://pool01.contoso.net, the base URL is pool01.contoso.net."
+description: "The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is `https://pool01.contoso.net`, the base URL is `pool01.contoso.net`."
 ---
 
 # Add Director Web Service
  
-The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is https://pool01.contoso.net, the base URL is pool01.contoso.net.
+The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is `https://pool01.contoso.net`, the base URL is `pool01.contoso.net`.
   
 You cannot override the internal Web Services pool fully qualified domain name (FQDN) if you are deploying only a single Director. If you are configuring a Domain Name System (DNS) load balancing for pool of Directors, you can specify a different internal base URL (which must be different from the pool FQDN and could be, for example, internal-\<your base URL\>).
   

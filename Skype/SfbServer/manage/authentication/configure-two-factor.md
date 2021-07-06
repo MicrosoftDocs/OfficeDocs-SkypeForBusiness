@@ -119,7 +119,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 2. Launch Internet Explorer.
 
-3. Browse to the **Certificate Authority Web Enrollment** page (e.g. https://MyCA.contoso.com/certsrv).
+3. Browse to the **Certificate Authority Web Enrollment** page (e.g., `https://MyCA.contoso.com/certsrv`).
 
     > [!NOTE]
     > If you are using Internet Explorer 10, you may need to view this website in Compatibility Mode.
