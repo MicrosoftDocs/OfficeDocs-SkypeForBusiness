@@ -20,7 +20,7 @@ description: "This article provides an overview of and features supported by Mic
 
 # Deploy Teams phones and Teams displays using Intune
 
-This article gives you an overview of how to deploy. Teams phones and Teams displays using Intune.
+This article gives you an overview of how to deploy. Teams phones and Teams display using Intune.
 
 ## Conditional Access
 
@@ -37,8 +37,11 @@ If you use Conditional Access, which requires Intune enrollment to be enforced, 
 
 Teams Android-based devices are managed by in Intune via Android Device Administrator (DA) management. Before devices can be enrolled into Intune, there are a few basic steps to perform.  If you are already managing devices with Intune today, you probably have already done all these things.  If not, here’s what to do:
 
+> [!NOTE]
+> Users with a CAP license still need to follow steps one and two when they configure Intune to enroll Teams Android-based devices.
+
 1. Set Intune MDM (mobile device management) Authority.  
- 
+
    If you’ve never used Intune before, you need to set the MDM authority before you can enroll devices. For more information, see [Set the mobile device management authority](/intune/fundamentals/mdm-authority-set).  This is a one-time step that has to be done upon creating a new Intune tenant.
 1. Enable Android device administrator enrollment.
   
