@@ -44,7 +44,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
   
-  In order to schedule an event from Teams client user interface, the organizer must have proper access to Calendar App - Access to calendar from Teams is only available for users hosted on a mailbox configured on [Exchange Hybrid](https://docs.microsoft.com/en-us/exchange/hybrid-deployment/deploy-hybrid) or Exchange Online.
+  To schedule an event from a Teams client user interface, the organizer must have proper access to the Calendar App; access to the Calendar App from Teams is only available for users hosted on a mailbox configured in an [Exchange hybrid deployment](/exchange/hybrid-deployment/deploy-hybrid) or Exchange Online.
 
 >[!Note]
 > The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
