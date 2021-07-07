@@ -22,7 +22,7 @@ appliesto:
 
 SIP Tester client is a sample PowerShell script that you can use to test Direct Routing Session Border Controller (SBC) connections in Microsoft Teams. This script tests basic functionality of a customer-paired Session Initiation Protocol (SIP) trunk with Direct Routing.
 
-The script submits an SIP test to the test runner, waits for the result, and then presents it in a human-readable format. You can use this script to test the following scenarios:
+The script submits a SIP test to the test runner, waits for the result, and then presents it in a human-readable format. You can use this script to test the following scenarios:
 
 - Outbound and inbound calls
 - Simultaneous ring
