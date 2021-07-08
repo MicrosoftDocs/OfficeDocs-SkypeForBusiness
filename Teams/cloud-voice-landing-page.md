@@ -149,77 +149,8 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration (more about migration later).
 
-### Phone System with Calling Plan 
+For more information about PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
-As described earlier in this article, Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This is the simplest option that connects Microsoft Phone System to the Public Switched Telephone Network (PSTN) to enable calls to landlines and mobile phones around the world. With this option, Microsoft provides Private Branch Exchange (PBX) functionality for your organization and acts as your PSTN carrier, as shown in the following diagram:
-
-![Diagram 4 shows Phone System with Auto attendants, call queues, caller ID, and more, and Microsoft as the PSTN carrier](media/voice-solution-microsoft-complete.png)
-
-If you answer yes to the following, then Phone System with Calling Plan is the right solution for you:
-
-- Calling Plan is available in your region.
-- You do not need to retain your current PSTN carrier.
-- You want to use Microsoft-managed access to the PSTN.
-
-With this option: 
-
-- You get Microsoft Phone System with added Domestic or International Calling Plans that enable calling to phones around the world (depending on the level of service being licensed).
-
-- You do not require deployment or maintenance of an on-premises deployment&mdash;because Calling Plan operates out of Microsoft 365 or Office 365.
-
-- Note: If necessary, you can choose to connect a supported Session Border Controller (SBC) through Direct Routing for interoperability with third-party PBXs, analog devices, and other third-party telephony equipment supported by the SBC.
-
-This option requires uninterrupted connection to Microsoft 365 or Office 365.
-
-For more information about Calling Plan, see the following articles:
-
-- [Which Calling Plan is right for you?](calling-plan-landing-page.md)
-- [How to buy a Calling Plan](calling-plans-for-office-365.md)
-- [Country and region availability for Calling Plan](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- [Set up Calling Plan](set-up-calling-plans.md)
-
-
-### Phone System with own PSTN carrier with Direct Routing
-
-This option connects Microsoft Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
-
-![Diagram 5 shows Phone System with Direct Routing](media/voice-solution-with-direct-routing.png)
-
-If you answer yes to the following questions, then Phone System with Direct Routing is the right solution for you:
-
-- You want to use Teams with Phone System.
-- You need to retain your current PSTN carrier.
-- You want to mix routing, with some calls going through Calling Plan, some through your carrier.
-- You need to interoperate with third-party PBXs and/or equipment such us overhead pagers, analog devices, and so on.
-
-With this option:
-
-- You connect your own supported SBC to Microsoft Phone System without the need for additional on-premises software.
-
-- You can use virtually any telephony carrier with Microsoft Phone System.
-
-- You can choose to configure and manage this option, or it can be configured and managed by your carrier or partner (ask if your carrier or partner provides this option).
-
-- You can configure interoperability between your telephony equipment&mdash;such as a third-party PBX and analog devices&mdash;and Microsoft Phone System.
-
-
-This option requires the following:
-
-- Uninterrupted connection to Microsoft 365 or Office 365.
-
-- Deploying and maintaining a supported SBC.
-
-- A contract with a third-party carrier.
-  (Unless deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plan.)
-
-For more information about Direct Routing, see the following articles:
-
-- [Phone System Direct Routing](direct-routing-landing-page.md)
-- [Plan Direct Routing](direct-routing-plan.md)
-- [Configure Direct Routing](direct-routing-configure.md)
-- [Manage voice routing policies for use with Direct Routing](manage-voice-routing-policies.md)
-- [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
-- [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 
 ## Phone numbers from Microsoft
 
@@ -238,47 +169,6 @@ For more information about managing phone numbers in your organization, includin
 - [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md)
 - [Transfer phone numbers to Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
-## Dial plans and call routing
-
-A dial plan is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
-
-You will need to decide the following: 
-
-- Does my organization need a customized dial plan?
-- Which users require a customized dial plan?
-- Which tenant dial plan should be assigned to each user?
-
-For more information, see the following articles: 
-
-- [What are dial plans?](what-are-dial-plans.md)
-- [Plan for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)
-- [Create and manage dial plans](create-and-manage-dial-plans.md)
-
-## Emergency calling
-
-How you configure emergency calling differs depending on your PSTN connectivity option: Microsoft Calling Plan or Direct Routing. Dynamic emergency calling for Microsoft Calling Plan and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. For more information about emergency calling concepts and terminology, and how to configure dynamic emergency calling, see the following articles:
-
-- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
-- [Contoso case study: Emergency calling](voice-case-study-emergency-calling.md)<br>
-  Describes how a fictional multi-national corporation, Contoso, implemented emergency calling for their organization.
-
-## Location-Based Routing for Direct Routing
-
-In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. Location-Based Routing for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information about how to plan and configure Location-Based Routing (LBR), see the following articles:
-
-- [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
-- [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
-- [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md)<br>
-  Describes how a fictional multi-national corporation, Contoso, implemented Location-Based Routing for their organization.
-
-## Network topology for voice features
-
-If you are deploying dynamic emergency calling or Location-Based Routing for Direct Routing, you must configure network settings for use with these features in Microsoft Teams. To learn how to configure network settings for network regions, network sites, network subnets, and trusted IP addresses, see the following articles:
-
-- [Network settings for cloud voice features in Microsoft Teams - Concepts and terminology](cloud-voice-network-settings.md)
-- [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology.md)
 
 ## Migrate your existing voice solution to Teams
 

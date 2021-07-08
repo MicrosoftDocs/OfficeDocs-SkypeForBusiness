@@ -155,7 +155,7 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 - For information about managing phone numbers with Operator Connect, see [Set up phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
 
-### Call routing
+### Call routing and dial plans
 
 How you configure call routing differs depending on your PSTN connectivity option.  
 
@@ -165,7 +165,7 @@ How you configure call routing differs depending on your PSTN connectivity optio
 
 - For Operator Connect, **DOES THE CARRIER HANDLE MOST OF CALL ROUTING??**
 
-#### Location-Based Routing for Direct Routing
+### Location-Based Routing for Direct Routing
 
 In some countries and regions, it's illegal to bypass the PSTN carrier to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Teams users based on their geographic location. For more information about how to plan and configure LBR, see the following articles:
 
@@ -174,6 +174,7 @@ In some countries and regions, it's illegal to bypass the PSTN carrier to decrea
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 - [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md)<br>
   Describes how a fictional multi-national corporation, Contoso, implemented Location-Based Routing for their organization.
+
 
 ### Emergency calling
 
@@ -195,7 +196,12 @@ For more information about emergency calling concepts and terminology, and how t
   Describes how a fictional multi-national corporation, Contoso, implemented emergency calling for their organization.
 
 
+### Network topology for voice features
 
+If you are deploying dynamic emergency calling or Location-Based Routing for Direct Routing, you must configure network settings for use with these features in Microsoft Teams. To learn how to configure network settings for network regions, network sites, network subnets, and trusted IP addresses, see the following articles:
+
+- [Network settings for cloud voice features in Microsoft Teams - Concepts and terminology](cloud-voice-network-settings.md)
+- [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology.md)
 
 
 
