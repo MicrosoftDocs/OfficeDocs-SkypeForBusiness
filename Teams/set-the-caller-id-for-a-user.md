@@ -29,11 +29,11 @@ Phone System in Microsoft 365 provides a default caller ID that is the user's as
   
 By default, the following caller ID settings are **turned off**. This means that the Teams user's phone number can be seen when that user makes a call to a PSTN phone. You can change these settings as follows:
   
-- **Outgoing caller ID** You can replace a user's Caller ID, which by default is their telephone number, with another phone number. For example, you could change the user's Caller ID from their phone number to a main phone number for your business or change the user's Calling Line ID from their phone number to a main phone number for the legal department. You can change the Calling ID number to any online service number (toll or toll-free). You can also change the Calling ID number to an on-premises phone number through Direct Routing that is assigned to a resource account used by an Auto Attendant or Call Queue.
+- **Outgoing caller ID** You can replace a user's Caller ID, which by default is their telephone number, with another phone number. For example, you could change the user's Caller ID from their phone number to a main phone number for your business or to a main phone number for the legal department. Additionally, you can set the Calling ID number to any online service number (toll or toll-free) or to an on-premises phone number through Direct Routing that is assigned to a resource account used by an Auto Attendant or a Call Queue.
     
   > [!NOTE]
   > If you want to use the *Service* parameter, you must specify a valid service number.
-  > You need to use the PowerShell cmdlets for Resource account number if not visible in drop down.
+  > You need to use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later for the Resource account number if it is not visible in the dropdown.
   
 - **Block outbound caller ID.** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
     
