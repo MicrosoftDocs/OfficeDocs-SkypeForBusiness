@@ -139,9 +139,9 @@ The following table highlights the primary configuration differences.  The secti
 
 | Option | Description | Phone number management | Call routing | Emergency calling availability |  
 | :--- | :--- | :--- | :--- | :--- | 
-| Calling Plans | Microsoft acts as PSTN carrier.| Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| 
+| Calling Plans | -Microsoft acts as PSTN carrier.<br>-You do not need to buy or manage SBCs.| Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| 
 | Direct Routing | -Connect your SBC to Phone System. <br> -Use your existing PSTN carrier.  | Obtained through carrier. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <BR> -LBR available to restrict toll bypass. |-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
-| Operator Connect | Carrier manages PSTN connectivity and SBCs.| Obtained through carrier. <br>- Numbers associated with emergency addresses managed by carrier.| Managed by carrier. (?) | Managed by carrier (?) |  
+| Operator Connect | -Carrier manages PSTN connectivity and SBCs.<br>-You do not need to buy or manage SBCs.| Obtained through carrier. <br>- Numbers associated with emergency addresses managed by carrier.| -Managed by carrier. <br> -Admin configures user dial plans for number translation. | -Enabled by carrier. <br>-Admin registers addresses. <br>-Dynamic calling supported. |  
 |||||
 
 ### Phone number management
@@ -183,7 +183,7 @@ How you configure emergency calling differs depending on your PSTN connectivity 
 
 - For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. Registered emergency locations are not supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity.
 
-- For Operator Connect, ...  **Carrier manages numbers associated with emergence addresses...   is dynamic emergency calling available?** 
+- For Operator Connect, each user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number but can only be set by the carrier partner. Dynamic emergency calling (based on the location of the Teams client) is supported.
 
 For more information about emergency calling concepts and terminology, and how to configure emergency calling and dynamic emergency calling, see the following articles:
 
