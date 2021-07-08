@@ -40,7 +40,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 3. Select **Add**.
 4. Name the update policy, add a description, and turn on **Show preview features**.
 
-You can also set the policy using PowerShell using the `CsTeamsUpdateManagementPolicy` cmdlet.
+You can also set the policy using PowerShell using the `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPreview` boolean parameter.
 
 ## Enable public preview
 

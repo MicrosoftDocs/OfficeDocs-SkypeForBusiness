@@ -330,7 +330,7 @@ Location of the media processors:
 Locations where both SIP proxy and media processor components deployed:
 - US (two in US West and US East datacenters)
 - Europe (Amsterdam and Dublin datacenters)
-- Asia (Singapore and Hong Kong datacenters)
+- Asia (Singapore datacenter)
 - Japan (JP East and West datacenters)
 - Australia (AU East and Southeast datacenters)
 

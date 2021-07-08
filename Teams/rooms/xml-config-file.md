@@ -77,14 +77,14 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
             <BlueComponent>100</BlueComponent>
         </CustomThemeColor>
     </Theming>
-    <CoordinatedMeetings enabled="true"> ​
-        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
-        <Settings> ​
-            <Audio default="false" enabled="false" />​
-            <Video default="false" enabled="true" /> ​
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
             <Whiteboard default="false" enabled="false"/>
-        </Settings> ​
-    </CoordinatedMeetings>​
+        </Settings> 
+    </CoordinatedMeetings>
 </SkypeSettings>
 ```
 
