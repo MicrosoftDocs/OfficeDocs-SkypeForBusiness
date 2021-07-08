@@ -154,6 +154,14 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 
 - For information about managing phone numbers with Operator Connect, see [Set up phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
+Microsoft has two types of telephone numbers available: subscriber (user) numbers, which can be assigned to users in your organization, and service numbers, available as toll and toll-free service numbers. Service numbers have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
+
+You will need to decide:
+
+Which user locations need new phone numbers from Microsoft?
+Which type of telephone number (subscriber or service) do I need?
+How do I port existing phone numbers to Teams?
+
 
 ### Call routing and dial plans
 
