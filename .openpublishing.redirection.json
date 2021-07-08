@@ -2491,6 +2491,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "Teams/what-are-phone-system-auto-attendants.md",
+      "redirect_url": "/microsoftteams/plan-auto-attendant-call-queue",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir",
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/patients-app-overview",
       "redirect_document_id": true
