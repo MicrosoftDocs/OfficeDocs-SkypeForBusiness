@@ -121,7 +121,7 @@ After you have created the user and assigned a license, the next step is to conf
     > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
 
-## Configuring sending calls directly to voicemail
+## Configure sending calls directly to voicemail
 
 Direct Routing allows you to end the call to a user and send it directly to the user's voicemail. If you want to send the call directly to voicemail, attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail". In this case, the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
