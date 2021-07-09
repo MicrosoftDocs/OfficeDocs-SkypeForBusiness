@@ -149,6 +149,9 @@ Most Phone System features are the same regardless of the PSTN connectivity opti
 
 ## Migrate your existing voice solution to Teams
 
+> [!NOTE]
+> For guidance on planning a Teams voice solution as part as your overall plan to upgrade to Teams from Skype for Business Server, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](upgrade-to-teams-on-prem-pstn-considerations.md).
+
 For an organization that is upgrading to Teams, the ultimate goal is to move all users to TeamsOnly mode. Using Phone System with Teams is only supported when the user is in TeamsOnly mode. If you need basic information about upgrading to Teams, start here:
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
