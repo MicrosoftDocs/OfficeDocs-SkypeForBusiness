@@ -2498,7 +2498,7 @@
     {
       "source_path": "Teams/teams-experience-o365odb-spo-multi-geo.md",
       "redirect_url": "/microsoft-365/enterprise/multi-geo-capabilities-in-teams-in-microsoft-365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir",
