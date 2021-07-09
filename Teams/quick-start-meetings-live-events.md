@@ -3,8 +3,8 @@ title: Admin quick start - Meetings and live events in Microsoft Teams
 ms.reviewer: 
 description: A quick start guide for admins to get licenses for, roll out, and configure online meetings and live events in Microsoft Teams.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -38,15 +38,9 @@ There are 2 ways to meet in Microsoft Teams - meetings and live events. Use this
 
 Anyone can attend a Teams meeting or public live event for free - no license is required. Attendees join a Teams meeting or live event by clicking the **Join** button in Teams or the meeting invitation. Meeting audio is part of a Teams meeting, but if you want people to be able to dial in to a meeting by phone, you'll need to provide a dial-in number.
 
-For the people who will organize, schedule, and host meetings or live events, they'll need one of the Microsoft 365 or Office 365 licenses listed in the table below. If you're already using Teams, you probably have the license you need for organizing and hosting meetings and live events.
+For the people who will organize, schedule, and host meetings or live events, they'll need one of the licensing plans described in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Table with licenses required for Teams meetings or live events":::
-
-> <sup>1</sup>  Meeting organizers need to have an [Audio Conferencing add-on license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to send an invite that includes dial-in conferencing.
->
-> <sup>2</sup>  Meeting dial out to a [**Call me at** number](set-up-the-call-me-feature-for-your-users.md) requires organizers to have an E5 or [Audio Conference add-in license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). A [dial plan](what-are-dial-plans.md) may also be needed.
-
-To learn more about licensing, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
+If you're already using Teams, you probably have the license you need for organizing and hosting meetings and live events.
 
 ## Make sure your network's ready
 
