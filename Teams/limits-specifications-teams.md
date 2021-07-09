@@ -37,8 +37,8 @@ This article describes some of the limits, specifications, and other requirement
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup3;     |
-|Number of channels per team    | 200 (includes deleted channels)<sup>4</sup>        |
-|Number of Private channels per team    |30 (includes deleted channels)<sup>4</sup>        |
+|Number of channels per team    | 200 (includes archived and deleted channels)<sup>4</sup>        |
+|Number of Private channels per team    |30 (includes archived and deleted channels)<sup>4</sup>        |
 |Number of members in a Private channel    |250|
 |Maximum size of distribution list, security group or Office 365 group that can be imported in to a team    |3,500|
 |Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>6</sup>     |
