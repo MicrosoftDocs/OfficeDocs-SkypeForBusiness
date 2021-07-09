@@ -48,10 +48,9 @@ If your Skype for Business Online deployment coexists with Skype for Business 20
 
 For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
-
 ## Ensure that the user is homed online 
 
-This step is applicable for Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing.
+This step is applicable to Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing.
 
 Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. It's also recommended, but not required, to change management of the LineURI from on-premises to online when migrating users to Teams Direct Routing. 
 
