@@ -144,7 +144,7 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration (more about migration later).
 
-For more information about PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
+Most Phone System features are the same regardless of the PSTN connectivity option you choose. There are some differences in functionality, however, that affect how you configure certain Phone System features, such as call routing and emergency calling. For more information about PSTN connectivity options and these configuration considerations, see [PSTN connectivity options](pstn-connectivity.md).
 
 
 ## Migrate your existing voice solution to Teams

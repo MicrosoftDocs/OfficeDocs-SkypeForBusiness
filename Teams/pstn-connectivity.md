@@ -146,6 +146,14 @@ The following table highlights the primary configuration differences.  The secti
 
 ### Phone number management
 
+Microsoft has two types of telephone numbers available: subscriber (user) numbers, which can be assigned to users in your organization, and service numbers, available as toll and toll-free service numbers. Service numbers have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
+
+You will need to decide:
+
+- Which user locations need new phone numbers from Microsoft?
+- Which type of telephone number (subscriber or service) do I need?
+- How do I port existing phone numbers to Teams?
+
 How you acquire and manage phone numbers differs depending on your PSTN connectivity option.
 
 - For information about managing phone numbers for Calling Plan, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
@@ -154,24 +162,17 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 
 - For information about managing phone numbers with Operator Connect, see [Set up phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
-Microsoft has two types of telephone numbers available: subscriber (user) numbers, which can be assigned to users in your organization, and service numbers, available as toll and toll-free service numbers. Service numbers have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
-
-You will need to decide:
-
-Which user locations need new phone numbers from Microsoft?
-Which type of telephone number (subscriber or service) do I need?
-How do I port existing phone numbers to Teams?
-
 
 ### Call routing and dial plans
 
 How you configure call routing differs depending on your PSTN connectivity option.  
 
-- For Calling Plans, most of call routing is handled by the Microsoft Calling Plan infrastructure. You configure user dial plans--a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164)--for purposes of call authorization and call routing. For more information, see [What are dial plans?](what-are-dial-plans.md).
+- For Calling Plans, most of call routing is handled by the Microsoft Calling Plan infrastructure. You configure user dial plans for purposes of number translation for call authorization and call routing. For more information, see [What are dial plans?](what-are-dial-plans.md).
 
 - For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
 
-- For Operator Connect, **DOES THE CARRIER HANDLE MOST OF CALL ROUTING??**
+- For Operator Connect, most of call routing is managed by the carrier.  You configure user dial plans for purposes of number translation for call authorization and call routing. For more information, see [What are dial plans?](what-are-dial-plans.md).
+
 
 ### Location-Based Routing for Direct Routing
 
