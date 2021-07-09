@@ -3,7 +3,7 @@ title: PSTN connectivity options
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/29/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -135,14 +135,6 @@ Most Phone System features are the same regardless of the PSTN connectivity opti
 
 There are some differences in functionality, however, that affect how you configure certain Phone System features. For example, Direct Routing requires additional steps to configure call routing. As another example, Direct Routing provides Location-Based-Routing (LBR)--so that you can restrict toll bypass in certain geographic locations where it is not allowed. 
 
-The following table highlights the primary configuration differences.  The sections that follow the table provide links to more information and details.
-
-| Option | Description | Phone number management | Call routing | Emergency calling availability |  
-| :--- | :--- | :--- | :--- | :--- | 
-| Calling Plans | -Microsoft acts as PSTN carrier.<br>-You do not need to buy or manage SBCs.| Obtained through Microsoft.  | -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br>-Admin registers addresses. <br>-Dynamic calling supported.| 
-| Direct Routing | -Connect your SBC to Phone System. <br> -Use your existing PSTN carrier.  | Obtained through carrier. |-Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <BR> -LBR available to restrict toll bypass. |-Requires extra configuration by admin.<br>-Registered addresses not supported.<br>-Dynamic calling supported but requires additional configuration.  | 
-| Operator Connect | -Carrier manages PSTN connectivity and SBCs.<br>-You do not need to buy or manage SBCs.| Obtained through carrier. <br>- Numbers associated with emergency addresses managed by carrier.| -Managed by carrier. <br> -Admin configures user dial plans for number translation. | -Enabled by carrier. <br>-Admin registers addresses. <br>-Dynamic calling supported. |  
-|||||
 
 ### Phone number management
 
