@@ -32,10 +32,3 @@ The Lync ISV qualification program is designed to help ensure that qualified app
 With third-party testing, the program defines specific requirements for interoperability with Lync Server, installation, set-up and configuration, documentation, and support.
 
 Designed with enterprise-class industry standards, testing covers performance, reliability, and SDK/API utilization.
-
-* * *
-### Related resources
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

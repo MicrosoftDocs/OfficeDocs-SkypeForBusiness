@@ -38,12 +38,12 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 
 |Vendor|Qualified Product|Software Version Tested|Vendor's Lync Page|
 |:--- |:--- |:--- |:--- |
-|[A10Networks](https://www.a10networks.com/solutions/application_solutions_microsoft.php)| AX Series 1000, 2200, 3200 <br/><hr> 64-bit AX Series 2500, 2600, 3000, 5100, 5200| 2.4.3 |  [AX Series for Lync 2010 Overview and Deployment Guide](https://www.a10networks.com/solutions/application_solutions_microsoft.php)|
+|[A10Networks](https://www.a10networks.com/)| AX Series 1000, 2200, 3200 <br/><hr> 64-bit AX Series 2500, 2600, 3000, 5100, 5200| 2.4.3 |  [AX Series for Lync 2010 Overview and Deployment Guide](https://www.a10networks.com/solutions/application_solutions_microsoft.php)|
 |[Array Networks](http://www.arraynetworks.com/) | APV Series | ArrayOS TM 8.x or later |[Deployment Guide for Array Networks APV Application Delivery Controllers and Microsoft Lync Server 2010](http://www.arraynetworks.com/libraries/DG-APV-Lync2010-Dec-2011-Rev-III.PDF) |
 |AVANU |Webmux 481SD, 591SGQ, 690PG| V8.x and up|[WebMux and Microsoft Lync 2010](http://avanu.com/webmuxuc/)|
 |[BarracudaNetworks](https://www.barracuda.com/products)|Barracuda Load Balancer ADC Model 340, 440 or 640|3.3.1.005, 3.5.0.008| [Barracuda Load Balancer Deployment Guide](https://techlib.barracuda.com/ADC/MSLyncDeployOverview)|
 |Brocade |ServerIron XL,4G,GTC,GTE,350,450 &amp; 850<br/><hr> ServerIron ADX 1000, 4000, 10000|SI V10.0.0a<br/><hr>V12.1, V12.2|[Brocade Communications' Microsoft Unified Communications Solutions](https://www.brocade.com/partnerships/technology-alliance-partners/partner-details/microsoft/microsoft-office-communications-server/index.page)|
-|[CitrixSystems](https://www.citrix.com/global-partners/microsoft/netscaler.html) |Netscaler|8.1, 9.x, 10.5|[Netscaler Developer Network](https://www.citrix.com/community.html)|
+|[CitrixSystems](https://www.citrix.com/global-partners/microsoft.html) |Netscaler|8.1, 9.x, 10.5|[Netscaler Developer Network](https://www.citrix.com/community.html)|
 |[F5](http://www.f5.com/products/technology/microsoft/lync-server/) |BIG-IP Local Traffic Manager|11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
 |[Fortinet](http://www.fortinet.com/) |FortiADC-1500D|4.2.3|[Fortinet ADC Deployment Guide for Lync Server 2013](http://docs.fortinet.com/d/fortiadc-load-balancing-lync)|
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/) |ALOHA Load Balancer|5.5|[Aloha Deployment Guide for Lync 2010](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|

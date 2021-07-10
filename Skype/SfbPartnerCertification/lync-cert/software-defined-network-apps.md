@@ -119,8 +119,3 @@ When a desktop sharing, voice, or video session is initiated using a Lync client
 
 Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
 
-### Related resources
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

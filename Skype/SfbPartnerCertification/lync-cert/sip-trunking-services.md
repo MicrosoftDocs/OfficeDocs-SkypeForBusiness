@@ -74,8 +74,8 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[TDC](http://tdc.se/element.php?dogtag=tdcs_erb_fas_but)  | TDC Business Trunk |  |
 |[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview)  | talkAssure SIP Trunking for Microsoft Lync |  |
 |[Telavox](https://telavox.com/)  | SIP Trunk | &#x2714; |
-|[Tele2](https://www.tele2.nl/zakelijk/telefonie/voip-bellen/?gclid=CjwKEAjw-JqgBRCAyqjoic27nlQSJABBTpFEPqylpfzn4si30OM_T7hTqYhAPfNK3pBlpjhjyUzhbxoCasnw_wcB)  |VoIP Connect  |  |
-|[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/en/multinational/products-services/unified-communication-and-collaboration/)  | SIP Trunking |  |
+|[Tele2](https://www.tele2.nl/)  |VoIP Connect  |  |
+|[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/)  | SIP Trunking |  |
 |[Telecom New Zealand / Gen-I](http://www.gen-i.co.nz/solutions/collaboration/voice-connect/)  | Voice Connect |  |
 |[TeliaSonera Finland Oyj](http://www.sonera.fi/)  |Sonera Business Voice Access  |  |
 |[Telio Telecom AS](http://www.telio.no/)  |Telio SipTrunk  |  |
@@ -137,7 +137,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Tata Communications](http://www.tatacommunications.com/GSC/index.html) |Global SIP Connect|&#x2714;|
 |[TDC](http://tdc.se/element.php?dogtag=tdcs_erb_fas_but)     |TDC Business Trunk| |
 |[Telavox](http://www.telavox.se/)     |SIP Trunk|&#x2714;|
-|[Tele2](https://www.tele2.nl/zakelijk/telefonie/voip-bellen/) |VOIP Connect| |
+|[Tele2](https://www.tele2.nl/) |VOIP Connect| |
 |[Telenet](http://business.telenet.be/nl/telefonie-isdn/overzicht) |Telenet SIP Trunking| |
 |[Telenor](http://www.telenor.no/bedrift/samordnet-kommunikasjon/index.jsp) |Telenor Samordnet kommunikasjon (Unified Communication)| |
 |[Telenor Danmark A/S](http://www.telenor.dk/) |Telenor SIP Trunk| |

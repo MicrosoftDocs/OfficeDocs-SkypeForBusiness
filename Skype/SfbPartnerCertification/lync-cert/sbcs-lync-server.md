@@ -33,7 +33,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td width="396px"><strong>Software Version Tested</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="6"><a href="https://www.audiocodes.com/solutions/microsoft/lync-sbc">Audiocodes</a></td>
+		<td rowspan="6"><a href="https://www.audiocodes.com/">Audiocodes</a></td>
 		<td>Mediant 800/850 E-SBC</td>
 		<td>6.60A.024.008</td>
 	</tr>
@@ -100,7 +100,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>EC6.4.0</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="https://www.sangoma.com/solutions/session-border-controller-for-ms-lync/">Sangoma Technologies</a></td>
+		<td rowspan="2"><a href="https://www.sangoma.com/">Sangoma Technologies</a></td>
 		<td>Vega Enterprise SBC</td>
 		<td>2.0</td>
 	</tr>
@@ -109,7 +109,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>2.0</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="9"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+		<td rowspan="9"><a href="https://ribboncommunications.com/">Sonus</a></td>
 		<td>SBC 1000</td>
 		<td>2.2.1, 3.1</td>
 	</tr>
@@ -146,7 +146,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>4.1.1</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a href="https://www.anynode.de/features/anynode-and-microsoft-lync/">TE-SYSTEMS</a></td>
+		<td><a href="https://www.anynode.de/">TE-SYSTEMS</a></td>
 		<td>anynode - The Software SBC</td>
 		<td>1.1.122</td>
 	</tr>
@@ -198,7 +198,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td width="396px">4.10.2</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="6"><a href="https://www.sonus.net/lync-sbc5200">Sonus</a></td>
+		<td rowspan="6"><a href="https://ribboncommunications.com/">Sonus</a></td>
 		<td width="344px">SBC 1000</td>
 		<td width="396px">2.0.1v118</td>
 	</tr>

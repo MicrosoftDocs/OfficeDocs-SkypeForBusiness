@@ -47,7 +47,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
     > [!NOTE]
     > The topology configuration is saved as a Topology Builder XML (.tbxml) file. When you publish a topology, you are pushing the configuration information from the file to the SQL Server database. When you open Topology Builder in the future, you can download the existing configuration from SQL Server directly into Topology Builder and either publish it back to SQL Server or save it as a Topology Builder configuration file. 
   
-5. On the **Define the primary domain screen**, enter the **primary SIP domain**, and click **Next**. In this example, we are using **contoso.local**, as shown in the figure.
+5. On the **Define the primary domain screen**, enter the **primary SIP domain**, and click **Next**. In this example, we are using `contoso.local`, as shown in the figure.
     
      ![Define the primary sip domain.](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -137,17 +137,17 @@ You can use Skype for Business Server Topology Builder to design, define, config
   
 10. On the Specify the Web Services URL page, you must decide if you need to override the internal Web Services pool base URL. The reason for this override has to do with load balancing. Basic SIP traffic can be load balanced through simple DNS load balancing. However, the HTTP/S Web Services network traffic must use a supported Hardware or Software load balancing solution. For supported load balancers, see [Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). In this example, we used DNS load balancing for SIP traffic and a supported software load balancing solution. Because we are dividing the traffic this way, we need to override the internal Web Services pool FQDN. Alternatively, if we had a top line load balancer and sent all traffic through it instead of using DNS load balancing for SIP traffic, we would not need to override the Web Services URL. 
     
-    In the DNS section of this topic, we created an A record for webint.contoso.local. This is the URL we are using for the web services HTTP/S traffic, and it must go through the supported software load balancer we set up. Therefore, in this example, we override the URL to let Skype for Business Server know that all HTTP/S traffic should go to webint.contoso.local instead of pool.contoso.local, as shown in the figure. For more about load balancing, see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md).
+    In the DNS section of this topic, we created an A record for `webint.contoso.local`. This is the URL we are using for the web services HTTP/S traffic, and it must go through the supported software load balancer we set up. Therefore, in this example, we override the URL to let Skype for Business Server know that all HTTP/S traffic should go to `webint.contoso.local` instead of `pool.contoso.local`, as shown in the figure. For more about load balancing, see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md).
     
     > [!IMPORTANT]
-    > The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is https://webint.contoso.local, the base URL is webint.contoso.local. 
+    > The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is `https://webint.contoso.local`, the base URL is `webint.contoso.local`. 
   
     - If you are configuring DNS load balancing, as we are in this example, select the **Override internal Web Services pool FQDN** check box, and enter the internal base URL (which must be different from the pool FQDN) in **Internal Base URL**. 
     
     > [!CAUTION]
     > If you decide to override the Internal Web Services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director, or Director pool. **Use only standard characters** (including A-Z, a-z, 0-9, and hyphens) when you define URLs or fully qualified domain names. Do not use Unicode characters or underscores. Nonstandard characters in a URL or FQDN are often not supported by external DNS and public certification authorities (CAs) (that is, when the URL or FQDN must be assigned to the subject name or subject alternative name in the certificate).
   
-    - Optionally, enter the external base URL in **External Base URL**. You would enter the external base URL to differentiate it from your internal domain name. For example, your internal domain is contoso.local, but your external domain name is contoso.com. You would define the URL using the contoso.com domain name since it must be resolvable from public DNS. This is also important in the case of a reverse proxy. The external base URL domain name would be the same as the domain name of the FQDN of the reverse proxy. HTTP access to the Front End pool is required for instant messaging and presence on mobile clients.
+    - Optionally, enter the external base URL in **External Base URL**. You would enter the external base URL to differentiate it from your internal domain name. For example, your internal domain is `contoso.local`, but your external domain name is `contoso.com`. You would define the URL using the `contoso.com` domain name since it must be resolvable from public DNS. This is also important in the case of a reverse proxy. The external base URL domain name would be the same as the domain name of the FQDN of the reverse proxy. HTTP access to the Front End pool is required for instant messaging and presence on mobile clients.
     
       ![Override web services.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -169,7 +169,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
   
 2. In the **Simple URLs** pane, select either **Phone access URLs:** (Dial-in) or **Meeting URLs:** (Meet) to edit, and then click **Edit URL**.
     
-3. Update the URL to the value you want, and then click **OK** to save the edited URL. You should configure the simple URL using the external SIP domain so that external users can join meetings, for example, contoso.com, which is external, as opposed to contoso.local, which is an internal domain. Thus, the SIP domain should be able to be resolved by external DNS.
+3. Update the URL to the value you want, and then click **OK** to save the edited URL. You should configure the simple URL using the external SIP domain so that external users can join meetings, for example, `contoso.com`, which is external, as opposed to `contoso.local`, which is an internal domain. Thus, the SIP domain should be able to be resolved by external DNS.
     
 4. Edit the Meet URL by using the same steps, if necessary.
     
@@ -180,10 +180,10 @@ You can use Skype for Business Server Topology Builder to design, define, config
 2. In the **Administrative access URL** box, enter the simple URL you want for administrative access to Skype for Business Server Control Panel, and then click **OK**.
     
     > [!TIP]
-    > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin. _\<domain\>_. The Admin URL can be either an internal or external domain, for example, contoso.local or contoso.com, as long as either record is resolvable in internal DNS. 
+    > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin. _\<domain\>_. The Admin URL can be either an internal or external domain, for example, `contoso.local` or `contoso.com`, as long as either record is resolvable in internal DNS. 
   
     > [!IMPORTANT]
-    > If you change a simple URL after initial deployment, you must be aware of what changes impact your Domain Name System (DNS) records and certificates for simple URLs. If the change impacts the base of a simple URL, you must change the DNS records and certificates, too. For example, changing from `https://sfb.contoso.com/Meet` to `https://meet.contoso.com` changes the base URL from sfb.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com. If you changed the simple URL from `https://sfb.contoso.com/Meet` to `https://sfb.contoso.com/Meetings`, the base URL of sfb.contoso.com stays the same, so no DNS or certificate changes are needed. Whenever you change a simple URL name, however, you must run the **Enable-CsComputer** cmdlet on each Director and Front End server to register the change.
+    > If you change a simple URL after initial deployment, you must be aware of what changes impact your Domain Name System (DNS) records and certificates for simple URLs. If the change impacts the base of a simple URL, you must change the DNS records and certificates, too. For example, changing from `https://sfb.contoso.com/Meet` to `https://meet.contoso.com` changes the base URL from `sfb.contoso.com` to `meet.contoso.com`, so you would need to change the DNS records and certificates to refer to `meet.contoso.com`. If you changed the simple URL from `https://sfb.contoso.com/Meet` to `https://sfb.contoso.com/Meetings`, the base URL of `sfb.contoso.com` stays the same, so no DNS or certificate changes are needed. Whenever you change a simple URL name, however, you must run the **Enable-CsComputer** cmdlet on each Director and Front End server to register the change.
   
 ### Publish and verify the topology
 

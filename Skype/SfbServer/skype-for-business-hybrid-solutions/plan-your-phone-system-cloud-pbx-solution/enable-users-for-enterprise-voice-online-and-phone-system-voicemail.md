@@ -89,7 +89,7 @@ This section describes how to update the Line URI and dial plan for users enable
     
 5. In the table, click the Skype for Business user account that you want to change line URI.
     
-6. Click **Line URI**, and type a unique, normalized phone number (for example, tel:+14255550200). Then click **Commit**.
+6. Click **Line URI**, and type a unique, normalized phone number (for example, `tel:+14255550200`). Then click **Commit**.
     
 ## Update the dial plan using on-premises Windows PowerShell cmdlets
 

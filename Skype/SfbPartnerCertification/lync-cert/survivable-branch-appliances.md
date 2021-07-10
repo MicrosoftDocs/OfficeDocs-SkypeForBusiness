@@ -55,7 +55,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td>SBA 2.0.4 / GW 4.0-1</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
+		<td rowspan="2"><a href="https://ribboncommunications.com/">Sonus</a></td>
 		<td>SBC1000</td>
 		<td>2.2.0b181</td>
 	</tr>

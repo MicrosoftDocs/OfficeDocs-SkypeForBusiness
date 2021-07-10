@@ -171,10 +171,4 @@ Features include:
 - Call Analytics
 - Call Trend Analytics
 - Quality Management
-* * *
 
-### Related resources
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

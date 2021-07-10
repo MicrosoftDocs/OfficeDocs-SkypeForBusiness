@@ -64,7 +64,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Magna5](https://www.magna5global.com/sip-trunking/) |Business SIP Trunk| |
 |[Magnetic North](http://www.magneticnorth.com/cloud-pbx/sip-trunks) |Cloud PBX| |
 |[Netstream](http://www.netstream.ch/index.php?id=506) |Lync Connect|&#x2714;|
-|[Nuwave Communications, Inc.](https://www.nuwave.com/integration/skype-for-business.html) |NuWave Connect|&#x2714;|
+|[Nuwave Communications, Inc.](https://www.nuwave.com/) |NuWave Connect|&#x2714;|
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications) |Intelligent SIP Trunk| |
 |[OneStream Networks](http://www.onestreamnetworks.com/Default.aspx?RD=3339) |Skype for Business SIP Trunking|&#x2714;|
 |[Orange Business Services](http://www.orange-business.com/en/voice-and-telephony) |Business Talk (SIP Trunking)| |
@@ -89,7 +89,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Telavox](http://www.telavox.com) |SIP Trunk|&#x2714;|
 |[Tele2](https://www.tele2.se/foretag/upptack/datanatstjanster/integration-services/allt-om-integration/unified-communication/skype-for-business) |VoIP Connect| |
 |[Telecom New Zealand / Gen-I](http://www.gen-i.co.nz/solutions/collaboration/voice-connect/) |Voice Connect| |
-|[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/en/multinational/products-services/efficient-infrastructure/managed-voice-data-connectivity/) |SIP Trunking| |
+|[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/) |SIP Trunking| |
 |[TeliaSonera Finland Oyj](http://www.sonera.fi/) |Sonera Business Voice Access| |
 |[Telio Telecom AS](http://www.telio.no/) |Telio SipTrunk| |
 |[Telkomsel](http://www.telkomsel.com/) |Telkomsel Connect| |

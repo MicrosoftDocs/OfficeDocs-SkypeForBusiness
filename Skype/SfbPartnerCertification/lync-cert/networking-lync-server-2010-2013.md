@@ -89,7 +89,7 @@ Please contact the listed partner for more information on these products.
 		<td>IOS-XE: 03.07.00E / AireOS 8.0.100.0</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="3"><a href="https://www.dell.com/us/business/p/powerconnect-w-series?~ck=anav">Dell, Inc.</a></td>
+		<td rowspan="3"><a href="https://www.dell.com">Dell, Inc.</a></td>
 		<td>Dell Networking W-Series Mobility Controller and W-AP204/205, W-AP214/215, W-AP224/225, W-AP274/275 802.11ac Access Points.</td>
 		<td>W-3600</td>
 		<td>AOS 6.4.2.0 and higher</td>
@@ -105,7 +105,7 @@ Please contact the listed partner for more information on these products.
 		<td>4.0.0.7 and higher</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="https://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
+		<td rowspan="2"><a href="https://www.extremenetworks.com/">Extreme Networks</a></td>
 		<td>IdentiFi Wireless Appliances and IdentiFi 802.11n Access Points</td>
 		<td>IdentiFi V2110 Virtual Controller on Vmware</td>
 		<td>9.01.01.0228</td>
@@ -194,7 +194,7 @@ Please contact the listed partner for more information on these products.
 		</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="https://www.extremenetworks.com/partners/tsp/convergence/microsoft-lync">Extreme Networks</a></td>
+		<td><a href="https://www.extremenetworks.com/">Extreme Networks</a></td>
 		<td>ExtremeXOS 15.3.14</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
