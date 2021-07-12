@@ -21,8 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Use the Teams Meeting add-in in Outlook
-=======================================
+# Use the Teams Meeting add-in in Outlook
 
 The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The add-in is available for Outlook on Windows, Mac, web, and mobile.
 
@@ -136,7 +135,7 @@ If you cannot get the Teams Meeting add-in for Outlook to install, try these tro
 Alternatively, perform the following steps manually:
 
 - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
-- Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
+- Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
 - Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Meeting policy settings - General](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) for more details.
 - Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
 - Ensure the user has Outlook 2013 or later installed.
