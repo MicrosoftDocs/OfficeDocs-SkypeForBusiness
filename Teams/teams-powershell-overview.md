@@ -34,7 +34,7 @@ The Microsoft Teams PowerShell module includes the following features:
 
 ##  Data collection 
 
-Microsoft Teams PowerShell module default settings collect telemetry data. Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience. Microsoft Teams PowerShell module does not collect any private or personal data.  
+Microsoft Teams PowerShell module default settings collect telemetry data. Microsoft aggregates collected data to identify patterns of usage and common issues, such as cmdlets with low success, to help us prioritize our work to improve the Teams PowerShell experience. Microsoft Teams PowerShell module does not collect any private or personal data. More details here: https://privacy.microsoft.com/en-us/privacystatement  
 
 ## Related topics
 
