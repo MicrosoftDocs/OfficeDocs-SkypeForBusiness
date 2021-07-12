@@ -24,6 +24,9 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for Poland
 
+> [!IMPORTANT]
+> We are currently facing unexpected delays in Poland in fulfilling new phone number orders and porting orders. You can continue placing orders, but please note that we expect this delay to be resolved by September, at which time all pending orders will be fulfilled.
+
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Use this table to find information on getting and managing phone numbers in Poland for Microsoft Teams.
@@ -32,7 +35,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
   
 |**What you want to do?**|**Download the correct forms**|
 |:-----|:-----|
-|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center.  |In Poland, you can get phone numbers for your organization using the Microsoft Teams admin center. You can also submit a new phone number request by downloading the form and [sending it to us](mailto:ptneu@microsoft.com).<br/><br/>[New phone number request for Poland (v.1.0) (pl-pl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Before phone numbers can be assigned to you, you must download the Know your customer form, complete it in full, and send it to us.<br/><br/>Phone numbers will be ordered in blocks of ten. Customers will be charged only for the calling plan licenses subscribed.<br/><br/>New orders can take four to six weeks to fill in this market. |
+|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center.  |In Poland, you can get phone numbers for your organization using the Microsoft Teams admin center. You can also submit a new phone number request by downloading the form and [sending it to us](mailto:ptneu@microsoft.com).<br/><br/>[New phone number request for Poland (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf). <br/><br/> Before phone numbers can be assigned to you, you must download the Know your customer form, complete it in full, and send it to us.<br/><br/>Phone numbers will be ordered in blocks of ten. Customers will be charged only for the calling plan licenses subscribed.<br/><br/>New orders can take four to six weeks to fill in this market. |
 |Get phone numbers transferred to us.| Download this form. <br/>[Letter of Authorization (LOA) for Poland (all numbers) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/><br/>Transferring numbers can take four to six weeks to complete in this market. <br/><br/> These numbers can't be used for conferencing at this time.    |
 |Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
