@@ -85,7 +85,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. Apply the new policy you created by using the Grant-CsCallingIdentity cmdlet. For example, the following example applies the new policy to user Amos Marble.
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    For more information, see [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet.
     
