@@ -45,9 +45,9 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Microsoft Teams admin center, where you, the admin, can review and approve it.
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Microsoft Teams admin center, where you, the admin, can review and approve it.
 
-The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
+The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
 
 Here's an example of what this app submission step looks like in Visual Studio Code:
 
@@ -55,7 +55,7 @@ Here's an example of what this app submission step looks like in Visual Studio C
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
 
-For more information about using the Graph API to submit apps, see [here](/graph/api/teamsapp-publish?tabs=http&view=graph-rest#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog).
+For more information about using the Graph API to submit apps, see [here](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog).
 
 ## Notify
 
@@ -81,7 +81,7 @@ Click the app name to go to the app details page. On the **About** tab, you can 
 
 ![app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
 
-For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest#example-3-find-application-based-on-the-teams-app-manifest-id).
+For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id).
 
 ## Publish
 
