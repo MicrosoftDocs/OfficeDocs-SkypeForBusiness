@@ -598,6 +598,8 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
+        - name: Meeting policies and meeting expiration
+          href: meeting-expiration.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
@@ -827,8 +829,6 @@ items:
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Manage voice and calling policies in Teams
-      href: voice-and-calling-policies.md
     - name: Phone System
       items: 
         - name: What is Phone System
@@ -889,100 +889,104 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
-    - name: Calling Plans
-      items: 
-        - name: Which Calling Plan is right for you?
-          href: calling-plan-landing-page.md
-        - name: How to buy a Calling Plan
-          href: calling-plans-for-office-365.md
-        - name: Set up Calling Plans for your organization
-          href: set-up-calling-plans.md
-        - name: "Quick start guide: Configuring Calling Plans"
-          href: configuring-teams-calling-quickstartguide.md
-        - name: Country and region availability for Calling Plans
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-    - name: Phone System Direct Routing
-      items: 
+
+    - name: PSTN connectivity options
+      items:
         - name: Overview
-          href: direct-routing-landing-page.md
-        - name: Plan Direct Routing
-          href: direct-routing-plan.md
-        - name: List of Session Border Controllers certified for Direct Routing
-          href: direct-routing-border-controllers.md
-        - name: Configure Direct Routing
+          href: pstn-connectivity.md
+        - name: Calling Plans
+          items: 
+            - name: Which Calling Plan is right for you?
+              href: calling-plan-landing-page.md
+            - name: Set up Calling Plans for your organization
+              href: set-up-calling-plans.md
+            - name: "Quick start guide: Configuring Calling Plans"
+              href: configuring-teams-calling-quickstartguide.md
+            - name: Country and region availability for Calling Plans
+              href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+        - name: Phone System Direct Routing
           items: 
             - name: Overview
-              href: direct-routing-configure.md
-            - name: "Step 1: Connect your SBC"
-              href: direct-routing-connect-the-sbc.md
-            - name: "Step 2: Enable users"
-              href: direct-routing-enable-users.md
-            - name: "Step 3: Configure voice routing"
-              href: direct-routing-voice-routing.md
-            - name: "Step 4: Translate phone numbers"
-              href: direct-routing-translate-numbers.md
-            - name: Configure an SBC for multiple tenants
-              href: direct-routing-sbc-multiple-tenants.md
-            - name: How to use analog devices with Direct Routing
-              href: direct-routing-analog-devices.md
-        - name: Location-Based Routing
-          items: 
-            - name: Plan Location-Based Routing for Direct Routing
-              href: location-based-routing-plan.md
-            - name: Configure network settings for Location-Based Routing
-              href: location-based-routing-configure-network-settings.md
-            - name: Enable Location-Based Routing for Direct Routing
-              href: location-based-routing-enable.md
-        - name: Media bypass for Direct Routing
-          items: 
-            - name: Plan for media bypass with Direct Routing
-              href: direct-routing-plan-media-bypass.md
-            - name: Configure media bypass with Direct Routing
-              href: direct-routing-configure-media-bypass.md
-        - name: Local Media Optimization for Direct Routing
-          items: 
-            - name: Plan for Local Media Optimization
-              href: direct-routing-media-optimization.md
-            - name: Configure Local Media Optimization
-              href: direct-routing-media-optimization-configure.md
-        - name: User accounts in a hybrid environment with PSTN connectivity
-          href: direct-routing-user-accounts-in-a-hybrid-environment.md
-        - name: Migrate to Direct Routing
-          href: direct-routing-migrating.md
-        - name: Monitor and troubleshoot Direct Routing
-          items: 
-            - name: Overview
-              href: direct-routing-monitor-and-troubleshoot.md
-            - name: Health Dashboard
-              href: direct-routing-health-dashboard.md
-        - name: Technical reference for Direct Routing
-          items: 
-            - name: Trunk failover on outbound calls
-              href: direct-routing-trunk-failover-on-outbound-call.md
-            - name: Media path country codes
-              href: direct-routing-country-codes.md
-            - name: PowerShell script to test Session Border Controller connections
-              href: sip-tester-powershell-script.md
-            - name: Manage call notifications
-              href: direct-routing-call-notifications.md
-            - name: Protocols
+              href: direct-routing-landing-page.md
+            - name: Plan Direct Routing
+              href: direct-routing-plan.md
+            - name: List of Session Border Controllers certified for Direct Routing
+              href: direct-routing-border-controllers.md
+            - name: Configure Direct Routing
               items: 
-                - name: Definitions and RFC standards
-                  href: direct-routing-protocols.md
-                - name: SIP protocol
-                  href: direct-routing-protocols-SIP.md
-                - name: Media protocols
-                  href: direct-routing-protocols-media.md
-            - name: Manage voice routing policies
-              href: manage-voice-routing-policies.md
-            - name: Direct Routing Survivable Branch Appliance
-              href: direct-routing-survivable-branch-appliance.md
-    - name: Operator Connect
-      items: 
-        - name: Plan for Operator Connect
-          href: operator-connect-plan.md
-        - name: Configure Operator Connect
-          href: operator-connect-configure.md
+                - name: Overview
+                  href: direct-routing-configure.md
+                - name: "Step 1: Connect your SBC"
+                  href: direct-routing-connect-the-sbc.md
+                - name: "Step 2: Enable users"
+                  href: direct-routing-enable-users.md
+                - name: "Step 3: Configure voice routing"
+                  href: direct-routing-voice-routing.md
+                - name: "Step 4: Translate phone numbers"
+                  href: direct-routing-translate-numbers.md
+                - name: Configure an SBC for multiple tenants
+                  href: direct-routing-sbc-multiple-tenants.md
+                - name: How to use analog devices with Direct Routing
+                  href: direct-routing-analog-devices.md
+                - name: Manage voice routing policies
+                  href: manage-voice-routing-policies.md
+                - name: Manage call notifications
+                  href: direct-routing-call-notifications.md
+            - name: Location-Based Routing
+              items: 
+                - name: Plan Location-Based Routing for Direct Routing
+                  href: location-based-routing-plan.md
+                - name: Configure network settings for Location-Based Routing
+                  href: location-based-routing-configure-network-settings.md
+                - name: Enable Location-Based Routing for Direct Routing
+                  href: location-based-routing-enable.md
+            - name: Media bypass for Direct Routing
+              items: 
+                - name: Plan for media bypass with Direct Routing
+                  href: direct-routing-plan-media-bypass.md
+                - name: Configure media bypass with Direct Routing
+                  href: direct-routing-configure-media-bypass.md
+            - name: Local Media Optimization for Direct Routing
+              items: 
+                - name: Plan for Local Media Optimization
+                  href: direct-routing-media-optimization.md
+                - name: Configure Local Media Optimization
+                  href: direct-routing-media-optimization-configure.md
+            - name: User accounts in a hybrid environment with PSTN connectivity
+              href: direct-routing-user-accounts-in-a-hybrid-environment.md
+            - name: Migrate to Direct Routing
+              href: direct-routing-migrating.md
+            - name: Monitor and troubleshoot Direct Routing
+              items: 
+                - name: Overview
+                  href: direct-routing-monitor-and-troubleshoot.md
+                - name: Health Dashboard
+                  href: direct-routing-health-dashboard.md
+            - name: Technical reference for Direct Routing
+              items: 
+                - name: Trunk failover on outbound calls
+                  href: direct-routing-trunk-failover-on-outbound-call.md
+                - name: Media path country codes
+                  href: direct-routing-country-codes.md
+                - name: PowerShell script to test Session Border Controller connections
+                  href: sip-tester-powershell-script.md
+                - name: Protocols
+                  items: 
+                    - name: Definitions and RFC standards
+                      href: direct-routing-protocols.md
+                    - name: SIP protocol
+                      href: direct-routing-protocols-SIP.md
+                    - name: Media protocols
+                      href: direct-routing-protocols-media.md
+                - name: Direct Routing Survivable Branch Appliance
+                  href: direct-routing-survivable-branch-appliance.md
+        - name: Operator Connect
+          items: 
+            - name: Plan for Operator Connect
+              href: operator-connect-plan.md
+            - name: Configure Operator Connect
+              href: operator-connect-configure.md
+              
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
@@ -1047,8 +1051,10 @@ items:
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
           href: manage-emergency-calling-policies.md
-        - name: Manage emergency call routing policies
+        - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
+    - name: Manage voice and calling policies in Teams
+      href: voice-and-calling-policies.md
     - name: Contoso voice migration case study
       items: 
         - name: Overview
@@ -1573,8 +1579,6 @@ items:
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: How SharePoint Online and OneDrive for Business interact with Teams
           href: sharepoint-onedrive-interact.md
-        - name: Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy
-          href: teams-experience-o365odb-spo-multi-geo.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams
