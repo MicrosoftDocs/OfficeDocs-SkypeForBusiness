@@ -33,6 +33,7 @@ By default, the following caller ID settings are **turned off**. This means that
     
   > [!NOTE]
   > If you want to use the *Service* parameter, you must specify a valid service number.
+  > You need to use the PowerShell cmdlets for Resource account number if not visible in drop down.
   
 - **Block outbound caller ID.** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
     

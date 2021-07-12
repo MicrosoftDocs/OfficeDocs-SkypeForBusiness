@@ -114,7 +114,7 @@ Teams apps on Windows and macOS are gaining support for device policies that res
 When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but they won't be operable.
 
 > [!NOTE]
->1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as guest in other Azure AD tenants, or switch to other tenants.
+>1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as a guest in other Azure AD tenants, or switch to those other tenants (where users have been invited as a guest).
 >2. The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for macOS version 1.3.00.30882 (released mid-November 2020).
 
 **Policies for Windows**

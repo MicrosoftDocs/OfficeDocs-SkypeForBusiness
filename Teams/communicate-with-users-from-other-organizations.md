@@ -72,7 +72,7 @@ The following tables show the differences between using external access (federat
 | People outside your organization can | External access users | Guests |
 |---------|-----------------------|--------------------|
 | Access Teams resources | No | Yes |
-| Be added to a group chat | No | Yes |
+| Be added to a group chat | Yes | Yes |
 | Be invited to a meeting | Yes | Yes |
 | Make private calls | Yes | Yes<sup>5</sup> |
 | View the phone number for dial-in meeting participants | No<sup>4</sup> | Yes |
