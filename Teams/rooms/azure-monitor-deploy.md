@@ -155,16 +155,11 @@ After data is collected and custom fields are mapped, you can use View Designer 
 
 > [!NOTE]
 > Previous steps in this guide should have been completed for the dashboard tiles to work properly.
-
-### Create a Microsoft Teams Rooms dashboard by using the import method
-
-You can import an :::no-loc text="Microsoft Teams Rooms"::: dashboard and start monitoring your devices quickly. Take the following steps to import the dashboard:
-
-1.  Get the [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) dashboard file.
-2.  Sign in to the [:::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) and go to :::no-loc text="Log Analytics"::: and select your workspace.
-3.  Open **View Designer**.
-4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
-5.  Select **Save**.
+>
+> Important Update! View Designer in Azure Monitor is retiring on 31 August 2023 and create and clone functionalities have been disabled on 30 November 2020: https://azure.microsoft.com/en-us/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/
+>
+>Instead, workbooks can be used with below queries, please have a look on the view designer transitioning guide to workbooks:
+>https://docs.microsoft.com/en-us/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates
 
 ### Create a Microsoft Teams Rooms dashboard manually
 
