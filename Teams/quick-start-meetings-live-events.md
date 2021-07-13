@@ -51,19 +51,19 @@ This article, intended for administrators and IT Pros, briefly describes the dif
 
 ## Meetings, webinars, and live events
 
-[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events are a type of meeting that provide additional control for the organizer over the conversation and participants. 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events are a type of meeting that provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
-While webinars provide for more participant interaction than live events, both have limited interaction compared to a fully-interactive meeting. The different types of meetings also have different participant limits and participant capabilities.
+The different types of meetings also have different participant limits and participant capabilities. 
 
-The following table briefly summarizes the three types of events, the number of recommended participants, and how participants can interact in the event. More information about each type of event follow the table.
+The following table briefly summarizes the three types of meetings, the number of recommended participants, and how participants can interact in the meeting. More information about each type of meeting follow the table.
 
 **QUESTION:  WHAT INFO DO WE WANT TO HIGHLIGHT IN THIS TABLE? THIS TABLE SHOULD BE JUST THE HIGHLIGHTS--NOT ALL ENCOMPASSING.**
 
- | Type of event | Number of participants | Interaction | Registration supported |
+ | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | -Up to 1000 <br> -[View-only](view-only-meeting-experience.md) allows up to 20,000* | -Interactive chat with multiple presenters <br> -All participants up to 1000 have equal meeting capabilities <br> -Over 1000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
-| Webinars | Up to 20,000* |-Interactive up to 1000 <br> -View only from 1000-20,000 <br> -Audience interaction configurable, but limited <br> -Can specify presenters and moderators | Yes |
-| Live events | 1001 to 20,000** |-Broadcast to large audiences <br>-Audience interaction limited to posting questions <br> -Can specify presenters, including external presenters | No |
+| Meetings  | -Up to 20,000* <br> | -Participants up to 1000 have fully interactive equa meeting capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
+| Webinars | Up to 20,000* |-Participants up to 1000 have fully interactive capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  <br> -Audience interaction configurable <br> -Can specify presenters and moderators | Yes |
+| Live events | Up to 20,000** |-Broadcast to large audiences <br>-Moderated Q&A for audience interaction <br> -Can specify presenters, including external presenters<br>-Supports more advanced production capabilities | No |
 ||||
 
 *The usual 10,000 is increased to 20,000 during COVID.<br>
