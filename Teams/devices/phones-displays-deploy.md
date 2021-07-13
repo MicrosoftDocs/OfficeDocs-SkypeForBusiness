@@ -38,7 +38,11 @@ If you use Conditional Access, which requires Intune enrollment to be enforced, 
 Teams Android-based devices are managed by in Intune via Android Device Administrator (DA) management. Before devices can be enrolled into Intune, there are a few basic steps to perform.  If you are already managing devices with Intune today, you probably have already done all these things.  If not, here’s what to do:
 
 > [!NOTE]
-> Users with a CAP license still need to follow steps one and two when they configure Intune to enroll Teams Android-based devices.
+> - If tenant admins want common area phones to be enrolled into Intune, they need to add an Intune license to the account and follow the steps for Intune enrollment.
+> - If the user account used to sign into a Teams device isn't licensed for Intune,
+> Intune compliance policies and enrollment restrictions need to be disabled for the account.
+
+
 
 1. Set Intune MDM (mobile device management) Authority.  
 
