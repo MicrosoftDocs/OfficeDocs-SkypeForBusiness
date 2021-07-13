@@ -95,7 +95,7 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 ![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
 
-### Teams channel
+##### Teams channel
 
 You can add up to 200 agents via a Teams channel.
 
@@ -106,7 +106,7 @@ The following clients are supported when using a Teams channel for call queues:
   - Microsoft Teams Windows client
   - Microsoft Teams Mac client
 
-### Users and groups
+##### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
 
