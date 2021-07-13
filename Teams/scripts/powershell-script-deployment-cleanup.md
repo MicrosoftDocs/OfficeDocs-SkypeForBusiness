@@ -35,7 +35,7 @@ Use this script to remove and clear the Teams app from a computer. Run this Powe
 #>
 
 $TeamsPath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 'Teams')
-$TeamsUpdateExePath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 'Teams', 'Update.exe')
+$TeamsUpdateExePath = [System.IO.Path]::Combine($TeamsPath, 'Update.exe')
 
 try
 {
