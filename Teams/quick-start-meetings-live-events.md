@@ -55,7 +55,7 @@ For information about the view-only meeting experience, see [Teams view-only mee
 
 ### Meetings
 
-**Meetings** in Teams include audio, video, and screen sharing for up to 1000 people. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
+**Meetings** in Teams include audio, video, and screen sharing for up to 1000 people and [view-only capabilities](view-only-meeting-experience.md) for participants over 1000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
 
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
 
@@ -66,10 +66,10 @@ The following table hightlights key articles that you'll want to review:
 
 | Article | Description | 
 |----------|--------|
-| [Meeting settings](meeting-settings-in-teams.md) |  Article that describes how to configure meetings settings for anonymous users, meeting invitations, and media traffic.  |
-| [Meeting policies](meeting-policies-in-teams.md)  | Article that introduces meeting policies and describes how to create and manage policies.  | 
-| [Manage Teams cloud meeting recording](cloud-recording.md) | Article that describes how to manage meeting recordings. |
-| [Manage your organization's devices](device-management.md)| Article that describes how to manage your organization's devices, such as phones and Teams Rooms. |
+| [Meeting settings](meeting-settings-in-teams.md) |  Describes how to configure meetings settings for anonymous users, meeting invitations, and media traffic.  |
+| [Meeting policies](meeting-policies-in-teams.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. | 
+| [Manage Teams cloud meeting recording](cloud-recording.md) | Describes how to manage meeting recordings. |
+| [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
 ||
 
 #### Training for end users
@@ -96,7 +96,7 @@ The following table lists training available to the end users in your organizati
 | Training | Description | 
 |----------|--------|
 | [Get started with Teams webinars](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | A quick training video for users who are new to Teams webinars. |
-| [Visual quick start guide](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | Download this visual guide to start scheduling webinars.  |
+| [Visual quick start guide](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that descries how to start scheduling webinars.  |
 ||
 
 
@@ -112,7 +112,7 @@ The following table hightlights key articles that you'll want to review:
 |----------|--------|
 | [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)  | A quick introduction to live events. |
 | [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md) | What you need to know before configuring live events. |
-| [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md) | Prerquisities such as network planning. |
+| [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md) | Describes prerequisities such as network planning. |
 | [Configure live events](teams-live-events/configure-teams-live-events.md) | Steps for configuring live events.
 ||
 
@@ -123,8 +123,8 @@ The following table lists training available to the end users in your organizati
 
 | Training | Description | 
 |----------|--------|
-| [Get started with live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) | An article that provides an introduction to live events and how to get started. |
-| [Teams Live Events video training](https://support.microsoft.com/en-us/office/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502?ui=en-US&rs=en-US&ad=US) | A video that describes how to plan and schedule a live event.  |
+| [Get started with live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) | Article that provides an introduction to live events and how to get started. |
+| [Teams Live Events video training](https://support.microsoft.com/en-us/office/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502?ui=en-US&rs=en-US&ad=US) | Video that describes how to plan and schedule a live event.  |
 ||
 
 
