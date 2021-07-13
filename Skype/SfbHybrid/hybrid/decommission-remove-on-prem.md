@@ -82,16 +82,16 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 
 1. Logically remove the Skype for Business Server deployment, except for a single front end, as follows:
 
-   a. Update your Skype for Business Server topology to have a single front-end pool:
+   1. Update your Skype for Business Server topology to have a single front-end pool:
 
-     - In Topology Builder, download a new copy and navigate to the Frontend pool.
-     - Right-click the pool, and then click **Edit Properties**.
-     - In **Associations**, uncheck **Associate Edge Pool** (for media components) and click **OK**.
-     - If there is more than one Frontend Pool, remove Associations for all remaining pools.
-     - Select **Action > Remove Deployment**.
-     - Select **Action > Publish Topology**.
+      1. In Topology Builder, download a new copy and navigate to the Frontend pool.
+      1. Right-click the pool, and then click **Edit Properties**.
+      1. In **Associations**, uncheck **Associate Edge Pool** (for media components) and click **OK**.
+      1. If there is more than one Frontend Pool, remove Associations for all remaining pools.
+      1. Select **Action > Remove Deployment**.
+      1. Select **Action > Publish Topology**.
 
-    b. After publishing the topology, complete the additional steps described in the wizard.
+    1. After publishing the topology, complete the additional steps described in the wizard.
 
 2. Remove Skype for Business Server conference directories by running the following Skype for Business Server PowerShell cmdlet:
 
@@ -133,14 +133,4 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
 - [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
-
-
-
-
-
-
-
-
-
-
 
