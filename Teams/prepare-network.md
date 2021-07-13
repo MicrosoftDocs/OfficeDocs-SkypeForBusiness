@@ -144,7 +144,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 
 Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
-Where bandwidth isn't limited, Teams optimizes media quality, including up to 1080p video resolution, up to 30fps (frames per second) for video and 15fps for content, and high-fidelity audio.
+Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30fps (frames per second) for video and content.
 
 This table describes how Teams uses bandwidth. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.5Mbps. The actual bandwidth consumption in each audio/video call or meeting will vary based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available, quality and usage will increase to deliver the best experience.
 
@@ -153,21 +153,20 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
       **Modality**
    :::column-end:::
    :::column span="3":::
-      **<center>Bandwidth requirements (bitrate KB/s up/down) </center>**
+      **Bandwidth requirements (bitrate KB/s up/down)**
    :::column-end:::
 :::row-end:::
 :::row:::
    :::column span="":::
-      <!-- blank -->
    :::column-end:::
    :::column span="":::
-      **<center>Minimum</center>**
+      **Minimum**
    :::column-end:::
    :::column span="":::
-      **<center>Recommended</center>**
+      **Recommended**
    :::column-end:::
    :::column span="":::
-      **<center>Best performance</center>**
+      **Best performance**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -180,13 +179,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         One-to-one
    :::column-end:::
    :::column span="":::
-        <center>10/10</center>
+        10/10
    :::column-end:::
    :::column span="":::
-        <center>58/58</center>
+        58/58
    :::column-end:::
    :::column span="":::
-        <center>76/76</center>
+        76/76
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -194,13 +193,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         Meetings
    :::column-end:::
    :::column span="":::
-        <center>10/10</center>
+        10/10
    :::column-end:::
    :::column span="":::
-        <center>58/58</center>
+        58/58
    :::column-end:::
    :::column span="":::
-        <center>76/76</center>
+        76/76
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -213,13 +212,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         One-to-one
    :::column-end:::
    :::column span="":::
-        <center>150/150</center>
+        150/150
    :::column-end:::
    :::column span="":::
-        <center>1,500/1,500</center>
+        1,500/1,500
    :::column-end:::
    :::column span="":::
-        <center>4,000/4,000</center>
+        4,000/4,000
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -227,13 +226,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         Meetings
    :::column-end:::
    :::column span="":::
-        <center>150/200</center>
+        150/200
    :::column-end:::
    :::column span="":::
-        <center>2,500/4,000</center>
+        2,500/4,000
    :::column-end:::
    :::column span="":::
-        <center>4,000/4,000</center>
+        4,000/4,000
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -246,13 +245,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         One-to-one
    :::column-end:::
    :::column span="":::
-        <center>200/200</center>
+        200/200
    :::column-end:::
    :::column span="":::
-        <center>1,500/1,500</center>
+        1,500/1,500
    :::column-end:::
    :::column span="":::
-        <center>4,000/4,000</center>
+        4,000/4,000
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -260,13 +259,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         Meetings
    :::column-end:::
    :::column span="":::
-        <center>250/250</center>
+        250/250
    :::column-end:::
    :::column span="":::
-        <center>2,500/2,500</center>
+        2,500/2,500
    :::column-end:::
    :::column span="":::
-        <center>4,000/4,000</center>
+        4,000/4,000
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -279,13 +278,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         One-to-one
    :::column-end:::
    :::column span="":::
-        <center>N/A</center>
+        N/A
    :::column-end:::
    :::column span="":::
-        <center>N/A</center>
+        N/A
    :::column-end:::
    :::column span="":::
-        <center>N/A</center>
+        N/A
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -293,13 +292,13 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
         Meetings
    :::column-end:::
    :::column span="":::
-        <center>1,000/1,500</center>
+        1,000/1,500
    :::column-end:::
    :::column span="":::
-        <center>1,500/2,500</center>
+        1,500/2,500
    :::column-end:::
    :::column span="":::
-        <center>2,500/4,000</center>
+        2,500/4,000
    :::column-end:::
 :::row-end:::
 
