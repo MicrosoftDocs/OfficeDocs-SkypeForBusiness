@@ -28,7 +28,7 @@ This article describes how to remove your on-premises Skype for Business deploym
 
 - Step 2. [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- Step 3. [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
+- Step 3. [Migrate hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
 
 - **Step 4. Remove your on-premises Skype for Business deployment.** (This article)
 
