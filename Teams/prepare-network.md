@@ -27,12 +27,7 @@ ms.custom:
 
 If you've already [optimized your network for Microsoft 365 or Office 365](/Office365/Enterprise/assessing-network-connectivity), you're probably ready for Microsoft Teams. In any case - and especially if you're rolling out Teams quickly as your first Microsoft 365 or Office 365 workload to support **remote workers** - check the following before you begin your Teams rollout:
 
-1.  Do all your locations have internet access (so they can connect to Microsoft 365 or Office 365)? At a minimum, in addition to normal web traffic, make sure you've opened the following, for all locations, for media in Teams:
-
-    |  |  |
-    |---------|---------|
-    |Ports     |UDP ports <strong>3478</strong> through <strong>3481</strong>        |
-    |[IP addresses](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, and <strong>52.120.0.0/14</strong>         |
+1.  Do all your locations have internet access (so they can connect to Microsoft 365 or Office 365)? In addition to normal web traffic, make sure you've opened the TCP ports and IP addresses listed for Teams in [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
     > [!IMPORTANT]
     > If you need to federate with Skype for Business, either on-premises or online, you will need to configure an additional DNS record.
