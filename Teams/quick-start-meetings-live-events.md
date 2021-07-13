@@ -53,8 +53,6 @@ The following table briefly summarizes the three types of meetings, the number o
 
 For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
-In addition to regularly-scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting.  For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
-
 Note that NDI is fully supported in meetings, webinars, and live events allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 ### Meetings
@@ -62,6 +60,8 @@ Note that NDI is fully supported in meetings, webinars, and live events allowing
 **Meetings** in Teams include audio, video, and screen sharing for up to 1000 people and [view-only capabilities](view-only-meeting-experience.md) for participants over 1000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
 
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
+
+In addition to regularly-scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
 
 #### Articles for administrators
@@ -83,6 +83,7 @@ The following table lists training available to the end users in your organizati
 | Training | Description | 
 |----------|--------|
 | [Manage meetings](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) | A quick training video for users who are new to Teams meetings. |
+| [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5) | Article that describes how to schedule different types of meetings. |
 | [Run effective meetings with Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) | A free instructor-led class about how to make meetings more engaging, productive, and meaningful. |
 | [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) | Article about  managing meeting options.
 ||
@@ -137,7 +138,7 @@ To produce larger scale virtual events, review the [Virtual Event Guide](https:/
 
 Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 
-You can add meetings apps to your Teams deployment by using the apps provided with Teams, by using certified third-party apps and templates, and by creating your own custom apps. The meeting extensibility feature enables you to integrate your apps within meetings.  
+You can add meetings apps to your Teams deployment by using the apps provided with Teams, by using certified third-party apps and templates, and by creating your own custom apps. 
 
 The following table lists articles for more information
 
@@ -158,8 +159,6 @@ Anyone can attend a Teams meeting, webinar, or live event for free -- no license
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
 
 To allow people to dial in to a meeting by phone, you'll need to set up audio conferencing. For more information about audio conferencing, see [Audio conferencing in Teams](deploy-audio-conferencing-teams-landing-page.md).
-
-NDI is fully supported in Webinars and Live events allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 
 
