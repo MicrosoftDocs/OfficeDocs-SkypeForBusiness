@@ -156,10 +156,8 @@ After data is collected and custom fields are mapped, you can use View Designer 
 > [!NOTE]
 > Previous steps in this guide should have been completed for the dashboard tiles to work properly.
 >
-> Important Update! View Designer in Azure Monitor is retiring on 31 August 2023 and create and clone functionalities have been disabled on 30 November 2020: https://azure.microsoft.com/en-us/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/
->
->Instead, workbooks can be used with below queries, please have a look on the view designer transitioning guide to workbooks:
->https://docs.microsoft.com/en-us/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates
+> [!IMPORTANT]
+> [View Designer in Azure Monitor is retiring on 31 August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) and create and clone functionalities have been disabled on 30 November 2020. Workbooks can be used instead. For more information on the view designer transitioning guide to workbooks, see [Quickstart with preset view designer templates](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates).
 
 ### Create a Microsoft Teams Rooms dashboard manually
 
