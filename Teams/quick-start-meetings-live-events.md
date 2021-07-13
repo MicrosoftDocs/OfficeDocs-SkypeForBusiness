@@ -63,7 +63,6 @@ As the administrator, you'll configure meeting settings and control which meetin
 
 In addition to regularly-scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
-
 #### Articles for administrators
 
 The following table hightlights key articles that you'll want to review:
@@ -133,7 +132,6 @@ The following table lists training available to the end users in your organizati
 
 To produce larger scale virtual events, review the [Virtual Event Guide](https://adoption.microsoft.com/virtual-event-guidance/), which has guidance for event organizers, technical producers, IT professionals, and content creators. 
 
-
 ## Apps for meetings
 
 Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
@@ -150,8 +148,6 @@ The following table lists articles for more information
 | [Manage the Whiteboard in Teams](manage-whiteboard.md) | Describes Whiteboard functionality and how to enable and disable for your organization. |
 ||
 
-
-
 ## License requirements for meetings, webinars, and live events
 
 Anyone can attend a Teams meeting, webinar, or live event for free -- no license is required. 
@@ -159,7 +155,6 @@ Anyone can attend a Teams meeting, webinar, or live event for free -- no license
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
 
 To allow people to dial in to a meeting by phone, you'll need to set up audio conferencing. For more information about audio conferencing, see [Audio conferencing in Teams](deploy-audio-conferencing-teams-landing-page.md).
-
 
 
 ## Related topics
