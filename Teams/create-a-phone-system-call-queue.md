@@ -171,16 +171,6 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > [!TIP]
 > Setting **Agent alert time** to **20 seconds** is the recommended setting.
 
-
-### Recommended call queue settings
-
-The following settings are recommended:
-
-- **Conference mode** to **Auto**
-- **Routing method** to **Round robin** or **Longest idle**
-- **Presence-based routing** to **On**
-- **Agent alert time:** to **20 seconds**
-
 > [!NOTE]
 > If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
 
@@ -204,6 +194,15 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
+
+## Summary of recommended call queue settings
+
+The following settings are recommended:
+
+- **Conference mode** to **Auto**
+- **Routing method** to **Round robin** or **Longest idle**
+- **Presence-based routing** to **On**
+- **Agent alert time:** to **20 seconds**
 
 ## Supported clients
 
