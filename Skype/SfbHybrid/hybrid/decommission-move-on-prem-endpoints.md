@@ -1,5 +1,5 @@
 ---
-title: Move hybrid application endpoints to the cloud
+title: Migrate hybrid application endpoints to the cloud
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,11 +16,11 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: "Move hyrid application endpoints before decommissioning a Skype for Business on-premises environment."
+description: "Migrate hyrid application endpoints before decommissioning a Skype for Business on-premises environment."
 
 ---
 
-# Move hybrid application endpoints before decommissioning your on-premises environment
+# Migrate hybrid application endpoints before decommissioning your on-premises environment
 
 This article describes how to move required hybrid application endpoints to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 3 of the following steps to decommission your on-premises environment:
 
@@ -28,14 +28,14 @@ This article describes how to move required hybrid application endpoints to the 
 
 - Step 2. [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- **Step 3. Move hybrid application endpoints from on-premises to online.** (This article)
+- **Step 3. Migrate hybrid application endpoints from on-premises to online.** (This article)
 
 - Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
 
-## Move all required hybrid application endpoints from on-premises to online
+## Migrate all required hybrid application endpoints from on-premises to online
 
-Before you can move these endpoints to online, you must ensure you have updated DNS records to point to Microsoft 365 for all sip domains used by the endpoints. It is not possible to create online Resource Accounts if DNS records point to on-premises. For more information, see [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
+Before you can move these endpoints to online, you must ensure you have updated DNS records to point to Microsoft 365 for all sip domains used by the endpoints. Be aware that once you update DNS to point to Microsoft 365, any existing hybrid application endpoints will no longer be discoverable until you complete this step. Since this step (creating online Resource Accounts) is not possible if DNS records point to on-premises you should plan to do both steps 2 and 3 in the same maintenance window. For more information, see [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
 1. Retrieve and export on-premises hybrid application endpoint settings by executing the following on-premises Skype for Business Server PowerShell command:
 
