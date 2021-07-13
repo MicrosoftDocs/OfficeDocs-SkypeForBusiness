@@ -113,12 +113,12 @@ After completing all the preliminary steps, you can remove the Skype for Busines
    Remove-CsConfigurationStoreLocation
    ``` 
 
-5. Undo Skype for Business Server Active Directory Domain forest-level changes by running the following Skype for Business Server PowerShell cmdlet:
+5. Undo Skype for Business Server Active Directory domain-level changes by running the following Skype for Business Server PowerShell cmdlet:
 
    ```PowerShell
    Disable-CsAdDomain
    ```
-6. Undo Skype for Business Server Active Directory Domain schema changes by running the following Skype for Business Server PowerShell cmdlet:
+6. Undo Skype for Business Server Active Directory forest-level changes by running the following Skype for Business Server PowerShell cmdlet:
 
    ```PowerShell
    Disable-CsAdForest
