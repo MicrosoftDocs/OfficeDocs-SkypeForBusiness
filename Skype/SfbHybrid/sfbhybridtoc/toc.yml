@@ -26,8 +26,13 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: Move users to the cloud
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: Disable hybrid to complete migration to the cloud
+        - name: Disable hybrid to complete migration to Teams Only
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+          items:
+            - name: Update DNS entries
+              href: /hybrid/decommission-manage-dns-entries.md
+            - name: Manage attributes after moving users
+              href: /hybrid/cloud-consolidation-managing-attributes.md
         - name: Move application endpoints to the cloud
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Remove your on-premises Skype for Business deployment

@@ -38,7 +38,7 @@ This article describes how to disable your hybrid configuration before decommiss
 > [!NOTE]
 > Steps 2 and 3 should be done in the same maintenance window because any existing hybrid application endpoints will not be discoverable between steps 2 and completion of step 3.
 
-For information about managing attributes after moving users from on-premises to the cloud, see [Manage attributes](cloud-consolidation-managing attributes.md).
+For information about managing attributes after moving users from on-premises to the cloud, see [Manage attributes](cloud-consolidation-managing-attributes.md).
 
 ## Overview
 
@@ -52,7 +52,7 @@ After you have upgraded all users from Skype for Business on-premises to Teams O
 
 4. [Disable the ability in on-premises to communicate with Microsoft 365](#disable-the-ability-in-on-premises-to-communicate-with-microsoft-365).
 
-These steps logically separate your on-premises deployment of Skype for Business Server from Microsoft 365 and ensure your organization is fully Teams Only. Details for each step are provided in this article. Once that is complete, you can decommission your on-premises Skype for Business deployment by using one of two methods referenced below.
+These steps logically separate your on-premises deployment of Skype for Business Server from Microsoft 365 and ensure your organization is fully Teams Only. Details for each step are provided in this article. Once that is complete, you can decommission your on-premises Skype for Business deployment by using one of two methods referenced in [Manage attributes](cloud-consolidation-managing-attributes.md).
 
 > [!Important] 
 > Once this logical separation is complete, msRTCSIP attributes from your on-premises Active Directory still have values and will continue to sync via Azure AD Connect into Azure AD. How you decommission the on-premises environment depends on whether you intend to leave these attributes in place, or first clear them from your on-premises Active Directory. Be aware that clearing the on-premises msRTCSIP attributes after you have migrated from on-premises could result in loss of service for users! Details and tradeoffs of the two decommissioning approaches are described later.
