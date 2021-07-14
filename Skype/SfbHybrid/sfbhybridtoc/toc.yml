@@ -30,9 +30,9 @@
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
           items:
             - name: Update DNS entries
-              href: /hybrid/decommission-manage-dns-entries.md
+              href: ../hybrid/decommission-manage-dns-entries.md
             - name: Manage attributes after moving users
-              href: /hybrid/cloud-consolidation-managing-attributes.md
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: Move application endpoints to the cloud
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Remove your on-premises Skype for Business deployment
