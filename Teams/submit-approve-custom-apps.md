@@ -65,7 +65,7 @@ You can turn on notifications so you know when developers submit a new applicati
 
 After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. You'll also get notifications when developers submit app updates. For more information on notifications and alerts, see [Teams admin alerts](alerts/teams-admin-alerts.md).
 
-![App submission notification.](media/app-submission-notification.png)
+![App submission notification.](media/app-submissions-setting.png)
 
 You can review the notification card to see app details, and select **View details** to open the app in the Teams admin center.
 
