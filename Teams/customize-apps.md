@@ -38,6 +38,7 @@ See the [Teams Manifest schema](/microsoftteams/platform/resources/schema/manife
 
 > [!NOTE]
 > Customizing apps isn't supported in Government Community Cloud High (GCCH) or Department of Defense (DoD) at this time.
+> Currently, this feature is not available for sideloaded Microsoft Teams apps.
 
 ## Customize the app's details
 

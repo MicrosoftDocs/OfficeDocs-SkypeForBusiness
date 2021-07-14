@@ -177,6 +177,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink VC210 |118.15.0.54   | 2021 Update #2    |
+| Yealink MeetingBar A20 | 133.15.0.60     | 2021 Update #2    |
+| Yealink MeetingBar A30 | 133.15.0.60    | 2021 Update #2    |
+| Yealink CTP18 | 137.15.0.37    | 2021 Update #2    |
 | Poly Studio X30 | 3.5.0.344025          | 2021 Update #2    |
 | Poly Studio X50 | 3.5.0.344025        | 2021 Update #2    |
 | Poly TC8 | 3.5.0.210489                 | 2021 Update #2    |
