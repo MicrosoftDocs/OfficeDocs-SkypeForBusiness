@@ -106,6 +106,9 @@ The following clients are supported when using a Teams channel for call queues:
   - Microsoft Teams Windows client
   - Microsoft Teams Mac client
 
+> [!NOTE]
+> If you use this option, it can take up to 24 hours for the call queue to be fully operational.
+
 ##### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
