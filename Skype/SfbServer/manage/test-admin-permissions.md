@@ -15,7 +15,7 @@ description: "How to test admin permissions in Skype for Business Server"
 
 # Testing admin permissions in Skype for Business Server
 
-| | |
+| &nbsp;| &nbsp;|
 |--|--|
 |Verification schedule|After initial Skype for Business Server deployment. As needed if permission-related issues arise.|
 |Testing tool|Windows PowerShell|

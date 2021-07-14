@@ -42,7 +42,7 @@ You can find out more about these dependencies in the planning guidance links be
 
 **Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](../proxy-servers-for-skype-for-business-online.md). When it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don't make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
 
-|    |     |
+|Item    |Action     |
 |-----------|------------|
 | ![confirm sites](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the key requirements for Microsoft Teams Rooms.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>| 
 | ![plan device deployment](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment and configuration.</li></ul>| 
@@ -66,8 +66,7 @@ Depending on the collaboration scenarios that you've decided to enable with your
 
 For more information about Microsoft Teams Rooms accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md).
 
-
-|    |     |
+|Item    |Action     |
 |-----------|------------|
 | ![scenario support](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you'll support, and identify licensing requirements for your Microsoft Teams Rooms service accounts.</li></ul>| 
 | ![prepare host machine](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host machine and service accounts.</li></ul>| 
@@ -116,7 +115,7 @@ Each Microsoft Teams Rooms device requires a dedicated and unique resource accou
 
 **Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Microsoft Teams Rooms systems to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*)-RS, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
 
-|    |     |
+|Item    |Action     |
 |-----------|------------|
 | ![decide naming convention](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your Microsoft Teams Rooms accounts.</li><li>Decide whether you'll create individual accounts or use bulk-provisioning scripts.</li></ul>| 
 | ![next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>| 
@@ -141,7 +140,7 @@ We provide guidance on how to use the [Microsoft Azure Monitor](/skypeforbusines
 
 An additional consideration is whether the Microsoft Teams Rooms will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](domain-joining-considerations.md). 
 
-|    |     |
+|Item    |Considerations or action     |
 |-----------|------------|
 | ![decision points device naming](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the Microsoft Teams Rooms device-naming convention to be used during your deployment.</li><li>Decide whether you'll join Microsoft Teams Rooms devices to your domain, and how to manage and configure local accounts. </li><li>Decide whether you'll use Operations Management Suite to monitor the Microsoft Teams Rooms deployment.</li><li>Decide which method you'll use to deploy the software and agents to the Microsoft Teams Rooms system in preparation for the device deployment. </li></ul>| 
 | ![next steps plan device](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment approach.</li></ul>| 
@@ -151,8 +150,7 @@ An additional consideration is whether the Microsoft Teams Rooms will be domain-
 
 After you've deployed your software to the Microsoft Teams Rooms units, create your plan to ship the devices and their assigned peripheral devices to your rooms, and then proceed to installation and configuration. 
 
-
-|    |     |
+|Item    |Considerations or action     |
 |-----------|------------|
 | ![manage site-by-site deployment](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the Microsoft Teams Rooms devices on site and undertake the configuration and testing.</li></ul>| 
 | ![start device testing](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>| 
@@ -174,7 +172,7 @@ For more information about how to use the XML configuration file, see [Manage a 
 
 You can use [remote PowerShell](rooms-operations.md#remote-management-using-powershell) to pull the Microsoft Teams Rooms configuration for reporting needs. 
 
-|    |     |
+|Item    |Considerations    |
 |-----------|------------|
 | ![decision point configure](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you'll manually configure each Microsoft Teams Rooms system or use a central XML file (one per Microsoft Teams Rooms device).</li></ul>| 
 | ![next steps remote approach](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your remote management approach.</li></ul>| 

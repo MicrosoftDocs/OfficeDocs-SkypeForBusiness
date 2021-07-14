@@ -34,19 +34,24 @@ A policy package in Teams is a collection of predefined policies and policy sett
 ### Assign a policy package to one user
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then select the user.
+
 2. On the user's page, select **Policies**, and then next to **Policy package**, select **Edit**.
+
 3. In the **Assign policy package** pane, select the package you want to assign, and then select **Save**.
 
-![Teams admin center screenshot for policy package assignment to a user](media/assign-policypackages-user.png)
+    ![Teams admin center screenshot for policy package assignment to a user](media/assign-policypackages-user.png)
 
 ### Assign a policy package to multiple users
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select the policy package you want to assign by clicking to the left of the package name.
+
 2. Select **Manage users**.
+
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+
 4. When you're finished adding users, select **Save**.
 
-![Teams admin center screenshot for policy package assignment to multiple users](media/assign-policypackages-multipleusers.png)
+    ![Teams admin center screenshot for policy package assignment to multiple users](media/assign-policypackages-multipleusers.png)
 
 ## Assign a policy package to a group
 
@@ -62,21 +67,25 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 ### Assign a policy package to a group of users in the admin center
 
 1. Sign in to the Teams admin center.
+
 2. In the left navigation, go to the policy package page.
+
 3. Select the Group policy assignment tab.
+
 4. Select **Add group**, and then in the Assign a policy package to group pane, do the following:
 
-    a. Search for and add the group you want to assign the policy package to.
+    1. Search for and add the group you want to assign the policy package to.
 
-    b. Select a policy package.
+    1. Select a policy package.
 
-    c. Set the ranking for each policy type.
+    1. Set the ranking for each policy type.
 
-    d. Select **Apply**.
+    1. Select **Apply**.
 
-![shows the group policy assignment](media/group-pkg-assignment.png)
+       ![shows the group policy assignment](media/group-pkg-assignment.png)
 
 5. To manage ranking for a specific policy type, navigate to the specific policy page.
+
 6. To reassign a policy package to a group, first remove the group policy assignment. Then, follow the steps above to assign the policy package to a group.
 
 ### Work with PowerShell
@@ -129,13 +138,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### See the status of a batch assignment
 
-Run the following to get the status of a batch assignment, where OperationId is the operation ID that's returned by the ```New-CsBatchPolicyAssignmentOperation``` cmdlet for a given batch.
+Run the following to get the status of a batch assignment, where OperationId is the operation ID that's returned by the `New-CsBatchPolicyAssignmentOperation` cmdlet for a given batch.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-If the output shows that an error occurred, run the following to get more information about errors, which are in the ```UserState``` property.
+If the output shows that an error occurred, run the following to get more information about errors, which are in the `UserState` property.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

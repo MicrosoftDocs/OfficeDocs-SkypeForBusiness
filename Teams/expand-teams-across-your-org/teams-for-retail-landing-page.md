@@ -22,6 +22,6 @@ ms.custom: seo-marvel-apr2020
 
 Use the admin resources here to manage and get the most out of Teams for your retail stores and workforce.
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [Get started with Retail Teams templates](../get-started-with-retail-teams-templates.md) |

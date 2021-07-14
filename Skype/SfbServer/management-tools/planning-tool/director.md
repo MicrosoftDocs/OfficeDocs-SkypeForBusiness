@@ -1,5 +1,5 @@
 ---
-title: "Director (Planning Tool)"
+title: "Skype for Business Server 2015: Director (planning tool)"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -16,7 +16,7 @@ ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: "A Director is a server running Skype for Business Server 2015 communications software that can authenticate user requests, but does not home any user accounts."
 ---
 
-# Director (Planning Tool)
+# Skype for Business Server 2015: Director (planning tool)
  
 A Director is a server running Skype for Business Server 2015 communications software that can authenticate user requests, but does not home any user accounts. 
   

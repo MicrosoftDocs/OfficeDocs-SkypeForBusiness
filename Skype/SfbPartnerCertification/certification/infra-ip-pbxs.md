@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Certification Program - Gateways"
+title: "Skype for Business Certification Program IP PBXs"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Information about certified gateways for Skype for Business."
 ---
 
-# IP PBXs
+# Skype for Business Certification Program IP PBXs
 
 IP PBXs that have been tested by Microsoft such that specific configurations have obtained the ‘Works with Skype for Business’ designation (where applicable with known limitations). Review the following table.
 

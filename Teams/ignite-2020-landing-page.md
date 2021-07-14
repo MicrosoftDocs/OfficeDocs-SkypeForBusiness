@@ -65,8 +65,8 @@ manager: serdars
 
 ### Collaboration
 
-| Title | Abstract            | Level| Speakers|
-|---|----------|---|---|---|
+| Title | Abstract | Level| Speakers|
+|---|----------|---|---|
 |[Microsoft Teams Mobile App: What's new & What's Next](https://aka.ms/OD255)|Check out what's new and what's coming next across the Microsoft Teams mobile clients.|100|Marissa Salazar|
 |[Driving wellbeing and inclusion with Microsoft Teams](https://aka.ms/PR140)|People need to feel included. People need to be encouraged to be present during their personal time. People need to be empowered with the right tools to set them up for success in their role. Learn how Teams empowers inclusive teamwork by ensuring everyone collaborates in the way that works best for them and balance work and life. |100|Chris Bryan, Ali Oberg|
 |[Collaborate inside and outside your organization with chat and channels in Microsoft Teams](https://aka.ms/PR142) |Instant messaging remains one of the most efficient means of communication. Without appropriate planning, instant messaging can limit who can participate. Learn how to apply chat and channel conversations to foster more open collaboration with people inside and outside your organization. We’ll discuss the differences, best practices, and upcoming features in this area.|200|Karuana Gatimu, Luis Escobar Reyes, Somak Bhattacharyya|
@@ -74,8 +74,8 @@ manager: serdars
 
 ### Platform
 
-| Title | Abstract            | Level| Speakers |
-|---|----------|---|---|---|
+| Title | Abstract    | Level| Speakers |
+|---|----------|---|---|
 |[Digitize and transform business processes with no-code building blocks and app templates in Microsoft Teams](https://aka.ms/PR130)|Organizations are transforming approvals, task management, and crowd sourcing the organization for top ideas.  Use embedded building blocks and production-ready app templates to digitize and streamline key processes. In this session, we’ll share how customers are using these solutions without any custom development required. See how some recent innovations can help simplify these processes.|200|Wes Lander, Aditya Challapally, Christopher Bryan|
 |[Build richer meetings experiences with Microsoft Teams apps using new meetings extensibility points](https://aka.ms/OD250) |Learn how developers can use new meetings extensibility points to integrate their Teams apps across the meetings surfaces. Apps are used throughout the meetings lifecycle (pre, during, post). Apps provide users a richer collaboration experience within meetings.​|300|Rajesh Rangarajan, Isabella Lubin|
 |[Navigating the Teams app lifecycle](https://aka.ms/PR132) |Understand the tools you need to securely and efficiently manage the Teams app lifecycle. The lifecycle starts with developers and IT admins and continues to end users. We'll cover Teams app development, validation, submission, configuration, permissions, and deployment that will help you navigate app management and adoption.|300|Joey Glocke, Vaibhav Agarwal|
@@ -89,7 +89,7 @@ manager: serdars
 ### Industry
 
 | Title | Abstract            | Level| Speakers |
-|---|----------|---|---|---|
+|---|----------|---|---|
 |[Deployment and governance of Teams for Education](https://aka.ms/PR103) |Understand  holistic governance for your educational institution. This session covers chat policies, meeting policies, app policies, assignments through groups, how to configure student safety, and methods for automating team class creation. |300|Jethro Seghers|
 |[Virtual health and collaboration with Microsoft Teams in healthcare](https://aka.ms/PR116)|Healthcare organizations can use Microsoft Teams to empower health teams. This session will focus on virtual health and health team collaboration. Dive deep into areas like the latest announcements for Teams in healthcare, virtual visits, customer stories, and more. You'll also learn how to use Microsoft Teams as a platform for addressing many current healthcare scenarios.|200|Evan Westenberger, Tom McGuinness, Kristina Behr, Daniel Canning|
 |[Tailor Microsoft Teams for your Industry](https://aka.ms/PR117)|We'll share details about how to bootstrap your collaboration experiences with Templates. Use our Industry Gallery. Customize those templates to your organization needs. Deploy templates to various parts of our organization. Manage through policy packages.|200|Prem Kuchi, Aaron Glick|

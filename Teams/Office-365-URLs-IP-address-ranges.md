@@ -22,8 +22,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Microsoft 365 and Office 365 URLs and IP address ranges
-=======================================================
+# Microsoft 365 and Office 365 URLs and IP address ranges
+
 
 Go to [Microsoft 365 and Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) for a detailed and up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 and Office 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you [subscribe via RSS](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) to receive notifications when this information is updated or changed.
 

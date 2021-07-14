@@ -6,6 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 mtps_version: v=OCS.15
 ms.author: v-cichur
+description: How to enable or disable sending an Archiving disclaimer to federated partners in Skype for Business Server.
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,7 +15,6 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ""
 ---
 
 # Enable or disable sending an Archiving disclaimer to federated partners in Skype for Business Server
@@ -48,14 +48,16 @@ The use of the archiving disclaimer can be managed by using Windows PowerShell a
 
 ## To enable the archiving disclaimer
 
-  - To enable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to True ($True):
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+To enable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to True ($True):
+
+```powershell
+Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+```
 
 ## To disable the archiving disclaimer
 
-  - To disable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to False ($False):
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
+To disable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to False ($False):
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
+```

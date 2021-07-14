@@ -32,7 +32,7 @@ Before you deploy Microsoft Teams Rooms with Exchange Online, be sure you have m
 To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets. 
 
    > [!NOTE]
-   >  The [Azure Active Directory Module for Windows PowerShell cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) in this section (for example,  Set-MsolUser) have been tested in setting up accounts for Microsoft Teams Rooms devices. It's possible that other cmdlets may work, however, they haven't been tested in this specific scenario.
+   >  The [Azure Active Directory Module for Windows PowerShell cmdlets](/powershell/azure/active-directory/overview) in this section (for example,  Set-MsolUser) have been tested in setting up accounts for Microsoft Teams Rooms devices. It's possible that other cmdlets may work, however, they haven't been tested in this specific scenario.
 
 If you deployed Active Directory Federation Services (AD FS), you may have to convert the user account to a managed user before you follow these steps, and then convert the user back to a federated user after you complete these steps.
   
@@ -40,7 +40,7 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 1. Start a remote Windows PowerShell session on a PC and connect to Exchange Online as follows:
 
-    ``` Powershell
+    ```powershell
     Set-ExecutionPolicy Unrestricted
     $org = 'contoso.microsoft.com'
     $cred = Get-Credential $admin@$org
@@ -52,19 +52,19 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
    If you're changing an existing resource mailbox:
 
-   ``` Powershell
+   ```powershell
    Set-Mailbox -Identity 'PROJECT01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
     If you're creating a new resource mailbox:
 
-   ``` Powershell
+   ```powershell
    New-Mailbox -MicrosoftOnlineServicesID 'PROJECT01@contoso.com' -Alias PROJECT01 -Name "Project--01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. To improve the meeting experience, you'll need to set the Exchange properties on the user account as follows:
 
-   ``` Powershell
+   ```powershell
    Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
    Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
@@ -72,39 +72,44 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 ### Add an email address for your on-premises domain account
 
 1. In **Active Directory Users and Computers AD** tool, right-click on the container or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.
+
 2. Type the display name (- Identity ) from the prior cmdlet (Set-Mailbox or New-Mailbox) into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
+
 3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
 
     > [!NOTE]
     > Selecting **Password never expires** is a requirement for Skype for Business Server on Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms user account.
   
 4. Click **Finish** to create the account.
-5. After you have created the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) in PowerShell. When that is complete, go to the users page and verify that the two accounts created in the previous steps have merged.
+
+5. After you have created the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) in PowerShell. When that is complete, go to the users page and verify that the two accounts created in the previous steps have merged.
 
 ### Assign a Microsoft 365 or Office 365 license
 
-1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview).
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview) is not supported.
 
-    ``` PowerShell
+    ```powershell
    Connect-MsolService -Credential $cred
     ```
-  <!--   ``` Powershell
+  <!--   ```powershell
      Connect-AzureAD -Credential $cred
      ``` -->
 
 2. The user account needs to have a valid Microsoft 365 or Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account. You'll make the assignment in a following step.
+
 3. Next, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
+
 4. Once you list out the SKUs, you can add a license using the `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK). 
 
-    ```PowerShell
+    ```powershell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
     Get-MsolAccountSku
     Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
     ```
-  <!--   ``` Powershell
+  <!--   ```powershell
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
      Get-AzureADSubscribedSku
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
@@ -117,12 +122,12 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 1. Create a remote Windows PowerShell session from a PC as follows:
 
-> [!NOTE]
-> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
->
-> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+    > [!NOTE]
+    > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+    >
+    > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
-    ``` Powershell
+    ```powershell
     # When using Teams PowerShell Module
     Import-Module MicrosoftTeams
     $credential = Get-Credential
@@ -131,13 +136,13 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 2. To enable your Microsoft Teams Rooms account for Skype for Business Server, run this command:
 
-   ``` Powershell
+   ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
     If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server user using this command
 
-   ``` Powershell
+   ```powershell
    Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
@@ -147,10 +152,15 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 > If you're setting up Teams Rooms to only join Microsoft Teams meetings, you don't need to do the following steps. The following steps are only required if you want to enable support for Skype for Business.
 
 1. Log in as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.
+
 2. Click on **Users and Groups** and then click **Add users, reset passwords, and more**.
+
 3. Click the Microsoft Teams Rooms account, and then click the pen icon to edit the account information.
+
 4. Click **Licenses**.
+
 5. In **Assign licenses**, select Skype for Business (Plan 2) or Skype for Business (Plan 3), depending on your licensing and Enterprise Voice requirements. You'll have to use a Plan 3 license if you want to use Enterprise Voice on Microsoft Teams Rooms.
+
 6. Click **Save**.
 
 For validation, you should be able to use any Skype for Business client to log in to this account.

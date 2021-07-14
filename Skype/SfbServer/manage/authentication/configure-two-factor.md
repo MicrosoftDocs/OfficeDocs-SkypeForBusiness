@@ -75,9 +75,9 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
 
 5. Open the Trusted Platform Module (TPM) Management console by running the following command:
 
-  ```console
-  Tpm.msc
-  ```
+    ```console
+    Tpm.msc
+    ```
 
 6. From the TPM management console, verify that your TPM specification version is at least 1.2
 
@@ -88,18 +88,18 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
 
 8. From the command prompt, create a new virtual smart card using the following command:
 
-  ```console
-  TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
-  ```
+    ```console
+    TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
+    ```
 
     > [!NOTE]
     > To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.
 
 9. From the command prompt, open the Computer Management console by running the following command:
 
-  ```console
-  CompMgmt.msc
-  ```
+    ```console
+    CompMgmt.msc
+    ```
 
 10. In the Computer Management console, select **Device Management**.
 
@@ -132,27 +132,27 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
 7. Select **Smartcard User** under the **Certificate Template** section and complete the advanced certificate request with the following values:
 
-  - **Key Options** confirm he following settings:
+   - **Key Options** confirm the following settings:
 
-    - Select the **Create new key set** radio button
+     - Select the **Create new key set** radio button
 
-    - For **CSP**, select **Microsoft Base Smart Card Crypto Provider**
+     - For **CSP**, select **Microsoft Base Smart Card Crypto Provider**
 
-    - For **Key Usage**, select **Exchange** (this is the only option available).
+     - For **Key Usage**, select **Exchange** (this is the only option available).
 
-    - For **Key Size**, enter 2048
+     - For **Key Size**, enter 2048
 
-    - Confirm that **Automatic key container name** is selected
+     - Confirm that **Automatic key container name** is selected
 
-    - Leave the other boxes unchecked.
+     - Leave the other boxes unchecked.
 
-  - Under **Additional Options** confirm the following values:
+   - Under **Additional Options** confirm the following values:
 
-    - For **Request Format** select **CMC**.
+     - For **Request Format** select **CMC**.
 
-    - For **Hash Algorithm** select **sha1**.
+     - For **Hash Algorithm** select **sha1**.
 
-    - For **Friendly Name** enterSmardcard Certificate.
+     - For **Friendly Name** enterSmardcard Certificate.
 
 8. If you are using a physical smartcard reader, insert the smart card into the device.
 
@@ -168,9 +168,9 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     > [!NOTE]
     >  If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:
 
-        a. Enable Compatibility View in Internet Explorer
-        b. Enable the Turn on Intranet settings option in Internet Explorer
-        c. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
+    1. Enable Compatibility View in Internet Explorer
+    1. Enable the Turn on Intranet settings option in Internet Explorer
+    1. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
 
 ## Configure Active Directory Federation Services (AD FS 2.0)
 
@@ -187,15 +187,15 @@ The following section describes how to configure Active Directory Federation Ser
 
 3. From the Windows PowerShell command-line, run the following command:
 
-  ```PowerShell
-  add-pssnapin Microsoft.Adfs.PowerShell
-  ```
+    ```powershell
+    add-pssnapin Microsoft.Adfs.PowerShell
+    ```
 
 4. Establish a partnership with each server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:
 
-  ```PowerShell
-  Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-  ```
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 
 5. From the Administrative Tools menu, launch the AD FS 2.0 Management console.
 
@@ -205,24 +205,24 @@ The following section describes how to configure Active Directory Federation Ser
 
 8. Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:
 
-  ```PowerShell
-  $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-  ```
+    ```powershell
+    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+    ```
 
-  ```PowerShell
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
--IssuanceAuthorizationRules $IssuanceAuthorizationRules
-  ```
+    ```powershell
+    Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
+    -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+    ```
 
 9. Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:
 
-  ```PowerShell
-  $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-  ```
-
-  ```PowerShell
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-  ```
+    ```powershell
+    $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+    ```
+    
+    ```powershell
+    Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+    ```
 
 10. From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.
 
@@ -246,7 +246,7 @@ Using forms-based authentication, you can develop a web page that allows users t
 
 2. Launch Windows Explorer.
 
-3. Browse to C:\inetpub\adfs\ls
+3. Browse to C:\inetpub\adfs\ls.
 
 4. Make a backup copy of the existing web.config file.
 
@@ -266,9 +266,9 @@ Using forms-based authentication, you can develop a web page that allows users t
 
 11. Restart IIS by running the following command:
 
-  ```console
-  IISReset /Restart /NoForce
-  ```
+    ```console
+    IISReset /Restart /NoForce
+    ```
 
 ## Configuring Skype for Business Server passive authentication
 
@@ -289,30 +289,30 @@ The following steps describe how to create a custom web service configuration fo
 
 3. From the Skype for Business Server Management Shell command-line, create a new Web Service configuration for each Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command:
 
-  ```PowerShell
-  New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-  ```
+    ```powershell
+    New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
 
     > [!CAUTION]
     > The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on **Service** from the navigation pane and then selecting **Edit Federation Service Properties**.
 
 4. Verify that the UseWsFedPassiveAuth and WsFedPassiveMetadataUri values were set correctly by running the following command:
 
-  ```PowerShell
-  Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-  ```
+    ```powershell
+    Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+    ```
 
 5. For clients, Passive Authentication is the least preferred authentication method for webticket authentication. For all Directors, Enterprise Pools, and Standard Edition servers that will be enabled for passive authentication, all other authentication types must be disabled in Skype for Business Web Services by running the following cmdlet:
 
-  ```PowerShell
-  Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-  ```
+    ```powershell
+    Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+    ```
 
 6. Verify that all other authentication types have been successfully disabled by running the following cmdlet:
 
-  ```PowerShell
-  Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-  ```
+    ```powershell
+    Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+    ```
 
 ### Proxy Configuration
 
@@ -324,19 +324,19 @@ The following steps describe how to create a custom proxy configuration for Edge
 
 1. From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:
 
-  ```PowerShell
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
-
-  ```PowerShell
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+    ```powershell
+    New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
+    
+    ```powershell
+    New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+    ```
 
 2. Verify that all other proxy authentication types have been successfully disabled by running the following command:
 
-  ```PowerShell
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-  ```
+    ```powershell
+    Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+    ```
 
 ## See also
 

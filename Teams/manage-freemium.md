@@ -22,8 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Manage the free version of Microsoft Teams
-==========================================
+# Manage the free version of Microsoft Teams
 
 In the free version of Microsoft Teams, the first person who signs up in your organization has a limited admin role. The person who has this limited role can add and remove team members and specify whether anyone can invite additional members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center. To learn more, read [Invite people to Teams (free)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).
 

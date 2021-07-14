@@ -47,7 +47,7 @@ Skype Directory Search functionality provides Skype for Business users with the 
 The following table outlines support for Skype Directory Search.
   
 
-||**Skype for Business Server Front End**|**Lync Server 2013 (or older) Front End**|**Comments**|
+|&nbsp;|**Skype for Business Server Front End**|**Lync Server 2013 (or older) Front End**|**Comments**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server Edge  <br/> |Supported  <br/> |Not Supported  <br/> |Skype for Business Server and Edge are prerequisites for Skype Directory Search  <br/> |
 |Skype for Business Server Edge + Lync Server 2013 Edge deployed side-by-side  <br/> |Supported  <br/> |Not Supported  <br/> |Skype Directory Search traffic flows through Skype for Business Server Edge servers. Federation traffic goes through edge configured by the administrator. For example, the administrator could choose to continue to send federation traffic through Lync Server 2013 Edge servers which would not support Skype Directory Search.  <br/> |

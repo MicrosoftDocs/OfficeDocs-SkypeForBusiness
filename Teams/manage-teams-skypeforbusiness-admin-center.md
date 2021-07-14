@@ -23,8 +23,7 @@ appliesto:
   - Skype for Business Online
 ---
 
-Manage Teams during the transition to the new Microsoft Teams admin center
-======================================================
+# Manage Teams during the transition to the new Microsoft Teams admin center
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

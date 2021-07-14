@@ -121,7 +121,7 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
   
 
 
-|Supported Synthetic Transactions for Registration, Presence, and Contacts|||
+|Supported Synthetic Transactions for Registration, Presence, and Contacts|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |1  <br/> |Registration (user login)  <br/> |Available Lync Server 2010 and beyond  <br/> |
 |2  <br/> |Address Book Service (file download)  <br/> |Available Lync Server 2010 and beyond  <br/> |
@@ -130,7 +130,7 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
 |5  <br/> |Unified Contact Store  <br/> |Available Lync Server 2013 and beyond  <br/> |
 ||||   
 
-|Supported Synthetic Transactions for Peer-to-Peer Services|||
+|Supported Synthetic Transactions for Peer-to-Peer Services|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |6  <br/> |Peer-to-Peer Instant Messaging  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |7  <br/> |Peer-to-Peer Audio Video  <br/> |Available in Lync Server 2010 and beyond  <br/> |
@@ -140,7 +140,7 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
 > MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
 
 
-|Supported Synthetic Transactions for Conferencing and Persistent Chat|||
+|Supported Synthetic Transactions for Conferencing and Persistent Chat|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |9  <br/> |Audio Video Conferencing  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |10  <br/> |Data Conferencing  <br/> |Available in Lync Server 2013 and beyond  <br/> |
@@ -152,7 +152,7 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
 |16  <br/> |UCWA Conference (web meeting join)  <br/> |New in Skype for Business Server 2015  <br/> |
 ||||
 
-|Supported Synthetic Transactions for Network and Partner Dependencies|||
+|Supported Synthetic Transactions for Network and Partner Dependencies|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |17  <br/> |AV Edge Connectivity  <br/> |Available in Lync Server 2013 and beyond  <br/> |
 |18  <br/> |AV Edge Connectivity Exchange Unified Message Connectivity (voicemail)  <br/> |Available in Lync Server 2013 and beyond  <br/> |

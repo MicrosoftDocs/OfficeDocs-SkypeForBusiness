@@ -91,7 +91,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - Media is relayed via paths 3, 3', 4 and 4'
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-4.png)
+> ![Diagrem sshows call flow if user does not have access to public IP of the SBC.](media/direct-routing-media-bypass-4.png)
 
 
 ### Call flow if a user is outside the network and has access to the public IP of the SBC
@@ -106,7 +106,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - The SIP signaling always takes paths 3 and 3' (depending on the direction of the traffic). Media flows using path 2.
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-5.png)
+> ![Diagram of call flow for a user who does't have access to public IP of the SBC.](media/direct-routing-media-bypass-5.png)
 
 
 ## Use of Media Processors and Transport Relays
@@ -136,7 +136,7 @@ The following diagram shows two call flows – one with media bypass enabled and
 
 The table below summarizes the difference between Media Processors and Transport Relays.
 
-|    | Media Processors | Transport Relays|
+|  &nbsp; | Media Processors | Transport Relays|
 | :--------------|:---------------|:------------|
 In media path for non-bypassed calls for end users | Always | If client cannot reach the Media Processor directly | 
 In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 

@@ -165,10 +165,11 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     > LPE phones for Skype for Business Online support sign-in through USB tethering only. 
   
 - **Supported deployments** The table below shows the supported authentication types for the currently supported deployment models including Exchange Integration, Modern authentication with Multi-factor Authentication (MFA), and Skype for Business Online and on-premises.
-    
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+<br/>  
+  
 |**Skype for Business** <br/> |**Exchange** <br/> |**Phone Sign-In method** <br/> |**Skype for Business access** <br/> |**Exchange Access with Modern Auth and MFA disabled** <br/> |**Exchange Access with Modern Auth and MFA enabled** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Online  <br/> |Online  <br/> |Web Sign-in  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Online  <br/> |Online  <br/> |Username/Password  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Online  <br/> |On-premises  <br/> |Web Sign-in  <br/> |Yes  <br/> |No  <br/> |No  <br/> |

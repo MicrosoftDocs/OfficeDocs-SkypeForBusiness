@@ -63,7 +63,7 @@ Common concerns such as certificate expiration, patch levels and database utiliz
 
   **Offer uninterrupted Lync on mobile devices.**
 
-[Dell](htp://dell.com)
+[Dell](http://dell.com)
 
 Together with a ***Dell Networking*** W-Series controller-based Wi-Fi network, the SDN API opens a window into Lync calls in flight. Call set-up data pushed over the API enables Dell W-Series Wi-Fi to deliver quality of service for all Lync flows, implement call admission control, and monitor UC performance in real-time.
 

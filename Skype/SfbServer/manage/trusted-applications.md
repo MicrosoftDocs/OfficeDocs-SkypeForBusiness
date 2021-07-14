@@ -79,24 +79,26 @@ You can view information about your trusted applications by using Windows PowerS
 
 To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
-        Get-CsConferenceDisclaimer
+`Get-CsConferenceDisclaimer`
     
-   This command returns information similar to the following for each trusted application:
+This command returns information similar to the following for each trusted application:
+
+```console
+Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
+                         Service,CN=Services,CN=Configuration,DC=litware,DC=com
+RegistrarPool          : 487279971
+HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
+                         Service,CN=Services,CN=Configuration,DC=litware,DC=com
+OwnerUrn               : urn:application:helpdesk
+SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
+DisplayName            :
+DisplayNumber          :
+LineURI                :
+PrimaryLanguage        : 0
+SecondaryLanguages     : {}
+EnterpriseVoiceEnabled : True
+ExUmEnabled            : False
+Enabled                : True
+```
     
-        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        RegistrarPool          : 487279971
-        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        OwnerUrn               : urn:application:helpdesk
-        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
-        DisplayName            :
-        DisplayNumber          :
-        LineURI                :
-        PrimaryLanguage        : 0
-        SecondaryLanguages     : {}
-        EnterpriseVoiceEnabled : True
-        ExUmEnabled            : False
-        Enabled                : True
-    
-   For details, see [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).
+For details, see [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

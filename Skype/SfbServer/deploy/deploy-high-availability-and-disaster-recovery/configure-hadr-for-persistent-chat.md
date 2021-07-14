@@ -1,5 +1,5 @@
 ---
-title: "Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015"
+title: "Skype for Business Server 2015: Configure high availability and disaster recovery for Persistent Chat Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -12,10 +12,10 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: "Summary: Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015."
+description: "Learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015."
 ---
 
-# Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015
+# Skype for Business Server 2015: Configure high availability and disaster recovery for Persistent Chat Server
  
 **Summary:** Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.
   

@@ -31,7 +31,7 @@ Writers update articles on a continuing basis as new information becomes availab
 
 View the following resources for information about how to plan for your Skype for Business Server deployment.
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:--- |:--- |:--- |
 |![Icon for technical diagrams](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server 2015](../technical-diagrams.md) <br/> |See architecture choices at a glance in these large-format diagrams.  <br/> |
 |![Icon for videos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype for Business: A quick introduction](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype for Business: Step-by-step guide for new users](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |Discover video presentations and training for Skype for Business.  <br/> |
@@ -56,7 +56,7 @@ The following articles about how to plan for Skype for Business Server are avail
 
 The following resources about how to plan for Skype for Business Server are available from other subject matter experts. 
   
-||**Content**|**Description**|
+|&nbsp;|**Content**|**Description**|
 |:--- |:--- |:--- |
 |![Icon for Docs](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](../../Hub/index.yml) <br/> |Visit the resource center to access videos, community sites, documentation, downloads, and more.  <br/> |
 |![Icon for developer content](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Developer Platform](/skype-sdk/skypedeveloperplatform) <br/> |Find developer resources for Skype for Business Server, including code samples, training, and SDKs.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: "Delete an existing collection of SIP trunk configuration settings in Skype for Business Server"
+title: "Delete a collection of SIP trunk configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: "Summary: Learn how to delete a collection of trunk configuration settings by using the Skype for Business Server Control Panel."
 ---
 
-# Delete an existing collection of SIP trunk configuration settings in Skype for Business Server
+# Delete a collection of SIP trunk configuration settings in Skype for Business Server
  
 **Summary:** Learn how to delete a collection of trunk configuration settings by using the Skype for Business Server Control Panel.
   
@@ -30,7 +30,7 @@ SIP trunk configuration settings define the relationship and capabilities betwee
     
 - Whether or not Secure Realtime Transport Protocol (SRTP) encryption is required on each trunk.
     
-When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you. This global collection of settings cannot be deleted. However, you can use the Skype for Business Server Control Panel or the [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) cmdlet to "reset" the properties in the global collection to their default values. For example, if you have set the Enable3pccRefer property to True, when you reset the global collection the Enable3pccRefer property will revert to its default value of False.
+When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you. This global collection of settings cannot be deleted. However, you can use the Skype for Business Server Control Panel or the [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) cmdlet to "reset" the properties in the global collection to their default values. For example, if you have set the Enable3pccRefer property to True, when you reset the global collection the Enable3pccRefer property will revert to its default value of False.
   
 Administrators can also create custom trunk configuration settings at the site scope or at the service scope (for an individual PSTN gateway); these custom settings can be removed. When removing these custom settings keep the following in mind:
   
@@ -80,4 +80,4 @@ You can delete trunk configuration settings by using Skype for Business Server M
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-For more information, see the help topic for the [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) cmdlet.

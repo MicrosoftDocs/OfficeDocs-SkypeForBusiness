@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams resources for Education admins
+title: Get started with Microsoft Teams resources for education admins
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# Get started with Microsoft Teams for remote learning
+# Get started with Microsoft Teams resources for education admins
 
 For an overview of making the transition to remote learning and resources to help you get started, see our [remote learning home page](https://www.microsoft.com/education/remote-learning).
 

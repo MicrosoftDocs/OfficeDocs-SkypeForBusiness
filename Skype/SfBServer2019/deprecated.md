@@ -22,11 +22,11 @@ Some de-emphasized features are included in Skype for Business Server 2019 for c
 
 ## Features deprecated in Skype for Business Server 2019 
 
-    The following features and functionality have been deprecated in Skype for Business Server 2019.
+The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### XMPP Gateways for Skype for Business Server
 
-Skype for Business Server 2015 and its predecessors allowed you to configure an Extensible Messaging and Presence Protocol (XMPP) proxy on the Edge Server and an XMPP Gateway on the Front End Server or Front End pool. This functionality is no longer available in Skype for Business Server 2019.
+Skype for Business Server 2015 and its predecessors allowed you to configure an Extensible Messaging and Presence Protocol (XMPP) proxy on the Edge Server and an XMPP Gateway on the Front-End Server or Front-End pool. This functionality is no longer available in Skype for Business Server 2019.
 
 ### Persistent Chat for Skype for Business Server
 
@@ -40,7 +40,7 @@ SQL Mirroring can't be deployed with Skype for Business Server 2019. Other optio
 
 ### In-place upgrades 
 
-In-place upgrades were available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. Side by side upgrade and coexistance is supported, see [Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) for more information.
+In-place upgrades were available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. Side-by-side upgrade and coexistence is supported, see [Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) for more information.
 
 ### Mobility Service (Mcx)
 

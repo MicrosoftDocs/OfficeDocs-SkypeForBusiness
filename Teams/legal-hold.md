@@ -17,8 +17,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Place a Microsoft Teams user or team on legal hold
-==================================================
+# Place a Microsoft Teams user or team on legal hold
+
 
 When a reasonable expectation of litigation exists, organizations are required to preserve electronically stored information (ESI), including Teams chat messages that are relevant to the case. Organizations may need to preserve all messages related to a specific topic or for certain individuals. This article will cover legal hold in Microsoft Teams (To address hold implementation across the M365 space, please review [Manage eDiscovery cases: Place content locations on hold](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold).).
 
@@ -68,7 +68,8 @@ After the legal hold has been set, you can discover all the content retained by 
 
 As a helpful guide, you can use the following table to understand what content location (such as a mailbox or site) to place on legal hold to preserve different types of Teams content.
 
-|Scenario  |Content location  |
+
+|Scenario  |Content location|
 |---------|---------|
 |Teams chats for a user (for example, 1:1 chats, 1:N group chats, and private channel conversations)     |User mailbox.         |
 |Teams channel chats (excluding private channels)    |Group mailbox used for the team.         |

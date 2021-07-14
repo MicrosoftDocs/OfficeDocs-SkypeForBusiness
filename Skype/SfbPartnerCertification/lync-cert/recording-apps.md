@@ -1,5 +1,5 @@
 ---
-title: "Qualified Lync applications"
+title: "Qualified Lync recording applications"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -18,10 +18,10 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync qualificaton program helps ensure that qualified recording applications meet customer expectations for specific scenarios"
 ---
 
-# Recording applications
+# Qualified Lync recording applications
 Recording applications allow for the recording, storage, and retrieval of communications for training review, quality analysis and to meet compliance requirements.
 
 ## Actiance Vantage

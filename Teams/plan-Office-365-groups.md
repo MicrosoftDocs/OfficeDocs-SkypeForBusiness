@@ -22,8 +22,8 @@ ms.custom:
   - seo-marvel-mar2020
 ---
 
-Plan for Microsoft 365 Groups when creating teams in Microsoft Teams
-==========================================================
+# Plan for Microsoft 365 Groups when creating teams in Microsoft Teams
+
 
 When considering the use of Microsoft 365 Groups or when creating teams, consider what the team will be used for, who should have access, and what outcome the team will expect to achieve. Pay special attention to the number of channels you create as people can quickly become overrun by content spread too thin (across too many channels).
 

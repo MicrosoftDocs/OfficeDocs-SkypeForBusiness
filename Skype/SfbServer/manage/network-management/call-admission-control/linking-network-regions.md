@@ -45,18 +45,21 @@ You can view network region links by using Windows PowerShell and the **Get-CsNe
 
 ### To view network region link information
 
-  - To view information about all your network region links, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
-    
-        Get-CsNetworkRegionLink
-    
-    This command returns information similar to the following:
-    
-        Identity            : NorthwestToCalifornia
-        BWPolicyProfileID   :
-        NetworkRegionLinkID : NorthwestToCalifornia
-        NetworkRegionID1    : Pacific Northwest
-        NetworkRegionID2    : California
+To view information about all your network region links, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
 
+```powershell
+Get-CsNetworkRegionLink
+```
+    
+This command returns information similar to the following:
+
+```console    
+Identity            : NorthwestToCalifornia
+BWPolicyProfileID   :
+NetworkRegionLinkID : NorthwestToCalifornia
+NetworkRegionID1    : Pacific Northwest
+NetworkRegionID2    : California
+```
 
 For details, see [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink).
 
@@ -107,7 +110,7 @@ You can configure links between two network regions as part of call admission co
 
 ## Delete network region links
 
-You can configure links between two network regions as part of call admission control (CAC). Regions within a network are linked through physical wide area network (WAN) connectivity. You can use the Skype for Business Server Control Panel to delete an existing link between two network regions. 
+You can configure links between two network regions as part of call admission control (CAC). Regions within a network are linked through physical wide area network (WAN) connectivity. You can use the Skype for Business Server Control Panel to delete an existing link between two network regions.
 
 ### To delete a network region link
 

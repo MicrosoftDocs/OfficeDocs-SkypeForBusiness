@@ -36,7 +36,7 @@ These settings control which meeting participants wait in the lobby before they 
 - [Allow chat in meetings](#allow-chat-in-meetings)
 
 > [!NOTE]
->Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## Let anonymous people start a meeting
 
@@ -90,9 +90,6 @@ This setting is a per-user policy and applies during a meeting. This setting con
 This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
 <a name="bkparticipantsandguests"> </a>
-
-
-
 
 
 

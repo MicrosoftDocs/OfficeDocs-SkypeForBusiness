@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "Prior to deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019. The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019. For additional information, see the topic Preparing Active Directory Domain Services for Skype for Business Server 2019."
+description: "Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019. The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019. For more information, see the topic Preparing Active Directory Domain Services for Skype for Business Server 2019."
 ---
 
-# Prepare Active Directory for Skype for Business Server
+# Skype for Business Server 2019: Prepare Active Directory
 
-Before deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019. The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019. <!-- For additional information, see the topic 
+Before you deploy Skype for Business Server 2019 in a coexistence state, you must perform some more Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019. The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019. <!-- For additional information, see the topic 
 [Preparing Active Directory Domain Services for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
 ### To prepare Active Directory for Skype for Business Server 2019

@@ -1,5 +1,5 @@
 ---
-title: "Plan for Location-Based Routing in Skype for Business"
+title: "Plan for location-based routing in Skype for Business"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: "Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing."
 ---
 
-# Plan for Location-Based Routing in Skype for Business
+# Plan for location-based routing in Skype for Business
 
 Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing.
 
@@ -82,7 +82,7 @@ The routing of outbound calls of users enabled for Location-Based Routing is aff
 
 **Caller placing an outbound call to the PSTN**
 
-||**User endpoint located in a network site enabled for Location-Based Routing**|**User endpoint located in unknown network site or not enabled for Location-Based Routing**|
+|&nbsp;|**User endpoint located in a network site enabled for Location-Based Routing**|**User endpoint located in unknown network site or not enabled for Location-Based Routing**|
 |:-----|:-----|:-----|
 |Authorization of outbound calls  <br/> |Call is authorized based on user's voice policy  <br/> |Call is authorized based on user's voice policy  <br/> |
 |Routing of outbound call  <br/> |Call is routed according to the network site's voice routing policy  <br/> |Call is routed according to user's voice policy and only through trunks not enabled for Location-Based Routing (if available)  <br/> |
@@ -97,7 +97,7 @@ The following table illustrates how Location-Based Routing affects the routing o
 
 **Callee receiving an inbound call from the PSTN**
 
-||**Callee's endpoint located in the same network site as PSTN gateway**|**Callee's endpoint not located in the same network site as PSTN gateway**|**Callee's endpoint located in unknown network site or not enabled for Location-Based Routing**|
+|&nbsp;|**Callee's endpoint located in the same network site as PSTN gateway**|**Callee's endpoint not located in the same network site as PSTN gateway**|**Callee's endpoint located in unknown network site or not enabled for Location-Based Routing**|
 |:-----|:-----|:-----|:-----|
 |Routing of inbound PSTN call  <br/> |Incoming call is routed to callee's endpoints  <br/> |Incoming call is not routed to callee's endpoints  <br/> |Incoming call is not routed to callee's endpoints  <br/> |
 
@@ -234,7 +234,7 @@ The following table identifies the clients that Location-Based Routing supports.
 |Lync Mobile 2010  <br/> |yes  <br/> ||
 
 > [!NOTE]
-> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy).
 
 ## Capabilities not supported by Location-Based Routing
 

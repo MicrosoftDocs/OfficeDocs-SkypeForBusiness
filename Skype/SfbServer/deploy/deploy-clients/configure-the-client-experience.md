@@ -125,7 +125,7 @@ You can turn the tutorial back on by setting the **Value data** to **1**.
 If your organization has both Skype for Business Server and Lync Server deployed, the client experience will differ depending on server versions and the Skype UI setting. The following table shows the initial client experience based on server version and the UI setting:
   
 
-|**Server version**|**EnableSkypeUI setting**|**Client experience**|
+| Server version | EnableSkypeUI setting | Client experience |
 |:-----|:-----|:-----|
 |Skype for Business Server |Default  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
@@ -138,7 +138,7 @@ If your organization has both Skype for Business Server and Lync Server deployed
 The next table shows the client experience when the administrator changes the initial setting for the Skype UI experience:
   
 
-|**Server version**|**EnableSkypeUI setting**|**Client UI = Lync**|**Client UI = Skype for Business**|
+| Server version | EnableSkypeUI setting | Client UI = Lync | Client UI = Skype for Business |
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server |True  <br/> |User asked to switch to Skype for Business  <br/> |Skype for Business  <br/> |
 |Skype for Business Server |False  <br/> |Lync mode  <br/> |User asked to switch to Lync mode  <br/> |
@@ -176,7 +176,7 @@ The following procedure describes how to modify the registry so that the Lync cl
     
 7. On the **New Registry Properties** dialog, update the following:
     
-   |**Field**|**Value to select or enter**|
+   | Field | Value to select or enter |
    |:-----|:-----|
    |**Action** <br/> |**Create** <br/> |
    |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
@@ -197,16 +197,17 @@ Next, you'll need to link the GPO you created to the group of users that you wan
     
 3. On the target user's computer, open a command prompt and type the following command:
        
-```console
-gpupdate /target:user
-```
-
+    ```console
+    gpupdate /target:user
+    ```
     
     The message "Updating policy..." is displayed while the GPO is applied. When it is completed, the message "User Policy update has completed successfully" is displayed.
     
 4. At the command prompt, type the following command:
-    
-    **gpresult /r**
+
+    ```console
+    gpresult /r
+    ```
     
     You should see "Assigned Group Policy Objects" with the name of the GPO you created displayed below.
     

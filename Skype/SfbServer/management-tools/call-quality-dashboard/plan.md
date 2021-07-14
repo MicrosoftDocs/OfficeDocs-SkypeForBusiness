@@ -1,5 +1,5 @@
 ---
-title: "Plan for Call Quality Dashboard for Skype for Business Server"
+title: "Skype for Business Server: Plan for Call Quality Dashboard"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -15,7 +15,7 @@ ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: "Summary: Learn about what to consider when you plan for the Call Quality Dashboard."
 ---
 
-# Plan for Call Quality Dashboard for Skype for Business Server 
+# Skype for Business Server: Plan for Call Quality Dashboard 
  
 **Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
   
@@ -156,15 +156,15 @@ CQD does not merge data from multiple QoEMetrics databases, as is the case where
 
 CQD, including all its components and dependent components, can be deployed on a virtual machine, a single machine, or across multiple machines. The minimum software and hardware requirements are listed below. Data availability and query performance can vary from minutes to hours, depending on the number of active Skype for Business Server users and hardware and configuration, so some performance measurements are given below.
   
-|||
+
+|For CQD 2015 |&nbsp;  |
 |:-----|:-----|
-|For CQD 2015 <br/> |  <br/> |
 |Supported Operating Systems  <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
 |Supported SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
 
-|||
+
+|For CQD 2019 <br/> |&nbsp;  |
 |:-----|:-----|
-|For CQD 2019 <br/> |  <br/> |
 |Supported Operating Systems  <br/> |Windows Server 2016, Windows Server 2019  <br/> |
 |Supported SQL Server  <br/> |SQL Server 2017, SQL Server 2019  <br/> |
    
@@ -290,11 +290,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 ```
 
 The following versions of SQL Server are supported:
-  
-|||
-|:-----|:-----|
-| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
-|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
+
+- CQD 2015: SQL Server 2012, SQL Server 2014, SQL Server 2016
+- CQD 2019: SQL Server 2017, SQL Server 2019 
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   

@@ -56,7 +56,7 @@ For more information on licenses, see [Microsoft Teams add-on licensing](./teams
 The Common Area Phone license supports: 
 
 
-|   |  Common Area Phone  |
+|Product or feature   |  Common Area Phone  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -108,7 +108,7 @@ Use the Teams admin center to assign a number to the user.
 
 6. Click **Save** and your user should look like this:
 
-   ![Screenshot showing license assignment](media/set-up-common-area-phone-image3.png)
+   ![Screenshot showing user and assigned number](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Users will only show up if they have a Phone System license applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.

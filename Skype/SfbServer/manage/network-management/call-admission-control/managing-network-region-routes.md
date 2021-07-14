@@ -45,17 +45,21 @@ Network region route information can be viewed by using Windows PowerShell and t
 
 ### To view network region route information
 
-  - To view information about all your network region routes, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
-    
-        Get-CsNetworkInterRegionRoute
-    
-    That will return information similar to this:
-    
-        Identity                  : TransAmericaRoute
-        NetworkRegionLinks        : {NorthwestToNortheast}
-        InterNetworkRegionRouteID : TransAmericaRoute
-        NetworkRegionID1          : Pacific Northwest
-        NetworkRegionID2          : Northeast
+To view information about all your network region routes, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
+
+```powershell
+Get-CsNetworkInterRegionRoute
+```
+
+That will return information similar to this:
+
+```console    
+Identity                  : TransAmericaRoute
+NetworkRegionLinks        : {NorthwestToNortheast}
+InterNetworkRegionRouteID : TransAmericaRoute
+NetworkRegionID1          : Pacific Northwest
+NetworkRegionID2          : Northeast
+```
 
 For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
 

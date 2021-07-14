@@ -1,5 +1,5 @@
 ---
-title: "Prepare Active Directory for Skype for Business Server"
+title: "Skype for Business Server: Prepare Active Directory"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -19,7 +19,7 @@ ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: "Summary: Learn how to prepare your Active Directory domain for an installation of Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---
 
-# Prepare Active Directory for Skype for Business Server
+# Skype for Business Server: Prepare Active Directory
  
 **Summary:** Learn how to prepare your Active Directory domain for an installation of Skype for Business Server. Download a free trial of Skype for Business Server from the [Microsoft Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   

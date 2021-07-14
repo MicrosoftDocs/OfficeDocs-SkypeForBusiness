@@ -4,6 +4,7 @@ description: Learn how to plan and deploy Teams in Microsoft 365 Government envi
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.topic: article
 audience: admin
 f1.keywords:
 - NOCSH
@@ -19,7 +20,7 @@ appliesto:
 
 Use these resources to learn about specific considerations for deploying Teams in Microsoft 365 Government environments. When you're ready, follow the same recommended deployment path for Teams as outlined in [How to roll out Microsoft Teams](../deploy-overview.md).
 
-|               |               |
+| &nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![Screenshot of numbered list icon](../media/list-123-teams.svg)  |  [Plan for Microsoft 365 Government - GCC deployments](../plan-for-government-gcc.md) |
 | ![Screenshot of clipboard with a list of tasks icon](../media/tasks-teams.svg) | [Plan for Microsoft 365 Government - GCC High](../plan-for-government-gcc-high.md) |

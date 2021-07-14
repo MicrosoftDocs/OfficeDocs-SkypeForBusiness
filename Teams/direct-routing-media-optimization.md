@@ -50,8 +50,7 @@ For this discussion, assume that Contoso runs multiple businesses across the glo
 
 - **In the APAC region**, Contoso has multiple offices in different countries. 
 
-  In many countries, the company still has time-division multiplexing (TDM) trunks in local branch offices. Centralization of the TDM trunks is not an option in the APAC region, so switching to 
-SIP is not possible. Assume there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a lack of public IP addresses and/or local internet breakouts. In addition, some countries impose regulatory requirements that cannot be fulfilled without having local PSTN network connectivity.
+  In many countries, the company still has time-division multiplexing (TDM) trunks in local branch offices. Centralization of the TDM trunks is not an option in the APAC region, so switching to SIP is not possible. Assume there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a lack of public IP addresses and/or local internet breakouts. In addition, some countries impose regulatory requirements that cannot be fulfilled without having local PSTN network connectivity.
 
 Based on their business requirements, Contoso implemented two solutions with Local Media Optimization for Direct Routing:
 
@@ -83,7 +82,7 @@ Table 1. Example network parameters for SBCs
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Amsterdam | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | Germany | Not deployed | 192.168.6.0/24 | 172.16.76.74 | Not deployed |  Not deployed |
-| France | Not deployed | 192.168.7.0/24 | 172.16.76.75 | Not deployed |  Not deployed ||||
+| France | Not deployed | 192.168.7.0/24 | 172.16.76.75 | Not deployed |  Not deployed |
 
 
 ### Internal user
@@ -100,7 +99,8 @@ While on premises, the user is assigned to the local branch office in Germany. T
 
 Diagram 1. Traffic flow when the user is in the ‘home’ site with a centralized SBC and with a connected centralized SIP Trunk
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-1.png "Traffic flow when user is in ‘home’ site with centralized SBC with connected centralized SIP Trunk")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-1.png "Traffic flow when user is in ‘home’ site with centralized SBC with connected centralized SIP Trunk")
 
 
 ### External user
@@ -117,7 +117,8 @@ In this case, the behavior is similar whether the user is local to the branch of
 
 Diagram 2. Traffic flow when the user is external with a centralized SBC and with a connected centralized SIP Trunk
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-2.png "Traffic flow when user is external in case of centralized SBC with connected centralized SIP Trunk")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-2.png "Traffic flow when user is external in case of centralized SBC with connected centralized SIP Trunk")
 
 ## Proxy SBC with connected downstream SBCs
 
@@ -157,7 +158,8 @@ For more information on possible modes and relevant behavior, see Configure Loca
 
 Diagram 3. Traffic flow when the user is in the “home” network with a proxy SBC and with connected downstream SBCs 
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-3.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the “home” network")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-3.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the “home” network")
 
 ### External user
 
@@ -175,7 +177,8 @@ The following diagram shows the traffic flow when a user is outside of the corpo
 
 Diagram 4. Traffic flow when the user is external with a proxy SBC and with connected downstream SBCs
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
 
 ## Local Media Optimization modes
 
@@ -229,7 +232,8 @@ The diagram below shows the high-level traffic flow for the internal user in Ger
 
 Diagram 5.  Traffic flow with “Always Bypass” mode and the user is in the “home” site
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-5.png "Traffic flow with “Always Bypass” mode and user is in the “home” site")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-5.png "Traffic flow with “Always Bypass” mode and user is in the “home” site")
 
 
 #### Scenario 2: The user and gateways are in different sites
@@ -252,7 +256,8 @@ The following diagram shows the high-level traffic flow when the internal German
 
 Diagram 6.  Traffic flow with “Always Bypass” mode and the user is not in “home” site but in the internal network
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
 
 ### Mode 2: Only for local users
 
@@ -292,7 +297,8 @@ In the following diagram, a user assigned to the local branch office in Vietnam,
 
 Diagram 7. Traffic flow with “Only For Local Users” mode and the user is in “home” site
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-7.png "Traffic flow with “Only For Local Users” mode and user is in “home” site")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-7.png "Traffic flow with “Only For Local Users” mode and user is in “home” site")
 
 
 #### Scenario 2. The user and gateways are in different sites
@@ -322,7 +328,8 @@ In the following diagram, the internal user, while on premises in the Indonesian
 
 Diagram 8.  Traffic flow with “Only For Local Users” mode, and the user is not in “home” site but in the internal network
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-8.png "Traffic flow with “Only For Local Users” mode, user is not in “home” site but in internal network")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-8.png "Traffic flow with “Only For Local Users” mode, user is not in “home” site but in internal network")
 
 ## Known issues
 
