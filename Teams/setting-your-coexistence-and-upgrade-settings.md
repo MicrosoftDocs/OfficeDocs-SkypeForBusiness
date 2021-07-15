@@ -51,7 +51,7 @@ You can get a better understanding of the modes that are available to you by rea
           >  - All on-premises users have been moved to Teams Only using Move-CsUser in the Skype for Business Server on-premises toolset.
           >  - You have updated any Skype for Business DNS records to point to Microsoft 365. 
           >
-          > For more detail, see [Disable your hybrid configuration to complete migration to Teams Only](SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid).
+          > For more detail, see [Disable your hybrid configuration to complete migration to Teams Only](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid).
         
     - Set **Notify Skype for Business users that Teams is available for upgrade**. If you turn this on, it will tell the Skype for Business users that they will soon be upgraded to the Teams app.
 
