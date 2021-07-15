@@ -53,8 +53,6 @@ Before you decommission the on-premises Skype for Business deployment and remove
 
 4. [Disable communication between on-premises and Microsoft 365](#disable-communication-between-on-premises-and-microsoft-365)
 
-Disable communication between on-premises and Microsoft 365
-
 These steps logically separate your on-premises deployment of Skype for Business Server from Microsoft 365 and ensure your organization is fully Teams Only. After you've completed these steps, you can decommission your on-premises Skype for Business deployment by using one of two methods referenced in [Decide how to manage attributes after decommissioning](cloud-consolidation-managing-attributes.md).
 
 > [!Important] 
