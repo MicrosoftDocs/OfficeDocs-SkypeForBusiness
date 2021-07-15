@@ -86,4 +86,4 @@ You can get a better understanding of the modes that are available to you by rea
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 
-[Decommission your on-premises Skype for Business environment](skypeforbusiness/hybrid/decommission-on-prem-overview)
+[Decommission your on-premises Skype for Business environment](/skypeforbusiness/hybrid/decommission-on-prem-overview)
