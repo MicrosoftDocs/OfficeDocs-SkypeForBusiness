@@ -1,5 +1,5 @@
 ---
-title: "Managge attributes after moving users to the cloud"
+title: "Decide how to manage attributes after decommissioning"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
