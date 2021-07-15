@@ -20,7 +20,7 @@ appliesto:
 
 # Administrative unit functionality for device management in Teams
 
-Using the Microsoft Teams admin center, you can have more granular role-based access for device management. We are implementing the Administrative Unit concept for device management through the admin center. With Administrative unit concept, you'll be able to ensure access to set of resources to a dedicated administrator, rather than providing access to all the resources. Learn about [administrative unit concept](https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units).
+Using the Microsoft Teams admin center, you can have more granular role-based access for device management. We are implementing the Administrative Unit concept for device management through the admin center. With Administrative unit concept, you'll be able to ensure access to set of resources to a dedicated administrator, rather than providing access to all the resources. Learn about [administrative unit concept](/azure/active-directory/roles/administrative-units).
 
 Create administrative units in Azure Portal and assign admins for respective administrative units. Learn more about assigning administrative units at [manage admin units](/azure/active-directory/roles/admin-units-manage). You can extend the same functionality for Teams devices management. The administrative unit concept is available only for the Teams Device Administrator role currently.
 
@@ -28,4 +28,4 @@ When an administrative unit admin signs in, they can see only those user devices
 
 If the same administrative unit admin is part of multiple administrative unit admins, they can switch between administrative units seamlessly without signing out from the portal. In the changed administrative unit view, they would be able to see only those set of devices which are associated with the new administrative unit.
 
-  [!admin unit](media/admin-unit.png)
+  ![admin unit](media/admin-unit.png)
