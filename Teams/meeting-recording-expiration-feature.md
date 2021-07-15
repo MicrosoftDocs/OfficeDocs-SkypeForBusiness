@@ -28,23 +28,21 @@ We are introducing a default 60-day expiration setting for *all* newly created T
 
 **Why are we introducing this change?**
 
-    1.  Customers have provided overwhelming feedback that they want this feature.
-
-    2.  This is a lightweight housekeeping mechanism to reduce storage clutter created from cold TMRs. Across all customers, on average, 99% of TMRs are never rewatched after 60 days.
+We've answered your requests for the meeting recording expiration feature. This is a lightweight housekeeping mechanism to reduce storage clutter created from cold Teams meeting recordings (TMR). On average, 99% of TMRs are never re-watched after 60 days.
 
 **Why is this being turned on by default?**
 
-    1.  We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It is our goal to provide as clean an experience as possible for all customers by default.
+We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be re-watched after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
 
 **How is the expiration date calculated?**
 
-    1.  The expiration date is calculated as the day it is created plus the default number of days set in the Teams policy by the admin.
+The expiration date is calculated as the day it's created plus the default number of days set in the Teams policy by the admin.
 
 **How can an Admin change the expiration date be changed?**
 
-    1.  Admins can edit the default expiration setting in their Teams policy console. That change will impact only newly created TMRs from that point forward. It will not impact any recordings before that date.
+Admins can edit the default expiration setting in their Teams policy console. That change will impact only newly created TMRs from that point forward. It won't impact any recordings before that date.
 
-    2.  Admins cannot change the expiration date on existing TMRs. This is done to protect the decision of the user that owns the TMR.
+Admins can't change the expiration date on existing TMRs. This is done to protect the decision of the user that owns the TMR.
 
     3.  &lt;insert pic of the Teams policy setting&gt;
 
@@ -54,7 +52,7 @@ We are introducing a default 60-day expiration setting for *all* newly created T
 
 **How can end users modify the expiration date?**
 
-    1.  Anyone who has edit and delete permissions on a TMR can modify the expiration date in the file’s details pane in ODSP.
+ Anyone who has edit and delete permissions on a TMR can modify the expiration date in the file’s details pane in Microsoft OneDrive and SharePoint.
 
     2.  The user can defer the expiration 14, 30, or 60 days, or they can choose a specific date in the future, or they can select that the file never be expired.
 
