@@ -32,7 +32,7 @@
               href: ../hybrid/cloud-consolidation-disabling-hybrid.md
             - name: Update DNS entries
               href: ../hybrid/decommission-manage-dns-entries.md
-            - name: Manage attributes after moving users
+            - name: Decide how to manage attributes after decommissioning
               href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: Move application endpoints to the cloud
           href: ../hybrid/decommission-move-on-prem-endpoints.md

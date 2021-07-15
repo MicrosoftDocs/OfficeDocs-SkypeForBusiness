@@ -20,10 +20,10 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-description: "This article describes how to manage attributes after moving users to the cloud."
+description: "This article describes how to manage attributes after decommissioning your on-premises environment."
 ---
 
-# Manage attributes after moving users from on-premises to the cloud
+# Decide how to manage attributes after decommissioning
 
 By default, all users that were previously enabled for Skype for Business Server and subsequently moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory. 
 
