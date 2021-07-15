@@ -38,6 +38,7 @@ You can get a better understanding of the modes that are available to you by rea
 1. In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), in the left navigation, go to **Org-wide settings** > **Teams upgrade**. 
 
 2. At the top of the **Teams upgrade** page, modify the following options as desired.
+
     - Set the **Coexistence** mode.
         - **Islands** - Use this setting if you want users to be able to use both Skype for Business and Teams simultaneously.
         - **Skype for Business only** - Use this setting if you want your users to only use Skype for Business.
@@ -45,18 +46,21 @@ You can get a better understanding of the modes that are available to you by rea
         - **Skype for Business with Teams collaboration and meetings** - Use this setting if you want your users to use Skype for Business in addition to using Teams for group collaboration (channels) and Teams meetings.
         - **Teams only** - Use this setting if you want your users to use only Teams. Note that even with this setting, users can still join meetings hosted in Skype for Business.
 
-> [!IMPORTANT]  You can only assign TeamsOnly mode to the entire tenant after both of the following steps ahve been completed:
->  - All on-premises users have been moved to Teams Only using Move-CsUser in the Skype for Business Server on-premises toolset.
->  - You have updated any Skype for Business DNS records to point to Microsoft 365. 
->
-> For more detail, see [Disable your hybrid configuration to complete migration to Teams Only](SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid).
-
+          > [!IMPORTANT]
+          > You can only assign TeamsOnly mode to the entire tenant after both of the following steps ahve been completed:
+          >  - All on-premises users have been moved to Teams Only using Move-CsUser in the Skype for Business Server on-premises toolset.
+          >  - You have updated any Skype for Business DNS records to point to Microsoft 365. 
+          >
+          > For more detail, see [Disable your hybrid configuration to complete migration to Teams Only](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid).
         
     - Set **Notify Skype for Business users that Teams is available for upgrade**. If you turn this on, it will tell the Skype for Business users that they will soon be upgraded to the Teams app.
+
     - Set the **Preferred app for users to join Skype for Business meetings**. This setting determines which app is used for joining Skype for Business meetings and is honored regardless of the value of coexistence mode.
       - **Skype Meetings app**
       - **Skype for Business with limited features**
+
     - Set whether to **Download the Teams app in the background for Skype for Business users**.  This setting silently downloads the Teams app for users running Skype for Business on Windows. It is honored only if coexistence mode for the user is Teams only or if notifications of pending upgrade are enabled in Skype for Business.
+
 3. Click **Save** after you make your changes.
 
 ## Set upgrade options for a single user in your organization
@@ -82,4 +86,4 @@ You can get a better understanding of the modes that are available to you by rea
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 
-[Decommission your on-premises Skype for Business environment](skypeforbusiness/hybrid/decommission-on-prem-overview)
+[Decommission your on-premises Skype for Business environment](/skypeforbusiness/hybrid/decommission-on-prem-overview)
