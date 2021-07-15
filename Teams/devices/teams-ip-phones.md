@@ -164,7 +164,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 2021 Update #2A | July 15th, 2021  |1449/1.0.97.2021070803|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
+| 2021 Update #2A | July 15th, 2021  |1449/1.0.96.2021070803|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | 2021 Update #2 | June 28th, 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | 2021 Update #1A  |May 12, 2021  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | 2021 Update #1  |April 5th, 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
