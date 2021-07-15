@@ -31,7 +31,7 @@ These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and po
 
 There are two options available for handling this situation:
 
-1. Leave users that were enabled for Skype for Business server accounts as is, and manage the  msRTCSIP attributes using Active Directory tools. This ensures no loss of service for migrated users, and allows you to easily remove the Skype for Business Server deployment by eliminating (e.g. wiping) the servers, without a full decommissioning. However, newly licensed users will not have these attributes populated in your on-premises Active Directory and will need to be managed online.
+1. Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. This ensures no loss of service for migrated users, and allows you to easily remove the Skype for Business Server deployment by eliminating (e.g. wiping) the servers, without a full decommissioning. However, newly licensed users will not have these attributes populated in your on-premises Active Directory and will need to be managed online.
 
 2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. This method allows for a consistent management approach for existing and new users, however it may potentially result in a temporary loss of service during the on-premises decommissioning process.
 

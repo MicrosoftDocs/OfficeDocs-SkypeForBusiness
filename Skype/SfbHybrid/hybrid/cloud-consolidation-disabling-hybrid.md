@@ -38,11 +38,12 @@ This article describes how to disable your hybrid configuration before decommiss
 > [!NOTE]
 > Steps 2 and 3 should be done in the same maintenance window because any existing hybrid application endpoints will not be discoverable between steps 2 and completion of step 3.
 
-For information about managing attributes after moving users from on-premises to the cloud, see [Manage attributes](cloud-consolidation-managing-attributes.md).
 
 ## Overview
 
-After you have upgraded all users from Skype for Business on-premises to Teams Only in Microsoft 365, you can decommission the on-premises Skype for Business deployment. Before you decommission the on-premises Skype for Business deployment and remove any hardware, you must logically separate the on-premises deployment from Microsoft 365 by disabling hybrid. Disabling hybrid consists of the following four steps:
+After you have upgraded all users from Skype for Business on-premises to Teams Only in Microsoft 365, you can decommission the on-premises Skype for Business deployment.
+
+Before you decommission the on-premises Skype for Business deployment and remove any hardware, you must logically separate the on-premises deployment from Microsoft 365 by disabling hybrid. Disabling hybrid consists of the following four steps:
 
 1. [Update DNS records to point to Microsoft 365](#update-dns-to-point-to-microsoft-365).
 
@@ -50,12 +51,14 @@ After you have upgraded all users from Skype for Business on-premises to Teams O
 
 3. [Disable shared sip address space (also known as "split domain") in the Microsoft 365 organization](#disable-shared-sip-address-space-in-microsoft-365-organization).
 
-4. [Disable the ability in on-premises to communicate with Microsoft 365](#disable-the-ability-in-on-premises-to-communicate-with-microsoft-365).
+4. [Disable communication between on-premises and Microsoft 365](#disable-communication-between-on-premises-and-microsoft-365.)
 
-These steps logically separate your on-premises deployment of Skype for Business Server from Microsoft 365 and ensure your organization is fully Teams Only. Details for each step are provided in this article. Once that is complete, you can decommission your on-premises Skype for Business deployment by using one of two methods referenced in [Manage attributes](cloud-consolidation-managing-attributes.md).
+Disable communication between on-premises and Microsoft 365
+
+These steps logically separate your on-premises deployment of Skype for Business Server from Microsoft 365 and ensure your organization is fully Teams Only. After you've completed these steps, you can decommission your on-premises Skype for Business deployment by using one of two methods referenced in [Manage attributes](cloud-consolidation-managing-attributes.md).
 
 > [!Important] 
-> Once this logical separation is complete, msRTCSIP attributes from your on-premises Active Directory still have values and will continue to sync via Azure AD Connect into Azure AD. How you decommission the on-premises environment depends on whether you intend to leave these attributes in place, or first clear them from your on-premises Active Directory. Be aware that clearing the on-premises msRTCSIP attributes after you have migrated from on-premises could result in loss of service for users! Details and tradeoffs of the two decommissioning approaches are described later.
+> Once this logical separation is complete, msRTCSIP attributes from your on-premises Active Directory still have values and will continue to sync via Azure AD Connect into Azure AD. How you decommission the on-premises environment depends on whether you intend to leave these attributes in place, or first clear them from your on-premises Active Directory. Be aware that clearing the on-premises msRTCSIP attributes after you have migrated from on-premises could result in loss of service for users! Details and tradeoffs of the two decommissioning approaches are described in [Manage attributes](managing-attributes.md).
 
 ## Update DNS to point to Microsoft 365
 
@@ -83,7 +86,11 @@ For more information about updating DNS records, see [Update DNS entries to enab
 
 ## Change the coexistence mode for your organization to Teams Only
 
-This step ensures that any new user in your organization is always created as a Teams Only user. In addition, attempting to change the tenant mode to Teams Only will automatically check for existence of any on-premises DNS records that may have been missed in step 1 and identify these records in the output.  Changing the tenant mode to Teams Only will not succeed until all DNS records for your organizaiton are updated. To change the tenant mode to Teams Only run the following command from a Teams PowerShell window.
+This step ensures that any new user in your organization is always created as a Teams Only user. 
+
+Attempting to change the tenant mode to Teams Only will automatically check for existence of any on-premises DNS records that may have been missed in step 1 and identify these records in the output. Changing the tenant mode to Teams Only will not succeed until all DNS records for your organization are updated. 
+
+To change the tenant mode to Teams Only run the following command from a Teams PowerShell window.
 
 ```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global
@@ -93,15 +100,15 @@ Alternatively, you can use the Teams Admin Center to change the tenant coexisten
 
 ## Disable shared sip address space in Microsoft 365 organization
     
-The command below needs to be done from a Teams PowerShell window.
+To disable shared sip address space, run the following command from a Teams PowerShell window.
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
 ```
  
-## Disable the ability in on-premises to communicate with Microsoft 365
+## Disable communication between on-premises and Microsoft 365
 
-The command below needs to be done from an on-premises PowerShell window:
+To disable communication between the on-premises environment and Microsoft 365, run the following command from an on-premises PowerShell window:
 
 ```PowerShell
 Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
