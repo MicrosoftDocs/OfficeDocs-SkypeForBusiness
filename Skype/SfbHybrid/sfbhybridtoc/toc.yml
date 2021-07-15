@@ -28,7 +28,7 @@
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: Disable hybrid to complete migration to Teams Only
           items:
-            - name: Overview of steps
+            - name: Disable hybrid to complete migration to Teams Only
               href: ../hybrid/cloud-consolidation-disabling-hybrid.md
             - name: Update DNS entries
               href: ../hybrid/decommission-manage-dns-entries.md
