@@ -53,7 +53,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>3</sup> Retention will use a shadow mailbox for the online user to store messages.
 
-<sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
+<sup>4</sup> Teams Only users with on-premises Exchange mailbox may use cloud voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
 <sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, even if their mailboxes are homed on-premises.
 
