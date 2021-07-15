@@ -39,7 +39,7 @@ This article describes how to disable your hybrid configuration before decommiss
 > Steps 2 and 3 should be done in the same maintenance window because any existing hybrid application endpoints will not be discoverable between steps 2 and completion of step 3.
 
 
-## Overview
+## Summary
 
 After you have upgraded all users from Skype for Business on-premises to Teams Only in Microsoft 365, you can decommission the on-premises Skype for Business deployment.
 
@@ -62,27 +62,11 @@ These steps logically separate your on-premises deployment of Skype for Business
 
 ## Update DNS to point to Microsoft 365
 
-The organization’s external DNS for the on-premises organization needs to be updated so that Skype for Business records point to Microsoft 365 instead of the on-premises deployment. Specifically:
-
-|Record type|Name|TTL|Priority|Weight|Port|Value|
-|---|---|---|---|---|---|---|
-|SRV|_sipfederationtls._tcp|3600|100|1|5061|sipfed.online.lync.<span>com|
-|SRV|_sip._tls|3600|100|1|443|sipdir.online.lync.<span>com|
-|CNAME|	lyncdiscover|	3600| | | |webdir.online.lync.<span>com|
-|CNAME|	sip|	3600| | | |	sipdir.online.lync.<span>com|
+The organization’s external DNS for the on-premises organization needs to be updated so that Skype for Business records point to Microsoft 365 instead of the on-premises deployment. 
 
 In addition, CNAME records for meet or dialin (if present) can be deleted. Finally, any DNS records for Skype for Business in your internal network should be removed.
 
-> [!Note] 
-> In rare cases, changing DNS from pointing on premises to Microsoft 365 for your organization may cause federation with some other organizations to stop working until that other organization updates their federation configuration:
->
-> - Any federated organizations that are using the older Direct Federation model (also known as Allowed Partner Server) will need to update their allowed domain entries for their organization to remove the proxy FQDN. This legacy federation model is not based on DNS SRV records, so such a configuration will become out of date once your organization moves to the cloud.
-> 
-> - Any federated organization that does not have an enabled hosting provider for sipfed.online.lync.<span>com will need to update their configuration to enable that. This situation is only possible if the federated organization is purely on-premises and has never federated with any hybrid or online tenant. In such a case, federation with these organizations will not work until they enable their hosting provider.
->
-> If you suspect that any of your federated partners may be using Direct Federation or have not federated with any online or hybrid organization, we suggest you send them a communication about this as you prepare to complete your migration to the cloud.
-
-For more information about updating DNS records, see [Update DNS entries to enable your organization to be all Teams Only](decommission-manage-dns-entries.md).
+For details about updating DNS records, see [Update DNS entries to enable your organization to be all Teams Only](decommission-manage-dns-entries.md).
 
 ## Change the coexistence mode for your organization to Teams Only
 

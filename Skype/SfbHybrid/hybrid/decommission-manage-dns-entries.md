@@ -28,6 +28,14 @@ When attempting to grant TeamsOnly to the entire tenant, Teams will check DNS to
 
 Furthermore, these records must be updated so that you can grant TeamsOnly to the entire tenant.
 
+> [!Note] 
+> In rare cases, changing DNS from pointing on premises to Microsoft 365 for your organization may cause federation with some other organizations to stop working until that other organization updates their federation configuration:
+>
+> - Any federated organizations that are using the older Direct Federation model (also known as Allowed Partner Server) will need to update their allowed domain entries for their organization to remove the proxy FQDN. This legacy federation model is not based on DNS SRV records, so such a configuration will become out of date once your organization moves to the cloud.
+> 
+> - Any federated organization that does not have an enabled hosting provider for sipfed.online.lync.<span>com will need to update their configuration to enable that. This situation is only possible if the federated organization is purely on-premises and has never federated with any hybrid or online tenant. In such a case, federation with these organizations will not work until they enable their hosting provider.
+>
+> If you suspect that any of your federated partners may be using Direct Federation or have not federated with any online or hybrid organization, we suggest you send them a communication about this as you prepare to complete your migration to the cloud.
 
 ## How to identify stale DNS records
 
@@ -51,5 +59,7 @@ In each domain where you find any of the following records, update them as follo
 | CNAME	| lyncdiscover |	3600 |	N/A |	N/A | 	N/A |	webdir.online.lync.com |
 | CNAME |	sip	| 3600 |	N/A |	N/A	 | N/A | 	sipdir.online.lync.com |
 |||||||
+
+
 
 
