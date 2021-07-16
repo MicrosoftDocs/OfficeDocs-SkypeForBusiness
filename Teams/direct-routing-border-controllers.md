@@ -42,7 +42,7 @@ If you have any questions about the SBC certification program for Direct Routing
 
 ## Certified SBC vendors
 
-|                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | 911 Service Provider Capable* | ELIN capable
+|                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | 911 Service Provider Capable* | ELIN capable |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Supported 7.20A.250 (Recommended 7.20A.258)   | &#10004;   |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.250 (Recommended 7.20A.258)   | &#10004;   |  &#10004;  |
