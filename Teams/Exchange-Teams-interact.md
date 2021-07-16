@@ -37,7 +37,8 @@ Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure
 Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section are met.
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
-
+ > [!NOTE]
+ > Profile picture change is not supported for shared mailboxes.
 **Actions supported:**
 
 | User's mailbox is hosted in:                                        | eDiscovery       | Legal&nbsp;Hold    | Retention  | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail  | Add and configure connectors | Add and configure tabs | Add and configure bots |
