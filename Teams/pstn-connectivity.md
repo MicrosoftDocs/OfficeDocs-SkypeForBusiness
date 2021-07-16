@@ -162,9 +162,9 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 
 - For information about managing phone numbers for Calling Plan, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- For information about managing phone numbers for Direct Routing, see [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
-
 - For information about managing phone numbers with Operator Connect, see [Set up phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
+
+- For information about managing phone numbers for Direct Routing, see [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
 
 ### Call routing and dial plans
@@ -173,9 +173,9 @@ How you configure call routing differs depending on your PSTN connectivity optio
 
 - For Calling Plans, most of call routing is handled by the Microsoft Calling Plan infrastructure. You configure user dial plans for purposes of number translation for call authorization and call routing. For more information, see [What are dial plans?](what-are-dial-plans.md).
 
-- For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
-
 - For Operator Connect, most of call routing is managed by the carrier.  You configure user dial plans for purposes of number translation for call authorization and call routing. For more information, see [What are dial plans?](what-are-dial-plans.md).
+
+- For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
 
 
 ### Location-Based Routing for Direct Routing
@@ -195,9 +195,9 @@ How you configure emergency calling differs depending on your PSTN connectivity 
 
 - For Calling Plan, each user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported.  
 
-- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. Registered emergency locations are not supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity.
-
 - For Operator Connect, each user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number but can only be set by the carrier partner. Dynamic emergency calling (based on the location of the Teams client) is supported.
+
+- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. Registered emergency locations are not supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity.
 
 For more information about emergency calling concepts and terminology, and how to configure emergency calling and dynamic emergency calling, see the following articles:
 
