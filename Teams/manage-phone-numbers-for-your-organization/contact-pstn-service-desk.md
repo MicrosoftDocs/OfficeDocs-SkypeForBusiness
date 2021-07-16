@@ -1,7 +1,7 @@
 ---
 title: "Contact the PSTN service desk"
-author: TonySmit
-ms.author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
@@ -25,34 +25,177 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "When you get phone numbers or port (transfer) numbers for your organization, you might need to get help and support at the PSTN service desk."
 ---
 
-# PSTN Service Desk contact information
+# PSTN Service Desk 
 
-To contact the PSTN Service Desk team, send email to the appropriate alias listed in the following table.
-
-> [!NOTE]
-> Coming soon, there will be a new process to interact with the PSTN service desk. At that time, the current email system will be retired. The new process will allow you to open tickets, track your communication, and view your company tickets all in a single place that is integrated with the Teams Admin Center. More updates will follow over the coming weeks.
-<br>
-
-| **I want to transfer/port existing numbers**  | **I want to order new numbers for** |
-|:-----:|:------:|
-| [**Inside the United States or Canada**, email us at ptn@microsoft.com](mailto:ptn@microsoft.com)| [**Belgium, France, Germany, Great Britain, Ireland, Netherlands, Spain, Sweden, Switzerland**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
-|[**Outside the United States or Canada**, email us at ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Rest of the World**, email us at gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
-|Due to a large spike in incoming requests, the **North America porting team** is backlogged. We are working to clear this backlog on a FIFO (First In, First Out) basis, and as a result **our response to new requests will be delayed.**|Due to a large spike in incoming requests, the **EU porting team** is backlogged. We are working to clear this backlog on a FIFO (First In, First Out) basis, and as a result **our response to new requests will be delayed.**|
+There is a new process to interact with the PSTN service desk. You can now open tickets, track your communication, and view your company tickets all in a single place that is integrated with the Teams Admin Center. This article describes everything you need to know to contact the service desk.
 
 > [!NOTE]
-> North America responses might be delayed because of a large increase in incoming requests. The backlog is being cleared out on a FIFO (First In, First Out) basis.
+> As of DATE HERE, the current email system has been retired.
 
-## Transfer or port your existing phone numbers to Microsoft Teams
-Send email to the appropriate email alias from the above table. Include as many details as possible, such as:
-  - Your [Organization ID (Tenant ID) or currently active Microsoft domains](/onedrive/find-your-office-365-tenant-id).
-  - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
-  - Other important details based on your request.
+To contact the service desk:
 
-## Get new phone numbers for Microsoft Teams
-Send email to the appropriate email alias from the above table. Include as many details as possible, such as:
-  - Your [Organization ID (Tenant ID) or currently active Microsoft domains.](/onedrive/find-your-office-365-tenant-id)
-  - The types of phone numbers that you need assistance with; such as user, service toll, or service toll-free.
-  - The number of phone numbers that you need, and  the area code(s), or country or region, from which you want the new phone numbers to originate.
+1. Login to your Teams Admin Center – admin.teams.microsoft.com  
+
+2. Go to the Phone numbers page.
+
+3. Select **Get phone number support** at the top of the page. You will now see the Phone Number Service Center.  
+
+> [!NOTE]
+> If your tenant domain is @contoso.com, then only someone from the same tenant will be allowed to create a case. That is, someone from @xyz.com cannot create a case on behalf of @contoso.com. 
+
+From the Phone Number Service Center, you can create new cases, view existing cases, and communicate with the service desk. The following lists the tasks available to you:
+
+- **Phone Number Service Center** – Navigate to Portal home page. 
+
+- **Create a new case** – Submit a new request or general enquiry. This is covered in more detail below. 
+
+- **View my existing cases** – Track and monitor your existing case(s). 
+
+- **View my company cases** – Track and monitor your company’s existing case(s). If your colleagues from your company have opened any cases, you can look those up in this view.  
+
+- **Give feedback**– Share your feedback with us. 
+
+- **User Name** – Update your profile page. 
+
+
+## Create a new case
+
+To creat a new case, follow these steps:
+
+1. Select **Create a new case** from any of the following places:  
+
+  - From the **Phone Number Service Center** page, at the top of the page or at the bottom tile.
+
+  - From  the **View my existing cases**  page.
+
+  - From  the **View my company cases** page.
+
+2. Provide your case details as described in detail in the [next section](#provide-case-details).
+
+3. After entering all the values, click submit. You will be taken to a new screen where you can see your case number.  
+
+### Provide case details
+
+To understand case details, Microsoft needs the following information:
+
+- [Case category](#case-category)
+- [Country](#country)
+- [Case type](#case-type)
+- [Case title](#case-title)
+- [Additional contacts for notifications](#additional-contacts-for-notifications)
+- [Description](#description)
+- [Additional supporting documents](#additional-supporting-documents)
+
+#### Case category
+
+A case can have one of two categories: 
+
+- **Submit a new request**- Choose this category if you want to submit a new request. For example, you want to submit a port request or you want to purchase phone numbers from Microsoft.  
+
+- **General enquiry** - You are not sure of the request that you want to make, but you have questions that will help you finalize your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers. 
+
+#### Country
+
+Select the country for which you are raising this case. A case can only have one country selected. If you have requests for multiple countries, please open one case per country.  
+
+#### Case type
+
+The options for case type are:
+
+- **Custom Calling Name (US Only)** - Set a custom calling name on your Microsoft phone numbers. This is applicable to United States phone numbers only. 
+
+  - **Custom calling name to set (15 chars only)** - The custom calling name that you want to set. Max limit of 15 characters.  
+
+  - **List of phone numbers** - The list of phone numbers for which you want to set a custom calling name value. Upload a csv file with the list of phone numbers.  
+
+- **Inter tenant port** – Move phone numbers from one tenant to another. For example, you have two different tenants within Microsoft, and you want to move your phone numbers from one tenant to the other.  
+
+  - **Source tenant domain name** - The tenant from which you want to move phone numbers to a different tenant.  
+
+  - **Source tenant unique identifier** - The tenant ID for the source tenant. This is an optional field.  
+
+  - **Destination tenant domain name** - The tenant to which you want to move phone numbers to.  
+
+  - **Destination tenant unique identifier** - The tenant ID for the destination tenant. This is an optional field.  
+
+  - **Requested Date time** The date/time on which you want your numbers moved from the source tenant to the destination tenant. 
+
+  - **List of phone numbers** - The list of phone numbers that you want to move from the source tenant to the destination tenant. Upload a csv file with the list of phone numbers. 
+
+- **Inventory Type Change** – Change the type of phone number(s). For example, you want to change your Microsoft subscriber numbers to service numbers. For more information, see [Types of phone numbers](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+
+  - **Convert to** - Select to convert your numbers to user numbers or to service numbers. 
+
+  - **Preferred Datetime** - The date/time on which you want the inventory type of your numbers to be changed. 
+
+  - **Checkbox – I understand that to be able to update the inventory type, my phone numbers need to be unassigned** - Microsoft cannot process inventory type change requests unless the phone numbers within your tenant are not assigned. If you are requesting this for a future date, then you will need to ensure that the numbers are unassigned before your requested date/time. 
+
+  - **List of phone numbers** - The list of phone numbers whose inventory type you want changed. Upload a csv file with the list of phone numbers. 
+
+- **New TN Acquisition** – Purchase new phone numbers from Microsoft.  
+
+  - **Number Type** - Select the type for your numbers. See [Types of phone numbers](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+
+  - **Tried to get phone numbers from the Teams Admin Center Portal** - Have you tried purchasing these phone numbers from the Microsoft Teams Admin Center portal, where you can self-serve?  
+
+  - **Quantity of phone numbers required** - The count of phone numbers that you want to purchase.  
+
+  - **State/Province** - The state/province within your country for which you want phone numbers.  
+
+  - **City** - The city within the state/province for which you want phone numbers.  
+
+  - **Office address** - This is specific to certain countries only. This is the site address of your office.  
+
+  - **Directory listing** - This is specific to certain countries only. Do you want to publish your company information with the phone numbers?  
+
+- **Port in** – Port existing phone numbers from your current service provider to Microsoft.  
+
+  - **Name your port order** - Provide an easy-to-remember name for your port request. 
+
+  -  **Requested porting date/time** - The date and time on which you want the numbers to port over to Microsoft. Please note that this is not a guaranteed porting date, since the current number owner has to approve our port request first.  
+
+  - **List of porting numbers** - The list of phone numbers that you would like to port to Microsoft. Upload a csv file with the list of phone numbers. 
+
+  - **Letter of authorization (LOA)** - Attach a signed and filled out LOA here. We cannot process a port request without a LOA.  
+
+- **Address Update** – Update emergency calling address: NOTE: This applies to select countries only. 
+
+  - **Location id** - The location Id for your emergency address. 
+
+  - **List of phone numbers** - The list of phone numbers for which you want to change the emergency address (enter your desired address in the Description field). Upload a csv file with the list of phone numbers. 
+
+
+
+If you select Country = France, date = 8/14/2021 and time = 10am, then the request will be executed on 8/14/2021 at 10 a.m. French time. 
+
+#### Case title
+
+Enter a title that summarizes your ask.  
+
+#### Additional contacts for notifications
+
+The list of people who will receive automated status notifications from Microsoft. 
+For example, you want to place a port-in order and you want two other colleagues in addition to yourself to receive automated status notifications. You would provide the email addresses of your colleagues in the “Notification emails” section. This information is optional. 
+
+#### Description
+
+Describe what you are trying to achieve and what your question for the Microsoft PSTN Service desk is.  
+
+#### Aditional supporting documents
+
+Upload any additional documents for your case.  
+
+
+## View existing cases
+
+You can view your cases under **View my existing cases** by clicking on the case number. Clicking on a case number will redirect you to the case details.  
+
+You can filter your cases by selecting **Open cases**,  **All cases**, or **Closed cases**.
+
+
+
+
+
 
 ## Additional resources
 
