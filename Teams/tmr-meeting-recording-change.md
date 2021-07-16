@@ -156,9 +156,9 @@ Closed captions for Teams meeting recordings will be available during playback o
 
 Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there. 
 
-Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
+Today closed captions for the recording video file are linked to the Teams meeting transcript. This link will remain for the lifetime of the file in most cases, but can be sometimes be broken for example if the video file is copied within the same OneDrive or SharePoint site, which would result in captions not being available on the new recording video file.
 
-Closed captions aren't fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive for Business or SharePoint.
+Any future changes will be clarified here and in message center notifications, and will ensure recording files less than 60 days old display the transcript from the meeting as captions throughout any migration period.
 
 > [!NOTE]
 > There will be English-only closed captions (meeting transcription is not yet available in GCC).
