@@ -37,9 +37,10 @@ To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
+- [**Operator Connect**](#phone-system-with-operator-connect), which is currently available only in **public preview.**  With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
+
 - [**Direct Routing**](#phone-system-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System.
 
-- [**Operator Connect**](#phone-system-with-operator-connect), which is currently available only in **public preview.**  With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration.
 
@@ -74,6 +75,19 @@ For more information about Calling Plan, see the following articles:
 - [How to buy a Calling Plan](calling-plans-for-office-365.md)
 - [Country and region availability for Calling Plan](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Set up Calling Plan](set-up-calling-plans.md)
+
+
+## Phone System with Operator Connect
+
+With Operator Connect, currently in public preview, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your carrier manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
+
+Operator Connect might be the right solution for your organization if:
+
+- Microsoft Calling Plan isn't available in your geographic location.
+- Your preferred carrier is a participant in the Microsoft Operator Connect program.
+- You want to find a new carrier to enable calling in Teams.
+
+For information on the benefits and requirements of Operator Connect, and for a list of carriers participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
 
 
 ## Phone System with Direct Routing
@@ -117,23 +131,21 @@ For more information about Direct Routing, see the following articles:
 - [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 
 
-## Phone System with Operator Connect
-
-With Operator Connect, currently in public preview, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your carrier manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
-
-Operator Connect might be the right solution for your organization if:
-
-- Microsoft Calling Plan isn't available in your geographic location.
-- Your preferred carrier is a participant in the Microsoft Operator Connect program.
-- You want to find a new carrier to enable calling in Teams.
-
-For information on the benefits and requirements of Operator Connect, and for a list of carriers participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
 
 ## Configuration considerations
 
 Most Phone System features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
 
 There are some differences in functionality, however, that affect how you configure certain Phone System features. For example, Direct Routing requires additional steps to configure call routing. As another example, Direct Routing provides Location-Based-Routing (LBR)--so that you can restrict toll bypass in certain geographic locations where it is not allowed. 
+
+The following table highlights the primary configuration differences. The sections that follow the table provide links to more information and details.
+
+| Option | Description | Phone number management | Call routing | Emergency calling availability |
+| :------------| :-------| :-------| :-------| :-------| 
+| Calling Plans | -Microsoft acts as PSTN carrier.<br>-You do not need to buy or manage SBCs.| Obtained through Microsoft.| -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br> -Admin registers addresses. <br> -Dynamic calling supported. |
+| Operator Connect | -Carrier manages PSTN connectivity and SBCs. <br> -You do not need to buy or manage SBCs. | Obtained through carrier. <br> - Numbers associated with emergency addresses managed by carrier.	| -Managed by carrier. <br>-Admin configures user dial plans for number translation. | -Enabled by carrier. <br> -Admin registers addresses. <br> -Dynamic calling supported. |
+|Direct Routing | -Connect your SBC to Phone System.<br> -Use your existing PSTN carrier. | Obtained through carrier. | -Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <br>-LBR available to restrict toll bypass. | -Requires extra configuration by admin. <br>-Registered addresses not supported. <br>-Dynamic calling supported but requires additional configuration. |
+|||||
 
 
 ### Phone number management
