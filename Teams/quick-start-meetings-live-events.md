@@ -43,8 +43,8 @@ The following table briefly summarizes the three types of meetings, the number o
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* <br> | -Participants up to 1000 have fully interactive equal meeting capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
-| Webinars | Up to 20,000* |-Participants up to 1000 have fully interactive capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  <br> -Audience interaction configurable <br> -Can specify presenters | Yes |
+| Meetings  | Up to 20,000* <br> | -Participants up to 1,000 have fully interactive equal meeting capabilities <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
+| Webinars | Up to 20,000* |-Participants up to 1,000 have fully interactive capabilities <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  <br> -Audience interaction configurable <br> -Can specify presenters | Yes |
 | Live events | Up to 20,000** |-Broadcast to large audiences <br>-Moderated Q&A for audience interaction <br> -Can specify producers and presenters, including external presenters<br>-Supports more advanced production capabilities | No |
 ||||
 
@@ -60,7 +60,7 @@ Note that NDI is fully supported in meetings, webinars, and live events, allowin
 
 ### Meetings
 
-**Meetings** in Teams include audio, video, and screen sharing for up to 1000 people and [view-only capabilities](view-only-meeting-experience.md) for participants over 1000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
+**Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people and [view-only capabilities](view-only-meeting-experience.md) for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
 
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
 
@@ -113,7 +113,7 @@ The following table lists training available to the end users in your organizati
 
 #### Articles for administrators
 
-The following table hightights key articles that you'll want to review:
+The following table highlights key articles that you'll want to review:
 
 | Article | Description | 
 |----------|--------|
@@ -141,7 +141,7 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 
 You can add meetings apps to your Teams deployment by using the apps provided with Teams,  using certified third-party apps and templates, and creating your own custom apps. 
 
-The following table lists articles for more information
+The following table lists articles for more information:
 
 | Article | Description | 
 |----------|--------|
