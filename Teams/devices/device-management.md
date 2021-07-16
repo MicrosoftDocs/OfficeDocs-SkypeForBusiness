@@ -89,7 +89,7 @@ Use configuration profiles to manage settings and features for different Teams d
 
 To create a configuration profile for a Teams device type:
 
-1. In the left navigation, go to **Devices** > select the Teams device type > **Configuration profiles**. For example, select **Devices** > **Teams panels** > **Configuration profiles** to create a new configuration profile for Teams panels.
+1. In the left navigation, go to **Devices** > select the Teams device type > **Configuration profiles** tab. For example, select **Devices** > **Teams panels** > **Configuration profiles** tab to create a new configuration profile for Teams panels.
 2. Click **Add**.
 3. Enter a name for the profile and optionally add a friendly description.
 4. Specify the settings you want for the profile, and then click **Save**.
