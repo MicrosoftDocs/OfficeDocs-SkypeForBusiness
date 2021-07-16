@@ -1,7 +1,7 @@
 ---
 title: Quick start - Meetings, webinars, and live events
 ms.reviewer: 
-description: A quick start guide for administrators to get licenses for, roll out, and configure  meetings, webinars, and live events in Microsoft Teams.
+description: A quick start guide for administrators to roll out and configure  meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
 author: CarolynRowe
 ms.author: crowe
@@ -34,7 +34,7 @@ This article, intended for administrators and IT Pros, briefly describes the dif
 
 ## Meetings, webinars, and live events
 
-[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events are a type of meeting that provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
 The different types of meetings also have different participant limits and participant capabilities. 
 
@@ -43,17 +43,19 @@ The following table briefly summarizes the three types of meetings, the number o
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | -Up to 20,000* <br> | -Participants up to 1000 have fully interactive equal meeting capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
-| Webinars | Up to 20,000* |-Participants up to 1000 have fully interactive capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  <br> -Audience interaction configurable <br> -Can specify presenters and moderators | Yes |
-| Live events | Up to 20,000** |-Broadcast to large audiences <br>-Moderated Q&A for audience interaction <br> -Can specify presenters, including external presenters<br>-Supports more advanced production capabilities | No |
+| Meetings  | Up to 20,000* <br> | -Participants up to 1000 have fully interactive equal meeting capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
+| Webinars | Up to 20,000* |-Participants up to 1000 have fully interactive capabilities <br> -Participants over 1000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  <br> -Audience interaction configurable <br> -Can specify presenters | Yes |
+| Live events | Up to 20,000** |-Broadcast to large audiences <br>-Moderated Q&A for audience interaction <br> -Can specify producers and presenters, including external presenters<br>-Supports more advanced production capabilities | No |
 ||||
 
 *The usual 10,000 is increased to 20,000 through December 31, 2021.<br>
-**The usual 10,000 is increased to 20,000 through December 31, 2021. Note that you can schedule even greater numbers with Live Events through Yammer and/or Microsoft Stream. For more information, see [NEED LINK HERE].
+**The usual 10,000 is increased to 20,000 through December 31, 2021. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](https://docs.microsoft.com/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](https://docs.microsoft.com/stream/live-events-assistance). 
+
+For the best experience in large meetings, Microsoft recommends using the Teams desktop client or Teams mobile clients; presenters should use the Teams desktop client. For more tips on hosting large meetings, see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
 For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
-Note that NDI is fully supported in meetings, webinars, and live events allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 ### Meetings
 
@@ -61,11 +63,11 @@ Note that NDI is fully supported in meetings, webinars, and live events allowing
 
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
 
-In addition to regularly-scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
+In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
 #### Articles for administrators
 
-The following table hightlights key articles that you'll want to review:
+The following table highlights key articles that you'll want to review:
 
 | Article | Description | 
 |----------|--------|
@@ -100,7 +102,7 @@ The following table lists training available to the end users in your organizati
 | Training | Description | 
 |----------|--------|
 | [Get started with Teams webinars](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | A quick training video for users who are new to Teams webinars. |
-| [Visual quick start guide](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that descries how to start scheduling webinars.  |
+| [Visual quick start guide](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that describes how to start scheduling webinars.  |
 ||
 
 
@@ -110,13 +112,13 @@ The following table lists training available to the end users in your organizati
 
 #### Articles for administrators
 
-The following table hightlights key articles that you'll want to review:
+The following table hightights key articles that you'll want to review:
 
 | Article | Description | 
 |----------|--------|
 | [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)  | A quick introduction to live events. |
 | [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md) | What you need to know before configuring live events. |
-| [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md) | Describes prerequisities such as network planning. |
+| [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md) | Describes prerequisites such as network planning. |
 | [Configure live events](teams-live-events/configure-teams-live-events.md) | Steps for configuring live events.
 ||
 
@@ -136,7 +138,7 @@ To produce larger scale virtual events, review the [Virtual Event Guide](https:/
 
 Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 
-You can add meetings apps to your Teams deployment by using the apps provided with Teams, by using certified third-party apps and templates, and by creating your own custom apps. 
+You can add meetings apps to your Teams deployment by using the apps provided with Teams,  using certified third-party apps and templates, and creating your own custom apps. 
 
 The following table lists articles for more information
 
@@ -150,7 +152,7 @@ The following table lists articles for more information
 
 ## License requirements for meetings, webinars, and live events
 
-Anyone can attend a Teams meeting, webinar, or live event for free -- no license is required. 
+Anyone can attend a Teams meeting, webinar, or live event for free&mdash;no license is required. 
 
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
 
