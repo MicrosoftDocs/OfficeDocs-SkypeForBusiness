@@ -34,16 +34,16 @@ There is a new process to interact with the PSTN service desk. You can now open 
 
 To contact the service desk:
 
-1. Login to your Teams Admin Center – admin.teams.microsoft.com  
+1. Log in to your Teams Admin Center - admin.teams.microsoft.com.
 
-2. Select **Phone numbers**.
+2. In the left-hand pane, select **Phone numbers**.
 
-3. Select **Get phone number support** at the top of the page. You will now see the Phone Number Service Center.  
+3. At the top of the page, select **Get phone number support**. You will see the Phone Number Service Center.  
 
 > [!NOTE]
 > If your tenant domain is @contoso.com, then only someone from the same tenant will be allowed to create a case. That is, someone from @xyz.com cannot create a case on behalf of @contoso.com. 
 
-From the Phone Number Service Center, you can create new cases, view existing cases, and communicate with the service desk. The following lists the tasks available to you:
+From the Phone Number Service Center, you can create new cases, view existing cases, communicate with the service desk, and manage your user profile:
 
 - **Phone Number Service Center** – Navigate to Portal home page. 
 
@@ -62,7 +62,7 @@ From the Phone Number Service Center, you can create new cases, view existing ca
 
 To creat a new case, follow these steps:
 
-1. Select **Create a new case** from any of the following places:  
+1. Select **Create a new case** from one of the following places:  
 
   - From the **Phone Number Service Center** page, at the top of the page or at the bottom tile.
 
@@ -72,7 +72,7 @@ To creat a new case, follow these steps:
 
 2. Provide your case details as described in detail in the [next section](#provide-case-details).
 
-3. After entering all the values, click submit. You will be taken to a new screen where you can see your case number.  
+3. After entering all the values, select **Submit**. You will see a new screen where you can see your case number.  
 
 ### Provide case details
 
@@ -90,21 +90,21 @@ To understand case details, Microsoft needs the following information:
 
 A case can have one of two categories: 
 
-- **Submit a new request**- Choose this category if you want to submit a new request. For example, you want to submit a port request or you want to purchase phone numbers from Microsoft.  
+- **Submit a new request**- Choose this option if you want to submit a new request. For example, you want to submit a port request or you want to purchase phone numbers from Microsoft.  
 
-- **General enquiry** - You are not sure of the request that you want to make, but you have questions that will help you finalize your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers. 
+- **General enquiry** - Choose this option if you have questions that will help you determine your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers. 
 
 #### Country
 
-Select the country for which you are raising this case. A case can only have one country selected. If you have requests for multiple countries, please open one case per country.  
+Select the country for which you are submitting this case. If you have requests for multiple countries, you must open one case per country.  
 
 #### Case type
 
-The options for case type are:
+Case type can be one of the following:
 
 - **Custom Calling Name (US Only)** - Set a custom calling name on your Microsoft phone numbers. This is applicable to United States phone numbers only. 
 
-  - **Custom calling name to set (15 chars only)** - The custom calling name that you want to set. Max limit of 15 characters.  
+  - **Custom calling name to set (15 chars only)** - The custom calling name that you want to set. Name has a maximum limit of 15 characters.  
 
   - **List of phone numbers** - The list of phone numbers for which you want to set a custom calling name value. Upload a csv file with the list of phone numbers.  
 
@@ -118,23 +118,23 @@ The options for case type are:
 
   - **Destination tenant unique identifier** - The tenant ID for the destination tenant. This is an optional field.  
 
-  - **Requested Date time** The date/time on which you want your numbers moved from the source tenant to the destination tenant. 
+  - **Requested Date time** -  The date and time on which you want your numbers moved from the source tenant to the destination tenant. See Date and time.
 
   - **List of phone numbers** - The list of phone numbers that you want to move from the source tenant to the destination tenant. Upload a csv file with the list of phone numbers. 
 
-- **Inventory Type Change** – Change the type of phone number(s). For example, you want to change your Microsoft subscriber numbers to service numbers. For more information, see [Types of phone numbers](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- **Inventory Type Change** – Change the type of phone number(s). For example, you want to change your Microsoft subscriber numbers to service numbers. For more information, see [Types of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
   - **Convert to** - Select to convert your numbers to user numbers or to service numbers. 
 
   - **Preferred Datetime** - The date/time on which you want the inventory type of your numbers to be changed. 
 
-  - **Checkbox – I understand that to be able to update the inventory type, my phone numbers need to be unassigned** - Microsoft cannot process inventory type change requests unless the phone numbers within your tenant are not assigned. If you are requesting this for a future date, then you will need to ensure that the numbers are unassigned before your requested date/time. 
+  - **Checkbox – I understand that to be able to update the inventory type, my phone numbers need to be unassigned** - Microsoft cannot process phone number type change requests unless the phone numbers within your tenant are not assigned. If you are requesting this change for a future date, then you will need to ensure that the numbers are unassigned before your requested date and time. 
 
-  - **List of phone numbers** - The list of phone numbers whose inventory type you want changed. Upload a csv file with the list of phone numbers. 
+  - **List of phone numbers** - The list of phone numbers whose type you want to change. Upload a csv file with the list of phone numbers. 
 
 - **New TN Acquisition** – Purchase new phone numbers from Microsoft.  
 
-  - **Number Type** - Select the type for your numbers. See [Types of phone numbers](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+  - **Number Type** - Select the type for your numbers. See [Types of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
   - **Tried to get phone numbers from the Teams Admin Center Portal** - Have you tried purchasing these phone numbers from the Microsoft Teams Admin Center portal, where you can self-serve?  
 
@@ -152,21 +152,19 @@ The options for case type are:
 
   - **Name your port order** - Provide an easy-to-remember name for your port request. 
 
-  -  **Requested porting date/time** - The date and time on which you want the numbers to port over to Microsoft. Please note that this is not a guaranteed porting date, since the current number owner has to approve our port request first.  
+  -  **Requested porting date/time** - The date and time on which you want the numbers to port to Microsoft. Please note that this is not a guaranteed porting date, since the current number owner has to approve our port request first.  
 
   - **List of porting numbers** - The list of phone numbers that you would like to port to Microsoft. Upload a csv file with the list of phone numbers. 
 
-  - **Letter of authorization (LOA)** - Attach a signed and filled out LOA here. We cannot process a port request without a LOA.  
+  - **Letter of authorization (LOA)** - Attach a signed and filled out LOA here. We cannot process a port request without an LOA.  
 
-- **Address Update** – Update emergency calling address: NOTE: This applies to select countries only. 
+- **Address Update** – Update emergency calling address: Note that this field applies to select countries only. 
 
   - **Location id** - The location Id for your emergency address. 
 
   - **List of phone numbers** - The list of phone numbers for which you want to change the emergency address (enter your desired address in the Description field). Upload a csv file with the list of phone numbers. 
 
-
-
-If you select Country = France, date = 8/14/2021 and time = 10am, then the request will be executed on 8/14/2021 at 10 a.m. French time. 
+***Date and Time.** If you select Country = France, date = 8/14/2021 and time = 10am, then the request will be executed on 8/14/2021 at 10 a.m. French time. 
 
 #### Case title
 
@@ -174,34 +172,30 @@ Enter a title that summarizes your ask.
 
 #### Additional contacts for notifications
 
-The list of people who will receive automated status notifications from Microsoft. 
-For example, you want to place a port-in order and you want two other colleagues in addition to yourself to receive automated status notifications. You would provide the email addresses of your colleagues in the “Notification emails” section. This information is optional. 
+Enter the list of people who will receive automated status notifications from Microsoft. 
+For example, you want to place a port-in order and you want two other colleagues in addition to yourself to receive automated status notifications. Provide the email addresses of your colleagues in the **Notification emails** section. This information is optional. 
 
 #### Description
 
 Describe what you are trying to achieve and what your question for the Microsoft PSTN Service desk is.  
 
-#### Aditional supporting documents
+#### Additional supporting documents
 
 Upload any additional documents for your case.  
-
 
 ## View and manage existing cases
 
 You can view your cases by selecting **View my existing cases** and selecting the case number. Selecting a case number will redirect you to the case details. (You can also view company cases by selecting **View company cases**.)  You can also:
 
-- Filter your cases by selecting **Open cases**,  **All cases**, or **Closed cases**.
+- **Filter your cases** by selecting **Open cases**,  **All cases**, or **Closed cases**.
 
-- Communicate with the PSTN service desk regarding your case by open an existing case and scroll down. Click on the Add comment button. On doing so, a new window will appear. Enter your message in the comment box. Attach any supporting documents (if available) that may assist with your request. Hit Submit.  
+- **Communicate with the PSTN service desk** regarding your case by opening an existing case, scrolling down, and selecting **Add comment**. A new window will appear. Enter your message in the comment box. Attach any supporting documents (if available) that may assist with your request, and select **Submit**.  
 
-Responses from the PSTN service desk will be displayed under the same timeline. Furthermore, whenever there is an update on your case, you will also receive an automated email notification alerting you about said update.  
+  Responses from the PSTN service desk will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update. 
 
-Navigate to an existing case, scroll down, and click on Cancel case- 
-Select a reason for cancellation from the drop-down list and click on Cancel.  
+  - **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then Select **Cancel**.  
 
-If you believe your request has been completed, you can resolve a case yourself by navigating to an existing case, scrolling down and clicking on Resolve case. 
-
-Then click on Close. The case will now show as Resolved – Problem solved.  
+  - **Resolve a case** - If you believe your request has been completed, you can resolve a case yourself by navigating to an existing case, scrolling down, and selecting **Resolve case**. Select **Close**; the case will now show as **Resolved – Problem solved**.  
 
 
 
