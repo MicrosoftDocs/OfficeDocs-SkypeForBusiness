@@ -41,7 +41,7 @@ To contact the service desk:
 3. At the top of the page, select **Get phone number support**. You will see the Phone Number Service Center.  
 
 > [!NOTE]
-> Only someone from the same tenant will be allowed to create a case. That is, someone from @xyz\\.com cannot create a case on behalf of @contoso.com. 
+> Only someone from the same tenant will be allowed to create a case. That is, someone from @fabrikam.com cannot create a case on behalf of @contoso.com. 
 
 From the Phone Number Service Center, you can create new cases, view existing cases, communicate with the service desk, and manage your user profile. These tasks are described in more detail in the following sections.
 
@@ -193,7 +193,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
   Responses from the PSTN service desk will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update. 
 
-- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then Select **Cancel**.  
+- **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**.  
 
 - **Resolve a case** - If you believe your request has been completed, you can resolve a case yourself by navigating to an existing case, scrolling down, and selecting **Resolve case**. Select **Close**; the case will now show as **Resolved – Problem solved**.  
 
