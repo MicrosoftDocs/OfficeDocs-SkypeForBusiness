@@ -41,7 +41,7 @@ To contact the service desk:
 3. At the top of the page, select **Get phone number support**. You will see the Phone Number Service Center.  
 
 > [!NOTE]
-> Only someone from the same tenant will be allowed to create a case. That is, someone from @xyz.com cannot create a case on behalf of @contoso.com. 
+> Only someone from the same tenant will be allowed to create a case. That is, someone from @xyz\\.com cannot create a case on behalf of @contoso.com. 
 
 From the Phone Number Service Center, you can create new cases, view existing cases, communicate with the service desk, and manage your user profile. These tasks are described in more detail in the following sections.
 
