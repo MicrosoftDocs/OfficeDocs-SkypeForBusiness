@@ -195,7 +195,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
 - **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**.  
 
-- **Resolve a case** - If you believe your request has been completed, you can resolve a case yourself by navigating to an existing case, scrolling down, and selecting **Resolve case**. Select **Close**; the case will now show as **Resolved – Problem solved**.  
+- **Resolve a case** - If you believe your request has been completed, you can resolve a case by navigating to an existing case, scrolling down, and selecting **Resolve case**. Select **Close**; the case will now show as **Resolved – Problem solved**.  
 
 
 ## Related topics and additional resources
