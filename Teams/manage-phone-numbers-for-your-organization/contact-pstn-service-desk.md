@@ -27,7 +27,7 @@ description: "When you get phone numbers or port (transfer) numbers for your org
 
 # PSTN Service Desk 
 
-There is a new process to interact with the PSTN service desk. You can now open tickets, track your communication, and view your company tickets all in a single place that is integrated with the Teams Admin Center. This article describes everything you need to know to contact the service desk.
+There is a new process to interact with the PSTN service desk. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. This article describes everything you need to know to contact the service desk.
 
 > [!NOTE]
 > As of DATE HERE, the current email system has been retired.
@@ -36,7 +36,7 @@ To contact the service desk:
 
 1. Login to your Teams Admin Center – admin.teams.microsoft.com  
 
-2. Go to the Phone numbers page.
+2. Select **Phone numbers**.
 
 3. Select **Get phone number support** at the top of the page. You will now see the Phone Number Service Center.  
 
@@ -47,15 +47,15 @@ From the Phone Number Service Center, you can create new cases, view existing ca
 
 - **Phone Number Service Center** – Navigate to Portal home page. 
 
-- **Create a new case** – Submit a new request or general enquiry. This is covered in more detail below. 
+- **[Create a new case](#create-a-new-case)** – Submit a new request or general enquiry. This is covered in more detail below. 
 
-- **View my existing cases** – Track and monitor your existing case(s). 
+- **[View my existing cases](#view-and-manage-existing-cases)** – Track and monitor your existing case(s). 
 
-- **View my company cases** – Track and monitor your company’s existing case(s). If your colleagues from your company have opened any cases, you can look those up in this view.  
+- **[View my company cases](#view-and-manage-existing-cases)** – Track and monitor your company’s existing case(s). If your colleagues from your company have opened any cases, you can look those up in this view.  
 
-- **Give feedback**– Share your feedback with us. 
+- **[Give feedback](#view-and-manage-existing-cases)**– Share your feedback with us. 
 
-- **User Name** – Update your profile page. 
+- **[Your Name]** – Update your profile page. 
 
 
 ## Create a new case
@@ -186,25 +186,36 @@ Describe what you are trying to achieve and what your question for the Microsoft
 Upload any additional documents for your case.  
 
 
-## View existing cases
+## View and manage existing cases
 
-You can view your cases under **View my existing cases** by clicking on the case number. Clicking on a case number will redirect you to the case details.  
+You can view your cases by selecting **View my existing cases** and selecting the case number. Selecting a case number will redirect you to the case details. (You can also view company cases by selecting **View company cases**.)  You can also:
 
-You can filter your cases by selecting **Open cases**,  **All cases**, or **Closed cases**.
+- Filter your cases by selecting **Open cases**,  **All cases**, or **Closed cases**.
+
+- Communicate with the PSTN service desk regarding your case by open an existing case and scroll down. Click on the Add comment button. On doing so, a new window will appear. Enter your message in the comment box. Attach any supporting documents (if available) that may assist with your request. Hit Submit.  
+
+Responses from the PSTN service desk will be displayed under the same timeline. Furthermore, whenever there is an update on your case, you will also receive an automated email notification alerting you about said update.  
+
+Navigate to an existing case, scroll down, and click on Cancel case- 
+Select a reason for cancellation from the drop-down list and click on Cancel.  
+
+If you believe your request has been completed, you can resolve a case yourself by navigating to an existing case, scrolling down and clicking on Resolve case. 
+
+Then click on Close. The case will now show as Resolved – Problem solved.  
 
 
 
 
 
-
-## Additional resources
+## Related topics and additional resources
 
 - For assistance that's related to numbers setup/configuration, licenses, fees, or billing, see [Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
-- For information about the calling plans that are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- For information that can help you select the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- For information about how to set up phone numbers for your organization, see [Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
-## Related topics
+- For information about the calling plans that are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
+- For information that can help you select the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+
+- For information about how to set up phone numbers for your organization, see [Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
