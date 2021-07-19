@@ -28,7 +28,7 @@ This article describes how to move required users to the Microsoft cloud before 
 
 - Step 2. [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- Step 3. [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md).
+- Step 3. [Migrate hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md). Be aware that any existing hybrid application endpoints will not be discoverable between the time you perform Step 2 above until you complete this step. You should plan to do both steps 2 and 3 in the same maintenance window.
 
 - Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 

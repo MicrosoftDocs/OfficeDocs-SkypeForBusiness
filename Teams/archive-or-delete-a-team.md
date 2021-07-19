@@ -21,8 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Archive or delete a team in Microsoft Teams
-===========================================
+# Archive or delete a team in Microsoft Teams
 
 Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project. If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed.
 
@@ -109,3 +108,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
     ```
 
     It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.
+    
+## Related topics
+
+- [Archive or restore a team](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 

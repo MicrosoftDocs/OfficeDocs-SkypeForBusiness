@@ -26,9 +26,6 @@ appliesto:
 
 # Overview of teams and channels in Microsoft Teams
 
-> [!NOTE]
-> Review the following information to understand chat, teams, channels, & apps in Teams. Then, go to [Chat, teams, channels, & apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) to walk through a list of decisions important to your Teams rollout.
-
 Let’s get started by thinking about how Microsoft Teams allows individual teams to self-organize and collaborate across business scenarios:
 
 - **Teams** are a collection of people, content, and tools surrounding different projects and outcomes within an organization.
@@ -36,7 +33,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
     - Teams can be created to be private to only invited users.
     - Teams can also be created to be public and open and anyone within the organization can join (up to 10,000 members).
     
-    A team is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
+    A team is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital ship room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
 
 - **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team! Files that you share in a channel (on the Files tab) are stored in SharePoint. To learn more, read [How SharePoint Online and OneDrive for Business  interact with Teams](SharePoint-OneDrive-interact.md).
 
@@ -45,21 +42,21 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
     
 For help using teams and channels, check out [Teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-View this short video to learn more about best practices for creating teams and channels.
+View this short video to learn more about best practices for creating teams and channels:
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [TechTip: Guidance for Creating Teams & Channels including Private Channels in Microsoft Teams](https://youtu.be/WkAVgNKn0hs) (21:08 min)
 
 ## Membership, roles, and settings
 
 **Team membership**
 
-When Microsoft Teams is activated for your entire organization, designated team owners can invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings people from outside of your organization can be added to your teams as guests. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
+When Teams is activated for your entire organization, team owners can invite anyone at your organization they work with to join their team. Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings people from outside of your organization can be added to your teams as guests. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
 
-Team owners can also create a team based on an existing Microsoft 365 group. Any changes made to the group will be synced with Microsoft Teams automatically. Creating a team based on an existing Microsoft 365 group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
+Team owners can also create a team based on an existing Microsoft 365 group. Any changes made to the group membership will be synced with Teams automatically.
 
 **Team roles**
 
-There are two main roles in Microsoft Teams: 
+There are two main roles in Teams: 
 
 - **Team owner** - The person who creates the team. Team owners can make any member of their team a co-owner when they invite them to the team or at any point after they’ve joined the team. Having multiple team owners lets you share the responsibilities of managing settings and membership, including invitations.
 - **Team members** - The people who the owners invite to join their team.
@@ -71,23 +68,19 @@ In addition, if moderation is set up, team owners and members can have moderator
 
 **Team settings** 
 
-Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard and [private channels](private-channels.md), adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
+Team owners can manage team-wide settings directly in Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard and [private channels](private-channels.md), adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
-Take three minutes to check out this go-to-guide video for team owners:
+If you are a Teams administrator in Microsoft 365, you have access to system-wide settings in the Teams admin center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions, and resources, which will appear across all teams.
 
-   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
+By default, all users have permissions to create a team. To modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md).
 
-If you are a Microsoft Teams administrator in Microsoft 365 or Office 365, you have access to system-wide settings in the Microsoft Teams admin center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions, and resources, which will appear across all teams.
-
-By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Microsoft 365 group can also enhance their permissions with Teams functionality.
-
-One key early planning activity to engage users with Microsoft Teams is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways. Bring them together in a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
+One key early planning activity to engage users with Teams is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways. Bring them together in a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
 
 ## Example Teams
 
-Below are a few functional examples of how different types of users may approach setting up their teams, channels, and apps (tabs/connectors/bots). This may be useful to help kick off a conversation about Microsoft Teams with your user community. As you think about how to implement Microsoft Teams in your organization, remember that you can provide guidance on how to structure their teams; however, users have control of how they can self-organize. These are just examples to help get teams to start thinking through the possibilities.
+Below are a few functional examples of how different types of users may approach setting up their teams, channels, and apps (tabs/connectors/bots). This may be useful to help kick off a conversation about Teams with your user community. As you think about how to implement Teams in your organization, remember that you can provide guidance on how to structure their teams; however, users have control of how they can self-organize. These are just examples to help get teams to start thinking through the possibilities.
 
-Microsoft Teams is great for breaking down organizational silos and promoting cross-functional teams, so encourage your users to think about functional teams rather than organizational boundaries.
+Teams is great for breaking down organizational silos and promoting cross-functional teams, so encourage your users to think about functional teams rather than organizational boundaries.
 
 |Types of Teams  |Potential Channels  |Apps (Tabs ![An icon depicting a folder with a tab](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![An icon depicting connecting blocks](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![An icon depicting a small robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -98,7 +91,7 @@ Microsoft Teams is great for breaking down organizational silos and promoting cr
 |Technical Operations    |Incident Management<br></br>Sprint Planning<br></br>Work Items<br></br>Infrastructure and Operations         |Team Services<br></br>Jira<br></br>AzureBot         |
 |Product Team	   |Strategy<br></br>Marketing<br></br>Sales<br></br>Operations<br></br>Insights<br></br>Services & Support         |Power BI<br></br>Team Services         |
 |Finance    |Current Fiscal<br></br>FY Planning<br></br>Forecasting<br></br>Accounts Receivable<br></br>Accounts Payable         |Power BI<br></br>Google Analytics         |
-|Logistics     |Warehouse Operations<br></br>Vehicle Maintenance<br></br>Driver Rosters         |Weather Service<br></br>Travel / Road Disruptions<br></br>Planner<br></br>Tubot<br></br>UPS Bot         |
+|Logistics     |Warehouse Operations<br></br>Vehicle Maintenance<br></br>Driver Rosters         |Weather Service<br></br>Travel / Road Disruptions<br></br>Planner<br></br>UPS Bot         |
 |HR     |Talent Management<br></br>Recruiting<br></br>Performance Review Planning<br></br>Morale         |HR Tools<br></br>External Job Posting Sites<br></br>Growbot         |
 |Cross-organizational <br></br>Virtual Team |Strategy<br></br>Workforce Development<br></br>Compete & Research         |Power BI<br></br>Microsoft Stream         |
 
@@ -109,3 +102,7 @@ It's possible to create Teams that align with the organizational structure. This
 ## Org-wide teams
 
 If your organization has no more than 5,000 users, you can create an org-wide team. Org-wide teams provide an automatic way for everyone in an organization to be a part of a single team for collaboration. For more information, including best practices for creating and managing an org-wide team, see [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md).
+
+## Next steps
+
+Read [Chat, teams, channels, & apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) to walk through a list of decisions important to your Teams rollout.

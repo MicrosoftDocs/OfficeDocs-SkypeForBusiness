@@ -80,7 +80,14 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> Dynamic emergency calling including security desk notification isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time. 
+> 3PIP phones do not support dynamic emergency calling. 
+
+> [!NOTE]
+> Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
+
+> [!NOTE]
+> Subnet and WiFi-based locations are supported on all Teams clients. <br>
+> Ethernet/Switch (LLDP) is only supported on Windows and only on Windows versions 8.1 and later at this time.
 
 ## Assign emergency addresses
 
@@ -104,8 +111,11 @@ Network settings are used to determine the location of a Teams client, and to dy
 
 Network settings include sites that include a collection of subnets and these are used exclusively for dynamic policy assignment to users. For example, an emergency calling policy and an emergency call routing policy might be assigned to the "Redmond site" so that any user that roams from home or another Microsoft location is configured with emergency numbers, routing, and security desk specific to Redmond.  
 
->[!Note]
->Subnets can also be defined in LIS and can be associated with an emergency location.  
+> [!Note]
+> Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is **10.10.10.128**. For more information, see [Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+
+> [!Important]
+> Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.
 
 Keep the following definitions in mind. For more information, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 

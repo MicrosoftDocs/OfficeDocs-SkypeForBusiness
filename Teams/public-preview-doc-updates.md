@@ -40,14 +40,14 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 3. Select **Add**.
 4. Name the update policy, add a description, and turn on **Show preview features**.
 
-You can also set the policy using PowerShell using the `CsTeamsUpdateManagementPolicy` cmdlet.
+You can also set the policy using PowerShell using the `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPreview` boolean parameter.
 
 ## Enable public preview
 
 To enable the public preview on a desktop or web client, you need to do the following tasks:
 
-1. Select your profile to display the Teams menu.
-2. Select **About** → **Public preview**.
+1. Select the three dots to the left of your profile to display the Teams menu.
+2. Select **About** > **Public preview**.
 3. Select **Switch to Public preview**.
 
 ## Related topics

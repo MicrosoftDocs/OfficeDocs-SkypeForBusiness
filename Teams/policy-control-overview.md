@@ -29,7 +29,7 @@ This article is intended to provide you with information about privacy controls 
 As part of these changes, there are new and updated user interface (UI) elements and policy settings
 
 > [!IMPORTANT]
-> For further reading, please review the [Policy Control Overview](/deployoffice/privacy/overview-privacy-controls) content for Microsoft 365.
+> For further reading, please review [Overview of privacy controls for Microsoft 365 Apps for enterprise](/deployoffice/privacy/overview-privacy-controls).
 
 ## Diagnostic data sent from Microsoft 365 Apps for enterprise to Microsoft
 
@@ -78,7 +78,7 @@ To choose which level of diagnostic data is sent to us, use the [Office cloud po
 
 Your users won’t be able to change the diagnostic data level for their devices if they are signed in to Teams with their organizational credentials, which is sometimes referred to as a work or school account.
 
-This diagnostic data doesn’t include names of users, their email addresses, or the content of their Office files. Our system creates a unique ID that it associates with your user’s diagnostic data. When we receive diagnostic data showing that the Teams app crashed 100 times, this unique ID lets us determine if it was a single user who crashed 100 times or if it was 100 different users who each crashed once. We don’t use this unique ID to identify a specific user.
+This diagnostic data doesn’t include names of users, their email addresses, or other user content, such as Office files shared in Teams, a chat message sent in Teams, or the text of a post published in a Teams channel. Our system creates a unique ID that it associates with your user’s diagnostic data. When we receive diagnostic data showing that the Teams app crashed 100 times, this unique ID lets us determine if it was a single user who crashed 100 times or if it was 100 different users who each crashed once. We don’t use this unique ID to identify a specific user.
 
 To see what diagnostic data is being sent to Microsoft, you can use the Diagnostic Data Viewer, which you can download and install for free from the Microsoft Store. For more information, see [Using the Diagnostic Data Viewer with Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 

@@ -38,6 +38,7 @@ See the [Teams Manifest schema](/microsoftteams/platform/resources/schema/manife
 
 > [!NOTE]
 > Customizing apps isn't supported in Government Community Cloud High (GCCH) or Department of Defense (DoD) at this time.
+> Currently, this feature is not available for sideloaded Microsoft Teams apps.
 
 ## Customize the app's details
 
@@ -106,6 +107,7 @@ The following note includes important details about customizing an app.
 > - Admin-provided customization data is stored in the nearest region.
 > - You are responsible for ensuring that links to terms of use or privacy policy are valid.
 > - In case the app publisher no longer allows a field to be customizable, a message appears on the app details page notifying the admin about the fields that can't be customized any longer. All the changes made to that field will be reverted to the original values.
+> - We recommend testing app customization changes in a Teams test tenant before making these changes in your production environment.
 > - Changes to branding might require up to 24 hours for the users to see the changes.
 
 ## Review app details
