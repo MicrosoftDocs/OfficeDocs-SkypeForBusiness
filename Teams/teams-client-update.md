@@ -14,6 +14,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: In this article, you'll learn about the process behind updating the Microsoft Teams desktop client.
+localization_priority: Priority
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
