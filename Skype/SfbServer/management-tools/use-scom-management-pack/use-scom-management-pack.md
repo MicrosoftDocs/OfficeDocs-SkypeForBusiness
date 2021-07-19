@@ -238,8 +238,6 @@ For additional information about Operations Manager, see the following blogs:
   
 - [Operations Manager Team Blog](https://blogs.technet.com/momteam/default.aspx)
     
-- [Kevin Holman's OpsMgr Blog](https://blogs.technet.com/kevinholman/default.aspx)
-    
 - [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Raphael Burri's blog](https://rburri.wordpress.com/)

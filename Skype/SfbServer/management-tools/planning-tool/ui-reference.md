@@ -19,7 +19,7 @@ ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
  
 ## In this section
 
-These topics document the interface for the Planning Tool available from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725). 
+These topics document the interface for the Planning Tool. 
   
 - [Audio Video Conferencing (Planning Tool)](../../help-topics/help-planning/audio-video-conferencing.md)
     

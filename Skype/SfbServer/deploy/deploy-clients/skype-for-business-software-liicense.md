@@ -24,9 +24,7 @@ Skype Room System uses an installed Skype for Business client, which requires a 
 
 If KMS are in place and will distribute Skype for Business Volume License activations, the Skype Room System will automatically activate the Skype for Business client. To find out if KMS are in place:
   
-From a command prompt, run:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-For more information, see [How to discover Office and Windows KMS hosts via DNS and remove unauthorized instances](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
+From a command prompt, run:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt` 
   
 To set up a KMS, see [KMS activation of Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) and [GVLKs for KMS and Active Directory activation of Office 2013](/DeployOffice/vlactivation/gvlks)
   

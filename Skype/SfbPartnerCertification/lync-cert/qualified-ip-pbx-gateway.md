@@ -474,7 +474,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			</td>
 		</tr>
 		<tr>
-			<td>eSpace <a href="http://enterprise.huawei.com/en/products/coll-communication/union-comuni/ip_telephony/1en_u1910.htm">U1910</a>, <a href="http://enterprise.huawei.com/en/products/coll-communication/union-comuni/ip_telephony/1en_u1930.htm">U1930</a>, <a href="http://enterprise.huawei.com/en/products/coll-communication/union-comuni/ip_telephony/1en_u1980.htm">U1980</a></td>
+			<td>eSpace U1910, U1930, U1980</a></td>
 			<td>V100R001</td>
 			<td>IP-PBX </td>
 			<td align ="center" valign="middle">&#x2714;+S </td>

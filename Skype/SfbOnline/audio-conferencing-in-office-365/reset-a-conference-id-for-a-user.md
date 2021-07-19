@@ -61,7 +61,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
   - [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
-  - [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047)
+  - [Skype for Business Online, Meeting Migration Tool (64-bit)](https://www.microsoft.com/download/details.aspx?id=51659)
     
   - [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/download/details.aspx?id=54079)
     

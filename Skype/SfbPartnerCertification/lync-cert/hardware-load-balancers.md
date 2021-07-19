@@ -38,7 +38,7 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 
 |Vendor|Qualified Product|Software Version Tested|Vendor's Lync Page|
 |:--- |:--- |:--- |:--- |
-|[A10Networks](https://www.a10networks.com/)| AX Series 1000, 2200, 3200 <br/><hr> 64-bit AX Series 2500, 2600, 3000, 5100, 5200| 2.4.3 |  [AX Series for Lync 2010 Overview and Deployment Guide](https://www.a10networks.com/solutions/application_solutions_microsoft.php)|
+|[A10Networks](https://www.a10networks.com/)| AX Series 1000, 2200, 3200 <br/><hr> 64-bit AX Series 2500, 2600, 3000, 5100, 5200| 2.4.3 |  [AX Series for Lync 2010 Overview and Deployment Guide](https://www.a10networks.com/)|
 |[Array Networks](http://www.arraynetworks.com/) | APV Series | ArrayOS TM 8.x or later |[Deployment Guide for Array Networks APV Application Delivery Controllers and Microsoft Lync Server 2010](http://www.arraynetworks.com/libraries/DG-APV-Lync2010-Dec-2011-Rev-III.PDF) |
 |AVANU |Webmux 481SD, 591SGQ, 690PG| V8.x and up|[WebMux and Microsoft Lync 2010](http://avanu.com/webmuxuc/)|
 |[BarracudaNetworks](https://www.barracuda.com/products)|Barracuda Load Balancer ADC Model 340, 440 or 640|3.3.1.005, 3.5.0.008| [Barracuda Load Balancer Deployment Guide](https://techlib.barracuda.com/ADC/MSLyncDeployOverview)|
@@ -67,7 +67,7 @@ Software load balancers listed in the table that follows  have been tested by th
 
 |Vendor|Qualified Product |Software Version Tested|Vendor's Lync Page|
 |:--- |:--- |:--- |:--- |
-|[A10Networks](https://www.a10networks.com/solutions/application_solutions_microsoft.php) |64-bit AX Series: SoftAX|2.6|[AX Series for Lync 2010 Overview and Deployment Guide](https://www.a10networks.com/solutions/application_solutions_microsoft.php)|
+|[A10Networks](https://www.a10networks.com/) |64-bit AX Series: SoftAX|2.6|[AX Series for Lync 2010 Overview and Deployment Guide](https://www.a10networks.com/)|
 |[Citrix Systems](https://www.citrix.com/)     |Netscaler VPX|9.1.102.8|[Netscaler Developer Network](https://www.citrix.com/community.html)|
 |[F5](https://f5.com/) |BIG-IP Local Traffic Manager Virtual Edition|10.x, 11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
 |[HAProxy Technologies](http://www.haproxy.com/solutions/load-balancing-for-microsoft-products/)|ALOHA Load-Balancer Virtual Appliance|5.5|[Deployment guide](http://www.haproxy.com/static/media/uploads/eng/resources/aloha_load_balancer_appnotes_0061_lync_2010_deployment_guide_en.pdf)|

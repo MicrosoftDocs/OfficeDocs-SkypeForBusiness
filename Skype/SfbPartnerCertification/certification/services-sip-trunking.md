@@ -36,7 +36,6 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Bandwidth](http://www.bandwidth.com/products/sip-voice-services) |SIP Voice Services|         |
 |[Brightlink IP](http://www.brightlinkip.com) |Brightlink IP SfB Enterprise |         |
 |[Broad-Connect](http://www.broadconnect.ca/ip-telephone/sip-trunking/)     |SIP Trunking |         |
-|[BroadSoft Adaption](http://www.adpt-tech.com/) |OfficeTrunk|         |
 |[BROKERTEAM](http://brokerteam.eu/microsoft-lync) | SIP Trunk Brokerteam - Winvision Voice|         |
 |[BT Global Services](http://www.globalservices.bt.com/uk/en/products/one_voice)|BT One Voice| |
 |[CallPlus Services Ltd.](http://www.callplus.co.nz/) |SIP Trunk|  |

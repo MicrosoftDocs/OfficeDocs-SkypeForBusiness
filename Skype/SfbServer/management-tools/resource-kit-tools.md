@@ -97,26 +97,6 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ABSConfig provides a quick and easy way to customize Skype for Business Server 2015 Address Book Service.
 
-### Requirements
-
-#### Computer
-
-ABSConfig can be run only from a domain-joined computer that has Skype for Business Server 2015 installed. In the case of Skype for Business Server 2015, Enterprise Edition, this tool can be run on any Front-End servers that have the Address Book Service enabled during setup.
-
-#### Network
-
-The computer should be able to connect to the Front-End pool and back-end database.
-
-#### Software
-
-The following software components must be installed before running the ABSConfig tool:
-
-- Skype for Business Server 2015
-
-#### Users
-
-Administrators who have the permissions required to update the Skype for Business Server 2015 deployment.
-
 ### Examples
 
 ABSConfig can be started by typing **ABSConfig.exe** at a command prompt. Shown below is the ABSConfig tool user interface.

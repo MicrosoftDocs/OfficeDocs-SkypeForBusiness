@@ -262,54 +262,6 @@ Package Name|KB Number|Release Date|
 |Update for Lync for Mac 2011 |[KB 3175174](https://support.microsoft.com/kb/3175174)|July 2016|
 |Cumulative updates for Lync for Mac 2011 |[KB 3074981](https://support.microsoft.com/kb/3074981)|July 2015|
 
-### Lync 2010 client updates
-
-Package Name|KB Number|Release Date|
-|:--- |:--- |:--- |
-|Security update for Lync 2010 |[KB 4025865](https://support.microsoft.com/kb/4025865) | September 2017|
-|Security update for Lync 2010 |[KB 4010732](https://support.microsoft.com/kb/4020732) | June 2017|
-|Security update for Lync 2010 |[KB 4010299](https://support.microsoft.com/kb/4010299) | March 2017|
-|Security update for Lync 2010 |[KB 3188397](https://support.microsoft.com/kb/3188397) | October 2016|
-|Security update for Lync 2010 |[KB 3174301](https://support.microsoft.com/kb/3174301) | August 2016|
-|Update for Lync 2010 |[KB 3171499](https://support.microsoft.com/kb/3171499) | June 2016|
-|Security update for Lync 2010 |[KB 3115871](https://support.microsoft.com/kb/3115871) | December 2015|
-|Security update for Lync 2010 |[KB 3096735](https://support.microsoft.com/kb/3096735) | November 2015|
-|Security update for Lync 2010 |[KB 3081087](https://support.microsoft.com/kb/3081087) | September 2015|
-|Cumulative updates for Lync 2010 |[KB 3072611](https://support.microsoft.com/kb/3072611) | July 2015|
-
-### Lync 2010 Attendant updates
-
-Package Name|KB Number|Release Date|
-|:--- |:--- |:--- |
-|Cumulative update for Lync 2010 Attendant |[KB 2842632](https://support.microsoft.com/kb/2842632) |July 2013|
-
-### Lync 2010 Attendee updates
-
-Package Name|KB Number|Release Date|
-|:--- |:--- |:--- |
-|Security update for Lync 2010 Attendee (admin level install) |[KB 4025866](https://support.microsoft.com/kb/4025866) |September 2017|
-|Security update for Lync 2010 Attendee (admin level install) |[KB 4025866](https://support.microsoft.com/kb/4025866) |June 2017|
-|Security update for Lync 2010 Attendee (user level install) |[KB 4020734](https://support.microsoft.com/kb/4020734) |June 2017|
-|Security update for Microsoft Graphics Component on Lync 2010 Attendee (admin level install) |[KB 4010301](https://support.microsoft.com/kb/4010301) |March 2017|
-|Security update for Lync 2010 Attendee (admin level install) |[KB 3188400](https://support.microsoft.com/kb/3188400) |October 2016|
-|Description of the cumulative update for the Lync 2010 Attendee - Administrator level installation |[KB 3171502](https://support.microsoft.com/kb/3171502)|June 2016 |
-|Description of the cumulative update for the Lync 2010 Attendee - User level installation |[KB 3171496](https://support.microsoft.com/kb/3171496) |June 2016 |
-|Security update for Lync 2010 Attendee (admin-level installation) |[KB 3081089](https://support.microsoft.com/kb/3081089) |September 2015 |
-|Security update for Lync 2010 Attendee (user-level installation) |[KB 3081088](https://support.microsoft.com/kb/3081088) |September 2015 |
-
-### Attendant
-
-| **Package Name/Link**                                                                       | Release Date  |
-|:--------------------------------------------------------------------------------------------|:--------------|
-| [Lync 2010 Attendant (32 Bit)](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
-| [Lync 2010 Attendant (64 Bit)](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
-
-### Attendee
-
-| **Package Name/Link**                                                                                   | Release Date |
-|:--------------------------------------------------------------------------------------------------------|:-------------|
-| [Lync 2010 Attendee - Admin Level Install](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013   |
-| [Lync 2010 Attendee - User Level Install](https://www.microsoft.com/download/en/details.aspx?id=15755)  | June 2014    |
 
 ## Related topics
 

@@ -86,7 +86,7 @@ Unless you use a unique SIP/SMTP/UPN for users from each forest, you can still r
     
 By placing an AD FS farm in each user forest and using a unique SIP/SMTP/UPN for each forest, we resolve both issues. Only the accounts in that specific user forest would be searched and matched during authentication attempts. This will help provide a more seamless authentication process. 
   
-This will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How To Install AD FS 2012 R2 For Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+This will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. 
   
 Once deployed, you then have to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft 365 Identity Platform** or **Microsoft Office 365 Identity Platform**, and then select **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**. 
   

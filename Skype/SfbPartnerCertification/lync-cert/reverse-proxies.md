@@ -33,7 +33,7 @@ Please contact the vendor for more information on these products.
 
 |Vendor |Qualified Product |Software Version Tested |Vendor's Lync Page  |
 |:--- |:--- |:--- |:--- |
-|A10 Networks |Thunder and AX Series | 2.7.1 |  [Deployment Guides](https://www.a10networks.com/resources/deployment_guides.php)      |
+|A10 Networks |Thunder and AX Series | 2.7.1 |  [Deployment Guides](https://www.a10networks.com/)      |
 |F5 Networks | Big-IP LTM |11.0 - 11.4.1 | [Configuring Reverse Proxy Access to Microsoft Lync Using a Big-IP LTM V.11](http://www.f5.com/pdf/use-cases/reverse-proxy-access-microsoft-lync-partner-use-case.pdf)|
 |JetNexus |  ALB-X |   4.1.1 | [JetNexus for Lync](http://www.jetnexus.com/support/applications/microsoft-lync/)        |
 |Citrix     |   NetScaler |  10.5 | [Microsoft and Citrix NetScaler](https://www.citrix.com/global-partners/microsoft.html)   |

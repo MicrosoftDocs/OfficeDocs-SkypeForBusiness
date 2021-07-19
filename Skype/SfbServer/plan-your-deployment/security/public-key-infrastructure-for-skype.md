@@ -26,7 +26,7 @@ Even if the information on the certificate is valid, there must be some way to v
 Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
   
 > [!NOTE]
-> Not all public CAs comply with the requirements of Skype for Business Server certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see [Unified Communications Certificate Partners](https://go.microsoft.com/fwlink/p/?LinkId=140898). 
+> Not all public CAs comply with the requirements of Skype for Business Server certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. 
   
 ## CRL Distribution Points
 
