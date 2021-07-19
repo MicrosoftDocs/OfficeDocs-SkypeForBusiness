@@ -211,6 +211,6 @@ When viewing card content in Content search results, the content appears as an a
 ## Related topics
 
 - [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery)
-- [Get started with Core eDiscovery in Microsoft 365](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Get started with Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
 - [Teams workflow in Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell Overview](teams-powershell-overview.md)
