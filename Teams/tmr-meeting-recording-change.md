@@ -35,6 +35,8 @@ appliesto:
 
 Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive for Business and SharePoint in Microsoft 365 and offers many benefits.
 
+Stream (classic) as a platform won't be deprecated in the near future. The videos that currently live in Stream (classic) will stay there until a future migration tool is available to move them to OneDrive and SharePoint. Check [Stream classic migration](/stream/streamnew/classic-migration) for more information on our future plans.
+
 > [!NOTE]
 > If a Teams meeting recording fails to successfully upload to OneDrive/SharePoint, the recording will instead be temporarily saved to Azure Media Services (AMS). Once stored in AMS, no retry attempts are made to automatically upload the recording to OneDrive/SharePoint or Stream.
 
@@ -95,97 +97,6 @@ The meeting recording option is a setting at the Teams policy level. The followi
 > [!Note]
 > If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
 
-## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
-Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive for Business, then you must reset the policy to **Stream** to ensure that **Stream** is the default.
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
-```
-
-## Permissions or role-based access
-
-> [!Note]
-> We recommend that the recipient is required to be a logged-in user when sharing Teams Meeting Recordings. Select the **People in (Your Organization)** option when you share the file as documented in [Share SharePoint files or folders](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). External sharing isn't designed for the distribution of large files or a large number of files. In order to prevent fraud and abuse scenarios, you might experience issues when sharing a large amount of data to external users.
-
-|Meeting type                               | Who clicked on Record?| Where does the recording land?                               |Who has access? R/W, R, or sharing                                                                                                                                                                                                                                                     |
-|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1:1 call with internal parties             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights. <br /><br />Callee (if in the same tenant) has read-only access. No sharing access. <br /><br /> Callee (if in different tenant) has no access. Caller must share it to the Callee.|
-|1:1 call with internal parties             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights. <br /><br />Caller (if in the same tenant has read-only access. No sharing access. <br /><br />Caller (if in different tenant) has no access. Callee must share it to the Caller.|
-|1:1 call with an external call             |Caller                 |Caller’s OneDrive for Business account                        |Caller is owner and has full rights.<br /> <br />Callee has no access. Caller must share it to the Callee.|
-|1:1 call with an external call             |Callee                 |Callee’s OneDrive for Business account                        |Callee is owner and has full rights.<br /><br />Caller has no access. Callee must share it to the Caller.|
-|Group call                                 |Any member of the call |Group member who clicked on Record’s OneDrive for Business account  |Member who clicked on Record has full rights. <br /><br /> Other members from the same tenant have Read rights. <br /><br /> Other group members from different tenants have no rights to it.|
-|Adhoc/Scheduled meeting                    |Organizer              |Organizer’s OneDrive for Business account                     |Organizer has full rights to the recording. <br /><br /> All other members of the meeting have read access.|
-|Adhoc/Scheduled meeting                    |Other meeting member   |Meeting member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. <br /><br />Organizer has edit rights and can share.<br /><br /> All other meeting members have read access.|
-|Adhoc/Scheduled meeting with external users|Organizer              |Organizer’s OneDrive for Business account                     |Organizer has full rights to the recording.<br /> <br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br /> All other external members have no access, and the Organizer must share it to them.|
-|Adhoc/Scheduled meeting with external users|Other meeting member   |Member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. Organizer has edit rights and can share. <br /><br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br />All other external members have no access, and the Organizer must share it to them.|
-|Channel meeting                            |Channel Member         |Teams' SharePoint location for that channel                   |Member who clicked on Record has edit rights to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
-
-## Frequently asked questions
-
-**Where will the meeting recording be stored?**
-
-- For non-Channel meetings, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive for Business that belongs to the person who started the meeting recording. Example:
-
-  <i>recorder's OneDrive for Business</i>/**Recordings**
-
-- For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
-
-  <i>Teams name - Channel name</i>/**Documents**/**Recordings**
-
-**When Stream files (such as recordings) are stored in SharePoint/OneDrive, how is it decided where they go? Does the admin have the ability to change where it goes?**
-
-By default, all recording files will go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording will always go to the SharePoint site of the channel. The admin can't change where the recording is stored.
-
-**How do I handle recordings from former employees?**
-
-Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
-
-**Who has the permissions to view the meeting recording?**
-
-- For non-Channel meetings, all meeting invitees, except for external users, will automatically get a personally shared link. External users will need to be explicitly added to the shared list by the meeting organizer or the person who started the meeting recording.
-
-- For Channel meetings, permissions are inherited from the owners and members list in the channel.
-
-> [!NOTE]
-> You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously.
-
-**How can I manage captions?**
-
-Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) to ensure their users have the option to record meetings with transcription.
-
-Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there. 
-
-Today closed captions for the recording video file are linked to the Teams meeting transcript. This link will remain for the lifetime of the file in most cases, but can be sometimes be broken for example if the video file is copied within the same OneDrive or SharePoint site, which would result in captions not being available on the new recording video file.
-
-Any future changes will be clarified here and in message center notifications, and will ensure recording files less than 60 days old display the transcript from the meeting as captions throughout any migration period.
-
-> [!NOTE]
-> There will be English-only closed captions (meeting transcription is not yet available in GCC).
-
-**How will my storage quota be impacted?**
-
-Teams meeting recording files live in OneDrive for Business and SharePoint and are included in your quota for those services. See
-[SharePoint quota](/sharepoint/sites/plan-site-maintenance-and-management#quotas) and [OneDrive for Business quota](/onedrive/set-default-storage-space).
-
-You get more storage with [OneDrive for Business](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) compared with Stream and more fungible storage with SharePoint.
-
-**How can I play a Teams meeting recording?**
-
-Your video will play on the video player of OneDrive for Business or SharePoint depending on where you access the file.
-
-**If you plan on deprecating adding to Stream, will existing videos stay as is and for how long?**
-
-Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [Stream classic migration](/stream/streamnew/classic-migration) for more information.
-
-**How do I apply a retention label to Microsoft Teams meeting recordings?**
-
-See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
-
-**How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
-
-See [Which policy takes precedence?](./assign-policies.md#which-policy-takes-precedence).
-
-**Where does the recording go if the user doesn't have OneDrive for Business or SharePoint, or the storage quota is full?**
-
-The recording will land in our temporary storage location where it will be held for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
+## Learn more
+To learn more about Teams cloud meeting recording read the [Teams cloud meeting recording](cloud-recording.md) article. In that article you can learn more about recording setup, managment, governance, permissions, and storage. 
