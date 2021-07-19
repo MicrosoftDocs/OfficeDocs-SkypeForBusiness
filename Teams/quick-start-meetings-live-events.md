@@ -43,7 +43,7 @@ The following table briefly summarizes the three types of meetings, the number o
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* <br> | -Participants up to 1,000 have fully interactive equal meeting capabilities <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
+| Meetings  | Up to 20,000* <br> | -Participants up to 1,000 have fully interactive equal meeting capabilities <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities <br> -Can specify presenters | No |
 | Webinars | Up to 20,000* |-Participants up to 1,000 have fully interactive capabilities <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  <br> -Audience interaction configurable <br> -Can specify presenters | Yes |
 | Live events | Up to 20,000** |-Broadcast to large audiences <br>-Moderated Q&A for audience interaction <br> -Can specify producers and presenters, including external presenters<br>-Supports more advanced production capabilities | No |
 ||||
