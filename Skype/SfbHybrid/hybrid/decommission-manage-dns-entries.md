@@ -24,7 +24,7 @@ description: "Instructions for how to manage DNS entries when decommissioning yo
 
 Organizations that previously had on-premises deployments of Skype for Business Server or Lync Server may still have DNS entries that point to an on-premises Skype for Business deployment. These records are required if your organization includes on-premises Skype for Business users. However, once your organization no longer has any on-premises Skype for Business or Lync Server users, these original records are no longer required by the on-premises deployment and **these DNS entries must be updated to point to Microsoft 365 (or in some cases removed)** as part of your migration from on-premises to Teams Only, *Microsoft cannot take this step for you.*
 
-When attempting to grant TeamsOnly to the entire tenant, Teams will check DNS to determine if any of these DNS records exist for M365 verified domain in your organization. If any records are found, and if they point to something other than Microsoft 365, the attempt to change the tenant coexistence mode to TeamsOnly will fail by design. This prevents hybrid organizations with on-premises users from mistakenly applying TeamsOnly mode to the tenant--because doing so would break federation for all on-premises Skype for Business users in the organization (whether using Teams or Skype for Business).
+When attempting to grant TeamsOnly to the entire tenant, Teams will check DNS to determine if any of these DNS records exist for Microsoft 365 verified domain in your organization. If any records are found, and if they point to something other than Microsoft 365, the attempt to change the tenant coexistence mode to TeamsOnly will fail by design. This prevents hybrid organizations with on-premises users from mistakenly applying TeamsOnly mode to the tenant--because doing so would break federation for all on-premises Skype for Business users in the organization (whether using Teams or Skype for Business).
 
 
 ## How to identify stale DNS records
@@ -40,7 +40,7 @@ To identify any DNS records that prevent your organization from becoming all Tea
 
 If your organization no longer has any users hosted in on-premises Skype for Business Server or Lync Server, you must do the following:
 
-- Update the Skype for Business DNS records list below to point to Microsoft 365 (instead of the on-premises deployment). If you have more than one SIP domain, you must do this for each SIP domain that is an M365 verified domain.
+- Update the Skype for Business DNS records list below to point to Microsoft 365 (instead of the on-premises deployment). If you have more than one SIP domain, you must do this for each SIP domain that is a Microsoft 365 verified domain.
 
 - Remove Skype for Business DNS records if the SIP domain is no longer used. 
 
