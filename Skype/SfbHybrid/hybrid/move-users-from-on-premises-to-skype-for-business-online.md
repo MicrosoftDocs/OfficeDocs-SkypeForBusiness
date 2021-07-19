@@ -22,6 +22,8 @@ description: "Learn how to move users to Skype for Business Online."
 
 # Move users from on premises to Skype for Business Online
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 After you move a user from on-premises to Skype for Business Online, the user interacts with Skype for Business Online for its functionality. Any contacts that existed on-premises will be available in Skype for Business Online, and any existing meetings the user organized for the future are updated to so the links point to Skype for Business Online. If the user is enabled for Audio Conferencing, the meetings will also include dial-in coordinates.  To move users from an on-premises environment to Skype for Business Online, use either the Move-CsUser cmdlet or the Skype for Business Server Control Panel, both of which are on-premises tools. 
 
 [!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
