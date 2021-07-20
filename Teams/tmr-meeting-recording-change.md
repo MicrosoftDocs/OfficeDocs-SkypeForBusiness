@@ -98,4 +98,4 @@ The meeting recording option is a setting at the Teams policy level. The followi
 
 ## Learn more
 
-To learn more about Teams cloud meeting recording read the [Teams cloud meeting recording](cloud-recording.md) article. In that article you can learn more about recording setup, managment, governance, permissions, and storage.
+To learn more about Teams cloud meeting recording read the [Teams cloud meeting recording](cloud-recording.md) article. In that article you can learn more about recording setup, management, governance, permissions, and storage.
