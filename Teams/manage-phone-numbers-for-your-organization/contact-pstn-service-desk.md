@@ -79,7 +79,7 @@ To creat a new case, follow these steps:
 To understand case details, Microsoft needs the following information:
 
 - [Case category](#case-category)
-- [Country](#country)
+- [Country/region](#country)
 - [Case type](#case-type)
 - [Case title](#case-title)
 - [Additional contacts for notifications](#additional-contacts-for-notifications)
@@ -94,9 +94,9 @@ A case can have one of two categories:
 
 - **General enquiry** - Choose this option if you have questions that will help you determine your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers. 
 
-#### Country
+#### Country/region
 
-Select the country for which you are submitting this case. If you have requests for multiple countries, you must open one case per country.  
+Select the country/region for which you are submitting this case. If you have requests for multiple countries, you must open one case per country/region.  
 
 #### Case type
 
@@ -140,7 +140,7 @@ Case type can be one of the following:
 
   - **Quantity of phone numbers required** - The count of phone numbers that you want to purchase.  
 
-  - **State/Province** - The state/province within your country for which you want phone numbers.  
+  - **State/Province** - The state/province within your country/region for which you want phone numbers.  
 
   - **City** - The city within the state/province for which you want phone numbers.  
 
@@ -202,7 +202,7 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
 - For assistance that's related to numbers setup and configuration, licenses, fees, or billing, see [Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
-- For information about the calling plans that are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- For information about the calling plans that are available in your country/region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 - For information that can help you select the appropriate type(s) of phone numbers for your organization, see [Different kinds of phone numbers](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
