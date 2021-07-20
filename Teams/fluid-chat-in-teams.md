@@ -75,6 +75,32 @@ Url: `https://a830edad9050849822e21011208-admin.sharepoint.com/`
 
 `PS C:\WINDOWS\system32>`
 
+## Known limitations 
+
+Live components appear in search results from Teams and Office.com as files. Searching for live components within messages is not yet available.
+
+Guest users in federated chats won't be able to collaborate with live components. 
+
+### Storage of `.fluid` files** 
+
+**What happens if owner of file leaves the company?** 
+
+The same policies as apply to other content created by the user, like other Office files.  
+
+**How are .fluid files shared?** 
+
+Components in Teams chat can be copied from within Teams and pasted in other chats (but not yet channels). They default to the existing permissions, but users can change the permissions before sending to ensure everyone has access.
+
+Opening components in Teams chat in Office.com offers share functionality at the top of the window, similar to the sharing options offered for other Office documents. You can also share by copying part of the file, choosing **Link to Selection** from the margin, and then pasting into Teams chats so recipients can edit inline in the message.
+
+**What if a `.fluid` file becomes corrupted or damaged?** 
+
+Version History allows you to review and copy from previous versions of the file.  
+
+**What apps can open and edit `.fluid files` after they’ve been created by the “experience”?** 
+
+`.fluid` files can only be opened as links in your browser, such as in Office.com, and as embedded live components in Teams chat. If downloaded, they can't be opened without first uploading them back to OneDrive for Business or SharePoint Online. 
+
 ## Related topics
 
 [Manage Fluid Framework preview](/office365/troubleshoot/access-management/manage-fluid-framework-preview-access)
