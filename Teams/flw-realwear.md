@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: A, ITAdmin walkthrough of the Microsoft Teams for RealWear client.
+description: ITAdmin walkthrough of the Microsoft Teams for RealWear client.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -21,7 +21,7 @@ appliesto:
 ---
 # Microsoft Teams for RealWear
 
-This article covers the Microsoft Teams client for RealWear head-mounted wearables. Frontline Workers using RealWear HMT-1 and HMT-1Z1 can now collaborate with a remote expert using video calling on Teams. Through a voice-controlled user interface, Teams for RealWear allows field workers to remain 100% hands-free while maintaining situational awareness in loud and hazardous environments. By showing what they see in real-time, field workers can accelerate the time to resolve issues and reduce the risk of an expensive downtime.
+This article covers the Microsoft Teams client for RealWear head-mounted wearables. Frontline workers using RealWear HMT-1 and HMT-1Z1 can now collaborate with a remote expert using video calling on Teams. Through a voice-controlled user interface, Teams for RealWear allows field workers to remain 100% hands-free while maintaining situational awareness in loud and hazardous environments. By showing what they see in real-time, field workers can accelerate the time to resolve issues and reduce the risk of an expensive downtime.
 
 ## How to deploy Microsoft Teams for RealWear
 
@@ -47,4 +47,4 @@ For guidance on third-party EMMs, see [Supported Enterprise Mobility Management 
 
 ## End-user content
 
-For further reading on this from an end-user perspective, please check out [Using Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
+For further reading on this from an end-user perspective, check out [Using Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).

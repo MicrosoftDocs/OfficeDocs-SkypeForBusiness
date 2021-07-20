@@ -1508,13 +1508,13 @@ items:
           href: sku-reference-edu.md
     - name: Teams for Frontline Workers
       items: 
-        - name: Quickstart for Frontline Workers
+        - name: Quickstart for frontline workers
           href: flw-quickstart.yml
         - name: Frontline workers scripted deployment
           href: flw-scripted-deployment.md
-        - name: Manage shift-based access for Frontline Workers
+        - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: RealWear for Microsoft Teams
+        - name: RealWear for Teams
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
