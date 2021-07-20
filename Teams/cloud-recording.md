@@ -104,7 +104,8 @@ This setting controls if channel meetings are saved to a "Recordings" folder or 
 
 The two values for this setting are:
 
-- **Allow** (default) - Saves channel meeting recordings to a "Recordings" folder in the channel. The permissions on the recording files will be based off the Channel SharePoint Online permissions. This is the sames as any other file uploaded for the channel.
+- **Allow** (default) - Saves channel meeting recordings to a "Recordings" folder in the channel. The permissions on the recording files will be based off the Channel SharePoint Online permissions. This is the same as any other file uploaded for the channel.
+
 - **Block** - Saves channel meeting recordings to a "Recordings\View only" folder in the channel. Channel owners will have full rights on the recordings in this folder, but channel members will have read access without ability to download.
 
 Using PowerShell, you configure the ChannelRecordingDownload setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
@@ -212,8 +213,8 @@ If a meeting recording isn't able to be uploaded to OneDrive for Business and Sh
 
 Meeting recordings may end up in this temporary storage for the following reasons:
 
-- For non-channel meetings if the user recording doesn't have a OneDrive for Business setup or the OneDrive for Business has reached it's storage quota
-- For a channel meeting if the SharePoint Online site has reached it's storage quota or the site wasn't provisioned yet
+- For non-channel meetings if the user recording doesn't have a OneDrive for Business setup or the OneDrive for Business has reached its storage quota
+- For a channel meeting if the SharePoint Online site has reached its storage quota or the site wasn't provisioned yet
 - If specific OneDrive for Business and SharePoint Online policies are enabled restricting users from uploading files when not on specific IP ranges, etc.
 
 The recording retention for this is temporary storage is affected by the chat message itself. As such, any deletion of the original chat message for the recording will prevent users from being able to access the recording. There are two scenarios that can affect this:
@@ -227,7 +228,7 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 
 ## Manage meeting recordings
 
-Meeting recordings are stored as video files in OneDrive for Business and SharePoint Online and follow managment and goverance options avaiable in those platforms. Read [SharePoint Online governance overivew](/sharepoint/governance-overview), [OneDrive for Business guide for enterprises](/onedrive/plan-onedrive-enterprise), or [OneDrive for Business guide for small businesses](/onedrive/one-drive-quickstart-small-business) for more information.
+Meeting recordings are stored as video files in OneDrive for Business and SharePoint Online and follow management and governance options available in those platforms. Read [SharePoint Online governance overview](/sharepoint/governance-overview), [OneDrive for Business guide for enterprises](/onedrive/plan-onedrive-enterprise), or [OneDrive for Business guide for small businesses](/onedrive/one-drive-quickstart-small-business) for more information.
 
 For non-channel meetings, the recordings are stored in the recorder's OneDrive for Business, thus handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint Online process](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
