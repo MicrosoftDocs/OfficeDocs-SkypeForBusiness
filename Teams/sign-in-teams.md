@@ -19,8 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Sign in to Microsoft Teams
-==========================
+# Sign in to Microsoft Teams
 
 ## Windows users
 
@@ -50,10 +49,6 @@ Modern authentication is available for every organization that uses Teams. If us
 
     > [!NOTE]
     > Skipping or ignoring user name pre-fill for user names that end in ".local" or ".corp" is on by default, so you don't need to set a registry key to turn these off.
-
-### Signing out of Teams after completing modern authentication
-
-To sign out of Teams, users can select their profile picture at the top of the app, and then select **Sign out**. They can also right-click the app icon in their taskbar, and then select **Log out**. Once they've sign out of Teams, they need to enter their credentials again to launch the app.
 
 ### Signing in to another account on a Domain Joined computer
 
@@ -109,11 +104,13 @@ To create an app configuration policy for managed iOS/iPadOS devices, see [Add 
 To create an app configuration policy for managed Android devices, see [Add app configuration policies for managed Android devices](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### How to restrict sign in on desktop devices
+
 Teams apps on Windows and macOS are gaining support for device policies that restrict sign in to your organization. The policies can be set via usual Device Management solutions such as MDM (Mobile Device Management) or GPO (Group Policy Object). 
 
 When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the “Tenant Allow List” defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but they won't be operable.
 
 > [!NOTE]
+> 
 >1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as a guest in other Azure AD tenants, or switch to those other tenants (where users have been invited as a guest).
 >2. The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for macOS version 1.3.00.30882 (released mid-November 2020).
 
@@ -142,21 +139,11 @@ For macOS managed devices, use .plist to deploy sign-in restrictions. The config
 - Data Type: String
 - Comments: Enter comma separate list of Azure AD tenant ID(s)
 
+### Global sign in
 
-## Sign out on mobile devices
+The Teams Android app now supports Global sign-in, to provide a hassle free sign-in experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](sign-out-teams.md) to learn more. This with remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-Mobile users can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting **Sign out**. Once signed out, users will need to reenter their credentials the next time they launch the app.
-
-> [!NOTE]
-> Teams for Android uses single sign-on (SSO) to simplify the sign in experience. Users should make sure to log out of **all** Microsoft apps, in addition to Teams, in order to completely log out on the Android platform.
-
-### Global sign in and sign out
-
-The Teams Android app now supports Global sign-in and sign-out, to provide a hassle free sign-in and sign-out experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. This with remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
-
-The sign-in experience looks similar to our standard Teams sign experience, while sign out will look like the following two images:
-
-![the mobile phone with sign out demonstrated](media/global-SignOut.png)  
+The sign-in experience looks similar to our standard Teams sign-in experience.
 
 ## URLs and IP address ranges
 
