@@ -294,6 +294,8 @@ items:
           href: legal-hold.md
         - name: Content search
           href: content-search.md
+        - name: Teams workflow in Advanced eDiscovery
+          href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
         - name: Auditing
           href: audit-log-events.md
         - name: Customer key
