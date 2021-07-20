@@ -921,7 +921,7 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
-        - name: Phone System Direct Routing
+        - name: Direct Routing
           items: 
             - name: Overview
               href: direct-routing-landing-page.md
