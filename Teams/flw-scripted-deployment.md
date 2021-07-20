@@ -213,15 +213,15 @@ The following settings can be customized to meet your business needs. We have ch
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.  
 3. Enter a name and description for the policy. For example, Frontline manager app setup policy.
-![Frontline manager app setup policy image.](media/FLW-FLM-App-Setup-Policy.png)
+![Frontline manager app setup policy image.](media/flw-flm-app-setup-policy.png)
 
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
-![Allow user pinning switch image.](media/FLW-Allow-User-Pinning.png)
+![Allow user pinning switch image.](media/flw-allow-user-pinning.png)
 
 6. If it's not already listed, add the **Shifts** app. For more information about Shifts, click [here](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
-    ![Add pinned apps screen, showing the Shifts app listed next to an Add button.](media/FLW-Add-Pinned-Apps.png)
+    ![Add pinned apps screen, showing the Shifts app listed next to an Add button.](media/flw-add-pinned-apps.png)
 
 7. Remove Calling, if it appears. Removing this feature will not disable it for the user, but will prevent it from appearing on the app bar to simplify the end user experience.
 8. Arrange the apps in the following order to dictate their order in the Teams App Bar, and then click **Save**.
@@ -230,7 +230,7 @@ The following settings can be customized to meet your business needs. We have ch
     1. Teams
     1. Calendar
     1. Shifts
-    ![Screenshot of the manager apps list in order.](media/FLW-Manager-Pinned-Apps.png)
+    ![Screenshot of the manager apps list in order.](media/flw-manager-pinned-apps.png)
 
 #### Create the frontline worker app setup policy
 
@@ -239,15 +239,15 @@ The following settings can be customized to meet your business needs. We have ch
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.
 3. Enter a name and description for the policy. For example, Frontline worker app setup policy.
-![Frontline worker app setup policy image.](media/FLW-FLW-App-Setup-Policy.png)
+![Frontline worker app setup policy image.](media/flw-flw-app-setup-policy.png)
 
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
-![Allow user pinning switch image.](media/FLW-Allow-User-Pinning.png)
+![Allow user pinning switch image.](media/flw-allow-user-pinning.png)
 
 6. If it's not already listed, add the **Shifts** app. For more information about Shifts, click [here](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
-    ![Add pinned apps screen, showing the Shifts app listed next to an Add button.](media/FLW-Add-Pinned-Apps.png)
+    ![Add pinned apps screen, showing the Shifts app listed next to an Add button.](media/flw-add-pinned-apps.png)
 
 7. Remove Meetings and Calling, if they appear. Removing these features will not disable them for the user, but will prevent them from appearing on the app bar to simplify the end user experience.
 8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
@@ -255,7 +255,7 @@ The following settings can be customized to meet your business needs. We have ch
     1. Chat
     1. Teams
     1. Shifts
-    ![Screenshot of the worker apps list in order.](media/FLW-Worker-Pinned-Apps.png)
+    ![Screenshot of the worker apps list in order.](media/flw-worker-pinned-apps.png)
 
 ### Create Teams app permission policies
 
