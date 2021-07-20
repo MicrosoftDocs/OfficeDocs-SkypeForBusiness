@@ -915,7 +915,13 @@ items:
               href: configuring-teams-calling-quickstartguide.md
             - name: Country and region availability for Calling Plans
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Phone System Direct Routing
+        - name: Operator Connect
+          items: 
+            - name: Plan for Operator Connect
+              href: operator-connect-plan.md
+            - name: Configure Operator Connect
+              href: operator-connect-configure.md
+        - name: Direct Routing
           items: 
             - name: Overview
               href: direct-routing-landing-page.md
@@ -991,12 +997,6 @@ items:
                       href: direct-routing-protocols-media.md
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
-        - name: Operator Connect
-          items: 
-            - name: Plan for Operator Connect
-              href: operator-connect-plan.md
-            - name: Configure Operator Connect
-              href: operator-connect-configure.md
               
     - name: Phone numbers
       items: 
