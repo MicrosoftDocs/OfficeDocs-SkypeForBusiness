@@ -120,7 +120,7 @@ items:
     1. Select **Add** (There is a default FirstLineWorker policy you may choose to use instead of creating a custom policy).
     1. Enter a descriptive name for the policy. Remove and re-arrange the pinned apps to match your desired state. Click **Add apps** to add any third-party applications or custom line of business applications you would like to include.
 
-      ![A list of pinned apps.](media/firstline-worker-pinned-apps.png)
+        ![A list of pinned apps.](media/firstline-worker-pinned-apps.png)
 
     #### Configure a messaging policy
     Create a custom messaging policy based on the decisions in Step 2. If you are choosing to enable priority notifications, voice messages, or the “Show favorite channels in chat” configuration, then you will need to set up a frontline worker specific messaging policy.
@@ -248,7 +248,7 @@ items:
 
       ![Teams page.](media/firstline-worker-teams-page.png)
 
-    3. Fill in the required fields, including team name, description, and select an appropriate team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several Teams. Select **Create team**.
+    3. Fill in the required fields, including team name, description, and select an appropriate team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several teams. Select **Create team**.
    
       ![Teams Create a new team menu.](media/firstline-worker-create-new-team.png)
 
@@ -306,7 +306,7 @@ items:
     Now that you’ve successfully completed your first pilot with an initial group of frontline workers, it’s time to expand! It’s time to go back to Step 1 with one of the several expansion options below. We recommend working through this process as many times as needed to arrive at a solution, set of best practices, and training documentation for all of your frontline workers.
 
     -   Expand the number of teams
-        -   Instead of one location, can you do one region? Would you want one team for the whole region or individual Teams for each location?
+        -   Instead of one location, can you do one region? Would you want one team for the whole region or individual teams for each location?
     -   Expand the features provided.
        -   Was there a key feature that your frontline workers suggested I your feedback forms, like Shifts, that you didn’t include in your initial feature set?
 
