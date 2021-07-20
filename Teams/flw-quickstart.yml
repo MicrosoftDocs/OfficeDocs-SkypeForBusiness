@@ -137,21 +137,19 @@ items:
 
     1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), select **Users**.
 
-      ![Teams user menu selection.](media/firstline-worker-users-bar.png)
-
     2. Search for the pilot users by name.
 
-      ![Teams user information page.](media/firstline-worker-users-page.png)
+        ![Teams user information page.](media/firstline-worker-users-page.png)
 
     3. Click the user's display name to open the user details page.
     4. Next to **Assigned policies**, select **Edit**.
 
-      ![Teams user details page.](media/firstline-worker-user-details-page.png)
+        ![Teams user details page.](media/firstline-worker-user-details-page.png)
 
     5. Under **App setup policy**, select the policy created for your pilot, and then click **Save**.
     6. Under **Messaging policy**, select the policy created for your pilot, and then click **Save**.
 
-      ![Teams edit user policies window.](media/firstline-worker-edit-user-policies.png)
+        ![Teams edit user policies window.](media/firstline-worker-edit-user-policies.png)
 
     7. Repeat these steps for all pilot users.
 
@@ -246,20 +244,20 @@ items:
 
     2. Select **Add** from the Manage teams page.
 
-      ![Teams page.](media/firstline-worker-teams-page.png)
+        ![Teams page.](media/firstline-worker-teams-page.png)
 
     3. Fill in the required fields, including team name, description, and select an appropriate team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several teams. Select **Create team**.
    
-      ![Teams Create a new team menu.](media/firstline-worker-create-new-team.png)
+        ![Teams Create a new team menu.](media/firstline-worker-create-new-team.png)
 
     4. Select the team you created to open the **Team Details** page.
 
-      ![Teams detail page.](media/firstline-worker-team-details-page.png)
+        ![Teams detail page.](media/firstline-worker-team-details-page.png)
 
     5. Select **Channels** to view the current list of channels.
     6. Select **Add Channel** to add any additional channels to the General channel that you think are needed for your pilot group.
     
-      ![Teams add channel selection window.](media/firstline-worker-add-channel.png)
+        ![Teams add channel selection window.](media/firstline-worker-add-channel.png)
 
     ### Decision Point
 
