@@ -30,7 +30,7 @@ description: "When you get phone numbers or port (transfer) numbers for your org
 There is a new process to interact with the PSTN service desk. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. This article describes everything you need to know to contact the service desk.
 
 > [!NOTE]
-> As of DATE HERE, the current email system has been retired.
+> As of July 22, 2021, the current email system has been retired.
 
 To contact the service desk:
 
