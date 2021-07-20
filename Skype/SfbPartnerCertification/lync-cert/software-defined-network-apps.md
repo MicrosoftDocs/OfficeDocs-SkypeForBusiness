@@ -29,8 +29,6 @@ Applications built on the Lync SDN API provide the ability to quickly detect qua
 
 Registration for the Lync SDN API Developer Program on the [Microsoft Connect web site](https://connect.microsoft.com/invitationentry.aspx) and use invitation ID: LSA-T882-JJYX. Finished applications are submitted for third party testing and then included here.
 
-Developers can download the [Lync SDN API](https://www.microsoft.com/download/details.aspx?id=39714) from the Microsoft Download Center.
-
 ## Aruba Networks Wi-Fi
 * * *
   **Lync 2013**

@@ -141,7 +141,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Telenet](http://business.telenet.be/nl/telefonie-isdn/overzicht) |Telenet SIP Trunking| |
 |[Telenor](http://www.telenor.no/bedrift/samordnet-kommunikasjon/index.jsp) |Telenor Samordnet kommunikasjon (Unified Communication)| |
 |[Telenor Danmark A/S](http://www.telenor.dk/) |Telenor SIP Trunk| |
-|[Telesphere](https://www.telesphere.com/products-services/solutions/private-sip/) |Private SIP for Lync| |
+|[Telesphere](http://telespheresolutions.com/) |Private SIP for Lync| |
 |[TeliaSonera Finland Oyj](http://www.sonera.fi/) |Sonera Business Voice Access| |
 |[Telus](http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking) |IP Trunking| |
 |[ThinkTel](http://www.thinktel.ca/en/sip-for-lync) |SIP Trunking| |

@@ -77,11 +77,11 @@ The Monitoring Pack for Skype for Business Server 2019 includes the following fi
     
 - WatcherNode.msi
     
-## What's New
+## What's new
 
 The following features are new to Skype for Business Server 2019 Management Packs.
 
-- **Changes in [Sept 2019 update](https://www.microsoft.com/download/details.aspx?id=57511)** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
+- **Changes in Sept 2019 update** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
 
 - **Automatic discovery for Client Sign-In** Client applications that sign-in to Skype for Business Server 2019 often automatically discover the server to sign-in to. Synthetic transactions now support verification that automatic discovery is configured correctly.
     
