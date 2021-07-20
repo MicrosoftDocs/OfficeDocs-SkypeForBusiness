@@ -1,5 +1,5 @@
 ---
-title: ITAdmin information for Microsoft Teams for RealWear client (Preview)
+title: IT admin information for Microsoft Teams for RealWear client (Preview)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: ITAdmin walkthrough of the Microsoft Teams for RealWear client.
+description: IT admin walkthrough of the Microsoft Teams for RealWear client.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
