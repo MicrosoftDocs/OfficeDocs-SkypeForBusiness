@@ -44,7 +44,7 @@ The following table briefly summarizes the three types of meetings, the number o
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
 | Meetings  | Up to 20,000* <br> | -Participants up to 1,000 have fully interactive equal meeting capabilities <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  | No |
-| Webinars | Up to 20,000* |-Participants up to 1,000 have fully interactive capabilities <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities  <br> -Audience interaction configurable <br> -Can specify presenters | Yes |
+| Webinars | Up to 20,000* |-Participants up to 1,000 have fully interactive capabilities <br> -Audience interaction configurable <br> -Can specify presenters | Yes |
 | Live events | Up to 20,000** |-Broadcast to large audiences <br>-Moderated Q&A for audience interaction <br> -Can specify producers and presenters, including external presenters<br>-Supports more advanced production capabilities | No |
 ||||
 
@@ -52,7 +52,15 @@ The following table briefly summarizes the three types of meetings, the number o
 
 **The usual 10,000 is increased to 20,000 through December 31, 2021. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
 
-For the best experience in large meetings, Microsoft recommends using the Teams desktop client or Teams mobile clients. Presenters in large meetings should use the Teams desktop client. For more tips on hosting large meetings, see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+**Considerations for large meetings**
+
+When hosting large meetings, consider the following:
+
+- For the best experience in large meetings,webinars, and live events, Microsoft recommends using the Teams desktop client or Teams mobile clients. 
+
+- Presenters in large meetings, webinars, and live events should use the Teams desktop client. 
+
+- For more tips on hosting large meetings, see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
 For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
