@@ -117,7 +117,7 @@ Some of your teams are missing from the list of teams in the Teams overview grid
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 
-Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online PowerShell, with the **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
 1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
