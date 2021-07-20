@@ -1,5 +1,5 @@
 ### YamlMime:Tutorial
-title: Frontline worker Quick Start Guide
+title: Frontline worker quick start guide
 metadata:
   title: Quick start - Microsoft Teams frontline worker
   description: Set up an effective pilot for frontline workers (such as shift, retail, or factory workers) based on agile principles and an iterative approach.
@@ -9,7 +9,6 @@ metadata:
   ms.author: heidip
   ms.reviewer: keschm
   manager: serdars
-  ms.date: 02/09/2019
   ms.service: msteams
   ms.topic: tutorial
   f1.keywords:
