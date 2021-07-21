@@ -79,7 +79,7 @@ To creat a new case, follow these steps:
 To understand case details, Microsoft needs the following information:
 
 - [Case category](#case-category)
-- [Country/region](#country/region)
+- [Country or region](#country-or-region)
 - [Case type](#case-type)
 - [Case title](#case-title)
 - [Additional contacts for notifications](#additional-contacts-for-notifications)
@@ -94,7 +94,7 @@ A case can have one of two categories:
 
 - **General enquiry** - Choose this option if you have questions that will help you determine your request. For example, you need to know if you can port your wireless numbers to Microsoft, or you need to know if Microsoft supports vanity toll-free numbers. 
 
-#### Country/region
+#### Country or region
 
 Select the country/region for which you are submitting this case. If you have requests for multiple countries, you must open one case per country/region.  
 
