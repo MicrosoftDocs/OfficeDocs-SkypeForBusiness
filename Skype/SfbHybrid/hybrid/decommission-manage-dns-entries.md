@@ -24,15 +24,17 @@ description: "Instructions for how to manage DNS entries when decommissioning yo
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Organizations that previously had on-premises deployments of Skype for Business Server or Lync Server may still have DNS entries that point to an on-premises Skype for Business deployment. These records are required if your organization includes on-premises Skype for Business users. However, once your organization no longer has any on-premises Skype for Business or Lync Server users, these original records are no longer required by the on-premises deployment and **these DNS entries must be updated to point to Microsoft 365 (or in some cases removed)** as part of your migration from on-premises to Teams Only, *Microsoft cannot take this step for you.*
+Organizations that previously had on-premises deployments of Skype for Business Server or Lync Server may still have DNS entries that point to an on-premises Skype for Business deployment. These records are required if your organization includes on-premises Skype for Business users. However, once your organization no longer has any on-premises Skype for Business or Lync Server users, these original records are no longer required by the on-premises deployment and **these DNS entries must be updated to point to Microsoft 365 (or in some cases removed)** as part of your migration from on-premises to Teams Only. *Microsoft cannot update these DNS records on your behalf.*
 
-When attempting to grant TeamsOnly to the entire tenant, Teams will check DNS to determine if any of these DNS records exist for Microsoft 365 verified domain in your organization. If any records are found, and if they point to something other than Microsoft 365, the attempt to change the tenant coexistence mode to TeamsOnly will fail by design. This prevents hybrid organizations with on-premises users from mistakenly applying TeamsOnly mode to the tenant--because doing so would break federation for all on-premises Skype for Business users in the organization (whether using Teams or Skype for Business).
+When attempting to grant TeamsOnly to the entire tenant, Teams will check DNS to determine if any of these DNS records listed below exist in each of your Microsoft 365 verified domains in your organization. If any records are found, and if they point to something other than Microsoft 365, the attempt to change the tenant coexistence mode to TeamsOnly will fail by design. This prevents hybrid organizations with on-premises users from mistakenly applying TeamsOnly mode to the tenant--because doing so would break federation for all on-premises Skype for Business users in the organization (whether using Teams or Skype for Business).
 
 
 ## How to identify stale DNS records
 
 To identify any DNS records that prevent your organization from becoming all Teams Only, you can use the Teams admin center to change the coexistence mode to TeamsOnly. Go to
-**Org-wide setting** -> **Teams Upgrade**. Any DNS records that prevent the organization from becoming Teams Only will be included in the error message.  In the event no DNS records are found, the coexistence mode for your organization will be changed to TeamsOnly.   Alternatively, you can use Teams PowerShell to do the same thing.
+**Org-wide setting** -> **Teams Upgrade**. Any DNS records that prevent the organization from becoming Teams Only will be included in the error message.  In the event no DNS records are found, the coexistence mode for your organization will be changed to TeamsOnly.   
+
+Alternatively, you can use Teams PowerShell to do the same thing, as shown below:
 
    ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global
