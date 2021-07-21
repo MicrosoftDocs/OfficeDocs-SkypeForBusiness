@@ -22,6 +22,8 @@ description: "Instructions for implementing  hybrid connectivity between Skype f
 
 # Configure hybrid connectivity between Skype for Business Server and Teams
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 **Summary:** Read this topic to learn how to configure hybrid connectivity between Skype for Business Server and Teams (or Skype for Business Online until its retirement).  Hybrid connectivity enables you to move your on-premises users to Teams (or Skype for Business Online), and enables your users to take advantage of cloud services.
   
 Before performing the steps in this topic, you should have read [Plan hybrid connectivity between Skype for Business Server and Teams](plan-hybrid-connectivity.md).

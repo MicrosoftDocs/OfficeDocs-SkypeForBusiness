@@ -22,6 +22,8 @@ description: "Summary: In an on-premises deployment of Skype for Business Server
 
 # Move users between on-premises and cloud
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 In an on-premises deployment of Skype for Business Server that is enabled for hybrid, you can move users between the on-premises environment and the cloud (whether to Microsoft Teams or to Skype for Business Online prior to its retirement). Whether a user is located on-premises or in the cloud is known as the user’s Skype for Business home:
 
 - Users who are homed on premises interact with on-premises Skype for Business servers.

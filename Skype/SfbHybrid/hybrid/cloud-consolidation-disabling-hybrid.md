@@ -25,6 +25,9 @@ description: "This article includes detailed steps for disabling hybrid as part 
 
 # Disable your hybrid configuration to complete migration to Teams Only 
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
 This article describes how to disable your hybrid configuration before decommissioning your on-premises Skype for Business environment. This is step 2 of the following steps to decommission your on-premises environment:
 
 - Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md).

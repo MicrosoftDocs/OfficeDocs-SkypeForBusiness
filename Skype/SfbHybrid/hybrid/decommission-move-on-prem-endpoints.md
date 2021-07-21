@@ -22,6 +22,8 @@ description: "Migrate hyrid application endpoints before decommissioning a Skype
 
 # Migrate hybrid application endpoints before decommissioning your on-premises environment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article describes how to move required hybrid application endpoints to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 3 of the following steps to decommission your on-premises environment:
 
 - Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md)

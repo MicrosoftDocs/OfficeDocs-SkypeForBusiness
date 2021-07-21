@@ -21,6 +21,9 @@ description: "The following sections provide guidance on how to configure an env
 ---
 
 # Deploy a resource forest topology
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
  
 The following sections provide guidance on how to configure an environment that has multiple forests in a resource/user forest model to provide Skype for Business functionality in a hybrid scenario. 
   
