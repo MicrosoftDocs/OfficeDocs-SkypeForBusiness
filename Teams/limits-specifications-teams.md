@@ -1,7 +1,7 @@
 ---
 title: Limits and specifications for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: microsoftheidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
