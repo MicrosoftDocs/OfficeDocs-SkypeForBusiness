@@ -93,7 +93,7 @@ items:
     
     |  With Shifts  |  Without Shifts  |
     |---------------|------------------|
-    |![A phone screen image with the Shifts option added onto the bottom.](media/firstline-worker-chat-with-shifts.png)    |![A phone screen image with no Shifts option added onto the bottom bar.](media/firstline-worker-chat-without-shifts.png)|
+    |:::image type="content" source="media/firstline-worker-chat-with-shifts.png" alt-text="Screenshot of phone screen with Shifts added":::    |:::image type="content" source="media/firstline-worker-chat-without-shifts.png" alt-text="Screenshot of phone screen without Shifts added":::|
 
     ### Decision points:
 
@@ -119,7 +119,7 @@ items:
     1. Select **Add** (There is a default FirstLineWorker policy you may choose to use instead of creating a custom policy).
     1. Enter a descriptive name for the policy. Remove and re-arrange the pinned apps to match your desired state. Click **Add apps** to add any third-party applications or custom line of business applications you would like to include.
 
-        ![A list of pinned apps.](media/firstline-worker-pinned-apps.png)
+        :::image type="content" source="media/firstline-worker-pinned-apps.png" alt-text="Screenshot of a list of pinned apps":::
 
     #### Configure a messaging policy
     Create a custom messaging policy based on the decisions in Step 2. If you are choosing to enable priority notifications, voice messages, or the “Show favorite channels in chat” configuration, then you will need to set up a frontline worker specific messaging policy.
@@ -138,17 +138,17 @@ items:
 
     2. Search for the pilot users by name.
 
-        ![Teams user information page.](media/firstline-worker-users-page.png)
+        :::image type="content" source="media/firstline-worker-users-page.png" alt-text="Screenshot of Users page in the Teams admin center":::
 
     3. Click the user's display name to open the user details page.
     4. Next to **Assigned policies**, select **Edit**.
 
-        ![Teams user details page.](media/firstline-worker-user-details-page.png)
+        :::image type="content" source="media/firstline-worker-user-details-page.png" alt-text="Screenshot of user details page":::
 
     5. Under **App setup policy**, select the policy created for your pilot, and then click **Save**.
     6. Under **Messaging policy**, select the policy created for your pilot, and then click **Save**.
 
-        ![Teams edit user policies window.](media/firstline-worker-edit-user-policies.png)
+        :::image type="content" source="media/firstline-worker-edit-user-policies.png" alt-text="Screenshot of Edit user policies pane":::
 
     7. Repeat these steps for all pilot users.
 
@@ -191,11 +191,11 @@ items:
     |Frontline manager |Frontline managers in your organization|Creates a set of policies and applies those settings to frontline managers in your organization. |
     |Frontline worker |Frontline workers in your organization|Creates a set of policies and applies those settings to frontline workers in your organization. |
 
-    ![Screenshot of frontline worker and frontline manager policy packages](media/policy-packages-flw.png)
+    :::image type="content" source="media/policy-packages-flw.png" alt-text="Screenshot of frontline worker and frontline manager policy packages":::
 
     Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the frontline worker policy package to frontline workers in your organization, a policy named Frontline_Worker is created for each policy in the package.
 
-    ![Screenshot of policies in the frontline worker package ](media/policy-packages-flw-firstline-worker.png)
+    :::image type="content" source="media/policy-packages-flw-firstline-worker.png" alt-text="Screenshot of policies in the frontline worker policy package":::
 
     #### View the policy settings in the policy package
 
@@ -216,7 +216,7 @@ items:
 
     1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Policy packages**, and then select the policy package you want to assign by clicking to the left of the package name.
     2. Select **Manage users**.
-        ![Screenshot of how to assign a policy package in the admin center](media/policy-packages-flw-assign.png)
+        :::image type="content" source="media/policy-packages-flw-assign.png" alt-text="Screenshot of how to assign a policy package in the Teams admin center":::
     3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each pilot user that you want to add (for up to 20 users).
     4. When you're finished adding users, click **Apply**.
 
@@ -243,20 +243,18 @@ items:
 
     2. Select **Add** from the Manage teams page.
 
-        ![Teams page.](media/firstline-worker-teams-page.png)
-
-    3. Fill in the required fields, including team name, description, and select an appropriate team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several teams. Select **Create team**.
+    3. Complete the required fields, including team name, description, and select an appropriate team owner and privacy level. Be sure to be descriptive in your team name and anticipate expanding the pilot out to several teams. Select **Apply**.
    
-        ![Teams Create a new team menu.](media/firstline-worker-create-new-team.png)
+        :::image type="content" source="media/firstline-worker-create-new-team.png" alt-text="Screenshot of the Add a new team pane":::
 
-    4. Select the team you created to open the **Team Details** page.
+    4. Select the team you created to open the team details page.
 
-        ![Teams detail page.](media/firstline-worker-team-details-page.png)
+        :::image type="content" source="media/firstline-worker-team-details-page.png" alt-text="Screenshot of the teams detail page":::
 
     5. Select **Channels** to view the current list of channels.
     6. Select **Add Channel** to add any additional channels to the General channel that you think are needed for your pilot group.
     
-        ![Teams add channel selection window.](media/firstline-worker-add-channel.png)
+        :::image type="content" source="media/firstline-worker-add-channel.png" alt-text="Screenshot of the Add channel pane":::
 
     ### Decision point
 
@@ -266,7 +264,7 @@ items:
     ### Best practice
     **Keep the channels simple**. We recommend resisting the urge to create a channel for every possible topic of conversation and instead keep things very simple. It’s ok if channels are created over time as needed.
       
-    ![Channels tab contents are shown in Teams.](media/firstline-worker-channels-tab.png)
+    :::image type="content" source="media/firstline-worker-channels-tab.png" alt-text="Screenshot of Channels tab":::
 
     #### Invite the frontline manager and frontline workers
     Now that the team structure is in place and the user policies are applied, it’s time to start inviting your frontline workers.
@@ -274,7 +272,7 @@ items:
     2. Search for the team created during the "Set up your pilot team" phase.
     3. Select the team you created to open the team details page.
 
-        ![Teams details page.](media/firstline-worker-team-details-page.png)
+        :::image type="content" source="media/firstline-worker-team-details-page.png" alt-text="Screenshot of the teams detail page":::
 
     4. Select **Add members**.
     5. Search for the pilot members' names and click **Save**.
