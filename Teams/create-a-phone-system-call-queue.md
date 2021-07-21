@@ -223,7 +223,7 @@ The following clients are supported for call agents in a call queue:
   - Microsoft Teams Android app
 
     > [!NOTE]
-    > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. Microsoft Teams client is only supported with a co-existence mode of Teams Only; see here for more details [Set your coexistence and upgrade settings ](https://docs.microsoft.com/en-us/microsoftteams/setting-your-coexistence-and-upgrade-settings)
+    > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## Call queue cmdlets
 
