@@ -115,14 +115,14 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
+|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). The view-only experience will soon be available for webinars as well. Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
   
-<sup>1</sup> For the best experience in large meetings, we recommend using the Teams desktop client or Teams mobile clients.
+<sup>1</sup> For the best experience in large meetings, webinars, and live events, Microsoft recommends using the Teams desktop client or Teams mobile clients.
   
-<sup>2</sup> In large meetings, we recommend that presenters use the Teams desktop client. For more tips on hosting large meetings, please see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+<sup>2</sup> Presenters in large meetings, webinars, and live events should use the Teams desktop client. For more tips on hosting large meetings, please see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
   
 > [!NOTE]
 > Breakout rooms can only be created in meetings that have fewer than 300 attendees. In addition, creating breakout rooms in a meeting automatically limits the number of meeting attendees to 300. Advise your end-users to not initiate breakout rooms in meetings where they expect more than 300 participants. For more information on large Team meetings, share the guidance [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) with your end-users. 
