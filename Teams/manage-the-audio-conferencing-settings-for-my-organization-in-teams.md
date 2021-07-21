@@ -208,6 +208,31 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
   
 See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+
+## Setting audio conferencing dial-in numbers in PowerShell
+
+You can set a users audio conferencing toll and toll free number in PowerShell.
+
+1. Connect to the Microsoft Teams service
+
+```powershell
+PS C:\> Connect-MicrosoftTeams
+```
+2. Assign a toll number to a user (Example: Assign the toll number +612 800 0000 to sarah@contoso.com)
+
+```powershell
+PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128000000
+```
+
+3. Optional: Assign a toll free number to a user (Example: Assign the toll free number +61 1800 000 000 to sarah@contoso.com)
+
+```powershell
+PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128001234
+```
+
+[!NOTE]
+> You can only assign toll or toll free numbers that are registered within your tenant. 
+
   
 
 ## Want to know more about Windows PowerShell?
