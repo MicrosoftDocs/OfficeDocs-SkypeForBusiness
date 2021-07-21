@@ -25,6 +25,9 @@ description: "This article describes how to achieve that consolidation for organ
 
 # Cloud consolidation for Teams and Skype for Business
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
 Many large enterprises have more than one on-premises AD forest, and in some cases, customers have more than one Exchange and/or Skype for Business Server (or Lync Server) deployment. In addition, even organizations with only one on-premises forest could find themselves in a similar situation via a business merger or acquisition. As these customers move to the cloud, they want to consolidate the multiple instances of a given on-premises workload into the cloud into a single Microsoft 365 or Office 365 organization. This article describes how to achieve that consolidation for organizations with multiple on-premises deployments of Skype for Business (or Lync) who want to move their UC workload to the Microsoft cloud, e.g., Microsoft Teams and/or Skype for Business Online.
 
 [!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
