@@ -22,6 +22,8 @@ description: "Instructions for decommissioning Skype for Business Server."
 
 # Remove your on-premises Skype for Business deployment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article describes how to remove your on-premises Skype for Business deployment. This is step 4 of the following steps to decommission your on-premises environment:
 
 - Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md). 
