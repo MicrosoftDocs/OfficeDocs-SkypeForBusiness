@@ -55,8 +55,7 @@ Support for auto attendant and call queue calls is available in the following cl
 -    Microsoft Teams iPhone app
 -    Microsoft Teams Android app
 
-> [!NOTE]
-    > Microsoft Teams client is only supported with a co-existence mode of Teams Only; see here for more details [Set your coexistence and upgrade settings ](https://docs.microsoft.com/en-us/microsoftteams/setting-your-coexistence-and-upgrade-settings)
+The Teams client is only supported with a [co-existence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## Configure auto attendant and call queue support for Microsoft Teams
 
