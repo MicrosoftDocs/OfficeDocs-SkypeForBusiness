@@ -22,6 +22,8 @@ description: "Summary: Learn how to configure interoperability between your on-p
 
 # Configure Skype for Business hybrid
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 To configure Skype for Business hybrid, you need to:
 
 - [Configure your on-premises Edge service to federate with Teams](#configure-your-on-premises-edge-service-to-federate-with-teams).
