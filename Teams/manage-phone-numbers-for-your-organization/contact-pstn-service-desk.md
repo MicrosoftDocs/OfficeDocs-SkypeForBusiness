@@ -79,7 +79,7 @@ To creat a new case, follow these steps:
 To understand case details, Microsoft needs the following information:
 
 - [Case category](#case-category)
-- [Country/region](#country)
+- [Country/region](#country/region)
 - [Case type](#case-type)
 - [Case title](#case-title)
 - [Additional contacts for notifications](#additional-contacts-for-notifications)
