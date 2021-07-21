@@ -22,6 +22,8 @@ description: "Move users before decommissioning a Skype for Business on-premises
 
 # Move required users before decommissioning your on-premises environment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article describes how to move required users to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 1 of the following steps to decommission your on-premises environment:
 
 - **Step 1. Move all required users from on-premises to online.** (This article)
