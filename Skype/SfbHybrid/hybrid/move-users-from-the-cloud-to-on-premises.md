@@ -22,6 +22,8 @@ description: "Learn how to move users from Skype for Business Online to on-premi
 
 # Move users from the cloud to on-premises 
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 If needed, you can move a user who was previously migrated from on-premises to the cloud (whether using Skype for Business Online or Teams Only) back to on-premises. To move users from either Skype for Business Online or TeamsOnly mode back to an on-premises deployment of Skype for Business Server, use either the Move-CsUser cmdlet or the Skype for Business Server Control Panel, both of which are on-premises tools. When you move a user back to an on-premises deployment, you must decide which pool to move the user to.
 
 > [!Important]

@@ -22,6 +22,8 @@ ms.custom: seo-marvel-jun2020
 
 # Plan hybrid connectivity between Skype for Business Server and Teams
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Teams (or Skype for Business Online until July 31, 2021). Setting up hybrid connectivity is the first step in moving your on-premises environment to the cloud.
 
 If you have on-premises Skype for Business users that are also using Teams (side by side), those users do not have the ability to interoperate with Skype for Business users from their Teams client, nor communicate with users in federated organizations, from their Teams client. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in Teams Only mode, which ensures all incoming calls and chats from any user land in the user’s Teams client.
