@@ -67,7 +67,7 @@ Download the assets from [this location](https://aka.ms/flwteamsscale).
     1. Create users and security groups
     1. Assign licensing to users via group-based licensing
 1. **Assign users and policies**
-    1. Assign users to Teams
+    1. Assign users to teams
     1. Assign Teams policies to users
     1. Optional: Convert group membership type
 1. **Test and validate**
