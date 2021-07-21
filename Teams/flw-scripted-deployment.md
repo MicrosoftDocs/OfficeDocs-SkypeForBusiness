@@ -1,5 +1,5 @@
 ---
-title: Provisioning Microsoft Teams at scale for frontline workers
+title: Provisioning Microsoft Teams at scale for Frontline Workers
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: keschm
-description: Guidance on using scripts to deploy or provision Microsoft Teams for frontline workers.
+description: Guidance on using scripts to deploy or provision Microsoft Teams for Frontline Workers.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
-# How to provision Teams at scale for frontline workers
+# How to provision Teams at scale for Frontline Workers
 
 Do you need to rapidly onboard a large number of users to Microsoft Teams and configure a streamlined experience for them? You can quickly provision identities, provision teams, and assign all relevant policies to control the end user experience by walking through the following instructions.
 

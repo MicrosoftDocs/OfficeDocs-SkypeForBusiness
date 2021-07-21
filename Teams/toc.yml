@@ -1510,9 +1510,9 @@ items:
           href: sku-reference-edu.md
     - name: Teams for Frontline Workers
       items: 
-        - name: Quickstart for frontline workers
+        - name: Frontline Worker quick start guide
           href: flw-quickstart.yml
-        - name: Frontline workers scripted deployment
+        - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
         - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md

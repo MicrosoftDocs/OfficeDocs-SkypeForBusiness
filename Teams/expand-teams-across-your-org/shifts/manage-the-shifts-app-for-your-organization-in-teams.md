@@ -65,17 +65,17 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](../../manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
 
-### Use the FrontlineWorker app setup policy to pin Shifts to Teams
+### Use the FirstLineWorker app setup policy to pin Shifts to Teams
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
  
-Teams includes a built-in FrontlineWorker app setup policy that you can assign to frontline workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
+Teams includes a built-in FirstLineWorker app setup policy that you can assign to frontline workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps.
 
-To view the FrontlineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
+To view the FirstLineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 
-![Screenshot of the FrontlineWorker app setup policy](../../media/firstline-worker-app-setup-policy.png "Screenshot of the FrontlineWorker app setup policy in the Microsoft Teams admin center")
+![Screenshot of the FirstLineWorker app setup policy](../../media/firstline-worker-app-setup-policy.png "Screenshot of the FirstLineWorker app setup policy in the Microsoft Teams admin center")
 
-#### Assign the FrontlineWorker app setup policy to users
+#### Assign the FirstLineWorker app setup policy to users
 
 [!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
