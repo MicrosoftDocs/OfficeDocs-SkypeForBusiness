@@ -8,8 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to switch from Stream to OneDrive for Business and SharePoint Online meeting recording storage in Microsoft Teams.
-localization_priority: Normal
+description: Learn how to switch from Stream to OneDrive for Business and SharePoint meeting recording storage in Microsoft Teams.
+localization_priority: Priority
 f1.keywords:
 - NOCSH
 ms.collection: 
