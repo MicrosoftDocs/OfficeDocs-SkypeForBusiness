@@ -271,6 +271,7 @@ The following settings can be customized to meet your business needs. These are 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Add**.
+
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page":::
 
 3. Enter a name and description for the policy. For example, Frontline manager app permission policy.
@@ -285,6 +286,7 @@ The following settings can be customized to meet your business needs. These are 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Add**.
+
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page":::
 
 3. Enter a name and description for the policy. For example, Frontline worker app permission policy.
