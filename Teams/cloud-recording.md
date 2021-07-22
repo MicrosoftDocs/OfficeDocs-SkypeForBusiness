@@ -174,6 +174,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |I want transcription of the recording to be 100% disabled. |<ol><li>Confirm Global CsTeamsMeetingPolicy has AllowTranscription = False. <li>All users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowTranscription = False. </ol>|
 |I want transcription to be disabled for the majority of the users but selectively enable specific users who are allowed to transcribe. |<ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False. <li>Majority of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False. <li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True. </ol>|
 
+### Terms of use acceptance
+If your organization has a meeting recording policy that you would like your users to accept before recording a meeting, you will need to use the [Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use) feature. This feature allows you to have your users accept your organization's terms of user policy before getting access to Microsoft Teams. This featue is not specific to the act of clicking the record button, but instead related to using Teams or other Microsoft 365 apps overall. Our suggestion is to add your meeting recording specific information to your overall terms of use for using Teams or Microsoft 365. 
 
 ## Permissions and storage
 
