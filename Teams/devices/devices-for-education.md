@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
-ms.reviewer: jsarrasin
+ms.reviewer: 
 description: Outlining the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
 ms.collection: 
   - M365-voice
@@ -39,8 +39,7 @@ The modern, hybrid classroom will be boundaryless. Students and educators will b
 
 To ensure students and educators working remotely can fully participate in group collaboration and meetings, education workspaces will need technology to help bridge the divide between the old, in-person models and the new, hybrid and remote spaces.
 
-<img src="c:\Users\user1/media/image1.png" style="width:6.5in;height:3.09722in" alt="A picture containing indoor, chair, ceiling, room" />
-
+:::image type="content" source="Teams/media/devices1.png" alt-text="Future technology render showing remote attendees displayed in a physical room.":::
 *This image represents future technology.*
 
 ## Why choose a native Teams experience?
@@ -53,13 +52,6 @@ Non-native and self-built systems that rely on external services, or a bring-you
 
 Teams Rooms go beyond what can be done with Teams on personal devices by providing unique in-room capabilities, like one-touch join, content cameras to share physical whiteboards into the meeting in an intelligent way, and proximity features like seamlessly transferring a Teams meeting from your personal device to the room.
 
-<img src="c:\Users\user1/media/image2.png" style="width:0.49057in;height:0.38925in" />
-
-<img src="c:\Users\user1/media/image3.png" style="width:0.54335in;height:0.54335in" />
-
-<img src="c:\Users\user1/media/image4.png" style="width:0.63507in;height:0.54335in" />
-
-<img src="c:\Users\user1/media/image5.png" style="width:0.48097in;height:0.58548in" />
 
 ## Space considerations
 
