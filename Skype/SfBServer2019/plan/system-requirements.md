@@ -16,7 +16,7 @@ description: "Summary: Prepare your Skype for Business Server 2019 servers and d
 
 # System requirements for Skype for Business Server 2019
  
-**Summary:** Prepare to install Skype for Business Server 2019 with this topic. Hardware, OS, software, databases, certificates, Active Diretory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+**Summary:** Prepare to install Skype for Business Server 2019 with this topic. Hardware, OS, software, databases, certificates, Active Directory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
   
 As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article will walk you through planning for the following:
   
@@ -380,7 +380,7 @@ Skype for Business Server 2019 requires DNS, for the following reasons:
     
 - It associates simple URLs for conferences with the servers hosting those conferences.
     
-- DNS allows external users and client machines to connect to your Edge Servers, or the HTTP reverse proxy, for instant messaging (IM) or conferencing.
+- DNS allows guests and client machines to connect to your Edge Servers, or the HTTP reverse proxy, for instant messaging (IM) or conferencing.
     
 - It lets unified communications (UC) devices that aren't logged in discover the Front End pool or Standard Edition server that's running the Device Update web service to get updates and send logs.
     
@@ -413,7 +413,7 @@ These are some of the things that Skype for Business Server 2019 uses certificat
     
 - Remote user access for instant messaging (IM)
     
-- External user access to audio/video (AV) sessions, application sharing, and conferencing
+- Guest access to audio/video (AV) sessions, application sharing, and conferencing
     
 - Talking to web applications and Outlook Web Access (OWA)
     
@@ -490,7 +490,7 @@ Certificates for Survivable Branch Appliance (Specifically, Survivable Branch Ap
 |:-----|:-----|:-----|:-----|
 |Default  <br/> |FQDN of the appliance  <br/> |SIP.\<sipdomain\> (you need only one entry per SIP domain)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
-### Certificates for external user access (Edge)
+### Certificates for guest access (Edge)
 
 Skype for Business Server 2019 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface will typically use a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this as well, if it's from a trusted CA.
   
@@ -510,7 +510,7 @@ You'll need SAN names for automatic discovery on the following certificates:
     
 The specifics are listed in the tables below.
   
-This is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up later when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricy.
+This is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up later when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricey.
   
 If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). The [Plan for Mobility](../../SfbServer/plan-your-deployment/mobility.md) article has more information on this.
   
