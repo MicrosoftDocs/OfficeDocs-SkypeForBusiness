@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW
+ROBOTS: NOINDEX,NOFOLLOW
 appliesto: 
   - Microsoft Teams
 ---

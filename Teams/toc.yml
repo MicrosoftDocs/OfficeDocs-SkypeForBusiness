@@ -1512,8 +1512,6 @@ items:
       items: 
         - name: Frontline Worker quick start guide
           href: flw-quickstart.yml
-        - name: Frontline Worker onboarding wizard
-          href: flw-onboarding-wizard.md
         - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
         - name: Manage shift-based access for frontline workers
