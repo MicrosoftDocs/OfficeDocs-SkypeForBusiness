@@ -25,7 +25,7 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-    In this training, we'll walk you through how to set up an effective pilot for frontline workers based on agile principles and an iterative approach. Frontline workers are frontline workers who might be factory workers, retail specialists, healthcare specialists or any staff member who regularly engages with customers on behalf of your company.
+    In this training, we'll walk you through how to set up an effective pilot for frontline workers based on agile principles and an iterative approach. Frontline workers are workers who might be factory workers, retail specialists, healthcare specialists or any staff member who regularly engages with customers on behalf of your company.
     
     > [!NOTE]
     > Please review and complete the [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md) prior to beginning this work.
