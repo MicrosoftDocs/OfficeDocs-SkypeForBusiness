@@ -67,10 +67,7 @@ Guests can leave the team at any time from within Teams. For details, see  [How 
 
 ## Licensing for guest access
 
-Guest access is included with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. Teams doesn't restrict the number of guests you can add. However, the total number of guests that can be added to your tenant may be restricted by the paid features of Azure AD. For more information, see [Billing model for Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance).
-
-> [!NOTE]
-> Users in your organization who have standalone Microsoft 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guests to your organization because Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned an Microsoft 365 Business Standard, Office 365 Enterprise, or Office 365 Education subscription. 
+Guest access can be used with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. The [billing model for Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance) applies to guests in Microsoft 365. Only peope from outside your organization can be invited as guests.
 
 ## Guest access reviews
 
