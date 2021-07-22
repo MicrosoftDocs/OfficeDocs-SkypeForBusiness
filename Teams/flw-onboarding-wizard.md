@@ -25,6 +25,10 @@ The Frontline Worker onboarding wizard in the Microsoft 365 admin center simplif
 
 The wizard sets up a team for your frontline workers and assigns licenses and [policy packages](manage-policy-packages.md) to each team member. You can create your team from scratch or from a [team template](get-started-with-teams-templates.md), and then you add users and assign roles. The role determines the policy package that the wizard assigns to each user.
 
+placeholder image
+
+:::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Screenshot of the wizard page, showing the Get started button and information about Microsoft 365 for frontline workers and user impact":::
+
 The wizard is available to all organizations that have at least one Microsoft 365 F license. You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
 
 ## Run the wizard
@@ -35,7 +39,15 @@ The wizard is available to all organizations that have at least one Microsoft 36
 
 3. Enter a name for your team, select a privacy setting, and add one or more team owners. Then, choose whether to create your team from scratch or from a team template. Team templates come with predefined channels and tabs, which optimize the team for a particular business need or project.
 
+    placeholder image
+
+    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot of the wizard page for setting up your team":::
+
 4. Add users to the team. You can also add groups. If you add groups, keep in mind that licenses and policy packages are directly assigned to each user in the group, not the group itself.
+
+    placeholder image
+
+   :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot of the wizard page for adding users to your team ":::
 
 5. Assign one of the following roles to each team member.
 
@@ -45,9 +57,18 @@ The wizard is available to all organizations that have at least one Microsoft 36
 
     By assigning a Frontline worker or Frontline manager role, that user will receive an experience in Teams that's tailored to their role. This includes pre-pinned apps and policies for healthy frontline worker and manager communication and collaboration.
 
+    placeholder image
+
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot of the wizard page for assigning roles and licenses to team members":::
+
     Next, assign a Microsoft 365 F license to each team member. If you don’t have enough licenses, you can select **Buy more licenses** to purchase more licenses.  
 
 6. Choose who receives the status email after the wizard is completed. The email contains success and failure information about the actions performed by the wizard&mdash;creating the team, adding team members, and assigning a license and policy package to each team member. Use this information to troubleshoot any errors that may occur.
+
+    placeholder image
+
+    :::image type="content" source="media/flw-onboarding-wizard-add-email-recipients.png" alt-text="Screenshot of the wizard page for choosing recipients who will receive the status email":::
+
 7. Review your selections, and then select **Confirm**.
 
     The wizard creates your team and assigns licenses and policy packages to team members. This may take a few minutes to complete, after which the recipients you chose receive a status email.
