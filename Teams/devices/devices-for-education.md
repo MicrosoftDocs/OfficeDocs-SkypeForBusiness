@@ -39,7 +39,7 @@ The modern, hybrid classroom will be boundaryless. Students and educators will b
 
 To ensure students and educators working remotely can fully participate in group collaboration and meetings, education workspaces will need technology to help bridge the divide between the old, in-person models and the new, hybrid and remote spaces.
 
-:::image type="content" source="Teams/media/devices1.png" alt-text="Future technology render showing remote attendees displayed in a physical room.":::
+:::image type="content" source="devices/media/devices1.png" alt-text="Future technology render showing remote attendees displayed in a physical room.":::
 *This image represents future technology.*
 
 ## Why choose a native Teams experience?
@@ -52,6 +52,14 @@ Non-native and self-built systems that rely on external services, or a bring-you
 
 Teams Rooms go beyond what can be done with Teams on personal devices by providing unique in-room capabilities, like one-touch join, content cameras to share physical whiteboards into the meeting in an intelligent way, and proximity features like seamlessly transferring a Teams meeting from your personal device to the room.
 
+**Purpose-built for Teams** 
+Advanced audio and video and sharing
+**Expansive device portfolio for any room**
+Select from fully modularized or integrated form factors across Android or Windows operating systems
+**Reimagined room experiences**
+Join Teams meetings friction-free to engage in inclusive, collaborative meetings for students and educators alike
+**Easily managed from one place**
+Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Premium
 
 ## Space considerations
 
@@ -65,8 +73,6 @@ For existing spaces, the technology should align to the furniture’s existing l
 For new spaces, the intended use of the room should drive both furniture and technology considerations. For example, when designing a room intended to facilitate both office space and meetings, the two uses should be separate for maximum efficiency.
 
 The following pair of images illustrate optimized Teams setups in an existing classroom space (left) and in a new, multi-purpose space (right):
-
-<img src="c:\Users\user1/media/image6.png" style="width:3.51887in;height:1.9756in" alt="HIgher education scenario" /><img src="c:\Users\user1/media/image7.png" style="width:2.88679in;height:1.97024in" alt="A picture containing text, indoor, desk" />
 
 ### What is the function of the space?
 
@@ -132,8 +138,6 @@ For a fully interactive experience, interactive displays (such as the Surface Hu
 
 A public space, such as a common room in a family home or a table at a library, usually means users have to contend with noise, a lack of a permanent workspace, and other potential distractions.
 
-<img src="c:\Users\user1/media/image8.png" style="width:8.54097in;height:4.57361in" />
-
 *The solution shown is:*
 
 A personal computer device used with a certified Teams headset.
@@ -155,8 +159,6 @@ Very easy. This is something that can handled entirely by end users by simply co
 ### Personal space
 
 A personal space can be anything from a student’s bedroom to an educator’s office. Personal spaces generally mean the user has privacy within their working or learning environment, as well as a dedicated workspace.
-
-<img src="c:\Users\user1/media/image9.png" style="width:6.74028in;height:3.48681in" />
 
 *The solution shown is:*
 
@@ -182,8 +184,6 @@ Very easy. This can be handled entirely by end users by simply combing their PC 
 
 These spaces are ideal for small-group collaboration and discussion.
 
-<img src="c:\Users\user1/media/image10.png" style="width:9.0875in;height:6.15417in" />
-
 *The solution shown is:*
 
 A huddle room with the Microsoft Teams Room system for Windows.
@@ -205,8 +205,6 @@ Relatively easy. This solution features a limited number of components and assoc
 ### Medium and large meeting rooms
 
 These medium and large rooms are ideal for conferences and group collaboration.
-
-<img src="c:\Users\user1/media/image11.png" style="width:9.41389in;height:6.42083in" />
 
 *The solution shown is:*
 
@@ -232,8 +230,6 @@ Medium complexity because of the room wiring and setup. The solution requires mu
 
 Classrooms, including traditional and reverse classrooms, require active engagement from everyone present. Effective instruction, discussion, and collaboration among many parties is key.
 
-<img src="c:\Users\user1/media/image12.png" style="width:8.18056in;height:3.68056in" />
-
 *The solution shown is:*
 
 A classroom designed for both in-person and remote student participants with a layout that accommodates a single educator addressing both groups simultaneously.
@@ -255,8 +251,6 @@ Complex. This room features a physical installation, including wiring, that requ
 ### Lecture halls
 
 Much like classrooms, lecture halls contain numerous students who must focus on an educator and any information they’re presenting. However, lecture halls generally don’t require the same amount of interaction among students. The focus is on information, not collaboration.
-
-<img src="c:\Users\user1/media/image13.png" style="width:8.50764in;height:4.78056in" />
 
 *The solution shown is:*
 
@@ -283,8 +277,6 @@ Highly complex. This room features a physical installation that will require a k
 ### Boardrooms
 
 Boardrooms bring teams together for big discussions and decisions, and so technology needs to ensure that virtual attendees have an equal role to their in-person counterparts in the back and forth.
-
-<img src="c:\Users\user1/media/image14.png" style="width:9.63403in;height:6.58056in" />
 
 *The solution shown is:*
 
@@ -329,5 +321,3 @@ A room system with a large, projector-based front-of-room display, multiple touc
 *Installing or setting up this solution is:*
 
 Highly complex. A multi-purpose space as described requires a knowledgeable AV deployment partner to properly plan for and deploy the projector-based display and camera and audio solutions, as well as to correctly configure both the Microsoft Teams Room system and the associated Surface Hub 2 devices so that they work seamlessly for the end users in the space.
-
-<img src="c:\Users\user1/media/image15.png" style="width:7.93403in;height:4.01597in" />
