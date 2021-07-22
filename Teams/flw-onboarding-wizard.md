@@ -1,5 +1,5 @@
 ---
-title: Use the frontline worker onboarding wizard to get your frontline workforce up and running
+title: Use the Frontline Worker onboarding wizard to get your frontline workforce up and running
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to use the frontline worker onboarding wizard to quickly deploy an experience in Teams that's tailored to frontline workers and managers in your organization.
+description: Learn how to use the Frontline Worker onboarding wizard to quickly deploy an experience in Teams that's tailored to frontline workers and managers in your organization.
 localization_priority: Normal
 ms.collection: 
   - M365-collaboration
@@ -17,11 +17,11 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use the frontline worker onboarding wizard to get your frontline workforce up and running
+# Use the Frontline Worker onboarding wizard to get your frontline workforce up and running
 
 ## Overview
 
-The frontline worker onboarding wizard in the Microsoft 365 admin center simplifies onboarding frontline workers to your organization. The wizard lets you quickly deploy an experience in Microsoft Teams that's tailored to your frontline workforce. Using the wizard, you can easily kick off your pilot deployment of Teams for the frontline workers in your organization.
+The Frontline Worker onboarding wizard in the Microsoft 365 admin center simplifies onboarding frontline workers to your organization. The wizard lets you quickly deploy an experience in Microsoft Teams that's tailored to your frontline workforce. Using the wizard, you can easily kick off your pilot deployment of Teams for the frontline workers in your organization.
 
 The wizard sets up a team for your frontline workers and assigns licenses and [policy packages](manage-policy-packages.md) to each team member. You choose a [team template](get-started-with-teams-templates.md) for the team, and then add users and assign roles. The role determines the policy package that the wizard assigns to each user.
 
