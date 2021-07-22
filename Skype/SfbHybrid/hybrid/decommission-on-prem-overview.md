@@ -22,6 +22,8 @@ description: "Instructions for how to decommission your on-premises Skype for Bu
 
 # Decommission your on-premises Skype for Business environment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 If your organization uses Teams or Skype for Business Online with an on-premises deployment of Skype for Business Server, you can migrate these environments fully to the cloud, and then retire your on-premises deployment of Skype for Business Server. 
 
 > [!NOTE]

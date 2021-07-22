@@ -22,6 +22,8 @@ description: "Summary: Learn how to migrate user settings and move users to Team
 
 # Move users from on-premises to Teams
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 When a user is moved from on premises to Teams Only, the user’s Skype for Business home is moved from on premises to online and the user is assigned TeamsUpgradePolicy with mode=TeamsOnly.  After a user is moved from on-premises to TeamsOnly mode:
 
 - All incoming calls and chats from other users (whether sent from Skype for Business or Teams), will land in the user’s Teams client.
