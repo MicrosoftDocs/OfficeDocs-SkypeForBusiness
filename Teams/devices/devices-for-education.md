@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
 ms.reviewer: 
-description: Outlining the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
+description: Outlines the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -53,12 +53,19 @@ Non-native and self-built systems that rely on external services, or a bring-you
 Teams Rooms go beyond what can be done with Teams on personal devices by providing unique in-room capabilities, like one-touch join, content cameras to share physical whiteboards into the meeting in an intelligent way, and proximity features like seamlessly transferring a Teams meeting from your personal device to the room.
 
 **Purpose-built for Teams** 
+
 Advanced audio and video and sharing
+
 **Expansive device portfolio for any room**
+
 Select from fully modularized or integrated form factors across Android or Windows operating systems
+
 **Reimagined room experiences**
+
 Join Teams meetings friction-free to engage in inclusive, collaborative meetings for students and educators alike
+
 **Easily managed from one place**
+
 Fully manage and keep devices up to date and ready to go in Teams Admin Center and enable 24x7 proactive management from Microsoft with Microsoft Teams Rooms Premium
 
 ## Space considerations
