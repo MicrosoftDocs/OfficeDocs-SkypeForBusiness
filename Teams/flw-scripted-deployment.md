@@ -225,11 +225,11 @@ The following settings can be customized to meet your business needs. We have ch
 7. Remove Calling, if it appears. Removing this feature will not disable it for the user, but will prevent it from appearing on the app bar to simplify the end user experience.
 8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
 
-    1. Activity
-    1. Chat
-    1. Teams
-    1. Calendar
-    1. Shifts
+    - Activity
+    - Chat
+    - Teams
+    - Calendar
+    - Shifts
 
     :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Screenshot of apps for frontline managers listed in order":::
 
@@ -252,10 +252,10 @@ The following settings can be customized to meet your business needs. We have ch
 
 7. Remove Meetings and Calling, if they appear. Removing these features will not disable them for the user, but will prevent them from appearing on the app bar to simplify the end user experience.
 8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
-    1. Activity
-    1. Chat
-    1. Teams
-    1. Shifts
+    - Activity
+    - Chat
+    - Teams
+    - Shifts
 
     :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Screenshot of apps for frontline workers listed in order":::
 
@@ -274,9 +274,9 @@ The following settings can be customized to meet your business needs. These are 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page":::
 
 3. Enter a name and description for the policy. For example, Frontline manager app permission policy.
-4. Under Microsoft apps, select **Allow all apps**.
-5. Under Third-party apps, select **Allow all apps**.
-6. Under Tenant apps, select **Allow all apps**.
+4. Under **Microsoft apps**, select **Allow all apps**.
+5. Under **Third-party apps**, select **Allow all apps**.
+6. Under **Custom apps**, select **Allow all apps**.
 7. Click **Save**.
 
 #### Create the frontline worker app permission policy
@@ -288,9 +288,9 @@ The following settings can be customized to meet your business needs. These are 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page":::
 
 3. Enter a name and description for the policy. For example, Frontline worker app permission policy.
-4. Under Microsoft apps, select **Allow all apps**.
-5. Under Third-party apps, select **Block all apps**.
-6. Under Tenant apps, select **Allow all apps**.
+4. Under **Microsoft apps**, select **Allow all apps**.
+5. Under **Third-party apps**, select **Block all apps**.
+6. Under **Custom apps**, select **Allow all apps**.
 7. Click **Save**.
 
 ## Users and security groups
