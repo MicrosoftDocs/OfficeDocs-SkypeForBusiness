@@ -1,5 +1,5 @@
 ---
-title: 'Teams voice Contoso case study : Emergency calling'
+title: 'Teams voice Contoso case study: Emergency calling'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
