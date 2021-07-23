@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: 'Teams voice case study for multi-national corporation: Upgrade planning.'
 appliesto: 
   - Microsoft Teams
 ---
