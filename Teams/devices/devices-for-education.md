@@ -35,7 +35,7 @@ The modern, hybrid classroom will be boundaryless. Students and educators will b
 
 -   Using personal and shared devices in a digital or hybrid learning environment helps students socialize and gain key skills they’ll use throughout their lives.
 
--   Teams functionality is not restricted to the classroom. Educators and administrators can easily connect with other faculty and staff within the same school or within the entire school district from their home, office, or wherever else they’ve optimized their environment. With Teams, professional development is accessible from anywhere.
+-   Teams functionality isn't restricted to the classroom. Educators and administrators can easily connect with other faculty and staff within the same school or within the entire school district from their home, office, or wherever else they’ve optimized their environment. With Teams, professional development is accessible from anywhere.
 
 To ensure students and educators working remotely can fully participate in group collaboration and meetings, education workspaces will need technology to help bridge the divide between the old, in-person models and the new, hybrid and remote spaces.
 
