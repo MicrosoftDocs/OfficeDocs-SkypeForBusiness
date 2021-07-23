@@ -85,7 +85,7 @@ The following pair of images illustrates optimized Teams setups in an existing c
 
 ### What is the function of the space?
 
-*Will the activities in the space focus on collaborative co-creation?*
+*Will the activities in the space focus on collaborative cocreation?*
 
 Creativity requires a layout and a technology deployment that is designed around user collaboration. The right space facilitates work between users and the technology seamlessly and eliminate friction for even the most novice users. Teams devices are user-friendly enough for young students to navigate adeptly, and for educators to control and customize from first use.
 
@@ -115,11 +115,11 @@ Pairing the right microphone and speakers for each space will give the best poss
 
     -   In larger spaces, the microphones and speakers separate to ensure maximum coverage across all participants in the space. Many solutions for medium- to large-sized rooms are available as part of a kit that requires no configuration, only physical installation of microphones and speakers.
 
-    -   In the very largest and most complex spaces, solutions are available that allow for a variety of microphone and speaker types to be used together, such as capturing a lecturer and audience voice from a large hall while simultaneously bringing the call to everyone. These solutions are best achieved when deployed with a Microsoft partner who has expertise in the design and deployment of more technically involved solutions.
+    -   In the very largest and most complex spaces, solutions are available that allow for various microphone and speaker types to be used together, such as capturing a lecturer and audience voice from a large hall while simultaneously bringing the call to everyone. These solutions are best achieved when deployed with a Microsoft partner who has expertise in the design and deployment of more technically involved solutions.
 
 *Video*
 
-Video is equally important as audio. Capturing physical, non-verbal communication like facial expressions or gestures is as important as the classroom or meeting content to ensure maximum engagement and understanding. Rooms need to be equipped with the appropriate size of display so that everyone can experience the meeting properly, whether in the room or remote. This is why rooms also need to have the right camera coverage and field of view (FOV) to effectively capture all the in-room meeting participants for those joining remotely.
+Video is equally important as audio. Capturing physical, non-verbal communication like facial expressions or gestures is as important as the classroom or meeting content to ensure maximum engagement and understanding. Rooms need to be equipped with the appropriate size of display so that everyone can experience the meeting properly, whether in the room or remote. Rooms need to have the right camera coverage and field of view (FOV) to effectively capture all the in-room meeting participants for those joining remotely.
 
 ### What are the right cameras for each space?
 
@@ -129,11 +129,11 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 
 -   In shared spaces, the options and features expand. Smaller rooms may be covered by cameras included within all-in-one audio devices, such as soundbars. These cameras typically feature a wide field of view, ensuring that they capture every participant in the space in a single shot. Many of these cameras also feature things like intelligent framing of the image, so that the camera only shows the people in the meeting and not empty chairs, or people counting, to track and understand space utilization.
 
--   In larger rooms, cameras feature the technology needed to capture participants in a variety of locations at varying distances away. These cameras can capture groups or focus on specific individuals while maintaining great visual clarity. Devices that can track and feature only active speakers are regularly used in larger spaces so that many participants may be featured individually throughout a meeting as they contribute their thoughts.
+-   In larger rooms, cameras feature the technology needed to capture participants in various locations at varying distances away. These cameras can capture groups or focus on specific individuals while maintaining great visual clarity. Devices that can track and feature only active speakers are regularly used in larger spaces so that many participants may be featured individually throughout a meeting as they contribute their thoughts.
 
 ### How do you interact virtually beyond video streams?
 
-Teams meetings go beyond just audio and video calling for participants. There are a variety of ways to share and interact dynamically with content.
+Teams meetings go beyond just audio and video calling for participants. There are many ways to share and interact dynamically with content.
 
 A common scenario is sharing content directly from a participant’s device. Individual users can share the full audio and visual experience from individual applications or the entire contents of their screen directly to the meeting for everyone to view. This extends to all shared spaces with installed devices. Microsoft Teams Rooms also have the option to use a wired monitor connection to allow participants to share even if they lack the ability to join the meeting individually.
 
@@ -165,7 +165,7 @@ A laptop running Teams ensures the user is not confined to one working area and 
 
 *Installing or setting up this solution is:*
 
-Very easy. This is something that can be handled entirely by end users by simply combing their PC with a certified headset for audio and video calling. 
+Very easy. This is something that can be handled entirely by end users combing their PC with a certified headset for audio and video calling. 
 
 ### Personal space
 
@@ -255,7 +255,7 @@ A classroom designed for both in-person and remote student participants with a l
 
 *Why this layout and device type?*
 
-A large display gives remote participants a physical presence within the room, along with front-of-the-room speakers that allow their voices to be heard by all, even by those at desks furthest from the source. Microphones are situated at the front of the room and throughout the space so teachers and students can move around the room and still be heard. A presentation screen is dedicated to content for both in-room and remote participants.
+A large display gives remote participants a physical presence within the room, along with front-of-the-room speakers that allow their voices to be heard by all, even by people at desks furthest from the source. Microphones are situated at the front of the room and throughout the space so teachers and students can move around the room and still be heard. A presentation screen is dedicated to content for both in-room and remote participants.
 
 *Devices shown:*
 
@@ -297,7 +297,7 @@ Highly complex. This room features a physical installation that will require a k
 
 ### Boardrooms
 
-Boardrooms bring teams together for big discussions and decisions, and so technology needs to ensure that virtual attendees have an equal role to their in-person counterparts in the back and forth.
+Boardrooms bring teams together for significant discussions and decisions, and so technology needs to ensure that virtual attendees have an equal role to their in-person counterparts in the back and forth.
 
 ![Rendering of a boardroom equipped with Teams devices.](../media/devices10.png)
 
