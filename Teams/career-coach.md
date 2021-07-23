@@ -189,7 +189,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 1. Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.
 
-2. Add the LinkedIn school page URL. The URL must be a school page and not a company page and are typically formatted as `https://www.linkedin.com/school/devtest-school/`. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+2. Add the LinkedIn school page URL. The URL must be a school page and not a company page and are typically formatted as `https://www.linkedin.com/school/willow-university/`. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
    ![linkedin school page example](media/career-coach-linkedin-page-url.png)
 
