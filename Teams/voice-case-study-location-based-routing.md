@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: 'Teams voice Contoso case study: Location-based routing'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars

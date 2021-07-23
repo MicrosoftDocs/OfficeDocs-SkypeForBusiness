@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: 'Contoso case study: Phone System for a multi-national corporation'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,7 +19,7 @@ appliesto:
 ---
 
 
-# Contoso case study: Phone System
+# Contoso case study: Phone System for a multi-national corporation
 
 Depending on geographic location and other factors, Contoso had offices using the following telephony solutions:
 

@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: Teams voice Contoso case study overview
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,7 +28,7 @@ Contoso has deployed Microsoft 365 Enterprise and addressed major design decisio
 
 This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso case study overview](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide).
 
-https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
+[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide) 
 
 In the core articles, you'll find information on the following:  
 
