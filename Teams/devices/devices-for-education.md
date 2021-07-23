@@ -39,7 +39,7 @@ The modern, hybrid classroom will be boundaryless. Students and educators will b
 
 To ensure students and educators working remotely can fully participate in group collaboration and meetings, education workspaces will need technology to help bridge the divide between the old, in-person models and the new, hybrid and remote spaces.
 
-![Future technology render showing remote attendees displayed in a physical room.](../media/device1.png)
+![Future technology render showing remote attendees displayed in a physical room.](../media/devices1.png)
 *This image represents future technology.*
 
 ## Why choose a native Teams experience?
@@ -79,7 +79,9 @@ For existing spaces, the technology should align to the furniture’s existing l
 
 For new spaces, the intended use of the room should drive both furniture and technology considerations. For example, when designing a room intended to facilitate both office space and meetings, the two uses should be separate for maximum efficiency.
 
-The following pair of images illustrate optimized Teams setups in an existing classroom space (left) and in a new, multi-purpose space (right):
+The following pair of images illustrates optimized Teams setups in an existing classroom space (top) and in a new, multi-purpose space (bottom):
+
+![Render showing Teams devices in an existing classroom.](../media/devices2.png) ![Render showing a native Teams setup in a purposefully designed space.](../media/devices3.png)
 
 ### What is the function of the space?
 
@@ -145,6 +147,8 @@ For a fully interactive experience, interactive displays (such as the Surface Hu
 
 A public space, such as a common room in a family home or a table at a library, usually means users have to contend with noise, a lack of a permanent workspace, and other potential distractions.
 
+![Image of a student working with a personal PC and headset.](../media/devices4.png)
+
 *The solution shown is:*
 
 A personal computer device used with a certified Teams headset.
@@ -161,11 +165,13 @@ A laptop running Teams ensures the user is not confined to one working area and 
 
 *Installing or setting up this solution is:*
 
-Very easy. This is something that can handled entirely by end users by simply combing their PC with a certified headset for audio and video calling. 
+Very easy. This is something that can be handled entirely by end users by simply combing their PC with a certified headset for audio and video calling. 
 
 ### Personal space
 
 A personal space can be anything from a student’s bedroom to an educator’s office. Personal spaces generally mean the user has privacy within their working or learning environment, as well as a dedicated workspace.
+
+![Rendering of a personal PC setup with a personal speaker and Teams running on the desktop.](../media/devices5.png)
 
 *The solution shown is:*
 
@@ -191,6 +197,8 @@ Very easy. This can be handled entirely by end users by simply combing their PC 
 
 These spaces are ideal for small-group collaboration and discussion.
 
+![Rendering of a huddle room equipped with Teams devices, including displays.](../media/devices6.png)
+
 *The solution shown is:*
 
 A huddle room with the Microsoft Teams Room system for Windows.
@@ -212,6 +220,8 @@ Relatively easy. This solution features a limited number of components and assoc
 ### Medium and large meeting rooms
 
 These medium and large rooms are ideal for conferences and group collaboration.
+
+![Rendering of a large meeting room equipped with Teams devices and displays.](../media/devices7.png)
 
 *The solution shown is:*
 
@@ -237,6 +247,8 @@ Medium complexity because of the room wiring and setup. The solution requires mu
 
 Classrooms, including traditional and reverse classrooms, require active engagement from everyone present. Effective instruction, discussion, and collaboration among many parties is key.
 
+![Rendering of a classroom equipped with Teams devices.](../media/devices8.png)
+
 *The solution shown is:*
 
 A classroom designed for both in-person and remote student participants with a layout that accommodates a single educator addressing both groups simultaneously.
@@ -258,6 +270,8 @@ Complex. This room features a physical installation, including wiring, that requ
 ### Lecture halls
 
 Much like classrooms, lecture halls contain numerous students who must focus on an educator and any information they’re presenting. However, lecture halls generally don’t require the same amount of interaction among students. The focus is on information, not collaboration.
+
+![Rendering of a lecture hall equipped with Teams devices.](../media/devices9.png)
 
 *The solution shown is:*
 
@@ -284,6 +298,8 @@ Highly complex. This room features a physical installation that will require a k
 ### Boardrooms
 
 Boardrooms bring teams together for big discussions and decisions, and so technology needs to ensure that virtual attendees have an equal role to their in-person counterparts in the back and forth.
+
+![Rendering of a boardroom equipped with Teams devices.](../media/devices10.png)
 
 *The solution shown is:*
 
