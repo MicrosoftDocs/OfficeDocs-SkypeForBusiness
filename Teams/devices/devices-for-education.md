@@ -39,7 +39,7 @@ The modern, hybrid classroom will be boundaryless. Students and educators will b
 
 To ensure students and educators working remotely can fully participate in group collaboration and meetings, education workspaces will need technology to help bridge the divide between the old, in-person models and the new, hybrid and remote spaces.
 
-:::image type="content" source="devices/media/devices1.png" alt-text="Future technology render showing remote attendees displayed in a physical room.":::
+![Future technology render showing remote attendees displayed in a physical room.](../media/device1.png)
 *This image represents future technology.*
 
 ## Why choose a native Teams experience?
