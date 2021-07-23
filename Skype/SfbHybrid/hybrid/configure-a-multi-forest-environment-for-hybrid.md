@@ -17,7 +17,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: 
-description: "The following sections provide guidance on how to configure an environment that has multiple forests in a resource/user forest model to provide Skype for Business functionality in a hybrid scenario."
+description: "The following sections descrbie how to configure an environment that has multiple forests in a resource/user forest model to provide functionality in a hybrid scenario."
 ---
 
 # Deploy a resource forest topology
@@ -25,7 +25,7 @@ description: "The following sections provide guidance on how to configure an env
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
  
-The following sections provide guidance on how to configure an environment that has multiple forests in a resource/user forest model to provide Skype for Business functionality in a hybrid scenario. 
+The following sections describe how to configure an environment that has multiple forests in a resource/user forest model to provide functionality in a hybrid scenario. 
   
 ![Multi-Forest Environment for Hybrid](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
@@ -33,7 +33,7 @@ The following sections provide guidance on how to configure an environment that 
 
 Multiple user forests are supported. Keep the following in mind: 
     
-- For supported versions of Lync Server and Skype for Business Server in a hybrid configuration, see [Server version requirements](plan-hybrid-connectivity.md#server-version-requirements) in [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md).
+- For supported versions of Lync Server and Skype for Business Server in a hybrid configuration, see [Plan hybrid connectivity](plan-hybrid-connectivity.md).
     
 - Exchange Server can be deployed in one or more forests, which may or may not include the forest containing Skype for Business Server. Make sure you have applied the latest Cumulative Update.
     
@@ -42,15 +42,21 @@ Multiple user forests are supported. Keep the following in mind:
   
 ## User homing considerations
 
-Skype for Business users homed on premises can have Exchange homed on premises or online. Skype for Business Online users should use Exchange Online for an optimal experience; however, this is not required. Exchange on premises is not required to implement Skype for Business in either case.
+Skype for Business users homed on premises can have Exchange homed on premises or online. Teams users should use Exchange Online for an optimal experience; however, this is not required. Exchange on premises is not required to implement Skype for Business in either case.
   
 ## Configure forest trusts
 
-In a resource forest topology, the resource forests hosting Skype for Business Server must trust each account forest that contains users' accounts that will access it. If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). If you have Exchange Server deployed in an another forest and it provides functionality for Skype for Business users, the forest hosting Exchange must trust the forest hosting Skype for Business Server. For example, if Exchange were deployed in the account forest, this would effectively mean a two-way trust between account and Skype for Business forests is required in that configuration.
+In a resource forest topology, the resource forests hosting Skype for Business Server must trust each account forest that contains users' accounts that will access it. 
+
+If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). 
+
+If you have Exchange Server deployed in an another forest and Exchange provides functionality for Skype for Business users, the forest hosting Exchange must trust the forest hosting Skype for Business Server. For example, if Exchange were deployed in the account forest, a two-way trust between the account and the Skype for Business forests is required.
   
 ## Synchronize accounts into the forest hosting Skype for Business
 
-When Skype for Business Server is deployed in one forest (a resource forest), but provides functionality to users in one or more other forests (account forests), users in the other forests must be represented as disabled user objects in the forest where Skype for Business Server is deployed. An identity management product, such as Microsoft Identity Manager, needs to be deployed and configured to provision and synchronize the users from the account forests into the forest where Skype for Business Server is deployed. Users must be synchronized into the forest hosting Skype for Business Server as disabled user objects. Users cannot be synchronized as Active Directory contact objects, because Azure Active Directory Connect will not properly synchronize contacts into Azure AD for use with Skype.
+Assume Skype for Business Server is deployed in one forest (a resource forest), but provides functionality to users in one or more other forests (account forests). In this case, users in the other forests must be represented as disabled user objects in the forest where Skype for Business Server is deployed.
+
+You need to use an identity management product, such as Microsoft Identity Manager, to provision and synchronize the users from the account forests into the forest where Skype for Business Server is deployed. Users must be synchronized into the forest hosting Skype for Business Server as disabled user objects. Users cannot be synchronized as Active Directory contact objects, because Azure Active Directory Connect will not properly synchronize contacts into Azure AD for use with Skype.
   
 Regardless of any multi-forest configuration, the forest hosting Skype for Business Server can also provide functionality for any enabled users that exist in the same forest.
   
@@ -65,15 +71,15 @@ To get proper identity synchronization, the following attributes need to be sync
    
 The [chosen account link attribute](/azure/active-directory/hybrid/plan-connect-design-concepts) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the AAD Connect configuration.
   
-Do not sync the UPNs between the forests. We found during testing that we needed to use a unique UPN for each user forest, as you cannot use the same UPN across multiple forests. As a result, we were presented with two possibilities, to synchronize the UPN or to not synchronize. 
+Do not sync the UPNs between the forests. You need to use a unique UPN for each user forest, as you cannot use the same UPN across multiple forests. As a result, there are two possibilities:  to synchronize the UPN or to not synchronize. 
   
-- If the unique UPN from each user forest was not synchronized to the associated disabled object in the resource forest, single sign-on (SSO) would be broken for at least the initial sign-in attempt (assuming the user selected the option to save password). In the Skype for Business client, we assume that the SIP/UPN values are the same. Since the SIP address in this scenario is user@company.com, but the UPN of the enabled object in the user forest is in fact user@contoso.company.com, the initial login attempt would fail and the user would be prompted to enter credentials. Upon entering their correct/actual UPN, the authentication request would be completed against the domain controllers in the user forest, and sign-in would be successful.
+- If the unique UPN from each user forest was not synchronized to the associated disabled object in the resource forest, single sign-on (SSO) would be broken for at least the initial sign-in attempt (assuming the user selected the option to save password). In the Skype for Business client, we assume that the SIP/UPN values are the same. Because the SIP address in this scenario is user@company.com, but the UPN of the enabled object in the user forest is in fact user@contoso.company.com, the initial login attempt would fail and the user would be prompted to enter credentials. Upon entering their correct UPN, the authentication request would be completed against the domain controllers in the user forest, and sign-in would be successful.
     
 - If the unique UPN from each user forest was synchronized to the associated disabled object in the resource forest, AD FS authentication would fail. The matching rule would find the UPN on the object in the resource forest, which was disabled and could not be used for authentication. 
     
 ## Create a Microsoft 365 or Office 365 organization
 
-You will next need to provision a Microsoft 365 or Office 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+You will need to provision a Microsoft 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## Configure Active Directory Federation Services
 
@@ -89,29 +95,29 @@ Unless you use a unique SIP/SMTP/UPN for users from each forest, you can still r
     
 By placing an AD FS farm in each user forest and using a unique SIP/SMTP/UPN for each forest, we resolve both issues. Only the accounts in that specific user forest would be searched and matched during authentication attempts. This will help provide a more seamless authentication process. 
   
-This will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How To Install AD FS 2012 R2 For Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+This deployment will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How To Install AD FS 2012 R2 For Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
-Once deployed, you then have to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft 365 Identity Platform** or **Microsoft Office 365 Identity Platform**, and then select **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**. 
+Once deployed, you need to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft 365 Identity Platform** or **Microsoft Office 365 Identity Platform**, and then select **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**. 
   
 ![Multi-forest Edit Rules Screen](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## Configure AAD Connect
 
-In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Azure AD. The simplest and recommended way to do this is to have Azure AD Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Azure AD Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
+In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Azure AD. Microsoft recommends that Azure AD Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Azure AD Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
 
-Note that AAD Connect does not provide synchronization on premises between the account and resource forests. That must be separately configured using Microsoft Identity Manager or similar product, as described earlier.
+Note that Azure AD Connect does not provide synchronization on premises between the account and resource forests. That must be configured by using Microsoft Identity Manager or a similar product, as described earlier.
   
-When finished and AAD Connect is merging, if you look at an object in the metaverse, you should see something similar to this: 
+When finished and Azure AD Connect is merging, if you look at an object in the metaverse, you should see something similar to the following: 
   
 ![Multi-forest Metaverse Object Screen](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-The green highlighted attributes were merged from Microsoft 365 or Office 365, the yellow are from the user forest, and the blue are from the resource forest. 
+The green highlighted attributes were merged from Microsoft 365, the yellow are from the user forest, and the blue are from the resource forest. 
   
-This is a test user, and you can see that AAD Connect has identified the sourceAnchor and the cloudSourceAnchor from the user and the resource forest objects from Microsoft 365 or Office 365, in our case 1101, which is the employeeNumber selected earlier. It then was able to merge this object into what you see above. 
+In this example, Azure AD Connect has identified the sourceAnchor and the cloudSourceAnchor from the user and the resource forest objects from Microsoft 365, in this case 1101--the employeeNumber selected earlier. Azure AD Connect was them able to merge this object into what you see above. 
   
 For more information, see [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity). 
   
-AAD Connect should be installed using the defaults, except for the following: 
+Azure AD Connect should be installed using the defaults, except for the following: 
   
 1. Single sign-in - with AD FS already deployed and working: Select **Do not configure**.
     
