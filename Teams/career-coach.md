@@ -191,11 +191,20 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 2. Add the LinkedIn school page URL. The URL must be a school page and not a company page and are typically formatted as `https://www.linkedin.com/school/devtest-school/`. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
+   ![linkedin school page example](media/career-coach-linkedin-page-url.png)
+
 3. Select **Apply**.
+
+4. If successfully submitted the page will be updated to show the Verification Link and Verification Link expiration. The verification link expires after 30 days.
 
    ![linkedin connections for the career coach app](media/career-coach-linked-in.png)  
 
-4. Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672). The verification link expires after 30 days.  
+5. Copy the verification link share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
+
+6. The LinkedIn page super admin, will use the unique verification link to associate Career Coach with your school's page. [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
+
+> [!NOTE]
+> The verification by the LinkedIn page super admin is required to complete the LinkedIn connection for Career Coach
 
    ![linkedin page verification in the linkedin developer portal](http://placehold.it/650x650?text=Placeholder%20for%20Linked.com%20vertification%20page)
 
