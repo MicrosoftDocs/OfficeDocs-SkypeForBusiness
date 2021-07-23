@@ -56,6 +56,8 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 
   You'll see a list of the roles in your educational organization, the level in that hierarchy for each one, how many users are assigned that role, and the role's permission level. 
   
+  :::image type="content" source="media/insights-role-based-permissions" alt-text="Role-based permissions":::
+  
   If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at both the school and district level, so there are two lines for 'principal'.
   
 * For each role, click the pencil icon to select the permission level. The default is the role has no permission to see Insights.
@@ -77,6 +79,8 @@ Use individual permissions to adjust the permission for a user or to assign perm
   
   You'll see the users in your educational organization granted individual permission. 
   
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Individual permissions":::
+  
 ### Grant individual permission to a user
 * Click **Grant individual permission** at the top left of the screen.
 * Enter the username or email address of each user.
@@ -85,8 +89,6 @@ Use individual permissions to adjust the permission for a user or to assign perm
   * **Specific organization** means the user sees the selected org unit, and all the org units below it. Start typing and select the org unit from the list.
 * Click **Grant permission** to save.
 
-:::image type="content" source="media/insights-add-users.png" alt-text="Grant permissions":::
-
 ### Change the individual permission of a user
 * For the relevant user, click the pencil icon to select the individual permission level.
 * Select the permission level:
@@ -94,5 +96,3 @@ Use individual permissions to adjust the permission for a user or to assign perm
   * **Specific organization** means the user sees the selected org unit, and all the org units below it. Start typing and select the org unit from the list.
   * **None** means that the user only sees the org units automatically assigned by their role (if any).
 * Click **Save changes** to save.
- 
-:::image type="content" source="media/insights-edit-users.png" alt-text="Edit permissions":::
