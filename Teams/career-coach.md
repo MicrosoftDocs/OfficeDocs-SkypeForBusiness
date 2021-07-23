@@ -154,7 +154,7 @@ Career Coach has five configuration categories:
 Set your educational institution’s name, logo, and default language on the brand and preferences settings page.
 
 > [!NOTE]
-> This is a required section - Career Coach can't be enabled without the Brand and preferences submitted.
+> This is a required section - Career Coach can not be enabled without the Brand and preferences submitted.
 
 ![the Career Coach branding section of the admin center](media/career-coach-brand.png)
 
@@ -179,7 +179,7 @@ The educational institution icon will be used for course catalog resources throu
 The LinkedIn configuration connects Career Coach with public alumni data from LinkedIn.
 
 > [!NOTE]
-> This is a required section - Career Coach can't be enabled without the LinkedIn page connection verified.
+> This is a required section - Career Coach can not be enabled without the LinkedIn page connection verified.
 
 ##### Add and confirm the LinkedIn page
 
@@ -195,16 +195,16 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 3. Select **Apply**.
 
-4. If successfully submitted the page will be updated to show the Verification Link and Verification Link expiration. The verification link expires after 30 days.
+4. If successfully submitted the page will be updated to show the Verification link and Verification link expiration. The verification link expires after 30 days.
 
    ![linkedin connections for the career coach app](media/career-coach-linked-in.png)  
 
-5. Copy the verification link share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
+5. Copy the verification link share it with your educational institution’s LinkedIn page super admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
 
 6. The LinkedIn page super admin, will use the unique verification link to associate Career Coach with your school's page. [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
 
 > [!NOTE]
-> The verification by the LinkedIn page super admin is required to complete the LinkedIn connection for Career Coach
+> The verification by the LinkedIn page super admin is required to complete the LinkedIn connection for Career Coach.
 
    ![linkedin page verification in the linkedin developer portal](http://placehold.it/650x650?text=Placeholder%20for%20Linked.com%20vertification%20page)
 
@@ -214,7 +214,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 The course catalog represents the courses and classes offered to students by your educational institution. 
 
 > [!NOTE]
-> This is a required section - Career Coach can't be enabled without a course catalog.
+> This is a required section - Career Coach can not be enabled without a course catalog.
 
 These courses are used within the app in two areas:
 
@@ -266,7 +266,7 @@ Including the recommended fields improves the experience for students by returni
 The fields of study are synonymous with major areas of interest, academic major, and degree. These titles are referenced by students when they start using the app and begin setting up their personalized profile.
 
 > [!NOTE]
-> This is a required section - Career Coach can't be enabled without a list of fields of study.
+> This is a required section - Career Coach can not be enabled without a list of fields of study.
 
 Add all fields of study available to students such as Engineering, English, Business, and so on. The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.
 
