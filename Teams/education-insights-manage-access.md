@@ -56,7 +56,7 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 
   You'll see a list of the roles in your educational organization, the level in that hierarchy for each one, how many users are assigned that role, and the role's permission level. 
   
-  :::image type="content" source="media/insights-role-based-permissions" alt-text="Role-based permissions":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Role-based permissions":::
   
   If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at both the school and district level, so there are two lines for 'principal'.
   
