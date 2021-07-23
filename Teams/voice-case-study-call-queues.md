@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: 'Teams voice Contoso case study: Auto attendants and call queues'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
