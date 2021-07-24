@@ -54,7 +54,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 Users fit the criteria for a Teams Exploratory experience if they:
 
 - Have a managed Azure AD domain email address.
-- Belong to a tenant with a paid subscription that must include the Microsoft Teams service plan.
+- Belong to a tenant with a paid subscription that includes the Microsoft Teams service plan.
 - Do not have an active Teams license.
 - Are not in a tenant where a license assignment policy was created.
 
