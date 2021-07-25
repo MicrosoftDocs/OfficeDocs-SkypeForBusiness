@@ -1,5 +1,5 @@
 ---
-title: Security guide for Microsoft Teams
+title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -133,9 +133,9 @@ This table summarizes the protocols used by Teams.
 
 ***Traffic Encryption***
 
-|||
-|:-----|:-----|
+
 |**Traffic type**|**Encrypted by**|
+|:-----|:-----|
 |Server-to-server|MTLS|
 |Client-to-server (ex. instant messaging and presence)|TLS|
 |Media flows (ex. audio and video sharing of media)|TLS|
