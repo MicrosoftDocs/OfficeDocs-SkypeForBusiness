@@ -32,8 +32,6 @@ To provide organization-level Insights, you must [import data from the Student I
 > [!TIP]
 > We recommend that you enable Insights for all your education leaders so that they have the data to understand each school, and the ability to quickly identify problems and provide support to their educators. Even if you're running a pilot, it may still be helpful to keep Insights enabled for all education leaders, but only target communications to the pilot group of users.
 
-
-
 ## Manange permissions
 
 * Open the Insights app, click **Settings**, and select **User permissions**
