@@ -41,7 +41,7 @@ To provide organization-level Insights, you must [import data from the Student I
 :::image type="content" source="media/insights-user-permissions.png" alt-text="Settings":::
 
 > [!NOTE]
-> When you provide permission for an organizational level, the user can see all the org units below it. Only provide permission to those education leaders who need them.
+> When you provide permission for an organizational level, the user can see all the org units below it.
 > 
 > Only provide permission to those education leaders that need them and only to the organizational units they are responsible for. If you are unsure whether user permission for a specific organization is required, consult your institution's privacy subject matter experts, such as legal or HR personnel.
 
@@ -51,6 +51,9 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 
 > [!NOTE]
 > When a user is assigned a role, they automatically receive the correct permissions to see the data relevant to them.
+>
+> If a user is no longer in a role, their permission for that role is automatically revoked (though they may still have individual permissions).
+
 
 * If required, click the **Role-based permissions** tab.
 
@@ -62,13 +65,12 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
   
 * For each role, click the pencil icon to select the permission level. The default is the role has no permission to see Insights.
 * Select the permission level – **View data for their organization** or **None**.
+
+  If you see a user on the list who needs a more nuanced permission level, adjust their role and / or organization in the [imported data from your SIS](education-insights-sis-data-sync.md) and [grant them individual permissions](#Grant-individual-permission-to-a-user) (if needed).
+
 * Click **Save changes**.
 
-  This permission level is now automatically assigned to any new user with this role and org level. The user will see the data for all org units at their level of the hierarchy  and under it.
-  
-  If you see a user on the list who needs a more nuanced permission level, adjust it in Individual permissions.
-  
-  If a user is no longer in a role, their permission for that role is automatically revoked (though they may still have individual permissions).
+  This permission level is now automatically assigned to any new user with this role and org level. The user will see the data for all org units at their level of the hierarchy  and under it.  
 
 
 ## Individual permissions
