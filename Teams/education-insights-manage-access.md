@@ -66,6 +66,8 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 * For each role, click the pencil icon to select the permission level. The default is the role has no permission to see Insights.
 * Select the permission level – **View data for their organization** or **None**.
 
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Role-based permissions panel":::
+  
   If you see a user on the list who needs a more nuanced permission level, adjust their role and / or organization in the [imported data from your SIS](education-insights-sis-data-sync.md) and [grant them individual permissions](#Grant-individual-permission-to-a-user) (if needed).
 
 * Click **Save changes**.
@@ -97,4 +99,7 @@ Use individual permissions to adjust the permission for a user or to assign perm
   * **All** means the user sees all the org units at all levels. This is very rarely used.
   * **Specific organization** means the user sees the selected org unit, and all the org units below it. Start typing and select the org unit from the list.
   * **None** means that the user only sees the org units automatically assigned by their role (if any).
+  
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Individual permissions panel":::
+
 * Click **Save changes** to save.
