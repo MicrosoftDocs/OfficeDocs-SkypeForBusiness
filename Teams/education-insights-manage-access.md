@@ -66,7 +66,7 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 
   :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Role-based permissions panel":::
   
-  If you see a user on the list who needs a more nuanced permission level, adjust their role and / or organization in the [imported data from your SIS](education-insights-sis-data-sync.md) and [grant them individual permissions](#Grant-individual-permission-to-a-user) (if needed).
+  If you see a user on the list who needs a more nuanced permission level, adjust their role and / or organization in the [imported data from your SIS](education-insights-sis-data-sync.md) and [grant them individual permissions](#grant-individual-permission-to-a-user) (if needed).
 
 * Click **Save changes**.
 
