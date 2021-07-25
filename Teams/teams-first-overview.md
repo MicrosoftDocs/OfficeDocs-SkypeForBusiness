@@ -108,7 +108,8 @@ This starting point assumes that your organization does not utilize Skype for Bu
 <td><p>Able to create internal and external meetings via Outlook add-in.</p>
 <p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a> </p>
-<p>In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">Configure OAuth authentication between Exchange and Exchange Online organizations".</p>
+
+In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
 
 </p></td>
 </tr>

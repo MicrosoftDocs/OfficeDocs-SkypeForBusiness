@@ -1,7 +1,7 @@
 ---
 title: How Microsoft Teams uses memory
 author: msdmaguire
-ms.author: dmaguire
+ms.author: msdmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
+ms.topic: article
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_JourneyFromSfB

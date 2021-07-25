@@ -1,5 +1,5 @@
 ---
-title: Calling policies in Microsoft Teams
+title: 'Calling policies in Microsoft Teams: Calling and call-forwarding features'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -22,8 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Calling policies in Microsoft Teams
-===================================
+# Calling policies in Microsoft Teams: Calling and call-forwarding features
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
 
