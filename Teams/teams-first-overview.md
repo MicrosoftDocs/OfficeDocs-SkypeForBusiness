@@ -188,7 +188,7 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
-<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps">
+<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy">
 set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>
