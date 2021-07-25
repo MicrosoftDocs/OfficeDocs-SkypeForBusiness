@@ -151,7 +151,7 @@ Teams uses a credentials-based token for secure access to media relays over TURN
 
 #### FIPS
 
-Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. For more information on the implementation of FIPS, please see [Federal Information Processing Standard (FIPS) Publication 140-2](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
+Teams uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. For more information on the implementation of FIPS, please see [Federal Information Processing Standard (FIPS) Publication 140-2](/microsoft-365/compliance/offering-fips-140-2).
 
 ### User and Client Authentication
 
