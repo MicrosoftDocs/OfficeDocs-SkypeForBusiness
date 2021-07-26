@@ -313,7 +313,7 @@ A mounted, prominent display gives remote participants a seat at the table when 
 
 -   A Microsoft Teams Room for Windows system with a large, single front-of-room display for high visibility of remote participants and shared content
 
--   Surface Hub2 for annotation and whiteboarding
+-   Surface Hub 2 for annotation and whiteboarding
 
 -   Poly Eagle Eye Director II intelligent camera system paired with a table that allows for maximum visibility of all participants by the camera
 
@@ -327,15 +327,17 @@ Highly complex. This room features a complex installation that will require a kn
 
 Teams can be implemented in almost any educational or multi-purpose space you can think of. Libraries, mixed-use presentation and collaboration spaces, café spaces, and open-air spaces can all be outfitted with a Teams system or Teams devices.
 
-*An example multi-purpose space is:*
+![Image of a multi-purpose space with Teams devices.](../media/devices11.png)
+
+*The solution shown is:*
 
 A room system with a large, projector-based front-of-room display, multiple touch consoles for operation, and multiple Surface Hub 2 devices for a wide range of uses.
 
-*Devices include:*
+*Devices shown:*
 
 -   Crestron C100 Microsoft Teams Room for Windows system, featuring multiple Crestron touch consoles, with a single, large front-of-room projector and screen for high visibility of remote participants and shared content
 
--   Dual Surface Hub2 devices for annotation and whiteboarding
+-   Dual Surface Hub 2 devices for annotation and whiteboarding
 
 -   Poly Eagle IV USB camera
 
