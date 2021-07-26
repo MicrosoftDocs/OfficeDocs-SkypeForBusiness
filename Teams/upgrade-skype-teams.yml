@@ -34,7 +34,7 @@ highlightedContent:
     # Card
     - title: Leverage proven guidance for a successful upgrade
       itemType: how-to-guide
-      url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+      url: ./upgrade-framework.md
     # Card
     - title: Register for free upgrade planning workshops
       itemType: learn
@@ -83,25 +83,25 @@ productDirectory:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
       summary: Learn how to roll out and manage Teams, and prepare your users for new communications and collaboration experiences.
-      url: https://docs.microsoft.com/MicrosoftTeams/
+      url: ./index.yml
     # Card
     - title: Instructor-led Teams training
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
       summary: Free, live, online training classes designed to get you up and running with Teams.
-      url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+      url: ./instructor-led-training-teams-landing-page.yml
     # Card
     - title: Expand your Teams scenarios
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
       summary: Our Teams Chalk Talks online workshops are designed to help IT Pros get the most from Teams.
-      url: http://aka.ms/TeamsChalkTalks
+      url: ./chalk-talks-landing-page.yml
     # Card
     - title: Skype for Business Online retirement
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
       summary: Prepare for the July 31, 2021 retirement of the Skype for Business Online service and learn how to plan a successful transition to Teams.
-      url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+      url: ./skype-for-business-online-retirement.md
     # Card
     - title: Microsoft Teams blog
       # imageSrc should be square in ratio with no whitespace

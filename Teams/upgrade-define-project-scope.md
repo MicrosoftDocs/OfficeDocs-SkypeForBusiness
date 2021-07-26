@@ -1,7 +1,7 @@
 ---
 title: Define the project scope for your Skype for Business to Microsoft Teams upgrade
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -32,7 +32,7 @@ This article is part of the Project Definition stage of your upgrade journey, an
 
 Taking time to define your project vision, scope, goals, and governance will help ensure all project stakeholders are aligned and working toward the same end results. This is especially critical given that the technical readiness team and user readiness team will be working independently to pull their respective pieces together. After you complete this section, refer to it throughout your project to ensure you're on track to achieve the end state you wanted. Use the goals that you identify below to measure against your outcomes, and mitigate as needed.
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what's your plan to mitigate those risks?</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you've engaged the right team.</li></ul>|
@@ -61,9 +61,9 @@ Consider the following discussion points to help refine your vision:
 
 Your vision might only be realized over time, through various phases. The project scope defines the focus of your project _at this time_ and serves to keep your project team focused on their current tasks, enabling you to realize your long-term vision. For example, your scope might call for you to run a pilot, deploy a specific workload such as voice or meetings, or enable Teams alongside Skype for Business as you plan for your upgrade over time. As part of the project scope, you should assess:
 
-- [The various coexistence modes](https://aka.ms/SkypeToTeams-Coexist), and which would be optimal for your organization.
+- [The various coexistence modes](./teams-and-skypeforbusiness-coexistence-and-interoperability.md), and which would be optimal for your organization.
 - The best way for Skype for Business and Teams to coexist before you move to Teams.
-- Whether you should conduct a [pilot](https://aka.ms/SkypeToTeams-Pilot) to validate technical and user readiness in your organization.
+- Whether you should conduct a [pilot](./pilot-essentials.md) to validate technical and user readiness in your organization.
 
 ## Project goals
 
@@ -116,8 +116,8 @@ As you scope your upgrade journey, be sure to set a timeline for key milestones 
 - **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.
 - **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you've brought together has enough bandwidth to complete all necessary tasks.
 
-As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](https://aka.ms/UpgradePro), which we encourage you to adjust as needed to align with the specific needs of your organization.
+As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](./upgrade-start-here.md), which we encourage you to adjust as needed to align with the specific needs of your organization.
 
-After you've completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](https://aka.ms/SkypeToTeams-TechnicalReadiness) and [organizational readiness](https://aka.ms/SkypeToTeams-UserReadiness) planning activities.
+After you've completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](./upgrade-prepare-environment.md) and [organizational readiness](./upgrade-prepare-organization.md) planning activities.
 
 Remember: Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.

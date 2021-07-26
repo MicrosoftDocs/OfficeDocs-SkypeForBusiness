@@ -23,6 +23,8 @@ description: "Learn common causes for Skype for Business Online sign-errors and 
 
 # Troubleshooting Skype for Business Online sign-in errors for administrators
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help.
 
 ## What do you want to do?
@@ -190,7 +192,7 @@ To fix this issue, follow these steps:
 
 1. Update the **msRTCSIP-UserEnabled** attribute for all affected users to **TRUE**.
 
-2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx).
+2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help.
 ## Use the Microsoft Support troubleshooting guide
@@ -215,5 +217,3 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
-
-

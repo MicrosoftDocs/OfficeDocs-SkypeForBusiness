@@ -25,13 +25,13 @@ ms.custom: seo-marvel-jun2020
 
 # Shifts for Teams
 
-Teams gives Frontline Workers in your organization the tools they need to communicate and collaborate effectively. This article shows you how to set up and manage. Shifts and use the schedule management tool in Teams.
+Teams gives frontline workers in your organization the tools they need to communicate and collaborate effectively. See the following resources to learn more about how to set up and manage Shifts, the schedule management tool in Teams.
 
 ### Set up and manage Shifts for your organization
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Manage Shifts in your organization](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![design](../media/Help-small.svg)  | **[Shifts Help for Frontline Workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[Manage Shifts in your organization](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![design](../media/Help-small.svg)  | **[Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### Shifts extensions
 

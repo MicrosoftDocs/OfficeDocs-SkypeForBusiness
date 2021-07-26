@@ -67,9 +67,55 @@ For Microsoft 365 Business Voice, you have two options to choose from:
 
 To learn more, see [What do I need to buy to use Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
 
-Here's a summary, based on licensing plan.
+Here's a summary based on licensing plan.
 
-  ![Small business plan options](../media/licensing-smallbusiness-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Small business (&lt;300 people)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Base plan</strong></td>
+<td colspan="3"><strong>Voice calling and conferencing options</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Business Basic<br />
+Microsoft 365 Business Standard
+Microsoft 365 Business Premium</td>
+<td>Microsoft 365 Business Voice<br>International Calling Plan <br />(optional)
+Communication Credits </td><td>Or</td>
+<td>Microsoft 365 Business Voice without calling plan<br />
+Audio Conferencing Communication Credits </td><td>Or</td>
+<td>Audio Conferencing Communication Credits</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1</td>
+<td>Microsoft 365 Business Voice<br>International Calling Plan <br />(optional)
+Communication Credits </td><td>Or</td>
+<td>Microsoft 365 Business Voice without calling plan</td><td>Or</td>
+<td>Audio Conferencing<br> Phone System<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 If Audio Conferencing isn't supported in your country or region, you have the option to get a Microsoft 365 Enterprise E5 without Audio Conferencing plan or an Office 365 Enterprise E5 without Audio Conferencing plan.
 
@@ -87,7 +133,31 @@ If you're a large business or enterprise organization (more than 300 users), you
 
 Here's a summary, based on licensing plan.
 
-  ![Enterprise-based plan options](../media/licensing-enterprise-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Enterprise business (>300 people)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Base plan</strong></td>
+<td colspan="2"><strong>Voice calling and conferencing options</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1<br></td><td>Audio Conferencing<br>Phone System<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 If Audio Conferencing isn't supported in your country or region, you have the option to get a Microsoft 365 Enterprise E5 without Audio Conferencing plan or an Office 365 Enterprise E5 without Audio Conferencing plan.
 
@@ -106,9 +176,40 @@ For schools and other academic organizations, you have three ways to get voice f
 
 Here's a summary, based on licensing plan.
 
-  ![EDU plan options](../media/licensing-education-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Education</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Base plan</strong></td>
+<td colspan="3"><strong>Voice calling and conferencing options</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise A1 or A3<br>Office 365 Education A1 or A3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>International Calling Plan (optional)<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td><td>Or</td><td>Microsoft 365 Business Voice without Calling Plan<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 Education A1 or A3<br>Office 365 Education A1 or A3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>International Calling Plan (optional)<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td><td>Or</td><td>Microsoft 365 Business Voice without Calling Plan<sup>1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Education A5<br>Office 365 Education A5</td>
+<td>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1</sup> Only available for organizations with less than 300 users.
+  <sup>1</sup> Only available for organizations with fewer than 300 users.
 
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/education/products/office).
 
@@ -125,9 +226,40 @@ For US government organizations (GCC only), there are three ways to get voice fe
 
 Here's a summary, based on licensing plan.
 
-  ![Gov-based options](../media/licensing-government-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Government</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Base plan</strong></td>
+<td colspan="3"><strong>Voice calling and conferencing options</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 GOV G1 or G3<br>Office 365 GOV G1 or G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>International Calling Plan (optional)<br>Communication Credits</td><td>Or</td><td>Microsoft 365 Business Voice without Calling Plan<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 GOV G1 or G3<br>Office 365 GOV G1 or G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>International Calling Plan (optional)<br>Communication Credits</td><td>Or</td>
+<td>Audio Conferencing<br>Phone System<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
+<td>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1</sup> Only available for organizations with less than 300 users.
+  <sup>1</sup> Only available for organizations with fewer than 300 users.
 
 To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
@@ -145,9 +277,46 @@ If you're a nonprofit organization, you have four ways to get voice features.
 
 Here's a summary, based on licensing plan.
 
-  ![Nonprofit-based options](../media/licensing-nonprofit-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Nonprofits</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Base plan</strong></td>
+<td colspan="3"><strong>Voice calling and conferencing options</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Nonprofit Business Basic<br>Microsoft 365 Nonprofit Business Standard</td><td>Microsoft 365 Business Voice <sup>1</sup><br>International Calling Plan (optional)<br>Communication Credits</td><td>Or</td><td>Microsoft 365 Business Voice without Calling Plan<sup>1</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 Nonprofit E1 or E3<br>Office 365 Nonprofit E1 or E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>International Calling Plan (optional)<br>Communication Credits</td><td>Or</td><td>Microsoft 365 Business Voice without Calling Plan<sup>1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Nonprofit E1 or E3<br>Office 365 Nonprofit E1 or E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Audio Conferencing<br>Phone System<br>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Nonprofit E5<br>Office 365 Nonprofit E5</td>
+<td>Domestic Calling Plan<br>Domestic and International Calling Plan (optional)<br>Communication Credits</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-  <sup>1</sup> Only available for organizations with less than 300 users.
+  <sup>1</sup> Only available for organizations with fewer than 300 users.
 
 To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
@@ -170,7 +339,48 @@ To sign up for a trial offer, see [Sign up for a trial offer](https://transform.
 
 Here's a summary of voice feature trial offers.
 
-  ![Trial-based options](../media/licensing-trial-offers.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Trial Offers</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Voice calling and conferencing options</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Business Voice Trial</td><td>Shows you the features for domestic voice calling, audio conferencing, and advanced voice features like auto attendants and call queues.</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Business Voice Trial<br>Microsoft 365 Domestic and International Calling Plan Trial</td>
+<td>Show you the features for domestic and international voice calling, audio conferencing, and advanced voice features like auto attendants and queues.</td>
+</tr>
+<tr>
+<td>Microsoft 365 Domestic Calling Plan trial</td>
+<td>Show you the features for domestic voice calling.</td>
+</tr>
+<tr>
+<td>Microsoft 365 Domestic and International Calling Plan Trial</td>
+<td>Show you the features for domestic and international calling.</td>
+</tr>
+<tr>
+<td>Microsoft 365 Audio Conferencing trial</td>
+<td>Shows you the feature for audio conferencing.</td>
+</tr>
+<tr>
+<td>Microsoft 365 Phone system - Virtual user</td>
+<td>Shows you the advanced voice features like auto attendants and call queues.</td>
+</tr>
+<tr>
+<td>Common Area Phone Trial</td>
+<td>Shows you the features for common area phones.</td>
+</tr>
+</tbody>
+</table>
 
  Your base plan doesn't have to be a trial offer to use any of these trials for voice features. You can use a Microsoft 365 Business plan or an Enterprise, Government, Education, or Nonprofit plan with any of the trial offers for voice features. To see available trial offers and add-ons, in the Microsoft 365 admin center, go to **Billing** > **Purchase services**, select **Other categories that might interest you**, and then select **Add-ons**.
 
@@ -192,4 +402,4 @@ Need to talk to someone about the add-on options? [Contact support for business 
 
 - [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
 - [Manage user access to Teams](../user-access.md)
-- [Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Teams service description](/office365/servicedescriptions/teams-service-description)

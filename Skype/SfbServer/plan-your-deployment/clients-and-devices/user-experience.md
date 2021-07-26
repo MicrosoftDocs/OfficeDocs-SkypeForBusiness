@@ -110,9 +110,9 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 
 This is the default experience when the Skype for Business client is deployed in an on-premises Lync Server deployment. You don't need to configure any client policies to use the Lync client experience, but you may want to control the first run behavior for the client. By default, the first time users start the Skype for Business client, the Skype client experience is used and a notification is displayed to users that requests that they restart the client to get the Lync client experience. You can configure your environment so that the Lync client experience is displayed the first time users start the client, as well as turn off the client tutorial by modifying the system registry on client computers. For the steps you need to perform before you deploy the Skype for Business client, see one of the following topics:
   
-- **Lync Server 2013**, see [Configure the client experience with Skype for Business in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532732)
+- **Lync Server 2013**, see [Configure the client experience with Skype for Business in Lync Server 2013](/previous-versions/office/lync-server-2013/configure-the-skype-for-business-client-in-lync-server-2013)
     
-- **Lync Server 2010** see [Configure the client experience with Skype for Business in Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
+- **Lync Server 2010** see [Configure the client experience with Skype for Business in Lync Server 2010](/previous-versions/office/skype-server-2010/dn955209(v=ocs.14))
     
 ## Use the Lync client experience with Skype for Business Server on-premises
 <a name="LyncwithSfBServer"> </a>
@@ -180,7 +180,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
 
 After you've configured your client policies, deploy the Skype for Business client, build 4711.1002 (April, 2015) or later.
   
-For detailed information about how to configure the client experience with Skype for Business Online, including steps about how to control the first run experience and PowerShell scripts you can use to configure your environment, see [Switching between the Skype for Business and the Lync client user interfaces](https://aka.ms/SfBOUI).
+For detailed information about how to configure the client experience with Skype for Business Online, including steps about how to control the first run experience and PowerShell scripts you can use to configure your environment, see [Switching between the Skype for Business and the Lync client user interfaces](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md).
   
 ## Resources to help you prepare your support teams and your end users for the update
 <a name="support"> </a>
@@ -196,5 +196,3 @@ To make it easier for you and your organization prepare for the transition, we h
 - [Skype for Business: Step-by-step guide for new users](https://go.microsoft.com/fwlink/p/?LinkId=544815)
     
 - [Why do I see Skype for Business when I'm using Lync?](https://go.microsoft.com/fwlink/p/?LinkID=544712)
-    
-

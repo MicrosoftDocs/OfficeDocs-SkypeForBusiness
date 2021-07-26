@@ -38,7 +38,7 @@ Your organization might require that you implement strict controls on how teams 
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!NOTE]
-> To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
+> To help you plan ahead, [learn more about setting these policies and what licenses they require](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
 > Limiting group and team creation can slow your users’ productivity, because many Microsoft 365 and Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
@@ -48,15 +48,15 @@ Your organization might require that you implement strict controls on how teams 
 
 After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see:
 
-- [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [Azure Active Directory cmdlets for configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Enforce a naming policy for Microsoft 365 groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Enforce a naming policy for Microsoft 365 groups in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Microsoft 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [End of lifecycle options for groups, teams, and Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [End of lifecycle options for groups, teams, and Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## Group and team expiration, retention, and archiving
 
@@ -83,7 +83,7 @@ Your organization might have additional requirements for setting policies for ex
 
 For technical guidance on how to implement these settings, see:
 
-- [Set up Microsoft 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Set up Microsoft 365 groups expiration](/azure/active-directory/users-groups-roles/groups-lifecycle).
 
 - [Set up Teams retention policies](retention-policies.md).
 
@@ -93,7 +93,7 @@ For technical guidance on how to implement these settings, see:
 
 Consistently managing members of project based, or restricted groups are necessary for teams that require rapid onboarding and offboarding or users and guests. Your organization may also need to make sure all current members have the business justification to be in a team. Managing members can be hard because team owners can leave and users don’t usually leave groups on their own accord when a project ends or when they change roles. The best way to manage group membership that allows users to get access when needed but ensure the group doesn't have a risk of inappropriate access is through two district processes: entitlement management and access reviews.
 
-[Entitlement management](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) allows you to delegate to someone, such as a project manager, to collect all the resources that are needed, including teams memberships, into a single package. They can also define who can make requests: either users in your tenant or from other connected organizations. The project manager will receive access requests in their email and approve or deny requests in the MyAccess portal. Administrators can configure the conditions of access to include an expiry date or period by when the user or guest will be removed from the team unless access is renewed. Administrators can also set up the groups associated with teams to take part in access reviews. For [access reviews](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview), the group owners will receive regular reminders to review the members of a team. Access reviews include recommendations, which makes it easier for group owners to go through their regular attestation process.
+[Entitlement management](/azure/active-directory/governance/entitlement-management-overview) allows you to delegate to someone, such as a project manager, to collect all the resources that are needed, including teams memberships, into a single package. They can also define who can make requests: either users in your tenant or from other connected organizations. The project manager will receive access requests in their email and approve or deny requests in the MyAccess portal. Administrators can configure the conditions of access to include an expiry date or period by when the user or guest will be removed from the team unless access is renewed. Administrators can also set up the groups associated with teams to take part in access reviews. For [access reviews](/azure/active-directory/governance/access-reviews-overview), the group owners will receive regular reminders to review the members of a team. Access reviews include recommendations, which makes it easier for group owners to go through their regular attestation process.
 
 |-|-|-|
 |:-|:-|:-|
@@ -115,8 +115,8 @@ Consistently managing members of project based, or restricted groups are necessa
 
 For technical guidance on how to implement these settings, see:
 
-- [Entitlement management](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
-- [Access reviews](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [Entitlement management](/azure/active-directory/governance/entitlement-management-overview)
+- [Access reviews](/azure/active-directory/governance/access-reviews-overview)
 
 ## Teams feature management
 

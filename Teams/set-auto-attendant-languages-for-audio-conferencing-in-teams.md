@@ -54,7 +54,7 @@ Choose one primary language and up to four secondary languages. The primary lang
     
 ## Want else should I know?
 
-- To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
+- To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
     
 - Languages can be set for dedicated but not for shared phone numbers.
     
@@ -62,9 +62,8 @@ Choose one primary language and up to four secondary languages. The primary lang
     
 ## Want to use Windows PowerShell?
 
-See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

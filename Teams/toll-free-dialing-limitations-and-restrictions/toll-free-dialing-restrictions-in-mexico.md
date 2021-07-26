@@ -30,23 +30,31 @@ description: Learn about dialing toll-free numbers in Mexico, including availabi
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
-
 |**Details**|**Description**|
 |:-----|:-----|
 |Is toll-free calling available?  <br/> |Yes  <br/> |
-|Dialing format(s)  <br/> | 001 800 XXX XXXX <br/>  01 800 XXX XXXX <br/> |
+|Dialing format(s)  <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
 |Country/region ISO code  <br/> |MX  <br/> |
-|Island/territory covered  <br/> |Not applicable  <br/> |
-|Island/territory not covered  <br/> |Not applicable  <br/> |
-|Wired/fixed line availability  <br/> |Partial. See comments.  <br/> |
-|Mobile network availability  <br/> |Partial. See comments.  <br/> |
-|Comments, restrictions, and access issues  <br/> |Access isn't guaranteed from international roamers.  <br/> For the 001-800 number format: For Fixed access - Telmex. For Mobile access - Telcel only. Airtime is charged. No additional charge if end customer is with Telmex as their local and long distance provider.  <br/> For the 01-800 number format: Mobile access airtime is charged.  <br/> |
-   
+|Island/territory covered  <br/> |American Samoa, Anguilla, Antigua and Barbuda, Bahamas, Barbados, Bermuda, British Virgin Islands, Canada, Cayman Islands, Dominica, Dominican Republic, Grenada, Guam, Jamaica, Montserrat, Northern Mariana Islands, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sint Maarten, Trinidad and Tobago, Turks and Caicos Islands, United States, United States Virgin Islands <br/> |
+|Wired/fixed line availability  <br/> |Yes  <br/> |
+|Mobile network availability  <br/> |Yes  <br/> |
+|Comments, restrictions, and access issues  <br/> |None  <br/> |
+
+> [!NOTE]
+> **Dialing Formats**:
+>
+> - 800-389 are special and for Bahamas
+> - 800-534 are special and for Barbados
+> - 800-623 are special and for Bermuda
+> - 800-415 or 907 or 751 are for the Dom Republic
+> - 800-271 are special and for Trinidad
+> - 800-555 is the deaf line range
+
+> [!IMPORTANT]
+> **North America Numbering Plan Toll Free Numbers**: Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
+
 ## Related topics
 
 [Toll-free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
-
-  
- 
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)

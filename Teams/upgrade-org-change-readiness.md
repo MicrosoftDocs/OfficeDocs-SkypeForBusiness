@@ -1,7 +1,7 @@
 ---
 title: Assess organizational change readiness for your Skype for Business to Teams upgrade
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -29,8 +29,8 @@ appliesto:
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
 - [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
-- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
-- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Defined your project scope](./upgrade-define-project-scope.md)
+- [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 After you've secured your project team and defined your vision, scope, and goals, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn't guarantee that you achieve your goal. Users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn't all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are two ways you should look at your user base:
@@ -41,7 +41,7 @@ After you've secured your project team and defined your vision, scope, and goals
 > [!Note]
 > You can adapt the assessment activities given below to any change initiative in your organization. Simply address the questions based on the scope of your project. In the following discussions, "new solution" can apply to audio calling, audio conferencing, or your upgrade from Skype for Business to Teams.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture of your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the following guidance and associated activities to capture your organization's user readiness profile.</li></ul>|
@@ -101,7 +101,7 @@ Understanding how user work and how they come together can help users visualize 
 
 To get the most out of Teams, build a teamwork strategy that includes both scenarios, helping users understand how Teams can work for them.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
@@ -151,4 +151,4 @@ It could be easy to get carried away forming a teamwork strategy for every user,
   - Consider timing. Rolling out a new teamwork strategy to sales at the end of your fiscal year may not be ideal.
   - Iterate. No need to reinvent the wheel. When you find a teamwork structure that works, repeat it with other workgroups and projects. Define a template team and set guidelines to help users quickly assimilate into Teams and provide consistency.
 
-Use the information you've gathered above to inform your [user readiness plan](https://aka.ms/UserReadinessPlan).
+Use the information you've gathered above to inform your [user readiness plan](./upgrade-user-readiness.md).

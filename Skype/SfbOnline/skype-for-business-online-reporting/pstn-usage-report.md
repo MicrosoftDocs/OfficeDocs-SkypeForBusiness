@@ -1,4 +1,4 @@
-﻿---
+---
 title: "PSTN usage report"
 ms.author: tonysmit
 author: tonysmit
@@ -22,6 +22,8 @@ description: "The new Skype for Business Admin Center Reports area shows you cal
 ---
 
 # PSTN usage report
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 The new Skype for Business Admin Center **Reports** area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the **Skype for Business PSTN usage details** report to see the number of minutes spent in inbound/outbound calls and cost for these calls. You can view Audio Conferencing PSTN usage details including the cost of the call so that you can understand your usage and call billing details to determine usage within your organization.
   
@@ -122,7 +124,7 @@ The first row of the CSV contains column names.
 Exported file contains additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
 > [!div class="has-no-wrap"]  
-> | #  | Name | [Data type (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Description |
+> | #  | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Unique call identifier |
 > | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
@@ -140,7 +142,7 @@ Exported file contains additional fields that are not available in the online re
 > | 13 | Start Time | `datetimeoffset` | Call start time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
 > | 14 | End Time | `datetimeoffset` | Call end time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
 > | 15 | Duration Seconds | `int` | How long the call was connected |
-> | 16 | Connection Fee | `numeric(16, 2)` | ​Connection fee price |
+> | 16 | Connection Fee | `numeric(16, 2)` | Connection fee price |
 > | 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
 > | 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
 > | 19 | Capability | `nvarchar(32)` | The license used for the call |
@@ -168,4 +170,3 @@ Exported file contains additional fields that are not available in the online re
 [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
- 

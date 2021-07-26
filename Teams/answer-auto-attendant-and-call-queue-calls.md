@@ -21,8 +21,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Answer auto attendant and call queue calls directly from Teams
-===========================================================
+# Answer auto attendant and call queue calls directly from Teams
 
 Teams users can receive and answer calls from Cloud auto attendants and call queues directly from their Teams client.
 
@@ -55,6 +54,8 @@ Support for auto attendant and call queue calls is available in the following cl
 -    Microsoft Teams Mac client
 -    Microsoft Teams iPhone app
 -    Microsoft Teams Android app
+
+The Teams client is only supported with a [co-existence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## Configure auto attendant and call queue support for Microsoft Teams
 

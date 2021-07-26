@@ -18,8 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Configure the Skype Meetings App to work with Teams
-===================================================
+# Configure the Skype Meetings App to work with Teams
 
 After a user is upgraded to Microsoft Teams, admins can use the Microsoft Teams admin center to specify the preferred app that users will use to join Skype for Business meetings.
 
@@ -41,4 +40,4 @@ Users who use the Skype Meetings App with Teams are subject to the following lim
 ## More information
 
 - [What is Skype Meetings App (Skype for Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Skype Meetings App minimum network requirements](https://technet.microsoft.com/library/mt845808.aspx)
+- [Skype Meetings App minimum network requirements](/previous-versions/office/communications/mt845808(v=ocs.16))

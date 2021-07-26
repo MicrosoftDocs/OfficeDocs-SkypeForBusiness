@@ -77,7 +77,7 @@ All configuration is done by using Skype for Business Online PowerShell cmdlets.
 
 ### Create the SBAs
 
-To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has has the following parameters:
+To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
@@ -150,9 +150,9 @@ To allow different SBAs used within your tenant to read required data from Micro
 
 For more information about application registration, see the following:
 
-- [Develop line-of-business apps for Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Develop line-of-business apps for Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).  
+- [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).  
 
 You only need to register one application for use by all the SBAs in your tenant. 
 
@@ -207,5 +207,3 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 - The SBA does not support call forwarding settings. 
 
 - Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
-
-- The output of Get-CsOnlineUser shows TeamsBranchSurvivabilityPolicy.

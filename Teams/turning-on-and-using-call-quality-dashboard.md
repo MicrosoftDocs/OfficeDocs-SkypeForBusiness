@@ -24,31 +24,31 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
 ---
-# Set up Call Quality Dashboard (CQD)
+# How to Set up Call Quality Dashboard
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. 
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
 
-On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Service Administrator account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
+On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. After the first time you sign in, CQD will begin collecting and processing data. Keep in mind that it may take one or more hours to process enough data to display meaningful results in the reports.
 
 CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. 
 
 > [!IMPORTANT]
-> To use CQD with Skype for Business Server 2019, you'll have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
+> To use CQD with Skype for Business Server 2019, you'll have to [Configure Call Data Connector](/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
 
 
 ## Assign admin roles for access to CQD
 
-Assign [roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) for accessing CQD to the people who need to use it.
+Assign [roles](/microsoft-365/admin/add-users/about-admin-roles) for accessing CQD to the people who need to use it.
 
 If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD. 
 
 
-|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+|&nbsp;  |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Global Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Service Administrator     |Yes         |Yes         |Yes         |Yes         |
+|Teams Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
 |Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |

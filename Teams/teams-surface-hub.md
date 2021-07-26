@@ -22,12 +22,11 @@ appliesto:
   - Microsoft Teams
 ---
 
-Deploy Microsoft Teams for Surface Hub
-======================================
+# Deploy Microsoft Teams for Surface Hub
 
 Before you install Teams for Surface Hub, be sure to do the following:
 
- □ Make sure hardware, operating system, and other requirements are met. For more information, see the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/surface-hub/).<br>
+ □ Make sure hardware, operating system, and other requirements are met. For more information, see the [Microsoft Surface Hub admin guide](/surface-hub/).<br>
  □ Make sure the minimum operating system update required for Teams is installed - [KB4343889](https://support.microsoft.com/help/4343889).<br>
  □ Assign a Teams license to the Hub device account.<br>
  □ If you are transitioning from Skype for Business Online, confirm that a Teams license is assigned to the user.
@@ -92,4 +91,3 @@ Use the following to configure the default calling and meetings application poli
 |Operations| Get, Set        |
 
 Restart the Surface Hub device. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar.
-

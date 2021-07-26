@@ -21,18 +21,18 @@ ms.collection:
   - m365solution-scenario
 appliesto: 
   - Microsoft Teams
-ms.reviewer: 
+ms.reviewer: ansantam 
 description: Use Microsoft Teams to set up your Virtual visits system
 ---
 
 # Virtual visits with Teams - Integration into EHR
 
-Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. Built on the Microsoft 365 cloud, Microsoft Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
-The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can spend time providing the best possible care. Microsoft Teams Electronic Health Record (EHR) Connector can:
+Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. Built on the Microsoft 365 cloud, Microsoft Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
+The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can spend time providing the best possible care. Microsoft Teams Electronic Health Record (EHR) connector can:
 
-- Launch Teams virtual visits from both provider and patient portals.
-- Write back into EHR metadata on connect and disconnect events to enable automatic auditing and record keeping.
-- Integrate into existing clinician and patient workflows while allowing them to use Microsoft Teams.
+- Launch Teams virtual visits from the provider EHR system with an integrated clinical workflow.
+- Enable patients to join Teams virtual visits from within the patient portal.
+- Write metadata back to the EHR system regarding Teams virtual visits to record when attendees connect and disconnect and enable automatic auditing and record keeping.
 
   Watch the video of How to manage virtual visits from the EHR portal.
 
@@ -44,7 +44,7 @@ You’ll need to make sure you have the following prerequisites before you can i
 
 - Access to use to the Microsoft Teams app in [Epic’s App Orchard marketplace](https://apporchard.epic.com/Gallery?id=6153).
 
-- Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer (only enforced during production testing).
+- Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR connector standalone offer (only enforced during production testing).
 
 - Users must have an appropriate Microsoft 365 or Office 365 license that includes Microsoft Teams meetings.
 
@@ -52,7 +52,7 @@ You’ll need to make sure you have the following prerequisites before you can i
 
 - Organizations must have with Epic version November 2018 or later.
 
-- Your systems must meet all [software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Your systems must meet all [software and browser prerequisites](../../hardware-requirements-for-the-teams-app.md).
 
 You’ll also need information from the following people in your organization:
 
@@ -67,14 +67,14 @@ You’ll also need information from the following people in your organization:
 
 The connector setup requires that you:
 
-- [Launch the EHR Connector configuration portal](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
+- [Launch the EHR connector configuration portal](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
 - [Configuration information](ehr-admin.md#configuration-information)
 - [Approve or view configuration](ehr-admin.md#approve-or-view-configuration)
 - [Review and finish the configuration](ehr-admin.md#review-and-finish-the-configuration)
 
-### [Launch the EHR Connector configuration portal](#launch-the-ehr-connector-configuration-portal)
+### [Launch the EHR connector configuration portal](#launch-the-ehr-connector-configuration-portal)
 
-Configuring your healthcare organization to launch virtual visits with Microsoft Teams starts by launching the EHR Connector configuration portal. You configure a single or multiple organizations to test the integration. Configure the test and production URL in the configuration portal. Test the integration from Epic’s test environment before moving to production.
+Configuring your healthcare organization to launch virtual visits with Microsoft Teams starts by launching the EHR connector configuration portal. You configure a single or multiple organizations to test the integration. Configure the test and production URL in the configuration portal. Test the integration from Epic’s test environment before moving to production.
   
 - EHR connector configuration URL: [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -94,7 +94,7 @@ To complete this step, the Microsoft 365 administrator must receive a valid Fast
 
 ### [Approve or view configuration](#approve-or-view-configuration)
 
-The Epic customer analyst for your healthcare organization who was added as an approver must now use the same EHR Connector URL from the previous step to sign in using their Microsoft 365 credentials. After successful validation, the approver is going to be asked to sign in using their Epic credentials to validate the Epic organization.
+The Epic customer analyst for your healthcare organization who was added as an approver must now use the same EHR connector URL from the previous step to sign in using their Microsoft 365 credentials. After successful validation, the approver is going to be asked to sign in using their Epic credentials to validate the Epic organization.
 
 > [!Note]
 > The Microsoft 365 admin and Epic customer analyst in your organization can be the same person. In that case, add your own username as approver. You'll still need to sign in to Epic to validate your access. The Epic sign in is only used to validate your FHIR base URL. Microsoft won't store credentials or access EHR data with this sign in.
@@ -121,11 +121,11 @@ When the configuration information is approved by the Epic administrator, you'll
 
 ## Launch Teams virtual visits
 
-After completing the EHR Connector steps and Epic configuration, your organization is ready to support video visits with Microsoft Teams.
+After completing the EHR connector steps and Epic configuration, your organization is ready to support video visits with Microsoft Teams.
 
 ### Virtual visit prerequisites
 
-- Your systems must meet all [software and browser prerequisites](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app).
+- Your systems must meet all [software and browser prerequisites](../../hardware-requirements-for-the-teams-app.md).
 
 - Healthcare organization must have completed the setup between the Epic organization and Microsoft 365 organization.
 
@@ -170,4 +170,8 @@ Key features of the patient experience:
 
 Teams integration into EHR systems optimizes the amount of data being used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
 
-The Microsoft Teams EHR connector doesn't store nor transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data that is stored by the EHR connector is the EHR user’s unique ID, which is used during Teams meeting setup. The EHR user’s unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies). All chat, recordings, and other data entered into Teams by the meeting participants are stored according to existing storage policies. If you want to learn more information on the location of data in Microsoft Teams, visit [Locations of data in Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams).
+The Microsoft Teams EHR connector doesn't store nor transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data that is stored by the EHR connector is the EHR user’s unique ID, which is used during Teams meeting setup. The EHR user’s unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). All chat, recordings, and other data entered into Teams by the meeting participants are stored according to existing storage policies. If you want to learn more information on the location of data in Microsoft Teams, visit [Locations of data in Teams](../../location-of-data-in-teams.md).
+
+## Related topics
+
+[Teams virtual visits](ehr-admin-reports.md)

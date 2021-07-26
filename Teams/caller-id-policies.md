@@ -1,9 +1,9 @@
 ---
 title: Manage caller ID policies in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: roykuntz; jens
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,11 +22,12 @@ description: Learn how to use and manage caller ID policies in Microsoft Teams t
 
 # Manage caller ID policies in Microsoft Teams
 
->[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
+> [!NOTE]
+> To set the caller ID to a resource account phone number and to set the calling party name, use the PowerShell cmdlets New-CsCallingLineIdentity or Set-CsCallingLineIdentity in the Teams PowerShell module 2.3.1 or later. (These options are not currently available in the Microsoft Teams admin center.) 
 
-As an admin, you can use caller ID policies in Microsoft Teams to change or block the caller ID (also known as calling line ID). By default, the phone number of Teams users can be seen when they make a call to a PSTN phone and the phone number of PSTN callers can be seen when they call a Teams user. You can use caller ID policies to display an alternate phone number for Teams users in your organization or block an incoming number from being displayed.
+By default, when a Teams user makes a call to a PSTN phone, the phone number of the Teams user is visible. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
 
-For example, when users make a call, you can change the caller ID to display your organization's main phone number instead of users' phone numbers.
+As an administrator, you can use caller ID policies to change or block the caller ID (also known as calling line ID). You can use caller ID policies to display an alternate phone number for Teams users in your organization, block the outbound phone number, block an incoming number from being displayed, or set the Calling Party Name (CNAM). For example, when a user makes a call, you can change the caller ID to display your organization's main phone number and company name instead of the user's phone number.
 
 You manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
@@ -39,7 +40,7 @@ You manage caller ID policies by going to **Voice** > **Caller ID policies** in 
 4. From here, choose the settings that you want:
 
     - **Block incoming caller ID**: Turn on this setting to block the caller ID of incoming calls from being displayed.
-    - **Override the caller ID policy**: Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID. For more information, see [End user control of outbound caller ID](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id).
+    - **Override the caller ID policy**: Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. This means that users can choose whether to display their caller ID. For more information, see [End user control of outbound caller ID](./how-can-caller-id-be-used-in-your-organization.md#end-user-control-of-outbound-caller-id).
     - **Replace the caller ID with**: Set the caller ID to be displayed for users by selecting one of the following:
 
         - **User's number**: Displays the user's number. 
@@ -64,6 +65,8 @@ You can edit the global policy or any custom policies that you create.
 
 ## Related topics
 
-[New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
 
 [Assign policies to your users in Teams](assign-policies.md)
