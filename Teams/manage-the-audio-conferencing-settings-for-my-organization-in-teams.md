@@ -224,7 +224,7 @@ PS C:\> Connect-MicrosoftTeams
 PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128000000
 ```
 
-3. Optional: Assign a toll free number to a user (Example: Assign the toll free number +61 1800 000 000 to sarah@contoso.com)
+3. Optional: assign a toll-free number to a user (for example, assign the toll-free number +61 1800 000 000 to sarah@contoso.com).
 
 ```powershell
 PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128001234
