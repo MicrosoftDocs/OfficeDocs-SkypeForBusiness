@@ -211,9 +211,9 @@ See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-
 
 ## Setting audio conferencing dial-in numbers in PowerShell
 
-You can set a users audio conferencing toll and toll free number in PowerShell.
+You can set a user's audio conferencing toll and toll-free number in PowerShell.
 
-1. Connect to the Microsoft Teams service
+1. Connect to the Microsoft Teams service.
 
 ```powershell
 PS C:\> Connect-MicrosoftTeams
