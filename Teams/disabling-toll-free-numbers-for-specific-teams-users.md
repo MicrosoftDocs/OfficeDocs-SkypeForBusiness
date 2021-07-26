@@ -58,7 +58,7 @@ From the **Microsoft Teams admin center**:
  
 **Using PowerShell** 
 
-You can disable toll-free dial in for a specific user using PowerShell:
+You can disable toll-free dial-in for a specific user using PowerShell:
 
 ```
 Set-CsOnlineDialInConferencingUser -Identity "Ken Meyers" -AllowTollFreeDialIn $false
