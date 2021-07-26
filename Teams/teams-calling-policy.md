@@ -102,7 +102,7 @@ This setting controls whether incoming meeting invites are automatically answere
 
 This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
 
-## Related topics
+## Related articles
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
