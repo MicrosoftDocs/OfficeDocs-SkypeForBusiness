@@ -96,7 +96,7 @@ This setting enables users to call PSTN numbers using the Teams web client.
 
 ### Incoming meeting invites are automatically answered
 
-This setting controls whether incoming meeting invites are automatically answered. This setting is turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
+This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
 
 ### Allow music on hold
 
