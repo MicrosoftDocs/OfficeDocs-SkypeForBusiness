@@ -218,7 +218,7 @@ You can set a user's audio conferencing toll and toll-free number in PowerShell.
 ```powershell
 PS C:\> Connect-MicrosoftTeams
 ```
-2. Assign a toll number to a user (Example: Assign the toll number +612 800 0000 to sarah@contoso.com)
+2. Assign a toll number to a user (for example, assign the toll number +612 800 0000 to sarah@contoso.com).
 
 ```powershell
 PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128000000
