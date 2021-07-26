@@ -37,10 +37,11 @@ To learn more about team templates in general, refer to [Get started with team t
 
 Centralize collaboration for your crisis team across business units and help create business continuity plans, share remote working tips, track customer communications, and keep everyone in the loop with announcements and news.
 
-| Base template type |baseTemplateId| Properties that come with this base template |
-| ------------------ |--|----------------------------------------------------------|
-| Collaborate on global crisis or event |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>External comms</li><li>Approvals request</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
-||||
+> [!div class="mx-tdBreakAll"]
+> | Base template type |baseTemplateId| Properties that come with this base template |
+> | ------------------ |--|----------------------------------------------------------|
+> | Collaborate on global crisis or event |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>External comms</li><li>Approvals request</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
+
 
 ## Adopt Office 365
 
@@ -49,7 +50,7 @@ Help build, grow, and sustain your Champions community rollout by evangelizing a
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------|--|-----------------------------------------------------------|
 | Adopt Office 365 | `com.microsoft.teams.template.AdoptOffice365` |  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li></ul> Apps: <ul><li>Wiki</li>  <li>Calendar</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>|
-||||
+
 
 ## Manage a project
 
