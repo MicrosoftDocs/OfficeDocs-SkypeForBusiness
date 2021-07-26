@@ -97,6 +97,11 @@ Teams manages the lifecycle of the private channel site. If the site is deleted 
 
 If a private channel or a team containing a private channel is restored, the sites are restored with it. If a private channel site is restored and it's beyond the 30-day soft delete window for the private channel, the site operates as a standalone site.
 
+> [!NOTE]
+> When you create a new team or private channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+>
+> Learn more about managing [Microsoft Teams connected teams sites](https://docs.microsoft.com/SharePoint/teams-connected-sites).
+
 ## Private channel message compliance records
 
 Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.

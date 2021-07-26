@@ -74,6 +74,8 @@ The type of sharing link shown by default when a user shared a file is set in th
 
 ## Related topics
 
+[Manage Teams connected sites and channel sites](/SharePoint/teams-connected-sites)
+
 [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
 [What the guest experience is like](guest-experience.md)
