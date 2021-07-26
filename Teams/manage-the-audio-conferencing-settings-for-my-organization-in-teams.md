@@ -231,8 +231,7 @@ PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128
 ```
 
 [!NOTE]
-> You can only assign toll or toll free numbers that are registered within your tenant. 
-
+> You can only assign toll or toll-free numbers that are registered within your tenant. 
   
 
 ## Want to know more about Windows PowerShell?
