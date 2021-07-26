@@ -45,6 +45,4 @@ After you are finished with all changes on the Edit Properties page, click **OK*
 
 ## See also
 
-For details, see [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
-
-
+For details, see [Planning for Simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls)

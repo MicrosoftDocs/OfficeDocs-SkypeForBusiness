@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: Teams voice Contoso case study upgrade plan
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: 'Teams voice case study for multi-national corporation: Upgrade planning.'
 appliesto: 
   - Microsoft Teams
 ---
@@ -43,8 +43,8 @@ Contoso also attended the Ignite 2019 session [Designing your path from Skype fo
   - Availability of collaboration functionality in Teams clients 
 
 To plan and configure hybrid connectivity, the first step in moving their on-premises environment to the cloud, Contoso read
-[Plan hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
- [Configure hybrid connectivity](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) to understand how to: 
+[Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) and 
+ [Configure hybrid connectivity](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) to understand how to: 
 
   - Configure their on-premises environment service to federate with Office 365. 
 
@@ -54,4 +54,4 @@ To plan and configure hybrid connectivity, the first step in moving their on-pre
 
   - Use Islands mode during the technical pilot.
 
-  - Switch users to TeamsOnly mode once the user is enabled for Phone System. TeamsOnly mode is required for  Calling Plan and Direct Routing. 
+  - Switch users to TeamsOnly mode once the user is enabled for Phone System. TeamsOnly mode is required for  Calling Plan and Direct Routing.

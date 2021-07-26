@@ -1,7 +1,7 @@
 ---
 title: Limits and specifications for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: microsoftheidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -44,7 +44,7 @@ This article describes some of the limits, specifications, and other requirement
 |Maximum number of members in an Office 365 group that can be converted to a team    |10,000<sup>6</sup>     |
 |Channel conversation post size | Approximately 28 KB per post<sup>5</sup> |
 
-<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
 <sup>2</sup> This limit includes archived teams. 
 
@@ -73,7 +73,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -94,7 +94,7 @@ Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits a
 
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
-For more information, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
 > Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
@@ -113,25 +113,24 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 ## Meetings and calls
 
-> [!IMPORTANT]
-> **Microsoft 365 live event limit increases**
->
-> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
->
->- Event support for up to 20,000 attendees
->- 50 events can be hosted simultaneously across a tenant
->- Event duration of 16 hours per broadcast
->
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300. **View-only** allows for up to 10,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU.<br>**Note:** For Teams for Government (GCC, GCC High, DoD), the limit is still 250. We'll update this article when the government cloud limit increases from 250 to 300 and supports meeting overflow. Learn more about the [View-only experience](view-only-meeting-experience.md).|
+|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). The view-only experience will soon be available for webinars as well. Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
+  
+<sup>1</sup> For the best experience in large meetings, webinars, and live events, Microsoft recommends using the Teams desktop client or Teams mobile clients.
+  
+<sup>2</sup> Presenters in large meetings, webinars, and live events should use the Teams desktop client. For more tips on hosting large meetings, please see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+  
+> [!NOTE]
+> Breakout rooms can only be created in meetings that have fewer than 300 attendees. In addition, creating breakout rooms in a meeting automatically limits the number of meeting attendees to 300. Advise your end-users to not initiate breakout rooms in meetings where they expect more than 300 participants. For more information on large Team meetings, share the guidance [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) with your end-users. 
 
 ### Meeting expiration
+
+> [!NOTE]
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
 
 |Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
 |---------|---------|---------|
@@ -159,7 +158,7 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
+> **To continue supporting our customers' needs, through December 31, 2021, we will extend temporary limit increases for live events, including**:
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
@@ -176,7 +175,7 @@ Teams presence in Outlook is supported on the Outlook 2013 desktop app and later
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
-> Each [private channel](https://docs.microsoft.com/microsoftteams/private-channels) has its own SharePoint site (previously called "site collection").
+> Each [private channel](./private-channels.md) has its own SharePoint site (previously called "site collection").
 
 If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
@@ -188,7 +187,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |
-|File upload limit  (per file)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|File upload limit  (per file)    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |
 
 Channels are backed by folders within the SharePoint Online site (previously called "site collection") created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
@@ -208,10 +207,10 @@ Limits for class teams are listed in the following table:
 |Feature  |Maximum limit  |
 |---------|---------|
 |Number of members in a team    | See the [Teams and channels](#teams-and-channels) section of this article        |
-|Number of members to use Assignments in a class team    | 200        |
-|Number of members to use a OneNote Class Notebook in a class team     |200         |
+|Number of members to use Assignments in a class team    | 300        |
+|Number of members to use a OneNote Class Notebook in a class team     |300         |
 
-A class team can support more than 200 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## Tags
 

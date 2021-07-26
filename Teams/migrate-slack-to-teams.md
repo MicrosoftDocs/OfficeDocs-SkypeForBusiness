@@ -86,7 +86,7 @@ The identity schemes you used in Slack might not map directly to Microsoft 365 o
 
 If you’re on a paid Slack service plan, you can go to *<your Slack workspace>.slack.com/admin/stats#members* to get member details such as email address and account type for each user (for example, single vs. multi-channel guest).
 
-Here’s a script you can use to compare email addresses from a Slack export against Azure AD to help solve for name ambiguity. It’ll also report if the user is enabled for Teams. If you need help with PowerShell, read [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).
+Here’s a script you can use to compare email addresses from a Slack export against Azure AD to help solve for name ambiguity. It’ll also report if the user is enabled for Teams. If you need help with PowerShell, read [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).
 
 ```azurepowershell
 Connect-AzureAD
@@ -209,7 +209,7 @@ Most solutions will export files. However, they’re typically provided as links
 
 For files stored in Slack, once you’ve set up your teams and channels in Teams, you can programmatically copy them from Slack into the target Teams channel.
 
-The following script retrieves files from Slack. It searches the specified Slack export on your computer, creates a folder in each target channel, and downloads all of the files to that location. Third-party solutions exist that can extract data. If you need help with PowerShell, read [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).
+The following script retrieves files from Slack. It searches the specified Slack export on your computer, creates a folder in each target channel, and downloads all of the files to that location. Third-party solutions exist that can extract data. If you need help with PowerShell, read [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).
 
 
 
@@ -358,7 +358,7 @@ Now that your transition plan is defined, you can begin creating your teams and 
 
 Once you’ve created your teams & channels, begin copying files from Slack channels into Teams and configuring your apps. If you’re using a solution to retain history, that can be configured now as well. Then you’re ready to start licensing users (if they aren’t licensed already) and adding them to the appropriate teams. To reduce the need for additional exports and file copies, consider removing Slack access at an agreed-upon date that coincides with each user’s addition to the team. This avoids needing to re-export and import delta changes on files and history.
 
-Follow the steps in the diagram below to roll out Teams in your organization. For more information, check out [How to roll out Teams](How-to-roll-out-teams.md).
+Follow the steps in the diagram below to roll out Teams in your organization. For more information, check out [How to roll out Teams](./deploy-overview.md).
 
 
 :::image type="content" source="media/migrate-slack-to-teams-image4.png" alt-text="Diagram listing the steps of moving to Teams from Slack.":::

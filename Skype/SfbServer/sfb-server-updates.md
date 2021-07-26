@@ -37,11 +37,11 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 ### Skype for Business Server 2019 tools
 
-|Package Name/Link|Release Date|
+|Package Name |Release Date|
 |:--- |:--- |
 |[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  June 2019       |
 |[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | June 2018        |
-|[Skype for Business Server 2019, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | June 2018        |
+| Skype for Business Server 2019, Management Pack    | June 2018        |
 |||
 
 
@@ -73,11 +73,11 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 ### Skype for Business Server 2015 tools
 
-|Package Name/Link|Release Date|
+|Package Name |Release Date|
 |:--- |:--- |
 |[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  May 2015       |
 |[Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)     |   May 2015      |
-|[Skype for Business Server 2015, Management Pack](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  June 2019       |
+| Skype for Business Server 2015, Management Pack     |  June 2019       |
 |||
 
 ## Lync Server 2013 update history
@@ -111,29 +111,29 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 | Lync Server 2013 Cumulative Update 5 Hotfix 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|Sept 2014 |
 | Lync Server 2013 Cumulative Update 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|August  2014 |
 |Lync Server 2013 Cumulative Update 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|January 2014 |
-|Lync Server 2013 Cumulative Update 3 |[KB 881682](https://support.microsoft.com/kb/881682)|October 2013 |
+|Lync Server 2013 Cumulative Update 3 | KB 881682 |October 2013 |
 |Lync Server 2013 Cumulative Update 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|July 2013 |
 |Lync Server 2013 Cumulative Update 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|February 2013 |
 ||||
 
 ### Lync Server 2013 Dev tools
 
-|Package Name/Link|Release Date|
+|Package Name|Release Date|
 |:--- |:--- |
-|[Unified Communications Managed API 4.0 Runtime Cumulative Update](https://www.microsoft.com/download/details.aspx?id=36826) |July 2013 |
-|[Lync Server 2013 SDK](https://www.microsoft.com/download/details.aspx?id=35456) |February 2013|
+| Unified Communications Managed API 4.0 Runtime Cumulative Update |July 2013 |
+| Lync Server 2013 SDK |February 2013|
 |[Lync 2013 SDK](https://www.microsoft.com/download/details.aspx?id=36824)|March 2014|
-|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/download/details.aspx?id=35453)|January 2014|
+| Lync Server 2013 Debugging Tools|January 2014|
 |[Lync Server 2013 Persistent Chat Server SDK](https://www.microsoft.com/download/details.aspx?id=35458)|October 2013|
 |[Unified Communications Managed API 4.0 SDK](https://www.microsoft.com/download/details.aspx?id=35463)|February 2013|
 |[Unified Communications Managed API 4.0 Runtime](https://www.microsoft.com/download/details.aspx?id=34992)|October 2012|
-|[UC Enhanced Presence Schemas for Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35452)|October 2012|
+| UC Enhanced Presence Schemas for Lync Server 2013|October 2012|
 
 #### Pre-configured VHDs
 
 The complete topology consists of 7 virtual machines that enable you to fully evaluate the Microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013, and UC developer platform APIs (including Microsoft Lync 2013 SDK, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK, and Microsoft Unified Communications Managed API 4.0).
 
-Package Name/Link|Release Date|
+Package Name |Release Date|
 |:--- |:--- |
 |[Test Drive - Lync Server 2013 - Part 1 of 3](https://www.microsoft.com/download/details.aspx?id=40266) |September 2013 |
 |[Test Drive - Lync Server 2013 - Part 2 of 3](https://www.microsoft.com/download/details.aspx?id=40267) |September 2013 |
@@ -141,26 +141,26 @@ Package Name/Link|Release Date|
 
 ### Lync 2013 Tools
 
-|Package Name/Link|Release Date|
+|Package Name |Release Date|
 |:--- |:--- |
-|[Lync Connectivity Analyzer (32-bit) RETIRED](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |June 2017 |
-|[Lync Connectivity Analyzer (64-bit) RETIRED](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |June 2017 |
-|[Lync Server 2013 Best Practices Analyzer](https://www.microsoft.com/download/details.aspx?id=35455) |October 2012 |
+| Lync Connectivity Analyzer (32-bit) RETIRED |June 2017 |
+| Lync Connectivity Analyzer (64-bit) RETIRED |June 2017 |
+| Lync Server 2013 Best Practices Analyzer |October 2012 |
 |[Lync Server 2013 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=36828) |July 2013 |
 |[Lync Server 2013 Debugging Tools](https://www.microsoft.com/download/details.aspx?id=35453) |January 2014 |
-|[Lync Server 2013 Management Pack](https://www.microsoft.com/download/details.aspx?id=35842) |May 2016 |
-|[Lync Server 2013 Persistent Chat Resource Kit](https://www.microsoft.com/download/details.aspx?id=36827) |July 2013 |
-|[Lync Server 2013 Planning Tool](https://www.microsoft.com/download/details.aspx?id=36823) |July 2013 |
-|[Lync Server 2013 Resource Kit Tools](https://www.microsoft.com/download/details.aspx?id=36821) |January 2014 |
-|[Lync Server 2013 Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=36819) |March 2013 |
-|[Lync Server 2013 Whiteboard Archiving Viewer](https://www.microsoft.com/download/details.aspx?id=36822) |February 2013 |
+| Lync Server 2013 Management Pack |May 2016 |
+| Lync Server 2013 Persistent Chat Resource Kit |July 2013 |
+| Lync Server 2013 Planning Tool |July 2013 |
+| Lync Server 2013 Resource Kit Tools |January 2014 |
+| Lync Server 2013 Stress and Performance Tool |March 2013 |
+| Lync Server 2013 Whiteboard Archiving Viewer |February 2013 |
 |[Lync VDI 2013 plugin (32-bit)](https://www.microsoft.com/download/details.aspx?id=35457) |October 2012 |
 |[Lync VDI 2013 plugin (64-bit)](https://www.microsoft.com/download/details.aspx?id=35454) |October 2012 |
 |[New Office Visio Stencil](https://www.microsoft.com/download/details.aspx?id=35772) |July 2016 |
 
 ### Lync 2013 downloadable documentation
 
-Package Name/Link|Release Date|
+Package Name |Release Date|
 |:--- |:--- |
 |[Lync Server 2013 Documentation Help File](https://www.microsoft.com/download/details.aspx?id=35405)|August 2015 |
 
@@ -172,24 +172,24 @@ Package Name/Link|Release Date|
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Lync Server 2010 Cumulative Update 18 Hotfix 1 |[KB 2493736](https://support.microsoft.com/kb/2493736) |June 2019|
-|Lync Server 2010 Cumulative Update 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |January 2019|
-|Lync Server 2010 Cumulative Update 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |April 2016 |
-|Lync Server 2010 Cumulative Update 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |May 2015 |
-|Lync Server 2010 Cumulative Update 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |February 2015|
-|Lync Server 2010 Cumulative Update 13|[KB 2982385](https://support.microsoft.com/kb/2982385) </br> [KB 2982388](https://support.microsoft.com/kb/2982388)|September 2014|
-|Lync Server 2010 Cumulative Update 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |April 2014 |
-|Lync Server 2010 Cumulative Update 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |January 2014|
-|Lync Server 2010 Cumulative Update 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |October 2013|
-|Lync Server 2010 Cumulative Update 9 |[KB 2860700](https://support.microsoft.com/kb/2860700) |July 2013|
-|Lync Server 2010 Cumulative Update 8 |[KB 2791381](https://support.microsoft.com/kb/2791381) |July 2013|
-|Lync Server 2010 Cumulative Update 7 |[KB 2737915](https://support.microsoft.com/kb/2737915) |October 2012|
-|Lync Server 2010 Cumulative Update 6 |[KB 2701585](https://support.microsoft.com/kb/2701585) |June 2012|
-|Lync Server 2010 Cumulative Update 5 |[KB 2670352](https://support.microsoft.com/kb/2670352) |February 2012|
-|Lync Server 2010 Cumulative Update 4 |[KB 2514980](https://support.microsoft.com/kb/2514980) |November 2011|
-|Lync Server 2010 Cumulative Update 3|[KB 2571546](https://support.microsoft.com/kb/2571546) |July 2011|
-|Lync Server 2010 Cumulative Update 2|[KB 2500442](https://support.microsoft.com/kb/2500442) |April 2011|
-|Lync Server 2010 Cumulative Update 1|[KB 2467775](https://support.microsoft.com/kb/2467775) |January 2011|
+|Lync Server 2010 Cumulative Update 18 Hotfix 1 | KB 2493736 |June 2019|
+|Lync Server 2010 Cumulative Update 18| KB 2493736 |January 2019|
+|Lync Server 2010 Cumulative Update 17| KB 3148801 |April 2016 |
+|Lync Server 2010 Cumulative Update 16| KB 3057803 |May 2015 |
+|Lync Server 2010 Cumulative Update 15 | KB 3030726 |February 2015|
+|Lync Server 2010 Cumulative Update 13| KB 2982385 </br> KB 2982388 |September 2014|
+|Lync Server 2010 Cumulative Update 12 | KB 2957044 |April 2014 |
+|Lync Server 2010 Cumulative Update 11 | KB 2909888 |January 2014|
+|Lync Server 2010 Cumulative Update 10 | KB 2889610 |October 2013|
+|Lync Server 2010 Cumulative Update 9 | KB 2860700 |July 2013|
+|Lync Server 2010 Cumulative Update 8 | KB 2791381  |July 2013|
+|Lync Server 2010 Cumulative Update 7 | KB 2737915 |October 2012|
+|Lync Server 2010 Cumulative Update 6 | KB 2701585 |June 2012|
+|Lync Server 2010 Cumulative Update 5 | KB 2670352 |February 2012|
+|Lync Server 2010 Cumulative Update 4 | KB 2514980 |November 2011|
+|Lync Server 2010 Cumulative Update 3| KB 2571546 |July 2011|
+|Lync Server 2010 Cumulative Update 2| KB 2500442 |April 2011|
+|Lync Server 2010 Cumulative Update 1| KB 2467775 |January 2011|
 ||||
 
 ### Group Chat 2010 updates
@@ -202,34 +202,34 @@ Package Name/Link|Release Date|
 
 ### Lync 2010 Dev Tools
 
-|Package Name/Link|Release Date|
+|Package Name |Release Date|
 |:--- |:--- |
-|[Lync Server 2010 SDK](https://www.microsoft.com/download/en/details.aspx?id=19675)|November 2010 |
-|[Lync 2010 SDK](https://www.microsoft.com/download/en/details.aspx?id=18898)|March 2011 |
-|[Lync Server 2010 Group Chat SDK](https://www.microsoft.com/download/en/details.aspx?id=23647)|June 2012 |
-|[Unified Communications Managed API 3.0 SDK](https://www.microsoft.com/download/en/details.aspx?id=10566)|May 2016 |
-|[Speech Platform - Server Runtime Languages (Version 10.2)](https://www.microsoft.com/download/en/details.aspx?id=21924)|September 2010 |
-|[Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=7358)|November 2010 |
+| Lync Server 2010 SDK |November 2010 |
+| Lync 2010 SDK |March 2011 |
+| Lync Server 2010 Group Chat SDK|June 2012 |
+| Unified Communications Managed API 3.0 SDK |May 2016 |
+| Speech Platform - Server Runtime Languages (Version 10.2) |September 2010 |
+| Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2010 |November 2010 |
 
 ### Lync 2010 Tools
 
-|Package Name/Link|Release Date|
+|Package Name |Release Date|
 |:--- |:--- |
-|[IM an Expert for Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|March 2012 |
-|[Lync Server 2010 Best Practices Analyzer](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|February 2011 |
+| IM an Expert for Microsoft Lync Server 2010 |March 2012 |
+| Lync Server 2010 Best Practices Analyzer |February 2011 |
 |[Lync Server 2010 Capacity Calculator](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|February 2012 |
-|[Lync Server 2010 Planning Tool](https://www.microsoft.com/download/en/details.aspx?id=19711)|February 2011 |
-|[Lync Server 2010 Resource Kit Tools](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|May 2012 |
-|[Lync Server 2010 Stress and Performance Tool](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|March 2011 |
+| Lync Server 2010 Planning Tool |February 2011 |
+| Lync Server 2010 Resource Kit Tools|May 2012 |
+| Lync Server 2010 Stress and Performance Tool |March 2011 |
 |[Lync Server 2010 Visio Stencil](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|February 2011 |
-|[Lync Server 2010 Web Scheduler](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|April 2011 |
+| Lync Server 2010 Web Scheduler |April 2011 |
 
 ### Lync 2010 downloadable documentation
 
-Package Name/Link|Release Date|
+Package Name |Release Date|
 |:--- |:--- |
 |[Lync Server 2010 Documentation Help File](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|March 2012 |
-|[Lync Server 2010 Welcome page](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|October 2012 |
+|[Lync Server 2010 Welcome page](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|October 2012 |
 |[IM an Expert for Microsoft Lync Server 2010 Documentation](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|March 2012 |
 |[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|January 2011 |
 |[Lync Server 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|January 2011 |
@@ -242,11 +242,11 @@ Visit the [Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/do
 
 ### Group Chat
 
-Package Name/Link|Release Date|
+Package Name |Release Date|
 |:--- |:--- |
-|[Lync Server 2010 Group Chat](https://www.microsoft.com/download/en/details.aspx?id=12480) |November 2010 |
-|[Lync Server 2010 Group Chat Admin Tool](https://www.microsoft.com/download/en/details.aspx?id=3610) |November 2010 |
-|[Lync 2010 Group Chat](https://www.microsoft.com/download/en/details.aspx?id=2651) |November 2010 |
+| Lync Server 2010 Group Chat |November 2010 |
+| Lync Server 2010 Group Chat Admin Tool |November 2010 |
+| Lync 2010 Group Chat |November 2010 |
 
 ### Trial Software
 
@@ -263,6 +263,6 @@ Software updates include any update, update rollup, service pack, feature pack, 
 
 ## Related topics
 
-- [Install Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [Upgrade to  Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Install Skype for Business Server 2015](./deploy/install/install.md)
+- [Upgrade to  Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](sfb-client-updates.md)

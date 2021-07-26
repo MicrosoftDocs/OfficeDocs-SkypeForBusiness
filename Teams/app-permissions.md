@@ -33,7 +33,7 @@ Microsoft Teams apps are a way to aggregate one or more capabilities into an _ap
 
 Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities that the app contains. Therefore, this article focuses on permissions and considerations at the capability level.
 
-The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](https://aka.ms/teamsdevdocs) or the [permissions for Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). They're simply a descriptive shorthand for the purpose of this article.
+The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference). They're simply a descriptive shorthand for the purpose of this article.
 
 
 | Title   | Description    |
@@ -41,7 +41,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 | ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
 | ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. </li></ul>|
 
-See also [Request device permissions for your Microsoft Teams tab](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
 
 ## Global app permissions and considerations
 
@@ -57,9 +57,9 @@ None
 
 - An app must disclose what data it uses and what the data is used for in its terms of use and privacy policy links.
 
-- [Resource-specific consent](resource-specific-consent.md) provides a set of permissions that apps can request, which appears on the installation screen of the app. To learn more about resource-specific consent permissions, see [Graph permissions reference](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions).
+- [Resource-specific consent](resource-specific-consent.md) provides a set of permissions that apps can request, which appears on the installation screen of the app. To learn more about resource-specific consent permissions, see [Graph permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
-- Apps may also need permissions other than resource-specific consent permissions. After an app is installed, the app may request Graph permissions through a consent prompt. To learn more, see [Understanding Azure AD application consent experiences](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). You can configure API permissions and consent in the Azure portal. To learn more, see [Azure Active Directory consent framework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
+- Apps may also need permissions other than resource-specific consent permissions. After an app is installed, the app may request Graph permissions through a consent prompt. To learn more, see [Understanding Azure AD application consent experiences](/azure/active-directory/develop/application-consent-experience). You can configure API permissions and consent in the Azure portal. To learn more, see [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework).
 
 ## Bots and messaging extensions
 

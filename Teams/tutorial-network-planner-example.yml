@@ -70,30 +70,30 @@ items:
   content: |
     Now, you need to add the three sites to your network plan. The table below summarizes the characteristics of Contoso's network locations.
 
-    |Location       |Total number of employees|Calling only employees|Internet connection       |PSTN connection                |
-    |---------------|-------------------------|----------------------|--------------------------|-------------------------------|
-    |Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing|
-    |Kirkland Office|400                      |10                    |Remote Internet through HQ|Remote PSTN through HQ         |
-    |Denver Office  |250                      |50                    |Local Internet            |No PSTN connection             |
+    |Location       |Total number of employees|Calling only employees|Internet connection       |PSTN connection                |WAN link capacity   | Internet link capacity   |
+    |---------------|-------------------------|----------------------|--------------------------|-------------------------------|--------------------|--------------------------|
+    |Seattle HQ     |1000                     |25                    |Local Internet            |Local PSTN using Direct Routing| 200 Mbps           | 500 Mbps                 |
+    |Kirkland Office|400                      |10                    |Remote Internet through HQ|Remote PSTN through HQ         | 200 Mbps           | N/A                      |
+    |Denver Office  |250                      |50                    |Local Internet            |No PSTN connection             | N/A                | 150 Mbps                 |
 
     1. Click your network plan in Network Planner.
     2. Select the **Network sites** tab and click **Add a network site**.
 
     ![Adding a network site](media/network-planner-add-network-site.png)
 
-    3. Using the table above, fill in the details for the Seattle HQ site.
+    3. Using the table above, fill in the details for the Seattle HQ site. Turn on both the **ExpressRoute** and **Connected to WAN** toggles. 
 
     ![New site details](media/network-planner-add-network-site-2.png)
 
     4. Since the Seattle HQ site has local internet and local PSTN connections, you need to correctly specify these characteristics.
 
-    ![New site egress settings](media/network-planner-add-network-site-egress.png)
+    ![New site egress settings](media/network-planner-add-network-site-link-capacity.png)
 
     5. Click **Save** to complete adding the Seattle HQ site.
-    6. Create the Denver site using the same process.
+    6. Create the Denver site using the same process. WAN should not be enabled. 
     7. Since the Kirkland site leverages the connection to Seattle HQ for both internet and PSTN connectivity, it is considered a remote site. When creating the Kirkland site, you need to specify that it is connected to WAN and select *Remote* for both **Internet egress** and **PSTN egress**.
 
-    ![Remote site egress settings](media/network-planner-add-remote-site-egress.png)
+    ![Remote site egress settings](media/network-planner-add-remote-site-egress-kirkland.png)
 
 - title: Create a report
   durationInMinutes: 3
@@ -113,7 +113,7 @@ items:
   content: | 
     Once you generate the report, you’ll see a screen displaying your bandwidth requirements both as overall and modality specific values. By default, the allowed bandwidth is set to 30%. By changing this value and clicking **Run report**, you can see the different impact on the bandwidth for your network. Any areas that need more bandwidth will be highlighted in red.
 
-    ![Report analysis](media/network-planner-report-output.png)
+    ![Report analysis](media/network-planner-contoso-report-output.png)
 
     Network planner also gives you recommendations based on the projected impact of Teams on your network. Click the recommendation view icon to see recommendations for each site, if there are any. The image below shows a sample recommendation view.
 
@@ -128,7 +128,4 @@ items:
 
      - [Prepare your organization's network for Microsoft Teams](prepare-network.md)
      - [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
-     - [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-
-
-
+     - [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)

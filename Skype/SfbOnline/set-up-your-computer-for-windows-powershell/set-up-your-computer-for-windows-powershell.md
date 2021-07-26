@@ -23,6 +23,8 @@ description: "Find out requirements for remote management of Skype for Business 
 
 # Set up your computer for Windows PowerShell
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Remote management of Skype for Business Online by using Microsoft PowerShell is supported only on 64-bit computers running one of the following operating systems:
 
 - Windows Server 2016
@@ -49,14 +51,13 @@ In addition to the supported operating system, the computer must also be running
     
 You can find information about downloading and installing these items in the following topics:
   
-- [Download and install the Teams Powershell module](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
+- [Download and install the Teams Powershell module](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Download and install Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## Related topics
 [Diagnose connection problems with the skype for business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
- 

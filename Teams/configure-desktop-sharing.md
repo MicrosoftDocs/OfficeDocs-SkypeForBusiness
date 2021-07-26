@@ -19,8 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Configure desktop sharing in Microsoft Teams
-============================================
+# Configure desktop sharing in Microsoft Teams
 
 Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen. External participants in Teams meetings can be categorized as follows:
 
@@ -66,7 +65,7 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 ## Use PowerShell to configure shared desktop
 
-You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing. Set the following parameters:
+You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing. Set the following parameters:
 
 - Description
 - ScreenSharingMode
@@ -77,4 +76,4 @@ You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/power
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).

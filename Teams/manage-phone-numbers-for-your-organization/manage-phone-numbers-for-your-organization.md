@@ -33,9 +33,9 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 There are four ways to get user (subscriber) and service (toll and toll-free) phone numbers for your organization:
 
-- [Getting new user phone numbers in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users).
-- [Getting new service phone numbers in the Microsoft Teams Admin Center](https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers#get-new-service-numbers).
-- [Transfer or _Port_ your existing phone numbers with us](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
+- [Getting new user phone numbers in the Microsoft Teams admin center](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
+- [Getting new service phone numbers in the Microsoft Teams Admin Center](../getting-service-phone-numbers.md#get-new-service-numbers).
+- [Transfer or _Port_ your existing phone numbers with us](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams).
 - Use a request form for new phone numbers that aren't listed in the Microsoft Teams admin center.
 
 > [!IMPORTANT]
@@ -51,17 +51,27 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Austria](phone-number-management-for-austria.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Czech Republic](phone-number-management-for-czech-republic.md)
 > - [Denmark](phone-number-management-for-denmark.md)
+> - [Finland](phone-number-management-for-finland.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
+> - [Hungary](phone-number-management-for-hungary.md)
 > - [Ireland](phone-number-management-for-ireland.md)
 > - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
-> - [Netherlands](phone-number-management-for-the-netherlands.md)
+> - [Luxembourg](phone-number-management-for-luxembourg.md)
+> - [New Zealand](phone-number-management-for-new-zealand.md)
+> - [Norway](phone-number-management-for-norway.md)
+> - [Poland](phone-number-management-for-poland.md)
 > - [Portugal](phone-number-management-for-portugal.md)
+> - [Romania](phone-number-management-for-romania.md)
+> - [Singapore](phone-number-management-for-singapore.md)
+> - [Slovakia](phone-number-management-for-slovakia.md)
 > - [Spain](phone-number-management-for-spain.md)
 > - [Sweden](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)
+> - [Netherlands](phone-number-management-for-the-netherlands.md)
 > - [United Kingdom](phone-number-management-for-the-u-k.md)
 > - [United States & Puerto Rico](phone-number-management-for-the-u-s.md)
 
@@ -88,17 +98,17 @@ Please send us an **LOA** if you currently have the following with another carri
 - Toll-Free phone numbers.
 - More than 999 user phone numbers that you need to transfer/port but can't get in the Microsoft Teams admin center using the local number porting wizard.
 
-Once you have your **filled and signed** LOA, please [contact our PSTN Service Desk](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) so we can assist you.
+Once you have your **filled and signed** LOA, please [contact our PSTN Service Desk](./contact-pstn-service-desk.md) so we can assist you.
 
 ## Still need assistance?
 
-[Please contact our PSTN Service Desk](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) and we will assist you as soon as possible.
+[Please contact our PSTN Service Desk](./contact-pstn-service-desk.md) and we will assist you as soon as possible.
 
 ## Additional resources
 
 - To see _if_ and which calling plans are available in your country or region, read [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To assist you in choosing the correct type of phone numbers, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
-- To get assistance with setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+- To get assistance with setting up phone numbers for your organization, read: [Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
 ## Related topics
 

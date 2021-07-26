@@ -26,7 +26,7 @@ This article details the considerations you must make with the "Teams First" app
 > [!IMPORTANT]
 > While Teams can be your organization's first cloud deployed workload, deploying Teams should be part of your overall cloud deployment strategy.
 
-If you have already rolled out other Microsoft 365 or Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out Teams](How-to-roll-out-teams.md).
+If you have already rolled out other Microsoft 365 or Office 365 services and Teams is your next workload to roll out (instead of the first), start with [How to roll out Teams](./deploy-overview.md).
 
 ## Start here
 
@@ -35,15 +35,15 @@ To get started with your Teams First deployment you will need to meet at minimum
 1.  A Microsoft 365 or Office 365 organization configured with your domain name
 
 2.  Azure Active Directory connectivity (AAD connect) or similar cloud identity sync solution – with all required attributes synched with your tenant  
-    To understand the attributes synchronized with AAD sync, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+    To understand the attributes synchronized with AAD sync, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Appropriate user licenses assigned for Teams  
-    To understand Teams licensing, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+    To understand Teams licensing, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 4.  Organization's network prepared for Teams  
     To understand network preparation, read [Prepare your organization's network for Teams](prepare-network.md).
 
-5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > Tenants created after September 1, 2019 are provisioned in Teams Only mode.
@@ -101,14 +101,15 @@ This starting point assumes that your organization does not utilize Skype for Bu
 <td>Chat / External Communication in Teams</td>
 <td><p>Internal (intra Microsoft 365 or Office 365 organization) and external chat communication possible from Teams.</p>
 <p><em>Note: DNS entries must be configured for external access. Skype for Business DNS records are needed even though you don't have Skype for Business on-premises, or in Microsoft 365 or Office 365, to allow federation with Lync and Skype for Business environments:<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">External Domain Name System records</a></em></p></td>
+<a href="/office365/enterprise/external-domain-name-system-records">External Domain Name System records</a></em></p></td>
 </tr>
 <tr class="odd">
 <td>Create and view Meetings in Teams</td>
 <td><p>Able to create internal and external meetings via Outlook add-in.</p>
 <p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
-<p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a> </p>
-<p>In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">Configure OAuth authentication between Exchange and Exchange Online organizations".</p>
+<p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a> </p>
+
+In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
 
 </p></td>
 </tr>
@@ -130,7 +131,7 @@ VoIP / PSTN in Teams</td>
 <tr class="odd">
 <td>Application platform</td>
 <td>Users will be able to use the apps that are designated available for them according to your company policies.<br />
-Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settings">Admin settings for apps in Teams</a></td>
+Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for apps in Teams</a></td>
 </tr>
 <tr class="even">
 <td>Security and Compliance features</td>
@@ -139,7 +140,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
 <li><p>Data Loss Prevention policies (DLP) are available.</p></li>
 </ul>
-<p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a full list, see <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a>.</p></td>
+<p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a full list, see <a href="/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -186,8 +187,8 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <td><p>Able to create internal and external meetings via Outlook add-in.</p>
 <p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
-<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
-<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps">
+<a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
+<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy">
 set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>
@@ -209,7 +210,7 @@ VoIP / PSTN in Teams</td>
 <tr class="odd">
 <td>Application platform</td>
 <td>Users will be able to use the apps that are designated available for them according to your company policies.<br />
-Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settings">Admin settings for apps in Teams</a></td>
+Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for apps in Teams</a></td>
 </tr>
 <tr class="even">
 <td>Security and Compliance features</td>
@@ -219,7 +220,7 @@ Learn more here: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <li><p>Data Loss Prevention policies (DLP) are available.</p></li>
 </ul>
 <p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a complete list, see 
-<a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact.</a></p>
+<a href="/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact.</a></p>
 <ul>
 </ul></td>
 </tr>
@@ -281,7 +282,7 @@ For specifics on each of the services listed above, please follow the links belo
   - Exchange Online is used for calendaring features and storing peer to peer messages in Teams. To learn more, read [How Exchange and Teams interact](exchange-teams-interact.md)
 
 > [!IMPORTANT]
-> For Teams interop with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+> For Teams interop with Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   - SharePoint is used for file sharing in channels, while /OneDrive for Business is used for file sharing in 1:1 or group chat. To learn more, read [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
@@ -292,7 +293,7 @@ For specifics on each of the services listed above, please follow the links belo
 
 [Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
-[Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
+[Plan hybrid connectivity between Skype for Business Server and Office 365](/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
 
 [Support remote workers using Teams](support-remote-work-with-teams.md)
 

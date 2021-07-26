@@ -30,7 +30,7 @@ Local Media Optimization for Direct Routing lets you manage voice quality by:
 
 Local Media Optimization supports two scenarios:
 
-- Centralization of all local trunks through a centralized SBC connected to the main Session Initiation Protocol (SIP)trunk--providing telephony services to all local branch offices of the company.
+- Centralization of all local trunks through a centralized SBC connected to the main Session Initiation Protocol (SIP) trunk--providing telephony services to all local branch offices of the company.
 
 - 	Building a virtual network topology of SBCs--where the SBCs in the local branch offices are connected to a centralized proxy SBC that is visible to, and communicating with, Microsoft Phone System through its external IP address. In a virtual network topology, downstream SBCs are communicating through internal IPs and are not directly visible to Phone System.
 
@@ -74,7 +74,8 @@ To build a solution where PSTN services are provided to all local branch offices
 
 - When a user is outside of the corporate network, the SBC provides the external (public) IP of the SBC.
 
-Note: All values within examples, tables, or diagrams are presented for illustration purposes only.
+> [!NOTE]
+> All values within examples, tables, or diagrams are presented for illustration purposes only.
 
 Table 1. Example network parameters for SBCs 
 
@@ -149,7 +150,8 @@ The user, who is assigned to a local branch office in Vietnam, and is on premise
 
 - The downstream SBC in the local branch office is not visible to Phone System directly but is mapped within the virtual network topology that is defined by the Contoso administrator while setting up Local Media Optimization.
 
-Note: The behavior might be different for local users and non-local users depending on the configured Local Media Optimization mode. 
+> [!NOTE]
+> The behavior might be different for local users and non-local users depending on the configured Local Media Optimization mode. 
 
 For more information on possible modes and relevant behavior, see Configure Local Media Optimization.
 
@@ -185,8 +187,8 @@ Local Media Optimization supports two modes:
 
 To distinguish between Local Media Optimization modes, the tenant administrator needs to set the -BypassMode parameter to either ‘Always’ or ‘OnlyForLocalUsers’ for every SBC by using the  Set-CSonlinePSTNGateway cmdlet. For more information, see [Configure Local Media Optimization](direct-routing-media-optimization-configure.md).  
 
- > [!NOTE]
-  > When users are internal, media connectivity between the user and the SBC over the internal IP address is **required**. There is no fallback to public transport relays for media in this case as the SBC will be providing an internal IP for media connectivity. 
+> [!NOTE]
+> When users are internal, media connectivity between the user and the SBC over the internal IP address is **required**. There is no fallback to public transport relays for media in this case as the SBC will be providing an internal IP for media connectivity. 
 
 ### Mode 1: Always bypass
 
@@ -328,7 +330,7 @@ The following is a list of known issues that are currently present in Local Medi
 
 | Issue | Workaround |
 | :--- | :--- |
-| Teams client is not identified as **internal** when the Teams client Public IP matches the customer Trusted IP list. | Local Media Optimization requires that the Teams client subnet matches a tenant configured [network subnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams client is not identified as **internal** when the Teams client Public IP matches the customer Trusted IP list. | Local Media Optimization requires that the Teams client subnet matches a tenant configured [network subnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | Call escalations result in dropped calls when the Teams client is identified as internal.| Disable Local Media Optimization on the Direct Routing SBC.|
-
-
+| Call escalations from 1 to 1 call between internal customers to multiparty call with external customer/resource result in dropped calls | Work in progress on a fix. Alternatively, disable Local Media Optimization on the Direct Routing SBC.|
+| Teams user puts the call On Hold. Music plays on the PSTN end and Local Media Optimization is working. The Teams user resumes the call. The call to PSTN resumes but Local Media Optimization is not working and the call continues via Central (Proxy) SBC | When a user parks a call to initiate music on hold (MoH), it is being escalated from 1:1 to a multiparty call by the Call Controller to invoke Media Controller and Media Processor (serving as AVMCU mixer) through which MoH reaches a user who has been put on hold. De-escalation to a 1:1 call after the call resumes never happens as per design. Disable Local Media Optimization on the Direct Routing SBC.|

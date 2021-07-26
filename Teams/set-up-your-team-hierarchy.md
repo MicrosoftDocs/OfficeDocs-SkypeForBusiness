@@ -69,7 +69,7 @@ For example, in the following hierarchy, Recall, Communications, and HR can publ
 ## Create your hierarchy
 
 > [!NOTE]
-> The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) for an overview of the Tasks app, where task publishing appears when enabled.
+> The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](./manage-tasks-app.md) for an overview of the Tasks app, where task publishing appears when enabled.
 
 The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
 
@@ -130,9 +130,9 @@ The `Store layout` attribute has values that include `Compact`, `Standard`, and 
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
 Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,
 Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,
-HR,,,,,,,,
-East Regional Office,,,,,,,,
-West Regional Office,,,,,,,,
+HR,,125399ce-a761-4983-a125-3abc249037fc,,,,,,
+East Regional Office,HR;Communications;Recall,,,,,,,
+West Regional Office,HR;Communications;Recall,,,,,,,
 Northeast Zone,East Regional Office,,,,,,,
 Southeast Zone,East Regional Office,,,,,,,
 New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,
@@ -144,6 +144,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ```
 
 ## Apply your hierarchy
+
+> [!NOTE] 
+> To perform this step, you must install and use the Teams PowerShell public preview module from the PowerShell Gallery. For steps on how to install the module, see Install Teams PowerShell.
+
+> [!NOTE]
+> Government Community Cloud (GCC) customers must use [cmdlet preview version 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) or later to ensure data is routed to the GCC environment, rather than the public cloud environment.
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
 

@@ -1,7 +1,7 @@
 ---
-title: Manage emergency call routing policies
-author: cichur
-ms.author: v-cichur
+title: Manage emergency call routing policies for Direct Routing
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -23,9 +23,9 @@ ms.custom:
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ---
 
-# Manage emergency call routing policies in Microsoft Teams
+# Manage emergency call routing policies for Direct Routing
 
-If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you can use emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. An emergency call routing policy determines whether enhanced emergency services is enabled for users who are assigned the policy, the numbers used to call emergency services (for example, 911 in the United States), and how calls to emergency services are routed.
+If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you can use emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. An emergency call routing policy determines whether enhanced emergency services are enabled for users who are assigned the policy, the numbers used to call emergency services (for example, 911 in the United States), and how calls to emergency services are routed.
 
 You manage emergency call routing policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](cloud-voice-network-settings.md).
 
@@ -55,7 +55,7 @@ If you assigned an emergency call routing policy to a network site and to a user
 
 ### Using PowerShell
 
-See [New-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
+See [New-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
 
 ## Edit an emergency call routing policy
 
@@ -69,17 +69,17 @@ You can edit the global policy or any custom policies that you create.
 
 ### Using PowerShell
 
-See [Set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
+See [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
 
 ## Assign a custom emergency call routing policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-See also [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
+See also [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
 ## Assign a custom emergency call routing policy to a network site
 
-Use the [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling routing policy to a network site.
+Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling routing policy to a network site.
 
 This example shows how to assign a policy called Emergency Call Routing Policy 1 to the Site1 site.
 

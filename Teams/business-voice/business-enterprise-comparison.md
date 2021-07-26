@@ -12,7 +12,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn what the differences are between Microsoft 365 Enterprise Voice and Business Voice.
 appliesto: 
 - Microsoft Teams
 ---
@@ -25,7 +25,6 @@ While Business Voice and Enterprise Voice offer the same services, there are a f
 
 - **Maximum number of licenses** - You can purchase up to 300 Business Voice licenses. With Enterprise Voice, you can purchase an unlimited number of licenses.
 - **Simplicity** - Business Voice gives you everything you need to get Phone System up and running; you don't need to worry about which licenses each user needs. With Enterprise Voice, however, you can be more selective about which users are assigned licenses like audio conferencing.
-- **Wizard-based setup** - Business Voice guides you through setting up your users, phone numbers, call menus, and more, with the Getting Started wizard. After the wizard gathers all your choices, it sets up Phone System and all its related features for you. With Enterprise Voice, features need to be set up individually, giving you additional flexibility in how you want Phone System set up.
 
 Business Voice licenses are available for the first 300 users in your organization. If your organization grows beyond 300 users, you need to purchase Enterprise Voice licenses for those additional users. You don't need to switch your original 300 users from Business Voice to Enterprise Voice. Both licenses can exist in an organization at the same time. However, only one license, either Business Voice or Enterprise Voice, can be assigned to an individual user. You can't assign both licenses to a single user.
 
@@ -33,19 +32,18 @@ Business Voice licenses are available for the first 300 users in your organizati
 
 The table below shows the features available to Business Voice and Enterprise Voice.
 
-|  Features                                                            | Business Voice | Enterprise Voice  |
-|----------------------------------------------------------------------|----------------|-------------------|
-| Phone System               | X              | X                 |
-| Caller ID                                                            | X              | X                 |
-| Voice Mail                                                           | X              | X                 |
-| Call Menus                                                           | X              | X                 |
-| Shared Phone Lines                                                   | X              | X                 |
-| Emergency Calling                                                    | X              | X                 |
-| Domestic Calling                    | X              | X                 |
-| Free calls within country or region                                  | X              | X                 |
-| International plans available                                        | X              | X                 |
-| Toll-free dialing available                                          | X              | X                 |
-| Audio Conferencing           | X              | X                 |
-| Host conference calls with non-Teams users                           | X              | X                 |
-| Host conference calls with non-internet users                        | X              | X                 |
-| Business Voice Getting Started wizard  | X              |                   |
+| Features                                      | Business Voice | Enterprise Voice |
+|-----------------------------------------------|----------------|------------------|
+| Phone System                                  | X              | X                |
+| Caller ID                                     | X              | X                |
+| Voice Mail                                    | X              | X                |
+| Call Menus                                    | X              | X                |
+| Shared Phone Lines                            | X              | X                |
+| Emergency Calling                             | X              | X                |
+| Domestic Calling                              | X              | X                |
+| Free calls within country or region           | X              | X                |
+| International plans available                 | X              | X                |
+| Toll-free dialing available                   | X              | X                |
+| Audio Conferencing                            | X              | X                |
+| Host conference calls with non-Teams users    | X              | X                |
+| Host conference calls with non-internet users | X              | X                |

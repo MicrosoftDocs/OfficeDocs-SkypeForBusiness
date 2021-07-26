@@ -73,7 +73,7 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2">Teams Service Administrator</td>
+    <td valign="top" colspan="2">Teams Administrator</td>
     <td valign="top">Manage the Teams service, and create and manage Microsoft 365 Groups</td>
     <td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>Manage messaging, including messaging policies<sup>1</sup><br><br>Manage all org-wide settings, including federation, Teams upgrade, and Teams client settings<sup>1</sup><br><br>Manage the teams in the organization and their associated settings, including membership<sup>2</sup><br><br>View the user profile page and troubleshoot user call quality problems by using advanced troubleshooting toolset<sup>3</sup></td>
 </tr>
@@ -95,10 +95,10 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 <tr>
 </tbody>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a> only</td>
+<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
+">PowerShell—Skype for Business module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a> only</td>
 </tr>
 </tfoot>
 </table>
@@ -190,7 +190,7 @@ Because teams are living organisms, they occasionally need to be checked on and 
 
 When the work of a team has run its course, it's important to formally acknowledge that it's over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like postmortems and executive summaries.
 
-You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 21 days (30 days for Microsoft 365 Groups). Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion. Deleting a channel will not delete the folder or its contents from the SharePoint document library.
+You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 30 days. Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion. Deleting a channel will not delete the folder or its contents from the SharePoint document library.
 
 You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren't active any longer or whose owners have left the organization.
 

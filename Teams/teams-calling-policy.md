@@ -1,5 +1,5 @@
 ---
-title: Calling policies in Microsoft Teams
+title: 'Calling policies in Microsoft Teams: Calling and call-forwarding features'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -22,8 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Calling policies in Microsoft Teams
-===================================
+#  Calling and call-forwarding in Teams
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
 
@@ -89,7 +88,7 @@ Setting this to **On** will send calls through the PSTN and incur charges rather
 
 ### Busy on Busy is available while in a call
 
-Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
+Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
 
 ### Allow web PSTN calling
 
@@ -101,6 +100,6 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ## Related topics
 
-[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Assign policies to your users in Teams](assign-policies.md)

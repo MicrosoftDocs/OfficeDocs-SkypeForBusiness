@@ -1,7 +1,7 @@
 ---
 title: Enlist stakeholders | Skype for Business to Teams upgrade planning
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -33,9 +33,9 @@ From implementing project deliverables to driving accountability, your stakehold
 > [!Tip]
 > Take time to identify the ideal executive sponsor, someone who can help set the tone of your project, leads by example, and holds others accountable. This should be a senior manager or executive who has authority over the project scope and vision. They should also be the final decision-maker in removing blockers and resolving conflict to help keep the project on time and on budget.
 
-Optionally, you can create a steering committee. Sometimes large or more complex projects end up with "too many cooks in the kitchen," resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project's initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the [steering committee guide](https://aka.ms/SteeringCommittee).
+Optionally, you can create a steering committee. Sometimes large or more complex projects end up with "too many cooks in the kitchen," resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project's initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the [steering committee guide](./envision-steering-committee-complete-guide.md).
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points | <ul><li>Who are the right people to serve as your stakeholder team for this project?</li></ul> |
 | ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Use the following table as a guideline, but note that this list isn't all-inclusive.<br><strong>Tip</strong><br>Build a responsible-accountable-consulted-informed [(RACI) matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further distinguish those who will be held accountable from those who simply need to be kept informed in a particular area of the project.</li> |
@@ -64,4 +64,4 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 | Marketing Lead | Designs and implements communications campaigns |
 | Training Lead | Designs and implements training plans |
 
-After you've gathered your stakeholders, proceed to the next step: [Define your project scope](https://aka.ms/SkypetoTeams-Scope).
+After you've gathered your stakeholders, proceed to the next step: [Define your project scope](./upgrade-define-project-scope.md).

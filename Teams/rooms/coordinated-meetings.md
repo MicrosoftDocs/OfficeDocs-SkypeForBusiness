@@ -22,7 +22,7 @@ If you have one or more Microsoft Teams Rooms devices or Surface Hubs in a meeti
 To set up Coordinated Meetings, you need to make sure your Teams Rooms devices and Surface Hubs are already correctly configured to participate in meetings. Most importantly, each device needs to have its own Exchange room mailbox. For information on how to set them up, see the following articles:
 
 - [Deploy Microsoft Teams Rooms](../rooms/rooms-deploy.md)
-- [Create Surface Hub 2S device account](https://docs.microsoft.com/surface-hub/surface-hub-2s-account)
+- [Create Surface Hub 2S device account](/surface-hub/surface-hub-2s-account)
 
 After you've confirmed that your Teams Rooms devices and Surface Hubs can automatically accept meetings and join them successfully, you can set up Coordinated Meetings.
 
@@ -43,7 +43,7 @@ Before you make any configuration changes, you need to decide which devices will
 
 When you set up a Coordinated Meeting experience in a meeting room, you need to tell the Teams Rooms devices and Surface Hubs in that room which devices to coordinate with. This is done by adding the user principal name (UPN) of the devices it should coordinate with to its configuration. If you don't know the UPNs for each of the devices you want to set up for Coordinated Meetings, you can find them using the Microsoft 365 admin center. 
 
-You need to be assigned an admin role to access the Microsoft 365 admin center. For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+You need to be assigned an admin role to access the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 To get the UPNs of your Teams Rooms devices and Surface Hubs, do the following:
 
@@ -141,13 +141,13 @@ To set up Coordinated Meetings on a device, do the following:
 5. Place the file in the Teams Rooms device's `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder. You can do this a few ways:
 
     - **Copy the file to your Teams Rooms device** You'll need to enable file sharing and create a network share before you can copy files to your device. After you do that, you can connect to network share and copy the file to the device. For more information, see [Microsoft Teams Rooms maintenance and operations](../rooms/rooms-operations.md).
-    - **Use a Group Policy** Create a group policy to copy the file to device. For more information, see [Group Policy Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)).
+    - **Use a Group Policy** Create a group policy to copy the file to device. For more information, see [Group Policy Overview](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)).
     - **Download the file on the Teams Rooms device** You can log into the device using Admin mode and then copy the file to the device from a network share or USB drive. For more information, see [Switching to Admin mode](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
     
 6. Restart the device. You can do this a couple ways:
 
     - **Remote PowerShell** You can run the Shutdown command on the device using Remote PowerShell. For more information, see [Remote Management using PowerShell](../rooms/rooms-operations.md).
-    - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
+    - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
 
 ## Step 5: Configure Surface Hub
 
@@ -160,16 +160,16 @@ Both Windows Configuration Designer and Microsoft Intune are used to apply the C
 The following is the syntax of the Coordinated Meetings XML configuration file.
 
 ```xml
-<SurfaceHubSettings>​
-    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>​
-    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>​
-    <CoordinatedMeetings enabled="true"> ​
-        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
-        <Settings> ​
-            <Audio default="false" enabled="false" />​
-            <Video default="false" enabled="true" /> ​
-        </Settings> ​
-    </CoordinatedMeetings>​
+<SurfaceHubSettings>
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SurfaceHubSettings>
 ```
 

@@ -19,8 +19,8 @@ description: "Manage Microsoft Teams settings on Surface Hub using Microsoft Int
 
 You can manage Microsoft Teams settings on a Surface Hub using Windows Configuration Designer or Microsoft Intune in Microsoft Endpoint Manager. Knowledge of Windows Configuration Designer or Microsoft Intune is required to make changes to Teams settings. For more information about these options, see the following articles:
 
-- [Create a provisioning package for Windows 10](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-create-package)
-- [What is Microsoft Intune device management?](https://docs.microsoft.com/mem/intune/remote-actions/device-management)
+- [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
+- [What is Microsoft Intune device management?](/mem/intune/remote-actions/device-management)
 
 Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if its deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file for make changes to Teams settings on Surface Hub.
 
@@ -29,16 +29,16 @@ Windows Configuration Designer is a good option if you only have a few Surface H
 Teams configuration on a Surface Hub is defined using an XML file. The XML file contains all the settings that can be used to control how Teams works. Both Windows Configuration Designer and Microsoft Intune use the same XML syntax. Here's an example of the Teams configuration XML file:
 
 ```xml
-<SurfaceHubSettings>​
-    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>​
-    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>​
-    <CoordinatedMeetings enabled="true"> ​
-        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
-        <Settings> ​
-            <Audio default="false" enabled="false" />​
-            <Video default="false" enabled="true" /> ​
-        </Settings> ​
-    </CoordinatedMeetings>​
+<SurfaceHubSettings>
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SurfaceHubSettings>
 ```
 
@@ -96,7 +96,7 @@ Finally, after you've created the provisioning package, do the following to appl
 If your Surface Hubs are managed using Microsoft Intune in Microsoft Endpoint Management, you can use it to apply Teams settings to your Surface Hubs. You'll create a new configuration profile and then paste the XML file you created above into it.
 
 > [!IMPORTANT]
-> Your Surface Hubs need to be in a device group so that the Microsoft Intune can identify which devices to apply the configuration profile to. For information about how to create a device group, see [Add groups to organize users and devices](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
+> Your Surface Hubs need to be in a device group so that the Microsoft Intune can identify which devices to apply the configuration profile to. For information about how to create a device group, see [Add groups to organize users and devices](/mem/intune/fundamentals/groups-add).
 
 Do the following to create a configuration profile to apply Teams settings to your Surface Hubs:
 

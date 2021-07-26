@@ -81,7 +81,7 @@ In both views, an educator can access class data. Using the personal app, the ed
 At the class level, if an educator owns a class Team, Insights is available without any other action on the part of the IT Admin.
 
 ### Education leaders
-Education leaders can use Insights as a personal app available from Teams left app bar.
+Education leaders can use Insights as a [personal app](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347) available from Teams left app bar.
 
 At the organizational level, the IT admin needs to connect the student information system and assign permissions to each role to access the schools or departments relevant to them.
 
@@ -129,13 +129,15 @@ Currently, data is collected from the following areas in class teams:
 | **Assignments** |	Opening, turning in, and grade on assignments.|
 | **Channel engagement** |	Visiting a channel, creating a post, replying to and liking a post (not including chat content).|
 | **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
+| **OneNote Class Notebook** |	Editing a page or section in a notebook (not including page content).|
 | **Meetings** |	Attendance (not including meeting content).|
+| **[Reflect](reflect.md)** |	Check-ins (including values).|
 
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
 ### Privacy and security
-The information collected and shown through Insights meets [more than 90 regulatory and industry standards](https://docs.microsoft.com/compliance/regulatory/offering-home), including [GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
+The information collected and shown through Insights meets [more than 90 regulatory and industry standards](/compliance/regulatory/offering-home), including [GDPR](/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
 
 The data belongs to the institution, and Microsoft only collects the data and stores it. Microsoft personnel cannot access the data or see it, except as allowed by compliance in an audited way to maintain the service, such as data recovery.
 
@@ -171,26 +173,26 @@ To access Insights, users must have an A1, A3, or A5 faculty license for Microso
 ## Student Information System (SIS) integration
 The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.
 
-To provide organization-level Insights, we must use [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
+To provide organization-level Insights, we must use [School Data Sync (SDS)](/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly. 
 
 Viewing class-level Insights as the class educator *does not* require this because we use Teams' class structure and permissions.
 
 To learn more, read [**Sync Student Information System (SIS) data with Education Insights**](education-insights-sis-data-sync.md).
 
 ## Manage permissions
-You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
+As an IT admin you can provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 To learn more, read [**Manage user access to Education Insights**](education-insights-manage-access.md).
 
 ## Manage the setup policy
-As IT Admin, you can use the app setup policy to install Insights by default for your educators and leaders when they start Teams. With the setup policy, you can customize Teams to highlight Insights and pin it on the apps bar.
+As an IT Admin, you can use the app setup policy to install Insights by default for your educators and leaders when they start Teams. With the setup policy, you can customize Teams to highlight Insights and pin it on the apps bar.
 
 If educators want direct access to each class, they can manually install the Insights tab on the top navigation menu. This tab enables the educator to directly access the relevant data when they are in that class in Teams to see the data in the class context. 
 
 In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 > [!TIP]
-> For more details, read [Teams Policies and Policy Packages for Education](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
+> For more details, read [Teams Policies and Policy Packages for Education](./policy-packages-edu.md).
 
 ## Encourage the adoption of Insights
 Get your educational institution excited about using Insights.
@@ -203,20 +205,21 @@ Feel free to distribute the following material to your **educators**:
 *	Train yourself with the [free Insights course](https://aka.ms/insights/course) at the Microsoft Educator Center
 *	And lastly, check out [this blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) dedicated to Insights.
 
-Material for **education leaders** will be published soon.
+Material for **education leaders**:
+*	[Insights for education organizations support page](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
-## Turn Insights off or on
+## Turn Insights on or off
 By default, Insights is turned on. When you opt-out, we *delete all the data collected* for Insights. Turn Insights back on, and we start collecting data from the time it's re-enabled.
 
-### Turn off Insights using School Data Sync (SDS)
 School Data Sync (SDS) helps automate the import and synchronization of the Student Information System (SIS) data with Teams.
 
-The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn off '**Collect data for Insights**' to disable Insights. 
+The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. 
 
-:::image type="content" source="media/insights-sds-settings.png" alt-text="The on-off switch to enable or disable Insights.":::
+* To turn off/on Insights all together, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn off/on  '**Collect activity data for Insights**' to disable/enable Insights.
 
-### Turn on Insights
-If you turned off Insights, you can quickly turn it on. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn on '**Collect data for Insights**' to enable Insights
+* To turn off Insights use of School Data Sync follow the instruction in [Disabling SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
+
+* To turn it back on follow the instructions in [How to deploy SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### How to delete your data
 Insights stores student and educator actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
@@ -233,7 +236,7 @@ If you don't have an account manager, please open a ticket. Go to the [Office 36
  
 Also, verify that data collection for Insights is enabled. While it’s on by default, IT Admin may have turned it off and therefore deleted all the data held by Insights.
 
-To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Check the status of 'Collect data for Insights'.
+To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Check the status of 'Collect activity data for Insights'.
 
 If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports. 
 
@@ -253,6 +256,3 @@ Also, check that students did *not* [join the class meeting without a Teams acco
 
 > [!NOTE]
 > If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
-
-
-

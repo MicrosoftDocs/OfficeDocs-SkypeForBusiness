@@ -1,5 +1,5 @@
 ---
-title: Teams voice Contoso case study
+title: 'Teams voice Contoso case study: Auto attendants and call queues'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams voice case study for multi-national corporation
+description: 'Teams voice case study for multi-national corporation: Auto attendants and call queues'
 appliesto: 
   - Microsoft Teams
 ---
@@ -63,7 +63,7 @@ The steps to set up an auto attendant and a call queue include the following out
 
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account. 
 
-4. Assign the Phone System or a Phone System - Virtual user license to the resource account. For more information, see [Microsoft 365 Phone System – Virtual User license](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user).
+4. Assign the Phone System or a Phone System - Virtual user license to the resource account. For more information, see [Microsoft 365 Phone System – Virtual User license](./teams-add-on-licensing/virtual-user.md).
 
 5. Assign a service phone number to the resource account you assigned licenses to. 
 
@@ -87,10 +87,9 @@ Contoso had to set up the phone number provided by the local carrier as the serv
 
 Contoso had to port the phone number that was used for Skype for Business Enterprise Voice auto attendants to Office 365 Phone System. This allowed the same number to be assigned as a service number for use as an auto attendant. 
 
-- To port the phone number, Contoso followed the instructions in [Transfer phone numbers to Teams](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) and obtained additional guidance at [Manage phone numbers for your organization](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- To port the phone number, Contoso followed the instructions in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) and obtained additional guidance at [Manage phone numbers for your organization](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 - To configure a Cloud auto attendant, Contoso followed the steps outlined in [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
 
 -  To set up a Cloud call queue, Contoso followed the steps outlined in [Create a Cloud call queue](create-a-phone-system-call-queue.md).  
 
- 

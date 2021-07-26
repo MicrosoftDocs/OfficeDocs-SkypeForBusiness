@@ -26,13 +26,15 @@ description: "See what you need to do next after you've ported your phone number
 
 # What do you need to do after you have ported over your phone numbers?
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
 After you have submitted your port order, we will contact your carrier and work out the details with them. When the final transfer date has been set, we will notify you via email. However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.
   
 - Learn more about [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
     
-- You can [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) if you need to.
+- You can [Add or remove an emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) if you need to.
     
-- If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md).
+- If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](/MicrosoftTeams/add-change-remove-emergency-place-organization).
     
 - [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
@@ -50,4 +52,3 @@ After you have submitted your port order, we will contact your carrier and work 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

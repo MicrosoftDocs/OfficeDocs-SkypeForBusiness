@@ -1,5 +1,5 @@
 ---
-title: ITAdmin information for Microsoft Teams for RealWear client (Preview)
+title: IT admin information for Microsoft Teams for RealWear client (Preview)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: A, ITAdmin walkthrough of the Microsoft Teams for RealWear client.
+description: IT admin walkthrough of the Microsoft Teams for RealWear client.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -21,7 +21,7 @@ appliesto:
 ---
 # Microsoft Teams for RealWear
 
-This article covers the Microsoft Teams client for RealWear head-mounted wearables. Frontline Workers using RealWear HMT-1 and HMT-1Z1 can now collaborate with a remote expert using video calling on Teams. Through a voice-controlled user interface, Teams for RealWear allows field workers to remain 100% hands-free while maintaining situational awareness in loud and hazardous environments. By showing what they see in real-time, field workers can accelerate the time to resolve issues and reduce the risk of an expensive downtime.
+This article covers the Microsoft Teams client for RealWear head-mounted wearables. Frontline workers using RealWear HMT-1 and HMT-1Z1 can now collaborate with a remote expert using video calling on Teams. Through a voice-controlled user interface, Teams for RealWear allows field workers to remain 100% hands-free while maintaining situational awareness in loud and hazardous environments. By showing what they see in real-time, field workers can accelerate the time to resolve issues and reduce the risk of an expensive downtime.
 
 ## How to deploy Microsoft Teams for RealWear
 
@@ -38,8 +38,8 @@ Microsoft Teams licenses are part of Microsoft 365 and Office 365 subscriptions.
 
 RealWear devices can be managed using Android Device Administrator mode. Support for management via Android Enterprise is limited, as the devices currently don't have Google Mobile Services (GMS) available.
 
-- To learn more about managing RealWear devices on Microsoft Endpoint Manager, see [Android device administrator enrollment in Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator).
-- For more details on policies, see [How to use Intune in environments without Google Mobile Services](https://docs.microsoft.com/mem/intune/apps/manage-without-gms).
+- To learn more about managing RealWear devices on Microsoft Endpoint Manager, see [Android device administrator enrollment in Intune](/mem/intune/enrollment/android-enroll-device-administrator).
+- For more details on policies, see [How to use Intune in environments without Google Mobile Services](/mem/intune/apps/manage-without-gms).
 
 ### Third-party Enterprise Mobility Managers (EMMs)
 
@@ -47,4 +47,4 @@ For guidance on third-party EMMs, see [Supported Enterprise Mobility Management 
 
 ## End-user content
 
-For further reading on this from an end-user perspective, please check out [Using Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
+For further reading on this from an end-user perspective, check out [Using Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).

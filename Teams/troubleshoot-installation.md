@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Learn how to troubleshoot installation and update issues for the Teams desktop client app on Windows. 
 ---
@@ -62,7 +62,7 @@ If SquirrelTemp.log or Logs.txt don't contain sufficient information to determin
 
 ## Collect and analyze application and system logs
 
-This section describes how to collect and analyze application and system logs to get more comprehensive information to troubleshoot the issue. You'll use Sysinternals tools to complete these steps. To learn more, see [Windows Sysinternals](https://docs.microsoft.com/sysinternals/).
+This section describes how to collect and analyze application and system logs to get more comprehensive information to troubleshoot the issue. You'll use Sysinternals tools to complete these steps. To learn more, see [Windows Sysinternals](/sysinternals/).
 
 ### Collect logs
 
@@ -118,7 +118,7 @@ Troubleshooting tips:
 - To confirm that is the issue that you're experiencing, quit Teams (right-click Teams on the task bar, and then click **Quit**). Then, open Task Manager in Windows to see whether an instance of Teams is still running.  
 - If you’re not on the computer that's having this issue, inspect the SquirrelTemp.log collected from the computer that's experiencing this issue and look for a "Program: Unable to terminate the process in the log" entry.
 - To determine what's preventing Teams.exe from exiting, look at the Dlls.txt and Handles.txt logs. These tell you the processes that prevented Teams from exiting.
-- Another culprit that can prevent Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump), to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also inspect the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
+- Another culprit that can prevent Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, [ProcDump](/sysinternals/downloads/procdump), to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also inspect the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
 - To recover from this state, restart the computer.
 
 #### File permissions
@@ -136,17 +136,17 @@ If Teams is denied access because it can't write to a file, another software app
 Troubleshooting tips:
 
 - Look for "access denied" evidence in SquirrelTemp.log or Logs.txt. Check these files to see whether there was an attempt to write to a file that failed.
-- Open Icacls.txt and look for the effective access control entry (ACE) that blocks write operations by a user who is not an admin. Typically, this is in one of the DACL entries. For more information, see the [icacls documentation](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls).
+- Open Icacls.txt and look for the effective access control entry (ACE) that blocks write operations by a user who is not an admin. Typically, this is in one of the DACL entries. For more information, see the [icacls documentation](/windows-server/administration/windows-commands/icacls).
 
 #### File corrupted
 
 In some cases, encryption software can change files in the %LocalAppData%\Microsoft\Teams folder, which can prevent Teams from starting. This can happen at any time, even when the app isn't being updated. Unfortunately, when a file is corrupted, the only way to recover from this state is to uninstall and re-install Teams.
 
 > [!NOTE]
-> If you can't determine the underlying cause of the issue by using any of these steps, you may want to try a [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) session. Process Monitor is a Sysinternals tool that records access to the registry and file system.
+> If you can't determine the underlying cause of the issue by using any of these steps, you may want to try a [Process Monitor](/sysinternals/downloads/procmon) session. Process Monitor is a Sysinternals tool that records access to the registry and file system.
 
 ## Related topics
 
 - [Get clients for Teams](get-clients.md)
 - [Teams client updates](teams-client-update.md)
-- [Teams Troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)

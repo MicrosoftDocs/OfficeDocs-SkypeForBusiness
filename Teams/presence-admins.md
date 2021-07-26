@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Learn the Presence states in Teams and the administrative settings for the Presence feature.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -23,9 +23,11 @@ appliesto:
 
 Presence is part of a user's profile in Microsoft Teams (and throughout Microsoft 365 or Office 365). Presence indicates the user's current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online. Presence is updated in real time on the web and desktop versions when you refresh the page on mobile.
 
- > [!Note]
+ > [!NOTE]
  > For details about Teams user profiles on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
+ > [!NOTE]
+ > Teams respects your privacy configuration so if you have enabled the privacy mode, your presence will not be visible to external users.
 ## Presence states in Teams
 
 |User configured|App configured|
@@ -44,10 +46,11 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 |![Yellow clock icon, indicates away, be right back](media/Presence_Away.png) Be right back| |
 |![Gray circle with x, indicates Offline](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. | |
 || ![Open gray circle, indicates status unknown](media/Presence_Unknown.png) Status unknown|
-|| ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. (Available in Outlook only.) |
+|| ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
 |||
- > [!Note]
- > For users that there mailbox is hosted onprem it is expected to have presence delays with a maximun of an hour.
+ > [!NOTE]
+ > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
+
 App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
 
 Your current presence state changes to Away when you lock your computer or when your computer enters idle or sleep mode. On a mobile device, your presence status changes to Away whenever the Teams app is in the background.

@@ -19,8 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Manage large teams in Microsoft Teams - Best practices
-======================================================
+# Manage large teams in Microsoft Teams - Best practices
 
 Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Teams](limits-specifications-teams.md) for updates on team sizes. Increase in team size leads to unique management and operational challenges. This article describes best practices for creating and managing large teams comprised of thousands of members.
 
@@ -44,7 +43,7 @@ Use contact groups, security groups, or Office groups to jump start your team. Y
 
 ## Bulk import/export/remove members in a team
 
-The Azure portal allows users to bulk import/export/remove members in a Microsoft 365 Group. For more information, see [To bulk import group members](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members).
+The Azure portal allows users to bulk import/export/remove members in a Microsoft 365 Group. For more information, see [To bulk import group members](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members).
 
 Since every team is backed by a Microsoft 365 Group, you can use the Azure portal to perform these operations in the group corresponding to the team. The member operations will be reflected in the team within 24 hours.
 

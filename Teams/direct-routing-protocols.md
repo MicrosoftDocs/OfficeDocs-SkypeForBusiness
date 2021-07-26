@@ -85,4 +85,7 @@ There are two operational modes for Direct Routing:
 
 - **With media bypass** in which all RTP media flows between the Teams endpoints and the SBC. 
 
-Note that SIP traffic always flows via the SIP proxy.   
+Note that SIP traffic always flows via the SIP proxy. 
+
+## DTMF
+In-band DTMF is not supported by media stack.

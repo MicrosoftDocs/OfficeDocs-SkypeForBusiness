@@ -21,7 +21,7 @@ description: "Read this topic to learn about steps to deploy media bypass with C
 # Deploy media bypass in Cloud Connector Edition
  
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later. 
   
@@ -115,7 +115,7 @@ An administrator will also need to remove the web addresses for media bypass fro
 
 Clients will receive the web address of the media bypass web service from an internal DNS server. The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites. In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service which is local for their network. 
   
-Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
+Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](/windows-server/networking/dns/deploy/primary-geo-location).
   
 The following is an example of configuration for a company with several sites using Windows 2016 DNS Policy for Geo-Location Based Traffic Management.
   
