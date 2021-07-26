@@ -29,7 +29,7 @@ Team templates have pre-built definitions of team structures designed around fin
 
 In this article, we introduce each of the team templates and recommend how to use them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization. You've already deployed Teams service in your organization. If you haven't rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
 
 To learn more about team templates in general, refer to [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
