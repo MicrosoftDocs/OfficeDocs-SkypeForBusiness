@@ -16,6 +16,8 @@ description: "Overview of using a Cloud auto attendant with Skype for Business S
 
 # Plan Cloud call queues
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Cloud call queue is a service that accepts customer calls, plays a greeting message, and then places these calls in a wait queue while searching a pre-configured list of agents to answer these calls. You can define the set of agents in mail-enabled distribution lists or security groups. Your organization can have one or many call queues. Call queues are usually used in combination with auto attendants.
 
 In addition, Cloud call queues can provide:

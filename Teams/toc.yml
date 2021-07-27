@@ -229,10 +229,16 @@ items:
               href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
             - name: Move users to the cloud
               href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-            - name: Disable hybrid to complete migration to the cloud
-              href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+            - name: Disable hybrid to complete migration to Teams Only
+              items:
+                - name: Disable hybrid to complete migration to Teams Only
+                  href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
+                - name: Update DNS entries
+                  ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                - name: Decide how to manage attributes after decommissioning
+                  href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
             - name: Move application endpoints to the cloud
-              href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
+              href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
             - name: Remove your Skype for Business deployment
               href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
         - name: Deploy a resource forest topology
@@ -288,6 +294,8 @@ items:
           href: legal-hold.md
         - name: Content search
           href: content-search.md
+        - name: Teams workflow in Advanced eDiscovery
+          href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
         - name: Auditing
           href: audit-log-events.md
         - name: Customer key
@@ -570,14 +578,15 @@ items:
       href: supervised-chat-non-edu.md  
     
 
-- name: Meetings, conferencing, and live events
+- name: Meetings and audio conferencing
   items: 
-    - name: Quick start - meetings and live events
-      href: quick-start-meetings-live-events.md
+    
     - name: Plan your deployment
       href: deploy-meetings-microsoft-teams-landing-page.md
-    - name: Meetings
+    - name: Meetings, webinars, and live events
       items:
+        - name: Quick start 
+          href: quick-start-meetings-live-events.md
         - name: Manage meeting policies
           items: 
             - name: Overview
@@ -598,46 +607,65 @@ items:
                   href: meeting-policies-participants-and-guests.md
                 - name: Remove the RestrictedAnonymousAccess meeting policy from users
                   href: meeting-policies-restricted-anonymous-access.md
+        - name: Meeting policies and meeting expiration
+          href: meeting-expiration.md
         - name: Manage meetings settings
           href: meeting-settings-in-teams.md
         - name: Emails sent to users when their settings change
           href: emails-sent-to-users-when-their-settings-change-in-teams.md
-        - name: Enable users to record their name when they join a meeting
-          href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-        - name: Turn on or off entry and exit announcements for meetings
-          href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-        - name: Use NDI® technology in Teams
-          href: use-NDI-in-meetings.md
-        - name: Raise your hand option in Teams meetings
-          href: raise-hand-meetings.md
-        - name: Teams meetings on unsupported browsers
-          href: unsupported-browsers.md
-        - name: Configure desktop sharing in Teams
-          href: configure-desktop-sharing.md
-        - name: Teams cloud meeting recording
-          href: cloud-recording.md
-        - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
-          href: tmr-meeting-recording-change.md
-        - name: Contact Center integrations
-          href: teams-contact-center.md
-        - name: Use the Teams Meeting add-in in Outlook
-          href: teams-add-in-for-outlook.md
-        - name: Configure the Skype Meetings App to work with Teams
-          href: configure-skype-meetings-app-to-work-with-teams.md 
-        - name: Set up the Call me feature for your users
-          href: set-up-the-call-me-feature-for-your-users.md
-        - name: Get a meeting attendance report
-          href: teams-analytics-and-reports/meeting-attendance-report.md
-        - name: Setting up the Meeting Migration Service (MMS)
+        - name: Manage meetings and meeting features
+          items:
+            - name: Enable users to record their name when they join a meeting
+              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+            - name: Turn on or off entry and exit announcements for meetings
+              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+            - name: Use NDI® technology in Teams
+              href: use-NDI-in-meetings.md
+            - name: Teams meetings on unsupported browsers
+              href: unsupported-browsers.md
+            - name: Configure desktop sharing in Teams
+              href: configure-desktop-sharing.md
+            - name: Teams cloud meeting recording
+              href: cloud-recording.md
+            - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
+              href: tmr-meeting-recording-change.md
+            - name: Contact Center integrations
+              href: teams-contact-center.md
+            - name: Use the Teams Meeting add-in in Outlook
+              href: teams-add-in-for-outlook.md
+            - name: Configure the Skype Meetings App to work with Teams
+              href: configure-skype-meetings-app-to-work-with-teams.md 
+            - name: Set up the Call me feature for your users
+              href: set-up-the-call-me-feature-for-your-users.md
+            - name: Get a meeting attendance report
+              href: teams-analytics-and-reports/meeting-attendance-report.md
+            - name: Manage the Whiteboard in Teams
+              href: manage-whiteboard.md
+            - name: Set up Teams meeting add-on for Google Workspace
+              href: google-workspace-addon-teams.md
+            - name: Cloud Video Interop
+              href: cloud-video-interop.md
+            - name: View-only meeting experience
+              href: view-only-meeting-experience.md
+        - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Manage the Whiteboard in Teams
-          href: manage-whiteboard.md
-        - name: Set up Teams meeting add-on for Google Workspace
-          href: google-workspace-addon-teams.md
-        - name: Cloud Video Interop
-          href: cloud-video-interop.md
         - name: Set up for webinars in Microsoft Teams
-          href: set-up-webinars.md
+          href: set-up-webinars.md 
+
+        - name: Live events
+          items: 
+            - name: What are Teams live events?
+              href: teams-live-events/what-are-teams-live-events.md
+            - name: Plan for Teams lives events
+              href: teams-live-events/plan-for-teams-live-events.md
+            - name: Set up for Teams live events
+              href: teams-live-events/set-up-for-teams-live-events.md
+            - name: Use PowerShell to set Teams live events policies
+              href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+            - name: Configure Teams live events settings
+              href: teams-live-events/configure-teams-live-events.md
+            - name: Live events recording policies
+              href: teams-live-events/live-events-recording-policies.md
     - name: Audio conferencing
       items: 
         - name: Plan your deployment
@@ -728,20 +756,7 @@ items:
               href: audio-conferencing-zones.md
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
-    - name: Live events
-      items: 
-        - name: What are Teams live events?
-          href: teams-live-events/what-are-teams-live-events.md
-        - name: Plan for Teams lives events
-          href: teams-live-events/plan-for-teams-live-events.md
-        - name: Set up for Teams live events
-          href: teams-live-events/set-up-for-teams-live-events.md
-        - name: Use PowerShell to set Teams live events policies
-          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-        - name: Configure Teams live events settings
-          href: teams-live-events/configure-teams-live-events.md
-        - name: Live events recording policies
-          href: teams-live-events/live-events-recording-policies.md
+
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
@@ -814,7 +829,7 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
-            - name: Support Teams in your organization
+            - name: Known issues
               href: rooms/known-issues.md
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
@@ -827,8 +842,6 @@ items:
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Manage voice and calling policies in Teams
-      href: voice-and-calling-policies.md
     - name: Phone System
       items: 
         - name: What is Phone System
@@ -889,100 +902,104 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
-    - name: Calling Plans
-      items: 
-        - name: Which Calling Plan is right for you?
-          href: calling-plan-landing-page.md
-        - name: How to buy a Calling Plan
-          href: calling-plans-for-office-365.md
-        - name: Set up Calling Plans for your organization
-          href: set-up-calling-plans.md
-        - name: "Quick start guide: Configuring Calling Plans"
-          href: configuring-teams-calling-quickstartguide.md
-        - name: Country and region availability for Calling Plans
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-    - name: Phone System Direct Routing
-      items: 
+
+    - name: PSTN connectivity options
+      items:
         - name: Overview
-          href: direct-routing-landing-page.md
-        - name: Plan Direct Routing
-          href: direct-routing-plan.md
-        - name: List of Session Border Controllers certified for Direct Routing
-          href: direct-routing-border-controllers.md
-        - name: Configure Direct Routing
+          href: pstn-connectivity.md
+        - name: Calling Plans
+          items: 
+            - name: Which Calling Plan is right for you?
+              href: calling-plan-landing-page.md
+            - name: Set up Calling Plans for your organization
+              href: set-up-calling-plans.md
+            - name: "Quick start guide: Configuring Calling Plans"
+              href: configuring-teams-calling-quickstartguide.md
+            - name: Country and region availability for Calling Plans
+              href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+        - name: Operator Connect
+          items: 
+            - name: Plan for Operator Connect
+              href: operator-connect-plan.md
+            - name: Configure Operator Connect
+              href: operator-connect-configure.md
+        - name: Direct Routing
           items: 
             - name: Overview
-              href: direct-routing-configure.md
-            - name: "Step 1: Connect your SBC"
-              href: direct-routing-connect-the-sbc.md
-            - name: "Step 2: Enable users"
-              href: direct-routing-enable-users.md
-            - name: "Step 3: Configure voice routing"
-              href: direct-routing-voice-routing.md
-            - name: "Step 4: Translate phone numbers"
-              href: direct-routing-translate-numbers.md
-            - name: Configure an SBC for multiple tenants
-              href: direct-routing-sbc-multiple-tenants.md
-            - name: How to use analog devices with Direct Routing
-              href: direct-routing-analog-devices.md
-        - name: Location-Based Routing
-          items: 
-            - name: Plan Location-Based Routing for Direct Routing
-              href: location-based-routing-plan.md
-            - name: Configure network settings for Location-Based Routing
-              href: location-based-routing-configure-network-settings.md
-            - name: Enable Location-Based Routing for Direct Routing
-              href: location-based-routing-enable.md
-        - name: Media bypass for Direct Routing
-          items: 
-            - name: Plan for media bypass with Direct Routing
-              href: direct-routing-plan-media-bypass.md
-            - name: Configure media bypass with Direct Routing
-              href: direct-routing-configure-media-bypass.md
-        - name: Local Media Optimization for Direct Routing
-          items: 
-            - name: Plan for Local Media Optimization
-              href: direct-routing-media-optimization.md
-            - name: Configure Local Media Optimization
-              href: direct-routing-media-optimization-configure.md
-        - name: User accounts in a hybrid environment with PSTN connectivity
-          href: direct-routing-user-accounts-in-a-hybrid-environment.md
-        - name: Migrate to Direct Routing
-          href: direct-routing-migrating.md
-        - name: Monitor and troubleshoot Direct Routing
-          items: 
-            - name: Overview
-              href: direct-routing-monitor-and-troubleshoot.md
-            - name: Health Dashboard
-              href: direct-routing-health-dashboard.md
-        - name: Technical reference for Direct Routing
-          items: 
-            - name: Trunk failover on outbound calls
-              href: direct-routing-trunk-failover-on-outbound-call.md
-            - name: Media path country codes
-              href: direct-routing-country-codes.md
-            - name: PowerShell script to test Session Border Controller connections
-              href: sip-tester-powershell-script.md
-            - name: Manage call notifications
-              href: direct-routing-call-notifications.md
-            - name: Protocols
+              href: direct-routing-landing-page.md
+            - name: Plan Direct Routing
+              href: direct-routing-plan.md
+            - name: List of Session Border Controllers certified for Direct Routing
+              href: direct-routing-border-controllers.md
+            - name: Configure Direct Routing
               items: 
-                - name: Definitions and RFC standards
-                  href: direct-routing-protocols.md
-                - name: SIP protocol
-                  href: direct-routing-protocols-SIP.md
-                - name: Media protocols
-                  href: direct-routing-protocols-media.md
-            - name: Manage voice routing policies
-              href: manage-voice-routing-policies.md
-            - name: Direct Routing Survivable Branch Appliance
-              href: direct-routing-survivable-branch-appliance.md
-    - name: Operator Connect
-      items: 
-        - name: Plan for Operator Connect
-          href: operator-connect-plan.md
-        - name: Configure Operator Connect
-          href: operator-connect-configure.md
+                - name: Overview
+                  href: direct-routing-configure.md
+                - name: "Step 1: Connect your SBC"
+                  href: direct-routing-connect-the-sbc.md
+                - name: "Step 2: Enable users"
+                  href: direct-routing-enable-users.md
+                - name: "Step 3: Configure voice routing"
+                  href: direct-routing-voice-routing.md
+                - name: "Step 4: Translate phone numbers"
+                  href: direct-routing-translate-numbers.md
+                - name: Configure an SBC for multiple tenants
+                  href: direct-routing-sbc-multiple-tenants.md
+                - name: How to use analog devices with Direct Routing
+                  href: direct-routing-analog-devices.md
+                - name: Manage voice routing policies
+                  href: manage-voice-routing-policies.md
+                - name: Manage call notifications
+                  href: direct-routing-call-notifications.md
+            - name: Location-Based Routing
+              items: 
+                - name: Plan Location-Based Routing for Direct Routing
+                  href: location-based-routing-plan.md
+                - name: Configure network settings for Location-Based Routing
+                  href: location-based-routing-configure-network-settings.md
+                - name: Enable Location-Based Routing for Direct Routing
+                  href: location-based-routing-enable.md
+            - name: Media bypass for Direct Routing
+              items: 
+                - name: Plan for media bypass with Direct Routing
+                  href: direct-routing-plan-media-bypass.md
+                - name: Configure media bypass with Direct Routing
+                  href: direct-routing-configure-media-bypass.md
+            - name: Local Media Optimization for Direct Routing
+              items: 
+                - name: Plan for Local Media Optimization
+                  href: direct-routing-media-optimization.md
+                - name: Configure Local Media Optimization
+                  href: direct-routing-media-optimization-configure.md
+            - name: User accounts in a hybrid environment with PSTN connectivity
+              href: direct-routing-user-accounts-in-a-hybrid-environment.md
+            - name: Migrate to Direct Routing
+              href: direct-routing-migrating.md
+            - name: Monitor and troubleshoot Direct Routing
+              items: 
+                - name: Overview
+                  href: direct-routing-monitor-and-troubleshoot.md
+                - name: Health Dashboard
+                  href: direct-routing-health-dashboard.md
+            - name: Technical reference for Direct Routing
+              items: 
+                - name: Trunk failover on outbound calls
+                  href: direct-routing-trunk-failover-on-outbound-call.md
+                - name: Media path country codes
+                  href: direct-routing-country-codes.md
+                - name: PowerShell script to test Session Border Controller connections
+                  href: sip-tester-powershell-script.md
+                - name: Protocols
+                  items: 
+                    - name: Definitions and RFC standards
+                      href: direct-routing-protocols.md
+                    - name: SIP protocol
+                      href: direct-routing-protocols-SIP.md
+                    - name: Media protocols
+                      href: direct-routing-protocols-media.md
+                - name: Direct Routing Survivable Branch Appliance
+                  href: direct-routing-survivable-branch-appliance.md
+              
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
@@ -1047,8 +1064,10 @@ items:
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
           href: manage-emergency-calling-policies.md
-        - name: Manage emergency call routing policies
+        - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
+    - name: Manage voice and calling policies in Teams
+      href: voice-and-calling-policies.md
     - name: Contoso voice migration case study
       items: 
         - name: Overview
@@ -1475,6 +1494,8 @@ items:
               href: class-insights.md
             - name: Sync SIS data with Insights
               href: education-insights-sis-data-sync.md
+            - name: Manage user access to Insights
+              href: education-insights-manage-access.md              
             - name: Get started with Reflect
               href: reflect.md      
         - name: Assignments in Teams for Education
@@ -1491,13 +1512,13 @@ items:
           href: sku-reference-edu.md
     - name: Teams for Frontline Workers
       items: 
-        - name: Quickstart for Frontline Workers
+        - name: Frontline Worker quick start guide
           href: flw-quickstart.yml
-        - name: Frontline workers scripted deployment
+        - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
-        - name: Manage shift-based access for Frontline Workers
+        - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: RealWear for Microsoft Teams
+        - name: RealWear for Teams
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
@@ -1573,8 +1594,6 @@ items:
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: How SharePoint Online and OneDrive for Business interact with Teams
           href: sharepoint-onedrive-interact.md
-        - name: Teams experience in a Microsoft 365 or Office 365 Multi-Geo-enabled tenancy
-          href: teams-experience-o365odb-spo-multi-geo.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams

@@ -31,10 +31,6 @@ appliesto:
 
 Cortana voice assistance in the Teams mobile app, on Microsoft Teams Rooms on Windows, and on Microsoft Teams display devices enables Microsoft 365 Enterprise users to streamline communication, collaboration, and meeting-related tasks using spoken natural language. Users can speak to Cortana by selecting the microphone button located in the upper right of the Teams mobile app, or by saying &#8220;Cortana&#8221; in the Microsoft Teams Room or when using a Microsoft Teams display. To quickly connect with their team hands-free and while on the go, users can say queries such as &#8220;call Megan&#8221; or &#8220;send a message to my next meeting&#8221;. Users can also join meetings by saying &#8220;join my next meeting&#8221; and use voice assistance to share files, check their calendar, and more. These voice assistance experiences are delivered using [Cortana enterprise-grade services](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) that fully comply with Office 365's privacy, security, and compliance promises as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
 
-The image shows sending a chat using Cortana on a mobile device.
-
-![a sequence of mobile screens showing a Cortana chat session](media/cortana-on-teams-mobile.png)
-
 ## Admin control and limitations
 
 Cortana voice assistance in Teams is delivered using services that fully comply with the Office 365 enterprise-level privacy, security, and compliance promises as reflected in the Online Services Terms (OST). The feature will be enabled by default for tenants.
@@ -89,22 +85,6 @@ Individual users can try Cortana voice assistance in different devices:
 
 You can control whether Cortana in Teams is enabled for your device by using a setting in the device.
 
-### Teams mobile app or the Microsoft Teams display
-
-  1. Open the Teams mobile app.
-
-  2. Select **Settings** > **Cortana**.
-
-  3. Move the toggle **On** or **Off**.
-
-### Microsoft Teams display
-
-  1. Go to the ambient (home) screen of the Microsoft Teams display.
-
-  2. Select the user avatar, and then select **Settings**. If Cortana is enabled, say, "Cortana, go to Settings."
-
-  3. Move the toggle **On** or **Off**.
-  
 ### Microsoft Teams Rooms on Windows
 
 Making changes at the device level is available if Cortana is enabled at the tenant level. Cortana will be released OFF by default.
