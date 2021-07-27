@@ -2508,7 +2508,7 @@
     {
       "source_path": "Teams/release-notes/release-notes.md",
       "redirect_url": "/OfficeUpdates/teams-admin",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ] 
 }
