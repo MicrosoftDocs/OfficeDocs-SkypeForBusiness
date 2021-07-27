@@ -101,10 +101,6 @@ To create an app setup policy to install apps, do the following steps:
 
 ![Install app policy.](media/install-apps-in-meeting.png)
 
-To see the apps installed by admins, in the app bar, users select **... More added apps** in the Teams desktop and web clients and swipe up in the mobile clients.
-
-![User view for installed meeting apps.](media/installed-by-admin.png)
-
 > [!IMPORTANT]
 > Users can't uninstall apps that are installed by admins.
 
