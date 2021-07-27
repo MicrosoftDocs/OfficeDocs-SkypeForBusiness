@@ -22,6 +22,8 @@ description: "Migrate hyrid application endpoints before decommissioning a Skype
 
 # Migrate hybrid application endpoints before decommissioning your on-premises environment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article describes how to move required hybrid application endpoints to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 3 of the following steps to decommission your on-premises environment:
 
 - Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md)
@@ -51,7 +53,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Because it's possible that phone numbers for these accounts were managed in Microsoft 365 instead of on-premises, run the following command in Skype for Business Online PowerShell:
+5. Because it's possible that phone numbers for these accounts were managed in Microsoft 365 instead of on-premises, run the following command in Teams PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

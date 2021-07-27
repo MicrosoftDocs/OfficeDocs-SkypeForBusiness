@@ -25,6 +25,9 @@ description: "This article describes how to manage attributes after decommission
 
 # Decide how to manage attributes after decommissioning
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
 By default, all users that were previously enabled for Skype for Business Server and subsequently moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory. 
 
 These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and potentially phone number (msRTCSIP-Line), continue to sync into Azure AD. If changes are required to any of the msRTCSIP attributes, these changes must be made in the on-premises Active Directory and then sync'd to Azure AD. However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools will not be available to manage these attributes.
@@ -51,7 +54,7 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
   ![Active Directory users and computers tool](../media/disable-hybrid-1.png)
   
--  If the user did not originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the -`onpremLineUri` parameter in the [Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps) in the Skype for Business Online PowerShell module.
+-  If the user did not originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the -`onpremLineUri` parameter in the [Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps) in the Teams PowerShell module.
 
 These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you are comfortable using the mix of these method as well as with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can simply re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Method 2.
 
@@ -132,13 +135,13 @@ This option requires additional effort and proper planning because users who wer
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. Wait for user provisioning to complete. You can monitor user provisioning progress by running the following Skype for Business Online PowerShell command. The following Skype for Business Online PowerShell command returns an empty result as soon process is completed.
+7. Wait for user provisioning to complete. You can monitor user provisioning progress by running the following Teams PowerShell command. The following Teams PowerShell command returns an empty result as soon process is completed.
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. Execute the following Skype for Business Online PowerShell command to assign phone numbers and enable users for Phone System:
+8. Execute the following Teams PowerShell command to assign phone numbers and enable users for Phone System:
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -153,7 +156,7 @@ This option requires additional effort and proper planning because users who wer
    > [!Note]
    >  If you still have Skype for Business endpoints (either Skype clients or 3rd party phones), you will also want to set -HostedVoiceMail to $true. If your organization is only using Teams endpoints for voice enabled users, this setting is not applicable to your users. 
 
-9. Confirm users with Phone System functionality have been provisioned correctly. The following Skype for Business Online PowerShell command returns an empty result as soon process is completed.
+9. Confirm users with Phone System functionality have been provisioned correctly. The following Teams PowerShell command returns an empty result as soon process is completed.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -179,11 +182,13 @@ This option requires additional effort and proper planning because users who wer
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-    Skype for Business Online PowerShell command:
+
+    Teams PowerShell command:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+
 12. After you have completed all steps in Method 2, see [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) and [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.
 
 
