@@ -2505,5 +2505,10 @@
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/patients-app-overview",
       "redirect_document_id": true
     }
+    {
+      "source_path": "Teams/release-notes/release-notes.md",
+      "redirect_url": "/OfficeUpdates/teams-admin",
+      "redirect_document_id": true
+    }
   ] 
 }
